@@ -15,6 +15,8 @@ The rules are simple. You have to:
 - Please make sure that the code is indeed your own, and not copied from someone else
 - That's it!
 
+**All discussions around this event can now be had in our #hacktoberfest-2019 channel on Discord!**
+
 # How to contribute
 
 If you've never forked a repository or made a pull request before, we recommend making your first one over at [https://github.com/zero-to-mastery/start-here-guidelines](https://github.com/zero-to-mastery/start-here-guidelines). That will count towards your total, and then you'll be ready to take on this challenge with your new GitHub skills!
