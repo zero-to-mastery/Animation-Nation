@@ -7,6 +7,14 @@ let cards = [
       author: "Joy",
       githubLink: "https://github.com/royranger"
     }
+
+    {
+      artName: "SquarPy",
+      pageLink: "./Art/Utkarsh/index.html",
+      imageLink: "./Art/Utkarsh/hack.gif",
+      author: "utkarsh",
+      githubLink: "https://github.com/Utkarsh2604"
+    }
 ];
 
 
