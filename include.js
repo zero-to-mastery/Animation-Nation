@@ -1,23 +1,12 @@
 let cards = [
-<<<<<<< master
     //  Add your card in this section
-    {
-      artName: "Triangle",
-      pageLink: "./Art/Joy/triangle.html",
-      imageLink: "./Art/Joy/triangle.gif",
-      author: "Joy",
-      githubLink: "https://github.com/royranger"
-    }
-=======
-  //  Add your card in this section
    {
       artName: "SquarPy",
       pageLink: "./Art/Utkarsh/index.html",
       imageLink: "./Art/Utkarsh/hack.gif",
       author: "utkarsh",
       githubLink: "https://github.com/Utkarsh2604"
-    },
-  
+  },
   {
     artName: "Circle",
     pageLink: "./Art/Oliver/art-oliver.html",
@@ -39,7 +28,6 @@ let cards = [
     author: "Joy",
     githubLink: "https://github.com/royranger"
   }
->>>>>>> master
 ];
 
 // +--------------------------------------------------------------------------------+
