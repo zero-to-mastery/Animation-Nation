@@ -1,0 +1,44 @@
+.row {
+	display: flex;
+}
+
+.row2 {
+	display: flex;
+}
+
+.column {
+	position: relative;
+	flex: 33.33%;
+	padding: 5px;
+	margin: 20px;
+}
+
+.button {
+	background-color: #4aaaa5;
+	border: none;
+	padding: 100px 100px;
+	display: inline-block;
+	border-radius: 12px;
+	-webkit-animation-name: button;
+	-webkit-animation-duration: 4s;
+	animation-name: button;
+	animation-duration: 4s;
+}
+
+@-webkit-keyframes button {
+	from {
+		background-color: #4aaaa5;
+	}
+	to {
+		background-color: #ffffff;
+	}
+}
+
+@keyframes button {
+	from {
+		background-color: #4aaaa5;
+	}
+	to {
+		background-color: #ffffff;
+	}
+}
