@@ -1,12 +1,18 @@
 let cards = [
   //  Add your card in this section
-
   {
     artName: "Circle",
     pageLink: "./Art/Oliver/art-oliver.html",
     imageLink: "./Art/Oliver/circle.gif",
     author: "Oliver",
     githubLink: "https://github.com/oliver-gomes"
+  },
+  {
+    artName: "Ellipse Loader",
+    pageLink: "./Art/VaibhavKhulbe/EllipseLoader.html",
+    imageLink: "./Art/VaibhavKhulbe/ellipseLoader.gif",
+    author: "Vaibhav Khulbe",
+    githubLink: "https://github.com/Kvaibhav01"
   },
   {
     artName: "Triangle",
