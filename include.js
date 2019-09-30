@@ -1,4 +1,5 @@
 let cards = [
+<<<<<<< master
     //  Add your card in this section
     {
       artName: "Triangle",
@@ -7,16 +8,39 @@ let cards = [
       author: "Joy",
       githubLink: "https://github.com/royranger"
     }
-
-    {
+=======
+  //  Add your card in this section
+   {
       artName: "SquarPy",
       pageLink: "./Art/Utkarsh/index.html",
       imageLink: "./Art/Utkarsh/hack.gif",
       author: "utkarsh",
       githubLink: "https://github.com/Utkarsh2604"
-    }
+    },
+  
+  {
+    artName: "Circle",
+    pageLink: "./Art/Oliver/art-oliver.html",
+    imageLink: "./Art/Oliver/circle.gif",
+    author: "Oliver",
+    githubLink: "https://github.com/oliver-gomes"
+  },
+  {
+    artName: "Ellipse Loader",
+    pageLink: "./Art/VaibhavKhulbe/EllipseLoader.html",
+    imageLink: "./Art/VaibhavKhulbe/ellipseLoader.gif",
+    author: "Vaibhav Khulbe",
+    githubLink: "https://github.com/Kvaibhav01"
+  },
+  {
+    artName: "Triangle",
+    pageLink: "./Art/Joy/triangle.html",
+    imageLink: "./Art/Joy/triangle.gif",
+    author: "Joy",
+    githubLink: "https://github.com/royranger"
+  }
+>>>>>>> master
 ];
-
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -28,23 +52,26 @@ let cards = [
 // You don't need to modify this
 let contents = [];
 Shuffle(cards).forEach(c => {
-    contents.push([
-        `<li class="card">` +
-          `<a href='${c.pageLink}'>` +
-            `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-          `</a>` +
-          `<div class="flex-content">` +
-            `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-            `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-          `</div>` +
-        `</li>`
-    ])
+  contents.push([
+    `<li class="card">` +
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
+  ]);
 });
-
 
 document.getElementById("cards").innerHTML = contents;
 
 function Shuffle(o) {
-    for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-    return o;
-};
+  for (
+    var j, x, i = o.length;
+    i;
+    j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
+  );
+  return o;
+}
