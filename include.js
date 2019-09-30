@@ -9,7 +9,7 @@ let cards = [
   },
   {
     artName: "Circle",
-    pageLink: "./Art/Oliver/art-oliver.html",
+    pageLink: "./Art/Oliver/Circle.html",
     imageLink: "./Art/Oliver/circle.gif",
     author: "Oliver",
     githubLink: "https://github.com/oliver-gomes"
