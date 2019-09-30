@@ -1,0 +1,147 @@
+/*Setup*/
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #1c1c22; /*dark blueishblack*/
+  background-image: url("./t30@2.jpg"); /*star bg  https://www.toptal.com/designers/subtlepatterns/stardust/*/
+}
+
+/*elements*/
+.universe {
+  height: 800px;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.world {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  background-color: #ffc0cb; /*pink*/
+  position: relative;
+  z-index: 1;
+}
+
+.moon {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: #14b37d; /*Green*/
+  position: absolute;
+  top: 50%;
+  animation: moon-animation 3s ease-in-out 0s infinite;
+}
+
+/*This is a container for our moon that we can easily rotate and keep the moon animation simple*/
+.moon-path {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  animation: path-animation 15s linear 0s infinite;
+}
+
+/*animation*/
+
+@keyframes moon-animation {
+  0% {
+    left: 0%;
+    transform: translateY(-50%) scale(1.2);
+  }
+  50% {
+    left: 540px; /*We could change this to 100% to give it an even more sling shot effect, 540px keeps it in range*/
+    transform: translateY(-50%) scale(0.7);
+  }
+  100% {
+    left: 0%;
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+
+/*Whoa, whoa, whoa! why so many key frames? 
+ *The index needs to flip every 1.5 seconds from 0 to 1.
+ *For example the first 1.5 seconds is the first time the moon reaches the opisite side of the world
+ *It then changes index to 0 to stay hidden behind the planet untill it reaches the start again
+ *This is why we need 9% for example, we need to make sure the index is at 1 untill the very last frame
+*/
+@keyframes path-animation {
+  0% {
+    z-index: 1;
+    transform: rotate(0);
+  }
+  9% {
+    z-index: 1;
+  }
+  10% {
+    z-index: 0;
+  }
+  19% {
+    z-index: 0;
+  }
+  20% {
+    z-index: 1;
+  }
+  29% {
+    z-index: 1;
+  }
+  30% {
+    z-index: 0;
+  }
+  39% {
+    z-index: 0;
+  }
+  40% {
+    z-index: 1;
+  }
+  49% {
+    z-index: 1;
+  }
+  50% {
+    z-index: 0;
+  }
+  59% {
+    z-index: 0;
+  }
+  60% {
+    z-index: 1;
+  }
+  69% {
+    z-index: 1;
+  }
+  70% {
+    z-index: 0;
+  }
+  79% {
+    z-index: 0;
+  }
+  80% {
+    z-index: 1;
+  }
+  89% {
+    z-index: 1;
+  }
+  90% {
+    z-index: 0;
+  }
+  99% {
+    z-index: 0;
+  }
+  100% {
+    z-index: 1;
+    transform: rotate(360deg);
+  }
+}

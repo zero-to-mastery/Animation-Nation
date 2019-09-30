@@ -1,11 +1,17 @@
 let cards = [
-	//  Add your card in this section
   {
     artName: "wake up, neo...",
     pageLink: "./Art/samirjouni/TributeToTheMatrix.html",
     imageLink: "./Art/samirjouni/sample.gif",
     author: "Samir Jouni",
     githubLink: "https://github.com/samirjouni"
+  },
+  {
+    artName: "Planet",
+    pageLink: "./Art/ArthurDoom/planet.html",
+    imageLink: "./Art/ArthurDoom/planet.gif",
+    author: "ArthurDoom",
+    githubLink: "https://github.com/ArthurDoom"
   },
 	{
 		artName: "SquarPy",
