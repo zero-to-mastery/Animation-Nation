@@ -1,16 +1,10 @@
 let cards = [
   //  Add your card in this section
+
   {
-    artName: "Iron Man 🚀",
-    pageLink: "./Art/Iron Man/iron-man.html",
-    imageLink: "./Art/Iron Man/iron-man.gif",
-    author: "Oliver",
-    githubLink: "https://github.com/oliver-gomes"
-  },
-  {
-    artName: "Beware!! Wizard here 🧙‍♂️",
+    artName: "Circle",
     pageLink: "./Art/Oliver/art-oliver.html",
-    imageLink: "./Art/Oliver/hp.gif",
+    imageLink: "./Art/Oliver/circle.gif",
     author: "Oliver",
     githubLink: "https://github.com/oliver-gomes"
   },
