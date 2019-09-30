@@ -1,11 +1,11 @@
 let cards = [
   //  Add your card in this section
   {
-    artName: "Triangle",
-    pageLink: "./Art/Joy/triangle.html",
-    imageLink: "./Art/Joy/triangle.gif",
-    author: "Joy",
-    githubLink: "https://github.com/royranger"
+    artName: "Circle",
+    pageLink: "./Art/Oliver/art-oliver.html",
+    imageLink: "./Art/Oliver/circle.gif",
+    author: "Oliver",
+    githubLink: "https://github.com/oliver-gomes"
   },
   {
     artName: "Ellipse Loader",
@@ -13,6 +13,13 @@ let cards = [
     imageLink: "./Art/VaibhavKhulbe/ellipseLoader.gif",
     author: "Vaibhav Khulbe",
     githubLink: "https://github.com/Kvaibhav01"
+  },
+  {
+    artName: "Triangle",
+    pageLink: "./Art/Joy/triangle.html",
+    imageLink: "./Art/Joy/triangle.gif",
+    author: "Joy",
+    githubLink: "https://github.com/royranger"
   }
 ];
 
