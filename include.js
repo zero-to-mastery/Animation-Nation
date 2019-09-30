@@ -1,11 +1,11 @@
 let cards = [
-    //  Add your card in this section
-   {
-      artName: "SquarPy",
-      pageLink: "./Art/Utkarsh/index.html",
-      imageLink: "./Art/Utkarsh/hack.gif",
-      author: "utkarsh",
-      githubLink: "https://github.com/Utkarsh2604"
+  //  Add your card in this section
+  {
+    artName: "SquarPy",
+    pageLink: "./Art/Utkarsh/index.html",
+    imageLink: "./Art/Utkarsh/hack.gif",
+    author: "utkarsh",
+    githubLink: "https://github.com/Utkarsh2604"
   },
   {
     artName: "Circle",
@@ -27,6 +27,13 @@ let cards = [
     imageLink: "./Art/Joy/triangle.gif",
     author: "Joy",
     githubLink: "https://github.com/royranger"
+  },
+  {
+    artName: "Planet",
+    pageLink: "./Art/ArthurDoom/planet.html",
+    imageLink: "./Art/ArthurDoom/planet.gif",
+    author: "ArthurDoom",
+    githubLink: "https://github.com/ArthurDoom"
   }
 ];
 
