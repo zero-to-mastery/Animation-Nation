@@ -1,5 +1,12 @@
 let cards = [
-  //  Add your card in this section
+    //  Add your card in this section
+   {
+      artName: "SquarPy",
+      pageLink: "./Art/Utkarsh/index.html",
+      imageLink: "./Art/Utkarsh/hack.gif",
+      author: "utkarsh",
+      githubLink: "https://github.com/Utkarsh2604"
+  },
   {
     artName: "Circle",
     pageLink: "./Art/Oliver/art-oliver.html",
