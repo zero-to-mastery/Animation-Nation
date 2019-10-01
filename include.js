@@ -97,7 +97,15 @@ let cards = [
     imageLink: "./Art/Edmund/circle-bounce.gif",
     author: "Edmund",
     githubLink: "https://github.com/edmund1645"
-  }
+	},
+	{
+    artName: "Name Rotator",
+    pageLink: "./Art/Meet/name.html",
+    imageLink: "./Art/Meet/name.gif",
+    author: "Meet",
+    githubLink: "https://github.com/Meet1103"
+	}
+	
 ];
 
 // +--------------------------------------------------------------------------------+
