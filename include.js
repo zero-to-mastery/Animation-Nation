@@ -57,13 +57,6 @@ let cards = [
     githubLink: "https://github.com/Kvaibhav01"
   },
   {
-    artName: "Triangle",
-    pageLink: "./Art/Joy/triangle.html",
-    imageLink: "./Art/Joy/triangle.gif",
-    author: "Joy",
-    githubLink: "https://github.com/royranger"
-  },
-  {
     artName: "Simple Loader",
     pageLink: "./Art/soumsps/simpleload.html",
     imageLink: "./Art/soumsps/sample.gif",
