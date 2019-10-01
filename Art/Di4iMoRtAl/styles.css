@@ -1,0 +1,118 @@
+body {
+  font-family: "Mansalva", cursive;
+  font-size: 6rem;
+  background: #204066;
+}
+
+div {
+  width: 80%;
+  margin: 30vh auto;
+  text-align: center;
+  perspective: 800px;
+}
+
+span {
+  display: inline-block;
+  margin-left: -10px;
+  color: white;
+  transform-origin: 50% 70%;
+}
+
+.zero {
+  font-size: 10rem;
+}
+
+.mastery {
+  color: #ece810;
+  font-size: 10rem;
+}
+
+span:nth-child(2n) {
+  color: #58719b;
+}
+
+span:nth-child(1) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) both,
+    flipDown 0.5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 2s forwards,
+    swing 4s cubic-bezier(0.45, 0.03, 0.51, 0.95) forwards 4.1s;
+}
+
+span:nth-child(2) {
+  margin-right: 30px;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 0.2s both,
+    flipDown 0.5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 2.2s forwards,
+    swing 4s cubic-bezier(0.45, 0.03, 0.51, 0.95) forwards 3.8s;
+}
+
+span:nth-child(3) {
+  margin-right: 30px;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 0.4s both,
+    flipDown 0.5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 2.4s forwards,
+    swing 4s cubic-bezier(0.45, 0.03, 0.51, 0.95) forwards 4.4s;
+}
+
+span:nth-child(4) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 0.6s both,
+    flipDown 0.5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 2.6s forwards,
+    swing 4s cubic-bezier(0.45, 0.03, 0.51, 0.95) forwards 4.8s;
+}
+
+span:nth-child(5) {
+  margin-left: -28px;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 0.8s both,
+    flipDown 0.5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 2.8s forwards,
+    swing 4s cubic-bezier(0.45, 0.03, 0.51, 0.95) forwards 4.6s;
+}
+
+span:nth-child(6) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1s both,
+    flipDown 0.5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 3s forwards,
+    swing 4s cubic-bezier(0.45, 0.03, 0.51, 0.95) forwards 5s;
+}
+
+span:nth-child(7) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.2s both,
+    flipDown 0.5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 3.2s forwards,
+    swing 4s cubic-bezier(0.45, 0.03, 0.51, 0.95) forwards 4s;
+}
+
+@keyframes flipUp {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    tranform: rotateX(0deg);
+  }
+}
+
+@keyframes flipDown {
+  to {
+    transform: rotateX(-180deg);
+  }
+}
+
+@keyframes swing {
+  0% {
+    transform: rotateX(-180deg);
+  }
+
+  20% {
+    transform: rotateX(-180deg) rotateY(-45deg);
+  }
+
+  40% {
+    transform: rotateX(-180deg) rotateY(45deg);
+  }
+
+  60% {
+    transform: rotateX(-180deg) rotateY(-45deg);
+  }
+
+  80% {
+    transform: rotateX(-180deg) rotateY(45deg);
+  }
+
+  100% {
+    transform: rotateX(-180deg);
+  }
+}
