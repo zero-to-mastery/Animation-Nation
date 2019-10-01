@@ -115,7 +115,7 @@ let cards = [
   {
     artName: "Hacktoberfest 2019",
     pageLink: "./Art/jpk3lly/animation.html",
-    imageLink: "./Art/jpk3lly/JP's Animation GIF.gif",
+    imageLink: "./Art/jpk3lly/JPs_Animation_GIF.gif",
     author: "jpk3lly",
     githubLink: "https://github.com/jpk3lly"
 	},
@@ -141,7 +141,7 @@ let cards = [
     githubLink: "https://github.com/OctavianIlies"
   },
   {
-    artName: "ZTM Color Animation",
+    artName: "ZTM Colors",
     pageLink: "./Art/Godnon/index.html",
     imageLink: "./Art/Godnon/ZTManim.gif",
     author: "Godnon",
@@ -154,6 +154,14 @@ let cards = [
     author: "Shubhankar",
     githubLink: "https://github.com/shubhdwiv12"
 	}
+	},
+  {
+    artName: "5 balls preloader",
+    pageLink: "./Art/Nnaji-Victor/index.html", 
+    imageLink: "./Art/Nnaji-Victor/5_balls.gif",
+    author: "Nnaji Victor",
+    githubLink: "https://github.com/Nnaji-Victor"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
