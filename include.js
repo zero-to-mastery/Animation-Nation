@@ -139,6 +139,13 @@ let cards = [
     imageLink: "./Art/Meet/ephiphany.gif",
     author: "OctavianIlies",
     githubLink: "https://github.com/OctavianIlies"
+  },
+  {
+    artName: "5 balls preloader",
+    pageLink: "./Art/Nnaji-Victor/index.html", 
+    imageLink: "./Art/Nnaji-Victor/5_balls.gif",
+    author: "Nnaji Victor",
+    githubLink: "https://github.com/Nnaji-Victor"
 	}
 ];
 
