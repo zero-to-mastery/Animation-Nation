@@ -97,6 +97,27 @@ let cards = [
     imageLink: "./Art/Edmund/circle-bounce.gif",
     author: "Edmund",
     githubLink: "https://github.com/edmund1645"
+  },
+  {
+    artName: "Heart Beating",
+    pageLink: "./Art/Regem/index.html",
+    imageLink: "./Art/Regem/heart.jpg",
+    author: "Regem",
+    githubLink: "https://github.com/GemzBond"
+  },
+  {
+    artName: "Fading Circles",
+    pageLink: "./Art/Ankit/fadeCircle.html",
+    imageLink: "./Art/Ankit/fadeCircles.png",
+    author: "Ankit Srivastava",
+    githubLink: "https://github.com/a18nov"
+  },
+  {
+    artName: "Hacktoberfest 2019",
+    pageLink: "./Art/jpk3lly/animation.html",
+    imageLink: "./Art/jpk3lly/JP's Animation GIF.gif",
+    author: "jpk3lly",
+    githubLink: "https://github.com/jpk3lly"
 	},
 	{
     artName: "Name Rotator",
@@ -111,8 +132,14 @@ let cards = [
     imageLink: "./Art/Ashu/Moving_Surface.gif",
     author: "Ashutosh",
     githubLink: "https://github.com/Ashutosh00710"
-  }
-	
+  },
+  {
+    artName: "ephiphany",
+    pageLink: "./Art/OctavianIlies/index.html",
+    imageLink: "./Art/Meet/ephiphany.gif",
+    author: "OctavianIlies",
+    githubLink: "https://github.com/OctavianIlies"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
