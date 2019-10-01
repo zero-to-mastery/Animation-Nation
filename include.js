@@ -160,6 +160,13 @@ let cards = [
     imageLink: "./Art/Nnaji-Victor/5_balls.gif",
     author: "Nnaji Victor",
     githubLink: "https://github.com/Nnaji-Victor"
+  },
+  {
+    artName: "TypeWriter effect",
+    pageLink: "./Art/Sidharth/Typing_Text.html",
+    imageLink: "./Art/Sidharth/type_writer.gif",
+    author: "Sidharth",
+    githubLink: "https://github.com/Sidharth98"
   }
 ];
 
