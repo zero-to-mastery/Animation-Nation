@@ -40,6 +40,13 @@ let cards = [
 		imageLink: "./Art/Joy/triangle.gif",
 		author: "Joy",
 		githubLink: "https://github.com/royranger"
+	},
+	{
+		artName: "Cute Cat",
+		pageLink: "./Art/Alghi/cat.html",
+		imageLink: "./Art/Alghi/cat.gif",
+		author: "Alghi",
+		githubLink: "https://github.com/darklordace"
 	}
 ];
 
