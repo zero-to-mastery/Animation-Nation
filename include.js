@@ -85,6 +85,13 @@ let cards = [
     githubLink: "https://github.com/bhuvana-guna"
   },
   {
+    artName: "Simple blinking loading circles",
+    pageLink: "./Art/Rahul/index.html",
+    imageLink: "./Art/Rahul/loading.gif",
+    author: "Rahul",
+    githubLink: "https://github.com/kohli6010"
+  },
+  {
     artName: "Css Pulse",
     pageLink: "./Art/Aszmel/pulse.html",
     imageLink: "./Art/Aszmel/css_pulse.gif",
@@ -115,7 +122,7 @@ let cards = [
   {
     artName: "Hacktoberfest 2019",
     pageLink: "./Art/jpk3lly/animation.html",
-    imageLink: "./Art/jpk3lly/JP's Animation GIF.gif",
+    imageLink: "./Art/jpk3lly/JPs_Animation_GIF.gif",
     author: "jpk3lly",
     githubLink: "https://github.com/jpk3lly"
   },
@@ -134,9 +141,16 @@ let cards = [
     githubLink: "https://github.com/Ashutosh00710"
   },
   {
+    artName: "Ball Rotator",
+    pageLink: "./Art/Bibekpreet/name.html",
+    imageLink: "./Art/Bibekpreet/name.gif",
+    author: "Bibekpreet",
+    githubLink: "https://github.com/bibekpreet99"
+	},
+  {
     artName: "ephiphany",
     pageLink: "./Art/OctavianIlies/index.html",
-    imageLink: "./Art/Meet/ephiphany.gif",
+    imageLink: "./Art/OctavianIlies/ephiphany.gif",
     author: "OctavianIlies",
     githubLink: "https://github.com/OctavianIlies"
   },
@@ -146,7 +160,42 @@ let cards = [
     imageLink: "./Art/jh1992jh/loading.gif",
     author: "jh1992jh",
     githubLink: "https://github.com/jh1992jh"
-  }
+  },
+  {
+    artName: "ZTM Colors",
+    pageLink: "./Art/Godnon/index.html",
+    imageLink: "./Art/Godnon/ZTMcAnim.gif",
+    author: "Godnon",
+    githubLink: "https://github.com/godnondsilva"
+  },
+  {
+    artName: "Hover Effect",
+    pageLink: "./Art/Shubhankar/index.html",
+    imageLink: "./Art/Shubhankar/hackoctober.gif",
+    author: "Shubhankar",
+    githubLink: "https://github.com/shubhdwiv12"
+  },
+  {
+    artName: "Bouncing Fading Circles",
+    pageLink: "./Art/AyoubIssaad/index.html",
+    imageLink: "./Art/AyoubIssaad/BouncingFadingCircles.gif",
+    author: "AyoubIssaad",
+    githubLink: "https://github.com/AyoubIssaad"
+  },
+  {
+    artName: "5 balls preloader",
+    pageLink: "./Art/Nnaji-Victor/index.html",
+    imageLink: "./Art/Nnaji-Victor/5_balls.gif",
+    author: "Nnaji Victor",
+    githubLink: "https://github.com/Nnaji-Victor"
+  },
+  {
+    artName: "Blue Spin",
+    pageLink: "./Art/JamesW/index.html",
+    imageLink: "./Art/JamesW/hacktober_spin.gif",
+    author: "James Whitney",
+    githubLink: "https://github.com/jameswhitney"
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -161,14 +210,14 @@ let contents = [];
 Shuffle(cards).forEach(c => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
