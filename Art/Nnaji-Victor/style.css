@@ -1,0 +1,57 @@
+body {
+  background: #ffffff;
+}
+
+.balls {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+}
+.balls hr {
+  border: 0;
+  margin: 0;
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  border-radius: 50%;
+  animation: spin 2s ease infinite;
+}
+
+.balls :first-child {
+  background: #16b093;
+  animation-delay: -1.7s;
+}
+.balls :nth-child(2) {
+  background: #f73b38;
+  animation-delay: -1.3s;
+}
+.balls :nth-child(3) {
+  background: #fafd43;
+  animation-delay: -1.0s;
+}
+.balls :nth-child(4) {
+    background: #04248d;
+    animation-delay: -0.6s;
+}
+.balls :last-child {
+  background: #143644;
+}
+
+@keyframes spin {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(160%);
+  }
+  50% {
+    transform: translate(160%, 160%);
+  }
+  75% {
+    transform: translate(0, 160%);
+  }
+}
