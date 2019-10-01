@@ -104,7 +104,14 @@ let cards = [
     imageLink: "./Art/Meet/name.gif",
     author: "Meet",
     githubLink: "https://github.com/Meet1103"
-	}
+  },
+  {
+    artName: "Ball Rotator",
+    pageLink: "./Art/Bibekpreet/name.html",
+    imageLink: "./Art/Bibekpreet/name.gif",
+    author: "Bibekpreet",
+    githubLink: "https://github.com/bibekpreet99"
+	},
 	
 ];
 
