@@ -190,6 +190,13 @@ let cards = [
     githubLink: "https://github.com/Nnaji-Victor"
   },
   {
+    artName: "ZTM Bouncer",
+    pageLink: "./Art/Josia/bouncer.html",
+    imageLink: "./Art/Josia/ztmbouncer.gif",
+    author: "Josia Rodriguez",
+    githubLink: "https://github.com/josiarod"
+  },
+  {
     artName: "TypeWriter effect",
     pageLink: "./Art/Sidharth/Typing_Text.html",
     imageLink: "./Art/Sidharth/type_writer.gif",
@@ -209,7 +216,7 @@ let cards = [
     imageLink: "./Art/Atipahy/colors.png",
     author: "Christos Chr",
     githubLink: "https://github.com/atipaHy"
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
