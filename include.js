@@ -148,6 +148,13 @@ let cards = [
     githubLink: "https://github.com/godnondsilva"
 	},
   {
+    artName: "Bouncing Fading Circles",
+    pageLink: "./Art/AyoubIssaad/index.html",
+    imageLink: "./Art/AyoubIssaad/BouncingFadingCircles.gif",
+    author: "AyoubIssaad",
+    githubLink: "https://github.com/AyoubIssaad"
+  },
+  {
     artName: "5 balls preloader",
     pageLink: "./Art/Nnaji-Victor/index.html", 
     imageLink: "./Art/Nnaji-Victor/5_balls.gif",
