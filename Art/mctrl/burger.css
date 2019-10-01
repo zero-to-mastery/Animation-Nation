@@ -1,0 +1,121 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: white;
+}
+
+
+.button {
+  box-sizing: border-box;
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  font-size: 100px;
+  transform: rotate(0deg);
+  transform-origin: 45% 50%;
+  animation: animationButton 4s infinite;
+}
+
+.bar {
+  transform: rotate(0deg);
+  margin-bottom: 4px;
+  height: 4px;
+  width: 25px;
+  background-color: black;
+}
+
+.bar:nth-child(1) {
+  transform-origin: 2px 4px;
+  animation: barAnimationTop 4s infinite;
+}
+
+.bar:nth-child(2) {
+  transform-origin: 2px 0;
+  animation: barAnimationMiddle 4s infinite;
+}
+
+.bar:nth-child(3) {
+  transform-origin: 2px 0;
+  animation: barAnimationBottom 4s infinite;
+}
+
+.bar:last-child {
+  margin-bottom: 0;
+}
+
+.button:hover {
+  transform: rotate(180deg);
+}
+
+@keyframes animationButton {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes barAnimationTop {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes barAnimationMiddle {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes barAnimationBottom {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-45deg);
+  }
+
+  50% {
+    transform: rotate(-45deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
