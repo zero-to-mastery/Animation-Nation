@@ -1,0 +1,174 @@
+body {
+      font-family: 'Fredericka the Great', cursive;
+}
+
+div {
+    width: 100%;
+    margin: 30vh auto;
+    text-align: center;
+}
+
+span {
+    display: inline-block;
+    color: white;
+}
+
+.caps {
+    font-size: 20pt;
+    color: #808080;
+}
+
+.year {
+    width: 10%;
+    font-size: 20pt;
+    color: #808080;
+}
+
+.line {
+   width:12%;
+   border-top: 2px solid rgb(0,0,0);
+   vertical-align: middle;
+}
+
+span:nth-child(1n) {
+    color: #808080;
+    font-size: 16pt;
+}
+
+span:nth-child(1) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: alternate;
+}
+
+span:nth-child(2) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+    animation-direction: alternate;
+}
+
+span:nth-child(3) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite, infinite;
+    animation-delay: 0.4s;
+    animation-direction: alternate;
+}
+
+span:nth-child(4) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+    animation-direction: alternate;
+}
+
+span:nth-child(5) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.8s;
+    animation-direction: alternate;
+}
+
+span:nth-child(6) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.0s;
+    animation-direction: alternate;
+}
+
+span:nth-child(7) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.2s;
+    animation-direction: alternate;
+}
+
+span:nth-child(8) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.4s;
+    animation-direction: alternate;
+}
+
+span:nth-child(9) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.6s;
+    animation-direction: alternate;
+}
+
+span:nth-child(10) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.8s;
+    animation-direction: alternate;
+}
+
+span:nth-child(11) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2.0s;
+    animation-direction: alternate;
+}
+
+span:nth-child(12) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2.2s;
+    animation-direction: alternate;
+}
+
+span:nth-child(13) {
+    font-size: 16pt;
+    animation-name: scaleUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2.4s;
+    animation-direction: alternate;
+}
+
+
+@keyframes scaleUp {
+    from {
+        transform: scale(1,1);
+    }
+
+    to {
+        transform: scale(2,2);
+    }
+}
+
+@keyframes scaleDown {
+    from {
+        transform: scale(2,2);
+    }
+
+    to {
+        transform: scale(1,1);
+    }
+}
