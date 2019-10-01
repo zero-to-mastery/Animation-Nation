@@ -6,6 +6,13 @@ let cards = [
       imageLink: "./Art/Joy/triangle.gif",
       author: "Joy",
       githubLink: "https://github.com/royranger"
+    },
+    {
+      artName: "Circles",
+      pageLink: "./Art/Bhuvana/circles.html",
+      imageLink: "./Art/Bhuvana/circles.gif",
+      author: "Bhuvana",
+      githubLink: "https://github.com/bhuvana-guna"
     }
 ];
 
