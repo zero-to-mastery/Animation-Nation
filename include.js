@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: "Square Loader",
+    pageLink: "./Art/Hemant/index.html",
+    imageLink: "./Art/Hemant/loader.gif",
+    author: "Hemant Garg",
+    githubLink: "https://github.com/hemant-garg"
+  },
+  {
     artName: "wake up, neo...",
     pageLink: "./Art/samirjouni/TributeToTheMatrix.html",
     imageLink: "./Art/samirjouni/sample.gif",
