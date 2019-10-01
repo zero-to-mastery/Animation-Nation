@@ -1,4 +1,5 @@
 let cards = [
+  //  Add your card in this section
   {
     artName: 'Square Loader',
     pageLink: './Art/Hemant/index.html',
@@ -56,25 +57,46 @@ let cards = [
     githubLink: 'https://github.com/soumsps'
   },
   {
-    artName: 'Cute Cat',
-    pageLink: './Art/Alghi/cat.html',
-    imageLink: './Art/Alghi/cat.gif',
-    author: 'Alghi',
-    githubLink: 'https://github.com/darklordace'
-  },
-  {
-    artName: 'ZtM Text',
-    pageLink: './Art/Di4iMoRtAl/ZtM_text_animation.html',
-    imageLink: './Art/Di4iMoRtAl/ZtM_animation.gif',
-    author: 'Di4iMoRtAl',
-    githubLink: 'https://github.com/dppeykov'
-  },
-  {
     artName: 'Rollodex',
     pageLink: './Art/Shruti/rolling.html',
     imageLink: './Art/Shruti/rolling.gif',
     author: 'Shruti',
     githubLink: 'https://github.com/shruti49'
+  },
+  {
+    artName: "Cute Cat",
+    pageLink: "./Art/Alghi/cat.html",
+    imageLink: "./Art/Alghi/cat.gif",
+    author: "Alghi",
+    githubLink: "https://github.com/darklordace"
+  },
+  {
+    artName: "ZtM Text",
+    pageLink: "./Art/Di4iMoRtAl/ZtM_text_animation.html",
+    imageLink: "./Art/Di4iMoRtAl/ZtM_animation.gif",
+    author: "Di4iMoRtAl",
+    githubLink: "https://github.com/dppeykov"
+  },
+  {
+    artName: "Circles",
+    pageLink: "./Art/Bhuvana/circles.html",
+    imageLink: "./Art/Bhuvana/circles.gif",
+    author: "Bhuvana",
+    githubLink: "https://github.com/bhuvana-guna"
+  },
+  {
+    artName: "Css Pulse",
+    pageLink: "./Art/Aszmel/pulse.html",
+    imageLink: "./Art/Aszmel/css_pulse.gif",
+    author: "Aszmel",
+    githubLink: "https://github.com/Aszmel"
+  },
+  {
+    artName: "Circle Bounce",
+    pageLink: "./Art/Edmund/index.html",
+    imageLink: "./Art/Edmund/circle-bounce.gif",
+    author: "Edmund",
+    githubLink: "https://github.com/edmund1645"
   }
 ];
 
