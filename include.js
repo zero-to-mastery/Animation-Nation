@@ -141,7 +141,7 @@ let cards = [
     githubLink: "https://github.com/OctavianIlies"
   },
   {
-    artName: "ZTM Color Animation",
+    artName: "ZTM Color",
     pageLink: "./Art/Godnon/index.html",
     imageLink: "./Art/Godnon/ZTManim.gif",
     author: "Godnon",
