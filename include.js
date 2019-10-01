@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: "Square Loader",
+    pageLink: "./Art/Hemant/index.html",
+    imageLink: "./Art/Hemant/loader.gif",
+    author: "Hemant Garg",
+    githubLink: "https://github.com/hemant-garg"
+  },
+  {
     artName: "wake up, neo...",
     pageLink: "./Art/samirjouni/TributeToTheMatrix.html",
     imageLink: "./Art/samirjouni/sample.gif",
@@ -47,6 +54,20 @@ let cards = [
     imageLink: "./Art/soumsps/sample.gif",
     author: "Soumendu Sinha",
     githubLink: "https://github.com/soumsps"
+  },
+	{
+		artName: "Cute Cat",
+		pageLink: "./Art/Alghi/cat.html",
+		imageLink: "./Art/Alghi/cat.gif",
+		author: "Alghi",
+		githubLink: "https://github.com/darklordace"
+	},
+  {
+    artName: "ZtM Text",
+    pageLink: "./Art/Di4iMoRtAl/ZtM_text_animation.html",
+    imageLink: "./Art/Di4iMoRtAl/ZtM_animation.gif",
+    author: "Di4iMoRtAl",
+    githubLink: "https://github.com/dppeykov"
   }
 ];
 
