@@ -1,67 +1,67 @@
 let cards = [
   //  Add your card in this section
   {
-    artName: 'Square Loader',
-    pageLink: './Art/Hemant/index.html',
-    imageLink: './Art/Hemant/loader.gif',
-    author: 'Hemant Garg',
-    githubLink: 'https://github.com/hemant-garg'
+    artName: "Square Loader",
+    pageLink: "./Art/Hemant/index.html",
+    imageLink: "./Art/Hemant/loader.gif",
+    author: "Hemant Garg",
+    githubLink: "https://github.com/hemant-garg"
   },
   {
-    artName: 'wake up, neo...',
-    pageLink: './Art/samirjouni/TributeToTheMatrix.html',
-    imageLink: './Art/samirjouni/sample.gif',
-    author: 'Samir Jouni',
-    githubLink: 'https://github.com/samirjouni'
+    artName: "wake up, neo...",
+    pageLink: "./Art/samirjouni/TributeToTheMatrix.html",
+    imageLink: "./Art/samirjouni/sample.gif",
+    author: "Samir Jouni",
+    githubLink: "https://github.com/samirjouni"
   },
   {
-    artName: 'Planet',
-    pageLink: './Art/ArthurDoom/planet.html',
-    imageLink: './Art/ArthurDoom/planet.gif',
-    author: 'ArthurDoom',
-    githubLink: 'https://github.com/ArthurDoom'
+    artName: "Planet",
+    pageLink: "./Art/ArthurDoom/planet.html",
+    imageLink: "./Art/ArthurDoom/planet.gif",
+    author: "ArthurDoom",
+    githubLink: "https://github.com/ArthurDoom"
   },
   {
-    artName: 'SquarPy',
-    pageLink: './Art/Utkarsh/index.html',
-    imageLink: './Art/Utkarsh/hack.gif',
-    author: 'utkarsh',
-    githubLink: 'https://github.com/Utkarsh2604'
+    artName: "SquarPy",
+    pageLink: "./Art/Utkarsh/index.html",
+    imageLink: "./Art/Utkarsh/hack.gif",
+    author: "utkarsh",
+    githubLink: "https://github.com/Utkarsh2604"
   },
   {
-    artName: 'Circle',
-    pageLink: './Art/Oliver/Circle.html',
-    imageLink: './Art/Oliver/circle.gif',
-    author: 'Oliver',
-    githubLink: 'https://github.com/oliver-gomes'
+    artName: "Circle",
+    pageLink: "./Art/Oliver/Circle.html",
+    imageLink: "./Art/Oliver/circle.gif",
+    author: "Oliver",
+    githubLink: "https://github.com/oliver-gomes"
   },
   {
-    artName: 'Ellipse Loader',
-    pageLink: './Art/VaibhavKhulbe/EllipseLoader.html',
-    imageLink: './Art/VaibhavKhulbe/ellipseLoader.gif',
-    author: 'Vaibhav Khulbe',
-    githubLink: 'https://github.com/Kvaibhav01'
+    artName: "Ellipse Loader",
+    pageLink: "./Art/VaibhavKhulbe/EllipseLoader.html",
+    imageLink: "./Art/VaibhavKhulbe/ellipseLoader.gif",
+    author: "Vaibhav Khulbe",
+    githubLink: "https://github.com/Kvaibhav01"
   },
   {
-    artName: 'Triangle',
-    pageLink: './Art/Joy/triangle.html',
-    imageLink: './Art/Joy/triangle.gif',
-    author: 'Joy',
-    githubLink: 'https://github.com/royranger'
+    artName: "Triangle",
+    pageLink: "./Art/Joy/triangle.html",
+    imageLink: "./Art/Joy/triangle.gif",
+    author: "Joy",
+    githubLink: "https://github.com/royranger"
   },
   {
-    artName: 'Simple Loader',
-    pageLink: './Art/soumsps/simpleload.html',
-    imageLink: './Art/soumsps/sample.gif',
-    author: 'Soumendu Sinha',
-    githubLink: 'https://github.com/soumsps'
+    artName: "Simple Loader",
+    pageLink: "./Art/soumsps/simpleload.html",
+    imageLink: "./Art/soumsps/sample.gif",
+    author: "Soumendu Sinha",
+    githubLink: "https://github.com/soumsps"
   },
   {
-    artName: 'Rollodex',
-    pageLink: './Art/Shruti/rolling.html',
-    imageLink: './Art/Shruti/rolling.gif',
-    author: 'Shruti',
-    githubLink: 'https://github.com/shruti49'
+    artName: "Rollodex",
+    pageLink: "./Art/Shruti/rolling.html",
+    imageLink: "./Art/Shruti/rolling.gif",
+    author: "Shruti",
+    githubLink: "https://github.com/shruti49"
   },
   {
     artName: "Cute Cat",
@@ -134,6 +134,13 @@ let cards = [
     githubLink: "https://github.com/Meet1103"
   },
   {
+    artName: "Moving Surface",
+    pageLink: "./Art/Ashu/index.html",
+    imageLink: "./Art/Ashu/Moving_Surface.gif",
+    author: "Ashutosh",
+    githubLink: "https://github.com/Ashutosh00710"
+  },
+  {
     artName: "Ball Rotator",
     pageLink: "./Art/Bibekpreet/name.html",
     imageLink: "./Art/Bibekpreet/name.gif",
@@ -146,6 +153,13 @@ let cards = [
     imageLink: "./Art/OctavianIlies/ephiphany.gif",
     author: "OctavianIlies",
     githubLink: "https://github.com/OctavianIlies"
+  },
+  {
+    artName: "Loading",
+    pageLink: "./Art/jh1992jh/loading.html",
+    imageLink: "./Art/jh1992jh/loading.gif",
+    author: "jh1992jh",
+    githubLink: "https://github.com/jh1992jh"
   },
   {
     artName: "ZTM Colors",
@@ -207,7 +221,7 @@ Shuffle(cards).forEach(c => {
   ]);
 });
 
-document.getElementById('cards').innerHTML = contents;
+document.getElementById("cards").innerHTML = contents;
 
 function Shuffle(o) {
   for (
