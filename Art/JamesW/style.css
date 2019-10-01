@@ -1,0 +1,53 @@
+.body {
+	margin: 0 auto;
+}
+
+h1 {
+	display: flex;
+	font-family: 'Source Code Pro', monospace;
+	align-items:center;
+	justify-content:center;
+	margin: 0;
+	background: black;
+	border-radius:4px;
+	border:1px solid #bbb;
+	color: white;
+	font-size:4em;
+
+}
+
+.container {
+	display:flex;
+  align-items:center;
+  justify-content:center;
+  background:black;
+}
+
+.view { 
+  display: flex;
+  align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+
+@keyframes circle{
+	25% {
+		transform: rotate(135deg);
+		border-style: double dashed;
+		border-color: #2166A3 #3E7FBA #88B8E4 #BBD9F4;
+	}
+	75% {
+		transform: rotate(360deg);
+	}
+}
+
+.spinning::before {
+	content: "";
+	color: white;
+	height: 50px;
+	width: 50px;
+	background: transparent;
+	border-radius: 100%;
+	border:10px solid #174e66;
+	animation: circle 1s infinite;
+}
