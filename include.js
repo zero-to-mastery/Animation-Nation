@@ -118,14 +118,14 @@ let cards = [
     imageLink: "./Art/jpk3lly/JPs_Animation_GIF.gif",
     author: "jpk3lly",
     githubLink: "https://github.com/jpk3lly"
-	},
-	{
+  },
+  {
     artName: "Name Rotator",
     pageLink: "./Art/Meet/name.html",
     imageLink: "./Art/Meet/name.gif",
     author: "Meet",
     githubLink: "https://github.com/Meet1103"
-	},
+  },
   {
     artName: "ephiphany",
     pageLink: "./Art/OctavianIlies/index.html",
@@ -146,7 +146,7 @@ let cards = [
     imageLink: "./Art/Shubhankar/hackoctober.gif",
     author: "Shubhankar",
     githubLink: "https://github.com/shubhdwiv12"
-	},
+  },
   {
     artName: "Bouncing Fading Circles",
     pageLink: "./Art/AyoubIssaad/index.html",
@@ -160,7 +160,15 @@ let cards = [
     imageLink: "./Art/Nnaji-Victor/5_balls.gif",
     author: "Nnaji Victor",
     githubLink: "https://github.com/Nnaji-Victor"
-  }
+  },
+  {
+    artName: "Blue Spin",
+    pageLink: "./Art/JamesW/index.html",
+    imageLink: "./Art/JamesW/hacktober_spin.gif",
+    author: "James Whitney",
+    githubLink: "https://github.com/jameswhitney"
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -175,14 +183,14 @@ let contents = [];
 Shuffle(cards).forEach(c => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
