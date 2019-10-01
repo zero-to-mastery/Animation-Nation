@@ -10,7 +10,7 @@ let cards = [
     {
       artName: "Circles",
       pageLink: "./Art/Bhuvana/circles.html",
-      imageLink: "./Art/Bhuvana/circles.gif",
+      imageLink: "./Art/Bhuvana/circles.png",
       author: "Bhuvana",
       githubLink: "https://github.com/bhuvana-guna"
     }
