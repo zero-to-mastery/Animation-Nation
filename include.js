@@ -126,13 +126,6 @@ let cards = [
     author: "Meet",
     githubLink: "https://github.com/Meet1103"
 	},
-	{
-    artName: "Moving Surface",
-    pageLink: "./Art/Ashu/index.html",
-    imageLink: "./Art/Ashu/Moving_Surface.gif",
-    author: "Ashutosh",
-    githubLink: "https://github.com/Ashutosh00710"
-  },
   {
     artName: "ephiphany",
     pageLink: "./Art/OctavianIlies/index.html",
@@ -164,7 +157,7 @@ let cards = [
   },
   {
     artName: "5 balls preloader",
-    pageLink: "./Art/Nnaji-Victor/index.html", 
+    pageLink: "./Art/Nnaji-Victor/index.html",
     imageLink: "./Art/Nnaji-Victor/5_balls.gif",
     author: "Nnaji Victor",
     githubLink: "https://github.com/Nnaji-Victor"
