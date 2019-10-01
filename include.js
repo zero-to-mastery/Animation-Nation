@@ -85,6 +85,13 @@ let cards = [
     githubLink: "https://github.com/bhuvana-guna"
   },
   {
+    artName: "Simple blinking loading circles",
+    pageLink: "./Art/Rahul/index.html",
+    imageLink: "./Art/Rahul/loading.gif",
+    author: "Rahul",
+    githubLink: "https://github.com/kohli6010"
+  },
+  {
     artName: "Css Pulse",
     pageLink: "./Art/Aszmel/pulse.html",
     imageLink: "./Art/Aszmel/css_pulse.gif",
@@ -168,7 +175,6 @@ let cards = [
     author: "James Whitney",
     githubLink: "https://github.com/jameswhitney"
   },
-
 ];
 
 // +--------------------------------------------------------------------------------+
