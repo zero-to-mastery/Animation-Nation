@@ -97,6 +97,13 @@ let cards = [
     imageLink: "./Art/Edmund/circle-bounce.gif",
     author: "Edmund",
     githubLink: "https://github.com/edmund1645"
+  },
+  {
+    artName: "Hacktoberfest 2019",
+    pageLink: "./Art/jpk3lly/animation.html",
+    imageLink: "./Art/jpk3lly/JP's Animation GIF.gif",
+    author: "jpk3lly",
+    githubLink: "https://github.com/jpk3lly"
 	},
 	{
     artName: "Name Rotator",
@@ -112,7 +119,6 @@ let cards = [
     author: "OctavianIlies",
     githubLink: "https://github.com/OctavianIlies"
 	}
-	
 ];
 
 // +--------------------------------------------------------------------------------+
