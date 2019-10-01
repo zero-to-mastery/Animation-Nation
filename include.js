@@ -76,6 +76,13 @@ let cards = [
     imageLink: "./Art/Bhuvana/circles.gif",
     author: "Bhuvana",
     githubLink: "https://github.com/bhuvana-guna"
+  },
+  {
+    artName: "Circle Bounce",
+    pageLink: "./Art/Edmund/index.html",
+    imageLink: "./Art/Edmund/circle-bounce.gif",
+    author: "Edmund",
+    githubLink: "https://github.com/edmund1645"
   }
 ];
 
