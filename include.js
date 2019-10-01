@@ -1,4 +1,5 @@
 let cards = [
+  //  Add your card in this section
   {
     artName: "Square Loader",
     pageLink: "./Art/Hemant/index.html",
@@ -68,6 +69,13 @@ let cards = [
     imageLink: "./Art/Di4iMoRtAl/ZtM_animation.gif",
     author: "Di4iMoRtAl",
     githubLink: "https://github.com/dppeykov"
+  },
+  {
+    artName: "Circles",
+    pageLink: "./Art/Bhuvana/circles.html",
+    imageLink: "./Art/Bhuvana/circles.gif",
+    author: "Bhuvana",
+    githubLink: "https://github.com/bhuvana-guna"
   }
 ];
 
