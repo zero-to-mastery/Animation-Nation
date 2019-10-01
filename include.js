@@ -146,7 +146,14 @@ let cards = [
     imageLink: "./Art/Godnon/ZTManim.gif",
     author: "Godnon",
     githubLink: "https://github.com/godnondsilva"
-	}
+	},
+  {
+    artName: "5 balls preloader",
+    pageLink: "./Art/Nnaji-Victor/index.html", 
+    imageLink: "./Art/Nnaji-Victor/5_balls.gif",
+    author: "Nnaji Victor",
+    githubLink: "https://github.com/Nnaji-Victor"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
