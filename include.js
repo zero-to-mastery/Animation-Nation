@@ -30,24 +30,31 @@ let cards = [
   {
     artName: "Circle",
     pageLink: "./Art/Oliver/Circle.html",
-		imageLink: "./Art/Oliver/circle.gif",
-		author: "Oliver",
-		githubLink: "https://github.com/oliver-gomes"
-	},
-	{
-		artName: "Ellipse Loader",
-		pageLink: "./Art/VaibhavKhulbe/EllipseLoader.html",
-		imageLink: "./Art/VaibhavKhulbe/ellipseLoader.gif",
-		author: "Vaibhav Khulbe",
-		githubLink: "https://github.com/Kvaibhav01"
-	},
-	{
-		artName: "Triangle",
-		pageLink: "./Art/Joy/triangle.html",
-		imageLink: "./Art/Joy/triangle.gif",
-		author: "Joy",
-		githubLink: "https://github.com/royranger"
-	},
+    imageLink: "./Art/Oliver/circle.gif",
+    author: "Oliver",
+    githubLink: "https://github.com/oliver-gomes"
+  },
+  {
+    artName: "Ellipse Loader",
+    pageLink: "./Art/VaibhavKhulbe/EllipseLoader.html",
+    imageLink: "./Art/VaibhavKhulbe/ellipseLoader.gif",
+    author: "Vaibhav Khulbe",
+    githubLink: "https://github.com/Kvaibhav01"
+  },
+  {
+    artName: "Triangle",
+    pageLink: "./Art/Joy/triangle.html",
+    imageLink: "./Art/Joy/triangle.gif",
+    author: "Joy",
+    githubLink: "https://github.com/royranger"
+  },
+  {
+    artName: "Simple Loader",
+    pageLink: "./Art/soumsps/simpleload.html",
+    imageLink: "./Art/soumsps/sample.gif",
+    author: "Soumendu Sinha",
+    githubLink: "https://github.com/soumsps"
+  },
 	{
 		artName: "Cute Cat",
 		pageLink: "./Art/Alghi/cat.html",
