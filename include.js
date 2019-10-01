@@ -203,6 +203,13 @@ let cards = [
     author: "James Whitney",
     githubLink: "https://github.com/jameswhitney"
   },
+  {
+    artName: "Colors in your life",
+    pageLink: "./Art/Atipahy/colors.html",
+    imageLink: "./Art/Atipahy/colors.png",
+    author: "Christos Chr",
+    githubLink: "https://github.com/atipaHy"
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
