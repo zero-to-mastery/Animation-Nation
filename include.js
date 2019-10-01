@@ -190,6 +190,13 @@ let cards = [
     githubLink: "https://github.com/Nnaji-Victor"
   },
   {
+    artName: "TypeWriter effect",
+    pageLink: "./Art/Sidharth/Typing_Text.html",
+    imageLink: "./Art/Sidharth/type_writer.gif",
+    author: "Sidharth",
+    githubLink: "https://github.com/Sidharth98"
+  },
+  {
     artName: "Blue Spin",
     pageLink: "./Art/JamesW/index.html",
     imageLink: "./Art/JamesW/hacktober_spin.gif",
