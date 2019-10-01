@@ -146,7 +146,14 @@ let cards = [
     imageLink: "./Art/Godnon/ZTManim.gif",
     author: "Godnon",
     githubLink: "https://github.com/godnondsilva"
-	}
+	},
+  {
+    artName: "Bouncing Fading Circles",
+    pageLink: "./Art/AyoubIssaad/index.html",
+    imageLink: "./Art/AyoubIssaad/BouncingFadingCircles.gif",
+    author: "AyoubIssaad",
+    githubLink: "https://github.com/AyoubIssaad"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
