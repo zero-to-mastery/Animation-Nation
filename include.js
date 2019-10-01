@@ -47,6 +47,13 @@ let cards = [
     imageLink: "./Art/Joy/triangle.gif",
     author: "Joy",
     githubLink: "https://github.com/royranger"
+  },
+  {
+    artName: "ZtM Text",
+    pageLink: "./Art/Di4iMoRtAl/ZtM_text_animation.html",
+    imageLink: "./Art/Di4iMoRtAl/ZtM_animation.gif",
+    author: "Di4iMoRtAl",
+    githubLink: "https://github.com/dppeykov"
   }
 ];
 
