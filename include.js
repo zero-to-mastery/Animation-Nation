@@ -99,6 +99,13 @@ let cards = [
     githubLink: "https://github.com/edmund1645"
   },
   {
+    artName: "Heart Beating",
+    pageLink: "./Art/Regem/index.html",
+    imageLink: "./Art/Regem/heart.jpg",
+    author: "Regem",
+    githubLink: "https://github.com/GemzBond"
+  },
+  {
     artName: "Fading Circles",
     pageLink: "./Art/Ankit/fadeCircle.html",
     imageLink: "./Art/Ankit/fadeCircles.png",
