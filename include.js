@@ -97,6 +97,13 @@ let cards = [
     imageLink: "./Art/Edmund/circle-bounce.gif",
     author: "Edmund",
     githubLink: "https://github.com/edmund1645"
+  },
+  {
+    artName: "Fading Circles",
+    pageLink: "./Art/Ankit/fadeCircle.html",
+    imageLink: "./Art/Ankit/fadeCircles.png",
+    author: "Ankit Srivastava",
+    githubLink: "https://github.com/a18nov"
 	},
 	{
     artName: "Name Rotator",
