@@ -99,6 +99,13 @@ let cards = [
     githubLink: "https://github.com/edmund1645"
   },
   {
+    artName: "Fading Circles",
+    pageLink: "./Art/Ankit/fadeCircle.html",
+    imageLink: "./Art/Ankit/fadeCircles.png",
+    author: "Ankit Srivastava",
+    githubLink: "https://github.com/a18nov"
+  },
+  {
     artName: "Hacktoberfest 2019",
     pageLink: "./Art/jpk3lly/animation.html",
     imageLink: "./Art/jpk3lly/JP's Animation GIF.gif",
