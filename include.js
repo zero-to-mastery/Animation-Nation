@@ -104,7 +104,14 @@ let cards = [
     imageLink: "./Art/Meet/name.gif",
     author: "Meet",
     githubLink: "https://github.com/Meet1103"
-	}
+	},
+	{
+    artName: "Moving Surface",
+    pageLink: "./Art/Ashu/index.html",
+    imageLink: "./Art/Ashu/Moving_Surface.gif",
+    author: "Ashutosh",
+    githubLink: "https://github.com/Ashutosh00710"
+  }
 	
 ];
 
