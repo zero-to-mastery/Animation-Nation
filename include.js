@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: "Square Loader",
+    pageLink: "./Art/Hemant/index.html",
+    imageLink: "./Art/Hemant/loader.gif",
+    author: "Hemant Garg",
+    githubLink: "https://github.com/hemant-garg"
+  },
+  {
     artName: "wake up, neo...",
     pageLink: "./Art/samirjouni/TributeToTheMatrix.html",
     imageLink: "./Art/samirjouni/sample.gif",
@@ -13,34 +20,34 @@ let cards = [
     author: "ArthurDoom",
     githubLink: "https://github.com/ArthurDoom"
   },
-	{
-		artName: "SquarPy",
-		pageLink: "./Art/Utkarsh/index.html",
-		imageLink: "./Art/Utkarsh/hack.gif",
-		author: "utkarsh",
-		githubLink: "https://github.com/Utkarsh2604"
-	},
-	{
-		artName: "Circle",
+  {
+    artName: "SquarPy",
+    pageLink: "./Art/Utkarsh/index.html",
+    imageLink: "./Art/Utkarsh/hack.gif",
+    author: "utkarsh",
+    githubLink: "https://github.com/Utkarsh2604"
+  },
+  {
+    artName: "Circle",
     pageLink: "./Art/Oliver/Circle.html",
-		imageLink: "./Art/Oliver/circle.gif",
-		author: "Oliver",
-		githubLink: "https://github.com/oliver-gomes"
-	},
-	{
-		artName: "Ellipse Loader",
-		pageLink: "./Art/VaibhavKhulbe/EllipseLoader.html",
-		imageLink: "./Art/VaibhavKhulbe/ellipseLoader.gif",
-		author: "Vaibhav Khulbe",
-		githubLink: "https://github.com/Kvaibhav01"
-	},
-	{
-		artName: "Triangle",
-		pageLink: "./Art/Joy/triangle.html",
-		imageLink: "./Art/Joy/triangle.gif",
-		author: "Joy",
-		githubLink: "https://github.com/royranger"
-	}
+    imageLink: "./Art/Oliver/circle.gif",
+    author: "Oliver",
+    githubLink: "https://github.com/oliver-gomes"
+  },
+  {
+    artName: "Ellipse Loader",
+    pageLink: "./Art/VaibhavKhulbe/EllipseLoader.html",
+    imageLink: "./Art/VaibhavKhulbe/ellipseLoader.gif",
+    author: "Vaibhav Khulbe",
+    githubLink: "https://github.com/Kvaibhav01"
+  },
+  {
+    artName: "Triangle",
+    pageLink: "./Art/Joy/triangle.html",
+    imageLink: "./Art/Joy/triangle.gif",
+    author: "Joy",
+    githubLink: "https://github.com/royranger"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -53,26 +60,26 @@ let cards = [
 // You don't need to modify this
 let contents = [];
 Shuffle(cards).forEach(c => {
-	contents.push([
-		`<li class="card">` +
-			`<a href='${c.pageLink}'>` +
-			`<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-			`</a>` +
-			`<div class="flex-content">` +
-			`<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-			`<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-			`</div>` +
-			`</li>`
-	]);
+  contents.push([
+    `<li class="card">` +
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
+  ]);
 });
 
 document.getElementById("cards").innerHTML = contents;
 
 function Shuffle(o) {
-	for (
-		var j, x, i = o.length;
-		i;
-		j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
-	);
-	return o;
+  for (
+    var j, x, i = o.length;
+    i;
+    j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
+  );
+  return o;
 }
