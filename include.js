@@ -146,7 +146,7 @@ let cards = [
     imageLink: "./Art/Shubhankar/hackoctober.gif",
     author: "Shubhankar",
     githubLink: "https://github.com/shubhdwiv12"
-	}
+	},
   {
     artName: "Bouncing Fading Circles",
     pageLink: "./Art/AyoubIssaad/index.html",
