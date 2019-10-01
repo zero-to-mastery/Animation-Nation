@@ -146,6 +146,14 @@ let cards = [
     imageLink: "./Art/Godnon/ZTManim.gif",
     author: "Godnon",
     githubLink: "https://github.com/godnondsilva"
+  },
+  {
+    artName: "Hover Effect",
+    pageLink: "./Art/Shubhankar/index.html",
+    imageLink: "./Art/Shubhankar/hackoctober.gif",
+    author: "Shubhankar",
+    githubLink: "https://github.com/shubhdwiv12"
+	}
 	},
   {
     artName: "Bouncing Fading Circles",
