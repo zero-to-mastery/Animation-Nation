@@ -196,6 +196,13 @@ let cards = [
     author: "James Whitney",
     githubLink: "https://github.com/jameswhitney"
   },
+  {
+    artName: "Rotation",
+    pageLink: "./Art/alenanog/index.html",
+    imageLink: "./Art/alenanog/rotation.gif",
+    author: "Alena A.",
+    githubLink: "https://github.com/alenanog"
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
