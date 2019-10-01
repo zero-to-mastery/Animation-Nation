@@ -139,6 +139,13 @@ let cards = [
     imageLink: "./Art/OctavianIlies/ephiphany.gif",
     author: "OctavianIlies",
     githubLink: "https://github.com/OctavianIlies"
+  },
+  {
+    artName: "ZTM Color Animation",
+    pageLink: "./Art/Godnon/index.html",
+    imageLink: "./Art/Godnon/ZTManim.gif",
+    author: "Godnon",
+    githubLink: "https://github.com/godnondsilva"
 	}
 ];
 
