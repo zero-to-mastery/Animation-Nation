@@ -1,11 +1,14 @@
+/* Font */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
 
-
 body {
+    /* Colors */
     background-color: black;
+    /* Margin */
     margin-top:20px;
 }
 
+/* ID of the div */
 #text {
     /* Font */
     font-family: 'Montserrat', sans-serif;
@@ -21,6 +24,7 @@ body {
     border-bottom: 10px solid;
 }
 
+/* 6 keyframes */
 @keyframes anim {
     0% {
         color: blue;
