@@ -136,7 +136,7 @@ let cards = [
   {
     artName: "ZTM Colors",
     pageLink: "./Art/Godnon/index.html",
-    imageLink: "./Art/Godnon/ZTManim.gif",
+    imageLink: "./Art/Godnon/ZTMcAnim.gif",
     author: "Godnon",
     githubLink: "https://github.com/godnondsilva"
   },
