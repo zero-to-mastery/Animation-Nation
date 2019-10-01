@@ -160,6 +160,13 @@ let cards = [
     imageLink: "./Art/Nnaji-Victor/5_balls.gif",
     author: "Nnaji Victor",
     githubLink: "https://github.com/Nnaji-Victor"
+  },
+  {
+    artName: "ZTM Bouncer",
+    pageLink: "./Art/Josia/bouncer.html",
+    imageLink: "./Art/Josia/ztmbouncer.gif",
+    author: "Josia Rodriguez",
+    githubLink: "https://github.com/josiarod"
   }
 ];
 
