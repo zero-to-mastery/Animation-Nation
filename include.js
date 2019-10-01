@@ -56,13 +56,13 @@ let cards = [
     author: "Soumendu Sinha",
     githubLink: "https://github.com/soumsps"
   },
-	{
-		artName: "Cute Cat",
-		pageLink: "./Art/Alghi/cat.html",
-		imageLink: "./Art/Alghi/cat.gif",
-		author: "Alghi",
-		githubLink: "https://github.com/darklordace"
-	},
+  {
+    artName: "Cute Cat",
+    pageLink: "./Art/Alghi/cat.html",
+    imageLink: "./Art/Alghi/cat.gif",
+    author: "Alghi",
+    githubLink: "https://github.com/darklordace"
+  },
   {
     artName: "ZtM Text",
     pageLink: "./Art/Di4iMoRtAl/ZtM_text_animation.html",
@@ -76,6 +76,13 @@ let cards = [
     imageLink: "./Art/Bhuvana/circles.gif",
     author: "Bhuvana",
     githubLink: "https://github.com/bhuvana-guna"
+  },
+  {
+    artName: "Css Pulse",
+    pageLink: "./Art/Aszmel/pulse.html",
+    imageLink: "./Art/Aszmel/css_pulse.gif",
+    author: "Aszmel",
+    githubLink: "https://github.com/Aszmel"
   }
 ];
 
