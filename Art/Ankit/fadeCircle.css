@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 97vh;
+}
+
+.boxes {
+  margin: auto;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.boxes .box {
+  margin: 16.66667px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(130deg, #5c5d73 0%, #343240 100%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  -webkit-animation: pulse 1s linear infinite alternate;
+  animation: pulse 1s linear infinite alternate;
+}
+.boxes .box:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+.boxes .box:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.boxes .box:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+@-webkit-keyframes pulse {
+  from, 
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80%,
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  from, 
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80%,
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 300px) {
+  .box {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+

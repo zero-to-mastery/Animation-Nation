@@ -1,0 +1,47 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+body {
+    /* Colors */
+    background-color: black;
+    /* Margin */
+    margin-top:20px;
+}
+
+/* ID of the div */
+#text {
+    /* Font */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+
+    /* Animation */
+    animation: anim 3s infinite;
+    animation-timing-function: ease-in-out;
+
+    /* Border */
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+}
+
+/* 6 keyframes */
+@keyframes anim {
+    0% {
+        color: blue;
+    }
+    20% {
+        color: red;
+    }
+    40% {
+        color: orange;
+    }
+    60% {    
+        color: yellow;
+    }
+    80% {
+        color: green;
+    }
+    100% {
+        color: blue;
+    }
+}
