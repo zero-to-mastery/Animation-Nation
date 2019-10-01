@@ -30,24 +30,31 @@ let cards = [
   {
     artName: "Circle",
     pageLink: "./Art/Oliver/Circle.html",
-    imageLink: "./Art/Oliver/circle.gif",
-    author: "Oliver",
-    githubLink: "https://github.com/oliver-gomes"
-  },
-  {
-    artName: "Ellipse Loader",
-    pageLink: "./Art/VaibhavKhulbe/EllipseLoader.html",
-    imageLink: "./Art/VaibhavKhulbe/ellipseLoader.gif",
-    author: "Vaibhav Khulbe",
-    githubLink: "https://github.com/Kvaibhav01"
-  },
-  {
-    artName: "Triangle",
-    pageLink: "./Art/Joy/triangle.html",
-    imageLink: "./Art/Joy/triangle.gif",
-    author: "Joy",
-    githubLink: "https://github.com/royranger"
-  },
+		imageLink: "./Art/Oliver/circle.gif",
+		author: "Oliver",
+		githubLink: "https://github.com/oliver-gomes"
+	},
+	{
+		artName: "Ellipse Loader",
+		pageLink: "./Art/VaibhavKhulbe/EllipseLoader.html",
+		imageLink: "./Art/VaibhavKhulbe/ellipseLoader.gif",
+		author: "Vaibhav Khulbe",
+		githubLink: "https://github.com/Kvaibhav01"
+	},
+	{
+		artName: "Triangle",
+		pageLink: "./Art/Joy/triangle.html",
+		imageLink: "./Art/Joy/triangle.gif",
+		author: "Joy",
+		githubLink: "https://github.com/royranger"
+	},
+	{
+		artName: "Cute Cat",
+		pageLink: "./Art/Alghi/cat.html",
+		imageLink: "./Art/Alghi/cat.gif",
+		author: "Alghi",
+		githubLink: "https://github.com/darklordace"
+	},
   {
     artName: "ZtM Text",
     pageLink: "./Art/Di4iMoRtAl/ZtM_text_animation.html",
