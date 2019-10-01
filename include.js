@@ -134,16 +134,9 @@ let cards = [
     githubLink: "https://github.com/Meet1103"
   },
   {
-    artName: "Moving Surface",
-    pageLink: "./Art/Ashu/index.html",
-    imageLink: "./Art/Ashu/Moving_Surface.gif",
-    author: "Ashutosh",
-    githubLink: "https://github.com/Ashutosh00710"
-  },
-  {
     artName: "Ball Rotator",
-    pageLink: "./Art/Bibekpreet/name.html",
-    imageLink: "./Art/Bibekpreet/name.gif",
+    pageLink: "./Art/Bibekpreet/index.html",
+    imageLink: "./Art/Bibekpreet/ball.gif",
     author: "Bibekpreet",
     githubLink: "https://github.com/bibekpreet99"
 	},
