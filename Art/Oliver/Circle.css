@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #2d3436;
+  color: #fab1a0;
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  background: #151825;
+  border-radius: 50%;
+  border: 1px solid #1d9af2;
+  border-top: 2px solid #fff;
+  animation: spinner1 600ms linear infinite;
+}
+
+@keyframes spinner1 {
+  to {
+    transform: rotate(360deg);
+  }
+}
