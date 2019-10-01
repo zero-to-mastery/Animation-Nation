@@ -115,7 +115,7 @@ let cards = [
   {
     artName: "Hacktoberfest 2019",
     pageLink: "./Art/jpk3lly/animation.html",
-    imageLink: "./Art/jpk3lly/JP's Animation GIF.gif",
+    imageLink: "./Art/jpk3lly/JPs_Animation_GIF.gif",
     author: "jpk3lly",
     githubLink: "https://github.com/jpk3lly"
 	},
