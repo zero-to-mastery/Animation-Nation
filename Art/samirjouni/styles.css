@@ -1,0 +1,138 @@
+html,
+body {
+	background: black;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	color: #00ff66;
+	font-family: courier, monospace;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.glitch {
+	text-shadow: 0 0 0.5px #33ff00, 0 0 1px #33ff00, 0 0 2px #33ff00,
+		0 0 4px #33ff00, 0 0 6px #33ff00, 0 0 8px #33ff00;
+	color: #00ff66;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 252px;
+	font-size: 2rem;
+}
+
+@media (min-width: 414px) {
+	.glitch {
+		width: 310px;
+		font-size: 2rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.glitch {
+		width: 617px;
+		font-size: 4rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.glitch {
+		width: 924px;
+		font-size: 4rem;
+	}
+}
+
+@keyframes noise-anim {
+	0% {
+		clip: rect(26.2978px, 9999px, 12.2828px, 0px);
+	}
+	5% {
+		clip: rect(25.1848px, 9999px, 40.4897px, 0px);
+	}
+	10% {
+		clip: rect(36.0099px, 9999px, 99.2885px, 0px);
+	}
+	15% {
+		clip: rect(6.75181px, 9999px, 16.4225px, 0px);
+	}
+	20% {
+		clip: rect(21.0724px, 9999px, 43.1021px, 0px);
+	}
+	25% {
+		clip: rect(93.2766px, 9999px, 56.1031px, 0px);
+	}
+	30% {
+		clip: rect(10.6635px, 9999px, 41.0523px, 0px);
+	}
+	35% {
+		clip: rect(7.88279px, 9999px, 26.9378px, 0px);
+	}
+	40% {
+		clip: rect(44.9723px, 9999px, 14.0105px, 0px);
+	}
+	45% {
+		clip: rect(88.9659px, 9999px, 41.5061px, 0px);
+	}
+	50% {
+		clip: rect(19.9449px, 9999px, 86.8038px, 0px);
+	}
+	55% {
+		clip: rect(96.0592px, 9999px, 74.5877px, 0px);
+	}
+	60% {
+		clip: rect(34.7967px, 9999px, 85.9277px, 0px);
+	}
+	65% {
+		clip: rect(46.7322px, 9999px, 30.6935px, 0px);
+	}
+	70% {
+		clip: rect(33.3928px, 9999px, 10.6688px, 0px);
+	}
+	75% {
+		clip: rect(84.6778px, 9999px, 15.0947px, 0px);
+	}
+	80% {
+		clip: rect(86.2251px, 9999px, 29.9264px, 0px);
+	}
+	85% {
+		clip: rect(44.4588px, 9999px, 26.29px, 0px);
+	}
+	90% {
+		clip: rect(8.64036px, 9999px, 65.5657px, 0px);
+	}
+	95% {
+		clip: rect(69.6769px, 9999px, 44.6517px, 0px);
+	}
+}
+
+.glitch:after {
+	text-shadow: 0 0 0.5px #33ff00, 0 0 1px #33ff00, 0 0 2px #33ff00,
+		0 0 4px #33ff00, 0 0 6px #33ff00, 0 0 8px #33ff00;
+	content: "Follow the white rabbit.";
+	position: absolute;
+	left: 2px;
+	top: 0;
+	color: #00ff66;
+	background: black;
+	overflow: hidden;
+	clip: rect(0, 900px, 0, 0);
+	animation: noise-anim 2s infinite linear alternate-reverse;
+}
+
+.glitch:before {
+	text-shadow: 0 0 0.5px #33ff00, 0 0 1px #33ff00, 0 0 2px #33ff00,
+		0 0 4px #33ff00, 0 0 6px #33ff00, 0 0 8px #33ff00;
+	content: "Follow the white rabbit.";
+	position: absolute;
+	left: -2px;
+	top: 0;
+	color: #00ff66;
+	background: black;
+	overflow: hidden;
+	clip: rect(0, 900px, 0, 0);
+	animation: noise-anim 3s infinite linear alternate-reverse;
+}
