@@ -313,7 +313,7 @@ let cards = [
     imageLink: "./Art/Sabina/ellipse_spinner.png",
     author: "Sabina Abbasova",
     githubLink: "https://github.com/sabina929"
-  }
+  },
   {
     artName: "NightSky",
     pageLink: "./Art/AndyS/index.html",
