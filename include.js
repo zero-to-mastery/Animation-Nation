@@ -1,19 +1,19 @@
 let cards = [
-    //  Add your card in this section
-    {
-      artName: "Triangle",
-      pageLink: "./Art/Joy/triangle.html",
-      imageLink: "./Art/Joy/triangle.gif",
-      author: "Joy",
-      githubLink: "https://github.com/royranger"
-    },
-    {
-      artName: "Burger Menu",
-      pageLink: "./Art/mctrl/burger.html",
-      imageLink: "./Art/mctrl/burger.gif",
-      author: "Martina",
-      githubLink: "https://github.com/mctrl"
-    },
+  //  Add your card in this section
+  {
+    artName: "Triangle",
+    pageLink: "./Art/Joy/triangle.html",
+    imageLink: "./Art/Joy/triangle.gif",
+    author: "Joy",
+    githubLink: "https://github.com/royranger"
+  },
+  {
+    artName: "Burger Menu",
+    pageLink: "./Art/mctrl/burger.html",
+    imageLink: "./Art/mctrl/burger.gif",
+    author: "Martina",
+    githubLink: "https://github.com/mctrl"
+  },
   {
     artName: "Square Loader",
     pageLink: "./Art/Hemant/index.html",
@@ -146,7 +146,7 @@ let cards = [
     imageLink: "./Art/Bibekpreet/ball.gif",
     author: "Bibekpreet",
     githubLink: "https://github.com/bibekpreet99"
-	},
+  },
   {
     artName: "ephiphany",
     pageLink: "./Art/OctavianIlies/index.html",
@@ -216,6 +216,13 @@ let cards = [
     imageLink: "./Art/Atipahy/colors.png",
     author: "Christos Chr",
     githubLink: "https://github.com/atipaHy"
+  },
+  {
+    artName: "Ellipse Spinner",
+    pageLink: "./Art/Sabina/ellipse_spinner.html",
+    imageLink: "./Art/Sabina/ellipse_spinner.png",
+    author: "Sabina Abbasova",
+    githubLink: "https://github.com/sabina929"
   }
 ];
 
@@ -249,6 +256,6 @@ function Shuffle(o) {
     var j, x, i = o.length;
     i;
     j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
-  );
+  ) ;
   return o;
 }
