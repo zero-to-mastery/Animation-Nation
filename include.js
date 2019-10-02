@@ -274,11 +274,18 @@ let cards = [
 		githubLink: 'https://github.com/stephD',
 	},
 	{
+		artName: 'Dancing Ball...',
+		pageLink: './Art/DaveFres/index.html',
+		imageLink: './Art/DaveFres/ball.gif',
+		author: 'DaveFres',
+		githubLink: 'https://github.com/DaveFres',
+  },
+  {
 		artName: 'Sunshine',
 		pageLink: './Art/Pavelisp/sunshine.html',
 		imageLink: './Art/Pavelisp/sunshine.gif',
 		author: 'Pavel Isp',
-		githubLink: 'https://github.com/pavelisp',
+		githubLink: 'https://github.com/pavelisp'
 	},
 ]
 
