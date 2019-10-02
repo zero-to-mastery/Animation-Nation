@@ -273,6 +273,13 @@ let cards = [
 		author: 'DepStep',
 		githubLink: 'https://github.com/stephD',
 	},
+	{
+		artName: 'Sunshine',
+		pageLink: './Art/Pavelisp/sunshine.html',
+		imageLink: './Art/Pavelisp/sunshine.gif',
+		author: 'Pavel Isp',
+		githubLink: 'https://github.com/pavelisp',
+	},
 ]
 
 // +--------------------------------------------------------------------------------+
