@@ -211,19 +211,20 @@ let cards = [
     githubLink: "https://github.com/jameswhitney"
   },
   {
-    artName: "Colors in your life",
-    pageLink: "./Art/Atipahy/colors.html",
-    imageLink: "./Art/Atipahy/colors.png",
-    author: "Christos Chr",
-    githubLink: "https://github.com/atipaHy"
-  },
-  {
     artName: "Ellipse Spinner",
     pageLink: "./Art/Sabina/ellipse_spinner.html",
     imageLink: "./Art/Sabina/ellipse_spinner.png",
     author: "Sabina Abbasova",
     githubLink: "https://github.com/sabina929"
+  },
+  {
+    artName: "Colors in your life",
+    pageLink: "./Art/Atipahy/colors.html",
+    imageLink: "./Art/Atipahy/colors.png",
+    author: "Christos Chr",
+    githubLink: "https://github.com/atipaHy"
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
