@@ -269,7 +269,7 @@ let cards = [
 	{
 		artName: 'Charging...',
 		pageLink: './Art/DepStep/depstep.html',
-		imageLink: './Art/DepSteph/depstep.gif',
+		imageLink: './Art/DepStep/depstep.gif',
 		author: 'DepStep',
 		githubLink: 'https://github.com/stephD',
 	},
@@ -315,17 +315,17 @@ Shuffle(cards).forEach((c) => {
 	contents.push([
 		`<li class="card">` +
 			`<a href='${c.pageLink}'>` +
-			`<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+			   `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
 			`</a>` +
 			`<div class="flex-content">` +
-			`<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-			`<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+			   `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+			   `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
 			`</div>` +
-			`</li>`,
+		`</li>`,
 	])
 })
 
-document.getElementById('cards').innerHTML = contents
+document.getElementById('cards').innerHTML = contents;
 
 function Shuffle(o) {
 	for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
