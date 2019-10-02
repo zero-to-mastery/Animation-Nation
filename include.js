@@ -287,6 +287,13 @@ let cards = [
 		author: 'Pavel Isp',
 		githubLink: 'https://github.com/pavelisp'
 	},
+  {
+    artName: 'SoundBoxes',
+		pageLink: './Art/Hbarang/SoundBox.html',
+		imageLink: './Art/Hbarang/SoundBoxAnimation.gif',
+		author: 'Hbarang',
+		githubLink: 'https://github.com/hbarang',
+  },
 ]
 
 // +--------------------------------------------------------------------------------+
