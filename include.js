@@ -306,7 +306,14 @@ let cards = [
 		imageLink: './Art/Stacy/disappear.gif',
 		author: 'Stacy',
 		githubLink: 'https://github.com/stacyholtz6'
-	}
+	},
+  {
+    artName: "Ellipse Spinner",
+    pageLink: "./Art/Sabina/ellipse_spinner.html",
+    imageLink: "./Art/Sabina/ellipse_spinner.png",
+    author: "Sabina Abbasova",
+    githubLink: "https://github.com/sabina929"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
