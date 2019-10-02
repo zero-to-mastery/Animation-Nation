@@ -320,7 +320,14 @@ let cards = [
     imageLink: "./Art/AndyS/Capture.gif",
     author: "AndyS",
     githubLink: "https://github.com/AndyS1988"
-    }
+	},
+	{
+    artName: "Hungry",
+    pageLink: "./Art/diegchav/index.html",
+    imageLink: "./Art/diegchav/hungry.gif",
+    author: "Diego Chz",
+    githubLink: "https://github.com/diegchav"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
