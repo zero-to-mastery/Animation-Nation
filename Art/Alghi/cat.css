@@ -1,0 +1,141 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat {
+    width: auto;
+    height: auto;
+    position: relative;
+    left: -50px;
+    animation-name: leftright;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.ear-left {
+    display: inline;
+    position: relative;
+    left: 21px;
+    bottom: 55px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid orange;
+}
+
+.ear-right {
+    display: inline;
+    position: relative;
+    right: 25px;
+    bottom: 55px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid orange;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.eye-left {
+    position: relative;
+    left: 53px;
+    bottom: 44px;
+    width: 10px;
+    height: 10px;
+    animation-name: bgcolorchange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.eye-right {
+    position: relative;
+    right: 53px;
+    bottom: 44px;
+    width: 10px;
+    height: 10px;
+    animation-name: bgcolorchange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.mouth {
+    font-family: monospace;
+    font-size: 2.5em;
+    position: relative;
+    top: 20px;
+    animation-name: colorchange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transform: rotate(90deg);
+}
+
+@keyframes leftright {
+    0% {
+        left: -75px;
+        top: 0;
+    }
+    25% {
+        top: -75px;
+        left: 0;
+    }
+    50% {
+        top: 0;
+        left: 75px;
+    }
+    75% {
+        top: 75px;
+        left: 0;
+    }
+    100% {
+        left: -75px;
+        top: 0px;
+    }
+}
+
+@keyframes colorchange {
+    0% {
+        color: red;
+    }
+    33% {
+        color: green;
+    }
+    67% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
+
+@keyframes bgcolorchange {
+    0% {
+        background-color: red;
+    }
+    33% {
+        background-color: green;
+    }
+    67% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
