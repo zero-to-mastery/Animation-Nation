@@ -1,0 +1,76 @@
+.center {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+.row {
+	display: flex;
+	align-content: center;
+}
+
+.column {
+	margin-top: 150px;
+}
+/* box 1 */
+.button1 {
+	background-color: #6cd9ce;
+	border: none;
+	padding: 50px 50px;
+	border-radius: 12px;
+	-webkit-animation-name: button1;
+	-webkit-animation-duration: 8s;
+	animation-name: button1;
+	animation-duration: 8s;
+}
+
+@-webkit-keyframes button1 {
+	from {
+		background-color: #6cd9ce;
+	}
+	to {
+		background-color: #ffffff;
+	}
+}
+
+@keyframes button1 {
+	from {
+		background-color: #6cd9ce;
+	}
+	to {
+		background-color: #ffffff;
+	}
+}
+/* box 1 */
+
+/* box 2 */
+.button2 {
+	background-color: #8fd9d1;
+	border: none;
+	padding: 50px 50px;
+	border-radius: 12px;
+	-webkit-animation-name: button2;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 2s;
+	animation-name: button2;
+	animation-duration: 5s;
+	animation-delay: 2s;
+}
+
+@-webkit-keyframes button2 {
+	from {
+		background-color: #8fd9d1;
+	}
+	to {
+		background-color: #ffffff;
+	}
+}
+
+@keyframes button2 {
+	from {
+		background-color: #8fd9d1;
+	}
+	to {
+		background-color: #ffffff;
+	}
+}
+/* box 2 */

@@ -299,7 +299,14 @@ let cards = [
     imageLink: "./Art/Ckanelin/cheshire.gif",
     author: "Ckanelin",
     githubLink: "https://github.com/ckanelin"
-  }
+  },
+  {
+		artName: 'Disappear',
+		pageLink: './Art/Stacy/index.html',
+		imageLink: './Art/Stacy/disappear.gif',
+		author: 'Stacy',
+		githubLink: 'https://github.com/stacyholtz6'
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
