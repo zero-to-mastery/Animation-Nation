@@ -314,6 +314,13 @@ let cards = [
     author: "Sabina Abbasova",
     githubLink: "https://github.com/sabina929"
   }
+  {
+    artName: "NightSky",
+    pageLink: "./Art/AndyS/index.html",
+    imageLink: "./Art/AndyS/Capture.gif",
+    author: "AndyS",
+    githubLink: "https://github.com/AndyS1988"
+    }
 ];
 
 // +--------------------------------------------------------------------------------+

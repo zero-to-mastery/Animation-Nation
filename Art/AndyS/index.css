@@ -1,0 +1,275 @@
+body {
+	margin: 0px;
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Mansalva', cursive;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(1, 55, 88));
+}
+
+.container {
+	position: relative;
+	width: 85%;
+	height: 85%;
+	margin: 1em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	color: white;
+	font-size: 2.5em;
+	font-weight: 800;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+	opacity: 0.5;
+	animation-name: text-bounce;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+}
+
+.stars{
+	border-radius: 50%;
+}
+
+.small {
+	width: 7px;
+	height: 7px;
+}
+
+.medium {
+	width: 10px;
+	height: 10px;
+}
+
+.large {
+	width: 13px;
+	height: 13px;
+}
+
+#star1 {
+	background-color: rgb(211, 240, 240);
+	position: absolute;
+	top: 0.3em;
+	left: 1em;
+	animation-name: star1;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 4s;
+	animation-timing-function: ease-out;
+}
+
+#star2 {
+	background-color: rgba(245, 244, 86, 0.6);
+	position: absolute;
+	top: 2em;
+	left: 14em;
+}
+
+#star3 {
+	background-color: rgb(211, 240, 240);
+	position: absolute;
+	top: 10em;
+	right: 6em;
+	animation-name: star2;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+}
+
+#star4 {
+	background-color: rgb(211, 240, 240);
+	position: absolute;
+	bottom: 1em;
+	right: 3em;
+	animation-name: star3;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+}
+
+#star5 {
+	background-color: rgb(211, 240, 240);
+	position: absolute;
+	bottom: 3em;
+	right: 10em;
+	animation-name: star4;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 4s;
+	animation-delay: 0.3s;
+	animation-timing-function: linear;
+}
+
+#star6 {
+	background-color: rgb(211, 240, 240);
+	position: absolute;
+	bottom: 10em;
+	left: 2em;
+	animation-name: star5;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 3s;
+	animation-delay: 0.1s;
+	animation-timing-function: linear;
+}
+
+#star7 {
+	background-color: rgb(211, 240, 240);
+	position: absolute;
+	bottom: 4em;
+	left: 15em;
+	animation-name: star3;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 4s;
+	animation-delay: 1s;
+	animation-timing-function: ease-out;
+}
+
+#star8 {
+	background-color: rgb(211, 240, 240);
+	position: absolute;
+	top: 15em;
+	left: 3em;
+	animation-name: star2;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 5s;
+	animation-timing-function: ease-in;
+}
+
+#star9 {
+	background-color: rgb(211, 240, 240);
+	opacity: 0.8;
+	position: absolute;
+	bottom: 1em;
+	left: 11em;
+}
+
+#star10 {
+	background-color: rgb(211, 240, 240);
+	position: absolute;
+	top: 3em;
+	right: 15em;
+	animation-name: star1;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+}
+
+/*Anim Definition*/
+
+@keyframes text-bounce {
+	0% {
+		opacity: 0.25;
+		transform: translate(0, 50px);
+	}
+	25% {
+		opacity: 0.5;
+		transform: translate(0, 25px);
+	}
+	50% {
+		opacity: 0.7;
+		transform: translate(0, 0);
+	}
+	75% {
+		opacity: 0.5;
+		transform: translate(0, -25px);
+	}
+	100% {
+		opacity: 0.25;
+		transform: translate(0, -50px);
+	}
+}
+
+@keyframes star1 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0.6;
+		background-color: rgb(202, 232, 244);
+		transform: scale(1.3);
+	}
+	100% {
+		opacity: 1;
+		background-color: rgba(109, 171, 195);
+	}
+}
+
+@keyframes star2 {
+	0% {
+		opacity: 0.3;
+	}
+	50% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes star3 {
+	0% {
+		opacity: 0.2;
+	}
+	25% {
+		opacity: 0.4;
+		transform: scale(1.1);
+	}
+	50% {
+		opacity: 0.6;
+		transform: scale(1.2);
+	}
+	75% {
+		opacity: 0.8;
+		transform: scale(1.3);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1.4);
+	}
+}
+
+@keyframes star4 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0.6;
+		background-color: rgb(255, 236, 210);
+		transform: scale(1.2);
+	}
+	100% {
+		opacity: 1;
+		background-color: rgba(255, 205, 137);
+	}
+}
+
+@keyframes star5 {
+	0% {
+		opacity: 0.3;
+	}
+	50% {
+		opacity: 0.6;
+		transform: scale(1.3);
+		background-color: rgb(255, 177, 171);
+	}
+	100% {
+		opacity: 0.9;
+		transform: scale(1.5);
+		background-color: rgb(255, 138, 129);
+	}
+}
