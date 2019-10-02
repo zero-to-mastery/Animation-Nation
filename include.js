@@ -266,6 +266,13 @@ let cards = [
 		author: 'DepStep',
 		githubLink: 'https://github.com/stephD',
 	},
+	{
+		artName: 'C\'olors',
+		pageLink: './Art/TrailSnail/index.html',
+		imageLink: './Art/TrailSnail/spinner.gif',
+		author: 'TrailSnail',
+		githubLink: 'https://github.com/TrailSnail',
+	},
 ]
 
 // +--------------------------------------------------------------------------------+

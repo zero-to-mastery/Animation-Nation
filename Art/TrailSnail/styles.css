@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+:root {
+    --spinner-size: 100px;
+}
+.spinner {
+    width: var(--spinner-size);
+    height: var(--spinner-size);
+    background:
+            url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI4NjRweCIgaGVpZ2h0PSI4NjRweCIgdmlld0JveD0iMCAwIDg2NCA4NjQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDg2NCA4NjQiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiM3RUJBMDAiIGQ9Ik03MjAuNDU3LDQ2Ny4yOEM3MDMuMDEsNjEwLjI0Nyw1ODAuOTE0LDcyMS4wMDEsNDMyLjg3LDcyMS4wMDFjLTE2MC4wMTksMC0yODkuNzM4LTEyOS4zOS0yODkuNzM4LTI4OS4wMDFjMC0xNTkuNjEsMTI5LjcyLTI4OSwyODkuNzM4LTI4OWMxNDguMjk1LDAsMjcwLjU1LDExMS4xMzIsMjg3LjY3MSwyNTQuNDUySDc3MkM3NTQuNjQzLDIyNS45MDIsNjA5LjQzMyw5Miw0MzIuODY5LDkyQzI0NC42MTMsOTIsOTIsMjQ0LjIyNCw5Miw0MzEuOTk5QzkyLDYxOS43NzUsMjQ0LjYxMyw3NzIsNDMyLjg2OSw3NzJjMTc2LjMxMywwLDMyMS4zNTUtMTMzLjUyMywzMzkuMDUxLTMwNC43MjFMNzIwLjQ1Nyw0NjcuMjhMNzIwLjQ1Nyw0NjcuMjh6Ii8+PC9zdmc+)
+            no-repeat;
+    animation: spinner 4s ease infinite;
+    background-size: 100%;
+    position: fixed;
+    top: calc(50% - (var(--spinner-size) / 2));
+    left: calc(50% - (var(--spinner-size) / 2));
+}
+.spinner:before,
+.spinner:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:
+            url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI4NjRweCIgaGVpZ2h0PSI4NjRweCIgdmlld0JveD0iMCAwIDg2NCA4NjQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDg2NCA4NjQiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiM3RUJBMDAiIGQ9Ik02NTYuMDk5LDQ2Ny4wMjVjLTE2Ljg4OCwxMDcuNTYzLTExMC4zMDgsMTg5Ljg1OS0yMjMuMDMyLDE4OS44NTljLTEyNC42ODMsMC0yMjUuNzU5LTEwMC42ODQtMjI1Ljc1OS0yMjQuODg1YzAtMTI0LjIwMSwxMDEuMDc3LTIyNC44ODUsMjI1Ljc1OS0yMjQuODg1YzExMi45NTksMCwyMDYuNTQsODIuNjM3LDIyMy4xNDYsMTkwLjUzSDcwN0M2OTAuMDI1LDI2MS45ODMsNTczLjg1OSwxNTcsNDMzLjA2OSwxNTdDMjgwLjYsMTU3LDE1NywyODAuMTIxLDE1Nyw0MzJTMjgwLjYsNzA3LDQzMy4wNjksNzA3YzE0MC41NjIsMCwyNTYuNTg0LTEwNC42MzYsMjczLjg1NC0yMzkuOTc2TDY1Ni4wOTksNDY3LjAyNUw2NTYuMDk5LDQ2Ny4wMjV6Ii8+PC9zdmc+)
+            no-repeat;
+    background-size: 100%;
+    animation: swirl 4s ease-in-out infinite;
+}
+.spinner:after {
+    background:
+            url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI4NjRweCIgaGVpZ2h0PSI4NjRweCIgdmlld0JveD0iMCAwIDg2NCA4NjQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDg2NCA4NjQiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiM3RUJBMDAiIGQ9Ik01OTIuMjU2LDQ2Ni43NTRjLTE2LjAwNiw3Mi41MjEtODEuMDM5LDEyNi44MDUtMTU4Ljg0NiwxMjYuODA1Yy04OS44MTksMC0xNjIuNjMxLTcyLjMzMy0xNjIuNjMxLTE2MS41NThjMC04OS4yMjYsNzIuODExLTE2MS41NTksMTYyLjYzMS0xNjEuNTU5Yzc3Ljg5NiwwLDE0Mi45OSw1NC40MSwxNTguOSwxMjcuMDU3SDY0NC41QzYyNy45MDYsMjk2LjU0OSw1MzkuNzIzLDIxOS41LDQzMy40MSwyMTkuNUMzMTUuMjcxLDIxOS41LDIxOS41LDMxNC42NCwyMTkuNSw0MzJjMCwxMTcuMzU5LDk1Ljc3MSwyMTIuNSwyMTMuOTExLDIxMi41YzEwNi4yMjQsMCwxOTQuMzQ4LTc2LjkyMiwyMTEuMDQ4LTE3Ny43NDhoLTUyLjIwMlY0NjYuNzU0eiIvPjwvc3ZnPg==)
+            no-repeat;
+    animation: swirl 2s ease-in-out infinite;
+    position: absolute;
+    top: 0;
+    background-size: 100%;
+}
+.spinner:hover,
+.spinner:hover:after,
+.spinner:hover:before {
+    animation-play-state: paused;
+}
+
+/* Animations */
+@keyframes spinner {
+    to {transform:rotate(360deg);}
+    0% {filter: drop-shadow(0px 0px 15px #00ff10) hue-rotate(0deg);}
+    50% {filter: drop-shadow(0px 0px 15px #00ff10) hue-rotate(360deg);}
+    100% {filter: drop-shadow(0px 0px 15px #00ff10) hue-rotate(0deg);}
+}
+
+@keyframes swirl {
+    0% {transform: scaleX(1) rotate(360deg);}
+    50% {transform: scaleX(-1);}
+    100% {transform: scaleX(1) rotate(360deg);}
+}
+
+
