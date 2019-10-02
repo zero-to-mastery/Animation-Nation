@@ -274,12 +274,19 @@ let cards = [
 		githubLink: 'https://github.com/stephD',
 	},
 	{
-		artName: 'SoundBoxes',
+		artName: 'Sunshine',
+		pageLink: './Art/Pavelisp/sunshine.html',
+		imageLink: './Art/Pavelisp/sunshine.gif',
+		author: 'Pavel Isp',
+		githubLink: 'https://github.com/pavelisp',
+	},
+  {
+    artName: 'SoundBoxes',
 		pageLink: './Art/Hbarang/SoundBox.html',
 		imageLink: './Art/Hbarang/SoundBoxAnimation.gif',
 		author: 'Hbarang',
 		githubLink: 'https://github.com/hbarang',
-	},
+  },
 ]
 
 // +--------------------------------------------------------------------------------+
