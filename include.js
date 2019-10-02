@@ -1,6 +1,13 @@
 let cards = [
     //  Add your card in this section
   {
+    artName: "Sliding Lines",
+    pageLink: "./Art/erics0n/sliding-lines/index.html",
+    imageLink: "./Art/erics0n/sliding-lines/image.gif",
+    author: "erics0n",
+    githubLink: "https://github.com/erics0n"
+  },
+  {
     artName: "Triangle",
     pageLink: "./Art/Joy/triangle/triangle.html",
     imageLink: "./Art/Joy/triangle/triangle.gif",
