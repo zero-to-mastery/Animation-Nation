@@ -225,6 +225,13 @@ let cards = [
     githubLink: "https://github.com/jameswhitney"
   },
   {
+    artName: "Rotation",
+    pageLink: "./Art/alenanog/index.html",
+    imageLink: "./Art/alenanog/rotation.gif",
+    author: "Alena A.",
+    githubLink: "https://github.com/alenanog"
+  },
+  {
     artName: "Colors in your life",
     pageLink: "./Art/Atipahy/colors.html",
     imageLink: "./Art/Atipahy/colors.png",
