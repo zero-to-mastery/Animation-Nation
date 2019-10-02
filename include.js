@@ -230,6 +230,13 @@ let cards = [
     imageLink: "./Art/Atipahy/colors.png",
     author: "Christos Chr",
     githubLink: "https://github.com/atipaHy"
+  },
+  {
+    artName: "Orb",
+    pageLink: "./Art/Jkbicbic/orb.html",
+    imageLink: "./Art/Jkbicbic/orb.gif",
+    author: "John Kennedy Bicbic",
+    githubLink: "https://github.com/jkbicbic"
   }
 ];
 
