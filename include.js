@@ -294,7 +294,13 @@ let cards = [
 		author: 'Hbarang',
 		githubLink: 'https://github.com/hbarang',
   },
-]
+  { artName: "Cheshire",
+    pageLink: "./Art/Ckanelin/index.html",
+    imageLink: "./Art/Ckanelin/cheshire.gif",
+    author: "Ckanelin",
+    githubLink: "https://github.com/ckanelin"
+  }
+];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -323,5 +329,5 @@ document.getElementById('cards').innerHTML = contents
 
 function Shuffle(o) {
 	for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-	return o
+	return o;
 }
