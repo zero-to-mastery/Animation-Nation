@@ -266,6 +266,13 @@ let cards = [
 		author: 'DepStep',
 		githubLink: 'https://github.com/stephD',
 	},
+	{
+		artName: 'Dancing Ball...',
+		pageLink: './Art/DaveFres/index.html',
+		imageLink: './Art/DaveFres/ball.gif',
+		author: 'DaveFres',
+		githubLink: 'https://github.com/DaveFres',
+	},
 ]
 
 // +--------------------------------------------------------------------------------+
