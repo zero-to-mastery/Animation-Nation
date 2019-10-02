@@ -1,19 +1,26 @@
 let cards = [
     //  Add your card in this section
-    {
-      artName: "Triangle",
-      pageLink: "./Art/Joy/triangle.html",
-      imageLink: "./Art/Joy/triangle.gif",
-      author: "Joy",
-      githubLink: "https://github.com/royranger"
-    },
-    {
-      artName: "Burger Menu",
-      pageLink: "./Art/mctrl/burger.html",
-      imageLink: "./Art/mctrl/burger.gif",
-      author: "Martina",
-      githubLink: "https://github.com/mctrl"
-    },
+  {
+    artName: "Triangle",
+    pageLink: "./Art/Joy/triangle/triangle.html",
+    imageLink: "./Art/Joy/triangle/triangle.gif",
+    author: "Joy",
+    githubLink: "https://github.com/royranger"
+  },
+  {
+    artName: "Cube",
+    pageLink: "./Art/Joy/cube/cube.html",
+    imageLink: "./Art/Joy/cube/cube.gif",
+    author: "Joy",
+    githubLink: "https://github.com/royranger"
+  },
+  {
+    artName: "Burger Menu",
+    pageLink: "./Art/mctrl/burger.html",
+    imageLink: "./Art/mctrl/burger.gif",
+    author: "Martina",
+    githubLink: "https://github.com/mctrl"
+  },
   {
     artName: "Square Loader",
     pageLink: "./Art/Hemant/index.html",
