@@ -1,0 +1,64 @@
+.element {
+	width: 100%;
+	height: 100%;
+	animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		background-color: #001f3f;
+	}
+	100% {
+		background-color: #ff4136;
+	}
+}
+
+.element2 {
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+	background-color: red;
+	animation-name: stretch;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+	position: fixed;
+	top: 60px;
+	left: 60px;
+}
+
+@keyframes stretch {
+	0% {
+		transform: scale(0.3);
+		background-color: red;
+		border-radius: 100%;
+	}
+	50% {
+		background-color: orange;
+	}
+	100% {
+		transform: scale(1.5);
+		background-color: yellow;
+	}
+}
+
+body,
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+}

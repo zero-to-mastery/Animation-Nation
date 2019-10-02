@@ -1,0 +1,50 @@
+body {
+	background-color: black;
+	padding: 200px;
+}
+
+div {
+	display: block;
+	margin: 0 auto;
+	border-radius: 5%;
+	animation-name: rotation;
+ 	animation-duration: 3s;
+ 	animation-iteration-count: infinite;
+ 	animation-timing-function: linear;
+ 	/* Safari 4.0 - 8.0 */
+ 	-webkit-animation-name: rotation;  
+ 	-webkit-animation-duration: 3s;
+ 	-webkit-animation-iteration-count: infinite;
+ 	-webkit-animation-timing-function: linear;
+}
+
+.blue {
+	background-color: #0B5199;
+	width: 200px;
+	height: 200px;
+	opacity:0.8;
+}
+
+.green {
+	background-color: #69c783;
+	width: 250px;
+	height: 250px;
+}
+
+@keyframes rotation {
+ 	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes rotation {
+  from {
+  	-webkit-transform: rotate(0deg);
+  }
+  to {
+  	-webkit-transform: rotate(360deg);
+  }
+}
