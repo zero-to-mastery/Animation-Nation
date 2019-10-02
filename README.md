@@ -21,7 +21,7 @@ The rules are simple. You have to:
 
 If you've never forked a repository or made a pull request before, we recommend making your first one over at [https://github.com/zero-to-mastery/start-here-guidelines](https://github.com/zero-to-mastery/start-here-guidelines). That will count towards your total, and then you'll be ready to take on this challenge with your new GitHub skills!
 
-Cool resource to learn fork workflow [https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow]
+Cool resource to learn fork workflow [https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
 
 Now, once you've forked this repo and got a local version up on your computer, follow these steps:
 
