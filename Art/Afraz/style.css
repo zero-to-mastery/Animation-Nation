@@ -1,0 +1,83 @@
+body {
+	margin: auto 0;
+	background: black;
+}
+
+.charging {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.charging-body {
+	color: #fff;
+	height: 70px;
+	width: 160px;
+	border: 6px solid #fff;
+	border-radius: 5px;
+}
+
+.charge-hand {
+	height: 35px;
+	width: 10px;
+	border-right: 4px solid #fff;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+	margin: 0 0 -62px 170px;
+	border-radius: 5px;
+}
+
+.elements-placeholder,
+.elements {
+	display: flex;
+	position: relative;
+	border: 5px solid black;
+	height: 88%;
+} 
+.elements {
+	margin-top: -72px;
+}
+
+.elements div:not(:last-child) {
+	content: '';
+	margin-right: 5px;
+}
+
+.elements div {
+	height: 100%;
+	width: 20px;
+	animation: animate 2s infinite; 
+}
+
+.elements .one {
+	animation-delay: 0s;
+}
+.elements .two {
+	animation-delay: .17s;
+}
+.elements .three {
+	animation-delay: .34s;
+}
+.elements .four {
+	animation-delay: .51s;
+}
+.elements .five {
+	animation-delay: .68s;
+}
+.elements .six {
+	animation-delay: .85s;
+}
+.elements .seven {
+	animation-delay: 1s;
+}
+
+@keyframes animate {
+	0% {
+		background-color: blue;
+	}
+
+	100% {
+		background-color: black;
+	}
+}

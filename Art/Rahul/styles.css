@@ -1,0 +1,105 @@
+.circle{
+	box-sizing: border-box;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: rgb(245, 93, 93);
+	border: 2px solid red;
+	animation-name: loading;
+	animation-duration: 4s;
+	animation-timing-function: ease;
+	animation-delay: 0.5s;
+	animation-iteration-count: infinite;
+	margin: 10px;
+	margin-top: 100px;
+}
+
+.circle1{
+	width:50px;
+	height: 50px;
+	border-radius: 50%;
+	animation-direction: alternate-reverse;
+}
+
+.circle2{
+	width:50px;
+	height: 50px;
+	border-radius: 50%;
+	animation-direction: alternate-reverse;
+}
+
+.circle3{
+	width:30px;
+	height: 30px;
+	border-radius: 50%;
+	animation-direction: alternate-reverse;
+}
+
+.circle4{
+	width:30px;
+	height: 30px;
+	border-radius: 50%;
+	animation-direction: alternate-reverse;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	margin: 0 auto;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin-top: 100px;
+}
+
+.inner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+span{
+	width: 100%;
+	text-align: center;
+	font-family: Nunito;
+	font-size: 30px;
+	color: rgb(54, 53, 52);
+	margin-top: 0;
+	height: 30%;
+}
+
+@keyframes loading{
+	0%{
+	  background-color: rgb(245, 93, 93);
+	}
+	12.5%{
+	  background-color: white;   
+	}
+	25%{
+		 background-color: rgb(245, 93, 93);
+	}
+	37.5%{
+		 background-color: white;
+	}
+	49.5%{
+		 background-color: rgb(245, 93, 93);
+	}
+	
+	62%{
+		 background-color: white;
+	}
+	74.5%{
+		 background-color: rgb(245, 93, 93);
+	}
+	
+	87%{
+	   background-color: white; 
+	}
+	
+	100%{
+		 background-color: rgb(245, 93, 93);
+	}
+}
