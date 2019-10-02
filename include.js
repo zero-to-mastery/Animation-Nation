@@ -203,6 +203,13 @@ let cards = [
     author: "James Whitney",
     githubLink: "https://github.com/jameswhitney"
   },
+  {
+    artName: "Loading Animation",
+    pageLink: "./Art/Sidharth/Loading.html",
+    imageLink: "./Art/Sidharth/Loading.gif",
+    author: "Sidharth",
+    githubLink: "https://github.com/Sidharth98"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
