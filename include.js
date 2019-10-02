@@ -273,6 +273,13 @@ let cards = [
 		author: 'DepStep',
 		githubLink: 'https://github.com/stephD',
 	},
+	{
+		artName: 'SoundBoxes',
+		pageLink: './Art/Hbarang/SoundBox.html',
+		imageLink: './Art/Hbarang/SoundBoxAnimation.gif',
+		author: 'Hbarang',
+		githubLink: 'https://github.com/hbarang',
+	},
 ]
 
 // +--------------------------------------------------------------------------------+
