@@ -251,6 +251,13 @@ let cards = [
     imageLink: "./Art/Jkbicbic/orb.gif",
     author: "John Kennedy Bicbic",
     githubLink: "https://github.com/jkbicbic"
+  },
+  {
+    artName: "Charging...",
+    pageLink: "./Art/Afraz/charging.html",
+    imageLink: "./Art/Afraz/charging.gif",
+    author: "Afraz",
+    githubLink: "https://github.com/afrazz"
   }
 ];
 
