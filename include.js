@@ -1,5 +1,33 @@
 let cards = [
-  //  Add your card in this section
+    //  Add your card in this section
+  {
+    artName: "Sliding Lines",
+    pageLink: "./Art/erics0n/sliding-lines/index.html",
+    imageLink: "./Art/erics0n/sliding-lines/image.gif",
+    author: "erics0n",
+    githubLink: "https://github.com/erics0n"
+  },
+  {
+    artName: "Triangle",
+    pageLink: "./Art/Joy/triangle/triangle.html",
+    imageLink: "./Art/Joy/triangle/triangle.gif",
+    author: "Joy",
+    githubLink: "https://github.com/royranger"
+  },
+  {
+    artName: "Cube",
+    pageLink: "./Art/Joy/cube/cube.html",
+    imageLink: "./Art/Joy/cube/cube.gif",
+    author: "Joy",
+    githubLink: "https://github.com/royranger"
+  },
+  {
+    artName: "Burger Menu",
+    pageLink: "./Art/mctrl/burger.html",
+    imageLink: "./Art/mctrl/burger.gif",
+    author: "Martina",
+    githubLink: "https://github.com/mctrl"
+  },
   {
     artName: "Square Loader",
     pageLink: "./Art/Hemant/index.html",
@@ -41,13 +69,6 @@ let cards = [
     imageLink: "./Art/VaibhavKhulbe/ellipseLoader.gif",
     author: "Vaibhav Khulbe",
     githubLink: "https://github.com/Kvaibhav01"
-  },
-  {
-    artName: "Triangle",
-    pageLink: "./Art/Joy/triangle.html",
-    imageLink: "./Art/Joy/triangle.gif",
-    author: "Joy",
-    githubLink: "https://github.com/royranger"
   },
   {
     artName: "Simple Loader",
@@ -183,6 +204,13 @@ let cards = [
     githubLink: "https://github.com/Nnaji-Victor"
   },
   {
+    artName: "ZTM Bouncer",
+    pageLink: "./Art/Josia/bouncer.html",
+    imageLink: "./Art/Josia/ztmbouncer.gif",
+    author: "Josia Rodriguez",
+    githubLink: "https://github.com/josiarod"
+  },
+  {
     artName: "TypeWriter effect",
     pageLink: "./Art/Sidharth/Typing_Text.html",
     imageLink: "./Art/Sidharth/type_writer.gif",
@@ -203,6 +231,20 @@ let cards = [
     author: "Alena A.",
     githubLink: "https://github.com/alenanog"
   },
+  {
+    artName: "Colors in your life",
+    pageLink: "./Art/Atipahy/colors.html",
+    imageLink: "./Art/Atipahy/colors.png",
+    author: "Christos Chr",
+    githubLink: "https://github.com/atipaHy"
+  },
+  {
+    artName: "Orb",
+    pageLink: "./Art/Jkbicbic/orb.html",
+    imageLink: "./Art/Jkbicbic/orb.gif",
+    author: "John Kennedy Bicbic",
+    githubLink: "https://github.com/jkbicbic"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
