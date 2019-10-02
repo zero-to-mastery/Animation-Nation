@@ -1,0 +1,45 @@
+.bground {
+  background-image: radial-gradient(circle, #0cd86d, #97bb00, #d59200, #fc5a2b, #ff0070);
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-position: center;
+ animation: background 4s ease-in-out 2s infinite;
+}
+.spin-doctor {background: orange;width: 300px;height:300px;animation: spin 3s linear infinite;display: flex;justify-content: center;align-items: center;position: relative;}
+
+.spin-doctor span {
+ transform: rotate(40deg);
+ font-family: sans-serif;
+ font-weight: bold;
+ font-size: 90px;
+ color: white;
+ animation: rspin 3s infinite;
+ postion: absolute;
+}
+
+@keyframes spin {
+ 0% {transform: rotate(0deg) scale(1)}
+ 50% {transform: rotate(999deg) scale(1.5)}
+ 100% {transform: rotate(0deg) scale(1)}
+}
+@keyframes rspin {
+ 0% {transform: rotate(999deg)}
+ 50% {transform: rotate(0deg)}
+ 100% {transform: rotate(999deg)}
+}
+
+@keyframes background {
+ 0% {
+  background-size: 100%;
+ }
+ 
+ 50% {
+ background-size: 300%;
+ }
+ 100% {
+   background-size: 100%;
+ }
+}

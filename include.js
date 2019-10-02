@@ -1,5 +1,12 @@
 let cards = [
 	//  Add your card in this section
+  {
+    artName: 'Local Host metaphor',
+    pageLink: './Art/Prateek/index.html',
+    imageLink: './Art/Prateek/localhost.png',
+    author: 'Prateek',
+    githubLink: 'https://github.com/prateekpatrick'
+  },
 	{
 		artName: 'Sliding Lines',
 		pageLink: './Art/erics0n/sliding-lines/index.html',
@@ -272,6 +279,13 @@ let cards = [
 		imageLink: './Art/DaveFres/ball.gif',
 		author: 'DaveFres',
 		githubLink: 'https://github.com/DaveFres',
+  },
+  {
+		artName: 'Sunshine',
+		pageLink: './Art/Pavelisp/sunshine.html',
+		imageLink: './Art/Pavelisp/sunshine.gif',
+		author: 'Pavel Isp',
+		githubLink: 'https://github.com/pavelisp'
 	},
 ]
 

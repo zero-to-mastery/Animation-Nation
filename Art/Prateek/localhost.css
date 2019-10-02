@@ -1,0 +1,54 @@
+body {
+            margin: 0;
+            font-family: 'Raleway Dots', bold;
+        }
+
+        .wrapper {
+            background-color: #000000;
+            height: 100vh;
+            color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .banner-text {
+            animation: pulse 5s infinite;
+            font-size: 100px;
+            letter-spacing: 2px;
+        }
+
+        @keyframes pulse {
+            0% {
+                color: #87ceeb;
+            }
+            10% {
+                color: #87ceeb;
+            }
+            30% {
+                color: #fff;
+            }
+            50% {
+                color: #87ceeb;
+            }
+            60% {
+                color: #87ceeb;
+            }
+            80% {
+                color: #fff;
+            }
+            100% {
+                color: #87ceeb;
+            }
+        }
+
+        .banner-text:after {
+            content: "";
+            animation: spin 5s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { content:"There is No Place Like"; }
+            100% { content:"127.0.0.1"; }
+        }
