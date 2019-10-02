@@ -313,14 +313,21 @@ let cards = [
     imageLink: "./Art/Sabina/ellipse_spinner.png",
     author: "Sabina Abbasova",
     githubLink: "https://github.com/sabina929"
-  }
+  },
   {
     artName: "NightSky",
     pageLink: "./Art/AndyS/index.html",
     imageLink: "./Art/AndyS/Capture.gif",
     author: "AndyS",
     githubLink: "https://github.com/AndyS1988"
-    }
+	},
+	{
+    artName: "Hungry",
+    pageLink: "./Art/diegchav/index.html",
+    imageLink: "./Art/diegchav/hungry.gif",
+    author: "Diego Chz",
+    githubLink: "https://github.com/diegchav"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
