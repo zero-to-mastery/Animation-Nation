@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: 'Local Host metaphor',
+    pageLink: './Art/Prateek/index.html',
+    imageLink: './Art/Prateek/localhost.png',
+    author: 'Prateek',
+    githubLink: 'https://github.com/prateekpatrick'
+  },
+  {
     artName: 'Square Loader',
     pageLink: './Art/Hemant/index.html',
     imageLink: './Art/Hemant/loader.gif',
