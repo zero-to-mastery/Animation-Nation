@@ -317,7 +317,7 @@ let cards = [
   {
     artName: "NightSky",
     pageLink: "./Art/AndyS/index.html",
-    imageLink: "./Art/AndyS/Capture.gif",
+    imageLink: "./Art/AndyS/Capture.GIF",
     author: "AndyS",
     githubLink: "https://github.com/AndyS1988"
 	},
