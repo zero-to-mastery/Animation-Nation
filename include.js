@@ -224,6 +224,12 @@ let cards = [
     author: "Christos Chr",
     githubLink: "https://github.com/atipaHy"
   }
+  { artName: "Cheshire",
+    pageLink: "./Art/Ckanelin/index.html",
+    imageLink: "./Art/Ckanelin/cheshire.gif",
+    author: "Ckanelin",
+    githubLink: "https://github.com/ckanelin"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
