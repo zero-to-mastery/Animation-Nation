@@ -1,6 +1,7 @@
 body {
             margin: 0;
             font-family: 'Raleway Dots', bold;
+
         }
 
         .wrapper {
@@ -17,6 +18,8 @@ body {
             animation: pulse 5s infinite;
             font-size: 100px;
             letter-spacing: 2px;
+            
+
         }
 
         @keyframes pulse {
@@ -27,7 +30,7 @@ body {
                 color: #87ceeb;
             }
             30% {
-                color: #fff;
+                color: #90EE90;
             }
             50% {
                 color: #87ceeb;
@@ -36,7 +39,7 @@ body {
                 color: #87ceeb;
             }
             80% {
-                color: #fff;
+                color: green;
             }
             100% {
                 color: #87ceeb;
@@ -45,7 +48,7 @@ body {
 
         .banner-text:after {
             content: "";
-            animation: spin 5s linear infinite;
+            animation: spin 4s linear infinite;
         }
 
         @keyframes spin {
