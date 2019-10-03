@@ -15,6 +15,13 @@ let cards = [
     githubLink: 'https://github.com/prateekpatrick'
   },
   {
+    artName: 'Gradient Flower',
+    pageLink: './Art/rheubach/index.html',
+    imageLink: './Art/rheubach/radial_flower.gif',
+    author: 'rheubach',
+    githubLink: 'https://github.com/rheubach'
+  },
+  {
     artName: 'Sliding Lines',
     pageLink: './Art/erics0n/sliding-lines/index.html',
     imageLink: './Art/erics0n/sliding-lines/image.gif',
