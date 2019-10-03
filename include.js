@@ -384,6 +384,13 @@ let cards = [
     imageLink: './Art/Sanidhya_Samadhiya/snip.png',
     author: 'Sanidhya Samadhiya',
     githubLink: 'https://github.com/sanidhya2000'
+  },
+  {
+    artName: 'My Vietnam',
+    pageLink: './Art/nhbduy/index.html',
+    imageLink: './Art/nhbduy/my-vietnam.gif',
+    author: 'Hoang-Bao-Duy NGUYEN',
+    githubLink: 'https://github.com/nhbduy'
   }
 ];
 
