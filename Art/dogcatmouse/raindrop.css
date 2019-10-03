@@ -1,0 +1,147 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+.raindrop{
+  background: #555;
+  position: absolute;
+	min-width: 100vw;
+	min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.border{
+  position: absolute;
+  background:#B1CEE8;
+  width: 300px;
+  height:500px;
+  border:5px solid #555;
+  top:200px;
+}
+
+.droplet-back{
+  background:#1CA3EC;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 40rem;
+  border-top-right-radius: 10rem;
+  transform:translateY(-200px) rotate(-45deg) ;
+  opacity: 0.2;
+  animation: back-rain 4s linear infinite;
+}
+
+.one{
+  margin-left:-70px;
+  animation: back-rain 4s linear infinite;
+}
+.two{
+  margin-left:130px;
+  animation: back-rain 4s linear infinite;
+}
+
+.three{
+  margin-right:170px;
+  animation: back-rain 5s linear infinite;
+}
+.four{
+  margin-right:-50px;
+  animation: back-rain 3s linear infinite;
+}
+.five{
+  margin-right:50px;
+  animation: back-rain 4s linear infinite;
+}
+.six{
+  margin-right:-140px;
+  animation: back-rain 2s linear infinite;
+}
+
+.droplet-front{
+  background:#1CA3EC;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 40rem;
+  border-top-right-radius: 5rem;
+  transform:translateY(-200px) rotate(-45deg) ;
+  opacity: 1;
+  animation: front-rain 4s linear infinite;
+}
+
+.first{
+  transform:translateY(-130px) rotate(-45deg) ;
+  margin-left:0px;;
+  animation: front-rain-2 3s ease-in infinite;
+}
+.second{
+  transform:translateY(-300px) rotate(-45deg) ;
+  margin-right:80px;
+  animation: front-rain-3 4s ease-out infinite;
+}
+.third{
+  transform:translateY(-200px) rotate(-45deg) ;
+  margin-right:130px;
+  animation: front-rain-2 3s ease-in infinite;
+}
+.fourth{
+  margin-right:-105px;
+  animation: front-rain 4s ease-out infinite;
+}
+.fifth{
+  margin-right:-30px;
+  animation: front-rain 3s ease-in infinite;
+}
+.sixth{
+  margin-right:-190px;
+  animation: front-rain-3 4s linear infinite;
+}
+.seventh{
+  margin-right:180px;
+  animation: front-rain-2 3s linear infinite;
+}
+
+
+
+
+@keyframes front-rain{
+  0%{
+    transform: translateY(-500px) rotate(-45deg);
+  }
+  100%{
+    transform: translateY(300px) rotate(-45deg);
+  }
+}
+@keyframes front-rain-2{
+  0%{
+    transform: translateY(-500px) rotate(-45deg);
+  }
+  100%{
+    transform: translateY(300px) rotate(-45deg);
+  }
+}
+
+@keyframes front-rain-3{
+  0%{
+    transform: translateY(-500px) rotate(-45deg);
+  }
+  100%{
+    transform: translateY(300px) rotate(-45deg);
+  }
+}
+@keyframes back-rain{
+  0%{
+    opacity: 0.3;
+  }
+
+  100%{
+    transform: translateY(100px) rotate(-45deg);
+  }
+}
