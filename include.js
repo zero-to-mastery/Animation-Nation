@@ -280,6 +280,14 @@ let cards = [
 		author: 'Pavel Isp',
 		githubLink: 'https://github.com/pavelisp',
 	},
+  	{
+		  artName: "Hi there",
+		  pageLink: "./Art/Aki/index.html",
+		  imageLink: "./Art/Aki/giphy.gif",
+		  author: "Aki",
+		  githubLink: "https://github.com/akmalist"
+	}
+ 
 ]
 
 // +--------------------------------------------------------------------------------+

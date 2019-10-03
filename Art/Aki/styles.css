@@ -25,7 +25,7 @@ body{
 }
 
 .rollIn {
-   font-size: 20rem;
+   font-size: 15rem;
   -webkit-animation: rollIn 2s infinite;
   -moz-animation:    rollIn 2s infinite;
   -o-animation:      rollIn 2s infinite;
