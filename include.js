@@ -348,7 +348,14 @@ let cards = [
     imageLink: "./Art/diegchav/hungry.gif",
     author: "Diego Chz",
     githubLink: "https://github.com/diegchav"
-	}
+	},
+  {
+    artName: 'Hover Text Animation',
+    pageLink: './Art/AyoubIssaad2/index.html',
+    imageLink: './Art/AyoubIssaad2/hoverTextAnimation.gif',
+    author: 'AyoubIssaad',
+    githubLink: 'https://github.com/AyoubIssaad',
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
