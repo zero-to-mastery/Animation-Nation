@@ -350,6 +350,13 @@ let cards = [
     author: 'Diego Chz',
     githubLink: 'https://github.com/diegchav'
   },
+	{
+		artName: "Infinity",
+		pageLink: "./Art/krisss/index.html",
+		imageLink: "./Art/krisss/infinity.gif",
+		author: "krisss",
+		githubLink: "https://github.com/krisss"
+	},
   {
     artName: 'Hover Text Animation',
     pageLink: './Art/AyoubIssaad2/index.html',
@@ -363,6 +370,20 @@ let cards = [
     imageLink: './Art/St3ve89/loading-spinner.gif',
     author: 'Istvan Acs',
     githubLink: 'https://github.com/St3ve89'
+  },
+  {
+    artName: 'Hamburger Menu Animation',
+    pageLink: './Art/AyoubIssaad3/index.html',
+    imageLink: './Art/AyoubIssaad3/HamburgerMenuAnimation.gif',
+    author: 'AyoubIssaad',
+    githubLink: 'https://github.com/AyoubIssaad',
+  },
+  {
+    artName: 'Ready to Fight',
+    pageLink: './Art/Sanidhya_Samadhiya/index.html',
+    imageLink: './Art/Sanidhya_Samadhiya/snip.png',
+    author: 'Sanidhya Samadhiya',
+    githubLink: 'https://github.com/sanidhya2000'
   }
 ];
 

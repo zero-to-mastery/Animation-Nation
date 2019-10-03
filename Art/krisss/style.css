@@ -1,0 +1,51 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #333;
+}
+
+.center {
+  position: absolute;
+}
+
+.square {
+  margin-left: -30px;
+  margin-top: -30px;
+  height: 100%;
+  width: 100%;
+  border: 30px solid #fff;
+  animation: shrink 2s ease-out infinite;
+}
+
+.square-one {
+  animation-delay: 0.5s;
+}
+
+.square-two {
+  animation-delay: 1s;
+}
+
+.square-three {
+  animation-delay: 1.5s;
+}
+
+.square-four {
+  animation-delay: 2;
+}
+
+@keyframes shrink {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0) rotate(135deg);
+  }
+}
