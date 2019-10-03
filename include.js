@@ -391,12 +391,21 @@ let cards = [
     imageLink: "./Art/dogcatmouse/raindrop.gif",
     author: "dogcatmouse",
     githubLink: "https://github.com/jianweilee128"
+  },
+  {
+    artName: "Hearts",
+    pageLink: "./Art/majorkira1/index.html",
+    imageLink: "./Art/Joy/hearts.gif",
+    author: "majorkira1",
+    githubLink: "https://github.com/majorkira1"
+  },
+  {
+    artName: "Spinning Cube",
+    pageLink: "./Art/CynthiaWare/cynthiaWare.html",
+    imageLink: "./Art/CynthiaWare/SpinningCube.gif",
+    author: "Cynthia Ware",
+    githubLink: "https://github.com/cynthiaw89"
   }
-  artName: "Spinning Cube",
-  pageLink: "./Art/CynthiaWare/cynthiaWare.html",
-  imageLink: "./Art/CynthiaWare/SpinningCube.gif",
-  author: "Cynthia Ware",
-  githubLink: "https://github.com/cynthiaw89"
 ];
 
 // +--------------------------------------------------------------------------------+
