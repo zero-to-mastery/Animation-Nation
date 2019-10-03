@@ -225,6 +225,13 @@ let cards = [
     githubLink: "https://github.com/sabina929"
   },
   {
+    artName: "Square and lines",
+    pageLink: "./Art/Sabina/square-and-lines.html",
+    imageLink: "./Art/Sabina/square-and-lines.png",
+    author: "Sabina Abbasova",
+    githubLink: "https://github.com/sabina929"
+  },
+  {
     artName: "Colors in your life",
     pageLink: "./Art/Atipahy/colors.html",
     imageLink: "./Art/Atipahy/colors.png",
