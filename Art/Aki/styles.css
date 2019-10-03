@@ -1,0 +1,35 @@
+ 
+body{
+    background: black;
+ }
+
+ h1{
+     color: #f1bc31;
+     text-align: center;
+     font-size: 4rem;
+ }
+
+
+svg{
+   display: block;
+   margin: auto;
+     
+}
+
+.path {
+    stroke-dasharray: 220;
+    stroke-dashoffset: 130;
+    animation: dash 2s 0s forwards infinite;
+    stroke-width:1px;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    }
+
+    @keyframes dash {
+        from {
+          stroke-dashoffset: 220;
+        }
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
