@@ -21,6 +21,11 @@ The rules are simple. You have to:
 
 If you've never forked a repository or made a pull request before, we recommend making your first one over at [https://github.com/zero-to-mastery/start-here-guidelines](https://github.com/zero-to-mastery/start-here-guidelines). That will count towards your total, and then you'll be ready to take on this challenge with your new GitHub skills!
 
+# Note
+
+If you have never forked an existing repository then the below article will help you understand the fork workflow. Hope that helps :)
+https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
+
 Now, once you've forked this repo and got a local version up on your computer, follow these steps:
 
 1. In the Art directory (folder), create a directory named after yourself.
