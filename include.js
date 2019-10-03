@@ -395,7 +395,7 @@ let cards = [
   {
     artName: "Hearts",
     pageLink: "./Art/majorkira1/index.html",
-    imageLink: "./Art/Joy/hearts.gif",
+    imageLink: "./Art/majorkira1/hearts.gif",
     author: "majorkira1",
     githubLink: "https://github.com/majorkira1"
   },
