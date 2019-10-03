@@ -281,6 +281,13 @@ let cards = [
     githubLink: "https://github.com/sabina929"
   },
   {
+    artName: "Wheel and Axle Loader",
+    pageLink: "./Art/Sabina/wheel_and_axle_loader.html",
+    imageLink: "./Art/Sabina/wheel_and_axle_loader.png",
+    author: "Sabina Abbasova",
+    githubLink: "https://github.com/sabina929"
+  },
+  {
     artName: "Colors in your life",
     pageLink: "./Art/Atipahy/colors.html",
     imageLink: "./Art/Atipahy/colors.png",
