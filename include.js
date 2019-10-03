@@ -113,6 +113,13 @@ let cards = [
   	githubLink: 'https://github.com/bhuvana-guna',
   },
   {
+  	artName: 'Bird',
+  	pageLink: './Art/Bhuvana/bird.html',
+  	imageLink: './Art/Bhuvana/bird.gif',
+  	author: 'Bhuvana',
+  	githubLink: 'https://github.com/bhuvana-guna',
+  },
+  {
   	artName: 'Simple blinking loading circles',
   	pageLink: './Art/Rahul/index.html',
   	imageLink: './Art/Rahul/loading.gif',
