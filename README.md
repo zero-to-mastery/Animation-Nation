@@ -47,3 +47,8 @@ let cards = [
 8. Make a pull request!
 
 And congratulations! You're all done. Have fun!
+
+# Note
+
+If you have never forked an existing repository then the below article will help you understand the fork workflow. Hope that helps :)
+https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow

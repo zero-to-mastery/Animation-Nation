@@ -1,6 +1,13 @@
 let cards = [
 	//  Add your card in this section
   {
+    artName: 'Hover Button Animation',
+    pageLink: './Art/Vipul/hover.html',
+    imageLink: ['./Art/Vipul/Screenshot1.png', './Art/Vipul/Screenshot2.png'],
+    author: 'Vipul',
+    githubLink: 'https://github.com/vipuljain08'
+  },
+  {
     artName: 'Local Host metaphor',
     pageLink: './Art/Prateek/index.html',
     imageLink: './Art/Prateek/localhost.png',
@@ -348,7 +355,14 @@ let cards = [
 		imageLink: "./Art/krisss/infinity.gif",
 		author: "krisss",
 		githubLink: "https://github.com/krisss"
-	}
+	},
+  {
+    artName: 'Hover Text Animation',
+    pageLink: './Art/AyoubIssaad2/index.html',
+    imageLink: './Art/AyoubIssaad2/hoverTextAnimation.gif',
+    author: 'AyoubIssaad',
+    githubLink: 'https://github.com/AyoubIssaad',
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
