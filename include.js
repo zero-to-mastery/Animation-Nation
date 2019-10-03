@@ -385,6 +385,13 @@ let cards = [
     author: 'Sanidhya Samadhiya',
     githubLink: 'https://github.com/sanidhya2000'
   }
+  {
+    artName: "Hearts",
+    pageLink: "./Art/majorkira1/index.html",
+    imageLink: "./Art/Joy/hearts.gif",
+    author: "majorkira1",
+    githubLink: "https://github.com/majorkira1"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
