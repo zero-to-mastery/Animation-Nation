@@ -364,6 +364,13 @@ let cards = [
     githubLink: 'https://github.com/AyoubIssaad',
   },
   {
+    artName: 'Hamburger Menu Animation',
+    pageLink: './Art/AyoubIssaad3/index.html',
+    imageLink: './Art/AyoubIssaad3/HamburgerMenuAnimation.gif',
+    author: 'AyoubIssaad',
+    githubLink: 'https://github.com/AyoubIssaad',
+  },
+  {
     artName: 'Ready to Fight',
     pageLink: './Art/Sanidhya_Samadhiya/index.html',
     imageLink: './Art/Sanidhya_Samadhiya/snip.png',
