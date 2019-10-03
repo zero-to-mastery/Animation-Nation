@@ -1,0 +1,244 @@
+.container{
+    display: inline-flex;
+    align-items: flex-end;
+    padding: 60px;
+    margin:auto;
+}
+.upperContainer{
+  text-align: center;
+      position:fixed;
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top:0;
+    left:0;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    background:black;
+}
+.soundBox{
+  width: 30px;
+  height: 50px;
+  margin: 4px;
+  background-color: black;
+  animation: myAnimation 1.2s infinite;
+animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);}
+
+
+@keyframes myAnimation{
+  0%{
+  background-color: black;
+  }
+  50%{
+  background-color: red;
+  }
+  100%{
+  background-color: black;
+  }
+}
+.empty{
+  width:0;
+  height: 50px;
+  margin: 4px;
+}
+.anim1{
+    animation: dancAnim1 2s infinite;
+}
+.anim2{
+    animation: dancAnim2 2s infinite;
+}
+.anim3{
+    animation: dancAnim3 2s infinite;
+}
+@keyframes dancAnim1{
+  0%{
+    height: 50px;
+    background-color: rgb(215, 83, 255);
+  box-shadow: 0 0 5px 3px rgb(215, 83, 255);
+
+  }
+  20%{
+    height: 45px;
+    background-color: rgb(179, 30, 253);
+    box-shadow: 0 0 5px 3px rgb(179, 30, 253);
+
+  }
+  30%{
+    height: 35px;
+   background-color: rgb(115, 1, 194);
+    box-shadow: 0 0 5px 3px rgb(115, 1, 194);
+
+  }
+    40%{
+    height: 45px;
+    background-color: rgb(179, 30, 253);
+    box-shadow: 0 0 5px 3px rgb(179, 30, 253);
+
+  }
+    50%{
+    height: 40px;
+    background-color: rgb(173, 9, 255);
+    box-shadow: 0 0 5px 3px rgb(173, 9, 255);
+
+
+  }
+      60%{
+    height: 30px;
+    background-color: rgb(85, 1, 184);
+    box-shadow: 0 0 5px 3px rgb(85, 1, 184);
+
+  }
+      70%{
+    height: 25px;
+    background-color: rgb(65, 1, 164);
+    box-shadow: 0 0 5px 3px rgb(65, 1, 164);
+
+  }
+      80%{
+    height: 35px;
+    background-color: rgb(105, 1, 204);
+    box-shadow: 0 0 5px 3px rgb(105, 1, 204);
+
+  }
+      90%{
+    height: 45px;
+    background-color: rgb(179, 30, 253);
+    box-shadow: 0 0 5px 3px rgb(179, 30, 253);
+
+  }
+      100%{
+    height: 50px;
+    background-color: rgb(215, 83, 255);
+    box-shadow: 0 0 5px 3px rgb(215, 83, 255);
+
+  }
+}
+
+@keyframes dancAnim2{
+  0%{
+    height: 25px;
+    background-color: rgb(49, 184, 187);
+    box-shadow: 0 0 5px 3px rgb(49, 184, 187);
+
+  }
+  20%{
+    height: 30px;
+    background-color: rgb(30, 219, 223);
+  box-shadow: 0 0 5px 3px rgb(30, 219, 223);
+
+  }
+  30%{
+    height: 35px;
+    background-color: rgb(25, 237, 241);
+  box-shadow: 0 0 5px 3px rgb(25, 237, 241);
+
+  }
+    40%{
+    height: 30px;
+    background-color: rgb(30, 219, 223);
+  box-shadow: 0 0 5px 3px rgb(30, 219, 223);
+
+  }
+    50%{
+    height: 40px;
+    background-color: rgb(1, 248, 254);
+    box-shadow: 0 0 5px 3px rgb(1, 248, 254);
+
+  }
+      60%{
+    height: 35px;
+    background-color: rgb(25, 237, 241);
+  box-shadow: 0 0 5px 3px rgb(25, 237, 241);
+
+  }
+      70%{
+    height: 30px;
+    background-color: rgb(30, 219, 223);
+  box-shadow: 0 0 5px 3px rgb(30, 219, 223);
+
+  }
+      80%{
+    height: 25px;
+    background-color: rgb(49, 184, 187);
+  box-shadow: 0 0 5px 3px rgb(49, 184, 187);
+
+  }
+      90%{
+    height: 20px;
+    background-color: rgb(47, 122, 124);
+  box-shadow: 0 0 5px 3px rgb(47, 122, 124);
+
+  }
+      100%{
+    height: 25px;
+    background-color: rgb(49, 184, 187);
+  box-shadow: 0 0 5px 3px rgb(49, 184, 187);
+
+  }
+}
+
+@keyframes dancAnim3{
+  0%{
+    height: 0px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px 3px rgb(0, 0, 0);
+
+  }
+  20%{
+    height: 15px;
+    background-color: rgb(86, 124, 63);
+    box-shadow: 0 0 5px 3px rgb(86, 124, 63);
+
+  }
+  30%{
+    height: 10px;
+    background-color: rgb(73, 101, 56);
+    box-shadow: 0 0 5px 3px rgb(73, 101, 56);
+
+  }
+    40%{
+    height: 20px;
+    background-color: rgb(99, 166, 59);
+    box-shadow: 0 0 5px 3px rgb(99, 166, 59);
+
+  }
+    50%{
+    height: 25px;
+    background-color: rgb(102, 179, 55);
+    box-shadow: 0 0 5px 3px rgb(102, 179, 55);
+
+  }
+      60%{
+    height: 15px;
+    background-color: rgb(86, 124, 63);
+    box-shadow: 0 0 5px 3px rgb(86, 124, 63);
+
+  }
+      70%{
+    height: 10px;
+    background-color: rgb(73, 101, 56);
+    box-shadow: 0 0 5px 3px rgb(73, 101, 56);
+
+  }
+      80%{
+    height: 20px;
+    background-color: rgb(99, 166, 59);
+    box-shadow: 0 0 5px 3px rgb(99, 166, 59);
+
+  }
+      90%{
+    height: 15px;
+    background-color: rgb(86, 124, 63);
+    box-shadow: 0 0 5px 3px rgb(86, 124, 63);
+
+  }
+      100%{
+    height: 0px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px 3px rgb(0, 0, 0);
+
+  }
+}

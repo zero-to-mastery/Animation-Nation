@@ -1,9 +1,37 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: 'Hover Button Animation',
+    pageLink: './Art/Vipul/hover.html',
+    imageLink: ['./Art/Vipul/Screenshot1.png', './Art/Vipul/Screenshot2.png'],
+    author: 'Vipul',
+    githubLink: 'https://github.com/vipuljain08'
+  },
+  {
+    artName: 'Local Host metaphor',
+    pageLink: './Art/Prateek/index.html',
+    imageLink: './Art/Prateek/localhost.png',
+    author: 'Prateek',
+    githubLink: 'https://github.com/prateekpatrick'
+  },
+  {
+    artName: 'Sliding Lines',
+    pageLink: './Art/erics0n/sliding-lines/index.html',
+    imageLink: './Art/erics0n/sliding-lines/image.gif',
+    author: 'erics0n',
+    githubLink: 'https://github.com/erics0n'
+  },
+  {
     artName: 'Triangle',
-    pageLink: './Art/Joy/triangle.html',
-    imageLink: './Art/Joy/triangle.gif',
+    pageLink: './Art/Joy/triangle/triangle.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'Cube',
+    pageLink: './Art/Joy/cube/cube.html',
+    imageLink: './Art/Joy/cube/cube.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
   },
@@ -88,6 +116,20 @@ let cards = [
     artName: 'Circles',
     pageLink: './Art/Bhuvana/circles.html',
     imageLink: './Art/Bhuvana/circles.gif',
+    author: 'Bhuvana',
+    githubLink: 'https://github.com/bhuvana-guna'
+  },
+  {
+    artName: 'Bird',
+    pageLink: './Art/Bhuvana/bird.html',
+    imageLink: './Art/Bhuvana/bird.gif',
+    author: 'Bhuvana',
+    githubLink: 'https://github.com/bhuvana-guna'
+  },
+  {
+    artName: 'Loader',
+    pageLink: './Art/Bhuvana/loader.html',
+    imageLink: './Art/Bhuvana/loader.gif',
     author: 'Bhuvana',
     githubLink: 'https://github.com/bhuvana-guna'
   },
@@ -190,6 +232,13 @@ let cards = [
     githubLink: 'https://github.com/Nnaji-Victor'
   },
   {
+    artName: 'ZTM Bouncer',
+    pageLink: './Art/Josia/bouncer.html',
+    imageLink: './Art/Josia/ztmbouncer.gif',
+    author: 'Josia Rodriguez',
+    githubLink: 'https://github.com/josiarod'
+  },
+  {
     artName: 'TypeWriter effect',
     pageLink: './Art/Sidharth/Typing_Text.html',
     imageLink: './Art/Sidharth/type_writer.gif',
@@ -202,6 +251,111 @@ let cards = [
     imageLink: './Art/JamesW/hacktober_spin.gif',
     author: 'James Whitney',
     githubLink: 'https://github.com/jameswhitney'
+  },
+  {
+    artName: 'Loading Animation',
+    pageLink: './Art/Sidharth/Loading.html',
+    imageLink: './Art/Sidharth/Loading.gif',
+    author: 'Sidharth',
+    githubLink: 'https://github.com/Sidharth98'
+  },
+  {
+    artName: 'Rotation',
+    pageLink: './Art/alenanog/index.html',
+    imageLink: './Art/alenanog/rotation.gif',
+    author: 'Alena A.',
+    githubLink: 'https://github.com/alenanog'
+  },
+  {
+    artName: 'Colors in your life',
+    pageLink: './Art/Atipahy/colors.html',
+    imageLink: './Art/Atipahy/colors.png',
+    author: 'Christos Chr',
+    githubLink: 'https://github.com/atipaHy'
+  },
+  {
+    artName: 'Orb',
+    pageLink: './Art/Jkbicbic/orb.html',
+    imageLink: './Art/Jkbicbic/orb.gif',
+    author: 'John Kennedy Bicbic',
+    githubLink: 'https://github.com/jkbicbic'
+  },
+  {
+    artName: 'Charging...',
+    pageLink: './Art/Afraz/charging.html',
+    imageLink: './Art/Afraz/charging.gif',
+    author: 'Afraz',
+    githubLink: 'https://github.com/afrazz'
+  },
+  {
+    artName: 'Charging...',
+    pageLink: './Art/DepStep/depstep.html',
+    imageLink: './Art/DepStep/depstep.gif',
+    author: 'DepStep',
+    githubLink: 'https://github.com/stephD'
+  },
+  {
+    artName: 'Dancing Ball...',
+    pageLink: './Art/DaveFres/index.html',
+    imageLink: './Art/DaveFres/ball.gif',
+    author: 'DaveFres',
+    githubLink: 'https://github.com/DaveFres'
+  },
+  {
+    artName: 'Sunshine',
+    pageLink: './Art/Pavelisp/sunshine.html',
+    imageLink: './Art/Pavelisp/sunshine.gif',
+    author: 'Pavel Isp',
+    githubLink: 'https://github.com/pavelisp'
+  },
+  {
+    artName: 'SoundBoxes',
+    pageLink: './Art/Hbarang/SoundBox.html',
+    imageLink: './Art/Hbarang/SoundBoxAnimation.gif',
+    author: 'Hbarang',
+    githubLink: 'https://github.com/hbarang'
+  },
+  {
+    artName: 'Cheshire',
+    pageLink: './Art/Ckanelin/index.html',
+    imageLink: './Art/Ckanelin/Cheshire.gif',
+    author: 'Ckanelin',
+    githubLink: 'https://github.com/ckanelin'
+  },
+  {
+    artName: 'Disappear',
+    pageLink: './Art/Stacy/index.html',
+    imageLink: './Art/Stacy/disappear.gif',
+    author: 'Stacy',
+    githubLink: 'https://github.com/stacyholtz6'
+  },
+  {
+    artName: 'Ellipse Spinner',
+    pageLink: './Art/Sabina/ellipse_spinner.html',
+    imageLink: './Art/Sabina/ellipse_spinner.png',
+    author: 'Sabina Abbasova',
+    githubLink: 'https://github.com/sabina929'
+  },
+  {
+    artName: 'NightSky',
+    pageLink: './Art/AndyS/index.html',
+    imageLink: './Art/AndyS/Capture.GIF',
+    author: 'AndyS',
+    githubLink: 'https://github.com/AndyS1988'
+  },
+  {
+    artName: 'Hungry',
+    pageLink: './Art/diegchav/index.html',
+    imageLink: './Art/diegchav/hungry.gif',
+    author: 'Diego Chz',
+    githubLink: 'https://github.com/diegchav'
+  },
+  {
+    artName: 'Hover Text Animation',
+    pageLink: './Art/AyoubIssaad2/index.html',
+    imageLink: './Art/AyoubIssaad2/hoverTextAnimation.gif',
+    author: 'AyoubIssaad',
+    githubLink: 'https://github.com/AyoubIssaad'
   },
   {
     artName: 'Animated Loading Spinner',

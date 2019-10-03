@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  position: relative;
+  animation: moveRight 2s, moveLeft 2s;
+}
+
+.head > * {
+  width: 200px;
+  height: 100px;
+  background-color: #ffeb3b;
+}
+
+.eye {
+  width: 30px;
+  height: 30px;
+  background-color: #212121;
+  border-radius: 100%;
+  position: absolute;
+  top: 30px;
+  right: 60px;
+  z-index: 2;
+}
+
+.head-top {
+  border-radius: 100px 100px 0 0;
+  animation: moveHeadTop 0.5s 0s infinite;
+  z-index: 1;
+}
+
+.head-bottom {
+  border-radius: 0 0 100px 100px;
+  animation: moveHeadBottom 0.5s 0s infinite;
+  z-index: 1;
+}
+
+@keyframes moveHeadTop {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-25deg);
+  }
+}
+
+@keyframes moveHeadBottom {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(25deg);
+  }
+}
