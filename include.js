@@ -419,6 +419,13 @@ let cards = [
     imageLink: "./Art/CynthiaWare/SpinningCube.gif",
     author: "Cynthia Ware",
     githubLink: "https://github.com/cynthiaw89"
+  },
+  {
+    artName: 'My Vietnam',
+    pageLink: './Art/nhbduy/index.html',
+    imageLink: './Art/nhbduy/my-vietnam.gif',
+    author: 'Hoang-Bao-Duy NGUYEN',
+    githubLink: 'https://github.com/nhbduy'
   }
 ];
 
