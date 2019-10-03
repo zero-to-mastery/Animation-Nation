@@ -341,6 +341,13 @@ let cards = [
     imageLink: "./Art/diegchav/hungry.gif",
     author: "Diego Chz",
     githubLink: "https://github.com/diegchav"
+	},
+	{
+		artName: "Infinity",
+		pageLink: "./Art/krisss/index.html",
+		imageLink: "./Art/krisss/infinity.gif",
+		author: "krisss",
+		githubLink: "https://github.com/krisss"
 	}
 ];
 
