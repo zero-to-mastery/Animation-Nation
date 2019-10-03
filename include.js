@@ -385,6 +385,11 @@ let cards = [
     author: 'Sanidhya Samadhiya',
     githubLink: 'https://github.com/sanidhya2000'
   }
+  artName: "Spinning Cube",
+  pageLink: "./Art/CynthiaWare/cynthiaWare.html",
+  imageLink: "./Art/CynthiaWare/SpinningCube.gif",
+  author: "Cynthia Ware",
+  githubLink: "https://github.com/cynthiaw89"
 ];
 
 // +--------------------------------------------------------------------------------+
