@@ -206,7 +206,7 @@ let cards = [
   {
     artName: 'Animated Loading Spinner',
     pageLink: './Art/St3ve89/index.html',
-    imageLink: './Art/St3ve89/spinner.gif',
+    imageLink: './Art/St3ve89/loading-spinner.gif',
     author: 'Istvan Acs',
     githubLink: 'https://github.com/St3ve89'
   }
