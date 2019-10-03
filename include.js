@@ -355,6 +355,13 @@ let cards = [
     imageLink: './Art/AyoubIssaad2/hoverTextAnimation.gif',
     author: 'AyoubIssaad',
     githubLink: 'https://github.com/AyoubIssaad',
+  },
+  {
+    artName: 'Ready to Fight',
+    pageLink: './Art/Sanidhya_Samadhiya/index.html',
+    imageLink: './Art/Sanidhya_Samadhiya/snip.png',
+    author: 'Sanidhya Samadhiya',
+    githubLink: 'https://github.com/sanidhya2000'
   }
 ];
 
