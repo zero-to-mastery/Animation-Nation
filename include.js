@@ -1,5 +1,12 @@
 let cards = [
 	//  Add your card in this section
+	{
+		artName: '2019 Wave',
+		pageLink: './Art/chris-aqui/index.html',
+		imageLink: './Art/chris-aqui/2019-jump.gif',
+		author: 'Christine Aqui',
+		githubLink: 'https://github.com/christine-aqui',
+	},
   {
     artName: 'Hover Button Animation',
     pageLink: './Art/Vipul/hover.html',
