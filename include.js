@@ -435,6 +435,13 @@ let cards = [
 		githubLink: "https://github.com/hjpunzalan"
 	},
 	{
+	    artName: "Rainbow Color Changer",
+	    pageLink: "./Art/mmshr/index.html",
+	    imageLink: "./Art/mmshr/rainbow.gif",
+	    author: "mmosehauer",
+	    githubLink: "https://github.com/mmosehauer"
+  },
+	{
 		artName: "World of Coding",
 		pageLink: "./Art/tom_kn/coding.html",
 		imageLink: "./Art/tom_kn/coding.gif",
