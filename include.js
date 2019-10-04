@@ -426,7 +426,14 @@ let cards = [
 		imageLink: "./Art/flattopz/SlidingText.gif",
 		author: "Flattopz",
 		githubLink: "https://github.com/hjpunzalan"
-	}
+	},
+  {
+	    artName: "World of Coding",
+	    pageLink: "./Art/tom_kn/coding.html",
+	    imageLink: "./Art/tom_kn/coding.gif",
+	    author: "Tamas Knisz",
+	    githubLink: "https://github.com/TamasKn"
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
