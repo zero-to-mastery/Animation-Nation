@@ -1,6 +1,13 @@
 let cards = [
 	//  Add your card in this section
 	{
+		artName: "Flipbox",
+		pageLink: "./Art/Prasheel/index.html",
+		imageLink: "./Art/Prasheel/flip.gif",
+		author: "Prasheel Soni",
+		githubLink: "https://github.com/ps011"
+	},
+	{
 		artName: "2019 Wave",
 		pageLink: "./Art/chris-aqui/index.html",
 		imageLink: "./Art/chris-aqui/2019-jump.gif",
@@ -427,20 +434,27 @@ let cards = [
 		author: "Flattopz",
 		githubLink: "https://github.com/hjpunzalan"
 	},
-  {
-	    artName: "World of Coding",
-	    pageLink: "./Art/tom_kn/coding.html",
-	    imageLink: "./Art/tom_kn/coding.gif",
-	    author: "Tamas Knisz",
-	    githubLink: "https://github.com/TamasKn"
-	},
 	{
 	    artName: "Rainbow Color Changer",
 	    pageLink: "./Art/mmshr/index.html",
 	    imageLink: "./Art/mmshr/rainbow.gif",
 	    author: "mmosehauer",
 	    githubLink: "https://github.com/mmosehauer"
-    }
+  },
+	{
+		artName: "World of Coding",
+		pageLink: "./Art/tom_kn/coding.html",
+		imageLink: "./Art/tom_kn/coding.gif",
+		author: "Tamas Knisz",
+		githubLink: "https://github.com/TamasKn"
+	},
+	{
+		artName: "Initial Bounce",
+		pageLink: "./Art/Juwana/initial.html",
+		imageLink: "./Art/Juwana/InitialBounce.gif",
+		author: "Juwana",
+		githubLink: "https://github.com/JZerman2018"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
