@@ -362,7 +362,14 @@ let cards = [
     imageLink: './Art/JimBratsos/Colorize.gif',
     author: 'Jim Bratsos',
     githubLink: 'https://github.com/JimBratsos'
-  },
+    },
+  {
+    artName: 'My Vietnam',
+    pageLink: './Art/nhbduy/index.html',
+    imageLink: './Art/nhbduy/my-vietnam.gif',
+    author: 'Hoang-Bao-Duy NGUYEN',
+    githubLink: 'https://github.com/nhbduy'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
