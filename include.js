@@ -15,6 +15,13 @@ let cards = [
 		githubLink: 'https://github.com/vipuljain08'
 	},
 	{
+		artName: 'Start From Zero',
+		pageLink: './Art/Robihdy/index.html',
+		imageLink: './Art/Robihdy/start-from-zero.png',
+		author: 'Robihdy',
+		githubLink: 'https://github.com/Robihdy'
+	},
+	{
 		artName: 'Local Host metaphor',
 		pageLink: './Art/Prateek/index.html',
 		imageLink: './Art/Prateek/localhost.png',
@@ -405,6 +412,13 @@ let cards = [
 		imageLink: './Art/robihid/hacktoberfest.png',
 		author: 'robihid',
 		githubLink: 'https://github.com/robihid'
+	},
+	{
+		artName: 'Hi there',
+		pageLink: './Art/Aki/index.html',
+		imageLink: './Art/Aki/giphy.gif',
+		author: 'Aki',
+		githubLink: 'https://github.com/akmalist'
 	},
 	{
 		artName: 'Sliding text',
