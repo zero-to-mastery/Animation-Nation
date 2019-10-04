@@ -397,6 +397,13 @@ let cards = [
     imageLink: './Art/shahpranaf/hacktoberfest_bus.gif',
     author: 'Pranav Shah',
     githubLink: 'https://github.com/shahpranaf'
+  },
+  {
+    artName: 'Hacktoberfest',
+    pageLink: './Art/robihid/index.html',
+    imageLink: './Art/robihid/hacktoberfest.png',
+    author: 'robihid',
+    githubLink: 'https://github.com/robihid'
   }
 ];
 
