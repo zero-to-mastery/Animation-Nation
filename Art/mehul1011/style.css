@@ -1,0 +1,76 @@
+html {
+  background: url(./photo-1464925257126-6450e871c667.jfif) #018DED;
+  background-size: cover;
+  font-family: 'helvetica neue';
+  text-align: center;
+  font-size: 10px;
+}
+
+body{
+  margin: 0;
+  font-size: 2rem;  /* 1rem = 16px */ 
+  display: flex;
+  flex: 1;
+  /* flex: <flex-grow> (number) <flex-shrink> (number) <flex-basis> (in 10%) */
+  /* when we put flex: 0 1 (it will not grow but shrink to absorb any extra space) */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
+  flex-wrap: wrap;
+  min-height: 700px;
+  align-items: center;
+}
+
+.clock{
+  width: 30rem;
+  height: 30rem;
+  border: 20px solid white;
+  border-radius: 50%;
+  margin: 50px auto;
+  /* An element with position: relative; is positioned relative to its normal position.
+
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element. 
+
+An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+*/
+  position: relative;
+  padding: 2rem;
+  box-shadow: 
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+}
+
+.clock-face{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* transform: translateY(-3px); */
+}
+
+.hand{
+  width: 50%;
+  height: 6px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  /* rotation starts from the center of the clock */
+  transform: rotate(90deg);
+  /* transition: all 0.05s; */
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+/* 
+.hour-hand {
+  height: 6px;
+  background: red;
+}
+.minute-hand {
+  height: 4px; 
+  background: green;
+}
+.second-hand {
+  height: 2px;
+  background: blue;
+} */
