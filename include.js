@@ -1,5 +1,12 @@
 let cards = [
 	//  Add your card in this section
+	{
+		artName: '2019 Wave',
+		pageLink: './Art/chris-aqui/index.html',
+		imageLink: './Art/chris-aqui/2019-jump.gif',
+		author: 'Christine Aqui',
+		githubLink: 'https://github.com/christine-aqui',
+	},
   {
     artName: 'Hover Button Animation',
     pageLink: './Art/Vipul/hover.html',
@@ -370,6 +377,13 @@ let cards = [
     author: 'Tranjenny',
     githubLink: 'https://github.com/Tranjenny'
   },
+  {
+    artName: 'My Vietnam',
+    pageLink: './Art/nhbduy/index.html',
+    imageLink: './Art/nhbduy/my-vietnam.gif',
+    author: 'Hoang-Bao-Duy NGUYEN',
+    githubLink: 'https://github.com/nhbduy'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
