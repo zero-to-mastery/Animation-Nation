@@ -1,6 +1,13 @@
 let cards = [
 	//  Add your card in this section
 	{
+		artName: "Flipbox",
+		pageLink: "./Art/Prasheel/index.html",
+		imageLink: "./Art/Prasheel/flip.gif",
+		author: "Prasheel Soni",
+		githubLink: "https://github.com/ps011"
+	},
+	{
 		artName: "2019 Wave",
 		pageLink: "./Art/chris-aqui/index.html",
 		imageLink: "./Art/chris-aqui/2019-jump.gif",

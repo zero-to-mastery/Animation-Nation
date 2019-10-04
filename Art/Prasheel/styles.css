@@ -1,0 +1,49 @@
+    .flip {
+      background-color: transparent;
+      border: none;
+      perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      width: 500px;
+      height: 500px;
+    }
+  
+    /* This container is needed to position the front and back side */
+    .flip-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+  
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip:hover .flip-inner {
+      transform: rotateX(180deg);
+    }
+  
+    /* Position the front and back side */
+    .flip-front, .flip-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      backface-visibility: hidden;
+    }
+  
+    /* Style the back side */
+    .flip-back {
+      transform: rotateX(180deg);
+      background-color: green;
+    }
+
+    .front-text {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .back-text {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
