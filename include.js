@@ -390,6 +390,13 @@ let cards = [
     imageLink: './Art/nhbduy/my-vietnam.gif',
     author: 'Hoang-Bao-Duy NGUYEN',
     githubLink: 'https://github.com/nhbduy'
+  },
+  {
+    artName: 'Hactoberfest Bus',
+    pageLink: './Art/shahpranaf/index.html',
+    imageLink: './Art/shahpranaf/hacktoberfest_bus.gif',
+    author: 'Pranav Shah',
+    githubLink: 'https://github.com/shahpranaf'
   }
 ];
 
