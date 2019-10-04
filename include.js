@@ -363,6 +363,13 @@ let cards = [
     author: 'Jim Bratsos',
     githubLink: 'https://github.com/JimBratsos'
   },
+  {
+    artName: 'Hacktober Spooktacular',
+    pageLink: 'Art/Elex/index.html',
+    imageLink: ['./Art/Elex/hhs.gif'],
+    author: 'William Poisel (LordCobra)',
+    githubLink: 'https://github.com/epoisel'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
