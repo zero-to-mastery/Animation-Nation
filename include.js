@@ -15,6 +15,13 @@ let cards = [
     githubLink: 'https://github.com/vipuljain08'
   },
   {
+    artName: 'Start From Zero',
+    pageLink: './Art/Robihdy/index.html',
+    imageLink: './Art/Robihdy/start-from-zero.png',
+    author: 'Robihdy',
+    githubLink: 'https://github.com/Robihdy'
+  }
+  {
     artName: 'Local Host metaphor',
     pageLink: './Art/Prateek/index.html',
     imageLink: './Art/Prateek/localhost.png',
