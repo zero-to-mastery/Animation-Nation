@@ -419,7 +419,14 @@ let cards = [
 		imageLink: "./Art/Aki/giphy.gif",
 		author: "Aki",
 		githubLink: "https://github.com/akmalist"
-	}
+	},
+	{
+	    artName: "World of Coding",
+	    pageLink: "./Art/tom_kn/coding.html",
+	    imageLink: "./Art/tom_kn/coding.gif",
+	    author: "Tamas Knisz",
+	    githubLink: "https://github.com/TamasKn"
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
