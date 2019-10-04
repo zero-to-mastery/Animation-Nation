@@ -433,6 +433,13 @@ let cards = [
 	    imageLink: "./Art/tom_kn/coding.gif",
 	    author: "Tamas Knisz",
 	    githubLink: "https://github.com/TamasKn"
+	},
+	{
+	    artName: "Rainbow Color Changer",
+	    pageLink: "./Art/mmshr/index.html",
+	    imageLink: "./Art/mmshr/rainbow.gif",
+	    author: "mmosehauer",
+	    githubLink: "https://github.com/mmosehauer"
     }
 ];
 
