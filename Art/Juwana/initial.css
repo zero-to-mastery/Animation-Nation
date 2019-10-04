@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+    color: #b84f90;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background: radial-gradient(#f7f3f6e7, #a39aa2);
+}
+
+.pulse {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 575px;
+    height: 250px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.pulse span {
+    display: block;
+    background: #b995a1;
+    width: 45px;
+    height: 50%;
+    border-radius: 50px;
+    margin-right: 5px;
+    float: left;
+    margin-top: 50%;
+    text-align: center;
+}
+
+.pulse span:last-child {
+    animation: pulse 2.5s 1.8s infinite ease-in-out;
+}
+
+.pulse span:nth-child(1) {
+    animation: pulse 2.5s 1.6s infinite ease-in-out;
+}
+
+.pulse span:nth-child(2) {
+    animation: pulse 2.5s 1.4s infinite ease-in-out;
+}
+
+.pulse span:nth-child(3) {
+    animation: pulse 2.5s 1.2s infinite ease-in-out;
+}
+
+.pulse span:nth-child(4) {
+    animation: pulse 2.5s 0.8s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        background: #ff6699;
+        margin-top: 25%;
+        height: 100px;
+    }
+
+    50% {
+        background: #745861;
+        height: 50px;
+        margin-top: 0%;
+    }
+
+    100% {
+        background: #5a2d3c;
+        height: 100px;
+        margin-top: 25%;
+    }
+}
