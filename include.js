@@ -363,6 +363,13 @@ let cards = [
     author: 'Jim Bratsos',
     githubLink: 'https://github.com/JimBratsos'
   },
+  {
+    artName: 'Circley',
+    pageLink: './Art/Tranjenny/indexjenny.html',
+    imageLink: './Art/Tranjenny/zerojenny.gif',
+    author: 'Tranjenny',
+    githubLink: 'https://github.com/Tranjenny'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
