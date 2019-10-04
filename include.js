@@ -367,7 +367,7 @@ let cards = [
 	{
 		artName: '2019 Wave',
 		pageLink: './Art/chris-aqui/index.html',
-		imageLink: './Art/chris-aqui/index.css',
+		imageLink: './Art/chris-aqui/2019-jump.gif',
 		author: 'Christine Aqui',
 		githubLink: 'https://github.com/christine-aqui',
 	},
