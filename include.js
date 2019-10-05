@@ -454,6 +454,13 @@ let cards = [
 		imageLink: "./Art/Juwana/InitialBounce.gif",
 		author: "Juwana",
 		githubLink: "https://github.com/JZerman2018"
+	},
+	{
+		artName: "Atom",
+		pageLink: "./Art/Teva/index.html",
+		imageLink: "./Art/Teva/atom.gif",
+		author: "Teva",
+		githubLink: "https://github.com/TevaHenry"
 	}
 ];
 
