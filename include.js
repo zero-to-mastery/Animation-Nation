@@ -452,8 +452,8 @@ let cards = [
 	},
 	{
 		artName: "Sliding text",
-		pageLink: "./Art/flattopz/index.html",
-		imageLink: "./Art/flattopz/SlidingText.gif",
+		pageLink: "./Art/Flattopz/index.html",
+		imageLink: "./Art/Flattopz/SlidingText.gif",
 		author: "Flattopz",
 		githubLink: "https://github.com/hjpunzalan"
 	},
