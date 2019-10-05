@@ -446,7 +446,7 @@ let cards = [
 	{
 		artName: "Hacktoberfest 2019!",
 		pageLink: "./Art/RedSquirrrel/index.html",
-		imageLink: "./Art/RedSquirrrel/index.html/animation.png",
+		imageLink: "./Art/RedSquirrrel/index.html/animation.PNG",
 		author: "RedSquirrrel",
 		githubLink: "https://github.com/RedSquirrrel"
 	},
