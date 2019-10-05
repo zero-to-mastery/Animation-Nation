@@ -1,5 +1,13 @@
 let cards = [
 	//  Add your card in this section
+
+  {
+    artName: 'Action Cam',
+    pageLink: './Art/Donovan/index.html',
+    imageLink: './Art/Donovan/pureCSS-animation.gif',
+    author: 'Donovan Hunter',
+		githubLink: 'https://github.com/dhdcode'
+	},
 	{
 		artName: "The Sun",
 		pageLink: "./Art/Anmol/index.html",
