@@ -259,6 +259,15 @@ let cards = [
 		author: "Josia Rodriguez",
 		githubLink: "https://github.com/josiarod"
 	},
+   
+    	{
+		artName: "Hacktober loading animation",
+		pageLink: "./Art/mehul1011/index.html",
+		imageLink: "./Art/mehul1011/loading.gif",
+		author: "Mehul1011",
+		githubLink: "https://github.com/mehul1011"
+    	},
+
 	{
 		artName: "TypeWriter effect",
 		pageLink: "./Art/Sidharth/Typing_Text.html",
