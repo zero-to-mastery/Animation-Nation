@@ -420,6 +420,13 @@ let cards = [
 		author: "Aki",
 		githubLink: "https://github.com/akmalist"
 	}
+	{
+		artName: "Hacktoberfest 2019!",
+		pageLink: "./Art/RedSquirrrel/index.html",
+		imageLink: "./Art/RedSquirrrel/index.html/animation.png",
+		author: "RedSquirrrel",
+		githubLink: "https://github.com/RedSquirrrel"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
