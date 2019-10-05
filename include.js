@@ -24,7 +24,7 @@ let cards = [
 	{
 		artName: "Hover Button Animation",
 		pageLink: "./Art/Vipul/hover.html",
-		imageLink: ["./Art/Vipul/Screenshot1.png", "./Art/Vipul/Screenshot2.png"],
+		imageLink: "./Art/Vipul/Screenshot2.png",
 		author: "Vipul",
 		githubLink: "https://github.com/vipuljain08"
 	},
@@ -266,7 +266,7 @@ let cards = [
 		author: "Josia Rodriguez",
 		githubLink: "https://github.com/josiarod"
 	},
-   
+
     	{
 		artName: "Hacktober loading animation",
 		pageLink: "./Art/mehul1011/index.html",
