@@ -64,82 +64,89 @@ let cards = [
     githubLink: 'https://github.com/shruti49'
   },
   {
-    artName: "Cute Cat",
-    pageLink: "./Art/Alghi/cat.html",
-    imageLink: "./Art/Alghi/cat.gif",
-    author: "Alghi",
-    githubLink: "https://github.com/darklordace"
+    artName: 'Cute Cat',
+    pageLink: './Art/Alghi/cat.html',
+    imageLink: './Art/Alghi/cat.gif',
+    author: 'Alghi',
+    githubLink: 'https://github.com/darklordace'
   },
   {
-    artName: "ZtM Text",
-    pageLink: "./Art/Di4iMoRtAl/ZtM_text_animation.html",
-    imageLink: "./Art/Di4iMoRtAl/ZtM_animation.gif",
-    author: "Di4iMoRtAl",
-    githubLink: "https://github.com/dppeykov"
+    artName: 'ZtM Text',
+    pageLink: './Art/Di4iMoRtAl/ZtM_text_animation.html',
+    imageLink: './Art/Di4iMoRtAl/ZtM_animation.gif',
+    author: 'Di4iMoRtAl',
+    githubLink: 'https://github.com/dppeykov'
   },
   {
-    artName: "Circles",
-    pageLink: "./Art/Bhuvana/circles.html",
-    imageLink: "./Art/Bhuvana/circles.gif",
-    author: "Bhuvana",
-    githubLink: "https://github.com/bhuvana-guna"
+    artName: 'Circles',
+    pageLink: './Art/Bhuvana/circles.html',
+    imageLink: './Art/Bhuvana/circles.gif',
+    author: 'Bhuvana',
+    githubLink: 'https://github.com/bhuvana-guna'
   },
   {
-    artName: "Css Pulse",
-    pageLink: "./Art/Aszmel/pulse.html",
-    imageLink: "./Art/Aszmel/css_pulse.gif",
-    author: "Aszmel",
-    githubLink: "https://github.com/Aszmel"
+    artName: 'Css Pulse',
+    pageLink: './Art/Aszmel/pulse.html',
+    imageLink: './Art/Aszmel/css_pulse.gif',
+    author: 'Aszmel',
+    githubLink: 'https://github.com/Aszmel'
   },
   {
-    artName: "Circle Bounce",
-    pageLink: "./Art/Edmund/index.html",
-    imageLink: "./Art/Edmund/circle-bounce.gif",
-    author: "Edmund",
-    githubLink: "https://github.com/edmund1645"
+    artName: 'Circle Bounce',
+    pageLink: './Art/Edmund/index.html',
+    imageLink: './Art/Edmund/circle-bounce.gif',
+    author: 'Edmund',
+    githubLink: 'https://github.com/edmund1645'
   },
   {
-    artName: "Heart Beating",
-    pageLink: "./Art/Regem/index.html",
-    imageLink: "./Art/Regem/heart.jpg",
-    author: "Regem",
-    githubLink: "https://github.com/GemzBond"
+    artName: 'Heart Beating',
+    pageLink: './Art/Regem/index.html',
+    imageLink: './Art/Regem/heart.jpg',
+    author: 'Regem',
+    githubLink: 'https://github.com/GemzBond'
   },
   {
-    artName: "Fading Circles",
-    pageLink: "./Art/Ankit/fadeCircle.html",
-    imageLink: "./Art/Ankit/fadeCircles.png",
-    author: "Ankit Srivastava",
-    githubLink: "https://github.com/a18nov"
+    artName: 'Fading Circles',
+    pageLink: './Art/Ankit/fadeCircle.html',
+    imageLink: './Art/Ankit/fadeCircles.png',
+    author: 'Ankit Srivastava',
+    githubLink: 'https://github.com/a18nov'
   },
   {
-    artName: "Hacktoberfest 2019",
-    pageLink: "./Art/jpk3lly/animation.html",
+    artName: 'Hacktoberfest 2019',
+    pageLink: './Art/jpk3lly/animation.html',
     imageLink: "./Art/jpk3lly/JP's Animation GIF.gif",
-    author: "jpk3lly",
-    githubLink: "https://github.com/jpk3lly"
-	},
-	{
-    artName: "Name Rotator",
-    pageLink: "./Art/Meet/name.html",
-    imageLink: "./Art/Meet/name.gif",
-    author: "Meet",
-    githubLink: "https://github.com/Meet1103"
-	},
-	{
-    artName: "Moving Surface",
-    pageLink: "./Art/Ashu/index.html",
-    imageLink: "./Art/Ashu/Moving_Surface.gif",
-    author: "Ashutosh",
-    githubLink: "https://github.com/Ashutosh00710"
+    author: 'jpk3lly',
+    githubLink: 'https://github.com/jpk3lly'
   },
   {
-    artName: "ephiphany",
-    pageLink: "./Art/OctavianIlies/index.html",
-    imageLink: "./Art/Meet/ephiphany.gif",
-    author: "OctavianIlies",
-    githubLink: "https://github.com/OctavianIlies"
-	}
+    artName: 'Name Rotator',
+    pageLink: './Art/Meet/name.html',
+    imageLink: './Art/Meet/name.gif',
+    author: 'Meet',
+    githubLink: 'https://github.com/Meet1103'
+  },
+  {
+    artName: 'Moving Surface',
+    pageLink: './Art/Ashu/index.html',
+    imageLink: './Art/Ashu/Moving_Surface.gif',
+    author: 'Ashutosh',
+    githubLink: 'https://github.com/Ashutosh00710'
+  },
+  {
+    artName: 'ephiphany',
+    pageLink: './Art/OctavianIlies/index.html',
+    imageLink: './Art/Meet/ephiphany.gif',
+    author: 'OctavianIlies',
+    githubLink: 'https://github.com/OctavianIlies'
+  },
+  {
+    artName: 'Action Cam',
+    pageLink: './Art/Donovan/index.html',
+    imageLink: './Art/Joy/pureCSS-animation.gif',
+    author: 'Donovan Hunter',
+    githubLink: 'https://github.com/dhdcode'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
