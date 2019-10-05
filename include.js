@@ -485,13 +485,19 @@ let cards = [
 		author: "Sanjeev Panday",
 		githubLink: "https://github.com/Sanjeev-Panday"
 	},
-    {
-        artName: "Fast Fishes",
-        pageLink: "./Art/4ront/index.html",
-        imageLink: "./Art/4ront/fishes.gif",
-        author: "4rontender",
-        githubLink: "https://github.com/RinatValiullov"
-    }
+	{	artName: "ZtM",
+		pageLink: "./Art/thoyvo/index.html",
+		imageLink: "./Art/index/ZtM.gif",
+		author: "Thoyvo",
+		githubLink: "https://github.com/thoyvo"
+	},
+  {
+      artName: "Fast Fishes",
+      pageLink: "./Art/4ront/index.html",
+      imageLink: "./Art/4ront/fishes.gif",
+      author: "4rontender",
+      githubLink: "https://github.com/RinatValiullov"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
