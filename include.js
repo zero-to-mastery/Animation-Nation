@@ -485,6 +485,13 @@ let cards = [
 		author: "Sanjeev Panday",
 		githubLink: "https://github.com/Sanjeev-Panday"
 	}
+	{	artName: "ZtM",
+		pageLink: "./Art/thoyvo/index.html",
+		imageLink: "./Art/index/ZtM.gif",
+		author: "Thoyvo",
+		githubLink: "https://github.com/thoyvo"
+	}
+	
 ];
 
 // +--------------------------------------------------------------------------------+
