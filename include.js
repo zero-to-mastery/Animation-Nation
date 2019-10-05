@@ -1,6 +1,13 @@
 let cards = [
 	//  Add your card in this section
 	{
+		artName: "The Sun",
+		pageLink: "./Art/Anmol/index.html",
+		imageLink: "./Art/Anmol/sun.png",
+		author: "Anmol",
+		githubLink: "https://github.com/Anmol270900"
+	},
+	{
 		artName: "Flipbox",
 		pageLink: "./Art/Prasheel/index.html",
 		imageLink: "./Art/Prasheel/flip.gif",
