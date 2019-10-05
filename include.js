@@ -1,6 +1,13 @@
 let cards = [
 	//  Add your card in this section
 	{
+		artName: "Flipbox",
+		pageLink: "./Art/Prasheel/index.html",
+		imageLink: "./Art/Prasheel/flip.gif",
+		author: "Prasheel Soni",
+		githubLink: "https://github.com/ps011"
+	},
+	{
 		artName: "2019 Wave",
 		pageLink: "./Art/chris-aqui/index.html",
 		imageLink: "./Art/chris-aqui/2019-jump.gif",
@@ -252,6 +259,15 @@ let cards = [
 		author: "Josia Rodriguez",
 		githubLink: "https://github.com/josiarod"
 	},
+   
+    	{
+		artName: "Hacktober loading animation",
+		pageLink: "./Art/mehul1011/index.html",
+		imageLink: "./Art/mehul1011/loading.gif",
+		author: "Mehul1011",
+		githubLink: "https://github.com/mehul1011"
+    	},
+
 	{
 		artName: "TypeWriter effect",
 		pageLink: "./Art/Sidharth/Typing_Text.html",
@@ -419,14 +435,76 @@ let cards = [
 		imageLink: "./Art/Aki/giphy.gif",
 		author: "Aki",
 		githubLink: "https://github.com/akmalist"
-	}
+	},
 	{
 		artName: "Hacktoberfest 2019!",
 		pageLink: "./Art/RedSquirrrel/index.html",
 		imageLink: "./Art/RedSquirrrel/index.html/animation.png",
 		author: "RedSquirrrel",
 		githubLink: "https://github.com/RedSquirrrel"
-	}
+	},
+	{
+		artName: "Sliding text",
+		pageLink: "./Art/flattopz/index.html",
+		imageLink: "./Art/flattopz/SlidingText.gif",
+		author: "Flattopz",
+		githubLink: "https://github.com/hjpunzalan"
+	},
+	{
+	    artName: "Rainbow Color Changer",
+	    pageLink: "./Art/mmshr/index.html",
+	    imageLink: "./Art/mmshr/rainbow.gif",
+	    author: "mmosehauer",
+	    githubLink: "https://github.com/mmosehauer"
+  },
+	{
+		artName: "World of Coding",
+		pageLink: "./Art/tom_kn/coding.html",
+		imageLink: "./Art/tom_kn/coding.gif",
+		author: "Tamas Knisz",
+		githubLink: "https://github.com/TamasKn"
+	},
+	{
+		artName: "Initial Bounce",
+		pageLink: "./Art/Juwana/initial.html",
+		imageLink: "./Art/Juwana/InitialBounce.gif",
+		author: "Juwana",
+		githubLink: "https://github.com/JZerman2018"
+	},
+	{
+		artName: "Atom",
+		pageLink: "./Art/Teva/index.html",
+		imageLink: "./Art/Teva/atom.gif",
+		author: "Teva",
+		githubLink: "https://github.com/TevaHenry"
+	},
+	{
+		artName: "Be Awesome",
+		pageLink: "./Art/TigerAsH/index.html",
+		imageLink: "./Art/TigerAsH/be-awesome.jpg",
+		author: "TigerAsH",
+		githubLink: "https://github.com/TigerAsH94"
+	},
+	{
+		artName: "Rainbow Colors",
+		pageLink: "./Art/Sanjeev/index.html",
+		imageLink: "./Art/Sanjeev/animation.gif",
+		author: "Sanjeev Panday",
+		githubLink: "https://github.com/Sanjeev-Panday"
+	},
+	{	artName: "ZtM",
+		pageLink: "./Art/thoyvo/index.html",
+		imageLink: "./Art/thoyvo/ZtM.gif",
+		author: "Thoyvo",
+		githubLink: "https://github.com/thoyvo"
+	},
+  {
+      artName: "Fast Fishes",
+      pageLink: "./Art/4ront/index.html",
+      imageLink: "./Art/4ront/fishes.gif",
+      author: "4rontender",
+      githubLink: "https://github.com/RinatValiullov"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
