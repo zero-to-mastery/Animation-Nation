@@ -468,6 +468,13 @@ let cards = [
 		imageLink: "./Art/TigerAsH/be-awesome.jpg",
 		author: "TigerAsH",
 		githubLink: "https://github.com/TigerAsH94"
+	},
+	{
+		artName: "Rainbow Colors",
+		pageLink: "./Art/Sanjeev/index.html",
+		imageLink: "./Art/Sanjeev/animation.gif",
+		author: "Sanjeev Panday",
+		githubLink: "https://github.com/Sanjeev-Panday"
 	}
 ];
 
