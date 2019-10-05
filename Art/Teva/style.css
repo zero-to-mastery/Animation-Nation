@@ -1,0 +1,278 @@
+body {
+  height: 100vh;
+  background: rgb(34, 193, 195);
+  background: radial-gradient(circle, rgba(34, 193, 195, 1) 11%, rgba(32, 42, 135, 1) 94%);
+  overflow: hidden;
+}
+
+.nucleus1 {
+  background-color: #fff;
+  box-shadow: 0 0 0 transparent;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  position: absolute;
+  top: 75vh;
+  left: 50vw;
+  animation:
+    shake1 0.3s 3 forwards,
+    fusion 0.5s 0.9s forwards,
+    glow 3s 1.8s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.nucleus2 {
+  background-color: #fff;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15vh;
+  left: 23vw;
+  animation:
+    shake2 0.3s 3 forwards,
+    fusion 0.5s 0.9s forwards,
+    glow 3s 1.8s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.nucleus3 {
+  background-color: #fff;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30vh;
+  left: 80vw;
+  
+  animation:
+    shake3 0.3s 3 forwards,
+    fusion 0.5s 0.9s forwards,
+    glow 3s 1.8s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.plane1, .plane2, .plane3 {
+  border-radius: 50%;
+  border: 1px dashed transparent;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
+  transform-style: preserve-3d;
+  animation: reveal 2s 4s forwards linear;
+}
+
+.plane1 {
+  transform: translate(0, -800px) rotateX(-20deg) rotateY(70deg);
+  animation:
+    electron1 0.7s 2s forwards,
+    reveal 2.3s 3.3s forwards linear;
+}
+
+.plane2 {
+  transform: translate(1000px, -500px) rotateX(-70deg) rotateY(35deg);
+  animation:
+    electron2 0.7s 2.1s forwards,
+    reveal 2.3s 3.3s forwards linear;
+          
+}
+
+.plane3 {
+  transform: translate(-1000px, -500px) rotateX(70deg) rotateY(35deg);
+  animation:
+    electron3 0.9s 1.5s forwards,
+    reveal 2.3s 3.3s forwards linear;
+}
+
+.plane1 > div {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: field 1.7s infinite linear;
+}
+
+.plane2 > div {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: field 1.3s infinite linear;
+}
+
+.plane3 > div {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: field 1.5s infinite linear;
+}
+
+body > div > div > div::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  box-shadow: 0 0 12px #fff;
+  left: 50%;
+  margin-left: -5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fff;
+  animation: electron .05s infinite linear;
+}
+
+body > div > div > div::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  box-shadow: 0 0 12px #fff;
+  left: 50%;
+  margin-left: -5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: rotateX(90deg) rotateY(90deg);
+}
+
+@keyframes shake1 {
+  20% {
+    transform: translate3d(-1px, 2px, 0);
+  }
+  
+  40% {
+    transform: translate3d(2px, -1px, 0);
+  }
+  
+  60% {
+    transform: translate3d(-1px, 1px, 0);
+  }
+  
+  80% {
+    transform: translate3d(3px, -1px, 0);
+  }
+  
+  100% {
+    transform: translate3d(-3px, 0, 0);
+  }
+}
+
+@keyframes shake2 {
+  20% {
+    transform: translate3d(1px, -1px, 0);
+  }
+  
+  40% {
+    transform: translate3d(-1px, -1px, 0);
+  }
+  
+  60% {
+    transform: translate3d(1px, 3px, 0);
+  }
+  
+  80% {
+    transform: translate3d(-2px, -1px, 0);
+  }
+  
+  100% {
+    transform: translate3d(3px, 0, 0);
+  }
+}
+
+@keyframes shake3 {
+  20% {
+    transform: translate3d(-1px, -2px, 0);
+  }
+  
+  40% {
+    transform: translate3d(2px, 2px, 0);
+  }
+  
+  60% {
+    transform: translate3d(-1px, -1px, 0);
+  }
+  
+  80% {
+    transform: translate3d(2px, 2px, 0);
+  }
+  
+  100% {
+    transform: translate3d(-3px, 0, 0);
+  }
+}
+
+@keyframes fusion {
+  60% {
+    top: 48%;
+    left: 48%;
+    height: 33px;
+    width: 33px;
+  }
+  
+  80% {
+    top: 48%;
+    left: 48%;
+    height: 33px;
+    width: 33px;
+    transform: scale(0.7);
+  }
+  
+  100% {
+    top: 48%;
+    left: 48%;
+    height: 33px;
+    width: 33px;
+    transform: scale(1.7);
+  }
+}
+
+@keyframes electron1 {
+  100% {
+    transform: translate3d(0, 0, 0) rotateX(-20deg) rotateY(70deg);
+  }
+}
+
+@keyframes electron2 {
+  100% {
+    transform: translate3d(0, 0, 0) rotateX(-70deg) rotateY(35deg);
+  }
+}
+
+@keyframes electron3 {
+  100% {
+    transform: translate3d(0, 0, 0) rotateX(70deg) rotateY(35deg);
+  }
+}
+
+@keyframes reveal {
+  100% {
+    border: 1px dashed #fff;
+  }
+}
+
+@keyframes electron {
+  from {
+    transform: rotateX(90deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateY(-360deg);
+  }
+}
+
+@keyframes field {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 0 transparent;
+  }
+  50% {
+    box-shadow: 0 0 12px #fff;
+  }
+}
