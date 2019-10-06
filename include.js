@@ -521,7 +521,14 @@ let cards = [
       githubLink: "https://github.com/RinatValiullov"
   },
   {
-	artName: "Boo",
+      artName: "Solar System",
+      pageLink: "./Art/DSandberg93/index.html",
+      imageLink: "./Art/DSandberg93/SolarSystem.gif",
+      author: "DSandberg93",
+      githubLink: "https://github.com/DSandberg93"
+  },
+  {
+  artName: "Boo",
 	pageLink: "./Art/VerityB/index.html",
 	imageLink: "./Art/VerityB/boo.gif",
 	author: "VerityB",
