@@ -511,6 +511,13 @@ let cards = [
       imageLink: "./Art/4ront/fishes.gif",
       author: "4rontender",
       githubLink: "https://github.com/RinatValiullov"
+  },
+  {
+      artName: "Solar System",
+      pageLink: "./Art/DSandberg93/index.html",
+      imageLink: "./Art/DSandberg93/SolarSystem.gif",
+      author: "DSandberg93",
+      githubLink: "https://github.com/DSandberg93"
   }
 ];
 
