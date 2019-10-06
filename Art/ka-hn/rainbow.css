@@ -1,0 +1,95 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(#222, #000);
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.wrapper {
+  bottom: 0;
+  height: 60px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+}
+
+.line-wrap {
+  height: 50px;
+  overflow: hidden;
+  position: absolute;
+  transform-origin: 50% 100%;
+  width: 100px;
+}
+
+.line {
+  border: 4px solid transparent;
+  border-radius: 100%;
+  box-sizing: border-box;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+}
+
+.line-wrap:nth-child(1) .line {
+  border-color: hsl(0, 80%, 60%);
+  height: 90px;
+  width: 90px;
+  top: 7px;
+}
+.line-wrap:nth-child(2) .line {
+  border-color: hsl(60, 80%, 60%);
+  height: 76px;
+  width: 76px;
+  top: 14px;
+}
+.line-wrap:nth-child(3) .line {
+  border-color: hsl(120, 80%, 60%);
+  height: 62px;
+  width: 62px;
+  top: 21px;
+}
+.line-wrap:nth-child(4) .line {
+  border-color: hsl(180, 80%, 60%);
+  height: 48px;
+  width: 48px;
+  top: 28px;
+}
+.line-wrap:nth-child(5) .line {
+  border-color: hsl(240, 80%, 60%);
+  height: 34px;
+  width: 34px;
+  top: 35px;
+}
+
+.line-wrap:nth-child(odd) {   animation: spin-forward 2000ms linear infinite;}
+.line-wrap:nth-child(even) {  animation: spin-reverse 2000ms linear infinite;}
+
+@keyframes spin-forward {
+  0% {
+  transform: rotate(0);
+}
+100% {
+  transform: rotate(360deg);
+}
+}
+
+@keyframes spin-reverse {
+  0% {
+  transform: rotate(360deg);
+}
+100% {
+  transform: rotate(0);
+}
+}

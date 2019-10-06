@@ -1,6 +1,12 @@
 let cards = [
   //  Add your card in this section
-
+  {
+    artName: 'Rainbow loader',
+    pageLink: './Art/ka-hn/rainbow.html',
+    imageLink: './Art/ka-hn/rainbow.gif',
+    author: 'Karim Hussain',
+    githubLink: 'https://github.com/ka-hn'
+  },
   {
     artName: 'Action Cam',
     pageLink: './Art/Donovan/index.html',
