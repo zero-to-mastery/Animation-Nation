@@ -526,25 +526,33 @@ let cards = [
 		githubLink: "https://github.com/thoyvo"
 	},
   {
-      artName: "Fast Fishes",
-      pageLink: "./Art/4ront/index.html",
-      imageLink: "./Art/4ront/fishes.gif",
-      author: "4rontender",
-      githubLink: "https://github.com/RinatValiullov"
+    artName: "Fast Fishes",
+    pageLink: "./Art/4ront/index.html",
+    imageLink: "./Art/4ront/fishes.gif",
+    author: "4rontender",
+    githubLink: "https://github.com/RinatValiullov"
+
+	},
+	{
+		artName: "Calm Ubuntu",
+		pageLink: "./Art/schupat/index.html",
+		imageLink: "./Art/schupat/preview.gif",
+		author: "schupat",
+		githubLink: "https://github.com/schupat"
   },
   {
-      artName: "Solar System",
-      pageLink: "./Art/DSandberg93/index.html",
-      imageLink: "./Art/DSandberg93/SolarSystem.gif",
-      author: "DSandberg93",
-      githubLink: "https://github.com/DSandberg93"
+    artName: "Solar System",
+    pageLink: "./Art/DSandberg93/index.html",
+    imageLink: "./Art/DSandberg93/SolarSystem.gif",
+    author: "DSandberg93",
+    githubLink: "https://github.com/DSandberg93"
   },
   {
-  artName: "Boo",
-	pageLink: "./Art/VerityB/index.html",
-	imageLink: "./Art/VerityB/boo.gif",
-	author: "VerityB",
-	githubLink: "https://github.com/VerityB"
+    artName: "Boo",
+	  pageLink: "./Art/VerityB/index.html",
+	  imageLink: "./Art/VerityB/boo.gif",
+	  author: "VerityB",
+	  githubLink: "https://github.com/VerityB"
 	},
 	{
 		artName: "Hacktoberfest Ghost",
