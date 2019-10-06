@@ -519,7 +519,14 @@ let cards = [
       imageLink: "./Art/4ront/fishes.gif",
       author: "4rontender",
       githubLink: "https://github.com/RinatValiullov"
-  }
+	},
+	{
+		artName: "Calm Ubuntu",
+		pageLink: "./Art/schupat/index.html",
+		imageLink: "./Art/schupat/preview.gif",
+		author: "schupat",
+		githubLink: "https://github.com/schupat"
+}
 ];
 
 // +--------------------------------------------------------------------------------+
