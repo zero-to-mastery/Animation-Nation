@@ -1,0 +1,82 @@
+.loading-container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    animation: container-rotation;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border: 0.1px solid black;
+}
+
+.bubble {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+
+.bubble.red {
+    background-color: red;
+    animation-name: red-dot;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.bubble.green {
+    background-color: green;
+    animation-name: green-dot;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes red-dot {
+    0% {
+        bottom: calc(100% - 10px);
+        right: calc(100% - 10px);
+        transform: scale(0);
+    }
+    10% {
+        transform: scale(1);
+    }
+    90% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@keyframes green-dot {
+    0% {
+        bottom: calc(100% - 10px);
+        left: calc(100% - 10px);
+        transform: scale(0);
+    }
+    10% {
+        transform: scale(1);
+    }
+    90% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@keyframes container-rotation {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

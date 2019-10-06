@@ -567,6 +567,13 @@ let cards = [
     imageLink: './Art/Abdul/Clock.png',
     author: 'Abdul Rahman',
     githubLink: 'https://github.com/abdulrahman118'
+  },
+  {
+    artName: 'Loading Cube',
+    pageLink: './Art/andrearizzello/index.html',
+    imageLink: './Art/andrearizzello/index.gif',
+    author: 'Andrea Rizzello',
+    githubLink: 'https://github.com/andrearizzello'
   }
 ];
 
