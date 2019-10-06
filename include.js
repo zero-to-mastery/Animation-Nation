@@ -526,6 +526,13 @@ let cards = [
 	imageLink: "./Art/VerityB/boo.gif",
 	author: "VerityB",
 	githubLink: "https://github.com/VerityB"
+	},
+	{
+		artName: "Hacktoberfest Ghost",
+		pageLink: "./Art/cTahirih/index.html",
+		imageLink: "./Art/cTahirih/ghost.png",
+		author: "cTahirih",
+		githubLink: "https://github.com/cTahirih"
   }
 ];
 
