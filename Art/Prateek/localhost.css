@@ -17,26 +17,27 @@ body {
             animation: pulse 5s infinite;
             font-size: 100px;
             letter-spacing: 2px;
+
         }
 
         @keyframes pulse {
             0% {
-                color: #87ceeb;
+                color: cyan;
             }
             10% {
                 color: #87ceeb;
             }
             30% {
-                color: #fff;
+                color: red;
             }
             50% {
                 color: #87ceeb;
             }
             60% {
-                color: #87ceeb;
+                color: orange;
             }
             80% {
-                color: #fff;
+                color: red;
             }
             100% {
                 color: #87ceeb;
