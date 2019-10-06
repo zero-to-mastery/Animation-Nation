@@ -519,7 +519,14 @@ let cards = [
       imageLink: "./Art/4ront/fishes.gif",
       author: "4rontender",
       githubLink: "https://github.com/RinatValiullov"
-  }
+	},
+	{
+		artName: "Hacktoberfest Ghost",
+		pageLink: "./Art/cTahirih/index.html",
+		imageLink: "./Art/cTahirih/ghost.png",
+		author: "cTahirih",
+		githubLink: "https://github.com/cTahirih"
+}
 ];
 
 // +--------------------------------------------------------------------------------+
