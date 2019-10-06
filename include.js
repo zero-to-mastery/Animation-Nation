@@ -3,7 +3,7 @@ let cards = [
   {
     artName: 'Local Host metaphor',
     pageLink: './Art/Prateek/index.html',
-    imageLink: './Art/Prateek/localhost.png',
+    imageLink: './Art/Prateek/localhost.gif',
     author: 'Prateek',
     githubLink: 'https://github.com/prateekpatrick'
   },

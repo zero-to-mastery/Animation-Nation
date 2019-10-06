@@ -18,28 +18,39 @@ body {
             animation: pulse 5s infinite;
             font-size: 100px;
             letter-spacing: 2px;
+<<<<<<< HEAD
             
+=======
+>>>>>>> master
 
         }
 
         @keyframes pulse {
             0% {
-                color: #87ceeb;
+                color: cyan;
             }
             10% {
                 color: #87ceeb;
             }
             30% {
+<<<<<<< HEAD
                 color: #90EE90;
+=======
+                color: red;
+>>>>>>> master
             }
             50% {
                 color: #87ceeb;
             }
             60% {
-                color: #87ceeb;
+                color: orange;
             }
             80% {
+<<<<<<< HEAD
                 color: green;
+=======
+                color: red;
+>>>>>>> master
             }
             100% {
                 color: #87ceeb;

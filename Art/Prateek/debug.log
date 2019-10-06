@@ -8,7 +8,11 @@
 [1002/192017.708:ERROR:crash_report_database_win.cc(428)] unexpected header
 [1002/194552.888:ERROR:crash_report_database_win.cc(428)] unexpected header
 [1002/195203.042:ERROR:crash_report_database_win.cc(428)] unexpected header
+<<<<<<< HEAD
 [1003/235348.523:ERROR:crash_report_database_win.cc(428)] unexpected header
 [1004/000646.742:ERROR:crash_report_database_win.cc(428)] unexpected header
 [1004/002030.354:ERROR:crash_report_database_win.cc(428)] unexpected header
 [1004/003407.111:ERROR:crash_report_database_win.cc(428)] unexpected header
+=======
+[1006/160032.379:ERROR:crash_report_database_win.cc(428)] unexpected header
+>>>>>>> master
