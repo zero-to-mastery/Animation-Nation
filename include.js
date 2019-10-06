@@ -1,5 +1,13 @@
 let cards = [
 	//  Add your card in this section
+
+  {
+    artName: 'Action Cam',
+    pageLink: './Art/Donovan/index.html',
+    imageLink: './Art/Donovan/pureCSS-animation.gif',
+    author: 'Donovan Hunter',
+		githubLink: 'https://github.com/dhdcode'
+	},
 	{
 		artName: "The Sun",
 		pageLink: "./Art/Anmol/index.html",
@@ -518,6 +526,20 @@ let cards = [
       imageLink: "./Art/DSandberg93/SolarSystem.gif",
       author: "DSandberg93",
       githubLink: "https://github.com/DSandberg93"
+  },
+  {
+  artName: "Boo",
+	pageLink: "./Art/VerityB/index.html",
+	imageLink: "./Art/VerityB/boo.gif",
+	author: "VerityB",
+	githubLink: "https://github.com/VerityB"
+	},
+	{
+		artName: "Hacktoberfest Ghost",
+		pageLink: "./Art/cTahirih/index.html",
+		imageLink: "./Art/cTahirih/ghost.png",
+		author: "cTahirih",
+		githubLink: "https://github.com/cTahirih"
   }
 ];
 
