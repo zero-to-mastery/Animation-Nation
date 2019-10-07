@@ -574,6 +574,13 @@ let cards = [
     imageLink: './Art/andrearizzello/index.gif',
     author: 'Andrea Rizzello',
     githubLink: 'https://github.com/andrearizzello'
+  },
+  {
+    artName: 'Wall Dropping Logo',
+    pageLink: './Art/shivams136/index.html',
+    imageLink: './Art/shivams136/walldrop.gif',
+    author: 'Shivam Sharma',
+    githubLink: 'https://github.com/ShivamS136'
   }
 ];
 

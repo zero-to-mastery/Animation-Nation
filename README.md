@@ -26,7 +26,7 @@ Now, once you've forked this repo and got a local version up on your computer, f
 1. In the Art directory (folder), create a directory named after yourself.
 2. Within this folder you just made, create two files, an HTML file and a CSS file.
 3. Link your CSS file to your HTML file.
-4. Using only HTML and CSS (no <script> allowed!!), create a work of art! It can be as simple or as complex as you like, as long as it's animated in some way!
+4. Using only HTML and CSS (no `<script>` allowed!!), create a work of art! It can be as simple or as complex as you like, as long as it's animated in some way!
 5. Get a screen recording of your finished work, and make a gif! Try to crop it so that it looks good as a smallish (preferably squarish) image. Save this in your directory, together with your HTML and CSS files. Static screenshots are also acceptable.
 6. Go to the root `include.js`. You will see an array of objects, each one represents a work of art that someone has created. Copy an example object and paste it at the end, filling it out with your art information and links:
 
