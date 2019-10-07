@@ -27,6 +27,7 @@ body {
 	25% {
 		/* Zoom-in */
 		margin-top: 300px;
+		margin-left: 60%;
 		transform: scale(25);
 	}
 
@@ -35,7 +36,7 @@ body {
 		transform: scale(25) rotate(90deg);
 	}
 
-	75% {
+	85% {
 		/* Scrolling */
 		transform: scale(25) rotate(90deg) translate(-15%);
 	}
@@ -82,9 +83,9 @@ body {
 	width: 110vw;
 	height: 110vh;
 
-	animation: scene-change 0s 10s forwards;
-	-webkit-animation: scene-change 0s 10s forwards;
-	-moz-animation: scene-change 0s 10s forwards;
+	animation: scene-change 0s 11s forwards;
+	-webkit-animation: scene-change 0s 11s forwards;
+	-moz-animation: scene-change 0s 11s forwards;
 }
 
 .code-container {
@@ -127,31 +128,31 @@ body {
 
 .line-1 {
 	width: 400px;
-	animation: typing 4s 8.5s steps(50, end);
+	animation: typing 4s 9s steps(50, end);
 }
 .line-2 {
 	width: 500px;
-	animation: typing 8s 8.5s steps(100, end);
+	animation: typing 8s 9s steps(100, end);
 }
 .line-3 {
 	width: 800px;
-	animation: typing 12s 8.5s steps(100, end);
+	animation: typing 12s 9s steps(100, end);
 }
 .line-4 {
 	width: 1400px;
-	animation: typing 13s 8.5s steps(200, end);
+	animation: typing 13s 9s steps(200, end);
 }
 .line-5 {
 	width: 1600px;
-	animation: typing 15s 8.5s steps(200, end);
+	animation: typing 15s 9s steps(200, end);
 }
 .line-6 {
 	width: 1800px;
-	animation: typing 17s 8.5s steps(200, end);
+	animation: typing 17s 9s steps(200, end);
 }
 .line-7 {
 	width: 2600px;
-	animation: typing 19s 8.5s steps(70, end);
+	animation: typing 19s 9s steps(70, end);
 }
 
 
