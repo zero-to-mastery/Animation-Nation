@@ -576,6 +576,13 @@ let cards = [
     githubLink: 'https://github.com/andrearizzello'
   },
   {
+    artName: 'Wall Dropping Logo',
+    pageLink: './Art/shivams136/index.html',
+    imageLink: './Art/shivams136/walldrop.gif',
+    author: 'Shivam Sharma',
+    githubLink: 'https://github.com/ShivamS136'
+  },
+  {
     artName: 'Infinite Race',
     pageLink: './Art/levermanx/index.html',
     imageLink: './Art/levermanx/anim.gif',
