@@ -1,0 +1,112 @@
+html, body {
+  margin: 0;
+  background: #2C001E;
+  min-height: 100%;
+}
+
+.logo-container {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 40px;
+  width: 200px;
+  height: 200px;
+  margin: 20% auto 0 auto;
+}
+
+.arc {
+  animation: pulsating-color-animation 6s infinite;
+  grid-area: 1/1;
+  background: #E95420;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.arc.top-right {
+  clip-path: polygon(27% 0, 100% 0%, 100% 48%, 52% 48%);
+}
+
+.arc.bottom-right {
+  clip-path: polygon(52% 52%, 100% 52%, 100% 100%, 27% 100%);
+  animation-delay: 2s;
+}
+
+.arc.left {
+  clip-path: polygon(22% 0, 48% 50%, 22% 100%, 0 100%, 0 0);
+  animation-delay: 4s;
+}
+
+.cutout {
+  background: #2C001E;
+  border-radius: 50%;
+  grid-area: 1/1;
+  z-index: 9001;
+  width: 63%;
+  height: 63%;
+}
+
+.outer-circle-container {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+}
+
+.outer-circle-container .outer-ring {
+  grid-area: 1/1;
+  background: #2C001E;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.outer-circle-container .inner-circle {
+  animation: pulsating-color-animation 6s infinite;
+  grid-area: 1/1;
+  background: #E95420;
+  border-radius: 50%;
+  width: 75%;
+  height: 75%;
+}
+
+.outer-circle-container.top-right {
+  top: 0%;
+  right: 17%;
+}
+
+.outer-circle-container.bottom-right {
+  top: 74%;
+  right: 17%;
+}
+
+.outer-circle-container.bottom-right > .inner-circle {
+  animation-delay: 2s;
+}
+
+.outer-circle-container.left {
+  top: 37%;
+  right: 80%;
+}
+
+.outer-circle-container.left > .inner-circle {
+  animation-delay: 4s;
+}
+
+@keyframes pulsating-color-animation {
+  0% {
+    background: #E95420;
+  }
+  16% {
+    background: #F5B29B;
+  }
+  32% {
+    background: #E95420;
+  }
+  100% {
+    background: #E95420;
+  }
+}
