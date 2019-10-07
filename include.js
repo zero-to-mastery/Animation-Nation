@@ -581,6 +581,13 @@ let cards = [
     imageLink: './Art/shivams136/walldrop.gif',
     author: 'Shivam Sharma',
     githubLink: 'https://github.com/ShivamS136'
+  },
+  {
+    artName: 'Infinite Race',
+    pageLink: './Art/levermanx/index.html',
+    imageLink: './Art/levermanx/anim.gif',
+    author: 'Levermanx',
+    githubLink: 'https://github.com/levermanx'
   }
 ];
 
