@@ -623,6 +623,13 @@ let cards = [
 		imageLink: "./Art/AbdulsalamAbdulrahman/Bouncingtxt.gif",
 		author: "Abdulsalam Abdulrahman",
 		githubLink: "https://github.com/AbdulsalamAbdulrahman/"
+	},
+	{
+		artName: "Simple Phone Animation",
+		pageLink: "./Art/Lala/index.html",
+		imageLink: "./Art/Lala/phone.gif",
+		author: "Olamide Aboyeji",
+		githubLink: "https://github.com/aolamide"
 	}
 ];
 
