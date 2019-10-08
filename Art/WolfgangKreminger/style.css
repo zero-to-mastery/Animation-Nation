@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  height: 90vh;
+  width: 90vw;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid black;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: changingsky 5s infinite;
+}
+
+.card p {
+  font-family: "Lobster", Helvetica, sans-serif;
+  font-size: 3vw;
+  padding-top: 10px;
+  white-space: nowrap;
+  margin: 0 auto;
+  border-right: 0.05em solid silver;
+  text-align: center;
+  overflow: hidden;
+  animation: typewriter 2.5s steps(40, end) infinite alternate,
+    blink-caret 0.75s step-end infinite;
+}
+
+.clock {
+  margin: 0 5vw;
+}
+
+.card-front-face {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-front-face > span:before {
+  animation: rotatingmoon 5s infinite;
+  animation-timing-function: cubic-bezier(0.43, 0.76, 0, 1.51);
+  content: "";
+}
+
+.clock > span:after {
+  animation: rotatingclock 5s infinite;
+  animation-timing-function: cubic-bezier(0.43, 0.76, 0, 1.51);
+  content: "";
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    height: 50vh;
+    width: 50vw;
+  }
+  .wrapper {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .clock {
+    margin: 2vh 0;
+  }
+
+  .card p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 10px;
+  }
+}
+
+@keyframes changingsky {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: silver;
+  }
+}
+
+@keyframes rotatingmoon {
+  0%,
+  100% {
+    content: "🌕";
+  }
+  10% {
+    content: "🌖";
+  }
+  20% {
+    content: "🌗";
+  }
+  30% {
+    content: "🌘";
+  }
+  40% {
+    content: "🌑";
+  }
+  50% {
+    content: "🌑";
+  }
+  60% {
+    content: "🌒";
+  }
+  70% {
+    content: "🌓";
+  }
+  80% {
+    content: "🌔";
+  }
+  90% {
+    content: "🌕";
+  }
+}
+
+@keyframes rotatingclock {
+  0%,
+  100% {
+    content: "🕐";
+  }
+  10% {
+    content: "🕒";
+  }
+  20% {
+    content: "🕓";
+  }
+  30% {
+    content: "🕔";
+  }
+  40% {
+    content: "🕕";
+  }
+  50% {
+    content: "🕖";
+  }
+  60% {
+    content: "🕗";
+  }
+  70% {
+    content: "🕘";
+  }
+  80% {
+    content: "🕚";
+  }
+  90% {
+    content: "🕛";
+  }
+}
