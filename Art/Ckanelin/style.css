@@ -1,0 +1,182 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #000000;
+}
+
+.moon{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+
+	-webkit-animation: rotate 5ss infinite;
+  	-moz-animation:    rotate 5s infinite;
+	-o-animation:      rotate 5s infinite;	
+	animation:         rotate 5s infinite;	
+
+}
+
+#lightmoon{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #D7D7AF;
+
+	-webkit-animation: move_left 5s infinite;
+  	-moz-animation:    move_left 5s infinite;
+	-o-animation:      move_left 5s infinite;	
+	animation:         move_left 5s infinite;	
+
+}
+
+#darkmoon{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: #000000; 
+
+	-webkit-animation: move_right 5s infinite;
+  	-moz-animation:    move_right 5s infinite;
+	-o-animation:      move_right 5s infinite;	
+	animation:         move_right 5s infinite;	
+}
+
+.eyes{
+	position: relative;
+	z-index: 1;
+	width: auto;
+	display: flex;
+
+	-webkit-animation: animate_eyes 5s infinite;
+  	-moz-animation:    animate_eyes 5s infinite;
+	-o-animation:      animate_eyes 5s infinite;	
+	animation:         animate_eyes 5s infinite;
+
+}
+
+#left_eye{
+	width: 80px;
+	height: 55px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 80%;
+	border-bottom-left-radius: 80%;
+	border-bottom-right-radius: 50%;
+	background-color: #3FF6E4;
+	margin: 0px 25px 0px 25px;
+
+	display: flex;
+	justify-content: center;	
+}
+
+#right_eye{
+	width: 80px;
+	height: 55px;
+	border-top-left-radius: 80%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 80%;
+	background-color: #3FF6E4;
+
+	margin: 0px 25px 0px 25px;
+
+	display: flex;
+	justify-content: center;
+}
+
+.iris{
+	width: 10px;
+	height: 55px;
+	border-radius: 50%;
+	background-color: black;
+
+}
+
+@-webkit-keyframes move_right{
+  	0%   { transform: translate(0px, 0px); }
+  	50% { transform: translate(80px, 0px); }
+  	80%,100% {transform: translate(80px, 0px);}
+}
+@-moz-keyframes move_right {
+  	0%   { transform: translate(0px, 0px); }
+  	50% { transform: translate(80px, 0px); }
+  	80%,100% {transform: translate(80px, 0px);}
+}
+@-o-keyframes move_right {
+   	0%   { transform: translate(0px, 0px); }
+  	40% { transform: translate(80px, 0px); }
+  	80%,100% {transform: translate(80px, 0px);}
+}
+@keyframes move_right {
+   	0%   { transform: translate(0px, 0px); }
+  	50% { transform: translate(80px, 0px); }
+  	80%,100% {transform: translate(80px, 0px);}
+}
+
+@-webkit-keyframes move_left{
+	0%   { transform: translate(0px, 0px); }
+	40% { transform: translate(-80px, 0px); }
+	80%,100% {transform: translate(-80px, 0px);}
+}
+@-moz-keyframes move_left {
+  	0%   { transform: translate(0px, 0px); }
+  	40% { transform: translate(-80px, 0px); }
+  	80%,100% {transform: translate(-80px, 0px);}
+}
+@-o-keyframes move_left {
+  	0%   { transform: translate(0px, 0px); }
+  	50% { transform: translate(-80px, 0px); }
+  	80%,100% {transform: translate(-80px, 0px);}
+}
+@keyframes move_left {
+	0%   { transform: translate(0px, 0px); }
+  	50% { transform: translate(-80px, 0px); }
+  	80%,100% {transform: translate(-80px, 0px);}
+}
+
+@-webkit-keyframes rotate{
+  	50%   { transform: rotate(0deg); }
+  	80%,100% { transform: rotate(90deg); }
+}
+@-moz-keyframes rotate {
+  	50%   { transform: rotate(0deg); }
+  	80%,100% { transform: rotate(90deg); }
+}
+@-o-keyframes rotate {
+   	50%   { transform: rotate(0deg); }
+  	80%,100%{ transform: rotate(90deg); }
+}
+@keyframes rotate {
+   	50%   { transform: rotate(0deg); }
+  	80%,100% { transform: rotate(90deg); }
+}
+
+
+@-webkit-keyframes animate_eyes{
+  	0% { opacity: 0; transform: translate(0px, 0px)}
+  	70% {opacity: 0; transform: translate(0px, 160px)}
+  	100% { opacity: 1; transform: translate(0px, 160px)}
+}
+@-moz-keyframes animate_eyes {
+  	0% { opacity: 0; transform: translate(0px, 0px)}
+  	70% {opacity: 0; transform: translate(0px, 160px)}
+  	100% { opacity: 1; transform: translate(0px, 160px)}
+}
+@-o-keyframes animate_eyes {
+  	0% { opacity: 0; transform: translate(0px, 0px)}
+  	70% {opacity: 0; transform: translate(0px, 160px)}
+  	100% { opacity: 1; transform: translate(0px, 160px)}
+}
+@keyframes animate_eyes {
+    0% { opacity: 0; transform: translate(0px, 0px)}
+  	70% {opacity: 0 ; transform: translate(0px, 160px)}
+  	100% { opacity: 1; transform: translate(0px, 160px)}
+}
+
+

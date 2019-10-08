@@ -1,0 +1,71 @@
+body{
+    background-color: gray; 
+}
+
+.container{
+    height: 250px;
+    width: 250px;
+    background-color: #1B1B1B;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    
+}
+#one{
+    animation-timing-function: linear
+    }
+#two{
+    animation-timing-function: ease-in
+    }
+#three{
+    animation-timing-function: ease-in-out
+    }
+#four{
+    animation-timing-function: ease-out
+    }
+
+.ball{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    animation-name: drop;
+    position: relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+
+
+@keyframes drop{
+    0%{
+        margin-top: 50%;
+        background-color: white;
+    }
+    25%{
+        margin-top: 25%;
+        background-color: firebrick;
+    }
+    75%{
+        margin-top: 75%;
+        background-color: orange;
+    }
+    100%{
+        margin-top: 50%;
+        background-color: aqua;
+    }
+}
+
+@keyframes rotate{
+    from{transform: rotateZ(0deg)}
+    to{transform: rotateZ(360deg)}
+}
