@@ -636,6 +636,13 @@
     imageLink: './Art/brunobolting/synthwave-sunset.gif',
     author: 'Bruno Bolting',
     githubLink: 'https://github.com/brunobolting/'
+	},
+	{
+    artName: 'Kawaii Penguin',
+    pageLink: './Art/Brienyll/index.html',
+    imageLink: './Art/Brienyll/kawaiiPenguin.gif',
+    author: 'Brienyll',
+    githubLink: 'https://github.com/brienyll/'
   }
 ];
 
