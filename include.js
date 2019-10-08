@@ -609,6 +609,13 @@ let cards = [
     imageLink: './Art/lusalga/lu.gif',
     author: 'Lucieni A. Saldanha',
     githubLink: 'https://github.com/lusalga/'
+  },
+  {
+    artName: 'Bouncing Text!',
+    pageLink: './Art/AbdulsalamAbdulrahman/index.html',
+    imageLink: './Art/AbdulsalamAbdulrahman/Bouncingtxt.gif',
+    author: 'Abdulsalam Abdulrahman',
+    githubLink: 'https://github.com/AbdulsalamAbdulrahman/'
   }
 ];
 
