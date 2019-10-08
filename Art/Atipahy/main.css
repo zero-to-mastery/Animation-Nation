@@ -1,0 +1,32 @@
+.colors {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+  .colorss {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+  }
+ 
+  @-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: blueviolet;}
+  }
+
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: blueviolet;}
+  }

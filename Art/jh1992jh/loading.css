@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  font-family: "Monoton", cursive;
+  font-size: 1.2rem;
+  color: #012239;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  background: #012239;
+  position: relative;
+}
+
+.line {
+  width: 50%;
+  height: calc(100% / 7);
+  background: #eee;
+  border: 1px solid #012239;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line1 {
+  left: 5%;
+  top: 10%;
+  animation: line1 2s infinite;
+}
+
+.line2 {
+  left: 10%;
+  top: 31%;
+  animation: line2 2s infinite;
+  animation-delay: 0.2s;
+}
+
+.line3 {
+  right: 10%;
+  bottom: 31%;
+  animation: line3 2s infinite;
+  animation-delay: 0.2s;
+}
+
+.line4 {
+  right: 5%;
+  bottom: 10%;
+  animation: line4 2s infinite;
+}
+
+/* Keyframes */
+
+@keyframes line1 {
+  0% {
+    left: 5%;
+    color: #012239;
+    opacity: 0.2;
+  }
+
+  50% {
+    left: 45%;
+    color: #e14eca;
+    opacity: 1;
+  }
+
+  100% {
+    left: 5%;
+    color: #012239;
+    opacity: 0.2;
+  }
+}
+
+@keyframes line2 {
+  0% {
+    opacity: 0.2;
+    left: 10%;
+    color: #012239;
+  }
+
+  50% {
+    opacity: 1;
+    left: 40%;
+    color: #e14eca;
+  }
+
+  100% {
+    opacity: 0.2;
+    left: 10%;
+    color: #012239;
+  }
+}
+
+@keyframes line3 {
+  0% {
+    opacity: 0.2;
+    right: 10%;
+    color: #012239;
+  }
+
+  50% {
+    opacity: 1;
+    right: 40%;
+    color: #e14eca;
+  }
+
+  100% {
+    opacity: 0.2;
+    color: #012239;
+    right: 10%;
+  }
+}
+
+@keyframes line4 {
+  0% {
+    opacity: 0.2;
+    color: #012239;
+    right: 5%;
+  }
+
+  50% {
+    opacity: 1;
+    right: 45%;
+    color: #e14eca;
+  }
+
+  100% {
+    opacity: 0.2;
+    color: #012239;
+    right: 5%;
+  }
+}

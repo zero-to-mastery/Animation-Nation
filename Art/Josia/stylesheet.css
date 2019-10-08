@@ -1,0 +1,60 @@
+* { box-sizing: border-box; }
+
+body {
+   
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: blue;
+    font-size: 50px;
+    margin-top: 5em;
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.first-element {
+    animation: bounce .6s alternate infinite ease-in;
+}
+
+.second-element {
+    animation: bounce0 .6s alternate infinite ease-in;
+    color: #ba03fc;
+    font-family: Cambria, Cochin, Georgia;
+}
+
+.third-element {
+    animation: bounce1 .6s alternate infinite ease-in;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateX(-70%);
+    }
+
+    100% {
+      transform: translateX(5%);
+    }
+}
+
+@keyframes bounce0 {
+    0% {
+        transform: translateY(-185%);
+    }
+
+    100% {
+      transform: translateY(0%);
+    }
+}
+
+@keyframes bounce1 {
+    0% {
+        transform: translateX(40%);
+    }
+
+    100% {
+      transform: translateX(-8.5%);
+    }
+}
