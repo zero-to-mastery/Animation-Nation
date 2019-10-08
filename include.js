@@ -597,6 +597,13 @@ let cards = [
     githubLink: 'https://github.com/levermanx'
   },
   {
+    artName: 'Hover to Rotate Text',
+    pageLink: './Art/faiz_hameed/index.html',
+    imageLink: './Art/faiz_hameed/hackto.gif',
+    author: 'Faiz Hameed',
+    githubLink: 'https://github.com/faizhameed'
+  },
+  {
     artName: 'HalloHacktober Greeting!',
     pageLink: './Art/lusalga/index.html',
     imageLink: './Art/lusalga/lu.gif',
