@@ -609,6 +609,13 @@ let cards = [
     imageLink: './Art/lusalga/lu.gif',
     author: 'Lucieni A. Saldanha',
     githubLink: 'https://github.com/lusalga/'
+  },
+{
+    artName: 'Simple Phone Animation',
+    pageLink: './Art/Lala/index.html',
+    imageLink: './Art/Lala/phone.gif',
+    author: 'Olamide Aboyeji',
+    githubLink: 'https://github.com/aolamide'
   }
 ];
 
