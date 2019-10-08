@@ -1,4 +1,4 @@
-let cards = [
+	let cards = [
 	//  Add your card in this section
 	{
 		artName: "The Ripple",
@@ -287,7 +287,6 @@ let cards = [
 		author: "Josia Rodriguez",
 		githubLink: "https://github.com/josiarod"
 	},
-
 	{
 		artName: "Hacktober loading animation",
 		pageLink: "./Art/mehul1011/index.html",
@@ -630,7 +629,14 @@ let cards = [
 		imageLink: "./Art/Lala/phone.gif",
 		author: "Olamide Aboyeji",
 		githubLink: "https://github.com/aolamide"
-	}
+	},
+	{
+    artName: 'Synthwave Sunset',
+    pageLink: './Art/brunobolting/index.html',
+    imageLink: './Art/brunobolting/synthwave-sunset.gif',
+    author: 'Bruno Bolting',
+    githubLink: 'https://github.com/brunobolting/'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
