@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: "The Ripple",
+    pageLink: "./Art/Anmol2/index.html",
+    imageLink: "./Art/Anmol2/ripple.png",
+    author: "Anmol",
+    githubLink: "https://github.com/Anmol270900"
+  },
+  {
     artName: 'Rainbow loader',
     pageLink: './Art/ka-hn/rainbow.html',
     imageLink: './Art/ka-hn/rainbow.gif',
