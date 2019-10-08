@@ -17,10 +17,24 @@
             position: relative;
             font-size: 18px;
             overflow:hidden;
-            background:#0768a0;
+            /* background: #2e82d6; */
         }
         .header-content p{
             color:#ffffff;
+        }
+        header:before{
+            background: linear-gradient(to bottom, rgba(6,83,128,0), rgba(126, 176, 233, 0.8)) url(/) no-repeat bottom;
+            background-size: cover;
+            position: absolute;
+            /* padding:0 0 0 0;   */
+            top: 0;
+            bottom: 0;;
+            right: 0;
+            left: 0;
+
+            content:"";
+
+
         }
         header:after{
             background: #f9fcff;
@@ -31,7 +45,7 @@
             right:-5%;
             top:90%;
             transform-origin: 0 0;
-            transform:rotateY(-6deg);
+            transform:rotatez(-6deg);
         }
 
 
