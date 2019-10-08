@@ -8,18 +8,18 @@ let cards = [
     githubLink: "https://github.com/Anmol270900"
   },
   {
-    artName: "Rainbow loader",
-    pageLink: "./Art/ka-hn/rainbow.html",
-    imageLink: "./Art/ka-hn/rainbow.gif",
-    author: "Karim Hussain",
-    githubLink: "https://github.com/ka-hn"
+    artName: 'Rainbow loader',
+    pageLink: './Art/ka-hn/rainbow.html',
+    imageLink: './Art/ka-hn/rainbow.gif',
+    author: 'Karim Hussain',
+    githubLink: 'https://github.com/ka-hn'
   },
   {
-    artName: "Action Cam",
-    pageLink: "./Art/Donovan/index.html",
-    imageLink: "./Art/Donovan/pureCSS-animation.gif",
-    author: "Donovan Hunter",
-    githubLink: "https://github.com/dhdcode"
+    artName: 'Action Cam',
+    pageLink: './Art/Donovan/index.html',
+    imageLink: './Art/Donovan/pureCSS-animation.gif',
+    author: 'Donovan Hunter',
+    githubLink: 'https://github.com/dhdcode'
   },
   {
     artName: "The Sun",
@@ -287,6 +287,7 @@ let cards = [
     author: "Josia Rodriguez",
     githubLink: "https://github.com/josiarod"
   },
+
   {
     artName: "Hacktober loading animation",
     pageLink: "./Art/mehul1011/index.html",
@@ -538,6 +539,7 @@ let cards = [
     imageLink: "./Art/4ront/fishes.gif",
     author: "4rontender",
     githubLink: "https://github.com/RinatValiullov"
+
   },
   {
     artName: "Calm Ubuntu",
@@ -568,74 +570,46 @@ let cards = [
     githubLink: "https://github.com/cTahirih"
   },
   {
-    artName: "Clock",
-    pageLink: "./Art/Abdul/index.html",
-    imageLink: "./Art/Abdul/Clock.png",
-    author: "Abdul Rahman",
-    githubLink: "https://github.com/abdulrahman118"
+    artName: 'Clock',
+    pageLink: './Art/Abdul/index.html',
+    imageLink: './Art/Abdul/Clock.png',
+    author: 'Abdul Rahman',
+    githubLink: 'https://github.com/abdulrahman118'
   },
   {
-    artName: "Loading Cube",
-    pageLink: "./Art/andrearizzello/index.html",
-    imageLink: "./Art/andrearizzello/index.gif",
-    author: "Andrea Rizzello",
-    githubLink: "https://github.com/andrearizzello"
+    artName: 'Loading Cube',
+    pageLink: './Art/andrearizzello/index.html',
+    imageLink: './Art/andrearizzello/index.gif',
+    author: 'Andrea Rizzello',
+    githubLink: 'https://github.com/andrearizzello'
   },
   {
-    artName: "Wall Dropping Logo",
-    pageLink: "./Art/shivams136/index.html",
-    imageLink: "./Art/shivams136/walldrop.gif",
-    author: "Shivam Sharma",
-    githubLink: "https://github.com/ShivamS136"
+    artName: 'Wall Dropping Logo',
+    pageLink: './Art/shivams136/index.html',
+    imageLink: './Art/shivams136/walldrop.gif',
+    author: 'Shivam Sharma',
+    githubLink: 'https://github.com/ShivamS136'
   },
   {
-    artName: "Infinite Race",
-    pageLink: "./Art/levermanx/index.html",
-    imageLink: "./Art/levermanx/anim.gif",
-    author: "Levermanx",
-    githubLink: "https://github.com/levermanx"
+    artName: 'Infinite Race',
+    pageLink: './Art/levermanx/index.html',
+    imageLink: './Art/levermanx/anim.gif',
+    author: 'Levermanx',
+    githubLink: 'https://github.com/levermanx'
   },
   {
-    artName: "Hover to Rotate Text",
-    pageLink: "./Art/faiz_hameed/index.html",
-    imageLink: "./Art/faiz_hameed/hackto.gif",
-    author: "Faiz Hameed",
-    githubLink: "https://github.com/faizhameed"
+    artName: 'Hover to Rotate Text',
+    pageLink: './Art/faiz_hameed/index.html',
+    imageLink: './Art/faiz_hameed/hackto.gif',
+    author: 'Faiz Hameed',
+    githubLink: 'https://github.com/faizhameed'
   },
   {
-    artName: "HalloHacktober Greeting!",
-    pageLink: "./Art/lusalga/index.html",
-    imageLink: "./Art/lusalga/lu.gif",
-    author: "Lucieni A. Saldanha",
-    githubLink: "https://github.com/lusalga/"
-  },
-  {
-    artName: "Time goes by",
-    pageLink: "./Art/WolfgangKreminger/index.html",
-    imageLink: "./Art/WolfgangKreminger/showcase.gif",
-    author: "Wolfgang Kreminger",
-    githubLink: "https://github.com/r4pt0s"
-  },
-  {
-    artName: "Bouncing Text!",
-    pageLink: "./Art/AbdulsalamAbdulrahman/index.html",
-    imageLink: "./Art/AbdulsalamAbdulrahman/Bouncingtxt.gif",
-    author: "Abdulsalam Abdulrahman",
-    githubLink: "https://github.com/AbdulsalamAbdulrahman/"
-  },
-  {
-    artName: "Simple Phone Animation",
-    pageLink: "./Art/Lala/index.html",
-    imageLink: "./Art/Lala/phone.gif",
-    author: "Olamide Aboyeji",
-    githubLink: "https://github.com/aolamide"
-  },
-  {
-    artName: "Synthwave Sunset",
-    pageLink: "./Art/brunobolting/index.html",
-    imageLink: "./Art/brunobolting/synthwave-sunset.gif",
-    author: "Bruno Bolting",
-    githubLink: "https://github.com/brunobolting/"
+    artName: 'HalloHacktober Greeting!',
+    pageLink: './Art/lusalga/index.html',
+    imageLink: './Art/lusalga/lu.gif',
+    author: 'Lucieni A. Saldanha',
+    githubLink: 'https://github.com/lusalga/'
   },
   {
     artName: "Happy Halloween",
@@ -658,14 +632,14 @@ let contents = [];
 Shuffle(cards).forEach(c => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
