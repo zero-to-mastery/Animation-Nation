@@ -581,6 +581,13 @@ let cards = [
     imageLink: './Art/levermanx/anim.gif',
     author: 'Levermanx',
     githubLink: 'https://github.com/levermanx'
+  },
+  {
+    artName: 'HalloHacktober Greeting!',
+    pageLink: './Art/lusalga/index.html',
+    imageLink: './Art/lusalga/lu.gif',
+    author: 'Lucieni A. Saldanha',
+    githubLink: 'https://github.com/lusalga/'
   }
 ];
 

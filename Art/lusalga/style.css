@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: black;
+	background-image: url("./imgBack.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+h1 {
+	color: #FF7C00;
+  	cursor: pointer;
+  	font-family: 'Griffy', cursive;
+  	font-size: 3rem;
+  	text-shadow: 0 0 2px #0B0B0B, 0 0 2px #060606; 
+  
+}
+
+.mainBox {
+	margin-top: 30vh;
+	display: flex;
+	justify-content: center;
+}
+
+.insideBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1.firstParagraph {
+	animation-name: stretch;
+    animation-duration: 2s; 
+	animation-timing-function: ease-in-out; 
+	animation-delay: 0s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running; 
+}
+
+h1.secondtParagraph {
+	animation-name: stretch;
+    animation-duration: 2s; 
+	animation-timing-function: ease-in-out; 
+	animation-delay: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running; 
+}
+
+h1.thirdParagraph {
+	animation-name: stretch;
+    animation-duration: 2s; 
+	animation-timing-function: ease-in-out; 
+	animation-delay: 3.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running; 
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    border-radius: 100%;
+  }
+  50% {
+    
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+
+
