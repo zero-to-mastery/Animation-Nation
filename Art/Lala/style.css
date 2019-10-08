@@ -1,0 +1,111 @@
+body{
+				background: #3a6186; 
+    		background: -webkit-linear-gradient(to right, #89253e, #3a6186);  
+    		background: linear-gradient(to right, #89253e, #3a6186); 
+				font-family: 'Staatliches', cursive;
+				font-size: 18px;
+				letter-spacing: 2.5px;
+			}
+			.container{
+				margin-left: auto;
+				margin-right: auto;
+				width: 280px;
+				animation: bounce 2s forwards, new-bounce 2s 2s alternate infinite;
+			}
+			@keyframes bounce{
+				0%{transform: translateY(1000px);}
+				50%{transform: translateY(-10px);}
+				100%{transform: translateY(15px);}
+			}
+			@keyframes new-bounce {
+				0%{transform: translateY(0px);}
+				50%{transform: translateY(10px);}
+				100%{transform: translateY(20px);}
+			}
+			@keyframes notification {
+				0%{
+					background-color: #ef0d46;
+					box-shadow: 1px 1px 1px #c54868;
+				}
+				50%{background-color: black;}
+				100%{
+					background-color: #ef0d46;
+					box-shadow: 1px 1px 1px #c54868;
+				}
+			}
+			#head{
+				height: 40px;
+				background-color: white;
+				border-top:5px solid rgba(155, 142, 142, 1);
+				border-left: 3px solid rgba(155, 142, 142, 1);
+				border-right: 3px solid rgba(155, 142, 142, 1);
+				border-radius: 100px 100px 0 0;
+				text-align: center;
+			}
+			#brand{
+				margin: 0;
+				margin-top: -10px;
+				color: rgba(155, 142, 142, 1);
+			}
+			#speaker{
+				background-color: silver;
+				width: 60px;
+				height: 4px;
+				margin: 10px auto -5px auto;
+				border-radius: 20%;
+				display: flex;
+				position: relative;
+				justify-content: space-between;
+			}
+			.speaker-dots{
+				background-color: black;
+				border-radius:50%;
+				width:1px;
+				height:2px;
+				align-self: center;
+			}
+			.sensor{
+				background-color: rgba(0, 0, 0, 1);
+				border-radius: 50%;
+				width: 8px;
+				height: 8px;
+				display: inline-block;
+				transform: translateX(70px);
+
+			}
+			.sensor-lg{
+				width:15px;
+				height: 15px;
+				margin-left: 7px;
+				animation: notification 2s 2s infinite;
+			}
+			#body{
+				border-left: 3px solid rgba(155, 142, 142, 1);
+				border-right: 3px solid rgba(155, 142, 142, 1);
+				background-color: white;
+			}
+			#screen{
+				background-color: rgba(0, 0, 0, 1);
+				height:420px;
+				width:250px;
+				margin-left: auto;
+				margin-right:auto;
+			}
+			#bottom{
+				background-color: white;
+				border-left: 3px solid rgba(155, 142, 142, 1);
+				border-right: 3px solid rgba(155, 142, 142, 1);
+				height:50px;
+				border-bottom:5px solid rgba(155, 142, 142, 1);
+				border-radius: 0 0 100px 100px;
+				position: relative;
+			}
+			#homekey{
+				margin-left: auto;
+				margin-right: auto;
+				width: 60px;
+				border: 2px solid silver;
+				height:15px;
+				transform: translateY(20px);
+				border-radius: 40px 40px 120px 120px;
+			}
