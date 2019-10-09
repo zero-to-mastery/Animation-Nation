@@ -29,6 +29,13 @@ let cards = [
     githubLink: "https://github.com/Anmol270900"
   },
   {
+    artName: "Flashing Pumpkin",
+    pageLink: "./Art/KatrinaRose14/index.html",
+    imageLink: "./Art/KatrinaRose14/FlashingPumpkin.gif",
+    author: "Katrina Yates",
+    githubLink: "https://github.com/KatrinaRose14"
+  },
+  {
     artName: "Flipbox",
     pageLink: "./Art/Prasheel/index.html",
     imageLink: "./Art/Prasheel/flip.gif",
