@@ -650,6 +650,13 @@
     imageLink: "./Art/MatthewS/Spider.gif",
     author: "MatthewS",
     githubLink: "https://github.com/matthewstoddart/"
+  },
+  {
+    artName: "Fan Art",
+    pageLink: "./Art/m-perez33/index.html",
+    imageLink: "./Art/m-perez33/cylon.gif",
+    author: "Marcos Perez",
+    githubLink: "https://github.com/m-perez33/"
   }
 ];
 
