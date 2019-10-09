@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: "Star Wars?",
+    pageLink: "./Art/henryvalbuena/index.html",
+    imageLink: "./Art/henryvalbuena/index.gif",
+    author: "Henry Valbuena",
+    githubLink: "https://github.com/henryvalbuena"
+  },
+  {
     artName: "The Ripple",
     pageLink: "./Art/Anmol2/index.html",
     imageLink: "./Art/Anmol2/ripple.png",
