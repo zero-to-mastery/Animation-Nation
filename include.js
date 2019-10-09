@@ -611,6 +611,55 @@ let cards = [
     githubLink: "https://github.com/lusalga/"
   },
   {
+		artName: "Time goes by",
+		pageLink: "./Art/WolfgangKreminger/index.html",
+		imageLink: "./Art/WolfgangKreminger/showcase.gif",
+		author: "Wolfgang Kreminger",
+		githubLink: "https://github.com/r4pt0s"
+	},
+	{
+		artName: "Bouncing Text!",
+		pageLink: "./Art/AbdulsalamAbdulrahman/index.html",
+		imageLink: "./Art/AbdulsalamAbdulrahman/Bouncingtxt.gif",
+		author: "Abdulsalam Abdulrahman",
+		githubLink: "https://github.com/AbdulsalamAbdulrahman/"
+	},
+	{
+		artName: "Simple Phone Animation",
+		pageLink: "./Art/Lala/index.html",
+		imageLink: "./Art/Lala/phone.gif",
+		author: "Olamide Aboyeji",
+		githubLink: "https://github.com/aolamide"
+	},
+	{
+    artName: 'Synthwave Sunset',
+    pageLink: './Art/brunobolting/index.html',
+    imageLink: './Art/brunobolting/synthwave-sunset.gif',
+    author: 'Bruno Bolting',
+    githubLink: 'https://github.com/brunobolting/'
+	},
+	{
+    artName: 'Kawaii Penguin',
+    pageLink: './Art/Brienyll/index.html',
+    imageLink: './Art/Brienyll/kawaiiPenguin.gif',
+    author: 'Brienyll',
+    githubLink: 'https://github.com/brienyll/'
+  },
+  {
+    artName: "Happy Halloween",
+    pageLink: "./Art/MatthewS/index.html",
+    imageLink: "./Art/MatthewS/Spider.gif",
+    author: "MatthewS",
+    githubLink: "https://github.com/matthewstoddart/"
+  },
+  {
+    artName: "Fan Art",
+    pageLink: "./Art/m-perez33/index.html",
+    imageLink: "./Art/m-perez33/cylon.gif",
+    author: "Marcos Perez",
+    githubLink: "https://github.com/m-perez33/"
+  },
+  {
     artName: "Animating Pot",
     pageLink: "./Art/Somechandra/index.html",
     imageLink: "./Art/Somechandra/pot.gif",
