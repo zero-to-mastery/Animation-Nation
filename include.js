@@ -1,18 +1,25 @@
 let cards = [
   //  Add your card in this section
   {
-    artName: 'Rainbow loader',
-    pageLink: './Art/ka-hn/rainbow.html',
-    imageLink: './Art/ka-hn/rainbow.gif',
-    author: 'Karim Hussain',
-    githubLink: 'https://github.com/ka-hn'
+    artName: "The Ripple",
+    pageLink: "./Art/Anmol2/index.html",
+    imageLink: "./Art/Anmol2/ripple.png",
+    author: "Anmol",
+    githubLink: "https://github.com/Anmol270900"
   },
   {
-    artName: 'Action Cam',
-    pageLink: './Art/Donovan/index.html',
-    imageLink: './Art/Donovan/pureCSS-animation.gif',
-    author: 'Donovan Hunter',
-    githubLink: 'https://github.com/dhdcode'
+    artName: "Rainbow loader",
+    pageLink: "./Art/ka-hn/rainbow.html",
+    imageLink: "./Art/ka-hn/rainbow.gif",
+    author: "Karim Hussain",
+    githubLink: "https://github.com/ka-hn"
+  },
+  {
+    artName: "Action Cam",
+    pageLink: "./Art/Donovan/index.html",
+    imageLink: "./Art/Donovan/pureCSS-animation.gif",
+    author: "Donovan Hunter",
+    githubLink: "https://github.com/dhdcode"
   },
   {
     artName: "The Sun",
@@ -295,250 +302,250 @@ let cards = [
     author: "devSergiu",
     githubLink: "https://github.com/devsergiu"
   },
-	{
-		artName: "TypeWriter effect",
-		pageLink: "./Art/Sidharth/Typing_Text.html",
-		imageLink: "./Art/Sidharth/type_writer.gif",
-		author: "Sidharth",
-		githubLink: "https://github.com/Sidharth98"
-	},
-	{
-		artName: "Blue Spin",
-		pageLink: "./Art/JamesW/index.html",
-		imageLink: "./Art/JamesW/hacktober_spin.gif",
-		author: "James Whitney",
-		githubLink: "https://github.com/jameswhitney"
-	},
-	{
-		artName: "Loading Animation",
-		pageLink: "./Art/Sidharth/Loading.html",
-		imageLink: "./Art/Sidharth/Loading.gif",
-		author: "Sidharth",
-		githubLink: "https://github.com/Sidharth98"
-	},
-	{
-		artName: "Rotation",
-		pageLink: "./Art/alenanog/index.html",
-		imageLink: "./Art/alenanog/rotation.gif",
-		author: "Alena A.",
-		githubLink: "https://github.com/alenanog"
-	},
-	{
-		artName: "Colors in your life",
-		pageLink: "./Art/Atipahy/colors.html",
-		imageLink: "./Art/Atipahy/colors.png",
-		author: "Christos Chr",
-		githubLink: "https://github.com/atipaHy"
-	},
-	{
-		artName: "Orb",
-		pageLink: "./Art/Jkbicbic/orb.html",
-		imageLink: "./Art/Jkbicbic/orb.gif",
-		author: "John Kennedy Bicbic",
-		githubLink: "https://github.com/jkbicbic"
-	},
-	{
-		artName: "Charging...",
-		pageLink: "./Art/Afraz/charging.html",
-		imageLink: "./Art/Afraz/charging.gif",
-		author: "Afraz",
-		githubLink: "https://github.com/afrazz"
-	},
-	{
-		artName: "Charging...",
-		pageLink: "./Art/DepStep/depstep.html",
-		imageLink: "./Art/DepStep/depstep.gif",
-		author: "DepStep",
-		githubLink: "https://github.com/stephD"
-	},
-	{
-		artName: "Dancing Ball...",
-		pageLink: "./Art/DaveFres/index.html",
-		imageLink: "./Art/DaveFres/ball.gif",
-		author: "DaveFres",
-		githubLink: "https://github.com/DaveFres"
-	},
-	{
-		artName: "Sunshine",
-		pageLink: "./Art/Pavelisp/sunshine.html",
-		imageLink: "./Art/Pavelisp/sunshine.gif",
-		author: "Pavel Isp",
-		githubLink: "https://github.com/pavelisp"
-	},
-	{
-		artName: "SoundBoxes",
-		pageLink: "./Art/Hbarang/SoundBox.html",
-		imageLink: "./Art/Hbarang/SoundBoxAnimation.gif",
-		author: "Hbarang",
-		githubLink: "https://github.com/hbarang"
-	},
-	{
-		artName: "Cheshire",
-		pageLink: "./Art/Ckanelin/index.html",
-		imageLink: "./Art/Ckanelin/Cheshire.gif",
-		author: "Ckanelin",
-		githubLink: "https://github.com/ckanelin"
-	},
-	{
-		artName: "Disappear",
-		pageLink: "./Art/Stacy/index.html",
-		imageLink: "./Art/Stacy/disappear.gif",
-		author: "Stacy",
-		githubLink: "https://github.com/stacyholtz6"
-	},
-	{
-		artName: "Ellipse Spinner",
-		pageLink: "./Art/Sabina/ellipse_spinner.html",
-		imageLink: "./Art/Sabina/ellipse_spinner.png",
-		author: "Sabina Abbasova",
-		githubLink: "https://github.com/sabina929"
-	},
-	{
-		artName: "NightSky",
-		pageLink: "./Art/AndyS/index.html",
-		imageLink: "./Art/AndyS/Capture.GIF",
-		author: "AndyS",
-		githubLink: "https://github.com/AndyS1988"
-	},
-	{
-		artName: "Hungry",
-		pageLink: "./Art/diegchav/index.html",
-		imageLink: "./Art/diegchav/hungry.gif",
-		author: "Diego Chz",
-		githubLink: "https://github.com/diegchav"
-	},
-	{
-		artName: "Hover Text Animation",
-		pageLink: "./Art/AyoubIssaad2/index.html",
-		imageLink: "./Art/AyoubIssaad2/hoverTextAnimation.gif",
-		author: "AyoubIssaad",
-		githubLink: "https://github.com/AyoubIssaad"
-	},
-	{
-		artName: "Colorize",
-		pageLink: "./Art/JimBratsos/colorize.html",
-		imageLink: "./Art/JimBratsos/Colorize.gif",
-		author: "Jim Bratsos",
-		githubLink: "https://github.com/JimBratsos"
-	},
-	{
-		artName: "Hacktober Spooktacular",
-		pageLink: "Art/Elex/index.html",
-		imageLink: ["./Art/Elex/hhs.gif"],
-		author: "William Poisel (LordCobra)",
-		githubLink: "https://github.com/epoisel"
-	},
-	{
-		artName: "Circley",
-		pageLink: "./Art/Tranjenny/indexjenny.html",
-		imageLink: "./Art/Tranjenny/zerojenny.gif",
-		author: "Tranjenny",
-		githubLink: "https://github.com/Tranjenny"
-	},
-	{
-		artName: "My Vietnam",
-		pageLink: "./Art/nhbduy/index.html",
-		imageLink: "./Art/nhbduy/my-vietnam.gif",
-		author: "Hoang-Bao-Duy NGUYEN",
-		githubLink: "https://github.com/nhbduy"
-	},
-	{
-		artName: "Hactoberfest Bus",
-		pageLink: "./Art/shahpranaf/index.html",
-		imageLink: "./Art/shahpranaf/hacktoberfest_bus.gif",
-		author: "Pranav Shah",
-		githubLink: "https://github.com/shahpranaf"
-	},
-	{
-		artName: "Hacktoberfest",
-		pageLink: "./Art/robihid/index.html",
-		imageLink: "./Art/robihid/hacktoberfest.png",
-		author: "robihid",
-		githubLink: "https://github.com/robihid"
-	},
-	{
-		artName: "Hi there",
-		pageLink: "./Art/Aki/index.html",
-		imageLink: "./Art/Aki/giphy.gif",
-		author: "Aki",
-		githubLink: "https://github.com/akmalist"
-	},
-	{
-		artName: "Hacktoberfest 2019!",
-		pageLink: "./Art/RedSquirrrel/index.html",
-		imageLink: "./Art/RedSquirrrel/index.html/animation.PNG",
-		author: "RedSquirrrel",
-		githubLink: "https://github.com/RedSquirrrel"
-	},
-	{
-		artName: "Sliding text",
-		pageLink: "./Art/Flattopz/index.html",
-		imageLink: "./Art/Flattopz/SlidingText.gif",
-		author: "Flattopz",
-		githubLink: "https://github.com/hjpunzalan"
-	},
-	{
-	    artName: "Rainbow Color Changer",
-	    pageLink: "./Art/mmshr/index.html",
-	    imageLink: "./Art/mmshr/rainbow.gif",
-	    author: "mmosehauer",
-	    githubLink: "https://github.com/mmosehauer"
+  {
+    artName: "TypeWriter effect",
+    pageLink: "./Art/Sidharth/Typing_Text.html",
+    imageLink: "./Art/Sidharth/type_writer.gif",
+    author: "Sidharth",
+    githubLink: "https://github.com/Sidharth98"
   },
-	{
-		artName: "World of Coding",
-		pageLink: "./Art/tom_kn/coding.html",
-		imageLink: "./Art/tom_kn/coding.gif",
-		author: "Tamas Knisz",
-		githubLink: "https://github.com/TamasKn"
-	},
-	{
-		artName: "Initial Bounce",
-		pageLink: "./Art/Juwana/initial.html",
-		imageLink: "./Art/Juwana/InitialBounce.gif",
-		author: "Juwana",
-		githubLink: "https://github.com/JZerman2018"
-	},
-	{
-		artName: "Atom",
-		pageLink: "./Art/Teva/index.html",
-		imageLink: "./Art/Teva/atom.gif",
-		author: "Teva",
-		githubLink: "https://github.com/TevaHenry"
-	},
-	{
-		artName: "Be Awesome",
-		pageLink: "./Art/TigerAsH/index.html",
-		imageLink: "./Art/TigerAsH/be-awesome.jpg",
-		author: "TigerAsH",
-		githubLink: "https://github.com/TigerAsH94"
-	},
-	{
-		artName: "Rainbow Colors",
-		pageLink: "./Art/Sanjeev/index.html",
-		imageLink: "./Art/Sanjeev/animation.gif",
-		author: "Sanjeev Panday",
-		githubLink: "https://github.com/Sanjeev-Panday"
-	},
-	{	artName: "ZtM",
-		pageLink: "./Art/thoyvo/index.html",
-		imageLink: "./Art/thoyvo/ztm.gif",
-		author: "Thoyvo",
-		githubLink: "https://github.com/thoyvo"
-	},
+  {
+    artName: "Blue Spin",
+    pageLink: "./Art/JamesW/index.html",
+    imageLink: "./Art/JamesW/hacktober_spin.gif",
+    author: "James Whitney",
+    githubLink: "https://github.com/jameswhitney"
+  },
+  {
+    artName: "Loading Animation",
+    pageLink: "./Art/Sidharth/Loading.html",
+    imageLink: "./Art/Sidharth/Loading.gif",
+    author: "Sidharth",
+    githubLink: "https://github.com/Sidharth98"
+  },
+  {
+    artName: "Rotation",
+    pageLink: "./Art/alenanog/index.html",
+    imageLink: "./Art/alenanog/rotation.gif",
+    author: "Alena A.",
+    githubLink: "https://github.com/alenanog"
+  },
+  {
+    artName: "Colors in your life",
+    pageLink: "./Art/Atipahy/colors.html",
+    imageLink: "./Art/Atipahy/colors.png",
+    author: "Christos Chr",
+    githubLink: "https://github.com/atipaHy"
+  },
+  {
+    artName: "Orb",
+    pageLink: "./Art/Jkbicbic/orb.html",
+    imageLink: "./Art/Jkbicbic/orb.gif",
+    author: "John Kennedy Bicbic",
+    githubLink: "https://github.com/jkbicbic"
+  },
+  {
+    artName: "Charging...",
+    pageLink: "./Art/Afraz/charging.html",
+    imageLink: "./Art/Afraz/charging.gif",
+    author: "Afraz",
+    githubLink: "https://github.com/afrazz"
+  },
+  {
+    artName: "Charging...",
+    pageLink: "./Art/DepStep/depstep.html",
+    imageLink: "./Art/DepStep/depstep.gif",
+    author: "DepStep",
+    githubLink: "https://github.com/stephD"
+  },
+  {
+    artName: "Dancing Ball...",
+    pageLink: "./Art/DaveFres/index.html",
+    imageLink: "./Art/DaveFres/ball.gif",
+    author: "DaveFres",
+    githubLink: "https://github.com/DaveFres"
+  },
+  {
+    artName: "Sunshine",
+    pageLink: "./Art/Pavelisp/sunshine.html",
+    imageLink: "./Art/Pavelisp/sunshine.gif",
+    author: "Pavel Isp",
+    githubLink: "https://github.com/pavelisp"
+  },
+  {
+    artName: "SoundBoxes",
+    pageLink: "./Art/Hbarang/SoundBox.html",
+    imageLink: "./Art/Hbarang/SoundBoxAnimation.gif",
+    author: "Hbarang",
+    githubLink: "https://github.com/hbarang"
+  },
+  {
+    artName: "Cheshire",
+    pageLink: "./Art/Ckanelin/index.html",
+    imageLink: "./Art/Ckanelin/Cheshire.gif",
+    author: "Ckanelin",
+    githubLink: "https://github.com/ckanelin"
+  },
+  {
+    artName: "Disappear",
+    pageLink: "./Art/Stacy/index.html",
+    imageLink: "./Art/Stacy/disappear.gif",
+    author: "Stacy",
+    githubLink: "https://github.com/stacyholtz6"
+  },
+  {
+    artName: "Ellipse Spinner",
+    pageLink: "./Art/Sabina/ellipse_spinner.html",
+    imageLink: "./Art/Sabina/ellipse_spinner.png",
+    author: "Sabina Abbasova",
+    githubLink: "https://github.com/sabina929"
+  },
+  {
+    artName: "NightSky",
+    pageLink: "./Art/AndyS/index.html",
+    imageLink: "./Art/AndyS/Capture.GIF",
+    author: "AndyS",
+    githubLink: "https://github.com/AndyS1988"
+  },
+  {
+    artName: "Hungry",
+    pageLink: "./Art/diegchav/index.html",
+    imageLink: "./Art/diegchav/hungry.gif",
+    author: "Diego Chz",
+    githubLink: "https://github.com/diegchav"
+  },
+  {
+    artName: "Hover Text Animation",
+    pageLink: "./Art/AyoubIssaad2/index.html",
+    imageLink: "./Art/AyoubIssaad2/hoverTextAnimation.gif",
+    author: "AyoubIssaad",
+    githubLink: "https://github.com/AyoubIssaad"
+  },
+  {
+    artName: "Colorize",
+    pageLink: "./Art/JimBratsos/colorize.html",
+    imageLink: "./Art/JimBratsos/Colorize.gif",
+    author: "Jim Bratsos",
+    githubLink: "https://github.com/JimBratsos"
+  },
+  {
+    artName: "Hacktober Spooktacular",
+    pageLink: "Art/Elex/index.html",
+    imageLink: ["./Art/Elex/hhs.gif"],
+    author: "William Poisel (LordCobra)",
+    githubLink: "https://github.com/epoisel"
+  },
+  {
+    artName: "Circley",
+    pageLink: "./Art/Tranjenny/indexjenny.html",
+    imageLink: "./Art/Tranjenny/zerojenny.gif",
+    author: "Tranjenny",
+    githubLink: "https://github.com/Tranjenny"
+  },
+  {
+    artName: "My Vietnam",
+    pageLink: "./Art/nhbduy/index.html",
+    imageLink: "./Art/nhbduy/my-vietnam.gif",
+    author: "Hoang-Bao-Duy NGUYEN",
+    githubLink: "https://github.com/nhbduy"
+  },
+  {
+    artName: "Hactoberfest Bus",
+    pageLink: "./Art/shahpranaf/index.html",
+    imageLink: "./Art/shahpranaf/hacktoberfest_bus.gif",
+    author: "Pranav Shah",
+    githubLink: "https://github.com/shahpranaf"
+  },
+  {
+    artName: "Hacktoberfest",
+    pageLink: "./Art/robihid/index.html",
+    imageLink: "./Art/robihid/hacktoberfest.png",
+    author: "robihid",
+    githubLink: "https://github.com/robihid"
+  },
+  {
+    artName: "Hi there",
+    pageLink: "./Art/Aki/index.html",
+    imageLink: "./Art/Aki/giphy.gif",
+    author: "Aki",
+    githubLink: "https://github.com/akmalist"
+  },
+  {
+    artName: "Hacktoberfest 2019!",
+    pageLink: "./Art/RedSquirrrel/index.html",
+    imageLink: "./Art/RedSquirrrel/index.html/animation.PNG",
+    author: "RedSquirrrel",
+    githubLink: "https://github.com/RedSquirrrel"
+  },
+  {
+    artName: "Sliding text",
+    pageLink: "./Art/Flattopz/index.html",
+    imageLink: "./Art/Flattopz/SlidingText.gif",
+    author: "Flattopz",
+    githubLink: "https://github.com/hjpunzalan"
+  },
+  {
+    artName: "Rainbow Color Changer",
+    pageLink: "./Art/mmshr/index.html",
+    imageLink: "./Art/mmshr/rainbow.gif",
+    author: "mmosehauer",
+    githubLink: "https://github.com/mmosehauer"
+  },
+  {
+    artName: "World of Coding",
+    pageLink: "./Art/tom_kn/coding.html",
+    imageLink: "./Art/tom_kn/coding.gif",
+    author: "Tamas Knisz",
+    githubLink: "https://github.com/TamasKn"
+  },
+  {
+    artName: "Initial Bounce",
+    pageLink: "./Art/Juwana/initial.html",
+    imageLink: "./Art/Juwana/InitialBounce.gif",
+    author: "Juwana",
+    githubLink: "https://github.com/JZerman2018"
+  },
+  {
+    artName: "Atom",
+    pageLink: "./Art/Teva/index.html",
+    imageLink: "./Art/Teva/atom.gif",
+    author: "Teva",
+    githubLink: "https://github.com/TevaHenry"
+  },
+  {
+    artName: "Be Awesome",
+    pageLink: "./Art/TigerAsH/index.html",
+    imageLink: "./Art/TigerAsH/be-awesome.jpg",
+    author: "TigerAsH",
+    githubLink: "https://github.com/TigerAsH94"
+  },
+  {
+    artName: "Rainbow Colors",
+    pageLink: "./Art/Sanjeev/index.html",
+    imageLink: "./Art/Sanjeev/animation.gif",
+    author: "Sanjeev Panday",
+    githubLink: "https://github.com/Sanjeev-Panday"
+  },
+  {
+    artName: "ZtM",
+    pageLink: "./Art/thoyvo/index.html",
+    imageLink: "./Art/thoyvo/ztm.gif",
+    author: "Thoyvo",
+    githubLink: "https://github.com/thoyvo"
+  },
   {
     artName: "Fast Fishes",
     pageLink: "./Art/4ront/index.html",
     imageLink: "./Art/4ront/fishes.gif",
     author: "4rontender",
     githubLink: "https://github.com/RinatValiullov"
-
-	},
-	{
-		artName: "Calm Ubuntu",
-		pageLink: "./Art/schupat/index.html",
-		imageLink: "./Art/schupat/preview.gif",
-		author: "schupat",
-		githubLink: "https://github.com/schupat"
+  },
+  {
+    artName: "Calm Ubuntu",
+    pageLink: "./Art/schupat/index.html",
+    imageLink: "./Art/schupat/preview.gif",
+    author: "schupat",
+    githubLink: "https://github.com/schupat"
   },
   {
     artName: "Solar System",
@@ -549,31 +556,122 @@ let cards = [
   },
   {
     artName: "Boo",
-	  pageLink: "./Art/VerityB/index.html",
-	  imageLink: "./Art/VerityB/boo.gif",
-	  author: "VerityB",
-	  githubLink: "https://github.com/VerityB"
+    pageLink: "./Art/VerityB/index.html",
+    imageLink: "./Art/VerityB/boo.gif",
+    author: "VerityB",
+    githubLink: "https://github.com/VerityB"
+  },
+  {
+    artName: "Hacktoberfest Ghost",
+    pageLink: "./Art/cTahirih/index.html",
+    imageLink: "./Art/cTahirih/ghost.png",
+    author: "cTahirih",
+    githubLink: "https://github.com/cTahirih"
+  },
+  {
+    artName: "Clock",
+    pageLink: "./Art/Abdul/index.html",
+    imageLink: "./Art/Abdul/Clock.png",
+    author: "Abdul Rahman",
+    githubLink: "https://github.com/abdulrahman118"
+  },
+  {
+    artName: "Loading Cube",
+    pageLink: "./Art/andrearizzello/index.html",
+    imageLink: "./Art/andrearizzello/index.gif",
+    author: "Andrea Rizzello",
+    githubLink: "https://github.com/andrearizzello"
+  },
+  {
+    artName: "Wall Dropping Logo",
+    pageLink: "./Art/shivams136/index.html",
+    imageLink: "./Art/shivams136/walldrop.gif",
+    author: "Shivam Sharma",
+    githubLink: "https://github.com/ShivamS136"
+  },
+  {
+    artName: "Infinite Race",
+    pageLink: "./Art/levermanx/index.html",
+    imageLink: "./Art/levermanx/anim.gif",
+    author: "Levermanx",
+    githubLink: "https://github.com/levermanx"
+  },
+  {
+    artName: "Hover to Rotate Text",
+    pageLink: "./Art/faiz_hameed/index.html",
+    imageLink: "./Art/faiz_hameed/hackto.gif",
+    author: "Faiz Hameed",
+    githubLink: "https://github.com/faizhameed"
+  },
+  {
+    artName: "HalloHacktober Greeting!",
+    pageLink: "./Art/lusalga/index.html",
+    imageLink: "./Art/lusalga/lu.gif",
+    author: "Lucieni A. Saldanha",
+    githubLink: "https://github.com/lusalga/"
+  },
+  {
+		artName: "Time goes by",
+		pageLink: "./Art/WolfgangKreminger/index.html",
+		imageLink: "./Art/WolfgangKreminger/showcase.gif",
+		author: "Wolfgang Kreminger",
+		githubLink: "https://github.com/r4pt0s"
 	},
 	{
-		artName: "Hacktoberfest Ghost",
-		pageLink: "./Art/cTahirih/index.html",
-		imageLink: "./Art/cTahirih/ghost.png",
-		author: "cTahirih",
-		githubLink: "https://github.com/cTahirih"
+		artName: "Bouncing Text!",
+		pageLink: "./Art/AbdulsalamAbdulrahman/index.html",
+		imageLink: "./Art/AbdulsalamAbdulrahman/Bouncingtxt.gif",
+		author: "Abdulsalam Abdulrahman",
+		githubLink: "https://github.com/AbdulsalamAbdulrahman/"
+	},
+	{
+		artName: "Simple Phone Animation",
+		pageLink: "./Art/Lala/index.html",
+		imageLink: "./Art/Lala/phone.gif",
+		author: "Olamide Aboyeji",
+		githubLink: "https://github.com/aolamide"
+	},
+	{
+    artName: 'Synthwave Sunset',
+    pageLink: './Art/brunobolting/index.html',
+    imageLink: './Art/brunobolting/synthwave-sunset.gif',
+    author: 'Bruno Bolting',
+    githubLink: 'https://github.com/brunobolting/'
+	},
+	{
+    artName: 'Kawaii Penguin',
+    pageLink: './Art/Brienyll/index.html',
+    imageLink: './Art/Brienyll/kawaiiPenguin.gif',
+    author: 'Brienyll',
+    githubLink: 'https://github.com/brienyll/'
   },
   {
-    artName: 'Clock',
-    pageLink: './Art/Abdul/index.html',
-    imageLink: './Art/Abdul/Clock.png',
-    author: 'Abdul Rahman',
-    githubLink: 'https://github.com/abdulrahman118'
+    artName: "Happy Halloween",
+    pageLink: "./Art/MatthewS/index.html",
+    imageLink: "./Art/MatthewS/Spider.gif",
+    author: "MatthewS",
+    githubLink: "https://github.com/matthewstoddart/"
   },
   {
-    artName: 'Loading Cube',
-    pageLink: './Art/andrearizzello/index.html',
-    imageLink: './Art/andrearizzello/index.gif',
-    author: 'Andrea Rizzello',
-    githubLink: 'https://github.com/andrearizzello'
+    artName: "Fan Art",
+    pageLink: "./Art/m-perez33/index.html",
+    imageLink: "./Art/m-perez33/cylon.gif",
+    author: "Marcos Perez",
+    githubLink: "https://github.com/m-perez33/"
+  },
+  {
+    artName: "Animating Pot",
+    pageLink: "./Art/Somechandra/index.html",
+    imageLink: "./Art/Somechandra/pot.gif",
+    author: "Somechandra",
+    githubLink: "https://github.com/somechandra"
+  },
+  {
+    artName: "Circles Circling",
+    pageLink: "./Art/pikktorr/index.html",
+    imageLink: "./Art/pikktorr/circles.gif",
+    author: "pikktorr",
+    githubLink: "https://github.com/pikktorr"
   }
 ];
 
@@ -589,14 +687,14 @@ let contents = [];
 Shuffle(cards).forEach(c => {
   contents.push([
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 });
 

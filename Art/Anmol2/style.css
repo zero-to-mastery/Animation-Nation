@@ -1,0 +1,63 @@
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	background-color: #3C40C6;
+}
+
+.ripple {
+	width: 20px;
+	height: 20px;
+	background-color: #4BCFFA;
+	border-radius: 50%;
+	box-shadow: 
+		0 0 0 20px #4BCFFA,
+		0 0 0 40px #0ABDE3,
+		0 0 0 60px #3498DB,
+		0 0 0 80px #0A79DF,
+		0 0 0 100px #0ABDE3,
+		0 0 0 120px #3498DB,
+		0 0 0 140px #4834DF,
+		0 0 40px 150px #30336B;
+	animation: sunrise 2s infinite linear forwards, rays 2s 2s infinite linear;
+}
+
+@keyframes sunrise {
+	0% {
+		box-shadow: none;
+	}
+}
+
+@keyframes rays {
+	0% {
+		box-shadow: 
+			0 0 0 0px #4BCFFA,
+			0 0 0 20px #0ABDE3,
+			0 0 0 40px #3498DB,
+			0 0 0 60px #0A79DF,
+			0 0 0 80px #0ABDE3,
+			0 0 0 100px #3498DB,
+			0 0 0 120px #4834DF,
+			0 0 40px 140px #30336B;
+	}
+	100% {
+		box-shadow: 
+			0 0 0 20px #4BCFFA,
+			0 0 0 40px #0ABDE3,
+			0 0 0 60px #3498DB,
+			0 0 0 80px #0A79DF,
+			0 0 0 100px #0ABDE3,
+			0 0 0 120px #3498DB,
+			0 0 0 140px #4834DF,
+			0 0 40px 150px #30336B;
+	}
+}

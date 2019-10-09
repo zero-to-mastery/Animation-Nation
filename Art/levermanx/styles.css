@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+.wrapper {
+	width: 100%;
+	height: 775px;
+	background-color: red;
+	outline: 3px dotted grey;
+	outline-offset: -10px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.track {
+	width: 90%;
+	height: 150px;
+	background-color: blue;
+	margin: auto;
+	border: 1px solid grey;
+	border-radius: 5px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.racer {
+	border-radius: 50%;
+	width: 10%;
+	height: 10%;
+}
+
+.yellow {
+	background-color: yellow;
+	-webkit-animation: race 2s linear infinite;
+    -moz-animation: race 2s linear infinite;
+    -ms-animation: race 2s linear infinite;
+    -o-animation: race 2s linear infinite;
+    animation: race 2s linear infinite;
+}
+
+.purple {
+	background-color: purple;
+	-webkit-animation: race .5s linear infinite;
+    -moz-animation: race .5s linear infinite;
+    -ms-animation: race .5s linear infinite;
+    -o-animation: race .5s linear infinite;
+    animation: race .5s linear infinite;
+}
+
+.green {
+	background-color: green;
+   	-webkit-animation: race 0.75s linear infinite;
+    -moz-animation: race .75s linear infinite;
+    -ms-animation: race .75s linear infinite;
+    -o-animation: race .75s linear infinite;
+    animation: race .75s linear infinite;
+}
+
+.orange {
+	background-color: orange;
+   	-webkit-animation: race 1s linear infinite;
+    -moz-animation: race 1s linear infinite;
+    -ms-animation: race 1s linear infinite;
+    -o-animation: race 1s linear infinite;
+    animation: race 1s linear infinite;
+}
+
+.pink {
+	background-color: pink;
+   	-webkit-animation: race 3s linear infinite;
+    -moz-animation: race 3s linear infinite;
+    -ms-animation: race 3s linear infinite;
+    -o-animation: race 3s linear infinite;
+    animation: race 3s linear infinite;
+}
+
+@-webkit-keyframes race {
+  from {
+    -webkit-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(900%);
+    -o-transform: translateX(900%);
+    transform: translateX(900%);
+  }
+}
+
+@keyframes race {
+  from {
+    -ms-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -ms-transform: translateX(900%);
+    -moz-transform: translateX(900%);
+    -webkit-transform: translateX(900%);
+    -o-transform: translateX(900%);
+    transform: translateX(900%);
+  }
+}
+

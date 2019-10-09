@@ -1,0 +1,36 @@
+#text-container{
+    position: relative;
+    top: 75px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+#text-container .text-box{
+    position: absolute;
+    width:  300px;
+    top: 0;
+    left: 42%;
+    background-color: #4C3327;
+    height:300px;
+    
+    
+}
+#text-container h1{
+    animation: textRotate 1s linear infinite;
+    animation-play-state: paused; 
+    color:#F2EFE4;
+    line-height: 300px;
+    font-family: 'Bevan', cursive;
+     text-align: center;
+  
+   
+}
+#text-container h1:hover{
+    animation-play-state: running; 
+}
+
+@keyframes textRotate {
+    100% {transform: rotate(1turn);
+    }
+   
+  }
