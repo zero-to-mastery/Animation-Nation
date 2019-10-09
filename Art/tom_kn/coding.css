@@ -38,13 +38,13 @@ body {
 
 	85% {
 		/* Scrolling */
-		transform: scale(25) rotate(90deg) translate(-15%);
+		transform: scale(25) rotate(90deg) translate(-37%);
 	}
 
 	100% {
 		/* Travel into */
 		visibility: hidden;
-		transform: scale(500) rotate(90deg) translate(-15%);
+		transform: scale(800) rotate(90deg) translate(-37%);
 		
 	}
 }
@@ -63,15 +63,16 @@ body {
 }
 
 .text {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 50px;
 	margin: 100px 0 0 25%;
 	white-space: nowrap;
 	overflow: hidden;
 	width: 900px;
 	
-	animation: typing 5s steps(50, end), text-animations 6s 5s;
-	-webkit-animation: typing 5s steps(50, end), text-animations 6s 5s;
-	-moz-animation: typing 5s steps(50, end), text-animations 6s 5s;
+	animation: typing 5s steps(50, end), text-animations 7s 5.5s;
+	-webkit-animation: typing 5s steps(50, end), text-animations 7s 5.5s;
+	-moz-animation: typing 5s steps(50, end), text-animations 7s 5.5s;
 }
 
 .code-bg {
@@ -83,9 +84,9 @@ body {
 	width: 110vw;
 	height: 110vh;
 
-	animation: scene-change 0s 11s forwards;
-	-webkit-animation: scene-change 0s 11s forwards;
-	-moz-animation: scene-change 0s 11s forwards;
+	animation: scene-change 0s 12.5s forwards;
+	-webkit-animation: scene-change 0s 12.5s forwards;
+	-moz-animation: scene-change 0s 12.5s forwards;
 }
 
 .code-container {
@@ -128,31 +129,31 @@ body {
 
 .line-1 {
 	width: 400px;
-	animation: typing 4s 9s steps(50, end);
+	animation: typing 4s 10.5s steps(50, end);
 }
 .line-2 {
 	width: 500px;
-	animation: typing 8s 9s steps(100, end);
+	animation: typing 8s 10.5s steps(100, end);
 }
 .line-3 {
 	width: 800px;
-	animation: typing 12s 9s steps(100, end);
+	animation: typing 12s 10.5s steps(100, end);
 }
 .line-4 {
 	width: 1400px;
-	animation: typing 13s 9s steps(200, end);
+	animation: typing 13s 10.5s steps(200, end);
 }
 .line-5 {
 	width: 1600px;
-	animation: typing 15s 9s steps(200, end);
+	animation: typing 15s 10.5s steps(200, end);
 }
 .line-6 {
 	width: 1800px;
-	animation: typing 17s 9s steps(200, end);
+	animation: typing 17s 10.5s steps(200, end);
 }
 .line-7 {
 	width: 2600px;
-	animation: typing 19s 9s steps(70, end);
+	animation: typing 19s 10.5s steps(70, end);
 }
 
 
