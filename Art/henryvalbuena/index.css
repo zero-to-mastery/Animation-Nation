@@ -26,6 +26,18 @@ h1 sub {
     margin-left: 1em;
     line-height: 1em;
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    h1 { 
+        margin-left: -0.6em;
+        top: -30%;
+    }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px)  {
+    h1 { 
+        margin-left: -1em;
+        top: -30%;
+    }
+}
 @-webkit-keyframes title {
     0% { -webkit-transform: scale(0.1); opacity: 1; }
     50% { opacity: 1; }
