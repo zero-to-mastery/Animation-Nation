@@ -701,6 +701,13 @@ let cards = [
     author: "TrinhMinhHieu",
     githubLink: "https://github.com/trinhminhhieu"
   },
+  {
+    artName: "Spacecraft-landing",
+    pageLink: "./Art/DDuplinszki/index.html",
+    imageLink: "./Art/DDuplinszki/Spacecraft-landing.gif",
+    author: "DDuplinszki",
+    githubLink: "https://github.com/DDuplinszki"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
