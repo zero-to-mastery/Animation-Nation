@@ -693,7 +693,14 @@ let cards = [
     imageLink: "./Art/premdav/screenshot.png",
     author: "premdav",
     githubLink: "https://github.com/premdav"
-  }
+  },
+  {
+    artName: "ZeroToMastery",
+    pageLink: "./Art/Vzneers/index.html",
+    imageLink: "./Art/Vzneers/screenshot.png",
+    author: "TrinhMinhHieu",
+    githubLink: "https://github.com/trinhminhhieu"
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
