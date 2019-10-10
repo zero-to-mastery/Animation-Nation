@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: "Star Wars?",
+    pageLink: "./Art/henryvalbuena/index.html",
+    imageLink: "./Art/henryvalbuena/index.gif",
+    author: "Henry Valbuena",
+    githubLink: "https://github.com/henryvalbuena"
+  },
+  {
     artName: "The Ripple",
     pageLink: "./Art/Anmol2/index.html",
     imageLink: "./Art/Anmol2/ripple.png",
@@ -27,6 +34,13 @@ let cards = [
     imageLink: "./Art/Anmol/sun.png",
     author: "Anmol",
     githubLink: "https://github.com/Anmol270900"
+  },
+  {
+    artName: "Flashing Pumpkin",
+    pageLink: "./Art/KatrinaRose14/index.html",
+    imageLink: "./Art/KatrinaRose14/FlashingPumpkin.gif",
+    author: "Katrina Yates",
+    githubLink: "https://github.com/KatrinaRose14"
   },
   {
     artName: "Flipbox",
@@ -672,6 +686,27 @@ let cards = [
     imageLink: "./Art/pikktorr/circles.gif",
     author: "pikktorr",
     githubLink: "https://github.com/pikktorr"
+  },
+  {
+    artName: "Glitchy Szn",
+    pageLink: "./Art/premdav/index.html",
+    imageLink: "./Art/premdav/screenshot.png",
+    author: "premdav",
+    githubLink: "https://github.com/premdav"
+  },
+  {
+    artName: "ZeroToMastery",
+    pageLink: "./Art/Vzneers/index.html",
+    imageLink: "./Art/Vzneers/screenshot.png",
+    author: "TrinhMinhHieu",
+    githubLink: "https://github.com/trinhminhhieu"
+  },
+  {
+    artName: "Spacecraft-landing",
+    pageLink: "./Art/DDuplinszki/index.html",
+    imageLink: "./Art/DDuplinszki/Spacecraft-landing.gif",
+    author: "DDuplinszki",
+    githubLink: "https://github.com/DDuplinszki"
   }
 ];
 
