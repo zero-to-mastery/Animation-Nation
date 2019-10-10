@@ -686,6 +686,13 @@ let cards = [
     imageLink: "./Art/pikktorr/circles.gif",
     author: "pikktorr",
     githubLink: "https://github.com/pikktorr"
+  },
+  {
+    artName: "Glitchy Szn",
+    pageLink: "./Art/premdav/index.html",
+    imageLink: "./Art/premdav/glitch.gif",
+    author: "premdav",
+    githubLink: "https://github.com/premdav"
   }
 ];
 
