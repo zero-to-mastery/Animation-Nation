@@ -690,7 +690,7 @@ let cards = [
   {
     artName: "Glitchy Szn",
     pageLink: "./Art/premdav/index.html",
-    imageLink: "./Art/premdav/glitch.gif",
+    imageLink: "./Art/premdav/screenshot.png",
     author: "premdav",
     githubLink: "https://github.com/premdav"
   }
