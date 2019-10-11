@@ -427,6 +427,13 @@ let cards = [
 		author: "Flattopz",
 		githubLink: "https://github.com/hjpunzalan"
 	},
+	{
+		artName: "sun-to-moon",
+		pageLink: "./Art/haider/index.html",
+		imageLink: "./Art/haider/sun-moon.gif",
+		author: "Haider",
+		githubLink: "https://github.com/hyderumer"
+	},
   {
 	    artName: "World of Coding",
 	    pageLink: "./Art/tom_kn/coding.html",
