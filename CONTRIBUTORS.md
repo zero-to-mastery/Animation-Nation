@@ -7,7 +7,7 @@
 This is a list showing the GitHub usernames of all who have contributed to this open-source project! **Make sure to add yourself and submit a pull request if you've contributed.**
 
 - [@mehul1011](https://github.com/mehul1011)
-- [@RedSquirrrel](https://github.com/RedSquirrrel) 
+- [@RedSquirrrel](https://github.com/RedSquirrrel)
 - [@ps011](https://github.com/ps011)
 - [@abdulrahman118](https://github.com/abdulrahman118)
 - [@Lucas-FilipeSS](https://github.com/Lucas-FilipeSS)
@@ -15,3 +15,4 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@ShivamS136](https://github.com/ShivamS136)
 - [@AbdulsalamAbdulrahman](https://github.com/AbdulsalamAbdulrahman)
 - [@henryvalbuena](https://github.com/henryvalbuena)
+- [@courtneypure](https://github.com/courtneypure)
