@@ -707,6 +707,13 @@ let cards = [
     imageLink: "./Art/DDuplinszki/Spacecraft-landing.gif",
     author: "DDuplinszki",
     githubLink: "https://github.com/DDuplinszki"
+  },
+  {
+    artName: "mars",
+    pageLink: "/Art/Courtney_Pure/index.html",
+    imageLink: "./Art/Courtney_Pure/mars_screenshot.png",
+    author: "Courtney Pure",
+    githubLink: "https://github.com/courtneypure"
   }
 ];
 
