@@ -728,6 +728,13 @@ let cards = [
     imageLink: "./Art/Courtney_Pure/mars_screenshot.png",
     author: "Courtney Pure",
     githubLink: "https://github.com/courtneypure"
+  },
+  {
+    artName: "Welcome HactoberFest",
+    pageLink: "/Art/Dhaval/index.html",
+    imageLink: "",
+    author: "Dhaval Mehta",
+    githubLink: "https://github.com/Dhaval1403"
   }
 ];
 
