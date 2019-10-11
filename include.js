@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: "ZTM Animation",
+    pageLink: "./Art/EricPuskas/index.html",
+    imageLink: "./Art/EricPuskas/index.gif",
+    author: "Eric Puskas",
+    githubLink: "https://github.com/EricPuskas"
+  },
+  {
     artName: "Star Wars?",
     pageLink: "./Art/henryvalbuena/index.html",
     imageLink: "./Art/henryvalbuena/index.gif",
@@ -625,39 +632,39 @@ let cards = [
     githubLink: "https://github.com/lusalga/"
   },
   {
-		artName: "Time goes by",
-		pageLink: "./Art/WolfgangKreminger/index.html",
-		imageLink: "./Art/WolfgangKreminger/showcase.gif",
-		author: "Wolfgang Kreminger",
-		githubLink: "https://github.com/r4pt0s"
-	},
-	{
-		artName: "Bouncing Text!",
-		pageLink: "./Art/AbdulsalamAbdulrahman/index.html",
-		imageLink: "./Art/AbdulsalamAbdulrahman/Bouncingtxt.gif",
-		author: "Abdulsalam Abdulrahman",
-		githubLink: "https://github.com/AbdulsalamAbdulrahman/"
-	},
-	{
-		artName: "Simple Phone Animation",
-		pageLink: "./Art/Lala/index.html",
-		imageLink: "./Art/Lala/phone.gif",
-		author: "Olamide Aboyeji",
-		githubLink: "https://github.com/aolamide"
-	},
-	{
-    artName: 'Synthwave Sunset',
-    pageLink: './Art/brunobolting/index.html',
-    imageLink: './Art/brunobolting/synthwave-sunset.gif',
-    author: 'Bruno Bolting',
-    githubLink: 'https://github.com/brunobolting/'
-	},
-	{
-    artName: 'Kawaii Penguin',
-    pageLink: './Art/Brienyll/index.html',
-    imageLink: './Art/Brienyll/kawaiiPenguin.gif',
-    author: 'Brienyll',
-    githubLink: 'https://github.com/brienyll/'
+    artName: "Time goes by",
+    pageLink: "./Art/WolfgangKreminger/index.html",
+    imageLink: "./Art/WolfgangKreminger/showcase.gif",
+    author: "Wolfgang Kreminger",
+    githubLink: "https://github.com/r4pt0s"
+  },
+  {
+    artName: "Bouncing Text!",
+    pageLink: "./Art/AbdulsalamAbdulrahman/index.html",
+    imageLink: "./Art/AbdulsalamAbdulrahman/Bouncingtxt.gif",
+    author: "Abdulsalam Abdulrahman",
+    githubLink: "https://github.com/AbdulsalamAbdulrahman/"
+  },
+  {
+    artName: "Simple Phone Animation",
+    pageLink: "./Art/Lala/index.html",
+    imageLink: "./Art/Lala/phone.gif",
+    author: "Olamide Aboyeji",
+    githubLink: "https://github.com/aolamide"
+  },
+  {
+    artName: "Synthwave Sunset",
+    pageLink: "./Art/brunobolting/index.html",
+    imageLink: "./Art/brunobolting/synthwave-sunset.gif",
+    author: "Bruno Bolting",
+    githubLink: "https://github.com/brunobolting/"
+  },
+  {
+    artName: "Kawaii Penguin",
+    pageLink: "./Art/Brienyll/index.html",
+    imageLink: "./Art/Brienyll/kawaiiPenguin.gif",
+    author: "Brienyll",
+    githubLink: "https://github.com/brienyll/"
   },
   {
     artName: "Happy Halloween",
