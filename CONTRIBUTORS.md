@@ -14,5 +14,7 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@lupuselit](https://github.com/lupuselit)
 - [@ShivamS136](https://github.com/ShivamS136)
 - [@AbdulsalamAbdulrahman](https://github.com/AbdulsalamAbdulrahman)
+- [@WayneMacMavis](https://github.com/WayneMacMavis)
+- [@henryvalbuena](https://github.com/henryvalbuena)
 - [@henryvalbuena](https://github.com/henryvalbuena)
 - [@courtneypure](https://github.com/courtneypure)
