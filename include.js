@@ -724,14 +724,14 @@ let cards = [
   },
   {
     artName: "mars",
-    pageLink: "/Art/Courtney_Pure/index.html",
+    pageLink: "./Art/Courtney_Pure/index.html",
     imageLink: "./Art/Courtney_Pure/mars_screenshot.png",
     author: "Courtney Pure",
     githubLink: "https://github.com/courtneypure"
   },
   {
     artName: "Welcome HactoberFest",
-    pageLink: "/Art/Dhaval/index.html",
+    pageLink: "./Art/Dhaval/index.html",
     imageLink: "",
     author: "Dhaval Mehta",
     githubLink: "https://github.com/Dhaval1403"
