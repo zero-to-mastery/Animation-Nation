@@ -127,6 +127,13 @@ let cards = [
     githubLink: "https://github.com/samirjouni"
   },
   {
+    artName: "Tribute To COD4MW",
+    pageLink: "./Art/samirjouni2/index.html",
+    imageLink: "./Art/samirjouni2/sample.gif",
+    author: "Samir Jouni",
+    githubLink: "https://github.com/samirjouni"
+  },
+  {
     artName: "Planet",
     pageLink: "./Art/ArthurDoom/planet.html",
     imageLink: "./Art/ArthurDoom/planet.gif",
