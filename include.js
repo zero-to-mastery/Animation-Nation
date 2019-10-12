@@ -770,6 +770,13 @@ let cards = [
     imageLink: "./Art/beaps/loader-circle.gif",
     author: "beaps",
     githubLink: "https://github.com/beaps"
+  },
+  {
+    artName: "Doors",
+    pageLink: "./Art/pauliax/index.html",
+    imageLink: "./Art/pauliax/doors.gif",
+    author: "pauliax",
+    githubLink: "https://github.com/pauliax"
   }
 ];
 
