@@ -739,7 +739,7 @@ let cards = [
   {
     artName: "Welcome HactoberFest",
     pageLink: "./Art/Dhaval/index.html",
-    imageLink: "",
+    imageLink: "./Art/Dhaval/Welcome-HacktoberFest.gif",
     author: "Dhaval Mehta",
     githubLink: "https://github.com/Dhaval1403"
   }
