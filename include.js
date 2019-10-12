@@ -127,6 +127,13 @@ let cards = [
     githubLink: "https://github.com/samirjouni"
   },
   {
+    artName: "Tribute To COD4MW",
+    pageLink: "./Art/samirjouni2/index.html",
+    imageLink: "./Art/samirjouni2/sample.gif",
+    author: "Samir Jouni",
+    githubLink: "https://github.com/samirjouni"
+  },
+  {
     artName: "Planet",
     pageLink: "./Art/ArthurDoom/planet.html",
     imageLink: "./Art/ArthurDoom/planet.gif",
@@ -704,7 +711,7 @@ let cards = [
   {
     artName: "ZeroToMastery",
     pageLink: "./Art/Vzneers/index.html",
-    imageLink: "./Art/Vzneers/screenshot.png",
+    imageLink: "./Art/Vzneers/gifzeroloading.png",
     author: "TrinhMinhHieu",
     githubLink: "https://github.com/trinhminhhieu"
   },
@@ -732,7 +739,7 @@ let cards = [
   {
     artName: "Welcome HactoberFest",
     pageLink: "./Art/Dhaval/index.html",
-    imageLink: "",
+    imageLink: "./Art/Dhaval/Welcome-HacktoberFest.gif",
     author: "Dhaval Mehta",
     githubLink: "https://github.com/Dhaval1403"
   },
@@ -742,6 +749,27 @@ let cards = [
     imageLink: "./Aynorica/Aynonimation.png",
     author: "aynorica",
     githubLink: "https://github.com/aynorica"
+  },
+  {
+		artName: "sun-to-moon",
+		pageLink: "./Art/haider/index.html",
+		imageLink: "./Art/haider/sun-moon.gif",
+		author: "Haider",
+		githubLink: "https://github.com/hyderumer"
+  },
+  {
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+    author: "Andrei",
+    githubLink: "https://github.com/aneagoie"
+  },
+  {
+    artName: "Loader Circle",
+    pageLink: "./Art/beaps/index.html",
+    imageLink: "./Art/beaps/loader-circle.gif",
+    author: "beaps",
+    githubLink: "https://github.com/beaps"
   }
 ];
 

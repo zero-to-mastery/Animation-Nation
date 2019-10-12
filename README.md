@@ -21,7 +21,7 @@ The rules are simple. You have to:
 
 If you've never forked a repository or made a pull request before, we recommend making your first one over at [https://github.com/zero-to-mastery/start-here-guidelines](https://github.com/zero-to-mastery/start-here-guidelines). That will count towards your total, and then you'll be ready to take on this challenge with your new GitHub skills!
 
-A cool resource to learn fork workflow [https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
+A cool resource to learn about the fork workflow can also be found here - [https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
 
 Now, once you've forked this repo and got a local version up on your computer, follow these steps:
 
@@ -49,8 +49,3 @@ let cards = [
 8. Make a pull request!
 
 And congratulations! You're all done. Have fun!
-
-# Note
-
-If you have never forked an existing repository then the below article will help you understand the forking workflow. Hope that helps :)
-https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
