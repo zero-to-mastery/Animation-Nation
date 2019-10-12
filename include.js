@@ -735,8 +735,16 @@ let cards = [
     imageLink: "",
     author: "Dhaval Mehta",
     githubLink: "https://github.com/Dhaval1403"
+  },
+  {
+    artName: "Aynonimation",
+    pageLink: "./Art/Aynorica/aynorica.html",
+    imageLink: "./Aynorica/Aynonimation.png",
+    author: "aynorica",
+    githubLink: "https://github.com/aynorica"
   }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
