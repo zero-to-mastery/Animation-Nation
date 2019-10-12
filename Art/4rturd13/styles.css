@@ -1,0 +1,56 @@
+body {
+  overflow: hidden;
+  background: #000;
+  color: #FFF;
+}
+
+.illustrations {
+  background-image: -webkit-linear-gradient(rgb(39, 174, 198) 50%, white 50%);
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: 50% 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation: stripes 2s linear infinite;
+  animation: stripes 2s linear infinite;
+}
+
+@-webkit-keyframes stripes {
+  50% {
+    background-position: 0 -50px;
+  }
+}
+
+@keyframes stripes {
+  50% {
+    background-position: 0 -50px;
+  }
+}
+.img1 {
+  height: 200px;
+  position: absolute;
+  margin: 200px 250px;
+}
+.img2 {
+  height: 200px;
+  position: absolute;
+  margin: 200px 550px;
+}
+.img3 {
+  height: 200px;
+  position: absolute;
+  margin: 200px 850px;
+}
+
+.illustrations {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  font: bold 10vmax/.8 Open Sans, Impact;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
