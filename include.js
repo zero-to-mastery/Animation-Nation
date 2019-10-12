@@ -756,6 +756,13 @@ let cards = [
     imageLink: "./Art/animatron/trance.gif",
     author: "Andrei",
     githubLink: "https://github.com/aneagoie"
+  },
+  {
+    artName: "Loader Circle",
+    pageLink: "./Art/beaps/index.html",
+    imageLink: "./Art/beaps/loader-circle.gif",
+    author: "beaps",
+    githubLink: "https://github.com/beaps"
   }
 ];
 
