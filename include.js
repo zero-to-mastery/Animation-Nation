@@ -742,7 +742,14 @@ let cards = [
     imageLink: "./Art/Dhaval/Welcome-HacktoberFest.gif",
     author: "Dhaval Mehta",
     githubLink: "https://github.com/Dhaval1403"
-  }
+  },
+	{
+		artName: "sun-to-moon",
+		pageLink: "./Art/haider/index.html",
+		imageLink: "./Art/haider/sun-moon.gif",
+		author: "Haider",
+		githubLink: "https://github.com/hyderumer"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
