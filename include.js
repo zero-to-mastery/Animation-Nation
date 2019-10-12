@@ -744,6 +744,13 @@ let cards = [
     githubLink: "https://github.com/Dhaval1403"
   },
   {
+    artName: "Aynonimation",
+    pageLink: "./Art/Aynorica/aynorica.html",
+    imageLink: "./Aynorica/Aynonimation.png",
+    author: "aynorica",
+    githubLink: "https://github.com/aynorica"
+  },
+  {
 		artName: "sun-to-moon",
 		pageLink: "./Art/haider/index.html",
 		imageLink: "./Art/haider/sun-moon.gif",
@@ -765,6 +772,7 @@ let cards = [
     githubLink: "https://github.com/beaps"
   }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
