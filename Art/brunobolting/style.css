@@ -1,0 +1,255 @@
+/* by https://github.com/brunobolting */
+
+:root {
+  --sun-color: #e6dc43;
+  --sun-glow: #ad0096;
+  --cloud-color: #faf8d9;
+  --cloud-glow: #c4ffff;
+  --ground-color: #1a0021;
+  --line-color: #ed00b9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #110d12;
+  position: relative;
+  height: 1vh;
+}
+
+.group-art {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.sky {
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  background-image: linear-gradient(to bottom, #74064c, #640050, #510053, #380057, #100159);
+}
+
+.sun {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: var(--sun-color);
+  align-items: center;
+  background-image: linear-gradient(to top, #c62a96, #ff3d76, #ff754d, #ffb61a, #fff510);
+  box-shadow: 0 0 1em var(--sun-glow);
+}
+
+.cloud {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  animation: cloud-move 10s linear infinite;
+  background-color: var(--cloud-color);
+  background-image: linear-gradient(to right top, #faf8d9, #e9f6df, #def3e5, #d9eee9, #dae8e9);
+  opacity: 0.2;
+  box-shadow: 0 0 1.5px var(--cloud-glow);
+}
+
+.ground {
+  width: 600px;
+  height: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+  background-color: var(--ground-color);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.line {
+  height: 105%;
+  width: 3px;
+  grid-row-start: 1;
+  grid-row-end: span 5;
+  background-image: linear-gradient(
+    to bottom,
+    #ed00b9,
+    #db00c0,
+    #c700c8,
+    #af00d0,
+    #9200d7,
+    #7e0ad7,
+    #6812d7,
+    #4c18d6,
+    #3f18cf,
+    #3119c8,
+    #1f18c0,
+    #0018b9
+  );
+  box-shadow: 0 0 1.5px rgba(255, 255, 255, 0.3);
+}
+
+.hline {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 3px;
+  animation: hline-move 2s linear infinite;
+  background-color: var(--line-color);
+  box-shadow: 0 0 1.5px rgba(255, 255, 255, 0.1);
+}
+
+.top-hline {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 3px;
+  background-color: var(--line-color);
+  box-shadow: 0 1.5px 3px rgba(255, 0, 200, 0.6);
+}
+
+.hline.h01 {
+  animation-delay: 0s;
+}
+
+.hline.h02 {
+  animation-delay: 0.5s;
+}
+
+.hline.h03 {
+  animation-delay: 1s;
+}
+
+.hline.h04 {
+  animation-delay: 1.5s;
+}
+
+.line.l01 {
+  width: 0px;
+}
+
+.line.l02 {
+  transform: rotate(10deg);
+}
+
+.line.l03 {
+  transform: rotate(10deg);
+}
+
+.line.l04 {
+  transform: rotate(10deg);
+}
+
+.line.l05 {
+  transform: rotate(10deg);
+}
+
+.line.l07 {
+  transform: rotate(-10deg);
+}
+
+.line.l08 {
+  transform: rotate(-10deg);
+}
+
+.line.l09 {
+  transform: rotate(-10deg);
+}
+
+.line.l10 {
+  transform: rotate(-10deg);
+}
+
+.cloud.c01 {
+  animation-delay: 0s;
+  width: 55px;
+  height: 20px;
+}
+
+.cloud.c02 {
+  animation-delay: 1.2s;
+  top: 30px;
+  width: 30px;
+  height: 10px;
+}
+
+.cloud.c03 {
+  animation-delay: 3s;
+  width: 35px;
+  height: 15px;
+}
+
+.cloud.c04 {
+  animation-delay: 7s;
+  top: 75px;
+  width: 35px;
+  height: 15px;
+}
+
+.cloud.c05 {
+  animation-delay: 6s;
+  top: 45px;
+  width: 45px;
+  height: 20px;
+}
+
+@keyframes hline-move {
+  0% {
+    top: 0px;
+    background-color: #ed00b9;
+  }
+
+  25% {
+    top: 36.75px;
+    background-color: #c700c8;
+  }
+
+  50% {
+    top: 73.5px;
+    background-color: #7e0ad7;
+  }
+
+  75% {
+    top: 110.25px;
+    background-color: #3119c8;
+  }
+
+  100% {
+    top: 147px;
+    background-color: #0018b9;
+  }
+}
+
+@keyframes cloud-move {
+  0% {
+    left: 200px;
+  }
+
+  30% {
+    left: 250px;
+  }
+
+  40% {
+    left: 270px;
+  }
+
+  60% {
+    left: 290px;
+  }
+
+  70% {
+    left: 310px;
+  }
+
+  100% {
+    left: 360px;
+  }
+}

@@ -1,0 +1,92 @@
+#wrapper{
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.circle{
+    position: absolute;
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 150px;  
+    animation-name: rainbow1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both;
+    animation-direction: alternate;
+    transform: rotate(25deg);
+    
+}
+.circle2{
+    position: absolute;
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 150px;  
+    animation-name: rainbow2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both;
+    animation-direction: alternate;
+    transform: rotate(40deg);
+}
+.circle3{
+    position: absolute;
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 150px;  
+    animation-name: rainbow3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both;
+    animation-direction: alternate;
+    transform: rotate(60deg);
+}
+.circle4{
+    position: absolute;
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 150px;  
+    animation-name: rainbow4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both;
+    animation-direction: alternate;
+    transform:rotate(80deg);
+}
+@keyframes rainbow1{
+    0%{background-color: red;top:100px;left:100px;}
+    25% {background-color:orange;border-radius: 10%;transform: rotate(45deg)}
+    50% {background-color:yellow;border-radius: 10%; transform: rotate(90deg)}
+    75% {background-color: green;border-radius: 10%;transform: rotate(180deg)}
+    100% {background-color: blue;border-radius: 0%;top:100px;left:100px; rotate(270deg)}
+}
+@keyframes rainbow2{
+    0%{background-color: indigo;top:100px;left:100px;transform: rotate(45deg)}
+    25% {background-color:violet;border-radius: 10%;transform: rotate(90deg)}
+    50% {background-color:red;border-radius: 10%; transform: rotate(180deg)}
+    75% {background-color: orange;border-radius: 10%;transform: rotate(270deg)}
+    100% {background-color: yellow;border-radius: 0%;top:100px;left:100px; rotate(360deg)}
+}
+@keyframes rainbow3{
+    0%{background-color: green;top:100px;left:100px;}
+    25% {background-color:blue;border-radius: 10%;transform: rotate(180deg)}
+    50% {background-color:indigo;border-radius: 10%; transform: rotate(-180deg)}
+    75% {background-color: violet;border-radius: 10%;transform: rotate(180deg)}
+    100% {background-color: red;border-radius: 0%;top:100px;left:100px; rotate(-180deg)}
+}
+@keyframes rainbow4{
+    0%{background-color: orange;top:100px;left:100px;}
+    25% {background-color:yellow;border-radius: 10%;transform: rotate(-180deg)}
+    50% {background-color:green;border-radius: 10%; transform: rotate(180deg)}
+    75% {background-color: blue;border-radius: 10%;transform: rotate(180deg)}
+    100% {background-color: violet;border-radius: 0%;top:100px;left:100px; rotate(-180deg)}
+}
