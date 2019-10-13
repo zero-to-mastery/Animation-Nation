@@ -8,6 +8,13 @@ let cards = [
     githubLink: "https://github.com/EricPuskas"
   },
   {
+    artName: "Spooktober Hacktoberfest",
+    pageLink: "./Art/FredAmartey/index.html",
+    imageLink: "./Art/FredAmartey/thumbnaill.gif",
+    author: "Fred Amartey",
+    githubLink: "https://github.com/FredAmartey"
+  },
+  {
     artName: "Star Wars?",
     pageLink: "./Art/henryvalbuena/index.html",
     imageLink: "./Art/henryvalbuena/index.gif",
