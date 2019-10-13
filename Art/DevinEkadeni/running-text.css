@@ -1,0 +1,30 @@
+body {
+  background-color: azure;
+}
+
+.slidingText {
+  text-align: center;
+  margin-top: 100px;
+}
+h2 {
+  animation: ease-in-out infinite slideLeft 4s;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: midnightblue;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%) skewX(-60deg);
+    letter-spacing: 40px;
+  }
+}
+
+@keyframes skew {
+  0% {
+  }
+}
