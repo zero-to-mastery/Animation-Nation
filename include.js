@@ -793,6 +793,13 @@ let cards = [
     githubLink: "https://github.com/pauliax"
   },
   {
+    artName: "Loader Square",
+    pageLink: "./Art/beaps2/square-loader.html",
+    imageLink: "./Art/beaps2/square-loader.gif",
+    author: "beaps",
+    githubLink: "https://github.com/beaps"
+  },
+  {
     artName: "Running Text",
     pageLink: "./Art/DevinEkadeni/running-text.html",
     imageLink: "./Art/DevinEkadeni/running-text.gif",
