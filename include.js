@@ -1,6 +1,20 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: "ZTM Animation",
+    pageLink: "./Art/EricPuskas/index.html",
+    imageLink: "./Art/EricPuskas/index.gif",
+    author: "Eric Puskas",
+    githubLink: "https://github.com/EricPuskas"
+  },
+  {
+    artName: "Spooktober Hacktoberfest",
+    pageLink: "./Art/FredAmartey/index.html",
+    imageLink: "./Art/FredAmartey/thumbnaill.gif",
+    author: "Fred Amartey",
+    githubLink: "https://github.com/FredAmartey"
+  },
+  {
     artName: "Star Wars?",
     pageLink: "./Art/henryvalbuena/index.html",
     imageLink: "./Art/henryvalbuena/index.gif",
@@ -116,6 +130,13 @@ let cards = [
     artName: "wake up, neo...",
     pageLink: "./Art/samirjouni/TributeToTheMatrix.html",
     imageLink: "./Art/samirjouni/sample.gif",
+    author: "Samir Jouni",
+    githubLink: "https://github.com/samirjouni"
+  },
+  {
+    artName: "Tribute To COD4MW",
+    pageLink: "./Art/samirjouni2/index.html",
+    imageLink: "./Art/samirjouni2/sample.gif",
     author: "Samir Jouni",
     githubLink: "https://github.com/samirjouni"
   },
@@ -625,39 +646,39 @@ let cards = [
     githubLink: "https://github.com/lusalga/"
   },
   {
-		artName: "Time goes by",
-		pageLink: "./Art/WolfgangKreminger/index.html",
-		imageLink: "./Art/WolfgangKreminger/showcase.gif",
-		author: "Wolfgang Kreminger",
-		githubLink: "https://github.com/r4pt0s"
-	},
-	{
-		artName: "Bouncing Text!",
-		pageLink: "./Art/AbdulsalamAbdulrahman/index.html",
-		imageLink: "./Art/AbdulsalamAbdulrahman/Bouncingtxt.gif",
-		author: "Abdulsalam Abdulrahman",
-		githubLink: "https://github.com/AbdulsalamAbdulrahman/"
-	},
-	{
-		artName: "Simple Phone Animation",
-		pageLink: "./Art/Lala/index.html",
-		imageLink: "./Art/Lala/phone.gif",
-		author: "Olamide Aboyeji",
-		githubLink: "https://github.com/aolamide"
-	},
-	{
-    artName: 'Synthwave Sunset',
-    pageLink: './Art/brunobolting/index.html',
-    imageLink: './Art/brunobolting/synthwave-sunset.gif',
-    author: 'Bruno Bolting',
-    githubLink: 'https://github.com/brunobolting/'
-	},
-	{
-    artName: 'Kawaii Penguin',
-    pageLink: './Art/Brienyll/index.html',
-    imageLink: './Art/Brienyll/kawaiiPenguin.gif',
-    author: 'Brienyll',
-    githubLink: 'https://github.com/brienyll/'
+    artName: "Time goes by",
+    pageLink: "./Art/WolfgangKreminger/index.html",
+    imageLink: "./Art/WolfgangKreminger/showcase.gif",
+    author: "Wolfgang Kreminger",
+    githubLink: "https://github.com/r4pt0s"
+  },
+  {
+    artName: "Bouncing Text!",
+    pageLink: "./Art/AbdulsalamAbdulrahman/index.html",
+    imageLink: "./Art/AbdulsalamAbdulrahman/Bouncingtxt.gif",
+    author: "Abdulsalam Abdulrahman",
+    githubLink: "https://github.com/AbdulsalamAbdulrahman/"
+  },
+  {
+    artName: "Simple Phone Animation",
+    pageLink: "./Art/Lala/index.html",
+    imageLink: "./Art/Lala/phone.gif",
+    author: "Olamide Aboyeji",
+    githubLink: "https://github.com/aolamide"
+  },
+  {
+    artName: "Synthwave Sunset",
+    pageLink: "./Art/brunobolting/index.html",
+    imageLink: "./Art/brunobolting/synthwave-sunset.gif",
+    author: "Bruno Bolting",
+    githubLink: "https://github.com/brunobolting/"
+  },
+  {
+    artName: "Kawaii Penguin",
+    pageLink: "./Art/Brienyll/index.html",
+    imageLink: "./Art/Brienyll/kawaiiPenguin.gif",
+    author: "Brienyll",
+    githubLink: "https://github.com/brienyll/"
   },
   {
     artName: "Happy Halloween",
@@ -697,7 +718,7 @@ let cards = [
   {
     artName: "ZeroToMastery",
     pageLink: "./Art/Vzneers/index.html",
-    imageLink: "./Art/Vzneers/screenshot.png",
+    imageLink: "./Art/Vzneers/gifzeroloading.png",
     author: "TrinhMinhHieu",
     githubLink: "https://github.com/trinhminhhieu"
   },
@@ -714,8 +735,100 @@ let cards = [
     imageLink: "./Art/Tia/paw-prints.gif",
     author: "Tia Esguerra",
     githubLink: "https://github.com/msksfo"
+  },
+  {
+    artName: "Hover-Scale",
+    pageLink: "./Art/echowebid/index.html",
+    imageLink: "./Art/echowebid/hover.gif",
+    author: "echowebid",
+    githubLink: "https://github.com/echowebid"
+  },
+  {
+    artName: "mars",
+    pageLink: "./Art/Courtney_Pure/index.html",
+    imageLink: "./Art/Courtney_Pure/mars_screenshot.png",
+    author: "Courtney Pure",
+    githubLink: "https://github.com/courtneypure"
+  },
+  {
+    artName: "Welcome HactoberFest",
+    pageLink: "./Art/Dhaval/index.html",
+    imageLink: "./Art/Dhaval/Welcome-HacktoberFest.gif",
+    author: "Dhaval Mehta",
+    githubLink: "https://github.com/Dhaval1403"
+  },
+  {
+    artName: "Aynonimation",
+    pageLink: "./Art/Aynorica/aynorica.html",
+    imageLink: "./Aynorica/Aynonimation.png",
+    author: "aynorica",
+    githubLink: "https://github.com/aynorica"
+  },
+  {
+    artName: "sun-to-moon",
+    pageLink: "./Art/haider/index.html",
+    imageLink: "./Art/haider/sun-moon.gif",
+    author: "Haider",
+    githubLink: "https://github.com/hyderumer"
+  },
+  {
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+    author: "Andrei",
+    githubLink: "https://github.com/aneagoie"
+  },
+  {
+    artName: "Loader Circle",
+    pageLink: "./Art/beaps/index.html",
+    imageLink: "./Art/beaps/loader-circle.gif",
+    author: "beaps",
+    githubLink: "https://github.com/beaps"
+  },
+  {
+    artName: "Open Sourcerer",
+    pageLink: "./Art/4rturd13/index.html",
+    imageLink: "./Art/4rturd13/openSourcerer.gif",
+    author: "4rturd13",
+    githubLink: "https://github.com/4rturd13"
+  },
+  {
+    artName: "Doors",
+    pageLink: "./Art/pauliax/index.html",
+    imageLink: "./Art/pauliax/doors.gif",
+    author: "pauliax",
+    githubLink: "https://github.com/pauliax"
+  },
+  {
+    artName: "Loader Square",
+    pageLink: "./Art/beaps2/square-loader.html",
+    imageLink: "./Art/beaps2/square-loader.gif",
+    author: "beaps",
+    githubLink: "https://github.com/beaps"
+  },
+  {
+    artName: "Running Text",
+    pageLink: "./Art/DevinEkadeni/running-text.html",
+    imageLink: "./Art/DevinEkadeni/running-text.gif",
+    author: "Devin Ekadeni",
+    githubLink: "https://github.com/devinekadeni"
+  },
+  {
+    artName: "Mystical-Hacktoberfest",
+    pageLink: "./Art/Wayne/index.html",
+    imageLink: "./Art/Wayne/hacktoberfest.png",
+    author: "Wayne Mac Mavis",
+    githubLink: "https://github.com/WayneMacMavis"
+  },
+  {
+    artName: "ZTM Logo Animation",
+    pageLink: "./Art/bk987/index.html",
+    imageLink: "./Art/bk987/preview.gif",
+    author: "Bilal Khalid",
+    githubLink: "https://github.com/bk987"
   }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -729,14 +842,14 @@ let contents = [];
 Shuffle(cards).forEach(c => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
