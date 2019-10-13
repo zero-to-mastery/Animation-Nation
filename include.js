@@ -793,6 +793,13 @@ let cards = [
     githubLink: "https://github.com/pauliax"
   },
   {
+    artName: "Mystical-Hacktoberfest",
+    pageLink: "./Art/Wayne/index.html",
+    imageLink: "./Art/Wayne/hacktoberfest.png",
+    author: "Wayne Mac Mavis",
+    githubLink: "https://github.com/WayneMacMavis"
+  },
+  {
     artName: "ZTM Logo Animation",
     pageLink: "./Art/bk987/index.html",
     imageLink: "./Art/bk987/preview.gif",
