@@ -777,6 +777,13 @@ let cards = [
     imageLink: "./Art/pauliax/doors.gif",
     author: "pauliax",
     githubLink: "https://github.com/pauliax"
+  },
+  {
+    artName: "Mystical-Hacktoberfest",
+    pageLink: "./Art/Wayne/index.html",
+    imageLink: "./Art/Wayne/hacktoberfest.png",
+    author: "Wayne Mac Mavis",
+    githubLink: "https://github.com/WayneMacMavis"
   }
 ];
 
