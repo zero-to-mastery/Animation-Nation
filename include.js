@@ -816,7 +816,7 @@ let cards = [
   {
     artName: "Mystical-Hacktoberfest",
     pageLink: "./Art/Wayne/index.html",
-    imageLink: "./Art/Wayne/hacktoberfest.png",
+    imageLink: "./Art/Wayne/hacktoberfest - Google Chrome 09 Oct 2019 21_12_32.png",
     author: "Wayne Mac Mavis",
     githubLink: "https://github.com/WayneMacMavis"
   },
