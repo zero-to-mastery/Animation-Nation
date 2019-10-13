@@ -819,7 +819,13 @@ let cards = [
     imageLink: "./Art/bk987/preview.gif",
     author: "Bilal Khalid",
     githubLink: "https://github.com/bk987"
-  }
+  },{
+    artName: "Pong",
+    pageLink: "./Art/Carls13/index.html",
+    imageLink: "./Art/Carls13/pong.jpg",
+    author: "Carlos Hernandez",
+    githubLink: "https://github.com/Carls13"
+  },
 ];
 
 
