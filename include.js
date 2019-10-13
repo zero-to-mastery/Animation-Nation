@@ -730,6 +730,13 @@ let cards = [
     githubLink: "https://github.com/DDuplinszki"
   },
   {
+    artName: "Paw Prints",
+    pageLink: "./Art/Tia/index.html",
+    imageLink: "./Art/Tia/paw-prints.gif",
+    author: "Tia Esguerra",
+    githubLink: "https://github.com/msksfo"
+  },
+  {
     artName: "Hover-Scale",
     pageLink: "./Art/echowebid/index.html",
     imageLink: "./Art/echowebid/hover.gif",
