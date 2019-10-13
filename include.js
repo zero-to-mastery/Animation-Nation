@@ -777,6 +777,13 @@ let cards = [
     imageLink: "./Art/pauliax/doors.gif",
     author: "pauliax",
     githubLink: "https://github.com/pauliax"
+  },
+  {
+    artName: "ZTM Logo Animation",
+    pageLink: "./Art/bk987/index.html",
+    imageLink: "./Art/bk987/preview.gif",
+    author: "Bilal Khalid",
+    githubLink: "https://github.com/bk987"
   }
 ];
 
