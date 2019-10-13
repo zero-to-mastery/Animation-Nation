@@ -833,6 +833,13 @@ let cards = [
     author: "Carlos Hernandez",
     githubLink: "https://github.com/Carls13"
   },
+  {
+    artName: "ZTM Reveal",
+    pageLink: "./Art/bk987-2/index.html",
+    imageLink: "./Art/bk987-2/preview.gif",
+    author: "Bilal Khalid",
+    githubLink: "https://github.com/bk987"
+  }
 ];
 
 
