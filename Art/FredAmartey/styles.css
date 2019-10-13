@@ -1,0 +1,64 @@
+body {
+  font-size: 1rem;
+  font-weight: 300;
+  background-image: radial-gradient(
+    circle,
+    #eb6123,
+    #b54030,
+    #792a2e,
+    #3e1920,
+    #000000
+  );
+}
+
+.container {
+  text-align: center;
+}
+
+.text {
+  margin-top: 20px;
+  font-family: "Griffy", cursive;
+  font-size: 3rem;
+  color: #aaadc1;
+  text-align: center;
+}
+
+.brand {
+  left: 45%;
+  height: 50px;
+}
+
+.pumpkin {
+  will-change: transform;
+  position: sticky;
+  left: 50%;
+  transform: translate(-50%);
+  top: 40px;
+  height: 50vh;
+  animation: float 5s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -30px);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .pumpkin {
+    position: relative;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  /* For mobile phones: */
+  .pumpkin {
+    position: relative;
+  }
+}

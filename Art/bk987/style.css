@@ -1,0 +1,105 @@
+body {
+    font-family: sans-serif;
+    background: #3f76b9;
+    background: radial-gradient(circle, #3f76b9 0%, #234674 100%);
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.content {
+    text-align: center;
+    font-weight: bold;
+}
+.content p {
+    margin: 0;
+}
+.content .zero {
+    font-size: 5rem;
+    letter-spacing: 0.390625rem;
+    color: white;
+}
+.content .zero *:first-child,
+.content .zero *:last-child {
+    display: inline-block;
+    transform: scale(1.15) translateY(3px);
+    margin-left: 0.3125rem;
+}
+.content .zero *:first-child {
+    margin-left: 1.0625rem;
+    margin-right: 0.3125rem;
+}
+.content .to {
+    font-size: 2.5rem;
+    letter-spacing: 0.3125rem;
+    margin-top: -1rem;
+    color: white;
+}
+.content .to *:first-child,
+.content .to *:last-child {
+    font-weight: normal;
+    color: #aaaaaa;
+}
+.content .to *:first-child {
+    margin-left: 3rem;
+}
+.content .mastery {
+    font-size: 3.3125rem;
+    letter-spacing: 0;
+    transform: scale(1, 1.2);
+    color: #ece80e;
+}
+@media (min-width: 768px) {
+    .content .zero {
+        font-size: 8rem;
+        letter-spacing: 0.625rem;
+    }
+    .content .zero *:first-child,
+    .content .zero *:last-child {
+        transform: scale(1.15) translateY(5px);
+    }
+    .content .zero *:first-child {
+        margin-left: 1.7rem;
+    }
+    .content .to {
+        font-size: 4rem;
+    }
+    .content .mastery {
+        font-size: 5.3rem;
+    }
+}
+.content {
+    -webkit-animation: content 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+    animation: content 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes content {
+    0% {
+        -webkit-transform: perspective(500px) translateZ(400px);
+        transform: perspective(500px) translateZ(400px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: perspective(500px) translateZ(0);
+        transform: perspective(500px) translateZ(0);
+        opacity: 1;
+    }
+}
+@keyframes content {
+    0% {
+        -webkit-transform: perspective(500px) translateZ(400px);
+        transform: perspective(500px) translateZ(400px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: perspective(500px) translateZ(0);
+        transform: perspective(500px) translateZ(0);
+        opacity: 1;
+    }
+}

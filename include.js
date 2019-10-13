@@ -8,6 +8,13 @@ let cards = [
     githubLink: "https://github.com/EricPuskas"
   },
   {
+    artName: "Spooktober Hacktoberfest",
+    pageLink: "./Art/FredAmartey/index.html",
+    imageLink: "./Art/FredAmartey/thumbnaill.gif",
+    author: "Fred Amartey",
+    githubLink: "https://github.com/FredAmartey"
+  },
+  {
     artName: "Star Wars?",
     pageLink: "./Art/henryvalbuena/index.html",
     imageLink: "./Art/henryvalbuena/index.gif",
@@ -751,11 +758,11 @@ let cards = [
     githubLink: "https://github.com/aynorica"
   },
   {
-		artName: "sun-to-moon",
-		pageLink: "./Art/haider/index.html",
-		imageLink: "./Art/haider/sun-moon.gif",
-		author: "Haider",
-		githubLink: "https://github.com/hyderumer"
+    artName: "sun-to-moon",
+    pageLink: "./Art/haider/index.html",
+    imageLink: "./Art/haider/sun-moon.gif",
+    author: "Haider",
+    githubLink: "https://github.com/hyderumer"
   },
   {
     artName: "Animatron",
@@ -772,6 +779,13 @@ let cards = [
     githubLink: "https://github.com/beaps"
   },
   {
+    artName: "Open Sourcerer",
+    pageLink: "./Art/4rturd13/index.html",
+    imageLink: "./Art/4rturd13/openSourcerer.gif",
+    author: "4rturd13",
+    githubLink: "https://github.com/4rturd13"
+  },
+  {
     artName: "Doors",
     pageLink: "./Art/pauliax/index.html",
     imageLink: "./Art/pauliax/doors.gif",
@@ -784,6 +798,20 @@ let cards = [
     imageLink: "./Art/DevinEkadeni/running-text.gif",
     author: "Devin Ekadeni",
     githubLink: "https://github.com/devinekadeni"
+  },
+  {
+    artName: "Mystical-Hacktoberfest",
+    pageLink: "./Art/Wayne/index.html",
+    imageLink: "./Art/Wayne/hacktoberfest.png",
+    author: "Wayne Mac Mavis",
+    githubLink: "https://github.com/WayneMacMavis"
+  },
+  {
+    artName: "ZTM Logo Animation",
+    pageLink: "./Art/bk987/index.html",
+    imageLink: "./Art/bk987/preview.gif",
+    author: "Bilal Khalid",
+    githubLink: "https://github.com/bk987"
   }
 ];
 
@@ -800,14 +828,14 @@ let contents = [];
 Shuffle(cards).forEach(c => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
