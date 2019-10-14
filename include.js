@@ -846,6 +846,13 @@ let cards = [
     imageLink: "./Art/sballgirl11/ztm.gif",
     author: "Brittney Postma",
     githubLink: "https://github.com/sballgirl11"
+  },
+  {
+    artName: "Phone Greetings",
+    pageLink: "./Art/ann-dev/index.html",
+    imageLink: "./Art/ann-dev/screenshot.png",
+    author: "ann-dev",
+    githubLink: "https://github.com/ann-dev"
   }
 ];
 
