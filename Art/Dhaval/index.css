@@ -41,3 +41,37 @@ div {
     }
   }
 
+  @media only screen and (max-width: 600px) {
+    body {
+        font-size: 2rem;
+    }
+
+    @keyframes example {
+        0%   {
+            background-image: linear-gradient(to right, rgb(128, 0, 255), rgb(255, 0, 128));
+            margin: 0;
+            padding: 0.5em;
+        }
+        25%  {
+            background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(128, 0, 255));
+            margin: 10px 20px;
+            padding: 1em;
+        }
+        50%  {
+            background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 128)); 
+            margin: 20px 30px;
+            padding: 1.5em;
+        }
+        75%  {
+            background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 255));
+            margin: 10px 20px;
+            padding: 1em;
+        }
+        100% {
+            background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 128, 255));
+            margin: 0;
+            padding: 0.5em;
+        }
+      }
+  }
+  
