@@ -759,7 +759,7 @@ let cards = [
 	{
 		artName: "Aynonimation",
 		pageLink: "./Art/Aynorica/aynorica.html",
-		imageLink: "./Aynorica/Aynonimation.png",
+		imageLink: "./Art/Aynorica/Aynonimation.png",
 		author: "aynorica",
 		githubLink: "https://github.com/aynorica"
 	},
