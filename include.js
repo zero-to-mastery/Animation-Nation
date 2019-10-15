@@ -889,6 +889,13 @@ let cards = [
     githubLink: "https://github.com/jmtellez"
     },
     {
+      artName: "Oscillation",
+      pageLink: "./Art/Oscillation/index.html",
+      imageLink: "./Art/Oscillation/oscillation.gif",
+      author: "Nandhakumar",
+      githubLink: "https://github.com/Nandhakumar7792"
+    },
+  {
         artName: "Letters flipUp",
         pageLink: "./Art/TerenceBiney/index.html",
         imageLink: "./Art/TerenceBiney/lettersanimate.gif",
