@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background: #152346;
+  }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.tile {
+    -webkit-animation: 1s ease 0s pulse infinite;
+            animation: 1s ease 0s pulse infinite;
+    background: #479afe;
+    border-radius: 4px;
+    float: left;
+    height: 75px;
+    margin: 5px;
+    width: 100px;
+    line-height: 75px;
+    font-size: 30px;
+    color:#fbf526;
+}
+  
+  .tile:nth-child(1) {
+    -webkit-animation-delay: 0.0555555556s;
+            animation-delay: 0.0555555556s;
+  }
+  
+  .tile:nth-child(2) {
+    -webkit-animation-delay: 0.1111111111s;
+            animation-delay: 0.1111111111s;
+  }
+  
+  .tile:nth-child(3) {
+    -webkit-animation-delay: 0.1666666667s;
+            animation-delay: 0.1666666667s;
+  }
+  
+  .tile:nth-child(4) {
+    -webkit-animation-delay: 0.2222222222s;
+            animation-delay: 0.2222222222s;
+  }
+  
+  .tile:nth-child(5) {
+    -webkit-animation-delay: 0.2777777778s;
+            animation-delay: 0.2777777778s;
+  }
+  
+  .tile:nth-child(6) {
+    -webkit-animation-delay: 0.3333333333s;
+            animation-delay: 0.3333333333s;
+  }
+  
+  .tile:nth-child(7) {
+    -webkit-animation-delay: 0.3888888889s;
+            animation-delay: 0.3888888889s;
+  }
+  
+  .tile:nth-child(8) {
+    -webkit-animation-delay: 0.4444444444s;
+            animation-delay: 0.4444444444s;
+  }
+  
+  .tile:nth-child(9) {
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+  }
+  .tile:nth-child(10) {
+    -webkit-animation-delay: 0.566666666s;
+            animation-delay: 0.566666666s;
+  }
+  .tile:nth-child(11) {
+    -webkit-animation-delay: 0.7777777777s;
+            animation-delay: 0.777777777s;
+  }
+  .tile:nth-child(12) {
+    -webkit-animation-delay: 0.888888888s;
+            animation-delay: 0.888888888s;
+  }
+
+  @keyframes pulse {
+    0% {
+      background: #479afe;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    25% {
+      background: #d023b9;
+      -webkit-transform: scale(1.015);
+              transform: scale(1.015);
+    }
+    50% {
+      background: #479afe;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+ 
+  
