@@ -932,7 +932,14 @@ let cards = [
         imageLink: "./Art/Diminishing/diminishing.gif",
         author: "Nandhakumar",
         githubLink: "https://github.com/Nandhakumar7792"
-      }
+      },
+  {
+    artName: "Eyes",
+    pageLink: "./Art/Ltheory/main.html",
+    imageLink: "./Art/Ltheory/eyes.gif",
+    author: "Ltheory",
+    githubLink: "https://github.com/Ltheory"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
