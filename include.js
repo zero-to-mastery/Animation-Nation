@@ -867,6 +867,13 @@ let cards = [
         author: "Grieff",
         githubLink: "https://github.com/grieff"
     },
+    {
+      artName: "Flip Card",
+      pageLink: "./Art/FlipCard/index.html",
+      imageLink: "./Art/FlipCard/ezgif.com-video-to-gif.gif",
+      author: "Saurabh",
+      githubLink: "https://github.com/Saurabh-FullStackDev"
+  },
   {
     artName: "animationHalloween",
     pageLink: "./Art/mawais54013/index.html",
