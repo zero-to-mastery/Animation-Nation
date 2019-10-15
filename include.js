@@ -887,6 +887,13 @@ let cards = [
     imageLink: "https://media.giphy.com/media/RKSRPGiIsy1f3Ji3j1/giphy.gif",
     author: "Juan T.",
     githubLink: "https://github.com/jmtellez"
+    },
+    {
+        artName: "Animation",
+        pageLink: "./Art/PaulBillings/animation.html",
+        imageLink: "./Art/PaulBillings/animation.gif",
+        author: "Paul Billings",
+        githubLink: "https://github.com/paulbillings"
     }
 ];
 
