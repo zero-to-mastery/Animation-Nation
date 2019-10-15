@@ -924,7 +924,15 @@ let cards = [
 		imageLink: "./Art/PaulBillings/animation.gif",
 		author: "Paul Billings",
 		githubLink: "https://github.com/paulbillings"
-	}
+	},
+  
+    {
+        artName: "Diminishing",
+        pageLink: "./Art/Diminishing/index.html",
+        imageLink: "./Art/Diminishing/diminishing.gif",
+        author: "Nandhakumar",
+        githubLink: "https://github.com/Nandhakumar7792"
+      }
 ];
 
 // +--------------------------------------------------------------------------------+
