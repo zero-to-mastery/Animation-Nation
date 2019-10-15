@@ -860,6 +860,13 @@ let cards = [
         author: "Grieff",
         githubLink: "https://github.com/grieff"
     },
+    {
+      artName: "Calm",
+      pageLink: "./Art/Tmax/index.html",
+      imageLink: "./Art/Tmax/Choas.gif",
+      author: "Tanesha",
+      githubLink: "https://github.com/Mainemirror"
+    }
 ];
 
 
