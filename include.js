@@ -843,7 +843,7 @@ let cards = [
 	},
 	{
 		artName: "ZTM Family Animation",
-		pageLink: "./Art/sballgirl11/index.html",
+		pageLink: "./Art/sballgirl11/animation.html",
 		imageLink: "./Art/sballgirl11/ztm.gif",
 		author: "Brittney Postma",
 		githubLink: "https://github.com/sballgirl11"
