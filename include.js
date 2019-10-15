@@ -625,34 +625,34 @@ let cards = [
     githubLink: "https://github.com/lusalga/"
   },
   {
-		artName: "Time goes by",
-		pageLink: "./Art/WolfgangKreminger/index.html",
-		imageLink: "./Art/WolfgangKreminger/showcase.gif",
-		author: "Wolfgang Kreminger",
-		githubLink: "https://github.com/r4pt0s"
-	},
-	{
-		artName: "Bouncing Text!",
-		pageLink: "./Art/AbdulsalamAbdulrahman/index.html",
-		imageLink: "./Art/AbdulsalamAbdulrahman/Bouncingtxt.gif",
-		author: "Abdulsalam Abdulrahman",
-		githubLink: "https://github.com/AbdulsalamAbdulrahman/"
-	},
-	{
-		artName: "Simple Phone Animation",
-		pageLink: "./Art/Lala/index.html",
-		imageLink: "./Art/Lala/phone.gif",
-		author: "Olamide Aboyeji",
-		githubLink: "https://github.com/aolamide"
-	},
-	{
+    artName: "Time goes by",
+    pageLink: "./Art/WolfgangKreminger/index.html",
+    imageLink: "./Art/WolfgangKreminger/showcase.gif",
+    author: "Wolfgang Kreminger",
+    githubLink: "https://github.com/r4pt0s"
+  },
+  {
+    artName: "Bouncing Text!",
+    pageLink: "./Art/AbdulsalamAbdulrahman/index.html",
+    imageLink: "./Art/AbdulsalamAbdulrahman/Bouncingtxt.gif",
+    author: "Abdulsalam Abdulrahman",
+    githubLink: "https://github.com/AbdulsalamAbdulrahman/"
+  },
+  {
+    artName: "Simple Phone Animation",
+    pageLink: "./Art/Lala/index.html",
+    imageLink: "./Art/Lala/phone.gif",
+    author: "Olamide Aboyeji",
+    githubLink: "https://github.com/aolamide"
+  },
+  {
     artName: 'Synthwave Sunset',
     pageLink: './Art/brunobolting/index.html',
     imageLink: './Art/brunobolting/synthwave-sunset.gif',
     author: 'Bruno Bolting',
     githubLink: 'https://github.com/brunobolting/'
-	},
-	{
+  },
+  {
     artName: 'Kawaii Penguin',
     pageLink: './Art/Brienyll/index.html',
     imageLink: './Art/Brienyll/kawaiiPenguin.gif',
@@ -693,6 +693,13 @@ let cards = [
     imageLink: "./Art/premdav/screenshot.png",
     author: "premdav",
     githubLink: "https://github.com/premdav"
+  },
+  {
+    artName: "Eyes",
+    pageLink: "./Art/Ltheory/main.html",
+    imageLink: "./Art/Ltheory/eyes.gif",
+    author: "Ltheory",
+    githubLink: "https://github.com/Ltheory"
   }
 ];
 
@@ -708,14 +715,14 @@ let contents = [];
 Shuffle(cards).forEach(c => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
