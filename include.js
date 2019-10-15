@@ -887,6 +887,13 @@ let cards = [
     imageLink: "https://media.giphy.com/media/RKSRPGiIsy1f3Ji3j1/giphy.gif",
     author: "Juan T.",
     githubLink: "https://github.com/jmtellez"
+    },
+    {
+        artName: "Letters flipUp",
+        pageLink: "./Art/TerenceBiney/index.html",
+        imageLink: "./Art/TerenceBiney/lettersanimate.gif",
+        author: "Terence Biney"
+        githubLink: "https://github.com/Tereflech17"
     }
 ];
 
