@@ -887,7 +887,14 @@ let cards = [
     imageLink: "https://media.giphy.com/media/RKSRPGiIsy1f3Ji3j1/giphy.gif",
     author: "Juan T.",
     githubLink: "https://github.com/jmtellez"
-    }
+    },
+    {
+        artName: "yin-yang",
+        pageLink: "./Art/yin-yang/index.html",
+        imageLink: "./Art/yin-yang/Halloween.gif",
+        author: "Nandhakumar",
+        githubLink: "https://github.com/Nandhakumar7792"
+      }
 ];
 
 
