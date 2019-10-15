@@ -1,0 +1,154 @@
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html  {
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box; 
+	line-height: 1.7;
+	color: #fff;
+}
+
+@keyframes flipUp {
+	from {
+		transform: rotateX(90deg);
+	}
+	to {
+		transform: rotateX(0deg);
+	}
+}
+
+@keyframes moveInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(10rem);
+	}
+	80% {
+		transform: translateX(1rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+
+.animate {
+	background-color: #3c77d8;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	height: 100vh;
+	webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+}
+
+
+.container {
+	width: 50rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.first-section,
+.second-section {
+	display: inline-flex;
+	margin-top: 50rem;
+	perspective: 800px;
+
+
+}
+
+.first-section {
+	font-family: quicksand, sans-serif;
+	font-weight: 400;
+	font-size: 5rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-right: 1rem;
+
+
+}
+
+.second-section {
+	font-family: tangerine, sans-serif;
+	font-weight: 700;
+	font-size: 9rem;
+	letter-spacing: 1.4rem;
+	/*animation: moveInRight 1s ease-out;*/
+}
+
+.fs-letter {
+	/*color: #281769;*/
+     text-transform: 0 1rem 2rem rgba(0,0,0,0.2);
+
+}
+
+.ss-letter {
+	/*color: #7051DE;*/
+	text-transform:  0 1rem 2rem rgba(0,0,0,0.2);
+
+}
+
+.fs-h {
+	animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55);
+}
+
+.fs-a {
+	animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .2s both;
+}
+
+.fs-c {
+	animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .3s both;
+}
+
+.fs-k {
+	animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .4s both;
+}
+
+.fs-t{
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .5s both;
+}
+
+.fs-o {
+    animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .6s both;
+}
+
+.fs-b {
+    animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .7s both;
+}
+
+.fs-e {
+    animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .8s both;
+}
+
+.fs-r {
+     animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .9s both;
+}
+
+.ss-f {
+    animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .9s both;
+}
+
+.ss-e{
+     animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .9s both;
+}
+
+.ss-s{
+     animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .9s both;
+}
+
+.ss-t{
+    animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .9s both;
+}
+
+
