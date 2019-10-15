@@ -717,7 +717,7 @@ let cards = [
 	{
 		artName: "ZeroToMastery",
 		pageLink: "./Art/Vzneers/index.html",
-		imageLink: "./Art/Vzneers/gifzeroloading.png",
+		imageLink: "./Art/Vzneers/gifzeroloading.gif",
 		author: "TrinhMinhHieu",
 		githubLink: "https://github.com/trinhminhhieu"
 	},
