@@ -721,6 +721,13 @@ let cards = [
     imageLink: "./Art/Courtney_Pure/mars_screenshot.png",
     author: "Courtney Pure",
     githubLink: "https://github.com/courtneypure"
+  },
+  {
+    artName: "animationHalloween",
+    pageLink: "./Art/mawais54013/index.html",
+    imageLink: "./Art/mawais54013/Halloween.gif",
+    author: "mawais54013",
+    githubLink: "https://github.com/mawais54013"
   }
 ];
 
