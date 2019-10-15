@@ -1,0 +1,3686 @@
+.main {
+    margin: 30px auto;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    background-color: #040139;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle {
+    height: 50px;
+    width: 50px;
+    border: 7px solid black;
+    border-radius: 50%;
+    margin: 10px;
+    align-self: center;
+    flex: 1 0 21%;
+  }
+  
+  .circle1 {
+    border-color: #3642FD;
+    animation: expand1 100s ease infinite alternate;
+  }
+  
+  @keyframes expand1 {
+    1% {
+      height: 10px;
+      width: 10px;
+    }
+    2% {
+      height: 10px;
+      width: 10px;
+    }
+    3% {
+      height: 30px;
+      width: 30px;
+    }
+    4% {
+      height: 40px;
+      width: 40px;
+    }
+    5% {
+      height: 50px;
+      width: 50px;
+    }
+    6% {
+      height: 30px;
+      width: 30px;
+    }
+    7% {
+      height: 35px;
+      width: 35px;
+    }
+    8% {
+      height: 30px;
+      width: 30px;
+    }
+    9% {
+      height: 20px;
+      width: 20px;
+    }
+    10% {
+      height: 5px;
+      width: 5px;
+    }
+    11% {
+      height: 20px;
+      width: 20px;
+    }
+    12% {
+      height: 5px;
+      width: 5px;
+    }
+    13% {
+      height: 40px;
+      width: 40px;
+    }
+    14% {
+      height: 40px;
+      width: 40px;
+    }
+    15% {
+      height: 20px;
+      width: 20px;
+    }
+    16% {
+      height: 25px;
+      width: 25px;
+    }
+    17% {
+      height: 30px;
+      width: 30px;
+    }
+    18% {
+      height: 30px;
+      width: 30px;
+    }
+    19% {
+      height: 20px;
+      width: 20px;
+    }
+    20% {
+      height: 35px;
+      width: 35px;
+    }
+    21% {
+      height: 10px;
+      width: 10px;
+    }
+    22% {
+      height: 40px;
+      width: 40px;
+    }
+    23% {
+      height: 30px;
+      width: 30px;
+    }
+    24% {
+      height: 15px;
+      width: 15px;
+    }
+    25% {
+      height: 10px;
+      width: 10px;
+    }
+    26% {
+      height: 35px;
+      width: 35px;
+    }
+    27% {
+      height: 15px;
+      width: 15px;
+    }
+    28% {
+      height: 25px;
+      width: 25px;
+    }
+    29% {
+      height: 30px;
+      width: 30px;
+    }
+    30% {
+      height: 20px;
+      width: 20px;
+    }
+    31% {
+      height: 5px;
+      width: 5px;
+    }
+    32% {
+      height: 15px;
+      width: 15px;
+    }
+    33% {
+      height: 40px;
+      width: 40px;
+    }
+    34% {
+      height: 10px;
+      width: 10px;
+    }
+    35% {
+      height: 45px;
+      width: 45px;
+    }
+    36% {
+      height: 5px;
+      width: 5px;
+    }
+    37% {
+      height: 50px;
+      width: 50px;
+    }
+    38% {
+      height: 35px;
+      width: 35px;
+    }
+    39% {
+      height: 5px;
+      width: 5px;
+    }
+    40% {
+      height: 10px;
+      width: 10px;
+    }
+    41% {
+      height: 5px;
+      width: 5px;
+    }
+    42% {
+      height: 15px;
+      width: 15px;
+    }
+    43% {
+      height: 40px;
+      width: 40px;
+    }
+    44% {
+      height: 45px;
+      width: 45px;
+    }
+    45% {
+      height: 45px;
+      width: 45px;
+    }
+    46% {
+      height: 25px;
+      width: 25px;
+    }
+    47% {
+      height: 20px;
+      width: 20px;
+    }
+    48% {
+      height: 5px;
+      width: 5px;
+    }
+    49% {
+      height: 35px;
+      width: 35px;
+    }
+    50% {
+      height: 5px;
+      width: 5px;
+    }
+    51% {
+      height: 30px;
+      width: 30px;
+    }
+    52% {
+      height: 10px;
+      width: 10px;
+    }
+    53% {
+      height: 30px;
+      width: 30px;
+    }
+    54% {
+      height: 40px;
+      width: 40px;
+    }
+    55% {
+      height: 50px;
+      width: 50px;
+    }
+    56% {
+      height: 25px;
+      width: 25px;
+    }
+    57% {
+      height: 50px;
+      width: 50px;
+    }
+    58% {
+      height: 5px;
+      width: 5px;
+    }
+    59% {
+      height: 25px;
+      width: 25px;
+    }
+    60% {
+      height: 20px;
+      width: 20px;
+    }
+    61% {
+      height: 30px;
+      width: 30px;
+    }
+    62% {
+      height: 50px;
+      width: 50px;
+    }
+    63% {
+      height: 5px;
+      width: 5px;
+    }
+    64% {
+      height: 50px;
+      width: 50px;
+    }
+    65% {
+      height: 35px;
+      width: 35px;
+    }
+    66% {
+      height: 15px;
+      width: 15px;
+    }
+    67% {
+      height: 30px;
+      width: 30px;
+    }
+    68% {
+      height: 35px;
+      width: 35px;
+    }
+    69% {
+      height: 5px;
+      width: 5px;
+    }
+    70% {
+      height: 10px;
+      width: 10px;
+    }
+    71% {
+      height: 25px;
+      width: 25px;
+    }
+    72% {
+      height: 45px;
+      width: 45px;
+    }
+    73% {
+      height: 5px;
+      width: 5px;
+    }
+    74% {
+      height: 5px;
+      width: 5px;
+    }
+    75% {
+      height: 15px;
+      width: 15px;
+    }
+    76% {
+      height: 20px;
+      width: 20px;
+    }
+    77% {
+      height: 25px;
+      width: 25px;
+    }
+    78% {
+      height: 50px;
+      width: 50px;
+    }
+    79% {
+      height: 45px;
+      width: 45px;
+    }
+    80% {
+      height: 40px;
+      width: 40px;
+    }
+    81% {
+      height: 25px;
+      width: 25px;
+    }
+    82% {
+      height: 30px;
+      width: 30px;
+    }
+    83% {
+      height: 5px;
+      width: 5px;
+    }
+    84% {
+      height: 15px;
+      width: 15px;
+    }
+    85% {
+      height: 50px;
+      width: 50px;
+    }
+    86% {
+      height: 25px;
+      width: 25px;
+    }
+    87% {
+      height: 30px;
+      width: 30px;
+    }
+    88% {
+      height: 10px;
+      width: 10px;
+    }
+    89% {
+      height: 40px;
+      width: 40px;
+    }
+    90% {
+      height: 10px;
+      width: 10px;
+    }
+    91% {
+      height: 20px;
+      width: 20px;
+    }
+    92% {
+      height: 50px;
+      width: 50px;
+    }
+    93% {
+      height: 5px;
+      width: 5px;
+    }
+    94% {
+      height: 10px;
+      width: 10px;
+    }
+    95% {
+      height: 40px;
+      width: 40px;
+    }
+    96% {
+      height: 25px;
+      width: 25px;
+    }
+    97% {
+      height: 5px;
+      width: 5px;
+    }
+    98% {
+      height: 45px;
+      width: 45px;
+    }
+    99% {
+      height: 10px;
+      width: 10px;
+    }
+    100% {
+      height: 45px;
+      width: 45px;
+    }
+  }
+  .circle2 {
+    border-color: #7E19FB;
+    animation: expand2 100s ease infinite alternate;
+  }
+  
+  @keyframes expand2 {
+    1% {
+      height: 25px;
+      width: 25px;
+    }
+    2% {
+      height: 40px;
+      width: 40px;
+    }
+    3% {
+      height: 30px;
+      width: 30px;
+    }
+    4% {
+      height: 5px;
+      width: 5px;
+    }
+    5% {
+      height: 20px;
+      width: 20px;
+    }
+    6% {
+      height: 35px;
+      width: 35px;
+    }
+    7% {
+      height: 30px;
+      width: 30px;
+    }
+    8% {
+      height: 30px;
+      width: 30px;
+    }
+    9% {
+      height: 50px;
+      width: 50px;
+    }
+    10% {
+      height: 5px;
+      width: 5px;
+    }
+    11% {
+      height: 50px;
+      width: 50px;
+    }
+    12% {
+      height: 10px;
+      width: 10px;
+    }
+    13% {
+      height: 40px;
+      width: 40px;
+    }
+    14% {
+      height: 45px;
+      width: 45px;
+    }
+    15% {
+      height: 20px;
+      width: 20px;
+    }
+    16% {
+      height: 30px;
+      width: 30px;
+    }
+    17% {
+      height: 35px;
+      width: 35px;
+    }
+    18% {
+      height: 25px;
+      width: 25px;
+    }
+    19% {
+      height: 35px;
+      width: 35px;
+    }
+    20% {
+      height: 45px;
+      width: 45px;
+    }
+    21% {
+      height: 40px;
+      width: 40px;
+    }
+    22% {
+      height: 50px;
+      width: 50px;
+    }
+    23% {
+      height: 45px;
+      width: 45px;
+    }
+    24% {
+      height: 45px;
+      width: 45px;
+    }
+    25% {
+      height: 45px;
+      width: 45px;
+    }
+    26% {
+      height: 45px;
+      width: 45px;
+    }
+    27% {
+      height: 10px;
+      width: 10px;
+    }
+    28% {
+      height: 10px;
+      width: 10px;
+    }
+    29% {
+      height: 15px;
+      width: 15px;
+    }
+    30% {
+      height: 5px;
+      width: 5px;
+    }
+    31% {
+      height: 40px;
+      width: 40px;
+    }
+    32% {
+      height: 20px;
+      width: 20px;
+    }
+    33% {
+      height: 30px;
+      width: 30px;
+    }
+    34% {
+      height: 45px;
+      width: 45px;
+    }
+    35% {
+      height: 20px;
+      width: 20px;
+    }
+    36% {
+      height: 15px;
+      width: 15px;
+    }
+    37% {
+      height: 10px;
+      width: 10px;
+    }
+    38% {
+      height: 45px;
+      width: 45px;
+    }
+    39% {
+      height: 50px;
+      width: 50px;
+    }
+    40% {
+      height: 5px;
+      width: 5px;
+    }
+    41% {
+      height: 20px;
+      width: 20px;
+    }
+    42% {
+      height: 20px;
+      width: 20px;
+    }
+    43% {
+      height: 40px;
+      width: 40px;
+    }
+    44% {
+      height: 50px;
+      width: 50px;
+    }
+    45% {
+      height: 10px;
+      width: 10px;
+    }
+    46% {
+      height: 10px;
+      width: 10px;
+    }
+    47% {
+      height: 10px;
+      width: 10px;
+    }
+    48% {
+      height: 45px;
+      width: 45px;
+    }
+    49% {
+      height: 25px;
+      width: 25px;
+    }
+    50% {
+      height: 40px;
+      width: 40px;
+    }
+    51% {
+      height: 25px;
+      width: 25px;
+    }
+    52% {
+      height: 25px;
+      width: 25px;
+    }
+    53% {
+      height: 45px;
+      width: 45px;
+    }
+    54% {
+      height: 50px;
+      width: 50px;
+    }
+    55% {
+      height: 10px;
+      width: 10px;
+    }
+    56% {
+      height: 35px;
+      width: 35px;
+    }
+    57% {
+      height: 25px;
+      width: 25px;
+    }
+    58% {
+      height: 50px;
+      width: 50px;
+    }
+    59% {
+      height: 35px;
+      width: 35px;
+    }
+    60% {
+      height: 50px;
+      width: 50px;
+    }
+    61% {
+      height: 45px;
+      width: 45px;
+    }
+    62% {
+      height: 15px;
+      width: 15px;
+    }
+    63% {
+      height: 20px;
+      width: 20px;
+    }
+    64% {
+      height: 35px;
+      width: 35px;
+    }
+    65% {
+      height: 40px;
+      width: 40px;
+    }
+    66% {
+      height: 20px;
+      width: 20px;
+    }
+    67% {
+      height: 30px;
+      width: 30px;
+    }
+    68% {
+      height: 30px;
+      width: 30px;
+    }
+    69% {
+      height: 35px;
+      width: 35px;
+    }
+    70% {
+      height: 35px;
+      width: 35px;
+    }
+    71% {
+      height: 35px;
+      width: 35px;
+    }
+    72% {
+      height: 40px;
+      width: 40px;
+    }
+    73% {
+      height: 30px;
+      width: 30px;
+    }
+    74% {
+      height: 30px;
+      width: 30px;
+    }
+    75% {
+      height: 25px;
+      width: 25px;
+    }
+    76% {
+      height: 40px;
+      width: 40px;
+    }
+    77% {
+      height: 15px;
+      width: 15px;
+    }
+    78% {
+      height: 45px;
+      width: 45px;
+    }
+    79% {
+      height: 20px;
+      width: 20px;
+    }
+    80% {
+      height: 40px;
+      width: 40px;
+    }
+    81% {
+      height: 35px;
+      width: 35px;
+    }
+    82% {
+      height: 50px;
+      width: 50px;
+    }
+    83% {
+      height: 10px;
+      width: 10px;
+    }
+    84% {
+      height: 30px;
+      width: 30px;
+    }
+    85% {
+      height: 50px;
+      width: 50px;
+    }
+    86% {
+      height: 30px;
+      width: 30px;
+    }
+    87% {
+      height: 40px;
+      width: 40px;
+    }
+    88% {
+      height: 25px;
+      width: 25px;
+    }
+    89% {
+      height: 5px;
+      width: 5px;
+    }
+    90% {
+      height: 35px;
+      width: 35px;
+    }
+    91% {
+      height: 35px;
+      width: 35px;
+    }
+    92% {
+      height: 25px;
+      width: 25px;
+    }
+    93% {
+      height: 45px;
+      width: 45px;
+    }
+    94% {
+      height: 40px;
+      width: 40px;
+    }
+    95% {
+      height: 30px;
+      width: 30px;
+    }
+    96% {
+      height: 40px;
+      width: 40px;
+    }
+    97% {
+      height: 15px;
+      width: 15px;
+    }
+    98% {
+      height: 15px;
+      width: 15px;
+    }
+    99% {
+      height: 40px;
+      width: 40px;
+    }
+    100% {
+      height: 45px;
+      width: 45px;
+    }
+  }
+  .circle3 {
+    border-color: #F005FF;
+    animation: expand3 100s ease infinite alternate;
+  }
+  
+  @keyframes expand3 {
+    1% {
+      height: 25px;
+      width: 25px;
+    }
+    2% {
+      height: 40px;
+      width: 40px;
+    }
+    3% {
+      height: 35px;
+      width: 35px;
+    }
+    4% {
+      height: 50px;
+      width: 50px;
+    }
+    5% {
+      height: 30px;
+      width: 30px;
+    }
+    6% {
+      height: 30px;
+      width: 30px;
+    }
+    7% {
+      height: 25px;
+      width: 25px;
+    }
+    8% {
+      height: 50px;
+      width: 50px;
+    }
+    9% {
+      height: 35px;
+      width: 35px;
+    }
+    10% {
+      height: 15px;
+      width: 15px;
+    }
+    11% {
+      height: 40px;
+      width: 40px;
+    }
+    12% {
+      height: 5px;
+      width: 5px;
+    }
+    13% {
+      height: 40px;
+      width: 40px;
+    }
+    14% {
+      height: 15px;
+      width: 15px;
+    }
+    15% {
+      height: 40px;
+      width: 40px;
+    }
+    16% {
+      height: 5px;
+      width: 5px;
+    }
+    17% {
+      height: 45px;
+      width: 45px;
+    }
+    18% {
+      height: 15px;
+      width: 15px;
+    }
+    19% {
+      height: 45px;
+      width: 45px;
+    }
+    20% {
+      height: 40px;
+      width: 40px;
+    }
+    21% {
+      height: 15px;
+      width: 15px;
+    }
+    22% {
+      height: 50px;
+      width: 50px;
+    }
+    23% {
+      height: 45px;
+      width: 45px;
+    }
+    24% {
+      height: 25px;
+      width: 25px;
+    }
+    25% {
+      height: 25px;
+      width: 25px;
+    }
+    26% {
+      height: 10px;
+      width: 10px;
+    }
+    27% {
+      height: 40px;
+      width: 40px;
+    }
+    28% {
+      height: 45px;
+      width: 45px;
+    }
+    29% {
+      height: 40px;
+      width: 40px;
+    }
+    30% {
+      height: 5px;
+      width: 5px;
+    }
+    31% {
+      height: 5px;
+      width: 5px;
+    }
+    32% {
+      height: 40px;
+      width: 40px;
+    }
+    33% {
+      height: 35px;
+      width: 35px;
+    }
+    34% {
+      height: 15px;
+      width: 15px;
+    }
+    35% {
+      height: 35px;
+      width: 35px;
+    }
+    36% {
+      height: 20px;
+      width: 20px;
+    }
+    37% {
+      height: 50px;
+      width: 50px;
+    }
+    38% {
+      height: 40px;
+      width: 40px;
+    }
+    39% {
+      height: 35px;
+      width: 35px;
+    }
+    40% {
+      height: 40px;
+      width: 40px;
+    }
+    41% {
+      height: 5px;
+      width: 5px;
+    }
+    42% {
+      height: 5px;
+      width: 5px;
+    }
+    43% {
+      height: 25px;
+      width: 25px;
+    }
+    44% {
+      height: 15px;
+      width: 15px;
+    }
+    45% {
+      height: 5px;
+      width: 5px;
+    }
+    46% {
+      height: 15px;
+      width: 15px;
+    }
+    47% {
+      height: 25px;
+      width: 25px;
+    }
+    48% {
+      height: 35px;
+      width: 35px;
+    }
+    49% {
+      height: 35px;
+      width: 35px;
+    }
+    50% {
+      height: 40px;
+      width: 40px;
+    }
+    51% {
+      height: 25px;
+      width: 25px;
+    }
+    52% {
+      height: 20px;
+      width: 20px;
+    }
+    53% {
+      height: 30px;
+      width: 30px;
+    }
+    54% {
+      height: 15px;
+      width: 15px;
+    }
+    55% {
+      height: 40px;
+      width: 40px;
+    }
+    56% {
+      height: 45px;
+      width: 45px;
+    }
+    57% {
+      height: 20px;
+      width: 20px;
+    }
+    58% {
+      height: 20px;
+      width: 20px;
+    }
+    59% {
+      height: 50px;
+      width: 50px;
+    }
+    60% {
+      height: 35px;
+      width: 35px;
+    }
+    61% {
+      height: 45px;
+      width: 45px;
+    }
+    62% {
+      height: 45px;
+      width: 45px;
+    }
+    63% {
+      height: 40px;
+      width: 40px;
+    }
+    64% {
+      height: 50px;
+      width: 50px;
+    }
+    65% {
+      height: 35px;
+      width: 35px;
+    }
+    66% {
+      height: 30px;
+      width: 30px;
+    }
+    67% {
+      height: 5px;
+      width: 5px;
+    }
+    68% {
+      height: 40px;
+      width: 40px;
+    }
+    69% {
+      height: 50px;
+      width: 50px;
+    }
+    70% {
+      height: 35px;
+      width: 35px;
+    }
+    71% {
+      height: 45px;
+      width: 45px;
+    }
+    72% {
+      height: 25px;
+      width: 25px;
+    }
+    73% {
+      height: 25px;
+      width: 25px;
+    }
+    74% {
+      height: 10px;
+      width: 10px;
+    }
+    75% {
+      height: 5px;
+      width: 5px;
+    }
+    76% {
+      height: 20px;
+      width: 20px;
+    }
+    77% {
+      height: 20px;
+      width: 20px;
+    }
+    78% {
+      height: 30px;
+      width: 30px;
+    }
+    79% {
+      height: 50px;
+      width: 50px;
+    }
+    80% {
+      height: 25px;
+      width: 25px;
+    }
+    81% {
+      height: 40px;
+      width: 40px;
+    }
+    82% {
+      height: 5px;
+      width: 5px;
+    }
+    83% {
+      height: 10px;
+      width: 10px;
+    }
+    84% {
+      height: 45px;
+      width: 45px;
+    }
+    85% {
+      height: 25px;
+      width: 25px;
+    }
+    86% {
+      height: 10px;
+      width: 10px;
+    }
+    87% {
+      height: 25px;
+      width: 25px;
+    }
+    88% {
+      height: 10px;
+      width: 10px;
+    }
+    89% {
+      height: 45px;
+      width: 45px;
+    }
+    90% {
+      height: 15px;
+      width: 15px;
+    }
+    91% {
+      height: 25px;
+      width: 25px;
+    }
+    92% {
+      height: 25px;
+      width: 25px;
+    }
+    93% {
+      height: 50px;
+      width: 50px;
+    }
+    94% {
+      height: 40px;
+      width: 40px;
+    }
+    95% {
+      height: 10px;
+      width: 10px;
+    }
+    96% {
+      height: 50px;
+      width: 50px;
+    }
+    97% {
+      height: 15px;
+      width: 15px;
+    }
+    98% {
+      height: 15px;
+      width: 15px;
+    }
+    99% {
+      height: 20px;
+      width: 20px;
+    }
+    100% {
+      height: 30px;
+      width: 30px;
+    }
+  }
+  .circle4 {
+    border-color: #F9C920;
+    animation: expand4 100s ease infinite alternate;
+  }
+  
+  @keyframes expand4 {
+    1% {
+      height: 45px;
+      width: 45px;
+    }
+    2% {
+      height: 10px;
+      width: 10px;
+    }
+    3% {
+      height: 45px;
+      width: 45px;
+    }
+    4% {
+      height: 20px;
+      width: 20px;
+    }
+    5% {
+      height: 5px;
+      width: 5px;
+    }
+    6% {
+      height: 45px;
+      width: 45px;
+    }
+    7% {
+      height: 40px;
+      width: 40px;
+    }
+    8% {
+      height: 50px;
+      width: 50px;
+    }
+    9% {
+      height: 45px;
+      width: 45px;
+    }
+    10% {
+      height: 5px;
+      width: 5px;
+    }
+    11% {
+      height: 10px;
+      width: 10px;
+    }
+    12% {
+      height: 5px;
+      width: 5px;
+    }
+    13% {
+      height: 15px;
+      width: 15px;
+    }
+    14% {
+      height: 50px;
+      width: 50px;
+    }
+    15% {
+      height: 35px;
+      width: 35px;
+    }
+    16% {
+      height: 5px;
+      width: 5px;
+    }
+    17% {
+      height: 10px;
+      width: 10px;
+    }
+    18% {
+      height: 20px;
+      width: 20px;
+    }
+    19% {
+      height: 5px;
+      width: 5px;
+    }
+    20% {
+      height: 30px;
+      width: 30px;
+    }
+    21% {
+      height: 45px;
+      width: 45px;
+    }
+    22% {
+      height: 5px;
+      width: 5px;
+    }
+    23% {
+      height: 20px;
+      width: 20px;
+    }
+    24% {
+      height: 10px;
+      width: 10px;
+    }
+    25% {
+      height: 40px;
+      width: 40px;
+    }
+    26% {
+      height: 30px;
+      width: 30px;
+    }
+    27% {
+      height: 30px;
+      width: 30px;
+    }
+    28% {
+      height: 5px;
+      width: 5px;
+    }
+    29% {
+      height: 40px;
+      width: 40px;
+    }
+    30% {
+      height: 5px;
+      width: 5px;
+    }
+    31% {
+      height: 5px;
+      width: 5px;
+    }
+    32% {
+      height: 20px;
+      width: 20px;
+    }
+    33% {
+      height: 10px;
+      width: 10px;
+    }
+    34% {
+      height: 50px;
+      width: 50px;
+    }
+    35% {
+      height: 5px;
+      width: 5px;
+    }
+    36% {
+      height: 10px;
+      width: 10px;
+    }
+    37% {
+      height: 45px;
+      width: 45px;
+    }
+    38% {
+      height: 40px;
+      width: 40px;
+    }
+    39% {
+      height: 35px;
+      width: 35px;
+    }
+    40% {
+      height: 50px;
+      width: 50px;
+    }
+    41% {
+      height: 25px;
+      width: 25px;
+    }
+    42% {
+      height: 5px;
+      width: 5px;
+    }
+    43% {
+      height: 50px;
+      width: 50px;
+    }
+    44% {
+      height: 15px;
+      width: 15px;
+    }
+    45% {
+      height: 25px;
+      width: 25px;
+    }
+    46% {
+      height: 50px;
+      width: 50px;
+    }
+    47% {
+      height: 25px;
+      width: 25px;
+    }
+    48% {
+      height: 25px;
+      width: 25px;
+    }
+    49% {
+      height: 50px;
+      width: 50px;
+    }
+    50% {
+      height: 40px;
+      width: 40px;
+    }
+    51% {
+      height: 50px;
+      width: 50px;
+    }
+    52% {
+      height: 15px;
+      width: 15px;
+    }
+    53% {
+      height: 20px;
+      width: 20px;
+    }
+    54% {
+      height: 40px;
+      width: 40px;
+    }
+    55% {
+      height: 20px;
+      width: 20px;
+    }
+    56% {
+      height: 20px;
+      width: 20px;
+    }
+    57% {
+      height: 10px;
+      width: 10px;
+    }
+    58% {
+      height: 35px;
+      width: 35px;
+    }
+    59% {
+      height: 45px;
+      width: 45px;
+    }
+    60% {
+      height: 30px;
+      width: 30px;
+    }
+    61% {
+      height: 35px;
+      width: 35px;
+    }
+    62% {
+      height: 20px;
+      width: 20px;
+    }
+    63% {
+      height: 40px;
+      width: 40px;
+    }
+    64% {
+      height: 50px;
+      width: 50px;
+    }
+    65% {
+      height: 50px;
+      width: 50px;
+    }
+    66% {
+      height: 15px;
+      width: 15px;
+    }
+    67% {
+      height: 25px;
+      width: 25px;
+    }
+    68% {
+      height: 40px;
+      width: 40px;
+    }
+    69% {
+      height: 45px;
+      width: 45px;
+    }
+    70% {
+      height: 50px;
+      width: 50px;
+    }
+    71% {
+      height: 20px;
+      width: 20px;
+    }
+    72% {
+      height: 10px;
+      width: 10px;
+    }
+    73% {
+      height: 35px;
+      width: 35px;
+    }
+    74% {
+      height: 15px;
+      width: 15px;
+    }
+    75% {
+      height: 25px;
+      width: 25px;
+    }
+    76% {
+      height: 15px;
+      width: 15px;
+    }
+    77% {
+      height: 45px;
+      width: 45px;
+    }
+    78% {
+      height: 20px;
+      width: 20px;
+    }
+    79% {
+      height: 35px;
+      width: 35px;
+    }
+    80% {
+      height: 20px;
+      width: 20px;
+    }
+    81% {
+      height: 15px;
+      width: 15px;
+    }
+    82% {
+      height: 35px;
+      width: 35px;
+    }
+    83% {
+      height: 50px;
+      width: 50px;
+    }
+    84% {
+      height: 15px;
+      width: 15px;
+    }
+    85% {
+      height: 15px;
+      width: 15px;
+    }
+    86% {
+      height: 45px;
+      width: 45px;
+    }
+    87% {
+      height: 15px;
+      width: 15px;
+    }
+    88% {
+      height: 45px;
+      width: 45px;
+    }
+    89% {
+      height: 25px;
+      width: 25px;
+    }
+    90% {
+      height: 45px;
+      width: 45px;
+    }
+    91% {
+      height: 40px;
+      width: 40px;
+    }
+    92% {
+      height: 15px;
+      width: 15px;
+    }
+    93% {
+      height: 30px;
+      width: 30px;
+    }
+    94% {
+      height: 10px;
+      width: 10px;
+    }
+    95% {
+      height: 5px;
+      width: 5px;
+    }
+    96% {
+      height: 25px;
+      width: 25px;
+    }
+    97% {
+      height: 10px;
+      width: 10px;
+    }
+    98% {
+      height: 25px;
+      width: 25px;
+    }
+    99% {
+      height: 50px;
+      width: 50px;
+    }
+    100% {
+      height: 30px;
+      width: 30px;
+    }
+  }
+  .circle5 {
+    border-color: #3DFA8E;
+    animation: expand5 100s ease infinite alternate;
+  }
+  
+  @keyframes expand5 {
+    1% {
+      height: 35px;
+      width: 35px;
+    }
+    2% {
+      height: 40px;
+      width: 40px;
+    }
+    3% {
+      height: 30px;
+      width: 30px;
+    }
+    4% {
+      height: 10px;
+      width: 10px;
+    }
+    5% {
+      height: 30px;
+      width: 30px;
+    }
+    6% {
+      height: 30px;
+      width: 30px;
+    }
+    7% {
+      height: 15px;
+      width: 15px;
+    }
+    8% {
+      height: 25px;
+      width: 25px;
+    }
+    9% {
+      height: 20px;
+      width: 20px;
+    }
+    10% {
+      height: 25px;
+      width: 25px;
+    }
+    11% {
+      height: 15px;
+      width: 15px;
+    }
+    12% {
+      height: 50px;
+      width: 50px;
+    }
+    13% {
+      height: 10px;
+      width: 10px;
+    }
+    14% {
+      height: 5px;
+      width: 5px;
+    }
+    15% {
+      height: 10px;
+      width: 10px;
+    }
+    16% {
+      height: 50px;
+      width: 50px;
+    }
+    17% {
+      height: 35px;
+      width: 35px;
+    }
+    18% {
+      height: 5px;
+      width: 5px;
+    }
+    19% {
+      height: 20px;
+      width: 20px;
+    }
+    20% {
+      height: 30px;
+      width: 30px;
+    }
+    21% {
+      height: 35px;
+      width: 35px;
+    }
+    22% {
+      height: 45px;
+      width: 45px;
+    }
+    23% {
+      height: 40px;
+      width: 40px;
+    }
+    24% {
+      height: 25px;
+      width: 25px;
+    }
+    25% {
+      height: 35px;
+      width: 35px;
+    }
+    26% {
+      height: 50px;
+      width: 50px;
+    }
+    27% {
+      height: 10px;
+      width: 10px;
+    }
+    28% {
+      height: 20px;
+      width: 20px;
+    }
+    29% {
+      height: 15px;
+      width: 15px;
+    }
+    30% {
+      height: 35px;
+      width: 35px;
+    }
+    31% {
+      height: 25px;
+      width: 25px;
+    }
+    32% {
+      height: 25px;
+      width: 25px;
+    }
+    33% {
+      height: 15px;
+      width: 15px;
+    }
+    34% {
+      height: 15px;
+      width: 15px;
+    }
+    35% {
+      height: 45px;
+      width: 45px;
+    }
+    36% {
+      height: 50px;
+      width: 50px;
+    }
+    37% {
+      height: 15px;
+      width: 15px;
+    }
+    38% {
+      height: 10px;
+      width: 10px;
+    }
+    39% {
+      height: 30px;
+      width: 30px;
+    }
+    40% {
+      height: 5px;
+      width: 5px;
+    }
+    41% {
+      height: 20px;
+      width: 20px;
+    }
+    42% {
+      height: 10px;
+      width: 10px;
+    }
+    43% {
+      height: 40px;
+      width: 40px;
+    }
+    44% {
+      height: 45px;
+      width: 45px;
+    }
+    45% {
+      height: 5px;
+      width: 5px;
+    }
+    46% {
+      height: 45px;
+      width: 45px;
+    }
+    47% {
+      height: 15px;
+      width: 15px;
+    }
+    48% {
+      height: 40px;
+      width: 40px;
+    }
+    49% {
+      height: 20px;
+      width: 20px;
+    }
+    50% {
+      height: 40px;
+      width: 40px;
+    }
+    51% {
+      height: 45px;
+      width: 45px;
+    }
+    52% {
+      height: 5px;
+      width: 5px;
+    }
+    53% {
+      height: 15px;
+      width: 15px;
+    }
+    54% {
+      height: 45px;
+      width: 45px;
+    }
+    55% {
+      height: 5px;
+      width: 5px;
+    }
+    56% {
+      height: 50px;
+      width: 50px;
+    }
+    57% {
+      height: 35px;
+      width: 35px;
+    }
+    58% {
+      height: 20px;
+      width: 20px;
+    }
+    59% {
+      height: 50px;
+      width: 50px;
+    }
+    60% {
+      height: 50px;
+      width: 50px;
+    }
+    61% {
+      height: 25px;
+      width: 25px;
+    }
+    62% {
+      height: 5px;
+      width: 5px;
+    }
+    63% {
+      height: 10px;
+      width: 10px;
+    }
+    64% {
+      height: 20px;
+      width: 20px;
+    }
+    65% {
+      height: 40px;
+      width: 40px;
+    }
+    66% {
+      height: 5px;
+      width: 5px;
+    }
+    67% {
+      height: 10px;
+      width: 10px;
+    }
+    68% {
+      height: 50px;
+      width: 50px;
+    }
+    69% {
+      height: 40px;
+      width: 40px;
+    }
+    70% {
+      height: 35px;
+      width: 35px;
+    }
+    71% {
+      height: 45px;
+      width: 45px;
+    }
+    72% {
+      height: 30px;
+      width: 30px;
+    }
+    73% {
+      height: 30px;
+      width: 30px;
+    }
+    74% {
+      height: 40px;
+      width: 40px;
+    }
+    75% {
+      height: 45px;
+      width: 45px;
+    }
+    76% {
+      height: 10px;
+      width: 10px;
+    }
+    77% {
+      height: 30px;
+      width: 30px;
+    }
+    78% {
+      height: 5px;
+      width: 5px;
+    }
+    79% {
+      height: 35px;
+      width: 35px;
+    }
+    80% {
+      height: 10px;
+      width: 10px;
+    }
+    81% {
+      height: 20px;
+      width: 20px;
+    }
+    82% {
+      height: 35px;
+      width: 35px;
+    }
+    83% {
+      height: 15px;
+      width: 15px;
+    }
+    84% {
+      height: 15px;
+      width: 15px;
+    }
+    85% {
+      height: 35px;
+      width: 35px;
+    }
+    86% {
+      height: 50px;
+      width: 50px;
+    }
+    87% {
+      height: 20px;
+      width: 20px;
+    }
+    88% {
+      height: 5px;
+      width: 5px;
+    }
+    89% {
+      height: 15px;
+      width: 15px;
+    }
+    90% {
+      height: 20px;
+      width: 20px;
+    }
+    91% {
+      height: 40px;
+      width: 40px;
+    }
+    92% {
+      height: 35px;
+      width: 35px;
+    }
+    93% {
+      height: 10px;
+      width: 10px;
+    }
+    94% {
+      height: 10px;
+      width: 10px;
+    }
+    95% {
+      height: 10px;
+      width: 10px;
+    }
+    96% {
+      height: 20px;
+      width: 20px;
+    }
+    97% {
+      height: 15px;
+      width: 15px;
+    }
+    98% {
+      height: 10px;
+      width: 10px;
+    }
+    99% {
+      height: 20px;
+      width: 20px;
+    }
+    100% {
+      height: 20px;
+      width: 20px;
+    }
+  }
+  .circle6 {
+    border-color: #01FBEC;
+    animation: expand6 100s ease infinite alternate;
+  }
+  
+  @keyframes expand6 {
+    1% {
+      height: 10px;
+      width: 10px;
+    }
+    2% {
+      height: 50px;
+      width: 50px;
+    }
+    3% {
+      height: 10px;
+      width: 10px;
+    }
+    4% {
+      height: 50px;
+      width: 50px;
+    }
+    5% {
+      height: 30px;
+      width: 30px;
+    }
+    6% {
+      height: 50px;
+      width: 50px;
+    }
+    7% {
+      height: 35px;
+      width: 35px;
+    }
+    8% {
+      height: 40px;
+      width: 40px;
+    }
+    9% {
+      height: 40px;
+      width: 40px;
+    }
+    10% {
+      height: 25px;
+      width: 25px;
+    }
+    11% {
+      height: 25px;
+      width: 25px;
+    }
+    12% {
+      height: 40px;
+      width: 40px;
+    }
+    13% {
+      height: 5px;
+      width: 5px;
+    }
+    14% {
+      height: 25px;
+      width: 25px;
+    }
+    15% {
+      height: 15px;
+      width: 15px;
+    }
+    16% {
+      height: 20px;
+      width: 20px;
+    }
+    17% {
+      height: 20px;
+      width: 20px;
+    }
+    18% {
+      height: 30px;
+      width: 30px;
+    }
+    19% {
+      height: 40px;
+      width: 40px;
+    }
+    20% {
+      height: 5px;
+      width: 5px;
+    }
+    21% {
+      height: 30px;
+      width: 30px;
+    }
+    22% {
+      height: 45px;
+      width: 45px;
+    }
+    23% {
+      height: 35px;
+      width: 35px;
+    }
+    24% {
+      height: 30px;
+      width: 30px;
+    }
+    25% {
+      height: 15px;
+      width: 15px;
+    }
+    26% {
+      height: 15px;
+      width: 15px;
+    }
+    27% {
+      height: 35px;
+      width: 35px;
+    }
+    28% {
+      height: 45px;
+      width: 45px;
+    }
+    29% {
+      height: 45px;
+      width: 45px;
+    }
+    30% {
+      height: 15px;
+      width: 15px;
+    }
+    31% {
+      height: 45px;
+      width: 45px;
+    }
+    32% {
+      height: 20px;
+      width: 20px;
+    }
+    33% {
+      height: 20px;
+      width: 20px;
+    }
+    34% {
+      height: 35px;
+      width: 35px;
+    }
+    35% {
+      height: 50px;
+      width: 50px;
+    }
+    36% {
+      height: 10px;
+      width: 10px;
+    }
+    37% {
+      height: 20px;
+      width: 20px;
+    }
+    38% {
+      height: 30px;
+      width: 30px;
+    }
+    39% {
+      height: 30px;
+      width: 30px;
+    }
+    40% {
+      height: 40px;
+      width: 40px;
+    }
+    41% {
+      height: 20px;
+      width: 20px;
+    }
+    42% {
+      height: 30px;
+      width: 30px;
+    }
+    43% {
+      height: 15px;
+      width: 15px;
+    }
+    44% {
+      height: 50px;
+      width: 50px;
+    }
+    45% {
+      height: 10px;
+      width: 10px;
+    }
+    46% {
+      height: 35px;
+      width: 35px;
+    }
+    47% {
+      height: 50px;
+      width: 50px;
+    }
+    48% {
+      height: 50px;
+      width: 50px;
+    }
+    49% {
+      height: 25px;
+      width: 25px;
+    }
+    50% {
+      height: 45px;
+      width: 45px;
+    }
+    51% {
+      height: 10px;
+      width: 10px;
+    }
+    52% {
+      height: 30px;
+      width: 30px;
+    }
+    53% {
+      height: 45px;
+      width: 45px;
+    }
+    54% {
+      height: 5px;
+      width: 5px;
+    }
+    55% {
+      height: 20px;
+      width: 20px;
+    }
+    56% {
+      height: 25px;
+      width: 25px;
+    }
+    57% {
+      height: 45px;
+      width: 45px;
+    }
+    58% {
+      height: 50px;
+      width: 50px;
+    }
+    59% {
+      height: 50px;
+      width: 50px;
+    }
+    60% {
+      height: 50px;
+      width: 50px;
+    }
+    61% {
+      height: 50px;
+      width: 50px;
+    }
+    62% {
+      height: 40px;
+      width: 40px;
+    }
+    63% {
+      height: 5px;
+      width: 5px;
+    }
+    64% {
+      height: 10px;
+      width: 10px;
+    }
+    65% {
+      height: 35px;
+      width: 35px;
+    }
+    66% {
+      height: 50px;
+      width: 50px;
+    }
+    67% {
+      height: 35px;
+      width: 35px;
+    }
+    68% {
+      height: 20px;
+      width: 20px;
+    }
+    69% {
+      height: 30px;
+      width: 30px;
+    }
+    70% {
+      height: 50px;
+      width: 50px;
+    }
+    71% {
+      height: 20px;
+      width: 20px;
+    }
+    72% {
+      height: 10px;
+      width: 10px;
+    }
+    73% {
+      height: 25px;
+      width: 25px;
+    }
+    74% {
+      height: 45px;
+      width: 45px;
+    }
+    75% {
+      height: 10px;
+      width: 10px;
+    }
+    76% {
+      height: 5px;
+      width: 5px;
+    }
+    77% {
+      height: 15px;
+      width: 15px;
+    }
+    78% {
+      height: 45px;
+      width: 45px;
+    }
+    79% {
+      height: 15px;
+      width: 15px;
+    }
+    80% {
+      height: 50px;
+      width: 50px;
+    }
+    81% {
+      height: 35px;
+      width: 35px;
+    }
+    82% {
+      height: 5px;
+      width: 5px;
+    }
+    83% {
+      height: 45px;
+      width: 45px;
+    }
+    84% {
+      height: 15px;
+      width: 15px;
+    }
+    85% {
+      height: 35px;
+      width: 35px;
+    }
+    86% {
+      height: 35px;
+      width: 35px;
+    }
+    87% {
+      height: 5px;
+      width: 5px;
+    }
+    88% {
+      height: 15px;
+      width: 15px;
+    }
+    89% {
+      height: 35px;
+      width: 35px;
+    }
+    90% {
+      height: 10px;
+      width: 10px;
+    }
+    91% {
+      height: 10px;
+      width: 10px;
+    }
+    92% {
+      height: 45px;
+      width: 45px;
+    }
+    93% {
+      height: 20px;
+      width: 20px;
+    }
+    94% {
+      height: 35px;
+      width: 35px;
+    }
+    95% {
+      height: 35px;
+      width: 35px;
+    }
+    96% {
+      height: 10px;
+      width: 10px;
+    }
+    97% {
+      height: 45px;
+      width: 45px;
+    }
+    98% {
+      height: 20px;
+      width: 20px;
+    }
+    99% {
+      height: 5px;
+      width: 5px;
+    }
+    100% {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  .circle7 {
+    border-color: #09B0F3;
+    animation: expand7 100s ease infinite alternate;
+  }
+  
+  @keyframes expand7 {
+    1% {
+      height: 50px;
+      width: 50px;
+    }
+    2% {
+      height: 5px;
+      width: 5px;
+    }
+    3% {
+      height: 30px;
+      width: 30px;
+    }
+    4% {
+      height: 40px;
+      width: 40px;
+    }
+    5% {
+      height: 5px;
+      width: 5px;
+    }
+    6% {
+      height: 15px;
+      width: 15px;
+    }
+    7% {
+      height: 25px;
+      width: 25px;
+    }
+    8% {
+      height: 45px;
+      width: 45px;
+    }
+    9% {
+      height: 20px;
+      width: 20px;
+    }
+    10% {
+      height: 40px;
+      width: 40px;
+    }
+    11% {
+      height: 50px;
+      width: 50px;
+    }
+    12% {
+      height: 5px;
+      width: 5px;
+    }
+    13% {
+      height: 45px;
+      width: 45px;
+    }
+    14% {
+      height: 45px;
+      width: 45px;
+    }
+    15% {
+      height: 30px;
+      width: 30px;
+    }
+    16% {
+      height: 15px;
+      width: 15px;
+    }
+    17% {
+      height: 20px;
+      width: 20px;
+    }
+    18% {
+      height: 10px;
+      width: 10px;
+    }
+    19% {
+      height: 25px;
+      width: 25px;
+    }
+    20% {
+      height: 30px;
+      width: 30px;
+    }
+    21% {
+      height: 15px;
+      width: 15px;
+    }
+    22% {
+      height: 50px;
+      width: 50px;
+    }
+    23% {
+      height: 35px;
+      width: 35px;
+    }
+    24% {
+      height: 35px;
+      width: 35px;
+    }
+    25% {
+      height: 35px;
+      width: 35px;
+    }
+    26% {
+      height: 20px;
+      width: 20px;
+    }
+    27% {
+      height: 50px;
+      width: 50px;
+    }
+    28% {
+      height: 40px;
+      width: 40px;
+    }
+    29% {
+      height: 25px;
+      width: 25px;
+    }
+    30% {
+      height: 20px;
+      width: 20px;
+    }
+    31% {
+      height: 5px;
+      width: 5px;
+    }
+    32% {
+      height: 45px;
+      width: 45px;
+    }
+    33% {
+      height: 15px;
+      width: 15px;
+    }
+    34% {
+      height: 25px;
+      width: 25px;
+    }
+    35% {
+      height: 5px;
+      width: 5px;
+    }
+    36% {
+      height: 30px;
+      width: 30px;
+    }
+    37% {
+      height: 25px;
+      width: 25px;
+    }
+    38% {
+      height: 15px;
+      width: 15px;
+    }
+    39% {
+      height: 35px;
+      width: 35px;
+    }
+    40% {
+      height: 25px;
+      width: 25px;
+    }
+    41% {
+      height: 50px;
+      width: 50px;
+    }
+    42% {
+      height: 15px;
+      width: 15px;
+    }
+    43% {
+      height: 20px;
+      width: 20px;
+    }
+    44% {
+      height: 35px;
+      width: 35px;
+    }
+    45% {
+      height: 15px;
+      width: 15px;
+    }
+    46% {
+      height: 15px;
+      width: 15px;
+    }
+    47% {
+      height: 45px;
+      width: 45px;
+    }
+    48% {
+      height: 35px;
+      width: 35px;
+    }
+    49% {
+      height: 40px;
+      width: 40px;
+    }
+    50% {
+      height: 20px;
+      width: 20px;
+    }
+    51% {
+      height: 40px;
+      width: 40px;
+    }
+    52% {
+      height: 45px;
+      width: 45px;
+    }
+    53% {
+      height: 10px;
+      width: 10px;
+    }
+    54% {
+      height: 30px;
+      width: 30px;
+    }
+    55% {
+      height: 10px;
+      width: 10px;
+    }
+    56% {
+      height: 35px;
+      width: 35px;
+    }
+    57% {
+      height: 15px;
+      width: 15px;
+    }
+    58% {
+      height: 40px;
+      width: 40px;
+    }
+    59% {
+      height: 5px;
+      width: 5px;
+    }
+    60% {
+      height: 45px;
+      width: 45px;
+    }
+    61% {
+      height: 40px;
+      width: 40px;
+    }
+    62% {
+      height: 20px;
+      width: 20px;
+    }
+    63% {
+      height: 25px;
+      width: 25px;
+    }
+    64% {
+      height: 35px;
+      width: 35px;
+    }
+    65% {
+      height: 50px;
+      width: 50px;
+    }
+    66% {
+      height: 10px;
+      width: 10px;
+    }
+    67% {
+      height: 25px;
+      width: 25px;
+    }
+    68% {
+      height: 15px;
+      width: 15px;
+    }
+    69% {
+      height: 45px;
+      width: 45px;
+    }
+    70% {
+      height: 40px;
+      width: 40px;
+    }
+    71% {
+      height: 10px;
+      width: 10px;
+    }
+    72% {
+      height: 50px;
+      width: 50px;
+    }
+    73% {
+      height: 20px;
+      width: 20px;
+    }
+    74% {
+      height: 45px;
+      width: 45px;
+    }
+    75% {
+      height: 40px;
+      width: 40px;
+    }
+    76% {
+      height: 35px;
+      width: 35px;
+    }
+    77% {
+      height: 35px;
+      width: 35px;
+    }
+    78% {
+      height: 45px;
+      width: 45px;
+    }
+    79% {
+      height: 20px;
+      width: 20px;
+    }
+    80% {
+      height: 45px;
+      width: 45px;
+    }
+    81% {
+      height: 35px;
+      width: 35px;
+    }
+    82% {
+      height: 35px;
+      width: 35px;
+    }
+    83% {
+      height: 50px;
+      width: 50px;
+    }
+    84% {
+      height: 45px;
+      width: 45px;
+    }
+    85% {
+      height: 15px;
+      width: 15px;
+    }
+    86% {
+      height: 10px;
+      width: 10px;
+    }
+    87% {
+      height: 25px;
+      width: 25px;
+    }
+    88% {
+      height: 30px;
+      width: 30px;
+    }
+    89% {
+      height: 35px;
+      width: 35px;
+    }
+    90% {
+      height: 30px;
+      width: 30px;
+    }
+    91% {
+      height: 40px;
+      width: 40px;
+    }
+    92% {
+      height: 45px;
+      width: 45px;
+    }
+    93% {
+      height: 25px;
+      width: 25px;
+    }
+    94% {
+      height: 20px;
+      width: 20px;
+    }
+    95% {
+      height: 50px;
+      width: 50px;
+    }
+    96% {
+      height: 10px;
+      width: 10px;
+    }
+    97% {
+      height: 35px;
+      width: 35px;
+    }
+    98% {
+      height: 5px;
+      width: 5px;
+    }
+    99% {
+      height: 20px;
+      width: 20px;
+    }
+    100% {
+      height: 25px;
+      width: 25px;
+    }
+  }
+  .circle8 {
+    border-color: #FFFFFF;
+    animation: expand8 100s ease infinite alternate;
+  }
+  
+  @keyframes expand8 {
+    1% {
+      height: 5px;
+      width: 5px;
+    }
+    2% {
+      height: 50px;
+      width: 50px;
+    }
+    3% {
+      height: 35px;
+      width: 35px;
+    }
+    4% {
+      height: 20px;
+      width: 20px;
+    }
+    5% {
+      height: 10px;
+      width: 10px;
+    }
+    6% {
+      height: 5px;
+      width: 5px;
+    }
+    7% {
+      height: 35px;
+      width: 35px;
+    }
+    8% {
+      height: 15px;
+      width: 15px;
+    }
+    9% {
+      height: 35px;
+      width: 35px;
+    }
+    10% {
+      height: 5px;
+      width: 5px;
+    }
+    11% {
+      height: 5px;
+      width: 5px;
+    }
+    12% {
+      height: 10px;
+      width: 10px;
+    }
+    13% {
+      height: 30px;
+      width: 30px;
+    }
+    14% {
+      height: 45px;
+      width: 45px;
+    }
+    15% {
+      height: 15px;
+      width: 15px;
+    }
+    16% {
+      height: 15px;
+      width: 15px;
+    }
+    17% {
+      height: 15px;
+      width: 15px;
+    }
+    18% {
+      height: 35px;
+      width: 35px;
+    }
+    19% {
+      height: 40px;
+      width: 40px;
+    }
+    20% {
+      height: 35px;
+      width: 35px;
+    }
+    21% {
+      height: 35px;
+      width: 35px;
+    }
+    22% {
+      height: 35px;
+      width: 35px;
+    }
+    23% {
+      height: 25px;
+      width: 25px;
+    }
+    24% {
+      height: 10px;
+      width: 10px;
+    }
+    25% {
+      height: 10px;
+      width: 10px;
+    }
+    26% {
+      height: 50px;
+      width: 50px;
+    }
+    27% {
+      height: 45px;
+      width: 45px;
+    }
+    28% {
+      height: 40px;
+      width: 40px;
+    }
+    29% {
+      height: 40px;
+      width: 40px;
+    }
+    30% {
+      height: 45px;
+      width: 45px;
+    }
+    31% {
+      height: 50px;
+      width: 50px;
+    }
+    32% {
+      height: 10px;
+      width: 10px;
+    }
+    33% {
+      height: 40px;
+      width: 40px;
+    }
+    34% {
+      height: 20px;
+      width: 20px;
+    }
+    35% {
+      height: 15px;
+      width: 15px;
+    }
+    36% {
+      height: 35px;
+      width: 35px;
+    }
+    37% {
+      height: 15px;
+      width: 15px;
+    }
+    38% {
+      height: 25px;
+      width: 25px;
+    }
+    39% {
+      height: 15px;
+      width: 15px;
+    }
+    40% {
+      height: 5px;
+      width: 5px;
+    }
+    41% {
+      height: 15px;
+      width: 15px;
+    }
+    42% {
+      height: 20px;
+      width: 20px;
+    }
+    43% {
+      height: 45px;
+      width: 45px;
+    }
+    44% {
+      height: 10px;
+      width: 10px;
+    }
+    45% {
+      height: 25px;
+      width: 25px;
+    }
+    46% {
+      height: 30px;
+      width: 30px;
+    }
+    47% {
+      height: 40px;
+      width: 40px;
+    }
+    48% {
+      height: 10px;
+      width: 10px;
+    }
+    49% {
+      height: 40px;
+      width: 40px;
+    }
+    50% {
+      height: 20px;
+      width: 20px;
+    }
+    51% {
+      height: 20px;
+      width: 20px;
+    }
+    52% {
+      height: 20px;
+      width: 20px;
+    }
+    53% {
+      height: 40px;
+      width: 40px;
+    }
+    54% {
+      height: 20px;
+      width: 20px;
+    }
+    55% {
+      height: 5px;
+      width: 5px;
+    }
+    56% {
+      height: 40px;
+      width: 40px;
+    }
+    57% {
+      height: 5px;
+      width: 5px;
+    }
+    58% {
+      height: 45px;
+      width: 45px;
+    }
+    59% {
+      height: 10px;
+      width: 10px;
+    }
+    60% {
+      height: 40px;
+      width: 40px;
+    }
+    61% {
+      height: 20px;
+      width: 20px;
+    }
+    62% {
+      height: 50px;
+      width: 50px;
+    }
+    63% {
+      height: 45px;
+      width: 45px;
+    }
+    64% {
+      height: 15px;
+      width: 15px;
+    }
+    65% {
+      height: 40px;
+      width: 40px;
+    }
+    66% {
+      height: 40px;
+      width: 40px;
+    }
+    67% {
+      height: 15px;
+      width: 15px;
+    }
+    68% {
+      height: 5px;
+      width: 5px;
+    }
+    69% {
+      height: 40px;
+      width: 40px;
+    }
+    70% {
+      height: 25px;
+      width: 25px;
+    }
+    71% {
+      height: 5px;
+      width: 5px;
+    }
+    72% {
+      height: 20px;
+      width: 20px;
+    }
+    73% {
+      height: 50px;
+      width: 50px;
+    }
+    74% {
+      height: 25px;
+      width: 25px;
+    }
+    75% {
+      height: 50px;
+      width: 50px;
+    }
+    76% {
+      height: 50px;
+      width: 50px;
+    }
+    77% {
+      height: 35px;
+      width: 35px;
+    }
+    78% {
+      height: 10px;
+      width: 10px;
+    }
+    79% {
+      height: 20px;
+      width: 20px;
+    }
+    80% {
+      height: 15px;
+      width: 15px;
+    }
+    81% {
+      height: 30px;
+      width: 30px;
+    }
+    82% {
+      height: 30px;
+      width: 30px;
+    }
+    83% {
+      height: 45px;
+      width: 45px;
+    }
+    84% {
+      height: 20px;
+      width: 20px;
+    }
+    85% {
+      height: 30px;
+      width: 30px;
+    }
+    86% {
+      height: 30px;
+      width: 30px;
+    }
+    87% {
+      height: 45px;
+      width: 45px;
+    }
+    88% {
+      height: 45px;
+      width: 45px;
+    }
+    89% {
+      height: 40px;
+      width: 40px;
+    }
+    90% {
+      height: 25px;
+      width: 25px;
+    }
+    91% {
+      height: 30px;
+      width: 30px;
+    }
+    92% {
+      height: 10px;
+      width: 10px;
+    }
+    93% {
+      height: 25px;
+      width: 25px;
+    }
+    94% {
+      height: 50px;
+      width: 50px;
+    }
+    95% {
+      height: 15px;
+      width: 15px;
+    }
+    96% {
+      height: 25px;
+      width: 25px;
+    }
+    97% {
+      height: 40px;
+      width: 40px;
+    }
+    98% {
+      height: 30px;
+      width: 30px;
+    }
+    99% {
+      height: 5px;
+      width: 5px;
+    }
+    100% {
+      height: 5px;
+      width: 5px;
+    }
+  }
+  .circle9 {
+    border-color: #F98264;
+    animation: expand9 100s ease infinite alternate;
+  }
+  
+  @keyframes expand9 {
+    1% {
+      height: 20px;
+      width: 20px;
+    }
+    2% {
+      height: 40px;
+      width: 40px;
+    }
+    3% {
+      height: 35px;
+      width: 35px;
+    }
+    4% {
+      height: 10px;
+      width: 10px;
+    }
+    5% {
+      height: 20px;
+      width: 20px;
+    }
+    6% {
+      height: 15px;
+      width: 15px;
+    }
+    7% {
+      height: 5px;
+      width: 5px;
+    }
+    8% {
+      height: 10px;
+      width: 10px;
+    }
+    9% {
+      height: 15px;
+      width: 15px;
+    }
+    10% {
+      height: 45px;
+      width: 45px;
+    }
+    11% {
+      height: 15px;
+      width: 15px;
+    }
+    12% {
+      height: 35px;
+      width: 35px;
+    }
+    13% {
+      height: 50px;
+      width: 50px;
+    }
+    14% {
+      height: 15px;
+      width: 15px;
+    }
+    15% {
+      height: 40px;
+      width: 40px;
+    }
+    16% {
+      height: 50px;
+      width: 50px;
+    }
+    17% {
+      height: 15px;
+      width: 15px;
+    }
+    18% {
+      height: 45px;
+      width: 45px;
+    }
+    19% {
+      height: 20px;
+      width: 20px;
+    }
+    20% {
+      height: 35px;
+      width: 35px;
+    }
+    21% {
+      height: 50px;
+      width: 50px;
+    }
+    22% {
+      height: 5px;
+      width: 5px;
+    }
+    23% {
+      height: 25px;
+      width: 25px;
+    }
+    24% {
+      height: 25px;
+      width: 25px;
+    }
+    25% {
+      height: 30px;
+      width: 30px;
+    }
+    26% {
+      height: 45px;
+      width: 45px;
+    }
+    27% {
+      height: 20px;
+      width: 20px;
+    }
+    28% {
+      height: 40px;
+      width: 40px;
+    }
+    29% {
+      height: 10px;
+      width: 10px;
+    }
+    30% {
+      height: 20px;
+      width: 20px;
+    }
+    31% {
+      height: 15px;
+      width: 15px;
+    }
+    32% {
+      height: 25px;
+      width: 25px;
+    }
+    33% {
+      height: 25px;
+      width: 25px;
+    }
+    34% {
+      height: 30px;
+      width: 30px;
+    }
+    35% {
+      height: 10px;
+      width: 10px;
+    }
+    36% {
+      height: 20px;
+      width: 20px;
+    }
+    37% {
+      height: 35px;
+      width: 35px;
+    }
+    38% {
+      height: 10px;
+      width: 10px;
+    }
+    39% {
+      height: 20px;
+      width: 20px;
+    }
+    40% {
+      height: 5px;
+      width: 5px;
+    }
+    41% {
+      height: 45px;
+      width: 45px;
+    }
+    42% {
+      height: 45px;
+      width: 45px;
+    }
+    43% {
+      height: 20px;
+      width: 20px;
+    }
+    44% {
+      height: 15px;
+      width: 15px;
+    }
+    45% {
+      height: 10px;
+      width: 10px;
+    }
+    46% {
+      height: 45px;
+      width: 45px;
+    }
+    47% {
+      height: 40px;
+      width: 40px;
+    }
+    48% {
+      height: 50px;
+      width: 50px;
+    }
+    49% {
+      height: 45px;
+      width: 45px;
+    }
+    50% {
+      height: 40px;
+      width: 40px;
+    }
+    51% {
+      height: 25px;
+      width: 25px;
+    }
+    52% {
+      height: 40px;
+      width: 40px;
+    }
+    53% {
+      height: 30px;
+      width: 30px;
+    }
+    54% {
+      height: 35px;
+      width: 35px;
+    }
+    55% {
+      height: 15px;
+      width: 15px;
+    }
+    56% {
+      height: 25px;
+      width: 25px;
+    }
+    57% {
+      height: 45px;
+      width: 45px;
+    }
+    58% {
+      height: 15px;
+      width: 15px;
+    }
+    59% {
+      height: 25px;
+      width: 25px;
+    }
+    60% {
+      height: 10px;
+      width: 10px;
+    }
+    61% {
+      height: 10px;
+      width: 10px;
+    }
+    62% {
+      height: 30px;
+      width: 30px;
+    }
+    63% {
+      height: 10px;
+      width: 10px;
+    }
+    64% {
+      height: 50px;
+      width: 50px;
+    }
+    65% {
+      height: 15px;
+      width: 15px;
+    }
+    66% {
+      height: 15px;
+      width: 15px;
+    }
+    67% {
+      height: 25px;
+      width: 25px;
+    }
+    68% {
+      height: 15px;
+      width: 15px;
+    }
+    69% {
+      height: 40px;
+      width: 40px;
+    }
+    70% {
+      height: 40px;
+      width: 40px;
+    }
+    71% {
+      height: 20px;
+      width: 20px;
+    }
+    72% {
+      height: 20px;
+      width: 20px;
+    }
+    73% {
+      height: 10px;
+      width: 10px;
+    }
+    74% {
+      height: 25px;
+      width: 25px;
+    }
+    75% {
+      height: 20px;
+      width: 20px;
+    }
+    76% {
+      height: 50px;
+      width: 50px;
+    }
+    77% {
+      height: 20px;
+      width: 20px;
+    }
+    78% {
+      height: 30px;
+      width: 30px;
+    }
+    79% {
+      height: 20px;
+      width: 20px;
+    }
+    80% {
+      height: 25px;
+      width: 25px;
+    }
+    81% {
+      height: 10px;
+      width: 10px;
+    }
+    82% {
+      height: 20px;
+      width: 20px;
+    }
+    83% {
+      height: 10px;
+      width: 10px;
+    }
+    84% {
+      height: 35px;
+      width: 35px;
+    }
+    85% {
+      height: 15px;
+      width: 15px;
+    }
+    86% {
+      height: 20px;
+      width: 20px;
+    }
+    87% {
+      height: 5px;
+      width: 5px;
+    }
+    88% {
+      height: 10px;
+      width: 10px;
+    }
+    89% {
+      height: 40px;
+      width: 40px;
+    }
+    90% {
+      height: 35px;
+      width: 35px;
+    }
+    91% {
+      height: 5px;
+      width: 5px;
+    }
+    92% {
+      height: 40px;
+      width: 40px;
+    }
+    93% {
+      height: 35px;
+      width: 35px;
+    }
+    94% {
+      height: 50px;
+      width: 50px;
+    }
+    95% {
+      height: 45px;
+      width: 45px;
+    }
+    96% {
+      height: 10px;
+      width: 10px;
+    }
+    97% {
+      height: 50px;
+      width: 50px;
+    }
+    98% {
+      height: 45px;
+      width: 45px;
+    }
+    99% {
+      height: 5px;
+      width: 5px;
+    }
+    100% {
+      height: 45px;
+      width: 45px;
+    }
+  }
+  

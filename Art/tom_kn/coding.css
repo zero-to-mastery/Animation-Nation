@@ -1,0 +1,168 @@
+
+
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+@keyframes typing {
+	0% {
+		width: 0;
+	}
+	50% {
+		width: 0;
+	}
+
+	100% {
+		width: 100;
+	}
+}
+
+@keyframes text-animations {
+	0% {
+		margin-top: 50px;
+		transform: scale(1);
+	}
+
+	25% {
+		/* Zoom-in */
+		margin-top: 300px;
+		margin-left: 60%;
+		transform: scale(25);
+	}
+
+	55% {
+		/* Rotate */
+		transform: scale(25) rotate(90deg);
+	}
+
+	85% {
+		/* Scrolling */
+		transform: scale(25) rotate(90deg) translate(-37%);
+	}
+
+	100% {
+		/* Travel into */
+		visibility: hidden;
+		transform: scale(800) rotate(90deg) translate(-37%);
+		
+	}
+}
+
+
+@keyframes scene-change {
+
+	100% {
+		visibility: visible;
+	}
+}
+
+
+.container {
+	position: relative;
+}
+
+.text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	margin: 100px 0 0 25%;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 900px;
+	
+	animation: typing 5s steps(50, end), text-animations 7s 5.5s;
+	-webkit-animation: typing 5s steps(50, end), text-animations 7s 5.5s;
+	-moz-animation: typing 5s steps(50, end), text-animations 7s 5.5s;
+}
+
+.code-bg {
+	position: absolute;
+	visibility: hidden;
+	color: white;
+	background-color: black;
+	top: 0;
+	width: 110vw;
+	height: 110vh;
+
+	animation: scene-change 0s 12.5s forwards;
+	-webkit-animation: scene-change 0s 12.5s forwards;
+	-moz-animation: scene-change 0s 12.5s forwards;
+}
+
+.code-container {
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 28px;
+	margin: 0 0 0 35%;
+	padding-top: 70px; 
+	width: 110vw;
+	height: 110vh;
+}
+
+.code {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.span {
+	display: inline-block;
+}
+
+.dark-blue {
+	color: #2985c4;
+}
+
+.light-blue {
+	color: #8cc6ff;
+}
+
+.green {
+	color: #6dad9c;
+}
+
+.rose {
+	color: #b176a6;
+}
+
+.yellow {
+	color: #f7d490;
+}
+
+.line-1 {
+	width: 400px;
+	animation: typing 4s 10.5s steps(50, end);
+}
+.line-2 {
+	width: 500px;
+	animation: typing 8s 10.5s steps(100, end);
+}
+.line-3 {
+	width: 800px;
+	animation: typing 12s 10.5s steps(100, end);
+}
+.line-4 {
+	width: 1400px;
+	animation: typing 13s 10.5s steps(200, end);
+}
+.line-5 {
+	width: 1600px;
+	animation: typing 15s 10.5s steps(200, end);
+}
+.line-6 {
+	width: 1800px;
+	animation: typing 17s 10.5s steps(200, end);
+}
+.line-7 {
+	width: 2600px;
+	animation: typing 19s 10.5s steps(70, end);
+}
+
+
+
+
+
+
+
+
+
+
+

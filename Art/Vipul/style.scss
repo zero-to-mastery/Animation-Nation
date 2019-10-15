@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+$main-color: #454545;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 240px;
+  height: 40px;
+  background: #fff;
+  text-align: left;
+  padding-left: 15px;
+  letter-spacing: 1.5px;
+  border: 1px solid $main-color;
+  border-radius: 3px;
+  opacity: 0.3;
+  font-family: 'Acme', sans-serif;
+  transition: 0.4s all ease;
+  outline-color: $main-color;
+}
+
+.btn:hover {
+  opacity: 1;
+  i {
+    transform: translateX(8px) scale(1.2);
+  }
+}
+
+i {
+  float: right;
+  margin-right: 15px;
+  transition: 0.5s all ease;
+}
+

@@ -1,0 +1,103 @@
+html{
+    overflow:hidden;
+}
+
+body{
+    background:linear-gradient(90deg, #8352a9 , #adb5dc, #bf6873);
+    background-size: 600% 600%;
+    animation: GradientChange 5s ease infinite;
+}
+
+.animationboxes{
+    position:absolute;
+    height:300px;
+    
+}
+
+.box-shape{
+    position: relative;
+	width: 100px;
+    height: 100px;
+    animation: Move 5s linear 0s infinite alternate, UpnDown 5s linear 0s infinite alternate;
+}
+
+.box-shape::after{
+    content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    background-image: linear-gradient(90deg, #8352a9 , #adb5dc, #bf6873);
+    background-size: 600% 600%;
+
+    animation: GradientChange 5s ease infinite, Rotate 5s linear 0s infinite alternate;
+}
+
+.box2-shape{
+    position: relative;
+	width: 100px;
+    height: 100px;
+    animation: Move2 5s linear 0s infinite alternate, UpnDown 5s linear 0s infinite alternate;
+}
+
+.box2-shape::after{
+    content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    background-image: linear-gradient(90deg, #8352a9 , #adb5dc, #bf6873);
+    background-size: 600% 600%;
+
+    animation: GradientChange 5s ease infinite, Rotate 5s linear 0s infinite alternate;
+}
+
+p{
+    display:inline-block;
+    color: Pink; 
+    font-family: "Courier";
+    font-size: 40px;
+    font-style: italic;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    margin: -100px 0 0 -200px;
+    top: 50%;
+    left: 50%;
+    animation: type 2s steps(100, end); 
+  }
+
+  .Wrapper{
+    text-align: center;
+  }
+  
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+
+@keyframes GradientChange {
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+}
+
+@keyframes Move {
+    0% {left: 0vw;}  
+    100% {left: 93vw;}
+}
+
+@keyframes Move2 {
+    0% {left: 93vw;}  
+    100% {left: 0vw;}
+}
+
+@keyframes Rotate {
+    0% {transform: rotate(360deg)};
+}
+
+@keyframes UpnDown{
+    0% {bottom: 0px;}
+    50%{bottom: 150px;}  
+    100% {bottom: 0px;}
+}

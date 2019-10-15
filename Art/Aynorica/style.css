@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes displaying {
+    15% {
+        opacity: 0.2;
+        margin-top: 12vh;
+        font-size: 0.7vw;
+    }
+    30% {
+        margin-top: 6vh;
+    }
+    45% {
+        opacity: 0.6;
+        margin-top: 14vh;
+        font-size: 2.1vw;
+    }
+    60% {
+        margin-top: 7vh;
+    }
+    75% {
+        opacity: 1;
+        margin-top: 16vh;
+        font-size: 3.5vw;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes background {
+    0% {
+        background-color: #f1f1f1;
+    }
+    50% {
+        background-color: #0c3848;
+        color: white;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.47);
+    }
+    100%{
+        background-color: #f1f1f1;
+        color:black;
+    }
+}
+
+@keyframes reveal {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    100% {opacity: 0}
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    animation: background;
+    animation-duration: 11s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    background-color: #f1f1f1;
+    font-family: Roboto;
+}
+
+.quote {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.all {
+    height: 10px;
+    margin-right: 14px;
+    margin-top: -21%;
+
+
+}
+.reveal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    opacity: 0;
+    margin-top: 16vh;
+    font-size: 3.5vw;
+    animation: reveal;
+    animation-duration: 2s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.first {
+    max-width: 3vm;
+    animation: displaying;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.second {
+    max-width: 3vm;
+    animation: displaying;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.third {
+    max-width: 3vm;
+    animation: displaying;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.fourth {
+    max-width: 3vm;
+    animation: displaying;
+    animation-duration: 4s;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.fifth {
+    max-width: 3vm;
+    animation: displaying;
+    animation-duration: 4s;
+    animation-delay: 8s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.sixth {
+    max-width: 3vm;
+    animation: displaying;
+    animation-duration: 4s;
+    animation-delay: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.seventh {
+    max-width: 3vm;
+    animation: displaying;
+    animation-duration: 4s;
+    animation-delay: 12s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+.eighth {
+    max-width: 3vm;
+    animation: displaying;
+    animation-duration: 4s;
+    animation-delay: 14s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+

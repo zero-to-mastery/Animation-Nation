@@ -1,0 +1,72 @@
+body{
+  text-align: center;
+  background: linear-gradient(343deg, #f70202, #0b0412);
+  background-size: 400% 400%;
+  -webkit-animation: background 52s ease infinite;
+  -moz-animation: background 52s ease infinite;
+  animation: background 52s ease infinite;
+}
+
+
+@-webkit-keyframes background {
+    0%{background-position:26% 0%}
+    50%{background-position:75% 100%}
+    100%{background-position:26% 0%}
+}
+@-moz-keyframes background {
+    0%{background-position:26% 0%}
+    50%{background-position:75% 100%}
+    100%{background-position:26% 0%}
+}
+@keyframes background {
+    0%{background-position:26% 0%}
+    50%{background-position:75% 100%}
+    100%{background-position:26% 0%}
+}
+
+.rollIn {
+   font-size: 15rem;
+  -webkit-animation: rollIn 2s infinite;
+  -moz-animation:    rollIn 2s infinite;
+  -o-animation:      rollIn 2s infinite;
+  animation:         rollIn 3s infinite;
+
+}
+ 
+
+@-webkit-keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+   
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+   
+  }
+}
+
+@keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    color: yellow;
+    }
+}
+
+.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+}
+

@@ -1,0 +1,229 @@
+@font-face {
+	font-family: 'Anton';
+	font-weight: 400;
+	font-style: normal;
+	src: url('./Anton.ttf') format('truetype');
+	font-display: swap;
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Anton&display=swap'); */
+
+/*Slide In Animation*/
+@keyframes slideIn {
+	from {
+		margin-left: -50%;
+		opacity: 0.1;
+		transform: scale(2);
+	}
+
+	to {
+		margin-left: 0;
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.slideIn {
+	animation: slideIn 3s;
+	color: yellow;
+}
+
+/*Bounce Animation */
+@keyframes bounce {
+	0% {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	5% {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	15% {
+		transform: translateY(0);
+		padding-bottom: 5px;
+	}
+	30% {
+		transform: translateY(-50%);
+	}
+	40% {
+		transform: translateY(0%);
+		padding-bottom: 6px;
+	}
+	50% {
+		transform: translateY(-30%);
+	}
+	70% {
+		transform: translateY(0%);
+		padding-bottom: 7px;
+	}
+	80% {
+		transform: translateY(-15%);
+	}
+	97% {
+		transform: translateY(0%);
+		padding-bottom: 9px;
+	}
+
+	100% {
+		transform: translateY(0);
+		padding-bottom: 9px;
+		opacity: 1;
+	}
+}
+
+.bounce {
+	animation: bounce 3s;
+}
+
+/*Hinge animation */
+@keyframes hinge {
+	from {
+		transform: rotate(-180deg) translateY(0);
+		opacity: 0.1;
+		transform-origin: top right;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.hinge {
+	animation: hinge 3s;
+	color: yellow;
+}
+
+/*Body of Page*/
+body {
+	margin: 0;
+	overflow: hidden;
+	font-family: 'Anton', sans-serif;
+	font-size: 5rem;
+	text-align: center;
+	min-height: 100vh;
+	background: radial-gradient(ellipse at top, transparent, #1c3b65),
+		radial-gradient(ellipse at bottom, transparent, #3d71b2);
+}
+
+.span {
+	font: 700 7rem/1 'Anton', sans-serif;
+	letter-spacing: 5px;
+	padding: 0.25em 0 0.325em;
+	margin: 0 auto;
+	opacity: 0;
+	filter: drop-shadow(0px -2px 0px black) drop-shadow(0px 2px 0px black) drop-shadow(2px 0px 0px black)
+		drop-shadow(-2px 0px 0px black) drop-shadow(0px 5px 5px black);
+	/* Clip Background Image */
+	background-position: 50% 50%;
+	background: url(./bg.jpg) repeat-y;
+	-webkit-background-clip: text;
+	background-clip: text;
+
+	/* Animate Background Image */
+
+	-webkit-text-fill-color: transparent;
+	animation: bgMove 20s infinite linear, fadeIn 0.5s 5s;
+	animation-fill-mode: forwards;
+	/* Activate hardware acceleration for smoother animations */
+
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+
+@keyframes bgMove {
+	0% {
+		background-position: 0% 0%;
+	}
+	10% {
+		background-position: 25% 50%;
+	}
+	20% {
+		background-position: 100% 70%;
+	}
+	30% {
+		background-position: 25% 30%;
+	}
+	40% {
+		background-position: 100% 50%;
+	}
+	50% {
+		background-position: 25% 70%;
+	}
+	60% {
+		background-position: 100% 30%;
+	}
+	70% {
+		background-position: 25% 50%;
+	}
+	80% {
+		background-position: 100% 70%;
+	}
+	90% {
+		background-position: 25% 30%;
+	}
+	100% {
+		background-position: 40% 30%;
+	}
+}
+
+.ztm {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	left: 50vw;
+	margin-left: -50vw;
+	top: 30%;
+	margin-top: -30px;
+}
+
+@keyframes smoky {
+	60% {
+		text-shadow: 0 0 40px whitesmoke;
+	}
+	to {
+		transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg) scale(1.5);
+		text-shadow: 0 0 20px whitesmoke;
+		opacity: 0;
+	}
+}
+
+@keyframes smoky-mirror {
+	60% {
+		text-shadow: 0 0 40px whitesmoke;
+	}
+	to {
+		transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg) scale(2);
+		text-shadow: 0 0 20px whitesmoke;
+		opacity: 0;
+	}
+}
+
+.word {
+	margin: 0 10px 0 10px;
+	animation: smoky 3s 3s both;
+}
+
+.word:nth-child(even) {
+	animation-name: smoky-mirror;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 0.25;
+	}
+
+	50% {
+		opacity: 0.5;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

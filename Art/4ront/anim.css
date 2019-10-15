@@ -1,0 +1,104 @@
+body {
+  background: rgb(130, 192, 221);
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-ball {
+  animation: main-circle 8s ease-in infinite;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  height: 100%;
+  position: relative;
+  width: 70vw;
+}
+
+.ball {
+  animation: shake 0.9s linear infinite;
+  background-color: #456;
+  border-radius: 50%;
+  height: 100px;
+  position: absolute;
+  /* transform: translate(-50%, -50%); */
+  width: 100px;
+}
+
+.ball-1 {
+  background: rgb(41, 179, 221);
+  left: 40%;
+  top: 10%;
+}
+
+.ball-2 {
+  background: rgb(41, 179, 221);
+  left: 5%;
+  top: 35%;
+}
+
+.ball-3 {
+  background: rgb(41, 179, 221);
+  left: 20%;
+  top: 70%;
+}
+
+
+.ball-4 {
+  background: rgb(41, 179, 221);
+  left: 75%;
+  top: 30%;
+}
+
+.ball-5 {
+  background: rgb(41, 179, 221);
+  left: 60%;
+  top: 70%;
+}
+
+.ball-6 {
+  background: rgb(41, 179, 221);
+  left: 40%;
+  top: 40%;
+}
+
+
+@keyframes main-circle {
+
+  0%,
+  100% {
+    transform: translate(0, -5%);
+  }
+
+  20%,
+  80% {
+    transform: translate(40%, 5%);
+  }
+
+  40%,
+  60% {
+    transform: translate(60%, -5%);
+  }
+
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: scale(1, 0);
+  }
+
+  25% {
+    transform: scale(0, 1);
+  }
+
+  50% {
+    transform: scale(1, 0);
+  }
+
+  75% {
+    transform: scale(0, 1);
+  }
+
+}

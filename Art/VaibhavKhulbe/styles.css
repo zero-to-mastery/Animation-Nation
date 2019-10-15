@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  background-color: rgb(22, 22, 22);
+}
+
+.ellipses div {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  top: 40vh;
+  width: 50px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(rgb(22, 22, 22), white 70%);
+}
+
+.text {
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  top: 50%;
+  left: 48%;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.ellipses div:nth-child(1) {
+  left: 6px;
+  animation: ellipses1 .8s infinite;
+}
+.ellipses div:nth-child(2) {
+  left: 6px;
+  animation: ellipses2 .8s infinite;
+}
+.ellipses div:nth-child(3) {
+  left: 26px;
+  animation: ellipses2 .8s infinite;
+}
+.ellipses div:nth-child(4) {
+  left: 45px;
+  animation: ellipses3 .8s infinite;
+}
+@keyframes ellipses1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes ellipses3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes ellipses2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20px, 0);
+  }
+}

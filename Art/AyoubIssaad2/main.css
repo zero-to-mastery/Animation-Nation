@@ -1,0 +1,82 @@
+.box {
+    margin: 300px auto;
+    position: relative;
+    color: #a8326d;
+    width: 570px;
+    height: 50px;
+    font-size: 2rem;
+    box-sizing: border-box;
+}
+
+.box-inner {
+    position: relative;
+}
+
+.box > div > span, .box > span {
+    display: block;
+    transition: all 1s ease;
+    position: absolute;
+    top:0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box > div > span {
+    top:7px;
+}
+
+.box > div > span:not(:first-child) {
+    opacity: 0;
+}
+
+.box > div > span.hover-me {
+    transition-duration: .1s;
+}
+
+.box > span.l-top, .box > span.l-bottom {
+    border-top: 2px solid #a8326d;
+    transform: scale(0, 1);
+    transform-origin: left;
+    transition-duration: .2s
+}
+
+.box > span.l-left, .box > span.l-right {
+    border-left: 2px solid #a8326d;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition-duration: .3s
+}
+
+.box > span.l-bottom {
+    top: 48px;
+    transition-delay: .5s
+}
+
+.box > span.l-right {
+    left: 568px;
+    transition-delay: .5s
+}
+
+.box:hover > span.l-top, .box:hover > span.l-left, 
+.box:hover > span.l-bottom, .box:hover > span.l-right {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.box:hover > div > span.hover-me {
+    left: -150px;
+    opacity: 0;
+}
+
+.box:hover > div > span.hi {
+    opacity: 1;
+    left: 14px;
+}
+
+.box:hover > div > span.message {
+    opacity: 1;
+    left: 65px;
+    transition-delay: .25s;
+    transition-duration: .2s;
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  background-color: #000533;
+}
+
+.loader .ball {
+  position: relative;
+  display: block;
+  margin: auto;
+  top: 45vh;
+  width: 40px;
+  height: 10px;
+  background-color: #e91e63;
+}
+
+.loader .loading-text {
+  position: relative;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  top: 50vh;
+  font-family: "Roboto";
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.loader div:nth-child(1) {
+  animation: ball1 0.8s infinite;
+}
+
+.loader div:nth-child(2) {
+  animation: ball2 0.8s infinite;
+}
+
+.loader div:nth-child(3) {
+  animation: ball3 0.8s infinite;
+}
+
+@keyframes ball1 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(0.1);
+  }
+}
+
+@keyframes ball2 {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(0.3);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+@keyframes ball3 {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
