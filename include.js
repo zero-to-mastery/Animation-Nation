@@ -894,6 +894,13 @@ let cards = [
     imageLink: "./Art/hereisfahad/hinge.png",
     author: "Hereisfahad",
     githubLink: "https://github.com/hereisfahad"
+    },
+  {
+        artName: "Animation",
+        pageLink: "./Art/PaulBillings/animation.html",
+        imageLink: "./Art/PaulBillings/animation.gif",
+        author: "Paul Billings",
+        githubLink: "https://github.com/paulbillings"
     }
 ];
 
