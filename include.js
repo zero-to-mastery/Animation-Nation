@@ -892,7 +892,7 @@ let cards = [
         artName: "Letters flipUp",
         pageLink: "./Art/TerenceBiney/index.html",
         imageLink: "./Art/TerenceBiney/lettersanimate.gif",
-        author: "Terence Biney"
+        author: "Terence Biney",
         githubLink: "https://github.com/Tereflech17"
     }
 ];
