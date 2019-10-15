@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to top right, #484848, #1a592f);
+}
+div {
+  display: flex;
+  height: 60px;
+  margin: 20px;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.outer-eye {
+  width: 120px;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.iris {
+  width: 55px;
+  position: relative;
+  top: -20px;
+  left: 13px;
+  background-color: #261cb9;
+  animation: popping 1.4s infinite;
+}
+
+.inner {
+  background-color: #111;
+  width: 25px;
+  height: 25px;
+  left: -5px;
+  top: -3px;
+  animation: popping 1.4s infinite;
+}
+
+@keyframes popping {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}

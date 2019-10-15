@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.size {
+  width: 150px;
+  height: 200px;
+}
+
+.main-rectangle {
+  background: linear-gradient(#40C4FF, #7C4DFF);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.rect1 {
+  background: linear-gradient(#FFEA00, #FFC400);
+  transform: translateY(200px);
+  animation: move 2s infinite alternate;
+}
+
+.rect2 {
+  background: linear-gradient(#FF4081, #C51162);
+  transform: translateY(200px);
+  animation: move 2s infinite alternate;
+}
+
+@keyframes move {
+  to {
+    transform: translateY(-200px);
+  }
+}
