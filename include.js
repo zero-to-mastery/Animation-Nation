@@ -889,6 +889,13 @@ let cards = [
     githubLink: "https://github.com/jmtellez"
     },
     {
+        artName: "Letters flipUp",
+        pageLink: "./Art/TerenceBiney/index.html",
+        imageLink: "./Art/TerenceBiney/lettersanimate.gif",
+        author: "Terence Biney",
+        githubLink: "https://github.com/Tereflech17"
+    },
+  {
         artName: "Colors rectangle",
         pageLink: "./Art/beaps3/index.html",
         imageLink: "./Art/beaps3/colors-rectangle.gif",
