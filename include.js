@@ -887,7 +887,14 @@ let cards = [
     imageLink: "https://media.giphy.com/media/RKSRPGiIsy1f3Ji3j1/giphy.gif",
     author: "Juan T.",
     githubLink: "https://github.com/jmtellez"
-    }
+    },
+    {
+      artName: "Oscillation",
+      pageLink: "./Art/Oscillation/index.html",
+      imageLink: "./Art/Oscillation/oscillation.gif",
+      author: "Nandhakumar",
+      githubLink: "https://github.com/Nandhakumar7792"
+    },
 ];
 
 
