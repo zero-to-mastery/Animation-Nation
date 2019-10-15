@@ -933,7 +933,15 @@ let cards = [
         author: "Nandhakumar",
         githubLink: "https://github.com/Nandhakumar7792"
       },
+    {
+        artName: "yin-yang",
+        pageLink: "./Art/yin-yang/index.html",
+        imageLink: "./Art/yin-yang/Halloween.gif",
+        author: "Nandhakumar",
+        githubLink: "https://github.com/Nandhakumar7792"
+      },
   {
+
     artName: "Eyes",
     pageLink: "./Art/Ltheory/main.html",
     imageLink: "./Art/Ltheory/eyes.gif",
