@@ -867,6 +867,13 @@ let cards = [
         author: "Grieff",
         githubLink: "https://github.com/grieff"
     },
+  {
+    artName: "animationHalloween",
+    pageLink: "./Art/mawais54013/index.html",
+    imageLink: "./Art/mawais54013/Halloween.gif",
+    author: "mawais54013",
+    githubLink: "https://github.com/mawais54013"
+  }
 ];
 
 
