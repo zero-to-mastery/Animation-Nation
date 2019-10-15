@@ -873,7 +873,14 @@ let cards = [
     imageLink: "./Art/mawais54013/Halloween.gif",
     author: "mawais54013",
     githubLink: "https://github.com/mawais54013"
-  }
+  },
+    {
+    artName: "Hacktoberfest Letter Popups",
+    pageLink: "./Art/jmt3559/index.html",
+    imageLink: "https://media.giphy.com/media/RKSRPGiIsy1f3Ji3j1/giphy.gif",
+    author: "Juan T.",
+    githubLink: "https://github.com/jmtellez"
+    }
 ];
 
 
