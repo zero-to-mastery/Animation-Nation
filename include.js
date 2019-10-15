@@ -894,6 +894,27 @@ let cards = [
         imageLink: "./Art/TerenceBiney/lettersanimate.gif",
         author: "Terence Biney",
         githubLink: "https://github.com/Tereflech17"
+    },
+  {
+        artName: "Colors rectangle",
+        pageLink: "./Art/beaps3/index.html",
+        imageLink: "./Art/beaps3/colors-rectangle.gif",
+        author: "beaps",
+        githubLink: "https://github.com/beaps"
+    },
+  {
+    artName: "Hinge",
+    pageLink: "./Art/hereisfahad/index.html",
+    imageLink: "./Art/hereisfahad/hinge.png",
+    author: "Hereisfahad",
+    githubLink: "https://github.com/hereisfahad"
+    },
+  {
+        artName: "Animation",
+        pageLink: "./Art/PaulBillings/animation.html",
+        imageLink: "./Art/PaulBillings/animation.gif",
+        author: "Paul Billings",
+        githubLink: "https://github.com/paulbillings"
     }
 ];
 
