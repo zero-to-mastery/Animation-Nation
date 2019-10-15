@@ -1,0 +1,142 @@
+
+#container {
+	display: flex;
+  flex-wrap: nowrap;
+}
+
+#container > div {
+  width: 300px;
+  height: 300px;
+  margin: 250px;   
+  animation-name: square;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position:relative;  
+  display:flex;
+}
+
+@keyframes square {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+    transform: rotate(360deg);
+  }
+}
+
+.bouncingball {
+  width:30px;
+  height:30px;
+  border-radius:100%;
+  background:#CCC;
+  animation: bounce 1.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  from {background-color: lightgreen;}
+  to {
+    background-color: blue;
+    transform: translateY(270px);
+  } 
+}
+
+.bouncingball1 {
+    width:30px;
+    height:30px;
+    border-radius:100%;
+    background:#CCC;
+    animation: bounce 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.bouncingball2 {
+    width:30px;
+    height:30px;
+  border-radius:100%;
+  background:#CCC;
+  animation: bounce 2.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+.bouncingball3 {
+    width:30px;
+    height:30px;
+  border-radius:100%;
+  background:#CCC;
+  animation: bounce 2.4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+.bouncingball4 {
+    width:30px;
+    height:30px;
+  border-radius:100%;
+  background:#CCC;
+  animation: bounce 2.6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+.bouncingball5 {
+    width:30px;
+    height:30px;
+  border-radius:100%;
+  background:#CCC;
+  animation: bounce 2.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.bouncingball6 {
+    width:30px;
+    height:30px;
+  border-radius:100%;
+  background:#CCC;
+  animation: bounce 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.bouncingball7 {
+    width:30px;
+    height:30px;
+  border-radius:100%;
+  background:#CCC;
+  animation: bounce 3.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+.bouncingball8 {
+    width:30px;
+    height:30px;
+  border-radius:100%;
+  background:#CCC;
+  animation: bounce 3.4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+.bouncingball9 {
+    width:30px;
+    height:30px;
+  border-radius:100%;
+  background:#CCC;
+  animation: bounce 3.6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
