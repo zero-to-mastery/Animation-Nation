@@ -887,6 +887,13 @@ let cards = [
     imageLink: "https://media.giphy.com/media/RKSRPGiIsy1f3Ji3j1/giphy.gif",
     author: "Juan T.",
     githubLink: "https://github.com/jmtellez"
+    },
+    {
+        artName: "Colors rectangle",
+        pageLink: "./Art/beaps3/index.html",
+        imageLink: "./Art/beaps3/colors-rectangle.gif",
+        author: "beaps",
+        githubLink: "https://github.com/beaps"
     }
 ];
 
