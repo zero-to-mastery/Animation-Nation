@@ -6,7 +6,15 @@ let cards = [
       imageLink: "./Art/Joy/triangle.gif",
       author: "Joy",
       githubLink: "https://github.com/royranger"
+    },
+    {
+      artName: "clock-animation",
+      pageLink: "./Art/clock-animation/clock.html",
+      imageLink: "./Art/clock-animation/clock.gif",
+      author: "Alan sarluv",
+      githubLink: "https://github.com/alansarluv"
     }
+    
 ];
 
 
