@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  align-items: center;
+  background: #FFFDE7;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.circle {
+  animation: loader 1.8s infinite alternate;
+  border-radius: 50%;
+  border: 8px solid transparent;
+  height: 80px;
+  width: 80px;
+}
+
+@keyframes loader {
+  0% {
+    border-left-color: #FFC400;
+    border-right-color: #00B0FF;
+    transform: scale(1) rotate(180deg);
+  }
+  
+  100% {
+    border-bottom-color: #FFC400;
+    border-top-color: #00B0FF;
+    transform: scale(0.7);
+  }
+}
