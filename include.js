@@ -940,6 +940,13 @@ let cards = [
         author: "Nandhakumar",
         githubLink: "https://github.com/Nandhakumar7792"
       },
+    {
+        artName: "eggJiggle",
+        pageLink: "./Art/eggJiggle/index.html",
+        imageLink: "./Art/eggJiggle/eggJiggle.gif",
+        author: "Nandhakumar",
+        githubLink: "https://github.com/Nandhakumar7792"
+      },
   {
 
     artName: "Eyes",
