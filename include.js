@@ -889,6 +889,13 @@ let cards = [
     githubLink: "https://github.com/jmtellez"
     },
     {
+        artName: "Colors rectangle",
+        pageLink: "./Art/beaps3/index.html",
+        imageLink: "./Art/beaps3/colors-rectangle.gif",
+        author: "beaps",
+        githubLink: "https://github.com/beaps"
+    },
+  {
     artName: "Hinge",
     pageLink: "./Art/hereisfahad/index.html",
     imageLink: "./Art/hereisfahad/hinge.png",
