@@ -48,7 +48,7 @@ body {
 
 .clock-rotating-wrapper span.clock-hour-pointer::after {
   content: '';
-  border: 2px solid black;
+  border: 5px solid black;
   border-radius: 10px;
   position: absolute;
   height: 75px;
@@ -59,7 +59,7 @@ body {
 
 .clock-rotating-wrapper span.clock-min-pointer::after {
   content: '';
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 10px;
   position: absolute;
   height: 105px;
@@ -77,4 +77,22 @@ body {
   top: 30px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.clock-rotating-wrapper span.clock-sec-pointer {
+  animation: rotateme 2s linear infinite;
+}
+.clock-rotating-wrapper span.clock-min-pointer {
+  animation: rotateme 10s linear infinite;
+}
+.clock-rotating-wrapper span.clock-hour-pointer {
+  animation: rotateme 30s linear infinite;
+}
+
+
+
+@keyframes rotateme {
+  100% {
+      transform: rotate(360deg);
+  }
 }
