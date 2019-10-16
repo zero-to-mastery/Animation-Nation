@@ -1389,6 +1389,13 @@ let cards = [
     githubLink: "https://github.com/Ltheory"
   },
   {
+    artName: "Jelly!",
+    pageLink: "./Art/Joy/index.html",
+    imageLink: "./Art/Joy/jelly.gif",
+    author: "Pete331",
+    githubLink: "https://github.com/Pete331"
+  },
+  {
     artName: "clock-animation",
     pageLink: "./Art/clock-animation/clock.html",
     imageLink: "./Art/clock-animation/clock.gif",
