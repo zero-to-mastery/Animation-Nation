@@ -30,7 +30,6 @@ body {
     position: relative;
     width: var(--container-size);
     height: var(--container-size);
-    /* border: 1px solid red; */
     transform-style: preserve-3d;
 
     animation: rotate 15s linear infinite;
@@ -56,14 +55,7 @@ body {
     position: absolute;
     border-radius: 80%;
 
-    /* box-shadow: 0px 0px 221px -16px rgba(0,255,242,0.83), inset 128px 0px 221px -16px rgba(0,110,245,1); */
-    box-shadow: 0px 0px 100px 50px rgba(0,255,242,0.4), inset 128px 0px 221px -16px rgb(21, 42, 68);
-}
-
-.earth span {
-    width: 20px;
-    height: 20px;
-    background: green;
+    box-shadow: 0px 0px 12px 7px rgba(80, 124, 122, 0.3), inset 128px 0px 199px -16px rgb(21, 42, 68);
 }
 
 
@@ -85,24 +77,24 @@ body {
 .moon:nth-child(2) {
     transform: translate3d(var(--moon-x-start), 0, 0);
     transform-style: preserve-3d;
-    box-shadow: inset 128px 0px 221px -16px rgb(51, 51, 51);
+    box-shadow: inset 10px 7px 22px 9.7px rgb(51, 51, 51);
     
     animation: 
         moon-rotate var(--moon-animation-duration) ease-in-out 0s infinite alternate,
-        show-hide calc(var(--moon-animation-duration) * 2) linear 0s infinite,
+        show-hide calc(var(--moon-animation-duration) * 2) ease-in-out 0s infinite,
         transform 10s ease-in-out infinite both alternate;
 }
 
 .moon:nth-child(3) {
     transform: translate3d(var(--moon-x-end), 0, 0);
     transform-style: preserve-3d;
-    box-shadow: inset 128px 0px 221px -16px rgb(14, 12, 12);
+    box-shadow: inset 10px 7px 22px 9.7px rgb(29, 25, 25);
 
     --animation-speed: calc(var(--moon-animation-duration) * 0.5);
     
     animation: 
         moon-rotate-2 var(--animation-speed) ease-in-out 0s infinite alternate,
-        show-hide calc(var(--animation-speed) * 2) linear 0s infinite reverse,
+        show-hide calc(var(--animation-speed) * 2) ease-in-out 0s infinite reverse,
         transform 2s ease-in-out infinite both alternate;
 }
 
@@ -126,28 +118,22 @@ body {
 
 @keyframes show-hide {
     0% {
-        z-index: 1;
-        /* background: green; */
+        z-index: 1; 
     }
     9% {
         z-index: 1;
-        /* background: green; */
     }
     10% {
         z-index: -1;
-        /* background: red; */
     }
     60% {
         z-index: -1;
-        /* background: red; */
     }
     61% {
         z-index: 1;
-        /* background: green; */
     }
     100% {
         z-index: 1;
-        /* background: green; */
     }
 }
 

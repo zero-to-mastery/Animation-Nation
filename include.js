@@ -954,9 +954,9 @@ let cards = [
 		githubLink: "https://github.com/Ltheory"
 	},
 	{
-		artName: "Test",
+		artName: "Asteroids",
 		pageLink: "./Art/hrafnkellbaldurs/index.html",
-		imageLink: "./Art/hrafnkellbaldurs/thumbnail.gif",
+		imageLink: "./Art/hrafnkellbaldurs/asteroids.gif",
 		author: "Hrafnkell Baldursson",
 		githubLink: "https://github.com/hrafnkellbaldurs"
 	  }
