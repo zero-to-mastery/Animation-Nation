@@ -42,7 +42,7 @@ div {
   }
 
   @media only screen and (max-width: 600px) {
-    body {
+    div {
         font-size: 2rem;
     }
 
