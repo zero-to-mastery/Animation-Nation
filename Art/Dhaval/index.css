@@ -6,7 +6,7 @@ body {
 }
 
 div {
-    font-size: 3em;
+    font-size: 3rem;
     color: #fff;
     border: 5px solid #fff;
     border-radius: 25px;
@@ -17,27 +17,27 @@ div {
     0%   {
         background-image: linear-gradient(to right, rgb(128, 0, 255), rgb(255, 0, 128));
         margin: 0;
-        padding: 1em;
+        padding: 1rem;
     }
     25%  {
         background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(128, 0, 255));
         margin: 25px 50px;
-        padding: 1.5em;
+        padding: 1.5rem;
     }
     50%  {
         background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 128)); 
         margin: 50px 75px;
-        padding: 2em;
+        padding: 2rem;
     }
     75%  {
         background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 255));
         margin: 25px 50px;
-        padding: 1.5em;
+        padding: 1.5rem;
     }
     100% {
         background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 128, 255));
         margin: 0;
-        padding: 1em;
+        padding: 1rem;
     }
   }
 
@@ -50,27 +50,27 @@ div {
         0%   {
             background-image: linear-gradient(to right, rgb(128, 0, 255), rgb(255, 0, 128));
             margin: 0;
-            padding: 0.5em;
+            padding: 0.5rem;
         }
         25%  {
             background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(128, 0, 255));
             margin: 10px 20px;
-            padding: 1em;
+            padding: 1rem;
         }
         50%  {
             background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 128)); 
             margin: 20px 30px;
-            padding: 1.5em;
+            padding: 1.5rem;
         }
         75%  {
             background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 255));
             margin: 10px 20px;
-            padding: 1em;
+            padding: 1rem;
         }
         100% {
             background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 128, 255));
             margin: 0;
-            padding: 0.5em;
+            padding: 0.5rem;
         }
       }
   }
