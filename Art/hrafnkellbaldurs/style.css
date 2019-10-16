@@ -30,8 +30,10 @@ body {
     position: relative;
     width: var(--container-size);
     height: var(--container-size);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     transform-style: preserve-3d;
+
+    animation: rotate 15s linear infinite;
 }
 
 .earth {
@@ -41,35 +43,67 @@ body {
     margin: auto;
     position: relative;
     background: blue;
-    border-radius: 50%;
+    border-radius: 80%;
     transform-style: preserve-3d;
 
-    /* animation-name: rotate;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate; */
+    animation: rotate 5s linear infinite;
+}
+
+.earth:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 80%;
+
+    /* box-shadow: 0px 0px 221px -16px rgba(0,255,242,0.83), inset 128px 0px 221px -16px rgba(0,110,245,1); */
+    box-shadow: 0px 0px 100px 50px rgba(0,255,242,0.4), inset 128px 0px 221px -16px rgb(21, 42, 68);
+}
+
+.earth span {
+    width: 20px;
+    height: 20px;
+    background: green;
 }
 
 
 .moon {
     /* The value to use for centering moon inside earth */
     --center-of-earth: calc((var(--container-size) - var(--moon-size)) / 2);
-
-    position: absolute;
+    top: var(--center-of-earth);
+    left: var(--center-of-earth);
     width: var(--moon-size);
     height: var(--moon-size);
     background: gray;
-    border-radius: 50%;
-    top: var(--center-of-earth);
-    left: var(--center-of-earth);
+    position: absolute;
+    border-radius: 80%;
     z-index: 1;
     transform-style: preserve-3d;
+}
+
+/* Starts at 2 since earth is first child */
+.moon:nth-child(2) {
     transform: translate3d(var(--moon-x-start), 0, 0);
+    transform-style: preserve-3d;
+    box-shadow: inset 128px 0px 221px -16px rgb(51, 51, 51);
     
     animation: 
         moon-rotate var(--moon-animation-duration) ease-in-out 0s infinite alternate,
-        show-hide calc(var(--moon-animation-duration) * 2) linear 0s infinite;
+        show-hide calc(var(--moon-animation-duration) * 2) linear 0s infinite,
+        transform 10s ease-in-out infinite both alternate;
+}
+
+.moon:nth-child(3) {
+    transform: translate3d(var(--moon-x-end), 0, 0);
+    transform-style: preserve-3d;
+    box-shadow: inset 128px 0px 221px -16px rgb(14, 12, 12);
+
+    --animation-speed: calc(var(--moon-animation-duration) * 0.5);
+    
+    animation: 
+        moon-rotate-2 var(--animation-speed) ease-in-out 0s infinite alternate,
+        show-hide calc(var(--animation-speed) * 2) linear 0s infinite reverse,
+        transform 2s ease-in-out infinite both alternate;
 }
 
 @keyframes moon-rotate {
@@ -78,6 +112,15 @@ body {
     }
     100% {
         transform: translate3d(var(--moon-x-end), 0, 0);
+    }
+}
+
+@keyframes moon-rotate-2 {
+    0% {
+        transform: translate3d(0, var(--moon-x-start), 0);
+    }
+    100% {
+        transform: translate3d(0, var(--moon-x-end), 0);
     }
 }
 
@@ -108,8 +151,18 @@ body {
     }
 }
 
+
 @keyframes rotate {
-    to {
-        transform: rotate(180deg);
-    }
+    to{ transform: rotate(360deg); }
+}
+
+@keyframes transform {
+    0%,
+  100% { border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%; } 
+   14% { border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%; } 
+   28% { border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%; } 
+   42% { border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%; } 
+   56% { border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%; } 
+   70% { border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%; } 
+   84% { border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%; } 
 }
