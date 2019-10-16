@@ -106,6 +106,13 @@ body{
     animation-delay: 3.5s;
 }
 
+.box-area li:nth-child(7){
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    animation-delay: 7s;
+}
+
 img {
     width: 450px;
 }
