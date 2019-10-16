@@ -7,13 +7,12 @@ body {
 .clock-wrap {
   width: 300px;
   height: 300px;
-  overflow: hidden;
   position: absolute;;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin: 0 auto;
-  display: inline-block;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
 }
 
 .clock-rotating-wrapper {
@@ -55,6 +54,8 @@ body {
   top: 75px;
   left: 50%;
   transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
 }
 
 .clock-rotating-wrapper span.clock-min-pointer::after {
@@ -66,6 +67,8 @@ body {
   top: 45px;
   left: 50%;
   transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
 }
 
 .clock-rotating-wrapper span.clock-sec-pointer::after {
@@ -77,6 +80,8 @@ body {
   top: 30px;
   left: 50%;
   transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
 }
 
 .clock-rotating-wrapper span.clock-sec-pointer {
@@ -88,8 +93,6 @@ body {
 .clock-rotating-wrapper span.clock-hour-pointer {
   animation: rotateme 30s linear infinite;
 }
-
-
 
 @keyframes rotateme {
   100% {
