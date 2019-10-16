@@ -6,7 +6,7 @@ body {
 }
 
 div {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fff;
     border: 5px solid #fff;
     border-radius: 25px;
@@ -22,17 +22,17 @@ div {
     25%  {
         background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(128, 0, 255));
         margin: 25px 50px;
-        padding: 1.5rem;
+        padding: 2rem;
     }
     50%  {
         background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 128)); 
         margin: 50px 75px;
-        padding: 2rem;
+        padding: 3rem;
     }
     75%  {
         background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 255));
         margin: 25px 50px;
-        padding: 1.5rem;
+        padding: 2rem;
     }
     100% {
         background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 128, 255));
@@ -43,7 +43,7 @@ div {
 
   @media only screen and (max-width: 600px) {
     div {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     @keyframes example {
