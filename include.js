@@ -752,7 +752,7 @@ let cards = [
 	{
 		artName: "Welcome HactoberFest",
 		pageLink: "./Art/Dhaval/index.html",
-		imageLink: "./Art/Dhaval/Welcome-HacktoberFest.gif",
+		imageLink: "./Art/Dhaval/Welcome-Hacktoberfest.gif",
 		author: "Dhaval Mehta",
 		githubLink: "https://github.com/Dhaval1403"
 	},
@@ -1265,7 +1265,7 @@ let cards = [
   {
     artName: "Welcome HactoberFest",
     pageLink: "./Art/Dhaval/index.html",
-    imageLink: "./Art/Dhaval/Welcome-HacktoberFest.gif",
+    imageLink: "./Art/Dhaval/Welcome-Hacktoberfest.gif",
     author: "Dhaval Mehta",
     githubLink: "https://github.com/Dhaval1403"
   },
