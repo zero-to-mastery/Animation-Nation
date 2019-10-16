@@ -1423,6 +1423,13 @@ let cards = [
     imageLink: "./Art/neon-flights/page-flicker.gif",
     author: "neon-flights",
     githubLink: "https://github.com/neon-flights"
+  },
+  {
+	artName: "Asteroids",
+	pageLink: "./Art/hrafnkellbaldurs/index.html",
+	imageLink: "./Art/hrafnkellbaldurs/asteroids.gif",
+	author: "Hrafnkell Baldursson",
+	githubLink: "https://github.com/hrafnkellbaldurs"
   }
 ];
 
