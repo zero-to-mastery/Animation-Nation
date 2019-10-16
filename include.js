@@ -1390,8 +1390,8 @@ let cards = [
   },
   {
     artName: "Jelly!",
-    pageLink: "./Art/Joy/index.html",
-    imageLink: "./Art/Joy/jelly.gif",
+    pageLink: "./Art/Pete331/index.html",
+    imageLink: "./Art/Pete331/jelly.gif",
     author: "Pete331",
     githubLink: "https://github.com/Pete331"
   },
