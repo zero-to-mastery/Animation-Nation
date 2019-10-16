@@ -1387,6 +1387,13 @@ let cards = [
     imageLink: "./Art/Ltheory/eyes.gif",
     author: "Ltheory",
     githubLink: "https://github.com/Ltheory"
+  },
+  {
+    artName: "clock-animation",
+    pageLink: "./Art/clock-animation/clock.html",
+    imageLink: "./Art/clock-animation/clock.gif",
+    author: "Alan sarluv",
+    githubLink: "https://github.com/alansarluv"
   }
 ];
 
