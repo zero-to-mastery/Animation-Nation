@@ -1401,7 +1401,14 @@ let cards = [
     imageLink: "./Art/clock-animation/clock.gif",
     author: "Alan sarluv",
     githubLink: "https://github.com/alansarluv"
-  }
+	},
+	{
+		artName: "circle-become-square",
+		pageLink: "./Art/chathura19/index.html",
+		imageLink: "./Art/chathura19/chathura.gif",
+		author: "Chathura Samarajeewa",
+		githubLink: "https://github.com/ChathuraSam"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
