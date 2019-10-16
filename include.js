@@ -1401,7 +1401,14 @@ let cards = [
     imageLink: "./Art/clock-animation/clock.gif",
     author: "Alan sarluv",
     githubLink: "https://github.com/alansarluv"
-  }
+  },
+    {
+      artName: "animated-birds",
+      pageLink: "./Art/g-serban/animated-birds.html",
+      imageLink: "./Art/g-serban/animated-birds.gif",
+      author: "g-serban",
+      githubLink: "https://github.com/g-serban"
+    },
 ];
 
 // +--------------------------------------------------------------------------------+
