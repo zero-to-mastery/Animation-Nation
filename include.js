@@ -1387,7 +1387,15 @@ let cards = [
     imageLink: "./Art/Ltheory/eyes.gif",
     author: "Ltheory",
     githubLink: "https://github.com/Ltheory"
-  }
+  },
+      {
+      artName: "Jelly!",
+      pageLink: "./Art/Joy/index.html",
+      imageLink: "./Art/Joy/jelly.gif",
+      author: "Pete331",
+      githubLink: "https://github.com/Pete331"
+    }
+
 ];
 
 // +--------------------------------------------------------------------------------+
