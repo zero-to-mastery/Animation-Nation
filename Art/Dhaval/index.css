@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     background-image: linear-gradient(to right, rgb(255, 70, 70), rgb(60, 60, 255));
 }
 
