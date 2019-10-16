@@ -1,0 +1,103 @@
+:root {
+    /* Earth*/
+    --earth-size: 30vh;
+
+    /* Moon */
+    --moon-size: calc(var(--earth-size) * 0.25);
+    --moon-x-start: -40vh;
+    --moon-x-end: 40vh;
+    --moon-animation-duration: 2s;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earth {
+    position: relative;
+    width: var(--earth-size);
+    height: var(--earth-size);
+    background: blue;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+
+    animation-name: rotate;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+.earth:after {
+    content: '';
+    position: absolute;
+    width: var(--earth-size);
+    height: var(--earth-size);
+    background: blue;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+
+    animation-name: show-hide;
+    animation-duration: calc(var(--moon-animation-duration));
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-delay: 0.55s;
+}
+
+@keyframes show-hide {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.moon {
+    /* The value to use for centering moon inside earth */
+    --center-of-earth: calc( (var(--earth-size) / 2) - (var(--moon-size) / 2) );
+
+    position: absolute;
+    width: var(--moon-size);
+    height: var(--moon-size);
+    background: gray;
+    border-radius: 50%;
+    top: var(--center-of-earth);
+    left: var(--center-of-earth);
+
+    animation-name: moon-rotate;
+    animation-duration: var(--moon-animation-duration);
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    transform-style: preserve-3d;
+}
+
+@keyframes moon-rotate {
+    0% {
+        transform: translate3d(var(--moon-x-start), 200px, 0);
+    }
+    100% {
+        transform: translate3d(var(--moon-x-end), -200px, 0);
+    }
+}

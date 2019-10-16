@@ -925,36 +925,41 @@ let cards = [
 		author: "Paul Billings",
 		githubLink: "https://github.com/paulbillings"
 	},
-  
     {
         artName: "Diminishing",
         pageLink: "./Art/Diminishing/index.html",
         imageLink: "./Art/Diminishing/diminishing.gif",
         author: "Nandhakumar",
         githubLink: "https://github.com/Nandhakumar7792"
-      },
+    },
     {
         artName: "yin-yang",
         pageLink: "./Art/yin-yang/index.html",
         imageLink: "./Art/yin-yang/Halloween.gif",
         author: "Nandhakumar",
         githubLink: "https://github.com/Nandhakumar7792"
-      },
+    },
     {
         artName: "eggJiggle",
         pageLink: "./Art/eggJiggle/index.html",
         imageLink: "./Art/eggJiggle/eggJiggle.gif",
         author: "Nandhakumar",
         githubLink: "https://github.com/Nandhakumar7792"
-      },
-  {
-
-    artName: "Eyes",
-    pageLink: "./Art/Ltheory/main.html",
-    imageLink: "./Art/Ltheory/eyes.gif",
-    author: "Ltheory",
-    githubLink: "https://github.com/Ltheory"
-  }
+    },
+	{
+		artName: "Eyes",
+		pageLink: "./Art/Ltheory/main.html",
+		imageLink: "./Art/Ltheory/eyes.gif",
+		author: "Ltheory",
+		githubLink: "https://github.com/Ltheory"
+	},
+	{
+		artName: "Test",
+		pageLink: "./Art/hrafnkellbaldurs/index.html",
+		imageLink: "./Art/hrafnkellbaldurs/thumbnail.gif",
+		author: "Hrafnkell Baldursson",
+		githubLink: "https://github.com/hrafnkellbaldurs"
+	  }
 ];
 
 // +--------------------------------------------------------------------------------+
