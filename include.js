@@ -1425,6 +1425,13 @@ let cards = [
     githubLink: "https://github.com/neon-flights"
   },
   {
+    artName: "Animate-Name",
+    pageLink: "./Art/Natalina/index.html",
+    imageLink: "./Art/Natalina/animatename.gif",
+    author: "Natalina",
+    githubLink: "https://github.com/Natalina13"
+  },
+  {
 	artName: "Asteroids",
 	pageLink: "./Art/hrafnkellbaldurs/index.html",
 	imageLink: "./Art/hrafnkellbaldurs/asteroids.gif",
