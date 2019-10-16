@@ -1430,6 +1430,13 @@ let cards = [
     imageLink: "./Art/Natalina/animatename.gif",
     author: "Natalina",
     githubLink: "https://github.com/Natalina13"
+  },
+  {
+	artName: "Asteroids",
+	pageLink: "./Art/hrafnkellbaldurs/index.html",
+	imageLink: "./Art/hrafnkellbaldurs/asteroids.gif",
+	author: "Hrafnkell Baldursson",
+	githubLink: "https://github.com/hrafnkellbaldurs"
   }
 ];
 
