@@ -1402,13 +1402,20 @@ let cards = [
     author: "Alan sarluv",
     githubLink: "https://github.com/alansarluv"
   },
-    {
+  {
       artName: "animated-birds",
       pageLink: "./Art/g-serban/animated-birds.html",
       imageLink: "./Art/g-serban/animated-birds.gif",
       author: "g-serban",
       githubLink: "https://github.com/g-serban"
-    },
+	},
+	{
+		artName: "circle-become-square",
+		pageLink: "./Art/chathura19/index.html",
+		imageLink: "./Art/chathura19/chathura.gif",
+		author: "Chathura Samarajeewa",
+		githubLink: "https://github.com/ChathuraSam"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
