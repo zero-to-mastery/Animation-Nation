@@ -1437,6 +1437,13 @@ let cards = [
 	imageLink: "./Art/hrafnkellbaldurs/asteroids.gif",
 	author: "Hrafnkell Baldursson",
 	githubLink: "https://github.com/hrafnkellbaldurs"
+  },
+  {
+    artName: "Sliding-Paragraph",
+    pageLink: "./Art/Prashant/index.html",
+    imageLink: "./Art/Prashant/slidingparagraph.gif",
+    author: "Prashant",
+    githubLink: "https://github.com/Prashant2108"
   }
 ];
 
