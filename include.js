@@ -1404,6 +1404,13 @@ let cards = [
     githubLink: "https://github.com/alansarluv"
   },
   {
+    artName: "Slider",
+    pageLink: "./Art/furqan/index.html",
+    imageLink: "./Art/furqan/in.gif",
+    author: "Furqan",
+    githubLink: "https://github.com/furki911s"
+   },
+  {
     artName: "animated-birds",
     pageLink: "./Art/g-serban/animated-birds.html",
     imageLink: "./Art/g-serban/animated-birds.gif",
@@ -1432,11 +1439,11 @@ let cards = [
     githubLink: "https://github.com/Natalina13"
   },
   {
-	artName: "Asteroids",
-	pageLink: "./Art/hrafnkellbaldurs/index.html",
-	imageLink: "./Art/hrafnkellbaldurs/asteroids.gif",
-	author: "Hrafnkell Baldursson",
-	githubLink: "https://github.com/hrafnkellbaldurs"
+  artName: "Asteroids",
+  pageLink: "./Art/hrafnkellbaldurs/index.html",
+  imageLink: "./Art/hrafnkellbaldurs/asteroids.gif",
+  author: "Hrafnkell Baldursson",
+  githubLink: "https://github.com/hrafnkellbaldurs"
   },
   {
     artName: "Sliding-Paragraph",
@@ -1451,7 +1458,7 @@ let cards = [
     imageLink: "./Art/sdangoy/rocket-ship.gif",
     author: "sdangoy",
     githubLink: "https://github.com/sdangoy"
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
