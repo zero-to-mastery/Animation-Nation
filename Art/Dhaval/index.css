@@ -6,42 +6,81 @@ body {
 }
 
 div {
-    font-size: 2rem;
     color: #fff;
-    border: 5px solid #fff;
+    border: 3px solid #fff;
     border-radius: 25px;
-    animation: example 10s linear infinite;
+    animation: example 5s linear infinite;
 }
 
-@keyframes example {
-    0%   {
-        background-image: linear-gradient(to right, rgb(128, 0, 255), rgb(255, 0, 128));
-        margin: 0;
-        padding: 1rem;
+  @media only screen and (min-width: 414px) {
+    div {
+        font-size: 1rem;
     }
-    25%  {
-        background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(128, 0, 255));
-        margin: 25px 50px;
-        padding: 2rem;
-    }
-    50%  {
-        background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 128)); 
-        margin: 50px 75px;
-        padding: 3rem;
-    }
-    75%  {
-        background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 255));
-        margin: 25px 50px;
-        padding: 2rem;
-    }
-    100% {
-        background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 128, 255));
-        margin: 0;
-        padding: 1rem;
-    }
+
+    @keyframes example {
+        0%   {
+            background-image: linear-gradient(to right, rgb(128, 0, 255), rgb(255, 0, 128));
+            margin: 1rem;
+            padding: 1rem;
+        }
+        25%  {
+            background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(128, 0, 255));
+            margin: 2rem;
+            padding: 2rem;
+        }
+        50%  {
+            background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 128)); 
+            margin: 3rem;
+            padding: 3rem;
+        }
+        75%  {
+            background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 255));
+            margin: 2rem;
+            padding: 2rem;
+        }
+        100% {
+            background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 128, 255));
+            margin: 1rem;
+            padding: 1rem;
+        }
+      }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (min-width: 768px) {
+    div {
+        font-size: 1.2rem;
+    }
+
+    @keyframes example {
+        0%   {
+            background-image: linear-gradient(to right, rgb(128, 0, 255), rgb(255, 0, 128));
+            margin: 2rem;
+            padding: 2rem;
+        }
+        25%  {
+            background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(128, 0, 255));
+            margin: 3rem;
+            padding: 3rem;
+        }
+        50%  {
+            background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 128)); 
+            margin: 4rem;
+            padding: 4rem;
+        }
+        75%  {
+            background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 255));
+            margin: 3rem;
+            padding: 3rem;
+        }
+        100% {
+            background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 128, 255));
+            margin: 2rem;
+            padding: 2rem;
+        }
+      }
+  }
+
+  @media only screen and (min-width: 1024px) {
     div {
         font-size: 1.5rem;
     }
@@ -49,28 +88,28 @@ div {
     @keyframes example {
         0%   {
             background-image: linear-gradient(to right, rgb(128, 0, 255), rgb(255, 0, 128));
-            margin: 0;
-            padding: 0.5rem;
+            margin: 3rem;
+            padding: 3rem;
         }
         25%  {
             background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(128, 0, 255));
-            margin: 10px 20px;
-            padding: 1rem;
+            margin: 4rem;
+            padding: 4rem;
         }
         50%  {
             background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 128)); 
-            margin: 20px 30px;
-            padding: 1.5rem;
+            margin: 5rem;
+            padding: 5rem;
         }
         75%  {
             background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 255));
-            margin: 10px 20px;
-            padding: 1rem;
+            margin: 4rem;
+            padding: 4rem;
         }
         100% {
             background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 128, 255));
-            margin: 0;
-            padding: 0.5rem;
+            margin: 3rem;
+            padding: 3rem;
         }
       }
   }
