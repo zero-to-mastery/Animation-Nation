@@ -686,6 +686,13 @@ let cards = [
     imageLink: "./Art/pikktorr/circles.gif",
     author: "pikktorr",
     githubLink: "https://github.com/pikktorr"
+  },
+  {
+    artName: "Rocket Ship",
+    pageLink: "./Art/sdangoy/rocket-ship.html",
+    imageLink: "./Art/sdangoy/rocket-ship.gif",
+    author: "sdangoy",
+    githubLink: "https://github.com/sdangoy"
   }
 ];
 
