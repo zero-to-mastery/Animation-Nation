@@ -1401,7 +1401,14 @@ let cards = [
     imageLink: "./Art/clock-animation/clock.gif",
     author: "Alan sarluv",
     githubLink: "https://github.com/alansarluv"
-  }
+  },
+  {
+    artName: "Slider",
+    pageLink: "./Art/furqan/index.html",
+    imageLink: "./Art/furqan/in.gif",
+    author: "Furqan",
+    githubLink: "https://github.com/furki911s"
+   }
 ];
 
 // +--------------------------------------------------------------------------------+
