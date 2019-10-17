@@ -1458,6 +1458,13 @@ let cards = [
     imageLink: "./Art/sdangoy/rocket-ship.gif",
     author: "sdangoy",
     githubLink: "https://github.com/sdangoy"
+  },
+  {
+    artName: "Spinner",
+    pageLink: "./Art/Sayan/index.html",
+    imageLink: "./Art/Sayan/spinner.gif",
+    author: "ssayanm",
+    githubLink: "https://github.com/ssayanm"
   }
 ];
 
