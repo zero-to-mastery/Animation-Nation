@@ -15,6 +15,7 @@ div {
   @media only screen and (min-width: 320px) and (max-width: 479px) {
     div {
         font-size: 1rem;
+        animation-duration: 3s;
     }
 
     @keyframes example {
@@ -49,6 +50,7 @@ div {
   @media only screen and (min-width: 480px) and (max-width: 768px) {
     div {
         font-size: 1.2rem;
+        animation-duration: 3s;
     }
 
     @keyframes example {
@@ -83,6 +85,7 @@ div {
   @media only screen and (min-width: 769px) and (max-width: 991px) {
     div {
         font-size: 1.5rem;
+        animation-duration: 3s;
     }
 
     @keyframes example {
