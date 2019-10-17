@@ -1441,7 +1441,7 @@ let cards = [
   {
     artName: "Sliding-Paragraph",
     pageLink: "./Art/Prashant/index.html",
-    imageLink: "./Art//slidingparagraph.gif",
+    imageLink: "./Art/Prashant/slidingparagraph.gif",
     author: "Prashant",
     githubLink: "https://github.com/Prashant2108"
   }
