@@ -9,7 +9,7 @@ div {
     color: #fff;
     border: 3px solid #fff;
     border-radius: 25px;
-    animation: example 5s linear infinite;
+    animation: example 8s linear infinite;
 }
 
   @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -122,8 +122,8 @@ div {
      @keyframes example {
         0%   {
             background-image: linear-gradient(to right, rgb(128, 0, 255), rgb(255, 0, 128));
-            margin: 2.5rem;
-            padding: 2.5rem;
+            margin: 2rem;
+            padding: 2rem;
         }
         25%  {
             background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(128, 0, 255));
@@ -132,8 +132,8 @@ div {
         }
         50%  {
             background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 128)); 
-            margin: 3.5rem;
-            padding: 3.5rem;
+            margin: 4rem;
+            padding: 4rem;
         }
         75%  {
             background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 255));
@@ -142,8 +142,8 @@ div {
         }
         100% {
             background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 128, 255));
-            margin: 2.5rem;
-            padding: 2.5rem;
+            margin: 2rem;
+            padding: 2rem;
         }
       }
 }
