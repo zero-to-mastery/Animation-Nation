@@ -1444,7 +1444,14 @@ let cards = [
     imageLink: "./Art/Prashant/slidingparagraph.gif",
     author: "Prashant",
     githubLink: "https://github.com/Prashant2108"
-  }
+  },
+  {
+    artName: "Rocket Ship",
+    pageLink: "./Art/sdangoy/rocket-ship.html",
+    imageLink: "./Art/sdangoy/rocket-ship.gif",
+    author: "sdangoy",
+    githubLink: "https://github.com/sdangoy"
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
