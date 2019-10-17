@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    background-image: linear-gradient(to right, rgb(255, 70, 70), rgb(60, 60, 255));
+}
+
+div {
+    font-size: 2rem;
+    color: #fff;
+    border: 5px solid #fff;
+    border-radius: 25px;
+    animation: example 10s linear infinite;
+}
+
+@keyframes example {
+    0%   {
+        background-image: linear-gradient(to right, rgb(128, 0, 255), rgb(255, 0, 128));
+        margin: 0;
+        padding: 1rem;
+    }
+    25%  {
+        background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(128, 0, 255));
+        margin: 25px 50px;
+        padding: 2rem;
+    }
+    50%  {
+        background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 128)); 
+        margin: 50px 75px;
+        padding: 3rem;
+    }
+    75%  {
+        background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 255));
+        margin: 25px 50px;
+        padding: 2rem;
+    }
+    100% {
+        background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 128, 255));
+        margin: 0;
+        padding: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    div {
+        font-size: 1.5rem;
+    }
+
+    @keyframes example {
+        0%   {
+            background-image: linear-gradient(to right, rgb(128, 0, 255), rgb(255, 0, 128));
+            margin: 0;
+            padding: 0.5rem;
+        }
+        25%  {
+            background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(128, 0, 255));
+            margin: 10px 20px;
+            padding: 1rem;
+        }
+        50%  {
+            background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 128)); 
+            margin: 20px 30px;
+            padding: 1.5rem;
+        }
+        75%  {
+            background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 255));
+            margin: 10px 20px;
+            padding: 1rem;
+        }
+        100% {
+            background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 128, 255));
+            margin: 0;
+            padding: 0.5rem;
+        }
+      }
+  }
+  

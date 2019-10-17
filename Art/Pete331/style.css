@@ -1,0 +1,545 @@
+
+body{
+	background-color: #DCDCDC;
+}
+
+.jelly-container {
+	width: 100%;
+	position: relative;
+	height: 500px ;
+	overflow: hidden;
+	background: linear-gradient(to bottom, rgba(0, 141, 210, 0.63) 0%, rgba(0, 0, 0, 0) 100% );
+}
+
+.jelly-wrapper{
+	width: 265px;
+	position: absolute;
+	transform: translate3D(-50%, -75%, 0);
+	animation: jelly-movement 10s infinite linear;
+}
+
+.jelly-hair{
+    height: 75px;
+    width: 100px;
+    background: linear-gradient(to bottom, rgba(239,137,26,1) 0%,rgba(239,137,26,1) 20%, rgba(235,242,138,1) 100% ); /* W3C */;
+    position: absolute;
+    left: 29%;
+    transform: rotate3d(0, 1, 0, 180deg) translate3d(28%, -15px, 0) rotate3d(0, 0, 1, 75deg);
+    border-radius: 25px;
+    animation: hair-movement 10s infinite linear;
+}
+
+.jelly-body {
+	background: linear-gradient(to bottom, rgba(0,141,210,1) 0%, rgba(235,242,138,1) 100% ); /* W3C */;
+	position: relative;
+	height: 250px;
+	width: 100%;
+	overflow: hidden;
+	z-index: 1;
+	animation: head-movement 10s infinite linear;
+}
+
+.jelly-inner {
+	position: absolute;
+    left: 50%;
+    top: 35%;
+    animation: facing-movement 10s infinite linear;
+}
+
+%jelly-eye{
+	content: '';
+    position: absolute;
+    height: 15px;
+    bottom: -25px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #FFF;
+    animation: eyes-blink 3.5s infinite linear;
+}
+
+.jelly-eyes {
+	position: absolute;
+    top: -40px;
+    animation: eyes-movement 10s infinite linear;
+	
+	&:before{
+		@extend %jelly-eye;
+		left: 60px;
+	}
+    
+    &:after{
+    	@extend %jelly-eye;
+    	left: -70px;
+    }
+
+
+}
+
+%jelly-hand{
+	content: '';
+	position: absolute;
+	height: 50px;
+	width: 45px;
+	border-top:0;  
+	border-radius: 0 0 50% 50%;
+	box-shadow: 0px 5px 6px #3B949B;
+}
+
+.jelly-hands{
+	position: absolute;
+    top: 65px;
+	
+	&:before{
+		@extend %jelly-hand;
+		left: 110px;
+	}
+    
+    &:after{
+    	@extend %jelly-hand;
+    	left: -155px;
+    }
+}
+
+.jelly-mouth {
+	position: absolute;
+    height: 80px;
+    width: 200px;
+    left: 50%;
+    top: 35%;
+    transform: translate3D(-50%, 0, 0);
+    background-color: #F4CFD1;
+    border-radius: 30px;
+    box-shadow: 0px 0px 7px #808080;
+
+    &:after{
+		content: '';
+	    position: absolute;
+	    height: 3%;
+	    width: 60%;
+	    background-color: #FF9393;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate3D(-50%, 0, 0);
+	    box-shadow: 0 0 3px #FF6B6B;
+	    animation: mouth-movement 10s infinite linear;
+    }
+}
+
+div[class^="jelly-tentacle-"] {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	background-color:rgba(235,242,138,1);
+	border-radius: 0 0 25px 25px;
+	box-shadow: 0px 2.5px 0px #008D9B;
+}
+
+.jelly-tentacle-1{
+	left: 0%;
+	animation: tentacle-animation 1s infinite cubic-bezier(0.46, 0.2, 0.53, 0.92) -.2s;
+}
+
+.jelly-tentacle-2{
+	left: 25%;
+	transform: translate3D(-25%, 0, 0);
+	animation: tentacle-animation 1s infinite cubic-bezier(0.46, 0.2, 0.53, 0.92) -.4s;
+}
+
+.jelly-tentacle-3{
+	left: 50%;
+	transform: translate3D(-50%, 0, 0);
+	animation: tentacle-animation 1s infinite cubic-bezier(0.46, 0.2, 0.53, 0.92) -.1s;
+}
+
+.jelly-tentacle-4{	
+	right: 25%;
+	transform: translate3D(25%, 0, 0);
+	animation: tentacle-animation 1s infinite cubic-bezier(0.46, 0.2, 0.53, 0.92) -.7s;
+}
+
+.jelly-tentacle-5{
+	right: 0%;
+	animation: tentacle-animation 1s infinite cubic-bezier(0.46, 0.2, 0.53, 0.92) -.3s;
+}
+
+.jelly-shadow{
+	position: absolute;
+	height:15px;
+	border-radius: 50%;
+    background-color: rgba(134, 134, 134, 0.23);
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.23);
+	bottom: 5%;
+	transform: translate3d(-50%, 0, 0);
+	animation: shadow-movement 10s infinite linear;
+}
+
+div[class^="bubble-"] {
+	height: 1px;
+	width: 1px;
+	position: absolute;
+	background-color:rgba(0, 141, 210, 0.3);
+	border-radius: 50%;
+	transform: translateX(-50%);
+
+	&:after {
+		content: '';
+	    position: absolute;
+	    height: 85%;
+	    width: 85%;
+	    border-top: 1px solid rgba(255, 255, 255, 0.63);
+	    border-radius: 50%;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate3d(-50%, -50%, 0) rotateZ(-45deg);
+	}
+}
+
+.bubble-1{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+}
+.bubble-2{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+}
+.bubble-3{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+}
+.bubble-4{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+}
+.bubble-5{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+}
+.bubble-6{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+}
+.bubble-7{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+}
+.bubble-8{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+}
+.bubble-9{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+}
+.bubble-10{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+}
+.bubble-11{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+}
+.bubble-12{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+}
+.bubble-13{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+}
+.bubble-14{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+}
+.bubble-15{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+}
+.bubble-16{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+}
+.bubble-17{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+}
+.bubble-18{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+}
+.bubble-19{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+}
+.bubble-20{
+	bottom: random(10) + 1px;
+	left: random(99) + 1%; 
+	animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+}
+
+
+
+@keyframes jelly-movement{
+	0%   {
+		top:55%;
+		left: 50%;
+	}
+	5%   {
+		top:50%;
+	}
+	10%  {
+		top:55%;
+	}
+	15%  {
+		top:50%;
+	}
+	20%  {
+		top:55%;
+	}
+	25%  {
+		top:50%;
+		left: calc(100% - 135px);
+	}
+	30%  {
+		top:55%;
+	}
+	35%  {
+		top:50%;
+	}
+	40%  {
+		top:55%;
+	}
+	45%  {
+		top:50%;
+	}
+	50%  {
+		top:55%;
+		left: 50%;
+	}
+	55%  {
+		top:50%;
+	}
+	60%  {
+		top:55%;
+	}
+	65%  {
+		top:50%;
+	}
+	70%  {
+		top:55%;
+	}
+	75%  {
+		top:50%;
+		left: 135px;
+	}
+	80%  {
+		top:55%;
+	}
+	85%  {
+		top:50%;
+	}
+	90%  {
+		top:55%;
+	}
+	95%  {
+		top:50%;
+	}
+	100% {
+		top:55%;
+		left: 50%;
+	}
+}
+
+@keyframes tentacle-animation{
+	0%   {bottom:-8% ;}
+	50%  {bottom:-20% ;}
+	100% {bottom:-8% ;}
+}
+
+@keyframes facing-movement{
+	0%   {left: 60%;}
+	20%  {left: 60%;}
+	25%	 {left: 50%;} 
+	30%	 {left: 40%;}
+	70%  {left: 40%;}
+	75%	 {left: 50%;} 
+	80%	 {left: 60%;}
+	100% {left: 60%;}
+}
+
+@keyframes mouth-movement{
+	0%   {left: 52%;}
+	20%  {left: 52%;}
+	25%	 {left: 50%;} 
+	30%	 {left: 46%;}
+	70%  {left: 46%;}
+	75%	 {left: 50%;} 
+	80%	 {left: 52%;}
+	100% {left: 52%;}
+}
+
+@keyframes eyes-movement{
+	0%   {left: 5px;}
+	20%	 {left: 5px;} 
+	25%	 {left: 0px;}
+	30%  {left: -5px;}
+	70%	 {left: -5px;} 
+	75%	 {left: 0px;}
+	80%	 {left: 5px;}
+	100% {left: 5px;}
+}
+
+@keyframes head-movement{
+	0%   {
+		border-top-right-radius: 70px;
+		border-top-left-radius:  90px;
+	}
+	20%  {
+		border-top-right-radius: 70px;
+		border-top-left-radius:  90px;
+	}
+	25%	 {
+		border-top-right-radius: 80px;
+		border-top-left-radius:  80px;
+	} 
+	30%	 {
+		border-top-right-radius: 90px;
+		border-top-left-radius:  70px;
+	}
+	70%  {
+		border-top-right-radius: 90px;
+		border-top-left-radius:  70px;
+	}
+	75%	 {
+		border-top-right-radius: 80px;
+		border-top-left-radius:  80px;
+	} 
+	80%	 {
+		border-top-right-radius: 70px;
+		border-top-left-radius:  90px;
+	}
+	100% {
+		border-top-right-radius: 70px;
+		border-top-left-radius:  90px;
+	}
+}
+
+@keyframes hair-movement{
+	0%   {transform: rotate3d(0, 1, 0, 180deg) translate3d(28%, -2px, 0) rotate3d(0, 0, 1, 75deg);}
+	20%  {transform: rotate3d(0, 1, 0, 180deg) translate3d(28%, -2px, 0) rotate3d(0, 0, 1, 75deg);}
+	25%	 {transform: rotate3d(0, 1, 0, 90deg) translate3d(28%, -2px, 0) rotate3d(0, 0, 1, 75deg);} 
+	30%	 {transform: rotate3d(0, 1, 0, 0deg) translate3d(28%, -2px, 0) rotate3d(0, 0, 1, 75deg);}
+	70%  {transform: rotate3d(0, 1, 0, 0deg) translate3d(28%, -2px, 0) rotate3d(0, 0, 1, 75deg);}
+	75%	 {transform: rotate3d(0, 1, 0, 90deg) translate3d(28%, -2px, 0) rotate3d(0, 0, 1, 75deg);} 
+	80%	 {transform: rotate3d(0, 1, 0, 180deg) translate3d(28%, -2px, 0) rotate3d(0, 0, 1, 75deg);}
+	100% {transform: rotate3d(0, 1, 0, 180deg) translate3d(28%, -2px, 0) rotate3d(0, 0, 1, 75deg);}
+}
+
+@keyframes shadow-movement{
+	0%   {
+		width:250px;
+		left: 50%;
+	}
+	5%   {
+		width:210px;
+	}
+	10%  {
+		width:250px;
+	}
+	15%  {
+		width:210px;
+	}
+	20%  {
+		width:250px;
+	}
+	25%  {
+		width:210px;
+		left: calc(100% - 135px); 
+	}
+	30%  {
+		width:250px;
+	}
+	35%  {
+		width:210px;
+	}
+	40%  {
+		width:250px;
+	}
+	45%  {
+		width:210px;
+	}
+	50%  {
+		width:250px;
+		left: 50%;
+	}
+	55%  {
+		width:210px;
+	}
+	60%  {
+		width:250px;
+	}
+	65%  {
+		width:210px;
+	}
+	70%  {
+		width:250px;
+	}
+	75%  {
+		width:210px;
+		left: 135px;
+	}
+	80%  {
+		width:250px;
+	}
+	85%  {
+		width:210px;
+	}
+	90%  {
+		width:250px;
+	}
+	95%  {
+		width:210px;
+	}
+	100% {
+		width:250px;
+		left: 50%;
+	}
+}
+
+@keyframes eyes-blink{
+	0%   {height:15px}
+	3%   {height:1px}
+	5%   {height:15px}
+	100% {height:15px}
+}
+
+@keyframes bubble-movement{
+	0%   {
+		transform: translate3d(-50%, 0, 0);
+		height: 1px;
+		width: 1px;
+		}
+	100% {
+		transform: translate3d(-50%, -500px, 0);
+		height: 75px;
+		width: 75px;
+	}
+}

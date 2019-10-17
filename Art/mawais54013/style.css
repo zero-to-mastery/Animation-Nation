@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#textArea {
+    font-family: 'Creepster', cursive;
+    font-size: 65px;
+    color: black;
+}
+
+.banner-text {
+    width: 100%;
+    position: absolute;
+}
+
+.banner-text h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 7%;
+}
+
+.animation-area {
+    background: linear-gradient(to left, #e78708, #5e4103);
+    width: 100%;
+    height: 100vh;
+}
+
+.box-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.box-area li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    /* background: rgba(255, 255, 255, 0.2); */
+    background: black;
+    animation: jump 20s linear infinite;
+    bottom: -150px;
+}
+.box-area li:nth-child(1){
+    left: 86%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.box-area li:nth-child(2){
+    left: 12%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+    animation-direction: 10s;
+}
+
+.box-area li:nth-child(3){
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 5.5s;
+}
+
+.box-area li:nth-child(4){
+    left: 42%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+}
+
+.box-area li:nth-child(5){
+    left: 65%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+}
+
+.box-area li:nth-child(6){
+    left: 15%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3.5s;
+}
+
+.box-area li:nth-child(7){
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    animation-delay: 7s;
+}
+
+img {
+    width: 450px;
+}
+
+/* for div background */
+
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 150vw;
+    height: 95vh;
+    margin-left: -25vw;
+    -webkit-transform: rotateX(23deg) rotateZ(-9deg) rotateY(15deg) scale3d(1, 1, -0.9);
+            transform: rotateX(23deg) rotateZ(-9deg) rotateY(15deg) scale3d(1, 1, -0.9);
+}
+
+.box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    will-change: transform;
+}
+
+.box:hover .cover {
+    -webkit-transform: translateY(-14px) scale(1.04);
+            transform: translateY(-14px) scale(1.04);
+}
+
+
+.cover {
+    -webkit-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+    will-change: transform;
+}
+
+.cover img {
+    -webkit-transition: all 460ms ease-in-out;
+    transition: all 460ms ease-in-out;
+}
+
+.box .cover::after {
+    content: "";
+    z-index: -99;
+    position: absolute;
+    top: -30px;
+    left: -50px;
+    display: block;
+    width: 560px;
+    height: 370px;
+    opacity: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px 514px;
+    -webkit-filter: blur(20px);
+            filter: blur(20px);
+    -webkit-transition: all 260ms ease-in-out;
+    transition: all 260ms ease-in-out;
+    will-change: transform;
+    -webkit-transform: scale(.6);
+            transform: scale(.6);
+}
+
+.box:hover .cover::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+
+.box-3 .cover::after {
+    background-image: url('https://image.shutterstock.com/image-vector/halloween-orange-color-background-pumpkin-600w-1210669168.jpg');
+}
+
