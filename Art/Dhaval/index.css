@@ -12,7 +12,7 @@ div {
     animation: example 5s linear infinite;
 }
 
-  @media only screen and (min-width: 414px) {
+  @media only screen and (min-width: 320px) and (max-width: 479px) {
     div {
         font-size: 1rem;
     }
@@ -46,7 +46,7 @@ div {
       }
   }
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 480px) and (max-width: 768px) {
     div {
         font-size: 1.2rem;
     }
@@ -80,7 +80,7 @@ div {
       }
   }
 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 769px) and (max-width: 991px) {
     div {
         font-size: 1.5rem;
     }
@@ -113,4 +113,10 @@ div {
         }
       }
   }
+
+@media only screen and (min-width: 992px) {
+    div {
+        font-size: 1.8rem;
+    }
+}
   
