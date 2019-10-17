@@ -118,5 +118,33 @@ div {
     div {
         font-size: 1.8rem;
     }
+    
+     @keyframes example {
+        0%   {
+            background-image: linear-gradient(to right, rgb(128, 0, 255), rgb(255, 0, 128));
+            margin: 3rem;
+            padding: 3rem;
+        }
+        25%  {
+            background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(128, 0, 255));
+            margin: 4rem;
+            padding: 4rem;
+        }
+        50%  {
+            background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 128)); 
+            margin: 5rem;
+            padding: 5rem;
+        }
+        75%  {
+            background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 255));
+            margin: 4rem;
+            padding: 4rem;
+        }
+        100% {
+            background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 128, 255));
+            margin: 3rem;
+            padding: 3rem;
+        }
+      }
 }
   
