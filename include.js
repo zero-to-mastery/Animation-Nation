@@ -1465,7 +1465,15 @@ let cards = [
     imageLink: "./Art/Sayan/spinner.gif",
     author: "ssayanm",
     githubLink: "https://github.com/ssayanm"
+  },
+  {
+    artName: "swivel",
+    pageLink: "./Art/tusharhanda/index.html",
+    imageLink: "./Art/tusharhanda/gif.gif",
+    author: "Tushar",
+    githubLink: "https://github.com/tusharhanda"
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
