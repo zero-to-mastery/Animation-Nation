@@ -1480,6 +1480,14 @@ let cards = [
     author: "Tushar",
     githubLink: "https://github.com/tusharhanda"
   }
+  {
+      artName: "ZtM_text_animation",
+      pageLink: "./Art/Rucha/index.html",
+      imageLink: "./Art/Rucha/ZTM.gif",
+      author: "Rucha",
+      githubLink: "https://github.com/cha1690"
+    }
+
 
 ];
 
