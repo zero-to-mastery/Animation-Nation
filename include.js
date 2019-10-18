@@ -1479,16 +1479,14 @@ let cards = [
     imageLink: "./Art/tusharhanda/gif.gif",
     author: "Tushar",
     githubLink: "https://github.com/tusharhanda"
-  }
+  },
   {
-      artName: "ZtM_text_animation",
-      pageLink: "./Art/Rucha/index.html",
-      imageLink: "./Art/Rucha/ZTM.gif",
-      author: "Rucha",
-      githubLink: "https://github.com/cha1690"
-    }
-
-
+    artName: 'Hallows Eve',
+    pageLink: './Art/ShanClayton/hallowseve.html',
+    imageLink: './Art/ShanClayton/hallowhack.gif',
+    author: 'Shanaun Clayton',
+    githubLink: 'https://github.com/shanclayton'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
