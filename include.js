@@ -588,6 +588,13 @@ let cards = [
     imageLink: './Art/levermanx/anim.gif',
     author: 'Levermanx',
     githubLink: 'https://github.com/levermanx'
+  },
+  {
+    artName: 'Hallows Eve',
+    pageLink: './Art/ShanClayton/hallowseve.html',
+    imageLink: './Art/ShanClayton/hallowhack.gif',
+    author: 'Shanaun Clayton',
+    githubLink: 'https://github.com/shanclayton
   }
 ];
 
