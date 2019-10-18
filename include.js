@@ -1486,6 +1486,13 @@ let cards = [
     imageLink: './Art/ShanClayton/hallowhack.gif',
     author: 'Shanaun Clayton',
     githubLink: 'https://github.com/shanclayton'
+  },
+  {
+    artName: 'Contraption',
+    pageLink: './Art/Aravindh/contraption.html',
+    imageLink: './Art/Aravindh/contraption.gif',
+    author: 'Aravindh',
+    githubLink: 'https://github.com/Aravindh-SNR'
   }
 ];
 
