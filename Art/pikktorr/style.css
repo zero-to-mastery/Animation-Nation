@@ -1,0 +1,80 @@
+html {
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  background-color: steelblue;
+  background-image: radial-gradient(
+    circle closest-side,
+    steelblue,
+    rgba(0, 0, 0, 0.6)
+  );
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* border: 1px solid white; */
+}
+
+.rotation {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid white; */
+  width: 40rem;
+  height: 40rem;
+  transform: rotate(0deg);
+  animation: roll 10s infinite linear;
+}
+
+.circle {
+  width: 42rem;
+  height: 42rem;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.first {
+  position: absolute;
+  z-index: -1;
+}
+
+.second {
+  position: absolute;
+  z-index: -2;
+  animation-delay: 2s;
+}
+
+.third {
+  position: absolute;
+  z-index: -3;
+  animation-delay: 4s;
+}
+
+.fourth {
+  position: absolute;
+  z-index: -3;
+  animation-delay: 6s;
+}
+
+
+@keyframes roll {
+  0% {
+    transform: rotate(0) scale(1);
+  }
+  50%{
+    transform: rotate(300deg) scale(1.05);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+

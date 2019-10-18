@@ -1,0 +1,68 @@
+	body{
+		margin: auto 0;
+		overflow: hidden; 
+		background-color:black;
+	}
+	.main{
+		width: 100%;
+	}
+	.imaggg{
+		position: absolute;
+		width:105.5%;
+		height: 112%;
+		overflow: hidden;
+	}
+	img{
+		position: absolute;
+		margin-left: 5%;
+		margin-top: 1%;
+		width: 90%;
+		height: 90%;
+
+	}
+
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.img4{
+
+		animation: anim1 10s 3s;
+		animation-iteration-count: infinite;
+	}
+	.img3{
+		animation: anim2 10s 4s;
+		animation-iteration-count: infinite;
+	}
+	.img2{
+		animation: anim2 10s 5s;
+		animation-iteration-count: infinite;
+	}
+	.img1{
+		animation: anim2 10s 6s;
+		animation-iteration-count: infinite;
+	}
+	@keyframes anim1{
+		0% { left: 0px; }
+		30% { left: 40000px; }
+		35% { left: 0px; }
+	}
+		@keyframes anim2{
+		0% { left: 0px; }
+		30% { left: 40000px; }
+		
+		50% { left: 0px; }
+	}
+		@keyframes anim3{
+		0% { left: 0px; }
+		40% { left: 40000px; }
+		
+		50% { left: 0px; }
+	}
+		@keyframes anim4{
+		0% { left: 0px; }
+		50% { left: 40000px; }
+		
+		50% { left: 0px; }
+	}

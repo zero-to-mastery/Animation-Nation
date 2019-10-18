@@ -1,0 +1,101 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #fed3a8;
+}
+
+.clock-wrap {
+  width: 300px;
+  height: 300px;
+  position: absolute;;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+}
+
+.clock-rotating-wrapper {
+  position:absolute;
+  width:300px;
+  height:300px;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.clock-rotating-wrapper span {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: block;  
+}
+
+.clock-base {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  border: 4px solid #ad0d0d;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px 0px rgba(76, 67, 67,  0.7);
+}
+
+.clock-rotating-wrapper span.clock-hour-pointer::after {
+  content: '';
+  border: 5px solid black;
+  border-radius: 10px;
+  position: absolute;
+  height: 75px;
+  top: 75px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+}
+
+.clock-rotating-wrapper span.clock-min-pointer::after {
+  content: '';
+  border: 3px solid black;
+  border-radius: 10px;
+  position: absolute;
+  height: 105px;
+  top: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+}
+
+.clock-rotating-wrapper span.clock-sec-pointer::after {
+  content: '';
+  border: 1px solid red;
+  border-radius: 10px;
+  position: absolute;
+  height: 120px;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+}
+
+.clock-rotating-wrapper span.clock-sec-pointer {
+  animation: rotateme 2s linear infinite;
+}
+.clock-rotating-wrapper span.clock-min-pointer {
+  animation: rotateme 10s linear infinite;
+}
+.clock-rotating-wrapper span.clock-hour-pointer {
+  animation: rotateme 30s linear infinite;
+}
+
+@keyframes rotateme {
+  100% {
+      transform: rotate(360deg);
+  }
+}
