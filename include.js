@@ -1485,7 +1485,7 @@ let cards = [
     pageLink: './Art/ShanClayton/hallowseve.html',
     imageLink: './Art/ShanClayton/hallowhack.gif',
     author: 'Shanaun Clayton',
-    githubLink: 'https://github.com/shanclayton
+    githubLink: 'https://github.com/shanclayton'
   }
 ];
 
