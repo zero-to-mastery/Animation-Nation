@@ -1082,6 +1082,13 @@ let cards = [{
 		imageLink: './Art/Kuzmycz/rings.gif',
 		author: 'Mark Kuzmycz',
 		githubLink: 'https://github.com/kuzmycz'
+	},
+	{
+		artName: 'Gradient circle',
+		pageLink: './Art/brettl1991/index.html',
+		imageLink: './Art/brettl1991/animation.png',
+		author: 'Agnes Brettl',
+		githubLink: 'https://github.com/brettl1991'
 	}
 ];
 
