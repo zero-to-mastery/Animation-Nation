@@ -1493,7 +1493,15 @@ let cards = [
     imageLink: './Art/Aravindh/contraption.gif',
     author: 'Aravindh',
     githubLink: 'https://github.com/Aravindh-SNR'
-  }
+  },
+  {
+    artName: "Rings",
+    pageLink: "./Art/Kuzmycz/rings.html",
+    imageLink: "./Art/Kuzmycz/rings.gif",
+    author: "Mark Kuzmycz",
+    githubLink: "https://github.com/kuzmycz"
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
