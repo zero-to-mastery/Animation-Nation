@@ -1082,7 +1082,14 @@ let cards = [{
 		imageLink: './Art/Kuzmycz/rings.gif',
 		author: 'Mark Kuzmycz',
 		githubLink: 'https://github.com/kuzmycz'
-	}
+	},
+	{
+		artName: "Ghost",
+		pageLink: "./Art/toserjude/index.html",
+		imageLink: "./Art/toserjude/boo.jpg",
+		author: "toserjude",
+		githubLink: "https://github.com/toserjude"
+	  }
 ];
 
 // +--------------------------------------------------------------------------------+
