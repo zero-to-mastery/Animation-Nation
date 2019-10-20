@@ -1084,6 +1084,13 @@ let cards = [{
 		githubLink: 'https://github.com/kuzmycz'
 	},
 	{
+		artName: "Ghost",
+		pageLink: "./Art/toserjude/index.html",
+		imageLink: "./Art/toserjude/boo.jpg",
+		author: "toserjude",
+		githubLink: "https://github.com/toserjude"
+	 },
+   {
 		artName: 'Gradient circle',
 		pageLink: './Art/brettl1991/index.html',
 		imageLink: './Art/brettl1991/animation.png',
