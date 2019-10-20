@@ -1089,7 +1089,14 @@ let cards = [{
 		imageLink: "./Art/toserjude/boo.jpg",
 		author: "toserjude",
 		githubLink: "https://github.com/toserjude"
-	  }
+	 },
+   {
+		artName: 'Gradient circle',
+		pageLink: './Art/brettl1991/index.html',
+		imageLink: './Art/brettl1991/animation.png',
+		author: 'Agnes Brettl',
+		githubLink: 'https://github.com/brettl1991'
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
