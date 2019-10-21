@@ -968,8 +968,8 @@ let cards = [
 	},
 	{
 		artName: "Calm",
-		pageLink: "./Art/Tmax/index.html",
-		imageLink: "./Art/Tmax/Choas.gif",
+		pageLink: "./Art/TMax/index.html",
+		imageLink: "./Art/TMax/Choas.gif",
 		author: "Tanesha",
 		githubLink: "https://github.com/Mainemirror"
 	},
