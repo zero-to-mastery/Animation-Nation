@@ -1103,7 +1103,14 @@ let cards = [{
 		imageLink: './Art/vitoriapena/bill_cipher.gif',
 		author: 'Vitória Mendes',
 		githubLink: 'https://github.com/vitoriapena'
-	}
+	},
+  {
+    artName: "Dizzy",
+    pageLink: "./Art/antinomezco/index.html",
+    imageLink: "./Art/antinomezco/logo-spin.gif",
+    author: "Antinomezco",
+    githubLink: "https://github.com/antinomezco"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
