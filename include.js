@@ -1110,6 +1110,13 @@ let cards = [{
     imageLink: "./Art/antinomezco/logo-spin.gif",
     author: "Antinomezco",
     githubLink: "https://github.com/antinomezco"
+  },
+  {
+	artName: "bounce",
+	pageLink: "./Art/bounce/index.html",
+	imageLink: "./Art/bounce/bounce.gif",
+	author: "leelacanlale",
+	githubLink: "https://github.com/leelacanlale"
   }
 ];
 
