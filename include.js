@@ -1487,6 +1487,13 @@ let cards = [
     author: 'Shanaun Clayton',
     githubLink: 'https://github.com/shanclayton'
   }
+  {
+    artName: "Dizzy",
+    pageLink: "./Art/antinomezco/index.html",
+    imageLink: "./Art/antinomezco/logo-spin.gif",
+    author: "Antinomezco",
+    githubLink: "https://github.com/antinomezco"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
