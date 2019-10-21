@@ -1108,8 +1108,8 @@ let cards = [
 	},
 	{
 		artName: "Dizzy",
-		pageLink: "./Art/antinomezco/index.html",
-		imageLink: "./Art/antinomezco/logo-spin.gif",
+		pageLink: "./Art/antinomy/index.html",
+		imageLink: "./Art/antinomy/logo-spin.gif",
 		author: "Antinomezco",
 		githubLink: "https://github.com/antinomezco"
 	}
