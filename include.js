@@ -1096,6 +1096,13 @@ let cards = [{
 		imageLink: './Art/brettl1991/animation.png',
 		author: 'Agnes Brettl',
 		githubLink: 'https://github.com/brettl1991'
+	},
+	{
+		artName: 'Bill Cipher',
+		pageLink: './Art/vitoriapena/index.html',
+		imageLink: './Art/vitoriapena/bill_cipher.gif',
+		author: 'Vitória Mendes',
+		githubLink: 'https://github.com/vitoriapena'
 	}
 ];
 
