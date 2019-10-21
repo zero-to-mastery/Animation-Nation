@@ -1086,7 +1086,7 @@ let cards = [{
 	{
 		artName: "Ghost",
 		pageLink: "./Art/toserjude/index.html",
-		imageLink: "./Art/toserjude/boo.jpg",
+		imageLink: "./Art/toserjude/boo.JPG",
 		author: "toserjude",
 		githubLink: "https://github.com/toserjude"
 	 },
