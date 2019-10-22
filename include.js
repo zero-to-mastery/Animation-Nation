@@ -1092,6 +1092,20 @@ let cards = [
 		author: "toserjude",
 		githubLink: "https://github.com/toserjude"
 	 },
+   {
+		artName: 'Gradient circle',
+		pageLink: './Art/brettl1991/index.html',
+		imageLink: './Art/brettl1991/animation.png',
+		author: 'Agnes Brettl',
+		githubLink: 'https://github.com/brettl1991'
+	},
+	{
+		artName: 'Spooktime',
+		pageLink: './Art/AgneDJ/index.html',
+		imageLink: './Art/AgneDJ/spooktime.gif',
+		author: 'AgneDJ',
+		githubLink: 'https://github.com/AgneDJ'
+	},
   {
     artName: "Gradient circle",
     pageLink: "./Art/brettl1991/index.html",
