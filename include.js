@@ -1134,13 +1134,6 @@ let cards = [
     author: "leelacanlale",
     githubLink: "https://github.com/leelacanlale"
    },
-	 {
-		artName: 'HacktoberFest-2019',
-		pageLink: './Art/Atif/index.html',
-		imageLink: './Art/Atif/HacktoberFest-19.gif',
-		author: 'Atif Iqbal',
-		githubLink: 'https://github.com/atif-dev'
-	 }
  	{
 		artName: "Bar Slide",
 		pageLink: "./Art/MikeVedsted/index.html",
@@ -1148,6 +1141,20 @@ let cards = [
 		author: "Mike Vedsted",
 		githubLink: "https://github.com/MikeVedsted"
 	},
+   {
+	 artName: 'HacktoberFest-2019',
+	 pageLink: './Art/Atif/index.html',
+	 imageLink: './Art/Atif/HacktoberFest-19.gif',
+	 author: 'Atif Iqbal',
+	 githubLink: 'https://github.com/atif-dev'
+   },
+   {
+    artName: 'squareMagic',
+    pageLink: './Art/Rajnish-SquareMagic/index.html',
+    imageLink: './Art/Rajnish-SquareMagic/squareMagic.png',
+    author: 'Rajnish Kr Singh',
+    githubLink: 'https://github.com/RajnishKrSingh'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
