@@ -1091,28 +1091,35 @@ let cards = [
 		imageLink: "./Art/toserjude/boo.JPG",
 		author: "toserjude",
 		githubLink: "https://github.com/toserjude"
-	},
-	{
-		artName: "Gradient circle",
-		pageLink: "./Art/brettl1991/index.html",
-		imageLink: "./Art/brettl1991/animation.png",
-		author: "Agnes Brettl",
-		githubLink: "https://github.com/brettl1991"
-	},
-	{
-		artName: "Bill Cipher",
-		pageLink: "./Art/vitoriapena/index.html",
-		imageLink: "./Art/vitoriapena/bill_cipher.gif",
-		author: "Vitória Mendes",
-		githubLink: "https://github.com/vitoriapena"
-	},
-	{
-		artName: "Dizzy",
-		pageLink: "./Art/antinomy/index.html",
-		imageLink: "./Art/antinomy/logo-spin.gif",
-		author: "Antinomezco",
-		githubLink: "https://github.com/antinomezco"
-	}
+	 },
+  {
+    artName: "Gradient circle",
+    pageLink: "./Art/brettl1991/index.html",
+    imageLink: "./Art/brettl1991/animation.png",
+    author: "Agnes Brettl",
+    githubLink: "https://github.com/brettl1991"
+  },
+  {
+    artName: "Bill Cipher",
+    pageLink: "./Art/vitoriapena/index.html",
+    imageLink: "./Art/vitoriapena/bill_cipher.gif",
+    author: "Vitória Mendes",
+    githubLink: "https://github.com/vitoriapena"
+  },
+  {
+    artName: "Dizzy",
+    pageLink: "./Art/antinomy/index.html",
+    imageLink: "./Art/antinomy/logo-spin.gif",
+    author: "Antinomezco",
+    githubLink: "https://github.com/antinomezco"
+  },
+  {
+    artName: "bounce",
+    pageLink: "./Art/bounce/index.html",
+    imageLink: "./Art/bounce/bounce.gif",
+    author: "leelacanlale",
+    githubLink: "https://github.com/leelacanlale"
+    },
 ];
 
 // +--------------------------------------------------------------------------------+

@@ -1,0 +1,35 @@
+body {
+        background-color: black;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    background-color: green;
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.dark {
+        background-color: black;
+}
+  
+  @keyframes example {
+    0%   {background-color: green; left:0px; top:0px;}
+    25%  {background-color: blue; left:200px; top:200px;
+            border-radius: 50%;}
+    50%  {background-color: red; left:200px; top:0px;
+            border-radius: 100% 50%}
+    75%  {background-color: yellow; left:0px; top:200px;
+            border-radius: 15px 50px;}
+    100% {background-color: green; left:0px; top:0px;}
+  }
