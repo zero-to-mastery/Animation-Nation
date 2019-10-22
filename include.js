@@ -1142,7 +1142,7 @@ let cards = [{
 	{
 		artName: "Bar Slide",
 		pageLink: "./Art/MikeVedsted/index.html",
-		imageLink: "./Art/MikeVedsted/gif.gif",
+		imageLink: "./Art/MikeVedsted/barslide.png",
 		author: "Mike Vedsted",
 		githubLink: "https://github.com/MikeVedsted"
 	},
