@@ -1141,6 +1141,13 @@ let cards = [
 		author: 'Atif Iqbal',
 		githubLink: 'https://github.com/atif-dev'
 	 }
+ 	{
+		artName: "Bar Slide",
+		pageLink: "./Art/MikeVedsted/index.html",
+		imageLink: "./Art/MikeVedsted/gif.gif",
+		author: "Mike Vedsted",
+		githubLink: "https://github.com/MikeVedsted"
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
