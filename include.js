@@ -1140,6 +1140,13 @@ let cards = [
 		imageLink: './Art/Atif/HacktoberFest-19.gif',
 		author: 'Atif Iqbal',
 		githubLink: 'https://github.com/atif-dev'
+	 },
+	 {
+		 artName: "HacktoberFest-2019-Entry",
+		 pageLink: "./Art/nunocpnp/index.html",
+		 imageLink: "./Art/nunocpnp/sample_image.jpg",
+		 author: "Nuno Pereira",
+		 githubLink: "https://github.com/nunocpnp"
 	 }
 ];
 
