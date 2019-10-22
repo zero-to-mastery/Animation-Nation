@@ -1152,6 +1152,13 @@ let cards = [{
 		imageLink: './Art/Atif/HacktoberFest-19.gif',
 		author: 'Atif Iqbal',
 		githubLink: 'https://github.com/atif-dev'
+	 },
+	 {
+		artName: 'HacktoberFest 2019',
+		pageLink: './Art/AbdussamadYisau/index.html',
+		imageLink: './Art/AbdussamadYisau/Screenshot.png',
+		author: 'Abdussamad Yisau',
+		githubLink: 'https://github.com/AbdussamadYisau'
 	},
 	{
 		artName: 'squareMagic',
