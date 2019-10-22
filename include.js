@@ -1,5 +1,4 @@
-let cards = [
-	{
+let cards = [{
 		artName: "ZTM Animation",
 		pageLink: "./Art/EricPuskas/index.html",
 		imageLink: "./Art/EricPuskas/index.gif",
@@ -821,8 +820,7 @@ let cards = [
 	{
 		artName: "Mystical-Hacktoberfest",
 		pageLink: "./Art/Wayne/index.html",
-		imageLink:
-			"./Art/Wayne/hacktoberfest - Google Chrome 09 Oct 2019 21_12_32.png",
+		imageLink: "./Art/Wayne/hacktoberfest - Google Chrome 09 Oct 2019 21_12_32.png",
 		author: "Wayne Mac Mavis",
 		githubLink: "https://github.com/WayneMacMavis"
 	},
@@ -1091,8 +1089,8 @@ let cards = [
 		imageLink: "./Art/toserjude/boo.JPG",
 		author: "toserjude",
 		githubLink: "https://github.com/toserjude"
-	 },
-   {
+	},
+	{
 		artName: 'Gradient circle',
 		pageLink: './Art/brettl1991/index.html',
 		imageLink: './Art/brettl1991/animation.png',
@@ -1106,62 +1104,62 @@ let cards = [
 		author: 'AgneDJ',
 		githubLink: 'https://github.com/AgneDJ'
 	},
-  {
-    artName: "Gradient circle",
-    pageLink: "./Art/brettl1991/index.html",
-    imageLink: "./Art/brettl1991/animation.png",
-    author: "Agnes Brettl",
-    githubLink: "https://github.com/brettl1991"
-  },
-  {
-    artName: "Bill Cipher",
-    pageLink: "./Art/vitoriapena/index.html",
-    imageLink: "./Art/vitoriapena/bill_cipher.gif",
-    author: "Vitória Mendes",
-    githubLink: "https://github.com/vitoriapena"
-  },
-  {
-    artName: "Dizzy",
-    pageLink: "./Art/antinomy/index.html",
-    imageLink: "./Art/antinomy/logo-spin.gif",
-    author: "Antinomezco",
-    githubLink: "https://github.com/antinomezco"
-  },
-  {
-    artName: "bounce",
-    pageLink: "./Art/bounce/index.html",
-    imageLink: "./Art/bounce/bounce.gif",
-    author: "leelacanlale",
-    githubLink: "https://github.com/leelacanlale"
-   },
-    {
-      artName: "Bubbles",
-      pageLink: "./Art/bubbles/Bubbles.html",
-      imageLink: "./Art/bubbles/buubles.png",
-      author: "michal",
-      githubLink: "https://github.com/michalAim"
-    },
-    {
-      artName: "Bar Slide",
-      pageLink: "./Art/MikeVedsted/index.html",
-      imageLink: "./Art/MikeVedsted/gif.gif",
-      author: "Mike Vedsted",
-      githubLink: "https://github.com/MikeVedsted"
-    },
-   {
-     artName: 'HacktoberFest-2019',
-     pageLink: './Art/Atif/index.html',
-     imageLink: './Art/Atif/HacktoberFest-19.gif',
-     author: 'Atif Iqbal',
-     githubLink: 'https://github.com/atif-dev'
-   },
-   {
-    artName: 'squareMagic',
-    pageLink: './Art/Rajnish-SquareMagic/index.html',
-    imageLink: './Art/Rajnish-SquareMagic/squareMagic.png',
-    author: 'Rajnish Kr Singh',
-    githubLink: 'https://github.com/RajnishKrSingh'
-  }
+	{
+		artName: "Gradient circle",
+		pageLink: "./Art/brettl1991/index.html",
+		imageLink: "./Art/brettl1991/animation.png",
+		author: "Agnes Brettl",
+		githubLink: "https://github.com/brettl1991"
+	},
+	{
+		artName: "Bill Cipher",
+		pageLink: "./Art/vitoriapena/index.html",
+		imageLink: "./Art/vitoriapena/bill_cipher.gif",
+		author: "Vitória Mendes",
+		githubLink: "https://github.com/vitoriapena"
+	},
+	{
+		artName: "Dizzy",
+		pageLink: "./Art/antinomy/index.html",
+		imageLink: "./Art/antinomy/logo-spin.gif",
+		author: "Antinomezco",
+		githubLink: "https://github.com/antinomezco"
+	},
+	{
+		artName: "bounce",
+		pageLink: "./Art/bounce/index.html",
+		imageLink: "./Art/bounce/bounce.gif",
+		author: "leelacanlale",
+		githubLink: "https://github.com/leelacanlale"
+	},
+	{
+		artName: "Bubbles",
+		pageLink: "./Art/bubbles/Bubbles.html",
+		imageLink: "./Art/bubbles/buubles.png",
+		author: "michal",
+		githubLink: "https://github.com/michalAim"
+	},
+	{
+		artName: "Bar Slide",
+		pageLink: "./Art/MikeVedsted/index.html",
+		imageLink: "./Art/MikeVedsted/gif.gif",
+		author: "Mike Vedsted",
+		githubLink: "https://github.com/MikeVedsted"
+	},
+	{
+		artName: 'HacktoberFest-2019',
+		pageLink: './Art/Atif/index.html',
+		imageLink: './Art/Atif/HacktoberFest-19.gif',
+		author: 'Atif Iqbal',
+		githubLink: 'https://github.com/atif-dev'
+	},
+	{
+		artName: 'squareMagic',
+		pageLink: './Art/Rajnish-SquareMagic/index.html',
+		imageLink: './Art/Rajnish-SquareMagic/squareMagic.png',
+		author: 'Rajnish Kr Singh',
+		githubLink: 'https://github.com/RajnishKrSingh'
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -1176,14 +1174,14 @@ let contents = [];
 Shuffle(cards).forEach(c => {
 	contents.push([
 		`<li class="card">` +
-			`<a href='${c.pageLink}'>` +
-			`<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-			`</a>` +
-			`<div class="flex-content">` +
-			`<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-			`<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-			`</div>` +
-			`</li>`
+		`<a href='${c.pageLink}'>` +
+		`<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+		`</a>` +
+		`<div class="flex-content">` +
+		`<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+		`<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+		`</div>` +
+		`</li>`
 	]);
 });
 
@@ -1191,9 +1189,7 @@ document.getElementById("cards").innerHTML = contents;
 
 function Shuffle(o) {
 	for (
-		var j, x, i = o.length;
-		i;
-		j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
+		var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
 	);
 	return o;
 }
