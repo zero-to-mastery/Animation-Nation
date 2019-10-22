@@ -1096,6 +1096,13 @@ let cards = [{
 		imageLink: './Art/brettl1991/animation.png',
 		author: 'Agnes Brettl',
 		githubLink: 'https://github.com/brettl1991'
+	},
+	{
+		artName: 'Spooktime',
+		pageLink: './Art/AgneDJ/index.html',
+		imageLink: './Art/AgneDJ/spooktime.gif',
+		author: 'AgneDJ',
+		githubLink: 'https://github.com/AgneDJ'
 	}
 ];
 
