@@ -580,6 +580,13 @@ let cards = [{
 		githubLink: "https://github.com/RinatValiullov"
 	},
 	{
+		artName: "Animated Cube",
+		pageLink: "./Art/Animated Cube/index.html",
+		imageLink: "./Art/Animated Cube/cube.gif",
+		author: "RedSquirrrel",
+		githubLink: "https://github.com/RedSquirrrel"
+  },
+  {
 		artName: "Calm Ubuntu",
 		pageLink: "./Art/schupat/index.html",
 		imageLink: "./Art/schupat/preview.gif",
