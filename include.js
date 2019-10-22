@@ -1133,7 +1133,14 @@ let cards = [
     imageLink: "./Art/bounce/bounce.gif",
     author: "leelacanlale",
     githubLink: "https://github.com/leelacanlale"
-    },
+   },
+	 {
+		artName: 'HacktoberFest-2019',
+		pageLink: './Art/Atif/index.html',
+		imageLink: './Art/Atif/HacktoberFest-19.gif',
+		author: 'Atif Iqbal',
+		githubLink: 'https://github.com/atif-dev'
+	 }
 ];
 
 // +--------------------------------------------------------------------------------+
