@@ -1134,13 +1134,20 @@ let cards = [
     author: "leelacanlale",
     githubLink: "https://github.com/leelacanlale"
    },
-	 {
-		artName: 'HacktoberFest-2019',
-		pageLink: './Art/Atif/index.html',
-		imageLink: './Art/Atif/HacktoberFest-19.gif',
-		author: 'Atif Iqbal',
-		githubLink: 'https://github.com/atif-dev'
-	 }
+   {
+	artName: 'HacktoberFest-2019',
+	pageLink: './Art/Atif/index.html',
+	imageLink: './Art/Atif/HacktoberFest-19.gif',
+	author: 'Atif Iqbal',
+	githubLink: 'https://github.com/atif-dev'
+    },
+    {
+      artName: "Bubbles",
+      pageLink: "./Art/bubbles/Bubbles.html",
+      imageLink: "./Art/bubbles/buubles.png",
+      author: "michal",
+      githubLink: "https://github.com/michalAim"
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
