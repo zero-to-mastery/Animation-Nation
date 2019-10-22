@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+h1 {
+    position: absolute;
+    width: 2.6em;
+    color: black;
+    text-shadow: -2px -2px 0 yellow, 2px -2px 0 yellow, -2px 2px 0 yellow, 2px 2px 0 yellow;
+    font-size: 20em;
+    text-align: center;
+    left: 50%;
+    top: -40%;
+    opacity: 0;
+    margin-left: -1.3em;
+    line-height: 0.8em;
+    letter-spacing: -0.05em;
+    z-index: 1;
+    -webkit-animation: title 8s ease-out 1s infinite;
+}
+h1 sub {
+    display: block;
+    font-size: 0.3em;
+    letter-spacing: 0;
+    line-height: 0.8em;
+    text-align: center;
+    margin-left: 1em;
+    line-height: 1em;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    h1 { 
+        margin-left: -0.6em;
+        top: -30%;
+    }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px)  {
+    h1 { 
+        margin-left: -1em;
+        top: -30%;
+    }
+}
+@-webkit-keyframes title {
+    0% { -webkit-transform: scale(0.1); opacity: 1; }
+    50% { opacity: 1; }
+    100% { -webkit-transform: scale(0.1); opacity: 0; }
+}
+@keyframes title {
+    0% { transform: scale(1); opacity: 1; }
+    50% { opacity: 1; }
+    100% { transform: scale(0.1); opacity: 0; }
+}

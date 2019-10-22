@@ -1,0 +1,46 @@
+
+#yin-yang {
+    width: 96px;
+    box-sizing: content-box;
+    height: 48px;
+    margin: 250px;
+    background: #eee;
+    border-color: #A9A9A9;
+    border-style: solid;
+    border-width: 2px 2px 50px 2px;
+    border-radius: 100%;
+    position: relative; 
+    animation-name:rotate-animation; 
+    animation-duration:5s; 
+    animation-iteration-count:infinite; 
+    animation-timing-function:linear; 
+}
+#yin-yang:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #eee;
+  border: 18px solid #A9A9A9;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  box-sizing: content-box;
+}
+#yin-yang:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #A9A9A9;
+  border: 18px solid #eee;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  box-sizing: content-box;
+}
+
+@keyframes rotate-animation{ 
+    from{transform:rotate(0deg);} 
+    to{transform:rotate(360deg);} 
+} 

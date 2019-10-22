@@ -1,0 +1,47 @@
+body {
+  background: #0f0c29;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content {
+  width: 100%;
+  min-height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 900px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 55px 55px 37px 55px;
+  text-align: center;
+}
+
+.coolTitle {
+  color: tomato;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 firebrick, 1px 2px 0 firebrick, 1px 3px 0 firebrick, 1px 4px 0 firebrick,
+    1px 5px 0 firebrick, 1px 6px 0 firebrick, 1px 7px 0 firebrick, 1px 8px 0 firebrick,
+    5px 13px 15px black;
+}
+
+.coolTitle:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(-50%, -50%);
+  text-shadow: 1px -1px 0 firebrick, 1px -2px 0 firebrick, 1px -3px 0 firebrick,
+    1px -4px 0 firebrick, 1px -5px 0 firebrick, 1px -6px 0 firebrick, 1px -7px 0 firebrick,
+    1px -8px 0 firebrick, 5px -13px 15px black, 5px -13px 25px #808080;
+}

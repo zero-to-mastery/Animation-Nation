@@ -3,15 +3,16 @@
     justify-content: center;
     align-items: center;
     font-family:'Times New Roman', Times, serif;
+    font-size: 10em;
     font-weight:bold;
     font-style:italic;
-    color:skyblue;
-    animation:name 10s linear 1s infinite normal;
+    color:#fff;
+    animation:name 5s linear 1s infinite reverse;
     transform:rotateY(0deg);  
 }
 
 @keyframes name
 {
-    0%  {transform:rotateY(0deg);}
-    100%{transform:rotateY(360deg);}
+    from  {transform:rotateY(0deg); color: #fff}
+    to {transform:rotateY(360deg); color: #000}
 } 

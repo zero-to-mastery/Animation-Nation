@@ -1,0 +1,162 @@
+.pong-field {
+	max-height: 90vh; 
+	position: absolute;
+}
+
+.text-container {
+	max-height: 10vh;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.player {
+	position: relative;
+	background-color: white;
+	width: 1vw;
+	height: 5vh;
+}
+
+.left {
+	top: 0;
+	left: 0;
+	animation: left-moving 6s infinite;
+}
+
+@keyframes left-moving {
+  0% {
+  	top: 0;  
+  }
+  50% {
+  	top: 85vh;
+  }
+  100% {
+  	top: 0;  
+  }
+}
+
+@-webkit-keyframes left-moving {
+  0% {
+  	top: 0;  
+  }
+  50% {
+  	top: 85vh;
+  }
+  100% {
+  	top: 0;  
+  }
+}
+
+.right {
+	top: 80vh;
+	left: 99vw;
+	animation: right-moving 6s infinite;
+}
+
+
+@keyframes right-moving {
+  0% {
+  	top: 80vh;  
+  }
+  50% {
+  	top: -5vh;
+  }
+  100% {
+  	top: 80vh;  
+  }
+}
+
+@-webkit-keyframes right-moving {
+  0% {
+  	top: 80vh;  
+  }
+  50% {
+  	top: -5vh;
+  }
+  100% {
+  	top: 80vh;  
+  }
+}
+
+.ball {
+	border-radius: 50%;
+	width: 1vw;
+	height: 1vw;
+	background-color: white;
+	position: relative;
+	top: -7.5vh;
+	left: 1vw;
+	animation: ball-moving 12s infinite;
+}
+
+@keyframes ball-moving {
+  0% {
+  	left: 1vw;  
+  }
+  25% {
+  	left: 98vw;
+  	top: -7.5vh;
+  }
+  37.5% {
+  	left: 49vw;
+  	top: 77.5vh;
+  }
+  50% {
+  	left: 1vw;
+  	top: -7.5vh;
+  }
+  62.5% {
+  	left: 98vw;
+  	top: 13vh;
+  }
+  75% {
+  	left: 1vw;
+  	top: 77.5vh;
+  }
+  87.5%{
+  	left: 98vw;
+  	top: 57vh;
+  }
+  100% {
+  	left: 1vw;
+  }
+}
+
+@-webkit-keyframes ball-moving {
+  0% {
+  	left: 1vw;  
+  }
+  25% {
+  	left: 98vw;
+  	top: -7.5vh;
+  }
+  37.5% {
+  	left: 49vw;
+  	top: 77.5vh;
+  }
+  50% {
+  	left: 1vw;
+  	top: -7.5vh;
+  }
+  62.5% {
+  	left: 98vw;
+  	top: 13vh;
+  }
+  75% {
+  	left: 1vw;
+  	top: 77.5vh;
+  }
+  87.5%{
+  	left: 98vw;
+  	top: 57vh;
+  }
+  100% {
+  	left: 1vw;
+  }
+}

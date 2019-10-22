@@ -1,0 +1,152 @@
+body{
+	background: black;
+}
+
+#wrapper {
+	position: relative;
+	top: 150px;
+}
+
+#rocket-top {
+	height: 0px;
+	width: 0px;
+	border-left: 130px solid transparent;
+	border-right: 130px solid transparent;
+	border-bottom: 180px solid red;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	margin-left: -130px;
+	top: -130px;
+	z-index: 1;
+}
+
+#rocket-body {
+	height: 430px;
+	width: 208px;
+	background-color: silver;
+	margin: 0 auto;
+	border-radius: 20px 20px 50px 50px;
+	position: relative;
+	z-index: 0;
+}
+
+#rocket-window-outer {
+	height: 160px;
+	width: 130px;
+	background-color: blue;
+	border-radius: 80px/100px;
+	position: absolute;
+	left: 50%;
+	margin-left: -65px;
+	bottom: 250px;
+}
+
+#rocket-window {
+	height: 140px;
+	width: 110px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 260px;
+	left: 50%;
+	margin-left: -55px;
+	background-color: lightblue;
+}
+
+#wing-wrapper {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	margin: -180px auto -30px auto;
+}
+
+#rocket-left-wing {
+	width: 0;
+	height: 0;
+	border-bottom: 200px solid red;
+	border-left: 200px solid transparent;
+	/*position: absolute;
+	left: 50%;
+	bottom: 8%;
+	margin-left: -280px;*/
+	z-index: 1;
+}
+
+#rocket-middle-wing {
+	height: 200px;
+	width: 20px;
+	background-color: red;
+	/*position: absolute;
+	left: 50%;
+	margin-left: -10px;
+	bottom: 45px;*/
+	z-index: 1;
+}
+
+#rocket-right-wing {
+	width: 0;
+	height: 0;
+	border-bottom: 200px solid red;
+	border-right: 200px solid transparent;
+	/*position: absolute;
+	left: 60.5%;
+	bottom: 8%;
+	margin-left: -3px;*/
+	z-index: 1;
+}
+
+#rocket-thruster {
+	height: 0;
+	width: 80px;
+	border-bottom: 60px solid grey;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	margin: 0px auto;
+	z-index: -1;
+}
+
+#rocket-red-fire {
+	width: 0;
+	height: 0;
+	border-left: 190px solid transparent;
+	border-right: 190px solid transparent;
+	border-bottom: 380px solid red;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: -240px;
+	margin-left: -190px;
+	z-index: -1;
+	animation-name: fire-outer;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+#rocket-yellow-fire {
+	width: 0;
+	height: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 300px solid yellow;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: -240px;
+	margin-left: -150px;
+	z-index: -1;
+	animation-name: fire-inner;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes fire-outer {
+	0% {bottom: -250px; border-bottom: 310px solid red;}
+	50% {bottom: -270px; border-bottom: 310px solid red;}
+	100% {bottom: -250px; border-bottom: 310px solid red;}
+}
+
+@keyframes fire-inner {
+	0% {bottom: -240px; border-bottom: 310px solid yellow;}
+	50% {bottom: -260px; border-bottom: 310px solid orange;}
+	100% {bottom: -240px; border-bottom: 310px solid yellow;}
+}

@@ -1,0 +1,178 @@
+/* This css will display Christmas lights effect */
+/* The body background is set to black to maximize the glow effect of the lights */
+body {
+    background: #000;
+  }
+html {
+  overflow:hidden;
+}
+.container {
+  display: grid;
+  min-height: 100vh;
+  min-width: 100%;
+  grid-template-columns:repeat(7, 1fr);
+   grid-template-rows:repeat(7, 1fr);
+  grid-auto-rows: 4rem;
+  grid-gap: 2em;
+}
+}
+  /* oval[number] is the div that will have an oval shape and starting color that glows and transitions into another color. */
+.oval1 {
+    display: inline-block;
+    width: 7.25rem; /* The whole css is set to use rem to adjust the pixels by the html default font for mobile and desktop */
+    height: 4.00rem;
+    background: red;
+    border-radius: 6.25rem / 3.125rem;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 8s; 
+    animation-iteration-count: infinite; /* Property is set to infinite so that the animination continues looping */
+    box-shadow: 0 0 3.75rem 1.875rem red; /* This property is what causes the glow like effect */
+    }
+.oval2 {
+    display: inline-block;
+    width: 7.25rem;
+    height: 4.00rem;
+    background: green;
+    border-radius: 6.25rem / 3.125rem;
+    transform: rotate(145deg);
+    position: relative;
+    animation-name: myanimation2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 3.75rem 1.875rem green;
+    top 1.25rem;
+    left 1.25rem;
+    }
+.oval3 {
+    display: inline-block;
+    width: 7.25rem;
+    height: 4.00rem;
+    background: white;
+    border-radius: 6.25rem / 3.125rem;
+    transform: rotate(45deg);
+    position: relative;
+    animation-name: myanimation3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 3.75rem 1.875rem #fff;
+    left: 3.75rem;
+    top: 3.75rem;
+    }
+.oval4 {
+    display: inline-block;
+    width: 7.25rem;
+    height: 4.00rem;
+    background: blue;
+    border-radius: 6.25rem / 3.125rem;
+    transform: rotate(318deg);
+    position: relative;
+    animation-name: myanimation4;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 3.75rem 1.875rem blue;
+    left 1.25rem;
+    top 1.25rem;
+    }
+.oval5 {
+    display: inline-block;
+    width: 7.25rem;
+    height: 4.00rem;
+    background: red;
+    border-radius: 6.25rem / 3.125rem;
+    transform: rotate(31deg);
+    position: relative;
+    animation-name: myanimation2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 3.75rem 1.875rem red;
+    left 1.25rem;
+    top 1.25rem;
+    }
+.oval6 {
+    display: inline-block;
+    width: 7.25rem;
+    height: 4.00rem;
+    background: green;
+    border-radius: 6.25rem / 3.125rem;
+    transform: rotate(318deg);
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 3.75rem 1.875rem green;
+    left 1.25rem;
+    top 1.25rem;
+    }
+.oval7 {
+    display: inline-block;
+    width: 7.25rem;
+    height: 4.00rem;
+    background: blue;
+    border-radius: 6.25rem / 3.125rem;
+    transform: rotate(0deg);
+    position: relative;
+    animation-name: myanimation3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 3.75rem 1.875rem blue;
+    left 1.25rem;
+    top 1.25rem;
+    }
+.oval8 {
+    display: inline-block;
+    width: 7.25rem;
+    height: 4.00rem;
+    background: white;
+    border-radius: 6.25rem / 3.125rem;
+    transform: rotate(90deg);
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 3.75rem 1.875rem #fff;
+    left 1.25rem;
+    top: 4.375rem;
+    }
+
+/* Set the margin for all the ovals */
+.oval-space {
+  margin: 5.25rem .95rem;
+}
+
+/* Setting up what color should starts and ends */
+  @keyframes myanimation{
+    0% {background-color: green; box-shadow: 0 0 3.75rem 1.875rem green;}
+    25% {background-color: blue; box-shadow: 0 0 3.75rem 1.875rem blue;}
+    50% {background-color: orange; box-shadow: 0 0 3.75rem 1.875rem orange;}
+    75% {background-color: white; box-shadow: 0 0 3.75rem 1.875rem white;}
+    100% {background-color: green; box-shadow: 0 0 3.75rem 1.875rem green;}
+  }
+  
+  @keyframes myanimation2{
+    0% {background-color: white; box-shadow: 0 0 3.75rem 1.875rem white;}
+    25% {background-color: yellow; box-shadow: 0 0 3.75rem 1.875rem yellow;}
+    50% {background-color: green; box-shadow: 0 0 3.75rem 1.875rem green;}
+    75% {background-color: red; box-shadow: 0 0 3.75rem 1.875rem red;}
+    100% {background-color: purple; box-shadow: 0 0 3.75rem 1.875rem purple;}
+  }
+  
+  
+  @keyframes myanimation3{
+    0% {background-color: blue; box-shadow: 0 0 3.75rem 1.875rem blue;}
+    25% {background-color: green;  box-shadow: 0 0 3.75rem 1.875rem green;}
+    50% {background-color: red;  box-shadow: 0 0 3.75rem 1.875rem red;}
+    75% {background-color: yellow;  box-shadow: 0 0 3.75rem 1.875rem yellow;}
+    100% {background-color: white box-shadow: 0 0 3.75rem 1.875rem white;}  
+  }
+  
+  @keyframes myanimation4{
+    0% {background-color: red; box-shadow: 0 0 3.75rem 1.875rem red;}
+    25% {background-color: purple; box-shadow: 0 0 3.75rem 1.875rem purple;}
+    50% {background-color: yellow; box-shadow: 0 0 3.75rem 1.875rem yellow;}
+    75% {background-color: green; box-shadow: 0 0 3.75rem 1.875rem green;}
+    100% {background-color: red; box-shadow: 0 0 3.75rem 1.875rem red;}
+  }
+
+  
+    

@@ -1,0 +1,80 @@
+<!-- tutorial link https://www.youtube.com/watch?v=OUCivhck2UI&fbclid=IwAR3GMgLowhKRi2ZF_nk_KqkQlbLbHBUs7ACH0-J4iTLZWii-tE9lehUB3uo -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            perspective: 100px;
+            height: 100vh;
+            transform-style: preserve-3d;
+            text-align: center;
+            position: relative;
+            font-size: 18px;
+            overflow: hidden;
+            background: #2e82d6;
+        }
+
+        .header-content p {
+            color: #ffffff;
+        }
+
+        header:before {
+            background: linear-gradient(to bottom, rgba(6, 83, 128, 0), rgba(126, 176, 233, 0.8)) url() no-repeat bottom;
+            background-size: cover;
+            position: absolute;
+            /* padding:0 0 0 0;   */
+            top: 0;
+            bottom: 0;
+            ;
+            right: 0;
+            left: 0;
+            content: "";
+            animation: fadeSlideDown 1s 0.5s cubic-bezier(0,0,0.52,1) forwards;
+            opacity: 0;
+
+        }
+
+        header:after {
+            background: #f9fcff;
+            content: "";
+            height: 40rem;
+            left: -5%;
+            position: absolute;
+            right: -5%;
+            top: 90%;
+            transform-origin: 0 0;
+            transform: rotatez(-6deg);
+        }
+
+        @keyframes fadeSlideDown {
+            0% {
+                opacity: 0;
+                transform: none;
+            }
+
+            100% {
+                opacity: 1;
+                transform: none;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section class="header-content">
+            <p>Mona trying to create something neat</p>
+        </section>
+    </header>
+</body>
+
+</html>
