@@ -1,0 +1,67 @@
+
+		.mainDiv{
+			height: 300px;
+		    width: 400px;
+		    border: 1px solid black;
+		    background: radial-gradient(#585831, #1b1b1b);
+		    position: fixed;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		}
+		.wall{
+			height: 0;
+		    width: 100%;
+		    position: absolute;
+		    box-sizing: border-box;
+		    bottom: 0;
+		    animation: walldrop 2.5s infinite cubic-bezier(0.55, 0.06, 0.68, 0.19);
+		}
+		h1 {
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    display: inline-block;
+		    margin: 0;
+		    transform: translate(-50%, -50%);
+		    font-family: cursive;
+		    color: yellow;
+		    animation: ztm 2.5s infinite cubic-bezier(0.55, 0.06, 0.68, 0.19);
+		}
+		body{background-color: black;}
+		@keyframes ztm{
+			from{
+				font-size: 40px;
+				text-shadow: 0px 0px 5px #5294ce;
+			}
+			to{
+				font-size: 60px;
+				text-shadow: 0px 0px 20px #5294ce;
+			}
+		}
+		@keyframes walldrop{
+			0%{
+				border-bottom: 300px solid black;
+			    border-left: 0px solid transparent;
+			    border-right: 0px solid transparent;
+			    opacity: 1;
+			}
+			50%{
+				border-bottom: 0px solid #1d1c0d;
+			    border-left: 100px solid transparent;
+			    border-right: 100px solid transparent;
+			    opacity: 0.95;
+			}
+			100%{
+				border-bottom: 0px solid #1d1c0d;
+			    border-left: 100px solid transparent;
+			    border-right: 100px solid transparent;
+			    opacity: 0.95;
+			}
+		}
+		html,body{
+			margin:0;
+			height: 100%;
+			width: 100%;
+			background-color: #000;
+		}

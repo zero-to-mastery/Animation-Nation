@@ -1,0 +1,119 @@
+body {
+    background: black;
+}
+
+h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-align: center;
+    color: white;
+}
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 420px;
+    height: 420px;
+    background: none;
+    animation-direction: alternate;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-name: hover;
+}
+@keyframes hover {
+    from {
+        top: 20px;
+    }
+    to {
+        top: 120px;
+    }
+}
+
+.ghost {
+    position: absolute;
+    top:15%;
+    left: 25%;
+    width: 50%;
+    height: 67%;
+    background: white;
+    border-radius: 50% 50% 0 0;
+}
+
+.arm {
+    background: white;
+    width: 30%;
+    height: 15%;
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    top: 45%;
+
+}
+.left-arm {
+    left: 85%;
+}
+
+.right-arm {
+    right: 85%;
+}
+
+.eye {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: 25%;
+    border-radius: 50%;
+    background: black;
+}
+.left-eye {
+    left: 25%;
+}
+
+.right-eye {
+    right: 25%;
+}
+
+.mouth {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 45%;
+    left: 45%;
+    border-radius: 50%;
+    background: black;
+    z-index: 3;
+}
+
+.skirt {
+    display: inline-block;
+    width: 12.5%;
+    height: 12.5%;
+    background-color: white;
+    clip-path: circle();
+    position: absolute;
+    top: 75%;
+}
+
+.first {
+    left: 25%;
+}
+
+.second {
+    left: 37.5%
+}
+
+.third {
+    left: 50%;
+}
+
+.fourth {
+    left: 62.5%;
+}
+
+.shadow {
+    box-shadow:
+            0 -5px 40px rgba(256, 256, 256, .5),
+            -5px -5px 40px rgba(0, 0, 0, .5),
+            5px -5px 40px rgba(0, 0, 0, .5);
+}
+

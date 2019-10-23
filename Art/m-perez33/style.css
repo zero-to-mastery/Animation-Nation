@@ -1,0 +1,124 @@
+
+.container {
+  height:auto;
+  transform: scale(4);
+  display: flex;
+  justify-content: center;
+  margin-top:400px;
+  background-color: #424242;
+  border-width: 10px;
+  border-color: black;
+}
+
+.head {
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 30%;
+  position: relative;
+  top: 10px;
+  box-shadow: inset 0px -1px 4px 0px;
+}
+.headtop {
+  height: 50px;
+  width: 20px;
+  background-color: #e0e0e0;
+  border-radius: 30%;
+  position: absolute;
+  left: 40px;
+  top: -28px;
+  box-shadow: inset 0px -1px 5px 0px;
+  display: flex;
+}
+.mouth-top {
+  height: 10px;
+  width: 80px;
+  background-color: #bbb;
+  border-radius: 30%;
+  position:absolute;
+  left: 10px;
+  top: 40px;
+  display: flex;
+}
+.eye {
+  position: absolute;
+  height: 10px;
+  width: 80px;
+  left: 10px;
+  top: 25px;
+  background-color: black;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+}
+.eye-dot {
+  position: absolute;
+  height: 10px;
+  width: 34px;
+  left: 0px;
+  top: 0px;
+  background-color: red;
+  border-radius: 50%;
+  box-shadow: inset 0px -1px 5px 0px;
+  animation-name: cssAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cssAnimation {
+  0% {
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+  }
+  50% {
+    transform: rotate(0deg) scale(1) skew(0deg) translate(40px);
+  }
+  100% {
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+
+  }
+}
+
+.mouth {
+  position: absolute;
+  transform: scale(.4);
+  height: 00px;
+  width: 50px;
+  left: -33px;
+  top: -25px;
+  border-top: 55px solid transparent;
+  border-bottom: 120px solid black;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  padding: 0px 0px 0px 0x;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center
+}
+
+.mouth2 {
+  position: relative;
+  transform: scale(.8);
+  width: 60px;
+  left: 0px;
+  top:  -55px;
+  border-top: 58px solid transparent;
+  border-bottom: 120px solid #424242;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  padding: 10px 0px 0px 0x;
+  border-radius: 18px;
+  box-shadow: inset 10px -1px 5px 0px;
+
+}
+
+.mouth-bottom {
+  height: 20px;
+  width: 40px;
+  background-color:black;
+  border-radius: 30%;
+  position:absolute;
+  left: 5px;
+  top: 5px;
+}
