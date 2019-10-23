@@ -1403,18 +1403,25 @@ let cards = [
     githubLink: "https://github.com/alansarluv"
   },
   {
-      artName: "animated-birds",
-      pageLink: "./Art/g-serban/animated-birds.html",
-      imageLink: "./Art/g-serban/animated-birds.gif",
-      author: "g-serban",
-      githubLink: "https://github.com/g-serban"
+    artName: "animated-birds",
+    pageLink: "./Art/g-serban/animated-birds.html",
+    imageLink: "./Art/g-serban/animated-birds.gif",
+    author: "g-serban",
+    githubLink: "https://github.com/g-serban"
 	},
 	{
-		artName: "circle-become-square",
-		pageLink: "./Art/chathura19/index.html",
-		imageLink: "./Art/chathura19/chathura.gif",
-		author: "Chathura Samarajeewa",
-		githubLink: "https://github.com/ChathuraSam"
+	artName: "circle-become-square",
+	pageLink: "./Art/chathura19/index.html",
+	imageLink: "./Art/chathura19/chathura.gif",
+	author: "Chathura Samarajeewa",
+	githubLink: "https://github.com/ChathuraSam"
+  },
+  {
+	artName: "like-animation",
+	pageLink: "./Art/gibas79/like-animation.html",
+	imageLink: "./Art/gibas79/like-animation.gif",
+	author: "Gilberto Guimarães",
+	githubLink: "https://github.com/gibas79"
   }
 ];
 
