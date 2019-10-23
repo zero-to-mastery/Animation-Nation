@@ -13,6 +13,13 @@ let cards = [{
 		githubLink: "https://github.com/Futuregit"
 	},
 	{
+		artName: "Fruit Dancing",
+		pageLink: "./Art/carlacentenor/index.html",
+		imageLink: "./Art/carlacentenor/fruit.gif",
+		author: "carlacentenor",
+		githubLink: "https://github.com/carlacentenor"
+	},
+	{
 		artName: "Spooktober Hacktoberfest",
 		pageLink: "./Art/FredAmartey/index.html",
 		imageLink: "./Art/FredAmartey/thumbnaill.gif",
