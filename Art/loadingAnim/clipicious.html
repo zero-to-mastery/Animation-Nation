@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Basic -->
+	<meta http-equiv="Content-Type" content="text/html">
+	<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+
+	<!-- Define Charset -->
+	<meta charset="utf-8">
+
+	<!-- Responsive Metatag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="MobileOptimized" content="320">
+
+	<!-- Page Description and Author -->
+	<title>css animation </title>
+	<meta name="author" content="Sneha Parkar">
+
+	<style media="screen">
+		/*--------------- preloader-1 -----------------*/
+
+		.loading-msg {
+			margin: 25px auto;
+			font-size: 17px;
+			max-width: 720px;
+			line-height: 1.5em;
+			color: #727f8f;
+			text-align: center;
+		}
+
+		.loading-msg span {
+			font-style: italic;
+		}
+
+		.loading-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			width: 80px;
+			height: 80px;
+			margin: 0 auto;
+		}
+
+		.preloader {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		.preloader-icon {
+			position: absolute;
+			top: 25px;
+			left: 25px;
+			width: 30px;
+			height: 30px;
+			color: #d50000;
+			font-size: 28px;
+			text-align: center;
+		}
+
+		.loader-circle {
+			display: block;
+			position: relative;
+			width: 80px;
+			height: 80px;
+			margin: 0;
+			border-radius: 50%;
+			border: 2px solid transparent;
+			border-top-color: #3498db;
+			-webkit-animation: spin 2s linear infinite;
+			animation: spin 2s linear infinite;
+		}
+
+		.loader-circle:before {
+			content: "";
+			position: absolute;
+			top: 5px;
+			left: 5px;
+			right: 5px;
+			bottom: 5px;
+			border-radius: 50%;
+			border: 2px solid transparent;
+			border-top-color: #f1c40f;
+			-webkit-animation: spin 3s linear infinite;
+			animation: spin 3s linear infinite;
+		}
+
+		.loader-circle:after {
+			content: "";
+			position: absolute;
+			top: 15px;
+			left: 15px;
+			right: 15px;
+			bottom: 15px;
+			border-radius: 50%;
+			border: 2px solid transparent;
+			border-top-color: #27ae60;
+			-webkit-animation: spin 1.5s linear infinite;
+			animation: spin 1.5s linear infinite;
+		}
+
+		@-webkit-keyframes spin {
+			0% {
+				-webkit-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+
+			100% {
+				-webkit-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+		}
+
+		@keyframes spin {
+			0% {
+				-webkit-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+
+			100% {
+				-webkit-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+
+		}
+
+	</style>
+</head>
+
+
+<body class="appBody">
+	<div class="clipiciousApp" id="csMainView">
+		<div class="text-center" style="margin-top:20%">
+			<div class="loading-container">
+				<div class="preloader">
+					<div class="preloader-icon">C</div>
+					<div class="loader-circle"></div>
+				</div>
+			</div>
+			<div class="loading-msg" id="quoteTxt"> </div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var quotes = [
+			"Develop a passion for learning. If you do, you will never cease to grow.<br/><span>- Anthony J. D'Angelo</span>",
+			"Tell me and I forget. Teach me and I remember. Involve me and I learn.<br/><span>- Benjamin Franklin</span>",
+			"A wise man can learn more from a foolish question than a fool can learn from a wise answer.<br/><span>- Bruce Lee</span>",
+			"Learning is not attained by chance, it must be sought for with ardor and diligence.<br/><span>- Abigail Adams</span>",
+			"Human behavior flows from three main sources: desire, emotion, and knowledge.<br/><span>- Plato</span>",
+			"Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort.<br/><span>- Paul J. Meyer</span>",
+			"Discipline is the bridge between goals and accomplishment.<br/><span>- Jim Rohn</span>",
+			"While technology is important, it's what we do with it that truly matters.<br/><span>- Muhammad Yunus</span>",
+			"The real problem is not whether machines think but whether men do.<br/><span>- B. F. Skinner</span>",
+			"Until we can manage time, we can manage nothing else.<br/><span>- Peter Drucker</span>",
+			"Successful people ask better questions, and as a result, they get better answers.<br/><span>- Tony Robbins</span>",
+			"It is not enough to be busy… The question is: what are we busy about?<br/><span>- Henry David Thoreau</span>",
+			"The key is not to prioritize what’s on your schedule, but to schedule your priorities.<br/><span>- Stephen Covey</span>",
+			"Ordinary people think merely of spending time, great people think of using it<br/><span>- . Arthur Schopenhauer</span>",
+			"Focus on being productive instead of busy.<br/><span>- Tim Ferriss</span>",
+			"Time is the scarcest resource and unless it is managed nothing else can be managed.<br/><span>- Peter Drucker</span>",
+			"Time is at once the most valuable and the most perishable of all our possessions.<br/><span>- John Randolph</span>",
+			"Effective performance is preceded by painstaking preparation.<br/><span>- Brian Tracy</span>",
+			"The desire of knowledge, like the thirst for riches, increases ever with the acquisition of it.<br/><span>-  Laurence Sterne</span>",
+			"You may delay, but time will not.<br/><span>-  Benjamin Franklin</span>",
+			"It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.<br/><span>-  Charles Darwin</span>",
+			"If you don’t pay appropriate attention to what has your attention, it will take more of your attention than it deserves.<br/><span>-  David Allen</span>",
+			"While one person hesitates because he feels inferior, the other is busy making mistakes and becoming superior.<br/><span>-  Henry Link</span>",
+			"You only have to do a very few things right in your life so long as you don’t do too many things wrong.<br/><span>-  Warren Buffett</span>"
+		];
+		var colors = ["#27ae60", "#3498db", "#d50000", "#8E54E9", "#DD2476", "#277C94", "#F83600"];
+
+		function showQuote() {
+			var msgElm = document.getElementById("quoteTxt");
+			if (msgElm) {
+				var msg = quotes[Math.floor((Math.random() * (quotes.length - 1)) + 1)];
+				document.getElementById("quoteTxt").innerHTML = msg;
+				var randIndex = Math.floor(Math.random() * colors.length);
+				var randomColor = colors[randIndex];
+				var x = document.getElementById("quoteTxt").style.color = randomColor;
+				setTimeout(function() {
+					showQuote();
+				}, '15000');
+			}
+		};
+		showQuote();
+
+	</script>
+	<!-- <link id="csPdfLocal" rel="resource" type="application/l10n" href="js/vendor/pdfjs/web/locale/locale.properties"> -->
+</body>
+
+</html>
