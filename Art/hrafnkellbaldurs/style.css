@@ -1,0 +1,154 @@
+:root {
+    /* Container */
+    --container-size: 50vh;
+
+    /* Earth*/
+    --earth-size: 30vh;
+
+    /* Moon */
+    --moon-size: calc(var(--earth-size) * 0.25);
+    --moon-x-start: -25vh;
+    --moon-x-end: 25vh;
+    --moon-animation-duration: 2s;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: var(--container-size);
+    height: var(--container-size);
+    transform-style: preserve-3d;
+
+    animation: rotate 15s linear infinite;
+}
+
+.earth {
+    width: var(--earth-size);
+    height: var(--earth-size);
+    top: calc((var(--container-size) - var(--earth-size)) / 2);
+    margin: auto;
+    position: relative;
+    background: blue;
+    border-radius: 80%;
+    transform-style: preserve-3d;
+
+    animation: rotate 5s linear infinite;
+}
+
+.earth:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 80%;
+
+    box-shadow: 0px 0px 12px 7px rgba(80, 124, 122, 0.3), inset 128px 0px 199px -16px rgb(21, 42, 68);
+}
+
+
+.moon {
+    /* The value to use for centering moon inside earth */
+    --center-of-earth: calc((var(--container-size) - var(--moon-size)) / 2);
+    top: var(--center-of-earth);
+    left: var(--center-of-earth);
+    width: var(--moon-size);
+    height: var(--moon-size);
+    background: gray;
+    position: absolute;
+    border-radius: 80%;
+    z-index: 1;
+    transform-style: preserve-3d;
+}
+
+/* Starts at 2 since earth is first child */
+.moon:nth-child(2) {
+    transform: translate3d(var(--moon-x-start), 0, 0);
+    transform-style: preserve-3d;
+    box-shadow: inset 10px 7px 22px 9.7px rgb(51, 51, 51);
+    
+    animation: 
+        moon-rotate var(--moon-animation-duration) ease-in-out 0s infinite alternate,
+        show-hide calc(var(--moon-animation-duration) * 2) ease-in-out 0s infinite,
+        transform 10s ease-in-out infinite both alternate;
+}
+
+.moon:nth-child(3) {
+    transform: translate3d(var(--moon-x-end), 0, 0);
+    transform-style: preserve-3d;
+    box-shadow: inset 10px 7px 22px 9.7px rgb(29, 25, 25);
+
+    --animation-speed: calc(var(--moon-animation-duration) * 0.5);
+    
+    animation: 
+        moon-rotate-2 var(--animation-speed) ease-in-out 0s infinite alternate,
+        show-hide calc(var(--animation-speed) * 2) ease-in-out 0s infinite reverse,
+        transform 2s ease-in-out infinite both alternate;
+}
+
+@keyframes moon-rotate {
+    0% {
+        transform: translate3d(var(--moon-x-start), 0, 0);
+    }
+    100% {
+        transform: translate3d(var(--moon-x-end), 0, 0);
+    }
+}
+
+@keyframes moon-rotate-2 {
+    0% {
+        transform: translate3d(0, var(--moon-x-start), 0);
+    }
+    100% {
+        transform: translate3d(0, var(--moon-x-end), 0);
+    }
+}
+
+@keyframes show-hide {
+    0% {
+        z-index: 1; 
+    }
+    9% {
+        z-index: 1;
+    }
+    10% {
+        z-index: -1;
+    }
+    60% {
+        z-index: -1;
+    }
+    61% {
+        z-index: 1;
+    }
+    100% {
+        z-index: 1;
+    }
+}
+
+
+@keyframes rotate {
+    to{ transform: rotate(360deg); }
+}
+
+@keyframes transform {
+    0%,
+  100% { border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%; } 
+   14% { border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%; } 
+   28% { border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%; } 
+   42% { border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%; } 
+   56% { border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%; } 
+   70% { border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%; } 
+   84% { border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%; } 
+}

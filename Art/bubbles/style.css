@@ -1,0 +1,45 @@
+div{
+	text-align: center;
+}
+
+@-webkit-keyframes bounce_it{
+  0% {margin-top:30px;}
+  25%{margin-left:250px;margin-top:552px}
+  50%{margin-left:500px;margin-top:30px;}
+  75%{margin-left:250px;margin-top:552px}
+  100%{margin-left:0px;margin-top:30px}
+}
+
+.dot {
+  height: 200px;
+  width: 200px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 10px;
+  display: inline-block;
+}
+
+.light-blue{
+  background-color: #BFF9F7;
+  -webkit-animation:bounce_it 5s linear infinite;
+}
+
+.red{
+  background-color: #F9450C;
+}
+
+.strong-blue{
+  background-color: #4FBCEF;
+}
+
+.yellow{
+  background-color: #EFEA4F;
+}
+
+.mid-blue{
+  background-color: #0BBFF5;
+}
+
+.purple{
+  background-color: #C473DC;
+}
