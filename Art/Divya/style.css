@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+
+body {
+
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: #000;	
+font-family: 'Liu Jian Mao Cao',cursive;
+font-style: italic;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+	color: #111;
+	font-size: 16em;
+}
+
+h1 span{
+	display: table-cell;
+	margin: 0;
+	padding: 0;
+	animation: animate 2s linear infinite;
+}
+
+@keyframes animate
+{
+
+	0%,100%
+	{
+			color: #fff;
+			filter: blur(2px);
+	}
+
+	5%,95%
+	{
+			color: #111;
+			filter: blur(0px);
+	}
+}
