@@ -1160,6 +1160,13 @@ let cards = [{
 		author: 'Atif Iqbal',
 		githubLink: 'https://github.com/atif-dev'
 	 },
+    {
+      artName: "Text Animation",
+      pageLink: "./Art/Divya/index.html",
+      imageLink: "./Art/Divya/screenshot.png",
+      author: "Divya",
+      githubLink: "https://github.com/DivyaPuri25"
+    },
 	 {
 		 artName: "HacktoberFest-2019-Entry",
 		 pageLink: "./Art/nunocpnp/index.html",
