@@ -1103,6 +1103,13 @@ let cards = [{
 		imageLink: './Art/vitoriapena/bill_cipher.gif',
 		author: 'Vitória Mendes',
 		githubLink: 'https://github.com/vitoriapena'
+	},
+	{
+		artName: 'Sliding hacktober',
+		pageLink: './Art/Atif3/index.html',
+		imageLink: './Art/Atif3/sliding hacktober.gif',
+		author: 'Atif Iqbal',
+		githubLink: 'https://github.com/atif-dev'
 	}
 ];
 
