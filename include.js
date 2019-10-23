@@ -259,14 +259,14 @@ let cards = [
 		author: "Josia Rodriguez",
 		githubLink: "https://github.com/josiarod"
 	},
-   
-    	{
+
+	{
 		artName: "Hacktober loading animation",
 		pageLink: "./Art/mehul1011/index.html",
 		imageLink: "./Art/mehul1011/loading.gif",
 		author: "Mehul1011",
 		githubLink: "https://github.com/mehul1011"
-    	},
+	},
 
 	{
 		artName: "TypeWriter effect",
@@ -451,12 +451,12 @@ let cards = [
 		githubLink: "https://github.com/hjpunzalan"
 	},
 	{
-	    artName: "Rainbow Color Changer",
-	    pageLink: "./Art/mmshr/index.html",
-	    imageLink: "./Art/mmshr/rainbow.gif",
-	    author: "mmosehauer",
-	    githubLink: "https://github.com/mmosehauer"
-  },
+		artName: "Rainbow Color Changer",
+		pageLink: "./Art/mmshr/index.html",
+		imageLink: "./Art/mmshr/rainbow.gif",
+		author: "mmosehauer",
+		githubLink: "https://github.com/mmosehauer"
+	},
 	{
 		artName: "World of Coding",
 		pageLink: "./Art/tom_kn/coding.html",
@@ -492,19 +492,27 @@ let cards = [
 		author: "Sanjeev Panday",
 		githubLink: "https://github.com/Sanjeev-Panday"
 	},
-	{	artName: "ZtM",
+	{
+		artName: "ZtM",
 		pageLink: "./Art/thoyvo/index.html",
 		imageLink: "./Art/thoyvo/ZtM.gif",
 		author: "Thoyvo",
 		githubLink: "https://github.com/thoyvo"
 	},
-  {
-      artName: "Fast Fishes",
-      pageLink: "./Art/4ront/index.html",
-      imageLink: "./Art/4ront/fishes.gif",
-      author: "4rontender",
-      githubLink: "https://github.com/RinatValiullov"
-  }
+	{
+		artName: "Fast Fishes",
+		pageLink: "./Art/4ront/index.html",
+		imageLink: "./Art/4ront/fishes.gif",
+		author: "4rontender",
+		githubLink: "https://github.com/RinatValiullov"
+	},
+	{
+		artName: "Loading...",
+		pageLink: "./Art/RedSquirrrel2/loading.html",
+		imageLink: "./Art/RedSquirrrel2/loading.gif",
+		author: "RedSquirrrel",
+		githubLink: "https://github.com/RedSquirrrel"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -519,14 +527,14 @@ let contents = [];
 Shuffle(cards).forEach(c => {
 	contents.push([
 		`<li class="card">` +
-			`<a href='${c.pageLink}'>` +
-			`<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-			`</a>` +
-			`<div class="flex-content">` +
-			`<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-			`<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-			`</div>` +
-			`</li>`
+		`<a href='${c.pageLink}'>` +
+		`<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+		`</a>` +
+		`<div class="flex-content">` +
+		`<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+		`<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+		`</div>` +
+		`</li>`
 	]);
 });
 
