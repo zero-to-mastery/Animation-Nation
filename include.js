@@ -1140,7 +1140,14 @@ let cards = [
 		imageLink: './Art/Atif/HacktoberFest-19.gif',
 		author: 'Atif Iqbal',
 		githubLink: 'https://github.com/atif-dev'
-	 }
+	 },
+    {
+      artName: "Text Animation",
+      pageLink: "./Art/Divya/index.html",
+      imageLink: "./Art/Divya/screenshot.png",
+      author: "Divya",
+      githubLink: "https://github.com/DivyaPuri25"
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
