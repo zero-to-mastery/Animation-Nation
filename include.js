@@ -1201,7 +1201,14 @@ let cards = [{
     imageLink: "./Art/robodance/robodance.gif",
     author: "Thomas",
     githubLink: "https://github.com/mahlqvist"
-  }
+  },
+	{
+		artName: 'Sliding hacktober',
+		pageLink: './Art/Atif3/index.html',
+		imageLink: './Art/Atif3/sliding hacktober.gif',
+		author: 'Atif Iqbal',
+		githubLink: 'https://github.com/atif-dev'
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
