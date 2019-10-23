@@ -1133,7 +1133,14 @@ let cards = [
     imageLink: "./Art/bounce/bounce.gif",
     author: "leelacanlale",
     githubLink: "https://github.com/leelacanlale"
-    },
+  },
+  {
+    artName: "Robodance",
+    pageLink: "./Art/robodance/index.html",
+    imageLink: "./Art/robodance/robodance.gif",
+    author: "Thomas",
+    githubLink: "https://github.com/mahlqvist"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
