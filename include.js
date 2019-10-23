@@ -587,6 +587,13 @@ let cards = [{
 		githubLink: "https://github.com/RinatValiullov"
 	},
 	{
+		artName: "Loading...",
+		pageLink: "./Art/RedSquirrrel2/loading.html",
+		imageLink: "./Art/RedSquirrrel2/loading.gif",
+		author: "RedSquirrrel",
+		githubLink: "https://github.com/RedSquirrrel"
+	},
+  {
 		artName: "Animated Cube",
 		pageLink: "./Art/Animated Cube/index.html",
 		imageLink: "./Art/Animated Cube/cube.gif",

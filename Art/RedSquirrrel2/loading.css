@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(236,2,2);
+  background: linear-gradient(90deg, rgba(236,2,2,1) 0%, rgba(248,255,247,1) 50%, rgba(219,76,36,1) 100%);
+}
+
+.animated-text {  
+  position: relative;
+  animation: text 4s infinite;  
+  margin-left: 40%;
+  margin-top: 20%;  
+}
+
+h1 {
+  letter-spacing: 1rem;
+  font-size: 3.5rem;
+  font-family: 'Fascinate Inline', cursive;
+ 
+}
+
+@keyframes text {
+  0% {       
+    opacity: 1;
+    color: #eb2510;
+  }
+  25% {   
+    opacity: 0;
+    color: #e6e31e;
+  }
+  50% {    
+    opacity: 1;
+    color: #1ec7e6;  
+  }
+
+  75% {    
+    color: #e6e31e;  
+    opacity: 0;
+  }
+
+  100% {    
+    opacity: 1;
+    color: #eb2510;  
+  }
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  display: flex;  
+  justify-content: center;
+  margin-left: 3rem;
+}
+
+.wrapper .ball-1, .ball-2, .ball-3 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid rgb(252, 0, 0);
+  border-top: 2.5px solid rgb(13, 26, 0);
+  margin: 0 14px;  
+} 
+.ball-1 {
+  animation: spin 2s infinite linear ;  
+}
+
+.ball-2 {
+  animation: spin 3s infinite linear ;
+  
+}
+.ball-3 {
+  animation: spin 1s infinite linear ;  
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ball-1:nth-child(1){ animation-delay: 1s;}
+.ball-2:nth-child(2){ animation-delay: 2s;}
+.ball-3:nth-child(3){ animation-delay: 3s;}
+
+
+/* ***** RESPONSIVE ****** */
+
+@media(max-width: 500px){
+  .wrapper{    
+    margin-left: -5rem ;
+    padding: 0.5rem;
+    justify-content: flex-start;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 100%;
+    margin-left: 0px;
+    letter-spacing: unset;
+  }
+}
+
+@media(max-width: 850px){
+  .wrapper{  
+    margin-left: -3rem ;
+    margin-bottom: 5rem;    
+    padding-top: 5rem;  
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    top: 0;
+    margin-left: 0px;
+    letter-spacing: unset;
+  }
+}
