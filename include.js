@@ -1140,7 +1140,7 @@ let cards = [
     imageLink: "./Art/robodance/robodance.gif",
     author: "Thomas",
     githubLink: "https://github.com/mahlqvist"
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
