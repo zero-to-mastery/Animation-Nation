@@ -1,0 +1,22 @@
+.like {
+    display: block;
+    width: 639px; 
+    height: 639px;
+    margin:0 auto;
+    background: url(like-animation.gif) 0 0 no-repeat;
+    background-size: 3000%;
+    animation: like-animation-gif steps(28) 1s infinite both;    
+}
+
+div {
+  margin: center center center center;
+}
+
+@keyframes like-animation-gif {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}

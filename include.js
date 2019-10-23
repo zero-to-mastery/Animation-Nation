@@ -1215,7 +1215,14 @@ let cards = [{
 		imageLink: './Art/Atif3/sliding hacktober.gif',
 		author: 'Atif Iqbal',
 		githubLink: 'https://github.com/atif-dev'
-	}
+	},
+  {
+	artName: "like-animation",
+	pageLink: "./Art/gibas79/like-animation.html",
+	imageLink: "./Art/gibas79/like-animation.gif",
+	author: "Gilberto Guimarães",
+	githubLink: "https://github.com/gibas79"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
