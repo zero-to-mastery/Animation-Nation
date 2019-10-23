@@ -1141,7 +1141,7 @@
 				githubLink: 'https://github.com/atif-dev'
 	},
 			{
-				artName: 'HacktoberFest-2019',
+				artName: 'Animatron 2019',
 				pageLink: './Art/snehaGitCss/index.html',
 				imageLink: '',
 				author: 'Sneha Parkar',
