@@ -1187,7 +1187,14 @@ let cards = [{
 		imageLink: './Art/Rajnish-SquareMagic/squareMagic.png',
 		author: 'Rajnish Kr Singh',
 		githubLink: 'https://github.com/RajnishKrSingh'
-	}
+	},
+  {
+		artName: 'Blinking Hacktober',
+		pageLink: './Art/Atif2/index.html',
+		imageLink: './Art/Blinking hacktober.gif',
+		author: 'Atif Iqbal',
+		githubLink: 'https://github.com/atif-dev'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
