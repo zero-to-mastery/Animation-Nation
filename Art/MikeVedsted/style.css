@@ -1,0 +1,43 @@
+body {
+	background-color: #152347; 	
+}
+
+
+.box {
+	margin: 2px auto;
+}
+
+
+.container {
+	height: 400px;
+	width: 400px;
+	overflow: hidden;
+	margin: auto;	
+}
+
+.box:nth-of-type(3) {
+	animation: move1 2s infinite;	
+}
+ 
+.box:nth-of-type(2) {
+	animation: move2 2s infinite;	
+}
+
+.box:nth-of-type(1) {
+	animation: move3 2s infinite;	
+}
+
+@keyframes move1 {
+0% 	{ height: 0;   width: 0;} 
+25% 	{ height: 10%; width: 100%; background-color: #cf2379; }
+100%	{ height: 10%; width: 100%; background-color: #152347; }}
+
+@keyframes move2 {
+0% 	{ height: 0;   width: 0; }
+50% 	{ height: 10%; width: 100%; background-color: #cf2379; }
+100% 	{ height: 10%; width: 100%; background-color: #152347; }}
+
+@keyframes move3 {
+0% 	{ height: 0;   width: 0; margin-top: 0;}
+75% 	{ height: 10%; width: 100%; background-color: #cf2379; }
+100%	{ height: 10%; width: 100%; background-color: #152347; margin-top: 100%}}
