@@ -1,0 +1,152 @@
+body{
+
+	background: #152347;
+
+}
+
+#hacktober{
+
+  font-size:35px;
+  color: #5B94FF;
+  position: relative;
+  top:-11px;
+
+  -webkit-animation-name: hacktober;      /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:0s;             /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+    animation-name: hacktober;
+    animation-duration: 4s;
+    animation-delay:0s;
+    animation-fill-mode: forwards;
+
+}
+
+#dash{
+  font-size: 40px;
+  color: yellow;
+  position: relative;
+  top:-9px;
+}
+
+#fest{
+  font-size:70px;
+  color: #FF09A5;
+  opacity: 0;
+
+  -webkit-animation-name: fest;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;       /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:3s;           /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+  
+
+    animation-name: fest;
+    animation-duration: 4s;
+    animation-delay:3s;
+    animation-fill-mode: forwards;
+
+  
+
+}
+
+#year{
+
+  font-size:35px;
+  position: relative;
+  top:-8px;
+  color: yellow;
+  opacity: 0;
+
+  -webkit-animation-name: year;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;       /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:6s;           /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+
+    animation-name: year;
+    animation-duration: 4s;
+    animation-delay:6s;
+    animation-fill-mode: forwards;
+
+}
+
+#text{
+	width:100%;
+	height: 100px;
+
+	font-size: 30px;
+  font-family: URW Chancery L, cursive;
+  text-align: center;
+
+  margin: 0;
+
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+	opacity: 1;
+	font-weight: bold;        
+	
+}
+
+
+                      /*Animation hacktober starts*/
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes hacktober {
+   0%   {opacity:0}
+  25%  {opacity:0.1}
+  50%  {opacity:0.4}
+  75%  {opacity:0.6}
+  100% {opacity:0.9}
+}
+
+
+/* Standard syntax */
+@keyframes hacktober {
+  0%   {opacity:0}
+  25%  {opacity:0.1}
+  50%  {opacity:0.4}
+  75%  {opacity:0.6}
+  100% {opacity:0.9}
+}/*Animation hacktober ends*/
+
+                            /*Animation for Fest starts*/
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fest {
+   0%   {opacity:0}
+  25%  {opacity:0.1}
+  50%  {opacity:0.4}
+  75%  {opacity:0.6}
+  100% {opacity:0.9}
+}
+
+
+/* Standard syntax */
+@keyframes fest {
+  0%   {opacity:0}
+  25%  {opacity:0.1}
+  50%  {opacity:0.4}
+  75%  {opacity:0.6}
+  100% {opacity:0.9}
+}/*Animation for Fest ends*/
+
+                        /*year Animation starts*/
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes year {
+   0%   {opacity:0}
+  25%  {opacity:0.1}
+  50%  {opacity:0.4}
+  75%  {opacity:0.6}
+  100% {opacity:0.9}
+}
+
+
+/* Standard syntax */
+@keyframes year {
+  0%   {opacity:0}
+  25%  {opacity:0.1}
+  50%  {opacity:0.4}
+  75%  {opacity:0.6}
+  100% {opacity:0.9}
+}/*Animation for year ends*/
