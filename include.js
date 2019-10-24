@@ -1236,20 +1236,48 @@ let cards = [{
 		imageLink: "./Art/hmahajan/circle.gif",
 		author: "Harshit",
 		githubLink: "https://github.com/hmahajan99"
+	},
+  {
+	artName: "like-animation",
+	pageLink: "./Art/gibas79/like-animation.html",
+	imageLink: "./Art/gibas79/like-animation.gif",
+	author: "Gilberto Guimarães",
+	githubLink: "https://github.com/gibas79"
+  },
+ {
+	artName: "Github Animation",
+	pageLink: "./Art/Kshitij/Git.html",
+	imageLink: "./Art/Kshitij/Git.gif",
+	author: "Kshitij Srivastava",
+	githubLink: "https://github.com/Codefy1"
+  },
+  {
+  artName: "loading-animation",
+  pageLink: "./Art/loadingAnim/index.html",
+  imageLink: "./Art/loadingAnim/image.gif",
+  author: "sneha parkar",
+  githubLink: "https://github.com/SnehaParkar"
+  },
+  {
+		artName: "Fading Circle",
+		pageLink: "./Art/hmahajan/circle.html",
+		imageLink: "./Art/hmahajan/circle.gif",
+		author: "Harshit",
+		githubLink: "https://github.com/hmahajan99"
 	}	
 ];
 
-// +--------------------------------------------------------------------------------+
-// +                                                                                +
-// +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
-// +                                                                                +
-// +--------------------------------------------------------------------------------+
+		// +--------------------------------------------------------------------------------+
+		// +                                                                                +
+		// +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
+		// +                                                                                +
+		// +--------------------------------------------------------------------------------+
 
-// Creates cards from the array above
-// You don't need to modify this
-let contents = [];
-Shuffle(cards).forEach(c => {
-	contents.push([
+		// Creates cards from the array above
+		// You don't need to modify this
+		let contents = [];
+		Shuffle(cards).forEach(c => {
+			contents.push([
 		`<li class="card">` +
 		`<a href='${c.pageLink}'>` +
 		`<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
@@ -1260,13 +1288,13 @@ Shuffle(cards).forEach(c => {
 		`</div>` +
 		`</li>`
 	]);
-});
+		});
 
-document.getElementById("cards").innerHTML = contents;
+		document.getElementById("cards").innerHTML = contents;
 
-function Shuffle(o) {
-	for (
-		var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
-	);
-	return o;
-}
+		function Shuffle(o) {
+			for (
+				var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
+			);
+			return o;
+		}
