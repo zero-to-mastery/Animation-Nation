@@ -1418,8 +1418,8 @@ let cards = [
   },
   {
 	artName: "like-animation",
-	pageLink: "./Art/gibas79/like-animation.html",
-	imageLink: "./Art/gibas79/like-animation.gif",
+	pageLink: "./Art/like-animation/like-animation.html",
+	imageLink: "./Art/like-animation/like-animation.gif",
 	author: "Gilberto Guimarães",
 	githubLink: "https://github.com/gibas79"
   }
