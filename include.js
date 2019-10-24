@@ -1264,6 +1264,13 @@ let cards = [{
 		imageLink: "./Art/hmahajan/circle.gif",
 		author: "Harshit",
 		githubLink: "https://github.com/hmahajan99"
+	},	
+  {
+		artName: "Bag of Loading Treats",
+		pageLink: "./Art/nateo/index.html",
+		imageLink: "./Art/nateo/bag-of-loading-animations.gif",
+		author: "Nate Osterfeld",
+		githubLink: "https://github.com/NateOsterfeld"
 	}	
 ];
 
