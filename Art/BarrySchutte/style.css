@@ -1,0 +1,71 @@
+.block-1,
+.block-2,
+.block-3,
+.block-4,
+.block-5,
+.block-6 {
+    background-color: #000;
+    height: 300px;
+    width: 30px;
+    position: absolute;  
+}
+
+.block-1 {
+    background: linear-gradient(rgb(255, 0, 0),rgb(0, 0, 0));
+    animation: 5s right infinite linear;
+    top: 200px;
+    left: 700px;
+}
+
+.block-2 {
+    background: #000;   
+    animation: 5s left infinite linear;
+    top: 200px;
+    left: 700px;
+}
+
+.block-3 {
+    background: #000;  
+    animation: 5s right infinite linear;
+    top: 80px;
+    left: 700px;
+}
+
+.block-4 {
+    background: linear-gradient(rgb(255, 0, 0),rgb(0, 0, 0)); 
+    animation: 5s left infinite linear;
+    top: 80px;
+    left: 700px;
+}
+
+.block-5 {
+    background: #000;
+    animation: 5s right infinite linear;
+    top: 320px;
+    left: 700px;
+}
+
+.block-6 {
+    background: linear-gradient(rgb(255, 0, 0),rgb(0, 0, 0));    
+    animation: 5s left infinite linear;
+    top: 320px;
+    left: 700px;
+}
+
+@keyframes right {
+  
+
+    100% {
+        transform: rotate(360deg);
+        
+    }
+}
+
+@keyframes left {
+  
+
+    100% {
+        transform: rotate(-360deg);
+        
+    }
+}

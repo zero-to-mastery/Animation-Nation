@@ -1271,7 +1271,15 @@ let cards = [{
 	imageLink: "./Art/Srikanth/Loader.gif",
 	author: "Srikanth",
 	githubLink: "https://github.com/zeus990"
-}	
+},	
+{
+	 artName: "Amsterdam",
+	 pageLink: "./Art/BarrySchutte/index.html",
+	 imageLink: "./Art/BarrySchutte/amsterdam.gif",
+	 author: "BarrySchutte",
+	 githubLink: "https://github.com/BarrySchutte"
+     }	
+
 	
 ];
 
