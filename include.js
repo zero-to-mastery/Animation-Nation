@@ -13,6 +13,13 @@
 				githubLink: "https://github.com/Futuregit"
 	},
 			{
+				artName: "Fruit Dancing",
+				pageLink: "./Art/carlacentenor/index.html",
+				imageLink: "./Art/carlacentenor/fruit.gif",
+				author: "carlacentenor",
+				githubLink: "https://github.com/carlacentenor"
+	},
+			{
 				artName: "Spooktober Hacktoberfest",
 				pageLink: "./Art/FredAmartey/index.html",
 				imageLink: "./Art/FredAmartey/thumbnaill.gif",
@@ -578,6 +585,13 @@
 				imageLink: "./Art/4ront/fishes.gif",
 				author: "4rontender",
 				githubLink: "https://github.com/RinatValiullov"
+	},
+			{
+				artName: "Loading...",
+				pageLink: "./Art/RedSquirrrel2/loading.html",
+				imageLink: "./Art/RedSquirrrel2/loading.gif",
+				author: "RedSquirrrel",
+				githubLink: "https://github.com/RedSquirrrel"
 	},
 			{
 				artName: "Animated Cube",
@@ -1159,7 +1173,21 @@
 				imageLink: './Art/Atif/HacktoberFest-19.gif',
 				author: 'Atif Iqbal',
 				githubLink: 'https://github.com/atif-dev'
-	},
+	 },
+			{
+				artName: "Text Animation",
+				pageLink: "./Art/Divya/index.html",
+				imageLink: "./Art/Divya/screenshot.png",
+				author: "Divya",
+				githubLink: "https://github.com/DivyaPuri25"
+    },
+			{
+				artName: "HacktoberFest-2019-Entry",
+				pageLink: "./Art/nunocpnp/index.html",
+				imageLink: "./Art/nunocpnp/sample_image.jpg",
+				author: "Nuno Pereira",
+				githubLink: "https://github.com/nunocpnp"
+	 },
 			{
 				artName: 'HacktoberFest 2019',
 				pageLink: './Art/AbdussamadYisau/index.html',
@@ -1175,12 +1203,40 @@
 				githubLink: 'https://github.com/RajnishKrSingh'
 	},
 			{
+				artName: 'Blinking Hacktober',
+				pageLink: './Art/Atif2/index.html',
+				imageLink: './Art/Blinking hacktober.gif',
+				author: 'Atif Iqbal',
+				githubLink: 'https://github.com/atif-dev'
+  },
+			{
+				artName: "Robodance",
+				pageLink: "./Art/robodance/index.html",
+				imageLink: "./Art/robodance/robodance.gif",
+				author: "Thomas",
+				githubLink: "https://github.com/mahlqvist"
+  },
+			{
+				artName: 'Sliding hacktober',
+				pageLink: './Art/Atif3/index.html',
+				imageLink: './Art/Atif3/sliding hacktober.gif',
+				author: 'Atif Iqbal',
+				githubLink: 'https://github.com/atif-dev'
+	},
+			{
+				artName: "like-animation",
+				pageLink: "./Art/gibas79/like-animation.html",
+				imageLink: "./Art/gibas79/like-animation.gif",
+				author: "Gilberto Guimarães",
+				githubLink: "https://github.com/gibas79"
+  },
+			{
 				artName: "loading-animation",
 				pageLink: "./Art/loadingAnim/index.html",
 				imageLink: "./Art/loadingAnim/image.gif",
 				author: "sneha parkar",
 				githubLink: "https://github.com/SnehaParkar"
-	}
+  }
 ];
 
 		// +--------------------------------------------------------------------------------+
