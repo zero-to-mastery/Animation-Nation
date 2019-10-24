@@ -1239,8 +1239,8 @@ let cards = [{
 	},
   {
 	artName: "like-animation",
-	pageLink: "./Art/gibas79/like-animation.html",
-	imageLink: "./Art/gibas79/like-animation.gif",
+	pageLink: "./Art/like-animation/like-animation.html",
+	imageLink: "./Art/like-animation/like-animation.gif",
 	author: "Gilberto Guimarães",
 	githubLink: "https://github.com/gibas79"
   },
@@ -1271,7 +1271,14 @@ let cards = [{
 		imageLink: "./Art/nateo/bag-of-loading-animations.gif",
 		author: "Nate Osterfeld",
 		githubLink: "https://github.com/NateOsterfeld"
-	}	
+	},
+{
+	artName: "Loader",
+	pageLink: "./Art/Srikanth/loader.html",
+	imageLink: "./Art/Srikanth/Loader.gif",
+	author: "Srikanth",
+	githubLink: "https://github.com/zeus990"
+}	
 ];
 
 		// +--------------------------------------------------------------------------------+
