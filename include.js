@@ -1264,6 +1264,13 @@ let cards = [{
 		imageLink: "./Art/hmahajan/circle.gif",
 		author: "Harshit",
 		githubLink: "https://github.com/hmahajan99"
+	},	
+  {
+		artName: "Bag of Loading Treats",
+		pageLink: "./Art/nateo/index.html",
+		imageLink: "./Art/nateo/bag-of-loading-animations.gif",
+		author: "Nate Osterfeld",
+		githubLink: "https://github.com/NateOsterfeld"
 	},
 {
 	artName: "Loader",
@@ -1273,14 +1280,15 @@ let cards = [{
 	githubLink: "https://github.com/zeus990"
 },	
 {
-	 artName: "Amsterdam",
-	 pageLink: "./Art/BarrySchutte/index.html",
-	 imageLink: "./Art/BarrySchutte/amsterdam.gif",
-	 author: "BarrySchutte",
-	 githubLink: "https://github.com/BarrySchutte"
-     }	
+  artName: "Amsterdam",
+ 	pageLink: "./Art/BarrySchutte/index.html",
+  imageLink: "./Art/BarrySchutte/amsterdam.gif",
+  author: "BarrySchutte",
+  githubLink: "https://github.com/BarrySchutte"
+}	
 
 	
+
 ];
 
 		// +--------------------------------------------------------------------------------+
