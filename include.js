@@ -1175,11 +1175,11 @@
 				githubLink: 'https://github.com/RajnishKrSingh'
 	},
 			{
-				artName: 'Loading Anim',
-				pageLink: './Art/loadingAnim/index.html',
-				imageLink: './Art/loadingAnim/loading.gif',
-				author: 'Sneha Parkar.',
-				githubLink: 'https://github.com/SnehaParkar'
+				artName: "loading-animation",
+				pageLink: "./Art/loadingAnim/index.html",
+				imageLink: "./Art/loadingAnim/image.gif",
+				author: "sneha parkar",
+				githubLink: "https://github.com/SnehaParkar"
 	}
 ];
 
