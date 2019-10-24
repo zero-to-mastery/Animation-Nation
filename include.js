@@ -1229,6 +1229,13 @@ let cards = [{
 	imageLink: "./Art/gibas79/like-animation.gif",
 	author: "Gilberto Guimarães",
 	githubLink: "https://github.com/gibas79"
+  },
+ {
+	artName: "Github Animation",
+	pageLink: "./Art/Kshitij/Git.html",
+	imageLink: "./Art/Kshitij/Git.gif",
+	author: "Kshitij Srivastava",
+	githubLink: "https://github.com/Codefy1"
   }
 ];
 
