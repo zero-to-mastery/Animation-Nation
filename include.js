@@ -1224,6 +1224,20 @@ let cards = [{
 		githubLink: 'https://github.com/atif-dev'
 	},
   {
+		artName: "like-animation",
+		pageLink: "./Art/gibas79/like-animation.html",
+		imageLink: "./Art/gibas79/like-animation.gif",
+		author: "Gilberto Guimarães",
+		githubLink: "https://github.com/gibas79"
+	},
+  {
+		artName: "Fading Circle",
+		pageLink: "./Art/hmahajan/circle.html",
+		imageLink: "./Art/hmahajan/circle.gif",
+		author: "Harshit",
+		githubLink: "https://github.com/hmahajan99"
+	},
+  {
 	artName: "like-animation",
 	pageLink: "./Art/gibas79/like-animation.html",
 	imageLink: "./Art/gibas79/like-animation.gif",
@@ -1243,7 +1257,14 @@ let cards = [{
   imageLink: "./Art/loadingAnim/image.gif",
   author: "sneha parkar",
   githubLink: "https://github.com/SnehaParkar"
-  }
+  },
+  {
+		artName: "Fading Circle",
+		pageLink: "./Art/hmahajan/circle.html",
+		imageLink: "./Art/hmahajan/circle.gif",
+		author: "Harshit",
+		githubLink: "https://github.com/hmahajan99"
+	}	
 ];
 
 		// +--------------------------------------------------------------------------------+
