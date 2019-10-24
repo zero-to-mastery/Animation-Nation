@@ -1,0 +1,113 @@
+.sandbox {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-items: center;
+}
+.ring-container {
+    margin-top: 100px;
+    vertical-align: center;
+}
+
+.ring {
+    position: absolute;
+    width:100px;
+    height: 200px;
+
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px / 100px;
+    opacity: 0.95;
+
+    /*
+    animation: spin 4s linear 2s infinite;
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    */
+
+}
+
+body {
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.delay0 {
+    animation-delay: 0s;
+}
+.delay1 {
+    animation-delay: 0.25s;
+}
+.delay2 {
+    animation-delay: 0.5s;
+}
+.delay3 {
+    animation-delay: 0.75s;
+}
+.delay4 {
+    animation-delay: 1s;
+}
+.delay5 {
+    animation-delay: 1.25s;
+}
+.delay6 {
+    animation-delay: 1.5s;
+}
+.delay7 {
+    animation-delay: 1.75s;
+}
+.delay8 {
+    animation-delay: 2s;
+}
+
+.fill {
+    animation-name: color;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.circle {
+    position: relative;
+    width:50px;
+    height: 50px;
+    top: 75px;
+    left: 25px;
+    border-color: black;
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    animation-name: pulse-effect;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
+
+@keyframes pulse-effect { 
+    0% {transform: scale(1, 1)}
+    50% {transform: scale(1.2,1.2)}
+    100% {transform: scale(1,1)}
+}
+
+@keyframes color {
+    0%   {background-color:red; transform: rotate(0deg);}
+    25%  {background-color:yellow; transform: rotate(90deg);}
+    50%  {background-color:blue; transform: rotate(180deg);}
+    75%  {background-color:green; transform: rotate(270deg);}
+    100% {background-color:red; transform: rotate(360deg);}
+  }
+  
