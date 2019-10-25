@@ -1286,6 +1286,14 @@ let cards = [{
 		author: "Bec Braughton",
 		githubLink: "https://github.com/beckton"
 	}
+	{
+		artName: "Earth Years",
+		pageLink: "./Art/FrankGrullon/index.html",
+		imageLink: "./Art/FrankGrullon/thumbnaill.png",
+		author: "Frank Grullon",
+		githubLink: "https://github.com/FrankGrullon"
+	},
+
 ];
 
 		// +--------------------------------------------------------------------------------+
