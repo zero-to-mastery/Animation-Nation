@@ -1285,9 +1285,21 @@ let cards = [{
   imageLink: "./Art/BarrySchutte/amsterdam.gif",
   author: "BarrySchutte",
   githubLink: "https://github.com/BarrySchutte"
-}	
-
-	
+},
+{
+		artName: "Whirling Maze",
+		pageLink: "./Art/beckton/index.html",
+		imageLink: "./Art/beckton/maze2.jpg",
+		author: "Bec Braughton",
+		githubLink: "https://github.com/beckton"
+	},
+	{
+		artName: "Earth Years",
+		pageLink: "./Art/FrankGrullon/index.html",
+		imageLink: "./Art/FrankGrullon/thumbnaill.png",
+		author: "Frank Grullon",
+		githubLink: "https://github.com/FrankGrullon"
+	},
 
 ];
 
