@@ -1174,6 +1174,14 @@ let cards = [{
 		author: 'Rajnish Kr Singh',
 		githubLink: 'https://github.com/RajnishKrSingh'
 	}
+	{
+		artName: "Earth Years",
+		pageLink: "./Art/FrankGrullon/index.html",
+		imageLink: "./Art/FrankGrullon/thumbnaill.png",
+		author: "Frank Grullon",
+		githubLink: "https://github.com/FrankGrullon"
+	},
+
 ];
 
 // +--------------------------------------------------------------------------------+
