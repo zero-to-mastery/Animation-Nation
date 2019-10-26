@@ -1264,7 +1264,7 @@ let cards = [{
 		imageLink: "./Art/hmahajan/circle.gif",
 		author: "Harshit",
 		githubLink: "https://github.com/hmahajan99"
-	},	
+	},
   {
 		artName: "Bag of Loading Treats",
 		pageLink: "./Art/nateo/index.html",
@@ -1278,7 +1278,7 @@ let cards = [{
 	imageLink: "./Art/Srikanth/Loader.gif",
 	author: "Srikanth",
 	githubLink: "https://github.com/zeus990"
-},	
+},
 {
   artName: "Amsterdam",
  	pageLink: "./Art/BarrySchutte/index.html",
@@ -1301,6 +1301,13 @@ let cards = [{
 		githubLink: "https://github.com/FrankGrullon"
 	},
 	{
+		artName: "Heartwork",
+		pageLink: "./Art/funtime-error/heart.html",
+		imageLink: "./Art/funtime-error/heart.gif",
+		author: "Jas Per",
+		githubLink: "https://github.com/funtime-error"
+	},
+  {
 		artName: "animated-face",
 		pageLink: "./Art/Saksham/index.html",
 		imageLink: "./Art/Saksham/thumbnaill.png",
