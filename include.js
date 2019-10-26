@@ -1265,7 +1265,7 @@ let cards = [{
 		author: "Harshit",
 		githubLink: "https://github.com/hmahajan99"
 	},
-	{
+  {
 		artName: "Bag of Loading Treats",
 		pageLink: "./Art/nateo/index.html",
 		imageLink: "./Art/nateo/bag-of-loading-animations.gif",
@@ -1300,14 +1300,34 @@ let cards = [{
 		author: "Frank Grullon",
 		githubLink: "https://github.com/FrankGrullon"
 	},
-
 	{
 		artName: "Flower",
 		pagelink: "./Art/DimaKonoval/index.html",
 		imagelink: "/Art/DimaKonoval/flower.png",
 		author: "Dima Fonoval",
 		githubLink: "https://github.com/DimaKonoval"
-	}
+	},
+	{
+		artName: "Heartwork",
+		pageLink: "./Art/funtime-error/heart.html",
+		imageLink: "./Art/funtime-error/heart.gif",
+		author: "Jas Per",
+		githubLink: "https://github.com/funtime-error"
+	},
+  {
+		artName: "animated-face",
+		pageLink: "./Art/Saksham/index.html",
+		imageLink: "./Art/Saksham/thumbnaill.png",
+		author: "Saksham Singh",
+		githubLink: "https://github.com/Saksham27"
+	},
+  {
+		artName: "Checkerboard",
+		pageLink: "./Art/Dheva/index.html",
+		imageLink: "./Art/Dheva/checkerboard.gif",
+		author: "DhevaMargaPutra",
+		githubLink: "https://github.com/DhevaMargaPutra"
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
