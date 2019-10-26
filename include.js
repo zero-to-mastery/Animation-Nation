@@ -1306,7 +1306,21 @@ let cards = [{
 		imageLink: "./Art/funtime-error/heart.gif",
 		author: "Jas Per",
 		githubLink: "https://github.com/funtime-error"
-	}
+	},
+  {
+		artName: "animated-face",
+		pageLink: "./Art/Saksham/index.html",
+		imageLink: "./Art/Saksham/thumbnaill.png",
+		author: "Saksham Singh",
+		githubLink: "https://github.com/Saksham27"
+	},
+  {
+		artName: "Checkerboard",
+		pageLink: "./Art/Dheva/index.html",
+		imageLink: "./Art/Dheva/checkerboard.gif",
+		author: "DhevaMargaPutra",
+		githubLink: "https://github.com/DhevaMargaPutra"
+	},
 ];
 
 		// +--------------------------------------------------------------------------------+
