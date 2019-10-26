@@ -1300,7 +1300,13 @@ let cards = [{
 		author: "Frank Grullon",
 		githubLink: "https://github.com/FrankGrullon"
 	},
-
+	{
+		artName: "Checkerboard",
+		pageLink: "./Art/Dheva/index.html",
+		imageLink: "./Art/Dheva/checkerboard.gif",
+		author: "DhevaMargaPutra",
+		githubLink: "https://github.com/DhevaMargaPutra"
+	},
 ];
 
 		// +--------------------------------------------------------------------------------+
