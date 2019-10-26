@@ -1300,6 +1300,13 @@ let cards = [{
 		author: "Frank Grullon",
 		githubLink: "https://github.com/FrankGrullon"
 	},
+	{
+		artName: "animated-face",
+		pageLink: "./Art/Saksham/index.html",
+		imageLink: "./Art/Saksham/thumbnaill.png",
+		author: "Saksham Singh",
+		githubLink: "https://github.com/Saksham27"
+	},
 
 ];
 
