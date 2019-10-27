@@ -1272,6 +1272,20 @@ let cards = [{
 		author: "Nate Osterfeld",
 		githubLink: "https://github.com/NateOsterfeld"
 	},
+{
+	artName: "Loader",
+	pageLink: "./Art/Srikanth/loader.html",
+	imageLink: "./Art/Srikanth/Loader.gif",
+	author: "Srikanth",
+	githubLink: "https://github.com/zeus990"
+},	
+{
+	artName: "Greeting Animation Nation",
+	pageLink: "./Art/ChimaChinedum/index.html",
+	imageLink: "./Art/ChimaChinedum/animation-nation.png",
+	author: "ChimaChinedum",
+	githubLink: "https://github.com/ChimaChinedum"
+},
 	{
 		artName: "Loader",
 		pageLink: "./Art/Srikanth/loader.html",

@@ -1,0 +1,83 @@
+.element {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
+  
+  @keyframes stretch {
+    0% {
+      transform: scale(.3);
+      color: red;
+      border-radius: 100%;
+    }
+    50% {
+        color: blue;
+    }
+    100% {
+      transform: scale(1.5);
+      text-transform: uppercase;
+    }
+  }
+  
+  body,
+  html {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, red, yellow);
+    
+    
+  }
+
+  .container {
+    height: 400px;
+    width: 400px;
+    
+  }
+
+  .container1, .container2, .container3 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation: 
+      pulse 3s ease infinite alternate, 
+      nudge 5s linear infinite alternate;
+    border-radius: 100%;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      background-color: red;
+    }
+    50% {
+      background-color: orange;
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(150px, 0);
+    }
+    
+    80% {
+      transform: translate(-150px, 0);
+    }
+  }
+  
+  
