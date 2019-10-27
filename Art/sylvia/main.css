@@ -1,0 +1,95 @@
+/* --------------------------
+  Base
+--------------------------- */
+body {
+  padding-top: 60px;
+  background: #1d2a9e;
+}
+
+svg {
+  margin: auto;
+  display: block;
+  width: 28%;
+}
+
+/* --------------------------
+  Keyframes
+--------------------------- */
+@keyframes slide {
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  80% {
+    transform: translate3d(0, 10px, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.15) rotate(-5deg);
+    opacity: 1;
+    fill: #97fdfd;
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes offset {
+  60% {
+    stroke-opacity: 1;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* --------------------------
+  SVG Styles
+--------------------------- */
+
+.stars * {
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+
+.star-bg {
+  stroke-opacity: 0;
+  stroke-dasharray: 815;
+  stroke-dashoffset: 815;
+  animation: offset 2s 2.2s linear infinite;
+}
+
+.star {
+  transform: translate3d(0, 180px, 0);
+  animation: slide 1s infinite,
+    grow 1s ease-out infinite;
+}
+
+.star:nth-of-type(1) {
+  animation-delay: 1s, 1.8s;
+}
+
+.star:nth-of-type(2) {
+  animation-delay: 0s, 1.5s;
+}
+
+.star:nth-of-type(3) {
+  animation-delay: .8s, 2s;
+}
+
+/* 7 steps
+slide movement of stars slide up diff times
+then pulse each star scales and rotate then fills with yellow
+finally a light stroke animation around the social shape */
