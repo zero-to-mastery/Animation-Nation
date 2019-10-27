@@ -1328,6 +1328,13 @@ let cards = [{
 		author: "DhevaMargaPutra",
 		githubLink: "https://github.com/DhevaMargaPutra"
 	},
+  {
+		artName: "Dancing Robot",
+		pageLink: "./Art/Itai/index.html",
+		imageLink: "./Art/Itai/RoboDance.gif",
+		author: "Itai",
+		githubLink: "https://github.com/Itailevi420"
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
