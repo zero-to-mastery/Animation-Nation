@@ -593,14 +593,14 @@ let cards = [{
 		author: "RedSquirrrel",
 		githubLink: "https://github.com/RedSquirrrel"
 	},
-  {
+	{
 		artName: "Animated Cube",
 		pageLink: "./Art/Animated Cube/index.html",
 		imageLink: "./Art/Animated Cube/cube.gif",
 		author: "RedSquirrrel",
 		githubLink: "https://github.com/RedSquirrrel"
-  },
-  {
+	},
+	{
 		artName: "Calm Ubuntu",
 		pageLink: "./Art/schupat/index.html",
 		imageLink: "./Art/schupat/preview.gif",
@@ -1173,21 +1173,21 @@ let cards = [{
 		imageLink: './Art/Atif/HacktoberFest-19.gif',
 		author: 'Atif Iqbal',
 		githubLink: 'https://github.com/atif-dev'
-	 },
-    {
-      artName: "Text Animation",
-      pageLink: "./Art/Divya/index.html",
-      imageLink: "./Art/Divya/screenshot.png",
-      author: "Divya",
-      githubLink: "https://github.com/DivyaPuri25"
-    },
-	 {
-		 artName: "HacktoberFest-2019-Entry",
-		 pageLink: "./Art/nunocpnp/index.html",
-		 imageLink: "./Art/nunocpnp/sample_image.jpg",
-		 author: "Nuno Pereira",
-		 githubLink: "https://github.com/nunocpnp"
-	 },
+	},
+	{
+		artName: "Text Animation",
+		pageLink: "./Art/Divya/index.html",
+		imageLink: "./Art/Divya/screenshot.png",
+		author: "Divya",
+		githubLink: "https://github.com/DivyaPuri25"
+	},
+	{
+		artName: "HacktoberFest-2019-Entry",
+		pageLink: "./Art/nunocpnp/index.html",
+		imageLink: "./Art/nunocpnp/sample_image.jpg",
+		author: "Nuno Pereira",
+		githubLink: "https://github.com/nunocpnp"
+	},
 	{
 		artName: 'HacktoberFest 2019',
 		pageLink: './Art/AbdussamadYisau/index.html',
@@ -1202,20 +1202,20 @@ let cards = [{
 		author: 'Rajnish Kr Singh',
 		githubLink: 'https://github.com/RajnishKrSingh'
 	},
-  {
+	{
 		artName: 'Blinking Hacktober',
 		pageLink: './Art/Atif2/index.html',
 		imageLink: './Art/Blinking hacktober.gif',
 		author: 'Atif Iqbal',
 		githubLink: 'https://github.com/atif-dev'
-  },
-  {
-    artName: "Robodance",
-    pageLink: "./Art/robodance/index.html",
-    imageLink: "./Art/robodance/robodance.gif",
-    author: "Thomas",
-    githubLink: "https://github.com/mahlqvist"
-  },
+	},
+	{
+		artName: "Robodance",
+		pageLink: "./Art/robodance/index.html",
+		imageLink: "./Art/robodance/robodance.gif",
+		author: "Thomas",
+		githubLink: "https://github.com/mahlqvist"
+	},
 	{
 		artName: 'Sliding hacktober',
 		pageLink: './Art/Atif3/index.html',
@@ -1223,48 +1223,48 @@ let cards = [{
 		author: 'Atif Iqbal',
 		githubLink: 'https://github.com/atif-dev'
 	},
-  {
+	{
 		artName: "like-animation",
 		pageLink: "./Art/gibas79/like-animation.html",
 		imageLink: "./Art/gibas79/like-animation.gif",
 		author: "Gilberto Guimarães",
 		githubLink: "https://github.com/gibas79"
 	},
-  {
+	{
 		artName: "Fading Circle",
 		pageLink: "./Art/hmahajan/circle.html",
 		imageLink: "./Art/hmahajan/circle.gif",
 		author: "Harshit",
 		githubLink: "https://github.com/hmahajan99"
 	},
-  {
-	artName: "like-animation",
-	pageLink: "./Art/like-animation/like-animation.html",
-	imageLink: "./Art/like-animation/like-animation.gif",
-	author: "Gilberto Guimarães",
-	githubLink: "https://github.com/gibas79"
-  },
- {
-	artName: "Github Animation",
-	pageLink: "./Art/Kshitij/Git.html",
-	imageLink: "./Art/Kshitij/Git.gif",
-	author: "Kshitij Srivastava",
-	githubLink: "https://github.com/Codefy1"
-  },
-  {
-  artName: "loading-animation",
-  pageLink: "./Art/loadingAnim/index.html",
-  imageLink: "./Art/loadingAnim/image.gif",
-  author: "sneha parkar",
-  githubLink: "https://github.com/SnehaParkar"
-  },
-  {
+	{
+		artName: "like-animation",
+		pageLink: "./Art/like-animation/like-animation.html",
+		imageLink: "./Art/like-animation/like-animation.gif",
+		author: "Gilberto Guimarães",
+		githubLink: "https://github.com/gibas79"
+	},
+	{
+		artName: "Github Animation",
+		pageLink: "./Art/Kshitij/Git.html",
+		imageLink: "./Art/Kshitij/Git.gif",
+		author: "Kshitij Srivastava",
+		githubLink: "https://github.com/Codefy1"
+	},
+	{
+		artName: "loading-animation",
+		pageLink: "./Art/loadingAnim/index.html",
+		imageLink: "./Art/loadingAnim/image.gif",
+		author: "sneha parkar",
+		githubLink: "https://github.com/SnehaParkar"
+	},
+	{
 		artName: "Fading Circle",
 		pageLink: "./Art/hmahajan/circle.html",
 		imageLink: "./Art/hmahajan/circle.gif",
 		author: "Harshit",
 		githubLink: "https://github.com/hmahajan99"
-	},	
+	},
   {
 		artName: "Bag of Loading Treats",
 		pageLink: "./Art/nateo/index.html",
@@ -1278,28 +1278,83 @@ let cards = [{
 	imageLink: "./Art/Srikanth/Loader.gif",
 	author: "Srikanth",
 	githubLink: "https://github.com/zeus990"
-}	
+},	
 {
 	artName: "Greeting Animation Nation",
 	pageLink: "./Art/ChimaChinedum/index.html",
 	imageLink: "./Art/ChimaChinedum/animation-nation.png",
 	author: "ChimaChinedum",
 	githubLink: "https://github.com/ChimaChinedum"
-}	
-
+},
+	{
+		artName: "Loader",
+		pageLink: "./Art/Srikanth/loader.html",
+		imageLink: "./Art/Srikanth/Loader.gif",
+		author: "Srikanth",
+		githubLink: "https://github.com/zeus990"
+	},
+	{
+		artName: "Amsterdam",
+		pageLink: "./Art/BarrySchutte/index.html",
+		imageLink: "./Art/BarrySchutte/amsterdam.gif",
+		author: "BarrySchutte",
+		githubLink: "https://github.com/BarrySchutte"
+	},
+	{
+		artName: "Whirling Maze",
+		pageLink: "./Art/beckton/index.html",
+		imageLink: "./Art/beckton/maze2.jpg",
+		author: "Bec Braughton",
+		githubLink: "https://github.com/beckton"
+	},
+	{
+		artName: "Earth Years",
+		pageLink: "./Art/FrankGrullon/index.html",
+		imageLink: "./Art/FrankGrullon/thumbnaill.png",
+		author: "Frank Grullon",
+		githubLink: "https://github.com/FrankGrullon"
+	},
+	{
+		artName: "Flower",
+		pagelink: "./Art/DimaKonoval/index.html",
+		imagelink: "/Art/DimaKonoval/flower.png",
+		author: "Dima Fonoval",
+		githubLink: "https://github.com/DimaKonoval"
+	},
+	{
+		artName: "Heartwork",
+		pageLink: "./Art/funtime-error/heart.html",
+		imageLink: "./Art/funtime-error/heart.gif",
+		author: "Jas Per",
+		githubLink: "https://github.com/funtime-error"
+	},
+  {
+		artName: "animated-face",
+		pageLink: "./Art/Saksham/index.html",
+		imageLink: "./Art/Saksham/thumbnaill.png",
+		author: "Saksham Singh",
+		githubLink: "https://github.com/Saksham27"
+	},
+  {
+		artName: "Checkerboard",
+		pageLink: "./Art/Dheva/index.html",
+		imageLink: "./Art/Dheva/checkerboard.gif",
+		author: "DhevaMargaPutra",
+		githubLink: "https://github.com/DhevaMargaPutra"
+	},
 ];
 
-		// +--------------------------------------------------------------------------------+
-		// +                                                                                +
-		// +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
-		// +                                                                                +
-		// +--------------------------------------------------------------------------------+
+// +--------------------------------------------------------------------------------+
+// +                                                                                +
+// +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
+// +                                                                                +
+// +--------------------------------------------------------------------------------+
 
-		// Creates cards from the array above
-		// You don't need to modify this
-		let contents = [];
-		Shuffle(cards).forEach(c => {
-			contents.push([
+// Creates cards from the array above
+// You don't need to modify this
+let contents = [];
+Shuffle(cards).forEach(c => {
+	contents.push([
 		`<li class="card">` +
 		`<a href='${c.pageLink}'>` +
 		`<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
@@ -1310,13 +1365,13 @@ let cards = [{
 		`</div>` +
 		`</li>`
 	]);
-		});
+});
 
-		document.getElementById("cards").innerHTML = contents;
+document.getElementById("cards").innerHTML = contents;
 
-		function Shuffle(o) {
-			for (
-				var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
-			);
-			return o;
-		}
+function Shuffle(o) {
+	for (
+		var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
+	);
+	return o;
+}
