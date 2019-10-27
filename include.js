@@ -1279,6 +1279,14 @@ let cards = [{
 	author: "Srikanth",
 	githubLink: "https://github.com/zeus990"
 }	
+{
+	artName: "Greeting Animation Nation",
+	pageLink: "./Art/ChimaChinedum/index.html",
+	imageLink: "./Art/ChimaChinedum/animation-nation.png",
+	author: "ChimaChinedum",
+	githubLink: "https://github.com/ChimaChinedum"
+}	
+
 ];
 
 		// +--------------------------------------------------------------------------------+
