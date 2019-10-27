@@ -6,6 +6,13 @@ let cards = [{
 		githubLink: "https://github.com/EricPuskas"
 	},
 	{
+		artName: "october",
+		pageLink: "./Art/fprokofiev/index.html",
+		imageLink: "./Art/fprokofiev/october.gif",
+		author: "Fyodor Prokofiev",
+		githubLink: "https://github.com/fprokofiev"
+	},
+	{
 		artName: "Christmas Lights",
 		pageLink: "./Art/Futuregit/index.html",
 		imageLink: "./Art/Futuregit/Christmas-Lights.gif",
