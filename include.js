@@ -1356,6 +1356,12 @@ let cards = [{
 		author: "Itai",
 		githubLink: "https://github.com/Itailevi420"
 	},
+  {
+      artName: "ZTM animation",
+      pageLink: "./Art/ZTM animation/index.html",
+      author: "damniha",
+      githubLink: "https://github.com/damniha"
+  },
 	{
 		artName: "Double Helix",
 		pageLink: "./Art/KeenanNunesVaz/index.html",
