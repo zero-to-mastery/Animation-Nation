@@ -1358,8 +1358,9 @@ let cards = [{
 	},
   {
       artName: "ZTM animation",
-      pageLink: "./Art/ZTM animation/index.html",
+      pageLink: "./Art/ZTManimation/index.html",
       author: "damniha",
+      imageLink: "./Art/ZTManimation/ZTM_animation.gif",
       githubLink: "https://github.com/damniha"
   },
 	{
