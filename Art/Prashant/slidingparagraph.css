@@ -1,0 +1,26 @@
+body{
+  background: #6FB98F;
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  font-size: 40px;
+  top:35%;
+  position: fixed;
+  font-family: "Mansalva";
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+

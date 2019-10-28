@@ -1,0 +1,88 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.circle {
+  width: 40vh;
+  height: 40vh;
+  position: absolute;
+  border-radius: 50%;
+}
+
+#one:before {
+  content: "Hello !";
+}
+
+#one {
+  background-color: rgba(0, 0, 225, 0.45);
+  font-size: 3rem;
+  font-family: "Lucida Sans", Verdana, sans-serif;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  transition: 1s;
+}
+
+#two {
+  background-color: green;
+  transition: 1s;
+  opacity: 0.5;
+}
+
+#three {
+  background-color: red;
+  transition: 1s;
+  opacity: 0.5;
+}
+
+#four {
+  background-color: orange;
+  transition: 1s;
+  opacity: 0.5;
+}
+#five {
+  background-color: green;
+  transition: 1s;
+  opacity: 0.5;
+}
+
+#cc {
+  position: relative;
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#cc:hover #two {
+  transform: translate(0px, 75px);
+}
+#cc:hover #three {
+  transform: translate(0px, -75px);
+}
+#cc:hover #four {
+  transform: translate(75px, 0px);
+}
+#cc:hover #five {
+  transform: translate(-75px, 0px);
+}

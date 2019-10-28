@@ -1,0 +1,169 @@
+.container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hat {
+    background-color: #000;
+    width: 20px;
+    height: 90px;
+}
+
+.hat::after {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 60px;
+    height: 15px;
+    margin-top: 75px;
+    margin-left: -20px;
+}
+
+.body-border {
+    background-color: #000;
+    width: 500px;
+    height: 500px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.body {
+    background-color: #fbed47;
+    width: 499.5px;
+    height: 499.5px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eye {
+    background-color: #fff;
+    width: 120px;
+    height: 60px;
+    margin-top: 225px;
+
+    border: 1px solid #000;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.pupil {
+    background-color: #000;
+    width: 50px;
+    height: 15px;
+    border-radius: 50%;
+    transform: rotate(90deg);
+
+    align-self: center;
+
+    animation: animation 2s ease-in-out infinite; 
+
+}
+
+@keyframes animation {
+    0%   {margin-right: 15px;}
+    25%  {margin-right: 0px;}
+    50%  {margin-right: -15px;}
+    75%  {margin-right: 0px;}
+    100% {margin-right: 15px;}
+}
+
+.rectagles-row {
+    background-color: #efd92c;
+    height: 2px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex; 
+    justify-content: center;
+}
+
+.first-row .rectagle {
+    border: 1px solid #efd92c;
+    height: 60px;
+    width: 100px;
+}
+
+.second-row {
+    margin-left: 90px;
+}
+
+.second-row .rectagle {
+    border: 1px solid #efd92c;
+    height: 40px;
+    width: 200px;
+}
+
+.third-row .rectagle {
+    border: 1px solid #efd92c;
+    height: 50px;
+    width: 250px;
+}
+
+.tie {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.tie .left-side {
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(90deg);
+}
+
+.tie .right-side {
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(-90deg);
+}
+
+.feet {
+    display: flex;
+}
+
+.foot {
+    background-color: #000;
+    width: 10px;
+    height: 90px;
+}
+
+.foot::after {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 20px;
+    height: 15px;
+    margin-top: 90px;
+}
+
+.foot:first-child {
+    margin-right: 50px;
+}
+
+.hands {
+    position: absolute;
+    background-color: #000;
+    width: 500px;
+    height: 10px;
+    z-index: -1;
+}
+
+

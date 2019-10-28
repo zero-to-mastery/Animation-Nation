@@ -1,0 +1,32 @@
+img {
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+    max-width:50%;
+    max-height:50%;
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#spin {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+body {
+ background-image: url("background.jpg");
+ background-size:cover;
+}

@@ -1,0 +1,112 @@
+*, *:before, *:after{box-sizing: border-box}
+
+body{
+  background: #fff;
+}
+#container{
+  margin-top:10%;
+}
+
+@keyframes rota{
+  to {transform: rotate(360deg);}
+}
+
+@keyframes opa{
+  12.0% { opacity: 0.80; }
+  19.5% { opacity: 0.88; }
+  37.2% { opacity: 0.64; }
+  40.5% { opacity: 0.52; }
+  52.7% { opacity: 0.69; }
+  60.2% { opacity: 0.60; }
+  66.6% { opacity: 0.52; }
+  70.0% { opacity: 0.63; }
+  79.9% { opacity: 0.60; }
+  84.2% { opacity: 0.75; }
+  91.0% { opacity: 0.87; }
+}
+
+.spinner{
+  font-size: 100px;
+  width: 1em;
+  height: 1em;
+  margin: 100px auto;
+  position: relative;
+  list-style: none;
+
+ 
+}
+
+.spinner:before{
+
+  position: absolute;
+  width: .65em;
+  height: .65em;
+  border: .01em solid rgba(150, 150, 150, 0.15);
+  border-radius: 50%;
+  top: 17%;
+  left: 17%;
+  
+}
+
+.spinner:after{
+
+  position: absolute;
+  width: .25em;
+  height: .25em;
+  border: .01em solid rgba(150, 150, 150, 0.15);
+  border-radius: 50%;
+  top: 38%;
+  left: 38%;
+  
+}
+
+.spinner li{
+  width: 1.2em;
+  height: .2em;
+  position: absolute;
+  border-radius: 50%;
+}
+
+/* blue */
+.spinner li:nth-child(1){
+  background: #1AA3EA;
+  top: 0;
+  left: 50%;
+  margin-left: -.1em;
+  transform-origin: 50% 250%;
+  animation: rota 1.13s linear infinite, opa 3.67s ease-in-out infinite alternate;
+}
+
+/* red */
+.spinner li:nth-child(2){
+  background: #F70000;
+  top: 60%;
+  right: 20%;
+  margin-top: -.1em;
+  transform-origin: -50% 0;
+  animation: rota 1.86s linear infinite, opa 4.29s ease-in-out infinite alternate;
+}
+
+/* orange */
+.spinner li:nth-child(3){
+  background: #F87C00;
+  bottom: 0;
+  left: 50%;
+  margin-left: -.1em;
+  transform-origin: 50% -150%;
+  animation: rota 1.45s linear infinite, opa 5.12s ease-in-out infinite alternate;
+}
+
+/* green */
+.spinner li:nth-child(4){
+  background: #008542;
+  top: 60%;
+  left: 20%;
+  margin-top: -.1em;
+  transform-origin: 150% 0%;
+  animation: rota 1.72s linear infinite, opa 5.25s ease-in-out infinite alternate;
+}
+
+
+
+
