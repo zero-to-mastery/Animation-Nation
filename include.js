@@ -777,6 +777,13 @@ let cards = [
     imageLink: "./Art/pauliax/doors.gif",
     author: "pauliax",
     githubLink: "https://github.com/pauliax"
+  },
+  {
+    artName: "Clock with pendulum",
+    pageLink: "./Art/Pankaj/index.html",
+    imageLink: "./Art/Pankaj/Clock_with_pendulum.gif",
+    author: "Pankaj",
+    githubLink: "https://github.com/prime417"
   }
 ];
 
