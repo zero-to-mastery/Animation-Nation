@@ -1349,6 +1349,15 @@ let cards = [{
 		author: "Itai",
 		githubLink: "https://github.com/Itailevi420"
 	},
+	let cards = [
+    //  Add your card in this section
+    {
+      artName: "ZTM animation",
+      pageLink: "./Art/ZTM animation/index.html",
+      author: "damniha",
+      githubLink: "https://github.com/damniha"
+    }
+];
 ];
 
 // +--------------------------------------------------------------------------------+
