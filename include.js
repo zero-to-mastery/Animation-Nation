@@ -1353,8 +1353,9 @@ let cards = [{
     //  Add your card in this section
     {
       artName: "ZTM animation",
-      pageLink: "./Art/ZTM animation/index.html",
+      pageLink: "./Art/ZTManimation/index.html",
       author: "damniha",
+      imageLink: "./Art/ZTManimation/ZTM_animation",
       githubLink: "https://github.com/damniha"
     }
 ];
