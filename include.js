@@ -1349,6 +1349,13 @@ let cards = [{
 		author: "Itai",
 		githubLink: "https://github.com/Itailevi420"
 	},
+	{
+		artName: "Double Helix",
+		pageLink: "./Art/KeenanNunesVaz/index.html",
+		imageLink: "./Art/KeenanNunesVaz/double-helix.gif",
+		author: "KeenanNV",
+		githubLink: "https://github.com/KeenanNunesVaz"
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
