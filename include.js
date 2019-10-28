@@ -1369,6 +1369,13 @@ let cards = [{
 		author: "KeenanNV",
 		githubLink: "https://github.com/KeenanNunesVaz"
 	},
+	{
+		artName: "October",
+		pageLink: "./Art/fprokofiev/index.html",
+		imageLink: "./Art/fprokofiev/october.gif",
+		author: "Fyodor Prokofiev",
+		githubLink: "https://github.com/fprokofiev"
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
