@@ -1,0 +1,132 @@
+$anim-duration: 1s;
+$ease-slow-fast-slow: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+$ease-fast-slow-fast: cubic-bezier(0.05, 0.445, 0.95, 0.55);
+$ball-size: 30px;
+
+body {
+  background-color: #222;
+  margin: 0;
+}
+
+#view-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#anim {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.helix-row {
+  position: relative;
+  width: 100px;
+  height: 50px;
+
+  &:nth-child(2) .rung,
+  &:nth-child(2) .ball {
+    animation-delay: -0.8s;
+  }
+  &:nth-child(3) .rung,
+  &:nth-child(3) .ball {
+    animation-delay: -0.6s;
+  }
+  &:nth-child(4) .rung,
+  &:nth-child(4) .ball {
+    animation-delay: -0.4s;
+  }
+  &:nth-child(5) .rung,
+  &:nth-child(5) .ball {
+    animation-delay: -0.2s;
+  }
+}
+
+.rung {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 15px;
+  background-color: white;
+  animation: rung-parallax $anim-duration linear infinite;
+}
+
+@keyframes rung-parallax {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.ball {
+  position: absolute;
+  width: $ball-size;
+  height: $ball-size;
+  background-color: white;
+  border-radius: 50%;
+  transform-origin: 50% 50%;
+
+  &.left {
+    animation: left-to-right $anim-duration $ease-slow-fast-slow infinite,
+      approach $anim-duration linear infinite;
+  }
+
+  &.right {
+    animation: right-to-left $anim-duration $ease-slow-fast-slow infinite,
+      recede $anim-duration linear infinite;
+  }
+}
+
+@keyframes left-to-right {
+  0% {
+    left: calc(0% - 15px);
+  }
+  100% {
+    left: calc(100% - 15px);
+  }
+}
+
+@keyframes approach {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes right-to-left {
+  0% {
+    right: calc(0% - 15px);
+  }
+  100% {
+    right: calc(100% - 15px);
+  }
+}
+
+@keyframes recede {
+  0% {
+    transform: scale(1);
+    background-color: white;
+  }
+  50% {
+    transform: scale(0.8);
+    background-color: #bbb;
+  }
+  100% {
+    transform: scale(1);
+    background-color: white;
+  }
+}

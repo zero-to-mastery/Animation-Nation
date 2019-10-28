@@ -6,6 +6,13 @@ let cards = [{
 		githubLink: "https://github.com/EricPuskas"
 	},
 	{
+		artName: "LSD Rainbow Trip: Phase 1",
+		pageLink: "./Art/AbsMechanik/index.html",
+		imageLink: "./Art/AbsMechanik/AbsMechanik_Animation.gif",
+		author: "AbsMechanik",
+		githubLink: "https://github.com/AbsMechanik"
+	},
+	{
 		artName: "Christmas Lights",
 		pageLink: "./Art/Futuregit/index.html",
 		imageLink: "./Art/Futuregit/Christmas-Lights.gif",
@@ -1349,15 +1356,19 @@ let cards = [{
 		author: "Itai",
 		githubLink: "https://github.com/Itailevi420"
 	},
-	let cards = [
-    //  Add your card in this section
-    {
+  {
       artName: "ZTM animation",
       pageLink: "./Art/ZTM animation/index.html",
       author: "damniha",
       githubLink: "https://github.com/damniha"
-    }
-];
+  },
+	{
+		artName: "Double Helix",
+		pageLink: "./Art/KeenanNunesVaz/index.html",
+		imageLink: "./Art/KeenanNunesVaz/double-helix.gif",
+		author: "KeenanNV",
+		githubLink: "https://github.com/KeenanNunesVaz"
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
