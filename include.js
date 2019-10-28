@@ -1369,6 +1369,13 @@ let cards = [{
 		author: "KeenanNV",
 		githubLink: "https://github.com/KeenanNunesVaz"
 	},
+	{
+		artName: "Circle CSS",
+		pageLink: "./Art/pXxcont/index.html",
+		imageLink: "./Art/pXxcont/circlecss.png",
+		author: "fzpX",
+		githubLink: "https://github.com/fzpX"
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
