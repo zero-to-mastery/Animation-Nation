@@ -1425,7 +1425,14 @@ let cards = [{
 		imageLink: "./Art/ghostBalls/balls.png",
 		author: "Beatriz Delmiro",
 		githubLink: "https://github.com/biadelmiro"
-	}
+	},
+  {
+	      artName: "Walking Guy",
+	      pageLink: "./Art/walking-guy/index.html",
+	      imageLink: "./Art/walking-guy/video_gif.gif",
+	      author: "Rahulkumar Jha",
+	      githubLink: "https://github.com/Rahul240499"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
