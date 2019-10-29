@@ -1349,6 +1349,13 @@ let cards = [
 		imageLink: './Art/edjunma/ejm-neon.gif',
 		author: 'edjunma',
 		githubLink: 'https://github.com/edjunma'
+	},
+	{
+		artName: 'Happy Diwali Animation',
+		pageLink: './Art/Apoorva/index.html',
+		imageLink: './Art/Apoorva/Screen.gif',
+		author: 'Apoorva',
+		githubLink: 'https://github.com/apoorvamohite'
 	}
 ];
 
