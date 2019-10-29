@@ -1349,6 +1349,13 @@ let cards = [
 		imageLink: './Art/edjunma/ejm-neon.gif',
 		author: 'edjunma',
 		githubLink: 'https://github.com/edjunma'
+  },
+  {
+		artName: 'Last In First Out Animation',
+		pageLink: './Art/Stryker/index.html',
+		imageLink: './Art/Stryker/zero-to-mastery-lifo-animation.gif',
+		author: 'Stryker Stinnette',
+		githubLink: 'https://github.com/StrykerKent'
 	}
 ];
 
