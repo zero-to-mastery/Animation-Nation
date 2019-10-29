@@ -1419,6 +1419,13 @@ let cards = [{
 		author: "fzpX",
 		githubLink: "https://github.com/fzpX"
 	},
+	{
+		artName: "Bouncing CSS",
+		pageLink: "./Art/Tina-Hoang/aniframe.html",
+		imageLink: "./Art/Tina-Hoang/bounce.png",
+		author: "Tina",
+		githubLink: "https://github.com/nnh242"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
