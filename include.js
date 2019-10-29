@@ -1419,6 +1419,13 @@ let cards = [{
 		author: "fzpX",
 		githubLink: "https://github.com/fzpX"
 	},
+	{
+	      artName: "Walking Guy",
+	      pageLink: "./Art/walking-guy/index.html",
+	      imageLink: "./Art/walking-guy/video_gif.gif",
+	      author: "Rahulkumar Jha",
+	      githubLink: "https://github.com/Rahul240499"
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
