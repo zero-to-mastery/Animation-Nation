@@ -1427,6 +1427,13 @@ let cards = [{
 		githubLink: "https://github.com/fzpX"
 	},
 	{
+		artName: "Bouncing CSS",
+		pageLink: "./Art/Tina-Hoang/aniframe.html",
+		imageLink: "./Art/Tina-Hoang/bounce.png",
+		author: "Tina",
+		githubLink: "https://github.com/nnh242"
+	},
+  {
 		artName: "Ghost Balls",
 		pageLink: "./Art/ghostBalls/index.html",
 		imageLink: "./Art/ghostBalls/balls.png",
