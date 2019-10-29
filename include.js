@@ -34,6 +34,13 @@ let cards = [{
 		githubLink: "https://github.com/carlacentenor"
 	},
 	{
+		artName: "eyes",
+		pageLink: "./Art/eyes/index.html",
+		imageLink: "./Art/eyes/eyes.gif",
+		author: "yuwenGithub",
+		githubLink: "https://github.com/yuwenGithub"
+	},
+	{
 		artName: "Spooktober Hacktoberfest",
 		pageLink: "./Art/FredAmartey/index.html",
 		imageLink: "./Art/FredAmartey/thumbnaill.gif",
@@ -1425,7 +1432,21 @@ let cards = [{
 		imageLink: "./Art/Tina-Hoang/bounce.png",
 		author: "Tina",
 		githubLink: "https://github.com/nnh242"
-	}
+	},
+  {
+		artName: "Ghost Balls",
+		pageLink: "./Art/ghostBalls/index.html",
+		imageLink: "./Art/ghostBalls/balls.png",
+		author: "Beatriz Delmiro",
+		githubLink: "https://github.com/biadelmiro"
+	},
+  {
+	      artName: "Walking Guy",
+	      pageLink: "./Art/walking-guy/index.html",
+	      imageLink: "./Art/walking-guy/video_gif.gif",
+	      author: "Rahulkumar Jha",
+	      githubLink: "https://github.com/Rahul240499"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
