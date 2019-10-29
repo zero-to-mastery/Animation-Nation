@@ -1,0 +1,486 @@
+body{
+  background: #152347;
+}
+
+#firstDiv{
+
+  width:100%;
+  height: 100px;
+  
+  text-align: center;
+  color:#1A3AF8;
+  margin: 0;
+  
+  font-size: 60px;
+  position: absolute;
+  top: 40%;
+  left:-10%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#H{
+	
+  display: block;
+	
+  -ms-transform: rotate(360deg); /* IE 9 */
+  -webkit-transform: rotate(360deg); /* Safari 3-8 */
+	transform: rotate(360deg);
+
+  -webkit-animation-name: H;              /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:10s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: H;      
+  animation-duration:1s;         
+  animation-delay:10s;             
+  animation-fill-mode: forwards;
+	
+}
+
+#AC{
+ 
+  display: block;
+  
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari 3-8 */
+  transform: rotate(90deg);
+
+  position: relative;
+  left:65px;top:-70%;
+
+  -webkit-animation-name: H;              /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:10s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: H;      
+  animation-duration:1s;         
+  animation-delay:10s;             
+  animation-fill-mode: forwards;
+}
+
+#K{
+  display: block;
+  
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari 3-8 */
+  transform: rotate(90deg);
+
+  position: relative;
+  left:130px;top:-135%;
+
+  -webkit-animation-name: H;              /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:10s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: H;      
+  animation-duration:1s;         
+  animation-delay:10s;             
+  animation-fill-mode: forwards;
+}
+
+#TO{
+  
+  display: block;
+  
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari 3-8 */
+  transform: rotate(90deg);
+
+  position: relative;
+  left:195px;top:-205%;
+
+  -webkit-animation-name: H;              /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:10s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: H;      
+  animation-duration:1s;         
+  animation-delay:10s;             
+  animation-fill-mode: forwards;
+}
+
+#BE{
+  
+  display: block;
+  
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari 3-8 */
+  transform: rotate(90deg);
+
+  position: relative;
+  left:270px;top:-270%;
+
+  -webkit-animation-name: H;              /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:10s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: H;      
+  animation-duration:1s;         
+  animation-delay:10s;             
+  animation-fill-mode: forwards;
+}
+#R{
+  
+  display: block;
+  
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari 3-8 */
+  transform: rotate(90deg);
+
+  position: relative;
+  left:330px;top:-340%;
+
+  -webkit-animation-name: H;              /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:10s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: H;      
+  animation-duration:1s;         
+  animation-delay:10s;             
+  animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes H {
+  
+  from{opacity:1;font-size: 60px;transform: rotate(90deg);}
+  to{opacity:1;font-size: 60px;transform: rotate(360deg);}
+}
+
+
+/* Standard syntax */
+@keyframes H {
+  
+  from{opacity:1;font-size: 60px;transform: rotate(90deg);}
+  to{opacity:1;font-size: 60px;transform: rotate(360deg);}
+}
+
+/*********FEST***********/
+
+#fest{
+  font-size:100px;
+
+  text-align: center;
+color: #FF09A5;
+  margin: 0;
+  
+
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+
+  
+}
+
+
+
+#F{
+
+  position: relative;
+
+  -webkit-animation-name: F;              /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:12s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: F;      
+  animation-duration:1s;         
+  animation-delay:12s;             
+  animation-fill-mode: forwards;
+
+}
+
+#E{
+  position: relative;
+
+  -webkit-animation-name: E;              /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:13s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: E;      
+  animation-duration:1s;         
+  animation-delay:13s;             
+  animation-fill-mode: forwards;
+}
+
+#S{
+
+  position: relative;
+
+  -webkit-animation-name: S;              /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:14s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: S;      
+  animation-duration:1s;         
+  animation-delay:14s;             
+  animation-fill-mode: forwards;
+
+}
+
+#T{
+  position: relative;
+
+  -webkit-animation-name: T;              /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:15s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: T;      
+  animation-duration:1s;         
+  animation-delay:15s;             
+  animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes F {
+   0%   { left:0px; top:0px;}
+  25%  { left:0px; top:100px;}
+  50%  { left:-110px; top:100px;}
+  75%  { left:-110px; top:100px;}
+  100% { left:-110px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes F {
+   0%   { left:0px; top:0px;}
+  25%  { left:0px; top:100px;}
+  50%  { left:-110px; top:100px;}
+  75%  { left:-110px; top:100px;}
+  100% { left:-110px; top:0px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes E {
+   from{left: 0px ;top: 0px}
+   to{left:-110px;top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes E {
+   from{left: 0px ;top: 0px}
+   to{left:-110px;top: 0px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes S {
+   from{left: 0px ;top: 0px}
+   to{left:118px;top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes S {
+   from{left: 0px ;top: 0px}
+   to{left:118px;top: 0px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes T {
+   from{left: 0px ;top: 0px}
+   to{left:110px;top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes T {
+   from{left: 0px ;top: 0px}
+   to{left:110px;top: 0px;}
+}
+
+#year{
+
+  font-size:100px;
+
+  text-align: center;
+
+  margin: 0;
+  color: yellow;
+
+  position: relative;
+  top: 5%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  -webkit-animation-name: year;           /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:16s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: year;      
+  animation-duration:1s;         
+  animation-delay:16s;             
+  animation-fill-mode: forwards;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes year {
+   0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:300px;}
+  75%  { left:200px; top:300px;}
+  100% { left:-13px; top:300px;}
+}
+
+/* Standard syntax */
+@keyframes year {
+   0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:300px;}
+  75%  { left:200px; top:300px;}
+  100% { left:-13px; top:300px;}
+}
+
+/*Time*/
+
+#time{
+
+  font-size: 60px;
+  text-align: center;
+  color:red;
+  margin: 0;
+  position: relative;
+  top: -30%;
+  left:-10%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+  
+#one{
+  
+  opacity: 0;
+
+  -webkit-animation-name: one;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:0s;             /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: one;      
+  animation-duration: 4s;         
+  animation-delay:0s;             
+  animation-fill-mode: forwards;
+}
+
+#two{
+  opacity: 0;
+
+  -webkit-animation-name: two;           /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;        /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:2s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+
+  animation-name: two;      
+  animation-duration: 4s;         
+  animation-delay:2s;             
+  animation-fill-mode: forwards;
+}
+#three{
+  opacity: 0;
+
+  -webkit-animation-name: three;           /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;         /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:4s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;  /* Safari 4.0 - 8.0 */
+
+  animation-name: three;      
+  animation-duration: 4s;         
+  animation-delay:4s;             
+  animation-fill-mode: forwards;
+}
+#go{
+  opacity: 0;
+
+  -webkit-animation-name: go;           /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;        /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay:6s;            /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+
+  animation-name: go;      
+  animation-duration:4s;         
+  animation-delay:6s;             
+  animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes one {
+  0%   {opacity:0;font-size: 0px;}
+  25%  {opacity:0;font-size: 0px;}
+  50%  {opacity:1;font-size: 50px;}
+  75%  {opacity:1;font-size: 50px;}
+  100% {opacity:0;font-size: 50px;}
+}
+
+/* Standard syntax */
+  @keyframes one {
+  0%   {opacity:0;font-size: 0px;}
+  25%  {opacity:0;font-size: 0px;}
+  50%  {opacity:0;font-size: 0px;}
+  75%  {opacity:1;font-size: 50px;}
+  100% {opacity:0;font-size: 50px;}
+} 
+
+/* Safari 4.0 - 8.0 */ 
+@-webkit-keyframes two {
+  0%   {opacity:0;font-size: 0px;}
+  25%  {opacity:0;font-size: 0px;}
+  50%  {opacity:0;font-size: 0px;}
+  75%  {opacity:1;font-size: 75px;}
+  100% {opacity:0;font-size: 75px;}
+} 
+
+/* Standard syntax */
+ @keyframes two {
+  0%   {opacity:0;font-size: 0px;}
+  25%  {opacity:0;font-size: 0px;}
+  50%  {opacity:0;font-size: 0px;}
+  75%  {opacity:1;font-size: 75px;}
+  100% {opacity:0;font-size: 75px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes three {
+  0%   {opacity:0;font-size: 0px;}
+  25%  {opacity:0;font-size: 0px;}
+  50%  {opacity:0;font-size: 0px;}
+  75%  {opacity:1;font-size: 100px;}
+  100% {opacity:0;font-size: 100px;}
+} 
+
+/* Standard syntax */
+ @keyframes three {
+  0%   {opacity:0;font-size: 0px;}
+  25%  {opacity:0;font-size: 0px;}
+  50%  {opacity:0;font-size: 0px;}
+  75%  {opacity:1;font-size: 100px;}
+  100% {opacity:0;font-size: 100px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes go {
+ 0%   {opacity:0;font-size: 0px;}
+  25%  {opacity:0;font-size: 0px;}
+  50%  {opacity:0;font-size: 0px;}
+  75%  {opacity:1;font-size: 125px;}
+  100% {opacity:0;font-size: 125px;}
+}
+
+/* Standard syntax */
+ @keyframes go {
+ 0%   {opacity:0;font-size: 0px;}
+  25%  {opacity:0;font-size: 0px;}
+  50%  {opacity:0;font-size: 0px;}
+  75%  {opacity:1;font-size: 125px;}
+  100% {opacity:0;font-size: 125px;}
+}
+

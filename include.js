@@ -7,25 +7,46 @@ let cards = [
 		githubLink: 'https://github.com/EricPuskas'
 	},
 	{
-		artName: 'Christmas Lights',
-		pageLink: './Art/Futuregit/index.html',
-		imageLink: './Art/Futuregit/Christmas-Lights.gif',
-		author: 'Futuregit',
-		githubLink: 'https://github.com/Futuregit'
+		artName: "LSD Rainbow Trip: Phase 1",
+		pageLink: "./Art/AbsMechanik/index.html",
+		imageLink: "./Art/AbsMechanik/AbsMechanik_Animation.gif",
+		author: "AbsMechanik",
+		githubLink: "https://github.com/AbsMechanik"
 	},
 	{
-		artName: 'Fruit Dancing',
-		pageLink: './Art/carlacentenor/index.html',
-		imageLink: './Art/carlacentenor/fruit.gif',
-		author: 'carlacentenor',
-		githubLink: 'https://github.com/carlacentenor'
+		artName: "Christmas Lights",
+		pageLink: "./Art/Futuregit/index.html",
+		imageLink: "./Art/Futuregit/Christmas-Lights.gif",
+		author: "Futuregit",
+		githubLink: "https://github.com/Futuregit"
 	},
 	{
-		artName: 'Spooktober Hacktoberfest',
-		pageLink: './Art/FredAmartey/index.html',
-		imageLink: './Art/FredAmartey/thumbnaill.gif',
-		author: 'Fred Amartey',
-		githubLink: 'https://github.com/FredAmartey'
+		artName: "space zoo",
+		pageLink: "./Art/space_zoo/index.html",
+		imageLink: "./Art/space_zoo/space_zoo.gif",
+		author: "yuwenGithub",
+		githubLink: "https://github.com/yuwenGithub"
+	},
+	{
+		artName: "Fruit Dancing",
+		pageLink: "./Art/carlacentenor/index.html",
+		imageLink: "./Art/carlacentenor/fruit.gif",
+		author: "carlacentenor",
+		githubLink: "https://github.com/carlacentenor"
+	},
+	{
+		artName: "eyes",
+		pageLink: "./Art/eyes/index.html",
+		imageLink: "./Art/eyes/eyes.gif",
+		author: "yuwenGithub",
+		githubLink: "https://github.com/yuwenGithub"
+	},
+	{
+		artName: "Spooktober Hacktoberfest",
+		pageLink: "./Art/FredAmartey/index.html",
+		imageLink: "./Art/FredAmartey/thumbnaill.gif",
+		author: "Fred Amartey",
+		githubLink: "https://github.com/FredAmartey"
 	},
 	{
 		artName: 'Star Wars?',
@@ -791,11 +812,39 @@ let cards = [
 		githubLink: 'https://github.com/aynorica'
 	},
 	{
-		artName: 'sun-to-moon',
-		pageLink: './Art/haider/index.html',
-		imageLink: './Art/haider/sun-moon.gif',
-		author: 'Haider',
-		githubLink: 'https://github.com/hyderumer'
+		artName: "sun-to-moon",
+		pageLink: "./Art/haider/index.html",
+		imageLink: "./Art/haider/sun-moon.gif",
+		author: "Haider",
+		githubLink: "https://github.com/hyderumer"
+  },
+  {
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+    author: "Andrei",
+    githubLink: "https://github.com/aneagoie"
+  },
+  {
+    artName: "Loader Circle",
+    pageLink: "./Art/beaps/index.html",
+    imageLink: "./Art/beaps/loader-circle.gif",
+    author: "beaps",
+    githubLink: "https://github.com/beaps"
+  },
+  {
+    artName: "Doors",
+    pageLink: "./Art/pauliax/index.html",
+    imageLink: "./Art/pauliax/doors.gif",
+    author: "pauliax",
+    githubLink: "https://github.com/pauliax"
+  },
+  {
+    artName: "Clock with pendulum",
+    pageLink: "./Art/Pankaj/index.html",
+    imageLink: "./Art/Pankaj/Clock_with_pendulum.gif",
+    author: "Pankaj",
+    githubLink: "https://github.com/prime417"
 	},
 	{
 		artName: 'Animatron',
@@ -1120,6 +1169,20 @@ let cards = [
 		githubLink: 'https://github.com/brettl1991'
 	},
 	{
+		artName: 'Bill Cipher',
+		pageLink: './Art/vitoriapena/index.html',
+		imageLink: './Art/vitoriapena/bill_cipher.gif',
+		author: 'Vitória Mendes',
+		githubLink: 'https://github.com/vitoriapena'
+	},
+	{
+		artName: 'Generate meaning',
+		pageLink: './Art/Atif4/index.html',
+		imageLink: './Art/Generate meaning.gif',
+		author: 'Atif Iqbal',
+		githubLink: 'https://github.com/atif-dev'
+	},
+  {
 		artName: 'Spooktime',
 		pageLink: './Art/AgneDJ/index.html',
 		imageLink: './Art/AgneDJ/spooktime.gif',
@@ -1231,125 +1294,55 @@ let cards = [
 		author: 'Gilberto Guimarães',
 		githubLink: 'https://github.com/gibas79'
 	},
+  {
+      artName: "ZTM animation",
+      pageLink: "./Art/ZTManimation/index.html",
+      author: "damniha",
+      imageLink: "./Art/ZTManimation/ZTM_animation.gif",
+      githubLink: "https://github.com/damniha"
+  },
 	{
-		artName: 'Fading Circle',
-		pageLink: './Art/hmahajan/circle.html',
-		imageLink: './Art/hmahajan/circle.gif',
-		author: 'Harshit',
-		githubLink: 'https://github.com/hmahajan99'
+		artName: "Double Helix",
+		pageLink: "./Art/KeenanNunesVaz/index.html",
+		imageLink: "./Art/KeenanNunesVaz/double-helix.gif",
+		author: "KeenanNV",
+		githubLink: "https://github.com/KeenanNunesVaz"
 	},
 	{
-		artName: 'like-animation',
-		pageLink: './Art/like-animation/like-animation.html',
-		imageLink: './Art/like-animation/like-animation.gif',
-		author: 'Gilberto Guimarães',
-		githubLink: 'https://github.com/gibas79'
+		artName: "October",
+		pageLink: "./Art/fprokofiev/index.html",
+		imageLink: "./Art/fprokofiev/october.gif",
+		author: "Fyodor Prokofiev",
+		githubLink: "https://github.com/fprokofiev"
+  },
+  {
+		artName: "Circle CSS",
+		pageLink: "./Art/pXxcont/index.html",
+		imageLink: "./Art/pXxcont/circlecss.png",
+		author: "fzpX",
+		githubLink: "https://github.com/fzpX"
 	},
 	{
-		artName: 'Github Animation',
-		pageLink: './Art/Kshitij/Git.html',
-		imageLink: './Art/Kshitij/Git.gif',
-		author: 'Kshitij Srivastava',
-		githubLink: 'https://github.com/Codefy1'
+		artName: "Bouncing CSS",
+		pageLink: "./Art/Tina-Hoang/aniframe.html",
+		imageLink: "./Art/Tina-Hoang/bounce.png",
+		author: "Tina",
+		githubLink: "https://github.com/nnh242"
 	},
-	{
-		artName: 'loading-animation',
-		pageLink: './Art/loadingAnim/index.html',
-		imageLink: './Art/loadingAnim/image.gif',
-		author: 'sneha parkar',
-		githubLink: 'https://github.com/SnehaParkar'
+  {
+		artName: "Ghost Balls",
+		pageLink: "./Art/ghostBalls/index.html",
+		imageLink: "./Art/ghostBalls/balls.png",
+		author: "Beatriz Delmiro",
+		githubLink: "https://github.com/biadelmiro"
 	},
-	{
-		artName: 'Fading Circle',
-		pageLink: './Art/hmahajan/circle.html',
-		imageLink: './Art/hmahajan/circle.gif',
-		author: 'Harshit',
-		githubLink: 'https://github.com/hmahajan99'
-	},
-	{
-		artName: 'Bag of Loading Treats',
-		pageLink: './Art/nateo/index.html',
-		imageLink: './Art/nateo/bag-of-loading-animations.gif',
-		author: 'Nate Osterfeld',
-		githubLink: 'https://github.com/NateOsterfeld'
-	},
-	{
-		artName: 'Loader',
-		pageLink: './Art/Srikanth/loader.html',
-		imageLink: './Art/Srikanth/Loader.gif',
-		author: 'Srikanth',
-		githubLink: 'https://github.com/zeus990'
-	},
-	{
-		artName: 'Greeting Animation Nation',
-		pageLink: './Art/ChimaChinedum/index.html',
-		imageLink: './Art/ChimaChinedum/animation-nation.png',
-		author: 'ChimaChinedum',
-		githubLink: 'https://github.com/ChimaChinedum'
-	},
-	{
-		artName: 'Loader',
-		pageLink: './Art/Srikanth/loader.html',
-		imageLink: './Art/Srikanth/Loader.gif',
-		author: 'Srikanth',
-		githubLink: 'https://github.com/zeus990'
-	},
-	{
-		artName: 'Amsterdam',
-		pageLink: './Art/BarrySchutte/index.html',
-		imageLink: './Art/BarrySchutte/amsterdam.gif',
-		author: 'BarrySchutte',
-		githubLink: 'https://github.com/BarrySchutte'
-	},
-	{
-		artName: 'Whirling Maze',
-		pageLink: './Art/beckton/index.html',
-		imageLink: './Art/beckton/maze2.jpg',
-		author: 'Bec Braughton',
-		githubLink: 'https://github.com/beckton'
-	},
-	{
-		artName: 'Earth Years',
-		pageLink: './Art/FrankGrullon/index.html',
-		imageLink: './Art/FrankGrullon/thumbnaill.png',
-		author: 'Frank Grullon',
-		githubLink: 'https://github.com/FrankGrullon'
-	},
-	{
-		artName: 'Flower',
-		pagelink: './Art/DimaKonoval/index.html',
-		imagelink: '/Art/DimaKonoval/flower.png',
-		author: 'Dima Fonoval',
-		githubLink: 'https://github.com/DimaKonoval'
-	},
-	{
-		artName: 'Heartwork',
-		pageLink: './Art/funtime-error/heart.html',
-		imageLink: './Art/funtime-error/heart.gif',
-		author: 'Jas Per',
-		githubLink: 'https://github.com/funtime-error'
-	},
-	{
-		artName: 'animated-face',
-		pageLink: './Art/Saksham/index.html',
-		imageLink: './Art/Saksham/thumbnaill.png',
-		author: 'Saksham Singh',
-		githubLink: 'https://github.com/Saksham27'
-	},
-	{
-		artName: 'Checkerboard',
-		pageLink: './Art/Dheva/index.html',
-		imageLink: './Art/Dheva/checkerboard.gif',
-		author: 'DhevaMargaPutra',
-		githubLink: 'https://github.com/DhevaMargaPutra'
-	},
-	{
-		artName: 'Dancing Robot',
-		pageLink: './Art/Itai/index.html',
-		imageLink: './Art/Itai/RoboDance.gif',
-		author: 'Itai',
-		githubLink: 'https://github.com/Itailevi420'
-	},
+  {
+	      artName: "Walking Guy",
+	      pageLink: "./Art/walking-guy/index.html",
+	      imageLink: "./Art/walking-guy/video_gif.gif",
+	      author: "Rahulkumar Jha",
+	      githubLink: "https://github.com/Rahul240499"
+  },
 	{
 		artName: 'Hover Neon Animation',
 		pageLink: './Art/edjunma/index.html',

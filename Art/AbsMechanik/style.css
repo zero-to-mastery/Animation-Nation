@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+
+	background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet );
+	background-size: 250% 250%;
+	-webkit-animation: bgGradientAnimation 7s ease 3s infinite alternate;
+	animation: bgGradientAnimation 7s ease 3s infinite alternate;
+
+}
+
+@-webkit-keyframes bgGradientAnimation {
+	0% {background-position: 0% 50%;}
+	25% {background-position: 50% 25%;}
+	50% {background-position: 100% 50%;}
+	75% {background-position: 50% 25%;}
+	100% {background-position: 0% 50%;}
+}
+
+@keyframes bgGradientAnimation {
+	0% {background-position: 0% 50%;}
+	25% {background-position: 50% 25%;}
+	50% {background-position: 100% 50%;}
+	75% {background-position: 50% 25%;}
+	100% {background-position: 0% 50%;}
+}
+
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background-color: #000;
+	border: 3px solid #000;
+	border-radius: 50%;
+	position: relative;
+
+	-webkit-animation: moveCircle 10s ease-in-out 3s infinite alternate;
+	animation: moveCircle 10s ease-in-out 3s infinite alternate;
+}
+
+@-webkit-keyframes moveCircle {
+	0%   {background-color:red; left:0px; top:0px;}
+	14%  {background-color:orange; left:250px; top:0px;}
+	28%  {background-color:yellow; left:500px; top:0px;}
+	56%  {background-color:green; left:500px; top:500px;}
+	70% {background-color:blue; left:0px; top:500px;}
+	84% {background-color:indigo; left:0px; top:250px;}
+	100% {background-color:violet; left:0px; top:0px;}
+}
+
+@keyframes moveCircle {
+	0%   {background-color:red; left:0px; top:0px;}
+	14%  {background-color:orange; left:250px; top:0px;}
+	28%  {background-color:yellow; left:500px; top:0px;}
+	56%  {background-color:green; left:500px; top:500px;}
+	70% {background-color:blue; left:0px; top:500px;}
+	84% {background-color:indigo; left:0px; top:250px;}
+	100% {background-color:violet; left:0px; top:0px;}
+
+}
