@@ -809,6 +809,34 @@ let cards = [{
 		imageLink: "./Art/haider/sun-moon.gif",
 		author: "Haider",
 		githubLink: "https://github.com/hyderumer"
+  },
+  {
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+    author: "Andrei",
+    githubLink: "https://github.com/aneagoie"
+  },
+  {
+    artName: "Loader Circle",
+    pageLink: "./Art/beaps/index.html",
+    imageLink: "./Art/beaps/loader-circle.gif",
+    author: "beaps",
+    githubLink: "https://github.com/beaps"
+  },
+  {
+    artName: "Doors",
+    pageLink: "./Art/pauliax/index.html",
+    imageLink: "./Art/pauliax/doors.gif",
+    author: "pauliax",
+    githubLink: "https://github.com/pauliax"
+  },
+  {
+    artName: "Clock with pendulum",
+    pageLink: "./Art/Pankaj/index.html",
+    imageLink: "./Art/Pankaj/Clock_with_pendulum.gif",
+    author: "Pankaj",
+    githubLink: "https://github.com/prime417"
 	},
 	{
 		artName: "Animatron",
@@ -1365,8 +1393,9 @@ let cards = [{
 	},
   {
       artName: "ZTM animation",
-      pageLink: "./Art/ZTM animation/index.html",
+      pageLink: "./Art/ZTManimation/index.html",
       author: "damniha",
+      imageLink: "./Art/ZTManimation/ZTM_animation.gif",
       githubLink: "https://github.com/damniha"
   },
 	{
@@ -1375,6 +1404,20 @@ let cards = [{
 		imageLink: "./Art/KeenanNunesVaz/double-helix.gif",
 		author: "KeenanNV",
 		githubLink: "https://github.com/KeenanNunesVaz"
+	},
+	{
+		artName: "October",
+		pageLink: "./Art/fprokofiev/index.html",
+		imageLink: "./Art/fprokofiev/october.gif",
+		author: "Fyodor Prokofiev",
+		githubLink: "https://github.com/fprokofiev"
+  },
+  {
+		artName: "Circle CSS",
+		pageLink: "./Art/pXxcont/index.html",
+		imageLink: "./Art/pXxcont/circlecss.png",
+		author: "fzpX",
+		githubLink: "https://github.com/fzpX"
 	},
 ];
 
