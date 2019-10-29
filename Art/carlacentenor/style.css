@@ -1,0 +1,261 @@
+body {
+    background: #a9f5f2;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pineapple {
+    width: 166px;
+    height: 196px;
+    position: relative;
+    animation: animate-p 1s infinite alternate linear;
+  }
+  
+  .line {
+    width: 400px;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    bottom: 160px;
+    left: 25%;
+    opacity: 0.8;
+  }
+  
+  .watermelon {
+    width: 250px;
+    height: 250px;
+    transform: rotate(30deg);
+    position: relative;
+    top: -30px;
+    animation: animate 3s infinite alternate linear;
+  }
+  
+  @keyframes animate {
+    from {
+      transform: rotate(22deg);
+    }
+    to {
+      transform: rotate(-22deg);
+    }
+  }
+  @keyframes animate-p {
+    from {
+      top: -30px;
+    }
+    to {
+      top: 0px;
+    }
+  }
+  .head-p {
+    position: relative;
+    width: 150px;
+    height: 180px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    z-index: 4;
+    background-color: #feda00;
+    border: 8px solid black;
+  }
+  
+  .leaf {
+    position: absolute;
+    background: #5be55a;
+    width: 50px;
+    height: 50px;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  
+  .leaf-1 {
+    top: -30px;
+    left: 25px;
+    z-index: 3;
+  }
+  
+  .leaf-2 {
+    top: -30px;
+    right: 25px;
+    transform: rotate(90deg);
+    z-index: 3;
+  }
+  
+  .leaf-3 {
+    background: #54b652;
+    transform: rotate(60deg);
+    top: -30px;
+    right: 45px;
+    z-index: 2;
+  }
+  
+  .leaf-4 {
+    background: #54b652;
+    top: -30px;
+    left: 40px;
+    transform: rotate(30deg);
+    z-index: 1;
+  }
+  
+  .eye,
+  .eye-watermelon {
+    position: absolute;
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    bottom: 60px;
+    z-index: 5;
+  }
+  
+  .eye-l {
+    left: 45px;
+  }
+  
+  .eye-r {
+    right: 40px;
+  }
+  
+  .mouth .mouth-pair {
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    background-color: #feda00;
+    left: 40%;
+    bottom: 54px;
+    z-index: 2;
+  }
+  .mouth .mouth-smile {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: black;
+    border-radius: 50%;
+    left: 40%;
+    bottom: 35px;
+  }
+  .mouth .mouth-smile .tongue {
+    position: absolute;
+    width: 16px;
+    height: 8px;
+    background: #ee8c0e;
+    z-index: 6;
+    bottom: 3px;
+    left: 25%;
+    border-radius: 50%;
+  }
+  
+  .blush {
+    position: absolute;
+    background-color: #feb602;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    bottom: 40px;
+  }
+  
+  .blush-l {
+    left: 30px;
+  }
+  
+  .blush-r {
+    right: 25px;
+  }
+  
+  .watermelon-head {
+    position: absolute;
+    background: #5be55a;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .watermelon-white {
+    position: absolute;
+    background: white;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    top: 5%;
+    left: 5%;
+    z-index: 1;
+  }
+  
+  .watermelon-red {
+    position: absolute;
+    background: #fe2763;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    top: 10%;
+    left: 10%;
+  }
+  
+  .hide-w {
+    position: absolute;
+    background: #a9f5f2;
+    height: 50%;
+    width: inherit;
+    z-index: 5;
+  }
+  
+  .eye-w-l {
+    bottom: 25%;
+    left: 32%;
+  }
+  
+  .eye-w-r {
+    bottom: 25%;
+    right: 32%;
+  }
+  
+  .mouth-w-1 {
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    background: black;
+    border-radius: 50%;
+    z-index: 6;
+    bottom: 10%;
+    left: 41.5%;
+  }
+  .mouth-w-1 .mouth-w-2 {
+    position: absolute;
+    background: #fe2763;
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+    left: 16.5%;
+    top: 15%;
+  }
+  .mouth-w-1 .hide-red {
+    position: relative;
+    bottom: 0px;
+    background-color: #fe2763;
+    width: 30px;
+    height: 15px;
+  }
+  
+  .blush-w {
+    position: absolute;
+    background-color: #ce2352;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    bottom: 29px;
+    z-index: 7;
+  }
+  
+  .blush-w-r {
+    right: 25%;
+  }
+  
+  .blush-w-l {
+    left: 25%;
+  }
+  

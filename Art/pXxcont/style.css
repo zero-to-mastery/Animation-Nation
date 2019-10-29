@@ -1,0 +1,59 @@
+body {
+    background-color: green;
+    animation-name: bkbody;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: css;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display: table;
+    border-radius: 100%;
+    color: green;
+}
+
+div h2 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@-webkit-keyframes bkbody {
+    50%  {background-color: yellow;}
+    100% {background-color: green;}
+}
+
+@keyframes bkbody {
+    50%  {background-color: yellow}
+    100% {background-color: green;}
+}
+
+@-webkit-keyframes css {
+    50%  {background-color: blue; 
+        transform: rotate(180deg); 
+        color: yellow;}
+    100% {background-color: red; 
+        transform: rotate(360deg); 
+        color: green;}
+}
+
+@keyframes css {
+    50%  {background-color: blue; 
+        transform: rotate(180deg); 
+        color: yellow;}
+    100% {background-color: red; 
+        transform: rotate(360deg); 
+        color: green}
+}
