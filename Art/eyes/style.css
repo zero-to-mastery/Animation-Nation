@@ -1,0 +1,70 @@
+body{
+  background-color: black;
+}
+
+#container{
+  text-align: center;
+  top: 200px;
+  position: relative;
+}
+
+.outCircle{
+  display:inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  margin: 2px;
+  margin: 0 auto;
+  -webkit-animation: outCircle 3s linear 2;
+  animation: outCircle 3s linear 2;
+}
+
+.innerCircle{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000000;
+  position:relative;
+  -webkit-animation: innerCircle 1s linear 2;
+  animation: innerCircle 1s linear 2;
+
+}
+
+
+
+
+
+@-webkit-keyframes outCircle {
+    0% { -webkit-transform:rotate(0deg); transform:rotate(0deg); }
+    25% {-webkit-transform:rotate(120deg);transform:rotate(120deg);}
+    50% { -webkit-transform:rotate(0deg); transform:rotate(0deg);} 
+    60% {-webkit-box-shadow: inset 0px 0px #000000; box-shadow: inset 0px 0px #000000;}
+    65% {-webkit-box-shadow: inset 0px 25px #000000;box-shadow: inset 0px 25px #000000;}
+    70% {-webkit-box-shadow: inset 0px 0px #000000; box-shadow: inset 0px 0px #000000;}
+   75% {-webkit-box-shadow: inset 0px 25px #000000;box-shadow: inset 0px 25px #000000;}
+   80% {-webkit-box-shadow: inset 0px 0px #000000;box-shadow: inset 0px 0px #000000;}
+   85% {-webkit-box-shadow: inset 0px 25px #000000;box-shadow: inset 0px 25px #000000;}
+   90% {-webkit-box-shadow: inset 0px 0px #000000;box-shadow: inset 0px 0px #000000;}
+}
+
+@keyframes outCircle {
+    0% { -webkit-transform:rotate(0deg); transform:rotate(0deg); }
+    25% {-webkit-transform:rotate(120deg);transform:rotate(120deg);}
+    50% { -webkit-transform:rotate(0deg); transform:rotate(0deg); }
+    60% { -webkit-box-shadow: inset 0px 0px #000000; box-shadow: inset 0px 0px #000000;}
+    65% {-webkit-box-shadow: inset 0px 25px #000000;box-shadow: inset 0px 25px #000000;}
+    70% { -webkit-box-shadow: inset 0px 0px #000000; box-shadow: inset 0px 0px #000000;}
+   75% {-webkit-box-shadow: inset 0px 25px #000000;box-shadow: inset 0px 25px #000000;}
+   80% {-webkit-box-shadow: inset 0px 0px #000000;box-shadow: inset 0px 0px #000000;}
+   85% {-webkit-box-shadow: inset 0px 25px #000000;box-shadow: inset 0px 25px #000000;}
+   90% {-webkit-box-shadow: inset 0px 0px #000000;box-shadow: inset 0px 0px #000000;}
+}
+
+@keyframes innerCircle {
+    0% { transform:rotate(0deg); }
+  50% {transform:rotate(-120deg);}
+    100% { transform:rotate(0deg); }
+}
+
+
