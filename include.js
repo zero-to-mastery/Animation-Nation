@@ -1419,6 +1419,13 @@ let cards = [{
 		author: "fzpX",
 		githubLink: "https://github.com/fzpX"
 	},
+	{
+		artName: "Ghost Balls",
+		pageLink: "./Art/ghostBalls/index.html",
+		imageLink: "./Art/ghostBalls/balls.png",
+		author: "Beatriz Delmiro",
+		githubLink: "https://github.com/biadelmiro"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
