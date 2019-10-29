@@ -1168,6 +1168,20 @@ let cards = [{
 		githubLink: 'https://github.com/brettl1991'
 	},
 	{
+		artName: 'Bill Cipher',
+		pageLink: './Art/vitoriapena/index.html',
+		imageLink: './Art/vitoriapena/bill_cipher.gif',
+		author: 'Vitória Mendes',
+		githubLink: 'https://github.com/vitoriapena'
+	},
+	{
+		artName: 'Generate meaning',
+		pageLink: './Art/Atif4/index.html',
+		imageLink: './Art/Generate meaning.gif',
+		author: 'Atif Iqbal',
+		githubLink: 'https://github.com/atif-dev'
+	},
+  {
 		artName: 'Spooktime',
 		pageLink: './Art/AgneDJ/index.html',
 		imageLink: './Art/AgneDJ/spooktime.gif',
