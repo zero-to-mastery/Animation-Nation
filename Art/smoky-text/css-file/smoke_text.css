@@ -1,3 +1,4 @@
+/*To go full screen margin 0px and padding 0px is there*/
 body
 {
     margin:0px;
@@ -8,6 +9,7 @@ section
     height:100vh;
     background:black;
 }
+/*cover to cover the entire screen*/
 video
 {
     object-fit: cover;
@@ -49,7 +51,9 @@ h1 span
     }
 
 }
-
+/*As there are 13 letters in Hacktoberfest therefore all of them are given
+the animation and there is 0.3 seconds of delay between two span because the 
+video is of 5 seconds and it's been divided by 13*/
 h1 span:nth-child(1)
 {
     animation-delay:1s;
