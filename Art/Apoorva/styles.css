@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+.halfCircleBottom {
+    height: 135px;
+    width: 270px;
+    margin-top: 40px;
+    border-radius: 0 0 270px 270px;
+    background: brown;
+}
+
+.leaf {
+    width: 150px;
+    height: 150px;
+    background: orange;
+    border-radius: 0px 100px 0px 100px;
+    animation: zoominout 1s infinite;
+}
+
+.smallleaf {
+    width: 80px;
+    height: 80px;
+    background: yellow;
+    border-radius: 0px 50px 0px 50px;
+    animation: zoominout 0.6s infinite;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid brown;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    transform: scaleX(0.5);
+}
+
+@keyframes zoominout {
+    0% {
+        transform: scale(1, 1) rotate(45deg);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2) rotate(45deg);
+    }
+
+    100% {
+        transform: scale(1, 1) rotate(45deg);
+    }
+}
+
+
+@keyframes zoominouttext {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.textbox {
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    animation: zoominouttext 1.5s infinite;
+    position: absolute;
+}

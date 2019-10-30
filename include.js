@@ -1356,6 +1356,13 @@ let cards = [
 		imageLink: './Art/Stryker/zero-to-mastery-lifo-animation.gif',
 		author: 'Stryker Stinnette',
 		githubLink: 'https://github.com/StrykerKent'
+	},
+	{
+		artName: 'Happy Diwali Animation',
+		pageLink: './Art/Apoorva/index.html',
+		imageLink: './Art/Apoorva/Screen.gif',
+		author: 'Apoorva',
+		githubLink: 'https://github.com/apoorvamohite'
 	}
 ];
 
