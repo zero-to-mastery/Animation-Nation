@@ -1363,7 +1363,14 @@ let cards = [
 		imageLink: './Art/Apoorva/Screen.gif',
 		author: 'Apoorva',
 		githubLink: 'https://github.com/apoorvamohite'
-	}
+	},
+	{
+	      artName: "Smoky Text",
+	      pageLink: "./Art/smoky-text/index.html",
+	      imageLink: "./Art/smoky-text/smoky_text_gif.gif",
+	      author: "Rahulkumar Jha",
+	      githubLink: "https://github.com/Rahul240499"
+     }
 ];
 
 // +--------------------------------------------------------------------------------+
