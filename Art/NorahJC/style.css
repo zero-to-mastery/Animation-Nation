@@ -1,0 +1,62 @@
+.asterisk{
+    border: solid 27px red;
+    width: 10%;
+    border-right: 70px solid white;
+    border-radius: 40px solid white;
+    border-left: 70px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 4em;
+    transform: rotate(45deg);
+    transition: all 3s;
+    /* animation-name: asterisk;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+}
+.asterisk2{
+    border: solid 27px orange;
+    width: 10%;
+    border-right: 70px solid white;
+    border-radius: 40px solid white;
+    border-left: 70px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 2em;
+    transform: rotate(90deg);
+    transition: all 3s;
+}
+.asterisk3{
+    border: solid 27px yellow;
+    width: 10%;
+    border-right: 70px solid white;
+    border-radius: 40px solid white;
+    border-left: 70px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(-45deg);
+    transition: all 3s;
+}
+.asterisk4{
+    border: solid 27px rgb(123, 194,123);
+    width: 10%;
+    border-right: 70px solid white;
+    border-radius: 40px solid white;
+    border-left: 70px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 80px;
+    transition: all 3s;
+}
+/* @keyframes example {
+    0%   {rotate: 45deg;}
+    25%  {rotate: 117deg;}
+    50%  {rotate: 189deg;}
+    75%  {rotate: 261deg;}
+    100% {rotate: 360deg;}
+  } */

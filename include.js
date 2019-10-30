@@ -118,6 +118,13 @@ let cards = [{
 		githubLink: "https://github.com/prateekpatrick"
 	},
 	{
+		artName: "Asterisk Formation",
+		pageLink: "./Art/NorahJC/index.html",
+		imageLink: "./Art/NorahJC/asterisk-formation.gif",
+		author: "NorahJC",
+		githubLink: "https://github.com/norahjc"
+	},
+	{
 		artName: "Sliding Lines",
 		pageLink: "./Art/erics0n/sliding-lines/index.html",
 		imageLink: "./Art/erics0n/sliding-lines/image.gif",
