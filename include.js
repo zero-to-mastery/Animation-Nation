@@ -1364,6 +1364,13 @@ let cards = [
 		author: 'Apoorva',
 		githubLink: 'https://github.com/apoorvamohite'
 	},
+		{
+		artName: "Heart Beat",
+		pageLink: "./Art/naveen-ku/Heart shape.html",
+		imageLink: "./Art/naveen-ku/Heart shape.gif",
+		author: "naveen-ku",
+		githubLink: "https://github.com/naveen-ku"
+	},
 	{
 	      artName: "Smoky Text",
 	      pageLink: "./Art/smoky-text/index.html",
