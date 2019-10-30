@@ -1323,6 +1323,13 @@ let cards = [
 		githubLink: "https://github.com/fzpX"
 	},
 	{
+		artName: "Asterisk Formation",
+		pageLink: "./Art/NorahJC/index.html",
+		imageLink: "./Art/NorahJC/asterisk-formation.gif",
+		author: "NorahJC",
+		githubLink: "https://github.com/norahjc"
+	},
+  {
 		artName: "Bouncing CSS",
 		pageLink: "./Art/Tina-Hoang/aniframe.html",
 		imageLink: "./Art/Tina-Hoang/bounce.png",
