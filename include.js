@@ -1356,6 +1356,13 @@ let cards = [
 		imageLink: './Art/Apoorva/Screen.gif',
 		author: 'Apoorva',
 		githubLink: 'https://github.com/apoorvamohite'
+	},
+	{
+		artName: 'Loading Page...',
+		pageLink: './Art/Narendra-150/index.html',
+		imageLink: './Art/Narendra-150/Screen.gif',
+		author: 'Narendra',
+		githubLink: 'https://github.com/Narendra-150'
 	}
 ];
 
