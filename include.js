@@ -1370,7 +1370,14 @@ let cards = [
 		imageLink: "./Art/naveen-ku/Heart shape.gif",
 		author: "naveen-ku",
 		githubLink: "https://github.com/naveen-ku"
-	}
+	},
+	{
+	      artName: "Smoky Text",
+	      pageLink: "./Art/smoky-text/index.html",
+	      imageLink: "./Art/smoky-text/smoky_text_gif.gif",
+	      author: "Rahulkumar Jha",
+	      githubLink: "https://github.com/Rahul240499"
+     }
 ];
 
 // +--------------------------------------------------------------------------------+
