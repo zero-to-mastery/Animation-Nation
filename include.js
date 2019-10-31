@@ -1430,7 +1430,14 @@ let cards = [
       	imageLink: "./Art/Harry/lights.gif",
       	author: "Harry",
       	githubLink: "https://github.com/legenhairy"
-    }
+    },
+    {
+	      artName: "Glowing Text",
+	      pageLink: "./Art/glowing-text/index.html",
+	      imageLink: "./Art/glowing-text/glowing_text_gif.gif",
+	      author: "Rahulkumar Jha",
+	      githubLink: "https://github.com/Rahul240499"
+     }
 ];
 
 // +--------------------------------------------------------------------------------+
