@@ -1384,7 +1384,14 @@ let cards = [
 	      imageLink: "./Art/smoky-text/smoky_text_gif.gif",
 	      author: "Rahulkumar Jha",
 	      githubLink: "https://github.com/Rahul240499"
-     }
+    },
+    {
+    	artName: "Traffic Lights",
+      	pageLink: "./Art/Harry/index.html",
+      	imageLink: "./Art/Harry/lights.gif",
+      	author: "Harry",
+      	githubLink: "https://github.com/legenhairy"
+    }
 ];
 
 // +--------------------------------------------------------------------------------+

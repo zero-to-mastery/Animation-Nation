@@ -1,0 +1,83 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.traffic-lights {
+	height: 500px;
+	width: 200px;
+	border: 5px solid blue;
+}
+
+.light {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 50px;
+	animation-duration: 4s;
+}
+
+.light1 {
+	background: grey;
+	animation: redlight 4s infinite;
+}	
+
+.light2 {
+	background: grey;
+	animation: yellowlight 4s infinite;
+}
+
+.light3 {
+	background: darkgreen;
+	animation: greenlight 4s infinite;
+}
+
+@keyframes redlight {
+	0% { 
+		background-color: grey;
+	}
+	65% {
+		background-color: brown;
+	}
+	66% {
+		background-color: red;
+	}
+	100% {
+		background-color: red;
+	}
+}
+
+@keyframes yellowlight {
+	0% { 
+		background-color: grey;
+	}
+	40% {
+		background-color: yellow;
+	}
+	60% {
+		background-color: yellow;
+	}
+	65% {
+		background-color: grey;
+	}
+	100% {
+		background-color: grey;
+	}
+}
+
+@keyframes greenlight {
+	0% {
+		background-color: darkgreen;
+	}
+	33% {
+		background-color: darkgreen;
+	}
+	40% {
+		background-color: grey;
+	}
+	100% {
+		background-color: grey;
+	}
+}
+
