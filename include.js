@@ -1385,13 +1385,59 @@ let cards = [
 	      author: "Rahulkumar Jha",
 	      githubLink: "https://github.com/Rahul240499"
     },
-		{
+	{
 		 artName: "Rainbow and Clouds",
 		 pageLink: "./Art/rainbowclouds/index.html",
 		 imageLink: "./Art/rainbowclouds/rainbowclouds.gif",
 		 author: "isasimoo",
 		 githubLink: "https://github.com/isasimo"
-	 }
+  },
+	{
+	      artName: "Peek a boo!",
+	      pageLink: "./Art/Virtual1/index.html",
+	      imageLink: "./Art/Virtual1/HappyHalloween.gif",
+	      author: "Jessica Erasmus",
+	      githubLink: "https://github.com/Virtual1"
+     },
+
+     {
+		 artName: 'prashantM1',
+		 pageLink: './Art/prashantM1/heart.html',
+		 imageLink: './Art/prashantM1/heart.gif',
+		 author: 'Prashant Maurya',
+		 githubLink: 'https://github.com/prashantmaurya228'
+	},
+
+	{
+		 artName: 'prashantM2',
+		 pageLink: './Art/prashantM2/block.html',
+		 imageLink: './Art/prashantM2/block.gif',
+		 author: 'Prashant Maurya',
+		 githubLink: 'https://github.com/prashantmaurya228'
+	},
+
+	{
+		 artName: 'prashantM3',
+		 pageLink: './Art/prashantM3/ball.html',
+		 imageLink: './Art/prashantM3/ball.gif',
+		 author: 'Prashant Maurya',
+		 githubLink: 'https://github.com/prashantmaurya228'
+	},
+
+	{
+		 artName: 'prashantM4',
+		 pageLink: './Art/prashantM4/boxsize.html',
+		 imageLink: './Art/prashantM4/boxsize.gif',
+		 author: 'Prashant Maurya',
+		 githubLink: 'https://github.com/prashantmaurya228'
+	},
+    {
+    	artName: "Traffic Lights",
+      	pageLink: "./Art/Harry/index.html",
+      	imageLink: "./Art/Harry/lights.gif",
+      	author: "Harry",
+      	githubLink: "https://github.com/legenhairy"
+    }
 ];
 
 // +--------------------------------------------------------------------------------+

@@ -1,0 +1,61 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+div{
+	width: 500px;
+	height: 500px;
+	background-color: #90b082;
+	position: relative;
+	padding-bottom:50px; 
+}
+
+section{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-image: linear-gradient(to right ,#296366 , #dd92b2);
+	position: absolute;
+}
+
+.ball_1{
+	top: 0;
+	left: 0;
+	animation: ball 1s linear 0s infinite alternate forwards running ;
+}
+
+.ball_2{
+	top: 0%;
+	left: 15%;
+	animation: ball 2s cubic-bezier(.55,.09,.68,.53) .22s infinite alternate forwards running ;
+}
+
+.ball_3{
+	top: 00%;
+	left: 30%;
+	animation: ball 1.4s linear .12s infinite alternate forwards running ;
+}
+
+.ball_4{
+	top:0%;
+	left: 50%;
+	animation: ball 1.5s cubic-bezier(.55,.09,.68,.53) .1s infinite alternate forwards running ;
+}
+
+.ball_5{
+	top: 0%;
+	left: 70%;
+	animation: ball 1.8s linear .2s infinite alternate forwards running ;
+}
+
+.ball_6{
+	top: 0%;
+	left: 90%;
+	animation: ball 1s linear .2s infinite alternate forwards running ;
+}
+
+@keyframes ball{
+	0%{}
+	100%{top:95%;}
+}
