@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgba(222, 235, 232, 0.623);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+h1 {
+  display: grid;
+  grid-column: 1 / -1;
+  align-items: center;
+  justify-content: center;
+  background-color: silver;
+}
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.one {
+  grid-column: 4;
+  grid-row: 5;
+  animation: showPawPrint 1s linear 0.4s forwards;
+}
+
+.two {
+  grid-column: 2;
+  grid-row: 2;
+  animation: showPawPrint 1s linear 0.8s forwards;
+}
+
+.three {
+  grid-column: 3;
+  grid-row: 4;
+  animation: showPawPrint 1s linear 1.2s forwards;
+}
+
+.four {
+  grid-column: 2;
+  grid-row: 4;
+  animation: showPawPrint 1s linear 1.6s forwards;
+}
+
+.five {
+  grid-column: 5;
+  grid-row: 2;
+  animation: showPawPrint 1s linear 2s forwards;
+}
+
+.six {
+  grid-column: 6;
+  grid-row: 3;
+  animation: showPawPrint 1s linear 2.4s forwards;
+}
+
+.seven {
+  grid-column: 3;
+  grid-row: 2;
+  animation: showPawPrint 1s linear 2.8s forwards;
+}
+
+.eight {
+  grid-column: 5;
+  grid-row: 4;
+  animation: showPawPrint 1s linear 3.2s forwards;
+}
+
+@keyframes showPawPrint {
+  animation-iteration-count: infinite;
+
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  25% {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+@keyframes showTitle {
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  25% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  50% {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  75% {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}

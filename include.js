@@ -1385,6 +1385,13 @@ let cards = [
 	      author: "Rahulkumar Jha",
 	      githubLink: "https://github.com/Rahul240499"
      },
+	{
+	      artName: "Peek a boo!",
+	      pageLink: "./Art/Virtual1/index.html",
+	      imageLink: "./Art/Virtual1/HappyHalloween.gif",
+	      author: "Jessica Erasmus",
+	      githubLink: "https://github.com/Virtual1"
+     },
 
      {
 		 artName: 'prashantM1',
