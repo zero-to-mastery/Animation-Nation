@@ -1424,13 +1424,21 @@ let cards = [
 		 author: 'Prashant Maurya',
 		 githubLink: 'https://github.com/prashantmaurya228'
 	},
-    {
-    	artName: "Traffic Lights",
-      	pageLink: "./Art/Harry/index.html",
-      	imageLink: "./Art/Harry/lights.gif",
-      	author: "Harry",
-      	githubLink: "https://github.com/legenhairy"
-    }
+	{
+		artName: "Traffic Lights",
+			pageLink: "./Art/Harry/index.html",
+			imageLink: "./Art/Harry/lights.gif",
+			author: "Harry",
+			githubLink: "https://github.com/legenhairy"
+	},
+	{
+		artName: 'Happy hacking',
+		pageLink: 'https://github.com/szulima',
+		imageLink: './Art/szulima/hacking.gif',
+		author: 'szulima',
+		githubLink: 'https://github.com/szulima'
+	},
+		
 ];
 
 // +--------------------------------------------------------------------------------+
