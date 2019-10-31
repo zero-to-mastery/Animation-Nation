@@ -1,0 +1,61 @@
+
+body{
+	padding: 0;
+	margin: 0;
+}
+div{
+	width: 500px;
+	height: 500px;
+	background-color: grey;
+	position: relative;
+}
+
+
+section{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	transform: translate(33% , 30%);
+	animation: beat  .8s linear 0s infinite alternate forwards running ;
+	clip-path:polygon(18.34% 7%, 37% 23%, 54.34% 7%, 73.67% 18.33%, 73.67% 40%, 37% 81.66%, 0.66% 40%, 0.67% 20.99%);
+}
+
+.heart_1{
+   top: 2%;
+	left: 2%;
+}
+
+.heart_2{
+   top: 22%;
+	left: 22%;
+}
+
+.heart_3{
+   top: 42%;
+	left: 42%;
+}
+
+.heart_4{
+   top: 62%;
+	left: 62%;
+}
+
+.heart_5{
+   top:82%;
+	left: 82%;
+}
+
+
+@keyframes beat {
+	0%{
+
+	transform: scale(.5); 
+	}
+
+	100%{
+	transform: scale(1.1);
+	}
+}
