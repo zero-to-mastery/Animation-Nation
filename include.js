@@ -1384,7 +1384,14 @@ let cards = [
 	      imageLink: "./Art/smoky-text/smoky_text_gif.gif",
 	      author: "Rahulkumar Jha",
 	      githubLink: "https://github.com/Rahul240499"
-     }
+    },
+		{
+		 artName: "Rainbow and Clouds",
+		 pageLink: "./Art/rainbowclouds/index.html",
+		 imageLink: "./Art/rainbowclouds/rainbowclouds.gif",
+		 author: "isasimoo",
+		 githubLink: "https://github.com/isasimo"
+	 }
 ];
 
 // +--------------------------------------------------------------------------------+
