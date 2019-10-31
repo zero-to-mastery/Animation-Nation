@@ -1416,7 +1416,14 @@ let cards = [
 		 imageLink: './Art/prashantM4/boxsize.gif',
 		 author: 'Prashant Maurya',
 		 githubLink: 'https://github.com/prashantmaurya228'
-	}
+	},
+    {
+    	artName: "Traffic Lights",
+      	pageLink: "./Art/Harry/index.html",
+      	imageLink: "./Art/Harry/lights.gif",
+      	author: "Harry",
+      	githubLink: "https://github.com/legenhairy"
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
