@@ -1,0 +1,47 @@
+body
+{
+    background-color:orange;
+}
+h1
+{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+#road
+{
+    border-bottom:7px dashed black;
+}
+#runner
+{
+
+    background:url(../images/hobbit-style-sprite-sheet-walk-left.png);
+    width:198.75px;
+    height:254px;
+    animation:walk 1s steps(4) infinite,forward 5s linear infinite;
+    
+}
+
+@keyframes walk
+{
+    0%
+    {
+        background-position:0px;
+    }
+    100%
+    {
+        background-position:2612px;
+    }
+}
+
+@keyframes forward
+{
+    0%
+    {
+        transform: translateX(-100px);
+    }
+    100%
+    {
+        transform: translateX(1200px);
+    }
+}
+/*hello how are you*/

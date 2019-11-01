@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  background: #F1F1F1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrapper {
+  width:300px;
+}
+
+.stack {
+  width: 250px;
+  height: 190px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin: 0 auto;
+}
+
+.box-1, .box-2, .box-3 {
+  text-align: center;
+  border-radius: 3px;
+  padding: 20px;
+  background: #ccc;
+  margin: 0 5px 5px 5px;
+  transform: translateY(-50vh);
+}
+
+.box-1 {
+  animation: move 1s linear 0s 1 forwards, remove 1s linear 6.2s 1 forwards;
+}
+
+.box-2 {
+  animation: move 1s linear 1s 1 forwards, remove 1s linear 5.2s 1 forwards;
+}
+
+.box-3 {
+  animation: move 1s linear 2s 1 forwards, remove 1s linear 4s 1 forwards;
+}
+
+@keyframes move {
+  from {transform: translateY(-50vh);}
+  to {transform: translateY(0vh);}
+}
+
+@keyframes remove {
+  from {opacity:1;}
+  to {opacity:0;}
+}
+
+p {
+  text-align: center;
+}

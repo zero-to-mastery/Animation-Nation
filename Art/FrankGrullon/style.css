@@ -1,0 +1,35 @@
+
+body {
+    margin-top: 300px;
+    justify-content: center;
+    display: flex;
+}
+
+
+.sun {
+    margin: auto;;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #d1ff05;
+    box-shadow: inset -5px -5px 5px rgba(255,0,0), 15px 15px 2px rgba(0,0,0,.04);
+    
+}
+
+.Earth {
+    display: block;
+    margin-top: 32px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 26, 255);
+    box-shadow: inset -5px -5px 5px rgba(255, 255, 255, 0.6), 15px 15px 2px rgba(0,0,0,.04);
+    position: absolute;
+    animation: Orbit 2s infinite linear;
+    
+}
+
+@keyframes Orbit {
+    from { transform: rotate(0deg) translateX(300px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(300px) rotate(-360deg); }
+}
