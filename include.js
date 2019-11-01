@@ -1444,7 +1444,14 @@ let cards = [
 	      imageLink: "./Art/glowing-text/glowing_text_gif.gif",
 	      author: "Rahulkumar Jha",
 	      githubLink: "https://github.com/Rahul240499"
-     }
+     },
+  {
+	artName: "Ghost Stealth Text",
+	pageLink: "./Art/Alara Joel/index.html",
+	imageLink: "./Art/Alara Joel/stealth ghost.png",
+	author: "Alara Joel",
+	githubLink: "https://github.com/stealthman22"
+}
 ];
 
 // +--------------------------------------------------------------------------------+
