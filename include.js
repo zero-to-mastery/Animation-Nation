@@ -1384,7 +1384,14 @@ let cards = [
 	      imageLink: "./Art/smoky-text/smoky_text_gif.gif",
 	      author: "Rahulkumar Jha",
 	      githubLink: "https://github.com/Rahul240499"
-     },
+    },
+	{
+		 artName: "Rainbow and Clouds",
+		 pageLink: "./Art/rainbowclouds/index.html",
+		 imageLink: "./Art/rainbowclouds/rainbowclouds.gif",
+		 author: "isasimoo",
+		 githubLink: "https://github.com/isasimo"
+  },
 	{
 	      artName: "Peek a boo!",
 	      pageLink: "./Art/Virtual1/index.html",
@@ -1425,13 +1432,6 @@ let cards = [
 		 githubLink: 'https://github.com/prashantmaurya228'
 	},
 	{
-		artName: "Traffic Lights",
-			pageLink: "./Art/Harry/index.html",
-			imageLink: "./Art/Harry/lights.gif",
-			author: "Harry",
-			githubLink: "https://github.com/legenhairy"
-	},
-	{
 		artName: 'Happy hacking',
 		pageLink: 'https://github.com/szulima',
 		imageLink: './Art/szulima/hacking.gif',
@@ -1439,6 +1439,27 @@ let cards = [
 		githubLink: 'https://github.com/szulima'
 	},
 		
+    {
+    	artName: "Traffic Lights",
+      	pageLink: "./Art/Harry/index.html",
+      	imageLink: "./Art/Harry/lights.gif",
+      	author: "Harry",
+      	githubLink: "https://github.com/legenhairy"
+    },
+    {
+	      artName: "Glowing Text",
+	      pageLink: "./Art/glowing-text/index.html",
+	      imageLink: "./Art/glowing-text/glowing_text_gif.gif",
+	      author: "Rahulkumar Jha",
+	      githubLink: "https://github.com/Rahul240499"
+     },
+  {
+	artName: "Ghost Stealth Text",
+	pageLink: "./Art/Alara Joel/index.html",
+	imageLink: "./Art/Alara Joel/stealth ghost.png",
+	author: "Alara Joel",
+	githubLink: "https://github.com/stealthman22"
+}
 ];
 
 // +--------------------------------------------------------------------------------+

@@ -1,0 +1,46 @@
+/*Inspired by onlinetutorialsweb.com*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #262626;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /*starts from behind
+    flex-direction: row-reverse;*/
+}
+
+ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    /* Blurs Text*/
+    filter: blur(1px);
+    /*Omiting this line breaks everything*/
+    transition: 4s;
+}
+
+
+/*The structure of this selector allows all text to show the effets at the same time beginning from the one hovered on*/
+
+ul li:hover,
+ul li:hover~li {
+    /*transform rotates the text, translate moves it away form it's position, minus means to the right*/
+    transform: rotate(180deg) translate(-200px);
+    transition: 2s;
+    /*blurs text as it is moving*/
+    filter: blur(20px);
+    opacity: 0;
+}
