@@ -1431,6 +1431,14 @@ let cards = [
 		 author: 'Prashant Maurya',
 		 githubLink: 'https://github.com/prashantmaurya228'
 	},
+	{
+		artName: 'Happy hacking',
+		pageLink: 'https://github.com/szulima',
+		imageLink: './Art/szulima/hacking.gif',
+		author: 'szulima',
+		githubLink: 'https://github.com/szulima'
+	},
+		
     {
     	artName: "Traffic Lights",
       	pageLink: "./Art/Harry/index.html",
