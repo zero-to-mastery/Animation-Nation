@@ -1,3 +1,9 @@
+___
+> ### **UPDATE:**  Project Archived!
+> **This project has been archived to preserve its state at the end of Hacktoberfest 2019. Thank you to everyone that participated and made this project what it is tody and we look forward to seeing you all at Hacktoberfest 2020!
+> Interested in more events? keep an eye on our Events page [HERE](https://zerotomastery.io/events?utm_source=github&utm_medium=animation-nation)**
+____
+
 ![](./colourpencils.png)
 
 *Sharpen your pencils, we're getting creative!*
