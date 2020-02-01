@@ -1459,6 +1459,13 @@ let cards = [
 	imageLink: "./Art/Alara Joel/stealth ghost.png",
 	author: "Alara Joel",
 	githubLink: "https://github.com/stealthman22"
+},
+{
+	artName: "Random Color Change",
+	pageLink: "./Art/toto-titan-developer/index.html",
+	imageLink: "./Art/toto-titan-developer/RandomColorChange.png",
+	author: "Wyatt Henderson",
+	githubLink: "https://github.com/toto-titan-developer"
 }
 ];
 
