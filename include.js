@@ -1466,7 +1466,14 @@ let cards = [
         imageLink: "./Art/cactus/catus.gif",
         author: "Ana Paula Lazzarotto de Lemos",
         githubLink: 'https://github.com/anapaulalemos'
-    }
+    },
+    {
+	artName: "Random Color Change",
+	pageLink: "./Art/toto-titan-developer/index.html",
+	imageLink: "./Art/toto-titan-developer/RandomColorChange.png",
+	author: "Wyatt Henderson",
+	githubLink: "https://github.com/toto-titan-developer"
+}
 ];
 
 // +--------------------------------------------------------------------------------+
