@@ -1438,7 +1438,7 @@ let cards = [
 		author: 'szulima',
 		githubLink: 'https://github.com/szulima'
 	},
-		
+
     {
     	artName: "Traffic Lights",
       	pageLink: "./Art/Harry/index.html",
@@ -1447,19 +1447,26 @@ let cards = [
       	githubLink: "https://github.com/legenhairy"
     },
     {
-	      artName: "Glowing Text",
-	      pageLink: "./Art/glowing-text/index.html",
-	      imageLink: "./Art/glowing-text/glowing_text_gif.gif",
-	      author: "Rahulkumar Jha",
-	      githubLink: "https://github.com/Rahul240499"
-     },
-  {
-	artName: "Ghost Stealth Text",
-	pageLink: "./Art/Alara Joel/index.html",
-	imageLink: "./Art/Alara Joel/stealth ghost.png",
-	author: "Alara Joel",
-	githubLink: "https://github.com/stealthman22"
-}
+        artName: "Glowing Text",
+        pageLink: "./Art/glowing-text/index.html",
+        imageLink: "./Art/glowing-text/glowing_text_gif.gif",
+        author: "Rahulkumar Jha",
+        githubLink: "https://github.com/Rahul240499"
+    },
+    {
+        artName: "Ghost Stealth Text",
+        pageLink: "./Art/Alara Joel/index.html",
+        imageLink: "./Art/Alara Joel/stealth ghost.png",
+        author: "Alara Joel",
+        githubLink: "https://github.com/stealthman22"
+    },
+    {
+        artName: "Cactus Balloon",
+        pageLink: "./Art/cactus/index.html",
+        imageLink: "./Art/cactus/catus.gif",
+        author: "Ana Paula Lazzarotto de Lemos",
+        githubLink: 'https://github.com/anapaulalemos'
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
