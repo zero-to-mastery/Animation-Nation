@@ -1459,7 +1459,16 @@ let cards = [
 	imageLink: "./Art/Alara Joel/stealth ghost.png",
 	author: "Alara Joel",
 	githubLink: "https://github.com/stealthman22"
-}
+},
+let cards = [
+    //  Add your card in this section
+    {
+      artName: "Trial",
+      pageLink: "./Art/dhennisCssAnimation/index.html",
+      imageLink: "./Art/dhennisCssAnimation/focusOnTheGood",
+      author:"Dhennis Lim",
+      github: "https://github.com/DhennisDavidLim"
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
