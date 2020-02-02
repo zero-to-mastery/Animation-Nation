@@ -1473,7 +1473,14 @@ let cards = [
 	imageLink: "./Art/toto-titan-developer/RandomColorChange.png",
 	author: "Wyatt Henderson",
 	githubLink: "https://github.com/toto-titan-developer"
-}
+},
+{
+      artName: "Trial",
+      pageLink: "./Art/dhennisCssAnimation/index.html",
+      imageLink: "./Art/dhennisCssAnimation/focusOnTheGood",
+      author:"Dhennis Lim",
+      github: "https://github.com/DhennisDavidLim"
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
