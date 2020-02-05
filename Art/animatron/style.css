@@ -2,7 +2,7 @@ div#one {
   height: 100px;
   width: 100%;
   background: #fae3d9;
-  animation: slidein .5s linear 1s infinite alternate;
+  animation: slidein 4s linear 4s infinite alternate;
 }
 
 div#two {

@@ -1488,6 +1488,13 @@ let cards = [
 		author: "Mbarak",
 		github: "https://github.com/muzak-mmd"
 	}
+	{
+		artName: "Spinning Japanese",
+		pageLink: "./Art/nihongo/index.html",
+		imageLink: "./Art/nihongo/nihongo.gif",
+		author: "Mike W",
+		github: "https://github.com/mikewiner"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
