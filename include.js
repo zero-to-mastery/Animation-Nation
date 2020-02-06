@@ -1487,6 +1487,13 @@ let cards = [
 		imageLink: "./Art/muzak-mmd/butterfly.gif",
 		author: "Mbarak",
 		github: "https://github.com/muzak-mmd"
+	},
+	{
+		artName: "Simple Text Animation",
+		pageLink: "./Art/LordZeF/index.html",
+		imageLink: "./Art/LordZeF/Text-animation.gif",
+		author: "Lord ZeF",
+		github: "https://github.com/LordZeF"
 	}
 ];
 
