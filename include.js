@@ -1495,6 +1495,13 @@ let cards = [
 		author: "Lord ZeF",
 		github: "https://github.com/LordZeF"
 	}
+	{
+		artName: "Spinning Japanese",
+		pageLink: "./Art/nihongo/index.html",
+		imageLink: "./Art/nihongo/nihongo.gif",
+		author: "Mike W",
+		github: "https://github.com/mikewiner"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
