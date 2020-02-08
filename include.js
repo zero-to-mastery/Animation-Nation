@@ -1494,13 +1494,20 @@ let cards = [
 		imageLink: "./Art/LordZeF/Text-animation.gif",
 		author: "Lord ZeF",
 		github: "https://github.com/LordZeF"
-	}
+	},
 	{
 		artName: "Spinning Japanese",
 		pageLink: "./Art/nihongo/index.html",
 		imageLink: "./Art/nihongo/nihongo.gif",
 		author: "Mike W",
 		github: "https://github.com/mikewiner"
+	},
+	{
+		artName: "Sun",
+		pageLink: "./Art/Yj/index.html",
+		imageLink: "./Art/Yj/sun.gif",
+		author: "Youjung",
+		github: "https://github.com/rose07a"
 	}
 ];
 
