@@ -1510,6 +1510,13 @@ let cards = [
 		github: "https://github.com/rose07a"
 	},
 	{
+		artName: "Practice",
+		pageLink: "./Art/SkiingOtter/index.html",
+		imageLink: "",
+		author: "SkiingOtter",
+		github: "https://github.com/SkiingOtter"
+  },
+  {
 		artName: "djdougan",
 		pageLink: "./Art/djdougan/index.html",
 		imageLink: "./Art/djdougan/css-mouseover-effect.png",
