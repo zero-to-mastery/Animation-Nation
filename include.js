@@ -1517,6 +1517,13 @@ let cards = [
 		github: "https://github.com/rose07a"
 	},
 	{
+		artName: "Guy's",
+		pageLink: "./Art/Guy's/index.html",
+		imageLink: "",
+		author: "Guy",
+		github: "https://github.com/Guy3890"
+  },
+  {
 		artName: "animation-text",
 		pageLink: "./Art/animation-text/index.html",
 		imageLink: "./Art/",
