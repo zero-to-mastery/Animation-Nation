@@ -1439,84 +1439,104 @@ let cards = [
     author: 'szulima',
     githubLink: 'https://github.com/szulima'
   },
-
-  {
-    artName: 'Traffic Lights',
-    pageLink: './Art/Harry/index.html',
-    imageLink: './Art/Harry/lights.gif',
-    author: 'Harry',
-    githubLink: 'https://github.com/legenhairy'
-  },
-  {
-    artName: 'Glowing Text',
-    pageLink: './Art/glowing-text/index.html',
-    imageLink: './Art/glowing-text/glowing_text_gif.gif',
-    author: 'Rahulkumar Jha',
-    githubLink: 'https://github.com/Rahul240499'
-  },
-  {
-    artName: 'Ghost Stealth Text',
-    pageLink: './Art/Alara Joel/index.html',
-    imageLink: './Art/Alara Joel/stealth ghost.png',
-    author: 'Alara Joel',
-    githubLink: 'https://github.com/stealthman22'
-  },
-  {
-    artName: 'Cactus Balloon',
-    pageLink: './Art/cactus/index.html',
-    imageLink: './Art/cactus/catus.gif',
-    author: 'Ana Paula Lazzarotto de Lemos',
-    githubLink: 'https://github.com/anapaulalemos'
-  },
-  {
-    artName: 'Random Color Change',
-    pageLink: './Art/toto-titan-developer/index.html',
-    imageLink: './Art/toto-titan-developer/RandomColorChange.png',
-    author: 'Wyatt Henderson',
-    githubLink: 'https://github.com/toto-titan-developer'
-  },
-  {
-    artName: 'Trial',
-    pageLink: './Art/dhennisCssAnimation/index.html',
-    imageLink: './Art/dhennisCssAnimation/focusOnTheGood',
-    author: 'Dhennis Lim',
-    github: 'https://github.com/DhennisDavidLim'
-  },
-  {
-    artName: 'Rectangular Butterfly',
-    pageLink: './Art/muzak-mmd/index.html',
-    imageLink: './Art/muzak-mmd/butterfly.gif',
-    author: 'Mbarak',
-    github: 'https://github.com/muzak-mmd'
-  },
-  {
-    artName: 'Simple Text Animation',
-    pageLink: './Art/LordZeF/index.html',
-    imageLink: './Art/LordZeF/Text-animation.gif',
-    author: 'Lord ZeF',
-    github: 'https://github.com/LordZeF'
-  },
-  {
-    artName: 'Spinning Japanese',
-    pageLink: './Art/nihongo/index.html',
-    imageLink: './Art/nihongo/nihongo.gif',
-    author: 'Mike W',
-    github: 'https://github.com/mikewiner'
-  },
-  {
-    artName: 'Sun',
-    pageLink: './Art/Yj/index.html',
-    imageLink: './Art/Yj/sun.gif',
-    author: 'Youjung',
-    github: 'https://github.com/rose07a'
-  },
   {
     artName: 'ColorBomb',
     pageLink: './Art/ColorBomb/index.html',
     imageLink: './Art/ColorBomb/ztm.gif',
     author: 'Rahulm2310',
     github: 'https://github.com/Rahulm2310'
-  }
+  },
+	{
+		artName: "Traffic Lights",
+		pageLink: "./Art/Harry/index.html",
+		imageLink: "./Art/Harry/lights.gif",
+		author: "Harry",
+		githubLink: "https://github.com/legenhairy"
+	},
+	{
+		artName: "Glowing Text",
+		pageLink: "./Art/glowing-text/index.html",
+		imageLink: "./Art/glowing-text/glowing_text_gif.gif",
+		author: "Rahulkumar Jha",
+		githubLink: "https://github.com/Rahul240499"
+	},
+	{
+		artName: "Ghost Stealth Text",
+		pageLink: "./Art/Alara Joel/index.html",
+		imageLink: "./Art/Alara Joel/stealth ghost.png",
+		author: "Alara Joel",
+		githubLink: "https://github.com/stealthman22"
+	},
+	{
+		artName: "Cactus Balloon",
+		pageLink: "./Art/cactus/index.html",
+		imageLink: "./Art/cactus/catus.gif",
+		author: "Ana Paula Lazzarotto de Lemos",
+		githubLink: 'https://github.com/anapaulalemos'
+	},
+	{
+		artName: "Random Color Change",
+		pageLink: "./Art/toto-titan-developer/index.html",
+		imageLink: "./Art/toto-titan-developer/RandomColorChange.png",
+		author: "Wyatt Henderson",
+		githubLink: "https://github.com/toto-titan-developer"
+	},
+	{
+		artName: "Trial",
+		pageLink: "./Art/dhennisCssAnimation/index.html",
+		imageLink: "./Art/dhennisCssAnimation/focusOnTheGood",
+		author: "Dhennis Lim",
+		github: "https://github.com/DhennisDavidLim"
+	},
+	{
+		artName: "Rectangular Butterfly",
+		pageLink: "./Art/muzak-mmd/index.html",
+		imageLink: "./Art/muzak-mmd/butterfly.gif",
+		author: "Mbarak",
+		github: "https://github.com/muzak-mmd"
+	},
+	{
+		artName: "Simple Text Animation",
+		pageLink: "./Art/LordZeF/index.html",
+		imageLink: "./Art/LordZeF/Text-animation.gif",
+		author: "Lord ZeF",
+		github: "https://github.com/LordZeF"
+	},
+	{
+		artName: "Spinning Japanese",
+		pageLink: "./Art/nihongo/index.html",
+		imageLink: "./Art/nihongo/nihongo.gif",
+		author: "Mike W",
+		github: "https://github.com/mikewiner"
+	},
+	{
+		artName: "Sun",
+		pageLink: "./Art/Yj/index.html",
+		imageLink: "./Art/Yj/sun.gif",
+		author: "Youjung",
+		github: "https://github.com/rose07a"
+	},
+	{
+		artName: "animation-text",
+		pageLink: "./Art/animation-text/index.html",
+		imageLink: "./Art/",
+		author: "alexzemz",
+		github: "https://github.com/alexzemz"
+  },
+  {
+		artName: "Practice",
+		pageLink: "./Art/SkiingOtter/index.html",
+		imageLink: "",
+		author: "SkiingOtter",
+		github: "https://github.com/SkiingOtter"
+  },
+  {
+		artName: "djdougan",
+		pageLink: "./Art/djdougan/index.html",
+		imageLink: "./Art/djdougan/css-mouseover-effect.png",
+		author: "douglas dougan",
+		github: "https://github.com/djdougan"
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
