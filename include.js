@@ -749,6 +749,12 @@ let cards = [
 		githubLink: 'https://github.com/somechandra'
 	},
 	{
+        artName: "animatron",
+        pageLink: "./Art/animatron/index.html",
+        imageLink: "./Art/animatron/trance.gif",
+        author: 'nick981837',
+		githubLink: 'https://github.com/nick981837'
+	{
 		artName: 'Circles Circling',
 		pageLink: './Art/pikktorr/index.html',
 		imageLink: './Art/pikktorr/circles.gif',
