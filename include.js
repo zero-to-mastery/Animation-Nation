@@ -1544,7 +1544,14 @@ let cards = [
 		author: "douglas dougan",
 		github: "https://github.com/djdougan"
 	},
-	 {
+	{
+		artName: "Animated Background",
+		pageLink: "./Art/Xarasho-Background/index.html",
+		imageLink: "",
+		author: "Alex Xarasho",
+		github: "https://github.com/Xarasho"
+  },
+	{
 		artName: "CarvalhoAnimation",
 		pageLink: "./Art/CarvalhoAnimation/index.html",
 		imageLink: "./Art/CarvalhoAnimation/Halloween.png",
