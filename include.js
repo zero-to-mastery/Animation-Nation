@@ -1522,6 +1522,13 @@ let cards = [
 		imageLink: "./Art/djdougan/css-mouseover-effect.png",
 		author: "douglas dougan",
 		github: "https://github.com/djdougan"
+	},
+	 {
+		artName: "CarvalhoAnimation",
+		pageLink: "./Art/CarvalhoAnimation/index.html",
+		imageLink: "./Art/CarvalhoAnimation/Halloween.png",
+		author: "Alexandre Carvalho",
+		github: "https://github.com/AlexandreCarvalho1990"
 	}
 ];
 
