@@ -441,6 +441,14 @@ let cards = [
     githubLink: 'https://github.com/DaveFres'
   },
   {
+      artName: "animatron",
+      pageLink: "./Art/animatron/index.html",
+      imageLink: "./Art/animatron/trance.gif",
+      author: 'jomahay',
+      githubLink: 'https://github.com/jomahay'
+	
+  },
+  {
     artName: 'Sunshine',
     pageLink: './Art/Pavelisp/sunshine.html',
     imageLink: './Art/Pavelisp/sunshine.gif',
