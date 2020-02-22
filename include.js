@@ -1578,6 +1578,13 @@ let cards = [
     github: "https://github.com/AlexandreCarvalho1990"
   },
   {
+		artName: "Flower Animation",
+		pageLink: "./Art/aimee_floweani/index.html",
+		imageLink: "./Art/aimee_floweani/flower.gif",
+		author: "Aimee Hernandez",
+		github: "https://github.com/aimeehg"
+	},
+  {
     artName: "3D Spinning Rings",
     pageLink: "./Art/frostillicus/index.html",
     imageLink: "./Art/frostillicus/spinning_rings.png",
