@@ -1437,7 +1437,13 @@ let cards = [
     author: "Prashant Maurya",
     githubLink: "https://github.com/prashantmaurya228"
   },
-
+  {
+    artName: "SquareStar",
+    pageLink: "./Art/shawn/index.html",
+    imageLink: "./Art/shawn/square_star",
+    author: "shawn",
+    github: "https://github.com/hk2014"
+  },
   {
     artName: "prashantM4",
     pageLink: "./Art/prashantM4/boxsize.html",
