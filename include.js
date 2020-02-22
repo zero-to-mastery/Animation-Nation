@@ -1571,6 +1571,13 @@ let cards = [
 		imageLink: "./Art/CarvalhoAnimation/Halloween.png",
 		author: "Alexandre Carvalho",
 		github: "https://github.com/AlexandreCarvalho1990"
+  },
+  {
+		artName: "Flower Animation",
+		pageLink: "./Art/aimee_floweani/index.html",
+		imageLink: "./Art/aimee_floweani/flower.gif",
+		author: "Aimee Hernandez",
+		github: "https://github.com/aimeehg"
 	}
 ];
 
