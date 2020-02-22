@@ -1571,7 +1571,14 @@ let cards = [
 		imageLink: "./Art/CarvalhoAnimation/Halloween.png",
 		author: "Alexandre Carvalho",
 		github: "https://github.com/AlexandreCarvalho1990"
-	}
+	},
+  {
+    artName: "SquareStar",
+    pageLink: "./Art/shawn/index.html",
+    imageLink: "./Art/shawn/square_star",
+    author: "shawn",
+    github: "https://github.com/hk2014"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
