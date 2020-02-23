@@ -1574,10 +1574,10 @@ let cards = [
   },
   {
 		artName: "Flower Animation",
-		pageLink: "./Art/aimee_floweani/index.html",
-		imageLink: "./Art/aimee_floweani/flower.gif",
+		pageLink: "./Art/aimee_flowerani/index.html",
+		imageLink: "./Art/aimee_flowerani/flower.gif",
 		author: "Aimee Hernandez",
-		github: "https://github.com/aimeehg"
+		githubLink: "https://github.com/aimeehg"
 	}
 ];
 
