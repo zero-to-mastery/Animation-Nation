@@ -1582,7 +1582,7 @@ let cards = [
 		pageLink: "./Art/aimee_flowerani/index.html",
 		imageLink: "./Art/aimee_flowerani/flower.gif",
 		author: "Aimee Hernandez",
-		github: "https://github.com/aimeehg"
+		githubLink: "https://github.com/aimeehg"
 	},
   {
     artName: "3D Spinning Rings",
