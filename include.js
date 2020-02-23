@@ -1590,6 +1590,13 @@ let cards = [
     imageLink: "./Art/frostillicus/spinning_rings.png",
     author: "frostillicus",
     github: "https://github.com/frostillicus"
+  },
+  {
+    artName: "Blinking Eye",
+    pageLink: "./Art/BlinkingEye/index.html",
+    imageLink: "./Art/BlinkingEye/blinkingeye.gif",
+    author: "Pavel Perevozchikov",
+    github: "https://github.com/papapacksoon"
   }
 ];
 
