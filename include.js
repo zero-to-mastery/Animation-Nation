@@ -1590,6 +1590,13 @@ let cards = [
     imageLink: "./Art/frostillicus/spinning_rings.png",
     author: "frostillicus",
     github: "https://github.com/frostillicus"
+  },
+  {
+    artName: "Flexible Logo",
+    pageLink: "./Art/Fab1ed/index.html",
+    imageLink: "./Art/Fab1ed/flex.gif",
+    author: "Fab1ed",
+    github: "https://github.com/Fab1ed"
   }
 ];
 
