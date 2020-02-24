@@ -1598,6 +1598,13 @@ let cards = [
     author: "Pavel Perevozchikov",
     github: "https://github.com/papapacksoon"
   }
+  {
+    artName: "Mushyanimation",
+    pageLink: "./Art/mushyanimation/index.html",
+    imageLink: "./Art/mushyanimation/mush.gif",
+    author: "mushymane",
+    github: "https://github.com/mushymane"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
