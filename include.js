@@ -1592,6 +1592,13 @@ let cards = [
     github: "https://github.com/frostillicus"
   },
   {
+    artName: "Flexible Logo",
+    pageLink: "./Art/Fab1ed/index.html",
+    imageLink: "./Art/Fab1ed/flex.gif",
+    author: "Fab1ed",
+    github: "https://github.com/Fab1ed"
+  },
+  {
     artName: "Blinking Eye",
     pageLink: "./Art/BlinkingEye/index.html",
     imageLink: "./Art/BlinkingEye/blinkingeye.gif",
