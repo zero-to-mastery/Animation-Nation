@@ -1440,7 +1440,7 @@ let cards = [
   {
     artName: "SquareStar",
     pageLink: "./Art/shawn/index.html",
-    imageLink: "./Art/shawn/square_star",
+    imageLink: "./Art/shawn/square_star.gif",
     author: "shawn",
     github: "https://github.com/hk2014"
   },
