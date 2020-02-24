@@ -9,11 +9,6 @@ body {
 }
 
 #container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 132px;
-    height: 60px;
     font-size: 3em;
     color: rgb(223, 123, 30);
     background-color: #000;
