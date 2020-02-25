@@ -16,21 +16,24 @@ html, body {
     display: grid;
     grid-template-columns: repeat(2, 200px);
     height: 400px;
-    background-color: white;
+    /* background-color: white; */
 }
 
-.logo-left {
+.content-left {
     position: relative;
-    height: 100%;
     grid-column: 1 / 2;
-    background-color: gray;
+    /* background-color: yellow; */
 }
 
-.logo-right {
+.content-right {
     position: relative;
     grid-column: 2 / 3;
-    background-color: darkgray;
+    /* background-color: darkgray; */
 }
+
+/* .flip {
+    transform: scaleX(-1);
+} */
 
 span {
     position: absolute;
@@ -39,120 +42,171 @@ span {
     border-bottom: 1px solid black;
 }
 
-/* ! ANIMATION */
-@keyframes extend-1 {
-    from {
-        width: 0;
-        margin-top: 115px;
-    }
-    to {
-        width: 100%;
-    }
-}
-@keyframes extend-2 {
-    from {
-        width: 0;
-        margin-top: 115px;
-    }
-    to {
-        width: 100%;
-    }
-}
-@keyframes extend-3 {
-    from {
-        width: 0;
-        margin-top: 10px;
-    }
-    to {
-        width: 100%;
-    }
-}
-@keyframes extend-4 {
-    from {
-        width: 0;
-        margin-top: 115px;
-    }
-    to {
-        width: 100%;
-    }
-}
-@keyframes extend-5 {
-    from {
-        width: 0;
-        margin-top: 115px;
-    }
-    to {
-        width: 100%;
-    }
+.front {
+    z-index: 1;
 }
 
-/* LEFT SIDE */
-.left-lightgreen {
+/* ! ANIMATIONS */
+
+@keyframes reveal {
+    from { width: 100; }
+    to { width: 0; }
+}
+
+@keyframes fill {
+    from { width: 0%; }
+    to { width: 100%; }
+}
+
+/* ! LEFT SIDE */
+
+.content-left .lightgreen {
     position: absolute;
+    /* left: 0; */
+    width: 100%;
+    top: 59px;
+    background-color: rgb(0, 49, 82);
+    /* z-index: 3; */
+}
+
+.content-left .lightgreen .fill {
+    width: 0%;
+    height: 100%;
     background-color: lightgreen;
-    margin-top: 57px;
-    z-index: 1;
+    animation: fill 1s linear 3s 1 forwards running;
 }
 
-.left-lightred {
+.content-left .darkgreen {
     position: absolute;
-    background-color: red;
-    margin-top: 58px;
-    z-index: 1;
-    animation: extend-2 1s linear 1s 1 forwards running;
+    width: 100%;
+    top: 175px;
+    background-color: rgb(0, 49, 82);
+    /* z-index: 2; */
 }
 
-.left-darkgreen {
+.content-left .darkgreen .fill {
     position: absolute;
+    right: 0;
+    width: 0%;
+    height: 100%;
     background-color: green;
-    margin-top: -54px;
+    animation: fill 1s linear 2s 1 forwards running;
+    /* z-index: 4; */
 }
 
-.left-darkred {
+.content-left .red {
     position: absolute;
-    background-color: darkred;
-    margin-top: 59px;
+    width: 100%;
+    top: 170px;
+    background-color: rgb(0, 49, 82);
+    /* z-index: 3; */
 }
 
-/* RIGHT SIDE */
-.right-lightgreen {
-    /* position: relative; */
+.content-left .red .fill {
+    width: 0%;
+    height: 100%;
+    background-color: red;
+    animation: fill 1s linear 1s 1 forwards running;
+}
+
+.content-left .darkred {
+    position: absolute;
+    width: 100%;
+    top: 286px;
+    background-color: rgb(0, 49, 82);
+}
+
+.content-left .darkred .fill {
+    position: absolute;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background-color: darkred;
+    animation: fill 1s linear 4s 1 forwards running;
+}
+
+/* ! RIGHT SIDE */
+
+.content-right .lightgreen {
+    position: absolute;
+    /* right: 0; */
+    width: 100%;
+    top: 175px;
+    background-color: rgb(0, 49, 82);
+    /* z-index: 3; */
+}
+
+.content-right .lightgreen .fill {
+    position: absolute;
+    right: 0;
+    width: 0%;
+    height: 100%;
     background-color: lightgreen;
-    margin-top: -54px;
-    z-index: 1;
+    animation: fill 1s linear 1s 1 forwards running;
 }
 
-.right-lightred {
-    /* position: relative; */
-    background-color: red;
-    margin-top: 58px;
-    z-index: 1;
+.content-right .darkgreen {
+    position: absolute;
+    /* right: 0; */
+    width: 100%;
+    top: 59px;
+    background-color: rgb(0, 49, 82);
+    /* z-index: 3; */
 }
 
-.right-darkgreen {
-    position: relative;
+.content-right .darkgreen .fill {
+    position: absolute;
+    width: 0%;
+    height: 100%;
     background-color: green;
-    margin-top: 57px;
+    animation: fill 1s linear 4s 1 forwards running;
 }
 
-.right-darkred {
-    position: relative;
-    background-color: darkred;
-    margin-top: 58px;
-    animation: extend-2 1s linear 2s 1 forwards running;
+.content-right .red {
+    position: absolute;
+    width: 100%;
+    top: 286px;
+    background-color: rgb(0, 49, 82);
 }
+
+.content-right .red .fill {
+    position: absolute;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background-color: red;
+    animation: fill 1s linear 3s 1 forwards running;
+}
+
+.content-right .darkred {
+    position: absolute;
+    width: 100%;
+    top: 170px;
+    background-color: rgb(0, 49, 82);
+}
+
+.content-right .darkred .fill {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: darkred;
+    animation: fill 1s linear 2s 1 forwards running;
+}
+
+/* ! SHAPE */
 
 .parallelogram-up {
-    position: relative;
-    width: 100%;
+    /* position: relative; */
+    /* width: 100%; */
+    width: 0;
     height: 55px;
-    transform: matrix(1, -.57, 0, 1, 0, 0);
-    /* transform: skewY(-29deg); */
+    transform: skewY(-30deg);
 }
 
 .parallelogram-dn {
-    position: relative;
-    width: 100%;
+    /* position: absolute; */
+    /* width: 100%; */
+    width: 0;
     height: 55px;
-    transform: matrix(1, 0.57, 0, 1, 0, 0);
+    transform: skewY(30deg);
 }
