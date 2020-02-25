@@ -16,24 +16,17 @@ html, body {
     display: grid;
     grid-template-columns: repeat(2, 200px);
     height: 400px;
-    /* background-color: white; */
 }
 
 .content-left {
     position: relative;
     grid-column: 1 / 2;
-    /* background-color: yellow; */
 }
 
 .content-right {
     position: relative;
     grid-column: 2 / 3;
-    /* background-color: darkgray; */
 }
-
-/* .flip {
-    transform: scaleX(-1);
-} */
 
 span {
     position: absolute;
@@ -62,11 +55,9 @@ span {
 
 .content-left .lightgreen {
     position: absolute;
-    /* left: 0; */
     width: 100%;
     top: 59px;
     background-color: rgb(0, 49, 82);
-    /* z-index: 3; */
 }
 
 .content-left .lightgreen .fill {
@@ -81,7 +72,6 @@ span {
     width: 100%;
     top: 175px;
     background-color: rgb(0, 49, 82);
-    /* z-index: 2; */
 }
 
 .content-left .darkgreen .fill {
@@ -91,7 +81,6 @@ span {
     height: 100%;
     background-color: green;
     animation: fill 1s linear 2s 1 forwards running;
-    /* z-index: 4; */
 }
 
 .content-left .red {
@@ -99,7 +88,6 @@ span {
     width: 100%;
     top: 170px;
     background-color: rgb(0, 49, 82);
-    /* z-index: 3; */
 }
 
 .content-left .red .fill {
@@ -129,11 +117,9 @@ span {
 
 .content-right .lightgreen {
     position: absolute;
-    /* right: 0; */
     width: 100%;
     top: 175px;
     background-color: rgb(0, 49, 82);
-    /* z-index: 3; */
 }
 
 .content-right .lightgreen .fill {
@@ -147,11 +133,9 @@ span {
 
 .content-right .darkgreen {
     position: absolute;
-    /* right: 0; */
     width: 100%;
     top: 59px;
     background-color: rgb(0, 49, 82);
-    /* z-index: 3; */
 }
 
 .content-right .darkgreen .fill {
@@ -196,16 +180,12 @@ span {
 /* ! SHAPE */
 
 .parallelogram-up {
-    /* position: relative; */
-    /* width: 100%; */
     width: 0;
     height: 55px;
     transform: skewY(-30deg);
 }
 
 .parallelogram-dn {
-    /* position: absolute; */
-    /* width: 100%; */
     width: 0;
     height: 55px;
     transform: skewY(30deg);
