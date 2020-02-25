@@ -1597,6 +1597,13 @@ let cards = [
     imageLink: "./Art/BlinkingEye/blinkingeye.gif",
     author: "Pavel Perevozchikov",
     github: "https://github.com/papapacksoon"
+  },
+  {
+    artName: "Zero-to-Logo",
+    pageLink: "./Art/node.hg/index.html",
+    imageLink: "./Art/node.hg/ztm.gif",
+    author: "Harris Gomez",
+    github: "https://github.com/harrisgomez"
   }
 ];
 
