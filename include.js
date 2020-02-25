@@ -1612,6 +1612,13 @@ let cards = [
     author: "mushymane",
     github: "https://github.com/mushymane"
   }
+  {
+    artName: "Flag",
+    pageLink: "./Art/Batz005/index.html",
+    imageLink: "./Art/Batz005/flag.gif",
+    author: "Batz005",
+    github: "https://github.com/Batz005"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
