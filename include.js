@@ -1578,12 +1578,12 @@ let cards = [
     github: "https://github.com/AlexandreCarvalho1990"
   },
   {
-		artName: "Flower Animation",
-		pageLink: "./Art/aimee_flowerani/index.html",
-		imageLink: "./Art/aimee_flowerani/flower.gif",
-		author: "Aimee Hernandez",
-		githubLink: "https://github.com/aimeehg"
-	},
+    artName: "Flower Animation",
+    pageLink: "./Art/aimee_flowerani/index.html",
+    imageLink: "./Art/aimee_flowerani/flower.gif",
+    author: "Aimee Hernandez",
+    githubLink: "https://github.com/aimeehg"
+  },
   {
     artName: "3D Spinning Rings",
     pageLink: "./Art/frostillicus/index.html",
@@ -1604,14 +1604,14 @@ let cards = [
     imageLink: "./Art/BlinkingEye/blinkingeye.gif",
     author: "Pavel Perevozchikov",
     github: "https://github.com/papapacksoon"
-  }
+  },
   {
     artName: "Mushyanimation",
     pageLink: "./Art/mushyanimation/index.html",
     imageLink: "./Art/mushyanimation/mush.gif",
     author: "mushymane",
     github: "https://github.com/mushymane"
-  }
+  },
   {
     artName: "Flag",
     pageLink: "./Art/Batz005/index.html",
