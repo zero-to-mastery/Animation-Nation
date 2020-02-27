@@ -1440,7 +1440,7 @@ let cards = [
   {
     artName: "SquareStar",
     pageLink: "./Art/shawn/index.html",
-    imageLink: "./Art/shawn/square_star",
+    imageLink: "./Art/shawn/square_star.gif",
     author: "shawn",
     github: "https://github.com/hk2014"
   },
@@ -1578,18 +1578,25 @@ let cards = [
     github: "https://github.com/AlexandreCarvalho1990"
   },
   {
-		artName: "Flower Animation",
-		pageLink: "./Art/aimee_flowerani/index.html",
-		imageLink: "./Art/aimee_flowerani/flower.gif",
-		author: "Aimee Hernandez",
-		githubLink: "https://github.com/aimeehg"
-	},
+    artName: "Flower Animation",
+    pageLink: "./Art/aimee_flowerani/index.html",
+    imageLink: "./Art/aimee_flowerani/flower.gif",
+    author: "Aimee Hernandez",
+    githubLink: "https://github.com/aimeehg"
+  },
   {
     artName: "3D Spinning Rings",
     pageLink: "./Art/frostillicus/index.html",
     imageLink: "./Art/frostillicus/spinning_rings.png",
     author: "frostillicus",
     github: "https://github.com/frostillicus"
+  },
+  {
+    artName: "Flexible Logo",
+    pageLink: "./Art/Fab1ed/index.html",
+    imageLink: "./Art/Fab1ed/flex.gif",
+    author: "Fab1ed",
+    github: "https://github.com/Fab1ed"
   },
   {
     artName: "Blinking Eye",
@@ -1604,6 +1611,20 @@ let cards = [
     imageLink: "./Art/node.hg/ztm.gif",
     author: "Harris Gomez",
     github: "https://github.com/harrisgomez"
+  },
+  {
+    artName: "Mushyanimation",
+    pageLink: "./Art/mushyanimation/index.html",
+    imageLink: "./Art/mushyanimation/mush.gif",
+    author: "mushymane",
+    github: "https://github.com/mushymane"
+  },
+  {
+    artName: "Flag",
+    pageLink: "./Art/Batz005/index.html",
+    imageLink: "./Art/Batz005/flag.gif",
+    author: "Batz005",
+    github: "https://github.com/Batz005"
   }
 ];
 
