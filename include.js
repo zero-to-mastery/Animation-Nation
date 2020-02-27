@@ -1625,6 +1625,13 @@ let cards = [
     imageLink: "./Art/Batz005/flag.gif",
     author: "Batz005",
     github: "https://github.com/Batz005"
+  },
+  {
+    artName: "Preloader",
+    pageLink: "./Art/mshuber1981/preloader.html",
+    imageLink: "./Art/mshuber1981/preloader.gif",
+    author: "Michael Huber",
+    github: "https://github.com/mshuber1981"
   }
 ];
 
