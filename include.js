@@ -1606,6 +1606,13 @@ let cards = [
     github: "https://github.com/papapacksoon"
   },
   {
+    artName: "Zero-to-Logo",
+    pageLink: "./Art/node.hg/index.html",
+    imageLink: "./Art/node.hg/ztm.gif",
+    author: "Harris Gomez",
+    github: "https://github.com/harrisgomez"
+  },
+  {
     artName: "Mushyanimation",
     pageLink: "./Art/mushyanimation/index.html",
     imageLink: "./Art/mushyanimation/mush.gif",
