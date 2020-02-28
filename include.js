@@ -1625,6 +1625,13 @@ let cards = [
     imageLink: "./Art/Batz005/flag.gif",
     author: "Batz005",
     github: "https://github.com/Batz005"
+  },
+  {
+    artName: "Simple Animate ZTM",
+    pageLink: "./Art/Kweyku/index.html",
+    imageLink: "./Art/Kweyku/proudZTM.gif",
+    author: "Kweyku",
+    github: "https://github.com/Kweyku"
   }
 ];
 
