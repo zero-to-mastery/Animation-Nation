@@ -1625,6 +1625,13 @@ let cards = [
     imageLink: "./Art/Batz005/flag.gif",
     author: "Batz005",
     github: "https://github.com/Batz005"
+  },
+  {
+    artName: "Heartbeat",
+    pageLink: "./Art/lysychas/index.html",
+    imageLink: "./Art/lysychas/heartshot.png",
+    author: "lysychas",
+    github: "https://github.com/lysychas"
   }
   {
     artName: "Hydrogen",
