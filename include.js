@@ -1626,6 +1626,13 @@ let cards = [
     author: "Batz005",
     github: "https://github.com/Batz005"
   }
+  {
+    artName: "Hydrogen",
+    pageLink: "./Art/elias/my-art.html",
+    imageLink: "./Art/elias/hydrogen.gif",
+    author: "tesolberg",
+    github: "https://github.com/tesolberg"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
