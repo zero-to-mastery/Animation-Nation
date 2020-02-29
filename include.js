@@ -1627,12 +1627,19 @@ let cards = [
     github: "https://github.com/Batz005"
   },
   {
+    artName: "Simple Animate ZTM",
+    pageLink: "./Art/Kweyku/index.html",
+    imageLink: "./Art/Kweyku/proudZTM.gif",
+    author: "Kweyku",
+    github: "https://github.com/Kweyku"
+  },
+  {
     artName: "Heartbeat",
     pageLink: "./Art/lysychas/index.html",
     imageLink: "./Art/lysychas/heartshot.png",
     author: "lysychas",
     github: "https://github.com/lysychas"
-  }
+  },
   {
     artName: "Hydrogen",
     pageLink: "./Art/elias/my-art.html",
