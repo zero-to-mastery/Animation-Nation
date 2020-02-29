@@ -1632,6 +1632,20 @@ let cards = [
     imageLink: "./Art/Kweyku/proudZTM.gif",
     author: "Kweyku",
     github: "https://github.com/Kweyku"
+  },
+  {
+    artName: "Heartbeat",
+    pageLink: "./Art/lysychas/index.html",
+    imageLink: "./Art/lysychas/heartshot.png",
+    author: "lysychas",
+    github: "https://github.com/lysychas"
+  },
+  {
+    artName: "Hydrogen",
+    pageLink: "./Art/elias/my-art.html",
+    imageLink: "./Art/elias/hydrogen.gif",
+    author: "tesolberg",
+    github: "https://github.com/tesolberg"
   }
 ];
 
