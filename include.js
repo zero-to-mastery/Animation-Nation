@@ -1647,6 +1647,13 @@ let cards = [
     author: "tesolberg",
     github: "https://github.com/tesolberg"
   }
+   {
+    artName: "Cool-Transition",
+    pageLink: "./Art/animatomang/html",
+    videolink: "./Art/animatomang/smoke.mp4",
+    author: "Syam",
+    github: "https://github.com/blacktomang"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
