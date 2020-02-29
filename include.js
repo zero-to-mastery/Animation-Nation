@@ -1632,6 +1632,34 @@ let cards = [
     imageLink: "./Art/mshuber1981/preloader.gif",
     author: "Michael Huber",
     github: "https://github.com/mshuber1981"
+  },
+  {
+    artName: "Simple Animate ZTM",
+    pageLink: "./Art/Kweyku/index.html",
+    imageLink: "./Art/Kweyku/proudZTM.gif",
+    author: "Kweyku",
+    github: "https://github.com/Kweyku"
+  },
+  {
+    artName: "Heartbeat",
+    pageLink: "./Art/lysychas/index.html",
+    imageLink: "./Art/lysychas/heartshot.png",
+    author: "lysychas",
+    github: "https://github.com/lysychas"
+  },
+  {
+    artName: "Hydrogen",
+    pageLink: "./Art/elias/my-art.html",
+    imageLink: "./Art/elias/hydrogen.gif",
+    author: "tesolberg",
+    github: "https://github.com/tesolberg"
+  },
+   {
+    artName: "Cool-Transition",
+    pageLink: "./Art/animatomang/html",
+    videolink: "./Art/animatomang/smoke.mp4",
+    author: "Syam",
+    github: "https://github.com/blacktomang"
   }
 ];
 
