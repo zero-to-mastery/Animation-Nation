@@ -1627,6 +1627,13 @@ let cards = [
     github: "https://github.com/Batz005"
   },
   {
+    artName: "Wave",
+    pageLink: "./Art/Wave_css/index.html",
+    imageLink: "./Art/Wave_css/wave.gif",
+    author: "Filippe",
+    github: "https://github.com/filippebr"
+  },
+  {
     artName: "Preloader",
     pageLink: "./Art/mshuber1981/preloader.html",
     imageLink: "./Art/mshuber1981/preloader.gif",
