@@ -1627,6 +1627,13 @@ let cards = [
     github: "https://github.com/Batz005"
   },
   {
+    artName: "Preloader",
+    pageLink: "./Art/mshuber1981/preloader.html",
+    imageLink: "./Art/mshuber1981/preloader.gif",
+    author: "Michael Huber",
+    github: "https://github.com/mshuber1981"
+  },
+  {
     artName: "Simple Animate ZTM",
     pageLink: "./Art/Kweyku/index.html",
     imageLink: "./Art/Kweyku/proudZTM.gif",
@@ -1646,7 +1653,7 @@ let cards = [
     imageLink: "./Art/elias/hydrogen.gif",
     author: "tesolberg",
     github: "https://github.com/tesolberg"
-  }
+  },
    {
     artName: "Cool-Transition",
     pageLink: "./Art/animatomang/html",
