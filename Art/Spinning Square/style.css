@@ -1,0 +1,28 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #d9c300;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-delay: -2s;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+.box:hover{
+    width: 400px;
+    height: 400px;
+    transform: rotate(360deg);
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 400px;
+  }
+
+@keyframes animation {
+      from {background-color: #d9c300;}
+      to {background-color: tomato;}
+  }
