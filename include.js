@@ -1674,6 +1674,13 @@ let cards = [
     imageLink: "./Art/franciscomelov/franciscomelov.gif",
     author: "franciscomelov",
     githubLink: "https://github.com/franciscomelov"
+  },
+  {
+    artName: "Moving Eyeball",
+    pageLink: "./Art/AnathKantonda/index.html",
+    imageLink: "./Art/AnathKantonda/movingeyeball.gif",
+    author: "Anath",
+    github: "https://github.com/anathkantonda"
   }
   
 ];
