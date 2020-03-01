@@ -1667,6 +1667,13 @@ let cards = [
     videolink: "./Art/animatomang/smoke.mp4",
     author: "Syam",
     github: "https://github.com/blacktomang"
+  },  
+  {
+    artName: "letters-loading",
+    pageLink: "./Art/franciscomelov/index.html",
+    imageLink: "./Art/franciscomelov/franciscomelov.gif",
+    author: "franciscomelov",
+    githubLink: "https://github.com/franciscomelov"
   },
   {
     artName: "Moving Eyeball",
@@ -1675,6 +1682,7 @@ let cards = [
     author: "Anath",
     github: "https://github.com/anathkantonda"
   }
+  
 ];
 
 // +--------------------------------------------------------------------------------+
