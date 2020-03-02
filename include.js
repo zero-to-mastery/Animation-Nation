@@ -1674,7 +1674,22 @@ let cards = [
     imageLink: "./Art/Spinning Square/square.gif",
     author: "Fumi",
     github: "https://github.com/fumiadeyemi"
+  },  
+  {
+    artName: "letters-loading",
+    pageLink: "./Art/franciscomelov/index.html",
+    imageLink: "./Art/franciscomelov/franciscomelov.gif",
+    author: "franciscomelov",
+    githubLink: "https://github.com/franciscomelov"
+  },
+  {
+    artName: "Moving Eyeball",
+    pageLink: "./Art/AnathKantonda/index.html",
+    imageLink: "./Art/AnathKantonda/movingeyeball.gif",
+    author: "Anath",
+    github: "https://github.com/anathkantonda"
   }
+  
 ];
 
 // +--------------------------------------------------------------------------------+
