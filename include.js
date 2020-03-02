@@ -1667,6 +1667,13 @@ let cards = [
     videolink: "./Art/animatomang/smoke.mp4",
     author: "Syam",
     github: "https://github.com/blacktomang"
+  },
+  {
+    artName: "Spinning Square",
+    pageLink: "./Art/Spinning Square/index.html",
+    imageLink: "./Art/Spinning Square/square.gif",
+    author: "Fumi",
+    github: "https://github.com/fumiadeyemi"
   },  
   {
     artName: "letters-loading",
