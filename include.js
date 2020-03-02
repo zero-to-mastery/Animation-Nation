@@ -1688,6 +1688,13 @@ let cards = [
     imageLink: "./Art/AnathKantonda/movingeyeball.gif",
     author: "Anath",
     github: "https://github.com/anathkantonda"
+  },
+  {
+    artName: "Flag Animation - Colomboalemán",
+    pageLink: "./Art/Matic1909/index.html",
+    imageLink: "./Art/Matic1909/flag.gif",
+    author: "Nils Matic",
+    githubLink: "https://github.com/matic1909"
   }
   
 ];
