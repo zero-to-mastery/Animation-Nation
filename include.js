@@ -1702,8 +1702,14 @@ let cards = [
     imageLink: "./Art/cristobal-heiss/css_animation.gif",
     author: "Cristobal Heiss",
     githubLink: "https://github.com/ceheiss"
+  },
+  {
+    artName: "Eenimation",
+    pageLink: "./Art/Eenimation/index.html",
+    imageLink: "./Art/Eenimation/trance.gif",
+    author: "Eejaz ishaq",
+    githubLink: "https://github.com/eejazishaq"
   }
-  
 ];
 
 // +--------------------------------------------------------------------------------+
