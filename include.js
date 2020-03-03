@@ -1695,7 +1695,14 @@ let cards = [
     imageLink: "./Art/Matic1909/flag.gif",
     author: "Nils Matic",
     githubLink: "https://github.com/matic1909"
-  }
+  },
+
+
+      artName: "Pac-Man",
+      pageLink: "./Art/Pac-Man/Pac-Man.html",
+      imageLink: "./Art/Pac-Man/Pac-Man.gif",
+      author: "Norbert",
+      githubLink: "https://github.com/Bynor"
   
 ];
 
