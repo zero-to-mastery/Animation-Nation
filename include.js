@@ -1696,6 +1696,12 @@ let cards = [
     author: "Nils Matic",
     githubLink: "https://github.com/matic1909"
   },
+      artName: "Pac-Man",
+      pageLink: "./Art/Pac-Man/Pac-Man.html",
+      imageLink: "./Art/Pac-Man/Pac-Man.gif",
+      author: "Norbert",
+      githubLink: "https://github.com/Bynor"
+  },
   {
     artName: "Don't follow the light",
     pageLink: "./Art/cristobal-heiss/index.html",
