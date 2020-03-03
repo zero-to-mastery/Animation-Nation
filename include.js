@@ -1674,7 +1674,7 @@ let cards = [
     imageLink: "./Art/Spinning Square/square.gif",
     author: "Fumi",
     github: "https://github.com/fumiadeyemi"
-  },  
+  },
   {
     artName: "letters-loading",
     pageLink: "./Art/franciscomelov/index.html",
@@ -1696,14 +1696,33 @@ let cards = [
     author: "Nils Matic",
     githubLink: "https://github.com/matic1909"
   },
-
-
       artName: "Pac-Man",
       pageLink: "./Art/Pac-Man/Pac-Man.html",
       imageLink: "./Art/Pac-Man/Pac-Man.gif",
       author: "Norbert",
       githubLink: "https://github.com/Bynor"
-  
+  },
+  {
+    artName: "Don't follow the light",
+    pageLink: "./Art/cristobal-heiss/index.html",
+    imageLink: "./Art/cristobal-heiss/css_animation.gif",
+    author: "Cristobal Heiss",
+    githubLink: "https://github.com/ceheiss"
+  },
+  {
+    artName: "Eenimation",
+    pageLink: "./Art/Eenimation/index.html",
+    imageLink: "./Art/Eenimation/trance.gif",
+    author: "Eejaz ishaq",
+    githubLink: "https://github.com/eejazishaq"
+  },
+  {
+    artName: "ripple button",
+    pageLink: "./Art/monika-sahay/index.html",
+    imageLink: "./Art/monika-sahay/screen-capture.gif",
+    author: "monika sahay",
+    githubLink: "https://github.com/monika-sahay"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
