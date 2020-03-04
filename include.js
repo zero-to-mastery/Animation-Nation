@@ -1725,6 +1725,13 @@ let cards = [
   }
 ];
 
+{
+  artName: "sliding curtains",
+  pageLink: "./Art/layoayeni/index.html",
+  imageLink: "./Art/layoayeni/trance.gif",
+  author: "Layo",
+  githubLink: "https://github.com/layoayeni"
+}
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
