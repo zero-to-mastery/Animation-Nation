@@ -1696,11 +1696,12 @@ let cards = [
     author: "Nils Matic",
     githubLink: "https://github.com/matic1909"
   },
-      artName: "Pac-Man",
-      pageLink: "./Art/Pac-Man/Pac-Man.html",
-      imageLink: "./Art/Pac-Man/Pac-Man.gif",
-      author: "Norbert",
-      githubLink: "https://github.com/Bynor"
+  { 
+    artName: "Pac-Man",
+    pageLink: "./Art/Pac-Man/Pac-Man.html",
+    imageLink: "./Art/Pac-Man/Pac-Man.gif",
+    author: "Norbert",
+    githubLink: "https://github.com/Bynor"
   },
   {
     artName: "Don't follow the light",
@@ -1722,16 +1723,24 @@ let cards = [
     imageLink: "./Art/monika-sahay/screen-capture.gif",
     author: "monika sahay",
     githubLink: "https://github.com/monika-sahay"
+  },
+  {
+    artName: "Animation",
+    pageLink: "./Art/Albertomtferreira/index.html",
+    imageLink: "./Art/Albertomtferreira/animation.gif",
+    author: "Alberto Ferreira",
+    githubLink: "https://github.com/albertomtferreira"
+  },
+  {
+    artName: "sliding curtains",
+    pageLink: "./Art/layoayeni/index.html",
+    imageLink: "./Art/layoayeni/trance.gif",
+    author: "Layo",
+    githubLink: "https://github.com/layoayeni"
   }
 ];
 
-{
-  artName: "sliding curtains",
-  pageLink: "./Art/layoayeni/index.html",
-  imageLink: "./Art/layoayeni/trance.gif",
-  author: "Layo",
-  githubLink: "https://github.com/layoayeni"
-}
+
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
