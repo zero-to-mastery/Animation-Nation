@@ -1722,6 +1722,13 @@ let cards = [
     imageLink: "./Art/monika-sahay/screen-capture.gif",
     author: "monika sahay",
     githubLink: "https://github.com/monika-sahay"
+  },
+  {
+    artName: "Animation",
+    pageLink: "./Art/Albertomtferreira/index.html",
+    imageLink: "./Art/Albertomtferreira/animation.gif",
+    author: "Alberto Ferreira",
+    githubLink: "https://github.com/albertomtferreira"
   }
 ];
 
