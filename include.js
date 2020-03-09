@@ -127,10 +127,17 @@ let cards = [
   },
   {
     artName: "Local Host metaphor",
-    pageLink: "./Art/Prateek/index.html",
+    pageLink: "./Art/Akbar-Cyber/index.html",
     imageLink: "./Art/Prateek/localhost.png",
     author: "Prateek",
     githubLink: "https://github.com/prateekpatrick"
+  },
+   {
+    artName: "Akbar-Cyber",
+    pageLink: "./Art/Akbar-Cyber/index.html",
+    imageLink: "./Art/Akbar-Cyber/akbar.gif",
+    author: "Akbar",
+    githubLink: "https://github.com/Akbar-Cyber"
   },
   {
     artName: "Sliding Lines",
