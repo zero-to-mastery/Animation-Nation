@@ -1746,12 +1746,19 @@ let cards = [
     githubLink: "https://github.com/layoayeni"
   },
   {
+    artName: "Slovenian flag",
+    pageLink: "./Art/Ivan's art/index.html",
+    imageLink: "./Art/Ivan's art/Ivan-art.gif",
+    author: "kljuni",
+    githubLink: "https://github.com/kljuni"
+  },
+  {
     artName: "Police Siren",
     pageLink: "./Art/ShimShon1/policia.html",
     imageLink: "./Art/ShimShon1/police.gif",
     author: "ShimShon1",
     githubLink: "https://github.com/ShimShon1"
-  }
+  },
   {
     artName: "Catch The UFO",
     pageLink: "./Art/A-UFO/index.html",
