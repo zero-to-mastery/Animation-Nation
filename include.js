@@ -1752,6 +1752,13 @@ let cards = [
     author: "ShimShon1",
     githubLink: "https://github.com/ShimShon1"
   }
+  {
+    artName: "Catch The UFO",
+    pageLink: "./Art/A-UFO/index.html",
+    imageLink: "./Art/A-UFO/catch-the-ufo.gif",
+    author: "Dibakash",
+    githubLink: "https://github.com/dibakash"
+  }
 ];
 
 
