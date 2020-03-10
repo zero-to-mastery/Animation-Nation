@@ -1744,6 +1744,13 @@ let cards = [
     imageLink: "./Art/layoayeni/trance.gif",
     author: "Layo",
     githubLink: "https://github.com/layoayeni"
+  },
+  {
+    artName: "Police Siren",
+    pageLink: "./Art/ShimShon1/policia.html",
+    imageLink: "./Art/ShimShon1/police.gif",
+    author: "ShimShon1",
+    githubLink: "https://github.com/ShimShon1"
   }
 ];
 
