@@ -1744,6 +1744,13 @@ let cards = [
     imageLink: "./Art/layoayeni/trance.gif",
     author: "Layo",
     githubLink: "https://github.com/layoayeni"
+  },
+  {
+    artName: "Slovenian flag",
+    pageLink: "./Art/Ivan's art/index.html",
+    imageLink: "./Art/Ivan's art/Ivan-art.gif",
+    author: "kljuni",
+    githubLink: "https://github.com/kljuni"
   }
 ];
 
