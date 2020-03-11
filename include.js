@@ -1781,6 +1781,13 @@ let cards = [
     githubLink: 'https://github.com/dibakash'
   },
   {
+    artName: '1rotate',
+    pageLink: './Art/1rotate/index.html',
+    imageLink: './Art/1rotate/rotation.gif',
+    author: 'Himanshu Gawari',
+    githubLink: 'https://github.com/himanshugawari'
+  },
+  {
     artName: 'Moving Box',
     pageLink: './Art/JerylDEv/index.html',
     imageLink: './Art/JerylDEv/movingbox.gif',
