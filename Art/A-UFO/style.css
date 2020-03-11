@@ -119,6 +119,7 @@ body {
 .ufo {
   margin: auto;
   animation: fly 6s ease-in-out infinite;
+  position: absolute;
 }
 
 .ufo:after {
