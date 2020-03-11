@@ -1781,6 +1781,13 @@ let cards = [
     githubLink: 'https://github.com/dibakash'
   },
   {
+    artName: 'Beer',
+    pageLink: './Art/beer/index.html',
+    imageLink: './Art/beer/beer.gif',
+    author: 'CamJackson',
+    githubLink: 'https://github.com/CamJackson-Dev'
+  },
+  {
     artName: '1rotate',
     pageLink: './Art/1rotate/index.html',
     imageLink: './Art/1rotate/rotation.gif',
