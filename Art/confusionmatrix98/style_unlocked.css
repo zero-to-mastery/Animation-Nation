@@ -9,6 +9,7 @@ body {
   margin: 0;
 }
 
+/* Lock shape referenced from css-tricks.com */
 #lock {
   font-size: 12px;
   position: relative;
@@ -24,6 +25,7 @@ body {
   animation: changeColor 3s infinite both;
 }
 
+/* Lock shackle part */
 #lock:before {
   content: "";
   box-sizing: border-box;
@@ -37,9 +39,10 @@ body {
   border-top-left-radius: 7em;
   border-top-right-radius: 7em;
   z-index: -4;
-  animation: unlockUp 3s linear infinite both, changeColor 3s infinite both, flipInY 3s infinite both;
+  animation: shackleUp 3s linear infinite both, changeColor 3s infinite both, flipInY 3s infinite both;
 }
 
+/* Lock keyhole part */
 #lock:after {
   content: "";
   box-sizing: border-box;
@@ -54,7 +57,8 @@ body {
   animation: changeColor 3s infinite both;
 }
 
-#unlockSim {
+/* Part that simulates the initial unlocking of the lock */
+#shackleUnlockSim {
   position: absolute;
   width:16em;
   height:0em;
@@ -62,10 +66,11 @@ body {
   left: 6.2em;
   margin-left: -8.3em;
   background-color: black;
-  animation: unlockSimUp 3s linear infinite both, adaptRight 3s linear infinite both;
+  animation: shackleUnlockUp 3s linear infinite both, adaptRight 3s linear infinite both;
 }
 
-#unlockRot {
+/* Part that simulates the rotating shackle after initial unlock */
+#shackleFlipSim {
   position: absolute;
   width:16em;
   height:0em;
@@ -73,10 +78,11 @@ body {
   left: -13.5em;
   margin-left: -8.3em;
   background-color: black;
-  animation: unlockRotUp 3s linear infinite both, adaptLeft 3s linear infinite both;
+  animation: shackleFlipUp 3s linear infinite both, adaptLeft 3s linear infinite both;
 }
 
-#unlockRotBlock {
+/* Part to mask and clean up minor animation details */
+#shackleFlipBlock {
   position: absolute;
   width:16em;
   height:10em;
@@ -86,15 +92,20 @@ body {
   background-color: black;
   z-index: -3;
 }
-  
-@keyframes unlockUp {
-  0%, 20% {height:12em; top:-12em;}
-  100% {height:18em; top:-18em;}
+
+/* Move the shackle upwards */
+@keyframes shackleUp {
+  0%, 20% {
+    height:12em; top:-12em;
+  }
+  100% {
+    height:18em; top:-18em;
+  }
 }
 
-@keyframes unlockSimUp {
-  0%,
-  40% {
+/* Create illusion of unlocked shackle */
+@keyframes shackleUnlockUp {
+  0%, 40% {
     height:0em;top:-3.5em;
   }
   100% {
@@ -102,9 +113,9 @@ body {
   }
 }
 
-@keyframes unlockRotUp {
-  0%,
-  40% {
+/* Create illusion of unlocked shackle while and after flipping */
+@keyframes shackleFlipUp {
+  0%, 40% {
     height:0em;top:-3.5em;
   }
   100% {
@@ -112,30 +123,50 @@ body {
   }
 }
 
+/* Minor touch up of shackle flipping animation from the left */
 @keyframes adaptLeft {
-  0%,70% {left:-13.5em}
-  80% {left:-10.8em}
-  90%, 100% {left:-13.2em}
+  0%, 70% {
+    left:-13.5em
+  }
+  80% {
+    left:-10.8em
+  }
+  90%, 100% {
+    left:-13.2em
+  }
 }
 
+/* Minor touch up of shackle flipping animation from the right */
 @keyframes adaptRight {
-  0%,65% {left:6.2em}
-  75% {left:5.6em}
-  85%, 100% {left:6.2em}
+  0%, 65% {
+    left:6.2em
+  }
+  75% {
+    left:5.6em
+  }
+  85%, 100% {
+    left:6.2em
+  }
 }
 
+/* Change color of lock from red to green after unlock */
 @keyframes changeColor {
-  0%,40% {border-color: #ff0000;}
-  50%, 100% {border-color: #11ff00;}
+  0%, 40% {
+    border-color: #ff0000;
+  }
+  50%, 100% {
+    border-color: #11ff00;
+  }
 }
 
+/* Flip shackle from right to left */
 @keyframes flipInY {
-  0%,60% {
+  0%, 60% {
     transform: rotate3d(0, 1, 0, 0deg);
     animation-timing-function: ease-in;
   }
 
- 90%,100% {
+ 90%, 100% {
     transform: rotate3d(0, 1, 0, 180deg);
     transform-origin: 10%;
     animation-timing-function: ease-in;
