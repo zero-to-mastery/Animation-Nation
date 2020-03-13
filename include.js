@@ -1737,7 +1737,14 @@ let cards = [
     imageLink: "./Art/layoayeni/trance.gif",
     author: "Layo",
     githubLink: "https://github.com/layoayeni"
-  }
+  },
+  {
+    artName: "Unlocked",
+    pageLink: "./Art/confusionmatrix98/unlocked.html",
+    imageLink: "./Art/confusionmatrix98/unlocked.gif",
+    author: "confusionmatrix98",
+    githubLink: "https://github.com/confusionmatrix98"
+  },
 ];
 
 
