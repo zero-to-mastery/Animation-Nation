@@ -1746,6 +1746,13 @@ let cards = [
     githubLink: 'https://github.com/layoayeni'
   },
   {
+    artName: "Unlocked",
+    pageLink: "./Art/confusionmatrix98/unlocked.html",
+    imageLink: "./Art/confusionmatrix98/unlocked.gif",
+    author: "confusionmatrix98",
+    githubLink: "https://github.com/confusionmatrix98"
+  },
+  {
     artName: 'Slovenian flag',
     pageLink: "./Art/Ivan's art/index.html",
     imageLink: "./Art/Ivan's art/Ivan-art.gif",
