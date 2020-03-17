@@ -1808,6 +1808,11 @@ let cards = [
     author: 'JerylDEv',
     githubLink: 'https://github.com/JerylDEv'
   }
+  {
+    artName: "animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
