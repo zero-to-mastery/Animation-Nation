@@ -1809,7 +1809,7 @@ let cards = [{
     {
         artName: 'New move',
         pageLink: './Art/NewMove/index.html',
-        imageLink: './Art/NewMove/new-move.gif',
+        imageLink: './Art/NewMove/NewMove.gif',
         author: 'kzhecheva',
         githubLink: 'https://github.com/kzhecheva'
     }
