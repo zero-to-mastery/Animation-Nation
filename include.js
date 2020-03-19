@@ -1814,9 +1814,32 @@ let cards = [
     imageLink: './Art/NewMove/NewMove.gif',
     author: 'kzhecheva',
     githubLink: 'https://github.com/kzhecheva'
+  },
+  {
+    artName: "animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+  },
+  {
+    artName: "Swing",
+    pageLink: "./Art/evangel/index.html",
+    imageLink: "./Art/evangel/swing.gif",
+    githubLink: 'https://github.com/devevangel'
+  },
+  {
+    artName: "rashid",
+    pageLink: "./Art/rashid/index.html",
+    imageLink: "./Art/rashid/DNA.gif",
+    author: 'Rashid Makki',
+    githubLink: 'https://github.com/rashidmakki'
+  },
+  {
+    artName: "queer quarantine",
+    pageLink: "./Art/animatron/queer.html",
+    imageLink: "./Art/animatron/queer.gif",
   }
 ];
-
+    
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
