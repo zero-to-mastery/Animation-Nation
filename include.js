@@ -1814,6 +1814,12 @@ let cards = [
     imageLink: "./Art/animatron/trance.gif",
   },
   {
+    artName: "Swing",
+    pageLink: "./Art/evangel/index.html",
+    imageLink: "./Art/evangel/swing.gif",
+    githubLink: 'https://github.com/devevangel'
+  },
+  {
     artName: "rashid",
     pageLink: "./Art/rashid/index.html",
     imageLink: "./Art/rashid/DNA.gif",
@@ -1827,7 +1833,7 @@ let cards = [
   }
 
 ];
-
+    
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
