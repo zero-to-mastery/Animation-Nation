@@ -1809,6 +1809,13 @@ let cards = [
     githubLink: 'https://github.com/JerylDEv'
   },
   {
+    artName: 'New move',
+    pageLink: './Art/NewMove/index.html',
+    imageLink: './Art/NewMove/NewMove.gif',
+    author: 'kzhecheva',
+    githubLink: 'https://github.com/kzhecheva'
+  },
+  {
     artName: "animatron",
     pageLink: "./Art/animatron/index.html",
     imageLink: "./Art/animatron/trance.gif",
@@ -1831,7 +1838,6 @@ let cards = [
     pageLink: "./Art/animatron/queer.html",
     imageLink: "./Art/animatron/queer.gif",
   }
-
 ];
     
 // +--------------------------------------------------------------------------------+

@@ -1,0 +1,81 @@
+   .circle {
+       position: absolute;
+       border-radius: 100%;
+       height: 100px;
+       width: 100px;
+       margin: 1.6em auto;
+       margin-left: 0.6em;
+   }
+   
+   #ball-mid {
+       background-color: red;
+       animation-name: example;
+       animation-duration: 5s;
+       animation-timing-function: linear;
+       animation-delay: 2s;
+       animation-iteration-count: infinite;
+       animation-direction: alternate;
+       left: 100px;
+       top: 100px;
+   }
+   
+   @keyframes example {
+       0% {
+           background-color: red;
+           left: 100px;
+           top: 100px;
+       }
+       25% {
+           background-color: yellow;
+           left: 300px;
+           top: 100px;
+       }
+       50% {
+           background-color: blue;
+           left: 300px;
+           top: 300px;
+       }
+       75% {
+           background-color: green;
+           left: 100px;
+           top: 300px;
+       }
+       100% {
+           background-color: red;
+           left: 100px;
+           top: 100px;
+       }
+   }
+   
+   #ball-1 {
+       background-color: red;
+       left: 2em;
+       top: 2em;
+   }
+   
+   #ball-2 {
+       background-color: yellow;
+       left: 23em;
+       top: 2em;
+   }
+   
+   #ball-3 {
+       background-color: blue;
+       left: 23em;
+       top: 23em;
+   }
+   
+   #ball-4 {
+       background-color: green;
+       left: 2em;
+       top: 23em;
+   }
+   
+   #stage {
+       position: absolute;
+       margin: 1em auto;
+       width: 500px;
+       height: 500px;
+       border: 2px solid #666;
+       background: rgb(229, 231, 245);
+   }
