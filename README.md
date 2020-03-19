@@ -1,6 +1,6 @@
 ___
 > ### **UPDATE:**  Event Concluded!
-> **This project started as a project for Hacktoberfest 2019, Thank you to everyone that participated and made this project what it is tody and we look forward to seeing you all at Hacktoberfest 2020!. 
+> **This project started as a project for Hacktoberfest 2019, Thank you to everyone that participated and made this project what it is today and we look forward to seeing you all at Hacktoberfest 2020!. 
 Feel free to continue adding your designs to the master branch, you can check out the `Hactoberfest-Edition` branch to see the project as it was at the end of the event.**
 >
 > **Interested in more events? keep an eye on our Events page [HERE](https://zerotomastery.io/events?utm_source=github&utm_medium=animation-nation)**

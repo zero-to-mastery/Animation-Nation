@@ -1,0 +1,66 @@
+#qq {
+    margin: 20px 20px 20px 0;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    /* font-family: 'Press Start 2P', cursive; */
+    /* font-family: 'Monoton', cursive; */
+    /* font-family: 'Shrikhand', cursive; */
+    /* font-family: 'Modak', cursive; */
+}
+
+#rainbow_container {
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background: 
+    linear-gradient( #86007D 12.5%,
+    #0000F9 25%, 
+    #008014 37.5%, 
+    #FFFF41 50%, 
+    #FFA52C 62.5%, 
+    #FF0018 75%, 
+    #633800 87.5%, 
+    #000000 100%);
+
+    animation: 
+    pulse 10s ease infinite alternate, 
+    nudge 15s linear infinite alternate;
+
+    animation-duration: 12s;
+
+    transform: rotate(360deg);
+}
+
+@keyframes pulse {
+    0%, 100% {
+      transform: translate(600px, 400px);
+    }
+    
+    20% {
+        transform: translate(20px, 30px);
+    }
+
+    24% {
+        transform: translate(400px, 23px);
+    }
+
+    24% {
+        transform: translate(2px, 2px);
+    }
+
+    50% {
+      transform: translate(150px, 10px);
+    }
+
+    55% {
+        transform: translate(50px, 0px);
+    }
+    
+    80% {
+      transform: translate(-150px, 0);
+    }
+  }
+  
+

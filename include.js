@@ -1807,11 +1807,16 @@ let cards = [
     imageLink: './Art/JerylDEv/movingbox.gif',
     author: 'JerylDEv',
     githubLink: 'https://github.com/JerylDEv'
-  }
+  },
   {
     artName: "animatron",
     pageLink: "./Art/animatron/index.html",
     imageLink: "./Art/animatron/trance.gif",
+  },
+  {
+    artName: "queer quarantine",
+    pageLink: "./Art/animatron/queer.html",
+    imageLink: "./Art/animatron/queer.gif",
   }
 ];
 
