@@ -1814,10 +1814,18 @@ let cards = [
     imageLink: "./Art/animatron/trance.gif",
   },
   {
+    artName: "rashid",
+    pageLink: "./Art/rashid/index.html",
+    imageLink: "./Art/rashid/DNA.gif",
+    author: 'Rashid Makki',
+    githubLink: 'https://github.com/rashidmakki'
+  },
+  {
     artName: "queer quarantine",
     pageLink: "./Art/animatron/queer.html",
     imageLink: "./Art/animatron/queer.gif",
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
