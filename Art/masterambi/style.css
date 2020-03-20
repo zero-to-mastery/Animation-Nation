@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.a {
+    animation: one 5s infinite;
+    height: 10%;
+}
+
+.b {
+    animation: two 5s infinite;
+    height: 10%;
+}
+
+.c {
+    animation: three 5s infinite;
+    height: 10%;
+}
+
+@keyframes one {
+    0% {
+        width: 0%;
+        background-color: red;
+    }
+    15% {
+        background-color: orange;
+    }
+    30% {
+        background-color: yellow;
+    }
+    45% {
+        width: 100%;
+        background-color: green;
+    }
+    60% {
+        background-color: blue;
+    }
+    75% {
+        background-color: indigo;
+    }
+    100% {
+        width: 0%;
+       
+        background-color: purple;
+    }
+}
+@keyframes two {
+    0% {
+        width: 0%;
+        background-color: orange;
+    }
+    15% {
+        background-color: yellow;
+    }
+    30% {
+        background-color: green;
+    }
+    45% {
+        width: 100%;
+        background-color: blue;
+    }
+    60% {
+        background-color: indigo;
+    }
+    75% { 
+        background-color: purple;
+    }
+    100% {
+        width: 0%;
+        background-color: red;
+    }
+}
+@keyframes three {
+    0% {
+        width: 0%;
+        background-color: yellow;
+    }
+    15% {
+        background-color: green;
+    }
+    30% {
+        background-color: blue;
+    }
+    45% {
+        width: 100%;
+        background-color: indigo;
+    }
+    60% { 
+        background-color: purple;
+    }
+    75% {
+        background-color: red;
+    }
+    100% {
+        width: 0%;
+        background-color: orange;
+    }
+}
