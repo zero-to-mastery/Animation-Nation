@@ -1,0 +1,57 @@
+.outer {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: white;
+    position: relative;
+    margin: 50px auto;
+  }
+  
+  .outer::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 20px solid orange;
+    border-radius: 50px;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    display: block;
+    -webkit-animation: myfirst 2s linear 2s infinite ; /* Chrome, Safari, Opera */
+      animation: myfirst 1s linear 2s infinite ;
+  }
+  
+  .outer::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 15px solid white;
+    border-radius: 50px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    
+  }
+  
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes myfirst {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+  }
+  
+  /* Standard syntax */
+  @keyframes myfirst {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+  }
+  
+  

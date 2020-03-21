@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+
+:root {
+    --blue: #0a84ff;
+    --dark-grey: #2a2a29;
+    --grey: #9e9b98;
+    --white: #fff;
+}
+
+html,
+body {
+    align-items: center;
+    display: flex;
+    font-family: Karla, sans-serif;
+    height: 100vh;
+    justify-content: center;
+    margin: auto;
+}
+
+html {
+    height: 100vh;
+    min-height: 900px;
+}
+
+body {
+    background-color: var(--blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--grey);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.phone,
+.phone__screen,
+.screen {
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+
+/** MAIN STYLES **/
+
+.wrapper {
+    width: 120vmin;
+}
+
+.wrapper>p {
+    text-align: center;
+}
+
+.phone {
+    background: var(--grey);
+    border-radius: 56px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.4);
+    height: 770px;
+    width: 400px;
+}
+
+.phone__screen {
+    background: var(--dark-grey);
+    border-radius: 53px;
+    height: 745px;
+    width: 375px;
+}
+
+.screen {
+    background: white;
+    border-radius: 45px;
+    color: var(--dark-grey);
+    flex-direction: column;
+    height: 725px;
+    overflow: hidden;
+    width: 355px;
+}
+
+.screen__notch {
+    background: var(--dark-grey);
+    border-radius: 0 0 20px 20px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    width: 180px;
+}
+
+.battery {
+    object-fit: cover;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    width: 74px;
+}
+
+.battery img {
+    height: 15px;
+}
+
+.slider {
+    left: 50px;
+    position: absolute;
+    top: 200px;
+}
+
+.slide {
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.slide h1 {
+    font-size: 50px;
+}
+
+.slide-1 {
+    animation: fading 6s infinite;
+    -webkit-animation: fading 6s infinite;
+}
+
+.slide-2 {
+    animation: fading2 6s infinite;
+    -webkit-animation: fading2 6s infinite;
+}
+
+.slide-3 {
+    animation: fading3 6s infinite;
+    -webkit-animation: fading3 6s infinite;
+}
+
+@keyframes fading {
+    0% {
+        opacity: 1
+    }
+
+    33.333% {
+        opacity: 0
+    }
+
+    66.666% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fading2 {
+    0% {
+        opacity: 0
+    }
+
+    33.333% {
+        opacity: 1
+    }
+
+    66.666% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fading3 {
+    0% {
+        opacity: 0
+    }
+
+    33.333% {
+        opacity: 0
+    }
+
+    66.666% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.gesture {
+    background: var(--dark-grey);
+    border-radius: 15px;
+    bottom: 20px;
+    height: 6px;
+    left: 80px;
+    position: absolute;
+    width: 200px;
+}
+
+.credits a {
+    color: var(--white);
+}

@@ -1,0 +1,46 @@
+body{
+	background-color: black;
+}
+
+.ball{
+	background: white;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	margin: 80px auto 0 auto;
+    animation: bounce 0.9s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce { 
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50px); }
+}
+
+.rainbow{
+  width: auto;
+  height: 400px;
+  background: red;
+  position: sticky;
+  animation: transition 5s;
+  animation-name: transition;
+  animation-iteration-count: infinite;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes transition {
+  
+      0%   {background: red;}
+      20%  {background: orange;}
+      40%  {background: yellow;}
+      60%  {background: blue;}
+      80%  {background: green;}
+      100% {background: red;}
+    }
+
+
+
+
+
+

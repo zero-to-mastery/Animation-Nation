@@ -1,0 +1,215 @@
+@keyframes bounceIn {
+	0% {
+	  transform: scale(0.1);
+	  opacity: 0;
+	}
+	60% {
+	  transform: scale(1.2);
+	  opacity: 1;
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+body {
+
+	  background:linear-gradient(to right, #34e89e, #0f3443);
+  }
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	animation: bounceIn 2s;
+	background: linear-gradient(to right, rgb(255, 0, 0), rgb(226, 255, 0));
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #5f93e8;
+}
+@keyframes head-dance {
+	0% {transform: translateX(0px);}
+	50% {transform: translateX(20px);}
+	100% {transform: translateX(0px);}
+}
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+	animation: head-dance 1s ease-in-out infinite ;
+} 
+
+.eyes {
+	display: flex;
+}
+
+.head:hover {
+	width: 300px;
+    transition: 1s ease-in-out;
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px; 
+	margin: 0 auto;
+	display: flex;
+	
+	
+} 
+
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+@keyframes left-arm{
+	0%   {transform: rotate(0deg); transform-origin: top right;}
+	25%   {transform: rotate(120deg); transform-origin: top right;}
+	50%   {transform: rotate(90deg); transform-origin: top right;}
+	75%   {transform: rotate(30deg); transform-origin: top right;}
+	100%   {transform: rotate(0deg); transform-origin: top right;}
+
+}
+.left_arm { 
+	margin-right: 10px; 
+	animation: left-arm 3s ease-in-out infinite;
+
+} 
+.left_arm:hover {
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+@keyframes right-arm{
+	0%   {transform: rotate(0deg); transform-origin: top left;}
+	25%   {transform: rotate(-120deg); transform-origin: top left;}
+	50%   {transform: rotate(-90deg); transform-origin: top left;}
+	75%   {transform: rotate(-30deg); transform-origin: top left;}
+	100%   {transform: rotate(0deg); transform-origin: top left;}
+
+}
+.right_arm { 
+	margin-left: 10px; 
+	animation: right-arm 2s ease-in-out infinite;
+} 
+.right_arm:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+@keyframes torso-skew{
+	0%   {transform: skew(0deg); }
+	50%   {transform: skew(20deg); }
+	100%   {transform: skew(0deg); }
+
+}
+@keyframes flow {
+	0% {background-position: 0 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0 50%;}
+}
+.torso-text{
+	padding-top: 2rem;
+	font-weight: 700;
+	font-size: 3em;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	animation: flow 30s ease-in-out infinite;
+	background: linear-gradient(-60deg,rgb(255, 0, 177),  rgb(79, 255, 0), rgb(0, 255, 197), rgb(255, 100, 0), rgb(26, 0, 255), rgb(255, 77, 0), rgb(0, 255, 236));
+	background-size: 300%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+
+
+}
+.torso { 
+
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+	animation: torso-skew 1.5s ease-in-out infinite;
+} 
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	display: flex;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+
+
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg { 
+	margin-left: 30px; 
+}
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;  
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 100px; 
+	left: 40px 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 100px;
+	left: 120px;
+}
+
+
+
+
+

@@ -1,0 +1,23 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 250px; 
+    background-color: gray;
+    border-radius: 50%;  
+    animation: ping 3s ease-in-out infinite reverse both;
+  }
+  
+  @keyframes ping {
+    0% {
+        transform: scale(0.2);
+        opacity: 0.8;
+    }
+    80% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+  }

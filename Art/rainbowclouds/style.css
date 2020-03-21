@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #5AC3CD;
+}
+
+.background {
+	width: 100%;
+  position: relative;
+}
+
+.clouds {
+  position: absolute;
+}
+
+.cloud1 {
+	top: 80px;
+  z-index: 100;
+  /* Animation shorthand syntax order: name, duration, timing-function, delay, iteration-count, direction, fill-mode */
+  -webkit-animation: move 8s linear infinite;
+  -moz-animation: move 8s linear infinite;
+  -o-animation: move 8s linear infinite;
+  animation: move 8s linear infinite;
+}
+
+.cloud2 {
+	top: 240px;
+  z-index: 200;
+  -webkit-animation: move 10s linear infinite;
+  -moz-animation: move 10s linear infinite;
+  -o-animation: move 10s linear infinite;
+  animation: move 10s linear infinite;
+}
+
+.cloud3 {
+	top: 500px;
+  z-index: 300;
+  -webkit-animation: move 7s linear infinite;
+  -moz-animation: move 7s linear infinite;
+  -o-animation: move 7s linear infinite;
+  animation: move 7s linear infinite;
+}
+
+@-webkit-keyframes move {
+  from {-webkit-transform: translateX(-900px);}
+  to {-webkit-transform: translateX(1500px);}
+}
+
+.rainbow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.item{
+  width: 100%;
+  height: 50px;
+}
+
+.red {
+    background-color: #F3473E;
+}
+
+.orange {
+    background-color: #F7934E;
+}
+
+.yellow {
+    background-color: #F8E74D;
+}
+
+.green {
+    background-color: #B9D64B;
+}
+
+.blue {
+    background-color: #575CEE;
+}
+
+.purple {
+    background-color: #9938EE;
+}

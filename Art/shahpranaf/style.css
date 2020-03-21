@@ -1,0 +1,222 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    padding: 0;
+}
+
+/*   Bus CONTAINER   */
+.bus-container {
+    position: absolute;
+    bottom: 0;
+    width: 630px;
+    height: 300px;
+    animation: driving 5s infinite linear;
+    transform: scale(0.5);
+}
+.bus-container:after {
+    content: "";
+    width: 426px;
+    height: 1px;
+    margin-top: 88px;
+    display: block;
+    position: absolute;
+    left: -3%;
+    z-index: -1;
+    bottom: 0;
+    box-shadow: 2px -15px 25px 2px #000000;
+}
+
+/*   WHEELS   */
+.wheel1,
+.wheel2 {
+    width: 130px;
+    height: 130px;
+    background-color: grey;
+    border-radius: 50%;
+    border: 20px solid black;
+    position: absolute;
+    bottom: 0;
+    animation: wheelsRotation 1s infinite linear;
+}
+.wheel1 {
+    left: 5%;
+}
+.wheel1-top,
+.wheel2-top {
+    bottom: 30px;
+    position: absolute;
+    width: 131px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 5;
+    box-shadow: 0px 20px 3px 0px rgba(240, 240, 240, 0.53);
+    transform: rotateX(200deg);
+}
+.wheel1-top {
+    left: 5%;
+}
+.wheel2-top {
+    right: 4%;
+}
+.wheel2 {
+    right: 4%;
+}
+.wheel-line1,
+.wheel-line2 {
+    width: 10px;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+}
+.wheel-line3,
+.wheel-line4 {
+    width: 25px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+}
+.wheel-line1 {
+    top: 10%;
+    left: 45%;
+}
+.wheel-line2 {
+    bottom: 10%;
+    left: 45%;
+}
+.wheel-line3 {
+    top: 45%;
+    right: 10%;
+}
+.wheel-line4 {
+    top: 45%;
+    left: 10%;
+}
+
+.bus-top1 {
+    border-radius: 25% 25% 0 0;
+    background-color: yellow;
+    max-width: 100%;
+    width: 650px;
+    height: 180px;
+    position: absolute;
+    top: -24%;
+    left: 0;
+}
+
+.window1,
+.window2,
+.window3,
+.window4,
+.window5 {
+    background-color: #e2f0f6;
+    border-radius: 5px;
+    position: absolute;
+    width: 15%;
+    height: 40%;
+    margin: 30px;
+    border: 9px solid #bf6d7b;
+}
+.window1 {
+    left: 10;
+    border-top-left-radius: 30%;
+}
+.window2 {
+    left: 20%;
+}
+.window3 {
+    left: 38%;
+}
+.window4 {
+    left: 55%;
+}
+.window5 {
+    right: 0;
+    border-top-right-radius: 50%;
+}
+.bus-top2 {
+    background-color: red;
+    max-width: 100%;
+    width: 630px;
+    height: 175px;
+    position: absolute;
+    bottom: 20%;
+}
+
+/*Headlights*/
+.bus-top1:after {
+    width: 13px;
+    height: 37px;
+    background-color: #baccda;
+    position: absolute;
+    bottom: -70px;
+    right: -12px;
+    z-index: 10;
+    content: " ";
+    border-radius: 10px;
+    border: 2px solid black;
+    border-left-style: none;
+}
+
+.bus-top2:after {
+    position: absolute;
+    bottom: 23px;
+    right: -340px;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 80px solid transparent;
+    border-right: 390px solid rgba(191, 188, 87, 0.7);
+    z-index: -1;
+    -webkit-mask-box-image: -webkit-linear-gradient(left, black, transparent);
+    -webkit-mask-box-image: -o-linear-gradient(left, black, transparent);
+    -webkit-mask-box-image: linear-gradient(to right, black, transparent);
+    transform: rotate(-9deg);
+}
+
+.hacktoberfest {
+    font-size: 50px;
+    text-align: center;
+    color: yellow;
+    font-style: italic;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right, #e72a3a 10%, yellow 50%, #5bdaff 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    margin: 20px;
+}
+.year {
+    font-size: 40px;
+    display: block;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+@keyframes wheelsRotation {
+    100% {
+        transform: rotate(360deg);
+    }
+}

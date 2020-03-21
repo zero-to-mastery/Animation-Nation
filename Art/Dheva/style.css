@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  position: relative;
+  border: 1px solid black;
+  /* background-color: blue; */
+  width: 500px;
+  height: 500px;
+  border-collapse: collapse;
+}
+
+td {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+._1 {
+  background-color: black;
+  animation-name: btw;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+._0 {
+  background-color: black;
+  animation-name: wtb;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+@keyframes btw {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes wtb {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+  }
+}

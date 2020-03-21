@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    animation: bgColorChange 10s infinite alternate;
+}
+
+.color {
+    height: 16.666666vh;
+    position: absolute;
+    border-radius: 100px;
+    animation: flashRainbow 2s infinite ease-in-out;
+}
+
+.red {
+    background-color: #F26A6A;
+    top: 0;
+}
+
+.orange {
+    background-color: #FFB575;
+    top: 16.666666vh;
+}
+
+.yellow {
+    background-color: #F9E77C;
+    top: 33.333334vh;
+}
+
+.green {
+    background-color: #A9DBA0;
+    top: 50vh;
+}
+
+.blue {
+    background-color: #709FFF;
+    top: 66.666666vh;
+}
+
+.purple {
+    background-color: #A670FF;
+    bottom: 0;
+}
+
+@keyframes flashRainbow {
+    0% {
+        width: 0%;
+        left: 0;
+        right: auto;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+        right: 0;
+        left: auto;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+
+@keyframes bgColorChange {
+    0% {
+        background-color: #F26A6A;
+    }
+    20% {
+        background-color: #FFB575;
+    }
+    40% {
+        background-color: #F9E77C;
+    }
+    60% {
+        background-color: #A9DBA0;
+    }
+    80% {
+        background-color: #709FFF;
+    }
+    100% {
+        background-color: #A670FF;
+    }
+}

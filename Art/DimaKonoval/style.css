@@ -1,0 +1,86 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#parent {
+  width: 520px;
+  height: 520px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#child1,
+#child2 {
+  position: absolute;
+  width: 520px;
+  height: 220px;
+  margin-top: 150px;
+}
+
+#child1:before {
+  background: red;
+}
+
+#child1:after {
+  background: yellow;
+}
+
+#child2:before {
+  background: green;
+}
+
+#child2:after {
+  background: blue;
+}
+
+#child2 {
+  transform: rotate(90deg);
+
+}
+
+#parent div:before,
+#parent div:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  border: 10px solid black;
+  border-radius: 50% 50% 0px 50%;
+  transform: rotate(-45deg);
+}
+
+#parent div:after {
+  left: auto;
+  right: 0;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(45deg);
+}
+
+@keyframes example {
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

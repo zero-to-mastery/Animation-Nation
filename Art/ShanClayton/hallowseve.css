@@ -1,0 +1,141 @@
+/* General */
+html {
+  background: #000100;
+}
+
+.text {
+  font-family: 'Nosifer', cursive;
+  font-size: 80px;
+  text-align: center;
+  color: #ff9a00;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* pumpkin*/
+.pumpkin {
+  width: 365px;
+  height: 285px;
+  margin: 40px auto;
+  position: relative;
+  border-radius: 220px / 240px;
+  border: 1px solid #791900;
+  background-color: #f68632;
+  animation: float 5s infinite;
+}
+
+.pumpkin:before,
+.pumpkin:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 190px / 250px;
+}
+
+.pumpkin:before {
+  left: 15%;
+  border-left: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+.pumpkin:after {
+  right: 15%;
+  border-right: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+.stem {
+  position: absolute;
+  top: -30px;
+  left: 160px;
+  height: 40px;
+  width: 40px;
+  background-color: #7c9d14;
+  border: 1px solid #003333;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 5px;
+}
+
+.pumpkin .eye {
+  position: absolute;
+  height: 78px;
+  width: 78px;
+  background: #240001;
+  border-radius: 50% 50%;
+  box-shadow: 2px 3px 0 2px #791900 inset;
+}
+
+.pumpkin .left.eye {
+  right: 70px;
+  top: 50px;
+}
+
+.pumpkin .right.eye {
+  left: 60px;
+  top: 50px;
+}
+
+.mouth {
+  background: #240001;
+  position: absolute;
+  width: 200px;
+  height: 75px;
+  border-radius: 50% 70% 15% 30%;
+  left: 80px;
+  top: 190px;
+  box-shadow: 5px 5px 0 0 #CC6600 inset;
+  transition: all .2s linear;
+}
+
+.tooth {
+  background: #CC6600;
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  box-shadow: 1px 1px 0 0 #CC6600, 2px 2px 0 0 #CC6600, 3px 3px 0 0 #CC6600, 4px 4px 0 0 #CC6600, 5px 5px 0 0 #CC6600;
+}
+
+.tooth.right {
+  top: 0px;
+  right: 65px;
+}
+
+.tooth.left {
+  top: 0px;
+  left: 40px;
+}
+/* end pumpkin */
+
+/* animation */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #000;
+  }
+
+  to {
+    text-shadow:
+      0 -5px 40px rgba(247, 95, 28),
+      -5px -5px 40px rgba(247, 95, 28),
+      5px -5px 40px rgba(247, 95, 28);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15%);
+  }
+}
+
+/* end animation */

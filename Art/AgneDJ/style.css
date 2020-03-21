@@ -1,0 +1,52 @@
+html {
+    background-color: black;
+}
+p {
+    font-family: 'Trattatello';
+    font-size: 50px;
+    text-align: justify;
+    color: black;
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 15px rgb(99, 17, 17), 0 0 20px rgb(41, 4, 4), 0 0 30px #e69600, 0 0 40px #242121, 0 0 50px #333232, 0 0 60px #8ee600, 0 0 70px #e6bc00;
+    }
+    to {
+      text-shadow: 0 0 10px rgb(245, 4, 4), 0 0 30px #ff944d, 0 0 40px #000000, 0 0 50px #000000, 0 0 2 0px #ffc14d, 0 0 70px #331a1a, 0 0 80px #ff594d;
+    }
+  }
+
+  .first{
+      position:absolute;
+      width:150px;
+      height:150px;
+      top:500px;
+      margin:0 auto;
+      margin-left:700px;
+      z-index:0;
+      transition-duration: 6s;
+      float: right;
+      transform: rotate(360deg); 
+      
+  }
+
+  .second{
+    position:absolute;
+      width:200px;
+      height:200px;
+      top:400px;
+      margin-left:600px;
+      animation: cssAnimation 0.5s 4s forwards;
+      visibility: hidden;
+     
+      transform: scale(1.5);
+      }
+      
+      @keyframes cssAnimation {
+        to   { visibility: visible;
+          transform: scale(2.5);
+          }
+      }
+  }

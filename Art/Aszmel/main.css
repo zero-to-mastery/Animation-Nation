@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(184, 79, 144);
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background: radial-gradient(#009999, #065e5e);
+}
+
+.pulser {
+    position: absolute;
+    margin: auto;
+    width: 375px;
+    height: 100px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.pulser span {
+    display: block;
+    background: #ff6699;
+    width: 7px;
+    height: 30%;
+    border-radius: 10px;
+    margin-right: 5px;
+    float: left;
+    margin-top: 25%;
+}
+
+.pulser span:last-child {
+    margin-right: 0px;
+}
+
+.pulser span:nth-child(1) {
+    animation: pulse 1.5s 1.4s infinite linear;
+}
+
+.pulser span:nth-child(2) {
+    animation: pulse 1.5s 1.2s infinite linear;
+}
+
+.pulser span:nth-child(3) {
+    animation: pulse 1.5s 1s infinite linear;
+}
+
+.pulser span:nth-child(4) {
+    animation: pulse 1.5s 0.8s infinite linear;
+}
+
+.pulser span:nth-child(5) {
+    animation: pulse 1.5s 0.6s infinite linear;
+}
+
+.pulser span:nth-child(6) {
+    animation: pulse 1.5s 0.4s infinite linear;
+}
+
+.pulser span:nth-child(7) {
+    animation: pulse 1.5s 0.2s infinite linear;
+}
+
+.pulser span:nth-child(8) {
+    animation: pulse 1.5s 0s infinite linear;
+}
+
+.pulser span:nth-child(9) {
+    animation: pulse 1.5s 0.2s infinite linear;
+}
+
+.pulser span:nth-child(10) {
+    animation: pulse 1.5s 0.4s infinite linear;
+}
+
+.pulser span:nth-child(11) {
+    animation: pulse 1.5s 0.6s infinite linear;
+}
+
+.pulser span:nth-child(12) {
+    animation: pulse 1.5s 0.8s infinite linear;
+}
+
+.pulser span:nth-child(13) {
+    animation: pulse 1.5s 1s infinite linear;
+}
+
+.pulser span:nth-child(14) {
+    animation: pulse 1.5s 1.2s infinite linear;
+}
+
+.pulser span:nth-child(15) {
+    animation: pulse 1.5s 1.4s infinite linear;
+}
+
+.pulser span:nth-child(16) {
+    animation: pulse 1.5s 1.6s infinite linear;
+}
+
+.pulser span:nth-child(17) {
+    animation: pulse 1.5s 1.8s infinite linear;
+}
+
+.pulser span:nth-child(18) {
+    animation: pulse 1.5s 2s infinite linear;
+}
+
+.pulser span:nth-child(19) {
+    animation: pulse 1.5s 2.2s infinite linear;
+}
+
+.pulser span:nth-child(20) {
+    animation: pulse 1.5s 2.4s infinite linear;
+}
+
+.pulser span:nth-child(21) {
+    animation: pulse 1.5s 1.4s infinite linear;
+}
+
+.pulser span:nth-child(22) {
+    animation: pulse 1.5s 2.6s infinite linear;
+}
+
+.pulser span:nth-child(23) {
+    animation: pulse 1.5s 2.8s infinite linear;
+}
+
+.pulser span:nth-child(24) {
+    animation: pulse 1.5s 3s infinite linear;
+}
+
+.pulser span:nth-child(25) {
+    animation: pulse 1.5s 3.2s infinite linear;
+}
+
+.pulser span:nth-child(26) {
+    animation: pulse 1.5s 3.4s infinite linear;
+}
+
+.pulser span:nth-child(27) {
+    animation: pulse 1.5s 3.6s infinite linear;
+}
+
+.pulser span:nth-child(28) {
+    animation: pulse 1.5s 3.8s infinite linear;
+}
+
+.pulser span:nth-child(29) {
+    animation: pulse 1.5s 4s infinite linear;
+}
+
+.pulser span:nth-child(30) {
+    animation: pulse 1.5s 4.2s infinite linear;
+}
+
+@keyframes pulse {
+    0% {
+        background: #ff6699;
+        margin-top: 25%;
+        height: 100px;
+    }
+    50% {
+        background: #990033;
+        height: 50px;
+        margin-top: 0%;
+    }
+    100% {
+        background: #ff6699;
+        height: 100px;
+        margin-top: 25%;
+    }
+}

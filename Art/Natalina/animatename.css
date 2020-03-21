@@ -1,0 +1,56 @@
+body{
+	background-color: black;
+}
+#two{
+	color: white;
+	position: fixed;
+	top: 50%;
+	left: 45%;
+	font-size: 50px;
+}
+#one{
+	position: fixed;
+	top: 50%;
+	animation-duration: 3s;
+	animation-name: slideright;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#three{
+	position: fixed;
+	top: 50%;
+	animation-duration: 3s;
+	animation-name: slideleft;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes slideright {
+	from{
+		margin-left: 0%;
+		width: 100%;
+		color: blue;
+		font-size: 30px;
+	}
+	to{
+		margin-left: 36%;
+		width: 30%;
+		color: red;
+		font-size: 50px;
+	}
+}
+@keyframes slideleft {
+	from{
+;
+		margin-left: 83%;
+		width: 0%;
+		color: blue;
+		font-size: 30px;
+	}
+	to{
+
+		margin-left: 50%;
+		width: 0%;
+		color: red;
+		font-size: 50px;
+	}
+}

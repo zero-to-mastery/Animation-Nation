@@ -1,0 +1,26 @@
+body {
+
+	font-size: 62.5%;
+	background: linear-gradient(to right, rgb(9, 247, 240), rgb(190, 3, 252));
+
+}
+
+@keyframes ballBounce {
+    0% { transform: translateY(0px); }
+
+    50% { transform: translateY(-20px); }
+  
+    100% { transform: translateY(100%); }
+
+    
+
+
+}
+
+.img-container {
+  text-align: center;
+}
+
+.jabulaniBall {
+	animation: ballBounce .5s infinite;
+}

@@ -1,0 +1,117 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #2d3436;
+  color: #fab1a0;
+}
+
+@keyframes rotateTriangleRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  50%, to {
+    transform: rotate(180deg);
+  }
+}
+
+.rotator {
+  animation: rotateTriangleRotate 6s steps(1) infinite;
+}
+
+@keyframes shrinkTriangleShrink {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.5);
+  }
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 100px;
+  animation: shrinkTriangleShrink 3s linear infinite;
+}
+
+.triangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: .866em;
+  margin-left: -0.5em;
+  margin-top: -0.5774em;
+  overflow: hidden;
+  transform-origin: 50% 66.666%;
+}
+  .triangle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0.707em;
+    height: 0.707em;
+    background: currentColor;
+    transform: translate(-50%, 50%) scaleY(1.732) rotate(45deg);
+  }
+  .triangle:nth-child(1) {
+    animation: growTrianglesGrow-1 3s infinite;
+  }
+
+@keyframes growTrianglesGrow-1 {
+  from, 10% {
+    transform: scale(0) rotate(180deg) translateY(-66.1%);
+    color: #55efc4;
+  }
+  75% {
+    transform: scale(1) rotate(180deg) translateY(-66.1%);
+    color: #55efc4;
+  }
+  to {
+    transform: scale(1) rotate(180deg) translateY(-66.1%);
+    color: currentColor;
+  }
+}
+  .triangle:nth-child(2) {
+    animation: growTrianglesGrow-2 3s infinite;
+  }
+
+@keyframes growTrianglesGrow-2 {
+  from, 20% {
+    transform: scale(0) rotate(300deg) translateY(-66.1%);
+    color: #ffeaa7;
+  }
+  75% {
+    transform: scale(1) rotate(300deg) translateY(-66.1%);
+    color: #ffeaa7;
+  }
+  to {
+    transform: scale(1) rotate(300deg) translateY(-66.1%);
+    color: currentColor;
+    }
+  }
+  .triangle:nth-child(3) {
+    animation: growTrianglesGrow-3 3s infinite;
+  }
+
+@keyframes growTrianglesGrow-3 {
+  from, 30% {
+    transform: scale(0) rotate(420deg) translateY(-66.1%);
+    color: #fd79a8;
+  }
+  75% {
+    transform: scale(1) rotate(420deg) translateY(-66.1%);
+    color: #fd79a8;
+  }
+  to {
+    transform: scale(1) rotate(420deg) translateY(-66.1%);
+    color: currentColor;
+  }
+}

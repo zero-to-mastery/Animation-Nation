@@ -1,0 +1,182 @@
+body {
+  text-align: center;
+}
+
+.vibrate-1 {
+  -webkit-animation: vibrate-1 0.3s linear infinite both;
+  animation: vibrate-1 0.3s linear infinite both;
+}
+
+.color-change {
+  -webkit-animation: color-change 8s linear infinite alternate both;
+  animation: color-change 8s linear infinite alternate both;
+}
+
+.button {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  display: inline-block;
+  margin: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, 0.35);
+  -webkit-transition: -webkit-box-shadow 0.1s ease-in-out;
+  -moz-transition: -moz-box-shadow 0.1s ease-in-out;
+  -o-transition: -o-box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
+  font-size: 50px;
+  color: #fff;
+}
+
+.button span {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #ec528d;
+  background-image: -webkit-gradient(
+    linear,
+    0% 0%,
+    0% 100%,
+    from(hsla(338, 90%, 80%, 0.8)),
+    to(hsla(338, 90%, 70%, 0.2))
+  );
+  background-image: -webkit-linear-gradient(
+    hsla(338, 90%, 80%, 0.8),
+    hsla(338, 90%, 70%, 0.2)
+  );
+  background-image: -moz-linear-gradient(
+    hsla(338, 90%, 80%, 0.8),
+    hsla(338, 90%, 70%, 0.2)
+  );
+  background-image: -o-linear-gradient(
+    hsla(338, 90%, 80%, 0.8),
+    hsla(338, 90%, 70%, 0.2)
+  );
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.15);
+  font-family: 'Pacifico', Arial, sans-serif;
+  line-height: 1;
+  text-shadow: 0 -1px 1px rgba(175, 49, 95, 0.7);
+  -webkit-transition: background-color 0.2s ease-in-out,
+    -webkit-transform 0.1s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out,
+    -moz-transform 0.1s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out,
+    -o-transform 0.1s ease-in-out;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.button:hover span {
+  background-color: #ec6a9c;
+  text-shadow: 0 -1px 1px rgba(175, 49, 95, 0.9),
+    0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.button:active,
+.button:focus {
+  -webkit-box-shadow: 0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button:active span {
+  -webkit-transform: translate(0, 4px);
+  -moz-transform: translate(0, 4px);
+  -o-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+}
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}
+@keyframes color-change {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}
