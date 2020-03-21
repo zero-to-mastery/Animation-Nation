@@ -1,0 +1,101 @@
+body {
+    background: #3c1c57;
+}
+
+.slope, .line {
+    height: 1rem;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+@-webkit-keyframes ballRoll {    
+    50% {
+        -webkit-transform: translate(176px, 176px) rotate(1080deg);
+            -ms-transform: translate(176px, 176px) rotate(1080deg);
+                transform: translate(176px, 176px) rotate(1080deg);
+    }
+
+    100% {
+        -webkit-transform: translate(525px, 176px) rotate(2160deg);
+            -ms-transform: translate(525px, 176px) rotate(2160deg);
+                transform: translate(525px, 176px) rotate(2160deg);
+    }
+}
+@keyframes ballRoll {
+    50% {
+        transform: translate(176px, 176px) rotate(1080deg);
+    }
+
+    100% {
+        transform: translate(525px, 176px) rotate(2160deg);
+    }
+}
+
+div.circle {
+    height: 2rem;
+    width: 2rem;
+    background: aqua;
+    border: 3px solid aqua;
+    border-top: 3px solid red;
+    border-radius: 10rem;
+    position: relative;
+    top: 2.5rem;
+    left: 1.86rem;
+    -webkit-animation: ballRoll 2s linear 1s forwards;
+    animation: ballRoll 2s linear 1s forwards;
+}
+
+.slope {
+    width: 15rem;
+    transform-origin: left top;
+    transform: rotate(45deg);
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+.line {
+    width: 25rem;
+    position: relative;
+    top: 12.34rem;
+    left: 11.88rem;
+}
+
+@-webkit-keyframes cubeSlide {
+    100% {
+        -webkit-transform: translateX(350px);
+                transform: translateX(350px);
+    }
+}
+@keyframes cubeSlide {
+    100% {
+        -webkit-transform: translateX(350px);
+                transform: translateX(350px);
+    }
+}
+
+.cube {
+    width: 20rem;
+    height: 15em;
+    background: darkslateblue;
+    border: 1px solid darkslateblue;
+    position: relative;
+    top: 3.71rem;
+    left: 37rem;
+    -webkit-animation: cubeSlide 1.5s ease-out 3s forwards;
+    animation: cubeSlide 1.5s ease-out 3s forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+img {
+    position: relative;
+    top: -11rem;
+    left: 38.5rem;
+    width: 300px;
+    z-index: -1;
+}

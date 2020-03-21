@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #282C34;
+  margin: 0;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.square {
+  animation: lineBorder 2s infinite alternate;
+  background: #651FFF;
+  height: 20px;
+  transform-origin: center bottom;
+  transform: scale(0) rotate(180deg);
+  width: 20px;
+}
+
+@keyframes lineBorder {
+  to {
+    background: #18FFFF;
+    transform: scaleX(1) rotate(0);
+  }
+}

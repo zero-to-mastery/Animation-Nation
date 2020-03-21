@@ -1,0 +1,39 @@
+html {
+  background: black;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -200px;
+}
+
+.square {
+  height: 94%;
+  width: 94%;
+  background: rgb(219, 54, 54);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -47% 0 0 -47%;
+}
+
+.black {
+  background: rgb(15, 15, 15);
+  animation: rotate 15s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

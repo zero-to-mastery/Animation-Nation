@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ghost Balls</title>
+</head>
+<body>
+    <div class="back">
+        <div class="balls" id="ball1"></div>
+        <div class="balls" id="ball2"></div>
+        <div class="balls" id="ball3"></div>
+        <div class="balls" id="ball4"></div>
+    </div>
+    <style>
+        body{
+            margin: 0 auto;
+            padding: 0;
+        }
+        .back {
+            margin: 0 auto;
+            margin-top: 10px;
+            background-color:rgb(0, 5, 48);
+            width: 15cm;
+            height: 15cm;
+            display: flex;
+           
+        }
+        .balls {
+          border-radius: 50%;
+          position: fixed;
+          width: 50px;
+          height: 50px;
+          margin-top: 40px;
+          animation-name: balldance;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+        }
+        #ball1 {
+         left: 55%;
+          background: rgba(238, 153, 147, 0.801);
+      
+        }
+        #ball2 {
+        left:30%;
+          background: rgba(167, 255, 126, 0.719);
+        }
+        #ball3 {
+            left: 42%;
+          background: rgba(69, 1, 196, 0.651);
+      
+        }
+        #ball4 {
+        left: 66%;
+          background: rgba(251, 255, 0, 0.664);
+        }
+      
+        @keyframes balldance {
+          0% {
+            top: 0px;
+          }
+          50%{
+           background:rgba(255, 255, 255, 0);
+          }
+          100% {
+            top: 500px;
+          }
+        }
+      
+      </style>
+      
+</body>
+</html>

@@ -1,0 +1,230 @@
+body {
+	background-color: black;
+}
+
+#spacecraft {
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	animation: landing 2s ease-out infinite;
+}
+
+#spacecraft_top {
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 75px solid #777;
+}
+
+#spacecraft_body {
+	width: 100px;
+	height: 150px;
+	background-color: #DDD;
+}
+
+#spacecraft_sides {
+	position: absolute;
+	margin-left: 75px;
+	margin-top: -50px;
+	width: 80px;
+	height: 40px;
+	transform: skew(0deg, 25deg) rotate(90deg);	
+	background: #FF4136;
+}
+
+#spacecraft_sides_2 {
+	margin-left: -55px;
+	margin-top: -50px;
+	width: 80px;
+	height: 40px;
+	transform: skew(0deg, -25deg) rotate(90deg);	
+	background: #FF4136;
+}
+
+#spacecraft_window {	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -125px;
+	height: 50px;
+	width: 50px;
+	background-color: blue;
+	border-radius: 50%;
+}
+
+#spacecraft_tube {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 85px;
+	border-bottom: 40px solid #777;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0;
+	width: 25px;
+}
+
+#spacecraft_fire {
+	margin-left: auto;
+	margin-right: auto;
+	width: 25px;
+	height: 45px;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	background: linear-gradient(#f01509, #f35004, #f3ce04);
+	animation: fire 0.15s infinite;
+}
+
+#moon {
+	margin-top: 35%;
+	width: 100%;
+	height: 20em;
+	background-color: #b2b2b2;	
+}
+
+#smokes {
+	position: relative;
+}
+
+#spacecraft_smoke_small_1 {
+	position: absolute;
+	margin-top: 0em;
+	margin-left: 58em;
+	width: 10px;
+	height: 10px;
+	background-color: #333;
+	border-radius: 50%;
+	animation: smoke_small 2s ease-in-out infinite;
+}
+
+#spacecraft_smoke_small_2 {
+	position: absolute;
+	margin-top: 0em;
+	margin-left: 65em;
+	width: 10px;
+	height: 10px;
+	background-color: #333;
+	border-radius: 50%;
+	animation: smoke_small 2s ease-in-out infinite;
+}
+
+#spacecraft_smoke_medium_1 {
+	position: absolute;
+	margin-left: 57.5em;
+	margin-top: 1em;
+	width: 15px;
+	height: 15px;
+	background-color: #333;
+	border-radius: 50%;
+	animation: smoke_medium 2s ease-in-out infinite;
+}
+
+#spacecraft_smoke_medium_2 {
+	position: absolute;
+	margin-left: 65em;
+	margin-top: 1em;
+	width: 15px;
+	height: 15px;
+	background-color: #333;
+	border-radius: 50%;
+	animation: smoke_medium 2s ease-in-out infinite;
+}
+
+#spacecraft_smoke_large_1 {
+	position: absolute;
+	margin-top: 2em;
+	margin-left: 68em;
+	width: 20px;
+	height: 20px;
+	background-color: #333;
+	border-radius: 50%;
+	animation: smoke_large 2s ease-in-out infinite;
+}
+
+#spacecraft_smoke_large_2 {
+	position: absolute;
+	margin-left: 55em;
+	margin-top: 2.25em;
+	width: 20px;
+	height: 20px;
+	background-color: #333;
+	border-radius: 50%;
+	animation: smoke_large 2s ease-in-out infinite;
+}
+
+@keyframes fire {
+	0% {
+		background: linear-gradient(to bottom, #f01509, #f35004, #f3ce04);
+	}
+
+	50% {
+		background: linear-gradient(to bottom, #f3ce04, #f01509, #f35004);
+	}
+
+	100% {
+		background: linear-gradient(to bottom, #f35004, #f3ce04, #f01509);
+	}	
+}
+
+@keyframes landing {
+	0% {
+		top: 20%;
+	}
+
+	100% {
+		top: 50%;
+	}
+}
+
+@keyframes smoke_small {
+	0% {
+		width: 10px;
+		height: 10px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		width: 30px;
+		height: 30px;
+		opacity: 0.2;
+	}
+}
+
+@keyframes smoke_medium {
+	0% {
+		width: 15px;
+		height: 15px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		width: 45px;
+		height: 45px;
+		opacity: 0.4;
+	}
+}
+
+@keyframes smoke_large {
+	0% {
+		width: 20px;
+		height: 20px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		width: 60px;
+		height: 60px;
+		opacity: 0.65;
+	}
+}

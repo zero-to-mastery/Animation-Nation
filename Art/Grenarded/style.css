@@ -1,0 +1,63 @@
+.triangle {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tri-2 {
+    bottom: 283px;
+    transform: rotateX(180deg) 
+}
+
+.side {
+    position: absolute;
+    left: 140px;
+    top: 150px;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 120px solid #ccc;
+    transform-origin: 50% 0%;
+    animation: spin 5s infinite linear;
+}
+.back {
+    animation-delay: -2.5s;
+}
+.right {
+    animation-delay: -1.25s;
+}
+.left {
+    animation-delay: -3.75s;
+}
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg) rotateX(30deg);
+        border-bottom-color: #1abcff;
+   }
+    25% {
+        transform: rotateY(90deg) rotateX(30deg);
+        border-bottom-color: #00a2e6;
+        opacity: 1;
+   }
+    25.1% {
+        opacity: 0;
+   }
+    50% {
+        transform: rotateY(180deg) rotateX(30deg);
+        border-bottom-color: #0089c2;
+   }
+    74.9% {
+        opacity: 0;
+   }
+    75% {
+        transform: rotateY(270deg) rotateX(30deg);
+        border-bottom-color: #007eb3;
+        opacity: 1;
+   }
+    100% {
+        transform: rotateY(360deg) rotateX(30deg);
+        border-bottom-color: #1abcff;
+   }
+}

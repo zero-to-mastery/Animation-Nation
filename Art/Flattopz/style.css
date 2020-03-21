@@ -1,0 +1,53 @@
+body,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Wrapper {
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 3rem;
+    cursor: pointer;
+    overflow: hidden;
+    height: 3rem;
+}
+
+.visible {
+    animation: slideout 5s ease-in infinite;
+}
+
+.invisible {
+    animation: slidein 5s ease-in infinite;
+}
+
+@keyframes slideout {
+    from {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(200%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+
+}
+
+@keyframes slidein {
+    from {
+        transform: translateY(-200%);
+    }
+}

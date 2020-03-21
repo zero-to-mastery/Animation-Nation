@@ -1838,14 +1838,6 @@ let cards = [
     pageLink: "./Art/animatron/queer.html",
     imageLink: "./Art/animatron/queer.gif",
   }
-  ,
-  {
-    artName: "Moving RGB",
-    pageLink: "./Art/masterambi/index.html",
-    imageLink: "./Art/masterambi/rgbmove.PNG",
-    author: 'Ramzy Rashaun Arief',
-    githubLink: 'https://github.com/masterambi'
-  },
 ];
     
 // +--------------------------------------------------------------------------------+

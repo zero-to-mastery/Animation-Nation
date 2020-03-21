@@ -1,0 +1,108 @@
+/*To go full screen margin 0px and padding 0px is there*/
+body
+{
+    margin:0px;
+    padding:0px;
+}
+section
+{
+    height:100vh;
+    background:black;
+}
+/*cover to cover the entire screen*/
+video
+{
+    object-fit: cover;
+}
+h1
+{
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:100%;
+    text-align:center;
+    /* color:#fff; */
+    color: rebeccapurple;
+    font-size:5em;
+    font-family:sans-serif;
+    letter-spacing: 0.1em;
+}
+h1 span
+{   opacity:0;
+    display:inline-block;
+    animation:animate 1s linear forwards;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        opacity:0;
+        transform:rotateY(90deg);
+        filter:blur(10px);
+    }
+    100%
+    {
+        opacity:1;
+        transform:rotateY(0deg);
+        filter:blur(0);
+    }
+
+}
+/*As there are 13 letters in Hacktoberfest therefore all of them are given
+the animation and there is 0.3 seconds of delay between two span because the 
+video is of 5 seconds and it's been divided by 13*/
+h1 span:nth-child(1)
+{
+    animation-delay:1s;
+}
+h1 span:nth-child(2)
+{
+    animation-delay:1.3s;
+}
+h1 span:nth-child(3)
+{
+    animation-delay:1.6s;
+}
+h1 span:nth-child(4)
+{
+    animation-delay:1.9s;
+}
+h1 span:nth-child(5)
+{
+    animation-delay:2.2s;
+}
+h1 span:nth-child(6)
+{
+    animation-delay:2.5s;
+}
+h1 span:nth-child(7)
+{
+    animation-delay:2.8s;
+}
+h1 span:nth-child(8)
+{
+    animation-delay:3.1s;
+}
+h1 span:nth-child(9)
+{
+    animation-delay:3.4s;
+}
+h1 span:nth-child(10)
+{
+    animation-delay:3.7s;
+}
+h1 span:nth-child(11)
+{
+    animation-delay:4s;
+}
+h1 span:nth-child(12)
+{
+    animation-delay:4.3s;
+}
+h1 span:nth-child(13)
+{
+    animation-delay:4.6s;
+}

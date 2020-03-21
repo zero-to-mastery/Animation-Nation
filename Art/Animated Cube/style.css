@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: rgba(223, 76, 130, 0.8);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+}
+
+@keyframes spin {
+  from { transform: rotateY(0); }
+  to { transform: rotateY(360deg); }
+}
+
+ .wraper {
+  height: 300px;
+  margin-top: 300px;
+  position: relative; 
+}
+
+.cube {
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  transform-style: preserve-3d;
+  animation: spin 20s infinite linear;
+  transition: all 1s linear; 
+} 
+
+.front, .back, .left, .right {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: rgb(24,24,24);
+  background: linear-gradient(90deg, rgba(24,24,24,1) 0%, rgba(71,67,67,1) 50%, rgba(10,10,10,1) 100%);
+  font-size: 1rem;
+  text-align: center;
+  line-height: 200px; 
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  transition: all 1s linear;
+}
+
+div.back {
+  transform: translateZ(-100px) rotateY(180deg);
+}
+
+div.right {
+  transform: rotateY(-270deg) translateX(100px);
+  transform-origin: top right;
+  letter-spacing: 1rem;
+}
+
+div.left {
+  transform: rotateY(270deg) translateX(-100px);
+  transform-origin: center left;
+  letter-spacing: 1rem;
+}
+
+div.front{
+  transform: translateZ(100px);
+}

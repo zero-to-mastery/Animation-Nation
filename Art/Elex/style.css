@@ -1,0 +1,193 @@
+body {
+	background-color: #f7611b;
+}
+
+#eyes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	flex-shrink: 1;
+}
+
+
+.pumpkin-left-eye {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	margin-left: 100px;
+	
+}
+
+.pumpkin-right-eye {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;	
+	margin-right: 100px;
+}
+
+#spook {
+	animation: floaty 2s infinite;
+}
+
+#spook .body {
+	position: relative;
+	margin: 50px 50px 20px 50px;
+	width: 100px;
+	height: 125px;
+	background: #000000;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+#spook .body:before,
+#spook .body:after{
+	content: '';
+	position: absolute;
+	top: 75px;
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background: #000000;
+	animation: floaty .2s infinite;
+}
+
+#spook .body:before {
+	left: -18px;
+}
+
+#spook .body:after {
+	right: -18px;
+}
+
+#spook .body .eyes {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 20px 0 0;
+	width: 75px;
+	height: 20px;
+}
+
+#spook .body .eyes:before,
+#spook .body .eyes:after {
+	content: ' ';
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: #00cf91;
+	border-radius: 50%;
+}
+
+#spook .body .mouth {
+	background: #00cf91;
+	margin: 25px auto 0;
+	width: 60px;
+	height: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+#spook .body .mouth:before {
+	content: ' ';
+	display: block;
+	background: #000000;
+	margin-left: 20px;
+	width: 10px;
+	height: 10px;
+}
+
+#spook .body .plasma {
+	position: absolute;
+	display: flex;
+	bottom: -15px;
+	width: 180px;
+	height: 25px;
+	
+}
+
+#spook .body .plasma > *,
+#spook .body .plasma::before,
+#spook .body .plasma::after {
+	content: '  ';
+	width: 20px;
+	height: 25px;
+	background: #000000;
+	border-radius: 50%;
+
+}
+
+
+
+#eye {
+	background-color: #000000;
+	animation: strobe linear 200ms infinite, floaty;
+	animation-play-state: paused;
+
+}
+#eye:hover {
+	animation-play-state: running;
+}
+
+#pumpkin-mouth {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	flex-shrink: 1;
+	background-color: #000000;
+	margin-top: 200px;
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+	animation: strobe 200ms infinite;
+	animation-play-state: paused;
+}
+
+#pumpkin-mouth:hover {
+	animation-play-state: running;
+}
+
+#pumpkin-mouth .mouth {
+	height: 200px;
+
+
+}
+
+#pumpkin-mouth .mouth .tooth {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	width: 100px;
+	left: 18px;
+}
+
+#pumpkin-mouth .mouth .tooth:before {
+	content: ' ';
+	display: block;
+	background: #f7611b;
+	margin-left: 20px;
+	width: 75px;
+	height: 50px;
+}
+
+.hh {
+	margin: auto;
+	font-size: 30px;
+
+}
+
+
+ @keyframes strobe {
+	from {background-color: #000000;}
+	to {background-color: #00cf91;}
+	
+}
+@keyframes floaty {
+	0%, 100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-20px);
+	}
+}
+

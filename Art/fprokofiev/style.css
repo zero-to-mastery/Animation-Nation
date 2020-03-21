@@ -1,0 +1,602 @@
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+	background-color: #fff;
+}
+
+[tabindex="-1"]:focus {
+	outline: 0 !important;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	-webkit-animation: night 120s infinite linear;
+	        animation: night 120s infinite linear;
+}
+
+@-webkit-keyframes night {
+	0% { background-color: #583114 }
+	5% { background-color: #cc8450 }
+	25% { background-color: #f3b88e }
+	45% { background-color: #cc8450 }
+	50% { background-color: #583114 }
+	75% { background-color: #1b080a }
+	100% { background-color: #583114 }
+}
+
+@keyframes night {
+	0% { background-color: #583114 }
+	5% { background-color: #cc8450 }
+	25% { background-color: #f3b88e }
+	45% { background-color: #cc8450 }
+	50% { background-color: #583114 }
+	75% { background-color: #1b080a }
+	100% { background-color: #583114 }
+}
+
+.layer {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.pos-t0 { top: 0 }
+.pos-t10 { top: 10% }
+.pos-t20 { top: 20% }
+.pos-t30 { top: 30% }
+.pos-t40 { top: 40% }
+.pos-t50 { top: 50% }
+.pos-t60 { top: 60% }
+.pos-t70 { top: 70% }
+.pos-t80 { top: 80% }
+.pos-t90 { top: 90% }
+.pos-t100 { top: 100% }
+.pos-r0 { right: 0 }
+.pos-r5 { right: 5% }
+.pos-r10 { right: 10% }
+.pos-r15 { right: 15% }
+.pos-r20 { right: 20% }
+.pos-r25 { right: 25% }
+.pos-r30 { right: 30% }
+.pos-r35 { right: 35% }
+.pos-r40 { right: 40% }
+.pos-r45 { right: 45% }
+.pos-r50 { right: 50% }
+.pos-r55 { right: 55% }
+.pos-r60 { right: 60% }
+.pos-r65 { right: 65% }
+.pos-r70 { right: 70% }
+.pos-r75 { right: 75% }
+.pos-r80 { right: 80% }
+.pos-r85 { right: 85% }
+.pos-r90 { right: 90% }
+.pos-r95 { right: 95% }
+.pos-r100 { right: 100% }
+.pos-b0 { bottom: 0 }
+.pos-b1 { bottom: 1% }
+.pos-b2 { bottom: 2% }
+.pos-b3 { bottom: 3% }
+.pos-b4 { bottom: 4% }
+.pos-b5 { bottom: 5% }
+.pos-l10 { left: 10% }
+.pos-l20 { left: 20% }
+.pos-l30 { left: 30% }
+.pos-l40 { left: 40% }
+.pos-l50 { left: 50% }
+.pos-l60 { left: 60% }
+.pos-l70 { left: 70% }
+.pos-l80 { left: 80% }
+.pos-l90 { left: 90% }
+.pos-l100 { left: 100% }
+
+.anim-del-1 { -webkit-animation-delay: 1s !important; animation-delay: 1s !important }
+.anim-del-2 { -webkit-animation-delay: 2s !important; animation-delay: 2s !important }
+.anim-del-3 { -webkit-animation-delay: 3s !important; animation-delay: 3s !important }
+.anim-del-4 { -webkit-animation-delay: 4s !important; animation-delay: 4s !important }
+.anim-del-5 { -webkit-animation-delay: 5s !important; animation-delay: 5s !important }
+
+/* Stars */
+
+#stars {
+	opacity: .5;
+	-webkit-animation: stars 120s infinite linear;
+	        animation: stars 120s infinite linear;
+}
+
+@-webkit-keyframes stars {
+	0% { opacity: .4 }
+	5% { opacity: 0 }
+	45% { opacity: 0 }
+	60% { opacity: 1 }
+	75% { opacity: 1 }
+	90% { opacity: 1 }
+	100% { opacity: .4 }
+}
+
+@keyframes stars {
+	0% { opacity: .4 }
+	5% { opacity: 0 }
+	45% { opacity: 0 }
+	60% { opacity: 1 }
+	75% { opacity: 1 }
+	90% { opacity: 1 }
+	100% { opacity: .4 }
+}
+
+.star {
+	position: absolute;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+	-webkit-animation: star 5s ease-in-out infinite;
+	        animation: star 5s ease-in-out infinite;
+}
+
+.star-xs {
+	width: 3px;
+	height: 3px;
+}
+
+.star-sm {
+	width: 5px;
+	height: 5px;
+}
+
+.star-md {
+	width: 7px;
+	height: 7px;
+}
+
+.star-lg {
+	width: 10px;
+	height: 10px;
+}
+
+.star-xl {
+	width: 15px;
+	height: 15px;
+}
+
+@-webkit-keyframes star {
+	0% { opacity: 1 }
+	50% { opacity: 0 }
+	75% { opacity: 1 }
+	100% { opacity: 1 }
+}
+
+@keyframes star {
+	0% { opacity: 1 }
+	50% { opacity: 0 }
+	75% { opacity: 1 }
+	100% { opacity: 1 }
+}
+
+/* Sun */
+
+.sun {
+	position: absolute;
+	height: 10vh;
+	width: 10vh;
+	bottom: 0;
+	right: 45%;
+	background: -o-radial-gradient(#ecc56b, #e4ddb7);
+	background: radial-gradient(#ecc56b, #e4ddb7);
+	-webkit-box-shadow: 0 0 400px 150px #e2d9a2;
+	        box-shadow: 0 0 400px 150px #e2d9a2;
+	border-radius: 50%;
+	-webkit-animation: sun 120s infinite linear;
+	        animation: sun 120s infinite linear;
+}
+
+@-webkit-keyframes sun {
+	0% { -webkit-transform: rotate(-360deg) translate(-70vh) rotate(360deg); transform: rotate(-360deg) translate(-70vh) rotate(360deg) }
+	100% { -webkit-transform: rotate(0deg) translate(-70vh) rotate(0deg); transform: rotate(0deg) translate(-70vh) rotate(0deg) }
+}
+
+@keyframes sun {
+	0% { -webkit-transform: rotate(-360deg) translate(-70vh) rotate(360deg); transform: rotate(-360deg) translate(-70vh) rotate(360deg) }
+	100% { -webkit-transform: rotate(0deg) translate(-70vh) rotate(0deg); transform: rotate(0deg) translate(-70vh) rotate(0deg) }
+}
+
+/* Moon */
+
+#moon {
+	-webkit-animation: moon 120s infinite linear;
+	        animation: moon 120s infinite linear;
+}
+
+.moon,
+.moon::before,
+.moon::after {
+	position: absolute;
+	border-radius: 50%;
+}
+
+.moon {
+	width: 10vh;
+	height: 10vh;
+	top: 30vh;
+	right: 45%;
+	background: -o-radial-gradient(#feb, #fee);
+	background: radial-gradient(#feb, #fee);
+	-webkit-box-shadow: 0 0 100px 50px #fda;
+	        box-shadow: 0 0 100px 50px #fda;
+}
+
+.moon::before {
+	content: '';
+	top: 15%;
+	left: 20%;
+	width: 10%;
+	height: 10%;
+	background-color: #eda;
+	-webkit-box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, .02);
+	        box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, .02);
+	opacity: .5;
+}
+
+.moon::after {
+	content: '';
+	bottom: 20%;
+	left: 50%;
+	width: 30%;
+	height: 30%;
+	background-color: #eda;
+	-webkit-box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, .02);
+	        box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, .02);
+	opacity: .5;
+}
+
+@-webkit-keyframes moon {
+	0% { opacity: .4 }
+	5% { opacity: 0 }
+	45% { opacity: 0 }
+	60% { opacity: 1 }
+	75% { opacity: 1 }
+	90% { opacity: 1 }
+	100% { opacity: .4 }
+}
+
+@keyframes moon {
+	0% { opacity: .4 }
+	5% { opacity: 0 }
+	45% { opacity: 0 }
+	60% { opacity: 1 }
+	75% { opacity: 1 }
+	90% { opacity: 1 }
+	100% { opacity: .4 }
+}
+
+/* Clouds */
+#clouds {
+	opacity: .5;
+	-webkit-animation: clouds 120s infinite linear;
+	        animation: clouds 120s infinite linear;
+}
+
+@-webkit-keyframes clouds {
+	0% { opacity: .7 }
+	5% { opacity: .9 }
+	25% { opacity: 1 }
+	45% { opacity: .9 }
+	50% { opacity: .7 }
+	75% { opacity: .3 }
+	100% { opacity: .7 }
+}
+
+@keyframes clouds {
+	0% { opacity: .7 }
+	5% { opacity: .9 }
+	25% { opacity: 1 }
+	45% { opacity: .9 }
+	50% { opacity: .7 }
+	75% { opacity: .3 }
+	100% { opacity: .7 }
+}
+
+.cloud {
+	-webkit-animation: cloud 30s ease-in-out infinite alternate;
+	        animation: cloud 30s ease-in-out infinite alternate;
+}
+
+.cloud,
+.cloud::before,
+.cloud::after {
+	position: absolute;
+	background: rgb(255, 255, 255);
+	border-radius: 50%;	
+}
+
+.cloud::before,
+.cloud::after {
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 40%;
+}
+
+.cloud::before {
+	left: 40%;
+}
+
+.cloud::after {
+	right: 40%;
+}
+
+.cloud-xs {
+	width: 30px;
+	height: 20px;
+}
+
+.cloud-sm {
+	width: 50px;
+	height: 30px;
+}
+
+.cloud-md {
+	width: 70px;
+	height: 40px;
+}
+
+.cloud-lg {
+	width: 90px;
+	height: 50px;
+}
+
+.cloud-xl {
+	width: 110px;
+	height: 60px;
+}
+
+@-webkit-keyframes cloud {
+	0% { -webkit-transform: translatex(-100px); transform: translatex(-100px) }
+	100% { -webkit-transform: translatex(100px); transform: translatex(100px) }
+}
+
+@keyframes cloud {
+	0% { -webkit-transform: translatex(-100px); transform: translatex(-100px) }
+	100% { -webkit-transform: translatex(100px); transform: translatex(100px) }
+}
+
+/* Mountains */
+
+.mountain {
+	position: absolute;
+	border-radius: 90% 90% 5000px 90%;
+	-webkit-transform:rotate(45deg);
+	    -ms-transform:rotate(45deg);
+	        transform:rotate(45deg);
+	overflow:hidden;
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+	        box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+}
+
+.mountain::after {
+	content: "";
+	display: block;
+	width: 70%;
+	height: 10%;
+	margin-left: 10%;
+	margin-top: -5%;
+	border-radius: 100%;
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.mountain-ca {
+	background: -webkit-gradient(linear, left bottom, left top, from(#e56), to(#e85));
+	background: -o-linear-gradient(bottom, #e56 0%, #e85 100%);
+	background: linear-gradient(to top, #e56 0%, #e85 100%);
+}
+
+.mountain-cb {
+	background: -webkit-gradient(linear, left bottom, left top, from(#c45), to(#c63));
+	background: -o-linear-gradient(bottom, #c45 0%, #c63 100%);
+	background: linear-gradient(to top, #c45 0%, #c63 100%);
+}
+
+.mountain-cc {
+	background: -webkit-gradient(linear, left bottom, left top, from(#923), to(#a43));
+	background: -o-linear-gradient(bottom, #923 0%, #a43 100%);
+	background: linear-gradient(to top, #923 0%, #a43 100%);
+}
+
+.mountain-xs {
+	width: 300px;
+	height: 300px;
+	bottom: -200px;
+}
+
+.mountain-md {
+	width: 400px;
+	height: 400px;
+	bottom: -260px;
+}
+
+.mountain-lg {
+	width: 500px;
+	height: 500px;
+	bottom: -330px;
+}
+
+.mountain-xl {
+	width: 600px;
+	height: 600px;
+	bottom: -400px;
+}
+
+/* Ground */
+
+.ground {
+	position: absolute;
+	bottom: -30%;
+	left: -10%;
+	width: 70%;
+	height: 40%;
+	border-radius: 50%;
+	background: -webkit-gradient(linear, left bottom, left top, from(rgb(90, 23, 33)), to(rgb(114, 55, 45)));
+	background: -o-linear-gradient(bottom, rgb(90, 23, 33) 0%, rgb(114, 55, 45) 100%);
+	background: linear-gradient(to top, rgb(90, 23, 33) 0%, rgb(114, 55, 45) 100%);
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+	        box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+}
+
+.ground::before {
+	content: "";
+	display: block;
+	width: 200%;
+	height: 110%;
+	border-radius: 50%;
+	background: -webkit-gradient(linear, left bottom, left top, from(rgb(48, 14, 19)), to(rgb(73, 34, 27)));
+	background: -o-linear-gradient(bottom, rgb(48, 14, 19) 0%, rgb(73, 34, 27) 100%);
+	background: linear-gradient(to top, rgb(48, 14, 19) 0%, rgb(73, 34, 27) 100%);
+	position: absolute;
+	left: 50%;
+	bottom: -5%;
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+	        box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+}
+
+.ground::after {
+	content: "";
+	display: block;
+	width: 80%;
+	height: 110%;
+	border-radius: 50%;
+	background: -webkit-gradient(linear, left bottom, left top, from(rgb(78, 27, 34)), to(rgb(97, 51, 42)));
+	background: -o-linear-gradient(bottom, rgb(78, 27, 34) 0%, rgb(97, 51, 42) 100%);
+	background: linear-gradient(to top, rgb(78, 27, 34) 0%, rgb(97, 51, 42) 100%);
+	position: absolute;
+	left: 35%;
+	bottom: -10%;
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+	        box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+}
+
+/* Trees */
+
+.tree {
+	width: 30px;
+	height: 50px;
+	position: absolute;
+	-webkit-animation: tree 30s ease-in-out infinite alternate;
+	        animation: tree 30s ease-in-out infinite alternate;
+	-webkit-transform-origin: center bottom;
+	    -ms-transform-origin: center bottom;
+	        transform-origin: center bottom;
+}
+
+.tree::before,
+.tree::after {
+	content: "";
+	display: block;
+	width: 100%;
+	background-size: 50.05% 100%;
+	background-repeat: no-repeat;
+}
+
+.tree::before {
+	height: 80%;
+	top: 0;
+	background-position: bottom left, bottom right;
+}
+
+.tree::after {
+	height: 20%;
+	bottom: 0;
+	background-position: top left, top right;
+}
+
+.tree-xs {
+	width: 30px;
+	height: 50px;
+}
+
+.tree-sm {
+	width: 45px;
+	height: 75px;
+}
+
+.tree-md {
+	width: 60px;
+	height: 100px;
+}
+
+.tree-xs {
+	width: 90px;
+	height: 150px;
+}
+
+.tree-xl {
+	width: 120px;
+	height: 200px;
+}
+
+.tree-ca::before {
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(50%, transparent), color-stop(50%, rgb(141, 55, 29))), -webkit-gradient(linear, right top, left bottom, color-stop(50%, transparent), color-stop(50%, rgb(141, 55, 29)));
+	background-image: -o-linear-gradient(left top, transparent 50%, rgb(141, 55, 29) 50%), -o-linear-gradient(right top, transparent 50%, rgb(141, 55, 29) 50%);
+	background-image: linear-gradient(to right bottom, transparent 50%, rgb(141, 55, 29) 50%), linear-gradient(to left bottom, transparent 50%, rgb(141, 55, 29) 50%);
+}
+
+.tree-ca::after {
+	background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, rgb(141, 55, 29))), -webkit-gradient(linear, right bottom, left top, color-stop(50%, transparent), color-stop(50%, rgb(141, 55, 29)));
+	background-image: -o-linear-gradient(left bottom, transparent 50%, rgb(141, 55, 29) 50%), -o-linear-gradient(right bottom, transparent 50%, rgb(141, 55, 29) 50%);
+	background-image: linear-gradient(to right top, transparent 50%, rgb(141, 55, 29) 50%), linear-gradient(to left top, transparent 50%, rgb(141, 55, 29) 50%);
+}
+
+.tree-cb::before {
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(50%, transparent), color-stop(50%, rgb(141, 89, 29))), -webkit-gradient(linear, right top, left bottom, color-stop(50%, transparent), color-stop(50%, rgb(141, 89, 29)));
+	background-image: -o-linear-gradient(left top, transparent 50%, rgb(141, 89, 29) 50%), -o-linear-gradient(right top, transparent 50%, rgb(141, 89, 29) 50%);
+	background-image: linear-gradient(to right bottom, transparent 50%, rgb(141, 89, 29) 50%), linear-gradient(to left bottom, transparent 50%, rgb(141, 89, 29) 50%);
+}
+
+.tree-cb::after {
+	background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, rgb(141, 89, 29))), -webkit-gradient(linear, right bottom, left top, color-stop(50%, transparent), color-stop(50%, rgb(141, 89, 29)));
+	background-image: -o-linear-gradient(left bottom, transparent 50%, rgb(141, 89, 29) 50%), -o-linear-gradient(right bottom, transparent 50%, rgb(141, 89, 29) 50%);
+	background-image: linear-gradient(to right top, transparent 50%, rgb(141, 89, 29) 50%), linear-gradient(to left top, transparent 50%, rgb(141, 89, 29) 50%);
+}
+
+.tree-cc::before {
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(50%, transparent), color-stop(50%, rgb(141, 61, 29))), -webkit-gradient(linear, right top, left bottom, color-stop(50%, transparent), color-stop(50%, rgb(141, 61, 29)));
+	background-image: -o-linear-gradient(left top, transparent 50%, rgb(141, 61, 29) 50%), -o-linear-gradient(right top, transparent 50%, rgb(141, 61, 29) 50%);
+	background-image: linear-gradient(to right bottom, transparent 50%, rgb(141, 61, 29) 50%), linear-gradient(to left bottom, transparent 50%, rgb(141, 61, 29) 50%);
+}
+
+.tree-cc::after {
+	background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, rgb(141, 61, 29))), -webkit-gradient(linear, right bottom, left top, color-stop(50%, transparent), color-stop(50%, rgb(141, 61, 29)));
+	background-image: -o-linear-gradient(left bottom, transparent 50%, rgb(141, 61, 29) 50%), -o-linear-gradient(right bottom, transparent 50%, rgb(141, 61, 29) 50%);
+	background-image: linear-gradient(to right top, transparent 50%, rgb(141, 61, 29) 50%), linear-gradient(to left top, transparent 50%, rgb(141, 61, 29) 50%);
+}
+
+@-webkit-keyframes tree {
+	0% { -webkit-transform: skewX(3deg); transform: skewX(3deg) }
+	100% { -webkit-transform: skewX(-3deg); transform: skewX(-3deg) }
+}
+
+@keyframes tree {
+	0% { -webkit-transform: skewX(3deg); transform: skewX(3deg) }
+	100% { -webkit-transform: skewX(-3deg); transform: skewX(-3deg) }
+}

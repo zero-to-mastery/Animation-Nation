@@ -1,0 +1,265 @@
+
+/* Created by Rashid Makki (https://github.com/rashidmakki) */
+
+body{
+    background:linear-gradient(to top left,rgb(66, 200, 245) 25%,yellow);
+    min-height:660px;
+	
+}
+
+div{
+    width:20%;
+    height:10px;
+    border-top:1px dashed white;
+    border-radius:20px;
+    border-bottom:none;
+    border-right:20px solid red;
+    border-left:20px solid blue;
+    margin-bottom:7px;
+	background-color:#000000;
+}
+
+div:nth-child(1){
+    animation:dna1 5s linear infinite 0s;
+}
+@keyframes dna1{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(2){
+    animation:dna2 5s linear infinite 0.2s;
+}
+@keyframes dna2{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(3){
+    animation:dna3 5s linear infinite 0.4s;
+}
+@keyframes dna3{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(4){
+    animation:dna4 5s linear infinite 0.6s;
+}
+@keyframes dna4{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(5){
+    animation:dna5 5s linear infinite 0.8s;
+}
+@keyframes dna5{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(6){
+    animation:dna6 5s linear infinite 1s;
+}
+@keyframes dna6{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(7){
+    animation:dna7 5s linear infinite 1.2s;
+}
+@keyframes dna7{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(8){
+    animation:dna8 5s linear infinite 1.4s;
+}
+@keyframes dna8{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(9){
+    animation:dna9 5s linear infinite 1.6s;
+}
+@keyframes dna9{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(10){
+    animation:dna10 5s linear infinite 1.8s;
+}
+@keyframes dna10{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(11){
+    animation:dna11 5s linear infinite 2s;
+}
+@keyframes dna11{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(12){
+    animation:dna12 5s linear infinite 2.2s;
+}
+@keyframes dna12{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(13){
+    animation:dna13 5s linear infinite 2.4s;
+}
+@keyframes dna13{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(14){
+    animation:dna1 5s linear infinite 2.6s;
+}
+@keyframes dna14{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(15){
+    animation:dna15 5s linear infinite 2.8s;
+}
+@keyframes dna15{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(16){
+    animation:dna16 5s linear infinite 3s;
+}
+@keyframes dna16{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(17){
+    animation:dna17 5s linear infinite 3.2s;
+}
+@keyframes dna17{
+    100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(18){
+animation:dna18 5s linear infinite 3.4s;
+}
+@keyframes dna18{
+100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(19){
+animation:dna19 5s linear infinite 3.6s;
+}
+@keyframes dna19{
+100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(20){
+animation:dna20 5s linear infinite 3.8s;
+}
+@keyframes dna20{
+100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(21){
+animation:dna21 5s linear infinite 4s;
+}
+@keyframes dna21{
+100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(22){
+animation:dna22 5s linear infinite 4.2s;
+}
+@keyframes dna22{
+100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(23){
+animation:dna23 5s linear infinite 4.4s;
+}
+@keyframes dna23{
+100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(24){
+animation:dna24 5s linear infinite 4.6s;
+}
+@keyframes dna24{
+100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(25){
+animation:dna25 5s linear infinite 4.8s;
+}
+@keyframes dna25{
+100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(26){
+animation:dna26 5s linear infinite 5s;
+}
+@keyframes dna26{
+100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(27){
+animation:dna27 5s linear infinite 5.2s;
+}
+@keyframes dna27{
+100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(28){
+animation:dna28 5s linear infinite 5.4s;
+}
+@keyframes dna28{
+100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(29){
+animation:dna29 5s linear infinite 5.6s;
+}
+@keyframes dna29{
+100% {transform:rotateY(360deg);}
+}
+
+
+div:nth-child(30){
+animation:dna30 5s linear infinite 5.8s;
+}
+@keyframes dna30{
+100% {transform:rotateY(360deg);}
+}
+div:nth-child(31){
+animation:dna31 5s linear infinite 6.0s;
+}
+@keyframes dna31{
+100% {transform:rotateY(360deg);}
+}

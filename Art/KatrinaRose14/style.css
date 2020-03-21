@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+
+#eyes {
+    display: flex;
+    margin-top: 10%;
+}
+
+.lefteye {
+    height: 130px;
+    width: 300px;
+    background-image: linear-gradient(to right bottom, #ff0000, #ff4c00, #ff6f00, #ff8c00, #ffa600);
+    border-radius: 37% 63% 47% 53% / 0% 90% 10% 100% ;
+    margin-left: 20%;
+    
+}
+
+.righteye {
+    height: 130px;
+    width: 300px;
+    background-image: linear-gradient(to left bottom, #ff0000, #ff4c00, #ff6f00, #ff8c00, #ffa600);
+    border-radius: 37% 63% 47% 53% / 90% 0% 100% 10% ;
+    margin-left: 8%;
+}
+
+.mouth {
+    margin-left: 20%;
+    margin-top: 8%;
+    height: 400px;
+    width: 700px;
+    clip-path: polygon(22% 33%, 0 0, 21% 64%, 34% 36%, 49% 64%, 64% 41%, 79% 65%, 100% 0, 78% 33%, 65% 10%, 49% 37%, 34% 13%);
+    background-image: linear-gradient(to top, #ff0000, #ff4c00, #ff6f00, #ff8c00, #ffa600);
+    
+}
+
+#face {
+    animation-name: flash;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

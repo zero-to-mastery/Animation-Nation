@@ -1,0 +1,18 @@
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10em;
+    font-weight:bold;
+    font-style:italic;
+    color:#fff;
+    animation:name 5s linear 1s infinite reverse;
+    transform:rotateY(0deg);  
+}
+
+@keyframes name
+{
+    from  {transform:rotateY(0deg); color: #fff}
+    to {transform:rotateY(360deg); color: #000}
+} 

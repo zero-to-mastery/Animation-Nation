@@ -1,0 +1,28 @@
+body, html{
+  height: 96vh;
+  background-color: #5492de;
+  color: white;
+}
+
+.zero {
+  display:flex;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  margin: auto;
+  font-family: Helvetica, sans-serif, Arial;
+  animation: mastery 1.2s infinite 0s ease-in-out;
+  animation-direction: alternate;
+  text-shadow: 0 0 1px red;
+}
+
+@keyframes mastery {
+    0%{
+        opacity: 0.08;
+        letter-spacing: 3px;
+        }
+    100%{
+      ///
+        }
+}
