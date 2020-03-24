@@ -27,7 +27,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) rotate(270deg);
   width: 50px;
-  height: 5px;
+  height: 10px;
   background-color: var(--sunColor);
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
@@ -75,7 +75,7 @@ body {
 
 @keyframes sunburstTop {
   100% {
-    transform: translate(-50%, -6000%) rotate(270deg);
+    transform: translate(-50%, -8000%) rotate(270deg);
   }
 }
 
@@ -93,6 +93,6 @@ body {
 
 @keyframes sunburstBottom {
   100% {
-    transform: translate(-50%, 6000%) rotate(90deg);
+    transform: translate(-50%, 8000%) rotate(90deg);
   }
 }
