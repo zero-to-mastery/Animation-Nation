@@ -1851,6 +1851,13 @@ let cards = [
     imageLink: "./Art/steveSchaner/sunburst.gif",
     author: "Steve Schaner",
     githubLink: "https://github.com/sschaner"
+  },
+  {
+    artName: "Jurassic Park",
+    pageLink: "./Art/tvasari/index.html",
+    imageLink: "./Art/tvasari/jurassic_park.gif",
+    author: "Tommaso Vasari",
+    githubLink: "https://github.com/tvasari"
   }
 ];
 
