@@ -1852,6 +1852,14 @@ let cards = [
     author: "Steve Schaner",
     githubLink: "https://github.com/sschaner"
   }
+    ,
+  {
+    artName: "Bounce",
+    pageLink: "./Art/samya/index.html",
+    imageLink: "./Art/samya/samya.gif",
+    author: "Samya Thakur",
+    githubLink: "https://github.com/samyathakur"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
