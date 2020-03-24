@@ -1859,6 +1859,14 @@ let cards = [
     author: "Tommaso Vasari",
     githubLink: "https://github.com/tvasari"
   }
+    ,
+  {
+    artName: "Bounce",
+    pageLink: "./Art/samya/index.html",
+    imageLink: "./Art/samya/samya.gif",
+    author: "Samya Thakur",
+    githubLink: "https://github.com/samyathakur"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
