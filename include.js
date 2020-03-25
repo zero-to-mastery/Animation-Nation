@@ -1853,13 +1853,19 @@ let cards = [
     githubLink: "https://github.com/sschaner"
   },
   {
+    artName: "Shravan",
+    pageLink: "./Art/Shravan/animation_shr_page.html",
+    imageLink: "./Art/Shravan/animation_shr.gif",
+    author: "Shravan Kumar",
+    githubLink: "https://github.com/shravan1508"
+  },
+  {
     artName: "Jurassic Park",
     pageLink: "./Art/tvasari/index.html",
     imageLink: "./Art/tvasari/jurassic_park.gif",
     author: "Tommaso Vasari",
     githubLink: "https://github.com/tvasari"
-  }
-    ,
+  },
   {
     artName: "Bounce",
     pageLink: "./Art/samya/index.html",
@@ -1867,6 +1873,7 @@ let cards = [
     author: "Samya Thakur",
     githubLink: "https://github.com/samyathakur"
   }
+  
 ];
 
 // +--------------------------------------------------------------------------------+
