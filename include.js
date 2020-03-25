@@ -1851,7 +1851,15 @@ let cards = [
     imageLink: "./Art/steveSchaner/sunburst.gif",
     author: "Steve Schaner",
     githubLink: "https://github.com/sschaner"
+  },
+  {
+    artName: "Shravan",
+    pageLink: "./Art/Shravan/animation_shr_page.html",
+    imageLink: "./Art/Shravan/animation_shr.gif",
+    author: "Shravan Kumar",
+    githubLink: "https://github.com/shravan1508"
   }
+  
 ];
 
 // +--------------------------------------------------------------------------------+
