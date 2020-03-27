@@ -1873,6 +1873,13 @@ let cards = [
     author: "Samya Thakur",
     githubLink: "https://github.com/samyathakur"
   }
+  {
+    artName: "We stay at home to save lives",
+    pageLink: "./Art/Shatabdi/index.html",
+    imageLink: "./Art/Shatabdi/WE STAY AT HOME TO SAVE LIVES.gif",
+    author: "Shatabdi Roy",
+    githubLink: "https://github.com/RoyShatabdi"
+  }
   
 ];
 
