@@ -1887,7 +1887,14 @@ let cards = [
     author: "Shatabdi Roy",
     githubLink: "https://github.com/RoyShatabdi"
   }
-  
+  {
+    artName: "Star Wars Animation",
+    pageLink: "./Art/hassdoodle/index.html",
+    imageLink: "./Art/hassdoodle/screenshot.png",
+    author: "Hassan"
+    githubLink: "https://github.com/Hassang97"
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
