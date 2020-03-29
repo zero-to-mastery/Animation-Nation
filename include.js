@@ -1873,6 +1873,13 @@ let cards = [
     author: "Samya Thakur",
     githubLink: "https://github.com/samyathakur"
   }
+  {
+    artName: "bouncing ball",
+    pageLink: "./Art/alexgp/index.html",
+    imageLink: "./Art/Alexgp/bouncegif.gif",
+    author: "AlexGP257",
+    githubLink: "https://github.com/Alexgp257"
+  },
   
 ];
 
