@@ -1893,6 +1893,13 @@ let cards = [
     imageLink: "./Art/animatronky/trance.gif",
     author: "kylenrich",
     githubLink: "https://github.com/kylenrich24"
+  },
+  {
+    artName: "bouncing ball",
+    pageLink: "./Art/alexgp/index.html",
+    imageLink: "./Art/Alexgp/bouncegif.gif",
+    author: "AlexGP257",
+    githubLink: "https://github.com/Alexgp257"
   }
 ];
 
