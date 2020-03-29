@@ -1900,6 +1900,13 @@ let cards = [
     imageLink: "./Art/Alexgp/bouncegif.gif",
     author: "AlexGP257",
     githubLink: "https://github.com/Alexgp257"
+  },
+  {
+    artName: "Cool Waves",
+    pageLink: "./Art/RaulC/index.html",
+    imageLink: "./Art/RaulC/coolwaves.gif",
+    author: "Raul Contreras",
+    githubLink: "https://github.com/rcc01"
   }
 ];
 
