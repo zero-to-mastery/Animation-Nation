@@ -1879,7 +1879,7 @@ let cards = [
     imageLink: "./Art/Alexgp/bouncegif.gif",
     author: "AlexGP257",
     githubLink: "https://github.com/Alexgp257"
-  },
+  }
   
 ];
 
