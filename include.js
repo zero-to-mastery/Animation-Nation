@@ -1879,7 +1879,7 @@ let cards = [
     imageLink: "./Art/samya/egg_loading.gif",
     author: "Ulisse Dantas",
     githubLink: "https://github.com/ulissesnew"
-  }
+  },
   {
     artName: "We stay at home to save lives",
     pageLink: "./Art/Shatabdi/index.html",
@@ -1887,7 +1887,6 @@ let cards = [
     author: "Shatabdi Roy",
     githubLink: "https://github.com/RoyShatabdi"
   }
-  
 ];
 
 // +--------------------------------------------------------------------------------+
