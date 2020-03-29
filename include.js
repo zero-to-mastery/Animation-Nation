@@ -1870,7 +1870,7 @@ let cards = [
   {
     artName: "Egg_Loading",
     pageLink: "./Art/egg_loading/index.html",
-    imageLink: "./Art/samya/egg_loading.gif",
+    imageLink: "./Art/egg_loading/egg_loading.gif",
     author: "Ulisse Dantas",
     githubLink: "https://github.com/ulissesnew"
   },
