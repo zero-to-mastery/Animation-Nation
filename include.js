@@ -1887,7 +1887,15 @@ let cards = [
     author: "Shatabdi Roy",
     githubLink: "https://github.com/RoyShatabdi"
   }
-  
+
+  {
+    artName: "Cool Waves",
+    pageLink: "./Art/RaulC/index.html",
+    imageLink: "./Art/RaulC/coolwaves.gif",
+    author: "Raul Contreras",
+    githubLink: "https://github.com/rcc01"
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
