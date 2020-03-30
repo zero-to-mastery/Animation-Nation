@@ -1928,7 +1928,15 @@ let cards = [
     imageLink: "./Art/RaulC/coolwaves.gif",
     author: "Raul Contreras",
     githubLink: "https://github.com/rcc01"
+  },
+  {
+    artName: "Snowfall",
+    pageLink: "./Art/chaitali_snowfall/index.html",
+    imageLink: "./Art/chaitali_snowfall/snowgif.gif",
+    author: "Chaitali",
+    githubLink: "https://github.com/chaitali-more"
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
