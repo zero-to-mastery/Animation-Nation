@@ -1625,6 +1625,13 @@ let cards = [
     imageLink: "./Art/Batz005/flag.gif",
     author: "Batz005",
     github: "https://github.com/Batz005"
+  },
+  {
+    artName: "Animated Rectangles",
+    pageLink: "./Art/HelioCardoso/index.html",
+    imageLink: "./Art/HelioCardoso/animated_rectangles.gif",
+    author: "Helio Cardoso",
+    github: "https://github.com/HelioRochaCardoso"
   }
 ];
 
