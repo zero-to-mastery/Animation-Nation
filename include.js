@@ -1937,6 +1937,13 @@ let cards = [
     githubLink: "https://github.com/chaitali-more"
   },
   {
+    artName: "Hello world",
+    pageLink: "./Art/warren8689/index.html",
+    imageLink: "./Art/warren8689/screenshot.png",
+    author: "Warren",
+    githubLink: "https://github.com/warrren8689"
+  },
+  {
     artName: "360 Varial Kickflip",
     pageLink: "./Art/DICHAMOTO/index.html",
     imageLink: "./Art/DICHAMOTO/360_Varial_Kickflip.gif",
