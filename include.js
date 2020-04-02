@@ -1937,6 +1937,13 @@ let cards = [
     githubLink: "https://github.com/chaitali-more"
   },
   {
+    artName: "Rotate Circle",
+    pageLink: "./Art/dimor/animation.html",
+    imageLink: "./Art/dimor/rotate.gif",
+    author: "dimor",
+    githubLink: "https://github.com/dimor"
+  },
+  {
     artName: "Hello world",
     pageLink: "./Art/warren8689/index.html",
     imageLink: "./Art/warren8689/screenshot.png",
