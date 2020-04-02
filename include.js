@@ -1935,8 +1935,14 @@ let cards = [
     imageLink: "./Art/chaitali_snowfall/snowgif.gif",
     author: "Chaitali",
     githubLink: "https://github.com/chaitali-more"
+  },
+  {
+    artName: "360 Varial Kickflip",
+    pageLink: "./Art/DICHAMOTO/index.html",
+    imageLink: "./Art/DICHAMOTO/360_Varial_Kickflip.gif",
+    author: "DICHAMOTO",
+    githubLink: "https://github.com/DICHAMOTO"
   }
-
 ];
 
 // +--------------------------------------------------------------------------------+
