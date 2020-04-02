@@ -1935,6 +1935,13 @@ let cards = [
     imageLink: "./Art/chaitali_snowfall/snowgif.gif",
     author: "Chaitali",
     githubLink: "https://github.com/chaitali-more"
+  },
+  {
+    artName: "Rotate Circle",
+    pageLink: "./Art/dimor/animation.html",
+    imageLink: "./Art/dimor/rotate.gif",
+    author: "dimor",
+    githubLink: "https://github.com/dimor"
   }
 
 ];
