@@ -1935,8 +1935,43 @@ let cards = [
     imageLink: "./Art/chaitali_snowfall/snowgif.gif",
     author: "Chaitali",
     githubLink: "https://github.com/chaitali-more"
-  }
-{
+  },
+  {
+    artName: "Rotate Circle",
+    pageLink: "./Art/dimor/animation.html",
+    imageLink: "./Art/dimor/rotate.gif",
+    author: "dimor",
+    githubLink: "https://github.com/dimor"
+  },
+  {
+    artName: "Hello world",
+    pageLink: "./Art/warren8689/index.html",
+    imageLink: "./Art/warren8689/screenshot.png",
+    author: "Warren",
+    githubLink: "https://github.com/warrren8689"
+  },
+  {
+    artName: "360 Varial Kickflip",
+    pageLink: "./Art/DICHAMOTO/index.html",
+    imageLink: "./Art/DICHAMOTO/360_Varial_Kickflip.gif",
+    author: "DICHAMOTO",
+    githubLink: "https://github.com/DICHAMOTO"
+  },
+  {
+    artName: "Crazy Square",
+    pageLink: "./Art/colorSquare/index.html",
+    imageLink: "./Art/colorSquare/colorsquare.gif",
+    author: "TiagoChicoo",
+    githubLink: "https://github.com/tiagochicoo"
+  },
+  {
+    artName: "Alexhover",
+    pageLink: "./Art/Alexhover/index.html",
+    imageLink: "./Art/Alexhover/Alexhover.gif",
+    author: "Alex",
+    githubLink: "https://github.com/alesgainza"
+  },
+  {
     artName: "Imperial CSS Driod",
     pageLink: "./Art/Imperial_CSS_Driod/index.html",
     imageLink: "./Art/Imperial_CSS_Driod/ImperialDriod.gif",
