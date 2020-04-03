@@ -1956,6 +1956,13 @@ let cards = [
     imageLink: "./Art/DICHAMOTO/360_Varial_Kickflip.gif",
     author: "DICHAMOTO",
     githubLink: "https://github.com/DICHAMOTO"
+  },
+  {
+    artName: "Alexhover",
+    pageLink: "./Art/Alexhover/index.html",
+    imageLink: "./Art/Alexhover/Alexhover.gif",
+    author: "Alex",
+    githubLink: "https://github.com/alesgainza"
   }
 ];
 
