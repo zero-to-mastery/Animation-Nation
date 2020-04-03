@@ -1936,7 +1936,13 @@ let cards = [
     author: "Chaitali",
     githubLink: "https://github.com/chaitali-more"
   }
-
+{
+    artName: "Imperial CSS Driod",
+    pageLink: "./Art/Imperial_CSS_Driod/index.html",
+    imageLink: "./Art/Imperial_CSS_Driod/ImperialDriod.gif",
+    author: "Captian-Rocket",
+    githubLink: "https://github.com/captian-rocket"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
