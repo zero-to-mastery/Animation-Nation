@@ -1958,6 +1958,13 @@ let cards = [
     githubLink: "https://github.com/DICHAMOTO"
   },
   {
+    artName: "Crazy Square",
+    pageLink: "./Art/colorSquare/index.html",
+    imageLink: "./Art/colorSquare/colorsquare.gif",
+    author: "TiagoChicoo",
+    githubLink: "https://github.com/tiagochicoo"
+  },
+  {
     artName: "Alexhover",
     pageLink: "./Art/Alexhover/index.html",
     imageLink: "./Art/Alexhover/Alexhover.gif",
