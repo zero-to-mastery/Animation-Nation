@@ -1970,6 +1970,13 @@ let cards = [
     imageLink: "./Art/Alexhover/Alexhover.gif",
     author: "Alex",
     githubLink: "https://github.com/alesgainza"
+  },
+  {
+    artName: "Imperial CSS Driod",
+    pageLink: "./Art/Imperial_CSS_Driod/index.html",
+    imageLink: "./Art/Imperial_CSS_Driod/ImperialDriod.gif",
+    author: "Captian-Rocket",
+    githubLink: "https://github.com/captian-rocket"
   }
 ];
 
