@@ -1956,6 +1956,13 @@ let cards = [
     imageLink: "./Art/DICHAMOTO/360_Varial_Kickflip.gif",
     author: "DICHAMOTO",
     githubLink: "https://github.com/DICHAMOTO"
+  },
+  {
+    artName: "Crazy Square",
+    pageLink: "./Art/colorSquare/index.html",
+    imageLink: "./Art/colorSquare/colorsquare.gif",
+    author: "TiagoChicoo",
+    githubLink: "https://github.com/tiagochicoo"
   }
 ];
 
