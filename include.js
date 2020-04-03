@@ -1963,6 +1963,13 @@ let cards = [
     imageLink: "./Art/colorSquare/colorsquare.gif",
     author: "TiagoChicoo",
     githubLink: "https://github.com/tiagochicoo"
+  },
+  {
+    artName: "Alexhover",
+    pageLink: "./Art/Alexhover/index.html",
+    imageLink: "./Art/Alexhover/Alexhover.gif",
+    author: "Alex",
+    githubLink: "https://github.com/alesgainza"
   }
 ];
 
