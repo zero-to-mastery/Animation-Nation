@@ -1978,6 +1978,14 @@ let cards = [
     author: "Captian-Rocket",
     githubLink: "https://github.com/captian-rocket"
   }
+  {
+    artName: "ImageGallery",
+    pageLink: "./Art/Hoverimage/index.html",
+    imageLink: "./Art/Hoverimage/hoverimage.gif",
+    author: "Siddhant Jain",
+    githubLink: "https://github.com/Sid-web6306"
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
