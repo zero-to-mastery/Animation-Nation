@@ -1977,6 +1977,13 @@ let cards = [
     imageLink: "./Art/Imperial_CSS_Driod/ImperialDriod.gif",
     author: "Captian-Rocket",
     githubLink: "https://github.com/captian-rocket"
+  },
+  {
+    artName: "Star Wars",
+    pageLink: "./Art/ChiragAgarwal/index.html",
+    imageLink: "./Art/ChiragAgarwal/star_wars.gif",
+    author: "Chirag Agarwal",
+    githubLink: "https://github.com/chiragragarwal"
   }
 ];
 
