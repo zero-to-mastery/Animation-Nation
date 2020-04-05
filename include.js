@@ -1985,6 +1985,28 @@ let cards = [
     author: 'Hamid',
     githubLink: 'https://github.com/HamidGoudarzi1988',
   },
+  {
+    artName: "Imperial CSS Driod",
+    pageLink: "./Art/Imperial_CSS_Driod/index.html",
+    imageLink: "./Art/Imperial_CSS_Driod/ImperialDriod.gif",
+    author: "Captian-Rocket",
+    githubLink: "https://github.com/captian-rocket"
+  },
+  {
+    artName: "Star Wars",
+    pageLink: "./Art/ChiragAgarwal/index.html",
+    imageLink: "./Art/ChiragAgarwal/star_wars.gif",
+    author: "Chirag Agarwal",
+    githubLink: "https://github.com/chiragragarwal"
+  },
+  {
+    artName: "ImageGallery",
+    pageLink: "./Art/Hoverimage/index.html",
+    imageLink: "./Art/Hoverimage/hoverimage.gif",
+    author: "Siddhant Jain",
+    githubLink: "https://github.com/Sid-web6306"
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
