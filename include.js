@@ -1993,6 +1993,13 @@ let cards = [
     githubLink: "https://github.com/captian-rocket"
   },
   {
+    artName: "3D Infinite Loop Sprites Cards",
+    pageLink: "./Art/luiavag/index.html",
+    imageLink: "./Art/luiavag/luiavag_3D_Infinite_Loop.gif",
+    author: "LuVAGu",
+    githubLink: "https://github.com/luiavag"
+  },
+  {
     artName: "Star Wars",
     pageLink: "./Art/ChiragAgarwal/index.html",
     imageLink: "./Art/ChiragAgarwal/star_wars.gif",
