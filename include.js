@@ -1985,6 +1985,14 @@ let cards = [
     author: "Chirag Agarwal",
     githubLink: "https://github.com/chiragragarwal"
   }
+  {
+    artName: "ImageGallery",
+    pageLink: "./Art/Hoverimage/index.html",
+    imageLink: "./Art/Hoverimage/hoverimage.gif",
+    author: "Siddhant Jain",
+    githubLink: "https://github.com/Sid-web6306"
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
