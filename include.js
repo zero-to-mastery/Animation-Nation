@@ -2012,6 +2012,14 @@ let cards = [
     imageLink: "./Art/Hoverimage/hoverimage.gif",
     author: "Siddhant Jain",
     githubLink: "https://github.com/Sid-web6306"
+  },
+
+  {
+    artName: 'Grow',
+    pageLink: './Art/octavioLafourcade/index.html',
+    imageLink: './Art/octavioLafourcade/animation.gif',
+    author: 'Octavio Lafourcade',
+    githubLink: 'https://github.com/tavolafourcade',
   }
 
 ];
