@@ -70,6 +70,13 @@ let cards = [
     githubLink: 'https://github.com/henryvalbuena',
   },
   {
+    artName: 'UFO',
+    pageLink: './Art/UFO/index.html',
+    imageLink: './Art/UFO/UFO.png',
+    author: 'Abhinav Singh @abhinav9910',
+    githubLink: 'https://github.com/abhinav9910',
+  }
+  {
     artName: 'The Ripple',
     pageLink: './Art/Anmol2/index.html',
     imageLink: './Art/Anmol2/ripple.png',
