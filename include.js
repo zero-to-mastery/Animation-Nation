@@ -70,6 +70,13 @@ let cards = [
     githubLink: 'https://github.com/henryvalbuena',
   },
   {
+    artName: 'UFO',
+    pageLink: './Art/UFO/index.html',
+    imageLink: './Art/UFO/UFO.png',
+    author: 'Abhinav Singh @abhinav9910',
+    githubLink: 'https://github.com/abhinav9910',
+  }
+  {
     artName: 'The Ripple',
     pageLink: './Art/Anmol2/index.html',
     imageLink: './Art/Anmol2/ripple.png',
@@ -1993,6 +2000,20 @@ let cards = [
     githubLink: "https://github.com/captian-rocket"
   },
   {
+    artName: "360 Varial Kickflip",
+    pageLink: "./Art/DICHAMOTO/index.html",
+    imageLink: "./Art/DICHAMOTO/360_Varial_Kickflip.gif",
+    author: "DICHAMOTO",
+    githubLink: "https://github.com/DICHAMOTO"
+  },
+  {
+      artName: "Bouncer the Bouncy Box",
+      pageLink: "./Art/RussD/index.html",
+      imageLink: "./Art/RussD/bouncer-the-bouncy-box.png",
+      author: "Russell",
+      githubLink: "https://github.com/rdyer07"
+    },
+    {
     artName: "3D Infinite Loop Sprites Cards",
     pageLink: "./Art/luiavag/index.html",
     imageLink: "./Art/luiavag/luiavag_3D_Infinite_Loop.gif",
@@ -2013,15 +2034,27 @@ let cards = [
     author: "Siddhant Jain",
     githubLink: "https://github.com/Sid-web6306"
   },
-
   {
     artName: 'Grow',
     pageLink: './Art/octavioLafourcade/index.html',
     imageLink: './Art/octavioLafourcade/animation.gif',
     author: 'Octavio Lafourcade',
     githubLink: 'https://github.com/tavolafourcade',
+  },
+  {
+    artName: "Slats",
+    pageLink: "./Art/Sagaquisces/index.html",
+    imageLink: "./Art/Hoverimage/slats.gif",
+    author: "Michael David Dunlap",
+    githubLink: "https://github.com/sagaquisces"
+  },
+  {
+    artName: "Coffee",
+    pageLink: "./Art/animate-coffee/index.html",
+    imageLink: "./Art/animate-coffee/ezgif.com-video-to-gif.gif",
+    author: "Elise Welch",
+    githubLink: "https://github.com/EliseWelch"
   }
-
 ];
 
 // +--------------------------------------------------------------------------------+
