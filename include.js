@@ -2019,6 +2019,13 @@ let cards = [
     imageLink: "./Art/Hoverimage/hoverimage.gif",
     author: "Siddhant Jain",
     githubLink: "https://github.com/Sid-web6306"
+  },
+  {
+    artName: "Slats",
+    pageLink: "./Art/Sagaquisces/index.html",
+    imageLink: "./Art/Hoverimage/slats.gif",
+    author: "Michael David Dunlap",
+    githubLink: "https://github.com/sagaquisces"
   }
 
 ];
