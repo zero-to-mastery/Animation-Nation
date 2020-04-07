@@ -2035,6 +2035,13 @@ let cards = [
     githubLink: "https://github.com/Sid-web6306"
   },
   {
+    artName: 'Grow',
+    pageLink: './Art/octavioLafourcade/index.html',
+    imageLink: './Art/octavioLafourcade/animation.gif',
+    author: 'Octavio Lafourcade',
+    githubLink: 'https://github.com/tavolafourcade',
+  },
+  {
     artName: "Slats",
     pageLink: "./Art/Sagaquisces/index.html",
     imageLink: "./Art/Hoverimage/slats.gif",
@@ -2048,7 +2055,6 @@ let cards = [
     author: "Elise Welch",
     githubLink: "https://github.com/EliseWelch"
   }
-
 ];
 
 // +--------------------------------------------------------------------------------+
