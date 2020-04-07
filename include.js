@@ -1956,7 +1956,14 @@ let cards = [
     imageLink: "./Art/DICHAMOTO/360_Varial_Kickflip.gif",
     author: "DICHAMOTO",
     githubLink: "https://github.com/DICHAMOTO"
-  }
+  },
+  {
+      artName: "Bouncer the Bouncy Box",
+      pageLink: "./Art/RussD/index.html",
+      imageLink: "./Art/RussD/bouncer-the-bouncy-box.png",
+      author: "Russell",
+      githubLink: "https://github.com/rdyer07"
+    },
 ];
 
 // +--------------------------------------------------------------------------------+
