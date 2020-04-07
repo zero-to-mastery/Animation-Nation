@@ -2035,6 +2035,13 @@ let cards = [
     githubLink: "https://github.com/Sid-web6306"
   },
   {
+    artName: "Slats",
+    pageLink: "./Art/Sagaquisces/index.html",
+    imageLink: "./Art/Hoverimage/slats.gif",
+    author: "Michael David Dunlap",
+    githubLink: "https://github.com/sagaquisces"
+  },
+  {
     artName: "Coffee",
     pageLink: "./Art/animate-coffee/index.html",
     imageLink: "./Art/animate-coffee/ezgif.com-video-to-gif.gif",
