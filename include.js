@@ -2019,6 +2019,13 @@ let cards = [
     imageLink: "./Art/Hoverimage/hoverimage.gif",
     author: "Siddhant Jain",
     githubLink: "https://github.com/Sid-web6306"
+  },
+  {
+    artName: "Coffee",
+    pageLink: "./Art/animate-coffee/index.html",
+    imageLink: "./Art/animate-coffee/ezgif.com-video-to-gif.gif",
+    author: "Elise Welch",
+    githubLink: "https://github.com/EliseWelch"
   }
 
 ];
