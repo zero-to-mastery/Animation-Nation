@@ -1977,6 +1977,13 @@ let cards = [
     imageLink: "./Art/Imperial_CSS_Driod/ImperialDriod.gif",
     author: "Captian-Rocket",
     githubLink: "https://github.com/captian-rocket"
+  },
+  {
+    artName: "Mario Game",
+    pageLink: "./Art/emmeiwhite/index.html",
+    imageLink: "./Art/emmeiwhite/mario-game.gif",
+    author: "Emmeiwhite",
+    githubLink: "https://github.com/emmeiwhite"
   }
 ];
 
