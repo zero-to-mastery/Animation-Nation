@@ -2000,6 +2000,13 @@ let cards = [
     githubLink: "https://github.com/captian-rocket"
   },
   {
+    artName: "Mario Game",
+    pageLink: "./Art/emmeiwhite/index.html",
+    imageLink: "./Art/emmeiwhite/mario-game.gif",
+    author: "Emmeiwhite",
+    githubLink: "https://github.com/emmeiwhite"
+  },
+  {
     artName: "360 Varial Kickflip",
     pageLink: "./Art/DICHAMOTO/index.html",
     imageLink: "./Art/DICHAMOTO/360_Varial_Kickflip.gif",
