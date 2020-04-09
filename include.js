@@ -2061,7 +2061,15 @@ let cards = [
     imageLink: "./Art/animate-coffee/ezgif.com-video-to-gif.gif",
     author: "Elise Welch",
     githubLink: "https://github.com/EliseWelch"
+  },
+   {
+    artName: "aninikhil",
+    pageLink: "./Art/aninikhil/index.html",
+    imageLink: "./Art/aninikhil/nik.jpg",
+    author: "Nikhil N G",
+    githubLink: "https://github.com/nikhilng99"
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
