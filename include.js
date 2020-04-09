@@ -2013,6 +2013,13 @@ let cards = [
     author: "Siddhant Jain",
     githubLink: "https://github.com/Sid-web6306"
   }
+  {
+    artName: "Playballs",
+    pageLink: "./Art/playballs/index.html",
+    imageLink: "./Art/playballs/playballs.gif",
+    author: "Omar Jabaly",
+    githubLink: "https://github.com/Omarjabaly"
+  }
 
 ];
 
