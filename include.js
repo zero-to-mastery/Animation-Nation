@@ -2068,14 +2068,21 @@ let cards = [
     imageLink: "./Art/aninikhil/nik.jpg",
     author: "Nikhil N G",
     githubLink: "https://github.com/nikhilng99"
-  }
+  },
   {
     artName: "Playballs",
     pageLink: "./Art/playballs/index.html",
     imageLink: "./Art/playballs/playballs.gif",
     author: "Omar Jabaly",
     githubLink: "https://github.com/Omarjabaly"
-  }
+  },
+  {
+    artName: "simpleAnimation",
+    pageLink: "./Art/cazabe/index.html",
+    imageLink: "./Art/cazabe/mrRobot.png",
+    author: "cazabe",
+    githubLink: "https://github.com/cazabe"
+  },
 
 ];
 
