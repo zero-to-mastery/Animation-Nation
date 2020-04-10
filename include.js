@@ -75,7 +75,7 @@ let cards = [
     imageLink: './Art/UFO/UFO.png',
     author: 'Abhinav Singh @abhinav9910',
     githubLink: 'https://github.com/abhinav9910',
-  }
+  },
   {
     artName: 'The Ripple',
     pageLink: './Art/Anmol2/index.html',
@@ -2062,6 +2062,13 @@ let cards = [
     author: "Elise Welch",
     githubLink: "https://github.com/EliseWelch"
   },
+  {
+    artName: "sproutseeds",
+    pageLink: "./Art/sproutseeds/index.html",
+    imageLink: "https://codepen.io/_Sabine/pen/yGGLON",
+    author:"_Sabine"
+  },
+
    {
     artName: "aninikhil",
     pageLink: "./Art/aninikhil/index.html",
@@ -2082,8 +2089,7 @@ let cards = [
     imageLink: "./Art/cazabe/mrRobot.png",
     author: "cazabe",
     githubLink: "https://github.com/cazabe"
-  },
-
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
