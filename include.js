@@ -2089,13 +2089,20 @@ let cards = [
     imageLink: "./Art/cazabe/mrRobot.png",
     author: "cazabe",
     githubLink: "https://github.com/cazabe"
-  }
+  },
   {
     artName: "Dragon",
     pageLink: "./Art/Dragon/index.html",
     imageLink: "./Art/Joy/smallDragon.gif",
     author: "nikicivan",
     githubLink: "https://github.com/nikicivan"
+  },
+  {
+    artName: "TypingAnimation",
+    pageLink: "./Art/yogi_the_bear/index.html",
+    imageLink: "./Art/yogi_the_bear/my_animation.gif",
+    author: "yogev",
+    githubLink: "https://github.com/yogevHenig"
   }
 ];
 
