@@ -2090,6 +2090,13 @@ let cards = [
     author: "cazabe",
     githubLink: "https://github.com/cazabe"
   }
+  {
+    artName: "Dragon",
+    pageLink: "./Art/Dragon/index.html",
+    imageLink: "./Art/Joy/smallDragon.gif",
+    author: "nikicivan",
+    githubLink: "https://github.com/nikicivan"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
