@@ -2090,6 +2090,14 @@ let cards = [
     author: "cazabe",
     githubLink: "https://github.com/cazabe"
   }
+  {
+    artName: "TypingAnimation",
+    pageLink: "./Art/yogi_the_bear/index.html",
+    imageLink: "./Art/yogi_the_bear/my_animation.gif",
+    author: "yogev",
+    githubLink: "https://github.com/yogevHenig"
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
