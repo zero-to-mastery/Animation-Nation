@@ -2019,6 +2019,13 @@ let cards = [
     imageLink: "./Art/Hoverimage/hoverimage.gif",
     author: "Siddhant Jain",
     githubLink: "https://github.com/Sid-web6306"
+  },
+  {
+    artName: "characterwalking",
+    pageLink: "./Art/characterwalkingChetan/index.html",
+    imageLink: "./Art/characterwalkingChetan/image.png",
+    author: "Chetan Muliya",
+    githubLink: "https://github.com/chetanmuliya"
   }
 
 ];
