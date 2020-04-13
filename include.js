@@ -2124,6 +2124,14 @@ let cards = [
     author: "Trenisha",
     githubLink: "https://github.com/tgoslee"
   }
+  {
+      artName: "Jackony",
+      pageLink: "./Art/Yaseen_Mohammed/index.html",
+      imageLink: "./Art/Yaseen_Mohammed/pichatcho.gif",
+       author: "Yaseen_Mohammed",
+    githubLink: "https://yaseenaiman.github.io/"
+}
+
 ];
 
 // +--------------------------------------------------------------------------------+
