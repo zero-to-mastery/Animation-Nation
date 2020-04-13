@@ -2109,6 +2109,13 @@ let cards = [
     imageLink: "./Art/yogi_the_bear/my_animation.gif",
     author: "yogev",
     githubLink: "https://github.com/yogevHenig"
+  },
+  {
+    artName: "NarutoAnimation",
+    pageLink: "./Art/Tgoslee/index.html",
+    imageLink: "./Art/Tgoslee/Naruto.gif",
+    author: "Trenisha",
+    githubLink: "https://github.com/tgoslee"
   }
 ];
 
