@@ -2061,6 +2061,13 @@ let cards = [
     imageLink: "./Art/animate-coffee/ezgif.com-video-to-gif.gif",
     author: "Elise Welch",
     githubLink: "https://github.com/EliseWelch"
+  },
+  {
+    artName: "Blended",
+    pageLink: "./Art/Pro-animate/index.html",
+    imageLink: "./Art/Pro-animate/Blended.gif",
+    author: "Promise Nwafor",
+    githubLink: "https://github.com/emPro-source"
   }
 ];
 
