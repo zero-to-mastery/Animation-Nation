@@ -2042,6 +2042,13 @@ let cards = [
     githubLink: "https://github.com/Sid-web6306"
   },
   {
+    artName: "characterwalking",
+    pageLink: "./Art/characterwalkingChetan/index.html",
+    imageLink: "./Art/characterwalkingChetan/image.png",
+    author: "Chetan Muliya",
+    githubLink: "https://github.com/chetanmuliya"
+  },
+  {
     artName: 'Grow',
     pageLink: './Art/octavioLafourcade/index.html',
     imageLink: './Art/octavioLafourcade/animation.gif',
