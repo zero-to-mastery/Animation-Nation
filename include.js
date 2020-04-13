@@ -75,7 +75,7 @@ let cards = [
     imageLink: './Art/UFO/UFO.png',
     author: 'Abhinav Singh @abhinav9910',
     githubLink: 'https://github.com/abhinav9910',
-  }
+  },
   {
     artName: 'The Ripple',
     pageLink: './Art/Anmol2/index.html',
@@ -2000,6 +2000,27 @@ let cards = [
     githubLink: "https://github.com/captian-rocket"
   },
   {
+    artName: "Mario Game",
+    pageLink: "./Art/emmeiwhite/index.html",
+    imageLink: "./Art/emmeiwhite/mario-game.gif",
+    author: "Emmeiwhite",
+    githubLink: "https://github.com/emmeiwhite"
+  },
+  {
+    artName: "360 Varial Kickflip",
+    pageLink: "./Art/DICHAMOTO/index.html",
+    imageLink: "./Art/DICHAMOTO/360_Varial_Kickflip.gif",
+    author: "DICHAMOTO",
+    githubLink: "https://github.com/DICHAMOTO"
+  },
+  {
+      artName: "Bouncer the Bouncy Box",
+      pageLink: "./Art/RussD/index.html",
+      imageLink: "./Art/RussD/bouncer-the-bouncy-box.png",
+      author: "Russell",
+      githubLink: "https://github.com/rdyer07"
+    },
+    {
     artName: "3D Infinite Loop Sprites Cards",
     pageLink: "./Art/luiavag/index.html",
     imageLink: "./Art/luiavag/luiavag_3D_Infinite_Loop.gif",
@@ -2026,8 +2047,83 @@ let cards = [
     imageLink: "./Art/characterwalkingChetan/image.png",
     author: "Chetan Muliya",
     githubLink: "https://github.com/chetanmuliya"
+  },
+  {
+    artName: 'Grow',
+    pageLink: './Art/octavioLafourcade/index.html',
+    imageLink: './Art/octavioLafourcade/animation.gif',
+    author: 'Octavio Lafourcade',
+    githubLink: 'https://github.com/tavolafourcade',
+  },
+  {
+    artName: "Slats",
+    pageLink: "./Art/Sagaquisces/index.html",
+    imageLink: "./Art/Hoverimage/slats.gif",
+    author: "Michael David Dunlap",
+    githubLink: "https://github.com/sagaquisces"
+  },
+  {
+    artName: "Coffee",
+    pageLink: "./Art/animate-coffee/index.html",
+    imageLink: "./Art/animate-coffee/ezgif.com-video-to-gif.gif",
+    author: "Elise Welch",
+    githubLink: "https://github.com/EliseWelch"
+  },
+  {
+    artName: "Blended",
+    pageLink: "./Art/Pro-animate/index.html",
+    imageLink: "./Art/Pro-animate/Blended.gif",
+    author: "Promise Nwafor",
+    githubLink: "https://github.com/emPro-source"
+  },
+  {
+    artName: "sproutseeds",
+    pageLink: "./Art/sproutseeds/index.html",
+    imageLink: "https://codepen.io/_Sabine/pen/yGGLON",
+    author:"_Sabine"
+  },
+  {
+    artName: "aninikhil",
+    pageLink: "./Art/aninikhil/index.html",
+    imageLink: "./Art/aninikhil/nik.jpg",
+    author: "Nikhil N G",
+    githubLink: "https://github.com/nikhilng99"
+  },
+  {
+    artName: "Playballs",
+    pageLink: "./Art/playballs/index.html",
+    imageLink: "./Art/playballs/playballs.gif",
+    author: "Omar Jabaly",
+    githubLink: "https://github.com/Omarjabaly"
+  },
+  {
+    artName: "simpleAnimation",
+    pageLink: "./Art/cazabe/index.html",
+    imageLink: "./Art/cazabe/mrRobot.png",
+    author: "cazabe",
+    githubLink: "https://github.com/cazabe"
+  },
+  {
+    artName: "Dragon",
+    pageLink: "./Art/Dragon/index.html",
+    imageLink: "./Art/Joy/smallDragon.gif",
+    author: "nikicivan",
+    githubLink: "https://github.com/nikicivan"
+  },
+  {
+    artName: "TypingAnimation",
+    pageLink: "./Art/yogi_the_bear/index.html",
+    imageLink: "./Art/yogi_the_bear/my_animation.gif",
+    author: "yogev",
+    githubLink: "https://github.com/yogevHenig"
+  },
+  {
+    artName: "NarutoAnimation",
+    pageLink: "./Art/Tgoslee/index.html",
+    imageLink: "./Art/Tgoslee/Naruto.gif",
+    author: "Trenisha",
+    githubLink: "https://github.com/tgoslee"
   }
-
 ];
 
 // +--------------------------------------------------------------------------------+
