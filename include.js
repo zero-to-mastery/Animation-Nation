@@ -75,7 +75,7 @@ let cards = [
     imageLink: './Art/UFO/UFO.png',
     author: 'Abhinav Singh @abhinav9910',
     githubLink: 'https://github.com/abhinav9910',
-  }
+  },
   {
     artName: 'The Ripple',
     pageLink: './Art/Anmol2/index.html',
@@ -2068,6 +2068,47 @@ let cards = [
     imageLink: "./Art/Pro-animate/Blended.gif",
     author: "Promise Nwafor",
     githubLink: "https://github.com/emPro-source"
+  },
+  {
+    artName: "sproutseeds",
+    pageLink: "./Art/sproutseeds/index.html",
+    imageLink: "https://codepen.io/_Sabine/pen/yGGLON",
+    author:"_Sabine"
+  },
+  {
+    artName: "aninikhil",
+    pageLink: "./Art/aninikhil/index.html",
+    imageLink: "./Art/aninikhil/nik.jpg",
+    author: "Nikhil N G",
+    githubLink: "https://github.com/nikhilng99"
+  },
+  {
+    artName: "Playballs",
+    pageLink: "./Art/playballs/index.html",
+    imageLink: "./Art/playballs/playballs.gif",
+    author: "Omar Jabaly",
+    githubLink: "https://github.com/Omarjabaly"
+  },
+  {
+    artName: "simpleAnimation",
+    pageLink: "./Art/cazabe/index.html",
+    imageLink: "./Art/cazabe/mrRobot.png",
+    author: "cazabe",
+    githubLink: "https://github.com/cazabe"
+  },
+  {
+    artName: "Dragon",
+    pageLink: "./Art/Dragon/index.html",
+    imageLink: "./Art/Joy/smallDragon.gif",
+    author: "nikicivan",
+    githubLink: "https://github.com/nikicivan"
+  },
+  {
+    artName: "TypingAnimation",
+    pageLink: "./Art/yogi_the_bear/index.html",
+    imageLink: "./Art/yogi_the_bear/my_animation.gif",
+    author: "yogev",
+    githubLink: "https://github.com/yogevHenig"
   }
 ];
 
