@@ -2063,13 +2063,19 @@ let cards = [
     githubLink: "https://github.com/EliseWelch"
   },
   {
+    artName: "Blended",
+    pageLink: "./Art/Pro-animate/index.html",
+    imageLink: "./Art/Pro-animate/Blended.gif",
+    author: "Promise Nwafor",
+    githubLink: "https://github.com/emPro-source"
+  },
+  {
     artName: "sproutseeds",
     pageLink: "./Art/sproutseeds/index.html",
     imageLink: "https://codepen.io/_Sabine/pen/yGGLON",
     author:"_Sabine"
   },
-
-   {
+  {
     artName: "aninikhil",
     pageLink: "./Art/aninikhil/index.html",
     imageLink: "./Art/aninikhil/nik.jpg",
