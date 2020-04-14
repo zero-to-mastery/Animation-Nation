@@ -2123,7 +2123,7 @@ let cards = [
     imageLink: "./Art/Tgoslee/Naruto.gif",
     author: "Trenisha",
     githubLink: "https://github.com/tgoslee"
-  }
+  },
   {
       artName: "Jackony",
       pageLink: "./Art/Yaseen_Mohammed/index.html",
