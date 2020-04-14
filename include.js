@@ -2123,14 +2123,22 @@ let cards = [
     imageLink: "./Art/Tgoslee/Naruto.gif",
     author: "Trenisha",
     githubLink: "https://github.com/tgoslee"
-  }
+  },
   {
       artName: "Jackony",
       pageLink: "./Art/Yaseen_Mohammed/index.html",
       imageLink: "./Art/Yaseen_Mohammed/pichatcho.gif",
        author: "Yaseen_Mohammed",
     githubLink: "https://yaseenaiman.github.io/"
-}
+},
+{
+  artName: "DVRU",
+  pageLink: "./Art/dvru/index.html",
+  imageLink: "./Art/dvru/dvru.gif",
+   author: "dvru",
+  githubLink: "https://github.com/dvru"
+},
+
 
 ];
 
