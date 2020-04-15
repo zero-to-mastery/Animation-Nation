@@ -2125,10 +2125,10 @@ let cards = [
     githubLink: "https://github.com/tgoslee"
   },
   {
-      artName: "Jackony",
-      pageLink: "./Art/Yaseen_Mohammed/index.html",
-      imageLink: "./Art/Yaseen_Mohammed/pichatcho.gif",
-       author: "Yaseen_Mohammed",
+    artName: "Jackony",
+    pageLink: "./Art/Yaseen_Mohammed/index.html",
+    imageLink: "./Art/Yaseen_Mohammed/pichatcho.gif",
+    author: "Yaseen_Mohammed",
     githubLink: "https://yaseenaiman.github.io/"
 },
 {
@@ -2145,8 +2145,13 @@ let cards = [
   author: "Ayoubahida",
   githubLink: "https://github.com/Ayoubahida"
 },
-
-
+  {
+    artName: "TextAnimation",
+    pageLink: "./Art/TextAnimation/index.html",
+    imageLink: "./Art/TextAnimation/welcome.gif",
+    author: "waleed",
+    githubLink: "https://github.com/waleed-1993"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
