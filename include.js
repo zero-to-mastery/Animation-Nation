@@ -2130,23 +2130,28 @@ let cards = [
     imageLink: "./Art/Yaseen_Mohammed/pichatcho.gif",
     author: "Yaseen_Mohammed",
     githubLink: "https://yaseenaiman.github.io/"
-  },
-  {
-    artName: "DVRU",
-    pageLink: "./Art/dvru/index.html",
-    imageLink: "./Art/dvru/dvru.gif",
-    author: "dvru",
-    githubLink: "https://github.com/dvru"
-  },
+},
+{
+  artName: "DVRU",
+  pageLink: "./Art/dvru/index.html",
+  imageLink: "./Art/dvru/dvru.gif",
+   author: "dvru",
+  githubLink: "https://github.com/dvru"
+},
+{
+  artName: "Coulisse",
+  pageLink: "./Art/Ayoubahida/index.html",
+  imageLink: "./Art/Ayoubahida/coulisseAnimation.gif",
+  author: "Ayoubahida",
+  githubLink: "https://github.com/Ayoubahida"
+},
   {
     artName: "TextAnimation",
     pageLink: "./Art/TextAnimation/index.html",
     imageLink: "./Art/TextAnimation/welcome.gif",
     author: "waleed",
     githubLink: "https://github.com/waleed-1993"
-  },
-
-
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
