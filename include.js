@@ -2138,6 +2138,13 @@ let cards = [
    author: "dvru",
   githubLink: "https://github.com/dvru"
 },
+{
+  artName: "Coulisse",
+  pageLink: "./Art/Ayoubahida/index.html",
+  imageLink: "./Art/Ayoubahida/coulisseAnimation.gif",
+  author: "Ayoubahida",
+  githubLink: "https://github.com/Ayoubahida"
+},
 
 
 ];
