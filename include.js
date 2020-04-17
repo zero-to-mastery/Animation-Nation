@@ -2152,6 +2152,13 @@ let cards = [
     author: "waleed",
     githubLink: "https://github.com/waleed-1993"
   }
+    {
+    artName: "Kanimootion",
+    pageLink: "./kanimootion/TextAnimation/index.html",
+    imageLink: "./Art/moon.png",
+    author: "R3alpapi",
+    githubLink: "https://github.com/R3alpapi"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
