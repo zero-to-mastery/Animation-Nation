@@ -2151,6 +2151,13 @@ let cards = [
     imageLink: "./Art/TextAnimation/welcome.gif",
     author: "waleed",
     githubLink: "https://github.com/waleed-1993"
+  },
+  {
+    artName: "Sky",
+    pageLink: "./Art/marijapanic/index.html",
+    imageLink: "./Art/marijapanic/clouds.gif",
+    author: "marijapanic",
+    githubLink: "https://github.com/marijapanic"
   }
 ];
 
