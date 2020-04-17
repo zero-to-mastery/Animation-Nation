@@ -2118,6 +2118,13 @@ let cards = [
     githubLink: "https://github.com/yogevHenig"
   },
   {
+    artName: "Mario Kart Animation",
+    pageLink: "./Art/mario2/index.html",
+    imageLink: "./Art/mario2/mario.png",
+    author: "Sakshi Sinha",
+    githubLink: "https://github.com/sakshi-1"
+  },
+  {
     artName: "NarutoAnimation",
     pageLink: "./Art/Tgoslee/index.html",
     imageLink: "./Art/Tgoslee/Naruto.gif",
@@ -2166,6 +2173,7 @@ let cards = [
     author: "marijapanic",
     githubLink: "https://github.com/marijapanic"
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
