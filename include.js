@@ -2153,6 +2153,13 @@ let cards = [
     githubLink: "https://github.com/waleed-1993"
   },
   {
+      artName: "Animatron",
+      pageLink: "./Art/Animatron/index.html",
+      imageLink: "./Art/Joy/trance.gif",
+      author: "farhan",
+      githubLink: "https://github.com/fnahmad"
+    },
+  {
     artName: "Sky",
     pageLink: "./Art/marijapanic/index.html",
     imageLink: "./Art/marijapanic/clouds.gif",
