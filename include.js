@@ -2151,7 +2151,17 @@ let cards = [
     imageLink: "./Art/TextAnimation/welcome.gif",
     author: "waleed",
     githubLink: "https://github.com/waleed-1993"
-  }
+  },
+
+
+    {
+      artName: "Animatron",
+      pageLink: "./Art/Animatron/index.html",
+      imageLink: "./Art/Joy/trance.gif",
+      author: "farhan",
+      githubLink: "https://github.com/fnahmad"
+    }
+
 ];
 
 // +--------------------------------------------------------------------------------+
