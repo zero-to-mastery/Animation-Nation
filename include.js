@@ -2103,7 +2103,15 @@ let cards = [
     imageLink: "./Art/yogi_the_bear/my_animation.gif",
     author: "yogev",
     githubLink: "https://github.com/yogevHenig"
+  },
+  {
+    artName: "Mario Kart Animation",
+    pageLink: "./Art/mario2/index.html",
+    imageLink: "./Art/mario2/mario.png",
+    author: "Sakshi Sinha",
+    githubLink: "https://github.com/sakshi-1"
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
