@@ -2042,6 +2042,13 @@ let cards = [
     githubLink: "https://github.com/Sid-web6306"
   },
   {
+    artName: "characterwalking",
+    pageLink: "./Art/characterwalkingChetan/index.html",
+    imageLink: "./Art/characterwalkingChetan/image.png",
+    author: "Chetan Muliya",
+    githubLink: "https://github.com/chetanmuliya"
+  },
+  {
     artName: 'Grow',
     pageLink: './Art/octavioLafourcade/index.html',
     imageLink: './Art/octavioLafourcade/animation.gif',
@@ -2063,13 +2070,19 @@ let cards = [
     githubLink: "https://github.com/EliseWelch"
   },
   {
+    artName: "Blended",
+    pageLink: "./Art/Pro-animate/index.html",
+    imageLink: "./Art/Pro-animate/Blended.gif",
+    author: "Promise Nwafor",
+    githubLink: "https://github.com/emPro-source"
+  },
+  {
     artName: "sproutseeds",
     pageLink: "./Art/sproutseeds/index.html",
     imageLink: "https://codepen.io/_Sabine/pen/yGGLON",
     author:"_Sabine"
   },
-
-   {
+  {
     artName: "aninikhil",
     pageLink: "./Art/aninikhil/index.html",
     imageLink: "./Art/aninikhil/nik.jpg",
@@ -2110,6 +2123,55 @@ let cards = [
     imageLink: "./Art/mario2/mario.png",
     author: "Sakshi Sinha",
     githubLink: "https://github.com/sakshi-1"
+  },
+  {
+    artName: "NarutoAnimation",
+    pageLink: "./Art/Tgoslee/index.html",
+    imageLink: "./Art/Tgoslee/Naruto.gif",
+    author: "Trenisha",
+    githubLink: "https://github.com/tgoslee"
+  },
+  {
+    artName: "Jackony",
+    pageLink: "./Art/Yaseen_Mohammed/index.html",
+    imageLink: "./Art/Yaseen_Mohammed/pichatcho.gif",
+    author: "Yaseen_Mohammed",
+    githubLink: "https://yaseenaiman.github.io/"
+},
+{
+  artName: "DVRU",
+  pageLink: "./Art/dvru/index.html",
+  imageLink: "./Art/dvru/dvru.gif",
+   author: "dvru",
+  githubLink: "https://github.com/dvru"
+},
+{
+  artName: "Coulisse",
+  pageLink: "./Art/Ayoubahida/index.html",
+  imageLink: "./Art/Ayoubahida/coulisseAnimation.gif",
+  author: "Ayoubahida",
+  githubLink: "https://github.com/Ayoubahida"
+},
+  {
+    artName: "TextAnimation",
+    pageLink: "./Art/TextAnimation/index.html",
+    imageLink: "./Art/TextAnimation/welcome.gif",
+    author: "waleed",
+    githubLink: "https://github.com/waleed-1993"
+  },
+  {
+      artName: "Animatron",
+      pageLink: "./Art/Animatron/index.html",
+      imageLink: "./Art/Joy/trance.gif",
+      author: "farhan",
+      githubLink: "https://github.com/fnahmad"
+    },
+  {
+    artName: "Sky",
+    pageLink: "./Art/marijapanic/index.html",
+    imageLink: "./Art/marijapanic/clouds.gif",
+    author: "marijapanic",
+    githubLink: "https://github.com/marijapanic"
   }
 
 ];
