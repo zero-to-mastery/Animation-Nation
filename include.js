@@ -2181,6 +2181,13 @@ let cards = [
     githubLink: "https://github.com/sergiorra",
   },
   {
+    artName: "mig",
+    pageLink: "./Art/mig/index.html",
+    imageLink: "./Art/mig/squares.gif",
+    author: "mig",
+    githubLink: "https://github.com/miguel231997",
+  },
+  {
     artName: "RabbitHopping",
     pageLink: "./Art/tigerlight/index.html",
     imageLink: "./Art/tigerlight/RabbitHopping.gif",
