@@ -2187,6 +2187,13 @@ let cards = [
     author: "mig",
     githubLink: "https://github.com/miguel231997",
   },
+  {
+    artName: "RabbitHopping",
+    pageLink: "./Art/tigerlight/index.html",
+    imageLink: "./Art/tigerlight/RabbitHopping.gif",
+    author: "tigerlight",
+    githubLink: "https://github.com/tigerlight",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
