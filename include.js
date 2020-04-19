@@ -2180,6 +2180,13 @@ let cards = [
     author: "sergiorra",
     githubLink: "https://github.com/sergiorra",
   },
+  {
+    artName: "mig",
+    pageLink: "./Art/mig/index.html",
+    imageLink: "./Art/mig/squares.gif",
+    author: "mig",
+    githubLink: "https://github.com/miguel231997",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
