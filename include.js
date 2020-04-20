@@ -2215,7 +2215,16 @@ let cards = [
     author: "BH",
     githubLink: "https://github.com/huynhcongbaotran",
   },
+  {
+    artName: "3D Image Flip",
+    pageLink: "./Art/3D Image Flip/index.html",
+    imageLink: "./Art/3D Image Flip/MonaLisa.jpg",
+    author: "Cris Manrique",
+    githubLink: "https://github.com/CrisManrique",
+  },
 ];
+
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
