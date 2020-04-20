@@ -2201,6 +2201,20 @@ let cards = [
     author: "klf006",
     githubLink: "https://github.com/klf006",
   },
+   {
+    artName: "Smoke Animation",
+    pageLink: "./Art/smoke Animation/index.html",
+    imageLink: "./Art/smoke Animation/Capture.png",
+    author: "aman-cse",
+    githubLink: "https://github.com/aman-cse",
+   },
+   {
+    artName: "BH",
+    pageLink: "./Art/animationBH/index.html",
+    imageLink: "",
+    author: "BH",
+    githubLink: "https://github.com/huynhcongbaotran",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
