@@ -2200,6 +2200,13 @@ let cards = [
     imageLink: "./Art/smoke Animation/Capture.png",
     author: "aman-cse",
     githubLink: "https://github.com/aman-cse",
+   },
+   {
+    artName: "BH",
+    pageLink: "./Art/animationBH/index.html",
+    imageLink: "",
+    author: "BH",
+    githubLink: "https://github.com/huynhcongbaotran",
   },
 ];
 
