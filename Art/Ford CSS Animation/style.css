@@ -16,8 +16,8 @@ p {
 }
 
 .shadow-pop-tr {
-	-webkit-animation: shadow-pop-tr 6s cubic-bezier(0.600, -0.280, 0.735, 0.045) infinite alternate-reverse both;
-	        animation: shadow-pop-tr 6s cubic-bezier(0.600, -0.280, 0.735, 0.045) infinite alternate-reverse both;
+	-webkit-animation: shadow-pop-tr 4s cubic-bezier(0.600, -0.280, 0.735, 0.045) infinite alternate-reverse both;
+	        animation: shadow-pop-tr 4s cubic-bezier(0.600, -0.280, 0.735, 0.045) infinite alternate-reverse both;
 }
 
 /* ----------------------------------------------
