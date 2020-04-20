@@ -2194,6 +2194,13 @@ let cards = [
     author: "tigerlight",
     githubLink: "https://github.com/tigerlight",
   },
+  {
+    artName: "Picture Pop",
+    pageLink: "./Art/Ford CSS Animation/index.html",
+    imageLink: "./Art/Ford CSS Animation/Ford gif.gif",
+    author: "klf006",
+    githubLink: "https://github.com/klf006",
+  },
    {
     artName: "Smoke Animation",
     pageLink: "./Art/smoke Animation/index.html",
