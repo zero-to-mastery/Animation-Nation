@@ -2194,6 +2194,13 @@ let cards = [
     author: "tigerlight",
     githubLink: "https://github.com/tigerlight",
   },
+   {
+    artName: "Smoke Animation",
+    pageLink: "./Art/smoke Animation/index.html",
+    imageLink: "./Art/smoke Animation/Capture.png",
+    author: "aman-cse",
+    githubLink: "https://github.com/aman-cse",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
