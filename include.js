@@ -2194,6 +2194,13 @@ let cards = [
     author: "tigerlight",
     githubLink: "https://github.com/tigerlight",
   },
+    {
+    artName: "BH",
+    pageLink: "./Art/animationBH/index.html",
+    imageLink: "",
+    author: "BH",
+    githubLink: "https://github.com/huynhcongbaotran",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
