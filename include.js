@@ -2215,6 +2215,13 @@ let cards = [
     author: "BH",
     githubLink: "https://github.com/huynhcongbaotran",
   },
+  {
+    artName: "Mountain Sky",
+    pageLink: "./Art/steviesocks/index.html",
+    imageLink: "./Art/steviesocks/css-mountain-animation.gif",
+    author: "steviesocks",
+    githubLink: "https://github.com/steviesocks",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
