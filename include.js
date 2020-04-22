@@ -2223,6 +2223,13 @@ let cards = [
 		githubLink: 'https://github.com/naina010',
 	},
 	{
+		artName: 'Motivation',
+		pageLink: './Art/motivation/index.html',
+		imageLink: './Art/motivation/motivation.gif',
+		author: 'Art',
+		githubLink: 'https://github.com/artbalahadia',
+  },
+  {
 		artName: 'Doraemon-Ball',
 		pageLink: './Art/DhirajKaushik/index.html',
 		imageLink: './Art/DhirajKaushik/doremon.gif',
