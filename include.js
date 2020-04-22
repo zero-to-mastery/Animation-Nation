@@ -2222,6 +2222,13 @@ let cards = [
 		author: 'Naina',
 		githubLink: 'https://github.com/naina010',
 	},
+	{
+		artName: 'Doraemon-Ball',
+		pageLink: './Art/DhirajKaushik/index.html',
+		imageLink: './Art/DhirajKaushik/doremon.gif',
+		author: 'Dhiraj Kaushik',
+		githubLink: 'https://github.com/dhirajkaushik321',
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
