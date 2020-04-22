@@ -2222,6 +2222,13 @@ let cards = [
 		author: 'Naina',
 		githubLink: 'https://github.com/naina010',
 	},
+	{
+		artName: 'Motivation',
+		pageLink: './Art/motivation/index.html',
+		imageLink: './Art/motivation/motivation.gif',
+		author: 'Art',
+		githubLink: 'https://github.com/artbalahadia',
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
