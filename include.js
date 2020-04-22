@@ -2228,6 +2228,13 @@ let cards = [
 		imageLink: './Art/motivation/motivation.gif',
 		author: 'Art',
 		githubLink: 'https://github.com/artbalahadia',
+  },
+  {
+		artName: 'Doraemon-Ball',
+		pageLink: './Art/DhirajKaushik/index.html',
+		imageLink: './Art/DhirajKaushik/doremon.gif',
+		author: 'Dhiraj Kaushik',
+		githubLink: 'https://github.com/dhirajkaushik321',
 	},
 ];
 
@@ -2263,4 +2270,12 @@ function Shuffle(o) {
 		j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
 	);
 	return o;
+},
+
+{
+		artName: "alexandraturony87",
+		pageLink: "./Art/alexandraturony87/index.html",
+		imageLink: "./Art/alexandraturony87/ephiphany.gif",
+		author: "Alexandra Turony"
+		githubLink:"https://githun.com/alexandraturony87"
 }
