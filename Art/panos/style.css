@@ -3,6 +3,22 @@ html {
 }
 
 body {
-  background: lightseagreen;
+  background: rgb(28, 41, 40);
   text-align: center;
+}
+
+img {
+  background: transparent;
+  height: 450px;
+  width: 450px;
+  transition: background 1s, transform 0.3s 1s;
+}
+img:hover {
+  transform: rotate(90deg) translateX(200px);
+}
+.red:hover {
+  transform: translateX(300px)
+}
+.blue:hover {
+  transform: translateX(-200px)
 }
