@@ -1,3 +1,8 @@
 html {
   height: 100%;
 }
+
+body {
+  background: lightseagreen;
+  text-align: center;
+}
