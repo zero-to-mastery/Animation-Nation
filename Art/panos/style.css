@@ -17,8 +17,17 @@ img:hover {
   transform: rotate(90deg) translateX(200px);
 }
 .red:hover {
-  transform: translateX(300px)
+  /* transform: translateX(300px) */
+  animation-name: fight;
+  animation-duration: 3s;
 }
 .blue:hover {
   transform: translateX(-200px)
+}
+
+/* KEYFRAMES */
+
+@keyframes fight {
+  from {transform: translateX(0)}
+  to {transform: translateX(400px);}
 }
