@@ -2236,6 +2236,13 @@ let cards = [
 		author: 'Dhiraj Kaushik',
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
+	{
+		artName: "EverettAnimation",
+		pageLink: "./Art/EverettAnimation/index.html",
+		imageLink: "./Art/Joy/game.jpg",
+		author: 'Claudia',
+		githubLink: 'https://github.com/claudiabringaseverett'
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
