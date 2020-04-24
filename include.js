@@ -2236,6 +2236,13 @@ let cards = [
 		author: 'Dhiraj Kaushik',
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
+	{
+		artName: 'helloooo',
+		pageLink: './Art/shitman0930/index.html',
+		imageLink: './Art/shitman0930/eyes.gif',
+		author: 'shitman0930',
+		githubLink: 'https://github.com/shitman0930',
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
