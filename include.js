@@ -2236,6 +2236,13 @@ let cards = [
 		author: 'Dhiraj Kaushik',
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
+	{
+		artName: 'Hoover It',
+		pageLink: './Art/hooverit/index.html',
+		imageLink: '',
+		author: 'isimoon',
+		githubLink: 'https://github.com/isimoon',
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
