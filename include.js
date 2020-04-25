@@ -2236,6 +2236,14 @@ let cards = [
 		author: 'Dhiraj Kaushik',
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
+	{
+		artName: 'Animato',
+		pageLink: './Art/panduka_karunasena_animato/index.html',
+		imageLink: './Art/panduka_karunasena_animato/animato.gif',
+		author: 'panduka karunasena',
+		githubLink: 'https://github.com/pandukakarunasena',
+	},
+	
 ];
 
 // +--------------------------------------------------------------------------------+
