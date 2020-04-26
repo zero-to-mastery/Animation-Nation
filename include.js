@@ -2228,14 +2228,28 @@ let cards = [
 		imageLink: './Art/motivation/motivation.gif',
 		author: 'Art',
 		githubLink: 'https://github.com/artbalahadia',
-  },
-  {
+  	},
+  	{
 		artName: 'Doraemon-Ball',
 		pageLink: './Art/DhirajKaushik/index.html',
 		imageLink: './Art/DhirajKaushik/doremon.gif',
 		author: 'Dhiraj Kaushik',
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
+	{
+		artName: "alexandraturony87",
+		pageLink: "./Art/alexandraturony87/index.html",
+		imageLink: "./Art/alexandraturony87/ephiphany.gif",
+		author: "Alexandra Turony"
+		githubLink:"https://github.com/alexandraturony87"
+	},
+	{
+		artName: 'Ball Crazy',
+		pageLink: './Art/tanyamiranda/ballcrazy.html',
+		imageLink: './Art/tanyamiranda/ballcrazy.gif',
+		author: 'Tanya Miranda',
+		githubLink: 'https://github.com/tanyamiranda',
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -2272,10 +2286,3 @@ function Shuffle(o) {
 	return o;
 },
 
-{
-		artName: "alexandraturony87",
-		pageLink: "./Art/alexandraturony87/index.html",
-		imageLink: "./Art/alexandraturony87/ephiphany.gif",
-		author: "Alexandra Turony"
-		githubLink:"https://githun.com/alexandraturony87"
-}
