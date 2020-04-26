@@ -2236,6 +2236,13 @@ let cards = [
 		author: 'Dhiraj Kaushik',
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
+	{
+		artName: 'Simple Animation Trick!',
+		pageLink: './Art/mismail-541/index.html',
+		imageLink: './Art/mismail-541/simple-animation-trick.gif',
+		author: 'mismail-541',
+		githubLink: 'https://github.com/mismail-541',
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
