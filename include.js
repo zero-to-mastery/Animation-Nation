@@ -2236,6 +2236,13 @@ let cards = [
 		author: 'Dhiraj Kaushik',
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
+	{
+		artName: 'CORONA TOILET PAPER',
+		pageLink: './Art/WissAnimation/index.html',
+		imageLink: './Art/WissAnimation/Toiletpaperrun.png',
+		author: 'Wiss',
+		githubLink: 'https://github.com/Wissemfars',
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
