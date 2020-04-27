@@ -2237,6 +2237,13 @@ let cards = [
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
 	{
+		artName: 'helloooo',
+		pageLink: './Art/shitman0930/index.html',
+		imageLink: './Art/shitman0930/eyes.gif',
+		author: 'shitman0930',
+		githubLink: 'https://github.com/shitman0930',
+  },
+  {
 		artName: 'Animato',
 		pageLink: './Art/panduka_karunasena_animato/index.html',
 		imageLink: './Art/panduka_karunasena_animato/animato.gif',
