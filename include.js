@@ -2236,6 +2236,12 @@ let cards = [
 		author: 'Dhiraj Kaushik',
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
+    {
+      artName: "anishprj",
+      pageLink: "./Art/anishprj/index.html",
+      author: 'Anish Ghimire',
+	  githubLink: 'https://github.com/anishprj/',
+    },  
 	{
 		artName: 'Toshman Animation',
 		pageLink: './Art/Toshman Animation/index.html',
