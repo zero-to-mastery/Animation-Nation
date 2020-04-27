@@ -1,0 +1,29 @@
+h1 {
+	color: white;
+	display: block;
+	margin-top: 10rem;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+.centralize {
+	display: block;
+	margin-top: 10rem;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+
+  	background-color: red;
+  	animation-name: example;
+  	animation-duration: 8s;
+  	animation-iteration-count:infinite;
+}
+
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: purple;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
