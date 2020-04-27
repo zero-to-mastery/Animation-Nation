@@ -2236,6 +2236,13 @@ let cards = [
 		author: 'Dhiraj Kaushik',
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
+	{
+		artName: 'verticalBarsAnimation',
+		pageLink: './Art/verticalBarsAnimation/index.html',
+		imageLink: './Art/verticalBarsAnimation/verticalBarsAnimation.gif',
+		author: 'Marius Negru',
+		githubLink: 'https://github.com/I3lackMarius',
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
