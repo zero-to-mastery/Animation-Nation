@@ -2243,6 +2243,27 @@ let cards = [
 		author: 'Wiss',
 		githubLink: 'https://github.com/Wissemfars',
 	},
+  {
+		artName: 'verticalBarsAnimation',
+		pageLink: './Art/verticalBarsAnimation/index.html',
+		imageLink: './Art/verticalBarsAnimation/verticalBarsAnimation.gif',
+		author: 'Marius Negru',
+		githubLink: 'https://github.com/I3lackMarius',
+  },
+  {
+		artName: "Calcopod",
+		pageLink: "./Art/Calcopod/index.html",
+		imageLink: "./Art/Calcopod/giffed.gif",
+		author: "Calcopod",
+		githubLink:"https://github.com/Calcopod",
+	},
+	{
+		artName: 'Robot Dance',
+		pageLink: './Art/jnch009/index.html',
+		imageLink: './Art/jnch009/robotjnch009.gif',
+		author: 'Jeremy Ng',
+		githubLink: 'https://github.com/jnch009',
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -2277,12 +2298,4 @@ function Shuffle(o) {
 		j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
 	);
 	return o;
-},
-
-{
-		artName: "alexandraturony87",
-		pageLink: "./Art/alexandraturony87/index.html",
-		imageLink: "./Art/alexandraturony87/ephiphany.gif",
-		author: "Alexandra Turony"
-		githubLink:"https://githun.com/alexandraturony87"
 }
