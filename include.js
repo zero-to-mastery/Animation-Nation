@@ -2236,6 +2236,13 @@ let cards = [
 		author: 'Dhiraj Kaushik',
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
+	{
+		artName: 'Robot Dance',
+		pageLink: './Art/jnch009/index.html',
+		imageLink: './Art/jnch009/robotjnch009.gif',
+		author: 'Jeremy Ng',
+		githubLink: 'https://github.com/jnch009',
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
