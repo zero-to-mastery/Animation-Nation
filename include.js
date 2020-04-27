@@ -2237,6 +2237,13 @@ let cards = [
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
 	{
+		artName: 'Toshman Animation',
+		pageLink: './Art/Toshman Animation/index.html',
+		imageLink: './Art/Toshman Animation/animation demo.gif',
+		author: 'Toshman-hub',
+		githubLink: 'https://github.com/Toshman-hub',
+	},
+  {
 		artName: "alexandraturony87",
 		pageLink: "./Art/alexandraturony87/index.html",
 		imageLink: "./Art/alexandraturony87/ephiphany.gif",
