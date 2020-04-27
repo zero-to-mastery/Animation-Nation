@@ -2236,7 +2236,6 @@ let cards = [
 		author: 'Dhiraj Kaushik',
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
-
 	{
 		artName: "Calcopod",
 		pageLink: "./Art/Calcopod/index.html",
@@ -2244,6 +2243,13 @@ let cards = [
 		author: "Calcopod",
 		githubLink:"https://github.com/Calcopod",
 	},
+	{
+		artName: 'Robot Dance',
+		pageLink: './Art/jnch009/index.html',
+		imageLink: './Art/jnch009/robotjnch009.gif',
+		author: 'Jeremy Ng',
+		githubLink: 'https://github.com/jnch009',
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
