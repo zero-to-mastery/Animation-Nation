@@ -2236,6 +2236,14 @@ let cards = [
 		author: 'Dhiraj Kaushik',
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
+
+	{
+		artName: "Calcopod",
+		pageLink: "./Art/Calcopod/index.html",
+		imageLink: "./Art/Calcopod/giffed.gif",
+		author: "Calcopod",
+		githubLink:"https://github.com/Calcopod",
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -2270,12 +2278,4 @@ function Shuffle(o) {
 		j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
 	);
 	return o;
-},
-
-{
-		artName: "alexandraturony87",
-		pageLink: "./Art/alexandraturony87/index.html",
-		imageLink: "./Art/alexandraturony87/ephiphany.gif",
-		author: "Alexandra Turony"
-		githubLink:"https://githun.com/alexandraturony87"
 }
