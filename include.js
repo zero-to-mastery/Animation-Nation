@@ -2237,6 +2237,13 @@ let cards = [
 		githubLink: 'https://github.com/dhirajkaushik321',
 	},
 	{
+		artName: "EverettAnimation",
+		pageLink: "./Art/EverettAnimation/index.html",
+		imageLink: "./Art/Joy/game.jpg",
+		author: 'Claudia',
+		githubLink: 'https://github.com/claudiabringaseverett'
+  },
+  {
 		artName: 'helloooo',
 		pageLink: './Art/shitman0930/index.html',
 		imageLink: './Art/shitman0930/eyes.gif',
