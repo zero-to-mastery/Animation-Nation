@@ -2318,6 +2318,13 @@ let cards = [
 		imageLink: './Art/jnch009/robotjnch009.gif',
 		author: 'Jeremy Ng',
 		githubLink: 'https://github.com/jnch009',
+	},
+	{
+		artName: 'Equalizer',
+		pageLink: './Art/prathmeshgujar/index.html',
+		imageLink: './Art/prathmeshgujar/equalizer.gif',
+		author: 'Prathmesh Gujar',
+		githubLink: 'https://github.com/prathmeshgujar',
 	}
 ];
 
