@@ -55,6 +55,13 @@ let cards = [
 		author: 'yuwenGithub',
 		githubLink: 'https://github.com/yuwenGithub',
 	},
+    {
+      artName: "Animatron",
+      pageLink: "./Art/animatron/index.html",
+      imageLink: "./Art/animatron/trance.gif",
+      author: 'Sayan Naskar',
+	  githubLink: 'https://github.com/sayann002',
+  	},
 	{
 		artName: 'Spooktober Hacktoberfest',
 		pageLink: './Art/FredAmartey/index.html',

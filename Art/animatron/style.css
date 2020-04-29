@@ -2,7 +2,7 @@ div#one {
   height: 100px;
   width: 100%;
   background: #fbd266;
-  animation: slidein 4s linear 4s infinite alternate;
+  animation: slidein 1s linear 4s infinite alternate;
 }
 
 div#two {
@@ -16,7 +16,10 @@ div#three {
   height: 100px;
   width: 100%;
   background: #8fb0a9;
+  /*
   animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+  */
+  animation: slidein 1s linear 4s infinite alternate;
 }
 
 @keyframes slidein {
