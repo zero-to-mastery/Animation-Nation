@@ -2325,7 +2325,15 @@ let cards = [
 		imageLink: './Art/prathmeshgujar/equalizer.gif',
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
-	}
+	},
+	{
+        artName: "Animatron",
+        pageLink: "./Art/animatron/index.html",
+        imageLink: "./Art/animatron/trance.gif",
+        author:"Sujal"
+        githubLink:"https://github.com/Sujal7689"
+    }
+
 ];
 
 // +--------------------------------------------------------------------------------+
