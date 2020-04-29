@@ -13,6 +13,14 @@ let cards = [
 		author: 'nick981837',
 		githubLink: 'https://github.com/nick981837',
 	},
+
+	{
+		artName: 'Hanimation',
+		pageLink: './Art/Hanimation/index.html',
+		author: 'Hisham',
+		githubLink: 'https://github.com/heshamxa',
+	},
+	     
 	{
 		artName: 'ZTM Animation',
 		pageLink: './Art/EricPuskas/index.html',
