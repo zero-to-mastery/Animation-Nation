@@ -44,7 +44,9 @@ Now, once you've forked this repo and got a local version up on your computer, f
 let cards = [
     //  Add your card in this section
     {
-      artName: "Triangle",
-      pageLink: "./Art/Joy/triangle.html",
-      imageLink: "./Art/Joy/triangle.gif",
-      
+		artName: 'That Animation',
+		pageLink: './Art/MaKloudz/index.html',
+		imageLink: './Art/MaKloudz/dat-animation.gif',
+		author: 'Blessing Mutava',
+		githubLink: 'https://github.com/MaKloudz',
+	}

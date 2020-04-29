@@ -2341,13 +2341,13 @@ Shuffle(cards).forEach((c) => {
 	contents.push([
 		`<li class="card">` +
 			`<a href='${c.pageLink}'>` +
-			`<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+			`<img class="art-image" src='${c.imageLink}' alt='${c.artName}' onerror="this.src='previewnotfound.jpg';"/>` +
 			`</a>` +
 			`<div class="flex-content">` +
 			`<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
 			`<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
 			`</div>` +
-			`</li>`,
+			`</li>`
 	]);
 });
 
@@ -2361,3 +2361,10 @@ function Shuffle(o) {
 	);
 	return o;
 }
+
+
+// +--------------------------------------------------------------------------------+
+// +                                                                                +
+// +                  YOU DO NOT NEED TO CHANGE ANYTHING ABOVE THIS                 +
+// +                                                                                +
+// +--------------------------------------------------------------------------------+
