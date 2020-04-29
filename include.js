@@ -2319,6 +2319,12 @@ let cards = [
 		author: 'Jeremy Ng',
 		githubLink: 'https://github.com/jnch009',
 	}
+	{
+      	artName: "hover Me",
+     	 pageLink: "./Art/hoverMe/index.html",
+      	author: 'Bleron88',
+		githubLink: 'https://github.com/bleron88',
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
