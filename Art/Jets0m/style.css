@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+	width: 100%;
+	height: 100vh;
+  background: black;
+}
+
+.container {
+  position: relative;
+  height:100%;
+  width:100%;
+  margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+@keyframes wave {
+  0% {transform:scale(1);
+  background-color:blue;}
+  50% {transform:scale(1.8);
+  background-color:purple;}
+  100% {background-color:blue;}
+}
+
+.line {
+  height:2px;
+  width:75px;
+  margin-top:10px;
+  animation: wave 1.2s ease-in-out infinite;
+}
+
+.line-one {
+  animation-delay: .25s;
+}
+
+.line-two {
+  animation-delay: .5s;
+}
+
+.line-three {
+  animation-delay: .75s;
+}
+
+.line-four {
+  animation-delay: 1s;
+}
+
+.line-five {
+  animation-delay: 1.25s;
+}
