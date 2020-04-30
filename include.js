@@ -2325,7 +2325,14 @@ let cards = [
 		imageLink: './Art/prathmeshgujar/equalizer.gif',
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
-	}
+	},
+	{
+		artName: 'fire flicker',
+		pageLink: './Art/hemantrawat/index.html',
+		imageLink: './Art/hemantrawat/index.gif',
+		author: 'Hemant Rawat',
+		githubLink: 'https://github.com/He-mantRawat',
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
