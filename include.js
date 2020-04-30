@@ -2325,6 +2325,13 @@ let cards = [
 		imageLink: './Art/prathmeshgujar/equalizer.gif',
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
+	},
+	{
+		artName: 'Fan Animation',
+		pageLink: './Art/Tushar-jain/index.html',
+		imageLink: './Art/Tushar-jain/fan2.gif',
+		author: 'Tushar jain',
+		githubLink: 'https://github.com/Tusjain28',
 	}
 ];
 
