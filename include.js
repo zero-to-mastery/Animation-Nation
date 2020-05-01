@@ -2325,6 +2325,13 @@ let cards = [
 		imageLink: './Art/prathmeshgujar/equalizer.gif',
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
+	},
+	{
+		artName: 'Shimmering Stars',
+		pageLink: './Art/Pranav/index.html',
+		imageLink: './Art/Pranav/shimmering-stars.gif',
+		author: 'Pranav Sood',
+		githubLink: 'https://github.com/prnv06',
 	}
 ];
 
