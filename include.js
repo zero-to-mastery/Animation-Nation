@@ -2325,6 +2325,13 @@ let cards = [
 		imageLink: './Art/prathmeshgujar/equalizer.gif',
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
+	},
+	{
+		artName: "Animated Landing Page",
+		pageLink: "./Art/animatedLandingPage without bar/index.html",
+		imageLink: "./Art/animatedLandingPage without bar/ezgif.com-video-to-gif",
+		author: 'Aneta-s',
+		githubLink: 'https://github.com/aneta-s',
 	}
 ];
 
