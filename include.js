@@ -2325,7 +2325,14 @@ let cards = [
 		imageLink: './Art/prathmeshgujar/equalizer.gif',
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
-	}
+	},
+	{
+		artName: 'bouncing ball',
+		pageLink: './Art/bouncing ball/bouncing ball.html',
+		imageLink: './Art/bouncing ball/bouncing ball.gif',
+		author: 'Pravin deva',
+		githubLink: 'https://github.com/pravindeva',
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
