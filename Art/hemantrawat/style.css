@@ -1,0 +1,69 @@
+body {
+    background: black;
+}
+.red {
+    width: 80px;
+    height: 80px;
+    background: orangered;
+    box-shadow: 0px 0px 10px 5px orangered;
+}
+.orange {
+    left:10px;
+    width: 60px;
+    height: 60px;
+    background: orange;
+    box-shadow: 0px 0px 12px 6px orange;
+}
+.gold {
+    left:18px;
+    width: 45px;
+    height: 45px;
+    background: gold;
+    box-shadow: 0px 0px 9px 4px gold;
+}
+.white {
+    left:22px;
+    width: 35px;
+    height: 35px;
+    background: lightyellow;
+    box-shadow: 0px 0px 9px 4px lightyellow;
+}
+.blue {
+    left:32px;
+    width: 15px;
+    height: 15px;
+    background: darkblue;
+    box-shadow: 0px 0px 15px 10px darkblue;
+}
+.black {
+    left:20px;
+    width: 40px;
+    height: 40px;
+    bottom:-50px;
+    background: black;
+    box-shadow: 0px 0px 15px 10px black;
+}
+.base {
+    border-radius: 50%;
+    position: absolute;
+}
+.flame-wrapper {
+    position: absolute;
+    animation: flicker 3ms ease-in infinite;
+    top: 50%;
+    left: 50%;
+}
+.flame {
+    bottom: 0;
+    position: absolute;
+    border-radius: 50% 0% 50% 50%;
+    transform: rotate(-45deg);
+}
+@keyframes flicker {
+    0% {transform: rotate(-1deg);}
+    20% {transform: rotate(2deg) scaleY(1.05);}
+    40% {transform: rotate(-1deg);}
+    60% {transform: rotate(1deg);}
+    80% {transform: rotate(-1deg) scaleY(0.90);}
+    100% {transform: rotate(1deg);}
+}
