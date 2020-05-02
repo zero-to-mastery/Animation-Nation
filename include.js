@@ -2347,6 +2347,13 @@ let cards = [
 		author: 'Axel Avila',
 		githubLink: 'https://github.com/axavila',
 	}
+	{
+		artName: 'Magic Circle',
+		pageLink: './Art/magpiet/index.html',
+		imageLink: './Art/magpiet/gif.gif',
+		author: 'Magnus Cromwell',
+		githubLink: 'https://github.com/magpiet',
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
