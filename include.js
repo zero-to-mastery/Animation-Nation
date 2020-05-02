@@ -2327,6 +2327,13 @@ let cards = [
 		githubLink: 'https://github.com/prathmeshgujar',
 	},
 	{
+		artName: "Animated Landing Page",
+		pageLink: "./Art/animatedLandingPage without bar/index.html",
+		imageLink: "./Art/animatedLandingPage without bar/ezgif.com-video-to-gif",
+		author: 'Aneta-s',
+		githubLink: 'https://github.com/aneta-s',
+  },
+  {
 		artName: 'Goraved',
 		pageLink: './Art/goraved/index.html',
 		imageLink: './Art/goraved/goraved_animation.gif',
@@ -2346,7 +2353,7 @@ let cards = [
 		imageLink: './Art/axdev/gif.gif',
 		author: 'Axel Avila',
 		githubLink: 'https://github.com/axavila',
-	}
+	},
 	{
 		artName: 'Magic Circle',
 		pageLink: './Art/magpiet/index.html',
