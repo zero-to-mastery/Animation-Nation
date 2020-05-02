@@ -2327,6 +2327,13 @@
 		githubLink: 'https://github.com/prathmeshgujar',
 	},
 	{
+		artName: 'fire flicker',
+		pageLink: './Art/hemantrawat/index.html',
+		imageLink: './Art/hemantrawat/index.gif',
+		author: 'Hemant Rawat',
+		githubLink: 'https://github.com/He-mantRawat',
+	},
+  {
 		artName: 'Bouncing Ball',
 		pageLink: './Art/bouncingBall/bouncing ball.html',
 		imageLink: './Art/bouncingBall/bouncingball.gif',
