@@ -2332,6 +2332,20 @@ let cards = [
 		imageLink: './Art/goraved/goraved_animation.gif',
 		author: 'Roman Pobotin (Goraved)',
 		githubLink: 'https://github.com/goraved',
+  },
+  {
+		artName: 'Doraemon',
+		pageLink: './Art/Ranajit/doraemon.html',
+		imageLink: './Art/animatron/doraemon.gif',
+		author: 'Ranajit',
+		githubLink: 'https://github.com/basak-32',
+	},
+	{
+		artName: 'Ax Dev',
+		pageLink: './Art/axdev/test.html',
+		imageLink: './Art/axdev/gif.gif',
+		author: 'Axel Avila',
+		githubLink: 'https://github.com/axavila',
 	}
 ];
 
