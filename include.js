@@ -2326,6 +2326,13 @@ let cards = [
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
 	}
+	{
+		artName: 'Magic Circle',
+		pageLink: './Art/magpiet/index.html',
+		imageLink: './Art/magpiet/gif.gif',
+		author: 'Magnus Cromwell',
+		githubLink: 'https://github.com/magpiet',
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
