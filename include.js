@@ -2325,6 +2325,13 @@ let cards = [
 		imageLink: './Art/prathmeshgujar/equalizer.gif',
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
+	},
+	{
+		artName: 'Doraemon',
+		pageLink: './Art/Ranajit/doraemon.html',
+		imageLink: './Art/animatron/doraemon.gif',
+		author: 'Ranajit',
+		githubLink: 'https://github.com/basak-32',
 	}
 	{
 		artName: 'Ax Dev',
