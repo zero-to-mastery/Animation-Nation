@@ -2325,6 +2325,13 @@ let cards = [
 		imageLink: './Art/prathmeshgujar/equalizer.gif',
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
+	},
+	{
+		artName: 'Goraved',
+		pageLink: './Art/goraved/index.html',
+		imageLink: './Art/goraved/goraved_animation.gif',
+		author: 'Roman Pobotin (Goraved)',
+		githubLink: 'https://github.com/goraved',
 	}
 ];
 
