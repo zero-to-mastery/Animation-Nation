@@ -2326,6 +2326,13 @@ let cards = [
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
 	}
+	{
+		artName: 'Ax Dev',
+		pageLink: './Art/axdev/test.html',
+		imageLink: './Art/axdev/gif.gif',
+		author: 'Axel Avila',
+		githubLink: 'https://github.com/axavila',
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
