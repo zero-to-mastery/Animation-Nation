@@ -1,4 +1,4 @@
-let cards = [
+﻿let cards = [
 	{
 		artName: 'That Animation',
 		pageLink: './Art/MaKloudz/index.html',
@@ -2327,6 +2327,13 @@ let cards = [
 		githubLink: 'https://github.com/prathmeshgujar',
 	},
 	{
+		artName: 'Bouncing Ball',
+		pageLink: './Art/bouncingBall/bouncing ball.html',
+		imageLink: './Art/bouncingBall/bouncingball.gif',
+		author: 'Pravin deva',
+		githubLink: 'https://github.com/pravindeva',
+	},
+  {
 		artName: "Animated Landing Page",
 		pageLink: "./Art/animatedLandingPage without bar/index.html",
 		imageLink: "./Art/animatedLandingPage without bar/ezgif.com-video-to-gif",
