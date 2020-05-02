@@ -2327,6 +2327,13 @@
 		githubLink: 'https://github.com/prathmeshgujar',
 	},
 	{
+        artName: "Animatron",
+        pageLink: "./Art/animatron/index.html",
+        imageLink: "./Art/animatron/trance.gif",
+        author:"Sujal",
+        githubLink:"https://github.com/Sujal7689"
+    },
+   {
 		artName: 'fire flicker',
 		pageLink: './Art/hemantrawat/index.html',
 		imageLink: './Art/hemantrawat/index.gif',
