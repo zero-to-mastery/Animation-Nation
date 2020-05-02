@@ -2089,6 +2089,13 @@ let cards = [
     imageLink: "./Art/cazabe/mrRobot.png",
     author: "cazabe",
     githubLink: "https://github.com/cazabe"
+  },
+  {
+    artName: "Bouncing Ball",
+    pageLink: "./Art/Bouncing Ball/index.html",
+    imageLink: "./Art/cazabe/Bouncing Ball.gif",
+    author: "Satish Pokala",
+    githubLink: "https://github.com/Satishpokala124"
   }
 ];
 
