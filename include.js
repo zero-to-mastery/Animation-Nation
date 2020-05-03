@@ -2325,6 +2325,13 @@ let cards = [
 		imageLink: './Art/prathmeshgujar/equalizer.gif',
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
+	},
+	{
+		artName: 'Dancing Square',
+		pageLink: './Art/chansart/index.html',
+		imageLink: './Art/chansart/chansart.gif',
+		author: 'Chansart',
+		githubLink: 'https://github.com/chansart',
 	}
 ];
 
