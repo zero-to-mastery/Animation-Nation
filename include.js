@@ -2381,7 +2381,15 @@
 		imageLink: './Art/magpiet/gif.gif',
 		author: 'Magnus Cromwell',
 		githubLink: 'https://github.com/magpiet',
+	},
+	{
+		artName: 'Daredevil',
+		pageLink: './Art/daredevil/index.html',
+		imageLink: './Art/daredevil/daredevil.gif',
+		author: 'Vivek Raj',
+		githubLink: 'https://github.com/vivekrajx',
 	}
+
 ];
 
 // +--------------------------------------------------------------------------------+
