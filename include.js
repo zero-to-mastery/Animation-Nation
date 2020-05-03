@@ -2327,12 +2327,19 @@
 		githubLink: 'https://github.com/prathmeshgujar',
 	},
 	{
-        artName: "Animatron",
-        pageLink: "./Art/animatron/index.html",
-        imageLink: "./Art/animatron/trance.gif",
-        author:"Sujal",
-        githubLink:"https://github.com/Sujal7689"
-    },
+		artName: 'Dancing Square',
+		pageLink: './Art/chansart/index.html',
+		imageLink: './Art/chansart/chansart.gif',
+		author: 'Chansart',
+		githubLink: 'https://github.com/chansart',
+  },
+  {
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+    author:"Sujal",
+    githubLink:"https://github.com/Sujal7689"
+   },
    {
 		artName: 'fire flicker',
 		pageLink: './Art/hemantrawat/index.html',
