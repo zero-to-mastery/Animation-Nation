@@ -2327,6 +2327,13 @@
 		githubLink: 'https://github.com/prathmeshgujar',
 	},
 	{
+		artName: 'Shimmering Stars',
+		pageLink: './Art/Pranav/index.html',
+		imageLink: './Art/Pranav/shimmering-stars.gif',
+		author: 'Pranav Sood',
+		githubLink: 'https://github.com/prnv06',
+  },
+  {
 		artName: 'Dancing Square',
 		pageLink: './Art/chansart/index.html',
 		imageLink: './Art/chansart/chansart.gif',
