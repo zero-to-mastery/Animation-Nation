@@ -1,4 +1,4 @@
-let cards = [
+﻿let cards = [
 	{
 		artName: 'That Animation',
 		pageLink: './Art/MaKloudz/index.html',
@@ -2326,76 +2326,62 @@ let cards = [
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
 	},
-  {
-    artName: "3D Infinite Loop Sprites Cards",
-    pageLink: "./Art/luiavag/index.html",
-    imageLink: "./Art/luiavag/luiavag_3D_Infinite_Loop.gif",
-    author: "LuVAGu",
-    githubLink: "https://github.com/luiavag"
-  },
-  {
-    artName: "Star Wars",
-    pageLink: "./Art/ChiragAgarwal/index.html",
-    imageLink: "./Art/ChiragAgarwal/star_wars.gif",
-    author: "Chirag Agarwal",
-    githubLink: "https://github.com/chiragragarwal"
-  },
-  {
-    artName: "ImageGallery",
-    pageLink: "./Art/Hoverimage/index.html",
-    imageLink: "./Art/Hoverimage/hoverimage.gif",
-    author: "Siddhant Jain",
-    githubLink: "https://github.com/Sid-web6306"
-  },
-  {
-    artName: 'Grow',
-    pageLink: './Art/octavioLafourcade/index.html',
-    imageLink: './Art/octavioLafourcade/animation.gif',
-    author: 'Octavio Lafourcade',
-    githubLink: 'https://github.com/tavolafourcade',
-  },
-  {
-    artName: "Slats",
-    pageLink: "./Art/Sagaquisces/index.html",
-    imageLink: "./Art/Hoverimage/slats.gif",
-    author: "Michael David Dunlap",
-    githubLink: "https://github.com/sagaquisces"
-  },
-  {
-    artName: "Coffee",
-    pageLink: "./Art/animate-coffee/index.html",
-    imageLink: "./Art/animate-coffee/ezgif.com-video-to-gif.gif",
-    author: "Elise Welch",
-    githubLink: "https://github.com/EliseWelch"
-  },
-  {
-    artName: "sproutseeds",
-    pageLink: "./Art/sproutseeds/index.html",
-    imageLink: "https://codepen.io/_Sabine/pen/yGGLON",
-    author:"_Sabine"
-  },
-
+	{
+        artName: "Animatron",
+        pageLink: "./Art/animatron/index.html",
+        imageLink: "./Art/animatron/trance.gif",
+        author:"Sujal",
+        githubLink:"https://github.com/Sujal7689"
+    },
    {
-    artName: "aninikhil",
-    pageLink: "./Art/aninikhil/index.html",
-    imageLink: "./Art/aninikhil/nik.jpg",
-    author: "Nikhil N G",
-    githubLink: "https://github.com/nikhilng99"
+		artName: 'fire flicker',
+		pageLink: './Art/hemantrawat/index.html',
+		imageLink: './Art/hemantrawat/index.gif',
+		author: 'Hemant Rawat',
+		githubLink: 'https://github.com/He-mantRawat',
+	},
+  {
+		artName: 'Bouncing Ball',
+		pageLink: './Art/bouncingBall/bouncing ball.html',
+		imageLink: './Art/bouncingBall/bouncingball.gif',
+		author: 'Pravin deva',
+		githubLink: 'https://github.com/pravindeva',
+	},
+  {
+		artName: "Animated Landing Page",
+		pageLink: "./Art/animatedLandingPage without bar/index.html",
+		imageLink: "./Art/animatedLandingPage without bar/ezgif.com-video-to-gif",
+		author: 'Aneta-s',
+		githubLink: 'https://github.com/aneta-s',
   },
   {
-    artName: "Playballs",
-    pageLink: "./Art/playballs/index.html",
-    imageLink: "./Art/playballs/playballs.gif",
-    author: "Omar Jabaly",
-    githubLink: "https://github.com/Omarjabaly"
+		artName: 'Goraved',
+		pageLink: './Art/goraved/index.html',
+		imageLink: './Art/goraved/goraved_animation.gif',
+		author: 'Roman Pobotin (Goraved)',
+		githubLink: 'https://github.com/goraved',
   },
   {
-    artName: "simpleAnimation",
-    pageLink: "./Art/cazabe/index.html",
-    imageLink: "./Art/cazabe/mrRobot.png",
-    author: "cazabe",
-    githubLink: "https://github.com/cazabe"
-  },
+		artName: 'Doraemon',
+		pageLink: './Art/Ranajit/doraemon.html',
+		imageLink: './Art/animatron/doraemon.gif',
+		author: 'Ranajit',
+		githubLink: 'https://github.com/basak-32',
+	},
+	{
+		artName: 'Ax Dev',
+		pageLink: './Art/axdev/test.html',
+		imageLink: './Art/axdev/gif.gif',
+		author: 'Axel Avila',
+		githubLink: 'https://github.com/axavila',
+	},
+	{
+		artName: 'Magic Circle',
+		pageLink: './Art/magpiet/index.html',
+		imageLink: './Art/magpiet/gif.gif',
+		author: 'Magnus Cromwell',
+		githubLink: 'https://github.com/magpiet',
+	},
   {
     artName: "Bouncing Ball",
     pageLink: "./Art/Bouncing Ball/index.html",
