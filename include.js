@@ -2410,6 +2410,12 @@
 		author: 'Vivek Raj',
 		githubLink: 'https://github.com/vivekrajx',
 	}
+	{
+      	artName: "hover Me",
+     	 pageLink: "./Art/hoverMe/index.html",
+      	author: 'Bleron88',
+		githubLink: 'https://github.com/bleron88',
+	}
 ];
 
 // +--------------------------------------------------------------------------------+
