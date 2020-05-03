@@ -2389,6 +2389,13 @@
 		author: 'Magnus Cromwell',
 		githubLink: 'https://github.com/magpiet',
 	},
+  {
+    artName: "Bouncing Ball",
+    pageLink: "./Art/Bouncing Ball/index.html",
+    imageLink: "./Art/cazabe/Bouncing Ball.gif",
+    author: "Satish Pokala",
+    githubLink: "https://github.com/Satishpokala124"
+  },
 	{
 		artName: 'Daredevil',
 		pageLink: './Art/daredevil/index.html',
@@ -2396,7 +2403,6 @@
 		author: 'Vivek Raj',
 		githubLink: 'https://github.com/vivekrajx',
 	}
-
 ];
 
 // +--------------------------------------------------------------------------------+
