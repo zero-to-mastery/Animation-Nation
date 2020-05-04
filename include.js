@@ -2327,6 +2327,13 @@
 		githubLink: 'https://github.com/prathmeshgujar',
 	},
 	{
+		artName: 'Castle',
+		pageLink: './Art/Yakraj/index.html',
+		imageLink: './Art/Yakraj/castle.gif',
+		author: 'Yakraj',
+		githubLink: 'https://github.com/yakraj',
+  },
+  {
 		artName: 'Shimmering Stars',
 		pageLink: './Art/Pranav/index.html',
 		imageLink: './Art/Pranav/shimmering-stars.gif',
@@ -2411,9 +2418,9 @@
 		githubLink: 'https://github.com/vivekrajx',
 	},
 	{
-      	artName: "hover Me",
-     	 pageLink: "./Art/hoverMe/index.html",
-      	author: 'Bleron88',
+    artName: "hover Me",
+    pageLink: "./Art/hoverMe/index.html",
+    author: 'Bleron88',
 		githubLink: 'https://github.com/bleron88',
 	}
 ];
