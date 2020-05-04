@@ -2327,10 +2327,10 @@ let cards = [
 		githubLink: 'https://github.com/prathmeshgujar',
 	},
 	{
-		artName: 'Equalizer',
-		pageLink: './Art/prathmeshgujar/index.html',
-		imageLink: './Art/prathmeshgujar/equalizer.gif',
-		author: 'Prathmesh Gujar',
+		artName: 'Castle',
+		pageLink: './Art/Yakraj/index.html',
+		imageLink: './Art/Yakraj/castle.gif',
+		author: 'Yakraj',
 		githubLink: 'https://github.com/yakraj',
 	}
 ];
