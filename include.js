@@ -2405,8 +2405,8 @@
 	},
   {
     artName: "Bouncing Ball",
-    pageLink: "./Art/Bouncing Ball/index.html",
-    imageLink: "./Art/cazabe/Bouncing Ball.gif",
+    pageLink: "./Art/BouncingBall/index.html",
+    imageLink: "./Art/BouncingBall/BouncingBall.gif",
     author: "Satish Pokala",
     githubLink: "https://github.com/Satishpokala124"
   },
