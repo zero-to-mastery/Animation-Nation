@@ -2398,8 +2398,8 @@
 	},
   {
     artName: "Bouncing Ball",
-    pageLink: "./Art/Bouncing Ball/index.html",
-    imageLink: "./Art/cazabe/Bouncing Ball.gif",
+    pageLink: "./Art/BouncingBall/index.html",
+    imageLink: "./Art/BouncingBall/BouncingBall.gif",
     author: "Satish Pokala",
     githubLink: "https://github.com/Satishpokala124"
   },
@@ -2409,7 +2409,7 @@
 		imageLink: './Art/daredevil/daredevil.gif',
 		author: 'Vivek Raj',
 		githubLink: 'https://github.com/vivekrajx',
-	}
+	},
 	{
       	artName: "hover Me",
      	 pageLink: "./Art/hoverMe/index.html",
