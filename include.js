@@ -2363,8 +2363,8 @@
 	},
   {
 		artName: "Animated Landing Page",
-		pageLink: "./Art/animatedLandingPage without bar/index.html",
-		imageLink: "./Art/animatedLandingPage without bar/ezgif.com-video-to-gif",
+		pageLink: "./Art/animatedLandingPage01/index.html",
+		imageLink: "./Art/animatedLandingPage01/ezgif.com-video-to-gif",
 		author: 'Aneta-s',
 		githubLink: 'https://github.com/aneta-s',
   },
@@ -2409,7 +2409,7 @@
 		imageLink: './Art/daredevil/daredevil.gif',
 		author: 'Vivek Raj',
 		githubLink: 'https://github.com/vivekrajx',
-	}
+	},
 	{
       	artName: "hover Me",
      	 pageLink: "./Art/hoverMe/index.html",
