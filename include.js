@@ -1,4 +1,4 @@
-let cards = [
+﻿let cards = [
 	{
 		artName: 'That Animation',
 		pageLink: './Art/MaKloudz/index.html',
@@ -2327,6 +2327,41 @@ let cards = [
 		githubLink: 'https://github.com/prathmeshgujar',
 	},
 	{
+		artName: 'Shimmering Stars',
+		pageLink: './Art/Pranav/index.html',
+		imageLink: './Art/Pranav/shimmering-stars.gif',
+		author: 'Pranav Sood',
+		githubLink: 'https://github.com/prnv06',
+  },
+  {
+		artName: 'Dancing Square',
+		pageLink: './Art/chansart/index.html',
+		imageLink: './Art/chansart/chansart.gif',
+		author: 'Chansart',
+		githubLink: 'https://github.com/chansart',
+  },
+  {
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+    author:"Sujal",
+    githubLink:"https://github.com/Sujal7689"
+   },
+   {
+		artName: 'fire flicker',
+		pageLink: './Art/hemantrawat/index.html',
+		imageLink: './Art/hemantrawat/index.gif',
+		author: 'Hemant Rawat',
+		githubLink: 'https://github.com/He-mantRawat',
+	},
+  {
+		artName: 'Bouncing Ball',
+		pageLink: './Art/bouncingBall/bouncing ball.html',
+		imageLink: './Art/bouncingBall/bouncingball.gif',
+		author: 'Pravin deva',
+		githubLink: 'https://github.com/pravindeva',
+	},
+  {
 		artName: "Animated Landing Page",
 		pageLink: "./Art/animatedLandingPage01/index.html",
 		imageLink: "./Art/animatedLandingPage01/ezgif.com-video-to-gif",
@@ -2360,6 +2395,26 @@ let cards = [
 		imageLink: './Art/magpiet/gif.gif',
 		author: 'Magnus Cromwell',
 		githubLink: 'https://github.com/magpiet',
+	},
+  {
+    artName: "Bouncing Ball",
+    pageLink: "./Art/Bouncing Ball/index.html",
+    imageLink: "./Art/cazabe/Bouncing Ball.gif",
+    author: "Satish Pokala",
+    githubLink: "https://github.com/Satishpokala124"
+  },
+	{
+		artName: 'Daredevil',
+		pageLink: './Art/daredevil/index.html',
+		imageLink: './Art/daredevil/daredevil.gif',
+		author: 'Vivek Raj',
+		githubLink: 'https://github.com/vivekrajx',
+	},
+	{
+      	artName: "hover Me",
+     	 pageLink: "./Art/hoverMe/index.html",
+      	author: 'Bleron88',
+		githubLink: 'https://github.com/bleron88',
 	}
 ];
 
