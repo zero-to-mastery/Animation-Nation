@@ -755,6 +755,7 @@
 		author: 'Bruno Bolting',
 		githubLink: 'https://github.com/brunobolting/',
 	},
+
 	{
 		artName: 'Kawaii Penguin',
 		pageLink: './Art/Brienyll/index.html',
@@ -2421,8 +2422,19 @@
     artName: "hover Me",
     pageLink: "./Art/hoverMe/index.html",
     author: 'Bleron88',
-		githubLink: 'https://github.com/bleron88',
-	}
+	githubLink: 'https://github.com/bleron88',
+	},
+
+	{
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/colourpencils.png",
+    author: 'jahid hasan',
+    githubLink: 'https://github.com/jahidhasan299/',
+
+     }
+
+
 ];
 
 // +--------------------------------------------------------------------------------+
