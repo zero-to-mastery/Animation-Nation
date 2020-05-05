@@ -755,6 +755,7 @@
 		author: 'Bruno Bolting',
 		githubLink: 'https://github.com/brunobolting/',
 	},
+
 	{
 		artName: 'Kawaii Penguin',
 		pageLink: './Art/Brienyll/index.html',
@@ -2423,14 +2424,21 @@
     author: 'Bleron88',
 		githubLink: 'https://github.com/bleron88',
 	},
-
-    {
+  {
 		artName: 'playstation-anim',
 		pageLink: './Art/playstation-anim/index.html',
 		imageLink: './Art/playstation-anim/ps.gif',
 		author: 'seif1125',
 		githubLink: 'https://github.com/seif1125',
-	}
+	},
+	{
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/colourpencils.png",
+    author: 'jahid hasan',
+    githubLink: 'https://github.com/jahidhasan299/',
+
+   }
 ];
 
 // +--------------------------------------------------------------------------------+
