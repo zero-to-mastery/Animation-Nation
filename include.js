@@ -2422,9 +2422,15 @@
     artName: "hover Me",
     pageLink: "./Art/hoverMe/index.html",
     author: 'Bleron88',
-	githubLink: 'https://github.com/bleron88',
+		githubLink: 'https://github.com/bleron88',
 	},
-
+  {
+		artName: 'playstation-anim',
+		pageLink: './Art/playstation-anim/index.html',
+		imageLink: './Art/playstation-anim/ps.gif',
+		author: 'seif1125',
+		githubLink: 'https://github.com/seif1125',
+	},
 	{
     artName: "Animatron",
     pageLink: "./Art/animatron/index.html",
@@ -2432,9 +2438,7 @@
     author: 'jahid hasan',
     githubLink: 'https://github.com/jahidhasan299/',
 
-     }
-
-
+   }
 ];
 
 // +--------------------------------------------------------------------------------+
