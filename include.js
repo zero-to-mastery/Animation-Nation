@@ -13,6 +13,16 @@
 		author: 'nick981837',
 		githubLink: 'https://github.com/nick981837',
 	},
+
+	
+	{
+		artName: "abhishek9686",
+		pageLink: "./Art/abhishek9686/index.html",
+		imageLink: "./Art/abhishek9686/loading.gif",
+		author: "abhishek9686",
+		githubLink: 'https://github.com/abhishek9686',
+	}	
+
 	{
 		artName: 'ZTM Animation',
 		pageLink: './Art/EricPuskas/index.html',
