@@ -2422,6 +2422,13 @@
     pageLink: "./Art/hoverMe/index.html",
     author: 'Bleron88',
 		githubLink: 'https://github.com/bleron88',
+	},
+	{
+		artName: "Spin it",
+		pageLink: "./Art/b-ed/index.html",
+		imageLink: "./Art/b-ed/Hnet.com-image.gif",
+		author: "Edd",
+		githubLink: "https://github.com/b-ed"
 	}
 ];
 
