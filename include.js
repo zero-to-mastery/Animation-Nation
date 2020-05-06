@@ -21,7 +21,7 @@
 		imageLink: "./Art/abhishek9686/loading.gif",
 		author: "abhishek9686",
 		githubLink: 'https://github.com/abhishek9686',
-	}	
+	},	
 
 	{
 		artName: 'ZTM Animation',
