@@ -1,0 +1,28 @@
+body {
+  background-image: url('https://cdn.clipart.email/68292e659e44bcef3fbb381e8fb29955_cartoon-sky-background-clipart-clip-art-library_1968-1125.jpeg');
+}
+
+p {
+  padding-top: 17%;
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 800%;
+  }
+
+  75% {
+    font-size: 900%;
+    margin-left: 50%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
