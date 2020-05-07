@@ -2432,6 +2432,13 @@
 		githubLink: 'https://github.com/seif1125',
 	},
 	{
+		artName: 'Ritika',
+		pageLink: './Art/Ritika/index.html',
+		imageLink: './Art/Ritika/warrior.png',
+		author: 'Ritika',
+		githubLink: 'https://github.com/Ritika-soni',
+	},
+	{
     artName: "Animatron",
     pageLink: "./Art/animatron/index.html",
     imageLink: "./Art/animatron/colourpencils.png",
