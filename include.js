@@ -2445,6 +2445,13 @@
     author: 'jahid hasan',
     githubLink: 'https://github.com/jahidhasan299/',
 
+   },
+   {
+	artName: "Practice",
+	pageLink: "./Art/Practice/index.html",
+	imageLink: "./Art/Joy/triangle.gif",
+	author: 'MuGenFJ',
+    githubLink: 'https://github.com/MuGenFJ/',
    }
 ];
 
