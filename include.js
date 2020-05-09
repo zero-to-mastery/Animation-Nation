@@ -2404,6 +2404,13 @@
 		author: 'Magnus Cromwell',
 		githubLink: 'https://github.com/magpiet',
 	},
+	{
+		artName: 'Pulsing Circle',
+		pageLink: './Art/innape/index.html',
+		imageLink: './Art/innape/Pulsing Cirkle.gif',
+		author: 'innape',
+		githubLink: 'https://github.com/innape',
+	},
   {
     artName: "Bouncing Ball",
     pageLink: "./Art/BouncingBall/index.html",
