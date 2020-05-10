@@ -2461,11 +2461,18 @@
 
    },
    {
+	artName: "Practice",
+	pageLink: "./Art/Practice/index.html",
+	imageLink: "./Art/Joy/triangle.gif",
+	author: 'MuGenFJ',
+    githubLink: 'https://github.com/MuGenFJ/',
+   },
+   {
 		artName: "Tile",
 		pageLink: "./Art/weilincheng/index.html",
 		imageLink: "./Art/weilincheng/tile.gif",
 		author: 'weilincheng',
-		githubLink: https://github.com/weilincheng',
+		githubLink: 'https://github.com/weilincheng',
    }
 ];
 
