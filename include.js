@@ -2513,6 +2513,13 @@
    }
 ];
 
+    {
+      artName: "MexicanMustache",
+      pageLink: "./Art/AnimatedMustache/index.html",
+      imageLink: "./Art/AnimatedMustache/MexicanMustache.gif",
+      author: 'Andrés Alonso Gálvez',
+	githubLink: 'https://github.com/Dondesconton/',
+
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
