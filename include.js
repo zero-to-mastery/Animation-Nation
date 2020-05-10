@@ -14,6 +14,13 @@
 		githubLink: 'https://github.com/nick981837',
 	},
 	{
+		artName: 'Animecircles',
+		pageLink: './Art/Animecircles/index.html',
+		imageLink: './Art/animatron/',
+		author: 'Geamoding',
+		githubLink: 'https://github.com/gilbertekalea',
+	},
+	{
 		artName: 'ZTM Animation',
 		pageLink: './Art/EricPuskas/index.html',
 		imageLink: './Art/EricPuskas/index.gif',
@@ -2404,6 +2411,13 @@
 		author: 'Magnus Cromwell',
 		githubLink: 'https://github.com/magpiet',
 	},
+	{
+		artName: 'Pulsing Circle',
+		pageLink: './Art/innape/index.html',
+		imageLink: './Art/innape/Pulsing Cirkle.gif',
+		author: 'innape',
+		githubLink: 'https://github.com/innape',
+	},
   {
     artName: "Bouncing Ball",
     pageLink: "./Art/BouncingBall/index.html",
@@ -2452,6 +2466,13 @@
 	imageLink: "./Art/Joy/triangle.gif",
 	author: 'MuGenFJ',
     githubLink: 'https://github.com/MuGenFJ/',
+   },
+   {
+		artName: "Tile",
+		pageLink: "./Art/weilincheng/index.html",
+		imageLink: "./Art/weilincheng/tile.gif",
+		author: 'weilincheng',
+		githubLink: 'https://github.com/weilincheng',
    }
 ];
 
