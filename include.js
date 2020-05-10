@@ -2458,7 +2458,13 @@
     imageLink: "./Art/animatron/colourpencils.png",
     author: 'jahid hasan',
     githubLink: 'https://github.com/jahidhasan299/',
-
+	},
+	{
+		artName: "Text_Animation",
+		pageLink: "./Art/Text_Animation/index.html",
+		imageLink: "./Art/Text_Animation/text.gif",
+		author: 'Christian',
+		githubLink: 'https://github.com/mkBraga',
    },
    {
 	artName: "Practice",
