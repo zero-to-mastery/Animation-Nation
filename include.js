@@ -14,6 +14,13 @@
 		githubLink: 'https://github.com/nick981837',
 	},
 	{
+		artName: 'Animecircles',
+		pageLink: './Art/Animecircles/index.html',
+		imageLink: './Art/animatron/',
+		author: 'Geamoding',
+		githubLink: 'https://github.com/gilbertekalea',
+	},
+	{
 		artName: 'ZTM Animation',
 		pageLink: './Art/EricPuskas/index.html',
 		imageLink: './Art/EricPuskas/index.gif',
@@ -2404,6 +2411,13 @@
 		author: 'Magnus Cromwell',
 		githubLink: 'https://github.com/magpiet',
 	},
+	{
+		artName: 'Pulsing Circle',
+		pageLink: './Art/innape/index.html',
+		imageLink: './Art/innape/Pulsing Cirkle.gif',
+		author: 'innape',
+		githubLink: 'https://github.com/innape',
+	},
   {
     artName: "Bouncing Ball",
     pageLink: "./Art/BouncingBall/index.html",
@@ -2424,6 +2438,13 @@
     author: 'Bleron88',
 		githubLink: 'https://github.com/bleron88',
 	},
+	{
+		artName: "Spin it",
+		pageLink: "./Art/b-ed/index.html",
+		imageLink: "./Art/b-ed/Hnet.com-image.gif",
+		author: "Edd",
+		githubLink: "https://github.com/b-ed"
+	},
   {
 		artName: 'playstation-anim',
 		pageLink: './Art/playstation-anim/index.html',
@@ -2432,12 +2453,18 @@
 		githubLink: 'https://github.com/seif1125',
 	},
 	{
+		artName: 'Ritika',
+		pageLink: './Art/Ritika/index.html',
+		imageLink: './Art/Ritika/warrior.png',
+		author: 'Ritika',
+		githubLink: 'https://github.com/Ritika-soni',
+	},
+	{
     artName: "Animatron",
     pageLink: "./Art/animatron/index.html",
     imageLink: "./Art/animatron/colourpencils.png",
     author: 'jahid hasan',
     githubLink: 'https://github.com/jahidhasan299/',
-
 	},
 	{
 		artName: "Animatron2",
@@ -2445,9 +2472,28 @@
 		imageLink: "./Art/Animatron2/trance.gif",
 		author: 'PUNKLANCER',
 		githubLink: 'https://github.com/PUNKLANCER/',
-
-	}
-
+	},
+	{
+		artName: "Text_Animation",
+		pageLink: "./Art/Text_Animation/index.html",
+		imageLink: "./Art/Text_Animation/text.gif",
+		author: 'Christian',
+		githubLink: 'https://github.com/mkBraga',
+   },
+   {
+	artName: "Practice",
+	pageLink: "./Art/Practice/index.html",
+	imageLink: "./Art/Joy/triangle.gif",
+	author: 'MuGenFJ',
+    githubLink: 'https://github.com/MuGenFJ/',
+   },
+   {
+		artName: "Tile",
+		pageLink: "./Art/weilincheng/index.html",
+		imageLink: "./Art/weilincheng/tile.gif",
+		author: 'weilincheng',
+		githubLink: 'https://github.com/weilincheng',
+   }
 ];
 
 // +--------------------------------------------------------------------------------+
