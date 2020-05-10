@@ -2466,7 +2466,14 @@
 		imageLink: "./Art/weilincheng/tile.gif",
 		author: 'weilincheng',
 		githubLink: https://github.com/weilincheng',
-   }
+   },
+   {
+	artName: "Circle Pulse",
+	pageLink: "./Art/circle-pulse/index.html",
+	imageLink: "./Art/circle-pulse/circle-pulse.gif",
+	author: 'jmorr002',
+	githubLink: https://github.com/jmorr002',
+}
 ];
 
 // +--------------------------------------------------------------------------------+
