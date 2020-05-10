@@ -2449,6 +2449,13 @@
 		githubLink: 'https://github.com/bleron88',
 	},
 	{
+		artName: 'Adam\'s Animation',
+		pageLink: './Art/Adam\'s Animation/index.html',
+		imageLink: './Art/Adam\'s Animation/animation.gif',
+		author: 'Adam Hills',
+		githubLink: 'https://github.com/adamhills91',
+	},
+	{
 		artName: "Spin it",
 		pageLink: "./Art/b-ed/index.html",
 		imageLink: "./Art/b-ed/Hnet.com-image.gif",
