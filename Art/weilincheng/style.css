@@ -1,0 +1,63 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.element {
+    width: 100px;
+    height: 100px;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.color1 {
+    animation-name: pulse1; 
+}
+
+.color2 {
+    animation-name: pulse2; 
+}
+
+.color3 {
+    animation-name: pulse3; 
+}
+
+@keyframes pulse1 {
+    0% {
+      background-color: #FDB0C0;
+    }
+    50% {
+      background-color: #4A0100;
+    }
+    100% {
+      background-color: #FD4659;
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+      background-color: #4A0100;
+    }
+    50% {
+      background-color: #FD4659;
+    }
+    100% {
+      background-color: #FDB0C0;
+    }
+}
+
+@keyframes pulse3 {
+    0% {
+      background-color: #FD4659;
+    }
+    50% {
+      background-color: #FDB0C0;
+    }
+    100% {
+      background-color: #4A0100;
+    }
+}
