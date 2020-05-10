@@ -14,6 +14,13 @@
 		githubLink: 'https://github.com/nick981837',
 	},
 	{
+		artName: 'Animecircles',
+		pageLink: './Art/Animecircles/index.html',
+		imageLink: './Art/animatron/',
+		author: 'Geamoding',
+		githubLink: 'https://github.com/gilbertekalea',
+	},
+	{
 		artName: 'ZTM Animation',
 		pageLink: './Art/EricPuskas/index.html',
 		imageLink: './Art/EricPuskas/index.gif',
