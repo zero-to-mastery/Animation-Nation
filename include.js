@@ -2270,7 +2270,7 @@
       pageLink: "./Art/anishprj/index.html",
       author: 'Anish Ghimire',
 	  githubLink: 'https://github.com/anishprj/',
-    },  
+    },
 	{
 		artName: 'Toshman Animation',
 		pageLink: './Art/Toshman Animation/index.html',
@@ -2465,6 +2465,13 @@
     imageLink: "./Art/animatron/colourpencils.png",
     author: 'jahid hasan',
     githubLink: 'https://github.com/jahidhasan299/',
+	},
+	{
+		artName: "Animatron2",
+		pageLink: "./Art/Animatron2/index.html",
+		imageLink: "./Art/Animatron2/trance.gif",
+		author: 'PUNKLANCER',
+		githubLink: 'https://github.com/PUNKLANCER/',
 	},
 	{
 		artName: "Text_Animation",
