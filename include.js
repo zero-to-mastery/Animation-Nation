@@ -2452,6 +2452,13 @@
     author: 'jahid hasan',
     githubLink: 'https://github.com/jahidhasan299/',
 
+   },
+   {
+		artName: "Tile",
+		pageLink: "./Art/weilincheng/index.html",
+		imageLink: "./Art/weilincheng/tile.gif",
+		author: 'weilincheng',
+		githubLink: https://github.com/weilincheng',
    }
 ];
 
