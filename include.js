@@ -2276,10 +2276,10 @@
 		githubLink: 'https://github.com/pandukakarunasena',
 	},
     {
-      artName: "anishprj",
-      pageLink: "./Art/anishprj/index.html",
-      author: 'Anish Ghimire',
-	  githubLink: 'https://github.com/anishprj/',
+		artName: "anishprj",
+		pageLink: "./Art/anishprj/index.html",
+		author: 'Anish Ghimire',
+		githubLink: 'https://github.com/anishprj/',
     },
 	{
 		artName: 'Toshman Animation',
@@ -2366,11 +2366,11 @@
 		githubLink: 'https://github.com/chansart',
   },
   {
-    artName: "Animatron",
-    pageLink: "./Art/animatron/index.html",
-    imageLink: "./Art/animatron/trance.gif",
-    author:"Sujal",
-    githubLink:"https://github.com/Sujal7689"
+		artName: "Animatron",
+		pageLink: "./Art/animatron/index.html",
+		imageLink: "./Art/animatron/trance.gif",
+		author:"Sujal",
+		githubLink:"https://github.com/Sujal7689"
    },
    {
 		artName: 'fire flicker',
@@ -2429,12 +2429,12 @@
 		githubLink: 'https://github.com/innape',
 	},
   {
-    artName: "Bouncing Ball",
-    pageLink: "./Art/BouncingBall/index.html",
-    imageLink: "./Art/BouncingBall/BouncingBall.gif",
-    author: "Satish Pokala",
-    githubLink: "https://github.com/Satishpokala124"
-  },
+		artName: "Bouncing Ball",
+		pageLink: "./Art/BouncingBall/index.html",
+		imageLink: "./Art/BouncingBall/BouncingBall.gif",
+		author: "Satish Pokala",
+		githubLink: "https://github.com/Satishpokala124"
+	},
 	{
 		artName: 'Daredevil',
 		pageLink: './Art/daredevil/index.html',
@@ -2510,15 +2510,23 @@
 		imageLink: "./Art/weilincheng/tile.gif",
 		author: 'weilincheng',
 		githubLink: 'https://github.com/weilincheng',
-   }
+   },
+   {
+		artName: "NeonButtonAnimation",
+		pageLink: "./Art/NeonButtonAnimation/index.html", 
+		imageLink: "./Art/NeonButtonAnimation/NeonButton.gif",
+		author: "Tanay",
+		githubLink: "https://github.com/tanaychothani"
+   }, 
+   {
+		artName: "MexicanMustache",
+		pageLink: "./Art/AnimatedMustache/index.html",
+		imageLink: "./Art/AnimatedMustache/MexicanMustache.gif",
+		author: 'Andrés Alonso Gálvez',
+	  githubLink: 'https://github.com/Dondesconton/',
+   },
 ];
 
-    {
-      artName: "MexicanMustache",
-      pageLink: "./Art/AnimatedMustache/index.html",
-      imageLink: "./Art/AnimatedMustache/MexicanMustache.gif",
-      author: 'Andrés Alonso Gálvez',
-	githubLink: 'https://github.com/Dondesconton/',
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
