@@ -2416,6 +2416,13 @@
       	author: 'Bleron88',
 		githubLink: 'https://github.com/bleron88',
 	}
+	{
+		artName: "Happy Balloon",
+		pageLink: "./Art/ztollef/index.html",
+		imageLink: "./Art/ztollef/balloon.gif.",
+		author: 'ztollef',
+	  	githubLink: 'https://github.com/ztollef',
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
