@@ -2325,7 +2325,15 @@ let cards = [
 		imageLink: './Art/prathmeshgujar/equalizer.gif',
 		author: 'Prathmesh Gujar',
 		githubLink: 'https://github.com/prathmeshgujar',
+	},
+	{
+		artName: 'Flare Spin',
+		pageLink: './Art/mykz1608/index.html',
+		imageLink: '',
+		author: 'mykz1608',
+		githubLink: 'https://github.com/mykz1608'
 	}
+
 ];
 
 // +--------------------------------------------------------------------------------+
