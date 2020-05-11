@@ -2511,14 +2511,21 @@
 		author: 'weilincheng',
 		githubLink: 'https://github.com/weilincheng',
    }
-];
-
-    {
+   {
+      artName: "Alien",
+      pageLink: "./Art/propelahed/alien.html",
+      imageLink: "./Art/propelahed/alien.png",
+      author: 'propelahed',
+	  githubLink: 'https://github.com/propelahed',
+   },
+   {
       artName: "MexicanMustache",
       pageLink: "./Art/AnimatedMustache/index.html",
       imageLink: "./Art/AnimatedMustache/MexicanMustache.gif",
       author: 'Andrés Alonso Gálvez',
-	githubLink: 'https://github.com/Dondesconton/',
+	  githubLink: 'https://github.com/Dondesconton/',
+
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
