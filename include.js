@@ -1,4 +1,4 @@
-let cards = [
+﻿let cards = [
 	{
 		artName: 'That Animation',
 		pageLink: './Art/MaKloudz/index.html',
@@ -12,6 +12,23 @@ let cards = [
 		imageLink: './Art/animatron/trance.gif',
 		author: 'nick981837',
 		githubLink: 'https://github.com/nick981837',
+	},
+
+	
+	{
+		artName: "abhishek9686",
+		pageLink: "./Art/abhishek9686/index.html",
+		imageLink: "./Art/abhishek9686/loading.gif",
+		author: "abhishek9686",
+		githubLink: 'https://github.com/abhishek9686',
+	},	
+
+	{
+		artName: 'Animecircles',
+		pageLink: './Art/Animecircles/index.html',
+		imageLink: './Art/animatron/',
+		author: 'Geamoding',
+		githubLink: 'https://github.com/gilbertekalea',
 	},
 	{
 		artName: 'ZTM Animation',
@@ -755,6 +772,7 @@ let cards = [
 		author: 'Bruno Bolting',
 		githubLink: 'https://github.com/brunobolting/',
 	},
+
 	{
 		artName: 'Kawaii Penguin',
 		pageLink: './Art/Brienyll/index.html',
@@ -2262,7 +2280,7 @@ let cards = [
       pageLink: "./Art/anishprj/index.html",
       author: 'Anish Ghimire',
 	  githubLink: 'https://github.com/anishprj/',
-    },  
+    },
 	{
 		artName: 'Toshman Animation',
 		pageLink: './Art/Toshman Animation/index.html',
@@ -2327,14 +2345,187 @@ let cards = [
 		githubLink: 'https://github.com/prathmeshgujar',
 	},
 	{
+		artName: 'Castle',
+		pageLink: './Art/Yakraj/index.html',
+		imageLink: './Art/Yakraj/castle.gif',
+		author: 'Yakraj',
+		githubLink: 'https://github.com/yakraj',
+  },
+  {
+		artName: 'Shimmering Stars',
+		pageLink: './Art/Pranav/index.html',
+		imageLink: './Art/Pranav/shimmering-stars.gif',
+		author: 'Pranav Sood',
+		githubLink: 'https://github.com/prnv06',
+  },
+  {
+		artName: 'Dancing Square',
+		pageLink: './Art/chansart/index.html',
+		imageLink: './Art/chansart/chansart.gif',
+		author: 'Chansart',
+		githubLink: 'https://github.com/chansart',
+  },
+  {
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+    author:"Sujal",
+    githubLink:"https://github.com/Sujal7689"
+   },
+   {
+		artName: 'fire flicker',
+		pageLink: './Art/hemantrawat/index.html',
+		imageLink: './Art/hemantrawat/index.gif',
+		author: 'Hemant Rawat',
+		githubLink: 'https://github.com/He-mantRawat',
+	},
+  {
+		artName: 'Bouncing Ball',
+		pageLink: './Art/bouncingBall/bouncing ball.html',
+		imageLink: './Art/bouncingBall/bouncingball.gif',
+		author: 'Pravin deva',
+		githubLink: 'https://github.com/pravindeva',
+	},
+  {
+		artName: "Animated Landing Page",
+		pageLink: "./Art/animatedLandingPage01/index.html",
+		imageLink: "./Art/animatedLandingPage01/ezgif.com-video-to-gif",
+		author: 'Aneta-s',
+		githubLink: 'https://github.com/aneta-s',
+  },
+  {
+		artName: 'Goraved',
+		pageLink: './Art/goraved/index.html',
+		imageLink: './Art/goraved/goraved_animation.gif',
+		author: 'Roman Pobotin (Goraved)',
+		githubLink: 'https://github.com/goraved',
+  },
+  {
+		artName: 'Doraemon',
+		pageLink: './Art/Ranajit/doraemon.html',
+		imageLink: './Art/animatron/doraemon.gif',
+		author: 'Ranajit',
+		githubLink: 'https://github.com/basak-32',
+	},
+	{
+		artName: 'Ax Dev',
+		pageLink: './Art/axdev/test.html',
+		imageLink: './Art/axdev/gif.gif',
+		author: 'Axel Avila',
+		githubLink: 'https://github.com/axavila',
+	},
+	{
+		artName: 'Magic Circle',
+		pageLink: './Art/magpiet/index.html',
+		imageLink: './Art/magpiet/gif.gif',
+		author: 'Magnus Cromwell',
+		githubLink: 'https://github.com/magpiet',
+	},
+	{
+		artName: 'Pulsing Circle',
+		pageLink: './Art/innape/index.html',
+		imageLink: './Art/innape/Pulsing Cirkle.gif',
+		author: 'innape',
+		githubLink: 'https://github.com/innape',
+	},
+  {
+    artName: "Bouncing Ball",
+    pageLink: "./Art/BouncingBall/index.html",
+    imageLink: "./Art/BouncingBall/BouncingBall.gif",
+    author: "Satish Pokala",
+    githubLink: "https://github.com/Satishpokala124"
+  },
+	{
+		artName: 'Daredevil',
+		pageLink: './Art/daredevil/index.html',
+		imageLink: './Art/daredevil/daredevil.gif',
+		author: 'Vivek Raj',
+		githubLink: 'https://github.com/vivekrajx',
+	},
+	{
+    artName: "hover Me",
+    pageLink: "./Art/hoverMe/index.html",
+    author: 'Bleron88',
+		githubLink: 'https://github.com/bleron88',
+	},
+	{
+		artName: 'Adam\'s Animation',
+		pageLink: './Art/Adam\'s Animation/index.html',
+		imageLink: './Art/Adam\'s Animation/animation.gif',
+		author: 'Adam Hills',
+		githubLink: 'https://github.com/adamhills91',
+	},
+	{
+		artName: "Spin it",
+		pageLink: "./Art/b-ed/index.html",
+		imageLink: "./Art/b-ed/Hnet.com-image.gif",
+		author: "Edd",
+		githubLink: "https://github.com/b-ed"
+	},
+  {
+		artName: 'playstation-anim',
+		pageLink: './Art/playstation-anim/index.html',
+		imageLink: './Art/playstation-anim/ps.gif',
+		author: 'seif1125',
+		githubLink: 'https://github.com/seif1125',
+	},
+	{
+		artName: 'Ritika',
+		pageLink: './Art/Ritika/index.html',
+		imageLink: './Art/Ritika/warrior.png',
+		author: 'Ritika',
+		githubLink: 'https://github.com/Ritika-soni',
+	},
+	{
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/colourpencils.png",
+    author: 'jahid hasan',
+    githubLink: 'https://github.com/jahidhasan299/',
+	},
+	{
+		artName: "Animatron2",
+		pageLink: "./Art/Animatron2/index.html",
+		imageLink: "./Art/Animatron2/trance.gif",
+		author: 'PUNKLANCER',
+		githubLink: 'https://github.com/PUNKLANCER/',
+	},
+	{
+		artName: "Text_Animation",
+		pageLink: "./Art/Text_Animation/index.html",
+		imageLink: "./Art/Text_Animation/text.gif",
+		author: 'Christian',
+		githubLink: 'https://github.com/mkBraga',
+   },
+   {
+	artName: "Practice",
+	pageLink: "./Art/Practice/index.html",
+	imageLink: "./Art/Joy/triangle.gif",
+	author: 'MuGenFJ',
+    githubLink: 'https://github.com/MuGenFJ/',
+   },
+   {
+		artName: "Tile",
+		pageLink: "./Art/weilincheng/index.html",
+		imageLink: "./Art/weilincheng/tile.gif",
+		author: 'weilincheng',
+		githubLink: 'https://github.com/weilincheng',
+   },
+   {
 		artName: 'Flare Spin',
 		pageLink: './Art/mykz1608/index.html',
 		imageLink: '',
 		author: 'mykz1608',
 		githubLink: 'https://github.com/mykz1608'
 	}
-
 ];
+
+    {
+      artName: "MexicanMustache",
+      pageLink: "./Art/AnimatedMustache/index.html",
+      imageLink: "./Art/AnimatedMustache/MexicanMustache.gif",
+      author: 'Andrés Alonso Gálvez',
+	githubLink: 'https://github.com/Dondesconton/',
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
