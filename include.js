@@ -2510,6 +2510,13 @@
 		imageLink: "./Art/weilincheng/tile.gif",
 		author: 'weilincheng',
 		githubLink: 'https://github.com/weilincheng',
+   },
+   {
+		artName: "Square Color Change",
+		pageLink: "./Art/baesyc/index.html",
+		imageLink: "./Art/baesyc/square.gif",
+		author: 'Baesyc',
+		githubLink: 'https://github.com/baesyc',
    }
 ];
 
