@@ -2524,6 +2524,82 @@
 		githubLink: 'https://github.com/weilincheng',
    },
    {
+		artName: 'fire flicker',
+		pageLink: './Art/hemantrawat/index.html',
+		imageLink: './Art/hemantrawat/index.gif',
+		author: 'Hemant Rawat',
+		githubLink: 'https://github.com/He-mantRawat',
+	},
+  {
+		artName: 'Bouncing Ball',
+		pageLink: './Art/bouncingBall/bouncing ball.html',
+		imageLink: './Art/bouncingBall/bouncingball.gif',
+		author: 'Pravin deva',
+		githubLink: 'https://github.com/pravindeva',
+	},
+  {
+		artName: "Animated Landing Page",
+		pageLink: "./Art/animatedLandingPage without bar/index.html",
+		imageLink: "./Art/animatedLandingPage without bar/ezgif.com-video-to-gif",
+		author: 'Aneta-s',
+		githubLink: 'https://github.com/aneta-s',
+  },
+  {
+		artName: 'Goraved',
+		pageLink: './Art/goraved/index.html',
+		imageLink: './Art/goraved/goraved_animation.gif',
+		author: 'Roman Pobotin (Goraved)',
+		githubLink: 'https://github.com/goraved',
+  },
+  {
+		artName: 'Doraemon',
+		pageLink: './Art/Ranajit/doraemon.html',
+		imageLink: './Art/animatron/doraemon.gif',
+		author: 'Ranajit',
+		githubLink: 'https://github.com/basak-32',
+	},
+	{
+		artName: 'Ax Dev',
+		pageLink: './Art/axdev/test.html',
+		imageLink: './Art/axdev/gif.gif',
+		author: 'Axel Avila',
+		githubLink: 'https://github.com/axavila',
+	},
+	{
+		artName: 'Magic Circle',
+		pageLink: './Art/magpiet/index.html',
+		imageLink: './Art/magpiet/gif.gif',
+		author: 'Magnus Cromwell',
+		githubLink: 'https://github.com/magpiet',
+	},
+  {
+    artName: "Bouncing Ball",
+    pageLink: "./Art/Bouncing Ball/index.html",
+    imageLink: "./Art/cazabe/Bouncing Ball.gif",
+    author: "Satish Pokala",
+    githubLink: "https://github.com/Satishpokala124"
+  },
+	{
+		artName: 'Daredevil',
+		pageLink: './Art/daredevil/index.html',
+		imageLink: './Art/daredevil/daredevil.gif',
+		author: 'Vivek Raj',
+		githubLink: 'https://github.com/vivekrajx',
+	}
+	{
+      	artName: "hover Me",
+     	 pageLink: "./Art/hoverMe/index.html",
+      	author: 'Bleron88',
+		githubLink: 'https://github.com/bleron88',
+	}
+	{
+		artName: "Happy Balloon",
+		pageLink: "./Art/ztollef/index.html",
+		imageLink: "./Art/ztollef/balloon.gif.",
+		author: 'ztollef',
+	  	githubLink: 'https://github.com/ztollef',
+  },
+  {
 		artName: "Square Color Change",
 		pageLink: "./Art/baesyc/index.html",
 		imageLink: "./Art/baesyc/square.gif",
