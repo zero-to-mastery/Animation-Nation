@@ -2515,7 +2515,21 @@
     imageLink: './Art/temido_rocha_animation/TemidoRocha.gif',
     author: 'TemidoRocha',
     githubLink: 'https://github.com/TemidoRocha',
-  },
+   },
+   {
+		artName: "Tile",
+		pageLink: "./Art/weilincheng/index.html",
+		imageLink: "./Art/weilincheng/tile.gif",
+		author: 'weilincheng',
+		githubLink: 'https://github.com/weilincheng',
+   },
+   {
+		artName: "Square Color Change",
+		pageLink: "./Art/baesyc/index.html",
+		imageLink: "./Art/baesyc/square.gif",
+		author: 'Baesyc',
+		githubLink: 'https://github.com/baesyc',
+   }
 ];
 
 // +--------------------------------------------------------------------------------+
