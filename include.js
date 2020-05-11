@@ -2510,15 +2510,24 @@
 		imageLink: "./Art/weilincheng/tile.gif",
 		author: 'weilincheng',
 		githubLink: 'https://github.com/weilincheng',
-   }
+	 }
+	 {
+		artName: "MexicanMustache",
+		pageLink: "./Art/AnimatedMustache/index.html",
+		imageLink: "./Art/AnimatedMustache/MexicanMustache.gif",
+		author: 'Andrés Alonso Gálvez',
+githubLink: 'https://github.com/Dondesconton/',
+
+	}
+
+{
+	artName: "css",
+	pageLink: "./Art/2.css/index.html",
+	imageLink: "./Art/2.css/css.gif",
+}
+
 ];
 
-    {
-      artName: "MexicanMustache",
-      pageLink: "./Art/AnimatedMustache/index.html",
-      imageLink: "./Art/AnimatedMustache/MexicanMustache.gif",
-      author: 'Andrés Alonso Gálvez',
-	githubLink: 'https://github.com/Dondesconton/',
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
