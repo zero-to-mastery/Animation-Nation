@@ -2647,6 +2647,13 @@
 		imageLink: "./Art/weilincheng/tile.gif",
 		author: 'weilincheng',
 		githubLink: 'https://github.com/weilincheng',
+   },
+   {
+		artName: 'Flare Spin',
+		pageLink: './Art/mykz1608/index.html',
+		imageLink: '',
+		author: 'mykz1608',
+		githubLink: 'https://github.com/mykz1608'
 	 },
 	 {
 		artName: "MexicanMustache",
@@ -2654,7 +2661,6 @@
 		imageLink: "./Art/AnimatedMustache/MexicanMustache.gif",
 		author: 'Andrés Alonso Gálvez',
 githubLink: 'https://github.com/Dondesconton/',
-
 	},
 {
 	artName: "css",
