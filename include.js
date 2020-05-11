@@ -2667,8 +2667,22 @@ githubLink: 'https://github.com/Dondesconton/',
 		imageLink: "./Art/baesyc/square.gif",
 		author: 'Baesyc',
 		githubLink: 'https://github.com/baesyc',
-   }
-];
+   },
+    {
+      artName: "MexicanMustache",
+      pageLink: "./Art/AnimatedMustache/index.html",
+      imageLink: "./Art/AnimatedMustache/MexicanMustache.gif",
+      author: 'Andrés Alonso Gálvez',
+		githubLink: 'https://github.com/Dondesconton/',
+	},
+	{
+      artName: "Chanimation",
+      pageLink: "./Art/Chanimation/index.html",
+      imageLink: "./Art/Chanimation/dancegif.gif",
+      author: 'chandant9',
+	  githubLink: 'https://github.com/chandant9/',
+	}
+];	
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
