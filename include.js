@@ -2585,13 +2585,13 @@
 		imageLink: './Art/daredevil/daredevil.gif',
 		author: 'Vivek Raj',
 		githubLink: 'https://github.com/vivekrajx',
-	}
+	},
 	{
       	artName: "hover Me",
      	 pageLink: "./Art/hoverMe/index.html",
       	author: 'Bleron88',
 		githubLink: 'https://github.com/bleron88',
-	}
+	},
 	{
 		artName: "Happy Balloon",
 		pageLink: "./Art/ztollef/index.html",
@@ -2599,6 +2599,68 @@
 		author: 'ztollef',
 	  	githubLink: 'https://github.com/ztollef',
   },
+  {
+		artName: 'playstation-anim',
+		pageLink: './Art/playstation-anim/index.html',
+		imageLink: './Art/playstation-anim/ps.gif',
+		author: 'seif1125',
+		githubLink: 'https://github.com/seif1125',
+	},
+	{
+		artName: 'Ritika',
+		pageLink: './Art/Ritika/index.html',
+		imageLink: './Art/Ritika/warrior.png',
+		author: 'Ritika',
+		githubLink: 'https://github.com/Ritika-soni',
+	},
+	{
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/colourpencils.png",
+    author: 'jahid hasan',
+    githubLink: 'https://github.com/jahidhasan299/',
+	},
+	{
+		artName: "Animatron2",
+		pageLink: "./Art/Animatron2/index.html",
+		imageLink: "./Art/Animatron2/trance.gif",
+		author: 'PUNKLANCER',
+		githubLink: 'https://github.com/PUNKLANCER/',
+	},
+	{
+		artName: "Text_Animation",
+		pageLink: "./Art/Text_Animation/index.html",
+		imageLink: "./Art/Text_Animation/text.gif",
+		author: 'Christian',
+		githubLink: 'https://github.com/mkBraga',
+   },
+   {
+	artName: "Practice",
+	pageLink: "./Art/Practice/index.html",
+	imageLink: "./Art/Joy/triangle.gif",
+	author: 'MuGenFJ',
+    githubLink: 'https://github.com/MuGenFJ/',
+   },
+   {
+		artName: "Tile",
+		pageLink: "./Art/weilincheng/index.html",
+		imageLink: "./Art/weilincheng/tile.gif",
+		author: 'weilincheng',
+		githubLink: 'https://github.com/weilincheng',
+	 },
+	 {
+		artName: "MexicanMustache",
+		pageLink: "./Art/AnimatedMustache/index.html",
+		imageLink: "./Art/AnimatedMustache/MexicanMustache.gif",
+		author: 'Andrés Alonso Gálvez',
+githubLink: 'https://github.com/Dondesconton/',
+
+	},
+{
+	artName: "css",
+	pageLink: "./Art/2.css/index.html",
+	imageLink: "./Art/2.css/css.gif",
+},
   {
 		artName: "Square Color Change",
 		pageLink: "./Art/baesyc/index.html",
