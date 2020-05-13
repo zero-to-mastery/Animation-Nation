@@ -2694,7 +2694,14 @@ githubLink: 'https://github.com/Dondesconton/',
       imageLink: "./Art/Chanimation/dancegif.gif",
       author: 'chandant9',
 	  githubLink: 'https://github.com/chandant9/',
-	}
+  },
+  {
+    artName: "DancingGroot",
+    pageLink: "./Art/m-elina/index.html",
+    imageLink: "./Art/m-elina/groot_animation.gif",
+    author: 'Melina',
+		githubLink: 'https://github.com/m-elina/',
+  }
 ];	
 
 // +--------------------------------------------------------------------------------+
