@@ -2701,6 +2701,13 @@ githubLink: 'https://github.com/Dondesconton/',
     imageLink: "./Art/m-elina/groot_animation.gif",
     author: 'Melina',
 		githubLink: 'https://github.com/m-elina/',
+  },
+  {
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+    author: 'Andrew',
+    githubLink: 'https://github.com/andrewbom/',
   }
 ];	
 
