@@ -2701,6 +2701,13 @@ githubLink: 'https://github.com/Dondesconton/',
     imageLink: "./Art/m-elina/groot_animation.gif",
     author: 'Melina',
 		githubLink: 'https://github.com/m-elina/',
+  },
+  {
+    artName: "Zai's Orbitron",
+    pageLink: "./Art/zai/index.html",
+    imageLink: "./Art/zai/zais_orbitron.gif",
+    author: '5amm5',
+		githubLink: 'https://github.com/5amm5965/',
   }
 ];	
 
