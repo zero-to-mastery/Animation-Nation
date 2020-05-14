@@ -2706,7 +2706,7 @@ githubLink: 'https://github.com/Dondesconton/',
     artName: "Animatron",
     pageLink: "./Art/animatron/index.html",
     imageLink: "./Art/animatron/trance.gif",
-    author: 'Andrew',
+    author: 'Andrew', 
     githubLink: 'https://github.com/andrewbom/',
   }
 ];	
