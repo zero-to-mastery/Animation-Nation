@@ -2708,8 +2708,15 @@ githubLink: 'https://github.com/Dondesconton/',
     imageLink: "./Art/zai/zais_orbitron.gif",
     author: '5amm5',
 		githubLink: 'https://github.com/5amm5965/',
-  }
-];	
+  }, 
+  {
+	artName: "Color Change Squares",
+    pageLink: "./Art/Squares/index.html",
+    imageLink: "./Art/Squares/boxes.gif",
+    author: 'Sara',
+		githubLink: 'https://github.com/Ms091800/'
+  }	 
+]; 
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
