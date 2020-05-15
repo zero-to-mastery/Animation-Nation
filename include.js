@@ -2708,8 +2708,16 @@ githubLink: 'https://github.com/Dondesconton/',
     imageLink: "./Art/zai/zais_orbitron.gif",
     author: '5amm5',
 		githubLink: 'https://github.com/5amm5965/',
+  },
+  {
+    artName: "ani-3d",
+    pageLink: "./Art/ani-3d/ani-3d.html",
+    imageLink: "./Art/ani-3d/ani-3d.gif",
+    author: 'clyde166',
+		githubLink: 'https://github.com/clyde166/',
   }
-];	
+]
+ 
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
