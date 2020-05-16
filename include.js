@@ -2708,6 +2708,13 @@ githubLink: 'https://github.com/Dondesconton/',
     imageLink: "./Art/zai/zais_orbitron.gif",
     author: '5amm5',
 		githubLink: 'https://github.com/5amm5965/',
+  },
+  {
+    artName: "Boy",
+    pageLink: "./Art/Boy/index.html",
+    imageLink: "./Art/Boy/Boy with house.png",
+    author: 'Gajhendran',
+		githubLink: 'https://github.com/Gajhendran/',
   }
 ];	
 
