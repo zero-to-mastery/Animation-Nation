@@ -2700,7 +2700,14 @@
     pageLink: "./Art/m-elina/index.html",
     imageLink: "./Art/m-elina/groot_animation.gif",
     author: 'Melina',
-    githubLink: 'https://github.com/m-elina/',
+		githubLink: 'https://github.com/m-elina/',
+  },
+  {
+    artName: "rainbows",
+    pageLink: "./Art/vassilchiev/index.html",
+    imageLink: "./Art/vassilchiev/giphy.gif",
+    author: 'Vassil',
+    githubLink: 'https://github.com/vassilchiev/',
   },
   {
     artName: "Zai's Orbitron",
