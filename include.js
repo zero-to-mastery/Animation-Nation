@@ -2708,6 +2708,13 @@ githubLink: 'https://github.com/Dondesconton/',
     imageLink: "./Art/zai/zais_orbitron.gif",
     author: '5amm5',
 		githubLink: 'https://github.com/5amm5965/',
+  },
+  {
+    artName: "Funimation",
+    pageLink: "./Art/Funimation/index.html",
+    imageLink: "./Art/Funimation/Funimation.gif",
+    author: 'Pratik',
+		githubLink: 'https://github.com/pratikrana1998/',
   }
 ];	
 
