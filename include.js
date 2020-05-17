@@ -2708,15 +2708,43 @@
     imageLink: "./Art/zai/zais_orbitron.gif",
     author: '5amm5',
     githubLink: 'https://github.com/5amm5965/',
-  }
+  },
   {
     artName: "404's crying baby page",
     pageLink: "./Art/papfal/index.html",
     imageLink: "./Art/papfal/HTML-404-Crying-Baby-Page.gif",
     author: 'papfal',
     githubLink: 'https://github.com/papfal/',
+  },
+  {
+    artName: "ani-3d",
+    pageLink: "./Art/ani-3d/ani-3d.html",
+    imageLink: "./Art/ani-3d/ani-3d.gif",
+    author: 'clyde166',
+		githubLink: 'https://github.com/clyde166/',
+  },
+  {
+    artName: "Boy",
+    pageLink: "./Art/Boy/index.html",
+    imageLink: "./Art/Boy/Boy with house.png",
+    author: 'Gajhendran',
+		githubLink: 'https://github.com/Gajhendran/',
+  },
+   {
+    artName: "Funimation",
+    pageLink: "./Art/Funimation/index.html",
+    imageLink: "./Art/Funimation/Funimation.gif",
+    author: 'Pratik',
+		githubLink: 'https://github.com/pratikrana1998/',
+  },
+  {
+    artName: "Jungle Monkey",
+    pageLink: "./Art/AMCodin/index.html",
+    imageLink: "./Art/AMCodin/monkey.gif",
+    author: "AMCodin",
+    githubLink: "https://github.com/amcodin"
   }
-];
+]
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
