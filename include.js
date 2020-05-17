@@ -2703,6 +2703,13 @@
 		githubLink: 'https://github.com/m-elina/',
   },
   {
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+    author: 'Andrew', 
+    githubLink: 'https://github.com/andrewbom/',
+  },
+   {
     artName: "rainbows",
     pageLink: "./Art/vassilchiev/index.html",
     imageLink: "./Art/vassilchiev/giphy.gif",
