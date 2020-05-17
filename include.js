@@ -2710,6 +2710,13 @@ githubLink: 'https://github.com/Dondesconton/',
 		githubLink: 'https://github.com/5amm5965/',
   },
   {
+    artName: "ani-3d",
+    pageLink: "./Art/ani-3d/ani-3d.html",
+    imageLink: "./Art/ani-3d/ani-3d.gif",
+    author: 'clyde166',
+		githubLink: 'https://github.com/clyde166/',
+  },
+  {
     artName: "Boy",
     pageLink: "./Art/Boy/index.html",
     imageLink: "./Art/Boy/Boy with house.png",
@@ -2730,7 +2737,8 @@ githubLink: 'https://github.com/Dondesconton/',
     author: "AMCodin",
     githubLink: "https://github.com/amcodin"
   }
-];	
+]
+ 
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
