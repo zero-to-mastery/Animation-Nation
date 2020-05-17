@@ -2710,12 +2710,19 @@ githubLink: 'https://github.com/Dondesconton/',
 		githubLink: 'https://github.com/5amm5965/',
   },
   {
+    artName: "Boy",
+    pageLink: "./Art/Boy/index.html",
+    imageLink: "./Art/Boy/Boy with house.png",
+    author: 'Gajhendran',
+		githubLink: 'https://github.com/Gajhendran/',
+  },
+   {
     artName: "Funimation",
     pageLink: "./Art/Funimation/index.html",
     imageLink: "./Art/Funimation/Funimation.gif",
     author: 'Pratik',
 		githubLink: 'https://github.com/pratikrana1998/',
-  }
+  },
   {
     artName: "Jungle Monkey",
     pageLink: "./Art/AMCodin/index.html",
