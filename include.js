@@ -2709,6 +2709,13 @@ githubLink: 'https://github.com/Dondesconton/',
     author: '5amm5',
 		githubLink: 'https://github.com/5amm5965/',
   }
+  {
+    artName: "Jungle Monkey",
+    pageLink: "./Art/AMCodin/index.html",
+    imageLink: "./Art/AMCodin/monkey.gif",
+    author: "AMCodin",
+    githubLink: "https://github.com/amcodin"
+  }
 ];	
 
 // +--------------------------------------------------------------------------------+
