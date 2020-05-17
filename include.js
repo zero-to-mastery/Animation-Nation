@@ -2715,6 +2715,27 @@ githubLink: 'https://github.com/Dondesconton/',
     imageLink: "./Art/ani-3d/ani-3d.gif",
     author: 'clyde166',
 		githubLink: 'https://github.com/clyde166/',
+  },
+  {
+    artName: "Boy",
+    pageLink: "./Art/Boy/index.html",
+    imageLink: "./Art/Boy/Boy with house.png",
+    author: 'Gajhendran',
+		githubLink: 'https://github.com/Gajhendran/',
+  },
+   {
+    artName: "Funimation",
+    pageLink: "./Art/Funimation/index.html",
+    imageLink: "./Art/Funimation/Funimation.gif",
+    author: 'Pratik',
+		githubLink: 'https://github.com/pratikrana1998/',
+  },
+  {
+    artName: "Jungle Monkey",
+    pageLink: "./Art/AMCodin/index.html",
+    imageLink: "./Art/AMCodin/monkey.gif",
+    author: "AMCodin",
+    githubLink: "https://github.com/amcodin"
   }
 ]
  
