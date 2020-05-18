@@ -575,14 +575,13 @@
 		githubLink: 'https://github.com/akmalist',
 	},
 	{
-		 {
       artName: "3D css animation",
       pageLink: "./Art/animationtion/index.html",
       imageLink: "./Art/animation/css3drotate.gif",
       author: "christ",
       githubLink: 'https://github.com/christ-87',
       
-	}
+	},
 	{
 		artName: 'Hacktoberfest 2019!',
 		pageLink: './Art/RedSquirrrel/index.html',
