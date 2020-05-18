@@ -3522,7 +3522,14 @@
     imageLink: "./Art/AMCodin/monkey.gif",
     author: "AMCodin",
     githubLink: "https://github.com/amcodin"
+  },
+  {
+    artName: "Rocket Annimation",
+    pageLink: "./Art/Rocket Annimation/index.html",
+    author: "Gaurav",
+    githubLink: "https://github.com/Gauravdada"
   }
+
 ]
 
 // +--------------------------------------------------------------------------------+
