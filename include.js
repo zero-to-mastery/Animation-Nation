@@ -3522,7 +3522,14 @@
     imageLink: "./Art/AMCodin/monkey.gif",
     author: "AMCodin",
     githubLink: "https://github.com/amcodin"
-  }
+  },
+  {
+    artName: "bellow",
+    pageLink: "./Art/fran/index.html",
+    imageLink: "./Art/fran/bellow.gif",
+    author: "franzwah",
+    githubLink: "https://github.com/franzwah"
+  }  
 ]
 
 // +--------------------------------------------------------------------------------+
