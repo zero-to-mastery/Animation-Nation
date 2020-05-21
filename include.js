@@ -3519,7 +3519,14 @@
     imageLink: "./Art/AMCodin/monkey.gif",
     author: "AMCodin",
     githubLink: "https://github.com/amcodin"
-  }
+  },
+  {
+  	artName: 'Meteor Shower',
+	pageLink: './Art/Jem/index.html',
+	imageLink: './Art/Jem/preview.png',
+	author: 'Jem Gallego',
+	githubLink: 'https://github.com/jemgallego',
+  } 
 ]
 
 // +--------------------------------------------------------------------------------+

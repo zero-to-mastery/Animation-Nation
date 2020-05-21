@@ -1,0 +1,179 @@
+html, body {
+    height: 100%;
+    margin: auto 0;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Amatic SC', sans-serif;
+    color: #fff;
+    font-size: 8em;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.fade-in-top {
+    -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.star-cluster {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+
+    background-image: 
+        radial-gradient(0.8px 0.8px at 10px 20px, #eee, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 20px 35px, #fff, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 26px 60px, #ddd, rgba(0,0,0,0)),
+        radial-gradient(1px 1px at 6px 50px, #fff, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 60px 70px, #fff, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 70px 45px, #ddd, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 20px 84px, #eee, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 35px 15px, #fff, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 46px 20px, #ddd, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 50px 30px, #fff, rgba(0,0,0,0)),
+        radial-gradient(1px 1px at 47px 54px, #fff, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 80px 25px, #ddd, rgba(0,0,0,0)),
+        radial-gradient(1px 1px at 60px 4px, #eee, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 78px 69px, #fff, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 86px 14px, #ddd, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 90px 37px, #fff, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 67px 31px, #fff, rgba(0,0,0,0)),
+        radial-gradient(0.8px 0.8px at 90px 85px, #ddd, rgba(0,0,0,0));
+    background-repeat: repeat;
+    background-size: 90px 90px;
+ 
+    -webkit-animation: drift 200s infinite linear;
+    animation: drift 200s infinite linear;
+}
+
+@-webkit-keyframes drift {
+   0% { left: -200%; }
+   100% {left: 0%;}
+}
+
+@keyframes drift {
+   0% { left: -200%; }
+   100% {left: 0%;}
+}
+
+.shooting-star {
+    position: absolute;
+    height: 2px;
+    width: 2px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.position1 {
+    top: 0px;
+    right: 400px;
+
+    -webkit-animation: trajectory1 7s infinite;
+    animation: trajectory1 7s infinite;
+}
+
+.position2 {
+    top:0;
+    right: -10px;
+
+    -webkit-animation: trajectory1 6s infinite;
+    -webkit-animation-delay: 8s;
+    animation: trajectory1 6s infinite;
+    animation-delay: 8s;
+}
+
+.position3 {
+    top: 50px;
+    right: -400px;
+
+    -webkit-animation: trajectory1 8s infinite;
+    -webkit-animation-delay: 4s;
+    animation: trajectory1 8s infinite;
+    animation-delay: 4s;
+}
+
+.position4 {
+    top: 80px;
+    right: -600px;
+
+    -webkit-animation: trajectory1 8s infinite;
+    -webkit-animation-delay: 10s;
+    animation: trajectory1 8s infinite;
+    animation-delay: 10s;
+}
+
+.position5 {
+    top: 180px;
+    right: -600px;
+
+    -webkit-animation: trajectory2 6s infinite;
+    -webkit-animation-delay: 5s;
+    animation: trajectory2 6s infinite;
+    animation-delay: 5s;
+}
+
+.position6 {
+    top: 120px;
+    right: -400px;
+
+    -webkit-animation: trajectory2 7s infinite;    
+    -webkit-animation-delay: 12s;
+    animation: trajectory2 7s infinite;    
+    animation-delay: 12s;
+}
+
+
+@-webkit-keyframes trajectory1 {
+    0%       { transform: translate(10px,-10px); }
+    100%     { transform: translate(-2400px,1600px); }
+}
+
+@keyframes trajectory1 {
+    0%       { transform: translate(10px,-10px); }
+    100%     { transform: translate(-2400px,1600px); }
+}
+
+@-webkit-keyframes trajectory2 {
+    0%       { transform: translate(10px,-10px); }
+    100%     { transform: translate(-3400px,800px); }
+}
+
+@ keyframes trajectory2 {
+    0%       { transform: translate(10px,-10px); }
+    100%     { transform: translate(-3400px,800px); }
+}
+
