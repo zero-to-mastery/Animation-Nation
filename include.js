@@ -573,12 +573,12 @@
 		author: 'Aki',
 		githubLink: 'https://github.com/akmalist',
 	},
-	{
-      artName: "3D css animation",
-      pageLink: "./Art/animationtion/index.html",
-      imageLink: "./Art/animation/css3drotate.gif",
-      author: "christ",
-      githubLink: 'https://github.com/christ-87',
+  	{
+	    artName: "3D css animation",
+	    pageLink: "./Art/animationtion/index.html",
+	    imageLink: "./Art/animation/css3drotate.gif",
+	    author: "christ",
+	    githubLink: 'https://github.com/christ-87',
 	},
 	{
 		artName: 'Hacktoberfest 2019!',
@@ -3526,7 +3526,21 @@
 	imageLink: './Art/Jem/preview.png',
 	author: 'Jem Gallego',
 	githubLink: 'https://github.com/jemgallego',
-  } 
+  }, 
+{
+    artName: "bellow",
+    pageLink: "./Art/fran/index.html",
+    imageLink: "./Art/fran/bellow.gif",
+    author: "franzwah",
+    githubLink: "https://github.com/franzwah"
+  },
+   {
+    artName: "Typing Indicator",
+    pageLink: "./Art/jacob-bacon/index.html",
+    imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
+    author: "jacob-bacon",
+    githubLink: "https://github.com/jacob-bacon"
+  }
 ]
 
 // +--------------------------------------------------------------------------------+
