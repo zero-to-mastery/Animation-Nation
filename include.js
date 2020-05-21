@@ -3534,7 +3534,16 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
+  },
+  {
+    artName: "Three boxes",
+    pageLink: "./Art/yennhi/index.html",
+    imageLink: "./Art/yennhi/threeboxes.gif",
+    author: "Jenny Nguyen",
+    githubLink: "https://github.com/Jenny2930"
   }
+
+
 ]
 
 // +--------------------------------------------------------------------------------+
