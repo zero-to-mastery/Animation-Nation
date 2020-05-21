@@ -3522,6 +3522,13 @@
     githubLink: "https://github.com/amcodin"
   },
   {
+    artName: "bellow",
+    pageLink: "./Art/fran/index.html",
+    imageLink: "./Art/fran/bellow.gif",
+    author: "franzwah",
+    githubLink: "https://github.com/franzwah"
+  },
+   {
     artName: "Typing Indicator",
     pageLink: "./Art/jacob-bacon/index.html",
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
