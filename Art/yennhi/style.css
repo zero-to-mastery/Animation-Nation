@@ -1,0 +1,23 @@
+div#one {
+	height: 100px;
+	width: 100%;
+	background: #40B0BF;
+	animation: slideInDown .5s linear 1s infinite; /* referring directly to the animation's @keyframe declaration */
+  	/*animation-duration: .5s;*/ /* don't forget to set a duration! */
+}
+
+div#two {
+	height: 100px;
+	width: 100%;
+	background: #4071BF;
+	animation: slideInLeft .5s linear 1s infinite; /* referring directly to the animation's @keyframe declaration */
+  	/*animation-duration: .5s;*/ /* don't forget to set a duration! */
+}
+
+div#three {
+	height: 100px;
+	width: 100%;
+	background: #40BF8E;
+	animation: slideInRight .5s linear 1s infinite; /* referring directly to the animation's @keyframe declaration */
+  	/*animation-duration: .5s;*/ /* don't forget to set a duration! */
+}
