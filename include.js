@@ -3522,6 +3522,13 @@
     imageLink: "./Art/AMCodin/monkey.gif",
     author: "AMCodin",
     githubLink: "https://github.com/amcodin"
+  },
+  {
+    artName: "Three_boxes",
+    pageLink: "./Art/yennhi/index.html",
+    imageLink: "./Art/yennhi/threeboxes.gif",
+    author: "Jenny Nguyen",
+    githubLink: "https://github.com/Jennyng2930"
   }
 ]
 
