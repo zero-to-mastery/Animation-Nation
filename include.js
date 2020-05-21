@@ -3524,6 +3524,14 @@
     githubLink: "https://github.com/amcodin"
   },
 
+   {
+    artName: "Dancing Boxes",
+    pageLink: "./Art/yennhi/index.html",
+    imageLink: "./Art/yennhi/threeboxes.gif",
+    author: "Jenny Nguyen",
+    githubLink: "https://github.com/Jennyng2930"
+  }
+
 ]
 
 // +--------------------------------------------------------------------------------+
