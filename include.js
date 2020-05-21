@@ -2194,6 +2194,13 @@ let cards = [
     author: "tigerlight",
     githubLink: "https://github.com/tigerlight",
   },
+  {
+    artName: "ColorChange",
+    pageLink: "./Art/Colorchange-BH/colorchange.html",
+    imageLink: "",
+    author: "Colorchange-BH",
+    githubLink: "https://github.com/huynhcongbaotran",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
