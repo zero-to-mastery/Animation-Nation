@@ -3469,7 +3469,7 @@
     artName: "Animatron",
     pageLink: "./Art/animatron/index.html",
     imageLink: "./Art/animatron/trance.gif",
-    author: 'Andrew', 
+    author: 'Andrew',
     githubLink: 'https://github.com/andrewbom/',
   },
    {
@@ -3522,19 +3522,19 @@
     githubLink: "https://github.com/amcodin"
   },
   {
-    artName: "bellow",
-    pageLink: "./Art/fran/index.html",
-    imageLink: "./Art/fran/bellow.gif",
-    author: "franzwah",
-    githubLink: "https://github.com/franzwah"
-  },
-   {
     artName: "Typing Indicator",
     pageLink: "./Art/jacob-bacon/index.html",
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
-  }
+  },
+	{
+		artName: "Heartbeat",
+		pageLink: "./Art/brose55/heartbeat.html",
+		imageLink: "./Art/brose55/heartbeat.gif",
+		author: "brose55",
+		githubLink: "https://github.com/brose55"
+	}
 ]
 
 // +--------------------------------------------------------------------------------+
