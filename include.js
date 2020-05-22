@@ -3534,7 +3534,14 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
-  }
+  },
+  {
+		artName: 'ZigZag',
+		pageLink: './Art/Sujata/index.html',
+		imageLink: './Art/Sujata/ZigZag.png',
+		author: 'Sujata',
+		githubLink: 'https://github.com/sujata13',
+	},
 ]
 
 // +--------------------------------------------------------------------------------+
