@@ -3535,6 +3535,13 @@
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
   }
+  {
+    artName: "TranslateX",
+    pageLink: "./Art/translate/index.html",
+    imageLink: "./Art/translate/translate.jpg",
+    author: "Alessandro-Mosca",
+    githubLink: "https://github.com/greghowe79"
+  }
 ]
 
 // +--------------------------------------------------------------------------------+
