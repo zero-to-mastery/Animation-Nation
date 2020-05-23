@@ -1,0 +1,162 @@
+body {
+    background-color: black;
+}
+
+#window {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.div-shell {
+    display: flexbox;
+    height: 45vw;
+    width: 30vw;
+}
+
+.ball {
+    /* display: block; */
+    position: relative;
+    border: 1px solid transparent;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: linear-gradient(35deg, rgb(238, 2, 159), rgb(116, 166, 241));
+    /* box-shadow: 9px 10px 12px 2px #dad2d2; */
+    margin: auto;
+}
+
+.bouncing-ball {
+    animation-name: bounce-bottom;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.rotating-ball {
+    animation: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: ease-in;
+}
+
+.drunk-ball {
+    animation: drunk;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: ease-in;
+}
+
+@keyframes bounce-bottom {
+    0% {
+        top: 0vw;
+    }
+    50% {
+        top: 30vw;
+        width: 18vw;
+        height: 13vw;
+        /* box-shadow: 1px 20px 20px 2px #dad2d2; */
+    }
+    100% {
+        top: 0vw;
+    }
+}
+
+@keyframes bounce-right {
+    0% {
+        left: -20vw;
+    }
+    50% {
+        left: 40vw;
+        opacity: 0;
+    }
+    100% {
+        left: -20vw;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        top: 0vw;
+        left: 0vw;
+    }
+    25% {
+        left: 5vw;
+    }
+    50% {
+        top: 30vw;
+        left: 0vw;
+        transform: rotate(100000deg);
+    }
+    75% {
+        top: 20vw;
+        left: -5vw;
+    }
+    100% {
+        top: 0vw;
+        left: 0vw;
+    }
+}
+
+@keyframes drunk {
+    0% {
+        top: 0vw;
+        left: 0vw;
+    }
+    17% {
+        top: 5vw;
+        left: 8vw;
+    }
+    34% {
+        top: 10vw;
+        left: -10vw;
+    }
+    51% {
+        top: 15vw;
+        left: 8vw;
+    }
+    68% {
+        top: 20vw;
+        left: -10vw;
+    }
+    85% {
+        top: 25vw;
+        left: 8vw;
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 0;
+        top: 30vw;
+        left: -10vw;
+    }
+}
+
+@media (max-width:900px) {
+    #window {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .div-shell {
+        display: flexbox;
+        height: 80vw;
+        width: 85vw;
+    }
+    .ball {
+        position: relative;
+        border: 1px solid transparent;
+        width: 180px;
+        height: 190px;
+        border-radius: 50%;
+        background: linear-gradient(35deg, rgb(255, 45, 185), rgb(41, 124, 248));
+        /* box-shadow: 9px 10px 12px 2px #dad2d2; */
+        margin-top: auto;
+    }
+    .bouncing-ball {
+        margin-top: 12vw;
+        animation-name: bounce-right;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+    }
+}
