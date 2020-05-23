@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pulsing Circle</title>
+  <style>
+    #container {
+      width: 600px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+ 
+    .circle {
+      border-radius: 50%;
+      background-color: deepskyblue;
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      opacity: 0;
+      animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
+    }
+ 
+    .item {
+      z-index: 100;
+      padding: 5px;
+    }
+ 
+    .item img {
+      width: 150px;
+    }
+
+    @keyframes scaleIn {
+    from {
+      transform: scale(.5, .5);
+      opacity: .5;
+      }
+    to {
+      transform: scale(2.5, 2.5);
+      opacity: 0;
+      }
+    }
+
+  </style>
+</head>
+ 
+<body>
+ 
+  <div id="outerContainer">
+    <div id="container">
+      <div class="item">
+        <img src="./orange.png"></img>
+      </div>
+      <div class="circle" style="animation-delay: -3s"></div>
+      <div class="circle" style="animation-delay: -2s"></div>
+      <div class="circle" style="animation-delay: -1s"></div>
+      <div class="circle" style="animation-delay: 0s"></div>
+    </div>
+  </div>
+</body>
+ 
+</html>

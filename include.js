@@ -3534,6 +3534,13 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
+  },
+   {
+    artName: "Circle Animation",
+    pageLink: "./Art/BhattusCircleAnimation/index.html",
+    imageLink: "./Art/BhattusCircleAnimation/bhattu_cir_ani_crop.gif",
+    author: "Ajay Bhatnagar",
+    githubLink: "https://github.com/bhatnagarajay"
   }
 ]
 
