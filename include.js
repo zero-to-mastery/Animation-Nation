@@ -1,5 +1,13 @@
 ﻿let cards = [
 
+	 {
+      artName: "covid-19",
+      pageLink: "./Art/shivam12k/index.html",
+      videoLink: "./Art/cell/cell.mp4",
+      author:'shivam12k',
+      githubLink:'https://github.com/shivam12k'
+      },
+
 	{
 		artName: 'That Animation',
 		pageLink: './Art/MaKloudz/index.html',
