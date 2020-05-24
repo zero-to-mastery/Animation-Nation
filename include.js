@@ -3542,7 +3542,15 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
-  }
+  },
+  
+    {
+      artName: "dontknowyet",
+      pageLink: "./Art/Joy/index.html",
+      imageLink: "./Art/Joy/dontknowyet.gif",
+      author: "yun"
+      githubLink: "https://github.com/yun230"
+    }
 ]
 
 // +--------------------------------------------------------------------------------+
