@@ -3535,6 +3535,13 @@
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
   }
+  {
+    artName: "Adi",
+    pageLink: "./Art/Adi/index.html",
+    imageLink: "./Art/Adi/flip shadow pop.gif",
+    author: "aditya",
+    githubLink: "https://github.com/adiityax"
+  }
 ]
 
 // +--------------------------------------------------------------------------------+
