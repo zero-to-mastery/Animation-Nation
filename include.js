@@ -3534,7 +3534,14 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
-  }
+  },
+   {
+      artName: "Double balls",
+      pageLink: "./Art/HanYolof/index.html",
+      imageLink: "./Art/HanYolof/double-balls.gif",
+      author: "HanYolof",
+      githubLink: "https://github.com/HanYolof/"
+   },
 ]
 
 // +--------------------------------------------------------------------------------+

@@ -1,0 +1,51 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background-color: #D3D3D3;
+}
+
+.bing{
+	display: block;
+  background: black;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.bang {
+	display: block;
+  background: white;
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  top: 50%;
+  margin:0 auto;
+  position: relative;
+  animation: bang 3s infinite;	
+  animation-direction: alternate;
+}
+
+@keyframes bang {
+	0% {top: 15%; background: black; height: 75px; width: 75px;}
+   100% {bottom: 0px; background: white; height: 150px; width: 150px;}
+}
+
+.bong {
+	display: block;
+  background: white;
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  top: 50%;
+  margin:0 auto;
+  position: relative;
+  animation: bong 3s infinite;	
+  animation-direction: alternate;
+}
+
+@keyframes bong {
+	0% {top: 0; background: white; height: 75px; width: 75px;}
+   100% {bottom: 0px; background: black; height: 150px; width: 150px;}
+}
