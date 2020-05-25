@@ -3542,7 +3542,14 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
-  }
+  },
+   {
+    artName: "waves",
+    pageLink: "./Art/hypnowaves/index.html",
+    imageLink: "./Art/hypnowaves/waves.gif",
+    author: "andi",
+    githubLink: "https://github.com/andicodetrf"
+   }
 ]
 
 // +--------------------------------------------------------------------------------+

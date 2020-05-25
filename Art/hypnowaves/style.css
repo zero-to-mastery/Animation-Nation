@@ -1,0 +1,29 @@
+div#one {
+	height: 100px;
+	width: 100%;
+	background: #00909E;
+	animation: slidein 3s linear 1s infinite alternate;
+}
+
+div#two {
+	height: 100px;
+	width: 100%;
+	background: #27496D;
+	animation: slidein 2s linear 1s infinite alternate;
+}
+
+div#three {
+	height: 100px;
+	width: 100%;
+	background: #142850;
+	animation: slidein 4s linear 1s infinite alternate;
+}
+
+@keyframes slidein {
+  0% { transform: scaleX(0); }
+  100% { transform: scaleX(1); }
+  0% { opacity: 0.7; }
+  50% { opacity: 1; }
+ }
+ 
+
