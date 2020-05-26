@@ -3542,6 +3542,13 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
+  },
+   {
+    artName: "Tronix",
+    pageLink: "./Art/visiona/index.html",
+    imageLink: "./Art/visiona/tronix.gif",
+    author: "visiona",
+    githubLink: "https://github.com/visiona"
   }
 ]
 
