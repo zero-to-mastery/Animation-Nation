@@ -1,0 +1,77 @@
+body{
+  background-color: #2B2B52;
+}
+
+.name{
+  color: #F5BCBA;
+  font-size: 12px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+}
+.name div:first-of-type{
+  font-size: 14px;
+}
+.name a{
+  color: #aaa;
+}
+.name a:hover{
+  color: #888;
+}
+
+#maximation{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%; left: 50%;
+  margin: -50px 0 0 -50px;
+  -webkit-animation: rotate 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes rotate{
+  0%   {transform:rotate(0deg);}
+  50% {transform:rotate(180deg);}
+  100% {transform:rotate(360deg);}
+}
+@-moz-keyframes rotate{
+  0%   {transform:rotate(0deg);}
+  50% {transform:rotate(180deg);}
+  100% {transform:rotate(360deg);}
+}
+@-o-keyframes rotate{
+  0%   {transform:rotate(0deg);}
+  50% {transform:rotate(180deg);}
+  100% {transform:rotate(360deg);}
+}
+@keyframes rotate{
+  0%   {transform:rotate(0deg);}
+  50% {transform:rotate(180deg);}
+  100% {transform:rotate(360deg);}
+}
+
+.quarter{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #66E;
+  -webkit-animation: rotate 2s ease-in-out infinite;
+  -moz-animation: rotate 2s ease-in-out infinite;
+  animation: rotate 2s ease-in-out infinite;
+}
+.quarter:nth-child(1){
+  top: 0; left: 0;
+  border-radius: 100% 0 0 0;
+}
+.quarter:nth-child(2){
+  top: 0; right: 0;
+  border-radius:  0 100% 0 0;
+}
+.quarter:nth-child(3){
+  bottom: 0; left: 0;
+  border-radius: 0 0  0 100%;
+}
+.quarter:nth-child(4){
+  bottom: 0; right: 0;
+  border-radius: 0 0 100% 0;
+}

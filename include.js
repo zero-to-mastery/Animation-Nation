@@ -3542,6 +3542,13 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
+  },
+  {
+    artName: "Circle Animation",
+    pageLink: "./Art/Demilade/index.html",
+    imageLink: "./Art/Demilade/circle.png",
+    author: "doyedele1",
+    githubLink: "https://github.com/doyedele1"
   }
 ]
 
