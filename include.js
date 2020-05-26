@@ -3542,6 +3542,13 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
+  },
+  {
+    artName: "Colination",
+    pageLink: "./Art/colination/index.html",
+    imageLink: "./Art/colination/animation.png",
+    author: "colinJR95"
+    githublink: "https://github.com/colinJR95"
   }
 ]
 
