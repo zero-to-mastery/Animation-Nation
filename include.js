@@ -3542,8 +3542,14 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
-  }
-]
+  },
+  {
+    artName: "Levitating Lady",
+    pageLink: "./Art/levitatingLady/index.html",
+    imageLink: "./Art/levitatingLady/levitating lady.mov",
+    author: "Vibha Iyengar",
+    githubLink: "https://github.com/vibha-i1"
+  },
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
