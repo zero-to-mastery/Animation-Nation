@@ -3534,6 +3534,13 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
+  },
+  {
+    artName: "Light Balls",
+    pageLink: "./Art/light-balls/index.html",
+    imageLink: "./Art/light-balls/lightBalls.gif",
+    author: "satya-verma",
+    githubLink: "https://github.com/satya-verma"
   }
 ]
 
