@@ -1,0 +1,105 @@
+body {
+  margin: 0 auto;
+  background-color: #005b85;
+}
+
+/* MOON */
+#moon {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  box-shadow: 40px 40px 0 0 yellow;
+  position: absolute; 
+  animation-duration: 7s;
+  animation-name: fadeIn; 
+}
+
+@media (max-width: 500px){
+ #moon {
+  width: 150px;
+  height: 150px;
+ }
+}
+
+/* ANIMATION KEYFRAMES */
+@keyframes fadeIn {
+  from {
+    opacity: 0.25;
+  }
+
+  to {
+    opacity: 1.0;
+  }
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.25;
+  }
+
+  20% {
+    opacity: 0.5; 
+  }
+
+  40% {
+    opacity: 0.75; 
+  }
+
+  60% {
+    opacity: 1.0; 
+  }
+
+  80% {
+    opacity: 0.75; 
+  }
+
+  100% {
+    opacity: 0.5; 
+  }
+}
+
+/* STARS */
+#starLayer {
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#starLayer2 {
+  display: flex;
+  height: 30vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#starLayer3 {
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#starLayer4 {
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.star {
+  display: flex;
+  color: rgb(255, 252, 212); 
+  font-size: 2em;
+}
+
+.twinkle {
+  opacity: 0.25; 
+  font-size: 3em;
+  color: white; 
+  animation-duration: 4s;
+  animation-delay: 2s; 
+  animation-name: twinkle; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease-in-out;
+}

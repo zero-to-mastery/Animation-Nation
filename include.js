@@ -3542,7 +3542,14 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
-  }
+  },
+  {
+		artName: 'Twinkling Sky',
+		pageLink: './Art/TwinkleSky/twinkleSky.html',
+		imageLink: './Art/TwinkleSky/twinkle.gif',
+		author: 'Amy',
+		githubLink: 'https://github.com/a3lam',
+	}
 ]
 
 // +--------------------------------------------------------------------------------+
