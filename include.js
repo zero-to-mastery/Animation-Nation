@@ -3547,7 +3547,7 @@
     artName: "Circle Animation",
     pageLink: "./Art/Demilade/index.html",
     imageLink: "./Art/Demilade/circle.png",
-    author: "doyedele1",
+    author: "Demilade",
     githubLink: "https://github.com/doyedele1"
   }
 ]
