@@ -3547,9 +3547,24 @@
     artName: "Colination",
     pageLink: "./Art/colination/index.html",
     imageLink: "./Art/colination/animation.png",
-    author: "colinJR95"
+    author: "colinJR95",
     githublink: "https://github.com/colinJR95"
+  },
+   {  
+    artName: "bouncy-ball",
+    pageLink: "./Art/bouncy-ball/ty.html",
+    imageLink: "./Art/bouncy-ball/bouncy-ball.gif",
+    author: "Huang Yi-Ting",
+    githubLink: "https://github.com/yiting76",
+  },
+   {
+    artName: "Tronix",
+    pageLink: "./Art/visiona/index.html",
+    imageLink: "./Art/visiona/tronix.gif",
+    author: "visiona",
+    githubLink: "https://github.com/visiona"
   }
+      
 ]
 
 // +--------------------------------------------------------------------------------+
