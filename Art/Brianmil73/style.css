@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#sky {
+  width: 600px;
+  height: 150px;
+  position: relative;
+  background-image: linear-gradient(deepskyblue,lightskyblue)
+}
+
+#ground {
+  width: 600px;
+  height: 150px;
+  position: relative;
+  background-image: linear-gradient(lightgreen,green);
+}
+
+#toverlay {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: black;
+  animation: toverlay-anim 20s linear infinite;
+}
+
+#sun {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  position: relative;
+  animation: sunrise-anim 20s linear infinite;
+}
+
+@keyframes sunrise-anim {
+  0%     {transform: translate(25px,150px);background-color: darkorange}
+  15%    {transform: translate(25px,150px);background-color: darkorange}
+  20%    {transform: translate(49px,117px);background-color: orange}
+  25%    {transform: translate(84px,94px);background-color: orange}
+  30%    {transform: translate(123px,77px);background-color: gold}
+  35%    {transform: translate(164px,65px);background-color: gold}
+  40%    {transform: translate(206px,57px);background-color: yellow}
+  45%    {transform: translate(247px,52px);background-color: lemonchiffon}
+  50%    {transform: translate(287px,50px);background-color: lemonchiffon}
+  55%    {transform: translate(327px,52px);background-color: lemonchiffon}
+  60%    {transform: translate(368px,57px);background-color: yellow}
+  65%    {transform: translate(410px,65px);background-color: gold}
+  70%    {transform: translate(451px,77px);background-color: gold}
+  75%    {transform: translate(490px,94px);background-color: orange}
+  80%    {transform: translate(525px,117px);background-color: orange}
+  85%    {transform: translate(550px,150px);background-color: darkorange}
+  100%   {transform: translate(550px,150px);background-color: darkorange}
+}
+
+@keyframes toverlay-anim {
+  0%        {background-color: rgba(0,0,0,1)}
+  5%        {background-color: rgba(0,0,0,0.8)}
+  30%       {background-color: rgba(0,0,0,0)}
+  80%       {background-color: rgba(0,0,0,0)}
+  95%       {background-color: rgba(0,0,0,0.8)}
+  100%      {background-color: rgba(0,0,0,1)}
+}

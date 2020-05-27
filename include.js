@@ -3556,6 +3556,13 @@
     imageLink: "./Art/visiona/tronix.gif",
     author: "visiona",
     githubLink: "https://github.com/visiona"
+  },
+   {
+    artName: "Sunrise",
+    pageLink: "./Art/Brianmil73/index.html",
+    imageLink: "./Art/Brianmil73/Sunrise.gif",
+    author: "Brianmil73",
+    githubLink: "https://github.com/Brianmil73"
   }
       
 ]
