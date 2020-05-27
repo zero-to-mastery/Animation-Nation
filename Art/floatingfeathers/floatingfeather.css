@@ -1,0 +1,23 @@
+img{position: relative;
+	animation-name:feather;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	
+}
+
+@keyframes feather{
+	0%{left: 0px; top:0px;}
+	10%{left:50px;top:30px;}
+	25%{transform:rotate(20deg);}
+	50%{ transform:rotate(20deg);left: 250px;top:100px;}
+	75%{transform: rotate(40deg);}
+	100%{left:900px; top:400px;}
+	
+	   
+
+
+}
+
+
+

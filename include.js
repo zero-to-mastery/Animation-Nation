@@ -3556,7 +3556,15 @@
     imageLink: "./Art/visiona/tronix.gif",
     author: "visiona",
     githubLink: "https://github.com/visiona"
-  }
+  },
+{
+    artName: "Floating Feather",
+    pageLink: "./Art/floatingfeathers/index.html",
+    imageLink: "./Art/floatingfeathers/floatingfeathers.mov",
+    author: "Vivika Iyengar",
+    githubLink: "https://github.com/vivika-I"
+  },
+
       
 ]
 
