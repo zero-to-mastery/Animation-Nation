@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap');
+body {
+	font-family: 'BioRhyme', serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: black;
+	background-image: url(imgs/sky.jpg);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.glowingText {
+	margin-top: 15rem;
+	text-align: center;
+}
+
+.glowingText h1{
+	font-size: 7rem;
+	text-align: center;
+	-webkit-animation: glow 1s easy-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+  	animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+	from {
+		color:#00a8cc;
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #05dfd7, 0 0 40px #323edd, 0 0 50px #baf1a1, 0 0 60px #e60073, 0 0 70px #4a47a3, 0 0 80px #698474, 0 0 90px #400082 ;
+	}
+	to {
+     color: #381460;
+     text-shadow: 0 0 20px #fff2, 0 0 30px #fff2, 0 0 40px #fff2, 0 0 50px #f4dada, 0 0 60px #75daad, 0 0 70px #fff2, 0 0 80px #fff2, 0 1 90px #fff2;
+  }
+}

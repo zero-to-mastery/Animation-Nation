@@ -3542,7 +3542,14 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
-  }
+  },
+  {
+    artName: "EleonoraRanimation",
+    pageLink: "./Art/EleonoraRanimation/index.html",
+    imageLink: "./Art/EleonoraRanimation/imgs/sky.jpg",
+    author: "Eleonora",
+    githubLink: "https://github.com/EleonoraR"
+   }
 ]
 
 // +--------------------------------------------------------------------------------+
