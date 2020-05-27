@@ -1,5 +1,13 @@
 ﻿let cards = [
 
+	 {
+      artName: "covid-19",
+      pageLink: "./Art/shivam12k/index.html",
+      videoLink: "./Art/cell/cell.mp4",
+      author:'shivam12k',
+      githubLink:'https://github.com/shivam12k'
+      },
+
 	{
 		artName: 'That Animation',
 		pageLink: './Art/MaKloudz/index.html',
@@ -3536,12 +3544,27 @@
     githubLink: "https://github.com/jacob-bacon"
   },
   {
+    artName: "bouncy-ball",
+    pageLink: "./Art/bouncy-ball/ty.html",
+    imageLink: "./Art/bouncy-ball/bouncy-ball.gif",
+    author: "Huang Yi-Ting",
+    githubLink: "https://github.com/yiting76",
+  },
+  {
+    artName: "Tronix",
+    pageLink: "./Art/visiona/index.html",
+    imageLink: "./Art/visiona/tronix.gif",
+    author: "visiona",
+    githubLink: "https://github.com/visiona"
+  },
+  {
     artName: "Light Balls",
     pageLink: "./Art/light-balls/index.html",
     imageLink: "./Art/light-balls/lightBalls.gif",
     author: "satya-verma",
     githubLink: "https://github.com/satya-verma"
   }
+      
 ]
 
 // +--------------------------------------------------------------------------------+
