@@ -3549,7 +3549,23 @@
     imageLink: "./Art/EleonoraRanimation/imgs/sky.jpg",
     author: "Eleonora",
     githubLink: "https://github.com/EleonoraR"
-   }
+   },
+   {
+    artName: "bouncy-ball",
+    pageLink: "./Art/bouncy-ball/ty.html",
+    imageLink: "./Art/bouncy-ball/bouncy-ball.gif",
+    author: "Huang Yi-Ting",
+    githubLink: "https://github.com/yiting76",
+  },
+   {
+    artName: "Tronix",
+    pageLink: "./Art/visiona/index.html",
+    imageLink: "./Art/visiona/tronix.gif",
+    author: "visiona",
+    githubLink: "https://github.com/visiona"
+  }
+      
+
 ]
 
 // +--------------------------------------------------------------------------------+
