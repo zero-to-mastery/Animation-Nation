@@ -3556,6 +3556,14 @@
     imageLink: "./Art/visiona/tronix.gif",
     author: "visiona",
     githubLink: "https://github.com/visiona"
+  },
+  {
+     artName: "shezanimatron",
+     pageLink: "./Art/shezanimatron/index.html",
+     imageLink: "./Art/shezanimatron/trance.gif",
+     author: "Shez",
+     githubLink: "https://github.com/shezray"
+
   }
       
 ]
