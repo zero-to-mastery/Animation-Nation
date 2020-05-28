@@ -3557,7 +3557,15 @@
     author: "visiona",
     githubLink: "https://github.com/visiona"
   }
-      
+
+  {
+	artName: "Animatronix",
+	pageLink: "./Art/jayprakashkalia/index.html",
+	imageLink: "./Art/jayprakashkalia/boo.gif",
+    author:"jayprakashkalia",
+    githubLink:"https://github.com/JAYKALIA007"
+}
+
 ]
 
 // +--------------------------------------------------------------------------------+
@@ -3593,3 +3601,6 @@ function Shuffle(o) {
   );
   return o;
 }
+
+
+
