@@ -1,0 +1,96 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	background-color: #111111;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#wrapper {
+	width: 500px;
+	height: 500px;
+	border: white dashed;
+	position: absolute;
+}
+.box {
+	position: absolute;
+	background-color: green;
+}
+#b1 {
+	width: 0%;
+	height: 100px;
+	animation: b1 6s ease-out infinite;
+}
+#b2 {
+	width: 100px;
+	height: 0%;
+	animation: b2 6s ease-out 1.5s infinite;
+}
+#b3 {
+	width: 0%;
+	height: 100px;
+	top: 80%;
+	animation: b3 6s ease-out 3s infinite;
+}
+#b4 {
+	width: 100px;
+	height: 0%;
+	animation: b4 6s ease-out 4.5s infinite;
+	left: 80%;
+}
+@keyframes b1 {
+	0%{
+		width: 0%;
+		left: 100%;
+	}
+	25%, 35% {
+		width: 100%;
+		left: 0%;
+	}
+	60%, 100%{
+		width: 0%;
+	}
+}
+@keyframes b2 {
+	0%{
+		height: 0%;
+		top: 0%;
+	}
+	25%, 35% {
+		height: 100%;
+		top: 0%;
+	}
+	60%, 100%{
+		height: 0%;
+		top: 100%;
+	}
+}
+@keyframes b3 {
+	0%{
+		width: 0%;
+		left: 0%;
+	}
+	25%, 35% {
+		width: 100%;
+		left: 0%;
+	}
+	60%, 100%{
+		width: 0%;
+		left: 100%;
+	}
+}
+@keyframes b4 {
+	0%{
+		height: 0%;
+		top: 100%;
+	}
+	25%, 35% {
+		height: 100%;
+		top: 0%;
+	}
+	60%, 100%{
+		height: 0%;
+		top: 0%;
+	}
+}

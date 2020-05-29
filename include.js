@@ -3556,6 +3556,13 @@
     imageLink: "./Art/visiona/tronix.gif",
     author: "visiona",
     githubLink: "https://github.com/visiona"
+  },
+  {
+    artName: "Simple Animation",
+    pageLink: "./Art/simple_animation/index.html",
+    imageLink: "./Art/simple_animation/img.gif",
+    author: "gesvz",
+    githubLink: "https://github.com/gesvz"
   }
       
 ]
