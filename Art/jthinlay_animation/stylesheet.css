@@ -1,10 +1,30 @@
+@keyframes animationText {
+    0% {color: red;}
+    25% {color: blue;}
+    50% {color: green;}
+    75% {color: orange;}
+    100% {color: yellow;}
+  }
+  
 .main_container{
-    width: 50%;
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: 250px;
     padding: 20px;
-    margin: 20px;
+   
     border: 1px solid green;
     font: 1em sans-serif;
-    font-size: 80px;
-    color: red;
     text-align: center;
+}
+.inside {
+    font-size: 200px;
+    color: red;
+    text-shadow: 10px 10px 10px black;
+    animation-name: animationText;
+    animation-duration: 4s;
+    /*   animation-iteration-count: infinite;     */
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: backwards;
+   
 }
