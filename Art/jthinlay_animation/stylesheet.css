@@ -1,0 +1,10 @@
+.main_container{
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid green;
+    font: 1em sans-serif;
+    font-size: 80px;
+    color: red;
+    text-align: center;
+}

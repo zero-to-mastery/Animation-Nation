@@ -3556,6 +3556,13 @@
     imageLink: "./Art/visiona/tronix.gif",
     author: "visiona",
     githubLink: "https://github.com/visiona"
+  },
+  {
+    artName: "jthinlayAnima",
+    pageLink: "./Art/jthinlay_animation/index.html",
+    imageLink: "./Art/jthinlay_animation/pi.gif",
+    author: "jthinlay",
+    githubLink: "https://github.com/jthinlay"
   }
       
 ]
