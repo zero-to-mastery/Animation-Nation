@@ -22,8 +22,7 @@
     text-shadow: 10px 10px 10px black;
     animation-name: animationText;
     animation-duration: 4s;
-    /*   animation-iteration-count: infinite;     */
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;    
     animation-direction: alternate-reverse;
     animation-fill-mode: backwards;
    
