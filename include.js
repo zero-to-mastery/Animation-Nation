@@ -3556,7 +3556,13 @@
     imageLink: "./Art/visiona/tronix.gif",
     author: "visiona",
     githubLink: "https://github.com/visiona"
+  },
+  {
+      artName: "Synchronization",
+      pageLink: "./Art/synchronization!/synchronization",
+      imageLink: "./Art/Joy/synchronized_Dots",
   }
+
       
 ]
 
