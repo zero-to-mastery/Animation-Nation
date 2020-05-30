@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: background1;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    height: 100vh;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+#ball0{
+    display:inline-block;
+    margin-top: 20px;
+    text-align: center;
+    animation-name: horizontal-move;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+#ball1, #ball3{
+    animation-name: bounce1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#ball2, #ball4{
+    margin-top: 600px;
+    animation-name: bounce2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes horizontal-move{
+    0%{
+        width: 100px;
+        height: 100px;
+        background-color: powderblue;
+    }
+
+    50%{
+        margin-left: 95%;
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+    }
+
+    100%{
+        width: 100px;
+        height: 100px;
+        background-color: powderblue;
+    }
+
+}
+
+@keyframes background1{
+    0%{background-color: pink;}
+    50%{background-color: powderblue;}
+    100%{background-color: pink;}
+}
+
+@keyframes bounce1{
+    0% {
+        margin-top: 0;
+        width: 100px;
+        height: 100px;
+    }
+
+    50% {
+        margin-top: 600px;
+        width: 120px;
+        height: 70px;
+        background-color: pink;
+    }
+
+    100%{margin-top: 0;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@keyframes bounce2{
+    0%{
+        margin-top: 600px;
+        width: 120px;
+        height: 70px;
+        background-color: powderblue;
+    }
+
+    50%{
+        margin-top: 0;
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+    }
+
+    100%{
+        margin-top: 600px;
+        width: 120px;
+        height: 70px;
+        background-color: powderblue;
+    }
+}

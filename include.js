@@ -3557,7 +3557,13 @@
     author: "visiona",
     githubLink: "https://github.com/visiona"
   }
-      
+  {
+    artName: "Bouncing Balls",
+    pageLink: "./Art/L-Fortunato/index.html",
+    imageLink: "./Art/L-Fortunato/bounce.gif",
+    author: "L-Fortunato",
+    githubLink: "https://github.com/L-Fortunato"
+  }
 ]
 
 // +--------------------------------------------------------------------------------+
