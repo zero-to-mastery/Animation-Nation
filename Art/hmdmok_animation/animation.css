@@ -1,0 +1,26 @@
+body{
+    background: #333;
+}
+
+.box{
+    background: white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation-name: hmdanimation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hmdanimation {
+    0%{background-color: white; left:0px; top:0px; border-radius: 0 0 0 0;}
+    12%{background-color: teal;left:400px; top:0px; border-radius: 50% 0 0 0;}
+    25%{background-color: thistle;left:400px; top:400px; border-radius: 50% 50% 0 0;}
+    37%{background-color: tomato;left:0px; top:400px; border-radius: 50% 50% 50% 0;}
+    50%{background-color: white;left:0px; top:0px; border-radius: 50% 50% 50% 50%;}
+    62%{background-color: white; left:400px; top:0px; border-radius: 0 50% 50% 50%;}
+    75%{background-color: teal;left:400px; top:400px; border-radius: 0 0 50% 50%;}
+    87%{background-color: thistle;left:0px; top:400px; border-radius: 0 0 0 50%;}
+    100%{background-color: white;left:0px; top:0px; border-radius: 0 0 0 0;}
+
+}

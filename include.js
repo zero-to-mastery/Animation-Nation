@@ -3556,6 +3556,13 @@
     imageLink: "./Art/visiona/tronix.gif",
     author: "visiona",
     githubLink: "https://github.com/visiona"
+  },
+  {
+    artName: "hmdmok-animation",
+    pageLink: "./Art/hmdmok_animation/Animation.html",
+    imageLink: "./Art/hmdmok_animation/animation.gif",
+    author: "hmdmok",
+    githubLink: "https://github.com/hmdmok"
   }
       
 ]
