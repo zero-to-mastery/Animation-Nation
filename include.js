@@ -3556,6 +3556,13 @@
     imageLink: "./Art/visiona/tronix.gif",
     author: "visiona",
     githubLink: "https://github.com/visiona"
+  },
+  {
+    artName: "Star Animation",
+    pageLink: "./Art/Ashley/index.html",
+    imageLink: "./Art/Ashley/Images/Star-Animation.gif",
+    author: "Ashley",
+    githubLink: "https://github.com/ashleypawar"
   }
       
 ]
