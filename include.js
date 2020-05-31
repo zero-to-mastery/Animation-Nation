@@ -3557,6 +3557,13 @@
     author: "visiona",
     githubLink: "https://github.com/visiona"
   }
+  {
+    artName: "Walking-Man-Front",
+    pageLink: "./Art/Akhil/index.html",
+    imageLink: "./Art/Akhil/Walking-man-front.gif",
+    author: "Akhil",
+    githubLink: "https://github.com/akhils95"
+  }
       
 ]
 
