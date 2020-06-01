@@ -3544,6 +3544,13 @@
     githubLink: "https://github.com/jacob-bacon"
   },
   {
+    artName: "Glowing Circle by Leem Plays",
+    pageLink: "./Art/AliHaidar/index.html",
+    imageLink: "./Art/AliHaidar/giphy.gif",
+    author: "alihaidar2950",
+    githubLink: "https://github.com/alihaidar2950"
+  },
+  {
     artName: "bouncy-ball",
     pageLink: "./Art/bouncy-ball/ty.html",
     imageLink: "./Art/bouncy-ball/bouncy-ball.gif",
