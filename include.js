@@ -3549,7 +3549,28 @@
     imageLink: "./Art/AliHaidar/giphy.gif",
     author: "alihaidar2950",
     githubLink: "https://github.com/alihaidar2950"
+  },
+  {
+    artName: "bouncy-ball",
+    pageLink: "./Art/bouncy-ball/ty.html",
+    imageLink: "./Art/bouncy-ball/bouncy-ball.gif",
+    author: "Huang Yi-Ting",
+    githubLink: "https://github.com/yiting76",
+  },
+   {
+    artName: "Tronix",
+    pageLink: "./Art/visiona/index.html",
+    imageLink: "./Art/visiona/tronix.gif",
+    author: "visiona",
+    githubLink: "https://github.com/visiona"
+  },
+  {
+    artName: "Random Squares",
+    pageLink: "./Art/Monitha/index.html",
+    author: "Monitha",
+    githubLink: "https://github.com/dmonitha"
   }
+      
 ]
 
 // +--------------------------------------------------------------------------------+
