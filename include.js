@@ -3542,6 +3542,13 @@
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
     githubLink: "https://github.com/jacob-bacon"
+  },
+  {
+    artName: "Glowing Circle by Leem Plays",
+    pageLink: "./Art/AliHaidar/index.html",
+    imageLink: "./Art/AliHaidar/giphy.gif",
+    author: "alihaidar2950",
+    githubLink: "https://github.com/alihaidar2950"
   }
 ]
 
