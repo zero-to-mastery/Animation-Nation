@@ -3556,6 +3556,12 @@
     imageLink: "./Art/visiona/tronix.gif",
     author: "visiona",
     githubLink: "https://github.com/visiona"
+  },
+  {
+    artName: "Random Squares",
+    pageLink: "./Art/Monitha/index.html",
+    author: "Monitha",
+    githubLink: "https://github.com/dmonitha"
   }
       
 ]
