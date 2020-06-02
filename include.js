@@ -3563,6 +3563,26 @@
     imageLink: "./Art/visiona/tronix.gif",
     author: "visiona",
     githubLink: "https://github.com/visiona"
+  },
+  {
+    artName: "Random Squares",
+    pageLink: "./Art/Monitha/index.html",
+    author: "Monitha",
+    githubLink: "https://github.com/dmonitha"
+  },
+  {
+    artName: "Walking-Man-Front",
+    pageLink: "./Art/Akhil/index.html",
+    imageLink: "./Art/Akhil/Walking-man-front.gif",
+    author: "Akhil",
+    githubLink: "https://github.com/akhils95"
+  },
+  {
+    artName: "Sunrise",
+    pageLink: "./Art/Brianmil73/index.html",
+    imageLink: "./Art/Brianmil73/Sunrise.gif",
+    author: "Brianmil73",
+    githubLink: "https://github.com/Brianmil73"
   }
       
 ]
