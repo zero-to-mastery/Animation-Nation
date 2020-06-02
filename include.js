@@ -3556,6 +3556,13 @@
     imageLink: "./Art/visiona/tronix.gif",
     author: "visiona",
     githubLink: "https://github.com/visiona"
+  },
+  {
+	artName: "Oso Ga Eme Ugba",
+	pageLink: "./Art/CuttellAnimation/index.html",
+	imageLink: "./Art/CuttellAnimation/CutAnima.gif",
+	author: "cuttell2000",
+    githubLink: "https://github.com/cuttell2000"
   }
       
 ]
