@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: antiquewhite;
+  font-size: 1.4rem;
+}
+
+* {
+  transition: all 0.3s ease-out;
+}
+
+.box {
+  background-color: black;
+  width: 200px;
+  height: 250px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  position: relative;
+}
+
+img {
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+p {
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  left: 25px;
+  bottom: 10px;
+  visibility: hidden;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+img:hover + p {
+  visibility: visible;
+}
