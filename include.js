@@ -3572,10 +3572,17 @@
   }
   {
     artName: "Walking-Man-Front",
-    pageLink: "./Art/Akhil/index.html",
+    pageLink: "./Art/vera/index.html",
     imageLink: "./Art/Akhil/Walking-man-front.gif",
     author: "Akhil",
     githubLink: "https://github.com/akhils95"
+  }
+  {
+    artName: "SuperSimple",
+    pageLink: "./Art/Joy/triangle.html",
+    imageLink: "./Art/Joy/HelloWorld.gif",
+    author: "Vera",
+    githublink: "https://github.com/veralab"
   }
       
 ]
