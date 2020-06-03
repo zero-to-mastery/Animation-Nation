@@ -3583,6 +3583,13 @@
     imageLink: "./Art/Duka/rainbow.gif",
     author: "Duka",
     githubLink: "https://github.com/DusanKrcmarik"
+  },
+  {
+    artName: "Stripes",
+    pageLink: "./Art/mariusslarsen/index.html",
+    imageLink: "./Art/mariusslarsen/test.gif",
+    author: "Marius",
+    githubLink: "https://github.com/mariusslarsen"
   }
 
 ]
