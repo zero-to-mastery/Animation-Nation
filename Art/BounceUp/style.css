@@ -1,0 +1,46 @@
+body,
+html {
+  height: 100%;
+  display: grid;
+  background-color: black;
+}
+/* centering the div */
+.container {
+  margin: auto;
+}
+@keyframes smoothbounceball {
+  from {
+    transform: translateY(0, 0);
+  }
+  to {
+    transform: translateY(0, 200px);
+  }
+}
+
+.circle {
+  display: inline-block;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  margin: 0.5em;
+  animation: bounceOutUp 2s ease-in-out infinite;
+}
+
+.c1 {
+  background-color: #bbf1c8;
+}
+.c2 {
+  background-color: #ff9595;
+}
+
+.c3 {
+  background-color: #efee9d;
+}
+
+.c4 {
+  background-color: #dbc6eb;
+}
+
+.c5 {
+  background-color: #abc2e8;
+}
