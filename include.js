@@ -3583,6 +3583,13 @@
     imageLink: "./Art/Duka/rainbow.gif",
     author: "Duka",
     githubLink: "https://github.com/DusanKrcmarik"
+  },
+  {
+    artName: "Animatron",
+    pageLink: "./Art/sanmitra/index.html",
+    imageLink: "./Art/sanmitra/index.gif",
+    author: "sanmitra",
+    githubLink: "https://github.com/sanmitra1999"
   }
 
 ]
