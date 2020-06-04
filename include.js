@@ -3583,6 +3583,13 @@
     imageLink: "./Art/Duka/rainbow.gif",
     author: "Duka",
     githubLink: "https://github.com/DusanKrcmarik"
+  },
+  {
+    artName: "Indian",
+    pageLink: "./Art/Indian/index.html",
+    imageLink: "./Art/Indian/Indian.gif",
+    author: "Duka",
+    githubLink: "https://github.com/ndvishruth"
   }
 
 ]
