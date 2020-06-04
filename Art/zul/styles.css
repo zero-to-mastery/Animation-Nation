@@ -1,0 +1,71 @@
+#loading-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50px;
+	height: 50px;
+}
+
+.circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50px;
+	height: 50px;
+}
+
+#circle1 {
+	background-color: transparent;
+	width: 50px;
+	height: 50px;
+	border: 2px solid red;
+	border-radius: 50px;
+
+	animation-name: circle1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#circle2 {
+	background-color: transparent;
+	width: 0px;
+	height: 0px;
+	border: 2px solid blue;
+	border-radius: 50px;
+
+	animation-name: circle2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes circle1 {
+	from {
+		width: 50px;
+		height: 50px;
+
+		border: 2px solid red;
+	}
+	to {
+		width: 0px;
+		height: 0px;
+
+		border: 2px solid blue;
+	}
+}
+
+@keyframes circle2 {
+	from {
+		width: 0px;
+		height: 0px;
+
+		border: 2px solid blue;
+	}
+	to {
+		width: 50px;
+		height: 50px;
+
+		border: 2px solid red;
+	}
+}
