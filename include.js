@@ -3585,6 +3585,13 @@
     githubLink: "https://github.com/DusanKrcmarik"
   },
   {
+    artName: "Indian",
+    pageLink: "./Art/Indian/index.html",
+    imageLink: "./Art/Indian/Indian.gif",
+    author: "Duka",
+    githubLink: "https://github.com/ndvishruth"
+  },
+  {
     artName: "Animatron",
     pageLink: "./Art/sanmitra/index.html",
     imageLink: "./Art/sanmitra/index.gif",
