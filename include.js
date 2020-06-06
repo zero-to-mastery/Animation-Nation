@@ -3597,6 +3597,13 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+   {
+    artName: 'SmokyName',
+    pageLink: './Art/priyankaw/index.html',
+    videoLink: './Art/priyankaw/smoke.mp4',
+    author: 'priyanka wankhade',
+    githubLink: 'https://github.com/pgwankhade',
   }
 
 ]
