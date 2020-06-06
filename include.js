@@ -3597,7 +3597,21 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+    artName: "Animation-Ghost",
+    pageLink: "./Art/Animation-Ghost/index.html",
+    imageLink: "./Art/Animation-Ghost/ghost.gif",
+    author: "FH",
+    githubLink: "https://github.com/fhansmann"
   }
+
+ 
+      
+
+
+
+
 
 ]
 
