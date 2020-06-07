@@ -25,6 +25,7 @@ body {
 }
 
 @keyframes redshades {
+  transform: rotate(135deg);
   0%   {background-color: rgba(255, 0, 0, 0.0);}
   10%   {background-color: rgba(255, 0, 0, 0.2);}
   20%   {background-color: rgba(255, 0, 0, 0.4);}
