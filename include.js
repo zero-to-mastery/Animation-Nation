@@ -3597,9 +3597,17 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+    artName: "Adwaith's",
+    pageLink: "./Art/Adwaith's/index.html",
+    imageLink: "./Art/Adwaith's/adwaith.gif",
+    author:"Adwaith Rajesh",
+    githublink:"https://github.com/Adwaith123",
   }
+  
 
-]
+];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
