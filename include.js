@@ -3597,8 +3597,13 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+    artName: "Ghost",
+    pageLink: "./Art/arcadekuro/index.html",
+    imageLink: "./Art/arcadekuro/floating-ghost.gif",
+    githubLink: "https://github.com/arcadekuro"
   }
-
 ]
 
 // +--------------------------------------------------------------------------------+
