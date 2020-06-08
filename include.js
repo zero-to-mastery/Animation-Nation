@@ -3597,6 +3597,13 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+    artName: "Knight Rider Spinner",
+    pageLink: "./Art/knight-rider/index.html",
+    imageLink: "./Art/knight-rider/presentation-pic.jpg",
+    author: "Pedro Clv",
+    githubLink: "https://github.com/pdr-clv"
   }
 
 ]
