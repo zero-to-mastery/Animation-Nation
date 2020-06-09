@@ -3597,6 +3597,13 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+    artName: "Ball-clear",
+    pageLink: "./Art/Naok000/index.html",
+    imageLink: "./Art/Naok000/ball-clear.gif",
+    author: "Naok000",
+    githubLink: "https://github.com/Naok000"
   }
 
 ]
