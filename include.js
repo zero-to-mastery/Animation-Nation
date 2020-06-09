@@ -3597,6 +3597,13 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+    artName: "Nick",
+    pageLink: "./Art/Nick/index.html",
+    imageLink: "./Art/Nick/nick.gif",
+    author: "Nicholas",
+    githubLink: "https://github.com/nicxzmiller"
   }
 
 ]
