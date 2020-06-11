@@ -3598,6 +3598,14 @@
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
   }
+  ,
+  {
+    artName: "Moving Ball",
+    pageLink: "./Art/Alaa_Ball/index.html",
+    imageLink: "./Art/Alaa_Ball/Icon_Ball.gif",
+    author: "Alaa Shaker",
+    githubLink: "https://github.com/Alaa-Shaker"
+  }
 
 ]
 
