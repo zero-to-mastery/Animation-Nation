@@ -3597,8 +3597,12 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+      artName: "Falling",
+      pageLink: "./Art/Sfrench5/index.html",
+      imageLink: "./Art/Sfrench5/Falling.gif",
   }
-
 ]
 
 // +--------------------------------------------------------------------------------+
