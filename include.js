@@ -3597,6 +3597,13 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+    artName: "TheOcean",
+    pageLink: "./Art/bvaneck/index.html",
+    imageLink: "./Art/bvaneck/theocean.gif",
+    author: "bvaneck",
+    githubLink: "https://github.com/bobvaneck"
   }
 
 ]

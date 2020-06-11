@@ -1,0 +1,36 @@
+div.one {
+  height: 20rem;
+  width: 100%;
+  display: inline-flex;
+  background: #041946;
+  animation: slidein 2s linear 2s infinite alternate;
+}
+
+div.two {
+  height: 20rem;
+  width: 100%;
+  display: inline-flex;
+  background: #103bb1;
+  animation: slidein 2s linear 2s infinite alternate;
+}
+
+div.three {
+  height: 20rem;
+  width: 100%;
+  display: inline-flex;
+  background: #1889ca;
+  animation: slidein 2s linear 2s infinite alternate;
+}
+
+div.four {
+  height: 20rem;
+  width: 100%;
+  display: inline-flex;
+  background: #05eeff;
+  animation: slidein 2s linear 2s infinite alternate;
+}
+
+@keyframes slidein {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+} 
