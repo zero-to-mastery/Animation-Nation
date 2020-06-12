@@ -3597,6 +3597,13 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+    artName: "Supercool",
+    pageLink: "./Art/supercool/index.html",
+    imageLink: "./Art/supercool/cool.gif",
+    author: "Alisha",
+    githubLink: "https://github.com/Alishadaswebdev"
   }
 
 ]
