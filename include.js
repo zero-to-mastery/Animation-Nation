@@ -3597,8 +3597,15 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+    artName: "Smile",
+    pageLink: "./Art/Smile/index.html",
+    imageLink: "./Art/Smile/Capture.gif",
+    author: "Pooja",
+    githubLink: "https://github.com/cs2pooja"
   }
-
+  
 ]
 
 // +--------------------------------------------------------------------------------+
