@@ -3597,6 +3597,13 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+    artName: "Fox-Under-Stars",
+    pageLink: "./Art/kdhenderson/index_fox.html",
+    imageLink: "./Art/kdhenderson/foxUnderStars.gif",
+    author: "kdhenderson",
+    githubLink: "https://github.com/kdhenderson"
   }
 
 ]
