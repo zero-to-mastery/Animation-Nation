@@ -3598,7 +3598,13 @@
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
   }
-
+  {
+    artName: "A dancing square",
+    pageLink: "./Art/sanmitra/index.html",
+    imageLink: "./Art/sanmitra/index.gif",
+    author: "sanmitra",
+    githubLink: "https://github.com/sanmitra1999"
+  }
 ]
 
 // +--------------------------------------------------------------------------------+
