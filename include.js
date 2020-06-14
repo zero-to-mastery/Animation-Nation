@@ -3599,6 +3599,14 @@
     githubLink: "https://github.com/sanmitra1999"
   }
 
+  {
+    artName: "Dragon_Loading",
+    pageLink: "./Art/Dragon_Loading/index.html",
+    imageLink: "./Art/Dragon_Loading/DragonLoading.gif",
+    author: "Prasad",
+    githubLink: "https://github.com/PrasadM07"
+  }
+
 ]
 
 // +--------------------------------------------------------------------------------+
