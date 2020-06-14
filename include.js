@@ -3599,6 +3599,14 @@
     githubLink: "https://github.com/sanmitra1999"
   }
 
+  {
+    artName: "eyes winking",
+    pageLink: "./Art/eyesonly1965/index.html",
+    imageLink: "./Art/eyesonly1965/screenshot.png",
+    author: "eyesonly1965",
+    githubLink: "https://github.com/eyesonly1965"
+  }
+
 ]
 
 // +--------------------------------------------------------------------------------+
