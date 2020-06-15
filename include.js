@@ -3597,14 +3597,30 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
-  }
+  },
   {
     artName: "Dragon_Loading",
     pageLink: "./Art/Dragon_Loading/index.html",
     imageLink: "./Art/Dragon_Loading/DragonLoading.gif",
     author: "Prasad",
     githubLink: "https://github.com/PrasadM07"
-  }
+  },
+  {
+    artName: "Animatrix",
+    pageLink: "./Art/Animatrix/index.html",
+    imageLink: "./Art/Animatrix/Animatrix.png",
+    author: "soutog",
+    githubLink: "https://github.com/soutog"
+  },
+  
+
+  {
+    artName: "Simple-Loading",
+    pageLink: "./Art/Loading/index.html",
+    imageLink: "./Art/Loading/load.gif",
+    author: "Vijay",
+    githubLink: "https://github.com/VijayVjCuber"
+  },
   {
     artName: "Fiyi-Animation",
     pageLink: "./Art/Fiyi-Animation/index.html",
