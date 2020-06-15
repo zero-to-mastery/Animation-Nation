@@ -3598,7 +3598,6 @@
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
   }
-
   {
     artName: "Dragon_Loading",
     pageLink: "./Art/Dragon_Loading/index.html",
@@ -3606,7 +3605,13 @@
     author: "Prasad",
     githubLink: "https://github.com/PrasadM07"
   }
-
+  {
+    artName: "Fiyi-Animation",
+    pageLink: "./Art/Fiyi-Animation/index.html",
+    imageLink: "./Art/Fiyi-Animation/relax_smile.gif",
+    author: "Fiyi-A",
+    githubLink: "https://github.com/Fiyi-A"
+  }
 ]
 
 // +--------------------------------------------------------------------------------+
