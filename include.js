@@ -3614,6 +3614,14 @@
   },
   
 
+  {
+    artName: "Simple-Loading",
+    pageLink: "./Art/Loading/index.html",
+    imageLink: "./Art/Loading/load.gif",
+    author: "Vijay",
+    githubLink: "https://github.com/VijayVjCuber"
+  }
+
 ]
 
 // +--------------------------------------------------------------------------------+
