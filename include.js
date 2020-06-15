@@ -3620,8 +3620,14 @@
     imageLink: "./Art/Loading/load.gif",
     author: "Vijay",
     githubLink: "https://github.com/VijayVjCuber"
+  },
+  {
+    artName: "Fiyi-Animation",
+    pageLink: "./Art/Fiyi-Animation/index.html",
+    imageLink: "./Art/Fiyi-Animation/relax_smile.gif",
+    author: "Fiyi-A",
+    githubLink: "https://github.com/Fiyi-A"
   }
-
 ]
 
 // +--------------------------------------------------------------------------------+
