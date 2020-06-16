@@ -3578,6 +3578,13 @@
     githubLink: "https://github.com/akhils95"
   },
   {
+    artName: "Cow-cat",
+    pageLink: "./Art/Cow-cat/index.html",
+    imageLink: "./Art/Cow-cat/Cow-cat.gif",
+    author: "Galia",
+    githubLink: "https://github.com/galiarudenko"
+  },
+   {
     artName: "Rainb0w",
     pageLink: "./Art/Duka/index.html",
     imageLink: "./Art/Duka/rainbow.gif",
@@ -3612,11 +3619,9 @@
     author: "soutog",
     githubLink: "https://github.com/soutog"
   },
-  
-
   {
     artName: "Simple-Loading",
-    pageLink: "./Art/Loading/index.html",
+    pageLink: "./Art/Loading/loading.html",
     imageLink: "./Art/Loading/load.gif",
     author: "Vijay",
     githubLink: "https://github.com/VijayVjCuber"
@@ -3634,8 +3639,36 @@
     imageLink: "./Art/mleblanc94/ColoredBars.gif",
     author: "mleblanc94",
     githubLink: "https://github.com/mleblanc94"
-  }
-]
+  },
+  {
+    artName: "animeR",
+    pageLink: "./Art/animeR/index.html",
+    imageLink: "./Art/animeR/animeR.gif",
+    author: "Rajneesh",
+    githubLink: "https://github.com/rajneeshk94"
+  },
+  {
+    artName: "Sunset-City",
+    pageLink: "./Art/jyun9504/index.html",
+    imageLink: "./Art/jyun9504/sunset-city.gif",
+    author: "jyun9504",
+    githubLink: "https://github.com/jyun9504"
+  },
+    {
+      artName: "brianbottle",
+      author: "brian",
+      pageLink: "./Art/brianbottle/index.html",
+      imageLink: "./Art/brianbottle/bottle.gif",
+      githubLink: "https://github.com/brianabplanalp1"
+   }, 
+   {
+    artName: 'Shapes',
+    pageLink: './Art/mark-marchant/index.html',
+    imageLink: './Art/mark-marchant/shapes.png',
+    author: 'Mark Marchant',
+    githubLink: 'https://github.com/jtla3/Animation-Nation',
+  },
+];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
