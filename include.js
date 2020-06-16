@@ -3635,6 +3635,13 @@
     author: "Fiyi-A",
     githubLink: "https://github.com/Fiyi-A"
   },
+  {
+    artName: "Sunset-City",
+    pageLink: "./Art/jyun9504/index.html",
+    imageLink: "./Art/jyun9504/sunset-city.gif",
+    author: "jyun9504",
+    githubLink: "https://github.com/jyun9504"
+  },
     {
       artName: "brianbottle",
       author: "brian",
