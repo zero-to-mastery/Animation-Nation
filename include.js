@@ -3578,6 +3578,13 @@
     githubLink: "https://github.com/akhils95"
   },
   {
+    artName: "Cow-cat",
+    pageLink: "./Art/Cow-cat/index.html",
+    imageLink: "./Art/Cow-cat/Cow-cat.gif",
+    author: "Galia",
+    githubLink: "https://github.com/galiarudenko"
+  },
+   {
     artName: "Rainb0w",
     pageLink: "./Art/Duka/index.html",
     imageLink: "./Art/Duka/rainbow.gif",
