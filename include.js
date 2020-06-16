@@ -3668,6 +3668,13 @@
     author: 'Mark Marchant',
     githubLink: 'https://github.com/jtla3/Animation-Nation',
   },
+  {
+    artName: 'Spin',
+    pageLink: './Art/Spin/allli.html',
+    imageLink: './Art/Spin/allli.gif',
+    author: 'Victor Winner',
+    githubLink: 'https://github.com/Vicwin13'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
