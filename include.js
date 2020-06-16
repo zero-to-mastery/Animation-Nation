@@ -3628,6 +3628,13 @@
     author: "Fiyi-A",
     githubLink: "https://github.com/Fiyi-A"
   }
+    {
+    artName: 'Shapes',
+    pageLink: './Art/mark-marchant/index.html',
+    imageLink: './Art/mark-marchant/shapes.png',
+    author: 'Mark Marchant',
+    githubLink: 'https://github.com/jtla3/Animation-Nation',
+  },
 ]
 
 // +--------------------------------------------------------------------------------+
