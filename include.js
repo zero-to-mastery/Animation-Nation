@@ -3619,8 +3619,6 @@
     author: "soutog",
     githubLink: "https://github.com/soutog"
   },
-  
-
   {
     artName: "Simple-Loading",
     pageLink: "./Art/Loading/loading.html",
@@ -3634,6 +3632,13 @@
     imageLink: "./Art/Fiyi-Animation/relax_smile.gif",
     author: "Fiyi-A",
     githubLink: "https://github.com/Fiyi-A"
+  },
+  {
+    artName: "animeR",
+    pageLink: "./Art/animeR/index.html",
+    imageLink: "./Art/animeR/animeR.gif",
+    author: "Rajneesh",
+    githubLink: "https://github.com/rajneeshk94"
   },
   {
     artName: "Sunset-City",
