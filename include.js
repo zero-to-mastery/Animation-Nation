@@ -3628,6 +3628,14 @@
     author: "Fiyi-A",
     githubLink: "https://github.com/Fiyi-A"
   }
+  {
+    artName: "animeR",
+    pageLink: "./Art/animeR/index.html",
+    imageLink: "./Art/animeR/animeR.gif",
+    author: "Rajneesh",
+    githubLink: "https://github.com/rajneeshk94"
+  }
+
 ]
 
 // +--------------------------------------------------------------------------------+
