@@ -3627,15 +3627,22 @@
     imageLink: "./Art/Fiyi-Animation/relax_smile.gif",
     author: "Fiyi-A",
     githubLink: "https://github.com/Fiyi-A"
-  }
+  },
     {
+      artName: "brianbottle",
+      author: "brian",
+      pageLink: "./Art/brianbottle/index.html",
+      imageLink: "./Art/brianbottle/bottle.gif",
+      githubLink: "https://github.com/brianabplanalp1"
+   }, 
+   {
     artName: 'Shapes',
     pageLink: './Art/mark-marchant/index.html',
     imageLink: './Art/mark-marchant/shapes.png',
     author: 'Mark Marchant',
     githubLink: 'https://github.com/jtla3/Animation-Nation',
   },
-]
+];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
