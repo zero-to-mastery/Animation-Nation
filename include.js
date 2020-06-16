@@ -3628,7 +3628,14 @@
     author: "Fiyi-A",
     githubLink: "https://github.com/Fiyi-A"
   }
-]
+    {
+      artName: "brianbottle",
+      author: "brian",
+      pageLink: "./Art/brianbottle/index.html",
+      imageLink: "./Art/brianbottle/bottle.gif",
+      githubLink: "https://github.com/brianabplanalp1"
+     } 
+];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
