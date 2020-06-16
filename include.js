@@ -3569,13 +3569,20 @@
     pageLink: "./Art/Monitha/index.html",
     author: "Monitha",
     githubLink: "https://github.com/dmonitha"
-  }
+  },
   {
     artName: "Walking-Man-Front",
     pageLink: "./Art/Akhil/index.html",
     imageLink: "./Art/Akhil/Walking-man-front.gif",
     author: "Akhil",
     githubLink: "https://github.com/akhils95"
+  },
+  {
+    artName: "Cow-cat",
+    pageLink: "./Art/Cow-cat/index.html",
+    imageLink: "./Art/Cow-cat/Cow-cat.gif",
+    author: "Galia",
+    githubLink: "https://github.com/galiarudenko"
   }
       
 ]
