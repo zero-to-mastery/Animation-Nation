@@ -3604,14 +3604,8 @@
         imageLink: "./Art/Dragon_Loading/DragonLoading.gif",
         author: "Prasad",
         githubLink: "https://github.com/PrasadM07"
-    },
-    {
-        artName: "Loading indicator",
-        pageLink: "./Art/AhmadDalao/index.html",
-        imageLink: "./Art/AhmadDalao/loading.gif",
-        author: "AhmadDalao",
-        githubLink: "https://github.com/AhmadDalao"
     }
+
 
 ]
 
