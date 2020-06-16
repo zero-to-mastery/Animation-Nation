@@ -3616,7 +3616,7 @@
 
   {
     artName: "Simple-Loading",
-    pageLink: "./Art/Loading/index.html",
+    pageLink: "./Art/Loading/loading.html",
     imageLink: "./Art/Loading/load.gif",
     author: "Vijay",
     githubLink: "https://github.com/VijayVjCuber"
