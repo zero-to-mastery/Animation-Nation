@@ -3597,6 +3597,13 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+    artName: "ColoredBars",
+    pageLink: "./Art/mleblanc94/mleblanc94_html_Animation-Nation.html",
+    imageLink: "./Art/mleblanc94/ColoredBars.gif",
+    author: "mleblanc94",
+    githubLink: "https://github.com/mleblanc94"
   }
 
 ]
