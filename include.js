@@ -3668,6 +3668,13 @@
     author: 'Mark Marchant',
     githubLink: 'https://github.com/jtla3/Animation-Nation',
   },
+    {
+    artName: 'Glow',
+    pageLink: './Art/Glow/index.html',
+    imageLink: './Art/Glow/Glow.png',
+    author: 'Joaquin Castillo',
+    githubLink: 'https://github.com/JuakoDev',
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
