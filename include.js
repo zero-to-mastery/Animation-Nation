@@ -3668,6 +3668,13 @@
     author: 'Mark Marchant',
     githubLink: 'https://github.com/jtla3/Animation-Nation',
   },
+     {
+    artName: 'Heart Real',
+    pageLink: './Art/riddhax/index.html',
+    imageLink: './Art/riddhax/index.gif',
+    author: 'Riddhax',
+    githubLink: 'https://github.com/riddhax',
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
