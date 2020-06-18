@@ -3678,6 +3678,13 @@
     githubLink: 'https://github.com/jtla3/Animation-Nation',
   },
   {
+    artName: "Loading",
+    pageLink: "./Art/NoumanAziz/Loading.html",
+    videoLink: "./Art/NoumanAziz/loading.gif",
+    author: "NoumanAziz",
+    githubLink: "https://github.com/NoumanAziz"
+  },
+  {
     artName: `Galek's Simple Animation`,
     pageLink: './Art/GalekAnimation/index.html',
     imageLink: './Art/GalekAnimation/simpleanimation.gif',
@@ -3685,7 +3692,6 @@
     githubLink: 'https://github.com/TheGalekxy',
   },
 ];
- master
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
