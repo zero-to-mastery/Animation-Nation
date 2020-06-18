@@ -3668,6 +3668,13 @@
     author: 'Mark Marchant',
     githubLink: 'https://github.com/jtla3/Animation-Nation',
   },
+  {
+    artName: "Loading",
+    pageLink: "./Art/NoumanAziz/Loading.html",
+    videoLink: "./Art/NoumanAziz/loading.gif",
+    author: "NoumanAziz",
+    githubLink: "https://github.com/NoumanAziz"
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
