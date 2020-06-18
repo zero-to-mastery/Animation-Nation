@@ -3606,6 +3606,15 @@
     githubLink: "https://github.com/sanmitra1999"
   },
   {
+    artName: "Mario_Kart_Animation",
+    pageLink: "./Art/Mario_Kart_Animation/index.html",
+    imageLink: "./Art/Mario_Kart_Animation/Mario.png",
+    author: "AnsonAMS",
+    githubLink: "https://github.com/AnsonAMS"
+  }
+
+]
+
     artName: "Dragon_Loading",
     pageLink: "./Art/Dragon_Loading/index.html",
     imageLink: "./Art/Dragon_Loading/DragonLoading.gif",
@@ -3674,6 +3683,13 @@
     videoLink: "./Art/NoumanAziz/loading.gif",
     author: "NoumanAziz",
     githubLink: "https://github.com/NoumanAziz"
+  },
+  {
+    artName: `Galek's Simple Animation`,
+    pageLink: './Art/GalekAnimation/index.html',
+    imageLink: './Art/GalekAnimation/simpleanimation.gif',
+    author: 'Adam Galek',
+    githubLink: 'https://github.com/TheGalekxy',
   },
 ];
 
