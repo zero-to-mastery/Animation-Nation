@@ -1,9 +1,11 @@
 body{
     background-color: rgba(128, 173, 151, 0.43);
     display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
     font-size: 3rem;
 }
 h1{
+    grid-column: 2;
     display: flex;
     justify-content: center;
     padding: 7rem;
@@ -11,14 +13,7 @@ h1{
     color: rgb(82, 148, 116);
     animation: animate 7s infinite;
 }
- h2::after{
-    content: "זו האנימציה הראשונה שלי :)";
-    display: flex;
-    justify-content: center;
-    color: rgb(48, 112, 112);
-    
-} 
-@keyframes animate{
+ @keyframes animate{
     0%{
         font-size: 5rem ;
         opacity: 0.25;
