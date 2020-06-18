@@ -7,6 +7,13 @@
     author: 'shivam12k',
     githubLink: 'https://github.com/shivam12k'
   },
+  {
+    artName: "Mag-animation",
+    pageLink: "./Art/Mag-D-Alena/index.html",
+    videoLink: "./Art/Mag-D-Alena/Mag-animation.gif",
+    author: 'Magdalena BenBassat-Luszczynska',
+    githubLink: 'https://github.com/mag-d-alen',
+  },
 
   {
     artName: 'That Animation',
