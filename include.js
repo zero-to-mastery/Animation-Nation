@@ -3597,6 +3597,13 @@
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
+  },
+  {
+    artName: "Mario_Kart_Animation",
+    pageLink: "./Art/Mario_Kart_Animation/index.html",
+    imageLink: "./Art/Mario_Kart_Animation/Mario.png",
+    author: "AnsonAMS",
+    githubLink: "https://github.com/AnsonAMS"
   }
 
 ]
