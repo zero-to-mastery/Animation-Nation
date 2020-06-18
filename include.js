@@ -3606,6 +3606,15 @@
     githubLink: "https://github.com/sanmitra1999"
   },
   {
+    artName: "Mario_Kart_Animation",
+    pageLink: "./Art/Mario_Kart_Animation/index.html",
+    imageLink: "./Art/Mario_Kart_Animation/Mario.png",
+    author: "AnsonAMS",
+    githubLink: "https://github.com/AnsonAMS"
+  }
+
+]
+
     artName: "Dragon_Loading",
     pageLink: "./Art/Dragon_Loading/index.html",
     imageLink: "./Art/Dragon_Loading/DragonLoading.gif",
@@ -3676,6 +3685,7 @@
     githubLink: 'https://github.com/TheGalekxy',
   },
 ];
+ master
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
