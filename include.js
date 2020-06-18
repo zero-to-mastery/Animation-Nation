@@ -3668,6 +3668,13 @@
     author: 'Mark Marchant',
     githubLink: 'https://github.com/jtla3/Animation-Nation',
   },
+  {
+    artName: `Galek's Simple Animation`,
+    pageLink: './Art/GalekAnimation/index.html',
+    imageLink: './Art/GalekAnimation/simpleanimation.gif',
+    author: 'Adam Galek',
+    githubLink: 'https://github.com/TheGalekxy',
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
