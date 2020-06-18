@@ -3668,6 +3668,13 @@
     author: 'Mark Marchant',
     githubLink: 'https://github.com/jtla3/Animation-Nation',
   },
+  {
+    artName: 'Text Flow',
+    pageLink: './Art/ConnerCoding/index.html',
+    imageLink: './Art/ConnerCoding/ztmanimation.gif',
+    author: 'Conner Schiller',
+    githubLink: 'https://github.com/ConnerCoding'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
