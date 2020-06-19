@@ -3618,10 +3618,15 @@
     imageLink: "./Art/Mario_Kart_Animation/Mario.png",
     author: "AnsonAMS",
     githubLink: "https://github.com/AnsonAMS"
-  }
-
-]
-
+  },
+  {
+    artName: "Microsoft_animation",
+    pageLink: "./Art/SaumyaBhatt/index.html",
+    imageLink: "./Art/SaumyaBhatt/Animation.gif",
+    author: "Saumya-Bhatt",
+    githubLink: "https://github.com/Saumya-Bhatt"
+  },
+  {
     artName: "Dragon_Loading",
     pageLink: "./Art/Dragon_Loading/index.html",
     imageLink: "./Art/Dragon_Loading/DragonLoading.gif",
