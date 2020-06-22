@@ -3591,7 +3591,7 @@
     author: "Galia",
     githubLink: "https://github.com/galiarudenko"
   },
-   {
+  {
     artName: "Rainb0w",
     pageLink: "./Art/Duka/index.html",
     imageLink: "./Art/Duka/rainbow.gif",
@@ -3654,7 +3654,7 @@
     author: "Fiyi-A",
     githubLink: "https://github.com/Fiyi-A"
   },
-   {
+  {
     artName: "Colored Bars",
     pageLink: "./Art/mleblanc94/mleblanc94_html_Animation-Nation.html",
     imageLink: "./Art/mleblanc94/ColoredBars.gif",
@@ -3675,14 +3675,14 @@
     author: "jyun9504",
     githubLink: "https://github.com/jyun9504"
   },
-    {
-      artName: "brianbottle",
-      author: "brian",
-      pageLink: "./Art/brianbottle/index.html",
-      imageLink: "./Art/brianbottle/bottle.gif",
-      githubLink: "https://github.com/brianabplanalp1"
-   }, 
-   {
+  {
+    artName: "brianbottle",
+    author: "brian",
+    pageLink: "./Art/brianbottle/index.html",
+    imageLink: "./Art/brianbottle/bottle.gif",
+    githubLink: "https://github.com/brianabplanalp1"
+  },
+  {
     artName: 'Shapes',
     pageLink: './Art/mark-marchant/index.html',
     imageLink: './Art/mark-marchant/shapes.png',
@@ -3704,6 +3704,13 @@
     githubLink: 'https://github.com/TheGalekxy',
   },
   {
+    artName: "Animatron",
+    pageLink: "./Art/Animatron/index.html",
+    imageLink: "./Art/Animatron/trance.gif",
+    author: "Gihan Balasuriya",
+    githubLink: "https://github.com/gihanbalasuriya",
+  },
+  {
     artName: "Light text blink",
     pageLink: "./Art/Mani-textlight-blink/index.html",
     imageLink: "./Art/Mani-textlight-blink/light-blink-text.gif",
@@ -3711,6 +3718,8 @@
     githubLink: 'https://github.com/Manipandian',
   }
 ];
+
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
