@@ -3704,6 +3704,13 @@
     githubLink: 'https://github.com/TheGalekxy',
   },
   {
+    artName: `Cyan Loading Animation`,
+    pageLink: './Art/Wannesds/index.html',
+    imageLink: './Art/Wannesds/Wannesds.gif',
+    author: 'Wannes Dieltiens',
+    githubLink: 'https://github.com/Wannesds',
+  },
+  {
     artName: "Animatron",
     pageLink: "./Art/Animatron/index.html",
     imageLink: "./Art/Animatron/trance.gif",
