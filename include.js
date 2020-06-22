@@ -3703,6 +3703,13 @@
     author: 'Adam Galek',
     githubLink: 'https://github.com/TheGalekxy',
   },
+  {
+    artName: `Cyan Loading Animation`,
+    pageLink: './Art/Wannesds/index.html',
+    imageLink: './Art/Wannesds/Wannesds.gif',
+    author: 'Wannes Dieltiens',
+    githubLink: 'https://github.com/Wannesds',
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
