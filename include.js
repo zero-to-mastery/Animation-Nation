@@ -3704,6 +3704,13 @@
     githubLink: 'https://github.com/TheGalekxy',
   },
   {
+    artname:'Rainbow animation',
+    pageLink:'./Art/Rainbow/index.html',
+    imageLink:'./Art/Rainbow/rainbow.gif',
+    author:'Mohanraj',
+    githubLink:'https://github.com/chelladuraimohanraj/Animation-Nation',
+  },
+  {
     artName: `Cyan Loading Animation`,
     pageLink: './Art/Wannesds/index.html',
     imageLink: './Art/Wannesds/Wannesds.gif',
