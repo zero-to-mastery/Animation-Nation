@@ -3703,6 +3703,13 @@
     author: 'Adam Galek',
     githubLink: 'https://github.com/TheGalekxy',
   },
+  {
+    artName: "Light text blink",
+    pageLink: "./Art/Mani-textlight-blink/index.html",
+    imageLink: "./Art/Mani-textlight-blink/light-blink-text.gif",
+    author: 'Mani Pandian',
+    githubLink: 'https://github.com/Manipandian',
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
