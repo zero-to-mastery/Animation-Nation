@@ -3703,13 +3703,19 @@
     author: 'Adam Galek',
     githubLink: 'https://github.com/TheGalekxy',
   },
-  //  Add your card in this section
   {
     artName: "Animatron",
     pageLink: "./Art/Animatron/index.html",
     imageLink: "./Art/Animatron/trance.gif",
     author: "Gihan Balasuriya",
     githubLink: "https://github.com/gihanbalasuriya",
+  },
+  {
+    artName: "Light text blink",
+    pageLink: "./Art/Mani-textlight-blink/index.html",
+    imageLink: "./Art/Mani-textlight-blink/light-blink-text.gif",
+    author: 'Mani Pandian',
+    githubLink: 'https://github.com/Manipandian',
   }
 ];
 
