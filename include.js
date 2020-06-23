@@ -3730,6 +3730,13 @@
     imageLink: "./Art/Mani-textlight-blink/light-blink-text.gif",
     author: 'Mani Pandian',
     githubLink: 'https://github.com/Manipandian',
+  },
+  {
+    artName: "Circle",
+    pageLink: "./Art/PoKai/index.html",
+    imageLink: "./Art/PoKai/circle.png",
+    author: 'PoKai Chang',
+    githubLink: 'https://github.com/st875052018',
   }
 ];
 
