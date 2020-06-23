@@ -3724,6 +3724,14 @@
     author: 'Mani Pandian',
     githubLink: 'https://github.com/Manipandian',
   }
+    {
+      artName: "bouncing_ball",
+      pageLink: "./Art/bouncing_ball/bouncing_ball.html",
+      imageLink: "./Art/bouncing_ball/bouncing-ball.gif",
+      author: "Nirmalie",
+      githubLink: 'https://github.com/nirmalieo3',
+
+      }
 ];
 
 
