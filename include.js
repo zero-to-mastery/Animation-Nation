@@ -3618,10 +3618,8 @@
     imageLink: "./Art/Mario_Kart_Animation/Mario.png",
     author: "AnsonAMS",
     githubLink: "https://github.com/AnsonAMS"
-  }
-
-]
-
+  },
+  {
     artName: "Dragon_Loading",
     pageLink: "./Art/Dragon_Loading/index.html",
     imageLink: "./Art/Dragon_Loading/DragonLoading.gif",
