@@ -3737,7 +3737,7 @@
     imageLink: "./Art/PoKai/circle.png",
     author: 'PoKai Chang',
     githubLink: 'https://github.com/st875052018',
-  }
+  },
     {
       artName: "bouncing_ball",
       pageLink: "./Art/bouncing_ball/bouncing_ball.html",
@@ -3745,7 +3745,16 @@
       author: "Nirmalie",
       githubLink: 'https://github.com/nirmalieo3',
 
-      }
+      },
+    
+        
+        {
+          artName: "Rocket",
+          pageLink: "./Art/Rocket/index.html",
+          imageLink: "./Art/Rocket/rocket.gif",
+          author: 'Jose Diaz',
+          githubLink: 'https://github.com/josegerard2000'
+         } 
 ];
 
 
