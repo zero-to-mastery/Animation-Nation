@@ -51,6 +51,13 @@
     githubLink: 'https://github.com/Futuregit',
   },
   {
+    artName: "neon-text flicker glow",
+    pageLink: "./Art/neon-text flicker glow/neon.html",
+    videoLink: "./Art/neon-text flicker glow/neon-text flicker glow.gif",
+    author: 'Ajay Tyagi',
+    githubLink: 'https://github.com/imajaytyagi'
+  },
+  {
     artName: 'space zoo',
     pageLink: './Art/space_zoo/index.html',
     imageLink: './Art/space_zoo/space_zoo.gif',
