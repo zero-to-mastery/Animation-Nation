@@ -3780,7 +3780,15 @@
           imageLink: "./Art/ainamation/ainamation.gif",
           author: "Ainara Saralegui",
           githubLink: "https://github.com/asaralegui"
-      }
+      },
+   { 
+    artName: 'Text Flow',
+    pageLink: './Art/ConnerCoding/index.html',
+    imageLink: './Art/ConnerCoding/ztmanimation.gif',
+    author: 'Conner Schiller',
+    githubLink: 'https://github.com/ConnerCoding'
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
