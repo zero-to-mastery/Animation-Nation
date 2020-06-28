@@ -3795,6 +3795,13 @@
     author: 'Joaquin Castillo',
     githubLink: 'https://github.com/JuakoDev',
   },
+     {
+    artName: 'Heart Real',
+    pageLink: './Art/riddhax/index.html',
+    imageLink: './Art/riddhax/index.gif',
+    author: 'Riddhax',
+    githubLink: 'https://github.com/riddhax',
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
