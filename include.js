@@ -3737,13 +3737,21 @@
     imageLink: "./Art/PoKai/circle.png",
     author: 'PoKai Chang',
     githubLink: 'https://github.com/st875052018',
-  }
+  },
     {
       artName: "bouncing_ball",
       pageLink: "./Art/bouncing_ball/bouncing_ball.html",
       imageLink: "./Art/bouncing_ball/bouncing-ball.gif",
       author: "Nirmalie",
       githubLink: 'https://github.com/nirmalieo3',
+
+      },
+  {
+      artName: "simpleG",
+      pageLink: "./Art/simpleG/index.html",
+      imageLink: "./Art/simpleG/kitty.jpg",
+      author: "gargeper",
+      githubLink: 'https://github.com/gargeper',
 
       }
 ];
