@@ -3634,6 +3634,13 @@
     githubLink: "https://github.com/Saumya-Bhatt",
   },
   {
+    artName: "Falling",
+    pageLink: "./Art/Sfrench5/index.html",
+    imageLink: "./Art/Sfrench5/Falling.gif",
+    author: "Sfrench5",
+    githubLink: "https://github.com/Sfrench5"
+  },
+  {
     artName: "Dragon_Loading",
     pageLink: "./Art/Dragon_Loading/index.html",
     imageLink: "./Art/Dragon_Loading/DragonLoading.gif",
@@ -3818,6 +3825,7 @@
     githubLink: 'https://github.com/Vicwin13'
   }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
