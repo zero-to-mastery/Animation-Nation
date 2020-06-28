@@ -3589,6 +3589,13 @@
     githubLink: "https://github.com/visiona",
   },
   {
+      artName: "Synchronization",
+      pageLink: "./Art/synchronization!/synchronization",
+      imageLink: "./Art/synchronization/synchronized_Dots.gif",
+      author: "Pranjal",
+      githublink: "https://github.com/Pranjal705"
+  },
+   {
     artName: "Random Squares",
     pageLink: "./Art/Monitha/index.html",
     author: "Monitha",
