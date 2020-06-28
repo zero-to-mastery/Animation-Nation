@@ -3788,7 +3788,13 @@
     author: 'Conner Schiller',
     githubLink: 'https://github.com/ConnerCoding'
   },
-
+    {
+    artName: 'Glow',
+    pageLink: './Art/Glow/index.html',
+    imageLink: './Art/Glow/Glow.png',
+    author: 'Joaquin Castillo',
+    githubLink: 'https://github.com/JuakoDev',
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
