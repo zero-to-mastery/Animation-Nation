@@ -3802,6 +3802,14 @@
     author: 'Riddhax',
     githubLink: 'https://github.com/riddhax',
   },
+
+  {
+    artName: "Balls",
+    pageLink: "./Art/Paul - Simple Annoying Balls/index.html",
+    imageLink: "./Art/Paul - Simple Annoying Balls/Balls.gif",
+    author: "Paul",
+    githubLink: "https://github.com/psr83",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
