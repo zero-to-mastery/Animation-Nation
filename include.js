@@ -3737,7 +3737,7 @@
     imageLink: "./Art/PoKai/circle.png",
     author: 'PoKai Chang',
     githubLink: 'https://github.com/st875052018',
-  }
+  },
     {
       artName: "bouncing_ball",
       pageLink: "./Art/bouncing_ball/bouncing_ball.html",
@@ -3745,6 +3745,14 @@
       author: "Nirmalie",
       githubLink: 'https://github.com/nirmalieo3',
 
+      },
+
+      {
+          artName: "BounceFace",
+          pageLink: "./Art/ainamation/index.html",
+          imageLink: "./Art/ainamation/ainamation.gif",
+          author: "Ainara Saralegui",
+          githubLink: "https://github.com/asaralegui"
       }
 ];
 
