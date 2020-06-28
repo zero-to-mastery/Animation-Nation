@@ -3737,15 +3737,22 @@
     imageLink: "./Art/PoKai/circle.png",
     author: 'PoKai Chang',
     githubLink: 'https://github.com/st875052018',
-  }
-    {
-      artName: "bouncing_ball",
-      pageLink: "./Art/bouncing_ball/bouncing_ball.html",
-      imageLink: "./Art/bouncing_ball/bouncing-ball.gif",
-      author: "Nirmalie",
-      githubLink: 'https://github.com/nirmalieo3',
+  },
+  {
+    artName: "bouncing_ball",
+    pageLink: "./Art/bouncing_ball/bouncing_ball.html",
+    imageLink: "./Art/bouncing_ball/bouncing-ball.gif",
+    author: "Nirmalie",
+    githubLink: 'https://github.com/nirmalieo3',
 
-      }
+  },
+  {
+    artName: "pacman",
+    pageLink: "./Art/gogpaule/index.html",
+    imageLink: "./Art/gogpaule/pacman.gif",
+    author: "Paul Polihronakis",
+    githubLink: 'https://github.com/gogpaulie'
+  }
 ];
 
 

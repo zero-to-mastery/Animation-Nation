@@ -1,0 +1,62 @@
+body {
+  background: #000;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: 'Slabo 27px', serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/*pacman*/
+
+.pacman {
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background: #F2D648;
+  position: relative;
+  margin-top: 20px;
+}
+
+.pacman_eye {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 160px;
+  right: 320px;
+  background: #333333;
+}
+
+.pacman_mouth {
+  background: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+  animation-name: eat;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes eat {
+  0% {
+    clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+  }
+  25% {
+    clip-path: polygon(100% 60%, 44% 48%, 100% 40%);
+  }
+  50% {
+    clip-path: polygon(100% 50%, 44% 48%, 100% 50%);
+  }
+  75% {
+   clip-path: polygon(100% 59%, 44% 48%, 100% 35%);
+  }
+  100% {
+   clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+  }
+}
+
