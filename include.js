@@ -3746,7 +3746,13 @@
       githubLink: 'https://github.com/nirmalieo3',
 
       },
-
+  {
+      artName: "simpleG",
+      pageLink: "./Art/simpleG/index.html",
+      imageLink: "./Art/simpleG/kitty.jpg",
+      author: "gargeper",
+      githubLink: 'https://github.com/gargeper',
+  },
       {
           artName: "BounceFace",
           pageLink: "./Art/ainamation/index.html",
