@@ -3558,6 +3558,15 @@
     githubLink: "https://github.com/jacob-bacon",
   },
   {
+ 
+    artName: "Colination",
+    pageLink: "./Art/colination/index.html",
+    imageLink: "./Art/colination/animation.png",
+    author: "colinJR95",
+    githublink: "https://github.com/colinJR95"
+  },
+   {  
+
     artName: "Glowing Circle by Leem Plays",
     pageLink: "./Art/AliHaidar/index.html",
     imageLink: "./Art/AliHaidar/giphy.gif",
@@ -3565,6 +3574,7 @@
     githubLink: "https://github.com/alihaidar2950",
   },
   {
+
     artName: "bouncy-ball",
     pageLink: "./Art/bouncy-ball/ty.html",
     imageLink: "./Art/bouncy-ball/bouncy-ball.gif",
