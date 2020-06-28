@@ -56,6 +56,13 @@
     author: "yuwenGithub",
     githubLink: "https://github.com/yuwenGithub",
   },
+   {
+    artName: "neon-text flicker glow",
+    pageLink: "./Art/neon-text flicker glow/neon.html",
+    videoLink: "./Art/neon-text flicker glow/neon-text flicker glow.gif",
+    author: 'Ajay Tyagi',
+    githubLink: 'https://github.com/imajaytyagi'
+  },
   {
     artName: "Fruit Dancing",
     pageLink: "./Art/carlacentenor/index.html",
@@ -3739,19 +3746,34 @@
     githubLink: "https://github.com/st875052018",
   },
   {
-    artName: "bouncing_ball",
-    pageLink: "./Art/bouncing_ball/bouncing_ball.html",
-    imageLink: "./Art/bouncing_ball/bouncing-ball.gif",
-    author: "Nirmalie",
-    githubLink: "https://github.com/nirmalieo3",
-  },
-  {
     artName: "animatron",
     pageLink: "./Art/animatron/index.html",
     imageLink: "./Art/animatron/trance.gif",
     author: "Christy",
     githubLink: "https://github.com/ChristyLucid",
   },
+    {
+      artName: "bouncing_ball",
+      pageLink: "./Art/bouncing_ball/bouncing_ball.html",
+      imageLink: "./Art/bouncing_ball/bouncing-ball.gif",
+      author: "Nirmalie",
+      githubLink: 'https://github.com/nirmalieo3',
+
+      },
+  {
+      artName: "simpleG",
+      pageLink: "./Art/simpleG/index.html",
+      imageLink: "./Art/simpleG/kitty.jpg",
+      author: "gargeper",
+      githubLink: 'https://github.com/gargeper',
+  },
+      {
+          artName: "BounceFace",
+          pageLink: "./Art/ainamation/index.html",
+          imageLink: "./Art/ainamation/ainamation.gif",
+          author: "Ainara Saralegui",
+          githubLink: "https://github.com/asaralegui"
+      }
 ];
 
 // +--------------------------------------------------------------------------------+
