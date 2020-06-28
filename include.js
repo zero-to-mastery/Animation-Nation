@@ -3760,6 +3760,13 @@
       githubLink: 'https://github.com/nirmalieo3',
 
       },
+        {
+          artName: "Rocket",
+          pageLink: "./Art/Rocket/index.html",
+          imageLink: "./Art/Rocket/rocket.gif",
+          author: 'Jose Diaz',
+          githubLink: 'https://github.com/josegerard2000'
+         },
   {
       artName: "simpleG",
       pageLink: "./Art/simpleG/index.html",
