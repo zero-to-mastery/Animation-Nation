@@ -3752,7 +3752,13 @@
       imageLink: "./Art/simpleG/kitty.jpg",
       author: "gargeper",
       githubLink: 'https://github.com/gargeper',
-
+  },
+      {
+          artName: "BounceFace",
+          pageLink: "./Art/ainamation/index.html",
+          imageLink: "./Art/ainamation/ainamation.gif",
+          author: "Ainara Saralegui",
+          githubLink: "https://github.com/asaralegui"
       }
 ];
 
