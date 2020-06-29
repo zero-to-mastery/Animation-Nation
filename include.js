@@ -3642,9 +3642,7 @@
     pageLink: "./Art/Naok000/index.html",
     imageLink: "./Art/Naok000/ball-clear.gif",
     author: "Naok000",
-    githubLink: "https://github.com/Naok000",
-
-    githubLink: "https://github.com/sanmitra1999",
+    githubLink: "https://github.com/Naok000"
   },
   {
     artName: "Mario_Kart_Animation",
@@ -3850,6 +3848,13 @@
     imageLink: './Art/Spin/allli.gif',
     author: 'Victor Winner',
     githubLink: 'https://github.com/Vicwin13'
+  },
+  {
+    artName: 'Moving piper',
+    pageLink: './Art/nishant/index.html',
+    imageLink: './Art/nishant/nishant.gif',
+    author: 'Nishant Pandey',
+    githubLink: 'https://github.com/mrpandey1'
   },
   {
     artName: 'brose55-heartbeat',
