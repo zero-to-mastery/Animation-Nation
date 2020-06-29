@@ -3558,14 +3558,14 @@
     githubLink: "https://github.com/jacob-bacon",
   },
   {
- 
+
     artName: "Colination",
     pageLink: "./Art/colination/index.html",
     imageLink: "./Art/colination/animation.png",
     author: "colinJR95",
     githublink: "https://github.com/colinJR95"
   },
-   {  
+   {
 
     artName: "Glowing Circle by Leem Plays",
     pageLink: "./Art/AliHaidar/index.html",
@@ -3815,7 +3815,7 @@
           author: "Ainara Saralegui",
           githubLink: "https://github.com/asaralegui"
       },
-   { 
+   {
     artName: 'Text Flow',
     pageLink: './Art/ConnerCoding/index.html',
     imageLink: './Art/ConnerCoding/ztmanimation.gif',
@@ -3850,6 +3850,13 @@
     imageLink: './Art/Spin/allli.gif',
     author: 'Victor Winner',
     githubLink: 'https://github.com/Vicwin13'
+  },
+  {
+    artName: 'brose55-heartbeat',
+    pageLink: './Art/brose55/heartbeat.html',
+    imageLink: './Art/brose55/heartbeat.gif',
+    author: 'brose55',
+    githubLink: 'https://github.com/brose55'
   }
 ];
 
