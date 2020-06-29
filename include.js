@@ -3599,6 +3599,7 @@
     githubLink: "https://github.com/sanmitra1999"
   },
   {
+  {
     artName: "Knight Rider Leds",
     pageLink: "./Art/pdr-clv/index.html",
     imageLink: "./Art/pdr-clv/presentation-pic.jpg",
