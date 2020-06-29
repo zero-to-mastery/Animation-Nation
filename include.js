@@ -3604,7 +3604,7 @@
     imageLink: "./Art/pdr-clv/presentation-pic.jpg",
     author: "Pedro Clv",
     githubLink: "https://github.com/pdr-clv"
-  }
+  }},
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
