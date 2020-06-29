@@ -2708,6 +2708,13 @@ githubLink: 'https://github.com/Dondesconton/',
     imageLink: "./Art/zai/zais_orbitron.gif",
     author: '5amm5',
 		githubLink: 'https://github.com/5amm5965/',
+  },
+   {
+    artName: 'boxes',
+    pageLink: './Art/boxes/index.html',
+    imageLink: './Art/boxes/boxes.gif',
+    author: 'Sara',
+    githubLink: 'https://github.com/sara-ghiorzi',
   }
 ];	
 
