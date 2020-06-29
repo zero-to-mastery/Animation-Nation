@@ -3877,6 +3877,13 @@
     author: 'Solardeath',
     githubLink: 'https://github.com/solardeath'
   }
+    {
+    artName: "Kanimootion",
+    pageLink: "./kanimootion/TextAnimation/index.html",
+    imageLink: "./Art/moon.png",
+    author: "R3alpapi",
+    githubLink: "https://github.com/R3alpapi"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
