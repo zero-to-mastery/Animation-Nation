@@ -3877,6 +3877,13 @@
     author: 'Solardeath',
     githubLink: 'https://github.com/solardeath'
   }
+  {
+    artName: 'FoxUnderStars',
+    pageLink: './Art/kdhenderson/index_fox.html',
+    imageLink: './Art/kdhenderson/foxUnderStars.gif',
+    author: 'kdhenderson',
+    githubLink: 'https://github.com/kdhenderson'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
