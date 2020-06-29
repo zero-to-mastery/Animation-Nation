@@ -3642,7 +3642,7 @@
     pageLink: "./Art/Naok000/index.html",
     imageLink: "./Art/Naok000/ball-clear.gif",
     author: "Naok000",
-    githubLink: "https://github.com/Naok000"
+    githubLink: "https://github.com/Naok000",
 
     githubLink: "https://github.com/sanmitra1999",
   },
@@ -3850,6 +3850,13 @@
     imageLink: './Art/Spin/allli.gif',
     author: 'Victor Winner',
     githubLink: 'https://github.com/Vicwin13'
+  },
+  {
+    artName: 'Ghost',
+    pageLink: './Art/Solardeath/index.html',
+    imageLink: './Art/Solardeath/animation.jpg',
+    author: 'Solardeath',
+    githubLink: 'https://github.com/solardeath'
   }
 ];
 
