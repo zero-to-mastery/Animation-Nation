@@ -3555,7 +3555,14 @@
     pageLink: "./Art/jacob-bacon/index.html",
     imageLink: "./Art/jacob-bacon/jacob-bacon-art.JPG",
     author: "jacob-bacon",
-    githubLink: "https://github.com/jacob-bacon",
+    githubLink: "https://github.com/jacob-bacon"
+  },
+  {
+    artName: "Jerry the Minion",
+    pageLink: "./Art/baisch91/index.html",
+    imageLink: "./Art/baisch91/jerry.GIF",
+    author: "Chuck Baisch",
+    githubLink: "https://github.com/Baisch91"
   },
   {
 
@@ -3876,6 +3883,7 @@
     imageLink: './Art/Solardeath/animation.jpg',
     author: 'Solardeath',
     githubLink: 'https://github.com/solardeath'
+>>>>>>> upstream/master
   }
     {
     artName: "Kanimootion",
