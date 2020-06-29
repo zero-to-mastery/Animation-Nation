@@ -3630,6 +3630,13 @@
     githubLink: "https://github.com/ndvishruth",
   },
   {
+    artName: "Knight Rider Leds",
+    pageLink: "./Art/pdr-clv/index.html",
+    imageLink: "./Art/pdr-clv/presentation-pic.jpg",
+    author: "Pedro Clv",
+    githubLink: "https://github.com/pdr-clv"
+  },
+  {
     artName: "Animatron",
     pageLink: "./Art/sanmitra/index.html",
     imageLink: "./Art/sanmitra/index.gif",
@@ -3871,7 +3878,6 @@
     githubLink: 'https://github.com/solardeath'
   }
 ];
-
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
