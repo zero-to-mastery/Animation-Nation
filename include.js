@@ -2709,10 +2709,10 @@ githubLink: 'https://github.com/Dondesconton/',
     author: '5amm5',
 		githubLink: 'https://github.com/5amm5965/',
   },
-   {
+  {
     artName: 'boxes',
-    pageLink: './Art/boxes/index.html',
-    imageLink: './Art/boxes/boxes.gif',
+    pageLink: './Art/Squares/index.html',
+    imageLink: './Art/Squares/boxes.gif',
     author: 'Sara',
     githubLink: 'https://github.com/sara-ghiorzi',
   }
