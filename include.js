@@ -3598,16 +3598,16 @@
     author: "sanmitra",
     githubLink: "https://github.com/sanmitra1999"
   },
-    {
-      artName: "Hannahmation Nation",
-      pageLink: "./Art/Hannahmation-Nation/index.html",
-      imageLink: "./Art/Hannahmation-Nation/cat-in-space.gif",
-      authot: "Hannah",
-      githubLink: "https://github.com/hannahfk"
-    }
+  {
+    artName: "Hannahmation Nation",
+    pageLink: "./Art/Hannahmation-Nation/index.html",
+    imageLink: "./Art/Hannahmation-Nation/cat-in-space.png",
+    author: "Hannah",
+    githubLink: "https://github.com/hannahfk"
+  }
       
 
-]
+];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
