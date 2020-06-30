@@ -3700,7 +3700,7 @@
   },
   {
     artName: `Sunrise Sunset`,
-        pageLink: './Art/sunset_sunrise/sunrise_sunset.index.html',
+        pageLink: './Art/sunset_sunrise/sunrise_sunset/index.html',
       imageLink: './Art/sunset_sunrise/sun.gif',
       author: 'Hannah ',
       githubLink: 'https://github.com/nahegog',
