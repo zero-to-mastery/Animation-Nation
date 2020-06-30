@@ -3904,7 +3904,7 @@
     imageLink: './Art/Annoying_Box/annoying_box.gif',
     author: 'Chengyan Pan',
     githubLink: 'https://github.com/Currygobig30'
-  }
+  },
   {
     artName: 'FoxUnderStars',
     pageLink: './Art/kdhenderson/index_fox.html',
