@@ -3618,8 +3618,10 @@
     imageLink: "./Art/Mario_Kart_Animation/Mario.png",
     author: "AnsonAMS",
     githubLink: "https://github.com/AnsonAMS"
-  },
-  {
+  }
+
+]
+
     artName: "Dragon_Loading",
     pageLink: "./Art/Dragon_Loading/index.html",
     imageLink: "./Art/Dragon_Loading/DragonLoading.gif",
@@ -3695,13 +3697,6 @@
     imageLink: './Art/GalekAnimation/simpleanimation.gif',
     author: 'Adam Galek',
     githubLink: 'https://github.com/TheGalekxy',
-  },
-  {
-    artName: `Sunset Sunrise`,
-    pageLink: './Art/sunset_sunrise/sunset_sunrise.index.html',
-    imageLink: './Art/sunset_sunrise/sun.gif',
-    author: 'Hannah Goggin',
-    githubLink: 'https://github.com/nahegog',
   },
 ];
 
