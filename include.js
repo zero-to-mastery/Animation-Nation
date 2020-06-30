@@ -3676,7 +3676,7 @@
       pageLink: "./Art/brianbottle/index.html",
       imageLink: "./Art/brianbottle/bottle.gif",
       githubLink: "https://github.com/brianabplanalp1"
-   }, 
+   },
    {
     artName: 'Shapes',
     pageLink: './Art/mark-marchant/index.html',
@@ -3698,6 +3698,13 @@
     author: 'Adam Galek',
     githubLink: 'https://github.com/TheGalekxy',
   },
+  {
+    artName: `Sunrise Sunset`,
+        pageLink: './Art/sunset_sunrise/sunrise_sunset.index.html',
+      imageLink: './Art/sunset_sunrise/sun.gif',
+      author: 'Hannah ',
+      githubLink: 'https://github.com/nahegog',
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
