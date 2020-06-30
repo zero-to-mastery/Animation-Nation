@@ -3696,6 +3696,13 @@
     author: 'Adam Galek',
     githubLink: 'https://github.com/TheGalekxy',
   },
+  {
+    artName: `Sunset Sunrise`,
+    pageLink: './Art/sunset_sunrise/sunset_sunrise.index.html',
+    imageLink: './Art/sunset_sunrise/sun.gif',
+    author: 'Hannah Goggin',
+    githubLink: 'https://github.com/nahegog',
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
