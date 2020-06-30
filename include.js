@@ -3906,6 +3906,13 @@
     author: 'Chengyan Pan',
     githubLink: 'https://github.com/Currygobig30'
   }
+  {
+    artName: 'FoxUnderStars',
+    pageLink: './Art/kdhenderson/index_fox.html',
+    imageLink: './Art/kdhenderson/foxUnderStars.gif',
+    author: 'kdhenderson',
+    githubLink: 'https://github.com/kdhenderson'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
