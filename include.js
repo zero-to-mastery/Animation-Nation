@@ -3884,7 +3884,14 @@
     author: 'Solardeath',
     githubLink: 'https://github.com/solardeath'
 >>>>>>> upstream/master
-  }
+  },
+  {
+    artName: "Equalizer",
+    pageLink: "./Art/Equalizer/index.html",
+    imageLink: "./Art/Equalizer/equalizer.gif",
+    author: "WiLLiaM-noD",
+    githubLink: "https://github.com/WiLLiaM-noD"
+  },
     {
     artName: "Kanimootion",
     pageLink: "./kanimootion/TextAnimation/index.html",
