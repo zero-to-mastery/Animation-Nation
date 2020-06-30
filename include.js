@@ -3898,6 +3898,13 @@
     imageLink: "./Art/moon.png",
     author: "R3alpapi",
     githubLink: "https://github.com/R3alpapi"
+  },
+  {
+    artName: 'Annoying Box',
+    pageLink: './Art/Annoying_Box/index.html',
+    imageLink: './Art/Annoying_Box/annoying_box.gif',
+    author: 'Chengyan Pan',
+    githubLink: 'https://github.com/Currygobig30'
   }
 ];
 
