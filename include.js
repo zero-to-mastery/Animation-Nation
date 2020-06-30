@@ -3883,7 +3883,6 @@
     imageLink: './Art/Solardeath/animation.jpg',
     author: 'Solardeath',
     githubLink: 'https://github.com/solardeath'
->>>>>>> upstream/master
   },
   {
     artName: "Equalizer",
@@ -3912,7 +3911,14 @@
     imageLink: './Art/kdhenderson/foxUnderStars.gif',
     author: 'kdhenderson',
     githubLink: 'https://github.com/kdhenderson'
-  }
+  },
+   {
+     artName: 'Sunrise Sunset',
+     pageLink: './Art/sunset_sunrise/sunrise_sunset/index.html',
+     imageLink: './Art/sunset_sunrise/sun.gif',
+     author: 'Hannah',
+     githubLink: 'https://github.com/nahegog',
+   }
 ];
 
 // +--------------------------------------------------------------------------------+
