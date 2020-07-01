@@ -3955,6 +3955,13 @@
     author: 'Pramit',
     githubLink: 'https://github.com/pramit94',
    }
+   {
+    artName: "Fliptext",
+    pageLink: "./Art/TianHuang/index.html",
+    imageLink: "./Art/TianHuang/fliptext.gif",
+    author: 'TianHuang',
+    githubLink: 'https://github.com/TianHuangLab',
+   }
 ];
 
 // +--------------------------------------------------------------------------------+
