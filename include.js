@@ -3924,6 +3924,13 @@
      imageLink: './Art/sunset_sunrise/sun.gif',
      author: 'Hannah',
      githubLink: 'https://github.com/nahegog',
+   },
+   {
+    artName: 'SimColor Change',
+    pageLink: './Art/SimColor/index.html',
+    imageLink: './Art/SimColor/ColorChanging.gif',
+    author: 'beforethunder',
+    githubLink: 'https://github.com/beforethunderr',
    }
 ];
 
