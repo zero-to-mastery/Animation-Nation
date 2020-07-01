@@ -3819,6 +3819,14 @@
       githubLink: 'https://github.com/nirmalieo3',
 
       },
+      {
+        artName: "Vishnu",
+        pageLink: "./Art/Vishnu/index.html",
+        imageLink: "./Art/vishnu/vishnu.gif",
+        author: "Vishnu",
+        githubLink: 'https://github.com/fiveCubes',
+  
+        },
         {
           artName: "Rocket",
           pageLink: "./Art/Rocket/index.html",
