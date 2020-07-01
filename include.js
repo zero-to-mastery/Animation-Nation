@@ -3931,6 +3931,14 @@
     imageLink: './Art/SimColor/ColorChanging.gif',
     author: 'beforethunder',
     githubLink: 'https://github.com/beforethunderr',
+   },
+
+   {
+    artName: 'Testing',
+    pageLink: './Art/pramit/index.html',
+    imageLink: '',
+    author: 'Pramit',
+    githubLink: 'https://github.com/pramit94',
    }
 ];
 
