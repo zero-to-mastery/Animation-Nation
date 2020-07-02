@@ -3957,9 +3957,9 @@
    }
 
     {
-      artName: "Baloon",
+      artName: "Balloon",
       pageLink: "./Art/liamxdillon/index.html",
-      imageLink: "./Art/liamxdillon/triangle.gif",
+      imageLink: "./Art/liamxdillon/balloon.gif",
       author: 'liamxdillon',
       githubLink: 'https://github.com/liamxdillon',
     }
