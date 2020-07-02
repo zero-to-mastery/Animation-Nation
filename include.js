@@ -3955,6 +3955,14 @@
     author: 'Pramit',
     githubLink: 'https://github.com/pramit94',
    }
+
+    {
+      artName: "Baloon",
+      pageLink: "./Art/liamxdillon/index.html",
+      imageLink: "./Art/liamxdillon/triangle.gif",
+      author: 'liamxdillon',
+      githubLink: 'https://github.com/liamxdillon',
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
