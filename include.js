@@ -3825,7 +3825,7 @@
         imageLink: "./Art/vishnu/vishnu.gif",
         author: "Vishnu",
         githubLink: 'https://github.com/fiveCubes',
-  
+
         },
         {
           artName: "Rocket",
@@ -3954,6 +3954,13 @@
     imageLink: '',
     author: 'Pramit',
     githubLink: 'https://github.com/pramit94',
+   },
+   {
+     artName: "Orangimation",
+     pageLink: "./Art/Orangimation/index.html",
+     videoLink: "./Art/Orangimation/Orangimation.gif",
+     author: "Gurvinderj",
+     githubLink: "https://github.com/Gurvinderj",
    }
 ];
 
