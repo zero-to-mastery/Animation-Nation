@@ -7,6 +7,13 @@
     githubLink: "https://github.com/shivam12k",
   },
   {
+    artName: "PrimaryColors",
+    pageLink: "./Art/primarycolors/index.html",
+    videoLink: "./Art/primarycolors/primarycolors.gif",
+    author: "stthall",
+    githubLink: "https://github.com/stthall",
+  },
+  {
     artName: "Mag-animation",
     pageLink: "./Art/Mag-D-Alena/index.html",
     videoLink: "./Art/Mag-D-Alena/Mag-animation.gif",
