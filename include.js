@@ -3918,57 +3918,57 @@
     pageLink: "./kanimootion/TextAnimation/index.html",
     imageLink: "./Art/moon.png",
     author: "R3alpapi",
-    githubLink: "https://github.com/R3alpapi"
+    githubLink: "https://github.com/R3alpapi",
   },
   {
-    artName: 'Annoying Box',
-    pageLink: './Art/Annoying_Box/index.html',
-    imageLink: './Art/Annoying_Box/annoying_box.gif',
-    author: 'Chengyan Pan',
-    githubLink: 'https://github.com/Currygobig30'
+    artName: "Annoying Box",
+    pageLink: "./Art/Annoying_Box/index.html",
+    imageLink: "./Art/Annoying_Box/annoying_box.gif",
+    author: "Chengyan Pan",
+    githubLink: "https://github.com/Currygobig30",
   },
   {
-    artName: 'FoxUnderStars',
-    pageLink: './Art/kdhenderson/index_fox.html',
-    imageLink: './Art/kdhenderson/foxUnderStars.gif',
-    author: 'kdhenderson',
-    githubLink: 'https://github.com/kdhenderson'
+    artName: "FoxUnderStars",
+    pageLink: "./Art/kdhenderson/index_fox.html",
+    imageLink: "./Art/kdhenderson/foxUnderStars.gif",
+    author: "kdhenderson",
+    githubLink: "https://github.com/kdhenderson",
   },
-   {
-     artName: 'Sunrise Sunset',
-     pageLink: './Art/sunset_sunrise/sunrise_sunset/index.html',
-     imageLink: './Art/sunset_sunrise/sun.gif',
-     author: 'Hannah',
-     githubLink: 'https://github.com/nahegog',
-   },
-   {
-    artName: 'SimColor Change',
-    pageLink: './Art/SimColor/index.html',
-    imageLink: './Art/SimColor/ColorChanging.gif',
-    author: 'beforethunder',
-    githubLink: 'https://github.com/beforethunderr',
-   },
-   {
-    artName: 'Testing',
-    pageLink: './Art/pramit/index.html',
-    imageLink: '',
-    author: 'Pramit',
-    githubLink: 'https://github.com/pramit94',
-   },
-   {
-     artName: "Orangimation",
-     pageLink: "./Art/Orangimation/index.html",
-     videoLink: "./Art/Orangimation/Orangimation.gif",
-     author: "Gurvinderj",
-     githubLink: "https://github.com/Gurvinderj",
-   },
-   {
-     artName: "Clock",
-     pageLink: "./Art/AlenB/index.html",
-     videoLink: "./Art/AlenB/ezgif.com-optimize.gif",
-     author: "alenb12",
-     githubLink: "https://github.com/alenb12",
-  }
+  {
+    artName: "Sunrise Sunset",
+    pageLink: "./Art/sunset_sunrise/sunrise_sunset/index.html",
+    imageLink: "./Art/sunset_sunrise/sun.gif",
+    author: "Hannah",
+    githubLink: "https://github.com/nahegog",
+  },
+  {
+    artName: "SimColor Change",
+    pageLink: "./Art/SimColor/index.html",
+    imageLink: "./Art/SimColor/ColorChanging.gif",
+    author: "beforethunder",
+    githubLink: "https://github.com/beforethunderr",
+  },
+  {
+    artName: "Testing",
+    pageLink: "./Art/pramit/index.html",
+    imageLink: "",
+    author: "Pramit",
+    githubLink: "https://github.com/pramit94",
+  },
+  {
+    artName: "Orangimation",
+    pageLink: "./Art/Orangimation/index.html",
+    videoLink: "./Art/Orangimation/Orangimation.gif",
+    author: "Gurvinderj",
+    githubLink: "https://github.com/Gurvinderj",
+  },
+  {
+    artName: "Clock",
+    pageLink: "./Art/AlenB/index.html",
+    videoLink: "./Art/AlenB/ezgif.com-optimize.gif",
+    author: "alenb12",
+    githubLink: "https://github.com/alenb12",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
