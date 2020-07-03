@@ -3967,7 +3967,14 @@
      videoLink: "./Art/Orangimation/Orangimation.gif",
      author: "Gurvinderj",
      githubLink: "https://github.com/Gurvinderj",
-   }
+   },
+   {
+     artName: "Clock",
+     pageLink: "./Art/AlenB/index.html",
+     videoLink: "./Art/AlenB/ezgif.com-optimize.gif",
+     author: "alenb12",
+     githubLink: "https://github.com/alenb12",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
