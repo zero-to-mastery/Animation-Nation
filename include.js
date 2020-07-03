@@ -3957,11 +3957,11 @@
    },
 
   {
-    artName: 'Balloon',
-    pageLink: './Art/liamxdillon/index.html',
-    imageLink: './Art/liamxdillon/balloon.gif',
-    author: 'liamxdillon',
-    githubLink: 'https://github.com/liamxdillon',
+    artName: "Balloon",
+    pageLink: "./Art/liamxdillon/index.html",
+    imageLink: "./Art/liamxdillon/balloon.gif",
+    author: "liamxdillon",
+    githubLink: "https://github.com/liamxdillon",
   }
 ];
 
