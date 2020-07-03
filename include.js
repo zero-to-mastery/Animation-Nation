@@ -3918,6 +3918,7 @@
     pageLink: "./kanimootion/TextAnimation/index.html",
     imageLink: "./Art/moon.png",
     author: "R3alpapi",
+
     githubLink: "https://github.com/R3alpapi",
   },
   {
@@ -3969,6 +3970,14 @@
     author: "alenb12",
     githubLink: "https://github.com/alenb12",
   },
+  {
+    artName: "Balloon",
+    pageLink: "./Art/liamxdillon/index.html",
+    imageLink: "./Art/liamxdillon/balloon.gif",
+    author: "liamxdillon",
+    githubLink: "https://github.com/liamxdillon",
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
