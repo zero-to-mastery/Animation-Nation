@@ -3832,7 +3832,7 @@
         imageLink: "./Art/vishnu/vishnu.gif",
         author: "Vishnu",
         githubLink: 'https://github.com/fiveCubes',
-  
+
         },
         {
           artName: "Rocket",
@@ -3954,7 +3954,6 @@
     author: 'beforethunder',
     githubLink: 'https://github.com/beforethunderr',
    },
-
    {
     artName: 'Testing',
     pageLink: './Art/pramit/index.html',
@@ -3962,13 +3961,12 @@
     author: 'Pramit',
     githubLink: 'https://github.com/pramit94',
    },
-   
    {
-    artName: "Fliptext",
-    pageLink: "./Art/TianHuang/index.html",
-    imageLink: "./Art/TianHuang/fliptext.gif",
-    author: 'TianHuang',
-    githubLink: 'https://github.com/TianHuangLab',
+     artName: "Orangimation",
+     pageLink: "./Art/Orangimation/index.html",
+     videoLink: "./Art/Orangimation/Orangimation.gif",
+     author: "Gurvinderj",
+     githubLink: "https://github.com/Gurvinderj",
    }
 ];
 
