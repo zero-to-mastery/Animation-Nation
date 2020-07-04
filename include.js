@@ -3978,6 +3978,14 @@
     githubLink: "https://github.com/liamxdillon",
   }
 
+  {
+      artName: "Blinking-Emoji",
+      pageLink: "./Art/Blinking-Emoji/index.html",
+      imageLink: "./Art/Joy/img.png",
+      author: "Monika",
+      githubLink: "https://github.com/Monika39-maker",
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
