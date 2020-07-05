@@ -3654,6 +3654,13 @@
     githubLink: "https://github.com/sanmitra1999"
   },
   {
+    artName: "Supercool",
+    pageLink: "./Art/supercool/index.html",
+    imageLink: "./Art/supercool/cool.gif",
+    author: "Alisha",
+    githubLink: "https://github.com/Alishadaswebdev"
+  },
+   {
     artName: "Smile",
     pageLink: "./Art/Smile/index.html",
     imageLink: "./Art/Smile/Capture.gif",
@@ -3931,7 +3938,6 @@
     pageLink: "./kanimootion/TextAnimation/index.html",
     imageLink: "./Art/moon.png",
     author: "R3alpapi",
-
     githubLink: "https://github.com/R3alpapi",
   },
   {
