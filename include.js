@@ -3998,6 +3998,14 @@
     author: "Gobinath24",
     githubLink: "https://github.com/Gobinath24/",
   },
+  {
+    artName: "MukeshAnimation",
+    pageLink: "./Art/MukeshAnimation/animation.html",
+    pageLink: "./Art/MukeshAnimation/style3.css",
+    imageLink: "./Art/MukeshAnimation/animationbg.jpg"
+    author: "Mukesh",
+    githubLink: "https://github.com/Mukesh2810/",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
