@@ -3657,7 +3657,7 @@
   {
     artName: "Hannahmation Nation",
     pageLink: "./Art/Hannahmation-Nation/index.html",
-    imageLink: "./Art/Hannahmation-Nation/cat-in-space.png",
+    imageLink: "./Art/Hannahmation-Nation/recording.gif",
     author: "Hannah",
     githubLink: "https://github.com/hannahfk",
   },
