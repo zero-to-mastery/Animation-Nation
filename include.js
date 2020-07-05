@@ -3657,7 +3657,7 @@
   {
     artName: "Hannahmation Nation",
     pageLink: "./Art/Hannahmation-Nation/index.html",
-    imageLink: "./Art/Hannahmation-Nation/cat-in-space.png",
+    imageLink: "./Art/Hannahmation-Nation/recording.gif",
     author: "Hannah",
     githubLink: "https://github.com/hannahfk",
   },
@@ -3977,15 +3977,27 @@
     author: "liamxdillon",
     githubLink: "https://github.com/liamxdillon",
   },
-
   {
       artName: "Blinking-Emoji",
       pageLink: "./Art/Blinking-Emoji/index.html",
       imageLink: "./Art/Joy/img.png",
       author: "Monika",
       githubLink: "https://github.com/Monika39-maker",
-  }
-
+  },
+  {
+    artName: "Rotating 3D CUBE",
+    pageLink: "./Art/prakash901/index.html",
+    imageLink: "./Art/prakash901/rotatingcube.gif",
+    author: "Prakash Tiwari",
+    githubLink: "https://github.com/prakash901",
+  },
+  {
+    artName: "16BEC035",
+    pageLink: "./Art/16BEC035/index.html",
+    pageLink: "./Art/16BEC035/style.css",
+    author: "Gobinath24",
+    githubLink: "https://github.com/Gobinath24/",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
