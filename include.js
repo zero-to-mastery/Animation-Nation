@@ -1,4 +1,5 @@
 ﻿let cards = [
+
   {
     artName: "covid-19",
     pageLink: "./Art/shivam12k/index.html",
@@ -3892,6 +3893,13 @@
   },
 
   {
+    artName: "vinny023",
+    pageLink: "./Art/vinny023/index.html",
+    videoLink: "./Art/vinny023/video.mp4",
+    author: 'vinny023',
+    githubLink: 'https://github.com/vinny023'
+  },
+   {
     artName: "Balls",
     pageLink: "./Art/Paul - Simple Annoying Balls/index.html",
     imageLink: "./Art/Paul - Simple Annoying Balls/Balls.gif",
