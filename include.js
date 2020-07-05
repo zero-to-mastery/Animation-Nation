@@ -3651,8 +3651,14 @@
     pageLink: "./Art/sanmitra/index.html",
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
-
     githubLink: "https://github.com/sanmitra1999",
+  },
+  {
+    artName: "eyes winking",
+    pageLink: "./Art/eyesonly1965/index.html",
+    imageLink: "./Art/eyesonly1965/screenshot.png",
+    author: "eyesonly1965",
+    githubLink: "https://github.com/eyesonly1965"
   },
   {
     artName: "Hannahmation Nation",
@@ -4002,7 +4008,7 @@
     artName: "MukeshAnimation",
     pageLink: "./Art/MukeshAnimation/animation.html",
     pageLink: "./Art/MukeshAnimation/style3.css",
-    imageLink: "./Art/MukeshAnimation/animationbg.jpg"
+    imageLink: "./Art/MukeshAnimation/animationbg.jpg",
     author: "Mukesh",
     githubLink: "https://github.com/Mukesh2810/",
   },
