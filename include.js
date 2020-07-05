@@ -3978,6 +3978,13 @@
     githubLink: "https://github.com/liamxdillon",
   },
   {
+      artName: "Blinking-Emoji",
+      pageLink: "./Art/Blinking-Emoji/index.html",
+      imageLink: "./Art/Joy/img.png",
+      author: "Monika",
+      githubLink: "https://github.com/Monika39-maker",
+  },
+  {
     artName: "Rotating 3D CUBE",
     pageLink: "./Art/prakash901/index.html",
     imageLink: "./Art/prakash901/rotatingcube.gif",
@@ -3991,7 +3998,6 @@
     author: "Gobinath24",
     githubLink: "https://github.com/Gobinath24/",
   },
-
 ];
 
 // +--------------------------------------------------------------------------------+
