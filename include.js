@@ -3976,7 +3976,7 @@
     imageLink: "./Art/liamxdillon/balloon.gif",
     author: "liamxdillon",
     githubLink: "https://github.com/liamxdillon",
-  }
+  },
 
   {
       artName: "Blinking-Emoji",
