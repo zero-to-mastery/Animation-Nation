@@ -3984,7 +3984,13 @@
     author: "Prakash Tiwari",
     githubLink: "https://github.com/prakash901",
   },
-
+  {
+    artName: "16BEC035",
+    pageLink: "./Art/16BEC035/index.html",
+    pageLink: "./Art/16BEC035/style.css",
+    author: "Gobinath24",
+    githubLink: "https://github.com/Gobinath24/",
+  },
 
 ];
 
