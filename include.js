@@ -3976,7 +3976,15 @@
     imageLink: "./Art/liamxdillon/balloon.gif",
     author: "liamxdillon",
     githubLink: "https://github.com/liamxdillon",
-  }
+  },
+  {
+    artName: "Rotating 3D CUBE",
+    pageLink: "./Art/prakash901/index.html",
+    imageLink: "./Art/prakash901/rotatingcube.gif",
+    author: "Prakash Tiwari",
+    githubLink: "https://github.com/prakash901",
+  },
+
 
 ];
 
