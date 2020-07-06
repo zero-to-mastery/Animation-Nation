@@ -4033,6 +4033,15 @@
     author: "Mukesh",
     githubLink: "https://github.com/Mukesh2810/",
   },
+  {
+    artName: "WalkingtotheFuture",
+    pageLink: "./Art/ashik/index.html",
+    pageLink: "./Art/ashik/style3.css",
+    imageLink: "./Art/ashik/trance.gif",
+    imageLink: "./Art/ashik/walkingtofuture.gif",
+    author: "Ashik",
+    githubLink: "https://github.com/ashikta2001",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
