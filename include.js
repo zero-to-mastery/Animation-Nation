@@ -3655,6 +3655,13 @@
     githubLink: "https://github.com/sanmitra1999"
   },
   {
+    artName: "Square Dance",
+    pageLink: "./Art/EdwardRoberson/index.html",
+    imageLink: "./Art/EdwardRoberson/squaredance.png",
+    author: "Ed",
+    githublink: "https://github.com/greedy17"
+  },
+   {
     artName: "Supercool",
     pageLink: "./Art/supercool/index.html",
     imageLink: "./Art/supercool/cool.gif",
