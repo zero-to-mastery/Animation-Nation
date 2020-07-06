@@ -1,5 +1,4 @@
 ﻿let cards = [
-
   {
     artName: "covid-19",
     pageLink: "./Art/shivam12k/index.html",
@@ -29,6 +28,48 @@
     githubLink: "https://github.com/MaKloudz",
   },
   {
+    artName: "That Animation",
+    pageLink: "./Art/MaKloudz/index.html",
+    imageLink: "./Art/MaKloudz/dat-animation.gif",
+    author: "Blessing Mutava",
+    githubLink: "https://github.com/MaKloudz",
+  },
+  {
+    artName: "animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+    author: "nick981837",
+    githubLink: "https://github.com/nick981837",
+  },
+  {
+    artName: "ZTM Animation",
+    pageLink: "./Art/EricPuskas/index.html",
+    imageLink: "./Art/EricPuskas/index.gif",
+    author: "Eric Puskas",
+    githubLink: "https://github.com/EricPuskas",
+  },
+  {
+    artName: "LSD Rainbow Trip: Phase 1",
+    pageLink: "./Art/AbsMechanik/index.html",
+    imageLink: "./Art/AbsMechanik/AbsMechanik_Animation.gif",
+    author: "AbsMechanik",
+    githubLink: "https://github.com/AbsMechanik",
+  },
+  {
+    artName: "Christmas Lights",
+    pageLink: "./Art/Futuregit/index.html",
+    imageLink: "./Art/Futuregit/Christmas-Lights.gif",
+    author: "Futuregit",
+    githubLink: "https://github.com/Futuregit",
+  },
+  {
+    artName: "space zoo",
+    pageLink: "./Art/space_zoo/index.html",
+    imageLink: "./Art/space_zoo/space_zoo.gif",
+    author: "yuwenGithub",
+    githubLink: "https://github.com/yuwenGithub",
+  },
+   {
     artName: "animatron",
     pageLink: "./Art/animatron/index.html",
     imageLink: "./Art/animatron/trance.gif",
@@ -3652,7 +3693,14 @@
     pageLink: "./Art/sanmitra/index.html",
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
-    githubLink: "https://github.com/sanmitra1999"
+    githubLink: "https://github.com/sanmitra1999",
+  },
+  {
+    artName: "Simple-animation",
+    pageLink: "./Art/Votech/index.html",
+    imageLink: "./Art/Votech/simple-animation.gif",
+    author: "Votech",
+    githubLink: "https://github.com/Votech",
   },
   {
     artName: "Nick",
