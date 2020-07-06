@@ -3655,6 +3655,13 @@
     githubLink: "https://github.com/sanmitra1999"
   },
   {
+    artName: "Nick",
+    pageLink: "./Art/Nick/index.html",
+    imageLink: "./Art/Nick/nick.gif",
+    author: "Nicholas",
+    githubLink: "https://github.com/nicxzmiller"
+  },
+   {
     artName: "Square Dance",
     pageLink: "./Art/EdwardRoberson/index.html",
     imageLink: "./Art/EdwardRoberson/squaredance.png",
@@ -3898,7 +3905,6 @@
     author: "Riddhax",
     githubLink: "https://github.com/riddhax",
   },
-
   {
     artName: "vinny023",
     pageLink: "./Art/vinny023/index.html",
