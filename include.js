@@ -4112,6 +4112,13 @@
     githubLink: "https://github.com/RemigiuszKolanko/",
   },
   {
+    artName: "3D Image Flip",
+    pageLink: "./Art/3D Image Flip/index.html",
+    imageLink: "./Art/3D Image Flip/MonaLisa.jpg",
+    author: "Cris Manrique",
+    githubLink: "https://github.com/CrisManrique",
+  },
+   {
     artName: "AnimateButton",
     pageLink: "./Art/CL_animation/index.html",
     imageLink: "./Art/CL_animation/CL_animation.gif",
@@ -4119,6 +4126,8 @@
     githubLink: "https://github.com/clairehq",
   }
 ];
+
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
