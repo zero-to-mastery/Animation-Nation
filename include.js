@@ -4102,7 +4102,15 @@
     imageLink: "./Art/ashik/walkingtofuture.gif",
     author: "Ashik",
     githubLink: "https://github.com/ashikta2001",
-  }
+  },
+  {
+    artName: "Heart Animation",
+    pageLink: "./Art/RemigiuszKolanko/index.html",
+    pageLink: "./Art/RemigiuszKolanko/style.css",
+    imageLink: "./Art/RemigiuszKolanko/heart.png",
+    author: "Remigiusz Kolanko",
+    githubLink: "https://github.com/RemigiuszKolanko/",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
