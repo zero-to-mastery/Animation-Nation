@@ -4111,6 +4111,13 @@
     author: "Remigiusz Kolanko",
     githubLink: "https://github.com/RemigiuszKolanko/",
   },
+  {
+    artName: "AnimateButton",
+    pageLink: "./Art/CL_animation/index.html",
+    imageLink: "./Art/CL_animation/CL_animation.gif",
+    author: "CL",
+    githubLink: "https://github.com/clairehq",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
