@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.element {
+    width: 100%;
+    height: 100%;
+    animation: pulse 3.35s infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1{
+    font-family: Sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    color: white;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #FF3A33;
+    }
+    20% {
+      background-color: #FFB326;
+    }
+    40% {
+      background-color: #FFF500;
+    }
+    60% {
+      background-color: #53FF1D;
+    }
+    80% {
+      background-color: #1AA3FF;
+    }
+    100% {
+      background-color: #DB16FF;
+    }
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
