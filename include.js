@@ -4145,9 +4145,15 @@
     imageLink: "./Art/CL_animation/CL_animation.gif",
     author: "CL",
     githubLink: "https://github.com/clairehq",
-  }
+  },
+   {
+		artName: 'Fan Animation',
+		pageLink: './Art/Tushar-jain/index.html',
+		imageLink: './Art/Tushar-jain/fan2.gif',
+		author: 'Tushar jain',
+		githubLink: 'https://github.com/Tusjain28',
+	}
 ];
-
 
 
 // +--------------------------------------------------------------------------------+
