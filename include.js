@@ -4119,6 +4119,27 @@
     githubLink: "https://github.com/CrisManrique",
   },
    {
+    artName: "Smoke Animation",
+    pageLink: "./Art/smoke Animation/index.html",
+    imageLink: "./Art/smoke Animation/Capture.png",
+    author: "aman-cse",
+    githubLink: "https://github.com/aman-cse",
+   },
+   {
+    artName: "BH",
+    pageLink: "./Art/animationBH/index.html",
+    imageLink: "",
+    author: "BH",
+    githubLink: "https://github.com/huynhcongbaotran",
+  },
+  {
+    artName: "Mountain Sky",
+    pageLink: "./Art/steviesocks/index.html",
+    imageLink: "./Art/steviesocks/css-mountain-animation.gif",
+    author: "steviesocks",
+    githubLink: "https://github.com/steviesocks",
+  },
+   {
     artName: "AnimateButton",
     pageLink: "./Art/CL_animation/index.html",
     imageLink: "./Art/CL_animation/CL_animation.gif",
