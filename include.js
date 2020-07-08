@@ -4176,7 +4176,7 @@
     {
         artName: "circles",
         pageLink: "./Art/circles/index.html",
-        imageLink: "./Art/circles/circle.gif",
+        imageLink: "./Art/circles/include.png",
         author: "Pedro Ramirez",
         githubLink: "https://github.com/pramirez2328",
     },

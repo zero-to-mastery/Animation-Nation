@@ -1,0 +1,152 @@
+p {
+    color: rgba(73, 9, 9, 0.979);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.first {
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+    border: solid black 2px;
+    margin: 0.5rem;
+    border-radius: 100%;
+    animation-name: crazy;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes crazy {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.secound {
+    width: 70px;
+    height: 70px;
+    background-color: crimson;
+    border: solid black 2px;
+    margin: 0.5rem;
+    border-radius: 100%;
+    animation-name: crazy2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes crazy2 {
+    from {
+        margin-left: 0%;
+    }
+    to {
+        margin-left: 100%;
+    }
+}
+
+.third {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(20, 220, 120);
+    border: solid black 2px;
+    margin: 0.5rem;
+    border-radius: 100%;
+    animation-name: crazy3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes crazy3 {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.four {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(33, 20, 220);
+    border: solid black 2px;
+    margin: 0.5rem;
+    border-radius: 100%;
+    animation-name: crazy4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes crazy4 {
+    from {
+        margin-left: 0%;
+    }
+    to {
+        margin-left: 100%;
+    }
+}
+
+.five {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(177, 220, 20);
+    border: solid black 2px;
+    margin: 0.5rem;
+    border-radius: 100%;
+    animation-name: crazy5;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes crazy5 {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.six {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(220, 50, 20);
+    border: solid black 2px;
+    margin: 0.5rem;
+    border-radius: 100%;
+    animation-name: crazy6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes crazy6 {
+    from {
+        margin-left: 0%;
+    }
+    to {
+        margin-left: 100%;
+    }
+}
+
+.seven {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(220, 20, 187);
+    border: solid black 2px;
+    margin: 0.5rem;
+    border-radius: 100%;
+    animation-name: crazy7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes crazy7 {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
