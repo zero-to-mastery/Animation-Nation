@@ -4174,6 +4174,13 @@
     author: "Tushar jain",
     githubLink: "https://github.com/Tusjain28",
     },
+    {
+    artName: "circling circle",
+    pageLink: "./Art/circlingcircle/index.html",
+    videoLink: "./Art/circlingcircle/circlespin.mp4",
+    author: "Alvin",
+    githubLink: "https://github.com/AlvinJackson",
+  },
 ];
 
 
