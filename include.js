@@ -4208,6 +4208,7 @@
     imageLink: "./Art/alpayhassan/squareImageOfArt.png",
     author: "Alpay Hassan"
     githubLink: "https://github.com/alpayhassan"
+  }
 ];
 
 
