@@ -1,0 +1,231 @@
+/* common styles */
+*{
+    margin:0;
+    padding:0;
+    font-family:'Metal Mania', cursive;
+    list-style-type:none;
+    text-decoration:none;
+    box-sizing:border-box;
+    outline:none;
+}
+
+html {
+    font-size:62.5%;
+}
+
+.center {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    background-color:#fff;
+    margin:5rem;
+    box-shadow:0 1rem 3rem #665f5f;
+    overflow:hidden;
+}
+/* end of common styles */
+
+.display {
+    width:100%;
+    height:calc(100vh - 7rem);
+    position:relative;
+    background-color:#ddd;
+    perspective:100rem;
+    animation:contact-bg 5s infinite;
+}
+
+@keyframes contact-bg{
+    0%{
+        background-color:#3d3d3d;
+    }
+    25%{
+        background-color:#ced8e4;
+    }
+    50%{
+        background-color:#1e81f3;
+    }
+    75%{
+        background-color:#ff7842;
+    }
+    100%{
+        background-color:#3d3d3d;
+    }
+}
+
+.logo{
+    position:absolute;
+    top:8rem;
+    left:auto;
+}
+
+.logo h1 {
+    display:flex;
+}
+
+.logo h1 span {
+    font-size:5rem;
+    font-weight:900;
+    color:#000;
+    text-transform:uppercase;
+    background-color:#fff;
+    width:5rem;
+    height:5rem;
+    margin:1rem;
+    border-radius:50%;
+}
+
+.logo h1 span:nth-child(1) {
+    animation: drop-letters 4s 0.1s infinite;
+}
+
+.logo h1 span:nth-child(2) {
+    animation: drop-letters 4s 0.2s infinite;
+}
+
+.logo h1 span:nth-child(3) {
+    animation: drop-letters 4s 0.3s infinite;
+}
+
+.logo h1 span:nth-child(4) {
+    animation: drop-letters 4s 0.4s infinite;
+}
+
+.logo h1 span:nth-child(5) {
+    animation: drop-letters 4s 0.5s infinite;
+}
+
+.logo h1 span:nth-child(6) {
+    animation: drop-letters 4s 0.6s infinite;
+}
+
+.logo h1 span:nth-child(7) {
+    animation: drop-letters 4s 0.7s infinite;
+}
+.logo h1 span:nth-child(8) {
+    animation: drop-letters 4s 0.8s infinite;
+}
+.logo h1 span:nth-child(9) {
+    animation: drop-letters 4s 0.9s infinite;
+}
+.logo h1 span:nth-child(10) {
+    animation: drop-letters 4s 1s infinite;
+}
+
+@keyframes drop-letters {
+    0% {
+        transform:translateY(0);
+    }
+    10% {
+        transform:translateY(0);
+    }
+    15% {
+        transform:translateY(-100%);
+    }
+    20% {
+        transform:translateY(0);
+    }
+    100% {
+        transform:translateY(0);
+    }
+
+}
+
+.header-image {
+    width:35%;
+    background-color:#ddd;
+    position:absolute;
+    top:10rem;
+    right:20rem;
+    animation:image-float 10s infinite;
+}
+
+@keyframes image-float{
+0% {
+    transform: rotate(0) translateZ(20rem);
+    opacity:0.5;
+}
+20% {
+    transform: rotate(0) translateZ(-80rem);
+    opacity:1;
+}
+30% {
+    transform: rotate(360deg) translateZ(-80rem);
+    opacity:1;
+}
+50% {
+    transform:rotate(-360deg) translateZ(-80rem)translateX(20rem);
+    opacity:1;
+}
+70% {
+    transform:rotate(360deg) translateZ(-80rem); 
+    opacity:1;
+}
+80% {
+    transform:rotate(-360deg)translateZ(-80rem); 
+    opacity:1;
+}
+95% {
+    transform:rotate(0)translateZ(-80rem); 
+    opacity:1;
+}
+100% {
+    transform:translateZ(-50rem); 
+    opacity:1;
+}
+
+}
+
+@media only screen and (max-width: 900px) {
+    .logo h1 span {
+        font-size:3rem;
+        font-weight:900;
+        width:4rem;
+        height:4rem;
+        margin:0.5rem;
+       
+    }
+
+    .header-image {
+        width:30%;
+
+    }
+    
+  }
+
+
+    
+@media(max-width: 700px) {
+    .logo h1 span {
+        font-size:1.8rem;
+        font-weight:900;
+        width:3.5rem;
+        height:3.5rem;
+        margin:0.2rem;
+       
+    }
+
+    .header-image {
+        width:60%;
+
+    }
+    
+  }
+@media(max-width: 500px) {
+    .logo h1 span {
+        font-size:1.2rem;
+        font-weight:900;
+        width:3.0rem;
+        height:3.0rem;
+        margin:0.2rem;
+       
+    }
+
+    .header-image {
+        width:70%;
+        right:auto;
+
+    }
+    
+  }
