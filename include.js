@@ -1,4 +1,5 @@
-﻿let cards = [{
+﻿let cards = [
+    {
         artName: "covid-19",
         pageLink: "./Art/shivam12k/index.html",
         videoLink: "./Art/cell/cell.mp4",
