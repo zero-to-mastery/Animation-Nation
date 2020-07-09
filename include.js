@@ -4202,6 +4202,12 @@
     author: "Alvin",
     githubLink: "https://github.com/AlvinJackson",
   },
+  {
+    artName: "The Leaking Teapot",
+    pageLink: "./Art/alpayhassan/project.html",
+    imageLink: "./Art/alpayhassan/squareImageOfArt.png",
+    author: "Alpay Hassan"
+    githubLink: "https://github.com/alpayhassan"
 ];
 
 
