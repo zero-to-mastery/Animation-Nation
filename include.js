@@ -4194,13 +4194,20 @@
     imageLink: "./Art/Tushar-jain/fan2.gif",
     author: "Tushar jain",
     githubLink: "https://github.com/Tusjain28",
-    },
-    {
+  },
+   {
     artName: "circling circle",
     pageLink: "./Art/circlingcircle/index.html",
     videoLink: "./Art/circlingcircle/circlespin.mp4",
     author: "Alvin",
     githubLink: "https://github.com/AlvinJackson",
+  },    
+   {
+    artName: "squareanimation",
+    pageLink: "./Art/squareanimation/index.html",
+    videoLink: "./Art/circlingcircle/ezgif.com-crop.gif",
+    author: "Joey",
+    githubLink: "https://github.com/chenj061",
   },
 ];
 
