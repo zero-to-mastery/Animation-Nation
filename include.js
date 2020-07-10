@@ -4174,6 +4174,13 @@
     author: "Tushar jain",
     githubLink: "https://github.com/Tusjain28",
     },
+    {
+      artName: "Moving Gradient",
+      pageLink: "./Art/logimix/index.html",
+      imageLink: "./Art/logimix/move.gif",
+      author: "Logimix",
+      githubLink: "https://github.com/logimix",
+      },
 ];
 
 
