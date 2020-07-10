@@ -4201,7 +4201,8 @@
     imageLink: "./Art/Tushar-jain/fan2.gif",
     author: "Tushar jain",
     githubLink: "https://github.com/Tusjain28",
-  },
+
+    },
    {
     artName: "circling circle",
     pageLink: "./Art/circlingcircle/index.html",
@@ -4216,6 +4217,14 @@
     author: "Joey",
     githubLink: "https://github.com/chenj061",
   },
+  {
+    artName: "Moving Gradient",
+    pageLink: "./Art/logimix/index.html",
+    imageLink: "./Art/logimix/move.gif",
+    author: "Logimix",
+    githubLink: "https://github.com/logimix",
+  },
+
 ];
 
 
