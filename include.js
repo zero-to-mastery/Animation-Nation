@@ -14,6 +14,13 @@
     githubLink: "https://github.com/stthall",
   },
   {
+    artName: "3D Series",
+    pageLink: "./Art/AdityaRathore/index.html",
+    videoLink: "./Art/AdityaRathore/rat.gif",
+    author: "Rathore-Aditya",
+    githubLink: "https://github.com/Rathore-Aditya",
+  },
+  {
     artName: "Mag-animation",
     pageLink: "./Art/Mag-D-Alena/index.html",
     videoLink: "./Art/Mag-D-Alena/Mag-animation.gif",
