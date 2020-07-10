@@ -14,6 +14,13 @@
     githubLink: "https://github.com/stthall",
   },
   {
+    artName: "3D Series",
+    pageLink: "./Art/AdityaRathore/index.html",
+    videoLink: "./Art/AdityaRathore/rat.gif",
+    author: "Rathore-Aditya",
+    githubLink: "https://github.com/Rathore-Aditya",
+  },
+  {
     artName: "Mag-animation",
     pageLink: "./Art/Mag-D-Alena/index.html",
     videoLink: "./Art/Mag-D-Alena/Mag-animation.gif",
@@ -4194,13 +4201,28 @@
     imageLink: "./Art/Tushar-jain/fan2.gif",
     author: "Tushar jain",
     githubLink: "https://github.com/Tusjain28",
+
     },
-    {
+   {
     artName: "circling circle",
     pageLink: "./Art/circlingcircle/index.html",
     videoLink: "./Art/circlingcircle/circlespin.mp4",
     author: "Alvin",
     githubLink: "https://github.com/AlvinJackson",
+  },    
+   {
+    artName: "squareanimation",
+    pageLink: "./Art/squareanimation/index.html",
+    videoLink: "./Art/circlingcircle/ezgif.com-crop.gif",
+    author: "Joey",
+    githubLink: "https://github.com/chenj061",
+  },
+  {
+    artName: "Moving Gradient",
+    pageLink: "./Art/logimix/index.html",
+    imageLink: "./Art/logimix/move.gif",
+    author: "Logimix",
+    githubLink: "https://github.com/logimix",
   },
   {
     artName: "The Leaking Teapot",
