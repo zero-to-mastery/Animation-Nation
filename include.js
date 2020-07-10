@@ -4230,6 +4230,13 @@
     imageLink: "./Art/alpayhassan/squareImageOfArt.png",
     author: "Alpay Hassan",
     githubLink: "https://github.com/alpayhassan",
+  },
+  {
+    artName: "ZtM animation",
+    pageLink: "./Art/ztm animation/index.html",
+    imageLink: "./Art/ztm animation/circle.gif",
+    author: "Nedim Karcic",
+    githubLink: "https://github.com/nedimkarcic",
   }
 ];
 
