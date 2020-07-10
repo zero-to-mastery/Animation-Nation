@@ -3700,7 +3700,28 @@
     pageLink: "./Art/sanmitra/index.html",
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
-    githubLink: "https://github.com/sanmitra1999",
+    githubLink: "https://github.com/sanmitra1999"
+  },
+   {
+    artName: 'SmokyName',
+    pageLink: './Art/priyankaw/index.html',
+    videoLink: './Art/priyankaw/smoke.mp4',
+    author: 'priyanka wankhade',
+    githubLink: 'https://github.com/pgwankhade',
+  },
+  {
+    artName: "Animation-Ghost",
+    pageLink: "./Art/Animation-Ghost/index.html",
+    imageLink: "./Art/Animation-Ghost/ghost.gif",
+    author: "FH",
+    githubLink: "https://github.com/fhansmann"
+  },
+  {
+    artName: "Moving Ball",
+    pageLink: "./Art/Alaa_Ball/index.html",
+    imageLink: "./Art/Alaa_Ball/Icon_Ball.gif",
+    author: "Alaa Shaker",
+    githubLink: "https://github.com/Alaa-Shaker"
   },
   {
     artName: "Simple-animation",
@@ -4173,14 +4194,30 @@
     imageLink: "./Art/Tushar-jain/fan2.gif",
     author: "Tushar jain",
     githubLink: "https://github.com/Tusjain28",
+
     },
-    {
-      artName: "Moving Gradient",
-      pageLink: "./Art/logimix/index.html",
-      imageLink: "./Art/logimix/move.gif",
-      author: "Logimix",
-      githubLink: "https://github.com/logimix",
-      },
+   {
+    artName: "circling circle",
+    pageLink: "./Art/circlingcircle/index.html",
+    videoLink: "./Art/circlingcircle/circlespin.mp4",
+    author: "Alvin",
+    githubLink: "https://github.com/AlvinJackson",
+  },    
+   {
+    artName: "squareanimation",
+    pageLink: "./Art/squareanimation/index.html",
+    videoLink: "./Art/circlingcircle/ezgif.com-crop.gif",
+    author: "Joey",
+    githubLink: "https://github.com/chenj061",
+  },
+  {
+    artName: "Moving Gradient",
+    pageLink: "./Art/logimix/index.html",
+    imageLink: "./Art/logimix/move.gif",
+    author: "Logimix",
+    githubLink: "https://github.com/logimix",
+  },
+
 ];
 
 
