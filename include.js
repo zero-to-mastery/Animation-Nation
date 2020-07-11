@@ -4230,7 +4230,14 @@
     imageLink: "./Art/alpayhassan/squareImageOfArt.png",
     author: "Alpay Hassan",
     githubLink: "https://github.com/alpayhassan",
-  }
+  },
+  {
+    artName: "Text Animation",
+    pageLink: "./Art/JRoman/index.html",
+    imageLink: "./Art/JRoman/textanimation.gif",
+    author: "Jose Roman",
+    githubLink: "https://github.com/JRoman2018",
+  },
 ];
 
 
