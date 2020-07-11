@@ -4237,7 +4237,15 @@
     imageLink: "./Art/ztm animation/circle.gif",
     author: "Nedim Karcic",
     githubLink: "https://github.com/nedimkarcic",
-  }
+  },
+  {
+    artName: "Intro",
+    pageLink: "./Art/Intro/index.html",
+    imageLink: "./Art/Intro/gamed.gif",
+    author: "Sameh",
+    githubLink: "https://github.com/ahmed9sameh",
+  },
+
 ];
 
 
