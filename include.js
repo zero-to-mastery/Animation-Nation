@@ -4245,7 +4245,13 @@
     author: "Sameh",
     githubLink: "https://github.com/ahmed9sameh",
   },
-
+  {
+    artName: "Text Animation",
+    pageLink: "./Art/JRoman/index.html",
+    imageLink: "./Art/JRoman/textanimation.gif",
+    author: "Jose Roman",
+    githubLink: "https://github.com/ahmed9sameh",
+  },
 ];
 
 
