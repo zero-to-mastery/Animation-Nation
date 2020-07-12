@@ -14,6 +14,13 @@
     githubLink: "https://github.com/stthall",
   },
   {
+    artName: "3D Series",
+    pageLink: "./Art/AdityaRathore/index.html",
+    videoLink: "./Art/AdityaRathore/rat.gif",
+    author: "Rathore-Aditya",
+    githubLink: "https://github.com/Rathore-Aditya",
+  },
+  {
     artName: "Mag-animation",
     pageLink: "./Art/Mag-D-Alena/index.html",
     videoLink: "./Art/Mag-D-Alena/Mag-animation.gif",
@@ -69,7 +76,7 @@
     author: "yuwenGithub",
     githubLink: "https://github.com/yuwenGithub",
   },
-   {
+  {
     artName: "animatron",
     pageLink: "./Art/animatron/index.html",
     imageLink: "./Art/animatron/trance.gif",
@@ -3606,6 +3613,13 @@
     githubLink: "https://github.com/jacob-bacon",
   },
   {
+    artName: "TranslateX",
+    pageLink: "./Art/translate/index.html",
+    imageLink: "./Art/translate/translate.jpg",
+    author: "Alessandro-Mosca",
+    githubLink: "https://github.com/greghowe79",
+  },
+  {
     artName: "Jerry the Minion",
     pageLink: "./Art/baisch91/index.html",
     imageLink: "./Art/baisch91/jerry.GIF",
@@ -3696,6 +3710,27 @@
     githubLink: "https://github.com/sanmitra1999",
   },
   {
+    artName: "SmokyName",
+    pageLink: "./Art/priyankaw/index.html",
+    videoLink: "./Art/priyankaw/smoke.mp4",
+    author: "priyanka wankhade",
+    githubLink: "https://github.com/pgwankhade",
+  },
+  {
+    artName: "Animation-Ghost",
+    pageLink: "./Art/Animation-Ghost/index.html",
+    imageLink: "./Art/Animation-Ghost/ghost.gif",
+    author: "FH",
+    githubLink: "https://github.com/fhansmann",
+  },
+  {
+    artName: "Moving Ball",
+    pageLink: "./Art/Alaa_Ball/index.html",
+    imageLink: "./Art/Alaa_Ball/Icon_Ball.gif",
+    author: "Alaa Shaker",
+    githubLink: "https://github.com/Alaa-Shaker",
+  },
+  {
     artName: "Simple-animation",
     pageLink: "./Art/Votech/index.html",
     imageLink: "./Art/Votech/simple-animation.gif",
@@ -3707,35 +3742,35 @@
     pageLink: "./Art/Nick/index.html",
     imageLink: "./Art/Nick/nick.gif",
     author: "Nicholas",
-    githubLink: "https://github.com/nicxzmiller"
+    githubLink: "https://github.com/nicxzmiller",
   },
-   {
+  {
     artName: "Square Dance",
     pageLink: "./Art/EdwardRoberson/index.html",
     imageLink: "./Art/EdwardRoberson/squaredance.png",
     author: "Ed",
-    githublink: "https://github.com/greedy17"
+    githublink: "https://github.com/greedy17",
   },
-   {
+  {
     artName: "Supercool",
     pageLink: "./Art/supercool/index.html",
     imageLink: "./Art/supercool/cool.gif",
     author: "Alisha",
-    githubLink: "https://github.com/Alishadaswebdev"
+    githubLink: "https://github.com/Alishadaswebdev",
   },
-   {
+  {
     artName: "Smile",
     pageLink: "./Art/Smile/index.html",
     imageLink: "./Art/Smile/Capture.gif",
     author: "Pooja",
-    githubLink: "https://github.com/cs2pooja"
+    githubLink: "https://github.com/cs2pooja",
   },
   {
     artName: "eyes winking",
     pageLink: "./Art/eyesonly1965/index.html",
     imageLink: "./Art/eyesonly1965/screenshot.png",
     author: "eyesonly1965",
-    githubLink: "https://github.com/eyesonly1965"
+    githubLink: "https://github.com/eyesonly1965",
   },
   {
     artName: "Hannahmation Nation",
@@ -3849,7 +3884,7 @@
     githubLink: "https://github.com/NoumanAziz",
   },
   {
-    artName: `Galek's Simple Animation`,
+    artName: "Galek's Simple Animation",
     pageLink: "./Art/GalekAnimation/index.html",
     imageLink: "./Art/GalekAnimation/simpleanimation.gif",
     author: "Adam Galek",
@@ -3863,7 +3898,7 @@
     githubLink: "https://github.com/chelladuraimohanraj/Animation-Nation",
   },
   {
-    artName: `Cyan Loading Animation`,
+    artName: "Cyan Loading Animation",
     pageLink: "./Art/Wannesds/index.html",
     imageLink: "./Art/Wannesds/Wannesds.gif",
     author: "Wannes Dieltiens",
@@ -3957,10 +3992,10 @@
     artName: "vinny023",
     pageLink: "./Art/vinny023/index.html",
     videoLink: "./Art/vinny023/video.mp4",
-    author: 'vinny023',
-    githubLink: 'https://github.com/vinny023'
+    author: "vinny023",
+    githubLink: "https://github.com/vinny023",
   },
-   {
+  {
     artName: "Balls",
     pageLink: "./Art/Paul - Simple Annoying Balls/index.html",
     imageLink: "./Art/Paul - Simple Annoying Balls/Balls.gif",
@@ -4066,11 +4101,11 @@
     githubLink: "https://github.com/liamxdillon",
   },
   {
-      artName: "Blinking-Emoji",
-      pageLink: "./Art/Blinking-Emoji/index.html",
-      imageLink: "./Art/Joy/img.png",
-      author: "Monika",
-      githubLink: "https://github.com/Monika39-maker",
+    artName: "Blinking-Emoji",
+    pageLink: "./Art/Blinking-Emoji/index.html",
+    imageLink: "./Art/Joy/img.png",
+    author: "Monika",
+    githubLink: "https://github.com/Monika39-maker",
   },
   {
     artName: "Rotating 3D CUBE",
@@ -4118,14 +4153,14 @@
     author: "Cris Manrique",
     githubLink: "https://github.com/CrisManrique",
   },
-   {
+  {
     artName: "Smoke Animation",
     pageLink: "./Art/smoke Animation/index.html",
     imageLink: "./Art/smoke Animation/Capture.png",
     author: "aman-cse",
     githubLink: "https://github.com/aman-cse",
-   },
-   {
+  },
+  {
     artName: "BH",
     pageLink: "./Art/animationBH/index.html",
     imageLink: "",
@@ -4139,30 +4174,103 @@
     author: "steviesocks",
     githubLink: "https://github.com/steviesocks",
   },
-   {
+  {
+    artName: "Zai's Orbitron",
+    pageLink: "./Art/zai/index.html",
+    imageLink: "./Art/zai/zais_orbitron.gif",
+    author: "5amm5",
+    githubLink: "https://github.com/5amm5965/",
+  },
+  {
+    artName: "boxes",
+    pageLink: "./Art/Squares/index.html",
+    imageLink: "./Art/Squares/boxes.gif",
+    author: "Sara",
+    githubLink: "https://github.com/sara-ghiorzi",
+  },
+  {
     artName: "AnimateButton",
     pageLink: "./Art/CL_animation/index.html",
     imageLink: "./Art/CL_animation/CL_animation.gif",
     author: "CL",
     githubLink: "https://github.com/clairehq",
   },
-   {
-		artName: 'Fan Animation',
-		pageLink: './Art/Tushar-jain/index.html',
-		imageLink: './Art/Tushar-jain/fan2.gif',
-		author: 'Tushar jain',
-		githubLink: 'https://github.com/Tusjain28',
-	},
-   {
+ {
       artName: "Alien",
       pageLink: "./Art/propelahed/alien.html",
       imageLink: "./Art/propelahed/alien.png",
       author: 'propelahed',
 	  githubLink: 'https://github.com/propelahed',
-   }
+   },
+  {
+    artName: "Fan Animation",
+    pageLink: "./Art/Tushar-jain/index.html",
+    imageLink: "./Art/Tushar-jain/fan2.gif",
+    author: "Tushar jain",
+    githubLink: "https://github.com/Tusjain28",
+  },
+  {
+    artName: "circling circle",
+    pageLink: "./Art/circlingcircle/index.html",
+    videoLink: "./Art/circlingcircle/circlespin.mp4",
+    author: "Alvin",
+    githubLink: "https://github.com/AlvinJackson",
+  },
+  {
+    artName: "squareanimation",
+    pageLink: "./Art/squareanimation/index.html",
+    videoLink: "./Art/circlingcircle/ezgif.com-crop.gif",
+    author: "Joey",
+    githubLink: "https://github.com/chenj061",
+  },
+  {
+    artName: "Moving Gradient",
+    pageLink: "./Art/logimix/index.html",
+    imageLink: "./Art/logimix/move.gif",
+    author: "Logimix",
+    githubLink: "https://github.com/logimix",
+  },
+  {
+    artName: "The Leaking Teapot",
+    pageLink: "./Art/alpayhassan/project.html",
+    imageLink: "./Art/alpayhassan/squareImageOfArt.png",
+    author: "Alpay Hassan",
+    githubLink: "https://github.com/alpayhassan",
+  },
+  {
+    artName: "ZtM animation",
+    pageLink: "./Art/ztm animation/index.html",
+    imageLink: "./Art/ztm animation/circle.gif",
+    author: "Nedim Karcic",
+    githubLink: "https://github.com/nedimkarcic",
+  },
+  {
+    artName: "Intro",
+    pageLink: "./Art/Intro/index.html",
+    imageLink: "./Art/Intro/gamed.gif",
+    author: "Sameh",
+    githubLink: "https://github.com/ahmed9sameh",
+  },
+  {
+    artName: "Text Animation",
+    pageLink: "./Art/JRoman/index.html",
+    imageLink: "./Art/JRoman/textanimation.gif",
+    author: "Jose Roman",
+    githubLink: "https://github.com/ahmed9sameh",
+  },
+  {
+    artName: "catch me",
+    pageLink: "./Art/isik1/index.html",
+    githubLink: "https://github.com/isik-tech",
+  },
+  {
+    artName: "Buttonimation",
+    pageLink: "./Art/Buttonimation/index.html",
+    imageLink: "./Art/Buttonimation/buttongif.gif",
+    author: "Atharva Maid",
+    githubLink: "https://github.com/atharv-123-wq",
+  },
 ];
-
-
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
