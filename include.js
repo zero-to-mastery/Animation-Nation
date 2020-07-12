@@ -4252,6 +4252,11 @@
     author: "Jose Roman",
     githubLink: "https://github.com/ahmed9sameh",
   },
+  {
+    artName: "catch me",
+    pageLink: "./Art/isik1/index.html",
+    githubLink: "https://github.com/isik-tech",
+  }
 ];
 
 
