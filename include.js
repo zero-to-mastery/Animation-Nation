@@ -4195,6 +4195,13 @@
     author: "CL",
     githubLink: "https://github.com/clairehq",
   },
+ {
+      artName: "Alien",
+      pageLink: "./Art/propelahed/alien.html",
+      imageLink: "./Art/propelahed/alien.png",
+      author: 'propelahed',
+	  githubLink: 'https://github.com/propelahed',
+   },
   {
     artName: "Fan Animation",
     pageLink: "./Art/Tushar-jain/index.html",
