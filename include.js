@@ -4252,6 +4252,13 @@
     author: "Jose Roman",
     githubLink: "https://github.com/ahmed9sameh",
   },
+  {
+    artName: "Buttonimation",
+    pageLink: "./Art/Buttonimation/index.html",
+    imageLink: "./Art/Buttonimation/buttongif.gif",
+    author: "Atharva Maid",
+    githubLink: "https://github.com/atharv-123-wq",
+  }
 ];
 
 
