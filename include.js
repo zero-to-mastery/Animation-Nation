@@ -4284,6 +4284,13 @@
     author: "Muskan",
     githubLink: "https://github.com/Muskan40"
   }
+  {
+    artName: "John",
+    pageLink: "./Art/John/index.html",
+    imageLink: "./Art/John/trance.gif",
+    author: "John"
+    githubLink: "https://github.com/jonattar23"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
