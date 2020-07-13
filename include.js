@@ -4270,6 +4270,13 @@
     author: "Atharva Maid",
     githubLink: "https://github.com/atharv-123-wq",
   },
+  {
+    artName: "Distortion Text Animation",
+    pageLink: "./Art/Distortion Text Animation/index.html",
+    imageLink: "./Art/Distortion Text Animation/particles.gif",
+    author: "Partha Sarathi Muduli",
+    githubLink: "https://github.com/partha7978",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
