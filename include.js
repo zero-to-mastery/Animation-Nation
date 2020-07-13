@@ -4259,7 +4259,17 @@
     author: "Atharva Maid",
     githubLink: "https://github.com/atharv-123-wq",
   }
+  {
+      artName: "CarAnimation",
+      pageLink: "./Art/car_animate/index18.html",
+      imageLink: "./Art/car_animate/car.png",
+      author: "Muskan",
+      githubLink: "https://github.com/Muskan40"
+  }
+
 ];
+
+
 
 
 // +--------------------------------------------------------------------------------+
