@@ -4292,6 +4292,13 @@
     githubLink: "https://github.com/jonattar23",
   },
   {
+    artName: "HappyPenguin",
+    pageLink: "./Art//happyPenguin/index.html",
+    imageLink: "./Art/happyPenguin/tux2.png",
+    author: "Sushavan",
+    githubLink: "https://github.com/sushavanP",
+  },
+  {
     artName: "Colors",
     pageLink: "./Art/Margarida/index.html",
     imageLink: "./Art/Margarida/Colors.gif",
