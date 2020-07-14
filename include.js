@@ -4283,12 +4283,12 @@
     imageLink: "./Art/car_animate/car.png",
     author: "Muskan",
     githubLink: "https://github.com/Muskan40"
-  }
+  },
   {
     artName: "John",
     pageLink: "./Art/John/index.html",
     imageLink: "./Art/John/trance.gif",
-    author: "John"
+    author: "John",
     githubLink: "https://github.com/jonattar23"
   }
 ];
