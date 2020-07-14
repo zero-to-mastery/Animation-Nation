@@ -1,14 +1,15 @@
-___
-> ### **UPDATE:**  Event Concluded!
-> **This project started as a project for Hacktoberfest 2019, Thank you to everyone that participated and made this project what it is today and we look forward to seeing you all at Hacktoberfest 2020!. 
-Feel free to continue adding your designs to the master branch, you can check out the `Hactoberfest-Edition` branch to see the project as it was at the end of the event.**
->
-> **Interested in more events? keep an eye on our Events page [HERE](https://zerotomastery.io/events?utm_source=github&utm_medium=animation-nation)**
-____
+---
+> ### **UPDATE:** Event Concluded!
+  >
+  > **This project started as a project for Hacktoberfest 2019, Thank you to everyone that participated and made this project what it is today and we look forward to seeing you all at Hacktoberfest 2020!.
+  > Feel free to continue adding your designs to the master branch, you can check out the `Hactoberfest-Edition` branch to see the project as it was at the end of the event.**
+  >
+  > **Interested in more events? keep an eye on our Events page [HERE](https://zerotomastery.io/events?utm_source=github&utm_medium=animation-nation)**
+---
 
 ![](./colourpencils.png)
 
-*Sharpen your pencils, we're getting creative!*
+_Sharpen your pencils, we're getting creative!_
 
 # Animation Nation
 
@@ -37,14 +38,18 @@ Now, once you've forked this repo and got a local version up on your computer, f
 2. Within this folder you just made, create two files, an HTML file, and a CSS file.
 3. Link your CSS file to your HTML file.
 4. Using only HTML and CSS (no `<script>` allowed!!), create a work of art! It can be as simple or as complex as you like, as long as it's animated in some way!
-5. Get a screen recording of your finished work, and make a gif! Try to crop it so that it looks good as a smallish (preferably squarish) image. Save this in your directory, together with your HTML and CSS files. Static screenshots are also acceptable.
+5. Get a screen recording of your finished work, **and make a gif**! Try to crop it so that it looks good as a smallish (preferably squarish) image. Save this in your directory, together with your HTML and CSS files. Static screenshots are also acceptable.  
+   _If you don't add a gif/screenshot, the website won't show your animation._
 6. Go to the root `include.js`. You will see an array of objects, each one represents a work of art that someone has created. Copy an example object and paste it at the end, filling it out with your art information and links:
 
-```
+```js
 let cards = [
-    //  Add your card in this section
-    {
-      artName: "Triangle",
-      pageLink: "./Art/Joy/triangle.html",
-      imageLink: "./Art/Joy/triangle.gif",
-      
+  //  Add your card in this section
+  {
+    pageLink: './Art/Joy/triangle/triangle.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger',
+  },
+]
+```
