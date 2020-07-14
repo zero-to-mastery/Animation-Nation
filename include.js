@@ -4195,13 +4195,13 @@
     author: "CL",
     githubLink: "https://github.com/clairehq",
   },
- {
-      artName: "Alien",
-      pageLink: "./Art/propelahed/alien.html",
-      imageLink: "./Art/propelahed/alien.png",
-      author: 'propelahed',
-	  githubLink: 'https://github.com/propelahed',
-   },
+  {
+    artName: "Alien",
+    pageLink: "./Art/propelahed/alien.html",
+    imageLink: "./Art/propelahed/alien.png",
+    author: "propelahed",
+    githubLink: "https://github.com/propelahed",
+  },
   {
     artName: "Fan Animation",
     pageLink: "./Art/Tushar-jain/index.html",
@@ -4282,15 +4282,15 @@
     pageLink: "./Art/car_animate/index18.html",
     imageLink: "./Art/car_animate/car.png",
     author: "Muskan",
-    githubLink: "https://github.com/Muskan40"
+    githubLink: "https://github.com/Muskan40",
   },
   {
     artName: "John",
     pageLink: "./Art/John/index.html",
     imageLink: "./Art/John/trance.gif",
     author: "John",
-    githubLink: "https://github.com/jonattar23"
-  }
+    githubLink: "https://github.com/jonattar23",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
