@@ -1459,7 +1459,15 @@ let cards = [
 	imageLink: "./Art/Alara Joel/stealth ghost.png",
 	author: "Alara Joel",
 	githubLink: "https://github.com/stealthman22"
-}
+  }
+,
+  {
+	artName: "Happyfeet",
+	pageLink: "./Art/Happyfeet/indexopen1.html",
+	imageLink: "./Art/Happyfeet/happyfeet1.gif",
+	author: "James ",
+	githubLink: "https://github.com/jamesjaj"
+   }
 ];
 
 // +--------------------------------------------------------------------------------+

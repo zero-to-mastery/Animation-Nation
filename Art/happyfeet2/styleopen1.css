@@ -1,0 +1,20 @@
+div #one {
+	height: 100px;
+	width:100%;
+	background:#fae3d9;
+	animation:slidein .5s linear 1s infinit;
+}
+
+div #two {
+	height: 100px;
+	width:100%;
+	background:#fae3d9;
+	animation:slidein .3s linear 1s infinit;
+}
+
+div #three {
+	height: 100px;
+	width:100%;
+	background:#fae3d9;
+	animation:slidein .1s linear 1s infinit;
+}
