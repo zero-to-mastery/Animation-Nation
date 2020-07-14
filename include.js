@@ -4298,6 +4298,13 @@
     author: "Sushavan",
     githubLink: "https://github.com/sushavanP",
   },
+  {
+    artName: "Colors",
+    pageLink: "./Art/Margarida/index.html",
+    imageLink: "./Art/Margarida/Colors.gif",
+    author: "Margarida",
+    githubLink: "https://github.com/MargaridaMoreira",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
