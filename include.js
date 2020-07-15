@@ -4258,7 +4258,14 @@
     imageLink: "./Art/Buttonimation/buttongif.gif",
     author: "Atharva Maid",
     githubLink: "https://github.com/atharv-123-wq",
-  }
+  },
+  {
+    artName: "BennAnimation",
+    pageLink: "./Art/BennAnimation/index.html",
+    imageLink: "./Art/BennAnimation/img.gif",
+    author: "Bennaim Youness",
+    githubLink: "https://github.com/bennaimyounes",
+  },
 ];
 
 
