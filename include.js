@@ -4299,6 +4299,13 @@
         author: "Margarida",
         githubLink: "https://github.com/MargaridaMoreira",
     },
+    {
+        artName: "Driller",
+        pageLink: "./Art/AbduMurad/index.html",
+        imageLink: "./Art/AbduMurad/Driller.gif",
+        author: "Abdu",
+        githubLink: "https://github.com/AbduMurad",
+    },
 ];
 
 // +--------------------------------------------------------------------------------+
