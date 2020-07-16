@@ -4299,6 +4299,13 @@
         author: "Margarida",
         githubLink: "https://github.com/MargaridaMoreira",
     },
+    {
+        artName: "Black Hole"
+        pageLink: "./Art/Black Hole/index.html",
+        imageLink: "./Art/Black Hole/space.gif",
+        author: "Elijah",
+        githubLink: "https://github.com/Prophet369",
+      },
 ];
 
 // +--------------------------------------------------------------------------------+
