@@ -4319,6 +4319,13 @@
     author: "Abdu",
     githubLink: "https://github.com/AbduMurad",
   },
+  {
+    artName: "Loading Animation",
+    pageLink: "./Art/loading animation/index.html",
+    imageLink: "./Art/loading animation/loadingGIF.gif",
+    author: "Yash Jadhav",
+    githubLink: "https://github.com/yashjadhav07",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
