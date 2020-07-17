@@ -4230,7 +4230,14 @@
     imageLink: "./Art/alpayhassan/squareImageOfArt.png",
     author: "Alpay Hassan",
     githubLink: "https://github.com/alpayhassan",
-  }
+  },
+  {
+	artName: "Shubhamu68",  
+    pageLink: "./Art/Shubhamu68/index.html",
+    imageLink: "./Art/Shubhamu68/tenor.gif",
+    author: "Shubham",
+    githubLink: "https://github.com/Shubhamu68",
+  },
 ];
 
 
