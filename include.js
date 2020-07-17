@@ -4326,6 +4326,14 @@
     author: "Yash Jadhav",
     githubLink: "https://github.com/yashjadhav07",
   },
+  {
+	  artName: "Candle Animation",
+	  pageLink: "./Art/Fredie/index.html",
+	  imageLink: "./Art/Fredie/candle-animation.gif",
+	  author: "Fredie Auditor",
+	  githubLink: "https://github.com/fredators88"
+  },
+  
 ];
 
 // +--------------------------------------------------------------------------------+
