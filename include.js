@@ -4326,6 +4326,13 @@
     author: "Yash Jadhav",
     githubLink: "https://github.com/yashjadhav07",
   },
+  {
+	artName: "Shubhamu68",  
+    pageLink: "./Art/Shubhamu68/index.html",
+    imageLink: "./Art/Shubhamu68/tenor.gif",
+    author: "Shubham",
+    githubLink: "https://github.com/Shubhamu68",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
