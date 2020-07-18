@@ -3977,13 +3977,7 @@
     author: "liamxdillon",
     githubLink: "https://github.com/liamxdillon",
   },
-  {
-    artName: "Heart-Loader",
-    pageLink: "./Art/Neha/index.html",
-    imageLink: "./Art/Neha/Heart_Loader.gif",
-    author: "Neha",
-    githubLink: "https://github.com/Neha045"
-  }
+ 
 
 ];
 
