@@ -4326,6 +4326,13 @@
     author: "Yash Jadhav",
     githubLink: "https://github.com/yashjadhav07",
   },
+  {
+    artName: "Lotus Blooming",
+    pageLink: "./Art/lotus/index.html",
+    imageLink: "./Art/lotus/lotus.gif",
+    author: "Thong Kun",
+    githubLink: "https://github.com/ThongKun",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
