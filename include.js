@@ -4326,6 +4326,13 @@
     author: "Yash Jadhav",
     githubLink: "https://github.com/yashjadhav07",
   },
+  {
+    artName: "Party Man",
+    pageLink: "./Art/damiencarson/index.html",
+    imageLink: "./Art/damiencarson/party_man.gif",
+    author: "Damien Carson",
+    githubLink: "https://github.com/damiencarson",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
