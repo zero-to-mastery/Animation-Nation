@@ -4327,6 +4327,13 @@
     githubLink: "https://github.com/yashjadhav07",
   },
   {
+    artName: "Party Man",
+    pageLink: "./Art/damiencarson/index.html",
+    imageLink: "./Art/damiencarson/party_man.gif",
+    author: "Damien Carson",
+    githubLink: "https://github.com/damiencarson",
+  },
+   {
     artName: "Lotus Blooming",
     pageLink: "./Art/lotus/index.html",
     imageLink: "./Art/lotus/lotus.gif",
