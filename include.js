@@ -4326,6 +4326,13 @@
     author: "Yash Jadhav",
     githubLink: "https://github.com/yashjadhav07",
   },
+  {
+    artName: "Muscardinus94 Test",
+    pageLink: "./Art/Muscardinus94/index.html",
+    imageLink: "./Art/Muscardinus94/trance.gif",
+    author: "Muscardinus",
+    githubLink: "https://github.com/Muscardinus94",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
