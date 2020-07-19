@@ -4333,6 +4333,42 @@
     author: "Shubham",
     githubLink: "https://github.com/Shubhamu68",
   },
+   {
+    artName: "Party Man",
+    pageLink: "./Art/damiencarson/index.html",
+    imageLink: "./Art/damiencarson/party_man.gif",
+    author: "Damien Carson",
+    githubLink: "https://github.com/damiencarson",
+  },
+   {
+    artName: "Lotus Blooming",
+    pageLink: "./Art/lotus/index.html",
+    imageLink: "./Art/lotus/lotus.gif",
+    author: "Thong Kun",
+    githubLink: "https://github.com/ThongKun",
+  },
+   {
+    artName: "Heart-Loader",
+    pageLink: "./Art/Neha/index.html",
+    imageLink: "./Art/Neha/Heart_Loader.gif",
+    author: "Neha",
+    githubLink: "https://github.com/Neha045"
+  },
+    {
+    artName: "Es-animator",
+    pageLink: "./Art/antinomy/index.html",
+    imageLink: "./Art/antinomy/logo-spin.gif",
+    author: "EsraaMHelmy",
+    githubLink: "https://github.com/EsraaMHelmy",
+  
+  },
+  {
+    artName: "Muscardinus94 Test",
+    pageLink: "./Art/Muscardinus94/index.html",
+    imageLink: "./Art/Muscardinus94/trance.gif",
+    author: "Muscardinus",
+    githubLink: "https://github.com/Muscardinus94",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
