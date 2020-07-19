@@ -4327,6 +4327,13 @@
     githubLink: "https://github.com/yashjadhav07",
   },
   {
+	  artName: "Candle Animation",
+	  pageLink: "./Art/Fredie/index.html",
+	  imageLink: "./Art/Fredie/candle-animation.gif",
+	  author: "Fredie Auditor",
+	  githubLink: "https://github.com/fredators88"
+  },
+   {
 	artName: "Shubhamu68",  
     pageLink: "./Art/Shubhamu68/index.html",
     imageLink: "./Art/Shubhamu68/tenor.gif",
