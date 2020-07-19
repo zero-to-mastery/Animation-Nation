@@ -4327,9 +4327,9 @@
     githubLink: "https://github.com/yashjadhav07",
   },
     {
-    artName: "Es-animator",
-    pageLink: "./Art/antinomy/index.html",
-    imageLink: "./Art/antinomy/logo-spin.gif",
+    artName: "Esraa_Car_Animator",
+    pageLink: "./Art/car_animate/index18.html",
+    imageLink: "./Art/car_animate/car.png",
     author: "EsraaMHelmy",
     githubLink: "https://github.com/EsraaMHelmy",
   
