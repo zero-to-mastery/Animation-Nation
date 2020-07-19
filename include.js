@@ -4326,6 +4326,14 @@
     author: "Yash Jadhav",
     githubLink: "https://github.com/yashjadhav07",
   },
+    {
+    artName: "Es-animator",
+    pageLink: "./Art/antinomy/index.html",
+    imageLink: "./Art/antinomy/logo-spin.gif",
+    author: "EsraaMHelmy",
+    githubLink: "https://github.com/EsraaMHelmy",
+  
+  },
   {
     artName: "Muscardinus94 Test",
     pageLink: "./Art/Muscardinus94/index.html",
