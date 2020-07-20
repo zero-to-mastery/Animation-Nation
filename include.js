@@ -1,4 +1,11 @@
 ﻿let cards = [
+  //  Add your card in this section
+  {
+    pageLink: "./Art/solarsytem/index.html",
+    imageLink: "./Art/solarsytem/solar-sytem.gif",
+    author: "Suba",
+    githubLink: "https://github.com/Suba-Sah",
+  },
   {
     artName: "covid-19",
     pageLink: "./Art/shivam12k/index.html",
