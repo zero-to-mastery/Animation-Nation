@@ -4384,6 +4384,13 @@
     githubLink: "https://github.com/Muscardinus94",
   },
   {
+    artName: "Holiday Vibe",
+    pageLink: "./Art/HolidayVibe/index.html",
+    imageLink: "./Art/HolidayVibe/holiday_vibe.gif",
+    author: "Nikola",
+    githubLink: "https://github.com/NikolaOndrikova",
+  },
+   {
     artName: "Fred's Car",
     pageLink: "./Art/freds-car/index.html",
     imageLink: "./Art/freds-car/freds-car.gif",
