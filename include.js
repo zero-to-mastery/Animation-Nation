@@ -4376,6 +4376,13 @@
     author: "Muscardinus",
     githubLink: "https://github.com/Muscardinus94",
   },
+  {
+    artName: "Fred's Car",
+    pageLink: "./Art/freds-car/index.html",
+    imageLink: "./Art/freds-car/freds-car.gif",
+    author: "Maaz Ahmad Khan",
+    githubLink: "https://github.com/MAK947",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
