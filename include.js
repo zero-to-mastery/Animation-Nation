@@ -4397,13 +4397,14 @@
     author: "Maaz Ahmad Khan",
     githubLink: "https://github.com/MAK947",
   },
+
     {
     artName: "Hot",
     pageLink: "./Art/Manos0/index.html",
     imageLink: "./Art/Manos0/Hot.gif",
     author: "Manos0",
     githubLink: "https://github.com/Manos0",
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
