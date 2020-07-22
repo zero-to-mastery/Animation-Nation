@@ -4397,6 +4397,13 @@
     author: "Maaz Ahmad Khan",
     githubLink: "https://github.com/MAK947",
   },
+  {
+    pageLink: "./Art/wrecket/index.html",
+    imageLink: "./Art/Joy/wrecket.gif",
+    author: "Wrecket",
+    githubLink: "https://github.com/Wrecket",
+  },
+]
 ];
 
 // +--------------------------------------------------------------------------------+
