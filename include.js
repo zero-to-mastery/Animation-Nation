@@ -34,6 +34,7 @@
     author: "Magdalena BenBassat-Luszczynska",
     githubLink: "https://github.com/mag-d-alen",
   },
+   
   {
     artName: "That Animation",
     pageLink: "./Art/MaKloudz/index.html",
@@ -4397,13 +4398,29 @@
     author: "Maaz Ahmad Khan",
     githubLink: "https://github.com/MAK947",
   },
+
+   {
+    pageLink: "./Art/wrecket/index.html",
+    imageLink: "./Art/Joy/wrecket.gif",
+    author: "Wrecket",
+    githubLink: "https://github.com/Wrecket",
+   },
+    {
+    artName: "Hot",
+    pageLink: "./Art/Manos0/index.html",
+    imageLink: "./Art/Manos0/Hot.gif",
+    author: "Manos0",
+    githubLink: "https://github.com/Manos0",
+
+  },
+   
   {
     artName: "animaty",
     pageLink: "./Art/animaty/index.html",
     imageLink: "./Art/animaty/capture.gif",
     author: "Nithishkumar",
     githubLink: "https://github.com/nithishkumar11",
-  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
