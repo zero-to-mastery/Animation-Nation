@@ -4404,6 +4404,19 @@
     author: "Manishankar04",
     githubLink: "https://github.com/Manishankar04",
   },
+   {
+    pageLink: "./Art/wrecket/index.html",
+    imageLink: "./Art/Joy/wrecket.gif",
+    author: "Wrecket",
+    githubLink: "https://github.com/Wrecket",
+   },
+    {
+    artName: "Hot",
+    pageLink: "./Art/Manos0/index.html",
+    imageLink: "./Art/Manos0/Hot.gif",
+    author: "Manos0",
+    githubLink: "https://github.com/Manos0",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
