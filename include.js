@@ -4397,6 +4397,13 @@
     author: "Maaz Ahmad Khan",
     githubLink: "https://github.com/MAK947",
   },
+  {
+    artName: "BlinkingEye2",
+    pageLink: "./Art//BlinkinEye2/index.html",
+    imageLink: "./Art/BlinkingEye2/blinkingeye2.gif",
+    author: "Manishankar04",
+    githubLink: "https://github.com/Manishankar04",
+  },
    {
     pageLink: "./Art/wrecket/index.html",
     imageLink: "./Art/Joy/wrecket.gif",
