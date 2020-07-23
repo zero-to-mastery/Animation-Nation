@@ -27,6 +27,7 @@
     author: "Rathore-Aditya",
     githubLink: "https://github.com/Rathore-Aditya",
   },
+  
   {
     artName: "Mag-animation",
     pageLink: "./Art/Mag-D-Alena/index.html",
@@ -4410,6 +4411,13 @@
     author: "Manos0",
     githubLink: "https://github.com/Manos0",
   },
+  {
+    artName: "I dont know",
+    pageLink: "./Art/omer-mohamed/triangle/index.html",
+    imageLink: "./Art/omer-mohamed/triangle/view.gif",
+    author: "omer-mohamed",
+    githubLink: "https://github.com/omer-mohamed",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
