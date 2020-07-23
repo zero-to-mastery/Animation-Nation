@@ -4410,6 +4410,14 @@
     author: "Manos0",
     githubLink: "https://github.com/Manos0",
   },
+  {
+    artName: "Gangnam Style",
+    pageLink: "./Art/Gangnam Style/index.html",
+    imageLink: "./Art/Gangnam Style/gangnamstyle.gif",
+    author: "salongajudy27",
+    githubLink: "https://github.com/salongajudy27",
+  },
+  
 ];
 
 // +--------------------------------------------------------------------------------+
