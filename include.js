@@ -4397,6 +4397,13 @@
     author: "Maaz Ahmad Khan",
     githubLink: "https://github.com/MAK947",
   },
+  {
+    artName: "animaty",
+    pageLink: "./Art/animaty/index.html",
+    imageLink: "./Art/animaty/capture.gif",
+    author: "Nithishkumar",
+    githubLink: "https://github.com/nithishkumar11",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
