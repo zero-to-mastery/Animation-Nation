@@ -4410,6 +4410,13 @@
     author: "Manos0",
     githubLink: "https://github.com/Manos0",
   },
+   {
+    artName: "Typewriter",
+    pageLink: "./Art/Typewriter-anim/index.html",
+    imageLink: "./Art/Typewriter-anim/type-write.gif",
+    author: "Chandan C Bagan",
+    githubLink: "https://github.com/ChandanCBagan",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
