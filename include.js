@@ -266,6 +266,14 @@
     githubLink: "https://github.com/mctrl",
   },
   {
+    artName: "diksha2808",
+    pageLink: "./Art/diksha2808/triangle/diksha.html",
+    imageLink: "./Art/Joy/diksha2808/diksha.gif",
+    author: "Diksha",
+    githubLink: "https://github.com/diksha2808",
+  },
+
+  {
     artName: "Square Loader",
     pageLink: "./Art/Hemant/index.html",
     imageLink: "./Art/Hemant/loader.gif",
@@ -4438,6 +4446,28 @@
     author: "Joy",
     githubLink: "https://github.com/akhodier",
   },
+   {
+    artName: "Shape-Shifter LED",
+    pageLink: "./Art/Mikasa/index.html",
+    imageLink: "./Art/Mikasa/shape-shifterLEDTrip.gif",
+    author: "MikasaaLevi",
+    githubLink: "https://github.com/MikasaaLevi",
+  },
+  {
+    artName: "bike in mountain",
+    pageLink: "./Art/has1234513/mountain.html",
+    imageLink: "./Art/has1234513//bike.jpg",
+    author: "has1234513",
+    githubLink: "https://github.com/has1234513",
+  },
+   {
+    artName: "Heart Animatron",
+    pageLink: "./Art/Animation-Nation/index.html",
+    imageLink: "./Art/Animation-Nation//ali.png",
+    author: "Haider Ali",
+    githubLink: "https://github.com/haiderali0786",
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
