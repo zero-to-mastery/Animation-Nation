@@ -4440,7 +4440,7 @@
     githubLink: "https://github.com/salongajudy27",
   },
   {
-    artName: "bike in mountain"
+    artName: "bike in mountain",
     pageLink: "./Art/has1234513/mountain.html",
     imageLink: "./Art/has1234513//bike.jpg",
     author: "has1234513",
