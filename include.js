@@ -4440,6 +4440,13 @@
     githubLink: "https://github.com/salongajudy27",
   },
   {
+    artName: "Ahmed khodier",
+    pageLink: "./Art/Joy/triangle/triangle.html",
+    imageLink: "./Art/Joy/triangle/triangle.gif",
+    author: "Joy",
+    githubLink: "https://github.com/akhodier",
+  },
+   {
     artName: "Shape-Shifter LED",
     pageLink: "./Art/Mikasa/index.html",
     imageLink: "./Art/Mikasa/shape-shifterLEDTrip.gif",
