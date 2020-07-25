@@ -4431,6 +4431,13 @@
     author: "salongajudy27",
     githubLink: "https://github.com/salongajudy27",
   },
+  {
+    artName: "Shape-Shifter LED",
+    pageLink: "./Art/Mikasa/index.html",
+    imageLink: "./Art/Mikasa/shape-shifterLEDTrip.gif",
+    author: "MikasaaLevi",
+    githubLink: "https://github.com/MikasaaLevi",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
