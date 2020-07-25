@@ -266,6 +266,14 @@
     githubLink: "https://github.com/mctrl",
   },
   {
+    artName: "diksha2808",
+    pageLink: "./Art/diksha2808/triangle/diksha.html",
+    imageLink: "./Art/Joy/diksha2808/diksha.gif",
+    author: "Diksha",
+    githubLink: "https://github.com/diksha2808",
+  },
+
+  {
     artName: "Square Loader",
     pageLink: "./Art/Hemant/index.html",
     imageLink: "./Art/Hemant/loader.gif",
