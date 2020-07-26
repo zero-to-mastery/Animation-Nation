@@ -4467,6 +4467,13 @@
     author: "Haider Ali",
     githubLink: "https://github.com/haiderali0786",
   },
+  {
+    artName: "possible",
+    pageLink: "./Art/possible/index.html",
+    imageLink: "./Art/possible/SKshbr_animation.gif",
+    author: "SKshbr",
+    githubLink: "https://github.com/SKshbr",
+  },
 
 ];
 
