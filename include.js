@@ -4467,6 +4467,13 @@
     author: "Haider Ali",
     githubLink: "https://github.com/haiderali0786",
   },
+    {
+    artName: "Hachi_chan",
+    pageLink: "./Art/Hachi_chan/index.html",
+    imageLink: "./Art/Hachi_chan/Hachi.gif",
+    author: "pystupp",
+    githubLink: "https://github.com/pystupp",
+  },
 
 ];
 
