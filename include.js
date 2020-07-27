@@ -4478,7 +4478,7 @@
   {
     artName: "SquaresMoving",
     pageLink: "./Art/JJamesie/index.html",
-    imageLink: "./Art/JJamesie/triangle/jamesie.gif",
+    imageLink: "./Art/JJamesie/jamesie.gif",
     author: "James",
     githubLink: "https://github.com/James96kelly",
   },
