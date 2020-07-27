@@ -4474,6 +4474,13 @@
     author: "SKshbr",
     githubLink: "https://github.com/SKshbr",
   },
+    {
+    artName: "Hachi_chan",
+    pageLink: "./Art/Hachi_chan/index.html",
+    imageLink: "./Art/Hachi_chan/Hachi.gif",
+    author: "pystupp",
+    githubLink: "https://github.com/pystupp",
+  },
 
 ];
 
