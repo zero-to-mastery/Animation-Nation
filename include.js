@@ -4481,15 +4481,20 @@
     author: "pystupp",
     githubLink: "https://github.com/pystupp",
   },
-
   {
+    artName: "SquaresMoving",
+    pageLink: "./Art/JJamesie/index.html",
+    imageLink: "./Art/JJamesie/jamesie.gif",
+    author: "James",
+    githubLink: "https://github.com/James96kelly",
+  },
+   {
     artName: "My Animation",
     pageLink: "./Art/Kfriden/index.html",
     imageLink: "./Art/Kfriden/.gif",
     author: "Kaitlyn Friden",
     githubLink: "https://github.com/kfriden",
   },
-
 ];
 
 // +--------------------------------------------------------------------------------+
