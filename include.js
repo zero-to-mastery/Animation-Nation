@@ -4481,6 +4481,13 @@
     author: "pystupp",
     githubLink: "https://github.com/pystupp",
   },
+{
+    artName: "Edinburgh View",
+    pageLink: "./Art/Rob/index.html",
+    imageLink: "./Art/Rob//Arthur.gif",
+    author: "Rob",
+    githubLink: "https://github.com/RobTheWorld",
+},
   {
     artName: "SquaresMoving",
     pageLink: "./Art/JJamesie/index.html",
