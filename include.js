@@ -4468,6 +4468,14 @@
     githubLink: "https://github.com/haiderali0786",
   },
 
+  {
+    artName: "My Animation",
+    pageLink: "./Art/Kfriden/index.html",
+    imageLink: "./Art/Kfriden/.gif",
+    author: "Kaitlyn Friden",
+    githubLink: "https://github.com/kfriden",
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
