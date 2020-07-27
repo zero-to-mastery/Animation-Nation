@@ -4467,6 +4467,13 @@
     author: "Haider Ali",
     githubLink: "https://github.com/haiderali0786",
   },
+  {
+    artName: "possible",
+    pageLink: "./Art/possible/index.html",
+    imageLink: "./Art/possible/SKshbr_animation.gif",
+    author: "SKshbr",
+    githubLink: "https://github.com/SKshbr",
+  },
     {
     artName: "Hachi_chan",
     pageLink: "./Art/Hachi_chan/index.html",
@@ -4480,6 +4487,20 @@
     imageLink: "./Art/Rob//Arthur.gif",
     author: "Rob",
     githubLink: "https://github.com/RobTheWorld",
+},
+  {
+    artName: "SquaresMoving",
+    pageLink: "./Art/JJamesie/index.html",
+    imageLink: "./Art/JJamesie/jamesie.gif",
+    author: "James",
+    githubLink: "https://github.com/James96kelly",
+  },
+   {
+    artName: "My Animation",
+    pageLink: "./Art/Kfriden/index.html",
+    imageLink: "./Art/Kfriden/.gif",
+    author: "Kaitlyn Friden",
+    githubLink: "https://github.com/kfriden",
   },
 ];
 
