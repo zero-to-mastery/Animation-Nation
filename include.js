@@ -4482,6 +4482,14 @@
     githubLink: "https://github.com/pystupp",
   },
 
+  {
+    artName: "My Animation",
+    pageLink: "./Art/Kfriden/index.html",
+    imageLink: "./Art/Kfriden/.gif",
+    author: "Kaitlyn Friden",
+    githubLink: "https://github.com/kfriden",
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
