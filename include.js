@@ -1,6 +1,11 @@
 ﻿let cards = [
   //  Add your card in this section
   {
+    pageLink: "./Art/Xebec19.html",
+    author: "Xebec19",
+    githubLink: "https://github.com/Xebec19",
+  },
+  {
     pageLink: "./Art/solarsytem/index.html",
     imageLink: "./Art/solarsytem/solar-sytem.gif",
     author: "Suba",
