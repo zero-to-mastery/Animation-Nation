@@ -1,5 +1,12 @@
 ﻿let cards = [
   //  Add your card in this section
+    {
+    artName: "3D Perspective",
+    pageLink: "./Art/prathu9/3dPerspectiveHTML.html",
+    imageLink: "./Art/prathu9/3dPerspective.gif",
+    author: "Prathamesh Sawant",
+    githubLink: "https://github.com/prathu9",
+  },
   {
     pageLink: "./Art/solarsytem/index.html",
     imageLink: "./Art/solarsytem/solar-sytem.gif",
