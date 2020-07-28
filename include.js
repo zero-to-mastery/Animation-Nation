@@ -4513,6 +4513,13 @@
     author: "Gaurav",
     githubLink: "https://github.com/gaurav241998",
   },
+  {
+    artname: "Moving Boxes",
+    pageLink: "./Art/roychun/index.html",
+    imageLink: "./Art/roychun/boxes",
+    author: "Royce",
+    githubLink: "https://github.com/roycechun",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
