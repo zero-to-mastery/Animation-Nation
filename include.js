@@ -4502,6 +4502,13 @@
     author: "Kaitlyn Friden",
     githubLink: "https://github.com/kfriden",
   },
+  {
+    artname: "Coloured Boxes",
+    pageLink: "./Art/gavlon/index.html",
+    imageLink: "./Art/gavlon/colouredboxes.gif",
+    author: "Gaurav",
+    githubLink: "https://github.com/gaurav241998",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
