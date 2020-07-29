@@ -4513,6 +4513,12 @@
     author: "Gaurav",
     githubLink: "https://github.com/gaurav241998",
   },
+  {
+    pageLink: "./Art/wfh/index.html",
+    imageLink: "./Art/wfh/wfh.gif",
+    author: "Taha",
+    githubLink: "https://github.com/taha-aziz",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
