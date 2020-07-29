@@ -4492,6 +4492,13 @@
     author: "Rob",
     githubLink: "https://github.com/RobTheWorld",
 },
+{
+    artName: "Real Time Solar System"
+    pageLink: "./Art/Joy/AnimateStation/index.html",
+    imageLink: "./Art/Joy//AnimateStation/gulla.jpg",
+    author: "Arsh Nigam",
+    githubLink: "https://github.com/Arshcreation",
+  },
   {
     artName: "SquaresMoving",
     pageLink: "./Art/JJamesie/index.html",
