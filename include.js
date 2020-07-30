@@ -4493,7 +4493,7 @@
     githubLink: "https://github.com/RobTheWorld",
 },
 {
-    artName: "Real Time Solar System"
+    artName: "Real Time Solar System",
     pageLink: "./Art/Joy/AnimateStation/index.html",
     imageLink: "./Art/Joy//AnimateStation/gulla.jpg",
     author: "Arsh Nigam",
@@ -4527,6 +4527,12 @@
     githubLink: "https://github.com/taha-aziz",
   },
   {
+    pageLink: "./Art/hrvoje/index.html",
+    imageLink: "./Art/hrvoje/hrvoje.gif",
+    author: "hrvoje-rama",
+    githubLink: "https://github.com/hrvoje-rama",
+  },
+   {
     artName: "Geometron",
     pageLink: "./Art/yogesh-singh-thakur/index.html",
     imageLink: "./Art/yogesh-singh-thakur/my-animation.gif",
