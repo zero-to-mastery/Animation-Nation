@@ -4514,17 +4514,11 @@
     githubLink: "https://github.com/kfriden",
   },
   {
-    artname: "Coloured Boxes",
-    pageLink: "./Art/gavlon/index.html",
-    imageLink: "./Art/gavlon/colouredboxes.gif",
-    author: "Gaurav",
-    githubLink: "https://github.com/gaurav241998",
-  },
-  {
-    pageLink: "./Art/wfh/index.html",
-    imageLink: "./Art/wfh/wfh.gif",
-    author: "Taha",
-    githubLink: "https://github.com/taha-aziz",
+    artName: "A Pong Or So",
+    pageLink: "./Art/Manny/index.html",
+    imageLink: "./Art/Manny/myPong.gif",
+    author: "Manny Mayorga",
+    githubLink: "https://github.com/emayorgasu",
   },
   {
     pageLink: "./Art/hrvoje/index.html",
