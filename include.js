@@ -4526,6 +4526,13 @@
     author: "Taha",
     githubLink: "https://github.com/taha-aziz",
   },
+  {
+    artName: "Geometron",
+    pageLink: "./Art/yogesh-singh-thakur/index.html",
+    imageLink: "./Art/yogesh-singh-thakur/my-animation.gif",
+    author: "Yogesh Thakur",
+    githubLink: "https://github.com/thakur-yogesh",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
