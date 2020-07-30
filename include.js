@@ -4502,6 +4502,13 @@
     author: "Kaitlyn Friden",
     githubLink: "https://github.com/kfriden",
   },
+  {
+    artName: "A Pong Or So",
+    pageLink: "./Art/Manny/index.html",
+    imageLink: "./Art/Manny/myPong.gif",
+    author: "Manny Mayorga",
+    githubLink: "https://github.com/emayorgasu",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
