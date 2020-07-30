@@ -4519,6 +4519,12 @@
     author: "Taha",
     githubLink: "https://github.com/taha-aziz",
   },
+  {
+    pageLink: "./Art/hrvoje/index.html",
+    imageLink: "./Art/hrvoje/hrvoje.gif",
+    author: "hrvoje-rama",
+    githubLink: "https://github.com/hrvoje-rama",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
