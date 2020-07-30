@@ -1,5 +1,17 @@
 ﻿let cards = [
   //  Add your card in this section
+    {
+    artName: "3D Perspective",
+    pageLink: "./Art/prathu9/3dPerspectiveHTML.html",
+    imageLink: "./Art/prathu9/3dPerspective.gif",
+    author: "Prathamesh Sawant",
+    githubLink: "https://github.com/prathu9",
+  },
+  {
+    pageLink: "./Art/Xebec19.html",
+    author: "Xebec19",
+    githubLink: "https://github.com/Xebec19",
+  },
   {
     pageLink: "./Art/solarsytem/index.html",
     imageLink: "./Art/solarsytem/solar-sytem.gif",
@@ -82,13 +94,6 @@
     imageLink: "./Art/space_zoo/space_zoo.gif",
     author: "yuwenGithub",
     githubLink: "https://github.com/yuwenGithub",
-  },
-  {
-    artName: "animatron",
-    pageLink: "./Art/animatron/index.html",
-    imageLink: "./Art/animatron/trance.gif",
-    author: "nick981837",
-    githubLink: "https://github.com/nick981837",
   },
   {
     artName: "ZTM Animation",
@@ -4342,47 +4347,46 @@
     githubLink: "https://github.com/yashjadhav07",
   },
   {
-	  artName: "Candle Animation",
-	  pageLink: "./Art/Fredie/index.html",
-	  imageLink: "./Art/Fredie/candle-animation.gif",
-	  author: "Fredie Auditor",
-	  githubLink: "https://github.com/fredators88"
+    artName: "Candle Animation",
+    pageLink: "./Art/Fredie/index.html",
+    imageLink: "./Art/Fredie/candle-animation.gif",
+    author: "Fredie Auditor",
+    githubLink: "https://github.com/fredators88",
   },
-   {
-	artName: "Shubhamu68",  
+  {
+    artName: "Shubhamu68",
     pageLink: "./Art/Shubhamu68/index.html",
     imageLink: "./Art/Shubhamu68/tenor.gif",
     author: "Shubham",
     githubLink: "https://github.com/Shubhamu68",
   },
-   {
+  {
     artName: "Party Man",
     pageLink: "./Art/damiencarson/index.html",
     imageLink: "./Art/damiencarson/party_man.gif",
     author: "Damien Carson",
     githubLink: "https://github.com/damiencarson",
   },
-   {
+  {
     artName: "Lotus Blooming",
     pageLink: "./Art/lotus/index.html",
     imageLink: "./Art/lotus/lotus.gif",
     author: "Thong Kun",
     githubLink: "https://github.com/ThongKun",
   },
-   {
+  {
     artName: "Heart-Loader",
     pageLink: "./Art/Neha/index.html",
     imageLink: "./Art/Neha/Heart_Loader.gif",
     author: "Neha",
-    githubLink: "https://github.com/Neha045"
+    githubLink: "https://github.com/Neha045",
   },
-    {
+  {
     artName: "Es-animator",
     pageLink: "./Art/antinomy/index.html",
     imageLink: "./Art/antinomy/logo-spin.gif",
     author: "EsraaMHelmy",
     githubLink: "https://github.com/EsraaMHelmy",
-  
   },
   {
     artName: "Muscardinus94 Test",
@@ -4398,7 +4402,7 @@
     author: "Nikola",
     githubLink: "https://github.com/NikolaOndrikova",
   },
-   {
+  {
     artName: "Fred's Car",
     pageLink: "./Art/freds-car/index.html",
     imageLink: "./Art/freds-car/freds-car.gif",
@@ -4412,20 +4416,20 @@
     author: "Manishankar04",
     githubLink: "https://github.com/Manishankar04",
   },
-   {
+  {
     pageLink: "./Art/wrecket/index.html",
     imageLink: "./Art/Joy/wrecket.gif",
     author: "Wrecket",
     githubLink: "https://github.com/Wrecket",
-   },
-    {
+  },
+  {
     artName: "Hot",
     pageLink: "./Art/Manos0/index.html",
     imageLink: "./Art/Manos0/Hot.gif",
     author: "Manos0",
     githubLink: "https://github.com/Manos0",
   },
-   {
+  {
     artName: "Typewriter",
     pageLink: "./Art/Typewriter-anim/index.html",
     imageLink: "./Art/Typewriter-anim/type-write.gif",
@@ -4488,6 +4492,13 @@
     author: "Rob",
     githubLink: "https://github.com/RobTheWorld",
 },
+{
+    artName: "Real Time Solar System"
+    pageLink: "./Art/Joy/AnimateStation/index.html",
+    imageLink: "./Art/Joy//AnimateStation/gulla.jpg",
+    author: "Arsh Nigam",
+    githubLink: "https://github.com/Arshcreation",
+  },
   {
     artName: "SquaresMoving",
     pageLink: "./Art/JJamesie/index.html",

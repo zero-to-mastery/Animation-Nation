@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+    <style>
+    body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.spinner{
+  width:80px;
+  height:80px;
+  border:2px solid #A43131;
+  border-top:3px solid #5C236C;
+  border-radius:100%;
+  position: absolute;
+  top:0;bottom:0;left:0;right:0;
+  margin: auto;
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  from{
+    transform:rotate(0deg);
+  }to{
+    transform: rotate(360deg);
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div id="overlay">
+    <div class="spinner"></div>
+    </div>
+  </body>
+</html>
