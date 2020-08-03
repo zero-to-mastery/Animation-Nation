@@ -4539,6 +4539,12 @@
     imageLink: "./Art/roboHi/robo.gif",
     author: "Radhika",
     githubLink: "https://github.com/rohan123454",
+  },
+  {
+    artName: "Reveal"
+    pageLink: "./Art/index.html",
+    author: "wvonberg",
+    githubLink: "https://github.com/wvonberg",
   }
 ];
 
