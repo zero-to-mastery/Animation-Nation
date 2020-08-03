@@ -4534,25 +4534,26 @@
     githubLink: "https://github.com/thakur-yogesh",
   },
   {
-    artName: "roboHi"
-    pageLink: "./Art/roboHi/index.html",
-    imageLink: "./Art/roboHi/robo.gif",
-    author: "Radhika",
-    githubLink: "https://github.com/rohan123454",
-  },
-  {
-    artName: "Reveal"
-    pageLink: "./Art/index.html",
-    author: "wvonberg",
-    githubLink: "https://github.com/wvonberg",
-  },
-  {
-    artName: "ajsAnimation"
-    pageLink: "./Art/ajsaenz1091/index.html",
-    imageLink: "./Art/ajsaenz1091/animation.gif",
-    author: "Alberto Gonzalez",
-    githubLink: "https://github.com/ajsaenz1091",
-  }
+   artName: "roboHi"
+   pageLink: "./Art/roboHi/index.html",
+   imageLink: "./Art/roboHi/robo.gif",
+   author: "Radhika",
+   githubLink: "https://github.com/rohan123454",
+ },
+ {
+   artName: "ajsAnimation"
+   pageLink: "./Art/ajsaenz1091/index.html",
+   imageLink: "./Art/ajsaenz1091/animation.gif",
+   author: "Alberto Gonzalez",
+   githubLink: "https://github.com/ajsaenz1091",
+ },
+ {
+   artName: "WVanimation"
+   pageLink: "./Art/wvonberg/index.html",
+   imageLink: "./Art/wvonberg/animation.gif",
+   author: "William Vonberg",
+   githubLink: "https://github.com/wvonberg",
+ }
 ];
 
 // +--------------------------------------------------------------------------------+
