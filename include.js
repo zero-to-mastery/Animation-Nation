@@ -4541,6 +4541,13 @@
     githubLink: "https://github.com/rohan123454",
   },
   {
+  artName: "ajsAnimation"
+  pageLink: "./Art/ajsaenz1091/index.html",
+  imageLink: "./Art/ajsaenz1091/animation.gif",
+  author: "Alberto Gonzalez",
+  githubLink: "https://github.com/ajsaenz1091",
+  },
+  {
     artName: "Reveal"
     pageLink: "./Art/index.html",
     author: "wvonberg",
