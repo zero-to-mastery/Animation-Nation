@@ -4534,26 +4534,48 @@
     githubLink: "https://github.com/thakur-yogesh",
   },
   {
-   artName: "roboHi"
+   artName: "roboHi",
    pageLink: "./Art/roboHi/index.html",
    imageLink: "./Art/roboHi/robo.gif",
    author: "Radhika",
    githubLink: "https://github.com/rohan123454",
  },
  {
-   artName: "ajsAnimation"
+   artName: "ajsAnimation",
    pageLink: "./Art/ajsaenz1091/index.html",
    imageLink: "./Art/ajsaenz1091/animation.gif",
    author: "Alberto Gonzalez",
    githubLink: "https://github.com/ajsaenz1091",
  },
  {
-   artName: "WVanimation"
+   artName: "WVanimation",
    pageLink: "./Art/wvonberg/index.html",
    imageLink: "./Art/wvonberg/animation.gif",
    author: "William Vonberg",
    githubLink: "https://github.com/wvonberg",
- }
+ },
+   {
+    artName: "roboHi",
+    pageLink: "./Art/roboHi/index.html",
+    imageLink: "./Art/roboHi/robo.gif",
+    author: "Radhika",
+    githubLink: "https://github.com/rohan123454",
+  },
+  {
+    artName: "ajsAnimation",
+    pageLink: "./Art/ajsaenz1091/index.html",
+    imageLink: "./Art/ajsaenz1091/animation.gif",
+    author: "Alberto Gonzalez",
+    githubLink: "https://github.com/ajsaenz1091",
+  },
+  {
+    artName:"cube_animation",
+    pageLink: "./Art/cube_animation/index.html",
+    imageLink: "./Art/cube_animation/cube.gif",
+    author: "DAMAN SHARMA",
+    githubLink: "https://github.com/damansharma006",
+  } 
+
 ];
 
 // +--------------------------------------------------------------------------------+
