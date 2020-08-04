@@ -4547,6 +4547,16 @@
     author: "Alberto Gonzalez",
     githubLink: "https://github.com/ajsaenz1091",
   }
+  {
+    artName:"cube_animation"
+
+    pageLink: "./Art/cube_animation/index.html",
+    imageLink: "./Art/cube_animation/cube.gif",
+    author: "DAMAN SHARMA",
+    githubLink: "https://github.com/damansharma006",
+  } 
+  
+
 ];
 
 // +--------------------------------------------------------------------------------+
