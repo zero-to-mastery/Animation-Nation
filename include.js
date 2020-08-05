@@ -4546,7 +4546,14 @@
     imageLink: "./Art/ajsaenz1091/animation.gif",
     author: "Alberto Gonzalez",
     githubLink: "https://github.com/ajsaenz1091",
-  }
+  },
+
+    { artName: "Cool-colors"
+      pageLink: "./Art/Andreyscott/index.html",
+      imageLink: "./Art/Andreyscott/colors.gif",
+      author: "Andreyscott",
+      githubLink: "https://github.com/andreyscott",
+    },
 ];
 
 // +--------------------------------------------------------------------------------+
