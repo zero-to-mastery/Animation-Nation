@@ -4464,13 +4464,6 @@
     author: "has1234513",
     githubLink: "https://github.com/has1234513",
   },
-   {
-    artName: "Heart Animatron",
-    pageLink: "./Art/Animation-Nation/index.html",
-    imageLink: "./Art/Animation-Nation//ali.png",
-    author: "Haider Ali",
-    githubLink: "https://github.com/haiderali0786",
-  },
   {
     artName: "possible",
     pageLink: "./Art/possible/index.html",
