@@ -4550,7 +4550,7 @@
  {
    artName: "WVanimation",
    pageLink: "./Art/wvonberg/index.html",
-   imageLink: "./Art/wvonberg/animation.gif",
+   imageLink: "./Art/wvonberg/reveal.gif",
    author: "William Vonberg",
    githubLink: "https://github.com/wvonberg",
  },
@@ -4574,7 +4574,7 @@
     imageLink: "./Art/cube_animation/cube.gif",
     author: "DAMAN SHARMA",
     githubLink: "https://github.com/damansharma006",
-  } 
+  }
 
 ];
 
