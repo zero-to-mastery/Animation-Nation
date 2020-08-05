@@ -4547,6 +4547,12 @@
     author: "Alberto Gonzalez",
     githubLink: "https://github.com/ajsaenz1091",
   }
+  {
+    pageLink: "./Art/CSSAnimation/index.html",
+    imageLink: "./Art/CSSAnimation/img.gif",
+    author: "Saumya",
+    githubLink: "https://github.com/miamathews",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
