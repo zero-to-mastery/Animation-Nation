@@ -4547,13 +4547,26 @@
     author: "Alberto Gonzalez",
     githubLink: "https://github.com/ajsaenz1091",
   },
+{
+  artName:"cube_animation",
+  pageLink: "./Art/cube_animation/index.html",
+  imageLink: "./Art/cube_animation/cube.gif",
+  author: "DAMAN SHARMA",
+  githubLink: "https://github.com/damansharma006",
+},
+{
+  pageLink: "./Art/CSSAnimation/index.html",
+  imageLink: "./Art/CSSAnimation/img.gif",
+  author: "Saumya",
+  githubLink: "https://github.com/miamathews",
+},
 
-    { artName: "Cool-colors"
-      pageLink: "./Art/Andreyscott/index.html",
-      imageLink: "./Art/Andreyscott/colors.gif",
-      author: "Andreyscott",
-      githubLink: "https://github.com/andreyscott",
-    },
+{ artName: "Cool-colors"
+  pageLink: "./Art/Andreyscott/index.html",
+  imageLink: "./Art/Andreyscott/colors.gif",
+  author: "Andreyscott",
+  githubLink: "https://github.com/andreyscott",
+},
 ];
 
 // +--------------------------------------------------------------------------------+
