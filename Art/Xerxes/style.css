@@ -3,29 +3,6 @@ padding-top: 100px;
 text-align: center;
 font-size: 100px;
 }
-div {
-  margin: auto;
-  width: 5px;
-  height: 5px;
-  background-color: red;
-  position: relative;
-  animation-name: example;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes example {
-  0%   {background-color:red; left:-200px; right:150px;}
-  100%  {background-color:green; left:0px; right:150px;}
-
-}
-#img {
-  width: 200px;
-  height: 200px;
-}
-
-
 body {
   height: 1000px;
   background: linear-gradient(to bottom, White, lightblue 100%);
