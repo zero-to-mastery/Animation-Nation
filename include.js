@@ -4546,7 +4546,14 @@
     imageLink: "./Art/ajsaenz1091/animation.gif",
     author: "Alberto Gonzalez",
     githubLink: "https://github.com/ajsaenz1091",
-  }
+  },
+  {
+    artName: "Satya-ZTM-animation",
+    pageLink: "./Art/Satya/index.html",
+    videoLink: "./Art/Satya/ztmsatya.gif",
+    author: "Satya Das",
+    githubLink: "https://github.com/satya-1210",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
