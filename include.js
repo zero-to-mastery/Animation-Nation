@@ -4574,6 +4574,13 @@
     author: "Saumya",
     githubLink: "https://github.com/miamathews",
   },
+  {
+    artName: "Satya-ZTM-animation",
+    pageLink: "./Art/Satya/index.html",
+    videoLink: "./Art/Satya/ztmsatya.gif",
+    author: "Satya Das",
+    githubLink: "https://github.com/satya-1210",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
