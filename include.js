@@ -4574,6 +4574,13 @@
     author: "Saumya",
     githubLink: "https://github.com/miamathews",
   },
+  {
+    artName:"Flying Circle",
+    pageLink: "./Art/AnimationSava/index.html",
+    imageLink: "./Art/AnimationSava/flyimgcircle.gif",
+    author: "SavaSava1209",
+    githubLink: "https://github.com/SavaSava1209",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
