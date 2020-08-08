@@ -4574,6 +4574,13 @@
     author: "Saumya",
     githubLink: "https://github.com/miamathews",
   },
+  {
+    pageLink: "Xerxes",
+    pageLink: "./Art/Xerxes/index.html",
+    imageLink: "./Art/Xerxes/taj.jpg",
+    author: "SolgiDeveloper",
+    githubLink: "https://github.com/SolgiDeveloper",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
