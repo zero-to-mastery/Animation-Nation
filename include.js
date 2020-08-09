@@ -4581,6 +4581,13 @@
     author: "SavaSava1209",
     githubLink: "https://github.com/SavaSava1209",
   },
+   {
+    artName: "Satya-ZTM-animation",
+    pageLink: "./Art/Satya/index.html",
+    videoLink: "./Art/Satya/ztmsatya.gif",
+    author: "Satya Das",
+    githubLink: "https://github.com/satya-1210",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
