@@ -1,6 +1,6 @@
 ﻿let cards = [
   //  Add your card in this section
-    {
+  {
     artName: "3D Perspective",
     pageLink: "./Art/prathu9/3dPerspectiveHTML.html",
     imageLink: "./Art/prathu9/3dPerspective.gif",
@@ -1802,8 +1802,7 @@
   {
     artName: "Mystical-Hacktoberfest",
     pageLink: "./Art/Wayne/index.html",
-    imageLink:
-      "./Art/Wayne/hacktoberfest - Google Chrome 09 Oct 2019 21_12_32.png",
+    imageLink: "./Art/Wayne/hacktoberfest - Google Chrome 09 Oct 2019 21_12_32.png",
     author: "Wayne Mac Mavis",
     githubLink: "https://github.com/WayneMacMavis",
   },
@@ -4450,7 +4449,7 @@
     author: "Joy",
     githubLink: "https://github.com/akhodier",
   },
-   {
+  {
     artName: "Shape-Shifter LED",
     pageLink: "./Art/Mikasa/index.html",
     imageLink: "./Art/Mikasa/shape-shifterLEDTrip.gif",
@@ -4471,21 +4470,21 @@
     author: "SKshbr",
     githubLink: "https://github.com/SKshbr",
   },
-    {
+  {
     artName: "Hachi_chan",
     pageLink: "./Art/Hachi_chan/index.html",
     imageLink: "./Art/Hachi_chan/Hachi.gif",
     author: "pystupp",
     githubLink: "https://github.com/pystupp",
   },
-{
+  {
     artName: "Edinburgh View",
     pageLink: "./Art/Rob/index.html",
     imageLink: "./Art/Rob//Arthur.gif",
     author: "Rob",
     githubLink: "https://github.com/RobTheWorld",
-},
-{
+  },
+  {
     artName: "Real Time Solar System",
     pageLink: "./Art/Joy/AnimateStation/index.html",
     imageLink: "./Art/Joy//AnimateStation/gulla.jpg",
@@ -4499,7 +4498,7 @@
     author: "James",
     githubLink: "https://github.com/James96kelly",
   },
-   {
+  {
     artName: "My Animation",
     pageLink: "./Art/Kfriden/index.html",
     imageLink: "./Art/Kfriden/.gif",
@@ -4519,7 +4518,7 @@
     author: "hrvoje-rama",
     githubLink: "https://github.com/hrvoje-rama",
   },
-   {
+  {
     artName: "Geometron",
     pageLink: "./Art/yogesh-singh-thakur/index.html",
     imageLink: "./Art/yogesh-singh-thakur/my-animation.gif",
@@ -4527,27 +4526,6 @@
     githubLink: "https://github.com/thakur-yogesh",
   },
   {
-   artName: "roboHi",
-   pageLink: "./Art/roboHi/index.html",
-   imageLink: "./Art/roboHi/robo.gif",
-   author: "Radhika",
-   githubLink: "https://github.com/rohan123454",
- },
- {
-   artName: "ajsAnimation",
-   pageLink: "./Art/ajsaenz1091/index.html",
-   imageLink: "./Art/ajsaenz1091/animation.gif",
-   author: "Alberto Gonzalez",
-   githubLink: "https://github.com/ajsaenz1091",
- },
- {
-   artName: "WVanimation",
-   pageLink: "./Art/wvonberg/index.html",
-   imageLink: "./Art/wvonberg/reveal.gif",
-   author: "William Vonberg",
-   githubLink: "https://github.com/wvonberg",
- },
-   {
     artName: "roboHi",
     pageLink: "./Art/roboHi/index.html",
     imageLink: "./Art/roboHi/robo.gif",
@@ -4562,7 +4540,28 @@
     githubLink: "https://github.com/ajsaenz1091",
   },
   {
-    artName:"cube_animation",
+    artName: "WVanimation",
+    pageLink: "./Art/wvonberg/index.html",
+    imageLink: "./Art/wvonberg/reveal.gif",
+    author: "William Vonberg",
+    githubLink: "https://github.com/wvonberg",
+  },
+  {
+    artName: "roboHi",
+    pageLink: "./Art/roboHi/index.html",
+    imageLink: "./Art/roboHi/robo.gif",
+    author: "Radhika",
+    githubLink: "https://github.com/rohan123454",
+  },
+  {
+    artName: "ajsAnimation",
+    pageLink: "./Art/ajsaenz1091/index.html",
+    imageLink: "./Art/ajsaenz1091/animation.gif",
+    author: "Alberto Gonzalez",
+    githubLink: "https://github.com/ajsaenz1091",
+  },
+  {
+    artName: "cube_animation",
     pageLink: "./Art/cube_animation/index.html",
     imageLink: "./Art/cube_animation/cube.gif",
     author: "DAMAN SHARMA",
@@ -4575,19 +4574,26 @@
     githubLink: "https://github.com/miamathews",
   },
   {
-    artName:"Flying Circle",
+    artName: "Flying Circle",
     pageLink: "./Art/AnimationSava/index.html",
     imageLink: "./Art/AnimationSava/flyimgcircle.gif",
     author: "SavaSava1209",
     githubLink: "https://github.com/SavaSava1209",
   },
-   {
+  {
     artName: "Satya-ZTM-animation",
     pageLink: "./Art/Satya/index.html",
     videoLink: "./Art/Satya/ztmsatya.gif",
     author: "Satya Das",
     githubLink: "https://github.com/satya-1210",
   },
+  {
+    artName: "Race to Win",
+    pageLink: "./Art/SamilAbud/Race/index.html",
+    imageLink: "./Art/SamilAbud/Race/SamRace.gif",
+    author: "Samil Abud",
+    githubLink: "https://github.com/samilabud",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -4602,14 +4608,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`,
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`,
   ]);
 });
 
@@ -4617,9 +4623,7 @@ document.getElementById("cards").innerHTML = contents;
 
 function Shuffle(o) {
   for (
-    var j, x, i = o.length;
-    i;
-    j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
+    var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
   );
   return o;
 }
