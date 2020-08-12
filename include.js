@@ -4593,6 +4593,13 @@
     imageLink: "./Art/SamilAbud/Race/SamRace.gif",
     author: "Samil Abud",
     githubLink: "https://github.com/samilabud",
+  },
+  {
+    artName: "Circle grow",
+    pageLink: "./Art/roryh/index.html",
+    imageLink: "./Art/roryh/circle-grow.gif",
+    author: "Rory",
+    githubLink: "https://github.com/roryhoulding",
   }
 ];
 
