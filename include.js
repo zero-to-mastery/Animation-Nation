@@ -4600,7 +4600,13 @@
     imageLink: "./Art/roryh/circle-grow.gif",
     author: "Rory",
     githubLink: "https://github.com/roryhoulding",
-  }
+  },
+  {
+    pageLink: "./Art/TanmayPhadnis/index.html",
+    imageLink: "./Art/TanmayPhadnis/trance.gif",
+    author: "Tanmay Surendra Phadnis",
+    githubLink: "https://github.com/TanmayPhadnis-rgb",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
