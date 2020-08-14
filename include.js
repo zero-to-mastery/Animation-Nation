@@ -4607,6 +4607,13 @@
     author: "Tanmay Surendra Phadnis",
     githubLink: "https://github.com/TanmayPhadnis-rgb",
   },
+  {
+    artName: "BlockyTime",
+    pageLink: "./Art/BlockyTime/index.html",
+    imageLink: "./Art/triangle/blocky.gif",
+    author: "Emily",
+    githubLink: "https://github.com/emilyjayelr",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
