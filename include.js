@@ -4608,6 +4608,12 @@
     githubLink: "https://github.com/TanmayPhadnis-rgb",
   },
   {
+    artName: "Name Animator",
+    pageLink: "./Art/sohail-anim/index.html",
+    author: "Sohail",
+    githubLink: "https://github.com/sohail019",
+  },
+   {
     artName: "BlockyTime",
     pageLink: "./Art/BlockyTime/index.html",
     imageLink: "./Art/triangle/blocky.gif",
@@ -4622,6 +4628,8 @@
     githubLink: "https://github.com/vraoblr",
   },
 ];
+
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -4654,3 +4662,5 @@ function Shuffle(o) {
   );
   return o;
 }
+
+
