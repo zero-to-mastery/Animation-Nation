@@ -4607,7 +4607,15 @@
     author: "Tanmay Surendra Phadnis",
     githubLink: "https://github.com/TanmayPhadnis-rgb",
   },
+  {
+    artName: "Name Animator",
+    pageLink: "./Art/sohail-anim/index.html",
+    author: "Sohail",
+    githubLink: "https://github.com/sohail019",
+  },
 ];
+
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -4640,3 +4648,5 @@ function Shuffle(o) {
   );
   return o;
 }
+
+
