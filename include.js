@@ -4613,6 +4613,20 @@
     author: "Sohail",
     githubLink: "https://github.com/sohail019",
   },
+   {
+    artName: "BlockyTime",
+    pageLink: "./Art/BlockyTime/index.html",
+    imageLink: "./Art/triangle/blocky.gif",
+    author: "Emily",
+    githubLink: "https://github.com/emilyjayelr",
+  },
+  {
+    artName: "Solar System",
+    pageLink: "./Art/vraoblr/index.html",
+    imageLink: "./Art/vraoblr/solarsystem.gif",
+    author: "Vinay",
+    githubLink: "https://github.com/vraoblr",
+  },
 ];
 
 
