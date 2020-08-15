@@ -4614,6 +4614,13 @@
     author: "Emily",
     githubLink: "https://github.com/emilyjayelr",
   },
+  {
+    artName: "Solar System",
+    pageLink: "./Art/vraoblr/index.html",
+    imageLink: "./Art/vraoblr/solarsystem.gif",
+    author: "Vinay",
+    githubLink: "https://github.com/vraoblr",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
