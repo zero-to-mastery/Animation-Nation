@@ -1,0 +1,129 @@
+
+/* This is for each color box and animation names */
+
+.color1 {
+  height: 25vh;
+  widows: 100vh;
+  background-color: lightsteelblue;
+  display: grid;
+  animation-name: firstBox;
+  margin-bottom: 20px;
+  animation-duration: 1250ms;
+  animation-iteration-count: infinite;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.color2 {
+    height: 25vh;
+    widows: 100vh;
+    background-color: rgb(181, 143, 202);
+    display: grid;
+    animation-name: secondBox;
+    margin-bottom: 20px;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+.color3 {
+    height: 25vh;
+    widows: 100vh;
+    background-color: lightpink;
+    display: grid;
+    animation-name: thirdBox;
+    margin-bottom: 20px;
+    animation-duration: 1750ms;
+    animation-iteration-count: infinite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+.color4 {
+    height: 25vh;
+    widows: 100vh;
+    background-color: lightseagreen;
+    display: grid;
+    animation-name: fourthBox;
+    margin-bottom: 20px;
+    animation-duration: 1900ms;
+    animation-iteration-count: infinite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+/* this is used for when you hover over the text */
+  .color1:hover {
+    -webkit-transform: scale3d(0.85, 0.85, 0.85);
+    -moz-transform: (0.85, 0.85, 0.85);
+    -o-transform: (0.85, 0.85, 0.85);
+    -ms-transform: (0.85, 0.85, 0.85);
+    transform: (0.85, 0.85, 0.85);
+  }
+
+  .color2:hover {
+    -webkit-transform: scale3d(0.85, 0.85, 0.85);
+    -moz-transform: (0.85, 0.85, 0.85);
+    -o-transform: (0.85, 0.85, 0.85);
+    -ms-transform: (0.85, 0.85, 0.85);
+    transform: (0.85, 0.85, 0.85);
+  }
+
+  .color3:hover {
+    -webkit-transform: scale3d(0.85, 0.85, 0.85);
+    -moz-transform: (0.85, 0.85, 0.85);
+    -o-transform: (0.85, 0.85, 0.85);
+    -ms-transform: (0.85, 0.85, 0.85);
+    transform: (0.85, 0.85, 0.85);
+  }
+
+  .color4:hover {
+    -webkit-transform: scale3d(0.85, 0.85, 0.85);
+    -moz-transform: (0.85, 0.85, 0.85);
+    -o-transform: (0.85, 0.85, 0.85);
+    -ms-transform: (0.85, 0.85, 0.85);
+    transform: (0.85, 0.85, 0.85);
+  }
+
+/* this is the keyframes for all the colors */
+
+  @keyframes firstBox{
+     0% {background-color:lightsteelblue;}
+     25% {background-color: rgb(136, 173, 221);}
+     50% {background-color: rgb(93, 148, 219);}
+     75% {background-color: rgb(59, 137, 238);}
+     100% {background-color: lightsteelblue;}
+  }
+
+  @keyframes secondBox{
+    0% {background-color: rgb(181, 143, 202);}
+    25% {background-color: rgb(174, 121, 202);}
+    50% {background-color: rgb(162, 87, 202);}
+    75% {background-color: rgb(155, 66, 202);}
+    100% {background-color: rgb(181, 143, 202);}
+ }
+
+ @keyframes thirdBox{
+    0% {background-color:lightpink;}
+    25% {background-color: rgb(250, 148, 163);}
+    50% {background-color: rgb(241, 168, 160);}
+    75% {background-color:salmon;}
+    100% {background-color:lightpink;}
+ }
+
+ @keyframes fourthBox{
+    0% {background-color:lightseagreen;}
+    25% {background-color: rgb(10, 185, 177);}
+    50% {background-color: rgb(6, 179, 170);}
+    75% {background-color: rgb(7, 218, 207) ;}
+    100% {background-color:lightseagreen;}
+ }
+
+/* This is to change global text */
+ .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3rem;
+    color: whitesmoke;
+ }
