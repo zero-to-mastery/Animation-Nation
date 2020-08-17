@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: "spirals",
+    pageLink: "./Art/Krishna/index.html",
+    imageLink: "./Art/Krishna/spiral.png",
+    author: "Krishna Kant Hati",
+    githubLink: "https://github.com/krishnakanthati"
+  },
+  {
     artName: "animatron",
     pageLink: "./Art/animatron/index.html",
     imageLink: "./Art/animatron/trance.gif",
@@ -8,7 +15,7 @@ let cards = [
   },
   {
     artName: "ZTM Animation",
-    pageLink: "./Art/EricPuskas/index.html",
+    pageLink: "./Art/EricPuskas/index.html",s
     imageLink: "./Art/EricPuskas/index.gif",
     author: "Eric Puskas",
     githubLink: "https://github.com/EricPuskas"
