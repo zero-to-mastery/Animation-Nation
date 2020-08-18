@@ -1,0 +1,30 @@
+.container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: deepskyblue;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    opacityL 0;
+    animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(.5, .5);
+        opacity: .5;
+    }
+    to {
+        transform: scale(2.5, 2.5);
+        opacity: 0;
+    }
+}

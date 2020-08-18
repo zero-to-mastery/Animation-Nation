@@ -1,0 +1,25 @@
+div#one {
+  height: 100px;
+  width: 100%;
+  background: #fbd266;
+  animation: slidein 4s linear 4s infinite alternate;
+}
+
+div#two {
+  height: 100px;
+  width: 100%;
+  background: #d76735;
+  animation: slidein .3s linear 1s infinite alternate;
+}
+
+div#three {
+  height: 100px;
+  width: 100%;
+  background: #8fb0a9;
+  animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+}
+
+@keyframes slidein {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+} 
