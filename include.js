@@ -4633,6 +4633,13 @@
     author: "Vinay",
     githubLink: "https://github.com/vraoblr",
   },
+  {
+    artName: "Fly Mario!",
+    pageLink: "./Art/mario_3_flying/index.html",
+    imageLink: "./Art/mario_3_flying/fly.gif",
+    author: "Oliver",
+    githubLink: "https://github.com/oakus",
+  },
 ];
 
 
