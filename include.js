@@ -4640,7 +4640,16 @@
     author: "Oliver",
     githubLink: "https://github.com/oakus",
   },
+   {
+    artName: "Colors! By Erick",
+    pageLink: "./Art/colorsbyerick/index.html",
+    imageLink: "./Art/colorsbyerick/ColorsByErick.gif",
+    author: "Erick",
+    githubLink: "https://github.com/erickpoblete",
+  },
 ];
+
+
 
 
 
