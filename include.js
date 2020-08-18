@@ -4634,6 +4634,13 @@
     githubLink: "https://github.com/vraoblr",
   },
   {
+    artName: "Fly Mario!",
+    pageLink: "./Art/mario_3_flying/index.html",
+    imageLink: "./Art/mario_3_flying/fly.gif",
+    author: "Oliver",
+    githubLink: "https://github.com/oakus",
+  },
+   {
     artName: "Colors! By Erick",
     pageLink: "./Art/colorsbyerick/index.html",
     imageLink: "./Art/colorsbyerick/ColorsByErick.gif",
