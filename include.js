@@ -5776,6 +5776,12 @@
     author: "Erick",
     githubLink: "https://github.com/erickpoblete",
   },
+  {
+    pageLink: "./Art/DayoOped/index.html",
+    imageLink: "./Art/DayoOped/bouncing.gif",
+    author: "Dayo",
+    githubLink: "https://github.com/iopedare",
+  },
 ];
 
 
