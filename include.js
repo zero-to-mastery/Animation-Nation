@@ -5782,7 +5782,16 @@
     author: "Dayo",
     githubLink: "https://github.com/iopedare",
   },
+  {
+    artName: "Aleksa"
+    pageLink: "./Art/Aleksa/index.html",
+    imageLink: "./Art/Aleksa/ludnica.gif",
+    author: "Aleksa",
+    githubLink: "https://github.com/aleksamitrovic91",
+  },
 ];
+
+
 
 
 
