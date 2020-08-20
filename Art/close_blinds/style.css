@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #d99058;
+    background-image: linear-gradient(315deg, #d99058 0%, #f8de7e 74%);
+    z-index: -1;
+    transition: 850ms;
+  }
+  
+  .btn {
+    width: 160px;
+    height: 50px;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+  }
+  
+  .blind {
+    position: absolute;
+    width: 10px;
+    height: 0px;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    top: 0;
+  }
+  
+  .string {
+    width: 5px;
+    height: 80px;
+    border-radius: 0 5px 0 0;
+    background: #eee;
+    position: absolute;
+    right: -5px;
+    top: 0;
+    transition: 850ms;
+  }
+  
+  .string-end {
+    width: 8px;
+    height: 12px;
+    border-radius: 0 0 10px 10px;
+    background: #ccc;
+    position: absolute;
+    right: -6.5px;
+    bottom: -42px;
+    transition: 850ms;
+  }
+  
+  .btn:hover .blind {
+    height: 50px;
+  }
+  
+  .btn:hover .bg {
+    filter: invert(100%) brightness(20%);
+  }
+  
+  .btn:hover .string {
+    height: 60px;
+  }
+  
+  .btn:hover .string-end {
+    bottom: -22px;
+  }
+  
+  .noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  }
+  
+  #b1 {
+    left: 0;
+    transition: 100ms;
+  }
+  
+  #b2 {
+    left: 10px;
+    transition: 150ms;
+  }
+  
+  #b3 {
+    left: 20px;
+    transition: 200ms;
+  }
+  
+  #b4 {
+    left: 30px;
+    transition: 250ms;
+  }
+  
+  #b5 {
+    left: 40px;
+    transition: 300ms;
+  }
+  
+  #b6 {
+    left: 50px;
+    transition: 350ms;
+  }
+  
+  #b7 {
+    left: 60px;
+    transition: 400ms;
+  }
+  
+  #b8 {
+    left: 70px;
+    transition: 450ms;
+  }
+  
+  #b9 {
+    left: 80px;
+    transition: 500ms;
+  }
+  
+  #b10 {
+    left: 90px;
+    transition: 550ms;
+  }
+  
+  #b11 {
+    left: 100px;
+    transition: 600ms;
+  }
+  
+  #b12 {
+    left: 110px;
+    transition: 650ms;
+  }
+  
+  #b13 {
+    left: 120px;
+    transition: 700ms;
+  }
+  
+  #b14 {
+    left: 130px;
+    transition: 750ms;
+  }
+  
+  #b15 {
+    left: 140px;
+    transition: 800ms;
+  }
+  
+  #b16 {
+    left: 150px;
+    transition: 850ms;
+  }
