@@ -887,7 +887,7 @@
     author: "Marcos Perez",
     githubLink: "https://github.com/m-perez33/",
   },
-   {
+  {
     artName: "That Animation",
     pageLink: "./Art/MaKloudz/index.html",
     imageLink: "./Art/MaKloudz/dat-animation.gif",
@@ -1998,7 +1998,8 @@
   {
     artName: "Mystical-Hacktoberfest",
     pageLink: "./Art/Wayne/index.html",
-    imageLink: "./Art/Wayne/hacktoberfest - Google Chrome 09 Oct 2019 21_12_32.png",
+    imageLink:
+      "./Art/Wayne/hacktoberfest - Google Chrome 09 Oct 2019 21_12_32.png",
     author: "Wayne Mac Mavis",
     githubLink: "https://github.com/WayneMacMavis",
   },
@@ -4865,7 +4866,7 @@
     author: "Prashant Maurya",
     githubLink: "https://github.com/prashantmaurya228",
   },
-   {
+  {
     artName: "BH",
     pageLink: "./Art/animationBH/index.html",
     imageLink: "",
@@ -5308,7 +5309,7 @@
     author: "Samya Thakur",
     githubLink: "https://github.com/samyathakur",
   },
-   {
+  {
     artName: "Mountain Sky",
     pageLink: "./Art/steviesocks/index.html",
     imageLink: "./Art/steviesocks/css-mountain-animation.gif",
@@ -5742,13 +5743,13 @@
     author: "ablossomhead",
     githubLink: "https://github.com/ablossomhead",
   },
-   {
+  {
     artName: "Name Animator",
     pageLink: "./Art/sohail-anim/index.html",
     author: "Sohail",
     githubLink: "https://github.com/sohail019",
   },
-   {
+  {
     artName: "BlockyTime",
     pageLink: "./Art/BlockyTime/index.html",
     imageLink: "./Art/triangle/blocky.gif",
@@ -5769,7 +5770,7 @@
     author: "Oliver",
     githubLink: "https://github.com/oakus",
   },
-   {
+  {
     artName: "Colors! By Erick",
     pageLink: "./Art/colorsbyerick/index.html",
     imageLink: "./Art/colorsbyerick/ColorsByErick.gif",
@@ -5782,11 +5783,15 @@
     author: "Dayo",
     githubLink: "https://github.com/iopedare",
   },
+
+  {
+    artName:"Close blinds",
+    pageLink: "./Art/close_blinds/index.html",
+    imageLink: "./Art/close_blinds/close-blinds.png",
+    author: "Yousef",
+    githubLink: "https://github.com/Yousefdoleh",
+  },
 ];
-
-
-
-
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -5800,14 +5805,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`,
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`,
   ]);
 });
 
@@ -5815,9 +5820,9 @@ document.getElementById("cards").innerHTML = contents;
 
 function Shuffle(o) {
   for (
-    var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
+    var j, x, i = o.length;
+    i;
+    j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
   );
   return o;
 }
-
-
