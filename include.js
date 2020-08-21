@@ -5791,6 +5791,14 @@
     author: "Yousef",
     githubLink: "https://github.com/Yousefdoleh",
   },
+
+  {
+    artName:"CarlODE",
+    pageLink: "./Art/CarlODE/index.html",
+    imageLink: "./Art/CarlODE/trance.gif",
+    author: "Damjan Karlovski",
+    githubLink: "https://github.com/DamjanKarlovski",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
