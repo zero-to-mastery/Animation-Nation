@@ -5785,19 +5785,24 @@
   },
 
   {
-    artName:"Close blinds",
+    artName: "Close blinds",
     pageLink: "./Art/close_blinds/index.html",
     imageLink: "./Art/close_blinds/close-blinds.png",
     author: "Yousef",
     githubLink: "https://github.com/Yousefdoleh",
   },
-
   {
     artName:"CarlODE",
     pageLink: "./Art/CarlODE/index.html",
     imageLink: "./Art/CarlODE/trance.gif",
     author: "Damjan Karlovski",
     githubLink: "https://github.com/DamjanKarlovski",
+  },
+  {
+    artName: "Sweligant",
+    pageLink: "./Art/Charlytron/index.html",
+    author: "charlytron",
+    githubLink: "https://github.com/charlytron",
   }
 ];
 
