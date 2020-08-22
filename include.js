@@ -5782,6 +5782,13 @@
     author: "Dayo",
     githubLink: "https://github.com/iopedare",
   },
+  {
+    artName: "Minion",
+    pageLink: "./Art/Minion/index.html",
+    imageLink: "./Art/Minion/Minion.png",
+    author: "KhaledKhalil",
+    githubLink: "https://github.com/kh-khalil",
+  },
 ];
 
 
