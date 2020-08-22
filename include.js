@@ -5810,6 +5810,13 @@
     author: "charlytron",
     githubLink: "https://github.com/charlytron",
   },
+   {
+    artName:"AJanimate",
+    pageLink: "./Art/alvi animate/index.html",
+    imageLink: "./Art/alvi animate/aj.jpg",
+    author: "Alvin Joy",
+    githubLink: "https://github.com/alvinjoy93",
+  },
   {
     artName: "Camp Fire", 
     pageLink: "./Art/camp_fire/index.html",
