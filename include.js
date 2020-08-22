@@ -5811,7 +5811,7 @@
     githubLink: "https://github.com/charlytron",
   },
   {
-    artName: "Sweligant",
+    artName: "PleaBanshee",
     pageLink: "./Art/PleaBanshee/banshee.html",
     author: "Llewellyn",
     githubLink: "https://github.com/PleaBanshee",
