@@ -5791,6 +5791,13 @@
     author: "Yousef",
     githubLink: "https://github.com/Yousefdoleh",
   },
+
+  {
+    pageLink: "./Art/Charles-Ameyaw/index.html",
+    imageLink: "./Art/Charles-Ameyaw/Cow.gif",
+    author: "Charles Ameyaw",
+    githubLink: "https://github.com/Charles-Ameyaw",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
