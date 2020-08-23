@@ -5783,20 +5783,65 @@
     author: "Dayo",
     githubLink: "https://github.com/iopedare",
   },
-
   {
-    artName:"Close blinds",
+    artName: "Minion",
+    pageLink: "./Art/Minion/index.html",
+    imageLink: "./Art/Minion/Minion.png",
+    author: "KhaledKhalil",
+    githubLink: "https://github.com/kh-khalil",
+  },
+  {
+    artName: "Aleksa",
+    pageLink: "./Art/Aleksa/index.html",
+    imageLink: "./Art/Aleksa/ludnica.gif",
+    author: "Aleksa",
+    githubLink: "https://github.com/aleksamitrovic91",
+  },
+  {
+    artName: "Close blinds",
     pageLink: "./Art/close_blinds/index.html",
     imageLink: "./Art/close_blinds/close-blinds.png",
     author: "Yousef",
     githubLink: "https://github.com/Yousefdoleh",
   },
-
   {
     pageLink: "./Art/Charles-Ameyaw/index.html",
     imageLink: "./Art/Charles-Ameyaw/Cow.gif",
     author: "Charles Ameyaw",
     githubLink: "https://github.com/Charles-Ameyaw",
+  },
+  {
+    artName: "CarlODE",
+    pageLink: "./Art/CarlODE/index.html",
+    imageLink: "./Art/CarlODE/trance.gif",
+    author: "Damjan Karlovski",
+    githubLink: "https://github.com/DamjanKarlovski",
+  },
+  {
+    artName: "Sweligant",
+    pageLink: "./Art/Charlytron/index.html",
+    author: "charlytron",
+    githubLink: "https://github.com/charlytron",
+  },
+  {
+    artName: "AJanimate",
+    pageLink: "./Art/alvi animate/index.html",
+    imageLink: "./Art/alvi animate/aj.jpg",
+    author: "Alvin Joy",
+    githubLink: "https://github.com/alvinjoy93",
+  },
+  {
+    artName: "Camp Fire",
+    pageLink: "./Art/camp_fire/index.html",
+    imageLink: "./Art/camp_fire/camp_fire.gif",
+    author: "Chansoo",
+    githubLink: "https://github.com/ChansooKim316",
+  },
+  {
+    artName: "PleaBanshee",
+    pageLink: "./Art/PleaBanshee/banshee.html",
+    author: "Llewellyn",
+    githubLink: "https://github.com/PleaBanshee",
   },
 ];
 
