@@ -5815,7 +5815,7 @@
     imageLink: "./Art/tylermoroz/vaporwavevibe.gif",
     author: "Tyler",
     githubLink: "https://github.com/tylermoroz",
-  }
+  },
 ];
 
 
