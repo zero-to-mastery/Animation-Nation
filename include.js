@@ -5850,6 +5850,13 @@
     author: "Sean Oh, ohsiwon@gmail.com, http://www.ohsean.net",
     githubLink:
   },
+  {
+    artName: "Simple Animated Profile Card",
+    pageLink: "./Art/profile-card/index.html",
+    imageLink: "./Art/seycileli/screenshots/huntx.png",
+    author: "Seyhan Cileli, https://seycileli.com",
+    githubLink: "https://github.com/seycileli"
+  }
 ]
 
 ];
