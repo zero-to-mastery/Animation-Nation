@@ -5843,6 +5843,13 @@
     author: "Llewellyn",
     githubLink: "https://github.com/PleaBanshee",
   },
+  {
+    artname: "ImAnimation",
+    pageLink: "./Art/ImAnimation/index.html",
+    imageLink: "./Art/Joy/triangle/triangle.gif",
+    author: "Imran",
+    githubLink: "https://github.com/imranmidday",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
