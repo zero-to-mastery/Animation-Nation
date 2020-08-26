@@ -5850,6 +5850,14 @@
     author: "Imran",
     githubLink: "https://github.com/imranmidday",
   },
+   {
+    artName: "Global usage share of web browsers in 2010",
+    pageLink: "./Art/Vasile-Hij/index.html",
+    imageLink: "./Art/Vasile-Hij/screenshots/screenshot1.png",
+    author: "Sean Oh, ohsiwon@gmail.com, http://www.ohsean.net",
+    githubLink:
+  },
+]
 ];
 
 // +--------------------------------------------------------------------------------+
