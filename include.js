@@ -5784,6 +5784,13 @@
     githubLink: "https://github.com/iopedare",
   },
   {
+    artName: "Minion",
+    pageLink: "./Art/Minion/index.html",
+    imageLink: "./Art/Minion/Minion.png",
+    author: "KhaledKhalil",
+    githubLink: "https://github.com/kh-khalil",
+  },
+  {
     artName: "Aleksa",
     pageLink: "./Art/Aleksa/index.html",
     imageLink: "./Art/Aleksa/ludnica.gif",
@@ -5798,7 +5805,13 @@
     githubLink: "https://github.com/Yousefdoleh",
   },
   {
-    artName:"CarlODE",
+    pageLink: "./Art/Charles-Ameyaw/index.html",
+    imageLink: "./Art/Charles-Ameyaw/Cow.gif",
+    author: "Charles Ameyaw",
+    githubLink: "https://github.com/Charles-Ameyaw",
+  },
+  {
+    artName: "CarlODE",
     pageLink: "./Art/CarlODE/index.html",
     imageLink: "./Art/CarlODE/trance.gif",
     author: "Damjan Karlovski",
@@ -5811,6 +5824,40 @@
     githubLink: "https://github.com/charlytron",
   },
   {
+    artName: "AJanimate",
+    pageLink: "./Art/alvi animate/index.html",
+    imageLink: "./Art/alvi animate/aj.jpg",
+    author: "Alvin Joy",
+    githubLink: "https://github.com/alvinjoy93",
+  },
+  {
+    artName: "Camp Fire",
+    pageLink: "./Art/camp_fire/index.html",
+    imageLink: "./Art/camp_fire/camp_fire.gif",
+    author: "Chansoo",
+    githubLink: "https://github.com/ChansooKim316",
+  },
+  {
+    artName: "PleaBanshee",
+    pageLink: "./Art/PleaBanshee/banshee.html",
+    author: "Llewellyn",
+    githubLink: "https://github.com/PleaBanshee",
+  },
+  {
+    artname: "ImAnimation",
+    pageLink: "./Art/ImAnimation/index.html",
+    imageLink: "./Art/Joy/triangle/triangle.gif",
+    author: "Imran",
+    githubLink: "https://github.com/imranmidday",
+  },
+   {
+    artName: "Global usage share of web browsers in 2010",
+    pageLink: "./Art/Vasile-Hij/index.html",
+    imageLink: "./Art/Vasile-Hij/screenshots/screenshot1.png",
+    author: "Sean Oh, ohsiwon@gmail.com, http://www.ohsean.net",
+    githubLink:
+  },
+  {
     artName: "Vaporwave Vibing",
     pageLink: "./Art/tylermoroz/index.html",
     imageLink: "./Art/tylermoroz/vaporwavevibing.gif",
@@ -5818,8 +5865,6 @@
     githubLink: "https://github.com/tylermoroz",
   },
 ];
-
-
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
