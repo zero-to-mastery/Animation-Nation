@@ -5855,9 +5855,16 @@
     pageLink: "./Art/Vasile-Hij/index.html",
     imageLink: "./Art/Vasile-Hij/screenshots/screenshot1.png",
     author: "Sean Oh, ohsiwon@gmail.com, http://www.ohsean.net",
-    githubLink:
+    githubLink:""
   },
   {
+    artName: "Vaporwave Vibing",
+    pageLink: "./Art/tylermoroz/index.html",
+    imageLink: "./Art/tylermoroz/vaporwavevibing.gif",
+    author: "Tyler",
+    githubLink: "https://github.com/tylermoroz",
+  },
+   {
     artName: "Animatron",
     pageLink: "./Art/animatron/index.html",
     imageLink: "./Art/Joy/animatron/trance.gif",
