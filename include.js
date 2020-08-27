@@ -5857,7 +5857,14 @@
     author: "Sean Oh, ohsiwon@gmail.com, http://www.ohsean.net",
     githubLink:
   },
-]
+  {
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/Joy/animatron/trance.gif",
+    author: "Joy",
+    githubLink: "https://github.com/soheilk1"
+  
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
