@@ -5858,6 +5858,13 @@
     githubLink:""
   },
   {
+    artName: "Simple Animated Profile Card",
+    pageLink: "./Art/profile-card/index.html",
+    imageLink: "./Art/seycileli/screenshots/huntx.png",
+    author: "Seyhan Cileli, https://seycileli.com",
+    githubLink: "https://github.com/seycileli"
+  },
+   {
     artName: "Vaporwave Vibing",
     pageLink: "./Art/tylermoroz/index.html",
     imageLink: "./Art/tylermoroz/vaporwavevibing.gif",
@@ -5870,7 +5877,6 @@
     imageLink: "./Art/Joy/animatron/trance.gif",
     author: "Joy",
     githubLink: "https://github.com/soheilk1"
-  
   }
 ];
 
