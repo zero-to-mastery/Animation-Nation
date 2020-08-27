@@ -5809,7 +5809,14 @@
     pageLink: "./Art/Charlytron/index.html",
     author: "charlytron",
     githubLink: "https://github.com/charlytron",
-  }
+  },
+  {
+    artName: "Vaporwave Vibing",
+    pageLink: "./Art/tylermoroz/index.html",
+    imageLink: "./Art/tylermoroz/vaporwavevibing.gif",
+    author: "Tyler",
+    githubLink: "https://github.com/tylermoroz",
+  },
 ];
 
 
