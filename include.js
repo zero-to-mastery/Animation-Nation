@@ -5844,11 +5844,18 @@
     githubLink: "https://github.com/PleaBanshee",
   },
   {
+    artname: "ImAnimation",
+    pageLink: "./Art/ImAnimation/index.html",
+    imageLink: "./Art/Joy/triangle/triangle.gif",
+    author: "Imran",
+    githubLink: "https://github.com/imranmidday",
+  },
+   {
     artName: "Global usage share of web browsers in 2010",
     pageLink: "./Art/Vasile-Hij/index.html",
     imageLink: "./Art/Vasile-Hij/screenshots/screenshot1.png",
     author: "Sean Oh, ohsiwon@gmail.com, http://www.ohsean.net",
-    githubLink:
+    githubLink:""
   },
   {
     artName: "Simple Animated Profile Card",
@@ -5856,9 +5863,21 @@
     imageLink: "./Art/seycileli/screenshots/huntx.png",
     author: "Seyhan Cileli, https://seycileli.com",
     githubLink: "https://github.com/seycileli"
+  },
+   {
+    artName: "Vaporwave Vibing",
+    pageLink: "./Art/tylermoroz/index.html",
+    imageLink: "./Art/tylermoroz/vaporwavevibing.gif",
+    author: "Tyler",
+    githubLink: "https://github.com/tylermoroz",
+  },
+   {
+    artName: "Animatron",
+    pageLink: "./Art/animatron/index.html",
+    imageLink: "./Art/Joy/animatron/trance.gif",
+    author: "Joy",
+    githubLink: "https://github.com/soheilk1"
   }
-]
-
 ];
 
 // +--------------------------------------------------------------------------------+
