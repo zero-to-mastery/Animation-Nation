@@ -5877,6 +5877,13 @@
     imageLink: "./Art/Joy/animatron/trance.gif",
     author: "Joy",
     githubLink: "https://github.com/soheilk1"
+  },
+  {
+    artName: "justcode",
+    pageLink: "./Art/apopey/index.html",
+    imageLink: "./Art/apopey/justcode.gif",
+    author: "apopey",
+    githubLink: "https://github.com/apopey",
   }
 ];
 
