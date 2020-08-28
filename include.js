@@ -5877,14 +5877,28 @@
     imageLink: "./Art/Joy/animatron/trance.gif",
     author: "Joy",
     githubLink: "https://github.com/soheilk1"
-  }
+  },
   {
     artName: "Animboul",
     pageLink: "./Art/Animboul/index.html",
     imageLink: "./Art/Animboul/dat.gif",
     author: "Thierno",
     githubLink: "https://github.com/Thiernoad"
-  }
+  },
+  {
+    artName: "justcode",
+    pageLink: "./Art/apopey/index.html",
+    imageLink: "./Art/apopey/justcode.gif",
+    author: "apopey",
+    githubLink: "https://github.com/apopey",
+  },
+   {
+    artName: "AnimatioNicholas",
+    pageLink: "./Art/AnimatioNicholas/index.html",
+    imageLink: "./Art/Joy/AnimatioNicholas/screenshot",
+    author: "Nicholas W.",
+    githubLink: "https://github.com/nicholaslywong"
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
