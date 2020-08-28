@@ -1,4 +1,4 @@
-﻿let cards = [
+let cards = [
   //  Add your card in this section
   {
     artName: "3D Perspective",
@@ -5856,6 +5856,13 @@
     imageLink: "./Art/Vasile-Hij/screenshots/screenshot1.png",
     author: "Sean Oh, ohsiwon@gmail.com, http://www.ohsean.net",
     githubLink:
+  },
+  {
+    artName: "Animboul"
+    pageLink: "./Art/Animboul/index.html",
+    imageLink: "./Art/Animboul/dat.gif",
+    author: "Thierno",
+    githubLink: "https://github.com/Thiernoad",
   },
 ]
 ];
