@@ -5879,6 +5879,13 @@
     githubLink: "https://github.com/soheilk1"
   },
   {
+    artName: "justcode",
+    pageLink: "./Art/apopey/index.html",
+    imageLink: "./Art/apopey/justcode.gif",
+    author: "apopey",
+    githubLink: "https://github.com/apopey",
+  },
+   {
     artName: "AnimatioNicholas",
     pageLink: "./Art/AnimatioNicholas/index.html",
     imageLink: "./Art/Joy/AnimatioNicholas/screenshot",
