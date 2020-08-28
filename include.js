@@ -5884,7 +5884,14 @@
     imageLink: "./Art/apopey/justcode.gif",
     author: "apopey",
     githubLink: "https://github.com/apopey",
-  }
+  },
+   {
+    artName: "AnimatioNicholas",
+    pageLink: "./Art/AnimatioNicholas/index.html",
+    imageLink: "./Art/Joy/AnimatioNicholas/screenshot",
+    author: "Nicholas W.",
+    githubLink: "https://github.com/nicholaslywong"
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
