@@ -5879,6 +5879,13 @@
     githubLink: "https://github.com/soheilk1"
   },
   {
+    artName: "Animboul",
+    pageLink: "./Art/Animboul/index.html",
+    imageLink: "./Art/Animboul/dat.gif",
+    author: "Thierno",
+    githubLink: "https://github.com/Thiernoad"
+  },
+  {
     artName: "justcode",
     pageLink: "./Art/apopey/index.html",
     imageLink: "./Art/apopey/justcode.gif",
