@@ -5877,7 +5877,14 @@
     imageLink: "./Art/Joy/animatron/trance.gif",
     author: "Joy",
     githubLink: "https://github.com/soheilk1"
-  }
+  },
+  {
+    artName: "AnimatioNicholas",
+    pageLink: "./Art/AnimatioNicholas/index.html",
+    imageLink: "./Art/Joy/AnimatioNicholas/screenshot",
+    author: "Nicholas W.",
+    githubLink: "https://github.com/nicholaslywong"
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
