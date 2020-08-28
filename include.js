@@ -5878,6 +5878,13 @@
     author: "Joy",
     githubLink: "https://github.com/soheilk1"
   },
+   {
+    artName: "Reveal Name",
+    pageLink: "./Art/RevealName/index.html",
+    imageLink: "./Art/RevealName/Name.gif",
+    author: "Dani",
+    githubLink: "https://github.com/dani1012"
+  },
   {
     artName: "Animboul",
     pageLink: "./Art/Animboul/index.html",
