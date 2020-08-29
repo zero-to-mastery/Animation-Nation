@@ -5906,6 +5906,13 @@
     author: "Nicholas W.",
     githubLink: "https://github.com/nicholaslywong"
   },
+  {
+    artName: "blink",
+    pageLink: "./Art/giorgossideris/index.html",
+    imageLink: "./Art/giorgossideris/blink.png",
+    author: "giorgossideris",
+    githubLink: "https://github.com/giorgossideris"
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
