@@ -5878,6 +5878,13 @@
     author: "Joy",
     githubLink: "https://github.com/soheilk1"
   }
+  {
+    artName:"Btrix",
+    pageLink: "./Art/Btrix/index.html",
+    imageLink: "./Art/Btrix/Btrix.gif",
+    author: "Bea",
+    githubLink: "https://github.com/Bealln",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
