@@ -5874,8 +5874,8 @@
    {
     artName: "Animatron",
     pageLink: "./Art/animatron/index.html",
-    imageLink: "./Art/Joy/animatron/trance.gif",
-    author: "Joy",
+    imageLink: "./Art/animatron/trance.gif",
+    author: "sk",
     githubLink: "https://github.com/soheilk1"
   },
    {
