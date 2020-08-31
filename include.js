@@ -5879,6 +5879,13 @@
     githubLink: "https://github.com/soheilk1"
   },
   {
+    artName:"Btrix",
+    pageLink: "./Art/Btrix/index.html",
+    imageLink: "./Art/Btrix/Btrix.gif",
+    author: "Bea",
+    githubLink: "https://github.com/Bealln",
+  },
+  {
     artName: "someStuff",
     pageLink: "./Art/Saumya/someStuff/index.html",
     imageLink: "./Art/Saumya/someStuff/gif.gif",
@@ -5920,7 +5927,6 @@
     author: "giorgossideris",
     githubLink: "https://github.com/giorgossideris"
   },
-
 ];
 
 // +--------------------------------------------------------------------------------+
