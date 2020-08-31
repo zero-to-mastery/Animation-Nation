@@ -5878,6 +5878,13 @@
     author: "sk",
     githubLink: "https://github.com/soheilk1"
   },
+  {
+    artName: "someStuff",
+    pageLink: "./Art/Saumya/someStuff/index.html",
+    imageLink: "./Art/Saumya/someStuff/gif.gif",
+    author: "Saumya",
+    githubLink: "https://github.com/qw04"
+  },
    {
     artName: "Reveal Name",
     pageLink: "./Art/RevealName/index.html",
@@ -5913,6 +5920,7 @@
     author: "giorgossideris",
     githubLink: "https://github.com/giorgossideris"
   },
+
 ];
 
 // +--------------------------------------------------------------------------------+
