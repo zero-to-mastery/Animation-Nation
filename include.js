@@ -5874,16 +5874,58 @@
    {
     artName: "Animatron",
     pageLink: "./Art/animatron/index.html",
-    imageLink: "./Art/Joy/animatron/trance.gif",
-    author: "Joy",
+    imageLink: "./Art/animatron/trance.gif",
+    author: "sk",
     githubLink: "https://github.com/soheilk1"
-  }
+  },
   {
     artName:"Btrix",
     pageLink: "./Art/Btrix/index.html",
     imageLink: "./Art/Btrix/Btrix.gif",
     author: "Bea",
     githubLink: "https://github.com/Bealln",
+  },
+  {
+    artName: "someStuff",
+    pageLink: "./Art/Saumya/someStuff/index.html",
+    imageLink: "./Art/Saumya/someStuff/gif.gif",
+    author: "Saumya",
+    githubLink: "https://github.com/qw04"
+  },
+   {
+    artName: "Reveal Name",
+    pageLink: "./Art/RevealName/index.html",
+    imageLink: "./Art/RevealName/Name.gif",
+    author: "Dani",
+    githubLink: "https://github.com/dani1012"
+  },
+  {
+    artName: "Animboul",
+    pageLink: "./Art/Animboul/index.html",
+    imageLink: "./Art/Animboul/dat.gif",
+    author: "Thierno",
+    githubLink: "https://github.com/Thiernoad"
+  },
+  {
+    artName: "justcode",
+    pageLink: "./Art/apopey/index.html",
+    imageLink: "./Art/apopey/justcode.gif",
+    author: "apopey",
+    githubLink: "https://github.com/apopey",
+  },
+   {
+    artName: "AnimatioNicholas",
+    pageLink: "./Art/AnimatioNicholas/index.html",
+    imageLink: "./Art/Joy/AnimatioNicholas/screenshot",
+    author: "Nicholas W.",
+    githubLink: "https://github.com/nicholaslywong"
+  },
+  {
+    artName: "blink",
+    pageLink: "./Art/giorgossideris/index.html",
+    imageLink: "./Art/giorgossideris/blink.png",
+    author: "giorgossideris",
+    githubLink: "https://github.com/giorgossideris"
   },
 ];
 
