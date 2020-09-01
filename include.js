@@ -5927,6 +5927,13 @@
     author: "giorgossideris",
     githubLink: "https://github.com/giorgossideris"
   },
+  {
+    artName: "shuriken",
+    pageLink: "./Art/furuikeya/index.html",
+    imageLink: "./Art/furuikeya/furi.gif",
+    author: "furuikeya",
+    githubLink: "https://github.com/furuikeya"
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
