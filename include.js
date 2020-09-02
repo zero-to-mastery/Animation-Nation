@@ -5935,6 +5935,7 @@
     {
         artName: "LoaderAnimation",
         pageLink: "./Art/LoaderAnimation/index.html",
+        imageLink: "",
         author: "Marshall88GB",
         githubLink: "https://github.com/Marshall88GB"
     },
