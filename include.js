@@ -5934,6 +5934,13 @@
     author: "furuikeya",
     githubLink: "https://github.com/furuikeya"
   },
+    {
+    artName: "M-LNedelea",
+    pageLink: "./Art/M-LNedelea/index.html",
+    imageLink: "./Art/M-LNedelea/animation-ss.png",
+    author: "M-LNedelea",
+    githubLink: "https://github.com/M-LNedelea",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
