@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(36, 35, 35);
+}
+
+#loader {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loader::before {
+    content: " ";
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    border-radius: 50%;
+    border: 20px solid #241f1f;
+    border-color: #cff306 transparent #60e209 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+#loader::after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border: 20px solid #241f1f;
+    border-color: #cff306 transparent #60e209 transparent;
+    animation: rds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rds-dual-ring {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#my-text-area {
+    display: block;
+    width: 100%;
+    margin-top: 16px;
+}
