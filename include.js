@@ -5946,7 +5946,7 @@
     pageLink: "./Art/Likith Chandan/index.html",
     imageLink: "./Art/M-LNedelea/sample.gif",
     author: "Likith Chandan ",
-    githubLink: "https://github.com/likithChandan",
+    githubLink: "https://github.com/LikithChandan",
   }
 ];
 
