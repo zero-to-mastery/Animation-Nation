@@ -5941,6 +5941,13 @@
     author: "M-LNedelea",
     githubLink: "https://github.com/M-LNedelea",
   },
+    {
+    artName: "CSS transformation",
+    pageLink: "./Art/benhsieh-dev/index.html",
+    imageLink: "./Art/benhsieh-dev/triangle/CSS animation.png",
+    author: "Ben Hsieh",
+    githubLink: "https://github.com/benhsieh-dev",
+    },
   {
     artName: "NationFlicker",
     pageLink: "./Art/NationFlicker/index.html",
