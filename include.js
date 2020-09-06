@@ -5941,6 +5941,13 @@
     author: "M-LNedelea",
     githubLink: "https://github.com/M-LNedelea",
   },
+  {
+    artName: "NationFlicker",
+    pageLink: "./Art/NationFlicker/index.html",
+    imageLink: "./Art/NationFlicker/NeonLetters.gif",
+    author: "Vinay",
+    githubLink: "https://github.com/vinayden1",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
