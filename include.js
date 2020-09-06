@@ -5948,6 +5948,13 @@
     author: "Ben Hsieh",
     githubLink: "https://github.com/benhsieh-dev",
     },
+  {
+    artName: "NationFlicker",
+    pageLink: "./Art/NationFlicker/index.html",
+    imageLink: "./Art/NationFlicker/NeonLetters.gif",
+    author: "Vinay",
+    githubLink: "https://github.com/vinayden1",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -5983,3 +5990,10 @@ function Shuffle(o) {
   );
   return o;
 }
+{
+  artName: "Falling dots",
+  pageLink: "./Art/Trustin/index.html",
+  videoLink: "./Art/Tristom/cell.mp4",
+  author: "Trustin",
+  githubLink: "https://github.com/trustinsimpson",
+},
