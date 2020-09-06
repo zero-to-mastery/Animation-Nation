@@ -1,4 +1,4 @@
-﻿let cards = [
+let cards = [
   //  Add your card in this section
   {
     artName: "3D Perspective",
@@ -5940,6 +5940,13 @@
     imageLink: "./Art/M-LNedelea/animation-ss.png",
     author: "M-LNedelea",
     githubLink: "https://github.com/M-LNedelea",
+  },
+  {
+  artName: "Glowing",
+    pageLink: "./Art/Glowing-Suichi/index.html",
+    imageLink: "./Art/Glowing-Suichi/Animated GIF-downsized.gif",
+    author: "Suichi",
+    githubLink: "https://github.com/SuichiNagi",
   },
   {
     artName: "Title-Anime",
