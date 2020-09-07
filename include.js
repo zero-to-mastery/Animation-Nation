@@ -5968,7 +5968,14 @@ let cards = [
     imageLink: "./Art/NationFlicker/NeonLetters.gif",
     author: "Vinay",
     githubLink: "https://github.com/vinayden1",
-  }
+  },
+  {
+    pageLink: "./Art/Joy/jumping_ball/index.html",
+    imageLink: "./Art/Joy/jumping_ball/pic.gif",
+    author: "H@rshit",
+    githubLink: "https://github.com/harshit-kumar-78",
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
