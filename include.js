@@ -5975,7 +5975,12 @@ let cards = [
     author: "H@rshit",
     githubLink: "https://github.com/harshit-kumar-78",
   },
-
+{
+    pageLink: "./Art/shyam-sai/Animator1/index.html",
+    imageLink: "./Art/shyam-sai/Animator1/stale.gif",
+    author: "shyam-sai",
+    githubLink: "https://github.com/shyam-sai",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
