@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Slackey');
+/* GENERAL LAYOUT STYLE */
+
+body {
+  text-align: center;
+  background-color: #777d81;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%2363cdda' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+  padding: 0;
+  margin: 0;
+}
+
+/* Overrides Browser Defaults */
+p, h3, a, ul {
+  font-family: 'Fredoka One', sans-serif;
+  text-decoration: none;
+  color: #524b3f;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.header {
+  position: relative;
+  top: -10px;
+  background: rgba(99, 205, 218, .5);
+  padding: 2em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.89)
+}
+
+.header h1, h2 {
+  margin: 10px;
+  font-family: 'Slackey', cursive;
+}
+
+.header h1 {
+  font-size: 8vw;
+}
+
+h2 {
+  font-size: 3.5vw;
+  color: #444444;
+  font-family: 'Fredoka One', cursive;
+}
+
+/* Flex Card Container */
+.flex {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  -ms-box-orient: horizontal;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  line-height: 0;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex li {
+  background: rgba(99, 205, 218, .5);
+  border-radius: 10px;
+  border: 1.5px solid #ffffffa2;
+  margin-top: 20px;
+}
+
+.flex li:hover {
+  -webkit-box-shadow: 10px 10px 36px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 36px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 36px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card {
+  width: calc(100% * (1/2));
+  margin: 20px 10px;
+  transition-duration: .5s;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+
+.art-image {
+  width: 27vw;
+  height: 27vw;
+  vertical-align: middle;
+  border-radius: 10%;
+  border: 3.5px solid #ffffffa2;
+  padding: 5px;
+  background: #948b7a;
+  object-fit: cover;
+  margin-top: 20px /*Extra */
+}
+
+.flex-content {
+  display: block;
+  margin-top: 15px;
+}
+
+.art-title {
+  font-size: 5vw;
+  padding: 10px;
+  line-height: 3vw;
+  color: rgb(50, 51, 51);
+  margin-top: 0px;
+}
+
+.art-title:hover {
+  color: rgb(240, 240, 240);
+}
+
+.author {
+  font-size: 1.2em;
+  color: #524b3f;
+  text-transform: capitalize;
+  padding: 7px 10px 15px 10px;
+  line-height: 15px
+}
+
+.author>a:hover {
+  color: rgb(255, 255, 255)
+}
+
+#footer {
+  padding: 35px 20px;
+  background-color: #343a40b0;
+  justify-content: center;
+  color: rgb(153, 153, 153);
+  font-size: 1.1rem;
+  font-family: 'Open Sans', sans-serif;
+  border-top: 1px solid rgba(255, 255, 255, 0.89)
+}
+
+/* ============================================= */
+/*              Responsive Browsong              */
+/* ============================================= */
+
+@media only screen and (min-width: 600px) {
+.card {
+  width: calc(100% * (1/3));
+}
+
+.card img {
+  top: -45px;
+  width: 10vw;
+  height: 10vw;
+}
+
+.art-title {
+  font-size: 3.0vw;
+  padding-top: 25px;
+}
+.author a {
+  font-size: 2.1vw
+}
+}
+
+@media only screen and (min-width: 900px) {
+  .header h1 {
+    font-size: 6vw;
+  }
+
+  h2 {
+    font-size: 2vw;
+  }
+
+  .card {
+    width: 25%;
+  }
+
+  .card img {
+    top: -65px;
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .art-title {
+    font-size: 2.3vw;
+    padding-top: 8px;
+  }
+  .author a {
+    font-size: 1.6vw
+  }
+}
