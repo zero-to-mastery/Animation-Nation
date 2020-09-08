@@ -5843,6 +5843,15 @@
     author: "Llewellyn",
     githubLink: "https://github.com/PleaBanshee",
   },
+
+
+  {
+    artName: "Rotating Circle",
+    pageLink: "./Art/Rahulkumar/circle.html",
+    author: "Rahul",
+    githubLink: "https://github.com/AlloneWolff",
+  },
+]
   {
     artname: "ImAnimation",
     pageLink: "./Art/ImAnimation/index.html",
