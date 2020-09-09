@@ -5990,6 +5990,12 @@ let cards = [
     author: "shyam-sai",
     githubLink: "https://github.com/shyam-sai",
   },
+  {
+    pageLink: "./Art/tfernandez2017/index.html",
+    imageLink: "./Art/tfernandez2017/tfernandez2017.gif",
+    author: "tfernandez2017",
+    githubLink: "https://github.com/tfernandez2017",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
