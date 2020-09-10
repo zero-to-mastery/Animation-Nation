@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: "sun-moon",
+    pageLink: "./Art/shinelikeasmile/h.html",
+    imageLink: "./Art/shinelikeasmile/g.gif",
+    author: "shinelikeasmile",
+    githubLink: "https://github.com/shinelikeasmile",
+  },
+  {
     artName: "3D Perspective",
     pageLink: "./Art/prathu9/3dPerspectiveHTML.html",
     imageLink: "./Art/prathu9/3dPerspective.gif",
