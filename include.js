@@ -5991,11 +5991,17 @@ let cards = [
     githubLink: "https://github.com/shyam-sai",
   },
   {
-    pageLink: "./Art/tfernandez2017/index.html",
+     pageLink: "./Art/tfernandez2017/index.html",
     imageLink: "./Art/tfernandez2017/tfernandez2017.gif",
     author: "tfernandez2017",
     githubLink: "https://github.com/tfernandez2017",
   }
+{
+    pageLink: "./Art/diarmOd/index.html",
+    imageLink: "./Art/diarmOd/index.gif",
+    author: "diarmOd",
+    githubLink: "https://github.com/diarmOd",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -6038,3 +6044,4 @@ function Shuffle(o) {
   author: "Trustin",
   githubLink: "https://github.com/trustinsimpson",
 },
+
