@@ -1,0 +1,39 @@
+main {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    background-color: rgb(156, 118, 118);
+    color: white;
+    margin: 10px;
+    padding: 5px;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+button:hover,
+input:hover {
+    cursor: pointer;
+    position: relative;
+    animation: shake .1s linear;
+    animation-iteration-count: 3;
+}
+
+@keyframes shake {
+    0% {
+        left: -5px;
+    }
+    100% {
+        right: -5px;
+    }
+}
