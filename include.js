@@ -6003,7 +6003,15 @@ let cards = [
     author: "tfernandez2017",
     githubLink: "https://github.com/tfernandez2017",
   }
+  {
+    artName: "FlipSwap",
+    pageLink: "./Art/Dadpops/index.html",
+    imageLink: "./Art/Dadpops/anima.gif",
+    author: "Chris",
+    githubLink: "https://github.com/dadpops",
+  },
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
