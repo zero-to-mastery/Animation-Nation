@@ -5976,6 +5976,14 @@ let cards = [
     githubLink: "https://github.com/harshit-kumar-78",
   },
 
+  {
+    pageLink: "./Art/AnimationPandey/Index.html",
+    imageLink: "./Art/AnimationPandey/Card.png",
+    author: "Anish",
+    githubLink: "https://github.com/apandey208",
+  },
+]
+
 ];
 
 // +--------------------------------------------------------------------------------+
