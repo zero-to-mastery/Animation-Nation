@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: "sun-moon",
+    pageLink: "./Art/shinelikeasmile/h.html",
+    imageLink: "./Art/shinelikeasmile/g.gif",
+    author: "shinelikeasmile",
+    githubLink: "https://github.com/shinelikeasmile",
+  },
+  {
     artName: "3D Perspective",
     pageLink: "./Art/prathu9/3dPerspectiveHTML.html",
     imageLink: "./Art/prathu9/3dPerspective.gif",
@@ -5843,6 +5850,15 @@ let cards = [
     author: "Llewellyn",
     githubLink: "https://github.com/PleaBanshee",
   },
+
+
+  {
+    artName: "Rotating Circle",
+    pageLink: "./Art/Rahulkumar/circle.html",
+    author: "Rahul",
+    githubLink: "https://github.com/AlloneWolff",
+  },
+]
   {
     artname: "ImAnimation",
     pageLink: "./Art/ImAnimation/index.html",
@@ -5982,9 +5998,35 @@ let cards = [
     author: "Anish",
     githubLink: "https://github.com/apandey208",
   },
-]
 
+{
+    pageLink: "./Art/shyam-sai/Animator1/index.html",
+    imageLink: "./Art/shyam-sai/Animator1/stale.gif",
+    author: "shyam-sai",
+    githubLink: "https://github.com/shyam-sai",
+  },
+  {
+     pageLink: "./Art/tfernandez2017/index.html",
+    imageLink: "./Art/tfernandez2017/tfernandez2017.gif",
+    author: "tfernandez2017",
+    githubLink: "https://github.com/tfernandez2017",
+  },
+{
+    pageLink: "./Art/diarmOd/index.html",
+    imageLink: "./Art/diarmOd/index.gif",
+    author: "diarmOd",
+    githubLink: "https://github.com/diarmOd",
+},
+  {
+    artName: "FlipSwap",
+    pageLink: "./Art/Dadpops/index.html",
+    imageLink: "./Art/Dadpops/anima.gif",
+    author: "Chris",
+    githubLink: "https://github.com/dadpops",
+  },
+>>>>>>> fb34d69847252f94d7e66e261d00bf38dd985726
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -6026,3 +6068,4 @@ function Shuffle(o) {
   author: "Trustin",
   githubLink: "https://github.com/trustinsimpson",
 },
+
