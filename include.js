@@ -6016,6 +6016,13 @@ let cards = [
     author: "Chris",
     githubLink: "https://github.com/dadpops",
   },
+{
+    artName: "happiness"
+    pageLink: "./Art/happiness/triangle/index.html",
+    author: "fathimaanudha",
+    githubLink: "https://github.com/fathimaanudha",
+  },
+
 ];
 
 
