@@ -6024,7 +6024,14 @@ let cards = [
     author: "Chris",
     githubLink: "https://github.com/dadpops",
   },
->>>>>>> fb34d69847252f94d7e66e261d00bf38dd985726
+   {
+    artName: "NanoLoader",
+    pageLink: "./Art/ysherqawi/index.html",
+    imageLink: "./Art/ysherqawi/anima.gif",
+    author: "Chris",
+    githubLink: "https://github.com/ysherqawi",
+  },
+
 ];
 
 
