@@ -1,4 +1,4 @@
-﻿let cards = [
+let cards = [
   //  Add your card in this section
     {
     artName: "3D Perspective",
@@ -4533,7 +4533,15 @@
     author: "Yogesh Thakur",
     githubLink: "https://github.com/thakur-yogesh",
   },
-];
+
+  { 
+    artName:"pacman"
+    pageLink: "./Art/pacman/index.html",
+        imageLink: "C/Users/good boy/Animation-Nation/Art/pacman.gif",
+    author: "Abhijeet Kumar",
+    githubLink: "https://github.com/Mabhijeet",
+  },
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
