@@ -5991,6 +5991,14 @@ let cards = [
     author: "H@rshit",
     githubLink: "https://github.com/harshit-kumar-78",
   },
+
+  {
+    pageLink: "./Art/AnimationPandey/Index.html",
+    imageLink: "./Art/AnimationPandey/Card.png",
+    author: "Anish",
+    githubLink: "https://github.com/apandey208",
+  },
+
 {
     pageLink: "./Art/shyam-sai/Animator1/index.html",
     imageLink: "./Art/shyam-sai/Animator1/stale.gif",
@@ -6016,12 +6024,14 @@ let cards = [
     author: "Chris",
     githubLink: "https://github.com/dadpops",
   },
+
 {
     artName: "happiness"
-    pageLink: "./Art/happiness/triangle/index.html",
+    pageLink: "./Art/happiness/index.html",
     author: "fathimaanudha",
     githubLink: "https://github.com/fathimaanudha",
   },
+
 
 ];
 
