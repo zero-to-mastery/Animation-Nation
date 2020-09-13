@@ -6028,7 +6028,7 @@ let cards = [
     artName: "NanoLoader",
     pageLink: "./Art/ysherqawi/index.html",
     imageLink: "./Art/ysherqawi/loader.gif",
-    author: "Chris",
+    author: "Yasser",
     githubLink: "https://github.com/ysherqawi",
   },
 
@@ -6075,4 +6075,3 @@ function Shuffle(o) {
   author: "Trustin",
   githubLink: "https://github.com/trustinsimpson",
 },
-
