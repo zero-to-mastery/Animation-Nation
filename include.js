@@ -6027,7 +6027,7 @@ let cards = [
    {
     artName: "NanoLoader",
     pageLink: "./Art/ysherqawi/index.html",
-    imageLink: "./Art/ysherqawi/anima.gif",
+    imageLink: "./Art/ysherqawi/loader.gif",
     author: "Chris",
     githubLink: "https://github.com/ysherqawi",
   },
