@@ -6024,6 +6024,12 @@ let cards = [
     author: "Chris",
     githubLink: "https://github.com/dadpops",
   },
+{
+    artName: "happiness",
+    pageLink: "./Art/happiness/index.html",
+    author: "fathimaanudha",
+    githubLink: "https://github.com/fathimaanudha",
+  },
   {
     artName: "Falling dots",
     pageLink: "./Art/Trustin/index.html",
