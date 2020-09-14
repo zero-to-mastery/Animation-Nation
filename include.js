@@ -5858,7 +5858,7 @@ let cards = [
     author: "Rahul",
     githubLink: "https://github.com/AlloneWolff",
   },
-]
+
   {
     artname: "ImAnimation",
     pageLink: "./Art/ImAnimation/index.html",
@@ -6024,15 +6024,26 @@ let cards = [
     author: "Chris",
     githubLink: "https://github.com/dadpops",
   },
-
 {
-    artName: "happiness"
+    artName: "happiness",
     pageLink: "./Art/happiness/index.html",
     author: "fathimaanudha",
     githubLink: "https://github.com/fathimaanudha",
   },
-
-
+  {
+    artName: "Falling dots",
+    pageLink: "./Art/Trustin/index.html",
+    videoLink: "./Art/Tristom/cell.mp4",
+    author: "Trustin",
+    githubLink: "https://github.com/trustinsimpson",
+  },
+  {
+    artName: "Robot Heart",
+    pageLink: "./Art/robot_heart/index.html",
+    imageLink: "./Art/robot_heart/robot_heart.gif",
+    author: "Sugus",
+    githubLink: "https://github.com/sugugrassi",
+  },
 ];
 
 
@@ -6069,11 +6080,5 @@ function Shuffle(o) {
   );
   return o;
 }
-{
-  artName: "Falling dots",
-  pageLink: "./Art/Trustin/index.html",
-  videoLink: "./Art/Tristom/cell.mp4",
-  author: "Trustin",
-  githubLink: "https://github.com/trustinsimpson",
-},
+
 
