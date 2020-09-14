@@ -5662,6 +5662,13 @@ let cards = [
     author: "Yogesh Thakur",
     githubLink: "https://github.com/thakur-yogesh",
   },
+  { 
+    artName:"pacman",
+    pageLink: "./Art/pacman/index.html",
+    imageLink: "C/Users/good boy/Animation-Nation/Art/pacman.gif",
+    author: "Abhijeet Kumar",
+    githubLink: "https://github.com/Mabhijeet",
+  },
   {
     artName: "roboHi",
     pageLink: "./Art/roboHi/index.html",
