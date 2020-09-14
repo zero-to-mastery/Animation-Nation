@@ -6031,6 +6031,13 @@ let cards = [
     author: "Chris",
     githubLink: "https://github.com/dadpops",
   },
+   {
+    artName: "NanoLoader",
+    pageLink: "./Art/ysherqawi/index.html",
+    imageLink: "./Art/ysherqawi/loader.gif",
+    author: "Yasser",
+    githubLink: "https://github.com/ysherqawi",
+  },
 {
     artName: "happiness",
     pageLink: "./Art/happiness/index.html",
@@ -6087,5 +6094,3 @@ function Shuffle(o) {
   );
   return o;
 }
-
-
