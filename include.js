@@ -6032,11 +6032,18 @@ let cards = [
     githubLink: "https://github.com/dadpops",
   },
   {
-    artName:"homanseto"
+    artName:"homanseto",
     pageLink: "./Art/homanseto/index.html",
     imageLink: "./Art/homanseto/public/even_bobby_despises_you.gif",
     author: "homanseto",
     githubLink: "https://github.com/homanseto",
+  },
+   {
+    artName: "NanoLoader",
+    pageLink: "./Art/ysherqawi/index.html",
+    imageLink: "./Art/ysherqawi/loader.gif",
+    author: "Yasser",
+    githubLink: "https://github.com/ysherqawi",
   },
 {
     artName: "happiness",
@@ -6094,5 +6101,3 @@ function Shuffle(o) {
   );
   return o;
 }
-
-
