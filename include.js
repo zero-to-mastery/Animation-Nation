@@ -6031,6 +6031,13 @@ let cards = [
     author: "Chris",
     githubLink: "https://github.com/dadpops",
   },
+  {
+    artName:"homanseto",
+    pageLink: "./Art/homanseto/index.html",
+    imageLink: "./Art/homanseto/public/even_bobby_despises_you.gif",
+    author: "homanseto",
+    githubLink: "https://github.com/homanseto",
+  },
    {
     artName: "NanoLoader",
     pageLink: "./Art/ysherqawi/index.html",
