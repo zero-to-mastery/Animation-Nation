@@ -6058,6 +6058,11 @@ let cards = [
     author: "Sugus",
     githubLink: "https://github.com/sugugrassi",
   },
+  { artname :"Hai Romania"
+    pageLink: "./Art/CAndrei1601/index.html",
+    author: "ChioreanAndrei",
+    githubLink: "https://github.com/CAndrei1601",
+  },
 ];
 
 
