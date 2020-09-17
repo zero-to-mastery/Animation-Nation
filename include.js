@@ -6065,6 +6065,13 @@ let cards = [
     githubLink: "https://github.com/sugugrassi",
   },
   {
+    artName: "pam",
+    pageLink: "./Art/pam/h.html",
+    imageLink: "./Art/pam/g.gif",
+    author: "pam",
+    githubLink: "https://github.com/pam",
+  },
+  {
     artname: "Hai Romania",
     pageLink: "./Art/CAndrei1601/index.html",
     author: "ChioreanAndrei",
