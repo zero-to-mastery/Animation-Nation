@@ -6071,7 +6071,7 @@ let cards = [
     githubLink: "https://github.com/CAndrei1601",
   },
   {
-    artname: "Rotating Squares",
+    artname: "Three Rotating Squares",
     pageLink: "./Art/onemesa/index.html",
     imageLink: "./Art/onemesa/squares.gif",
     author: "onemesa",
