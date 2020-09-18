@@ -6077,6 +6077,13 @@ let cards = [
     author: "ChioreanAndrei",
     githubLink: "https://github.com/CAndrei1601",
   },
+  {
+    artname: "Moving Box",
+    pageLink: "./Art/animations-movingBox/index.html",
+    imageLink: "./Art/animations-movingBox/movingbox.gif",
+    author: "Alisha",
+    githubLink: "https://github.com/Alisha-bashir",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
