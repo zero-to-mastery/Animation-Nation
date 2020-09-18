@@ -6070,6 +6070,13 @@ let cards = [
     author: "ChioreanAndrei",
     githubLink: "https://github.com/CAndrei1601",
   },
+  {
+    artname: "Rotating Squares",
+    pageLink: "./Art/onemesa/index.html",
+    imageLink: "./Art/onemesa/squares.gif",
+    author: "onemesa",
+    githubLink: "https://github.com/onemesa",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
