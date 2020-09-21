@@ -6084,6 +6084,12 @@ let cards = [
     author: "Alisha",
     githubLink: "https://github.com/Alisha-bashir",
   },
+  {
+    artname: "3d Shadow",
+    pageLink: "./Art/JoonJ/index.html",
+    author: "JoonJ",
+    githubLink: "https://github.com/joonjcode",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
