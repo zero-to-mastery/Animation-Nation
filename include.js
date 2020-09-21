@@ -6085,6 +6085,13 @@ let cards = [
     githubLink: "https://github.com/Alisha-bashir",
   },
   {
+    artname: "side flow",
+    pageLink: "./Art/samar/index.html",
+    imageLink: "./Art/animations-movingBox/movingbox.gif",
+    author: "Samar",
+    githubLink: "https://github.com/samarijaz",
+  },
+  {
     pageLink: "./Art/sameer786/animation.html",
     imageLink: "./Art/sameer786/gif.gif",
     author: "sameer",
