@@ -6084,6 +6084,12 @@ let cards = [
     author: "Alisha",
     githubLink: "https://github.com/Alisha-bashir",
   },
+  {
+    pageLink: "./Art/sameer786/animation.html",
+    imageLink: "./Art/sameer786/gif.gif",
+    author: "sameer",
+    githubLink: "https://github.com/sameer8605",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
