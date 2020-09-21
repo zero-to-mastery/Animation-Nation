@@ -6092,6 +6092,12 @@ let cards = [
     githubLink: "https://github.com/Alisha-bashir",
   },
   {
+    artname: "3d Shadow",
+    pageLink: "./Art/JoonJ/index.html",
+    author: "JoonJ",
+    githubLink: "https://github.com/joonjcode",
+  },
+  {
     artname: "side flow",
     pageLink: "./Art/samar/index.html",
     imageLink: "./Art/animations-movingBox/movingbox.gif",
