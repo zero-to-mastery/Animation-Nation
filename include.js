@@ -6078,6 +6078,13 @@ let cards = [
     githubLink: "https://github.com/CAndrei1601",
   },
   {
+    artname: "Three Nicely Rotating Squares",
+    pageLink: "./Art/onemesa/index.html",
+    imageLink: "./Art/onemesa/squares.gif",
+    author: "onemesa",
+    githubLink: "https://github.com/onemesa",
+  },
+  {
     artname: "Moving Box",
     pageLink: "./Art/animations-movingBox/index.html",
     imageLink: "./Art/animations-movingBox/movingbox.gif",
