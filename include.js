@@ -6078,6 +6078,13 @@ let cards = [
     githubLink: "https://github.com/CAndrei1601",
   },
   {
+    artname: "Three Nicely Rotating Squares",
+    pageLink: "./Art/onemesa/index.html",
+    imageLink: "./Art/onemesa/squares.gif",
+    author: "onemesa",
+    githubLink: "https://github.com/onemesa",
+  },
+  {
     artname: "Moving Box",
     pageLink: "./Art/animations-movingBox/index.html",
     imageLink: "./Art/animations-movingBox/movingbox.gif",
@@ -6086,12 +6093,31 @@ let cards = [
   },
     //  Add your card in this section
     {
-      artname:"Washed clean"
+      artname:"Washed clean",
       pageLink: "./Art/animenako/index.html",
       imageLink: "",
       author: "Joy",
       githubLink: "https://github.com/royranger",
     },
+  {
+    artname: "3d Shadow",
+    pageLink: "./Art/JoonJ/index.html",
+    author: "JoonJ",
+    githubLink: "https://github.com/joonjcode",
+  },
+  {
+    artname: "side flow",
+    pageLink: "./Art/samar/index.html",
+    imageLink: "./Art/animations-movingBox/movingbox.gif",
+    author: "Samar",
+    githubLink: "https://github.com/samarijaz",
+  },
+  {
+    pageLink: "./Art/sameer786/animation.html",
+    imageLink: "./Art/sameer786/gif.gif",
+    author: "sameer",
+    githubLink: "https://github.com/sameer8605",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
