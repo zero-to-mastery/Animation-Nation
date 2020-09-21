@@ -6089,8 +6089,16 @@ let cards = [
     pageLink: "./Art/animations-movingBox/index.html",
     imageLink: "./Art/animations-movingBox/movingbox.gif",
     author: "Alisha",
-    githubLink: "https://github.com/Alisha-bashir",
+    githubLink: "https://github.com/andreabadinas",
   },
+    //  Add your card in this section
+    {
+      artname:"Washed clean",
+      pageLink: "./Art/animenako/index.html",
+      imageLink: "",
+      author: "Joy",
+      githubLink: "https://github.com/royranger",
+    },
   {
     artname: "3d Shadow",
     pageLink: "./Art/JoonJ/index.html",
