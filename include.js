@@ -6117,7 +6117,15 @@ let cards = [
     imageLink: "./Art/sameer786/gif.gif",
     author: "sameer",
     githubLink: "https://github.com/sameer8605",
-  }
+  },
+  {
+    artName: "Concentric",
+    pageLink: "./Art/Concentric/Concentric.html",
+    imageLink: "./Art/Concentric/concentric.gif",
+    author: "Alex Triece",
+    githubLink: "https://github.com/atrieceeph289",
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
