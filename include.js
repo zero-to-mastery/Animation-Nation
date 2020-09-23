@@ -488,6 +488,7 @@ let cards = [
 		author: 'Nnaji Victor',
 		githubLink: 'https://github.com/Nnaji-Victor'
 	},
+
 	{
 		artName: 'ZTM Bouncer',
 		pageLink: './Art/Josia/bouncer.html',
@@ -6121,7 +6122,13 @@ let cards = [
 		imageLink: './Art/GTiberi/Fox-gif.gif',
 		author: 'GTiberi',
 		githubLink: 'https://github.com/GTiberi'
-	}
+	},
+	{
+    pageLink:'./Art/Bouncy/index.html',
+    imageLink: './Art/Bouncy/Bouncy.png',
+    author: 'tjsrm',
+    githubLink: 'https://github.com/tjsrm',
+   }
 ];
 
 // +--------------------------------------------------------------------------------+
