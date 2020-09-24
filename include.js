@@ -6122,7 +6122,7 @@ let cards = [
     artName: "Concentric",
     pageLink: "./Art/Concentric/Concentric.html",
     imageLink: "./Art/Concentric/concentric.gif",
-    author: "Alex Triece",
+    author: "AlexTriece",
     githubLink: "https://github.com/atrieceeph289",
   },
 
