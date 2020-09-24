@@ -6119,7 +6119,7 @@ let cards = [
     githubLink: "https://github.com/sameer8605",
   },
   {
-    artName: "Concentric",
+    artname: "Concentric",
     pageLink: "./Art/Concentric/Concentric.html",
     imageLink: "./Art/Concentric/concentric.gif",
     author: "AlexTriece",
