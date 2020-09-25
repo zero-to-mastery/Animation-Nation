@@ -40,6 +40,13 @@ let cards = [
 		githubLink: 'https://github.com/stthall'
 	},
 	{
+		artName: 'AmanS01',
+		pageLink: './Art/AmanS01/index.html',
+		videoLink: './Art/AmanS01/S01Anim.gif',
+		author: 'Aman777',
+		githubLink: 'https://github.com/amanbijalwan'
+	},
+	{
 		artName: '3D Series',
 		pageLink: './Art/AdityaRathore/index.html',
 		videoLink: './Art/AdityaRathore/rat.gif',
