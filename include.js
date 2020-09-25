@@ -6003,128 +6003,6 @@ let cards = [
 		author: 'H@rshit',
 		githubLink: 'https://github.com/harshit-kumar-78'
 	},
-
-	{
-		pageLink: './Art/AnimationPandey/Index.html',
-		imageLink: './Art/AnimationPandey/Card.png',
-		author: 'Anish',
-		githubLink: 'https://github.com/apandey208'
-	},
-
-	{
-		pageLink: './Art/shyam-sai/Animator1/index.html',
-		imageLink: './Art/shyam-sai/Animator1/stale.gif',
-		author: 'shyam-sai',
-		githubLink: 'https://github.com/shyam-sai'
-	},
-	{
-		pageLink: './Art/tfernandez2017/index.html',
-		imageLink: './Art/tfernandez2017/tfernandez2017.gif',
-		author: 'tfernandez2017',
-		githubLink: 'https://github.com/tfernandez2017'
-	},
-	{
-		pageLink: './Art/diarmOd/index.html',
-		imageLink: './Art/diarmOd/index.gif',
-		author: 'diarmOd',
-		githubLink: 'https://github.com/diarmOd'
-	},
-	{
-		artName: 'FlipSwap',
-		pageLink: './Art/Dadpops/index.html',
-		imageLink: './Art/Dadpops/anima.gif',
-		author: 'Chris',
-		githubLink: 'https://github.com/dadpops'
-	},
-	{
-		artName: 'homanseto',
-		pageLink: './Art/homanseto/index.html',
-		imageLink: './Art/homanseto/public/even_bobby_despises_you.gif',
-		author: 'homanseto',
-		githubLink: 'https://github.com/homanseto'
-	},
-	{
-		artName: 'NanoLoader',
-		pageLink: './Art/ysherqawi/index.html',
-		imageLink: './Art/ysherqawi/loader.gif',
-		author: 'Yasser',
-		githubLink: 'https://github.com/ysherqawi'
-	},
-	{
-		artName: 'happiness',
-		pageLink: './Art/happiness/index.html',
-		author: 'fathimaanudha',
-		githubLink: 'https://github.com/fathimaanudha'
-	},
-	{
-		artName: 'Falling dots',
-		pageLink: './Art/Trustin/index.html',
-		videoLink: './Art/Tristom/cell.mp4',
-		author: 'Trustin',
-		githubLink: 'https://github.com/trustinsimpson'
-	},
-	{
-		artName: 'Robot Heart',
-		pageLink: './Art/robot_heart/index.html',
-		imageLink: './Art/robot_heart/robot_heart.gif',
-		author: 'Sugus',
-		githubLink: 'https://github.com/sugugrassi'
-	},
-	{
-		artName: 'pam',
-		pageLink: './Art/pam/h.html',
-		imageLink: './Art/pam/g.gif',
-		author: 'pam',
-		githubLink: 'https://github.com/pam'
-	},
-	{
-		artname: 'Hai Romania',
-		pageLink: './Art/CAndrei1601/index.html',
-		author: 'ChioreanAndrei',
-		githubLink: 'https://github.com/CAndrei1601'
-	},
-	{
-		artname: 'Three Nicely Rotating Squares',
-		pageLink: './Art/onemesa/index.html',
-		imageLink: './Art/onemesa/squares.gif',
-		author: 'onemesa',
-		githubLink: 'https://github.com/onemesa'
-	},
-	{
-		artname: 'Moving Box',
-		pageLink: './Art/animations-movingBox/index.html',
-		imageLink: './Art/animations-movingBox/movingbox.gif',
-		author: 'Alisha',
-		githubLink: 'https://github.com/andreabadinas'
-	},
-	//  Add your card in this section
-	{
-		artname: 'Washed clean',
-		pageLink: './Art/animenako/index.html',
-		imageLink: '',
-		author: 'Joy',
-		githubLink: 'https://github.com/royranger'
-	},
-	{
-		artname: '3d Shadow',
-		pageLink: './Art/JoonJ/index.html',
-		author: 'JoonJ',
-		githubLink: 'https://github.com/joonjcode'
-	},
-	{
-		artname: 'side flow',
-		pageLink: './Art/samar/index.html',
-		imageLink: './Art/animations-movingBox/movingbox.gif',
-		author: 'Samar',
-		githubLink: 'https://github.com/samarijaz'
-	},
-	{
-		pageLink: './Art/sameer786/animation.html',
-		imageLink: './Art/sameer786/gif.gif',
-		author: 'sameer',
-		githubLink: 'https://github.com/sameer8605'
-	},
-	{
 		pageLink: './Art/GTiberi/index.html',
 		imageLink: './Art/GTiberi/Fox-gif.gif',
 		author: 'GTiberi',
@@ -6136,6 +6014,13 @@ let cards = [
     author: 'tjsrm',
     githubLink: 'https://github.com/tjsrm',
    }
+  ,{
+    artname: "Concentric",
+    pageLink: "./Art/Concentric/Concentric.html",
+    imageLink: "./Art/Concentric/concentric.gif",
+    author: "AlexTriece",
+    githubLink: "https://github.com/atrieceeph289",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
