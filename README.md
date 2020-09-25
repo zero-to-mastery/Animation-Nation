@@ -47,7 +47,7 @@ let cards = [
   //  Add your card in this section
   {
     pageLink: "./Art/Joy/triangle/triangle.html",
-    imageLink: "./Art/Joy/triangle/triangle.gif",
+    imageLink: "./Art/Bouncy",
     author: "Joy",
     githubLink: "https://github.com/royranger",
   },
