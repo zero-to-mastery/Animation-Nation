@@ -1,0 +1,52 @@
+
+h1{
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;		
+    font-family: 'Poppins', sans-serif;
+    text-align: center;  
+	
+}
+
+.loader{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  #loader span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: green;
+    margin: 35px 5px;
+    opacity: 0;
+    
+    
+  }
+  
+  #loader span:nth-child(1){
+    animation: opacitychange 1s ease-in-out infinite;
+  }
+  
+  #loader span:nth-child(2){
+    animation: opacitychange 1s ease-in-out 0.33s infinite;
+  }
+  
+  #loader span:nth-child(3){
+    animation: opacitychange 1s ease-in-out 0.66s infinite;
+  }
+  
+  @keyframes opacitychange{
+    0%, 100%{
+      opacity: 0;
+    }
+  
+    60%{
+      opacity: 1;
+    }
+  }
