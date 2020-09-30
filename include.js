@@ -6008,7 +6008,7 @@ let cards = [
 		imageLink: './Art/Joy/jumping_ball/pic.gif',
 		author: 'H@rshit',
 		githubLink: 'https://github.com/harshit-kumar-78'
-	},
+	},{
 		pageLink: './Art/GTiberi/index.html',
 		imageLink: './Art/GTiberi/Fox-gif.gif',
 		author: 'GTiberi',
