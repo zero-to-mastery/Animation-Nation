@@ -6027,6 +6027,13 @@ let cards = [
     author: "AlexTriece",
     githubLink: "https://github.com/atrieceeph289",
   },
+  {
+    artname: "Fire Text",
+    pageLink: "./Art/Fire text/index.html",
+    imageLink: "./Art/Fire text/fire.gif",
+    author: "AviadHitner",
+    githubLink: "https://github.com/aviad198",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
