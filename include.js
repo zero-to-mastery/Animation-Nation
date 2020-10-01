@@ -6029,7 +6029,6 @@ let cards = [
   },
 
    {
-   	artname: "anim",
     pageLink: "./Art/anim/index.html",
     imageLink: "./Art/anim/index.png",
     author: "Azhar",
