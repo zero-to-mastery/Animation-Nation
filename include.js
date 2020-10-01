@@ -659,7 +659,7 @@ let cards = [
 	{
 		artName: 'Hacktober Spooktacular',
 		pageLink: 'Art/Elex/index.html',
-		imageLink: [ './Art/Elex/hhs.gif' ],
+		imageLink: ['./Art/Elex/hhs.gif'],
 		author: 'William Poisel (LordCobra)',
 		githubLink: 'https://github.com/epoisel'
 	},
@@ -1625,7 +1625,7 @@ let cards = [
 	{
 		artName: 'Hacktober Spooktacular',
 		pageLink: 'Art/Elex/index.html',
-		imageLink: [ './Art/Elex/hhs.gif' ],
+		imageLink: ['./Art/Elex/hhs.gif'],
 		author: 'William Poisel (LordCobra)',
 		githubLink: 'https://github.com/epoisel'
 	},
@@ -6008,41 +6008,49 @@ let cards = [
 		imageLink: './Art/Joy/jumping_ball/pic.gif',
 		author: 'H@rshit',
 		githubLink: 'https://github.com/harshit-kumar-78'
-	},{
+	}, {
 		pageLink: './Art/GTiberi/index.html',
 		imageLink: './Art/GTiberi/Fox-gif.gif',
 		author: 'GTiberi',
 		githubLink: 'https://github.com/GTiberi'
 	},
 	{
-    pageLink:'./Art/Bouncy/index.html',
-    imageLink: './Art/Bouncy/Bouncy.png',
-    author: 'tjsrm',
-    githubLink: 'https://github.com/tjsrm',
-   }
-  ,{
-    artname: "Concentric",
-    pageLink: "./Art/Concentric/Concentric.html",
-    imageLink: "./Art/Concentric/concentric.gif",
-    author: "AlexTriece",
-    githubLink: "https://github.com/atrieceeph289",
-  },
+		pageLink: './Art/Bouncy/index.html',
+		imageLink: './Art/Bouncy/Bouncy.png',
+		author: 'tjsrm',
+		githubLink: 'https://github.com/tjsrm',
+	}, {
+		artname: "Concentric",
+		pageLink: "./Art/Concentric/Concentric.html",
+		imageLink: "./Art/Concentric/concentric.gif",
+		author: "AlexTriece",
+		githubLink: "https://github.com/atrieceeph289",
+	},
 
 
-   {
-    pageLink: "./Art/anim/index.html",
-    imageLink: "./Art/anim/index.png",
-    author: "Azhar",
-    githubLink: "https://github.com/azhar0504,
-  },
-  {
-    artname: "Fire Text",
-    pageLink: "./Art/Fire text/index.html",
-    imageLink: "./Art/Fire text/fire.gif",
-    author: "AviadHitner",
-    githubLink: "https://github.com/aviad198",
+	{
+		pageLink: "./Art/anim/index.html",
+		imageLink: "./Art/anim/index.png",
+		author: "Azhar",
+		githubLink: "https://github.com/azhar0504,
+	},
+	{
+		artname: "Fire Text",
+		pageLink: "./Art/Fire text/index.html",
+		imageLink: "./Art/Fire text/fire.gif",
+		author: "AviadHitner",
+		githubLink: "https://github.com/aviad198",
 
-  },
+	},
+
+	{
+		artname: "loading-Cups",
+		pageLink: "./Art/Loading_Cups/index.html",
+		imageLink: "./Art/Loading_Cups/index.gif",
+		author: "Monir",
+		githubLink: "https://github.com/monir-007",
+
+	},
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -6057,14 +6065,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
 	contents.push([
 		`<li class="card">` +
-			`<a href='${c.pageLink}'>` +
-			`<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-			`</a>` +
-			`<div class="flex-content">` +
-			`<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-			`<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-			`</div>` +
-			`</li>`
+		`<a href='${c.pageLink}'>` +
+		`<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+		`</a>` +
+		`<div class="flex-content">` +
+		`<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+		`<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+		`</div>` +
+		`</li>`
 	]);
 });
 
