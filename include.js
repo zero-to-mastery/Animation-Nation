@@ -6028,11 +6028,20 @@ let cards = [
     githubLink: "https://github.com/atrieceeph289",
   },
 
+
    {
     pageLink: "./Art/anim/index.html",
     imageLink: "./Art/anim/index.png",
     author: "Azhar",
-    githubLink: "https://github.com/azhar0504",
+    githubLink: "https://github.com/azhar0504,
+  },
+  {
+    artname: "Fire Text",
+    pageLink: "./Art/Fire text/index.html",
+    imageLink: "./Art/Fire text/fire.gif",
+    author: "AviadHitner",
+    githubLink: "https://github.com/aviad198",
+
   },
 ];
 
