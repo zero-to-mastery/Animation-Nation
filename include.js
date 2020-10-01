@@ -6033,7 +6033,7 @@ let cards = [
     imageLink: "./Art/anim/index.png",
     author: "Azhar",
     githubLink: "https://github.com/azhar0504",
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
