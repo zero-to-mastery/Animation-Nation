@@ -6060,7 +6060,7 @@ Shuffle(cards).forEach((c) => {
 	]);
 });
 
-document.getElementById('cards').innerHTML = contents.join('');
+document.getElementById('cards').innerHTML = contents;
 
 function Shuffle(o) {
 	for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
