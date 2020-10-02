@@ -6058,6 +6058,13 @@ let cards = [
     githubLink: "https://github.com/otfigo87",
 
   },
+  {
+	artname: "Animate",
+	pageLink: "/codepen/animation/src/index.html",
+	imageLink: "Animation",
+	author: "Altamas khan",
+	githubLink: "https://github.com/Altamas2049", 
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
