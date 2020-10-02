@@ -6058,6 +6058,14 @@ let cards = [
     githubLink: "https://github.com/otfigo87",
 
   },
+    {
+    artname: "JesseEarley",
+    pageLink: "./Art/JesseEarley/index.html",
+    imageLink: "./Art/JesseEarley/index.gif",
+    author: "JesseEarley",
+    githubLink: "https://github.com/JesseEarley",
+
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
