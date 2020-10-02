@@ -1,6 +1,13 @@
 let cards = [
 	//  Add your card in this section
 	{
+		artName: "CSS Heart",
+		pageLink: "./Art/Aarush/Heart.html",
+		imageLink: './Art/Aarush/Heart.png',
+		author: 'Aarush Bhat',
+		githubLink: 'https://github.com/r-ush'
+	},
+	{
 		artName: 'sun-moon',
 		pageLink: './Art/shinelikeasmile/h.html',
 		imageLink: './Art/shinelikeasmile/g.gif',
@@ -6026,13 +6033,11 @@ let cards = [
 		author: "AlexTriece",
 		githubLink: "https://github.com/atrieceeph289",
 	},
-
-
 	{
 		pageLink: "./Art/anim/index.html",
 		imageLink: "./Art/anim/index.png",
 		author: "Azhar",
-		githubLink: "https://github.com/azhar0504,
+		githubLink: "https://github.com/azhar0504"
 	},
 	{
 		artname: "Fire Text",
