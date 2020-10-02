@@ -6058,6 +6058,14 @@ let cards = [
     githubLink: "https://github.com/otfigo87",
 
   },
+  {
+	{
+		artName: "Animatron",
+		pageLink: "./Art/animatron/triangle/index.html",
+		imageLink: "./Art/animatron/trance.gif",
+		author: "Deborah",
+		githubLink: "https://github.com/dluckey123",
+	  }
 ];
 
 // +--------------------------------------------------------------------------------+
