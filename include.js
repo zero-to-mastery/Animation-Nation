@@ -6040,7 +6040,6 @@ let cards = [
 		imageLink: "./Art/Fire text/fire.gif",
 		author: "AviadHitner",
 		githubLink: "https://github.com/aviad198",
-
 	},
 
 	{
@@ -6051,6 +6050,14 @@ let cards = [
 		githubLink: "https://github.com/monir-007",
 
 	},
+  {
+    artname: "JustTry",
+    pageLink: "./Art/JustTry/index.html",
+    imageLink: "./Art/JustTry/image.png",
+    author: "Otmane",
+    githubLink: "https://github.com/otfigo87",
+
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
