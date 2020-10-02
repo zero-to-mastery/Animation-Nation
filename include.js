@@ -6043,6 +6043,14 @@ let cards = [
     githubLink: "https://github.com/aviad198",
 
   },
+  {
+    artname: "JustTry",
+    pageLink: "./Art/JustTry/index.html",
+    imageLink: "./Art/JustTry/image.png",
+    author: "Otmane",
+    githubLink: "https://github.com/otfigo87",
+
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
