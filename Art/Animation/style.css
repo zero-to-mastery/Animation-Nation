@@ -1,0 +1,22 @@
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.road {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.cat {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    animation-name: pusheen;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes pusheen {
+      from{ transform: translateX(100%);}
+      to { transform: translateX(-500%);}
+}

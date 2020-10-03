@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10rem;
+    animation: roll 3s infinite;
+    transform: rotate(30deg);
+}
+
+img {
+    height: 350px;
+    width: 350px;
+}
+
+
+
+@keyframes roll {
+    0% {
+        transform: rotate(0);
+      }
+    100% {
+        transform: rotate(360deg);
+    }
+}

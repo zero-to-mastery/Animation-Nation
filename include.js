@@ -1,4 +1,4 @@
-﻿let cards = [
+let cards = [
   {
     artName: "covid-19",
     pageLink: "./Art/shivam12k/index.html",
@@ -3643,6 +3643,8 @@
     imageLink: "./Art/Naok000/ball-clear.gif",
     author: "Naok000",
     githubLink: "https://github.com/Naok000"
+
+    githubLink: "https://github.com/sanmitra1999",
   },
   {
     artName: "Mario_Kart_Animation",
@@ -3848,7 +3850,7 @@
     imageLink: './Art/Spin/allli.gif',
     author: 'Victor Winner',
     githubLink: 'https://github.com/Vicwin13'
-  }  
+  }
   ,{
     artName: 'Spinner',
     pageLink: './Art/nishantpandey/allli.html',
