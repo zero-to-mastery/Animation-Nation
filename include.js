@@ -3852,12 +3852,19 @@ let cards = [
     githubLink: "https://github.com/JesseEarley",
 
   },
+	{
+		artName: "Animatron",
+		pageLink: "./Art/animatron/triangle/index.html",
+		imageLink: "./Art/animatron/trance.gif",
+		author: "Deborah",
+		githubLink: "https://github.com/dluckey123",
+	},
   {
-	artname: "Animate",
-	pageLink: "/codepen/animation/src/index.html",
-	imageLink: "Animation",
-	author: "Altamas khan",
-	githubLink: "https://github.com/Altamas2049", 
+	  artname: "Animate",
+	  pageLink: "/codepen/animation/src/index.html",
+	  imageLink: "Animation",
+	  author: "Altamas khan",
+	  githubLink: "https://github.com/Altamas2049", 
   },
   {
     artName: 'Spin',
