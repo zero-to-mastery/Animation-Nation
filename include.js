@@ -3845,6 +3845,13 @@ let cards = [
     githubLink: "https://github.com/psr83",
   },
   {
+	artname: "Animate",
+	pageLink: "/codepen/animation/src/index.html",
+	imageLink: "Animation",
+	author: "Altamas khan",
+	githubLink: "https://github.com/Altamas2049", 
+  },
+  {
     artName: 'Spin',
     pageLink: './Art/Spin/allli.html',
     imageLink: './Art/Spin/allli.gif',
