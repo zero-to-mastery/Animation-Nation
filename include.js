@@ -3845,6 +3845,14 @@ let cards = [
     githubLink: "https://github.com/psr83",
   },
   {
+    artname: "JesseEarley",
+    pageLink: "./Art/JesseEarley/index.html",
+    imageLink: "./Art/JesseEarley/index.gif",
+    author: "JesseEarley",
+    githubLink: "https://github.com/JesseEarley",
+
+  },
+  {
 	artname: "Animate",
 	pageLink: "/codepen/animation/src/index.html",
 	imageLink: "Animation",
@@ -3857,8 +3865,8 @@ let cards = [
     imageLink: './Art/Spin/allli.gif',
     author: 'Victor Winner',
     githubLink: 'https://github.com/Vicwin13'
-  }
-  ,{
+  },
+  {
     artName: 'Spinner',
     pageLink: './Art/nishantpandey/allli.html',
     imageLink: './Art/nishantpandey/allli.gif',
