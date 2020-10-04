@@ -20,6 +20,13 @@ let cards = [
     author: "ThomasTobe",
     githubLink: "https://github.com/ThomasTobe",
   },
+  {
+    artName: "Life Of Coder",
+    pageLink: "./Art/DevarshiDoshi/index.html",
+    imageLink: "./Art/DevarshiDoshi/Life Of Coder.gif",
+    author: "DevarshiDoshi",
+    githubLink: "https://github.com/devarshidoshi",
+  },
 
 
   {
