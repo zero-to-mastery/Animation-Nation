@@ -3657,9 +3657,7 @@ let cards = [
     pageLink: "./Art/Naok000/index.html",
     imageLink: "./Art/Naok000/ball-clear.gif",
     author: "Naok000",
-    githubLink: "https://github.com/Naok000"
-
-    githubLink: "https://github.com/sanmitra1999",
+    githubLink: "https://github.com/Naok000",
   },
   {
     artName: "Mario_Kart_Animation",
@@ -3868,7 +3866,6 @@ let cards = [
     githubLink: "https://github.com/poonampant",
   },
 
-=======
   {
     artname: "JesseEarley",
     pageLink: "./Art/JesseEarley/index.html",
