@@ -13,6 +13,14 @@ let cards = [
     author: "Magdalena BenBassat-Luszczynska",
     githubLink: "https://github.com/mag-d-alen",
   },
+  {
+    artName: "ThomasTobe",
+    pageLink: "./Art/ThomasTobe/index.html",
+    imageLink: "./Art/ThomasTobe/rotation.gif",
+    author: "ThomasTobe",
+    githubLink: "https://github.com/ThomasTobe",
+  },
+
 
   {
     artName: "That Animation",
