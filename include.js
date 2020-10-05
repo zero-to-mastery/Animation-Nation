@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: "CSS heART",
+    pageLink: "./Art/Aarush/Heart.html",
+    imageLink: './Art/Aarush/Heart.png',
+    author: 'Aarush Bhat',
+    githubLink: 'https://github.com/r-ush'
+  },
+  {
     artName: "covid-19",
     pageLink: "./Art/shivam12k/index.html",
     videoLink: "./Art/cell/cell.mp4",
