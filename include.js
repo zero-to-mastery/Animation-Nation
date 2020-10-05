@@ -61,7 +61,14 @@ let cards = [
     pageLink: "./Art/neon-text flicker glow/neon.html",
     videoLink: "./Art/neon-text flicker glow/neon-text flicker glow.gif",
     author: 'Ajay Tyagi',
-    githubLink: 'https://github.com/imajaytyagi'
+    githubLink: 'https://github.com/imajaytyagi',
+  },
+  {
+    artName: "Dice Animation",
+    pageLink: "./Art/Dice-Animation/dice_animation.html",
+    videoLink: "./Art/Dice-Animation/dice.gif",
+    author: "Ronit DuttA",
+    githubLink: "https://github.com/RD91",
   },
   {
     artName: "Fruit Dancing",
