@@ -3901,9 +3901,15 @@ let cards = [
     imageLink: './Art/nishantpandey/allli.gif',
     author: 'Nishant Pandey',
     githubLink: 'https://github.com/mrpandey1'
-  }
+  },
+  {
+    artName: 'misaelsantos',
+    pageLink: './Art/misaelsantos/index.html',
+    imageLink: './Art/misaelsantos/neohack.gif',
+    author: 'Misael Santos',
+    githubLink: 'https://github.com/MisaelSantos'
+  },
 ];
-
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
