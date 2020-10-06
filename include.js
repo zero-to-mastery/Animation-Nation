@@ -28,7 +28,6 @@ let cards = [
     githubLink: "https://github.com/devarshidoshi",
   },
 
-
   {
     artName: "That Animation",
     pageLink: "./Art/MaKloudz/index.html",
@@ -71,12 +70,12 @@ let cards = [
     author: "yuwenGithub",
     githubLink: "https://github.com/yuwenGithub",
   },
-   {
+  {
     artName: "neon-text flicker glow",
     pageLink: "./Art/neon-text flicker glow/neon.html",
     videoLink: "./Art/neon-text flicker glow/neon-text flicker glow.gif",
-    author: 'Ajay Tyagi',
-    githubLink: 'https://github.com/imajaytyagi'
+    author: "Ajay Tyagi",
+    githubLink: "https://github.com/imajaytyagi",
   },
   {
     artName: "Fruit Dancing",
@@ -3573,15 +3572,13 @@ let cards = [
     githubLink: "https://github.com/jacob-bacon",
   },
   {
- 
     artName: "Colination",
     pageLink: "./Art/colination/index.html",
     imageLink: "./Art/colination/animation.png",
     author: "colinJR95",
-    githublink: "https://github.com/colinJR95"
+    githublink: "https://github.com/colinJR95",
   },
-   {  
-
+  {
     artName: "Glowing Circle by Leem Plays",
     pageLink: "./Art/AliHaidar/index.html",
     imageLink: "./Art/AliHaidar/giphy.gif",
@@ -3589,7 +3586,6 @@ let cards = [
     githubLink: "https://github.com/alihaidar2950",
   },
   {
-
     artName: "bouncy-ball",
     pageLink: "./Art/bouncy-ball/ty.html",
     imageLink: "./Art/bouncy-ball/bouncy-ball.gif",
@@ -3604,13 +3600,13 @@ let cards = [
     githubLink: "https://github.com/visiona",
   },
   {
-      artName: "Synchronization",
-      pageLink: "./Art/synchronization!/synchronization",
-      imageLink: "./Art/synchronization/synchronized_Dots.gif",
-      author: "Pranjal",
-      githublink: "https://github.com/Pranjal705"
+    artName: "Synchronization",
+    pageLink: "./Art/synchronization!/synchronization",
+    imageLink: "./Art/synchronization/synchronized_Dots.gif",
+    author: "Pranjal",
+    githublink: "https://github.com/Pranjal705",
   },
-   {
+  {
     artName: "Random Squares",
     pageLink: "./Art/Monitha/index.html",
     author: "Monitha",
@@ -3650,7 +3646,7 @@ let cards = [
     imageLink: "./Art/sanmitra/index.gif",
     author: "sanmitra",
 
-    githubLink: "https://github.com/sanmitra1999"
+    githubLink: "https://github.com/sanmitra1999",
   },
   {
     artName: "Ball-clear",
@@ -3678,7 +3674,7 @@ let cards = [
     pageLink: "./Art/Sfrench5/index.html",
     imageLink: "./Art/Sfrench5/Falling.gif",
     author: "Sfrench5",
-    githubLink: "https://github.com/Sfrench5"
+    githubLink: "https://github.com/Sfrench5",
   },
   {
     artName: "Dragon_Loading",
@@ -3799,55 +3795,54 @@ let cards = [
     author: "Christy",
     githubLink: "https://github.com/ChristyLucid",
   },
-    {
-      artName: "bouncing_ball",
-      pageLink: "./Art/bouncing_ball/bouncing_ball.html",
-      imageLink: "./Art/bouncing_ball/bouncing-ball.gif",
-      author: "Nirmalie",
-      githubLink: 'https://github.com/nirmalieo3',
-
-      },
-        {
-          artName: "Rocket",
-          pageLink: "./Art/Rocket/index.html",
-          imageLink: "./Art/Rocket/rocket.gif",
-          author: 'Jose Diaz',
-          githubLink: 'https://github.com/josegerard2000'
-         },
   {
-      artName: "simpleG",
-      pageLink: "./Art/simpleG/index.html",
-      imageLink: "./Art/simpleG/kitty.jpg",
-      author: "gargeper",
-      githubLink: 'https://github.com/gargeper',
+    artName: "bouncing_ball",
+    pageLink: "./Art/bouncing_ball/bouncing_ball.html",
+    imageLink: "./Art/bouncing_ball/bouncing-ball.gif",
+    author: "Nirmalie",
+    githubLink: "https://github.com/nirmalieo3",
   },
-      {
-          artName: "BounceFace",
-          pageLink: "./Art/ainamation/index.html",
-          imageLink: "./Art/ainamation/ainamation.gif",
-          author: "Ainara Saralegui",
-          githubLink: "https://github.com/asaralegui"
-      },
-   { 
-    artName: 'Text Flow',
-    pageLink: './Art/ConnerCoding/index.html',
-    imageLink: './Art/ConnerCoding/ztmanimation.gif',
-    author: 'Conner Schiller',
-    githubLink: 'https://github.com/ConnerCoding'
+  {
+    artName: "Rocket",
+    pageLink: "./Art/Rocket/index.html",
+    imageLink: "./Art/Rocket/rocket.gif",
+    author: "Jose Diaz",
+    githubLink: "https://github.com/josegerard2000",
   },
-    {
-    artName: 'Glow',
-    pageLink: './Art/Glow/index.html',
-    imageLink: './Art/Glow/Glow.png',
-    author: 'Joaquin Castillo',
-    githubLink: 'https://github.com/JuakoDev',
+  {
+    artName: "simpleG",
+    pageLink: "./Art/simpleG/index.html",
+    imageLink: "./Art/simpleG/kitty.jpg",
+    author: "gargeper",
+    githubLink: "https://github.com/gargeper",
   },
-     {
-    artName: 'Heart Real',
-    pageLink: './Art/riddhax/index.html',
-    imageLink: './Art/riddhax/index.gif',
-    author: 'Riddhax',
-    githubLink: 'https://github.com/riddhax',
+  {
+    artName: "BounceFace",
+    pageLink: "./Art/ainamation/index.html",
+    imageLink: "./Art/ainamation/ainamation.gif",
+    author: "Ainara Saralegui",
+    githubLink: "https://github.com/asaralegui",
+  },
+  {
+    artName: "Text Flow",
+    pageLink: "./Art/ConnerCoding/index.html",
+    imageLink: "./Art/ConnerCoding/ztmanimation.gif",
+    author: "Conner Schiller",
+    githubLink: "https://github.com/ConnerCoding",
+  },
+  {
+    artName: "Glow",
+    pageLink: "./Art/Glow/index.html",
+    imageLink: "./Art/Glow/Glow.png",
+    author: "Joaquin Castillo",
+    githubLink: "https://github.com/JuakoDev",
+  },
+  {
+    artName: "Heart Real",
+    pageLink: "./Art/riddhax/index.html",
+    imageLink: "./Art/riddhax/index.gif",
+    author: "Riddhax",
+    githubLink: "https://github.com/riddhax",
   },
 
   {
@@ -3859,7 +3854,7 @@ let cards = [
   },
 
   {
-  	artname: "Square-Move",
+    artname: "Square-Move",
     pageLink: "./Art/Poonam/square.html",
     imageLink: "./Art/Poonam/square_gif.gif",
     author: "Poonam",
@@ -3872,38 +3867,43 @@ let cards = [
     imageLink: "./Art/JesseEarley/index.gif",
     author: "JesseEarley",
     githubLink: "https://github.com/JesseEarley",
-
-  },
-	{
-		artName: "Animatron",
-		pageLink: "./Art/animatron/triangle/index.html",
-		imageLink: "./Art/animatron/trance.gif",
-		author: "Deborah",
-		githubLink: "https://github.com/dluckey123",
-	},
-  {
-	  artname: "Animate",
-	  pageLink: "/codepen/animation/src/index.html",
-	  imageLink: "Animation",
-	  author: "Altamas khan",
-	  githubLink: "https://github.com/Altamas2049", 
   },
   {
-    artName: 'Spin',
-    pageLink: './Art/Spin/allli.html',
-    imageLink: './Art/Spin/allli.gif',
-    author: 'Victor Winner',
-    githubLink: 'https://github.com/Vicwin13'
+    artName: "Animatron",
+    pageLink: "./Art/animatron/triangle/index.html",
+    imageLink: "./Art/animatron/trance.gif",
+    author: "Deborah",
+    githubLink: "https://github.com/dluckey123",
   },
   {
-    artName: 'Spinner',
-    pageLink: './Art/nishantpandey/allli.html',
-    imageLink: './Art/nishantpandey/allli.gif',
-    author: 'Nishant Pandey',
-    githubLink: 'https://github.com/mrpandey1'
-  }
+    artname: "Animate",
+    pageLink: "/codepen/animation/src/index.html",
+    imageLink: "Animation",
+    author: "Altamas khan",
+    githubLink: "https://github.com/Altamas2049",
+  },
+  {
+    artName: "Spin",
+    pageLink: "./Art/Spin/allli.html",
+    imageLink: "./Art/Spin/allli.gif",
+    author: "Victor Winner",
+    githubLink: "https://github.com/Vicwin13",
+  },
+  {
+    artName: "Spinner",
+    pageLink: "./Art/nishantpandey/allli.html",
+    imageLink: "./Art/nishantpandey/allli.gif",
+    author: "Nishant Pandey",
+    githubLink: "https://github.com/mrpandey1",
+  },
+  {
+    artName: "Eyeball",
+    pageLink: "./Art/taniyaHinduja/index.html",
+    imageLink: "./Art/taniyaHinduja/eyeball.gif",
+    author: "Taniya Hinduja",
+    githubLink: "https://github.com/taniyahinduja",
+  },
 ];
-
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
