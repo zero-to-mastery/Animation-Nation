@@ -3902,6 +3902,14 @@ let cards = [
     author: 'Nishant Pandey',
     githubLink: 'https://github.com/mrpandey1'
   }
+
+  {
+    artname: "Starry-sky",
+    pageLink: "./Art/starry-night/index.html",
+    imageLink: "./Art/starry-night/stars",
+    author: "Taima Khawaldeh",
+    githubLink: "https://github.com/taimakh",
+  },
 ];
 
 
