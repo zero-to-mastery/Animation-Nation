@@ -13,6 +13,21 @@ let cards = [
     author: 'Magdalena BenBassat-Luszczynska',
     githubLink: 'https://github.com/mag-d-alen'
   },
+  {
+    artName: "ThomasTobe",
+    pageLink: "./Art/ThomasTobe/index.html",
+    imageLink: "./Art/ThomasTobe/rotation.gif",
+    author: "ThomasTobe",
+    githubLink: "https://github.com/ThomasTobe",
+  },
+  {
+    artName: "Life Of Coder",
+    pageLink: "./Art/DevarshiDoshi/index.html",
+    imageLink: "./Art/DevarshiDoshi/Life Of Coder.gif",
+    author: "DevarshiDoshi",
+    githubLink: "https://github.com/devarshidoshi",
+  },
+
 
   {
     artName: 'That Animation',
@@ -3836,6 +3851,37 @@ let cards = [
     imageLink: './Art/Paul - Simple Annoying Balls/Balls.gif',
     author: 'Paul',
     githubLink: 'https://github.com/psr83'
+  },
+
+  {
+  	artname: "Square-Move",
+    pageLink: "./Art/Poonam/square.html",
+    imageLink: "./Art/Poonam/square_gif.gif",
+    author: "Poonam",
+    githubLink: "https://github.com/poonampant",
+  },
+
+  {
+    artname: "JesseEarley",
+    pageLink: "./Art/JesseEarley/index.html",
+    imageLink: "./Art/JesseEarley/index.gif",
+    author: "JesseEarley",
+    githubLink: "https://github.com/JesseEarley",
+
+  },
+	{
+		artName: "Animatron",
+		pageLink: "./Art/animatron/triangle/index.html",
+		imageLink: "./Art/animatron/trance.gif",
+		author: "Deborah",
+		githubLink: "https://github.com/dluckey123",
+	},
+  {
+	  artname: "Animate",
+	  pageLink: "/codepen/animation/src/index.html",
+	  imageLink: "Animation",
+	  author: "Altamas khan",
+	  githubLink: "https://github.com/Altamas2049", 
   },
   {
     artName: 'Spin',
