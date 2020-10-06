@@ -1,0 +1,111 @@
+#animation {
+
+}
+
+#slideDown {
+  background-color: aqua;
+  width: 4rem;
+  position: absolute;
+  animation-name: down;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes down {
+  0%   {top: 0rem;
+        height: 0px;
+        left: 40%;}
+  30% {top: 8rem;
+       height: 4rem;
+       left: 40%;}
+  60% {top: 8rem;
+       height: 9rem;
+       left: 40%;}
+  80% {top: 8rem;
+       height: 9rem;
+       left: 40%;}
+  100% {top: 100%;
+        height: 0px;
+        left: 40%;}
+}
+
+#slideUp {
+  background-color: rgb(255, 102, 0);
+  width: 4rem;
+  position: absolute;
+  animation-name: up;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up {
+  0%   {top: 100%;
+        height: 0px;
+        left: 50%;}
+  30% {top: 9rem;
+       height: 4rem;
+       left: 50%;}
+  60% {top: 4rem;
+       height: 9rem;
+       left: 50%;}
+  80% {top: 4rem;
+       height: 9rem;
+       left: 50%;}
+  100% {top: 0%;
+        height: 0px;
+        left: 50%;}
+}
+
+#slideLeft {
+  background-color: rgb(212, 0, 255);
+  height: 4rem;
+  position: absolute;
+  animation-name: left;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes left {
+  0%   {top: 4rem;
+        width: 0rem;
+        left: 0%;}
+  30% {top: 4rem;
+       width: 4rem;
+       left: 40%;}
+  60% {top: 4rem;
+       width: 9rem;
+       left: 40%;}
+  80% {top: 4rem;
+       width: 9rem;
+       left: 40%;}
+  100% {top: 4rem;
+        width: 0rem;
+        left: 100%;}
+}
+
+#slideRight {
+  background-color: rgb(9, 255, 0);
+  height: 4rem;
+  position: absolute;
+  animation-name: right;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes right {
+  0%   {top: 13rem;
+        width: 0rem;
+        left: 100%;}
+  30% {top: 13rem;
+       width: 4rem;
+       left: 50%;}
+  60% {top: 13rem;
+       width: 9rem;
+       left: 44.45%;}
+  80% {top: 13rem;
+       width: 9rem;
+       left: 44.45%;}
+  100% {top: 13rem;
+        width: 0rem;
+        left: 0%;}
+}

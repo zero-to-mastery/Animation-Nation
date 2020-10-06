@@ -3573,14 +3573,14 @@ let cards = [
     githubLink: "https://github.com/jacob-bacon",
   },
   {
- 
+
     artName: "Colination",
     pageLink: "./Art/colination/index.html",
     imageLink: "./Art/colination/animation.png",
     author: "colinJR95",
     githublink: "https://github.com/colinJR95"
   },
-   {  
+   {
 
     artName: "Glowing Circle by Leem Plays",
     pageLink: "./Art/AliHaidar/index.html",
@@ -3828,7 +3828,7 @@ let cards = [
           author: "Ainara Saralegui",
           githubLink: "https://github.com/asaralegui"
       },
-   { 
+   {
     artName: 'Text Flow',
     pageLink: './Art/ConnerCoding/index.html',
     imageLink: './Art/ConnerCoding/ztmanimation.gif',
@@ -3886,7 +3886,7 @@ let cards = [
 	  pageLink: "/codepen/animation/src/index.html",
 	  imageLink: "Animation",
 	  author: "Altamas khan",
-	  githubLink: "https://github.com/Altamas2049", 
+	  githubLink: "https://github.com/Altamas2049",
   },
   {
     artName: 'Spin',
@@ -3901,6 +3901,13 @@ let cards = [
     imageLink: './Art/nishantpandey/allli.gif',
     author: 'Nishant Pandey',
     githubLink: 'https://github.com/mrpandey1'
+  },
+  {
+    artName: 'BlockBrigade',
+    pageLink: './Art/Block-Brigade/index.html',
+    imageLink: './Art/Block-Brigade/Block-Brigade.gif',
+    author: 'Luis Ruiz',
+    githubLink: 'https://github.com/luisruiz8435'
   }
 ];
 
