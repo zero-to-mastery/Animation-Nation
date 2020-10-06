@@ -3960,6 +3960,13 @@ let cards = [
     author: 'Hulya Karakaya',
     githubLink: 'https://github.com/hulyak',
   }
+   ,{
+    artName: 'animation',
+    pageLink: "./Art/sameer786/animation.html",
+    imageLink: "./Art/sameer786/radius.gif",
+    author: "sameer",
+    githubLink: "https://github.com/sameer8605",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
