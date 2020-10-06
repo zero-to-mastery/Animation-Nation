@@ -3901,7 +3901,14 @@ let cards = [
     imageLink: './Art/nishantpandey/allli.gif',
     author: 'Nishant Pandey',
     githubLink: 'https://github.com/mrpandey1'
-  }
+  },
+  {
+    artName: "ZTM anim",
+    pageLink: "./Art/ayushi2410/index.html",
+    imageLink: "./Art/ayushi2410/ayushi2410.gif",
+    author: "Ayushi2410",
+    githubLink: "https://github.com/ayushi2410",
+  },
 ];
 
 
