@@ -1,5 +1,11 @@
 let cards = [
   {
+    pageLink: "./Art/love2cr3ate/index.html",
+    imageLink: "./Art/love2cr3ate/bouncing-heart.gif",
+    author: "l0ve2cr3ate",
+    githubLink: "https://github.com/l0ve2cr3ate",
+  },
+  {
     artName: "covid-19",
     pageLink: "./Art/shivam12k/index.html",
     videoLink: "./Art/cell/cell.mp4",
