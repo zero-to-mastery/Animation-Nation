@@ -3901,7 +3901,14 @@ let cards = [
     imageLink: './Art/nishantpandey/allli.gif',
     author: 'Nishant Pandey',
     githubLink: 'https://github.com/mrpandey1'
-  }
+  },
+  {
+    artName: 'Hacktober Test',
+    pageLink: "./Art/bajancode/index.html",
+    imageLink: "./Art/BajanCode/index.gif",
+    author: "bajancode",
+    githubLink: "https://github.com/bajancode",
+  },
 ];
 
 
