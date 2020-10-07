@@ -4001,6 +4001,13 @@ let cards = [
     imageLink: "./Art/sameer786/radius.gif",
     author: "sameer",
     githubLink: "https://github.com/sameer8605",
+  },
+  {
+    artName: 'ArrowWave',
+    pageLink: './Art/ArrowWave/index.html',
+    imageLink: './Art/ArrowWave/ArrowWave.gif',
+    author: 'Gabriel',
+    githubLink: 'https://github.com/GabrielTeixeiraC',
   }
 ];
 
