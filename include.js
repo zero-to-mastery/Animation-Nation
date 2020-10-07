@@ -100,6 +100,13 @@ let cards = [
     githubLink: 'https://github.com/imajaytyagi',
   },
   {
+    artName: "Dice Animation",
+    pageLink: "./Art/Dice-Animation/dice_animation.html",
+    videoLink: "./Art/Dice-Animation/dice.gif",
+    author: "Ronit DuttA",
+    githubLink: "https://github.com/RD91",
+  },
+  {
     artName: 'Fruit Dancing',
     pageLink: './Art/carlacentenor/index.html',
     imageLink: './Art/carlacentenor/fruit.gif',
