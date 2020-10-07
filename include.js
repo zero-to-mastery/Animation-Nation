@@ -3911,6 +3911,13 @@ let cards = [
     githubLink: 'https://github.com/mrpandey1'
   },
   {
+    artName: 'simple box',
+    pageLink: './Art/Box/index.html',
+    imageLink: './Art/Box/static_image.jpg',
+    author: 'Abishek shah',
+    githubLink: 'https://github.com/abishek-sha-256'
+  },
+  {
     artname: "Starry-sky",
     pageLink: "./Art/starry-night/index.html",
     imageLink: "./Art/starry-night/stars",
@@ -3923,7 +3930,7 @@ let cards = [
     imageLink: './Art/hulya/gallery.gif',
     author: 'Hulya Karakaya',
     githubLink: 'https://github.com/hulyak',
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
