@@ -3919,6 +3919,13 @@ let cards = [
     githubLink: 'https://github.com/mrpandey1'
   },
   {
+    artName: 'Hacktober Test',
+    pageLink: "./Art/bajancode/index.html",
+    imageLink: "./Art/BajanCode/index.gif",
+    author: "bajancode",
+    githubLink: "https://github.com/bajancode",
+  },
+  {
     artName: "ZTM anim",
     pageLink: "./Art/ayushi2410/index.html",
     imageLink: "./Art/ayushi2410/ayushi2410.gif",
