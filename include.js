@@ -3908,7 +3908,14 @@ let cards = [
     pageLink: './Art/nishantpandey/allli.html',
     imageLink: './Art/nishantpandey/allli.gif',
     author: 'Nishant Pandey',
-    githubLink: 'https://github.com/mrpandey1',
+    githubLink: 'https://github.com/mrpandey1'
+  },
+  {
+    artname: "Starry-sky",
+    pageLink: "./Art/starry-night/index.html",
+    imageLink: "./Art/starry-night/stars",
+    author: "Taima Khawaldeh",
+    githubLink: "https://github.com/taimakh",
   },
   {
     artName: 'Project Gallery',
