@@ -3919,6 +3919,13 @@ let cards = [
     githubLink: 'https://github.com/mrpandey1'
   },
   {
+    artName: 'misaelsantos',
+    pageLink: './Art/misaelsantos/index.html',
+    imageLink: './Art/misaelsantos/neohack.gif',
+    author: 'Misael Santos',
+    githubLink: 'https://github.com/MisaelSantos'
+  },
+  {
     artName: 'I am a Developer',
     pageLink: './Art/Kuroyza/Iam-a-developer.html',
     imageLink: './Art/Kuroyza/Iam-a-developer.gif',
