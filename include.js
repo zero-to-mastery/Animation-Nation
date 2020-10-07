@@ -1,5 +1,19 @@
 let cards = [
   {
+    artName: "CSS heART",
+    pageLink: "./Art/Aarush/Heart.html",
+    imageLink: './Art/Aarush/Heart.png',
+    author: 'Aarush Bhat',
+    githubLink: 'https://github.com/r-ush'
+  },
+  {
+    artName: "covid-19",
+    pageLink: "./Art/shivam12k/index.html",
+    videoLink: "./Art/cell/cell.mp4",
+    author: "shivam12k",
+    githubLink: "https://github.com/shivam12k",
+  },
+  {
     artName: "Bouncing Heart",
     pageLink: "./Art/love2cr3ate/index.html",
     imageLink: "./Art/love2cr3ate/bouncing-heart.gif",
@@ -3592,6 +3606,13 @@ let cards = [
     imageLink: './Art/AliHaidar/giphy.gif',
     author: 'alihaidar2950',
     githubLink: 'https://github.com/alihaidar2950',
+  },
+  {
+    artName: "bouncy-ball",
+    pageLink: "./Art/bouncy-ball/ty.html",
+    imageLink: "./Art/bouncy-ball/bouncy-ball.gif",
+    author: "Huang Yi-Ting",
+    githubLink: "https://github.com/yiting76",
   },
   {
     artName: 'bouncy-ball',
