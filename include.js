@@ -6058,6 +6058,13 @@ let cards = [
     githubLink: "https://github.com/otfigo87",
 
   },
+    {
+    artname:"Hacktoberfest 2020",
+    pageLink: "./Art/taepal467/index.html",
+    imageLink: "./Art/taepal467/hiclipart.com (1).png",
+    author: "Chantae P.",
+    githubLink: "https://github.com/taepal467",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
