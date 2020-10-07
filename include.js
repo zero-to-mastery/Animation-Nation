@@ -3901,6 +3901,13 @@ let cards = [
     imageLink: './Art/nishantpandey/allli.gif',
     author: 'Nishant Pandey',
     githubLink: 'https://github.com/mrpandey1'
+  },
+  {
+    artName: 'simple box',
+    pageLink: './Art/Box/index.html',
+    imageLink: './Art/Box/static_image.jpg',
+    author: 'Abishek shah',
+    githubLink: 'https://github.com/abishek-sha-256'
   }
 ];
 
