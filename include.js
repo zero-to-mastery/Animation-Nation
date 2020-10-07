@@ -3869,6 +3869,20 @@ let cards = [
     githubLink: 'https://github.com/JesseEarley',
   },
   {
+    artname:"Hacktoberfest 2020",
+    pageLink: "./Art/taepal467/index.html",
+    imageLink: "./Art/taepal467/hiclipart.com (1).png",
+    author: "Chantae P.",
+    githubLink: "https://github.com/taepal467",
+  },
+	{
+		artName: "Animatron",
+		pageLink: "./Art/animatron/triangle/index.html",
+		imageLink: "./Art/animatron/trance.gif",
+		author: "Deborah",
+		githubLink: "https://github.com/dluckey123",
+	},
+  {
     artName: 'Animatron',
     pageLink: './Art/animatron/triangle/index.html',
     imageLink: './Art/animatron/trance.gif',
