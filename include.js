@@ -1,15 +1,23 @@
 let cards = [
   {
+    artName: "Bouncing Heart",
+    pageLink: "./Art/love2cr3ate/index.html",
+    imageLink: "./Art/love2cr3ate/bouncing-heart.gif",
+    author: "l0ve2cr3ate",
+    githubLink: "https://github.com/l0ve2cr3ate",
+  },
+  {
     artName: 'covid-19',
     pageLink: './Art/shivam12k/index.html',
-    videoLink: './Art/cell/cell.mp4',
+    // videoLink: './Art/cell/cell.mp4',
+    imageLink: '#',
     author: 'shivam12k',
     githubLink: 'https://github.com/shivam12k',
   },
   {
     artName: 'Mag-animation',
     pageLink: './Art/Mag-D-Alena/index.html',
-    videoLink: './Art/Mag-D-Alena/Mag-animation.gif',
+    imageLink: './Art/Mag-D-Alena/Mag-animation.gif',
     author: 'Magdalena BenBassat-Luszczynska',
     githubLink: 'https://github.com/mag-d-alen',
   },
