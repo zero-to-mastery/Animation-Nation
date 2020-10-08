@@ -4008,6 +4008,13 @@ let cards = [
     imageLink: './Art/ArrowWave/ArrowWave.gif',
     author: 'Gabriel',
     githubLink: 'https://github.com/GabrielTeixeiraC',
+  },
+  {
+    artName: 'The 4-Ever Loop',
+    pageLink: './Art/the-4ever-loop/index.html',
+    imageLink: './Art/the-4ever-loop/rotate.gif',
+    author: 'Luciano M.',
+    githubLink: 'https://github.com/LucianoWebDev'
   }
 ];
 
