@@ -3901,6 +3901,13 @@ let cards = [
     imageLink: './Art/nishantpandey/allli.gif',
     author: 'Nishant Pandey',
     githubLink: 'https://github.com/mrpandey1'
+  },
+  {
+    artName: 'Newton's Cradle Effect',
+    pageLink: './Art/Saurabh/NewtonCradle.html',
+    imageLink: './Art/Saurabh/gif.gif',
+    author: 'Saurabh.',
+    githubLink: 'https://github.com/Saurabhtiwarii'
   }
 ];
 
