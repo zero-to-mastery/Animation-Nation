@@ -16,7 +16,7 @@ let cards = [
 {
     artName: "Image With Gray Scale Effect",
     pageLink: "./Art/Image With Gray Scale Effect",
-    imageLink: './Art/Image With Gray Scale Effect/Image-With-Gray-Scale-Effect.mp4',
+    imageLink: './Art/Image With Gray Scale Effect/Image-With-Gray-Scale-Effect.gif',
     author: 'Vikrant Kumar',
     githubLink: 'https://github.com/VikrantKu333'
   },
