@@ -4015,7 +4015,14 @@ let cards = [
     imageLink: './Art/the-4ever-loop/rotate.gif',
     author: 'Luciano M.',
     githubLink: 'https://github.com/LucianoWebDev'
-  }
+  },
+  {
+    artName: 'Stairs Text',
+    pageLink: "./Art/StairsText/index.html",
+    imageLink: "./Art/StairsText/stairs-text.gif",
+    author: "Noam K.",
+    githubLink: "https://github.com/noamkanonich",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
