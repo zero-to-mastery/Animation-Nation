@@ -4015,6 +4015,13 @@ let cards = [
     imageLink: './Art/the-4ever-loop/rotate.gif',
     author: 'Luciano M.',
     githubLink: 'https://github.com/LucianoWebDev'
+  },
+   {
+    artName: 'Mini Text Animation',
+    pageLink: './Art/text-mini-animation/index.html',
+    imageLink: './Art/text-mini-animation/text-anime.gif',
+    author: 'Chinel',
+    githubLink: 'https://github.com/chinel'
   }
 ];
 
