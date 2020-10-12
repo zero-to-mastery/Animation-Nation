@@ -4015,7 +4015,14 @@ let cards = [
     imageLink: './Art/the-4ever-loop/rotate.gif',
     author: 'Luciano M.',
     githubLink: 'https://github.com/LucianoWebDev'
-  }
+  },
+  {
+    artName: "Square loader",
+    pageLink: "./Art/square_loading/index.html",
+    imageLink: './Art/square_loading/square_loading',
+    author: 'Marek Chasák',
+    githubLink: 'https://github.com/mchasak'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
