@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Troll-Ball'
+    pageLink: "./Art/ivantbv/index.html",
+    imageLink: "./Art/ivantbv/troll-ball.gif",
+    author: "ivantbv",
+    githubLink: "https://github.com/ivantbv",
+  },
+  {
     artName: "CSS heART",
     pageLink: "./Art/Aarush/Heart.html",
     imageLink: './Art/Aarush/Heart.png',
