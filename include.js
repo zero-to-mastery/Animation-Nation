@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Troll-Ball'
+    pageLink: "./Art/ivantbv/index.html",
+    imageLink: "./Art/ivantbv/troll-ball.gif",
+    author: "ivantbv",
+    githubLink: "https://github.com/ivantbv",
+  },
+  {
     artName: "CSS heART",
     pageLink: "./Art/Aarush/Heart.html",
     imageLink: "./Art/Aarush/Heart.png",
@@ -4023,6 +4030,20 @@ let cards = [
     author: "Ermias",
     githubLink: "https://github.com/ermiaskidane",
   },
+  {
+    artName: 'The 4-Ever Loop',
+    pageLink: './Art/the-4ever-loop/index.html',
+    imageLink: './Art/the-4ever-loop/rotate.gif',
+    author: 'Luciano M.',
+    githubLink: 'https://github.com/LucianoWebDev'
+  }
+   ,{
+    artName: 'animation',
+    pageLink: "./Art/sameer786/animation.html",
+    imageLink: "./Art/sameer786/radius.gif",
+    author: "sameer",
+    githubLink: "https://github.com/sameer8605",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
