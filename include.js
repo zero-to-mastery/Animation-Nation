@@ -4015,6 +4015,13 @@ let cards = [
     imageLink: './Art/the-4ever-loop/rotate.gif',
     author: 'Luciano M.',
     githubLink: 'https://github.com/LucianoWebDev'
+  },
+
+  {
+    artName: 'Itried',
+    pageLink: '/Art/Itried/animation.html',
+    author: 'Harsha',
+    githublink: 'https://github.com/HarshaKumar23'
   }
 ];
 
