@@ -4038,13 +4038,20 @@ let cards = [
     githubLink: "https://github.com/ermiaskidane",
   },
   {
+  	artname: "Youssef"
+    pageLink: "./Art/Youssef/index.html",
+    imageLink: "./Art/Youssef/fd8_AX.gif",
+    author: "Youssef",
+    githubLink: "https://github.com/youssefhany96",
+  },
+  {
     artName: 'The 4-Ever Loop',
     pageLink: './Art/the-4ever-loop/index.html',
     imageLink: './Art/the-4ever-loop/rotate.gif',
     author: 'Luciano M.',
     githubLink: 'https://github.com/LucianoWebDev'
-  }
-   ,{
+  },
+  {
     artName: 'animation',
     pageLink: "./Art/sameer786/animation.html",
     imageLink: "./Art/sameer786/radius.gif",
