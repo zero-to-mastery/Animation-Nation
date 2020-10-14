@@ -4038,7 +4038,7 @@ let cards = [
     githubLink: "https://github.com/ermiaskidane",
   },
   {
-  	artname: "Youssef"
+  	artname: "Youssef",
     pageLink: "./Art/Youssef/index.html",
     imageLink: "./Art/Youssef/fd8_AX.gif",
     author: "Youssef",
@@ -4050,6 +4050,13 @@ let cards = [
     imageLink: './Art/the-4ever-loop/rotate.gif',
     author: 'Luciano M.',
     githubLink: 'https://github.com/LucianoWebDev'
+  },
+  {
+    artName: 'Stairs Text',
+    pageLink: "./Art/StairsText/index.html",
+    imageLink: "./Art/StairsText/stairs-text.gif",
+    author: "Noam K.",
+    githubLink: "https://github.com/noamkanonich",
   },
   {
     artName: 'animation',
