@@ -5,7 +5,7 @@
   background-color: red;
   position: relative;
   animation-name: first;
-  animation-duration: 10s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
   border-radius: 50px;
 
