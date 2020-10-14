@@ -28,6 +28,13 @@ let cards = [
     githubLink: "https://github.com/l0ve2cr3ate",
   },
   {
+    artName: "Animated-Loading",
+    pageLink: "./Art/Animated-Loading/index.html",
+    imageLink: "./Art/Animated-Loading/Animated-Loading.gif",
+    author: "Mehul1011",
+    githubLink: "https://github.com/mehul1011"
+  },
+  {
     artName: "covid-19",
     pageLink: "./Art/shivam12k/index.html",
     // videoLink: './Art/cell/cell.mp4',
