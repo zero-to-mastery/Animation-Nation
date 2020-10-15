@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+@-webkit-keyframes spinnow {
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        background-color: red;
+    }
+}
+
+@-moz-keyframes spinnow {
+    100% {
+        transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        background-color: red;
+    }
+}
+
+@-ms-keyframes spinnow {
+    100% {
+        transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        background-color: red;
+    }
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #aed845;
+    clip-path: polygon(55% 36%, 92% 24%, 77% 69%, 14% 74%, 17% 36%, 26% 11%, 56% 14%, 81% 8%, 93% 57%, 92% 98%, 63% 86%, 92% 42%, 42% 56%, 42% 86%, 12% 23%, 89% 19%, 42% 10%, 47% 56%, 27% 56%, 78% 42%, 60% 24%, 16% 94%, 68% 98%, 2% 65%, 98% 36%, 98% 78%, 16% 11%, 5% 50%, 96% 14%, 52% 78%, 25% 3%, 9% 57%, 97% 32%);
+    animation: 5s spinnow infinite linear;
+}
