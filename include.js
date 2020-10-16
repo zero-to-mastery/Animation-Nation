@@ -1,6 +1,6 @@
 let cards = [
   {
-    artName: 'Troll-Ball'
+    artName: "Troll-Ball",
     pageLink: "./Art/ivantbv/index.html",
     imageLink: "./Art/ivantbv/troll-ball.gif",
     author: "ivantbv",
@@ -32,7 +32,7 @@ let cards = [
     pageLink: "./Art/Animated-Loading/index.html",
     imageLink: "./Art/Animated-Loading/Animated-Loading.gif",
     author: "Mehul1011",
-    githubLink: "https://github.com/mehul1011"
+    githubLink: "https://github.com/mehul1011",
   },
   {
     artName: "covid-19",
@@ -4038,57 +4038,98 @@ let cards = [
     githubLink: "https://github.com/ermiaskidane",
   },
   {
-  	artname: "Youssef",
+    artname: "Youssef",
     pageLink: "./Art/Youssef/index.html",
     imageLink: "./Art/Youssef/fd8_AX.gif",
     author: "Youssef",
     githubLink: "https://github.com/youssefhany96",
   },
   {
-    artName: 'The 4-Ever Loop',
-    pageLink: './Art/the-4ever-loop/index.html',
-    imageLink: './Art/the-4ever-loop/rotate.gif',
-    author: 'Luciano M.',
-    githubLink: 'https://github.com/LucianoWebDev'
+    artName: "The 4-Ever Loop",
+    pageLink: "./Art/the-4ever-loop/index.html",
+    imageLink: "./Art/the-4ever-loop/rotate.gif",
+    author: "Luciano M.",
+    githubLink: "https://github.com/LucianoWebDev",
   },
 
-
   {
-    artName: 'Itried',
-    pageLink: '/Art/Itried/animation.html',
-    author: 'Harsha',
-    githublink: 'https://github.com/HarshaKumar23'
-
-  {
-    artName: 'Snail Zoom',
-    pageLink: './Art/rbhachu/index.html',
-    imageLink: './Art/rbhachu/snail.gif',
-    author: 'Bhachu R.',
-    githubLink: 'https://github.com/rbhachu'
+    artName: "Itried",
+    pageLink: "/Art/Itried/animation.html",
+    author: "Harsha",
+    githublink: "https://github.com/HarshaKumar23",
   },
-   {
-    artName: 'Mini Text Animation',
-    pageLink: './Art/text-mini-animation/index.html',
-    imageLink: './Art/text-mini-animation/text-anime.gif',
-    author: 'Chinel',
-    githubLink: 'https://github.com/chinel'
+  {
+    artName: "Snail Zoom",
+    pageLink: "./Art/rbhachu/index.html",
+    imageLink: "./Art/rbhachu/snail.gif",
+    author: "Bhachu R.",
+    githubLink: "https://github.com/rbhachu",
+  },
+  {
+    artName: "Mini Text Animation",
+    pageLink: "./Art/text-mini-animation/index.html",
+    imageLink: "./Art/text-mini-animation/text-anime.gif",
+    author: "Chinel",
+    githubLink: "https://github.com/chinel",
   },
   {
     artName: "Square loader",
     pageLink: "./Art/square_loading/index.html",
-    imageLink: './Art/square_loading/square_loading',
-    author: 'Marek Chasák',
-    githubLink: 'https://github.com/mchasak'
+    imageLink: "./Art/square_loading/square_loading",
+    author: "Marek Chasák",
+    githubLink: "https://github.com/mchasak",
   },
   {
-    artName: 'Stairs Text',
+    artName: "Stairs Text",
     pageLink: "./Art/StairsText/index.html",
     imageLink: "./Art/StairsText/stairs-text.gif",
     author: "Noam K.",
     githubLink: "https://github.com/noamkanonich",
   },
   {
-    artName: 'animation',
+    artName: "animation",
+    pageLink: "./Art/sameer786/animation.html",
+    imageLink: "./Art/sameer786/radius.gif",
+    author: "sameer",
+    githubLink: "https://github.com/sameer8605",
+  },
+  {
+    artName: "Spinning is a good trick",
+    pageLink: "./Art/garrod90/index.html",
+    imageLink: "./Art/garrod90/craigsGif.gif",
+    author: "Craig, G",
+    githubLink: "https://github.com/garrod90",
+  },
+  {
+    artName: "Snail Zoom",
+    pageLink: "./Art/rbhachu/index.html",
+    imageLink: "./Art/rbhachu/snail.gif",
+    author: "Bhachu R.",
+    githubLink: "https://github.com/rbhachu",
+  },
+  {
+    artName: "Mini Text Animation",
+    pageLink: "./Art/text-mini-animation/index.html",
+    imageLink: "./Art/text-mini-animation/text-anime.gif",
+    author: "Chinel",
+    githubLink: "https://github.com/chinel",
+  },
+  {
+    artName: "Square loader",
+    pageLink: "./Art/square_loading/index.html",
+    imageLink: "./Art/square_loading/square_loading",
+    author: "Marek Chasák",
+    githubLink: "https://github.com/mchasak",
+  },
+  {
+    artName: "Stairs Text",
+    pageLink: "./Art/StairsText/index.html",
+    imageLink: "./Art/StairsText/stairs-text.gif",
+    author: "Noam K.",
+    githubLink: "https://github.com/noamkanonich",
+  },
+  {
+    artName: "animation",
     pageLink: "./Art/sameer786/animation.html",
     imageLink: "./Art/sameer786/radius.gif",
     author: "sameer",
@@ -4099,7 +4140,7 @@ let cards = [
     pageLink: "./Art/ristotoldsep/index.html",
     author: "Risto Tõldsep",
     githubLink: "https://github.com/ristotoldsep",
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
