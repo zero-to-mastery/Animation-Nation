@@ -4058,7 +4058,7 @@ let cards = [
     pageLink: '/Art/Itried/animation.html',
     author: 'Harsha',
     githublink: 'https://github.com/HarshaKumar23'
-
+  },
   {
     artName: 'Snail Zoom',
     pageLink: './Art/rbhachu/index.html',
