@@ -4052,6 +4052,13 @@ let cards = [
     githubLink: 'https://github.com/LucianoWebDev'
   },
   {
+    artName: "Square loader",
+    pageLink: "./Art/square_loading/index.html",
+    imageLink: './Art/square_loading/square_loading',
+    author: 'Marek Chasák',
+    githubLink: 'https://github.com/mchasak'
+  },
+  {
     artName: 'Stairs Text',
     pageLink: "./Art/StairsText/index.html",
     imageLink: "./Art/StairsText/stairs-text.gif",
