@@ -4051,6 +4051,14 @@ let cards = [
     author: 'Luciano M.',
     githubLink: 'https://github.com/LucianoWebDev'
   },
+
+
+  {
+    artName: 'Itried',
+    pageLink: '/Art/Itried/animation.html',
+    author: 'Harsha',
+    githublink: 'https://github.com/HarshaKumar23'
+
   {
     artName: 'Snail Zoom',
     pageLink: './Art/rbhachu/index.html',
