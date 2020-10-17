@@ -4064,7 +4064,14 @@ let cards = [
     imageLink: "./Art/sameer786/radius.gif",
     author: "sameer",
     githubLink: "https://github.com/sameer8605",
-  }
+  },
+   {
+    pageLink: "./Art/radar animation/index.html",
+    imageLink: "./Art/radar",
+    author: "Anup",
+    githubLink: "https://github.com/paddybaba",
+  },
+]
 ];
 
 // +--------------------------------------------------------------------------------+
