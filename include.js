@@ -4093,6 +4093,12 @@ let cards = [
     imageLink: "./Art/sameer786/radius.gif",
     author: "sameer",
     githubLink: "https://github.com/sameer8605",
+  },
+  {
+    artName: "Friendly Ghost",
+    pageLink: "./Art/ristotoldsep/index.html",
+    author: "Risto Tõldsep",
+    githubLink: "https://github.com/ristotoldsep",
   }
 ];
 
