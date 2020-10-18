@@ -4093,6 +4093,13 @@ let cards = [
     imageLink: "./Art/sameer786/radius.gif",
     author: "sameer",
     githubLink: "https://github.com/sameer8605",
+  },
+  {
+    artName: 'Shining Text',
+    pageLink: "./Art/MaxieTextShineOn/index.html",
+    imageLink: "./Art/MaxieTextShineOn/maxie-text-shine-on.gif",
+    author: "maxie7",
+    githubLink: "https://github.com/maxie7",
   }
 ];
 
