@@ -4100,6 +4100,12 @@ let cards = [
     imageLink: "./Art/MaxieTextShineOn/maxie-text-shine-on.gif",
     author: "maxie7",
     githubLink: "https://github.com/maxie7",
+  },
+  {
+    artName: "Friendly Ghost",
+    pageLink: "./Art/ristotoldsep/index.html",
+    author: "Risto Tõldsep",
+    githubLink: "https://github.com/ristotoldsep",
   }
 ];
 
