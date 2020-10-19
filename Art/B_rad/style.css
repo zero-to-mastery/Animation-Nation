@@ -1,0 +1,57 @@
+.wrapper {
+	height: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #000000;
+}
+
+.text {
+	color: #ffffff;
+	background: #000000;
+
+	font-size: 200px;
+	font-weight: bold;
+	font-family: Arial;
+	text-transform: uppercase;
+}
+
+.text::before {
+	content: 'B-rad';
+	position: absolute;
+	mix-blend-mode: difference;
+	filter: blur(3px);
+}
+
+.neon {
+	display: inline-flex;
+	filter: brightness(200%);
+	overflow: hidden;
+}
+
+.gradient {
+	background:linear-gradient(112.26559516336806deg, rgba(244, 72, 105,1) 23.383246527777775%,rgba(159, 1, 234,1) 96.67968749999999%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	mix-blend-mode: multiply;
+}
+
+.dodge {
+	background: radial-gradient(circle,#ffffff,#000000 35%) center / 25% 25%;
+	position: absolute;
+	top: -100%;
+	left: -100%;
+	right: 0;
+	bottom: 0;
+	mix-blend-mode: color-dodge;
+	animation: dodge-area 3s linear infinite;
+}
+
+@keyframes dodge-area {
+	to{
+		transform: translate(50%, 50%);
+	}
+}
