@@ -4099,6 +4099,13 @@ let cards = [
     pageLink: "./Art/ristotoldsep/index.html",
     author: "Risto Tõldsep",
     githubLink: "https://github.com/ristotoldsep",
+  },
+  {
+    artName: "sritron",
+    pageLink: "./Art/sritron/index.html",
+    imageLink: "./Art/sritron/trance.gif",
+    author: "Srinivas",
+    githubLink: "https://github.com/sri189ms",
   }
 ];
 
@@ -4135,3 +4142,4 @@ function Shuffle(o) {
   );
   return o;
 }
+
