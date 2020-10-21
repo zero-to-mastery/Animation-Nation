@@ -4099,7 +4099,14 @@ let cards = [
     pageLink: "./Art/ristotoldsep/index.html",
     author: "Risto Tõldsep",
     githubLink: "https://github.com/ristotoldsep",
-  }
+  },
+  {
+    artName: 'Sun Rise Time',
+    pageLink: "./Art/gurprtAnim/index.html",
+    imageLink: "./Art/gurprtAnim/gurAnim.gif",
+    author: "Gurpreet",
+    githubLink: "https://github.com/gur-p-reet",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
