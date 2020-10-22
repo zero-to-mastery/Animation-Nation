@@ -4148,6 +4148,13 @@ let cards = [
     pageLink: './Art/ristotoldsep/index.html',
     author: 'Risto Tõldsep',
     githubLink: 'https://github.com/ristotoldsep'
+  },
+  {
+    artName: 'Shining Text',
+    pageLink: "./Art/MaxieTextShineOn/index.html",
+    imageLink: "./Art/MaxieTextShineOn/maxie-text-shine-on.gif",
+    author: "maxie7",
+    githubLink: "https://github.com/maxie7",
   }
 ];
 
