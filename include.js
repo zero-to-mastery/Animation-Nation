@@ -4151,10 +4151,10 @@ let cards = [
   },
   {
     artName: 'Shining Text',
-    pageLink: "./Art/MaxieTextShineOn/index.html",
-    imageLink: "./Art/MaxieTextShineOn/maxie-text-shine-on.gif",
-    author: "maxie7",
-    githubLink: "https://github.com/maxie7",
+    pageLink: './Art/MaxieTextShineOn/index.html',
+    imageLink: './Art/MaxieTextShineOn/maxie-text-shine-on.gif',
+    author: 'maxie7',
+    githubLink: 'https://github.com/maxie7'
   }
 ];
 
