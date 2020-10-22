@@ -4150,6 +4150,19 @@ let cards = [
     githubLink: 'https://github.com/ristotoldsep'
   },
   {
+    artName: 'Friendly Ghost',
+    pageLink: './Art/ristotoldsep/index.html',
+    author: 'Risto Tõldsep',
+    githubLink: 'https://github.com/ristotoldsep'
+  },
+  {
+    artName: 'sritron',
+    pageLink: './Art/sritron/index.html',
+    imageLink: './Art/sritron/trance.gif',
+    author: 'Srinivas',
+    githubLink: 'https://github.com/sri189ms'
+  },
+  {
     artName: 'Shining Text',
     pageLink: './Art/MaxieTextShineOn/index.html',
     imageLink: './Art/MaxieTextShineOn/maxie-text-shine-on.gif',
