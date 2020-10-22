@@ -13,10 +13,11 @@ let cards = [
     author: 'Aarush Bhat',
     githubLink: 'https://github.com/r-ush'
   },
-{
-    artName: "Image With Gray Scale Effect",
-    pageLink: "./Art/Image With Gray Scale Effect",
-    imageLink: './Art/Image With Gray Scale Effect/Image-With-Gray-Scale-Effect.gif',
+  {
+    artName: 'Image With Gray Scale Effect',
+    pageLink: './Art/Image With Gray Scale Effect',
+    imageLink:
+      './Art/Image With Gray Scale Effect/Image-With-Gray-Scale-Effect.gif',
     author: 'Vikrant Kumar',
     githubLink: 'https://github.com/VikrantKu333'
   },
