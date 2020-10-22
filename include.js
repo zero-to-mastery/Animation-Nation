@@ -4094,6 +4094,13 @@ let cards = [
     author: "sameer",
     githubLink: "https://github.com/sameer8605",
   },
+  { 
+    artName: "Personal Info",
+    pageLink: "./Art/Personal_info/triangle/index.html",
+    imageLink: "./Art/Personal_info/trance.gif",
+    author: "Naim Uddin",
+    githubLink: "https://github.com/Naim365",
+  },
   {
     artName: "Friendly Ghost",
     pageLink: "./Art/ristotoldsep/index.html",
