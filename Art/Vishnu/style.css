@@ -24,7 +24,7 @@
   animation-name: example2;
   display: inline-block;
   animation-iteration-count: 3;
-  font-family: "Hanalei", cursive;
+  font-family: 'Hanalei', cursive;
 }
 
 #c1 {
@@ -57,7 +57,7 @@ p {
   font-size: 500%;
   text-align: center;
   color: green;
-  font-family: "Faster One", cursive;
+  font-family: 'Faster One', cursive;
 }
 
 #s {

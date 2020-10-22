@@ -15,7 +15,7 @@
   animation-timing-function: linear;
 }
 #yin-yang:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 0;
@@ -27,7 +27,7 @@
   box-sizing: content-box;
 }
 #yin-yang:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;

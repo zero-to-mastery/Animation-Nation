@@ -40,7 +40,7 @@ body {
 }
 
 .heart:before {
-  content: "";
+  content: '';
   position: absolute;
   top: -100px;
   width: 200px;
@@ -51,7 +51,7 @@ body {
 }
 
 .heart:after {
-  content: "";
+  content: '';
   position: absolute;
   left: -100px;
   width: 100px;

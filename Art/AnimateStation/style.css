@@ -30,7 +30,7 @@ body {
 }
 
 body {
-  font: normal 1em/1.45em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 1em/1.45em 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #fff;
   background: radial-gradient(ellipse at bottom, #1c2837 0%, #050608 100%);
@@ -94,7 +94,7 @@ hr {
 
 code {
   color: #ae94c0;
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 0.9em;
 }
 
@@ -105,7 +105,7 @@ code {
   position: relative;
 }
 .solar-syst:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 2px;
   width: 2px;
@@ -626,7 +626,7 @@ code {
 .solar-syst div:not(.sun):before {
   left: 50%;
   border-radius: 100px;
-  content: "";
+  content: '';
   position: absolute;
 }
 .solar-syst div:not(.asteroids-belt):before {
@@ -702,7 +702,7 @@ code {
 }
 .earth:after {
   position: absolute;
-  content: "";
+  content: '';
   height: 18px;
   width: 18px;
   left: 50%;
@@ -764,7 +764,7 @@ code {
 }
 .saturn:after {
   position: absolute;
-  content: "";
+  content: '';
   height: 2.34%;
   width: 4.676%;
   left: 50%;

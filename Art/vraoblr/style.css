@@ -140,7 +140,7 @@ table {
 
 body {
   font-size: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   background-color: #08090a;
 }
@@ -248,7 +248,7 @@ body {
 #saturn .ring:after {
   border-radius: 50%;
   position: absolute;
-  content: "";
+  content: '';
   top: 50%;
   left: 50%;
   width: 2.2em;
@@ -866,129 +866,129 @@ body {
 /* --------------------------------------------------------------------------- text infos data */
 /* --------------------------------------------------------------------------- speed */
 .set-speed dl.infos dd span:after {
-  content: "Orbit Velocity";
+  content: 'Orbit Velocity';
 }
 
 .set-speed #sun dl.infos dd:after {
-  content: "0 km/h";
+  content: '0 km/h';
 }
 
 .set-speed #mercury dl.infos dd:after {
-  content: "170,503 km/h";
+  content: '170,503 km/h';
 }
 
 .set-speed #venus dl.infos dd:after {
-  content: "126,074 km/h";
+  content: '126,074 km/h';
 }
 
 .set-speed #earth dl.infos dd:after {
-  content: "107,218 km/h";
+  content: '107,218 km/h';
 }
 
 .set-speed #mars dl.infos dd:after {
-  content: "86,677 km/h";
+  content: '86,677 km/h';
 }
 
 .set-speed #jupiter dl.infos dd:after {
-  content: "47,002 km/h";
+  content: '47,002 km/h';
 }
 
 .set-speed #saturn dl.infos dd:after {
-  content: "34,701 km/h";
+  content: '34,701 km/h';
 }
 
 .set-speed #uranus dl.infos dd:after {
-  content: "24,477 km/h";
+  content: '24,477 km/h';
 }
 
 .set-speed #neptune dl.infos dd:after {
-  content: "19,566 km/h";
+  content: '19,566 km/h';
 }
 
 /* --------------------------------------------------------------------------- size */
 .set-size dl.infos dd span:after {
-  content: "Equatorial Circumference";
+  content: 'Equatorial Circumference';
 }
 
 .set-size #sun dl.infos dd:after {
-  content: "4,370,005 km";
+  content: '4,370,005 km';
 }
 
 .set-size #mercury dl.infos dd:after {
-  content: "15,329 km";
+  content: '15,329 km';
 }
 
 .set-size #venus dl.infos dd:after {
-  content: "38,024 km";
+  content: '38,024 km';
 }
 
 .set-size #earth dl.infos dd:after {
-  content: "40,030 km";
+  content: '40,030 km';
 }
 
 .set-size #mars dl.infos dd:after {
-  content: "21,296 km";
+  content: '21,296 km';
 }
 
 .set-size #jupiter dl.infos dd:after {
-  content: "439,263 km";
+  content: '439,263 km';
 }
 
 .set-size #saturn dl.infos dd:after {
-  content: "365,882 km";
+  content: '365,882 km';
 }
 
 .set-size #uranus dl.infos dd:after {
-  content: "159,354 km";
+  content: '159,354 km';
 }
 
 .set-size #neptune dl.infos dd:after {
-  content: "154,704 km";
+  content: '154,704 km';
 }
 
 /* --------------------------------------------------------------------------- distance */
 .set-distance dl.infos dd span:after {
-  content: "From Sun";
+  content: 'From Sun';
 }
 
 .set-distance #sun dl.infos dd span:after {
-  content: "From Earth";
+  content: 'From Earth';
 }
 
 .set-distance #sun dl.infos dd:after {
-  content: "149,598,262 km";
+  content: '149,598,262 km';
 }
 
 .set-distance #mercury dl.infos dd:after {
-  content: "57,909,227 km";
+  content: '57,909,227 km';
 }
 
 .set-distance #venus dl.infos dd:after {
-  content: "108,209,475 km";
+  content: '108,209,475 km';
 }
 
 .set-distance #earth dl.infos dd:after {
-  content: "149,598,262 km";
+  content: '149,598,262 km';
 }
 
 .set-distance #mars dl.infos dd:after {
-  content: "227,943,824 km";
+  content: '227,943,824 km';
 }
 
 .set-distance #jupiter dl.infos dd:after {
-  content: "778,340,821 km";
+  content: '778,340,821 km';
 }
 
 .set-distance #saturn dl.infos dd:after {
-  content: "1,426,666,422 km";
+  content: '1,426,666,422 km';
 }
 
 .set-distance #uranus dl.infos dd:after {
-  content: "2,870,658,186 km";
+  content: '2,870,658,186 km';
 }
 
 .set-distance #neptune dl.infos dd:after {
-  content: "4,498,396,441 km";
+  content: '4,498,396,441 km';
 }
 
 /* --------------------------------------------------------------------------- planets starting position and lighting effect */
@@ -1424,7 +1424,7 @@ dl.infos {
 
 dl.infos:before {
   position: absolute;
-  content: "";
+  content: '';
   width: 15px;
   height: 30px;
   left: 15px;
@@ -1642,8 +1642,8 @@ h1 span,
   appearance: none;
 }
 
-#controls input[type="radio"]:before {
-  content: "";
+#controls input[type='radio']:before {
+  content: '';
   display: block;
   position: absolute;
   width: 22px;
@@ -1652,8 +1652,8 @@ h1 span,
   border-radius: 16px;
 }
 
-#controls input:checked[type="radio"]:after {
-  content: "";
+#controls input:checked[type='radio']:after {
+  content: '';
   display: block;
   top: 3px;
   margin-left: 3px;
@@ -1665,8 +1665,8 @@ h1 span,
   z-index: 99;
 }
 
-#controls input[type="checkbox"]:before {
-  content: "";
+#controls input[type='checkbox']:before {
+  content: '';
   display: block;
   position: absolute;
   width: 100px;
@@ -1675,8 +1675,8 @@ h1 span,
   border-radius: 16px;
 }
 
-#controls input[type="checkbox"]:after {
-  content: "";
+#controls input[type='checkbox']:after {
+  content: '';
   display: block;
   top: 3px;
   position: absolute;
@@ -1692,12 +1692,12 @@ h1 span,
 }
 
 .view-3D #controls label.set-view:before {
-  content: "2D";
+  content: '2D';
   margin-left: 82px;
 }
 
 .view-2D #controls label.set-view:before {
-  content: "3D";
+  content: '3D';
   margin-left: 7px;
 }
 
@@ -1714,12 +1714,12 @@ h1 span,
 }
 
 .zoom-large #controls label.set-zoom:before {
-  content: "+";
+  content: '+';
   margin-left: 82px;
 }
 
 .zoom-close #controls label.set-zoom:before {
-  content: "-";
+  content: '-';
   margin-left: 7px;
 }
 

@@ -22,7 +22,7 @@ body {
 }
 
 .box-shape::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
@@ -42,7 +42,7 @@ body {
 }
 
 .box2-shape::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
@@ -56,7 +56,7 @@ body {
 p {
   display: inline-block;
   color: Pink;
-  font-family: "Courier";
+  font-family: 'Courier';
   font-size: 40px;
   font-style: italic;
   white-space: nowrap;

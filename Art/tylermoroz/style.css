@@ -28,7 +28,7 @@ body {
 }
 
 .text {
-  font-family: "VT323", monospace;
+  font-family: 'VT323', monospace;
   position: relative;
   padding-top: 130px;
   color: #fff;

@@ -483,14 +483,14 @@ animation02
   overflow: hidden;
 }
 .double_wrapper01::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   background: #212022;
   z-index: 2;
 }
 .double_wrapper01::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   background: #212022;
@@ -525,7 +525,7 @@ dotted circle
   overflow: visible;
 }
 .dotted_right::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   background: #212022;
@@ -769,7 +769,7 @@ orange circle
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 1.5vw;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   letter-spacing: 0.1em;
 }
 .name_circle01 {

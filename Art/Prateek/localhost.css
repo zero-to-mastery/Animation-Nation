@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Raleway Dots", bold;
+  font-family: 'Raleway Dots', bold;
 }
 
 .wrapper {
@@ -43,15 +43,15 @@ body {
 }
 
 .banner-text:after {
-  content: "";
+  content: '';
   animation: spin 5s linear infinite;
 }
 
 @keyframes spin {
   0% {
-    content: "There is No Place Like";
+    content: 'There is No Place Like';
   }
   100% {
-    content: "127.0.0.1";
+    content: '127.0.0.1';
   }
 }

@@ -68,7 +68,7 @@ body {
 }
 
 .spinner:before {
-  content: "\0020";
+  content: '\0020';
   position: absolute;
   width: 0.5em;
   height: 0.5em;
@@ -80,7 +80,7 @@ body {
 }
 
 .spinner:after {
-  content: "\0020";
+  content: '\0020';
   position: absolute;
   width: 0.25em;
   height: 0.25em;

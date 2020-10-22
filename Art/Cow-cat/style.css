@@ -24,7 +24,7 @@ body {
 }
 
 .balloon:before {
-  content: "^";
+  content: '^';
   font-size: 30px;
   font-weight: bold;
   color: coral;
@@ -42,7 +42,7 @@ body {
   height: 130px;
   width: 2px;
   left: 60px;
-  content: "";
+  content: '';
   background: rgba(0, 0, 0, 0.2);
 }
 

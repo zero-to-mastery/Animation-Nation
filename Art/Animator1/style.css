@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fredoka+One|Slackey");
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Slackey');
 /* GENERAL LAYOUT STYLE */
 
 body {
@@ -14,7 +14,7 @@ p,
 h3,
 a,
 ul {
-  font-family: "Fredoka One", sans-serif;
+  font-family: 'Fredoka One', sans-serif;
   text-decoration: none;
   color: #524b3f;
   margin-block-start: 0em;
@@ -34,7 +34,7 @@ ul {
 .header h1,
 h2 {
   margin: 10px;
-  font-family: "Slackey", cursive;
+  font-family: 'Slackey', cursive;
 }
 
 .header h1 {
@@ -44,7 +44,7 @@ h2 {
 h2 {
   font-size: 3.5vw;
   color: #444444;
-  font-family: "Fredoka One", cursive;
+  font-family: 'Fredoka One', cursive;
 }
 
 /* Flex Card Container */
@@ -134,7 +134,7 @@ h2 {
   justify-content: center;
   color: rgb(153, 153, 153);
   font-size: 1.1rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border-top: 1px solid rgba(255, 255, 255, 0.89);
 }
 

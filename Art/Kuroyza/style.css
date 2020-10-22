@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   text-align: center;
   background-color: rgb(240, 240, 240);
 }
@@ -79,7 +79,7 @@ body {
 
 .t-6 div {
   color: #2c2c54;
-  font-family: "Merienda", cursive;
+  font-family: 'Merienda', cursive;
   font-size: 40px;
 }
 

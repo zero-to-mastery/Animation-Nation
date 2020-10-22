@@ -29,7 +29,7 @@ body {
   right: 0;
   width: 180px;
   height: 128px;
-  background: url("body.png") no-repeat center center;
+  background: url('body.png') no-repeat center center;
   background-size: contain;
   z-index: 10;
 }

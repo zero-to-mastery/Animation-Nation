@@ -22,7 +22,7 @@ span {
 
 span:before,
 span:after {
-  content: "";
+  content: '';
   background: white;
   position: relative;
   top: 5%;

@@ -29,7 +29,7 @@
 }
 .heart:after {
   background-color: red;
-  content: "";
+  content: '';
   border-radius: 50%;
   position: absolute;
   width: 50px;
@@ -39,7 +39,7 @@
 }
 .heart:before {
   background-color: red;
-  content: "";
+  content: '';
   border-radius: 50%;
   position: absolute;
   width: 50px;

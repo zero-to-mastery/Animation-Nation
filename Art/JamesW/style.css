@@ -4,7 +4,7 @@
 
 h1 {
   display: flex;
-  font-family: "Source Code Pro", monospace;
+  font-family: 'Source Code Pro', monospace;
   align-items: center;
   justify-content: center;
   margin: 0;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .spinning::before {
-  content: "";
+  content: '';
   color: white;
   height: 50px;
   width: 50px;

@@ -11,7 +11,7 @@ body {
 }
 span {
   display: block;
-  background: url("fire.jpg");
+  background: url('fire.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;

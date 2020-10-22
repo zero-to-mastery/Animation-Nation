@@ -25,7 +25,7 @@ body {
   transform: scale(0.5);
 }
 .bus-container:after {
-  content: "";
+  content: '';
   width: 426px;
   height: 1px;
   margin-top: 88px;
@@ -162,7 +162,7 @@ body {
   bottom: -70px;
   right: -12px;
   z-index: 10;
-  content: " ";
+  content: ' ';
   border-radius: 10px;
   border: 2px solid black;
   border-left-style: none;
@@ -172,7 +172,7 @@ body {
   position: absolute;
   bottom: 23px;
   right: -340px;
-  content: " ";
+  content: ' ';
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -193,7 +193,7 @@ body {
   color: #fff;
   font-size: 50px;
   font-weight: 700;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   background: linear-gradient(to right, #e72a3a 10%, yellow 50%, #5bdaff 60%);
   background-size: auto auto;
   background-clip: border-box;

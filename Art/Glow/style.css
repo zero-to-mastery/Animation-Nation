@@ -24,7 +24,7 @@ ul li {
 }
 ul li:before,
 ul li:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;

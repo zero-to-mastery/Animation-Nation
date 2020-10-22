@@ -40,7 +40,7 @@ body {
 }
 
 .elements div:not(:last-child) {
-  content: "";
+  content: '';
   margin-right: 5px;
 }
 

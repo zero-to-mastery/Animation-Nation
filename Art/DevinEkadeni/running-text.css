@@ -8,7 +8,7 @@ body {
 }
 h2 {
   animation: ease-in-out infinite slideLeft 4s;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 40px;
   font-weight: bold;
   color: midnightblue;

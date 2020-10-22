@@ -41,7 +41,7 @@ body {
 
 #spooky #body:before,
 #spooky #body:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 130px;
   display: inline-block;
@@ -71,7 +71,7 @@ body {
 
 #spooky #body #eyes:before,
 #spooky #body #eyes:after {
-  content: "";
+  content: '';
   display: block;
   width: 30px;
   height: 30px;
@@ -89,7 +89,7 @@ body {
 }
 
 #spooky #body #mouth:before {
-  content: "";
+  content: '';
   display: block;
   margin-left: 20px;
   width: 10px;
@@ -107,7 +107,7 @@ body {
 #spooky #body #feet > *,
 #spooky #body #feet::before,
 #spooky #body #feet::after {
-  content: "";
+  content: '';
   width: 36px;
   height: 36px;
   background: #f2fbf1;
@@ -116,7 +116,7 @@ body {
 
 #shadow {
   margin: -90px auto 0;
-  background: "";
+  background: '';
   width: 180px;
   height: 40px;
   border-radius: 50%;

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Slabo+27px&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
 *,
 *:after,
 *:before {
@@ -10,7 +10,7 @@ body {
   color: #fff;
   padding: 0;
   margin: 0;
-  font-family: "Slabo 27px", serif;
+  font-family: 'Slabo 27px', serif;
   display: flex;
   height: 100vh;
   justify-content: center;

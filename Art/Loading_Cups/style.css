@@ -18,7 +18,7 @@ h1 {
 }
 
 .line {
-  content: "";
+  content: '';
   position: absolute;
   height: 2px;
   width: 100%;
@@ -103,7 +103,7 @@ h1 {
 }
 
 .loading:before {
-  content: "";
+  content: '';
   height: 300px;
   width: 300px;
   background: #fff;
@@ -125,7 +125,7 @@ h1 {
 }
 
 .loading:after {
-  content: "";
+  content: '';
   height: 300px;
   width: 300px;
   background: #fff;
@@ -158,7 +158,7 @@ h1 {
 }
 
 .box:before {
-  content: "";
+  content: '';
   height: 30px;
   width: 200px;
   background: linear-gradient(45deg, orange, #009ee5);
@@ -239,7 +239,7 @@ box-shadow: 13px 2px 8px -8px rgba(255, 255, 255, 0.2);
 
 .cup-liquid:before,
 .cup-liquid:after {
-  content: "";
+  content: '';
   width: 200%;
   height: 200%;
   position: absolute;

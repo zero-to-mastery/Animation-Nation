@@ -16,7 +16,7 @@ body {
 }
 h1 {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   animation: bounceIn 2s;
   background: linear-gradient(to right, rgb(255, 0, 0), rgb(226, 255, 0));
   -webkit-background-clip: text;
@@ -172,7 +172,7 @@ h1 {
   font-weight: 700;
   font-size: 3em;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   animation: flow 30s ease-in-out infinite;
   background: linear-gradient(
     -60deg,

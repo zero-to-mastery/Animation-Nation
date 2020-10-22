@@ -34,7 +34,7 @@ body {
 }
 
 .txt::before {
-  content: "Hacktoberfest ";
+  content: 'Hacktoberfest ';
   position: absolute;
   mix-blend-mode: difference;
   filter: blur(3px);
@@ -50,7 +50,7 @@ body {
 }
 
 .year::before {
-  content: " 2020";
+  content: ' 2020';
   position: absolute;
   mix-blend-mode: difference;
   filter: blur(3px);

@@ -3,7 +3,7 @@ body {
 }
 h1 {
   text-align: center;
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
 }
 #road {
   border-bottom: 7px dashed black;

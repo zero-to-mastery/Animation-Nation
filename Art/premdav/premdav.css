@@ -3,7 +3,7 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
-  font-family: "Covered By Your Grace", cursive;
+  font-family: 'Covered By Your Grace', cursive;
 }
 
 .fullScreen {
@@ -15,7 +15,7 @@ body {
       rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255, 0.3)
     ),
-    url("./spooky.jpg");
+    url('./spooky.jpg');
   background-size: cover;
 }
 

@@ -62,7 +62,7 @@ p:nth-child(3) a:hover {
 
 p:nth-child(4) a {
   color: #b6ff00;
-  font-family: "Press Start 2P";
+  font-family: 'Press Start 2P';
   font-size: 0.8em;
 }
 

@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 3rem;
   color: #555573;
 }
@@ -85,7 +85,7 @@ h1 {
 }
 
 .drip:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   height: 0;

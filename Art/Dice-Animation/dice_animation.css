@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
 
 body {
   background: rgb(4, 1, 24);
@@ -8,7 +8,7 @@ body {
 h2 {
   margin: auto;
   padding: 10px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 9vh;
   font-weight: 200;
   color: #fff;

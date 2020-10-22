@@ -3,7 +3,7 @@
   top: 75px;
 }
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 #text-container .text-box {
   position: absolute;
@@ -18,7 +18,7 @@ p {
   animation-play-state: paused;
   color: #f2efe4;
   line-height: 300px;
-  font-family: "Bevan", cursive;
+  font-family: 'Bevan', cursive;
   text-align: center;
 }
 #text-container h1:hover {

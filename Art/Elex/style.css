@@ -40,7 +40,7 @@ body {
 
 #spook .body:before,
 #spook .body:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 75px;
   display: inline-block;
@@ -70,7 +70,7 @@ body {
 
 #spook .body .eyes:before,
 #spook .body .eyes:after {
-  content: " ";
+  content: ' ';
   display: block;
   width: 30px;
   height: 30px;
@@ -88,7 +88,7 @@ body {
 }
 
 #spook .body .mouth:before {
-  content: " ";
+  content: ' ';
   display: block;
   background: #000000;
   margin-left: 20px;
@@ -107,7 +107,7 @@ body {
 #spook .body .plasma > *,
 #spook .body .plasma::before,
 #spook .body .plasma::after {
-  content: "  ";
+  content: '  ';
   width: 20px;
   height: 25px;
   background: #000000;
@@ -153,7 +153,7 @@ body {
 }
 
 #pumpkin-mouth .mouth .tooth:before {
-  content: " ";
+  content: ' ';
   display: block;
   background: #f7611b;
   margin-left: 20px;

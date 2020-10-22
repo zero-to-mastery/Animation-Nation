@@ -89,7 +89,7 @@ body {
 }
 
 .image {
-  background-image: url("https://avatars1.githubusercontent.com/u/22328890?v=4");
+  background-image: url('https://avatars1.githubusercontent.com/u/22328890?v=4');
   background-size: contain;
   background-repeat: no-repeat;
   height: 75px;

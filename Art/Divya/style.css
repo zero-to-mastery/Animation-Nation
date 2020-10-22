@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
 
 body {
   margin: 0;
@@ -8,7 +8,7 @@ body {
   align-items: center;
   height: 100vh;
   background: #000;
-  font-family: "Liu Jian Mao Cao", cursive;
+  font-family: 'Liu Jian Mao Cao', cursive;
   font-style: italic;
 }
 

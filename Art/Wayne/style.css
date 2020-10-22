@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  font: 5vw/100vh "Finger Paint";
+  font: 5vw/100vh 'Finger Paint';
   background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
   background-size: cover;
   overflow: hidden;
@@ -199,7 +199,7 @@ span:nth-of-type(20) {
 }
 .orb::before,
 .orb::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 160%;
   height: 160%;

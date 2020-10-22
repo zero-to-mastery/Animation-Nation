@@ -53,7 +53,7 @@ body {
   transform-origin: 50% 66.666%;
 }
 .triangle::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   bottom: 0;

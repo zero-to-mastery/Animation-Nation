@@ -30,7 +30,7 @@ body {
   text-transform: uppercase;
 }
 .txt::before {
-  content: "Hacktoberfest ";
+  content: 'Hacktoberfest ';
   position: absolute;
   mix-blend-mode: difference;
   filter: blur(3px);
@@ -44,7 +44,7 @@ body {
   text-transform: uppercase;
 }
 .year::before {
-  content: " 2020";
+  content: ' 2020';
   position: absolute;
 
   mix-blend-mode: difference;

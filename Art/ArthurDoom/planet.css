@@ -15,7 +15,7 @@ html {
 
 body {
   background-color: #1c1c22; /*dark blueishblack*/
-  background-image: url("./t30@2.jpg"); /*star bg  https://www.toptal.com/designers/subtlepatterns/stardust/*/
+  background-image: url('./t30@2.jpg'); /*star bg  https://www.toptal.com/designers/subtlepatterns/stardust/*/
 }
 
 /*elements*/

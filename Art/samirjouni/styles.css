@@ -112,7 +112,7 @@ body {
 .glitch:after {
   text-shadow: 0 0 0.5px #33ff00, 0 0 1px #33ff00, 0 0 2px #33ff00,
     0 0 4px #33ff00, 0 0 6px #33ff00, 0 0 8px #33ff00;
-  content: "Follow the white rabbit.";
+  content: 'Follow the white rabbit.';
   position: absolute;
   left: 2px;
   top: 0;
@@ -126,7 +126,7 @@ body {
 .glitch:before {
   text-shadow: 0 0 0.5px #33ff00, 0 0 1px #33ff00, 0 0 2px #33ff00,
     0 0 4px #33ff00, 0 0 6px #33ff00, 0 0 8px #33ff00;
-  content: "Follow the white rabbit.";
+  content: 'Follow the white rabbit.';
   position: absolute;
   left: -2px;
   top: 0;

@@ -6,7 +6,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "montserrat", sans-serif;
+  font-family: 'montserrat', sans-serif;
 }
 
 .loading {
@@ -21,7 +21,7 @@ body {
 
 .loading::before,
 .loading::after {
-  content: "";
+  content: '';
   width: 200px;
   height: 200px;
   position: absolute;

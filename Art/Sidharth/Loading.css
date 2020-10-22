@@ -13,7 +13,7 @@ body {
 
 svg {
   display: block;
-  font: 10.5em "Montserrat";
+  font: 10.5em 'Montserrat';
   width: 960px;
   height: 300px;
   margin: 0 auto;

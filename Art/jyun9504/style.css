@@ -64,7 +64,7 @@ td {
   font-weight: inherit;
   font-style: inherit;
   font-size: 62.5%;
-  font-family: "MuseoModerno", cursive;
+  font-family: 'MuseoModerno', cursive;
   vertical-align: baseline;
 }
 /* remember to define focus styles! */
@@ -95,11 +95,11 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
 }
 blockquote,
 q {
-  quotes: "" "";
+  quotes: '' '';
 }
 
 /* main */
@@ -204,7 +204,7 @@ q {
 }
 
 .airplane::after {
-  content: " ";
+  content: ' ';
   width: 100px;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -238,7 +238,7 @@ q {
   top: 20%;
 }
 .ufo::after {
-  content: " ";
+  content: ' ';
   width: 10px;
   height: 5px;
   border-radius: 50%;
@@ -294,7 +294,7 @@ q {
 }
 
 .tree::after {
-  content: " ";
+  content: ' ';
   width: 30px;
   height: 30px;
   clip-path: polygon(
@@ -343,7 +343,7 @@ q {
   top: 65%;
 }
 .building__f-bridge::before {
-  content: " ";
+  content: ' ';
   width: 100%;
   height: 5px;
   background-image: linear-gradient(to right, #2e0f31, #613a38, #613a38);
@@ -351,7 +351,7 @@ q {
   top: -10px;
 }
 .building__f-bridge::after {
-  content: " ";
+  content: ' ';
   width: 20%;
   height: 20px;
   background-color: #613a38;
@@ -397,7 +397,7 @@ q {
   animation: flyInCity 5s ease-out infinite both;
 }
 .fly-car::after {
-  content: " ";
+  content: ' ';
   width: 20px;
   height: 300px;
   background-color: rgba(248, 171, 54, 0.3);

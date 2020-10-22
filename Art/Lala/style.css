@@ -2,7 +2,7 @@ body {
   background: #3a6186;
   background: -webkit-linear-gradient(to right, #89253e, #3a6186);
   background: linear-gradient(to right, #89253e, #3a6186);
-  font-family: "Staatliches", cursive;
+  font-family: 'Staatliches', cursive;
   font-size: 18px;
   letter-spacing: 2.5px;
 }

@@ -1,6 +1,6 @@
 @font-face {
   font-family: Clip;
-  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+  src: url('https://acupoftee.github.io/fonts/Clip.ttf');
 }
 
 body {
@@ -29,7 +29,7 @@ body {
   letter-spacing: 2;
   left: 50%;
   top: 50%;
-  font-family: "Clip";
+  font-family: 'Clip';
   text-transform: uppercase;
   font-size: 6em;
   color: #ffe6ff;

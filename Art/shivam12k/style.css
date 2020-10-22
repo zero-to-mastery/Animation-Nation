@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .wrapper {
   position: relative;
@@ -31,7 +31,7 @@ body {
 }
 .hero-body h1 {
   font-size: 13rem;
-  font-family: "Satisfy", cursive;
+  font-family: 'Satisfy', cursive;
   margin-left: 40px;
   text-shadow: 2px 2px 4px #000000;
 }

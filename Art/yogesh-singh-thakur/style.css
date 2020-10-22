@@ -85,8 +85,8 @@ h1 {
       rgba(47, 118, 249, 0.7),
       rgba(95, 199, 201, 0.6)
     ),
-    url("https://img4.goodfon.com/wallpaper/nbig/a/5e/3d-rendering-background-design-colorful-abstract-geometry--3.jpg");
-  font-family: "Patrick Hand", cursive;
+    url('https://img4.goodfon.com/wallpaper/nbig/a/5e/3d-rendering-background-design-colorful-abstract-geometry--3.jpg');
+  font-family: 'Patrick Hand', cursive;
   background-position: center;
   background-size: cover;
   border-radius: 30px;

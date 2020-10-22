@@ -78,7 +78,7 @@ body {
 }
 
 .face::before {
-  content: "";
+  content: '';
   position: absolute;
   background: rgb(241, 135, 99, 0.3);
   background: linear-gradient(
@@ -112,7 +112,7 @@ body {
 }
 
 .eyes::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 100%;
   width: 100%;
@@ -139,7 +139,7 @@ body {
 }
 
 .eyebrows::before {
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   position: absolute;
@@ -151,7 +151,7 @@ body {
 }
 
 .eyebrows::after {
-  content: "";
+  content: '';
   width: 90%;
   height: 100%;
   position: absolute;
@@ -174,7 +174,7 @@ body {
 
 .left-ear::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 85%;
   height: 40%;
   border-radius: 5% 91% 10% 88% / 10% 82% 10% 94%;
@@ -207,7 +207,7 @@ body {
 
 .right-ear::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 85%;
   height: 40%;
   border-radius: 86% 4% 92% 8% / 47% 7% 93% 0%;
@@ -241,7 +241,7 @@ body {
 }
 
 .hair-right {
-  content: "";
+  content: '';
   position: absolute;
   width: 25%;
   height: 79%;
@@ -447,7 +447,7 @@ body {
 }
 
 .legs::before {
-  content: "";
+  content: '';
   position: absolute;
   /* 	top: 89%; */
   left: -120%;
@@ -475,7 +475,7 @@ body {
 }
 
 .boots::before {
-  content: "";
+  content: '';
   position: absolute;
   left: -110%;
   width: 100%;
@@ -508,7 +508,7 @@ body {
 }
 
 .toe::before {
-  content: "";
+  content: '';
   position: absolute;
   left: -100%;
   width: 100%;

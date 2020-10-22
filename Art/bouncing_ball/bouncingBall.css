@@ -22,7 +22,7 @@ h1 {
 }
 .cool-title {
   text-align: center;
-  font-family: "Oswald", Helvetica, Sans-serif;
+  font-family: 'Oswald', Helvetica, Sans-serif;
   font-size: 100px;
   transform: skewY(-10deg);
   letter-spacing: 4px;

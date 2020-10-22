@@ -14,7 +14,7 @@ body {
 }
 
 .moon {
-  background: url("http://i.imgur.com/wFXd68N.png");
+  background: url('http://i.imgur.com/wFXd68N.png');
   position: absolute;
   left: 0;
   height: 300%;
@@ -24,7 +24,7 @@ body {
 }
 
 .clouds_one {
-  background: url("http://www.scri8e.com/stars/PNG_Clouds/zc06.png?filename=./zc06.png&w0=800&h0s=289&imgType=3&h1=50&w1=140");
+  background: url('http://www.scri8e.com/stars/PNG_Clouds/zc06.png?filename=./zc06.png&w0=800&h0s=289&imgType=3&h1=50&w1=140');
   position: absolute;
   left: 0;
   top: 0;
@@ -35,7 +35,7 @@ body {
 }
 
 .clouds_two {
-  background: url("http://freepngimages.com/wp-content/uploads/2016/02/clouds-transparent-background-2.png");
+  background: url('http://freepngimages.com/wp-content/uploads/2016/02/clouds-transparent-background-2.png');
   position: absolute;
   left: 0;
   top: 0;
@@ -46,7 +46,7 @@ body {
 }
 
 .clouds_three {
-  background: url("http://montanaflynn.me/lab/css-clouds/images/cloud_three.png");
+  background: url('http://montanaflynn.me/lab/css-clouds/images/cloud_three.png');
   position: absolute;
   left: 0;
   top: 0;

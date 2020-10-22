@@ -21,7 +21,7 @@ body {
   font-size: 0;
   width: 138px;
 }
-[class*="piece-"] {
+[class*='piece-'] {
   position: absolute;
   top: -5px;
   width: 10px;

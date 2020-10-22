@@ -43,7 +43,7 @@
 }
 
 #alpha > div:after {
-  content: "";
+  content: '';
   position: absolute;
   z-index: 10;
   top: 0;

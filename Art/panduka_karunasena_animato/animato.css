@@ -17,15 +17,15 @@
   width: 150px;
   height: 150px;
   border-radius: 10%;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   margin: 10px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   grid-template-areas:
-    "b1 b2"
-    "b3 b4";
+    'b1 b2'
+    'b3 b4';
   background-color: #ffce00;
 
   /*border: black solid 5px;*/

@@ -8,7 +8,7 @@
 }
 
 .outer::before {
-  content: "";
+  content: '';
   width: 0;
   height: 0;
   border: 20px solid orange;
@@ -22,7 +22,7 @@
 }
 
 .outer::after {
-  content: "";
+  content: '';
   width: 0;
   height: 0;
   border: 15px solid white;

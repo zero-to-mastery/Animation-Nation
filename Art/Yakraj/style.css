@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 body:before {
-  content: "";
+  content: '';
   height: 100%;
   position: absolute;
   animation: backgroundImage 2s 18s normal both;
@@ -19,7 +19,7 @@ body:before {
   to {
     height: 100vh;
     width: 100%;
-    background-image: url("background.jpg");
+    background-image: url('background.jpg');
     background-size: cover;
   }
 }
@@ -51,7 +51,7 @@ body .filter {
   }
 }
 body .filter:before {
-  content: "";
+  content: '';
   height: 20vh;
   width: 60vw;
   background: grey;
@@ -67,20 +67,20 @@ body .blur .hey {
   color: #5dfa00;
 }
 body .blur .greet {
-  font-family: "Brush Script MT", cursive;
+  font-family: 'Brush Script MT', cursive;
   font-size: 35px;
   font-weight: bold;
   color: #ff6c00;
 }
 body .visit {
-  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times,
-    "Times New Roman", serif;
+  font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times,
+    'Times New Roman', serif;
   font-size: 30px;
   font-weight: bold;
 }
 body .second a {
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond,
-    "Times New Roman", serif;
+  font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond,
+    'Times New Roman', serif;
   font-weight: bold;
   color: #0ae0bc;
   font-size: 28px;
@@ -88,7 +88,7 @@ body .second a {
   text-transform: uppercase;
 }
 body .suggest {
-  font-family: "Brush Script MT", cursive;
+  font-family: 'Brush Script MT', cursive;
   font-size: 35px;
   font-weight: bold;
 }
@@ -304,7 +304,7 @@ body .first .castleRoof {
   }
 }
 body .first .castleRoof:before {
-  content: "";
+  content: '';
   position: absolute;
   height: 0vh;
   width: 0vw;
@@ -328,7 +328,7 @@ body .first .castleRoof:before {
   }
 }
 body .first .castleRoof:after {
-  content: "";
+  content: '';
   height: 1vh;
   width: 5vw;
   margin-top: -5vh;
@@ -417,7 +417,7 @@ body #front .second .firstcolumn {
   margin: 1.5vh 0vh;
 }
 .winH1:before {
-  content: "";
+  content: '';
   position: absolute;
   margin-top: -1.5vh;
   margin-left: 0.65vw;
@@ -482,7 +482,7 @@ body #front .second .firstcolumn {
   margin: 2vh 0vh;
 }
 .middlewindow .winH1:before {
-  content: "";
+  content: '';
   position: absolute;
   margin-top: -1.95vh;
   margin-left: 0.65vw;
@@ -695,7 +695,7 @@ body #front .second .baseRoof {
   }
 }
 body #front .second .baseRoof:before {
-  content: "";
+  content: '';
   height: 0vh;
   width: 0vh;
   margin-top: -8.6vw;
@@ -719,7 +719,7 @@ body #front .second .baseRoof:before {
   }
 }
 body #front .second .baseRoof:after {
-  content: "";
+  content: '';
   height: 10px;
   margin-top: -4vh;
   width: 4vw;
@@ -997,7 +997,7 @@ body #middle #longrightHouse .saperator {
   }
 }
 body #middle #longrightHouse .saperator:before {
-  content: "";
+  content: '';
   height: 10vh;
   width: 20vw;
   background: #013990;
@@ -1091,7 +1091,7 @@ body #middle .middleMain .wall {
   background: #4385a5;
 }
 .middleMain .wall .littlewin .wh1:before {
-  content: "";
+  content: '';
   position: absolute;
   margin-top: -2.5vh;
   margin-left: 1.5vh;
@@ -1169,7 +1169,7 @@ body #middle .middleMain .roof {
   }
 }
 body #middle .middleMain .roof:before {
-  content: "";
+  content: '';
   height: 0vh;
   width: 0vw;
   margin-top: -15vh;
@@ -1193,7 +1193,7 @@ body #middle .middleMain .roof:before {
   }
 }
 body #middle .middleMain .roof:after {
-  content: "";
+  content: '';
   height: 10px;
   margin-top: -5vh;
   width: 4vw;
@@ -1446,7 +1446,7 @@ body #Last .first .baseRoof {
   }
 }
 body #Last .first .baseRoof:before {
-  content: "";
+  content: '';
   height: 10vh;
   width: 1.5vh;
   margin-left: -0.15vw;
@@ -1463,7 +1463,7 @@ body #Last .first .baseRoof:before {
   }
 }
 body #Last .first .baseRoof:after {
-  content: "";
+  content: '';
   height: 10px;
   margin-top: 4vh;
   width: 4vw;

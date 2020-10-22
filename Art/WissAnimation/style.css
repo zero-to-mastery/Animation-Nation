@@ -69,7 +69,7 @@ body #sidewalk {
   }
 }
 body #sidewalk:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 10%;
@@ -201,7 +201,7 @@ body .wrap .roll .body {
 }
 body .wrap .roll .body:before,
 body .wrap .roll .body:after {
-  content: "";
+  content: '';
   height: 4rem;
   width: 7rem;
   border-radius: 350rem / 200rem;
@@ -434,7 +434,7 @@ body .wrap .roll .leg .segment {
   animation: run 0.25s linear infinite alternate;
 }
 body .wrap .roll .leg .segment:last-of-type:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 250%;
   height: 100%;
@@ -831,7 +831,7 @@ body .wrap .roll .paper {
 }
 body .wrap .roll .paper:before,
 body .wrap .roll .paper:after {
-  content: "____________________________________";
+  content: '____________________________________';
   color: transparent;
   text-decoration: underline;
   -webkit-text-decoration-style: wavy;
@@ -885,7 +885,7 @@ body .wrap .roll .face .eye {
   top: 0;
 }
 body .wrap .roll .face .eye:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;

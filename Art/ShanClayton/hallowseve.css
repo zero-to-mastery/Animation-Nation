@@ -4,7 +4,7 @@ html {
 }
 
 .text {
-  font-family: "Nosifer", cursive;
+  font-family: 'Nosifer', cursive;
   font-size: 80px;
   text-align: center;
   color: #ff9a00;
@@ -32,7 +32,7 @@ html {
 
 .pumpkin:before,
 .pumpkin:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   width: 100%;

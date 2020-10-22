@@ -7,7 +7,7 @@ p {
   font-size: 40px;
   top: 35%;
   position: fixed;
-  font-family: "Mansalva";
+  font-family: 'Mansalva';
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }

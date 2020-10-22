@@ -35,7 +35,7 @@ body {
   opacity: 0.99;
 }
 .log:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 50%;
@@ -166,7 +166,7 @@ body {
   background: #781e20;
 }
 .stick:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   bottom: 100%;
@@ -179,7 +179,7 @@ body {
   transform: translateY(50%) rotate(32deg);
 }
 .stick:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;

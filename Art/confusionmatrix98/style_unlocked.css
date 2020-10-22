@@ -27,7 +27,7 @@ body {
 
 /* Lock shackle part */
 #lock:before {
-  content: "";
+  content: '';
   box-sizing: border-box;
   position: absolute;
   border: 2.5em solid red;
@@ -45,7 +45,7 @@ body {
 
 /* Lock keyhole part */
 #lock:after {
-  content: "";
+  content: '';
   box-sizing: border-box;
   position: absolute;
   border: 1em solid red;

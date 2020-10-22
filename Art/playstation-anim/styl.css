@@ -1,5 +1,5 @@
 body {
-  background-image: url("bck.jpg");
+  background-image: url('bck.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,7 +16,7 @@ body {
   color: yellow;
   border-radius: 25px;
   text-align: center;
-  font-family: "Sigmar One", cursive;
+  font-family: 'Sigmar One', cursive;
   font-stretch: all;
   margin-left: 20%;
   margin-right: 20%;
@@ -70,7 +70,7 @@ h2 {
   margin-right: 0%;
   padding: 5px;
   border-radius: 50px;
-  font-family: "Barlow", sans-serif;
+  font-family: 'Barlow', sans-serif;
   animation-name: scl;
   animation-duration: 2s;
   animation-delay: 4s;

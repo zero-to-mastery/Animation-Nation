@@ -5,7 +5,7 @@ body {
   border-bottom: 11px dashed white;
 }
 #runner {
-  background: url("https://www.spriteland.com/sprites/downloads/hobbit-style-sprite-sheet-walk-left.png");
+  background: url('https://www.spriteland.com/sprites/downloads/hobbit-style-sprite-sheet-walk-left.png');
   width: 180px;
   height: 248px;
   animation: walk 1s steps(4) infinite, forward 11s linear infinite;

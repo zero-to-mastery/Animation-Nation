@@ -269,7 +269,7 @@ body {
   top: -30px;
   left: -80px;
   display: block;
-  content: "";
+  content: '';
   transform: rotate(-35deg);
 
   border-radius: 15px;
@@ -286,7 +286,7 @@ body {
   border-bottom: 50px solid yellow;
   border-left: 80px solid transparent;
   transform: rotate(-70deg);
-  content: "";
+  content: '';
 
   border-radius: 25px;
 }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:300');
 *,
 *::before,
 *::after {
@@ -6,7 +6,7 @@
 }
 
 h1 {
-  font-family: "Arima Madurai", cursive;
+  font-family: 'Arima Madurai', cursive;
   color: black;
   font-size: 4rem;
   letter-spacing: -3px;
@@ -28,7 +28,7 @@ h1 {
       rgba(255, 168, 76, 0.6) 0%,
       rgba(255, 123, 13, 0.6) 100%
     ),
-    url("https://images.unsplash.com/photo-1446824505046-e43605ffb17f");
+    url('https://images.unsplash.com/photo-1446824505046-e43605ffb17f');
   background-blend-mode: soft-light;
   background-size: cover;
   background-position: center center;

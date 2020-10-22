@@ -17,7 +17,7 @@ body {
 }
 .clearfix:after,
 .clearfix:before {
-  content: "";
+  content: '';
   display: table;
 }
 .clearfix:after {
@@ -31,7 +31,7 @@ body {
 .halloween .body:before,
 .halloween .body:after,
 .halloween .legs:before {
-  content: "";
+  content: '';
   position: absolute;
 }
 .halloween {

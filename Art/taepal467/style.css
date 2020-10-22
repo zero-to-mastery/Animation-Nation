@@ -5,13 +5,13 @@ body {
 #header1 {
   text-align: center;
   text-shadow: 4px 2px 1px orange;
-  font-family: "Indie Flower", cursive;
+  font-family: 'Indie Flower', cursive;
   font-size: 350%;
 }
 
 #header2 {
   text-align: center;
-  font-family: "Amatic SC", cursive;
+  font-family: 'Amatic SC', cursive;
   font-size: 325%;
 }
 

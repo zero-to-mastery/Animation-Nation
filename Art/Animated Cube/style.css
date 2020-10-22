@@ -53,7 +53,7 @@ body {
   text-align: center;
   line-height: 200px;
   color: rgba(255, 255, 255, 1);
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   text-transform: uppercase;
   transition: all 1s linear;
 }

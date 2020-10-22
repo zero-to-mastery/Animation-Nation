@@ -11,7 +11,7 @@ html,
 body {
   margin: 0 auto;
   padding: 0 auto;
-  font-family: "Times New Roman", arial, Verdana;
+  font-family: 'Times New Roman', arial, Verdana;
   color: #817a53;
   background: #d8d6cb;
 }
@@ -1102,7 +1102,7 @@ div {
 
 #about p,
 #author p {
-  font-family: "arial", helvetica;
+  font-family: 'arial', helvetica;
   font-size: 12px;
 }
 

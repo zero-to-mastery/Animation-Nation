@@ -55,7 +55,7 @@
 }
 
 .loader-circle:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 5px;
   left: 5px;
@@ -69,7 +69,7 @@
 }
 
 .loader-circle:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 15px;
   left: 15px;

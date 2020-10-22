@@ -83,7 +83,7 @@ body {
 }
 
 .iris:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 37.5%;
@@ -94,7 +94,7 @@ body {
   background: #000;
 }
 .iris:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 31.25%;

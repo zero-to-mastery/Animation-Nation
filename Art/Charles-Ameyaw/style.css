@@ -29,7 +29,7 @@ body {
 }
 
 .tail::before {
-  content: "";
+  content: '';
   position: absolute;
   background: white;
   width: 5vmin;
@@ -101,7 +101,7 @@ body {
 }
 
 .leg.left::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 18vmin;
   left: 8vmin;
@@ -111,7 +111,7 @@ body {
 }
 
 .leg.right::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 18vmin;
   right: 8vmin;
@@ -145,7 +145,7 @@ body {
 
 /* Patch */
 .head::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 16vmin;
   height: 20vmin;
@@ -166,7 +166,7 @@ body {
 }
 
 .snout::before {
-  content: "";
+  content: '';
   left: 8vmin;
   top: 5vmin;
   position: absolute;
@@ -177,7 +177,7 @@ body {
 }
 
 .snout::after {
-  content: "";
+  content: '';
   right: 8vmin;
   top: 5vmin;
   position: absolute;
@@ -211,7 +211,7 @@ body {
 .eye::before {
   width: 2vmin;
   height: 2vmin;
-  content: "";
+  content: '';
   position: absolute;
   background: var(--black);
   left: 50%;

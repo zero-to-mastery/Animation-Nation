@@ -10,7 +10,7 @@ body {
 h1 {
   color: darkmagenta;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .animals {
   display: flex;
@@ -277,7 +277,7 @@ h1 {
   border-radius: 15px 15px 50px 50px;
 }
 .bear-mouth::before {
-  content: "";
+  content: '';
   display: block;
   width: 18px;
   height: 10px;

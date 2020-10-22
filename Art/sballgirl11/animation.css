@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "Anton";
+  font-family: 'Anton';
   font-weight: 400;
   font-style: normal;
-  src: url("./Anton.ttf") format("truetype");
+  src: url('./Anton.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -97,7 +97,7 @@
 body {
   margin: 0;
   overflow: hidden;
-  font-family: "Anton", sans-serif;
+  font-family: 'Anton', sans-serif;
   font-size: 5rem;
   text-align: center;
   min-height: 100vh;
@@ -106,7 +106,7 @@ body {
 }
 
 .span {
-  font: 700 7rem/1 "Anton", sans-serif;
+  font: 700 7rem/1 'Anton', sans-serif;
   letter-spacing: 5px;
   padding: 0.25em 0 0.325em;
   margin: 0 auto;

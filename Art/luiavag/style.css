@@ -3,7 +3,7 @@ body {
   height: 100%;
   margin: auto;
   color: white;
-  font-family: "Lucida Grande", Verdana, Arial;
+  font-family: 'Lucida Grande', Verdana, Arial;
   font-size: 12px;
   background-color: black;
   background-image: -webkit-gradient(
@@ -244,7 +244,7 @@ body {
 .sprite1 {
   width: 100px;
   height: 137.11px;
-  background-image: url("rpg-maker-mv-rpg.png");
+  background-image: url('rpg-maker-mv-rpg.png');
   -webkit-animation: play1X 1.2s steps(9) infinite,
     play1Y 7.2s steps(6) infinite;
   -moz-animation: play1X 1.2s steps(9) infinite, play1Y 7.2s steps(6) infinite;
@@ -256,7 +256,7 @@ body {
 .sprite2 {
   width: 92.8px;
   height: 100px;
-  background-image: url("i7oRv.png");
+  background-image: url('i7oRv.png');
   -webkit-animation: play2X 1.5s steps(10) infinite, play2Y 3s steps(2) infinite;
   -moz-animation: play2X 1.5s steps(10) infinite, play2Y 3s steps(2) infinite;
   -ms-animation: play2X 1.5s steps(10) infinite, play2Y 3s steps(2) infinite;
@@ -267,7 +267,7 @@ body {
 .sprite3 {
   width: 100px;
   height: 100px;
-  background-image: url("professor_walk_cycle_no_hat.png");
+  background-image: url('professor_walk_cycle_no_hat.png');
   -webkit-animation: play3X 1.5s steps(9) infinite, play3Y 6s steps(4) infinite;
   -moz-animation: play3X 1.5s steps(9) infinite, play3Y 6s steps(4) infinite;
   -ms-animation: play3X 1.5s steps(9) infinite, play3Y 6s steps(4) infinite;
@@ -278,7 +278,7 @@ body {
 .sprite4 {
   width: 110.166px;
   height: 148.6px;
-  background-image: url("walking-girl.png");
+  background-image: url('walking-girl.png');
   -webkit-animation: play4X 1.5s steps(6) infinite,
     play4Y 7.5s steps(5) infinite;
   -moz-animation: play4X 1.5s steps(6) infinite, play4Y 7.5s steps(5) infinite;
@@ -290,7 +290,7 @@ body {
 .sprite5 {
   width: 121.14px;
   height: 100px;
-  background-image: url("PC_HMM_hydra.png");
+  background-image: url('PC_HMM_hydra.png');
   -webkit-animation: play5 1.5s steps(7) infinite;
   -moz-animation: play5 1.5s steps(7) infinite;
   -ms-animation: play5 1.5s steps(7) infinite;
@@ -301,7 +301,7 @@ body {
 .sprite6 {
   width: 123.125px;
   height: 100px;
-  background-image: url("PC_HMM_catapult.png");
+  background-image: url('PC_HMM_catapult.png');
   -webkit-animation: pplay6X 1.5s steps(8) infinite, play6Y 3s steps(2) infinite;
   -moz-animation: play6X 1.5s steps(8) infinite, play6Y 3s steps(2) infinite;
   -ms-animation: play6X 1.5s steps(8) infinite, play6Y 3s steps(2) infinite;

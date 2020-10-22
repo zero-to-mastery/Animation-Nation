@@ -101,7 +101,7 @@ body {
 }
 
 body > div > div > div::after {
-  content: "";
+  content: '';
   position: absolute;
   top: -5px;
   box-shadow: 0 0 12px #fff;
@@ -115,7 +115,7 @@ body > div > div > div::after {
 }
 
 body > div > div > div::before {
-  content: "";
+  content: '';
   position: absolute;
   top: -5px;
   box-shadow: 0 0 12px #fff;

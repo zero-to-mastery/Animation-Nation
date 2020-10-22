@@ -27,7 +27,7 @@ body {
 }
 
 .text::before {
-  content: "Hacktoberfest 2019!";
+  content: 'Hacktoberfest 2019!';
   position: absolute;
   mix-blend-mode: difference;
   filter: blur(10px);
@@ -103,7 +103,7 @@ body {
 }
 
 .heart::before {
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   position: absolute;
@@ -115,7 +115,7 @@ body {
 }
 
 .heart::after {
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   position: absolute;

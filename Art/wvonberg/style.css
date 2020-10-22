@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
   padding: 20px;
 
-  font-family: -apple-system, "Lobster", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, 'Lobster', 'Helvetica Neue', sans-serif;
 }
 
 /* other */
@@ -47,7 +47,7 @@ p {
 }
 
 .block-reveal::after {
-  content: "";
+  content: '';
 
   width: 0%;
   height: 100%;

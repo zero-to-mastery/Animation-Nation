@@ -22,7 +22,7 @@
 }
 
 .circle:after {
-  content: "";
+  content: '';
   position: absolute;
   background-image: -webkit-gradient(
     linear,

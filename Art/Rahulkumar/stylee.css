@@ -27,7 +27,7 @@ body {
 }
 
 .circle: after {
-  content: "";
+  content: '';
   position: absolute;
   top: 135px;
   right: 35px;

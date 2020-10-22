@@ -16,7 +16,7 @@ img {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Lucida Sans", Verdana, sans-serif;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
   animation: running;
   animation-name: color-change;
   animation-duration: 5s;

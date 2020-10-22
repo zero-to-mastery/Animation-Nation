@@ -57,7 +57,7 @@ body {
 }
 
 .text {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   margin: 100px 0 0 25%;
   white-space: nowrap;
@@ -84,7 +84,7 @@ body {
 }
 
 .code-container {
-  font-family: "Ubuntu Mono", monospace;
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 28px;
   margin: 0 0 0 35%;
   padding-top: 70px;

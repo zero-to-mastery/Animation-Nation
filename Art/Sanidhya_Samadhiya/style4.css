@@ -59,7 +59,7 @@ body {
 .b {
   height: 900px;
   width: 180px;
-  background: url("cp.png");
+  background: url('cp.png');
   background-repeat: no-repeat;
   margin: 0 auto;
   margin-top: -300px;
@@ -68,7 +68,7 @@ body {
 .c {
   height: 900px;
   width: 180px;
-  background: url("cp2.png");
+  background: url('cp2.png');
   background-repeat: no-repeat;
   margin: 0 auto;
   margin-top: -290px;
@@ -96,7 +96,7 @@ body {
 
 .cloud:before,
 .cloud:after {
-  content: "";
+  content: '';
   position: absolute;
   background: #fff;
   width: 100px;

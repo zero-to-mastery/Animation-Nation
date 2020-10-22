@@ -35,7 +35,7 @@ body {
 }
 
 .loader:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 3px;
   left: 3px;
@@ -47,7 +47,7 @@ body {
 }
 
 .loader:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0px;
   left: 0px;
@@ -82,7 +82,7 @@ body {
 }
 
 .loader2:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 6px;
   left: 6px;
@@ -94,7 +94,7 @@ body {
 }
 
 .loader2:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0px;
   left: 0px;
@@ -129,7 +129,7 @@ body {
 }
 
 .loader3:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 9px;
   left: 9px;
@@ -141,7 +141,7 @@ body {
 }
 
 .loader3:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0px;
   left: 0px;

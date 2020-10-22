@@ -52,7 +52,7 @@ body {
 }
 .hole::before {
   display: block;
-  content: " ";
+  content: ' ';
   position: absolute;
   transform: rotate(18deg);
   top: 15%;
@@ -138,7 +138,7 @@ body {
 
 .eye::before {
   display: block;
-  content: "";
+  content: '';
   position: absolute;
   top: 20%;
   left: 50%;

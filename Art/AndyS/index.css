@@ -2,7 +2,7 @@ body {
   margin: 0px;
   width: 100vw;
   height: 100vh;
-  font-family: "Mansalva", cursive;
+  font-family: 'Mansalva', cursive;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -43,7 +43,7 @@ body {
 
 .heart:before,
 .heart:after {
-  content: "";
+  content: '';
   border-radius: 50%;
   position: absolute;
 }
@@ -57,7 +57,7 @@ body {
 
 .heart--small:before,
 .heart--small:after {
-  content: "";
+  content: '';
   border-radius: 50%;
   position: absolute;
   background-color: var(--heart-small-bg);

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Acme");
+@import url('https://fonts.googleapis.com/css?family=Acme');
 html,
 body {
   margin: 0;
@@ -27,7 +27,7 @@ body {
   border: 1px solid #454545;
   border-radius: 3px;
   opacity: 0.3;
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
   -webkit-transition: 0.4s all ease;
   transition: 0.4s all ease;
   outline-color: #454545;

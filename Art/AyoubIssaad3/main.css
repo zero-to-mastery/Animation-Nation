@@ -10,7 +10,7 @@ body {
 .nav-icon div {
   background-color: #fff;
   border-radius: 3px;
-  content: "";
+  content: '';
   display: block;
   height: 5px;
   margin: 7px 0;

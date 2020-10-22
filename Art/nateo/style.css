@@ -15,7 +15,7 @@ body {
   border: 10px solid white;
 }
 .clock::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 20px;
   left: 20px;
@@ -26,7 +26,7 @@ body {
   border: 5px dotted white;
 }
 .clock::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -180,7 +180,7 @@ body {
   border-bottom-right-radius: 20%;
 }
 .coffee::before {
-  content: "";
+  content: '';
   position: absolute;
   right: -30%;
   height: 45px;
@@ -189,7 +189,7 @@ body {
   border-radius: 50%;
 }
 .coffee::after {
-  content: "";
+  content: '';
   position: absolute;
   right: -23%;
   top: 15%;
@@ -309,7 +309,7 @@ body {
   background-color: white;
 }
 .line::before {
-  content: "";
+  content: '';
   display: inline-block;
   margin: 1px;
   height: 55px;
@@ -317,7 +317,7 @@ body {
   background-color: white;
 }
 .line::after {
-  content: "";
+  content: '';
   display: inline-block;
   margin: 1px;
   height: 55px;
@@ -437,7 +437,7 @@ body {
   transform: rotate(180deg);
 }
 #dash1::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 47%;
   height: 55px; /* lower padding */
@@ -447,7 +447,7 @@ body {
   animation: dash 1s linear infinite alternate;
 }
 #dash1::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 47%;
   height: 55px;
@@ -467,7 +467,7 @@ body {
   transform: rotate(180deg);
 }
 #dash2::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 47%;
   margin-left: -15px;
@@ -478,7 +478,7 @@ body {
   animation: dash 1s linear infinite alternate 0.1s;
 }
 #dash2::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 47%;
   margin-left: -15px;
@@ -499,7 +499,7 @@ body {
   transform: rotate(180deg);
 }
 #dash3::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 47%;
   margin-left: -30px;
@@ -510,7 +510,7 @@ body {
   animation: dash 1s linear infinite alternate 0.2s;
 }
 #dash3::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 47%;
   margin-left: -30px;
@@ -531,7 +531,7 @@ body {
   transform: rotate(180deg);
 }
 #dash4::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 47%;
   margin-left: -45px;
@@ -542,7 +542,7 @@ body {
   animation: dash 1s linear infinite alternate 0.3s;
 }
 #dash4::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 47%;
   margin-left: -45px;
@@ -563,7 +563,7 @@ body {
   transform: rotate(180deg);
 }
 #dash5::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 47%;
   margin-left: -60px;
@@ -574,7 +574,7 @@ body {
   animation: dash 1s linear infinite alternate 0.4s;
 }
 #dash5::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 47%;
   margin-left: -60px;
@@ -595,7 +595,7 @@ body {
   transform: rotate(180deg);
 }
 #dash6::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 47%;
   margin-left: -75px;
@@ -606,7 +606,7 @@ body {
   animation: dash 1s linear infinite alternate 0.5s;
 }
 #dash6::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 47%;
   margin-left: -75px;
@@ -627,7 +627,7 @@ body {
   transform: rotate(180deg);
 }
 #dash7::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 47%;
   margin-left: -90px;
@@ -638,7 +638,7 @@ body {
   animation: dash 1s linear infinite alternate 0.6s;
 }
 #dash7::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 47%;
   margin-left: -90px;
@@ -659,7 +659,7 @@ body {
   transform: rotate(180deg);
 }
 #dash8::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 47%;
   margin-left: -105px;
@@ -670,7 +670,7 @@ body {
   animation: dash 1s linear infinite alternate 0.7s;
 }
 #dash8::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 47%;
   margin-left: -105px;
@@ -691,7 +691,7 @@ body {
   transform: rotate(180deg);
 }
 #dash9::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 47%;
   margin-left: -120px;
@@ -702,7 +702,7 @@ body {
   animation: dash 1s linear infinite alternate 0.8s;
 }
 #dash9::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 47%;
   margin-left: -120px;
@@ -723,7 +723,7 @@ body {
   transform: rotate(180deg);
 }
 #dash10::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 47%;
   margin-left: -135px;
@@ -734,7 +734,7 @@ body {
   animation: dash 1s linear infinite alternate 0.9s;
 }
 #dash10::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 47%;
   margin-left: -135px;

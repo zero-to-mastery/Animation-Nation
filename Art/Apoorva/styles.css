@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
 .halfCircleBottom {
   height: 135px;
@@ -63,7 +63,7 @@
 
 .textbox {
   font-size: 50px;
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   animation: zoominouttext 1.5s infinite;
   position: absolute;
 }

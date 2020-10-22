@@ -132,7 +132,7 @@
 }
 
 .baloon:before {
-  content: "▲";
+  content: '▲';
   font-size: 20px;
   color: #773d77;
   display: block;
@@ -149,7 +149,7 @@
   height: 130px;
   width: 1px;
   left: 60px;
-  content: "";
+  content: '';
   background: rgba(0, 0, 0, 0.2);
 }
 

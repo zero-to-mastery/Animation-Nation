@@ -42,7 +42,7 @@ body {
 }
 
 .card p {
-  font-family: "Lobster", Helvetica, sans-serif;
+  font-family: 'Lobster', Helvetica, sans-serif;
   font-size: 3vw;
   padding-top: 10px;
   white-space: nowrap;
@@ -68,13 +68,13 @@ body {
 .card-front-face > span:before {
   animation: rotatingmoon 5s infinite;
   animation-timing-function: cubic-bezier(0.43, 0.76, 0, 1.51);
-  content: "";
+  content: '';
 }
 
 .clock > span:after {
   animation: rotatingclock 5s infinite;
   animation-timing-function: cubic-bezier(0.43, 0.76, 0, 1.51);
-  content: "";
+  content: '';
 }
 
 @media only screen and (max-width: 600px) {
@@ -136,67 +136,67 @@ body {
 @keyframes rotatingmoon {
   0%,
   100% {
-    content: "🌕";
+    content: '🌕';
   }
   10% {
-    content: "🌖";
+    content: '🌖';
   }
   20% {
-    content: "🌗";
+    content: '🌗';
   }
   30% {
-    content: "🌘";
+    content: '🌘';
   }
   40% {
-    content: "🌑";
+    content: '🌑';
   }
   50% {
-    content: "🌑";
+    content: '🌑';
   }
   60% {
-    content: "🌒";
+    content: '🌒';
   }
   70% {
-    content: "🌓";
+    content: '🌓';
   }
   80% {
-    content: "🌔";
+    content: '🌔';
   }
   90% {
-    content: "🌕";
+    content: '🌕';
   }
 }
 
 @keyframes rotatingclock {
   0%,
   100% {
-    content: "🕐";
+    content: '🕐';
   }
   10% {
-    content: "🕒";
+    content: '🕒';
   }
   20% {
-    content: "🕓";
+    content: '🕓';
   }
   30% {
-    content: "🕔";
+    content: '🕔';
   }
   40% {
-    content: "🕕";
+    content: '🕕';
   }
   50% {
-    content: "🕖";
+    content: '🕖';
   }
   60% {
-    content: "🕗";
+    content: '🕗';
   }
   70% {
-    content: "🕘";
+    content: '🕘';
   }
   80% {
-    content: "🕚";
+    content: '🕚';
   }
   90% {
-    content: "🕛";
+    content: '🕛';
   }
 }

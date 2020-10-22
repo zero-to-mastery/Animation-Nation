@@ -106,7 +106,7 @@ body {
 }
 
 .txt::before {
-  content: "Zero to Mastery";
+  content: 'Zero to Mastery';
   position: relative;
   mix-blend-mode: difference;
   filter: blur(3px);

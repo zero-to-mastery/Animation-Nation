@@ -1,6 +1,6 @@
 :before,
 :after {
-  content: "";
+  content: '';
   position: absolute;
 }
 

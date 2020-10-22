@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Muli");
+@import url('https://fonts.googleapis.com/css?family=Muli');
 *,
 *:before,
 *:after {
@@ -10,7 +10,7 @@ html,
 body {
   font-size: 62.5%;
   background-color: #00091b;
-  font-family: "Muli", Helvetica, sans-serif;
+  font-family: 'Muli', Helvetica, sans-serif;
 }
 .container {
   position: absolute;

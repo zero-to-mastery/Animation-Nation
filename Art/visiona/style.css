@@ -81,7 +81,7 @@ body {
 }
 
 .rotating-circle:before {
-  content: "";
+  content: '';
   width: 56%;
   height: 56%;
   position: absolute;
@@ -92,7 +92,7 @@ body {
 }
 
 .rotating-circle:after {
-  content: "";
+  content: '';
   width: 90%;
   height: 90%;
   border-radius: 50%;

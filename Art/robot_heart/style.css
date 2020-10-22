@@ -29,7 +29,7 @@
 }
 .heart:after {
   background-color: rgb(192, 242, 255);
-  content: "";
+  content: '';
   position: absolute;
   width: 50px;
   height: 50px;
@@ -42,7 +42,7 @@
 }
 .heart:before {
   background-color: rgb(192, 242, 255);
-  content: "";
+  content: '';
   position: absolute;
   width: 50px;
   height: 50px;

@@ -32,7 +32,7 @@ svg {
 }
 
 .spin span:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: calc(50% - 20%);

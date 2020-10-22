@@ -27,7 +27,7 @@ body {
 }
 
 .text::before {
-  content: "Andrei";
+  content: 'Andrei';
   position: absolute;
   mix-blend-mode: difference;
   filter: blur(3px);

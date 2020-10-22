@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap');
 .main {
   max-width: 200px;
   min-width: 200px;
@@ -40,7 +40,7 @@ h1 {
   text-align: center;
   animation: 2s infinite ease-out text;
   font-size: 2rem;
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
 }
 
 @keyframes right {

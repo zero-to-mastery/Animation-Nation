@@ -36,7 +36,7 @@ body {
 }
 
 .clock:after {
-  content: "";
+  content: '';
   position: absolute;
   z-index: 2;
   top: 10px;
@@ -51,7 +51,7 @@ body {
 }
 
 .clock:before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: 2;
   top: 5px;
@@ -76,7 +76,7 @@ body {
 }
 
 .clkhand:before {
-  content: "";
+  content: '';
   position: absolute;
   height: 45px;
   width: 3px;
@@ -97,7 +97,7 @@ body {
 }
 
 .clkhand:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 35px;
   width: 3px;
@@ -123,7 +123,7 @@ body {
 }
 
 .table:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 20px;
   height: 185px;
@@ -133,7 +133,7 @@ body {
 }
 
 .table:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 20px;
   height: 185px;
@@ -154,7 +154,7 @@ body {
 }
 
 .tbblwman:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 40px;
   height: 150px;
@@ -166,7 +166,7 @@ body {
 }
 
 .tbblwman:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100px;
   height: 50px;
@@ -188,7 +188,7 @@ body {
 
 .tbblwman2:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 0px;
   width: 0px;
   left: -110px;
@@ -198,7 +198,7 @@ body {
 
 .tbblwman2:after {
   position: absolute;
-  content: "";
+  content: '';
   height: 0px;
   width: 0px;
   left: 210px;
@@ -218,7 +218,7 @@ body {
 }
 .shoes:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 25px;
   width: 40px;
   left: 100px;
@@ -243,7 +243,7 @@ body {
 
 .laptop:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 25px;
   width: 25px;
   border-radius: 100%;
@@ -264,7 +264,7 @@ body {
 }
 
 .manbody:before {
-  content: "";
+  content: '';
   position: absolute;
   border-bottom: 100px solid rgb(223, 144, 17);
   border-left: 25px solid transparent;
@@ -289,7 +289,7 @@ body {
 
 .lamp:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 78px;
   width: 5px;
   top: -50px;
@@ -300,7 +300,7 @@ body {
 
 .lamp:after {
   position: absolute;
-  content: "";
+  content: '';
   height: 78px;
   width: 5px;
   top: -110px;
@@ -321,7 +321,7 @@ body {
 
 .lamp2:before {
   position: absolute;
-  content: "";
+  content: '';
   width: 20px;
   height: 20px;
   border-radius: 100%;
@@ -332,7 +332,7 @@ body {
 
 .lamp2:after {
   position: absolute;
-  content: "";
+  content: '';
   width: 10px;
   height: 20px;
   transform: rotate(-45deg);
@@ -356,7 +356,7 @@ body {
 
 .lamp3:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 12px;
   width: 24px;
   left: 15px;
@@ -391,7 +391,7 @@ body {
 
 .coffee:before {
   position: absolute;
-  content: "";
+  content: '';
   width: 20px;
   height: 20px;
   border-radius: 100%;
@@ -407,7 +407,7 @@ body {
 .coffeelogo:before,
 .coffeelogo:after {
   position: absolute;
-  content: "";
+  content: '';
   left: 15px;
   top: 15px;
   width: 10px;
@@ -436,7 +436,7 @@ body {
 }
 
 .pot:before {
-  content: "";
+  content: '';
   position: absolute;
   border-bottom: 20px solid rgb(64, 17, 109);
   border-left: 10px solid transparent;
@@ -458,7 +458,7 @@ body {
 }
 
 .stem:before {
-  content: "";
+  content: '';
   position: absolute;
   height: 20px;
   width: 20px;
@@ -468,7 +468,7 @@ body {
 }
 
 .stem:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 30px;
   width: 30px;
@@ -490,7 +490,7 @@ body {
 }
 
 .neck:before {
-  content: "";
+  content: '';
   position: absolute;
   height: 40px;
   width: 30px;
@@ -513,7 +513,7 @@ body {
 }
 
 .face:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 25px;
   left: 0px;
@@ -526,7 +526,7 @@ body {
 }
 
 .face:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   height: 0;
@@ -548,7 +548,7 @@ body {
 }
 
 .eye:before {
-  content: "";
+  content: '';
   position: absolute;
   height: 7px;
   width: 7px;
@@ -558,7 +558,7 @@ body {
 }
 
 .eye:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 8px;
   width: 20px;
@@ -587,7 +587,7 @@ body {
 }
 
 .ears:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 30px;
   left: 50px;
@@ -599,7 +599,7 @@ body {
 }
 
 .ears:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 30px;
   left: -3px;
@@ -634,7 +634,7 @@ body {
 }
 
 .window2:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 208px;
   width: 10px;
@@ -706,7 +706,7 @@ body {
 }
 
 .star:before {
-  content: "";
+  content: '';
   position: absolute;
   background: transparent;
   width: 70px;
@@ -731,7 +731,7 @@ body {
 }
 
 .star:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 60px;
   width: 60px;
@@ -771,7 +771,7 @@ body {
 }
 
 .hair:before {
-  content: "";
+  content: '';
   position: absolute;
   border-bottom: 90px solid transparent;
   border-left: 25px solid transparent;

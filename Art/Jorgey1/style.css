@@ -6,7 +6,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background: #031321;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a {

@@ -18,7 +18,7 @@ html::before,
 html::after,
 body::before,
 body::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -151,7 +151,7 @@ h1 {
 }
 
 h1::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   z-index: -1;
@@ -165,7 +165,7 @@ h1::before {
 }
 
 em {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: currentColor;
   font-size: 15vmin;
   position: relative;
@@ -181,7 +181,7 @@ em.planet {
 }
 
 em.planet::before {
-  content: "";
+  content: '';
   position: absolute;
   top: -0.5vmin;
   left: 3.5vmin;

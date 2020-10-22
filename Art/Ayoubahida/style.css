@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 body,
 html {
   height: 100%;
   background-color: rgb(155, 155, 155);
-  font-family: "Marck Script", cursive;
+  font-family: 'Marck Script', cursive;
   font-size: 1em;
 }
 

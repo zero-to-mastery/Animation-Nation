@@ -30,7 +30,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 80px;
-  font-family: "Oswald", Helvetica, sans-serif;
+  font-family: 'Oswald', Helvetica, sans-serif;
   letter-spacing: 0.1em;
   transition: 0.3s;
   text-shadow: 1px 1px 0 firebrick, 1px 2px 0 firebrick, 1px 3px 0 firebrick,

@@ -14,9 +14,9 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -25,7 +25,7 @@ body {
   background-color: #fff;
 }
 
-[tabindex="-1"]:focus {
+[tabindex='-1']:focus {
   outline: 0 !important;
 }
 
@@ -445,7 +445,7 @@ body {
 }
 
 .moon::before {
-  content: "";
+  content: '';
   top: 15%;
   left: 20%;
   width: 10%;
@@ -457,7 +457,7 @@ body {
 }
 
 .moon::after {
-  content: "";
+  content: '';
   bottom: 20%;
   left: 50%;
   width: 30%;
@@ -586,7 +586,7 @@ body {
 
 .cloud::before,
 .cloud::after {
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   top: 40%;
@@ -661,7 +661,7 @@ body {
 }
 
 .mountain::after {
-  content: "";
+  content: '';
   display: block;
   width: 70%;
   height: 10%;
@@ -762,7 +762,7 @@ body {
 }
 
 .ground::before {
-  content: "";
+  content: '';
   display: block;
   width: 200%;
   height: 110%;
@@ -788,7 +788,7 @@ body {
 }
 
 .ground::after {
-  content: "";
+  content: '';
   display: block;
   width: 80%;
   height: 110%;
@@ -828,7 +828,7 @@ body {
 
 .tree::before,
 .tree::after {
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   background-size: 50.05% 100%;

@@ -70,7 +70,7 @@ https://stackoverflow.com/questions/43014832/need-to-make-curve-line-using-css
 }
 #head:before {
   /* content enables before and after to display something, borders would not be visible otherwise */
-  content: "";
+  content: '';
   display: block;
   width: 50%;
   height: 134px;
@@ -82,7 +82,7 @@ https://stackoverflow.com/questions/43014832/need-to-make-curve-line-using-css
   transform: rotate(15deg);
 }
 #head:after {
-  content: "";
+  content: '';
   display: block;
   width: 50%;
   height: 147px;
@@ -102,7 +102,7 @@ https://stackoverflow.com/questions/43014832/need-to-make-curve-line-using-css
   transform: rotate(20deg);
 }
 #eye:before {
-  content: "";
+  content: '';
   display: block;
   width: 18px;
   height: 12px;
@@ -112,7 +112,7 @@ https://stackoverflow.com/questions/43014832/need-to-make-curve-line-using-css
   left: 5%;
 }
 #eye:after {
-  content: "";
+  content: '';
   display: block;
   width: 18px;
   height: 25px;
@@ -155,7 +155,7 @@ https://stackoverflow.com/questions/43014832/need-to-make-curve-line-using-css
 }
 
 #ears:before {
-  content: "";
+  content: '';
   display: block;
   width: 80%;
   height: 50px;
@@ -165,7 +165,7 @@ https://stackoverflow.com/questions/43014832/need-to-make-curve-line-using-css
   left: 5%;
 }
 #ears:after {
-  content: "";
+  content: '';
   display: block;
   width: 80%;
   height: 50px;
@@ -184,7 +184,7 @@ https://stackoverflow.com/questions/43014832/need-to-make-curve-line-using-css
 }
 
 #torso:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 50%;
@@ -195,7 +195,7 @@ https://stackoverflow.com/questions/43014832/need-to-make-curve-line-using-css
 }
 
 #torso:after {
-  content: "";
+  content: '';
   display: block;
   width: 50%;
   height: 225px;
@@ -253,7 +253,7 @@ https://stackoverflow.com/questions/43014832/need-to-make-curve-line-using-css
 }
 
 #backfoot {
-  content: "";
+  content: '';
   display: block;
   width: 250px;
   height: 150px;
@@ -278,7 +278,7 @@ https://stackoverflow.com/questions/43014832/need-to-make-curve-line-using-css
 }
 
 #frontleg {
-  content: "";
+  content: '';
   display: block;
   width: 257px;
   height: 126px;

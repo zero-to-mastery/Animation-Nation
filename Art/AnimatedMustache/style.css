@@ -55,7 +55,7 @@ body {
 }
 
 .mustache::before {
-  content: ""; /* set as a string in order for tje pseudoelement to appear*/
+  content: ''; /* set as a string in order for tje pseudoelement to appear*/
   position: absolute;
   width: 210px;
   height: 120px;
@@ -70,7 +70,7 @@ body {
 }
 
 .mustache::after {
-  content: ""; /* set as a string in order for tje pseudoelement to appear*/
+  content: ''; /* set as a string in order for tje pseudoelement to appear*/
   position: absolute;
   width: 210px;
   height: 120px;

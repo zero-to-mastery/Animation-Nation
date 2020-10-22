@@ -23,7 +23,7 @@ h1 {
 
 .heart:before,
 .heart:after {
-  content: "";
+  content: '';
   background-color: #fd725e;
   border-radius: 50%;
   height: 100px;

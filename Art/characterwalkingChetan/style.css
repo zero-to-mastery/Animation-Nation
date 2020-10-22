@@ -6,7 +6,7 @@ body {
 }
 .runner {
   /*this is the image which is animated below*/
-  background: url("image.png") no-repeat;
+  background: url('image.png') no-repeat;
   width: 260px;
   height: 346px;
 

@@ -10,7 +10,7 @@ body {
 p {
   color: white;
   font-size: 1.5em;
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Helvetica', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   z-index: -10;
