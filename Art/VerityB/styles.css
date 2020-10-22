@@ -1,7 +1,7 @@
 * {
   background-color: orange;
   color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 h1 {
@@ -27,7 +27,6 @@ h1 {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-
 
 .left-eye {
   background-color: black;
@@ -56,21 +55,21 @@ h1 {
 hr {
   flex-basis: 100%;
   height: 0;
-  margin: 0; 
+  margin: 0;
   border: 0;
 }
 
 @keyframes float {
   0% {
-      transform: translateY(0px);    
+    transform: translateY(0px);
   }
 
   50% {
-      transform: translateY(150px);
+    transform: translateY(150px);
   }
 
   100% {
-      transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
 

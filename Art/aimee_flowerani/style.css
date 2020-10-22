@@ -12,20 +12,25 @@ body {
   width: 12.5em;
   height: 12.5em;
   position: absolute;
-  box-shadow: 0 1em 2em rgba(0, 0, 0, .5);
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.5);
 }
 
-.one,.two,.three,
+.one,
+.two,
+.three,
 .four {
   background: rgba(255, 45, 45, 1);
 }
 
-.five,.six,.seven,.eight{
+.five,
+.six,
+.seven,
+.eight {
   background: rgba(233, 1, 1, 1);
 }
 
-.nine{
-   background: rgba(255, 204, 66, 1);
+.nine {
+  background: rgba(255, 204, 66, 1);
 }
 .one {
   transform: rotateZ(0);
@@ -57,13 +62,11 @@ body {
 }
 
 .nine {
-  transform: translate(0px,100px)
+  transform: translate(0px, 100px);
 }
 
-
-
 @keyframes bounceIn {
-    0% {
+  0% {
     transform: rotateZ(0);
   }
   20% {
@@ -89,5 +92,4 @@ body {
 
 .container {
   animation: bounceIn 2s;
- 
 }

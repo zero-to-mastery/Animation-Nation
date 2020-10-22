@@ -54,4 +54,3 @@ $(window).load(function () {
 
   init();
 });
-

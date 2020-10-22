@@ -73,23 +73,27 @@ body {
   top: 35px;
 }
 
-.line-wrap:nth-child(odd) {   animation: spin-forward 2000ms linear infinite;}
-.line-wrap:nth-child(even) {  animation: spin-reverse 2000ms linear infinite;}
+.line-wrap:nth-child(odd) {
+  animation: spin-forward 2000ms linear infinite;
+}
+.line-wrap:nth-child(even) {
+  animation: spin-reverse 2000ms linear infinite;
+}
 
 @keyframes spin-forward {
   0% {
-  transform: rotate(0);
-}
-100% {
-  transform: rotate(360deg);
-}
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes spin-reverse {
   0% {
-  transform: rotate(360deg);
-}
-100% {
-  transform: rotate(0);
-}
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }

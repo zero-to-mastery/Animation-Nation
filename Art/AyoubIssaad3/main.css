@@ -1,5 +1,5 @@
-body{
-    background-color: #a8326d;
+body {
+  background-color: #a8326d;
 }
 .nav-icon {
   width: 40px;
@@ -10,11 +10,11 @@ body{
 .nav-icon div {
   background-color: #fff;
   border-radius: 3px;
-  content: '';
+  content: "";
   display: block;
   height: 5px;
   margin: 7px 0;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-icon:hover:before {

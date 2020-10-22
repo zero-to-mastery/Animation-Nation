@@ -1,9 +1,9 @@
-body{
+body {
   padding: 0;
   margin: 10px;
 }
 
-.circle{
+.circle {
   padding: 0;
   margin: 0;
   width: 300px;
@@ -19,32 +19,34 @@ body{
 }
 
 @keyframes rotation {
-  0%   {transition: rotate(0deg);}
-  100% {transform: rotate(360deg);}
+  0% {
+    transition: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-
-
-.blue{
+.blue {
   background-color: blue;
   height: 100%;
   width: 100%;
 }
 
-.yellow{
+.yellow {
   background-color: yellow;
   height: 100%;
-  width:100%;
+  width: 100%;
 }
 
-.red{
+.red {
   background-color: red;
   height: 100%;
   width: 100%;
 }
 
-.orange{
+.orange {
   background-color: orange;
   height: 100%;
-  width:100%;
+  width: 100%;
 }

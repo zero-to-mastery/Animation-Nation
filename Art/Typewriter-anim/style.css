@@ -1,19 +1,15 @@
-body
-{
-	background: rgb(43,78,104);
-	color: rgb(220,220,220);
-	font-family: 'Fira Code', monospace;
+body {
+  background: rgb(43, 78, 104);
+  color: rgb(220, 220, 220);
+  font-family: "Fira Code", monospace;
 }
 
-.type
-{
-    margin-top: 15%;
-    margin-left: 30%;
+.type {
+  margin-top: 15%;
+  margin-left: 30%;
 }
 
-.type h1
-{
-  
+.type h1 {
   border-right: 1px solid white;
   white-space: nowrap;
   overflow: hidden;
@@ -46,10 +42,10 @@ body
     border-right: none;
   }
   0.1% {
-    border-right: 1px solid rgb(220,220,220);
+    border-right: 1px solid rgb(220, 220, 220);
   }
   99.9% {
-    border-right: 1px solid rgb(220,220,220);
+    border-right: 1px solid rgb(220, 220, 220);
   }
   100% {
     border: none;
@@ -57,19 +53,21 @@ body
 }
 
 i {
-opacity: 0;
-animation: fadeIn 2s ease-in-out;
-animation-delay: 10s;
-animation-fill-mode: forwards;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
 }
 
 a {
-  color: rgb(220,220,220);
+  color: rgb(220, 220, 220);
 }
 
 @keyframes fadeIn {
-from {opacity:0;}
-to {opacity:1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
-

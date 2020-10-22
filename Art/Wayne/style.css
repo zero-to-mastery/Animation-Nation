@@ -1,6 +1,6 @@
-
 @import url(https://fonts.googleapis.com/css?family=Finger+Paint);
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -17,32 +17,31 @@ body {
   text-align: center;
   color: transparent;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
-
 
 span {
-  display:inline-block;
+  display: inline-block;
   text-shadow: 0 0 0 whitesmoke;
   -webkit-animation: smoky 5s 3s both;
-          animation: smoky 9s 6s ease-in-out infinite;
-          transition: width 100px;
+  animation: smoky 9s 6s ease-in-out infinite;
+  transition: width 100px;
 }
-
 
 span:nth-child(even) {
   -webkit-animation-name: smoky-mirror;
-          animation-name: smoky-mirror;
+  animation-name: smoky-mirror;
 }
-
 
 @-webkit-keyframes smoky {
   60% {
     text-shadow: 0 0 40px whitesmoke;
   }
   to {
-    -webkit-transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg) scale(1.5);
-            transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg) scale(1.5);
+    -webkit-transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg)
+      scale(1.5);
+    transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg)
+      scale(1.5);
     text-shadow: 0 0 20px whitesmoke;
     opacity: 0;
   }
@@ -53,8 +52,10 @@ span:nth-child(even) {
     text-shadow: 0 0 40px whitesmoke;
   }
   to {
-    -webkit-transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg) scale(1.5);
-            transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg) scale(1.5);
+    -webkit-transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg)
+      scale(1.5);
+    transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg)
+      scale(1.5);
     text-shadow: 0 0 20px whitesmoke;
     opacity: 0;
   }
@@ -64,8 +65,10 @@ span:nth-child(even) {
     text-shadow: 0 0 40px whitesmoke;
   }
   to {
-    -webkit-transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg) scale(2);
-            transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg) scale(2);
+    -webkit-transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg)
+      scale(2);
+    transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg)
+      scale(2);
     text-shadow: 0 0 20px whitesmoke;
     opacity: 0;
   }
@@ -75,119 +78,114 @@ span:nth-child(even) {
     text-shadow: 0 0 40px whitesmoke;
   }
   to {
-    -webkit-transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg) scale(2);
-            transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg) scale(2);
+    -webkit-transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg)
+      scale(2);
+    transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg)
+      scale(2);
     text-shadow: 0 0 20px whitesmoke;
     opacity: 0;
   }
 }
 
-
-
-
 span:nth-of-type(1) {
   -webkit-animation-delay: 3.1s;
-          animation-delay: 3.1s;
+  animation-delay: 3.1s;
 }
 
 span:nth-of-type(2) {
   -webkit-animation-delay: 3.2s;
-          animation-delay: 3.2s;
+  animation-delay: 3.2s;
 }
 
 span:nth-of-type(3) {
   -webkit-animation-delay: 3.3s;
-          animation-delay: 3.3s;
+  animation-delay: 3.3s;
 }
 
 span:nth-of-type(4) {
   -webkit-animation-delay: 3.4s;
-          animation-delay: 3.4s;
+  animation-delay: 3.4s;
 }
 
 span:nth-of-type(5) {
   -webkit-animation-delay: 3.5s;
-          animation-delay: 3.5s;
+  animation-delay: 3.5s;
 }
 
 span:nth-of-type(6) {
   -webkit-animation-delay: 3.6s;
-          animation-delay: 3.6s;
+  animation-delay: 3.6s;
 }
 
 span:nth-of-type(7) {
   -webkit-animation-delay: 3.7s;
-          animation-delay: 3.7s;
+  animation-delay: 3.7s;
 }
 
 span:nth-of-type(8) {
   -webkit-animation-delay: 3.8s;
-          animation-delay: 3.8s;
+  animation-delay: 3.8s;
 }
 
 span:nth-of-type(9) {
   -webkit-animation-delay: 3.9s;
-          animation-delay: 3.9s;
+  animation-delay: 3.9s;
 }
 
 span:nth-of-type(10) {
   -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 span:nth-of-type(11) {
   -webkit-animation-delay: 4.1s;
-          animation-delay: 4.1s;
+  animation-delay: 4.1s;
 }
 
 span:nth-of-type(12) {
   -webkit-animation-delay: 4.2s;
-          animation-delay: 4.2s;
+  animation-delay: 4.2s;
 }
 
 span:nth-of-type(13) {
   -webkit-animation-delay: 4.3s;
-          animation-delay: 4.3s;
+  animation-delay: 4.3s;
 }
 
 span:nth-of-type(14) {
   -webkit-animation-delay: 4.4s;
-          animation-delay: 4.4s;
+  animation-delay: 4.4s;
 }
 
 span:nth-of-type(15) {
   -webkit-animation-delay: 4.5s;
-          animation-delay: 4.5s;
+  animation-delay: 4.5s;
 }
 
 span:nth-of-type(16) {
   -webkit-animation-delay: 4.6s;
-          animation-delay: 4.6s;
+  animation-delay: 4.6s;
 }
 
 span:nth-of-type(17) {
   -webkit-animation-delay: 4.7s;
-          animation-delay: 4.7s;
+  animation-delay: 4.7s;
 }
 
 span:nth-of-type(18) {
   -webkit-animation-delay: 4.8s;
-          animation-delay: 4.8s;
+  animation-delay: 4.8s;
 }
 
 span:nth-of-type(19) {
   -webkit-animation-delay: 4.9s;
-          animation-delay: 4.9s;
+  animation-delay: 4.9s;
 }
 
 span:nth-of-type(20) {
   -webkit-animation-delay: 5s;
-          animation-delay: 5s;
+  animation-delay: 5s;
 }
-
-
-
-
 
 .orb {
   position: fixed;
@@ -199,7 +197,8 @@ span:nth-of-type(20) {
   animation: ease-out 200s alternate infinite;
   pointer-events: none;
 }
-.orb::before, .orb::after {
+.orb::before,
+.orb::after {
   content: "";
   position: absolute;
   width: 160%;
@@ -228,7 +227,6 @@ span:nth-of-type(20) {
 .orb:nth-child(1)::after {
   animation-duration: 15s, 5400ms;
   animation-delay: 1000ms, 6230ms;
-  
 }
 
 @keyframes move1 {
@@ -1462,7 +1460,9 @@ span:nth-of-type(20) {
   }
 }
 @keyframes flash {
-  0%, 30%, 100% {
+  0%,
+  30%,
+  100% {
     opacity: 0;
     box-shadow: 0 0 0vw 0vw white;
   }
@@ -1482,12 +1482,11 @@ span:nth-of-type(20) {
 .ghost {
   animation: float 5s ease-out infinite;
   opacity: 0.2;
-
 }
 
 @keyframes float {
   50% {
-     transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
 }
 .shadowFrame {

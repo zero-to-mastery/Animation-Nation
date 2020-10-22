@@ -1,13 +1,12 @@
+body {
+  background: #eaf0f1;
+}
 
-        body{
-            background: #EAF0F1;
-        }
-
- #container {
-    position: absolute;
-    perspective: 1500px;
-   left:50%;
-   top:50%;
+#container {
+  position: absolute;
+  perspective: 1500px;
+  left: 50%;
+  top: 50%;
 }
 
 .box-area {
@@ -25,7 +24,6 @@
   }
   100% {
     transform: rotate3d(0, 1, 0, 360deg);
-    ;
   }
 }
 

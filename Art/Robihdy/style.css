@@ -61,7 +61,7 @@ body {
   -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.15);
   -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.15);
   box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.15);
-  font-family: 'Pacifico', Arial, sans-serif;
+  font-family: "Pacifico", Arial, sans-serif;
   line-height: 1;
   text-shadow: 0 -1px 1px rgba(175, 49, 95, 0.7);
   -webkit-transition: background-color 0.2s ease-in-out,

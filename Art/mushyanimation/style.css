@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Corben:700');
+@import url("https://fonts.googleapis.com/css?family=Corben:700");
 
 h1 {
-  font-family: 'Corben', cursive;
+  font-family: "Corben", cursive;
   font-size: 6rem;
   color: white;
   letter-spacing: 0.1rem;
@@ -17,7 +17,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-content: center;
-  
+
   &__content {
     position: relative;
     align-self: center;
@@ -54,9 +54,7 @@ h1 {
 }
 
 @keyframes fall {
-  
   100% {
     transform: translateY(0);
   }
-  
 }

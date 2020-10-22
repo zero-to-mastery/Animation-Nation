@@ -5,7 +5,11 @@
 
 body {
   background-color: #141114;
-  background-image: linear-gradient(335deg, rgb(196, 20, 20) 23px, transparent 23px),
+  background-image: linear-gradient(
+      335deg,
+      rgb(196, 20, 20) 23px,
+      transparent 23px
+    ),
     linear-gradient(155deg, rgb(196, 20, 20) 23px, transparent 23px),
     linear-gradient(335deg, rgb(196, 20, 20) 23px, transparent 23px),
     linear-gradient(155deg, rgb(196, 20, 20) 23px, transparent 23px);
@@ -79,4 +83,3 @@ body {
       0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
   }
 }
-

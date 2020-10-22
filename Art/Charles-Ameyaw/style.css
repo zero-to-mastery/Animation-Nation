@@ -1,20 +1,20 @@
 :root {
   --black: #141416;
-  --pink: #E9BAA7;
+  --pink: #e9baa7;
 }
 
-body{
-  background: #05935F;
+body {
+  background: #05935f;
 }
 
-.box-canvas{
+.box-canvas {
   position: relative;
   margin: auto;
   display: block;
   margin-top: 10vmin;
   margin-bottom: 10vmin;
   width: 100vmin;
-  height:80vmin;
+  height: 80vmin;
 }
 
 .tail {
@@ -29,7 +29,7 @@ body{
 }
 
 .tail::before {
-  content: '';
+  content: "";
   position: absolute;
   background: white;
   width: 5vmin;
@@ -60,7 +60,7 @@ body{
   height: 15vmin;
   bottom: -2vmin;
   left: 10vmin;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; 
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   transform: rotate(20deg);
 }
 
@@ -101,22 +101,22 @@ body{
 }
 
 .leg.left::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 18vmin;
   left: 8vmin;
   width: 8vmin;
-  background: #EFEDED;
+  background: #efeded;
   border-radius: 0 0 20% 20%;
 }
 
 .leg.right::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 18vmin;
   right: 8vmin;
   width: 8vmin;
-  background: #EFEDED;
+  background: #efeded;
   border-radius: 0 0 20% 20%;
 }
 
@@ -130,8 +130,6 @@ body{
   border-radius: 50%;
   box-shadow: 5vmin 5vmin 0 var(--pink), -5vmin 5vmin 0 var(--pink);
 }
-
-
 
 .head {
   position: absolute;
@@ -147,7 +145,7 @@ body{
 
 /* Patch */
 .head::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 16vmin;
   height: 20vmin;
@@ -168,7 +166,7 @@ body{
 }
 
 .snout::before {
-  content: '';
+  content: "";
   left: 8vmin;
   top: 5vmin;
   position: absolute;
@@ -179,7 +177,7 @@ body{
 }
 
 .snout::after {
-  content: '';
+  content: "";
   right: 8vmin;
   top: 5vmin;
   position: absolute;
@@ -213,7 +211,7 @@ body{
 .eye::before {
   width: 2vmin;
   height: 2vmin;
-  content: '';
+  content: "";
   position: absolute;
   background: var(--black);
   left: 50%;

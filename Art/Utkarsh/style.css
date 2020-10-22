@@ -5,7 +5,7 @@ html {
   overflow: hidden;
 }
 
-.container{
+.container {
   height: 300px;
   width: 300px;
   position: absolute;
@@ -14,7 +14,7 @@ html {
   margin: -150px 0 0 -150px;
 }
 
-.square{
+.square {
   height: 94%;
   width: 94%;
   background: white;
@@ -24,12 +24,16 @@ html {
   margin: -47% 0 0 -47%;
 }
 
-.black{ 
-  background: black;  
-  animation: rotate 10s infinite linear; 
+.black {
+  background: black;
+  animation: rotate 10s infinite linear;
 }
 
-@keyframes rotate{
-  0%{ transform: rotate(0deg); }
-    100%{ transform: rotate(360deg); }  
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

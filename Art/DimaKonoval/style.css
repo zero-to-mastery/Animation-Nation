@@ -40,12 +40,11 @@ body {
 
 #child2 {
   transform: rotate(90deg);
-
 }
 
 #parent div:before,
 #parent div:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;

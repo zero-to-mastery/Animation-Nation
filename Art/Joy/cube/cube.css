@@ -29,36 +29,36 @@ body {
   margin: -1em 0 0 -1em;
   opacity: 0.9;
 }
-  .face:nth-child(1) {
-    transform: translateZ(1em);
-    background-color: #fff;
-	}
-  .face:nth-child(2) {
-    transform: rotateY(90deg) translateZ(1em);
-    background-color: orange;
-	}
-  .face:nth-child(3) {
-    transform: rotateY(180deg) translateZ(1em);
-    background-color: yellow;
-	}
-  .face:nth-child(4) {
-    transform: rotateY(-90deg) translateZ(1em);
-    background-color: red;
-	}
-  .face:nth-child(5) {
-    transform: rotateX(90deg) translateZ(1em);
-    background-color: lightgreen;
-	}
-  .face:nth-child(6) {
-    transform: rotateX(-90deg) translateZ(1em);
-    background-color: lightblue;
-	}
+.face:nth-child(1) {
+  transform: translateZ(1em);
+  background-color: #fff;
+}
+.face:nth-child(2) {
+  transform: rotateY(90deg) translateZ(1em);
+  background-color: orange;
+}
+.face:nth-child(3) {
+  transform: rotateY(180deg) translateZ(1em);
+  background-color: yellow;
+}
+.face:nth-child(4) {
+  transform: rotateY(-90deg) translateZ(1em);
+  background-color: red;
+}
+.face:nth-child(5) {
+  transform: rotateX(90deg) translateZ(1em);
+  background-color: lightgreen;
+}
+.face:nth-child(6) {
+  transform: rotateX(-90deg) translateZ(1em);
+  background-color: lightblue;
+}
 
 @keyframes spin {
   0% {
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-	}
+  }
   100% {
     transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-	}
+  }
 }

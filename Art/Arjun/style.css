@@ -40,7 +40,9 @@ h1 span {
   animation: openclose 5s ease-in-out infinite;
 }
 
-.word1, .word2, .word3 {
+.word1,
+.word2,
+.word3 {
   font-family: tahoma;
 }
 
@@ -69,7 +71,6 @@ h1 span {
   }
   38% {
     top: -4.5rem;
-    
   }
   48% {
     top: -4.5rem;
@@ -107,7 +108,8 @@ h1 span {
     width: 0;
     text-indent: 0;
   }
-}* {
+}
+* {
   box-sizing: border-box;
 }
 
@@ -149,7 +151,9 @@ h1 span {
   animation: openclose 5s ease-in-out infinite;
 }
 
-.word1, .word2, .word3 {
+.word1,
+.word2,
+.word3 {
   font-family: tahoma;
 }
 
@@ -178,7 +182,6 @@ h1 span {
   }
   38% {
     top: -4.5rem;
-    
   }
   48% {
     top: -4.5rem;

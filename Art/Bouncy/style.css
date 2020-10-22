@@ -1,15 +1,11 @@
-.container{
-
+.container {
   display: flex;
-  
-  
-
 }
 .div1 {
   width: 900px;
   height: 900px;
   position: relative;
-  background-color: #0444BF;
+  background-color: #0444bf;
 
   animation-name: Bounce;
   animation: Bounce 5s linear 2s infinite alternate;
@@ -18,39 +14,34 @@
   width: 900px;
   height: 900px;
   position: relative;
-  background-color: #0584F2;
+  background-color: #0584f2;
   animation-name: Bounce;
-   animation: Bounce 5s linear 4s infinite alternate;
+  animation: Bounce 5s linear 4s infinite alternate;
 }
-.div3{
+.div3 {
   width: 900px;
   height: 900px;
   position: relative;
-  background-color: #0AAFF1;
+  background-color: #0aaff1;
   animation-name: Bounce;
-    animation: Bounce 5s linear 6s infinite alternate;
+  animation: Bounce 5s linear 6s infinite alternate;
 }
-.div4{
+.div4 {
   width: 900px;
-  height:900px;
+  height: 900px;
   position: relative;
-  background-color: #EDF259;
+  background-color: #edf259;
   animation-name: Bounce;
-    animation: Bounce 5s linear 8s infinite alternate;
-  }
+  animation: Bounce 5s linear 8s infinite alternate;
+}
 
 .div5 {
   width: 900px;
-  height:900px;
+  height: 900px;
   position: relative;
-  background-color: #A79674;
+  background-color: #a79674;
   animation: Bounce 5s linear 10s infinite alternate;
-  
 }
-
-
- 
-
 
 @keyframes Bounce {
   0% {

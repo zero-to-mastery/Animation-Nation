@@ -21,7 +21,11 @@ body {
   height: 4rem;
   border-radius: 50%;
   position: absolute;
-  background: linear-gradient(var(--water-darker-color), var(--water-lighter-color), var(--water-darker-color));
+  background: linear-gradient(
+    var(--water-darker-color),
+    var(--water-lighter-color),
+    var(--water-darker-color)
+  );
   animation-name: growing;
   animation-duration: 4s;
   animation-timing-function: cubic-bezier(0.1, 0.82, 0.85, 1);
@@ -44,7 +48,11 @@ body {
   height: 3rem;
   border-radius: 50%;
   position: absolute;
-  background: linear-gradient(var(--water-darker-color), var(--water-lighter-color), var(--water-darker-color));
+  background: linear-gradient(
+    var(--water-darker-color),
+    var(--water-lighter-color),
+    var(--water-darker-color)
+  );
   animation-name: growing;
   animation-duration: 4s;
   animation-timing-function: cubic-bezier(0.1, 0.82, 0.85, 1);
@@ -67,7 +75,11 @@ body {
   height: 2rem;
   border-radius: 50%;
   position: absolute;
-  background: linear-gradient(var(--water-darker-color), var(--water-lighter-color), var(--water-darker-color));
+  background: linear-gradient(
+    var(--water-darker-color),
+    var(--water-lighter-color),
+    var(--water-darker-color)
+  );
   animation-name: growing;
   animation-duration: 4s;
   animation-timing-function: cubic-bezier(0.1, 0.82, 0.85, 1);
@@ -90,7 +102,11 @@ body {
   height: 1rem;
   border-radius: 50%;
   position: absolute;
-  background: linear-gradient(var(--water-darker-color), var(--water-lighter-color), var(--water-darker-color));
+  background: linear-gradient(
+    var(--water-darker-color),
+    var(--water-lighter-color),
+    var(--water-darker-color)
+  );
   animation-name: growing;
   animation-duration: 4s;
   animation-timing-function: cubic-bezier(0.1, 0.82, 0.85, 1);
@@ -101,18 +117,15 @@ body {
   background: var(--water-darker-color);
   border-radius: 50%;
   position: absolute;
-  width: .50rem;
-  height: .50rem;
+  width: 0.5rem;
+  height: 0.5rem;
 }
 
 @keyframes growing {
   0% {
-    transform: scale(.25);
+    transform: scale(0.25);
   }
   100% {
     transform: scale(3);
   }
 }
-
-
-

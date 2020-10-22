@@ -2,14 +2,14 @@ body {
   margin: 0;
   padding: 0;
   background: black;
-  background-image: url('./imgBack.jpg');
+  background-image: url("./imgBack.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 h1 {
   color: #ff7c00;
   cursor: pointer;
-  font-family: 'Griffy', cursive;
+  font-family: "Griffy", cursive;
   font-size: 3rem;
   text-shadow: 0 0 2px #0b0b0b, 0 0 2px #060606;
 }

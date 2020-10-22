@@ -3,10 +3,18 @@ body {
   height: 100%;
   margin: auto;
   color: white;
-  font-family: 'Lucida Grande', Verdana, Arial;
+  font-family: "Lucida Grande", Verdana, Arial;
   font-size: 12px;
   background-color: black;
-  background-image: -webkit-gradient(radial, 50% 500, 1, 50% 500, 400, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0)));
+  background-image: -webkit-gradient(
+    radial,
+    50% 500,
+    1,
+    50% 500,
+    400,
+    from(rgba(255, 255, 255, 0.3)),
+    to(rgba(255, 255, 255, 0))
+  );
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -55,27 +63,33 @@ body {
   -webkit-backface-visibility: hidden;
 }
 
-.one, .seven {
+.one,
+.seven {
   background-color: rgba(154, 205, 50, 0.6);
 }
 
-.two, .eight {
+.two,
+.eight {
   background-color: rgba(70, 130, 180, 0.6);
 }
 
-.three, .nine {
+.three,
+.nine {
   background-color: rgba(224, 255, 255, 0.6);
 }
 
-.four, .ten {
+.four,
+.ten {
   background-color: rgba(255, 105, 180, 0.6);
 }
 
-.five, .eleven {
+.five,
+.eleven {
   background-color: rgba(255, 215, 0, 0.6);
 }
 
-.six, .twelve {
+.six,
+.twelve {
   background-color: rgba(238, 232, 170, 0.6);
 }
 
@@ -98,107 +112,109 @@ body {
 
 /* ---------- cube styles ------------- */
 
-.cube>.one {
+.cube > .one {
   opacity: 0.5;
   -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(90deg) translateZ(100px);
 }
 
-.cube>.two {
+.cube > .two {
   opacity: 0.5;
   -webkit-transform: scale3d(1.2, 1.2, 1.2) translateZ(100px);
 }
 
-.cube>.three {
+.cube > .three {
   opacity: 0.5;
   -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(100px);
 }
 
-.cube>.four {
+.cube > .four {
   opacity: 0.5;
   -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(180deg) translateZ(100px);
 }
 
-.cube>.five {
+.cube > .five {
   opacity: 0.5;
   -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(-90deg) translateZ(100px);
 }
 
-.cube>.six {
+.cube > .six {
   opacity: 0.5;
-  -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(100px) rotate(180deg);
+  -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(100px)
+    rotate(180deg);
 }
 
-.cube>.seven {
-  -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateX(90deg) translateZ(100px) rotate(180deg);
+.cube > .seven {
+  -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateX(90deg) translateZ(100px)
+    rotate(180deg);
 }
 
-.cube>.eight {
+.cube > .eight {
   -webkit-transform: scale3d(0.8, 0.8, 0.8) translateZ(100px);
 }
 
-.cube>.nine {
+.cube > .nine {
   -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateY(90deg) translateZ(100px);
 }
 
-.cube>.ten {
+.cube > .ten {
   -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateY(180deg) translateZ(100px);
 }
 
-.cube>.eleven {
+.cube > .eleven {
   -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateY(-90deg) translateZ(100px);
 }
 
-.cube>.twelve {
+.cube > .twelve {
   -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateX(-90deg) translateZ(100px);
 }
 
 /* ---------- ring styles ------------- */
 
-.ring>.one {
+.ring > .one {
   -webkit-transform: translateZ(380px);
 }
 
-.ring>.two {
+.ring > .two {
   -webkit-transform: rotateY(30deg) translateZ(380px);
 }
 
-.ring>.three {
+.ring > .three {
   -webkit-transform: rotateY(60deg) translateZ(380px);
 }
 
-.ring>.four {
+.ring > .four {
   -webkit-transform: rotateY(90deg) translateZ(380px);
 }
 
-.ring>.five {
+.ring > .five {
   -webkit-transform: rotateY(120deg) translateZ(380px);
 }
 
-.ring>.six {
+.ring > .six {
   -webkit-transform: rotateY(150deg) translateZ(380px);
 }
 
-.ring>.seven {
+.ring > .seven {
   -webkit-transform: rotateY(180deg) translateZ(380px);
 }
 
-.ring>.eight {
+.ring > .eight {
   -webkit-transform: rotateY(210deg) translateZ(380px);
 }
 
-.ring>.nine {
+.ring > .nine {
   -webkit-transform: rotateY(-120deg) translateZ(380px);
 }
 
-.ring>.ten {
+.ring > .ten {
   -webkit-transform: rotateY(-90deg) translateZ(380px);
 }
 
-.ring>.eleven {
+.ring > .eleven {
   -webkit-transform: rotateY(300deg) translateZ(380px);
 }
 
-.ring>.twelve {
+.ring > .twelve {
   -webkit-transform: rotateY(330deg) translateZ(380px);
 }
 
@@ -219,7 +235,7 @@ body {
   font-size: 13px;
 }
 
-.controls>div {
+.controls > div {
   margin: 10px;
 }
 
@@ -229,7 +245,8 @@ body {
   width: 100px;
   height: 137.11px;
   background-image: url("rpg-maker-mv-rpg.png");
-  -webkit-animation: play1X 1.2s steps(9) infinite, play1Y 7.2s steps(6) infinite;
+  -webkit-animation: play1X 1.2s steps(9) infinite,
+    play1Y 7.2s steps(6) infinite;
   -moz-animation: play1X 1.2s steps(9) infinite, play1Y 7.2s steps(6) infinite;
   -ms-animation: play1X 1.2s steps(9) infinite, play1Y 7.2s steps(6) infinite;
   -o-animation: play1X 1.2s steps(9) infinite, play1Y 7.2s steps(6) infinite;
@@ -262,7 +279,8 @@ body {
   width: 110.166px;
   height: 148.6px;
   background-image: url("walking-girl.png");
-  -webkit-animation: play4X 1.5s steps(6) infinite, play4Y 7.5s steps(5) infinite;
+  -webkit-animation: play4X 1.5s steps(6) infinite,
+    play4Y 7.5s steps(5) infinite;
   -moz-animation: play4X 1.5s steps(6) infinite, play4Y 7.5s steps(5) infinite;
   -ms-animation: play4X 1.5s steps(6) infinite, play4Y 7.5s steps(5) infinite;
   -o-animation: play4X 1.5s steps(6) infinite, play4Y 7.5s steps(5) infinite;
