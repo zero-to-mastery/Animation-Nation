@@ -9,41 +9,41 @@ body {
 }
 
 .balloon {
-    width:120px;
-    height:145px;
-    position: relative;
-    background-color: coral;
-    box-shadow:inset 13px 0px 0 rgba(0, 0, 0, 0.07);
-    border-radius: 50%;
-    right: 160px;
-    top: 110px;
-    z-index: 3;
-    transition:transform 0.5s ease;
-    animation:balloon 4s ease-in-out infinite;
-    transform-origin:bottom center;
+  width: 120px;
+  height: 145px;
+  position: relative;
+  background-color: coral;
+  box-shadow: inset 13px 0px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 50%;
+  right: 160px;
+  top: 110px;
+  z-index: 3;
+  transition: transform 0.5s ease;
+  animation: balloon 4s ease-in-out infinite;
+  transform-origin: bottom center;
 }
 
 .balloon:before {
-    content: "^";
-    font-size: 30px;
-    font-weight: bold;
-    color: coral;
-    display:block;
-    text-align:center;
-    width:100%;
-    position:absolute;
-    bottom: -30px;
+  content: "^";
+  font-size: 30px;
+  font-weight: bold;
+  color: coral;
+  display: block;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: -30px;
 }
 
 .balloon:after {
-    display:inline-block;
-    top:153px;
-    position:absolute;
-    height:130px;
-    width:2px;
-    left: 60px;
-    content:"";
-    background:rgba(0,0,0,0.2);
+  display: inline-block;
+  top: 153px;
+  position: absolute;
+  height: 130px;
+  width: 2px;
+  left: 60px;
+  content: "";
+  background: rgba(0, 0, 0, 0.2);
 }
 
 #cat-body {
@@ -133,7 +133,6 @@ body {
   margin-top: -15px;
   z-index: 4;
 }
-
 
 .eye {
   height: 35px;
@@ -286,15 +285,21 @@ body {
 }
 
 @keyframes bounce {
-    0%, 100% { bottom: 15px; }
-    60% { bottom: 0px; }
+  0%,
+  100% {
+    bottom: 15px;
+  }
+  60% {
+    bottom: 0px;
+  }
 }
 
 @keyframes balloon {
-    0%, 100% {
-        transform:translateY(0) rotate(4deg);
-    }
-    50% {
-        transform:translateY(25px) rotate(-4deg);
-    }
+  0%,
+  100% {
+    transform: translateY(0) rotate(4deg);
+  }
+  50% {
+    transform: translateY(25px) rotate(-4deg);
+  }
 }

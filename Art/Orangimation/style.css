@@ -20,9 +20,23 @@ body {
 }
 
 @keyframes myanimation {
-  0% {background-color: orange;}
-  25% {transform: scale(1.25) rotateZ(90deg); border-radius: 5% 5% 5% 50%;}
-  50% {transform: scale(1.5) rotateZ(180deg); border-radius: 5% 5% 50% 50%;}
-  75% {transform: scale(1.75) rotateZ(270deg); border-radius: 5% 50% 50% 50%;}
-  100% {transform: scale(2); border-radius: 50% 50% 50% 50%;}
+  0% {
+    background-color: orange;
+  }
+  25% {
+    transform: scale(1.25) rotateZ(90deg);
+    border-radius: 5% 5% 5% 50%;
+  }
+  50% {
+    transform: scale(1.5) rotateZ(180deg);
+    border-radius: 5% 5% 50% 50%;
+  }
+  75% {
+    transform: scale(1.75) rotateZ(270deg);
+    border-radius: 5% 50% 50% 50%;
+  }
+  100% {
+    transform: scale(2);
+    border-radius: 50% 50% 50% 50%;
+  }
 }

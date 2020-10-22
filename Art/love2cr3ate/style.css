@@ -19,7 +19,6 @@ body {
   background-color: var(--background-color);
 }
 
-
 .heart {
   position: relative;
   top: 0;
@@ -47,7 +46,6 @@ body {
   content: "";
   border-radius: 50%;
   position: absolute;
-  
 }
 
 .heart--big:before,

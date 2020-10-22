@@ -1,4 +1,6 @@
-.skater, .skater_body, .skater_board {
+.skater,
+.skater_body,
+.skater_board {
   animation-iteration-count: infinite;
   -webkit-animation-duration: 4s;
 }

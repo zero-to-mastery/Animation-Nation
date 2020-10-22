@@ -1,10 +1,15 @@
 @-webkit-keyframes travel {
-  from { left: 0;     }
-  to   { left: 640px; }
+  from {
+    left: 0;
+  }
+  to {
+    left: 640px;
+  }
 }
 
 @-webkit-keyframes bounce {
-  from, to  {
+  from,
+  to {
     bottom: 0;
     -webkit-animation-timing-function: ease-out;
   }
@@ -15,19 +20,27 @@
 }
 
 @-webkit-keyframes spin {
-  from {                                     }
-  to   { -webkit-transform: rotateZ(360deg); }
+  from {
+  }
+  to {
+    -webkit-transform: rotateZ(360deg);
+  }
 }
 
 /* keyframes definition for other browsers */
 
 @keyframes travel {
-  from { left: 0;     }
-  to   { left: 640px; }
+  from {
+    left: 0;
+  }
+  to {
+    left: 640px;
+  }
 }
 
 @keyframes bounce {
-  from, to  {
+  from,
+  to {
     bottom: 0;
     animation-timing-function: ease-out;
   }
@@ -87,11 +100,41 @@
   height: 20px;
   border-radius: 10px;
   background: red;
-  background: -webkit-radial-gradient(60% 40%, circle, rgba(255,255,255,0.8), red 50%) red;
-  background: -moz-radial-gradient(60% 40%, circle, rgba(255,255,255,0.8), red 50%) red;
-  background: -o-radial-gradient(60% 40%, circle, rgba(255,255,255,0.8), red 50%) red;
-  background: -ms-radial-gradient(60% 40%, circle, rgba(255,255,255,0.8), red 50%) red;
-  background: radial-gradient(60% 40%, circle, rgba(255,255,255,0.8), red 50%) red;
+  background: -webkit-radial-gradient(
+      60% 40%,
+      circle,
+      rgba(255, 255, 255, 0.8),
+      red 50%
+    )
+    red;
+  background: -moz-radial-gradient(
+      60% 40%,
+      circle,
+      rgba(255, 255, 255, 0.8),
+      red 50%
+    )
+    red;
+  background: -o-radial-gradient(
+      60% 40%,
+      circle,
+      rgba(255, 255, 255, 0.8),
+      red 50%
+    )
+    red;
+  background: -ms-radial-gradient(
+      60% 40%,
+      circle,
+      rgba(255, 255, 255, 0.8),
+      red 50%
+    )
+    red;
+  background: radial-gradient(
+      60% 40%,
+      circle,
+      rgba(255, 255, 255, 0.8),
+      red 50%
+    )
+    red;
 
   -webkit-animation-name: bounce, spin;
   -webkit-animation-iteration-count: infinite;

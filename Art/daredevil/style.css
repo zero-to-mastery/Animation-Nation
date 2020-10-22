@@ -1,5 +1,3 @@
-
-
 body {
   animation: colorchange 3s infinite;
   background-color: black;
@@ -26,10 +24,10 @@ body {
   }
 }
 
-.main{
-  font-family: 'Work Sans', sans-serif;
+.main {
+  font-family: "Work Sans", sans-serif;
   font-size: 2.5rem;
-  color: #CC0033;
+  color: #cc0033;
   display: flex;
   align-items: center;
   justify-content: center;

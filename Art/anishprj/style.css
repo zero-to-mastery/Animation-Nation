@@ -1,8 +1,8 @@
 body {
   border: 0;
   padding: 0;
-  background-color: #FFF;
-  font-family: 'Fredoka One', cursive;
+  background-color: #fff;
+  font-family: "Fredoka One", cursive;
 }
 
 .container {
@@ -20,37 +20,32 @@ body {
 
 .text .letter.r {
   animation-delay: 0.3s;
-  color: #CC4C31;
-  text-shadow: 6px 6px #FBAA95,
-               3px 3px #FBAA95;
+  color: #cc4c31;
+  text-shadow: 6px 6px #fbaa95, 3px 3px #fbaa95;
 }
 
 .text .letter.b {
   animation-delay: 0.15s;
-  color: #7CC0BE;
-  text-shadow: 6px 6px #B4E0E3,
-               3px 3px #B4E0E3;
+  color: #7cc0be;
+  text-shadow: 6px 6px #b4e0e3, 3px 3px #b4e0e3;
 }
 
 .text .letter.o {
   animation-delay: 0.4s;
-  color: #FDAA35;
-  text-shadow: 6px 6px #F6C17E,
-               3px 3px #F6C17E;
+  color: #fdaa35;
+  text-shadow: 6px 6px #f6c17e, 3px 3px #f6c17e;
 }
 
 .text .letter.g {
   animation-delay: 0.25s;
-  color: #58A473;
-  text-shadow: 6px 6px #A6CAA1,
-               3px 3px #A6CAA1;
+  color: #58a473;
+  text-shadow: 6px 6px #a6caa1, 3px 3px #a6caa1;
 }
 
 .text .letter.p {
   animation-delay: 0.5s;
   color: #453876;
-  text-shadow: 6px 6px #A49BC0,
-               3px 3px #A49BC0;
+  text-shadow: 6px 6px #a49bc0, 3px 3px #a49bc0;
 }
 
 .text .letter {

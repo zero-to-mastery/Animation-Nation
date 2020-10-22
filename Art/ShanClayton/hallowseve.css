@@ -4,7 +4,7 @@ html {
 }
 
 .text {
-  font-family: 'Nosifer', cursive;
+  font-family: "Nosifer", cursive;
   font-size: 80px;
   text-align: center;
   color: #ff9a00;
@@ -32,7 +32,7 @@ html {
 
 .pumpkin:before,
 .pumpkin:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   width: 100%;
@@ -91,16 +91,17 @@ html {
   border-radius: 50% 70% 15% 30%;
   left: 80px;
   top: 190px;
-  box-shadow: 5px 5px 0 0 #CC6600 inset;
-  transition: all .2s linear;
+  box-shadow: 5px 5px 0 0 #cc6600 inset;
+  transition: all 0.2s linear;
 }
 
 .tooth {
-  background: #CC6600;
+  background: #cc6600;
   width: 30px;
   height: 25px;
   position: absolute;
-  box-shadow: 1px 1px 0 0 #CC6600, 2px 2px 0 0 #CC6600, 3px 3px 0 0 #CC6600, 4px 4px 0 0 #CC6600, 5px 5px 0 0 #CC6600;
+  box-shadow: 1px 1px 0 0 #cc6600, 2px 2px 0 0 #cc6600, 3px 3px 0 0 #cc6600,
+    4px 4px 0 0 #cc6600, 5px 5px 0 0 #cc6600;
 }
 
 .tooth.right {
@@ -121,15 +122,14 @@ html {
   }
 
   to {
-    text-shadow:
-      0 -5px 40px rgba(247, 95, 28),
-      -5px -5px 40px rgba(247, 95, 28),
+    text-shadow: 0 -5px 40px rgba(247, 95, 28), -5px -5px 40px rgba(247, 95, 28),
       5px -5px 40px rgba(247, 95, 28);
   }
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
 

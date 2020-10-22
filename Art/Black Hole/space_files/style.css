@@ -6,7 +6,8 @@ body {
   filter: blur(5px);
 }
 
-span, span:after {
+span,
+span:after {
   display: block;
   border-radius: 50%;
 }
@@ -14,11 +15,13 @@ span, span:after {
 span {
   width: 320px;
   height: 320px;
-  box-shadow: 10px 0 30px 20px #f50, inset -10px 0 30px 40px #f80, -40px 0 70px 0 #f60;
+  box-shadow: 10px 0 30px 20px #f50, inset -10px 0 30px 40px #f80,
+    -40px 0 70px 0 #f60;
   animation: hole 5s linear infinite;
 }
 
-span:before, span:after {
+span:before,
+span:after {
   content: "";
   background: white;
   position: relative;

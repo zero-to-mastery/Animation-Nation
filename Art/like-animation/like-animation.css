@@ -1,11 +1,11 @@
 .like {
-    display: block;
-    width: 639px; 
-    height: 639px;
-    margin:0 auto;
-    background: url(like-animation.gif) 0 0 no-repeat;
-    background-size: 3000%;
-    animation: like-animation-gif steps(28) 1s infinite both;    
+  display: block;
+  width: 639px;
+  height: 639px;
+  margin: 0 auto;
+  background: url(like-animation.gif) 0 0 no-repeat;
+  background-size: 3000%;
+  animation: like-animation-gif steps(28) 1s infinite both;
 }
 
 div {

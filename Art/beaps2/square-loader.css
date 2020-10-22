@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #282C34;
+  background: #282c34;
   margin: 0;
 }
 
@@ -16,7 +16,7 @@ body {
 
 .square {
   animation: lineBorder 2s infinite alternate;
-  background: #651FFF;
+  background: #651fff;
   height: 20px;
   transform-origin: center bottom;
   transform: scale(0) rotate(180deg);
@@ -25,7 +25,7 @@ body {
 
 @keyframes lineBorder {
   to {
-    background: #18FFFF;
+    background: #18ffff;
     transform: scaleX(1) rotate(0);
   }
 }

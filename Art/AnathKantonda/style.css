@@ -1,30 +1,38 @@
-
 body {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding-top: 15%;
-    background-color: #97b1e6;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 15%;
+  background-color: #97b1e6;
 }
 
 .ball {
-    width: 200px;
-    height: 200px;
-    background: #000;
-    border-radius: 50%;
-    position: relative;
-    background: radial-gradient(circle at 50% 20%, #fcfcfc, #efeff1 65%, #9b5050 100%);
-    
-    animation: bounce 0.8s;
-    animation-direction: alternate;
-    animation-timing-function: cubic-bezier(.5,0.05,1,0.5);
-    animation-iteration-count: infinite;
-    transform: rotate(50%);
+  width: 200px;
+  height: 200px;
+  background: #000;
+  border-radius: 50%;
+  position: relative;
+  background: radial-gradient(
+    circle at 50% 20%,
+    #fcfcfc,
+    #efeff1 65%,
+    #9b5050 100%
+  );
+
+  animation: bounce 0.8s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+  animation-iteration-count: infinite;
+  transform: rotate(50%);
 }
 
 @keyframes bounce {
-  from { transform: translate3d(0, 0, 0);     }
-  to   { transform: translate3d(100px, 300px, 0); }
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(100px, 300px, 0);
+  }
 }
 
 @keyframes move-eye-skew {
@@ -32,15 +40,20 @@ body {
     transform: none;
   }
   20% {
-    transform: translateX(-68px) translateY(30px) skewX(15deg) skewY(-10deg) scale(0.95);
+    transform: translateX(-68px) translateY(30px) skewX(15deg) skewY(-10deg)
+      scale(0.95);
   }
-  25%, 44% {
+  25%,
+  44% {
     transform: none;
   }
-  50%, 60% {
-    transform: translateX(68px) translateY(-40px) skewX(5deg) skewY(2deg) scaleX(0.95);
+  50%,
+  60% {
+    transform: translateX(68px) translateY(-40px) skewX(5deg) skewY(2deg)
+      scaleX(0.95);
   }
-  66%, 100% {
+  66%,
+  100% {
     transform: none;
   }
 }
@@ -50,7 +63,12 @@ body {
   height: 40%;
   margin: 30%;
   border-radius: 100%;
-  background: radial-gradient(circle at 50% 50%, #208ab4 0%, #6fbfff 30%, #4381b2 100%);
+  background: radial-gradient(
+    circle at 50% 50%,
+    #208ab4 0%,
+    #6fbfff 30%,
+    #4381b2 100%
+  );
   -webkit-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
   -moz-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
   -ms-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);

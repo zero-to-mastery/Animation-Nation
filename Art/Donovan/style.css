@@ -23,7 +23,7 @@ html {
 
 *:before,
 *:after {
-  content: '';
+  content: "";
   position: absolute;
 }
 
@@ -250,7 +250,7 @@ body {
   grid-row-gap: 5%;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 2fr 0.5fr 0.5fr;
-  grid-template-areas: 'box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1' 'box2 box2 box2 box2 box2 box2 box3 box3 box3 box3 box3 box3' 'box4 box4 box4 box4 box4 box4 box4 box4 box4 box4 box4 box4' 'box5 box5 box6 box6 box6 box6 box6 box7 box7 box7 box7 box7';
+  grid-template-areas: "box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1" "box2 box2 box2 box2 box2 box2 box3 box3 box3 box3 box3 box3" "box4 box4 box4 box4 box4 box4 box4 box4 box4 box4 box4 box4" "box5 box5 box6 box6 box6 box6 box6 box7 box7 box7 box7 box7";
 }
 .box {
   width: 100%;

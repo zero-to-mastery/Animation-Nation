@@ -2,8 +2,6 @@ body {
   background-color: #ff4814;
 }
 
-
-
 .container {
   position: absolute;
   top: 50%;
@@ -18,7 +16,7 @@ body {
 
 @keyframes float {
   50% {
-     transform: translate(0, 20px);
+    transform: translate(0, 20px);
   }
 }
 .shadowFrame {

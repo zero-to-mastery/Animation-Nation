@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 body {
   background-color: rgb(22, 22, 22);
@@ -22,7 +22,7 @@ body {
   margin: 0 auto;
   top: 50%;
   left: 48%;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -30,19 +30,19 @@ body {
 
 .ellipses div:nth-child(1) {
   left: 6px;
-  animation: ellipses1 .8s infinite;
+  animation: ellipses1 0.8s infinite;
 }
 .ellipses div:nth-child(2) {
   left: 6px;
-  animation: ellipses2 .8s infinite;
+  animation: ellipses2 0.8s infinite;
 }
 .ellipses div:nth-child(3) {
   left: 26px;
-  animation: ellipses2 .8s infinite;
+  animation: ellipses2 0.8s infinite;
 }
 .ellipses div:nth-child(4) {
   left: 45px;
-  animation: ellipses3 .8s infinite;
+  animation: ellipses3 0.8s infinite;
 }
 @keyframes ellipses1 {
   0% {

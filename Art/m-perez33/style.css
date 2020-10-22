@@ -1,10 +1,9 @@
-
 .container {
-  height:auto;
+  height: auto;
   transform: scale(4);
   display: flex;
   justify-content: center;
-  margin-top:400px;
+  margin-top: 400px;
   background-color: #424242;
   border-width: 10px;
   border-color: black;
@@ -35,7 +34,7 @@
   width: 80px;
   background-color: #bbb;
   border-radius: 30%;
-  position:absolute;
+  position: absolute;
   left: 10px;
   top: 40px;
   display: flex;
@@ -76,13 +75,12 @@
   }
   100% {
     transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
-
   }
 }
 
 .mouth {
   position: absolute;
-  transform: scale(.4);
+  transform: scale(0.4);
   height: 00px;
   width: 50px;
   left: -33px;
@@ -94,15 +92,15 @@
   padding: 0px 0px 0px 0x;
   border-radius: 18px;
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 
 .mouth2 {
   position: relative;
-  transform: scale(.8);
+  transform: scale(0.8);
   width: 60px;
   left: 0px;
-  top:  -55px;
+  top: -55px;
   border-top: 58px solid transparent;
   border-bottom: 120px solid #424242;
   border-right: 60px solid transparent;
@@ -110,15 +108,14 @@
   padding: 10px 0px 0px 0x;
   border-radius: 18px;
   box-shadow: inset 10px -1px 5px 0px;
-
 }
 
 .mouth-bottom {
   height: 20px;
   width: 40px;
-  background-color:black;
+  background-color: black;
   border-radius: 30%;
-  position:absolute;
+  position: absolute;
   left: 5px;
   top: 5px;
 }

@@ -1,29 +1,28 @@
-body{
-	background-color: black;
+body {
+  background-color: black;
 }
-#road{
-	border-bottom: 11px dashed white;
+#road {
+  border-bottom: 11px dashed white;
 }
-#runner{
-	background: url("https://www.spriteland.com/sprites/downloads/hobbit-style-sprite-sheet-walk-left.png");
-	width: 180px;
-	height: 248px;
-	animation: walk 1s steps(4) infinite,
-				forward 11s linear infinite;
+#runner {
+  background: url("https://www.spriteland.com/sprites/downloads/hobbit-style-sprite-sheet-walk-left.png");
+  width: 180px;
+  height: 248px;
+  animation: walk 1s steps(4) infinite, forward 11s linear infinite;
 }
-@keyframes walk{
-	0%{
-		background-position: 0px;
-	}
-	100%{
-		background-position: 795px;
-	}
+@keyframes walk {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 795px;
+  }
 }
-@keyframes forward{
-	0%{
-		transform: translateX(-100px);
-	}
-	100%{
-		transform: translateX(1200px);
-	}
+@keyframes forward {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(1200px);
+  }
 }

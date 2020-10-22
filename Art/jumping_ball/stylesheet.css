@@ -11,7 +11,7 @@
   animation: skew 3s infinite;
   transform: skew(20deg);
   animation-direction: alternate;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 @keyframes skew {
@@ -23,11 +23,10 @@
   }
 }
 
-
-body, html {
+body,
+html {
   height: 100%;
 }
-
 
 body {
   display: flex;

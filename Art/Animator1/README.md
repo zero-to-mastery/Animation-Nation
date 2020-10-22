@@ -51,5 +51,5 @@ let cards = [
     author: "Joy",
     githubLink: "https://github.com/royranger",
   },
-]
+];
 ```
