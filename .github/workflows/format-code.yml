@@ -1,0 +1,37 @@
+name: Format Code
+on: push
+
+jobs:
+  format:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Pull Repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+      - name: Install Prettier
+        env:
+          PRETTIER_VERSION: 2
+        run: |
+          sudo npm i -g prettier@$PRETTIER_VERSION
+      - name: Format
+        run: |
+          # don't format if there's no .prettierrc file
+          if [ ! -f .prettierrc ]; then
+            echo ".prettierrc not found"
+            echo "terminating workflow..."
+            exit 1;
+          fi
+
+          prettier --check . --ignore-unknown --write
+      - name: Push Back Formatted Code
+        run: |
+          # configure git
+          git config --global user.name "Zero to Mastery"
+          git config --global user.email "zero-to-mastery@users.noreply.github.com"
+
+          git add .
+          git commit -m "(CI) format code" || echo "nothing to commit"
+          git push
