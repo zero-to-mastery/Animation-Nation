@@ -4195,6 +4195,13 @@ let cards = [
     imageLink: './Art/MaxieTextShineOn/maxie-text-shine-on.gif',
     author: 'maxie7',
     githubLink: 'https://github.com/maxie7'
+  },
+  {
+    artName: 'Age Disgracefully',
+    pageLink: './Art/ynoden/index.html',
+    imageLink: './Art/ynoden/Age_Disgracefully.gif',
+    author: 'yusefnoden',
+    githubLink: 'https://github.com/yusefnoden'
   }
 ];
 
