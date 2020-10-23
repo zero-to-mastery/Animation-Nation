@@ -4175,6 +4175,13 @@ let cards = [
     author: 'Gurpreet',
     githubLink: 'https://github.com/gur-p-reet'
   },
+  { 
+    artName: "Personal Info",
+    pageLink: "./Art/Personal_info/triangle/index.html",
+    imageLink: "./Art/Personal_info/trance.gif",
+    author: "Naim Uddin",
+    githubLink: "https://github.com/Naim365",
+  },
   {
     artName: 'Shining Text',
     pageLink: './Art/MaxieTextShineOn/index.html',
