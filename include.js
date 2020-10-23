@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Cool CSS Preloader',
+    pageLink: './Art/Himanshu_Kumawat/index.html',
+    imageLink: './Art/Himanshu_Kumawat/preloader.gif',
+    author: 'Himanshu Kumawat',
+    githubLink: 'https://github.com/013himanshu'
+  }
+  {
     artName: 'Troll-Ball',
     pageLink: './Art/ivantbv/index.html',
     imageLink: './Art/ivantbv/troll-ball.gif',
