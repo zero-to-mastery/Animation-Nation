@@ -4222,6 +4222,13 @@ let cards = [
     githubLink: 'https://github.com/maxie7'
   },
   {
+    artName: 'Spinning Box',
+    pageLink: './Art/KccbzZ/index.html',
+    imageLink: './Art/KccbzZ/cover.png',
+    author: 'KccbzZ',
+    githubLink: 'https://github.com/KccbzZ'
+  },
+  {
     artName: 'Age Disgracefully',
     pageLink: './Art/ynoden/index.html',
     imageLink: './Art/ynoden/Age_Disgracefully.gif',

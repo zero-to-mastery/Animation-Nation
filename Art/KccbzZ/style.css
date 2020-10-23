@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background: #254b1b;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  background: radial-gradient(#3e5e1900, rgba(58, 7, 7, 0));
+  z-index: -100;
+  animation: roll 4s infinite forwards;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  color: rgb(61, 40, 31);
+  text-shadow: 0px 0px 10px rgb(61, 40, 31);
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.mid {
+  width: 960px;
+  height: 650px;
+  background: radial-gradient(rgb(90, 168, 0), rgb(35, 71, 35));
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  clip-path: polygon(0 0, 100% 0, 75% 20%, 25% 20%);
+  width: 1920px;
+  height: 1080px;
+  background: linear-gradient(1turn, rgb(90, 168, 0), rgb(35, 71, 35));
+  position: relative;
+}
+
+.rig {
+  clip-path: polygon(0 0, 0 100%, 25% 80%, 25% 20%);
+  width: 1920px;
+  height: 1080px;
+  background:linear-gradient(-0.25turn,rgb(90, 168, 0), rgb(35, 71, 35));
+  position: relative;
+}
+
+.bot {
+  clip-path: polygon(100% 100%, 0 100%, 25% 80%, 75% 80%);
+  width: 1920px;
+  height: 1080px;
+  background: linear-gradient(0.50turn, rgb(90, 168, 0), rgb(35, 71, 35));
+  position: relative;
+}
+
+.lef {
+  clip-path: polygon(100% 100%, 100% 0, 75% 20%, 75% 80%);
+  width: 1920px;
+  height: 1080px;
+  background: linear-gradient(0.25turn, rgb(90, 168, 0), rgb(35, 71, 35));
+  position: relative;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
