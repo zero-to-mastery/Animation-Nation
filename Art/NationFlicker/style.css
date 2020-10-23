@@ -1,6 +1,6 @@
 @font-face {
   font-family: Clip;
-  src: url("https://fonts.googleapis.com/css2?family=Codystar&family=Dancing+Script:wght@700&display=swap");
+  src: url('https://fonts.googleapis.com/css2?family=Codystar&family=Dancing+Script:wght@700&display=swap');
 }
 
 body {
@@ -25,7 +25,7 @@ body {
   letter-spacing: 2;
   left: 50%;
   top: 50%;
-  font-family: "Clip";
+  font-family: 'Clip';
   text-transform: uppercase;
   font-size: 6em;
   color: #ffe6ff;

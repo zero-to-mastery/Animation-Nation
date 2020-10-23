@@ -7,7 +7,7 @@ body {
 .clock-wrap {
   width: 300px;
   height: 300px;
-  position: absolute;;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -16,9 +16,9 @@ body {
 }
 
 .clock-rotating-wrapper {
-  position:absolute;
-  width:300px;
-  height:300px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
   top: 0;
   left: 0;
   z-index: 3;
@@ -29,7 +29,7 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  display: block;  
+  display: block;
 }
 
 .clock-base {
@@ -42,7 +42,7 @@ body {
   left: 0;
   border: 4px solid #ad0d0d;
   box-sizing: border-box;
-  box-shadow: inset 0px 4px 4px 0px rgba(76, 67, 67,  0.7);
+  box-shadow: inset 0px 4px 4px 0px rgba(76, 67, 67, 0.7);
 }
 
 .clock-rotating-wrapper span.clock-hour-pointer::after {
@@ -96,6 +96,6 @@ body {
 
 @keyframes rotateme {
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }

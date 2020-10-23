@@ -1,10 +1,10 @@
 /*style.css*/
 body {
-	background-color: grey;
+  background-color: grey;
 }
 img {
-	width: 400px;
-	height: 400px;
+  width: 400px;
+  height: 400px;
 }
 .whirl {
   width: 400px;
@@ -17,19 +17,58 @@ img {
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
-  0%   {background-color:fuchsia; left:0px; top:0px;}
-  25%  {background-color:yellow; left:850px; top:0px;}
-  50%  {background-color:blue; left:150px; top:700px;}
-  75%  {background-color:orange; left:7px; top:300px;}
-  100% {background-color:fuchsia; left:80px; top:0px;}
+  0% {
+    background-color: fuchsia;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 850px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 150px;
+    top: 700px;
+  }
+  75% {
+    background-color: orange;
+    left: 7px;
+    top: 300px;
+  }
+  100% {
+    background-color: fuchsia;
+    left: 80px;
+    top: 0px;
+  }
 }
 
 /* Standard syntax */
 @keyframes myfirst {
-  0%   {background-color:fuchsia; left:0px; top:0px;}
-  25%  {background-color:yellow; left:850px; top:0px;}
-  50%  {background-color:blue; left:150px; top:700px;}
-  75%  {background-color:orange; left:7px; top:300px;}
-  100% {background-color:fuchsia; left:80px; top:0px;}
-}
+  0% {
+    background-color: fuchsia;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 850px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 150px;
+    top: 700px;
+  }
+  75% {
+    background-color: orange;
+    left: 7px;
+    top: 300px;
+  }
+  100% {
+    background-color: fuchsia;
+    left: 80px;
+    top: 0px;
+  }
 }

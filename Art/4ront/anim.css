@@ -43,7 +43,6 @@ body {
   top: 70%;
 }
 
-
 .ball-4 {
   background: rgb(41, 179, 221);
   left: 75%;
@@ -62,9 +61,7 @@ body {
   top: 40%;
 }
 
-
 @keyframes main-circle {
-
   0%,
   100% {
     transform: translate(0, -5%);
@@ -79,11 +76,9 @@ body {
   60% {
     transform: translate(60%, -5%);
   }
-
 }
 
 @keyframes shake {
-
   0%,
   100% {
     transform: scale(1, 0);
@@ -100,5 +95,4 @@ body {
   75% {
     transform: scale(0, 1);
   }
-
 }

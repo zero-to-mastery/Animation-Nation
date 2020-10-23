@@ -8,7 +8,7 @@ body {
 
 .container {
   align-items: center;
-  background: #FFFDE7;
+  background: #fffde7;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -24,14 +24,14 @@ body {
 
 @keyframes loader {
   0% {
-    border-left-color: #FFC400;
-    border-right-color: #00B0FF;
+    border-left-color: #ffc400;
+    border-right-color: #00b0ff;
     transform: scale(1) rotate(180deg);
   }
-  
+
   100% {
-    border-bottom-color: #FFC400;
-    border-top-color: #00B0FF;
+    border-bottom-color: #ffc400;
+    border-top-color: #00b0ff;
     transform: scale(0.7);
   }
 }

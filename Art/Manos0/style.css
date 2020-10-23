@@ -2,10 +2,10 @@ div#one {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top:300px;
+  margin-top: 300px;
   height: 70px;
   width: 25%;
-  border-radius: 15px 50px; 
+  border-radius: 15px 50px;
   background: #d19930;
   animation: rotate 4s infinite linear;
 }
@@ -16,7 +16,7 @@ div#two {
   margin-right: auto;
   height: 70px;
   width: 25%;
-  border-radius: 25px; 
+  border-radius: 25px;
   background: #cf6d46;
   animation: rotate 4s infinite linear;
 }
@@ -27,12 +27,16 @@ div#three {
   margin-right: auto;
   height: 70px;
   width: 25%;
-  border-radius: 50px 15px; 
+  border-radius: 50px 15px;
   background: #d19930;
   animation: rotate 4s infinite linear alternate;
 }
 
 @keyframes rotate {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
-} 
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

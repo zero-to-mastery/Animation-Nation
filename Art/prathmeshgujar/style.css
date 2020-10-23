@@ -1,37 +1,40 @@
-.barContainer{
-	height: 100vh;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+.barContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.bar1, .bar2, .bar3, .bar4, .bar5{
-	background-color: #ff2200;
-	width: 15px;
-	height: 80px;
-	margin-left: 5px;
-	animation: equalize 1.25s steps(25, end) 0s infinite;
+.bar1,
+.bar2,
+.bar3,
+.bar4,
+.bar5 {
+  background-color: #ff2200;
+  width: 15px;
+  height: 80px;
+  margin-left: 5px;
+  animation: equalize 1.25s steps(25, end) 0s infinite;
 }
 
-
-.bar1{
+.bar1 {
   animation-duration: 1.9s;
 }
 
-.bar2{
+.bar2 {
   animation-duration: 2s;
 }
 
-.bar3{
+.bar3 {
   animation-duration: 2.3s;
 }
 
-.bar4{
+.bar4 {
   animation-duration: 0.9s;
 }
 
-.bar5{
+.bar5 {
   animation-duration: 1.9s;
 }
 

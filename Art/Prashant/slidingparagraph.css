@@ -1,13 +1,13 @@
-body{
-  background: #6FB98F;
+body {
+  background: #6fb98f;
 }
 p {
   animation-duration: 3s;
   animation-name: slidein;
   font-size: 40px;
-  top:35%;
+  top: 35%;
   position: fixed;
-  font-family: "Mansalva";
+  font-family: 'Mansalva';
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
@@ -15,7 +15,7 @@ p {
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%; 
+    width: 300%;
   }
 
   to {
@@ -23,4 +23,3 @@ p {
     width: 100%;
   }
 }
-

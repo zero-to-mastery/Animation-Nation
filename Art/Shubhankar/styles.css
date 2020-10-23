@@ -62,7 +62,7 @@ a:hover::before {
   left: 100%;
 }
 a::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: -100%;

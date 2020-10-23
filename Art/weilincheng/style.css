@@ -7,57 +7,57 @@
 }
 
 .element {
-    width: 100px;
-    height: 100px;
-    animation-duration: 3s; 
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  width: 100px;
+  height: 100px;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .color1 {
-    animation-name: pulse1; 
+  animation-name: pulse1;
 }
 
 .color2 {
-    animation-name: pulse2; 
+  animation-name: pulse2;
 }
 
 .color3 {
-    animation-name: pulse3; 
+  animation-name: pulse3;
 }
 
 @keyframes pulse1 {
-    0% {
-      background-color: #FDB0C0;
-    }
-    50% {
-      background-color: #4A0100;
-    }
-    100% {
-      background-color: #FD4659;
-    }
+  0% {
+    background-color: #fdb0c0;
+  }
+  50% {
+    background-color: #4a0100;
+  }
+  100% {
+    background-color: #fd4659;
+  }
 }
 
 @keyframes pulse2 {
-    0% {
-      background-color: #4A0100;
-    }
-    50% {
-      background-color: #FD4659;
-    }
-    100% {
-      background-color: #FDB0C0;
-    }
+  0% {
+    background-color: #4a0100;
+  }
+  50% {
+    background-color: #fd4659;
+  }
+  100% {
+    background-color: #fdb0c0;
+  }
 }
 
 @keyframes pulse3 {
-    0% {
-      background-color: #FD4659;
-    }
-    50% {
-      background-color: #FDB0C0;
-    }
-    100% {
-      background-color: #4A0100;
-    }
+  0% {
+    background-color: #fd4659;
+  }
+  50% {
+    background-color: #fdb0c0;
+  }
+  100% {
+    background-color: #4a0100;
+  }
 }

@@ -8,33 +8,35 @@ div {
 }
 
 #div1 {
-	animation-timing-function: linear;
-	background-color: #FF66FF;
-    }
-    
+  animation-timing-function: linear;
+  background-color: #ff66ff;
+}
+
 #div2 {
-    animation-timing-function: ease;
-    background-color: #33FFCC;
-    }
-    
+  animation-timing-function: ease;
+  background-color: #33ffcc;
+}
+
 #div3 {
-    animation-timing-function: ease-in;
-    background-color: #33FF00;
-    }
+  animation-timing-function: ease-in;
+  background-color: #33ff00;
+}
 
 #div4 {
-    animation-timing-function: ease-out;
-    background-color: #FFCCFF;
-    }
+  animation-timing-function: ease-out;
+  background-color: #ffccff;
+}
 
 #div5 {
-    animation-timing-function: ease-in-out;
-    background-color: #FF44DD;
-    }
-
-
+  animation-timing-function: ease-in-out;
+  background-color: #ff44dd;
+}
 
 @keyframes mymove {
-  from {left: 0px;}
-  to {left: 900px;}
+  from {
+    left: 0px;
+  }
+  to {
+    left: 900px;
+  }
 }

@@ -1,20 +1,62 @@
 body {
-  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(242, 245, 243), rgb(214, 154, 241)) repeat scroll 0% 0%;;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, rgb(242, 245, 243), rgb(214, 154, 241)) repeat
+    scroll 0% 0%;
 }
 @keyframes squared {
-  0%   {background-color:rgb(233, 234, 240); left:0px; top:0px;}
-  25%  {background-color:beige; left:200px; top:0px;}
-  50%  {background-color:rgb(123, 123, 224); left:200px; top:200px;}
-  75%  {background-color:rgb(80, 93, 209); left:0px; top:200px;}
-  100% {background-color:rgb(44, 60, 204); left:0px; top:0px;}
+  0% {
+    background-color: rgb(233, 234, 240);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: beige;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: rgb(123, 123, 224);
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: rgb(80, 93, 209);
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: rgb(44, 60, 204);
+    left: 0px;
+    top: 0px;
+  }
 }
 
 @keyframes squaredTwo {
-  0%   {background-color:rgb(20, 1, 20); left:0px; top:0px;}
-  25%  {background-color:rgb(89, 3, 97); left:200px; top:0px;}
-  50%  {background-color:rgb(133, 15, 156); left:200px; top:200px;}
-  75%  {background-color:rgb(198, 80, 209); left:0px; top:200px;}
-  100% {background-color:rgb(245, 183, 245); left:0px; top:0px;}
+  0% {
+    background-color: rgb(20, 1, 20);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: rgb(89, 3, 97);
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: rgb(133, 15, 156);
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: rgb(198, 80, 209);
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: rgb(245, 183, 245);
+    left: 0px;
+    top: 0px;
+  }
 }
 
 .squareOne {

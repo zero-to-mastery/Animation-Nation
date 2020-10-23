@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   padding: 0;
   background: #34495e;
@@ -6,10 +6,10 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "montserrat",sans-serif;
+  font-family: 'montserrat', sans-serif;
 }
 
-.loading{
+.loading {
   width: 200px;
   height: 200px;
   box-sizing: border-box;
@@ -19,7 +19,8 @@ body{
   animation: a1 2s linear infinite;
 }
 
-.loading::before,.loading::after{
+.loading::before,
+.loading::after {
   content: '';
   width: 200px;
   height: 200px;
@@ -30,17 +31,17 @@ body{
   border-radius: 50%;
 }
 
-.loading::before{
+.loading::before {
   border-top: 10px solid #e67e22;
   transform: rotate(120deg);
 }
 
-.loading::after{
+.loading::after {
   border-top: 10px solid #3498db;
   transform: rotate(240deg);
 }
 
-.loading span{
+.loading span {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -51,13 +52,13 @@ body{
 }
 
 @keyframes a1 {
-  to{
+  to {
     transform: rotate(360deg);
   }
 }
 
 @keyframes a2 {
-  to{
+  to {
     transform: rotate(-360deg);
   }
 }
