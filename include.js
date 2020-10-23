@@ -4150,6 +4150,31 @@ let cards = [
     author: 'sameer',
     githubLink: 'https://github.com/sameer8605'
   },
+
+  {
+    pageLink: './Art/radar animation/index.html',
+    imageLink: './Art/radar.gif',
+    author: 'Anup',
+    githubLink: 'https://github.com/paddybaba'
+  },
+  {
+    pageLink: './Art/sameer786/animation.html',
+    imageLink: './Art/sameer786/radius.gif',
+    author: 'sameer',
+    githubLink: 'https://github.com/sameer8605'
+  },
+  {
+    pageLink: './Art/radar animation/index.html',
+    imageLink: './Art/radar',
+    author: 'Anup',
+    githubLink: 'https://github.com/paddybaba'
+  },
+  {
+    pageLink: './Art/sameer786/animation.html',
+    imageLink: './Art/sameer786/radius.gif',
+    author: 'sameer',
+    githubLink: 'https://github.com/sameer8605'
+  },
   {
     artName: 'Friendly Ghost',
     pageLink: './Art/ristotoldsep/index.html',
@@ -4202,6 +4227,13 @@ let cards = [
     imageLink: './Art/ynoden/Age_Disgracefully.gif',
     author: 'yusefnoden',
     githubLink: 'https://github.com/yusefnoden'
+  },
+  {
+    artname: 'jimanimation',
+    pageLink: './Art/jimanimation/index.html',
+    imageLink: './Art/jimanimation/bouncy.gif',
+    author: 'Jimin',
+    githubLink: 'https://github.com/jimijos'
   }
 ];
 
