@@ -1,42 +1,43 @@
-html, body{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.box{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.box {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.circle{
-    border-radius: 50%;
-	border: 2px outset #36FF22;
+.circle {
+  border-radius: 50%;
+  border: 2px outset #36ff22;
 }
-.one{
-	animation: expand 2400ms infinite linear;
+.one {
+  animation: expand 2400ms infinite linear;
 }
-.two{
-	animation: expand 2400ms infinite 600ms linear;
+.two {
+  animation: expand 2400ms infinite 600ms linear;
 }
-.three{
-	animation: expand 2400ms infinite 1200ms linear;
+.three {
+  animation: expand 2400ms infinite 1200ms linear;
 }
-.four{
-	animation: expand 2400ms infinite 1800ms linear;
+.four {
+  animation: expand 2400ms infinite 1800ms linear;
 }
 @keyframes expand {
-	from{
-		height: 0px;
-		width: 0px;
-	}
-	to{
-		height: 100%;
-		width: 100%;
-	}
+  from {
+    height: 0px;
+    width: 0px;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
 }
