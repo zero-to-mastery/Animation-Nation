@@ -4222,6 +4222,13 @@ let cards = [
     githubLink: 'https://github.com/maxie7'
   },
   {
+    artName: 'Age Disgracefully',
+    pageLink: './Art/ynoden/index.html',
+    imageLink: './Art/ynoden/Age_Disgracefully.gif',
+    author: 'yusefnoden',
+    githubLink: 'https://github.com/yusefnoden'
+  },
+  {
     artname: 'jimanimation',
     pageLink: './Art/jimanimation/index.html',
     imageLink: './Art/jimanimation/bouncy.gif',
