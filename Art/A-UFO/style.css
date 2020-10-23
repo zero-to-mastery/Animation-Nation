@@ -123,7 +123,7 @@ body {
 }
 
 .ufo:after {
-  content: "";
+  content: '';
   height: 18rem;
   width: 6rem;
   box-shadow: var(--cockpit);
@@ -136,7 +136,7 @@ body {
   display: none;
 }
 .ufo:before {
-  content: "";
+  content: '';
   height: 18rem;
   width: 2rem;
   background-color: #fff;

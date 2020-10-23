@@ -20,13 +20,13 @@ p {
   line-height: 50px;
   font-style: italic;
   font-size: 150%;
-  font-family: "Crimson Pro", serif;
+  font-family: 'Crimson Pro', serif;
   font-weight: bold;
 }
-img{
+img {
   float: right;
 }
-footer{
+footer {
   clear: both;
   text-align: center;
 }

@@ -1,4 +1,4 @@
-body{
+body {
   width: 100%;
   height: 100%;
   display: flex;
@@ -9,20 +9,19 @@ body{
   font-weight: bold;
 }
 
-h1{
+h1 {
   color: beige;
   margin-top: 25px;
   margin-left: 40%;
 }
 
-h2{
+h2 {
   color: burlywood;
-  margin-top:105px;
+  margin-top: 105px;
   margin-left: -350px;
 }
 
-
-.container{
+.container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -37,21 +36,21 @@ h2{
   border-radius: 50%;
 }
 
-.container > div{
-   width: 50px;
-   height: 75px;
-   background: white;
+.container > div {
+  width: 50px;
+  height: 75px;
+  background: white;
 }
 
 .iris-left,
-.iris-right{
+.iris-right {
   width: 20px;
   height: 20px;
   background: black;
 }
 
 .eye-lit-left,
-.eye-lit-right{
+.eye-lit-right {
   width: 50px;
   height: 75px;
   border-radius: 50% 50% 0 0;
@@ -59,16 +58,15 @@ h2{
   visibility: hidden;
 }
 
-.eye-left{
+.eye-left {
   margin-left: -30px;
 }
 
-.eye-right{
+.eye-right {
   margin-left: 30px;
-  
 }
 
-.iris-left{
+.iris-left {
   margin-left: -25px;
   animation: myMove 5s linear 0s infinite normal;
 }
@@ -80,7 +78,7 @@ h2{
 }
 
 .eye-lit-left,
-.eye-lit-right{
+.eye-lit-right {
   margin-top: -37.5px;
   margin-left: -25px;
   animation-name: eye-lit;
@@ -90,8 +88,6 @@ h2{
 .eye-right:hover > .eye-lit-right {
   visibility: visible;
 }
-
-
 
 @keyframes myMove {
   0% {

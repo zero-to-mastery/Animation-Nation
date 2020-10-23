@@ -19,7 +19,7 @@
 }
 
 .middle:before,
-.middle:after{
+.middle:after {
   background-color: rgb(255, 149, 240);
   height: 4rem;
   width: 4rem;
@@ -28,22 +28,38 @@
   border-radius: 50%;
 }
 
-.middle:before{
+.middle:before {
   bottom: 0;
   left: -2.15rem;
 }
-.middle:after{
+.middle:after {
   top: -2.15rem;
   right: 0px;
 }
 
 @keyframes heart-beat {
-  0% { transform: scale(1); }
-  30% { transform: scale(1); }
-	40% { transform: scale(1.2); }
-	50% { transform: scale(1); }
-	60% { transform: scale(1); }
-	70% { transform: scale(1.05); }
-	80% { transform: scale(1); }
-	100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

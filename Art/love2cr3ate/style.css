@@ -19,7 +19,6 @@ body {
   background-color: var(--background-color);
 }
 
-
 .heart {
   position: relative;
   top: 0;
@@ -44,10 +43,9 @@ body {
 
 .heart:before,
 .heart:after {
-  content: "";
+  content: '';
   border-radius: 50%;
   position: absolute;
-  
 }
 
 .heart--big:before,
@@ -59,7 +57,7 @@ body {
 
 .heart--small:before,
 .heart--small:after {
-  content: "";
+  content: '';
   border-radius: 50%;
   position: absolute;
   background-color: var(--heart-small-bg);

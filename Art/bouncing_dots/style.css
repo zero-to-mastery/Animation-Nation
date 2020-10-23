@@ -20,11 +20,11 @@
   animation-delay: 0.1s;
 }
 .dots > div:nth-child(3) {
-  animation-delay: 0.0s;
+  animation-delay: 0s;
 }
 .dots > div:nth-child(4) {
   animation-delay: 0.1s;
 }
 .dots > div:nth-child(5) {
-  animation-delay: 0.0s;
+  animation-delay: 0s;
 }

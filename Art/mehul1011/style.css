@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #1e1e1e;
 }
 
@@ -10,7 +10,7 @@ body{
   text-align: center;
 }
 
-.container{
+.container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -38,137 +38,120 @@ body{
 .two {
   transform-origin: center right;
   animation: spin2 3s linear infinite;
-  animation-delay: .2s;
+  animation-delay: 0.2s;
 }
 
 .three {
   /* margin-left: -10px;  */
   transform-origin: center right;
   animation: spin3 3s linear infinite;
-  animation-delay: .4s;
+  animation-delay: 0.4s;
 }
-.fourth{
+.fourth {
   /* margin-left: 50px; */
   transform-origin: center right;
   animation: spin4 3s linear infinite;
-  animation-delay: .4s;
+  animation-delay: 0.4s;
 }
 
-@keyframes spin{
-  0%{
+@keyframes spin {
+  0% {
     transform: rotate(0deg);
   }
-  25%{
+  25% {
     transform: rotate(360deg);
   }
-  30%{
+  30% {
     transform: rotate(370deg);
   }
-  35%{
+  35% {
     transform: rotate(360deg);
   }
-  100%{
+  100% {
     transform: rotate(360deg);
   }
 }
 
-@keyframes spin2{
-  0%{
+@keyframes spin2 {
+  0% {
     transform: rotate(0deg);
   }
-  20%{
+  20% {
     transform: rotate(0deg);
-
   }
-  30%{
+  30% {
     transform: rotate(-180deg);
-
   }
-  35%{
+  35% {
     transform: rotate(-190deg);
-
   }
-  40%{
+  40% {
     transform: rotate(-180deg);
-
   }
-  78%{
+  78% {
     transform: rotate(-180deg);
-
   }
-  95%{
+  95% {
     transform: rotate(-360deg);
-
   }
-  98%{
+  98% {
     transform: rotate(-370deg);
-
   }
-  100%{
+  100% {
     transform: rotate(-360deg);
-
   }
 }
 
- @keyframes spin3{
-  0%{
+@keyframes spin3 {
+  0% {
     transform: rotate(0deg);
-
   }
-  27%{
+  27% {
     transform: rotate(0deg);
-
   }
-  40%{
+  40% {
     transform: rotate(180deg);
-
   }
-  45%{
+  45% {
     transform: rotate(190deg);
-
   }
-  50%{
+  50% {
     transform: rotate(180deg);
-
   }
-  62%{
+  62% {
     transform: rotate(180deg);
-
   }
-  75%{
+  75% {
     transform: rotate(360deg);
-
   }
-  80%{
+  80% {
     transform: rotate(370deg);
-
   }
-  85%{
-    transform: rotate(360deg);
-
-  }
-  100%{
+  85% {
     transform: rotate(360deg);
   }
-} 
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
-@keyframes spin4{
-  0%{
+@keyframes spin4 {
+  0% {
     transform: rotate(0deg);
   }
-  38%{
+  38% {
     transform: rotate(0deg);
   }
-  60%{
+  60% {
     transform: rotate(-360deg);
   }
-  65%{
+  65% {
     transform: rotate(-370deg);
   }
-  75%{
+  75% {
     transform: rotate(-360deg);
   }
-  100%{
+  100% {
     transform: rotate(-360deg);
   }
 }

@@ -1,4 +1,6 @@
-body { background: #222; }
+body {
+  background: #222;
+}
 .box {
   background-color: #61ab20;
   margin: 0 auto;
@@ -16,35 +18,80 @@ body { background: #222; }
   height: 20px;
   border-radius: 50%;
   background-color: #3673cf;
-  box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  box-shadow: inset -5px -5px 5px rgba(0, 0, 0, 0.6),
+    15px 15px 2px rgba(0, 0, 0, 0.04);
   position: absolute;
-  -webkit-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-  -moz-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-  -o-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-  animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -webkit-animation: moveX 3.05s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
+  -moz-animation: moveX 3.05s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
+  -o-animation: moveX 3.05s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
+  animation: moveX 3.05s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
 }
 
 @-webkit-keyframes moveX {
-  from { left: 0; } to { left: 480px; }
+  from {
+    left: 0;
+  }
+  to {
+    left: 480px;
+  }
 }
 @-moz-keyframes moveX {
-  from { left: 0; } to { left: 480px; }
+  from {
+    left: 0;
+  }
+  to {
+    left: 480px;
+  }
 }
 @-o-keyframes moveX {
-  from { left: 0; } to { left: 480px; }
+  from {
+    left: 0;
+  }
+  to {
+    left: 480px;
+  }
 }
 @keyframes moveX {
-  from { left: 0; } to { left: 480px; }
+  from {
+    left: 0;
+  }
+  to {
+    left: 480px;
+  }
 }
 @-webkit-keyframes moveY {
-  from { top: 0; } to { top: 280px; }
+  from {
+    top: 0;
+  }
+  to {
+    top: 280px;
+  }
 }
 @-moz-keyframes moveY {
-  from { top: 0; } to { top: 280px; }
+  from {
+    top: 0;
+  }
+  to {
+    top: 280px;
+  }
 }
 @-o-keyframes moveY {
-  from { top: 0; } to { top: 280px; }
+  from {
+    top: 0;
+  }
+  to {
+    top: 280px;
+  }
 }
 @keyframes moveY {
-  from { top: 0; } to { top: 280px; }
+  from {
+    top: 0;
+  }
+  to {
+    top: 280px;
+  }
 }

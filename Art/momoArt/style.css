@@ -8,22 +8,22 @@
   overflow: hidden;
 }
 
-@keyframes pulse{
-  0%{
+@keyframes pulse {
+  0% {
     background-color: blue;
   }
-  50%{
-    background-color: red; 
+  50% {
+    background-color: red;
   }
-  100%{
+  100% {
     background-color: blue;
   }
 }
-.shape{
+.shape {
   width: 100%;
   height: 20px;
 }
 html,
-body{
+body {
   height: 100%;
 }

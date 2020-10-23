@@ -42,7 +42,7 @@ body {
 .blubb-1:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 50px;
   height: 50px;
   background: #000;
@@ -63,7 +63,7 @@ body {
 .blubb-2:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 50px;
   height: 50px;
   background: #000;
@@ -83,7 +83,7 @@ body {
 .blubb-3:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 50px;
   height: 50px;
   background: #000;
@@ -104,7 +104,7 @@ body {
 .blubb-4:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 50px;
   height: 50px;
   background: #000;
@@ -125,7 +125,7 @@ body {
 .blubb-5:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 50px;
   height: 50px;
   background: #000;
@@ -146,7 +146,7 @@ body {
 .blubb-6:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 50px;
   height: 50px;
   background: #000;
@@ -167,7 +167,7 @@ body {
 .blubb-7:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 50px;
   height: 50px;
   background: #000;
@@ -188,7 +188,7 @@ body {
 .blubb-8:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 50px;
   height: 50px;
   background: #000;
@@ -209,7 +209,7 @@ body {
 .sparkle-1:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 15px;
   height: 15px;
   background: #000;
@@ -230,7 +230,7 @@ body {
 .sparkle-2:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 9px;
   height: 9px;
   background: #000;
@@ -251,7 +251,7 @@ body {
 .sparkle-3:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 10px;
   height: 10px;
   background: #000;
@@ -272,7 +272,7 @@ body {
 .sparkle-4:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 11px;
   height: 11px;
   background: #000;
@@ -293,7 +293,7 @@ body {
 .sparkle-5:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 12px;
   height: 12px;
   background: #000;
@@ -314,7 +314,7 @@ body {
 .sparkle-6:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 13px;
   height: 13px;
   background: #000;
@@ -335,7 +335,7 @@ body {
 .sparkle-7:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 20px;
   height: 20px;
   background: #000;
@@ -356,7 +356,7 @@ body {
 .sparkle-8:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 15px;
   height: 15px;
   background: #000;
@@ -377,7 +377,7 @@ body {
 .sparkle-9:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 6px;
   height: 6px;
   background: #000;
@@ -398,7 +398,7 @@ body {
 .sparkle-10:after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 20px;
   height: 20px;
   background: #000;

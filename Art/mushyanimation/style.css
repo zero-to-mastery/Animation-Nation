@@ -17,7 +17,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-content: center;
-  
+
   &__content {
     position: relative;
     align-self: center;
@@ -54,9 +54,7 @@ h1 {
 }
 
 @keyframes fall {
-  
   100% {
     transform: translateY(0);
   }
-  
 }

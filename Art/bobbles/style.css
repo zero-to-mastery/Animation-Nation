@@ -1,26 +1,26 @@
 body {
-	margin-top: 200px;
+  margin-top: 200px;
 }
 
 .container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .bobble {
-	animation: bubble-anim 2s ease-out infinite;
-	border-radius: 50%;
-	height: 200px;
-	width: 200px;
+  animation: bubble-anim 2s ease-out infinite;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
 }
 
 .color1 {
-	background: radial-gradient(#2caaaf, #000);
+  background: radial-gradient(#2caaaf, #000);
 }
 
 .color2 {
-	background: radial-gradient(#5cafff, #000);
+  background: radial-gradient(#5cafff, #000);
 }
 
 @keyframes bubble-anim {

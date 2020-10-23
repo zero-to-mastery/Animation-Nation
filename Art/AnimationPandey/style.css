@@ -1,5 +1,6 @@
 body {
-  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  font: 600 14px/24px 'Open Sans', 'HelveticaNeue-Light', 'Helvetica Neue Light',
+    'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', Sans-Serif;
   margin: 12px 0;
   background-image: linear-gradient(to left, blue, green);
   display: flex;
@@ -41,8 +42,7 @@ body {
   transform: rotateY(180deg);
 }
 
-
-.second-container{
+.second-container {
   cursor: pointer;
   height: 150px;
   perspective: 600;
@@ -50,13 +50,13 @@ body {
   position: relative;
 }
 
-#roses{
+#roses {
   width: 160px;
   height: 180px;
-  margin-top: 40px;  
+  margin-top: 40px;
 }
 
-.card2{
+.card2 {
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
@@ -83,5 +83,4 @@ body {
   line-height: 178px;
   text-align: center;
   transform: rotateY(180deg);
-
 }

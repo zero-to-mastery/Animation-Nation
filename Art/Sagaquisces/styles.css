@@ -24,29 +24,29 @@ html {
     background-color: silver;
     height: 100px;
     width: 100px;
-    left:0px;
-    top:0px;
+    left: 0px;
+    top: 0px;
   }
   25% {
     background-color: black;
     height: 200px;
     width: 50%;
-    left:200px;
-    top:0px;
+    left: 200px;
+    top: 0px;
   }
   50% {
     background-color: red;
     height: 300px;
     width: 100%;
-    left:200px;
-    top:200px;
+    left: 200px;
+    top: 200px;
   }
   75% {
     background-color: black;
     height: 200px;
     width: 50%;
-    left:0px;
-    top:200px;
+    left: 0px;
+    top: 200px;
   }
   100% {
     background-color: silver;
@@ -61,7 +61,9 @@ html {
   display: flex;
 }
 
-#one, #two, #three {
+#one,
+#two,
+#three {
   width: 100px;
   height: 100px;
   background-color: silver;
@@ -72,13 +74,13 @@ html {
 }
 
 #two {
-  animation-delay: .5s;
-    animation-timing-function: ease-in;
-      animation-duration: 50s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-in;
+  animation-duration: 50s;
 }
 
 #three {
-    animation-timing-function: ease-out;
-  animation-delay: .1s;
-    animation-duration: 10s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.1s;
+  animation-duration: 10s;
 }

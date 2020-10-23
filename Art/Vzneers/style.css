@@ -1,15 +1,16 @@
-body, html{
+body,
+html {
   height: 96vh;
   background-color: #5492de;
   color: white;
 }
 
 .zero {
-  display:flex;
+  display: flex;
   font-size: 50px;
   justify-content: center;
   align-items: center;
-  height:100%;
+  height: 100%;
   margin: auto;
   font-family: Helvetica, sans-serif, Arial;
   animation: mastery 1.2s infinite 0s ease-in-out;
@@ -18,11 +19,11 @@ body, html{
 }
 
 @keyframes mastery {
-    0%{
-        opacity: 0.08;
-        letter-spacing: 3px;
-        }
-    100%{
-      ///
-        }
+  0% {
+    opacity: 0.08;
+    letter-spacing: 3px;
+  }
+  100% {
+    ///
+  }
 }

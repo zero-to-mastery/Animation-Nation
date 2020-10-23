@@ -1,5 +1,5 @@
 * {
-  font-family: "Butcherman", cursive;
+  font-family: 'Butcherman', cursive;
 }
 
 html {
@@ -78,7 +78,7 @@ html:hover .spiderThree {
 .eye:after {
   width: 6.6666666667px;
   height: 6.6666666667px;
-  content: "";
+  content: '';
   display: block;
   margin: 55%;
   background-color: black;

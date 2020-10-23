@@ -1,8 +1,8 @@
 body,
 html {
-	width: 100%;
-	height: 100%;
-	margin: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
 }
 /*
 body {
@@ -11,65 +11,62 @@ background: url(logo11.png) repeat center;
 }*/
 
 .brandcontainer {
-	width: 140px;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: flex-start;
-	padding: 2px;
-	
+  width: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  padding: 2px;
 }
-
 
 #bgrnd {
-	width: 100%;
-	height: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-	flex-shrink: 1;
-}
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  flex-shrink: 1;
+}
 
 #centerwindow {
-	width: 560px;
-	height: 560px;
-	background-color: #545454;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 7px solid #B8B8B8;
-	border-radius: 50%;
+  width: 560px;
+  height: 560px;
+  background-color: #545454;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid #b8b8b8;
+  border-radius: 50%;
 }
 #mainwindowlogo {
-	border: 3px solid #B8B8B8;
-	transition: all 1s;
+  border: 3px solid #b8b8b8;
+  transition: all 1s;
 }
 #mainwindowlogo:hover {
-	transform: rotate(1080deg);
+  transform: rotate(1080deg);
 }
 .mainflex {
-	width: 600px;
-	height: 600px;
-	background-color: #3F3F3F;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border:4px solid #B8B8B8;
-	-webkit-box-shadow: 10px 11px 30px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 11px 30px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 11px 30px -1px rgba(0,0,0,0.75);
+  width: 600px;
+  height: 600px;
+  background-color: #3f3f3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #b8b8b8;
+  -webkit-box-shadow: 10px 11px 30px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 11px 30px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 11px 30px -1px rgba(0, 0, 0, 0.75);
 }
 
 .noshow {
-	width: 600px;
-	height: 600px;
-	margin: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	user-select: none;
+  width: 600px;
+  height: 600px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
 }

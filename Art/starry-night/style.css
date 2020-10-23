@@ -1,56 +1,46 @@
-body{
-	
-background-color: #424242;
-  
-  
-  
+body {
+  background-color: #424242;
 }
-.cont{
-	width: 100%;
-	height: 100%;
-	display: flex-wrap;
+.cont {
+  width: 100%;
+  height: 100%;
+  display: flex-wrap;
   align-items: stretch;
   text-align: center;
   justify-content: center;
 }
-.container1{
-	
-	display: flex;
-	justify-content: center;
-	margin-top: 50px;
+.container1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
-.container2{
-	
-	display: flex;
-	justify-content: center;
-	margin-left: 50px;
-
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
 }
-.container3{
-
-	display: flex;
-	justify-content: center;
-	margin-top: 50px;
-	margin-right: 100px;
+.container3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 100px;
 }
 
-.starry{
-	text-align:center;
-	text-transform: uppercase;
-	letter-spacing: 50px;
-	color: #F48FB1;
-
-
+.starry {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 50px;
+  color: #f48fb1;
 }
 
-.s1{
-  color:#EF9A9A;
-  width:50px;
-  height:40px;
+.s1 {
+  color: #ef9a9a;
+  width: 50px;
+  height: 40px;
   margin: 10px;
   animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-out; 
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -60,29 +50,29 @@ background-color: #424242;
 
 @keyframes stretch {
   0% {
-    transform: scale(.3);
-    color: #FFEBEE;
+    transform: scale(0.3);
+    color: #ffebee;
     border-radius: 100%;
   }
   30% {
-    color: #E57373;
+    color: #e57373;
   }
-  70%{
-  	color: #E53935;
+  70% {
+    color: #e53935;
   }
   100% {
     transform: scale(1.5);
-    color:#D50000;
+    color: #d50000;
   }
 }
-.s2{
-color:#82B1FF;
-  width:100px;
-  height:100px;
+.s2 {
+  color: #82b1ff;
+  width: 100px;
+  height: 100px;
   margin: 60px;
   animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-in; 
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -93,28 +83,28 @@ color:#82B1FF;
 @keyframes stretch {
   0% {
     transform: scale(7);
-    color: #82B1FF;
+    color: #82b1ff;
     border-radius: 100%;
   }
   30% {
-    color:#64B5F6;
+    color: #64b5f6;
   }
-  70%{
-  	color: #448AFF;
+  70% {
+    color: #448aff;
   }
   100% {
     transform: scale(0.4);
-    color:#F44336;
+    color: #f44336;
   }
 }
-.s3{
-  color:#536DFE;
-  width:10px;
-  height:50px;
+.s3 {
+  color: #536dfe;
+  width: 10px;
+  height: 50px;
   margin-top: 100px;
   animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-out; 
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -124,30 +114,30 @@ color:#82B1FF;
 
 @keyframes stretch {
   0% {
-    transform: scale(.3);
-    color: #C5CAE9;
+    transform: scale(0.3);
+    color: #c5cae9;
     border-radius: 100%;
   }
   30% {
-    color: #7986CB;
+    color: #7986cb;
   }
-  70%{
-  	color: #536DFE;
+  70% {
+    color: #536dfe;
   }
   100% {
     transform: scale(1.5);
-    color:#D50000;
+    color: #d50000;
   }
 }
-.s4{
-  color:#EF9A9A;
-  width:10px;
-  height:30px;
+.s4 {
+  color: #ef9a9a;
+  width: 10px;
+  height: 30px;
   margin: 10px;
   margin-left: 100px;
   animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-out; 
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -157,29 +147,29 @@ color:#82B1FF;
 
 @keyframes stretch {
   0% {
-    transform: scale(.3);
-    color: #FFEBEE;
+    transform: scale(0.3);
+    color: #ffebee;
     border-radius: 100%;
   }
   30% {
-    color: #E57373;
+    color: #e57373;
   }
-  70%{
-  	color: #E53935;
+  70% {
+    color: #e53935;
   }
   100% {
     transform: scale(3);
-    color:#D50000;
+    color: #d50000;
   }
 }
-.s5{
-  color:#EF9A9A;
-  width:10px;
-  height:10px;
+.s5 {
+  color: #ef9a9a;
+  width: 10px;
+  height: 10px;
   margin: 40px;
   animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-out; 
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -190,29 +180,29 @@ color:#82B1FF;
 @keyframes stretch {
   0% {
     transform: scale(2);
-    color: #FFEBEE;
+    color: #ffebee;
     border-radius: 100%;
   }
   30% {
-    color: #E57373;
+    color: #e57373;
   }
-  70%{
-  	color: #E53935;
+  70% {
+    color: #e53935;
   }
   100% {
     transform: scale(0.3);
-    color:#D50000;
+    color: #d50000;
   }
 }
-.s6{
-  color:#EF9A9A;
-  width:10px;
-  height:50px;
- margin-bottom: 60px;
+.s6 {
+  color: #ef9a9a;
+  width: 10px;
+  height: 50px;
+  margin-bottom: 60px;
   margin-right: 100px;
   animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-out; 
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -222,30 +212,30 @@ color:#82B1FF;
 
 @keyframes stretch {
   0% {
-    transform: scale(.4);
-    color: #FFEBEE;
+    transform: scale(0.4);
+    color: #ffebee;
     border-radius: 100%;
   }
   30% {
-    color: #E57373;
+    color: #e57373;
   }
-  70%{
-  	color: #E53935;
+  70% {
+    color: #e53935;
   }
   100% {
     transform: scale(3);
-    color:#D50000;
+    color: #d50000;
   }
 }
-.s7{
-  color:#EF9A9A;
-  width:60px;
-  height:10px;
-  margin-top:100px;
+.s7 {
+  color: #ef9a9a;
+  width: 60px;
+  height: 10px;
+  margin-top: 100px;
   margin-left: 10px;
   animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-in; 
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -256,28 +246,28 @@ color:#82B1FF;
 @keyframes stretch {
   0% {
     transform: scale(2);
-    color: #FFEBEE;
+    color: #ffebee;
     border-radius: 100%;
   }
   30% {
-    color: #E57373;
+    color: #e57373;
   }
-  70%{
-  	color: #E53935;
+  70% {
+    color: #e53935;
   }
   100% {
-    transform: scale(.2);
-    color:#D50000;
+    transform: scale(0.2);
+    color: #d50000;
   }
 }
-.s8{
-  color:#EF9A9A;
-  width:40px;
-  height:20px;
+.s8 {
+  color: #ef9a9a;
+  width: 40px;
+  height: 20px;
   margin-top: 40px;
-   animation-name: stretch;
-  animation-duration: 3s; 
-  animation-timing-function: ease-in; 
+  animation-name: stretch;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -288,28 +278,28 @@ color:#82B1FF;
 @keyframes stretch {
   0% {
     transform: scale(7);
-    color: #FFEBEE;
+    color: #ffebee;
     border-radius: 100%;
   }
   30% {
-    color: #E57373;
+    color: #e57373;
   }
-  70%{
-  	color: #E53935;
+  70% {
+    color: #e53935;
   }
   100% {
-    transform: scale(.5);
-    color:#D50000;
+    transform: scale(0.5);
+    color: #d50000;
   }
 }
-.s9{
-  color:#EF9A9A;
-  width:50px;
-  height:50px;
+.s9 {
+  color: #ef9a9a;
+  width: 50px;
+  height: 50px;
   margin: 50px;
   animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-out; 
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -317,14 +307,14 @@ color:#82B1FF;
   animation-play-state: running;
 }
 
-.s10{
-  color:#EF9A9A;
-  width:40px;
-  height:10px;
-  
+.s10 {
+  color: #ef9a9a;
+  width: 40px;
+  height: 10px;
+
   animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-out; 
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -334,29 +324,29 @@ color:#82B1FF;
 
 @keyframes stretch {
   0% {
-    transform: scale(.3);
-    color: #FFEBEE;
+    transform: scale(0.3);
+    color: #ffebee;
     border-radius: 100%;
   }
   30% {
-    color: #E57373;
+    color: #e57373;
   }
-  70%{
-  	color: #E53935;
+  70% {
+    color: #e53935;
   }
   100% {
     transform: scale(4);
-    color:#D50000;
+    color: #d50000;
   }
 }
-.s11{
-  color:#EF9A9A;
-  width:50px;
-  height:50px;
+.s11 {
+  color: #ef9a9a;
+  width: 50px;
+  height: 50px;
   margin-bottom: 300px;
   animation-name: stretch;
-  animation-duration: 3s; 
-  animation-timing-function: ease-in; 
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -367,29 +357,29 @@ color:#82B1FF;
 @keyframes stretch {
   0% {
     transform: scale(2);
-    color: #FFEBEE;
+    color: #ffebee;
     border-radius: 100%;
   }
   30% {
-    color: #E57373;
+    color: #e57373;
   }
-  70%{
-  	color: #E53935;
+  70% {
+    color: #e53935;
   }
   100% {
-    transform: scale(.5);
-    color:#D50000;
+    transform: scale(0.5);
+    color: #d50000;
   }
 }
-.s12{
-color: #64B5F6;
-  width:50px;
-  height:60px;
+.s12 {
+  color: #64b5f6;
+  width: 50px;
+  height: 60px;
   margin: 30px;
 
   animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-out; 
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -399,30 +389,30 @@ color: #64B5F6;
 
 @keyframes stretch {
   0% {
-    transform: scale(.3);
-    color: #EF9A9A;
+    transform: scale(0.3);
+    color: #ef9a9a;
     border-radius: 100%;
   }
   30% {
-    color:#EF5350;
+    color: #ef5350;
   }
-  70%{
-  	color: #E53935;
+  70% {
+    color: #e53935;
   }
   100% {
     transform: scale(1.5);
-    color:#F44336;
+    color: #f44336;
   }
 }
-.s13{
-  color:#536DFE;
-  width:10px;
-  height:50px;
-  margin:40px;
-  
+.s13 {
+  color: #536dfe;
+  width: 10px;
+  height: 50px;
+  margin: 40px;
+
   animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-in; 
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -433,29 +423,29 @@ color: #64B5F6;
 @keyframes stretch {
   0% {
     transform: scale(5);
-    color: #C5CAE9;
+    color: #c5cae9;
     border-radius: 100%;
   }
   30% {
-    color: #7986CB;
+    color: #7986cb;
   }
-  70%{
-  	color: #536DFE;
+  70% {
+    color: #536dfe;
   }
   100% {
-    transform: scale(.5);
-    color:#D50000;
+    transform: scale(0.5);
+    color: #d50000;
   }
 }
-.s14{
-  color:#EF9A9A;
-  width:10px;
-  height:30px;
-  margin:30px;
+.s14 {
+  color: #ef9a9a;
+  width: 10px;
+  height: 30px;
+  margin: 30px;
 
   animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-out; 
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -465,29 +455,29 @@ color: #64B5F6;
 
 @keyframes stretch {
   0% {
-    transform: scale(.3);
-    color: #FFEBEE;
+    transform: scale(0.3);
+    color: #ffebee;
     border-radius: 100%;
   }
   30% {
-    color: #E57373;
+    color: #e57373;
   }
-  70%{
-  	color: #E53935;
+  70% {
+    color: #e53935;
   }
   100% {
     transform: scale(1.5);
-    color:#D50000;
+    color: #d50000;
   }
 }
-.s15{
-  color:#EF9A9A;
-  width:10px;
-  height:10px;
+.s15 {
+  color: #ef9a9a;
+  width: 10px;
+  height: 10px;
   margin-left: 100px;
   animation-name: stretch;
-  animation-duration: 1s; 
-  animation-timing-function: ease-out; 
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -497,18 +487,18 @@ color: #64B5F6;
 
 @keyframes stretch {
   0% {
-    transform: scale(.3);
-    color: #FFEBEE;
+    transform: scale(0.3);
+    color: #ffebee;
     border-radius: 100%;
   }
   30% {
-    color: #E57373;
+    color: #e57373;
   }
-  70%{
-  	color: #E53935;
+  70% {
+    color: #e53935;
   }
   100% {
     transform: scale(2);
-    color:#D50000;
+    color: #d50000;
   }
 }

@@ -16,11 +16,11 @@ h2 {
   bottom: 0;
   left: 100%;
   right: 0;
-  background-color: #F14400;
+  background-color: #f14400;
   overflow: hidden;
   width: 0;
   height: 100%;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .container:hover .overlay {
