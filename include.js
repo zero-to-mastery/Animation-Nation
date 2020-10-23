@@ -4220,6 +4220,13 @@ let cards = [
     imageLink: './Art/MaxieTextShineOn/maxie-text-shine-on.gif',
     author: 'maxie7',
     githubLink: 'https://github.com/maxie7'
+  },
+  {
+    artName: 'Spinning Box',
+    pageLink: './Art/KccbzZ/index.html',
+    imageLink: './Art/KccbzZ/cover.png',
+    author: 'KccbzZ',
+    githubLink: 'https://github.com/KccbzZ'
   }
 ];
 
