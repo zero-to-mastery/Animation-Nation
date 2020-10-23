@@ -4195,7 +4195,14 @@ let cards = [
     imageLink: './Art/MaxieTextShineOn/maxie-text-shine-on.gif',
     author: 'maxie7',
     githubLink: 'https://github.com/maxie7'
-  }
+  },
+    {
+      artname: "jimanimation",
+      pageLink: './Art/jimanimation/index.html',
+      imageLink: './Art/jimanimation/bouncy.gif',
+      author: 'Jimin',
+      githubLink: 'https://github.com/jimijos'
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
