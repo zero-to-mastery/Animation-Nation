@@ -4227,6 +4227,20 @@ let cards = [
     imageLink: './Art/KccbzZ/cover.png',
     author: 'KccbzZ',
     githubLink: 'https://github.com/KccbzZ'
+  },
+  {
+    artName: 'Age Disgracefully',
+    pageLink: './Art/ynoden/index.html',
+    imageLink: './Art/ynoden/Age_Disgracefully.gif',
+    author: 'yusefnoden',
+    githubLink: 'https://github.com/yusefnoden'
+  },
+  {
+    artname: 'jimanimation',
+    pageLink: './Art/jimanimation/index.html',
+    imageLink: './Art/jimanimation/bouncy.gif',
+    author: 'Jimin',
+    githubLink: 'https://github.com/jimijos'
   }
 ];
 
