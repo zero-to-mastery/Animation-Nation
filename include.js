@@ -5,7 +5,7 @@ let cards = [
     imageLink: './Art/Himanshu_Kumawat/preloader.gif',
     author: 'Himanshu Kumawat',
     githubLink: 'https://github.com/013himanshu'
-  }
+  },
   {
     artName: 'Troll-Ball',
     pageLink: './Art/ivantbv/index.html',
@@ -4182,12 +4182,12 @@ let cards = [
     author: 'Gurpreet',
     githubLink: 'https://github.com/gur-p-reet'
   },
-  { 
-    artName: "Personal Info",
-    pageLink: "./Art/Personal_info/triangle/index.html",
-    imageLink: "./Art/Personal_info/trance.gif",
-    author: "Naim Uddin",
-    githubLink: "https://github.com/Naim365",
+  {
+    artName: 'Personal Info',
+    pageLink: './Art/Personal_info/triangle/index.html',
+    imageLink: './Art/Personal_info/trance.gif',
+    author: 'Naim Uddin',
+    githubLink: 'https://github.com/Naim365'
   },
   {
     artName: 'Shining Text',
