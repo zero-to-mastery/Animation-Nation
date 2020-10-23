@@ -4196,6 +4196,13 @@ let cards = [
     author: 'maxie7',
     githubLink: 'https://github.com/maxie7'
   }
+  {
+    artName: "Stretch ZTM"
+    pageLink: './Art/animation_gn/index.html',
+    imageLink: './Art/animation_gn/animation_gn.gif',
+    author: 'gnyokota',
+    githubLink: 'https://github.com/gnyokota'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
