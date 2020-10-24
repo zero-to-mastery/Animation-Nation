@@ -4241,9 +4241,9 @@ let cards = [
     imageLink: './Art/jimanimation/bouncy.gif',
     author: 'Jimin',
     githubLink: 'https://github.com/jimijos'
-  }
+  },
   {
-    artName: "Stretch ZTM"
+    artName: 'Stretch ZTM',
     pageLink: './Art/animation_gn/index.html',
     imageLink: './Art/animation_gn/animation_gn.gif',
     author: 'gnyokota',
