@@ -4248,6 +4248,13 @@ let cards = [
     imageLink: './Art/animation_gn/animation_gn.gif',
     author: 'gnyokota',
     githubLink: 'https://github.com/gnyokota'
+  },
+  {
+    artName: "Lidor'sAnimation",
+    pageLink: "./Art/Lidor's Animation/index.html",
+    imageLink: "./Art/Lidor's Animation/animation.gif",
+    author: 'LidorAsher',
+    githubLink: 'https://github.com/lidorasher11'
   }
 ];
 
