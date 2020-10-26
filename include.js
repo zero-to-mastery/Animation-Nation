@@ -4248,6 +4248,12 @@ let cards = [
     imageLink: './Art/animation_gn/animation_gn.gif',
     author: 'gnyokota',
     githubLink: 'https://github.com/gnyokota'
+  },
+    {
+    artName: 'baby'
+    pageLink: './Art/Amina/index.html',
+    author: 'minkuli',
+    githubLink: 'https://github.com/minkuli'
   }
 ];
 
