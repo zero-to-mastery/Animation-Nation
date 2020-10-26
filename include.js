@@ -4245,7 +4245,7 @@ let cards = [
     {
     artName: 'Meme Animation',
     pageLink: './Art/just_for_fun/index.html',
-    imageLink: './Art/just_for_fun/preloader.gif',
+    imageLink: './Art/just_for_fun/image.gif',
     author: 'Rahul Negi',
     githubLink: 'https://github.com/rahulnegi20'
   }
