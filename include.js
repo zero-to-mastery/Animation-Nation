@@ -4241,6 +4241,13 @@ let cards = [
     imageLink: './Art/jimanimation/bouncy.gif',
     author: 'Jimin',
     githubLink: 'https://github.com/jimijos'
+  },
+    {
+    artName: 'Meme Animation',
+    pageLink: './Art/just_for_fun/index.html',
+    imageLink: './Art/just_for_fun/preloader.gif',
+    author: 'Rahul Negi',
+    githubLink: 'https://github.com/rahulnegi20'
   }
 ];
 
