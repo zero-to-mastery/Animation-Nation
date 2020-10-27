@@ -4242,6 +4242,14 @@ let cards = [
     author: 'Jimin',
     githubLink: 'https://github.com/jimijos'
   },
+
+  {
+    artName: 'Meme Animation',
+    pageLink: './Art/just_for_fun/index.html',
+    imageLink: './Art/just_for_fun/image.gif',
+    author: 'Rahul Negi',
+    githubLink: 'https://github.com/rahulnegi20'
+  },
   {
     artName: 'Stretch ZTM',
     pageLink: './Art/animation_gn/index.html',
