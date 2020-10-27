@@ -4248,6 +4248,13 @@ let cards = [
     imageLink: './Art/animation_gn/animation_gn.gif',
     author: 'gnyokota',
     githubLink: 'https://github.com/gnyokota'
+  },
+  {
+    artName: 'Cards',
+    pageLink: './Art/cards/index.html',
+    imageLink: './Art/cards/cards.gif',
+    author: 'lonecreationwastaken',
+    githubLink: 'https://github.com/lonecreationwastaken'
   }
 ];
 
