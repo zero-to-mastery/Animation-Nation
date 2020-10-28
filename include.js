@@ -4299,3 +4299,13 @@ function Shuffle(o) {
   );
   return o;
 }
+
+let cards = [
+  //  Add your card in this section
+  {
+    pageLink: './Art/rotation_chging_color/index.html',
+    imageLink: './Art/rotation_chging_color/changin_color.gif',
+    author: 'aboulaye',
+    githubLink: 'https://github.com/abdel1413'
+  }
+];
