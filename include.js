@@ -4242,6 +4242,14 @@ let cards = [
     author: 'Jimin',
     githubLink: 'https://github.com/jimijos'
   },
+
+  {
+    artName: 'Meme Animation',
+    pageLink: './Art/just_for_fun/index.html',
+    imageLink: './Art/just_for_fun/image.gif',
+    author: 'Rahul Negi',
+    githubLink: 'https://github.com/rahulnegi20'
+  },
   {
     artName: 'Stretch ZTM',
     pageLink: './Art/animation_gn/index.html',
@@ -4255,6 +4263,13 @@ let cards = [
     imageLink: './Art/cards/cards.gif',
     author: 'lonecreationwastaken',
     githubLink: 'https://github.com/lonecreationwastaken'
+  },
+  {
+    artName: "Lidor'sAnimation",
+    pageLink: "./Art/Lidor's Animation/index.html",
+    imageLink: "./Art/Lidor's Animation/animation.gif",
+    author: 'LidorAsher',
+    githubLink: 'https://github.com/lidorasher11'
   }
 ];
 
