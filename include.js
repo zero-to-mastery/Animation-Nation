@@ -4263,6 +4263,14 @@ let cards = [
     imageLink: "./Art/Lidor's Animation/animation.gif",
     author: 'LidorAsher',
     githubLink: 'https://github.com/lidorasher11'
+  },
+  {
+    artName: "Land_Up Page"
+    pageLink: './Art/Land_Up/index.html',
+    imageLink: './Art/Land_Up/Images/Capture1.png',
+    imageLink: './Art/Land_Up/Images/Capture2.png',
+    author: 'Dave Bhandari',
+    githubLink: 'https://github.com/Davekibh'
   }
 ];
 
