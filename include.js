@@ -4263,6 +4263,13 @@ let cards = [
     imageLink: "./Art/Lidor's Animation/animation.gif",
     author: 'LidorAsher',
     githubLink: 'https://github.com/lidorasher11'
+  },
+  {
+    artName: "Basketball God"
+    pageLink: './Art/Sim-animation/index.html',
+    imageLink: './Art/Sim-animation/project-screenshot.png',
+    author: 'Sim',
+    githubLink: 'https://github.com/sim-a-19'
   }
 ];
 
