@@ -157,7 +157,7 @@ body {
 }
 
 .black {
-  background: black;
+  background: rgb(228, 231, 16);
   animation: rotate 10s infinite linear;
 }
 
