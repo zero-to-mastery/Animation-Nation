@@ -1,4 +1,4 @@
-let cards = [
+﻿let cards = [
   {
     artName: 'Cool CSS Preloader',
     pageLink: './Art/Himanshu_Kumawat/index.html',
@@ -4263,6 +4263,13 @@ let cards = [
     imageLink: "./Art/Lidor's Animation/animation.gif",
     author: 'LidorAsher',
     githubLink: 'https://github.com/lidorasher11'
+  }
+  {
+    artName: 'Simplerv',
+    pageLink: './Art/Aniamtion_RV/index.html',
+    imageLink: './Art/Aniamtion_RV/circle.png',
+    author: 'Aarush Bhat',
+    githubLink: 'https://github.com/07rv'
   }
 ];
 
