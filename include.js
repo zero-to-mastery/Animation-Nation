@@ -4263,11 +4263,11 @@ let cards = [
     imageLink: "./Art/Lidor's Animation/animation.gif",
     author: 'LidorAsher',
     githubLink: 'https://github.com/lidorasher11'
-  }
+  },
   {
     artName: "Turtando's Animation",
     pageLink: './Art/turtando/animation.html',
-    imageLink: './Art/Turtando/animation.gif',
+    imageLink: './Art/Turtando/happyhalloween.gif',
     author: 'Turtando',
     githubLink: 'https://github.com/Turtando'
   }
