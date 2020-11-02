@@ -4264,6 +4264,13 @@ let cards = [
     author: 'LidorAsher',
     githubLink: 'https://github.com/lidorasher11'
   }
+  {
+    artName: "Devtemmy_animation",
+    pageLink: './Art/Devtemmy_animation/index.html',
+    imageLink: './Art/Devtemmy_animation/Devtemmyanimation.gif',
+    author: 'Dev-Temmy',
+    githubLink: 'https://github.com/Dev-Temmy'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
