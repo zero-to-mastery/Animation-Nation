@@ -4264,6 +4264,13 @@ let cards = [
     author: 'LidorAsher',
     githubLink: 'https://github.com/lidorasher11'
   }
+  {
+    artName: "Turtando's Animation",
+    pageLink: './Art/turtando/animation.html',
+    imageLink: './Art/Turtando/animation.gif',
+    author: 'Turtando',
+    githubLink: 'https://github.com/Turtando'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
