@@ -4258,11 +4258,11 @@ let cards = [
     githubLink: 'https://github.com/gnyokota'
   },
   {
-	artname: "AnimationCom",
-    pageLink: "./Art/Anita/AnimationCom/triangle.html",
-    imageLink: "./Art/AnimationCom/header.jpg",
-    author: "Anita",
-    githubLink: "https://github.com/anita-tsai",
+    artname: 'AnimationCom',
+    pageLink: './Art/Anita/AnimationCom/triangle.html',
+    imageLink: './Art/AnimationCom/header.jpg',
+    author: 'Anita',
+    githubLink: 'https://github.com/anita-tsai'
   },
   {
     artName: "Lidor'sAnimation",
