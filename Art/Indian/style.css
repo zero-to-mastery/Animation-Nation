@@ -1,17 +1,23 @@
-.pole{
+.pole {
   width: 10px;
   height: 600px;
   background: red;
   position: relative;
   animation-name: pol;
-  animation-duration: 3s;  
+  animation-duration: 3s;
   animation-delay: 2s;
   animation-fill-mode: both;
 }
 
 @keyframes pol {
-  from {left: 0px; background-color: brown;}
-  to {left: 200px; background-color: black;}
+  from {
+    left: 0px;
+    background-color: brown;
+  }
+  to {
+    left: 200px;
+    background-color: black;
+  }
 }
 
 div {
@@ -20,14 +26,20 @@ div {
   background: red;
   position: relative;
   animation-name: example;
-  animation-duration: 3s;  
+  animation-duration: 3s;
   animation-delay: 2s;
   animation-fill-mode: both;
 }
 
 @keyframes example {
-  from {left: 0px; background-color: orange;}
-  to {left: 200px; background-color: black;}
+  from {
+    left: 0px;
+    background-color: orange;
+  }
+  to {
+    left: 200px;
+    background-color: black;
+  }
 }
 
 .div1 {
@@ -36,14 +48,20 @@ div {
   background: red;
   position: relative;
   animation-name: examples;
-  animation-duration: 3s;  
+  animation-duration: 3s;
   animation-delay: 2s;
   animation-fill-mode: both;
 }
 
 @keyframes examples {
-  from {left: 0px; background-color: white;}
-  to {left: 200px; background-color: black;}
+  from {
+    left: 0px;
+    background-color: white;
+  }
+  to {
+    left: 200px;
+    background-color: black;
+  }
 }
 
 .div2 {
@@ -52,12 +70,18 @@ div {
   background: red;
   position: relative;
   animation-name: exampless;
-  animation-duration: 3s;  
+  animation-duration: 3s;
   animation-delay: 2s;
   animation-fill-mode: both;
 }
 
 @keyframes exampless {
-  from {left: 0px; background-color: green;}
-  to {left: 200px; background-color: black;}
+  from {
+    left: 0px;
+    background-color: green;
+  }
+  to {
+    left: 200px;
+    background-color: black;
+  }
 }

@@ -20,7 +20,7 @@ h1 {
 }
 
 h1:before {
-  content: "Loading..";
+  content: 'Loading..';
   position: absolute;
   top: 0;
   left: 0;

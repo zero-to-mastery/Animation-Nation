@@ -1,13 +1,27 @@
-div{
-	text-align: center;
+div {
+  text-align: center;
 }
 
-@-webkit-keyframes bounce_it{
-  0% {margin-top:30px;}
-  25%{margin-left:250px;margin-top:552px}
-  50%{margin-left:500px;margin-top:30px;}
-  75%{margin-left:250px;margin-top:552px}
-  100%{margin-left:0px;margin-top:30px}
+@-webkit-keyframes bounce_it {
+  0% {
+    margin-top: 30px;
+  }
+  25% {
+    margin-left: 250px;
+    margin-top: 552px;
+  }
+  50% {
+    margin-left: 500px;
+    margin-top: 30px;
+  }
+  75% {
+    margin-left: 250px;
+    margin-top: 552px;
+  }
+  100% {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
 }
 
 .dot {
@@ -19,27 +33,27 @@ div{
   display: inline-block;
 }
 
-.light-blue{
-  background-color: #BFF9F7;
-  -webkit-animation:bounce_it 5s linear infinite;
+.light-blue {
+  background-color: #bff9f7;
+  -webkit-animation: bounce_it 5s linear infinite;
 }
 
-.red{
-  background-color: #F9450C;
+.red {
+  background-color: #f9450c;
 }
 
-.strong-blue{
-  background-color: #4FBCEF;
+.strong-blue {
+  background-color: #4fbcef;
 }
 
-.yellow{
-  background-color: #EFEA4F;
+.yellow {
+  background-color: #efea4f;
 }
 
-.mid-blue{
-  background-color: #0BBFF5;
+.mid-blue {
+  background-color: #0bbff5;
 }
 
-.purple{
-  background-color: #C473DC;
+.purple {
+  background-color: #c473dc;
 }

@@ -33,7 +33,14 @@ body {
   display: flex;
   justify-content: center;
   width: 600px;
-  background-image: linear-gradient(to bottom, #74064c, #640050, #510053, #380057, #100159);
+  background-image: linear-gradient(
+    to bottom,
+    #74064c,
+    #640050,
+    #510053,
+    #380057,
+    #100159
+  );
 }
 
 .sun {
@@ -44,7 +51,14 @@ body {
   border-radius: 100%;
   background-color: var(--sun-color);
   align-items: center;
-  background-image: linear-gradient(to top, #c62a96, #ff3d76, #ff754d, #ffb61a, #fff510);
+  background-image: linear-gradient(
+    to top,
+    #c62a96,
+    #ff3d76,
+    #ff754d,
+    #ffb61a,
+    #fff510
+  );
   box-shadow: 0 0 1em var(--sun-glow);
 }
 
@@ -57,7 +71,14 @@ body {
   top: 50px;
   animation: cloud-move 10s linear infinite;
   background-color: var(--cloud-color);
-  background-image: linear-gradient(to right top, #faf8d9, #e9f6df, #def3e5, #d9eee9, #dae8e9);
+  background-image: linear-gradient(
+    to right top,
+    #faf8d9,
+    #e9f6df,
+    #def3e5,
+    #d9eee9,
+    #dae8e9
+  );
   opacity: 0.2;
   box-shadow: 0 0 1.5px var(--cloud-glow);
 }

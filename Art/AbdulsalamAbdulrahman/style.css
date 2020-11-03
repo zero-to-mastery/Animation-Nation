@@ -13,7 +13,7 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
   overflow: hidden;
-  font-family: "Saira Stencil One", cursive;
+  font-family: 'Saira Stencil One', cursive;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 /* CLOUDS */
 body:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;

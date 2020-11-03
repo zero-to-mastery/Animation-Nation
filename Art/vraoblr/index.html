@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Solar System</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+  <head>
+    <title>Solar System</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
   <body class="opening hide-UI view-2D zoom-large data-close controls-close">
     <div id="navbar">
       <a id="toggle-data" href="#data"><i class="icon-data"></i>Data</a>
-      <h1>3D Solar System<br><span>by <a href="https://twitter.com/JulianGarnier" target="_blank">@JulianGarnier</a></span></h1>
-      <a id="toggle-controls" href="#controls"><i class="icon-controls"></i>Controls</a>
+      <h1>
+        3D Solar System<br /><span
+          >by
+          <a href="https://twitter.com/JulianGarnier" target="_blank"
+            >@JulianGarnier</a
+          ></span
+        >
+      </h1>
+      <a id="toggle-controls" href="#controls"
+        ><i class="icon-controls"></i>Controls</a
+      >
     </div>
     <div id="data">
       <a class="sun" title="sun" href="#sunspeed">Sun</a>
@@ -23,21 +32,21 @@
     </div>
     <div id="controls">
       <label class="set-view">
-        <input type="checkbox">
+        <input type="checkbox" />
       </label>
       <label class="set-zoom">
-        <input type="checkbox">
+        <input type="checkbox" />
       </label>
       <label>
-        <input type="radio" class="set-speed" name="scale" checked>
+        <input type="radio" class="set-speed" name="scale" checked />
         <span>Speed</span>
       </label>
       <label>
-        <input type="radio" class="set-size" name="scale">
+        <input type="radio" class="set-size" name="scale" />
         <span>Size</span>
       </label>
       <label>
-        <input type="radio" class="set-distance" name="scale">
+        <input type="radio" class="set-distance" name="scale" />
         <span>Distance</span>
       </label>
     </div>
@@ -141,11 +150,15 @@
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <script type="text/javascript">
-    if (typeof jQuery == 'undefined') { 
-      document.write(unescape("%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
-    }
+      if (typeof jQuery == 'undefined') {
+        document.write(
+          unescape(
+            "%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"
+          )
+        );
+      }
     </script>
     <script src="js/prefixfree.min.js"></script>
     <script src="js/scripts.min.js"></script>
   </body>
-  </html>
+</html>

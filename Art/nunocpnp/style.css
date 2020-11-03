@@ -27,13 +27,13 @@ html {
 }
 
 #one:before {
-  content: "Hello !";
+  content: 'Hello !';
 }
 
 #one {
   background-color: rgba(0, 0, 225, 0.45);
   font-size: 3rem;
-  font-family: "Lucida Sans", Verdana, sans-serif;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
   letter-spacing: 1.5px;
   display: flex;
   justify-content: center;

@@ -10,7 +10,7 @@ body {
 p {
   color: white;
   font-size: 1.5em;
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Helvetica', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   z-index: -10;
@@ -24,35 +24,29 @@ p {
   width: 100px;
   border-radius: 50%;
   background-color: #cc3300;
-  box-shadow:
-  5px 5px 10px 4px #ff7f50 inset;
+  box-shadow: 5px 5px 10px 4px #ff7f50 inset;
   animation: mars 5s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
 
-
 @keyframes mars {
   0% {
-      transform: translateY(50px);
-      transform: translateX(100px);
+    transform: translateY(50px);
+    transform: translateX(100px);
   }
 
-
   100% {
-      transform: translateY(200px);
-      transform: translateX(300px);
+    transform: translateY(200px);
+    transform: translateX(300px);
   }
 }
 
 @keyframes text {
-
   0% {
-  transform: translateY(100px);
-  transform: translateX(200px); 
-  opacity: 0;
-  }
-
+    transform: translateY(100px);
+    transform: translateX(200px);
+    opacity: 0;
   }
 
   100% {

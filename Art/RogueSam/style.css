@@ -1,22 +1,30 @@
 * {
-	background-color: #05b8ff;
+  background-color: #05b8ff;
 }
 
 body {
-	display: block;
+  display: block;
 }
 
 h1 {
-	text-align: center;
-	color: white;
+  text-align: center;
+  color: white;
 }
 
 /* The animation code */
 @keyframes example {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
 /* The element to apply the animation to */
@@ -28,7 +36,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   border-radius: 25px;
-  margin:auto;
+  margin: auto;
   background-color: red;
   animation-name: example;
   animation-duration: 4s;
@@ -37,7 +45,7 @@ h1 {
 }
 
 .red:hover {
-	transform: rotate(-20deg);
+  transform: rotate(-20deg);
 }
 
 .yellow {
@@ -56,7 +64,7 @@ h1 {
 }
 
 .yellow:hover {
-	transform: rotate(-25deg);
+  transform: rotate(-25deg);
 }
 
 .green {
@@ -76,7 +84,7 @@ h1 {
 }
 
 .green:hover {
-	transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
 
 .blue {
@@ -95,5 +103,5 @@ h1 {
 }
 
 .blue:hover {
-	transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
