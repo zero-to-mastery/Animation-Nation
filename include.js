@@ -6021,6 +6021,13 @@ let cards = [
     author: "AlexTriece",
     githubLink: "https://github.com/atrieceeph289",
   },
+  {
+	artname: "AnimationCom",
+    pageLink: "./Art/Anita/AnimationCom/triangle.html",
+    imageLink: "./Art/AnimationCom/header.jpg",
+    author: "Anita",
+    githubLink: "https://github.com/anita-tsai",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
