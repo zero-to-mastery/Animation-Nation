@@ -4263,7 +4263,15 @@ let cards = [
     imageLink: "./Art/Lidor's Animation/animation.gif",
     author: 'LidorAsher',
     githubLink: 'https://github.com/lidorasher11'
+  },
+  {
+    artName: "Simple Animation",
+    pageLink: "./Art/simple animation/transition.html",
+    imageLink: "./Art/simple animation/animatee.gif",
+    author: 'Rudimental',
+    githubLink: 'https://github.com/rudimental-again'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
