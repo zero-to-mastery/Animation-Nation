@@ -4263,6 +4263,13 @@ let cards = [
     imageLink: "./Art/Lidor's Animation/animation.gif",
     author: 'LidorAsher',
     githubLink: 'https://github.com/lidorasher11'
+  },
+  {
+    artName: "Spinning Title",
+    pageLink: "./Art/ljBeast21ldj/index.html",
+    imageLink: "./Art/ljBeast21ldj/firstGIF.gif",
+    author: "Larry",
+    githubLink: "https://github.com/ljBeast21ldj"
   }
 ];
 
