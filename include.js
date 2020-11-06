@@ -4263,6 +4263,13 @@ let cards = [
     imageLink: "./Art/Lidor's Animation/animation.gif",
     author: 'LidorAsher',
     githubLink: 'https://github.com/lidorasher11'
+  },
+  {
+    artName: "PONG Animation",
+    pageLink: "./Art/walkitoff/index.html",
+    imageLink: "./Art/walkitoff/gif.gif",
+    author: 'Tyler Dollick',
+    githubLink: 'https://github.com/walkitoff'
   }
 ];
 
