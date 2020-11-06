@@ -4264,6 +4264,14 @@ let cards = [
     author: 'LidorAsher',
     githubLink: 'https://github.com/lidorasher11'
   }
+  {
+    artName: "Fading text animation",
+    pageLink: "./Art/araskog/index.html",
+    imageLink: "./Art/araskog/animation.gif",
+    author: 'Amanda Araskog',
+    githubLink: 'https://github.com/araskog'
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
