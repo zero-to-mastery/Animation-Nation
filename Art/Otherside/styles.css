@@ -2,28 +2,28 @@
   display: flex;
   justify-content: center;
   align-content: center;
-   z-index: -3;
-  }
+  z-index: -3;
+}
 
 body {
   background-color: rgb(36, 49, 170);
   background-image: url(otherside.png);
   background-size: cover;
   background-repeat: no-repeat;
-  }
+}
 
 .circlepulse {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   overflow: hidden;
-   position: absolute;
-   z-index: 1;
-   width: 100%;
-   height: 100%;
- }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
 
- /* .text {
+/* .text {
   display: flex;
   align-items: baseline;
   justify-content: center;
@@ -31,50 +31,50 @@ body {
   font-size: 2em;
   padding-top: 10px;
  } */
- 
- .circle {
-   z-index: 1;
-   border-radius: 70%;
-   width: 400px;
-   height: 400px;
+
+.circle {
+  z-index: 1;
+  border-radius: 70%;
+  width: 400px;
+  height: 400px;
   position: absolute;
-   opacity: 0;
-   animation: scaleIn 3.5s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
- }
+  opacity: 0;
+  animation: scaleIn 3.5s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
+}
 
- .one {
-    background-color: black;
- }
+.one {
+  background-color: black;
+}
 
- .two {
-    background-color: darkblue;
- }
+.two {
+  background-color: darkblue;
+}
 
- .three {
-    background-color: darkslateblue;
- }
+.three {
+  background-color: darkslateblue;
+}
 
- .four {
-   background-color: darkviolet;
- }
+.four {
+  background-color: darkviolet;
+}
 
- .five {
-   background-color: dodgerblue;
- }
+.five {
+  background-color: dodgerblue;
+}
 
- .six {
-   background-color: slateblue;
- }
+.six {
+  background-color: slateblue;
+}
 
- @keyframes scaleIn {
-   from {
-     transform: scale(0.1, 0.1);
-     opacity: 0.5;
-   }
-   to {
-     transform: scale(2.5, 2.5);
-     opacity: 0;
-   }
+@keyframes scaleIn {
+  from {
+    transform: scale(0.1, 0.1);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(2.5, 2.5);
+    opacity: 0;
+  }
 }
 
 .loaderpage {
@@ -89,7 +89,7 @@ body {
 
 .loader {
   display: flex;
-  align-content:  center;
+  align-content: center;
   justify-content: center;
   position: absolute;
   margin: 0;
@@ -104,7 +104,7 @@ body {
 
 .loader2 {
   display: flex;
-  align-content:  center;
+  align-content: center;
   justify-content: center;
   position: absolute;
   margin: 0;
@@ -141,7 +141,7 @@ body {
   width: 500px;
   position: absolute;
   display: flex;
-  align-content:  center;
+  align-content: center;
   justify-content: center;
 }
 

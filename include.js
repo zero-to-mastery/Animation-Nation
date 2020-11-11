@@ -4272,14 +4272,14 @@ let cards = [
     githubLink: 'https://github.com/lidorasher11'
   },
   {
-    artName: "Otherside",
-    pageLink: "./Art/Otherside/ubi.html",
-    imageLink: "./Art/Otherside/recording.gif",
+    artName: 'Otherside',
+    pageLink: './Art/Otherside/ubi.html',
+    imageLink: './Art/Otherside/recording.gif',
     author: 'Ubibimbap',
     githubLink: 'https://github.com/Ubibimbap'
   },
   {
-    artName: "Basketball God",
+    artName: 'Basketball God',
     pageLink: './Art/Sim-animation/index.html',
     imageLink: './Art/Sim-animation/project-screenshot.png',
     author: 'Sim',
