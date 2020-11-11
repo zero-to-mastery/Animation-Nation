@@ -4313,6 +4313,13 @@
     author: 'Aarush Bhat',
     githubLink: 'https://github.com/07rv'
   }
+  {
+    artName: "Devtemmy_animation",
+    pageLink: './Art/Devtemmy_animation/index.html',
+    imageLink: './Art/Devtemmy_animation/Devtemmyanimation.gif',
+    author: 'Dev-Temmy',
+    githubLink: 'https://github.com/Dev-Temmy'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
