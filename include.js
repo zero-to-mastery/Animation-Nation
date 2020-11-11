@@ -4258,6 +4258,13 @@ let cards = [
     githubLink: 'https://github.com/gnyokota'
   },
   {
+    artName: 'Cards',
+    pageLink: './Art/cards/index.html',
+    imageLink: './Art/cards/cards.gif',
+    author: 'lonecreationwastaken',
+    githubLink: 'https://github.com/lonecreationwastaken'
+  },
+  {
     artName: "Lidor'sAnimation",
     pageLink: "./Art/Lidor's Animation/index.html",
     imageLink: "./Art/Lidor's Animation/animation.gif",
