@@ -1,24 +1,32 @@
 .parent {
-  position:relative;
-  height:101px;
-  width:412px;
-  margin:0 auto;
-  background-color: #33FF99;
+  position: relative;
+  height: 101px;
+  width: 412px;
+  margin: 0 auto;
+  background-color: #33ff99;
   animation-name: background_animation;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 
 .text {
-	text-align: center;
-	list-style-type: none;
+  text-align: center;
+  list-style-type: none;
 }
 
 @keyframes background_animation {
-  0% {background-color: #33FF99;}
-  25% {background-color: #66B2FF;}
-  50% {background-color: #9933FF;}
-  100% {background-color: #99004C;}
+  0% {
+    background-color: #33ff99;
+  }
+  25% {
+    background-color: #66b2ff;
+  }
+  50% {
+    background-color: #9933ff;
+  }
+  100% {
+    background-color: #99004c;
+  }
 }
 
 .spades {
@@ -59,37 +67,36 @@
 
 @keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-moz-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-webkit-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-o-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
-
