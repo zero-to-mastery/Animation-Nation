@@ -1,4 +1,4 @@
-let cards = [
+﻿let cards = [
   {
     artName: 'Cool CSS Preloader',
     pageLink: './Art/Himanshu_Kumawat/index.html',
@@ -345,6 +345,13 @@ let cards = [
     author: 'Alghi',
     githubLink: 'https://github.com/darklordace'
   },
+  {
+    artName: 'r2d2d starwerz'
+    pageLink: './Art/izzycs/index.html',
+    imageLink: './Art/izzycs/r2d2d.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/izzycs'
+  }
   {
     artName: 'ZtM Text',
     pageLink: './Art/Di4iMoRtAl/ZtM_text_animation.html',
@@ -4258,6 +4265,20 @@ let cards = [
     githubLink: 'https://github.com/gnyokota'
   },
   {
+    artname: 'AnimationCom',
+    pageLink: './Art/Anita/AnimationCom/triangle.html',
+    imageLink: './Art/AnimationCom/header.jpg',
+    author: 'Anita',
+    githubLink: 'https://github.com/anita-tsai'
+  },
+    {
+    artName: 'Cards',
+    pageLink: './Art/cards/index.html',
+    imageLink: './Art/cards/cards.gif',
+    author: 'lonecreationwastaken',
+    githubLink: 'https://github.com/lonecreationwastaken'
+  },
+  {
     artName: "Lidor'sAnimation",
     pageLink: "./Art/Lidor's Animation/index.html",
     imageLink: "./Art/Lidor's Animation/animation.gif",
@@ -4270,7 +4291,84 @@ let cards = [
     imageLink: './Art/Sallah/Heart-Pulsation.png',
     author: 'Sallah',
     githubLink: 'https://github.com/SallahTech'
+  } ,
+  {
+    artName: "MubbeAnimation",
+    pageLink: "./Art/Mubbe/index.html",
+    imageLink: './Art/Mubbe/MubbeAnimation.gif',
+    author: 'Mubarak',
+    githubLink: 'https://github.com/mual5746'
+  },
+  {
+    pageLink: './Art/neon-glowing-text/index.html',
+    imageLink: './Art/neon-glowing-text/glowing-text-GIF.gif',
+    author: 'Adri',
+    githubLink: 'https://github.com/adrimual'
+  },
+  {
+    artName: "Simple Animation",
+    pageLink: "./Art/simple animation/transition.html",
+    imageLink: "./Art/simple animation/animatee.gif",
+    author: 'Rudimental',
+    githubLink: 'https://github.com/rudimental-again'
+  },
+  {
+    artName: "gbArt",
+    pageLink: "./Art/gbArt/index.html",
+    imageLink: "./Art/gbArt/shapeFlip.gif",
+    author: 'Gary Bergman',
+    githubLink: 'https://github.com/Gary-Bergman'
+  },
+  {
+    artName: "Turtando's Animation",
+    pageLink: './Art/turtando/animation.html',
+    imageLink: './Art/Turtando/happyhalloween.gif',
+    author: 'Turtando',
+    githubLink: 'https://github.com/Turtando'
+  },
+  {
+    artName: 'Bouncing Balls',
+    pageLink: './Art/EyeOfAthena/index.html',
+    imageLink: './Art/EyeOfAthena/cover.png',
+    author: 'EyeOfAthena',
+    githubLink: 'https://github.com/EyeOfAthena/bouncing-ball'
+  },
+  {
+    artName: 'Otherside',
+    pageLink: './Art/Otherside/ubi.html',
+    imageLink: './Art/Otherside/recording.gif',
+    author: 'Ubibimbap',
+    githubLink: 'https://github.com/Ubibimbap'
+  },
+  {
+    artName: 'Basketball God',
+    pageLink: './Art/Sim-animation/index.html',
+    imageLink: './Art/Sim-animation/project-screenshot.png',
+    author: 'Sim',
+    githubLink: 'https://github.com/sim-a-19'
+  },
+  {
+    artName: "Ziyao's Animation",
+    pageLink: './Art/robot/robot_index.html',
+    imageLink: './Art/robot/robot.gif',
+    author: 'Ziyao',
+    githubLink: 'https://github.com/ziyaoc3'
   }
+  {
+    artName: 'Simplerv',
+    pageLink: './Art/Aniamtion_RV/index.html',
+    imageLink: './Art/Aniamtion_RV/circle.png',
+    author: 'Aarush Bhat',
+    githubLink: 'https://github.com/07rv'
+  }
+  {
+    artName: "Devtemmy_animation",
+    pageLink: './Art/Devtemmy_animation/index.html',
+    imageLink: './Art/Devtemmy_animation/Devtemmyanimation.gif',
+    author: 'Dev-Temmy',
+    githubLink: 'https://github.com/Dev-Temmy'
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
