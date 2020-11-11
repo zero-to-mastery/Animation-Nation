@@ -4279,6 +4279,13 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    artName: "Simple Animation",
+    pageLink: "./Art/simple animation/transition.html",
+    imageLink: "./Art/simple animation/animatee.gif",
+    author: 'Rudimental',
+    githubLink: 'https://github.com/rudimental-again'
+  },
+  {
     artName: "gbArt",
     pageLink: "./Art/gbArt/index.html",
     imageLink: "./Art/gbArt/shapeFlip.gif",
@@ -4334,6 +4341,7 @@
     author: 'Dev-Temmy',
     githubLink: 'https://github.com/Dev-Temmy'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
