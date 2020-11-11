@@ -4258,18 +4258,39 @@ let cards = [
     githubLink: 'https://github.com/gnyokota'
   },
   {
+    artName: 'Cards',
+    pageLink: './Art/cards/index.html',
+    imageLink: './Art/cards/cards.gif',
+    author: 'lonecreationwastaken',
+    githubLink: 'https://github.com/lonecreationwastaken'
+  },
+  {
     artName: "Lidor'sAnimation",
     pageLink: "./Art/Lidor's Animation/index.html",
     imageLink: "./Art/Lidor's Animation/animation.gif",
     author: 'LidorAsher',
     githubLink: 'https://github.com/lidorasher11'
-    {
-      artName: "Otherside",
-      pageLink: "./Art/Otherside/ubi.html",
-      imageLink: "./Art/Otherside/recording.gif",
-      author: 'Ubibimbap',
-      githubLink: 'https://github.com/Ubibimbap'
-    }
+  },
+  {
+    artName: "Otherside",
+    pageLink: "./Art/Otherside/ubi.html",
+    imageLink: "./Art/Otherside/recording.gif",
+    author: 'Ubibimbap',
+    githubLink: 'https://github.com/Ubibimbap'
+  },
+  {
+    artName: "Basketball God",
+    pageLink: './Art/Sim-animation/index.html',
+    imageLink: './Art/Sim-animation/project-screenshot.png',
+    author: 'Sim',
+    githubLink: 'https://github.com/sim-a-19'
+  },
+  {
+    artName: "Ziyao's Animation",
+    pageLink: './Art/robot/robot_index.html',
+    imageLink: './Art/robot/robot.gif',
+    author: 'Ziyao',
+    githubLink: 'https://github.com/ziyaoc3'
   }
 ];
 
