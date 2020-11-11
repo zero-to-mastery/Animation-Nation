@@ -4286,6 +4286,13 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    artname: "Animatron"
+    pageLink: './Art/mbargaedge/index.html',
+    imageLink: './Art/mbargaedge/animatron.gif',
+    author: 'Mbarga',
+    githubLink: 'https://github.com/marcelmbarga/'
+  },
+    {
     artName: "House",
     pageLink: './Art/TTD/triangle/index.html',
     imageLink: './Art/TTD/house.gif',
