@@ -4272,6 +4272,13 @@ let cards = [
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    artName: "Bouncing Balls",
+    pageLink: "./Art/EyeOfAthena/index.html",
+    imageLink: "./Art/EyeOfAthena/cover.png",
+    author: 'EyeOfAthena',
+    githubLink: 'https://github.com/EyeOfAthena/bouncing-ball'
+  },
+  {
     artName: 'Otherside',
     pageLink: './Art/Otherside/ubi.html',
     imageLink: './Art/Otherside/recording.gif',

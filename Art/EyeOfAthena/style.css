@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: dodgerblue;
+  animation: bgColor 15s infinite ease-in-out;  
+}
+
+
+@keyframes bgColor {
+  0%
+  {    
+    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+  }
+  20% {    
+    background: linear-gradient(to right, #1565C0, #b92b27); 
+    
+  }
+  40%
+  {    
+    background: linear-gradient(to right, #240b36, #c31432);
+    
+  }
+  60%{    
+    background: linear-gradient(to left, #99f2c8, #1f4037);
+    
+  }  
+  80%{    
+    background: linear-gradient(to right, #4286f4, #373B44);
+    
+  }
+  100% {   
+    background: linear-gradient(to right, #93291E, #ED213A);    
+  }
+}
+
+.card-container { 
+  margin: auto;
+  max-width: 100%;
+  padding: 2rem;
+  width: 50rem;
+}
+
+.card {
+  position: relative;
+  border-radius: 0.25rem;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 43rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ball {  
+  border-radius: 50%;
+  height: 3rem;
+  position: absolute;
+  width: 3rem;
+}
+
+.ball-bouncing {
+  background-color: rgb(194, 206, 160);  
+}
+
+.ball-bouncing .ball {
+bottom: 2.1rem;
+transform-origin: bottom;  
+}
+
+.ball-1 {
+  background-color: skyblue;
+  position: relative;
+  top: 300px;
+  right: 200px;
+  animation: ballBouncing-ball1 1.8s linear infinite;   
+  animation-delay: .3s; 
+}
+
+@keyframes ballBouncing-ball1 {
+  0%
+  {
+    transform: scale(1.3, 0.5);
+    background-color: rgb(52, 46, 94);
+  }
+  20% {
+    transform: scaleY(1.2);
+    background-color: rgb(205, 90, 157);
+  }
+  40%
+  {
+    transform: translateY(-25rem);
+    background-color: rgb(142, 205, 90);
+  }
+  60%{
+    transform: translateY(-35rem);
+    background-color: rgb(205, 90, 90);
+  }  
+  80%{
+    transform: translateY(-25rem);
+    background-color: rgb(60, 71, 68);
+  }
+  100% {
+    transform: translateY(0);    
+  }
+}
+
+.ball-2 {
+  background-color: red;
+  position: relative;
+  top: 300px;
+  left: -80px;
+  animation: ballBouncing-ball2 1.6s linear infinite;
+  transition: animation .2s;
+}
+
+
+@keyframes ballBouncing-ball2 {
+  0%
+  {
+    transform: scale(1.3, 0.5);
+    background-color: rgb(106, 90, 205);
+  }
+  20% {
+    transform: scaleY(1.2);
+    background-color: rgb(0, 102, 255);
+  }
+  40%
+  {
+    transform: translateY(-25rem);
+    background-color: rgb(0, 99, 5);
+  }
+  60%{
+    transform: translateY(-30rem);
+    background-color: rgb(255, 0, 0);
+  }  
+  80%{
+    transform: translateY(-25rem);
+    background-color: rgb(34, 0, 252);
+  }
+  100% {
+    transform: translateY(0);    
+    background-color: rgb(208, 255, 0);
+  }
+}
+
+.ball-3{
+  background-color: greenyellow;
+  position: relative;
+  top: 300px;
+  left: 100px;
+  animation: ballBouncing-ball3 1.8s linear infinite;
+  animation-delay: .3s;
+}
+
+@keyframes ballBouncing-ball3 {
+  0%
+  {
+    transform: scale(1.3, 0.5);
+    background-color: rgb(90, 205, 105);
+  }
+  20% {
+    transform: scaleY(1.2);
+    background-color: rgb(14, 34, 36);
+  }
+  40%
+  {
+    transform: translateY(-25rem);
+    background-color: rgb(49, 83, 92);
+  }
+  60%{
+    transform: translateY(-35rem);
+    background-color: rgb(116, 18, 83);
+  }  
+  80%{
+    transform: translateY(-25rem);
+    background-color: rgb(217, 215, 230);
+  }
+  100% {
+    transform: translateY(0);    
+  }
+}
+
+.ball-4{
+  background-color: yellow;
+  position: relative;
+  top: 300px;
+  left: 200px;
+  animation: ballBouncing-ball4 1.6s linear infinite;
+}
+
+@keyframes ballBouncing-ball4 {
+  0%
+  {
+    transform: scale(1.3, 0.5);
+    background-color: rgb(226, 0, 0);
+  }
+  20% {
+    transform: scaleY(1.2);
+    background-color: rgb(3, 106, 241);
+  }
+  40%
+  {
+    transform: translateY(-25rem);
+    background-color: rgb(16, 196, 136);
+  }
+  60%{
+    transform: translateY(-30rem);
+    background-color: rgb(88, 21, 97);
+  }  
+  80%{
+    transform: translateY(-25rem);
+    background-color: rgb(207, 207, 212);
+  }
+  100% {
+    transform: translateY(0);    
+  }
+}
