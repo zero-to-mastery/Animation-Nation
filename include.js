@@ -4265,6 +4265,13 @@
     githubLink: 'https://github.com/gnyokota'
   },
   {
+    artname: 'AnimationCom',
+    pageLink: './Art/Anita/AnimationCom/triangle.html',
+    imageLink: './Art/AnimationCom/header.jpg',
+    author: 'Anita',
+    githubLink: 'https://github.com/anita-tsai'
+  },
+    {
     artName: 'Cards',
     pageLink: './Art/cards/index.html',
     imageLink: './Art/cards/cards.gif',
