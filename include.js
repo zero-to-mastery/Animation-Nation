@@ -4279,6 +4279,13 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    artName: "Turtando's Animation",
+    pageLink: './Art/turtando/animation.html',
+    imageLink: './Art/Turtando/happyhalloween.gif',
+    author: 'Turtando',
+    githubLink: 'https://github.com/Turtando'
+  },
+  {
     artName: 'Bouncing Balls',
     pageLink: './Art/EyeOfAthena/index.html',
     imageLink: './Art/EyeOfAthena/cover.png',
