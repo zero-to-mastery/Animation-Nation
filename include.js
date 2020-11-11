@@ -4286,6 +4286,13 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    artName: "Spinning Title",
+    pageLink: "./Art/ljBeast21ldj/index.html",
+    imageLink: "./Art/ljBeast21ldj/firstGIF.gif",
+    author: "Larry",
+    githubLink: "https://github.com/ljBeast21ldj"
+  },
+    {
     artName: 'Heart pulsation',
     pageLink: './Art/Sallah/index.html',
     imageLink: './Art/Sallah/Heart-Pulsation.png',
@@ -4353,14 +4360,14 @@
     imageLink: './Art/robot/robot.gif',
     author: 'Ziyao',
     githubLink: 'https://github.com/ziyaoc3'
-  }
+  },
   {
     artName: 'Simplerv',
     pageLink: './Art/Aniamtion_RV/index.html',
     imageLink: './Art/Aniamtion_RV/circle.png',
     author: 'Aarush Bhat',
     githubLink: 'https://github.com/07rv'
-  }
+  },
   {
     artName: "Devtemmy_animation",
     pageLink: './Art/Devtemmy_animation/index.html',
