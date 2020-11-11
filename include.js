@@ -4286,13 +4286,20 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    artName: "House",
+    pageLink: './Art/TTD/triangle/index.html',
+    imageLink: './Art/TTD/house.gif',
+    author: 'TanyaTD',
+    githubLink: 'https://github.com/TTD126'
+  },
+  {
     artName: "Spinning Title",
     pageLink: "./Art/ljBeast21ldj/index.html",
     imageLink: "./Art/ljBeast21ldj/firstGIF.gif",
     author: "Larry",
     githubLink: "https://github.com/ljBeast21ldj"
   },
-    {
+   {
     artName: 'Heart pulsation',
     pageLink: './Art/Sallah/index.html',
     imageLink: './Art/Sallah/Heart-Pulsation.png',
