@@ -1,4 +1,4 @@
-let cards = [
+﻿let cards = [
   {
     artName: 'Cool CSS Preloader',
     pageLink: './Art/Himanshu_Kumawat/index.html',
@@ -345,6 +345,13 @@ let cards = [
     author: 'Alghi',
     githubLink: 'https://github.com/darklordace'
   },
+  {
+    artName: 'r2d2d starwerz'
+    pageLink: './Art/izzycs/index.html',
+    imageLink: './Art/izzycs/r2d2d.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/izzycs'
+  }
   {
     artName: 'ZtM Text',
     pageLink: './Art/Di4iMoRtAl/ZtM_text_animation.html',
@@ -4279,6 +4286,13 @@ let cards = [
     githubLink: 'https://github.com/Gary-Bergman'
   },
   {
+    artName: "Turtando's Animation",
+    pageLink: './Art/turtando/animation.html',
+    imageLink: './Art/Turtando/happyhalloween.gif',
+    author: 'Turtando',
+    githubLink: 'https://github.com/Turtando'
+  },
+  {
     artName: 'Bouncing Balls',
     pageLink: './Art/EyeOfAthena/index.html',
     imageLink: './Art/EyeOfAthena/cover.png',
@@ -4305,6 +4319,20 @@ let cards = [
     imageLink: './Art/robot/robot.gif',
     author: 'Ziyao',
     githubLink: 'https://github.com/ziyaoc3'
+  }
+  {
+    artName: 'Simplerv',
+    pageLink: './Art/Aniamtion_RV/index.html',
+    imageLink: './Art/Aniamtion_RV/circle.png',
+    author: 'Aarush Bhat',
+    githubLink: 'https://github.com/07rv'
+  }
+  {
+    artName: "Devtemmy_animation",
+    pageLink: './Art/Devtemmy_animation/index.html',
+    imageLink: './Art/Devtemmy_animation/Devtemmyanimation.gif',
+    author: 'Dev-Temmy',
+    githubLink: 'https://github.com/Dev-Temmy'
   }
 ];
 
