@@ -4279,6 +4279,13 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    artName: "gbArt",
+    pageLink: "./Art/gbArt/index.html",
+    imageLink: "./Art/gbArt/shapeFlip.gif",
+    author: 'Gary Bergman',
+    githubLink: 'https://github.com/Gary-Bergman'
+  },
+  {
     artName: "Turtando's Animation",
     pageLink: './Art/turtando/animation.html',
     imageLink: './Art/Turtando/happyhalloween.gif',
