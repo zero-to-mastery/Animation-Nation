@@ -4274,15 +4274,13 @@ let cards = [
 
   {
     artName: "Ziyao's Animation",
-    pageLink: "./Art/robot/robot_index.html",
-    imageLink: "./Art/robot/robot.gif",
+    pageLink: './Art/robot/robot_index.html',
+    imageLink: './Art/robot/robot.gif',
     author: 'Ziyao',
     githubLink: 'https://github.com/ziyaoc3'
   }
 ];
 
-
-  
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
