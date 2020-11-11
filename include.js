@@ -346,6 +346,13 @@ let cards = [
     githubLink: 'https://github.com/darklordace'
   },
   {
+    artName: 'r2d2d starwerz'
+    pageLink: './Art/izzycs/index.html',
+    imageLink: './Art/izzycs/r2d2d.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/izzycs'
+  }
+  {
     artName: 'ZtM Text',
     pageLink: './Art/Di4iMoRtAl/ZtM_text_animation.html',
     imageLink: './Art/Di4iMoRtAl/ZtM_animation.gif',
