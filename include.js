@@ -4286,6 +4286,12 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    pageLink: './Art/neon-glowing-text/index.html',
+    imageLink: './Art/neon-glowing-text/glowing-text-GIF.gif',
+    author: 'Adri',
+    githubLink: 'https://github.com/adrimual'
+  },
+  {
     artName: "Simple Animation",
     pageLink: "./Art/simple animation/transition.html",
     imageLink: "./Art/simple animation/animatee.gif",
