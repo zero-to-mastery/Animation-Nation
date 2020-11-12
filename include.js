@@ -4293,6 +4293,12 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    artName: "Camp Fire",
+    pageLink: "./Art/camp_fire/index.html",
+    imageLink: "./Art/camp_fire/camp_fire.gif",
+    author: "Chansoo",
+    githubLink: "https://github.com/ChansooKim316",
+  },{
     artName: "rubberband Red",
     pageLink: "./Art/ou79/index.html",
     imageLink: "./Art/rubberbandRed.gif",
