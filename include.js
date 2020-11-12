@@ -353,12 +353,12 @@
     githubLink: 'https://github.com/darklordace'
   },
   {
-    artName: 'r2d2d starwerz'
+    artName: 'r2d2d starwerz',
     pageLink: './Art/izzycs/index.html',
     imageLink: './Art/izzycs/r2d2d.gif',
     author: 'Joy',
     githubLink: 'https://github.com/izzycs'
-  }
+  },
   {
     artName: 'ZtM Text',
     pageLink: './Art/Di4iMoRtAl/ZtM_text_animation.html',
@@ -4331,13 +4331,13 @@
     githubLink: 'https://github.com/walkitoff'
   },
   {
-    artname: "Animatron"
+    artname: "Animatron",
     pageLink: './Art/mbargaedge/index.html',
     imageLink: './Art/mbargaedge/animatron.gif',
     author: 'Mbarga',
     githubLink: 'https://github.com/marcelmbarga/'
   },
-    {
+  {
     artName: "House",
     pageLink: './Art/TTD/triangle/index.html',
     imageLink: './Art/TTD/house.gif',
