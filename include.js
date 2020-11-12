@@ -4293,6 +4293,12 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    artName: 'ani-1trial',
+    pageLink: './Art/ani-1trial/index.html',
+    imageLink: './Art/ani-1trial/ani-gif.gif',
+    author: 'tru-izo',
+    githubLink: 'https://github.com/tru-izo'
+  },{
     artName: "Air_Balloon",
     pageLink: './Art/Air_Balloon/index.html',
     imageLink: './Art/Air_Balloon/balloon.gif',
