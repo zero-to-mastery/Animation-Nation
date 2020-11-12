@@ -10,9 +10,9 @@ div {
 
 @keyframes slidein {
   from {
-    transform: scaleX(0);
+    transform: scaleX(1);
   }
   to {
-    transform: scaleX(1);
+    transform: scaleX(2);
   }
 }
