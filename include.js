@@ -1,5 +1,12 @@
 ﻿let cards = [
   {
+    artName: 'Scissors Cutting Animation (CSS only)',
+    pageLink: './Art/CoffeeAnimation/index.html',
+    imageLink: './Art/CoffeeAnimation/scissors-cutting-animation.gif',
+    author: 'Angelo Marcinnò',
+    githubLink: 'https://github.com/angelo24782'
+  },
+  {
     artName: 'Cool CSS Preloader',
     pageLink: './Art/Himanshu_Kumawat/index.html',
     imageLink: './Art/Himanshu_Kumawat/preloader.gif',
