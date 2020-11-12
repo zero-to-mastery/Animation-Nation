@@ -4293,6 +4293,12 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    artName: "rubberband Red",
+    pageLink: "./Art/ou79/index.html",
+    imageLink: "./Art/rubberbandRed.gif",
+    author: 'ou79',
+    githubLink: 'https://github.com/ou79'
+  },{
     artName: "ColorChanger",
     pageLink: "./Art/ColorChanger/index.html",
     imageLink: "./Art/color-changer.gif",
