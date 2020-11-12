@@ -4293,6 +4293,13 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    artName: "ColorChanger",
+    pageLink: "./Art/ColorChanger/index.html",
+    imageLink: "./Art/color-changer.gif",
+    author: 'Atallah-Nadhir',
+    githubLink: 'https://github.com/Atallah-Nadhir'
+  },
+   {
     artName: "PONG Animation",
     pageLink: "./Art/walkitoff/index.html",
     imageLink: "./Art/walkitoff/gif.gif",
