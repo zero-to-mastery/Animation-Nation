@@ -4293,6 +4293,13 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+    artName: "PONG Animation",
+    pageLink: "./Art/walkitoff/index.html",
+    imageLink: "./Art/walkitoff/gif.gif",
+    author: 'Tyler Dollick',
+    githubLink: 'https://github.com/walkitoff'
+  },
+  {
     artname: "Animatron"
     pageLink: './Art/mbargaedge/index.html',
     imageLink: './Art/mbargaedge/animatron.gif',
