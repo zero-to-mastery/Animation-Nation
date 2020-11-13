@@ -20,7 +20,6 @@ body {
   margin-bottom: 100px;
 }
 
-
 .area-container {
   display: flex;
   justify-content: center;
@@ -40,13 +39,12 @@ body {
   background-color: red;
 }
 
-
 .circle2 {
   height: 200px;
   width: 200px;
   background-color: rgb(52, 169, 247);
   border-radius: 50px;
-  transition: transform 2s
+  transition: transform 2s;
 }
 
 .circle2:hover {
@@ -59,10 +57,10 @@ body {
   width: 200px;
   background-color: rgb(56, 13, 92);
   border-radius: 50px;
-  transition: transform 3s
+  transition: transform 3s;
 }
-  
-  .circle3:hover {
+
+.circle3:hover {
   transform: translateY(-300px);
   background-color: red;
 }
