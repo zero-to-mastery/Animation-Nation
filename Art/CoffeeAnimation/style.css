@@ -17,7 +17,7 @@ body {
   margin: 20px auto;
   width: 35px;
   height: 50px;
-  background: #8B4C39;
+  background: #8b4c39;
   border-radius: 50%;
   animation: drop2 1s ease-in infinite;
 }
@@ -27,7 +27,7 @@ body {
   width: 3px;
   border-radius: 50%;
   height: 98%;
-  background: #5E2605;
+  background: #5e2605;
   transform: rotate(-5deg);
 }
 
@@ -86,19 +86,19 @@ body {
 
 @keyframes fill {
   0% {
-    border-bottom: 0px solid #8B4C39;
+    border-bottom: 0px solid #8b4c39;
   }
   50% {
-    border-bottom: 80px solid #8B4C39;
+    border-bottom: 80px solid #8b4c39;
   }
   60% {
-    border-bottom: 80px solid #8B4C39;
+    border-bottom: 80px solid #8b4c39;
   }
   90% {
-    border-bottom: 0px solid #8B4C39;
+    border-bottom: 0px solid #8b4c39;
   }
   100% {
-    border-bottom: 0px solid #8B4C39;
+    border-bottom: 0px solid #8b4c39;
   }
 }
 
@@ -155,7 +155,7 @@ body {
   margin: 0 auto 10px;
   width: 20px;
   height: 20px;
-  background: #8B4C39;
+  background: #8b4c39;
   border-radius: 0 50% 50% 50%;
   animation: drop 1s ease-in infinite;
 }
@@ -181,7 +181,7 @@ body {
   margin: 40px auto;
   width: 190px;
   height: 150px;
-  background: #B7C3D0;
+  background: #b7c3d0;
   border-radius: 5px 5px 80px 80px;
 }
 
@@ -190,6 +190,6 @@ body {
   right: -45px;
   width: 60px;
   height: 80px;
-  border: 15px solid #B7C3D0;
+  border: 15px solid #b7c3d0;
   border-radius: 70px;
 }
