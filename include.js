@@ -1,4 +1,11 @@
-let cards = [
+﻿let cards = [
+  {
+    artName: 'Scissors Cutting Animation (CSS only)',
+    pageLink: './Art/CoffeeAnimation/index.html',
+    imageLink: './Art/CoffeeAnimation/scissors-cutting-animation.gif',
+    author: 'Angelo Marcinnò',
+    githubLink: 'https://github.com/angelo24782'
+  },
   {
     artName: 'Cool CSS Preloader',
     pageLink: './Art/Himanshu_Kumawat/index.html',
@@ -344,6 +351,13 @@ let cards = [
     imageLink: './Art/Alghi/cat.gif',
     author: 'Alghi',
     githubLink: 'https://github.com/darklordace'
+  },
+  {
+    artName: 'r2d2d starwerz',
+    pageLink: './Art/izzycs/index.html',
+    imageLink: './Art/izzycs/r2d2d.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/izzycs'
   },
   {
     artName: 'ZtM Text',
@@ -4258,6 +4272,20 @@ let cards = [
     githubLink: 'https://github.com/gnyokota'
   },
   {
+    artname: 'AnimationCom',
+    pageLink: './Art/Anita/AnimationCom/triangle.html',
+    imageLink: './Art/AnimationCom/header.jpg',
+    author: 'Anita',
+    githubLink: 'https://github.com/anita-tsai'
+  },
+  {
+    artName: 'Cards',
+    pageLink: './Art/cards/index.html',
+    imageLink: './Art/cards/cards.gif',
+    author: 'lonecreationwastaken',
+    githubLink: 'https://github.com/lonecreationwastaken'
+  },
+  {
     artName: "Lidor'sAnimation",
     pageLink: "./Art/Lidor's Animation/index.html",
     imageLink: "./Art/Lidor's Animation/animation.gif",
@@ -4265,11 +4293,165 @@ let cards = [
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+ myanamation
     artName: "Shiff's Animation",
     pageLink: "./Art/myAnimation/index.html",
     imageLink: "./Art/myAnimation/myanimation.gif",
     author: 'Shifa',
     githubLink: 'https://github.com/ShifaShirin'
+
+    artName: 'ani-1trial',
+    pageLink: './Art/ani-1trial/index.html',
+    imageLink: './Art/ani-1trial/ani-gif.gif',
+    author: 'tru-izo',
+    githubLink: 'https://github.com/tru-izo'
+  },
+  {
+    artName: 'Air_Balloon',
+    pageLink: './Art/Air_Balloon/index.html',
+    imageLink: './Art/Air_Balloon/balloon.gif',
+    author: 'Abha',
+    githubLink: 'https://github.com/Abha-1281'
+  },
+  {
+    artName: 'Camp Fire',
+    pageLink: './Art/camp_fire/index.html',
+    imageLink: './Art/camp_fire/camp_fire.gif',
+    author: 'Chansoo',
+    githubLink: 'https://github.com/ChansooKim316'
+  },
+  {
+    artName: 'rubberband Red',
+    pageLink: './Art/ou79/index.html',
+    imageLink: './Art/rubberbandRed.gif',
+    author: 'ou79',
+    githubLink: 'https://github.com/ou79'
+  },
+  {
+    artName: 'ColorChanger',
+    pageLink: './Art/ColorChanger/index.html',
+    imageLink: './Art/color-changer.gif',
+    author: 'Atallah-Nadhir',
+    githubLink: 'https://github.com/Atallah-Nadhir'
+  },
+  {
+    artName: 'PONG Animation',
+    pageLink: './Art/walkitoff/index.html',
+    imageLink: './Art/walkitoff/gif.gif',
+    author: 'Tyler Dollick',
+    githubLink: 'https://github.com/walkitoff'
+  },
+  {
+    artname: 'Animatron',
+    pageLink: './Art/mbargaedge/index.html',
+    imageLink: './Art/mbargaedge/animatron.gif',
+    author: 'Mbarga',
+    githubLink: 'https://github.com/marcelmbarga/'
+  },
+  {
+    artName: 'House',
+    pageLink: './Art/TTD/triangle/index.html',
+    imageLink: './Art/TTD/house.gif',
+    author: 'TanyaTD',
+    githubLink: 'https://github.com/TTD126'
+  },
+  {
+    artName: 'Spinning Title',
+    pageLink: './Art/ljBeast21ldj/index.html',
+    imageLink: './Art/ljBeast21ldj/firstGIF.gif',
+    author: 'Larry',
+    githubLink: 'https://github.com/ljBeast21ldj'
+  },
+  {
+    artName: 'Heart pulsation',
+    pageLink: './Art/Sallah/index.html',
+    imageLink: './Art/Sallah/Heart-Pulsation.png',
+    author: 'Sallah',
+    githubLink: 'https://github.com/SallahTech'
+  },
+  {
+    artName: 'MubbeAnimation',
+    pageLink: './Art/Mubbe/index.html',
+    imageLink: './Art/Mubbe/MubbeAnimation.gif',
+    author: 'Mubarak',
+    githubLink: 'https://github.com/mual5746'
+  },
+  {
+    pageLink: './Art/neon-glowing-text/index.html',
+    imageLink: './Art/neon-glowing-text/glowing-text-GIF.gif',
+    author: 'Adri',
+    githubLink: 'https://github.com/adrimual'
+  },
+  {
+    artName: 'Simple Animation',
+    pageLink: './Art/simple animation/transition.html',
+    imageLink: './Art/simple animation/animatee.gif',
+    author: 'Rudimental',
+    githubLink: 'https://github.com/rudimental-again'
+  },
+  {
+    artName: 'gbArt',
+    pageLink: './Art/gbArt/index.html',
+    imageLink: './Art/gbArt/shapeFlip.gif',
+    author: 'Gary Bergman',
+    githubLink: 'https://github.com/Gary-Bergman'
+  },
+  {
+    artName: "Turtando's Animation",
+    pageLink: './Art/turtando/animation.html',
+    imageLink: './Art/Turtando/happyhalloween.gif',
+    author: 'Turtando',
+    githubLink: 'https://github.com/Turtando'
+  },
+  {
+    artName: 'Bouncing Balls',
+    pageLink: './Art/EyeOfAthena/index.html',
+    imageLink: './Art/EyeOfAthena/cover.png',
+    author: 'EyeOfAthena',
+    githubLink: 'https://github.com/EyeOfAthena/bouncing-ball'
+  },
+  {
+    artName: 'Otherside',
+    pageLink: './Art/Otherside/ubi.html',
+    imageLink: './Art/Otherside/recording.gif',
+    author: 'Ubibimbap',
+    githubLink: 'https://github.com/Ubibimbap'
+  },
+  {
+    artName: 'Basketball God',
+    pageLink: './Art/Sim-animation/index.html',
+    imageLink: './Art/Sim-animation/project-screenshot.png',
+    author: 'Sim',
+    githubLink: 'https://github.com/sim-a-19'
+  },
+  {
+    artName: "Ziyao's Animation",
+    pageLink: './Art/robot/robot_index.html',
+    imageLink: './Art/robot/robot.gif',
+    author: 'Ziyao',
+    githubLink: 'https://github.com/ziyaoc3'
+  },
+  {
+    artName: 'Simplerv',
+    pageLink: './Art/Aniamtion_RV/index.html',
+    imageLink: './Art/Aniamtion_RV/circle.png',
+    author: 'Aarush Bhat',
+    githubLink: 'https://github.com/07rv'
+  },
+  {
+    artName: 'Devtemmy_animation',
+    pageLink: './Art/Devtemmy_animation/index.html',
+    imageLink: './Art/Devtemmy_animation/Devtemmyanimation.gif',
+    author: 'Dev-Temmy',
+    githubLink: 'https://github.com/Dev-Temmy'
+  },
+  {
+    artName: 'Fading text animation',
+    pageLink: './Art/araskog/index.html',
+    imageLink: './Art/araskog/animation.gif',
+    author: 'Amanda Araskog',
+    githubLink: 'https://github.com/araskog'
+ master
   }
 ];
 
