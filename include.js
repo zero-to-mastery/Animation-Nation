@@ -4294,8 +4294,8 @@
   },
   {
     artName: "Shiff's Animation",
-    pageLink: "./Art/myAnimation/index.html",
-    imageLink: "./Art/myAnimation/myanimation.gif",
+    pageLink: './Art/myAnimation/index.html',
+    imageLink: './Art/myAnimation/myanimation.gif',
     author: 'Shifa',
     githubLink: 'https://github.com/ShifaShirin'
   },
