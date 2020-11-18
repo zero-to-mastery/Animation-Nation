@@ -4451,7 +4451,6 @@
     imageLink: './Art/araskog/animation.gif',
     author: 'Amanda Araskog',
     githubLink: 'https://github.com/araskog'
- master
   }
 ];
 
