@@ -4293,6 +4293,13 @@
     githubLink: 'https://github.com/lidorasher11'
   },
   {
+ myanamation
+    artName: "Shiff's Animation",
+    pageLink: "./Art/myAnimation/index.html",
+    imageLink: "./Art/myAnimation/myanimation.gif",
+    author: 'Shifa',
+    githubLink: 'https://github.com/ShifaShirin'
+
     artName: 'ani-1trial',
     pageLink: './Art/ani-1trial/index.html',
     imageLink: './Art/ani-1trial/ani-gif.gif',
@@ -4444,6 +4451,7 @@
     imageLink: './Art/araskog/animation.gif',
     author: 'Amanda Araskog',
     githubLink: 'https://github.com/araskog'
+ master
   }
 ];
 
