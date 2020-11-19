@@ -4452,6 +4452,13 @@
     author: 'Amanda Araskog',
     githubLink: 'https://github.com/araskog'
   }
+  {
+    artName: 'Pop-up Confetti animation.',
+    pageLink: './Art/yay-ztm-animation/index.html',
+    imageLink: './Art/yay-ztm-animation/pop_animation.gif',
+    author: 'Hyunji Kim',
+    githubLink: 'https://github.com/creativehkim'
+  } 
 ];
 
 // +--------------------------------------------------------------------------------+
