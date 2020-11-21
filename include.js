@@ -4451,6 +4451,13 @@
     imageLink: './Art/araskog/animation.gif',
     author: 'Amanda Araskog',
     githubLink: 'https://github.com/araskog'
+  },
+  {
+    artName: 'Moving Divs',
+    pageLink: './Art/Razvan/RazvanFratila/index.html',
+    imageLink: './Art/Razvan/RazvanFratila/first.gif',
+    author: 'Razvan',
+    githubLink: 'https://github.com/fratilar'
   }
 ];
 
