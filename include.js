@@ -4453,7 +4453,7 @@
     githubLink: 'https://github.com/araskog'
   }
   {
-    artName: 'Bouncing Cheems',
+    artName: 'Bouncing Cheems ',
     pageLink: './Art/Suddath-Gautam/index.html',
     imageLink: './Art/Suddath-Gautam/cheems.gif',
     author: 'Suddath Gautam',
