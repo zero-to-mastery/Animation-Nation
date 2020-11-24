@@ -4452,6 +4452,13 @@
     author: 'Amanda Araskog',
     githubLink: 'https://github.com/araskog'
   }
+  {
+    artName: 'AmitAnimation',
+    pageLink: './Art/Joy/AmitAnimation/amitanimation.html',
+    imageLink: './Art/Joy/AmitAnimation/amitanimation.gif',
+    author: 'Amit',
+    githubLink: 'https://github.com/AmitRoy07'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
