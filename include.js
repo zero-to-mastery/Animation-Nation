@@ -4451,6 +4451,13 @@
     imageLink: './Art/araskog/animation.gif',
     author: 'Amanda Araskog',
     githubLink: 'https://github.com/araskog'
+  },
+  {
+    artName: 'KDev Animation',
+    pageLink: './Art/KDev-Animator/index.html',
+    imageLink: './Art/KDev-Animator/kdev-animation.gif',
+    author: 'Detmar Ruhfus',
+    githubLink: 'https://github.com/kamikazid'
   }
 ];
 
