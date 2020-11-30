@@ -4451,6 +4451,13 @@
     imageLink: './Art/araskog/animation.gif',
     author: 'Amanda Araskog',
     githubLink: 'https://github.com/araskog'
+  },
+  {
+    artName: 'Square Bounce',
+    pageLink: './Art/Vish/index.html',
+    imageLink: './Art/Vish/SquareBounce.gif',
+    author: 'Vishwam',
+    githubLink: 'https://github.com/vishmagic'
   }
 ];
 
