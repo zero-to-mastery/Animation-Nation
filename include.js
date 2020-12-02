@@ -4474,6 +4474,13 @@ let cards = [
     author: 'Hina Najam',
     githubLink: 'https://github.com/hinanajam'
   }
+  {
+    artName: 'AmitAnimation',
+    pageLink: './Art/Joy/AmitAnimation/amitanimation.html',
+    imageLink: './Art/Joy/AmitAnimation/amitanimation.gif',
+    author: 'Amit',
+    githubLink: 'https://github.com/AmitRoy07'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
