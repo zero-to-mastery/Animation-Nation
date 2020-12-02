@@ -4453,6 +4453,13 @@ let cards = [
     githubLink: 'https://github.com/araskog'
   },
   {
+    artName: 'Moving Divs',
+    pageLink: './Art/Razvan/RazvanFratila/index.html',
+    imageLink: './Art/Razvan/RazvanFratila/first.gif',
+    author: 'Razvan',
+    githubLink: 'https://github.com/fratilar'
+  },
+  {
     artName: 'KDev Animation',
     pageLink: './Art/KDev-Animator/index.html',
     imageLink: './Art/KDev-Animator/kdev-animation.gif',
@@ -4473,14 +4480,14 @@ let cards = [
     imageLink: './Art/Hina/net.gif',
     author: 'Hina Najam',
     githubLink: 'https://github.com/hinanajam'
-  }
+  },
   {
     artName: 'AmitAnimation',
     pageLink: './Art/Joy/AmitAnimation/amitanimation.html',
     imageLink: './Art/Joy/AmitAnimation/amitanimation.gif',
     author: 'Amit',
     githubLink: 'https://github.com/AmitRoy07'
-  }
+  },
   {
     artName: 'Bouncing Cheems ',
     pageLink: './Art/Suddath-Gautam/index.html',
