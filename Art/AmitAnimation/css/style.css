@@ -1,0 +1,269 @@
+body, html{margin: 0;height: 100%;}
+.main-body{width: 100%;height: 100%;display: grid;place-items: center;text-align: center;}
+.ro-circle {
+  width: 450px;
+  height: 450px;
+  position: relative;
+  background: linear-gradient(to top, #040308, #AD4A28, #DD723C, #FC7001, #DCB697, #9BA5AE, #3E5879, #020B1A);
+  box-shadow: 0 50px 40px rgba(0,0,0,0.5), 0 20px 10px rgba(0,0,0,0.3);
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.mainmount{width: 100%;height: 400px;content: ""; position: absolute;z-index: 0;top: 95px;left: 0;background: url(../images/main1.png) no-repeat center;
+background-size: 450px;}
+.land1{width: 64%;height: 161px;content: ""; position: absolute;z-index: 2;bottom: 17px;left: 0;background: url(../images/land1.png) no-repeat center;
+}
+.land2{width: 100%;height: 161px;content: ""; position: absolute;z-index: 1;bottom: 50px;right: 0;background: url(../images/land2.png) no-repeat center;}
+.trees{width: 100%;height: 326px;content: ""; position: absolute;z-index: 4;bottom: -130px;right: 0;background: url(../images/trees.png) no-repeat center;}
+.trees2{width: 100%;height: 326px;content: ""; position: absolute;z-index: 0;bottom: -109px;
+    right: -177px;background: url(../images/trees.png) no-repeat center;}
+.trees3{width: 100%;height: 140px;content: ""; position: absolute;z-index: 0;bottom: 106px;
+    right: -150px;background: url(../images/tree3.png) no-repeat center;}
+
+
+/*sun*/
+.sun { 
+  position: absolute;
+	top:-118px;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: auto;  
+	width:70px;
+	height:70px;
+	border-radius:50%;	
+	background: linear-gradient(120deg, #ec5115, #b90c13);
+	opacity:0.9;			
+	box-shadow: 0px 0px 40px 15px white;  
+}
+
+.ray_box {
+  position: absolute;
+  margin: auto;
+	top:0px;
+	left:0;
+	right:0;
+	bottom:0;	
+  width:70px;  
+  -webkit-animation: ray_anim 120s linear infinite;
+  animation: ray_anim 120s linear infinite;
+}
+.ray {  
+    background: -webkit-linear-gradient(top, rgb(255 51 4 / 0%) 0%, rgb(253 51 5 / 80%) 50%, rgb(249 89 12 / 0%) 100%);
+		background: linear-gradient(top, rgb(255 51 4 / 0%) 0%, rgb(253 51 5 / 80%) 50%, rgb(249 89 12 / 0%) 100%);
+    margin-left:10px;
+    border-radius:80% 80% 0 0;
+    position:absolute;
+    opacity:0.1;
+}
+
+.ray1 {    
+    height:170px;
+    width:30px;
+   -webkit-transform: rotate(180deg);
+    top:-175px;
+    left: 15px;
+}
+.ray2 {
+    height:100px;
+    width:8px;
+   -webkit-transform: rotate(220deg);
+    top:-90px;
+    left: 75px;
+}
+.ray3 {
+    height:170px;
+    width:50px;
+   -webkit-transform: rotate(250deg);
+    top:-80px;
+    left: 100px;
+}
+.ray4 {
+    height:120px;
+    width:14px;
+   -webkit-transform: rotate(305deg);
+    top:30px;
+    left: 100px;
+}
+.ray5 {
+    height:140px;
+    width:30px;
+   -webkit-transform: rotate(-15deg);
+    top:60px;
+    left: 40px;
+}
+.ray6 {
+    height:90px;
+    width:50px;
+   -webkit-transform: rotate(30deg);
+    top:60px;
+    left: -40px;
+}
+.ray7 {
+    height:180px;
+    width:10px;
+   -webkit-transform: rotate(70deg);
+    top:-35px;
+    left: -40px;
+}
+.ray8 {
+    height:120px;
+    width:30px;
+   -webkit-transform: rotate(100deg);
+    top:-45px;
+    left:-90px;
+}
+.ray9 {
+    height:80px;
+    width:10px;
+   -webkit-transform: rotate(120deg);
+    top:-65px;
+    left:-60px;
+}
+.ray10 {
+    height:190px;
+    width:23px;
+   -webkit-transform: rotate(150deg);
+    top:-185px;
+    left: -60px;
+}
+
+
+@-webkit-keyframes ray_anim { 
+		0% { -webkit-transform: rotate(0deg); transform: rotate(0deg);}    
+    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg);}
+}
+
+/*sun*/
+
+
+/*cloud*/
+@-webkit-keyframes animateCloud {
+    0% {
+        margin-left: -200px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-moz-keyframes animateCloud {
+    0% {
+        margin-left: -200px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -200px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+	-webkit-animation: animateCloud 35s linear infinite;
+	-moz-animation: animateCloud 35s linear infinite;
+	animation: animateCloud 35s linear infinite;
+	
+	-webkit-transform: scale(0.20);
+	-moz-transform: scale(0.20);
+	transform: scale(0.20);
+}
+
+.x2 {
+	-webkit-animation: animateCloud 20s linear infinite;
+	-moz-animation: animateCloud 20s linear infinite;
+	animation: animateCloud 20s linear infinite;
+	
+	-webkit-transform: scale(0.15);
+	-moz-transform: scale(0.15);
+	transform: scale(0.15);
+	position: relative;
+	z-index: 2;
+}
+
+.x3 {
+	-webkit-animation: animateCloud 30s linear infinite;
+	-moz-animation: animateCloud 30s linear infinite;
+	animation: animateCloud 30s linear infinite;
+	
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+.x4 {
+	-webkit-animation: animateCloud 18s linear infinite;
+	-moz-animation: animateCloud 18s linear infinite;
+	animation: animateCloud 18s linear infinite;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+	position: relative;
+	z-index: 4;
+}
+
+
+/* OBJECTS */
+
+.cloud {
+	background: #fff;
+	background: -moz-linear-gradient(top,  #fff 5%, #f1f1f1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#fff), color-stop(100%,#f1f1f1));
+	background: -webkit-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: -o-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: -ms-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
+	
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	
+	-webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+
+	height: 105px;
+	position: relative;
+	width: 350px;
+}
+
+.cloud:after, .cloud:before {
+    background: #fff;
+	content: '';
+	position: absolute;
+	z-indeX: -1;
+}
+
+.cloud:after {
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+
+	height: 100px;
+	left: 50px;
+	top: -50px;
+	width: 100px;
+}
+
+.cloud:before {
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	border-radius: 200px;
+
+	width: 180px;
+	height: 200px;
+	right: 50px;
+	top: -90px;
+}
+/*cloud*/
