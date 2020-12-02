@@ -1,4 +1,4 @@
-﻿let cards = [
+let cards = [
   {
     artName: 'Scissors Cutting Animation (CSS only)',
     pageLink: './Art/CoffeeAnimation/index.html',
@@ -4451,6 +4451,14 @@
     imageLink: './Art/araskog/animation.gif',
     author: 'Amanda Araskog',
     githubLink: 'https://github.com/araskog'
+  }
+   {
+    artName: 'Hina',
+    pageLink: './Art/Hina/Hina.html',
+    imageLink: './Art/Hina/Basketball.gif',
+    imageLink: './Art/Hina/net.gif',
+    author: 'Hina Najam',
+    githubLink: 'https://github.com/hinanajam'
   }
 ];
 
