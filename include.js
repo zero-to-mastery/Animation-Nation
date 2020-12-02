@@ -4481,6 +4481,13 @@ let cards = [
     author: 'Amit',
     githubLink: 'https://github.com/AmitRoy07'
   }
+  {
+    artName: 'Bouncing Cheems ',
+    pageLink: './Art/Suddath-Gautam/index.html',
+    imageLink: './Art/Suddath-Gautam/cheems.gif',
+    author: 'Suddath Gautam',
+    githubLink: 'https://github.com/wardaddy98'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
