@@ -4503,6 +4503,13 @@ let cards = [
     author: 'Suddath Gautam',
     githubLink: 'https://github.com/wardaddy98'
   }
+  {
+    artName: 'Pop-up Confetti animation.',
+    pageLink: './Art/yay-ztm-animation/index.html',
+    imageLink: './Art/yay-ztm-animation/pop_animation.gif',
+    author: 'Hyunji Kim',
+    githubLink: 'https://github.com/creativehkim'
+  } 
 ];
 
 // +--------------------------------------------------------------------------------+
