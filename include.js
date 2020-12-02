@@ -36,6 +36,14 @@ let cards = [
     githubLink: 'https://github.com/VikrantKu333'
   },
   {
+    artname: 'Animation-Cool',
+    pageLink: './Art/apilacharya/index.html',
+    imageLink: './Art/apilacharya/animation-cool.gif',
+    author: 'Apil Raj Acharya',
+    githubLink: 'https://github.com/apilacharya'
+  },
+
+  {
     artName: 'covid-19',
     pageLink: './Art/shivam12k/index.html',
     videoLink: './Art/cell/cell.mp4',
