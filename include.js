@@ -4453,13 +4453,20 @@ let cards = [
     githubLink: 'https://github.com/araskog'
   },
   {
+    artName: 'KDev Animation',
+    pageLink: './Art/KDev-Animator/index.html',
+    imageLink: './Art/KDev-Animator/kdev-animation.gif',
+    author: 'Detmar Ruhfus',
+    githubLink: 'https://github.com/kamikazid'
+  },
+  {
     artName: 'Square Bounce',
     pageLink: './Art/Vish/index.html',
     imageLink: './Art/Vish/SquareBounce.gif',
     author: 'Vishwam',
     githubLink: 'https://github.com/vishmagic'
-  }
-   {
+  },
+  {
     artName: 'Hina',
     pageLink: './Art/Hina/Hina.html',
     imageLink: './Art/Hina/Basketball.gif',
