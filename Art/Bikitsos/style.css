@@ -1,0 +1,29 @@
+body {
+	background-color: skyblue;
+}
+
+.ball {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	border-radius: 50%;
+	background-color: orangered;
+	animation-name: bounce;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+	0% {
+		top: 0px;
+	}
+	50% {
+		top: 250px;
+		width: 350px;
+		height: 250px;
+	}
+	100% {
+		top: 0px;
+	}
+}
