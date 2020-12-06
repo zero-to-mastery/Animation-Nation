@@ -4513,7 +4513,7 @@ let cards = [
   {
     artName: 'vasubhatnagar',
     pageLink: './Art/vasubhatnagar/index.html',
-    imageLink: './Art/vasubhatnagar/ss.jpeg',
+    imageLink: './Art/vasubhatnagar/ss.jpg',
     author: 'Vasu Bhatnagar',
     githubLink: 'https://github.com/vasubhatnagar'
   }
