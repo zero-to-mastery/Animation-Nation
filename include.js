@@ -1,5 +1,11 @@
 let cards = [
   {
+    pageLink: './Art/mishra-parth/index.html',
+    imageLink: './Art/mishra-parth/mishra-parth-project.gif',
+    author: 'Parth',
+    githubLink: 'https://github.com/mishra-parth'
+  },
+  {
     artName: 'Scissors Cutting Animation (CSS only)',
     pageLink: './Art/CoffeeAnimation/index.html',
     imageLink: './Art/CoffeeAnimation/scissors-cutting-animation.gif',
@@ -4502,7 +4508,7 @@ let cards = [
     imageLink: './Art/Suddath-Gautam/cheems.gif',
     author: 'Suddath Gautam',
     githubLink: 'https://github.com/wardaddy98'
-  }
+  },
   {
     artName: 'Pop-up Confetti animation.',
     pageLink: './Art/yay-ztm-animation/index.html',
