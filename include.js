@@ -4509,7 +4509,14 @@ let cards = [
     imageLink: './Art/yay-ztm-animation/pop_animation.gif',
     author: 'Hyunji Kim',
     githubLink: 'https://github.com/creativehkim'
-  } 
+  }
+  {
+    artName: 'Smiling Doll',
+    pageLink: './Art/jbermeo/index.html',
+    imageLink: './Art/jbermeo/doll.gif',
+    author: 'Jose Bermeo',
+    githubLink: 'https://github.com/jbermeo10'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
