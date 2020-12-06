@@ -4509,7 +4509,15 @@ let cards = [
     imageLink: './Art/yay-ztm-animation/pop_animation.gif',
     author: 'Hyunji Kim',
     githubLink: 'https://github.com/creativehkim'
-  } 
+  } ,
+  {
+    artName: 'vasubhatnagar',
+    pageLink: './Art/vasubhatnagar/index.html',
+    imageLink: './Art/vasubhatnagar/ss.jpeg',
+    author: 'Vasu Bhatnagar',
+    githubLink: 'https://github.com/vasubhatnagar'
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
