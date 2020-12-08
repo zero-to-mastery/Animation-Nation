@@ -1,5 +1,6 @@
 let cards = [
   {
+    artName: 'Art',
     pageLink: './Art/mishra-parth/index.html',
     imageLink: './Art/mishra-parth/mishra-parth-project.gif',
     author: 'Parth',
@@ -4515,6 +4516,13 @@ let cards = [
     imageLink: './Art/yay-ztm-animation/pop_animation.gif',
     author: 'Hyunji Kim',
     githubLink: 'https://github.com/creativehkim'
+  },
+  {
+    artName: 'Monolith',
+    pageLink: './Art/acphil/index.html',
+    imageLink: './Art/acphil/monolith.png',
+    author: 'acphil',
+    githubLink: 'https://github.com/acphil2'
   },
   {
     artName: 'Smiling Doll',
