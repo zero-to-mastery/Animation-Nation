@@ -4509,7 +4509,13 @@ let cards = [
     imageLink: './Art/yay-ztm-animation/pop_animation.gif',
     author: 'Hyunji Kim',
     githubLink: 'https://github.com/creativehkim'
-  } 
+  }
+  {
+  pageLink: './Art/JoToSmola/index.html',
+  imageLink: './Art/JoToSmola/JoToSmola.gif',
+  author: 'GrabKrab',
+  githubLink: 'https://github.com/GrabKrab'
+} 
 ];
 
 // +--------------------------------------------------------------------------------+
