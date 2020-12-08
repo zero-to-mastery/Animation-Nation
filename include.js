@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Art',
+    pageLink: './Art/mishra-parth/index.html',
+    imageLink: './Art/mishra-parth/mishra-parth-project.gif',
+    author: 'Parth',
+    githubLink: 'https://github.com/mishra-parth'
+  },
+  {
     artName: 'Scissors Cutting Animation (CSS only)',
     pageLink: './Art/CoffeeAnimation/index.html',
     imageLink: './Art/CoffeeAnimation/scissors-cutting-animation.gif',
@@ -4511,10 +4518,32 @@ let cards = [
     githubLink: 'https://github.com/creativehkim'
   },
   {
+    artName: 'Monolith',
     pageLink: './Art/acphil/index.html',
     imageLink: './Art/acphil/monolith.png',
     author: 'acphil',
     githubLink: 'https://github.com/acphil2'
+  },
+  {
+    artName: 'Smiling Doll',
+    pageLink: './Art/jbermeo/index.html',
+    imageLink: './Art/jbermeo/doll.gif',
+    author: 'Jose Bermeo',
+    githubLink: 'https://github.com/jbermeo10'
+  },
+  {
+    artName: 'vasubhatnagar',
+    pageLink: './Art/vasubhatnagar/index.html',
+    imageLink: './Art/vasubhatnagar/ss.jpg',
+    author: 'Vasu Bhatnagar',
+    githubLink: 'https://github.com/vasubhatnagar'
+  },
+  {
+    artName: 'JoToSmola',
+    pageLink: './Art/JoToSmola/index.html',
+    imageLink: './Art/JoToSmola/JoToSmola.gif',
+    author: 'GrabKrab',
+    githubLink: 'https://github.com/GrabKrab'
   }
 ];
 
