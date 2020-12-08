@@ -1,12 +1,12 @@
 h1 {
-	text-align: center;
-	font-family: 'Indie Flower', cursive;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 
 .doll {
-	flex-wrap: wrap;
-	display: flex;
-	justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
 }
 
 .head,
@@ -14,46 +14,47 @@ h1 {
 .right_arm,
 .left_leg,
 .right_leg {
-	 background-color: #FFCCA4;
+  background-color: #ffcca4;
 }
 
 .torso {
-	background-color: #186DFF;
+  background-color: #186dff;
 }
 
 .head {
-	width: 200px;
-	margin: 0 auto;
-	height: 150px;
-	border-radius: 200px 200px 90px 90px;
-	margin-bottom: 10px;
+  width: 200px;
+  margin: 0 auto;
+  height: 150px;
+  border-radius: 200px 200px 90px 90px;
+  margin-bottom: 10px;
   display: flex;
 }
 
 .eyes {
-	display: flex
+  display: flex;
 }
 
-.left_eye, .right_eye {
-	width: 40px;
-	height: 45px;
-	border-radius: 100px;
-	background-color: black;
+.left_eye,
+.right_eye {
+  width: 40px;
+  height: 45px;
+  border-radius: 100px;
+  background-color: black;
 }
 
 .left_eye {
-	position: relative;
-	top: 50px;
-	left: 55px;
+  position: relative;
+  top: 50px;
+  left: 55px;
   display: flex;
   justify-content: center;
-align-items: flex-end;
+  align-items: flex-end;
 }
 
 .right_eye {
-	position: relative;
-	top: 50px;
-	left: 65px;
+  position: relative;
+  top: 50px;
+  left: 65px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -62,11 +63,11 @@ align-items: flex-end;
 	width: 300px;
   transition: 1s ease-in-out;
 } */
-.point{
+.point {
   width: 15px;
-	height: 15px;
-	border-radius: 20px;
-	background-color: white;
+  height: 15px;
+  border-radius: 20px;
+  background-color: white;
   margin-bottom: 5px;
   animation: eye_mov 1s infinite;
   animation-direction: alternate;
@@ -83,12 +84,12 @@ align-items: flex-end;
 
 .mouth {
   width: 90px;
-  background-color: #FF0000;
+  background-color: #ff0000;
   height: 35px;
-	border-radius: 0px 0px 90px 90px;
+  border-radius: 0px 0px 90px 90px;
   position: relative;
-	top: 105px;
-	left: -25px;
+  top: 105px;
+  left: -25px;
   animation: smile 1s infinite;
   animation-direction: alternate;
 }
@@ -103,60 +104,62 @@ align-items: flex-end;
 }
 
 .upper_body {
-	width: 300px;
-	height: 220px;
-	display: flex;
+  width: 300px;
+  height: 220px;
+  display: flex;
 }
 
-.left_arm, .right_arm {
-	width: 40px;
-	height: 125px;
-	border-radius: 100px;
+.left_arm,
+.right_arm {
+  width: 40px;
+  height: 125px;
+  border-radius: 100px;
 }
 
 .left_arm {
-	margin-right: 10px;
+  margin-right: 10px;
   margin-top: 10px;
 }
 
 .right_arm {
-	margin-left: 10px;
+  margin-left: 10px;
   margin-top: 10px;
 }
 
 .torso {
-	width: 200px;
-	height: 220px;
-	border-radius: 30px 30px 50px 50px;
+  width: 200px;
+  height: 220px;
+  border-radius: 30px 30px 50px 50px;
 }
 
 .lower_body {
-	width: 200px;
-	height: 200px;
-	margin: 0 auto;
-	display: flex;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
 }
 
-.left_leg, .right_leg {
-	width: 40px;
-	height: 80px;
-	border-radius: 0 0 100px 100px;
+.left_leg,
+.right_leg {
+  width: 40px;
+  height: 80px;
+  border-radius: 0 0 100px 100px;
 }
 
 .left_leg {
-	margin-left: 45px;
+  margin-left: 45px;
 }
 
 .left_arm:hover {
-    transform: translate(-35px, -60px) rotate(120deg) ;
-    transition: 0.5s ease-in-out;
+  transform: translate(-35px, -60px) rotate(120deg);
+  transition: 0.5s ease-in-out;
 }
 
 .right_arm:hover {
-    transform: translate(35px, -60px) rotate(-120deg) ;
-    transition: 0.2s ease-in-out;
+  transform: translate(35px, -60px) rotate(-120deg);
+  transition: 0.2s ease-in-out;
 }
 
 .right_leg {
-	margin-left: 30px;
+  margin-left: 30px;
 }

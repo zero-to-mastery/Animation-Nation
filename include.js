@@ -4536,7 +4536,7 @@ let cards = [
     imageLink: './Art/JoToSmola/JoToSmola.gif',
     author: 'GrabKrab',
     githubLink: 'https://github.com/GrabKrab'
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+

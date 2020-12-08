@@ -20,7 +20,7 @@ body {
   width: 200px;
   height: 140px;
   transform-origin: 50% 80%;
-  animation: zoomIn .5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
+  animation: zoomIn 0.5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
 }
 
 .dragon .body {
@@ -45,7 +45,8 @@ body {
   z-index: 9;
   transform-origin: 150% 200%;
   transform: rotate(-5deg);
-  animation: swingRight .5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
+  animation: swingRight 0.5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite
+    alternate;
 }
 
 .dragon .horn-right {
@@ -59,7 +60,7 @@ body {
   z-index: 9;
   transform-origin: -50% 200%;
   transform: rotate(5deg);
-  animation: swingLeft .5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
+  animation: swingLeft 0.5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
 }
 
 .dragon .eye {
@@ -90,7 +91,7 @@ body {
   background: url(./img/blush.png) no-repeat;
   background-size: 100% 100%;
   z-index: 11;
-  animation: blush .5s ease infinite alternate;
+  animation: blush 0.5s ease infinite alternate;
 }
 
 .dragon .blush.left {
@@ -123,7 +124,7 @@ body {
   background-size: contain;
   z-index: 9;
   transform-origin: 0 100%;
-  animation: tailUp .5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
+  animation: tailUp 0.5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
 }
 
 .shadow-wrapper {
@@ -139,7 +140,7 @@ body {
   background: rgba(0, 0, 0, 0.15);
   border-radius: 50%;
   z-index: 0;
-  animation: zoomIn .5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
+  animation: zoomIn 0.5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
 }
 
 .fire-wrapper {
@@ -183,101 +184,101 @@ body {
 
 @keyframes zoomIn {
   100% {
-      transform: scale(1.16, 1.16);
+    transform: scale(1.16, 1.16);
   }
 }
 
 @keyframes swingRight {
   100% {
-      transform: rotate(5deg);
+    transform: rotate(5deg);
   }
 }
 
 @keyframes swingLeft {
   100% {
-      transform: rotate(-5deg);
+    transform: rotate(-5deg);
   }
 }
 
 @keyframes blush {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
 
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
 @keyframes openMouth {
   0% {
-      -webkit-clip-path: ellipse(20% 0% at 50% 0);
-              clip-path: ellipse(20% 0% at 50% 0);
+    -webkit-clip-path: ellipse(20% 0% at 50% 0);
+    clip-path: ellipse(20% 0% at 50% 0);
   }
 
   50% {
-      -webkit-clip-path: ellipse(100% 100% at 50% 0);
-              clip-path: ellipse(100% 100% at 50% 0);
+    -webkit-clip-path: ellipse(100% 100% at 50% 0);
+    clip-path: ellipse(100% 100% at 50% 0);
   }
 
   70% {
-      -webkit-clip-path: ellipse(100% 100% at 50% 0);
-              clip-path: ellipse(100% 100% at 50% 0);
+    -webkit-clip-path: ellipse(100% 100% at 50% 0);
+    clip-path: ellipse(100% 100% at 50% 0);
   }
 
   100% {
-      -webkit-clip-path: ellipse(20% 0% at 50% 0);
-              clip-path: ellipse(20% 0% at 50% 0);
+    -webkit-clip-path: ellipse(20% 0% at 50% 0);
+    clip-path: ellipse(20% 0% at 50% 0);
   }
 }
 
 @keyframes tailUp {
   0% {
-      transform: scaleY(0.9);
+    transform: scaleY(0.9);
   }
 
   100% {
-      transform: scaleY(1.06);
+    transform: scaleY(1.06);
   }
 }
 
 @keyframes loading {
   100% {
-      width: 100%;
+    width: 100%;
   }
 }
 
 @keyframes fireUp {
   0% {
-      top: 70px;
+    top: 70px;
   }
 
   20% {
-      top: 70px;
+    top: 70px;
   }
 
   100% {
-      top: -80px;
+    top: -80px;
   }
 }
 
 @keyframes fire {
   0% {
-      transform: scale(0, 0);
-      opacity: 0.8;
+    transform: scale(0, 0);
+    opacity: 0.8;
   }
 
   20% {
-      transform: scale(0, 0);
-      opacity: 0.8;
+    transform: scale(0, 0);
+    opacity: 0.8;
   }
 
   50% {
-      opacity: 0.8;
+    opacity: 0.8;
   }
 
   100% {
-      transform: scale(1, 1);
-      opacity: 0;
+    transform: scale(1, 1);
+    opacity: 0;
   }
 }
