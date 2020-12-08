@@ -4502,20 +4502,28 @@ let cards = [
     imageLink: './Art/Suddath-Gautam/cheems.gif',
     author: 'Suddath Gautam',
     githubLink: 'https://github.com/wardaddy98'
-  }
+  },
   {
     artName: 'Pop-up Confetti animation.',
     pageLink: './Art/yay-ztm-animation/index.html',
     imageLink: './Art/yay-ztm-animation/pop_animation.gif',
     author: 'Hyunji Kim',
-    githubLink: 'https://github.com/creativehkim'
-  }
+    githubLink: 'https://github.com/creativehkim'gg
+  },
   {
-  pageLink: './Art/JoToSmola/index.html',
-  imageLink: './Art/JoToSmola/JoToSmola.gif',
-  author: 'GrabKrab',
-  githubLink: 'https://github.com/GrabKrab'
-} 
+    artName: 'vasubhatnagar',
+    pageLink: './Art/vasubhatnagar/index.html',
+    imageLink: './Art/vasubhatnagar/ss.jpg',
+    author: 'Vasu Bhatnagar',
+    githubLink: 'https://github.com/vasubhatnagar'
+  },
+  {
+    artName: 'JoToSmola',
+    pageLink: './Art/JoToSmola/index.html',
+    imageLink: './Art/JoToSmola/JoToSmola.gif',
+    author: 'GrabKrab',
+    githubLink: 'https://github.com/GrabKrab'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
