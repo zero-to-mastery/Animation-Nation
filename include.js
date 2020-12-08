@@ -4514,7 +4514,14 @@ let cards = [
     pageLink: './Art/yay-ztm-animation/index.html',
     imageLink: './Art/yay-ztm-animation/pop_animation.gif',
     author: 'Hyunji Kim',
-    githubLink: 'https://github.com/creativehkim'gg
+    githubLink: 'https://github.com/creativehkim'
+  },
+  {
+    artName: 'Smiling Doll',
+    pageLink: './Art/jbermeo/index.html',
+    imageLink: './Art/jbermeo/doll.gif',
+    author: 'Jose Bermeo',
+    githubLink: 'https://github.com/jbermeo10'
   },
   {
     artName: 'vasubhatnagar',
