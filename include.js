@@ -4550,6 +4550,12 @@ let cards = [
     pageLink: './Art/mojaanimacia/stranka.html',
     author: 'Martin052',
     githubLink: 'https://github.com/martin052'
+  },
+  {
+    artName: 'AnimatronJS',
+    pageLink: './Art/animatronJS/index.html',
+    author: 'Anna Ovechkina',
+    githubLink: 'https://github.com/Annu7shka'
   }
 ];
 
