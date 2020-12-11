@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:pink;
+}
+
+.wrap {
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 20% auto;
+    text-align: center;
+}
+
+.loading {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background:#fff;
+  border-radius:5px;
+}
+
+.square1 {
+    position: absolute;
+    animation: topToRight 5s infinite;
+}
+
+.square2 {
+    position: absolute;
+    animation: RightToTop 5S infinite;
+}
+
+@keyframes topToRight {
+    0%{
+       top:150px;
+       left: 0px;
+       opacity: 0.5;
+    }
+    50% {
+        top:0;
+        left: 0px;
+        width: 20px;
+        height: 20px;
+        opacity: 0.8
+    }
+
+    100%{
+        left:160px;
+        opacity: 1;
+    }
+}
+
+@keyframes RightToTop  {
+    0% {
+       right: 0px;
+       top:0px;
+       opacity: 0.5
+    }
+    50% {
+        top:170px;
+        right: 0px;
+        opacity: 0.5;
+        width: 20px;
+        height: 20px;
+        opacity: 0.8
+    }
+    100% {
+        right:160px;
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
+.circle {
+    border-top: 65px solid rgb(142, 100, 196);
+    border-bottom: 65px solid rgb(148, 71, 71);
+    border-left:65px solid transparent ;
+    border-right: 65px solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius: 50%;
+    margin: auto;
+    animation: rotate 1s infinite
+}
+
+.center {
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bigcircle {
+    width: 90px;
+    height: 100px;
+    border-top: 10px solid rgb(142, 100, 196);
+    border-bottom: 10px solid rgb(148, 71, 71);
+    border-left:10px solid transparent ;
+    border-right: 10px solid transparent;
+    border-radius: 50%;
+    margin: auto;
+    animation: rotateBig 1s infinite;
+}
+
+@keyframes rotateBig {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotatesmall {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.smallcircle {
+    width: 30px;
+    height: 30px;
+    border-top: 5px solid rgb(142, 100, 196);
+    border-bottom: 5px solid rgb(148, 71, 71);
+    border-left:5px solid transparent ;
+    border-right: 5px solid transparent;
+    border-radius: 50%;
+    margin: auto;
+    animation:rotatesmall 1s infinite linear;   
+}

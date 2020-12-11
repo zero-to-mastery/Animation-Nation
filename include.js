@@ -4509,7 +4509,14 @@ let cards = [
     imageLink: './Art/yay-ztm-animation/pop_animation.gif',
     author: 'Hyunji Kim',
     githubLink: 'https://github.com/creativehkim'
-  } 
+  },
+  {
+    artName: 'Loding animation.',
+    pageLink: './Art/Demianimationloading/index.html',
+    imageLink: './Art/Demianimationloading/ezgif.com-gif-maker.gif',
+    author: 'Demi',
+    githubLink: 'https://github.com/DemiMackin'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
