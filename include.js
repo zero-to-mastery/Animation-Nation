@@ -4550,6 +4550,13 @@ let cards = [
     pageLink: './Art/mojaanimacia/stranka.html',
     author: 'Martin052',
     githubLink: 'https://github.com/martin052'
+  },
+  {
+    artName: 'FourFlag_Load',
+    pageLink: './Art/FourFlag_Load/index.html',
+    imageLink: './Art/FourFlag_Load/trance.gif',
+    author: 'chungngai09',
+    githubLink: 'https://github.com/chungngai09'
   }
 ];
 
