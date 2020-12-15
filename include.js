@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Disco Bubble',
+    pageLink: './Art/konstantify/index.html',
+    imageLink: './Art/konstantify/konst.gif',
+    author: 'Constantin',
+    githubLink: 'https://github.com/konstantin0s'
+  },
+  {
     artName: 'Art',
     pageLink: './Art/mishra-parth/index.html',
     imageLink: './Art/mishra-parth/mishra-parth-project.gif',
