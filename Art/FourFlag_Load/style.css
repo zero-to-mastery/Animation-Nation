@@ -1,56 +1,70 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Preloader Css */
-  
-  .preloader-background {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #9900ff;
-  }
-  
-  .preloader-paddles {
-    position: absolute;
-    margin: 0 ;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 40px;
-    width: 20px;
-    background-color: transparent;
-    animation: paddles 2s ease-in-out infinite;
-    animation-duration: 4s;
-  }
+  margin: 0;
+  padding: 0;
+}
 
+/* Preloader Css */
 
-  @keyframes paddles {
-    0%   {background-color:white; left:48vw; top:48vh; 
-        box-shadow: -20px -20px  blue, 20px 20px  red;
-    }
-    25%  {background-color:white; left:52vw; top:48vh;
-        box-shadow: -20px 20px  green, 20px -20px  red;
-    }
-    50%  {background-color:white; left:52vw; top:52vh;
-        box-shadow: -20px -20px  green, 20px 20px  orange;
-    }
-    75%  {background-color:yellow; left:48vw; top:52vh;
-        box-shadow: -20px 20px  black, 20px -20px  red;
-    }
-    100% {background-color:white; left:48vw; top:48vh;
-        box-shadow: -20px -20px  blue, 20px 20px  red;
-    }
-  } 
+.preloader-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #9900ff;
+}
 
-  /* .preloader-ball {
+.preloader-paddles {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  width: 20px;
+  background-color: transparent;
+  animation: paddles 2s ease-in-out infinite;
+  animation-duration: 4s;
+}
+
+@keyframes paddles {
+  0% {
+    background-color: white;
+    left: 48vw;
+    top: 48vh;
+    box-shadow: -20px -20px blue, 20px 20px red;
+  }
+  25% {
+    background-color: white;
+    left: 52vw;
+    top: 48vh;
+    box-shadow: -20px 20px green, 20px -20px red;
+  }
+  50% {
+    background-color: white;
+    left: 52vw;
+    top: 52vh;
+    box-shadow: -20px -20px green, 20px 20px orange;
+  }
+  75% {
+    background-color: yellow;
+    left: 48vw;
+    top: 52vh;
+    box-shadow: -20px 20px black, 20px -20px red;
+  }
+  100% {
+    background-color: white;
+    left: 48vw;
+    top: 48vh;
+    box-shadow: -20px -20px blue, 20px 20px red;
+  }
+}
+
+/* .preloader-ball {
     content: '';
     position: absolute;
     margin: 0 ;
