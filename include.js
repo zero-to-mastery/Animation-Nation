@@ -4552,6 +4552,13 @@ let cards = [
     githubLink: 'https://github.com/martin052'
   },
   {
+    artName: 'FourFlag_Load',
+    pageLink: './Art/FourFlag_Load/index.html',
+    imageLink: './Art/FourFlag_Load/trance.gif',
+    author: 'chungngai09',
+    githubLink: 'https://github.com/chungngai09'
+  },
+  {
     artName: 'AnimatronJS',
     pageLink: './Art/animatronJS/index.html',
     author: 'Anna Ovechkina',
