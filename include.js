@@ -4550,6 +4550,12 @@ let cards = [
     pageLink: './Art/mojaanimacia/stranka.html',
     author: 'Martin052',
     githubLink: 'https://github.com/martin052'
+  },
+  {
+    artName: 'ellipsis',
+    pageLink: './Art/ianhawe/index.html',
+    author: 'ianhawe',
+    githubLink: 'https://github.com/ianhawe'
   }
 ];
 
