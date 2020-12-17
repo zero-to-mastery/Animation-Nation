@@ -4559,7 +4559,6 @@ let cards = [
     githubLink: 'https://github.com/martin052'
   },
   {
-
     artName: 'Beating Heart',
     pageLink: './Art/beating-heart/index.html',
     imageLink: './Art/beating-heart/heart.gif',
