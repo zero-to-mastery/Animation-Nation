@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Disco Bubble',
+    pageLink: './Art/konstantify/index.html',
+    imageLink: './Art/konstantify/konst.gif',
+    author: 'Constantin',
+    githubLink: 'https://github.com/konstantin0s'
+  },
+  {
     artName: 'Art',
     pageLink: './Art/mishra-parth/index.html',
     imageLink: './Art/mishra-parth/mishra-parth-project.gif',
@@ -4552,11 +4559,39 @@ let cards = [
     githubLink: 'https://github.com/martin052'
   },
   {
+
     artName: 'Beating Heart',
     pageLink: './Art/beating-heart/index.html',
     imageLink: './Art/beating-heart/heart.gif',
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
+  },
+  {
+    artName: 'ellipsis',
+    pageLink: './Art/ianhawe/index.html',
+    author: 'ianhawe',
+    githubLink: 'https://github.com/ianhawe'
+  },
+  {
+    artName: 'Fun with balls!',
+    pageLink: './Art/miguelDalberto/funWithBalls/index.html',
+    imageLink: './Art/miguelDalberto/funWithBalls/funWithBalls_screenshot.png',
+    author: 'miguelDalberto',
+    githubLink: 'https://github.com/miguelDalberto'
+  },
+  {
+    artName: 'FourFlag_Load',
+    pageLink: './Art/FourFlag_Load/index.html',
+    imageLink: './Art/FourFlag_Load/trance.gif',
+    author: 'chungngai09',
+    githubLink: 'https://github.com/chungngai09'
+  },
+  {
+    artName: 'AnimatronJS',
+    pageLink: './Art/animatronJS/index.html',
+    author: 'Anna Ovechkina',
+    githubLink: 'https://github.com/Annu7shka'
+
   }
 ];
 
@@ -4572,14 +4607,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 });
 
