@@ -4546,10 +4546,17 @@ let cards = [
     githubLink: 'https://github.com/GrabKrab'
   },
   {
-    artName: 'mojaanimacia'
+    artName: 'mojaanimacia',
     pageLink: './Art/mojaanimacia/stranka.html',
     author: 'Martin052',
     githubLink: 'https://github.com/martin052'
+  },
+  {
+    artName: 'Fun with balls!',
+    pageLink: './Art/miguelDalberto/funWithBalls/index.html',
+    imageLink: './Art/miguelDalberto/funWithBalls/funWithBalls_screenshot.png',
+    author: 'miguelDalberto',
+    githubLink: 'https://github.com/miguelDalberto'
   },
   {
     artName: 'FourFlag_Load',
