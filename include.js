@@ -4559,6 +4559,12 @@ let cards = [
     githubLink: 'https://github.com/martin052'
   },
   {
+    artName: 'ellipsis',
+    pageLink: './Art/ianhawe/index.html',
+    author: 'ianhawe',
+    githubLink: 'https://github.com/ianhawe'
+  },
+    {
     artName: 'Fun with balls!',
     pageLink: './Art/miguelDalberto/funWithBalls/index.html',
     imageLink: './Art/miguelDalberto/funWithBalls/funWithBalls_screenshot.png',
