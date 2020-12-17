@@ -4546,7 +4546,7 @@ let cards = [
     githubLink: 'https://github.com/GrabKrab'
   },
   {
-    artName: 'mojaanimacia'
+    artName: 'mojaanimacia',
     pageLink: './Art/mojaanimacia/stranka.html',
     author: 'Martin052',
     githubLink: 'https://github.com/martin052'
