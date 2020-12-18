@@ -4584,6 +4584,12 @@ let cards = [
     author: 'Anna Ovechkina',
     githubLink: 'https://github.com/Annu7shka'
   }
+  {
+    artName: 'Jittery rectangles',
+    pageLink: './Art/Vaibhav/index.html',
+    author: 'Vaibhav Jain',
+    githubLink: 'https://github.com/Vaibhav-multi-dev'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
