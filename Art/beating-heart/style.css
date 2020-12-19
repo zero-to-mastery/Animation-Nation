@@ -28,7 +28,7 @@ body {
 
 #heart::before,
 #heart::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   width: 52px;
