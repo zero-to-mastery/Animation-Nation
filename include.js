@@ -4583,6 +4583,13 @@ let cards = [
     pageLink: './Art/animatronJS/index.html',
     author: 'Anna Ovechkina',
     githubLink: 'https://github.com/Annu7shka'
+  },
+  {
+    artName: 'Beating Heart',
+    pageLink: './Art/beating-heart/index.html',
+    imageLink: './Art/beating-heart/heart.gif',
+    author: 'MishkaZi',
+    githubLink: 'https://github.com/MishkaZi'
   }
 ];
 
