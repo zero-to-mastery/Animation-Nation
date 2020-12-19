@@ -4550,8 +4550,16 @@ let cards = [
     pageLink: './Art/mojaanimacia/stranka.html',
     author: 'Martin052',
     githubLink: 'https://github.com/martin052'
+  },
+  {
+    artName: 'perfect_goal'
+    pageLink: './Art/perfect_goal/index.html',
+    imageLink: './Art/perfect_goal/perfect_goalscreenshot.png',
+    author: 'henzbori',
+    githubLink: 'https://github.com/henzbori'
   }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
