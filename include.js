@@ -4585,6 +4585,13 @@ let cards = [
     githubLink: 'https://github.com/Annu7shka'
   },
   {
+    artName: 'perfect_goal',
+    pageLink: './Art/perfect_goal/index.html',
+    imageLink: './Art/perfect_goal/perfect_goalscreenshot.png',
+    author: 'henzbori',
+    githubLink: 'https://github.com/henzbori'
+  },
+  {
     artName: 'Beating Heart',
     pageLink: './Art/beating-heart/index.html',
     imageLink: './Art/beating-heart/heart.gif',
@@ -4592,6 +4599,7 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
