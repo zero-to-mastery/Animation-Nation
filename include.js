@@ -4598,6 +4598,14 @@ let cards = [
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
   }
+  { 
+    artName: 'Pra-animate',
+    pageLink: './Art/Pra-animate/indexpra1.html',
+    //imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Prajoth',
+    githubLink: 'https://github.com/prajoth-b'
+  },
+  
 ];
 
 // +--------------------------------------------------------------------------------+
