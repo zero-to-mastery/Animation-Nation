@@ -4597,6 +4597,13 @@ let cards = [
     imageLink: './Art/beating-heart/heart.gif',
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
+  },
+  {
+    artName: 'KC Loader',
+    pageLink: './Art/kc-loader/index.html',
+    imageLink: './Art/kc-loader/kc-loader.gif',
+    author: 'KillerCoderPT',
+    githubLink: 'https://github.com/KillerCoderPT'
   }
 ];
 
