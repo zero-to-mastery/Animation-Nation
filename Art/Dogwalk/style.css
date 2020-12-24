@@ -1,0 +1,26 @@
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.road {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.dog {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  animation-name: travel;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes travel {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-500%);
+  }
+}

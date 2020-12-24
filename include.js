@@ -4597,6 +4597,13 @@ let cards = [
     imageLink: './Art/beating-heart/heart.gif',
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
+  },
+  {
+    artName: 'Dogwalk',
+    pageLink: './Art/Dogwalk/index.html',
+    imageLink: './Art/Dogwalk/dog.jpg',
+    author: 'Shubhankar0201',
+    githubLink: 'https://github.com/shubhankar0201'
   }
 ];
 
