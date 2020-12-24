@@ -4597,7 +4597,14 @@ let cards = [
     imageLink: './Art/beating-heart/heart.gif',
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
-  }
+  },
+  {
+    artName: 'Floating Ball',
+    pageLink: './Art/floatingBall/index.html',
+    imageLink: './Art/floatingBall/thaitruong.png',
+    author: 'Thai Truong',
+    githubLink: 'https://github.com/akitathai94'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
