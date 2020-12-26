@@ -4597,7 +4597,16 @@ let cards = [
     imageLink: './Art/beating-heart/heart.gif',
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
+  },
+
+  {
+    artName: 'Sample page'
+    pageLink: './Art/Joy/triangle/index.html',
+    imageLink: './Art/Joy/triangle/my-animation.gif',
+    author: 'Mamathagowd107',
+    githubLink: 'https://github.com/Mamathagowd107'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
