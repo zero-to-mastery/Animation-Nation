@@ -4598,6 +4598,12 @@ let cards = [
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
   }
+  {
+    pageLink: './Art/Joy/nithin-animation/index.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Nithin',
+    githubLink: 'https://github.com/Nithin6252-reddy'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
