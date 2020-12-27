@@ -4597,6 +4597,13 @@ let cards = [
     imageLink: './Art/beating-heart/heart.gif',
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
+  },
+  {
+    artName: 'Animation-Circle',
+    pageLink: './Art/Animation-Circle/index.html',
+    imageLink: './Art/Animation-Circle/animation-circle.gif',
+    author: 'Elid Venega',
+    githubLink: 'https://github.com/elidvenega'
   }
 ];
 
