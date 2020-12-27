@@ -4597,6 +4597,13 @@ let cards = [
     imageLink: './Art/beating-heart/heart.gif',
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
+  },
+  {
+    artName: 'Ocean Day',
+    pageLink: './Art/d-spence/index.html',
+    imageLink: './Art/d-spence/ztm-dspence-css-anim.gif',
+    author: 'd-spence',
+    githubLink: 'https://github.com/d-spence'
   }
 ];
 
