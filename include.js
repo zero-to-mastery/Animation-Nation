@@ -4600,8 +4600,8 @@ let cards = [
   },
   {
     artName: 'Sweet street',
-    pageLink: './Art/Joy/triangle/mario.html',
-    imageLink: './Art/Joy/triangle/animation-gif.gif',
+    pageLink: './Art/Sweet_street/mario.html',
+    imageLink: './Art/Sweet_street/animation-gif.gif',
     author: 'meni-avitan',
     githubLink: 'https://github.com/meniAvitan/Animation-Nation.git'
   }
