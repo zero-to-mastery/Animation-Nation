@@ -4626,6 +4626,12 @@ let cards = [
     author: 'meni-avitan',
     githubLink: 'https://github.com/meniAvitan/Animation-Nation.git'
   }
+  {
+    pageLink: './Art/Joy/nithin-animation/index.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Nithin',
+    githubLink: 'https://github.com/Nithin6252-reddy'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
