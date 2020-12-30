@@ -4604,6 +4604,13 @@ let cards = [
     imageLink: './Art/beating-heart/heart.gif',
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
+  },
+  {
+    artName: 'Sweet street',
+    pageLink: './Art/Sweet_street/mario.html',
+    imageLink: './Art/Sweet_street/animation-gif.gif',
+    author: 'meni-avitan',
+    githubLink: 'https://github.com/meniAvitan/Animation-Nation.git'
   }
 ];
 
