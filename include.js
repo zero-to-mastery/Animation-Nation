@@ -4597,6 +4597,13 @@ let cards = [
     imageLink: './Art/beating-heart/heart.gif',
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
+  },
+  {
+    artName = 'Bouncing Balls',
+    pageLink: './Art/Sankyeat/index.html',
+    imageLink: './Art/Sankyeat/bouncingballs.gif',
+    author: 'Sankyeat',
+    githubLink: 'https://github.com/sanks20'
   }
 ];
 
