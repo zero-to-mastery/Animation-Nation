@@ -4606,11 +4606,18 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
+    artName: 'Animation-Circle',
+    pageLink: './Art/Animation-Circle/index.html',
+    imageLink: './Art/Animation-Circle/animation-circle.gif',
+    author: 'Elid Venega',
+    githubLink: 'https://github.com/elidvenega'
+  },
+  {
     artName: 'Sweet street',
     pageLink: './Art/Sweet_street/mario.html',
     imageLink: './Art/Sweet_street/animation-gif.gif',
     author: 'meni-avitan',
-    githubLink: 'https://github.com/meniAvitan/Animation-Nation.git'
+    githubLink: 'https://github.com/meniAvitan/Animation-Nation.git',
   }
 ];
 
