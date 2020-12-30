@@ -4617,7 +4617,7 @@ let cards = [
     pageLink: './Art/Sweet_street/mario.html',
     imageLink: './Art/Sweet_street/animation-gif.gif',
     author: 'meni-avitan',
-    githubLink: 'https://github.com/meniAvitan/Animation-Nation.git',
+    githubLink: 'https://github.com/meniAvitan/Animation-Nation.git'
   }
 ];
 
