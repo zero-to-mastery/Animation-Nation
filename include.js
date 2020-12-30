@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/mishra-parth'
   },
   {
+    artName: 'Aymat',
+    pageLink: './Art/aymat/index.html',
+    imageLink: './Art/aymat/Capture.gif',
+    author: 'aysha30',
+    githubLink: 'https://github.com/aysha30'
+  },
+  {
     artName: 'Scissors Cutting Animation (CSS only)',
     pageLink: './Art/CoffeeAnimation/index.html',
     imageLink: './Art/CoffeeAnimation/scissors-cutting-animation.gif',
