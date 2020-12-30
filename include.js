@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/mishra-parth'
   },
   {
+    artName: 'Aymat',
+    pageLink: './Art/aymat/index.html',
+    imageLink: './Art/aymat/Capture.gif',
+    author: 'aysha30',
+    githubLink: 'https://github.com/aysha30'
+  },
+  {
     artName: 'Scissors Cutting Animation (CSS only)',
     pageLink: './Art/CoffeeAnimation/index.html',
     imageLink: './Art/CoffeeAnimation/scissors-cutting-animation.gif',
@@ -4604,6 +4611,20 @@ let cards = [
     imageLink: './Art/d-spence/ztm-dspence-css-anim.gif',
     author: 'd-spence',
     githubLink: 'https://github.com/d-spence'
+  },
+  {
+    artName: 'Animation-Circle',
+    pageLink: './Art/Animation-Circle/index.html',
+    imageLink: './Art/Animation-Circle/animation-circle.gif',
+    author: 'Elid Venega',
+    githubLink: 'https://github.com/elidvenega'
+  },
+  {
+    artName: 'Sweet street',
+    pageLink: './Art/Sweet_street/mario.html',
+    imageLink: './Art/Sweet_street/animation-gif.gif',
+    author: 'meni-avitan',
+    githubLink: 'https://github.com/meniAvitan/Animation-Nation.git'
   }
 ];
 
