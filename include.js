@@ -4606,6 +4606,13 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
+    artName: 'Ocean Day',
+    pageLink: './Art/d-spence/index.html',
+    imageLink: './Art/d-spence/ztm-dspence-css-anim.gif',
+    author: 'd-spence',
+    githubLink: 'https://github.com/d-spence'
+  },
+  {
     artName: 'Animation-Circle',
     pageLink: './Art/Animation-Circle/index.html',
     imageLink: './Art/Animation-Circle/animation-circle.gif',
