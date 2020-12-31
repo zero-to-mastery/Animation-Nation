@@ -4632,6 +4632,12 @@ let cards = [
     author: 'Nithin',
     githubLink: 'https://github.com/Nithin6252-reddy'
   }
+  {
+    artName: 'Jittery rectangles',
+    pageLink: './Art/Vaibhav/index.html',
+    author: 'Vaibhav Jain',
+    githubLink: 'https://github.com/Vaibhav-multi-dev'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
