@@ -4638,6 +4638,14 @@ let cards = [
     author: 'Vaibhav Jain',
     githubLink: 'https://github.com/Vaibhav-multi-dev'
   }
+  { 
+    artName: 'Pra-animate',
+    pageLink: './Art/Pra-animate/indexpra1.html',
+    //imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Prajoth',
+    githubLink: 'https://github.com/prajoth-b'
+  },
+  
 ];
 
 // +--------------------------------------------------------------------------------+
