@@ -4606,6 +4606,13 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
+    artName: 'Robotic Circles',
+    pageLink: './Art/animation_yaniv/index.html',
+    imageLink: './Art/animation_yaniv/robot.png',
+    author: 'Yaniv Sagy',
+    githubLink: 'https://github.com/yanivsagy'
+  },
+  {
     artName: 'Ocean Day',
     pageLink: './Art/d-spence/index.html',
     imageLink: './Art/d-spence/ztm-dspence-css-anim.gif',
