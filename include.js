@@ -4606,7 +4606,7 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
-    artName: 'Sample page'
+    artName: 'Sample page',
     pageLink: './Art/Joy/triangle/index.html',
     imageLink: './Art/Joy/triangle/my-animation.gif',
     author: 'Mamathagowd107',
