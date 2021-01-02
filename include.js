@@ -4606,6 +4606,13 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
+    artName: 'Animated',
+    pageLink: './Art/animated/triangle/index.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger'
+  },
+  {
 
     artName: 'achwell',
     pageLink: './Art/achwell/index.html',
@@ -4660,7 +4667,6 @@ let cards = [
     author: 'Prajoth',
     githubLink: 'https://github.com/prajoth-b'
   },
-  
 ];
 
 // +--------------------------------------------------------------------------------+
