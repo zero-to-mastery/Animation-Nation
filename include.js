@@ -4606,6 +4606,14 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
+
+    artName: 'achwell',
+    pageLink: './Art/achwell/index.html',
+    imageLink: './Art/achwell/ball.gif',
+    author: 'achwell',
+    githubLink: 'https://github.com/achwell'
+  },
+  {
     artName: 'Robotic Circles',
     pageLink: './Art/animation_yaniv/index.html',
     imageLink: './Art/animation_yaniv/robot.png',
@@ -4632,19 +4640,19 @@ let cards = [
     imageLink: './Art/Sweet_street/animation-gif.gif',
     author: 'meni-avitan',
     githubLink: 'https://github.com/meniAvitan/Animation-Nation.git'
-  }
+  },
   {
     pageLink: './Art/Joy/nithin-animation/index.html',
     imageLink: './Art/Joy/triangle/triangle.gif',
     author: 'Nithin',
     githubLink: 'https://github.com/Nithin6252-reddy'
-  }
+  },
   {
     artName: 'Jittery rectangles',
     pageLink: './Art/Vaibhav/index.html',
     author: 'Vaibhav Jain',
     githubLink: 'https://github.com/Vaibhav-multi-dev'
-  }
+  },
   { 
     artName: 'Pra-animate',
     pageLink: './Art/Pra-animate/indexpra1.html',
