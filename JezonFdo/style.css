@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+}
+* {
+  color: white;
+}
+
+#heart {
+  position: relative;
+  width: 100px;
+  height: 90px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+#heart:before,
+#heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+#heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+@keyframes heartbeat {
+  0%   {transform: scale(1.0);}
+  25%  {transform: scale(1.1);}
+  50%  {transform: scale(1.0);}
+  75%  {transform: scale(1.1);}
+  100% {transform: scale(1.0);}
+}
+
+.heart {
+  animation: heartbeat 2s infinite;
+}
+.heart:hover{
+  animation: heartbeat 1s infinite;
+}
+.heart:active {
+  animation: heartbeat 0.3s infinite;
+}
