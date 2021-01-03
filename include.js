@@ -4672,6 +4672,13 @@ let cards = [
     //imageLink: './Art/Joy/triangle/triangle.gif',
     author: 'Prajoth',
     githubLink: 'https://github.com/prajoth-b'
+  },
+  { 
+    artName: '3D figure animation',
+    pageLink: './Art/DOKL57/index.html',
+    imageLink: './Art/DOKL57/DOKL57.png',
+    author: 'DOKL57',
+    githubLink: 'https://github.com/DOKL57'
   }
 ];
 
