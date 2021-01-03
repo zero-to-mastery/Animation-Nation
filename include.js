@@ -4606,7 +4606,7 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
-    artName: 'Sample page'
+    artName: 'Sample page',
     pageLink: './Art/Joy/triangle/index.html',
     imageLink: './Art/Joy/triangle/my-animation.gif',
     author: 'Mamathagowd107',
@@ -4620,7 +4620,6 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
-
     artName: 'achwell',
     pageLink: './Art/achwell/index.html',
     imageLink: './Art/achwell/ball.gif',
@@ -4667,20 +4666,20 @@ let cards = [
     author: 'Vaibhav Jain',
     githubLink: 'https://github.com/Vaibhav-multi-dev'
   },
-  { 
+  {
     artName: 'Pra-animate',
     pageLink: './Art/Pra-animate/indexpra1.html',
     //imageLink: './Art/Joy/triangle/triangle.gif',
     author: 'Prajoth',
     githubLink: 'https://github.com/prajoth-b'
   },
-    { 
+  { 
     artName: '3D figure animation',
     pageLink: './Art/DOKL57/index.html',
     imageLink: './Art/DOKL57/DOKL57.png',
     author: 'DOKL57',
     githubLink: 'https://github.com/DOKL57'
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
