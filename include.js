@@ -4674,6 +4674,13 @@ let cards = [
     author: 'Prajoth',
     githubLink: 'https://github.com/prajoth-b'
   },
+  {
+    artName: 'Forever',
+    pageLink: './Art/Mritunjay/index.html',
+    imageLink: './Art/Mritunjay/mj.gif',
+    author: 'Mritunjay',
+    githubLink: 'https://github.com/Mritunjay004'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
