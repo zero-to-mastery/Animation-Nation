@@ -4606,7 +4606,7 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
-    artName: 'Sample page'
+    artName: 'Sample page',
     pageLink: './Art/Joy/triangle/index.html',
     imageLink: './Art/Joy/triangle/my-animation.gif',
     author: 'Mamathagowd107',
@@ -4674,6 +4674,13 @@ let cards = [
     author: 'Prajoth',
     githubLink: 'https://github.com/prajoth-b'
   },
+  {
+    artName: 'Animate Infinate',
+    pageLink: './Art/rotate-infinate/index.html',
+    imageLink: './Art/rotate-infinate/rotate.gif',
+    author: 'thucpn',
+    githubLink: 'https://github.com/thucpn'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
