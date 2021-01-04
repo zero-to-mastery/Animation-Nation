@@ -4606,7 +4606,14 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
-    artName: 'Sample page'
+    artName: 'Bouncing Balls',
+    pageLink: './Art/Sankyeat/index.html',
+    imageLink: './Art/Sankyeat/bouncingballs.gif',
+    author: 'Sankyeat',
+    githubLink: 'https://github.com/sanks20'
+  },
+  {
+    artName: 'Sample page',
     pageLink: './Art/Joy/triangle/index.html',
     imageLink: './Art/Joy/triangle/my-animation.gif',
     author: 'Mamathagowd107',
@@ -4620,7 +4627,6 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
-
     artName: 'achwell',
     pageLink: './Art/achwell/index.html',
     imageLink: './Art/achwell/ball.gif',
@@ -4667,7 +4673,7 @@ let cards = [
     author: 'Vaibhav Jain',
     githubLink: 'https://github.com/Vaibhav-multi-dev'
   },
-  { 
+  {
     artName: 'Pra-animate',
     pageLink: './Art/Pra-animate/indexpra1.html',
     //imageLink: './Art/Joy/triangle/triangle.gif',

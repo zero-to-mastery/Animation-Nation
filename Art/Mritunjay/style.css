@@ -1,13 +1,17 @@
 div {
-	margin: auto;
-	width: 200px;
-	height: 200px;
-	background-color: red;
-	animation-name: mj;
-	animation-duration: 4s;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation-name: mj;
+  animation-duration: 4s;
 }
 
 @keyframes mj {
-	from {background-color: red;}
-	to {background-color: yellow;}
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
 }
