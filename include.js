@@ -4620,7 +4620,6 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
-
     artName: 'achwell',
     pageLink: './Art/achwell/index.html',
     imageLink: './Art/achwell/ball.gif',
@@ -4667,7 +4666,7 @@ let cards = [
     author: 'Vaibhav Jain',
     githubLink: 'https://github.com/Vaibhav-multi-dev'
   },
-  { 
+  {
     artName: 'Pra-animate',
     pageLink: './Art/Pra-animate/indexpra1.html',
     //imageLink: './Art/Joy/triangle/triangle.gif',
@@ -4680,6 +4679,13 @@ let cards = [
     imageLink: './Art/rotate-infinate/rotate.gif',
     author: 'thucpn',
     githubLink: 'https://github.com/thucpn'
+  },
+  { 
+    artName: '3D figure animation',
+    pageLink: './Art/DOKL57/index.html',
+    imageLink: './Art/DOKL57/DOKL57.png',
+    author: 'DOKL57',
+    githubLink: 'https://github.com/DOKL57'
   }
 ];
 
