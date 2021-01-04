@@ -23,7 +23,7 @@ body {
 }
 
 .ball {
-  height:100px;
+  height: 100px;
   width: 100px;
   border-radius: 50%;
   position: relative;
@@ -42,8 +42,8 @@ body {
 }
 
 @keyframes bounceUp {
-  from{
-    transform:translateY(0);
+  from {
+    transform: translateY(0);
   }
   to {
     transform: translateY(-400px);
@@ -51,7 +51,7 @@ body {
 }
 
 @keyframes bounceDown {
-  from{
+  from {
     transform: translateY(0);
   }
   to {

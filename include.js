@@ -4606,12 +4606,40 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
-    artName = 'Bouncing Balls',
+    artName: 'Bouncing Balls',
     pageLink: './Art/Sankyeat/index.html',
     imageLink: './Art/Sankyeat/bouncingballs.gif',
     author: 'Sankyeat',
     githubLink: 'https://github.com/sanks20'
-  },  
+  },
+  {
+    artName: 'Sample page',
+    pageLink: './Art/Joy/triangle/index.html',
+    imageLink: './Art/Joy/triangle/my-animation.gif',
+    author: 'Mamathagowd107',
+    githubLink: 'https://github.com/Mamathagowd107'
+  },
+  {
+    artName: 'Animated',
+    pageLink: './Art/animated/triangle/index.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'achwell',
+    pageLink: './Art/achwell/index.html',
+    imageLink: './Art/achwell/ball.gif',
+    author: 'achwell',
+    githubLink: 'https://github.com/achwell'
+  },
+  {
+    artName: 'Robotic Circles',
+    pageLink: './Art/animation_yaniv/index.html',
+    imageLink: './Art/animation_yaniv/robot.png',
+    author: 'Yaniv Sagy',
+    githubLink: 'https://github.com/yanivsagy'
+  },
   {
     artName: 'Ocean Day',
     pageLink: './Art/d-spence/index.html',
@@ -4638,6 +4666,26 @@ let cards = [
     imageLink: './Art/Joy/triangle/triangle.gif',
     author: 'Nithin',
     githubLink: 'https://github.com/Nithin6252-reddy'
+  },
+  {
+    artName: 'Jittery rectangles',
+    pageLink: './Art/Vaibhav/index.html',
+    author: 'Vaibhav Jain',
+    githubLink: 'https://github.com/Vaibhav-multi-dev'
+  },
+  {
+    artName: 'Pra-animate',
+    pageLink: './Art/Pra-animate/indexpra1.html',
+    //imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Prajoth',
+    githubLink: 'https://github.com/prajoth-b'
+  },
+  {
+    artName: '3D figure animation',
+    pageLink: './Art/DOKL57/index.html',
+    imageLink: './Art/DOKL57/DOKL57.png',
+    author: 'DOKL57',
+    githubLink: 'https://github.com/DOKL57'
   }
 ];
 
