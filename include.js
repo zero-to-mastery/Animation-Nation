@@ -4606,6 +4606,16 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
+<<<<<<< HEAD
+=======
+    artName: 'Bouncing Balls',
+    pageLink: './Art/Sankyeat/index.html',
+    imageLink: './Art/Sankyeat/bouncingballs.gif',
+    author: 'Sankyeat',
+    githubLink: 'https://github.com/sanks20'
+  },
+  {
+>>>>>>> pr1010
     artName: 'Sample page',
     pageLink: './Art/Joy/triangle/index.html',
     imageLink: './Art/Joy/triangle/my-animation.gif',
@@ -4673,7 +4683,11 @@ let cards = [
     author: 'Prajoth',
     githubLink: 'https://github.com/prajoth-b'
   },
+<<<<<<< HEAD
   { 
+=======
+  {
+>>>>>>> pr1010
     artName: '3D figure animation',
     pageLink: './Art/DOKL57/index.html',
     imageLink: './Art/DOKL57/DOKL57.png',
