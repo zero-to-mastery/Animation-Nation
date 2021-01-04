@@ -4606,6 +4606,13 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
+    artName: 'Bouncing Balls',
+    pageLink: './Art/Sankyeat/index.html',
+    imageLink: './Art/Sankyeat/bouncingballs.gif',
+    author: 'Sankyeat',
+    githubLink: 'https://github.com/sanks20'
+  },
+  {
     artName: 'Sample page',
     pageLink: './Art/Joy/triangle/index.html',
     imageLink: './Art/Joy/triangle/my-animation.gif',
@@ -4680,12 +4687,12 @@ let cards = [
     author: 'thucpn',
     githubLink: 'https://github.com/thucpn'
   },
-  { 
-    artName: '3D figure animation',
-    pageLink: './Art/DOKL57/index.html',
-    imageLink: './Art/DOKL57/DOKL57.png',
-    author: 'DOKL57',
-    githubLink: 'https://github.com/DOKL57'
+  {
+    artName: 'Forever',
+    pageLink: './Art/Mritunjay/index.html',
+    imageLink: './Art/Mritunjay/mj.gif',
+    author: 'Mritunjay',
+    githubLink: 'https://github.com/Mritunjay004'
   }
 ];
 
