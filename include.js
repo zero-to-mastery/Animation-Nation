@@ -4679,7 +4679,14 @@ let cards = [
     imageLink: './Art/DOKL57/DOKL57.png',
     author: 'DOKL57',
     githubLink: 'https://github.com/DOKL57'
-  }
+  },
+    {
+      artName: 'my-animation',
+      pageLink: './Art/my-animation/index.html',
+      imageLink: './Art/my-animation/screenv.webm',
+      author: 'Brurya',
+      githubLink: 'https://github.com/BruryaNadel'
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
