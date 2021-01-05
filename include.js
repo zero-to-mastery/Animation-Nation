@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Rainbow Text Spin',
+    pageLink: './Art/mallen13/index.html',
+    imageLink: 'stillPic.jpg,
+    author: 'mallen2013',
+    githubLink: 'https://github.com/mallen2013'
+  },
+  {
     artName: 'Disco Bubble',
     pageLink: './Art/konstantify/index.html',
     imageLink: './Art/konstantify/konst.gif',
