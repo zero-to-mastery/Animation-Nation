@@ -4606,6 +4606,13 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
+    artName: 'Bouncing Balls',
+    pageLink: './Art/Sankyeat/index.html',
+    imageLink: './Art/Sankyeat/bouncingballs.gif',
+    author: 'Sankyeat',
+    githubLink: 'https://github.com/sanks20'
+  },
+  {
     artName: 'Sample page',
     pageLink: './Art/Joy/triangle/index.html',
     imageLink: './Art/Joy/triangle/my-animation.gif',
@@ -4686,7 +4693,21 @@ let cards = [
       imageLink: './Art/my-animation/screenv.webm',
       author: 'Brurya',
       githubLink: 'https://github.com/BruryaNadel'
-    }
+    },
+  {
+    artName: 'Animate Infinate',
+    pageLink: './Art/rotate-infinate/index.html',
+    imageLink: './Art/rotate-infinate/rotate.gif',
+    author: 'thucpn',
+    githubLink: 'https://github.com/thucpn'
+  },
+  {
+    artName: 'Forever',
+    pageLink: './Art/Mritunjay/index.html',
+    imageLink: './Art/Mritunjay/mj.gif',
+    author: 'Mritunjay',
+    githubLink: 'https://github.com/Mritunjay004'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
