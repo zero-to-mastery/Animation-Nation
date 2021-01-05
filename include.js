@@ -4598,6 +4598,14 @@ let cards = [
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
   }
+  {
+    artName: 'Glowing ZTM'
+    pageLink: './Art/aide-animation/index.html',
+    imageLink: './Art/aide-animation/glow.gif',
+    author: 'Aidé',
+    githubLink: 'https://github.com/aoropeza31'
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
