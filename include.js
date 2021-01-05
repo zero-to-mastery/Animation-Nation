@@ -4694,6 +4694,13 @@ let cards = [
     author: 'Mritunjay',
     githubLink: 'https://github.com/Mritunjay004'
   }
+  {
+    artName: 'Atom',
+    pageLink: './Art/Atom/index.html',
+    imageLink: './Art/Atom/atom.gif',
+    author: 'Khalil-BM',
+    githubLink: 'https://github.com/Khalil-BM'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
