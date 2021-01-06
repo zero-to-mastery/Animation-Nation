@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/mishra-parth'
   },
   {
+    artName: 'Aymat',
+    pageLink: './Art/aymat/index.html',
+    imageLink: './Art/aymat/Capture.gif',
+    author: 'aysha30',
+    githubLink: 'https://github.com/aysha30'
+  },
+  {
     artName: 'Scissors Cutting Animation (CSS only)',
     pageLink: './Art/CoffeeAnimation/index.html',
     imageLink: './Art/CoffeeAnimation/scissors-cutting-animation.gif',
@@ -4599,12 +4606,101 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
+    artName: 'Bouncing Balls',
+    pageLink: './Art/Sankyeat/index.html',
+    imageLink: './Art/Sankyeat/bouncingballs.gif',
+    author: 'Sankyeat',
+    githubLink: 'https://github.com/sanks20'
+  },
+  {
+    artName: 'Sample page',
+    pageLink: './Art/Joy/triangle/index.html',
+    imageLink: './Art/Joy/triangle/my-animation.gif',
+    author: 'Mamathagowd107',
+    githubLink: 'https://github.com/Mamathagowd107'
+  },
+  {
+    artName: 'Animated',
+    pageLink: './Art/animated/triangle/index.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'achwell',
+    pageLink: './Art/achwell/index.html',
+    imageLink: './Art/achwell/ball.gif',
+    author: 'achwell',
+    githubLink: 'https://github.com/achwell'
+  },
+  {
+    artName: 'Robotic Circles',
+    pageLink: './Art/animation_yaniv/index.html',
+    imageLink: './Art/animation_yaniv/robot.png',
+    author: 'Yaniv Sagy',
+    githubLink: 'https://github.com/yanivsagy'
+  },
+  {
+    artName: 'Ocean Day',
+    pageLink: './Art/d-spence/index.html',
+    imageLink: './Art/d-spence/ztm-dspence-css-anim.gif',
+    author: 'd-spence',
+    githubLink: 'https://github.com/d-spence'
+  },
+  {
+    artName: 'Animation-Circle',
+    pageLink: './Art/Animation-Circle/index.html',
+    imageLink: './Art/Animation-Circle/animation-circle.gif',
+    author: 'Elid Venega',
+    githubLink: 'https://github.com/elidvenega'
+  },
+  {
+    artName: 'Sweet street',
+    pageLink: './Art/Sweet_street/mario.html',
+    imageLink: './Art/Sweet_street/animation-gif.gif',
+    author: 'meni-avitan',
+    githubLink: 'https://github.com/meniAvitan/Animation-Nation.git'
+  },
+  {
+    pageLink: './Art/Joy/nithin-animation/index.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Nithin',
+    githubLink: 'https://github.com/Nithin6252-reddy'
+  },
+  {
+    artName: 'Jittery rectangles',
+    pageLink: './Art/Vaibhav/index.html',
+    author: 'Vaibhav Jain',
+    githubLink: 'https://github.com/Vaibhav-multi-dev'
+  },
+  {
+    artName: 'Pra-animate',
+    pageLink: './Art/Pra-animate/indexpra1.html',
+    //imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Prajoth',
+    githubLink: 'https://github.com/prajoth-b'
+  },
+  {
+    artName: 'Animate Infinate',
+    pageLink: './Art/rotate-infinate/index.html',
+    imageLink: './Art/rotate-infinate/rotate.gif',
+    author: 'thucpn',
+    githubLink: 'https://github.com/thucpn'
+  },
+  {
+    artName: 'Forever',
+    pageLink: './Art/Mritunjay/index.html',
+    imageLink: './Art/Mritunjay/mj.gif',
+    author: 'Mritunjay',
+    githubLink: 'https://github.com/Mritunjay004'
+  },  
+  {
     artName: 'Floating Ball',
     pageLink: './Art/floatingBall/index.html',
     imageLink: './Art/floatingBall/thaitruong.png',
     author: 'Thai Truong',
     githubLink: 'https://github.com/akitathai94'
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
