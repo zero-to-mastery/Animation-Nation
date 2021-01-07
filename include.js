@@ -4694,6 +4694,13 @@ let cards = [
     author: 'Mritunjay',
     githubLink: 'https://github.com/Mritunjay004'
   }
+  {
+    artName: 'AppleTree',
+    pageLink: './Art/andreasGZ/index.html',
+    imageLink: './Art/andreasGZ/apple.gif',
+    author: 'AndreasGZ',
+    githubLink: 'https://github.com/AndreasGZ'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
