@@ -4693,6 +4693,12 @@ let cards = [
     imageLink: './Art/Mritunjay/mj.gif',
     author: 'Mritunjay',
     githubLink: 'https://github.com/Mritunjay004'
+  },
+  {
+    pageLink: './Art/Akv-animation/index.html',
+    imageLink: './Art/Akv-animation/Image.png',
+    author: 'Akv',
+    githubLink: 'https://github.com/kushal-Ambati'
   }
 ];
 
