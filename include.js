@@ -4734,9 +4734,15 @@ let cards = [
     imageLink: './Art/Bicycle_2D/bicycle-gif.gif',
     author: 'meni-avitan',
     githubLink: 'https://github.com/meniAvitan'
+  },
+  {
+    artName: 'catch-me',
+    pageLink: './Art/catch-me/index.html',
+    imageLink: './Art/catch-me/catch-me.gif',
+    author: 'toobig4u',
+    githubLink: 'https://github.com/toobig4u'
   }
 ];
-
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
