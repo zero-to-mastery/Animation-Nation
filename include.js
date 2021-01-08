@@ -4693,9 +4693,14 @@ let cards = [
     imageLink: './Art/Mritunjay/mj.gif',
     author: 'Mritunjay',
     githubLink: 'https://github.com/Mritunjay004'
+  },
+  {
+    pageLink: './Art/catch-me/index.html',
+    imageLink: './Art/catch-me/catch-me.gif',
+    author: 'toobig4u',
+    githubLink: 'https://github.com/toobig4u'
   }
 ];
-
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
