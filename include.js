@@ -4687,6 +4687,20 @@ let cards = [
     author: 'Prajoth',
     githubLink: 'https://github.com/prajoth-b'
   },
+  { 
+    artName: '3D figure animation',
+    pageLink: './Art/DOKL57/index.html',
+    imageLink: './Art/DOKL57/DOKL57.png',
+    author: 'DOKL57',
+    githubLink: 'https://github.com/DOKL57'
+  },
+    {
+      artName: 'my-animation',
+      pageLink: './Art/my-animation/index.html',
+      imageLink: './Art/my-animation/screenv.webm',
+      author: 'Brurya',
+      githubLink: 'https://github.com/BruryaNadel'
+    },
   {
     artName: 'Animate Infinate',
     pageLink: './Art/rotate-infinate/index.html',
