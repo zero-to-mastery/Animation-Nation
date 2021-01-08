@@ -4741,8 +4741,7 @@ let cards = [
     imageLink: './Art/catch-me/catch-me.gif',
     author: 'toobig4u',
     githubLink: 'https://github.com/toobig4u'
-
-
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
