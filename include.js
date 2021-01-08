@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Rainbow Text Spin',
+    pageLink: './Art/mallen13/index.html',
+    imageLink: 'stillPic.jpg',
+    author: 'mallen2013',
+    githubLink: 'https://github.com/mallen2013'
+  },
+  {
     artName: 'Disco Bubble',
     pageLink: './Art/konstantify/index.html',
     imageLink: './Art/konstantify/konst.gif',
@@ -4681,6 +4688,20 @@ let cards = [
     githubLink: 'https://github.com/prajoth-b'
   },
   {
+    artName: '3D figure animation',
+    pageLink: './Art/DOKL57/index.html',
+    imageLink: './Art/DOKL57/DOKL57.png',
+    author: 'DOKL57',
+    githubLink: 'https://github.com/DOKL57'
+  },
+  {
+    artName: 'my-animation',
+    pageLink: './Art/my-animation/index.html',
+    imageLink: './Art/my-animation/screenv.webm',
+    author: 'Brurya',
+    githubLink: 'https://github.com/BruryaNadel'
+  },
+  {
     artName: 'Animate Infinate',
     pageLink: './Art/rotate-infinate/index.html',
     imageLink: './Art/rotate-infinate/rotate.gif',
@@ -4695,11 +4716,33 @@ let cards = [
     githubLink: 'https://github.com/Mritunjay004'
   },
   {
+    pageLink: './Art/Akv-animation/index.html',
+    imageLink: './Art/Akv-animation/Image.png',
+    author: 'Akv',
+    githubLink: 'https://github.com/kushal-Ambati'
+  },
+  {
+    artName: 'Floating Ball',
+    pageLink: './Art/floatingBall/index.html',
+    imageLink: './Art/floatingBall/thaitruong.png',
+    author: 'Thai Truong',
+    githubLink: 'https://github.com/akitathai94'
+  },
+  {
+    artName: 'Bicycle-2D',
+    pageLink: './Art/Bicycle_2D/bicycle.html',
+    imageLink: './Art/Bicycle_2D/bicycle-gif.gif',
+    author: 'meni-avitan',
+    githubLink: 'https://github.com/meniAvitan'
+  },
+  {
+    artName: 'catch-me',
     pageLink: './Art/catch-me/index.html',
     imageLink: './Art/catch-me/catch-me.gif',
     author: 'toobig4u',
     githubLink: 'https://github.com/toobig4u'
-  }
+
+
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
