@@ -1,66 +1,126 @@
 /* Grundeinstellung */
- *{
-	padding:0px;
-	margin:0px;
-	border:0px;
-	box-sizing:border-box;}
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
 
-section, aside, article, main, header, footer, nav{
-	display:block;}
+section,
+aside,
+article,
+main,
+header,
+footer,
+nav {
+  display: block;
+}
 
-body{
+body {
   width: 100%;
   background-color: #99ebff;
 }
-@keyframes blowwind{
-  0% {left: 150%;
-  top: 17%;
-  transform: rotate(0deg);}
-  25% {top: 5%;transform: rotate(15deg);}
-  60% {top: 25%;transform: rotate(-15deg);}
-  100% {left: -50%;
-  top: 17%;
-  transform: rotate(0deg);}
+@keyframes blowwind {
+  0% {
+    left: 150%;
+    top: 17%;
+    transform: rotate(0deg);
+  }
+  25% {
+    top: 5%;
+    transform: rotate(15deg);
+  }
+  60% {
+    top: 25%;
+    transform: rotate(-15deg);
+  }
+  100% {
+    left: -50%;
+    top: 17%;
+    transform: rotate(0deg);
+  }
 }
 
-@keyframes movebywind{
-  0% {transform: rotate(0deg);}
-  10% {transform: rotate(2deg);}
-  30% {transform: rotate(-2deg);}
-  60% {transform: rotate(0deg);}
-  75% {transform: rotate(3deg);}
-  100% {transform: rotate(0deg);}
+@keyframes movebywind {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(2deg);
+  }
+  30% {
+    transform: rotate(-2deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
-@keyframes clouds{
-  0% {left: 150%;}
-  100% {left: -50%;}
+@keyframes clouds {
+  0% {
+    left: 150%;
+  }
+  100% {
+    left: -50%;
+  }
 }
 
-@keyframes fall{
-  0% {top: 50%;transform: rotate(0deg);}
-  30% {transform: rotate(5deg);}
-  45% {transform: rotate(-8deg);}
-  80% {transform: rotate(10deg);}
-  85% {top: 50%;transform: rotate(0deg);}
-  94% {top: 62%;}
-  100% {top: 62%;}
+@keyframes fall {
+  0% {
+    top: 50%;
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  45% {
+    transform: rotate(-8deg);
+  }
+  80% {
+    transform: rotate(10deg);
+  }
+  85% {
+    top: 50%;
+    transform: rotate(0deg);
+  }
+  94% {
+    top: 62%;
+  }
+  100% {
+    top: 62%;
+  }
 }
 
-@keyframes peng{
-  0%{width: 12%;
-  padding: 12%;}
-  25%{width: 12%;
-  padding: 12%;}
-  28%{width: 11.5%;
-  padding: 11.5%;}
-  31%{width: 12%;
-  padding: 12%;}
-  100%{width: 12%;
-  padding: 12%;}
+@keyframes peng {
+  0% {
+    width: 12%;
+    padding: 12%;
+  }
+  25% {
+    width: 12%;
+    padding: 12%;
+  }
+  28% {
+    width: 11.5%;
+    padding: 11.5%;
+  }
+  31% {
+    width: 12%;
+    padding: 12%;
+  }
+  100% {
+    width: 12%;
+    padding: 12%;
+  }
 }
 
-.container{
+.container {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -71,7 +131,7 @@ body{
   overflow: hidden;
   z-index: 1;
 }
-.tree{
+.tree {
   width: 20%;
   position: absolute;
   left: 30%;
@@ -81,7 +141,7 @@ body{
   background-size: cover;
   z-index: 30;
 }
-.treeleafs{
+.treeleafs {
   width: 40%;
   position: absolute;
   left: 10%;
@@ -98,7 +158,7 @@ body{
   animation-timing-function: ease-in-out;
   animation-direction: reverse;
 }
-.smallleafs{
+.smallleafs {
   width: 15%;
   position: absolute;
   left: 35%;
@@ -115,7 +175,7 @@ body{
   animation-timing-function: ease-in-out;
   animation-direction: alternate;
 }
-.sun{
+.sun {
   width: 5%;
   padding: 5%;
   background-color: #ffff4d;
@@ -127,7 +187,7 @@ body{
   z-index: 5;
 }
 
-.cloud{
+.cloud {
   position: absolute;
   left: 150%;
   top: 5%;
@@ -137,7 +197,7 @@ body{
   background-size: cover;
   z-index: 10;
 }
-.cloud:first-child{
+.cloud:first-child {
   top: 1%;
   animation-name: clouds;
   animation-duration: 20s;
@@ -146,7 +206,7 @@ body{
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-.cloud:nth-child(2){
+.cloud:nth-child(2) {
   top: 5%;
   animation-name: clouds;
   animation-duration: 26s;
@@ -155,7 +215,7 @@ body{
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-.apple{
+.apple {
   position: absolute;
   left: 30%;
   top: 30%;
@@ -172,23 +232,23 @@ body{
   animation-timing-function: ease-in-out;
   animation-direction: alternate;
 }
-.apple:nth-child(6){
+.apple:nth-child(6) {
   left: 17%;
   top: 30%;
 }
-.apple:nth-child(7){
+.apple:nth-child(7) {
   left: 30%;
   top: 40%;
 }
-.apple:nth-child(8){
+.apple:nth-child(8) {
   left: 38%;
   top: 28%;
 }
-.apple:nth-child(9){
+.apple:nth-child(9) {
   left: 53%;
   top: 18%;
 }
-.apple:nth-child(10){
+.apple:nth-child(10) {
   left: 55%;
   top: 50%;
   animation-name: fall;
@@ -199,12 +259,12 @@ body{
   animation-timing-function: ease-in;
   animation-direction: normal;
 }
-.apple:nth-child(11){
+.apple:nth-child(11) {
   left: 70%;
   top: 33%;
 }
 
-.wind{
+.wind {
   position: absolute;
   left: 150%;
   top: 17%;
@@ -222,7 +282,7 @@ body{
   animation-direction: normal;
 }
 
-.guy{
+.guy {
   position: absolute;
   left: 49%;
   top: 63%;
@@ -239,7 +299,7 @@ body{
   animation-timing-function: linear;
   animation-direction: normal;
 }
-.grass{
+.grass {
   position: absolute;
   left: 30%;
   top: 80%;
@@ -249,23 +309,23 @@ body{
   background-size: cover;
   z-index: 50;
 }
-.grass:nth-child(12){
+.grass:nth-child(12) {
   left: 10%;
   top: 87%;
 }
-.grass:nth-child(13){
+.grass:nth-child(13) {
   left: 26%;
   top: 75%;
 }
-.grass:nth-child(14){
+.grass:nth-child(14) {
   left: 64%;
   top: 90%;
 }
-.grass:nth-child(15){
+.grass:nth-child(15) {
   left: 50%;
   top: 81%;
 }
-.grass:nth-child(16){
+.grass:nth-child(16) {
   left: 84%;
   top: 86%;
 }
