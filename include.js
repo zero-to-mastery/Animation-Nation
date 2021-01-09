@@ -4693,7 +4693,7 @@ let cards = [
     imageLink: './Art/Mritunjay/mj.gif',
     author: 'Mritunjay',
     githubLink: 'https://github.com/Mritunjay004'
-  }
+  },
   {
     artName: 'Atom',
     pageLink: './Art/Atom/index.html',
