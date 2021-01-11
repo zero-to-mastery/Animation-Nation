@@ -4755,6 +4755,12 @@ let cards = [
     imageLink: './Art/catch-me/catch-me.gif',
     author: 'toobig4u',
     githubLink: 'https://github.com/toobig4u'
+  },
+  {
+    pageLink: './Art/richard00436/index.html',
+    imageLink: './Art/richard00436/richard00436.gif',
+    author: 'richard00436',
+    githubLink: 'https://github.com/richard00436'
   }
 ];
 // +--------------------------------------------------------------------------------+
