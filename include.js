@@ -4755,6 +4755,12 @@ let cards = [
     imageLink: './Art/catch-me/catch-me.gif',
     author: 'toobig4u',
     githubLink: 'https://github.com/toobig4u'
+  },
+  {
+    pageLink: './Art/SunPulse/index.html',
+    imageLink: './Art/SunPulse/sunpulse_img.png',
+    author: 'Valdis',
+    githubLink: 'https://github.com/vapl'
   }
 ];
 // +--------------------------------------------------------------------------------+
