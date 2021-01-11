@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Flag',
+    pageLink: './Art/IurianSimionDorin/index.html',
+    imageLink: './Art/IurianSimionDorin/flag.gif',
+    author: 'IurianSimionDorin',
+    githubLink: 'https://github.com/IurianSimionDorin'
+  },
+  {
     artName: 'Rainbow Text Spin',
     pageLink: './Art/mallen13/index.html',
     imageLink: 'stillPic.jpg',
