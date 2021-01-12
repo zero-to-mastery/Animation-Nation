@@ -16,9 +16,35 @@ div {
 }
 
 @keyframes movingSquare {
-  0%   {background-color:blue; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px; width:200px; height:200px}
-  50%  {background-color:red; left:200px; top:200px; width:100px; height:100px}
-  75%  {background-color:green; left:0px; top:200px; width:200px; height:200px}
-  100% {background-color:blue; left:0px; top:0px;}
+  0% {
+    background-color: blue;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+  }
+  50% {
+    background-color: red;
+    left: 200px;
+    top: 200px;
+    width: 100px;
+    height: 100px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+    width: 200px;
+    height: 200px;
+  }
+  100% {
+    background-color: blue;
+    left: 0px;
+    top: 0px;
+  }
 }
