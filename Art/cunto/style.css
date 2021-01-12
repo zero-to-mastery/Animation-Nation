@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background: linear-gradient(to right, rgb(255, 10, 84), rgb(11, 4, 10));
+}
+
+h1{
+  margin-top: 20%;
+  font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+@keyframes ballBounce {
+  0% {
+    transform: translateY(0px);
+    transform: skewY(-20deg);
+  }
+
+  50% {
+    transform: translateY(-20px);
+    transform: scaleY(1.5);
+  }
+
+  100% {
+    transform: translateY(100%);
+    transform: skewY(20deg);
+  }
+}
+
+
+.wine {
+  animation: ballBounce 0.5s infinite;
+  margin-bottom: 30%;
+}

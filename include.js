@@ -4776,6 +4776,13 @@ let cards = [
     author: 'seenuCFL',
     githubLink: 'https://github.com/seenuCFL'
   }
+  {
+    artName:'Cunto'
+    pageLink: './Art/cunto/index.html',
+    imageLink: './Art/cunto/cunto.png',
+    author: 'BikrantaS',
+    githubLink: 'https://github.com/BikrantaS'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
