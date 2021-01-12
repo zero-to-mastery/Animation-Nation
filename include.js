@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Rainbow Text Spin',
+    pageLink: './Art/mallen13/index.html',
+    imageLink: 'stillPic.jpg',
+    author: 'mallen2013',
+    githubLink: 'https://github.com/mallen2013'
+  },
+  {
     artName: 'Disco Bubble',
     pageLink: './Art/konstantify/index.html',
     imageLink: './Art/konstantify/konst.gif',
@@ -12,6 +19,13 @@ let cards = [
     imageLink: './Art/mishra-parth/mishra-parth-project.gif',
     author: 'Parth',
     githubLink: 'https://github.com/mishra-parth'
+  },
+  {
+    artName: 'Aymat',
+    pageLink: './Art/aymat/index.html',
+    imageLink: './Art/aymat/Capture.gif',
+    author: 'aysha30',
+    githubLink: 'https://github.com/aysha30'
   },
   {
     artName: 'Scissors Cutting Animation (CSS only)',
@@ -4606,7 +4620,6 @@ let cards = [
     githubLink: 'https://github.com/mrawshan'
   }
 ];
-
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
