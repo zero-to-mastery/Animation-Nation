@@ -1,5 +1,19 @@
 let cards = [
   {
+    artName: 'Flag',
+    pageLink: './Art/IurianSimionDorin/index.html',
+    imageLink: './Art/IurianSimionDorin/flag.gif',
+    author: 'IurianSimionDorin',
+    githubLink: 'https://github.com/IurianSimionDorin'
+  },
+  {
+    artName: 'Rainbow Text Spin',
+    pageLink: './Art/mallen13/index.html',
+    imageLink: 'stillPic.jpg',
+    author: 'mallen2013',
+    githubLink: 'https://github.com/mallen2013'
+  },
+  {
     artName: 'Disco Bubble',
     pageLink: './Art/konstantify/index.html',
     imageLink: './Art/konstantify/konst.gif',
@@ -12,6 +26,13 @@ let cards = [
     imageLink: './Art/mishra-parth/mishra-parth-project.gif',
     author: 'Parth',
     githubLink: 'https://github.com/mishra-parth'
+  },
+  {
+    artName: 'Aymat',
+    pageLink: './Art/aymat/index.html',
+    imageLink: './Art/aymat/Capture.gif',
+    author: 'aysha30',
+    githubLink: 'https://github.com/aysha30'
   },
   {
     artName: 'Scissors Cutting Animation (CSS only)',
@@ -4599,14 +4620,170 @@ let cards = [
     githubLink: 'https://github.com/MishkaZi'
   },
   {
+    artName: 'Bouncing Balls',
+    pageLink: './Art/Sankyeat/index.html',
+    imageLink: './Art/Sankyeat/bouncingballs.gif',
+    author: 'Sankyeat',
+    githubLink: 'https://github.com/sanks20'
+  },
+  {
+    artName: 'Sample page',
+    pageLink: './Art/Joy/triangle/index.html',
+    imageLink: './Art/Joy/triangle/my-animation.gif',
+    author: 'Mamathagowd107',
+    githubLink: 'https://github.com/Mamathagowd107'
+  },
+  {
+    artName: 'Animated',
+    pageLink: './Art/animated/triangle/index.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'achwell',
+    pageLink: './Art/achwell/index.html',
+    imageLink: './Art/achwell/ball.gif',
+    author: 'achwell',
+    githubLink: 'https://github.com/achwell'
+  },
+  {
+    artName: 'Robotic Circles',
+    pageLink: './Art/animation_yaniv/index.html',
+    imageLink: './Art/animation_yaniv/robot.png',
+    author: 'Yaniv Sagy',
+    githubLink: 'https://github.com/yanivsagy'
+  },
+  {
+    artName: 'Ocean Day',
+    pageLink: './Art/d-spence/index.html',
+    imageLink: './Art/d-spence/ztm-dspence-css-anim.gif',
+    author: 'd-spence',
+    githubLink: 'https://github.com/d-spence'
+  },
+  {
+    artName: 'Animation-Circle',
+    pageLink: './Art/Animation-Circle/index.html',
+    imageLink: './Art/Animation-Circle/animation-circle.gif',
+    author: 'Elid Venega',
+    githubLink: 'https://github.com/elidvenega'
+  },
+  {
+    artName: 'Sweet street',
+    pageLink: './Art/Sweet_street/mario.html',
+    imageLink: './Art/Sweet_street/animation-gif.gif',
+    author: 'meni-avitan',
+    githubLink: 'https://github.com/meniAvitan/Animation-Nation.git'
+  },
+  {
+    pageLink: './Art/Joy/nithin-animation/index.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Nithin',
+    githubLink: 'https://github.com/Nithin6252-reddy'
+  },
+  {
+    artName: 'Jittery rectangles',
+    pageLink: './Art/Vaibhav/index.html',
+    author: 'Vaibhav Jain',
+    githubLink: 'https://github.com/Vaibhav-multi-dev'
+  },
+  {
+    artName: 'Pra-animate',
+    pageLink: './Art/Pra-animate/indexpra1.html',
+    //imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Prajoth',
+    githubLink: 'https://github.com/prajoth-b'
+  },
+  {
+    artName: '3D figure animation',
+    pageLink: './Art/DOKL57/index.html',
+    imageLink: './Art/DOKL57/DOKL57.png',
+    author: 'DOKL57',
+    githubLink: 'https://github.com/DOKL57'
+  },
+  {
+    artName: 'my-animation',
+    pageLink: './Art/my-animation/index.html',
+    imageLink: './Art/my-animation/screenv.webm',
+    author: 'Brurya',
+    githubLink: 'https://github.com/BruryaNadel'
+  },
+  {
+    artName: 'Animate Infinate',
+    pageLink: './Art/rotate-infinate/index.html',
+    imageLink: './Art/rotate-infinate/rotate.gif',
+    author: 'thucpn',
+    githubLink: 'https://github.com/thucpn'
+  },
+  {
+    artName: 'Forever',
+    pageLink: './Art/Mritunjay/index.html',
+    imageLink: './Art/Mritunjay/mj.gif',
+    author: 'Mritunjay',
+    githubLink: 'https://github.com/Mritunjay004'
+  },
+  {
+    artName: 'Atom',
+    pageLink: './Art/Atom/index.html',
+    imageLink: './Art/Atom/atom.gif',
+    author: 'Khalil-BM',
+    githubLink: 'https://github.com/Khalil-BM'
+  },
+  {
+    artName: 'AppleTree',
+    pageLink: './Art/andreasGZ/index.html',
+    imageLink: './Art/andreasGZ/apple.gif',
+    author: 'AndreasGZ',
+    githubLink: 'https://github.com/AndreasGZ'
+  },
+  {
+    pageLink: './Art/Akv-animation/index.html',
+    imageLink: './Art/Akv-animation/Image.png',
+    author: 'Akv',
+    githubLink: 'https://github.com/kushal-Ambati'
+  },
+  {
+    artName: 'Floating Ball',
+    pageLink: './Art/floatingBall/index.html',
+    imageLink: './Art/floatingBall/thaitruong.png',
+    author: 'Thai Truong',
+    githubLink: 'https://github.com/akitathai94'
+  },
+  {
+    artName: 'Bicycle-2D',
+    pageLink: './Art/Bicycle_2D/bicycle.html',
+    imageLink: './Art/Bicycle_2D/bicycle-gif.gif',
+    author: 'meni-avitan',
+    githubLink: 'https://github.com/meniAvitan'
+  },
+  {
+    artName: 'catch-me',
+    pageLink: './Art/catch-me/index.html',
+    imageLink: './Art/catch-me/catch-me.gif',
+    author: 'toobig4u',
+    githubLink: 'https://github.com/toobig4u'
+  },
+  {
+    pageLink: './Art/richard00436/index.html',
+    imageLink: './Art/richard00436/richard00436.gif',
+    author: 'richard00436',
+    githubLink: 'https://github.com/richard00436'
+  },
+  {
+    artName: 'bubble',
+    pageLink: './Art/seenuCFL/index.html',
+    imageLink: './Art/seenuCFL/dot.gif',
+    author: 'seenuCFL',
+    githubLink: 'https://github.com/seenuCFL'
+  },
+  {
     artName: 'keep_coding',
-    pageLink: './Art/Joy/keep_coding/index.html',
+    pageLink: './Art/keep_coding/index.html',
     imageLink: './Art/Keep_coding/keep_coding_image.gif',
     author: 'Rawshan',
     githubLink: 'https://github.com/mrawshan'
   }
 ];
-
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
