@@ -4769,7 +4769,7 @@ let cards = [
     imageLink: './Art/seenuCFL/dot.gif',
     author: 'seenuCFL',
     githubLink: 'https://github.com/seenuCFL'
-  },
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
