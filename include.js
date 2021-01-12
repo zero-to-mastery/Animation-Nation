@@ -4597,6 +4597,13 @@ let cards = [
     imageLink: './Art/beating-heart/heart.gif',
     author: 'MishkaZi',
     githubLink: 'https://github.com/MishkaZi'
+  },
+  {
+    artName: 'keep_coding',
+    pageLink: './Art/Joy/keep_coding/index.html',
+    imageLink: './Art/Keep_coding/keep_coding_image.gif',
+    author: 'Rawshan',
+    githubLink: 'https://github.com/mrawshan'
   }
 ];
 
