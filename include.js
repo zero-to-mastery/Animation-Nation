@@ -4755,7 +4755,14 @@ let cards = [
     imageLink: './Art/catch-me/catch-me.gif',
     author: 'toobig4u',
     githubLink: 'https://github.com/toobig4u'
-  }
+  },
+  {
+    artName: 'bubble',
+    pageLink: './Art/seenuCFL/index.html',
+    imageLink: './Art/seenuCFL/dot.gif',
+    author: 'seenuCFL',
+    githubLink: 'https://github.com/seenuCFL'
+  },
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
