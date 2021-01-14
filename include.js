@@ -4759,7 +4759,7 @@ let cards = [
   {
     pageLink: './Art/SunPulse/index.html',
     imageLink: './Art/SunPulse/sunpulse_img.png',
-    author: 'Valdis',
+    author: 'Valdis', 
     githubLink: 'https://github.com/vapl'
   }
 ];
