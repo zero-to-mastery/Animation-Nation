@@ -4775,6 +4775,12 @@ let cards = [
     imageLink: './Art/seenuCFL/dot.gif',
     author: 'seenuCFL',
     githubLink: 'https://github.com/seenuCFL'
+  },
+  {
+    pageLink: './Art/keep_coding/index.html',
+    imageLink: './Art/keep_coding/keep_coding_image.gif',
+    author: 'Rawshan',
+    githubLink: 'https://github.com/mrawshan'
   }
 ];
 // +--------------------------------------------------------------------------------+
