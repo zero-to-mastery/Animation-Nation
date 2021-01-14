@@ -4755,6 +4755,13 @@ let cards = [
     imageLink: './Art/catch-me/catch-me.gif',
     author: 'toobig4u',
     githubLink: 'https://github.com/toobig4u'
+  },
+  {
+    artName: 'RaeganAnimae',
+    pageLink: './Art/RaeganAnimae/index.html',
+    imageLink: './Art/RaeganAnamae/RaeAnimae.GIF',
+    author: 'Raegan',
+    githubLink: 'https://github.com/RaeganTysh'
   }
 ];
 // +--------------------------------------------------------------------------------+
