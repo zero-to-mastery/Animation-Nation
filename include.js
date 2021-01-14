@@ -4795,7 +4795,17 @@ let cards = [
     imageLink: './Art/keep_coding/keep_coding_image.gif',
     author: 'Rawshan',
     githubLink: 'https://github.com/mrawshan'
+<<<<<<< HEAD
 
+=======
+  },
+  {
+    artName: 'RaeganAnimae',
+    pageLink: './Art/RaeganAnimae/index.html',
+    imageLink: './Art/RaeganAnamae/RaeAnimae.GIF',
+    author: 'Raegan',
+    githubLink: 'https://github.com/RaeganTysh'
+>>>>>>> cc51342... updates
   }
 ];
 // +--------------------------------------------------------------------------------+

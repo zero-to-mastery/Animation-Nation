@@ -7,7 +7,11 @@ div{
     color: powderblue;
     text-align: center;
     position: relative;
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> cc51342... updates
 
 }
 
@@ -25,7 +29,11 @@ div{
     50%  {background-color: #8E90CB; left:100px; top:0px;}
     75%  {background-color: #484958; left:150x; top:0px;}
     100% {background-color:#030303; left:200px; top:0px;}
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> cc51342... updates
   }
   @keyframes mysecond{
     0%   {background-color:#030303; left:0px; top:0px;}
@@ -33,5 +41,11 @@ div{
     50%  {background-color: #484958; left:100px; top:0px;}
     75%  {background-color: #4144BC; left:150x; top:0px;}
     100% {background-color:#040Bfd; left:200px; top:0px;}
+<<<<<<< HEAD
       
   }
+=======
+
+  } 
+ 
+>>>>>>> cc51342... updates
