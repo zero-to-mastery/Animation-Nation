@@ -1,5 +1,19 @@
 let cards = [
   {
+    artName: 'CSS Loader',
+    pageLink: './Art/BenCullen/index.html',
+    imageLink: './Art/BenCullen/Bens CSS Loader.gif',
+    author: 'Ben Cullen',
+    githubLink: 'https://github.com/BenjaminCullen1'
+  },
+  {
+    artName: 'Flag',
+    pageLink: './Art/IurianSimionDorin/index.html',
+    imageLink: './Art/IurianSimionDorin/flag.gif',
+    author: 'IurianSimionDorin',
+    githubLink: 'https://github.com/IurianSimionDorin'
+  },
+  {
     artName: 'Rainbow Text Spin',
     pageLink: './Art/mallen13/index.html',
     imageLink: 'stillPic.jpg',
@@ -4762,6 +4776,26 @@ let cards = [
     imageLink: './Art/RaeganAnamae/RaeAnimae.GIF',
     author: 'Raegan',
     githubLink: 'https://github.com/RaeganTysh'
+  },
+  {
+    pageLink: './Art/richard00436/index.html',
+    imageLink: './Art/richard00436/richard00436.gif',
+    author: 'richard00436',
+    githubLink: 'https://github.com/richard00436'
+  },
+  {
+    artName: 'bubble',
+    pageLink: './Art/seenuCFL/index.html',
+    imageLink: './Art/seenuCFL/dot.gif',
+    author: 'seenuCFL',
+    githubLink: 'https://github.com/seenuCFL'
+  },
+  {
+    pageLink: './Art/keep_coding/index.html',
+    imageLink: './Art/keep_coding/keep_coding_image.gif',
+    author: 'Rawshan',
+    githubLink: 'https://github.com/mrawshan'
+
   }
 ];
 // +--------------------------------------------------------------------------------+
