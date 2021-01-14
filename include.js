@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'CSS Loader',
+    pageLink: './Art/BenCullen/index.html',
+    imageLink: './Art/BenCullen/Bens CSS Loader.gif',
+    author: 'Ben Cullen',
+    githubLink: 'https://github.com/BenjaminCullen1'
+  },
+  {
     artName: 'Flag',
     pageLink: './Art/IurianSimionDorin/index.html',
     imageLink: './Art/IurianSimionDorin/flag.gif',
