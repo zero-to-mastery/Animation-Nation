@@ -4788,13 +4788,14 @@ let cards = [
     imageLink: './Art/keep_coding/keep_coding_image.gif',
     author: 'Rawshan',
     githubLink: 'https://github.com/mrawshan'
-  }
+  },
    {
-    pageLink: './Art/animation/index.html',
-    imageLink: './Art/animation/animation.gif',
+    pageLink: './Art/manimation/index.html',
+    imageLink: './Art/manimation/animation.gif',
     author: 'Maryam',
     githubLink: 'https://github.com/Maryyam04'
   }
+   
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
