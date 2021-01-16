@@ -4789,13 +4789,12 @@ let cards = [
     author: 'Rawshan',
     githubLink: 'https://github.com/mrawshan'
   },
-   {
+  {
     pageLink: './Art/manimation/index.html',
     imageLink: './Art/manimation/animation.gif',
     author: 'Maryam',
     githubLink: 'https://github.com/Maryyam04'
   }
-   
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
