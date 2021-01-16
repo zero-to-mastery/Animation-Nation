@@ -4794,6 +4794,12 @@ let cards = [
     imageLink: './Art/HammadKhan/Animation.gif',
     author: 'HammadKhan',
     githubLink: 'https://github.com/hhkhan99'
+  },
+  {
+    pageLink: './Art/manimation/index.html',
+    imageLink: './Art/manimation/animation.gif',
+    author: 'Maryam',
+    githubLink: 'https://github.com/Maryyam04'
   }
 ];
 // +--------------------------------------------------------------------------------+
