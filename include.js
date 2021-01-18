@@ -4801,6 +4801,12 @@ let cards = [
     author: 'Maryam',
     githubLink: 'https://github.com/Maryyam04'
   }
+  {
+    pageLink: './Art/ElizavetaZhukova1/index.html',
+    imageLink: './Art/ElizavetaZhukova1/fourSquaresEdit.gif',
+    author: 'Liza',
+    githubLink: 'https://github.com/ElizavetaZhukova1'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
