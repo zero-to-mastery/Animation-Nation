@@ -2072,12 +2072,34 @@ let cards = [
     githubLink: 'https://github.com/Natalina13'
   },
   {
+    artName: 'Dog-Wagging ',
+    pageLink: './Art/mayannamarie/index.html',
+    imageLink: './Art/mayannamarie/dog-wagging.gif',
+    author: 'Mayannamarie',
+    githubLink: 'https://github.com/mayannamarie'
+  },
+  {
     artName: 'Asteroids',
     pageLink: './Art/hrafnkellbaldurs/index.html',
     imageLink: './Art/hrafnkellbaldurs/asteroids.gif',
     author: 'Hrafnkell Baldursson',
     githubLink: 'https://github.com/hrafnkellbaldurs'
   },
+  
+    {
+      pageLink: './Art/Joy/triangle/triangle.html',
+      imageLink: './Art/Joy/triangle/triangle.gif',
+      author: 'Joy',
+      githubLink: 'https://github.com/royranger'
+    }
+  ];
+    {
+      pageLink: './Art/Joy/triangle/triangle.html',
+      imageLink: './Art/Joy/triangle/triangle.gif',
+      author: 'Joy',
+      githubLink: 'https://github.com/royranger'
+    }
+  ];
   {
     artName: 'Sliding-Paragraph',
     pageLink: './Art/Prashant/index.html',
