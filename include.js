@@ -4592,6 +4592,17 @@ let cards = [
     author: 'ianhawe',
     githubLink: 'https://github.com/ianhawe'
   },
+ {
+    artName: 'iris',
+    pageLink: './Art/iris/index.html',
+    imageLink: './Art/iris/trance.gif',    
+    author: 'iriswdq0504',
+    githubLink: 'https://github.com/iriswdq0504'
+  },
+
+
+
+
   {
     artName: 'Fun with balls!',
     pageLink: './Art/miguelDalberto/funWithBalls/index.html',
