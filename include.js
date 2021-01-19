@@ -4332,8 +4332,8 @@ let cards = [
     artName: 'Cards',
     pageLink: './Art/cards/index.html',
     imageLink: './Art/cards/cards.gif',
-    author: 'lonecreationwastaken',
-    githubLink: 'https://github.com/lonecreationwastaken'
+    author: 'networkdavit',
+    githubLink: 'https://github.com/networkdavit'
   },
   {
     artName: "Lidor'sAnimation",
