@@ -4800,7 +4800,7 @@ let cards = [
     imageLink: './Art/manimation/animation.gif',
     author: 'Maryam',
     githubLink: 'https://github.com/Maryyam04'
-  }
+  },
   {
     pageLink: './Art/ElizavetaZhukova1/index.html',
     imageLink: './Art/ElizavetaZhukova1/fourSquaresEdit.gif',
