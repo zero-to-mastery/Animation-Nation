@@ -4815,6 +4815,13 @@ let cards = [
     author: 'Liza',
     githubLink: 'https://github.com/ElizavetaZhukova1'
   }
+  ,
+  {
+    pageLink: './Art/testAnimation/index.html',
+    imgeLink: './Art/Aliedje/test.png',
+    author: 'Alida',
+    githubLink: 'https://github.com/adiphoorn'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
