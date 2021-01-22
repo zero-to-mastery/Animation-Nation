@@ -4814,8 +4814,7 @@ let cards = [
     imageLink: './Art/ElizavetaZhukova1/fourSquaresEdit.gif',
     author: 'Liza',
     githubLink: 'https://github.com/ElizavetaZhukova1'
-  }
-  ,
+  },
   {
     pageLink: './Art/Aliedje/index.html',
     imgeLink: './Art/Aliedje/test.png',
