@@ -30,5 +30,7 @@
   
   .box:hover {
     animation-play-state:running;
+    background-color: aqua;
   }
+
   
