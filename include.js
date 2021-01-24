@@ -4828,8 +4828,7 @@ let cards = [
     imgeLink: './Art/CheyJax116/heartbeat.gif',
     author: 'CheyJax116',
     githubLink: 'https://github.com/cheyjax116'
-  }
-  ,
+  },
   {
     pageLink: './Art/Aliedje/index.html',
     imgeLink: './Art/Aliedje/test.png',
