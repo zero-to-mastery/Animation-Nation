@@ -4820,6 +4820,14 @@ let cards = [
     imgeLink: './Art/Aliedje/test.png',
     author: 'Alida',
     githubLink: 'https://github.com/adiphoorn'
+  },
+
+  {
+    artName: 'Heartbeat',
+    pageLink: './Art/CheyJax116/heartbeat.html',
+    imgeLink: './Art/CheyJax116/heartbeat.gif',
+    author: 'CheyJax116',
+    githubLink: 'https://github.com/cheyjax116'
   }
   ,
   {
