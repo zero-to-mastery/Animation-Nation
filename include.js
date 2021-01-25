@@ -4836,8 +4836,8 @@ let cards = [
     githubLink: 'https://github.com/adiphoorn'
   },
   {
-    pageLink: './Art/Joy/bouncingMoon/index.html',
-    imageLink: './Art/Joy/bouncingMoon/bouncingMoon.png',
+    pageLink: './Art/bouncingMoon/index.html',
+    imageLink: './Art/bouncingMoon/bouncingMoon.png',
     author: 'Radu-Stroe',
     githubLink: 'https://github.com/Radu-Stroe'
   }
