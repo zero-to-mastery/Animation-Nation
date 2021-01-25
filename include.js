@@ -4834,6 +4834,12 @@ let cards = [
     imgeLink: './Art/Aliedje/test.png',
     author: 'Alida',
     githubLink: 'https://github.com/adiphoorn'
+  },
+  {
+    pageLink: './Art/Joy/bouncingMoon/index.html',
+    imageLink: './Art/Joy/bouncingMoon/bouncingMoon.png',
+    author: 'Radu-Stroe',
+    githubLink: 'https://github.com/Radu-Stroe'
   }
 ];
 // +--------------------------------------------------------------------------------+
