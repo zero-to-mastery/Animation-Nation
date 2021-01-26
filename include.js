@@ -175,8 +175,8 @@ let cards = [
     artName: 'space zoo',
     pageLink: './Art/space_zoo/index.html',
     imageLink: './Art/space_zoo/space_zoo.gif',
-    author: 'yuwenGithub',
-    githubLink: 'https://github.com/yuwenGithub'
+    author: 'yuwen-c',
+    githubLink: 'https://github.com/yuwen-c'
   },
   {
     artName: 'neon-text flicker glow',
@@ -203,8 +203,8 @@ let cards = [
     artName: 'eyes',
     pageLink: './Art/eyes/index.html',
     imageLink: './Art/eyes/eyes.gif',
-    author: 'yuwenGithub',
-    githubLink: 'https://github.com/yuwenGithub'
+    author: 'yuwen-c',
+    githubLink: 'https://github.com/yuwen-c'
   },
   {
     artName: 'Spooktober Hacktoberfest',
