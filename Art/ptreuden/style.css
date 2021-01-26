@@ -3,7 +3,8 @@
   font-family: 'Orbitron', sans-serif;
 }
 
-html, body {
+html,
+body {
   margin: 0px;
   padding: 0px;
   background-color: #3c3d3d;
@@ -167,7 +168,6 @@ main {
   border: 2px solid rgba(232, 215, 23, 0.9);
   border-radius: 0;
   position: absolute;
-
 }
 
 .square-one {
@@ -241,7 +241,6 @@ main {
   animation-delay: 980ms;
 }
 
-
 /* below, an optional css-generated animated counter - text bounces around though */
 
 /* @property --num {
@@ -283,7 +282,6 @@ main {
   }
 } */
 
-
 /* below, the standard text element for counter */
 
 .standard-clock {
@@ -298,14 +296,14 @@ main {
   overflow: hidden;
   margin: 330px auto 0;
   letter-spacing: 1.2rem;
-  font-family: "Orbitron";
+  font-family: 'Orbitron';
 }
 
 .standard-clock h3 {
   color: #de1f25;
   font-size: 2.2rem;
   letter-spacing: 1.2rem;
-  font-family: "Orbitron";
+  font-family: 'Orbitron';
   margin: 3px 0;
 }
 
