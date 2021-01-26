@@ -4840,6 +4840,13 @@ let cards = [
     imageLink: './Art/bouncingMoon/bouncingMoon.png',
     author: 'Radu-Stroe',
     githubLink: 'https://github.com/Radu-Stroe'
+  },
+  {
+    artName: 'Use the Force',
+    pageLink: './Art/ptreuden/index.html',
+    imageLink: './Art/ptreuden/useTheForce.gif',
+    author: 'ptreuden',
+    githubLink: 'https://github.com/ptreuden'
   }
 ];
 // +--------------------------------------------------------------------------------+
