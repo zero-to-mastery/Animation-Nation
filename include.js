@@ -971,25 +971,11 @@ let cards = [
     githubLink: 'https://github.com/Futuregit'
   },
   {
-    artName: 'space zoo',
-    pageLink: './Art/space_zoo/index.html',
-    imageLink: './Art/space_zoo/space_zoo.gif',
-    author: 'yuwenGithub',
-    githubLink: 'https://github.com/yuwenGithub'
-  },
-  {
     artName: 'Fruit Dancing',
     pageLink: './Art/carlacentenor/index.html',
     imageLink: './Art/carlacentenor/fruit.gif',
     author: 'carlacentenor',
     githubLink: 'https://github.com/carlacentenor'
-  },
-  {
-    artName: 'eyes',
-    pageLink: './Art/eyes/index.html',
-    imageLink: './Art/eyes/eyes.gif',
-    author: 'yuwenGithub',
-    githubLink: 'https://github.com/yuwenGithub'
   },
   {
     artName: 'Spooktober Hacktoberfest',
