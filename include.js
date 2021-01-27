@@ -4847,7 +4847,15 @@ let cards = [
     imageLink: './Art/ptreuden/useTheForce.gif',
     author: 'ptreuden',
     githubLink: 'https://github.com/ptreuden'
+  },
+  {
+      artName: 'css_typer',
+      pageLink: './Art/Joy/css-typer/index.html',
+      imageLink: './Art/Joy/css-typer/typing_animate.gif',
+      author: 'Trey',
+      githubLink: 'https://github.com/shanks-t'
   }
+  ];
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
