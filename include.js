@@ -4835,14 +4835,14 @@ let cards = [
     githubLink: 'https://github.com/ptreuden'
   },
   {
-      artName: 'css_typer',
-      pageLink: './Art/Joy/css-typer/index.html',
-      imageLink: './Art/Joy/css-typer/typing_animate.gif',
-      author: 'Trey',
-      githubLink: 'https://github.com/shanks-t'
+    artName: 'css_typer',
+    pageLink: './Art/Joy/css-typer/index.html',
+    imageLink: './Art/Joy/css-typer/typing_animate.gif',
+    author: 'Trey',
+    githubLink: 'https://github.com/shanks-t'
   }
-  ];
 ];
+
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +

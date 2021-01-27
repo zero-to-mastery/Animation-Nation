@@ -1,4 +1,3 @@
-
 body {
   background-color: black;
   color: white;
@@ -21,15 +20,18 @@ p {
   animation: text2;
 }
 
- .text_3 {
+.text_3 {
   animation: text3;
-} 
+}
 
 .text_4 {
   animation: text4;
-} 
+}
 
-.text_1, .text_2, .text_3, .text_4 {
+.text_1,
+.text_2,
+.text_3,
+.text_4 {
   overflow: hidden;
   white-space: nowrap;
   display: inline-block;
@@ -39,8 +41,11 @@ p {
   animation-iteration-count: infinite;
 }
 
-.text_1::after, .text_2::after, .text_3::after, .text_4::after {
-  content: "|";
+.text_1::after,
+.text_2::after,
+.text_3::after,
+.text_4::after {
+  content: '|';
   position: absolute;
   right: 0;
   animation: caret infinite;
@@ -49,43 +54,64 @@ p {
 }
 
 @keyframes text4 {
-  0%, 25%, 50%, 75%, 100% {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
     width: 0;
   }
-  83.33%, 91.67% {
+  83.33%,
+  91.67% {
     width: 5.2em;
   }
 }
 
 @keyframes text3 {
-  0%, 25%, 50%, 75%, 100% {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
     width: 0;
   }
-  58.33%, 66.67% {
+  58.33%,
+  66.67% {
     width: 6.5em;
   }
 }
 
 @keyframes text2 {
-  0%, 25%, 50%, 75%, 100% {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
     width: 0;
   }
-  33.3%, 41.67% {
+  33.3%,
+  41.67% {
     width: 8.1em;
   }
 }
 
 @keyframes text1 {
-  0%, 25%, 50%, 75%, 100% {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
     width: 0;
   }
-  8.3%, 16.6% {
+  8.3%,
+  16.6% {
     width: 7.5em;
   }
 }
 
 @keyframes caret {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0;
   }
   50% {
