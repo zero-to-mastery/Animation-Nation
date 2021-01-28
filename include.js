@@ -4840,7 +4840,15 @@ let cards = [
     imageLink: './Art/Joy/css-typer/typing_animate.gif',
     author: 'Trey',
     githubLink: 'https://github.com/shanks-t'
+  },
+  {
+    artName: 'kyloRen',
+    pageLink: './Art/kyloRen/index.html',
+    imageLink: './Art/kyloRen/kyloren.gif',
+    author: 'Rohit',
+    githubLink: 'https://github.com/ghoshrohit72'
   }
+  
 ];
 
 // +--------------------------------------------------------------------------------+
