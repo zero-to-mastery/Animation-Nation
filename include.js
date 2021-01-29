@@ -4842,9 +4842,9 @@ let cards = [
     githubLink: 'https://github.com/shanks-t'
   },
   {
-    artName: 'kyloRen',
+    artName: 'Happy Sun',
     pageLink: './Art/kyloRen/index.html',
-    imageLink: './Art/kyloRen/kyloren.gif',
+    imageLink: './Art/kyloRen/kyloRen.gif',
     author: 'Rohit',
     githubLink: 'https://github.com/ghoshrohit72'
   }
