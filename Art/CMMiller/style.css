@@ -1,0 +1,48 @@
+.triangle-top {
+    width: 0;
+    height: 0;
+    margin-left: 50px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #555;
+    animation: triangleAnimation 1.5s linear infinite alternate both;
+}
+
+.trapezoid-middle {
+    width: 50px;
+    height: 0px;
+    margin-left: 25px;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #555;
+    border-left: 25px solid transparent;
+    animation: triangleAnimation 1.5s linear infinite alternate both;
+}
+
+.trapezoid-bottom {
+    width: 100px;
+    height: 0px;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #555;
+    border-left: 25px solid transparent;
+    border-bottom-color: red;
+    animation: triangleAnimation 1.5s linear infinite alternate both;
+}
+
+@keyframes triangleAnimation {
+    0% {
+        border-bottom-color: red;
+    }
+    25% {
+        border-bottom-color: blue;
+    }
+    50% {
+        border-bottom: 0px;
+        border-top: 50px solid green;
+    }
+    75% {
+        border-bottom-color: yellow;
+    }
+    100% {
+        border-bottom-color: orange;
+    }
+}
