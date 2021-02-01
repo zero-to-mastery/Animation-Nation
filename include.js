@@ -4840,6 +4840,13 @@ let cards = [
     imageLink: './Art/Joy/css-typer/typing_animate.gif',
     author: 'Trey',
     githubLink: 'https://github.com/shanks-t'
+  },
+  {
+    artName: 'lets-get-trippy',
+    pageLink: './Art/trippy/index.html',
+    imageLink: './Art/trippy/tenor.gif',
+    author: 'Austeja',
+    githubLink: 'https://github.com/matuzaite'
   }
 ];
 
