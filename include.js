@@ -4840,6 +4840,12 @@ let cards = [
     imageLink: './Art/Joy/css-typer/typing_animate.gif',
     author: 'Trey',
     githubLink: 'https://github.com/shanks-t'
+  },
+  {
+    pageLink: './Art/alnajarAnimation/index.html',
+    imageLink: './Art/alnajarAnimation/animate.gif.gif',
+    author: 'Mohammad',
+    githubLink: 'https://github.com/mohammadalnajar'
   }
 ];
 
