@@ -4846,6 +4846,12 @@ let cards = [
     imageLink: './Art/Joy/Amiel-Art/screenshot.png',
     author: 'Amiel',
     githubLink: 'https://github.com/trinidadamiel'
+  },
+  {
+    pageLink: './Art/alnajarAnimation/index.html',
+    imageLink: './Art/alnajarAnimation/animate.gif.gif',
+    author: 'Mohammad',
+    githubLink: 'https://github.com/mohammadalnajar'
   }
 ];
 
