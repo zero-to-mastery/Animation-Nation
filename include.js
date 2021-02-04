@@ -4852,6 +4852,12 @@ let cards = [
     imageLink: './Art/alnajarAnimation/animate.gif.gif',
     author: 'Mohammad',
     githubLink: 'https://github.com/mohammadalnajar'
+  },
+    {
+    pageLink: './Art/card-animation/index.html',
+    imageLink: './Art/card-animation/animate.gif',
+    author: 'David',
+    githubLink: 'https://github.com/didbar'
   }
 ];
 
