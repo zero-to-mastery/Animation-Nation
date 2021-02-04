@@ -4852,7 +4852,14 @@ let cards = [
     imageLink: './Art/alnajarAnimation/animate.gif.gif',
     author: 'Mohammad',
     githubLink: 'https://github.com/mohammadalnajar'
-  }
+  },
+  {
+    artName: 'Solo Bounce',
+    pageLink: './Art/MtikeB/index.html',
+    imageLink: './Art/MtikeB/Bouncy.gif',
+    author: 'MtikeG',
+    githubLink: 'https://github.com/MtikeG'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
