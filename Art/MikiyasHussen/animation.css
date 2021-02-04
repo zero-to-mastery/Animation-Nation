@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(78, 159, 161);
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+
+    height: 100%;
+    width: auto;
+}
+
+.container > div {
+    margin: 5px;
+}
+
+.box-1{
+    height: 80%;
+    width: 20%;
+    background-color: chocolate;
+    animation: pulse 6s ease-in-out;
+
+}
+@keyframes pulse {
+    0% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 100%;
+    }
+}
+
+.box-2 {
+    height: 60%;
+    width: 20%;
+    background-color: floralwhite;
+    animation: pulse 5s ease-in;
+}
+
+
+@keyframes pulse {
+    0% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 100%;
+    }
+}
+.box-3 {
+    height: 40%;
+    width: 20%;
+    background-color: rgb(69, 30, 210);
+    animation: pulse 5s;
+}
+@keyframes pulse {
+    0% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 100%;
+    }
+}
+.box-4 {
+    height: 20%;
+    width: 20%;
+    background-color: rgb(132, 210, 30);
+    animation: pulse 4s;
+}
+@keyframes pulse {
+    0% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 10px;
+    }
+}
+.box-5 {
+    height: 10%;
+    width: 20%;
+    background-color: rgb(82, 204, 188);
+    animation: pulse 3s ease-out;
+}
+
+@keyframes pulse {
+    0% {
+        margin-top: 0;
+    }
+    100%{
+        margin-top: 100%;
+    }
+}
