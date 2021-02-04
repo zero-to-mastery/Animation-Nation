@@ -4852,6 +4852,12 @@ let cards = [
     imageLink: './Art/alnajarAnimation/animate.gif.gif',
     author: 'Mohammad',
     githubLink: 'https://github.com/mohammadalnajar'
+  }.
+  {
+    artName: 'BlondBloxtra',
+    pageLink: './Art/HarrisMBrad/index.html',
+    author: 'HarrisMBrad',
+    githubLink: 'https://github.com/HarrisMBrad'
   }
 ];
 

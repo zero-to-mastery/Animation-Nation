@@ -1,0 +1,57 @@
+
+
+html, body{
+    margin: .5px;
+    padding: 3px;
+    height: 100px;
+    overflow:visible;
+    display: grid;
+    place-items: center, right;
+    font-family: monospace;
+    background-color: #5eb15e;
+  }
+  h2, h3, span   {
+    position: absolute;
+    margin: .10em;
+    display: block;
+    font-size: 0.5em;
+    color: #101610;
+  }
+  
+
+  .spinstir {
+    margin: auto;
+    height: 2px;
+    display: grid;
+    place-items: bottom;
+    color: #09fc09;
+    
+  }
+
+  .something {
+      position: absolute;
+      -webkit-animation: 1s;
+      -moz-animation: 2s;
+      transition: .3s;
+      clip: rect(0, 2, 2, 0);
+      overflow: visible;
+      height: 250vh;
+      width: 100%;
+      color: #3b793b;
+      
+
+
+  }
+
+  .bloxtir {
+    position: absolute;
+    -webkit-animation: 1s;
+    -moz-animation: 1s;
+    transition: .3s;
+    clip: rect(2, 1, 1, 2);
+    overflow: visible;
+    height: 250vh;
+    width: 100%;
+    color: #0c300c;
+
+  }
