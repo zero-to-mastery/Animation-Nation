@@ -4859,6 +4859,13 @@ let cards = [
     imageLink: './Art/alnajarAnimation/animate.gif.gif',
     author: 'Mohammad',
     githubLink: 'https://github.com/mohammadalnajar'
+  },
+  {
+    artName: 'AlienLoading',
+    pageLink: './Art/AniNationSargi/index.html',
+    imageLink: './Art/AniNationSargi/alienGif.gif',
+    author: 'Sargsian',
+    githubLink: 'https://github.com/Sargsian'
   }
 ];
 
