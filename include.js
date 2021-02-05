@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/BenjaminCullen1'
   },
   {
+    artName: 'Smiling Moon',
+    pageLink: './Art/Smiling_Moon/index.html',
+    imageLink: './Art/Smiling_Moon/smiling-moon.gif',
+    author: 'Neellohit S.',
+    githubLink: 'https://github.com/Senapati626'
+  },
+  {
     artName: 'Flag',
     pageLink: './Art/IurianSimionDorin/index.html',
     imageLink: './Art/IurianSimionDorin/flag.gif',
