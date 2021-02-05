@@ -4865,6 +4865,12 @@ let cards = [
     imageLink: '',
     author: 'Benji',
     githubLink: 'https://github.com/benji5656'
+  },
+  {
+    pageLink: '.Art/Hekmundo/index.html',
+    imageLink: '.Art/Hekmundo/revolving-circles.gif',
+    author: 'Hekmundo',
+    githubLink: 'https://github.com/Hekmundo'
   }
 ];
 
