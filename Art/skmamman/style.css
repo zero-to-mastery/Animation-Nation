@@ -1,0 +1,209 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(241, 15, 173);
+    text-shadow: 2px 2px 4px #0f022ec9;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.flex-container {
+    width: 400px;
+    height: 600px;
+}
+
+.div {
+    top: 150px;
+    width: 45%;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    animation: mymove 3.2s linear infinite;
+}
+
+@keyframes mymove {
+    0% {
+        top: 150px;
+        width: 20%;
+        height: 18px;
+        background-color: rgba(255, 0, 0, 0.932);
+    }
+    6.25% {
+        top: 168px;
+        width: 25%;
+        height: 20px;
+        background-color: rgb(187, 243, 33);
+    }
+    12.5% {
+        top: 188px;
+        width: 30%;
+        height: 22px;
+        background-color: rgb(248, 47, 108);
+    }
+    18.75% {
+        top: 210px;
+        width: 35%;
+        height: 24px;
+        background-color: rgb(11, 91, 116);
+    }
+    25% {
+        top: 234px;
+        width: 40%;
+        height: 26px;
+        background-color: #a56709;
+    }
+    31.25% {
+        top: 260px;
+        width: 45%;
+        height: 28px;
+        background-color: rgb(10, 151, 17);
+    }
+    37.5% {
+        top: 288px;
+        width: 50%;
+        height: 30px;
+        background-color: rgb(242, 7, 250);
+    }
+    43.75% {
+        top: 318px;
+        width: 55%;
+        height: 32px;
+        background-color: rgb(0, 47, 255);
+    }
+    50% {
+        top: 350px;
+        width: 60%;
+        height: 34px;
+        background-color: rgb(238, 62, 9);
+    }
+    56.25% {
+        top: 384px;
+        width: 65%;
+        height: 36px;
+        background-color: rgb(111, 240, 36);
+    }
+    62.5% {
+        top: 420px;
+        width: 70%;
+        height: 38px;
+        background-color: rgb(243, 229, 31);
+    }
+    68.75% {
+        top: 458px;
+        width: 75%;
+        height: 40px;
+        background-color: rgb(23, 203, 209);
+    }
+    75% {
+        top: 498px;
+        width: 80%;
+        height: 42px;
+        background-color: rgb(141, 5, 96);
+    }
+    81.25% {
+        top: 540px;
+        width: 85%;
+        height: 44px;
+        background-color: rgb(11, 141, 69);
+    }
+    87.5% {
+        top: 584px;
+        height: 46px;
+        width: 90%;
+        background-color: rgb(30, 223, 230);
+    }
+    93.75% {
+        top: 630px;
+        height: 48px;
+        width: 95%;
+        background-color: rgb(252, 19, 39);
+    }
+    100% {
+        top: 678px;
+        height: 50px;
+        width: 100%;
+        background-color: rgb(243, 229, 31);
+    }
+}
+
+.div.l1 {
+    animation-delay: 0s;
+}
+
+.div.l2 {
+    animation-delay: 0.2s;
+}
+
+.div.l3 {
+    animation-delay: 0.4s;
+}
+
+.div.l4 {
+    animation-delay: 0.6s;
+}
+
+.div.l5 {
+    animation-delay: 0.8s;
+}
+
+.div.l6 {
+    animation-delay: 1s;
+}
+
+.div.l7 {
+    animation-delay: 1.2s;
+}
+
+.div.l8 {
+    animation-delay: 1.4s;
+}
+
+.div.l9 {
+    animation-delay: 1.6s;
+}
+
+.div.l10 {
+    animation-delay: 1.8s;
+}
+
+.div.l11 {
+    animation-delay: 2s;
+}
+
+.div.l12 {
+    animation-delay: 2.2s;
+}
+
+.div.l13 {
+    animation-delay: 2.4s;
+}
+
+.div.l14 {
+    animation-delay: 2.6s;
+}
+
+.div.l15 {
+    animation-delay: 2.8s;
+}
+
+.div.l16 {
+    animation-delay: 3s;
+}
