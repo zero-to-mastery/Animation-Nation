@@ -4852,6 +4852,13 @@ let cards = [
     imageLink: './Art/alnajarAnimation/animate.gif.gif',
     author: 'Mohammad',
     githubLink: 'https://github.com/mohammadalnajar'
+  },
+  {
+    artName: 'simple heart rate',
+    pageLink: './Art/heartmonitor',
+    imageLink: './Art/hearmonitor/heartmonitor.gif',
+    author: 'Juan',
+    githubLink: 'https://github.com/jhmndrgn56'
   }
 ];
 
