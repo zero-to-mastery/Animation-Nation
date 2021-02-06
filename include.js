@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Dog animation',
+    pageLink: './Art/AbhishekSingh-Animation-Contribution/index.html',
+    imageLink: './Art/AbhishekSingh-Animation-Contribution/gif.png',
+    author: 'Abhishek Singh',
+    githubLink: 'https://github.com/Abhishek-555'
+  },
+  {
     artName: 'CSS Loader',
     pageLink: './Art/BenCullen/index.html',
     imageLink: './Art/BenCullen/Bens CSS Loader.gif',
@@ -4859,6 +4866,12 @@ let cards = [
     imageLink: './Art/hearmonitor/heartmonitor.gif',
     author: 'Juan',
     githubLink: 'https://github.com/jhmndrgn56'
+  },
+  {
+    pageLink: '.Art/benji5656/index.html',
+    imageLink: '',
+    author: 'Benji',
+    githubLink: 'https://github.com/benji5656'
   }
 ];
 
