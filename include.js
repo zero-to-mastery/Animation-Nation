@@ -4865,7 +4865,14 @@ let cards = [
     imageLink: '',
     author: 'Benji',
     githubLink: 'https://github.com/benji5656'
-  }
+  },
+  {
+    artName: "Animatron"
+    pageLink: './Art/animatron/index.html',
+    imageLink: './Art/animatron/trance.gif',
+    author: 'dingdingLee',
+    githubLink: 'https://github.com/dingdingLee'
+  }x
 ];
 
 // +--------------------------------------------------------------------------------+
