@@ -4865,6 +4865,12 @@ let cards = [
     imageLink: '',
     author: 'Benji',
     githubLink: 'https://github.com/benji5656'
+  },
+  {
+    pageLink: './Art/AniNationSargi/index.html',
+    imageLink: './Art/AniNationSargi/alienGif.gif',
+    author: 'Sargsian',
+    githubLink: 'https://github.com/Sargsian'
   }
 ];
 
