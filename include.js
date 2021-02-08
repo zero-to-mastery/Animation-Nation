@@ -4866,6 +4866,12 @@ let cards = [
     author: 'Benji',
     githubLink: 'https://github.com/benji5656'
   }
+  {
+    pageLink: '.Art/Szo89/index.html',
+    imageLink: '.Art/Szo89/animation.png',
+    author: 'Susana',
+    githubLink: 'https://github.com/Szo89'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
