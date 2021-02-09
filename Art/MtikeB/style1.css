@@ -1,12 +1,12 @@
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .container {
-    min-height: 100vh;
-    display: flex;
-        justify-content: center;
-    align-items: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* div#one {
@@ -18,49 +18,54 @@ body {
 } */
 
 .ball {
-    align-self: flex-end;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    background-color: #D59D18;
-    height: 500px;
-    margin: 0 auto 0 auto;
-    transform-origin: bottom;
-    width: 500px;
-    border-radius: 50%;
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: #d59d18;
+  height: 500px;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+  width: 500px;
+  border-radius: 50%;
 }
 
-.ball:nth-child(1) { 
-    animation-duration: 1s;
-  }
-  
-.ball2:nth-child(2) { 
-    animation-duration: 2s;
+.ball:nth-child(1) {
+  animation-duration: 1s;
+}
+
+.ball2:nth-child(2) {
+  animation-duration: 2s;
 }
 
 .bounce-1 {
-    animation-name: bounce-1;
-    animation-timing-function: linear;
+  animation-name: bounce-1;
+  animation-timing-function: linear;
 }
 
 .ball2 {
-    align-self: flex-end;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    background-color: #FFFFFD;
-    height: 500px;
-    margin: 0 auto 0 auto;
-    transform-origin: top;
-    width: 500px;
-    border-radius: 50%;
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: #fffffd;
+  height: 500px;
+  margin: 0 auto 0 auto;
+  transform-origin: top;
+  width: 500px;
+  border-radius: 50%;
 }
 .bounce-2 {
-    animation-name: bounce-1;
-    animation-timing-function: linear;
+  animation-name: bounce-1;
+  animation-timing-function: linear;
 }
 
 @keyframes bounce-1 {
-    0%   { transform: translateY(200); }
-    50%  { transform: translateY(-800px); }
-    100% { transform: translateY(200); }
+  0% {
+    transform: translateY(200);
+  }
+  50% {
+    transform: translateY(-800px);
+  }
+  100% {
+    transform: translateY(200);
+  }
 }
-

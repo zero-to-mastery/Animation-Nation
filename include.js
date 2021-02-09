@@ -4861,12 +4861,12 @@ let cards = [
     githubLink: 'https://github.com/mohammadalnajar'
   },
   {
-    artName: "MtBounce",
+    artName: 'MtBounce',
     pageLink: './Art/MtikeB/index.html',
     imageLink: './Art/MtikeB/Bouncy.gif',
     author: 'MtikeG',
     githubLink: 'https://github.com/MtikeG'
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
