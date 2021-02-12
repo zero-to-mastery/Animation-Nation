@@ -4867,6 +4867,12 @@ let cards = [
     author: 'MtikeG',
     githubLink: 'https://github.com/MtikeG'
   }
+  {
+    pageLink: '.Art/Szo89/index.html',
+    imageLink: '.Art/Szo89/animation.png',
+    author: 'Susana',
+    githubLink: 'https://github.com/Szo89'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
