@@ -4866,6 +4866,13 @@ let cards = [
     imageLink: './Art/MtikeB/Bouncy.gif',
     author: 'MtikeG',
     githubLink: 'https://github.com/MtikeG'
+  },
+  {
+    artName: 'Hello World',
+    pageLink: './Art/HelloWorldByEudin/index.html',
+    imageLink: './Art/HelloWorldByEudin/helloworld.gif',
+    author: 'Eudin',
+    githubLink: 'https://github.com/Eudinson'
   }
   {
     pageLink: '.Art/Szo89/index.html',
