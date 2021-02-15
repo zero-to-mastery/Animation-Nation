@@ -4880,6 +4880,12 @@ let cards = [
     author: 'Susana',
     githubLink: 'https://github.com/Szo89'
   }
+  {
+    pageLink: './Art/shake/index.html',
+    imageLink: './Art/shake/file.gif',
+    author: 'yoududecomposer',
+    githubLink: 'https://github.com/yourdudecomposer'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
