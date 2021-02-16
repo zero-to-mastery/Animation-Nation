@@ -4873,18 +4873,16 @@ let cards = [
     imageLink: './Art/HelloWorldByEudin/helloworld.gif',
     author: 'Eudin',
     githubLink: 'https://github.com/Eudinson'
-  }
+  },
   {
     pageLink: '.Art/Szo89/index.html',
     imageLink: '.Art/Szo89/animation.png',
     author: 'Susana',
     githubLink: 'https://github.com/Szo89'
-
   },
   {
-    artName: 'YoYo',
-    pageLink: './Art/AndyJacko/index.html',
-    imageLink: './Art/AndyJacko/yoyo.gif',
+    pageLink: '.Art/AndyJacko/index.html',
+    imageLink: '.Art/AndyJacko/yoyo.gif',
     author: 'Andy Jacko',
     githubLink: 'https://github.com/AndyJacko'
   }
