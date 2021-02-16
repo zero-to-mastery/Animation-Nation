@@ -4866,6 +4866,13 @@ let cards = [
     imageLink: './Art/MtikeB/Bouncy.gif',
     author: 'MtikeG',
     githubLink: 'https://github.com/MtikeG'
+  },
+  {
+    artName: 'YoYo',
+    pageLink: './Art/AndyJacko/index.html',
+    imageLink: './Art/AndyJacko/yoyo.gif',
+    author: 'Andy Jacko',
+    githubLink: 'https://github.com/AndyJacko'
   }
 ];
 

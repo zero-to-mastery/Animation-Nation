@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #F00, #000);
+}
+
+a, a:hover {
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 5px #000;
+    outline: 0 none;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes throw {
+    0%   {height:10vh;}
+    50%  {height:80vh;}
+    100% {height:10vh;}
+  }
+
+.string{
+    width:2px; 
+    height:10vh; 
+    border:1px solid #FF0; 
+    background: #FF0;
+    animation-name: throw;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.yoyo {
+    height: 90px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    height:90px;
+    width:45px;
+    border-radius: 0 90px 90px 0;
+    background:#FFF;
+}
+
+.baringleft{
+    width:3px; 
+    height:20px; 
+    border:1px solid #CCC; 
+    background:#CCC;
+}
+
+.baringstringcontainer {
+    height: 90px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.baringstring{
+    width:2px; 
+    height:55px; 
+    border:1px solid #FF0; 
+    background:#FF0;
+}
+
+.baringright{
+    width:3px; 
+    height:20px; 
+    border:1px solid #CCC; 
+    background:#CCC;
+}
+
+.right{
+    height:90px;
+    width:45px;
+    border-radius: 90px 0 0 90px;
+    background:#FFF;
+}
