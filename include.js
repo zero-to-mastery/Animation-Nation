@@ -4873,12 +4873,18 @@ let cards = [
     imageLink: './Art/HelloWorldByEudin/helloworld.gif',
     author: 'Eudin',
     githubLink: 'https://github.com/Eudinson'
-  }
+  },
   {
     pageLink: '.Art/Szo89/index.html',
     imageLink: '.Art/Szo89/animation.png',
     author: 'Susana',
     githubLink: 'https://github.com/Szo89'
+  },
+  {
+    pageLink: '.Art/nb89portfolio/index.html',
+    imageLink: '.Art/nb89portfolio/img.png',
+    author: 'Navraj Bains',
+    githubLink: 'https://github.com/nb89portfolio'
   }
 ];
 
