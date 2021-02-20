@@ -4873,12 +4873,19 @@ let cards = [
     imageLink: './Art/HelloWorldByEudin/helloworld.gif',
     author: 'Eudin',
     githubLink: 'https://github.com/Eudinson'
-  }
+  },
   {
     pageLink: '.Art/Szo89/index.html',
     imageLink: '.Art/Szo89/animation.png',
     author: 'Susana',
     githubLink: 'https://github.com/Szo89'
+  },
+  {
+    artName: 'Loading Eggs',
+    pageLink: '.Art/j-fraza/index.html',
+    imageLink: '.Art/j-fraza/TJSrTcKcmf.gif',
+    author: 'j-fraza',
+    githubLink: 'https://github.com/j-fraza'
   }
 ];
 

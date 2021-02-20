@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: hsl(262, 49%, 58%);
+}
+
+main {
+    display: flex;
+    perspective: 1000px;
+}
+
+main .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+    animation: animate 3s alternate infinite;
+    transform-style: preserve-3d;
+}
+
+@keyframes animate {
+    0% {
+        transform: scaleY(0) translateY(0px);
+    }
+    50% {
+        transform: scaleY(1) translateY(-100px);
+    }
+    75% {
+        transform: scaleY(1) translateY(-50px) rotateX(85deg);
+    }
+    100% {
+        transform: scaleY(0) translateY(0px) rotateX(90deg);
+    }
+    
+}
+
+main .container:nth-child(1) {
+    animation-fill-mode: both;
+    animation-delay: .2s;
+}
+
+main .container:nth-child(2) {
+    animation-fill-mode: both;
+    animation-delay: .4s;
+}
+
+main .container:nth-child(3) {
+    animation-fill-mode: both;
+    animation-delay: .6s;
+}
+
+main .container:nth-child(4) {
+    animation-fill-mode: both;
+    animation-delay: .8s;
+}
+
+main .container .yolk {
+    height: 25px;
+    width: 25px;
+    background: yellow;
+    border-radius: 50%;
+    box-shadow: 1px 1px 0px black,
+        inset -1px -1px 0px white;
+}
