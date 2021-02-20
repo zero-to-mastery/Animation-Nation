@@ -4879,6 +4879,13 @@ let cards = [
     imageLink: '.Art/Szo89/animation.png',
     author: 'Susana',
     githubLink: 'https://github.com/Szo89'
+  },
+  {
+    artName: 'Taiko no Tastujin',
+    pageLink: './Art/kirstymullen/index.html',
+    imageLink: './Art/kirstymullen/taiko.gif',
+    author: 'kirstymullen',
+    githubLink: 'https://github.com/kirstymullen'
   }
 ];
 
