@@ -4873,6 +4873,13 @@ let cards = [
     imageLink: './Art/HelloWorldByEudin/helloworld.gif',
     author: 'Eudin',
     githubLink: 'https://github.com/Eudinson'
+  },
+  {
+    artName: 'Color Square',
+    pageLink: './Art/angelGarciaSantos/index.html',
+    imageLink: './Art/angelGarciaSantos/square.png',
+    author: 'Angel',
+    githubLink: 'https://github.com/angelGarciaSantos'
   }
   {
     pageLink: '.Art/Szo89/index.html',
