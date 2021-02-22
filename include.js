@@ -4873,12 +4873,19 @@ let cards = [
     imageLink: './Art/HelloWorldByEudin/helloworld.gif',
     author: 'Eudin',
     githubLink: 'https://github.com/Eudinson'
-  }
+  },
   {
     pageLink: '.Art/Szo89/index.html',
     imageLink: '.Art/Szo89/animation.png',
     author: 'Susana',
     githubLink: 'https://github.com/Szo89'
+  },
+  {
+    artName: 'Infinite Loading',
+    pageLink: './Art/mishhubc/index.html',
+    imageLink: './Art/mishhubc/image.gif',
+    author: 'mishhubc',
+    githubLink: 'https://github.com/mishhubc'
   }
 ];
 
