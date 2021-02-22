@@ -4884,7 +4884,7 @@ let cards = [
     artName: 'Infinite Loading',
     pageLink: './Art/mishhubc/index.html',
     imageLink: './Art/mishhubc/image.gif',
-    author: 'mishhubc',
+    author: 'Mihai Jicu',
     githubLink: 'https://github.com/mishhubc'
   }
 ];
