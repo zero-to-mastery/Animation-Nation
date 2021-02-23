@@ -4880,6 +4880,12 @@ let cards = [
     author: 'Susana',
     githubLink: 'https://github.com/Szo89'
   }
+  {
+    pageLink: './Art/dieovitski/index.html',
+    imageLink: './Art/dieovitski/def.gif',
+    author: 'dieovitski',
+    githubLink: 'https://github.com/dieovitski'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
