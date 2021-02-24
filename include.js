@@ -4879,7 +4879,7 @@ let cards = [
     author: 'MtikeG',
     githubLink: 'https://github.com/MtikeG'
   },
-  
+
   {
     artName: 'Hello World',
     pageLink: './Art/HelloWorldByEudin/index.html',
@@ -4892,7 +4892,6 @@ let cards = [
     imageLink: '.Art/Szo89/animation.png',
     author: 'Susana',
     githubLink: 'https://github.com/Szo89'
-
   }
 ];
 
