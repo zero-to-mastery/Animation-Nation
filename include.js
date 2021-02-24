@@ -4905,6 +4905,12 @@ let cards = [
     author: 'Andy Jacko',
     githubLink: 'https://github.com/AndyJacko'
   }
+  {
+    pageLink: './Art/shake/index.html',
+    imageLink: './Art/shake/file.gif',
+    author: 'yoududecomposer',
+    githubLink: 'https://github.com/yourdudecomposer'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
