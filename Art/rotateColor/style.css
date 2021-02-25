@@ -1,0 +1,130 @@
+#top {
+  background: linear-gradient(90deg, var(--cambia-color, #ccc, #f90, yellow));
+  height: 100px;
+}
+#top:hover {
+	--cambia-color: red, green, blue;
+}
+
+/*p {
+  --i: var(--parity, 0);
+  color: hsl(240, 65%, calc(var(--i)*50%));
+  text-align: var(--parity, right);
+}
+p:nth-child(2n) { 
+	--parity: 1;
+}*/
+
+#div2 {
+	margin: 10px auto;
+	display: table;
+}
+#div2 p {
+	padding: 20px;
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+#div2 p:hover {
+	animation: giro-sobre-su-eje 2s infinite;
+}
+@keyframes giro-sobre-su-eje {
+	0% {
+		transform: rotateY(0deg);
+		background-color: red;
+	}
+	50% {
+			transform: rotateY(180deg);
+			background-color: yellow;
+	}
+	100% {
+		transform: rotateY(360deg);
+		background-color: red;
+	}
+}
+
+/* carousel */
+#body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  padding-top: 250px;
+}
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: animate 20s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: perspective(0px) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(1000px) rotateY(180deg);
+  }
+  100% {
+    transform: perspective(0px) rotateY(360deg);
+  }
+}
+
+.container span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform-origin: center;
+  transform: rotateY(calc(var(--i) * 30deg)) translateZ(400px);
+}
+.container span p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: yellow;
+}
+.eje, .eje2, .eje3, .eje4 {
+
+}
+.eje {
+	background-color: red;
+	width: 300px;
+    height: 600px;
+    position: absolute;
+    bottom: -250px;
+    transform-style: preserve-3d;
+}
+.eje2 {
+	background-color: green;
+	width: 300px;
+    height: 600px;
+    position: absolute;
+    transform: rotateY(45deg);
+    bottom: -250px;
+}
+.eje3 {
+	background-color: orange;
+	width: 300px;
+    height: 600px;
+    position: absolute;
+    transform: rotateY(90deg);
+    bottom: -250px;
+}
+.eje4 {
+	background-color: violet;
+	width: 300px;
+    height: 600px;
+    position: absolute;
+    transform: rotateY(135deg);
+    bottom: -250px;
+}

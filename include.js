@@ -4900,6 +4900,13 @@ let cards = [
     githubLink: 'https://github.com/Szo89'
   },
   {
+    artName: 'Rotate Hover Color',
+    pageLink: './Art/rotateColor/index.html',
+    imageLink: './Art/rotateColor/rotateColor.gif',
+    author: 'Luis',
+    githubLink: 'https://github.com/luigi970'
+  },
+  {
     artName: 'Sunset',
     pageLink: './Art/Catao_P/index.html',
     imageLink: './Art/Catao_P/sunset.gif',
