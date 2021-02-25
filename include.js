@@ -4861,19 +4861,38 @@ let cards = [
     githubLink: 'https://github.com/mohammadalnajar'
   },
   {
+    pageLink: '.Art/benji5656/index.html',
+    imageLink: '',
+    author: 'Benji',
+    githubLink: 'https://github.com/benji5656'
+  },
+  {
+    pageLink: './Art/AniNationSargi/index.html',
+    imageLink: './Art/AniNationSargi/alienGif.gif',
+    author: 'Sargsian',
+    githubLink: 'https://github.com/Sargsian'
+  },
+  {
+    pageLink: '.Art/Hekmundo/index.html',
+    imageLink: '.Art/Hekmundo/revolving-circles.gif',
+    author: 'Hekmundo',
+    githubLink: 'https://github.com/Hekmundo'
+  },
+  {
     artName: 'MtBounce',
     pageLink: './Art/MtikeB/index.html',
     imageLink: './Art/MtikeB/Bouncy.gif',
     author: 'MtikeG',
     githubLink: 'https://github.com/MtikeG'
   },
+
   {
     artName: 'Hello World',
     pageLink: './Art/HelloWorldByEudin/index.html',
     imageLink: './Art/HelloWorldByEudin/helloworld.gif',
     author: 'Eudin',
     githubLink: 'https://github.com/Eudinson'
-  }
+  },
   {
     pageLink: '.Art/Szo89/index.html',
     imageLink: '.Art/Szo89/animation.png',
@@ -4886,6 +4905,31 @@ let cards = [
     imageLink: './Art/rotateColor/rotateColor.gif',
     author: 'Luis',
     githubLink: 'https://github.com/luigi970'
+  },
+  {
+    artName: 'Sunset',
+    pageLink: './Art/Catao_P/index.html',
+    imageLink: './Art/Catao_P/sunset.gif',
+    author: 'Catao',
+    githubLink: 'https://github.com/Catao_P'
+  },
+  {
+    pageLink: './Art/Kwabena-Agyeman/index.html',
+    imageLink: './Art/Kwabena-Agyeman/project.GIF',
+    author: 'Kwabena-Agyeman',
+    githubLink: 'https://github.com/Kwabena-Agyeman'
+  },
+  {
+    pageLink: '.Art/AndyJacko/index.html',
+    imageLink: '.Art/AndyJacko/yoyo.gif',
+    author: 'Andy Jacko',
+    githubLink: 'https://github.com/AndyJacko'
+  },
+  {
+    pageLink: './Art/shake/index.html',
+    imageLink: './Art/shake/file.gif',
+    author: 'yoududecomposer',
+    githubLink: 'https://github.com/yourdudecomposer'
   }
 ];
 
