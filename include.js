@@ -4894,6 +4894,13 @@ let cards = [
     githubLink: 'https://github.com/Eudinson'
   },
   {
+    artName: 'Color Square',
+    pageLink: './Art/angelGarciaSantos/index.html',
+    imageLink: './Art/angelGarciaSantos/square.png',
+    author: 'Angel',
+    githubLink: 'https://github.com/angelGarciaSantos'
+  }
+  {
     pageLink: '.Art/Szo89/index.html',
     imageLink: '.Art/Szo89/animation.png',
     author: 'Susana',
