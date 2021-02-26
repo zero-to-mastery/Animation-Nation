@@ -4907,7 +4907,14 @@ let cards = [{
     imageLink: '.Art/Szo89/animation.png',
     author: 'Susana',
     githubLink: 'https://github.com/Szo89'
-  }
+  },
+  {
+    artName: "Optimistic",
+    pageLink: './Art/RichKen/index.html',
+    imageLink: './Art/RichKen/optimistic.gif',
+    author: 'RichKen',
+    githubLink: 'https://github.com/RichardKentos'
+  },
   {
     pageLink: './Art/dieovitski/index.html',
     imageLink: './Art/dieovitski/def.gif',
