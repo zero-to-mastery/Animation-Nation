@@ -4909,6 +4909,12 @@ let cards = [{
     githubLink: 'https://github.com/Szo89'
   }
   {
+    pageLink: './Art/dieovitski/index.html',
+    imageLink: './Art/dieovitski/def.gif',
+    author: 'dieovitski',
+    githubLink: 'https://github.com/dieovitski'
+  },
+  {
     pageLink: '.Art/Rcj1/index.html',
     imageLink: '.Art/Rcj1/animated.gif',
     author: 'Rcj1',
