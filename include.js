@@ -4907,6 +4907,12 @@ let cards = [{
     imageLink: '.Art/Szo89/animation.png',
     author: 'Susana',
     githubLink: 'https://github.com/Szo89'
+  }
+  {
+    pageLink: '.Art/Rcj1/index.html',
+    imageLink: '.Art/Rcj1/animated.gif',
+    author: 'Rcj1',
+    githubLink: 'https://github.com/rcj1'
   },
   {
     artName: 'Infinite Loading',
