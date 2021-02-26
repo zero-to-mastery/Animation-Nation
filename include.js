@@ -4899,12 +4899,19 @@ let cards = [
     imageLink: './Art/angelGarciaSantos/square.png',
     author: 'Angel',
     githubLink: 'https://github.com/angelGarciaSantos'
-  }
+  },
   {
     pageLink: '.Art/Szo89/index.html',
     imageLink: '.Art/Szo89/animation.png',
     author: 'Susana',
     githubLink: 'https://github.com/Szo89'
+  },
+  {
+    artName: 'Loading Eggs',
+    pageLink: '.Art/j-fraza/index.html',
+    imageLink: '.Art/j-fraza/TJSrTcKcmf.gif',
+    author: 'j-fraza',
+    githubLink: 'https://github.com/j-fraza'
   },
   {
     artName: 'Taiko no Tastujin',
