@@ -1,0 +1,152 @@
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        align-content: center;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .container {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(125, 218, 255);
+        border-color: black;
+        padding: 1px;
+    }
+    
+    #blue {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 150px;
+        height: 200px;
+        /* animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
+        animation: bounceBlue 8s linear 0s infinite normal;
+        animation-fill-mode: both;
+        /*prevezme vlastnosti z keyframu - tzn. ze napr. pri loadu bude opacity 0 a ne 1*/
+    }
+    
+    #white {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 300px;
+        height: 100px;
+        animation: bounceWhite 8s linear 0s infinite normal;
+        animation-fill-mode: both;
+    }
+    
+    #red {
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 300px;
+        height: 100px;
+        animation: bounceRed 8s linear 0s infinite normal;
+        animation-fill-mode: both;
+    }
+    
+    p {
+        width: 100%;
+        margin: 0;
+        padding: 1%;
+        position: relative;
+        top: 230px;
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 180%;
+        text-shadow: 3px 3px rgb(255, 255, 255);
+        animation: bounceInHeader 8s linear 0s infinite normal;
+        animation-fill-mode: both;
+    }
+    
+    @keyframes bounceBlue {
+        0% {
+            transform: scale(0.0);
+            opacity: 0;
+            left: -300px;
+            top: 0px;
+        }
+        50% {
+            transform: scale(1);
+            opacity: 1;
+            left: 0px;
+            top: 0px;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    
+    @keyframes bounceRed {
+        0% {
+            transform: scale(0.0);
+            opacity: 0;
+            left: 300px;
+            top: 100px;
+        }
+        50% {
+            transform: scale(1);
+            opacity: 1;
+            left: 0px;
+            top: 100px;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+            left: 0px;
+            top: 100px;
+        }
+    }
+    
+    @keyframes bounceWhite {
+        0% {
+            transform: scale(0.0);
+            opacity: 0;
+            left: 0px;
+            top: -100px;
+        }
+        50% {
+            transform: scale(1);
+            opacity: 1;
+            left: 0px;
+            top: 0px;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    
+    @keyframes bounceInHeader {
+        0% {
+            transform: scale(0.0);
+            opacity: 0;
+        }
+        30% {
+            transform: scale(0.1);
+            opacity: 0.1;
+        }
+        70% {
+            transform: scale(1.2);
+            opacity: 0.5;
+        }
+        80% {
+            transform: scale(1);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
