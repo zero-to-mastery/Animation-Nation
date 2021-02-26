@@ -4811,78 +4811,156 @@ let cards = [{
         author: 'Alida',
         githubLink: 'https://github.com/adiphoorn'
     },
-
-    {
-        artName: 'Heartbeat',
-        pageLink: './Art/CheyJax116/heartbeat.html',
-        imgeLink: './Art/CheyJax116/heartbeat.gif',
-        author: 'CheyJax116',
-        githubLink: 'https://github.com/cheyjax116'
-    },
-    {
-        pageLink: './Art/Aliedje/index.html',
-        imgeLink: './Art/Aliedje/test.png',
-        author: 'Alida',
-        githubLink: 'https://github.com/adiphoorn'
-    },
-    {
-        pageLink: './Art/bouncingMoon/index.html',
-        imageLink: './Art/bouncingMoon/bouncingMoon.png',
-        author: 'Radu-Stroe',
-        githubLink: 'https://github.com/Radu-Stroe'
-    },
-    {
-        artName: 'Use the Force',
-        pageLink: './Art/ptreuden/index.html',
-        imageLink: './Art/ptreuden/useTheForce.gif',
-        author: 'ptreuden',
-        githubLink: 'https://github.com/ptreuden'
-    },
-    {
-        artName: 'css_typer',
-        pageLink: './Art/Joy/css-typer/index.html',
-        imageLink: './Art/Joy/css-typer/typing_animate.gif',
-        author: 'Trey',
-        githubLink: 'https://github.com/shanks-t'
-    },
-    {
-        pageLink: './Art/Joy/Amiel-Art/index.html',
-        imageLink: './Art/Joy/Amiel-Art/screenshot.png',
-        author: 'Amiel',
-        githubLink: 'https://github.com/trinidadamiel'
-    },
-    {
-        pageLink: './Art/alnajarAnimation/index.html',
-        imageLink: './Art/alnajarAnimation/animate.gif.gif',
-        author: 'Mohammad',
-        githubLink: 'https://github.com/mohammadalnajar'
-    },
-    {
-        artName: 'MtBounce',
-        pageLink: './Art/MtikeB/index.html',
-        imageLink: './Art/MtikeB/Bouncy.gif',
-        author: 'MtikeG',
-        githubLink: 'https://github.com/MtikeG'
-    },
-    {
-        artName: 'Hello World',
-        pageLink: './Art/HelloWorldByEudin/index.html',
-        imageLink: './Art/HelloWorldByEudin/helloworld.gif',
-        author: 'Eudin',
-        githubLink: 'https://github.com/Eudinson'
-    },
-    {
-        pageLink: '.Art/Szo89/index.html',
-        imageLink: '.Art/Szo89/animation.png',
-        author: 'Susana',
-        githubLink: 'https://github.com/Szo89'
-    },
     {
         pageLink: './Art/JanRolenc/indexMyArt.html',
         imageLink: './Art/JanRolenc/myArt.gif',
         author: 'Jan_Rolenc',
         githubLink: 'https://github.com/JanRolenc'
-    }
+    },
+  {
+    artName: 'Heartbeat',
+    pageLink: './Art/CheyJax116/heartbeat.html',
+    imgeLink: './Art/CheyJax116/heartbeat.gif',
+    author: 'CheyJax116',
+    githubLink: 'https://github.com/cheyjax116'
+  },
+  {
+    pageLink: './Art/Aliedje/index.html',
+    imgeLink: './Art/Aliedje/test.png',
+    author: 'Alida',
+    githubLink: 'https://github.com/adiphoorn'
+  },
+  {
+    pageLink: './Art/bouncingMoon/index.html',
+    imageLink: './Art/bouncingMoon/bouncingMoon.png',
+    author: 'Radu-Stroe',
+    githubLink: 'https://github.com/Radu-Stroe'
+  },
+  {
+    artName: 'Use the Force',
+    pageLink: './Art/ptreuden/index.html',
+    imageLink: './Art/ptreuden/useTheForce.gif',
+    author: 'ptreuden',
+    githubLink: 'https://github.com/ptreuden'
+  },
+  {
+    artName: 'css_typer',
+    pageLink: './Art/Joy/css-typer/index.html',
+    imageLink: './Art/Joy/css-typer/typing_animate.gif',
+    author: 'Trey',
+    githubLink: 'https://github.com/shanks-t'
+  },
+  {
+    pageLink: './Art/Joy/Amiel-Art/index.html',
+    imageLink: './Art/Joy/Amiel-Art/screenshot.png',
+    author: 'Amiel',
+    githubLink: 'https://github.com/trinidadamiel'
+  },
+  {
+    pageLink: './Art/alnajarAnimation/index.html',
+    imageLink: './Art/alnajarAnimation/animate.gif.gif',
+    author: 'Mohammad',
+    githubLink: 'https://github.com/mohammadalnajar'
+  },
+  {
+    pageLink: '.Art/benji5656/index.html',
+    imageLink: '',
+    author: 'Benji',
+    githubLink: 'https://github.com/benji5656'
+  },
+  {
+    pageLink: './Art/AniNationSargi/index.html',
+    imageLink: './Art/AniNationSargi/alienGif.gif',
+    author: 'Sargsian',
+    githubLink: 'https://github.com/Sargsian'
+  },
+  {
+    pageLink: '.Art/Hekmundo/index.html',
+    imageLink: '.Art/Hekmundo/revolving-circles.gif',
+    author: 'Hekmundo',
+    githubLink: 'https://github.com/Hekmundo'
+  },
+  {
+    artName: 'MtBounce',
+    pageLink: './Art/MtikeB/index.html',
+    imageLink: './Art/MtikeB/Bouncy.gif',
+    author: 'MtikeG',
+    githubLink: 'https://github.com/MtikeG'
+  },
+
+  {
+    artName: 'Hello World',
+    pageLink: './Art/HelloWorldByEudin/index.html',
+    imageLink: './Art/HelloWorldByEudin/helloworld.gif',
+    author: 'Eudin',
+    githubLink: 'https://github.com/Eudinson'
+  },
+  {
+    artName: 'Color Square',
+    pageLink: './Art/angelGarciaSantos/index.html',
+    imageLink: './Art/angelGarciaSantos/square.png',
+    author: 'Angel',
+    githubLink: 'https://github.com/angelGarciaSantos'
+  },
+  {
+    pageLink: '.Art/Szo89/index.html',
+    imageLink: '.Art/Szo89/animation.png',
+    author: 'Susana',
+    githubLink: 'https://github.com/Szo89'
+  },
+  {
+    artName: 'Infinite Loading',
+    pageLink: './Art/mishhubc/index.html',
+    imageLink: './Art/mishhubc/image.gif',
+    author: 'Mihai Jicu',
+    githubLink: 'https://github.com/mishhubc'
+  },
+  {
+    artName: 'Loading Eggs',
+    pageLink: '.Art/j-fraza/index.html',
+    imageLink: '.Art/j-fraza/TJSrTcKcmf.gif',
+    author: 'j-fraza',
+    githubLink: 'https://github.com/j-fraza'
+  },
+  {
+    artName: 'Taiko no Tastujin',
+    pageLink: './Art/kirstymullen/index.html',
+    imageLink: './Art/kirstymullen/taiko.gif',
+    author: 'kirstymullen',
+    githubLink: 'https://github.com/kirstymullen'
+  },
+  {
+    artName: 'Rotate Hover Color',
+    pageLink: './Art/rotateColor/index.html',
+    imageLink: './Art/rotateColor/rotateColor.gif',
+    author: 'Luis',
+    githubLink: 'https://github.com/luigi970'
+  },
+  {
+    artName: 'Sunset',
+    pageLink: './Art/Catao_P/index.html',
+    imageLink: './Art/Catao_P/sunset.gif',
+    author: 'Catao',
+    githubLink: 'https://github.com/Catao_P'
+  },
+  {
+    pageLink: './Art/Kwabena-Agyeman/index.html',
+    imageLink: './Art/Kwabena-Agyeman/project.GIF',
+    author: 'Kwabena-Agyeman',
+    githubLink: 'https://github.com/Kwabena-Agyeman'
+  },
+  {
+    pageLink: '.Art/AndyJacko/index.html',
+    imageLink: '.Art/AndyJacko/yoyo.gif',
+    author: 'Andy Jacko',
+    githubLink: 'https://github.com/AndyJacko'
+  },
+  {
+    pageLink: './Art/shake/index.html',
+    imageLink: './Art/shake/file.gif',
+    author: 'yoududecomposer',
+    githubLink: 'https://github.com/yourdudecomposer'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
