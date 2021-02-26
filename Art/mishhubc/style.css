@@ -1,39 +1,59 @@
-.center{
-  background-color:rgba(0,0,0,0.7);
-height:400px;
-  color:white;
-  text-align:center;
-  padding:30px;
-  
-  display:flex;
-  justify-content:center;
-    align-items:center;
-}
-.loading{
-  font-size:40px;
-    margin-right:20px;
-    animation: myfirst 5s linear 2s infinite alternate;
-}
+.center {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 400px;
+  color: white;
+  text-align: center;
+  padding: 30px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading {
+  font-size: 40px;
+  margin-right: 20px;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
 
 @keyframes myfirst {
-  0%   {background-color:red; left:0px; top:0px;
-  border-radius:5px;   padding:10px;}
-  25%  {background-color:yellow; left:200px; top:0px;
-    border-radius:5px;   padding:10px;}
-  50%  {background-color:blue; left:200px; top:200px;  border-radius:5px;  padding:10px;
-    border-radius:5px;
-    padding:10px;
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    padding: 10px;
   }
-  75%  {background-color:green; left:0px; top:200px;
-    border-radius:5px;}
-  100% {background-color:red; left:0px; top:0px;
-    border-radius:5px;}
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+    border-radius: 5px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+  }
 }
 
-
 .lds-spinner {
- 
   color: official;
   display: inline-block;
   position: relative;
@@ -45,7 +65,7 @@ height:400px;
   animation: lds-spinner 1.2s linear infinite;
 }
 .lds-spinner div:after {
-  content: " ";
+  content: ' ';
   display: block;
   position: absolute;
   top: 3px;
