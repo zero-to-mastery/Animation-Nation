@@ -4900,6 +4900,13 @@ let cards = [
     githubLink: 'https://github.com/Szo89'
   },
   {
+    artName: 'Taiko no Tastujin',
+    pageLink: './Art/kirstymullen/index.html',
+    imageLink: './Art/kirstymullen/taiko.gif',
+    author: 'kirstymullen',
+    githubLink: 'https://github.com/kirstymullen'
+  },
+  {
     artName: 'Rotate Hover Color',
     pageLink: './Art/rotateColor/index.html',
     imageLink: './Art/rotateColor/rotateColor.gif',
