@@ -4979,7 +4979,15 @@ let cards = [{
     imageLink: './Art/shake/file.gif',
     author: 'yoududecomposer',
     githubLink: 'https://github.com/yourdudecomposer'
+  },
+
+  {
+    pageLink: './Art/circle-animation/index.html',
+    imageLink: './Art/circle-animation/animate.gif',
+    author: 'Vimal',
+    githubLink: 'https://github.com/vimalraveendra'
   }
+  
 ];
 
 // +--------------------------------------------------------------------------------+
