@@ -4907,6 +4907,13 @@ let cards = [
     githubLink: 'https://github.com/Szo89'
   },
   {
+    artName: 'Infinite Loading',
+    pageLink: './Art/mishhubc/index.html',
+    imageLink: './Art/mishhubc/image.gif',
+    author: 'Mihai Jicu',
+    githubLink: 'https://github.com/mishhubc'
+  },
+  {
     artName: 'Loading Eggs',
     pageLink: '.Art/j-fraza/index.html',
     imageLink: '.Art/j-fraza/TJSrTcKcmf.gif',
