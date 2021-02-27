@@ -4912,6 +4912,12 @@ let cards = [
     githubLink: 'https://github.com/Szo89'
   },
   {
+    pageLink: './Art/Harish/index.html',
+    imageLink: './Art/Harish/gif.gif',
+    author: 'Harish',
+    githubLink: 'https://github.com/hkxx843'
+  },
+  {
     pageLink: '.Art/nb89portfolio/index.html',
     imageLink: '.Art/nb89portfolio/img.png',
     author: 'Navraj Bains',
