@@ -4989,7 +4989,14 @@ let cards = [
     imageLink: './Art/circle-animation/animate.gif',
     author: 'Vimal',
     githubLink: 'https://github.com/vimalraveendra'
-  }
+  },
+    {
+      artName: 'VN Luan Animation',
+      pageLink: './Art/LuanAnimation/index.html',
+      imageLink: './Art/LuanAnimation/animation.gif',
+      author: 'Luan2907',
+      githubLink: 'https://github.com/luancauthu2907'
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
