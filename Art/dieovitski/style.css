@@ -1,4 +1,4 @@
-.gif1{
+.gif1 {
   margin: 10px 820px;
 }
 .container {
@@ -31,8 +31,12 @@
 }
 
 @keyframes slider {
-  0% { transform: translateX(0) }
-  100% { transform: translateX(-100%) }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 @keyframes col {
