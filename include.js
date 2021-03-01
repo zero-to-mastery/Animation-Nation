@@ -5008,6 +5008,14 @@ let cards = [
     imageLink: './Art/LuanAnimation/animation.gif',
     author: 'Luan2907',
     githubLink: 'https://github.com/luancauthu2907'
+  },
+
+  {
+    artName: 'My-Animrr',
+    pageLink: './Art/My-AnimRR/index.html',
+    imageLink: './Art/My-AnimRR/BackGround.gif',
+    author: 'Roshan',
+    githubLink: 'https://github.com/roshanamjad'
   }
 ];
 
