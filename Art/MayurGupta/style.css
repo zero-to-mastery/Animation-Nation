@@ -1,0 +1,35 @@
+body
+	{
+		background-color: rgb(0, 214, 218);
+		background-size: cover;
+		overflow: hidden;
+	}
+
+#panda
+	{
+		position: relative;
+		top: 300px;
+		background: url("Panda.png"); 
+		width :250px;
+		height: 330px;		
+		animation: walking_animation 1s steps(12) infinite,move_forward 8s linear infinite;	
+	}
+
+#street
+	{
+		position: relative;
+		top: 300px;
+		border-bottom: 5px groove green;
+	}
+
+@keyframes walking_animation
+	{
+		0%{background-position: 0px;}
+		100%{background-position: 3000px;}
+	}
+
+@keyframes move_forward
+	{
+		0%{transform:translateX(-100px);}
+		100%{transform:translateX(1366px);}
+	}
