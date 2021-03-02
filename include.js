@@ -5003,6 +5003,7 @@ let cards = [
     githubLink: 'https://github.com/vimalraveendra'
   },
   {
+
     artName: 'VN Luan Animation',
     pageLink: './Art/LuanAnimation/index.html',
     imageLink: './Art/LuanAnimation/animation.gif',
@@ -5010,9 +5011,14 @@ let cards = [
     githubLink: 'https://github.com/luancauthu2907'
   },
 
-  {
-    artName: 'My-Animrr',
-    pageLink: './Art/My-AnimRR/index.html',
+    artName: 'Fade Loading',
+    pageLink: './Art/HuePham/index.html',
+    imageLink: './Art/HuePham/loading.gif',
+    author: 'Hue Pham',
+    githubLink: 'https://github.com/hue113'
+   {
+     artName: 'My-Animrr',
+     pageLink: './Art/My-AnimRR/index.html',
     imageLink: './Art/My-AnimRR/BackGround.gif',
     author: 'Roshan',
     githubLink: 'https://github.com/roshanamjad'
