@@ -5008,7 +5008,17 @@ let cards = [
     imageLink: './Art/HuePham/loading.gif',
     author: 'Hue Pham',
     githubLink: 'https://github.com/hue113'
-  }
+  },
+  let cards = [
+    //  Add your card in this section
+    {
+      artName: 'ONLY CSS 3D CUBE',
+      pageLink: './Art/Milind/index.html',
+      imageLink: './Art/Milind/magic.gif',
+      author: 'Milind Pawar',
+      githubLink: 'https://github.com/milindpawar007'
+    }
+  ]
 ];
 
 // +--------------------------------------------------------------------------------+
