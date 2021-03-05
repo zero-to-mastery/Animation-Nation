@@ -5008,6 +5008,13 @@ let cards = [
     imageLink: './Art/HuePham/loading.gif',
     author: 'Hue Pham',
     githubLink: 'https://github.com/hue113'
+  },
+  {
+    artName: 'Bouncing Ball',
+    pageLink: './Art/surajondev/index.html',
+    imageLink: './Art/surajondev/animation.gif',
+    author: 'Suraj Vishwakarma',
+    githubLink: 'https://github.com/surajondev'
   }
 ];
 
