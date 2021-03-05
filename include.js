@@ -5009,6 +5009,13 @@ let cards = [
     author: 'Hue Pham',
     githubLink: 'https://github.com/hue113'
   }
+  {
+    artName: 'Animated Bike Wheels',
+    pageLink: './Art/Animated-Bike-Wheels/index.html',
+    imageLink: './Art/Animated-Bike-Wheels/bike.gif',
+    author: 'Joey Kyber',
+    githubLink: 'https://github.com/jtkyber'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
