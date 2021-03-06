@@ -5008,6 +5008,13 @@ let cards = [
     imageLink: './Art/HuePham/loading.gif',
     author: 'Hue Pham',
     githubLink: 'https://github.com/hue113'
+  },
+  {
+    artName: 'Testanimation'
+    pageLink: './Art/Joy/Testanimation/index.html',
+    imageLink: './Art/Joy/triangle/cloud.gif',
+    author: 'Toby',
+    githubLink: 'https://github.com/tobybase'
   }
 ];
 
