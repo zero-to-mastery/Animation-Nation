@@ -15,7 +15,7 @@
 
 @keyframes stretch {
   0% {
-    transform: scale(.3);
+    transform: scale(0.3);
     background-color: red;
     border-radius: 100%;
   }
