@@ -5009,16 +5009,19 @@ let cards = [
     author: 'Hue Pham',
     githubLink: 'https://github.com/hue113'
   },
-  let cards = [
-    //  Add your card in this section
-    {
-      artName: 'ONLY CSS 3D CUBE',
-      pageLink: './Art/Milind/index.html',
-      imageLink: './Art/Milind/magic.gif',
-      author: 'Milind Pawar',
-      githubLink: 'https://github.com/milindpawar007'
-    }
-  ]
+  {
+    artName: 'ONLY CSS 3D CUBE',
+    pageLink: './Art/Milind/index.html',
+    imageLink: './Art/Milind/magic.gif',
+    author: 'Milind Pawar',
+    githubLink: 'https://github.com/milindpawar007'
+  },
+  {
+    pageLink: './Art/circle2square/index.html',
+    imageLink: './Art/circle2square/csdojo.gif',
+    author: 'csdojo',
+    githubLink: 'https://github.com/csdojo'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
