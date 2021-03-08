@@ -1,9 +1,16 @@
+* {
+  margin: 0;
+}
+
 .full-bike {
     height: 100vh;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("mountains.jpg");
+    background-size: cover;
+    overflow: hidden;
 }
 
 .bike {
@@ -12,29 +19,27 @@
     height: auto;
     z-index: 2;
     background-color: transparent;
+    margin-top: 26.8rem;
 }
 
 .wheel {
+    position: absolute;
     width: 290px;
     height: auto;
+    margin-top: 39.8rem;
 }
 
 .wheel.front {
-    position: absolute;
     margin-right: 33rem;
-    margin-top: 13.5rem;
     z-index: 1;
     background-color: transparent;
     animation: rotation1 1s infinite linear;
 }
 
 .wheel.rear {
-    position: absolute;
     margin-left: 32rem;
-    margin-top: 13.5rem;
     z-index: 1;
     background-color: transparent;
-    transform: rotate(130deg);
     animation: rotation2 1s infinite linear;
 }
 
