@@ -1,0 +1,54 @@
+body{
+    margin: auto 0;
+    padding: 0px;
+    display: flex;
+    align-items: flex-end;
+    transition: 3s;
+    height: 100vh;
+}
+.red{
+    flex: 1;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 3s; 
+    animation-timing-function: linear; 
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running; 
+}
+@keyframes stretch{
+    0%{
+        height: 50vh;
+    }
+    100%{
+        height: 100vh;
+    }
+}
+.green{
+    flex: 1;
+    background-color: blue;
+    height: 50vh;
+    animation-name: stretch;
+    animation-duration: 3s; 
+    animation-timing-function: linear; 
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running; 
+}
+.blue{
+    flex: 1;
+    background-color: green;
+    height: 50vh;
+    animation-name: stretch;
+    animation-duration: 3s; 
+    animation-timing-function: linear; 
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running; 
+}
