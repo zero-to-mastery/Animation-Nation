@@ -5029,6 +5029,12 @@ let cards = [
     author: 'csdojo',
     githubLink: 'https://github.com/csdojo'
   }
+  {
+    pageLink: './Art/wave/index.html',
+    imageLink: './Art/wave/wave.gif',
+    author: 'Shmuly Itzkowitz',
+    githubLink: 'https://github.com/shmulyitz'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
