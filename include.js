@@ -5028,7 +5028,13 @@ let cards = [
     imageLink: './Art/circle2square/csdojo.gif',
     author: 'csdojo',
     githubLink: 'https://github.com/csdojo'
-  }
+  },
+  {
+    artName: 'Kudrat_M',
+    pageLink: './Art/Kudrat_M/index.html',
+    author: 'Kudrat M',
+    githubLink: 'https://github.com/kudratmullani'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+

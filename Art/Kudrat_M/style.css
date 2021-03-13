@@ -1,0 +1,24 @@
+.box {
+    width: 250px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    position: relative;
+    padding: auto;  
+  }
+  
+  #item1 {
+    animation: animi1 1s ease-out infinite alternate;}
+    
+  #item2 {
+    animation: animi2 1s ease-in infinite alternate;}
+ 
+  @keyframes animi1 {
+    0%   {background-color:red; left:0px; top:0px;}
+    100%  {background-color:yellow; left:800px; top:0px;}
+  }
+  @keyframes animi2 {
+      0% {background-color:yellow; left:0px; top:0px;}
+    100%  {background-color:green; left:0px; top:500px;}
+  }
