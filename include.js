@@ -5028,7 +5028,14 @@ let cards = [
     imageLink: './Art/circle2square/csdojo.gif',
     author: 'csdojo',
     githubLink: 'https://github.com/csdojo'
-  }
+  },
+  {
+    artName: 'Amazing Animation',
+    pageLink: './Art/Kira_Animation/index.html',
+    imageLink: './Art/Kira_Animation/image.gif',
+    author: 'Asad Khan',
+    githubLink: 'https://github.com/kira00007'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
