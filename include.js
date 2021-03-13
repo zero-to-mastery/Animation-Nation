@@ -5035,7 +5035,7 @@ let cards = [
     imageLink: './Art/Kira_Animation/image.gif',
     author: 'Asad Khan',
     githubLink: 'https://github.com/kira00007'
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
