@@ -1,0 +1,57 @@
+body {
+    animation-name: colours;
+    transition: all ease-in-out;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes colours {
+    0% {
+        background-color: rgb(24, 4, 209);    
+    }
+    100% {
+      background-color: rgb(81, 206, 255);
+    }
+  }
+  
+  .container {
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .expand {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    animation-name: circle;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: none;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
+  
+  @keyframes circle {
+    0% {
+      transform: scale(0.2);
+      background-color: rgb(255, 244, 144);
+      border-radius: 100%;
+    }
+    30% {
+      background-color: rgb(251, 255, 0);
+    }
+    60% {
+     transform: scale(1.5);
+      background-color: rgb(255, 187, 0);
+    }
+    100% {
+      transform: scale(1.5);
+      background-color:rgb(255, 145, 0);
+    }
+  }
+  

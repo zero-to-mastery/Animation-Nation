@@ -5009,6 +5009,12 @@ let cards = [
     author: 'Luan2907',
     githubLink: 'https://github.com/luancauthu2907'
   }
+  {
+    pageLink: './Art/GloriBird/index.html',
+    imageLink: './Art/GloriBird/GloriBird.gif',
+    author: 'GloriBird',
+    githubLink: 'https://github.com/GloriBird'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
