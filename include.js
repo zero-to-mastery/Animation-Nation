@@ -5010,7 +5010,7 @@ let cards = [
     githubLink: 'https://github.com/luancauthu2907'
   }
   {
-    pageLink: './Art/Deep_Breaths/index.html',
+    pageLink: './Art/DeepBreaths/index.html',
     imageLink: './Art/GloriBird/Expand.gif',
     author: 'GloriBird',
     githubLink: 'https://github.com/GloriBird'
