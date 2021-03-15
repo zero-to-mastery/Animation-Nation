@@ -5011,10 +5011,30 @@ let cards = [
   },
   {
     artName: 'Testanimation'
-    pageLink: './Art/Joy/Testanimation/index.html',
-    imageLink: './Art/Joy/triangle/cloud.gif',
+    pageLink: './Art/Testanimation/index.html',
+    imageLink: './Art/Testanimation/cloud.gif',
     author: 'Toby',
     githubLink: 'https://github.com/tobybase'
+  },
+  {
+    artName: 'Bouncing Ball',
+    pageLink: './Art/surajondev/index.html',
+    imageLink: './Art/surajondev/animation.gif',
+    author: 'Suraj Vishwakarma',
+    githubLink: 'https://github.com/surajondev'
+  },
+  {
+    artName: 'ONLY CSS 3D CUBE',
+    pageLink: './Art/Milind/index.html',
+    imageLink: './Art/Milind/magic.gif',
+    author: 'Milind Pawar',
+    githubLink: 'https://github.com/milindpawar007'
+  },
+  {
+    pageLink: './Art/circle2square/index.html',
+    imageLink: './Art/circle2square/csdojo.gif',
+    author: 'csdojo',
+    githubLink: 'https://github.com/csdojo'
   }
 ];
 
