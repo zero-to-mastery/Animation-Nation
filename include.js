@@ -5029,6 +5029,13 @@ let cards = [
     author: 'csdojo',
     githubLink: 'https://github.com/csdojo'
   }
+
+  {
+    pageLink: '.Art/Little-Animation/index.html',
+    imageLink: '.Art/Little-Animation/little-animation-gif.gif',
+    author: 'Bakhtiar',
+    githubLink: 'https://github.com/bakhtiarabid'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
