@@ -1,0 +1,27 @@
+html {
+	background-color: snow;
+
+}
+
+h1 {
+	color: gold;
+	font-size: 44px;
+}
+
+h2 {
+	color: snow;
+	font-size:32px;
+}
+
+h3 {
+	color: cornflowerblue;
+	font-size: 26px;
+}
+
+.box {
+	border-radius: 50px;
+	background-color: black; 
+	display: block;
+	text-align: center;
+	width: 50%;
+}
