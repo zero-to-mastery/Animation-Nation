@@ -4814,7 +4814,12 @@ let cards = [
     author: 'Alida',
     githubLink: 'https://github.com/adiphoorn'
   },
-
+  {
+    pageLink: './Art/JanRolenc/indexMyArt.html',
+    imageLink: './Art/JanRolenc/myArt.gif',
+    author: 'Jan_Rolenc',
+    githubLink: 'https://github.com/JanRolenc'
+  },
   {
     artName: 'Heartbeat',
     pageLink: './Art/CheyJax116/heartbeat.html',
@@ -4861,12 +4866,31 @@ let cards = [
     githubLink: 'https://github.com/mohammadalnajar'
   },
   {
+    pageLink: '.Art/benji5656/index.html',
+    imageLink: '',
+    author: 'Benji',
+    githubLink: 'https://github.com/benji5656'
+  },
+  {
+    pageLink: './Art/AniNationSargi/index.html',
+    imageLink: './Art/AniNationSargi/alienGif.gif',
+    author: 'Sargsian',
+    githubLink: 'https://github.com/Sargsian'
+  },
+  {
+    pageLink: '.Art/Hekmundo/index.html',
+    imageLink: '.Art/Hekmundo/revolving-circles.gif',
+    author: 'Hekmundo',
+    githubLink: 'https://github.com/Hekmundo'
+  },
+  {
     artName: 'MtBounce',
     pageLink: './Art/MtikeB/index.html',
     imageLink: './Art/MtikeB/Bouncy.gif',
     author: 'MtikeG',
     githubLink: 'https://github.com/MtikeG'
   },
+
   {
     artName: 'Hello World',
     pageLink: './Art/HelloWorldByEudin/index.html',
@@ -4875,17 +4899,139 @@ let cards = [
     githubLink: 'https://github.com/Eudinson'
   },
   {
+    artName: 'Color Square',
+    pageLink: './Art/angelGarciaSantos/index.html',
+    imageLink: './Art/angelGarciaSantos/square.png',
+    author: 'Angel',
+    githubLink: 'https://github.com/angelGarciaSantos'
+  },
+  {
     pageLink: '.Art/Szo89/index.html',
     imageLink: '.Art/Szo89/animation.png',
     author: 'Susana',
     githubLink: 'https://github.com/Szo89'
   },
-  { 
+  {
+    pageLink: './Art/Harish/index.html',
+    imageLink: './Art/Harish/gif.gif',
+    author: 'Harish',
+    githubLink: 'https://github.com/hkxx843'
+  },
+  {
+    pageLink: '.Art/nb89portfolio/index.html',
+    imageLink: '.Art/nb89portfolio/img.png',
+    author: 'Navraj Bains',
+    githubLink: 'https://github.com/nb89portfolio'
+  },
+  {
+    artName: 'Optimistic',
+    pageLink: './Art/RichKen/index.html',
+    imageLink: './Art/RichKen/optimistic.gif',
+    author: 'RichKen',
+    githubLink: 'https://github.com/RichardKentos'
+  },
+  {
+    pageLink: './Art/dieovitski/index.html',
+    imageLink: './Art/dieovitski/def.gif',
+    author: 'dieovitski',
+    githubLink: 'https://github.com/dieovitski'
+  },
+  {
+    pageLink: '.Art/Rcj1/index.html',
+    imageLink: '.Art/Rcj1/animated.gif',
+    author: 'Rcj1',
+    githubLink: 'https://github.com/rcj1'
+  },
+  {
+    artName: 'Infinite Loading',
+    pageLink: './Art/mishhubc/index.html',
+    imageLink: './Art/mishhubc/image.gif',
+    author: 'Mihai Jicu',
+    githubLink: 'https://github.com/mishhubc'
+  },
+  {
+    artName: 'Loading Eggs',
+    pageLink: '.Art/j-fraza/index.html',
+    imageLink: '.Art/j-fraza/TJSrTcKcmf.gif',
+    author: 'j-fraza',
+    githubLink: 'https://github.com/j-fraza'
+  },
+  {
+    artName: 'Taiko no Tastujin',
+    pageLink: './Art/kirstymullen/index.html',
+    imageLink: './Art/kirstymullen/taiko.gif',
+    author: 'kirstymullen',
+    githubLink: 'https://github.com/kirstymullen'
+  },
+  {
+    artName: 'Rotate Hover Color',
+    pageLink: './Art/rotateColor/index.html',
+    imageLink: './Art/rotateColor/rotateColor.gif',
+    author: 'Luis',
+    githubLink: 'https://github.com/luigi970'
+  },
+  {
     artName: 'Sunset',
     pageLink: './Art/cataopriscila/index.html',
     imageLink: './Art/cataopriscila/sunset.gif',
     author: 'Catao',
+<<<<<<< HEAD
     githubLink: 'https://github.com/cataopriscila'
+=======
+    githubLink: 'https://github.com/Catao_P'
+  },
+  {
+    pageLink: './Art/Kwabena-Agyeman/index.html',
+    imageLink: './Art/Kwabena-Agyeman/project.GIF',
+    author: 'Kwabena-Agyeman',
+    githubLink: 'https://github.com/Kwabena-Agyeman'
+  },
+  {
+    pageLink: '.Art/AndyJacko/index.html',
+    imageLink: '.Art/AndyJacko/yoyo.gif',
+    author: 'Andy Jacko',
+    githubLink: 'https://github.com/AndyJacko'
+  },
+  {
+    pageLink: './Art/shake/index.html',
+    imageLink: './Art/shake/file.gif',
+    author: 'yoududecomposer',
+    githubLink: 'https://github.com/yourdudecomposer'
+  },
+
+  {
+    pageLink: './Art/circle-animation/index.html',
+    imageLink: './Art/circle-animation/animate.gif',
+    author: 'Vimal',
+    githubLink: 'https://github.com/vimalraveendra'
+  },
+  {
+    artName: 'Fade Loading',
+    pageLink: './Art/HuePham/index.html',
+    imageLink: './Art/HuePham/loading.gif',
+    author: 'Hue Pham',
+    githubLink: 'https://github.com/hue113'
+  },
+  {
+    artName: 'Bouncing Ball',
+    pageLink: './Art/surajondev/index.html',
+    imageLink: './Art/surajondev/animation.gif',
+    author: 'Suraj Vishwakarma',
+    githubLink: 'https://github.com/surajondev'
+  },
+  {
+    artName: 'ONLY CSS 3D CUBE',
+    pageLink: './Art/Milind/index.html',
+    imageLink: './Art/Milind/magic.gif',
+    author: 'Milind Pawar',
+    githubLink: 'https://github.com/milindpawar007'
+  },
+  {
+    pageLink: './Art/circle2square/index.html',
+    imageLink: './Art/circle2square/csdojo.gif',
+    author: 'csdojo',
+    githubLink: 'https://github.com/csdojo'
+>>>>>>> d15556161c0c768acaa81bf081a4486f39fb5d32
   }
 ];
 
