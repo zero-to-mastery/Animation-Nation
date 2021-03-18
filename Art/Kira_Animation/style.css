@@ -29,7 +29,7 @@ ul li {
 }
 
 ul li:nth-child(odd) {
-  background: linear-gradient(to right, brown, white);
+  background: linear-gradient(to right, green, yellow);
   text-align: left;
   padding-left: 10%;
   margin: 0 auto;
