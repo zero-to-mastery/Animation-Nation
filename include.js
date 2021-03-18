@@ -5035,6 +5035,13 @@ let cards = [
     imageLink: './Art/Kira_Animation/image.gif',
     author: 'Asad Khan',
     githubLink: 'https://github.com/kira00007'
+  },
+  {
+    artName: 'Swizzy',
+    pageLink: './Art/Uche-Azubuko/index.html',
+    imageLink: './Art/Uche-Azubuko/swizzy.gif',
+    author: 'Uche Azubuko',
+    githubLink: 'https://github.com/UcheAzubuko'
   }
 ];
 
