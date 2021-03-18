@@ -5029,13 +5029,13 @@ let cards = [
     author: 'csdojo',
     githubLink: 'https://github.com/csdojo'
   },
-    {
-      artName: 'Swizzy',
-      pageLink: './Art/Uche-Azubuko/index.html',
-      imageLink: './Art/Uche-Azubuko/swizzy.gif',
-      author: 'Uche Azubuko',
-      githubLink: 'https://github.com/UcheAzubuko'
-    }
+  {
+    artName: 'Swizzy',
+    pageLink: './Art/Uche-Azubuko/index.html',
+    imageLink: './Art/Uche-Azubuko/swizzy.gif',
+    author: 'Uche Azubuko',
+    githubLink: 'https://github.com/UcheAzubuko'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
