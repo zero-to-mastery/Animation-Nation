@@ -5042,6 +5042,13 @@ let cards = [
     imageLink: './Art/Uche-Azubuko/swizzy.gif',
     author: 'Uche Azubuko',
     githubLink: 'https://github.com/UcheAzubuko'
+  },
+  {
+    artName: 'Animated Bike Wheels',
+    pageLink: './Art/Animated-Bike-Wheels/index.html',
+    imageLink: './Art/Animated-Bike-Wheels/bike.gif',
+    author: 'Joey Kyber',
+    githubLink: 'https://github.com/jtkyber'
   }
 ];
 
