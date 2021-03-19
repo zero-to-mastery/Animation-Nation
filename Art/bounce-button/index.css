@@ -1,0 +1,31 @@
+html{
+	overflow: hidden;
+}
+
+
+div{
+	height: 100vh;
+	width: 100vw;
+	
+}
+
+button{
+	background: transparent;
+	color: #7abcff;
+	border-color: #7abcff;
+		margin-top: 50vh;
+	margin-left: 40vw;
+	font-size: 25px; 
+}
+button:hover{
+	background: #7abcff;
+	color: white;
+	cursor: pointer;
+	animation: bounce 1s linear;
+	transform: translateX(0);
+	transform: translateZ(0);
+	transform: translateY(-20px);
+	box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+
