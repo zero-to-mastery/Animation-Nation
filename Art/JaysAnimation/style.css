@@ -1,0 +1,156 @@
+body {
+    /* animation */
+    animation-name: page;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes page {
+    0% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: orangered;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}
+
+.position {
+    margin: auto;
+    width: 75%;
+    padding-top: 200px;
+}
+
+
+.animate {
+    margin:auto;
+    /* animation */
+    animation-name: square;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* align */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes square {
+    0% {
+        width: 400px;
+        height: 400px;
+        background-color: orangered;
+    }
+
+    50% {
+        background-color: rgba(255, 255, 0, 0.74);
+        width: 200px;
+        height: 200px;
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        width: 400px;
+        height: 400px;
+        background-color: orangered;
+        transform: rotate(-360deg);
+    }
+}
+
+.inner {
+    /* animation */
+    animation-name: innersquare;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* align */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes innersquare {
+    0% {
+        width: 100px;
+        height: 100px;
+        background-color: orangered;
+    }
+
+    50% {
+        background-color: rgba(255, 68, 0, 0.247);
+        width: 200px;
+        height: 200px;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        width: 100px;
+        height: 100px;
+        background-color: orangered;
+        transform: rotate(720deg);
+    }
+}
+
+.center {
+    /* animation */
+    animation-name: center;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* align */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes center {
+    0% {
+        width: 50px;
+        height: 50px;
+        background-color: orangered;
+    }
+
+    50% {
+        background-color: rgba(255, 68, 0, 0.493);
+        width: 100px;
+        height: 100px;
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        width: 50px;
+        height: 50px;
+        background-color: orangered;
+        transform: rotate(-720deg);
+    }
+}
+
+.absolute {
+    /* animation */
+    animation-name: absolute;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes absolute {
+    0% {
+        width: 0;
+        height: 0;
+        background-color: rgba(255, 68, 0, 0.479);
+    }
+
+    50% {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(255, 255, 0, 0.582);
+        transform: rotate(720deg);
+    }
+
+    100% {
+        width: 0;
+        height: 0;
+        background-color: rgba(255, 68, 0, 0.418);
+        transform: rotate(1440deg);
+    }
+}

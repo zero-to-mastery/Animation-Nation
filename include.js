@@ -5051,6 +5051,16 @@ let cards = [
     githubLink: 'https://github.com/jtkyber'
   }
 ];
+[
+  {
+    artName: 'Color Spinner',
+    pageLink: './Art/JaysAnimation/index.html',
+    imageLink: './Art/JaysAnimation/cssAnimation.gif',
+    author: 'Jahnoel',
+    githubLink: 'https://github.com/jahnoelrondon'
+  }
+];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
