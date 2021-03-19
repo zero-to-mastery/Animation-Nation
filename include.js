@@ -5028,6 +5028,20 @@ let cards = [
     imageLink: './Art/circle2square/csdojo.gif',
     author: 'csdojo',
     githubLink: 'https://github.com/csdojo'
+  },
+  {
+    artName: 'Amazing Animation',
+    pageLink: './Art/Kira_Animation/index.html',
+    imageLink: './Art/Kira_Animation/image.gif',
+    author: 'Asad Khan',
+    githubLink: 'https://github.com/kira00007'
+  },
+  {
+    artName: 'Swizzy',
+    pageLink: './Art/Uche-Azubuko/index.html',
+    imageLink: './Art/Uche-Azubuko/swizzy.gif',
+    author: 'Uche Azubuko',
+    githubLink: 'https://github.com/UcheAzubuko'
   }
   {
     artName: 'Animated Bike Wheels',
