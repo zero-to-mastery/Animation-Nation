@@ -5054,7 +5054,7 @@ let cards = [
     artName: 'My-Anim.R',
     pageLink: './Art/My-Anim.R/index.html',
     imageLink: './Art/My-Anim.R/BackGround.gif',
-    author: 'Joey Kyber',
+    author: 'Roshan Amjad',
     githubLink: 'https://github.com/roshanamjad'
   },
 ];
