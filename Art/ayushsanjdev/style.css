@@ -1,0 +1,43 @@
+body {
+	background-color: black;
+}
+
+main {
+	display: inline-flex;
+	
+}
+#div1, #div3, #div5{
+	margin: 1em;
+	width: 2em;
+	height: 10em;
+	background-color: #ddd;
+  	animation: MoveUpDown 1s linear infinite;
+  	animation-delay: 3s;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    height: 2em;
+  }
+  50% {
+    height: 10em;
+  }
+}
+
+#div2, #div4, #div6 {
+	margin: 1em;
+	width: 2em;
+	height: 10em;
+	background-color: #ddd;
+  	animation: movedownup 1s linear infinite;
+  	animation-delay: 1s;
+}
+
+@keyframes movedownup {
+	50% {
+		height: 5em;
+	}
+	0%, 100% {
+		height: 10em;
+	}
+}
