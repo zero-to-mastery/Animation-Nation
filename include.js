@@ -5049,6 +5049,12 @@ let cards = [
     imageLink: './Art/Animated-Bike-Wheels/bike.gif',
     author: 'Joey Kyber',
     githubLink: 'https://github.com/jtkyber'
+  },
+    artName: 'Music Bars Animation',
+    pageLink: './Art/Music-Bars-Animation/index.html',
+    imageLink: './Art/Music-Bars-Animation/bike.gif',
+    author: 'ayushsanjdev',
+    githubLink: 'https://github.com/ayushsanjdev' 
   }
 ];
 
