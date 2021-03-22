@@ -4972,10 +4972,10 @@ let cards = [
   },
   {
     artName: 'Sunset',
-    pageLink: './Art/Catao_P/index.html',
-    imageLink: './Art/Catao_P/sunset.gif',
+    pageLink: './Art/cataopriscila/index.html',
+    imageLink: './Art/cataopriscila/sunset.gif',
     author: 'Catao',
-    githubLink: 'https://github.com/Catao_P'
+    githubLink: 'https://github.com/cataopriscila'
   },
   {
     pageLink: './Art/Kwabena-Agyeman/index.html',
