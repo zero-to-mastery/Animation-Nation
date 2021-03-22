@@ -5010,7 +5010,7 @@ let cards = [
     githubLink: 'https://github.com/hue113'
   },
   {
-    artName: 'Testanimation'
+    artName: 'Testanimation',
     pageLink: './Art/Testanimation/index.html',
     imageLink: './Art/Testanimation/cloud.gif',
     author: 'Toby',
