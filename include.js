@@ -4975,10 +4975,7 @@ let cards = [
     pageLink: './Art/cataopriscila/index.html',
     imageLink: './Art/cataopriscila/sunset.gif',
     author: 'Catao',
-<<<<<<< HEAD
     githubLink: 'https://github.com/cataopriscila'
-=======
-    githubLink: 'https://github.com/Catao_P'
   },
   {
     pageLink: './Art/Kwabena-Agyeman/index.html',
@@ -5031,7 +5028,27 @@ let cards = [
     imageLink: './Art/circle2square/csdojo.gif',
     author: 'csdojo',
     githubLink: 'https://github.com/csdojo'
->>>>>>> d15556161c0c768acaa81bf081a4486f39fb5d32
+  },
+  {
+    artName: 'Amazing Animation',
+    pageLink: './Art/Kira_Animation/index.html',
+    imageLink: './Art/Kira_Animation/image.gif',
+    author: 'Asad Khan',
+    githubLink: 'https://github.com/kira00007'
+  },
+  {
+    artName: 'Swizzy',
+    pageLink: './Art/Uche-Azubuko/index.html',
+    imageLink: './Art/Uche-Azubuko/swizzy.gif',
+    author: 'Uche Azubuko',
+    githubLink: 'https://github.com/UcheAzubuko'
+  },
+  {
+    artName: 'Animated Bike Wheels',
+    pageLink: './Art/Animated-Bike-Wheels/index.html',
+    imageLink: './Art/Animated-Bike-Wheels/bike.gif',
+    author: 'Joey Kyber',
+    githubLink: 'https://github.com/jtkyber'
   }
 ];
 
