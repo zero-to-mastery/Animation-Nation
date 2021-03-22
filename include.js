@@ -5010,6 +5010,13 @@ let cards = [
     githubLink: 'https://github.com/hue113'
   },
   {
+    artName: 'Testanimation',
+    pageLink: './Art/Testanimation/index.html',
+    imageLink: './Art/Testanimation/cloud.gif',
+    author: 'Toby',
+    githubLink: 'https://github.com/tobybase'
+  },
+  {
     artName: 'Bouncing Ball',
     pageLink: './Art/surajondev/index.html',
     imageLink: './Art/surajondev/animation.gif',
