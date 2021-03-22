@@ -5031,7 +5031,7 @@ let cards = [
   },
   {
     artName: "AnimateFun"
-    pageLink: './Art/AnimationFun/index.html',
+    pageLink: './Art/AnimateFun/index.html',
     imageLink: './Art/AnimateFun/trance.gif',
     author: 'Dobro47',
     githubLink: 'https://github.com/Dobro47'
