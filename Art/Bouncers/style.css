@@ -16,7 +16,7 @@ body {
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    animation: bounce 0.5s;
+    animation: bounce 0.6s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
