@@ -5056,6 +5056,13 @@ let cards = [
     imageLink: './Art/Animated-Bike-Wheels/bike.gif',
     author: 'Joey Kyber',
     githubLink: 'https://github.com/jtkyber'
+  },
+  {
+    artName: 'Bouncers',
+    pageLink: './Art/Bouncers/index.html',
+    imageLink: './Art/Bouncers/giphy.gif',
+    author: 'Peter Rawlings',
+    githubLink: 'https://github.com/Pedginald'
   }
 ];
 
