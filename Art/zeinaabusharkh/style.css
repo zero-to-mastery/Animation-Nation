@@ -1,0 +1,36 @@
+body{
+    background:#000 url(starspng.png); 
+}
+
+
+.element-animation{
+    animation: animationFrames 4s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    
+  
+}
+  @keyframes animationFrames{
+    0% {
+      transform:  translate(-0px,1000px)  rotate(0deg) ;
+    }
+   
+    100% {
+      transform:  translate(1000px,-700px)  rotate(180deg) ;
+    }
+  }
+
+  .earth_img{
+      height: 50%;
+      width: 50%;
+    
+     
+
+  }
+   
+ 
+
+
+  
+ 
+  

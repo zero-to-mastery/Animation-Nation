@@ -5056,6 +5056,13 @@ let cards = [
     imageLink: './Art/Animated-Bike-Wheels/bike.gif',
     author: 'Joey Kyber',
     githubLink: 'https://github.com/jtkyber'
+  } ,
+  {
+    artName: 'Lost Astronaut',
+    pageLink: './Art/zeinaabusharkh/index.html',
+    imageLink: './Art/zeinaabusharkh/lost_astronaut.gif',
+    author: 'zeinaabusharkh',
+    githubLink: 'https://github.com/zeinaabusharkh'
   }
 ];
 
