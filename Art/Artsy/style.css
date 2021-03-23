@@ -1,6 +1,54 @@
-#ball-1 {
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.ball-box {
+    display: flex;
+}
+
+.ball {
+    margin: auto;
     height: 60px;
     width: 60px;
-    background-color: red;
     border-radius: 50%;
+    animation: bounce, 0.9s, infinite;
+}
+
+#one {
+    background-color: red;
+}
+
+#two {
+    background-color: blue;
+    animation-delay: 0.5s;
+}
+
+#three {
+    background-color: green;
+    animation-delay: 1s;
+}
+
+@keyframes bounce {
+    10% {
+        height: 50px;
+        width: 50px;
+    }
+    30% {
+        height: 50px;
+        width: 40px;
+
+    }
+    50% {
+        height: 30px;
+        width: 57px;
+        transform: translateY(240px);
+        }
+    75% {
+        height: 50px;
+        width: 57px;
+        }
+    100% {
+        transform: translateY(0px);
+    }
 }
