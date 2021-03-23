@@ -5,7 +5,7 @@ body {
 
 .ball-box {
     background-color: #F0F8FF;
-    width: 600px;
+    width: 360px;
     height: 360px;
     display: flex;
     justify-content: space-around;
