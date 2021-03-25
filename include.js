@@ -4972,10 +4972,10 @@ let cards = [
   },
   {
     artName: 'Sunset',
-    pageLink: './Art/Catao_P/index.html',
-    imageLink: './Art/Catao_P/sunset.gif',
+    pageLink: './Art/cataopriscila/index.html',
+    imageLink: './Art/cataopriscila/sunset.gif',
     author: 'Catao',
-    githubLink: 'https://github.com/Catao_P'
+    githubLink: 'https://github.com/cataopriscila'
   },
   {
     pageLink: './Art/Kwabena-Agyeman/index.html',
@@ -5010,6 +5010,13 @@ let cards = [
     githubLink: 'https://github.com/hue113'
   },
   {
+    artName: 'Testanimation',
+    pageLink: './Art/Testanimation/index.html',
+    imageLink: './Art/Testanimation/cloud.gif',
+    author: 'Toby',
+    githubLink: 'https://github.com/tobybase'
+  },
+  {
     artName: 'Bouncing Ball',
     pageLink: './Art/surajondev/index.html',
     imageLink: './Art/surajondev/animation.gif',
@@ -5035,6 +5042,27 @@ let cards = [
     imageLink: './Art/jh-chen/star.gif',
     author: 'J.H. Chen',
     githubLink: 'https://github.com/jh-chen95'
+  },
+  {
+    artName: 'Amazing Animation',
+    pageLink: './Art/Kira_Animation/index.html',
+    imageLink: './Art/Kira_Animation/image.gif',
+    author: 'Asad Khan',
+    githubLink: 'https://github.com/kira00007'
+  },
+  {
+    artName: 'Swizzy',
+    pageLink: './Art/Uche-Azubuko/index.html',
+    imageLink: './Art/Uche-Azubuko/swizzy.gif',
+    author: 'Uche Azubuko',
+    githubLink: 'https://github.com/UcheAzubuko'
+  },
+  {
+    artName: 'Animated Bike Wheels',
+    pageLink: './Art/Animated-Bike-Wheels/index.html',
+    imageLink: './Art/Animated-Bike-Wheels/bike.gif',
+    author: 'Joey Kyber',
+    githubLink: 'https://github.com/jtkyber'
   }
 ];
 
