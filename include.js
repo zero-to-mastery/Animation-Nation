@@ -5028,6 +5028,13 @@ let cards = [
     imageLink: './Art/circle2square/csdojo.gif',
     author: 'csdojo',
     githubLink: 'https://github.com/csdojo'
+  },
+  {
+    artName: 'Star',
+    pageLink: './Art/jh-chen/animation.html',
+    imageLink: './Art/jh-chen/star.gif',
+    author: 'J.H. Chen',
+    githubLink: 'https://github.com/jh-chen95'
   }
 ];
 
