@@ -5056,6 +5056,15 @@ let cards = [
     imageLink: './Art/Animated-Bike-Wheels/bike.gif',
     author: 'Joey Kyber',
     githubLink: 'https://github.com/jtkyber'
+  },
+  {
+    artName: 'Robot'
+    pageLink: './Art/Robot/index.html',
+    imageLink: './Art/Robot/Robot.gif',
+    author: 'Yun',
+    githubLink: 'https://github.com/yunjoanyu'
+  }
+];
   }
 ];
 
