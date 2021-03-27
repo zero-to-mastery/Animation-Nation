@@ -5063,7 +5063,15 @@ let cards = [
     imageLink: './Art/My-Anim.R/BackGround.gif',
     author: 'Roshan Amjad',
     githubLink: 'https://github.com/roshanamjad'
+  },
+  {
+    artName: 'Ongo Gablogian',
+    pageLink: './Art/alexnathan91/index.html',
+    imageLink: '',
+    author: 'Alex Llanas',
+    githubLink: 'https://github.com/alexnathan91'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
