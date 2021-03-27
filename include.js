@@ -5063,7 +5063,7 @@ let cards = [
     imageLink: './Art/My-Anim.R/BackGround.gif',
     author: 'Roshan Amjad',
     githubLink: 'https://github.com/roshanamjad'
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
