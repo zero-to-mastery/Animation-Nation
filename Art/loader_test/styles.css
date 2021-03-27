@@ -1,0 +1,41 @@
+.loader {
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 1000%;
+}
+.dot {
+	display: block;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: calc(50% - 5px);
+	border-radius: 5px;
+	background-color: #00008b;
+	transform-origin: 5px 30px;
+	animation: rotate;
+	animation-iteration-count: infinite;
+	animation-duration: 1.5s;
+}
+.d2 {
+	animation-delay: 0.1s;
+}
+.d3 {
+	animation-delay: 0.2s;
+}
+.d4 {
+	animation-delay: 0.3s;
+}
+.d5 {
+	animation-delay: 0.4s; 
+}
+@keyframes rotate {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(359deg);
+	}
+}
