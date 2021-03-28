@@ -5058,7 +5058,7 @@ let cards = [
     githubLink: 'https://github.com/jtkyber'
   },
   {
-    artName: 'Robot'
+    artName: 'Robot',
     pageLink: './Art/Robot/index.html',
     imageLink: './Art/Robot/Robot.gif',
     author: 'Yun',
