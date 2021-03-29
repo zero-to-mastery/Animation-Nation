@@ -1,0 +1,164 @@
+body {
+	background-color: #dbf6e9;
+}
+
+.container {
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 60%;
+}
+
+.title {
+	margin: 5px auto 25px auto;
+	text-align: center;
+	font-size: 5em;
+	font-family: 'Fredoka One', cursive;
+	color: #536162;
+}
+
+@media (max-width: 640px) 
+{
+    .title{
+        font-size: 2em;
+    }
+}
+
+.eyes {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.eye {
+	width: 90px;
+	height: 160px;
+	background: white;
+	border: solid 10px #424642;
+	border-radius: 75px / 120px;
+	margin: 2px;
+}
+
+.iris {
+	width: 45px;
+	height: 75px;
+	background: #424642;
+	position: relative;
+	top: 75px ;
+	left:5px;
+	border-radius: 75px / 120px;
+	animation-name: stare;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes stare {
+	0% {
+		transform: translateX(30px);
+	}
+}
+
+.burger-treadmill {
+	padding: 10px 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.burger {
+	margin-top: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	animation-name: moveburger;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+.top-bread {
+    width: 85px;
+    height: 25px;
+    background: #f5b231;
+    border-top-left-radius: 100px 50px;
+    border-top-right-radius: 100px 50px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bread-seeds {
+	width: 5px;
+  	height: 5px;
+  	background: white;
+  	border-radius: 50%;
+}
+
+.one {
+	margin-left: 5px;
+	margin-bottom: 3px;
+	align-self: flex-end;
+}
+
+.three {
+	margin-top: 8px;
+	align-self: flex-start;
+}
+
+.four {
+	margin-top: 10px;
+}
+
+.five {
+	margin-right: 8px;
+}
+
+.cheese {
+	margin-top: 2px;
+	width: 80px;
+	height: 9px;
+	background: #fddb33;
+	border-radius: 45px / 25px;
+}
+
+.lettuce {
+	margin-top: 2px;
+	width: 80px;
+	height: 5px;
+	background: #82af15;
+	border-radius: 45px / 25px;
+}
+
+.meat {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 80px;
+	height: 11px;
+	background: #681e23;
+	border-radius: 45px / 25px;
+}
+
+.bottom-bread {
+    width: 85px;
+    height: 15px;
+    background: #f5b231;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 60px 35px;
+    border-bottom-left-radius: 60px 35px;
+}
+
+@keyframes moveburger {
+	0% {
+		transform: translateX(100px);
+	}
+
+	100% {
+		transform: translateX(-100px);
+	}
+}

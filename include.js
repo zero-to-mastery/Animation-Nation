@@ -5063,6 +5063,13 @@ let cards = [
     imageLink: './Art/My-Anim.R/BackGround.gif',
     author: 'Roshan Amjad',
     githubLink: 'https://github.com/roshanamjad'
+  },
+  {
+    artName: 'Burgerddicted',
+    pageLink: './Art/nogueiram/index.html',
+    imageLink: './Art/nogueiram/burgerddicted-gif.gif',
+    author: 'Maria Nogueira',
+    githubLink: 'https://github.com/nogueiram-27'
   }
 ];
 
