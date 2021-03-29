@@ -5057,6 +5057,13 @@ let cards = [
     author: 'Joey Kyber',
     githubLink: 'https://github.com/jtkyber'
   }
+  {
+    artName: 'Bouncey',
+    pageLink: './Art/bouncey/index.html',
+    imageLink: './Art/bouncey/bouncey.gif',
+    author: 'Naman Kothari',
+    githubLink: 'https://github.com/kotharii'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+

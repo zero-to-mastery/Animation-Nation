@@ -1,0 +1,34 @@
+.word{
+    font-style: italic;
+    font-family: cursive;
+    font-weight: 100;
+    font-variant: small-caps;
+    padding-left: 500px;
+    padding-top: 250px;
+    color: crimson;
+}
+
+.circle{    
+    display: flex;
+    background: rgb(255, 0, 0);
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    position: relative;
+    animation: bounceeffect 1700ms linear infinite;
+}
+     @keyframes bounceeffect {
+        0% {background:rgb(255, 0, 0); transform:translateX(0px);}
+        10%{background:rgb(255, 0, 0); transform:translate3d(20px,200px,0px);}
+        20%{background:rgb(255, 123, 0); transform:translate3d(25px,350px,0px);}
+        30%{background:rgb(255, 123,0); transform:translate3d(40px,250px,0px);}
+        40%{background:rgb(255, 123,0); transform:translate3d(55px,260px,0px);}
+        50%{background:rgb(229, 255, 0); transform:translate3d(70px,350px,0px);}
+        60%{background:rgb(229, 255, 0); transform:translate3d(87px,280px,0px);}
+        70%{background:rgb(229, 255, 0); transform:translate3d(105px,280px,0px);}
+        80%{background:rgb(115, 255, 0); transform:translate3d(120px,350px,0px);}
+        90%{background:rgb(115, 255, 0); transform:translate3d(140px,310px,0px);}
+        100%{background:rgb(0, 255, 221); transform:translate3d(160px,350px,0px)}
+     }
+     
