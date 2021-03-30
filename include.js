@@ -5063,6 +5063,12 @@ let cards = [
     imageLink: './Art/My-Anim.R/BackGround.gif',
     author: 'Roshan Amjad',
     githubLink: 'https://github.com/roshanamjad'
+  },
+  {
+    pageLink: 'Glitched Name',
+    imageLink: './Art/ArtFord/ezgif.com-gif-maker.gif',
+    author: 'Ford',
+    githubLink: 'https://github.com/gelford2393'
   }
 ];
 
