@@ -5063,6 +5063,13 @@ let cards = [
     imageLink: './Art/My-Anim.R/BackGround.gif',
     author: 'Roshan Amjad',
     githubLink: 'https://github.com/roshanamjad'
+  },
+  {
+    artName: 'Sbaah-ice-cream-bar',
+    pageLink: './Art/Sbaah-ice-cream-bar/index.html',
+    imageLink: './Art/Sbaah-ice-cream-bar/tasty.png',
+    author: 'Sefa Baah',
+    githubLink: 'https://github.com/Sbaah'
   }
 ];
 
