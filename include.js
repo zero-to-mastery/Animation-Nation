@@ -1,4 +1,4 @@
-let cards = [
+  let cards = [
   {
     artName: 'Dog animation',
     pageLink: './Art/AbhishekSingh-Animation-Contribution/index.html',
@@ -5049,6 +5049,12 @@ let cards = [
     imageLink: './Art/Animated-Bike-Wheels/bike.gif',
     author: 'Joey Kyber',
     githubLink: 'https://github.com/jtkyber'
+  },
+    artName: 'Simple Animation',
+    pageLink: './Art/SimpleAnimation/index.html',
+    imageLink: './Art/SimpleAnimation/SimpleAnimation.gif',
+    author: 'Syd Rob',
+    githubLink: 'https://github.com/sydrobhez'
   }
 ];
 
