@@ -5063,6 +5063,12 @@ let cards = [
     imageLink: './Art/Gaines_Animate/Rotate.gif',
     author: 'Samuel',
     githubLink: 'https://github.com/Sdgaines'
+  },
+    artName: 'My-Anim.R',
+    pageLink: './Art/My-Anim.R/index.html',
+    imageLink: './Art/My-Anim.R/BackGround.gif',
+    author: 'Roshan Amjad',
+    githubLink: 'https://github.com/roshanamjad'
   }
 ];
 
