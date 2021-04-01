@@ -1,0 +1,16 @@
+h1 {
+	color: #fc0388;
+	text-align: center;
+	font-family:Chalkduster, fantasy;
+}
+
+.body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img {
+	width: 100%;
+	height:100%;
+}
