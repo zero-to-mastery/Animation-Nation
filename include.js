@@ -5064,7 +5064,7 @@ let cards = [
     author: 'Roshan Amjad',
     githubLink: 'https://github.com/roshanamjad'
   },
-  { 
+  {
     artName: 'Robot',
     pageLink: './Art/Robot/robot.html',
     imageLink: './Art/Robot/Robot.gif',
