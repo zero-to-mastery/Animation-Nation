@@ -5070,6 +5070,13 @@ let cards = [
     imageLink: './Art/Robot/Robot.gif',
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
+  },
+  {
+    artName: 'funAimation',
+    pageLink: './Art/funAnimation/index.html',
+    imageLink: './Art/funAnimation/funAnimation.gif',
+    author: '5MilesADay',
+    githubLink: 'https://github.com/wutong-yuan'
   }
 ];
 
