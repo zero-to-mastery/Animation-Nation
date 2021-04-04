@@ -5058,7 +5058,11 @@ let cards = [
     githubLink: 'https://github.com/jtkyber'
   },
   {
+<<<<<<< HEAD
     artName: 'Animated by Skander',
+=======
+    artName: 'SkanderAnimation',
+>>>>>>> 10f2efbeca884791bf1568ca7b03256880bba1ed
     pageLink: './Art/SkanderAnimation/index.html',
     imageLink: './Art/SkanderAnimation/einstein.gif',
     author: 'Skander Ferjani',
