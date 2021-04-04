@@ -5056,6 +5056,13 @@ let cards = [
     imageLink: './Art/Animated-Bike-Wheels/bike.gif',
     author: 'Joey Kyber',
     githubLink: 'https://github.com/jtkyber'
+  },
+  {
+    artName: 'Animated by Skander',
+    pageLink: './Art/SkanderAnimation/index.html',
+    imageLink: './Art/SkanderAnimation/einstein.gif',
+    author: 'Skander Ferjani',
+    githubLink: 'https://github.com/skanderf'
   }
 ];
 
