@@ -5037,6 +5037,13 @@ let cards = [
     githubLink: 'https://github.com/csdojo'
   },
   {
+    artName: 'Star',
+    pageLink: './Art/jh-chen/animation.html',
+    imageLink: './Art/jh-chen/star.gif',
+    author: 'J.H. Chen',
+    githubLink: 'https://github.com/jh-chen95'
+  },
+  {
     artName: 'Amazing Animation',
     pageLink: './Art/Kira_Animation/index.html',
     imageLink: './Art/Kira_Animation/image.gif',
