@@ -5070,6 +5070,14 @@ let cards = [
     imageLink: './Art/Sbaah-ice-cream-bar/tasty.png',
     author: 'Sefa Baah',
     githubLink: 'https://github.com/Sbaah'
+  },
+  {
+    artName: 'Robot',
+    pageLink: './Art/Robot/robot.html',
+    imageLink: './Art/Robot/Robot.gif',
+    author: 'Yun',
+    githubLink: 'https://github.com/yunjoanyu'
+
   }
 ];
 
