@@ -1,0 +1,193 @@
+#main {
+	position:relative;
+	margin-top: 12%;
+	display: flex;
+	width: auto;
+	height: 400px;
+	background-color: floralwhite;
+	align-items: center;
+	justify-content: center;
+	font-family: cursive;
+	vertical-align: middle;
+ 	font-size: 60px;
+ 	font-weight: 10px;
+
+}
+
+#pause {
+	position:relative;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: underline;
+	font-size:15px;
+}
+#one:hover {
+  -webkit-animation-play-state:running;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+#two:hover {
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+#three:hover {
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+#four:hover {
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+#five:hover {
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+#six:hover {
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+#seven:hover {
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+#eight:hover {
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+#one {
+position: relative;
+padding:10px;
+animation:first 4s linear 0s infinite alternate;
+}
+
+#two {
+position: relative;
+padding:10px;
+animation:second 4s linear 0s infinite alternate;
+}
+
+#three {
+position: relative;
+padding:10px;
+animation:third 4s linear 0s infinite alternate;
+}
+
+#four {
+position: relative;
+padding:10px;
+animation:fourth 4s linear 0s infinite alternate;
+}
+
+#five {
+	position: relative;
+padding-right:70px;
+animation:fifth 4s linear 0s infinite alternate;
+}
+
+#six {
+position: relative;
+padding:10px;
+animation:sixth 4s linear 0s infinite alternate;
+}
+
+#seven {
+position: relative;
+padding:10px;
+animation:seventh 4s linear 0s infinite alternate;
+}
+
+#eight {
+position: relative;
+padding:10px;
+animation:eigtht 4s linear 0s infinite alternate;
+}
+
+@keyframes first {
+	0%   {color:aqua; left:0px; top:0px;}
+  25%  {color:yellow;  top:20px;}
+  50%  {color:orchid;  top:-20px;}
+  75%  {color:green; top:20px;}
+  100% {color:lightsalmon;  top:0px;}
+}
+
+@keyframes second {
+	0%   {color:aliceblue;  top:0px;}
+  25%  {color:hotpink;  top:-20px;}
+  50%  {color:blue;  top:20px;}
+  75%  {color:aquamarine; top:-20px;}
+  100% {color:mistyrose;  top:0px;}
+}
+@keyframes third {
+	0%   {color:blue;  top:0px;}
+  25%  {color:purple;  top:20px;}
+  50%  {color:yellow;  top:-20px;}
+  75%  {color:green; top:20px;}
+  100% {color:white;  top:0px;}
+}
+@keyframes fourth {
+	0%   {color:lightcoral;  top:0px;}
+  25%  {color:yellow;  top:-20px;}
+  50%  {color:blue;  top:20px;}
+  75%  {color:green; top:-20px;}
+  100% {color:red;  top:0px;}
+}
+@keyframes fifth {
+	0%   {color:black;  top:0px;}
+  25%  {color:green;  top:20px;}
+  50%  {color:pink;  top:-20px;}
+  75%  {color:aquamarine; top:20px;}
+  100% {color:red;  top:0px;}
+}
+@keyframes sixth {
+	0%   {color:aquamarine;  top:0px;}
+  25%  {color:yellow;  top:-20px;}
+  50%  {color:;  top:20px;}
+  75%  {color:green; top:-20px;}
+  100% {color:red;  top:0px;}
+}
+@keyframes seventh {
+	0%   {color:indigo;  top:0px;}
+  25%  {color:yellow; top:20px;}
+  50%  {color:lightskyblue;  top:-20px;}
+  75%  {color:hotpink; top:20px;}
+  100% {color:red;  top:0px;}
+}
+@keyframes eigtht {
+	0%   {color:hotpink;  top:0px;}
+  25%  {color:yellow; top:-20px;}
+  50%  {color:blue;  top:20px;}
+  75%  {color:greenyellow; top:-20px;}
+  100% {color:red;  top:0px;}
+}

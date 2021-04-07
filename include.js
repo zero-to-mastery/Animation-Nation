@@ -5084,6 +5084,13 @@ let cards = [
     imageLink: './Art/Robot/Robot.gif',
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
+  },
+  {
+    artName: 'DreamBig',
+    pageLink: './Art/DreamBig/index.html',
+    imageLink: './Art/DreamBig/dreambig.gif',
+    author: 'HrvojeRobert6',
+    githubLink: 'https://github.com/HrvojeRobert6'
   }
 ];
 
