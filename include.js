@@ -5037,6 +5037,13 @@ let cards = [
     githubLink: 'https://github.com/csdojo'
   },
   {
+    artName: 'Star',
+    pageLink: './Art/jh-chen/animation.html',
+    imageLink: './Art/jh-chen/star.gif',
+    author: 'J.H. Chen',
+    githubLink: 'https://github.com/jh-chen95'
+  },
+  {
     artName: 'Amazing Animation',
     pageLink: './Art/Kira_Animation/index.html',
     imageLink: './Art/Kira_Animation/image.gif',
@@ -5064,11 +5071,27 @@ let cards = [
     author: 'Samuel',
     githubLink: 'https://github.com/Sdgaines'
   },
+  {
+    artName: 'Bouncers',
+    pageLink: './Art/Bouncers/index.html',
+    imageLink: './Art/Bouncers/giphy.gif',
+    author: 'Peter Rawlings',
+    githubLink: 'https://github.com/Pedginald'
+  },
+  {
+
     artName: 'My-Anim.R',
     pageLink: './Art/My-Anim.R/index.html',
     imageLink: './Art/My-Anim.R/BackGround.gif',
     author: 'Roshan Amjad',
     githubLink: 'https://github.com/roshanamjad'
+  },
+  {
+    artName: 'Robot',
+    pageLink: './Art/Robot/robot.html',
+    imageLink: './Art/Robot/Robot.gif',
+    author: 'Yun',
+    githubLink: 'https://github.com/yunjoanyu'
   }
 ];
 
