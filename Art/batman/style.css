@@ -1,0 +1,39 @@
+body {
+	background-color: #444;
+}
+
+h1 {
+	font-size: 5rem;
+	text-align: center;
+	text-shadow: 2px 2px gray;
+	font-family: 'Share Tech', sans-serif;
+}
+
+h2 {
+	font-family: 'Share Tech', sans-serif;
+	font-size: 3rem;
+	text-align: center;
+	text-shadow: 2px 2px gray;
+	font-family: 'Share Tech', sans-serif;
+}
+
+.title-container {
+	display: flex;
+	justify-content: center;
+}
+
+.batman-container {
+	display: flex;
+	justify-content: center;
+}
+.batman {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.second-container {
+	display: flex;
+	justify-content: center;
+}
