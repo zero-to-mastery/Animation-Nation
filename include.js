@@ -5085,6 +5085,12 @@ let cards = [
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
   }
+  {
+    pageLink: './Art/batman/index.html',
+    imageLink: './Art/batman.png',
+    author: 'DindoLeonard',
+    githubLink: 'https://github.com/DindoLeonard'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
