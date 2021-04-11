@@ -1,0 +1,70 @@
+.element {
+  position: relative;
+  z-index: 0;
+  height: 100px;
+  width: 100px;
+  margin-left:800px;
+  margin-bottom:450px;
+  border-radius: 50%; 
+  background-color:  white;
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  filter :blur(10px) brightness(100%);
+  animation-timing-function: ease-in; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.moon{
+  position: absolute;
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+  margin-left:800px;
+  margin-bottom:450px;
+  filter :blur(0px);
+  background-color: black;
+  border-radius: 50%; 
+  
+}
+
+@keyframes stretch {
+   0%{
+    transform: translate(-20px, 20px) scale(0.9);
+    box-shadow: none;
+    background-color: #FFE5B4;
+  }
+  50%{
+    transform: translate(0px, 0px) scale(1.02);
+    background-color: white;
+  }
+  100%{
+    transform: translate(20px, -20px) scale(0.9);
+    background-color:#FFE5B4;
+  }
+
+}
+
+html{
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  z-index: 9;
+} 
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url("nightt.jpg");
+  height: 100%;
+  background-size:105% 105%;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
