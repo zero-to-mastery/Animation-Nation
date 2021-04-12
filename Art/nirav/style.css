@@ -1,0 +1,48 @@
+.balls {
+    border-radius: 50%;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 60%;
+    animation-name: jump;
+    animation-iteration-count: infinite;
+}
+
+#red {
+    background: red;
+    left: 25%;
+    animation-duration: 2.5s;
+    animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649);
+}
+
+#blue {
+    background: blue;
+    left: 50%;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649);
+}
+
+#green {
+    background: green;
+    left: 75%;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649);
+}
+
+@keyframes jump {
+    0% {
+        top: 100px;
+        width: 50px;
+        height: 50px;
+    }
+    50% {
+        top: 300px;
+        width: 55px;
+        height: 30px;
+    }
+    100% {
+        top: 100px;
+        width: 50px;
+        height: 50px;
+    }
+}
