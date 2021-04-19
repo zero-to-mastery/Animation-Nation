@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shape-container {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.6),
+      rgba(255, 0, 0, 0) 76%
+    ),
+    linear-gradient(120deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 65%),
+    linear-gradient(350deg, rgba(0, 0, 255, 0.6), rgba(0, 0, 255, 0) 55%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  animation: polygon 5s infinite;
+}
+
+@keyframes polygon {
+  0% {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  25% {
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+  }
+  50% {
+    clip-path: polygon(50% 100%, 100% 0, 0 0);
+  }
+  75% {
+    clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  }
+  100% {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+}
+
+@keyframes polygon {
+  0% {
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  }
+  25% {
+    clip-path: polygon(50% 100%, 0 0, 99% 0);
+  }
+  50% {
+    clip-path: polygon(50% 100%, 100% 0, 0 0);
+  }
+  75% {
+    clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  }
+  100% {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+}

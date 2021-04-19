@@ -5084,6 +5084,13 @@ let cards = [
     imageLink: './Art/Robot/Robot.gif',
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
+  },
+  {
+    artName: 'Dancing Triangle',
+    pageLink: './Art/DancingTriangle/index.html',
+    imageLink: './Art/DancingTriangle/dancing-triangle.gif',
+    author: 'Evgeniya',
+    githubLink: 'https://github.com/pchelka84'
   }
 ];
 
