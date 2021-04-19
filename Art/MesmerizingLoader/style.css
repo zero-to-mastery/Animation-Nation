@@ -12,13 +12,13 @@ html, body {
 	overflow: hidden;
 }
 
-#loader-container {
+.loader-container {
   width: 300px;
   height: 300px;
   transform: translate (-50%, -50%);
 }
 
-.loarder-div {
+.loader-circles {
   width: calc(100% - 16px);
   height: calc(100% - 16px);
   border: 8px solid #162534;
@@ -39,7 +39,7 @@ html, body {
   }
 }
 
-#text{
+.text{
   margin-top: 20px;
   text-align: center;
   color: aqua;
