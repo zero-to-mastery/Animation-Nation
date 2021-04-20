@@ -1,0 +1,106 @@
+body, html {
+	display:flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color:black;
+}
+
+@keyframes changewidth0 {}
+
+@keyframes changewidth1 {
+	from {
+		background-color: rgb(37, 209, 218);
+	}
+	
+	to {
+		background-color: rgb(21, 169, 209);
+	}
+}
+
+@keyframes changewidth2 {
+	from {
+		background-color: rgb(37, 209, 218);
+	}
+	
+	to {
+		background-color: rgb(21, 169, 209);
+	}
+}
+
+@keyframes changewidth3 {
+	from {
+		background-color: rgb(37, 209, 218);
+	}
+	
+	to {
+		background-color: rgb(21, 169, 209);
+	}
+}
+
+.disp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.big {
+	width: 48rem;
+	height: 100%;
+	border-radius: 30%;
+	animation-delay: 0s;
+	animation-duration: 0.8s;
+	animation-name: changewidth1;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+.medium-big {
+	width: 40rem;
+	height: 40rem;
+	border-radius: 20%;
+	animation-delay: 0.5s;
+	animation-duration: 0.8s;
+	animation-name: changewidth2;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.medium-small {
+	width: 30rem;
+	height: 30rem;
+	border-radius: 30%;
+	animation-delay: 1s;
+	animation-duration: 0.8s;
+	animation-name: changewidth1;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.small-big {
+	width: 20rem;
+	height: 20rem;
+	border-radius: 40%;
+	animation-delay: 1.5s;
+	justify-content: center;
+	animation-duration: 0.8s;
+	animation-name: changewidth2;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+.small-small {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+	animation-delay: 2s;
+	justify-content: center;
+	animation-duration: 0.8s;
+	animation-name: changewidth1;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}

@@ -5084,7 +5084,16 @@ let cards = [
     imageLink: './Art/Robot/Robot.gif',
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
+  },
+  {
+    artName: 'Ripples',
+    pageLink: './Art/ripples/index.html',
+    imageLink: './Art/ripples/trans.gif',
+    author: 'Siddharth Pal',
+    githubLink: 'https://github.com/originalsidd'
   }
+  
+  
 ];
 
 // +--------------------------------------------------------------------------------+
