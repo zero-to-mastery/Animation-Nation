@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+	z-index: 1;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to bottom,  rgba(255,168,76,0.6) 0%,rgba(255,123,13,0.6) 100%), url('https://wallup.net/wp-content/uploads/2019/09/71501-sunset-sky-clouds-palm-trees.jpg');
+	background-blend-mode: soft-light;
+	background-size: cover;
+	background-position: center center;
+  min-height: 100vh;
+	min-width: 100vh;
+}
+
+.bird {
+	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
+	background-size: auto 100%;
+	width: 352px;
+	height: 500px;
+	will-change: background-position;	
+	animation-name: fly-cycle;
+	animation-duration: 1s;
+	animation-delay: -0.5s;
+	animation-timing-function: steps(10);
+	animation-iteration-count: infinite;
+}
+
+.bird-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	will-change: transform;
+}
+
+@keyframes fly-cycle {	
+	100% {
+		background-position: -3600px 0;
+	}
+}
