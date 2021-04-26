@@ -5091,6 +5091,13 @@ let cards = [
     imageLink: './Art/MesmerizingLoader/mesmerizing_loader.gif',
     author: 'Gutu Galuppo',
     githubLink: 'https://github.com/gutugaluppo'
+  },
+	{
+		artName: 'Rocket ship',
+    pageLink: './Art/Rocket_ship/index.html',
+    imageLink: './Art/Rocket_ship/Rocket-Ship.gif',
+    author: 'Gutu Galuppo',
+    githubLink: 'https://github.com/gutugaluppo'
   }
 ];
 
