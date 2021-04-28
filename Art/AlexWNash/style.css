@@ -1,0 +1,12 @@
+@keyframes spin-scale{
+    50% {transform: rotate(180deg) scale(1.25);}
+    100% {transform: rotate(360deg) scale(1);}
+
+}
+
+img {
+    padding: 25px 25px 25px 25px;
+    animation-name: spin-scale;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
