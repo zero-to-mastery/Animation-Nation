@@ -5085,6 +5085,12 @@ let cards = [
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
   }
+   {
+    pageLink: './Art/AlexWNash/index.html',
+    imageLink: './Art/AlexWNash/icon.gif',
+    author: 'Alex Nash',
+    githubLink: 'https://github.com/AlexWNash'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
