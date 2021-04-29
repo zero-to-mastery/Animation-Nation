@@ -5084,6 +5084,13 @@ let cards = [
     imageLink: './Art/Robot/Robot.gif',
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
+  },
+  {
+    artName: 'ReactLogoAnimation',
+    pageLink: './Art/sanketanimation/index.html',
+    imageLink: './Art/sanketanimation/triangle.gif',
+    author: 'sanketwakhare',
+    githubLink: 'https://github.com/sanketwakhare'
   }
 ];
 
