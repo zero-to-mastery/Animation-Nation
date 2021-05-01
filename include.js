@@ -5085,6 +5085,12 @@ let cards = [
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
   }
+  {
+    artName: "AnimatD"
+    pageLink: './Art/dhruvm/index.html',
+    author: 'dhruvhm',
+    githubLink: 'https://github.com/dhruvhm'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
