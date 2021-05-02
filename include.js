@@ -5085,6 +5085,14 @@ let cards = [
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
   }
+
+  {
+    artName ; 'SohaibAnimation'
+    pageLink: './Art/SohaibAnimation/index.html',
+    imageLink: './Art/SohaibAnimation/animatedcircle.gif',
+    author: 'Sohaib',
+    githubLink: 'https://github.com/SohaibAfani'
+   }
 ];
 
 // +--------------------------------------------------------------------------------+
