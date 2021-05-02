@@ -1,5 +1,12 @@
 let cards = [
   {
+  	artName: 'DayToNight'
+    pageLink: './Art/DayToNight By Arpan/index.html',
+    imageLink: './Art/Joy/DayToNight By Arpan/giphy.gif',
+    author: 'ArpanGyawali',
+    githubLink: 'https://github.com/ArpanGyawali'
+  },
+  {
     artName: 'Dog animation',
     pageLink: './Art/AbhishekSingh-Animation-Contribution/index.html',
     imageLink: './Art/AbhishekSingh-Animation-Contribution/gif.png',
