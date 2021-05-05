@@ -1,0 +1,84 @@
+body {
+	background-image: linear-gradient(to right, #13547a ,  #80d0c7);
+}
+
+@keyframes example {
+  0%   {background-color:#cf1578; left:0px; top:0px;}
+  25%  {background-color:#e8d21d; left:200px; top:0px;}
+  50%  {background-color:#039fbe; left:200px; top:200px;}
+  75%  {background-color:#b20238; left:0px; top:200px;}
+  100% {background-color:#cf1578; left:0px; top:0px;}
+}
+
+
+
+/* The element to apply the animation to */
+ #one {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+@keyframes exampleTwo {
+  0%   {background-color:#cf1578; right:0px; top:0px;}
+  25%  {background-color:#e8d21d; right:200px; top:0px;}
+  50%  {background-color:#039fbe ; right:200px; top:200px;}
+  75%  {background-color:#b20238; right:0px; top:200px;}
+  100% {background-color:#cf1578; right:0px; top:0px;}
+}
+
+
+
+/* The element to apply the animation to */
+ #three {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  background-color: red;
+  animation-name: exampleTwo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+
+/* The element to apply the animation to */
+#two {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid  #e2d810;
+  border-right: 16px solid  #d9138a;
+  border-bottom: 16px solid #12a4d9 ;
+  border-left: 16px solid  #322e2f;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
