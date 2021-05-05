@@ -1,0 +1,50 @@
+/* The animation code */
+@keyframes example1 {
+  from {left: 300px;}
+  to {left: 0px;}
+}
+
+@keyframes example2 {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+@keyframes example3 {
+  from {left: 300px;}
+  to {left: 0px;}
+}
+
+/* The element to apply the animation to */
+.color1 {
+  width: 800px;
+  height: 100px;
+  position: relative;
+  background-color: #AA9739;
+  animation-name: example1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.color2 {
+  width: 800px;
+  height: 100px;
+  position: relative;
+  background-color: #7A9F35;
+  animation-name: example2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+.color3 {
+  width: 800px;
+  height: 100px;
+  position: relative;
+  background-color: #002020;
+  animation-name: example3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
