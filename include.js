@@ -5086,6 +5086,13 @@ let cards = [
     githubLink: 'https://github.com/yunjoanyu'
   },
   {
+    artName: 'Disco',
+    pageLink: './Art/Disco/index.html',
+    imageLink: './Art/Disco/Disco.gif',
+    author: 'Anu',
+    githubLink: 'https://github.com/anudesh98'
+  },
+  {
     pageLink: './Art/windmill/windmill.html',
     imageLink: './Art/windmill/windmill.gif',
     author: 'WindCy',
