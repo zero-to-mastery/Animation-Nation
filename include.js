@@ -5126,6 +5126,12 @@ let cards = [
     author: 'John Maturan',
     githubLink: 'https://github.com/JohnMaturan97'
   }
+  {
+    artName: "AnimatD"
+    pageLink: './Art/dhruvm/index.html',
+    author: 'dhruvhm',
+    githubLink: 'https://github.com/dhruvhm'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
