@@ -13,16 +13,16 @@ body {
 }
 
 .container {
-  display:grid;
+  display: grid;
   height: 100%;
   justify-content: center;
   text-align: center;
   align-items: center;
 }
 
-.box{
-  display : flex;
-  justify-content:center;
+.box {
+  display: flex;
+  justify-content: center;
   border: 0.2rem solid rgb(182, 183, 221);
   border-radius: 2rem;
   padding: 20px;
@@ -36,7 +36,8 @@ body {
 
 @keyframes bx {
   50% {
-    box-shadow: 0 0 .1vw #2d65df, 0 0 1.05vw #2d65df, 0 0 0.5vw #2d65df, 0 0 0.5vw #2d65df, 0 0 .1vw #2d65df, .1vw .1vw .1vw #2d65df;
+    box-shadow: 0 0 0.1vw #2d65df, 0 0 1.05vw #2d65df, 0 0 0.5vw #2d65df,
+      0 0 0.5vw #2d65df, 0 0 0.1vw #2d65df, 0.1vw 0.1vw 0.1vw #2d65df;
     color: #aae4ee;
   }
 }
@@ -46,7 +47,7 @@ body {
   color: #ec7526;
   font-size: 9vw;
   line-height: 9vw;
-  text-shadow: 0 0 3vw #ec7526;;
+  text-shadow: 0 0 3vw #ec7526;
 }
 
 .letterD {
@@ -58,11 +59,13 @@ body {
 @keyframes ld {
   0%,
   100% {
-    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
-    color: #FED128;
+    text-shadow: 0 0 1vw #fa1c16, 0 0 3vw #fa1c16, 0 0 10vw #fa1c16,
+      0 0 10vw #fa1c16, 0 0 0.4vw #fed128, 0.5vw 0.5vw 0.1vw #806914;
+    color: #fed128;
   }
   50% {
-    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    text-shadow: 0 0 0.5vw #800e0b, 0 0 1.5vw #800e0b, 0 0 5vw #800e0b,
+      0 0 5vw #800e0b, 0 0 0.2vw #800e0b, 0.5vw 0.5vw 0.1vw #40340a;
     color: #806914;
   }
 }
@@ -84,11 +87,13 @@ body {
 @keyframes li {
   0%,
   100% {
-    text-shadow: 0 0 1vw #700c68, 0 0 3vw #700c68, 0 0 10vw #700c68, 0 0 10vw #700c68, 0 0 .4vw #da68d0, .5vw .5vw .1vw #773874;
+    text-shadow: 0 0 1vw #700c68, 0 0 3vw #700c68, 0 0 10vw #700c68,
+      0 0 10vw #700c68, 0 0 0.4vw #da68d0, 0.5vw 0.5vw 0.1vw #773874;
     color: #da68d0;
   }
   50% {
-    text-shadow: 0 0 .5vw #4b0845, 0 0 1.5vw #4b0845, 0 0 5vw #4b0845, 0 0 5vw #4b0845, 0 0 .2vw #4b0845, .5vw .5vw .1vw #30072c;
+    text-shadow: 0 0 0.5vw #4b0845, 0 0 1.5vw #4b0845, 0 0 5vw #4b0845,
+      0 0 5vw #4b0845, 0 0 0.2vw #4b0845, 0.5vw 0.5vw 0.1vw #30072c;
     color: #773874;
   }
 }
@@ -110,16 +115,18 @@ body {
 @keyframes ls {
   0%,
   100% {
-    text-shadow: 0 0 1vw #8b9414, 0 0 3vw #8b9414, 0 0 10vw #8b9414, 0 0 10vw #8b9414, 0 0 .4vw #d9e43d, .5vw .5vw .1vw #806914;
+    text-shadow: 0 0 1vw #8b9414, 0 0 3vw #8b9414, 0 0 10vw #8b9414,
+      0 0 10vw #8b9414, 0 0 0.4vw #d9e43d, 0.5vw 0.5vw 0.1vw #806914;
     color: #d9e43d;
   }
   50% {
-    text-shadow: 0 0 .5vw #555a0e, 0 0 1.5vw #555a0e, 0 0 5vw #555a0e, 0 0 5vw #555a0e, 0 0 .2vw #555a0e, .5vw .5vw .1vw #40340A;
+    text-shadow: 0 0 0.5vw #555a0e, 0 0 1.5vw #555a0e, 0 0 5vw #555a0e,
+      0 0 5vw #555a0e, 0 0 0.2vw #555a0e, 0.5vw 0.5vw 0.1vw #40340a;
     color: #806914;
   }
 }
 
-.letterC{
+.letterC {
   font-family: disco;
   color: #6dfb42;
   font-size: 9vw;
@@ -136,11 +143,13 @@ body {
 @keyframes lc {
   0%,
   100% {
-    text-shadow: 0 0 1vw #287c0e, 0 0 3vw #287c0e, 0 0 10vw #287c0e, 0 0 10vw #287c0e, 0 0 .4vw #87f167, .5vw .5vw .1vw #215e0f;
+    text-shadow: 0 0 1vw #287c0e, 0 0 3vw #287c0e, 0 0 10vw #287c0e,
+      0 0 10vw #287c0e, 0 0 0.4vw #87f167, 0.5vw 0.5vw 0.1vw #215e0f;
     color: #87f167;
   }
   50% {
-    text-shadow: 0 0 .5vw #1a3f0e, 0 0 1.5vw #1a3f0e, 0 0 5vw #1a3f0e, 0 0 5vw #1a3f0e, 0 0 .2vw #1a3f0e, .5vw .5vw .1vw #40340A;
+    text-shadow: 0 0 0.5vw #1a3f0e, 0 0 1.5vw #1a3f0e, 0 0 5vw #1a3f0e,
+      0 0 5vw #1a3f0e, 0 0 0.2vw #1a3f0e, 0.5vw 0.5vw 0.1vw #40340a;
     color: #215e0f;
   }
 }
@@ -162,11 +171,13 @@ body {
 @keyframes lo {
   0%,
   100% {
-    text-shadow: 0 0 1vw #6c1383, 0 0 3vw #6c1383, 0 0 10vw #6c1383, 0 0 10vw #6c1383, 0 0 .4vw #dc5afd, .5vw .5vw .1vw #571568;
+    text-shadow: 0 0 1vw #6c1383, 0 0 3vw #6c1383, 0 0 10vw #6c1383,
+      0 0 10vw #6c1383, 0 0 0.4vw #dc5afd, 0.5vw 0.5vw 0.1vw #571568;
     color: #dc5afd;
   }
   50% {
-    text-shadow: 0 0 .5vw #36103f, 0 0 1.5vw #36103f, 0 0 5vw #36103f, 0 0 5vw #36103f, 0 0 .2vw #36103f, .5vw .5vw .1vw #40340A;
+    text-shadow: 0 0 0.5vw #36103f, 0 0 1.5vw #36103f, 0 0 5vw #36103f,
+      0 0 5vw #36103f, 0 0 0.2vw #36103f, 0.5vw 0.5vw 0.1vw #40340a;
     color: #571568;
   }
 }
