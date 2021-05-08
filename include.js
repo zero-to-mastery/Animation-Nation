@@ -5084,6 +5084,20 @@ let cards = [
     imageLink: './Art/Robot/Robot.gif',
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
+  },
+	{
+		artName: 'Mesmerizing Loader',
+    pageLink: './Art/MesmerizingLoader/index.html',
+    imageLink: './Art/MesmerizingLoader/mesmerizing_loader.gif',
+    author: 'Gutu Galuppo',
+    githubLink: 'https://github.com/gutugaluppo'
+  },
+	{
+		artName: 'Rocket ship',
+    pageLink: './Art/Rocket_ship/index.html',
+    imageLink: './Art/Rocket_ship/Rocket-Ship.gif',
+    author: 'Gutu Galuppo',
+    githubLink: 'https://github.com/gutugaluppo'
   }
 ];
 
