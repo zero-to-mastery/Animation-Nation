@@ -5099,6 +5099,13 @@ let cards = [
     author: 'Gutu Galuppo',
     githubLink: 'https://github.com/gutugaluppo'
   }
+  {
+    artName: 'Amatron',
+    pageLink: './Art/Amatron/index.html',
+    imageLink: 'https://media1.giphy.com/media/9cJE8Znq6Ghd66duIz/giphy.gif',
+    author: 'John Maturan',
+    githubLink: 'https://github.com/JohnMaturan97'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
