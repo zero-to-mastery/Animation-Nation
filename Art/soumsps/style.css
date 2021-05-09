@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body {
   background-color: #000533;
@@ -20,7 +20,7 @@ body {
   text-align: center;
   margin: 0 auto;
   top: 50vh;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 3px;

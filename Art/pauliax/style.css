@@ -30,14 +30,14 @@ body {
   position: relative;
   border: 1px solid black;
   margin-right: 50px;
-  -webkit-box-shadow: 13px 10px 14px -4px rgba(0,0,0,0.75);
-  -moz-box-shadow: 13px 10px 14px -4px rgba(0,0,0,0.75);
-  box-shadow: 13px 10px 14px -4px rgba(0,0,0,0.75);
-  -webkit-animation: fall .5s linear forwards;
-  -moz-animation: fall .5s linear forwards;
-  -ms-animation: fall .5s linear forwards;
-  -o-animation: fall .5s linear forwards;
-  animation: fall .5s linear forwards;
+  -webkit-box-shadow: 13px 10px 14px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 13px 10px 14px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 13px 10px 14px -4px rgba(0, 0, 0, 0.75);
+  -webkit-animation: fall 0.5s linear forwards;
+  -moz-animation: fall 0.5s linear forwards;
+  -ms-animation: fall 0.5s linear forwards;
+  -o-animation: fall 0.5s linear forwards;
+  animation: fall 0.5s linear forwards;
   z-index: 2;
 }
 
@@ -71,11 +71,11 @@ body {
 
 .open {
   transform-origin: right;
-  -webkit-animation: open-handle .5s linear forwards;
-  -moz-animation: open-handle .5s linear forwards;
-  -ms-animation: open-handle .5s linear forwards;
-  -o-animation: open-handle .5s linear forwards;
-  animation: open-handle .5s linear forwards;
+  -webkit-animation: open-handle 0.5s linear forwards;
+  -moz-animation: open-handle 0.5s linear forwards;
+  -ms-animation: open-handle 0.5s linear forwards;
+  -o-animation: open-handle 0.5s linear forwards;
+  animation: open-handle 0.5s linear forwards;
   animation-delay: 4s;
 }
 
@@ -89,17 +89,17 @@ body {
 }
 
 .image {
-  background-image: url("https://avatars1.githubusercontent.com/u/22328890?v=4");
+  background-image: url('https://avatars1.githubusercontent.com/u/22328890?v=4');
   background-size: contain;
   background-repeat: no-repeat;
   height: 75px;
   width: 75px;
   margin-top: 100%;
-  -webkit-animation: reveal .5s linear forwards;
-  -moz-animation: reveal .5s linear forwards;
-  -ms-animation: reveal .5s linear forwards;
-  -o-animation: reveal .5s linear forwards;
-  animation: reveal .5s linear forwards;
+  -webkit-animation: reveal 0.5s linear forwards;
+  -moz-animation: reveal 0.5s linear forwards;
+  -ms-animation: reveal 0.5s linear forwards;
+  -o-animation: reveal 0.5s linear forwards;
+  animation: reveal 0.5s linear forwards;
   animation-delay: 5.5s;
 }
 

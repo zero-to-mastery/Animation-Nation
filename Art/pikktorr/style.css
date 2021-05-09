@@ -64,17 +64,14 @@ body {
   animation-delay: 6s;
 }
 
-
 @keyframes roll {
   0% {
     transform: rotate(0) scale(1);
   }
-  50%{
+  50% {
     transform: rotate(300deg) scale(1.05);
   }
   100% {
     transform: rotate(360deg) scale(1);
   }
 }
-
-

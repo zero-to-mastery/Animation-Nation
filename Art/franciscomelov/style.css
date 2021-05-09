@@ -1,26 +1,21 @@
-body{
+body {
   background-color: black;
 }
 
-#cont{
+#cont {
   color: white;
-  font-size: 8vw; 
-  position:absolute;
-  top:40%;
+  font-size: 8vw;
+  position: absolute;
+  top: 40%;
   left: 15%;
 }
 
-#text{
+#text {
   margin-left: 25px;
-
 }
 
-
 #animation {
-
   color: rgba(175, 173, 173, 0.3);
-
-
 }
 
 #animation:before {
@@ -30,11 +25,10 @@ body{
   max-width: 10em;
   white-space: nowrap;
   color: #fff;
-  animation: loading 3s infinite  linear;
+  animation: loading 3s infinite linear;
 }
 @keyframes loading {
   0% {
-      max-width: 0;
+    max-width: 0;
   }
 }
-

@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   display: flex;
@@ -55,7 +56,7 @@ html, body {
   height: 100px;
   width: 100px;
   border: 2px solid lightgrey;
-  animation-duration: .88s;
+  animation-duration: 0.88s;
 }
 
 .mercury {

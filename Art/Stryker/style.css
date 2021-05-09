@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   margin: 0px;
   padding: 0px;
-  background: #F1F1F1;
+  background: #f1f1f1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +12,7 @@ body {
 }
 
 .wrapper {
-  width:300px;
+  width: 300px;
 }
 
 .stack {
@@ -24,7 +24,9 @@ body {
   margin: 0 auto;
 }
 
-.box-1, .box-2, .box-3 {
+.box-1,
+.box-2,
+.box-3 {
   text-align: center;
   border-radius: 3px;
   padding: 20px;
@@ -46,13 +48,21 @@ body {
 }
 
 @keyframes move {
-  from {transform: translateY(-50vh);}
-  to {transform: translateY(0vh);}
+  from {
+    transform: translateY(-50vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
 }
 
 @keyframes remove {
-  from {opacity:1;}
-  to {opacity:0;}
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 p {

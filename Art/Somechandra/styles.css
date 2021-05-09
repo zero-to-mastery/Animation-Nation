@@ -22,7 +22,7 @@
 
 .body:before,
 .body:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   z-index: 50;
@@ -84,7 +84,7 @@
 
 .tip:after {
   position: absolute;
-  content: "";
+  content: '';
 }
 
 .tip:after {

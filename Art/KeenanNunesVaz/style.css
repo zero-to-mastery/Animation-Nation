@@ -9,11 +9,11 @@ body {
   display: flex;
   height: 100vh;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #anim ul {
@@ -31,25 +31,25 @@ body {
 .helix-row:nth-child(2) .rung,
 .helix-row:nth-child(2) .ball {
   -webkit-animation-delay: -0.8s;
-          animation-delay: -0.8s;
+  animation-delay: -0.8s;
 }
 
 .helix-row:nth-child(3) .rung,
 .helix-row:nth-child(3) .ball {
   -webkit-animation-delay: -0.6s;
-          animation-delay: -0.6s;
+  animation-delay: -0.6s;
 }
 
 .helix-row:nth-child(4) .rung,
 .helix-row:nth-child(4) .ball {
   -webkit-animation-delay: -0.4s;
-          animation-delay: -0.4s;
+  animation-delay: -0.4s;
 }
 
 .helix-row:nth-child(5) .rung,
 .helix-row:nth-child(5) .ball {
   -webkit-animation-delay: -0.2s;
-          animation-delay: -0.2s;
+  animation-delay: -0.2s;
 }
 
 .rung {
@@ -59,36 +59,36 @@ body {
   top: 15px;
   background-color: white;
   -webkit-animation: rung-parallax 1s linear infinite;
-          animation: rung-parallax 1s linear infinite;
+  animation: rung-parallax 1s linear infinite;
 }
 
 @-webkit-keyframes rung-parallax {
   0% {
     -webkit-transform: scaleX(1);
-            transform: scaleX(1);
+    transform: scaleX(1);
   }
   50% {
     -webkit-transform: scaleX(0);
-            transform: scaleX(0);
+    transform: scaleX(0);
   }
   100% {
     -webkit-transform: scaleX(1);
-            transform: scaleX(1);
+    transform: scaleX(1);
   }
 }
 
 @keyframes rung-parallax {
   0% {
     -webkit-transform: scaleX(1);
-            transform: scaleX(1);
+    transform: scaleX(1);
   }
   50% {
     -webkit-transform: scaleX(0);
-            transform: scaleX(0);
+    transform: scaleX(0);
   }
   100% {
     -webkit-transform: scaleX(1);
-            transform: scaleX(1);
+    transform: scaleX(1);
   }
 }
 
@@ -99,17 +99,23 @@ body {
   background-color: white;
   border-radius: 50%;
   -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
 }
 
 .ball.left {
-  -webkit-animation: left-to-right 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite, approach 1s linear infinite;
-          animation: left-to-right 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite, approach 1s linear infinite;
+  -webkit-animation: left-to-right 1s cubic-bezier(0.445, 0.05, 0.55, 0.95)
+      infinite,
+    approach 1s linear infinite;
+  animation: left-to-right 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite,
+    approach 1s linear infinite;
 }
 
 .ball.right {
-  -webkit-animation: right-to-left 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite, recede 1s linear infinite;
-          animation: right-to-left 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite, recede 1s linear infinite;
+  -webkit-animation: right-to-left 1s cubic-bezier(0.445, 0.05, 0.55, 0.95)
+      infinite,
+    recede 1s linear infinite;
+  animation: right-to-left 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite,
+    recede 1s linear infinite;
 }
 
 @-webkit-keyframes left-to-right {
@@ -133,30 +139,30 @@ body {
 @-webkit-keyframes approach {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    transform: scale(1.2);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @keyframes approach {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    transform: scale(1.2);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
@@ -181,17 +187,17 @@ body {
 @-webkit-keyframes recede {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     background-color: white;
   }
   50% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
     background-color: #bbb;
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     background-color: white;
   }
 }
@@ -199,17 +205,17 @@ body {
 @keyframes recede {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     background-color: white;
   }
   50% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
     background-color: #bbb;
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     background-color: white;
   }
 }

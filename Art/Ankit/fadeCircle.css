@@ -39,7 +39,7 @@ body {
 }
 
 @-webkit-keyframes pulse {
-  from, 
+  from,
   40% {
     opacity: 0;
   }
@@ -53,7 +53,7 @@ body {
 }
 
 @keyframes pulse {
-  from, 
+  from,
   40% {
     opacity: 0;
   }
@@ -71,4 +71,3 @@ body {
     height: 30px !important;
   }
 }
-

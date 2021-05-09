@@ -40,7 +40,6 @@ body {
 
 #child2 {
   transform: rotate(90deg);
-
 }
 
 #parent div:before,

@@ -1,11 +1,10 @@
-body{
-background-color:lightpink;
+body {
+  background-color: lightpink;
 }
 
-div{
-color:white;
-text-aligh: center;
-font-family:verdana;
-font-size:20px;
+div {
+  color: white;
+  text-aligh: center;
+  font-family: verdana;
+  font-size: 20px;
 }
-

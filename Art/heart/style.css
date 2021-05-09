@@ -7,7 +7,7 @@
 .shape:after {
   position: absolute;
   margin: 30px;
-  content: "";
+  content: '';
   left: 50px;
   top: 0;
   width: 50px;
