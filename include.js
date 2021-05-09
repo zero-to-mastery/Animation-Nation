@@ -5085,6 +5085,7 @@ let cards = [
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
   },
+<<<<<<< HEAD
 
   {
     artName: 'fallicks',
@@ -5092,6 +5093,48 @@ let cards = [
     imageLink: './Art/fallicks/ss.png',
     author: 'Maaz Ahmed',
     githubLink: 'https://github.com/This-is-MaazAhmed'
+=======
+  {
+    artName: 'Disco',
+    pageLink: './Art/Disco/index.html',
+    imageLink: './Art/Disco/Disco.gif',
+    author: 'Anu',
+    githubLink: 'https://github.com/anudesh98'
+  },
+  {
+    pageLink: './Art/windmill/windmill.html',
+    imageLink: './Art/windmill/windmill.gif',
+    author: 'WindCy',
+    githubLink: 'https://github.com/windycy'
+  },
+  {
+    artName: 'Beating Speaker',
+    pageLink: './Art/beating-speaker/index.html',
+    imageLink: './Art/beating-speaker/BeatingSpeaker.gif',
+    author: 'TheCoderJT',
+    githubLink: 'https://github.com/TheCoderJT'
+  },
+  {
+    artName: 'Mesmerizing Loader',
+    pageLink: './Art/MesmerizingLoader/index.html',
+    imageLink: './Art/MesmerizingLoader/mesmerizing_loader.gif',
+    author: 'Gutu Galuppo',
+    githubLink: 'https://github.com/gutugaluppo'
+  },
+  {
+    artName: 'Rocket ship',
+    pageLink: './Art/Rocket_ship/index.html',
+    imageLink: './Art/Rocket_ship/Rocket-Ship.gif',
+    author: 'Gutu Galuppo',
+    githubLink: 'https://github.com/gutugaluppo'
+  },
+  {
+    artName: 'Amatron',
+    pageLink: './Art/Amatron/index.html',
+    imageLink: 'https://media1.giphy.com/media/9cJE8Znq6Ghd66duIz/giphy.gif',
+    author: 'John Maturan',
+    githubLink: 'https://github.com/JohnMaturan97'
+>>>>>>> 78fb219ac03d9a97b29a1a508778d5d2cd9234c1
   }
 ];
 
