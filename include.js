@@ -5858,6 +5858,13 @@ let cards = [
     author: "Rahul",
     githubLink: "https://github.com/AlloneWolff",
   },
+  {
+    artName: "Ho Man Se-To",
+    pageLink: "./Art/homanseto/index.html",
+    imageLink: "./Art/homanseto/bobby.gif",
+    author: "Seto",
+    githubLink: "https://github.com/homanseto",
+  },
 ]
   {
     artname: "ImAnimation",
