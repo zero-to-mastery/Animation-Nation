@@ -5862,7 +5862,7 @@ let cards = [
     artName: "Ho Man Se-To",
     pageLink: "./Art/homanseto/index.html",
     imageLink: "./Art/homanseto/bobby.gif",
-    author: "Seto",
+    author: "Setohoman",
     githubLink: "https://github.com/homanseto",
   },
 ]
