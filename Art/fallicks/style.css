@@ -1,0 +1,90 @@
+body {
+  background-color: aliceblue;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  visibility: hidden;
+  transform: rotate(10deg);
+}
+
+.container img {
+  width: 2rem;
+  animation: snowplay 6s ease-in infinite;
+}
+
+@keyframes snowplay {
+  0% {
+    visibility: visible;
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 0.9;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(85vh);
+    opacity: 0;
+  }
+}
+
+.container img:nth-child(1) {
+  animation-delay: 0.5ms;
+}
+
+.container img:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.container img:nth-child(3) {
+  animation-delay: 1ms;
+}
+
+.container img:nth-child(4) {
+  animation-delay: 0.3ms;
+}
+
+.container img:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.container img:nth-child(6) {
+  animation-delay: 1.3s;
+}
+
+.container img:nth-child(7) {
+  animation-delay: 0.7s;
+}
+
+.container img:nth-child(8) {
+  animation-delay: 1.5s;
+}
+
+.container img:nth-child(9) {
+  animation-delay: 0.8s;
+}
+
+.container img:nth-child(10) {
+  animation-delay: 2s;
+}
+
+.container img:nth-child(11) {
+  animation-delay: 0.7ms;
+}
+
+.container img:nth-child(12) {
+  animation-delay: 1.3s;
+}
