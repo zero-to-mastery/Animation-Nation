@@ -5130,7 +5130,8 @@ let cards = [
     {
     artName: 'Cool animation',
     pageLink: './Art/Anna/index.html',
-    author: 'Anna',
+    imageLink: './Art/Anna/6Dg.gif',
+    author: 'Anna Baroyan',
     githubLink: 'https://github.com/annabaroyan'
   }
 ];
