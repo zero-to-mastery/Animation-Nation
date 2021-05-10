@@ -1,5 +1,11 @@
 let cards = [
   {
+    artName: 'Cool animation',
+    pageLink: './Art/Anna/index.html',
+    author: 'Anna',
+    githubLink: 'https://github.com/annabaroyan'
+  }
+  {
     artName: 'Dog animation',
     pageLink: './Art/AbhishekSingh-Animation-Contribution/index.html',
     imageLink: './Art/AbhishekSingh-Animation-Contribution/gif.png',
