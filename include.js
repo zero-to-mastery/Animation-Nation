@@ -1,11 +1,5 @@
 let cards = [
   {
-    artName: 'Cool animation',
-    pageLink: './Art/Anna/index.html',
-    author: 'Anna',
-    githubLink: 'https://github.com/annabaroyan'
-  }
-  {
     artName: 'Dog animation',
     pageLink: './Art/AbhishekSingh-Animation-Contribution/index.html',
     imageLink: './Art/AbhishekSingh-Animation-Contribution/gif.png',
@@ -5131,6 +5125,13 @@ let cards = [
     imageLink: 'https://media1.giphy.com/media/9cJE8Znq6Ghd66duIz/giphy.gif',
     author: 'John Maturan',
     githubLink: 'https://github.com/JohnMaturan97'
+  },
+
+    {
+    artName: 'Cool animation',
+    pageLink: './Art/Anna/index.html',
+    author: 'Anna',
+    githubLink: 'https://github.com/annabaroyan'
   }
 ];
 
