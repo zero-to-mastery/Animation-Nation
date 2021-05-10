@@ -1,0 +1,71 @@
+body{
+	background-color: #363b40;
+	font-family: 'Dancing Script', cursive;
+}
+h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+div#container{
+	position: relative;
+	height: 100vh;
+	z-index: 1;
+}
+
+div#blockContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	margin-top: 50px
+}
+#mario{
+	width: 200px;
+	bottom: 80px;
+	right: 0px;
+	position: absolute;
+	z-index: 1;
+}
+
+#block{
+	width: 100px;
+	z-index: 2;
+	opacity: 1;
+	animation: jump 0.6s linear infinite alternate;
+}
+
+#coin{
+	width: 70px;
+	z-index: 1;
+	position: relative;
+	right: 85px;
+	bottom: 90px;
+	animation: coin 0.9s linear infinite forwards;
+}
+
+@keyframes jump{
+	0%{ transform: translateY(0px); }
+	50%{ transform: translateY(-10px); }
+	100%{ transform: translateY(0px); }
+}
+
+@keyframes coin{
+	0%{
+		transform: translateY(0px) rotateY(0deg);
+		opacity: 1;
+	}
+	50%{
+		transform: translateY(-100px) rotateY(180deg) ;
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(-100px) rotateY(360deg);
+		opacity: 0;
+	}
+}

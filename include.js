@@ -5125,6 +5125,13 @@ let cards = [
     imageLink: 'https://media1.giphy.com/media/9cJE8Znq6Ghd66duIz/giphy.gif',
     author: 'John Maturan',
     githubLink: 'https://github.com/JohnMaturan97'
+  },
+  {
+    artName: 'Super mario',
+    pageLink: './Art/SuperMario animation/index.html',
+    imageLink: './Art/SuperMario animation/superMario.gif',
+    author: 'Harsh Anand',
+    githubLink: 'https://github.com/HarshAn119'
   }
 ];
 
