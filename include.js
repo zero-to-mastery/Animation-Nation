@@ -5125,6 +5125,13 @@ let cards = [
     imageLink: 'https://media1.giphy.com/media/9cJE8Znq6Ghd66duIz/giphy.gif',
     author: 'John Maturan',
     githubLink: 'https://github.com/JohnMaturan97'
+  },
+  {
+    artname: 'Loadtext'
+    pageLink: './Art/loadtext/index.html',
+    imageLink: './Art/loadtext/loading_text.gif',
+    author: 'Dmitri',
+    githubLink: 'https://github.com/dbud-hub'
   }
 ];
 
