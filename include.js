@@ -5128,9 +5128,9 @@ let cards = [
   },
 
     {
-    artName: 'Cool animation',
+    artName: 'Balls',
     pageLink: './Art/Anna/index.html',
-    imageLink: './Art/Anna/6Dg.gif',
+    imageLink: './Art/Anna/dna.gif',
     author: 'Anna Baroyan',
     githubLink: 'https://github.com/annabaroyan'
   }
