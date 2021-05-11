@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#first {
+	display: inline-block;
+	background: #DD5145;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  opacity: .7;
+}
+
+#second {
+	display: inline-block;
+	background: #18A05E;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate-reverse;
+  opacity: .7;
+}
+
+#third {
+	display: inline-block;
+	background: #FFCD42;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  opacity: .7;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}

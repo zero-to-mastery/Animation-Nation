@@ -5125,6 +5125,13 @@ let cards = [
     imageLink: 'https://media1.giphy.com/media/9cJE8Znq6Ghd66duIz/giphy.gif',
     author: 'John Maturan',
     githubLink: 'https://github.com/JohnMaturan97'
+  },
+  {
+    artName: 'Balls',
+    pageLink: './Art/AnnaBaroyan/index.html',
+    imageLink: './Art/AnnaBaroyan/anim.gif',
+    author: 'Anna Baroyan',
+    githubLink: 'https://github.com/annabaroyan'
   }
 ];
 
