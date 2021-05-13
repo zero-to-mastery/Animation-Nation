@@ -5145,15 +5145,14 @@ let cards = [
     pageLink: './Art/dhruvm/index.html',
     author: 'dhruvhm',
     githubLink: 'https://github.com/dhruvhm'
-  }
-
+  },
   {
-    artName ; 'SohaibAnimation'
+    artName: 'SohaibAnimation',
     pageLink: './Art/SohaibAnimation/index.html',
     imageLink: './Art/SohaibAnimation/animatedcircle.gif',
     author: 'Sohaib',
     githubLink: 'https://github.com/SohaibAfani'
-   }
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
