@@ -1,0 +1,18 @@
+dive#one{
+    height:100px;
+    width:100%;
+    background: #ddd;
+    animation:slidein .3s linear 1s infinite;
+}
+dive#two{
+    height:100px;
+    width:100%;
+    background: rgb(13, 168, 142);
+    animation:slidein .3s linear 1s infinite;
+}
+dive#three{
+    height:100px;
+    width:100%;
+    background: rgb(109, 25, 25);
+    animation:slidein .3s linear 1s infinite;
+}

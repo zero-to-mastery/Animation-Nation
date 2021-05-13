@@ -5125,6 +5125,13 @@ let cards = [
     imageLink: 'https://media1.giphy.com/media/9cJE8Znq6Ghd66duIz/giphy.gif',
     author: 'John Maturan',
     githubLink: 'https://github.com/JohnMaturan97'
+  },
+  {
+    artName: 'Carson Rodrigues',
+    pageLink: './Art/rodriguescarson/index.html',
+    imageLink: './Art/rodriguescarson/gif.gif',
+    author: 'Carson Rodrigues',
+    githubLink: 'https://github.com/rodriguescarson'
   }
 ];
 
