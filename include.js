@@ -1,6 +1,6 @@
 let cards = [
   {
-  	artName: 'DayToNight'
+    artName: 'DayToNight',
     pageLink: './Art/DayToNight By Arpan/index.html',
     imageLink: './Art/Joy/DayToNight By Arpan/giphy.gif',
     author: 'ArpanGyawali',
@@ -5092,13 +5092,13 @@ let cards = [
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
   },
-  {    
+  {
     artName: 'ReactLogoAnimation',
     pageLink: './Art/sanketanimation/index.html',
     imageLink: './Art/sanketanimation/triangle.gif',
     author: 'sanketwakhare',
     githubLink: 'https://github.com/sanketwakhare'
-  }
+  },
   {
     artName: 'Disco',
     pageLink: './Art/Disco/index.html',
@@ -5139,9 +5139,9 @@ let cards = [
     imageLink: 'https://media1.giphy.com/media/9cJE8Znq6Ghd66duIz/giphy.gif',
     author: 'John Maturan',
     githubLink: 'https://github.com/JohnMaturan97'
-  }
+  },
   {
-    artName: "AnimatD"
+    artName: 'AnimatD',
     pageLink: './Art/dhruvm/index.html',
     author: 'dhruvhm',
     githubLink: 'https://github.com/dhruvhm'
