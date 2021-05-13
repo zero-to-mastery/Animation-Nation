@@ -5125,6 +5125,13 @@ let cards = [
     imageLink: 'https://media1.giphy.com/media/9cJE8Znq6Ghd66duIz/giphy.gif',
     author: 'John Maturan',
     githubLink: 'https://github.com/JohnMaturan97'
+  },
+  {
+    artName: 'Shoe',
+    pageLink: './Art/JDLobo/index.html',
+    imageLink: './Art/JDLobo/shoe.gif',
+    author: 'JDLobo',
+    githubLink: 'https://github.com/jdominiclobo'
   }
 ];
 
