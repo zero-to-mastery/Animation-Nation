@@ -5154,6 +5154,13 @@ let cards = [
     githubLink: 'https://github.com/SohaibAfani'
   }
 ];
+{
+    artName: 'AniMc'
+    pageLink: './Art/anna0mclachlan/index.html',
+    imageLink: './Art/anna0mclachlan/ani2.gif',
+    author: 'anna0mclachlan',
+    githubLink: 'https://github.com/anna0mclachlan'
+  }
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
