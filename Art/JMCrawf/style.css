@@ -20,7 +20,7 @@ div {
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
-  color:#fff;
+  color: #fff;
   font-size: 6vw;
 }
 
@@ -29,8 +29,6 @@ div span {
   display: inline-block;
   animation: animate 0.8s linear forwards;
 }
-
-
 
 @keyframes animate {
   0% {
@@ -94,13 +92,12 @@ div span:nth-child(16) {
   animation-delay: 1.6s;
 }
 
-
 hr {
   border: none;
   height: 3px;
   margin: auto;
-  background-image: linear-gradient(to right, #000, red, #000); 
-  width:45%;
+  background-image: linear-gradient(to right, #000, red, #000);
+  width: 45%;
   opacity: 1;
   transform: scaleX(1);
   transform: translateX(-4%);
