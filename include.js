@@ -5072,6 +5072,13 @@ let cards = [
     githubLink: 'https://github.com/jtkyber'
   },
   {
+    artName: 'ZTM Title Animation',
+    pageLink: './Art/JMCrawf/index.html',
+    imageLink: './Art/JMCrawf/animation.gif',
+    author: 'James Crawford',
+    githubLink: 'https://github.com/JMCrawf/'
+  },
+  {
     artName: 'Bouncers',
     pageLink: './Art/Bouncers/index.html',
     imageLink: './Art/Bouncers/giphy.gif',
