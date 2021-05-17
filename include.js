@@ -5072,6 +5072,13 @@ let cards = [
     githubLink: 'https://github.com/jtkyber'
   },
   {
+    artName: 'ZTM Title Animation',
+    pageLink: './Art/JMCrawf/index.html',
+    imageLink: './Art/JMCrawf/animation.gif',
+    author: 'James Crawford',
+    githubLink: 'https://github.com/JMCrawf/'
+  },
+  {
     artName: 'Bouncers',
     pageLink: './Art/Bouncers/index.html',
     imageLink: './Art/Bouncers/giphy.gif',
@@ -5093,7 +5100,6 @@ let cards = [
     githubLink: 'https://github.com/yunjoanyu'
   },
   {
-
     artName: 'Animazing',
     pageLink: './Art/Animazing/skew.html',
     imageLink: './Art/Animazing/cropgif.gif',
@@ -5101,7 +5107,12 @@ let cards = [
     githubLink: 'https://github.com/arfelrayarriola'
   },
   {
-
+    pageLink: './Art/Akash/smiley.html',
+    imageLink: './Art/Akash/smiley.gif',
+    author: 'Akash',
+    githubLink: 'https://github.com/aksh-22'
+  },
+  {
     artName: 'ReactLogoAnimation',
     pageLink: './Art/sanketanimation/index.html',
     imageLink: './Art/sanketanimation/triangle.gif',
@@ -5161,7 +5172,6 @@ let cards = [
     imageLink: './Art/SohaibAnimation/animatedcircle.gif',
     author: 'Sohaib',
     githubLink: 'https://github.com/SohaibAfani'
-
   }
 ];
 
