@@ -60,7 +60,7 @@ body {
 
 .eye-2 {
   right: 75px;
-  animation: blink 1s ease-in infinite
+  animation: blink 1s ease-in infinite;
 }
 
 .smiley-area {
@@ -74,7 +74,7 @@ body {
   bottom: 50px;
   left: 44px;
   /* animation-name: blink; */
-  animation-duration: .5s;
+  animation-duration: 0.5s;
   animation-iteration-count: infinite;
 }
 

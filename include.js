@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'DayToNight',
+    pageLink: './Art/DayToNight By Arpan/index.html',
+    imageLink: './Art/Joy/DayToNight By Arpan/giphy.gif',
+    author: 'ArpanGyawali',
+    githubLink: 'https://github.com/ArpanGyawali'
+  },
+  {
     artName: 'Dog animation',
     pageLink: './Art/AbhishekSingh-Animation-Contribution/index.html',
     imageLink: './Art/AbhishekSingh-Animation-Contribution/gif.png',
@@ -5090,6 +5097,67 @@ let cards = [
     imageLink: './Art/Akash/smiley.gif',
     author: 'Akash',
     githubLink: 'https://github.com/aksh-22'
+  },
+  {
+    artName: 'ReactLogoAnimation',
+    pageLink: './Art/sanketanimation/index.html',
+    imageLink: './Art/sanketanimation/triangle.gif',
+    author: 'sanketwakhare',
+    githubLink: 'https://github.com/sanketwakhare'
+  },
+  {
+    artName: 'Disco',
+    pageLink: './Art/Disco/index.html',
+    imageLink: './Art/Disco/Disco.gif',
+    author: 'Anu',
+    githubLink: 'https://github.com/anudesh98'
+  },
+  {
+    pageLink: './Art/windmill/windmill.html',
+    imageLink: './Art/windmill/windmill.gif',
+    author: 'WindCy',
+    githubLink: 'https://github.com/windycy'
+  },
+  {
+    artName: 'Beating Speaker',
+    pageLink: './Art/beating-speaker/index.html',
+    imageLink: './Art/beating-speaker/BeatingSpeaker.gif',
+    author: 'TheCoderJT',
+    githubLink: 'https://github.com/TheCoderJT'
+  },
+  {
+    artName: 'Mesmerizing Loader',
+    pageLink: './Art/MesmerizingLoader/index.html',
+    imageLink: './Art/MesmerizingLoader/mesmerizing_loader.gif',
+    author: 'Gutu Galuppo',
+    githubLink: 'https://github.com/gutugaluppo'
+  },
+  {
+    artName: 'Rocket ship',
+    pageLink: './Art/Rocket_ship/index.html',
+    imageLink: './Art/Rocket_ship/Rocket-Ship.gif',
+    author: 'Gutu Galuppo',
+    githubLink: 'https://github.com/gutugaluppo'
+  },
+  {
+    artName: 'Amatron',
+    pageLink: './Art/Amatron/index.html',
+    imageLink: 'https://media1.giphy.com/media/9cJE8Znq6Ghd66duIz/giphy.gif',
+    author: 'John Maturan',
+    githubLink: 'https://github.com/JohnMaturan97'
+  },
+  {
+    artName: 'AnimatD',
+    pageLink: './Art/dhruvm/index.html',
+    author: 'dhruvhm',
+    githubLink: 'https://github.com/dhruvhm'
+  },
+  {
+    artName: 'SohaibAnimation',
+    pageLink: './Art/SohaibAnimation/index.html',
+    imageLink: './Art/SohaibAnimation/animatedcircle.gif',
+    author: 'Sohaib',
+    githubLink: 'https://github.com/SohaibAfani'
   }
 ];
 
