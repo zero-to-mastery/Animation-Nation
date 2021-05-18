@@ -5172,6 +5172,13 @@ let cards = [
     imageLink: './Art/SohaibAnimation/animatedcircle.gif',
     author: 'Sohaib',
     githubLink: 'https://github.com/SohaibAfani'
+  },
+  {
+    artName: 'K.I.T.T.',
+    pageLink: './Art/GAlexandruD/index.html',
+    imageLink: './Art/GAlexandruD/kitt_centered.gif',
+    author: 'GAlexandruD',
+    githubLink: 'https://github.com/GAlexandruD'
   }
 ];
 
