@@ -5173,6 +5173,13 @@ let cards = [
     author: 'Sohaib',
     githubLink: 'https://github.com/SohaibAfani'
   }
+  {
+    artName: 'The Spinning Tuba',
+    pageLink: './Art/dr-tuba/index.html',
+    imageLink: './Art/dr-tuba/spinningtuba.gif',
+    author: 'Steve Vaughn',
+    githubLink: 'https://github.com/dr-tuba'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
