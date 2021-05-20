@@ -5173,6 +5173,12 @@ let cards = [
     author: 'Sohaib',
     githubLink: 'https://github.com/SohaibAfani'
   }
+  {
+    artName: 'Mouataz',
+    pageLink: './Art/Mouataz/index.html',
+    author: 'Mouataz',
+    githubLink: 'https://github.com/MouatazKad'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
