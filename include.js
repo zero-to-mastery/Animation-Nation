@@ -5173,6 +5173,13 @@ let cards = [
     author: 'Sohaib',
     githubLink: 'https://github.com/SohaibAfani'
   }
+  {
+    artName: 'animatronic',
+    pageLink: './Art/animatronic/index.html',
+    imageLink: './Art/animatronic/style.css',
+    author: 'umer381a',
+    githubLink: 'https://github.com/umer381a'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
