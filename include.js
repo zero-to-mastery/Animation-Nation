@@ -1,121 +1,121 @@
 let cards = [
-  {
-    artName: 'Dog animation',
-    pageLink: './Art/AbhishekSingh-Animation-Contribution/index.html',
-    imageLink: './Art/AbhishekSingh-Animation-Contribution/gif.png',
-    author: 'Abhishek Singh',
-    githubLink: 'https://github.com/Abhishek-555'
-  },
-  {
-    artName: 'CSS Loader',
-    pageLink: './Art/BenCullen/index.html',
-    imageLink: './Art/BenCullen/Bens CSS Loader.gif',
-    author: 'Ben Cullen',
-    githubLink: 'https://github.com/BenjaminCullen1'
-  },
-  {
-    artName: 'Flag',
-    pageLink: './Art/IurianSimionDorin/index.html',
-    imageLink: './Art/IurianSimionDorin/flag.gif',
-    author: 'IurianSimionDorin',
-    githubLink: 'https://github.com/IurianSimionDorin'
-  },
-  {
-    artName: 'Rainbow Text Spin',
-    pageLink: './Art/mallen13/index.html',
-    imageLink: 'stillPic.jpg',
-    author: 'mallen2013',
-    githubLink: 'https://github.com/mallen2013'
-  },
-  {
-    artName: 'Disco Bubble',
-    pageLink: './Art/konstantify/index.html',
-    imageLink: './Art/konstantify/konst.gif',
-    author: 'Constantin',
-    githubLink: 'https://github.com/konstantin0s'
-  },
-  {
-    artName: 'Art',
-    pageLink: './Art/mishra-parth/index.html',
-    imageLink: './Art/mishra-parth/mishra-parth-project.gif',
-    author: 'Parth',
-    githubLink: 'https://github.com/mishra-parth'
-  },
-  {
-    artName: 'Aymat',
-    pageLink: './Art/aymat/index.html',
-    imageLink: './Art/aymat/Capture.gif',
-    author: 'aysha30',
-    githubLink: 'https://github.com/aysha30'
-  },
-  {
-    artName: 'Scissors Cutting Animation (CSS only)',
-    pageLink: './Art/CoffeeAnimation/index.html',
-    imageLink: './Art/CoffeeAnimation/scissors-cutting-animation.gif',
-    author: 'Angelo Marcinnò',
-    githubLink: 'https://github.com/angelo24782'
-  },
-  {
-    artName: 'Cool CSS Preloader',
-    pageLink: './Art/Himanshu_Kumawat/index.html',
-    imageLink: './Art/Himanshu_Kumawat/preloader.gif',
-    author: 'Himanshu Kumawat',
-    githubLink: 'https://github.com/013himanshu'
-  },
-  {
-    artName: 'Troll-Ball',
-    pageLink: './Art/ivantbv/index.html',
-    imageLink: './Art/ivantbv/troll-ball.gif',
-    author: 'ivantbv',
-    githubLink: 'https://github.com/ivantbv'
-  },
-  {
-    artName: 'CSS heART',
-    pageLink: './Art/Aarush/Heart.html',
-    imageLink: './Art/Aarush/Heart.png',
-    author: 'Aarush Bhat',
-    githubLink: 'https://github.com/r-ush'
-  },
-  {
-    artName: 'Image With Gray Scale Effect',
-    pageLink: './Art/Image With Gray Scale Effect',
-    imageLink:
-      './Art/Image With Gray Scale Effect/Image-With-Gray-Scale-Effect.gif',
-    author: 'Vikrant Kumar',
-    githubLink: 'https://github.com/VikrantKu333'
-  },
-  {
-    artname: 'Animation-Cool',
-    pageLink: './Art/apilacharya/index.html',
-    imageLink: './Art/apilacharya/animation-cool.gif',
-    author: 'Apil Raj Acharya',
-    githubLink: 'https://github.com/apilacharya'
-  },
+{
+  artName: 'Dog animation',
+  pageLink: './Art/AbhishekSingh-Animation-Contribution/index.html',
+  imageLink: './Art/AbhishekSingh-Animation-Contribution/gif.png',
+  author: 'Abhishek Singh',
+  githubLink: 'https://github.com/Abhishek-555'
+},
+{
+  artName: 'CSS Loader',
+  pageLink: './Art/BenCullen/index.html',
+  imageLink: './Art/BenCullen/Bens CSS Loader.gif',
+  author: 'Ben Cullen',
+  githubLink: 'https://github.com/BenjaminCullen1'
+},
+{
+  artName: 'Flag',
+  pageLink: './Art/IurianSimionDorin/index.html',
+  imageLink: './Art/IurianSimionDorin/flag.gif',
+  author: 'IurianSimionDorin',
+  githubLink: 'https://github.com/IurianSimionDorin'
+},
+{
+  artName: 'Rainbow Text Spin',
+  pageLink: './Art/mallen13/index.html',
+  imageLink: 'stillPic.jpg',
+  author: 'mallen2013',
+  githubLink: 'https://github.com/mallen2013'
+},
+{
+  artName: 'Disco Bubble',
+  pageLink: './Art/konstantify/index.html',
+  imageLink: './Art/konstantify/konst.gif',
+  author: 'Constantin',
+  githubLink: 'https://github.com/konstantin0s'
+},
+{
+  artName: 'Art',
+  pageLink: './Art/mishra-parth/index.html',
+  imageLink: './Art/mishra-parth/mishra-parth-project.gif',
+  author: 'Parth',
+  githubLink: 'https://github.com/mishra-parth'
+},
+{
+  artName: 'Aymat',
+  pageLink: './Art/aymat/index.html',
+  imageLink: './Art/aymat/Capture.gif',
+  author: 'aysha30',
+  githubLink: 'https://github.com/aysha30'
+},
+{
+  artName: 'Scissors Cutting Animation (CSS only)',
+  pageLink: './Art/CoffeeAnimation/index.html',
+  imageLink: './Art/CoffeeAnimation/scissors-cutting-animation.gif',
+  author: 'Angelo Marcinnò',
+  githubLink: 'https://github.com/angelo24782'
+},
+{
+  artName: 'Cool CSS Preloader',
+  pageLink: './Art/Himanshu_Kumawat/index.html',
+  imageLink: './Art/Himanshu_Kumawat/preloader.gif',
+  author: 'Himanshu Kumawat',
+  githubLink: 'https://github.com/013himanshu'
+},
+{
+  artName: 'Troll-Ball',
+  pageLink: './Art/ivantbv/index.html',
+  imageLink: './Art/ivantbv/troll-ball.gif',
+  author: 'ivantbv',
+  githubLink: 'https://github.com/ivantbv'
+},
+{
+  artName: 'CSS heART',
+  pageLink: './Art/Aarush/Heart.html',
+  imageLink: './Art/Aarush/Heart.png',
+  author: 'Aarush Bhat',
+  githubLink: 'https://github.com/r-ush'
+},
+{
+  artName: 'Image With Gray Scale Effect',
+  pageLink: './Art/Image With Gray Scale Effect',
+  imageLink:
+  './Art/Image With Gray Scale Effect/Image-With-Gray-Scale-Effect.gif',
+  author: 'Vikrant Kumar',
+  githubLink: 'https://github.com/VikrantKu333'
+},
+{
+  artname: 'Animation-Cool',
+  pageLink: './Art/apilacharya/index.html',
+  imageLink: './Art/apilacharya/animation-cool.gif',
+  author: 'Apil Raj Acharya',
+  githubLink: 'https://github.com/apilacharya'
+},
 
-  {
-    artName: 'covid-19',
-    pageLink: './Art/shivam12k/index.html',
-    videoLink: './Art/cell/cell.mp4',
-    author: 'shivam12k',
-    githubLink: 'https://github.com/shivam12k'
-  },
-  {
-    artName: 'Bouncing Heart',
-    pageLink: './Art/love2cr3ate/index.html',
-    imageLink: './Art/love2cr3ate/bouncing-heart.gif',
-    author: 'l0ve2cr3ate',
-    githubLink: 'https://github.com/l0ve2cr3ate'
-  },
-  {
-    artName: 'Animated-Loading',
-    pageLink: './Art/Animated-Loading/index.html',
-    imageLink: './Art/Animated-Loading/Animated-Loading.gif',
-    author: 'Mehul1011',
-    githubLink: 'https://github.com/mehul1011'
-  },
-  {
-    artName: 'covid-19',
-    pageLink: './Art/shivam12k/index.html',
+{
+  artName: 'covid-19',
+  pageLink: './Art/shivam12k/index.html',
+  videoLink: './Art/cell/cell.mp4',
+  author: 'shivam12k',
+  githubLink: 'https://github.com/shivam12k'
+},
+{
+  artName: 'Bouncing Heart',
+  pageLink: './Art/love2cr3ate/index.html',
+  imageLink: './Art/love2cr3ate/bouncing-heart.gif',
+  author: 'l0ve2cr3ate',
+  githubLink: 'https://github.com/l0ve2cr3ate'
+},
+{
+  artName: 'Animated-Loading',
+  pageLink: './Art/Animated-Loading/index.html',
+  imageLink: './Art/Animated-Loading/Animated-Loading.gif',
+  author: 'Mehul1011',
+  githubLink: 'https://github.com/mehul1011'
+},
+{
+  artName: 'covid-19',
+  pageLink: './Art/shivam12k/index.html',
     // videoLink: './Art/cell/cell.mp4',
     imageLink: '#',
     author: 'shivam12k',
@@ -1857,7 +1857,7 @@ let cards = [
     artName: 'Mystical-Hacktoberfest',
     pageLink: './Art/Wayne/index.html',
     imageLink:
-      './Art/Wayne/hacktoberfest - Google Chrome 09 Oct 2019 21_12_32.png',
+    './Art/Wayne/hacktoberfest - Google Chrome 09 Oct 2019 21_12_32.png',
     author: 'Wayne Mac Mavis',
     githubLink: 'https://github.com/WayneMacMavis'
   },
@@ -5084,8 +5084,15 @@ let cards = [
     imageLink: './Art/Robot/Robot.gif',
     author: 'Yun',
     githubLink: 'https://github.com/yunjoanyu'
+  },
+  {
+    artName: 'Out of This World',
+    pageLink: './Art/Out-of-This-World/index.html',
+    imageLink: './Art/Out-of-This-World/OOTW.gif',
+    author: 'Xenark',
+    githubLink: 'https://github.com/xenark'
   }
-];
+  ];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -5099,15 +5106,15 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
-  ]);
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
+    ]);
 });
 
 document.getElementById('cards').innerHTML = contents;
@@ -5117,6 +5124,6 @@ function Shuffle(o) {
     var j, x, i = o.length;
     i;
     j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
-  );
-  return o;
+    );
+    return o;
 }
