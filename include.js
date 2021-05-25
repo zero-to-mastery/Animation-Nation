@@ -91,7 +91,105 @@ let cards = [
   author: 'Apil Raj Acharya',
   githubLink: 'https://github.com/apilacharya'
 },
-
+  {
+    artName: 'DayToNight',
+    pageLink: './Art/DayToNight By Arpan/index.html',
+    imageLink: './Art/Joy/DayToNight By Arpan/giphy.gif',
+    author: 'ArpanGyawali',
+    githubLink: 'https://github.com/ArpanGyawali'
+  },
+  {
+    artName: 'Dog animation',
+    pageLink: './Art/AbhishekSingh-Animation-Contribution/index.html',
+    imageLink: './Art/AbhishekSingh-Animation-Contribution/gif.png',
+    author: 'Abhishek Singh',
+    githubLink: 'https://github.com/Abhishek-555'
+  },
+  {
+    artName: 'CSS Loader',
+    pageLink: './Art/BenCullen/index.html',
+    imageLink: './Art/BenCullen/Bens CSS Loader.gif',
+    author: 'Ben Cullen',
+    githubLink: 'https://github.com/BenjaminCullen1'
+  },
+  {
+    artName: 'Flag',
+    pageLink: './Art/IurianSimionDorin/index.html',
+    imageLink: './Art/IurianSimionDorin/flag.gif',
+    author: 'IurianSimionDorin',
+    githubLink: 'https://github.com/IurianSimionDorin'
+  },
+  {
+    artName: 'Rainbow Text Spin',
+    pageLink: './Art/mallen13/index.html',
+    imageLink: 'stillPic.jpg',
+    author: 'mallen2013',
+    githubLink: 'https://github.com/mallen2013'
+  },
+  {
+    artName: 'Disco Bubble',
+    pageLink: './Art/konstantify/index.html',
+    imageLink: './Art/konstantify/konst.gif',
+    author: 'Constantin',
+    githubLink: 'https://github.com/konstantin0s'
+  },
+  {
+    artName: 'Art',
+    pageLink: './Art/mishra-parth/index.html',
+    imageLink: './Art/mishra-parth/mishra-parth-project.gif',
+    author: 'Parth',
+    githubLink: 'https://github.com/mishra-parth'
+  },
+  {
+    artName: 'Aymat',
+    pageLink: './Art/aymat/index.html',
+    imageLink: './Art/aymat/Capture.gif',
+    author: 'aysha30',
+    githubLink: 'https://github.com/aysha30'
+  },
+  {
+    artName: 'Scissors Cutting Animation (CSS only)',
+    pageLink: './Art/CoffeeAnimation/index.html',
+    imageLink: './Art/CoffeeAnimation/scissors-cutting-animation.gif',
+    author: 'Angelo Marcinnò',
+    githubLink: 'https://github.com/angelo24782'
+  },
+  {
+    artName: 'Cool CSS Preloader',
+    pageLink: './Art/Himanshu_Kumawat/index.html',
+    imageLink: './Art/Himanshu_Kumawat/preloader.gif',
+    author: 'Himanshu Kumawat',
+    githubLink: 'https://github.com/013himanshu'
+  },
+  {
+    artName: 'Troll-Ball',
+    pageLink: './Art/ivantbv/index.html',
+    imageLink: './Art/ivantbv/troll-ball.gif',
+    author: 'ivantbv',
+    githubLink: 'https://github.com/ivantbv'
+  },
+  {
+    artName: 'CSS heART',
+    pageLink: './Art/Aarush/Heart.html',
+    imageLink: './Art/Aarush/Heart.png',
+    author: 'Aarush Bhat',
+    githubLink: 'https://github.com/r-ush'
+  },
+  {
+    artName: 'Image With Gray Scale Effect',
+    pageLink: './Art/Image With Gray Scale Effect',
+    imageLink:
+      './Art/Image With Gray Scale Effect/Image-With-Gray-Scale-Effect.gif',
+    author: 'Vikrant Kumar',
+    githubLink: 'https://github.com/VikrantKu333'
+  },
+  {
+    artname: 'Animation-Cool',
+    pageLink: './Art/apilacharya/index.html',
+    imageLink: './Art/apilacharya/animation-cool.gif',
+    author: 'Apil Raj Acharya',
+    githubLink: 'https://github.com/apilacharya'
+  },
 {
   artName: 'covid-19',
   pageLink: './Art/shivam12k/index.html',
@@ -5065,6 +5163,13 @@ let cards = [
     githubLink: 'https://github.com/jtkyber'
   },
   {
+    artName: 'ZTM Title Animation',
+    pageLink: './Art/JMCrawf/index.html',
+    imageLink: './Art/JMCrawf/animation.gif',
+    author: 'James Crawford',
+    githubLink: 'https://github.com/JMCrawf/'
+  },
+  {
     artName: 'Bouncers',
     pageLink: './Art/Bouncers/index.html',
     imageLink: './Art/Bouncers/giphy.gif',
@@ -5091,6 +5196,78 @@ let cards = [
     imageLink: './Art/Out-of-This-World/OOTW.gif',
     author: 'Xenark',
     githubLink: 'https://github.com/xenark'
+    artName: 'Animazing',
+    pageLink: './Art/Animazing/skew.html',
+    imageLink: './Art/Animazing/cropgif.gif',
+    author: 'Arfel Ray',
+    githubLink: 'https://github.com/arfelrayarriola'
+  },
+  {
+    pageLink: './Art/Akash/smiley.html',
+    imageLink: './Art/Akash/smiley.gif',
+    author: 'Akash',
+    githubLink: 'https://github.com/aksh-22'
+  },
+  {
+    artName: 'ReactLogoAnimation',
+    pageLink: './Art/sanketanimation/index.html',
+    imageLink: './Art/sanketanimation/triangle.gif',
+    author: 'sanketwakhare',
+    githubLink: 'https://github.com/sanketwakhare'
+  },
+  {
+    artName: 'Disco',
+    pageLink: './Art/Disco/index.html',
+    imageLink: './Art/Disco/Disco.gif',
+    author: 'Anu',
+    githubLink: 'https://github.com/anudesh98'
+  },
+  {
+    pageLink: './Art/windmill/windmill.html',
+    imageLink: './Art/windmill/windmill.gif',
+    author: 'WindCy',
+    githubLink: 'https://github.com/windycy'
+  },
+  {
+    artName: 'Beating Speaker',
+    pageLink: './Art/beating-speaker/index.html',
+    imageLink: './Art/beating-speaker/BeatingSpeaker.gif',
+    author: 'TheCoderJT',
+    githubLink: 'https://github.com/TheCoderJT'
+  },
+  {
+    artName: 'Mesmerizing Loader',
+    pageLink: './Art/MesmerizingLoader/index.html',
+    imageLink: './Art/MesmerizingLoader/mesmerizing_loader.gif',
+    author: 'Gutu Galuppo',
+    githubLink: 'https://github.com/gutugaluppo'
+  },
+  {
+    artName: 'Rocket ship',
+    pageLink: './Art/Rocket_ship/index.html',
+    imageLink: './Art/Rocket_ship/Rocket-Ship.gif',
+    author: 'Gutu Galuppo',
+    githubLink: 'https://github.com/gutugaluppo'
+  },
+  {
+    artName: 'Amatron',
+    pageLink: './Art/Amatron/index.html',
+    imageLink: 'https://media1.giphy.com/media/9cJE8Znq6Ghd66duIz/giphy.gif',
+    author: 'John Maturan',
+    githubLink: 'https://github.com/JohnMaturan97'
+  },
+  {
+    artName: 'AnimatD',
+    pageLink: './Art/dhruvm/index.html',
+    author: 'dhruvhm',
+    githubLink: 'https://github.com/dhruvhm'
+  },
+  {
+    artName: 'SohaibAnimation',
+    pageLink: './Art/SohaibAnimation/index.html',
+    imageLink: './Art/SohaibAnimation/animatedcircle.gif',
+    author: 'Sohaib',
+    githubLink: 'https://github.com/SohaibAfani'
   }
   ];
 
