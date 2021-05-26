@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/Abhishek-555'
   },
   {
+    artName: 'Animation square rotate',
+    pageLink: './Art/Animation square rotate/index.html',
+    imageLink: './Art/Animation square rotate/image.jpeg',
+    author: 'Nampelly_varun',
+    githubLink: 'https://github.com/nampellyvarun'
+  },
+  {
     artName: 'CSS Loader',
     pageLink: './Art/BenCullen/index.html',
     imageLink: './Art/BenCullen/Bens CSS Loader.gif',
