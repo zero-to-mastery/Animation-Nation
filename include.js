@@ -5200,6 +5200,12 @@ let cards = [
     imageLink: './Art/anna0mclachlan/ani2.gif',
     author: 'anna0mclachlan',
     githubLink: 'https://github.com/anna0mclachlan'
+  },
+  {
+    artName: 'Amit',
+    pageLink: './Art/amit/index.html',
+    author: 'Amit',
+    githubLink: 'https://github.com/amitsharmaa'
   }
 ];
 // +--------------------------------------------------------------------------------+
