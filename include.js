@@ -5172,6 +5172,34 @@ let cards = [
     imageLink: './Art/SohaibAnimation/animatedcircle.gif',
     author: 'Sohaib',
     githubLink: 'https://github.com/SohaibAfani'
+  },
+  {
+    artName: 'PedroHFSilva',
+    pageLink: './Art/pedrohfranklin/index.html',
+    imageLink: './Art/pedrohfranklin/animatedcircle.gif',
+    author: 'Pedro Franklin',
+    githubLink: 'https://github.com/pedrohfranklin'
+  },
+  {
+    artName: 'K.I.T.T.',
+    pageLink: './Art/GAlexandruD/index.html',
+    imageLink: './Art/GAlexandruD/kitt_centered.gif',
+    author: 'GAlexandruD',
+    githubLink: 'https://github.com/GAlexandruD'
+  },
+  {
+    artName: 'The Spinning Tuba',
+    pageLink: './Art/dr-tuba/index.html',
+    imageLink: './Art/dr-tuba/spinningtuba.gif',
+    author: 'Steve Vaughn',
+    githubLink: 'https://github.com/dr-tuba'
+  },
+  {
+    artName: 'AniMc',
+    pageLink: './Art/anna0mclachlan/index.html',
+    imageLink: './Art/anna0mclachlan/ani2.gif',
+    author: 'anna0mclachlan',
+    githubLink: 'https://github.com/anna0mclachlan'
   }
   {
     artName: 'Mouataz',
@@ -5180,7 +5208,6 @@ let cards = [
     githubLink: 'https://github.com/MouatazKad'
   }
 ];
-
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
