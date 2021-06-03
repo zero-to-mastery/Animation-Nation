@@ -5206,6 +5206,13 @@ let cards = [
     pageLink: './Art/Mouataz/index.html',
     author: 'Mouataz',
     githubLink: 'https://github.com/MouatazKad'
+  },
+  {
+    artName: 'Who could it be?',
+    pageLink: './Art/pjwmascall/index.html',
+    imageLink: './Art/pjwmascall/thumbnail.gif',
+    author: 'pjwmascall',
+    githubLink: 'https://github.com/pjwmascall'
   }
 ];
 // +--------------------------------------------------------------------------------+
