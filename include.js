@@ -5206,6 +5206,13 @@ let cards = [
     pageLink: './Art/Mouataz/index.html',
     author: 'Mouataz',
     githubLink: 'https://github.com/MouatazKad'
+  },
+  {
+    artName: 'Sparkle',
+    pageLink: './Art/Sparkle/index.html',
+    imageLink: './Art/Sparkle/Animation.gif',
+    author: 'palak2603',
+    githubLink: 'https://github.com/palak2603'
   }
 ];
 // +--------------------------------------------------------------------------------+
