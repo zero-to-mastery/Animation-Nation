@@ -5206,7 +5206,14 @@ let cards = [
     pageLink: './Art/Mouataz/index.html',
     author: 'Mouataz',
     githubLink: 'https://github.com/MouatazKad'
-  }
+  },
+  {
+    artName: 'Moving graph',
+    pageLink: './Art/Joy/moving-graph/index.html',
+    imageLink: './Art/Joy//moving-graph.gif',
+    author: 'kimjusang',
+    githubLink: 'https://github.com/kimjusang'
+  },
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
