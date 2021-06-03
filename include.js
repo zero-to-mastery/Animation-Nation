@@ -5201,6 +5201,14 @@ let cards = [
     author: 'anna0mclachlan',
     githubLink: 'https://github.com/anna0mclachlan'
   }
+
+   {
+    artName: "Home"
+    pageLink: './Art/rez4president/index.html',
+    imageLink: './Art/rez4president/home.gif',
+    author: 'Raza Ul Kareem',
+    githubLink: 'https://github.com/rez4president'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
