@@ -5214,6 +5214,13 @@ let cards = [
     author: 'kimjusang',
     githubLink: 'https://github.com/kimjusang'
   },
+  {
+    artName: 'Always Be',
+    pageLink: './Art/Joy/animatron-kim/index.html',
+    imageLink: './Art/Joy//always.gif',
+    author: 'kimjusang',
+    githubLink: 'https://github.com/kimjusang'
+  },
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
