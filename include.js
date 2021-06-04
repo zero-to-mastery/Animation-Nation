@@ -5174,6 +5174,7 @@ let cards = [
     githubLink: 'https://github.com/SohaibAfani'
   },
   {
+    artName: 'Bitcorn',
     pageLink: './Art/bitcorn/index.html',
     imageLink: './Art/bitcorn/bitcorn.gif',
     author: 'Suhtoshi',
