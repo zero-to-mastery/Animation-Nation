@@ -5206,6 +5206,12 @@ let cards = [
     pageLink: './Art/Mouataz/index.html',
     author: 'Mouataz',
     githubLink: 'https://github.com/MouatazKad'
+  },
+  {
+    artName: 'TomatoSpin',
+    pageLink: './Art/tomatoSpin/index.html',
+    author: 'Mateo',
+    githubLink: 'https://github.com/mateodibenedetto'  
   }
 ];
 // +--------------------------------------------------------------------------------+
