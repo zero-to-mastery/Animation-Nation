@@ -5174,6 +5174,13 @@ let cards = [
     githubLink: 'https://github.com/SohaibAfani'
   },
   {
+    artName: 'KakashiHead',
+    pageLink: './Art/HamizJamil/index.html',
+    imageLink: './Art/HamizJamil/kakashianimation.gif',
+    author: 'Hamiz',
+    githubLink: 'https://github.com/HamizJamil'
+  },
+  {
     artName: 'PedroHFSilva',
     pageLink: './Art/pedrohfranklin/index.html',
     imageLink: './Art/pedrohfranklin/animatedcircle.gif',
