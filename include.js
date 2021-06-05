@@ -5214,7 +5214,6 @@ let cards = [
     githubLink: 'https://github.com/newSagarOS'
   }
 ];
-];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
