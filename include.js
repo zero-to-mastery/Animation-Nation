@@ -5206,7 +5206,14 @@ let cards = [
     pageLink: './Art/Mouataz/index.html',
     author: 'Mouataz',
     githubLink: 'https://github.com/MouatazKad'
+  },
+  {
+    artName: 'RandomNation'
+    pageLink: './Art/see_s_s/index.html',
+    author: 'Sagar',
+    githubLink: 'https://github.com/newSagarOS'
   }
+];
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
