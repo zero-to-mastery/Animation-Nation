@@ -5207,6 +5207,13 @@ let cards = [
     author: 'Mouataz',
     githubLink: 'https://github.com/MouatazKad'
   }
+  {
+    artName: 'ShibaInu',
+    pageLink: './Art/Shiinoya/index.html',
+    imageLink: './Art/Shiinoya/ShibaInu.gif',
+    author: 'Shiinoya',
+    githubLink: 'https://github.com/Shiinoya'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
