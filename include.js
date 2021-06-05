@@ -5206,6 +5206,13 @@ let cards = [
     pageLink: './Art/Mouataz/index.html',
     author: 'Mouataz',
     githubLink: 'https://github.com/MouatazKad'
+  },
+  {
+    artName: "Animating"
+    pageLink: './Art/Animating/index.html',
+    imageLink: './Art/Animating/2021-06-05_17_10_54-Greenshot.jpg',
+    author: 'Sahil Shailesh Pedamkar',
+    githubLink: 'https://github.com/sahilpedamkar21'
   }
 ];
 // +--------------------------------------------------------------------------------+
