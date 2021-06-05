@@ -5206,6 +5206,13 @@ let cards = [
     pageLink: './Art/Mouataz/index.html',
     author: 'Mouataz',
     githubLink: 'https://github.com/MouatazKad'
+  },
+  {
+    artName: 'Moving Car'
+    pageLink: './Art/Manali/index.html',
+    imageLink: './Art/Manali/Movingcar.gif',
+    author: 'Manali',
+    githubLink: 'https://github.com/Mana21li'
   }
   {
     artName: 'ShibaInu',
