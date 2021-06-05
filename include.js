@@ -5174,14 +5174,75 @@ let cards = [
     githubLink: 'https://github.com/SohaibAfani'
   },
   {
-    artName: 'KakashiHead'
+    artName: 'KakashiHead',
     pageLink: './Art/HamizJamil/index.html',
     imageLink: './Art/HamizJamil/kakashianimation.gif',
     author: 'Hamiz',
     githubLink: 'https://github.com/HamizJamil'
+  },
+  {
+    artName: 'PedroHFSilva',
+    pageLink: './Art/pedrohfranklin/index.html',
+    imageLink: './Art/pedrohfranklin/animatedcircle.gif',
+    author: 'Pedro Franklin',
+    githubLink: 'https://github.com/pedrohfranklin'
+  },
+  {
+    artName: 'K.I.T.T.',
+    pageLink: './Art/GAlexandruD/index.html',
+    imageLink: './Art/GAlexandruD/kitt_centered.gif',
+    author: 'GAlexandruD',
+    githubLink: 'https://github.com/GAlexandruD'
+  },
+  {
+    artName: 'The Spinning Tuba',
+    pageLink: './Art/dr-tuba/index.html',
+    imageLink: './Art/dr-tuba/spinningtuba.gif',
+    author: 'Steve Vaughn',
+    githubLink: 'https://github.com/dr-tuba'
+  },
+  {
+    artName: 'AniMc',
+    pageLink: './Art/anna0mclachlan/index.html',
+    imageLink: './Art/anna0mclachlan/ani2.gif',
+    author: 'anna0mclachlan',
+    githubLink: 'https://github.com/anna0mclachlan'
+  },
+  {
+    artName: 'Mouataz',
+    pageLink: './Art/Mouataz/index.html',
+    author: 'Mouataz',
+    githubLink: 'https://github.com/MouatazKad'
+  },
+  {
+    artName: "Animating",
+    pageLink: './Art/Animating/index.html',
+    imageLink: './Art/Animating/2021-06-05_17_10_54-Greenshot.jpg',
+    author: 'Sahil Shailesh Pedamkar',
+    githubLink: 'https://github.com/sahilpedamkar21'
+  },
+  {
+    artName: 'Moving Car',
+    pageLink: './Art/Manali/index.html',
+    imageLink: './Art/Manali/Movingcar.gif',
+    author: 'Manali',
+    githubLink: 'https://github.com/Mana21li'
+  },
+  {
+    artName: 'ShibaInu',
+    pageLink: './Art/Shiinoya/index.html',
+    imageLink: './Art/Shiinoya/ShibaInu.gif',
+    author: 'Shiinoya',
+    githubLink: 'https://github.com/Shiinoya'
+  },
+  {
+    artName: 'animatronic',
+    pageLink: './Art/animatronic/index.html',
+    imageLink: './Art/animatronic/style.css',
+    author: 'umer381a',
+    githubLink: 'https://github.com/umer381a'
   }
 ];
-
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
