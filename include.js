@@ -5215,6 +5215,12 @@ let cards = [
     githubLink: 'https://github.com/MouatazKad'
   },
   {
+    artName: 'TomatoSpin',
+    pageLink: './Art/tomatoSpin/index.html',
+    author: 'Mateo',
+    githubLink: 'https://github.com/mateodibenedetto'  
+  },
+  {
     artName: "Animating",
     pageLink: './Art/Animating/index.html',
     imageLink: './Art/Animating/2021-06-05_17_10_54-Greenshot.jpg',
