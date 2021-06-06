@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'DayToNight',
+    pageLink: './Art/DayToNight By Arpan/index.html',
+    imageLink: './Art/Joy/DayToNight By Arpan/giphy.gif',
+    author: 'ArpanGyawali',
+    githubLink: 'https://github.com/ArpanGyawali'
+  },
+  {
     artName: 'Dog animation',
     pageLink: './Art/AbhishekSingh-Animation-Contribution/index.html',
     imageLink: './Art/AbhishekSingh-Animation-Contribution/gif.png',
@@ -5065,6 +5072,13 @@ let cards = [
     githubLink: 'https://github.com/jtkyber'
   },
   {
+    artName: 'ZTM Title Animation',
+    pageLink: './Art/JMCrawf/index.html',
+    imageLink: './Art/JMCrawf/animation.gif',
+    author: 'James Crawford',
+    githubLink: 'https://github.com/JMCrawf/'
+  },
+  {
     artName: 'Bouncers',
     pageLink: './Art/Bouncers/index.html',
     imageLink: './Art/Bouncers/giphy.gif',
@@ -5086,6 +5100,155 @@ let cards = [
     githubLink: 'https://github.com/yunjoanyu'
   },
   {
+    artName: 'Animazing',
+    pageLink: './Art/Animazing/skew.html',
+    imageLink: './Art/Animazing/cropgif.gif',
+    author: 'Arfel Ray',
+    githubLink: 'https://github.com/arfelrayarriola'
+  },
+  {
+    pageLink: './Art/Akash/smiley.html',
+    imageLink: './Art/Akash/smiley.gif',
+    author: 'Akash',
+    githubLink: 'https://github.com/aksh-22'
+  },
+  {
+    artName: 'ReactLogoAnimation',
+    pageLink: './Art/sanketanimation/index.html',
+    imageLink: './Art/sanketanimation/triangle.gif',
+    author: 'sanketwakhare',
+    githubLink: 'https://github.com/sanketwakhare'
+  },
+  {
+    artName: 'Disco',
+    pageLink: './Art/Disco/index.html',
+    imageLink: './Art/Disco/Disco.gif',
+    author: 'Anu',
+    githubLink: 'https://github.com/anudesh98'
+  },
+  {
+    pageLink: './Art/windmill/windmill.html',
+    imageLink: './Art/windmill/windmill.gif',
+    author: 'WindCy',
+    githubLink: 'https://github.com/windycy'
+  },
+  {
+    artName: 'Beating Speaker',
+    pageLink: './Art/beating-speaker/index.html',
+    imageLink: './Art/beating-speaker/BeatingSpeaker.gif',
+    author: 'TheCoderJT',
+    githubLink: 'https://github.com/TheCoderJT'
+  },
+  {
+    artName: 'Mesmerizing Loader',
+    pageLink: './Art/MesmerizingLoader/index.html',
+    imageLink: './Art/MesmerizingLoader/mesmerizing_loader.gif',
+    author: 'Gutu Galuppo',
+    githubLink: 'https://github.com/gutugaluppo'
+  },
+  {
+    artName: 'Rocket ship',
+    pageLink: './Art/Rocket_ship/index.html',
+    imageLink: './Art/Rocket_ship/Rocket-Ship.gif',
+    author: 'Gutu Galuppo',
+    githubLink: 'https://github.com/gutugaluppo'
+  },
+  {
+    artName: 'Amatron',
+    pageLink: './Art/Amatron/index.html',
+    imageLink: 'https://media1.giphy.com/media/9cJE8Znq6Ghd66duIz/giphy.gif',
+    author: 'John Maturan',
+    githubLink: 'https://github.com/JohnMaturan97'
+  },
+  {
+    artName: 'AnimatD',
+    pageLink: './Art/dhruvm/index.html',
+    author: 'dhruvhm',
+    githubLink: 'https://github.com/dhruvhm'
+  },
+  {
+    artName: 'SohaibAnimation',
+    pageLink: './Art/SohaibAnimation/index.html',
+    imageLink: './Art/SohaibAnimation/animatedcircle.gif',
+    author: 'Sohaib',
+    githubLink: 'https://github.com/SohaibAfani'
+  },
+  {
+    artName: 'KakashiHead',
+    pageLink: './Art/HamizJamil/index.html',
+    imageLink: './Art/HamizJamil/kakashianimation.gif',
+    author: 'Hamiz',
+    githubLink: 'https://github.com/HamizJamil'
+  },
+  {
+    artName: 'PedroHFSilva',
+    pageLink: './Art/pedrohfranklin/index.html',
+    imageLink: './Art/pedrohfranklin/animatedcircle.gif',
+    author: 'Pedro Franklin',
+    githubLink: 'https://github.com/pedrohfranklin'
+  },
+  {
+    artName: 'K.I.T.T.',
+    pageLink: './Art/GAlexandruD/index.html',
+    imageLink: './Art/GAlexandruD/kitt_centered.gif',
+    author: 'GAlexandruD',
+    githubLink: 'https://github.com/GAlexandruD'
+  },
+  {
+    artName: 'The Spinning Tuba',
+    pageLink: './Art/dr-tuba/index.html',
+    imageLink: './Art/dr-tuba/spinningtuba.gif',
+    author: 'Steve Vaughn',
+    githubLink: 'https://github.com/dr-tuba'
+  },
+  {
+    artName: 'AniMc',
+    pageLink: './Art/anna0mclachlan/index.html',
+    imageLink: './Art/anna0mclachlan/ani2.gif',
+    author: 'anna0mclachlan',
+    githubLink: 'https://github.com/anna0mclachlan'
+  },
+  {
+    artName: 'Mouataz',
+    pageLink: './Art/Mouataz/index.html',
+    author: 'Mouataz',
+    githubLink: 'https://github.com/MouatazKad'
+  },
+  {
+    artName: 'TomatoSpin',
+    pageLink: './Art/tomatoSpin/index.html',
+    author: 'Mateo',
+    githubLink: 'https://github.com/mateodibenedetto'  
+  },
+  {
+    artName: "Animating",
+    pageLink: './Art/Animating/index.html',
+    imageLink: './Art/Animating/2021-06-05_17_10_54-Greenshot.jpg',
+    author: 'Sahil Shailesh Pedamkar',
+    githubLink: 'https://github.com/sahilpedamkar21'
+  },
+  {
+    artName: 'Moving Car',
+    pageLink: './Art/Manali/index.html',
+    imageLink: './Art/Manali/Movingcar.gif',
+    author: 'Manali',
+    githubLink: 'https://github.com/Mana21li'
+  },
+  {
+    artName: 'ShibaInu',
+    pageLink: './Art/Shiinoya/index.html',
+    imageLink: './Art/Shiinoya/ShibaInu.gif',
+    author: 'Shiinoya',
+    githubLink: 'https://github.com/Shiinoya'
+  },
+  {
+    artName: 'animatronic',
+    pageLink: './Art/animatronic/index.html',
+    imageLink: './Art/animatronic/style.css',
+    author: 'umer381a',
+    githubLink: 'https://github.com/umer381a'
+  },
+  {
     artName: 'Out of This World',
     pageLink: './Art/Out-of-This-World/index.html',
     imageLink: './Art/Out-of-This-World/ootw.gif',
@@ -5093,7 +5256,6 @@ let cards = [
     githubLink: 'https://github.com/xenark'
   }
 ];
-
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
