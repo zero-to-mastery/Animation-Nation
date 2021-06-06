@@ -5247,8 +5247,14 @@ let cards = [
     imageLink: './Art/animatronic/style.css',
     author: 'umer381a',
     githubLink: 'https://github.com/umer381a'
+  },
+  { artName: 'Pink Bars',
+    pageLink: './Art/rayleigh/rr.html',
+    imageLink: './Art/rayleigh/pinkbars.gif',
+    author: 'Rayleigh',
+    githubLink: 'https://github.com/rayleighrozier'
   }
-];
+  ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
