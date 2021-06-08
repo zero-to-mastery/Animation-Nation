@@ -5174,6 +5174,13 @@ let cards = [
     githubLink: 'https://github.com/SohaibAfani'
   },
   {
+    artName: 'KakashiHead',
+    pageLink: './Art/HamizJamil/index.html',
+    imageLink: './Art/HamizJamil/kakashianimation.gif',
+    author: 'Hamiz',
+    githubLink: 'https://github.com/HamizJamil'
+  },
+  {
     artName: 'PedroHFSilva',
     pageLink: './Art/pedrohfranklin/index.html',
     imageLink: './Art/pedrohfranklin/animatedcircle.gif',
@@ -5201,12 +5208,52 @@ let cards = [
     author: 'anna0mclachlan',
     githubLink: 'https://github.com/anna0mclachlan'
   },
-   {
+  {
     artName: 'Lin',
     pageLink: './Art/Lin/index.html',
     imageLink: './Art/Lin/lin.gif',
     author: 'Lin',
     githubLink: 'https://github.com/linxz-coder'
+  },
+  {
+    artName: 'Mouataz',
+    pageLink: './Art/Mouataz/index.html',
+    author: 'Mouataz',
+    githubLink: 'https://github.com/MouatazKad'
+  },
+  {
+    artName: 'TomatoSpin',
+    pageLink: './Art/tomatoSpin/index.html',
+    author: 'Mateo',
+    githubLink: 'https://github.com/mateodibenedetto'  
+  },
+  {
+    artName: "Animating",
+    pageLink: './Art/Animating/index.html',
+    imageLink: './Art/Animating/2021-06-05_17_10_54-Greenshot.jpg',
+    author: 'Sahil Shailesh Pedamkar',
+    githubLink: 'https://github.com/sahilpedamkar21'
+  },
+  {
+    artName: 'Moving Car',
+    pageLink: './Art/Manali/index.html',
+    imageLink: './Art/Manali/Movingcar.gif',
+    author: 'Manali',
+    githubLink: 'https://github.com/Mana21li'
+  },
+  {
+    artName: 'ShibaInu',
+    pageLink: './Art/Shiinoya/index.html',
+    imageLink: './Art/Shiinoya/ShibaInu.gif',
+    author: 'Shiinoya',
+    githubLink: 'https://github.com/Shiinoya'
+  },
+  {
+    artName: 'animatronic',
+    pageLink: './Art/animatronic/index.html',
+    imageLink: './Art/animatronic/style.css',
+    author: 'umer381a',
+    githubLink: 'https://github.com/umer381a'
   }
 ];
 // +--------------------------------------------------------------------------------+
