@@ -5247,6 +5247,13 @@ let cards = [
     imageLink: './Art/animatronic/style.css',
     author: 'umer381a',
     githubLink: 'https://github.com/umer381a'
+  },
+  {
+    artName: 'circular motion',
+    pageLink: './Art/Aliraza Lalani Animation/index.html',
+    imageLink: './Art/Aliraza Lalani Animation/aa.gif',
+    author: 'Aliraza Lalani',
+    githubLink: 'https://github.com/alirazalalani'
   }
 ];
 // +--------------------------------------------------------------------------------+
