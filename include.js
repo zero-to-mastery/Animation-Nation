@@ -5248,6 +5248,12 @@ let cards = [
     author: 'umer381a',
     githubLink: 'https://github.com/umer381a'
   },
+  { artName: 'Pink Bars',
+    pageLink: './Art/rayleigh/rr.html',
+    imageLink: './Art/rayleigh/pinkbars.gif',
+    author: 'Rayleigh',
+    githubLink: 'https://github.com/rayleighrozier'
+  },
   {
     artName: 'circular motion',
     pageLink: './Art/Aliraza Lalani Animation/index.html',
@@ -5255,7 +5261,7 @@ let cards = [
     author: 'Aliraza Lalani',
     githubLink: 'https://github.com/alirazalalani'
   }
-];
+  ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
