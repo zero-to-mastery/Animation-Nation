@@ -1,0 +1,19 @@
+body{
+    background-color: #FF6F06;
+}
+.pic_animation{
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    position: relative;
+    animation-name: spin;
+    animation: spin 4s infinite alternate;
+    background-color: #FF6F06;
+}
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
