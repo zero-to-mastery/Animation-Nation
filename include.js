@@ -5254,6 +5254,12 @@ let cards = [
     imageLink: './Art/Out-of-This-World/ootw.gif',
     author: 'Xenark',
     githubLink: 'https://github.com/xenark'
+  },{
+    artName: 'circular motion',
+    pageLink: './Art/Aliraza Lalani Animation/index.html',
+    imageLink: './Art/Aliraza Lalani Animation/aa.gif',
+    author: 'Aliraza Lalani',
+    githubLink: 'https://github.com/alirazalalani'
   }
 ];
 // +--------------------------------------------------------------------------------+
