@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: "Stephan Animation",
+    pageLink: "./Art/stephanduval_animatron/index.html",
+    iamgeLink: "./Art/stephanduval_animatron/stephanduval_animatron.gif"
+    author: "Stephan DuVal"
+    githubLink: "https://github.com/stephanduval"
+  }
+  {
     artName: 'DayToNight',
     pageLink: './Art/DayToNight By Arpan/index.html',
     imageLink: './Art/Joy/DayToNight By Arpan/giphy.gif',
@@ -12,6 +19,13 @@ let cards = [
     imageLink: './Art/AbhishekSingh-Animation-Contribution/gif.png',
     author: 'Abhishek Singh',
     githubLink: 'https://github.com/Abhishek-555'
+  },
+  {
+    artName: 'Animation square rotate',
+    pageLink: './Art/Animation square rotate/index.html',
+    imageLink: './Art/Animation square rotate/image.jpeg',
+    author: 'Nampelly_varun',
+    githubLink: 'https://github.com/nampellyvarun'
   },
   {
     artName: 'CSS Loader',
@@ -5174,6 +5188,12 @@ let cards = [
     githubLink: 'https://github.com/SohaibAfani'
   },
   {
+    artName: 'Orbit',
+    pageLink: './Art/Orbit/index.html',
+    imageLink: './Art/Orbit/Orbit.gif',
+    author: 'Mohammed Warsame',
+    githubLink: 'https://github.com/mwarsame20'
+  },{
     artName: 'KakashiHead',
     pageLink: './Art/HamizJamil/index.html',
     imageLink: './Art/HamizJamil/kakashianimation.gif',
@@ -5209,12 +5229,50 @@ let cards = [
     githubLink: 'https://github.com/anna0mclachlan'
   },
   {
+    artName: 'Amit',
+    pageLink: './Art/amit/index.html',
+    author: 'Amit',
+    githubLink: 'https://github.com/amitsharmaa'
+  },{
+    artName: 'Lin',
+    pageLink: './Art/Lin/index.html',
+    imageLink: './Art/Lin/lin.gif',
+    author: 'Lin',
+    githubLink: 'https://github.com/linxz-coder'
+  },
+  {
     artName: 'Mouataz',
     pageLink: './Art/Mouataz/index.html',
     author: 'Mouataz',
     githubLink: 'https://github.com/MouatazKad'
   },
   {
+    artName: 'Moving graph',
+    pageLink: './Art/Joy/moving-graph/index.html',
+    imageLink: './Art/Joy//moving-graph.gif',
+    author: 'kimjusang',
+    githubLink: 'https://github.com/kimjusang'
+  },
+  {
+    artName: 'Always Be',
+    pageLink: './Art/Joy/animatron-kim/index.html',
+    imageLink: './Art/Joy//always.gif',
+    author: 'kimjusang',
+    githubLink: 'https://github.com/kimjusang'
+  },
+  {
+   artName: 'Who could it be?',
+    pageLink: './Art/pjwmascall/index.html',
+    imageLink: './Art/pjwmascall/thumbnail.gif',
+    author: 'pjwmascall',
+    githubLink: 'https://github.com/pjwmascall'
+  },{
+    artName: 'Sparkle',
+    pageLink: './Art/Sparkle/index.html',
+    imageLink: './Art/Sparkle/Animation.gif',
+    author: 'palak2603',
+    githubLink: 'https://github.com/palak2603'
+  },{
     artName: 'TomatoSpin',
     pageLink: './Art/tomatoSpin/index.html',
     author: 'Mateo',
@@ -5254,6 +5312,34 @@ let cards = [
     imageLink: './Art/IloveZTM/style.css',
     author: 'MirshadOz',
     githubLink: 'https://github.com/mirshadoz'
+  },
+  {
+    artName: 'Pink Bars',
+    pageLink: './Art/rayleigh/rr.html',
+    imageLink: './Art/rayleigh/pinkbars.gif',
+    author: 'Rayleigh',
+    githubLink: 'https://github.com/rayleighrozier'
+  },
+  {
+    artName: 'Out of This World',
+    pageLink: './Art/Out-of-This-World/index.html',
+    imageLink: './Art/Out-of-This-World/ootw.gif',
+    author: 'Xenark',
+    githubLink: 'https://github.com/xenark'
+  },
+  {
+    artName: 'circular motion',
+    pageLink: './Art/Aliraza Lalani Animation/index.html',
+    imageLink: './Art/Aliraza Lalani Animation/aa.gif',
+    author: 'Aliraza Lalani',
+    githubLink: 'https://github.com/alirazalalani'
+  },
+  {
+    artName: "Home",
+    pageLink: './Art/rez4president/index.html',
+    imageLink: './Art/rez4president/home.gif',
+    author: 'Raza Ul Kareem',
+    githubLink: 'https://github.com/rez4president'
   }
 ];
 // +--------------------------------------------------------------------------------+
