@@ -5174,6 +5174,13 @@ let cards = [
     githubLink: 'https://github.com/SohaibAfani'
   },
   {
+    artName: 'KakashiHead',
+    pageLink: './Art/HamizJamil/index.html',
+    imageLink: './Art/HamizJamil/kakashianimation.gif',
+    author: 'Hamiz',
+    githubLink: 'https://github.com/HamizJamil'
+  },
+  {
     artName: 'PedroHFSilva',
     pageLink: './Art/pedrohfranklin/index.html',
     imageLink: './Art/pedrohfranklin/animatedcircle.gif',
@@ -5206,6 +5213,105 @@ let cards = [
     pageLink: './Art/amit/index.html',
     author: 'Amit',
     githubLink: 'https://github.com/amitsharmaa'
+  },{
+    artName: 'Lin',
+    pageLink: './Art/Lin/index.html',
+    imageLink: './Art/Lin/lin.gif',
+    author: 'Lin',
+    githubLink: 'https://github.com/linxz-coder'
+  },
+  {
+    artName: 'Mouataz',
+    pageLink: './Art/Mouataz/index.html',
+    author: 'Mouataz',
+    githubLink: 'https://github.com/MouatazKad'
+  },
+  {
+    artName: 'Moving graph',
+    pageLink: './Art/Joy/moving-graph/index.html',
+    imageLink: './Art/Joy//moving-graph.gif',
+    author: 'kimjusang',
+    githubLink: 'https://github.com/kimjusang'
+  },
+  {
+    artName: 'Always Be',
+    pageLink: './Art/Joy/animatron-kim/index.html',
+    imageLink: './Art/Joy//always.gif',
+    author: 'kimjusang',
+    githubLink: 'https://github.com/kimjusang'
+  },
+  {
+   artName: 'Who could it be?',
+    pageLink: './Art/pjwmascall/index.html',
+    imageLink: './Art/pjwmascall/thumbnail.gif',
+    author: 'pjwmascall',
+    githubLink: 'https://github.com/pjwmascall'
+  },{
+    artName: 'Sparkle',
+    pageLink: './Art/Sparkle/index.html',
+    imageLink: './Art/Sparkle/Animation.gif',
+    author: 'palak2603',
+    githubLink: 'https://github.com/palak2603'
+  },{
+    artName: 'TomatoSpin',
+    pageLink: './Art/tomatoSpin/index.html',
+    author: 'Mateo',
+    githubLink: 'https://github.com/mateodibenedetto'  
+  },
+  {
+    artName: "Animating",
+    pageLink: './Art/Animating/index.html',
+    imageLink: './Art/Animating/2021-06-05_17_10_54-Greenshot.jpg',
+    author: 'Sahil Shailesh Pedamkar',
+    githubLink: 'https://github.com/sahilpedamkar21'
+  },
+  {
+    artName: 'Moving Car',
+    pageLink: './Art/Manali/index.html',
+    imageLink: './Art/Manali/Movingcar.gif',
+    author: 'Manali',
+    githubLink: 'https://github.com/Mana21li'
+  },
+  {
+    artName: 'ShibaInu',
+    pageLink: './Art/Shiinoya/index.html',
+    imageLink: './Art/Shiinoya/ShibaInu.gif',
+    author: 'Shiinoya',
+    githubLink: 'https://github.com/Shiinoya'
+  },
+  {
+    artName: 'animatronic',
+    pageLink: './Art/animatronic/index.html',
+    imageLink: './Art/animatronic/style.css',
+    author: 'umer381a',
+    githubLink: 'https://github.com/umer381a'
+  },
+  { artName: 'Pink Bars',
+    pageLink: './Art/rayleigh/rr.html',
+    imageLink: './Art/rayleigh/pinkbars.gif',
+    author: 'Rayleigh',
+    githubLink: 'https://github.com/rayleighrozier'
+  },
+  {
+    artName: 'Out of This World',
+    pageLink: './Art/Out-of-This-World/index.html',
+    imageLink: './Art/Out-of-This-World/ootw.gif',
+    author: 'Xenark',
+    githubLink: 'https://github.com/xenark'
+  },{
+    artName: 'circular motion',
+    pageLink: './Art/Aliraza Lalani Animation/index.html',
+    imageLink: './Art/Aliraza Lalani Animation/aa.gif',
+    author: 'Aliraza Lalani',
+    githubLink: 'https://github.com/alirazalalani'
+  },
+
+   {
+    artName: "Home",
+    pageLink: './Art/rez4president/index.html',
+    imageLink: './Art/rez4president/home.gif',
+    author: 'Raza Ul Kareem',
+    githubLink: 'https://github.com/rez4president'
   }
 ];
 // +--------------------------------------------------------------------------------+
