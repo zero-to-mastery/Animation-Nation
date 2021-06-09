@@ -5181,6 +5181,12 @@ let cards = [
     githubLink: 'https://github.com/SohaibAfani'
   },
   {
+    artName: 'Orbit',
+    pageLink: './Art/Orbit/index.html',
+    imageLink: './Art/Orbit/Orbit.gif',
+    author: 'Mohammed Warsame',
+    githubLink: 'https://github.com/mwarsame20'
+  },{
     artName: 'KakashiHead',
     pageLink: './Art/HamizJamil/index.html',
     imageLink: './Art/HamizJamil/kakashianimation.gif',
