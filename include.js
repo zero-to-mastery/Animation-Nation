@@ -5209,6 +5209,11 @@ let cards = [
     githubLink: 'https://github.com/anna0mclachlan'
   },
   {
+    artName: 'Amit',
+    pageLink: './Art/amit/index.html',
+    author: 'Amit',
+    githubLink: 'https://github.com/amitsharmaa'
+  },{
     artName: 'Lin',
     pageLink: './Art/Lin/index.html',
     imageLink: './Art/Lin/lin.gif',
@@ -5235,6 +5240,7 @@ let cards = [
     author: 'kimjusang',
     githubLink: 'https://github.com/kimjusang'
   },
+  {
    artName: 'Who could it be?',
     pageLink: './Art/pjwmascall/index.html',
     imageLink: './Art/pjwmascall/thumbnail.gif',
@@ -5298,10 +5304,10 @@ let cards = [
     imageLink: './Art/Aliraza Lalani Animation/aa.gif',
     author: 'Aliraza Lalani',
     githubLink: 'https://github.com/alirazalalani'
-  }
+  },
 
    {
-    artName: "Home"
+    artName: "Home",
     pageLink: './Art/rez4president/index.html',
     imageLink: './Art/rez4president/home.gif',
     author: 'Raza Ul Kareem',
