@@ -5209,6 +5209,13 @@ let cards = [
     githubLink: 'https://github.com/anna0mclachlan'
   },
   {
+    artName: 'Lin',
+    pageLink: './Art/Lin/index.html',
+    imageLink: './Art/Lin/lin.gif',
+    author: 'Lin',
+    githubLink: 'https://github.com/linxz-coder'
+  },
+  {
     artName: 'Mouataz',
     pageLink: './Art/Mouataz/index.html',
     author: 'Mouataz',
