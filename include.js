@@ -5306,7 +5306,15 @@ let cards = [
     author: 'umer381a',
     githubLink: 'https://github.com/umer381a'
   },
-  { artName: 'Pink Bars',
+  {
+    artName: 'I Love ZTM',
+    pageLink: './Art/IloveZTM/index.html',
+    imageLink: './Art/IloveZTM/style.css',
+    author: 'MirshadOz',
+    githubLink: 'https://github.com/mirshadoz'
+  },
+  {
+    artName: 'Pink Bars',
     pageLink: './Art/rayleigh/rr.html',
     imageLink: './Art/rayleigh/pinkbars.gif',
     author: 'Rayleigh',
@@ -5318,15 +5326,15 @@ let cards = [
     imageLink: './Art/Out-of-This-World/ootw.gif',
     author: 'Xenark',
     githubLink: 'https://github.com/xenark'
-  },{
+  },
+  {
     artName: 'circular motion',
     pageLink: './Art/Aliraza Lalani Animation/index.html',
     imageLink: './Art/Aliraza Lalani Animation/aa.gif',
     author: 'Aliraza Lalani',
     githubLink: 'https://github.com/alirazalalani'
   },
-
-   {
+  {
     artName: "Home",
     pageLink: './Art/rez4president/index.html',
     imageLink: './Art/rez4president/home.gif',
