@@ -5247,6 +5247,13 @@ let cards = [
     imageLink: './Art/animatronic/style.css',
     author: 'umer381a',
     githubLink: 'https://github.com/umer381a'
+  },
+  {
+    artName: 'I Love ZTM',
+    pageLink: './Art/IloveZTM/index.html',
+    imageLink: './Art/IloveZTM/style.css',
+    author: 'MirshadOz',
+    githubLink: 'https://github.com/mirshadoz'
   }
 ];
 // +--------------------------------------------------------------------------------+
