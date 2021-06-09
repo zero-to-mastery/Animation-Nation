@@ -5215,7 +5215,20 @@ let cards = [
     githubLink: 'https://github.com/MouatazKad'
   },
   {
-    artName: 'Who could it be?',
+    artName: 'Moving graph',
+    pageLink: './Art/Joy/moving-graph/index.html',
+    imageLink: './Art/Joy//moving-graph.gif',
+    author: 'kimjusang',
+    githubLink: 'https://github.com/kimjusang'
+  },
+  {
+    artName: 'Always Be',
+    pageLink: './Art/Joy/animatron-kim/index.html',
+    imageLink: './Art/Joy//always.gif',
+    author: 'kimjusang',
+    githubLink: 'https://github.com/kimjusang'
+  },
+   artName: 'Who could it be?',
     pageLink: './Art/pjwmascall/index.html',
     imageLink: './Art/pjwmascall/thumbnail.gif',
     author: 'pjwmascall',
@@ -5279,7 +5292,7 @@ let cards = [
     author: 'Aliraza Lalani',
     githubLink: 'https://github.com/alirazalalani'
   }
-  ];
+];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
