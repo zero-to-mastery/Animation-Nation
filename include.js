@@ -5292,6 +5292,14 @@ let cards = [
     author: 'Aliraza Lalani',
     githubLink: 'https://github.com/alirazalalani'
   }
+
+   {
+    artName: "Home"
+    pageLink: './Art/rez4president/index.html',
+    imageLink: './Art/rez4president/home.gif',
+    author: 'Raza Ul Kareem',
+    githubLink: 'https://github.com/rez4president'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
