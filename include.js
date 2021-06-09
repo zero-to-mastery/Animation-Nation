@@ -5255,6 +5255,12 @@ let cards = [
     githubLink: 'https://github.com/rayleighrozier'
   },
   {
+    artName: 'Out of This World',
+    pageLink: './Art/Out-of-This-World/index.html',
+    imageLink: './Art/Out-of-This-World/ootw.gif',
+    author: 'Xenark',
+    githubLink: 'https://github.com/xenark'
+  },{
     artName: 'circular motion',
     pageLink: './Art/Aliraza Lalani Animation/index.html',
     imageLink: './Art/Aliraza Lalani Animation/aa.gif',
