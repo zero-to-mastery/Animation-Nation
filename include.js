@@ -5253,6 +5253,13 @@ let cards = [
     imageLink: './Art/rayleigh/pinkbars.gif',
     author: 'Rayleigh',
     githubLink: 'https://github.com/rayleighrozier'
+  },
+  {
+    artName: 'circular motion',
+    pageLink: './Art/Aliraza Lalani Animation/index.html',
+    imageLink: './Art/Aliraza Lalani Animation/aa.gif',
+    author: 'Aliraza Lalani',
+    githubLink: 'https://github.com/alirazalalani'
   }
   ];
 // +--------------------------------------------------------------------------------+
