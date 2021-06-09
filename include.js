@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: "Stephan Animation",
+    pageLink: "./Art/stephanduval_animatron/index.html",
+    iamgeLink: "./Art/stephanduval_animatron/stephanduval_animatron.gif"
+    author: "Stephan DuVal"
+    githubLink: "https://github.com/stephanduval"
+  }
+  {
     artName: 'DayToNight',
     pageLink: './Art/DayToNight By Arpan/index.html',
     imageLink: './Art/Joy/DayToNight By Arpan/giphy.gif',
