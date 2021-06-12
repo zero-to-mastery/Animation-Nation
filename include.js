@@ -5340,6 +5340,13 @@ let cards = [
     imageLink: './Art/rez4president/home.gif',
     author: 'Raza Ul Kareem',
     githubLink: 'https://github.com/rez4president'
+  },
+  {
+    artName: "Box",
+    pageLink: './Art/Sagun/index.html',
+    imageLink: './Art/Sagun/ezgif.com-gif-maker.gif',
+    author: 'Sagun',
+    githubLink: 'https://github.com/Sagun-png'
   }
 ];
 // +--------------------------------------------------------------------------------+
