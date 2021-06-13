@@ -5347,6 +5347,12 @@ let cards = [
     imageLink: './Art/Sagun/ezgif.com-gif-maker.gif',
     author: 'Sagun',
     githubLink: 'https://github.com/Sagun-png'
+  },
+  {
+    pageLink: './Art/edocai/index.html',
+    imageLink: './Art/edocai/anime.gif',
+    author: 'Ali Ibrahim',
+    githubLink: 'https://github.com/edocai'
   }
 ];
 // +--------------------------------------------------------------------------------+
