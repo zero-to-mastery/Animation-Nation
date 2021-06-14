@@ -1,11 +1,11 @@
 let cards = [
   {
-    artName: "Stephan Animation",
-    pageLink: "./Art/stephanduval_animatron/index.html",
-    iamgeLink: "./Art/stephanduval_animatron/stephanduval_animatron.gif"
-    author: "Stephan DuVal"
-    githubLink: "https://github.com/stephanduval"
-  }
+    artName: 'Stephan Animation',
+    pageLink: './Art/stephanduval_animatron/index.html',
+    iamgeLink: './Art/stephanduval_animatron/stephanduval_animatron.gif',
+    author: 'Stephan DuVal',
+    githubLink: 'https://github.com/stephanduval'
+  },
   {
     artName: 'DayToNight',
     pageLink: './Art/DayToNight By Arpan/index.html',
@@ -5193,7 +5193,8 @@ let cards = [
     imageLink: './Art/Orbit/Orbit.gif',
     author: 'Mohammed Warsame',
     githubLink: 'https://github.com/mwarsame20'
-  },{
+  },
+  {
     artName: 'KakashiHead',
     pageLink: './Art/HamizJamil/index.html',
     imageLink: './Art/HamizJamil/kakashianimation.gif',
@@ -5233,7 +5234,8 @@ let cards = [
     pageLink: './Art/amit/index.html',
     author: 'Amit',
     githubLink: 'https://github.com/amitsharmaa'
-  },{
+  },
+  {
     artName: 'Lin',
     pageLink: './Art/Lin/index.html',
     imageLink: './Art/Lin/lin.gif',
@@ -5261,25 +5263,27 @@ let cards = [
     githubLink: 'https://github.com/kimjusang'
   },
   {
-   artName: 'Who could it be?',
+    artName: 'Who could it be?',
     pageLink: './Art/pjwmascall/index.html',
     imageLink: './Art/pjwmascall/thumbnail.gif',
     author: 'pjwmascall',
     githubLink: 'https://github.com/pjwmascall'
-  },{
+  },
+  {
     artName: 'Sparkle',
     pageLink: './Art/Sparkle/index.html',
     imageLink: './Art/Sparkle/Animation.gif',
     author: 'palak2603',
     githubLink: 'https://github.com/palak2603'
-  },{
+  },
+  {
     artName: 'TomatoSpin',
     pageLink: './Art/tomatoSpin/index.html',
     author: 'Mateo',
-    githubLink: 'https://github.com/mateodibenedetto'  
+    githubLink: 'https://github.com/mateodibenedetto'
   },
   {
-    artName: "Animating",
+    artName: 'Animating',
     pageLink: './Art/Animating/index.html',
     imageLink: './Art/Animating/2021-06-05_17_10_54-Greenshot.jpg',
     author: 'Sahil Shailesh Pedamkar',
@@ -5335,14 +5339,14 @@ let cards = [
     githubLink: 'https://github.com/alirazalalani'
   },
   {
-    artName: "Home",
+    artName: 'Home',
     pageLink: './Art/rez4president/index.html',
     imageLink: './Art/rez4president/home.gif',
     author: 'Raza Ul Kareem',
     githubLink: 'https://github.com/rez4president'
   },
   {
-    artName: "Box",
+    artName: 'Box',
     pageLink: './Art/Sagun/index.html',
     imageLink: './Art/Sagun/ezgif.com-gif-maker.gif',
     author: 'Sagun',

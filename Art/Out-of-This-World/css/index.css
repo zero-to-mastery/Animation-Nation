@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   height: 100%;
   width: 100%;
   margin: auto 0;
@@ -6,7 +7,9 @@ body, html {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-#my-ufo, .main-container, .hero-guide {
+#my-ufo,
+.main-container,
+.hero-guide {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,19 +42,36 @@ h3 {
   animation: zooms 5s ease-in-out infinite;
 }
 
-.stars::after, .lone-star::after, .stars::before, .lone-star::before, .evil-eye-host {
+.stars::after,
+.lone-star::after,
+.stars::before,
+.lone-star::before,
+.evil-eye-host {
   display: block;
   position: absolute;
 }
 
-.light-6, .light-5, .light-4, .light-3, .light-2, .light-1, .ufo::before, .evil-eye::before, .evil-eye {
+.light-6,
+.light-5,
+.light-4,
+.light-3,
+.light-2,
+.light-1,
+.ufo::before,
+.evil-eye::before,
+.evil-eye {
   display: block;
   position: relative;
 }
 
-.stars::after, .lone-star::after, .stars::before, .lone-star::before, .ufo::before, .evil-eye::before {
+.stars::after,
+.lone-star::after,
+.stars::before,
+.lone-star::before,
+.ufo::before,
+.evil-eye::before {
   border-radius: 50%;
-  content: "";
+  content: '';
 }
 
 .evil-eye-host {
@@ -68,7 +88,8 @@ h3 {
   width: 40px;
   height: 30px;
   background: radial-gradient(ellipse at center, #ff0f0f 40%, #333333 100%);
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8), inset 0px -10px 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8),
+    inset 0px -10px 20px rgba(0, 0, 0, 0.8);
   animation: eyeLash;
 }
 
@@ -84,7 +105,7 @@ h3 {
 
 #my-ufo:focus-within::before {
   display: block;
-  content: "Success! Hero,\a" "click to save earth again.";
+  content: 'Success! Hero,\a''click to save earth again.';
   white-space: pre;
   text-transform: uppercase;
   color: #f4f4f4;
@@ -112,17 +133,29 @@ h3 {
   left: 88px;
   width: 25px;
   height: 35px;
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.2) 40%, rgba(51, 51, 51, 0.1) 100%);
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8), inset 0px -10px 20px rgba(0, 0, 0, 0.8);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.2) 40%,
+    rgba(51, 51, 51, 0.1) 100%
+  );
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8),
+    inset 0px -10px 20px rgba(0, 0, 0, 0.8);
   animation: myUfos 2.5s infinite;
   z-index: -1;
 }
 
-.stars::after, .lone-star::after, .stars::before, .lone-star::before {
+.stars::after,
+.lone-star::after,
+.stars::before,
+.lone-star::before {
   animation: brightStar 5s infinite;
 }
 
-.stars::after, .lone-star::after, .stars::before, .lone-star::before, .stars {
+.stars::after,
+.lone-star::after,
+.stars::before,
+.lone-star::before,
+.stars {
   background: #5f96ff;
   filter: drop-shadow(0 0 3px #699b9b);
   height: 2px;
@@ -136,28 +169,39 @@ h3 {
   animation: startail 5s infinite;
 }
 
-.stars::before, .lone-star::before {
+.stars::before,
+.lone-star::before {
   position: absolute;
   transform: rotate(-45deg);
 }
 
-.stars::after, .lone-star::after {
+.stars::after,
+.lone-star::after {
   position: relative;
   transform: rotate(45deg);
 }
 
-.light-6, .light-5, .light-4, .light-3, .light-2, .light-1 {
+.light-6,
+.light-5,
+.light-4,
+.light-3,
+.light-2,
+.light-1 {
   background-color: #ff6400;
   filter: brightness(660%);
   animation: lights 0.6s ease-in-out infinite;
 }
 
-.light-5, .light-4, .light-3, .light-2 {
+.light-5,
+.light-4,
+.light-3,
+.light-2 {
   width: 10px;
   height: 3px;
 }
 
-.light-6, .light-1 {
+.light-6,
+.light-1 {
   width: 5px;
   height: 3px;
 }

@@ -1,6 +1,6 @@
 html,
 body {
-/*  width: 100%;
+  /*  width: 100%;
   height: 100%;*/
   margin: 0;
   padding: 0;
@@ -33,7 +33,7 @@ p {
   font-weight: 600;
   border: 10px solid black;
   padding: 20px;
-  
+
   border-radius: 50%;
   text-align: center;
   font-family: monospace;
@@ -45,7 +45,7 @@ p {
 }
 
 .p2 {
-  border-color: rgba(59, 66, 72, 0.8);  
+  border-color: rgba(59, 66, 72, 0.8);
   animation: fly2 1.3s infinite alternate;
 }
 
@@ -62,7 +62,6 @@ p {
   to {
     transform: translateY(150px);
   }
-
 }
 
 @keyframes fly2 {
@@ -73,7 +72,6 @@ p {
   to {
     transform: translateY(25px);
   }
-
 }
 
 @keyframes fly3 {
@@ -84,5 +82,4 @@ p {
   to {
     transform: translateY(150px);
   }
-
 }
