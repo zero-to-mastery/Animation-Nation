@@ -5358,7 +5358,15 @@ let cards = [
     imageLink: './Art/Sagun/ezgif.com-gif-maker.gif',
     author: 'Sagun',
     githubLink: 'https://github.com/Sagun-png'
+  },
+  {
+    artName: 'animator_css',
+    pageLink: './Art/animator_css/index.html',
+    imageLink: './Art/animator_css/animator.gif',
+    author: 'Benji',
+    githubLink: 'https://github.com/benjaminpeto'
   }
+
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
