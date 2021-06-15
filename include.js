@@ -5365,6 +5365,13 @@ let cards = [
     imageLink: './Art/animator_css/animator.gif',
     author: 'Benji',
     githubLink: 'https://github.com/benjaminpeto'
+  },
+  {
+    artName: '1jump',
+    pageLink: './Art/1jump/index.html',
+    imageLink: './Art/1jump/1jump.gif',
+    author: 'Leutamommx',
+    githubLink: 'https://github.com/leutamommx'
   }
 
 ];
