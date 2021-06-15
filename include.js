@@ -5346,6 +5346,13 @@ let cards = [
     githubLink: 'https://github.com/rez4president'
   },
   {
+    artName:  'VtekAnimation'
+    pageLink: './Art/vtekanimation/index.html',
+    imageLink: './Art/VtekAnimation/track.gif',
+    author: 'corleone0007',
+    githubLink: 'https://github.com/corleone0007'
+  },
+  {
     artName: 'Box',
     pageLink: './Art/Sagun/index.html',
     imageLink: './Art/Sagun/ezgif.com-gif-maker.gif',
