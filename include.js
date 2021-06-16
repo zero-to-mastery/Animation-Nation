@@ -5346,7 +5346,7 @@ let cards = [
     githubLink: 'https://github.com/rez4president'
   },
   {
-    artName:  'VtekAnimation'
+    artName: 'VtekAnimation',
     pageLink: './Art/vtekanimation/index.html',
     imageLink: './Art/VtekAnimation/track.gif',
     author: 'corleone0007',
@@ -5373,7 +5373,6 @@ let cards = [
     author: 'Leutamommx',
     githubLink: 'https://github.com/leutamommx'
   }
-
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
