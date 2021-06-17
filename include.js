@@ -5373,6 +5373,12 @@ let cards = [
     author: 'Leutamommx',
     githubLink: 'https://github.com/leutamommx'
   }
+  {
+    artName: 'BigEye',
+    pageLink: './Art/Charly-Crypton/index.html',
+    author: 'Charly-Crypton',
+    githubLink: 'https://github.com/Charly-Crypton'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
