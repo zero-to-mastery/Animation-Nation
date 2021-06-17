@@ -5352,6 +5352,13 @@ let cards = [
     author: 'Sagun',
     githubLink: 'https://github.com/Sagun-png'
   }
+  {
+    artName: 'Floating Words',
+    pageLink: './Art/floatingWords/index.html',
+    imageLink: './Art/floatingWords/floatingWords.gif',
+    author: 'ScoobyDooDoo',
+    githubLink: 'https://github.com/ScoobyDooDoo'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
