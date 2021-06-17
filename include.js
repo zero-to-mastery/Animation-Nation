@@ -5386,10 +5386,10 @@ let cards = [
     imageLink: './Art/floatingWords/floatingWords.gif',
     author: 'ScoobyDooDoo',
     githubLink: 'https://github.com/ScoobyDooDoo'
-  }
+  },
   {
-    artName: 'BigEye',
-    pageLink: './Art/Charly-Crypton/index.html',
+    artName: 'Big-Eye',
+    pageLink: './Art/Big-Eye/index.html',
     author: 'Charly-Crypton',
     githubLink: 'https://github.com/Charly-Crypton'
   }
