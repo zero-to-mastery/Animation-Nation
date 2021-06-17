@@ -5372,6 +5372,20 @@ let cards = [
     imageLink: './Art/1jump/1jump.gif',
     author: 'Leutamommx',
     githubLink: 'https://github.com/leutamommx'
+  },
+  {
+    artName: 'bubbles',
+    pageLink: './Art/ghogoo/index.html',
+    imageLink: './Art/ghogoo/bubbles.gif',
+    author: 'ghogoo',
+    githubLink: 'https://github.com/ghogoo'
+  },
+  {
+    artName: 'Floating Words',
+    pageLink: './Art/floatingWords/index.html',
+    imageLink: './Art/floatingWords/floatingWords.gif',
+    author: 'ScoobyDooDoo',
+    githubLink: 'https://github.com/ScoobyDooDoo'
   }
   {
     artName: 'BigEye',
