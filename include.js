@@ -5372,6 +5372,13 @@ let cards = [
     imageLink: './Art/1jump/1jump.gif',
     author: 'Leutamommx',
     githubLink: 'https://github.com/leutamommx'
+  },
+  {
+    artName: 'Floating Words',
+    pageLink: './Art/floatingWords/index.html',
+    imageLink: './Art/floatingWords/floatingWords.gif',
+    author: 'ScoobyDooDoo',
+    githubLink: 'https://github.com/ScoobyDooDoo'
   }
 ];
 // +--------------------------------------------------------------------------------+
