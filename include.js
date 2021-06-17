@@ -5346,11 +5346,32 @@ let cards = [
     githubLink: 'https://github.com/rez4president'
   },
   {
+    artName: 'VtekAnimation',
+    pageLink: './Art/vtekanimation/index.html',
+    imageLink: './Art/VtekAnimation/track.gif',
+    author: 'corleone0007',
+    githubLink: 'https://github.com/corleone0007'
+  },
+  {
     artName: 'Box',
     pageLink: './Art/Sagun/index.html',
     imageLink: './Art/Sagun/ezgif.com-gif-maker.gif',
     author: 'Sagun',
     githubLink: 'https://github.com/Sagun-png'
+  },
+  {
+    artName: 'animator_css',
+    pageLink: './Art/animator_css/index.html',
+    imageLink: './Art/animator_css/animator.gif',
+    author: 'Benji',
+    githubLink: 'https://github.com/benjaminpeto'
+  },
+  {
+    artName: '1jump',
+    pageLink: './Art/1jump/index.html',
+    imageLink: './Art/1jump/1jump.gif',
+    author: 'Leutamommx',
+    githubLink: 'https://github.com/leutamommx'
   },
   {
     artName: 'Floating Words',
