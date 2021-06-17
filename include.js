@@ -5351,7 +5351,7 @@ let cards = [
     imageLink: './Art/Sagun/ezgif.com-gif-maker.gif',
     author: 'Sagun',
     githubLink: 'https://github.com/Sagun-png'
-  }
+  },
   {
     artName: 'Floating Words',
     pageLink: './Art/floatingWords/index.html',
