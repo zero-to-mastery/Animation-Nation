@@ -5387,6 +5387,13 @@ let cards = [
     author: 'ScoobyDooDoo',
     githubLink: 'https://github.com/ScoobyDooDoo'
   }
+  {
+    artName: 'Wavy',
+    pageLink: './Art/wavy/index.html',
+    imageLink: './Art/wavy/wavy.gif',
+    author: 'AnastasiosPas',
+    githubLink: 'https://github.com/AnastasiosPas'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
