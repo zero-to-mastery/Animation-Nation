@@ -5386,6 +5386,12 @@ let cards = [
     imageLink: './Art/floatingWords/floatingWords.gif',
     author: 'ScoobyDooDoo',
     githubLink: 'https://github.com/ScoobyDooDoo'
+  },
+   {artName: 'ExtendIt',
+    pageLink: './Art/Mahi/index.html',
+    imageLink: './Art/Mahi/screenshot.JPG',
+    author: 'Mahi',
+    githubLink: 'https://github.com/NineNintyNine'
   }
 ];
 // +--------------------------------------------------------------------------------+
