@@ -1,20 +1,18 @@
-@keyframes extend{
-  0%{
+@keyframes extend {
+  0% {
     width: 200px;
     height: 100px;
   }
 
- 50%{
+  50% {
     width: 700px;
     height: 100px;
+  }
 
- }
-
- 100%{
+  100% {
     width: 200px;
     height: 100px;
-
- }
+  }
 }
 
 #box1 {
@@ -39,15 +37,16 @@
   margin: 25px 50px 75px 100px;
 }
 
-#container{
+#container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#content{
-    display: grid;
-    justify-content: center;}
+#content {
+  display: grid;
+  justify-content: center;
+}
 
 /*#box1:hover{
    transform:rotate(50deg) ;
@@ -64,23 +63,23 @@
    transition: 2s;
 }*/
 
-#box1{
+#box1 {
   /*animation: heartBeat;
   animation-duration: 2s;*/
   animation-name: extend;
-  animation-duration: 0.s;
+  animation-duration: 0s;
   animation-delay: -0.01s;
   animation-iteration-count: infinite;
 }
 
-#box2{
+#box2 {
   animation-name: extend;
   animation-duration: 0.1s;
   animation-delay: 0.03s;
   animation-iteration-count: infinite;
 }
 
-#box3{
+#box3 {
   animation-name: extend;
   animation-duration: 0.1s;
   animation-delay: -0.05s;
