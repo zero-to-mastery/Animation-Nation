@@ -5386,6 +5386,13 @@ let cards = [
     imageLink: './Art/floatingWords/floatingWords.gif',
     author: 'ScoobyDooDoo',
     githubLink: 'https://github.com/ScoobyDooDoo'
+  },
+  {
+    artName: 'Happy Hacktoberfest',
+    pageLink: './Art/DavidEdmondson/index.html',
+    imageLink: './Art/DavidEdmondson/HappyHacktoberfestWithJack-o-lantern.gif',
+    author: 'David Edmondson',
+    githubLink: 'https://github.com/davidedmondson'
   }
 ];
 // +--------------------------------------------------------------------------------+
