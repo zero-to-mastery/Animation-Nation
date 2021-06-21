@@ -5393,6 +5393,13 @@ let cards = [
     author: 'Charly-Crypton',
     githubLink: 'https://github.com/Charly-Crypton'
   }
+  {
+    artName: 'Wavy',
+    pageLink: './Art/wavy/index.html',
+    imageLink: './Art/wavy/wavy.gif',
+    author: 'AnastasiosPas',
+    githubLink: 'https://github.com/AnastasiosPas'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
