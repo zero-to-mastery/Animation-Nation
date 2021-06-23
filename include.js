@@ -5413,6 +5413,13 @@ let cards = [
     imageLink: './Art/wavy/wavy.gif',
     author: 'AnastasiosPas',
     githubLink: 'https://github.com/AnastasiosPas'
+  },
+  {
+    artName: 'Evolution',
+    pageLink: './Art/sayanroy11/index.html',
+    imageLink: './Art/sayanroy11/human.gif',
+    author: 'Sayan Roy',
+    githubLink: 'https://github.com/sayanroy11'
   }
 ];
 // +--------------------------------------------------------------------------------+
