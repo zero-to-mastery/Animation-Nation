@@ -5386,6 +5386,13 @@ let cards = [
     imageLink: './Art/floatingWords/floatingWords.gif',
     author: 'ScoobyDooDoo',
     githubLink: 'https://github.com/ScoobyDooDoo'
+  },
+  {
+    artName: 'Stretching Animation',
+    pageLink: './Art/chrisdylbran/index.html',
+    imageLink: './Art/chrisdylbran/gif.mp4',
+    author: 'Dylan Sampson',
+    githubLink: 'https://github.com/chrisdylbran'
   }
 ];
 // +--------------------------------------------------------------------------------+

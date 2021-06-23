@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+#one {
+  height: 100px;
+  width: 100%;
+  background-color: #fae3d9;
+  animation: slidein 1s linear 2s infinite alternate;
+}
+
+#two {
+  height: 100px;
+  width: 100%;
+  background-color: #d76735;
+  animation: slidein 0.3s linear 1s infinite alternate;
+}
+
+#three {
+  height: 100px;
+  width: 100%;
+  background-color: #8fb0a9;
+  animation: slidein 0.5s linear 1s infinite alternate;
+}
+
+@keyframes slidein {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
