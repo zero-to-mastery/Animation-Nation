@@ -5413,6 +5413,13 @@ let cards = [
     imageLink: './Art/wavy/wavy.gif',
     author: 'AnastasiosPas',
     githubLink: 'https://github.com/AnastasiosPas'
+  },
+  {
+    artName: 'dynamic-background',
+    pageLink: './Art/dynamic-background/index.html',
+    imageLink: './Art/dynamic-background/animation.PNG',
+    author: 'SpBhalani',
+    githubLink: 'https://github.com/SpBhalani'
   }
 ];
 // +--------------------------------------------------------------------------------+
