@@ -5340,6 +5340,13 @@ let cards = [
     imageLink: './Art/rez4president/home.gif',
     author: 'Raza Ul Kareem',
     githubLink: 'https://github.com/rez4president'
+  },
+  {
+    artName: "fun with shapes",
+    pageLink: './Art/fun with shapes/index.html',
+    imageLink: './Art/fun with shapes/fun_with_shapes.gif',
+    author: 'lucas',
+    githubLink: 'https://github.com/bug-end'
   }
 ];
 // +--------------------------------------------------------------------------------+
