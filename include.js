@@ -5346,6 +5346,7 @@ let cards = [
     githubLink: 'https://github.com/rez4president'
   },
   {
+<<<<<<< HEAD
     artName: 'VtekAnimation',
     pageLink: './Art/vtekanimation/index.html',
     imageLink: './Art/VtekAnimation/track.gif',
@@ -5441,6 +5442,13 @@ let cards = [
     imageLink: './Art/Arham/Dancing-boxes.gif',
     author: 'Arham',
     githubLink: 'https://github.com/arham2002'
+  },
+  {
+    artName: "fun with shapes",
+    pageLink: './Art/fun with shapes/index.html',
+    imageLink: './Art/fun with shapes/fun_with_shapes.gif',
+    author: 'lucas',
+    githubLink: 'https://github.com/bug-end'
   }
 ];
 // +--------------------------------------------------------------------------------+
