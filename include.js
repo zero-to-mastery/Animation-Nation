@@ -5420,6 +5420,13 @@ let cards = [
     imageLink: './Art/sayanroy11/human.gif',
     author: 'Sayan Roy',
     githubLink: 'https://github.com/sayanroy11'
+  },
+  {
+    artName: 'Dancing-boxes',
+    pageLink: './Art/Arham/index.html',
+    imageLink: './Art/Arham/Dancing-boxes.gif',
+    author: 'Arham',
+    githubLink: 'https://github.com/arham2002'
   }
 ];
 // +--------------------------------------------------------------------------------+
