@@ -1,69 +1,69 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .red-box {
-    width: 100%;
-    height: 250px;
+  width: 100%;
+  height: 250px;
 
-    transition: transform 2s;
+  transition: transform 2s;
 
-    background: red;
+  background: red;
 }
 
 .red-box:hover {
-    transform: translate(50px, 100px);
+  transform: translate(50px, 100px);
 }
 
 .green-box {
-    width: 100%;
-    height: 250px;
+  width: 100%;
+  height: 250px;
 
-    transition: transform 3s;
+  transition: transform 3s;
 
-    background: green;
+  background: green;
 }
 
 .green-box:hover {
-    transform: scale(1.5,2) rotateX(90deg);
+  transform: scale(1.5, 2) rotateX(90deg);
 }
 
 .blue-box {
-    width: 100%;
-    height: 250px;
+  width: 100%;
+  height: 250px;
 
-    transition: transform 2s;
+  transition: transform 2s;
 
-    background: blue;
+  background: blue;
 }
 
 .black-box {
-    width: 100%;
-    height: 250px;
+  width: 100%;
+  height: 250px;
 
-    transition: transform 2s;
+  transition: transform 2s;
 
-    background: black;
+  background: black;
 }
 
 .pink-box {
-    width: 100%;
-    height: 250px;
+  width: 100%;
+  height: 250px;
 
-    transition: transform 2s;
+  transition: transform 2s;
 
-    background: pink;
+  background: pink;
 }
 
 .blue-box:hover {
-    transform: scale(2.5,-3);
+  transform: scale(2.5, -3);
 }
 
 .black-box:hover {
-    transform: skewX(50deg);
+  transform: skewX(50deg);
 }
 
 .pink-box:hover {
-    transform: skewY(50deg);
+  transform: skewY(50deg);
 }
