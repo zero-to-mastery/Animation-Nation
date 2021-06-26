@@ -5415,6 +5415,13 @@ let cards = [
     githubLink: 'https://github.com/AnastasiosPas'
   },
   {
+    artName: 'Evolution',
+    pageLink: './Art/sayanroy11/index.html',
+    imageLink: './Art/sayanroy11/human.gif',
+    author: 'Sayan Roy',
+    githubLink: 'https://github.com/sayanroy11'
+  },
+  {
     artName: 'Dancing-boxes',
     pageLink: './Art/Arham/index.html',
     imageLink: './Art/Arham/Dancing-boxes.gif',
