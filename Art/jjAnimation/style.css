@@ -1,25 +1,23 @@
-body{
-    
-    height: 100vh;
-    background: radial-gradient(#afa0a9,#b67a31);
-    font-family: fantasy;
-    text-transform: uppercase;
-    text-align:center;
+body {
+  height: 100vh;
+  background: radial-gradient(#afa0a9, #b67a31);
+  font-family: fantasy;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 div {
   align-content: center;
   width: 100px;
   height: 100px;
-  margin:  50px auto auto;
+  margin: 50px auto auto;
   background-color: pink;
-  border-radius: 28px 28px ;
+  border-radius: 28px 28px;
   transform: rotate(45deg);
   position: relative;
   animation-name: example;
   animation-duration: 4s;
-  animation:  moving 5s linear: infinite;
- 
+  animation: moving 5s linear infinite;
 }
 
 @keyframes example {
@@ -49,5 +47,3 @@ div {
     top: 0px;
   }
 }
-
-
