@@ -5413,6 +5413,13 @@ let cards = [
     imageLink: './Art/wavy/wavy.gif',
     author: 'AnastasiosPas',
     githubLink: 'https://github.com/AnastasiosPas'
+  },
+  {
+    artName: 'Dancing-boxes',
+    pageLink: './Art/Arham/index.html',
+    imageLink: './Art/Arham/Dancing-boxes.gif',
+    author: 'Arham',
+    githubLink: 'https://github.com/arham2002'
   }
 ];
 // +--------------------------------------------------------------------------------+
