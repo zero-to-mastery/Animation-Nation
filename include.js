@@ -5441,6 +5441,13 @@ let cards = [
     imageLink: './Art/Arham/Dancing-boxes.gif',
     author: 'Arham',
     githubLink: 'https://github.com/arham2002'
+  },
+  {
+    artName: 'Minion-Animation',
+    pageLink: './Art/gabygramajo/index.html',
+    imageLink: './Art/gabygramajo/minion-animation.gif',
+    author: 'gabriel',
+    githubLink: 'https://github.com/gabygramajo'
   }
 ];
 // +--------------------------------------------------------------------------------+

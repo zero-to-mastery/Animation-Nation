@@ -1,0 +1,271 @@
+html {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+  }
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+body{
+	margin: 0;
+	background-color: #ecd134;
+}
+#header{
+	height: 10vh;
+	background-color: #080808;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 3rem;
+	font-family: 'Roboto', sans-serif;
+	color: #ecd134;
+}
+
+.background {
+	background-color: #f5f5f5;
+	height: 90vh;
+	display: flex;
+	flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.minion{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #f5f5f5;
+	width: 100%;
+}
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #ecd134;
+}
+
+/*  CABEZA */
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 200px; 
+	border-radius: 200px 200px 0 0; 
+	margin-top: 10px;	
+} 
+
+.eyes {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	
+}
+.carcasa, .escletorica, .iris { 
+	display: inline-block;
+	border-radius: 100%;
+	
+}
+.barra{
+	height: 20px;
+	width: 100%;
+	background-color: #23282c; 
+	position: relative;
+	top: 90px;
+}
+.carcasa { 
+	width: 100px; 
+	height: 100px; 
+	background-color: #5c6063; 
+	position: relative; 
+	top: 30px; 
+} 
+.escletorica { 
+	width: 80px; 
+	height: 80px; 
+	background-color: #fff; 
+	position: relative; 
+	top: -60px; 
+}
+
+.iris{
+	width: 60px; 
+	height: 60px; 
+	background-color: #3e280a; 
+	position: relative; 
+	top: -130px; 
+}
+.boca{
+	width: 80px;
+	height: 10px;
+	margin: 0 auto;
+	background-color: #fff;
+	position: relative;
+	top: -90px;
+	border-bottom-right-radius: 100%;
+	border-bottom-left-radius: 100%;
+	animation: talk 2s infinite;
+}
+@keyframes talk {
+	0%{
+		height: 10px;
+	}
+	50%{
+		height: 15px;
+	}
+	100%{
+		height: 10px;
+	}
+}
+/* CUERPO */
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex; 
+} 
+
+
+
+.torso { 
+	width: 200px; 
+	height: 160px;
+	border-radius: 0 0 50px 50px; 
+} 
+.enteriso{
+	background-color: #255fdb;
+	height: 90%;
+	border-radius: 0 0 50px 50px; 
+	position: relative;
+	top: -15%;
+}
+.tira-izquierda, .tira-derecha{
+	width: 20px;
+	height: 15%;
+	background-color: #255fdb;
+	position: relative;
+}
+.tira-izquierda{
+	left: 15%;
+}
+.tira-derecha{
+	top: -15%;
+	left: 75%;
+}
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+	transform-origin: top left;
+	transform: rotate(20deg);
+	position: relative;
+    left: 25px;
+    top: -10px;
+} 
+
+.right_arm { 
+	margin-left: 10px; 
+	transform-origin: top center;
+    /* transform: rotate(-130deg); */
+    position: relative;
+    left: -35px;
+    top: 15px;
+	/* animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-name: saludar; */
+	animation: saludar 2s infinite;
+} 
+
+@keyframes saludar{
+	0% {
+		transform: rotate(-130deg);
+	}
+	50% {
+		transform: rotate(-110deg);
+	}
+	100%{
+		transform: rotate(-130deg);
+	}
+}
+
+.glove{
+	height: 25%;
+	width: 100%;
+	background-color: #080808;
+	position: relative;
+	top: 75%;
+	border-radius: 0 0 50% 50%;
+}
+
+/* Parte de abajo */
+.lower_body { 
+	width: 200px; 
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row nowrap;
+} 
+
+.left_leg, .right_leg { 
+	background-color: #255fdb;
+	width: 40px; 
+	height: 85px;
+	border-radius: 0 0 100px 100px; 
+	position: relative;
+} 
+
+.left_leg { 
+	margin-left: 45px;
+	animation: walk_with_the_left_leg 2s infinite;
+} 
+
+/* .left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+} */
+
+.right_leg { 
+	margin-left: 30px;
+	animation: walk_with_the_right_leg 2s infinite;
+}
+@keyframes walk_with_the_right_leg {
+	0%{
+		top: 0;
+	}
+	50%{
+		top: -10px;
+	}
+	100%{
+		top: 0;
+	}
+} 
+@keyframes walk_with_the_left_leg {
+	0%{
+		top: -10px;
+	}
+	50%{
+		top: 0;
+	}
+	100%{
+		top: -10px;
+	}
+} 
+
+/* SUPERFICIE */
+.superficie{
+	height: 20%;
+	width: 100%;
+	background-color: green;
+}
