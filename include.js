@@ -5413,6 +5413,13 @@ let cards = [
     imageLink: './Art/wavy/wavy.gif',
     author: 'AnastasiosPas',
     githubLink: 'https://github.com/AnastasiosPas'
+  },
+  {
+    artName: 'Squares',
+    pageLink: './Art/Dukewendo/index.html',
+    imageLink: './Art/Dukewendo/wavy.gif',
+    author: 'Dukewendo',
+    githubLink: 'https://github.com/Dukewendo'
   }
 ];
 // +--------------------------------------------------------------------------------+
