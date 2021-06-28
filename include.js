@@ -5420,6 +5420,33 @@ let cards = [
     imageLink: './Art/Dukewendo/wavy.gif',
     author: 'Dukewendo',
     githubLink: 'https://github.com/Dukewendo'
+
+    artName: 'dynamic-background',
+    pageLink: './Art/dynamic-background/index.html',
+    imageLink: './Art/dynamic-background/animation.PNG',
+    author: 'SpBhalani',
+    githubLink: 'https://github.com/SpBhalani'
+  },
+  {
+    artName: 'jjAnimation',
+    pageLink: './Art/jjAnimation/index.html',
+    imageLink: './Art/',
+    author: 'Janna',
+    githubLink: 'https://github.com/john29sab'
+  },
+  {
+    artName: 'Evolution',
+    pageLink: './Art/sayanroy11/index.html',
+    imageLink: './Art/sayanroy11/human.gif',
+    author: 'Sayan Roy',
+    githubLink: 'https://github.com/sayanroy11'
+  },
+  {
+    artName: 'Dancing-boxes',
+    pageLink: './Art/Arham/index.html',
+    imageLink: './Art/Arham/Dancing-boxes.gif',
+    author: 'Arham',
+    githubLink: 'https://github.com/arham2002'
   }
 ];
 // +--------------------------------------------------------------------------------+
