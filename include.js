@@ -5441,6 +5441,13 @@ let cards = [
     imageLink: './Art/Arham/Dancing-boxes.gif',
     author: 'Arham',
     githubLink: 'https://github.com/arham2002'
+  },
+  {
+    artName: 'Jumping_Dots',
+    pageLink: './Art/Jackie/index.html',
+    imageLink: './Art/Jackie/jumping_dots.gif',
+    author: 'Jackie',
+    githubLink: 'https://github.com/jmontesd'
   }
 ];
 // +--------------------------------------------------------------------------------+
