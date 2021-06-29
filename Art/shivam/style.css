@@ -1,0 +1,212 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body img{
+    height: 98vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col1{
+    height: 60px;
+    width: 60px;
+    background: thistle;
+    background-color: rgb(173, 38, 173);
+    /* border-radius: 50%; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    animation-name: animatron1;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.col2{
+    height: 60px;
+    width: 60px;
+    background: thistle;
+    background-color: rgb(173, 38, 173);
+    /* border-radius: 50%; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    animation-name: animatron2;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.col3{
+    height: 50px;
+    width: 50px;
+    background: thistle;
+    background-color: rgb(173, 38, 173);
+    /* border-radius: 50%; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    animation-name: animatron3;
+    animation-delay: 3s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.col4{
+    height: 60px;
+    width: 60px;
+    background: thistle;
+    background-color: rgb(173, 38, 173);
+    /* border-radius: 50%; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    animation-name: animatron4;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.col5{
+    height: 60px;
+    width: 60px;
+    background: thistle;
+    background-color: rgb(173, 38, 173);
+    /* border-radius: 50%; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    animation-name: animatron5;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animatron1{
+    0%{
+        
+        background-color: cadetblue;
+    }
+    20%{
+
+        background-color: rgb(201, 245, 173);
+    }
+    30%{
+        background-color: tomato;
+        z-index: 5;
+    }
+    50%{
+        
+        transform: scale(2);
+    }
+    75%{
+        transform: rotate(360deg);
+        transition: transform 1s ease-in-out;
+    }
+}
+
+@keyframes animatron2{
+    0%{
+        
+        background-color: #FF5F5F;
+    }
+    20%{
+
+        background-color: #009068;
+    }
+    30%{
+        background-color: #008484;
+        z-index: 4;
+    }
+    50%{
+        
+        transform: scale(3);
+    }
+    75%{
+        transform: rotate(270deg);
+        transition: transform 4s ease-in-out;
+    }
+}
+
+@keyframes animatron3{
+    0%{
+        
+        background-color: #928218;
+    }
+    20%{
+
+        background-color: #2346FF;
+    }
+    30%{
+        background-color: #E2D57A;
+        z-index: 3;
+    }
+    50%{
+        
+        transform: scale(4);
+    }
+    75%{
+        transform: rotate(180deg);
+        transition: transform 3s ease-in-out;
+    }
+}
+
+@keyframes animatron4{
+    0%{
+        
+        background-color: #CF0AFF;
+    }
+    20%{
+
+        background-color: #009068;
+    }
+    30%{
+        background-color: #0bf1f1;
+        z-index: 2;
+    }
+    50%{
+        transform: rotate(270deg);
+        transition: transform 3s ease-in-out;
+        transform: scale(5);
+    }
+    75%{
+        transform: rotate(90deg);
+        transition: transform 2s ease-in-out;
+    }
+}
+
+@keyframes animatron5{
+    0%{
+        
+        background-color: #FF5F5F;
+    }
+    20%{
+
+        background-color: #13f5b9;
+    }
+    30%{
+        background-color: #24e90a;
+    }
+    50%{
+        transform: rotate(180deg);
+        transition: transform 2s ease-in-out;
+        transform: scale(6);
+    }
+    75%{
+        transform: rotate(45deg);
+        transition: transform 1s ease-in-out;
+    }
+}
+
+
+

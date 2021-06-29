@@ -5441,6 +5441,13 @@ let cards = [
     imageLink: './Art/Arham/Dancing-boxes.gif',
     author: 'Arham',
     githubLink: 'https://github.com/arham2002'
+  },
+  {
+    artName: "random animation"
+    pageLink: './Art/shivam/index.html',
+    imageLink: './Art/shivam/image.png',
+    author: 'shivam',
+    githubLink: 'https://github.com/shivam397'
   }
 ];
 // +--------------------------------------------------------------------------------+
