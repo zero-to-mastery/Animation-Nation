@@ -5442,6 +5442,13 @@ let cards = [
     author: 'Arham',
     githubLink: 'https://github.com/arham2002'
   }
+  {
+    artName: 'Rolling Ball',
+    pageLink: './Art/vaishali/index.html',
+    imageLink: './Art/vaishali/vaishali.png',
+    author: 'Vaishali',
+    githubLink: 'https://github.com/vpehere'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
