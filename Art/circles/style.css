@@ -1,0 +1,99 @@
+.body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.all {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	box-shadow: 3px 4px 4px black;
+	left: 40px;
+	transition: width 1s, transform 1s;
+}
+
+.circle-1 {
+	background-color: purple;
+	top: 20px;
+	transition-timing-function: ease-in-out;
+}
+
+.circle-2 {
+	background-color: darkblue;
+	top: 90px;
+	transition-timing-function: ease;
+}
+
+.circle-3 {
+	background-color: #0076E7;
+	top: 160px;
+	transition-timing-function: ease-in;
+}
+
+.circle-4 {
+	background-color: green;
+	top: 230px;
+	transition-timing-function: ease-in-out;
+}
+
+.circle-5 {
+	background-color: yellow;
+	top: 300px;
+	transition-timing-function: ease-out;
+}
+
+.circle-6 {
+	background-color: #FF6400;
+	top: 370px;
+	transition-timing-function: ease;
+}
+
+.circle-7 {
+	background-color: red;
+	top: 440px;
+	transition-timing-function: ease-in;
+}
+
+.all:hover {
+	cursor: pointer;
+}
+
+
+.circle-1:hover {
+	background-color: red;
+	transform: translateX(600px);
+	}
+
+.circle-2:hover {
+	background-color: #FF6400;
+	transform: translateX(700px);
+	}
+
+.circle-3:hover {
+	background-color: yellow;
+	transform: translateX(800px);
+	}
+
+.circle-4:hover {
+	background-color: deeppink;
+	transform: translatex(300px) scale(2.0);
+	}
+
+.circle-5:hover {
+	background-color: #0076E7;
+	transform: translateX(720px);
+	}
+
+.circle-6:hover {
+	background-color: darkblue;
+	transform: translateX(800px);
+	}
+
+.circle-7:hover {
+	background-color: purple;
+	transform: translateX(640px);
+	}					
+
