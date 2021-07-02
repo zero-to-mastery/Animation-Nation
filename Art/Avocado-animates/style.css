@@ -1,0 +1,55 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color:green;
+    position:relative;
+    animation: myavocado 5s linear 2s infinite alternate;
+}
+h1 {
+    text-align: center;
+    color:aqua;
+}
+p{
+    text-align: center;
+}
+.delicious {
+    width:200px;
+    height:200px;
+    
+    position:relative;
+}
+
+@keyframes myavocado {
+
+    0% {
+        background-color: #d55370;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: #987bbb;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: #fd9437;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: #87c4ba;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: #c76375;
+        left: 0px;
+        top: 0px;
+    }
+
+}
+
+
