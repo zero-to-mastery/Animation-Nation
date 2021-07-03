@@ -5401,6 +5401,13 @@ let cards = [
     author: 'Mahi',
     githubLink: 'https://github.com/NineNintyNine'
   },
+  { 
+    artName: "animatrontosto"
+    pageLink : './Art/animatrontosto/indet.html' , 
+    //imageLink : './Art/Joy/triangle/triangle.gif' , 
+    autore : 'lodux' , 
+    githubLink : 'https://github.com/lodux' 
+  },
   {
     artName: 'Big-Eye',
     pageLink: './Art/Big-Eye/index.html',

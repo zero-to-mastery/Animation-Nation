@@ -1,0 +1,29 @@
+.joker1 {
+	background-color: blueviolet;
+	height: 100px;
+	width: 100%;
+	animation: left_frame 1s ease-in-out 1 forwards;
+	transition: all 6s ease-in-out;
+}
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+.animate__animated.animate__backInRight{
+	--animate-duration: infinite;
+}
+.joker2 {
+	background-color: orangered;
+	height: 100px;
+	width: 100%;
+	animation: slidein .5s linear 1s infinite;
+	animation: running;
+}
+
+.joker3 {
+	background-color: darkolivegreen;
+	height: 100px;
+	width: 100%;
+	animation: slidein .3s linear 1s infinite;
+
+}
