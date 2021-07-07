@@ -5441,6 +5441,12 @@ let cards = [
     imageLink: './Art/Arham/Dancing-boxes.gif',
     author: 'Arham',
     githubLink: 'https://github.com/arham2002'
+  },
+  {
+    pageLink: './Art/Piano/index.html',
+    imageLink: './Art/Piano/piano.gif',
+    author: 'Ali Akhavan',
+    githubLink: 'https://github.com/aliakhavanrad'
   }
 ];
 // +--------------------------------------------------------------------------------+
