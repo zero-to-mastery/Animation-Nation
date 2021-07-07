@@ -5447,7 +5447,14 @@ let cards = [
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
-  }
+  },
+  {
+        artName: 'css-text-hover-effects',
+        pageLink: './Art/css-text-hover-effects/index.html',
+        imageLink: './Art/css-text-hover-effects/text-hover-effects-in-css.gif',
+        author: 'vanshaj1-dev',
+        githubLink: 'https://github.com/vanshaj1-dev'
+  }  
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
