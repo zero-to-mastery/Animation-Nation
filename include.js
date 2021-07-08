@@ -5447,7 +5447,16 @@ let cards = [
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
+  },
+  {
+    artName: 'MyNameAnimated',
+    pageLink: './Art/MyNameAnimated/index.html',
+    iamgeLink: './Art/MyNameAnimated/MyNameAnimated.gif',
+    author: 'Saransh-Das',
+    githubLink: 'https://github.com/Saransh-Das'
   }
+
+
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
