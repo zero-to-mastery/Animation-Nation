@@ -5447,7 +5447,16 @@ let cards = [
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
+  },
+  {
+    artName: 'ishika_bouncing_ball',
+    pageLink: './Art/ishika_bouncing_ball/index.html',
+    imageLink: './Art/ishika_bouncing_ball/bouncing_balls.gif',
+    author: 'Ishika',
+    githubLink: 'https://github.com/ishika2741'
   }
+
+
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
