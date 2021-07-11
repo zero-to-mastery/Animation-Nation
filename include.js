@@ -21,6 +21,13 @@ let cards = [
     githubLink: 'https://github.com/Abhishek-555'
   },
   {
+    artName: 'Animated Divs',
+    pageLink: './Art/Div Animation/index.html',
+    imageLink: './Art/Div Animation/Animation.png',
+    author: 'Kashish Goyal',
+    githubLink: 'https://github.com/KashishGoyal905'
+  },
+  {
     artName: 'Animation square rotate',
     pageLink: './Art/Animation square rotate/index.html',
     imageLink: './Art/Animation square rotate/image.jpeg',

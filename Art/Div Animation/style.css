@@ -1,0 +1,61 @@
+body,html{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+}
+
+/* main div */
+.wrapper{
+   height: 100%;
+   width: 100%;
+   background-color:blue;
+   animation: colors 6s infinite;
+}
+
+/* insider divs */
+.main{
+    height:200px;
+    width:200px;
+    background-color:orange;
+    position: relative;
+    animation: mymove 4s infinite;
+    transition: all ease-in-out;
+
+}
+.loader{
+    height:18px;
+    width:20px;
+    background-color:rgb(255, 0, 0);
+    margin-top:10%;
+    border-radius:50%;
+    position: relative;
+    animation:loading 2s infinite;
+    transition: all ease-in-out;
+}
+
+/* keyframes */
+@keyframes mymove {
+0%   {top:0px;left: 0px; border-radius:0%;background:red}
+25%  {top:0px;left: 85vw;border-radius:25%;background:rgb(0, 255, 34)}
+50%  {top:70vh;left: 85vw;border-radius:35%;background:rgb(255, 81, 0)}
+75%  {top:70vh;left: 0px;border-radius:45%;background:rgb(255, 0, 128)}
+100% {top:0vh;left: 0px;border-radius:0%;background:red}
+}
+
+@keyframes colors {
+    0%   {background:rgb(251, 255, 0)}
+    25%  {background:rgb(0, 225, 255)}
+    50%  {background:rgb(255, 0, 0)}
+    75%  {background:rgb(56, 84, 207)}
+    100% {background:rgb(251, 255, 0)}
+    }
+
+@keyframes loading {
+        0%   {background:rgb(141, 247, 2);left:0px;top:0px}
+        25%  {background:rgb(0, 26, 255);top:0px;left: 98vw;}
+        50%  {background:rgb(255, 0, 242);left:98vwpx;top:0px}
+        75%  {background:rgb(207, 56, 56);left:0px;top:0px}
+        100% {background:rgb(141, 247, 2);left:0px;top:0px}
+    }
