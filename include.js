@@ -5442,11 +5442,20 @@ let cards = [
     author: 'Arham',
     githubLink: 'https://github.com/arham2002'
   },
+
   { artName: 'animated-i',
     pageLink: './Art/deepshikha/deep.html',
     imageLink: './Art/deepshikha/deep.gif',
     author: 'deepshikha',
     githubLink: 'https://github.com/14deepshikha'
+  },
+  
+  {
+    pageLink: './Art/Piano/index.html',
+    imageLink: './Art/Piano/piano.gif',
+    author: 'Ali Akhavan',
+    githubLink: 'https://github.com/aliakhavanrad'
+
   }
 ];
 // +--------------------------------------------------------------------------------+
