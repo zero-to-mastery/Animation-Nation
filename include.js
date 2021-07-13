@@ -5450,8 +5450,8 @@ let cards = [
   },
   {
     artName: "Mair"
-    pageLink: './Art/Mair/index.html',
-    imageLink: './Art/Mair/file.gif',
+    pageLink: './Art/Umair/index.html',
+    imageLink: './Art/Umair/file.gif',
     author: 'Mohammed Khan',
     githubLink: 'https://github.com/umairkhan532'
   }
