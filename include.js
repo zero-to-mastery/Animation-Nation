@@ -5449,7 +5449,7 @@ let cards = [
     githubLink: 'https://github.com/aliakhavanrad'
   },
   {
-    artName: "Mair"
+    artName: "Mair",
     pageLink: './Art/Umair/index.html',
     imageLink: './Art/Umair/file.gif',
     author: 'Mohammed Khan',
