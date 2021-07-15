@@ -1,3 +1,4 @@
+
 div {
   margin: 0px;
   padding: 0px;
@@ -32,7 +33,7 @@ div {
 }
 
 .white-key:nth-child(3) {
-  animation-delay: 1s;
+ animation-delay: 1s;
 }
 
 .white-key:nth-child(2) {

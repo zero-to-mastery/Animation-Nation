@@ -5443,6 +5443,7 @@ let cards = [
     githubLink: 'https://github.com/arham2002'
   },
   {
+    artName: 'Piano',
     pageLink: './Art/Piano/index.html',
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
