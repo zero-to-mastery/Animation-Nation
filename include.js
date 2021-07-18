@@ -5448,6 +5448,13 @@ let cards = [
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
+  },
+  {
+    artName: 'Switching flags',
+    pageLink: './Art/ErikAvet/index.html',
+    imageLink: './Art/ErikAvet/flag.gif',
+    author: 'Erik Avetisyan',
+    githubLink: 'https://github.com/ErikAvetisyan'
   }
 ];
 // +--------------------------------------------------------------------------------+
