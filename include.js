@@ -5449,6 +5449,13 @@ let cards = [
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
   }
+  {
+    artName: 'Animatronsreepadh92',
+    pageLink: './Art/animatronsreepadh92/index.html',
+    imageLink: './Art/animatronsreepadh92/trance.gif',
+    author: 'Sreepadh',
+    githubLink: 'https://github.com/sreepadh92'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
