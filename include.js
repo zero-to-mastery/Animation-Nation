@@ -5449,6 +5449,11 @@ let cards = [
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
   }
+	artName: 'animation0',
+    pageLink: './Art/animation0/index.html',
+    imageLink: './Art/animation/pic.gif',
+    author: 'martin',
+    githubLink: 'https://github.com/'
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
