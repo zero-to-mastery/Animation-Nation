@@ -5448,7 +5448,14 @@ let cards = [
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
-  }
+  },
+  {
+    artName: 'Ocean Bubbles and Fish-Animation',
+    pageLink: './Art/Nice1Rach/index.html',
+    iamgeLink: './Art/Nice1Rach/Images/Ocean_Bubbles_and_Fish-Animation.gif',
+    author: 'Rachel Heke',
+    githubLink: 'https://github.com/Nice1Rach'
+  },
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
