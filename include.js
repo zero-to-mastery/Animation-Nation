@@ -5449,6 +5449,14 @@ let cards = [
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
   }
+    {
+    artName: 'nime',
+    pageLink: './Art/nithish03/index2.html',
+    imageLink: './Art/nithish03/nimegif.gif',
+    author: 'nithish',
+    githubLink: 'https://github.com/nithish0301'
+  }
+
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
