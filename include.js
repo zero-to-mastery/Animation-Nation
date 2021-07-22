@@ -5448,6 +5448,13 @@ let cards = [
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
+  },
+  {
+    artName: 'Tribute to Covid Warriors',
+    pageLink: './Art/Pranavs-Tribute-Animation/index.html',
+    imageLink: './Art/Pranavs-Tribute-Animation/animation_Moment.jpg',
+    author: 'Pranav Pallavalli',
+    githubLink: 'https://github.com/Pranav-Pallavalli'
   }
 ];
 // +--------------------------------------------------------------------------------+
