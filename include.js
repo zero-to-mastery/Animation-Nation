@@ -5449,6 +5449,16 @@ let cards = [
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
   }
+  {
+    artName: 'footballAnimation',
+    pageLink: './Art/mjAnimation/index.html',
+    imageLink: './Art/mjAnimation/footballAnimation.gif',
+    author: 'mj',
+    githubLink: 'https://github.com/mjlearn13'
+  }
+
+
+
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +

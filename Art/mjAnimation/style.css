@@ -1,0 +1,12 @@
+.football {
+  background: burlywood;
+  border-radius: 10% 80%;
+  height: 100px;
+  margin: 100px;
+  transition: all 2s;
+  transition-timing: ease-in-out;
+  width: 100px;
+}
+.football:hover {
+  transform: rotate(2080deg);
+}
