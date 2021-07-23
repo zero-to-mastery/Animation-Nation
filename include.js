@@ -501,6 +501,13 @@ let cards = [
     githubLink: 'https://github.com/a18nov'
   },
   {
+    artName: 'Glowing Text',
+    pageLink: './Art/TRISHA/glowingtext.html',
+    imageLink: './Art/An/pic.png',
+    author: 'trishamedrano',
+    githubLink: 'https://github.com/trishamedrano'
+  },
+  {
     artName: 'Hacktoberfest 2019',
     pageLink: './Art/jpk3lly/animation.html',
     imageLink: './Art/jpk3lly/JPs_Animation_GIF.gif',
