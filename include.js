@@ -5448,6 +5448,13 @@ let cards = [
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
+  },
+  {
+    artName: 'Nevin',
+    pageLink: './Art/Nevin/index.html',
+    imageLink: './Art/Nevin/capture.gif',
+    author: 'Nevin Sunny',
+    githubLink: 'https://github.com/nevin-sunny04'
   }
 ];
 // +--------------------------------------------------------------------------------+
