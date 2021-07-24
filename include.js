@@ -5448,7 +5448,17 @@ let cards = [
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
+  },
+
+  {
+    artName: 'Natural Motion Bezier Curve',
+    pageLink: './Art/Motion-BezierCurve/index.html',
+    imageLink: './Art/Motion-BezierCurve/motion-bezierCurve.png',
+    author: 'Edilson Matola',
+    githubLink: 'https://github.com/edilsonmatola'
   }
+
+  
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
