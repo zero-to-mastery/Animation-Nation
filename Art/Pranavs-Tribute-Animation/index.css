@@ -1,0 +1,100 @@
+
+body {
+	animation:animate3 15s infinite;
+	animation-fill-mode: forwards;
+}
+.wavy {
+	max-height:100px;
+	height:100%;
+	display:flex;
+    justify-content: center;
+	align-items: center;
+    min-height: 38vh;
+	font-size:30px;
+	position: relative;
+}
+.wavy span{
+			font-family: fanstasy;
+	        position: relative;
+            display: inline-block;
+            font-size: 2em;
+            text-transform: uppercase;
+            animation: animate 2s infinite;
+            animation-delay: calc(0.1s * var(--i));
+			color:black;
+}
+
+  @keyframes animate {
+ 0% {
+transform: translateY(0px);
+}  
+30% {
+	transform: translateY(-25px);
+}
+50%,100% {
+  transform: translateY(0px);
+ }
+ }
+ .column {
+  float: left;
+  width: 25%;
+ }
+ .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ .column1 {
+  float: left;
+  width: 25%;
+ }
+ .row1::after {
+  content: "";
+  clear: both;
+}
+@keyframes animate2{
+	0%{opacity:1}
+	50%{opacity:0}
+	70%{opacity:1}
+	90%{opacity:0}
+	100%{opacity:1}
+}
+@keyframes animate3 {
+	0%{background-color:rgb(6, 75, 21)}
+	25%{background-color:#22354E}
+	50% {background-color:EAB718}
+	75%{background-color:#A40FAE}
+	100%{background-color:#AEA20F }
+}
+#img1{
+	position:relative;
+	left:-338px;
+	opacity:1;
+	animation:animate2 5s infinite;
+	animation-delay:2s;
+	animation-fill-mode: forwards;
+}
+#img2{
+	position:relative;
+	left:338px;
+	opacity:1;
+	animation:animate2 5s infinite;
+	animation-delay:2s;
+	animation-fill-mode: forwards;
+}
+#img3{
+	position:relative;
+	left:-338px;
+	opacity:1;
+	animation:animate2 5s infinite;
+	animation-delay:3s;
+	animation-fill-mode: forwards;
+}
+#img4{
+	position:relative;
+	left:338px;
+	opacity:1;
+	animation:animate2 5s infinite;
+	animation-delay:2s;
+	animation-fill-mode: forwards;
+}
