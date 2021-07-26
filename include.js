@@ -5448,7 +5448,14 @@ let cards = [
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
-  }
+  },
+  {
+    artName: 'random-emojis',
+    pageLink: './Art/kesava-karri/index.html',
+    imageLink: './Art/kesava-karri/200w.gif',
+    author: 'kesava-karri',
+    githubLink: 'https://github.com/kesava-karri'
+  },
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
