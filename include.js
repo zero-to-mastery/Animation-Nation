@@ -5448,6 +5448,11 @@ let cards = [
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
+  },
+  {
+    pageLink: './Art/pathsu0310/index.html',
+    author: 'Pei-Chen Hsu',
+    githubLink: 'https://github.com/royranger'
   }
 ];
 // +--------------------------------------------------------------------------------+
