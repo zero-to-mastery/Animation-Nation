@@ -1,0 +1,14 @@
+img.pogo {
+    position: absolute;
+    margin: 50px 0px;
+    animation: slide 5s infinite linear;
+}
+
+@keyframes slide {
+    0% { left: -250px; transform: scaleX(1); }
+    30% { left: 0px; transform: scaleX(1); }
+    50% { left: 0px; transform: scaleX(1); }
+    50.01% { left: 0px; transform: scaleX(-1); }
+    70% { left: 0px; transform: scaleX(-1); }
+    100% { left: -250px; transform: scaleX(-1) }
+}
