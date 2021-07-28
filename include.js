@@ -5448,6 +5448,14 @@ let cards = [
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
+  },
+
+  {
+    artName: 'Morphing Cube',
+    pageLink: './Art/Morphing Cube/index.html',
+    imageLink: './Art/Morphing Cube/morphingcube.gif',
+    author: 'wrg9bs',
+    githubLink: 'https://github.com/wrg9bs'
   }
 ];
 // +--------------------------------------------------------------------------------+
