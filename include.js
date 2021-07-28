@@ -5449,6 +5449,13 @@ let cards = [
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
   }
+  {
+    artName: 'Pogo Squirrel';
+    pageLink: './Art/leoenss_pogosquirrel/index.html',
+    imageLink: './Art/leoenss_pogosquirrel/pogosquirrel_preview.gif',
+    author: 'Leo Enss',
+    githubLink: 'https://github.com/leoenss'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
