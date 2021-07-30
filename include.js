@@ -1027,6 +1027,13 @@ let cards = [
     githubLink: 'https://github.com/abhinav9910'
   },
   {
+    artName: 'Robot Friend',
+    pageLink: './Art/robot/index.html',
+    imageLink: '',
+    author: 'Sourabh',
+    githubLink: 'https://github.com/Sourabh-mittal'
+  },
+  {
     artName: 'The Ripple',
     pageLink: './Art/Anmol2/index.html',
     imageLink: './Art/Anmol2/ripple.png',
