@@ -5448,6 +5448,20 @@ let cards = [
     imageLink: './Art/Piano/piano.gif',
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
+  },
+  {
+    artName: 'Switching flags',
+    pageLink: './Art/ErikAvet/index.html',
+    imageLink: './Art/ErikAvet/flag.gif',
+    author: 'Erik Avetisyan',
+    githubLink: 'https://github.com/ErikAvetisyan'
+  },
+  {
+    artName: 'Black Hole Vortex',
+    pageLink: './Art/black-hole-vortex/index.html',
+    imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
+    author: 'Bo-wei Chen',
+    githubLink: 'https://github.com/Rayologist'
   }
 ];
 // +--------------------------------------------------------------------------------+
