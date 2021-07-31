@@ -5449,13 +5449,35 @@ let cards = [
     author: 'Ali Akhavan',
     githubLink: 'https://github.com/aliakhavanrad'
   },
-
+  
   {
     artName: 'Natural Motion Bezier Curve',
     pageLink: './Art/Motion-BezierCurve/index.html',
     imageLink: './Art/Motion-BezierCurve/motion-bezierCurve.png',
     author: 'Edilson Matola',
     githubLink: 'https://github.com/edilsonmatola'
+  },
+    
+  {
+    artName: 'Ocean Bubbles and Fish-Animation',
+    pageLink: './Art/Nice1Rach/index.html',
+    iamgeLink: './Art/Nice1Rach/Images/Ocean_Bubbles_and_Fish-Animation.gif',
+    author: 'Rachel Heke',
+    githubLink: 'https://github.com/Nice1Rach'
+  },
+  {
+    artName: 'Switching flags',
+    pageLink: './Art/ErikAvet/index.html',
+    imageLink: './Art/ErikAvet/flag.gif',
+    author: 'Erik Avetisyan',
+    githubLink: 'https://github.com/ErikAvetisyan'
+  },
+  {
+    artName: 'Black Hole Vortex',
+    pageLink: './Art/black-hole-vortex/index.html',
+    imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
+    author: 'Bo-wei Chen',
+    githubLink: 'https://github.com/Rayologist'
   }
 
   
@@ -5493,3 +5515,12 @@ function Shuffle(o) {
   );
   return o;
 }
+let cards = [
+  //  Add your card in this section
+  {
+    pageLink: './Art/chrisg/index.html',
+    imageLink: './Art/chrisg/redwhiteblue.gif',
+    author: 'ChrisG',
+    githubLink: 'https://github.com/chrisgithubok'
+  }
+];
