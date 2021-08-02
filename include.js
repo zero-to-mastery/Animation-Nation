@@ -5490,3 +5490,12 @@ function Shuffle(o) {
   );
   return o;
 }
+let cards = [
+  //  Add your card in this section
+  {
+    pageLink: './Art/chrisg/index.html',
+    imageLink: './Art/chrisg/redwhiteblue.gif',
+    author: 'ChrisG',
+    githubLink: 'https://github.com/chrisgithubok'
+  }
+];
