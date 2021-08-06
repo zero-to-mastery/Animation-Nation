@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Animations</title>
+</head>
+<style>
+    .container {
+        background-color: hsla(200, 100%, 20%);
+        height: 400px;
+        width: 400px;
+    }
+
+    .box {
+        background-color: red;
+        width: 50%;
+        height: 50%;
+        animation: left-to-right 1s ease-in-out forwards infinite alternate;
+
+    }
+
+    .container:hover .box {
+        transform: translateX(100%);
+        animation-play-state: paused;
+
+    }
+
+    @keyframes left-to-right {
+        0% {
+            background-color: red;
+            transform: translateX(0);
+        }
+
+        33% {
+            background-color: rgb(17, 224, 162);
+            transform: translateY(100%);
+        }
+
+        50% {
+            background-color: rgb(5, 243, 96);
+
+        }
+
+
+
+        66% {
+            background-color: red;
+            transform: translateX(100%) translateY(100%);
+        }
+
+        100% {
+            background-color: rgb(17, 224, 162);
+            transform: translateX(100%);
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+
+</html>
