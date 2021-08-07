@@ -1,0 +1,15 @@
+img {
+  padding: 30px;
+  width: 200px;
+  border-radius: 50%;
+}
+div
+{
+    animation: infinite;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}  

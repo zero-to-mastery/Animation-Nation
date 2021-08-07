@@ -5470,6 +5470,16 @@ let cards = [
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
   }
+  {
+    artName: 'U-ANIMATE',
+    pageLink: './Art/U-ANIMATE/index.html',
+    imageLink: './Art/U-ANIMATE/img.gif',
+    author: 'Umar',
+    githubLink: 'https://github.com/umar052001'
+  }
+]
+
+
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
