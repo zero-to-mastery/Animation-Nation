@@ -129,6 +129,9 @@ h2 {
 }
 
 #footer {
+  position: absolute;
+  bottom: 0;
+  width: 97.4%;
   padding: 35px 20px;
   background-color: #343a40b0;
   justify-content: center;
