@@ -1,0 +1,198 @@
+body {
+  background: #fff;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div#one {
+	width: 100px;
+  	height: 100px;
+  	margin: 2rem;
+  	border-radius: 100px;
+  	position: relative;
+  	background-color: skyblue;
+  	animation-name: scale1;
+  	animation-timing-function: linear;
+  	animation-duration: 8s;
+  	animation-delay: 2s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+
+div#two {
+	width: 100px;
+  	height: 100px;
+  	margin: 2rem;
+  	border-radius: 100px;
+  	position: relative;
+  	background-color: #3535be;
+  	animation-name: scale2;
+  	animation-timing-function: linear;
+  	animation-duration: 10s;
+  	animation-delay: 1s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+
+div#three {
+	width: 100px;
+  	height: 100px;
+  	margin: 2rem;
+  	border-radius: 100px;
+  	position: relative;
+  	background-color: skyblue;
+  	animation-name: scale3;
+  	animation-timing-function: linear;
+  	animation-duration: 8s;
+  	animation-delay: 2s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+
+}
+
+div#four {
+	width: 100px;
+  	height: 100px;
+  	margin: 2rem;
+  	border-radius: 100px;
+  	position: relative;
+  	background-color: #3535be;
+  	animation-name: scale4;
+  	animation-timing-function: linear;
+  	animation-duration: 10s;
+  	animation-delay: 1s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+
+
+@keyframes scale1 {
+  0% {
+    transform: scale3d(1, 1, 1);
+    background-color: skyblue;
+    left: 0px;
+    top: 0px;
+  }
+  
+  30% {
+    transform: scale3d(3, 3, 3);
+    background-color: #28aee4;
+    left: 100px;
+    top: 0px;
+  }
+  
+  55% {
+    transform: scale3d(5, 5, 5);
+    background-color: #0c7dab;
+    left: 100px;
+    top: 100px;
+  }
+  
+  100% {
+    transform: scale3d(1, 1, 1);
+    background-color: #00587b;
+    left: 0px;
+    top: 100px;
+  }
+}
+
+
+@keyframes scale2 {
+
+  0% {
+    transform: scale3d(1, 1, 1);
+    background-color: #3535be;
+    left: 0px;
+    top: 0px;
+  }
+  
+  30% {
+    transform: scale3d(3, 3, 3);
+    background-color: #5d5def;
+    left: 0px;
+    top: 200px;
+  }
+  
+  55% {
+    transform: scale3d(5, 5, 5);
+    background-color: #8989fd;
+    left: 200px;
+    top: 200px;
+  }
+  
+  100% {
+    transform: scale3d(1, 1, 1);
+    background-color: #c3c3ff;
+    left: 200px;
+    top: 200px;
+  }
+}
+
+
+@keyframes scale3 {
+  0% {
+    transform: scale3d(1, 1, 1);
+    background-color: skyblue;
+    left: 0px;
+    top: 0px;
+  }
+  
+  30% {
+    transform: scale3d(3, 3, 3);
+    background-color: #28aee4;
+    left: 200px;
+    top: 0px;
+  }
+  
+  55% {
+    transform: scale3d(5, 5, 5);
+    background-color: #0c7dab;
+    left: 200px;
+    top: 200px;
+  }
+  
+  100% {
+    transform: scale3d(1, 1, 1);
+    background-color: #00587b;
+    left: 0px;
+    top: 200px;
+  }
+}
+
+
+@keyframes scale4 {
+  0% {
+    transform: scale3d(1, 1, 1);
+    background-color: #3535be;
+    left: 0px;
+    top: 0px;
+  }
+  
+  30% {
+    transform: scale3d(3, 3, 3);
+    background-color: #5d5def;
+    left: 100px;
+    top: 100px;
+  }
+  
+  55% {
+    transform: scale3d(5, 5, 5);
+    background-color: #8989fd;
+    left: 100px;
+    top: 0px;
+  }
+  
+  100% {
+    transform: scale3d(1, 1, 1);
+    background-color: #c3c3ff;
+    left: 100px;
+    top: 100px;
+  }
+}
+
+
+
