@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: black;
+    box-sizing: border-box;
+    height: 90vh;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border-radius: 12px;
+    width: 2px;
+    height: 200px;
+    background-color: red;
+    /* position: relative; */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+        transform: rotate(188deg);
+        width: 10px
+    }
+    25% {
+        background-color: rgb(132, 0, 255);
+        transform: rotate(45deg);
+        width: 420px
+    }
+    50% {
+        background-color: blue;
+        transform: rotate(608deg);
+        width: 1px;
+        height: 1px
+    }
+    75% {
+        background-color: rgb(251, 163, 63);
+        transform: rotate(45deg);
+        width: 120px
+    }
+    100% {
+        background-color: red;
+        transform: rotate(188deg);
+        width: 10px
+    }
+}

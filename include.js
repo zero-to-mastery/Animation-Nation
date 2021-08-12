@@ -5469,6 +5469,13 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    artName: 'Spin The Div',
+    pageLink: './Art/div_spinner/index.html',
+    imageLink: './Art/div_spinner/css.gif',
+    author: 'Eyal Ganor',
+    githubLink: 'https://github.com/eyalganor123'
   }
 ];
 // +--------------------------------------------------------------------------------+
