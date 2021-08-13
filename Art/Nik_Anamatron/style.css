@@ -1,0 +1,35 @@
+div#one{
+	height: 100px;
+	width: 40%;
+	background: blue;
+	position: relative;
+	animation: mymove 1s infinite alternate;
+}
+@keyframes mymove {
+  from {left: 50px;}
+  to {left: 600px;}
+}
+
+#two{
+	height: 100px;
+	width: 30%;
+	background-color: red;
+	position: relative;
+	animation: mymove2 1s infinite alternate;
+}
+@keyframes mymove2 {
+  from {left: 100px;}
+  to {left: 700px;}
+}
+
+#three{
+	height: 100px;
+	width : 10%;
+	background-color: yellow;
+	position: relative;
+	animation: mymove3 1s infinite alternate;
+}
+@keyframes mymove3 {
+  from {left: 300px;}
+  to {left: 800px;}
+}

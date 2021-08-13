@@ -5512,4 +5512,11 @@ let cards = [
     author: 'ChrisG',
     githubLink: 'https://github.com/chrisgithubok'
   }
+  {
+    artName : "Nik_Anamatron";
+    pageLink: './Art/Nik_Anamatron/index.html.html',
+    imageLink: './Art/Nik_Anamatron/index.gif',
+    author: 'Nikita',
+    githubLink: 'https://github.com/nikitabhanderi93'
+  }
 ];
