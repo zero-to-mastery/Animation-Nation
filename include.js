@@ -5469,6 +5469,13 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    artName: 'Animatron',
+    pageLink: './Art/animatron/index.html',
+    imageLink: './Art/animatron/trance.gif',
+    author: 'Cemil',
+    githubLink: 'https://github.com/cemil-crypto'
   }
 ];
 // +--------------------------------------------------------------------------------+
