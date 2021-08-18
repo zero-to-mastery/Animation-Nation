@@ -1,0 +1,208 @@
+#top {
+    display: flex;
+    background-color: #0000ff;
+    width: 200px;
+    height: 150px;
+    border-radius: 50px 50px 0 0;
+    margin: 70px auto 5px auto;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: rotate-head 10s linear infinite, shake 10s 6s cubic-bezier(.36,.07,.19,.97) both infinite;
+    box-shadow: 0 5px 10px #333, inset 0 5px 20px rgb(150, 217, 255);
+}
+
+@keyframes rotate-head {
+    5%, 10% {
+        border-radius: 80px 50px 0 0;
+        box-shadow: -5px 5px 10px #333, inset -10px 5px 20px rgb(150, 217, 255), inset 10px 1px 30px rgb(1, 8, 110, 0.5);
+    }
+
+    20% {
+        border-radius: 50px 50px 0 0;
+        box-shadow: 0px 5px 10px #333, inset 0 5px 20px rgb(150, 217, 255);
+    }
+    30%, 40% {
+        border-radius: 50px 80px 0 0;
+        box-shadow: 5px 5px 10px #333, inset 10px 5px 20px rgb(150, 217, 255), inset -10px 1px 30px rgb(1, 8, 110, 0.5);  
+    }
+    50% {
+        border-radius: 50px 50px 0 0;  
+        box-shadow: 0 5px 10px #333, inset 0 5px 20px rgb(150, 217, 255);
+    }
+}
+.eye {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    animation: look-around 10s linear infinite, blink-eye 10s 5s ease-in infinite;
+}
+
+@keyframes shake {
+    5%, 15%, 25%, 35% {
+      transform: translate3d(-10px, 0, 0);
+      box-shadow: 5px 5px 10px #333, inset 10px 5px 20px rgb(150, 217, 255), inset -10px 1px 30px rgb(1, 8, 110, 0.5);
+    }  
+    10%, 20%, 30% {
+      transform: translate3d(10px, 0, 0);
+      box-shadow: -5px 5px 10px #333, inset -10px 5px 20px rgb(150, 217, 255), inset 10px 1px 30px rgb(1, 8, 110, 0.5);
+    }
+    35% {
+        transform: translate3d(0, 0, 0);
+        box-shadow: 0 5px 10px #333, inset 0 5px 20px rgb(150, 217, 255);
+    }
+}
+
+@keyframes look-around {
+    0% {
+        left: 0;
+    }
+    5% {
+        left: 40px;
+        margin: -20px;
+        height: 30px;
+    }
+    10% {
+        left: 40px;
+        margin: -20px;
+    }
+    20% {
+        left: 0;
+        margin: 0px;
+        height: 40px
+    }
+    30% {
+        left: -40px;
+        margin: -20px;
+        height: 30px;
+    }
+    40% {
+        left: -40px;
+        margin: -20px;
+        height: 30px;
+    }
+    50% {
+        left: 0;
+        margin: 0;
+        height: 40px;
+    }
+}
+
+@keyframes blink-eye {
+    5% {
+        height: 0%;
+        border-radius: 0%;
+    }
+    10% {
+        height: 40px;
+        border-radius: 50%;
+    }
+}
+
+
+#mid{
+    display: flex;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.body{
+    width: 200px;
+    height: 150px;
+    background-color: #0000ff;
+    margin: 20px auto;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 5px 10px #333, inset 0 5px 20px rgb(150, 217, 255);
+    z-index: 1;
+    animation: body-dance 10s 6s infinite;
+}
+.left-arm {
+    width: 40px;
+    height: 150px;
+    margin: 20px auto;
+    background-color: #0000ff;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 5px 10px #333, inset 0 5px 20px rgb(150, 217, 255);
+    animation: dance 10s 6s infinite;
+    z-index: 0;
+}
+.right-arm {
+    width: 40px;
+    height: 150px;
+    margin: 20px auto;
+    background-color: #0000ff;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 5px 10px #333, inset 0 5px 20px rgb(150, 217, 255);
+    animation: dance 10s 6s infinite;
+    z-index: 5;
+}
+
+
+@keyframes dance {
+    5%, 15%, 25%, 35% {
+        transform: rotate(45deg) translate(-32px, 24px);
+        box-shadow: -5px 5px 10px #333, inset -10px 5px 20px rgb(150, 217, 255), inset 10px 1px 30px rgb(1, 8, 110, 0.5);
+    }  
+    10%, 20%, 30% {
+        transform: rotate(-45deg) translate(32px, 24px);
+        box-shadow: 5px 5px 10px #333, inset 10px 5px 20px rgb(150, 217, 255), inset -10px 1px 30px rgb(1, 8, 110, 0.5);
+
+    }
+    35% {
+        transform: rotate(0);
+        box-shadow: 0 5px 10px #333, inset 0 5px 20px rgb(150, 217, 255);}
+}
+@keyframes body-dance {
+    5%, 15%, 25%, 35% {
+        transform: rotate(-5deg) translate(-10px, -6px);
+        border-radius: 0 0 50px 80px;
+        box-shadow: 5px 5px 10px #333, inset 10px 5px 20px rgb(150, 217, 255), inset -10px 1px 30px rgb(1, 8, 110, 0.5);
+        
+    }  
+    10%, 20%, 30% {
+        transform: rotate(5deg) translate(10px, -6px);
+        border-radius: 0 0 80px 50px;
+        box-shadow: -5px 5px 10px #333, inset -10px 5px 20px rgb(150, 217, 255), inset 10px 1px 30px rgb(1, 8, 110, 0.5);
+    }
+    35% {  
+        border-radius: 0 0 30px 30px;
+        box-shadow: 0 5px 10px #333, inset 0 5px 20px rgb(150, 217, 255);
+        transform: rotate(0);
+        }
+}
+
+#bottom {
+    display: flex;
+    width: 320px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.leg {
+    width: 60px;
+    height: 100px;
+    background-color: #0000ff;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 5px 10px #333, inset 0 5px 20px rgb(150, 217, 255);
+    animation: leg-dance 10s 6s infinite;
+    
+}
+
+@keyframes leg-dance {
+    5%, 15%, 25%, 35% {
+        transform: rotate(5deg) translate(10px, -6px);
+        box-shadow: 5px 5px 10px #333, inset 10px 5px 20px rgb(150, 217, 255), inset -10px 1px 30px rgb(1, 8, 110, 0.5);
+    }  
+    10%, 20%, 30% {
+        transform: rotate(-5deg) translate(-10px, -6px);
+        box-shadow: -5px 5px 10px #333, inset -10px 5px 20px rgb(150, 217, 255), inset 10px 1px 30px rgb(1, 8, 110, 0.5);
+
+    }
+    35% {
+        transform: rotate(0);
+        box-shadow: 0 5px 10px #333, inset 0 5px 20px rgb(150, 217, 255);
+    }
+}

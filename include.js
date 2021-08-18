@@ -5469,7 +5469,15 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
-  }
+  },
+  {
+    artName: 'Dancing-robot',
+    pageLink: './Art/Dancing-robot/index.html',
+    imageLink: './Art/Dancing-robot/dancing-robot.gif',
+    author: 'Asther Louie Cabardo',
+    githubLink: 'https://github.com/ashcbrd'
+  },
+
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
