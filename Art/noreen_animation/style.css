@@ -66,13 +66,13 @@ h1{
 }
 
 body{
-    background:linear-gradient(-45deg,#f31616,rgb(3, 149, 185) , rgb(253, 169, 72) , rgb(3, 149, 225) , #23d5ab ) ;
+    background:linear-gradient(-45deg,#f36e16,rgb(3, 149, 185) , rgb(253, 169, 72) , rgb(3, 149, 225) , #23d5ab ) ;
     background-size: 800% 800%;
-    animation:gradient 20s ease infinite;
+    animation:animate 20s ease infinite;
    
 }
 
-@keyframes gradient {
+@keyframes animate {
 	0% {
 		background-position: 0% 50%;
 	}
