@@ -5469,7 +5469,15 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    artName: 'Loader Rotater',
+    pageLink: './Art/kanwarbir02/index.html',
+    imageLink: './Art/kanwarbir02/loader.gif',
+    author: 'Kanwarbir Singh',
+    githubLink: 'https://github.com/Kanwarbir02'
   }
+  
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
