@@ -5469,7 +5469,14 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
-  }
+  },
+  {
+    artName: 'Spinning Stained Glass'
+    pageLink: './Art/mykey2toes/index.html',
+    imageLink: './Art/mykey2toes/giphy.gif',
+    author: 'mykey2toes',
+    githubLink: 'https://github.com/mykey2toes'
+  },
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
