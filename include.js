@@ -5470,6 +5470,13 @@ let cards = [
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
   }
+  {
+    artName: 'Pump Time',
+    pageLink: './Art/Djente/index.html',
+    imageLink: './Art/Djente/all-about-the-pump.gif',
+    author: 'Jack Thomas',
+    githubLink: 'https://github.com/Djente44'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
