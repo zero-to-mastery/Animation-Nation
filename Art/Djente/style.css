@@ -1,0 +1,58 @@
+.wrapper {
+   height: 800px;
+   display:  flex;
+   align-items: center;
+   justify-content: center;
+   background: #000000;
+}
+
+.txt {
+   color: white;
+   background: #000000;
+   font-size: 90px;
+   font-weight: bold;
+   font-family: Arial;
+   text-transform: uppercase;
+   /*text-align: center;*/
+}
+
+.txt::before {
+   content:  'Its all about the pump...';
+   position: absolute; 
+   mix-blend-mode: difference;
+   filter: blur(2px);
+   /*text-transform: uppercase;
+   text-align: center;*/
+}
+
+.neon-wrapper {
+   display: inline-flex;
+   filter: brightness(200%);
+   overflow: hidden;
+}
+
+.gradient{
+background: linear-gradient(65.03064961508153deg, rgba(242, 124, 73,1) 15.143229166666668%,rgba(241, 123, 73,1) 15.143229166666668%,rgba(24, 71, 84,1) 66.70572916666666%);   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   mix-blend-mode: multiply;
+}
+
+.dodge {
+   background: radial-gradient(circle, white , black 35%) center / 25% 25%;
+   position:  absolute;
+   top: -200%;
+   left: -200%;
+   right: 0;
+   bottom: 0;
+   mix-blend-mode: color-dodge;
+   animation: dodge-area 3s linear infinite;
+}
+
+@keyframes dodge-area {
+   to {
+      transform: translate(50%,50%);
+   }
+}
