@@ -1,0 +1,87 @@
+@keyframes extend {
+  0% {
+    width: 200px;
+    height: 100px;
+  }
+
+  50% {
+    width: 700px;
+    height: 100px;
+  }
+
+  100% {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+#box1 {
+  width: 200px;
+  height: 100px;
+  background-color: lavender;
+  position: relative;
+  margin: 25px 50px 75px 100px;
+}
+#box2 {
+  width: 200px;
+  height: 100px;
+  background-color: pink;
+  position: relative;
+  margin: 25px 50px 75px 100px;
+}
+#box3 {
+  width: 200px;
+  height: 100px;
+  background-color: coral;
+  position: relative;
+  margin: 25px 50px 75px 100px;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#content {
+  display: grid;
+  justify-content: center;
+}
+
+/*#box1:hover{
+   transform:rotate(50deg) ;
+   transition: 2s;
+}
+
+#box2:hover{
+   transform:rotate(50deg) ;
+   transition: 2s;
+}
+
+#box3:hover{
+   transform:rotate(50deg) ;
+   transition: 2s;
+}*/
+
+#box1 {
+  /*animation: heartBeat;
+  animation-duration: 2s;*/
+  animation-name: extend;
+  animation-duration: 0s;
+  animation-delay: -0.01s;
+  animation-iteration-count: infinite;
+}
+
+#box2 {
+  animation-name: extend;
+  animation-duration: 0.1s;
+  animation-delay: 0.03s;
+  animation-iteration-count: infinite;
+}
+
+#box3 {
+  animation-name: extend;
+  animation-duration: 0.1s;
+  animation-delay: -0.05s;
+  animation-iteration-count: infinite;
+}

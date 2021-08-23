@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Stephan Animation',
+    pageLink: './Art/stephanduval_animatron/index.html',
+    iamgeLink: './Art/stephanduval_animatron/stephanduval_animatron.gif',
+    author: 'Stephan DuVal',
+    githubLink: 'https://github.com/stephanduval'
+  },
+  {
     artName: 'DayToNight',
     pageLink: './Art/DayToNight By Arpan/index.html',
     imageLink: './Art/Joy/DayToNight By Arpan/giphy.gif',
@@ -12,6 +19,13 @@ let cards = [
     imageLink: './Art/AbhishekSingh-Animation-Contribution/gif.png',
     author: 'Abhishek Singh',
     githubLink: 'https://github.com/Abhishek-555'
+  },
+  {
+    artName: 'Animation square rotate',
+    pageLink: './Art/Animation square rotate/index.html',
+    imageLink: './Art/Animation square rotate/image.jpeg',
+    author: 'Nampelly_varun',
+    githubLink: 'https://github.com/nampellyvarun'
   },
   {
     artName: 'CSS Loader',
@@ -5174,6 +5188,13 @@ let cards = [
     githubLink: 'https://github.com/SohaibAfani'
   },
   {
+    artName: 'Orbit',
+    pageLink: './Art/Orbit/index.html',
+    imageLink: './Art/Orbit/Orbit.gif',
+    author: 'Mohammed Warsame',
+    githubLink: 'https://github.com/mwarsame20'
+  },
+  {
     artName: 'KakashiHead',
     pageLink: './Art/HamizJamil/index.html',
     imageLink: './Art/HamizJamil/kakashianimation.gif',
@@ -5209,19 +5230,60 @@ let cards = [
     githubLink: 'https://github.com/anna0mclachlan'
   },
   {
+    artName: 'Amit',
+    pageLink: './Art/amit/index.html',
+    author: 'Amit',
+    githubLink: 'https://github.com/amitsharmaa'
+  },
+  {
+    artName: 'Lin',
+    pageLink: './Art/Lin/index.html',
+    imageLink: './Art/Lin/lin.gif',
+    author: 'Lin',
+    githubLink: 'https://github.com/linxz-coder'
+  },
+  {
     artName: 'Mouataz',
     pageLink: './Art/Mouataz/index.html',
     author: 'Mouataz',
     githubLink: 'https://github.com/MouatazKad'
   },
   {
+    artName: 'Moving graph',
+    pageLink: './Art/Joy/moving-graph/index.html',
+    imageLink: './Art/Joy//moving-graph.gif',
+    author: 'kimjusang',
+    githubLink: 'https://github.com/kimjusang'
+  },
+  {
+    artName: 'Always Be',
+    pageLink: './Art/Joy/animatron-kim/index.html',
+    imageLink: './Art/Joy//always.gif',
+    author: 'kimjusang',
+    githubLink: 'https://github.com/kimjusang'
+  },
+  {
+    artName: 'Who could it be?',
+    pageLink: './Art/pjwmascall/index.html',
+    imageLink: './Art/pjwmascall/thumbnail.gif',
+    author: 'pjwmascall',
+    githubLink: 'https://github.com/pjwmascall'
+  },
+  {
+    artName: 'Sparkle',
+    pageLink: './Art/Sparkle/index.html',
+    imageLink: './Art/Sparkle/Animation.gif',
+    author: 'palak2603',
+    githubLink: 'https://github.com/palak2603'
+  },
+  {
     artName: 'TomatoSpin',
     pageLink: './Art/tomatoSpin/index.html',
     author: 'Mateo',
-    githubLink: 'https://github.com/mateodibenedetto'  
+    githubLink: 'https://github.com/mateodibenedetto'
   },
   {
-    artName: "Animating",
+    artName: 'Animating',
     pageLink: './Art/Animating/index.html',
     imageLink: './Art/Animating/2021-06-05_17_10_54-Greenshot.jpg',
     author: 'Sahil Shailesh Pedamkar',
@@ -5254,6 +5316,166 @@ let cards = [
     imageLink: './Art/ghost/Capture.GIF',
     author: 'jeel',
     githubLink: 'https://github.com/jeeljain19'
+  },
+  {
+    artName: 'I Love ZTM',
+    pageLink: './Art/IloveZTM/index.html',
+    imageLink: './Art/IloveZTM/style.css',
+    author: 'MirshadOz',
+    githubLink: 'https://github.com/mirshadoz'
+  },
+  {
+    artName: 'Pink Bars',
+    pageLink: './Art/rayleigh/rr.html',
+    imageLink: './Art/rayleigh/pinkbars.gif',
+    author: 'Rayleigh',
+    githubLink: 'https://github.com/rayleighrozier'
+  },
+  {
+    artName: 'Out of This World',
+    pageLink: './Art/Out-of-This-World/index.html',
+    imageLink: './Art/Out-of-This-World/ootw.gif',
+    author: 'Xenark',
+    githubLink: 'https://github.com/xenark'
+  },
+  {
+    artName: 'circular motion',
+    pageLink: './Art/Aliraza Lalani Animation/index.html',
+    imageLink: './Art/Aliraza Lalani Animation/aa.gif',
+    author: 'Aliraza Lalani',
+    githubLink: 'https://github.com/alirazalalani'
+  },
+  {
+    artName: 'Home',
+    pageLink: './Art/rez4president/index.html',
+    imageLink: './Art/rez4president/home.gif',
+    author: 'Raza Ul Kareem',
+    githubLink: 'https://github.com/rez4president'
+  },
+  {
+    artName: 'VtekAnimation',
+    pageLink: './Art/vtekanimation/index.html',
+    imageLink: './Art/VtekAnimation/track.gif',
+    author: 'corleone0007',
+    githubLink: 'https://github.com/corleone0007'
+  },
+  {
+    artName: 'Box',
+    pageLink: './Art/Sagun/index.html',
+    imageLink: './Art/Sagun/ezgif.com-gif-maker.gif',
+    author: 'Sagun',
+    githubLink: 'https://github.com/Sagun-png'
+  },
+  {
+    artName: 'animator_css',
+    pageLink: './Art/animator_css/index.html',
+    imageLink: './Art/animator_css/animator.gif',
+    author: 'Benji',
+    githubLink: 'https://github.com/benjaminpeto'
+  },
+  {
+    artName: '1jump',
+    pageLink: './Art/1jump/index.html',
+    imageLink: './Art/1jump/1jump.gif',
+    author: 'Leutamommx',
+    githubLink: 'https://github.com/leutamommx'
+  },
+  {
+    artName: 'bubbles',
+    pageLink: './Art/ghogoo/index.html',
+    imageLink: './Art/ghogoo/bubbles.gif',
+    author: 'ghogoo',
+    githubLink: 'https://github.com/ghogoo'
+  },
+  {
+    artName: 'Floating Words',
+    pageLink: './Art/floatingWords/index.html',
+    imageLink: './Art/floatingWords/floatingWords.gif',
+    author: 'ScoobyDooDoo',
+    githubLink: 'https://github.com/ScoobyDooDoo'
+  },
+  {
+    artName: 'Happy Hacktoberfest',
+    pageLink: './Art/DavidEdmondson/index.html',
+    imageLink: './Art/DavidEdmondson/HappyHacktoberfestWithJack-o-lantern.gif',
+    author: 'David Edmondson',
+    githubLink: 'https://github.com/davidedmondson'
+  },
+  {
+    artName: 'ExtendIt',
+    pageLink: './Art/Mahi/index.html',
+    imageLink: './Art/Mahi/screenshot.JPG',
+    author: 'Mahi',
+    githubLink: 'https://github.com/NineNintyNine'
+  },
+  {
+    artName: 'Big-Eye',
+    pageLink: './Art/Big-Eye/index.html',
+    author: 'Charly-Crypton',
+    githubLink: 'https://github.com/Charly-Crypton'
+  },
+  {
+    artName: 'Wavy',
+    pageLink: './Art/wavy/index.html',
+    imageLink: './Art/wavy/wavy.gif',
+    author: 'AnastasiosPas',
+    githubLink: 'https://github.com/AnastasiosPas'
+  },
+  {
+    artName: 'dynamic-background',
+    pageLink: './Art/dynamic-background/index.html',
+    imageLink: './Art/dynamic-background/animation.PNG',
+    author: 'SpBhalani',
+    githubLink: 'https://github.com/SpBhalani'
+  },
+  {
+    artName: 'jjAnimation',
+    pageLink: './Art/jjAnimation/index.html',
+    imageLink: './Art/',
+    author: 'Janna',
+    githubLink: 'https://github.com/john29sab'
+  },
+  {
+    artName: 'Evolution',
+    pageLink: './Art/sayanroy11/index.html',
+    imageLink: './Art/sayanroy11/human.gif',
+    author: 'Sayan Roy',
+    githubLink: 'https://github.com/sayanroy11'
+  },
+  {
+    artName: 'Dancing-boxes',
+    pageLink: './Art/Arham/index.html',
+    imageLink: './Art/Arham/Dancing-boxes.gif',
+    author: 'Arham',
+    githubLink: 'https://github.com/arham2002'
+  },
+  {
+    artName: 'Piano',
+    pageLink: './Art/Piano/index.html',
+    imageLink: './Art/Piano/piano.gif',
+    author: 'Ali Akhavan',
+    githubLink: 'https://github.com/aliakhavanrad'
+  },
+  {
+    artName: 'Ocean Bubbles and Fish-Animation',
+    pageLink: './Art/Nice1Rach/index.html',
+    iamgeLink: './Art/Nice1Rach/Images/Ocean_Bubbles_and_Fish-Animation.gif',
+    author: 'Rachel Heke',
+    githubLink: 'https://github.com/Nice1Rach'
+  },
+  {
+    artName: 'Switching flags',
+    pageLink: './Art/ErikAvet/index.html',
+    imageLink: './Art/ErikAvet/flag.gif',
+    author: 'Erik Avetisyan',
+    githubLink: 'https://github.com/ErikAvetisyan'
+  },
+  {
+    artName: 'Black Hole Vortex',
+    pageLink: './Art/black-hole-vortex/index.html',
+    imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
+    author: 'Bo-wei Chen',
+    githubLink: 'https://github.com/Rayologist'
   }
 ];
 // +--------------------------------------------------------------------------------+
@@ -5289,3 +5511,12 @@ function Shuffle(o) {
   );
   return o;
 }
+let cards = [
+  //  Add your card in this section
+  {
+    pageLink: './Art/chrisg/index.html',
+    imageLink: './Art/chrisg/redwhiteblue.gif',
+    author: 'ChrisG',
+    githubLink: 'https://github.com/chrisgithubok'
+  }
+];
