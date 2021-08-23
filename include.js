@@ -5247,6 +5247,13 @@ let cards = [
     imageLink: './Art/animatronic/style.css',
     author: 'umer381a',
     githubLink: 'https://github.com/umer381a'
+  },
+  {
+    artName: 'ghost',
+    pageLink: './Art/ghost/index.html',
+    imageLink: './Art/ghost/Capture.GIF',
+    author: 'jeel',
+    githubLink: 'https://github.com/jeeljain19'
   }
 ];
 // +--------------------------------------------------------------------------------+
