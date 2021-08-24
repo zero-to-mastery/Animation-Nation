@@ -5469,8 +5469,15 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    pageLink: './Art/chrisg/index.html',
+    imageLink: './Art/chrisg/redwhiteblue.gif',
+    author: 'ChrisG',
+    githubLink: 'https://github.com/chrisgithubok'
   }
 ];
+
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
@@ -5504,12 +5511,3 @@ function Shuffle(o) {
   );
   return o;
 }
-let cards = [
-  //  Add your card in this section
-  {
-    pageLink: './Art/chrisg/index.html',
-    imageLink: './Art/chrisg/redwhiteblue.gif',
-    author: 'ChrisG',
-    githubLink: 'https://github.com/chrisgithubok'
-  }
-];
