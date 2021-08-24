@@ -5469,6 +5469,13 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    artName: "Let's shining",
+    pageLink: './Art/juzi-animation/index.html',
+    imageLink: './Art/juzi-animation/giphy.gif',
+    author: 'Juzum',
+    githubLink: 'https://github.com/Zhuzum'
   }
 ];
 // +--------------------------------------------------------------------------------+
@@ -5513,3 +5520,4 @@ let cards = [
     githubLink: 'https://github.com/chrisgithubok'
   }
 ];
+
