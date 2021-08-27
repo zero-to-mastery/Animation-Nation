@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --animation-duration: 15s;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-y: hidden;
+  animation: animateBackground var(--animation-duration) linear infinite;
+}
+
+.container {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.path {
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  animation: fullRotation var(--animation-duration) linear infinite;
+}
+
+.sun,
+.moon {
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+}
+
+.sun {
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(#ff8c00, #ffa500);
+  box-shadow: 0 0 20px #ffa500;
+}
+
+.moon {
+  right: 0;
+  transform: translate(50%, -50%);
+  width: 75px;
+  height: 75px;
+  background: radial-gradient(#555555, #777777);
+  box-shadow: 0 0 20px #777;
+}
+
+@keyframes fullRotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animateBackground {
+  0% {
+    background-color: #0b192e;
+  }
+
+  25% {
+    background-color: #2a5cad;
+  }
+
+  50% {
+    background-color: #0b192e;
+  }
+
+  75% {
+    background-color: #060e1a;
+  }
+
+  100% {
+    background-color: #0b192e;
+  }
+}
