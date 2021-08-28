@@ -5469,6 +5469,13 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    artName: 'ghost animation',
+    pageLink: './Art/ghost/index.html',
+    imageLink: './Art/ghost/Capture.GIF',
+    author: 'Jeel Jain',
+    githubLink: 'https://github.com/jeeljain19'
   }
 ];
 // +--------------------------------------------------------------------------------+
