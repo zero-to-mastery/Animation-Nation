@@ -5470,6 +5470,13 @@ let cards = [
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
   }
+  {
+    artName: 'Loops',
+    pageLink: './Art/Loops/index.html',
+    imageLink: './Art/Loops/Loops.gif',
+    author: 'David',
+    githubLink: 'https://github.com/dctoo42me'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
