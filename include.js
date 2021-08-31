@@ -5512,4 +5512,11 @@ let cards = [
     author: 'ChrisG',
     githubLink: 'https://github.com/chrisgithubok'
   }
+
+  {
+    pageLink: './Art/Wickerman24/index.html',
+    imageLink: './Art/Wickerman24/virus.gif',
+    author: 'Wickerman24',
+    githubLink: 'https://github.com/Wickerman24'
+    }
 ];
