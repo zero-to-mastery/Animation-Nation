@@ -5469,6 +5469,13 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    artName: 'Animating Rings',
+    pageLink: './Art/Ayush/index.html',
+    imageLink: './Art/Ayush/animation.gif',
+    author: 'Ayush Baranwal',
+    githubLink: 'https://github.com/abaran803'
   }
 ];
 // +--------------------------------------------------------------------------------+

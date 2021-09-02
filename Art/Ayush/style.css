@@ -1,0 +1,66 @@
+@keyframes ringAnimation {
+  0% {
+    top: -50px;
+    border-color: green;
+  }
+  50% {
+    top: 50px;
+    border-color: blue;
+  }
+  100% {
+    top: -50px;
+    border-color: red;
+  }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(185, 170, 252);
+}
+
+#object {
+  top: 45%;
+  left: 45%;
+  position: absolute;
+}
+
+.ring {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  border: 2px solid purple;
+  animation-name: ringAnimation;
+  animation: ringAnimation 2s infinite;
+}
+
+#r1 {
+  top: 10px;
+}
+
+#r2 {
+  top: 14px;
+  animation-delay: 100ms;
+}
+
+#r3 {
+  top: 18px;
+  animation-delay: 200ms;
+}
+
+#r4 {
+  top: 22px;
+  animation-delay: 300ms;
+}
+
+#r5 {
+  top: 26px;
+  animation-delay: 400ms;
+}
+
+#r6 {
+  top: 30px;
+  animation-delay: 500ms;
+}
