@@ -1,0 +1,87 @@
+
+
+:root {
+--midnight-green-eagle-green: hsla(188, 56%, 23%, 1);
+--medium-turquoise: hsla(176, 56%, 55%, 1);
+--mint-cream: hsla(120, 100%, 98%, 1);
+--bittersweet: hsla(0, 100%, 71%, 1);
+--naples-yellow: hsla(50, 100%, 71%, 1);
+--dur: 30s;
+}
+
+ 
+circle:nth-of-type(1) {
+  stroke: var(--bittersweet);
+  animation:spin var(--dur) linear infinite;
+  }
+
+circle:nth-of-type(2) {
+  stroke: var(--naples-yellow);
+  animation:spin var(--dur) linear infinite reverse;
+}
+
+
+/* A constant bouncing motion effect applied to the title */
+h2 {
+  animation: bouncing 1.5s linear infinite alternate; 
+}
+
+/* Replace it with a safer effect when prefers-reduced-motion returns true */
+@media (prefers-reduced-motion: reduce) {
+  h2 {
+    animation: fade 0.5s ease-in both;
+   }
+    
+  circle:nth-of-type(1), circle:nth-of-type(2) {
+    animation-play-state:paused;
+  }
+}
+
+
+.wrap {
+  width: 30em;
+  margin: 2em auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1;
+}
+
+body {
+  background: var(--medium-turquoise);
+}
+
+svg {
+  grid-area: 1 / 1 / 2 / 2;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  100% {transform: rotate(360deg);}
+}
+
+@keyframes bouncing {
+  50% {transform: translateY(20%);}
+}
+
+@keyframes fade {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  color: var(--mint-cream);
+  text-shadow: 0px 2px 1px var(--midnight-green-eagle-green);
+  text-align: center;
+  margin-top:1.25em;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+circle {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  }
+
