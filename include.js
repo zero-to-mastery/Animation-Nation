@@ -5469,6 +5469,13 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+   {
+    artName: 'Wondering minds Text Distortion',
+    pageLink: './Art/WMG Text Distortion Animation/index.html',
+    imageLink: './Art/WMG Text Distortion Animation/wmg.gif',
+    author: 'Wondering Minds',
+    githubLink: 'https://github.com/abdullah19000'
   }
 ];
 // +--------------------------------------------------------------------------------+
