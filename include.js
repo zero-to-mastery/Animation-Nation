@@ -5469,7 +5469,12 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
-  }
+  },
+    artName: 'Noob Shining Text',
+    pageLink: './Art/JustInAnimation/index.html',
+    imageLink: './Art/noob-shining-text.gif',
+    author: 'Justin Alcendor',
+    githubLink: 'https://github.com/Kareem42'
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +

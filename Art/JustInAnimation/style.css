@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(43, 0, 255), rgb(189, 127, 127));
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+  }
+  
+  p {
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-family: Kaisei HarunoUmi;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  } 
