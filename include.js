@@ -5469,6 +5469,13 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    artName: 'Rainbow Ball',
+    pageLink: './Art/Apower11/index.html',
+    imageLink: '/Art/Apower11/AbsMechanik_Animation.gif',
+    author: 'John Smith',
+    githubLink: 'https://github.com/Apower11'
   }
 ];
 // +--------------------------------------------------------------------------------+
