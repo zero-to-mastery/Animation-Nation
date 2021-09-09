@@ -4091,7 +4091,7 @@ let cards = [
   {
     artname: 'Starry-sky',
     pageLink: './Art/starry-night/index.html',
-    imageLink: './Art/starry-night/stars',
+    imageLink: './Art/starry-night/stars.gif',
     author: 'Taima Khawaldeh',
     githubLink: 'https://github.com/taimakh'
   },
@@ -5504,12 +5504,3 @@ function Shuffle(o) {
   );
   return o;
 }
-let cards = [
-  //  Add your card in this section
-  {
-    pageLink: './Art/chrisg/index.html',
-    imageLink: './Art/chrisg/redwhiteblue.gif',
-    author: 'ChrisG',
-    githubLink: 'https://github.com/chrisgithubok'
-  }
-];
