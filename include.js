@@ -5451,8 +5451,8 @@ let cards = [
   }
   {
     artName: 'footballAnimation',
-    pageLink: './Art/mjAnimation/index.html',
-    imageLink: './Art/mjAnimation/footballAnimation.gif',
+    pageLink: './Art/mjlearn13-Animation/index.html',
+    imageLink: './Art/mjlearn13-Animation/footballAnimation.gif',
     author: 'mj',
     githubLink: 'https://github.com/mjlearn13'
   }
