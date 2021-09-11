@@ -5470,6 +5470,13 @@ let cards = [
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
   }
+  {
+    artName: 'FlyingBird',
+    pageLink: './Art/FlyingBird/index.html',
+    imageLink: './Art/FlyingBird.gif',
+    author: 'Kenneth Verdida',
+    githubLink: 'https://github.com/earlyverdy'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
