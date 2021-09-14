@@ -1,0 +1,89 @@
+/*
+Body #086972;
+Opacity #d0fac0;
+Full #a7ff83;
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.loading {
+  width: 600px;
+  height: 200px;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #086972;
+  box-shadow: 0px 0px 5px gray;
+}
+
+.loading .wrapper {
+  width: 400px;
+  height: 30px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.loading .wrapper .bl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 30px;
+  background-color: #d0fac0;
+  opacity: 0.4;
+  border-radius: 2px;
+  transform: translateX(calc(20px * var(--i)));
+  animation: animate 2s ease-in-out infinite;
+  animation-delay: calc(0.05s * var(--i));
+}
+
+p {
+  font-family: poppins;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  color: #afafaf;
+  opacity: 0.4;
+  padding-top: 20px;
+  animation: TextAnimate 2s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  50% {
+    background-color: #d0fac0;
+    box-shadow: none;
+    opacity: 0.4;
+  }
+
+  50.1%,
+  100% {
+    background-color: #a7ff83;
+    opacity: 1;
+    box-shadow: 0px 0px 1px #a7ff83, 0px 0px 2px #a7ff83, 0px 0px 3px #a7ff83,
+      0px 0px 4px #a7ff83, 0px 0px 5px #a7ff83;
+  }
+}
+
+@keyframes TextAnimate {
+  0%,
+  50% {
+    color: #d0fac0;
+    opacity: 0.4;
+  }
+
+  50.1%,
+  100% {
+    color: #a7ff83;
+    opacity: 1;
+  }
+}

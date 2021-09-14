@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Deiron Loader',
+    pageLink: './Art/Deiron/index.html',
+    iamgeLink: './Art/Deiron/gif.gif',
+    author: 'Mansuur Abdullahi',
+    githubLink: 'https://github.com/manzouri-10'
+  },
+  {
     artName: 'Stephan Animation',
     pageLink: './Art/stephanduval_animatron/index.html',
     iamgeLink: './Art/stephanduval_animatron/stephanduval_animatron.gif',
