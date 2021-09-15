@@ -1,0 +1,44 @@
+body {
+  background: url('pexels-oksana-shchegolkova-9225270.jpg');
+  background-size: cover;
+}
+
+h1 {
+	text-align: center;
+  margin-top: 0%;
+  color: goldenrod;
+  text-shadow: 10px 2px 0px black;
+	font-family: 'Roboto', sans-serif;
+    font-size:200px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
+  
+h2 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: goldenrod;
+  text-shadow: 5px 2px 0px black;
+  animation-duration: 3s;
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+  40% {transform: translateY(-30px);} 
+  60% {transform: translateY(-15px);} ;
+
+

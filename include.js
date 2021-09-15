@@ -5470,6 +5470,13 @@ let cards = [
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
   }
+  {
+    artName: 'Jenique Knoesen',
+    pageLink: './Art/Jenique Knoesen/index.html',
+    imageLink: './Art/Jenique Knoesen/anigif.gif',
+    author: 'Jenique Knoesen',
+    githubLink: 'https://github.com/Jenique22'
+  },
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
