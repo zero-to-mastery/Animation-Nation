@@ -5469,7 +5469,15 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    artName: 'Basic Text Animation',
+    pageLink: './Art/zabarullah/index.html',
+    imageLink: './Art/zabarullah/screenshot.png',
+    author: 'Zabar Ullah',
+    githubLink: 'https://github.com/zabarullah'
   }
+
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
