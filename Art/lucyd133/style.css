@@ -1,0 +1,32 @@
+
+#first {
+    height:100px;
+    width:100%;
+    background-color: blue;
+    animation: example 5s linear 2s infinite alternate;
+}
+
+
+#second {
+    height:100px;
+    width:100%;
+    background-color: green;
+    animation: example 10s linear 2s infinite alternate;
+}
+
+
+#third {
+    height:100px;
+    width:100%;
+    background-color: red;
+    animation: example 8s linear 2s infinite alternate;
+}
+
+@keyframes example {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(0.5);
+    }
+  }

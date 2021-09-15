@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/ArpanGyawali'
   },
   {
+    artName:'Flag'
+    pageLink: './Art/lucyd133/index.html',
+    imageLink: './Art/lucyd133/index.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger'
+  },
+  {
     artName: 'Dog animation',
     pageLink: './Art/AbhishekSingh-Animation-Contribution/index.html',
     imageLink: './Art/AbhishekSingh-Animation-Contribution/gif.png',
