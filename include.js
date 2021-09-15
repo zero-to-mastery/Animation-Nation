@@ -5469,6 +5469,13 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    artName: 'Priya Boxie Travel',
+    pageLink: './Art/Priya/index.html',
+    imageLink: './Art/Priya/box.gif',
+    author: 'Priya',
+    githubLink: 'https://github.com/priyaVora13'
   }
 ];
 // +--------------------------------------------------------------------------------+
@@ -5504,7 +5511,7 @@ function Shuffle(o) {
   );
   return o;
 }
-let cards = [
+let cards1 = [
   //  Add your card in this section
   {
     pageLink: './Art/chrisg/index.html',

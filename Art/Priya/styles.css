@@ -1,0 +1,53 @@
+html { 
+    background-color: white;
+}
+
+.horizontal { 
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+}
+
+.sparkle {
+        animation-duration: 3s;
+        animation-name: slidein;
+}
+
+.shapes { 
+  width: auto;
+  height: 1000px;
+  background-color: yellow;
+  position: relative;
+  animation-name: shape;
+  animation-duration: 4s;
+  animation-iteration-count: 4;
+}
+      
+@keyframes shape {
+    0%   {background-color:red;}
+    500%  {background-color:yellow;}
+    50%  {background-color:blue;}
+    75%  {background-color:green;}
+    200% {background-color:red;}
+}
+
+.move {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease; background-color: teal;}
+#div3 {animation-timing-function: ease-in; background-color: violet;}
+#div4 {animation-timing-function: ease-out; background-color: cornsilk;}
+#div5 {animation-timing-function: ease-in-out; background-color: coral;}
+  
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 900px;}
+  }
+
+
