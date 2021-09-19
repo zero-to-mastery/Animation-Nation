@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #b12b2b;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes ripple {
+  from {
+    height: 70vh;
+    width: 70vh;
+    background: #b12b2b;
+    box-shadow: 5px 5px 10px #962525, -5px -5px 10px #cc3131;
+  }
+  to {
+    height: 90vh;
+    width: 90vh;
+    background: #b12b2b;
+    box-shadow: 50px 50px 100px #962525, -50px -50px 100px #cc3131;
+  }
+}
+.clock-outer {
+  border: 1px solid #b12b2b;
+  height: 70vh;
+  width: 70vh;
+  border-radius: 50%;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #b12b2b;
+  box-shadow: 5px 5px 10px #962525, -5px -5px 10px #cc3131;
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: ripple;
+}
+
+.hour,
+.sec,
+.min {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+.clock-inner {
+  border: 1px solid #b12b2b;
+  width: 70vh;
+  height: 70vh;
+  border-radius: 50%;
+  background: #b12b2b;
+  box-shadow: 5px 5px 10px #962525, -5px -5px 10px #cc3131;
+}
+
+.hour {
+  width: 8px;
+  border-radius: 90%;
+  height: 25%;
+  transform-origin: top left;
+  transform: rotate(-175deg);
+  animation-name: hour;
+  animation-duration: 300s;
+  animation-iteration-count: infinite;
+  background: linear-gradient(145deg, #e70f2f, #c20d28);
+}
+
+.min {
+  width: 6px;
+  border: 90%;
+  height: 29%;
+  transform: rotate(-98deg);
+  transform-origin: left top;
+  background-color: black;
+  border-radius: 90%;
+  animation-name: minute;
+  animation-duration: 150s;
+  animation-iteration-count: infinite;
+}
+
+.sec {
+  width: 4px;
+  border: 90%;
+  height: 32%;
+  transform: rotate(0deg);
+  transform-origin: left top;
+  background-color: red;
+  border-radius: 100%;
+  animation-name: second;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+
+.center {
+  position: relative;
+  top: 48%;
+  left: 45%;
+  background: black;
+  width: 7%;
+  height: 7%;
+  border-radius: 100%;
+}
+
+@keyframes second {
+  from {
+    transform: rotate(0deg);
+    transform-origin: left top;
+  }
+  to {
+    transform: rotate(360deg);
+    transform-origin: left top;
+  }
+}
+
+@keyframes minute {
+  from {
+    transform: rotate(-98deg);
+    transform-origin: left top;
+  }
+  to {
+    transform: rotate(262deg);
+    transform-origin: left top;
+  }
+}
+@keyframes hour {
+  from {
+    transform: rotate(-175deg);
+    transform-origin: left top;
+  }
+  to {
+    transform: rotate(185deg);
+    transform-origin: left top;
+  }
+}

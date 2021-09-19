@@ -5469,6 +5469,13 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    artName: 'RippleEffectClock',
+    pageLink: './Art/RippleClock/index.html',
+    imageLink: './Art/RippleClock/clock.gif',
+    author: 'Rahul Maurya',
+    githubLink: 'https://github.com/CodeBlooded-RahulMaurya'
   }
 ];
 // +--------------------------------------------------------------------------------+
