@@ -5469,6 +5469,13 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    artName: 'Beating Heart',
+    pageLink: './Art/Rana/index.html',
+    imageLink: './Art/Rana/Beating Heart.gif',
+    author: 'Rana',
+    githubLink: 'https://github.com/Rana-a-k'
   }
 ];
 // +--------------------------------------------------------------------------------+

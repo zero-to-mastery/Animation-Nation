@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    border-radius: 150px 200px 0 400px;
+}
+
+.right {
+    border-radius: 200px 150px 400px 0;
+}
+
+.heart {
+    width: 350px;
+    height: 500px;
+    background: crimson;
+    animation: grow 1s ease forwards infinite;
+}
+
+@keyframes grow {
+    100% {
+        transform: scale(1.1);
+    }
+}
