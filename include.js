@@ -5476,7 +5476,7 @@ let cards = [
     imageLink: './Art/Paulo Tasso/triangle/animacaopaulo.gif',
     author: 'Paulo Tasso',
     githubLink: 'https://github.com/paulotasso7'
-}
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
