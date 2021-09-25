@@ -5477,6 +5477,14 @@ let cards = [
     author: 'Paulo Tasso',
     githubLink: 'https://github.com/paulotasso7'
   }
+
+  {
+    artName:'Ruan_Animation_Clock',
+    pageLink: './Art/Ruan_Animation_Clock/index.html',
+    imageLink: './Art/Ruan_Animation_Clock/Animation_Clock.gif',
+    author: 'Ruan',
+    githubLink: 'https://github.com/RuanEsterhuyse'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -5519,4 +5527,6 @@ let cards = [
     author: 'ChrisG',
     githubLink: 'https://github.com/chrisgithubok'
   }
+
+  
 ];
