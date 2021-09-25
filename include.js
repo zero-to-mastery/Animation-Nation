@@ -4800,6 +4800,12 @@ let cards = [
     imageLink: './Art/manimation/animation.gif',
     author: 'Maryam',
     githubLink: 'https://github.com/Maryyam04'
+  },
+  {
+    pageLink: './Art/Abstractloading/index.html',
+    imageLink: './Art/Abstractloading/abstractloading.gif',
+    author: 'UrDesigner',
+    githubLink: 'https://github.com/OluJoseph'
   }
 ];
 // +--------------------------------------------------------------------------------+
