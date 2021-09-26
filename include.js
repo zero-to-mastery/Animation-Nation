@@ -5476,6 +5476,13 @@ let cards = [
     imageLink: './Art/Paulo Tasso/triangle/animacaopaulo.gif',
     author: 'Paulo Tasso',
     githubLink: 'https://github.com/paulotasso7'
+  },
+  {
+    artName: 'cheeky face',
+    pageLink: './Art/bluck/index.html',
+    imageLink: './Art/bluck/img.gif',
+    author: 'kxmom',
+    githubLink: 'https://github.com/kxmom'
   }
 ];
 // +--------------------------------------------------------------------------------+
