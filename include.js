@@ -5476,6 +5476,12 @@ let cards = [
     imageLink: './Art/Paulo Tasso/triangle/animacaopaulo.gif',
     author: 'Paulo Tasso',
     githubLink: 'https://github.com/paulotasso7'
+  },
+  {
+    artName: "EvaCtion",
+    pageLink: './Art/EvaCtion/index.html',
+    author: 'Gawbb',
+    githubLink: 'https://github.com/royranger'
   }
 ];
 // +--------------------------------------------------------------------------------+
