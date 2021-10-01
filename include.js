@@ -5476,6 +5476,13 @@ let cards = [
     imageLink: './Art/Paulo Tasso/triangle/animacaopaulo.gif',
     author: 'Paulo Tasso',
     githubLink: 'https://github.com/paulotasso7'
+  },
+  {
+    artName: 'Whatever',
+    pageLink: './Art/riomigal/index.html',
+    imageLink: './Art/riomigal/image.gif',
+    author: 'riomigal',
+    githubLink: 'https://github.com/riomigal'
   }
 ];
 // +--------------------------------------------------------------------------------+
