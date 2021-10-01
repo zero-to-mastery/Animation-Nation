@@ -51,9 +51,18 @@ Sky
 
 @keyframes sun {
     from { 
-        opacity: 1;
+        opacity: 0;
     }
     to {
+         opacity: 1;
+        width: 8%;
+        height: 20%;
+        bottom: 0;
+        border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+        position:absolute;
+        box-shadow: 0 20px 50px #ffea00 100%;
+        background: linear-gradient(30deg, #fff70193 0%, #ffea03bf 100%);
+
         
     }
 }
@@ -88,15 +97,7 @@ Sky
 
 
 #sun {
-        opacity: 1;
-        width: 8%;
-        height: 20%;
-        bottom: 0;
-        border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-        position:absolute;
-        box-shadow: 0 20px 50px #ffea00 100%;
-        background: linear-gradient(30deg, #fff70193 0%, #ffea03bf 100%);
-    animation-name: sun;
+           animation-name: sun;
     animation-delay: 1s;
     animation-fill-mode: forwards;
     animation-duration: 3s;

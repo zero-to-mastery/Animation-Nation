@@ -5478,9 +5478,9 @@ let cards = [
     githubLink: 'https://github.com/paulotasso7'
   },
   {
-    artName: 'Whatever',
+    artName: 'Sunset',
     pageLink: './Art/riomigal/index.html',
-    imageLink: './Art/riomigal/image.gif',
+    imageLink: './Art/riomigal/sunset.gif',
     author: 'riomigal',
     githubLink: 'https://github.com/riomigal'
   }
