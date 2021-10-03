@@ -80,3 +80,14 @@ body{
     right: 0%;
     top: -18px; 
 }
+.lines::after{
+    display: block;
+    position: absolute;
+    width: 0;
+    background-color: crimson;
+    content: '';
+    transition: all 0.3s;
+    height: 5px;
+    left: 0%;
+    bottom: -18px;
+}
