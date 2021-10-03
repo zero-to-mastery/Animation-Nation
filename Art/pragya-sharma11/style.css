@@ -33,3 +33,25 @@ body{
 .text:hover ~ .ball{
     animation: size 1.5s linear infinite;
 }
+@keyframes size {
+    0%{
+        transform: scale(1);
+        background-color: rgb(100, 175, 237);
+    }
+    25%{
+        transform: scale(0.6);
+        background-color: rgb(250, 31, 31);
+    }
+    50%{
+        transform: scale(0.4);
+        background-color: rgb(237, 194, 100);
+    }
+    75%{
+        transform: scale(0.6);
+        background-color: rgb(250, 31, 31);
+    }
+    100%{
+        transform: scale(1);
+        background-color: rgb(19, 149, 255);
+    }
+}
