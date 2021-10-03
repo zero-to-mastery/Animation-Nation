@@ -23,3 +23,10 @@ body{
     font-weight: 700;
     color: rgb(12, 12, 110);
 }
+.ball{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 2px;
+    background-color: rgb(100, 175, 237);
+}
