@@ -56,5 +56,8 @@ body{
     }
 }
 .lines{
-
+    line-height: 160px ;
+    background-color: rgb(255, 220, 220);
+    margin: 5%;
+    width: 40%;
 }
