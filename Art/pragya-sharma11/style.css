@@ -62,4 +62,8 @@ body{
     width: 40%;
     font-size: 30px;
     font-style: italic ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
