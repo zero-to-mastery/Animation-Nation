@@ -94,3 +94,6 @@ body{
 .lines:hover{
     text-shadow: crimson 0px -5px 3px ;
 }
+.lines:hover::after{
+    width: 100%;
+}
