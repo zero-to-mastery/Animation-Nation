@@ -30,3 +30,6 @@ body{
     margin: 2px;
     background-color: rgb(100, 175, 237);
 }
+.text:hover ~ .ball{
+    animation: size 1.5s linear infinite;
+}
