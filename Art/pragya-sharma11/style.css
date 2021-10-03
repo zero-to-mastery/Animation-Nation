@@ -69,3 +69,14 @@ body{
     transition:all 0.3s;
     position: relative;
 }
+.lines::before{
+    display: block;
+    position: absolute;
+    width: 0;
+    background-color: crimson;
+    content: '';
+    transition: all 0.3s;
+    height: 5px;
+    right: 0%;
+    top: -18px; 
+}
