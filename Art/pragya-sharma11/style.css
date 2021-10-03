@@ -91,3 +91,6 @@ body{
     left: 0%;
     bottom: -18px;
 }
+.lines:hover{
+    text-shadow: crimson 0px -5px 3px ;
+}
