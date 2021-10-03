@@ -1,11 +1,5 @@
 let cards = [
   {
-    pageLink: './Art/pragya-sharma11/index.html',
-    imageLink: './Art/pragya-sharma11/animation.gif',
-    author: 'Pragya Sharma',
-    githubLink: 'https://github.com/pragya-sharma11'
-  },
-  {
     artName: 'Stephan Animation',
     pageLink: './Art/stephanduval_animatron/index.html',
     iamgeLink: './Art/stephanduval_animatron/stephanduval_animatron.gif',
@@ -5489,6 +5483,12 @@ let cards = [
     imageLink: './Art/bluck/img.gif',
     author: 'kxmom',
     githubLink: 'https://github.com/kxmom'
+  },
+  {
+    pageLink: './Art/pragya-sharma11/index.html',
+    imageLink: './Art/pragya-sharma11/animation.gif',
+    author: 'Pragya Sharma',
+    githubLink: 'https://github.com/pragya-sharma11'
   }
 ];
 // +--------------------------------------------------------------------------------+
