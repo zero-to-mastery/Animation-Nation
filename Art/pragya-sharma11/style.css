@@ -7,3 +7,12 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.container{
+    line-height: 180px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 220, 220);
+    margin: 5%;
+    width: 40%;
+}
