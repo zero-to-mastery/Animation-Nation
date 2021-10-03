@@ -17,3 +17,9 @@ body{
     width: 40%;
     position: relative;
 }
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(12, 12, 110);
+}
