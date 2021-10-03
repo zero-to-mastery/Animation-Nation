@@ -97,3 +97,6 @@ body{
 .lines:hover::after{
     width: 100%;
 }
+.lines:hover::before{
+    width: 100%;
+}
