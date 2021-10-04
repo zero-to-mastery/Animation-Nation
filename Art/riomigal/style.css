@@ -4,6 +4,9 @@
 
 body {
     margin: 0;
+    box-shadow: 0 0 20px white inset;
+ 
+
 
 }
 
@@ -24,10 +27,21 @@ Sky
     }
 }
 
+@keyframes sun {
+    from { 
+       bottom: -7%;
+    }
+    to {
+      bottom: -46%;
+        
+    }
+}
+
 @keyframes sea {
     from { 
         background: white;
         height: 100vh;
+        
     }
     to {
         background: linear-gradient(90deg, #1c84e0 0%, #000851 100%);
@@ -46,63 +60,68 @@ Sky
         background: linear-gradient(140deg, #fcff9e 0%, #c67700 100%);
         height: 50vh;
         box-shadow: 0px 30px 30px  white inset;
+        
+
     }
 }
 
-@keyframes sun {
-    from { 
-        opacity: 0;
+@keyframes waves {
+     0%   { height: 0px;
+        box-shadow: 0px 0px 30px  white inset;
     }
-    to {
-         opacity: 1;
-        width: 8%;
-        height: 20%;
-        bottom: 0;
-        border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-        position:absolute;
-        box-shadow: 0 20px 50px #ffea00 100%;
-        background: linear-gradient(30deg, #fff70193 0%, #ffea03bf 100%);
-
-        
+        25%  { height: 10px;
+        box-shadow: 0px 0px 30px  white inset;
+    }
+        50%  { height: 20px;
+        box-shadow: 0px 0px 30px  white inset;
+    }
+        75%  { height: 30px;
+        box-shadow: 0px 0px 30px  white inset;
+    }
+        100% { height: 40px;
+        box-shadow: 0px 0px 30px  white inset;
     }
 }
 
 #sky {
-    animation-delay:0s;
-    animation-name: sky;
-    animation-duration: 3s;
-    transition: ease-in;
-    animation-fill-mode: forwards;
+    animation: 2s forwards 0s running sky;
     position:relative;
     
 }
 
+#sun {
+    animation: 20s forwards 5s infinite alternate sun;
+    width:12%;
+    max-width: 70px;
+    height: 30%;
+    max-height: 50px;
+        bottom: -7%;
+        border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+        position:absolute;
+        box-shadow: 0 -10px 5px 5px #ffea03bf;
+        background: linear-gradient(30deg, #fff70193 0%, #ffea03bf 100%);
+
+    
+}
+
 #sea {
-    animation-name: sea;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-    animation-duration: 5s;
+    animation: 5s forwards 2s running sea;
+    position: relative;
     
-    
+}
+
+#waves {
+        animation: 2s forwards 2s infinite alternate waves;
+
 }
 
 #sand {
-    animation-name: sand;
-    animation-delay: 4s;
-    animation-fill-mode: forwards;
-    
-    animation-duration: 5s;
+    animation: 3s forwards 4s running sand;
     
 }
 
 
-#sun {
-           animation-name: sun;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    animation-duration: 3s;
-    
-}
+
 
 
 
