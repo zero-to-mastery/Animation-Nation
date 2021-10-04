@@ -27,6 +27,7 @@ ul {
   position: relative;
   top: -10px;
   background: rgba(99, 205, 218, 0.5);
+  background: linear-gradient(180deg, rgba(99,205,218,0.5) 0%, rgba(59,109,115,0.5) 100%);
   padding: 2em;
   border-bottom: 1px solid rgba(255, 255, 255, 0.89);
 }
@@ -39,11 +40,12 @@ h2 {
 
 .header h1 {
   font-size: 9.5vw;
+  color: #170046;
 }
 
 h2 {
   font-size: 3.5vw;
-  color: #444444;
+  color: #170046;
   font-family: 'Fredoka One', cursive;
 }
 
@@ -81,7 +83,7 @@ h2 {
 .card {
   width: calc(100% * (1 / 2));
   margin: 20px 10px;
-  transition-duration: 0.5s;
+  transition-duration: 0.45s;
 }
 .card:hover {
   transform: scale(1.02);
