@@ -1,6 +1,6 @@
 @keyframes saltar {
   0% {
-    background-color: red;
+    background-color: #da2c43;
     left: 0px;
     top: 200px;
   }
@@ -19,9 +19,9 @@
 #jump {
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: #da2c43;
   position: relative;
   animation-name: saltar;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
   animation-iteration-count: infinite;
 }
