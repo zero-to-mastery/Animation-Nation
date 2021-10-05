@@ -5485,6 +5485,13 @@ let cards = [
     author: 'Ruan',
     githubLink: 'https://github.com/RuanEsterhuyse'
   },
+  {
+    artName: 'cheeky face',
+    pageLink: './Art/bluck/index.html',
+    imageLink: './Art/bluck/img.gif',
+    author: 'kxmom',
+    githubLink: 'https://github.com/kxmom'
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
