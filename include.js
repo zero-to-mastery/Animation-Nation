@@ -5491,6 +5491,12 @@ let cards = [
     githubLink: 'https://github.com/paulotasso7'
   },
   {
+    artName: "EvaCtion",
+    pageLink: './Art/EvaCtion/index.html',
+    author: 'Gawbb',
+    githubLink: 'https://github.com/royranger'
+  },
+  {
     artName: 'cheeky face',
     pageLink: './Art/bluck/index.html',
     imageLink: './Art/bluck/img.gif',
