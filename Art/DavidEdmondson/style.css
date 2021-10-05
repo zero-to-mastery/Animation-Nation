@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.textWithJack-o-lantern {
+  background: grey;
+  font-family: 'Creepster', cursive;
+  font-size: 4em;
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  text-align: center;
+
+  animation: textWithJack-o-lanternMove 8s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes textWithJack-o-lanternMove {
+  from {
+    font-size: 3em;
+  }
+  to {
+    font-size: 9em;
+  }
+}
