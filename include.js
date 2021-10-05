@@ -5476,7 +5476,7 @@ let cards = [
     imageLink: './Art/Paulo Tasso/triangle/animacaopaulo.gif',
     author: 'Paulo Tasso',
     githubLink: 'https://github.com/paulotasso7'
-  }
+  },
 
   {
     artName:'Ruan_Animation_Clock',
@@ -5484,7 +5484,7 @@ let cards = [
     imageLink: './Art/Ruan_Animation_Clock/Animation_Clock.gif',
     author: 'Ruan',
     githubLink: 'https://github.com/RuanEsterhuyse'
-  }
+  },
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
