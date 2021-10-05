@@ -5531,5 +5531,11 @@ let cards = [
     imageLink: './Art/chrisg/redwhiteblue.gif',
     author: 'ChrisG',
     githubLink: 'https://github.com/chrisgithubok'
+  },
+  {
+    pageLink: '.Art/yash2003/index.html',
+    imageLink: '.Art/yash2003/animation.gif',
+    author: 'Yashraj',
+    githubLink: 'https://github.com/yashraj2003e'
   }
 ];
