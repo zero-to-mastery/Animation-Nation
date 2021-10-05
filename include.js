@@ -4824,6 +4824,12 @@ let cards = [
     githubLink: 'https://github.com/Maryyam04'
   },
   {
+    pageLink: './Art/Abstractloading/index.html',
+    imageLink: './Art/Abstractloading/abstractloading.gif',
+    author: 'UrDesigner',
+    githubLink: 'https://github.com/OluJoseph'
+  },
+  {
     pageLink: './Art/ElizavetaZhukova1/index.html',
     imageLink: './Art/ElizavetaZhukova1/fourSquaresEdit.gif',
     author: 'Liza',
@@ -5482,6 +5488,13 @@ let cards = [
     pageLink: './Art/EvaCtion/index.html',
     author: 'Gawbb',
     githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'cheeky face',
+    pageLink: './Art/bluck/index.html',
+    imageLink: './Art/bluck/img.gif',
+    author: 'kxmom',
+    githubLink: 'https://github.com/kxmom'
   }
 ];
 // +--------------------------------------------------------------------------------+
