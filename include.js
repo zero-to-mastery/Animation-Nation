@@ -5508,6 +5508,18 @@ let cards = [
     imageLink: './Art/pragya-sharma11/animation.gif',
     author: 'Pragya Sharma',
     githubLink: 'https://github.com/pragya-sharma11'
+  },
+  {
+    pageLink: './Art/chrisg/index.html',
+    imageLink: './Art/chrisg/redwhiteblue.gif',
+    author: 'ChrisG',
+    githubLink: 'https://github.com/chrisgithubok'
+  },
+  {
+    pageLink: '.Art/yash2003/index.html',
+    imageLink: '.Art/yash2003/animation.gif',
+    author: 'Yashraj',
+    githubLink: 'https://github.com/yashraj2003e'
   }
 ];
 // +--------------------------------------------------------------------------------+
@@ -5543,18 +5555,3 @@ function Shuffle(o) {
   );
   return o;
 }
-let cards = [
-  //  Add your card in this section
-  {
-    pageLink: './Art/chrisg/index.html',
-    imageLink: './Art/chrisg/redwhiteblue.gif',
-    author: 'ChrisG',
-    githubLink: 'https://github.com/chrisgithubok'
-  },
-  {
-    pageLink: '.Art/yash2003/index.html',
-    imageLink: '.Art/yash2003/animation.gif',
-    author: 'Yashraj',
-    githubLink: 'https://github.com/yashraj2003e'
-  }
-];
