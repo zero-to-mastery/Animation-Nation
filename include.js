@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Terminal effect',
+    pageLink: './Art/DaywisonSilva/index.html',
+    imageLink: './Art/DaywisonSilva/art.gif',
+    author: 'DaywisonSilva',
+    githubLink: 'https://github.com/DaywisonSilva'
+  },
+  {
     artName: 'Stephan Animation',
     pageLink: './Art/stephanduval_animatron/index.html',
     iamgeLink: './Art/stephanduval_animatron/stephanduval_animatron.gif',
@@ -4824,6 +4831,12 @@ let cards = [
     githubLink: 'https://github.com/Maryyam04'
   },
   {
+    pageLink: './Art/Abstractloading/index.html',
+    imageLink: './Art/Abstractloading/abstractloading.gif',
+    author: 'UrDesigner',
+    githubLink: 'https://github.com/OluJoseph'
+  },
+  {
     pageLink: './Art/ElizavetaZhukova1/index.html',
     imageLink: './Art/ElizavetaZhukova1/fourSquaresEdit.gif',
     author: 'Liza',
@@ -5486,11 +5499,35 @@ let cards = [
     githubLink: 'https://github.com/RuanEsterhuyse'
   },
   {
+    artName: 'EvaCtion',
+    pageLink: './Art/EvaCtion/index.html',
+    author: 'Gawbb',
+    githubLink: 'https://github.com/royranger'
+  },
+  {
     artName: 'cheeky face',
     pageLink: './Art/bluck/index.html',
     imageLink: './Art/bluck/img.gif',
     author: 'kxmom',
     githubLink: 'https://github.com/kxmom'
+  },
+  {
+    pageLink: './Art/pragya-sharma11/index.html',
+    imageLink: './Art/pragya-sharma11/animation.gif',
+    author: 'Pragya Sharma',
+    githubLink: 'https://github.com/pragya-sharma11'
+  },
+  {
+    pageLink: './Art/chrisg/index.html',
+    imageLink: './Art/chrisg/redwhiteblue.gif',
+    author: 'ChrisG',
+    githubLink: 'https://github.com/chrisgithubok'
+  },
+  {
+    pageLink: '.Art/yash2003/index.html',
+    imageLink: '.Art/yash2003/animation.gif',
+    author: 'Yashraj',
+    githubLink: 'https://github.com/yashraj2003e'
   }
 ];
 // +--------------------------------------------------------------------------------+
@@ -5526,14 +5563,3 @@ function Shuffle(o) {
   );
   return o;
 }
-let cards = [
-  //  Add your card in this section
-  {
-    pageLink: './Art/chrisg/index.html',
-    imageLink: './Art/chrisg/redwhiteblue.gif',
-    author: 'ChrisG',
-    githubLink: 'https://github.com/chrisgithubok'
-  }
-
-
-];
