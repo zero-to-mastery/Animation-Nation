@@ -5528,6 +5528,12 @@ let cards = [
     imageLink: '.Art/yash2003/animation.gif',
     author: 'Yashraj',
     githubLink: 'https://github.com/yashraj2003e'
+  },
+  {
+    pageLink: '.Art/Yang/index.html',
+    imageLink: '.Art/Yang/Screenshot.blink.png',
+    author: 'Yang',
+    githubLink: 'https://github.com/yangcodes'
   }
 ];
 // +--------------------------------------------------------------------------------+
