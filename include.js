@@ -5528,6 +5528,12 @@ let cards = [
     imageLink: '.Art/yash2003/animation.gif',
     author: 'Yashraj',
     githubLink: 'https://github.com/yashraj2003e'
+  },
+  {
+    pageLink: './Art/VinWare/index.html',
+    imageLink: './Art/VinWare/risingsun.gif',
+    author: 'VinWare',
+    githubLink: 'https://github.com/VinWare'
   }
 ];
 // +--------------------------------------------------------------------------------+
