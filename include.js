@@ -5532,10 +5532,11 @@ let cards = [
 
 
     {
+      artName: "segunOsiki",
       pageLink: './Art/segunOsiki/index.html',
-      imageLink: './Art/segunOsiki/triangle/triangle.gif',
+      imageLink: './Art/segunOsiki/segunOsiki.gif',
       author: 'Segun',
-      githubLink: 'https://github.com/Daniel4life'
+      githubLink: 'https://github.com/Danny4life'
     }
 
 ];
