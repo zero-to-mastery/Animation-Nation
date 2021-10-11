@@ -1,0 +1,57 @@
+*{
+margin:0%;
+padding:0%;
+}
+#cloud1,#cloud2{
+ animation:move 4s ease-in-out infinite alternate;
+}
+#small-cloud{
+    animation:move2 5s ease-in-out infinite alternate;
+}
+#plant2{
+    animation:move2 2s ease-in-out infinite alternate;
+    transform-origin:bottom;
+    transform-box:fill-box;
+}
+#plant1,#leaf2_10,#leaf2_9{
+    animation:move3 2s ease-in-out infinite alternate;
+    transform-origin:bottom;
+    transform-box:fill-box;
+}
+#tree1{
+    animation:move4 3s ease-in-out infinite alternate; 
+    transform-origin:top;
+    transform-box:fill-box; 
+}
+@keyframes move {
+    from{
+    transform:translateX(0%) translateY(0%);
+    }
+    to{
+        transform:translateX(2%) translateY(1%);
+    }
+}
+@keyframes move2 {
+    from{
+    transform:translateX(0%) translateY(0%);
+    }
+    to{
+        transform:translateX(2%) translateY(3%);
+    }
+}
+@keyframes move3 {
+    from{
+    transform:translateX(0%) translateY(0%);
+    }
+    to{
+        transform:translateX(1%) translateY(3%);
+    }
+}
+@keyframes move4 {
+    from{
+    transform:translateX(0%) translateY(0%);
+    }
+    to{
+        transform:translateX(3%) translateY(1%);
+    }
+}
