@@ -5534,6 +5534,12 @@ let cards = [
     imageLink: '.Art/Yang/Screenshot.blink.png',
     author: 'Yang',
     githubLink: 'https://github.com/yangcodes'
+  },
+  {
+    pageLink: './Art/VinWare/index.html',
+    imageLink: './Art/VinWare/risingsun.gif',
+    author: 'VinWare',
+    githubLink: 'https://github.com/VinWare'
   }
 ];
 // +--------------------------------------------------------------------------------+
