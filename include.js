@@ -5531,14 +5531,22 @@ let cards = [
   },
 
 
+
     {
       artName: "segunOsiki",
       pageLink: './Art/segunOsiki/index.html',
       imageLink: './Art/segunOsiki/segunOsiki.gif',
       author: 'Segun',
       githubLink: 'https://github.com/Danny4life'
-    }
+    },
 
+
+  {
+    pageLink: './Art/VinWare/index.html',
+    imageLink: './Art/VinWare/risingsun.gif',
+    author: 'VinWare',
+    githubLink: 'https://github.com/VinWare'
+  }
 ];
 
 
