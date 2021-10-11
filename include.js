@@ -5530,6 +5530,12 @@ let cards = [
     githubLink: 'https://github.com/yashraj2003e'
   },
   {
+    pageLink: '.Art/Yang/index.html',
+    imageLink: '.Art/Yang/Screenshot.blink.png',
+    author: 'Yang',
+    githubLink: 'https://github.com/yangcodes'
+  },
+  {
     pageLink: './Art/VinWare/index.html',
     imageLink: './Art/VinWare/risingsun.gif',
     author: 'VinWare',
