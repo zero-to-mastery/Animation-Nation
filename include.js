@@ -5528,8 +5528,19 @@ let cards = [
     imageLink: '.Art/yash2003/animation.gif',
     author: 'Yashraj',
     githubLink: 'https://github.com/yashraj2003e'
-  }
+  },
+
+
+    {
+      pageLink: './Art/segunOsiki/index.html',
+      imageLink: './Art/segunOsiki/triangle/triangle.gif',
+      author: 'Segun',
+      githubLink: 'https://github.com/Daniel4life'
+    }
+
 ];
+
+
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
