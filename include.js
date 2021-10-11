@@ -5530,16 +5530,13 @@ let cards = [
     githubLink: 'https://github.com/yashraj2003e'
   },
 
-
-
-    {
-      artName: "segunOsiki",
-      pageLink: './Art/segunOsiki/index.html',
-      imageLink: './Art/segunOsiki/segunOsiki.gif',
-      author: 'Segun',
-      githubLink: 'https://github.com/Danny4life'
-    },
-
+  {
+    artName: 'segunOsiki',
+    pageLink: './Art/segunOsiki/index.html',
+    imageLink: './Art/segunOsiki/segunOsiki.gif',
+    author: 'Segun',
+    githubLink: 'https://github.com/Danny4life'
+  },
 
   {
     pageLink: '.Art/Yang/index.html',
@@ -5554,7 +5551,6 @@ let cards = [
     githubLink: 'https://github.com/VinWare'
   }
 ];
-
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
