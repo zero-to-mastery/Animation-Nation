@@ -5529,6 +5529,18 @@ let cards = [
     author: 'Yashraj',
     githubLink: 'https://github.com/yashraj2003e'
   },
+
+
+
+    {
+      artName: "segunOsiki",
+      pageLink: './Art/segunOsiki/index.html',
+      imageLink: './Art/segunOsiki/segunOsiki.gif',
+      author: 'Segun',
+      githubLink: 'https://github.com/Danny4life'
+    },
+
+
   {
     pageLink: '.Art/Yang/index.html',
     imageLink: '.Art/Yang/Screenshot.blink.png',
@@ -5542,6 +5554,8 @@ let cards = [
     githubLink: 'https://github.com/VinWare'
   }
 ];
+
+
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
