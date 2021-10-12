@@ -1,8 +1,14 @@
 let cards = [
   {
+    pageLink: './Art/Anuj_Mishra/index.html',
+    imageLink: './Art/Anuj_Mishra/moving svg.gif',
+    author: 'Anuj-Mishra',
+    githubLink: 'https://github.com/ANmishra-a'
+  },
+  {
     artName: 'Stephan Animation',
     pageLink: './Art/stephanduval_animatron/index.html',
-    iamgeLink: './Art/stephanduval_animatron/stephanduval_animatron.gif',
+    imageLink: './Art/stephanduval_animatron/stephanduval_animatron.gif',
     author: 'Stephan DuVal',
     githubLink: 'https://github.com/stephanduval'
   },
