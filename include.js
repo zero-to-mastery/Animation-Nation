@@ -1,5 +1,11 @@
 let cards = [
   {
+    pageLink: './Art/AadhismAnimation/index.html',
+    imageLink: './Art/AadhismAnimation/myCode.gif',
+    author: 'Aadhithiya',
+    githubLink: 'https://github.com/AADHISM'
+  },
+  {
     artName: 'Terminal effect',
     pageLink: './Art/DaywisonSilva/index.html',
     imageLink: './Art/DaywisonSilva/art.gif',
