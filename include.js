@@ -1,7 +1,7 @@
 let cards = [
   {
     pageLink: './Art/AadhismAnimation/index.html',
-    imageLink: './Art/AadhismAnimation/myCode.gif',
+    imageLink: './Art/AadhismAnimation/myGif.gif',
     author: 'Aadhithiya',
     githubLink: 'https://github.com/AADHISM'
   },
