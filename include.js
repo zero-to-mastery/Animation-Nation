@@ -5549,6 +5549,13 @@ let cards = [
     imageLink: './Art/VinWare/risingsun.gif',
     author: 'VinWare',
     githubLink: 'https://github.com/VinWare'
+  },
+  {
+    artName: 'Concentric Circle',
+    pageLink: './Art/concentricCircle/index.html',
+    imageLink: './Art/concentricCircle/concentricCircle.gif',
+    author: 'SurajOnDev',
+    githubLink: 'https://github.com/surajondev'
   }
 ];
 

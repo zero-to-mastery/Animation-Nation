@@ -4,29 +4,77 @@
 }
 
 body{
-    background-color: black;
-    color:lightblue;
+    background-color: #212121;
+    color: #A9E4D7;
+    text-align: center;
 
+}
+
+h3{
+    margin:1em;
 }
 
 .container{
     margin: 10em auto;
     width: 80%;
     max-width: 1110px;
-    border: magenta 5px solid;
-    
 }
 
 .outercircle{
     height: 100px;
     width: 100px;
-    border: lightblue 7px solid;
+    border: #4B3869 7px solid;
     border-radius: 50%;
+    margin: 0 auto;
+    animation: upout 3s ease forwards infinite;
 }
 
 .incircle{
     height: 70px;
     width: 70px;
-    border: lightblue 7px solid;
+    border: #664E88 7px solid;
     border-radius: 50%;
+    margin: 0.5em auto;
+    animation: upin 3s ease forwards infinite;
+}
+
+@keyframes upout{
+    15%{
+        transform:translateY(-100px)
+    }
+
+    30%{
+        transform: translateY(0px);
+    }
+
+    45%{
+        border: #4B3869 7px dotted;
+    }
+
+    60%{
+        border:#4B3869 7px solid;
+        transform: scale(1.2);
+    }
+
+    75%{
+        border: #FF4848 7px solid;
+    }
+}
+
+@keyframes upin{
+    30%{
+        transform: rotateY(720deg);
+    }
+
+    45%{
+        border: #664E88 10px solid
+    }
+
+    60%{
+        transform: scale(0.5);
+    }
+
+    75%{
+        border: #FFD371 7px solid;
+    }
 }
