@@ -5549,6 +5549,13 @@ let cards = [
     imageLink: './Art/VinWare/risingsun.gif',
     author: 'VinWare',
     githubLink: 'https://github.com/VinWare'
+  },
+  {
+    artName: 'Dame\'s Hot Air Balloon',
+    pageLink: './Art/DameDPAnimation/index.html',
+    imageLink: './Art/DameDPAnimation/Dames-Animaton.gif',
+    author: 'Dame',
+    githubLink: 'https://github.com/madamedem'
   }
 ];
 
