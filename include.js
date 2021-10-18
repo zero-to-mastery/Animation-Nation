@@ -5549,6 +5549,12 @@ let cards = [
     imageLink: './Art/VinWare/risingsun.gif',
     author: 'VinWare',
     githubLink: 'https://github.com/VinWare'
+  },
+  {
+    pageLink: './Art/AnimationLoader/index.html',
+    imageLink: './Art/AnimationLoader/Animation.gif',
+    author: 'Pragya Sharma',
+    githubLink: 'https://github.com/pragya-sharma11'
   }
 ];
 
