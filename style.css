@@ -118,14 +118,14 @@ h2 {
 
 .author {
   font-size: 1.2em;
-  color: #524b3f;
+  color: #645233;
   text-transform: capitalize;
   padding: 7px 10px 15px 10px;
   line-height: 15px;
 }
 
 .author > a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(182, 140, 140);
 }
 
 #footer {
