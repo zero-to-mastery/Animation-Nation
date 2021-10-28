@@ -1,0 +1,97 @@
+body{
+	/*background:#06080F; good background color needed */
+	background:rgba(55, 64, 180,0.8); 
+	height: 100%;
+	width: 100%;
+	animation: change 5s ease-in-out infinite;
+}
+
+h1{
+	text-align: center;
+	font-size: 2.8em;
+	font-family: Georgia, "Arial black","Times New Roman";
+	animation: fly 8s ease-out infinite;
+}
+.container{
+	text-align: center;
+	justify-content: center;
+	margin-top: 15%;
+	animation: fly 8s ease-out infinite;
+}
+
+
+.sphere{
+	border-radius: 50%;
+	display: inline-flex;
+	background:linear-gradient(#FFA43E,yellow); 
+	height: 3.2em;
+    width: 3.2em;
+    padding: 3.2px;
+    margin-right: 8.5px;
+	filter: drop-shadow(5px 5px 10px black);
+	animation: bounce 0.9s ease-in infinite;
+}
+
+ .two{
+ 	animation-delay: -10s;
+ 	background: radial-gradient(yellow,orange);
+ 	height: 3.5em;
+    width: 3.5em; 
+ }
+
+ .three{
+ 	animation-delay:-20s;
+ 	background: radial-gradient(yellow,orange,red);
+ 	height: 4em;
+    width: 4em; 
+ }
+
+ .four{
+ 	animation-delay:-30s;
+ 	background: radial-gradient(yellow,orange,red,yellow);
+ 	height: 5em;
+    width: 5em; 
+ }
+
+  .five{
+ 	animation-delay:-40s; 
+ 	background: radial-gradient(yellow,orange,red,orange);
+ 	height: 6em;
+    width: 6em;
+ }
+
+  .six{
+ 	animation-delay:-50s;
+ 	background: radial-gradient(yellow,orange,red,orange,red);
+ 	height: 8em;
+    width: 8em; 
+ }
+
+.reference-line{
+	height: 3px;
+	width: 600px;
+	background: black;
+	margin-left: 26%;
+}
+
+@keyframes bounce {
+	0%{transform:translateY(0px);}
+	50%{transform:translateY(-180px);}
+	100%{transform:translateY(0px);}
+}
+
+@keyframes fly {
+	0%{transform:translateX(0px);}
+	25%{transform:translateX(-300px);}
+	50%{transform:translateX(0px);}
+	75%{transform:translateX(300px);}
+	100%{transform:translateX(0px);}
+}
+
+@keyframes change{
+	0%{background:rgba(55, 64, 180,1);}
+	25%{background:rgba(55, 64, 180,0.9);}
+	50%{background:rgba(55, 64, 180,0.7);}
+	75%{background:rgba(55, 64, 180,0.9);}
+	100%{background:rgba(55, 64, 180,1);}
+}

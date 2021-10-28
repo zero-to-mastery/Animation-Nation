@@ -5549,6 +5549,13 @@ let cards = [
     imageLink: './Art/VinWare/risingsun.gif',
     author: 'VinWare',
     githubLink: 'https://github.com/VinWare'
+  },
+  {
+    artName: 'The Moving frame',
+    pageLink: './Art/AdityaRaman/index.html',
+    imageLink: './Art/AdityaRaman/frame.png',
+    author: 'Aditya Raman',
+    githubLink: 'https://github.com/adiram7096'
   }
 ];
 
