@@ -5551,6 +5551,12 @@ let cards = [
     githubLink: 'https://github.com/VinWare'
   },
   {
+    pageLink: './Art/AnimationLoader/index.html',
+    imageLink: './Art/AnimationLoader/Animation.gif',
+    author: 'Pragya Sharma',
+    githubLink: 'https://github.com/pragya-sharma11'
+  },
+  {
     pageLink: './Art/complementaryColors/index.html',
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
