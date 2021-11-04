@@ -5551,7 +5551,7 @@ let cards = [
     githubLink: 'https://github.com/VinWare'
   },
   {
-    artName: 'The Moving frame',
+    artName: 'The Moving Page',
     pageLink: './Art/AdityaRaman/index.html',
     imageLink: './Art/AdityaRaman/frame.png',
     author: 'Aditya Raman',
