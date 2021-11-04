@@ -1,0 +1,8 @@
+.circle{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 75px;
+  animation-duration: 3s;
+  animation-name: fadein;
+}
