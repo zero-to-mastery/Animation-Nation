@@ -5563,7 +5563,6 @@ let cards = [
     githubLink: 'https://github.com/hwilson2563'
   },
   {
-    artName: 'HarshP',
     pageLink: './Art/HarshP/index.html',
     imageLink: './Art/HarshP/twistnturn.gif',
     author: 'Harsh',
