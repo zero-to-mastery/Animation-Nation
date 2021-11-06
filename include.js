@@ -5561,7 +5561,14 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
-  }
+  },
+  {
+    artName: 'HarshP',
+    pageLink: './Art/HarshP/index.html',
+    imageLink: './Art/HarshP/twistnturn.gif',
+    author: 'Harsh',
+    githubLink: 'https://github.com/harsh5902'
+}
 ];
 
 // +--------------------------------------------------------------------------------+

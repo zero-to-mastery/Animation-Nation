@@ -1,0 +1,49 @@
+html{
+  background-color: black;
+}
+
+.container1 {
+  width: 1em;
+  height: 15em;
+  background-color: red;
+  animation: example-1 2s infinite ease-out;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  position: relative;
+}
+
+.container2 {
+  width: 1em;
+  height: 15em;
+  background-color: blue;
+  animation: example-2 2s infinite ease-out;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.container3 {
+  width: 1em;
+  height: 15em;
+  background-color: green;
+  animation: example-3 2s infinite ease-out;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+@keyframes example-1 {
+  0% {background-color: red; left:0%; top:0%; transform: rotate(0deg);}
+  50% {background-color: blue; left:99%; top:0%; transform: rotate(360deg);}
+  100% {background-color: red; left:0%; top:0%; transform: rotate(720deg);}
+}
+
+@keyframes example-2 {
+  0% {background-color: blue; left:99%; top:0%;transform: rotate(0deg);}
+  50% {background-color: green; left:0%; top:0%;transform: rotate(360deg);}
+  100% {background-color: blue; left:99%; top:0%;transform: rotate(720deg);}
+}
+
+@keyframes example-3 {
+  0% {background-color: green; left:0%; top:0%; transform: rotate(0deg);}
+  50% {background-color: red; left:99%; top:0%;transform: rotate(360deg);}
+  100% {background-color: green; left:0%; top:0%; transform: rotate(720deg);}
+}
