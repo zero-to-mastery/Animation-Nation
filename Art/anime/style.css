@@ -1,0 +1,64 @@
+.grid{
+box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+padding: 6px;
+grid-column: 1/-1;
+display: grid;
+justify-content: center;
+align-content: center;
+gap: 4px;
+grid-template-columns: 12rem 12rem 12rem;
+grid-template-rows: 12rem 12rem 12rem;
+}
+
+/*Individual Animations*/
+.red{
+	background-color: red;
+	animation-name: wobble;
+	animation-iteration-count: infinite; 
+}
+.green{
+	background-color: green;
+	animation-name: jello;
+	animation-iteration-count: infinite; 
+}
+.blue{
+	background-color: blue;
+	animation-name: jello;
+	animation-iteration-count: infinite; 
+}
+.brown{
+	background-color: #c929ea;
+	animation-name: wobble;
+	animation-iteration-count: infinite; 
+}
+.maroon{
+	background-color: maroon;
+	animation-name: jello;
+	animation-iteration-count: infinite; 
+}
+.blue{
+	background-color: blue;
+	animation-name: jello;
+	animation-iteration-count: infinite; 
+}
+.pink{
+	background-color: pink;
+	animation-name: wobble;
+	animation-iteration-count: infinite; 
+}
+.orange{
+	background-color: orange;
+	animation-name: wobble;
+	animation-iteration-count: infinite; 
+}
+.yellow{
+	background-color: yellow;
+	animation-name: wobble;
+	animation-iteration-count: infinite; 
+}
+.purple{
+	background-color: purple;
+	animation-name: jello;
+	animation-iteration-count: infinite; 
+}
+
