@@ -5561,6 +5561,13 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    artName: 'The Moving frame',
+    pageLink: './Art/Adityaraman/index.html',
+    imageLink: './Art/Adityaraman/screenshot.png',
+    author: 'Aditya Raman',
+    githubLink: 'https://github.com/adiram7096'
   }
 ];
 
