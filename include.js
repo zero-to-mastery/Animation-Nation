@@ -5562,6 +5562,12 @@ let cards = [
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
   }
+  {
+    pageLink: './Art/chiapaspc/index.html',
+    imageLink: './Art/chiapaspc/animacion.gif',
+    author: 'Alfredo Hdez',
+    githubLink: 'https://github.com/chiapaspc'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
