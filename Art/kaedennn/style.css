@@ -1,0 +1,16 @@
+.box{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    animation-name: kaeden;
+    animation-duration: 6s;
+}
+
+@keyframes kaeden {
+    0%   {background-color:red; left:0px; top:0px; transform:rotate(0deg);}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:purple; left:0px; top:0px; transform:rotate(360deg);}
+}
