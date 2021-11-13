@@ -1,13 +1,6 @@
 let cards = [
 
-    //  Add your card in this section
-    {
-        artName: 'Pks Art',
-        pageLink: './Art/misrapk/index.html',
-        imageLink: './Art/Joy/animate.gif',
-        author: 'misrapk',
-        githubLink: 'https://github.com/misrapk'
-    },
+
     {
         artName: 'Terminal effect',
         pageLink: './Art/DaywisonSilva/index.html',
@@ -4786,6 +4779,13 @@ let cards = [
         imageLink: './Art/complementaryColors/complementaryColors.gif',
         author: 'Hilary',
         githubLink: 'https://github.com/hwilson2563'
+    },
+     {
+        artName: 'Pks Art',
+        pageLink: './Art/misrapk/index.html',
+        imageLink: './Art/misrapk/Animation.gif',
+        author: 'misrapk',
+        githubLink: 'https://github.com/misrapk'
     }
 ];
 
