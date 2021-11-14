@@ -1,0 +1,51 @@
+.text1 {
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.text2 {
+    font-size: 30px;
+    text-align: center;
+  
+}
+
+.parent {
+    background-color: aquamarine;
+    height: 400px;
+    width: auto;
+}
+
+.child {
+    background-color: rgb(184, 37, 93);
+    height: 50%;
+    width: 50%;
+    transition: 1s;
+    animation: leftt 3s ease-in-out 100 alternate-reverse;
+}
+
+
+.parent:hover .child {
+    transform: translateX(100%);
+    background-color: beige;
+
+    
+   
+}
+
+@keyframes leftt {
+    0% {
+        transform: translateX(0%);
+       
+    }
+    33% {
+        transform: translateY(100%);
+        
+    } 
+    66% {
+        transform: translateX(100%) translateY(100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
