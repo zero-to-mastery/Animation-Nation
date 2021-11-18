@@ -1,0 +1,166 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first {
+  width: 100px;
+  height: 100px;
+  border-radius: 60%;
+
+  position: relative;
+  animation-name: first;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+}
+
+@keyframes first {
+  0% {
+    background: linear-gradient(
+      45deg,
+      rgba(123, 58, 180, 0.6019184652278178) 25%,
+      rgba(253, 64, 29, 1) 50%,
+      rgba(252, 243, 69, 1) 100%
+    );
+    left: 0px;
+    top: 0px;
+    border-radius: 0;
+  }
+  25% {
+    background: linear-gradient(
+      45deg,
+      rgba(123, 58, 180, 0.6019184652278178) 25%,
+      rgba(253, 64, 29, 1) 50%,
+      rgba(252, 243, 69, 1) 100%
+    );
+    left: 200px;
+    top: 100px;
+    border-radius: 0;
+  }
+  50% {
+    background: linear-gradient(
+      45deg,
+      rgba(123, 58, 180, 0.6019184652278178) 25%,
+      rgba(253, 64, 29, 1) 50%,
+      rgba(252, 243, 69, 1) 100%
+    );
+    left: 200px;
+    top: 300px;
+  }
+  75% {
+    background: linear-gradient(
+      45deg,
+      rgba(123, 58, 180, 0.6019184652278178) 25%,
+      rgba(253, 64, 29, 1) 50%,
+      rgba(252, 243, 69, 1) 100%
+    );
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background: linear-gradient(
+      45deg,
+      rgba(123, 58, 180, 0.6019184652278178) 25%,
+      rgba(253, 64, 29, 1) 50%,
+      rgba(252, 243, 69, 1) 100%
+    );
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.second {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: relative;
+  animation-name: second;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+@keyframes second {
+  0% {
+    background: linear-gradient(
+      90deg,
+      rgba(240, 6, 194, 1) 18%,
+      rgba(6, 242, 234, 1) 70%,
+      rgba(0, 220, 255, 1) 100%
+    );
+    left: 0px;
+    top: 0px;
+    border-radius: 0;
+  }
+  25% {
+    background: linear-gradient(
+      90deg,
+      rgba(240, 6, 194, 1) 18%,
+      rgba(6, 242, 234, 1) 70%,
+      rgba(0, 220, 255, 1) 100%
+    );
+    left: 200px;
+    top: 0px;
+    border-radius: 0;
+  }
+  50% {
+    background: linear-gradient(
+      90deg,
+      rgba(240, 6, 194, 1) 18%,
+      rgba(6, 242, 234, 1) 70%,
+      rgba(0, 220, 255, 1) 100%
+    );
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background: linear-gradient(
+      90deg,
+      rgba(240, 6, 194, 1) 18%,
+      rgba(6, 242, 234, 1) 70%,
+      rgba(0, 220, 255, 1) 100%
+    );
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background: linear-gradient(
+      90deg,
+      rgba(240, 6, 194, 1) 18%,
+      rgba(6, 242, 234, 1) 70%,
+      rgba(0, 220, 255, 1) 100%
+    );
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.third {
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  position: relative;
+  animation-name: third;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  transition: transform 4s;
+}
+
+@keyframes third {
+  100% {
+    background: radial-gradient(
+      circle,
+      rgba(251, 63, 104, 1) 0%,
+      rgba(240, 252, 70, 1) 63%
+    );
+    left: 0px;
+    top: 150px;
+    transform: rotate(20deg);
+    transform: scale(3);
+  }
+}
