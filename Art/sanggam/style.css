@@ -1,0 +1,37 @@
+div{
+  height: 150px;
+}
+.container{
+  width: 100%;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sdiv{
+  width: 30%;
+  display: inline-block;
+  margin: 2%;
+}
+
+.container:active .sdiv{
+  height: 80%
+}
+
+.div1{
+  background-color:#B91646;
+  transition: 3.5s ease-in;
+  margin-left: 350px;
+}
+
+.div2{
+  background-color:#FBF3E4;
+  transition: 2.5s ease-in-out;
+}
+
+.div3{
+  background-color:#105652;
+  transition: 3.5s ease-in;
+  margin-right: 350px;
+}
