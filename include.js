@@ -5561,6 +5561,11 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    pageLink: './Art/Rubberband-Animation/index.html/',
+    author: 'Krubel',
+    githubLink: 'https://github.com/Krubel-Habteyes'
   }
 ];
 
