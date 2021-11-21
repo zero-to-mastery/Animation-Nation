@@ -5561,6 +5561,13 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    artName: 'HumeraAnimation',
+    pageLink: './Art/HumeraAnimation/index.html',
+    imageLink: './Art/HumeraAnimation/trance.gif',
+    author: 'Humera',
+    githubLink: 'https://github.com/freeze1'
   }
 ];
 
