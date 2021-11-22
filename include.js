@@ -5562,6 +5562,12 @@ let cards = [
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
   }
+  {
+    pageLink: './Art/Animacija/index.html',
+    imageLink: './Art/Joy/Animacija/Avram.gif',
+    author: 'Avram',
+    githubLink: 'https://github.com/avrambozanovic'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
