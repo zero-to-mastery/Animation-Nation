@@ -1,0 +1,39 @@
+body {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.text {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+ }
+
+#load {
+	animation-name: load;
+	animation-duration: 0.7s;
+	animation-direction: alternate;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes load {
+	0% {opacity: 0;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+
+}
