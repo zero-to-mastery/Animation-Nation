@@ -5561,6 +5561,13 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    artName: 'Squarez',
+    pageLink: './Art/antoniosaoc/index.html',
+    imageLink: './Art/antoniosaoc/squarez.gif',
+    author: 'antoniosaoc',
+    githubLink: 'https://github.com/antoniosaoc'
   }
 ];
 

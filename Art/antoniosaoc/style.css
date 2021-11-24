@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(-45deg, pink, aquamarine);
+	background-size: 400% 400%;
+	animation: gradient 750ms ease infinite;
+	height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    grid-template-rows: repeat(10, 100px);
+    gap: 6px;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+    
+
+
+.fig{
+    
+    background-color: aquamarine;
+    animation: myAnim 500ms ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
