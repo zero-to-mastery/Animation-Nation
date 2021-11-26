@@ -5561,6 +5561,13 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    artName: 'Sheep',
+    pageLink: './Art/LukasSheepAnimation/index.html',
+    imageLink: './Art/LukasSheepAnimation/myAnimation.gif',
+    author: 'Lukas',
+    githubLink: 'https://github.com/krauluk1'
   }
 ];
 

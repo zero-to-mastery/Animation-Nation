@@ -1,0 +1,77 @@
+@keyframes changePositionHorizontal {
+    0%   {left: -95vw}
+    100%  {left: 105vw}
+}
+
+
+@keyframes rotationFull{
+    from {
+      transform: rotate(0deg)
+    }
+    to {
+      transform: rotate(359deg)
+    }
+}
+
+
+@keyframes scaleBigger {
+    0% {
+      transform: scale(1)
+    }
+    50% {
+      transform: scale(1.2)
+    }
+    100% {
+      transform: scale(1)
+    }
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(
+    90deg,
+    black 0%,
+    red 15%,
+    orange 25%,   
+    yellow 50%,
+    orange 75%,
+    red 85%,
+    black 100%
+    );
+}
+
+
+.container{
+    width: 100%; 
+    width: 100vw;
+    height: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outsideCube{
+    position: absolute;
+    animation: changePositionHorizontal 10s ease-in-out infinite;
+}
+
+
+.insideCube{    
+    animation: scaleBigger 6s ease-in-out infinite alternate;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+  width: 30vw;
+  animation: rotationFull 3s ease-in-out infinite;
+  animation-delay: 1s;
+}
