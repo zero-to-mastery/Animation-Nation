@@ -5562,6 +5562,15 @@ let cards = [
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
   }
+
+let cards = [
+  {
+    pageLink: './Art/SanjaZi/index.html',
+    imageLink: './Art/SanjaZi/sanjazi.gif',
+    author: 'SanjaZi',
+    githubLink: 'https://github.com/SanjaZi'
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
