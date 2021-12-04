@@ -354,6 +354,13 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
+    artName: 'AnimatedLoader',
+    pageLink: './Art/AnimatedLoader/index.html',
+    imageLink: './Art/AnimatedLoader/AnimatedLoader.gif',
+    author: 'AakashPawan',
+    githubLink: 'https://github.com/AakashPawanGPS'
+  },
+  {
     artName: 'Cube',
     pageLink: './Art/Joy/cube/cube.html',
     imageLink: './Art/Joy/cube/cube.gif',
