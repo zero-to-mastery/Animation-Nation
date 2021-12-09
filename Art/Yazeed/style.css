@@ -1,0 +1,124 @@
+body {
+    margin-top: 6.5em;
+    font-family: Georgia, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+    color: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(to right, rgb(173, 173, 173), rgb(192, 150, 167));
+}
+
+.container {
+    margin: auto;
+    margin-top: 4em;
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #882d615e;
+    /* Adding shadow */
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.bar {
+    height: 5px;
+    width: 20px;
+    border-radius: 3px;
+    background: #56B870;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #56B870), color-stop(100%, #a5c956));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #56B870 0%, #a5c956 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #56B870 0%, #a5c956 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #56B870 0%, #a5c956 100%);
+    /* IE10+ */
+    background: linear-gradient(top, #56B870 0%, #a5c956 100%);
+    /* W3C */
+    animation: pulse 3s infinite ease-in-out;
+    transform: translate()
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        height: 5px;
+    }
+    50% {
+        height: 300px;
+    }
+}
+
+.one {
+    animation-delay: 0ms;
+}
+
+.two {
+    animation-delay: 50ms;
+}
+
+.three {
+    animation-delay: 100ms;
+}
+
+.four {
+    animation-delay: 150ms;
+}
+
+.five {
+    animation-delay: 200ms;
+}
+
+.six {
+    animation-delay: 250ms;
+}
+
+.seven {
+    animation-delay: 300ms;
+}
+
+.eight {
+    animation-delay: 350ms;
+}
+
+.nine {
+    animation-delay: 400ms;
+}
+
+.ten {
+    animation-delay: 450ms;
+}
+
+.eleven {
+    animation-delay: 500ms;
+}
+
+.twelve {
+    animation-delay: 550ms;
+}
+
+.thirteen {
+    animation-delay: 600ms;
+}
+
+.fourteen {
+    animation-delay: 650ms;
+}
+
+.fifteen {
+    animation-delay: 700ms;
+}
+
+.sixteen {
+    animation-delay: 750ms;
+}

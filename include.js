@@ -5561,6 +5561,13 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    artName: 'Statifying Waves', 
+    pageLink: './Art/Yazeed/index.html',
+    imageLink: './Art/Yazeed/waves.gif',
+    author: 'Yazeed',
+    githubLink: 'https://github.com/YazeedEld'
   }
 ];
 
