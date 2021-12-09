@@ -1,0 +1,180 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animate__animated.animate__tada {
+/*  --animate-duration: 6s;*/
+  --animate-delay: 3000ms;
+}
+
+.box {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1 {
+  font-family: 'conthrax', impact;
+  font-size: 2rem;
+  opacity: 0;
+}
+.circle {
+  border-radius: 50%;
+  border-width: 2px ;
+  border-style: ridge;
+  opacity: 0;
+}
+.one {
+  animation: circling 6000ms infinite ease-out;
+}
+.two {
+  animation: circling 6000ms infinite 400ms ease-out;
+}
+.three {
+  animation: circling 6000ms infinite 800ms ease-out;
+}
+.four {
+  animation: circling 6000ms infinite 1200ms ease-out;
+}
+.five {
+  animation: circling 6000ms infinite 1600ms ease-out;
+}
+.bang {
+  animation: bang 6000ms infinite ease-out;
+}
+
+@keyframes circling {
+  0% {
+    height: 0%;
+    width: 0%;
+  }
+  30% {
+    height: 100%;
+    width: 100%;
+  }
+  50% {
+  height: 100%;
+  width: 100%;
+  }
+  80% {
+    height: 0%;
+    width: 0%;
+  }
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.blue {
+  border-color: #0747D9;
+}
+.blue_lighter {
+  border-color:  #84A0E2;
+}
+.blue_light {
+  border-color:  #3568DF;
+}
+.blue_dark {
+  border-color:  #052E8D;
+}
+.blue_darker {
+  border-color:  #021A51;
+}
+
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  40% {
+    transform: scale3d(1, 1, 1);
+  }
+  42%,
+  44% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  46%,
+  50%,
+  54%,
+  58% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  48%,
+  52%,
+  56% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    transform: scale3d(1, 1, 1);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+
+  0% {
+    font-size: 1rem;
+    color:  #84A0E2;
+    opacity: 0;
+    /*background-position: 0% 0%;*/
+  }
+  30% {
+    font-size: 1rem;
+    opacity: 0;
+  }
+  50% {
+    font-size: 3rem;
+    color:  #021A51;
+    opacity: 1;
+    /*background-position: 100% 100%;*/
+  }
+  70% {
+    font-size: 1rem;
+    color:  #84A0E2;
+    opacity: 0;
+  }
+  100% {
+    font-size: 1rem;
+    color:  #84A0E2;
+    opacity: 0;
+  }
+
+
+}
+
+.tada {
+  animation-name: tada;
+}

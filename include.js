@@ -5562,6 +5562,12 @@ let cards = [
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
   }
+  {
+    pageLink: './Art/q-rault/index.html',
+    imageLink: './Art/q-rault/bang.gif',
+    author: 'q-rault',
+    githubLink: 'https://github.com/q-rault'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
