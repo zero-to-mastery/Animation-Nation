@@ -5562,6 +5562,12 @@ let cards = [
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
   }
+  {
+    pageLink: './Art/animatedJ-logo/logoj.html',
+    imageLink: './Art/aniamtedJ-logo/animatedJgif.gif',
+    author: 'Joao Marra',
+    githubLink: 'https://github.com/joaomarr'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
