@@ -5563,6 +5563,7 @@ let cards = [
     githubLink: 'https://github.com/hwilson2563'
   },
   {
+    artName: 'Background Animation',
     pageLink: './Art/bg-animation/index.html',
     imageLink: './Art/bg-animation/bg-animation.gif',
     author: 'zekoslav3',
