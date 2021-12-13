@@ -5562,6 +5562,13 @@ let cards = [
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
   }
+  {
+    artName: 'Fatema_animatron',
+    pageLink: './Art/Fatema_animatron/index.html',
+    imageLink: './Art/Fatema_animatron/colorLine.gif',
+    author: 'Fatema Bohra',
+    githubLink: 'https://github.com/FatemaBohra'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
