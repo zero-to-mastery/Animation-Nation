@@ -5561,7 +5561,13 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
-  }
+  },
+  {
+    artName: '3d loading animation',
+    pageLink: "./Art/Rida's-Loading/index.html",
+    author: 'Rida',
+    githubLink: 'https://github.com/Rida999'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
