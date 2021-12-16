@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+div {
+  display: flex;
+  display: grid;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  padding-top: 100px;
+}
+
+button {
+  padding: 30px;
+  margin: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#color1 {
+  background-color: #56cbfd;
+}
+
+#color2 {
+  background-color: #73c431;
+}
+
+#color3 {
+  background-color: rgb(214, 54, 54);
+}

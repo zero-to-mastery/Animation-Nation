@@ -5561,6 +5561,13 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    artName:"Dazzle-color-desktop",
+    pageLink: './Art/Dazzle-colour-desktop/index.html',
+    imageLink: './Art/Dazzle-colour-desktop/dazzle.gif',
+    author: 'Hans Chen',
+    githubLink: 'https://github.com/hanschen666'
   }
 ];
 
