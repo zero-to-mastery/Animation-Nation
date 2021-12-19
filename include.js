@@ -5561,6 +5561,13 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    artName: "Hellooo",
+    pageLink: './Art/reactmallo/index.html',
+    imageLink: './Art/reactmallo/hellooo.gif',
+    author: 'Mallory',
+    githubLink: 'https://github.com/reactmallo'
   }
 ];
 
