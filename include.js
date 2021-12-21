@@ -5561,6 +5561,19 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    pageLink: './Art/complementaryColors/index.html',
+    imageLink: './Art/complementaryColors/complementaryColors.gif',
+    author: 'Hilary',
+    githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    artName: 'Berlin Winter',
+    pageLink: './Art/berlinwinter/index.html',
+    imageLink: './Art/berlinwinter/berlin_winter.gif',
+    author: 'An',
+    githubLink: 'https://github.com/tranhoangan22'
   }
 ];
 

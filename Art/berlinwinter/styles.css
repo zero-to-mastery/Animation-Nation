@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(berlin_winter1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 5s;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+/* The div which has class `container` will be animated like so */
+@keyframes animate {
+  0% {
+    background-image: url(berlin_winter1.jpg);
+  }
+  20% {
+    background-image: url(berlin_winter2.jpg);
+  }
+  40% {
+    background-image: url(berlin_winter3.jpg);
+  }
+  60% {
+    background-image: url(berlin_winter4.jpg);
+  }
+  80% {
+    background-image: url(berlin_winter5.jpg);
+  }
+  100% {
+    background-image: url(berlin_winter6.jpg);
+  }
+}
