@@ -1,0 +1,393 @@
+/* spaghetti Code 🙃 */
+/* 90% of the time I dont even know what exactly am I doing myself */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: center ;
+    background-color: #e0cdee;
+    min-height: 100vh;
+
+}
+
+
+.snowman {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+}
+
+.eyeL {
+    position: absolute;
+    top: 60%;
+    right: 30%;
+    height: 5px;
+    width: 5px;
+    background: black;
+    border-radius: 50%; 
+    position: absolute;
+
+}
+
+.eyeR {
+    position: absolute;
+    top: 60%;
+    right: 20%;
+    height: 5px;
+    width: 5px;
+    background: black;
+    border-radius: 50%; 
+    position: absolute;
+}
+
+.nose {
+    z-index: 1;
+    position: absolute;
+    top: 62%;
+    right: 28%;
+    height: 0;
+    width: 0;
+   border-top: 5px solid transparent;
+   border-bottom: 5px transparent;
+   border-right: 20px solid red;
+}
+
+.body-top {
+    position: absolute;
+    bottom: 30%;
+    right: 12%;
+    height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+}
+
+.body-btm {
+   position: absolute;
+   bottom: 6%;
+   right: 4%;
+    height: 80px;
+    width: 80px;
+    background: white;
+    border-radius: 50%; 
+}
+
+.armL {
+    position: absolute;
+    top: 70%;
+    right: 48%;
+    height: 40px;
+    width: 5px;
+    background-color: black;
+    transform: rotate(300deg);
+    animation: armL alternate-reverse 3s infinite;
+}
+ /* @keyframes armL {
+    0% {transform: ;}
+   50%{transform: rotate(15);}
+   100%{transform: rotate(30deg);} */
+
+.armR {
+    position: absolute;
+    top: 70%;
+    right:0;
+    height: 40px;
+    width: 5px;
+    background-color: black;
+    transform: rotate(60deg);
+}
+
+.snowflakes1 {
+    position: absolute;
+    animation: snow 2s linear infinite;
+    animation-direction: normal;
+    
+}
+
+@keyframes snow {
+    0% {transform:translateY(0px) opacity: 1;}
+   25% {transform: translateY(50px)}
+   50%{transform: translateY(100px)}
+   75%{transform: translateY(150px)}
+   100% {transform: translateY(400px) opacity: 0;}
+  
+}
+.snowflakes2 {
+    position: relative;
+    animation: snow 1.8s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(10px) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+.snowflakes3 {
+    position: relative;
+    animation: snow 1.6s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(5px); opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+
+.snowflakes4 {
+    position: relative;
+    animation: snow 2.6s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(7px) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+
+.snowflakes5 {
+    position: relative;
+    animation: snow 2.2s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(3px) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+
+.snowflakes6 {
+    position: relative;
+    animation: snow 1.9s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(4px) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+
+.snowflakes7 {
+    position: relative;
+    animation: snow 2.4s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(0) ; opacity: 1.8;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+
+.snowflakes8 {
+    position: relative;
+    animation: snow 2.1s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(4px) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+
+.snowflakes9 {
+    position: relative;
+    animation: snow 1.4s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(1px) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+
+.snowflakes10 {
+    position: relative;
+    animation: snow 1.7s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(3px); opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+.snowflakes11 {
+    position: relative;
+    animation: snow 1.3s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(6px); opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+.snowflakes12 {
+    position: relative;
+    animation: snow 1.7s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(0) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+.snowflakes13 {
+    position: relative;
+    animation: snow 2s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(5px); opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+.snowflakes14 {
+    position: relative;
+    animation: snow 1.9s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(3px) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+.snowflakes15 {
+    position: relative;
+    animation: snow 1.4s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(5px) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+.snowflakes16 {
+    position: relative;
+    animation: snow 1.8s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(2px) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+.snowflakes17 {
+    position: relative;
+    animation: snow 1.5s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(1px) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+.snowflakes18 {
+    position: relative;
+    animation: snow 2.5s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(6px) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+.snowflakes19 {
+    position: relative;
+    animation: snow 1.3s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(0) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+.snowflakes20 {
+    position: relative;
+    animation: snow 2.2s linear infinite;
+    animation-direction: normal;
+    
+}
+@keyframes snow {
+    0% {transform: translateY(1px) ; opacity: 1;}
+   25% {transform: translateY(50px) ;}
+   50%{transform: translateY(100px) ;}
+   75%{transform: translateY(150px) ;}
+   100% {transform: translateY(200px) ; opacity: 0;}
+  
+}
+
