@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Sharingan',
+    pageLink: './Art/sharingan/index.html',
+    imageLink: './Art/sharingan/sharingan.gif',
+    author: 'Anirudh',
+    githubLink: 'https://github.com/an1rudh-s'
+  },
+  {
     artName: 'Terminal effect',
     pageLink: './Art/DaywisonSilva/index.html',
     imageLink: './Art/DaywisonSilva/art.gif',
