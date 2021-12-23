@@ -1,0 +1,48 @@
+body {
+    background: #000;
+    padding: 0; margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;    align-items: center;
+}
+
+.out_circle{
+    width: 200px; height: 200px;
+    border-radius: 100px;
+    background: rgb(122, 12, 12);
+    display: flex;
+    justify-content: center; align-items: center;
+}
+
+.in_circle{
+    width: 175px; height: 175px;
+    border-radius: 100px;
+    background: black;
+    display: flex;
+    justify-content: center; align-items: center;
+}
+
+.sharingan{
+    position: absolute;
+    width: 25px; height: 25px;
+    border-radius: 15px;
+    background: rgb(122, 12, 12);
+    transform: rotate(45deg) translateX(62.5px) rotate(-45deg);
+    animation: rotate 4s linear infinite;
+}
+
+#second{
+    background: rgb(122, 12, 12); animation-delay: -2s;
+}
+
+@keyframes rotate {
+    from { 	transform: rotate(0deg) translateX(62.5px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(62.5px) rotate(-360deg); }
+}
+
+.pupil{
+    position: absolute;
+    width: 75px; height: 75px;
+    border-radius: 50px;
+    background: rgb(122, 12, 12);
+}
