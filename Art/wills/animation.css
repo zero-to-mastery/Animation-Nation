@@ -1,0 +1,83 @@
+/* this is for animations */
+.keyframe-0 {
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    background-color: rgb(238, 245, 137);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2em;
+    padding-top: 50px;
+    box-sizing: border-box;
+    animation-name: keyframe0;
+    animation-duration: 5s;
+    animation-timing-function: ;
+    position: relative;
+
+}
+
+/* defining the position as relative is important in keyframe */
+
+@keyframes keyframe0 {
+    from {
+        left: 0;
+        top: 0;
+        background-color:rgb(238, 245, 137) ;
+    }
+    to {
+        left: 500px;
+        top: 0;
+        background-color: darkseagreen;
+    }
+}
+/* 
+keyframes using percentage to define the movement of the animation */
+.keyframe-1 {
+    width: 200px;
+    height: 200px;
+    /* margin: 100px auto; */
+    background-color: rgb(105, 139, 145);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2em;
+    padding-top: 50px;
+    box-sizing: border-box;
+    animation-name: keyframe1;
+    animation-duration: 5s;
+    animation-timing-function: ;
+    animation-iteration-count: infinite;
+    animation-direction:reverse ;
+    /* animation-fill-mode: forwards; */
+    position: relative;
+
+}
+
+/* defining the position as relative is important in keyframe */
+
+@keyframes keyframe1 {
+    0% {
+        left: 0;
+        top: 0;
+        background-color:rgb(105, 139, 145) ;
+    }
+    25% {
+        left: 500px;
+        top: 0;
+        background-color: rgb(76, 97, 76);
+    }
+    50% {
+        left: 500px;
+        top: 500px;
+        background-color: rgb(179, 185, 179);
+    }
+    75% {
+        top: 500px;
+        left: 0;
+        background-color: rgb(231, 238, 231);
+    }
+    100% {
+        left: 0px;
+        top: 0;
+        background-color: rgb(105, 139, 145));
+    }
+}
