@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    transition: 300ms ease transform;
+    font-size: 3em;
+}
+
+h1:hover {
+    transform: scale(2);
+    font-weight: 2000;
+    color: white;
+    background-color: black;
+}
