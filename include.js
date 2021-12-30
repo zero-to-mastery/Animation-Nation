@@ -5564,6 +5564,16 @@ let cards = [
   }
 ];
 
+let cards = [
+  //  Add your card in this section
+  {
+    pageLink: './Art/Brunilda/brunilda/brunilda.html',
+    imageLink: './Art/Brunilda/brunilda/brunilda.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/brunagj'
+  }
+];
+
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
