@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+        font: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, .5);
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+        width: 100%;
+        };
+    
+.main {
+    width: 350px;
+    height: 500px;
+    position: relative;
+    margin: 50px auto;
+}
+
+.frame {
+    width: 25%;
+    height: 75%;
+    border: 30px solid #D77FA1;
+    border-image: url(heart.jpg) 25 25;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    z-index: 1;
+    animation: frame 5s linear infinite;
+}
+
+@keyframes frame {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    80% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}
+
+.c {
+    width: 350px;
+    transform: rotateY(180deg);
+}
+
+.slide {
+    position: absolute;
+    left: 650px;
+    bottom: 15px;
+}
+
+.slide2 {
+    position: absolute;
+    right: 150px;
+    bottom: 15px;
+}
+
+
+background: linear-gradient(to right, #D77FA1, #BAABDA, #D6E5FA, #FFF9F9);
