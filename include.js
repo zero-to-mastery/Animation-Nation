@@ -5562,6 +5562,13 @@ let cards = [
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
   }
+  {
+    artname: 'TheView',
+    pageLink: './Art/TheView/index.html',
+    imageLink: './Art/TheView/TheView.jpg',
+    author: 'Shruti',
+    githubLink: 'https://github.com/Shrutie7'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+

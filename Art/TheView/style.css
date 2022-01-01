@@ -1,0 +1,139 @@
+/* Mixins Starts here */
+@mixin mountain($width, $height, $color, $rotate: 45deg) {
+	width: $width;
+	height: $height;
+	transform: rotate($rotate);
+	background: $color;
+}
+
+@mixin debug {
+	outline: 1px solid red;
+}
+
+@mixin circle($diameter, $color) {
+	width: $diameter;
+	height: $diameter;
+	background: $color;
+	border-radius: 100%;
+	box-shadow: 0px 0px 20px 1px $color;
+}
+
+@mixin position($top: 0, $left: 0, $bottom: 0, $right: 0) {
+	position: absolute;
+	top: $top;
+	bottom: $bottom;
+	left: $left;
+	right: $right;
+}
+
+/* Mixins End here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	background: rgb(206, 205, 205);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-size: 62.5%;
+}
+
+.frame {
+	transform: scale(1.5);
+	width: 20rem;
+	height: 25rem;
+	background: linear-gradient(#a6adb7, #dbd1d4);
+	outline: 5px solid gray;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+.mountains {
+	position: absolute;
+	width: 100%;
+	height: 65%;
+	bottom: -1rem;
+}
+
+.mountain-1 {
+	@include mountain(12rem, 30rem, #41354e, -65deg);
+	position: absolute;
+	bottom: -15rem;
+	left: -2rem;
+	z-index: 10;
+}
+
+.mountain-2 {
+	@include mountain(25rem, 20rem, #2d556a, -20deg);
+	position: absolute;
+	bottom: -10rem;
+	right: -5rem;
+	z-index: 9;
+}
+
+.mountain-3 {
+	@include mountain(30rem, 30rem, #6f8695, -45deg);
+	z-index: 8;
+	position: absolute;
+	left: -5rem;
+	bottom: -18rem;
+}
+
+.mountain-4 {
+	@include mountain(30rem, 30rem, #adb1b9, -45deg);
+	z-index: 7;
+	position: absolute;
+	left: -13rem;
+	bottom: -20rem;
+}
+
+.sky {
+	height: 100%;
+}
+
+.moon {
+	@include circle(3rem, #fff);
+	@include position(5rem, 4rem);
+}
+
+.star-1 {
+	@include circle(0.3rem, rgba(255, 255, 255, 0.596));
+	@include position(10rem, 4rem);
+}
+.star-2 {
+	@include circle(0.3rem, rgba(255, 255, 255, 0.596));
+	@include position(3rem, 3rem);
+}
+.star-3 {
+	@include circle(0.3rem, rgba(255, 255, 255, 0.596));
+	@include position(4rem, 15rem);
+}
+.star-4 {
+	@include circle(0.3rem, rgba(255, 255, 255, 0.596));
+	@include position(2rem, 10rem);
+}
+.star-5 {
+	@include circle(0.5rem, rgba(255, 255, 255, 0.596));
+	@include position(3rem, 10.5rem);
+}
+
+.bottom {
+	width: 100%;
+	font-size: 2rem;
+	position: absolute;
+	bottom: 0;
+
+	.icon {
+		margin: 1rem;
+		cursor: pointer;
+	}
+}
