@@ -5565,7 +5565,6 @@ let cards = [
   {
     artname: 'TheView',
     pageLink: './Art/TheView/index.html',
-    imageLink: './Art/TheView/TheView.jpg',
     author: 'Shruti',
     githubLink: 'https://github.com/Shrutie7'
   }
