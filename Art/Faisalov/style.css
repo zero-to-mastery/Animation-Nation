@@ -1,0 +1,42 @@
+
+div#one {
+    margin: 30px;
+    height: 100px;
+    width: 350px;
+    position: relative;
+    animation-name: moveAround;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;  
+}
+
+div#two {
+    margin: 30px;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    animation-name: moveAround;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;  
+}
+
+div#three {
+    margin: 30px;
+    height: 200px;
+    width: 110px;
+    position: relative;
+    animation-name: moveAround;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;  
+}
+
+@keyframes moveAround {
+    0%   {background-color:#ef476f; left:0px; top:0px;}
+    25%  {background-color: #ffd166; left:200px; top:0px;}
+    50%  {background-color:#06d6a0; left:200px; top:200px;}
+    75%  {background-color:#118ab2; left:0px; top:200px;}
+    100% {background-color:#073b4c; left:0px; top:0px;}
+  }
+
