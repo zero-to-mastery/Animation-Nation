@@ -1,0 +1,19 @@
+{
+  "name": "animation-nation",
+  "version": "1.0.0",
+  "description": "---\r > ### **UPDATE:** Event Concluded!\r   >\r   > **This project started as a project for Hacktoberfest 2019, Thank you to everyone that participated and made this project what it is today and we look forward to seeing you all at Hacktoberfest 2020!.\r   > Feel free to continue adding your designs to the master branch, you can check out the `Hactoberfest-Edition` branch to see the project as it was at the end of the event.**\r   >\r   > **Interested in more events? keep an eye on our Events page [HERE](https://zerotomastery.io/events?utm_source=github&utm_medium=animation-nation)**\r ---",
+  "main": "include.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faisalov/Animation-Nation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faisalov/Animation-Nation/issues"
+  },
+  "homepage": "https://github.com/Faisalov/Animation-Nation#readme"
+}
