@@ -1,5 +1,13 @@
 let cards = [
   {
+    artName: 'Funky Alien',
+    pageLink: './Art/Funky Alien/index.html',
+    iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif.gif',
+    author: 'Jenique Knoesen',
+    githubLink: 'https://github.com/jenique22'
+  },
+  
+  {
     artName: 'Stephan Animation',
     pageLink: './Art/stephanduval_animatron/index.html',
     iamgeLink: './Art/stephanduval_animatron/stephanduval_animatron.gif',
