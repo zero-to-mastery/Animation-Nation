@@ -5471,7 +5471,7 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
-  },
+  }
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -5513,120 +5513,10 @@ let cards = [
     imageLink: './Art/chrisg/redwhiteblue.gif',
     author: 'ChrisG',
     githubLink: 'https://github.com/chrisgithubok'
-  },
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- {
+  }
+];
+let cards = [
+  {
     artName: 'Funky Alien',
     pageLink: './Art/Funky Alien/index.html',
     iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif.gif',
