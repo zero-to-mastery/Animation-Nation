@@ -5473,13 +5473,7 @@ let cards = [
     githubLink: 'https://github.com/Rayologist'
   },
 
-  {
-    artName: 'Funky Alien',
-    pageLink: './Art/Funky Alien/index.html',
-    iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif.gif',
-    author: 'Jenique Knoesen',
-    githubLink: 'https://github.com/jenique22'
-  },
+  
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -5521,5 +5515,12 @@ let cards = [
     imageLink: './Art/chrisg/redwhiteblue.gif',
     author: 'ChrisG',
     githubLink: 'https://github.com/chrisgithubok'
-  }
+  },
+  {
+    artName: 'Funky Alien',
+    pageLink: './Art/Funky Alien/index.html',
+    iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif.gif',
+    author: 'Jenique Knoesen',
+    githubLink: 'https://github.com/jenique22'
+  },
 ];
