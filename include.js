@@ -2,6 +2,13 @@ let cards = [
  
   
   {
+    artName: 'Terminal effect',
+    pageLink: './Art/DaywisonSilva/index.html',
+    imageLink: './Art/DaywisonSilva/art.gif',
+    author: 'DaywisonSilva',
+    githubLink: 'https://github.com/DaywisonSilva'
+  },
+  {
     artName: 'Stephan Animation',
     pageLink: './Art/stephanduval_animatron/index.html',
     iamgeLink: './Art/stephanduval_animatron/stephanduval_animatron.gif',
@@ -4826,6 +4833,12 @@ let cards = [
     githubLink: 'https://github.com/Maryyam04'
   },
   {
+    pageLink: './Art/Abstractloading/index.html',
+    imageLink: './Art/Abstractloading/abstractloading.gif',
+    author: 'UrDesigner',
+    githubLink: 'https://github.com/OluJoseph'
+  },
+  {
     pageLink: './Art/ElizavetaZhukova1/index.html',
     imageLink: './Art/ElizavetaZhukova1/fourSquaresEdit.gif',
     author: 'Liza',
@@ -5471,8 +5484,88 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
+  },
+  {
+    artName: 'Dimensional Palace',
+    pageLink: './Art/Paulo Tasso/index.html',
+    imageLink: './Art/Paulo Tasso/triangle/animacaopaulo.gif',
+    author: 'Paulo Tasso',
+    githubLink: 'https://github.com/paulotasso7'
+  },
+
+  {
+    artName: 'Ruan_Animation_Clock',
+    pageLink: './Art/Ruan_Animation_Clock/index.html',
+    imageLink: './Art/Ruan_Animation_Clock/Animation_Clock.gif',
+    author: 'Ruan',
+    githubLink: 'https://github.com/RuanEsterhuyse'
+  },
+  {
+    artName: 'EvaCtion',
+    pageLink: './Art/EvaCtion/index.html',
+    author: 'Gawbb',
+    githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'cheeky face',
+    pageLink: './Art/bluck/index.html',
+    imageLink: './Art/bluck/img.gif',
+    author: 'kxmom',
+    githubLink: 'https://github.com/kxmom'
+  },
+  {
+    pageLink: './Art/pragya-sharma11/index.html',
+    imageLink: './Art/pragya-sharma11/animation.gif',
+    author: 'Pragya Sharma',
+    githubLink: 'https://github.com/pragya-sharma11'
+  },
+  {
+    pageLink: './Art/chrisg/index.html',
+    imageLink: './Art/chrisg/redwhiteblue.gif',
+    author: 'ChrisG',
+    githubLink: 'https://github.com/chrisgithubok'
+  },
+  {
+    pageLink: '.Art/yash2003/index.html',
+    imageLink: '.Art/yash2003/animation.gif',
+    author: 'Yashraj',
+    githubLink: 'https://github.com/yashraj2003e'
+  },
+
+  {
+    artName: 'segunOsiki',
+    pageLink: './Art/segunOsiki/index.html',
+    imageLink: './Art/segunOsiki/segunOsiki.gif',
+    author: 'Segun',
+    githubLink: 'https://github.com/Danny4life'
+  },
+
+  {
+    pageLink: '.Art/Yang/index.html',
+    imageLink: '.Art/Yang/Screenshot.blink.png',
+    author: 'Yang',
+    githubLink: 'https://github.com/yangcodes'
+  },
+  {
+    pageLink: './Art/VinWare/index.html',
+    imageLink: './Art/VinWare/risingsun.gif',
+    author: 'VinWare',
+    githubLink: 'https://github.com/VinWare'
+  },
+  {
+    pageLink: './Art/AnimationLoader/index.html',
+    imageLink: './Art/AnimationLoader/Animation.gif',
+    author: 'Pragya Sharma',
+    githubLink: 'https://github.com/pragya-sharma11'
+  },
+  {
+    pageLink: './Art/complementaryColors/index.html',
+    imageLink: './Art/complementaryColors/complementaryColors.gif',
+    author: 'Hilary',
+    githubLink: 'https://github.com/hwilson2563'
   }
 ];
+
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
@@ -5506,6 +5599,7 @@ function Shuffle(o) {
   );
   return o;
 }
+
 let cards = [
   //  Add your card in this section
   {
