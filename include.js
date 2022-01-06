@@ -5519,7 +5519,7 @@ let cards = [
   {
     artName: 'Funky Alien',
     pageLink: './Art/Funky Alien/index.html',
-    iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif.gif',
+    iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif',
     author: 'Jenique Knoesen',
     githubLink: 'https://github.com/jenique22'
   },
