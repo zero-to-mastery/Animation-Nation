@@ -5472,8 +5472,6 @@ let cards = [
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
   },
-
-  
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -5516,7 +5514,119 @@ let cards = [
     author: 'ChrisG',
     githubLink: 'https://github.com/chrisgithubok'
   },
-  {
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {
     artName: 'Funky Alien',
     pageLink: './Art/Funky Alien/index.html',
     iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif.gif',
