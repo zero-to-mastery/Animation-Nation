@@ -1,11 +1,5 @@
 let cards = [
-  {
-    artName: 'Funky Alien',
-    pageLink: './Art/Funky Alien/index.html',
-    iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif.gif',
-    author: 'Jenique Knoesen',
-    githubLink: 'https://github.com/jenique22'
-  },
+ 
   
   {
     artName: 'Stephan Animation',
@@ -5477,7 +5471,15 @@ let cards = [
     imageLink: './Art/black-hole-vortex/black-hole-vortex.gif',
     author: 'Bo-wei Chen',
     githubLink: 'https://github.com/Rayologist'
-  }
+  },
+
+  {
+    artName: 'Funky Alien',
+    pageLink: './Art/Funky Alien/index.html',
+    iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif.gif',
+    author: 'Jenique Knoesen',
+    githubLink: 'https://github.com/jenique22'
+  },
 ];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
