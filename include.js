@@ -5563,6 +5563,15 @@ let cards = [
     githubLink: 'https://github.com/hwilson2563'
   }
 ];
+[
+  //  Add your card in this section
+  {
+    pageLink: './Art/shyam/triangle/index.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'sishere23',
+    githubLink: 'https://github.com/sishere23'
+  }
+];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
