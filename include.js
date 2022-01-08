@@ -5561,6 +5561,13 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    artName: 'Circle Wave',
+    pageLink: './Art/chance0509/index.html',
+    imageLink: './Art/chance0509/animation.gif',
+    author: 'Chance',
+    githubLink: 'https://github.com/chance0509'
   }
 ];
 

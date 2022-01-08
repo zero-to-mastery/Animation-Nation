@@ -1,0 +1,138 @@
+/* establish animation space */
+html {
+  height: 100%;
+  background-image: linear-gradient(rgb(66, 66, 66), black, rgb(66, 66, 66));
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* ball size/shape */
+.ball0,
+.ball1,
+.ball2,
+.ball3,
+.ball4,
+.ball5,
+.ball6,
+.ball7,
+.ball8,
+.ball9,
+.ball10 {
+  flex: none;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* ball color */
+.ball0 {
+  background-color: rgb(0, 0, 139);
+}
+
+.ball1 {
+  background-color: rgb(0, 53, 139);
+}
+
+.ball2 {
+  background-color: rgb(0, 88, 139);
+}
+
+.ball3 {
+  background-color: rgb(0, 139, 139);
+}
+
+.ball4 {
+  background-color: rgb(0, 139, 88);
+}
+
+.ball5 {
+  background-color: rgb(0, 139, 53);
+}
+
+.ball6 {
+  background-color: rgb(0, 139, 0);
+}
+
+.ball7 {
+  background-color: rgb(139, 139, 0);
+}
+
+.ball8 {
+  background-color: rgb(139, 88, 0);
+}
+
+.ball9 {
+  background-color: rgb(139, 53, 0);
+}
+
+.ball10 {
+  background-color: rgb(139, 0, 0);
+}
+
+/* animation control */
+.anim0,
+.anim1,
+.anim2,
+.anim3,
+.anim4,
+.anim5,
+.anim6,
+.anim7,
+.anim8,
+.anim9,
+.anim10 {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: anim0;
+}
+
+/* animation delay */
+.anim1 {
+  animation-delay: 0.25s;
+}
+.anim2 {
+  animation-delay: 0.5s;
+}
+.anim3 {
+  animation-delay: 0.75s;
+}
+.anim4 {
+  animation-delay: 1s;
+}
+.anim5 {
+  animation-delay: 1.25s;
+}
+.anim6 {
+  animation-delay: 1.5s;
+}
+.anim7 {
+  animation-delay: 1.75s;
+}
+.anim8 {
+  animation-delay: 2s;
+}
+.anim9 {
+  animation-delay: 2.25s;
+}
+.anim10 {
+  animation-delay: 2.5s;
+}
+
+/* keyframe control */
+@keyframes anim0 {
+  25% {
+    transform: scale(0.5) translateY(400%);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.5) translateY(-400%);
+  }
+}
