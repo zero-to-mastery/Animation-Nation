@@ -5561,6 +5561,12 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    pageLink: './Art/typewriter/index.html',
+    imageLink: './Art/typewriter/typewriter.png',
+    author: 'Jan Tutakiewicz',
+    githubLink: 'https://github.com/xts7'
   }
 ];
 
