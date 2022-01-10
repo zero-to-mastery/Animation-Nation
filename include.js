@@ -298,6 +298,12 @@ let cards = [
     githubLink: 'https://github.com/KatrinaRose14'
   },
   {
+    pageLink: 'firstanimate',
+    imageLink: './Art/firstanimate/index.html',
+    author: 'shailesh',
+    githubLink: 'https://github.com/shailesh-95'
+  },
+  {
     artName: 'Flipbox',
     pageLink: './Art/Prasheel/index.html',
     imageLink: './Art/Prasheel/flip.gif',
