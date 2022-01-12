@@ -1,0 +1,99 @@
+/* ======================================================
+  IMPORTING  'POPPINS' FONT
+========================================================= */
+@import url("https://fonts.googleapis.com/css?familt=poppins:200,300,400,500,600,700,800,900&display=swap");
+
+/* ======================================================
+    *' ELEMENT
+========================================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+/* ======================================================
+    'BODY' ELEMENT
+========================================================= */
+body {
+  /* FLEX  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  background: #222;
+}
+
+/* ======================================================
+    'A' ELEMENT 
+========================================================= */
+a {
+  position: relative;
+
+  /* SIZE */
+  width: 180px;
+  height: 60px;
+}
+
+/* ======================================================
+    'SPAN' ELEMENT
+  (FOR. 'BUTTON 1' OF 'BLUE' COLOR)
+========================================================= */
+a span {
+  /* POSITION */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* SIZE */
+  width: 100%;
+  height: 100%;
+
+  color: white;
+  background-color: #4834d4;
+
+  text-align: center;
+  line-height: 60px;
+
+  /* UPPERCASE LETTERS */
+  text-transform: uppercase;
+
+  /* LETTERS SPACING */
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+
+/* ======================================================
+    PSEUDO-ELEMENT 'NTH-CHILD(2)'
+  (FOR 'BUTTON 2' OF'WHITE' COLOR)
+========================================================= */
+span:nth-child(2) {
+  background-color: white;
+  color: #4834d4;
+
+  /* 'SHAPE' CUTTING FROM 'RIGHT' */
+  clip-path: polygon(61% 0, 100% 0%, 100% 100%, 60% 100%, 40% 52%);
+
+  /* CHANGE DURATION */
+  transition: 0.5s;
+}
+
+/* ======================================================
+    HOVER - PSEUDO-ELEMENT 'NTH-CHILD(2)'
+(FOR 'FULL DISPLAY' OF 'BUTTON 2'- 'WHITE')
+========================================================= */
+span:nth-child(2):hover {
+  /* FULL IMAGE SHAPE */
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 0 53%);
+}
+
+/* ======================================================
+   HOVER - PSEUDO-ELEMENT 'NTH-CHILD(1)'
+(FOR 'FULL DISPLAY' OF 'BUTTON 1' - 'BLUE')
+========================================================= */
+span:nth-child(1):hover ~ span {
+  /* 'HIDDEN' IN 'RIGHT' - 'WHITE FORM' */
+  clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%, 100% 50%);
+}

@@ -5561,6 +5561,13 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    artName: 'Button Hover Effect with 2 Colors',
+    pageLink: './Art/Button_Hover_Effect__with_2_Colors/index.html',
+    imageLink: './Art/Button_Hover_Effect__with_2_Colors/button_hover_effect.gif',
+    author: 'Marius Chivu',
+    githubLink: 'https://github.com/chivumarius'
   }
 ];
 
