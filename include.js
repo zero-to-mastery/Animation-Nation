@@ -1,4 +1,11 @@
 let cards = [
+ {
+	artName: 'Goa - Beach',
+    pageLink: './Art/Shailesh/index.html',
+    imageLink: './Art/Shailesh/Goa - Beach.jpg',
+    author: 'Shailesh',
+    githubLink: 'https://github.com/shaileshkr7'
+  }
   {
     artName: 'Terminal effect',
     pageLink: './Art/DaywisonSilva/index.html',
