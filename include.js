@@ -5561,7 +5561,7 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
-  }
+  },
   {
     pageLink: './Art/joesayat/index.html',
     imageLink: './Art/complementaryColors/joe-animation.gif',
