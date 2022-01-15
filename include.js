@@ -5562,6 +5562,12 @@ let cards = [
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
   }
+  {
+    pageLink: './Art/joesayat/index.html',
+    imageLink: './Art/complementaryColors/joe-animation.gif',
+    author: 'Joe Sayat',
+    githubLink: 'https://github.com/joesayat'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
