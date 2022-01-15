@@ -5563,8 +5563,9 @@ let cards = [
     githubLink: 'https://github.com/hwilson2563'
   },
   {
+    artName: 'Rainbow Spinner',
     pageLink: './Art/joesayat/index.html',
-    imageLink: './Art/complementaryColors/joe-animation.gif',
+    imageLink: './Art/joesayat/joe-animation.gif',
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
   }
