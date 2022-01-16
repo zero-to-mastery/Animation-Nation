@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Gloomy Loading Ring',
+    pageLink: './Art/kevinsana/index.html',
+    imageLink: './Art/kevinsana/kevinsana.jpg',
+    author: 'Krownlesskev',
+    githubLink: 'https://github.com/krownlesskev'
+  },
+  {
     artName: 'Terminal effect',
     pageLink: './Art/DaywisonSilva/index.html',
     imageLink: './Art/DaywisonSilva/art.gif',
@@ -5561,6 +5568,12 @@ let cards = [
     imageLink: './Art/complementaryColors/complementaryColors.gif',
     author: 'Hilary',
     githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    pageLink: './Art/Mansvini/index.html',
+    imageLink: './Art/Mansvini/magic.gif',
+    author: 'Mansvini',
+    githubLink: 'https://github.com/Mansvini'
   },
   {
     artName: 'Rainbow Spinner',
