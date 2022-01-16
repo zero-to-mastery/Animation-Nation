@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: arial;
+}
+
+img {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 40px;
+}
