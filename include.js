@@ -5575,6 +5575,12 @@ let cards = [
     author: 'Mansvini',
     githubLink: 'https://github.com/Mansvini'
   }
+  {
+    pageLink: './Art/kunehenry/index.html',
+    imageLink: './Art/kunehenry/rickroll.gif',
+    author: 'Dat Nguyen',
+    githubLink: 'https://github.com/kunehenry'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
