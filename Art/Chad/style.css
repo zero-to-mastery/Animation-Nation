@@ -1,0 +1,14 @@
+div {
+	text-align: center;
+}
+
+h1 {
+	font-family: arial;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	background-color: #eee;
+	border-radius: 30px;
+}
