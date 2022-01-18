@@ -5574,6 +5574,13 @@ let cards = [
     imageLink: './Art/Mansvini/magic.gif',
     author: 'Mansvini',
     githubLink: 'https://github.com/Mansvini'
+  },
+  {
+    artName: 'Gear Rotating',
+    pageLink: './Art/gear/index.html',
+    imageLink: './Art/gear/gear.gif',
+    author: 'ColonelBucket8',
+    githubLink: 'https://github.com/ColonelBucket8'
   }
 ];
 

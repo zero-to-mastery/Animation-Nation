@@ -1,0 +1,33 @@
+.gear-container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: black; */
+}
+
+.gear-body {
+  width: 100vw;
+  height: 100vh;
+  /* <a href="https://www.freeiconspng.com/img/34316">Gear Icon Drawing</a> */
+  background: url(gear-icon-34316.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-animation: spin 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes spin {
+  20% {
+    -webkit-transform: rotate(-180deg);
+  }
+
+  30% {
+    -webkit-transform: rotate(-50deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(-90deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
