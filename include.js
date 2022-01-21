@@ -5574,6 +5574,12 @@ let cards = [
     imageLink: './Art/Mansvini/magic.gif',
     author: 'Mansvini',
     githubLink: 'https://github.com/Mansvini'
+  },
+  {
+    pageLink: './Art/movingBoxes/index.html',
+    imageLink: './Art/movingBoxes/movingBoxes.gif',
+    author: 'Luka',
+    githubLink: 'https://github.com/lux-v'
   }
 ];
 

@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.stupac1{
+
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: red;
+    animation-name: ani1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    position:relative;
+
+    margin:50px;
+}
+.stupac2{
+
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: blue;
+    animation-name: ani2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position:relative;
+    margin:50px;
+}
+.stupac3{
+
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: green;
+    animation-name: ani3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position:relative;
+    margin:50px;
+}
+
+
+@keyframes ani1 {
+    0%   {background-color:red; left:0px; top:0px;}
+    10%  {background-color:yellow; left:200px; top:0px;}
+    20%  {background-color:blue; left:200px; top:200px;}
+    30%  {background-color:green; left:0px; top:200px;}
+    40% {background-color:red; left:0px; top:0px;}
+
+    50%   {background-color:red; left:0px; top:0px;}
+    60%  {background-color:yellow; left:-200px; top:0px;}
+    70%  {background-color:blue; left:-200px; top:-200px;}
+    80%  {background-color:green; left:0px; top:-200px;}
+    90% {background-color:red; left:0px; top:0px;}
+}
+
+
+@keyframes ani2 {
+    0%   {background-color:blue; left:0px; top:0px;}
+    10%  {background-color:yellow; right:200px; bottom:0px;}
+    20%  {background-color:red; right:200px; bottom:200px;}
+    30%  {background-color:green; right:0px; bottom:200px;}
+    40% {background-color:blue; left:0px; top:0px;}
+
+    50%   {background-color:blue; left:0px; top:0px;}
+    60%  {background-color:yellow; right:-200px; bottom:0px;}
+    70%  {background-color:red; right:-200px; bottom:-200px;}
+    80%  {background-color:green; right:0px; bottom:-200px;}
+    90% {background-color:blue; left:0px; top:0px;}
+}
+
+@keyframes ani3 {
+    0%   {background-color:green; right:0px; bottom:0px;}
+    10%  {background-color:yellow; right:200px; bottom:0px;}
+    20%  {background-color:red; right:200px; bottom:200px;}
+    30%  {background-color:blue; right:0px; bottom:200px;}
+    40% {background-color:green; right:0px; bottom:0px;}
+    50%   {background-color:green; right:0px; bottom:0px;}
+    60%  {background-color:yellow; right:-200px; bottom:0px;}
+    70%  {background-color:red; right:-200px; bottom:-200px;}
+    80%  {background-color:blue; right:0px; bottom:-200px;}
+    90% {background-color:green; right:0px; bottom:0px;}
+}
+
