@@ -16,33 +16,33 @@ body {
   width: 400px;
   height: 400px;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, .3);
+  background-color: rgba(255, 255, 255, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
   animation: rotate 5s linear infinite 1s;
-  box-shadow: 0px 0px 9px 3px rgba(255, 255, 255, .3)
+  box-shadow: 0px 0px 9px 3px rgba(255, 255, 255, 0.3);
 }
 
 .big-square {
   width: 300px;
   height: 300px;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, .6);
+  background-color: rgba(255, 255, 255, 0.6);
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: rotate 5s linear infinite .5s;
-  box-shadow: 0px 0px 9px 3px rgba(255, 255, 255, .6)
+  animation: rotate 5s linear infinite 0.5s;
+  box-shadow: 0px 0px 9px 3px rgba(255, 255, 255, 0.6);
 }
 
 .square {
   width: 200px;
   height: 200px;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   animation: rotate 5s linear infinite;
-  box-shadow: 0px 0px 9px 3px rgba(255, 255, 255, .9)
+  box-shadow: 0px 0px 9px 3px rgba(255, 255, 255, 0.9);
 }
 
 @keyframes rotate {
