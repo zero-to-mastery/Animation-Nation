@@ -5574,6 +5574,13 @@ let cards = [
     imageLink: './Art/Mansvini/magic.gif',
     author: 'Mansvini',
     githubLink: 'https://github.com/Mansvini'
+  },
+  {
+    artName: 'Rainbow Spinner',
+    pageLink: './Art/joesayat/index.html',
+    imageLink: './Art/joesayat/joe-animation.gif',
+    author: 'Joe Sayat',
+    githubLink: 'https://github.com/joesayat'
   }
 ];
 
