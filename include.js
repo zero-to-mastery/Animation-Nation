@@ -1,6 +1,4 @@
 let cards = [
- 
-  
   {
     artName: 'Gloomy Loading Ring',
     pageLink: './Art/kevinsana/index.html',
@@ -5629,5 +5627,5 @@ let cards = [
     iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif',
     author: 'Jenique Knoesen',
     githubLink: 'https://github.com/jenique22'
-  },
+  }
 ];
