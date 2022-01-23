@@ -5576,6 +5576,13 @@ let cards = [
     githubLink: 'https://github.com/Mansvini'
   },
   {
+    artName: 'Rainbow Spinner',
+    pageLink: './Art/joesayat/index.html',
+    imageLink: './Art/joesayat/joe-animation.gif',
+    author: 'Joe Sayat',
+    githubLink: 'https://github.com/joesayat'
+  },
+  {
     artName: 'Gear Rotating',
     pageLink: './Art/gear/index.html',
     imageLink: './Art/gear/gear.gif',
