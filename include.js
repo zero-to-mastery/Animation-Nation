@@ -5594,6 +5594,13 @@ let cards = [
     imageLink: './Art/joesayat/joe-animation.gif',
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
+  },
+  {
+    artName: 'Paint Ball',
+    pageLink: './Art/SumitsArt/index.html',
+    imageLink: './Art/SumitsArt/paintball.gif',
+    author: 'Sumit Vadhera',
+    githubLink: 'https://github.com/sumitvadhera01'
   }
 ];
 
@@ -5630,22 +5637,3 @@ function Shuffle(o) {
   );
   return o;
 }
-
-let cards = [
-  //  Add your card in this section
-  {
-    pageLink: './Art/chrisg/index.html',
-    imageLink: './Art/chrisg/redwhiteblue.gif',
-    author: 'ChrisG',
-    githubLink: 'https://github.com/chrisgithubok'
-  }
-];
-let cards = [
-  {
-    artName: 'Funky Alien',
-    pageLink: './Art/Funky Alien/index.html',
-    iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif',
-    author: 'Jenique Knoesen',
-    githubLink: 'https://github.com/jenique22'
-  }
-];

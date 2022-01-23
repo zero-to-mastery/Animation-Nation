@@ -1,0 +1,90 @@
+.paint {
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    background-color: rgba(51, 46, 143, 0.351);
+    animation-name: stretch;
+    animation-duration: 2.5s; 
+    animation-timing-function:cubic-bezier(0.755, 0.05, 0.855, 0.06); 
+    animation-delay: 0.2s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset;
+    animation-play-state: running;
+  }
+  
+  @keyframes stretch {
+    0% {
+      transform: scale(.4);
+      background-color: rgb(197, 32, 123);
+      border-radius: 100%;
+    }
+    60% {
+      background-color: orange;
+    }
+    100% {
+      transform: scale(1.5);
+      background-color: rgb(5, 92, 30);
+    }
+  }
+  
+  body,
+  html {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .innerElement {
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    animation: 
+      pulse 2.5s ease infinite alternate, 
+      nudge 5s linear infinite alternate;
+    animation-delay: 0.2s;
+    border-radius: 100%;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      background-color: red;
+    }
+    50% {
+      background-color: orange;
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(150px, 0);
+    }
+    
+    80% {
+      transform: translate(-150px, 0);
+    }
+  }
+  
+  .bodyOuter {
+    width: 100%;
+    height: 100%;
+    animation: pulsation 5s infinite;
+  }
+  
+  @keyframes pulsation {
+    0% {
+      background-color: #001F3F;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  }
+  
