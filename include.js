@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Goa - Beach',
+    pageLink: './Art/Shailesh/index.html',
+    imageLink: './Art/Shailesh/Goa - Beach.jpg',
+    author: 'Shailesh',
+    githubLink: 'https://github.com/shaileshkr7'
+  },
+  {
     artName: 'Gloomy Loading Ring',
     pageLink: './Art/kevinsana/index.html',
     imageLink: './Art/kevinsana/kevinsana.jpg',
@@ -303,6 +310,12 @@ let cards = [
     imageLink: './Art/KatrinaRose14/FlashingPumpkin.gif',
     author: 'Katrina Yates',
     githubLink: 'https://github.com/KatrinaRose14'
+  },
+  {
+    pageLink: 'firstanimate',
+    imageLink: './Art/firstanimate/index.html',
+    author: 'shailesh',
+    githubLink: 'https://github.com/shailesh-95'
   },
   {
     artName: 'Flipbox',
@@ -5624,3 +5637,22 @@ function Shuffle(o) {
   );
   return o;
 }
+
+let cards = [
+  //  Add your card in this section
+  {
+    pageLink: './Art/chrisg/index.html',
+    imageLink: './Art/chrisg/redwhiteblue.gif',
+    author: 'ChrisG',
+    githubLink: 'https://github.com/chrisgithubok'
+  }
+];
+let cards = [
+  {
+    artName: 'Funky Alien',
+    pageLink: './Art/Funky Alien/index.html',
+    iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif',
+    author: 'Jenique Knoesen',
+    githubLink: 'https://github.com/jenique22'
+  }
+];

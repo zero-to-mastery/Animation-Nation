@@ -1,0 +1,4 @@
+img {
+  position: relative;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
