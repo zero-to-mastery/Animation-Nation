@@ -5649,3 +5649,14 @@ let cards = [
     githubLink: 'https://github.com/jenique22'
   }
 ];
+
+let cards = [
+  //  Add your card in this section
+  {
+    artName: "moving-sticks",
+    pageLink: './Art/moving-sticks/index.html',
+    imageLink: './Art/moving-sticks/moving.gif',
+    author: 'Haim',
+    githubLink: 'https://github.com/HaimHamiel'
+  }
+];

@@ -1,0 +1,28 @@
+div {
+  width: 20px;
+  height: 150px;
+  background-color: blue;
+  position: relative;
+  animation: test 5s linear 2s infinite alternate;
+}
+h1 {
+  width: 150px;
+  height: 20px;
+  background-color: red;
+  position: relative;
+  animation: test2 5s ease 2s infinite alternate;
+}
+@keyframes test {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:green; left:250px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:blue; left:10px; top:0px;}
+}
+@keyframes test2 {
+  0%   {background-color:red; left:50px; top:20px;}
+  25%  {background-color:yellow; left:100px; top:0px;}
+  50%  {background-color:blue; left:150px; top:100px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:10px; top:0px;}
+}
