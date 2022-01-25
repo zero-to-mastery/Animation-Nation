@@ -5,7 +5,7 @@ let cards = [
     imageLink: './Art/Shailesh/Goa - Beach.jpg',
     author: 'Shailesh',
     githubLink: 'https://github.com/shaileshkr7'
-  }
+  },
   {
     artName: 'Gloomy Loading Ring',
     pageLink: './Art/kevinsana/index.html',
@@ -5597,9 +5597,9 @@ let cards = [
   },
   {
     pageLink: './Art/butalidn/art.html',
-    imageLink: './Art/butalidn/spinning_ball.gif',
-    author: 'Nik B',
-    githubLink: 'https://github.com/butalidn'
+    imageLink: './Art/',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger'
   }
 ];
 
