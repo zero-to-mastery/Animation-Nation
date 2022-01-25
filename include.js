@@ -5594,6 +5594,13 @@ let cards = [
     imageLink: './Art/joesayat/joe-animation.gif',
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
+  },
+  {
+    artName: "Toaster Animation",
+    pageLink: './Art/Amberitas/index.html',
+    imageLink: './Art/Amberitas/toast giphy.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/amberitas17'
   }
 ];
 
