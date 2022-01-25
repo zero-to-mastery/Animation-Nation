@@ -1,0 +1,19 @@
+.center {
+  display: grid;
+  justify-content: center;  
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:orange; left:250px; top:0px;}
+  50%  {background-color:#E60965; left:250px; top:250px;}
+  75%  {background-color:green; left:0px; top:250px;}
+  100% {background-color:red; left:0px; top:0px;}
+}

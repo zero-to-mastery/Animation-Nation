@@ -5594,6 +5594,13 @@ let cards = [
     imageLink: './Art/joesayat/joe-animation.gif',
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
+  },
+  {
+    artName: 'Animation Cube',
+    pageLink: './Art/animationcube-venkatguna/index.html',
+    imageLink: './Art/animationcube-venkatguna/anicube.gif',
+    author: 'Venkatesh Gunasekaran',
+    githubLink: 'https://github.com/venkatguna'
   }
 ];
 
