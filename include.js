@@ -5597,9 +5597,9 @@ let cards = [
   },
   {
     pageLink: './Art/butalidn/art.html',
-    imageLink: './Art/',
-    author: 'Joy',
-    githubLink: 'https://github.com/royranger'
+    imageLink: './Art/butalidn/spinning_ball.gif',
+    author: 'Nik B',
+    githubLink: 'https://github.com/butalidn'
   }
 ];
 
