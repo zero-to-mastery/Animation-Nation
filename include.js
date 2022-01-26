@@ -5595,6 +5595,13 @@ let cards = [
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
   }
+  {
+    artName: 'Victor-Anime',
+    pageLink: './Art/Victor-Anime/index.html',
+    imageLink: './Art/Victor-Anime/Untitled.gif',
+    author: 'Victorx09',
+    githubLink: 'https://github.com/victorx09'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
