@@ -5595,6 +5595,13 @@ let cards = [
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
   }
+  {
+    artName: 'HsH Animation',
+    pageLink: './Art/hsh animation/index.html',
+    imageLink: './Art/hsh animation/hsh.gif',
+    author: 'Hessam HsH',
+    githubLink: 'https://github.com/hsh988'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
