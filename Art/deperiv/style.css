@@ -1,0 +1,60 @@
+body {
+	height: 100vh;
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	background-color: black;
+}
+
+.square {
+	border: 1px solid white;
+	animation-name: rotationEasy;
+	transition-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+
+}
+
+.square1 {
+	width: 100px;
+	height: 100px;
+	background-color: darkblue;
+	transform-origin: 300px;
+	animation-duration: 8s;
+}
+
+.square2 {
+	width: 80px;
+	height: 80px;
+	background-color: darkred;
+	transform-origin: 200px;
+	animation-duration: 7.9s;
+}
+
+.square3 {
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	transform-origin: 120px;
+	animation-duration: 7.8s;
+}
+
+.square4 {
+	width: 30px;
+	height: 30px;
+	background-color: yellow;
+	transform-origin: 70px;
+	animation-duration: 7.7s;
+}
+
+.square5 {
+	width: 20px;
+	height: 20px;
+	background-color: orange;
+	transform-origin: 40px;
+	animation-duration: 7.6s;
+}
+
+@keyframes rotationEasy {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}

@@ -5594,7 +5594,14 @@ let cards = [
     imageLink: './Art/joesayat/joe-animation.gif',
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
-  }
+  },
+  {
+    artName: 'Squares moving around',
+    pageLink: './Art/deperiv/index.html',
+    imageLink: './Art/deperiv/animaton.gif',
+    author: 'Deperiv',
+    githubLink: 'https://github.com/deperiv'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
