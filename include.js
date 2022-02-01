@@ -5589,6 +5589,13 @@ let cards = [
     githubLink: 'https://github.com/Mansvini'
   },
   {
+    artName: "CoolStore",
+    pageLink: './Art/store-anime/index.html',
+    imageLink: './Art/store-anime/store.gif',
+    author: 'Diegoes7',
+    githubLink: 'https://github.com/Diegoes7'
+  },
+  {
     artName: 'Rainbow Spinner',
     pageLink: './Art/joesayat/index.html',
     imageLink: './Art/joesayat/joe-animation.gif',
