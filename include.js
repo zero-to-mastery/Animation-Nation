@@ -5649,3 +5649,13 @@ let cards = [
     githubLink: 'https://github.com/jenique22'
   }
 ];
+
+let cards = [
+  {
+    artName: "Sayed's Pikachu",
+    pageLink: "./Art/Sayed's Pikachu/index.html",
+    iamgeLink: "./Art/Sayed's Pikachu/Domcake-Dancing-Alien.gif",
+    author: 'Sayed-Husain',
+    githubLink: 'https://github.com/Sayed-Husain'
+  }
+];
