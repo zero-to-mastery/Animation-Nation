@@ -1,0 +1,52 @@
+body {
+    background: #000000; 
+    margin: 0;
+  padding: 0;
+}
+.txt {
+    color: #ffffff;
+    background:#000000;
+    font-size:200px;
+    font-weight: bold;
+    font-family: Arial;
+    text-transform: uppercase;
+}
+.txt::before {
+    content: 'speed';
+    position: absolute;
+    mix-blend-mode: difference;
+    filter: blur(4px);
+}
+.neon-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:inline-flex;
+    filter: brightness(300%);
+    overflow: hidden;
+}
+.gradient{
+    background: linear-gradient(114.5793141156962deg, rgb(231, 16, 195) 4.927083333333334%,rgba(229, 151, 64,1) 97.84374999999999%);
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:100%;
+    mix-blend-mode: multiply;
+}
+.dodge {
+    background: radial-gradient(circle,rgb(250, 23, 7),black 35%) center / 25% 25%;
+    position: absolute;
+    top:-100%;
+    left:-100%;
+    right:0;
+    bottom:0;
+    mix-blend-mode: color-dodge;
+    animation: dodge-area 10s linear infinite;
+}
+@keyframes dodge-area {
+    to {
+        transform: translate(50%,50%);
+    }
+}

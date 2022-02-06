@@ -5648,4 +5648,20 @@ let cards = [
     author: 'Jenique Knoesen',
     githubLink: 'https://github.com/jenique22'
   }
+
+  
+  
 ];
+let cards = [
+  {
+    artName: "Lavanya",
+    pageLink: './Art/Lavanya/1.html',
+    imageLink: './Art/Lavanya/text.mp4',
+    author: 'Lavanya',
+    githubLink: 'https://github.com/la-vanyaa'
+  }
+];
+
+
+
+
