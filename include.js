@@ -5648,4 +5648,15 @@ let cards = [
     author: 'Jenique Knoesen',
     githubLink: 'https://github.com/jenique22'
   }
+
+
+  let cards = [
+
+  {
+    pageLink: './Art/RacingCarAnimation',
+    imageLink: './Art/RacingCarAnimation/car-removebg-preview.png',
+    author: 'Arijit',
+    githubLink: 'https://github.com/Arijit10x'
+  }
+
 ];
