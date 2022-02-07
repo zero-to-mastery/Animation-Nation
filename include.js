@@ -5596,7 +5596,7 @@ let cards = [
     githubLink: 'https://github.com/joesayat'
   },
   {
-    artName: "Rolling box"
+    artName: "Rolling box",
     pageLink: './Art/boxAnimation/index.html',
     imageLink: './Art/boxAnimation/rollingBox.gif',
     author: 'CherryPyy',
