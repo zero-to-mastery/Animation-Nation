@@ -5594,7 +5594,17 @@ let cards = [
     imageLink: './Art/joesayat/joe-animation.gif',
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
+  },
+  
+  {
+      artName: 'Chilledoutluke'
+      pageLink: './Art/Chilledoutluke/triangle/index.html',
+      imageLink: './Art/Chilledoutluke/parcel.gif',
+      author: 'Luke',
+      githubLink: 'https://github.com/chilledoutluke'
   }
+  ];
+
 ];
 
 // +--------------------------------------------------------------------------------+
