@@ -5648,4 +5648,12 @@ let cards = [
     author: 'Jenique Knoesen',
     githubLink: 'https://github.com/jenique22'
   }
+
+  {
+    artName: 'kostek',
+    pageLink: './Art/kostek/triangle/triangle.html',
+    imageLink: './Art/kostek/triangle/triangle.gif',
+    author: 'kostek',
+    githubLink: 'https://github.com/KonstantynRomanowski'
+  }
 ];
