@@ -5594,8 +5594,16 @@ let cards = [
     imageLink: './Art/joesayat/joe-animation.gif',
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
+  },
+  {
+    pageLink: './Art/Joy/Anisreemation/W3animation.html',
+    imageLink: './Art/Joy/Anisreemation/duck.gif',
+    author: 'SreemaanKCKS',
+    githubLink: 'https://github.com/SreemaanKCKS'
   }
 ];
+
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
