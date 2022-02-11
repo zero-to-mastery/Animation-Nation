@@ -5594,6 +5594,13 @@ let cards = [
     imageLink: './Art/joesayat/joe-animation.gif',
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
+  },
+  {
+    artName: "Random"
+    pageLink: './Art/animation/index.html',
+    imageLink: './Art/animation/random.gif',
+    author: 'DTPsykko',
+    githubLink: 'https://github.com/DTPsykko'
   }
 ];
 
