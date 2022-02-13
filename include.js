@@ -5649,3 +5649,13 @@ let cards = [
     githubLink: 'https://github.com/jenique22'
   }
 ];
+let cards = [
+  //  Add your card in this section
+  {
+    artName: 'B-ball-Bounce'
+    pageLink: './Art/B-ball-Bounce/index.html',
+    imageLink: './Art/B-ball-Bounce/basketball1.gif',
+    author: 'DannyC',
+    githubLink: 'https://github.com/dannylc24'
+  }
+];

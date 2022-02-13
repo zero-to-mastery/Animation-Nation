@@ -1,0 +1,45 @@
+.parent {
+	background-image: url("basketball-court.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+	width: 800px;
+}
+
+.child {
+	background-image: url(basketball.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 150px;
+	width: 150px;
+    animation: left-to-right 1500ms cubic-bezier(0, 1.51, 1, 1.38) forwards
+	infinite alternate;
+}
+
+@keyframes left-to-right {
+	0% {
+		transform: translateY(0%);
+	}
+
+	20% {
+		transform: translateY(225%);
+	}
+
+	40% {
+		transform: translateX(100%) translateY(200%);
+	}
+
+	60% {
+		transform: translateX(200%) translateY(275%);
+	}
+
+	80% {
+		transform: translateX(300%) translateY(200%);
+	}
+
+	100% {
+		transform: translateX(400%) translateY(275%);
+	}
+}
