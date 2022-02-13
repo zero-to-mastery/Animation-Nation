@@ -1,11 +1,11 @@
 let cards = [
- {
-	artName: 'Goa - Beach',
+  {
+    artName: 'Goa - Beach',
     pageLink: './Art/Shailesh/index.html',
     imageLink: './Art/Shailesh/Goa - Beach.jpg',
     author: 'Shailesh',
     githubLink: 'https://github.com/shaileshkr7'
-  }
+  },
   {
     artName: 'Gloomy Loading Ring',
     pageLink: './Art/kevinsana/index.html',
@@ -5594,6 +5594,13 @@ let cards = [
     imageLink: './Art/joesayat/joe-animation.gif',
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
+  },
+  {
+    artName: 'Dracula Colors',
+    pageLink: './Art/cspencernd/index.html',
+    imageLink: './Art/cspencernd/dracula-colors.gif',
+    author: 'Christopher Spencer',
+    githubLink: 'https://github.com/cspencernd'
   }
 ];
 
