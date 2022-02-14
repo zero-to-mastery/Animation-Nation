@@ -5595,6 +5595,14 @@ let cards = [
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
   }
+
+  {
+    artName: "Animatron",
+    pageLink: './Art/animatron/index.html',
+    imageLink: './Art/animatron/trance.gif',
+    author: 'Olalekan100',
+    githubLink: 'https://github.com/adejohnson' 
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
