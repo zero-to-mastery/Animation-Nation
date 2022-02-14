@@ -5594,6 +5594,13 @@ let cards = [
     imageLink: './Art/joesayat/joe-animation.gif',
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
+  },
+  {
+    artName: 'Animatron',
+    pageLink: './Art/animatron/index.html',
+    imageLink: './Art/animatron/trance.gif',
+    author: 'Billy',
+    githubLink: 'https://github.com/satoshimasterbilly/Animation-Nation'
   }
 ];
 
