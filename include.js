@@ -5594,6 +5594,13 @@ let cards = [
     imageLink: './Art/joesayat/joe-animation.gif',
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
+  },
+  {
+    artName: 'Simple Square',
+    pageLink: './Art/pirst1/index.html',
+    imageLink: './Art/pirst1/animation.gif',
+    author: 'Kim Dongwan',
+    githubLink: 'https://github.com/pirst1'
   }
 ];
 

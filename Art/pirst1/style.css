@@ -1,0 +1,49 @@
+body {
+  height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.animator {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(to right, #33f1ff, #ff47f9);
+  margin: 20px 10px 20px 10px;
+}
+
+@keyframes fadeInOut1 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animator1 {
+  animation: fadeInOut1 2.1s infinite;
+}
+.animator2 {
+  animation: fadeInOut1 2.1s 0.3s infinite;
+}
+.animator3 {
+  animation: fadeInOut1 2.1s 0.6s infinite;
+}
+.animator4 {
+  animation: fadeInOut1 2.1s 0.9s infinite;
+}
+.animator5 {
+  animation: fadeInOut1 2.1s 1.2s infinite;
+}
+.animator6 {
+  animation: fadeInOut1 2.1s 1.5s infinite;
+}
+.animator7 {
+  animation: fadeInOut1 2.1s 1.8s infinite;
+}
