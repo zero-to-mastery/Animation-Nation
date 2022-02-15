@@ -1,0 +1,63 @@
+#box {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    display: flex;
+    width: 7rem;
+    height: 7rem;
+    background: rgb(61, 61, 61);
+    transform: rotate(45deg);
+    animation: loop 1.5s ease forwards infinite;
+    overflow: hidden;
+}
+
+#circle {
+    position: absolute;
+    margin-top: 2.25rem;
+    margin-left: 2.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: rgb(0, 174, 255);
+    border-radius: 50%;
+}
+
+#smallcircle, #smallcircle2 {
+    background: rgb(0, 225, 255);
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+#smallcircle {
+    border-radius: 100% 0 0 0;
+}
+
+#smallcircle2 {
+    margin-left: 1.25rem;
+    border-radius: 0 0 100% 0;
+}
+
+#black, #black2 {
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: rgb(31, 31, 31);
+}
+
+#black2 {
+    margin-top: 3.5rem;
+    margin-left: 3.5rem;
+}
+
+@keyframes loop {
+    0% {
+        transform: scale(1) rotate(45deg);
+    }
+    50% {
+        transform: scale(1.35) rotate(225deg);
+        border-radius: 50%;
+    }
+    100% {
+        transform: scale(1) rotate(405deg);
+        border-radius: 0 0 0 0;
+    }
+}
