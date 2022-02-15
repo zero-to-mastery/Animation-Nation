@@ -5601,6 +5601,13 @@ let cards = [
     iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif',
     author: 'Jenique Knoesen',
     githubLink: 'https://github.com/jenique22'
+  },
+  {
+    artName: 'Robot_Ani',
+    pageLink: './Art/Robot_Ani/index.html',
+    imageLink: './Art/Robot_Ani/Ani.gif',
+    author: 'Vivek Verma',
+    githubLink: 'https://github.com/mr-vivek-verma'
   }
 ];
 
