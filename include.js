@@ -5595,6 +5595,13 @@ let cards = [
     author: 'Joe Sayat',
     githubLink: 'https://github.com/joesayat'
   }
+  {
+    artName: "Animanowch"
+    pageLink: './Art/SamLasky/index.html',
+    imageLink: './Art/SamLasky/Animanowch.gif',
+    author: 'Sam Lasky',
+    githubLink: 'https://github.com/SamLasky'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+

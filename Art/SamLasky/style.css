@@ -1,0 +1,61 @@
+.container {
+	display:  flex;
+	flex-wrap:  wrap;
+	justify-content: left;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	color: Orange;
+}
+
+img {
+	width: 150px;
+	animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#pot {
+   bottom:50%;
+   position:absolute;
+   -webkit-animation:linear infinite;
+   -webkit-animation-name:run;
+   -webkit-animation-duration:8s;
+}
+
+@-webkit-keyframes run  {
+   0% {
+      left:0;
+      -webkit-transform:rotateY(0deg);
+   }
+   
+   50% {
+      left:82%;
+      -webkit-transform:rotateY(0deg);
+   }
+   
+   51% {
+      -webkit-transform:rotateY(180deg);
+   }
+   
+   99% {
+      left:0;
+      -webkit-transform:rotateY(180deg);
+   }
+   
+   100% {
+      left:0;
+      -webkit-transform:rotateY(0deg);
+   }
+
+}
