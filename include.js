@@ -5596,6 +5596,13 @@ let cards = [
     githubLink: 'https://github.com/joesayat'
   },
   {
+    artName: "Random"
+    pageLink: './Art/animation/index.html',
+    imageLink: './Art/animation/random.gif',
+    author: 'DTPsykko',
+    githubLink: 'https://github.com/DTPsykko'
+  },
+  {
     artName: 'Funky Alien',
     pageLink: './Art/Funky Alien/index.html',
     iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif',
