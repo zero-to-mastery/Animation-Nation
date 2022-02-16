@@ -5596,12 +5596,26 @@ let cards = [
     githubLink: 'https://github.com/joesayat'
   },
   {
+    artName: "Random"
+    pageLink: './Art/animation/index.html',
+    imageLink: './Art/animation/random.gif',
+    author: 'DTPsykko',
+    githubLink: 'https://github.com/DTPsykko'
+  },
+  {
+    artName: 'Funky Alien',
+    pageLink: './Art/Funky Alien/index.html',
+    iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif',
+    author: 'Jenique Knoesen',
+    githubLink: 'https://github.com/jenique22'
+  },
+  {
     artName: 'Dracula Colors',
     pageLink: './Art/cspencernd/index.html',
     imageLink: './Art/cspencernd/dracula-colors.gif',
     author: 'Christopher Spencer',
     githubLink: 'https://github.com/cspencernd'
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -5637,22 +5651,3 @@ function Shuffle(o) {
   );
   return o;
 }
-
-let cards = [
-  //  Add your card in this section
-  {
-    pageLink: './Art/chrisg/index.html',
-    imageLink: './Art/chrisg/redwhiteblue.gif',
-    author: 'ChrisG',
-    githubLink: 'https://github.com/chrisgithubok'
-  }
-];
-let cards = [
-  {
-    artName: 'Funky Alien',
-    pageLink: './Art/Funky Alien/index.html',
-    iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif',
-    author: 'Jenique Knoesen',
-    githubLink: 'https://github.com/jenique22'
-  }
-];

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+.text {	
+	text-align: center;
+	font:  'Raleway', sans-serif;
+	color:  rgba(0,0,0,.5);
+	text-transform: uppercase;
+	letter-spacing: .5em;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+
+}
+
+div#one {
+	height: 100vh;
+	width: 33vw;
+	background-color: rgb(11,124,199,0.5);
+	animation: cycle 5s linear infinite, slideupdown 4s linear 4s infinite alternate;
+}
+
+div#two {
+	height: 100vh;
+	width: 33vw;
+	background-color: rgb(11,124,199,0.5);
+	animation: cycle 10s linear infinite, slideleftright 4s linear 4s infinite alternate;
+}
+
+div#three {
+	height: 100vh;
+	width: 33vw;
+	background-color: rgb(11,124,199,0.5);
+	animation: cycle 15s linear infinite, slideboth 2s linear 2s infinite alternate;
+}
+
+
+@keyframes cycle {
+	0% {background-color: rgb(11,124,199,0.5);}
+	20% {background-color: rgb(168,11,199,0.5);}
+	40% {background-color: rgb(11,199,96,0.5);}
+	60% {background-color: rgb(199,11,11,0.5);}
+	80% {background-color: rgb(199,96,11,0.5);}
+}
+
+@keyframes slideupdown {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes slideleftright {
+	from {
+		transform:  scaleX(0);
+	}
+	to {
+		transform:  scaleX(1);
+	}
+}
+
+@keyframes slideboth {
+	from {
+		transform:  scale(0) rotate(0deg);
+	} to {
+		transform:  scale(1) rotate(359deg);
+	}
+}
