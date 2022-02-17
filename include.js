@@ -5603,12 +5603,20 @@ let cards = [
     githubLink: 'https://github.com/jenique22'
   },
   {
-  artName: 'Rainbowtron'
+    artName: 'Rainbowtron'
     pageLink: './Art/rainbowtron/index.html',
     imageLink: './Art/rainbowtron/trance.jpeg',
     author: 'Satoshimasterbilly',
     githubLink: 'https://github.com/satoshimasterbilly'
+  },
+  {
+    artName:  'Circletron'
+    pageLink: './Art/circletron/index.html',
+    imageLink: './Art/circletron/trance.gif',
+    author: 'Satoshimasterbilly',
+    githubLink: 'https://github.com/satoshimasterbilly'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
