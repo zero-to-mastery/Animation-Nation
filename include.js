@@ -5608,6 +5608,13 @@ let cards = [
     iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif',
     author: 'Jenique Knoesen',
     githubLink: 'https://github.com/jenique22'
+  },
+  {
+    artName: 'Wigglers',
+    pageLink: './Art/kv/wiggle.html',
+    imageLink: './Art/kv/wiggle.gif',
+    author: 'khaivern',
+    githubLink: 'https://github.com/khaivern'
   }
 ];
 
