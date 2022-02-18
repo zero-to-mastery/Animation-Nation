@@ -5596,7 +5596,7 @@ let cards = [
     githubLink: 'https://github.com/joesayat'
   },
   {
-    artName: "Random"
+    artName: "Random",
     pageLink: './Art/animation/index.html',
     imageLink: './Art/animation/random.gif',
     author: 'DTPsykko',
