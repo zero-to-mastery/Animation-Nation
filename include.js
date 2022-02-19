@@ -5614,6 +5614,13 @@ let cards = [
     imageLink: './Art/GabrielArt/ZTM.jpg',
     author: 'GabrielAvramescu',
     githubLink: 'https://github.com/GabrielAvramescu'
+  },
+  {
+    artName: 'Round360',
+    pageLink: './Art/MHShayek/index.html',
+    imageLink: './Art/MHShayek/round360.gif',
+    author: 'MHShayek',
+    githubLink: 'https://github.com/MHShayek'
   }
 ];
 
