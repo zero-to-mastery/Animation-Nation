@@ -5614,7 +5614,14 @@ let cards = [
     imageLink: './Art/GabrielArt/ZTM.jpg',
     author: 'GabrielAvramescu',
     githubLink: 'https://github.com/GabrielAvramescu'
-  }
+  },
+  {
+    artName: 'Pong',
+    pageLink: './Art/danielalanholmes/index.html',
+    imageLink: './Art/danielalanholmes/index.gif',
+    author: 'Daniel Holmes',
+    githubLink: 'https://github.com/danielalanholmes'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
