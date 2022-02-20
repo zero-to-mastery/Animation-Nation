@@ -5616,6 +5616,13 @@ let cards = [
     githubLink: 'https://github.com/GabrielAvramescu'
   },
   {
+    artName: 'Wigglers',
+    pageLink: './Art/kv/wiggle.html',
+    imageLink: './Art/kv/wiggle.gif',
+    author: 'khaivern',
+    githubLink: 'https://github.com/khaivern'
+  },
+  {
     artName: 'Round360',
     pageLink: './Art/MHShayek/index.html',
     imageLink: './Art/MHShayek/round360.gif',
