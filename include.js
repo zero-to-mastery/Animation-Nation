@@ -5596,7 +5596,7 @@ let cards = [
     githubLink: 'https://github.com/joesayat'
   },
   {
-    artName: "Random"
+    artName: 'Random',
     pageLink: './Art/animation/index.html',
     imageLink: './Art/animation/random.gif',
     author: 'DTPsykko',
@@ -5610,11 +5610,10 @@ let cards = [
     githubLink: 'https://github.com/jenique22'
   },
   {
-    artName: 'Wigglers',
-    pageLink: './Art/kv/wiggle.html',
-    imageLink: './Art/kv/wiggle.gif',
-    author: 'khaivern',
-    githubLink: 'https://github.com/khaivern'
+    pageLink: './Art/GabrielArt/GabrielArt.html',
+    imageLink: './Art/GabrielArt/ZTM.jpg',
+    author: 'GabrielAvramescu',
+    githubLink: 'https://github.com/GabrielAvramescu'
   }
 ];
 
