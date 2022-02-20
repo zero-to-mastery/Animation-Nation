@@ -5616,6 +5616,13 @@ let cards = [
     githubLink: 'https://github.com/GabrielAvramescu'
   },
   {
+    artName: 'Pong',
+    pageLink: './Art/danielalanholmes/index.html',
+    imageLink: './Art/danielalanholmes/index.gif',
+    author: 'Daniel Holmes',
+    githubLink: 'https://github.com/danielalanholmes'
+  },
+  {
     artName: 'Wigglers',
     pageLink: './Art/kv/wiggle.html',
     imageLink: './Art/kv/wiggle.gif',
