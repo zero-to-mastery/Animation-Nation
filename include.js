@@ -5614,6 +5614,13 @@ let cards = [
     imageLink: './Art/GabrielArt/ZTM.jpg',
     author: 'GabrielAvramescu',
     githubLink: 'https://github.com/GabrielAvramescu'
+  },
+  {
+    artName: 'Wigglers',
+    pageLink: './Art/kv/wiggle.html',
+    imageLink: './Art/kv/wiggle.gif',
+    author: 'khaivern',
+    githubLink: 'https://github.com/khaivern'
   }
 ];
 
