@@ -5596,7 +5596,7 @@ let cards = [
     githubLink: 'https://github.com/joesayat'
   },
   {
-    artName: "Random"
+    artName: 'Random',
     pageLink: './Art/animation/index.html',
     imageLink: './Art/animation/random.gif',
     author: 'DTPsykko',
@@ -5616,6 +5616,33 @@ let cards = [
     author: 'Christopher Spencer',
     githubLink: 'https://github.com/cspencernd'
   },
+  {
+    pageLink: './Art/GabrielArt/GabrielArt.html',
+    imageLink: './Art/GabrielArt/ZTM.jpg',
+    author: 'GabrielAvramescu',
+    githubLink: 'https://github.com/GabrielAvramescu'
+  },
+  {
+    artName: 'Pong',
+    pageLink: './Art/danielalanholmes/index.html',
+    imageLink: './Art/danielalanholmes/index.gif',
+    author: 'Daniel Holmes',
+    githubLink: 'https://github.com/danielalanholmes'
+  },
+  {
+    artName: 'Wigglers',
+    pageLink: './Art/kv/wiggle.html',
+    imageLink: './Art/kv/wiggle.gif',
+    author: 'khaivern',
+    githubLink: 'https://github.com/khaivern'
+  },
+  {
+    artName: 'Round360',
+    pageLink: './Art/MHShayek/index.html',
+    imageLink: './Art/MHShayek/round360.gif',
+    author: 'MHShayek',
+    githubLink: 'https://github.com/MHShayek'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
