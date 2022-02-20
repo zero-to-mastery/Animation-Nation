@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Shakerdl',
+    pageLink: './Art/Joy/shakerdl/index.html',
+    imageLink: './Art/Joy/shakerdl/shrinking.gif',
+    author: 'Shakerdl',
+    githubLink: 'https://github.com/shakerdl'
+  },
+  {
     artName: 'Goa - Beach',
     pageLink: './Art/Shailesh/index.html',
     imageLink: './Art/Shailesh/Goa - Beach.jpg',
