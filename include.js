@@ -5610,6 +5610,13 @@ let cards = [
     githubLink: 'https://github.com/jenique22'
   },
   {
+    artName: 'Dracula Colors',
+    pageLink: './Art/cspencernd/index.html',
+    imageLink: './Art/cspencernd/dracula-colors.gif',
+    author: 'Christopher Spencer',
+    githubLink: 'https://github.com/cspencernd'
+  },
+  {
     pageLink: './Art/GabrielArt/GabrielArt.html',
     imageLink: './Art/GabrielArt/ZTM.jpg',
     author: 'GabrielAvramescu',
