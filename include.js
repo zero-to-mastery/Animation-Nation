@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Shakerdl',
+    pageLink: './Art/Joy/shakerdl/index.html',
+    imageLink: './Art/Joy/shakerdl/shrinking.gif',
+    author: 'Shakerdl',
+    githubLink: 'https://github.com/shakerdl'
+  },
+  {
     artName: 'Goa - Beach',
     pageLink: './Art/Shailesh/index.html',
     imageLink: './Art/Shailesh/Goa - Beach.jpg',
@@ -5596,7 +5603,7 @@ let cards = [
     githubLink: 'https://github.com/joesayat'
   },
   {
-    artName: "Random"
+    artName: 'Random',
     pageLink: './Art/animation/index.html',
     imageLink: './Art/animation/random.gif',
     author: 'DTPsykko',
@@ -5610,13 +5617,12 @@ let cards = [
     githubLink: 'https://github.com/jenique22'
   },
   {
-     {
     pageLink: './Art/Jerome/plane_animation.html',
     imageLink: './Art/Jerome/images/screen-capture.webm',
     author: 'Quingsley',
     githubLink: 'https://github.com/Quingsley'
   }
-  }
+  
 
 ];
 
