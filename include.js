@@ -5608,7 +5608,16 @@ let cards = [
     iamgeLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif',
     author: 'Jenique Knoesen',
     githubLink: 'https://github.com/jenique22'
+  },
+  {
+     {
+    pageLink: './Art/Jerome/plane_animation.html',
+    imageLink: './Art/Jerome/images/screen-capture.webm',
+    author: 'Quingsley',
+    githubLink: 'https://github.com/Quingsley'
   }
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
