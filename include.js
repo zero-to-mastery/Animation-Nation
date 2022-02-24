@@ -5649,7 +5649,12 @@ let cards = [
     imageLink: './Art/MHShayek/round360.gif',
     author: 'MHShayek',
     githubLink: 'https://github.com/MHShayek'
-  }
+  },
+    artName: 'animatoris',
+    pageLink: './Art/animatoris/index.html',
+    imageLink: './Art/animatoris/circle.gif',
+    author: 'Mark Heathcliff',
+    githubLink: 'https://github.com/saimark123'
 ];
 
 // +--------------------------------------------------------------------------------+
