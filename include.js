@@ -5649,6 +5649,13 @@ let cards = [
     imageLink: './Art/MHShayek/round360.gif',
     author: 'MHShayek',
     githubLink: 'https://github.com/MHShayek'
+  },
+  {
+    artName: 'EyeStrain',
+    pageLink: './Art/MattRuetz/index.html',
+    imageLink: './Art/MattRuetz/eyestrain.gif',
+    author: 'MattRuetz',
+    githubLink: 'https://github.com/MattRuetz'
   }
 ];
 
