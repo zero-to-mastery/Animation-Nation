@@ -5649,6 +5649,13 @@ let cards = [
     imageLink: './Art/MHShayek/round360.gif',
     author: 'MHShayek',
     githubLink: 'https://github.com/MHShayek'
+  },
+  {
+    artName: 'SiteLoader',
+    pageLink: './Art/siteLoader/index.html',
+    imageLink: './Art/siteLoader/loader.gif',
+    author: 'Mr.Sohrab',
+    githubLink: 'https://github.com/sohrabyazdan'
   }
 ];
 
