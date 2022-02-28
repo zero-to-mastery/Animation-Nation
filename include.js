@@ -5651,11 +5651,19 @@ let cards = [
     githubLink: 'https://github.com/MHShayek'
   },
   {
+<<<<<<< HEAD
     artName: 'SiteLoader',
     pageLink: './Art/siteLoader/index.html',
     imageLink: './Art/siteLoader/loader.gif',
     author: 'Mr.Sohrab',
     githubLink: 'https://github.com/sohrabyazdan'
+=======
+    artName: 'EyeStrain',
+    pageLink: './Art/MattRuetz/index.html',
+    imageLink: './Art/MattRuetz/eyestrain.gif',
+    author: 'MattRuetz',
+    githubLink: 'https://github.com/MattRuetz'
+>>>>>>> a4192b469b40e4d86ed469b88d0d5ded1aaa73ce
   }
 ];
 
