@@ -5650,11 +5650,20 @@ let cards = [
     author: 'MHShayek',
     githubLink: 'https://github.com/MHShayek'
   },
+  {
     artName: 'animatoris',
     pageLink: './Art/animatoris/index.html',
     imageLink: './Art/animatoris/circle.gif',
     author: 'Mark Heathcliff',
     githubLink: 'https://github.com/saimark123'
+  },
+  {
+    artName: 'EyeStrain',
+    pageLink: './Art/MattRuetz/index.html',
+    imageLink: './Art/MattRuetz/eyestrain.gif',
+    author: 'MattRuetz',
+    githubLink: 'https://github.com/MattRuetz'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
