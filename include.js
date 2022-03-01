@@ -5656,6 +5656,13 @@ let cards = [
     imageLink: './Art/MattRuetz/eyestrain.gif',
     author: 'MattRuetz',
     githubLink: 'https://github.com/MattRuetz'
+  },
+  {
+    artName: 'ztm',
+    pageLink: './Art/280222 - ztm/index.html',
+    imageLink: './Art/280222 - ztm/ztm.gif',
+    author: 'TerenceChew',
+    githubLink: 'https://github.com/TerenceChew'
   }
 ];
 
