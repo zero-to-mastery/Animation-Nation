@@ -5663,6 +5663,13 @@ let cards = [
     imageLink: './Art/MattRuetz/eyestrain.gif',
     author: 'MattRuetz',
     githubLink: 'https://github.com/MattRuetz'
+  },
+  {
+    artName: 'Background color changer',
+    pageLink: './Art/sunder_tamakhu/bgChange/bgChanger.html',
+    imageLink: './Art/sunder_tamakhu/bgChange/bgChanger.gif',
+    author: 'SunderTamakhu',
+    githubLink: 'https://github.com/tamakhusunder'
   }
 ];
 
