@@ -5663,6 +5663,13 @@ let cards = [
     imageLink: './Art/MattRuetz/eyestrain.gif',
     author: 'MattRuetz',
     githubLink: 'https://github.com/MattRuetz'
+  },
+  {
+    artName: 'Sun',
+    pageLink: './Art/DaniM/sun.html',
+    imageLink: './Art/DaniM/sun.gif',
+    author: 'DaniMash',
+    githubLink: 'https://github.com/dani-mashasha'
   }
 ];
 
