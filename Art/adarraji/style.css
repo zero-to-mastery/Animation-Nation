@@ -1,0 +1,29 @@
+html {
+    background: #dac8c8;
+}
+
+@keyframes rolling {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.roll {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: 50px;
+    left: 50px;
+}
+
+.roll div {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: rgb(102, 44, 44);
+    animation: rolling 2.5s infinite;
+}
+
