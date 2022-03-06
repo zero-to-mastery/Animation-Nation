@@ -5670,6 +5670,13 @@ let cards = [
     imageLink: './Art/DaniM/sun.gif',
     author: 'DaniMash',
     githubLink: 'https://github.com/dani-mashasha'
+  },
+  {
+    artName: 'Jo Ngono',
+    pageLink: './Art/jongono/index.html',
+    imageLink: './Art/jongono/jongono.png',
+    author: 'inazrabuu',
+    githubLink: 'https://github.com/inazrabuu'
   }
 ];
 
