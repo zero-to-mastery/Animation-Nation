@@ -5670,6 +5670,12 @@ let cards = [
     imageLink: './Art/DaniM/sun.gif',
     author: 'DaniMash',
     githubLink: 'https://github.com/dani-mashasha'
+  },
+  {
+    pageLink: './Art/sanation/index.html',
+    imageLink: './Art/sanation/trial.gif',
+    author: 'Sajal',
+    githubLink: 'https://github.com/sajalnayansingh'
   }
 ];
 
