@@ -5670,9 +5670,13 @@ let cards = [
     imageLink: './Art/DaniM/sun.gif',
     author: 'DaniMash',
     githubLink: 'https://github.com/dani-mashasha'
+  },
+  {
+    pageLink: '.index.html',
+    pageLink: './Art/Manos/index.html',
+    author: 'Manas Nikte AKA Manos',
+    githubLink: 'https://github.com/ManasNikte'
   }
-];
-
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
@@ -5706,3 +5710,4 @@ function Shuffle(o) {
   );
   return o;
 }
+
