@@ -5670,7 +5670,14 @@ let cards = [
     imageLink: './Art/DaniM/sun.gif',
     author: 'DaniMash',
     githubLink: 'https://github.com/dani-mashasha'
+  },
+  {
+    pageLink: './Art/Crazy_Flashing_Ball/index.html',
+    imageLink: './Art/Crazy_Flashing_Ball/Crazy_Flashing_Ball.gif',
+    author: 'Oliver',
+    githubLink: 'https://github.com/OstrongDev'
   }
+ 
 ];
 
 // +--------------------------------------------------------------------------------+

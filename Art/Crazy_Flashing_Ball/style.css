@@ -1,0 +1,74 @@
+body{
+  background-color: #000;
+  font-size: 3rem;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent{
+  background-color: navy;
+  width: 6em;
+  height: 6em;
+  border-radius: 10%;
+}
+.child{
+  background-color: green;
+  width: 3em;
+  height:3em;
+  border-radius: 50%;
+}
+.parent:hover .child{
+
+  animation: left-to-right 2s cubic-bezier(.65,.05,.36,1) forwards infinite alternate;
+}
+.parent:hover{
+background-color: red;
+  animation: flashing 1s ease-in forwards infinite alternate;
+}
+
+@keyframes left-to-right {
+  0%{
+    background: red;
+    transform: translateX(0);
+  }
+  33%{
+    background: orange;
+    transform: translateY(90%) translateY(10%);
+  }
+  44%{
+    background: rgb(221, 22, 155);
+    transform: translateY(80%);
+    transform: translateX(26%);
+  }
+  
+  66%{
+    background: rgb(26, 176, 221);
+    transform: translateX(50%) translateY(100%);
+  }
+ 
+  88%{
+    background: rgb(228, 78, 9);
+    transform: translateX(90%) translateY(10%);
+  }
+  100%{
+    background: rgb(228, 78, 9);
+    transform: translateX(90%) translateY(100%);
+  }
+
+}
+
+
+@keyframes flashing {
+  0%{
+    background: rgb(15, 224, 137);
+  }
+ 
+  100%{
+    background: white;
+  }
+}
+
