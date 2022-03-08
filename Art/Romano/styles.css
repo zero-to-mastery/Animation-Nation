@@ -1,9 +1,14 @@
-.block1 {
-    background-color: blue;
-    width: 50%;
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
 }
 
-.block2 {
-    background-color: red;
-    width: 50%;
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
 }
