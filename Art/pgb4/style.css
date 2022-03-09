@@ -1,0 +1,23 @@
+div#one {
+    height: 200px;
+    width: 100%;
+    background: #05bd4b;
+    animation: slidein .5s linear 1s infinite alternate;
+  }
+  
+  div#two {
+    height: 200px;
+    width: 100%;
+    background: #1a039b;
+    animation: slidein .5s linear 1s infinite alternate;
+  }
+
+  @keyframes slidein {
+    from {
+      transform: scaleY(0);
+    }
+    to {
+      transform: scaleY(1);
+    }
+  }
+  
