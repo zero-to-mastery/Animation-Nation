@@ -5670,6 +5670,13 @@ let cards = [
     imageLink: './Art/DaniM/sun.gif',
     author: 'DaniMash',
     githubLink: 'https://github.com/dani-mashasha'
+  },
+  {
+    artName: 'Modern Clock',
+    pageLink: './Art/Tiziano/index.html',
+    imageLink: './Art/Tiziano/clock.gif',
+    author: 'Tiziano',
+    githubLink: 'https://github.com/tizspagno'
   }
 ];
 
