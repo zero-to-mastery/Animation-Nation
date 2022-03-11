@@ -5556,7 +5556,6 @@ let cards = [
     author: 'Yashraj',
     githubLink: 'https://github.com/yashraj2003e'
   },
-
   {
     artName: 'segunOsiki',
     pageLink: './Art/segunOsiki/index.html',
@@ -5670,6 +5669,13 @@ let cards = [
     imageLink: './Art/DaniM/sun.gif',
     author: 'DaniMash',
     githubLink: 'https://github.com/dani-mashasha'
+  },
+  {
+    artName: 'Work of art',
+    pageLink: './Art/Romano/index.html',
+    imageLink: './Art/Romano/index.gif',
+    author: 'Romano',
+    githubLink: 'https://github.com/Mrschabs'
   },
   {
     pageLink: './Art/sanation/index.html',
