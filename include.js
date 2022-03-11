@@ -5677,6 +5677,13 @@ let cards = [
     imageLink: './Art/jongono/jongono.png',
     author: 'inazrabuu',
     githubLink: 'https://github.com/inazrabuu'
+  },  
+  {
+    artName: 'poorly drawn pikachu',
+    pageLink: "./Art/Sayed's Pikachu/Sayed's Pikachu.html",
+    imageLink: "./Art/Sayed's Pikachu/img.gif",
+    author: 'Sayed Husain',
+    githubLink: 'https://github.com/Sayed-Husain'
   }
 ];
 
