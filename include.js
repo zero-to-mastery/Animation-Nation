@@ -5672,6 +5672,12 @@ let cards = [
     githubLink: 'https://github.com/dani-mashasha'
   },
   {
+    pageLink: './Art/sanation/index.html',
+    imageLink: './Art/sanation/trial.gif',
+    author: 'Sajal',
+    githubLink: 'https://github.com/sajalnayansingh'
+  },
+  {
     artName: 'Jo Ngono',
     pageLink: './Art/jongono/index.html',
     imageLink: './Art/jongono/jongono.png',
