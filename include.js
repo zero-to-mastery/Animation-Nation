@@ -5696,6 +5696,13 @@ let cards = [
     imageLink: "./Art/Sayed's Pikachu/img.gif",
     author: 'Sayed Husain',
     githubLink: 'https://github.com/Sayed-Husain'
+  },
+  {
+    artName: 'colorful flower',
+    pageLink: "./Art/shai/index.html",
+    imageLink: "./Art/shai/animation.gif",
+    author: 'Shytech1',
+    githubLink: 'https://github.com/ShyTech1'
   }
 ];
 
