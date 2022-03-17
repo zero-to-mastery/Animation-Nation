@@ -5696,6 +5696,13 @@ let cards = [
     imageLink: "./Art/Sayed's Pikachu/img.gif",
     author: 'Sayed Husain',
     githubLink: 'https://github.com/Sayed-Husain'
+  },
+  {
+    artName: 'Follow Me Face',
+    pageLink: './Art/follow_meSK/index.html',
+    imageLink: './Art/follow_meSK/follow_meSK.gif',
+    author: 'Sandra',
+    githubLink: 'https://github.com/sandrak115'
   }
 ];
 
