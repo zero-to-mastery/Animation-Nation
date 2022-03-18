@@ -5698,7 +5698,7 @@ let cards = [
     githubLink: 'https://github.com/Sayed-Husain'
   },
   {
-    artName: 'Follow Me Face',
+    artName: 'Dont Touch Me',
     pageLink: './Art/follow_meSK/index.html',
     imageLink: './Art/follow_meSK/follow_meSK.gif',
     author: 'Sandra',
