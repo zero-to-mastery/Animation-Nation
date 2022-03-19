@@ -5703,7 +5703,14 @@ let cards = [
     imageLink: "./Art/shai/animation.gif",
     author: 'Shytech1',
     githubLink: 'https://github.com/ShyTech1'
-  }
+  },
+  {
+    artName: 'Serene Animation'
+    pageLink: './Art/sereneanimation/index.html',
+    imageLink: './Art/sereneanimation/trance.gif',
+    author: 'Serene',
+    githubLink: 'https://github.com/meikuan23'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
