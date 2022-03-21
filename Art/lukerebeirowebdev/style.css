@@ -1,0 +1,44 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.parent {
+    background-color: mediumturquoise;
+    height:400px;
+    width:400px;
+}
+
+.child {
+    background-color: royalblue;
+    height:50%;
+    width:50%;
+    animation: left-to-right 1s ease-in forwards infinite alternate 1s;
+}
+
+.parent:hover .child {
+    animation-play-state: paused;
+    
+}
+
+@keyframes left-to-right {
+    0% {
+        background-color: royalblue;
+        transform: translateX(0);
+    }
+    33% {
+        background-color: rgb(120, 72, 209);
+        transform: translateY(100%);
+    }
+    66% {
+        background-color: rgb(21, 1, 37);
+        transform: translateX(100%) translateY(100%);
+    }
+    100% {
+        background-color: mediumturquoise;
+        transform: translateX(100%);
+    }
+}
