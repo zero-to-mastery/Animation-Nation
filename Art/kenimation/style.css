@@ -13,10 +13,10 @@ main {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right, white, rgb(24, 22, 22));
-  background: linear-gradient(to right, black, white, rgb(75, 71, 71));
+  background: linear-gradient(to left, red, rgb(230, 226, 224));
+  background: linear-gradient(to right, blue, white, rgb(75, 71, 71));
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -29,7 +29,7 @@ main {
   border-bottom: 22vh solid rgb(192, 180, 180);
   /* left: 36vh; */
   animation: shakeY 3s ease infinite alternate,
-    nudge 5s linear infinite alternate;
+    nudge 4s linear infinite alternate;
   /* top: 10vh; */
   z-index: 0;
 }
@@ -43,7 +43,7 @@ main {
   border-top: 22vh solid rgb(192, 180, 180);
   /* left: 36vh; */
   animation: shakeY 3s ease infinite alternate,
-    nudge 10s linear infinite alternate;
+    nudge 8s linear infinite alternate;
   /* top: 10vh; */
   z-index: 0;
 }
@@ -53,11 +53,11 @@ main {
   width: 0;
   height: 0;
   border-left: 15vh solid transparent;
-  border-right: 15vh solid transparent;
-  border-top: 22vh solid black;
+  border-right: 15vh solid double;
+  border-top: 22vh solid dotted blue;
   /* left: 36vh; */
   animation: shakeY 3s ease infinite alternate,
-    nudge 5s linear infinite alternate;
+    nudge 4s linear infinite alternate;
   /* top: 10vh; */
 }
 
@@ -67,18 +67,18 @@ main {
   height: 0;
   border-left: 15vh solid transparent;
   border-right: 15vh solid transparent;
-  border-bottom: 22vh solid black;
+  border-bottom: 22vh solid green;
   /* left: 36vh; */
   animation: shakeY 3s ease infinite alternate,
-    nudge 5s linear infinite alternate;
+    nudge 4s linear infinite alternate;
   /* top: 10vh; */
   z-index: 1;
 }
 
 .shadow {
   box-shadow: 0 8px 6px -6px black;
-  border: 20px solid black;
+  border: 20px solid blue;
   border-radius: 100%;
-  animation: pulse 0.5s ease infinite alternate,
-    nudge 5s linear infinite alternate;
+  animation: pulse 0.12s ease infinite alternate,
+    nudge 4s linear infinite alternate;
 }

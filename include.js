@@ -5703,6 +5703,13 @@ let cards = [
     imageLink: "./Art/shai/animation.gif",
     author: 'Shytech1',
     githubLink: 'https://github.com/ShyTech1'
+  },
+{
+    artName: 'kenimation',
+    pageLink: './Art/kenimation/index.html',
+    imageLink: './Art/kenimation/kenimation.gif',
+    author: 'Kennedy',
+    githubLink: 'https://github.com/kennedy-ogutu'
   }
 ];
 
