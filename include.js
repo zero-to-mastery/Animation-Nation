@@ -5705,9 +5705,9 @@ let cards = [
     githubLink: 'https://github.com/ShyTech1'
   },
 {
-    artName: 'kenimation',
+    artName: 'Pulse',
     pageLink: './Art/kenimation/index.html',
-    imageLink: './Art/kenimation/kenimation.gif',
+    imageLink: './Art/kenimation/giphy.gif',
     author: 'Kennedy',
     githubLink: 'https://github.com/kennedy-ogutu'
   }
