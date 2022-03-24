@@ -5556,7 +5556,6 @@ let cards = [
     author: 'Yashraj',
     githubLink: 'https://github.com/yashraj2003e'
   },
-
   {
     artName: 'segunOsiki',
     pageLink: './Art/segunOsiki/index.html',
@@ -5677,6 +5676,40 @@ let cards = [
     imageLink: './Art/Tiziano/clock.gif',
     author: 'Tiziano',
     githubLink: 'https://github.com/tizspagno'
+  },
+  {
+    artName: 'Work of art',
+    pageLink: './Art/Romano/index.html',
+    imageLink: './Art/Romano/index.gif',
+    author: 'Romano',
+    githubLink: 'https://github.com/Mrschabs'
+  },
+  {
+    pageLink: './Art/sanation/index.html',
+    imageLink: './Art/sanation/trial.gif',
+    author: 'Sajal',
+    githubLink: 'https://github.com/sajalnayansingh'
+  },
+  {
+    artName: 'Jo Ngono',
+    pageLink: './Art/jongono/index.html',
+    imageLink: './Art/jongono/jongono.png',
+    author: 'inazrabuu',
+    githubLink: 'https://github.com/inazrabuu'
+  },  
+  {
+    artName: 'poorly drawn pikachu',
+    pageLink: "./Art/Sayed's Pikachu/Sayed's Pikachu.html",
+    imageLink: "./Art/Sayed's Pikachu/img.gif",
+    author: 'Sayed Husain',
+    githubLink: 'https://github.com/Sayed-Husain'
+  },
+  {
+    artName: 'colorful flower',
+    pageLink: "./Art/shai/index.html",
+    imageLink: "./Art/shai/animation.gif",
+    author: 'Shytech1',
+    githubLink: 'https://github.com/ShyTech1'
   }
 ];
 
