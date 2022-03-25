@@ -5689,7 +5689,7 @@ let cards = [
     imageLink: './Art/jongono/jongono.png',
     author: 'inazrabuu',
     githubLink: 'https://github.com/inazrabuu'
-  },  
+  },
   {
     artName: 'poorly drawn pikachu',
     pageLink: "./Art/Sayed's Pikachu/Sayed's Pikachu.html",
@@ -5699,8 +5699,8 @@ let cards = [
   },
   {
     artName: 'colorful flower',
-    pageLink: "./Art/shai/index.html",
-    imageLink: "./Art/shai/animation.gif",
+    pageLink: './Art/shai/index.html',
+    imageLink: './Art/shai/animation.gif',
     author: 'Shytech1',
     githubLink: 'https://github.com/ShyTech1'
   },
@@ -5710,7 +5710,14 @@ let cards = [
     imageLink: "./Art/TC/ztm.gif",
     author: 'Terence',
     githubLink: 'https://github.com/TerenceChew'
-  }
+  },
+  {
+    artName: 'Serene Animation'
+    pageLink: './Art/sereneanimation/index.html',
+    imageLink: './Art/sereneanimation/trance.gif',
+    author: 'Serene',
+    githubLink: 'https://github.com/meikuan23'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
