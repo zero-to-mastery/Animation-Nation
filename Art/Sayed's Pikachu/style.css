@@ -1,135 +1,140 @@
-.container{
-position: absolute;
-background: #6088c9;
-height: 500px;
-width: 500px;
-left: 50%;
-top: 50%;
-transform: translate(-50%,-50%);
-box-shadow: 16px 16px 10px #d7d7d7;
-border-radius: 80px;
-
+.container {
+  position: absolute;
+  background: #6088c9;
+  height: 500px;
+  width: 500px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 16px 16px 10px #d7d7d7;
+  border-radius: 80px;
 }
 
-.face{
-position: relative;
-height: 200px;
-width: 205px;
-background: #FAD61D;
-left: 150px;
-top: 120px;
-border: 1px solid black;
-border-radius: 85px;
+.face {
+  position: relative;
+  height: 200px;
+  width: 205px;
+  background: #fad61d;
+  left: 150px;
+  top: 120px;
+  border: 1px solid black;
+  border-radius: 85px;
 }
 
-.face::before{
-content: "";
-position: absolute;
-height: 45px;
-width: 45px;
-border-radius: 22px;
-background: #F62D14;
-left: 20px;
-top: 125px;
+.face::before {
+  content: '';
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  border-radius: 22px;
+  background: #f62d14;
+  left: 20px;
+  top: 125px;
 }
 
-.face::after{
-content: "";
-position: absolute;
-height: 45px;
-width: 45px;
-border-radius: 22px;
-background: #F62D14;
-left: 135px;
-top: 125px;
+.face::after {
+  content: '';
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  border-radius: 22px;
+  background: #f62d14;
+  left: 135px;
+  top: 125px;
 }
 
-.left-eye{
-position: relative;
-height: 50px;
-width: 50px;
-border-radius: 30px;
-background: black;
-left: 17px;
-top: 40px;
-
+.left-eye {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  background: black;
+  left: 17px;
+  top: 40px;
 }
 
-.left-eye::before{
-content: "";
-position: absolute;
-height: 30px;
-width: 30px;
-background: white;
-border-radius: 15px;
-left: 4px;
-top: 4px;
+.left-eye::before {
+  content: '';
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: white;
+  border-radius: 15px;
+  left: 4px;
+  top: 4px;
 }
 
-
-
-.right-eye{
-position: relative;
-height: 50px;
-width: 50px;
-border-radius: 30px;
-background: black;
-left: 110px;
-
+.right-eye {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  background: black;
+  left: 110px;
 }
 
-.right-eye::before{
-content: "";
-position: absolute;
-height: 30px;
-width: 30px;
-background: white;
-border-radius: 15px;
-left: 4px;
-top: 4px;
+.right-eye::before {
+  content: '';
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: white;
+  border-radius: 15px;
+  left: 4px;
+  top: 4px;
 }
-
 
 @keyframes first {
-    0%   {background-color:#FAD61D;}
-    25% {background-color:#FAD61D; transform: rotate(10deg);}
-    50%   {background-color:#FAD61D;}
-    75%   {background-color:#FAD61D;  transform: rotate(-5deg);}
-    100%   {background-color:#FAD61D;}
+  0% {
+    background-color: #fad61d;
   }
-
-.left-ear{
-position: absolute;
-width: 180px;
-height: 50px;
-background: #FAD61D;
-border: 1px solid black;
-right: 100px;
-top: -58px;
-border-radius: 70%;
-animation-name: first;
-animation-duration: 8s;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+  25% {
+    background-color: #fad61d;
+    transform: rotate(10deg);
+  }
+  50% {
+    background-color: #fad61d;
+  }
+  75% {
+    background-color: #fad61d;
+    transform: rotate(-5deg);
+  }
+  100% {
+    background-color: #fad61d;
+  }
 }
 
-
-.right-ear{
-position: absolute;
-height: 180px;
-width: 50px;
-background: #FAD61D;
-border: 1px solid black;
-border-radius: 70%;
-transform: rotate(-60deg);
-left: -40px;
-bottom: 25px;
+.left-ear {
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  background: #fad61d;
+  border: 1px solid black;
+  right: 100px;
+  top: -58px;
+  border-radius: 70%;
+  animation-name: first;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-.fixer{
-position: relative;
-right: 11%;
-bottom: 2%;
-zoom: 1.4;
+.right-ear {
+  position: absolute;
+  height: 180px;
+  width: 50px;
+  background: #fad61d;
+  border: 1px solid black;
+  border-radius: 70%;
+  transform: rotate(-60deg);
+  left: -40px;
+  bottom: 25px;
+}
+
+.fixer {
+  position: relative;
+  right: 11%;
+  bottom: 2%;
+  zoom: 1.4;
 }

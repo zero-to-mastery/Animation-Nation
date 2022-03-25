@@ -5689,7 +5689,7 @@ let cards = [
     imageLink: './Art/jongono/jongono.png',
     author: 'inazrabuu',
     githubLink: 'https://github.com/inazrabuu'
-  },  
+  },
   {
     artName: 'poorly drawn pikachu',
     pageLink: "./Art/Sayed's Pikachu/Sayed's Pikachu.html",
@@ -5699,8 +5699,8 @@ let cards = [
   },
   {
     artName: 'colorful flower',
-    pageLink: "./Art/shai/index.html",
-    imageLink: "./Art/shai/animation.gif",
+    pageLink: './Art/shai/index.html',
+    imageLink: './Art/shai/animation.gif',
     author: 'Shytech1',
     githubLink: 'https://github.com/ShyTech1'
   }
