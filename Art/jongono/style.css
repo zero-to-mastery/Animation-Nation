@@ -48,9 +48,9 @@ body {
     top: 8px;
     height: 164px;
   }
-  50%, 100% {
+  50%,
+  100% {
     top: 24px;
     height: 132px;
   }
 }
-
