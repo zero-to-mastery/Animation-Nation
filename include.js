@@ -5718,6 +5718,14 @@ let cards = [
     author: 'Serene',
     githubLink: 'https://github.com/meikuan23'
   },
+    {
+      artName: "Slow_Bounce",
+      pageLink: "./Art/Slow_Bounce/index.html",
+      imageLink: "./Art/Slow_Bounce/Slow_Bounce.gif",
+      author: "MichaelClautice",
+      githubLink: "https://github.com/MichaelClautice"
+    }
+  ];
 ];
 
 // +--------------------------------------------------------------------------------+
