@@ -5703,6 +5703,12 @@ let cards = [
     imageLink: './Art/shai/animation.gif',
     author: 'Shytech1',
     githubLink: 'https://github.com/ShyTech1'
+  },
+  {
+    pageLink: './Art/moon_Whale/index.html',
+    imageLink: './Art/moon_whale/whale.png',
+    author: 'D3VDAMMY',
+    githubLink: 'https://github.com/Dammy46'
   }
 ];
 
