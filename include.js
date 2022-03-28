@@ -5705,11 +5705,25 @@ let cards = [
     githubLink: 'https://github.com/ShyTech1'
   },
   {
+    artName: 'moon whale',
     pageLink: './Art/moon_Whale/index.html',
     imageLink: './Art/moon_whale/whale.png',
     author: 'D3VDAMMY',
     githubLink: 'https://github.com/Dammy46'
-  }
+  },
+    artName: 'ZTM Animation',
+    pageLink: "./Art/TC/index.html",
+    imageLink: "./Art/TC/ztm.gif",
+    author: 'Terence',
+    githubLink: 'https://github.com/TerenceChew'
+  },
+  {
+    artName: 'Serene Animation'
+    pageLink: './Art/sereneanimation/index.html',
+    imageLink: './Art/sereneanimation/trance.gif',
+    author: 'Serene',
+    githubLink: 'https://github.com/meikuan23'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
