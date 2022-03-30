@@ -5723,7 +5723,7 @@ let cards = [
       pageLink: "./Art/Slow_Bounce/index.html",
       imageLink: "./Art/Slow_Bounce/Slow_Bounce.gif",
       author: "MichaelClautice",
-      githubLink: "https://github.com/MichaelClautice"
+      githubLink: "'https://github.com/royranger'"
     }
   ];
 ];
