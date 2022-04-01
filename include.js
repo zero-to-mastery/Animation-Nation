@@ -5706,8 +5706,8 @@ let cards = [
   },
   {
     artName: 'ZTM Animation',
-    pageLink: "./Art/TC/index.html",
-    imageLink: "./Art/TC/ztm.gif",
+    pageLink: './Art/TC/index.html',
+    imageLink: './Art/TC/ztm.gif',
     author: 'Terence',
     githubLink: 'https://github.com/TerenceChew'
   },
@@ -5718,14 +5718,14 @@ let cards = [
     author: 'Serene',
     githubLink: 'https://github.com/meikuan23'
   },
-    {
-      artName: "Slow_Bounce",
-      pageLink: "./Art/Slow_Bounce/index.html",
-      imageLink: "./Art/Slow_Bounce/Slow_Bounce.gif",
-      author: "MichaelClautice",
-      githubLink: 'https://github.com/MichaelClautice'
-    }
-  ];
+  {
+    artName: 'Slow_Bounce',
+    pageLink: './Art/Slow_Bounce/index.html',
+    imageLink: './Art/Slow_Bounce/Slow_Bounce.gif',
+    author: 'MichaelClautice',
+    githubLink: 'https://github.com/MichaelClautice'
+  }
+];
 // array bracket below not needed:
 // ];
 

@@ -17,7 +17,9 @@ body {
   width: 100%;
 }
 
-.one, .two, .three {
+.one,
+.two,
+.three {
   height: 20vh;
   display: flex;
   justify-content: center;
@@ -25,22 +27,23 @@ body {
   text-shadow: 0 0 25px cyan;
   font-size: 9.5rem;
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 900;
 }
 
 .one {
-  background-color: #FFC145;
+  background-color: #ffc145;
   animation: move 1.5s linear infinite 250ms;
 }
 
 .two {
-  background-color: #FF6B6C;
+  background-color: #ff6b6c;
   animation: move 1.5s linear infinite 500ms;
 }
 
 .three {
-  background-color: #5B5F97;
+  background-color: #5b5f97;
   animation: move 1.5s linear infinite 750ms;
   margin-top: -1px;
 }
