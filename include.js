@@ -5712,13 +5712,22 @@ let cards = [
     githubLink: 'https://github.com/TerenceChew'
   },
   {
-    artName: 'Serene Animation'
+    artName: 'Serene Animation',
     pageLink: './Art/sereneanimation/index.html',
     imageLink: './Art/sereneanimation/trance.gif',
     author: 'Serene',
     githubLink: 'https://github.com/meikuan23'
   },
-];
+    {
+      artName: "Slow_Bounce",
+      pageLink: "./Art/Slow_Bounce/index.html",
+      imageLink: "./Art/Slow_Bounce/Slow_Bounce.gif",
+      author: "MichaelClautice",
+      githubLink: 'https://github.com/MichaelClautice'
+    }
+  ];
+// array bracket below not needed:
+// ];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
