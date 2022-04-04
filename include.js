@@ -5718,6 +5718,13 @@ let cards = [
     author: 'Serene',
     githubLink: 'https://github.com/meikuan23'
   },
+  {
+    artName: 'new_animation'
+    pageLink: './Art/mew_animation/index.html',
+    imageLink: './Art/new_animation/preview.gif',
+    author: 'Irina',
+    githubLink: 'https://github.com/tea-baggins'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+

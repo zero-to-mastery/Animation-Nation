@@ -1,0 +1,437 @@
+:root {
+    --grey: #e1e9f5; /* background */
+    --lightgrey: #fafbfa; /* background */
+    --white: #DFD752; /* pelican */
+    --darkgrey: #9a9ba8; /* body stripe */
+    --mediumgrey: #3F3838; /* body shadow */
+    --orange: #d66138; /* beak */
+    --darkorange: #F7500B; /* mouth */
+    --mediumorange: #b75935; /* mouth */
+    --mediumorange2: #c65d3b; /* mouth */
+    --lightorange: #d66e4a; /* mouth */
+    --greyish: #e8eaf9; /* eye */
+    --darkblue: #363a64; /* eye */
+    --mediumorange3: #d56a44; /* fish head */
+    --blackish: #383951; /* fish eye */
+    --verylightgrey: #eff3f9; /* trim */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--lightbiege);
+    width: 100%;
+    height: 100vh;
+}
+
+.canvas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 80vmin;
+    height: 80vmin;
+}
+
+.trim {
+    position: absolute;
+    width: 7vmin;
+    height: 4vmin;
+    background: var(--mediumgrey);
+    top: 71vmin;
+    left: 17vmin;
+    border-bottom-left-radius: 100% 200%;
+    border-bottom-right-radius: 100% 200%;
+    float: left;
+}
+
+.trimline {
+    position: absolute;
+    width: 60vmin;
+    height: 0.5vmin;
+    background: var(--mediumgrey);
+    bottom: 9vmin;
+    left: 15vmin;
+}
+
+.trimline:after {
+    content: "";
+    position: absolute;
+    width: 60vmin;
+    height: 0.5vmin;
+    background: var(--mediumgrey);
+    bottom: -5vmin;
+}
+
+.t1,
+.t9 {
+    left: 24vmin;
+}
+
+.t2,
+.t10 {
+    left: 31vmin;
+}
+
+.t3,
+.t11 {
+    left: 38vmin;
+}
+
+.t4,
+.t12 {
+    left: 45vmin;
+}
+
+.t5,
+.t13 {
+    left: 52vmin;
+}
+
+.t6,
+.t14 {
+    left: 59vmin;
+}
+
+.t7,
+.t15 {
+    left: 66vmin;
+}
+
+.t8,
+.t9,
+.t10,
+.t11,
+.t12,
+.t13,
+.t14,
+.t15 {
+    top: 76vmin;
+}
+
+.circle {
+    position: absolute;
+    width: 70vmin;
+    height: 70vmin;
+    top: 10vmin;
+    left: 10vmin;
+    background: linear-gradient(var(--mediumgrey), var(--white));
+    border-radius: 50%;
+}
+
+.pelicanbody {
+    position: absolute;
+    width: 50vmin;
+    height: 20vmin;
+    border-radius: 50% / 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: var(--white);
+    bottom: 15vmin;
+    left: 23.5vmin;
+    overflow: hidden;
+    z-index: 2;
+}
+
+/* body stripe */
+.pelicanbody:before {
+    position: absolute;
+    content: "";
+    width: 30vmin;
+    height: 8vmin;
+    left: 20vmin;
+    top: 8vmin;
+    transform: rotate(-45deg);
+    background: var(--darkgrey);
+}
+
+.bodyshadow {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 3vmin solid var(--mediumgrey);
+    border-left: 25vmin solid transparent;
+    border-right: 10vmin solid transparent;
+    top: 64vmin;
+    left: 23vmin;
+    transform: rotate(7deg);
+    z-index: 2;
+}
+
+.neck {
+    position: absolute;
+    width: 5vmin;
+    height: 25vmin;
+    transform: rotate(30deg);
+    background: var(--white);
+    top: 30vmin;
+    left: 27vmin;
+    z-index: 1;
+}
+
+/* neck shadow */
+.neckshadow {
+    position: absolute;
+    background: var(--mediumgrey);
+    width: 11vmin;
+    height: 5vmin;
+    transform: rotate(120deg);
+    top: 50vmin;
+    left: 24vmin;
+    background: radial-gradient(
+        100% 100% at left,
+        transparent 50%,
+        var(--mediumgrey) 51%
+    );
+    z-index: 0;
+}
+
+.neckshadowcorner {
+    position: absolute;
+    background: var(--mediumgrey);
+    border-radius: 50%;
+    width: 1.3vmin;
+    height: 1.5vmin;
+    left: 25.8vmin;
+    top: 53.5vmin;
+    z-index: 3;
+}
+
+.head {
+    position: absolute;
+    width: 10vmin;
+    height: 13vmin;
+    background: var(--white);
+    top: 23vmin;
+    left: 33vmin;
+    border-radius: 5vmin 5vmin 15vmin 0;
+    z-index: 2;
+}
+
+.eye {
+    position: absolute;
+    width: 4vmin;
+    height: 4vmin;
+    background: var(--greyish);
+    top: 2vmin;
+    left: 2vmin;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.eye:before {
+    content: "";
+    position: absolute;
+    width: 7vmin;
+    height: 7vmin;
+    top: -4vmin;
+    left: -1vmin;
+    border-radius: 50%;
+    background: var(--darkblue);
+}
+
+.eye:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 0.8vmin;
+    height: 0.8vmin;
+    left: 2.4vmin;
+    top: 1vmin;
+    background: var(--white);
+}
+
+.eyelid {
+    position: absolute;
+    width: 7vmin;
+    height: 7vmin;
+    background: var(--white);
+    border-radius: 50%;
+    box-shadow: inset 0 0.5vmin 0.5vmin var(--grey);
+    transform: rotate(45deg);
+    left: 0.5vmin;
+    top: 0.5vmin;
+}
+
+.headfeathers {
+    position: absolute;
+    width: 10vmin;
+    height: 10vmin;
+    left: 7vmin;
+}
+
+.feather1 {
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: var(--white);
+    left: 1.7vmin;
+    top: 1.3vmin;
+    border-radius: 1% 99% 0% 100% / 0% 82% 18% 100%;
+    transform: rotate(20deg) skewX(40deg);
+}
+
+.feather2 {
+    position: absolute;
+    width: 4vmin;
+    height: 5vmin;
+    background: var(--white);
+    left: 1.5vmin;
+    top: 4.1vmin;
+    border-radius: 0% 100% 100% 0% / 0% 100% 0% 100%;
+    transform: rotate(30deg);
+}
+
+.beak {
+    position: absolute;
+    width: 3.5vmin;
+    height: 35vmin;
+    background: var(--orange);
+    border-radius: 5vmin;
+    transform: rotate(90deg);
+    left: 19vmin;
+    top: 12vmin;
+    z-index: 1;
+}
+
+.mouth {
+    position: absolute;
+    width: 30vmin;
+    height: 15vmin;
+    border-radius: 0 0 30vmin 30vmin;
+    background: var(--orange);
+    background-image: radial-gradient(
+            10vmin circle at 26vmin -2vmin,
+            var(--darkorange) 50%,
+            transparent 51%
+        ),
+        radial-gradient(
+            16vmin circle at 22vmin -2vmin,
+            var(--mediumorange) 50%,
+            transparent 51%
+        ),
+        radial-gradient(
+            27vmin circle at 19vmin -2vmin,
+            var(--mediumorange2) 50%,
+            transparent 51%
+        );
+    left: 5vmin;
+    top: 31vmin;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.btop {
+    transform: rotate(-65deg);
+    top: -6vmin;
+    left: 37vmin;
+    transform-origin: 50% 100%;
+    transition: transform 0.5s ease-out;
+}
+
+.bodytwist {
+    position: absolute;
+    width: 10vmin;
+    height: 10vmin;
+    top: 53.1vmin;
+    left: 18vmin;
+    border-radius: 70% 30% 1% 99% / 0% 27% 73% 100%;
+    background: var(--white);
+    transform: rotate(35deg);
+}
+
+/* head */
+.fish {
+    width: 0;
+    height: 0;
+    border-left: 2.5vmin solid transparent;
+    border-right: 2.5vmin solid transparent;
+    border-bottom: 3.5vmin solid var(--mediumorange3);
+    position: absolute;
+    top: 22vmin;
+    left: 7vmin;
+    transform: rotate(-25deg);
+    transition: translateY 0.2s ease-out;
+    transition: rotate 0.2s ease-out;
+}
+
+/* body */
+.fish:before {
+    content: "";
+    position: absolute;
+    left: -2.5vmin;
+    top: 3.5vmin;
+    width: 0;
+    height: 0;
+    border-left: 2.5vmin solid transparent;
+    border-right: 2.5vmin solid transparent;
+    border-top: 9.5vmin solid var(--darkorange);
+}
+/* tail */
+.fish:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 2vmin solid var(--darkorange);
+    border-left: 2.5vmin solid transparent;
+    border-right: 2.5vmin solid transparent;
+    top: 11.5vmin;
+    left: -2.5vmin;
+}
+
+.fisheye {
+    position: absolute;
+    width: 1vmin;
+    height: 1vmin;
+    border-radius: 50%;
+    top: 2.5vmin;
+    left: -1.3vmin;
+    background: var(--blackish);
+}
+
+.f2 {
+    left: 17.5vmin;
+    top: 23.6vmin;
+    transform: rotate(10deg);
+}
+
+.mouth:hover ~ .fish {
+    animation: fishjump1 1s linear forwards;
+}
+
+.mouth:hover ~ .f2 {
+    animation: fishjump2 0.8s linear forwards;
+}
+
+.mouth:hover ~ .btop {
+    transform: rotate(-90deg);
+}
+
+@keyframes fishjump1 {
+    0% {
+        transform: translateY(0vmin) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-15vmin) rotate(180deg);
+    }
+}
+
+@keyframes fishjump2 {
+    0% {
+        transform: translateY(0vmin) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-15vmin) rotate(-180deg);
+    }
+}
