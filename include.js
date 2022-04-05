@@ -5733,6 +5733,13 @@ let cards = [
     githubLink: 'https://github.com/MichaelClautice'
   },
   {
+    artName: 'Icymation',
+    pagelink: './Art/icymation/icymation.html',
+    imageLink: './Art/icymation/icymation.gif',
+    author: 'Isai',
+    githublink: 'https://github.com/isaicastro1'
+  },
+  {
     artName: 'boxslide',
     pageLink: './Art/AK47/anima.html',
     imageLink: './Art/AK47/boxslide.png',
