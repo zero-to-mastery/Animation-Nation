@@ -5739,7 +5739,6 @@ let cards = [
     author: 'Anurag Kanungo',
     githubLink: 'https://github.com/Anuragcr'
   }
-  
 ];
 // array bracket below not needed:
 // ];
