@@ -5731,7 +5731,15 @@ let cards = [
     imageLink: './Art/Slow_Bounce/Slow_Bounce.gif',
     author: 'MichaelClautice',
     githubLink: 'https://github.com/MichaelClautice'
+  },
+  {
+    artName: 'boxslide',
+    pageLink: './Art/AK47/anima.html',
+    imageLink: './Art/AK47/boxslide.png',
+    author: 'Anurag Kanungo',
+    githubLink: 'https://github.com/Anuragcr'
   }
+  
 ];
 // array bracket below not needed:
 // ];
