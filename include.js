@@ -5731,6 +5731,13 @@ let cards = [
     imageLink: './Art/Slow_Bounce/Slow_Bounce.gif',
     author: 'MichaelClautice',
     githubLink: 'https://github.com/MichaelClautice'
+  },
+  {
+    artName: 'Icymation',
+    pagelink: './Art/icymation/icymation.html',
+    imageLink: './Art/icymation/icymation.gif',
+    author: 'Isai',
+    githublink: 'https://github.com/isaicastro1'
   }
 ];
 // array bracket below not needed:
