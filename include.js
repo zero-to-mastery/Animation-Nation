@@ -5671,6 +5671,13 @@ let cards = [
     githubLink: 'https://github.com/dani-mashasha'
   },
   {
+    artName: 'Modern Clock',
+    pageLink: './Art/Tiziano/index.html',
+    imageLink: './Art/Tiziano/clock.gif',
+    author: 'Tiziano',
+    githubLink: 'https://github.com/tizspagno'
+  },
+  {
     artName: 'Work of art',
     pageLink: './Art/Romano/index.html',
     imageLink: './Art/Romano/index.gif',
@@ -5715,20 +5722,43 @@ let cards = [
 
   {
     artName: 'ZTM Animation',
-    pageLink: "./Art/TC/index.html",
-    imageLink: "./Art/TC/ztm.gif",
+    pageLink: './Art/TC/index.html',
+    imageLink: './Art/TC/ztm.gif',
     author: 'Terence',
     githubLink: 'https://github.com/TerenceChew'
   },
   {
-    artName: 'Serene Animation'
+    artName: 'Serene Animation',
     pageLink: './Art/sereneanimation/index.html',
     imageLink: './Art/sereneanimation/trance.gif',
     author: 'Serene',
     githubLink: 'https://github.com/meikuan23'
   },
+  {
+    artName: 'Slow_Bounce',
+    pageLink: './Art/Slow_Bounce/index.html',
+    imageLink: './Art/Slow_Bounce/Slow_Bounce.gif',
+    author: 'MichaelClautice',
+    githubLink: 'https://github.com/MichaelClautice'
+  },
+  {
+    artName: 'Icymation',
+    pagelink: './Art/icymation/icymation.html',
+    imageLink: './Art/icymation/icymation.gif',
+    author: 'Isai',
+    githublink: 'https://github.com/isaicastro1'
+  },
+  {
+    artName: 'boxslide',
+    pageLink: './Art/AK47/anima.html',
+    imageLink: './Art/AK47/boxslide.png',
+    author: 'Anurag Kanungo',
+    githubLink: 'https://github.com/Anuragcr'
+  }
 
 ];
+// array bracket below not needed:
+// ];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
