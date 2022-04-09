@@ -5712,6 +5712,13 @@ let cards = [
     githubLink: 'https://github.com/ShyTech1'
   },
   {
+    artName: 'Pulse',
+    pageLink: "./Art/ogutu/index.html",
+    imageLink: "./Art/ogutu/giphy.gif",
+    author: 'kennedy',
+    githubLink: 'https://github.com/kennedy-ogutu'
+  },
+  {
     artName: 'ZTM Animation',
     pageLink: './Art/TC/index.html',
     imageLink: './Art/TC/ztm.gif',
@@ -5754,8 +5761,6 @@ let cards = [
     githubLink: 'https://github.com/letz0703'
   }
 ];
-// array bracket below not needed:
-// ];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
