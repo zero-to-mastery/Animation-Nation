@@ -5713,8 +5713,8 @@ let cards = [
   },
   {
     artName: 'Pulse',
-    pageLink: "./Art/ogutu/index.html",
-    imageLink: "./Art/ogutu/giphy.gif",
+    pageLink: './Art/ogutu/index.html',
+    imageLink: './Art/ogutu/giphy.gif',
     author: 'kennedy',
     githubLink: 'https://github.com/kennedy-ogutu'
   },
