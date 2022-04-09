@@ -5745,6 +5745,13 @@ let cards = [
     imageLink: './Art/AK47/boxslide.png',
     author: 'Anurag Kanungo',
     githubLink: 'https://github.com/Anuragcr'
+  },
+  {
+    artName: 'letz ani',
+    pageLink: './Art/letz/index.html',
+    imageLink: './Art/letz/trans.gif',
+    author: 'letz0703',
+    githubLink: 'https://github.com/letz0703'
   }
 ];
 // array bracket below not needed:
