@@ -5759,6 +5759,13 @@ let cards = [
     imageLink: './Art/letz/trans.gif',
     author: 'letz0703',
     githubLink: 'https://github.com/letz0703'
+  },
+  {
+    artName: 'radar-animation',
+    pageLink: './Art/radar-animation/index.html',
+    imageLink: './Art/radar-animation/radar.gif',
+    author: 'Angel Orellana',
+    githubLink: 'https://github.com/luisangel2895'
   }
 ];
 
