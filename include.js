@@ -9,7 +9,7 @@ let cards = [
   {
     artName: 'Goa - Beach',
     pageLink: './Art/Shailesh/index.html',
-    imageLink: './Art/Shailesh/Goa - Beach.jpg',
+    imageLink: './Art/Shailesh/Goa - Beach.jpg', 
     author: 'Shailesh',
     githubLink: 'https://github.com/shaileshkr7'
   },
@@ -5761,7 +5761,14 @@ let cards = [
     githubLink: 'https://github.com/letz0703'
   },
   {
-    artName: 'radar-animation',
+    artName: 'My Full-Stack Animation',
+    pageLink: './Art/BrandonNSangma/index.html',
+    imageLink: './Art/BrandonNSangma/fullstack.gif',
+    author: 'Brandon N. Sangma',
+    githubLink: 'https://github.com/brancore87'
+  },
+  {
+  artName: 'radar-animation',
     pageLink: './Art/radar-animation/index.html',
     imageLink: './Art/radar-animation/radar.gif',
     author: 'Angel Orellana',
@@ -5773,7 +5780,6 @@ let cards = [
     imageLink: './Art/barretoga/animation.gif',
     author: 'Gabriel Barreto',
     githubLink: 'https://github.com/barretoga'
-
   }
 ];
 
