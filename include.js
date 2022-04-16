@@ -5766,6 +5766,14 @@ let cards = [
     imageLink: './Art/radar-animation/radar.gif',
     author: 'Angel Orellana',
     githubLink: 'https://github.com/luisangel2895'
+  },
+  {
+    artName: 'Parachute Guy',
+    pageLink: './Art/barretoga/index.html',
+    imageLink: './Art/barretoga/animation.gif',
+    author: 'Gabriel Barreto',
+    githubLink: 'https://github.com/barretoga'
+
   }
 ];
 
