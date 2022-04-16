@@ -5759,6 +5759,13 @@ let cards = [
     imageLink: './Art/letz/trans.gif',
     author: 'letz0703',
     githubLink: 'https://github.com/letz0703'
+  },
+  {
+    artName: 'Parachute Guy',
+    pageLink: './Art/barretoga/index.html',
+    imageLink: './Art/barretoga/animation.gif',
+    author: 'Gabriel Barreto',
+    githubLink: 'https://github.com/barretoga'
   }
 ];
 
