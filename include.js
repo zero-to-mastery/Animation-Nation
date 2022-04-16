@@ -9,7 +9,7 @@ let cards = [
   {
     artName: 'Goa - Beach',
     pageLink: './Art/Shailesh/index.html',
-    imageLink: './Art/Shailesh/Goa - Beach.jpg', 
+    imageLink: './Art/Shailesh/Goa - Beach.jpg',
     author: 'Shailesh',
     githubLink: 'https://github.com/shaileshkr7'
   },
@@ -5768,7 +5768,7 @@ let cards = [
     githubLink: 'https://github.com/brancore87'
   },
   {
-  artName: 'radar-animation',
+    artName: 'radar-animation',
     pageLink: './Art/radar-animation/index.html',
     imageLink: './Art/radar-animation/radar.gif',
     author: 'Angel Orellana',
