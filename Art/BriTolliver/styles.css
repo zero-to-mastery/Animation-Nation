@@ -1,0 +1,50 @@
+div{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.one {
+	height: 100px;
+	width: 100px;
+	background: #fae3d9;
+	animation: bounce infinite;
+	animation-duration: 1s;
+	border-radius: 100%;
+
+}
+
+.two {
+	height: 100px;
+	width: 100px;
+	background: #bbded6;
+	animation:  bounce infinite;
+	animation-duration: 3s;
+	border-radius: 100%;
+}
+
+.three {
+	height: 100px;
+	width: 100px;
+	background: #ffb6b9;
+	animation:  bounce infinite;
+	animation-duration: 2s;
+	border-radius: 100%;
+} 
+
+.round {
+  -webkit-border-top-left-radius: 1px;
+  -webkit-border-top-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 4px;
+
+  -moz-border-radius-topleft: 1px;
+  -moz-border-radius-topright: 2px;
+  -moz-border-radius-bottomright: 3px;
+  -moz-border-radius-bottomleft: 4px;
+
+  border-top-left-radius: 1px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 4px;
+}
