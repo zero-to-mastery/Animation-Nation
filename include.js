@@ -5780,6 +5780,12 @@ let cards = [
     imageLink: './Art/barretoga/animation.gif',
     author: 'Gabriel Barreto',
     githubLink: 'https://github.com/barretoga'
+  },
+  {
+    artName: 'Loading Logo',
+    pageLink: './Art/magedmohammed/index.html',
+    author: 'Maged Mohammed',
+    githubLink: 'https://github.com/magedmohammed834'
   }
 ];
 
