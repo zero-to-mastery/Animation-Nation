@@ -5780,6 +5780,13 @@ let cards = [
     imageLink: './Art/barretoga/animation.gif',
     author: 'Gabriel Barreto',
     githubLink: 'https://github.com/barretoga'
+  },
+  {
+    artName: 'textSlide',
+    pageLink: './Art/textSlide/index.html',
+    imageLink: './Art/textSlide/textSliding.gif',
+    author: 'Lucas GM',
+    githubLink: 'https://github.com/LucasGM17'
   }
 ];
 
