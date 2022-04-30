@@ -5780,6 +5780,13 @@ let cards = [
     imageLink: './Art/barretoga/animation.gif',
     author: 'Gabriel Barreto',
     githubLink: 'https://github.com/barretoga'
+  },
+  {
+    artName: 'New-Year-Animation',
+    pageLink: './Art/Dipesh/index.html',
+    imageLink: './Art/Dipesh/giphy.gif',
+    author: 'Dipesh',
+    githubLink: 'https://github.com/DipeshBartaula'
   }
 ];
 
