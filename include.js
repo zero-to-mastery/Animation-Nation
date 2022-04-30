@@ -5780,6 +5780,13 @@ let cards = [
     imageLink: './Art/barretoga/animation.gif',
     author: 'Gabriel Barreto',
     githubLink: 'https://github.com/barretoga'
+  },
+  {
+    artName: 'U-turn',
+    pageLink: './Art/baraksArt.index.html',
+    imageLink: './Art/baraksArt/U-turn.gif',
+    author: 'Barak',
+    githubLink: 'https://github.com/bcolovas'
   }
 ];
 
