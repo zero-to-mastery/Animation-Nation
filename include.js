@@ -5789,6 +5789,12 @@ let cards = [
     githubLink: 'https://github.com/barretoga'
   },
   {
+    artName: 'U-turn',
+    pageLink: './Art/baraksArt.index.html',
+    imageLink: './Art/baraksArt/U-turn.gif',
+    author: 'Barak',
+    githubLink: 'https://github.com/bcolovas'
+  },{
     artName: 'Bouncing Balls DF',
     pageLink: './Art/bouncingdf/index.html',
     imageLink: './Art/bouncingdf/bouncingdf.gif',
