@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/shakerdl'
   },
   {
+    artName: 'The Crane',
+    pageLink: './Art/Malik-Makkes/index.html',
+    imageLink: './Art/Malik-Makkes/The-Crane.png',
+    author: 'Malik',
+    githubLink: 'https://github.com/MalikSploit'
+  },
+  {
     artName: 'Goa - Beach',
     pageLink: './Art/Shailesh/index.html',
     imageLink: './Art/Shailesh/Goa - Beach.jpg',
