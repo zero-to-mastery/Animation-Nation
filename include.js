@@ -5807,6 +5807,12 @@ let cards = [
     author: 'Ardian Dharminto',
     githubLink: 'https://github.com/ardiandharminto'
   }
+  {
+    pageLink: './Art/ZTM-Academy/index.html',
+    imageLink: './Art/ZTM-Academy/ztm.gif',
+    author: 'Denis',
+    githubLink: 'https://github.com/denis11m'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
