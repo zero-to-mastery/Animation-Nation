@@ -5789,6 +5789,12 @@ let cards = [
     githubLink: 'https://github.com/barretoga'
   },
   {
+    artName: 'WAnimation',
+    pageLink: './Art/WAnimation/index.html',
+    imageLink: './Art/WAnimation/Animation.gif',
+    author: 'WDevelopsWebApps',
+    githubLink: 'https://github.com/WDevelopsWebApps'
+  },{
     artName: 'textSlide',
     pageLink: './Art/textSlide/index.html',
     imageLink: './Art/textSlide/textSliding.gif',
