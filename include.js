@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/shakerdl'
   },
   {
+    artName: 'The Crane',
+    pageLink: './Art/Malik-Makkes/index.html',
+    imageLink: './Art/Malik-Makkes/The-Crane.png',
+    author: 'Malik',
+    githubLink: 'https://github.com/MalikSploit'
+  },
+  {
     artName: 'Goa - Beach',
     pageLink: './Art/Shailesh/index.html',
     imageLink: './Art/Shailesh/Goa - Beach.jpg',
@@ -5787,6 +5794,48 @@ let cards = [
     imageLink: './Art/baraksArt/U-turn.gif',
     author: 'Barak',
     githubLink: 'https://github.com/bcolovas'
+  },{
+    artName: 'Bouncing Balls DF',
+    pageLink: './Art/bouncingdf/index.html',
+    imageLink: './Art/bouncingdf/bouncingdf.gif',
+    author: 'David Flores',
+    githubLink: 'https://github.com/dflo55'
+  },{
+    artName: 'WAnimation',
+    pageLink: './Art/WAnimation/index.html',
+    imageLink: './Art/WAnimation/Animation.gif',
+    author: 'WDevelopsWebApps',
+    githubLink: 'https://github.com/WDevelopsWebApps'
+  },{
+    artName: 'textSlide',
+    pageLink: './Art/textSlide/index.html',
+    imageLink: './Art/textSlide/textSliding.gif',
+    author: 'Lucas GM',
+    githubLink: 'https://github.com/LucasGM17'
+  },{
+    artName: 'Loading Logo',
+    pageLink: './Art/magedmohammed/index.html',
+    author: 'Maged Mohammed',
+    githubLink: 'https://github.com/magedmohammed834'
+  },{
+    artName: 'Green Loading',
+    pageLink: './Art/KevinMaida/index.html',
+    imageLink: './Art/KevinMaida/loadingGif.gif',
+    author: 'Kevin Maida',
+    githubLink: 'https://github.com/KevinMaida'
+  },
+  {
+    artName: 'Simple Bounce',
+    pageLink: './Art/ardiandharminto/index.html',
+    imageLink: './Art/ardiandharminto/simple-bounce.gif',
+    author: 'Ardian Dharminto',
+    githubLink: 'https://github.com/ardiandharminto'
+  },
+  {
+    pageLink: './Art/ZTM-Academy/index.html',
+    imageLink: './Art/ZTM-Academy/ztm.gif',
+    author: 'Denis',
+    githubLink: 'https://github.com/denis11m'
   }
 ];
 
@@ -5802,14 +5851,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
