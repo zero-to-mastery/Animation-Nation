@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/shakerdl'
   },
   {
+    artName: 'The Crane',
+    pageLink: './Art/Malik-Makkes/index.html',
+    imageLink: './Art/Malik-Makkes/The-Crane.png',
+    author: 'Malik',
+    githubLink: 'https://github.com/MalikSploit'
+  },
+  {
     artName: 'Goa - Beach',
     pageLink: './Art/Shailesh/index.html',
     imageLink: './Art/Shailesh/Goa - Beach.jpg',
@@ -5787,6 +5794,42 @@ let cards = [
     imageLink: './Art/bouncingdf/bouncingdf.gif',
     author: 'David Flores',
     githubLink: 'https://github.com/dflo55'
+  },{
+    artName: 'WAnimation',
+    pageLink: './Art/WAnimation/index.html',
+    imageLink: './Art/WAnimation/Animation.gif',
+    author: 'WDevelopsWebApps',
+    githubLink: 'https://github.com/WDevelopsWebApps'
+  },{
+    artName: 'textSlide',
+    pageLink: './Art/textSlide/index.html',
+    imageLink: './Art/textSlide/textSliding.gif',
+    author: 'Lucas GM',
+    githubLink: 'https://github.com/LucasGM17'
+  },{
+    artName: 'Loading Logo',
+    pageLink: './Art/magedmohammed/index.html',
+    author: 'Maged Mohammed',
+    githubLink: 'https://github.com/magedmohammed834'
+  },{
+    artName: 'Green Loading',
+    pageLink: './Art/KevinMaida/index.html',
+    imageLink: './Art/KevinMaida/loadingGif.gif',
+    author: 'Kevin Maida',
+    githubLink: 'https://github.com/KevinMaida'
+  },
+  {
+    artName: 'Simple Bounce',
+    pageLink: './Art/ardiandharminto/index.html',
+    imageLink: './Art/ardiandharminto/simple-bounce.gif',
+    author: 'Ardian Dharminto',
+    githubLink: 'https://github.com/ardiandharminto'
+  },
+  {
+    pageLink: './Art/ZTM-Academy/index.html',
+    imageLink: './Art/ZTM-Academy/ztm.gif',
+    author: 'Denis',
+    githubLink: 'https://github.com/denis11m'
   }
 ];
 
