@@ -5787,6 +5787,13 @@ let cards = [
     imageLink: './Art/barretoga/animation.gif',
     author: 'Gabriel Barreto',
     githubLink: 'https://github.com/barretoga'
+  },
+  {
+    artName: 'Simple Bounce',
+    pageLink: './Art/ardiandharminto/index.html',
+    imageLink: './Art/ardiandharminto/simple-bounce.gif',
+    author: 'Ardian Dharminto',
+    githubLink: 'https://github.com/ardiandharminto'
   }
 ];
 
