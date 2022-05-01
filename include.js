@@ -5789,6 +5789,12 @@ let cards = [
     githubLink: 'https://github.com/barretoga'
   },
   {
+    artName: 'Animated Bird',
+    pageLink: './Art/sampConrad/index.html',
+    imageLink: './Art/sampConrad/bird.gif',
+    author: 'Conrado Sampaio',
+    githubLink: 'https://github.com/sampconrad'
+  },{
     artName: 'U-turn',
     pageLink: './Art/baraksArt.index.html',
     imageLink: './Art/baraksArt/U-turn.gif',
