@@ -5789,6 +5789,12 @@ let cards = [
     githubLink: 'https://github.com/barretoga'
   },
   {
+    artName: 'Bouncing Balls DF',
+    pageLink: './Art/bouncingdf/index.html',
+    imageLink: './Art/bouncingdf/bouncingdf.gif',
+    author: 'David Flores',
+    githubLink: 'https://github.com/dflo55'
+  },{
     artName: 'WAnimation',
     pageLink: './Art/WAnimation/index.html',
     imageLink: './Art/WAnimation/Animation.gif',
@@ -5839,14 +5845,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
