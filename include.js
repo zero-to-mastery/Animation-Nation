@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/shakerdl'
   },
   {
+    artName: 'The Crane',
+    pageLink: './Art/Malik-Makkes/index.html',
+    imageLink: './Art/Malik-Makkes/The-Crane.png',
+    author: 'Malik',
+    githubLink: 'https://github.com/MalikSploit'
+  },
+  {
     artName: 'Goa - Beach',
     pageLink: './Art/Shailesh/index.html',
     imageLink: './Art/Shailesh/Goa - Beach.jpg',
@@ -5787,6 +5794,12 @@ let cards = [
     imageLink: './Art/KevinMaida/loadingGif.gif',
     author: 'Kevin Maida',
     githubLink: 'https://github.com/KevinMaida'
+  },{
+    artName: 'Simple Bounce',
+    pageLink: './Art/ardiandharminto/index.html',
+    imageLink: './Art/ardiandharminto/simple-bounce.gif',
+    author: 'Ardian Dharminto',
+    githubLink: 'https://github.com/ardiandharminto'
   }
 ];
 
