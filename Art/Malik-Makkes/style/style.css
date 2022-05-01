@@ -1,1 +1,8 @@
-@import url(style-keyframes.css);@import url(style-base.css);@import url(style-400.css) all and (min-width: 400px);@import url(style-800.css) all and (min-width: 800px) and (max-width: 1366px);@import url(style-1367.css) all and (min-width: 1367px);@import url(style-1600.css) all and (min-width: 1600px);@import url(style-fix1.css) all and (min-width: 1367px);@import url(style-fix2.css) all and (min-width: 1367px);
+@import url(style-keyframes.css);
+@import url(style-base.css);
+@import url(style-400.css) all and (min-width: 400px);
+@import url(style-800.css) all and (min-width: 800px) and (max-width: 1366px);
+@import url(style-1367.css) all and (min-width: 1367px);
+@import url(style-1600.css) all and (min-width: 1600px);
+@import url(style-fix1.css) all and (min-width: 1367px);
+@import url(style-fix2.css) all and (min-width: 1367px);
