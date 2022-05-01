@@ -5789,6 +5789,12 @@ let cards = [
     githubLink: 'https://github.com/barretoga'
   },
   {
+    artName: 'Green Loading',
+    pageLink: './Art/KevinMaida/index.html',
+    imageLink: './Art/KevinMaida/loadingGif.gif',
+    author: 'Kevin Maida',
+    githubLink: 'https://github.com/KevinMaida'
+  },{
     artName: 'Simple Bounce',
     pageLink: './Art/ardiandharminto/index.html',
     imageLink: './Art/ardiandharminto/simple-bounce.gif',
