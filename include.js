@@ -5789,6 +5789,12 @@ let cards = [
     githubLink: 'https://github.com/barretoga'
   },
   {
+    artName: 'textSlide',
+    pageLink: './Art/textSlide/index.html',
+    imageLink: './Art/textSlide/textSliding.gif',
+    author: 'Lucas GM',
+    githubLink: 'https://github.com/LucasGM17'
+  },{
     artName: 'Loading Logo',
     pageLink: './Art/magedmohammed/index.html',
     author: 'Maged Mohammed',
@@ -5806,7 +5812,7 @@ let cards = [
     imageLink: './Art/ardiandharminto/simple-bounce.gif',
     author: 'Ardian Dharminto',
     githubLink: 'https://github.com/ardiandharminto'
-  }
+  },
   {
     pageLink: './Art/ZTM-Academy/index.html',
     imageLink: './Art/ZTM-Academy/ztm.gif',
