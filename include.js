@@ -5794,7 +5794,8 @@ let cards = [
     imageLink: './Art/KevinMaida/loadingGif.gif',
     author: 'Kevin Maida',
     githubLink: 'https://github.com/KevinMaida'
-  },{
+  },
+  {
     artName: 'Simple Bounce',
     pageLink: './Art/ardiandharminto/index.html',
     imageLink: './Art/ardiandharminto/simple-bounce.gif',
