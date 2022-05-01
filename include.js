@@ -5780,6 +5780,13 @@ let cards = [
     imageLink: './Art/barretoga/animation.gif',
     author: 'Gabriel Barreto',
     githubLink: 'https://github.com/barretoga'
+  },
+  {
+    artName: 'Animated Bird',
+    pageLink: './Art/sampConrad/index.html',
+    imageLink: './Art/sampConrad/bird.gif',
+    author: 'Conrado Sampaio',
+    githubLink: 'https://github.com/sampconrad'
   }
 ];
 
