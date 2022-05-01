@@ -5789,6 +5789,11 @@ let cards = [
     githubLink: 'https://github.com/barretoga'
   },
   {
+    artName: 'Loading Logo',
+    pageLink: './Art/magedmohammed/index.html',
+    author: 'Maged Mohammed',
+    githubLink: 'https://github.com/magedmohammed834'
+  },{
     artName: 'Green Loading',
     pageLink: './Art/KevinMaida/index.html',
     imageLink: './Art/KevinMaida/loadingGif.gif',
