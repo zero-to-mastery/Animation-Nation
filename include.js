@@ -5794,36 +5794,42 @@ let cards = [
     imageLink: './Art/sampConrad/bird.gif',
     author: 'Conrado Sampaio',
     githubLink: 'https://github.com/sampconrad'
-  },{
+  },
+  {
     artName: 'U-turn',
     pageLink: './Art/baraksArt.index.html',
     imageLink: './Art/baraksArt/U-turn.gif',
     author: 'Barak',
     githubLink: 'https://github.com/bcolovas'
-  },{
+  },
+  {
     artName: 'Bouncing Balls DF',
     pageLink: './Art/bouncingdf/index.html',
     imageLink: './Art/bouncingdf/bouncingdf.gif',
     author: 'David Flores',
     githubLink: 'https://github.com/dflo55'
-  },{
+  },
+  {
     artName: 'WAnimation',
     pageLink: './Art/WAnimation/index.html',
     imageLink: './Art/WAnimation/Animation.gif',
     author: 'WDevelopsWebApps',
     githubLink: 'https://github.com/WDevelopsWebApps'
-  },{
+  },
+  {
     artName: 'textSlide',
     pageLink: './Art/textSlide/index.html',
     imageLink: './Art/textSlide/textSliding.gif',
     author: 'Lucas GM',
     githubLink: 'https://github.com/LucasGM17'
-  },{
+  },
+  {
     artName: 'Loading Logo',
     pageLink: './Art/magedmohammed/index.html',
     author: 'Maged Mohammed',
     githubLink: 'https://github.com/magedmohammed834'
-  },{
+  },
+  {
     artName: 'Green Loading',
     pageLink: './Art/KevinMaida/index.html',
     imageLink: './Art/KevinMaida/loadingGif.gif',
