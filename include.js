@@ -5843,6 +5843,13 @@ let cards = [
     author: 'Denis',
     githubLink: 'https://github.com/denis11m'
   }
+  {
+    pageLink: './Art/HeartbrokenPotato/index.html',
+    imageLink: './Art/HeartbrokenPotato/HP.png',
+    author: 'mosimiDev',
+    githubLink: 'https://github.com/mosimiDev'
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+

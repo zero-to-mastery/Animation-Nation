@@ -1,0 +1,144 @@
+html{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  background: linear-gradient(to right, #636363, #a2ab58);
+}
+.potato-head{
+  background: rgb(255, 251, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 0 auto;
+  height: 130px;
+  border-radius: 200px 200px 0 0;
+  position: static;
+}
+.right-eye{
+  background: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 60px;
+  position: relative;
+  left: 60px;
+}
+.left-eye{
+  background: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 60px;
+  position: relative;
+  left: 90px;
+}
+.mouth{
+  width: 50px;
+  background: black;
+  height: 5px;
+  position: relative;
+  top: 50px;
+  left: 30px;
+  border-radius: 2px;
+}
+.potato-body{
+background: yellow;
+width: 300px;
+height: 300px;
+border-radius: 30px 30px 60px 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+
+
+
+.bigheart{
+  position: relative;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+.bigheart::before,.bigheart::after{
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: rgb(248, 14, 14);
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.bigheart:after{
+  left: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin :100% 100%;
+}
+@keyframes heartbeat{
+  0% {
+    transform: scale(.75);
+  }
+  
+  20% {
+    transform: scale(1);
+  }
+  
+  40% {
+    transform: scale(.75);
+  }
+  
+  60% {
+    transform: scale(1);
+  }
+  
+  80% {
+    transform: scale(.75);
+  }
+  
+  100% {
+    transform: scale(.75);
+  }
+}
+
+
+
+
+.torso{
+  display:flex;
+  justify-content: space-evenly;
+}
+.right-leg{
+  width: 45px;
+  height: 150px;
+  background: yellow;
+  border-radius:0px 0px 20px 20px;
+  margin-left: 40%;
+}
+.left-leg{
+  width: 45px;
+  height: 150px;
+  background: yellow;
+  border-radius:0px 0px 20px 20px;
+  margin-right:40%;
+} 
