@@ -5848,6 +5848,12 @@ let cards = [
     imageLink: './Art/ZTM-Academy/ztm.gif',
     author: 'Denis',
     githubLink: 'https://github.com/denis11m'
+  },
+  {
+    pageLink: './Art/evropa/index.html',
+    imageLink: './Art/evropa/drift.gif',
+    author: 'evropa',
+    githubLink: 'https://github.com/evropa'
   }
 ];
 
