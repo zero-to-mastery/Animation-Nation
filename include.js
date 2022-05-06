@@ -5850,6 +5850,12 @@ let cards = [
     githubLink: 'https://github.com/denis11m'
   },
   {
+    pageLink: './Art/evropa/index.html',
+    imageLink: './Art/evropa/drift.gif',
+    author: 'evropa',
+    githubLink: 'https://github.com/evropa'
+  },
+  {
     artName: 'animatron_av',
     pageLink: './Art/animatron_av/index.html',
     imageLink: './Art/Joy/triangle/trance.gif',
