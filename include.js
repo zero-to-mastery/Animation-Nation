@@ -5854,7 +5854,14 @@ let cards = [
     imageLink: './Art/evropa/drift.gif',
     author: 'evropa',
     githubLink: 'https://github.com/evropa'
-  }
+  },
+  {
+    artName: 'animatron_av',
+    pageLink: './Art/animatron_av/index.html',
+    imageLink: './Art/Joy/triangle/trance.gif',
+    author: 'Alex',
+    githubLink: 'https://github.com/averde1973'
+  }  
 ];
 
 // +--------------------------------------------------------------------------------+
