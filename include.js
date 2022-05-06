@@ -5861,7 +5861,7 @@ let cards = [
     imageLink: './Art/Joy/triangle/trance.gif',
     author: 'Alex',
     githubLink: 'https://github.com/averde1973'
-  }  
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
