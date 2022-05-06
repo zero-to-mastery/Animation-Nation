@@ -5848,7 +5848,14 @@ let cards = [
     imageLink: './Art/ZTM-Academy/ztm.gif',
     author: 'Denis',
     githubLink: 'https://github.com/denis11m'
-  }
+  },
+  {
+    artName: 'animatron_av',
+    pageLink: './Art/animatron_av/index.html',
+    imageLink: './Art/Joy/triangle/trance.gif',
+    author: 'Alex',
+    githubLink: 'https://github.com/averde1973'
+  }  
 ];
 
 // +--------------------------------------------------------------------------------+
