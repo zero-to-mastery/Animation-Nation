@@ -5863,7 +5863,7 @@ let cards = [
     githubLink: 'https://github.com/averde1973'
   },
   {
-    artName : "animationzone",
+    artName: 'animationzone',
     pageLink: './Art/animationzone/index.html',
     imageLink: './Art/animationzone/ezgif.com-gif-maker',
     author: 'Erez',
