@@ -5870,6 +5870,7 @@ let cards = [
     githubLink: 'https://github.com/ErezAvni9'
   },
   {
+    artName: 'Loading animation',
     pageLink: './Art/graphitexhd/index.html',
     imageLink: './Art/graphitexhd/animation.gif',
     author: 'Graphitexhd',
