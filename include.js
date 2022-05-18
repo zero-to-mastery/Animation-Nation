@@ -5868,6 +5868,12 @@ let cards = [
     imageLink: './Art/animationzone/ezgif.com-gif-maker',
     author: 'Erez',
     githubLink: 'https://github.com/ErezAvni9'
+  },
+  {
+    pageLink: './Art/graphitexhd/index.html',
+    imageLink: './Art/graphitexhd/animation.gif',
+    author: 'Graphitexhd',
+    githubLink: 'https://github.com/graphitexhd'
   }
 ];
 
