@@ -5870,8 +5870,8 @@ let cards = [
     githubLink: 'https://github.com/ErezAvni9'
   },
   {
+    artName: 'brotation',
     pageLink: './Art/box-rotate-animation/index.html',
-    imageLink: '',
     author: 'Andrey',
     githubLink: 'https://github.com/Life1sOk'
   }
