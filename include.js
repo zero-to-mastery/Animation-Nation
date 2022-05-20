@@ -5868,6 +5868,12 @@ let cards = [
     imageLink: './Art/animationzone/ezgif.com-gif-maker',
     author: 'Erez',
     githubLink: 'https://github.com/ErezAvni9'
+  },
+  {
+    pageLink: './Art/box-rotate-animation/index.html',
+    imageLink: '',
+    author: 'Andrey',
+    githubLink: 'https://github.com/Life1sOk'
   }
 ];
 
