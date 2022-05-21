@@ -1,22 +1,33 @@
 * {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 body {
     height: 100vh;
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(103,89,221,1) 18%, rgba(252,70,107,1) 100%);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 
 .container {
     height: 60vh;
     width: 30vw;
-    position: absolute;
     top: 50vh;
     left: 50vw;
+    position: absolute;
     transform: translate(-50%, -50%);
     perspective: 1000px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        top: 50vh;
+        left: 30vh;
+    }
 }
 
 .box {
