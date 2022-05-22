@@ -5870,6 +5870,13 @@ let cards = [
     githubLink: 'https://github.com/ErezAvni9'
   },
   {
+    artName: 'brotation',
+    pageLink: './Art/box-rotate-animation/index.html',
+    imageLink: './Art/box-rotate-animation/brotation.gif',
+    author: 'Andrey',
+    githubLink: 'https://github.com/Life1sOk'
+  },
+  {
     artName: 'Loading animation',
     pageLink: './Art/graphitexhd/index.html',
     imageLink: './Art/graphitexhd/animation.gif',
