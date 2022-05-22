@@ -5875,7 +5875,8 @@ let cards = [
     imageLink: './Art/graphitexhd/animation.gif',
     author: 'Graphitexhd',
     githubLink: 'https://github.com/graphitexhd'
-  },{
+  },
+  {
     artName: 'Our Solar System',
     pageLink: './Art/bryanRillstone/index.html',
     imageLink: './Art/bryanRillstone/Solar-System.gif',
