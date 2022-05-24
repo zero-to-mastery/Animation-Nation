@@ -5889,6 +5889,13 @@ let cards = [
     imageLink: './Art/bryanRillstone/Solar-System.gif',
     author: 'Bryan Rillstone',
     githubLink: 'https://github.com/bryanrillstone'
+  },
+  {
+    artName: '3-rotation',
+    pageLink: './Art/shuvo/index.html',
+    imageLink: './Art/shuvo/animation.gif',
+    author: 'shuvo',
+    githubLink: 'https://github.com/Leoshuvo'
   }
 ];
 
