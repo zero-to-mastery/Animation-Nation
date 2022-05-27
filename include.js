@@ -5870,7 +5870,6 @@ let cards = [
     githubLink: 'https://github.com/ErezAvni9'
   },
   {
-
     artName: 'Rolling Cat',
     pageLink: './Art/ssoppet1/index.html',
     imageLink: './Art/ssoppet1/cat.gif',
