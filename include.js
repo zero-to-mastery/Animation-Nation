@@ -5870,6 +5870,14 @@ let cards = [
     githubLink: 'https://github.com/ErezAvni9'
   },
   {
+
+    artName: 'Rolling Cat',
+    pageLink: './Art/ssoppet1/index.html',
+    imageLink: './Art/ssoppet1/cat.gif',
+    author: 'Stacy',
+    githubLink: 'https://github.com/ssoppet1'
+  },
+  {
     artName: 'brotation',
     pageLink: './Art/box-rotate-animation/index.html',
     imageLink: './Art/box-rotate-animation/brotation.gif',
