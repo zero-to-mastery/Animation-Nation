@@ -5896,6 +5896,13 @@ let cards = [
     imageLink: './Art/shuvo/animation.gif',
     author: 'shuvo',
     githubLink: 'https://github.com/Leoshuvo'
+  },
+  {
+    artName: 'viskarra',
+    pageLink: './Art/viskarra/index.html',
+    imageLink: './Art/viskarra/imgif.gif',
+    author: 'Viskarra',
+    githubLink: 'https://github.com/viskarra'
   }
 ];
 
