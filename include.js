@@ -5891,6 +5891,13 @@ let cards = [
     githubLink: 'https://github.com/bryanrillstone'
   },
   {
+    artName: '3-rotation',
+    pageLink: './Art/shuvo/index.html',
+    imageLink: './Art/shuvo/animation.gif',
+    author: 'shuvo',
+    githubLink: 'https://github.com/Leoshuvo'
+  },
+  {
     artName: 'viskarra',
     pageLink: './Art/viskarra/index.html',
     imageLink: './Art/viskarra/imgif.gif',
