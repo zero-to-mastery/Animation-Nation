@@ -46,6 +46,7 @@ Now, once you've forked this repo and got a local version up on your computer, f
 let cards = [
   //  Add your card in this section
   {
+    artName: 'Your art name here',
     pageLink: './Art/Joy/triangle/triangle.html',
     imageLink: './Art/Joy/triangle/triangle.gif',
     author: 'Joy',
