@@ -5875,6 +5875,34 @@ let cards = [
     imageLink: './Art/ssoppet1/cat.gif',
     author: 'Stacy',
     githubLink: 'https://github.com/ssoppet1'
+  },
+  {
+    artName: 'brotation',
+    pageLink: './Art/box-rotate-animation/index.html',
+    imageLink: './Art/box-rotate-animation/brotation.gif',
+    author: 'Andrey',
+    githubLink: 'https://github.com/Life1sOk'
+  },
+  {
+    artName: 'Loading animation',
+    pageLink: './Art/graphitexhd/index.html',
+    imageLink: './Art/graphitexhd/animation.gif',
+    author: 'Graphitexhd',
+    githubLink: 'https://github.com/graphitexhd'
+  },
+  {
+    artName: 'Our Solar System',
+    pageLink: './Art/bryanRillstone/index.html',
+    imageLink: './Art/bryanRillstone/Solar-System.gif',
+    author: 'Bryan Rillstone',
+    githubLink: 'https://github.com/bryanrillstone'
+  },
+  {
+    artName: 'viskarra',
+    pageLink: './Art/viskarra/index.html',
+    imageLink: './Art/viskarra/imgif.gif',
+    author: 'Viskarra',
+    githubLink: 'https://github.com/viskarra'
   }
 ];
 
