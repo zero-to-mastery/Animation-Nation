@@ -1,0 +1,45 @@
+#three {
+    width: 100px;
+    height: 100px;
+    background: rgb(178, 11, 207);
+    transition: width 2s, height 2s, transform 2s;
+  }
+#three:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+  }
+#one {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(45, 243, 31);
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+  }
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+#two {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 24, 252);
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse;  
+  }
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
