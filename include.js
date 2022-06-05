@@ -5905,7 +5905,7 @@ let cards = [
     githubLink: 'https://github.com/viskarra'
   },
   {
-    artName: 'Fishyy',
+    artName: 'Fishy',
     pageLink: './Art/Mayorman/index.html',
     imageLink: './Art/Mayorman/Fishy-Screen-Rec.gif',
     author: 'Mayowa',
