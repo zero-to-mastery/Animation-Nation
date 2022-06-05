@@ -5910,6 +5910,13 @@ let cards = [
     imageLink: './Art/Robin/chessBoardDanceFloor.gif',
     author: 'Robin',
     githubLink: 'https://github.com/robinpunn'
+  },
+  {
+    artName: 'The Beach',
+    pageLink: './Art/Jon-Bull/index.html',
+    imageLink: './Art/Jon-Bull/beach.gif',
+    author: 'Jon',
+    githubLink: 'https://github.com/Jon-Bull'
   }
 ];
 
