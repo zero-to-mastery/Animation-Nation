@@ -5911,15 +5911,7 @@ let cards = [
     author: 'Robin',
     githubLink: 'https://github.com/robinpunn'
   }
-  {
-    artName: 'Fishyy',
-    pageLink: './Art/Mayorman/index.html',
-    imageLink: './Art/Mayorman/Fishy-Screen-Rec.gif',
-    author: 'Mayowa',
-    githubLink: 'https://github.com/Mayorman07'
-  }
 ];
-
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
