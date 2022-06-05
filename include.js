@@ -5903,11 +5903,10 @@ let cards = [
     imageLink: './Art/viskarra/imgif.gif',
     author: 'Viskarra',
     githubLink: 'https://github.com/viskarra'
-  },
-  {
-    artName: 'Fishy',
-    pageLink: './Art/Mayorman/index.html',
-    imageLink: './Art/Mayorman/Fishy-Screen-Rec.gif',
+  },{
+    artName: 'Fishie',
+    pageLink: './Art/Mayorwa/index.html',
+    imageLink: './Art/Mayorwa/fish.gif',
     author: 'Mayowa',
     githubLink: 'https://github.com/Mayorman07'
   }
