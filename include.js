@@ -5903,7 +5903,7 @@ let cards = [
     imageLink: './Art/viskarra/imgif.gif',
     author: 'Viskarra',
     githubLink: 'https://github.com/viskarra'
-  }
+  },
   {
     artName: 'Fishyy',
     pageLink: './Art/Mayorman/index.html',
