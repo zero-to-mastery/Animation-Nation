@@ -5903,6 +5903,13 @@ let cards = [
     imageLink: './Art/viskarra/imgif.gif',
     author: 'Viskarra',
     githubLink: 'https://github.com/viskarra'
+  },
+  {
+    artName: 'Chess Board Dance Floor',
+    pageLink: './Art/Robin/index.html',
+    imageLink: './Art/Robin/chessBoardDanceFloor.gif',
+    author: 'Robin',
+    githubLink: 'https://github.com/robinpunn'
   }
   {
     artName: 'Fishyy',
