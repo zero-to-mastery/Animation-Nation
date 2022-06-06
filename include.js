@@ -5925,6 +5925,13 @@ let cards = [
     author: 'Jon',
     githubLink: 'https://github.com/Jon-Bull'
   }
+  {
+    artName: 'Loading screen',
+    pageLink: './Art/ShueiYang/index.html',
+    imageLink: './Art/ShueiYang/Loading.gif',
+    author: 'ShueiYang',
+    githubLink: 'https://github.com/ShueiYang'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
