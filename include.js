@@ -5917,6 +5917,13 @@ let cards = [
     imageLink: './Art/Mayorman/Fishy-Screen-Rec.gif',
     author: 'Mayowa',
     githubLink: 'https://github.com/Mayorman07'
+  },
+  {
+    artName: 'The Beach',
+    pageLink: './Art/Jon-Bull/index.html',
+    imageLink: './Art/Jon-Bull/beach.gif',
+    author: 'Jon',
+    githubLink: 'https://github.com/Jon-Bull'
   }
 ];
 
