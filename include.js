@@ -5918,6 +5918,13 @@ let cards = [
     author: 'Mayowa',
     githubLink: 'https://github.com/Mayorman07'
   }
+  {
+    artName: 'Loading screen',
+    pageLink: './Art/ShueiYang/index.html',
+    imageLink: './Art/ShueiYang/Loading.gif',
+    author: 'ShueiYang',
+    githubLink: 'https://github.com/ShueiYang'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
