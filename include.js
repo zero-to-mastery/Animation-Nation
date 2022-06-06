@@ -5910,9 +5910,9 @@ let cards = [
     imageLink: './Art/Robin/chessBoardDanceFloor.gif',
     author: 'Robin',
     githubLink: 'https://github.com/robinpunn'
-  }
+  },
   {
-    artName: 'Fishyy',
+    artName: 'Fishy',
     pageLink: './Art/Mayorman/index.html',
     imageLink: './Art/Mayorman/Fishy-Screen-Rec.gif',
     author: 'Mayowa',
