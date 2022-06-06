@@ -5905,6 +5905,13 @@ let cards = [
     githubLink: 'https://github.com/viskarra'
   },
   {
+    artName: 'Chess Board Dance Floor',
+    pageLink: './Art/Robin/index.html',
+    imageLink: './Art/Robin/chessBoardDanceFloor.gif',
+    author: 'Robin',
+    githubLink: 'https://github.com/robinpunn'
+  },
+  {
     artName: 'Fishy',
     pageLink: './Art/Mayorman/index.html',
     imageLink: './Art/Mayorman/Fishy-Screen-Rec.gif',
