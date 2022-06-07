@@ -5891,6 +5891,13 @@ let cards = [
     githubLink: 'https://github.com/graphitexhd'
   },
   {
+    artName: 'Moving_Square',
+    pageLink: './Art/moving_square/index.html',
+    imageLink: './Art/moving_square/square.gif',
+    author: 'Muhannad',
+    githubLink: 'https://github.com/MuhannadBaraghith'
+  }
+  {
     artName: 'Our Solar System',
     pageLink: './Art/bryanRillstone/index.html',
     imageLink: './Art/bryanRillstone/Solar-System.gif',
