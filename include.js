@@ -5924,7 +5924,7 @@ let cards = [
     imageLink: './Art/Jon-Bull/beach.gif',
     author: 'Jon',
     githubLink: 'https://github.com/Jon-Bull'
-  }
+  },
   {
     artName: 'Loading screen',
     pageLink: './Art/ShueiYang/index.html',
