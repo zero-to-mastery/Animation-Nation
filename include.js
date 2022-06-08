@@ -5932,6 +5932,13 @@ let cards = [
     author: 'ShueiYang',
     githubLink: 'https://github.com/ShueiYang'
   }
+  {
+    artName: 'Myganimation',
+    pageLink: './Art/Joy/Myganimation/index.html',
+    imageLink: './Art/Joy/Myganimation/ganimation.gif',
+    author: 'Alan',
+    githubLink: 'https://github.com/AlanGonzalez2022'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
