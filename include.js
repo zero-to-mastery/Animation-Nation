@@ -5889,7 +5889,7 @@ let cards = [
     imageLink: './Art/bryanRillstone/Solar-System.gif',
     author: 'Bryan Rillstone',
     githubLink: 'https://github.com/bryanrillstone'
-  }, 
+  },
   {
     artName: 'Let\'s Get Started!',
     pageLink: './Art/imaadfakier/index.html',
