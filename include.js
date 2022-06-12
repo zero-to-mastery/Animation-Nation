@@ -5931,6 +5931,13 @@ let cards = [
     imageLink: './Art/ShueiYang/Loading.gif',
     author: 'ShueiYang',
     githubLink: 'https://github.com/ShueiYang'
+  },
+  {
+    artName: 'Get Started',
+    pageLink: './Art/imaadfakier/index.html',
+    imageLink: './Art/imaadfakier/Loading.gif',
+    author: 'Imaad Fakier',
+    githubLink: 'https://github.com/imaadfakier'
   }
 ];
 
