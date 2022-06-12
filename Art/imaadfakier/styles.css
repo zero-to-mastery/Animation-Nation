@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+a{
+    position: relative;
+    background: #0690fd;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    box-shadow: 0 20px 25px #0690fd44;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+}
+
+a:hover{
+    width: 200px;
+    transition-delay: 0.5s;
+}
+
+a::before{
+    content: '';
+    position: absolute;
+    right: 25px;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(45deg);
+}
+
+a:hover::before{
+    transform: rotate(45deg) translate(50px,-50px);
+}
+
+a::after{
+    content: '';
+    position: absolute;
+    left: -50px;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: 
+    rotate(45deg) translate(-50px,50px);
+}
+
+a:hover::after{
+    transform: rotate(45deg) translate(50px,-50px);
+    transition-delay: 1s;
+}
+
+a span{
+    visibility: hidden;
+    opacity: 0;
+    white-space: nowrap;
+    transition: 0.5s;
+    transform: translate(-30px);
+}
+
+a:hover span{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.75s;
+    transform: translateX(10px);
+}

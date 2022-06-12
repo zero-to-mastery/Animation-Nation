@@ -5889,6 +5889,13 @@ let cards = [
     imageLink: './Art/bryanRillstone/Solar-System.gif',
     author: 'Bryan Rillstone',
     githubLink: 'https://github.com/bryanrillstone'
+  }, 
+  {
+    artName: 'Let\'s Get Started!',
+    pageLink: './Art/imaadfakier/index.html',
+    imageLink: './Art/imaadfakier/get_started.gif',
+    author: 'Imaad Fakier',
+    githubLink: 'https://github.com/imaadfakier'
   }
 ];
 
