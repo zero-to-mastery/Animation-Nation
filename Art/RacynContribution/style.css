@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #6f8caa;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+
+  margin: 80px auto;
+  height: 60vh;
+  background-color: rgb(78, 119, 105);
+  width: 30vw;
+  border: 1px solid transparent;
+  border-radius: 9px;
+}
+
+.ball {
+  border-radius: 50%;
+  background: #000;
+  margin-bottom: 20px;
+  height: 70px;
+  width: 70px;
+
+  animation: bounce 0.9s infinite;
+  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+}
+
+.ball-1 {
+  animation-name: bounce-3;
+  animation-timing-function: ease;
+}
+@keyframes bounce-3 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.ball-2 {
+  animation-name: bounce-2;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+}
+@keyframes bounce-2 {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-100px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+.ball-3 {
+  animation-name: bounce-1;
+  animation-timing-function: ease;
+}
+@keyframes bounce-1 {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-100px);
+  }
+  50% {
+    transform: scale(1, 1) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
