@@ -5934,10 +5934,10 @@ let cards = [
   },
   {
     artName: 'Diffrent bounce',
-    pageLink: './Art/RacynContribution/index.html,
-    imageLink: './Art/ShueiYang/Loading.gif',
-    author: 'ShueiYang',
-    githubLink: 'https://github.com/ShueiYang'
+    pageLink: './Art/RacynContribution/index.html',
+    imageLink: './Art/RacynContribution/index.html',
+    author: 'Racyn',
+    githubLink: 'https://github.com/racynibaya'
   }
 ];
 
