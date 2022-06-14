@@ -5933,6 +5933,13 @@ let cards = [
     githubLink: 'https://github.com/ShueiYang'
   },
   {
+    artName: 'Get Started',
+    pageLink: './Art/imaadfakier/index.html',
+    imageLink: './Art/imaadfakier/Loading.gif',
+    author: 'Imaad Fakier',
+    githubLink: 'https://github.com/imaadfakier'
+  },
+  {
     artName: 'Diffrent bounce',
     pageLink: './Art/RacynContribution/index.html',
     imageLink: './Art/RacynContribution/index.html',
