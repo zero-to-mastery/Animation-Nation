@@ -1,5 +1,13 @@
 let cards = [
   {
+    artName: 'A-list',
+    pageLink: './Art/A-list/triangle/index.html',
+    imageLink: './Art/A-list/triangle/trance.gif',
+    author: 'Mike',
+    githubLink: 'https://github.com/mikelammy'
+  },
+
+  { 
     artName: 'Shakerdl',
     pageLink: './Art/Joy/shakerdl/index.html',
     imageLink: './Art/Joy/shakerdl/shrinking.gif',
