@@ -5931,6 +5931,13 @@ let cards = [
     imageLink: './Art/ShueiYang/Loading.gif',
     author: 'ShueiYang',
     githubLink: 'https://github.com/ShueiYang'
+  },
+  {
+    artName: 'Hover Transition',
+    pageLink: './Art/Hover-Transition/index.html',
+    imageLink: './Art/Hover-Transition/transition.gif',
+    author: 'Esinnation',
+    githubLink: 'https://github.com/esinnation'
   }
 ];
 
