@@ -5945,6 +5945,13 @@ let cards = [
     imageLink: './Art/BoxPM/trance2.gif',
     author: 'Pradeep',
     githubLink: 'https://github.com/Pmakaju'
+  },
+  {
+    artName: 'Wave Ring',
+    pageLink: './Art/JinalPatel/Wavering/wavering.html',
+    imageLink: './Art/JinalPatel/Wavering/wavering.gif',
+    author: 'Jinal Patel',
+    githubLink: 'https://github.com/JinalPatel17'
   }
 ];
 
