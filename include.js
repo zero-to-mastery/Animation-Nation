@@ -5938,6 +5938,13 @@ let cards = [
     imageLink: './Art/imaadfakier/Loading.gif',
     author: 'Imaad Fakier',
     githubLink: 'https://github.com/imaadfakier'
+  },
+  {
+    artName: 'Esinnatron',
+    pageLink: './Art/Esinnatron/index.html',
+    imageLink: './Art/Esinnatron/transition.gif',
+    author: 'Esinnation',
+    githubLink: 'https://github.com/esinnation'
   }
 ];
 
