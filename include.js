@@ -5945,6 +5945,13 @@ let cards = [
     imageLink: './Art/Esinnatron/transition.gif',
     author: 'Esinnation',
     githubLink: 'https://github.com/esinnation'
+  },
+  {
+    artName: 'BoxPM',
+    pageLink: './Art/BoxPM/index.html',
+    imageLink: './Art/BoxPM/trance2.gif',
+    author: 'Pradeep',
+    githubLink: 'https://github.com/Pmakaju'
   }
 ];
 
