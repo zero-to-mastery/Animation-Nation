@@ -5938,6 +5938,13 @@ let cards = [
     imageLink: './Art/imaadfakier/Loading.gif',
     author: 'Imaad Fakier',
     githubLink: 'https://github.com/imaadfakier'
+  },
+  {
+    artName: 'BoxPM',
+    pageLink: './Art/BoxPM/index.html',
+    imageLink: './Art/BoxPM/trance2.gif',
+    author: 'Pradeep',
+    githubLink: 'https://github.com/Pmakaju'
   }
 ];
 
