@@ -5931,7 +5931,7 @@ let cards = [
     imageLink: './Art/ShueiYang/Loading.gif',
     author: 'ShueiYang',
     githubLink: 'https://github.com/ShueiYang'
-  }
+  },
   {
     artName: 'Myganimation',
     pageLink: './Art/Joy/Myganimation/index.html',
