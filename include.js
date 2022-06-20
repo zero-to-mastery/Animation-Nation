@@ -5945,6 +5945,13 @@ let cards = [
     imageLink: './Art/BoxPM/trance2.gif',
     author: 'Pradeep',
     githubLink: 'https://github.com/Pmakaju'
+  },
+  {
+    artName: 'Samination',
+    pageLink: './Art/Samination/index.html',
+    imageLink: './Art/Samination/samination.gif',
+    author: 'Sami',
+    githubLink: 'https://github.com/samialmaradni97'
   }
 ];
 
