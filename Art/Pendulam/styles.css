@@ -40,6 +40,7 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    box-shadow: inset 0 0 30px black;
 }
 .center1 {
     transform: translateX(-22px);
@@ -61,7 +62,7 @@ body {
         transform: translateX(-66px) rotate(0); 
     }
     25% {
-        transform: translateX(-66px) rotate(45deg); 
+        transform: translateX(-66px) rotate(40deg); 
     }
     50% {        
         transform: translateX(-66px) rotate(0); 
@@ -75,7 +76,7 @@ body {
         transform: translateX(66px) rotate(0); 
     }
     25% {
-        transform: translateX(66px) rotate(-45deg); 
+        transform: translateX(66px) rotate(-40deg); 
     }
     50% {
         transform: translateX(66px) rotate(0); 

@@ -5945,6 +5945,13 @@ let cards = [
     imageLink: './Art/BoxPM/trance2.gif',
     author: 'Pradeep',
     githubLink: 'https://github.com/Pmakaju'
+  },
+  {
+    artName: 'Pendulam',
+    pageLink: './Art/Pendulam/index.html',
+    imageLink: './Art/Pendulam/swinging_pendulam.gif',
+    author: 'Dinesh',
+    githubLink: 'https://github.com/dinesh-729'
   }
 ];
 
