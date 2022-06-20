@@ -5959,6 +5959,13 @@ let cards = [
     imageLink: './Art/JinalPatel/Wavering/wavering.gif',
     author: 'Jinal Patel',
     githubLink: 'https://github.com/JinalPatel17'
+  },
+  {
+    artName: 'Robo',
+    pageLink: './Art/AustinCRobot/index.html',
+    imageLink: './Art/AustinCRobot/Robopage.gif',
+    author: 'Austin',
+    githubLink: 'https://github.com/austincomstock'
   }
 ];
 
