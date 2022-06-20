@@ -5959,7 +5959,7 @@ let cards = [
     imageLink: './Art/JinalPatel/Wavering/wavering.gif',
     author: 'Jinal Patel',
     githubLink: 'https://github.com/JinalPatel17'
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
