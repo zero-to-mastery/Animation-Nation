@@ -5960,6 +5960,13 @@ let cards = [
     author: 'Jinal Patel',
     githubLink: 'https://github.com/JinalPatel17'
   }
+  {
+    artName: 'Animationed1',
+    pageLink: './Art/Animationed1/index.html',
+    imageLink: './Art/Animationed1/Animationed1.gif',
+    author: 'Ghazanfar Ali',
+    githubLink: 'https://github.com/ghazanfarali1994'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
