@@ -5963,7 +5963,7 @@ let cards = [
   {
     artName: 'Robo',
     pageLink: './Art/AustinCRobot/index.html',
-    imageLink: './Art/AustinCRobot/Robopage.gif',
+    imageLink: './Art/AustinCRobot/Robo-Gif.gif',
     author: 'Austin',
     githubLink: 'https://github.com/austincomstock'
   }
