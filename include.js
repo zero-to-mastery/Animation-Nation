@@ -5947,11 +5947,26 @@ let cards = [
     githubLink: 'https://github.com/Pmakaju'
   },
   {
+<<<<<<< HEAD
     artName: 'Samination',
     pageLink: './Art/Samination/index.html',
     imageLink: './Art/Samination/samination.gif',
     author: 'Sami',
     githubLink: 'https://github.com/samialmaradni97'
+=======
+    artName: 'Pendulam',
+    pageLink: './Art/Pendulam/index.html',
+    imageLink: './Art/Pendulam/swinging_pendulam.gif',
+    author: 'Dinesh',
+    githubLink: 'https://github.com/dinesh-729'
+  },
+  {
+    artName: 'Wave Ring',
+    pageLink: './Art/JinalPatel/Wavering/wavering.html',
+    imageLink: './Art/JinalPatel/Wavering/wavering.gif',
+    author: 'Jinal Patel',
+    githubLink: 'https://github.com/JinalPatel17'
+>>>>>>> master
   }
 ];
 
