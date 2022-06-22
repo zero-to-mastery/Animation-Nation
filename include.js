@@ -5967,6 +5967,14 @@ let cards = [
     author: 'Esinnation',
     githubLink: 'https://github.com/esinnation'
   }
+
+  {
+    artName: 'Loading',
+    pageLink: './Art/jxzanimation/index.html',
+    imageLink: './Art/jxzanimation/loadingdots.png.gif',
+    author: 'Jaz',
+    githubLink: 'https://github.com/jxz3'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+

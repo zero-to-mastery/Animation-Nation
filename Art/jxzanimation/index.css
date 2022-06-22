@@ -1,0 +1,58 @@
+.overlay{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:auto;
+    height:100vh;
+  }
+
+  .ball{
+    width:30px;
+    height:30px;
+    border-radius:15px;
+    background:rgb(0, 0, 0);
+    opacity:0.3;
+  }
+  .a{
+    margin-right:10px;
+    animation: ball-a 0.7s ease-out 0s infinite alternate;
+
+  }
+  .b{
+    margin-right:10px;
+    animation: ball-b 0.7s ease-out 0.2s infinite alternate;
+  }
+  .c{
+    animation: ball-c 0.7s ease-out 0.4s infinite alternate;
+  }
+ 
+  @keyframes ball-a {
+    from{
+      height:20px;
+      opacity:0.3;
+      background:rgb(255, 122, 235);}
+    to{
+      height:70px;
+      opacity:1;
+      background:#a755ff;}
+  }
+  @keyframes ball-b {
+    from{
+      height:20px;
+      opacity:0.3;
+      background:rgb(255, 136, 229);}
+    to{
+      height:65px;
+      opacity:1;
+      background:#ff5555;}
+  }
+  @keyframes ball-c {
+    from{
+      height:20px;
+      opacity:0.3;
+      background:rgb(119, 207, 255);}
+    to{
+      height:60px;
+      opacity:1;
+      background:#60ffbf;}
+  }
