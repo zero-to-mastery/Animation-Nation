@@ -5966,6 +5966,13 @@ let cards = [
     imageLink: './Art/Esinnaton/transition.gif',
     author: 'Esinnation',
     githubLink: 'https://github.com/esinnation'
+  },
+  {
+    artName: 'Snowfall',
+    pageLink: './Art/chrisguenther/index.html',
+    imageLink: './Art/chrisguenther/Snowfall.gif',
+    author: 'Chris Guenther',
+    githubLink: 'https://github.com/cmguenther'
   }
 ];
 
