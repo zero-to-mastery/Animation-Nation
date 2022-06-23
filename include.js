@@ -5966,7 +5966,7 @@ let cards = [
     imageLink: './Art/Esinnaton/transition.gif',
     author: 'Esinnation',
     githubLink: 'https://github.com/esinnation'
-  }
+  },
 
   {
     artName: 'Loading',
