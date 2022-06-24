@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100;400&family=Oswald:wght@200&family=Poiret+One&family=Smooch&family=Tajawal:wght@300&display=swap');
+body{
+    display:flex;
+    animation: colorfull 1s infinite;
+    justify-content: center;
+   font-family: 'Smooch', cursive,sans-serif;
+}
+@keyframes colorfull {
+    0%{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,53,121,0.6362920168067228) 35%, rgba(0,212,255,1) 100%);
+    }
+    100%{
+        background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(184,17,93,0.6362920168067228) 35%, rgba(0,212,255,1) 100%);
+
+    }
+    
+}
+.container{
+
+    align-self: center;
+    text-align: center;
+
+}
+h1{
+    animation: flip 2s infinite;
+    
+    color:white;
+    font-size: 3rem;
+
+}
+@keyframes flip {
+    from{
+        transform:rotateX(0deg);
+        transform:rotateY(0deg);
+    }
+    to{
+        transform:rotateX(360deg);
+        transform:rotateY(360deg);
+    }
+}

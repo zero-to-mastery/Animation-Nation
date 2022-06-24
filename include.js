@@ -5966,6 +5966,12 @@ let cards = [
     imageLink: './Art/Esinnaton/transition.gif',
     author: 'Esinnation',
     githubLink: 'https://github.com/esinnation'
+  },
+  {
+    artName: 'gradientAnimation',
+    pageLink: './Art/my-animation-ayesh/index.html',
+    author: 'mohammed ayesh',
+    githubLink: 'https://github.com/lol500q'
   }
 ];
 
