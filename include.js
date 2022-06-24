@@ -5973,6 +5973,13 @@ let cards = [
     imageLink: './Art/Esinnaton/transition.gif',
     author: 'Esinnation',
     githubLink: 'https://github.com/esinnation'
+  },
+  {
+    artName: 'Spining Numbers',
+    pageLink: './Art/jamesnjovu/index.html',
+    imageLink: './Art/jamesnjovu/number.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/jamesnjovu'
   }
 ];
 
