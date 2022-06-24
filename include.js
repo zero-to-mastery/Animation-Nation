@@ -5959,6 +5959,13 @@ let cards = [
     imageLink: './Art/JinalPatel/Wavering/wavering.gif',
     author: 'Jinal Patel',
     githubLink: 'https://github.com/JinalPatel17'
+  },
+  {
+    artName: 'Circular ring',
+    pageLink: './Art/NeenaBarwal/circularring/index.html',
+    imageLink: './Art/NeenaBarwal/circularring/cring.gif',
+    author: 'Neena Barwal',
+    githubLink: 'https://github.com/NeenaBarwal'
   }
 ];
 
