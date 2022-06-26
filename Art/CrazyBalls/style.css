@@ -1,17 +1,7 @@
-html, body {
-    height: 100%;
-    max-width: max-content;
-	margin: auto;
-}
-.main {
-    height: 100%;
-    width: 100%;
-    display: table;
-}
-.wrapper {
-    display: table-cell;
-    height: 100%;
-    vertical-align: middle;
+body {
+   margin: 135px 0 0 430px;
+   background-color: white;
+   background-size: 400% 400%;
 }
 .parent{
 	height: 140px;
