@@ -5973,6 +5973,13 @@ let cards = [
     imageLink: './Art/jamesnjovu/number.gif',
     author: 'Joy',
     githubLink: 'https://github.com/jamesnjovu'
+  },
+  {
+    artName: 'CrazyBalls',
+    pageLink: './Art/CrazyBalls/index.html',
+    imageLink: './Art/CrazyBalls/balls.gif',
+    author: 'Rohan Bobby',
+    githubLink: 'https://github.com/rohanbobby01'
   }
 ];
 
