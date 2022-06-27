@@ -1,72 +1,86 @@
-body {
-  margin: 135px 0 0 430px;
-  background-color: white;
-  background-size: 400% 400%;
+html, body {
+    height: 100%;
+    max-width: max-content;
+	margin: auto;
 }
-.parent {
-  height: 140px;
-  width: 140px;
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.parent{
+	height: 140px;
+	width: 140px;
 }
 
 .child {
-  width: 70px;
-  height: 70px;
-  background: red;
-  border-radius: 50%;
-  animation: left-to-right 1s ease-in forwards infinite alternate;
+	width: 70px;
+	height: 70px;
+	background: red;
+	border-radius: 50%;
+	animation: left-to-right 1s ease-in forwards infinite alternate;
 }
-.parent:hover .child {
-  animation-play-state: paused;
+.parent:hover .child{
+	animation-play-state: paused; 
 }
 .child2 {
-  width: 70px;
-  height: 70px;
-  background: red;
-  border-radius: 50%;
-  animation: right-to-left 1s ease-in forwards infinite alternate;
+	width: 70px;
+	height: 70px;
+	background: red;
+	border-radius: 50%;
+	animation: right-to-left 1s ease-in forwards infinite alternate;
 }
-.parent:hover .child2 {
-  animation-play-state: paused;
+.parent:hover .child2{
+	animation-play-state: paused; 
 }
-@keyframes left-to-right {
-  0% {
-    transform: translateX(0%);
-  }
+@keyframes left-to-right{
+	0% {
+		transform: translateX(0%);
+	}
 
-  33% {
-    transform: translateY(100%);
-  }
-  50% {
-    background-color: #f3db74ff;
-  }
+	33% {
+		transform: translateY(100%);
+	
+	}
+	50% {
+		background-color: #F3DB74FF;
+	}
 
-  66% {
-    transform: translateX(100%) translateY(100%);
-  }
+	66% {
+		transform: translateX(100%) translateY(100%);
+	}
 
-  100% {
-    background-color: #a13941ff;
-    transform: translateX(100%);
-  }
+
+	100% {
+		background-color: #A13941FF;
+		transform: translateX(100%);
+	}
 }
-@keyframes right-to-left {
-  0% {
-    background-color: white;
-    transform: translateX(100%);
-  }
+@keyframes right-to-left{
+	0% {
+		background-color: white;
+		transform: translateX(100%);
+	}
 
-  33% {
-    transform: translateX(100%) translateY(100%);
-  }
-  50% {
-    background-color: #f0e1b9ff;
-  }
+	33% {
+		transform: translateX(100%) translateY(100%);
+	
+	}
+	50% {
+		background-color: #F0E1B9FF;
+	}
 
-  66% {
-    transform: translateY(100%);
-  }
+	66% {
+		transform: translateY(100%);
+	}
 
-  100% {
-    transform: translateX(0%);
-  }
+
+	100% {
+		transform: translateX(0%);
+	}
 }
