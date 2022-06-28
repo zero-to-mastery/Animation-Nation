@@ -5987,6 +5987,13 @@ let cards = [
     imageLink: './Art/Joy/simple_Circle_Animation/circle_animation.gif',
     author: 'dw',
     githubLink: 'https://github.com/dwthefirst'
+  },
+  {
+    artName: 'Bird Animation',
+    pageLink: './Art/david-ae/index.html',
+    imageLink: './Art/david-ae/Bird-Animation.gif',
+    author: 'David Edet',
+    githubLink: 'https://github.com/david-ae'
   }
 ];
 
