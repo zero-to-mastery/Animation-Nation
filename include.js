@@ -5980,6 +5980,13 @@ let cards = [
     imageLink: './Art/CrazyBalls/balls.gif',
     author: 'Rohan Bobby',
     githubLink: 'https://github.com/rohanbobby01'
+  }, 
+  {
+    artName: 'Simple Circle Animation',
+    pageLink: './Art/simple_Circle_Animation/index.html',
+    imageLink: './Art/Joy/simple_Circle_Animation/circle_animation.gif',
+    author: 'dw',
+    githubLink: 'https://github.com/dwthefirst'
   }
 ];
 
