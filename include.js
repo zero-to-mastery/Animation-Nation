@@ -5989,6 +5989,13 @@ let cards = [
     githubLink: 'https://github.com/dwthefirst'
   },
   {
+    artName: 'Matrix Animation',
+    pageLink: './Art/TenmaChinen/index.html',
+    imageLink: './Art/TenmaChinen/matrix_animation.gif',
+    author: 'Tenma Chinen',
+    githubLink: 'https://github.com/TenmaChinen'
+  },
+  {
     artName: 'Crazy Cat',
     pageLink: './Art/sikumiku/index.html',
     imageLink: './Art/sikumiku/crazy_cat.gif',
