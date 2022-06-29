@@ -5987,6 +5987,13 @@ let cards = [
     imageLink: './Art/Joy/simple_Circle_Animation/circle_animation.gif',
     author: 'dw',
     githubLink: 'https://github.com/dwthefirst'
+  },
+  {
+    artName: 'Crazy Cat',
+    pageLink: './Art/sikumiku/index.html',
+    imageLink: './Art/sikumiku/crazy_cat.gif',
+    author: 'Sigrid',
+    githubLink: 'https://github.com/sikumiku'
   }
 ];
 
