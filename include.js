@@ -5987,6 +5987,13 @@ let cards = [
     imageLink: './Art/Joy/simple_Circle_Animation/circle_animation.gif',
     author: 'dw',
     githubLink: 'https://github.com/dwthefirst'
+  },
+  {
+    artName: 'Matrix Animation',
+    pageLink: './Art/TenmaChinen/index.html',
+    imageLink: './Art/TenmaChinen/matrix_animation.gif',
+    author: 'Tenma Chinen',
+    githubLink: 'https://github.com/TenmaChinen'
   }
 ];
 
