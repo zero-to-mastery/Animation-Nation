@@ -5987,6 +5987,13 @@ let cards = [
     imageLink: './Art/Joy/simple_Circle_Animation/circle_animation.gif',
     author: 'dw',
     githubLink: 'https://github.com/dwthefirst'
+  },
+  {
+    artName: 'Animatron',
+    pageLink: './Art/kenmirwell/index.html',
+    imageLink: './Art/Joy/trance.gif',
+    author: 'km',
+    githubLink: 'https://github.com/kenmirwell'
   }
 ];
 
