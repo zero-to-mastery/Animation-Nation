@@ -5994,6 +5994,13 @@ let cards = [
     imageLink: './Art/TenmaChinen/matrix_animation.gif',
     author: 'Tenma Chinen',
     githubLink: 'https://github.com/TenmaChinen'
+  },
+  {
+    artName: 'Crazy Cat',
+    pageLink: './Art/sikumiku/index.html',
+    imageLink: './Art/sikumiku/crazy_cat.gif',
+    author: 'Sigrid',
+    githubLink: 'https://github.com/sikumiku'
   }
 ];
 
