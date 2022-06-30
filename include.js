@@ -5938,7 +5938,15 @@ let cards = [
     imageLink: './Art/imaadfakier/Loading.gif',
     author: 'Imaad Fakier',
     githubLink: 'https://github.com/imaadfakier'
+  },
+  {
+    artName: 'Charts',
+    pageLink: './Art/Andiz/index.html',
+    imageLink: './Art/andiz/andiz.jpg',
+    author: 'Andrei D',
+    githubLink: 'https://github.com/andiz2'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+

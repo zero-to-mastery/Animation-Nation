@@ -1,0 +1,63 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  height: 60px;
+  position:relative;
+}
+
+.a {width: 90%; background-color: #f44336;  animation-name: example, slidein;
+  animation-duration: 6s; animation-iteration-count: 2;} /* closed */
+.b {width: 80%; background-color: #FF5300;  animation-name: example2, slidein2;
+  animation-duration: 6s; animation-iteration-count: 2;} /* Blue */
+.c {width: 60%; background-color: #FF7A00; animation: mymove 5s;
+ animation-iteration-count: 2; animation-timing-function: ease;} /* Red */
+.d {width: 40%; background-color: #FFAA00; animation: mymove 5s;
+ animation-iteration-count: 2; animation-timing-function: ease-in;} /* open */
+
+@keyframes example {
+  from {background-color: #f44336;}
+  to {background-color: #FF7A00;}
+}
+@keyframes example2 {
+  from {background-color: #FF5300;}
+  to {background-color: yellow;}
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 90%;
+  }
+}
+
+@keyframes slidein2 {
+  from {
+    margin-left: 100%;
+    width: 90%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 80%;
+  }
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
