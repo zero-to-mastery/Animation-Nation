@@ -6001,6 +6001,13 @@ let cards = [
     imageLink: './Art/sikumiku/crazy_cat.gif',
     author: 'Sigrid',
     githubLink: 'https://github.com/sikumiku'
+  },
+  {
+    artName: 'Magic',
+    pageLink: './Art/dmwspace/index.html',
+    imageLink: './Art/dmwspace/magic.gif',
+    author: 'Dean',
+    githubLink: 'https://github.com/dmwspace'
   }
 ];
 
