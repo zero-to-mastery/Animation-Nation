@@ -5961,6 +5961,13 @@ let cards = [
     githubLink: 'https://github.com/JinalPatel17'
   },
   {
+    artName: 'Samination',
+    pageLink: './Art/Samination/index.html',
+    imageLink: './Art/Samination/samination.gif',
+    author: 'Sami',
+    githubLink: 'https://github.com/samialmaradni97'
+  },
+  {
     artName: 'Esinnaton',
     pageLink: './Art/Esinnaton/index.html',
     imageLink: './Art/Esinnaton/transition.gif',
