@@ -5980,6 +5980,41 @@ let cards = [
     imageLink: './Art/jamesnjovu/number.gif',
     author: 'Joy',
     githubLink: 'https://github.com/jamesnjovu'
+  },
+  {
+    artName: 'CrazyBalls',
+    pageLink: './Art/CrazyBalls/index.html',
+    imageLink: './Art/CrazyBalls/balls.gif',
+    author: 'Rohan Bobby',
+    githubLink: 'https://github.com/rohanbobby01'
+  },
+  {
+    artName: 'Simple Circle Animation',
+    pageLink: './Art/simple_Circle_Animation/index.html',
+    imageLink: './Art/Joy/simple_Circle_Animation/circle_animation.gif',
+    author: 'dw',
+    githubLink: 'https://github.com/dwthefirst'
+  },
+  {
+    artName: 'Matrix Animation',
+    pageLink: './Art/TenmaChinen/index.html',
+    imageLink: './Art/TenmaChinen/matrix_animation.gif',
+    author: 'Tenma Chinen',
+    githubLink: 'https://github.com/TenmaChinen'
+  },
+  {
+    artName: 'Crazy Cat',
+    pageLink: './Art/sikumiku/index.html',
+    imageLink: './Art/sikumiku/crazy_cat.gif',
+    author: 'Sigrid',
+    githubLink: 'https://github.com/sikumiku'
+  },
+  {
+    artName: 'Magic',
+    pageLink: './Art/dmwspace/index.html',
+    imageLink: './Art/dmwspace/magic.gif',
+    author: 'Dean',
+    githubLink: 'https://github.com/dmwspace'
   }
 ];
 
