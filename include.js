@@ -6015,6 +6015,13 @@ let cards = [
     imageLink: './Art/dmwspace/magic.gif',
     author: 'Dean',
     githubLink: 'https://github.com/dmwspace'
+  },
+  {
+    artName: 'Button Effect',
+    pageLink: './Art/Jatin-7/index.html',
+    imageLink: './Art/Jatin-7/btn.gif',
+    author: 'Jatin-7',
+    githubLink: 'https://github.com/Jatin-7'
   }
 ];
 
