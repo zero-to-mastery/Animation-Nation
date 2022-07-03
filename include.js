@@ -6027,7 +6027,7 @@ let cards = [
     artName: 'Bird Animation',
     pageLink: './Art/bird_animation/index.html',
     imageLink: './Art/bird_animation/bird-animation.gif',
-    author: 'tarunmankar',
+    author: 'Tarun Mankar',
     githubLink: 'https://github.com/tarunmankar'
   }
 ];
