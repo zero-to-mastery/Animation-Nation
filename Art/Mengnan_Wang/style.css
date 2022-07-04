@@ -1,44 +1,44 @@
 h1 {
-    margin-top: 1.5em;
-    position:relative;
-    text-align: center;
-    color: coral;
-    font-size: 48px;
+  margin-top: 1.5em;
+  position: relative;
+  text-align: center;
+  color: coral;
+  font-size: 48px;
 }
 
 div {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    position: relative;
-    margin-left: 37%;
-    animation: circle 4s infinite;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 37%;
+  animation: circle 4s infinite;
 }
 
 @keyframes circle {
-    0% {
-        background-color: red;
-        left: 0px;
-        top: 0px;
-    }
-    25% {
-        background-color: yellow;
-        left: 200px;
-        top: 0px;
-    }
-    50% {
-        background-color: blue;
-        left: 200px;
-        top: 200px;
-    }
-    75% {
-        background-color: green;
-        left: 0px;
-        top: 200px;
-    }
-    100% {
-        background-color: red;
-        left: 0px;
-        top: 0px;
-    }
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
 }
