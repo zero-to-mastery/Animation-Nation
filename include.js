@@ -6029,6 +6029,13 @@ let cards = [
     imageLink: './Art/bird_animation/bird-animation.gif',
     author: 'Tarun Mankar',
     githubLink: 'https://github.com/tarunmankar'
+  },
+  {
+    artName: 'Rainbow Circle',
+    pageLink: './Art/Mengnan_Wang/rainbow_circle.html',
+    imageLink: './Art/Mengnan_Wang/rainbow_circle.gif',
+    author: 'Mengnan Wang',
+    githubLink: 'https://github.com/Mengnan-Wang'
   }
 ];
 
