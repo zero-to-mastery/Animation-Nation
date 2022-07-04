@@ -6031,6 +6031,13 @@ let cards = [
     githubLink: 'https://github.com/tarunmankar'
   },
   {
+    artName: 'Rainbow Circle',
+    pageLink: './Art/Mengnan_Wang/rainbow_circle.html',
+    imageLink: './Art/Mengnan_Wang/rainbow_circle.gif',
+    author: 'Mengnan Wang',
+    githubLink: 'https://github.com/Mengnan-Wang'
+  },
+  {
     artName: 'Phillys Animation',
     pageLink: './Art/phillysrevenge/index.html',
     imageLink: './Art/phillysrevenge/web.gif',
