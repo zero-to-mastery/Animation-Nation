@@ -6043,6 +6043,13 @@ let cards = [
     imageLink: './Art/phillysrevenge/web.gif',
     author: 'phillysrevenge',
     githubLink: 'https://github.com/phillysrevenge'
+  },
+  {
+    artName: 'largebox',
+    pageLink: './Art/largebox/index.html',
+    imageLink: './Art/largebox/box.gif',
+    author: 'rajmishra-47',
+    githubLink: 'https://github.com/rajmishra-47'
   }
 ];
 
