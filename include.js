@@ -6036,6 +6036,13 @@ let cards = [
     imageLink: './Art/Mengnan_Wang/rainbow_circle.gif',
     author: 'Mengnan Wang',
     githubLink: 'https://github.com/Mengnan-Wang'
+  },
+  {
+    artName: 'Phillys Animation',
+    pageLink: './Art/phillysrevenge/index.html',
+    imageLink: './Art/phillysrevenge/web.gif',
+    author: 'phillysrevenge',
+    githubLink: 'https://github.com/phillysrevenge'
   }
 ];
 
