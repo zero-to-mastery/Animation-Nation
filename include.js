@@ -6050,6 +6050,13 @@ let cards = [
     imageLink: './Art/largebox/box.gif',
     author: 'rajmishra-47',
     githubLink: 'https://github.com/rajmishra-47'
+  },
+  {
+    artName: 'Animatron',
+    pageLink: './Art/bitflippa27/animatron/index.html',
+    imageLink: './Art/bitflippa27/animatron/trance.gif',
+    author: 'BitFlippa27',
+    githubLink: 'https://github.com/BitFlippa27'
   }
 ];
 
