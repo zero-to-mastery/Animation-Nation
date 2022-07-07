@@ -1,0 +1,183 @@
+body {
+    background-color: lightblue;
+}
+.container {
+    top:100px;
+    margin: auto;
+    position: relative;
+    height: 5px;
+    width: 1000px;
+}
+.face {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    height:80px;
+    width:150px;
+    margin:auto ;
+    background-color: black;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 160px;
+    width: 220px;
+    z-index: -1;
+    background-color: white;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.body {
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+top: 36rem;
+bottom: 0;
+height: 230px;
+width: 260px;
+background-color: white;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px;
+}
+.left-eye {
+position: absolute;
+top: 75px;
+left: 0;
+right: 50px;
+margin: auto;
+height: 15px;
+width: 20px;
+background-color: blue;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 80px;
+border-bottom-right-radius: 80px;
+}
+.right-eye {
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    right: 0;
+    margin: auto;
+    height: 15px;
+    width: 20px;
+    background-color: blue;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;   
+}
+.left-arm {
+    position: absolute;
+    top: 550px;
+    left: 0;
+    right: 310px;
+    margin: auto;
+    bottom: 0;
+    height: 180px;
+    width: 40px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 200px; 
+    animation-name: left;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.right-arm {
+    position: absolute;
+    top: 550px;
+    left: 310px;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    height: 180px;
+    width: 40px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 40px;
+    animation-name: right;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;     
+}
+.left-leg {
+    position: absolute;
+    top: 900px;
+    left: 0;
+    right: 80px;
+    margin: auto;
+    bottom: 0;
+    height: 125px;
+    width: 40px;
+    background-color: white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    animation-name: left;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;     
+}    
+.right-leg {
+    position: absolute;
+    top: 900px;
+    left: 80px;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    height: 125px;
+    width: 40px;
+    background-color: white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;   
+    animation-name: right;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes right {
+0%{ transform: rotateZ(0deg) translatex(0px); background-color: rgb(115, 183, 206);}
+25%{transform: rotateZ(-10deg) translatex(10px); background-color: rgb(65, 132, 155);}
+50%{ transform: rotateZ(-15deg) translatex(15px); background-color: rgb(34, 127, 158);}
+75%{transform: rotateZ(-20deg) translatex(20px); background-color: rgb(8, 91, 119);}
+100%{ transform: rotatez(-25deg) translatex(25px) ; background-color: blue;}
+}
+@keyframes left {
+    0%{ transform: rotateZ(0deg) translatex(0px); background-color: rgb(115, 183, 206);}
+    25%{transform: rotateZ(10deg) translatex(-10px); background-color: rgb(65, 135, 158);}
+    50%{ transform: rotateZ(15deg) translatex(-15px); background-color: rgb(34, 127, 158);}
+    75%{transform: rotateZ(20deg) translatex(-20px); background-color: rgb(14, 100, 129);}
+    100%{ transform: rotatez(25deg) translatex(-25px) ; background-color: blue;}     
+}
+
+
+@media only screen and (max-width:500px) {
+    h1 {
+        display: none;
+    }
+}

@@ -6050,9 +6050,17 @@ let cards = [
     imageLink: './Art/largebox/box.gif',
     author: 'rajmishra-47',
     githubLink: 'https://github.com/rajmishra-47'
+  },
+  {
+    artName: 'Robot-2.0',
+    pageLink: './Art/Robot-2.0/index.html',
+    imageLink: './Art/Robot-2.0/robo.gif',
+    author: 'Nabil Ahmed',
+    githubLink: 'https://github.com/nabil-github0'
   }
 ];
 
+ 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
