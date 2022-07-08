@@ -6057,7 +6057,14 @@ let cards = [
     imageLink: './Art/Robot-2.0/robo.gif',
     author: 'Nabil Ahmed',
     githubLink: 'https://github.com/nabil-github0'
-  }
+  },
+  {
+      artName: 'Damian Box',
+      pageLink: './Art/DamiAnim/index.html',
+      imageLink: './Art/DamiAnim/giphy.gif',
+      author: 'Damian Padilla',
+      githubLink: 'https://github.com/Damianpad'
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
