@@ -6064,6 +6064,13 @@ let cards = [
     imageLink: './Art/DamiAnim/giphy.gif',
     author: 'Damian Padilla',
     githubLink: 'https://github.com/Damianpad'
+  },
+{
+    artName: 'Pretty-Simple',
+    pageLink: './Art/Asier/index.html',
+    imageLink: './Art/Asier/Pretty-Simple.gif',
+    author: 'Asier-D-Reveire',
+    githubLink: 'https://github.com/Asier-D-Reveire'
   }
 ];
 
