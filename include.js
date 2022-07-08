@@ -6059,12 +6059,12 @@ let cards = [
     githubLink: 'https://github.com/nabil-github0'
   },
   {
-      artName: 'Damian Box',
-      pageLink: './Art/DamiAnim/index.html',
-      imageLink: './Art/DamiAnim/giphy.gif',
-      author: 'Damian Padilla',
-      githubLink: 'https://github.com/Damianpad'
-    }
+    artName: 'Damian Box',
+    pageLink: './Art/DamiAnim/index.html',
+    imageLink: './Art/DamiAnim/giphy.gif',
+    author: 'Damian Padilla',
+    githubLink: 'https://github.com/Damianpad'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+

@@ -1,38 +1,35 @@
 .parent {
-    background-color: #071D26;
-    height: 400px;
-    width: 100%;
+  background-color: #071d26;
+  height: 400px;
+  width: 100%;
 }
 
 .child {
-    background-color: #3E6E8C;
-    height: 10%;
-    width: 10%;
-    transition: transform 1s ease-in;
-    animation: left-to-right 1s ease-in forwards infinite alternate;
+  background-color: #3e6e8c;
+  height: 10%;
+  width: 10%;
+  transition: transform 1s ease-in;
+  animation: left-to-right 1s ease-in forwards infinite alternate;
 }
 
 .parent:hover .child {
-    background-color: #0B2B40;
-
-
-
+  background-color: #0b2b40;
 }
 
 @keyframes left-to-right {
-    0% {
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(0);
+  }
 
-    33% {
-        transform: translateY(400%);
-    }
+  33% {
+    transform: translateY(400%);
+  }
 
-    66% {
-        transform: translateX(800%) translateY(800%);
-    }
+  66% {
+    transform: translateX(800%) translateY(800%);
+  }
 
-    100% {
-        transform: translateX(0);
-    }
+  100% {
+    transform: translateX(0);
+  }
 }
