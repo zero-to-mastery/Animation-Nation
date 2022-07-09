@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  animation: animate4 3s infinite ease-in-out;
+}
+
+@keyframes animate4 {
+  0% {
+    background-color: hotpink;
+  }
+  25% {
+    background-color: white;
+  }
+  50% {
+    background-color: indianred;
+  }
+  75% {
+    background-color: white;
+  }
+  100% {
+    background-color: hotpink;
+  }
+}
+
+.animatee {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5),
+    0px 0px 10px 0px rgba(255, 255, 255, 0.5),
+    0px 0px 10px 0px rgba(255, 255, 255, 0.5),
+    0px 0px 10px 0px rgba(255, 255, 255, 0.5),
+    0px 0px 10px 0px rgba(255, 255, 255, 0.5),
+    0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  animation: animate 3s infinite;
+}
+.animatee:nth-child(2) {
+  animation: animate2 3s infinite;
+}
+
+@keyframes animate2 {
+  0% {
+    background-color: hotpink;
+    transform: translateX(-158px) scale(0.5);
+  }
+  25% {
+    background-color: white;
+  }
+  50% {
+    background-color: indianred;
+    transform: translateX(158px) scale(0.4) rotateY(360deg);
+  }
+  75% {
+    background-color: white;
+  }
+  100% {
+    background-color: hotpink;
+    transform: translateX(-158px) scale(0.5);
+  }
+}
+
+.animatee:nth-child(3) {
+  animation: animate3 3s infinite;
+}
+
+@keyframes animate3 {
+  0% {
+    background-color: red;
+    transform: scale(0.5);
+  }
+
+  50% {
+    background-color: indianred;
+    transform: scale(0.4);
+  }
+  100% {
+    background-color: red;
+    transform: scale(0.5);
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-color: pink;
+    transform: scale(0.5);
+  }
+  50% {
+    background-color: pink;
+    transform: scale(0.4);
+  }
+  100% {
+    background-color: hotpink;
+    transform: scale(0.5);
+  }
+}
+.container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}

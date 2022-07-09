@@ -6052,11 +6052,25 @@ let cards = [
     githubLink: 'https://github.com/rajmishra-47'
   },
   {
-    artName: 'Animatron',
-    pageLink: './Art/bitflippa27/animatron/index.html',
-    imageLink: './Art/bitflippa27/animatron/trance.gif',
-    author: 'BitFlippa27',
-    githubLink: 'https://github.com/BitFlippa27'
+    artName: 'Robot-2.0',
+    pageLink: './Art/Robot-2.0/index.html',
+    imageLink: './Art/Robot-2.0/robo.gif',
+    author: 'Nabil Ahmed',
+    githubLink: 'https://github.com/nabil-github0'
+  },
+  {
+    artName: 'Damian Box',
+    pageLink: './Art/DamiAnim/index.html',
+    imageLink: './Art/DamiAnim/giphy.gif',
+    author: 'Damian Padilla',
+    githubLink: 'https://github.com/Damianpad'
+  },
+  {
+    artName: 'Pretty-Simple',
+    pageLink: './Art/Asier/index.html',
+    imageLink: './Art/Asier/Pretty-Simple.gif',
+    author: 'Asier-D-Reveire',
+    githubLink: 'https://github.com/Asier-D-Reveire'
   }
 ];
 

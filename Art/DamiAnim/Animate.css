@@ -1,0 +1,35 @@
+.parent {
+  background-color: #071d26;
+  height: 400px;
+  width: 100%;
+}
+
+.child {
+  background-color: #3e6e8c;
+  height: 10%;
+  width: 10%;
+  transition: transform 1s ease-in;
+  animation: left-to-right 1s ease-in forwards infinite alternate;
+}
+
+.parent:hover .child {
+  background-color: #0b2b40;
+}
+
+@keyframes left-to-right {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    transform: translateY(400%);
+  }
+
+  66% {
+    transform: translateX(800%) translateY(800%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
