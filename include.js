@@ -6065,7 +6065,7 @@ let cards = [
     author: 'Damian Padilla',
     githubLink: 'https://github.com/Damianpad'
   },
-{
+  {
     artName: 'Pretty-Simple',
     pageLink: './Art/Asier/index.html',
     imageLink: './Art/Asier/Pretty-Simple.gif',
