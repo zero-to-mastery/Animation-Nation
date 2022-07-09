@@ -1,0 +1,121 @@
+body{
+  background-color: rgba(20, 19, 19, 0.966);
+}
+
+.outer{
+  width:100px;
+  height:100px;
+  background: transparent;
+  margin:5%;
+  margin-top:25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: myanimateouter;
+  animation-duration:5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+
+.inner{
+  width: 50px;
+  height: 50px;
+  background-color:rgb(39, 5, 71);
+  border:1px solid black;
+  position:relative;
+  animation-name: myanimate;
+  animation-duration:5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+
+h1{
+  text-align: center;
+  padding: 0px 25px;
+  color: rgb(180, 172, 172);
+  animation: lightning;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  border:1px dotted green;
+}
+
+@keyframes lightning {
+  50%{opacity:0}
+  80%{opactiy:0.5}
+}
+@keyframes myanimate {
+  0%
+  {
+    background-color: rgb(39, 5, 71);
+    border:1px solid black;
+  }
+  25%
+  {
+    background-color: rgb(63, 7, 116); 
+    transform: rotate(90deg);
+    border:2px dotted black;
+  }
+  50%
+  {
+    background-color: rgb(126, 9, 87); 
+    transform: rotate(180deg);
+    border: 1px solid black;
+  }
+  75%
+  {
+    background-color: rgb(165, 25, 25); 
+    transform: rotate(270deg);
+    border: 1px dotted black;
+  }
+  100%
+  {
+    background-color: rgb(179, 0, 0); 
+    transform:rotate(360deg);
+    border: 1px solid black;
+  }
+}
+
+
+
+@keyframes myanimateouter {
+  0%
+  {
+    left:0%;top:0px;
+    border: 2px solid rgb(39, 5, 71);
+    transform: scale(1);
+  }
+  25%
+  {
+    left:20%;top:0px;
+    border:2px solid rgb(63, 7, 116);
+    transform: scale(0.8);
+  }
+  50%
+  {
+    left:40%;top:0px;
+    border:2px solid rgb(126, 9, 87);
+    transform: scale(0.5);
+  }
+  75%
+  {
+    left:60%;top:0px;
+    border: 2px solid rgb(165, 25, 25);
+    transform: scale(0.8);
+  }
+  100%
+  {
+    left:80%;top:0px;
+    border: 1px solid rgb(179, 0, 0); 
+    transform:scale(1);
+  }
+}
