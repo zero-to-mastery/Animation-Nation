@@ -6071,6 +6071,13 @@ let cards = [
     imageLink: './Art/Asier/Pretty-Simple.gif',
     author: 'Asier-D-Reveire',
     githubLink: 'https://github.com/Asier-D-Reveire'
+  },
+  {
+    artName: 'Can You Feel My Heartbeat',
+    pageLink: './Art/can-you-feel-my-heartbeat/index.html',
+    imageLink: './Art/can-you-feel-my-heartbeat/heartbeat.png',
+    author: 'Vanessa Vun',
+    githubLink: 'https://github.com/vanessavun'
   }
 ];
 
