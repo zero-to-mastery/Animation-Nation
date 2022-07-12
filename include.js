@@ -6072,6 +6072,13 @@ let cards = [
     author: 'Asier-D-Reveire',
     githubLink: 'https://github.com/Asier-D-Reveire'
   }
+    {
+    artName: 'SamSui',
+    pageLink: './Art/SamSui/index.html',
+    imageLink: './Art/SamSui/trance.gif',
+    author: 'Sam',
+    githubLink: 'https://github.com/yongsui1995'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
