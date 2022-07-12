@@ -6079,6 +6079,14 @@ let cards = [
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
   }
+
+  {
+    artName: 'Bouncebox',
+    pageLink: './Art/Bouncebox/index.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Zack',
+    githubLink: 'https://github.com/ZJones23'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
