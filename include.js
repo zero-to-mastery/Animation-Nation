@@ -6071,7 +6071,15 @@ let cards = [
     imageLink: './Art/Asier/Pretty-Simple.gif',
     author: 'Asier-D-Reveire',
     githubLink: 'https://github.com/Asier-D-Reveire'
+  },
+  {
+    artName: 'Stars',
+    pageLink: './Art/Stars/index.html',
+    imageLink: './Art/Stars/stars.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
