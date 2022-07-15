@@ -1,0 +1,125 @@
+h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
+}
+
+.multicolor-text {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    rgb(131, 90, 161),
+    rgb(82, 170, 82),
+    rgb(109, 109, 240),
+    rgb(239, 239, 135),
+    rgb(245, 198, 112),
+    rgb(246, 82, 82)
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.animate__animated.animate__flash {
+    --animate-duration: 6s;
+  }
+
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 1fr;
+}
+
+.box-1 {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(217, 134, 180);
+  animation-name: example;
+  animation-duration: 6s;
+}
+
+.box-2 {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(217, 134, 180);
+  animation-name: example-2;
+  animation-duration: 6s;
+}
+
+.box-3 {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(217, 134, 180);
+  animation-name: example-3;
+  animation-duration: 6s;
+}
+
+.box-4 {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(217, 134, 180);
+  animation-name: example-4;
+  animation-duration: 6s;
+}
+
+@keyframes example {
+  0% {
+    background-color: rgb(217, 134, 180);
+  }
+  25% {
+    background-color: rgb(222, 168, 231);
+  }
+  50% {
+    background-color: rgb(164, 201, 238);
+  }
+  100% {
+    background-color: rgb(161, 217, 161);
+  }
+}
+
+@keyframes example-2 {
+  0% {
+    background-color: rgb(215, 120, 172);
+  }
+  25% {
+    background-color: rgb(219, 154, 230);
+  }
+  50% {
+    background-color: rgb(142, 188, 234);
+  }
+  100% {
+    background-color: rgb(149, 215, 149);
+  }
+}
+
+@keyframes example-3 {
+  0% {
+    background-color: rgb(214, 116, 170);
+  }
+  25% {
+    background-color: rgb(217, 133, 232);
+  }
+  50% {
+    background-color: rgb(119, 177, 235);
+  }
+  100% {
+    background-color: rgb(113, 218, 113);
+  }
+}
+
+@keyframes example-4 {
+  0% {
+    background-color: rgb(212, 75, 150);
+  }
+  25% {
+    background-color: rgb(207, 77, 230);
+  }
+  50% {
+    background-color: rgb(72, 152, 233);
+  }
+  100% {
+    background-color: rgb(68, 220, 68);
+  }
+}
