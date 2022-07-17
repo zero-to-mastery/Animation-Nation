@@ -6079,6 +6079,13 @@ let cards = [
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
   }
+  {
+    artName: 'Car-Slide',
+    pageLink: './Art/markubianis/triangle/index.html',
+    imageLink: './Art/markubianis/triangle/car-slide.gif',
+    author: 'markubianis',
+    githubLink: 'https://github.com/markubianis'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
