@@ -6078,6 +6078,13 @@ let cards = [
     imageLink: './Art/can-you-feel-my-heartbeat/heartbeat.png',
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
+  },
+  {
+    artName: 'Solar Motion',
+    pageLink: './Art/solar_motion/index.html',
+    imageLink: './Art/solar_motion/solar-motion.gif',
+    author: 'Jeff Nyman',
+    githubLink: 'https://github.com/jeffnyman'
   }
 ];
 
