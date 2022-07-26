@@ -6078,7 +6078,14 @@ let cards = [
     imageLink: './Art/can-you-feel-my-heartbeat/heartbeat.png',
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
-  }
+  },
+  {
+    artName: 'Bouncy Ball',
+    pageLink: './Art/Valadot/index.html',
+    imageLink: './Art/Valadot/bouncy-ball.gif',
+    author: 'Valadot',
+    githubLink: 'https://github.com/Valadot'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
