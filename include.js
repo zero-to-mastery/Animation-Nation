@@ -6078,6 +6078,13 @@ let cards = [
     imageLink: './Art/can-you-feel-my-heartbeat/heartbeat.png',
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
+  },
+  {
+    artName: 'Snow Fall',
+    pageLink: './Art/snow-fall/index.html',
+    imageLink: './Art/snow-fall/snow-fall.gif',
+    author: 'MAHA Labs',
+    githubLink: 'https://github.com/mahalabs'
   }
 ];
 
