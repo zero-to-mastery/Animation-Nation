@@ -6079,6 +6079,13 @@ let cards = [
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
   }
+  {
+    artName: 'Infinite Circle Loop',
+    pageLink: './Art/InfiniteCircleLoop/index.html',
+    imageLink: './Art/InfiniteCircleLoop/infinitecircleloop.gif',
+    author: 'Giselle',
+    githubLink: 'https://github.com/gisellerx'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
