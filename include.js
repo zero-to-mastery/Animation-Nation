@@ -6079,6 +6079,13 @@ let cards = [
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
   }
+  {
+    artName: 'Simple Hover Rotaton Animation',
+    pageLink: './Art/jaReaps/index.html',
+    imageLink: './Art/Joy/jaReaps/Rotation Animation.gif',
+    author: 'Jon',
+    githubLink: 'https://github.com/jonreapsome'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
