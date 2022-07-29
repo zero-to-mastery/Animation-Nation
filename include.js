@@ -6078,6 +6078,13 @@ let cards = [
     imageLink: './Art/can-you-feel-my-heartbeat/heartbeat.png',
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
+  },
+  {
+    artName: 'Heart beat and pulse',
+    pageLink: './Art/Luisa/index.html',
+    imageLink: './Art/Luisa/HeartBeat.gif',
+    author: 'Luisa Bowie',
+    githubLink: 'https://github.com/Tala101'
   }
 ];
 
