@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+}
+
+.square {
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  animation-name: example;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  border-radius: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: purple;
+  animation-name: circlean;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+
+@keyframes example {
+  0% {background-color: red;}
+  30% {background-color: blue;}
+  66% {background-color: green;}
+  100% {background-color: yellow;}
+}
+
+@keyframes circlean {
+  0% {width: 150px;background-color: purple;}
+  30% {width: 200px;background-color: pink;}
+  66% {width: 150px;background-color: orangered;}
+  100% {width: 200px;background-color: darkorange;}
+}
+
