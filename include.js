@@ -6078,6 +6078,13 @@ let cards = [
     imageLink: './Art/can-you-feel-my-heartbeat/heartbeat.png',
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
+  },
+  {
+    artName: 'Glowing 3 Circles',
+    pageLink: './Art/josephld/index.html',
+    imageLink: './Art/josephld/glowing_circles.gif',
+    author: 'Leandre Derpo',
+    githubLink: 'https://github.com/LeandreDerpo'
   }
 ];
 
