@@ -6080,6 +6080,13 @@ let cards = [
     githubLink: 'https://github.com/vanessavun'
   }
 ];
+  {
+    artName: 'Square',
+    pageLink: './Art/Square/square.html',
+    imageLink: './Art/Square/square.gif',
+    author: 'Nico',
+    githubLink: 'https://github.com/nsherban1'
+  }
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
