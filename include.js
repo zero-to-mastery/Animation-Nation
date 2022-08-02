@@ -6079,6 +6079,13 @@ let cards = [
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
   }
+  {
+    artName: 'The rolling and spinning football',
+    pageLink: './Art/Nomishka/index.html',
+    imageLink: './Art/Football.png',
+    author: 'Nomishka',
+    githubLink: 'https://github.com/Nomishka'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
