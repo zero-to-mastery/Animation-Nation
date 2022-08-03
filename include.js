@@ -6078,6 +6078,13 @@ let cards = [
     imageLink: './Art/can-you-feel-my-heartbeat/heartbeat.png',
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
+  },
+  {
+    artName: 'Straight lines',
+    pageLink: './Art/artinator/index.html',
+    imageLink: './Art/artinator/art.png',
+    author: 'Scraper232',
+    githubLink: 'https://github.com/scraper232'
   }
 ];
 
