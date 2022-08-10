@@ -6078,7 +6078,14 @@ let cards = [
     imageLink: './Art/can-you-feel-my-heartbeat/heartbeat.png',
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
-  }
+  },
+  {
+    artName: '1Abel-Animate',
+    pageLink: './Art/1Abel-Animate/index.html',
+    imageLink: './Art/1Abel-Animate/1abel.gif',
+    author: 'perez11abel',
+    githubLink: 'https://github.com/perez11abel'
+  }  
 ];
 
 // +--------------------------------------------------------------------------------+
