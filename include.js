@@ -6079,6 +6079,13 @@ let cards = [
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
   }
+  {
+    artName: 'Color Flip Cards',
+    pageLink: './Art/Flipping/index.html',
+    imageLink: './Art/Flipping/gif.gif',
+    author: 'AspiringMay2022',
+    githubLink: 'https://github.com/AspiringMay2022'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
