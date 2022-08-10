@@ -5931,6 +5931,13 @@ let cards = [
     imageLink: './Art/ShueiYang/Loading.gif',
     author: 'ShueiYang',
     githubLink: 'https://github.com/ShueiYang'
+  },
+    {
+    artName: '1Abel-Animate',
+    pageLink: './Art/1Abel-Animate/index.html',
+    imageLink: './Art/1Abel-Animate/1abel.gif',
+    author: 'Perez11Abel',
+    githubLink: 'https://github.com/perez11abel'
   }
 ];
 
