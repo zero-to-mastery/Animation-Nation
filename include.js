@@ -6078,6 +6078,13 @@ let cards = [
     imageLink: './Art/can-you-feel-my-heartbeat/heartbeat.png',
     author: 'Vanessa Vun',
     githubLink: 'https://github.com/vanessavun'
+  },
+  {
+    artName: 'USAfloridaUSA',
+    pageLink: './Art/usa-florida-usa/index.html',
+    imageLink: './Art/usa-florida-usa/USAfloridaUSA.gif',
+    author: 'Stephen Eith',
+    githubLink: 'https://github.com/eith71'
   }
 ];
 
