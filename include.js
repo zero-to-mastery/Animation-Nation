@@ -6099,6 +6099,13 @@ let cards = [
     imageLink: './Art/snow-fall/snow-fall.gif',
     author: 'MAHA Labs',
     githubLink: 'https://github.com/mahalabs'
+  },
+  {
+    artName: 'css_anishape-1.0',
+    pageLink: './Art/css_anishape-1.0/index.html',
+    imageLink: './Art/css_anishape-1.0/css-anishape-s1.jpg',
+    author: 'Dwight',
+    githubLink: 'https://github.com/DwightMckenzie'
   }
 ];
 
