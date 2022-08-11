@@ -8,7 +8,7 @@ h1 {
 }
 
 .parent {
-  background-color: hsla(200, 100%, 30%, 1.0);
+  background-color: hsla(200, 100%, 30%, 1);
   height: 300px;
   width: 400px;
   margin: auto;
