@@ -6106,6 +6106,13 @@ let cards = [
     imageLink: './Art/css_anishape-1.0/css-anishape-s1.jpg',
     author: 'Dwight',
     githubLink: 'https://github.com/DwightMckenzie'
+  },
+  {
+    artName: 'Simple Hover Rotaton Animation',
+    pageLink: './Art/jaReaps/index.html',
+    imageLink: './Art/Joy/jaReaps/Rotation Animation.gif',
+    author: 'Jon',
+    githubLink: 'https://github.com/jonreapsome'
   }
 ];
 
