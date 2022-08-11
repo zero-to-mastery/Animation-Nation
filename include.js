@@ -6085,6 +6085,13 @@ let cards = [
     imageLink: './Art/emanuelretamozo/example.gif',
     author: 'Emanuel Retamozo',
     githubLink: 'https://github.com/emanuelretamozo'
+  },
+  {
+    artName: 'Bouncy Ball',
+    pageLink: './Art/Valadot/index.html',
+    imageLink: './Art/Valadot/bouncy-ball.gif',
+    author: 'Valadot',
+    githubLink: 'https://github.com/Valadot'
   }
 ];
 
