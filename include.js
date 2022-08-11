@@ -6092,6 +6092,13 @@ let cards = [
     imageLink: './Art/Valadot/bouncy-ball.gif',
     author: 'Valadot',
     githubLink: 'https://github.com/Valadot'
+  },
+  {
+    artName: 'Snow Fall',
+    pageLink: './Art/snow-fall/index.html',
+    imageLink: './Art/snow-fall/snow-fall.gif',
+    author: 'MAHA Labs',
+    githubLink: 'https://github.com/mahalabs'
   }
 ];
 
