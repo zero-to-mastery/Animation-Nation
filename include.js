@@ -6080,6 +6080,20 @@ let cards = [
     githubLink: 'https://github.com/vanessavun'
   },
   {
+    artName: 'example animation',
+    pageLink: './Art/emanuelretamozo/index.html',
+    imageLink: './Art/emanuelretamozo/example.gif',
+    author: 'Emanuel Retamozo',
+    githubLink: 'https://github.com/emanuelretamozo'
+  },
+  {
+    artName: 'Bouncy Ball',
+    pageLink: './Art/Valadot/index.html',
+    imageLink: './Art/Valadot/bouncy-ball.gif',
+    author: 'Valadot',
+    githubLink: 'https://github.com/Valadot'
+  },
+  {
     artName: 'Snow Fall',
     pageLink: './Art/snow-fall/index.html',
     imageLink: './Art/snow-fall/snow-fall.gif',
