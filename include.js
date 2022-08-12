@@ -6120,6 +6120,13 @@ let cards = [
     author: 'Jon',
     githubLink: 'https://github.com/jonreapsome'
   }
+  {
+    artName: 'Color Flip Cards',
+    pageLink: './Art/Flipping/index.html',
+    imageLink: './Art/Flipping/gif.gif',
+    author: 'AspiringMay2022',
+    githubLink: 'https://github.com/AspiringMay2022'
+  }
 ];
   {
     artName: 'Square',
