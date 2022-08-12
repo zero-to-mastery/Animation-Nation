@@ -6080,6 +6080,12 @@ let cards = [
     githubLink: 'https://github.com/vanessavun'
   },
   {
+    artName: 'Quoters',
+    pageLink: './Art/Quoters/index.html',
+    imageLink: './Art/Quoters/giphy.gif',
+    author: 'Arif Wibawa',
+    githubLink: 'https://github.com/wibawaarif'
+},{
     artName: 'USAfloridaUSA',
     pageLink: './Art/usa-florida-usa/index.html',
     imageLink: './Art/usa-florida-usa/USAfloridaUSA.gif',
@@ -6118,7 +6124,6 @@ let cards = [
     githubLink: 'https://github.com/VitoChuChu'
   },
   {
-
     artName: 'example animation',
     pageLink: './Art/emanuelretamozo/index.html',
     imageLink: './Art/emanuelretamozo/example.gif',
@@ -6179,21 +6184,21 @@ let cards = [
     imageLink: './Art/mikerobards/sunrise-set.gif',
     author: 'mikerobards',
     githubLink: 'https://github.com/mikerobards'
-  }
+  },
   {
     artName: 'GeminiSpace',
     pageLink: './Art/GeminiSpace/index.html',
     imageLink: './Art/GeminiSpace/space.gif',
     author: 'Saviour',
     githubLink: 'https://github.com/GeminiSpace'
-  }
+  },
   {
     artName: 'The rolling and spinning football',
     pageLink: './Art/Nomishka/index.html',
     imageLink: './Art/Football.png',
     author: 'Nomishka',
     githubLink: 'https://github.com/Nomishka'
-  }
+  },
   {
     artName: 'Infinite Circle Loop',
     pageLink: './Art/InfiniteCircleLoop/index.html',
