@@ -6080,6 +6080,12 @@ let cards = [
     githubLink: 'https://github.com/vanessavun'
   },
   {
+    artName: "That's rotating!!",
+    pageLink: './Art/Rotating/index.html',
+    imageLink: './Art/Rotating/Rotation.gif',
+    author: 'Vito Chu',
+    githubLink: 'https://github.com/VitoChuChu'
+},{
     artName: 'example animation',
     pageLink: './Art/emanuelretamozo/index.html',
     imageLink: './Art/emanuelretamozo/example.gif',
