@@ -6080,6 +6080,12 @@ let cards = [
     githubLink: 'https://github.com/vanessavun'
   },
   {
+    artName: 'USAfloridaUSA',
+    pageLink: './Art/usa-florida-usa/index.html',
+    imageLink: './Art/usa-florida-usa/USAfloridaUSA.gif',
+    author: 'Stephen Eith',
+    githubLink: 'https://github.com/eith71'
+},{
     artName: 'Heart beat and pulse',
     pageLink: './Art/Luisa/index.html',
     imageLink: './Art/Luisa/HeartBeat.gif',
