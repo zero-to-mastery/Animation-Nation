@@ -6121,6 +6121,13 @@ let cards = [
     githubLink: 'https://github.com/jonreapsome'
   }
 ];
+  {
+    artName: 'Square',
+    pageLink: './Art/Square/square.html',
+    imageLink: './Art/Square/square.gif',
+    author: 'Nico',
+    githubLink: 'https://github.com/nsherban1'
+  }
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
