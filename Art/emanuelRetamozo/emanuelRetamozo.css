@@ -1,0 +1,51 @@
+h1 {
+  font-size: 70px;
+  font-weight: 900;
+  text-align: center;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: white;
+  background-clip: text;
+}
+
+.parent {
+  background-color: hsla(200, 100%, 30%, 1);
+  height: 300px;
+  width: 400px;
+  margin: auto;
+  border: 3px solid green;
+  padding: 20px;
+}
+
+.child {
+  background-color: red;
+  height: 50%;
+  width: 100%;
+  animation: left-to-right 1s ease-in forwards infinite alternate;
+}
+
+.parent:hover .child {
+  animation-play-state: paused;
+}
+
+@keyframes left-to-right {
+  0% {
+    transform: translateX(0%);
+  }
+
+  33% {
+    transform: translateY(100%);
+    width: 90%;
+    background-color: yellow;
+  }
+
+  66% {
+    transform: translateX(100%) translateY(100%);
+    width: 70%;
+    background-color: floralwhite;
+  }
+
+  100% {
+    transform: translateX(100%);
+    width: 50%;
+  }
+}
