@@ -6085,7 +6085,8 @@ let cards = [
     imageLink: './Art/Rotating/Rotation.gif',
     author: 'Vito Chu',
     githubLink: 'https://github.com/VitoChuChu'
-},{
+  },
+  {
     artName: 'example animation',
     pageLink: './Art/emanuelretamozo/index.html',
     imageLink: './Art/emanuelretamozo/example.gif',
@@ -6119,15 +6120,14 @@ let cards = [
     imageLink: './Art/Joy/jaReaps/Rotation Animation.gif',
     author: 'Jon',
     githubLink: 'https://github.com/jonreapsome'
-  }
+  },
   {
     artName: 'Color Flip Cards',
     pageLink: './Art/Flipping/index.html',
     imageLink: './Art/Flipping/gif.gif',
     author: 'AspiringMay2022',
     githubLink: 'https://github.com/AspiringMay2022'
-  }
-];
+  },
   {
     artName: 'Square',
     pageLink: './Art/Square/square.html',
@@ -6135,6 +6135,7 @@ let cards = [
     author: 'Nico',
     githubLink: 'https://github.com/nsherban1'
   }
+];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
