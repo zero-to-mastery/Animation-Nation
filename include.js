@@ -6085,6 +6085,40 @@ let cards = [
     imageLink: './Art/Rotating/Rotation.gif',
     author: 'Vito Chu',
     githubLink: 'https://github.com/VitoChuChu'
+},{
+    artName: 'example animation',
+    pageLink: './Art/emanuelretamozo/index.html',
+    imageLink: './Art/emanuelretamozo/example.gif',
+    author: 'Emanuel Retamozo',
+    githubLink: 'https://github.com/emanuelretamozo'
+  },
+  {
+    artName: 'Bouncy Ball',
+    pageLink: './Art/Valadot/index.html',
+    imageLink: './Art/Valadot/bouncy-ball.gif',
+    author: 'Valadot',
+    githubLink: 'https://github.com/Valadot'
+  },
+  {
+    artName: 'Snow Fall',
+    pageLink: './Art/snow-fall/index.html',
+    imageLink: './Art/snow-fall/snow-fall.gif',
+    author: 'MAHA Labs',
+    githubLink: 'https://github.com/mahalabs'
+  },
+  {
+    artName: 'css_anishape-1.0',
+    pageLink: './Art/css_anishape-1.0/index.html',
+    imageLink: './Art/css_anishape-1.0/css-anishape-s1.jpg',
+    author: 'Dwight',
+    githubLink: 'https://github.com/DwightMckenzie'
+  },
+  {
+    artName: 'Simple Hover Rotaton Animation',
+    pageLink: './Art/jaReaps/index.html',
+    imageLink: './Art/Joy/jaReaps/Rotation Animation.gif',
+    author: 'Jon',
+    githubLink: 'https://github.com/jonreapsome'
   }
 ];
 
