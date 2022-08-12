@@ -1,0 +1,121 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.parent_box {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 1fr;
+}
+
+.box {
+  height: 235px;
+  width: 235px;
+  border-radius: 5%;
+  perspective: 500px;
+}
+
+.content {
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  height: 100%;
+  transition: transform 1.2s;
+  transform-style: preserve-3d;
+  width: 100%;
+}
+
+.box:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  border-radius: 5px;
+  backface-visibility: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  line-height: 300px;
+  font-size: 25px;
+}
+
+.back {
+  background: #033653;
+  color: whitesmoke;
+  transform: rotateY( 180deg );
+  text-align: center;
+}
+
+.blue {
+  background-color: blue;
+}
+
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.coral {
+  background-color: coral;
+}
+
+.chocolate {
+  background-color: chocolate;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.magenta {
+  background-color: magenta;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.peach {
+  background-color: peachpuff;
+}
+
+.sky {
+  background-color: skyblue;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.olive {
+  background-color: olive;
+}
+
+.aquamarine {
+  background-color: aquamarine;
+}
+
+.rosewood {
+  background-color: rosybrown;
+}
+
+.salmon {
+  background-color: salmon;
+}

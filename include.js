@@ -6086,6 +6086,30 @@ let cards = [
     author: 'Scraper232',
     githubLink: 'https://github.com/scraper232'
 },{
+    artName: 'Glowing 3 Circles',
+    pageLink: './Art/josephld/index.html',
+    imageLink: './Art/josephld/glowing_circles.gif',
+    author: 'Leandre Derpo',
+    githubLink: 'https://github.com/LeandreDerpo'
+},{
+    artName: 'Quoters',
+    pageLink: './Art/Quoters/index.html',
+    imageLink: './Art/Quoters/giphy.gif',
+    author: 'Arif Wibawa',
+    githubLink: 'https://github.com/wibawaarif'
+},{
+    artName: 'USAfloridaUSA',
+    pageLink: './Art/usa-florida-usa/index.html',
+    imageLink: './Art/usa-florida-usa/USAfloridaUSA.gif',
+    author: 'Stephen Eith',
+    githubLink: 'https://github.com/eith71'
+},{
+    artName: 'Heart beat and pulse',
+    pageLink: './Art/Luisa/index.html',
+    imageLink: './Art/Luisa/HeartBeat.gif',
+    author: 'Luisa Bowie',
+    githubLink: 'https://github.com/Tala101'
+},{
     artName: '1Abel-Animate',
     pageLink: './Art/1Abel-Animate/index.html',
     imageLink: './Art/1Abel-Animate/1abel.gif',
@@ -6112,7 +6136,6 @@ let cards = [
     githubLink: 'https://github.com/VitoChuChu'
   },
   {
-
     artName: 'example animation',
     pageLink: './Art/emanuelretamozo/index.html',
     imageLink: './Art/emanuelretamozo/example.gif',
@@ -6173,13 +6196,27 @@ let cards = [
     imageLink: './Art/mikerobards/sunrise-set.gif',
     author: 'mikerobards',
     githubLink: 'https://github.com/mikerobards'
-  }
+  },
   {
     artName: 'GeminiSpace',
     pageLink: './Art/GeminiSpace/index.html',
     imageLink: './Art/GeminiSpace/space.gif',
     author: 'Saviour',
     githubLink: 'https://github.com/GeminiSpace'
+  },
+  {
+    artName: 'The rolling and spinning football',
+    pageLink: './Art/Nomishka/index.html',
+    imageLink: './Art/Football.png',
+    author: 'Nomishka',
+    githubLink: 'https://github.com/Nomishka'
+  },
+  {
+    artName: 'Infinite Circle Loop',
+    pageLink: './Art/InfiniteCircleLoop/index.html',
+    imageLink: './Art/InfiniteCircleLoop/infinitecircleloop.gif',
+    author: 'Giselle',
+    githubLink: 'https://github.com/gisellerx'
   }
 ];
 
