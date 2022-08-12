@@ -1,0 +1,160 @@
+:root {
+	--anim-spd: 30s;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.container {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+/* shape animation */
+.shape {
+	width: 250px;
+	height: 250px;
+	/* padding: 20px; */
+	box-shadow: 10px 10px 25px 5px #555;
+	display: flex;
+	align-items: center;
+	position: relative;
+	text-align: center;
+	animation: shapeChange var(--anim-spd) infinite;
+}
+
+/* text animation */
+.shape p {
+	position: absolute;
+	width: 100%;
+	text-transform: uppercase;
+	opacity: 0;
+}
+
+.shape :nth-child(1) {
+	animation: paragOne var(--anim-spd) infinite;
+}
+.shape :nth-child(2) {
+	animation: paragTwo var(--anim-spd) infinite;
+}
+.shape :nth-child(3) {
+	animation: paragThree var(--anim-spd) infinite;
+}
+.shape :nth-child(4) {
+	animation: paragFour var(--anim-spd) infinite;
+}
+
+/* shape key frames */
+@keyframes shapeChange {
+  /* from {width: 200px;} */
+  /* to {width: 300px;} */
+	0%, 100% {
+		width:350px;
+		height:350px;
+		/* background-color: blue; */
+		/* color: red; */
+		/* font-size: 20px; */
+	}
+	25% {
+		width:450px;
+		height:450px;
+		/* background-color: blue; */
+		/* color: green; */
+		/* font-size: 30px; */
+		border-radius: 25%;
+	}
+	50% {
+		width:550px;
+		height:550px;
+		/* background-color: purple; */
+		/* color: red; */
+		/* font-size: 40px; */
+		border-radius: 50%;
+	}
+	75% {
+		width:450px;
+		height:450px;
+		/* background-color: red; */
+		/* color: yellow; */
+		/* font-size: 30px; */
+		/* border-radius: 25%; */
+	}
+}
+
+/* text key frames */
+@keyframes paragOne {
+	0%, 100% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes paragTwo {
+	0%, 100% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes paragThree {
+	0%, 100% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes paragFour {
+	0%, 100% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 1;
+	}
+}
