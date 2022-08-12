@@ -6188,6 +6188,13 @@ let cards = [
     author: 'Nomishka',
     githubLink: 'https://github.com/Nomishka'
   }
+  {
+    artName: 'Infinite Circle Loop',
+    pageLink: './Art/InfiniteCircleLoop/index.html',
+    imageLink: './Art/InfiniteCircleLoop/infinitecircleloop.gif',
+    author: 'Giselle',
+    githubLink: 'https://github.com/gisellerx'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
