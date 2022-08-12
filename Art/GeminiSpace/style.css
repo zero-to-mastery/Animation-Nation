@@ -1,0 +1,65 @@
+body {
+  background: #333;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background: #fff;
+    color: rgb(11, 255, 231);
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: animate  5s forwards ease-in infinite alternate-reverse;
+}
+
+h1 {
+  text-shadow: 0.5rem 0.5rem 1rem #333;
+
+}
+
+@keyframes animate {
+
+  0% {
+    top: 0;
+    left: 0;
+    background: red;
+    border-radius: 0 0 0;
+  }
+  
+  25% {
+    top: 0;
+    left: 350px;
+    background: orangered;
+    border-radius: 50% 0 0;
+  }
+
+  50% {
+    top: 350px;
+    left: 350px;
+    background: orange;
+    border-radius: 50% 50% 0 0;
+
+  }
+
+  75% {
+    top: 350px;
+    left: 0;
+    background: yellow;
+    border-radius: 50% 50% 50% 0;
+
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+    background: yellowgreen;
+    border-radius: 50% 50% 50% 50%;
+  }
+}

@@ -6080,6 +6080,14 @@ let cards = [
     githubLink: 'https://github.com/vanessavun'
   },
   {
+    artName: "That's rotating!!",
+    pageLink: './Art/Rotating/index.html',
+    imageLink: './Art/Rotating/Rotation.gif',
+    author: 'Vito Chu',
+    githubLink: 'https://github.com/VitoChuChu'
+  },
+  {
+
     artName: 'example animation',
     pageLink: './Art/emanuelretamozo/index.html',
     imageLink: './Art/emanuelretamozo/example.gif',
@@ -6120,6 +6128,34 @@ let cards = [
     imageLink: './Art/CSS_Magic/Move.gif',
     author: 'Subhadip',
     githubLink: 'https://github.com/SubhadipMaji'
+},
+    artName: 'Color Flip Cards',
+    pageLink: './Art/Flipping/index.html',
+    imageLink: './Art/Flipping/gif.gif',
+    author: 'AspiringMay2022',
+    githubLink: 'https://github.com/AspiringMay2022'
+  },
+  {
+    artName: 'Square',
+    pageLink: './Art/Square/square.html',
+    imageLink: './Art/Square/square.gif',
+    author: 'Nico',
+    githubLink: 'https://github.com/nsherban1'
+  },
+  {
+    artName: 'Sun Rise and Set',
+    pageLink: './Art/mikerobards/index.html',
+    imageLink: './Art/mikerobards/sunrise-set.gif',
+    author: 'mikerobards',
+    githubLink: 'https://github.com/mikerobards'
+  }
+  {
+    artName: 'GeminiSpace',
+    pageLink: './Art/GeminiSpace/index.html',
+    imageLink: './Art/GeminiSpace/space.gif',
+    author: 'Saviour',
+    githubLink: 'https://github.com/GeminiSpace'
+
   }
 ];
 
@@ -6135,14 +6171,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
