@@ -6114,6 +6114,13 @@ let cards = [
     author: 'Jon',
     githubLink: 'https://github.com/jonreapsome'
   }
+  {
+    artName: 'GeminiSpace',
+    pageLink: './Art/GeminiSpace/index.html',
+    imageLink: './Art/GeminiSpace/space.gif',
+    author: 'Saviour',
+    githubLink: 'https://github.com/GeminiSpace'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
