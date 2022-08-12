@@ -6123,6 +6123,12 @@ let cards = [
     githubLink: 'https://github.com/jonreapsome'
   },
   {
+    artName: 'CSS_Magic',
+    pageLink: './Art/CSS_Magic/index.html',
+    imageLink: './Art/CSS_Magic/Move.gif',
+    author: 'Subhadip',
+    githubLink: 'https://github.com/SubhadipMaji'
+},
     artName: 'Color Flip Cards',
     pageLink: './Art/Flipping/index.html',
     imageLink: './Art/Flipping/gif.gif',
@@ -6149,6 +6155,7 @@ let cards = [
     imageLink: './Art/GeminiSpace/space.gif',
     author: 'Saviour',
     githubLink: 'https://github.com/GeminiSpace'
+
   }
 ];
 
