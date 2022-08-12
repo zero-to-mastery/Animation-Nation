@@ -6080,6 +6080,12 @@ let cards = [
     githubLink: 'https://github.com/vanessavun'
   },
   {
+    artName: 'Straight lines',
+    pageLink: './Art/artinator/index.html',
+    imageLink: './Art/artinator/art.png',
+    author: 'Scraper232',
+    githubLink: 'https://github.com/scraper232'
+},{
     artName: 'Glowing 3 Circles',
     pageLink: './Art/josephld/index.html',
     imageLink: './Art/josephld/glowing_circles.gif',
