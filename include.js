@@ -6085,7 +6085,9 @@ let cards = [
     imageLink: './Art/Rotating/Rotation.gif',
     author: 'Vito Chu',
     githubLink: 'https://github.com/VitoChuChu'
-  }, {
+  },
+  {
+
     artName: 'example animation',
     pageLink: './Art/emanuelretamozo/index.html',
     imageLink: './Art/emanuelretamozo/example.gif',
