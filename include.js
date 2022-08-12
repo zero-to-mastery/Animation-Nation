@@ -6080,6 +6080,12 @@ let cards = [
     githubLink: 'https://github.com/vanessavun'
   },
   {
+    artName: '1Abel-Animate',
+    pageLink: './Art/1Abel-Animate/index.html',
+    imageLink: './Art/1Abel-Animate/1abel.gif',
+    author: 'perez11abel',
+    githubLink: 'https://github.com/perez11abel'
+  }  ,{
 
     artName: 'Snow and Rain Animation',
     pageLink: './Art/Snow_Animation/index.html',
@@ -6169,7 +6175,6 @@ let cards = [
     author: 'Saviour',
     githubLink: 'https://github.com/GeminiSpace'
   }
-
 ];
 
 // +--------------------------------------------------------------------------------+
