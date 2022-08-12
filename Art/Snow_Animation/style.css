@@ -1,0 +1,188 @@
+/**
+ * Credits:
+ * -> Code With Aditya (YouTube)
+ * -> Online Tutorials (YouTube)
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #181c1f;
+}
+
+.container {
+  position: relative;
+  height: 450px;
+  /*border-bottom: 2px solid #fff;*/
+}
+
+.cloud {
+  position: relative;
+  top: 50px;
+  width: 320px;
+  height: 100px;
+  background: #fff;
+  border-radius: 100px;
+}
+.cloud::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: 40px;
+  height: 110px;
+  width: 110px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 90px 0 0 30px #fff;
+}
+
+.snow {
+  position: relative;
+  display: flex;
+  z-index: 1;
+  padding: 0 10px;
+}
+.snow span {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  margin: 0 2px;
+  border-radius: 50%;
+  animation: animate 7s linear infinite;
+  animation-duration: calc(15s / var(--i));
+  transform-origin: bottom;
+}
+@keyframes animate {
+
+  0% {
+    transform: translateY(0) scale(1.0);
+  }
+  70% {
+    transform: translateY(230px) scale(1.0);
+  }
+  100% {
+    transform: translateY(348px) scale(0);
+  }
+}
+
+.rain {
+  width: 320px;
+  height: 140px;
+}
+.rain_drop {
+  position: relative;
+  float: left;
+  width: 1px;
+  margin: 20px;
+  left: 10px;
+  background: #fff;
+  box-shadow: 1px 1px 1px 1px rgba(255,255,255, 0.8);
+  animation: rain 0.5s infinite ease-out;
+}
+.rain_drop:nth-child(1) {
+  height: 15px;
+  top: 5px;
+  animation-delay: -1.0s;
+}
+.rain_drop:nth-child(2) {
+  height: 20px;
+  animation-delay: -1.4s;
+}
+.rain_drop:nth-child(3) {
+  height: 15px;
+  top: 5px;
+  animation-delay: -1.2s;
+}
+.rain_drop:nth-child(4) {
+  height: 5px;
+  top: 5px;
+  animation-delay: -1.6s;
+}
+.rain_drop:nth-child(5) {
+  height: 10px;
+  animation-delay: -1.05s;
+}
+.rain_drop:nth-child(6) {
+  height: 18px;
+  top: 15px;
+  animation-delay: -1.5s;
+}
+.rain_drop:nth-child(7) {
+  height: 20px;
+  top: 5px;
+  animation-delay: -1.3s;
+}
+@keyframes rain {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0.25;
+    transform: translate(0, 285px);
+  }
+}
+
+.ground {
+  position: relative;
+  width: 320px;
+  height: 300px;
+  top: -86px;
+}
+.ground_hit {
+  position: absolute;
+  width: 5px;
+  height: 1px;
+  margin: 20px;
+  bottom: -5px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  animation: hit 0.8s infinite ease;
+}
+.ground_hit:nth-child(1) {
+  left: 10px;
+  animation-delay: -0.3s;
+}
+.ground_hit:nth-child(2) {
+  left: 51px;
+  animation-delay: -0.7s;
+}
+.ground_hit:nth-child(3) {
+  left: 92px;
+  animation-delay: -0.9s;
+}
+.ground_hit:nth-child(4) {
+  left: 134px;
+  animation-delay: 0.9s;
+}
+.ground_hit:nth-child(5) {
+  left: 176px;
+  animation-delay: 0.9s;
+}
+.ground_hit:nth-child(6) {
+  left: 217px;
+  animation-delay: -0.5s;
+}
+.ground_hit:nth-child(7) {
+  left: 258px;
+  animation-delay: 0.3s;
+}
+@keyframes hit {
+  0% {
+    opacity: 0.75;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.75;
+    transform: scale(2.5);
+  }
+}
