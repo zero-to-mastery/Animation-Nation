@@ -6080,6 +6080,12 @@ let cards = [
     githubLink: 'https://github.com/vanessavun'
   },
   {
+    artName: 'Heart beat and pulse',
+    pageLink: './Art/Luisa/index.html',
+    imageLink: './Art/Luisa/HeartBeat.gif',
+    author: 'Luisa Bowie',
+    githubLink: 'https://github.com/Tala101'
+},{
     artName: '1Abel-Animate',
     pageLink: './Art/1Abel-Animate/index.html',
     imageLink: './Art/1Abel-Animate/1abel.gif',
