@@ -6086,6 +6086,12 @@ let cards = [
     author: 'Stephen Eith',
     githubLink: 'https://github.com/eith71'
 },{
+    artName: 'Heart beat and pulse',
+    pageLink: './Art/Luisa/index.html',
+    imageLink: './Art/Luisa/HeartBeat.gif',
+    author: 'Luisa Bowie',
+    githubLink: 'https://github.com/Tala101'
+},{
     artName: '1Abel-Animate',
     pageLink: './Art/1Abel-Animate/index.html',
     imageLink: './Art/1Abel-Animate/1abel.gif',
@@ -6180,6 +6186,20 @@ let cards = [
     imageLink: './Art/GeminiSpace/space.gif',
     author: 'Saviour',
     githubLink: 'https://github.com/GeminiSpace'
+  }
+  {
+    artName: 'The rolling and spinning football',
+    pageLink: './Art/Nomishka/index.html',
+    imageLink: './Art/Football.png',
+    author: 'Nomishka',
+    githubLink: 'https://github.com/Nomishka'
+  }
+  {
+    artName: 'Infinite Circle Loop',
+    pageLink: './Art/InfiniteCircleLoop/index.html',
+    imageLink: './Art/InfiniteCircleLoop/infinitecircleloop.gif',
+    author: 'Giselle',
+    githubLink: 'https://github.com/gisellerx'
   }
 ];
 
