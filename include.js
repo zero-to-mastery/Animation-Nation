@@ -6080,6 +6080,12 @@ let cards = [
     githubLink: 'https://github.com/vanessavun'
   },
   {
+    artName: 'Glowing 3 Circles',
+    pageLink: './Art/josephld/index.html',
+    imageLink: './Art/josephld/glowing_circles.gif',
+    author: 'Leandre Derpo',
+    githubLink: 'https://github.com/LeandreDerpo'
+},{
     artName: 'Quoters',
     pageLink: './Art/Quoters/index.html',
     imageLink: './Art/Quoters/giphy.gif',
