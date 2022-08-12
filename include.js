@@ -6080,6 +6080,12 @@ let cards = [
     githubLink: 'https://github.com/vanessavun'
   },
   {
+    artName: 'Color Palette with Pure CSS Animation',
+    pageLink: './Art/color-palette-with-pure-css-animation/dist/index.html',
+    imageLink: './Art/color-palette-with-pure-css-animation/animation.gif',
+    author: 'julien muke',
+    githubLink: 'https://github.com/julien-muke'
+},{
     artName: "That's rotating!!",
     pageLink: './Art/Rotating/index.html',
     imageLink: './Art/Rotating/Rotation.gif',
@@ -6155,8 +6161,8 @@ let cards = [
     imageLink: './Art/GeminiSpace/space.gif',
     author: 'Saviour',
     githubLink: 'https://github.com/GeminiSpace'
-
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
