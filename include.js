@@ -6113,6 +6113,13 @@ let cards = [
     imageLink: './Art/Joy/jaReaps/Rotation Animation.gif',
     author: 'Jon',
     githubLink: 'https://github.com/jonreapsome'
+  },
+  {
+    artName: 'CSS_Magic',
+    pageLink: './Art/CSS_Magic/index.html',
+    imageLink: './Art/CSS_Magic/Move.gif',
+    author: 'Subhadip',
+    githubLink: 'https://github.com/SubhadipMaji'
   }
 ];
 
