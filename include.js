@@ -6080,6 +6080,13 @@ let cards = [
     githubLink: 'https://github.com/vanessavun'
   },
   {
+
+    artName: 'Snow and Rain Animation',
+    pageLink: './Art/Snow_Animation/index.html',
+    imageLink: './Art/Snow_Animation/Snow_Rain_Animation.gif',
+    author: 'Mosespt',
+    githubLink: 'https://github.com/Mosespt'
+},{
     artName: 'Color Palette with Pure CSS Animation',
     pageLink: './Art/color-palette-with-pure-css-animation/dist/index.html',
     imageLink: './Art/color-palette-with-pure-css-animation/animation.gif',
