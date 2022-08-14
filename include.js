@@ -6225,6 +6225,13 @@ let cards = [
     imageLink: './Art/InfiniteCircleLoop/infinitecircleloop.gif',
     author: 'Giselle',
     githubLink: 'https://github.com/gisellerx'
+  },
+  {
+    artName: 'Updown',
+    pageLink: './Art/updown/index.html',
+    imageLink: './Art/updown/updown.gif',
+    author: 'Nueng',
+    githubLink: 'https://github.com/AlgorithmNueng'
   }
 ];
 
