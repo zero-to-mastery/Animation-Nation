@@ -6232,6 +6232,13 @@ let cards = [
     imageLink: './Art/updown/updown.gif',
     author: 'Nueng',
     githubLink: 'https://github.com/AlgorithmNueng'
+  },
+  {
+    artName: 'wink',
+    pageLink: './Art/Robrigado/index.html',
+    imageLink: './Art/Robrigado/wink.gif',
+    author: 'Robrigado',
+    githubLink: 'https://github.com/Robrigado'
   }
 ];
 
