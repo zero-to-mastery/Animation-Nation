@@ -6085,50 +6085,57 @@ let cards = [
     imageLink: './Art/artinator/art.png',
     author: 'Scraper232',
     githubLink: 'https://github.com/scraper232'
-},{
+  },
+  {
     artName: 'Glowing 3 Circles',
     pageLink: './Art/josephld/index.html',
     imageLink: './Art/josephld/glowing_circles.gif',
     author: 'Leandre Derpo',
     githubLink: 'https://github.com/LeandreDerpo'
-},{
+  },
+  {
     artName: 'Quoters',
     pageLink: './Art/Quoters/index.html',
     imageLink: './Art/Quoters/giphy.gif',
     author: 'Arif Wibawa',
     githubLink: 'https://github.com/wibawaarif'
-},{
+  },
+  {
     artName: 'USAfloridaUSA',
     pageLink: './Art/usa-florida-usa/index.html',
     imageLink: './Art/usa-florida-usa/USAfloridaUSA.gif',
     author: 'Stephen Eith',
     githubLink: 'https://github.com/eith71'
-},{
+  },
+  {
     artName: 'Heart beat and pulse',
     pageLink: './Art/Luisa/index.html',
     imageLink: './Art/Luisa/HeartBeat.gif',
     author: 'Luisa Bowie',
     githubLink: 'https://github.com/Tala101'
-},{
+  },
+  {
     artName: '1Abel-Animate',
     pageLink: './Art/1Abel-Animate/index.html',
     imageLink: './Art/1Abel-Animate/1abel.gif',
     author: 'perez11abel',
     githubLink: 'https://github.com/perez11abel'
-  }  ,{
-
+  },
+  {
     artName: 'Snow and Rain Animation',
     pageLink: './Art/Snow_Animation/index.html',
     imageLink: './Art/Snow_Animation/Snow_Rain_Animation.gif',
     author: 'Mosespt',
     githubLink: 'https://github.com/Mosespt'
-},{
+  },
+  {
     artName: 'Color Palette with Pure CSS Animation',
     pageLink: './Art/color-palette-with-pure-css-animation/dist/index.html',
     imageLink: './Art/color-palette-with-pure-css-animation/animation.gif',
     author: 'julien muke',
     githubLink: 'https://github.com/julien-muke'
-},{
+  },
+  {
     artName: "That's rotating!!",
     pageLink: './Art/Rotating/index.html',
     imageLink: './Art/Rotating/Rotation.gif',
@@ -6176,7 +6183,8 @@ let cards = [
     imageLink: './Art/CSS_Magic/Move.gif',
     author: 'Subhadip',
     githubLink: 'https://github.com/SubhadipMaji'
-},
+  },
+  {
     artName: 'Color Flip Cards',
     pageLink: './Art/Flipping/index.html',
     imageLink: './Art/Flipping/gif.gif',
@@ -6232,14 +6240,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 });
 
