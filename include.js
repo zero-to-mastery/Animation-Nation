@@ -6234,6 +6234,13 @@ let cards = [
     githubLink: 'https://github.com/AlgorithmNueng'
   },
   {
+    artName: 'cajaheart',
+    pageLink: './Art/erikanimation/corazon.html',
+    imageLink: './Art/erikanimation/corazon.gif',
+    author: 'Erika',
+    githubLink: 'https://github.com/erikaaquino'
+},
+{
     artName: 'Colorful Heart',
     pageLink: './Art/cr-animation/index.html',
     imageLink: './Art/cr-animation/index.html/colorful-heart.png',
@@ -6246,7 +6253,6 @@ let cards = [
     imageLink: './Art/Robrigado/wink.gif',
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
-
   }
 ];
 
