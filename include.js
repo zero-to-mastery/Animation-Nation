@@ -6239,6 +6239,20 @@ let cards = [
     imageLink: './Art/erikanimation/corazon.gif',
     author: 'Erika',
     githubLink: 'https://github.com/erikaaquino'
+},
+{
+    artName: 'Colorful Heart',
+    pageLink: './Art/cr-animation/index.html',
+    imageLink: './Art/cr-animation/index.html/colorful-heart.png',
+    author: 'Cristina',
+    githubLink: 'https://github.com/crsecu'
+},
+{
+    artName: 'wink',
+    pageLink: './Art/Robrigado/index.html',
+    imageLink: './Art/Robrigado/wink.gif',
+    author: 'Robrigado',
+    githubLink: 'https://github.com/Robrigado'
   }
 ];
 
