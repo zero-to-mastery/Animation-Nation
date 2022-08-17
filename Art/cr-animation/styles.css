@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: ivory;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+.heart {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-color: rgba(250, 75, 66, 0.8);
+  animation-name: hearty;
+  animation-duration: 10s;
+
+}
+
+@keyframes hearty {
+    0%   {background-color: rgb(255, 242, 0);}
+    15%  {background-color: rgb(117, 204, 206);}
+    25%  {background-color: rgb(4, 4, 55);}
+    35% {background-color: rgb(127, 186, 127);}
+    50%   {background-color: rgb(255, 242, 0);}
+    65%  {background-color: rgb(117, 204, 206);}
+    80%  {background-color: rgb(4, 4, 55);}
+    100% {background-color: rgb(127, 186, 127);}
+  }
+
+.heart:before {
+    position: absolute;
+    bottom: 0px;
+    left: -100px;
+    width: 200px;
+    height: 200px;
+    content: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(250, 75, 66, 0.8);
+    animation-name: hearty;
+    animation-duration: 10s;
+    
+  }
+
+  .heart:after{
+    position: absolute;
+    top: -100px;
+    right: 0px;
+    width: 200px;
+    height: 200px;
+    content: '';
+     
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+   
+    background-color: rgba(250, 75, 66, 0.8);
+    animation-name: hearty;
+    animation-duration: 10s;
+    
+  }
+
+.heart:before,
+.heart:after{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  content: '';
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(250, 75, 66, 0.8);
+  animation-name: hearty;
+  animation-duration: 10s;
+}
+
+.heart:before{
+  bottom: 0px;
+  left: -100px;
+  
+}
+
+.heart:after{
+  top: -100px;
+  right: 0px;
+  
+}
+
+.heart{
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    animation-name: hearty;
+    animation-duration: 10s;
+    
+  }
