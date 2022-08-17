@@ -1,0 +1,136 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	text-align: center;
+    background: radial-gradient(rgb(132, 196, 226), rgb(42, 45, 236));
+}
+
+.circle {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    /* background-color: rgb(233, 211, 13); */
+    background: radial-gradient(rgb(233, 211, 13), rgb(185, 168, 12));
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.eyes {
+    width: 85px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.e1 {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    z-index: 2;
+    animation: blink 2s ease-in-out infinite;
+}
+
+.eb1{
+    left: 24%;
+    top: 10%;
+    height: 100px;
+    width: 100px;
+    border-top: 20px solid black;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 5;
+    animation: eyb-down 2s ease-in-out infinite;
+}
+
+.eb2{
+    left: 24%;
+    top: 10%;
+    height: 100px;
+    width: 100px;
+    border-top: 20px solid black;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 5;
+    left: 59%;
+}
+
+
+.e2 {
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    z-index: 3;
+}
+
+.mouth {
+    width: 270px;
+    height: 100px;
+    background-color: rgb(0, 0, 0); 
+    position: absolute;
+    left: 30%;
+    top: 65%;
+    z-index: 4;
+    border-bottom-left-radius: 100%200px;
+    border-bottom-right-radius: 100%200px;
+
+}
+
+@keyframes blink {
+    0%{
+        width: 85px;
+        height: 250px;
+        border-radius: 50%; 
+    }
+
+    10%{
+        top: 230px;
+        right: 4000px;
+        width: 150px;
+        height: 20px;
+        border-radius: 50%;
+        border-top-left-radius: 100%300px;
+        border-top-right-radius: 100%300px; 
+    }
+
+    20%{
+        top: 230px;
+        right: 4000px;
+        width: 150px;
+        height: 20px;
+        border-radius: 50%;
+        border-top-left-radius: 100%300px;
+        border-top-right-radius: 100%300px; 
+    }
+
+    25%,100% {
+        left: 25%;
+        top: 15%;
+        width: 85px;
+        height: 250px;
+        border-radius: 50%; 
+    }
+}
+
+@keyframes eyb-down {
+    0%{
+        left: 24%;
+        top: 10%;
+    }
+
+    10%{
+        top: 20%;
+        left: 28%;
+    }
+
+    20%{
+        top: 20%;
+        left: 28%;
+    }
+
+    25%, 100% {
+        left: 24%;
+        top: 10%;
+    }
+}
