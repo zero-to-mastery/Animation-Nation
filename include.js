@@ -6254,7 +6254,17 @@ let cards = [
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
   }
-];
+
+    {
+      artName: 'Animation by Rohan',
+      pageLink: './Art/RohanNagrut/index.html',
+      imageLink: '',
+      author: 'Rohan',
+      githubLink: 'https://github.com/Rohannagrut'
+    }
+  ];
+
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -6278,6 +6288,7 @@ Shuffle(cards).forEach((c) => {
       `</li>`
   ]);
 });
+
 
 document.getElementById('cards').innerHTML = contents;
 
