@@ -6253,6 +6253,13 @@ let cards = [
     imageLink: './Art/Robrigado/wink.gif',
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
+  },
+  {
+    artName: 'car-animation',
+    pageLink: './Art/car-animation/index.html',
+    imageLink: './Art/car-animation',
+    author: 'Markus',
+    githubLink: 'https://github.com/Markus-Sm'
   }
 ];
 
