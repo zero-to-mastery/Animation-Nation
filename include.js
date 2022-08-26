@@ -6253,7 +6253,16 @@ let cards = [
     imageLink: './Art/Robrigado/wink.gif',
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
-  }
+  },
+  
+{
+    artName: 'AnimateManas',
+    pageLink: './Art/AnimatManas/index.html',
+    imageLink: './Art/AnimatManas/ZTM_animation.gif',
+    author: 'Manas',
+    githubLink: 'https://github.com/ManasKumar111'
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
