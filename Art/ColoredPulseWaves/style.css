@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: #262e6f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hero-div {
+  display: flex;
+  gap: 5px;
+}
+
+.container-2 {
+  flex-direction: row-reverse;
+}
+
+.line {
+  height: 10px;
+  width: 10px;
+  border-radius: 200px;
+  background: #ec2d73;
+  transition: all 0.3s;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.line:first-child {
+  animation-name: increaseHeight1;
+}
+
+.line:nth-child(2) {
+  background: #eb5324;
+  animation-name: increaseHeight2;
+  animation-delay: 250ms;
+}
+
+.line:nth-child(3) {
+  background: #fdc800;
+  animation-name: increaseHeight3;
+  animation-delay: 500ms;
+}
+
+.line:nth-child(4) {
+  background: #47b264;
+  animation-name: increaseHeight4;
+  animation-delay: 750ms;
+}
+
+.line:nth-child(5) {
+  animation-name: increaseHeight5;
+  background: #1470bd;
+  animation-delay: 1s;
+}
+
+.line:nth-child(6) {
+  animation-name: increaseHeight4;
+  animation-delay: 1.25s;
+  background: #ec2d73;
+}
+
+.line:nth-child(7) {
+  animation-delay: 1.5s;
+  animation-name: increaseHeight3;
+  background: #eb5324;
+}
+
+.line:nth-child(8) {
+  animation-delay: 1.75s;
+  animation-name: increaseHeight2;
+}
+
+.line:last-child {
+  animation-delay: 2s;
+  animation-name: increaseHeight1;
+  background: #fdc800;
+}
+
+@keyframes increaseHeight1 {
+  5%,
+  10% {
+    height: 10px;
+  }
+
+  50% {
+    height: 30px;
+  }
+}
+
+@keyframes increaseHeight2 {
+  5%,
+  10% {
+    height: 10px;
+  }
+
+  50% {
+    height: 60px;
+  }
+}
+
+@keyframes increaseHeight3 {
+  5%,
+  10% {
+    height: 10px;
+  }
+
+  50% {
+    height: 80px;
+  }
+}
+
+@keyframes increaseHeight4 {
+  5%,
+  10% {
+    height: 10px;
+  }
+
+  50% {
+    height: 90px;
+  }
+}
+
+@keyframes increaseHeight5 {
+  5%,
+  10% {
+    height: 10px;
+  }
+
+  50% {
+    height: 94px;
+  }
+}
