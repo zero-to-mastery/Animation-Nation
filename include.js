@@ -6253,7 +6253,13 @@ let cards = [
     imageLink: './Art/Robrigado/wink.gif',
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
-  }
+  },
+{
+  artName: 'css-glow-effect-animation',
+  pageLink: './Art/css-glow-effect-animation/index.html',
+  imageLink: './Art/css-glow-effect-animation/glow.png',
+  author: 'tidz',
+  githubLink: 'https://github.com/john-tidz'
 ];
 
 // +--------------------------------------------------------------------------------+
