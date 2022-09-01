@@ -6257,7 +6257,7 @@ let cards = [
   {
     artName: 'Spin Animation',
     pageLink: './Art/chowdhuryrz/index.html',
-    imageLink: './Art/chowdhuryrz/spin.gif',
+    imageLink: './Art/chowdhuryrz/spinning.gif',
     author: 'Rohan',
     githubLink: 'https://github.com/chowdhuryrz'
   }
