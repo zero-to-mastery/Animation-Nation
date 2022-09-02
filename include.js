@@ -6253,6 +6253,13 @@ let cards = [
     imageLink: './Art/Robrigado/wink.gif',
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
+  },
+  {
+    artName: 'animatron',
+    pageLink: './Art/animatron/index.html',
+    imageLink: './Art/animatron/trance.gif',
+    author: 'AndrewChef',
+    githubLink: 'https://github.com/agyesie'
   }
 ];
 
