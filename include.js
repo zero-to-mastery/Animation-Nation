@@ -13,6 +13,15 @@ let cards = [
     author: 'Malik',
     githubLink: 'https://github.com/MalikSploit'
   },
+  
+  {
+    artName: 'Made it to ZtoM!',
+    pageLink: './Art/Daniel/index.html',
+    imageLink: './Art/Daniel/image.png',
+    author: 'Daniel',
+    githubLink: 'https://github.com/Daniel-GS-prog'
+  },
+  
   {
     artName: 'Goa - Beach',
     pageLink: './Art/Shailesh/index.html',
