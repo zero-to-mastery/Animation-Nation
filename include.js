@@ -6255,6 +6255,13 @@ let cards = [
     githubLink: 'https://github.com/Robrigado'
   },
   {
+    artName: 'car-animation',
+    pageLink: './Art/car-animation/index.html',
+    imageLink: './Art/car-animation',
+    author: 'Markus',
+    githubLink: 'https://github.com/Markus-Sm'
+},
+{
   artName: 'Dummy Animation',
   pageLink: './Art/dummy_me/index.html',
   imageLink: './Art/dummy_me/dummy.gif',
