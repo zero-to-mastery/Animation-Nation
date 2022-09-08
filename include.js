@@ -6253,6 +6253,13 @@ let cards = [
     imageLink: './Art/Robrigado/wink.gif',
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
+  },
+  {
+    artName: 'moving_choices',
+    pageLink: './Art/Katana/index.html',
+    imageLink: './Art/Katana/bounce-choice.GIF',
+    author: 'Katana',
+    githubLink: 'https://github.com/katanaji'
   }
 ];
 
