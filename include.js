@@ -6246,8 +6246,8 @@ let cards = [
     imageLink: './Art/cr-animation/index.html/colorful-heart.png',
     author: 'Cristina',
     githubLink: 'https://github.com/crsecu'
-},
-{
+  },
+  {
     artName: 'wink',
     pageLink: './Art/Robrigado/index.html',
     imageLink: './Art/Robrigado/wink.gif',
@@ -6255,6 +6255,13 @@ let cards = [
     githubLink: 'https://github.com/Robrigado'
   },
   {
+  artName: 'Dummy Animation',
+  pageLink: './Art/dummy_me/index.html',
+  imageLink: './Art/dummy_me/dummy.gif',
+  author: 'Mansi',
+  githubLink: 'https://github.com/manasi-20'
+},
+{
     artName: 'moving_choices',
     pageLink: './Art/Katana/index.html',
     imageLink: './Art/Katana/bounce-choice.GIF',
