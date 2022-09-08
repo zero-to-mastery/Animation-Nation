@@ -6246,8 +6246,8 @@ let cards = [
     imageLink: './Art/cr-animation/index.html/colorful-heart.png',
     author: 'Cristina',
     githubLink: 'https://github.com/crsecu'
-},
-{
+  },
+  {
     artName: 'wink',
     pageLink: './Art/Robrigado/index.html',
     imageLink: './Art/Robrigado/wink.gif',
@@ -6255,14 +6255,34 @@ let cards = [
     githubLink: 'https://github.com/Robrigado'
   },
 
-
+  {
+    artName: 'car-animation',
+    pageLink: './Art/car-animation/index.html',
+    imageLink: './Art/car-animation',
+    author: 'Markus',
+    githubLink: 'https://github.com/Markus-Sm'
+},
+{
+  artName: 'Dummy Animation',
+  pageLink: './Art/dummy_me/index.html',
+  imageLink: './Art/dummy_me/dummy.gif',
+  author: 'Mansi',
+  githubLink: 'https://github.com/manasi-20'
+},
+{
+    artName: 'moving_choices',
+    pageLink: './Art/Katana/index.html',
+    imageLink: './Art/Katana/bounce-choice.GIF',
+    author: 'Katana',
+    githubLink: 'https://github.com/katanaji'
+  }
 {
     artName: 'Factory',
     pageLink: './Art/SEN-RAD/index.html',
     imageLink: './Art/SEN-RAD/factory.gif',
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
