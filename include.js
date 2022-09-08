@@ -6275,6 +6275,13 @@ let cards = [
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
   }
+  {
+    artName: 'BubbleDuck',
+    pageLink: './Art/BubbleDuck/duckIndex.html',
+    imageLink: './Art/BubbleDuck/Ducky.gif',
+    author: 'Ceri',
+    githubLink: 'https://github.com/cpk3'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
