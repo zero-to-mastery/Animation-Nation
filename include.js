@@ -6274,6 +6274,13 @@ let cards = [
     imageLink: './Art/Katana/bounce-choice.GIF',
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
+  },
+  {
+    artName: 'Rotating Number Cards',
+    pageLink: './Art/victor-anderson/index.html',
+    imageLink: './Art/victor-anderson/index.gif',
+    author: 'Victor Anderson',
+    githubLink: 'https://github.com/realvicandy'
   }
 ];
 
