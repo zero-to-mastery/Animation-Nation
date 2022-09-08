@@ -163,6 +163,13 @@ let cards = [
     githubLink: 'https://github.com/l0ve2cr3ate'
   },
   {
+    artName: 'BLOCK REVEALING EFFECT',
+    pageLink: './Art/belaid-dali/BLOCK REVEALING EFFECT/index.html',
+    imageLink: './Art/belaid-dali/BLOCK REVEALING EFFECT/block_effect.gif',
+    author: 'belaid-dali',
+    githubLink: 'https://github.com/belaid-dali'
+  },
+  {
     artName: 'Animated-Loading',
     pageLink: './Art/Animated-Loading/index.html',
     imageLink: './Art/Animated-Loading/Animated-Loading.gif',
