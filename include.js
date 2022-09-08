@@ -6260,8 +6260,14 @@ let cards = [
   imageLink: './Art/dummy_me/dummy.gif',
   author: 'Mansi',
   githubLink: 'https://github.com/manasi-20'
+},
+{
+    artName: 'moving_choices',
+    pageLink: './Art/Katana/index.html',
+    imageLink: './Art/Katana/bounce-choice.GIF',
+    author: 'Katana',
+    githubLink: 'https://github.com/katanaji'
   }
-
 ];
 
 // +--------------------------------------------------------------------------------+
