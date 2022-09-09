@@ -6253,7 +6253,16 @@ let cards = [
     imageLink: './Art/Robrigado/wink.gif',
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
-  }
+  },
+  
+    {
+      artName: 'animation.css',
+      pageLink: './Art/animation.css/index.html',
+      imageLink: './Art/animation.css/Animation.png',
+      author: 'Glow-rhee',
+      githubLink: 'github.com/Glow-rhee'
+    }
+ 
 ];
 
 // +--------------------------------------------------------------------------------+

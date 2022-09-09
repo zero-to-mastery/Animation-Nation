@@ -1,0 +1,40 @@
+.mainC{
+ top:50%;
+ left:50%;
+transform:translate(-50%, -50%);
+position: absolute;
+width:1140px
+}
+.First{
+ height:100px;
+width:100%;
+ 
+background-color:#FC5BB6;
+animation: slidein .5s linear 1s infinite;
+
+}
+.Second{
+  height:100px;
+width:100%;
+ 
+background-color:#FC5BB6;
+animation: slidein .5s linear 1s infinite;
+ border: 1px solid #FFBEE3;
+color:#FFBEE3;
+background-color:#FFBEE3;
+max-width:700px;
+height: 100px;
+margin-top:4em;
+border-radius: 10px;
+
+}
+.Third{
+ border: 1px solid #a9f3d4;
+ animation: slidein .5s linear 1s infinite;
+color:#a9f3d4;
+background-color:#a9f3d4;
+max-width:1140px;
+height: 100px;
+margin-top:4em;
+border-radius: 10px;
+}
