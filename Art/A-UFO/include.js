@@ -6274,13 +6274,6 @@ let cards = [
     imageLink: './Art/Katana/bounce-choice.GIF',
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
-  },
-  {
-    artName: 'Moving Colors',
-    pageLink: './Art/Moving Colors/index.html',
-    imageLink: './Art/Moving Colors/MovingColors.gif',
-    author: 'cjhaspenfalls',
-    githubLink: 'https://github.com/cjhaspenfalls'
   }
 ];
 
