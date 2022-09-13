@@ -6274,7 +6274,14 @@ let cards = [
     imageLink: './Art/Katana/bounce-choice.GIF',
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
-  }
+},
+{
+  artName: 'Animation Effects',
+  pageLink: './Art/Animation effect/index.html',
+  imageLink: './Art/Animation effect/trance.gif',
+  author: 'Nawas',
+  githubLink: 'https://github.com/NawasRaza'
+}
 ];
 
 // +--------------------------------------------------------------------------------+
