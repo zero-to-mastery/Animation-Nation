@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Calligraffitti', cursive;
+    background: rgba(87, 87, 87, 0.136);
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#title {
+    font-weight: bold;
+    background: linear-gradient(to right, blue, yellow, red, rgb(12, 255, 12), rgb(157, 0, 157), cyan, crimson);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-bouncing-ball {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.animation-bouncing-ball {
+    position: relative;
+    animation: bouncing-ball 8s linear infinite normal;
+}
+
+.ball {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background: repeating-linear-gradient(45deg, #3f87a6, #ebf8e1 5%, #f69d3c 10%);
+    border-radius: 50%;
+}
+
+@keyframes bouncing-ball {
+    0% {
+        right: 0;
+        transform: rotate(0deg);
+        scale: 1;
+    }
+
+    13% {
+        right: 0;
+        transform: rotate(1500deg);
+        scale: 1.5;
+    }
+
+    26% {
+        right: -40%;
+        transform: rotate(2300deg);
+        opacity: 0.33;
+        scale: 1;
+    }
+
+    39% {
+        right: -40%;
+        transform: rotate(2300deg);
+        scale: 1;
+    }
+
+    52% {
+        right: 0;
+        transform: rotate(0deg);
+        opacity: 0.8;
+        scale: 1.5;
+    }
+
+    65% {
+        right: 0px;
+        transform: rotate(-1500deg);
+        scale: 1.5;
+    }
+
+    78% {
+        right: 40%;
+        transform: rotate(-2300deg);
+        scale: 1;
+    }
+
+    91% {
+        right: 40%;
+        transform: rotate(-2300deg);
+        scale: 1;
+        opacity: 0.33;
+    }
+
+    100% {
+        right: 0;
+        transform: rotate(0deg);
+        scale: 1.5;
+    }
+}
+
+.container-waiting-rings {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 400px;
+    background: black;
+    border: 3px solid gray;
+    border-radius: 20px;
+}
+
+.container-waiting-rings .ring {
+    position: relative;
+    margin: -40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top: 4px solid #59cdff;
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container-waiting-rings .ring::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #59cdff;
+    border-color: transparent;
+    border-radius: 50%;
+    top: 25px;
+    right: 13px;
+    box-shadow: 
+    0 0 0 5px #59cdff33,
+    0 0 0 10px #59cdff22,
+    0 0 0 20px #59cdff11,
+    0 0 50px #59cdff11;
+}
+
+.container-waiting-rings .ring:nth-child(2) {
+    animation: animate2 4s linear infinite;
+    animation-delay: -1s;
+    border-left: 4px solid #00ff11;
+    border-top: 4px solid transparent;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.container-waiting-rings .ring:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #00ff11;
+    border-color: transparent;
+    border-radius: 50%;
+    top: initial;
+    right: initial;
+    bottom: 24px;
+    left: 15px;
+    box-shadow: 
+    0 0 0 5px #00ff1133,
+    0 0 0 10px #00ff1122,
+    0 0 0 20px #00ff1111,
+    0 0 50px #00ff1111;
+}
+
+.container-waiting-rings .ring:nth-child(3) {
+    animation: animate2 4s linear infinite;
+    animation-delay: -3s;
+    border-top: 4px solid transparent;
+    border-left: 4px solid rgb(179, 0, 196);
+    position: absolute;
+    top: 88px;
+}
+
+.container-waiting-rings .ring:nth-child(3)::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: rgb(179, 0, 196);
+    border-color: transparent;
+    border-radius: 50%;
+    top: initial;
+    right: initial;
+    bottom: 24px;
+    left: 15px;
+    box-shadow: 
+    0 0 0 5px rgb(179, 0, 196, 0.33),
+    0 0 0 10px rgb(179, 0, 196, 0.22),
+    0 0 0 20px rgb(179, 0, 196, 0.11),
+    0 0 50px rgb(179, 0, 196, 0.11);
+}
