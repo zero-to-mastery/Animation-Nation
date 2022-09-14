@@ -326,6 +326,13 @@ let cards = [
     githubLink: 'https://github.com/KatrinaRose14'
   },
   {
+    artName: 'Sunny Colorado Day',
+    pageLink: './Art/alexanderjessediaz/index.html',
+    imageLink: './Art/alexanderjessediaz/cloudAnimation.gif',
+    author: 'AJ',
+    githubLink: 'https://github.com/alexanderjessediaz'
+  },
+  {
     pageLink: 'firstanimate',
     imageLink: './Art/firstanimate/index.html',
     author: 'shailesh',
