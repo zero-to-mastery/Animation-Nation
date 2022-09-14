@@ -1,0 +1,73 @@
+
+div{
+    position: relative;
+}
+div::before{
+    position: absolute;
+    content:"";
+    left: 0;
+    top: 50%;
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(248, 182, 100);
+    animation-name: mov-l;
+    animation-duration: 4s;
+ 
+}
+div::after{
+    position: absolute;
+    content:"";
+    right: 0;
+    top: 50%;
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(248, 182, 100);
+    animation-name: mov-r;
+    animation-duration: 4s;
+}
+@keyframes mov-l{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 45%;
+        width: 150px;
+        height: 150px;
+   
+    }
+75%{
+    width: 600px;
+    height: 600px;
+
+}
+100%{
+    width: 1200px;
+    height: 1200px;
+    border-radius: 0;
+}
+}
+@keyframes mov-r{
+    0%{
+        right: 0;
+    }
+    50%{
+        right: 45%;
+        width: 150px;
+        height: 150px;
+   
+    }
+75%{
+    width: 600px;
+    height: 600px;
+
+}
+100%{
+    width: 1200px;
+    height: 1200px;
+border-radius: 0;
+}
+}
