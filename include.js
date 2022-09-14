@@ -161,13 +161,18 @@ let cards = [
     imageLink: './Art/love2cr3ate/bouncing-heart.gif',
     author: 'l0ve2cr3ate',
     githubLink: 'https://github.com/l0ve2cr3ate'
-  },
+  },{
+  artName: 'bubleAnimation',
+    pageLink: './Art/youcefA/index.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger'},
   {
     artName: 'Animated-Loading',
     pageLink: './Art/Animated-Loading/index.html',
     imageLink: './Art/Animated-Loading/Animated-Loading.gif',
-    author: 'Mehul1011',
-    githubLink: 'https://github.com/mehul1011'
+    author: 'youcef',
+    githubLink: 'https://github.com/youcefsax'
   },
   {
     artName: 'covid-19',
