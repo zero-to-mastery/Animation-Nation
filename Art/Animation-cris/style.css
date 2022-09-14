@@ -1,0 +1,677 @@
+@charset "UTF-8";
+:root {
+  --birdColor: #36636b;
+  --tailColor: #383048;
+  --eyesColor: #fff;
+  --pupilsColor: #413A50;
+  --legsColor: #e69e18;
+  --noseColor: #EEBE24;
+  --knifeColor: #91C1C6;
+  --white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1 {
+    color: #fff;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(./nature.jpg);
+  object-fit: cover;
+  background-position: 0 center;
+}
+
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: 50px 19px;
+}
+
+.bird {
+  width: 194px;
+  height: 330px;
+  position: relative;
+  top: 26px;
+  left: 28px;
+}
+
+.head {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 0;
+  left: 73px;
+  background-color: var(--birdColor);
+  border-radius: 50%;
+  z-index: 6;
+}
+
+.face {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  animation-name: changeZIndex;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+}
+.eye_right {
+  left: -29px;
+  top: 23px;
+}
+.eye_left {
+  left: 1px;
+  top: 23px;
+  animation-direction: reverse;
+}
+.eye__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--eyesColor);
+  border-radius: 50%;
+  overflow: hidden;
+  animation-name: moveEyes;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+}
+.eye__inner_right::before, .eye__inner_left::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  transform: translateY(-100%);
+  z-index: 5;
+  animation-name: blinkTopEyelid;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+}
+.eye__inner_right::after, .eye__inner_left::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  transform: translateY(100%);
+  z-index: 5;
+  animation-name: blinkBottomEyelid;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+}
+.eye__pupil {
+  position: absolute;
+  top: 18px;
+  left: 27%;
+  width: 15px;
+  height: 15px;
+  background-color: var(--pupilsColor);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 4;
+  animation-name: movePupils;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+}
+
+.nose {
+  width: 45px;
+  height: 24px;
+  position: absolute;
+  top: 48px;
+  right: 34px;
+  background-color: var(--noseColor);
+  z-index: 2;
+  border-radius: 77% 23% 25% 75%/55% 52% 48% 45%;
+  transform: scaleX(1);
+  transform-origin: right center;
+  animation-name: moveNose;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+}
+
+.body-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.body1 {
+  position: absolute;
+  width: 65px;
+  height: 190px;
+  right: 73px;
+  top: 28px;
+  transform: skew(-3deg, 0deg);
+  background-color: var(--birdColor);
+  border-radius: 190px 0 0 0;
+}
+
+.body2 {
+  position: absolute;
+  width: 49px;
+  height: 215px;
+  left: 36px;
+  top: 13px;
+  transform: skew(-21deg, 0deg);
+  border-radius: 8px 10px 0 53px;
+  background-color: var(--birdColor);
+}
+
+.body3 {
+  position: absolute;
+  width: 104px;
+  height: 73px;
+  left: 10px;
+  bottom: 63px;
+  border-radius: 0 0 0 73px;
+  background-color: var(--birdColor);
+}
+.body3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 87px;
+  height: 77px;
+  top: 5px;
+  right: -46px;
+  transform: rotate(-69deg);
+  background-color: var(--birdColor);
+  border-radius: 0 0 13px 80px;
+}
+
+.leg {
+  position: absolute;
+  width: 13px;
+  height: 79px;
+  bottom: 10px;
+  transform: rotate(-19deg);
+  border-radius: 10px;
+}
+.leg_left {
+  right: 90px;
+  background-color: var(--legsColor);
+  z-index: 2;
+}
+.leg_right {
+  right: 106px;
+  background-color: #d8a911;
+}
+
+.tail {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  right: 25px;
+  bottom: 103px;
+  background-color: var(--tailColor);
+  border-radius: 0 14% 100% 0;
+  transform: rotate(-45deg) translateY(6px);
+  animation-name: moveTail;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+.pseudo-knife {
+  width: 250px;
+  height: 220px;
+  position: absolute;
+  top: 60px;
+  left: -43px;
+  transform-origin: 86px 111px;
+  opacity: 0;
+  animation-name: pseudoKnifeRotate;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+.pseudo-knife__blade {
+  width: 250px;
+  height: 220px;
+  position: absolute;
+  border-radius: 50%;
+  clip-path: polygon(50% 58%, 15% 0, 88% 0);
+  background: radial-gradient(var(--knifeColor) 25%, var(--white) 25% 45%, var(--knifeColor) 45% 100%);
+  transform: rotate(-153deg);
+}
+.pseudo-knife__handle {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 75px;
+  top: 45px;
+  border-radius: 50%;
+  clip-path: polygon(50% 58%, 15% 0, 88% 0);
+  background: var(--pupilsColor);
+  transform: rotate(20deg);
+}
+
+.knife {
+  position: absolute;
+  top: 67px;
+  left: -9px;
+  transform: rotate(-14deg);
+  opacity: 0;
+  animation-name: showKnife;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+.knife::before {
+  content: "✦";
+  position: absolute;
+  top: -13px;
+  right: -8px;
+  color: var(--white);
+  font-size: 20px;
+  transform: scale(1);
+  z-index: 16;
+  animation-name: bladeFlare;
+  animation-duration: 400ms;
+  animation-fill-mode: both;
+  animation-delay: 3.5s;
+}
+.knife__blade {
+  position: relative;
+  width: 22px;
+  height: 86px;
+  background-color: #91C1C6;
+  border-radius: 92% 6% 0 100%/100% 6% 94% 0;
+  overflow: hidden;
+}
+.knife__blade::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  top: 40%;
+  left: -50%;
+  right: -50%;
+  transform: rotate(-30deg);
+  background-color: var(--white);
+  z-index: 10;
+  animation-name: bladeBlink;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+.knife__handle {
+  width: 53px;
+  height: 13px;
+  background: #383048;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 85px;
+  border-radius: 25px;
+}
+.knife__handle::after {
+  content: "";
+  width: 21px;
+  height: 43px;
+  background: #383048;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0 0 20px 20px;
+}
+
+@keyframes blinkTopEyelid {
+  0% {
+    transform: translateY(-100%);
+  }
+  8% {
+    transform: translateY(-100%);
+  }
+  10% {
+    transform: translateY(-50%);
+  }
+  12% {
+    transform: translateY(-100%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  28% {
+    transform: translateY(-50%);
+  }
+  30% {
+    transform: translateY(-65%);
+  }
+  75% {
+    transform: translateY(-65%);
+  }
+  77% {
+    transform: translateY(-50%);
+  }
+  79% {
+    transform: translateY(-100%);
+  }
+  92% {
+    transform: translateY(-100%);
+  }
+  95% {
+    transform: translateY(-50%);
+  }
+  98% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+@keyframes blinkBottomEyelid {
+  0% {
+    transform: translateY(100%);
+  }
+  8% {
+    transform: translateY(100%);
+  }
+  10% {
+    transform: translateY(50%);
+  }
+  12% {
+    transform: translateY(100%);
+  }
+  25% {
+    transform: translateY(100%);
+  }
+  28% {
+    transform: translateY(50%);
+  }
+  30% {
+    transform: translateY(100%);
+  }
+  75% {
+    transform: translateY(100%);
+  }
+  77% {
+    transform: translateY(50%);
+  }
+  79% {
+    transform: translateY(100%);
+  }
+  92% {
+    transform: translateY(100%);
+  }
+  95% {
+    transform: translateY(50%);
+  }
+  98% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes changeZIndex {
+  0% {
+    z-index: 2;
+  }
+  74% {
+    z-index: 2;
+  }
+  75% {
+    z-index: 4;
+  }
+  99% {
+    z-index: 4;
+  }
+  100% {
+    z-index: 2;
+  }
+}
+@keyframes moveEyes {
+  0% {
+    transform: translateX(0);
+  }
+  38% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(20%);
+  }
+  74% {
+    transform: translateX(20%);
+  }
+  75% {
+    transform: translateX(80%);
+  }
+  90% {
+    transform: translateX(80%);
+  }
+  98% {
+    transform: translateX(80%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes movePupils {
+  0% {
+    left: 27%;
+  }
+  12% {
+    left: 27%;
+  }
+  15% {
+    left: 59%;
+  }
+  19% {
+    left: 59%;
+  }
+  22% {
+    left: 27%;
+  }
+  35% {
+    left: 27%;
+  }
+  40% {
+    left: 55%;
+  }
+  90% {
+    left: 55%;
+  }
+  100% {
+    left: 27%;
+  }
+}
+@keyframes moveTail {
+  0% {
+    transform: rotate(-45deg) translateY(6px);
+  }
+  44.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  45.5% {
+    transform: rotate(-3deg) translate(6px, 21px);
+  }
+  46% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  46.5% {
+    transform: rotate(-63deg) translate(7px, 1px);
+  }
+  47% {
+    transform: rotate(-55deg) translate(0, 6px);
+  }
+  47.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  48% {
+    transform: rotate(-10deg) translate(5px, 17px);
+  }
+  48.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  49% {
+    transform: rotate(-50deg) translate(9px, 5px);
+  }
+  49.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  94.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  95.5% {
+    transform: rotate(-3deg) translate(6px, 21px);
+  }
+  96% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  96.5% {
+    transform: rotate(-63deg) translate(7px, 1px);
+  }
+  97% {
+    transform: rotate(-55deg) translate(0, 6px);
+  }
+  97.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  98% {
+    transform: rotate(-10deg) translate(5px, 17px);
+  }
+  98.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  99% {
+    transform: rotate(-50deg) translate(9px, 5px);
+  }
+  99.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  100% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+}
+@keyframes showKnife {
+  0% {
+    opacity: 0;
+  }
+  43% {
+    opacity: 0;
+  }
+  44% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  82% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes bladeBlink {
+  0% {
+    transform: rotate(-30deg) translateY(0s);
+  }
+  100% {
+    transform: rotate(-30deg) translateY(-38px);
+  }
+}
+@keyframes bladeFlare {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes pseudoKnifeRotate {
+  0% {
+    opacity: 0;
+    transform: rotate(-600deg);
+  }
+  33% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+    transform: rotate(-600deg);
+  }
+  44% {
+    opacity: 1;
+    transform: rotate(120deg);
+  }
+  45% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+    transform: rotate(180deg);
+  }
+  85% {
+    opacity: 1;
+    transform: rotate(-375deg);
+  }
+  86% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(-375deg);
+  }
+}
+@keyframes moveNose {
+  0% {
+    border-radius: 77% 23% 25% 75%/55% 52% 48% 45%;
+    transform: scaleX(1) rotate(0deg);
+  }
+  39.5% {
+    border-radius: 77% 23% 25% 75%/55% 52% 48% 45%;
+    transform: scaleX(1) rotate(0deg);
+  }
+  40% {
+    transform: scaleX(0.67) rotate(0deg);
+    border-radius: 71% 29% 50% 58%/70% 30% 70% 30%;
+  }
+  74% {
+    transform: scaleX(0.67) rotate(0deg);
+    border-radius: 71% 29% 50% 58%/70% 30% 70% 30%;
+    z-index: 2;
+  }
+  74.5% {
+    border-radius: 77% 23% 25% 75%/55% 52% 48% 45%;
+    transform: scaleX(1) rotate(186deg);
+    z-index: 3;
+  }
+  99% {
+    border-radius: 77% 23% 25% 75%/55% 52% 48% 45%;
+    transform: scaleX(1) rotate(186deg);
+    z-index: 3;
+  }
+  100% {
+    border-radius: 77% 23% 25% 75%/55% 52% 48% 45%;
+    transform: scaleX(1) rotate(0deg);
+    z-index: 2;
+  }
+}

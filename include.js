@@ -6274,6 +6274,13 @@ let cards = [
     imageLink: './Art/Katana/bounce-choice.GIF',
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
+  },
+  {
+    artName: 'Animation-cris',
+    pageLink: './Art/Animation-cris/index.html',
+    imageLink: './Art/Animation-cris',
+    author: 'Cristian',
+    githubLink: 'https://github.com/dicucristiann'
   }
 ];
 
