@@ -6254,6 +6254,13 @@ let cards = [
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
   },
+{
+    artName: 'AnimateManas',
+    pageLink: './Art/AnimatManas/index.html',
+    imageLink: './Art/AnimatManas/ZTM_animation.gif',
+    author: 'Manas',
+    githubLink: 'https://github.com/ManasKumar111'
+  },
   {
     artName: 'Glowing orb',
     pageLink: './Art/Glowing-orb/index.html',
