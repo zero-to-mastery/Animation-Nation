@@ -6269,6 +6269,13 @@ let cards = [
     githubLink: 'https://github.com/Robrigado'
   },
   {
+    artName: 'Lithuania',
+    pageLink: './Art/MiUlon/index.html',
+    imageLink: './Art/MiUlon/lithuania.gif',
+    author: 'MiUlon',
+    githubLink: 'https://github.com/MiUlon'
+},
+{
     artName: 'yuki',
     pageLink: './Art/yuki/index.html',
     imageLink: './Art/yuki/yuki.gif',
