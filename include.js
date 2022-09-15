@@ -6239,8 +6239,8 @@ let cards = [
     imageLink: './Art/erikanimation/corazon.gif',
     author: 'Erika',
     githubLink: 'https://github.com/erikaaquino'
-},
-{
+  },
+  {
     artName: 'Colorful Heart',
     pageLink: './Art/cr-animation/index.html',
     imageLink: './Art/cr-animation/index.html/colorful-heart.png',
@@ -6255,6 +6255,13 @@ let cards = [
     githubLink: 'https://github.com/Robrigado'
   },
   {
+    artName: 'Glowing orb',
+    pageLink: './Art/Glowing-orb/index.html',
+    imageLink: './Art/Glowing-orb/glow.png',
+    author: 'RubenVerkuylen',
+    githubLink: 'https://github.com/rubenverkuylen'
+},
+{
     artName: 'car-animation',
     pageLink: './Art/car-animation/index.html',
     imageLink: './Art/car-animation',
