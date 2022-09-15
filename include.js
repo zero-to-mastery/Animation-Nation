@@ -6239,22 +6239,21 @@ let cards = [
     imageLink: './Art/erikanimation/corazon.gif',
     author: 'Erika',
     githubLink: 'https://github.com/erikaaquino'
-},
-{
+  },
+  {
     artName: 'Colorful Heart',
     pageLink: './Art/cr-animation/index.html',
     imageLink: './Art/cr-animation/index.html/colorful-heart.png',
     author: 'Cristina',
     githubLink: 'https://github.com/crsecu'
-},
-{
+  },
+  {
     artName: 'wink',
     pageLink: './Art/Robrigado/index.html',
     imageLink: './Art/Robrigado/wink.gif',
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
   },
-  
 {
     artName: 'AnimateManas',
     pageLink: './Art/AnimatManas/index.html',
@@ -6262,7 +6261,34 @@ let cards = [
     author: 'Manas',
     githubLink: 'https://github.com/ManasKumar111'
   },
-
+  {
+    artName: 'Glowing orb',
+    pageLink: './Art/Glowing-orb/index.html',
+    imageLink: './Art/Glowing-orb/glow.png',
+    author: 'RubenVerkuylen',
+    githubLink: 'https://github.com/rubenverkuylen'
+},
+{
+    artName: 'car-animation',
+    pageLink: './Art/car-animation/index.html',
+    imageLink: './Art/car-animation',
+    author: 'Markus',
+    githubLink: 'https://github.com/Markus-Sm'
+},
+{
+  artName: 'Dummy Animation',
+  pageLink: './Art/dummy_me/index.html',
+  imageLink: './Art/dummy_me/dummy.gif',
+  author: 'Mansi',
+  githubLink: 'https://github.com/manasi-20'
+},
+{
+    artName: 'moving_choices',
+    pageLink: './Art/Katana/index.html',
+    imageLink: './Art/Katana/bounce-choice.GIF',
+    author: 'Katana',
+    githubLink: 'https://github.com/katanaji'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
