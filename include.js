@@ -6268,6 +6268,13 @@ let cards = [
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
   },
+  {
+    artName: 'yuki',
+    pageLink: './Art/yuki/index.html',
+    imageLink: './Art/yuki/yuki.gif',
+    author: 'rachel',
+    githubLink: 'https://github.com/rchin8877'
+},
 {
     artName: 'AnimateManas',
     pageLink: './Art/AnimatManas/index.html',
