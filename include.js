@@ -6239,8 +6239,8 @@ let cards = [
     imageLink: './Art/erikanimation/corazon.gif',
     author: 'Erika',
     githubLink: 'https://github.com/erikaaquino'
-},
-{
+  },
+  {
     artName: 'Colorful Heart',
     pageLink: './Art/cr-animation/index.html',
     imageLink: './Art/cr-animation/index.html/colorful-heart.png',
@@ -6260,15 +6260,15 @@ let cards = [
     imageLink: './Art/car-animation',
     author: 'Markus',
     githubLink: 'https://github.com/Markus-Sm'
-},
-{
-  artName: 'Dummy Animation',
-  pageLink: './Art/dummy_me/index.html',
-  imageLink: './Art/dummy_me/dummy.gif',
-  author: 'Mansi',
-  githubLink: 'https://github.com/manasi-20'
-},
-{
+  },
+  {
+    artName: 'Dummy Animation',
+    pageLink: './Art/dummy_me/index.html',
+    imageLink: './Art/dummy_me/dummy.gif',
+    author: 'Mansi',
+    githubLink: 'https://github.com/manasi-20'
+  },
+  {
     artName: 'moving_choices',
     pageLink: './Art/Katana/index.html',
     imageLink: './Art/Katana/bounce-choice.GIF',
@@ -6309,4 +6309,12 @@ function Shuffle(o) {
     j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
   );
   return o;
+}
+
+{
+  artName: 'sandhya';
+  pageLink: './Art/sandhya/index.html';
+  imageLink: './Art/sandhya/robot_heart.gif';
+  author: 'Sandhya';
+  githubLink: 'https://github.com/S';
 }
