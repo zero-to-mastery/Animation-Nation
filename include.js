@@ -1019,6 +1019,13 @@ let cards = [
     githubLink: 'https://github.com/gilbertekalea'
   },
   {
+    artName: 'Italy Flag',
+    pageLink: './Art/DanAnim/index.html',
+    imageLink: '',
+    author: 'Daniele',
+    githubLink: 'https://github.com/DanieleTursi'
+  },
+  {
     artName: 'ZTM Animation',
     pageLink: './Art/EricPuskas/index.html',
     imageLink: './Art/EricPuskas/index.gif',
