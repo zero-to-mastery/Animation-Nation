@@ -6269,6 +6269,13 @@ let cards = [
     githubLink: 'https://github.com/Robrigado'
   },
   {
+    artName: 'click to stop',
+    pageLink: './Art/cssanimacja/index.html',
+    imageLink: 'css.png',
+    author: 'Mateusz',
+    githubLink: 'https://github.com/mateuszsnieg'
+  },
+  {
       artName: 'A Square Circus',
       pageLink: './Art/aSquareCircus/index.html',
       imageLink: './Art/aSquareCircus/SquareControl.gif',
