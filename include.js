@@ -6268,6 +6268,13 @@ let cards = [
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
   },
+  {
+      artName: 'A Square Circus',
+      pageLink: './Art/aSquareCircus/index.html',
+      imageLink: './Art/aSquareCircus/SquareControl.gif',
+      author: 'Abdul Rahim',
+      githubLink: 'https://github.com/arx0x0'
+},
 {
   artName: 'css-glow-effect-animation',
   pageLink: './Art/css-glow-effect-animation/index.html',
@@ -6324,6 +6331,7 @@ let cards = [
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
   }
+  
 ];
 
 // +--------------------------------------------------------------------------------+
