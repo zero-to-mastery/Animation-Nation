@@ -1,0 +1,20 @@
+.ghost {
+  color: blueviolet;
+  font-size: 8rem;
+  padding: 90px 90px;
+  animation: bounce 4s infinite;
+  justify-content: center;
+  margin: 250px 250px;
+}
+@keyframes bounce {
+  from {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
