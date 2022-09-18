@@ -6353,6 +6353,13 @@ let cards = [
     githubLink: 'https://github.com/katanaji'
   },
   {
+    artName: 'Rotating Number Cards',
+    pageLink: './Art/victor-anderson/index.html',
+    imageLink: './Art/victor-anderson/index.gif',
+    author: 'Victor Anderson',
+    githubLink: 'https://github.com/realvicandy'
+},
+{
     artName: 'Living Robot',
     pageLink: './Art/greywind/index.html',
     imageLink: './Art/greywind/greywind.gif',
