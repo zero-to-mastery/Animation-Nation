@@ -6274,7 +6274,15 @@ let cards = [
     imageLink: './Art/Katana/bounce-choice.GIF',
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
-  }
+  },
+  {
+    artName: 'BHARAT',
+    pageLink: './Art/BHARAT/index.html',
+    imageLink: './Art/BHARAT/BHARAT.gif',
+    author: 'mbera99',
+    githubLink: 'https://github.com/mbera99'
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
