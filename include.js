@@ -6351,6 +6351,13 @@ let cards = [
     imageLink: './Art/Katana/bounce-choice.GIF',
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
+  },
+  {
+    artName: 'Living Robot',
+    pageLink: './Art/greywind/index.html',
+    imageLink: './Art/greywind/greywind.gif',
+    author: 'George',
+    githubLink: 'https://github.com/greyXwind'
   }
 ];
 
