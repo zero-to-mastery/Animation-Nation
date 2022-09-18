@@ -5572,6 +5572,13 @@ let cards = [
     githubLink: 'https://github.com/chrisgithubok'
   },
   {
+    artName: 'League of Legends Card Animation',
+    pageLink: './Art/Bryanmax9/index.html',
+    imageLink: './Art/Bryanmax9/league.gif',
+    author: 'Bryanmax9',
+    githubLink: 'https://github.com/bryanmax9/'
+  },
+  {
     pageLink: '.Art/yash2003/index.html',
     imageLink: '.Art/yash2003/animation.gif',
     author: 'Yashraj',
@@ -6276,34 +6283,34 @@ let cards = [
     githubLink: 'https://github.com/mateuszsnieg'
   },
   {
-      artName: 'A Square Circus',
-      pageLink: './Art/aSquareCircus/index.html',
-      imageLink: './Art/aSquareCircus/SquareControl.gif',
-      author: 'Abdul Rahim',
-      githubLink: 'https://github.com/arx0x0'
-},
-{
-  artName: 'css-glow-effect-animation',
-  pageLink: './Art/css-glow-effect-animation/index.html',
-  imageLink: './Art/css-glow-effect-animation/glow.png',
-  author: 'tidz',
-  githubLink: 'https://github.com/john-tidz'
-},
+    artName: 'A Square Circus',
+    pageLink: './Art/aSquareCircus/index.html',
+    imageLink: './Art/aSquareCircus/SquareControl.gif',
+    author: 'Abdul Rahim',
+    githubLink: 'https://github.com/arx0x0'
+  },
+  {
+    artName: 'css-glow-effect-animation',
+    pageLink: './Art/css-glow-effect-animation/index.html',
+    imageLink: './Art/css-glow-effect-animation/glow.png',
+    author: 'tidz',
+    githubLink: 'https://github.com/john-tidz'
+  },
   {
     artName: 'Lithuania',
     pageLink: './Art/MiUlon/index.html',
     imageLink: './Art/MiUlon/lithuania.gif',
     author: 'MiUlon',
     githubLink: 'https://github.com/MiUlon'
-},
-{
+  },
+  {
     artName: 'yuki',
     pageLink: './Art/yuki/index.html',
     imageLink: './Art/yuki/yuki.gif',
     author: 'rachel',
     githubLink: 'https://github.com/rchin8877'
-},
-{
+  },
+  {
     artName: 'AnimateManas',
     pageLink: './Art/AnimatManas/index.html',
     imageLink: './Art/AnimatManas/ZTM_animation.gif',
@@ -6316,29 +6323,28 @@ let cards = [
     imageLink: './Art/Glowing-orb/glow.png',
     author: 'RubenVerkuylen',
     githubLink: 'https://github.com/rubenverkuylen'
-},
-{
+  },
+  {
     artName: 'car-animation',
     pageLink: './Art/car-animation/index.html',
     imageLink: './Art/car-animation',
     author: 'Markus',
     githubLink: 'https://github.com/Markus-Sm'
-},
-{
-  artName: 'Dummy Animation',
-  pageLink: './Art/dummy_me/index.html',
-  imageLink: './Art/dummy_me/dummy.gif',
-  author: 'Mansi',
-  githubLink: 'https://github.com/manasi-20'
-},
-{
+  },
+  {
+    artName: 'Dummy Animation',
+    pageLink: './Art/dummy_me/index.html',
+    imageLink: './Art/dummy_me/dummy.gif',
+    author: 'Mansi',
+    githubLink: 'https://github.com/manasi-20'
+  },
+  {
     artName: 'moving_choices',
     pageLink: './Art/Katana/index.html',
     imageLink: './Art/Katana/bounce-choice.GIF',
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
   }
-  
 ];
 
 // +--------------------------------------------------------------------------------+
