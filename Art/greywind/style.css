@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #222;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.heart {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 33%;
+  left: 43%;
+  -moz-animation: fontSize 5s linear 1s infinite alternate;
+  -o-animation: fontSize 5s linear 1s infinite alternate;
+  -webkit-animation: fontSize 5s linear 1s infinite alternate;
+  animation: fontSize 5s linear 1s infinite alternate;
+}
+
+@-moz-keyframes fontSize {
+  0% {
+    font-size: 1rem;
+    color: #fff;
+  }
+  100% {
+    font-size: 2rem;
+    color: #d92e35;
+  }
+}
+
+@-webkit-keyframes fontSize {
+  0% {
+    font-size: 1rem;
+    color: #fff;
+  }
+  100% {
+    font-size: 2rem;
+    color: #d92e35;
+  }
+}
+
+@-o-keyframes fontSize {
+  0% {
+    font-size: 1rem;
+    color: #fff;
+  }
+  100% {
+    font-size: 2rem;
+    color: #d92e35;
+  }
+}
+
+@keyframes fontSize {
+  0% {
+    font-size: 1rem;
+    color: #fff;
+  }
+  100% {
+    font-size: 2rem;
+    color: #d92e35;
+  }
+}
+
+/* skeleton */
+/* BASE CLASSES */
+.skeleton {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.body {
+  width: 300px;
+  text-align: center;
+}
+.body div {
+  border: 3px solid #fff;
+  padding: 5px;
+}
+
+/* UTILITY CLASSES */
+.left,
+.right {
+  display: inline-block;
+}
+
+.bones {
+  background-size: 100% 20px;
+}
+
+/* HEAD STYLES START */
+.head {
+  width: 3em;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 8px 8px 0 0;
+}
+
+.head .eye {
+  padding: 0;
+  margin-top: 4px;
+  height: 0.8em;
+  width: 0.65em;
+  border-radius: 5px;
+}
+
+/* MOUTH STYLES START */
+.body .head .mouth {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.mouth .teeth {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 2em;
+  height: 1em;
+  list-style-type: none;
+}
+
+.mouth .teeth li {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  height: 0.45em;
+  width: 0.25em;
+  border: 1px solid black;
+  background: #ccc;
+}
+
+.teeth li:nth-child(3n + 1) {
+  background: black;
+}
+
+.body .head .cheek {
+  height: 0.5em;
+}
+
+.body .head .cheek.left {
+  position: absolute;
+  left: -3px;
+  bottom: -3px;
+  border-bottom: 0px;
+  border-left: 0px;
+  background: #222;
+}
+
+.body .head .cheek.right {
+  position: absolute;
+  right: -3px;
+  bottom: -3px;
+  border-bottom: 0px;
+  border-right: 0px;
+  background: #222;
+}
+
+/* ARM STYLES START */
+.arm {
+  height: 4.75em;
+}
+
+/* TORSO STYLES START */
+.torso {
+  display: inline-block;
+  width: 4em;
+  height: 5em;
+  background: linear-gradient(to bottom, #000, #000 50%, none 50%, none);
+  background-size: 100% 20px;
+}
+
+/* LEG STYLES START */
+.leg {
+  height: 6em;
+}
