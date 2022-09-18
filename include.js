@@ -6267,6 +6267,13 @@ let cards = [
     imageLink: './Art/Robrigado/wink.gif',
     author: 'Robrigado',
     githubLink: 'https://github.com/Robrigado'
+  },
+  {
+    artName: 'mrsanim',
+    pageLink: './Art/mrsanim/index.html',
+    imageLink: './Art/mrsanim/mrsanim.png',
+    author: 'Adi',
+    githubLink: 'https://github.com/adimrs'
 },
 {
     artName: 'Loader',
