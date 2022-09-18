@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/aschwir'
   },
   {
+    artName: 'Alright',
+    pageLink: './Art/arjunan-k/index.html',
+    imageLink: './Art/arjunan-k/alright.gif',
+    author: 'Arjunan K',
+    githubLink: 'https://github.com/arjunan-k'
+  },
+  {
     artName: 'Shakerdl',
     pageLink: './Art/Joy/shakerdl/index.html',
     imageLink: './Art/Joy/shakerdl/shrinking.gif',
@@ -6284,7 +6291,7 @@ let cards = [
 },
 {
     artName: 'Loader',
-    pageLink: './Art/Loader/index.html',    
+    pageLink: './Art/Loader/index.html',
     author: 'Cristi Manea',
     githubLink: 'https://github.com/cristimanea26'
 
