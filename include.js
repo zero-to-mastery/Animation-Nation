@@ -6360,6 +6360,13 @@ let cards = [
     githubLink: 'https://github.com/katanaji'
   },
   {
+    artName: 'Moving Colors',
+    pageLink: './Art/Moving Colors/index.html',
+    imageLink: './Art/Moving Colors/MovingColors.gif',
+    author: 'cjhaspenfalls',
+    githubLink: 'https://github.com/cjhaspenfalls'
+},
+{
     artName: 'Rotating Number Cards',
     pageLink: './Art/victor-anderson/index.html',
     imageLink: './Art/victor-anderson/index.gif',
