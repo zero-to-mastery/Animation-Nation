@@ -13,6 +13,13 @@ let cards = [
     author: 'Shakerdl',
     githubLink: 'https://github.com/shakerdl'
   },
+    {
+    artName: 'Hot coffee',
+    pageLink: './Art/Hot coffee/index.html',
+    imageLink: './Art/Hot coffee/cup_coffee.gif',
+    author: 'belaid-dali',
+    githubLink: 'https://github.com/belaid-dali'
+  },
   {
     artName: 'The Crane',
     pageLink: './Art/Malik-Makkes/index.html',
