@@ -6386,7 +6386,14 @@ let cards = [
     imageLink: './Art/greywind/greywind.gif',
     author: 'George',
     githubLink: 'https://github.com/greyXwind'
-  }
+  },
+  {
+    artName: 'Factory',
+    pageLink: './Art/SEN-RAD/index.html',
+    imageLink: './Art/SEN-RAD/factory.gif',
+    author: 'SEN-RAD',
+    githubLink: 'https://github.com/SEN-RAD'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
