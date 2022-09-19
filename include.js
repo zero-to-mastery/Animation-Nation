@@ -6275,6 +6275,13 @@ let cards = [
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
   }
+    {
+    artName: 'Dive Into Space',
+    pageLink: './Art/Dive Into Space/index.html',
+    imageLink: './Art/Dive Into Space/space.gif',
+    author: 'Kareem Abd El-Moneam',
+    githubLink: 'https://github.com/KareemMoneeam'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
