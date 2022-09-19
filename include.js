@@ -20,7 +20,7 @@ let cards = [
     author: 'Shakerdl',
     githubLink: 'https://github.com/shakerdl'
   },
-    {
+  {
     artName: 'Hot coffee',
     pageLink: './Art/Hot coffee/index.html',
     imageLink: './Art/Hot coffee/cup_coffee.gif',
@@ -6288,13 +6288,12 @@ let cards = [
     imageLink: './Art/mrsanim/mrsanim.png',
     author: 'Adi',
     githubLink: 'https://github.com/adimrs'
-},
-{
+  },
+  {
     artName: 'Loader',
     pageLink: './Art/Loader/index.html',
     author: 'Cristi Manea',
     githubLink: 'https://github.com/cristimanea26'
-
   },
   {
     artName: 'click to stop',
@@ -6304,34 +6303,34 @@ let cards = [
     githubLink: 'https://github.com/mateuszsnieg'
   },
   {
-      artName: 'A Square Circus',
-      pageLink: './Art/aSquareCircus/index.html',
-      imageLink: './Art/aSquareCircus/SquareControl.gif',
-      author: 'Abdul Rahim',
-      githubLink: 'https://github.com/arx0x0'
-},
-{
-  artName: 'css-glow-effect-animation',
-  pageLink: './Art/css-glow-effect-animation/index.html',
-  imageLink: './Art/css-glow-effect-animation/glow.png',
-  author: 'tidz',
-  githubLink: 'https://github.com/john-tidz'
-},
+    artName: 'A Square Circus',
+    pageLink: './Art/aSquareCircus/index.html',
+    imageLink: './Art/aSquareCircus/SquareControl.gif',
+    author: 'Abdul Rahim',
+    githubLink: 'https://github.com/arx0x0'
+  },
+  {
+    artName: 'css-glow-effect-animation',
+    pageLink: './Art/css-glow-effect-animation/index.html',
+    imageLink: './Art/css-glow-effect-animation/glow.png',
+    author: 'tidz',
+    githubLink: 'https://github.com/john-tidz'
+  },
   {
     artName: 'Lithuania',
     pageLink: './Art/MiUlon/index.html',
     imageLink: './Art/MiUlon/lithuania.gif',
     author: 'MiUlon',
     githubLink: 'https://github.com/MiUlon'
-},
-{
+  },
+  {
     artName: 'yuki',
     pageLink: './Art/yuki/index.html',
     imageLink: './Art/yuki/yuki.gif',
     author: 'rachel',
     githubLink: 'https://github.com/rchin8877'
-},
-{
+  },
+  {
     artName: 'AnimateManas',
     pageLink: './Art/AnimatManas/index.html',
     imageLink: './Art/AnimatManas/ZTM_animation.gif',
@@ -6344,22 +6343,22 @@ let cards = [
     imageLink: './Art/Glowing-orb/glow.png',
     author: 'RubenVerkuylen',
     githubLink: 'https://github.com/rubenverkuylen'
-},
-{
+  },
+  {
     artName: 'car-animation',
     pageLink: './Art/car-animation/index.html',
     imageLink: './Art/car-animation',
     author: 'Markus',
     githubLink: 'https://github.com/Markus-Sm'
-},
-{
-  artName: 'Dummy Animation',
-  pageLink: './Art/dummy_me/index.html',
-  imageLink: './Art/dummy_me/dummy.gif',
-  author: 'Mansi',
-  githubLink: 'https://github.com/manasi-20'
-},
-{
+  },
+  {
+    artName: 'Dummy Animation',
+    pageLink: './Art/dummy_me/index.html',
+    imageLink: './Art/dummy_me/dummy.gif',
+    author: 'Mansi',
+    githubLink: 'https://github.com/manasi-20'
+  },
+  {
     artName: 'moving_choices',
     pageLink: './Art/Katana/index.html',
     imageLink: './Art/Katana/bounce-choice.GIF',
@@ -6372,20 +6371,27 @@ let cards = [
     imageLink: './Art/Moving Colors/MovingColors.gif',
     author: 'cjhaspenfalls',
     githubLink: 'https://github.com/cjhaspenfalls'
-},
-{
+  },
+  {
     artName: 'Rotating Number Cards',
     pageLink: './Art/victor-anderson/index.html',
     imageLink: './Art/victor-anderson/index.gif',
     author: 'Victor Anderson',
     githubLink: 'https://github.com/realvicandy'
-},
-{
+  },
+  {
     artName: 'Living Robot',
     pageLink: './Art/greywind/index.html',
     imageLink: './Art/greywind/greywind.gif',
     author: 'George',
     githubLink: 'https://github.com/greyXwind'
+  },
+  {
+    artName: 'loading circle',
+    pageLink: './Art/loading-circle/index.html',
+    imageLink: './Art/greywind/circle.gif',
+    author: 'Olayinka',
+    githubLink: 'https://github.com/KOLEAJEOLAYINKA'
   }
 ];
 
