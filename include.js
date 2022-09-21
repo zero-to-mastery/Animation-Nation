@@ -6274,7 +6274,7 @@ let cards = [
     imageLink: './Art/Katana/bounce-choice.GIF',
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
-  }
+  },
     {
     artName: 'Dive Into Space',
     pageLink: './Art/Dive Into Space/index.html',
