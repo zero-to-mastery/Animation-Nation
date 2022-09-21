@@ -6394,6 +6394,13 @@ let cards = [
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
   },
+  {
+    artName: 'The art of patience',
+    pageLink: './Art/Animation-Gtn/index.html',
+    imageLink: './Art/Animation-Gtn/art.gif',
+    author: 'Iulia Gtn',
+    githubLink: 'https://github.com/Iulia-Gaitanaru'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
