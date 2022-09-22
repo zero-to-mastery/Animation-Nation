@@ -6401,6 +6401,14 @@ let cards = [
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
   },
+  {
+    artName: 'Natinats',
+    pageLink: './Art/Natinats/index.html',
+    imageLink: './Art/Natinats/nata.gif',
+    author: 'Natalia',
+    githubLink: 'https://github.com/nquirogac'
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
