@@ -6401,7 +6401,16 @@ let cards = [
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
   },
+
+  {
+    artName: 'Animated-Cube-Slider',
+    pageLink: './Art/Animated-Cube-Slider/index.html',
+    imageLink: './Art/Animated-Cube-Slider/Animated.gif',
+    author: 'Anayat',
+    githubLink: 'https://github.com/anayatkhan1'
+  }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
