@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'GlowingHeart',
+    pageLink: './Art/GlowingHeart/index.html',
+    imageLink: './Art/GlowingHeart/GlowingHeart.gif',
+    author: 'ShahzaibNaeem',
+    githubLink: 'https://github.com/ShahzaibNaeem'
+  },
+  {
     artName: 'Spiral',
     pageLink: './Art/aschwir/index.html',
     imageLink: './Art/aschwir/spiral.gif',
