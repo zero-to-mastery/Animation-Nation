@@ -6401,6 +6401,13 @@ let cards = [
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
   },
+  {
+    artName: 'color fan',
+    pageLink: './Art/raman project/project.html',
+    imageLink: './Art/raman project/project.gif',
+    author: 'raman2482',
+    githubLink: 'https://github.com/raman2482'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
