@@ -6401,6 +6401,13 @@ let cards = [
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
   },
+  {
+    artName: 'Good Luck',
+    pageLink: './Art/YYarts/index.html',
+    imageLink: './Art/YYarts/YYarts.gif',
+    author: 'Chee Yen',
+    githubLink: 'https://github.com/yyyen93'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
