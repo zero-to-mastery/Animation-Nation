@@ -6401,7 +6401,15 @@ let cards = [
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
   },
+  {
+    artName: 'Bouncy Balls',
+    pageLink: './Art/Paarit/index.html',
+    imageLink: './Art/Paarit/BallBounce.gif',
+    author: 'Paarit',
+    githubLink: 'https://github.com/paarit'
+  }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
