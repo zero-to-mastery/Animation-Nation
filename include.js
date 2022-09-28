@@ -6401,6 +6401,13 @@ let cards = [
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
   },
+  {
+    artName: 'Snow',
+    pageLink: './Art/Snow/index.html',
+    imageLink: './Art/Snow/snow.gif',
+    author: 'K-Wiczling',
+    githubLink: 'https://github.com/K-Wiczling'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
