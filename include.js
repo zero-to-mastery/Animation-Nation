@@ -6400,7 +6400,14 @@ let cards = [
     imageLink: './Art/SEN-RAD/factory.gif',
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
-  },
+  },//  Add your card in this section
+    {
+      artName: 'Cards',
+      pageLink: './Art/Sak/index.html',
+      imageLink: './Art/Joy/Sak/image1.gif',
+      author: 'Sak',
+      githubLink: 'https://github.com/sakshimudrale'
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
