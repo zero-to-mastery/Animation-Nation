@@ -6401,6 +6401,14 @@ let cards = [
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
   },
+
+  {
+    artName: 'TBD',
+    pageLink: './Art/Animation Code/index.html',
+    imageLink: './Art/Animation Code/Animation.gif',
+    author: 'CodeChelsea',
+    githubLink: 'https://github.com/codechelsea'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
