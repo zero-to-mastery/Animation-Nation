@@ -6403,9 +6403,9 @@ let cards = [
   },
 
   {
-    artName: 'TBD',
-    pageLink: './Art/Animation Code/index.html',
-    imageLink: './Art/Animation Code/Animation.gif',
+    artName: 'Water Animation',
+    pageLink: './Art/Water Animation/index.html',
+    imageLink: './Art/Water Animation/Water.gif',
     author: 'CodeChelsea',
     githubLink: 'https://github.com/codechelsea'
   }
