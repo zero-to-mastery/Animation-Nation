@@ -5586,6 +5586,13 @@ let cards = [
     githubLink: 'https://github.com/chrisgithubok'
   },
   {
+    artName: 'League of Legends Card Animation',
+    pageLink: './Art/Bryanmax9/index.html',
+    imageLink: './Art/Bryanmax9/league.gif',
+    author: 'Bryanmax9',
+    githubLink: 'https://github.com/bryanmax9/'
+  },
+  {
     pageLink: '.Art/yash2003/index.html',
     imageLink: '.Art/yash2003/animation.gif',
     author: 'Yashraj',
@@ -6365,6 +6372,13 @@ let cards = [
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
   },
+    {
+    artName: 'Dive Into Space',
+    pageLink: './Art/Dive Into Space/index.html',
+    imageLink: './Art/Dive Into Space/space.gif',
+    author: 'Kareem Abd El-Moneam',
+    githubLink: 'https://github.com/KareemMoneeam'
+  },
   {
     artName: 'Moving Colors',
     pageLink: './Art/Moving Colors/index.html',
@@ -6392,6 +6406,19 @@ let cards = [
     imageLink: './Art/greywind/circle.gif',
     author: 'Olayinka',
     githubLink: 'https://github.com/KOLEAJEOLAYINKA'
+},{
+    artName: 'Factory',
+    pageLink: './Art/SEN-RAD/index.html',
+    imageLink: './Art/SEN-RAD/factory.gif',
+    author: 'SEN-RAD',
+    githubLink: 'https://github.com/SEN-RAD'
+  },
+  {
+    artName: 'BHARAT',
+    pageLink: './Art/BHARAT/index.html',
+    imageLink: './Art/BHARAT/BHARAT.gif',
+    author: 'mbera99',
+    githubLink: 'https://github.com/mbera99'
   }
 ];
 
