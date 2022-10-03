@@ -6408,6 +6408,14 @@ let cards = [
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
   }
+  ,
+  {
+    artName: 'BHARAT',
+    pageLink: './Art/BHARAT/index.html',
+    imageLink: './Art/BHARAT/BHARAT.gif',
+    author: 'mbera99',
+    githubLink: 'https://github.com/mbera99'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
