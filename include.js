@@ -6513,6 +6513,12 @@ let cards = [
     author: 'cpk3',
     githubLink: 'https://github.com/cpk3'
   },
+  {
+    pageLink: '.Art/yashraj2003e/index.html',
+    imageLink: '.Art/yashraj20033/animation.gif',
+    author: 'Yashraj',
+    githubLink: 'https://github.com/yashraj2003e'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
