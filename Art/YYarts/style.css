@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Fira Code', sans-serif;
+    font-size: 30px;
+    min-height: 100vh;
+    /* width:100%; 100vw */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 250, 170);
+    color:rgb(0, 112, 0);
+}
+
+p {
+    font-size: 3em;
+}
+
+p#one {
+    animation: fadeinout ease-in-out 7s infinite;
+    text-shadow: 5px 7px 10px rgb(32, 234, 32);
+
+}
+
+span {
+    position: relative;
+    animation: spin 4s infinite linear;
+    font-size:1.2em;
+}
+
+span#two {
+    bottom: 250px;
+    /* left:-500px; */
+    right: 500px;
+}
+
+span#three {
+    bottom: 290px;
+    left: 500px;
+}
+
+span#four {
+    right:400px;
+}
+
+span#five{
+    left:300px;
+}
+
+span#six{
+    top:120px;
+}
+
+
+
+@keyframes fadeinout {
+
+    0%,
+    100% {
+        opacity: 0;
+        /* transform:scale(0); */
+    }
+
+    50% {
+        opacity: 1;
+        /* transform:scale(1); */
+    }
+
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
