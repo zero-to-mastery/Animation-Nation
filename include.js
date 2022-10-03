@@ -6422,6 +6422,12 @@ let cards = [
     githubLink: 'https://github.com/SEN-RAD'
   },
   {
+    artName: 'Animated-Cube-Slider',
+    pageLink: './Art/Animated-Cube-Slider/index.html',
+    imageLink: './Art/Animated-Cube-Slider/Animated.gif',
+    author: 'Anayat',
+    githubLink: 'https://github.com/anayatkhan1'
+  {
     artName: 'Natinats',
     pageLink: './Art/Natinats/index.html',
     imageLink: './Art/Natinats/nata.gif',
@@ -6442,6 +6448,7 @@ let cards = [
     githubLink: 'https://github.com/mbera99'
   }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
