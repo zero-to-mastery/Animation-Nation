@@ -6519,6 +6519,13 @@ let cards = [
     author: 'Yashraj',
     githubLink: 'https://github.com/yashraj2003e'
   },
+  {
+    artName: 'Rolling Happy',
+    pageLink: './Art/marion/index.html',
+    imageLink: './Art/marion/smiles.gif',
+    author: 'Marion',
+    githubLink: 'https://github.com/marionjudy13'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
