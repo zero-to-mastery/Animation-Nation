@@ -6421,6 +6421,14 @@ let cards = [
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
   },
+    {
+      artName: 'Cards',
+      pageLink: './Art/Sak/index.html',
+      imageLink: './Art/Joy/Sak/image1.gif',
+      author: 'Sak',
+      githubLink: 'https://github.com/sakshimudrale'
+
+  },
   {
     artName: 'Snow',
     pageLink: './Art/Snow/index.html',
