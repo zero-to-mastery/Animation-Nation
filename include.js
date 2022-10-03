@@ -1,10 +1,31 @@
 let cards = [
   {
+    artName: 'Spiral',
+    pageLink: './Art/aschwir/index.html',
+    imageLink: './Art/aschwir/spiral.gif',
+    author: 'aschwir',
+    githubLink: 'https://github.com/aschwir'
+  },
+  {
+    artName: 'Alright',
+    pageLink: './Art/arjunan-k/index.html',
+    imageLink: './Art/arjunan-k/alright.gif',
+    author: 'Arjunan K',
+    githubLink: 'https://github.com/arjunan-k'
+  },
+  {
     artName: 'Shakerdl',
     pageLink: './Art/Joy/shakerdl/index.html',
     imageLink: './Art/Joy/shakerdl/shrinking.gif',
     author: 'Shakerdl',
     githubLink: 'https://github.com/shakerdl'
+  },
+  {
+    artName: 'Hot coffee',
+    pageLink: './Art/Hot coffee/index.html',
+    imageLink: './Art/Hot coffee/cup_coffee.gif',
+    author: 'belaid-dali',
+    githubLink: 'https://github.com/belaid-dali'
   },
   {
     artName: 'The Crane',
@@ -1017,6 +1038,13 @@ let cards = [
     imageLink: './Art/animatron/',
     author: 'Geamoding',
     githubLink: 'https://github.com/gilbertekalea'
+  },
+  {
+    artName: 'Italy Flag',
+    pageLink: './Art/DanAnim/index.html',
+    imageLink: '',
+    author: 'Daniele',
+    githubLink: 'https://github.com/DanieleTursi'
   },
   {
     artName: 'ZTM Animation',
@@ -5558,6 +5586,13 @@ let cards = [
     githubLink: 'https://github.com/chrisgithubok'
   },
   {
+    artName: 'League of Legends Card Animation',
+    pageLink: './Art/Bryanmax9/index.html',
+    imageLink: './Art/Bryanmax9/league.gif',
+    author: 'Bryanmax9',
+    githubLink: 'https://github.com/bryanmax9/'
+  },
+  {
     pageLink: '.Art/yash2003/index.html',
     imageLink: '.Art/yash2003/animation.gif',
     author: 'Yashraj',
@@ -6239,8 +6274,8 @@ let cards = [
     imageLink: './Art/erikanimation/corazon.gif',
     author: 'Erika',
     githubLink: 'https://github.com/erikaaquino'
-},
-{
+  },
+  {
     artName: 'Colorful Heart',
     pageLink: './Art/cr-animation/index.html',
     imageLink: './Art/cr-animation/index.html/colorful-heart.png',
@@ -6255,20 +6290,82 @@ let cards = [
     githubLink: 'https://github.com/Robrigado'
   },
   {
+    artName: 'mrsanim',
+    pageLink: './Art/mrsanim/index.html',
+    imageLink: './Art/mrsanim/mrsanim.png',
+    author: 'Adi',
+    githubLink: 'https://github.com/adimrs'
+  },
+  {
+    artName: 'Loader',
+    pageLink: './Art/Loader/index.html',
+    author: 'Cristi Manea',
+    githubLink: 'https://github.com/cristimanea26'
+  },
+  {
+    artName: 'click to stop',
+    pageLink: './Art/cssanimacja/index.html',
+    imageLink: 'css.png',
+    author: 'Mateusz',
+    githubLink: 'https://github.com/mateuszsnieg'
+  },
+  {
+    artName: 'A Square Circus',
+    pageLink: './Art/aSquareCircus/index.html',
+    imageLink: './Art/aSquareCircus/SquareControl.gif',
+    author: 'Abdul Rahim',
+    githubLink: 'https://github.com/arx0x0'
+  },
+  {
+    artName: 'css-glow-effect-animation',
+    pageLink: './Art/css-glow-effect-animation/index.html',
+    imageLink: './Art/css-glow-effect-animation/glow.png',
+    author: 'tidz',
+    githubLink: 'https://github.com/john-tidz'
+  },
+  {
+    artName: 'Lithuania',
+    pageLink: './Art/MiUlon/index.html',
+    imageLink: './Art/MiUlon/lithuania.gif',
+    author: 'MiUlon',
+    githubLink: 'https://github.com/MiUlon'
+  },
+  {
+    artName: 'yuki',
+    pageLink: './Art/yuki/index.html',
+    imageLink: './Art/yuki/yuki.gif',
+    author: 'rachel',
+    githubLink: 'https://github.com/rchin8877'
+  },
+  {
+    artName: 'AnimateManas',
+    pageLink: './Art/AnimatManas/index.html',
+    imageLink: './Art/AnimatManas/ZTM_animation.gif',
+    author: 'Manas',
+    githubLink: 'https://github.com/ManasKumar111'
+  },
+  {
+    artName: 'Glowing orb',
+    pageLink: './Art/Glowing-orb/index.html',
+    imageLink: './Art/Glowing-orb/glow.png',
+    author: 'RubenVerkuylen',
+    githubLink: 'https://github.com/rubenverkuylen'
+  },
+  {
     artName: 'car-animation',
     pageLink: './Art/car-animation/index.html',
     imageLink: './Art/car-animation',
     author: 'Markus',
     githubLink: 'https://github.com/Markus-Sm'
-},
-{
-  artName: 'Dummy Animation',
-  pageLink: './Art/dummy_me/index.html',
-  imageLink: './Art/dummy_me/dummy.gif',
-  author: 'Mansi',
-  githubLink: 'https://github.com/manasi-20'
-},
-{
+  },
+  {
+    artName: 'Dummy Animation',
+    pageLink: './Art/dummy_me/index.html',
+    imageLink: './Art/dummy_me/dummy.gif',
+    author: 'Mansi',
+    githubLink: 'https://github.com/manasi-20'
+  },
+  {
     artName: 'moving_choices',
     pageLink: './Art/Katana/index.html',
     imageLink: './Art/Katana/bounce-choice.GIF',
@@ -6282,6 +6379,68 @@ let cards = [
   author: 'Josdadev',
   githubLink: 'https://github.com/Josdadev'
  }
+,
+    {
+    artName: 'Dive Into Space',
+    pageLink: './Art/Dive Into Space/index.html',
+    imageLink: './Art/Dive Into Space/space.gif',
+    author: 'Kareem Abd El-Moneam',
+    githubLink: 'https://github.com/KareemMoneeam'
+  },
+  {
+    artName: 'Moving Colors',
+    pageLink: './Art/Moving Colors/index.html',
+    imageLink: './Art/Moving Colors/MovingColors.gif',
+    author: 'cjhaspenfalls',
+    githubLink: 'https://github.com/cjhaspenfalls'
+  },
+  {
+    artName: 'Rotating Number Cards',
+    pageLink: './Art/victor-anderson/index.html',
+    imageLink: './Art/victor-anderson/index.gif',
+    author: 'Victor Anderson',
+    githubLink: 'https://github.com/realvicandy'
+  },
+  {
+    artName: 'Living Robot',
+    pageLink: './Art/greywind/index.html',
+    imageLink: './Art/greywind/greywind.gif',
+    author: 'George',
+    githubLink: 'https://github.com/greyXwind'
+  },
+  {
+    artName: 'loading circle',
+    pageLink: './Art/loading-circle/index.html',
+    imageLink: './Art/greywind/circle.gif',
+    author: 'Olayinka',
+    githubLink: 'https://github.com/KOLEAJEOLAYINKA'
+},{
+    artName: 'Factory',
+    pageLink: './Art/SEN-RAD/index.html',
+    imageLink: './Art/SEN-RAD/factory.gif',
+    author: 'SEN-RAD',
+    githubLink: 'https://github.com/SEN-RAD'
+  },
+  {
+    artName: 'Natinats',
+    pageLink: './Art/Natinats/index.html',
+    imageLink: './Art/Natinats/nata.gif',
+    author: 'Natalia',
+    githubLink: 'https://github.com/nquirogac'
+  },
+  {
+    artName: 'The art of patience',
+    pageLink: './Art/Animation-Gtn/index.html',
+    imageLink: './Art/Animation-Gtn/art.gif',
+    author: 'Iulia Gtn',
+    githubLink: 'https://github.com/Iulia-Gaitanaru'
+},{
+    artName: 'BHARAT',
+    pageLink: './Art/BHARAT/index.html',
+    imageLink: './Art/BHARAT/BHARAT.gif',
+    author: 'mbera99',
+    githubLink: 'https://github.com/mbera99'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
