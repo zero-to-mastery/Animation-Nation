@@ -6421,6 +6421,13 @@ let cards = [
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
   },
+  {
+    artName: 'Rectangloom',
+    pageLink: './Art/Rectangloom/index.html',
+    imageLink: './Art/Rectangloom/rectangloom.gif',
+    author: 'Emines',
+    githubLink: 'https://github.com/emines0'
+  },
     {
       artName: 'Cards',
       pageLink: './Art/Sak/index.html',
@@ -6484,6 +6491,7 @@ let cards = [
     githubLink: 'https://github.com/mbera99'
 
   }
+
 ];
 
 
