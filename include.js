@@ -6414,6 +6414,13 @@ let cards = [
     githubLink: 'https://github.com/SEN-RAD'
   },
   {
+    artName: 'Natinats',
+    pageLink: './Art/Natinats/index.html',
+    imageLink: './Art/Natinats/nata.gif',
+    author: 'Natalia',
+    githubLink: 'https://github.com/nquirogac'
+  },
+  {
     artName: 'The art of patience',
     pageLink: './Art/Animation-Gtn/index.html',
     imageLink: './Art/Animation-Gtn/art.gif',
