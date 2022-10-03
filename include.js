@@ -6422,6 +6422,13 @@ let cards = [
     githubLink: 'https://github.com/SEN-RAD'
   },
   {
+    artName: 'color fan',
+    pageLink: './Art/raman project/project.html',
+    imageLink: './Art/raman project/project.gif',
+    author: 'raman2482',
+    githubLink: 'https://github.com/raman2482'
+  },
+  {
     artName: 'Animated-Cube-Slider',
     pageLink: './Art/Animated-Cube-Slider/index.html',
     imageLink: './Art/Animated-Cube-Slider/Animated.gif',
