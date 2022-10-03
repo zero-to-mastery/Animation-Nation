@@ -6372,6 +6372,14 @@ let cards = [
     author: 'Katana',
     githubLink: 'https://github.com/katanaji'
   },
+{
+  artName: 'SpinnieStar3',
+  pageLink: './Art/Joshua/SpinnieStar3.html',
+  imageLink: './Art/Joshua/goldstar.GIF',
+  author: 'Josdadev',
+  githubLink: 'https://github.com/Josdadev'
+ }
+,
     {
     artName: 'Dive Into Space',
     pageLink: './Art/Dive Into Space/index.html',
