@@ -6422,6 +6422,13 @@ let cards = [
     githubLink: 'https://github.com/SEN-RAD'
   },
   {
+    artName: 'Good Luck',
+    pageLink: './Art/YYarts/index.html',
+    imageLink: './Art/YYarts/YYarts.gif',
+    author: 'Chee Yen',
+    githubLink: 'https://github.com/yyyen93'
+},
+{
     artName: 'color fan',
     pageLink: './Art/raman project/project.html',
     imageLink: './Art/raman project/project.gif',
