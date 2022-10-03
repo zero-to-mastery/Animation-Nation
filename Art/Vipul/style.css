@@ -1,19 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url("https://fonts.googleapis.com/css?family=Acme");
 html,
 body {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -27,8 +20,7 @@ body {
   border: 1px solid #454545;
   border-radius: 3px;
   opacity: 0.3;
-  font-family: 'Acme', sans-serif;
-  -webkit-transition: 0.4s all ease;
+  font-family: "Acme", sans-serif;
   transition: 0.4s all ease;
   outline-color: #454545;
 }
@@ -36,16 +28,12 @@ body {
 .btn:hover {
   opacity: 1;
 }
-
 .btn:hover i {
-  -webkit-transform: translateX(8px) scale(1.2);
   transform: translateX(8px) scale(1.2);
 }
 
 i {
   float: right;
   margin-right: 15px;
-  -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
