@@ -6422,6 +6422,13 @@ let cards = [
     githubLink: 'https://github.com/SEN-RAD'
   },
   {
+    artName: 'Halloween',
+    pageLink: './Art/AashiGoel/index.html',
+    imageLink: './Art/AashiGoel/Halloween.gif',
+    author: 'Aashi Goel',
+    githubLink: 'https://github.com/AashiGoel'
+  },
+{
     artName: 'Rectangloom',
     pageLink: './Art/Rectangloom/index.html',
     imageLink: './Art/Rectangloom/rectangloom.gif',
@@ -6491,7 +6498,6 @@ let cards = [
     githubLink: 'https://github.com/mbera99'
 
   }
-
 ];
 
 
