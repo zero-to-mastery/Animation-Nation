@@ -6506,6 +6506,13 @@ let cards = [
     author: "mbera99",
     githubLink: "https://github.com/mbera99",
   },
+      {
+    artName: 'Ducky',
+    pageLink: './Art/cpk3/index.html',
+    imageLink: './Art/cpk3/Ducky.gif',
+    author: 'cpk3',
+    githubLink: 'https://github.com/cpk3'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
