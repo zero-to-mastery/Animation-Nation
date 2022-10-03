@@ -20,7 +20,7 @@ let cards = [
     author: 'Shakerdl',
     githubLink: 'https://github.com/shakerdl'
   },
-    {
+  {
     artName: 'Hot coffee',
     pageLink: './Art/Hot coffee/index.html',
     imageLink: './Art/Hot coffee/cup_coffee.gif',
@@ -6295,13 +6295,12 @@ let cards = [
     imageLink: './Art/mrsanim/mrsanim.png',
     author: 'Adi',
     githubLink: 'https://github.com/adimrs'
-},
-{
+  },
+  {
     artName: 'Loader',
     pageLink: './Art/Loader/index.html',
     author: 'Cristi Manea',
     githubLink: 'https://github.com/cristimanea26'
-
   },
   {
     artName: 'click to stop',
@@ -6386,15 +6385,15 @@ let cards = [
     imageLink: './Art/Moving Colors/MovingColors.gif',
     author: 'cjhaspenfalls',
     githubLink: 'https://github.com/cjhaspenfalls'
-},
-{
+  },
+  {
     artName: 'Rotating Number Cards',
     pageLink: './Art/victor-anderson/index.html',
     imageLink: './Art/victor-anderson/index.gif',
     author: 'Victor Anderson',
     githubLink: 'https://github.com/realvicandy'
-},
-{
+  },
+  {
     artName: 'Living Robot',
     pageLink: './Art/greywind/index.html',
     imageLink: './Art/greywind/greywind.gif',
@@ -6402,13 +6401,18 @@ let cards = [
     githubLink: 'https://github.com/greyXwind'
   },
   {
+    artName: 'loading circle',
+    pageLink: './Art/loading-circle/index.html',
+    imageLink: './Art/greywind/circle.gif',
+    author: 'Olayinka',
+    githubLink: 'https://github.com/KOLEAJEOLAYINKA'
+},{
     artName: 'Factory',
     pageLink: './Art/SEN-RAD/index.html',
     imageLink: './Art/SEN-RAD/factory.gif',
     author: 'SEN-RAD',
     githubLink: 'https://github.com/SEN-RAD'
-  }
-  ,
+  },
   {
     artName: 'BHARAT',
     pageLink: './Art/BHARAT/index.html',
