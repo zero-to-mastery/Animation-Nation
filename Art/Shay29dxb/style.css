@@ -1,0 +1,195 @@
+body {
+  background-color: black;
+}
+
+@keyframes burjAnimation {
+  0% {
+    background: rgb(0, 0, 0);
+  }
+
+  50% {
+    background: rgb(15, 15, 15);
+  }
+
+  100% {
+    background: rgb(8, 8, 8);
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blinkMove {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    margin-left: 0.1px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.main {
+  background-image: linear-gradient(
+    to bottom,
+    #051937,
+    #49265a,
+    #932762,
+    #d0394a,
+    #eb7012
+  );
+  width: 300px;
+  height: 364px;
+  margin-top: 50px;
+  margin-left: 50%;
+  position: absolute;
+}
+
+.block {
+  background-color: rgb(55, 55, 55);
+  -webkit-animation: burjAnimation 5s ease-in infinite;
+  animation: burjAnimation 5s ease-in infinite;
+}
+
+.khalifa-line {
+  animation: burjAnimation 5s ease-in infinite;
+  margin-left: 50%;
+  margin-top: 10px;
+  position: absolute;
+  width: 1px;
+  height: 352px;
+}
+span {
+  background-color: white;
+  height: 1px;
+  width: 1px;
+  border-radius: 50%;
+  display: flex;
+  animation: blink 0.8s infinite;
+}
+.span2 {
+  background-color: white;
+  height: 1px;
+  width: 1px;
+  border-radius: 50%;
+  display: flex;
+  animation: blink 0.3s ease-in-out infinite;
+}
+.span3 {
+  background-color: rgb(254, 254, 254);
+  height: 1px;
+  width: 1px;
+  border-radius: 50%;
+  display: flex;
+  animation: blinkMove 0.1s ease-in-out infinite;
+}
+.bgLine1 {
+  border-radius: 1px;
+  margin-top: 20px;
+  height: 20px;
+  width: 3px;
+}
+.bgLine2 {
+  border-radius: 1px;
+  margin-top: -5px;
+  margin-left: -2px;
+  height: 20px;
+  width: 5px;
+}
+.bgLine3 {
+  border-radius: 1px;
+  margin-left: -2px;
+  margin-top: -5px;
+  height: 25px;
+  width: 6px;
+}
+.bgLine4 {
+  border-radius: 1px;
+  margin-left: -4px;
+  margin-top: -5px;
+  height: 25px;
+  width: 8px;
+}
+.bgLine5 {
+  border-radius: 1px;
+  margin-left: -4px;
+  margin-top: -5px;
+  height: 20px;
+  width: 10px;
+}
+.bgLine6 {
+  border-radius: 1px;
+  margin-left: -6px;
+  margin-top: -5px;
+  height: 30px;
+  width: 12px;
+}
+.bgLine7 {
+  border-radius: 1px;
+  margin-left: -6px;
+  margin-top: -5px;
+  height: 30px;
+  width: 14px;
+}
+.bgLine8 {
+  border-radius: 1px;
+  margin-left: -10px;
+  margin-top: -5px;
+  height: 30px;
+  width: 18px;
+}
+.bgLine9 {
+  border-radius: 1px;
+  margin-left: -10px;
+  margin-top: -5px;
+  height: 32px;
+  width: 24px;
+}
+.bgLine10 {
+  border-radius: 2px;
+  margin-left: -16px;
+  margin-top: -3px;
+  height: 32px;
+  width: 30px;
+}
+.bgLine11 {
+  border-radius: 2px;
+  margin-left: -16px;
+  margin-top: -3px;
+  height: 32px;
+  width: 35px;
+}
+.bgLine12 {
+  border-radius: 2px;
+  margin-left: -23px;
+  margin-top: -3px;
+  height: 35px;
+  width: 42px;
+}
+.bgLine13 {
+  border-radius: 2px;
+  margin-left: -23px;
+  margin-top: -3px;
+  height: 35px;
+  width: 50px;
+}
+
+.bgLine14 {
+  border-radius: 3px 3px 0 0;
+  margin-left: -33px;
+  margin-top: -3px;
+  height: 22px;
+  width: 70px;
+}
