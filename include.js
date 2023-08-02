@@ -6526,6 +6526,13 @@ let cards = [
     author: 'Marion',
     githubLink: 'https://github.com/marionjudy13'
   },
+  {
+    artName: 'CSS Carousel',
+    pageLink: './Art/FanisKapetanakis/index.html',
+    imageLink: './Art/FanisKapetanakis/Carousel.gif',
+    author: 'Fanis',
+    githubLink: 'https://github.com/KapetanakisFanis'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
