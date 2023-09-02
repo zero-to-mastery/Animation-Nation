@@ -6,7 +6,7 @@ _Sharpen your pencils, we're getting creative!_
 
 # Animation Nation
 
-Hello and welcome to Animation Nation, a ZTM project for Hacktoberfest 2019! This site aims to showcase the creative talents of the ZTM community :)
+Hello and welcome to Animation Nation, a ZTM project for Hacktoberfest! This site aims to showcase the creative talents of the ZTM community :)
 
 # Rules
 
@@ -17,7 +17,6 @@ The rules are simple. You have to:
 - Please make sure that the code is indeed your own, and not copied from someone else
 - That's it!
 
-**All discussions around this event can now be had in our #hacktoberfest-2019 channel on Discord!**
 
 # How to contribute
 
