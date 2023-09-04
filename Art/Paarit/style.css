@@ -1,76 +1,67 @@
 body {
-    background: #fa6464;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  background: #fa6464;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .box {
-    position: absolute;
-    width: 69px;
-    height: 69px;
-    background: radial-gradient(rgb(230, 255, 2), rgb(59, 174, 6));
-    border-radius: 50%;
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  background: radial-gradient(rgb(230, 255, 2), rgb(59, 174, 6));
+  border-radius: 50%;
 }
 
 .bounceA {
-    animation: bounceA 1.14s linear 0s infinite alternate; 
+  animation: bounceA 1.14s linear 0s infinite alternate;
 }
 
 .bounceAA {
-    animation: bounceAA 1.03s ease-in 0s infinite alternate; 
+  animation: bounceAA 1.03s ease-in 0s infinite alternate;
 }
 
 .bounceB {
-    animation: bounceB 1.14s linear 0s infinite alternate; 
+  animation: bounceB 1.14s linear 0s infinite alternate;
 }
 
 .bounceBB {
-    animation: bounceBB 1.03s ease-in 0s infinite alternate; 
+  animation: bounceBB 1.03s ease-in 0s infinite alternate;
 }
 
-
-
 @keyframes bounceA {
-    from {
-        transform:  translateX(0px);
-    }
-    to {
-        transform: translateX(calc(100vw - 5vmin));
-    }
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(calc(100vw - 5vmin));
+  }
 }
 
 @keyframes bounceAA {
-    from {
-        transform:  translateY(0px);
-    }
-    to {
-        transform: translateY(calc(100vh - 5vmin));
-    }
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(calc(100vh - 5vmin));
+  }
 }
 
 @keyframes bounceB {
-    from {
-        transform:  translateX(100vw);
-    }
-    to {
-        transform: translateX(0px);
-    }
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
 
 @keyframes bounceBB {
-    from {
-        transform:  translateY(calc(100vh - 6vmin));
-    }
-    to {
-        transform: translateY(0px);
-    }
+  from {
+    transform: translateY(calc(100vh - 6vmin));
+  }
+  to {
+    transform: translateY(0px);
+  }
 }
-
-
-
-
-
-
-

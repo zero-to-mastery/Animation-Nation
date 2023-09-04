@@ -1,203 +1,179 @@
-body{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black ;
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
 }
 /* #0f0f0f */
 
-@keyframes rotation1{
-    0%{transform: translate(8px, 0px);}
-    25%{transform: translate(0px, -8px);}
-    50%{transform: translate(-8px, 0px);}
-    75%{transform: translate(0px, 8px);}
-    100%{transform: translate(8px, 0px);}
+@keyframes rotation1 {
+  0% {
+    transform: translate(8px, 0px);
+  }
+  25% {
+    transform: translate(0px, -8px);
+  }
+  50% {
+    transform: translate(-8px, 0px);
+  }
+  75% {
+    transform: translate(0px, 8px);
+  }
+  100% {
+    transform: translate(8px, 0px);
+  }
 }
 
-@keyframes rotation2{
-    0%{transform: translate(8px, 0px);}
-    25%{transform: translate(0px, -8px);}
-    50%{transform: translate(-8px, 0px);}
-    75%{transform: translate(0px, 8px);}
-    100%{transform: translate(8px, 0px);}
+@keyframes rotation2 {
+  0% {
+    transform: translate(8px, 0px);
+  }
+  25% {
+    transform: translate(0px, -8px);
+  }
+  50% {
+    transform: translate(-8px, 0px);
+  }
+  75% {
+    transform: translate(0px, 8px);
+  }
+  100% {
+    transform: translate(8px, 0px);
+  }
 }
 
-.main_container{
-
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;  
-    overflow: hidden;
-    
+.main_container {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-.behind-container1{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    background: repeating-conic-gradient(
-  #22063d 0%,
-  #410d75 15%,
-  #540f99 33%
-);  
-    animation: rotation1 3.2s linear infinite;
-
+.behind-container1 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(#22063d 0%, #410d75 15%, #540f99 33%);
+  animation: rotation1 3.2s linear infinite;
 }
 
-.behind-container2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    background-color: black; 
-    box-shadow: inset 0px 0px 50px #0f0f0f;
-     
-    
+.behind-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: inset 0px 0px 50px #0f0f0f;
 }
 
-
-.behind-container3{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background: repeating-conic-gradient(
-        #22063d 0%,
-        #410d75 15%,
-        #540f99 33%
-      ); 
-    animation: rotation2 3s reverse infinite;  
-    
+.behind-container3 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(#22063d 0%, #410d75 15%, #540f99 33%);
+  animation: rotation2 3s reverse infinite;
 }
 
-.behind-container4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: black; 
-    box-shadow: inset 0px 0px 50px #0f0f0f;
-     
-      
+.behind-container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: inset 0px 0px 50px #0f0f0f;
 }
 
-.behind-container5{
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background: repeating-conic-gradient(
-        #22063d 0%,
-        #410d75 15%,
-        #540f99 33%
-      );  
-    animation: rotation1 2.5s linear infinite;     
+.behind-container5 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(#22063d 0%, #410d75 15%, #540f99 33%);
+  animation: rotation1 2.5s linear infinite;
 }
 
-.behind-container6{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: black;
-    box-shadow: inset 0px 0px 40px #0f0f0f; 
-      
+.behind-container6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: inset 0px 0px 40px #0f0f0f;
 }
 
-.behind-container7{
-        position: absolute;
-        width:200px;
-        height: 200px;
-        border-radius: 50%;
-        background: repeating-conic-gradient(
-            #22063d 0%,
-            #410d75 15%,
-            #540f99 33%
-          );  
-        animation: rotation1 2s reverse infinite;       
+.behind-container7 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(#22063d 0%, #410d75 15%, #540f99 33%);
+  animation: rotation1 2s reverse infinite;
 }
 
-.behind-container8{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: black; 
-    box-shadow: inset 0px 0px 30px #0f0f0f;
+.behind-container8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: inset 0px 0px 30px #0f0f0f;
 }
 
-.behind-container9{
-    position: absolute;
-    width:150px;
-    height: 150px;
-    border-radius: 50%;
-    background: repeating-conic-gradient(
-        #22063d 0%,
-        #410d75 15%,
-        #540f99 33%
-      );  
-    animation: rotation1 1.5s linear infinite;       
+.behind-container9 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(#22063d 0%, #410d75 15%, #540f99 33%);
+  animation: rotation1 1.5s linear infinite;
 }
 
-.behind-container10{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-position: absolute;
-width: 150px;
-height: 150px;
-border-radius: 50%;
-background-color: black; 
-box-shadow: inset 0px 0px 20px #0f0f0f;
-
+.behind-container10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: inset 0px 0px 20px #0f0f0f;
 }
 
-.behind-container11{
-    position: absolute;
-    width:100px;
-    height: 100px;
-    border-radius: 50%;
-   
-    background: repeating-conic-gradient(
-        #22063d 0%,
-        #410d75 15%,
-        #540f99 33%
-      );  
-    animation: rotation1 1s reverse infinite;       
+.behind-container11 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  background: repeating-conic-gradient(#22063d 0%, #410d75 15%, #540f99 33%);
+  animation: rotation1 1s reverse infinite;
 }
 
-.behind-container12{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-position: absolute;
-width: 100px;
-height: 100px;
-border-radius: 50%;
-background-color: black; 
-box-shadow: inset 0px 0px 10px #0f0f0f;
-
+.behind-container12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: inset 0px 0px 10px #0f0f0f;
 }
-
-
-
-
-
-
-
-

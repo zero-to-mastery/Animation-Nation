@@ -1,508 +1,491 @@
 body {
-    margin: 0 auto;
-    padding: 0;
-    height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
 }
 
-#absoluteBottom{
-    align-self: flex-start;
+#absoluteBottom {
+  align-self: flex-start;
 }
 
-#absoluteTop{
-    align-self: flex-end;
+#absoluteTop {
+  align-self: flex-end;
 }
 
-.borders{
-    border: 3px solid gold;
+.borders {
+  border: 3px solid gold;
 }
 
-.miamiBeachPosition{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    position: absolute;
-    top: 36%;
-    right: 37.5%;
-    /* padding-top: 16vmin; */
+.miamiBeachPosition {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: absolute;
+  top: 36%;
+  right: 37.5%;
+  /* padding-top: 16vmin; */
 }
 
-.pushR{
-    justify-self: flex-end;
+.pushR {
+  justify-self: flex-end;
 }
 
-.pushL{
-    justify-self: flex-start;
+.pushL {
+  justify-self: flex-start;
 }
 
-
-.background{
-    background: rgb(255,31,229);
-    background: radial-gradient(circle, rgba(255,31,229,1) 13%, rgba(201,26,255,1) 33%);
+.background {
+  background: rgb(255, 31, 229);
+  background: radial-gradient(
+    circle,
+    rgba(255, 31, 229, 1) 13%,
+    rgba(201, 26, 255, 1) 33%
+  );
 }
 
-.bouncingBackground{
-    animation: wavy_background 6s alternate infinite;
+.bouncingBackground {
+  animation: wavy_background 6s alternate infinite;
 }
 
 @font-face {
-    font-family: 'Real Miami Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Real Miami Regular'), url('Real Miami.woff') format('woff');
-    }
+  font-family: 'Real Miami Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Real Miami Regular'), url('Real Miami.woff') format('woff');
+}
 
 @font-face {
-    font-family: 'Hello Miami Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Hello Miami Regular'), url('Hello\ Miami\ woff\ 2-fcf6.woff') format('woff');
+  font-family: 'Hello Miami Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Hello Miami Regular'),
+    url('Hello\ Miami\ woff\ 2-fcf6.woff') format('woff');
 }
 
-@keyframes wavy_background{
-    0%{
-        transform: scale(0.7);
-    }
-    100%{
-        transform: scale(1.05);
-    }
+@keyframes wavy_background {
+  0% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1.05);
+  }
 }
 
-@keyframes wavy{
-    0%{
-        transform: scale(0.5);
-        text-shadow: 1px 1px rgba(255, 255, 0, 0.623); 
-        opacity: 0.5;
-    }
-    100%{
-        transform: scale(1.5);
-        color: rgba(162, 255, 23, 0.808);
-        text-shadow: 2px 2px rgba(255, 255, 0, 0.623); 
-        opacity: 1;
-    }
+@keyframes wavy {
+  0% {
+    transform: scale(0.5);
+    text-shadow: 1px 1px rgba(255, 255, 0, 0.623);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1.5);
+    color: rgba(162, 255, 23, 0.808);
+    text-shadow: 2px 2px rgba(255, 255, 0, 0.623);
+    opacity: 1;
+  }
 }
 
-@keyframes wavyO{
-    0%{
-        transform: scale(0.2);
-        text-shadow: 1px 1px rgba(255, 179, 0, 0.623); 
-        opacity: 0;
-    }
-    100%{
-        transform: scale(2);
-        color: rgba(255, 116, 23, 0.808);
-        text-shadow: 2px 2px rgba(255, 255, 0, 0.623); 
-        opacity: 1;
-    }
+@keyframes wavyO {
+  0% {
+    transform: scale(0.2);
+    text-shadow: 1px 1px rgba(255, 179, 0, 0.623);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(2);
+    color: rgba(255, 116, 23, 0.808);
+    text-shadow: 2px 2px rgba(255, 255, 0, 0.623);
+    opacity: 1;
+  }
 }
 
 @keyframes leanIn {
-    0%{
-        transform:skewX(-15deg);
-        color: rgba(255, 250, 250, 0.726);
-        text-shadow: 6px 6px rgb(121, 253, 240);
-        opacity: 0.6;
-    }
-    50%{
-        color: rgba(248, 46, 255, 0.76);
-        text-shadow: 3px 3px 3px rgb(216, 255, 44);
-    }
+  0% {
+    transform: skewX(-15deg);
+    color: rgba(255, 250, 250, 0.726);
+    text-shadow: 6px 6px rgb(121, 253, 240);
+    opacity: 0.6;
+  }
+  50% {
+    color: rgba(248, 46, 255, 0.76);
+    text-shadow: 3px 3px 3px rgb(216, 255, 44);
+  }
 
-    100%{
-        transform:skewX(15deg);
-        color: rgba(0, 0, 0, 0.52);
-        text-shadow: 6px 6px rgb(162, 255, 23);
-        opacity: 0.3;
-    }
+  100% {
+    transform: skewX(15deg);
+    color: rgba(0, 0, 0, 0.52);
+    text-shadow: 6px 6px rgb(162, 255, 23);
+    opacity: 0.3;
+  }
 }
 
 @keyframes leanIn2 {
-    0%{
-        transform:skewX(15deg);
-        color: rgba(255, 250, 250, 0.726);
-        text-shadow: 6px 6px rgb(121, 253, 240);
-        opacity: 0.6;
-    }
-    50%{
-        color: rgba(248, 46, 255, 0.76);
-        text-shadow: 3px 3px 3px rgb(216, 255, 44);
-
-    }
-    100%{
-        transform:skewX(-15deg);
-        color: rgba(0, 0, 0, 0.52);
-        text-shadow: 6px 6px rgb(162, 255, 23);
-        opacity: 0.3;
-    }
-    
+  0% {
+    transform: skewX(15deg);
+    color: rgba(255, 250, 250, 0.726);
+    text-shadow: 6px 6px rgb(121, 253, 240);
+    opacity: 0.6;
+  }
+  50% {
+    color: rgba(248, 46, 255, 0.76);
+    text-shadow: 3px 3px 3px rgb(216, 255, 44);
+  }
+  100% {
+    transform: skewX(-15deg);
+    color: rgba(0, 0, 0, 0.52);
+    text-shadow: 6px 6px rgb(162, 255, 23);
+    opacity: 0.3;
+  }
 }
 
 @keyframes surfing {
-    0%{
-        margin-left: 35%;
-        opacity: 0;
-    }
+  0% {
+    margin-left: 35%;
+    opacity: 0;
+  }
 
-    10%{
-        transform: translateY(1vmin);
-        
-    }
+  10% {
+    transform: translateY(1vmin);
+  }
 
-    19%{
-        transform: translateY(3vmin);
-    }
+  19% {
+    transform: translateY(3vmin);
+  }
 
-    22%{
-        transform: translateY(1vmin);
-        
-    }
+  22% {
+    transform: translateY(1vmin);
+  }
 
-    25%{
-        transform: translateY(2vmin);
-    }
+  25% {
+    transform: translateY(2vmin);
+  }
 
-    35%{
-        transform: translateY(-20px);
-    }
+  35% {
+    transform: translateY(-20px);
+  }
 
-    40%{
-        transform: translateY(1.5vmin);
-        
-    }
+  40% {
+    transform: translateY(1.5vmin);
+  }
 
+  45% {
+    transform: translateY(1vmin);
+  }
 
-    45%{
-        transform: translateY(1vmin);
-        
-    }
+  45% {
+    transform: translateY(1vmin);
+  }
 
-    45%{
-        transform: translateY(1vmin);
-        
-    }
+  48% {
+    transform: translateY(1vmin);
+  }
 
-    48%{
-        transform: translateY(1vmin);
-        
-    }
+  50% {
+    transform: translateY(1vmin);
+  }
 
-    50%{
-        transform: translateY(1vmin);
-        
-    }
+  60% {
+    opacity: 0.5;
+    transform: translateY(1vmin);
+  }
 
-    60%{
-        opacity: 0.5;
-        transform: translateY(1vmin);
-    }
-
-    100%{
-        margin-left: 61%;
-        visibility: hidden;
-        transform: translateY(1vmin);
-        opacity: 0;
-    }
+  100% {
+    margin-left: 61%;
+    visibility: hidden;
+    transform: translateY(1vmin);
+    opacity: 0;
+  }
 }
 
 @keyframes rotation {
-    0%{
-        /* width: 400%; */
-        transform: rotate(0deg);
-    }
+  0% {
+    /* width: 400%; */
+    transform: rotate(0deg);
+  }
 
-    5%{
-        /* transform: translateY(10px); */
-        transform: rotate(20deg);
-        
-    }
+  5% {
+    /* transform: translateY(10px); */
+    transform: rotate(20deg);
+  }
 
-    7%{
-        transform: rotate(0deg);
-    }
+  7% {
+    transform: rotate(0deg);
+  }
 
-    12%{
-        /* transform: translateY(40px); */
-        transform: rotate(20deg);
-    }
-    13%{
-        transform: rotate(0deg);
-    }
+  12% {
+    /* transform: translateY(40px); */
+    transform: rotate(20deg);
+  }
+  13% {
+    transform: rotate(0deg);
+  }
 
-    18%{
-        /* transform: translateY(20px); */
-        transform: rotate(-15deg);
-    }
+  18% {
+    /* transform: translateY(20px); */
+    transform: rotate(-15deg);
+  }
 
-    20%{
-        /* transform: translateY(35px); */
-        transform: rotate(-50deg);
-    }
+  20% {
+    /* transform: translateY(35px); */
+    transform: rotate(-50deg);
+  }
 
-    22%{
-        /* transform: translateY(35px); */
-        transform: rotate(0deg);
-    }
+  22% {
+    /* transform: translateY(35px); */
+    transform: rotate(0deg);
+  }
 
-    32%{
-        /* transform: translateY(0px); */
-        transform: rotate(-45deg);
-    }
+  32% {
+    /* transform: translateY(0px); */
+    transform: rotate(-45deg);
+  }
 
-    37%{
-        /* transform: translateY(0px); */
-        transform: rotate(30deg);
-    }
+  37% {
+    /* transform: translateY(0px); */
+    transform: rotate(30deg);
+  }
 
-    40%{
-        /* transform: translateY(0px); */
-        transform: rotate(-10deg);
-    }
+  40% {
+    /* transform: translateY(0px); */
+    transform: rotate(-10deg);
+  }
 
-    43%{
-        /* transform: translateY(0px); */
-        transform: rotate(-5deg);
-    }
+  43% {
+    /* transform: translateY(0px); */
+    transform: rotate(-5deg);
+  }
 
-    45%{
-        /* transform: translateY(0px); */
-        transform: rotate(-10deg);
-    }
+  45% {
+    /* transform: translateY(0px); */
+    transform: rotate(-10deg);
+  }
 
-    50%{
-        /* transform: translateY(0px); */
-        transform: rotate(-20deg);
-    }
+  50% {
+    /* transform: translateY(0px); */
+    transform: rotate(-20deg);
+  }
 
-    60%{
-        transform: rotate(-15deg);
-    }
+  60% {
+    transform: rotate(-15deg);
+  }
 
-    100%{
-        
-        transform: rotate(-1deg);
-        opacity: 0;
-        visibility: hidden;
-    }
+  100% {
+    transform: rotate(-1deg);
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
-
 @keyframes biking {
-    0%{
-        margin-right: 33%;
-        opacity: 0;
-        
-    }
-    61%{
-        opacity: 0.5;
-    }
-    65%{
-       opacity: 0;
-       visibility: visible;
-    }
+  0% {
+    margin-right: 33%;
+    opacity: 0;
+  }
+  61% {
+    opacity: 0.5;
+  }
+  65% {
+    opacity: 0;
+    visibility: visible;
+  }
 
-    100%{
-        margin-right: 65%;
-        visibility: hidden;
-        opacity: 0;
-
-    }
+  100% {
+    margin-right: 65%;
+    visibility: hidden;
+    opacity: 0;
+  }
 }
 
 @keyframes racing {
-    0%{
-        margin-left: -300%;
-        
-        opacity: 0.5;
-        /* width: 300%; */
-    }
-    50%{
-        transform:skewX(-45deg);
-    }
-    70%{
-        margin-left: 0%;
-        
-        transform:skewX(45deg);
-    }
-    100%{
-        
-        opacity: 0.8;
-    }
-    
-}
+  0% {
+    margin-left: -300%;
 
+    opacity: 0.5;
+    /* width: 300%; */
+  }
+  50% {
+    transform: skewX(-45deg);
+  }
+  70% {
+    margin-left: 0%;
+
+    transform: skewX(45deg);
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
 
 @keyframes pulsing {
-    0%{
-        transform: scale(1);
-    }
-   100%{
-        transform: scale(1.2);
-    }
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
 }
 
-img{
-    opacity: 0.7;
+img {
+  opacity: 0.7;
 }
 
 @keyframes shadow {
-    0%{
-        text-shadow: 3px 3px rgba(255, 255, 0, 0.623);
-        /* opacity: 0.5; */
-        color: rgba(162, 255, 23, 0.685);
-        transform: skew(0.05turn, -10deg);
-           
-    }
-    100%{
-        color: rgba(255, 250, 250, 0.671);
-        text-shadow: 3px 3px rgba(255, 255, 0, 0.623);
-        /* opacity: 0.7; */
-        transform: skew(-0.05turn, 10deg);
-    }
+  0% {
+    text-shadow: 3px 3px rgba(255, 255, 0, 0.623);
+    /* opacity: 0.5; */
+    color: rgba(162, 255, 23, 0.685);
+    transform: skew(0.05turn, -10deg);
+  }
+  100% {
+    color: rgba(255, 250, 250, 0.671);
+    text-shadow: 3px 3px rgba(255, 255, 0, 0.623);
+    /* opacity: 0.7; */
+    transform: skew(-0.05turn, 10deg);
+  }
 }
 
-.miamiBeach{
-    font-family: "Hello Miami Regular";
-    font-size: 2.5vmin;
-    color: snow;
-    opacity: 0.8;
+.miamiBeach {
+  font-family: 'Hello Miami Regular';
+  font-size: 2.5vmin;
+  color: snow;
+  opacity: 0.8;
 }
 
-.miami{
-    animation: leanIn 3s alternate infinite;
+.miami {
+  animation: leanIn 3s alternate infinite;
 }
 
-.alignSelfCenter{
-    align-self: center;
+.alignSelfCenter {
+  align-self: center;
 }
 
-#jacksonvilleFL{
-    font-family: "Real Miami Regular";
-    color: snow;
-    animation: wavy 3s alternate infinite;
-    font-size: 1.5vmin;
-    align-self: center;
-    justify-self: center;
+#jacksonvilleFL {
+  font-family: 'Real Miami Regular';
+  color: snow;
+  animation: wavy 3s alternate infinite;
+  font-size: 1.5vmin;
+  align-self: center;
+  justify-self: center;
 }
 
-.palmBeach{
-    animation: leanIn2 3s alternate infinite;
+.palmBeach {
+  animation: leanIn2 3s alternate infinite;
 }
 
-#cyclist{
-    display: flex;
-    justify-content: flex-end;
-    animation: biking 10s 3s infinite;
-    visibility: hidden;
+#cyclist {
+  display: flex;
+  justify-content: flex-end;
+  animation: biking 10s 3s infinite;
+  visibility: hidden;
 }
 
 .cyclist {
-    height: 3.5vmin;
-    width: 3.5vmin;
-    position: absolute;
-    top: 42.5%;
-    transform: scaleX(-1); 
+  height: 3.5vmin;
+  width: 3.5vmin;
+  position: absolute;
+  top: 42.5%;
+  transform: scaleX(-1);
 }
 
-@keyframes blink{
-    0%{
-        opacity: 0.8;
-        transform: scaleY(1.1);
-    }
-    100%{
-        opacity: 0.2;
-        transform:scaleY(0.9)
-    }
-}
-
-#daytonaB{
-    animation: blink 3s 6s infinite;
+@keyframes blink {
+  0% {
     opacity: 0.8;
+    transform: scaleY(1.1);
+  }
+  100% {
+    opacity: 0.2;
+    transform: scaleY(0.9);
+  }
 }
 
-.daytona{
-    display: flex;
-    position: absolute;
-    width: 100vw;
-    justify-content: center;
-    opacity: 0.8;
-    top: 46%;
+#daytonaB {
+  animation: blink 3s 6s infinite;
+  opacity: 0.8;
 }
 
-.daytonaIntroEffect{
-    animation: racing 2s;
-    width: 30%;
+.daytona {
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  justify-content: center;
+  opacity: 0.8;
+  top: 46%;
 }
 
-#surf{
-    animation: surfing 20s ease infinite;
-    position: absolute;
-    bottom: 41%;
+.daytonaIntroEffect {
+  animation: racing 2s;
+  width: 30%;
 }
 
-.surfer{
-    height: 3vmin;
-    width: 3vmin;
-    animation: rotation 20s infinite;
-    text-decoration-style: wavy;
+#surf {
+  animation: surfing 20s ease infinite;
+  position: absolute;
+  bottom: 41%;
+}
+
+.surfer {
+  height: 3vmin;
+  width: 3vmin;
+  animation: rotation 20s infinite;
+  text-decoration-style: wavy;
 }
 
 @keyframes swell {
-    0%,
-    100% {
-      transform: scale(1.05) translate3d(0, -20px, 0);
-      color: rgba(215, 242, 255, 0.37);
-      text-shadow: 3px 3px 3px rgb(164, 255, 235);  
-    }
-    50% {
-      transform: scale(1) translate3d(0, -10px, 0);
-      color: rgb(121, 253, 240);
-      text-shadow: 3px 3px 3px rgba(143, 169, 253, 0.705);
-
-    }
+  0%,
+  100% {
+    transform: scale(1.05) translate3d(0, -20px, 0);
+    color: rgba(215, 242, 255, 0.37);
+    text-shadow: 3px 3px 3px rgb(164, 255, 235);
   }
-
-#clearTampa{
-    display: grid;
-    grid-template-columns: repeat(21, 1fr);
+  50% {
+    transform: scale(1) translate3d(0, -10px, 0);
+    color: rgb(121, 253, 240);
+    text-shadow: 3px 3px 3px rgba(143, 169, 253, 0.705);
+  }
 }
 
-.clearwater{
-    font-family: "Hello Miami Regular";
-    font-size: 2.5vmin;
-    color: snow;
-    opacity: 0.6;
+#clearTampa {
+  display: grid;
+  grid-template-columns: repeat(21, 1fr);
 }
 
-.clearwaterPosition{
-    position: absolute;
-    bottom: 35%;
-    right: 36.5%
+.clearwater {
+  font-family: 'Hello Miami Regular';
+  font-size: 2.5vmin;
+  color: snow;
+  opacity: 0.6;
 }
 
-.tampa{
-    font-family: "Real Miami Regular";
-    font-size: 2.5vmin;
-    color: snow;
-    opacity: 0.6;
+.clearwaterPosition {
+  position: absolute;
+  bottom: 35%;
+  right: 36.5%;
 }
 
-#palmtree{
-    padding: 1em;
-    animation: pulsing 3s alternate infinite;
+.tampa {
+  font-family: 'Real Miami Regular';
+  font-size: 2.5vmin;
+  color: snow;
+  opacity: 0.6;
 }
 
-.one{
-    animation: swell 6s alternate infinite;
+#palmtree {
+  padding: 1em;
+  animation: pulsing 3s alternate infinite;
 }
 
-.two{
-    animation: swell 6s 1s alternate infinite;
-
+.one {
+  animation: swell 6s alternate infinite;
 }
 
-.three{
-    animation: swell 6s 2s alternate infinite;
+.two {
+  animation: swell 6s 1s alternate infinite;
 }
 
-.tampaPosition{
-    display: flex;
-    align-items: center;
+.three {
+  animation: swell 6s 2s alternate infinite;
+}
+
+.tampaPosition {
+  display: flex;
+  align-items: center;
 }

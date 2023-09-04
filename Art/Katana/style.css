@@ -1,49 +1,55 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	background: darkred;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: darkred;
 }
 
 h1 {
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	padding: 2rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 2rem;
 }
 
 h2 {
-	margin: 10px auto;
+  margin: 10px auto;
 }
 
 li {
-	margin: 10px;
-	padding: 10px;
-	background: orangered;
-	border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  background: orangered;
+  border-radius: 50px;
 }
 
 .bouncers {
-	display: flex;
+  display: flex;
 }
 
 .bouncers li {
-	list-style-type:  none;
-	animation-name: updown;
-	animation-duration: 4s;
+  list-style-type: none;
+  animation-name: updown;
+  animation-duration: 4s;
 
-	animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 @keyframes updown {
-	0% {transform:  translateY(0%);} 
-	50% {transform:  translateY(200%);} 
-	100% {transform:  translateY(0%);} 
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(200%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }

@@ -1,43 +1,43 @@
-body{
-    background: black;
+body {
+  background: black;
 }
 
-div{
-    color: red;
+div {
+  color: red;
 }
 
-.star1{
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-    animation-name:s1;
-    animation-duration:3s;
-    transform: scale(1.1);
-    position: absolute;
+.star1 {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  animation-name: s1;
+  animation-duration: 3s;
+  transform: scale(1.1);
+  position: absolute;
 }
 
-.star2{
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-    animation-name: s1;
-    animation-direction: alternate-reverse;
-    animation-duration:2.5s;
-    transform: scale(1.1);
-    position: absolute;
+.star2 {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  animation-name: s1;
+  animation-direction: alternate-reverse;
+  animation-duration: 2.5s;
+  transform: scale(1.1);
+  position: absolute;
 }
-.star3{
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-    transform: scale(1.1);
-    position: absolute;
+.star3 {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  transform: scale(1.1);
+  position: absolute;
 }
-@keyframes s1{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+@keyframes s1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

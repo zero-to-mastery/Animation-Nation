@@ -1,199 +1,199 @@
 html {
-    background-color: rgb(60, 46, 37);
+  background-color: rgb(60, 46, 37);
 }
 
 h1 {
-    text-align: center;
-    color: white;
-    font-size: 3.5em;
-    margin-top: 0.5em;
+  text-align: center;
+  color: white;
+  font-size: 3.5em;
+  margin-top: 0.5em;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15em;
 }
 
 .head {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    width: 15em;
-    height: 13em;
-    border-radius: 8em;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 15em;
+  height: 13em;
+  border-radius: 8em;
+  position: relative;
 }
 
 .head-copy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    width: 15em;
-    height: 13em;
-    border-radius: 8em;
-    position: relative;
-    z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 15em;
+  height: 13em;
+  border-radius: 8em;
+  position: relative;
+  z-index: 3;
 }
 
 .eye-left {
-    background-color: black;
-    width: 1.5em;
-    height: 1.5em;
-    border: #fff 0.2em solid;
-    border-radius: 1em;
-    position:absolute;
-    top: 4em;
-    left: 3em;
-    z-index: 3;
-    animation: squeeze 1.2s infinite;
+  background-color: black;
+  width: 1.5em;
+  height: 1.5em;
+  border: #fff 0.2em solid;
+  border-radius: 1em;
+  position: absolute;
+  top: 4em;
+  left: 3em;
+  z-index: 3;
+  animation: squeeze 1.2s infinite;
 }
 
 .eye-right {
-background-color: black;
-width: 1.5em;
-height: 1.5em;
-border: #fff 0.2em solid;
-border-radius: 1em;
-position:absolute;
-top: 4em;
-left: 10em;
-z-index: 3;
-animation: squeeze 1.2s infinite;
+  background-color: black;
+  width: 1.5em;
+  height: 1.5em;
+  border: #fff 0.2em solid;
+  border-radius: 1em;
+  position: absolute;
+  top: 4em;
+  left: 10em;
+  z-index: 3;
+  animation: squeeze 1.2s infinite;
 }
 
-.pupil{
-    position: absolute;
-    width: 0.5em;
-    height: 0.5em;
-    top: 0em;
-    left: 0em;
-    border-radius: 0.5em;
-    background: #fff;
-    z-index: 4;
-  }
+.pupil {
+  position: absolute;
+  width: 0.5em;
+  height: 0.5em;
+  top: 0em;
+  left: 0em;
+  border-radius: 0.5em;
+  background: #fff;
+  z-index: 4;
+}
 
 .ear-left {
-    background-color: white;
-    border: black 2em solid;
-    position: absolute;
-    top: -2em;
-    left: -1em;
-    width:  6em;
-    height: 6em;
-    transform: rotate(-100deg) skewX(-30deg) scale(1, 0.866);
-    border-top-right-radius: 20%;
-    z-index: 2;
-  }
+  background-color: white;
+  border: black 2em solid;
+  position: absolute;
+  top: -2em;
+  left: -1em;
+  width: 6em;
+  height: 6em;
+  transform: rotate(-100deg) skewX(-30deg) scale(1, 0.866);
+  border-top-right-radius: 20%;
+  z-index: 2;
+}
 
 .ear-right {
-    background-color: white;
-    border: black 2em solid;
-    position: absolute;
-    top: -2em;
-    left: 6em;
-    width:  6em;
-    height: 6em;
-    transform: rotate(-20deg) skewX(-30deg) scale(1, 0.866);
-    border-top-right-radius: 20%;
-    z-index: 2;
+  background-color: white;
+  border: black 2em solid;
+  position: absolute;
+  top: -2em;
+  left: 6em;
+  width: 6em;
+  height: 6em;
+  transform: rotate(-20deg) skewX(-30deg) scale(1, 0.866);
+  border-top-right-radius: 20%;
+  z-index: 2;
 }
 
 .snout {
-    background-color:white;
-    border-top-left-radius: 3em;
-    border-top-right-radius: 3em;
-    position: absolute;
-    width: 5em;
-    height: 3em;
-    top: 5em;
-    z-index: 5;
+  background-color: white;
+  border-top-left-radius: 3em;
+  border-top-right-radius: 3em;
+  position: absolute;
+  width: 5em;
+  height: 3em;
+  top: 5em;
+  z-index: 5;
 }
 
 .nose {
-    background-color: rgb(19, 19, 19);
-    width: 3em;
-    height: 2em;
-    border-radius: 3em 3em 3em 3em;
-    position: absolute;
-    left: 1em;
-    top: 1em;
+  background-color: rgb(19, 19, 19);
+  width: 3em;
+  height: 2em;
+  border-radius: 3em 3em 3em 3em;
+  position: absolute;
+  left: 1em;
+  top: 1em;
 }
 
 .white-part {
-    background-color: white;
-    width: 2em;
-    height: 6em;
-    position: absolute;
-    top: 0em;
-    left: 6.5em;
-    z-index: 4
+  background-color: white;
+  width: 2em;
+  height: 6em;
+  position: absolute;
+  top: 0em;
+  left: 6.5em;
+  z-index: 4;
 }
 
 .head-bottom {
-    background-color:white;
-    border-bottom-left-radius: 8em;
-    border-bottom-right-radius: 8em;
-    position: absolute;
-    width: 14.59em;
-    height: 5em;
-    top: 7.8em;
-    z-index: 4;
-    /* display: flex;
+  background-color: white;
+  border-bottom-left-radius: 8em;
+  border-bottom-right-radius: 8em;
+  position: absolute;
+  width: 14.59em;
+  height: 5em;
+  top: 7.8em;
+  z-index: 4;
+  /* display: flex;
     justify-content: center; */
 }
 
 .mouth-left {
-    /* Create the circle */
-    background-color: white;
-    width: 2em;
-    height: 1.5em;
-    border: 0.25em solid black;
-    position: absolute;
-    left: 5em;
-    border-radius: 50%;
-    /* Halve the circle */
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    /* Rotate the circle */
-    transform: rotate(320deg) scale(-1);
-    z-index: 5;
-  }
+  /* Create the circle */
+  background-color: white;
+  width: 2em;
+  height: 1.5em;
+  border: 0.25em solid black;
+  position: absolute;
+  left: 5em;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  /* Rotate the circle */
+  transform: rotate(320deg) scale(-1);
+  z-index: 5;
+}
 
-  .mouth-right {
-    /* Create the circle */
-    background-color: white;
-    width: 2em;
-    height: 1.5em;
-    border: 0.25em solid black;
-    position: absolute;
-    left: 7em;
-    top: 0em;
-    border-radius: 50%;
-    /* Halve the circle */
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    /* Rotate the circle */
-    transform: rotate(145deg);
-    z-index: 5;
-  }
+.mouth-right {
+  /* Create the circle */
+  background-color: white;
+  width: 2em;
+  height: 1.5em;
+  border: 0.25em solid black;
+  position: absolute;
+  left: 7em;
+  top: 0em;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  /* Rotate the circle */
+  transform: rotate(145deg);
+  z-index: 5;
+}
 
-  .tongue {
-    background-color: red;
-    width: 2em;
-    height: 2em;
-    border-bottom-left-radius: 2em;
-    border-bottom-right-radius: 2em;
-    position: absolute;
-    top: 1.5em;
-    left: 6.2em;
-    z-index: 4;
-    animation: grow 0.1s infinite alternate;
-  }
+.tongue {
+  background-color: red;
+  width: 2em;
+  height: 2em;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  position: absolute;
+  top: 1.5em;
+  left: 6.2em;
+  z-index: 4;
+  animation: grow 0.1s infinite alternate;
+}
 /* 
 .body {
     background-color: white;
@@ -203,23 +203,23 @@ animation: squeeze 1.2s infinite;
 } */
 
 @keyframes squeeze {
-    90% {
-      transform: none;
-      animation-timing-function: ease-in;
-    }
-    93% {
-      transform: scale(1.2, 0.3);
-    }
-    100% {
-      animation-timing-function: ease-out;
-    }
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
   }
+  93% {
+    transform: scale(1.2, 0.3);
+  }
+  100% {
+    animation-timing-function: ease-out;
+  }
+}
 
-  @keyframes grow {
-    0% {
-      animation-timing-function: ease-in;
-    }
-    100% {
-      height: 2.5em;
-    }
+@keyframes grow {
+  0% {
+    animation-timing-function: ease-in;
   }
+  100% {
+    height: 2.5em;
+  }
+}

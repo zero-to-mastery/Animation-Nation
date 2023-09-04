@@ -1,15 +1,15 @@
 .header {
-    width: 100%;
-    height: 200px;
-    /*background-color: teal;*/
-    text-align: center;
-      }
+  width: 100%;
+  height: 200px;
+  /*background-color: teal;*/
+  text-align: center;
+}
 h1 {
-    /*padding-top: 50px;*/
-    font-size: 25px;
-    font-family: cursive;
-    color: white;     
-    } 
+  /*padding-top: 50px;*/
+  font-size: 25px;
+  font-family: cursive;
+  color: white;
+}
 
 body {
   background: #8acdeb;
@@ -43,13 +43,25 @@ body {
 }
 
 @-webkit-keyframes steam1 {
-  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
-  100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 0;}
+  0% {
+    transform: translateY(0) translateX(0) scale(0.25);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-200px) translateX(-20px) scale(1);
+    opacity: 0;
+  }
 }
 
 @keyframes steam1 {
-  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
-  100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 0;}
+  0% {
+    transform: translateY(0) translateX(0) scale(0.25);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-200px) translateX(-20px) scale(1);
+    opacity: 0;
+  }
 }
 
 #steam2 {
@@ -63,13 +75,25 @@ body {
 }
 
 @-webkit-keyframes steam2 {
-  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
-  100% {transform: translateY(-200px) translateX(20px) scale(1); opacity: 0;}
+  0% {
+    transform: translateY(0) translateX(0) scale(0.25);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-200px) translateX(20px) scale(1);
+    opacity: 0;
+  }
 }
 
 @keyframes steam2 {
-  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
-  100% {transform: translateY(-200px) translateX(20px) scale(1); opacity: 0;}
+  0% {
+    transform: translateY(0) translateX(0) scale(0.25);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-200px) translateX(20px) scale(1);
+    opacity: 0;
+  }
 }
 
 #cup {
@@ -92,7 +116,7 @@ body {
   position: relative;
   height: 300px;
   width: 200px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   display: inline-block;
   margin-left: 42%;
   margin-top: -3px;
@@ -105,7 +129,7 @@ body {
   height: 75px;
   width: 80px;
   border-radius: 0 150px 150px 0;
-  border: 15px solid #F3F3F3;
+  border: 15px solid #f3f3f3;
   margin-bottom: 95px;
   margin-left: 250px;
   display: inline-block;
@@ -115,9 +139,9 @@ body {
 #saucer {
   position: absolute;
   height: 30px;
-  width: 300px;  
+  width: 300px;
   border-radius: 0 0 100px 100px;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   margin-top: -32px;
   margin-left: 5px;
   z-index: 2;

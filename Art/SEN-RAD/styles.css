@@ -1,145 +1,145 @@
-body { 
-    height: 100%;
-    background-image: linear-gradient(to right, darkgray, white);
+body {
+  height: 100%;
+  background-image: linear-gradient(to right, darkgray, white);
 }
 
 /*parent elements*/
 .rectangle {
-    width: 100%;
-    height: 100px;
-    background-color:#434349;
-    position: absolute;
-    top: 45%;
+  width: 100%;
+  height: 100px;
+  background-color: #434349;
+  position: absolute;
+  top: 45%;
 }
 
 .box {
-    width: 60px;
-    height: 60px;
-    background-color: brown;
-    position: relative;
-    top: 20%;
+  width: 60px;
+  height: 60px;
+  background-color: brown;
+  position: relative;
+  top: 20%;
 }
 
 .container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .hexagon:before {
-    content:"";
-    top: -120px;
-    border-bottom: 120px solid #353539;
-    border-left: 208px solid transparent;
-    border-right: 208px solid transparent;
-    position: absolute;
+  content: '';
+  top: -120px;
+  border-bottom: 120px solid #353539;
+  border-left: 208px solid transparent;
+  border-right: 208px solid transparent;
+  position: absolute;
 }
 .hexagon {
-    width: 416px;
-    height: 240px;
-    background: #353539;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 416px;
+  height: 240px;
+  background: #353539;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hexagon:after {
-	content:"";
-    bottom: -120px;
-    border-top: 120px solid #353539;
-    border-left: 208px solid transparent;
-    border-right: 208px solid transparent;
-    position: absolute;
+  content: '';
+  bottom: -120px;
+  border-top: 120px solid #353539;
+  border-left: 208px solid transparent;
+  border-right: 208px solid transparent;
+  position: absolute;
 }
 
 .circle {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    background-color: #80808A;
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: #80808a;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*child elements*/
 .hexagon.child {
-    background-color: #434349;
-    transform: scale(.7, .7);
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #434349;
+  transform: scale(0.7, 0.7);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hexagon.child:before {
-    border-bottom: 120px solid #434349;
+  border-bottom: 120px solid #434349;
 }
 
 .hexagon.child:after {
-    border-top: 120px solid #434349;
+  border-top: 120px solid #434349;
 }
 
 .hexagon.child2 {
-    background-color: #353539;
-    transform: scale(.5, .5);
-    position: absolute;
+  background-color: #353539;
+  transform: scale(0.5, 0.5);
+  position: absolute;
 }
 
 .hexagon.child3 {
-    background-color: #3D371B;
-    transform: scale(.3, .3);
-    position: absolute;
+  background-color: #3d371b;
+  transform: scale(0.3, 0.3);
+  position: absolute;
 }
 
 /*animations*/
 .box {
-    animation: convert 10s infinite;
+  animation: convert 10s infinite;
 }
 
 .hexagon.parent {
-    animation: rotate2 10s infinite;
+  animation: rotate2 10s infinite;
 }
 
 .hexagon.child {
-	animation: rotate 8s infinite;
+  animation: rotate 8s infinite;
 }
 
 .hexagon.child2 {
-    animation: rotate2 8s infinite;
+  animation: rotate2 8s infinite;
 }
 
 .hexagon.child3 {
-    animation: rotate 5s infinite;
+  animation: rotate 5s infinite;
 }
 
 @keyframes convert {
-    from {
-        left: 0%;
-    }
-    30% {
-        background-color: red;
-        border-radius: 0%;
-    }
-    40% {
-        border-radius: 50%;
-        background-color: blue;
-    }
-    to {
-        border-radius: 50%;
-        background-color: blue;
-        left: 99%;
-    }
+  from {
+    left: 0%;
+  }
+  30% {
+    background-color: red;
+    border-radius: 0%;
+  }
+  40% {
+    border-radius: 50%;
+    background-color: blue;
+  }
+  to {
+    border-radius: 50%;
+    background-color: blue;
+    left: 99%;
+  }
 }
 
 @keyframes rotate {
   from {
     rotate: 0deg;
   }
-  to { 
+  to {
     rotate: 360deg;
   }
 }
@@ -148,8 +148,7 @@ body {
   from {
     rotate: 0deg;
   }
-  to { 
+  to {
     rotate: -360deg;
   }
 }
-
