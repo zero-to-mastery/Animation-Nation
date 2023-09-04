@@ -41,7 +41,7 @@ body {
 }
 
 .container .ring::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 12px;
   right: 12px;
@@ -60,7 +60,7 @@ body {
   border-left: 4px solid #ac0202;
 }
 .container .ring:nth-child(2)::before {
-  content: "";
+  content: '';
   position: absolute;
   top: initial;
   bottom: 12px;
@@ -91,7 +91,7 @@ body {
   border-left: 4px solid #830309;
 }
 .container .ring:nth-child(3)::before {
-  content: "";
+  content: '';
   position: absolute;
   top: initial;
   bottom: 12px;

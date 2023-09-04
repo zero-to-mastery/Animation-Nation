@@ -21,21 +21,25 @@ body {
   width: 100px;
   height: 50px;
 }
-.helix-row:nth-child(2) .rung, .helix-row:nth-child(2) .ball {
+.helix-row:nth-child(2) .rung,
+.helix-row:nth-child(2) .ball {
   -webkit-animation-delay: -0.8s;
-          animation-delay: -0.8s;
+  animation-delay: -0.8s;
 }
-.helix-row:nth-child(3) .rung, .helix-row:nth-child(3) .ball {
+.helix-row:nth-child(3) .rung,
+.helix-row:nth-child(3) .ball {
   -webkit-animation-delay: -0.6s;
-          animation-delay: -0.6s;
+  animation-delay: -0.6s;
 }
-.helix-row:nth-child(4) .rung, .helix-row:nth-child(4) .ball {
+.helix-row:nth-child(4) .rung,
+.helix-row:nth-child(4) .ball {
   -webkit-animation-delay: -0.4s;
-          animation-delay: -0.4s;
+  animation-delay: -0.4s;
 }
-.helix-row:nth-child(5) .rung, .helix-row:nth-child(5) .ball {
+.helix-row:nth-child(5) .rung,
+.helix-row:nth-child(5) .ball {
   -webkit-animation-delay: -0.2s;
-          animation-delay: -0.2s;
+  animation-delay: -0.2s;
 }
 
 .rung {
@@ -45,7 +49,7 @@ body {
   top: 15px;
   background-color: white;
   -webkit-animation: rung-parallax 1s linear infinite;
-          animation: rung-parallax 1s linear infinite;
+  animation: rung-parallax 1s linear infinite;
 }
 
 @-webkit-keyframes rung-parallax {
@@ -80,12 +84,18 @@ body {
   transform-origin: 50% 50%;
 }
 .ball.left {
-  -webkit-animation: left-to-right 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite, approach 1s linear infinite;
-          animation: left-to-right 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite, approach 1s linear infinite;
+  -webkit-animation: left-to-right 1s cubic-bezier(0.445, 0.05, 0.55, 0.95)
+      infinite,
+    approach 1s linear infinite;
+  animation: left-to-right 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite,
+    approach 1s linear infinite;
 }
 .ball.right {
-  -webkit-animation: right-to-left 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite, recede 1s linear infinite;
-          animation: right-to-left 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite, recede 1s linear infinite;
+  -webkit-animation: right-to-left 1s cubic-bezier(0.445, 0.05, 0.55, 0.95)
+      infinite,
+    recede 1s linear infinite;
+  animation: right-to-left 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite,
+    recede 1s linear infinite;
 }
 
 @-webkit-keyframes left-to-right {
@@ -170,4 +180,4 @@ body {
     transform: scale(1);
     background-color: white;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

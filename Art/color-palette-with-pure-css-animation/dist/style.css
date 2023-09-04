@@ -27,8 +27,8 @@ body {
 .swatch div:before {
   width: 16px;
   height: 16px;
-  content: "";
-  background-color: #FFFFFF;
+  content: '';
+  background-color: #ffffff;
   display: inline-block;
   border-radius: 8px;
   bottom: 10px;
@@ -36,27 +36,27 @@ body {
   margin-left: -8px;
 }
 .swatch div:nth-child(1) {
-  background-color: #815A8F;
+  background-color: #815a8f;
   animation: swatch-purple-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 .swatch div:nth-child(2) {
-  background-color: #6730EC;
+  background-color: #6730ec;
   animation: swatch-blue-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 .swatch div:nth-child(3) {
-  background-color: #9ED763;
+  background-color: #9ed763;
   animation: swatch-green-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 .swatch div:nth-child(4) {
-  background-color: #FBD400;
+  background-color: #fbd400;
   animation: swatch-yellow-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 .swatch div:nth-child(5) {
-  background-color: #FF9000;
+  background-color: #ff9000;
   animation: swatch-orange-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 .swatch div:nth-child(6) {
-  background-color: #F73F52;
+  background-color: #f73f52;
   animation: swatch-red-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 @keyframes swatch-purple-motion {

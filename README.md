@@ -1,5 +1,3 @@
-
-
 ![](./colourpencils.png)
 
 _Sharpen your pencils, we're getting creative!_
@@ -16,7 +14,6 @@ The rules are simple. You have to:
 - Have at least one animation in your work
 - Please make sure that the code is indeed your own, and not copied from someone else
 - That's it!
-
 
 # How to contribute
 

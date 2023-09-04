@@ -1,42 +1,45 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-#container{
-  display:flex;
+#container {
+  display: flex;
   flex-direction: row;
   justify-content: center;
   padding-top: 20px;
 }
 
-#one{
+#one {
   width: 200px;
   height: 250px;
-  background-color:green;
+  background-color: green;
   animation-name: opacity;
   animation-duration: 2s;
 }
 
-#two{
+#two {
   width: 200px;
   height: 250px;
-  background-color:white;
+  background-color: white;
   animation-name: opacity;
   animation-duration: 2s;
   animation-delay: 2s;
 }
 
-#three{
+#three {
   width: 200px;
   height: 250px;
-  background-color:red;
+  background-color: red;
   animation-name: opacity;
   animation-duration: 2s;
   animation-delay: 4s;
 }
 
 @keyframes opacity {
-    from {opacity:0;}
-    to {opacity:1;}
-    }
-    
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
