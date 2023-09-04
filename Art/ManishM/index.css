@@ -1,0 +1,43 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    perspective: 1000px;
+    background-color: #f0f0f0;
+}
+
+.cube {
+    position: relative;
+    transform-style: preserve-3d;
+    animation: spinAndChangeColor 10s linear infinite, changeCubeColor 10s ease-in-out infinite;
+}
+
+.surface {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.surface:nth-child(1) { transform: rotateY(0deg) translateZ(100px); background-color: #3498db; }
+.surface:nth-child(2) { transform: rotateY(90deg) translateZ(100px); background-color: #e74c3c; }
+.surface:nth-child(3) { transform: rotateY(180deg) translateZ(100px); background-color: #2ecc71; }
+.surface:nth-child(4) { transform: rotateY(-90deg) translateZ(100px); background-color: #f1c40f; }
+.surface:nth-child(5) { transform: rotateX(90deg) translateZ(100px); background-color: #9b59b6; }
+.surface:nth-child(6) { transform: rotateX(-90deg) translateZ(100px); background-color: #34495e; }
+
+@keyframes spinAndChangeColor {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    100% { transform: rotateX(360deg) rotateY(360deg); }
+}
+
+@keyframes changeCubeColor {
+    0%, 100% { background-color: #3498db; }
+    25% { background-color: #e74c3c; }
+    50% { background-color: #2ecc71; }
+    75% { background-color: #f1c40f; }
+}
