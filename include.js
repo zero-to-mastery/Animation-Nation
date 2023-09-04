@@ -6514,6 +6514,13 @@ let cards = [
     githubLink: 'https://github.com/cpk3'
   },
   {
+    artName: '3D spinning cube',
+    pageLink: './Art/ManishM/index.html',
+    imageLink: './Art/ManishM/3dcube.gif',
+    author: 'Manish Mandal',
+    githubLink: 'https://github.com/manishdevelops'
+  },
+  {
     pageLink: '.Art/yashraj2003e/index.html',
     imageLink: '.Art/yashraj20033/animation.gif',
     author: 'Yashraj',
