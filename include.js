@@ -6535,8 +6535,8 @@ let cards = [
   },
   {
     artName: 'Spinning Button',
-    pageLink: './Art/Joy/nfluk/index.html',
-    imageLink: './Art/Joy/nfluk/Screenshot.png',
+    pageLink: './Art/nfluk/index.html',
+    imageLink: './Art/nfluk/Screenshot.png',
     author: 'nfluk',
     githubLink: 'https://github.com/nfluk'
   }
