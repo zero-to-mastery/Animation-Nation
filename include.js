@@ -6532,6 +6532,13 @@ let cards = [
     imageLink: './Art/marion/smiles.gif',
     author: 'Marion',
     githubLink: 'https://github.com/marionjudy13'
+  },
+  {
+    artName: 'Spinning Button',
+    pageLink: './Art/nfluk/index.html',
+    imageLink: './Art/nfluk/Screenshot.png',
+    author: 'nfluk',
+    githubLink: 'https://github.com/nfluk'
   }
 ];
 
