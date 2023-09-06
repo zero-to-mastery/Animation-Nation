@@ -6532,7 +6532,14 @@ let cards = [
     imageLink: './Art/marion/smiles.gif',
     author: 'Marion',
     githubLink: 'https://github.com/marionjudy13'
-  }
+  },
+  {
+      artName: 'Detonation Button',
+      pageLink: './Art/detonate-button/index.html',
+      imageLink: './Art/detonate-button/detonate-button.gif',
+      author: 'carv066',
+      githubLink: 'https://github.com/carv0066'
+  }  
 ];
 
 // +--------------------------------------------------------------------------------+
