@@ -6539,6 +6539,13 @@ let cards = [
     imageLink: './Art/nfluk/Screenshot.png',
     author: 'nfluk',
     githubLink: 'https://github.com/nfluk'
+  },
+  {
+    artName: 'Detonation Button',
+    pageLink: './Art/detonate-button/index.html',
+    imageLink: './Art/detonate-button/detonate-button.gif',
+    author: 'carv066',
+    githubLink: 'https://github.com/carv0066'
   }
 ];
 
