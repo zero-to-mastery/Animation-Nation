@@ -29,18 +29,35 @@ h1 {
 }
 
 @keyframes example {
-  0% {background-color: red;}
-  30% {background-color: blue;}
-  66% {background-color: green;}
-  100% {background-color: yellow;}
+  0% {
+    background-color: red;
+  }
+  30% {
+    background-color: blue;
+  }
+  66% {
+    background-color: green;
+  }
+  100% {
+    background-color: yellow;
+  }
 }
 
 @keyframes circlean {
-  0% {width: 150px;background-color: purple;}
-  30% {width: 200px;background-color: pink;}
-  66% {width: 150px;background-color: orangered;}
-  100% {width: 200px;background-color: darkorange;}
+  0% {
+    width: 150px;
+    background-color: purple;
+  }
+  30% {
+    width: 200px;
+    background-color: pink;
+  }
+  66% {
+    width: 150px;
+    background-color: orangered;
+  }
+  100% {
+    width: 200px;
+    background-color: darkorange;
+  }
 }
-
-
-

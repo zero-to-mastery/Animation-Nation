@@ -1,16 +1,16 @@
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-
 
 body {
-	font-family: "Open Sans", sans-serif;
-	font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
 }
 
-
-ul, ol, li {
-	list-style: none;
+ul,
+ol,
+li {
+  list-style: none;
 }
