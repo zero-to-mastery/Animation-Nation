@@ -1,0 +1,225 @@
+.bc1{
+  animation: bc1;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  top:-100%; right:-100%; left:-100%; bottom:-100%;
+  margin:auto;
+  z-index:0;
+  background-color: black;
+}
+.wc1{
+  animation: wc1;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 186px;
+  height: 186px;
+  background-color: white;
+}
+.bc2{
+  animation: bc2;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 172px;
+  height: 172px;
+  background-color: black;
+}
+.wc2{
+  animation: wc2;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 158px;
+  height: 158px;
+  background-color: white;
+}
+.bc3{
+  animation: bc3;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 144px;
+  height: 144px;
+  background-color: black;
+}
+.wc3{
+  animation: wc3;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 130px;
+  height: 130px;
+  background-color: white;
+}
+.bc4{
+  animation: bc4;
+  animation-duration: 21s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 116px;
+  height: 116px;
+  background-color: black;
+}
+.wc4{
+  animation: wc4;
+  animation-duration: 24s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 102px;
+  height: 102px;
+  background-color: white;
+  }
+.bc5{
+  animation: bc5;
+  animation-duration: 27s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 88px;
+  height: 88px;
+  background-color: black;
+}
+.wc5{
+  animation: wc5;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 74px;
+  height: 74px;
+  background-color: white;
+  }
+.bc6{
+  animation: bc6;
+  animation-duration: 33s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+}
+.wc6{
+  animation: wc6;
+  animation-duration: 36s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 46px;
+  height: 46px;
+  background-color: white;
+  }
+.bc7{
+  animation: bc7;
+  animation-duration: 39s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 32px;
+  height: 32px;
+  background-color: black;
+}
+.wc7{
+  animation: wc7;
+  animation-duration: 42s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  }
+@keyframes bc1 {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wc1 {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes bc2 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wc2 {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes bc3 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wc3 {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes bc4 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wc4 {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes bc5 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wc5 {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes bc6 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wc6 {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes bc7 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wc7 {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
