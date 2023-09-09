@@ -6553,6 +6553,13 @@ let cards = [
     imageLink: './Art/detonate-button/detonate-button.gif',
     author: 'carv066',
     githubLink: 'https://github.com/carv0066'
+  },
+  {
+    artName: 'Square Dancing',
+    pageLink: './Art/rdcorrigan/index.html',
+    imageLink: './Art/rdcorrigan/squareDance.gif',
+    author: 'Ryan D.C.',
+    githubLink: 'https://github.com/rdcorrigan'
   }
 ];
 

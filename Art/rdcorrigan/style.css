@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
+
+body {
+    background-color: black;
+    font-family: Geo;
+    font-size: 2.3rem;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: -50px;
+}
+
+@media (max-width: 508px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.red {
+    width: 80px;
+    height: 80px;
+    background-color: #f73030;
+    border-radius: 10%;
+    animation: clockwiseRed 3s ease-in-out infinite;
+}
+
+.blue {
+    width: 80px;
+    height: 80px;
+    background-color: #3d3df6;
+    border-radius: 10%;
+    animation: counterClockwiseBlue 3s ease-in-out infinite;
+}
+
+.green {
+    width: 80px;
+    height: 80px;
+    background-color: #18f250;
+    border-radius: 10%;
+    animation: clockwiseGreen 3s ease-in-out infinite;
+}
+
+.purple {
+    width: 80px;
+    height: 80px;
+    background-color: #b900f1;
+    border-radius: 10%;
+    animation: counterClockwisePurple 3s ease-in-out infinite;
+}
+
+@keyframes clockwiseRed {
+    0%{
+        transform: translate(0);
+        transform: scale(2);
+    }
+    25%{
+        transform: translate(0, -25vh);
+    }
+    50% {
+        transform: translate(25vw, -25vh);
+    }
+    75% {
+        transform: translate(25vw, 0);
+    }
+    100% {
+        transform: scale(2);
+    }
+}
+
+@keyframes counterClockwiseBlue {
+    0%{
+        transform: translate(0);
+        transform: scale(0.5);
+    }
+    25%{
+        transform: translate(0, -25vh);
+    }
+    50% {
+        transform: translate(-25vw, -25vh);
+    }
+    75% {
+        transform: translate(-25vw, 0);
+    }
+    100% {
+        transform: scale(0.5);
+    }
+}
+
+@keyframes clockwiseGreen {
+    0%{
+        transform: translate(0);
+        transform: scale(2);
+    }
+    25%{
+        transform: translate(0, 25vh);
+        
+    }
+    50% {
+        transform: translate(-25vw, 25vh);
+    }
+    75% {
+        transform: translate(-25vw, 0);
+    }
+    100% {
+        transform: scale(2);
+    }
+}
+
+@keyframes counterClockwisePurple {
+    0%{
+        transform: translate(0);
+        transform: scale(0.5);
+    }
+    25%{
+        transform: translate(0, 25vh);
+    }
+    50% {
+        transform: translate(25vw, 25vh);
+    }
+    75% {
+        transform: translate(25vw, 0);
+    }
+    100% {
+        transform: scale(0.5);
+    }
+}
