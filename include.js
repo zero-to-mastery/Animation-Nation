@@ -6521,11 +6521,18 @@ let cards = [
   },
   {
     artName: 'Rolling Happy',
-    pageLink: './Art/marion/index.html',
+    pageLink: './Art/animatorn/index.html',
     imageLink: './Art/marion/smiles.gif',
     author: 'Marion',
     githubLink: 'https://github.com/marionjudy13'
   },
+  {
+    artName: "Aayush's 3D Card",
+    pageLink: './Art/AayushNair/3d/index.html',
+    imageLink: './Art/AayushNair/3d/style.css',
+    author: 'Aayush',
+    githubLink: 'https://github.com/aayushnr'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
