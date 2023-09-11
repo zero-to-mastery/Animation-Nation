@@ -15,11 +15,20 @@ let cards = [
   },
   {
     artName: 'Shakerdl',
-    pageLink: './Art/Joy/shakerdl/index.html',
-    imageLink: './Art/Joy/shakerdl/shrinking.gif',
+    pageLink: './Art/shakerdl/index.html',
+    imageLink: './Art/shakerdl/shrinking.gif',
     author: 'Shakerdl',
-    githubLink: 'https://github.com/shakerdl'
+    githubLink: 'https://github.com/HaroonAdil6313'
   },
+  let cards = [
+  {
+    artName: 'Haroon',
+    pageLink: './Art/Joy/Haroon/index.html',
+    imageLink: './Art/Joy/Haroon/trance.gif',
+    author: 'Adil',
+    githubLink: 'https://github.com/royranger'
+  }
+];
   {
     artName: 'Hot coffee',
     pageLink: './Art/Hot coffee/index.html',
@@ -6540,6 +6549,7 @@ let cards = [
     author: 'Yapakazul',
     githubLink: 'https://github.com/Yapakazul'
   },
+];
   {
     artName: 'Spinning Button',
     pageLink: './Art/nfluk/index.html',
