@@ -6553,13 +6553,20 @@ let cards = [
     imageLink: './Art/detonate-button/detonate-button.gif',
     author: 'carv066',
     githubLink: 'https://github.com/carv0066'
-  }
+  },
   {
     artName: 'Rolling',
     pageLink: './Art/OrnitCG/index.html',
     imageLink: '.Art/OrnitCG/myGif.html',
     author: 'OrnitCG',
     githubLink: 'https://github.com/ornitcg'
+  },
+  {
+    artName: 'Bouncing Ball',
+    pageLink: './Art/ball/index.html',
+    imageLink: './Art/ball/bouncing-ball.gif',
+    author: 'Varian1',
+    githubLink: 'https://github.com/varian1'
   }
 ];
 
