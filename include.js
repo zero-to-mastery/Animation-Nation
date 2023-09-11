@@ -6554,6 +6554,13 @@ let cards = [
     author: 'carv066',
     githubLink: 'https://github.com/carv0066'
   }
+  {
+    artName: 'Rolling',
+    pageLink: './Art/OrnitCG/index.html',
+    imageLink: '.Art/OrnitCG/myGif.html',
+    author: 'OrnitCG',
+    githubLink: 'https://github.com/ornitcg'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
