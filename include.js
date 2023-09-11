@@ -6557,7 +6557,7 @@ let cards = [
   {
     artName: 'Rolling',
     pageLink: './Art/OrnitCG/index.html',
-    imageLink: './Art/OrnitCG/myGif.html',
+    imageLink: '.Art/OrnitCG/myGif.html',
     author: 'OrnitCG',
     githubLink: 'https://github.com/ornitcg'
   }
