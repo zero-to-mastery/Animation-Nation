@@ -6553,7 +6553,7 @@ let cards = [
     imageLink: './Art/detonate-button/detonate-button.gif',
     author: 'carv066',
     githubLink: 'https://github.com/carv0066'
-  }
+  },
   {
     artName: 'Rolling',
     pageLink: './Art/OrnitCG/index.html',
