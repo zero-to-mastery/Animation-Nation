@@ -6567,6 +6567,13 @@ let cards = [
     imageLink: './Art/AayushNair/3d/style.css',
     author: 'Aayush',
     githubLink: 'https://github.com/aayushnr'
+  },
+  {
+    artName: 'Bouncing Ball',
+    pageLink: './Art/ball/index.html',
+    imageLink: './Art/ball/bouncing-ball.gif',
+    author: 'Varian1',
+    githubLink: 'https://github.com/varian1'
   }
 ];
 
