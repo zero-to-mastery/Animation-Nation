@@ -640,6 +640,13 @@ let cards = [
     githubLink: 'https://github.com/mehul1011'
   },
   {
+    artName: 'Flex Box Transition',
+    pageLink: './Art/1AA-Prajakta/trans1.html',
+    imageLink: './Art/1AA-Prajakta/trans1.gif',
+    author: 'prajaktakap00r',
+    githubLink: 'https://github.com/prajaktakap00r'
+  },
+  {
     artName: 'Loading Dots',
     pageLink: './Art/devSergiu/index.html',
     imageLink: './Art/devSergiu/loading.gif',

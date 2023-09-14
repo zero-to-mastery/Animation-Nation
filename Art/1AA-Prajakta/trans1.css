@@ -1,0 +1,23 @@
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: magenta;
+    transition: background-color 1s 1s;
+    
+}
+.circle:hover{
+    background-color: cyan;
+    border-radius: 50%;
+
+}
+section div{
+    width: 100px;
+    height: 100px;
+    background-color: turquoise;
+    margin: 20px 0;
+    transition: margin-left 3s;
+
+}
+section:hover div{
+    margin-left: 500px;
+}
