@@ -6547,6 +6547,13 @@ let cards = [
     author: 'carv066',
     githubLink: 'https://github.com/carv0066'
   }
+  {
+    artName: 'Packman',
+    pageLink: './Art/packman/index.html',
+    imageLink: './Art/packman/giphy.gif',
+    author: 'Ochieng',
+    githubLink: 'https://github.com/ongoklevi'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
