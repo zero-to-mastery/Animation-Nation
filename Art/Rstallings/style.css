@@ -1,0 +1,33 @@
+body {
+  #background-color: bisque;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  outline: auto;
+}
+
+div:hover {
+  transform: scale(1.1);
+}
+
+#Red {
+  background: red;
+}
+
+#Blue {
+  background: blue;
+}
+
+#Yellow {
+  background: yellow;
+}
+
+#Green {
+  background: green;
+}
