@@ -689,6 +689,13 @@ let cards = [
     githubLink: 'https://github.com/atipaHy'
   },
   {
+    artName: 'loader dots',
+    pageLink: './Art/shafiq/loading.html',
+    imageLink: './Art/shafiq/loader.gif',
+    author: 'Shafiq Rasa',
+    githubLink: 'https://github.com/ShafiqRasa'
+  },
+  {
     artName: 'Orb',
     pageLink: './Art/Jkbicbic/orb.html',
     imageLink: './Art/Jkbicbic/orb.gif',
