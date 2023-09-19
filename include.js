@@ -6582,6 +6582,13 @@ let cards = [
     author: 'Varian1',
     githubLink: 'https://github.com/varian1'
   }
+  {
+    artName: 'AnimateIbaad',
+    pageLink: './Art/Ibaad/animate.html',
+    imageLink: './Art/Ibaad/animationimagehover.gif',
+    author: 'Ibaad',
+    githubLink: 'https://github.com/ibaaddurrani'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
