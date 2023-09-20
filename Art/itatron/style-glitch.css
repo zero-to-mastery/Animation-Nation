@@ -1,0 +1,53 @@
+/* style-glitch.css */
+
+.glitch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000; /* Colore di sfondo nero per l'effetto glitch */
+}
+
+.glitch {
+    position: relative;
+    animation: glitchFadeAnimation 5s linear infinite; /* Modifica la durata e la funzione di temporizzazione */
+}
+
+.glitch-image {
+    width: 200px; /* Imposta le dimensioni della bandiera */
+    height: auto; /* L'altezza si adatta automaticamente per mantenere l'aspetto originale */
+    opacity: 1; /* Opacità iniziale a 1 */
+}
+
+@keyframes glitchFadeAnimation {
+    0% {
+        transform: translateX(0) translateY(0);
+        opacity: 1; /* Opacità iniziale a 1 */
+    }
+    5%, 10% {
+        transform: translateX(-5px) translateY(5px);
+        opacity: 0.9; /* Leggera distorsione e abbassamento dell'opacità */
+    }
+    15%, 20% {
+        transform: translateX(5px) translateY(-5px);
+        opacity: 0.85; /* Altra distorsione e abbassamento dell'opacità */
+    }
+    25%, 30% {
+        transform: translateX(-3px) translateY(3px);
+        opacity: 0.9; /* Leggera distorsione e abbassamento dell'opacità */
+    }
+    35%, 40% {
+        transform: translateX(0) translateY(0);
+        opacity: 1; /* Ripristino dell'aspetto originale */
+    }
+    45% {
+        opacity: 0; /* Dissolvenza iniziale */
+    }
+    95% {
+        opacity: 0; /* Dissolvenza finale */
+    }
+    100% {
+        opacity: 1; /* Ripristino dell'opacità finale */
+    }
+}
