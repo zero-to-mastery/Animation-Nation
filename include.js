@@ -6582,6 +6582,13 @@ let cards = [
     author: 'Varian1',
     githubLink: 'https://github.com/varian1'
   }
+  {
+    artName: 'itatron',
+    pageLink: './Art/Pat/itatron/index.html',
+    imageLink: './Art/Pat/itatron/italy.gif',
+    author: 'PatrizioC',
+    githubLink: 'https://github.com/PatrizioCotani'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
