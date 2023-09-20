@@ -6586,7 +6586,7 @@ let cards = [
     artName: 'itatron',
     pageLink: './Art/Pat/itatron/index.html',
     imageLink: './Art/Pat/itatron/italy.gif',
-    author: 'Patrizio',
+    author: 'PatrizioC',
     githubLink: 'https://github.com/PatrizioCotani'
   }
 ];
