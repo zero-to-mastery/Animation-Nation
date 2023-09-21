@@ -6583,7 +6583,16 @@ let cards = [
     githubLink: 'https://github.com/varian1'
   }
 ];
-
+let cards = [
+  //  Add your card in this section
+  {
+    artName: 'Animate',
+    pageLink: './Art/animate/animate/index.html',
+    imageLink: './Art/animate/animate/giphy.gif',
+    author: 'Ian',
+    githubLink: 'https://github.com/IanGlover28'
+  }
+];
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
