@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Simple BAAF',
+    pageLink: './Art/baaf-Animation/index.html',
+    imageLink: './Art/baaf-Animation/baafscreen.png',
+    author: 'Farid Bass',
+    githubLink: 'https://github.com/baafbass'
+  },
+  {
     artName: 'Spiral',
     pageLink: './Art/aschwir/index.html',
     imageLink: './Art/aschwir/spiral.gif',
