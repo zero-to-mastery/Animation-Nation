@@ -6590,6 +6590,13 @@ let cards = [
     imageLink: './Art/ball/bouncing-ball.gif',
     author: 'Varian1',
     githubLink: 'https://github.com/varian1'
+  },
+  {
+    artName: 'TransCopy',
+    pageLink: './Art/Mihajlo88/index.html',
+    imageLink: './Art/Mihajlo88/animation.gif',
+    author: 'Mihajlo88',
+    githubLink: 'https://github.com/Mihajlo'
   }
 ];
 
