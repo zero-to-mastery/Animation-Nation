@@ -6,6 +6,15 @@ let cards = [
     author: 'aschwir',
     githubLink: 'https://github.com/aschwir'
   },
+  
+  {
+    artName: '4 Color Loader',
+    pageLink: './Art/rstallings/index.html',
+    imageLink: './Art/rstallings/Animation.gif',
+    author: 'Roosevelt S.',
+    githubLink: 'https://github.com/rstallingsiii'
+  },
+  
   {
     artName: 'Alright',
     pageLink: './Art/arjunan-k/index.html',
