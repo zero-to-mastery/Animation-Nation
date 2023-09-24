@@ -6589,6 +6589,13 @@ let cards = [
     author: 'Mihajlo88',
     githubLink: 'https://github.com/Mihajlo'
   }
+  {
+    artName: 'Mr. A\'s Amimation',
+    pageLink: './Art/Mr.A\'sAnimation/index.html',
+    imageLink: './Art/Mr.A\'sAnimation/Animation.gif',
+    author: 'Mr. AnkitR',
+    githubLink: 'https://github.com/MrARawal'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
