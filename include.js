@@ -6588,6 +6588,13 @@ let cards = [
     imageLink: './Art/Mihajlo88/animation.gif',
     author: 'Mihajlo88',
     githubLink: 'https://github.com/Mihajlo'
+  },
+  {
+    artName: 'Falling stars',
+    pageLink: './Art/ChipoJ/index.html',
+    imageLink: './Art/ChipoJ/star_fall.gif',
+    author: 'ChipoJ',
+    githubLink: 'https://github.com/Chipoj'
   }
 ];
 
