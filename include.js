@@ -6588,6 +6588,14 @@ let cards = [
     imageLink: './Art/Mihajlo88/animation.gif',
     author: 'Mihajlo88',
     githubLink: 'https://github.com/Mihajlo'
+  },
+
+  {
+    artName: 'Running Laps',
+    pageLink: './Art/runningBars/index.html',
+    imageLink: './Art/runningBars/running.gif',
+    author: 'Daniel',
+    githubLink: 'https://github.com/dsauce817'
   }
 ];
 
