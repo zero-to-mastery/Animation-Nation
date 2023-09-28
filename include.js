@@ -6588,6 +6588,13 @@ let cards = [
     imageLink: './Art/Mihajlo88/animation.gif',
     author: 'Mihajlo88',
     githubLink: 'https://github.com/Mihajlo'
+  },
+   {
+    artName: 'Loader',
+    pageLink: './Art/Animation_makrenko-dev/index.html',
+    imageLink: './Art/Animation_makrenko-dev/logog.gif',
+    author: 'makrenko-dev',
+    githubLink: 'https://github.com/makrenko-dev'
   }
 ];
 
