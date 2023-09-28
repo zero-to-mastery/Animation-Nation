@@ -6588,6 +6588,13 @@ let cards = [
     imageLink: './Art/Mihajlo88/animation.gif',
     author: 'Mihajlo88',
     githubLink: 'https://github.com/Mihajlo'
+  },
+  {
+    artName: 'Bouncing Screensaver',
+    pageLink: './Art/CDay-87/index.html',
+    imageLink: './Art/CDay87/Bounce_Animation.gif',
+    author: 'CDay-87',
+    githubLink: 'https://github.com/CDay-87'
   }
 ];
 
