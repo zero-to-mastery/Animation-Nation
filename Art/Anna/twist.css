@@ -1,16 +1,30 @@
+:root {
+    --duration: 0.9s;
+    --ball-size: 25px;
+    --stem-size: calc(var(--ball-size) / 5);
+  }
+ 
+ html{
+        height: 100%;
+        width: 100%;
+ }
+ body{
+     height: 100%;
+     width: 100%;
+    background: linear-gradient( -155deg, rgb(102, 102, 102), rgb(0, 0, 0))  no-repeat;
+ }
  .container{
-    /* width: 14rem;
-    height: 14rem; */
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    /* background-color: orange; */
+    transform: translate(-50%, -50%) ;
+
 }
 
 .animation {
     width: 14rem;
     height: 14rem;
+
 }
 .upper-row, .bottom-row, .middle-row{
     width: 14rem;
@@ -19,21 +33,36 @@
 }
 
 .upper-row div, .bottom-row div {
-    width: 2rem;
-    height: 2rem;
+    width: var(--ball-size);
+    height: var(--ball-size);
     z-index: 10;
+    background-color: rgb(46, 165, 194);
+}
+
+.upper-row div::after, .bottom-row div::after {
+     content: "";
+     position: absolute;
+     top: 5px;
+     left: 3px;
+    width: 50%;
+    height: 30%;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    background: linear-gradient(
+        190deg,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0)
+      );
 }
 
 .upper-row{
-    /* background-color: rgb(116, 222, 243); */
     justify-content: space-around;
     align-items: flex-end;
 }
 
 .upper-row div {
-  background-color: rgb(254, 222, 39);
   border-radius: 50%;
-  animation: upper-animation 1s cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
+  animation: upper-animation var(--duration) cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
   transform: translateY(1rem);
 }
 
@@ -48,6 +77,12 @@
 }
 .upper-row div:nth-child(5){
     animation-delay: 0.8s;
+}
+.upper-row div:nth-child(6){
+    animation-delay: 1s;
+}
+.upper-row div:nth-child(7){
+    animation-delay: 1.2s;
 }
 
 @keyframes upper-animation {
@@ -71,10 +106,10 @@
 
 .middle-row div{
     height: 100%;
-    width: 0.5rem;
+    width: var(--stem-size);
     transform: scaleY(0);
-    background-color: rgb(25, 43, 243);
-    animation: middle-animation 1s cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
+    background-color: rgb(209, 206, 133);
+    animation: middle-animation var(--duration) cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
  
 }
 
@@ -89,6 +124,12 @@
 }
 .middle-row div:nth-child(5){
     animation-delay: 0.8s;
+}
+.middle-row div:nth-child(6){
+    animation-delay: 1s;
+}
+.middle-row div:nth-child(7){
+    animation-delay: 1.2s;
 }
 
 @keyframes middle-animation {
@@ -108,9 +149,8 @@
 }
 
 .bottom-row div {
-  background-color: rgb(255, 115, 0);
   border-radius: 50%;
-  animation: bottom-animation 1s cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
+  animation: bottom-animation var(--duration) cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
   transform: translateY(-1rem);
 }
 
@@ -134,4 +174,10 @@
 }
 .bottom-row div:nth-child(5){
     animation-delay: 0.8s;
+}
+.bottom-row div:nth-child(6){
+    animation-delay: 1s;
+}
+.bottom-row div:nth-child(7){
+    animation-delay: 1.2s;
 }
