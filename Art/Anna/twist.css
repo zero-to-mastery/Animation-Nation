@@ -110,7 +110,7 @@
     transform: scaleY(0);
     background-color: rgb(209, 206, 133);
     animation: middle-animation var(--duration) cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
- 
+    border-radius: 50%;
 }
 
 .middle-row div:nth-child(2){
@@ -137,7 +137,7 @@
         transform: scaleY(0);
     }
     to {
-        transform: scaleY(1);
+        transform: scaleY(0.6);
     }
 }
 
