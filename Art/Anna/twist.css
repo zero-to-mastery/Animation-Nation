@@ -1,5 +1,54 @@
-.test{
-    width: 50px;
-    height: 50px;
-    background-color: yellow;
+ .container{
+    width: 14rem;
+    height: 14rem;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+}
+
+.upper-row, .bottom-row, .middle-row{
+    width: 14rem;
+    height: 7rem;
+    display: flex;
+}
+
+.upper-row div, .bottom-row div {
+    width: 2rem;
+    height: 2rem;
+}
+
+.upper-row{
+    background-color: rgb(116, 222, 243);
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.upper-row div {
+  background-color: rgb(254, 222, 39);
+  border-radius: 50%;
+}
+
+.middle-row{
+    background-color: rgb(158, 225, 75);
+    justify-content: space-around;
+}
+
+.middle-row div{
+    height: 100%;
+    width: 0.5rem;
+    background-color: rgb(25, 43, 243);
+}
+
+.bottom-row{
+    background-color: rgb(122, 116, 243);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.bottom-row div {
+  background-color: rgb(255, 115, 0);
+  border-radius: 50%;
 }
