@@ -5,7 +5,14 @@ let cards = [
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
-  }
+  },
+  {
+    artName: 'Shaking box',
+    pageLink: './Art/alexsatalan/index.html',
+    imageLink: './Art/alexsatalan/shaking.gif',
+    author: 'AlexS',
+    githubLink: 'https://github.com/alexsatalan'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
