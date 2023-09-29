@@ -1,13 +1,17 @@
  .container{
-    width: 14rem;
-    height: 14rem;
+    /* width: 14rem;
+    height: 14rem; */
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: orange;
+    /* background-color: orange; */
 }
 
+.animation {
+    width: 14rem;
+    height: 14rem;
+}
 .upper-row, .bottom-row, .middle-row{
     width: 14rem;
     height: 7rem;
@@ -17,10 +21,11 @@
 .upper-row div, .bottom-row div {
     width: 2rem;
     height: 2rem;
+    z-index: 10;
 }
 
 .upper-row{
-    background-color: rgb(116, 222, 243);
+    /* background-color: rgb(116, 222, 243); */
     justify-content: space-around;
     align-items: flex-end;
 }
@@ -29,6 +34,7 @@
   background-color: rgb(254, 222, 39);
   border-radius: 50%;
   animation: upper-animation 1s cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
+  transform: translateY(1rem);
 }
 
 .upper-row div:nth-child(2){
@@ -46,7 +52,7 @@
 
 @keyframes upper-animation {
     from {
-        transform: translateY(0);
+        transform: translateY(1.1rem);
     }
     to {
         transform: translateY(-2.5rem);
@@ -54,13 +60,19 @@
 }
 
 .middle-row{
-    background-color: rgb(158, 225, 75);
+  
+    /* background-color: rgb(158, 225, 75); */
     justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .middle-row div{
     height: 100%;
     width: 0.5rem;
+    transform: scaleY(0);
     background-color: rgb(25, 43, 243);
     animation: middle-animation 1s cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
  
@@ -89,7 +101,7 @@
 }
 
 .bottom-row{
-    background-color: rgb(122, 116, 243);
+    /* background-color: rgb(122, 116, 243); */
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -99,12 +111,12 @@
   background-color: rgb(255, 115, 0);
   border-radius: 50%;
   animation: bottom-animation 1s cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
-
+  transform: translateY(-1rem);
 }
 
 @keyframes bottom-animation {
     from {
-        transform: translateY(0);
+        transform: translateY(-1.1rem);
     }
     to {
         transform: translateY(2.5rem);
