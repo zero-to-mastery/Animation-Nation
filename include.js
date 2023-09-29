@@ -2,7 +2,7 @@ let cards = [
   {
     artName: 'Twist',
     pageLink: './Art/Anna/twist.html',
-    imageLink: '',
+    imageLink: './Art/Anna/twist.gif',
     author: 'Anna',
     githubLink: 'https://github.com/anna-1980'
   },
