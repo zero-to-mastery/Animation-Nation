@@ -28,6 +28,29 @@
 .upper-row div {
   background-color: rgb(254, 222, 39);
   border-radius: 50%;
+  animation: upper-animation 1s cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
+}
+
+.upper-row div:nth-child(2){
+    animation-delay: 0.2s;
+}
+.upper-row div:nth-child(3){
+    animation-delay: 0.4s;
+}
+.upper-row div:nth-child(4){
+    animation-delay: 0.6s;
+}
+.upper-row div:nth-child(5){
+    animation-delay: 0.8s;
+}
+
+@keyframes upper-animation {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-2.5rem);
+    }
 }
 
 .middle-row{
@@ -39,6 +62,30 @@
     height: 100%;
     width: 0.5rem;
     background-color: rgb(25, 43, 243);
+    animation: middle-animation 1s cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
+ 
+}
+
+.middle-row div:nth-child(2){
+    animation-delay: 0.2s;
+}
+.middle-row div:nth-child(3){
+    animation-delay: 0.4s;
+}
+.middle-row div:nth-child(4){
+    animation-delay: 0.6s;
+}
+.middle-row div:nth-child(5){
+    animation-delay: 0.8s;
+}
+
+@keyframes middle-animation {
+    from {
+        transform: scaleY(0);
+    }
+    to {
+        transform: scaleY(1);
+    }
 }
 
 .bottom-row{
@@ -51,4 +98,28 @@
 .bottom-row div {
   background-color: rgb(255, 115, 0);
   border-radius: 50%;
+  animation: bottom-animation 1s cubic-bezier(0.50, 0.5, 0.3, 0.9) infinite alternate;
+
+}
+
+@keyframes bottom-animation {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(2.5rem);
+    }
+}
+
+.bottom-row div:nth-child(2){
+    animation-delay: 0.2s;
+}
+.bottom-row div:nth-child(3){
+    animation-delay: 0.4s;
+}
+.bottom-row div:nth-child(4){
+    animation-delay: 0.6s;
+}
+.bottom-row div:nth-child(5){
+    animation-delay: 0.8s;
 }
