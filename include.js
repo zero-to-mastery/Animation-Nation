@@ -1494,13 +1494,14 @@ let cards = [
     githubLink: 'https://github.com/Javier1019'
   },
   {
-    artName: 'Keyboard',
-    pageLink: './Art/Alexandra2888/keyboard.html',
-    imageLink: './Art/Alexandra2888/keyboard.gif',
+    artName: 'Jumping Balls',
+    pageLink: './Art/Alexandra2888/balls.html',
+    imageLink: './Art/Alexandra2888/balls.gif',
     author: 'Alexandra2888',
     githubLink: 'https://github.com/Alexandra2888'
   }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
