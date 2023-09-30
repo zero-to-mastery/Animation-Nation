@@ -5,8 +5,16 @@ let cards = [
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'Jumping Balls',
+    pageLink: './Art/Alexandra2888/balls.html',
+    imageLink: './Art/Alexandra2888/balls.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
   }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
