@@ -6,6 +6,13 @@ let cards = [
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
   }
+  {
+    artName: 'Flowers',
+    pageLink: './Art/Jeffrey/index.html',
+    imageLink: './Art/Joy/Hackflowers.png',
+    author: 'Jeffrey',
+    githubLink: 'https://github.com/Jeffruiz1502003'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
