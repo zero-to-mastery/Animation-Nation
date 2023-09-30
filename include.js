@@ -131,7 +131,7 @@ let cards = [
     pageLink: './Art/Joy/triangle.html',
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
-    githubLink: 'https://github.royrangercom/'
+    githubLink: 'https://github.com/royranger'
   },
   {
     artName: 'Rocket Orbit',
@@ -1493,6 +1493,13 @@ let cards = [
     author: 'Javier',
     githubLink: 'https://github.com/Javier1019'
   },
+  {
+    artName: 'Keyboard',
+    pageLink: './Art/Alexandra2888/keyboard.html',
+    imageLink: './Art/Alexandra2888/keyboard.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
