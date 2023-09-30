@@ -10,7 +10,7 @@ let cards = [{
     pageLink: './Art/Mayank_goel/index.html',
     imageLink: './Art/Mayank_goel/moving_flag.gif',
     author: 'Yelloberard',
-    githubLink: 'https://github.com/yellowberad'
+    githubLink: 'https://github.com/yellowberard'
   }
 ];
 
