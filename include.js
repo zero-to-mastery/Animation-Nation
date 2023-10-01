@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Square',
+    pageLink: './Art/Shubham Chaudhary/square_animation.html',
+    imageLink: './Art/Shubham Chaudhary/square_animation.gif',
+    author: 'Shubham Chaudhary',
+    githubLink: 'https://github.com/Stellar-X'
+  },
+  {
     artName: 'Triangle',
     pageLink: './Art/Joy/triangle.html',
     imageLink: './Art/Joy/triangle.gif',
