@@ -5,6 +5,13 @@ let cards = [
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'Circle',
+    pageLink: './Art/Adithya/index.html',
+    imageLink: './Art/Adithya/result.gif',
+    author: 'Adithya',
+    githubLink: 'https://github.com/Adithya-K-Shetty'
   }
 ];
 
