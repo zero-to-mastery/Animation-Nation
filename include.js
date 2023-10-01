@@ -6,13 +6,6 @@ let cards = [
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
   }
-  {
-    artName: 'Packman',
-    pageLink: './Art/packman/index.html',
-    imageLink: './Art/packman/giphy.gif',
-    author: 'Ochieng',
-    githubLink: 'https://github.com/ongoklevi'
-  }
 ];
 
 // +--------------------------------------------------------------------------------+
