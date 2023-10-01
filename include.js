@@ -8,6 +8,16 @@ let cards = [
   }
 ];
 
+let cards = [
+  {
+    artName: 'Blinking Ball',
+    pageLink: './Art/Sheefa/blinking_ball.html',
+    imageLink: './Art/Sheefa/blinking_ball.gif',
+    author: 'Sheefa',
+    githubLink: 'https://github.com/sheefanaaz123'
+  }
+];
+
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
