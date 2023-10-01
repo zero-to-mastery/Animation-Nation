@@ -6,7 +6,7 @@ let cards = [
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
   },
-    {
+  {
     artName: 'Walking Dog',
     pageLink: './Art/ChrisAqui/dog.html',
     imageLink: './Art/ChrisAqui/dog.gif',
