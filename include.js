@@ -1,11 +1,18 @@
 let cards = [
   {
+    artName: 'Car',
+    pageLink: './Art/Haneesh/car.html',
+    imageLink: './Art/Haneesh/car.gif',
+    author: 'Haneesh',
+    githubLink: 'https://github.com/Haneesh000'
+  },
+  {
     artName: 'Triangle',
     pageLink: './Art/Joy/triangle.html',
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
