@@ -5,6 +5,13 @@ let cards = [
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'Waving Ghost Animation',
+    pageLink: './Art/AnkitaM/ghost.html',
+    imageLink: './Art/AnkitaM/Waving-Ghost-Animation.gif',
+    author: 'Ankita M.',
+    githubLink: 'https://github.com/anki009/'
   }
 ];
 
