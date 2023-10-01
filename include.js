@@ -13,7 +13,17 @@ let cards = [
     imageLink: './Art/Sheefa/blinking_ball.gif',
     author: 'Sheefa',
     githubLink: 'https://github.com/sheefanaaz123'
-  }
+   }
+
+   {
+    artName: 'Quadro Hypno Spin',
+    pageLink: './Art/Sheefa/QuadroHypnoSpin.html',
+    imageLink: './Art/Sheefa/QuadroHypnoSpin.gif',
+    author: 'Sheefa',
+    githubLink: 'https://github.com/sheefanaaz123'
+   }
+
+
 
 ];
 
