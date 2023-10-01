@@ -6,17 +6,17 @@ let cards = [
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
   }
-];
 
-let cards = [
-  {
+   {
     artName: 'Blinking Ball',
     pageLink: './Art/Sheefa/blinking_ball.html',
     imageLink: './Art/Sheefa/blinking_ball.gif',
     author: 'Sheefa',
     githubLink: 'https://github.com/sheefanaaz123'
   }
+
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
