@@ -5,6 +5,13 @@ let cards = [
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'ZTM Text Animation',
+    pageLink: './Art/Chugil/index.html',
+    imageLink: './Art/Chugil/Screenshot.png',
+    author: 'Chugil',
+    githubLink: 'https://github.com/ChugilC'
   }
 ];
 
