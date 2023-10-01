@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.shape {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #3498db;
+    position: absolute;
+    animation: moveAndRotate 3s linear infinite;
+}
+
+@keyframes moveAndRotate {
+    0%, 20% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25%, 45% {
+        transform: translate(300px, 0) rotate(90deg);
+    }
+    50%, 70% {
+        transform: translate(300px, 300px) rotate(180deg);
+    }
+    75%, 95% {
+        transform: translate(0, 300px) rotate(270deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(360deg);
+    }
+}
