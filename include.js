@@ -26,6 +26,13 @@ let cards = [
     imageLink: './Art/rstallings/Animation.gif',
     author: 'Roosevelt S.',
     githubLink: 'https://github.com/rstallingsiii'
+  },
+  {
+    artName: "Mr. A's Amimation",
+    pageLink: "./Art/Mr.A'sAnimation/index.html",
+    imageLink: "./Art/Mr.A'sAnimation/Animation.gif",
+    author: 'Mr. AnkitR',
+    githubLink: 'https://github.com/MrARawal'
   }
 ];
 
