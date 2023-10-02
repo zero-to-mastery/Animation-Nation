@@ -1,0 +1,92 @@
+body {
+  min-height: 97vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container,
+.loader-container-shadow {
+  display: flex;
+  gap: 0.5rem;
+}
+.loader-container {
+  z-index: 1;
+}
+.loader-container-shadow {
+  margin-top: -5px;
+}
+
+.dot {
+  padding: 10px;
+  border-radius: 50%;
+  background-size: 1000%;
+  background-image: linear-gradient(
+    to right,
+    #f97316,
+    #b45309,
+    #fca5a5,
+    #4d7c0f,
+    #047857,
+    #eab308,
+    #3730a3,
+    #6b21a8,
+    #a3e635,
+    #9f1239
+  );
+}
+.dot-shadow {
+  background-color: lightgray;
+  width: 20px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.loader-container div:nth-child(1) {
+  animation: bounching 2s ease-in-out infinite;
+}
+.loader-container div:nth-child(2) {
+  animation: bounching 2s 0.5s ease-in-out infinite;
+}
+.loader-container div:nth-child(3) {
+  animation: bounching 2s 1s ease-in-out infinite;
+}
+
+.loader-container-shadow div:nth-child(1) {
+  animation: shadow 2s ease-in-out infinite;
+}
+
+.loader-container-shadow div:nth-child(2) {
+  animation: shadow 2s 0.5s ease-in-out infinite;
+}
+.loader-container-shadow div:nth-child(3) {
+  animation: shadow 2s 1s ease-in-out infinite;
+}
+
+@keyframes bounching {
+  0% {
+    transform: translateY(-20px);
+    background-position: 0% 100%;
+  }
+  50% {
+    transform: translateY(0px);
+    background-position: 100% 0%;
+  }
+  100% {
+    transform: translateY(-20px);
+    background-position: 0% 100%;
+  }
+}
+
+@keyframes shadow {
+  0% {
+    scale: 0;
+  }
+  50% {
+    scale: 1;
+    opacity: 0.5;
+  }
+  100% {
+    scale: 0;
+  }
+}
