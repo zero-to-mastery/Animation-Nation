@@ -131,6 +131,13 @@ let cards = [
     imageLink: './Art/Rahul-Bhati/Rahul-Bhati.gif',
     author: 'Rahul-Bhati',
     githubLink: 'https://github.com/Rahul-Bhati'
+  },
+  {
+    artName: 'Analog Clock',
+    pageLink: './Art/Jeet/index.html',
+    imageLink: './Art/Jeet/pic.png',
+    author: 'Jeet Kanodia',
+    githubLink: 'https://github.com/jeetkanodia'
   }
 ];
 
