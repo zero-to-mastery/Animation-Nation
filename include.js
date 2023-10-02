@@ -1689,6 +1689,13 @@ let cards = [
     author: 'Pratyush Dehury',
     githubLink: 'https://github.com/Pratyush-Dehury'
   },
+  {
+    artName: 'Sliding Bot',
+    pageLink: './Art/Joy/ProfoundlyParker/index.html',
+    imageLink: './Art/Joy/ProfoundlyParker/robot.gif',
+    author: 'ProfoundlyParker',
+    githubLink: 'https://github.com/ProfoundlyParker'
+  }
 ];
 
 
