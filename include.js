@@ -40,6 +40,13 @@ let cards = [
     imageLink: './Art/ChipoJ/star_fall.gif',
     author: 'ChipoJ',
     githubLink: 'https://github.com/Chipoj'
+  },
+  {
+    artName: 'Bouncing Screensaver',
+    pageLink: './Art/CDay-87/index.html',
+    imageLink: './Art/CDay87/Bounce_Animation.gif',
+    author: 'CDay-87',
+    githubLink: 'https://github.com/CDay-87'
   }
 ];
 
