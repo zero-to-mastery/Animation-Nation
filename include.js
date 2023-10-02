@@ -1,10 +1,38 @@
 let cards = [
   {
+    artName: 'Simple BAAF',
+    pageLink: './Art/baaf-Animation/index.html',
+    imageLink: './Art/baaf-Animation/baafscreen.png',
+    author: 'Farid Bass',
+    githubLink: 'https://github.com/baafbass'
+  },
+  {
     artName: 'Triangle',
     pageLink: './Art/Joy/triangle.html',
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'AnimateIbaad',
+    pageLink: './Art/Ibaad/animate.html',
+    imageLink: './Art/Ibaad/animationimagehover.gif',
+    author: 'Ibaad',
+    githubLink: 'https://github.com/ibaaddurrani'
+  },
+  {
+    artName: '4 Color Loader',
+    pageLink: './Art/rstallings/index.html',
+    imageLink: './Art/rstallings/Animation.gif',
+    author: 'Roosevelt S.',
+    githubLink: 'https://github.com/rstallingsiii'
+  },
+  {
+    artName: "Mr. A's Amimation",
+    pageLink: "./Art/Mr.A'sAnimation/index.html",
+    imageLink: "./Art/Mr.A'sAnimation/Animation.gif",
+    author: 'Mr. AnkitR',
+    githubLink: 'https://github.com/MrARawal'
   },
   {
     artName: 'LHV',
