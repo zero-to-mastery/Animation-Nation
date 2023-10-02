@@ -13,6 +13,13 @@ let cards = [
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
   }
+  {
+    artName: 'AnimateIbaad',
+    pageLink: './Art/Ibaad/animate.html',
+    imageLink: './Art/Ibaad/animationimagehover.gif',
+    author: 'Ibaad',
+    githubLink: 'https://github.com/ibaaddurrani'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
