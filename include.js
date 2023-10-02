@@ -110,6 +110,13 @@ let cards = [
     imageLink: './Art/Haneesh/car.gif',
     author: 'Haneesh',
     githubLink: 'https://github.com/Haneesh000'
+  },
+  {
+    artName: 'Sun shadow',
+    pageLink: './Art/Guruprasad-Kulkarni/index.html',
+    imageLink: './Art/Guruprasad-Kulkarni/sun.gif',
+    author: 'Guruprasad',
+    githubLink: 'https://github.com/Guruprasad846'
   }
 ];
 
