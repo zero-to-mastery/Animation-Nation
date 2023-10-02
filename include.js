@@ -138,6 +138,13 @@ let cards = [
     imageLink: './Art/Alexandra2888/fan.gif',
     author: 'Alexandra2888',
     githubLink: 'https://github.com/Alexandra2888'
+  },
+  {
+    artName: 'Coffe Cup',
+    pageLink: './Art/Alexandra2888/cup.html',
+    imageLink: './Art/Alexandra2888/cup.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
   }
 ];
 
