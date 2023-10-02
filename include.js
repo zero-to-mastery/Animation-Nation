@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'hanisntsolo',
+    pageLink: './Art/Joy/hanisntsolo.html',
+    imageLink: './Art/Joy/hanisntsolo.gif',
+    author: 'Hanisntsolo',
+    githubLink: 'https://github.com/hanisntsolo'},
+
+  {
     artName: 'Triangle',
     pageLink: './Art/Joy/triangle.html',
     imageLink: './Art/Joy/triangle.gif',
