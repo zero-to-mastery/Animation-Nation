@@ -1,0 +1,188 @@
+:root {
+  --duration: 0.9s;
+  --ball-size: 25px;
+  --stem-size: calc(var(--ball-size) / 5);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-155deg, rgb(102, 102, 102), rgb(0, 0, 0))
+    no-repeat;
+}
+.container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.animation {
+  width: 14rem;
+  height: 14rem;
+}
+.upper-row,
+.bottom-row,
+.middle-row {
+  width: 14rem;
+  height: 7rem;
+  display: flex;
+}
+
+.upper-row div,
+.bottom-row div {
+  width: var(--ball-size);
+  height: var(--ball-size);
+  z-index: 10;
+  background-color: rgb(46, 165, 194);
+}
+
+.upper-row div::after,
+.bottom-row div::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  width: 50%;
+  height: 30%;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  background: linear-gradient(
+    190deg,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.upper-row {
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.upper-row div {
+  border-radius: 50%;
+  animation: upper-animation var(--duration) cubic-bezier(0.5, 0.5, 0.3, 0.9)
+    infinite alternate;
+  transform: translateY(1rem);
+}
+
+.upper-row div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.upper-row div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.upper-row div:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.upper-row div:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.upper-row div:nth-child(6) {
+  animation-delay: 1s;
+}
+.upper-row div:nth-child(7) {
+  animation-delay: 1.2s;
+}
+
+@keyframes upper-animation {
+  from {
+    transform: translateY(1.1rem);
+  }
+  to {
+    transform: translateY(-2.5rem);
+  }
+}
+
+.middle-row {
+  /* background-color: rgb(158, 225, 75); */
+  justify-content: space-around;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.middle-row div {
+  height: 100%;
+  width: var(--stem-size);
+  transform: scaleY(0);
+  background-color: rgb(209, 206, 133);
+  animation: middle-animation var(--duration) cubic-bezier(0.5, 0.5, 0.3, 0.9)
+    infinite alternate;
+  border-radius: 50%;
+}
+
+.middle-row div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.middle-row div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.middle-row div:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.middle-row div:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.middle-row div:nth-child(6) {
+  animation-delay: 1s;
+}
+.middle-row div:nth-child(7) {
+  animation-delay: 1.2s;
+}
+
+@keyframes middle-animation {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(0.6);
+  }
+}
+
+.bottom-row {
+  /* background-color: rgb(122, 116, 243); */
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.bottom-row div {
+  border-radius: 50%;
+  animation: bottom-animation var(--duration) cubic-bezier(0.5, 0.5, 0.3, 0.9)
+    infinite alternate;
+  transform: translateY(-1rem);
+}
+
+@keyframes bottom-animation {
+  from {
+    transform: translateY(-1.1rem);
+  }
+  to {
+    transform: translateY(2.5rem);
+  }
+}
+
+.bottom-row div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.bottom-row div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.bottom-row div:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.bottom-row div:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.bottom-row div:nth-child(6) {
+  animation-delay: 1s;
+}
+.bottom-row div:nth-child(7) {
+  animation-delay: 1.2s;
+}
