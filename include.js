@@ -26,6 +26,13 @@ let cards = [
     imageLink: './Art/rstallings/Animation.gif',
     author: 'Roosevelt S.',
     githubLink: 'https://github.com/rstallingsiii'
+  },
+  {
+    artName: 'Circle inside a semicirlce',
+    pageLink: './Art/Umair/index.html',
+    imageLink: './Art/Umair/Animation.gif',
+    author: 'Shaikh Mohammed Umair',
+    githubLink: 'https://github.com/umair986'
   }
 ];
 
