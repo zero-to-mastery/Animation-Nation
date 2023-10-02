@@ -113,6 +113,13 @@ let cards = [
     githubLink: 'https://github.com/JT-Singh'
   },
   {
+    artName: 'hanisntsolo',
+    pageLink: './Art/Joy/hanisntsolo.html',
+    imageLink: './Art/Joy/hanisntsolo.gif',
+    author: 'Hanisntsolo',
+    githubLink: 'https://github.com/hanisntsolo'},
+
+  {
     artName: 'Triangle',
     pageLink: './Art/Joy/triangle.html',
     imageLink: './Art/Joy/triangle.gif',
@@ -1100,11 +1107,11 @@ let cards = [
     githubLink: 'https://github.com/Miainaus'
   },
   {
-    artName: 'Rotate Color', // change this to the name of your artwork
-    pageLink: './Art/Gibso10/index.html', // change this
-    imageLink: './Art/Gibso10/Box Color.gif', // change this
-    author: 'Gibso10', // use your name
-    githubLink: 'https://github.com/Gibso10' // change this
+    artName: 'Rotate Color',
+    pageLink: './Art/Gibso10/index.html',
+    imageLink: './Art/Gibso10/Box Color.gif',
+    author: 'Gibso10',
+    githubLink: 'https://github.com/Gibso10'
   },
   {
     artName: 'Against the Flow',
@@ -1276,11 +1283,11 @@ let cards = [
     githubLink: 'https://github.com/pabitra0011'
   },
   {
-    artName: 'Sun-loader Animation', // change this to the name of your artwork
-    pageLink: './Art/Groot-2001/index.html', // change this
-    imageLink: './Art/Groot-2001/sun-animation.gif', // change this
-    author: 'Shiva Silmawala', // use your name
-    githubLink: 'https://github.com/Groot-2001' // change this
+    artName: 'Sun-loader Animation',
+    pageLink: './Art/Groot-2001/index.html',
+    imageLink: './Art/Groot-2001/sun-animation.gif',
+    author: 'Shiva Silmawala',
+    githubLink: 'https://github.com/Groot-2001'
   },
   {
     artName: 'CUBE',
