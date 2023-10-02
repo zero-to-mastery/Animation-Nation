@@ -89,6 +89,13 @@ let cards = [
     imageLink: './Art/olga_min/animation.gif',
     author: 'Olga',
     githubLink: 'https://github.com/OlgaMinaievaWebDev'
+  },
+  {
+    artName: 'Rotating_Cube',
+    pageLink: './Art/Catoos/Cube.html',
+    imageLink: './Art/Catoos/Cube.gif',
+    author: 'Catoos',
+    githubLink: 'https://github.com/Catoos'
   }
 ];
 
