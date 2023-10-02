@@ -61,6 +61,13 @@ let cards = [
     imageLink: './Art/Animation_makrenko-dev/logog.gif',
     author: 'makrenko-dev',
     githubLink: 'https://github.com/makrenko-dev'
+  },
+  {
+    artName: 'Running Laps',
+    pageLink: './Art/runningBars/index.html',
+    imageLink: './Art/runningBars/running.gif',
+    author: 'Daniel',
+    githubLink: 'https://github.com/dsauce817'
   }
 ];
 
