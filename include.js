@@ -133,6 +133,27 @@ let cards = [
     githubLink: 'https://github.com/Rahul-Bhati'
   },
   {
+    artName: 'Animated Fan',
+    pageLink: './Art/Alexandra2888/fan.html',
+    imageLink: './Art/Alexandra2888/fan.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
+  },
+  {
+    artName: 'Coffe Cup',
+    pageLink: './Art/Alexandra2888/cup.html',
+    imageLink: './Art/Alexandra2888/cup.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
+  },
+  {
+    artName: 'BouncingBall',
+    pageLink: './Art/Venkateeshh/BouncingBall.html',
+    imageLink: './Art/Venkateeshh/BounceBall.gif',
+    author: 'Venkatesh',
+    githubLink: 'https://github.com/Venkateeshh'
+  },
+  {
     artName: 'Analog Clock',
     pageLink: './Art/Jeet/index.html',
     imageLink: './Art/Jeet/pic.png',
