@@ -5,6 +5,13 @@ let cards = [
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'Infinite Hacktober Shapes',
+    pageLink: '.Art/Joy/Joe_DiGioia/JoeArt.html',
+    imageLink: '.Art/Joy/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
+    author: 'Joe DiGioia',
+    githubLink: 'https://github.com/WatchAce0'
   }
 ];
 
