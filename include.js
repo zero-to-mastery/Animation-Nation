@@ -6,6 +6,13 @@ let cards = [
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
   }
+  {
+    artName: 'AnimateIbaad',
+    pageLink: './Art/Ibaad/animate.html',
+    imageLink: './Art/Ibaad/animationimagehover.gif',
+    author: 'Ibaad',
+    githubLink: 'https://github.com/ibaaddurrani'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
