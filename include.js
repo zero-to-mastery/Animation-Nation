@@ -12,6 +12,13 @@ let cards = [
     imageLink: './Art/Ibaad/animationimagehover.gif',
     author: 'Ibaad',
     githubLink: 'https://github.com/ibaaddurrani'
+  },
+  {
+    artName: 'RGB Square',
+    pageLink: './Art/TCrypt/animated.html',
+    imageLink: './Art/TCrypt/rgbsq-animated.gif',
+    author: 'T-Crypt',
+    githubLink: 'https://github.com/T-Crypt'
   }
 ];
 
