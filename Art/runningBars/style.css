@@ -10,12 +10,12 @@ div#two {
   width: 50%;
   background: #ff06b8;
   transition: slidein;
-  animation: slidein .3s linear 1s infinite alternate;
+  animation: slidein 0.3s linear 1s infinite alternate;
 }
 
-div#one:active div#two{
+div#one:active div#two {
   background: green;
-  transform: translateX(100%)
+  transform: translateX(100%);
 }
 
 @keyframes slidein {
