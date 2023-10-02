@@ -12,6 +12,13 @@ let cards = [
     imageLink: './Art/Ibaad/animationimagehover.gif',
     author: 'Ibaad',
     githubLink: 'https://github.com/ibaaddurrani'
+  },
+  {
+    artName: 'Seven Segment Display',
+    pageLink: './Art/Ankesh/segment-display.html',
+    imageLink: './Art/Ankesh/segment-display.gif',
+    author: 'Ankesh',
+    githubLink: 'https://github.com/ankeshp03'
   }
 ];
 
