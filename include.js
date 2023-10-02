@@ -12,6 +12,13 @@ let cards = [
     imageLink: './Art/Ibaad/animationimagehover.gif',
     author: 'Ibaad',
     githubLink: 'https://github.com/ibaaddurrani'
+  },
+  {
+    artName: 'Animated-Panda',
+    pageLink: './Art/Naina/index.html',
+    imageLink: './Art/Naina/Panda.gif',
+    author: 'Naina',
+    githubLink: 'https://github.com/naina5602'
   }
 ];
 
