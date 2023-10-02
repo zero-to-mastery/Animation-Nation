@@ -7,18 +7,18 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
-    artName: 'Weird Spinner',
-    pageLink: './Art/lucifer/weirdSpinner.html',
-    imageLink: './Art/lucifer/weirdSpinner.png',
-    author: 'lucifer510',
-    githubLink: 'https://github.com/lucifer510'
-  },
-  {
     artName: 'AnimateIbaad',
     pageLink: './Art/Ibaad/animate.html',
     imageLink: './Art/Ibaad/animationimagehover.gif',
     author: 'Ibaad',
     githubLink: 'https://github.com/ibaaddurrani'
+  },
+  {
+    artName: 'Weird Spinner',
+    pageLink: './Art/lucifer/weirdSpinner.html',
+    imageLink: './Art/lucifer/weirdSpinner.png',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
   }
 ];
 
