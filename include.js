@@ -5,7 +5,7 @@ let cards = [
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
-  }
+  },
   {
     artName: 'AnimateIbaad',
     pageLink: './Art/Ibaad/animate.html',
