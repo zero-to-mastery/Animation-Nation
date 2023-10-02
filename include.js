@@ -1,5 +1,19 @@
 let cards = [
   {
+    artName: 'Sliding Bot',
+    pageLink: './Art/Joy/ProfoundlyParker/index.html',
+    imageLink: './Art/Joy/ProfoundlyParker/robot.gif',
+    author: 'ProfoundlyParker',
+    githubLink: 'https://github.com/profoundlyparker'
+  },
+  {
+    artName: 'Simple BAAF',
+    pageLink: './Art/baaf-Animation/index.html',
+    imageLink: './Art/baaf-Animation/baafscreen.png',
+    author: 'Farid Bass',
+    githubLink: 'https://github.com/baafbass'
+  },
+  {
     artName: 'Triangle',
     pageLink: './Art/Joy/triangle.html',
     imageLink: './Art/Joy/triangle.gif',
@@ -7,11 +21,81 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
-    artName: 'Sliding Bot',
-    pageLink: './Art/Joy/ProfoundlyParker/index.html',
-    imageLink: './Art/Joy/ProfoundlyParker/robot.gif',
-    author: 'ProfoundlyParker',
-    githubLink: 'https://github.com/ProfoundlyParker'
+    artName: 'AnimateIbaad',
+    pageLink: './Art/Ibaad/animate.html',
+    imageLink: './Art/Ibaad/animationimagehover.gif',
+    author: 'Ibaad',
+    githubLink: 'https://github.com/ibaaddurrani'
+  },
+  {
+    artName: '4 Color Loader',
+    pageLink: './Art/rstallings/index.html',
+    imageLink: './Art/rstallings/Animation.gif',
+    author: 'Roosevelt S.',
+    githubLink: 'https://github.com/rstallingsiii'
+  },
+  {
+    artName: "Mr. A's Amimation",
+    pageLink: "./Art/Mr.A'sAnimation/index.html",
+    imageLink: "./Art/Mr.A'sAnimation/Animation.gif",
+    author: 'Mr. AnkitR',
+    githubLink: 'https://github.com/MrARawal'
+  },
+  {
+    artName: 'Falling stars',
+    pageLink: './Art/ChipoJ/index.html',
+    imageLink: './Art/ChipoJ/star_fall.gif',
+    author: 'ChipoJ',
+    githubLink: 'https://github.com/Chipoj'
+  },
+  {
+    artName: 'Bouncing Screensaver',
+    pageLink: './Art/CDay-87/index.html',
+    imageLink: './Art/CDay87/Bounce_Animation.gif',
+    author: 'CDay-87',
+    githubLink: 'https://github.com/CDay-87'
+  },
+  {
+    artName: 'Loader',
+    pageLink: './Art/Animation_makrenko-dev/index.html',
+    imageLink: './Art/Animation_makrenko-dev/logog.gif',
+    author: 'makrenko-dev',
+    githubLink: 'https://github.com/makrenko-dev'
+  },
+  {
+    artName: 'Running Laps',
+    pageLink: './Art/runningBars/index.html',
+    imageLink: './Art/runningBars/running.gif',
+    author: 'Daniel',
+    githubLink: 'https://github.com/dsauce817'
+  },
+  {
+    artName: 'Simple Mexican Flag',
+    pageLink: './Art/index.html',
+    imageLink: './Art/novak.gif',
+    author: 'Jnovak5',
+    githubLink: 'https://github.com/jnovak5'
+  },
+  {
+    artName: 'Twist',
+    pageLink: './Art/Anna/twist.html',
+    imageLink: '',
+    author: 'Anna',
+    githubLink: 'https://github.com/anna-1980'
+  },
+  {
+    artName: 'Shaking box',
+    pageLink: './Art/alexsatalan/index.html',
+    imageLink: './Art/alexsatalan/shaking.gif',
+    author: 'AlexS',
+    githubLink: 'https://github.com/alexsatalan'
+  },
+  {
+    artName: 'olga_min',
+    pageLink: './Art/olga_min/index.html',
+    imageLink: './Art/olga_min/animation.gif',
+    author: 'Olga',
+    githubLink: 'https://github.com/OlgaMinaievaWebDev'
   }
 ];
 
