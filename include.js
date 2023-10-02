@@ -82,6 +82,13 @@ let cards = [
     imageLink: './Art/alexsatalan/shaking.gif',
     author: 'AlexS',
     githubLink: 'https://github.com/alexsatalan'
+  },
+  {
+    artName: 'olga_min',
+    pageLink: './Art/olga_min/index.html',
+    imageLink: './Art/olga_min/animation.gif',
+    author: 'Olga',
+    githubLink: 'https://github.com/OlgaMinaievaWebDev'
   }
 ];
 
