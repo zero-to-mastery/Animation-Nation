@@ -75,6 +75,13 @@ let cards = [
     imageLink: '',
     author: 'Anna',
     githubLink: 'https://github.com/anna-1980'
+  },
+  {
+    artName: 'Shaking box',
+    pageLink: './Art/alexsatalan/index.html',
+    imageLink: './Art/alexsatalan/shaking.gif',
+    author: 'AlexS',
+    githubLink: 'https://github.com/alexsatalan'
   }
 ];
 
