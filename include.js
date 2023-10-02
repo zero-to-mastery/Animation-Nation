@@ -113,10 +113,17 @@ let cards = [
   },
   {
     artName: 'Sun shadow',
-    pageLink: './Art/Guruprasad-Kulkarni/index.html',
-    imageLink: './Art/Guruprasad-Kulkarni/sun.gif',
+    pageLink: './Art/Guruprasad Kulkarni/index.html',
+    imageLink: './Art/Guruprasad Kulkarni/sun.gif',
     author: 'Guruprasad',
     githubLink: 'https://github.com/Guruprasad846'
+  },
+  {
+    artName: 'Circle',
+    pageLink: './Art/Adithya/index.html',
+    imageLink: './Art/Adithya/result.gif',
+    author: 'Adithya',
+    githubLink: 'https://github.com/Adithya-K-Shetty'
   }
 ];
 
