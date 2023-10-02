@@ -5,6 +5,13 @@ let cards = [
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'Falling Squares',
+    pageLink: './Art/migueldalberto/index.html',
+    imageLink: './Art/migueldalberto/screenshot.png',
+    author: 'migueldalberto',
+    githubLink: 'https://github.com/migueldalberto'
   }
 ];
 
