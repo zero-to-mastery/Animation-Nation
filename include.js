@@ -124,6 +124,13 @@ let cards = [
     imageLink: './Art/Adithya/result.gif',
     author: 'Adithya',
     githubLink: 'https://github.com/Adithya-K-Shetty'
+  },
+  {
+    artName: 'Cart Hover',
+    pageLink: './Art/Rahul-Bhati/index.html',
+    imageLink: './Art/Rahul-Bhati/Rahul-Bhati.gif',
+    author: 'Rahul-Bhati',
+    githubLink: 'https://github.com/Rahul-Bhati'
   }
 ];
 
