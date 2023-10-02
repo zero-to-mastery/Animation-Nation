@@ -1,10 +1,10 @@
 let cards = [
   {
-    artName: 'Triangle',
-    pageLink: './Art/Joy/triangle.html',
-    imageLink: './Art/Joy/triangle.gif',
-    author: 'Joy',
-    githubLink: 'https://github.com/royranger'
+    artName: 'Rotating Cube',
+    pageLink: './Art/Joy/Rishi/cube.html',
+    imageLink: './Art/Joy/Rishi/cube.gif',
+    author: 'Rishi',
+    githubLink: 'https://github.com/rishi17003'
   }
 ];
 
