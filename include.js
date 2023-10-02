@@ -47,6 +47,13 @@ let cards = [
     imageLink: './Art/CDay87/Bounce_Animation.gif',
     author: 'CDay-87',
     githubLink: 'https://github.com/CDay-87'
+  },
+  {
+    artName: 'Loader',
+    pageLink: './Art/Animation_makrenko-dev/index.html',
+    imageLink: './Art/Animation_makrenko-dev/logog.gif',
+    author: 'makrenko-dev',
+    githubLink: 'https://github.com/makrenko-dev'
   }
 ];
 
