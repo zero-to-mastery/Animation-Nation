@@ -96,6 +96,13 @@ let cards = [
     imageLink: './Art/Mayank_goel/moving_flag.gif',
     author: 'Yelloberard',
     githubLink: 'https://github.com/yellowberad'
+  },
+  {
+    artName: 'Flowers',
+    pageLink: './Art/Jeffrey/index.html',
+    imageLink: './Art/Jeffrey/Hackflowers.png',
+    author: 'Jeffrey',
+    githubLink: 'https://github.com/Jeffruiz1502003'
   }
 ];
 
