@@ -89,6 +89,13 @@ let cards = [
     imageLink: './Art/olga_min/animation.gif',
     author: 'Olga',
     githubLink: 'https://github.com/OlgaMinaievaWebDev'
+  },
+  {
+    artName: 'Moving Flag',
+    pageLink: './Art/Mayank_goel/index.html',
+    imageLink: './Art/Mayank_goel/moving_flag.gif',
+    author: 'Yelloberard',
+    githubLink: 'https://github.com/yellowberad'
   }
 ];
 
