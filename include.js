@@ -9,10 +9,10 @@ let cards = [
   {
     artName: 'Weird Spinner',
     pageLink: './Art/lucifer/weirdSpinner.html',
-    imageLink: './Art/lucifer/weirdSpinner.gif',
+    imageLink: './Art/lucifer/weirdSpinner.png',
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
-  }
+  },
   {
     artName: 'AnimateIbaad',
     pageLink: './Art/Ibaad/animate.html',
