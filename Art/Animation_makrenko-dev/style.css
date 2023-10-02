@@ -1,8 +1,8 @@
 body {
-  background-color: #94E5FF;
+  background-color: #94e5ff;
   margin: 20px;
 }
-.loader-container{
+.loader-container {
   position: relative;
   width: 400px;
   height: 400px;
@@ -11,7 +11,7 @@ body {
   border: 1px solid #000000;
   vertical-align: middle;
 }
-.loader-3{
+.loader-3 {
   width: 300px;
   height: 300px;
   position: absolute;
@@ -20,7 +20,6 @@ body {
   right: 0;
   margin: 0 auto 0;
   text-align: center;
-
 }
 .loader-3 div {
   background-color: #ffffff;
@@ -32,7 +31,6 @@ body {
   animation: loader-3 1.2s infinite ease-in-out;
 }
 
-
 @keyframes loader-3 {
   0%,
   40%,
@@ -41,8 +39,8 @@ body {
     -webkit-transform: scaleY(0.5);
   }
   20% {
-    transform: scaleY(1.0);
-    -webkit-transform: scaleY(1.0);
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
   }
 }
 
