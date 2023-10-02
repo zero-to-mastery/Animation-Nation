@@ -68,6 +68,13 @@ let cards = [
     imageLink: './Art/novak.gif',
     author: 'Jnovak5',
     githubLink: 'https://github.com/jnovak5'
+  },
+  {
+    artName: 'Twist',
+    pageLink: './Art/Anna/twist.html',
+    imageLink: '',
+    author: 'Anna',
+    githubLink: 'https://github.com/anna-1980'
   }
 ];
 
