@@ -33,6 +33,13 @@ let cards = [
     imageLink: "./Art/Mr.A'sAnimation/Animation.gif",
     author: 'Mr. AnkitR',
     githubLink: 'https://github.com/MrARawal'
+  },
+  {
+    artName: 'Falling stars',
+    pageLink: './Art/ChipoJ/index.html',
+    imageLink: './Art/ChipoJ/star_fall.gif',
+    author: 'ChipoJ',
+    githubLink: 'https://github.com/Chipoj'
   }
 ];
 
