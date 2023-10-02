@@ -61,6 +61,13 @@ let cards = [
     imageLink: './Art/runningBars/running.gif',
     author: 'Daniel',
     githubLink: 'https://github.com/dsauce817'
+  },
+  {
+    artName: 'Simple Mexican Flag',
+    pageLink: './Art/index.html',
+    imageLink: './Art/novak.gif',
+    author: 'Jnovak5',
+    githubLink: 'https://github.com/jnovak5'
   }
 ];
 
