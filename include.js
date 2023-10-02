@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Simple BAAF',
+    pageLink: './Art/baaf-Animation/index.html',
+    imageLink: './Art/baaf-Animation/baafscreen.png',
+    author: 'Farid Bass',
+    githubLink: 'https://github.com/baafbass'
+  },
+  {
     artName: 'Triangle',
     pageLink: './Art/Joy/triangle.html',
     imageLink: './Art/Joy/triangle.gif',
