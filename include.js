@@ -6185,7 +6185,7 @@ let cards = [
     pageLink: './Art/Ibaad/animate.html',
     imageLink: './Art/Ibaad/animationimagehover.gif',
     author: 'Ibaad',
-    githubLink: 'https://github.com/ibaaddurrani
+    githubLink: 'https://github.com/ibaaddurrani'
   }
 ];
 
