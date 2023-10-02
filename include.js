@@ -100,9 +100,16 @@ let cards = [
   {
     artName: 'Flowers',
     pageLink: './Art/Jeffrey/index.html',
-    imageLink: './Art/Jeffrey/Hackflowers.png',
+    imageLink: './Art/Joy/Hackflowers.png',
     author: 'Jeffrey',
     githubLink: 'https://github.com/Jeffruiz1502003'
+  },
+  {
+    artName: 'Car',
+    pageLink: './Art/Haneesh/car.html',
+    imageLink: './Art/Haneesh/car.gif',
+    author: 'Haneesh',
+    githubLink: 'https://github.com/Haneesh000'
   }
 ];
 
