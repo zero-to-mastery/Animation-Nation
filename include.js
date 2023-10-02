@@ -131,6 +131,13 @@ let cards = [
     imageLink: './Art/Rahul-Bhati/Rahul-Bhati.gif',
     author: 'Rahul-Bhati',
     githubLink: 'https://github.com/Rahul-Bhati'
+  },
+  {
+    artName: 'Animated Fan',
+    pageLink: './Art/Alexandra2888/fan.html',
+    imageLink: './Art/Alexandra2888/fan.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
   }
 ];
 
