@@ -5,7 +5,8 @@ button {
 
 /* Keyframes */
 @keyframes wiggle {
-  0%, 7% {
+  0%,
+  7% {
     transform: rotateZ(10deg);
   }
   15% {
@@ -23,7 +24,8 @@ button {
   35% {
     transform: rotateZ(-4deg);
   }
-  80%, 100% {
+  80%,
+  100% {
     transform: rotateZ(0deg);
   }
 }
@@ -36,10 +38,10 @@ button {
   position: absolute;
   left: calc(50% - 3em);
   top: calc(50% - 2em);
-  
+
   height: 4em;
   width: 7em;
-  
+
   background: #3ea47a;
   background: linear-gradient(top, #4c2626, #996b6b);
   border: none;
@@ -50,4 +52,3 @@ button {
   font-size: 1em;
   transform-origin: 50% 5em;
 }
-
