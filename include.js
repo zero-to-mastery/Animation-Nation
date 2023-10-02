@@ -40,6 +40,12 @@ let cards = [
     imageLink: './Art/wizozheir/lhv.gif',
     author: 'wizozheir',
     githubLink: 'https://github.com/wizozheir'
+  },
+    artName: 'Falling stars',
+    pageLink: './Art/ChipoJ/index.html',
+    imageLink: './Art/ChipoJ/star_fall.gif',
+    author: 'ChipoJ',
+    githubLink: 'https://github.com/Chipoj'
   }
 ];
 
