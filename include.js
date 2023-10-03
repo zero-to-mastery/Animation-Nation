@@ -432,6 +432,13 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
+  },
+  {
+    artName: 'Bounceballs', // change this to the name of your artwork
+    pageLink: './Art/Titilayo/index.html', // change this
+    imageLink: './Art/Titilayo/bounceballs.png', // change this
+    author: 'Titilayo', // use your name
+    githubLink: 'https://github.com/Teetee-lab' // change this
   }
 ];
 
