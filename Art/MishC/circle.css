@@ -34,10 +34,11 @@
   }
 }
 @keyframes radialMovement1 {
-  0%, 100% {
+  0%,
+  100% {
     transform: rotate(270deg);
   }
-  
+
   10% {
     transform: rotate(calc(234deg));
   }
@@ -70,7 +71,8 @@
   }
 }
 @keyframes radialMovement2 {
-  0%, 100% {
+  0%,
+  100% {
     transform: rotate(90deg);
   }
   /* Calculate the rotation angle dynamically based on the percentage */
