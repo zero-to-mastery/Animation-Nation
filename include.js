@@ -315,6 +315,13 @@ let cards = [
     githubLink: 'https://github.com/SimardeepSingh-zsh'
   },
   {
+    artName: 'Galaxy',
+    pageLink: './Art/Aldair/galaxy.html',
+    imageLink: './Art/Aldair/Record.gif',
+    author: 'Aldair Huamani',
+    githubLink: 'https://github.com/Baku452'
+  },
+  {
     artName: 'Weird Spinner',
     pageLink: './Art/lucifer510/weirdSpinner.html',
     imageLink: './Art/lucifer510/weirdSpinner.png',
