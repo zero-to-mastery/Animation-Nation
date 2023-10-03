@@ -397,6 +397,13 @@ let cards = [
     imageLink: './Art/dmdiamond79/spinning.gif',
     author: 'dmdiamond79',
     githubLink: 'https://github.com/dmdiamond79'
+  },
+  {
+    artName: 'Animating Rings',
+    pageLink: './Art/AmanRawat/index.html',
+    imageLink: './Art/AmanRawat/rings.gif',
+    author: 'amanr-dev',
+    githubLink: 'https://github.com/'
   }
 ];
 
