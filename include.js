@@ -78,6 +78,7 @@ let cards = [
     githubLink: 'https://github.com/smokeraven667'
   },
   {
+
     artName: 'hanisntsolo',
     pageLink: './Art/hanisntsolo/hanisntsolo.html',
     imageLink: './Art/hanisntsolo/hanisntsolo.gif',
