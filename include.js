@@ -56,6 +56,13 @@ let cards = [
     githubLink: 'https://github.com/ibaaddurrani'
   },
   {
+    artName: 'Seven Segment Display',
+    pageLink: './Art/Ankesh/segment-display.html',
+    imageLink: './Art/Ankesh/segment-display.gif',
+    author: 'Ankesh',
+    githubLink: 'https://github.com/ankeshp03'
+  },
+  {
     artName: '4 Color Loader',
     pageLink: './Art/rstallings/index.html',
     imageLink: './Art/rstallings/Animation.gif',
