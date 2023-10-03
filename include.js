@@ -174,7 +174,7 @@ let cards = [
     author: 'Catoos',
     githubLink: 'https://github.com/Catoos'
   },
-    {
+  {
     artName: 'Moving Flag',
     pageLink: './Art/Mayank_goel/index.html',
     imageLink: './Art/Mayank_goel/moving_flag.gif',
@@ -244,7 +244,7 @@ let cards = [
     author: 'Jeet Kanodia',
     githubLink: 'https://github.com/jeetkanodia'
   },
-    {
+  {
     artName: 'Flower',
     pageLink: './Art/ChrRepou/flower.html',
     imageLink: './Art/ChrRepou/flower.png',
