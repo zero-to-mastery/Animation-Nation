@@ -29,8 +29,8 @@ let cards = [
   },
   {
     artName: 'Infinite Hacktober Shapes',
-    pageLink: '.Art/Joy/Joe_DiGioia/JoeArt.html',
-    imageLink: '.Art/Joy/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
+    pageLink: '.Art/Joe_DiGioia/JoeArt.html',
+    imageLink: '.Art/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
     author: 'Joe DiGioia',
     githubLink: 'https://github.com/WatchAce0'
   },
@@ -93,7 +93,7 @@ let cards = [
   {
     artName: 'Bouncing Screensaver',
     pageLink: './Art/CDay-87/index.html',
-    imageLink: './Art/CDay87/Bounce_Animation.gif',
+    imageLink: './Art/CDay-87/Bounce_Animation.gif',
     author: 'CDay-87',
     githubLink: 'https://github.com/CDay-87'
   },
@@ -121,7 +121,7 @@ let cards = [
   {
     artName: 'Twist',
     pageLink: './Art/Anna/twist.html',
-    imageLink: '',
+    imageLink: './Art/Anna/twist.gif',
     author: 'Anna',
     githubLink: 'https://github.com/anna-1980'
   },
@@ -198,7 +198,7 @@ let cards = [
   {
     artName: 'Flower',
     pageLink: './Art/ChrRepou/flower.html',
-    imageLink: './Art/ChrRepou/flower.css',
+    imageLink: './Art/ChrRepou/flower.png',
     author: 'ChrRepou',
     githubLink: 'https://github.com/ChrRepou'
   },
@@ -267,8 +267,8 @@ let cards = [
   },
   {
     artName: 'Weird Spinner',
-    pageLink: './Art/lucifer/weirdSpinner.html',
-    imageLink: './Art/lucifer/weirdSpinner.png',
+    pageLink: './Art/lucifer510/weirdSpinner.html',
+    imageLink: './Art/lucifer510/weirdSpinner.png',
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
   }
