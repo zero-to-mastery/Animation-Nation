@@ -152,6 +152,13 @@ let cards = [
     imageLink: './Art/Venkateeshh/BounceBall.gif',
     author: 'Venkatesh',
     githubLink: 'https://github.com/Venkateeshh'
+  },
+  {
+    artName: 'Flower',
+    pageLink: './Art/ChrRepou/flower.html',
+    imageLink: './Art/ChrRepou/flower.gif',
+    author: 'ChrRepou',
+    githubLink: 'https://github.com/ChrRepou'
   }
 ];
 
