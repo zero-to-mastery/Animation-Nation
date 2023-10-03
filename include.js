@@ -40,6 +40,13 @@ let cards = [
     imageLink: './Art/ChipoJ/star_fall.gif',
     author: 'ChipoJ',
     githubLink: 'https://github.com/Chipoj'
+  },
+  {
+    artName: 'Heartbeat',
+    pageLink: './Art/Karol/index.html',
+    imageLink: './Art/Karol/animation.gif',
+    author: 'Karol',
+    githubLink: 'https://github.com/karolwjck'
   }
 ];
 
