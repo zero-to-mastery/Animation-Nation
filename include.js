@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
+    artName: 'Rocket',
+    pageLink: './Art/Suryansh/rocket.html',
+    imageLink: './Art/Suryansh/rocket.gif',
+    author: 'Suryansh',
+    githubLink: 'https://github.com/suryanshsingh2001'
+  },
+  {
     artName: 'AnimateIbaad',
     pageLink: './Art/Ibaad/animate.html',
     imageLink: './Art/Ibaad/animationimagehover.gif',
