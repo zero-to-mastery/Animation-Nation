@@ -175,6 +175,13 @@ let cards = [
     githubLink: 'https://github.com/Chipoj'
   },
   {
+    artName: 'Heartbeat',
+    pageLink: './Art/Karol/index.html',
+    imageLink: './Art/Karol/animation.gif',
+    author: 'Karol',
+    githubLink: 'https://github.com/karolwjck'
+  },
+  {
     artName: 'Bouncing Screensaver',
     pageLink: './Art/CDay-87/index.html',
     imageLink: './Art/CDay-87/Bounce_Animation.gif',
