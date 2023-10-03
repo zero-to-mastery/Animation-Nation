@@ -125,7 +125,7 @@ let cards = [
     pageLink: './Art/Joy/triangle.html',
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
-    githubLink: 'https://github.com/royranger'
+    githubLink: 'https://github.royrangercom/'
   },
   {
     artName: 'Rocket Orbit',

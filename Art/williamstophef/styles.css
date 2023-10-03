@@ -14,24 +14,20 @@ body {
   position: absolute;
   top: 50vh;
   left: 50vw;
-  /* Centers the container */
-  transform: translate(-50%, -50%);
   /* This helps to achieve a natural look to the cube */
+  transform: translate(-50%, -50%);
   perspective: 1000px;
 }
 .box {
   height: 250px;
   width: 250px;
   position: absolute;
-  /* top margin */
   top: 100px;
-  /* left margin */
   left: 100px;
   transform: rotate(0deg);
   transform-style: preserve-3d;
   /* transform: rotateY(90deg); */
-  /* calls the animate keyframes with a 10sec loop and infinite looping */
-  animation: animate 10s infinite;
+  animation: animate 12s infinite;
 }
 @keyframes animate {
   0% {
@@ -58,17 +54,13 @@ body {
   text-align: center;
   padding: 100px 0px;
   color: white;
-  /* Fades the colors from top to bottom to match ZTM color scheme */
-  background: linear-gradient(to bottom, rgb(82, 187, 82), rgb(190, 57, 57));
-  /* background: linear-gradient(to bottom, black, rgb(119, 119, 119)); */
+  background: black;
   border: 2px solid white;
   font-size: 32px;
   box-sizing: border-box;
   position: absolute;
-  /* Needed to rotate cards 360 degrees at lift off and on return */
   transition: all 1s;
 }
-/* The translate functions with either x, y, or z are needed to create the cube shape */
 #front {
   transform: translateZ(125px);
 }
