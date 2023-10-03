@@ -29,8 +29,8 @@ let cards = [
   },
   {
     artName: 'Infinite Hacktober Shapes',
-    pageLink: '.Art/Joe_DiGioia/JoeArt.html',
-    imageLink: '.Art/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
+    pageLink: './Art/Joe_DiGioia/JoeArt.html',
+    imageLink: './Art/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
     author: 'Joe DiGioia',
     githubLink: 'https://github.com/WatchAce0'
   },
@@ -184,7 +184,7 @@ let cards = [
   {
     artName: 'Flowers',
     pageLink: './Art/Jeffrey/index.html',
-    imageLink: './Art/Joy/Hackflowers.png',
+    imageLink: './Art/Jeffrey/Hackflowers.png',
     author: 'Jeffrey',
     githubLink: 'https://github.com/Jeffruiz1502003'
   },
@@ -219,7 +219,7 @@ let cards = [
   {
     artName: 'Animated Fan',
     pageLink: './Art/Alexandra2888/fan.html',
-    imageLink: './Art/Alexandra2888/fan.gif',
+    imageLink: './Art/Alexandra2888/fan.png',
     author: 'Alexandra2888',
     githubLink: 'https://github.com/Alexandra2888'
   },
@@ -324,7 +324,7 @@ let cards = [
   {
     artName: 'Galaxy',
     pageLink: './Art/Aldair/galaxy.html',
-    imageLink: './Art/Aldair/Record.gif',
+    imageLink: './Art/Aldair/galaxy.gif',
     author: 'Aldair Huamani',
     githubLink: 'https://github.com/Baku452'
   },
