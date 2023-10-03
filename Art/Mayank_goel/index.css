@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f07d;
+}
+
+.moving_flag {
+  width: 450px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  animation: wave 2s infinite linear;
+}
+
+.orange,
+.white,
+.green {
+  width: 33.33%;
+  height: 100%;
+  float: left;
+}
+
+.orange {
+  background-color: #ff9933;
+}
+
+.white {
+  background-color: white;
+}
+
+.green {
+  background-color: #138808;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-30%);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+
+  75% {
+    transform: translateX(30%);
+  }
+}
