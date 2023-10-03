@@ -1,0 +1,27 @@
+.body{
+  background-color: orange;
+  
+}
+
+.animated-div {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 100px;
+  background-color: #3498db;
+  position: relative;
+  animation: moveRight 2s ease-in-out infinite;
+}
+
+@keyframes moveRight {
+  0% {
+      left: 0;
+  }
+  50% {
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  100% {
+      left: 100%;
+      transform: translateX(-100%);
+  }
+}

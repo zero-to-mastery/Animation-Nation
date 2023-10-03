@@ -397,6 +397,13 @@ let cards = [
     imageLink: './Art/dmdiamond79/spinning.gif',
     author: 'dmdiamond79',
     githubLink: 'https://github.com/dmdiamond79'
+  },
+  {
+    artName: 'moving box',
+    pageLink: './Art/Esinnation/index.html',
+    imageLink: './Art/dmdiamond79/animation.gif',
+    author: 'Esinnation',
+    githubLink: 'https://github.com/Esinnation'
   }
 ];
 
