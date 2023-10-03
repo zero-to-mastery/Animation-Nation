@@ -21,6 +21,13 @@ let cards = [
     githubLink: 'https://github.com/baafbass'
   },
   {
+    artName: 'Animated-Biker',
+    pageLink: './Art/JT-Singh/index.html',
+    imageLink: './Art/JT-Singh/biker.gif',
+    author: 'JT Singh',
+    githubLink: 'https://github.com/JT-Singh'
+  },
+  {
     artName: 'Triangle',
     pageLink: './Art/Joy/triangle.html',
     imageLink: './Art/Joy/triangle.gif',
