@@ -7,7 +7,7 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
-    artName: 'Tik Tac Yo!',
+    artName: 'Tic Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
     author: 'Joy',
