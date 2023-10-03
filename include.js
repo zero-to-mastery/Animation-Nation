@@ -403,6 +403,13 @@ let cards = [
     imageLink: './Art/dmdiamond79/spinning.gif',
     author: 'dmdiamond79',
     githubLink: 'https://github.com/dmdiamond79'
+  },
+  {
+    artName: 'Heaart',
+    pageLink: './Art/Neha045/index.html', 
+    imageLink: './Art/Neha045/animation.gif',
+    author: 'Neha045',
+    githubLink: 'https://github.com/Neha045'
   }
 ];
 
