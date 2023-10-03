@@ -390,6 +390,13 @@ let cards = [
     imageLink: './Art/dmdiamond79/spinning.gif',
     author: 'dmdiamond79',
     githubLink: 'https://github.com/dmdiamond79'
+  },
+  {
+    artName: 'Bhaskar Sahu',
+    pageLink: './Art/Bhaskarsahu23',
+    imageLink: './Art/Bhaskarsahu23/imageflip.gif',
+    author: 'Bhaskarsahu23',
+    githubLink: 'https://github.com/Bhaskarsahu23'
   }
 ];
 
