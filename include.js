@@ -42,13 +42,6 @@ let cards = [
     githubLink: 'https://github.com/rishi17003'
   },
   {
-    artName: 'Tic Tac Yo!',
-    pageLink: './Art/smokeraven667/smokeraven.html',
-    imageLink: './Art/smokeraven667/tic-tac-yo.gif',
-    author: 'Joy',
-    githubLink: 'https://github.com/smokeraven667'
-  },
-  {
     artName: 'Gradient Loader',
     pageLink: './Art/Kartikey Mishra/index.html',
     imageLink: './Art/Kartikey Mishra/GradientLoader.gif',
@@ -79,6 +72,13 @@ let cards = [
   },
   {
 
+    artName: 'Astro Acrobat',
+    pageLink: './Art/DarrachBarneveld/index.html',
+    imageLink: './Art/DarrachBarneveld/rocket.gif',
+    author: 'Darrach Barneveld',
+    githubLink: 'https://github.com/DarrachBarneveld'
+  },
+  {
     artName: 'hanisntsolo',
     pageLink: './Art/hanisntsolo/hanisntsolo.html',
     imageLink: './Art/hanisntsolo/hanisntsolo.gif',
