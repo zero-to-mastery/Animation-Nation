@@ -166,6 +166,13 @@ let cards = [
     imageLink: './Art/KrishayNair/circle.gif',
     author: 'KrishayNair',
     githubLink: 'https://github.com/KrishayNair'
+  },
+  {
+    artName: 'Waving Ghost Animation',
+    pageLink: './Art/AnkitaM/ghost.html',
+    imageLink: './Art/AnkitaM/Waving-Ghost-Animation.gif',
+    author: 'Ankita M.',
+    githubLink: 'https://github.com/anki009/'
   }
 ];
 
