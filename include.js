@@ -1410,6 +1410,13 @@ let cards = [
     imageLink: './Art/Sai/ani1.gif',
     author: 'Sai',
     githubLink: 'https://github.com/SaiAryan1784'
+  },
+  {
+    artName: 'Tik Tac Yo!',
+    pageLink: './Art/smokeraven667/smokeraven.html',
+    imageLink: './Art/smokeraven667/tic-tac-yo.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/smokeraven667'
   }
 ];
 
