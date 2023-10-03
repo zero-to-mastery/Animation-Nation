@@ -215,6 +215,13 @@ let cards = [
     imageLink: './Art/Shubham-Chaudhary/square_animation.gif',
     author: 'Shubham Chaudhary',
     githubLink: 'https://github.com/Stellar-X'
+  },
+  {
+    artName: 'Trippy',
+    pageLink: './Art/Simar/trippy.html',
+    imageLink: './Art/Simar/trippy-square.gif',
+    author: 'Simar',
+    githubLink: 'https://github.com/SimardeepSingh-zsh'
   }
 ];
 
