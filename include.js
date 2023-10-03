@@ -69,7 +69,7 @@ let cards = [
     author: 'Ibaad',
     githubLink: 'https://github.com/ibaaddurrani'
   },
-   {
+  {
     artName: 'SquBounce',
     pageLink: './Art/Sanusi/index.html',
     imageLink: './Art/Sanusi/sanusi-animation.gif',
