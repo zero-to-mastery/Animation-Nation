@@ -12,7 +12,7 @@ let cards = [
     imageLink: './Art/Ibaad/animationimagehover.gif',
     author: 'Ibaad',
     githubLink: 'https://github.com/ibaaddurrani'
-  }
+  },
    {
     artName: 'SquBounce',
     pageLink: './Art/Sanusi/index.html',
