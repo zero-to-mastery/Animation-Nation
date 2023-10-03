@@ -1,67 +1,68 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
 }
 
 .heart {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    animation: heartbeat 1s ease-in-out infinite;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: heartbeat 1s ease-in-out infinite;
 }
 
 .heart::before,
 .heart::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 120px;
-    height: 120px;
-    background-color: red;
-    border-radius: 60px 60px 0 0;
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  border-radius: 60px 60px 0 0;
 }
 
 .heart::before {
-    left: 0;
-    transform: rotate(-45deg);
-    transform-origin: 0 100%;
+  left: 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
 }
 
 .heart::after {
-    left: 50px;
-    transform: rotate(45deg);
-    transform-origin: 100% 100%;
+  left: 50px;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
 }
 
 .square {
-    width: 122px;
-    height: 122px;
-    background-color: red;
-    position: absolute;
-    top: 58px;
-    left: 24px;
-    transform: rotate(-45deg);
-    border-radius: 5px;
+  width: 122px;
+  height: 122px;
+  background-color: red;
+  position: absolute;
+  top: 58px;
+  left: 24px;
+  transform: rotate(-45deg);
+  border-radius: 5px;
 }
 
 .heartbeat {
-    color: red;
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 120px;
-    margin-left: 90px;
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 120px;
+  margin-left: 90px;
 }
 
 @keyframes heartbeat {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2);
-    }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
 }
