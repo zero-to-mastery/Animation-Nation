@@ -42,6 +42,13 @@ let cards = [
     githubLink: 'https://github.com/rperry99'
   },
   {
+    artName: 'Planet',
+    pageLink: './Art/serhatbek/index.html',
+    imageLink: './Art/serhatbek/planet.gif',
+    author: 'serhatbek',
+    githubLink: 'https://github.com/serhatbek'
+  },
+  {
     artName: 'Rocket',
     pageLink: './Art/Suryansh/rocket.html',
     imageLink: './Art/Suryansh/rocket.gif',
