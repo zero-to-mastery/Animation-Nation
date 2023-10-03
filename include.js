@@ -250,6 +250,13 @@ let cards = [
     imageLink: './Art/Simar/trippy-square.gif',
     author: 'Simar',
     githubLink: 'https://github.com/SimardeepSingh-zsh'
+  },
+  {
+    artName: 'Weird Spinner',
+    pageLink: './Art/lucifer/weirdSpinner.html',
+    imageLink: './Art/lucifer/weirdSpinner.png',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
   }
 ];
 
