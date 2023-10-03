@@ -403,7 +403,7 @@ let cards = [
     pageLink: './Art/AmanRawat/index.html',
     imageLink: './Art/AmanRawat/rings.gif',
     author: 'amanr-dev',
-    githubLink: 'https://github.com/'
+    githubLink: 'https://github.com/amanr-dev'
   }
 ];
 
