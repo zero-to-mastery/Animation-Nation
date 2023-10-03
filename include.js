@@ -194,6 +194,13 @@ let cards = [
     imageLink: './Art/ChrisAqui/dog.gif',
     author: 'Chris Aqui',
     githubLink: 'https://github.com/christine-aqui'
+  },
+  {
+    artName: 'Sunset',
+    pageLink: './Art/timDehof/sunset.html',
+    imageLink: './Art/timDehof/sunset.gif',
+    author: 'Tim DeHof',
+    githubLink: 'https://github.com/timDeHof'
   }
 ];
 
