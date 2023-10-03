@@ -159,6 +159,13 @@ let cards = [
     imageLink: './Art/ChrRepou/flower.gif',
     author: 'ChrRepou',
     githubLink: 'https://github.com/ChrRepou'
+  },
+  {
+    artName: 'Triangle',
+    pageLink: './Art/KrishayNair/rectangle.html',
+    imageLink: './Art/KrishayNair/circle.gif',
+    author: 'KrishayNair',
+    githubLink: 'https://github.com/KrishayNair'
   }
 ];
 
