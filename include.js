@@ -105,6 +105,12 @@ let cards = [
     githubLink: 'https://github.com/MrARawal'
   },
   {
+    artName: 'LHV',
+    pageLink: './Art/wizozheir/lhv.html',
+    imageLink: './Art/wizozheir/lhv.gif',
+    author: 'wizozheir',
+    githubLink: 'https://github.com/wizozheir'
+  },
     artName: 'Falling stars',
     pageLink: './Art/ChipoJ/index.html',
     imageLink: './Art/ChipoJ/star_fall.gif',
