@@ -70,6 +70,34 @@ let cards = [
     githubLink: 'https://github.com/ibaaddurrani'
   },
   {
+    artName: 'RichardsAnimation',
+    pageLink: './Art/Richard/animated.html',
+    imageLink: './Art/Richard/bounce.gif.gif',
+    author: 'Richard',
+    githubLink: 'https://github.com/richardhartleydev'
+  },
+  {
+    artName: 'Loader Animation',
+    pageLink: './Art/Abhishek/animation.html',
+    imageLink: './Art/Abhishek/animation.gif',
+    author: 'Abhishek Kumar',
+    githubLink: 'https://github.com/abhishekl1289'
+  },
+  {
+    artName: 'Fan',
+    pageLink: './Art/Samriddhi/fan.html',
+    imageLink: './Art/Samriddhi/fan.png',
+    author: 'Samriddhi',
+    githubLink: 'https://github.com/NarayanSam'
+  },
+  {
+    artName: 'RGB Square',
+    pageLink: './Art/TCrypt/animated.html',
+    imageLink: './Art/TCrypt/rgbsq-animated.gif',
+    author: 'T-Crypt',
+    githubLink: 'https://github.com/T-Crypt'
+  },
+  {
     artName: 'Loader Animation',
     pageLink: './Art/C S Sachindra/loader.html',
     imageLink: './Art/C S Sachindra/loader.gif',
