@@ -187,6 +187,13 @@ let cards = [
     imageLink: './Art/Sheefa/QuadroHypnoSpin.gif',
     author: 'Sheefa',
     githubLink: 'https://github.com/sheefanaaz123'
+  },
+  {
+    artName: 'Walking Dog',
+    pageLink: './Art/ChrisAqui/dog.html',
+    imageLink: './Art/ChrisAqui/dog.gif',
+    author: 'Chris Aqui',
+    githubLink: 'https://github.com/christine-aqui'
   }
 ];
 
