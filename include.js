@@ -1,7 +1,7 @@
 let cards = [
   {
     artName: 'Rotating Cube',
-    pageLink: './Art/Rishi/cube.html.html',
+    pageLink: './Art/Rishi/cube.html',
     imageLink: './Art/Rishi/cube.gif',
     author: 'Rishi',
     githubLink: 'https://github.com/rishi17003'
