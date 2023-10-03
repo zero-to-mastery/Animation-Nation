@@ -14,11 +14,11 @@ let cards = [
     githubLink: 'https://github.com/ibaaddurrani'
   },
   {
-    artName: 'Circle', // change this to the name of your artwork
-    pageLink: './Art/MishC/circle.html', // change this
-    imageLink: './Art/MishC/magic_circle.gif', // change this
-    author: 'MishC', // use your name
-    githubLink: 'https://github.com/MishC' // change this
+    artName: 'Circle',
+    pageLink: './Art/MishC/circle.html',
+    imageLink: './Art/MishC/magic_circle.gif',
+    author: 'MishC',
+    githubLink: 'https://github.com/MishC'
   }
 ];
 
