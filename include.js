@@ -208,6 +208,13 @@ let cards = [
     imageLink: './Art/Chugil/Screenshot.png',
     author: 'Chugil',
     githubLink: 'https://github.com/ChugilC'
+  },
+  {
+    artName: 'Square',
+    pageLink: './Art/Shubham-Chaudhary/square_animation.html',
+    imageLink: './Art/Shubham-Chaudhary/square_animation.gif',
+    author: 'Shubham Chaudhary',
+    githubLink: 'https://github.com/Stellar-X'
   }
 ];
 
