@@ -70,6 +70,13 @@ let cards = [
     githubLink: 'https://github.com/ibaaddurrani'
   },
   {
+    artName: 'Circle',
+    pageLink: './Art/MishC/circle.html',
+    imageLink: './Art/MishC/magic_circle.gif',
+    author: 'MishC',
+    githubLink: 'https://github.com/MishC'
+  },
+  {
     artName: 'SquBounce',
     pageLink: './Art/Sanusi/index.html',
     imageLink: './Art/Sanusi/sanusi-animation.gif',
