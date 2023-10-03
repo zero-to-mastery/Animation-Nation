@@ -77,6 +77,12 @@ let cards = [
     imageLink: './Art/DarrachBarneveld/rocket.gif',
     author: 'Darrach Barneveld',
     githubLink: 'https://github.com/DarrachBarneveld'
+  },{
+    artName: 'Rotating Cube',
+    pageLink: './Art/Rishi/cube.html.html',
+    imageLink: './Art/Rishi/cube.gif',
+    author: 'Rishi',
+    githubLink: 'https://github.com/rishi17003'
   },
   {
     artName: 'hanisntsolo',
