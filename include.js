@@ -7,13 +7,13 @@ let cards = [
     githubLink: 'https://github.com/baafbass'
   },
   {
-<<<<<<< HEAD
     artName: 'Animating Rings',
     pageLink: './Art/AmanRawat/index.html',
     imageLink: './Art/AmanRawat/rings.gif',
     author: 'Aman Rawat',
     githubLink: 'https://github.com/amanr-dev'
-=======
+  },
+  {
     artName: 'Circle',
     pageLink: './Art/lucas/circle.html',
     imageLink: './Art/lucas/circle.gif',
@@ -271,7 +271,6 @@ let cards = [
     imageLink: './Art/lucifer/weirdSpinner.png',
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
->>>>>>> 6d0c6bf06bfe16d76b53fdf1e4ff06ba61e83010
   }
 ];
 
