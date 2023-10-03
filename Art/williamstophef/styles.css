@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body {
+  height: 10vh;
+  background: radial-gradient(rgb(5, 221, 245), rgb(5, 87, 146));
+}
+.container {
+  height: 60vh;
+  width: 30vw;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  perspective: 1000px;
+}
+.box {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  transform: rotate(0deg);
+  transform-style: preserve-3d;
+  /* transform: rotateY(90deg); */
+  animation: animate 12s infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotateX(75deg) rotateY(-75deg);
+  }
+  25% {
+    transform: rotateX(-75deg) rotateY(-75deg);
+  }
+  50% {
+    transform: rotateX(75deg) rotateY(75deg);
+  }
+  75% {
+    transform: rotateX(-75deg) rotateY(-75deg);
+  }
+  100% {
+    transform: rotateX(75deg) rotateY(-75deg);
+  }
+}
+.card {
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  padding: 100px 0px;
+  color: white;
+  background: black;
+  border: 2px solid white;
+  font-size: 32px;
+  box-sizing: border-box;
+  position: absolute;
+  transition: all 1s;
+}
+#front {
+  transform: translateZ(125px);
+}
+#back {
+  transform: translateZ(-125px);
+}
+#left {
+  right: 125px;
+  transform: rotateY(270deg);
+}
+#right {
+  left: 125px;
+  transform: rotateY(90deg);
+}
+#top {
+  bottom: 125px;
+  transform: rotateX(90deg);
+}
+#bottom {
+  top: 125px;
+  transform: rotateX(-90deg);
+}
+input {
+  height: 50px;
+  width: 100px;
+  background: pink;
+  /* border: none; */
+  font-size: 22px;
+  cursor: pointer;
+  position: absolute;
+  top: -100px;
+  left: 175px;
+}
+input:focus ~ .box #front {
+  transform: translateZ(180px) rotateY(360deg);
+}
+input:focus ~ .box #back {
+  transform: translateZ(-180px) rotateY(360deg);
+}
+input:focus ~ .box #left {
+  right: 180px;
+  transform: rotateY(90deg);
+}
+input:focus ~ .box #right {
+  left: 180px;
+  transform: rotateY(-90deg);
+}
+input:focus ~ .box #top {
+  bottom: 180px;
+  transform: rotateY(90deg);
+}
+input:focus ~ .box #bottom {
+  top: 180px;
+  transform: rotateY(90deg);
+}
