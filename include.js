@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Rotating Cube',
+    pageLink: './Art/Rishi/cube.html.html',
+    imageLink: './Art/Rishi/cube.gif',
+    author: 'Rishi',
+    githubLink: 'https://github.com/rishi17003'
+  },
+  {
     artName: 'hanisntsolo',
     pageLink: './Art/hanisntsolo/hanisntsolo.html',
     imageLink: './Art/hanisntsolo/hanisntsolo.gif',
