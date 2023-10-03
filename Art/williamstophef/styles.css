@@ -25,7 +25,7 @@ body {
   transform: rotate(0deg);
   transform-style: preserve-3d;
   /* transform: rotateY(90deg); */
-  animation: animate 12s infinite;
+  animation: animate 10s infinite;
 }
 @keyframes animate {
   0% {
@@ -82,13 +82,13 @@ body {
 input {
   height: 50px;
   width: 100px;
-  background: pink;
-  /* border: none; */
+  background: rgb(255, 255, 255);
   font-size: 22px;
   cursor: pointer;
   position: absolute;
   top: -100px;
   left: 175px;
+  border-radius: 70%;
 }
 input:focus ~ .box #front {
   transform: translateZ(180px) rotateY(360deg);
@@ -106,9 +106,9 @@ input:focus ~ .box #right {
 }
 input:focus ~ .box #top {
   bottom: 180px;
-  transform: rotateY(90deg);
+  transform: rotatex(270deg);
 }
 input:focus ~ .box #bottom {
   top: 180px;
-  transform: rotateY(90deg);
+  transform: rotatex(270deg);
 }
