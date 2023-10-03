@@ -369,8 +369,16 @@ let cards = [
     imageLink: './Art/Artis/699669.gif',
     author: 'Artis',
     githubLink: 'https://github.com/69966969'
-  }
-];
+  },
+    {
+      artName: 'spinning square', 
+      pageLink: './Art/dmdiamond79/spinningsquare.html', 
+      imageLink: './Art/dmdiamond79/spinning.gif', 
+      author: 'dmdiamond79', 
+      githubLink: 'https://github.com/dmdiamond79' 
+    }
+  ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
