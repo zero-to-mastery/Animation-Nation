@@ -64,8 +64,8 @@ let cards = [
   },
   {
     artName: 'Simple Mexican Flag',
-    pageLink: './Art/index.html',
-    imageLink: './Art/novak.gif',
+    pageLink: './Art/jnovak5/index.html',
+    imageLink: './Art/jnovak5/novak.gif',
     author: 'Jnovak5',
     githubLink: 'https://github.com/jnovak5'
   },
