@@ -20,11 +20,11 @@ function collectJsonFiles(directoryPath, fileList = []) {
   for (const file of files) {
     const filePath = directoryPath+"/"+file;
     const stat = fs.statSync(filePath);
-    // console.log("Directory Path :: is", directoryPath)
+    // console.log("Directory Path :: is", file)
     if (stat.isDirectory()) {
       // If it's a directory, recursively search for JSON files inside it
       collectJsonFiles(filePath, fileList);
-    } else if (file.split(".")[-1] === '.json') {
+    } else if (file.split(".")[1] === 'json') {
       console.log("Json file :: ", file)
       // If it's a JSON file, read and add it to the list
       try {
@@ -48,8 +48,6 @@ const jsonPayloads = collectJsonFiles(rootDirectory);
 // Now, jsonPayloads array contains all the JSON payloads from the nested folder tree
 
 console.log('Current working directory:', currentDirectory);
-console.log(jsonPayloads);
-cards.push(...jsonPayloads);
 
 
 // +--------------------------------------------------------------------------------+
