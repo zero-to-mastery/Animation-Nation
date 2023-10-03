@@ -432,6 +432,13 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
+  },
+  {
+    artName: 'Stylish Text Animation',
+    pageLink: './Art/varunrmantri23/index.html',
+    imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
+    author: 'varunrmantri23',
+    githubLink: 'https://github.com/varunrmantri23'
   }
 ];
 
