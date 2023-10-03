@@ -1417,6 +1417,13 @@ let cards = [
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
     author: 'Joy',
     githubLink: 'https://github.com/smokeraven667'
+  },
+  {
+    artName: 'Ruby',
+    pageLink: './Art/daniel-badura/ruby.html',
+    imageLink: './Art/daniel-badura/ruby.gif',
+    author: 'daniel-badura',
+    githubLink: 'https://github.com/daniel-badura'
   }
 ];
 
