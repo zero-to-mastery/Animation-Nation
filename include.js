@@ -29,8 +29,8 @@ let cards = [
   },
   {
     artName: "Mr. A's Amimation",
-    pageLink: "./Art/Mr.A'sAnimation/index.html",
-    imageLink: "./Art/Mr.A'sAnimation/Animation.gif",
+    pageLink: './Art/Mr.A-Animation/index.html',
+    imageLink: './Art/Mr.A-Animation/Animation.gif',
     author: 'Mr. AnkitR',
     githubLink: 'https://github.com/MrARawal'
   },
@@ -84,13 +84,6 @@ let cards = [
     githubLink: 'https://github.com/alexsatalan'
   },
   {
-    artName: 'olga_min',
-    pageLink: './Art/olga_min/index.html',
-    imageLink: './Art/olga_min/animation.gif',
-    author: 'Olga',
-    githubLink: 'https://github.com/OlgaMinaievaWebDev'
-  },
-  {
     artName: 'Moving Flag',
     pageLink: './Art/Mayank_goel/index.html',
     imageLink: './Art/Mayank_goel/moving_flag.gif',
@@ -113,8 +106,8 @@ let cards = [
   },
   {
     artName: 'Sun shadow',
-    pageLink: './Art/Guruprasad Kulkarni/index.html',
-    imageLink: './Art/Guruprasad Kulkarni/sun.gif',
+    pageLink: './Art/Guruprasad-Kulkarni/index.html',
+    imageLink: './Art/Guruprasad-Kulkarni/sun.gif',
     author: 'Guruprasad',
     githubLink: 'https://github.com/Guruprasad846'
   },
@@ -156,7 +149,7 @@ let cards = [
   {
     artName: 'Flower',
     pageLink: './Art/ChrRepou/flower.html',
-    imageLink: './Art/ChrRepou/flower.gif',
+    imageLink: './Art/ChrRepou/flower.css',
     author: 'ChrRepou',
     githubLink: 'https://github.com/ChrRepou'
   },
