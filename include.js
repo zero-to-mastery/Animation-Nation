@@ -432,6 +432,13 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
+  },
+  {
+    artName: 'Scaling loader',
+    pageLink: './Art/BatistaDev1113/index.html',
+    imageLink: './Art/BatistaDev1113/scalingLoader.gif',
+    author: 'BatistaDev1113',
+    githubLink: 'https://github.com/batistaDev1113'
   }
 ];
 
