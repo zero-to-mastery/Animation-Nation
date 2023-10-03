@@ -173,6 +173,20 @@ let cards = [
     imageLink: './Art/AnkitaM/Waving-Ghost-Animation.gif',
     author: 'Ankita M.',
     githubLink: 'https://github.com/anki009/'
+  },
+  {
+    artName: 'Blinking Ball',
+    pageLink: './Art/Sheefa/blinking_ball.html',
+    imageLink: './Art/Sheefa/blinking_ball.gif',
+    author: 'Sheefa',
+    githubLink: 'https://github.com/sheefanaaz123'
+  },
+  {
+    artName: 'Quadro Hypno Spin',
+    pageLink: './Art/Sheefa/QuadroHypnoSpin.html',
+    imageLink: './Art/Sheefa/QuadroHypnoSpin.gif',
+    author: 'Sheefa',
+    githubLink: 'https://github.com/sheefanaaz123'
   }
 ];
 
