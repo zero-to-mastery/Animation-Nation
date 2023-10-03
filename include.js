@@ -1,6 +1,6 @@
 let cards = [
   {
-    artName: 'Triangle run',
+    artName: 'triangle run',
     pageLink: './Art/ghost-2362003/triangle_run.html',
     imageLink: './Art/ghost-2362003/triangle_run.png',
     author: 'Shubhojyoti Das',
