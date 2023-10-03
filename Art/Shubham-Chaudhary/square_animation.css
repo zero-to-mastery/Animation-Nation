@@ -10,7 +10,6 @@ body {
   color: #f10d0d;
 }
 
-
 @keyframes growSquare {
   from {
     transform: scale(0.5);
@@ -106,21 +105,21 @@ body {
   }
 }
 .square:nth-child(4) {
-    animation: growSquare-4 3s infinite;
+  animation: growSquare-4 3s infinite;
 }
 
 @keyframes growSquare-4 {
-    from,
-    30% {
-      transform: scale(0) rotate(0deg);
-      color: #1b07f3;
-    }
-    75% {
-      transform: scale(1) rotate(450deg) translateX(-16.75%) translateY(-85%);
-      color: #1b07f3;
-    }
-    to {
-      transform: scale(1) rotate(450deg) translateX(-16.75%) translateY(-85%);
-      color: #f307c4;
-    }
+  from,
+  30% {
+    transform: scale(0) rotate(0deg);
+    color: #1b07f3;
   }
+  75% {
+    transform: scale(1) rotate(450deg) translateX(-16.75%) translateY(-85%);
+    color: #1b07f3;
+  }
+  to {
+    transform: scale(1) rotate(450deg) translateX(-16.75%) translateY(-85%);
+    color: #f307c4;
+  }
+}
