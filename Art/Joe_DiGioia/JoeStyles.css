@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #ff4500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: spin 8s infinite linear, bounce 2s infinite,
+    morph 6s infinite alternate;
+}
+
+.hacktoberfest-text {
+  font-size: 24px;
+  color: white;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff00ff, 0 0 20px #ff00ff,
+    0 0 25px #ff00ff, 0 0 30px #ff00ff, 0 0 35px #ff00ff;
+  animation: pulse 1s infinite alternate, neon 1.5s infinite alternate;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+@keyframes neon {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff00ff, 0 0 20px #ff00ff,
+      0 0 25px #ff00ff, 0 0 30px #ff00ff, 0 0 35px #ff00ff;
+  }
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00ffff, 0 0 20px #00ffff,
+      0 0 25px #00ffff, 0 0 30px #00ffff, 0 0 35px #00ffff;
+  }
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 50%;
+  }
+  25% {
+    border-radius: 0%;
+  }
+  50% {
+    border-radius: 50% 0 0 50%;
+  }
+  75% {
+    border-radius: 25% 75% 25% 75%;
+  }
+  100% {
+    border-radius: 50%;
+  }
+}
