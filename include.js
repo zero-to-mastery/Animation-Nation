@@ -12,6 +12,13 @@ let cards = [
     imageLink: './Art/Ibaad/animationimagehover.gif',
     author: 'Ibaad',
     githubLink: 'https://github.com/ibaaddurrani'
+  },
+  {
+    artName: 'RichardsAnimation',
+    pageLink: './Art/Richard/animated.html',
+    imageLink: './Art/Richard/bounce.gif.gif',
+    author: 'Richard',
+    githubLink: 'https://github.com/richardhartleydev'
   }
 ];
 
