@@ -34,6 +34,7 @@ let cards = [
     author: 'Maria',
     githubLink: 'https://github.com/mariapetra'
   },
+  {
     artName: 'Circle',
     pageLink: './Art/lucas/circle.html',
     imageLink: './Art/lucas/circle.gif',
@@ -83,6 +84,13 @@ let cards = [
     githubLink: 'https://github.com/ibaaddurrani'
   },
   {
+    artName: 'Animated-Panda',
+    pageLink: './Art/Naina/index.html',
+    imageLink: './Art/Naina/Panda.gif',
+    author: 'Naina',
+    githubLink: 'https://github.com/naina5602'
+  },
+    {
     artName: 'Circle',
     pageLink: './Art/MishC/circle.html',
     imageLink: './Art/MishC/magic_circle.gif',
