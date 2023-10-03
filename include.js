@@ -69,6 +69,13 @@ let cards = [
     githubLink: 'https://github.com/ibaaddurrani'
   },
   {
+    artName: 'RichardsAnimation',
+    pageLink: './Art/Richard/animated.html',
+    imageLink: './Art/Richard/bounce.gif.gif',
+    author: 'Richard',
+    githubLink: 'https://github.com/richardhartleydev'
+  },
+  {
     artName: 'Loader Animation',
     pageLink: './Art/Abhishek/animation.html',
     imageLink: './Art/Abhishek/animation.gif',
