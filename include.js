@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Astro Acrobat',
+    pageLink: './Art/DarrachBarneveld/index.html',
+    imageLink: './Art/DarrachBarneveld/rocket.gif',
+    author: 'Darrach Barneveld',
+    githubLink: 'https://github.com/DarrachBarneveld'
+  },
+  {
     artName: 'hanisntsolo',
     pageLink: './Art/hanisntsolo/hanisntsolo.html',
     imageLink: './Art/hanisntsolo/hanisntsolo.gif',
