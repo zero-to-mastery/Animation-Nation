@@ -168,6 +168,20 @@ let cards = [
     githubLink: 'https://github.com/alexsatalan'
   },
   {
+    artName: 'olga_min',
+    pageLink: './Art/olga_min/index.html',
+    imageLink: './Art/olga_min/animation.gif',
+    author: 'Olga',
+    githubLink: 'https://github.com/OlgaMinaievaWebDev'
+  },
+  {
+    artName: 'Rotating_Cube',
+    pageLink: './Art/Catoos/Cube.html',
+    imageLink: './Art/Catoos/Cube.gif',
+    author: 'Catoos',
+    githubLink: 'https://github.com/Catoos'
+  },
+    {
     artName: 'Moving Flag',
     pageLink: './Art/Mayank_goel/index.html',
     imageLink: './Art/Mayank_goel/moving_flag.gif',
