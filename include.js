@@ -1425,6 +1425,7 @@ let cards = [
     githubLink: 'https://github.com/SaiAryan1784'
   },
   {
+
     artName: 'Tik Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
@@ -1499,6 +1500,13 @@ let cards = [
     imageLink: './Art/Alexandra2888/balls.gif',
     author: 'Alexandra2888',
     githubLink: 'https://github.com/Alexandra2888'
+  },
+  {
+    artName: 'Scaling loader',
+    pageLink: './Art/BatistaDev1113/index.html',
+    imageLink: './Art/BatistaDev1113/scalingLoader.gif',
+    author: 'BatistaDev1113',
+    githubLink: 'https://github.com/batistaDev1113'
   }
 ];
 
