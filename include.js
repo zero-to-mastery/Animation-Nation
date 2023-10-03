@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
+    artName: 'Falling Squares',
+    pageLink: './Art/migueldalberto/index.html',
+    imageLink: './Art/migueldalberto/screenshot.png',
+    author: 'migueldalberto',
+    githubLink: 'https://github.com/migueldalberto'
+  },
+  {
     artName: 'Infinite Hacktober Shapes',
     pageLink: '.Art/Joy/Joe_DiGioia/JoeArt.html',
     imageLink: '.Art/Joy/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
