@@ -5,7 +5,8 @@ let cards = [
     imageLink: './Art/hanisntsolo/hanisntsolo.gif',
     author: 'Hanisntsolo',
     githubLink: 'https://github.com/hanisntsolo'
-  },{
+  },
+  {
     artName: 'Orbiting-Ball',
     pageLink: './Art/Tipchan/OrbitingBall.html',
     imageLink: './Art/Tipchan/OrbitingBall.gif',
@@ -347,8 +348,8 @@ let cards = [
     imageLink: './Art/solarsystem/solarsystem.gif',
     author: 'hanisntsolo',
     githubLink: 'https://github.com/hanisntsolo'
-},
-{
+  },
+  {
     artName: 'Galaxy',
     pageLink: './Art/Aldair/galaxy.html',
     imageLink: './Art/Aldair/galaxy.gif',
