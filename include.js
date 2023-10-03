@@ -111,6 +111,7 @@ let cards = [
     author: 'wizozheir',
     githubLink: 'https://github.com/wizozheir'
   },
+  {
     artName: 'Falling stars',
     pageLink: './Art/ChipoJ/index.html',
     imageLink: './Art/ChipoJ/star_fall.gif',
@@ -237,6 +238,13 @@ let cards = [
     githubLink: 'https://github.com/Venkateeshh'
   },
   {
+    artName: 'Analog Clock',
+    pageLink: './Art/Jeet/index.html',
+    imageLink: './Art/Jeet/pic.png',
+    author: 'Jeet Kanodia',
+    githubLink: 'https://github.com/jeetkanodia'
+  },
+    {
     artName: 'Flower',
     pageLink: './Art/ChrRepou/flower.html',
     imageLink: './Art/ChrRepou/flower.png',
