@@ -78,8 +78,8 @@ let cards = [
   },
   {
     artName: "Mr. A's Amimation",
-    pageLink: './Art/Mr.A-Animation/index.html',
-    imageLink: './Art/Mr.A-Animation/Animation.gif',
+    pageLink: './Art/MrA-Animation/index.html',
+    imageLink: './Art/MrA-Animation/Animation.gif',
     author: 'Mr. AnkitR',
     githubLink: 'https://github.com/MrARawal'
   },
@@ -113,8 +113,8 @@ let cards = [
   },
   {
     artName: 'Simple Mexican Flag',
-    pageLink: './Art/index.html',
-    imageLink: './Art/novak.gif',
+    pageLink: './Art/jnovak5/index.html',
+    imageLink: './Art/jnovak5/novak.gif',
     author: 'Jnovak5',
     githubLink: 'https://github.com/jnovak5'
   },
