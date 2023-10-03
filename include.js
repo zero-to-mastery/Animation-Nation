@@ -196,6 +196,13 @@ let cards = [
     githubLink: 'https://github.com/timDeHof'
   },
   {
+    artName: 'Circle Dancing',
+    pageLink: './Art/Umair/index.html',
+    imageLink: './Art/Umair/Circle-dancing.gif',
+    author: 'Mohammed Umair',
+    githubLink: 'https://github.com/umair986'
+  },
+  {
     artName: 'ZTM Text Animation',
     pageLink: './Art/Chugil/index.html',
     imageLink: './Art/Chugil/Screenshot.png',
@@ -215,7 +222,7 @@ let cards = [
     imageLink: './Art/Simar/trippy-square.gif',
     author: 'Simar',
     githubLink: 'https://github.com/SimardeepSingh-zsh'
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
