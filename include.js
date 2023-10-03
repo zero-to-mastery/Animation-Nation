@@ -222,6 +222,13 @@ let cards = [
     imageLink: './Art/Simar/trippy-square.gif',
     author: 'Simar',
     githubLink: 'https://github.com/SimardeepSingh-zsh'
+  },
+  {
+    artName: 'solarsystem',
+    pageLink: './Art/Joy/solarsystem.html',
+    imageLink: './Art/Joy/solarsystem.gif',
+    author: 'hanisntsolo',
+    githubLink: 'https://github.com/hanisntsolo'
   }
 ];
 
