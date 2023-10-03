@@ -5,6 +5,13 @@ let cards = [
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'Tik Tac Yo!',
+    pageLink: './Art/smokeraven667/smokeraven.html',
+    imageLink: './Art/smokeraven667/tic-tac-yo.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/smokeraven667'
   }
 ];
 
