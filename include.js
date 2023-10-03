@@ -181,7 +181,7 @@ let cards = [
     author: 'Catoos',
     githubLink: 'https://github.com/Catoos'
   },
-    {
+  {
     artName: 'Moving Flag',
     pageLink: './Art/Mayank_goel/index.html',
     imageLink: './Art/Mayank_goel/moving_flag.gif',
@@ -245,6 +245,13 @@ let cards = [
     githubLink: 'https://github.com/Venkateeshh'
   },
   {
+    artName: 'Analog Clock',
+    pageLink: './Art/Jeet/index.html',
+    imageLink: './Art/Jeet/pic.png',
+    author: 'Jeet Kanodia',
+    githubLink: 'https://github.com/jeetkanodia'
+  },
+  {
     artName: 'Flower',
     pageLink: './Art/ChrRepou/flower.html',
     imageLink: './Art/ChrRepou/flower.png',
@@ -294,6 +301,13 @@ let cards = [
     githubLink: 'https://github.com/timDeHof'
   },
   {
+    artName: 'Circle Dancing',
+    pageLink: './Art/Umair/index.html',
+    imageLink: './Art/Umair/Circle-dancing.gif',
+    author: 'Mohammed Umair',
+    githubLink: 'https://github.com/umair986'
+  },
+  {
     artName: 'ZTM Text Animation',
     pageLink: './Art/Chugil/index.html',
     imageLink: './Art/Chugil/Screenshot.png',
@@ -316,10 +330,17 @@ let cards = [
   },
   {
     artName: 'solarsystem',
-    pageLink: './Art/Joy/solarsystem.html',
-    imageLink: './Art/Joy/solarsystem.gif',
+    pageLink: './Art/solarsystem/solarsystem.html',
+    imageLink: './Art/solarsystem/solarsystem.gif',
     author: 'hanisntsolo',
     githubLink: 'https://github.com/hanisntsolo'
+},
+{
+    artName: 'Galaxy',
+    pageLink: './Art/Aldair/galaxy.html',
+    imageLink: './Art/Aldair/Record.gif',
+    author: 'Aldair Huamani',
+    githubLink: 'https://github.com/Baku452'
   },
   {
     artName: 'Weird Spinner',
@@ -327,6 +348,13 @@ let cards = [
     imageLink: './Art/lucifer510/weirdSpinner.png',
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
+  },
+  {
+    artName: '699669',
+    pageLink: './Art/Artis/699669.html',
+    imageLink: './Art/Artis/699669.gif',
+    author: 'Artis',
+    githubLink: 'https://github.com/69966969'
   }
 ];
 
