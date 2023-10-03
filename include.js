@@ -14,11 +14,53 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
+    artName: 'Circle',
+    pageLink: './Art/lucas/circle.html',
+    imageLink: './Art/lucas/circle.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/LucasAlmeida-jpg'
+  },
+  {
+    artName: 'Falling Squares',
+    pageLink: './Art/migueldalberto/index.html',
+    imageLink: './Art/migueldalberto/screenshot.png',
+    author: 'migueldalberto',
+    githubLink: 'https://github.com/migueldalberto'
+  },
+  {
+    artName: 'Infinite Hacktober Shapes',
+    pageLink: '.Art/Joy/Joe_DiGioia/JoeArt.html',
+    imageLink: '.Art/Joy/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
+    author: 'Joe DiGioia',
+    githubLink: 'https://github.com/WatchAce0'
+  },
+  {
+    artName: 'Ghost',
+    pageLink: './Art/Russ/ghost.html',
+    imageLink: './Art/Russ/ghost.gif',
+    author: 'Russ',
+    githubLink: 'https://github.com/rperry99'
+  },
+  {
+    artName: 'Rocket',
+    pageLink: './Art/Suryansh/rocket.html',
+    imageLink: './Art/Suryansh/rocket.gif',
+    author: 'Suryansh',
+    githubLink: 'https://github.com/suryanshsingh2001'
+  },
+  {
     artName: 'AnimateIbaad',
     pageLink: './Art/Ibaad/animate.html',
     imageLink: './Art/Ibaad/animationimagehover.gif',
     author: 'Ibaad',
     githubLink: 'https://github.com/ibaaddurrani'
+  },
+  {
+    artName: 'Seven Segment Display',
+    pageLink: './Art/Ankesh/segment-display.html',
+    imageLink: './Art/Ankesh/segment-display.gif',
+    author: 'Ankesh',
+    githubLink: 'https://github.com/ankeshp03'
   },
   {
     artName: '4 Color Loader',
@@ -29,8 +71,8 @@ let cards = [
   },
   {
     artName: "Mr. A's Amimation",
-    pageLink: "./Art/Mr.A'sAnimation/index.html",
-    imageLink: "./Art/Mr.A'sAnimation/Animation.gif",
+    pageLink: './Art/Mr.A-Animation/index.html',
+    imageLink: './Art/Mr.A-Animation/Animation.gif',
     author: 'Mr. AnkitR',
     githubLink: 'https://github.com/MrARawal'
   },
@@ -84,6 +126,7 @@ let cards = [
     githubLink: 'https://github.com/alexsatalan'
   },
   {
+<<<<<<< HEAD
     artName: 'olga_min',
     pageLink: './Art/olga_min/index.html',
     imageLink: './Art/olga_min/animation.gif',
@@ -96,6 +139,146 @@ let cards = [
     imageLink: './Art/Artis!/699669.gif',
     author: 'Artis',
     githubLink: 'https://github.com/69966969'
+=======
+    artName: 'Moving Flag',
+    pageLink: './Art/Mayank_goel/index.html',
+    imageLink: './Art/Mayank_goel/moving_flag.gif',
+    author: 'Yelloberard',
+    githubLink: 'https://github.com/yellowberad'
+  },
+  {
+    artName: 'Flowers',
+    pageLink: './Art/Jeffrey/index.html',
+    imageLink: './Art/Joy/Hackflowers.png',
+    author: 'Jeffrey',
+    githubLink: 'https://github.com/Jeffruiz1502003'
+  },
+  {
+    artName: 'Car',
+    pageLink: './Art/Haneesh/car.html',
+    imageLink: './Art/Haneesh/car.gif',
+    author: 'Haneesh',
+    githubLink: 'https://github.com/Haneesh000'
+  },
+  {
+    artName: 'Sun shadow',
+    pageLink: './Art/Guruprasad-Kulkarni/index.html',
+    imageLink: './Art/Guruprasad-Kulkarni/sun.gif',
+    author: 'Guruprasad',
+    githubLink: 'https://github.com/Guruprasad846'
+  },
+  {
+    artName: 'Circle',
+    pageLink: './Art/Adithya/index.html',
+    imageLink: './Art/Adithya/result.gif',
+    author: 'Adithya',
+    githubLink: 'https://github.com/Adithya-K-Shetty'
+  },
+  {
+    artName: 'Cart Hover',
+    pageLink: './Art/Rahul-Bhati/index.html',
+    imageLink: './Art/Rahul-Bhati/Rahul-Bhati.gif',
+    author: 'Rahul-Bhati',
+    githubLink: 'https://github.com/Rahul-Bhati'
+  },
+  {
+    artName: 'Animated Fan',
+    pageLink: './Art/Alexandra2888/fan.html',
+    imageLink: './Art/Alexandra2888/fan.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
+  },
+  {
+    artName: 'Coffe Cup',
+    pageLink: './Art/Alexandra2888/cup.html',
+    imageLink: './Art/Alexandra2888/cup.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
+  },
+  {
+    artName: 'BouncingBall',
+    pageLink: './Art/Venkateeshh/BouncingBall.html',
+    imageLink: './Art/Venkateeshh/BounceBall.gif',
+    author: 'Venkatesh',
+    githubLink: 'https://github.com/Venkateeshh'
+  },
+  {
+    artName: 'Flower',
+    pageLink: './Art/ChrRepou/flower.html',
+    imageLink: './Art/ChrRepou/flower.css',
+    author: 'ChrRepou',
+    githubLink: 'https://github.com/ChrRepou'
+  },
+  {
+    artName: 'Triangle',
+    pageLink: './Art/KrishayNair/rectangle.html',
+    imageLink: './Art/KrishayNair/circle.gif',
+    author: 'KrishayNair',
+    githubLink: 'https://github.com/KrishayNair'
+  },
+  {
+    artName: 'Waving Ghost Animation',
+    pageLink: './Art/AnkitaM/ghost.html',
+    imageLink: './Art/AnkitaM/Waving-Ghost-Animation.gif',
+    author: 'Ankita M.',
+    githubLink: 'https://github.com/anki009/'
+  },
+  {
+    artName: 'Blinking Ball',
+    pageLink: './Art/Sheefa/blinking_ball.html',
+    imageLink: './Art/Sheefa/blinking_ball.gif',
+    author: 'Sheefa',
+    githubLink: 'https://github.com/sheefanaaz123'
+  },
+  {
+    artName: 'Quadro Hypno Spin',
+    pageLink: './Art/Sheefa/QuadroHypnoSpin.html',
+    imageLink: './Art/Sheefa/QuadroHypnoSpin.gif',
+    author: 'Sheefa',
+    githubLink: 'https://github.com/sheefanaaz123'
+  },
+  {
+    artName: 'Walking Dog',
+    pageLink: './Art/ChrisAqui/dog.html',
+    imageLink: './Art/ChrisAqui/dog.gif',
+    author: 'Chris Aqui',
+    githubLink: 'https://github.com/christine-aqui'
+  },
+  {
+    artName: 'Sunset',
+    pageLink: './Art/timDehof/sunset.html',
+    imageLink: './Art/timDehof/sunset.gif',
+    author: 'Tim DeHof',
+    githubLink: 'https://github.com/timDeHof'
+  },
+  {
+    artName: 'ZTM Text Animation',
+    pageLink: './Art/Chugil/index.html',
+    imageLink: './Art/Chugil/Screenshot.png',
+    author: 'Chugil',
+    githubLink: 'https://github.com/ChugilC'
+  },
+  {
+    artName: 'Square',
+    pageLink: './Art/Shubham-Chaudhary/square_animation.html',
+    imageLink: './Art/Shubham-Chaudhary/square_animation.gif',
+    author: 'Shubham Chaudhary',
+    githubLink: 'https://github.com/Stellar-X'
+  },
+  {
+    artName: 'Trippy',
+    pageLink: './Art/Simar/trippy.html',
+    imageLink: './Art/Simar/trippy-square.gif',
+    author: 'Simar',
+    githubLink: 'https://github.com/SimardeepSingh-zsh'
+  },
+  {
+    artName: 'Weird Spinner',
+    pageLink: './Art/lucifer/weirdSpinner.html',
+    imageLink: './Art/lucifer/weirdSpinner.png',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
+>>>>>>> 5625ece1ff243526c6da7eabb72bd1a411b75b2c
   }
 ];
 
