@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #222;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  position: absolute;
+  border-radius: 10%;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square:nth-child(1) {
+  animation-name: move1;
+}
+
+.square:nth-child(2) {
+  animation-name: move2;
+}
+
+.square:nth-child(3) {
+  animation-name: move3;
+}
+
+@keyframes move1 {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(200px) rotate(360deg);
+  }
+}
+
+@keyframes move2 {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(200px) rotate(360deg);
+  }
+}
+
+@keyframes move3 {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(200px) rotate(360deg);
+  }
+}
