@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Animation-box',
+    pageLink: './Art/Himanshu_Chauhan/index.html',
+    imageLink: './Art/Himanshu_Chauhan/animation-box.gif',
+    author: 'Himanshu Chauhan',
+    githubLink: 'https://github.com/Himanshuch8055'
+  },
+  {
     artName: 'hanisntsolo',
     pageLink: './Art/hanisntsolo/hanisntsolo.html',
     imageLink: './Art/hanisntsolo/hanisntsolo.gif',
