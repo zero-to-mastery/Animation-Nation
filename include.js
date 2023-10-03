@@ -1,5 +1,19 @@
 let cards = [
   {
+    artName: 'hanisntsolo',
+    pageLink: './Art/hanisntsolo/hanisntsolo.html',
+    imageLink: './Art/hanisntsolo/hanisntsolo.gif',
+    author: 'Hanisntsolo',
+    githubLink: 'https://github.com/hanisntsolo'
+  },
+  {
+    artName: 'Orbiting-Ball',
+    pageLink: './Art/Tipchan/OrbitingBall.html',
+    imageLink: './Art/Tipchan/OrbitingBall.gif',
+    author: 'Tipchan',
+    githubLink: 'https://github.com/tsongtheng'
+  },
+  {
     artName: 'Simple BAAF',
     pageLink: './Art/baaf-Animation/index.html',
     imageLink: './Art/baaf-Animation/baafscreen.png',
@@ -29,8 +43,8 @@ let cards = [
   },
   {
     artName: 'Infinite Hacktober Shapes',
-    pageLink: '.Art/Joy/Joe_DiGioia/JoeArt.html',
-    imageLink: '.Art/Joy/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
+    pageLink: './Art/Joe_DiGioia/JoeArt.html',
+    imageLink: './Art/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
     author: 'Joe DiGioia',
     githubLink: 'https://github.com/WatchAce0'
   },
@@ -54,6 +68,34 @@ let cards = [
     imageLink: './Art/Ibaad/animationimagehover.gif',
     author: 'Ibaad',
     githubLink: 'https://github.com/ibaaddurrani'
+  },
+  {
+    artName: 'RichardsAnimation',
+    pageLink: './Art/Richard/animated.html',
+    imageLink: './Art/Richard/bounce.gif.gif',
+    author: 'Richard',
+    githubLink: 'https://github.com/richardhartleydev'
+  },
+  {
+    artName: 'Loader Animation',
+    pageLink: './Art/Abhishek/animation.html',
+    imageLink: './Art/Abhishek/animation.gif',
+    author: 'Abhishek Kumar',
+    githubLink: 'https://github.com/abhishekl1289'
+  },
+  {
+    artName: 'Fan',
+    pageLink: './Art/Samriddhi/fan.html',
+    imageLink: './Art/Samriddhi/fan.png',
+    author: 'Samriddhi',
+    githubLink: 'https://github.com/NarayanSam'
+  },
+  {
+    artName: 'RGB Square',
+    pageLink: './Art/TCrypt/animated.html',
+    imageLink: './Art/TCrypt/rgbsq-animated.gif',
+    author: 'T-Crypt',
+    githubLink: 'https://github.com/T-Crypt'
   },
   {
     artName: 'Loader Animation',
@@ -84,6 +126,13 @@ let cards = [
     githubLink: 'https://github.com/MrARawal'
   },
   {
+    artName: 'LHV',
+    pageLink: './Art/wizozheir/lhv.html',
+    imageLink: './Art/wizozheir/lhv.gif',
+    author: 'wizozheir',
+    githubLink: 'https://github.com/wizozheir'
+  },
+  {
     artName: 'Falling stars',
     pageLink: './Art/ChipoJ/index.html',
     imageLink: './Art/ChipoJ/star_fall.gif',
@@ -93,7 +142,7 @@ let cards = [
   {
     artName: 'Bouncing Screensaver',
     pageLink: './Art/CDay-87/index.html',
-    imageLink: './Art/CDay87/Bounce_Animation.gif',
+    imageLink: './Art/CDay-87/Bounce_Animation.gif',
     author: 'CDay-87',
     githubLink: 'https://github.com/CDay-87'
   },
@@ -121,7 +170,7 @@ let cards = [
   {
     artName: 'Twist',
     pageLink: './Art/Anna/twist.html',
-    imageLink: '',
+    imageLink: './Art/Anna/twist.gif',
     author: 'Anna',
     githubLink: 'https://github.com/anna-1980'
   },
@@ -133,6 +182,20 @@ let cards = [
     githubLink: 'https://github.com/alexsatalan'
   },
   {
+    artName: 'olga_min',
+    pageLink: './Art/olga_min/index.html',
+    imageLink: './Art/olga_min/animation.gif',
+    author: 'Olga',
+    githubLink: 'https://github.com/OlgaMinaievaWebDev'
+  },
+  {
+    artName: 'Rotating_Cube',
+    pageLink: './Art/Catoos/Cube.html',
+    imageLink: './Art/Catoos/Cube.gif',
+    author: 'Catoos',
+    githubLink: 'https://github.com/Catoos'
+  },
+  {
     artName: 'Moving Flag',
     pageLink: './Art/Mayank_goel/index.html',
     imageLink: './Art/Mayank_goel/moving_flag.gif',
@@ -142,7 +205,7 @@ let cards = [
   {
     artName: 'Flowers',
     pageLink: './Art/Jeffrey/index.html',
-    imageLink: './Art/Joy/Hackflowers.png',
+    imageLink: './Art/Jeffrey/Hackflowers.png',
     author: 'Jeffrey',
     githubLink: 'https://github.com/Jeffruiz1502003'
   },
@@ -177,7 +240,7 @@ let cards = [
   {
     artName: 'Animated Fan',
     pageLink: './Art/Alexandra2888/fan.html',
-    imageLink: './Art/Alexandra2888/fan.gif',
+    imageLink: './Art/Alexandra2888/fan.png',
     author: 'Alexandra2888',
     githubLink: 'https://github.com/Alexandra2888'
   },
@@ -196,9 +259,16 @@ let cards = [
     githubLink: 'https://github.com/Venkateeshh'
   },
   {
+    artName: 'Analog Clock',
+    pageLink: './Art/Jeet/index.html',
+    imageLink: './Art/Jeet/pic.png',
+    author: 'Jeet Kanodia',
+    githubLink: 'https://github.com/jeetkanodia'
+  },
+  {
     artName: 'Flower',
     pageLink: './Art/ChrRepou/flower.html',
-    imageLink: './Art/ChrRepou/flower.css',
+    imageLink: './Art/ChrRepou/flower.png',
     author: 'ChrRepou',
     githubLink: 'https://github.com/ChrRepou'
   },
@@ -245,6 +315,13 @@ let cards = [
     githubLink: 'https://github.com/timDeHof'
   },
   {
+    artName: 'Circle Dancing',
+    pageLink: './Art/Umair/index.html',
+    imageLink: './Art/Umair/Circle-dancing.gif',
+    author: 'Mohammed Umair',
+    githubLink: 'https://github.com/umair986'
+  },
+  {
     artName: 'ZTM Text Animation',
     pageLink: './Art/Chugil/index.html',
     imageLink: './Art/Chugil/Screenshot.png',
@@ -266,9 +343,23 @@ let cards = [
     githubLink: 'https://github.com/SimardeepSingh-zsh'
   },
   {
+    artName: 'solarsystem',
+    pageLink: './Art/solarsystem/solarsystem.html',
+    imageLink: './Art/solarsystem/solarsystem.gif',
+    author: 'hanisntsolo',
+    githubLink: 'https://github.com/hanisntsolo'
+  },
+  {
+    artName: 'Galaxy',
+    pageLink: './Art/Aldair/galaxy.html',
+    imageLink: './Art/Aldair/galaxy.gif',
+    author: 'Aldair Huamani',
+    githubLink: 'https://github.com/Baku452'
+  },
+  {
     artName: 'Weird Spinner',
-    pageLink: './Art/lucifer/weirdSpinner.html',
-    imageLink: './Art/lucifer/weirdSpinner.png',
+    pageLink: './Art/lucifer510/weirdSpinner.html',
+    imageLink: './Art/lucifer510/weirdSpinner.png',
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
   },
