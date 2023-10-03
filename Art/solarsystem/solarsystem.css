@@ -17,7 +17,7 @@ body {
 .mercury {
   width: 5px;
   height: 5px;
-  background-color: darkred; /* Blue color for Earth */
+  background-color: darkred; /* darkred color for mercury */
   border-radius: 50%;
   position: absolute;
   top: 45%;
@@ -28,7 +28,7 @@ body {
 .venus {
   width: 10px;
   height: 10px;
-  background-color: cadetblue; /* Blue color for Earth */
+  background-color: cadetblue; /* cadetblue color for venus */
   border-radius: 50%;
   position: absolute;
   top: 45%;
@@ -61,7 +61,7 @@ body {
 .mars {
   width: 25px;
   height: 25px;
-  background-color: indianred; /* Blue color for Earth */
+  background-color: indianred; /* indianred color for mars */
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -84,7 +84,7 @@ body {
 .jupiter {
   width: 60px;
   height: 60px;
-  background-color: darkred; /* Blue color for Earth */
+  background-color: darkred; /* darkred color for jupiter */
   border-radius: 50%;
   position: absolute;
   top: 100%;
@@ -96,7 +96,7 @@ body {
 .saturn {
   width: 60px;
   height: 60px;
-  background-color: darkgoldenrod; /* Blue color for Earth */
+  background-color: darkgoldenrod; /* darkgoldenrod color for saturn */
   border-radius: 50%;
   position: absolute;
   top: 100%;
@@ -108,7 +108,7 @@ body {
 .uranus {
   width: 30px;
   height: 30px;
-  background-color: darkblue; /* Blue color for Earth */
+  background-color: darkblue; /* darkblue color for uranus */
   border-radius: 50%;
   position: absolute;
   top: 90%;
@@ -120,7 +120,7 @@ body {
 .neptune {
   width: 20px;
   height: 20px;
-  background-color: blue; /* Blue color for Earth */
+  background-color: blue; /* blue color for neptune */
   border-radius: 50%;
   position: absolute;
   top: 200%;
