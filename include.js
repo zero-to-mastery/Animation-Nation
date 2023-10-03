@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Orbiting-Ball',
+    pageLink: './Art/Tipchan/OrbitingBall.html',
+    imageLink: './Art/Tipchan/OrbitingBall.gif',
+    author: 'Tipchan',
+    githubLink: 'https://github.com/tsongtheng'
+  },
+  {
     artName: 'Simple BAAF',
     pageLink: './Art/baaf-Animation/index.html',
     imageLink: './Art/baaf-Animation/baafscreen.png',
