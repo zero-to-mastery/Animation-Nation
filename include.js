@@ -56,6 +56,13 @@ let cards = [
     githubLink: 'https://github.com/ibaaddurrani'
   },
   {
+    artName: 'Loader Animation',
+    pageLink: './Art/C S Sachindra/loader.html',
+    imageLink: './Art/C S Sachindra/loader.gif',
+    author: 'C S Sachindra',
+    githubLink: 'https://github.com/sandilya27'
+  },
+  {
     artName: 'Seven Segment Display',
     pageLink: './Art/Ankesh/segment-display.html',
     imageLink: './Art/Ankesh/segment-display.gif',
