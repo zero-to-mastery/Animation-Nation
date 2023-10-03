@@ -28,6 +28,13 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
+    artName: 'Dancing in Space',
+    pageLink: './Art/Maria/index.html',
+    imageLink: './Art/Maria/style.css',
+    author: 'Maria',
+    githubLink: 'https://github.com/mariapetra'
+  },
+  {
     artName: 'Circle',
     pageLink: './Art/lucas/circle.html',
     imageLink: './Art/lucas/circle.gif',
@@ -75,6 +82,13 @@ let cards = [
     imageLink: './Art/Ibaad/animationimagehover.gif',
     author: 'Ibaad',
     githubLink: 'https://github.com/ibaaddurrani'
+  },
+  {
+    artName: 'Animated-Panda',
+    pageLink: './Art/Naina/index.html',
+    imageLink: './Art/Naina/Panda.gif',
+    author: 'Naina',
+    githubLink: 'https://github.com/naina5602'
   },
   {
     artName: 'Circle',
@@ -404,6 +418,13 @@ let cards = [
     imageLink: './Art/Bhaskarsahu23/imageflip.gif',
     author: 'Bhaskarsahu23',
     githubLink: 'https://github.com/Bhaskarsahu23'
+  },
+  {
+    artName: 'Heaart',
+    pageLink: './Art/Neha045/index.html',
+    imageLink: './Art/Neha045/animation.gif',
+    author: 'Neha045',
+    githubLink: 'https://github.com/Neha045'
   }
 ];
 
