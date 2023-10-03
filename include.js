@@ -271,6 +271,13 @@ let cards = [
     imageLink: './Art/lucifer/weirdSpinner.png',
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
+  },
+  {
+    artName: '699669',
+    pageLink: './Art/Artis/699669.html',
+    imageLink: './Art/Artis/699669.gif',
+    author: 'Artis',
+    githubLink: 'https://github.com/69966969'
   }
 ];
 
