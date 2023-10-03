@@ -1,0 +1,41 @@
+.parent {
+  background-color: #0bcdc7;
+  height: 650px;
+  width: 650px;
+  border-radius: 25%;
+  align-items: center;
+}
+
+.child {
+  background-color: yellow;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  animation: rightSidebottom 2s linear forwards infinite alternate;
+}
+
+.parent:hover .child {
+  animation-play-state: paused;
+}
+
+@keyframes rightSidebottom {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    background-color: rgb(212, 18, 18);
+    transform: translateX(116%);
+  }
+  50% {
+    background-color: rgb(25, 0, 255);
+    transform: translateY(116%);
+  }
+  75% {
+    background-color: rgb(90, 200, 5);
+    transform: translateY(116%) translateX(116%);
+  }
+  100% {
+    background-color: rgb(255, 0, 217);
+    transform: translateY(0%);
+  }
+}
