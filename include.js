@@ -56,6 +56,13 @@ let cards = [
     githubLink: 'https://github.com/ibaaddurrani'
   },
   {
+    artName: 'Fan',
+    pageLink: './Art/Samriddhi/fan.html',
+    imageLink: './Art/Samriddhi/fan.png',
+    author: 'Samriddhi',
+    githubLink: 'https://github.com/NarayanSam'
+  },
+  {
     artName: 'RGB Square',
     pageLink: './Art/TCrypt/animated.html',
     imageLink: './Art/TCrypt/rgbsq-animated.gif',
