@@ -1,0 +1,125 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: hsl(193, 100%, 51%);
+  color: #f10d0d;
+}
+
+@keyframes growSquare {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 100px;
+  animation: growSquare 3s linear infinite;
+}
+
+.square {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  overflow: hidden;
+  transform-origin: 50% 66.666%;
+}
+.square::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0.707em;
+  height: 0.707em;
+  background: currentColor;
+  transform: translate(-50%, 50%) scaleX(1.414) scaleY(1.414) rotate(0.5turn);
+}
+.square:nth-child(1) {
+  animation: growSquare-1 3s infinite;
+}
+
+@keyframes growSquare-1 {
+  from,
+  10% {
+    transform: scale(0) rotate(180deg);
+    color: #f307c4;
+  }
+  75% {
+    transform: scale(1) rotate(180deg) translateY(-66.1%);
+    color: #f307c4;
+  }
+  to {
+    transform: scale(1) rotate(180deg) translateY(-66.1%);
+    color: #f3bd0d;
+  }
+}
+.square:nth-child(2) {
+  animation: growSquare-2 3s infinite;
+}
+
+@keyframes growSquare-2 {
+  from,
+  10% {
+    transform: scale(0) rotate(0deg);
+    color: #f3bd0d;
+  }
+  75% {
+    transform: scale(1) rotate(270deg) translateX(16.75%) translateY(-85%);
+    color: #f3bd0d;
+  }
+  to {
+    transform: scale(1) rotate(270deg) translateX(16.75%) translateY(-85%);
+    color: #07f30f;
+  }
+}
+.square:nth-child(3) {
+  animation: growSquare-3 3s infinite;
+}
+
+@keyframes growSquare-3 {
+  from,
+  10% {
+    transform: scale(0) rotate(0deg);
+    color: #07f30f;
+  }
+  75% {
+    transform: scale(1) rotate(360deg) translateY(-100%);
+    color: #07f30f;
+  }
+  to {
+    transform: scale(1) rotate(360deg) translateY(-100%);
+    color: #1b07f3;
+  }
+}
+.square:nth-child(4) {
+  animation: growSquare-4 3s infinite;
+}
+
+@keyframes growSquare-4 {
+  from,
+  30% {
+    transform: scale(0) rotate(0deg);
+    color: #1b07f3;
+  }
+  75% {
+    transform: scale(1) rotate(450deg) translateX(-16.75%) translateY(-85%);
+    color: #1b07f3;
+  }
+  to {
+    transform: scale(1) rotate(450deg) translateX(-16.75%) translateY(-85%);
+    color: #f307c4;
+  }
+}
