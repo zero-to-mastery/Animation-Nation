@@ -1424,6 +1424,13 @@ let cards = [
     imageLink: './Art/daniel-badura/ruby.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
+  },
+  {
+    artName: 'CSS Animation',
+    pageLink: './Art/jayg2309/animation.html', 
+    imageLink: './Art/jayg2309/animation.gif',
+    author: 'Jay',
+    githubLink: 'https://github.com/jayg2309'
   }
 ];
 
