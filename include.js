@@ -73,7 +73,8 @@ Shuffle(cards).forEach((c) => {
   ]);
 });
 
-document.getElementById('cards').innerHTML = contents;
+if(typeof document !== "undefined")
+  document.getElementById('cards').innerHTML = contents;
 
 function Shuffle(o) {
   for (
