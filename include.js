@@ -1751,6 +1751,13 @@ let cards = [
     imageLink: './Art/Sheefa/Netflix.gif',
     author: 'Sheefa',
     githubLink: 'https://github.com/sheefanaaz123'
+  },
+  {
+    artName: 'CUBE', 
+    pageLink: './Art/okaydivyansh/index.html', 
+    imageLink: './Art/okaydivyansh/cube.gif', 
+    author: 'Divyansh',
+    githubLink: 'https://github.com/okaydivyansh' 
   }
 ];
 
