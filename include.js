@@ -434,6 +434,13 @@ let cards = [
     githubLink: 'https://github.com/Bhaskarsahu23'
   },
   {
+    artName: 'Css eyes animation',
+    pageLink: './Art/Nawaf-vp',
+    imageLink: './Art/Nawaf-vp/css_eyes_animation.gif',
+    author: 'Nawaf',
+    githubLink: 'https://github.com/nawaf-vp'
+  },
+  {
     artName: 'Heaart',
     pageLink: './Art/Neha045/index.html',
     imageLink: './Art/Neha045/animation.gif',
