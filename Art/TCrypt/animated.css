@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.heart {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation: grow 3s ease-in-out forwards;
+  transform-origin: center bottom;
+  transform: rotate(-45deg);
+}
+
+@keyframes grow {
+  0% {
+    width: 0;
+    height: 0;
+    background-color: red;
+  }
+  50% {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+  }
+}
