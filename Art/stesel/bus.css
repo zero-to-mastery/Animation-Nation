@@ -1,0 +1,263 @@
+@keyframes jumpKeyframes {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  25%,
+  75% {
+    transform: translateY(0.3rem);
+  }
+
+  50% {
+    transform: translateY(-0.1rem);
+  }
+}
+
+@keyframes bounceKeyframes {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(2deg);
+  }
+
+  50% {
+    transform: rotate(-1deg);
+  }
+
+  75% {
+    transform: rotate(1deg);
+  }
+}
+
+@keyframes signalKeyframes {
+  0%,
+  20%,
+  60%,
+  100% {
+    box-shadow: none;
+  }
+
+  40%,
+  80% {
+    box-shadow: #ff8534 0 0 1rem 0.5rem;
+  }
+}
+
+@keyframes backLightKeyframes {
+  0%,
+  100% {
+    box-shadow: none;
+  }
+
+  50% {
+    box-shadow: #a82222 -0.3rem 0 0.5rem 0.3rem;
+  }
+}
+
+@keyframes frontLightKeyframes {
+  0%,
+  100% {
+    box-shadow: #f5f4e4 1rem 0 1.5rem 0.9rem;
+  }
+
+  50% {
+    box-shadow: #f5f4e4 1rem 0 1.5rem 0.5rem;
+  }
+}
+
+@keyframes wheelKeyframes {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #544b4b;
+  box-sizing: border-box;
+}
+
+.bus {
+  position: relative;
+  width: 22rem;
+  height: 8rem;
+
+  animation: jumpKeyframes 3s linear infinite;
+}
+
+.body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(30deg, #ebb22d 50%, #f9e8da);
+  border-radius: 1rem 1rem 0.5rem 0.5rem;
+  border: solid 0.05rem #000;
+
+  transform-origin: 90% 100%;
+  animation: bounceKeyframes 3s linear infinite;
+}
+
+.windows-door {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+
+  .window {
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    width: 3.5rem;
+    height: 3rem;
+    background-image: linear-gradient(30deg, #65dbf3 50%, #d2e3f5);
+    border-radius: 0.5rem;
+    border: solid 0.05rem #000;
+  }
+
+  .door {
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    width: 3.5rem;
+    height: 6.5rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(30deg, #ebb22d 50%, #f9e8da);
+    border: double 0.2rem #000;
+
+    .door-windows {
+      display: flex;
+      justify-content: space-around;
+
+      .door-window {
+        margin-top: 0.3rem;
+        width: 1.2rem;
+        height: 2.5rem;
+        background-image: linear-gradient(30deg, #65dbf3 50%, #d2e3f5);
+        border-radius: 0.5rem;
+        border: solid 0.05rem #000;
+      }
+    }
+
+    .door-shuttle {
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+      width: 10;
+      height: 100%;
+      border-left: double 0.2rem #000;
+    }
+  }
+}
+
+.front-window {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 1rem;
+  width: 1.5rem;
+  height: 3rem;
+  background-image: linear-gradient(30deg, #65dbf3 50%, #d2e3f5);
+  border-radius: 1rem 0.5rem 0.5rem 1rem;
+  border: solid 0.05rem #000;
+}
+
+.signals {
+  position: absolute;
+  left: 0;
+  top: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  box-sizing: border-box;
+
+  .signal {
+    width: 0.7rem;
+    height: 0.4rem;
+
+    background-color: #ffab36;
+    border-radius: 0.2rem;
+    border: solid 0.08rem #dcdcdc;
+
+    animation: signalKeyframes 2s ease-in infinite;
+  }
+}
+
+.lights {
+  position: absolute;
+  left: 0;
+  top: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+
+  .back-light {
+    width: 0.4rem;
+    height: 0.8rem;
+
+    background-color: #a82222;
+    border-radius: 0.2rem;
+    border: solid 0.08rem #dcdcdc;
+
+    animation: backLightKeyframes 2s ease-in infinite;
+  }
+
+  .front-light {
+    width: 0.7rem;
+    height: 0.7rem;
+
+    background-color: #f5f4e4;
+    border-radius: 0.4rem 0.1rem 0.1rem 0.4rem;
+    border: solid 0.08rem #dcdcdc;
+
+    animation: frontLightKeyframes 2s linear infinite;
+  }
+}
+
+.wheels {
+  width: 100%;
+  left: 0;
+  bottom: -1.5rem;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 0.6rem;
+
+  .wheel {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: solid 0.6rem #1a1a1a;
+    background-image: radial-gradient(#606060 20%, #d2d2d2);
+
+    animation: wheelKeyframes 3s linear infinite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .wheel-disc {
+      width: 40%;
+      height: 40%;
+      border-radius: 50%;
+      border: dotted 0.4rem #2a2a2a;
+    }
+  }
+}
