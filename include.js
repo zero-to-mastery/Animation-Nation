@@ -439,7 +439,14 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
-  }
+  },
+  {
+    artName: 'Against the Flow',
+    pageLink: './Art/Zareck521/index.html',
+    imageLink: './Art/Zareck521/otherway.gif',
+    author: 'Zareck521',
+    githubLink: 'https://github.com/Zareck521'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
