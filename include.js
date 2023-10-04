@@ -1480,7 +1480,13 @@ let cards = [
     imageLink: './Art/techfreakSahil/animation(hireBtn).png',
     author: 'techfreakSahil',
     githubLink: 'https://github.com/techfreakSahil'
-  }
+  },{
+    artName: 'Beach Loading Bar with Waves and Sun',
+    pageLink: './Art/Javier1019/index.html',
+    imageLink: './Art/Javier1019/beachloadingbar.gif',
+    author: 'Javier',
+    githubLink: 'https://github.com/Javier1019'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
