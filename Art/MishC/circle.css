@@ -1,0 +1,140 @@
+@keyframes radialMovement {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(36deg);
+  }
+  20% {
+    transform: rotate(72deg);
+  }
+  30% {
+    transform: rotate(108deg);
+  }
+  40% {
+    transform: rotate(144deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  60% {
+    transform: rotate(216deg);
+  }
+  70% {
+    transform: rotate(252deg);
+  }
+  80% {
+    transform: rotate(288deg);
+  }
+  90% {
+    transform: rotate(324deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes radialMovement1 {
+  0%,
+  100% {
+    transform: rotate(270deg);
+  }
+
+  10% {
+    transform: rotate(calc(234deg));
+  }
+  20% {
+    transform: rotate(calc(198deg));
+  }
+  30% {
+    transform: rotate(calc(162deg));
+  }
+  40% {
+    transform: rotate(calc(126deg));
+  }
+  50% {
+    transform: rotate(calc(90deg));
+  }
+  60% {
+    transform: rotate(calc(54deg));
+  }
+  70% {
+    transform: rotate(calc(18deg));
+  }
+  80% {
+    transform: rotate(calc(-18deg));
+  }
+  90% {
+    transform: rotate(calc(-54deg));
+  }
+  100% {
+    transform: rotate(calc(-90deg));
+  }
+}
+@keyframes radialMovement2 {
+  0%,
+  100% {
+    transform: rotate(90deg);
+  }
+  /* Calculate the rotation angle dynamically based on the percentage */
+  /* 10% = 36deg, 20% = 72deg, 30% = 108deg, and so on */
+  /* Use calc() to calculate the angle dynamically */
+  /* The formula is (percentage * 3.6deg) */
+  10% {
+    transform: rotate(calc(126deg));
+  }
+  20% {
+    transform: rotate(calc(162deg));
+  }
+  30% {
+    transform: rotate(calc(198deg));
+  }
+  40% {
+    transform: rotate(calc(234deg));
+  }
+  50% {
+    transform: rotate(calc(270deg));
+  }
+  60% {
+    transform: rotate(calc(306deg));
+  }
+  70% {
+    transform: rotate(calc(342deg));
+  }
+  80% {
+    transform: rotate(calc(378deg));
+  }
+  90% {
+    transform: rotate(calc(414deg));
+  }
+  100% {
+    transform: rotate(calc(450deg));
+  }
+}
+.circle {
+  transform-origin: center;
+  /*animation-name: radialMovement;*/
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.circle:nth-child(1) {
+  animation-name: radialMovement;
+  animation-duration: 1.4s;
+}
+
+.circle:nth-child(2) {
+  animation-name: radialMovement1;
+  animation-duration: 1s;
+}
+
+.circle:nth-child(3) {
+  animation-name: radialMovement2;
+  animation-duration: 0.8s;
+}
+
+.circle:nth-child(4) {
+  animation-name: radialMovement1;
+  animation-duration: 0.5s;
+}
+
+/*# sourceMappingURL=circle.css.map */
