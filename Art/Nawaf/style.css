@@ -2,7 +2,7 @@ body {
     background-color: rgb(255, 255, 255);
   }
   
-  #containerCircle {
+#containerCircle {
     text-align: center;
     top: 200px;
     position: relative;
@@ -15,7 +15,7 @@ body {
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
   }
    
-  .eyeBall {
+.eyeBall {
     display: inline-block;
     width: 25px;
     height: 25px;
@@ -27,7 +27,7 @@ body {
     animation: eyeBall 3s linear 10;
   }
   
-  .pupil{
+.pupil{
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -37,7 +37,7 @@ body {
     animation: pupil 1s linear 10;
   }
   
-  @-webkit-keyframes eyeBall {
+@-webkit-keyframes eyeBall {
     0% {
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
@@ -80,7 +80,7 @@ body {
     }
   }
   
-  @keyframes eyeBall {
+@keyframes eyeBall {
     0% {
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
@@ -123,7 +123,7 @@ body {
     }
   }
   
-  @keyframes pupil {
+@keyframes pupil {
     0% {
       transform: rotate(0deg);
     }
