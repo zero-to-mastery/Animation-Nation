@@ -1674,6 +1674,13 @@ let cards = [
     imageLink: './Art/RedHoodJT1988/colorRotSquare.gif',
     author: 'Jonathan Reeves',
     githubLink: 'https://github.com/RedHoodJT1988'
+  },
+  {
+    artName: 'Dynamic Shadow',
+    pageLink: './Art/Vamshidhar/index.html',
+    imageLink: './Art/Vamshidhar/dynamic-shadow.gif',
+    author: 'Vamshidhar Thonti',
+    githubLink: 'https://github.com/vamshidhar-thonti'
   }
 ];
 
