@@ -1562,6 +1562,13 @@ let cards = [
     imageLink: './Art/psykatsamanta/Bird_Animation.gif',
     author: 'psykatsamanta',
     githubLink: 'https://github.com/psykatsamanta'
+  },
+  {
+    artName: 'Animation Envelope',
+    pageLink: './Art/Miainaus/envelope.html',
+    imageLink: './Art/Miainaus/envelope.gif',
+    author: 'Mia',
+    githubLink: 'https://github.com/Miainaus'
   }
 ];
 
