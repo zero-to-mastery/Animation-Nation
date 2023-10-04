@@ -215,6 +215,13 @@ let cards = [
     imageLink: './Art/Simar/trippy-square.gif',
     author: 'Simar',
     githubLink: 'https://github.com/SimardeepSingh-zsh'
+  },
+  {
+    artName: 'ZTM Cube',
+    pageLink: './Art/williamstophef/index.html',
+    imageLink: './Art/williamstophef/CubeArt.gif',
+    author: 'Christopher Williams',
+    githubLink: 'https://github.com/williamstophef'
   }
 ];
 
