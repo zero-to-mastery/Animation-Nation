@@ -1513,7 +1513,14 @@ let cards = [
     imageLink: './Art/Gibso10/Box Color.gif',
     author: 'Gibso10',
     githubLink: 'https://github.com/Gibso10'
-  }
+  },
+  {
+    artName: 'Against the Flow',
+    pageLink: './Art/Zareck521/index.html',
+    imageLink: './Art/Zareck521/otherway.gif',
+    author: 'Zareck521',
+    githubLink: 'https://github.com/Zareck521'
+  },
 ];
 
 
