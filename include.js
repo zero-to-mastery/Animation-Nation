@@ -439,7 +439,14 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
-  }
+  },
+  {
+    artName: 'Beach Loading Bar with Waves and Sun',
+    pageLink: './Art/Javier1019/index.html',
+    imageLink: './Art/Javier1019/beachloadingbar.gif',
+    author: 'Javier',
+    githubLink: 'https://github.com/Javier1019'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+

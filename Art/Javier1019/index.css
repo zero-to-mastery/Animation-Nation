@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #FFB6C1, #f4f4f4); /* Light pink to gray for a dawn/dusk feel */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+.loading-bar {
+    position: relative;
+    width: 300px;
+    height: 60px;
+    border: 5px solid #ddd;
+    overflow: hidden;
+    border-radius: 30px;
+    background: #87CEEB; /* Sky blue */
+    box-shadow: inset 0 0 50px rgba(0, 0, 255, 0.2); /* Inner shadow for depth */
+}
+
+.sand {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: #F4A460; /* Sandy brown */
+    z-index: 1;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5"><circle cx="2.5" cy="2.5" r="1" fill="%238B4513" /></svg>'); /* Small dots as pebbles or shells */
+}
+
+.liquid {
+    position: absolute;
+    bottom: 20px; /* Above the sand */
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to top, #1E90FF, #00BFFF, #1E90FF); /* Deep sky blue */
+    animation: wave 2s infinite, fillUp 10s infinite alternate;
+    z-index: 2;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes fillUp {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.ripple {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background: radial-gradient(circle, #1E90FF, transparent);
+    transform: translate(-50%, -50%);
+    animation: rippleEffect 2s infinite;
+    opacity: 0.4;
+    z-index: 3;
+}
+
+@keyframes rippleEffect {
+    0% {
+        width: 10px;
+        height: 10px;
+        opacity: 0.4;
+    }
+    100% {
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+    }
+}
+
+.sun {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(circle, #FFD700, #FFA500);
+    border-radius: 50%;
+    transform: scale(0);
+    animation: sunRise 10s infinite alternate;
+    box-shadow: 0 0 20px #FFD700;
+    z-index: 4;
+}
+
+@keyframes sunRise {
+    0% {
+        transform: scale(0);
+    }
+    80% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
