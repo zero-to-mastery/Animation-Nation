@@ -2256,7 +2256,14 @@ let cards = [
     imageLink: './Art/ramanamatya/load.gif',
     author: 'ramanamatya',
     githubLink: 'https://github.com/ramanamatya'
-  }
+  },
+  {
+    artName: "Letter_Animation",
+    pageLink: "./Art/varshithab05/indexp.html",
+    imageLink: "./Art/varshithab05/Letter_Animation.gif",
+    author: "varshithab05",
+    githubLink: "https://github.com/varshithab05",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
