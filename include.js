@@ -27,6 +27,15 @@ let cards = [
     author: 'JT Singh',
     githubLink: 'https://github.com/JT-Singh'
   },
+  
+  {
+    artName: 'MovingTriangle',
+    pageLink: './Art/AkashCss/index.html',
+    imageLink: './Art/AkashCss/AkashCssGif.gif',
+    author: 'Akash',
+    githubLink: 'https://github.com/Akash-Jambulkar'
+  },
+
   {
     artName: 'Triangle',
     pageLink: './Art/Joy/triangle.html',
