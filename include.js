@@ -1445,6 +1445,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'ZTM Cube',
+    pageLink: './Art/williamstophef/index.html',
+    imageLink: './Art/williamstophef/CubeArt.gif',
+    author: 'Christopher Williams',
+    githubLink: 'https://github.com/williamstophef'
   }
 ];
 
