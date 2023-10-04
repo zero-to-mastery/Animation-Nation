@@ -439,6 +439,13 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
+  },
+  {
+    artName: 'Netflix Logo',
+    pageLink: './Art/Sheefa/Netflix.html',
+    imageLink: './Art/Sheefa/Netflix.gif',
+    author: 'Sheefa',
+    githubLink: 'https://github.com/sheefanaaz123'
   }
 ];
 
