@@ -1,17 +1,38 @@
 let cards = [
   {
+    artName: 'hanisntsolo',
+    pageLink: './Art/hanisntsolo/hanisntsolo.html',
+    imageLink: './Art/hanisntsolo/hanisntsolo.gif',
+    author: 'Hanisntsolo',
+    githubLink: 'https://github.com/hanisntsolo'
+  },
+  {
+    artName: 'Orbiting-Ball',
+    pageLink: './Art/Tipchan/OrbitingBall.html',
+    imageLink: './Art/Tipchan/OrbitingBall.gif',
+    author: 'Tipchan',
+    githubLink: 'https://github.com/tsongtheng'
+  },
+  {
+    artName: 'Simple BAAF',
+    pageLink: './Art/baaf-Animation/index.html',
+    imageLink: './Art/baaf-Animation/baafscreen.png',
+    author: 'Farid Bass',
+    githubLink: 'https://github.com/baafbass'
+  },
+  {
+    artName: 'Animated-Biker',
+    pageLink: './Art/JT-Singh/index.html',
+    imageLink: './Art/JT-Singh/biker.gif',
+    author: 'JT Singh',
+    githubLink: 'https://github.com/JT-Singh'
+  },
+  {
     artName: 'Triangle',
     pageLink: './Art/Joy/triangle.html',
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
-  },
-  {
-    artName: 'MovingTriangle',
-    pageLink: './Art/AkashCss/index.html',
-    imageLink: './Art/AkashCss/AkashCssGif.gif',
-    author: 'Akash_Jambulkar',
-    githubLink: 'https://github.com/Akash-Jambulkar'
   }
 ];
 

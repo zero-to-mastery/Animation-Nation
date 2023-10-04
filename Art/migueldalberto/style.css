@@ -1,0 +1,84 @@
+html,
+body {
+  background-color: #2b2b2b;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  width: 80px;
+  height: 240px;
+  animation: slide 3s ease forwards;
+  animation-iteration-count: infinite;
+}
+
+.square {
+  width: 90px;
+  height: 90px;
+  border: 3px solid #042037;
+  background-color: #042037;
+  animation: drop 3s ease forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  0%,
+  60%,
+  100% {
+    transform: translateX(0em);
+  }
+
+  90% {
+    transform: translateX(80em);
+  }
+}
+
+@keyframes drop {
+  0%,
+  100% {
+    opacity: 0;
+    transform: translateY(-50em);
+  }
+
+  30%,
+  70% {
+    transform: translateY(0em);
+    opacity: 1;
+  }
+
+  71% {
+    opacity: 0;
+  }
+}
+
+.square:first-child {
+  border-color: #1a1a59;
+  background-color: #343477;
+  opacity: 0;
+  animation-delay: 500ms;
+}
+
+.square:nth-child(2) {
+  border-color: #042037;
+  background-color: #294f6d;
+  opacity: 0;
+  animation-delay: 250ms;
+}
+
+.square:last-child {
+  border-color: #09093b;
+  background-color: #1a1a59;
+  opacity: 0;
+  animation-delay: 50ms;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #0f5738;
+  border-radius: 100%;
+  background-color: #277554;
+}
