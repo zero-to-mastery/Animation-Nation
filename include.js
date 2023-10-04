@@ -1,6 +1,6 @@
 let cards = [
   {
-  artName: 'hanisntsolo',
+    artName: 'hanisntsolo',
     pageLink: './Art/hanisntsolo/hanisntsolo.html',
     imageLink: './Art/hanisntsolo/hanisntsolo.gif',
     author: 'Hanisntsolo',
