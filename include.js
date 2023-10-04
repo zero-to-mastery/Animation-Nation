@@ -439,7 +439,14 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
-  }
+  },
+  {
+    artName: 'Running watch', 
+    pageLink: './Art/Pratyush-Dehury/index.html', 
+    imageLink: './Art/Pratyush-Dehury/wrist-watch.gif', 
+    author: 'Pratyush Dehury',
+    githubLink: 'https://github.com/Pratyush-Dehury'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
