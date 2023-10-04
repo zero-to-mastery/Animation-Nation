@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .button {
   display: flex;
   width: 85px;
@@ -68,4 +69,63 @@
     box-shadow: 2.57px 0 0 1.5px white;
     background: rgba(217, 217, 217, 0);
   }
+=======
+.button{
+    display: flex;
+    width: 85px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #AF8443 76.04%, rgba(60, 46, 25, 0.00) 100%);
+    animation: dayToNight 2s forwards infinite;
+}
+.round{
+    display: flex; 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    flex-shrink: 0; 
+    background: linear-gradient(180deg, #EAB223 52.6%, rgba(217, 217, 217, 0.00) 100%);
+    padding: 2px;
+    animation: lightToDark 2s forwards infinite;
+}
+.sun{
+    display: flex;;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    padding: 2px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #dfa513 0%, rgba(252, 249, 249, 0) 100%);
+    
+    animation:sunToMoon 2s forwards infinite;
+
+}
+@keyframes dayToNight{
+        0% {
+          background: linear-gradient(180deg, #AF8443 76.04%, rgba(60, 46, 25, 0.00) 100%);
+        }
+        100% {
+          background: linear-gradient(180deg, #323846 99.99%, rgba(51, 49, 185, 0.00) 100%);
+        }
+}
+@keyframes lightToDark{
+    100%{
+        margin-left: 44%;     
+        background: linear-gradient(180deg, #0E0D10 0%, rgba(217, 217, 217, 0.00) 100%);
+    }
+    
+}
+@keyframes sunToMoon{
+    100%{
+        transform: translateX(75%) translateY(-50%); /* Move the moon to the right */
+        margin-top: 45%;
+        padding-left: 2px;
+        width: 15.737px;
+        height: 23px;
+        box-shadow: 2.57px 0 0 1.5px white;
+        background:rgba(217, 217, 217, 0.00);
+    
+    }
+>>>>>>> 6b6d88cf (added button animation)
 }
