@@ -93,7 +93,7 @@ let cards = [
   },
   {
     artName: 'Sliding Bot',
-    pageLink: './Art/ProfoundlyParkerindex.html',
+    pageLink: './Art/ProfoundlyParker/index.html',
     imageLink: './Art/ProfoundlyParker/robot.gif',
     author: 'ProfoundlyParker',
     githubLink: 'https://github.com/profoundlyparker'
