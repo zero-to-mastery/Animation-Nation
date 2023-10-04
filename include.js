@@ -632,7 +632,7 @@ let cards = [
   },
   {
     artName: 'Css eyes animation',
-    pageLink: './Art/Nawaf-vp',
+    pageLink: './Art/Nawaf-vp/index.html',
     imageLink: './Art/Nawaf-vp/css_eyes_animation.gif',
     author: 'Nawaf',
     githubLink: 'https://github.com/nawaf-vp'
