@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.art-container {
+  position: relative;
+}
+
+.animated-shape {
+  width: 50px;
+  height: 50px;
+  background-color: #db34c5;
+  position: absolute;
+  animation: moveAround 2s ease-in-out infinite;
+}
+
+@keyframes moveAround {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(50px, 50px);
+  }
+  50% {
+    transform: translate(100px, 0);
+  }
+  75% {
+    transform: translate(50px, -50px);
+  }
+}

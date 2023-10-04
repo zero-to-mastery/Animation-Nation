@@ -1,0 +1,77 @@
+/* Basic Styling Setup */
+body {
+  margin: 100px;
+  background-color: rgb(3, 4, 70);
+}
+
+/* group of globes and moons  */
+.universe {
+  display: flex;
+  justify-content: space-around;
+}
+
+.globe,
+.globe2 {
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin: 125px auto;
+  background-color: rgb(251, 4, 165);
+}
+
+.globe {
+  animation: beat 1.5s alternate infinite
+    cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.globe2 {
+  animation: beat 1.5s alternate-reverse infinite
+    cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* make the globe beat  */
+
+@keyframes beat {
+  from {
+    background-color: #f605d6;
+    transform: scale(0.5);
+  }
+
+  to {
+    background-color: rgba(193, 5, 245, 0.775);
+    transform: scale(0.1.5);
+  }
+}
+
+/* Floating Moon */
+.moon,
+.moon2 {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: 50px;
+}
+
+.moon {
+  animation: dip 2s ease-in-out alternate infinite;
+  box-shadow: 12.5px 12.5px 0 rgb(238, 230, 6);
+}
+
+.moon2 {
+  animation: dip 3s ease-out alternate-reverse infinite;
+  box-shadow: 12.5px 12.5px 0 rgb(10, 6, 238);
+}
+
+/* animation for the moon */
+@keyframes dip {
+  from {
+    transform: translateY(0%) opacity(0.5);
+  }
+
+  to {
+    transform: translateY(25%);
+    opacity: (1);
+  }
+}

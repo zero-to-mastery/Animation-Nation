@@ -21,11 +21,25 @@ let cards = [
     githubLink: 'https://github.com/baafbass'
   },
   {
+    artName: 'Animated-Biker',
+    pageLink: './Art/JT-Singh/index.html',
+    imageLink: './Art/JT-Singh/biker.gif',
+    author: 'JT Singh',
+    githubLink: 'https://github.com/JT-Singh'
+  },
+  {
     artName: 'Triangle',
     pageLink: './Art/Joy/triangle.html',
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'Dancing in Space',
+    pageLink: './Art/Maria/index.html',
+    imageLink: './Art/Maria/style.css',
+    author: 'Maria',
+    githubLink: 'https://github.com/mariapetra'
   },
   {
     artName: 'Circle',
@@ -56,6 +70,13 @@ let cards = [
     githubLink: 'https://github.com/rperry99'
   },
   {
+    artName: 'Planet',
+    pageLink: './Art/serhatbek/index.html',
+    imageLink: './Art/serhatbek/planet.gif',
+    author: 'serhatbek',
+    githubLink: 'https://github.com/serhatbek'
+  },
+  {
     artName: 'Rocket',
     pageLink: './Art/Suryansh/rocket.html',
     imageLink: './Art/Suryansh/rocket.gif',
@@ -68,6 +89,27 @@ let cards = [
     imageLink: './Art/Ibaad/animationimagehover.gif',
     author: 'Ibaad',
     githubLink: 'https://github.com/ibaaddurrani'
+  },
+  {
+    artName: 'Animated-Panda',
+    pageLink: './Art/Naina/index.html',
+    imageLink: './Art/Naina/Panda.gif',
+    author: 'Naina',
+    githubLink: 'https://github.com/naina5602'
+  },
+  {
+    artName: 'Circle',
+    pageLink: './Art/MishC/circle.html',
+    imageLink: './Art/MishC/magic_circle.gif',
+    author: 'MishC',
+    githubLink: 'https://github.com/MishC'
+  },
+  {
+    artName: 'SquBounce',
+    pageLink: './Art/Sanusi/index.html',
+    imageLink: './Art/Sanusi/sanusi-animation.gif',
+    author: 'Sanusi',
+    githubLink: 'https://github.com/sanusisusi'
   },
   {
     artName: 'RichardsAnimation',
@@ -138,6 +180,13 @@ let cards = [
     imageLink: './Art/ChipoJ/star_fall.gif',
     author: 'ChipoJ',
     githubLink: 'https://github.com/Chipoj'
+  },
+  {
+    artName: 'Heartbeat',
+    pageLink: './Art/Karol/index.html',
+    imageLink: './Art/Karol/animation.gif',
+    author: 'Karol',
+    githubLink: 'https://github.com/karolwjck'
   },
   {
     artName: 'Bouncing Screensaver',
@@ -371,12 +420,33 @@ let cards = [
     githubLink: 'https://github.com/69966969'
   },
   {
+    artName: 'spinning square',
+    pageLink: './Art/dmdiamond79/spinningsquare.html',
+    imageLink: './Art/dmdiamond79/spinning.gif',
+    author: 'dmdiamond79',
+    githubLink: 'https://github.com/dmdiamond79'
+  },
+  {
+    artName: 'Bhaskar Sahu',
+    pageLink: './Art/Bhaskarsahu23',
+    imageLink: './Art/Bhaskarsahu23/imageflip.gif',
+    author: 'Bhaskarsahu23',
+    githubLink: 'https://github.com/Bhaskarsahu23'
+  },
+  {
+    artName: 'Heaart',
+    pageLink: './Art/Neha045/index.html',
+    imageLink: './Art/Neha045/animation.gif',
+    author: 'Neha045',
+    githubLink: 'https://github.com/Neha045'
+  },
+  {
     artName: 'Move phone',
     pageLink: './Art/Teri/index.html',
     imageLink: './Art/Teri/animate.gif',
     author: 'Teri',
     githubLink: 'https://github.com/terieyenike'
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
