@@ -439,6 +439,13 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
+  },
+  {
+    artName: 'Animation Envelope',
+    pageLink: './Art/Miainaus/envelope.html',
+    imageLink: './Art/Miainaus/envelope.gif',
+    author: 'Mia',
+    githubLink: 'https://github.com/Miainaus'
   }
 ];
 
