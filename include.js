@@ -439,7 +439,14 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
-  }
+  },
+    {
+      artName: 'CUBE', 
+      pageLink: './Art/okaydivyansh/index.html', 
+      imageLink: './Art/okaydivyansh/cube.gif', 
+      author: 'Divyansh',
+      githubLink: 'https://github.com/okaydivyansh' 
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
