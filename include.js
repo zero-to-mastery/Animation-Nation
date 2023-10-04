@@ -439,6 +439,13 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
+  },
+  {
+    artName: 'SharinganMangekyou', // change this to the name of your artwork
+    pageLink: './Art/SankN22/SharinganMangekyou.html', // change this
+    imageLink: './Art/SankN22/SharinganMangekyou.gif', // change this
+    author: 'SankN22', // use your name
+    githubLink: 'https://github.com/SankN22' // change this
   }
 ];
 
