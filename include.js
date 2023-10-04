@@ -224,6 +224,13 @@ let cards = [
     githubLink: 'https://github.com/alexsatalan'
   },
   {
+    artName: 'Animating Rings',
+    pageLink: './Art/AmanRawat/index.html',
+    imageLink: './Art/AmanRawat/rings.gif',
+    author: 'amanr-dev',
+    githubLink: 'https://github.com/amanr-dev'
+  },
+  {
     artName: 'olga_min',
     pageLink: './Art/olga_min/index.html',
     imageLink: './Art/olga_min/animation.gif',
@@ -432,13 +439,6 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
-  },
-  {
-    artName: 'Animating Rings',
-    pageLink: './Art/AmanRawat/index.html',
-    imageLink: './Art/AmanRawat/rings.gif',
-    author: 'amanr-dev',
-    githubLink: 'https://github.com/amanr-dev'
   }
 ];
 
