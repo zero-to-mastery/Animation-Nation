@@ -1506,6 +1506,13 @@ let cards = [
     imageLink: './Art/BatistaDev1113/scalingLoader.gif',
     author: 'BatistaDev1113',
     githubLink: 'https://github.com/batistaDev1113'
+  },
+  {
+    artName: 'Rotate Color',
+    pageLink: './Art/Gibso10/index.html',
+    imageLink: './Art/Gibso10/Box Color.gif',
+    author: 'Gibso10',
+    githubLink: 'https://github.com/Gibso10'
   }
 ];
 
