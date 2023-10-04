@@ -444,7 +444,7 @@ let cards = [
     artName: 'Moving Car',
     pageLink: './Art/Ravkeerat02/car.html',
     imageLink: './Art/Ravkeerat02/car.gif',
-    author: 'Joy',
+    author: 'Ravkeerat Singh',
     githubLink: 'https://github.com/Ravkeerat02'
   }
 ];
