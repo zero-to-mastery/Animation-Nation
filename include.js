@@ -1453,6 +1453,13 @@ let cards = [
     githubLink: 'https://github.com/jatanassian'
   },
   {
+    artName: 'Moving Car',
+    pageLink: './Art/Ravkeerat02/car.html',
+    imageLink: './Art/Ravkeerat02/car.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/Ravkeerat02'
+  },
+  {
     artName: 'CSS Animation',
     pageLink: './Art/jayg2309/animation.html',
     imageLink: './Art/jayg2309/animation.gif',
