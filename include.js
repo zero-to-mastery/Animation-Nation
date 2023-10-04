@@ -1667,6 +1667,13 @@ let cards = [
     imageLink: './Art/Groot-2001/sun-animation.gif', // change this
     author: 'Shiva Silmawala', // use your name
     githubLink: 'https://github.com/Groot-2001' // change this
+  },
+  {
+    artName: 'ColorRot Square',
+    pageLink: './Art/RedHoodJT1988/index.html',
+    imageLink: './Art/RedHoodJT1988/colorRotSquare.gif',
+    author: 'Jonathan Reeves',
+    githubLink: 'https://github.com/RedHoodJT1988'
   }
 ];
 
