@@ -369,7 +369,14 @@ let cards = [
     imageLink: './Art/Artis/699669.gif',
     author: 'Artis',
     githubLink: 'https://github.com/69966969'
-  }
+  },
+  {
+    artName: 'Move phone',
+    pageLink: './Art/Teri/index.html',
+    imageLink: './Art/Teri/animate.gif',
+    author: 'Teri',
+    githubLink: 'https://github.com/terieyenike'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
