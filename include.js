@@ -439,6 +439,13 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
+  },
+  {
+    artName: 'Dynamic Shadow',
+    pageLink: './Art/Vamshidhar/index.html',
+    imageLink: './Art/Vamshidhar/dynamic-shadow.gif',
+    author: 'Vamshidhar Thonti',
+    githubLink: 'https://github.com/vamshidhar-thonti'
   }
 ];
 
