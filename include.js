@@ -1597,6 +1597,13 @@ let cards = [
     imageLink: './Art/Darkrider0007/waving-hand.gif',
     author: 'Darkrider0007',
     githubLink: 'https://github.com/Darkrider0007'
+  },
+  { 
+    artName: 'Rotating Cube',
+    pageLink: './Art/BatistaDev1113/cube.html',
+    imageLink: './Art/BatistaDev1113/rotatingCube.gif',
+    author: 'batistaDev1113',
+    githubLink: 'https://github.com/batistaDev1113'
   }
 ];
 
