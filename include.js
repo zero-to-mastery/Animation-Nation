@@ -1010,8 +1010,6 @@ let cards = [
     githubLink: 'https://github.com/lucifer510'
   },
   {
-<<<<<<< HEAD
-=======
     artName: 'Ruby',
     pageLink: './Art/daniel-badura/ruby.html',
     imageLink: './Art/daniel-badura/ruby.gif',
@@ -1019,7 +1017,6 @@ let cards = [
     githubLink: 'https://github.com/daniel-badura'
   },
   {
->>>>>>> 24691636 (Diamond)
     artName: '699669',
     pageLink: './Art/Artis/699669.html',
     imageLink: './Art/Artis/699669.gif',
@@ -1476,6 +1473,13 @@ let cards = [
     imageLink: './Art/daniel-badura/diamond.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
+  },
+  {
+    artName: 'Hire Me Button Animation',
+    pageLink: './Art/techfreakSahil/index.html',
+    imageLink: './Art/techfreakSahil/animation(hireBtn).png',
+    author: 'techfreakSahil',
+    githubLink: 'https://github.com/techfreakSahil'
   }
 ];
 
