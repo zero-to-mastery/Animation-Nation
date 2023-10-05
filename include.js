@@ -497,10 +497,10 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
-    artName: 'Wordspin', 
-    pageLink: './Art/trottiemcqueen/wordspin.html', 
-    imageLink: './Art/trottiemcqueen/wordspin.png', 
-    author: 'Trottie McQueen', 
+    artName: 'Wordspin',
+    pageLink: './Art/trottiemcqueen/wordspin.html',
+    imageLink: './Art/trottiemcqueen/wordspin.png',
+    author: 'Trottie McQueen',
     githubLink: 'https://github.com/trottiemcqueen'
   }
 ];
