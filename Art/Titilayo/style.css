@@ -1,0 +1,198 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: aqua;
+}
+/*------------first ball--------------*/
+.animation {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  margin: auto;
+  left: 10px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.firstball {
+  background-color: deeppink;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  position: relative;
+  top: 100px;
+  left: 220px;
+  animation: bounce 0.9s infinite;
+}
+
+@keyframes bounce {
+  10% {
+    height: 50px;
+    width: 50px;
+  }
+  30% {
+    height: 50px;
+    width: 40px;
+  }
+  50% {
+    height: 30px;
+    width: 57px;
+    transform: translateY(240px);
+  }
+  75% {
+    height: 50px;
+    width: 57px;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.container {
+  width: 57px;
+  height: 50px;
+}
+.shadow {
+  background-color: rgba(8, 8, 8, 0.05);
+  height: 10px;
+  width: 65px;
+  border-radius: 50%;
+  position: relative;
+  top: 310px;
+  left: 212px;
+  z-index: -1;
+  animation: shrink 0.9% infinite;
+}
+@keyframes shrink {
+  50% {
+    transform: scaleX(0.5);
+  }
+}
+
+/*------------second ball-----------*/
+.animation {
+  height: 700px;
+  width: 800px;
+  position: absolute;
+  margin: auto;
+  left: 10px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.secondball {
+  background-color: deeppink;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  position: relative;
+  top: 100px;
+  left: 220px;
+  animation: bounce 0.9s infinite;
+}
+
+@keyframes bounce {
+  10% {
+    height: 50px;
+    width: 50px;
+  }
+  30% {
+    height: 50px;
+    width: 40px;
+  }
+  50% {
+    height: 30px;
+    width: 57px;
+    transform: translateY(240px);
+  }
+  75% {
+    height: 50px;
+    width: 57px;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.container {
+  width: 57px;
+  height: 50px;
+}
+.shadow {
+  background-color: rgba(8, 8, 8, 0.05);
+  height: 10px;
+  width: 65px;
+  border-radius: 50%;
+  position: relative;
+  top: 310px;
+  left: 212px;
+  z-index: -1;
+  animation: shrink 0.9% infinite;
+}
+@keyframes shrink {
+  50% {
+    transform: scaleX(0.5);
+  }
+}
+/*------------shape-----------*/
+.animation {
+  height: 700px;
+  width: 800px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.shape {
+  background-color: rgb(60, 20, 181);
+  height: 175px;
+  width: 175px;
+  border-radius: 115px;
+  position: relative;
+  top: 185px;
+  left: 150px;
+  animation: none;
+}
+
+@keyframes reverse {
+  10% {
+    height: 50px;
+    width: 50px;
+  }
+  30% {
+    height: 50px;
+    width: 40px;
+  }
+  50% {
+    height: 30px;
+    width: 57px;
+    transform: translateY(240px);
+  }
+  75% {
+    height: 50px;
+    width: 57px;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.container {
+  width: 57px;
+  height: 50px;
+}
+.shadoww {
+  background-color: rgba(8, 8, 8, 0.05);
+  height: 10px;
+  width: 65px;
+  border-radius: 50%;
+  position: relative;
+  top: 310px;
+  left: 212px;
+  z-index: -1;
+  animation: shrink 0.9% infinite;
+}
+@keyframes shrink {
+  50% {
+    transform: scaleX(0.5);
+  }
+}
