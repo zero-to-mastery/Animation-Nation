@@ -495,7 +495,15 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'Hire Me Button Animation',
+    pageLink: './Art/techfreakSahil/index.html',
+    imageLink: './Art/techfreakSahil/animation(hireBtn).png',
+    author: 'techfreakSahil',
+    githubLink: 'https://github.com/techfreakSahil'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
