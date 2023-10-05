@@ -1,0 +1,215 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #2d3436;
+  color: #fab1a0;
+}
+
+/* The element to apply the animation to */
+div.smokeRaven {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: smokeRaven;
+  animation-duration: 4s;
+  border-radius: 50%;
+}
+
+div.circle1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  background-color: red;
+  animation-name: circle;
+  animation-duration: 4s;
+  border-radius: 50%;
+}
+div.circle2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  background-color: red;
+  animation-name: circle;
+  animation-duration: 4s;
+  border-radius: 50%;
+}
+
+/* The animation code */
+@keyframes circle {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes smokeRaven {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    clip-path: circle(50% at 50% 50%);
+  }
+  5% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    clip-path: circle(50% at 50% 50%);
+  }
+  10% {
+    background-color: yellow;
+    left: 100px;
+    top: 0px;
+    clip-path: polygon(
+      20% 0%,
+      0% 20%,
+      30% 50%,
+      0% 80%,
+      20% 100%,
+      50% 70%,
+      80% 100%,
+      100% 80%,
+      70% 50%,
+      100% 20%,
+      80% 0%,
+      50% 30%
+    );
+  }
+  20% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+    clip-path: polygon(
+      20% 0%,
+      0% 20%,
+      30% 50%,
+      0% 80%,
+      20% 100%,
+      50% 70%,
+      80% 100%,
+      100% 80%,
+      70% 50%,
+      100% 20%,
+      80% 0%,
+      50% 30%
+    );
+  }
+  30% {
+    background-color: yellow;
+    left: 0px;
+    top: 100px;
+    clip-path: polygon(
+      20% 0%,
+      0% 20%,
+      30% 50%,
+      0% 80%,
+      20% 100%,
+      50% 70%,
+      80% 100%,
+      100% 80%,
+      70% 50%,
+      100% 20%,
+      80% 0%,
+      50% 30%
+    );
+  }
+  40% {
+    background-color: red;
+    left: 100px;
+    top: 100px;
+    clip-path: circle(50% at 50% 50%);
+  }
+  50% {
+    background-color: yellow;
+    left: 200px;
+    top: 100px;
+    clip-path: polygon(
+      20% 0%,
+      0% 20%,
+      30% 50%,
+      0% 80%,
+      20% 100%,
+      50% 70%,
+      80% 100%,
+      100% 80%,
+      70% 50%,
+      100% 20%,
+      80% 0%,
+      50% 30%
+    );
+  }
+  60% {
+    background-color: yellow;
+    left: 0px;
+    top: 200px;
+    clip-path: polygon(
+      20% 0%,
+      0% 20%,
+      30% 50%,
+      0% 80%,
+      20% 100%,
+      50% 70%,
+      80% 100%,
+      100% 80%,
+      70% 50%,
+      100% 20%,
+      80% 0%,
+      50% 30%
+    );
+  }
+  70% {
+    background-color: yellow;
+    left: 100px;
+    top: 200px;
+    clip-path: polygon(
+      20% 0%,
+      0% 20%,
+      30% 50%,
+      0% 80%,
+      20% 100%,
+      50% 70%,
+      80% 100%,
+      100% 80%,
+      70% 50%,
+      100% 20%,
+      80% 0%,
+      50% 30%
+    );
+  }
+  80% {
+    background-color: red;
+    left: 200px;
+    top: 200px;
+    clip-path: circle(50% at 50% 50%);
+  }
+  80% {
+    background-color: red;
+    left: 200px;
+    top: 200px;
+    clip-path: circle(50% at 50% 50%);
+  }
+  80% {
+    background-color: red;
+    left: 200px;
+    top: 200px;
+    clip-path: circle(50% at 50% 50%);
+  }
+  100% {
+    visibility: visible;
+  }
+}

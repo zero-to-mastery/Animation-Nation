@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Tic Tac Yo!',
+    pageLink: './Art/smokeraven667/smokeraven.html',
+    imageLink: './Art/smokeraven667/tic-tac-yo.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/smokeraven667'
+  },
+  {
     artName: 'Animation-box',
     pageLink: './Art/Himanshu_Chauhan/index.html',
     imageLink: './Art/Himanshu_Chauhan/animation-box.gif',
