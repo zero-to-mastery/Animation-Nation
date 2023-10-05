@@ -495,6 +495,20 @@ let cards = [
     imageLink: './Art/breadmooch/bearStrawhat.gif',
     author: 'breadmooch',
     githubLink: 'https://github.com/breadmooch'
+  },
+  {
+    artName: 'Bounceballs',
+    pageLink: './Art/Titilayo/index.html',
+    imageLink: './Art/Titilayo/bounceballs.png',
+    author: 'Titilayo',
+    githubLink: 'https://github.com/Teetee-lab'
+  },
+  {
+    artName: 'Stylish Text Animation',
+    pageLink: './Art/varunrmantri23/index.html',
+    imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
+    author: 'varunrmantri23',
+    githubLink: 'https://github.com/varunrmantri23'
   }
 ];
 
