@@ -495,6 +495,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'moving box',
+    pageLink: './Art/Esinnation/index.html',
+    imageLink: './Art/dmdiamond79/animation.gif',
+    author: 'Esinnation',
+    githubLink: 'https://github.com/Esinnation'
   }
 ];
 
