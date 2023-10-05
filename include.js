@@ -448,6 +448,13 @@ let cards = [
     githubLink: 'https://github.com/Bhaskarsahu23'
   },
   {
+    artName: 'Starry Night', 
+    pageLink: './Art/lucileTech/starry_night.html', 
+    imageLink: './Art/lucileTech/starry_night.png', 
+    author: 'LucileTech', 
+    githubLink: 'https://https://github.com/LucileTech' 
+  },
+  {
     artName: 'Heaart',
     pageLink: './Art/Neha045/index.html',
     imageLink: './Art/Neha045/animation.gif',
