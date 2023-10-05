@@ -1765,6 +1765,13 @@ let cards = [
     author: 'Divyansh',
     githubLink: 'https://github.com/okaydivyansh' 
   },
+  {
+    artName: 'Stroboscopic effect',
+    pageLink: './Art/Shubhamm33/index.html',
+    imageLink: './Art/Shubhamm33/stroboscopic.gif',
+    author: 'Shubhamm33',
+    githubLink: 'https://github.com/Shubhamm33'
+  }
 ];
 
 
