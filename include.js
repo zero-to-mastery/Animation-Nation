@@ -502,6 +502,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'Rotating Cube',
+    pageLink: './Art/BatistaDev1113/cube.html',
+    imageLink: './Art/BatistaDev1113/rotatingCube.gif',
+    author: 'batistaDev1113',
+    githubLink: 'https://github.com/batistaDev1113'
   }
 ];
 
