@@ -1,0 +1,36 @@
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.infinite-scrolling {
+  position: relative;
+  background: url('Images/road.jpg') repeat-x;
+  height: 404px;
+  width: 2805px;
+  animation: slide 3s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-935px, 0, 0);
+  }
+}
+
+img {
+  position: absolute;
+  top: 260px;
+  left: 150px;
+  width: 80px;
+}
+
+img:hover {
+  transform: rotate(-30deg);
+}
