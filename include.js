@@ -1633,6 +1633,13 @@ let cards = [
     imageLink: './Art/dmdiamond79/animation.gif',
     author: 'Esinnation',
     githubLink: 'https://github.com/Esinnation'
+  },
+  {
+    artName: 'Button Hover Animation',
+    pageLink: './Art/oandev/index.html',
+    imageLink: './Art/oan.gif',
+    author: 'hioan-dev',
+    githubLink: 'https://github.com/hioan-dev'
   }
 ];
 
