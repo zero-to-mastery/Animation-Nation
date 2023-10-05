@@ -1627,6 +1627,13 @@ let cards = [
     author: 'NegativE333',
     githubLink: 'https://github.com/NegativE333'
   },
+  {
+    artName: 'moving box',
+    pageLink: './Art/Esinnation/index.html',
+    imageLink: './Art/dmdiamond79/animation.gif',
+    author: 'Esinnation',
+    githubLink: 'https://github.com/Esinnation'
+  }
 ];
 
 
