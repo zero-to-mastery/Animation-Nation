@@ -1645,7 +1645,13 @@ let cards = [
     artName: 'Wordspin', 
     pageLink: './Art/trottiemcqueen/wordspin.html', 
     imageLink: './Art/trottiemcqueen/wordspin.png', 
-    author: 'Trottie McQueen', 
+    author: 'Trottie McQueen',
+  },
+  {
+    artName: 'Wordspin',
+    pageLink: './Art/trottiemcqueen/wordspin.html',
+    imageLink: './Art/trottiemcqueen/wordspin.png',
+    author: 'Trottie McQueen',
     githubLink: 'https://github.com/trottiemcqueen'
   }
 ];
