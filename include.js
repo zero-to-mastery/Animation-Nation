@@ -1590,6 +1590,13 @@ let cards = [
     imageLink: './Art/breadmooch/bearStrawhat.gif',
     author: 'breadmooch',
     githubLink: 'https://github.com/breadmooch'
+  },
+  {
+    artName: 'Waving Hand',
+    pageLink: './Art/Darkrider0007/waveing_hand.html',
+    imageLink: './Art/Darkrider0007/waving-hand.gif',
+    author: 'Darkrider0007',
+    githubLink: 'https://github.com/Darkrider0007'
   }
 ];
 
