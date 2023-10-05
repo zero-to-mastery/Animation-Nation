@@ -490,6 +490,13 @@ let cards = [
     githubLink: 'https://github.com/Teetee-lab'
   },
   {
+    artName: 'Bear Straw hat',
+    pageLink: './Art/breadmooch/index.html',
+    imageLink: './Art/breadmooch/bearStrawhat.gif',
+    author: 'breadmooch',
+    githubLink: 'https://github.com/breadmooch'
+  },
+  {
     artName: 'Stylish Text Animation',
     pageLink: './Art/varunrmantri23/index.html',
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
