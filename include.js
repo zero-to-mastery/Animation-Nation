@@ -427,6 +427,13 @@ let cards = [
     githubLink: 'https://github.com/lucifer510'
   },
   {
+    artName: 'Ruby',
+    pageLink: './Art/daniel-badura/ruby.html',
+    imageLink: './Art/daniel-badura/ruby.gif',
+    author: 'daniel-badura',
+    githubLink: 'https://github.com/daniel-badura'
+  },
+  {
     artName: '699669',
     pageLink: './Art/Artis/699669.html',
     imageLink: './Art/Artis/699669.gif',
