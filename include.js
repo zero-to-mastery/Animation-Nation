@@ -287,6 +287,13 @@ let cards = [
     githubLink: 'https://github.com/Rahul-Bhati'
   },
   {
+    artName: 'now.sh',
+    pageLink: './Art/Tergel0820/index.html',
+    imageLink: './Art/Tergel0820/animation.gif',
+    author: 'Tergel0820',
+    githubLink: 'https://github.com/Tergel0820'
+  },
+  {
     artName: 'Animated Fan',
     pageLink: './Art/Alexandra2888/fan.html',
     imageLink: './Art/Alexandra2888/fan.png',
