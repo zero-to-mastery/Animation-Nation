@@ -495,6 +495,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'Wordspin', 
+    pageLink: './Art/trottiemcqueen/wordspin.html', 
+    imageLink: './Art/trottiemcqueen/wordspin.png', 
+    author: 'Trottie McQueen', 
+    githubLink: 'https://github.com/trottiemcqueen'
   }
 ];
 
