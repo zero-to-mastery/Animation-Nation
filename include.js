@@ -1,5 +1,19 @@
 let cards = [
   {
+    artName: 'Tic Tac Yo!',
+    pageLink: './Art/smokeraven667/smokeraven.html',
+    imageLink: './Art/smokeraven667/tic-tac-yo.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/smokeraven667'
+  },
+  {
+    artName: 'Animation-box',
+    pageLink: './Art/Himanshu_Chauhan/index.html',
+    imageLink: './Art/Himanshu_Chauhan/animation-box.gif',
+    author: 'Himanshu Chauhan',
+    githubLink: 'https://github.com/Himanshuch8055'
+  },
+  {
     artName: 'hanisntsolo',
     pageLink: './Art/hanisntsolo/hanisntsolo.html',
     imageLink: './Art/hanisntsolo/hanisntsolo.gif',
@@ -287,6 +301,13 @@ let cards = [
     githubLink: 'https://github.com/Rahul-Bhati'
   },
   {
+    artName: 'now.sh',
+    pageLink: './Art/Tergel0820/index.html',
+    imageLink: './Art/Tergel0820/animation.gif',
+    author: 'Tergel0820',
+    githubLink: 'https://github.com/Tergel0820'
+  },
+  {
     artName: 'Animated Fan',
     pageLink: './Art/Alexandra2888/fan.html',
     imageLink: './Art/Alexandra2888/fan.png',
@@ -413,6 +434,13 @@ let cards = [
     githubLink: 'https://github.com/lucifer510'
   },
   {
+    artName: 'Ruby',
+    pageLink: './Art/daniel-badura/ruby.html',
+    imageLink: './Art/daniel-badura/ruby.gif',
+    author: 'daniel-badura',
+    githubLink: 'https://github.com/daniel-badura'
+  },
+  {
     artName: '699669',
     pageLink: './Art/Artis/699669.html',
     imageLink: './Art/Artis/699669.gif',
@@ -434,13 +462,42 @@ let cards = [
     githubLink: 'https://github.com/Bhaskarsahu23'
   },
   {
+    artName: 'Starry Night',
+    pageLink: './Art/lucileTech/starry_night.html',
+    imageLink: './Art/lucileTech/starry_night.png',
+    author: 'LucileTech',
+    githubLink: 'https://https://github.com/LucileTech'
+  },
+  {
     artName: 'Heaart',
     pageLink: './Art/Neha045/index.html',
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
   },
-    {
+
+  {
+    artName: 'CSS Animation',
+    pageLink: './Art/jayg2309/animation.html',
+    imageLink: './Art/jayg2309/animation.gif',
+    author: 'Jay',
+    githubLink: 'https://github.com/jayg2309'
+  },
+  {
+    artName: 'Bounceballs',
+    pageLink: './Art/Titilayo/index.html',
+    imageLink: './Art/Titilayo/bounceballs.png',
+    author: 'Titilayo',
+    githubLink: 'https://github.com/Teetee-lab'
+  },
+  {
+    artName: 'Stylish Text Animation',
+    pageLink: './Art/varunrmantri23/index.html',
+    imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
+    author: 'varunrmantri23',
+    githubLink: 'https://github.com/varunrmantri23'
+  }
+  , {
       artName: 'CUBE', 
       pageLink: './Art/okaydivyansh/index.html', 
       imageLink: './Art/okaydivyansh/cube.gif', 
