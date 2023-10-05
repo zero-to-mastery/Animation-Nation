@@ -91,7 +91,7 @@ body {
     transform-origin: 50% 50%;
   }
   .trapeze.face-one {
-    transform: rotateY(0deg) translateZ(-43px) rotateX(-55deg);''
+    transform: rotateY(0deg) translateZ(-43px) rotateX(-55deg);
   }
   .trapeze.face-two {
     animation-delay: -3s;
