@@ -1427,7 +1427,7 @@ let cards = [
   },
   {
     artName: 'CSS Animation',
-    pageLink: './Art/jayg2309/animation.html', 
+    pageLink: './Art/jayg2309/animation.html',
     imageLink: './Art/jayg2309/animation.gif',
     author: 'Jay',
     githubLink: 'https://github.com/jayg2309'
