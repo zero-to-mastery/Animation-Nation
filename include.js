@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Chromatic Movement',
+    pageLink: './Art/Talim/index.html',
+    imageLink: './Art/Talim/animation.gif',
+    author: 'Mohammad Talim',
+    githubLink: 'https://github.com/md-talim'
+  },
+  {
     artName: 'Tic Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
