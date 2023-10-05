@@ -483,6 +483,20 @@ let cards = [
     githubLink: 'https://github.com/jayg2309'
   },
   {
+    artName: 'Bounceballs', // change this to the name of your artwork
+    pageLink: './Art/Titilayo/index.html', // change this
+    imageLink: './Art/Titilayo/bounceballs.png', // change this
+    author: 'Titilayo', // use your name
+    githubLink: 'https://github.com/Teetee-lab' // change this
+  },
+  {
+    artName: 'Bear Straw hat',
+    pageLink: './Art/breadmooch/index.html',
+    imageLink: './Art/breadmooch/bearStrawhat.gif',
+    author: 'breadmooch',
+    githubLink: 'https://github.com/breadmooch'
+  },
+  {
     artName: 'Bounceballs',
     pageLink: './Art/Titilayo/index.html',
     imageLink: './Art/Titilayo/bounceballs.png',
