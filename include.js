@@ -1660,6 +1660,13 @@ let cards = [
     imageLink: './Art/pabitra0011/RoadAnimation.gif',
     author: 'pabitra0011',
     githubLink: 'https://github.com/pabitra0011'
+  },
+  {
+    artName: 'Sun-loader Animation', // change this to the name of your artwork
+    pageLink: './Art/Groot-2001/index.html', // change this
+    imageLink: './Art/Groot-2001/sun-animation.gif', // change this
+    author: 'Shiva Silmawala', // use your name
+    githubLink: 'https://github.com/Groot-2001' // change this
   }
 ];
 
