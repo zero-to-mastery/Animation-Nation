@@ -495,6 +495,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'Button Hover Animation',
+    pageLink: './Art/oandev/index.html',
+    imageLink: './Art/oan.gif',
+    author: 'hioan-dev',
+    githubLink: 'https://github.com/hioan-dev'
   }
 ];
 
