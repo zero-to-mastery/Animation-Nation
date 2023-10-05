@@ -495,7 +495,15 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+    {
+    artName: 'SharinganMangekyou', 
+    pageLink: './Art/SankN22/SharinganMangekyou.html', 
+    imageLink: './Art/SankN22/SharinganMangekyou.gif', 
+    author: 'SankN22', 
+    githubLink: 'https://github.com/SankN22'
   }
+  
 ];
 
 // +--------------------------------------------------------------------------------+
