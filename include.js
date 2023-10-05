@@ -406,13 +406,13 @@ let cards = [
     githubLink: 'https://github.com/lucifer510'
   },
   {
-<<<<<<< HEAD
     artName: 'Ruby',
     pageLink: './Art/daniel-badura/ruby.html',
     imageLink: './Art/daniel-badura/ruby.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
-=======
+  },
+  {
     artName: '699669',
     pageLink: './Art/Artis/699669.html',
     imageLink: './Art/Artis/699669.gif',
@@ -439,7 +439,13 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
->>>>>>> 9792365269baa9b4702203858f18a1bb81c94f5c
+  },
+  {
+    artName: 'Diamond',
+    pageLink: './Art/daniel-badura/diamond.html',
+    imageLink: './Art/daniel-badura/diamond.gif',
+    author: 'daniel-badura',
+    githubLink: 'https://github.com/daniel-badura'
   }
 ];
 

@@ -1,6 +1,6 @@
 body {
-    background: radial-gradient(circle at 50% 50%, white -222%, black 66%);
-    height: 100vh;
+  background: radial-gradient(circle at 50% 50%, gray -100%, black 50%);
+  height: 99vh;
   }
   .scene {
     position: relative;
@@ -19,17 +19,18 @@ body {
   }
   .triangle {
     position: absolute;
-    left: -43px;
+    left: -33px;
     top: 74.5px;
     width: 0;
     height: 0;
     border-left: 33.3px solid transparent;
     border-right: 33.3px solid transparent;
     border-bottom: 100.5px solid;
+    
   }
   .trapeze {
     position: absolute;
-    left: -43px;
+    left: -33px;
     top: -36px;
     border-left: 17px solid transparent;
     border-right: 17px solid transparent;
@@ -40,7 +41,7 @@ body {
   }
   .hexagon {
       position: absolute;
-      left: -26px;
+      left: -16px;
       top: -28px;
       width: 0;
       height: 0;
