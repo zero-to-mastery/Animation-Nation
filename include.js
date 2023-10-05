@@ -1604,7 +1604,15 @@ let cards = [
     imageLink: './Art/BatistaDev1113/rotatingCube.gif',
     author: 'batistaDev1113',
     githubLink: 'https://github.com/batistaDev1113'
+   },
+   {
+    artName: 'SharinganMangekyou', 
+    pageLink: './Art/SankN22/SharinganMangekyou.html', 
+    imageLink: './Art/SankN22/SharinganMangekyou.gif', 
+    author: 'SankN22', 
+    githubLink: 'https://github.com/SankN22'
   }
+  
 ];
 
 
