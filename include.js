@@ -1640,6 +1640,13 @@ let cards = [
     imageLink: './Art/oan.gif',
     author: 'hioan-dev',
     githubLink: 'https://github.com/hioan-dev'
+  },
+  {
+    artName: 'Wordspin', 
+    pageLink: './Art/trottiemcqueen/wordspin.html', 
+    imageLink: './Art/trottiemcqueen/wordspin.png', 
+    author: 'Trottie McQueen', 
+    githubLink: 'https://github.com/trottiemcqueen'
   }
 ];
 
