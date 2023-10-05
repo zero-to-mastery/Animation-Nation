@@ -1611,8 +1611,14 @@ let cards = [
     imageLink: './Art/SankN22/SharinganMangekyou.gif', 
     author: 'SankN22', 
     githubLink: 'https://github.com/SankN22'
-  }
-  
+  },
+  {
+    artName: 'Bouncing Ball Animation',
+    pageLink: './Art/NegativE333/bouncing.html',
+    imageLink: './Art/NegativE333/bouncing.gif',
+    author: 'NegativE333',
+    githubLink: 'https://github.com/NegativE333'
+  },
 ];
 
 
