@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.ball {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  animation: moveBall 3s linear infinite forwards;
+}
+
+@keyframes moveBall {
+  0% {
+    left: 0;
+    top: 100%;
+  }
+  100% {
+    left: 100%;
+    top: 0;
+  }
+}
