@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Tic Tac Yo!',
+    pageLink: './Art/smokeraven667/smokeraven.html',
+    imageLink: './Art/smokeraven667/tic-tac-yo.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/smokeraven667'
+  },
+  {
     artName: 'Animation-box',
     pageLink: './Art/Himanshu_Chauhan/index.html',
     imageLink: './Art/Himanshu_Chauhan/animation-box.gif',
@@ -427,6 +434,13 @@ let cards = [
     githubLink: 'https://github.com/lucifer510'
   },
   {
+    artName: 'Ruby',
+    pageLink: './Art/daniel-badura/ruby.html',
+    imageLink: './Art/daniel-badura/ruby.gif',
+    author: 'daniel-badura',
+    githubLink: 'https://github.com/daniel-badura'
+  },
+  {
     artName: '699669',
     pageLink: './Art/Artis/699669.html',
     imageLink: './Art/Artis/699669.gif',
@@ -448,11 +462,11 @@ let cards = [
     githubLink: 'https://github.com/Bhaskarsahu23'
   },
   {
-    artName: 'Starry Night', 
-    pageLink: './Art/lucileTech/starry_night.html', 
-    imageLink: './Art/lucileTech/starry_night.png', 
-    author: 'LucileTech', 
-    githubLink: 'https://https://github.com/LucileTech' 
+    artName: 'Starry Night',
+    pageLink: './Art/lucileTech/starry_night.html',
+    imageLink: './Art/lucileTech/starry_night.png',
+    author: 'LucileTech',
+    githubLink: 'https://https://github.com/LucileTech'
   },
   {
     artName: 'Heaart',
@@ -462,6 +476,14 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'CSS Animation',
+    pageLink: './Art/jayg2309/animation.html',
+    imageLink: './Art/jayg2309/animation.gif',
+    author: 'Jay',
+    githubLink: 'https://github.com/jayg2309'
+  },
+  {
+    breadmooch
     artName: 'Bear Straw hat',
     pageLink: './Art/breadmooch/index.html',
     imageLink: './Art/breadmooch/bearStrawhat.gif',
