@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(backbg.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes rotateclock {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateanticlock {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+#i1 {
+  position: absolute;
+}
+
+#i2 {
+  position: absolute;
+  animation: rotateclock 19s linear infinite;
+}
+
+#i3 {
+  position: absolute;
+  animation: rotateanticlock 9s linear infinite;
+}
+
+#i4 {
+  position: absolute;
+  animation: rotateclock 10s linear infinite;
+}
+
+#i5 {
+  position: absolute;
+}
