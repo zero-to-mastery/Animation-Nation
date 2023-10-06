@@ -1,23 +1,23 @@
 @keyframes rotateAndChangeColor {
   0% {
-      transform: rotate(0deg);
-      background-color: #FFD700;
+    transform: rotate(0deg);
+    background-color: #ffd700;
   }
   25% {
-      transform: rotate(90deg);
-      background-color: #FF6347;
+    transform: rotate(90deg);
+    background-color: #ff6347;
   }
   50% {
-      transform: rotate(180deg);
-      background-color: #90EE90;
+    transform: rotate(180deg);
+    background-color: #90ee90;
   }
   75% {
-      transform: rotate(270deg);
-      background-color: #4169E1;
+    transform: rotate(270deg);
+    background-color: #4169e1;
   }
   100% {
-      transform: rotate(360deg);
-      background-color: #FFD700;
+    transform: rotate(360deg);
+    background-color: #ffd700;
   }
 }
 
@@ -27,7 +27,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #87CEEB;
+  background-color: #87ceeb;
 }
 
 .square {
