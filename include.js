@@ -28,6 +28,14 @@ let cards = [
     githubLink: 'https://github.com/smokeraven667'
   },
   {
+    artName: 'Gradient Loader',
+    pageLink: './Art/Kartikey Mishra/index.html',
+    imageLink: './Art/Kartikey Mishra/GradientLoader.gif',
+    author: 'Kartikey Mishra',
+    githubLink: 'https://github.com/kartikeymish'
+  },
+  
+  {
     artName: 'Animation-box',
     pageLink: './Art/Himanshu_Chauhan/index.html',
     imageLink: './Art/Himanshu_Chauhan/animation-box.gif',
