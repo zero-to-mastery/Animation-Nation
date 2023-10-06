@@ -532,6 +532,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'ColorRot Square',
+    pageLink: './Art/RedHoodJT1988/index.html',
+    imageLink: './Art/RedHoodJT1988/colorRotSquare.gif',
+    author: 'Jonathan Reeves',
+    githubLink: 'https://github.com/RedHoodJT1988'
+  },
+  {
     artName: 'Netflix Logo',
     pageLink: './Art/Sheefa/Netflix.html',
     imageLink: './Art/Sheefa/Netflix.gif',
