@@ -1100,6 +1100,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Diamond',
+    pageLink: './Art/daniel-badura/diamond.html',
+    imageLink: './Art/daniel-badura/diamond.gif',
+    author: 'daniel-badura',
+    githubLink: 'https://github.com/daniel-badura'
+  },
+  {
     artName: 'Hire Me Button Animation',
     pageLink: './Art/techfreakSahil/index.html',
     imageLink: './Art/techfreakSahil/animation(hireBtn).png',
