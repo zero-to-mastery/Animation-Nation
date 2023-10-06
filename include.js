@@ -469,6 +469,13 @@ let cards = [
     githubLink: 'https://github.com/Baku452'
   },
   {
+    artName: 'The Initials',
+    pageLink: './Art/yashviradia/index.html',
+    imageLink: './Art/yashviradia/initials_yashviradia.gif',
+    author: 'Yash Viradia',
+    githubLink: 'https://github.com/yashviradia'
+  },
+  {
     artName: 'Weird Spinner',
     pageLink: './Art/lucifer510/weirdSpinner.html',
     imageLink: './Art/lucifer510/weirdSpinner.png',
