@@ -40,14 +40,14 @@ body {
     transform: translateX(0);
     opacity: 1;
   }
-  30% {
+  20% {
     transform: translateX(-30px);
     opacity: 1;
   }
-  80% {
+  60% {
     opacity: 0;
   }
-  100% {
+  75% {
     transform: translateX(150px);
   }
 }
