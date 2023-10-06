@@ -1577,6 +1577,13 @@ let cards = [
     author: 'Teri',
     githubLink: 'https://github.com/terieyenike'
   },
+  {
+    artName: 'Jack-o-lantern',
+    pageLink: './Art/Kttalley/jack-o-lantern.html',
+    imageLink: './Art/Kttalley/jack-o-lantern.gif',
+    author: 'Kttalley',
+    githubLink: 'https://github.com/kttalley'
+  }
 ];
 
 
