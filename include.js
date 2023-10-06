@@ -1548,6 +1548,13 @@ let cards = [
     imageLink: './Art/archeana/coffee boo.gif',
     author: 'archeana',
     githubLink: 'https://github.com/archeana'
+  },
+  {
+    artName: 'Bird Animation',
+    pageLink: './Art/psykatsamanta/index.html',
+    imageLink: './Art/psykatsamanta/Bird_Animation.gif',
+    author: 'psykatsamanta',
+    githubLink: 'https://github.com/psykatsamanta'
   }
 ];
 
