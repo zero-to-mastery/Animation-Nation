@@ -995,6 +995,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'ZTM Cube',
+    pageLink: './Art/williamstophef/index.html',
+    imageLink: './Art/williamstophef/CubeArt.gif',
+    author: 'Christopher Williams',
+    githubLink: 'https://github.com/williamstophef'
+  },
+  {
     artName: 'Button-Animation',
     pageLink: './Art/Raghavan-B/index.html',
     imageLink: './Art/Raghavan-B/button.gif',
@@ -1252,6 +1259,7 @@ let cards = [
     imageLink: './Art/RohanSalgare/animation.gif', // change this
     author: 'Rohan', // use your name
     githubLink: 'https://github.com/RohanSalgare' // change this
+
   }
 ];
 
