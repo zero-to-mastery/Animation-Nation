@@ -518,6 +518,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'Moving Car',
+    pageLink: './Art/Ravkeerat02/car.html',
+    imageLink: './Art/Ravkeerat02/car.gif',
+    author: 'Ravkeerat Singh',
+    githubLink: 'https://github.com/Ravkeerat02'
+  },
+  {
     artName: 'Animation Envelope',
     pageLink: './Art/Miainaus/envelope.html',
     imageLink: './Art/Miainaus/envelope.gif',
@@ -565,6 +572,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'Moving Car',
+    pageLink: './Art/Ravkeerat02/car.html',
+    imageLink: './Art/Ravkeerat02/car.gif',
+    author: 'Ravkeerat Singh',
+    githubLink: 'https://github.com/Ravkeerat02'
   }
 ];
 
