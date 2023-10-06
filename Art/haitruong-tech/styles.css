@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+
+body {
+  background-color: #020403;
+  font-family: 'Martian Mono', monospace;
+}
+
+.text-block {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.text {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  font-weight: 400;
+}
+
+.text-1 {
+  animation: typewriter-text1 36s steps(45) infinite;
+}
+
+.text-2 {
+  animation: typewriter-text2 36s steps(33) infinite;
+}
+
+.text-3 {
+  animation: typewriter-text3 36s steps(43) infinite;
+}
+
+@keyframes typewriter-text1 {
+  0%,
+  33.3%,
+  100% {
+    width: 0ch;
+  }
+  33.1%,
+  100% {
+    border-right: 0;
+  }
+  0%,
+  33% {
+    border-right: 1ch solid rgba(255, 255, 255, 0.75);
+  }
+  6.7%,
+  26.7% {
+    width: 45ch;
+  }
+}
+
+@keyframes typewriter-text2 {
+  0%,
+  33.3%,
+  66.7%,
+  100% {
+    width: 0ch;
+  }
+  0%,
+  32.9% {
+    border-right: 0;
+  }
+  66.8%,
+  100% {
+    border-right: 0;
+  }
+  33%,
+  66.7% {
+    border-right: 1ch solid rgba(255, 255, 255, 0.75);
+  }
+  40%,
+  60% {
+    width: 33ch;
+  }
+}
+
+@keyframes typewriter-text3 {
+  0%,
+  66.7%,
+  100% {
+    width: 0ch;
+  }
+  0%,
+  66.6% {
+    border-right: 0;
+  }
+  66.7%,
+  100% {
+    border-right: 1ch solid rgba(255, 255, 255, 0.75);
+  }
+  73.3%,
+  93.3% {
+    width: 43ch;
+  }
+}
