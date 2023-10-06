@@ -1,21 +1,23 @@
 body {
-    background-color: black;
-    color: #FFD700;
+  background-color: black;
+  color: #ffd700;
 }
 
 .container {
-    perspective: 1000px;
+  perspective: 1000px;
 }
 
 .fade-in-text {
-    font-family: serif;
-    font-size: 150px;
-    animation: fadeIn 5s;
+  font-family: serif;
+  font-size: 150px;
+  animation: fadeIn 5s;
 }
-  
+
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-  
-  
