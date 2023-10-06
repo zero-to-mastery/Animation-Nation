@@ -532,6 +532,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'Netflix Logo',
+    pageLink: './Art/Sheefa/Netflix.html',
+    imageLink: './Art/Sheefa/Netflix.gif',
+    author: 'Sheefa',
+    githubLink: 'https://github.com/sheefanaaz123'
+  },
+  {
     artName: 'Dynamic Shadow',
     pageLink: './Art/Vamshidhar/index.html',
     imageLink: './Art/Vamshidhar/dynamic-shadow.gif',
