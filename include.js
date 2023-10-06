@@ -518,6 +518,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'Animation Envelope',
+    pageLink: './Art/Miainaus/envelope.html',
+    imageLink: './Art/Miainaus/envelope.gif',
+    author: 'Mia',
+    githubLink: 'https://github.com/Miainaus'
+  },
+  {
       artName: 'Rotate Color', // change this to the name of your artwork
       pageLink: './Art/Gibso10/index.html', // change this
       imageLink: './Art/Gibso10/Box Color.gif', // change this
