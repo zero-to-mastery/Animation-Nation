@@ -168,6 +168,13 @@ let cards = [
     githubLink: 'https://github.com/MishC'
   },
   {
+    artName: 'J.A.R.V.I.S',
+    pageLink: './Art/rituraj-dubey/index.html',
+    imageLink: './Art/rituraj-dubey/jarvis.gif',
+    author: 'Rituraj Dubey',
+    githubLink: 'https://github.com/rituraj-dubey'
+  },
+  {
     artName: 'SquBounce',
     pageLink: './Art/Sanusi/index.html',
     imageLink: './Art/Sanusi/sanusi-animation.gif',
