@@ -77,6 +77,13 @@ let cards = [
     githubLink: 'https://github.com/mariapetra'
   },
   {
+    artName: 'Submit tick animation',
+    pageLink: './Art/rajHimanshu22/index.html',
+    imageLink: './Art/rajHimanshu22/animation.gif',
+    author: 'Himanshu Raj',
+    githubLink: 'https://github.com/rajHimanshu22'
+  },
+  {
     artName: 'Circle',
     pageLink: './Art/lucas/circle.html',
     imageLink: './Art/lucas/circle.gif',
