@@ -1066,6 +1066,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Bear Straw hat',
+    pageLink: './Art/breadmooch/index.html',
+    imageLink: './Art/breadmooch/bearStrawhat.gif',
+    author: 'breadmooch',
+    githubLink: 'https://github.com/breadmooch'
+  },
+  {
     artName: 'Waving Hand',
     pageLink: './Art/Darkrider0007/waveing_hand.html',
     imageLink: './Art/Darkrider0007/waving-hand.gif',
@@ -1142,7 +1149,6 @@ let cards = [
     author: 'Divyansh',
     githubLink: 'https://github.com/okaydivyansh'
   }
-  
 ];
 
 // +--------------------------------------------------------------------------------+
