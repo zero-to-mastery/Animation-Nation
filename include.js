@@ -1066,6 +1066,20 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Moving Car',
+    pageLink: './Art/Ravkeerat02/car.html',
+    imageLink: './Art/Ravkeerat02/car.gif',
+    author: 'Ravkeerat Singh',
+    githubLink: 'https://github.com/Ravkeerat02'
+  },
+  {
+    artName: 'Bird Animation',
+    pageLink: './Art/psykatsamanta/index.html',
+    imageLink: './Art/psykatsamanta/Bird_Animation.gif',
+    author: 'psykatsamanta',
+    githubLink: 'https://github.com/psykatsamanta'
+  },
+  {
     artName: 'Jack-o-lantern',
     pageLink: './Art/Kttalley/jack-o-lantern.html',
     imageLink: './Art/Kttalley/jack-o-lantern.gif',
