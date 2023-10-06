@@ -1,0 +1,89 @@
+/* background colour */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: Black;
+}
+
+.coffee {
+    position: relative;
+}
+
+.cup {
+    position: relative;
+    width: 220px;
+    height: 176px;
+    background-color: #22148e;
+    top: 100px;
+    left: -40px;
+    border-radius: 20px 20px 80px 80px;
+}
+
+/* handle */
+.cup:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 20px solid #22148e;
+    border-radius: 50%;
+    left: -55px;
+    top: 35px;
+}
+
+.steam {
+    position: relative;
+    width: 90px;
+    height: 140px;
+    background-color: white;
+    border-radius: 100px 100px 30px 30px;
+    box-shadow: 0 0 50px #f6ab33;
+    left: 25px;
+    top: -180px;
+    animation-name: ghost;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ghost {
+    from {top: -205px;}
+    to {top: -260px; background-color: #BDBDC5;}
+  }
+
+.steam:before,
+.steam:after {
+    content: "";
+    display: inline-flex;
+    width: 14px;
+    height: 25px;
+    background: black;
+    margin: 30px -15px -40px 25px;
+    border-radius: 50% 30%;
+}
+
+.boo {
+    height: 10%;
+  	width: 60%;
+  	position: absolute;
+  	border-radius: 60%;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    left: 75px;
+    top: -150px;
+    animation-name: boo;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boo {
+    from {top: -205px;}
+    to {top: -160px; background-color: #BDBDC5;}
+  }
