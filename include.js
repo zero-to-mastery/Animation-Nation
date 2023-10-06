@@ -495,6 +495,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'Typewriter Text Animation',
+    pageLink: './Art/haitruong-tech/index.html',
+    imageLink: './Art/haitruong-tech/typewriter-animation.gif',
+    author: 'haitruong-tech',
+    githubLink: 'https://github.com/haitruong-tech'
   }
 ];
 
