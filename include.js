@@ -106,6 +106,13 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
+    artName:'Rocket Orbit',
+    pageLink: './Art/thomasravetto/index.html',
+    imageLink: './Art/thomasravetto/loader_gif.gif',
+    author: 'thomasravetto',
+    githubLink: 'https://github.com/thomasravetto'
+  },
+  {
     artName: 'Keyboard',
     pageLink: './Art/Alexandra2888/keyboard.html',
     imageLink: './Art/Alexandra2888/keyboard.gif',
@@ -1113,6 +1120,7 @@ let cards = [
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
   },
+
   {
     artName: 'Diamond',
     pageLink: './Art/daniel-badura/diamond.html',
