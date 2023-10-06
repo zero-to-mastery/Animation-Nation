@@ -622,14 +622,14 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'CUBE',
+    pageLink: './Art/okaydivyansh/index.html',
+    imageLink: './Art/okaydivyansh/cube.gif',
+    author: 'Divyansh',
+    githubLink: 'https://github.com/okaydivyansh'
   }
-  , {
-      artName: 'CUBE', 
-      pageLink: './Art/okaydivyansh/index.html', 
-      imageLink: './Art/okaydivyansh/cube.gif', 
-      author: 'Divyansh',
-      githubLink: 'https://github.com/okaydivyansh' 
-    }
 ];
 
 // +--------------------------------------------------------------------------------+
