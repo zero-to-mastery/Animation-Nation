@@ -1276,6 +1276,13 @@ let cards = [
     author: 'MathDevWeb',
     githubLink: 'https://github.com/MathDevWeb'
   }
+  {
+    artName: 'Waves',
+    pageLink: './Art/vivek/index.html',
+    imageLink: './Art/vivek/waves.gif',
+    author: 'Vivek Boii',
+    githubLink: 'https://github.com/vivekBoii'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
