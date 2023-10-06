@@ -495,7 +495,14 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
-  }
+  },
+  {
+    artName:'Rocket Orbit',
+    pageLink: './Art/thomasravetto/index.html',
+    imageLink: './Art/thomasravetto/loader_gif.gif',
+    author: 'thomasravetto',
+    githubLink: 'https://github.com/thomasravetto'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
