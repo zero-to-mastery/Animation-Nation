@@ -1778,6 +1778,14 @@ let cards = [
     imageLink: './Art/Shubhamm33/stroboscopic.gif',
     author: 'Shubhamm33',
     githubLink: 'https://github.com/Shubhamm33'
+
+  },
+  {
+    artName: 'CircleChase',
+    pageLink: './Art/MathDevWeb/CircleChase.html',
+    imageLink: './Art/MathDevWeb/CircleChase.gif',
+    author: 'MathDevWeb',
+    githubLink: 'https://github.com/MathDevWeb'
   }
 ];
 
