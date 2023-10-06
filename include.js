@@ -523,7 +523,7 @@ let cards = [
     imageLink: './Art/Nawaf-vp/css_eyes_animation.gif',
     author: 'Nawaf',
     githubLink: 'https://github.com/nawaf-vp'
-    },
+  },
   {
     artName: 'Starry Night',
     pageLink: './Art/lucileTech/starry_night.html',
