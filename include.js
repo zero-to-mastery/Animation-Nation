@@ -1,5 +1,19 @@
 let cards = [
   {
+    artName: 'Astro Acrobat',
+    pageLink: './Art/DarrachBarneveld/index.html',
+    imageLink: './Art/DarrachBarneveld/rocket.gif',
+    author: 'Darrach Barneveld',
+    githubLink: 'https://github.com/DarrachBarneveld'
+  },
+  {
+    artName: 'Rotating Cube',
+    pageLink: './Art/Rishi/cube.html',
+    imageLink: './Art/Rishi/cube.gif',
+    author: 'Rishi',
+    githubLink: 'https://github.com/rishi17003'
+  },
+  {
     artName: 'Tic Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
@@ -49,11 +63,32 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
+    artName: 'Keyboard',
+    pageLink: './Art/Alexandra2888/keyboard.html',
+    imageLink: './Art/Alexandra2888/keyboard.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
+  },
+  {
+    artName: 'Jumping Balls',
+    pageLink: './Art/Alexandra2888/balls.html',
+    imageLink: './Art/Alexandra2888/balls.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
+  },
+  {
     artName: 'Dancing in Space',
     pageLink: './Art/Maria/index.html',
     imageLink: './Art/Maria/style.css',
     author: 'Maria',
     githubLink: 'https://github.com/mariapetra'
+  },
+  {
+    artName: 'Submit tick animation',
+    pageLink: './Art/rajHimanshu22/index.html',
+    imageLink: './Art/rajHimanshu22/animation.gif',
+    author: 'Himanshu Raj',
+    githubLink: 'https://github.com/rajHimanshu22'
   },
   {
     artName: 'Circle',
@@ -75,6 +110,13 @@ let cards = [
     imageLink: './Art/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
     author: 'Joe DiGioia',
     githubLink: 'https://github.com/WatchAce0'
+  },
+  {
+    artName: 'Pumpkin Ghost',
+    pageLink: './Art/Jason/pumpkin.html',
+    imageLink: './Art/Jason/pumpkin.gif',
+    author: 'Jason',
+    githubLink: 'https://github.com/jsonsinger'
   },
   {
     artName: 'Ghost',
@@ -474,6 +516,13 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
+  },
+  {
+    artName: 'Scaling loader',
+    pageLink: './Art/BatistaDev1113/index.html',
+    imageLink: './Art/BatistaDev1113/scalingLoader.gif',
+    author: 'BatistaDev1113',
+    githubLink: 'https://github.com/batistaDev1113'
   },
   {
     artName: 'CSS Animation',
