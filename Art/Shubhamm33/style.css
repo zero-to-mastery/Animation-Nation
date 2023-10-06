@@ -1,225 +1,276 @@
 :root {
-    --box1: #461959;
-    --box2: #7A316F;
-    --box3: #CD6688;
-    --box4: #AED8CC;
-    --box5: #ffffff;
+  --box1: #461959;
+  --box2: #7a316f;
+  --box3: #cd6688;
+  --box4: #aed8cc;
+  --box5: #ffffff;
 }
-  
-.box1{
+
+.box1 {
+  background-color: var(--box1);
+  height: 20em;
+  width: 20em;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: rotate(14deg);
+  /* opacity: .5; */
+  animation: moveBox1 9s infinite linear;
+}
+.box2 {
+  background-color: var(--box2);
+  height: 20em;
+  width: 20em;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: rotate(30deg);
+  /* opacity: .5; */
+  animation: moveBox2 7s infinite linear;
+}
+.box3 {
+  background-color: var(--box3);
+  height: 20em;
+  width: 20em;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: rotate(60deg);
+  animation: moveBox3 4s infinite linear;
+}
+.box4 {
+  background-color: var(--box4);
+  height: 20em;
+  width: 20em;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: rotate(90deg);
+  opacity: 0.8;
+  animation: moveBox4 2s infinite linear;
+}
+.box5 {
+  background-color: var(--box5);
+  height: 20em;
+  width: 20em;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: rotate(120deg);
+  opacity: 0.7;
+  animation: moveBox5 0.5s infinite ease-in-out;
+}
+
+.circle1 {
+  /* background-color: #461959; */
+  border-radius: 50%;
+  border: 5px solid #461959;
+  height: 5em;
+  width: 5em;
+  margin: auto;
+  position: absolute;
+  top: 22%;
+  left: 46%;
+  animation: moveCircle1 2s linear infinite;
+}
+.circle2 {
+  background-color: #7a316f;
+  opacity: 0.7;
+  border-radius: 50%;
+  height: 5em;
+  width: 5em;
+  margin: auto;
+  position: absolute;
+  top: 22.8%;
+  left: 46.3%;
+  animation: moveCircle2 2s linear infinite;
+}
+.circle3 {
+  background-color: #7a316f;
+  opacity: 0.4;
+  border-radius: 50%;
+  height: 7em;
+  width: 7em;
+  margin: auto;
+  position: absolute;
+  top: 21%;
+  left: 45.5%;
+  animation: moveCircle3 5s infinite ease-in-out;
+}
+@keyframes moveCircle3 {
+  0% {
     background-color: var(--box1);
-    height: 20em;
-    width: 20em;
-    margin: auto;
-    position: absolute;
-    top: 10%;
-    left: 40%;
-    transform: rotate(14deg);
-    /* opacity: .5; */
-    animation: moveBox1 9s infinite linear;
-
-}
-.box2{
+  }
+  25% {
     background-color: var(--box2);
-    height: 20em;
-    width: 20em;
-    margin: auto;
-    position: absolute;
-    top: 10%;
-    left: 40%;
-    transform: rotate(30deg);
-    /* opacity: .5; */
-    animation: moveBox2 7s infinite linear;
-
-}
-.box3{
+  }
+  50% {
     background-color: var(--box3);
-    height: 20em;
-    width: 20em;
-    margin: auto;
-    position: absolute;
-    top: 10%;
-    left: 40%;
-    transform: rotate(60deg);
-    animation: moveBox3 4s infinite linear;
-}
-.box4{
+  }
+  75% {
     background-color: var(--box4);
-    height: 20em;
-    width: 20em;
-    margin: auto;
-    position: absolute;
-    top: 10%;
-    left: 40%;
-    transform: rotate(90deg);
-    opacity: .8;
-    animation: moveBox4 2s infinite linear;
-}
-.box5{
+  }
+  100% {
     background-color: var(--box5);
-    height: 20em;
-    width: 20em;
-    margin: auto;
-    position: absolute;
-    top: 10%;
-    left: 40%;
+  }
+}
+
+@keyframes moveCircle2 {
+  0% {
+    transform: rotateX(0deg);
+  }
+  10% {
+    transform: rotateX(30deg);
+  }
+  30% {
+    transform: rotateX(60deg);
+  }
+  60% {
+    transform: rotateX(90deg);
+  }
+  90% {
+    transform: rotateX(140deg);
+  }
+  100% {
+    transform: rotateX(180deg);
+  }
+}
+
+@keyframes moveCircle1 {
+  0% {
+    transform: rotateY(0deg);
+  }
+  10% {
+    transform: rotateY(30deg);
+  }
+  30% {
+    transform: rotateY(60deg);
+  }
+  60% {
+    transform: rotateY(90deg);
+  }
+  90% {
+    transform: rotateY(140deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes moveBox1 {
+  0% {
+    transform: rotate(14deg);
+  }
+  10% {
+    transform: rotate(28deg);
+  }
+  20% {
+    transform: rotate(56deg);
+  }
+  30% {
+    transform: rotate(122deg);
+  }
+  40% {
+    transform: rotate(150deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  60% {
+    transform: rotate(230deg);
+  }
+  70% {
+    transform: rotate(250deg);
+  }
+  80% {
+    transform: rotate(290deg);
+  }
+  90% {
+    transform: rotate(330deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+  /* 100% {transform: rotate(14deg);} */
+}
+
+@keyframes moveBox2 {
+  0% {
+    transform: rotate(90deg);
+  }
+  25% {
+    transform: rotate(110deg);
+  }
+  50% {
+    transform: rotate(130deg);
+  }
+  75% {
+    transform: rotate(150deg);
+  }
+  100% {
+    transform: rotate(170deg);
+  }
+}
+
+@keyframes moveBox3 {
+  0% {
+    transform: rotate(60deg);
+  }
+  25% {
+    transform: rotate(80deg);
+  }
+  50% {
+    transform: rotate(100deg);
+  }
+  75% {
     transform: rotate(120deg);
-    opacity: .7;
-    animation: moveBox5 .5s infinite ease-in-out;
+  }
+  100% {
+    transform: rotate(140deg);
+  }
 }
 
-.circle1{
-    /* background-color: #461959; */
-    border-radius: 50%;
-    border: 5px solid #461959;
-    height: 5em;
-    width: 5em;
-    margin: auto;
-    position: absolute;
-    top: 22%;
-    left: 46%;
-    animation: moveCircle1 2s linear infinite;
-}
-.circle2{
-    background-color: #7A316F;
-    opacity: .7;
-    border-radius: 50%;
-    height: 5em;
-    width: 5em;
-    margin: auto;
-    position: absolute;
-    top: 22.8%;
-    left: 46.3%;
-    animation: moveCircle2 2s linear infinite;
-
-}
-.circle3{
-    background-color: #7A316F;
-    opacity: .4;
-    border-radius: 50%;
-    height: 7em;
-    width: 7em;
-    margin: auto;
-    position: absolute;
-    top: 21%;
-    left: 45.5%;
-    animation: moveCircle3 5s infinite ease-in-out;
-
-}
-@keyframes moveCircle3{
-    
-    0% {
-        background-color: var(--box1);
-    }
-    25% {
-        background-color: var(--box2);
-    }
-    50% {
-        background-color: var(--box3);
-    }
-    75% {
-        background-color: var(--box4);
-    }
-    100% {
-        background-color: var(--box5);
-    }
+@keyframes moveBox4 {
+  0% {
+    transform: rotate(90deg);
+  }
+  25% {
+    transform: rotate(110deg);
+  }
+  50% {
+    transform: rotate(130deg);
+  }
+  75% {
+    transform: rotate(150deg);
+  }
+  100% {
+    transform: rotate(170deg);
+  }
 }
 
-
-@keyframes moveCircle2{
-    
-    0% {
-        transform: rotateX(0deg);
-    }
-    10% {
-        transform: rotateX(30deg);
-    }
-    30% {
-        transform: rotateX(60deg);
-    }
-    60% {
-        transform: rotateX(90deg);
-    }
-    90% {
-        transform: rotateX(140deg);
-    }
-    100% {
-        transform: rotateX(180deg);
-    }
+@keyframes moveBox5 {
+  0% {
+    transform: rotate(120deg);
+  }
+  25% {
+    transform: rotate(140deg);
+  }
+  50% {
+    transform: rotate(160deg);
+  }
+  75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(200deg);
+  }
 }
 
-@keyframes moveCircle1{
-    
-    0% {
-        transform: rotateY(0deg);
-    }
-    10% {
-        transform: rotateY(30deg);
-    }
-    30% {
-        transform: rotateY(60deg);
-    }
-    60% {
-        transform: rotateY(90deg);
-    }
-    90% {
-        transform: rotateY(140deg);
-    }
-    100% {
-        transform: rotateY(180deg);
-    }
-}
-
-
-@keyframes moveBox1{
-    0%   {transform: rotate(14deg);}
-    10%   {transform: rotate(28deg);}
-    20%  {transform: rotate(56deg);}
-    30%  {transform: rotate(122deg);}
-    40%  {transform: rotate(150deg);}
-    50%  {transform: rotate(180deg);}
-    60%  {transform: rotate(230deg);}
-    70%  {transform: rotate(250deg);}
-    80%  {transform: rotate(290deg);}
-    90%  {transform: rotate(330deg);}
-    100% {transform: rotate(360deg);}
-    /* 100% {transform: rotate(14deg);} */
-}
-
-@keyframes moveBox2{
-    0%   {transform: rotate(90deg);}
-    25%  {transform: rotate(110deg);}
-    50%  {transform: rotate(130deg);}
-    75%  {transform: rotate(150deg);}
-    100% {transform: rotate(170deg);}
-}
-
-@keyframes moveBox3{
-    0%   {transform: rotate(60deg);}
-    25%  {transform: rotate(80deg);}
-    50%  {transform: rotate(100deg);}
-    75%  {transform: rotate(120deg);}
-    100% {transform: rotate(140deg);}
-}
-
-@keyframes moveBox4{
-    0%   {transform: rotate(90deg);}
-    25%  {transform: rotate(110deg);}
-    50%  {transform: rotate(130deg);}
-    75%  {transform: rotate(150deg);}
-    100% {transform: rotate(170deg);}
-}
-
-@keyframes moveBox5{
-    0%   {transform: rotate(120deg);}
-    25%  {transform: rotate(140deg);}
-    50%  {transform: rotate(160deg);}
-    75%  {transform: rotate(180deg);}
-    100% {transform: rotate(200deg);}
-}
-
-
-
-body{
-    background-color: pink;
+body {
+  background-color: pink;
 }
