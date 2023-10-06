@@ -1534,6 +1534,13 @@ let cards = [
     imageLink: './Art/haitruong-tech/typewriter-animation.gif',
     author: 'haitruong-tech',
     githubLink: 'https://github.com/haitruong-tech'
+  },
+  {
+    artName: 'Ramen Bowl',
+    pageLink: './Art/dan-chui/index.html',
+    imageLink: './Art/dan-chui/ramen_bowl.gif',
+    author: 'dan-chui',
+    githubLink: 'https://github.com/dan-chui'
   }
 ];
 
