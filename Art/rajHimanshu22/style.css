@@ -14,7 +14,7 @@
   20% {
     width: 600px;
     height: 200px;
-    background: #40513B;
+    background: #40513b;
     margin-left: 0px;
     margin-top: 0px;
   }
@@ -23,7 +23,7 @@
     height: 200px;
     border-radius: 100px;
     margin-left: 190px;
-    background: #40513B;
+    background: #40513b;
   }
 }
 @keyframes extend {
@@ -42,7 +42,7 @@
   20% {
     width: 600px;
     height: 200px;
-    background: #40513B;
+    background: #40513b;
     margin-left: 0px;
     margin-top: 0px;
   }
@@ -51,7 +51,7 @@
     height: 200px;
     border-radius: 100px;
     margin-left: 190px;
-    background: #40513B;
+    background: #40513b;
   }
 }
 
@@ -126,13 +126,13 @@ button {
   border-radius: 100px;
   background: #fff;
   position: absolute;
-  border: 5px solid #40513B;
+  border: 5px solid #40513b;
 }
 
 button > span {
   font-size: 48px;
   font-family: cursive;
-  color: #40513B;
+  color: #40513b;
 }
 
 img {
