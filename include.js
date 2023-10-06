@@ -523,7 +523,8 @@ let cards = [
     imageLink: './Art/Bhaskarsahu23/imageflip.gif',
     author: 'Bhaskarsahu23',
     githubLink: 'https://github.com/Bhaskarsahu23'
-  }, {
+  },
+  {
     artName: 'Pumpkin Fight',
     pageLink: './Art/SamPalacio/index.html',
     imageLink: './Art/SamPalacio/pumpkins.gif',
