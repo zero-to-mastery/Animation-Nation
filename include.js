@@ -518,6 +518,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'Hamburger to Close',
+    pageLink: './Art/jatanassian/index.html',
+    imageLink: './Art/jatanassian/hamburger-close.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/jatanassian'
+  },
+  {
     artName: 'Scaling loader',
     pageLink: './Art/BatistaDev1113/index.html',
     imageLink: './Art/BatistaDev1113/scalingLoader.gif',
