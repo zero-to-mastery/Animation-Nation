@@ -1528,6 +1528,13 @@ let cards = [
     author: 'Zareck521',
     githubLink: 'https://github.com/Zareck521'
   },
+  {
+    artName: 'Typewriter Text Animation',
+    pageLink: './Art/haitruong-tech/index.html',
+    imageLink: './Art/haitruong-tech/typewriter-animation.gif',
+    author: 'haitruong-tech',
+    githubLink: 'https://github.com/haitruong-tech'
+  }
 ];
 
 
