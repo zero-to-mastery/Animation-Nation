@@ -495,6 +495,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'Bear Straw hat',
+    pageLink: './Art/breadmooch/index.html',
+    imageLink: './Art/breadmooch/bearStrawhat.gif',
+    author: 'breadmooch',
+    githubLink: 'https://github.com/breadmooch'
   }
 ];
 
