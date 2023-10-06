@@ -49,6 +49,13 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
+    artName: 'Jumping Balls',
+    pageLink: './Art/Alexandra2888/balls.html',
+    imageLink: './Art/Alexandra2888/balls.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
+  },
+  {
     artName: 'Dancing in Space',
     pageLink: './Art/Maria/index.html',
     imageLink: './Art/Maria/style.css',
@@ -497,6 +504,7 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
