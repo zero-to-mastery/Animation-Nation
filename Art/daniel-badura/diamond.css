@@ -11,7 +11,7 @@ body {
   }
   .shapes{
     filter: drop-shadow(1px 3px 5px #9ac5db);
-      animation: light 18s infinite alternate;
+      animation: light 9s infinite alternate;
   }
   .depth {
     transform-origin: 0 0;
