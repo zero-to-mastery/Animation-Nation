@@ -1758,7 +1758,7 @@ let cards = [
     imageLink: './Art/okaydivyansh/cube.gif', 
     author: 'Divyansh',
     githubLink: 'https://github.com/okaydivyansh' 
-  }
+  },
 ];
 
 
