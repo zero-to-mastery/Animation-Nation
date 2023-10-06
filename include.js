@@ -35,6 +35,13 @@ let cards = [
     githubLink: 'https://github.com/hanisntsolo'
   },
   {
+    artName: 'Hamburger to Close',
+    pageLink: './Art/jatanassian/index.html',
+    imageLink: './Art/jatanassian/hamburger-close.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/jatanassian'
+  },
+  {
     artName: 'Orbiting-Ball',
     pageLink: './Art/Tipchan/OrbitingBall.html',
     imageLink: './Art/Tipchan/OrbitingBall.gif',
@@ -518,11 +525,18 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
-    artName: 'Hamburger to Close',
-    pageLink: './Art/jatanassian/index.html',
-    imageLink: './Art/jatanassian/hamburger-close.gif',
-    author: 'Joy',
-    githubLink: 'https://github.com/jatanassian'
+    artName: 'Rotate Color', // change this to the name of your artwork
+    pageLink: './Art/Gibso10/index.html', // change this
+    imageLink: './Art/Gibso10/Box Color.gif', // change this
+    author: 'Gibso10', // use your name
+    githubLink: 'https://github.com/Gibso10' // change this
+  },
+  {
+    artName: 'Against the Flow',
+    pageLink: './Art/Zareck521/index.html',
+    imageLink: './Art/Zareck521/otherway.gif',
+    author: 'Zareck521',
+    githubLink: 'https://github.com/Zareck521'
   },
   {
     artName: 'Scaling loader',
