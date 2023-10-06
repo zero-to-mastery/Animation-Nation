@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.nowsh {
+  position: relative;
+  color: #ff0000;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 200;
+  font-size: 48px;
+}
+
+.animation1 {
+  animation: animation1 2s linear infinite;
+}
+
+.animation2 {
+  animation: animation1 2s 0.5s linear infinite;
+}
+
+.animation3 {
+  animation: animation1 2s 1s linear infinite;
+}
+
+.animation4 {
+  animation: animation1 2s 1.5s linear infinite;
+}
+
+.animation5 {
+  animation: animation1 2s 2s linear infinite;
+}
+.animation6 {
+  animation: animation1 2s 2.5s linear infinite;
+}
+
+@keyframes animation1 {
+  0% {
+    top: -4px;
+  }
+  50% {
+    top: 4px;
+  }
+  100% {
+    top: -4px;
+  }
+}
