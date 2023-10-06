@@ -1541,6 +1541,13 @@ let cards = [
     imageLink: './Art/dan-chui/ramen_bowl.gif',
     author: 'dan-chui',
     githubLink: 'https://github.com/dan-chui'
+  },
+  {
+    artName: '👻Spooky Coffee☕',
+    pageLink: './Art/archeana/index.html',
+    imageLink: './Art/archeana/coffee boo.gif',
+    author: 'archeana',
+    githubLink: 'https://github.com/archeana'
   }
 ];
 
