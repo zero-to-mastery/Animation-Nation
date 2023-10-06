@@ -49,6 +49,13 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
+    artName:'Rocket Orbit',
+    pageLink: './Art/thomasravetto/index.html',
+    imageLink: './Art/thomasravetto/loader_gif.gif',
+    author: 'thomasravetto',
+    githubLink: 'https://github.com/thomasravetto'
+  },
+  {
     artName: 'Dancing in Space',
     pageLink: './Art/Maria/index.html',
     imageLink: './Art/Maria/style.css',
@@ -495,13 +502,6 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
-  },
-  {
-    artName:'Rocket Orbit',
-    pageLink: './Art/thomasravetto/index.html',
-    imageLink: './Art/thomasravetto/loader_gif.gif',
-    author: 'thomasravetto',
-    githubLink: 'https://github.com/thomasravetto'
   },
 ];
 
