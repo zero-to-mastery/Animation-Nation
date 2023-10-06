@@ -1,0 +1,109 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, #0b1120bc, #0b1120bc),
+    linear-gradient(to bottom right, #6499e9, #e09eff);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#strap {
+  position: absolute;
+  left: calc(50%-50px);
+  width: 100px;
+  height: 100%;
+  background-color: wheat;
+}
+
+#ellipse {
+  position: relative;
+  width: 275px;
+  height: 308px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1efef;
+  border-radius: 50%;
+}
+
+#watch {
+  width: 275px;
+  height: 275px;
+  background-color: #f1efef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+#screen {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  background-color: #00000000;
+  border-radius: 50%;
+  animation: time 1s infinite linear;
+}
+
+.arrow.min {
+  position: absolute;
+  animation: time 60s infinite linear;
+}
+
+.arrow-pointer {
+  width: 7px;
+  height: 7px;
+  border: 2px solid #fff;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(225deg);
+}
+
+.line {
+  position: relative;
+  bottom: 9px;
+  width: 2px;
+  height: 100px;
+  background-color: white;
+}
+
+.center {
+  position: absolute;
+  left: calc(50% - 5px);
+  top: calc(50% - 5px);
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+@keyframes time {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
