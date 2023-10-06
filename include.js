@@ -1065,6 +1065,13 @@ let cards = [
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
   },
+  {
+    artName: 'Rotating Cube',
+    pageLink: './Art/BatistaDev1113/cube.html',
+    imageLink: './Art/BatistaDev1113/rotatingCube.gif',
+    author: 'batistaDev1113',
+    githubLink: 'https://github.com/batistaDev1113'
+  },
     {
     artName: 'SharinganMangekyou', 
     pageLink: './Art/SankN22/SharinganMangekyou.html', 
