@@ -539,6 +539,34 @@ let cards = [
     githubLink: 'https://github.com/BlueHeart0065'
   },
   {
+    artName: 'ZTM Cube',
+    pageLink: './Art/williamstophef/index.html',
+    imageLink: './Art/williamstophef/CubeArt.gif',
+    author: 'Christopher Williams',
+    githubLink: 'https://github.com/williamstophef'
+  },
+  {
+    artName: 'Button-Animation',
+    pageLink: './Art/Raghavan-B/index.html',
+    imageLink: './Art/Raghavan-B/button.gif',
+    author: 'Raghavan-B',
+    githubLink: 'https://github.com/Raghavan-B'
+  },
+  {
+    artName: 'Beach Loading Bar with Waves and Sun',
+    pageLink: './Art/Javier1019/index.html',
+    imageLink: './Art/Javier1019/beachloadingbar.gif',
+    author: 'Javier',
+    githubLink: 'https://github.com/Javier1019'
+  },
+  {
+    artName: 'ColorRot Square',
+    pageLink: './Art/RedHoodJT1988/index.html',
+    imageLink: './Art/RedHoodJT1988/colorRotSquare.gif',
+    author: 'Jonathan Reeves',
+    githubLink: 'https://github.com/RedHoodJT1988'
+  },
+  {
     artName: 'Netflix Logo',
     pageLink: './Art/Sheefa/Netflix.html',
     imageLink: './Art/Sheefa/Netflix.gif',
