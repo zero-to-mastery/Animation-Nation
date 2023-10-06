@@ -495,6 +495,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: '👻Spooky Coffee☕',
+    pageLink: './Art/archeana/index.html',
+    imageLink: './Art/archeana/coffee boo.gif',
+    author: 'archeana',
+    githubLink: 'https://github.com/archeana'
   }
 ];
 
