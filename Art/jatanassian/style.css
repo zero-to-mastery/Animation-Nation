@@ -25,3 +25,55 @@ body {
   margin: 10px 0;
   border-radius: 5px;
 }
+
+@keyframes topAnimation {
+  from {
+    transform: rotate(0deg) translate(0);
+  }
+  to {
+    transform: rotate(36deg) translate(6px, 6px);
+  }
+}
+
+@keyframes middleAnimation {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-30px);
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(150px);
+  }
+}
+
+@keyframes bottomAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-36deg) translate(-6px, 6px);
+  }
+}
+
+.top {
+  transform-origin: 0% 0%;
+  animation: topAnimation 2s ease-in-out 0s infinite alternate;
+  transform: rotate(36deg);
+}
+
+.middle {
+  animation: middleAnimation 2s ease-in-out 0s infinite alternate;
+  opacity: 0;
+}
+
+.bottom {
+  transform-origin: 0% 0%;
+  animation: bottomAnimation 2s ease-in-out 0s infinite alternate;
+  transform: rotate(-36deg);
+}
