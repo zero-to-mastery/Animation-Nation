@@ -98,6 +98,13 @@ let cards = [
     githubLink: 'https://github.com/WatchAce0'
   },
   {
+    artName: 'Pumpkin Ghost',
+    pageLink: './Art/Jason/pumpkin.html',
+    imageLink: './Art/Jason/pumpkin.gif',
+    author: 'Jason',
+    githubLink: 'https://github.com/jsonsinger'
+  },
+  {
     artName: 'Ghost',
     pageLink: './Art/Russ/ghost.html',
     imageLink: './Art/Russ/ghost.gif',
