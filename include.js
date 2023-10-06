@@ -1260,6 +1260,13 @@ let cards = [
     author: 'Rohan', // use your name
     githubLink: 'https://github.com/RohanSalgare' // change this
 
+  },
+  {
+    artName: 'CircleChase',
+    pageLink: './Art/MathDevWeb/CircleChase.html',
+    imageLink: './Art/MathDevWeb/CircleChase.gif',
+    author: 'MathDevWeb',
+    githubLink: 'https://github.com/MathDevWeb'
   }
 ];
 
