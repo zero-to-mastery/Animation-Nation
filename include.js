@@ -645,6 +645,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'moving box',
+    pageLink: './Art/Esinnation/index.html',
+    imageLink: './Art/dmdiamond79/animation.gif',
+    author: 'Esinnation',
+    githubLink: 'https://github.com/Esinnation'
+  },
+  {
     artName: 'Button Hover Animation',
     pageLink: './Art/oandev/index.html',
     imageLink: './Art/oan.gif',
