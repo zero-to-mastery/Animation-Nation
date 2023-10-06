@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Chromatic Movement',
+    pageLink: './Art/Talim/index.html',
+    imageLink: './Art/Talim/animation.gif',
+    author: 'Mohammad Talim',
+    githubLink: 'https://github.com/md-talim'
+  },
+  {
     artName: 'Sliding Bot',
     pageLink: './Art/ProfoundlyParker/index.html',
     imageLink: './Art/ProfoundlyParker/robot.gif',
