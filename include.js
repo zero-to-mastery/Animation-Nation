@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Sliding Bot',
+    pageLink: './Art/ProfoundlyParker/index.html',
+    imageLink: './Art/ProfoundlyParker/robot.gif',
+    author: 'ProfoundlyParker',
+    githubLink: 'https://github.com/profoundlyparker'
+  },
+  {
     artName: 'Astro Acrobat',
     pageLink: './Art/DarrachBarneveld/index.html',
     imageLink: './Art/DarrachBarneveld/rocket.gif',
