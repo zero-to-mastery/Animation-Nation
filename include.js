@@ -34,7 +34,7 @@ let cards = [
     author: 'Kartikey Mishra',
     githubLink: 'https://github.com/kartikeymish'
   },
-  
+
   {
     artName: 'Animation-box',
     pageLink: './Art/Himanshu_Chauhan/index.html',
