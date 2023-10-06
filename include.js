@@ -525,6 +525,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'Running watch', 
+    pageLink: './Art/Pratyush-Dehury/index.html', 
+    imageLink: './Art/Pratyush-Dehury/wrist-watch.gif', 
+    author: 'Pratyush Dehury',
+    githubLink: 'https://github.com/Pratyush-Dehury'
+  },
+  {
     artName: 'Move phone',
     pageLink: './Art/Teri/index.html',
     imageLink: './Art/Teri/animate.gif',
