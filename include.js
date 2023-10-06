@@ -495,6 +495,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'Bird Animation',
+    pageLink: './Art/psykatsamanta/index.html',
+    imageLink: './Art/psykatsamanta/Bird_Animation.gif',
+    author: 'psykatsamanta',
+    githubLink: 'https://github.com/psykatsamanta'
   }
 ];
 
