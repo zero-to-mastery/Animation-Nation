@@ -518,6 +518,13 @@ let cards = [
     githubLink: 'https://github.com/Bhaskarsahu23'
   },
   {
+    artName: 'Css eyes animation',
+    pageLink: './Art/Nawaf-vp',
+    imageLink: './Art/Nawaf-vp/css_eyes_animation.gif',
+    author: 'Nawaf',
+    githubLink: 'https://github.com/nawaf-vp'
+    },
+  {
     artName: 'Starry Night',
     pageLink: './Art/lucileTech/starry_night.html',
     imageLink: './Art/lucileTech/starry_night.png',
