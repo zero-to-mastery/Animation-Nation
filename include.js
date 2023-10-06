@@ -1100,6 +1100,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Hire Me Button Animation',
+    pageLink: './Art/techfreakSahil/index.html',
+    imageLink: './Art/techfreakSahil/animation(hireBtn).png',
+    author: 'techfreakSahil',
+    githubLink: 'https://github.com/techfreakSahil'
+  },
+  {
     artName: 'Typewriter Text Animation',
     pageLink: './Art/haitruong-tech/index.html',
     imageLink: './Art/haitruong-tech/typewriter-animation.gif',
