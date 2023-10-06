@@ -1425,7 +1425,6 @@ let cards = [
     githubLink: 'https://github.com/SaiAryan1784'
   },
   {
-
     artName: 'Tik Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
@@ -1438,6 +1437,13 @@ let cards = [
     imageLink: './Art/daniel-badura/ruby.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
+  },
+  {
+    artName: 'Hamburger to Close',
+    pageLink: './Art/jatanassian/index.html',
+    imageLink: './Art/jatanassian/hamburger-close.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/jatanassian'
   },
   {
     artName: 'CSS Animation',
@@ -1459,13 +1465,6 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
-  },
-  {
-    artName: 'ZTM Cube',
-    pageLink: './Art/williamstophef/index.html',
-    imageLink: './Art/williamstophef/CubeArt.gif',
-    author: 'Christopher Williams',
-    githubLink: 'https://github.com/williamstophef'
   },
   {
     artName: 'Button-Animation',
