@@ -525,6 +525,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'Dynamic Shadow',
+    pageLink: './Art/Vamshidhar/index.html',
+    imageLink: './Art/Vamshidhar/dynamic-shadow.gif',
+    author: 'Vamshidhar Thonti',
+    githubLink: 'https://github.com/vamshidhar-thonti'
+  },
+  {
     artName: 'Running watch', 
     pageLink: './Art/Pratyush-Dehury/index.html', 
     imageLink: './Art/Pratyush-Dehury/wrist-watch.gif', 
