@@ -1,0 +1,135 @@
+:root {
+  --green: #a2ccb6;
+  --yellow: #fceeb5;
+  --peach: #ee786e;
+  --off-white: #fffff4;
+}
+
+body {
+  background-color: #ffffff;
+  margin-top: 50px;
+  font-family: Arial;
+}
+
+span {
+  display: block;
+  margin-top: -5px;
+}
+
+.keyboard {
+  width: 780px;
+  height: 262px;
+  margin: 15% auto;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  background: #000000;
+}
+
+.row {
+  margin-top: 2px;
+  overflow: hidden;
+}
+
+.key {
+  width: 50px;
+  height: 50px;
+  float: left;
+  cursor: pointer;
+  background-color: var(--off-white);
+  color: #000000;
+  line-height: 48px;
+  text-align: center;
+  margin-left: 2px;
+  border-radius: 4px;
+}
+
+.key__symbols {
+  line-height: 28px;
+}
+
+.key__delete {
+  width: 100px;
+}
+
+.key__oneandhalf {
+  width: 75px;
+}
+
+.key__esc {
+  background: var(--peach);
+}
+
+.key__enter {
+  width: 112px;
+}
+
+.key__caps {
+  width: 90px;
+}
+
+.key__shift-left {
+  width: 100px;
+}
+
+.key__spacebar {
+  width: 300px;
+}
+
+.key__bottom-funct {
+  width: 70px;
+}
+
+.key__arrow {
+  background: var(--green);
+}
+
+.feather {
+  margin-top: 10px;
+}
+
+.animate {
+  animation: keyTyping 1s alternate infinite;
+  background-color: #fffafa;
+}
+
+@keyframes keyTyping {
+  0% {
+    transform: translateY(0);
+    background-color: antiquewhite;
+  }
+  100% {
+    transform: translateY(-2px);
+    background-color: beige;
+  }
+}
+
+.key__icon {
+  background-color: var(--peach);
+}
+
+@keyframes keyIconTyping {
+  0% {
+    transform: scale(1);
+    background: linear-gradient(to bottom right, #34495e, #ff6b6b);
+  }
+
+  25% {
+    background: linear-gradient(to bottom right, #ff6b6b, #d5dbdb);
+    transform: scale(0.99);
+  }
+
+  50% {
+    background: linear-gradient(to bottom right, #d5dbdb, #b19cd9);
+    transform: scale(0.98);
+  }
+
+  75% {
+    background: linear-gradient(to bottom right, #b19cd9 #ff6b6b);
+    transform: scale(0.96);
+  }
+
+  100% {
+    transform: scale(0.9);
+    background: linear-gradient(to bottom right, #ff6b6b #34495e);
+  }
+}
