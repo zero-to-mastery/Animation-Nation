@@ -64,6 +64,13 @@ let cards = [
     githubLink: 'https://github.com/hanisntsolo'
   },
   {
+    artName: 'Hamburger to Close',
+    pageLink: './Art/jatanassian/index.html',
+    imageLink: './Art/jatanassian/hamburger-close.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/jatanassian'
+  },
+  {
     artName: 'Orbiting-Ball',
     pageLink: './Art/Tipchan/OrbitingBall.html',
     imageLink: './Art/Tipchan/OrbitingBall.gif',
