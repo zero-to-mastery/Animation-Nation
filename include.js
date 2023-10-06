@@ -531,6 +531,7 @@ let cards = [
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
   },
+
   {
     artName: 'ColorRot Square',
     pageLink: './Art/RedHoodJT1988/index.html',
@@ -622,6 +623,13 @@ let cards = [
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
   }
+  , {
+      artName: 'CUBE', 
+      pageLink: './Art/okaydivyansh/index.html', 
+      imageLink: './Art/okaydivyansh/cube.gif', 
+      author: 'Divyansh',
+      githubLink: 'https://github.com/okaydivyansh' 
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
