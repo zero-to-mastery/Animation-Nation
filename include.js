@@ -1066,6 +1066,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Ramen Bowl',
+    pageLink: './Art/dan-chui/index.html',
+    imageLink: './Art/dan-chui/ramen_bowl.gif',
+    author: 'dan-chui',
+    githubLink: 'https://github.com/dan-chui'
+  },
+  {
     artName: '👻Spooky Coffee☕',
     pageLink: './Art/archeana/index.html',
     imageLink: './Art/archeana/coffee boo.gif',
