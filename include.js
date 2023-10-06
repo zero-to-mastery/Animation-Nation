@@ -643,7 +643,6 @@ let cards = [
     imageLink: './Art/THE-AryanKumar/Among Us - result.gif',
     author: 'THE-AryanKumar',
     githubLink: 'https://github.com/THE-AryanKumar'
-    
   },
   {
     artName: 'Stylish Text Animation',
