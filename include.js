@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Sliding Bot',
+    pageLink: './Art/ProfoundlyParker/index.html',
+    imageLink: './Art/ProfoundlyParker/robot.gif',
+    author: 'ProfoundlyParker',
+    githubLink: 'https://github.com/profoundlyparker'
+  },
+  {
     artName: 'Astro Acrobat',
     pageLink: './Art/DarrachBarneveld/index.html',
     imageLink: './Art/DarrachBarneveld/rocket.gif',
@@ -531,6 +538,14 @@ let cards = [
     author: 'Jonathan Reeves',
     githubLink: 'https://github.com/RedHoodJT1988'
   },
+  {
+    artName: 'Netflix Logo',
+    pageLink: './Art/Sheefa/Netflix.html',
+    imageLink: './Art/Sheefa/Netflix.gif',
+    author: 'Sheefa',
+    githubLink: 'https://github.com/sheefanaaz123'
+  },
+  {
     artName: 'Dynamic Shadow',
     pageLink: './Art/Vamshidhar/index.html',
     imageLink: './Art/Vamshidhar/dynamic-shadow.gif',
@@ -538,9 +553,9 @@ let cards = [
     githubLink: 'https://github.com/vamshidhar-thonti'
   },
   {
-    artName: 'Running watch', 
-    pageLink: './Art/Pratyush-Dehury/index.html', 
-    imageLink: './Art/Pratyush-Dehury/wrist-watch.gif', 
+    artName: 'Running watch',
+    pageLink: './Art/Pratyush-Dehury/index.html',
+    imageLink: './Art/Pratyush-Dehury/wrist-watch.gif',
     author: 'Pratyush Dehury',
     githubLink: 'https://github.com/Pratyush-Dehury'
   },
@@ -566,11 +581,11 @@ let cards = [
     githubLink: 'https://github.com/Miainaus'
   },
   {
-      artName: 'Rotate Color', // change this to the name of your artwork
-      pageLink: './Art/Gibso10/index.html', // change this
-      imageLink: './Art/Gibso10/Box Color.gif', // change this
-      author: 'Gibso10', // use your name
-      githubLink: 'https://github.com/Gibso10' // change this
+    artName: 'Rotate Color', // change this to the name of your artwork
+    pageLink: './Art/Gibso10/index.html', // change this
+    imageLink: './Art/Gibso10/Box Color.gif', // change this
+    author: 'Gibso10', // use your name
+    githubLink: 'https://github.com/Gibso10' // change this
   },
   {
     artName: 'Against the Flow',

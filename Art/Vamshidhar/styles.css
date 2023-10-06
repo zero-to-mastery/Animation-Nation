@@ -38,8 +38,8 @@ body {
   align-items: center;
   padding: 2rem;
   color: #fff;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 2rem;
   font-weight: 100;
   text-align: center;
@@ -100,7 +100,7 @@ body {
   }
 
   body::after {
-    content: "Click on various parts of the screen to see the effect";
+    content: 'Click on various parts of the screen to see the effect';
     position: absolute;
     top: 0;
     left: 0;
@@ -110,8 +110,8 @@ body {
     text-align: center;
     background: rgba(255, 222, 101, 0.8);
     backdrop-filter: blur(3px);
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 200;
     letter-spacing: 1px;
   }

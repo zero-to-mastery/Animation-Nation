@@ -109,27 +109,27 @@ span {
 
 @keyframes keyIconTyping {
   0% {
-      transform: scale(1);
-      background: linear-gradient(to bottom right, #34495e, #ff6b6b);
+    transform: scale(1);
+    background: linear-gradient(to bottom right, #34495e, #ff6b6b);
   }
 
   25% {
-      background: linear-gradient(to bottom right,  #ff6b6b, #d5dbdb);
-      transform: scale(0.99);
+    background: linear-gradient(to bottom right, #ff6b6b, #d5dbdb);
+    transform: scale(0.99);
   }
 
   50% {
-      background: linear-gradient(to bottom right, #d5dbdb, #b19cd9);
-      transform: scale(0.98);
+    background: linear-gradient(to bottom right, #d5dbdb, #b19cd9);
+    transform: scale(0.98);
   }
 
   75% {
-      background: linear-gradient(to bottom right, #b19cd9 #ff6b6b);
-      transform: scale(0.96);
+    background: linear-gradient(to bottom right, #b19cd9 #ff6b6b);
+    transform: scale(0.96);
   }
 
   100% {
-      transform: scale(0.9);
-      background: linear-gradient(to bottom right, #ff6b6b  #34495e);
+    transform: scale(0.9);
+    background: linear-gradient(to bottom right, #ff6b6b #34495e);
   }
 }
