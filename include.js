@@ -1169,7 +1169,15 @@ let cards = [
     imageLink: './Art/okaydivyansh/cube.gif',
     author: 'Divyansh',
     githubLink: 'https://github.com/okaydivyansh'
+  },
+  {
+    artName: 'Ball-animation', 
+    pageLink: './Art/RohanSalgare/index.html', // change this
+    imageLink: './Art/RohanSalgare/animation.gif', // change this
+    author: 'Rohan', // use your name
+    githubLink: 'https://github.com/RohanSalgare' // change this
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
