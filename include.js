@@ -1,5 +1,33 @@
 let cards = [
   {
+    artName: 'Astro Acrobat',
+    pageLink: './Art/DarrachBarneveld/index.html',
+    imageLink: './Art/DarrachBarneveld/rocket.gif',
+    author: 'Darrach Barneveld',
+    githubLink: 'https://github.com/DarrachBarneveld'
+  },
+  {
+    artName: 'Rotating Cube',
+    pageLink: './Art/Rishi/cube.html',
+    imageLink: './Art/Rishi/cube.gif',
+    author: 'Rishi',
+    githubLink: 'https://github.com/rishi17003'
+  },
+  {
+    artName: 'Tic Tac Yo!',
+    pageLink: './Art/smokeraven667/smokeraven.html',
+    imageLink: './Art/smokeraven667/tic-tac-yo.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/smokeraven667'
+  },
+  {
+    artName: 'Animation-box',
+    pageLink: './Art/Himanshu_Chauhan/index.html',
+    imageLink: './Art/Himanshu_Chauhan/animation-box.gif',
+    author: 'Himanshu Chauhan',
+    githubLink: 'https://github.com/Himanshuch8055'
+  },
+  {
     artName: 'hanisntsolo',
     pageLink: './Art/hanisntsolo/hanisntsolo.html',
     imageLink: './Art/hanisntsolo/hanisntsolo.gif',
@@ -35,11 +63,32 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
+    artName: 'Keyboard',
+    pageLink: './Art/Alexandra2888/keyboard.html',
+    imageLink: './Art/Alexandra2888/keyboard.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
+  },
+  {
+    artName: 'Jumping Balls',
+    pageLink: './Art/Alexandra2888/balls.html',
+    imageLink: './Art/Alexandra2888/balls.gif',
+    author: 'Alexandra2888',
+    githubLink: 'https://github.com/Alexandra2888'
+  },
+  {
     artName: 'Dancing in Space',
     pageLink: './Art/Maria/index.html',
     imageLink: './Art/Maria/style.css',
     author: 'Maria',
     githubLink: 'https://github.com/mariapetra'
+  },
+  {
+    artName: 'Submit tick animation',
+    pageLink: './Art/rajHimanshu22/index.html',
+    imageLink: './Art/rajHimanshu22/animation.gif',
+    author: 'Himanshu Raj',
+    githubLink: 'https://github.com/rajHimanshu22'
   },
   {
     artName: 'Circle',
@@ -61,6 +110,13 @@ let cards = [
     imageLink: './Art/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
     author: 'Joe DiGioia',
     githubLink: 'https://github.com/WatchAce0'
+  },
+  {
+    artName: 'Pumpkin Ghost',
+    pageLink: './Art/Jason/pumpkin.html',
+    imageLink: './Art/Jason/pumpkin.gif',
+    author: 'Jason',
+    githubLink: 'https://github.com/jsonsinger'
   },
   {
     artName: 'Ghost',
@@ -287,6 +343,13 @@ let cards = [
     githubLink: 'https://github.com/Rahul-Bhati'
   },
   {
+    artName: 'now.sh',
+    pageLink: './Art/Tergel0820/index.html',
+    imageLink: './Art/Tergel0820/animation.gif',
+    author: 'Tergel0820',
+    githubLink: 'https://github.com/Tergel0820'
+  },
+  {
     artName: 'Animated Fan',
     pageLink: './Art/Alexandra2888/fan.html',
     imageLink: './Art/Alexandra2888/fan.png',
@@ -413,6 +476,13 @@ let cards = [
     githubLink: 'https://github.com/lucifer510'
   },
   {
+    artName: 'Ruby',
+    pageLink: './Art/daniel-badura/ruby.html',
+    imageLink: './Art/daniel-badura/ruby.gif',
+    author: 'daniel-badura',
+    githubLink: 'https://github.com/daniel-badura'
+  },
+  {
     artName: '699669',
     pageLink: './Art/Artis/699669.html',
     imageLink: './Art/Artis/699669.gif',
@@ -434,6 +504,13 @@ let cards = [
     githubLink: 'https://github.com/Bhaskarsahu23'
   },
   {
+    artName: 'Starry Night',
+    pageLink: './Art/lucileTech/starry_night.html',
+    imageLink: './Art/lucileTech/starry_night.png',
+    author: 'LucileTech',
+    githubLink: 'https://https://github.com/LucileTech'
+  },
+  {
     artName: 'Heaart',
     pageLink: './Art/Neha045/index.html',
     imageLink: './Art/Neha045/animation.gif',
@@ -447,6 +524,34 @@ let cards = [
     author: 'Zareck521',
     githubLink: 'https://github.com/Zareck521'
   },
+  {
+    artName: 'Scaling loader',
+    pageLink: './Art/BatistaDev1113/index.html',
+    imageLink: './Art/BatistaDev1113/scalingLoader.gif',
+    author: 'BatistaDev1113',
+    githubLink: 'https://github.com/batistaDev1113'
+  },
+  {
+    artName: 'CSS Animation',
+    pageLink: './Art/jayg2309/animation.html',
+    imageLink: './Art/jayg2309/animation.gif',
+    author: 'Jay',
+    githubLink: 'https://github.com/jayg2309'
+  },
+  {
+    artName: 'Bounceballs',
+    pageLink: './Art/Titilayo/index.html',
+    imageLink: './Art/Titilayo/bounceballs.png',
+    author: 'Titilayo',
+    githubLink: 'https://github.com/Teetee-lab'
+  },
+  {
+    artName: 'Stylish Text Animation',
+    pageLink: './Art/varunrmantri23/index.html',
+    imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
+    author: 'varunrmantri23',
+    githubLink: 'https://github.com/varunrmantri23'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
