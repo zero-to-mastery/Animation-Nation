@@ -85,6 +85,13 @@ let cards = [
     githubLink: 'https://github.com/rishi17003'
   },
   {
+    artName: 'Circles',
+    pageLink: './Art/AmanRawat/index.html',
+    imageLink: './Art/AmanRawat/circles.gif',
+    author: 'Aman Rawat',
+    githubLink: 'https://github.com/amanr-dev'
+  },
+  {
     artName: 'hanisntsolo',
     pageLink: './Art/hanisntsolo/hanisntsolo.html',
     imageLink: './Art/hanisntsolo/hanisntsolo.gif',
