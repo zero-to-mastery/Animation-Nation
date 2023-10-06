@@ -43,6 +43,13 @@ let cards = [
     githubLink: 'https://github.com/Himanshuch8055'
   },
   {
+    artName: 'Circles',
+    pageLink: './Art/AmanRawat/index.html',
+    imageLink: './Art/AmanRawat/circles.gif',
+    author: 'Aman Rawat',
+    githubLink: 'https://github.com/amanr-dev'
+  },
+  {
     artName: 'Tic Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
