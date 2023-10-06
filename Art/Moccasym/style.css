@@ -1,0 +1,104 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #83C8E6;
+  }
+
+
+
+
+.box{
+  position: relative;
+  justify-content: center;
+  display: flex;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 600px;
+  height:600px;
+}
+
+.hat {
+  position: absolute;
+  left: 80px;
+  top: 70px;
+  width: 175px;
+  height: 100px;
+  overflow: hidden;
+  transform: rotate(-25deg);
+}
+
+/* Main lemon background */
+.hat::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color:rgb(2, 128, 201);
+  border-radius: 50%;
+  border-color:rgb(9, 162, 62);
+}
+
+
+
+/* Shared segment styles */
+.segment {
+  position: absolute;
+  bottom: 5px;
+  width: 65px;
+  height: 25px;
+  border: 2px solid var(--lemon-pith);
+  background: var(--lemon-rind);
+}
+
+
+/* Container class */
+.smiley {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  height: 200px;
+  width: 200px;
+  
+  background-color: rgb(148, 0, 0);
+  border-radius: 50%;
+}
+
+/* Curved bottom of glass */
+.bottom {
+  position: absolute;
+  width: 200px;
+  top: 170px;
+  left: 25px;
+  height: 70px;
+  background: var(--drink-color);
+  border-radius: 0 0 50% 50%;
+}
+
+/* Top ring of liquid */
+.bottom::before {
+  content: '';
+  position: absolute;
+  width: 226px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--drink-color);
+  border: 1px solid var(--drink-shadow);
+  top: -115px;
+  left: -14px;
+}
+
+.shadow {
+  position: absolute;
+  top: 420px;
+  left: 150px;
+  width: 300px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(0,0,0, 0.05);
+}
