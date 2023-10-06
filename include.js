@@ -995,6 +995,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'Button-Animation',
+    pageLink: './Art/Raghavan-B/index.html',
+    imageLink: './Art/Raghavan-B/button.gif',
+    author: 'Raghavan-B',
+    githubLink: 'https://github.com/Raghavan-B'
+  },
+  {
     artName: 'Beach Loading Bar with Waves and Sun',
     pageLink: './Art/Javier1019/index.html',
     imageLink: './Art/Javier1019/beachloadingbar.gif',
@@ -1246,7 +1253,6 @@ let cards = [
     author: 'Rohan', // use your name
     githubLink: 'https://github.com/RohanSalgare' // change this
   }
-
 ];
 
 // +--------------------------------------------------------------------------------+
