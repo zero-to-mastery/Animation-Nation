@@ -879,25 +879,11 @@ let cards = [
     githubLink: 'https://github.com/jayg2309'
   },
   {
-    artName: 'Bounceballs',
-    pageLink: './Art/Titilayo/index.html',
-    imageLink: './Art/Titilayo/bounceballs.png',
-    author: 'Titilayo',
-    githubLink: 'https://github.com/Teetee-lab'
-  },
-  {
     artName: 'Among Us',
     pageLink: './Art/THE-AryanKumar/index.html',
     imageLink: './Art/THE-AryanKumar/Among Us - result.gif',
     author: 'THE-AryanKumar',
     githubLink: 'https://github.com/THE-AryanKumar'
-  },
-  {
-    artName: 'Stylish Text Animation',
-    pageLink: './Art/varunrmantri23/index.html',
-    imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
-    author: 'varunrmantri23',
-    githubLink: 'https://github.com/varunrmantri23'
   },
   {
     artName: 'Animated Squares',
@@ -1248,13 +1234,6 @@ let cards = [
     imageLink: './Art/BatistaDev1113/scalingLoader.gif',
     author: 'BatistaDev1113',
     githubLink: 'https://github.com/batistaDev1113'
-  },
-  {
-    artName: 'CSS Animation',
-    pageLink: './Art/jayg2309/animation.html',
-    imageLink: './Art/jayg2309/animation.gif',
-    author: 'Jay',
-    githubLink: 'https://github.com/jayg2309'
   },
   {
     artName: 'Bounceballs',
