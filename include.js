@@ -546,9 +546,9 @@ let cards = [
     githubLink: 'https://github.com/vamshidhar-thonti'
   },
   {
-    artName: 'Running watch', 
-    pageLink: './Art/Pratyush-Dehury/index.html', 
-    imageLink: './Art/Pratyush-Dehury/wrist-watch.gif', 
+    artName: 'Running watch',
+    pageLink: './Art/Pratyush-Dehury/index.html',
+    imageLink: './Art/Pratyush-Dehury/wrist-watch.gif',
     author: 'Pratyush Dehury',
     githubLink: 'https://github.com/Pratyush-Dehury'
   },
@@ -574,11 +574,11 @@ let cards = [
     githubLink: 'https://github.com/Miainaus'
   },
   {
-      artName: 'Rotate Color', // change this to the name of your artwork
-      pageLink: './Art/Gibso10/index.html', // change this
-      imageLink: './Art/Gibso10/Box Color.gif', // change this
-      author: 'Gibso10', // use your name
-      githubLink: 'https://github.com/Gibso10' // change this
+    artName: 'Rotate Color', // change this to the name of your artwork
+    pageLink: './Art/Gibso10/index.html', // change this
+    imageLink: './Art/Gibso10/Box Color.gif', // change this
+    author: 'Gibso10', // use your name
+    githubLink: 'https://github.com/Gibso10' // change this
   },
   {
     artName: 'Against the Flow',

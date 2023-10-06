@@ -1,34 +1,38 @@
 body {
-    margin: 0px;
-    height: 100rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #222;
+  margin: 0px;
+  height: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #222;
 }
 
 .box {
-    width: 200px;
-    height: 600px;
-    display: flex;
-    border: 10px solid #ccc;
-    border-radius: 10px;
-    line-height: 200px;
-    color: #ddd;
-    font-size: 25px;
-    font-weight: 600;
-    text-transform: uppercase;
-    position: relative;
-    align-items: flex-end;
-    animation-name: box;
-    animation-duration: 10s;
-    animation-timing-function: linear;
+  width: 200px;
+  height: 600px;
+  display: flex;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  line-height: 200px;
+  color: #ddd;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  align-items: flex-end;
+  animation-name: box;
+  animation-duration: 10s;
+  animation-timing-function: linear;
 }
-
 
 @keyframes box {
-    from {rotate: 0deg; background-color: aquamarine;}
-    to {rotate: 180deg; background-color: greenyellow;}
+  from {
+    rotate: 0deg;
+    background-color: aquamarine;
+  }
+  to {
+    rotate: 180deg;
+    background-color: greenyellow;
+  }
 }
-
