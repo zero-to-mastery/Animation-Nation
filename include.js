@@ -652,6 +652,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Bouncing Ball Animation',
+    pageLink: './Art/NegativE333/bouncing.html',
+    imageLink: './Art/NegativE333/bouncing.gif',
+    author: 'NegativE333',
+    githubLink: 'https://github.com/NegativE333'
+  },
+  {
     artName: 'moving box',
     pageLink: './Art/Esinnation/index.html',
     imageLink: './Art/dmdiamond79/animation.gif',
