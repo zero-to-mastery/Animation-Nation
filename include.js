@@ -897,6 +897,13 @@ let cards = [
     githubLink: 'https://github.com/christine-aqui'
   },
   {
+    artName: 'Bus Animation',
+    pageLink: './Art/stesel/bus.html',
+    imageLink: './Art/stesel/bus.gif',
+    author: 'Leonid Trofymchuk',
+    githubLink: 'https://github.com/stesel'
+  },
+  {
     artName: 'Sunset',
     pageLink: './Art/timDehof/sunset.html',
     imageLink: './Art/timDehof/sunset.gif',
