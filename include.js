@@ -645,6 +645,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Button Hover Animation',
+    pageLink: './Art/oandev/index.html',
+    imageLink: './Art/oan.gif',
+    author: 'hioan-dev',
+    githubLink: 'https://github.com/hioan-dev'
+  },
+  {
     artName: 'Wordspin',
     pageLink: './Art/trottiemcqueen/wordspin.html',
     imageLink: './Art/trottiemcqueen/wordspin.png',
