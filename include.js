@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Chromatic Movement',
+    pageLink: './Art/Talim/index.html',
+    imageLink: './Art/Talim/animation.gif',
+    author: 'Mohammad Talim',
+    githubLink: 'https://github.com/md-talim'
+  },
+  {
     artName: 'Sliding Bot',
     pageLink: './Art/ProfoundlyParker/index.html',
     imageLink: './Art/ProfoundlyParker/robot.gif',
@@ -97,6 +104,13 @@ let cards = [
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName:'Rocket Orbit',
+    pageLink: './Art/thomasravetto/index.html',
+    imageLink: './Art/thomasravetto/loader_gif.gif',
+    author: 'thomasravetto',
+    githubLink: 'https://github.com/thomasravetto'
   },
   {
     artName: 'Keyboard',
@@ -897,6 +911,13 @@ let cards = [
     githubLink: 'https://github.com/christine-aqui'
   },
   {
+    artName: 'Bus Animation',
+    pageLink: './Art/stesel/bus.html',
+    imageLink: './Art/stesel/bus.gif',
+    author: 'Leonid Trofymchuk',
+    githubLink: 'https://github.com/stesel'
+  },
+  {
     artName: 'Sunset',
     pageLink: './Art/timDehof/sunset.html',
     imageLink: './Art/timDehof/sunset.gif',
@@ -980,7 +1001,27 @@ let cards = [
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
   },
-
+  {
+    artName: 'ZTM Cube',
+    pageLink: './Art/williamstophef/index.html',
+    imageLink: './Art/williamstophef/CubeArt.gif',
+    author: 'Christopher Williams',
+    githubLink: 'https://github.com/williamstophef'
+  },
+  {
+    artName: 'Button-Animation',
+    pageLink: './Art/Raghavan-B/index.html',
+    imageLink: './Art/Raghavan-B/button.gif',
+    author: 'Raghavan-B',
+    githubLink: 'https://github.com/Raghavan-B'
+  },
+  {
+    artName: 'Beach Loading Bar with Waves and Sun',
+    pageLink: './Art/Javier1019/index.html',
+    imageLink: './Art/Javier1019/beachloadingbar.gif',
+    author: 'Javier',
+    githubLink: 'https://github.com/Javier1019'
+  },
   {
     artName: 'ColorRot Square',
     pageLink: './Art/RedHoodJT1988/index.html',
@@ -1078,6 +1119,21 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+
+  {
+    artName: 'Diamond',
+    pageLink: './Art/daniel-badura/diamond.html',
+    imageLink: './Art/daniel-badura/diamond.gif',
+    author: 'daniel-badura',
+    githubLink: 'https://github.com/daniel-badura'
+  },
+  {
+    artName: 'Hire Me Button Animation',
+    pageLink: './Art/techfreakSahil/index.html',
+    imageLink: './Art/techfreakSahil/animation(hireBtn).png',
+    author: 'techfreakSahil',
+    githubLink: 'https://github.com/techfreakSahil'
   },
   {
     artName: 'Typewriter Text Animation',
@@ -1212,6 +1268,21 @@ let cards = [
     imageLink: './Art/mohdUsman-6508/wheel.gif', // change this
     author: 'Mohd Usman', // use your name
     githubLink: 'https://github.com/mohdUsman-6508' // change this
+
+  {
+    artName: 'Ball-animation', 
+    pageLink: './Art/RohanSalgare/index.html', // change this
+    imageLink: './Art/RohanSalgare/animation.gif', // change this
+    author: 'Rohan', // use your name
+    githubLink: 'https://github.com/RohanSalgare' // change this
+
+  },
+  {
+    artName: 'CircleChase',
+    pageLink: './Art/MathDevWeb/CircleChase.html',
+    imageLink: './Art/MathDevWeb/CircleChase.gif',
+    author: 'MathDevWeb',
+    githubLink: 'https://github.com/MathDevWeb'
   }
 ];
 
