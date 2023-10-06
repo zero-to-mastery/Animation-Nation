@@ -525,6 +525,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'Move phone',
+    pageLink: './Art/Teri/index.html',
+    imageLink: './Art/Teri/animate.gif',
+    author: 'Teri',
+    githubLink: 'https://github.com/terieyenike'
+  },
+  {
     artName: 'Moving Car',
     pageLink: './Art/Ravkeerat02/car.html',
     imageLink: './Art/Ravkeerat02/car.gif',
@@ -581,18 +588,18 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
-    artName: 'Bird Animation',
-    pageLink: './Art/psykatsamanta/index.html',
-    imageLink: './Art/psykatsamanta/Bird_Animation.gif',
-    author: 'psykatsamanta',
-    githubLink: 'https://github.com/psykatsamanta'
-  },
-  {
     artName: 'Moving Car',
     pageLink: './Art/Ravkeerat02/car.html',
     imageLink: './Art/Ravkeerat02/car.gif',
     author: 'Ravkeerat Singh',
     githubLink: 'https://github.com/Ravkeerat02'
+  },
+  {
+    artName: 'Bird Animation',
+    pageLink: './Art/psykatsamanta/index.html',
+    imageLink: './Art/psykatsamanta/Bird_Animation.gif',
+    author: 'psykatsamanta',
+    githubLink: 'https://github.com/psykatsamanta'
   },
 ];
 
