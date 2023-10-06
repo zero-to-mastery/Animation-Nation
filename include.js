@@ -1066,6 +1066,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: '👻Spooky Coffee☕',
+    pageLink: './Art/archeana/index.html',
+    imageLink: './Art/archeana/coffee boo.gif',
+    author: 'archeana',
+    githubLink: 'https://github.com/archeana'
+  },
+  {
     artName: 'Moving Car',
     pageLink: './Art/Ravkeerat02/car.html',
     imageLink: './Art/Ravkeerat02/car.gif',
