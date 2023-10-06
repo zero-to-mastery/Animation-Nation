@@ -1142,13 +1142,13 @@ let cards = [
     author: 'batistaDev1113',
     githubLink: 'https://github.com/batistaDev1113'
   },
-    {
-    artName: 'SharinganMangekyou', 
-    pageLink: './Art/SankN22/SharinganMangekyou.html', 
-    imageLink: './Art/SankN22/SharinganMangekyou.gif', 
-    author: 'SankN22', 
+  {
+    artName: 'SharinganMangekyou',
+    pageLink: './Art/SankN22/SharinganMangekyou.html',
+    imageLink: './Art/SankN22/SharinganMangekyou.gif',
+    author: 'SankN22',
     githubLink: 'https://github.com/SankN22'
-    },
+  },
   {
     artName: 'Stroboscopic effect',
     pageLink: './Art/Shubhamm33/index.html',
@@ -1204,6 +1204,14 @@ let cards = [
     imageLink: './Art/okaydivyansh/cube.gif',
     author: 'Divyansh',
     githubLink: 'https://github.com/okaydivyansh'
+  },
+
+  {
+    artName: 'wheel', // change this to the name of your artwork
+    pageLink: './Art/mohdUsman-6508/triangle.html', // change this
+    imageLink: './Art/mohdUsman-6508/wheel.gif', // change this
+    author: 'Mohd Usman', // use your name
+    githubLink: 'https://github.com/mohdUsman-6508' // change this
   }
 ];
 
