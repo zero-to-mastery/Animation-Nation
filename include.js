@@ -495,6 +495,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'Ramen Bowl',
+    pageLink: './Art/dan-chui/index.html',
+    imageLink: './Art/dan-chui/ramen_bowl.gif',
+    author: 'dan-chui',
+    githubLink: 'https://github.com/dan-chui'
   }
 ];
 
