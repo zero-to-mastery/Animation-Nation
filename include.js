@@ -1065,6 +1065,13 @@ let cards = [
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
   },
+    {
+    artName: 'SharinganMangekyou', 
+    pageLink: './Art/SankN22/SharinganMangekyou.html', 
+    imageLink: './Art/SankN22/SharinganMangekyou.gif', 
+    author: 'SankN22', 
+    githubLink: 'https://github.com/SankN22'
+    },
   {
     artName: 'Stroboscopic effect',
     pageLink: './Art/Shubhamm33/index.html',
@@ -1121,6 +1128,7 @@ let cards = [
     author: 'Divyansh',
     githubLink: 'https://github.com/okaydivyansh'
   }
+  
 ];
 
 // +--------------------------------------------------------------------------------+
