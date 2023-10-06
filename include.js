@@ -1460,11 +1460,53 @@ let cards = [
     githubLink: 'https://github.com/jatanassian'
   },
   {
+    artName: 'Running watch',
+    pageLink: './Art/Pratyush-Dehury/index.html',
+    imageLink: './Art/Pratyush-Dehury/wrist-watch.gif',
+    author: 'Pratyush Dehury',
+    githubLink: 'https://github.com/Pratyush-Dehury'
+  },
+  {
+    artName: 'Move phone',
+    pageLink: './Art/Teri/index.html',
+    imageLink: './Art/Teri/animate.gif',
+    author: 'Teri',
+    githubLink: 'https://github.com/terieyenike'
+  },
+  {
     artName: 'Moving Car',
     pageLink: './Art/Ravkeerat02/car.html',
     imageLink: './Art/Ravkeerat02/car.gif',
     author: 'Joy',
     githubLink: 'https://github.com/Ravkeerat02'
+  },
+  {
+    artName: 'Animation Envelope',
+    pageLink: './Art/Miainaus/envelope.html',
+    imageLink: './Art/Miainaus/envelope.gif',
+    author: 'Mia',
+    githubLink: 'https://github.com/Miainaus'
+  },
+  {
+    artName: 'Rotate Color',
+    pageLink: './Art/Gibso10/index.html',
+    imageLink: './Art/Gibso10/Box Color.gif',
+    author: 'Gibso10',
+    githubLink: 'https://github.com/Gibso10'
+  },
+  {
+    artName: 'Against the Flow',
+    pageLink: './Art/Zareck521/index.html',
+    imageLink: './Art/Zareck521/otherway.gif',
+    author: 'Zareck521',
+    githubLink: 'https://github.com/Zareck521'
+  },
+  {
+    artName: 'Scaling loader',
+    pageLink: './Art/BatistaDev1113/index.html',
+    imageLink: './Art/BatistaDev1113/scalingLoader.gif',
+    author: 'BatistaDev1113',
+    githubLink: 'https://github.com/batistaDev1113'
   },
   {
     artName: 'CSS Animation',
@@ -1669,11 +1711,11 @@ let cards = [
     githubLink: 'https://github.com/pabitra0011'
   },
   {
-    artName: 'Sun-loader Animation', // change this to the name of your artwork
-    pageLink: './Art/Groot-2001/index.html', // change this
-    imageLink: './Art/Groot-2001/sun-animation.gif', // change this
-    author: 'Shiva Silmawala', // use your name
-    githubLink: 'https://github.com/Groot-2001' // change this
+    artName: 'Sun-loader Animation',
+    pageLink: './Art/Groot-2001/index.html',
+    imageLink: './Art/Groot-2001/sun-animation.gif',
+    author: 'Shiva Silmawala',
+    githubLink: 'https://github.com/Groot-2001'
   },
   {
     artName: 'ColorRot Square',
