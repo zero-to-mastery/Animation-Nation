@@ -1,0 +1,68 @@
+html, body { 
+    padding: 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes rotation {from {transform: rotate(0deg);} to {transform: rotate(359deg);}}
+
+@keyframes fadeIn {0% {opacity: 0;} 100% {opacity: 1;}}
+
+
+/* Big Circle */
+.squareB {
+    width: 170px;
+    height: 170px;
+    animation: rotation 4s infinite linear;
+    background: transparent;
+}
+    .circleB {
+        width: 70px;
+        height: 70px;
+        background: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 255, 0));
+        border-radius: 50%;
+        border: 2px solid #ffa722;
+        animation-name: fadeIn;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 5s;
+    }
+
+/* Medium Circle */
+.squareM {
+    width: 130px;
+    height: 130px;
+    animation: rotation 20s infinite linear;
+    background: transparent;
+}
+    .circleM {
+        width: 50px;
+        height: 50px;
+        background: linear-gradient(to right, rgb(255, 0, 102), rgb(132, 0, 255));
+        border-radius: 50%;
+        border: 1px solid #7322ff;
+        animation-name: fadeIn;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+    }
+
+/* Small Circle */
+.squareS {
+    width: 120px;
+    height: 120px;
+    animation: rotation 8s infinite linear;
+    background: transparent;
+}
+
+    .circleS {
+        width: 30px;
+        height: 30px;
+        background: linear-gradient(to right, rgb(255, 68, 0), rgb(255, 119, 0));
+        border-radius: 50%;
+        border: 1px solid #ff2222;
+        animation-name: fadeIn;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 4s;
+    }
