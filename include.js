@@ -365,6 +365,13 @@ let cards = [
     githubLink: 'https://github.com/yellowberad'
   },
   {
+    artName: 'triangle_run',
+    pageLink: './Art/ghost-2362003/triangle_run.html',
+    imageLink: './Art/ghost-2362003/triangle_run.png',
+    author: 'Shubhojyoti',
+    githubLink: 'https://github.com/ghost-2362003'
+  },
+  {
     artName: 'Flowers',
     pageLink: './Art/Jeffrey/index.html',
     imageLink: './Art/Jeffrey/Hackflowers.png',
