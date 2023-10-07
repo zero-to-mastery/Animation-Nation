@@ -1263,25 +1263,19 @@ let cards = [
   },
 
   {
-<<<<<<< HEAD
     artName: 'wheel', 
     pageLink: './Art/mohdUsman-6508/wheel.html', 
     imageLink: './Art/mohdUsman-6508/wheel.gif',
     author: 'Mohd Usman', 
     githubLink: 'https://github.com/mohdUsman-6508' 
-=======
-    artName: 'wheel', // change this to the name of your artwork
-    pageLink: './Art/mohdUsman-6508/triangle.html', // change this
-    imageLink: './Art/mohdUsman-6508/wheel.gif', // change this
-    author: 'Mohd Usman', // use your name
-    githubLink: 'https://github.com/mohdUsman-6508' // change this
+  },
 
   {
     artName: 'Ball-animation', 
-    pageLink: './Art/RohanSalgare/index.html', // change this
-    imageLink: './Art/RohanSalgare/animation.gif', // change this
-    author: 'Rohan', // use your name
-    githubLink: 'https://github.com/RohanSalgare' // change this
+    pageLink: './Art/RohanSalgare/index.html',
+    imageLink: './Art/RohanSalgare/animation.gif', 
+    author: 'Rohan',
+    githubLink: 'https://github.com/RohanSalgare'
 
   },
   {
@@ -1290,7 +1284,21 @@ let cards = [
     imageLink: './Art/MathDevWeb/CircleChase.gif',
     author: 'MathDevWeb',
     githubLink: 'https://github.com/MathDevWeb'
->>>>>>> adbab83e3933a87e28dc4d72bf75c212115f1e9e
+  },
+  {
+    artName: 'Waves',
+    pageLink: './Art/vivek/index.html',
+    imageLink: './Art/vivek/waves.gif',
+    author: 'Vivek Boii',
+    githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Optimus Prime',
+    pageLink: './Art/Aneesh/optimusprime.html',
+    imageLink: './Art/Aneesh/optimusprime.gif',
+    author: 'Aneesh',
+    githubLink: 'https://github.com/aneeshd27'
+
   }
 ];
 
