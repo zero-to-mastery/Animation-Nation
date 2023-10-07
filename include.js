@@ -497,12 +497,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
-    artName: 'Background line animation', 
-    pageLink: './Art/Hrishap/index.html', 
-    imageLink: './Art/Hrishap/Background line animation.gif', 
-    author: 'Hrishap', 
-    githubLink: 'https://github.com/Hrishap' 
+    artName: 'Background line animation',
+    pageLink: './Art/Hrishap/index.html',
+    imageLink: './Art/Hrishap/Background line animation.gif',
+    author: 'Hrishap',
+    githubLink: 'https://github.com/Hrishap'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
