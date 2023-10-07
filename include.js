@@ -1275,13 +1275,20 @@ let cards = [
     imageLink: './Art/MathDevWeb/CircleChase.gif',
     author: 'MathDevWeb',
     githubLink: 'https://github.com/MathDevWeb'
-  }
+  },
   {
     artName: 'Waves',
     pageLink: './Art/vivek/index.html',
     imageLink: './Art/vivek/waves.gif',
     author: 'Vivek Boii',
     githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Optimus Prime',
+    pageLink: './Art/Aneesh/optimusprime.html',
+    imageLink: './Art/Aneesh/optimusprime.gif',
+    author: 'Aneesh',
+    githubLink: 'https://github.com/aneeshd27'
   }
 ];
 
