@@ -1676,6 +1676,13 @@ let cards = [
     githubLink: 'https://github.com/SankN22'
   },
   {
+    artName: 'Stroboscopic effect',
+    pageLink: './Art/Shubhamm33/index.html',
+    imageLink: './Art/Shubhamm33/stroboscopic.gif',
+    author: 'Shubhamm33',
+    githubLink: 'https://github.com/Shubhamm33'
+  },
+  {
     artName: 'Bouncing Ball Animation',
     pageLink: './Art/NegativE333/bouncing.html',
     imageLink: './Art/NegativE333/bouncing.gif',
@@ -1765,20 +1772,20 @@ let cards = [
     author: 'Divyansh',
     githubLink: 'https://github.com/okaydivyansh'
   },
+
   {
-    artName: 'Ball-animation', 
-    pageLink: './Art/RohanSalgare/index.html', // change this
-    imageLink: './Art/RohanSalgare/animation.gif', // change this
-    author: 'Rohan', // use your name
-    githubLink: 'https://github.com/RohanSalgare' // change this
+    artName: 'wheel', 
+    pageLink: './Art/mohdUsman-6508/wheel.html', 
+    imageLink: './Art/mohdUsman-6508/wheel.gif',
+    author: 'Mohd Usman', 
+    githubLink: 'https://github.com/mohdUsman-6508' 
   },
   {
-    artName: 'Stroboscopic effect',
-    pageLink: './Art/Shubhamm33/index.html',
-    imageLink: './Art/Shubhamm33/stroboscopic.gif',
-    author: 'Shubhamm33',
-    githubLink: 'https://github.com/Shubhamm33'
-
+    artName: 'Ball-animation',
+    pageLink: './Art/RohanSalgare/index.html',
+    imageLink: './Art/RohanSalgare/animation.gif', 
+    author: 'Rohan',
+    githubLink: 'https://github.com/RohanSalgare'
   },
   {
     artName: 'CircleChase',
