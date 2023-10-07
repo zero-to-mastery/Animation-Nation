@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Chess',
+    pageLink: './Art/Ronit72/index.html',
+    imageLink: './Art/Ronit72/animation.gif',
+    author: 'Ronit',
+    githubLink: 'https://github.com/Ronit72'
+  },
+  {
     artName: 'Chromatic Movement',
     pageLink: './Art/Talim/index.html',
     imageLink: './Art/Talim/animation.gif',
