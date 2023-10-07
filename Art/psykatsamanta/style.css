@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #232323;
-    min-height: 100vh;
-    width: 100%;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #232323;
+  min-height: 100vh;
+  width: 100%;
 }
 
 .loader section {
@@ -20,8 +20,8 @@ body{
   /* background: #fff; */
 }
 
-.eye{
-    border-radius: 50%;
+.eye {
+  border-radius: 50%;
 }
 
 .loader section span {
