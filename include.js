@@ -1320,6 +1320,13 @@ let cards = [
     githubLink: 'https://github.com/vinay-s36'
   },
   {
+    artName: 'Heart Loading...',
+    pageLink: './Art/maidxn/index.html',
+    imageLink: './Art/maidxn/heart-loading-animate.gif',
+    author: 'Mayd',
+    githubLink: 'https://github.com/maidxn'
+  },
+  {
     artName: 'Colour change Ball',
     pageLink: './Art/TBRX/index.html',
     imageLink: './Art/TBRX/color-change.png',
