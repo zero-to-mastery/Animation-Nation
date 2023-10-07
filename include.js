@@ -1289,6 +1289,13 @@ let cards = [
     imageLink: './Art/Aneesh/optimusprime.gif',
     author: 'Aneesh',
     githubLink: 'https://github.com/aneeshd27'
+  },
+  {
+    artName: 'Sun-Earth Rotation',
+    pageLink: './Art/vinay-s36/animation.html',
+    imageLink: './Art/vinay-s36/Sun-Earth Rotation.gif',
+    author: 'Vinay',
+    githubLink: 'https://github.com/vinay-s36'
   }
 ];
 
