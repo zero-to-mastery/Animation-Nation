@@ -1332,6 +1332,13 @@ let cards = [
     imageLink: './Art/TBRX/color-change.png',
     author: 'Tabrez Alam',
     githubLink: 'https://github.com/tabrez022'
+  },
+  {
+    artName: 'Spinner',
+    pageLink: './Art/muhd-kifayath/Spinner.html',
+    imageLink: './Art/muhd-kifayath/Spinner.gif',
+    author: 'Kifayath',
+    githubLink: 'https://github.com/muhd-kifayath'
   }
 ];
 
