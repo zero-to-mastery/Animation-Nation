@@ -106,7 +106,7 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
-    artName:'Rocket Orbit',
+    artName: 'Rocket Orbit',
     pageLink: './Art/thomasravetto/index.html',
     imageLink: './Art/thomasravetto/loader_gif.gif',
     author: 'thomasravetto',
@@ -1198,13 +1198,13 @@ let cards = [
     author: 'batistaDev1113',
     githubLink: 'https://github.com/batistaDev1113'
   },
-    {
-    artName: 'SharinganMangekyou', 
-    pageLink: './Art/SankN22/SharinganMangekyou.html', 
-    imageLink: './Art/SankN22/SharinganMangekyou.gif', 
-    author: 'SankN22', 
+  {
+    artName: 'SharinganMangekyou',
+    pageLink: './Art/SankN22/SharinganMangekyou.html',
+    imageLink: './Art/SankN22/SharinganMangekyou.gif',
+    author: 'SankN22',
     githubLink: 'https://github.com/SankN22'
-    },
+  },
   {
     artName: 'Stroboscopic effect',
     pageLink: './Art/Shubhamm33/index.html',
@@ -1262,12 +1262,11 @@ let cards = [
     githubLink: 'https://github.com/okaydivyansh'
   },
   {
-    artName: 'Ball-animation', 
+    artName: 'Ball-animation',
     pageLink: './Art/RohanSalgare/index.html', // change this
     imageLink: './Art/RohanSalgare/animation.gif', // change this
     author: 'Rohan', // use your name
     githubLink: 'https://github.com/RohanSalgare' // change this
-
   },
   {
     artName: 'CircleChase',
@@ -1289,6 +1288,13 @@ let cards = [
     imageLink: './Art/Aneesh/optimusprime.gif',
     author: 'Aneesh',
     githubLink: 'https://github.com/aneeshd27'
+  },
+  {
+    artName: 'Ping Pong',
+    pageLink: './Art/patelanuj93/index.html',
+    imageLink: './Art/patelanuj93/ping-pong.gif',
+    author: 'Anuj Patel',
+    githubLink: 'https://github.com/patelanuj93'
   }
 ];
 
