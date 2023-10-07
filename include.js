@@ -1207,11 +1207,11 @@ let cards = [
   },
 
   {
-    artName: 'wheel', // change this to the name of your artwork
-    pageLink: './Art/mohdUsman-6508/triangle.html', // change this
-    imageLink: './Art/mohdUsman-6508/wheel.gif', // change this
-    author: 'Mohd Usman', // use your name
-    githubLink: 'https://github.com/mohdUsman-6508' // change this
+    artName: 'wheel', 
+    pageLink: './Art/mohdUsman-6508/wheel.html', 
+    imageLink: './Art/mohdUsman-6508/wheel.gif',
+    author: 'Mohd Usman', 
+    githubLink: 'https://github.com/mohdUsman-6508' 
   }
 ];
 
