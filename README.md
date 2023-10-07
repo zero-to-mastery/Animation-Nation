@@ -43,3 +43,14 @@ let cards = [
   }
 ];
 ```
+
+# Important Note
+
+If a maintainer asks for changes, _please make the required changes to your original pull request._
+
+Closing a PR and re-opening the PR for the same contribution adds an unnecessary burden on maintainers,  
+as they have to review the complete pull request again.
+
+If you don't follow this rule, maintainers reserve the right to mark your pull request as invalid.
+
+**In this case it won't count for Hacktoberfest**.
