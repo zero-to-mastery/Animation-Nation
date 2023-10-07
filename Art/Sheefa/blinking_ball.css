@@ -12,7 +12,9 @@ body {
   height: 50px;
   background: radial-gradient(circle, #b7db34, #c1b424);
   border-radius: 50%;
-  animation: bounce 1s infinite alternate, pulse 1s infinite alternate,
+  animation:
+    bounce 1s infinite alternate,
+    pulse 1s infinite alternate,
     rotate 4s linear infinite;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
