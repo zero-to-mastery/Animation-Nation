@@ -365,6 +365,13 @@ let cards = [
     githubLink: 'https://github.com/yellowberad'
   },
   {
+    artName: 'triangle_run',
+    pageLink: './Art/ghost-2362003/triangle_run.html',
+    imageLink: './Art/ghost-2362003/triangle_run.png',
+    author: 'Shubhojyoti',
+    githubLink: 'https://github.com/ghost-2362003'
+  },
+  {
     artName: 'Flowers',
     pageLink: './Art/Jeffrey/index.html',
     imageLink: './Art/Jeffrey/Hackflowers.png',
@@ -1299,6 +1306,13 @@ let cards = [
     githubLink: 'https://github.com/aneeshd27'
   },
   {
+    artName: 'Ping Pong',
+    pageLink: './Art/patelanuj93/index.html',
+    imageLink: './Art/patelanuj93/ping-pong.gif',
+    author: 'Anuj Patel',
+    githubLink: 'https://github.com/patelanuj93'
+  },
+  {
     artName: 'Sun-Earth Rotation',
     pageLink: './Art/vinay-s36/animation.html',
     imageLink: './Art/vinay-s36/Sun-Earth Rotation.gif',
@@ -1311,6 +1325,13 @@ let cards = [
     imageLink: './Art/maidxn/heart-loading-animate.gif',
     author: 'Mayd',
     githubLink: 'https://github.com/maidxn'
+  },
+  {
+    artName: 'Colour change Ball',
+    pageLink: './Art/TBRX/index.html',
+    imageLink: './Art/TBRX/color-change.png',
+    author: 'Tabrez Alam',
+    githubLink: 'https://github.com/tabrez022'
   }
 ];
 

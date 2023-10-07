@@ -3,7 +3,7 @@
   height: 100px;
   width: 100px;
   position: relative;
-  
+
   margin-top: 50px;
   left: 300px;
   border-radius: 50%;
@@ -18,18 +18,17 @@
     height: 100px;
   }
 
-  50%{
+  50% {
     top: 500px;
     width: 150px;
     height: 150px;
   }
 
-  100%{
+  100% {
     top: 50px;
     width: 100px;
     height: 100px;
   }
-
 }
 
 .ball2 {
@@ -38,13 +37,12 @@
   width: 100px;
   position: absolute;
   left: 250px;
-  top:50px;
-  
+  top: 50px;
+
   border-radius: 50%;
 
   animation: bottomUp 5s infinite;
 }
-
 
 @keyframes bottomUp {
   0% {
@@ -53,17 +51,15 @@
     height: 100px;
   }
 
-  50%{
+  50% {
     top: 50px;
     width: 150px;
     height: 150px;
   }
 
-  100%{
+  100% {
     top: 500px;
     width: 100px;
     height: 100px;
   }
-
-
 }
