@@ -1774,16 +1774,16 @@ let cards = [
   },
 
   {
-    artName: 'wheel', 
-    pageLink: './Art/mohdUsman-6508/wheel.html', 
+    artName: 'wheel',
+    pageLink: './Art/mohdUsman-6508/wheel.html',
     imageLink: './Art/mohdUsman-6508/wheel.gif',
-    author: 'Mohd Usman', 
-    githubLink: 'https://github.com/mohdUsman-6508' 
+    author: 'Mohd Usman',
+    githubLink: 'https://github.com/mohdUsman-6508'
   },
   {
     artName: 'Ball-animation',
     pageLink: './Art/RohanSalgare/index.html',
-    imageLink: './Art/RohanSalgare/animation.gif', 
+    imageLink: './Art/RohanSalgare/animation.gif',
     author: 'Rohan',
     githubLink: 'https://github.com/RohanSalgare'
   },
@@ -1793,6 +1793,34 @@ let cards = [
     imageLink: './Art/MathDevWeb/CircleChase.gif',
     author: 'MathDevWeb',
     githubLink: 'https://github.com/MathDevWeb'
+  },
+  {
+    artName: 'Waves',
+    pageLink: './Art/vivek/index.html',
+    imageLink: './Art/vivek/waves.gif',
+    author: 'Vivek Boii',
+    githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Optimus Prime',
+    pageLink: './Art/Aneesh/optimusprime.html',
+    imageLink: './Art/Aneesh/optimusprime.gif',
+    author: 'Aneesh',
+    githubLink: 'https://github.com/aneeshd27'
+  },
+  {
+    artName: 'Ping Pong',
+    pageLink: './Art/patelanuj93/index.html',
+    imageLink: './Art/patelanuj93/ping-pong.gif',
+    author: 'Anuj Patel',
+    githubLink: 'https://github.com/patelanuj93'
+  },
+  {
+    artName: 'Sun-Earth Rotation',
+    pageLink: './Art/vinay-s36/animation.html',
+    imageLink: './Art/vinay-s36/Sun-Earth Rotation.gif',
+    author: 'Vinay',
+    githubLink: 'https://github.com/vinay-s36'
   }
 ];
 
