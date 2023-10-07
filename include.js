@@ -106,7 +106,7 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
-    artName:'Rocket Orbit',
+    artName: 'Rocket Orbit',
     pageLink: './Art/thomasravetto/index.html',
     imageLink: './Art/thomasravetto/loader_gif.gif',
     author: 'thomasravetto',
@@ -1198,13 +1198,13 @@ let cards = [
     author: 'batistaDev1113',
     githubLink: 'https://github.com/batistaDev1113'
   },
-    {
-    artName: 'SharinganMangekyou', 
-    pageLink: './Art/SankN22/SharinganMangekyou.html', 
-    imageLink: './Art/SankN22/SharinganMangekyou.gif', 
-    author: 'SankN22', 
+  {
+    artName: 'SharinganMangekyou',
+    pageLink: './Art/SankN22/SharinganMangekyou.html',
+    imageLink: './Art/SankN22/SharinganMangekyou.gif',
+    author: 'SankN22',
     githubLink: 'https://github.com/SankN22'
-    },
+  },
   {
     artName: 'Stroboscopic effect',
     pageLink: './Art/Shubhamm33/index.html',
@@ -1262,7 +1262,7 @@ let cards = [
     githubLink: 'https://github.com/okaydivyansh'
   },
   {
-    artName: 'Ball-animation', 
+    artName: 'Ball-animation',
     pageLink: './Art/RohanSalgare/index.html', // change this
     imageLink: './Art/RohanSalgare/animation.gif', // change this
     author: 'Rohan', // use your name
@@ -1290,6 +1290,13 @@ let cards = [
     author: 'Aneesh',
     githubLink: 'https://github.com/aneeshd27'
   }
+  {
+    artName: 'Pabitra Pal',
+    pageLink: './Art/Pabitra/index.html',
+    imageLink: './Art/Pabitra/face animation gif.gif',
+    author: 'Pabitra',
+    githubLink: 'https://github.com/pabitra0011'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -1304,14 +1311,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
