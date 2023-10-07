@@ -106,7 +106,7 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
-    artName:'Rocket Orbit',
+    artName: 'Rocket Orbit',
     pageLink: './Art/thomasravetto/index.html',
     imageLink: './Art/thomasravetto/loader_gif.gif',
     author: 'thomasravetto',
@@ -363,6 +363,13 @@ let cards = [
     imageLink: './Art/Mayank_goel/moving_flag.gif',
     author: 'Yelloberard',
     githubLink: 'https://github.com/yellowberad'
+  },
+  {
+    artName: 'triangle_run',
+    pageLink: './Art/ghost-2362003/triangle_run.html',
+    imageLink: './Art/ghost-2362003/triangle_run.png',
+    author: 'Shubhojyoti',
+    githubLink: 'https://github.com/ghost-2362003'
   },
   {
     artName: 'Flowers',
@@ -1129,7 +1136,7 @@ let cards = [
     imageLink: './Art/Hrishap/Background line animation.gif',
     author: 'Hrishap',
     githubLink: 'https://github.com/Hrishap'
-
+  },
 
   {
     artName: 'Diamond',
@@ -1273,20 +1280,19 @@ let cards = [
   },
 
   {
-    artName: 'wheel', 
-    pageLink: './Art/mohdUsman-6508/wheel.html', 
+    artName: 'wheel',
+    pageLink: './Art/mohdUsman-6508/wheel.html',
     imageLink: './Art/mohdUsman-6508/wheel.gif',
-    author: 'Mohd Usman', 
-    githubLink: 'https://github.com/mohdUsman-6508' 
+    author: 'Mohd Usman',
+    githubLink: 'https://github.com/mohdUsman-6508'
   },
 
   {
-    artName: 'Ball-animation', 
+    artName: 'Ball-animation',
     pageLink: './Art/RohanSalgare/index.html',
-    imageLink: './Art/RohanSalgare/animation.gif', 
+    imageLink: './Art/RohanSalgare/animation.gif',
     author: 'Rohan',
     githubLink: 'https://github.com/RohanSalgare'
-
   },
   {
     artName: 'CircleChase',
@@ -1311,11 +1317,33 @@ let cards = [
     githubLink: 'https://github.com/aneeshd27'
   },
   {
+    artName: 'Ping Pong',
+    pageLink: './Art/patelanuj93/index.html',
+    imageLink: './Art/patelanuj93/ping-pong.gif',
+    author: 'Anuj Patel',
+    githubLink: 'https://github.com/patelanuj93'
+  },
+  {
     artName: 'Sun-Earth Rotation',
     pageLink: './Art/vinay-s36/animation.html',
     imageLink: './Art/vinay-s36/Sun-Earth Rotation.gif',
     author: 'Vinay',
     githubLink: 'https://github.com/vinay-s36'
+
+  },
+  {
+    artName: 'Heart Loading...',
+    pageLink: './Art/maidxn/index.html',
+    imageLink: './Art/maidxn/heart-loading-animate.gif',
+    author: 'Mayd',
+    githubLink: 'https://github.com/maidxn'
+  },
+  {
+    artName: 'Colour change Ball',
+    pageLink: './Art/TBRX/index.html',
+    imageLink: './Art/TBRX/color-change.png',
+    author: 'Tabrez Alam',
+    githubLink: 'https://github.com/tabrez022'
 
   }
 
