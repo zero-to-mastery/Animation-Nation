@@ -10,7 +10,8 @@ body {
   background: url(https://git.io/JUW4L);
   width: 240px;
   height: 320px;
-  animation: walking_animation 1s steps(12) infinite,
+  animation:
+    walking_animation 1s steps(12) infinite,
     move_forward 8s linear infinite;
 }
 

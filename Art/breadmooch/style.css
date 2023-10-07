@@ -145,7 +145,6 @@ body {
 
 /* Eye white */
 .eye-white {
-<<<<<<< HEAD
   width: 80px;
   height: 80px;
   background-color: #fcffe4;
@@ -221,83 +220,68 @@ body {
     transform: translate(-50%, -30%);
   }
 }
-=======
-    width: 80px;
-    height: 80px;
-    background-color: #fcffe4;
-    border-radius: 50%;
-    position: absolute;
-   
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}  
 
 /* Pupil */
 .pupil {
-    width: 40px;
-    height: 40px;
-    background-color: #360000;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation-iteration-count:infinite;
-    animation-timing-function: linear;
-    animation: movePupil 5s alternate linear infinite;
+  width: 40px;
+  height: 40px;
+  background-color: #360000;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation: movePupil 5s alternate linear infinite;
 }
 
 /*Nose*/
-.nose{
-    width:40px;
-    height:20px;
-    background-color:#44304b;
-    border-radius:100px/50px;
-    position: absolute;
-    top: 55%;
-    right: 46%;
-  }
+.nose {
+  width: 40px;
+  height: 20px;
+  background-color: #44304b;
+  border-radius: 100px/50px;
+  position: absolute;
+  top: 55%;
+  right: 46%;
+}
 
 /* Mouth */
 .mouth {
-    width: 60px;
-    height: 10px; 
-    background-color: #785583; 
-    border-radius: 50%;
-    position: absolute;
-    top: 60%; 
-    border-radius: 50px;
-    right: 46%;
+  width: 60px;
+  height: 10px;
+  background-color: #785583;
+  border-radius: 50%;
+  position: absolute;
+  top: 60%;
+  border-radius: 50px;
+  right: 46%;
 }
 
 /* Keyframes for pupil animation */
-@keyframes movePupil{
-   0%{
+@keyframes movePupil {
+  0% {
     background-color: #360000;
-    transform: translate(-50%,-50%);
-   }
-   25%{
-    transform: translate(-30%,-50%);
-   }
-   40%{
-    transform: translate(-50%,-100%);
-   }
-   60%{
-    transform: translate(-70%,-70%);
-   }
-   75%{
-    transform: translate(-70%,-40%);
-   }
-   85%{
-    transform: translate(-50%,-30%);
-   }
-   100%{
+    transform: translate(-50%, -50%);
+  }
+  25% {
+    transform: translate(-30%, -50%);
+  }
+  40% {
+    transform: translate(-50%, -100%);
+  }
+  60% {
+    transform: translate(-70%, -70%);
+  }
+  75% {
+    transform: translate(-70%, -40%);
+  }
+  85% {
+    transform: translate(-50%, -30%);
+  }
+  100% {
     background-color: red;
-    transform: translate(-50%,-30%);
-   }
+    transform: translate(-50%, -30%);
+  }
 }
-
-
-
->>>>>>> 23023799 (Adds my animation files.)
