@@ -1208,13 +1208,13 @@ let cards = [
     author: 'batistaDev1113',
     githubLink: 'https://github.com/batistaDev1113'
   },
-    {
-    artName: 'SharinganMangekyou', 
-    pageLink: './Art/SankN22/SharinganMangekyou.html', 
-    imageLink: './Art/SankN22/SharinganMangekyou.gif', 
-    author: 'SankN22', 
+  {
+    artName: 'SharinganMangekyou',
+    pageLink: './Art/SankN22/SharinganMangekyou.html',
+    imageLink: './Art/SankN22/SharinganMangekyou.gif',
+    author: 'SankN22',
     githubLink: 'https://github.com/SankN22'
-    },
+  },
   {
     artName: 'Stroboscopic effect',
     pageLink: './Art/Shubhamm33/index.html',
@@ -1271,12 +1271,21 @@ let cards = [
     author: 'Divyansh',
     githubLink: 'https://github.com/okaydivyansh'
   },
+
+  {
+    artName: 'wheel', 
+    pageLink: './Art/mohdUsman-6508/wheel.html', 
+    imageLink: './Art/mohdUsman-6508/wheel.gif',
+    author: 'Mohd Usman', 
+    githubLink: 'https://github.com/mohdUsman-6508' 
+  },
+
   {
     artName: 'Ball-animation', 
-    pageLink: './Art/RohanSalgare/index.html', // change this
-    imageLink: './Art/RohanSalgare/animation.gif', // change this
-    author: 'Rohan', // use your name
-    githubLink: 'https://github.com/RohanSalgare' // change this
+    pageLink: './Art/RohanSalgare/index.html',
+    imageLink: './Art/RohanSalgare/animation.gif', 
+    author: 'Rohan',
+    githubLink: 'https://github.com/RohanSalgare'
 
   },
   {
@@ -1285,13 +1294,28 @@ let cards = [
     imageLink: './Art/MathDevWeb/CircleChase.gif',
     author: 'MathDevWeb',
     githubLink: 'https://github.com/MathDevWeb'
-  }
+  },
   {
     artName: 'Waves',
     pageLink: './Art/vivek/index.html',
     imageLink: './Art/vivek/waves.gif',
     author: 'Vivek Boii',
     githubLink: 'https://github.com/vivekBoii'
+
+  },
+  {
+    artName: 'Optimus Prime',
+    pageLink: './Art/Aneesh/optimusprime.html',
+    imageLink: './Art/Aneesh/optimusprime.gif',
+    author: 'Aneesh',
+    githubLink: 'https://github.com/aneeshd27'
+  },
+  {
+    artName: 'Sun-Earth Rotation',
+    pageLink: './Art/vinay-s36/animation.html',
+    imageLink: './Art/vinay-s36/Sun-Earth Rotation.gif',
+    author: 'Vinay',
+    githubLink: 'https://github.com/vinay-s36'
 
   }
 
