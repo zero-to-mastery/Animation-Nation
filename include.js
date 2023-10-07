@@ -1275,14 +1275,22 @@ let cards = [
     imageLink: './Art/MathDevWeb/CircleChase.gif',
     author: 'MathDevWeb',
     githubLink: 'https://github.com/MathDevWeb'
-  }
+  },
   {
     artName: 'Waves',
     pageLink: './Art/vivek/index.html',
     imageLink: './Art/vivek/waves.gif',
     author: 'Vivek Boii',
     githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Flower Bloom',
+    pageLink: './Art/Kishan2510/index.html',
+    imageLink: './Art/Kishan/Flower_bloom.gif',
+    author: 'Kishan Kumar Pathak',
+    githubLink: 'https://github.com/kishan2510'
   }
+    
 ];
 
 // +--------------------------------------------------------------------------------+
