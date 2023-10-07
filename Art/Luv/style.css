@@ -1,0 +1,28 @@
+.box{
+    border: 1px solid #CCC;
+    height: 360px;
+    width: 360px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+
+#anim-four{
+
+    text-align: center;
+    animation: heartbeat .5s cubic-bezier(0.245, 0.325, 0.510, 1.305) infinite alternate;
+    font-size: 160px;
+    margin-top: 60px;
+    color: darken(#FB7E6E, 30%);
+
+}
+
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
