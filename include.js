@@ -106,7 +106,7 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
-    artName:'Rocket Orbit',
+    artName: 'Rocket Orbit',
     pageLink: './Art/thomasravetto/index.html',
     imageLink: './Art/thomasravetto/loader_gif.gif',
     author: 'thomasravetto',
@@ -1263,20 +1263,19 @@ let cards = [
   },
 
   {
-    artName: 'wheel', 
-    pageLink: './Art/mohdUsman-6508/wheel.html', 
+    artName: 'wheel',
+    pageLink: './Art/mohdUsman-6508/wheel.html',
     imageLink: './Art/mohdUsman-6508/wheel.gif',
-    author: 'Mohd Usman', 
-    githubLink: 'https://github.com/mohdUsman-6508' 
+    author: 'Mohd Usman',
+    githubLink: 'https://github.com/mohdUsman-6508'
   },
 
   {
-    artName: 'Ball-animation', 
+    artName: 'Ball-animation',
     pageLink: './Art/RohanSalgare/index.html',
-    imageLink: './Art/RohanSalgare/animation.gif', 
+    imageLink: './Art/RohanSalgare/animation.gif',
     author: 'Rohan',
     githubLink: 'https://github.com/RohanSalgare'
-
   },
   {
     artName: 'CircleChase',
@@ -1298,6 +1297,13 @@ let cards = [
     imageLink: './Art/Aneesh/optimusprime.gif',
     author: 'Aneesh',
     githubLink: 'https://github.com/aneeshd27'
+  },
+  {
+    artName: 'Ping Pong',
+    pageLink: './Art/patelanuj93/index.html',
+    imageLink: './Art/patelanuj93/ping-pong.gif',
+    author: 'Anuj Patel',
+    githubLink: 'https://github.com/patelanuj93'
   },
   {
     artName: 'Sun-Earth Rotation',
