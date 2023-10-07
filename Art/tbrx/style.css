@@ -6,7 +6,7 @@ div {
     translate: 50px 50px;
     animation-name: example;
     animation-duration: 4s;
-    animation-iteration-count:infinite;
+    animation-iteration-count: infinite;
   }
   
   @keyframes example {
