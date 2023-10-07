@@ -1289,7 +1289,7 @@ let cards = [
     imageLink: './Art/Aneesh/optimusprime.gif',
     author: 'Aneesh',
     githubLink: 'https://github.com/aneeshd27'
-  }
+  },
   {
     artName: 'Pabitra Pal',
     pageLink: './Art/Pabitra/index.html',
