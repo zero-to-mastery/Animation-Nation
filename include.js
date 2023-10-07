@@ -1261,12 +1261,21 @@ let cards = [
     author: 'Divyansh',
     githubLink: 'https://github.com/okaydivyansh'
   },
+
+  {
+    artName: 'wheel',
+    pageLink: './Art/mohdUsman-6508/wheel.html',
+    imageLink: './Art/mohdUsman-6508/wheel.gif',
+    author: 'Mohd Usman',
+    githubLink: 'https://github.com/mohdUsman-6508'
+  },
+
   {
     artName: 'Ball-animation',
-    pageLink: './Art/RohanSalgare/index.html', // change this
-    imageLink: './Art/RohanSalgare/animation.gif', // change this
-    author: 'Rohan', // use your name
-    githubLink: 'https://github.com/RohanSalgare' // change this
+    pageLink: './Art/RohanSalgare/index.html',
+    imageLink: './Art/RohanSalgare/animation.gif',
+    author: 'Rohan',
+    githubLink: 'https://github.com/RohanSalgare'
   },
   {
     artName: 'CircleChase',
@@ -1295,6 +1304,13 @@ let cards = [
     imageLink: './Art/patelanuj93/ping-pong.gif',
     author: 'Anuj Patel',
     githubLink: 'https://github.com/patelanuj93'
+  },
+  {
+    artName: 'Sun-Earth Rotation',
+    pageLink: './Art/vinay-s36/animation.html',
+    imageLink: './Art/vinay-s36/Sun-Earth Rotation.gif',
+    author: 'Vinay',
+    githubLink: 'https://github.com/vinay-s36'
   }
 ];
 
