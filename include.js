@@ -1395,7 +1395,7 @@ let cards = [
     imageLink: './Art/Sai/ani1.gif',
     author: 'Sai',
     githubLink: 'https://github.com/SaiAryan1784'
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
