@@ -52,42 +52,50 @@ body {
 }
 
 .invisible-box-1:hover ~ .square {
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5),
+  box-shadow:
+    5px 5px 15px rgba(0, 0, 0, 0.5),
     -5px -5px 15px rgba(255, 255, 255, 0.5);
 }
 
 .invisible-box-2:hover ~ .square {
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5),
+  box-shadow:
+    0px 5px 15px rgba(0, 0, 0, 0.5),
     0px -5px 15px rgba(255, 255, 255, 0.5);
 }
 
 .invisible-box-3:hover ~ .square {
-  box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.5),
+  box-shadow:
+    -5px 5px 15px rgba(0, 0, 0, 0.5),
     5px -5px 15px rgba(255, 255, 255, 0.5);
 }
 
 .invisible-box-4:hover ~ .square {
-  box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.5),
+  box-shadow:
+    5px 0px 15px rgba(0, 0, 0, 0.5),
     -5px 0px 15px rgba(255, 255, 255, 0.5);
 }
 
 .invisible-box-6:hover ~ .square {
-  box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.5),
+  box-shadow:
+    -5px 0px 15px rgba(0, 0, 0, 0.5),
     5px 0px 15px rgba(255, 255, 255, 0.5);
 }
 
 .invisible-box-7:hover ~ .square {
-  box-shadow: 5px -5px 15px rgba(0, 0, 0, 0.5),
+  box-shadow:
+    5px -5px 15px rgba(0, 0, 0, 0.5),
     -5px 5px 15px rgba(255, 255, 255, 0.5);
 }
 
 .invisible-box-8:hover ~ .square {
-  box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.5),
+  box-shadow:
+    0px -5px 15px rgba(0, 0, 0, 0.5),
     0px 5px 15px rgba(255, 255, 255, 0.5);
 }
 
 .invisible-box-9:hover ~ .square {
-  box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.5),
+  box-shadow:
+    -5px -5px 15px rgba(0, 0, 0, 0.5),
     5px 5px 15px rgba(255, 255, 255, 0.5);
 }
 
