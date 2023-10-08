@@ -1346,6 +1346,13 @@ let cards = [
     imageLink: './Art/muhd-kifayath/Spinner.gif',
     author: 'Kifayath',
     githubLink: 'https://github.com/muhd-kifayath'
+  },
+  {
+    artName: 'Heart Beat',
+    pageLink: './Art/Luv/index.html',
+    imageLink: './Art/Luv/heart.png',
+    author: 'Luv',
+    githubLink: 'https://github.com/luv2027'
   }
 ];
 
