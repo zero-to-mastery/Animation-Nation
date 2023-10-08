@@ -1395,6 +1395,13 @@ let cards = [
     imageLink: './Art/Sai/ani1.gif',
     author: 'Sai',
     githubLink: 'https://github.com/SaiAryan1784'
+  },
+  {
+    artName: 'Steaming Cup',
+    pageLink: './Art/vivek/SteamCup.html',
+    imageLink: './Art/vivek/SteamCup.gif',
+    author: 'vivekBoii',
+    githubLink: 'https://github.com/vivekBoii'
   }
 ];
 
