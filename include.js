@@ -1346,7 +1346,14 @@ let cards = [
     imageLink: './Art/muhd-kifayath/Spinner.gif',
     author: 'Kifayath',
     githubLink: 'https://github.com/muhd-kifayath'
-  }
+  },
+  {
+    artName: 'Rotate 3D on Hover',
+    pageLink: './Art/Vamshidhar/rotate.html',
+    imageLink: './Art/Vamshidhar/rotate-3d-on-hover.gif',
+    author: 'Vamshidhar Thonti',
+    githubLink: 'https://github.com/vamshidhar-thonti'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
