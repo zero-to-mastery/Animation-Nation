@@ -42,6 +42,13 @@ let cards = [
     githubLink: 'https://github.com/rishi17003'
   },
   {
+    artName: 'Waving penguin',
+    pageLink: './Art/iamsnehadas/index.html',
+    imageLink: './Art/iamsnehadas/penguin.png',
+    author: 'Sneha Das',
+    githubLink: 'https://github.com/iamsnehadas'
+  },
+  {
     artName: 'Tic Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
