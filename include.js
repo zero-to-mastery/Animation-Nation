@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Chess',
+    pageLink: './Art/Ronit72/index.html',
+    imageLink: './Art/Ronit72/animation.gif',
+    author: 'Ronit',
+    githubLink: 'https://github.com/Ronit72'
+  },
+  {
     artName: 'Chromatic Movement',
     pageLink: './Art/Talim/index.html',
     imageLink: './Art/Talim/animation.gif',
@@ -19,6 +26,13 @@ let cards = [
     imageLink: './Art/DarrachBarneveld/rocket.gif',
     author: 'Darrach Barneveld',
     githubLink: 'https://github.com/DarrachBarneveld'
+  },
+  {
+    artName: 'Card Hover',
+    pageLink: './Art/imPradhyumn/index.html',
+    imageLink: './Art/imPradhyumn/card-animation.gif',
+    author: 'Pradhyumn Sharma',
+    githubLink: 'https://github.com/imPradhyumn'
   },
   {
     artName: 'Rotating Cube',
@@ -365,6 +379,13 @@ let cards = [
     githubLink: 'https://github.com/yellowberad'
   },
   {
+    artName: 'triangle_run',
+    pageLink: './Art/ghost-2362003/triangle_run.html',
+    imageLink: './Art/ghost-2362003/triangle_run.png',
+    author: 'Shubhojyoti',
+    githubLink: 'https://github.com/ghost-2362003'
+  },
+  {
     artName: 'Flowers',
     pageLink: './Art/Jeffrey/index.html',
     imageLink: './Art/Jeffrey/Hackflowers.png',
@@ -461,6 +482,13 @@ let cards = [
     imageLink: './Art/Sheefa/blinking_ball.gif',
     author: 'Sheefa',
     githubLink: 'https://github.com/sheefanaaz123'
+  },
+  {
+    artName: 'Loading Animation',
+    pageLink: './Art/AryanK1511/loading_animation.html',
+    imageLink: './Art/AryanK1511/loading_animation.gif',
+    author: 'Aryan Khurana',
+    githubLink: 'https://github.com/AryanK1511'
   },
   {
     artName: 'Quadro Hypno Spin',
@@ -1263,21 +1291,22 @@ let cards = [
   },
 
   {
-    artName: 'wheel', 
-    pageLink: './Art/mohdUsman-6508/wheel.html', 
+    artName: 'wheel',
+    pageLink: './Art/mohdUsman-6508/wheel.html',
     imageLink: './Art/mohdUsman-6508/wheel.gif',
-    author: 'Mohd Usman', 
-    githubLink: 'https://github.com/mohdUsman-6508' 
+    author: 'Mohd Usman',
+    githubLink: 'https://github.com/mohdUsman-6508'
   },
   {
     artName: 'Ball-animation',
     pageLink: './Art/RohanSalgare/index.html',
     imageLink: './Art/RohanSalgare/animation.gif',
-    author: 'Rohan', // use your name
+    author: 'Rohan',
     githubLink: 'https://github.com/RohanSalgare' 
+  },
     artName: 'Ball-animation', 
     pageLink: './Art/RohanSalgare/index.html',
-    imageLink: './Art/RohanSalgare/animation.gif', 
+    imageLink: './Art/RohanSalgare/animation.gif',
     author: 'Rohan',
     githubLink: 'https://github.com/RohanSalgare'
   },
@@ -1308,12 +1337,83 @@ let cards = [
     imageLink: './Art/Pabitra/face animation gif.gif',
     author: 'Pabitra',
     githubLink: 'https://github.com/pabitra0011'
-  }
+  },
+  {
+    artName: 'Ping Pong',
+    pageLink: './Art/patelanuj93/index.html',
+    imageLink: './Art/patelanuj93/ping-pong.gif',
+    author: 'Anuj Patel',
+    githubLink: 'https://github.com/patelanuj93'
+  },
+  {
     artName: 'Sun-Earth Rotation',
     pageLink: './Art/vinay-s36/animation.html',
     imageLink: './Art/vinay-s36/Sun-Earth Rotation.gif',
     author: 'Vinay',
     githubLink: 'https://github.com/vinay-s36'
+  },
+  {
+    artName: 'Heart Loading...',
+    pageLink: './Art/maidxn/index.html',
+    imageLink: './Art/maidxn/heart-loading-animate.gif',
+    author: 'Mayd',
+    githubLink: 'https://github.com/maidxn'
+  },
+  {
+    artName: 'Colour change Ball',
+    pageLink: './Art/TBRX/index.html',
+    imageLink: './Art/TBRX/color-change.png',
+    author: 'Tabrez Alam',
+    githubLink: 'https://github.com/tabrez022'
+  },
+  {
+    artName: 'Spinner',
+    pageLink: './Art/muhd-kifayath/Spinner.html',
+    imageLink: './Art/muhd-kifayath/Spinner.gif',
+    author: 'Kifayath',
+    githubLink: 'https://github.com/muhd-kifayath'
+  },
+  {
+    artName: 'Rotate 3D on Hover',
+    pageLink: './Art/Vamshidhar/rotate.html',
+    imageLink: './Art/Vamshidhar/rotate-3d-on-hover.gif',
+    author: 'Vamshidhar Thonti',
+    githubLink: 'https://github.com/vamshidhar-thonti'
+  },
+  {
+    artName: 'Heart Beat',
+    pageLink: './Art/Luv/index.html',
+    imageLink: './Art/Luv/heart.png',
+    author: 'Luv',
+    githubLink: 'https://github.com/luv2027'
+  },
+  {
+    artName: 'Button Animation',
+    pageLink: './Art/lucifer510/button.html',
+    imageLink: './Art/lucifer510/button.png',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
+  },
+  {
+    artName: 'Card Animation',
+    pageLink: './Art/lucifer510/card.html',
+    imageLink: './Art/lucifer510/card.png',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
+  },
+  {
+    artName: 'Open the door',
+    pageLink: './Art/Neha00011/door.html',
+    imageLink: './Art/Neha00011/door.gif',
+    author: 'Neha',
+    githubLink: 'https://github.com/Neha00011'
+  },
+  {
+    artName: 'Simple Loader',
+    pageLink: './Art/Sai/Ani1.html',
+    imageLink: './Art/Sai/ani1.gif',
+    author: 'Sai',
+    githubLink: 'https://github.com/SaiAryan1784'
   }
 ];
 
