@@ -1360,6 +1360,13 @@ let cards = [
     imageLink: './Art/lucifer510/button.png',
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
+  },
+  {
+    artName: 'Card Animation',
+    pageLink: './Art/lucifer510/card.html',
+    imageLink: './Art/lucifer510/card.png',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
   }
 ];
 
