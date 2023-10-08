@@ -28,6 +28,13 @@ let cards = [
     githubLink: 'https://github.com/DarrachBarneveld'
   },
   {
+    artName: 'Card Hover',
+    pageLink: './Art/imPradhyumn/index.html',
+    imageLink: './Art/imPradhyumn/card-animation.gif',
+    author: 'Pradhyumn Sharma',
+    githubLink: 'https://github.com/imPradhyumn'
+  },
+  {
     artName: 'Rotating Cube',
     pageLink: './Art/Rishi/cube.html',
     imageLink: './Art/Rishi/cube.gif',
@@ -1348,6 +1355,13 @@ let cards = [
     githubLink: 'https://github.com/muhd-kifayath'
   },
   {
+    artName: 'Rotate 3D on Hover',
+    pageLink: './Art/Vamshidhar/rotate.html',
+    imageLink: './Art/Vamshidhar/rotate-3d-on-hover.gif',
+    author: 'Vamshidhar Thonti',
+    githubLink: 'https://github.com/vamshidhar-thonti'
+  },
+  {
     artName: 'Heart Beat',
     pageLink: './Art/Luv/index.html',
     imageLink: './Art/Luv/heart.png',
@@ -1360,6 +1374,13 @@ let cards = [
     imageLink: './Art/lucifer510/button.png',
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
+  },
+  {
+    artName: 'Open the door',
+    pageLink: './Art/Neha00011/door.html',
+    imageLink: './Art/Neha00011/door.gif',
+    author: 'Neha',
+    githubLink: 'https://github.com/Neha00011'
   }
 ];
 
