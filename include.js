@@ -1348,6 +1348,13 @@ let cards = [
     githubLink: 'https://github.com/muhd-kifayath'
   },
   {
+    artName: 'Rotate 3D on Hover',
+    pageLink: './Art/Vamshidhar/rotate.html',
+    imageLink: './Art/Vamshidhar/rotate-3d-on-hover.gif',
+    author: 'Vamshidhar Thonti',
+    githubLink: 'https://github.com/vamshidhar-thonti'
+  },
+  {
     artName: 'Heart Beat',
     pageLink: './Art/Luv/index.html',
     imageLink: './Art/Luv/heart.png',
