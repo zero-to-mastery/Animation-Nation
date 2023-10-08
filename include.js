@@ -477,6 +477,13 @@ let cards = [
     githubLink: 'https://github.com/sheefanaaz123'
   },
   {
+    artName: 'Loading Animation',
+    pageLink: './Art/AryanK1511/loading_animation.html',
+    imageLink: './Art/AryanK1511/loading_animation.gif',
+    author: 'Aryan Khurana',
+    githubLink: 'https://github.com/AryanK1511'
+  },
+  {
     artName: 'Quadro Hypno Spin',
     pageLink: './Art/Sheefa/QuadroHypnoSpin.html',
     imageLink: './Art/Sheefa/QuadroHypnoSpin.gif',
