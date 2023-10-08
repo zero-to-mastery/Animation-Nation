@@ -1,33 +1,37 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #3E001F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #3e001f;
 }
 
 .loading-animation {
-    border: 9px solid #FFE5AD;
-    width: 280px;
-    height: 280px;
-    animation: spin 3s linear infinite;
-    border-radius: 100%;
-    border-top: 9px solid #F11A7B;
+  border: 9px solid #ffe5ad;
+  width: 280px;
+  height: 280px;
+  animation: spin 3s linear infinite;
+  border-radius: 100%;
+  border-top: 9px solid #f11a7b;
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .loading-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #FFFFFF;
-    font-size: 23px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 23px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
