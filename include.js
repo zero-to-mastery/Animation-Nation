@@ -1307,7 +1307,7 @@ let cards = [
     githubLink: 'https://github.com/vinay-s36'
   },
   {
-    artName: 'Hear Beat',
+    artName: 'Heart Beat',
     pageLink: './Art/Luv/index.html',
     imageLink: './Art/Luv/heart.png',
     author: 'Luv',
