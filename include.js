@@ -28,6 +28,13 @@ let cards = [
     githubLink: 'https://github.com/DarrachBarneveld'
   },
   {
+    artName: 'Card Hover',
+    pageLink: './Art/imPradhyumn/index.html',
+    imageLink: './Art/imPradhyumn/card-animation.gif',
+    author: 'Pradhyumn Sharma',
+    githubLink: 'https://github.com/imPradhyumn'
+  },
+  {
     artName: 'Rotating Cube',
     pageLink: './Art/Rishi/cube.html',
     imageLink: './Art/Rishi/cube.gif',
