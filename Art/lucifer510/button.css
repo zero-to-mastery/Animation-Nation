@@ -1,0 +1,108 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+/* Slide Animation on Hover */
+.btn-slide {
+    background-color: #007BFF;
+}
+
+.btn-slide:hover {
+    animation: slide 1s ease infinite;
+}
+
+/* Scale Animation on Hover */
+.btn-scale {
+    background-color: #6610F2;
+}
+
+.btn-scale:hover {
+    animation: scale 1s ease infinite;
+}
+
+/* Rotate Animation on Hover */
+.btn-rotate {
+    background-color: #FF6B6B;
+}
+
+.btn-rotate:hover {
+    animation: rotate 1s ease infinite;
+}
+
+/* Bounce Animation on Hover */
+.btn-bounce {
+    background-color: #28A745;
+}
+
+.btn-bounce:hover {
+    animation: bounce 1s ease infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
