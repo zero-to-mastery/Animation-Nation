@@ -28,7 +28,7 @@ body {
 }
 
 body::after {
-  content: "Coded by Vamshidhar Thonti";
+  content: 'Coded by Vamshidhar Thonti';
   font-family: inherit;
   position: absolute;
   bottom: 10px;
