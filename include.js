@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Chess',
+    pageLink: './Art/Ronit72/index.html',
+    imageLink: './Art/Ronit72/animation.gif',
+    author: 'Ronit',
+    githubLink: 'https://github.com/Ronit72'
+  },
+  {
     artName: 'Chromatic Movement',
     pageLink: './Art/Talim/index.html',
     imageLink: './Art/Talim/animation.gif',
@@ -19,6 +26,13 @@ let cards = [
     imageLink: './Art/DarrachBarneveld/rocket.gif',
     author: 'Darrach Barneveld',
     githubLink: 'https://github.com/DarrachBarneveld'
+  },
+  {
+    artName: 'Card Hover',
+    pageLink: './Art/imPradhyumn/index.html',
+    imageLink: './Art/imPradhyumn/card-animation.gif',
+    author: 'Pradhyumn Sharma',
+    githubLink: 'https://github.com/imPradhyumn'
   },
   {
     artName: 'Rotating Cube',
@@ -1122,14 +1136,12 @@ let cards = [
     githubLink: 'https://github.com/THE-AryanKumar'
   },
   {
-
     artName: 'Stylish Text Animation',
     pageLink: './Art/varunrmantri23/index.html',
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
   },
-
   {
     artName: 'Background line animation',
     pageLink: './Art/Hrishap/index.html',
@@ -1137,7 +1149,6 @@ let cards = [
     author: 'Hrishap',
     githubLink: 'https://github.com/Hrishap'
   },
-
   {
     artName: 'Diamond',
     pageLink: './Art/daniel-badura/diamond.html',
@@ -1278,7 +1289,6 @@ let cards = [
     author: 'Divyansh',
     githubLink: 'https://github.com/okaydivyansh'
   },
-
   {
     artName: 'wheel',
     pageLink: './Art/mohdUsman-6508/wheel.html',
@@ -1286,7 +1296,6 @@ let cards = [
     author: 'Mohd Usman',
     githubLink: 'https://github.com/mohdUsman-6508'
   },
-
   {
     artName: 'Ball-animation',
     pageLink: './Art/RohanSalgare/index.html',
@@ -1344,9 +1353,56 @@ let cards = [
     imageLink: './Art/TBRX/color-change.png',
     author: 'Tabrez Alam',
     githubLink: 'https://github.com/tabrez022'
-
+  },
+  {
+    artName: 'Spinner',
+    pageLink: './Art/muhd-kifayath/Spinner.html',
+    imageLink: './Art/muhd-kifayath/Spinner.gif',
+    author: 'Kifayath',
+    githubLink: 'https://github.com/muhd-kifayath'
+  },
+  {
+    artName: 'Rotate 3D on Hover',
+    pageLink: './Art/Vamshidhar/rotate.html',
+    imageLink: './Art/Vamshidhar/rotate-3d-on-hover.gif',
+    author: 'Vamshidhar Thonti',
+    githubLink: 'https://github.com/vamshidhar-thonti'
+  },
+  {
+    artName: 'Heart Beat',
+    pageLink: './Art/Luv/index.html',
+    imageLink: './Art/Luv/heart.png',
+    author: 'Luv',
+    githubLink: 'https://github.com/luv2027'
+  },
+  {
+    artName: 'Simple Loader',
+    pageLink: './Art/Sai/Ani1.html',
+    imageLink: './Art/Sai/ani1.gif',
+    author: 'Sai',
+    githubLink: 'https://github.com/SaiAryan1784'
+  },
+  {
+    artName: 'Button Animation',
+    pageLink: './Art/lucifer510/button.html',
+    imageLink: './Art/lucifer510/button.png',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
+  },
+  {
+    artName: 'Card Animation',
+    pageLink: './Art/lucifer510/card.html',
+    imageLink: './Art/lucifer510/card.png',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
+  },
+  {
+    artName: 'Open the door',
+    pageLink: './Art/Neha00011/door.html',
+    imageLink: './Art/Neha00011/door.gif',
+    author: 'Neha',
+    githubLink: 'https://github.com/Neha00011'
   }
-
 ];
 
 // +--------------------------------------------------------------------------------+
