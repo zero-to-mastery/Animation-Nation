@@ -1,0 +1,26 @@
+html, body { 
+  height: 100%; 
+  margin: 0; 
+  overflow: hidden;
+}
+body { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  background: #000; 
+}
+main {
+  display: flex;
+}
+p {
+  line-height: 1;
+}
+span {
+  display: block;
+  width: 2vmax; 
+  height: 2vmax; 
+  font-size: 2vmax; 
+  color: #9bff9b11;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
