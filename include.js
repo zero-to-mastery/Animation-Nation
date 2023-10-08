@@ -1821,6 +1821,72 @@ let cards = [
     imageLink: './Art/vinay-s36/Sun-Earth Rotation.gif',
     author: 'Vinay',
     githubLink: 'https://github.com/vinay-s36'
+<<<<<<< HEAD
+=======
+  },
+  {
+    artName: 'Heart Loading...',
+    pageLink: './Art/maidxn/index.html',
+    imageLink: './Art/maidxn/heart-loading-animate.gif',
+    author: 'Mayd',
+    githubLink: 'https://github.com/maidxn'
+  },
+  {
+    artName: 'Colour change Ball',
+    pageLink: './Art/TBRX/index.html',
+    imageLink: './Art/TBRX/color-change.png',
+    author: 'Tabrez Alam',
+    githubLink: 'https://github.com/tabrez022'
+  },
+  {
+    artName: 'Spinner',
+    pageLink: './Art/muhd-kifayath/Spinner.html',
+    imageLink: './Art/muhd-kifayath/Spinner.gif',
+    author: 'Kifayath',
+    githubLink: 'https://github.com/muhd-kifayath'
+  },
+  {
+    artName: 'Heart Beat',
+    pageLink: './Art/Luv/index.html',
+    imageLink: './Art/Luv/heart.png',
+    author: 'Luv',
+    githubLink: 'https://github.com/luv2027'
+  },
+  {
+    artName: 'Button Animation',
+    pageLink: './Art/lucifer510/button.html',
+    imageLink: './Art/lucifer510/button.png',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
+  },
+  {
+    artName: 'Card Animation',
+    pageLink: './Art/lucifer510/card.html',
+    imageLink: './Art/lucifer510/card.png',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
+  },
+  {
+    artName: 'Rotate 3D on Hover',
+    pageLink: './Art/Vamshidhar/rotate.html',
+    imageLink: './Art/Vamshidhar/rotate-3d-on-hover.gif',
+    author: 'Vamshidhar Thonti',
+    githubLink: 'https://github.com/vamshidhar-thonti'
+  },
+  {
+    artName: 'Open the door',
+    pageLink: './Art/Neha00011/door.html',
+    imageLink: './Art/Neha00011/door.gif',
+    author: 'Neha',
+    githubLink: 'https://github.com/Neha00011'
+  },
+  {
+    artName: 'Simple Loader',
+    pageLink: './Art/Sai/Ani1.html',
+    imageLink: './Art/Sai/ani1.gif',
+    author: 'Sai',
+    githubLink: 'https://github.com/SaiAryan1784'
+>>>>>>> f6b6a247 (Changes done)
   }
 ];
 
