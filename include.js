@@ -222,6 +222,13 @@ let cards = [
     imageLink: './Art/lucifer/weirdSpinner.png',
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
+  },
+  {
+    artName: 'Button Animation',
+    pageLink: './Art/lucifer/buttonAnimation/button.html',
+    imageLink: './Art/lucifer/buttonAnimation/button.png',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
   }
 ];
 
