@@ -495,6 +495,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  { 
+    artName: 'Triangle', 
+    pageLink: './Art/HarrisMBrad/index.html',
+    imageLink: './Art/HarrisMBrad/index.html',
+    author: '7597243', 
+    githubLink: 'https://github.com/7597243'
   }
 ];
 
