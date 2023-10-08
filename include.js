@@ -1353,6 +1353,13 @@ let cards = [
     imageLink: './Art/Luv/heart.png',
     author: 'Luv',
     githubLink: 'https://github.com/luv2027'
+  },
+  {
+    artName: 'Open the door',
+    pageLink: './Art/Neha00011/door.html',
+    imageLink: './Art/Neha00011/door.gif',
+    author: 'Neha',
+    githubLink: 'https://github.com/Neha00011'
   }
 ];
 
