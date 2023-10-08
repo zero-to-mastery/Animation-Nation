@@ -1821,8 +1821,6 @@ let cards = [
     imageLink: './Art/vinay-s36/Sun-Earth Rotation.gif',
     author: 'Vinay',
     githubLink: 'https://github.com/vinay-s36'
-<<<<<<< HEAD
-=======
   },
   {
     artName: 'Heart Loading...',
@@ -1886,8 +1884,7 @@ let cards = [
     imageLink: './Art/Sai/ani1.gif',
     author: 'Sai',
     githubLink: 'https://github.com/SaiAryan1784'
->>>>>>> f6b6a247 (Changes done)
-  }
+  },
 ];
 
 
