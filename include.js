@@ -1354,6 +1354,13 @@ let cards = [
     author: 'Vamshidhar Thonti',
     githubLink: 'https://github.com/vamshidhar-thonti'
   },
+  {
+    artName: 'Heart Beat',
+    pageLink: './Art/Luv/index.html',
+    imageLink: './Art/Luv/heart.png',
+    author: 'Luv',
+    githubLink: 'https://github.com/luv2027'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
