@@ -1369,6 +1369,13 @@ let cards = [
     githubLink: 'https://github.com/luv2027'
   },
   {
+    artName: 'Simple Loader',
+    pageLink: './Art/Sai/Ani1.html',
+    imageLink: './Art/Sai/ani1.gif',
+    author: 'Sai',
+    githubLink: 'https://github.com/SaiAryan1784'
+  },
+  {
     artName: 'Button Animation',
     pageLink: './Art/lucifer510/button.html',
     imageLink: './Art/lucifer510/button.png',
