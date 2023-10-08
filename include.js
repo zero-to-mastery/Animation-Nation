@@ -1376,6 +1376,13 @@ let cards = [
     githubLink: 'https://github.com/lucifer510'
   },
   {
+    artName: 'Card Animation',
+    pageLink: './Art/lucifer510/card.html',
+    imageLink: './Art/lucifer510/card.png',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
+  },
+  {
     artName: 'Open the door',
     pageLink: './Art/Neha00011/door.html',
     imageLink: './Art/Neha00011/door.gif',
