@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Circle Animation',
+    pageLink: './Art/Sahil/index.html',
+    imageLink: './Art/Sahil/animation.gif',
+    author: 'Sahil',
+    githubLink: 'https://github.com/borkarsahil'
+  },
+  {
     artName: 'Chess',
     pageLink: './Art/Ronit72/index.html',
     imageLink: './Art/Ronit72/animation.gif',
