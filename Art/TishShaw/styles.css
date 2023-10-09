@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  height: 100vh;
+  width: 100%;
+  background-color: #f0ebd8;
+  overflow: hidden;
+  position: relative;
+}
+
+.sun {
+  position: absolute;
+  background-color: #ffd166;
+  box-shadow: rgba(225, 138, 7, 0.842) 0px 7px 29px 0px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 20px;
+  animation: spining 5s linear infinite;
+}
+
+@keyframes spining {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sea {
+  position: absolute;
+  background-color: #3498db;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.sea::before,
+.sea::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(180deg, #3394d5d6, #3498db); /* Wave gradient */
+  animation: waveAnimation 2s ease alternate infinite;
+}
+
+.sea::before {
+  left: 0;
+  border-radius: 100% 100% 0% 0% / 100% 100% 0% 0%; /* Create a semi-circle at the bottom-left */
+  transform: rotate(180deg); /* Flip the semi-circle */
+  transform: rotate(280deg); /* Flip the semi-circle */
+  animation-delay: 0s; /* Delay for the first wave */
+}
+
+.sea::after {
+  right: 0;
+  border-radius: 100% 100% 0% 0% / 100% 100% 0% 0%; /* Create a semi-circle at the bottom-right */
+  animation-delay: 1s;
+}
+
+@keyframes waveAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+.boat {
+  width: 400px;
+  height: 140px;
+  background-color: #99582a;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 200px;
+  border-bottom-left-radius: 700px;
+  border-bottom-right-radius: 700px;
+  margin-left: 20%;
+  animation: rockingAnimation 5s ease alternate infinite; /* Apply the rocking animation */
+  transform-origin: center bottom;
+}
+
+@keyframes rockingAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .boat {
+    width: 200px;
+    height: 80px;
+    margin-left: 30%;
+  }
+}

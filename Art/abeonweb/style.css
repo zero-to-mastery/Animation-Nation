@@ -1,0 +1,170 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(20, 21, 24), rgb(10, 21, 24) 66%, rgb(20, 21, 24));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-container {
+    display: flex;
+}
+
+.box {
+    margin: 0;
+    height: 5vh;
+    width: 5vh;
+    background: dodgerblue;
+}
+
+.shrink {
+    animation: shrink 5s infinite, color_change_2 20s infinite;
+    ;
+}
+
+.morph {
+    animation: shrink_rotate 10s infinite, color_change_1 15s infinite;
+    ;
+}
+
+.grow_morph {
+    animation: grow_morph 10s infinite, color_change_3 30s infinite;
+}
+
+.box_color {
+    animation: color_change 15s infinite;
+
+}
+
+/* shrink animation */
+@keyframes shrink {
+    0% {
+        scale: 1;
+    }
+
+    50% {
+        scale: 0.7;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+@keyframes shrink_rotate {
+    0% {
+        scale: 1;
+    }
+
+    50% {
+        scale: 0.7;
+        border-radius: 50%;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+
+/* rotate animation */
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(120deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+}
+
+/* morph animation */
+@keyframes grow_morph {
+    0% {
+        scale: 0.3;
+        border-radius: 50%;
+    }
+
+    50% {
+        scale: 1;
+        border-radius: 0;
+
+    }
+
+    100% {
+        scale: 0.3;
+        border-radius: 50%;
+
+    }
+}
+
+/* color animation */
+@keyframes color_change_1 {
+    0% {}
+
+    25% {
+        background-color: rgb(197, 20, 203);
+    }
+
+    50% {
+        background-color: rgb(13, 246, 83);
+    }
+
+    75% {
+        background-color: rgb(239, 82, 9);
+    }
+
+    100% {}
+}
+
+@keyframes color_change_2 {
+    0% {
+
+    }
+
+    25% {
+        background-color: rgb(239, 9, 21);
+    }
+    
+    50% {
+        background-color: rgb(9, 204, 239);
+    }
+    
+    75% {
+        background-color: rgb(197, 20, 203);
+    }
+
+    100% {}
+}
+
+@keyframes color_change_3 {
+    0% {
+        background: linear-gradient(120deg, rgb(4, 231, 243), rgb(9, 151, 239));
+    }
+    
+    25% {
+        background: linear-gradient(120deg, rgb(20, 203, 20), rgb(78, 244, 78));
+    }
+    
+    50% {
+        background: linear-gradient(120deg, rgb(239, 9, 21), rgb(244, 85, 93));
+    }
+    
+    75% {
+        background: linear-gradient(120deg, rgb(197, 20, 203), rgb(123, 3, 127));
+    }
+    
+    100% {
+        background: linear-gradient(120deg, rgb(4, 231, 243), rgb(9, 151, 239));
+    }
+}
