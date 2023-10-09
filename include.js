@@ -196,7 +196,8 @@ let cards = [
     imageLink: './Art/Dhanveeryadav/glowing-candles.gif',
     author: 'Dhanveer',
     githubLink: 'https://github.com/Dhanveeryadav'
-  } 
+  },
+  {
     artName: 'Rocket Orbit',
     pageLink: './Art/thomasravetto/index.html',
     imageLink: './Art/thomasravetto/loader_gif.gif',
@@ -1257,7 +1258,7 @@ let cards = [
   {
     artName: 'Animated Squares',
     pageLink: './Art/abeonweb/index.html',
-    imageLink: './Art/abeonweb/animated_squares.gif', 
+    imageLink: './Art/abeonweb/animated_squares.gif',
     author: 'Abiodun',
     githubLink: 'https://github.com/abeonweb'
   },
@@ -1269,11 +1270,11 @@ let cards = [
     githubLink: 'https://github.com/Hrishap'
   },
   {
-    artName: 'Background line animation', 
-    pageLink: './Art/Hrishap/index.html', 
-    imageLink: './Art/Hrishap/Background line animation.gif', 
-    author: 'Hrishap', 
-    githubLink: 'https://github.com/Hrishap' 
+    artName: 'Background line animation',
+    pageLink: './Art/Hrishap/index.html',
+    imageLink: './Art/Hrishap/Background line animation.gif',
+    author: 'Hrishap',
+    githubLink: 'https://github.com/Hrishap'
   },
   {
     artName: 'Diamond',
@@ -1884,9 +1885,10 @@ let cards = [
     pageLink: './Art/RohanSalgare/index.html',
     imageLink: './Art/RohanSalgare/animation.gif',
     author: 'Rohan',
-    githubLink: 'https://github.com/RohanSalgare' 
+    githubLink: 'https://github.com/RohanSalgare'
   },
-    artName: 'Ball-animation', 
+  {
+    artName: 'Ball-animation',
     pageLink: './Art/RohanSalgare/index.html',
     imageLink: './Art/RohanSalgare/animation.gif',
     author: 'Rohan',
@@ -1991,13 +1993,12 @@ let cards = [
     githubLink: 'https://github.com/Neha00011'
   },
   {
-      artName: 'Square Loading', 
-      pageLink: './Art/Guransh_Deol/index.html', 
-      imageLink: './Art/Guransh_Deol/sq_loading.gif', 
-      author: 'Guransh Deol',
-      githubLink: 'https://github.com/guranshdeol'
-    }
-  ];
+    artName: 'Square Loading',
+    pageLink: './Art/Guransh_Deol/index.html',
+    imageLink: './Art/Guransh_Deol/sq_loading.gif',
+    author: 'Guransh Deol',
+    githubLink: 'https://github.com/guranshdeol'
+  },
   {
     artName: 'Simple Loader',
     pageLink: './Art/Sai/Ani1.html',
