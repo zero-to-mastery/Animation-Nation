@@ -600,6 +600,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'Animated Squares',
+    pageLink: './Art/abeonweb/index.html',
+    imageLink: './Art/abeonweb/animated_squares.gif', 
+    author: 'Abiodun',
+    githubLink: 'https://github.com/abeonweb'
   }
 ];
 
