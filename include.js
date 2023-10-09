@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/Ronit72'
   },
   {
+    artName: 'Square-illusion',
+    pageLink: './Art/Joyel_Johny/index.html',
+    imageLink: './Art/Joyel_Johny/Square_illusion.gif',
+    author: 'Joyel Johny',
+    githubLink: 'https://github.com/JoyelJohny'
+  },
+  {
     artName: 'Chromatic Movement',
     pageLink: './Art/Talim/index.html',
     imageLink: './Art/Talim/animation.gif',
