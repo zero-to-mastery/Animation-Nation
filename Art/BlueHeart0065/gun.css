@@ -1,91 +1,90 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .gun {
-    width: 2.5vw;
-    height: 6vw;
-    background-color: #333;
-    position: relative;
-    border-radius: 10px;
-    transform: rotate(10deg);
+  width: 2.5vw;
+  height: 6vw;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+  transform: rotate(10deg);
 }
 
-.trigger_gaurd{
-    width: 4vw;
-    height: 3vw;
-    border-radius: 50px;
-    border: 3px solid #333;
-    margin: -1.3vw 0vw 0vw 0.7vw;
+.trigger_gaurd {
+  width: 4vw;
+  height: 3vw;
+  border-radius: 50px;
+  border: 3px solid #333;
+  margin: -1.3vw 0vw 0vw 0.7vw;
 }
 
-.trigger{
-    margin-left: 2.5vw;
-    width: 0.5vw;
-    height: 2.5vw;
-    background-color: #333;
-    border-radius: 10px;
-    position: relative;
-    z-index: -1;
-    animation: triggered 1s linear infinite;
-
+.trigger {
+  margin-left: 2.5vw;
+  width: 0.5vw;
+  height: 2.5vw;
+  background-color: #333;
+  border-radius: 10px;
+  position: relative;
+  z-index: -1;
+  animation: triggered 1s linear infinite;
 }
 
 .barrel {
-    width: 10vw;
-    height: 40px;
-    background-color: #555;
-    margin: -0.5vw 0vw 0vw -1vw;
-    /* position: absolute; */
-    top: 30px;
-    left: 20px;
-    border-radius: 5px;
-    transform: rotate(-5deg);
-    animation: fire 1s linear infinite;
+  width: 10vw;
+  height: 40px;
+  background-color: #555;
+  margin: -0.5vw 0vw 0vw -1vw;
+  /* position: absolute; */
+  top: 30px;
+  left: 20px;
+  border-radius: 5px;
+  transform: rotate(-5deg);
+  animation: fire 1s linear infinite;
 }
 
 .bullet {
-    width: 20px;
-    height: 20px;
-    background-color: red;
-    position: absolute;
-    top: 10px;
-    left: 140px;
-    border-radius: 50%;
-    animation: shoot 1s linear infinite;
-    /* animation-delay: 1s; */
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  border-radius: 50%;
+  animation: shoot 1s linear infinite;
+  /* animation-delay: 1s; */
 }
 
 @keyframes fire {
-    0% {
-        transform: translateX(-5px);
-    }
-    100% {
-        transform: translateX(0px);
-    }
+  0% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 @keyframes shoot {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(250px);
-    }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(250px);
+  }
 }
 
-@keyframes triggered{
-    0% {
-        transform: rotate(25deg);
-    }
-    50%{
-        transform: rotate(10deg);
-    }
-    100%{
-        transform: rotate(0deg);
-    }
+@keyframes triggered {
+  0% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
