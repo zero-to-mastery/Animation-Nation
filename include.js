@@ -1190,13 +1190,20 @@ let cards = [
     githubLink: 'https://github.com/THE-AryanKumar'
   },
   {
+
     artName: 'Stylish Text Animation',
     pageLink: './Art/varunrmantri23/index.html',
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
   },
-
+  {
+    artName: 'Background line animation', 
+    pageLink: './Art/Hrishap/index.html', 
+    imageLink: './Art/Hrishap/Background line animation.gif', 
+    author: 'Hrishap', 
+    githubLink: 'https://github.com/Hrishap' 
+  },
   {
     artName: 'Diamond',
     pageLink: './Art/daniel-badura/diamond.html',
