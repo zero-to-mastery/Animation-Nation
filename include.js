@@ -35,6 +35,13 @@ let cards = [
     githubLink: 'https://github.com/profoundlyparker'
   },
   {
+    artName: 'Candle',
+    pageLink: './Art/czarjulius/candle.html',
+    imageLink: './Art/czarjulius/candle.gif',
+    author: 'Julius Ngwu',
+    githubLink: 'https://github.com/czarjulius'
+  },
+  {
     artName: 'Astro Acrobat',
     pageLink: './Art/DarrachBarneveld/index.html',
     imageLink: './Art/DarrachBarneveld/rocket.gif',
