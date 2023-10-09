@@ -1948,6 +1948,13 @@ let cards = [
     imageLink: './Art/Sai/ani1.gif',
     author: 'Sai',
     githubLink: 'https://github.com/SaiAryan1784'
+  },
+  {
+    artName: 'Bouncing Balls',
+    pageLink: './Art/SamilAbud/index.html',
+    imageLink: './Art/SamilAbud/bouncing-effect.gif',
+    author: 'Samil Abud',
+    githubLink: 'https://github.com/samilabud'
   }
 ];
 
