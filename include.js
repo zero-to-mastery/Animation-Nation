@@ -1965,6 +1965,14 @@ let cards = [
     githubLink: 'https://github.com/Neha00011'
   },
   {
+      artName: 'Square Loading', 
+      pageLink: './Art/Guransh_Deol/index.html', 
+      imageLink: './Art/Guransh_Deol/sq_loading.gif', 
+      author: 'Guransh Deol',
+      githubLink: 'https://github.com/guranshdeol'
+    }
+  ];
+  {
     artName: 'Simple Loader',
     pageLink: './Art/Sai/Ani1.html',
     imageLink: './Art/Sai/ani1.gif',
