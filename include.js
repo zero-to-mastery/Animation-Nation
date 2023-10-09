@@ -70,6 +70,13 @@ let cards = [
     githubLink: 'https://github.com/md-talim'
   },
   {
+    artName: 'Magic Cub∑',
+    pageLink: './Art/EHollingerFllStk/index.html',
+    imageLink: './Art/EHollingerFllStk/animation.gif',
+    author: 'Elizabeth Hollinger',
+    githubLink: 'https://github.com/EHollingerFllStk'
+  },
+  {
     artName: 'Sliding Bot',
     pageLink: './Art/ProfoundlyParker/index.html',
     imageLink: './Art/ProfoundlyParker/robot.gif',
@@ -1106,13 +1113,6 @@ let cards = [
     githubLink: 'https://github.com/vivekBoii'
   },
   {
-    artName: 'Tik Tac Yo!',
-    pageLink: './Art/smokeraven667/smokeraven.html',
-    imageLink: './Art/smokeraven667/tic-tac-yo.gif',
-    author: 'Joy',
-    githubLink: 'https://github.com/smokeraven667'
-  },
-  {
     artName: 'Moving Car',
     pageLink: './Art/Ravkeerat02/car.html',
     imageLink: './Art/Ravkeerat02/car.gif',
@@ -1139,12 +1139,6 @@ let cards = [
     imageLink: './Art/TishShaw/rocking-boat.gif',
     author: 'Tish',
     githubLink: 'https://github.com/TishShaw'
-  },
-  {
-    artName: 'Wordspin',
-    pageLink: './Art/trottiemcqueen/wordspin.html',
-    imageLink: './Art/trottiemcqueen/wordspin.png',
-    author: 'Trottie McQueen'
   },
   {
     artName: 'Sliding Bot',
