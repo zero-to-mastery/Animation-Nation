@@ -14,7 +14,7 @@ body {
   position: absolute;
   top: 50vh;
   left: 50vw;
-  /* Centers the container */
+  /* This helps to achieve a natural look to the cube */
   transform: translate(-50%, -50%);
   /* This helps to achieve a natural look to the cube */
   perspective: 1000px;
@@ -30,8 +30,7 @@ body {
   transform: rotate(0deg);
   transform-style: preserve-3d;
   /* transform: rotateY(90deg); */
-  /* calls the animate keyframes with a 10sec loop and infinite looping */
-  animation: animate 10s infinite;
+  animation: animate 12s infinite;
 }
 @keyframes animate {
   0% {
