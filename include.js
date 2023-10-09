@@ -694,6 +694,13 @@ let cards = [
     githubLink: 'https://github.com/serhatbek'
   },
   {
+    artName: 'Random Number',
+    pageLink: 'Art\Gourav\index.html',
+    imageLink: './Art/Gourav/animate.gif',
+    author: 'Gourav',
+    githubLink: 'https://github.com/Gourav2609'
+  },
+  {
     artName: 'Rocket',
     pageLink: './Art/Suryansh/rocket.html',
     imageLink: './Art/Suryansh/rocket.gif',
