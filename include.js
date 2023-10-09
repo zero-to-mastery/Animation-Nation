@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'cube-with-Letter-Animation',
+    pageLink: './Art/sufyanhabib/index.html',
+    imageLink: './Art/sufyanhabib/cube-with-Letter-Animation.gif',
+    author: 'sufyanhabib',
+    githubLink: 'https://github.com/sufyanhabib'
+  },
+  {
     artName: 'Chess',
     pageLink: './Art/Ronit72/index.html',
     imageLink: './Art/Ronit72/animation.gif',
