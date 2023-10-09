@@ -11,16 +11,9 @@ div {
   background: #f3f9a7;
   font-family: 'Lexend Mega', cursive;
   font-weight: 700;
-  text-shadow:
-    5px 5px 0px #89dee6,
-    10px 10px 0px #89dee6,
-    15px 15px 0px #59cad4,
-    20px 20px 0px #16a5b2,
-    25px 25px 0px #02838f,
-    30px 30px 0px #cac531,
-    35px 35px 0px #cac531,
-    40px 40px 0px #cac531,
-    45px 45px 0px #cac531;
+  text-shadow: 5px 5px 0px #89dee6, 10px 10px 0px #89dee6, 15px 15px 0px #59cad4,
+    20px 20px 0px #16a5b2, 25px 25px 0px #02838f, 30px 30px 0px #cac531,
+    35px 35px 0px #cac531, 40px 40px 0px #cac531, 45px 45px 0px #cac531;
 }
 
 .numbers {

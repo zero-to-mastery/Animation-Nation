@@ -1,27 +1,26 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  justify-content: centre;
+  align-items: centre;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  justify-content: centre;
+  align-items: centre;
+  position: relative;
+  animation: pulse 2s infinite alternate;
+}
 
-.square{
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    justify-content: centre;
-        align-items: centre;
-    }
-    .circle {
-        width: 100px;
-        height: 100px;
-        background-color: yellow;
-        border-radius: 50%;
-        justify-content: centre;
-        align-items: centre;
-        position: relative;
-        animation: pulse 2s infinite alternate;
-    }
-
-    @keyframes pulse {
-        0% {
-            transform: scale(0.5);
-        }
-        100% {
-            transform: scale(1);
-        }
-    }
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

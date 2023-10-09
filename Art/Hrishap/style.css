@@ -19,15 +19,15 @@
   width: 100px;
   height: 250vh;
   background: #fff;
-  box-shadow: inset -10px 0 40px rgba(0, 0, 0, 1), 
-    inset 10px 0 40px rgba(0, 0, 0, 1), 
+  box-shadow: inset -10px 0 40px rgba(0, 0, 0, 1),
+    inset 10px 0 40px rgba(0, 0, 0, 1),
     inset -10px 0 10px rgba(255, 255, 0255, 0.25),
-    inset 10px 0 10px rgba(255, 255, 255, 0.25),
-    0 0 50px rgba(0, 0, 0, 1);
+    inset 10px 0 10px rgba(255, 255, 255, 0.25), 0 0 50px rgba(0, 0, 0, 1);
 }
 
 .layer.layer1 {
-  background: #222 radial-gradient(#6dff73 9px, #000 9px, #000 13px, transparent 13px );
+  background: #222
+    radial-gradient(#6dff73 9px, #000 9px, #000 13px, transparent 13px);
   background-size: 35px 35px;
   transform: translate(-50%, -50%) rotate(45deg);
   z-index: 10;
@@ -35,7 +35,8 @@
 }
 
 .layer.layer2 {
-  background: #222 radial-gradient(#db0aff 9px, #000 9px, #000 13px, transparent 13px );
+  background: #222
+    radial-gradient(#db0aff 9px, #000 9px, #000 13px, transparent 13px);
   background-size: 35px 35px;
   transform: translate(-50%, -38%) rotate(45deg);
   z-index: 8;
@@ -43,7 +44,8 @@
 }
 
 .layer.layer3 {
-  background: #222 radial-gradient(#03a9f4 9px, #000 9px, #000 13px, transparent 13px );
+  background: #222
+    radial-gradient(#03a9f4 9px, #000 9px, #000 13px, transparent 13px);
   background-size: 35px 35px;
   transform: translate(-50%, -62%) rotate(45deg);
   z-index: 8;
@@ -51,7 +53,8 @@
 }
 
 .layer.layer4 {
-  background: #222 radial-gradient(#ffc107 9px, #000 9px, #000 13px, transparent 13px );
+  background: #222
+    radial-gradient(#ffc107 9px, #000 9px, #000 13px, transparent 13px);
   background-size: 35px 35px;
   transform: translate(-50%, -50%) rotate(-45deg);
   z-index: 11;
@@ -59,7 +62,8 @@
 }
 
 .layer.layer5 {
-  background: #222 radial-gradient(#e91e63 9px, #000 9px, #000 13px, transparent 13px );
+  background: #222
+    radial-gradient(#e91e63 9px, #000 9px, #000 13px, transparent 13px);
   background-size: 35px 35px;
   transform: translate(-50%, -38%) rotate(-45deg);
   z-index: 9;
@@ -67,7 +71,8 @@
 }
 
 .layer.layer6 {
-  background: #222 radial-gradient(#0f0 9px, #000 9px, #000 13px, transparent 13px );
+  background: #222
+    radial-gradient(#0f0 9px, #000 9px, #000 13px, transparent 13px);
   background-size: 35px 35px;
   transform: translate(-50%, -62%) rotate(-45deg);
   z-index: 9;

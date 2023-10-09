@@ -196,7 +196,8 @@ let cards = [
     imageLink: './Art/Dhanveeryadav/glowing-candles.gif',
     author: 'Dhanveer',
     githubLink: 'https://github.com/Dhanveeryadav'
-  } 
+  },
+  {
     artName: 'Rocket Orbit',
     pageLink: './Art/thomasravetto/index.html',
     imageLink: './Art/thomasravetto/loader_gif.gif',
@@ -744,7 +745,7 @@ let cards = [
   },
   {
     artName: 'Random Number',
-    pageLink: 'Art\Gourav\index.html',
+    pageLink: 'ArtGouravindex.html',
     imageLink: './Art/Gourav/animate.gif',
     author: 'Gourav',
     githubLink: 'https://github.com/Gourav2609'
@@ -1247,7 +1248,6 @@ let cards = [
     githubLink: 'https://github.com/THE-AryanKumar'
   },
   {
-
     artName: 'Stylish Text Animation',
     pageLink: './Art/varunrmantri23/index.html',
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
@@ -1257,7 +1257,7 @@ let cards = [
   {
     artName: 'Animated Squares',
     pageLink: './Art/abeonweb/index.html',
-    imageLink: './Art/abeonweb/animated_squares.gif', 
+    imageLink: './Art/abeonweb/animated_squares.gif',
     author: 'Abiodun',
     githubLink: 'https://github.com/abeonweb'
   },
@@ -1269,11 +1269,11 @@ let cards = [
     githubLink: 'https://github.com/Hrishap'
   },
   {
-    artName: 'Background line animation', 
-    pageLink: './Art/Hrishap/index.html', 
-    imageLink: './Art/Hrishap/Background line animation.gif', 
-    author: 'Hrishap', 
-    githubLink: 'https://github.com/Hrishap' 
+    artName: 'Background line animation',
+    pageLink: './Art/Hrishap/index.html',
+    imageLink: './Art/Hrishap/Background line animation.gif',
+    author: 'Hrishap',
+    githubLink: 'https://github.com/Hrishap'
   },
   {
     artName: 'Diamond',
@@ -1442,7 +1442,6 @@ let cards = [
     imageLink: './Art/vivek/waves.gif',
     author: 'Vivek Boii',
     githubLink: 'https://github.com/vivekBoii'
-
   },
   {
     artName: 'Optimus Prime',
@@ -1464,7 +1463,6 @@ let cards = [
     imageLink: './Art/vinay-s36/Sun-Earth Rotation.gif',
     author: 'Vinay',
     githubLink: 'https://github.com/vinay-s36'
-
   },
   {
     artName: 'Heart Loading...',
@@ -1884,9 +1882,10 @@ let cards = [
     pageLink: './Art/RohanSalgare/index.html',
     imageLink: './Art/RohanSalgare/animation.gif',
     author: 'Rohan',
-    githubLink: 'https://github.com/RohanSalgare' 
+    githubLink: 'https://github.com/RohanSalgare'
   },
-    artName: 'Ball-animation', 
+  {
+    artName: 'Ball-animation',
     pageLink: './Art/RohanSalgare/index.html',
     imageLink: './Art/RohanSalgare/animation.gif',
     author: 'Rohan',
@@ -1991,13 +1990,12 @@ let cards = [
     githubLink: 'https://github.com/Neha00011'
   },
   {
-      artName: 'Square Loading', 
-      pageLink: './Art/Guransh_Deol/index.html', 
-      imageLink: './Art/Guransh_Deol/sq_loading.gif', 
-      author: 'Guransh Deol',
-      githubLink: 'https://github.com/guranshdeol'
-    }
-  ];
+    artName: 'Square Loading',
+    pageLink: './Art/Guransh_Deol/index.html',
+    imageLink: './Art/Guransh_Deol/sq_loading.gif',
+    author: 'Guransh Deol',
+    githubLink: 'https://github.com/guranshdeol'
+  },
   {
     artName: 'Simple Loader',
     pageLink: './Art/Sai/Ani1.html',
@@ -2039,7 +2037,7 @@ let cards = [
     imageLink: './Art/SamilAbud/bouncing-effect.gif',
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
-  }
+  },
   {
     artName: 'Circles Animation',
     pageLink: './Art/Loukas4/AnimatedCircles.html',
@@ -2062,14 +2060,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 });
 

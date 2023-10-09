@@ -4,7 +4,7 @@ body {
   background: #111;
 }
 
-.candle-row{
+.candle-row {
   display: flex;
   justify-content: space-between;
 }
