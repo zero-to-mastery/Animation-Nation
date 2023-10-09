@@ -120,6 +120,13 @@ let cards = [
     githubLink: 'https://github.com/tsongtheng'
   },
   {
+    artName: 'Marque animation',
+    pageLink: './Art/Shubhamkumar1122001/index.html',
+    imageLink: './Art/Shubhamkumar1122001/animation.gif',
+    author: 'Shubham Kumar',
+    githubLink: 'https://github.com/Shubhamkumar1122001'
+  },
+  {
     artName: 'Simple BAAF',
     pageLink: './Art/baaf-Animation/index.html',
     imageLink: './Art/baaf-Animation/baafscreen.png',
