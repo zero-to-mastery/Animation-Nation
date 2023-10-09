@@ -1,0 +1,181 @@
+:root {
+  --bg-colour: #0a1432;
+  --tie-colour: #f48a27;
+  --pumpkin-colour: #fff;
+  --pumpkin-secondary: #400c18;
+  --width: 20px;
+  --heigt: 15px;
+}
+
+body {
+  background: var(--bg-colour);
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#ghost {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-animation: float 5s infinite;
+  animation: float 5s infinite;
+}
+
+#head {
+  background: var(--pumpkin-colour);
+  width: 80px;
+  height: 100px;
+  opacity: 1;
+  box-shadow:
+    -20px 0 0 0 color-mix(in srgb, var(--pumpkin-colour) 80%, gray),
+    -40px 0 0 0 color-mix(in srgb, var(--pumpkin-colour) 70%, gray),
+    -42px 0 20px 0 color-mix(in srgb, var(--pumpkin-colour) 80%, white),
+    20px 0 0 0 color-mix(in srgb, var(--pumpkin-colour) 80%, gray),
+    40px 0 0 0 color-mix(in srgb, var(--pumpkin-colour) 70%, gray),
+    42px 0 20px 0 color-mix(in srgb, var(--pumpkin-colour) 80%, white);
+  border-radius: 50% 50% 50% 50%/55% 60% 40% 45%;
+}
+
+#eyes {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  width: 80px;
+
+  .eye {
+    width: 30px;
+    height: 23px;
+
+    &.left {
+      background-image: linear-gradient(
+        to left bottom,
+        transparent 50%,
+        #400c18 50%
+      );
+    }
+    &.right {
+      background-image: linear-gradient(
+        to left top,
+        #400c18 50%,
+        transparent 50%
+      );
+    }
+  }
+}
+
+.mouth {
+  display: flex;
+  justify-content: center;
+  margin: 12px auto 0;
+  border-radius: 0 0 30px 30px;
+  transform: rotate(10deg);
+  background: #400c18;
+  -webkit-animation: laugh 4s infinite;
+  animation: laugh 4s infinite;
+
+  .tooth {
+    width: 10px;
+    height: 13px;
+    background-color: #fff;
+    margin-top: -1px;
+    margin-left: 2px;
+    padding-right: 2px;
+  }
+}
+
+#bowtie {
+  display: flex;
+  margin-top: -10px;
+  justify-content: center;
+  align-items: center;
+
+  .bowtie {
+    width: 20px;
+    height: 15px;
+
+    &.left {
+      margin-left: -2px;
+      &.top {
+        background-image: linear-gradient(
+          to left top,
+          var(--tie-colour) 70%,
+          transparent 50%
+        );
+      }
+      &.bottom {
+        background-image: linear-gradient(
+          to left bottom,
+          var(--tie-colour) 70%,
+          transparent 50%
+        );
+      }
+    }
+    &.right {
+      margin-right: -2px;
+      &.top {
+        background-image: linear-gradient(
+          to right top,
+          var(--tie-colour) 70%,
+          transparent 50%
+        );
+      }
+      &.bottom {
+        background-image: linear-gradient(
+          to right bottom,
+          var(--tie-colour) 70%,
+          transparent 50%
+        );
+      }
+    }
+  }
+
+  .bowtie-knot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50% 50% 50% 50%/55% 60% 40% 80%;
+    background: var(--tie-colour);
+    filter: brightness(95%);
+  }
+}
+
+@keyframes laugh {
+  0% {
+    height: 20px;
+  }
+  25% {
+    height: 30px;
+  }
+  50% {
+    height: 15px;
+  }
+  85% {
+    height: 30px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+
+@keyframes float {
+  0% {
+    margin-top: 20px;
+  }
+  25% {
+    margin-top: 30px;
+  }
+  50% {
+    margin-top: 15px;
+  }
+  85% {
+    margin-top: 30px;
+  }
+  100% {
+    margin-top: 20px;
+  }
+}
