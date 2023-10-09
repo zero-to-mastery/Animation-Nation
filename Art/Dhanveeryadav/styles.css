@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+}
+
+.candle-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.candle-flame {
+  border: 2px solid black;
+  height: 15%;
+  z-index: -1;
+  width: 3%;
+  position: absolute;
+  top: 5%;
+  border-top-right-radius: 60%;
+  border-top-left-radius: 60%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 25px;
+  background: linear-gradient(#ffd700, 70%, blue);
+}
+
+.candle-thread {
+  height: 4.8%;
+  border: 2px solid black;
+  position: absolute;
+  left: 3.3%;
+  top: 13.9%;
+}
+
+.candle-thread-two {
+  left: 26.8%;
+}
+
+.candle-thread-three {
+  left: 50.3%;
+}
+
+.candle-thread-four {
+  left: 74%;
+}
+
+.candle-thread-five {
+  left: 97.4%;
+}
+
+.candle-stick {
+  border: 2px solid black;
+  height: 280%;
+  width: 55px;
+  margin-left: 1em;
+  margin-top: 7.5em;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  background-color: #f3e3c2;
+}
+
+.flame-animation-one {
+  animation-name: flame-animation-one;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.flame-animation-two {
+  animation-name: flame-animation-two;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.flame-animation-three {
+  animation-name: flame-animation-three;
+  animation-duration: 16s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.flame-animation-four {
+  animation-name: flame-animation-four;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.flame-animation-five {
+  animation-name: flame-animation-five;
+  animation-duration: 24s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes flame-animation-one {
+  0% {
+    top: 13px;
+    left: 23px;
+    box-shadow: 10px 5px 20px 30px #554904;
+  }
+
+  25% {
+    top: 1px;
+    right: 1em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 35px;
+  }
+
+  75% {
+    top: 1em;
+    right: 1em;
+  }
+
+  90% {
+    width: 20px;
+  }
+
+  100% {
+    top: 13px;
+    left: 23px;
+    opacity: 0;
+  }
+}
+
+@keyframes flame-animation-two {
+  0% {
+    top: 13px;
+    left: 334px;
+    box-shadow: 10px 5px 20px 30px #554904;
+  }
+
+  25% {
+    top: 1px;
+    right: 1em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 35px;
+  }
+
+  75% {
+    top: 1em;
+    right: 1em;
+  }
+
+  90% {
+    width: 20px;
+  }
+
+  100% {
+    top: 13px;
+    left: 334px;
+    opacity: 0;
+  }
+}
+
+@keyframes flame-animation-three {
+  0% {
+    top: 13px;
+    left: 638px;
+    box-shadow: 10px 5px 20px 30px #554904;
+  }
+
+  25% {
+    top: 1px;
+    right: 1em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 35px;
+  }
+
+  75% {
+    top: 1em;
+    right: 1em;
+  }
+
+  90% {
+    width: 20px;
+  }
+
+  100% {
+    top: 13px;
+    left: 638px;
+    opacity: 0;
+  }
+}
+
+@keyframes flame-animation-four {
+  0% {
+    top: 13px;
+    left: 950px;
+    box-shadow: 10px 5px 20px 30px #554904;
+  }
+
+  25% {
+    top: 1px;
+    right: 1em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 35px;
+  }
+
+  75% {
+    top: 1em;
+    right: 1em;
+  }
+
+  90% {
+    width: 20px;
+  }
+
+  100% {
+    top: 13px;
+    left: 950px;
+    opacity: 0;
+  }
+}
+
+@keyframes flame-animation-five {
+  0% {
+    top: 13px;
+    left: 1255px;
+    box-shadow: 10px 5px 20px 30px #554904;
+  }
+
+  25% {
+    top: 1px;
+    right: 1em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 35px;
+  }
+
+  75% {
+    top: 1em;
+    right: 1em;
+    opacity: 0;
+  }
+
+  90% {
+    width: 20px;
+  }
+
+  100% {
+    top: 13px;
+    left: 1255px;
+    opacity: 0;
+  }
+}

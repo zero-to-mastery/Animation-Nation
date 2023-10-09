@@ -5,7 +5,14 @@ let cards = [
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
-  }
+  },
+  {
+    artName: 'glowing-candles',
+    pageLink: './Art/Dhanveeryadav/index.html',
+    imageLink: './Art/Dhanveeryadav/glowing-candles.gif',
+    author: 'Dhanveer',
+    githubLink: 'https://github.com/Dhanveeryadav'
+  } 
 ];
 
 // +--------------------------------------------------------------------------------+
