@@ -3,11 +3,9 @@
   height: 100px;
   width: 100px;
   position: relative;
-
   margin-top: 50px;
   left: 300px;
   border-radius: 50%;
-
   animation: topDown 5s infinite;
 }
 

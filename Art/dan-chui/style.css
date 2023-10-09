@@ -82,7 +82,8 @@ body {
   background: #f5deb3;
   z-index: 50;
   border-radius: 3px;
-  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.4),
+  box-shadow:
+    0 1px 2px 1px rgba(0, 0, 0, 0.4),
     inset 0 -5px 2px 0 rgba(0, 0, 0, 0.4);
   transform: rotate(90deg);
 }
@@ -99,7 +100,8 @@ body {
   background: #f5deb3;
   z-index: 50;
   border-radius: 3px;
-  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.4),
+  box-shadow:
+    0 1px 2px 1px rgba(0, 0, 0, 0.4),
     inset 0 -5px 2px 0 rgba(0, 0, 0, 0.4);
   transform: rotate(90deg);
 }
