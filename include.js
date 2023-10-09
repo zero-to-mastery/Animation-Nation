@@ -1474,6 +1474,13 @@ let cards = [
     githubLink: 'https://github.com/SaiAryan1784'
   },
   {
+    artName: 'Steaming Cup',
+    pageLink: './Art/vivek/SteamCup.html',
+    imageLink: './Art/vivek/SteamCup.gif',
+    author: 'vivekBoii',
+    githubLink: 'https://github.com/vivekBoii'
+  },
+  {
     artName: 'Tik Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
@@ -1913,7 +1920,7 @@ let cards = [
     imageLink: './Art/Sai/ani1.gif',
     author: 'Sai',
     githubLink: 'https://github.com/SaiAryan1784'
-  },
+  }
 ];
 
 
