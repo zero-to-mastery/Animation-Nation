@@ -1071,6 +1071,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'Shooting gun',
+    pageLink: './Art/BlueHeart0065/gun.html',
+    imageLink: './Art/BlueHeart0065/gun.gif',
+    author: 'Sahil',
+    githubLink: 'https://github.com/BlueHeart0065'
+  },
+  {
     artName: 'ZTM Cube',
     pageLink: './Art/williamstophef/index.html',
     imageLink: './Art/williamstophef/CubeArt.gif',
