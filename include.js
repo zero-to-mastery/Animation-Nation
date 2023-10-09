@@ -497,9 +497,9 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   { 
-    artName: 'Triangle', 
+    artName: 'BMH', 
     pageLink: './Art/HarrisMBrad/index.html',
-    imageLink: './Art/HarrisMBrad/index.html',
+    imageLink: '/Anim8tion-9ation/Art/HarrisMBrad/index.html',
     author: '7597243', 
     githubLink: 'https://github.com/7597243'
   }
