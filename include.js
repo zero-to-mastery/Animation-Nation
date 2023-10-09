@@ -2040,6 +2040,14 @@ let cards = [
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
   }
+  {
+    artName: 'Circles Animation',
+    pageLink: './Art/Loukas4/AnimatedCircles.html',
+    imageLink: './Art/Loukas4/Circles.gif',
+    author: 'Loukas',
+    githubLink: 'https://github.com/Loukas4'
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
