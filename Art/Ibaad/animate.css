@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  background-color: plum;
+}
+
+img {
+  width: 500px;
+  height: 350px;
+  justify-content: center;
+  box-shadow: 10px 10px 5px black;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+@keyframes slidein {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(2);
+  }
+}

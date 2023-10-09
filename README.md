@@ -23,7 +23,7 @@ A cool resource to learn about the fork workflow can also be found here - [https
 
 Now, once you've forked this repo and got a local version up on your computer, follow these steps:
 
-1. In the Art directory (folder), create a directory named after yourself.
+1. In the Art directory (folder), create a directory named after your GitHub username.
 2. Within this folder you just made, create two files, an HTML file, and a CSS file.
 3. Link your CSS file to your HTML file.
 4. Using only HTML and CSS (no `<script>` allowed!!), create a work of art! It can be as simple or as complex as you like, as long as it's animated in some way!
@@ -35,11 +35,22 @@ Now, once you've forked this repo and got a local version up on your computer, f
 let cards = [
   //  Add your card in this section
   {
-    artName: 'Triangle',
-    pageLink: './Art/Joy/triangle.html',
-    imageLink: './Art/Joy/triangle.gif',
-    author: 'Joy',
-    githubLink: 'https://github.com/royranger'
+    artName: 'Triangle', // change this to the name of your artwork
+    pageLink: './Art/<YOUR GITHUB USERNAME>/triangle.html', // change this
+    imageLink: './Art/<YOUR GITHUB USERNAME>/triangle.gif', // change this
+    author: 'Joy', // use your name
+    githubLink: 'https://github.com/<YOUR GITHUB USERNAME>' // change this
   }
 ];
 ```
+
+# Important Note
+
+If a maintainer asks for changes, _please make the required changes to your original pull request._
+
+Closing a PR and re-opening the PR for the same contribution adds an unnecessary burden on maintainers,  
+as they have to review the complete pull request again.
+
+If you don't follow this rule, maintainers reserve the right to mark your pull request as invalid.
+
+**In this case it won't count for Hacktoberfest**.

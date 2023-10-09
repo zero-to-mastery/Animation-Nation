@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(18, 38, 43);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ghost */
+.ghost {
+  width: 140px;
+  height: 160px;
+  background-color: #f2f2f2;
+  border-radius: 70px 70px 0 0;
+  position: relative;
+  cursor: pointer;
+  animation: flying 2s infinite ease-in-out;
+}
+@keyframes flying {
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+/* Face */
+.face {
+  width: 100px;
+  position: absolute;
+  top: 60px;
+  left: calc(50% - 50px);
+}
+
+.eyes {
+  height: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.eyes span {
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  border-radius: 50%;
+  animation: blinking 2s infinite ease-in-out;
+}
+
+.mouth {
+  width: 40px;
+  height: 20px;
+  background-color: black;
+  margin: auto;
+  border-radius: 0 0 20px 20px;
+  animation: blinking 2s infinite ease-in-out;
+}
+@keyframes blinking {
+  50% {
+    height: 15px;
+  }
+}
+
+/* Hands */
+.hands {
+  width: 210px;
+  position: absolute;
+  left: -35px;
+  top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hands span {
+  width: 60px;
+  height: 30px;
+  background-color: #f2f2f2;
+}
+
+.hands span:first-child {
+  border-radius: 20px;
+  transform: rotate(-30deg);
+  animation: hand1 2s infinite ease-in-out;
+}
+@keyframes hand1 {
+  50% {
+    transform: rotate(30deg);
+  }
+}
+
+.hands span:last-child {
+  border-radius: 20px;
+  transform: rotate(30deg);
+  animation: hand2 2s infinite ease-in-out;
+}
+@keyframes hand2 {
+  50% {
+    transform: rotate(-30deg);
+  }
+}
+
+/* Feet */
+.feet {
+  position: absolute;
+  width: 100%;
+  bottom: -19px;
+  display: flex;
+}
+
+.feet span {
+  flex: 1;
+  height: 20px;
+  background-color: #f2f2f2;
+  border-radius: 0 0 20px 20px;
+}
+
+/* Shadow */
+.shadow {
+  margin-top: 50px;
+  width: 100px;
+  height: 30px;
+  background-color: rgba(161, 161, 161, 0.3);
+  box-shadow:
+    0 4px 8px 0 rgba(205, 203, 203, 0.2),
+    0 6px 20px 0 rgba(168, 166, 166, 0.19);
+  border-radius: 100%;
+  opacity: 0.8;
+  animation: shadow 2s infinite ease-in-out;
+}
+@keyframes shadow {
+  50% {
+    width: 140px;
+  }
+}

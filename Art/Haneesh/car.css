@@ -1,0 +1,770 @@
+:root {
+  --size: 60;
+  --unit: calc((var(--size) / 800) * 1vmin);
+}
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ccdde2;
+}
+.base .whole .bug {
+  width: calc(800 * var(--unit));
+  height: calc(350 * var(--unit));
+  position: relative;
+}
+.base .whole .bug__tire__shadow__ground {
+  position: absolute;
+  right: 5%;
+  bottom: 0%;
+  width: 30%;
+  height: 5%;
+  background: #000;
+  border-radius: 100%;
+  background: radial-gradient(#2f494f 0% 50%, transparent),
+    radial-gradient(#2f494f 0% 30%, transparent),
+    radial-gradient(#2f494f 0% 20%, transparent);
+  filter: blur(3px);
+}
+.base .whole .bug__tire__shadow__ground:nth-child(2n) {
+  left: 1%;
+}
+.base .whole .bug__whole__shadow {
+  position: absolute;
+  right: -2%;
+  bottom: -3%;
+  width: 105%;
+  height: 8%;
+  background: #000;
+  border-radius: 100%;
+  background: radial-gradient(#2f494f 0% 50%, transparent),
+    radial-gradient(#2f494f 0% 30%, transparent);
+  filter: blur(4px);
+}
+.base .whole .bug__body__b__back {
+  position: absolute;
+  right: 0;
+  width: 69%;
+  height: 84%;
+  background: #b6d4de;
+  border-radius: 20% 65% 0% 0% / 8% 100% 0% 0%;
+  background-image: linear-gradient(
+    #daeef5,
+    #b6d4de 2% 7%,
+    #6d929a 20% 50%,
+    #527c88 60% 76%,
+    #6d929a 80% 100%
+  );
+  box-shadow:
+    -3px 1px 1px 2px #daeef5 inset,
+    -7px 3px 4px 2px #b6d4de inset;
+  overflow: hidden;
+}
+.base .whole .bug__body__b__back .engineroom {
+  position: absolute;
+  left: 85%;
+  top: 30%;
+  width: 20%;
+  height: 50%;
+  transform: rotate(-50deg);
+  border: calc(1 * var(--unit)) solid #1c2a37;
+  border-radius: 25% 25% 0% 0% / 25% 25% 0% 0%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.base .whole .bug__body__b__back .engineroom .engine__lines {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.base .whole .bug__body__b__back .engineroom .engine__lines .engine__line {
+  width: 100%;
+  height: 7%;
+  border-top: calc(1 * var(--unit)) solid #1c2a37;
+}
+.base .whole .bug__body__b__back .window__back__w {
+  position: absolute;
+  left: 66%;
+  top: -19%;
+  width: 20%;
+  height: 55%;
+  transform: rotate(-50deg);
+  background: #ccdde2;
+  border: calc(2 * var(--unit)) solid #000;
+  border-radius: 100% 100% 30% 30% / 100% 100% 30% 30%;
+  overflow: hidden;
+}
+.base .whole .bug__body__b__back .window__back__w::after {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 23%;
+  height: 100%;
+  transform: rotate(-4deg);
+  box-shadow: -5px 4px 2px 2px #daeef5 inset;
+}
+.base .whole .bug__body__b__back .window__back__w .window__back__w__inner {
+  position: absolute;
+  left: -20%;
+  bottom: -5%;
+  width: 50%;
+  height: 15%;
+  transform: rotate(40deg);
+  background-color: #000;
+}
+.base .whole .bug__body__b__top {
+  position: absolute;
+  right: 0;
+  width: 69%;
+  height: 84%;
+  background-color: transparent;
+  border-radius: 20% 65% 0% 0% / 8% 100% 0% 0%;
+}
+.base .whole .bug__body__f {
+  position: absolute;
+  left: 0;
+  top: 31%;
+  width: 39%;
+  height: 53%;
+  background: #b6d4de;
+  border-radius: 100% 25% 0% 20% / 100% 25% 0% 20%;
+  background-image: linear-gradient(
+    #b6d4de,
+    #6d929a 5% 23%,
+    #527c88 35% 62%,
+    #6d929a 68% 100%
+  );
+  box-shadow:
+    0px 1px 2px 2px #daeef5 inset,
+    0px 4px 5px 3px #b6d4de inset;
+  overflow: hidden;
+}
+.base .whole .bug__body__f .bug__body__hood {
+  position: absolute;
+  right: 40%;
+  top: -35%;
+  width: 27%;
+  height: 56%;
+  border-right: calc(1 * var(--unit)) solid #1c2a37;
+  border-radius: 0% 49% 42% 0% / 0% 49% 42% 0%;
+}
+.base .whole .bug__body__f .bug__body__hood2 {
+  position: absolute;
+  right: 43%;
+  top: 37%;
+  width: 77%;
+  height: 23%;
+  border-top: calc(1 * var(--unit)) solid #1c2a37;
+  border-radius: 0% 49% 42% 0% / 0% 49% 42% 0%;
+  transform: rotate(-25deg);
+}
+.base .whole .bug__body__w {
+  position: absolute;
+  left: 27%;
+  top: 7%;
+  width: 10%;
+  height: 40%;
+  background: #b6d4de;
+  transform: rotate(-332.944deg);
+}
+.base .whole .bug .window__back {
+  position: absolute;
+  left: 33%;
+  top: 12%;
+  width: 32%;
+  height: 30%;
+  background: #000;
+  border-radius: 5% 100% 17% 6% / 8% 88% 21% 9%;
+}
+.base .whole .bug .window__f__h {
+  position: absolute;
+  left: -5%;
+  top: 5%;
+  width: 4%;
+  height: 40%;
+  transform: rotate(-332.944deg);
+  background-image: linear-gradient(
+    332.944deg,
+    transparent,
+    #6d929a 20% 75%,
+    transparent 90% 100%
+  );
+  box-shadow: 1px 5px 3px 1px #b6d4de inset;
+}
+.base .whole .bug .window__f {
+  position: absolute;
+  left: -5%;
+  top: 12%;
+  width: 33%;
+  height: 30%;
+  background: #000;
+  border-radius: 67% 4% 9% 6% / 50% 7% 11% 9%;
+  overflow: hidden;
+}
+.base .whole .bug .window__f__inner {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  width: 90%;
+  height: 90%;
+  background: #ccdde2;
+  border-radius: 67% 4% 9% 6% / 40% 7% 11% 9%;
+}
+.base .whole .bug .window__f__h__inner {
+  position: absolute;
+  left: 9%;
+  top: -3%;
+  width: 10%;
+  height: 100%;
+  background: #000;
+  transform: rotate(-332.944deg);
+}
+.base .whole .bug .window__f__stick {
+  position: absolute;
+  left: 40%;
+  top: 0%;
+  width: 3%;
+  height: 130%;
+  background: #000;
+  transform: rotate(15deg);
+}
+.base .whole .bug .window__f__stick:nth-child(2n) {
+  left: 34%;
+}
+.base .whole .bug .window__f__headrest {
+  position: absolute;
+  right: -3%;
+  top: 20%;
+  width: 15%;
+  height: 50%;
+  background: #000;
+  transform: rotate(-10deg);
+  border-radius: 100% 60% 44% 63% / 100% 60% 44% 63%;
+}
+.base .whole .bug .window__f__headrest__stick {
+  position: absolute;
+  right: 2%;
+  bottom: 0%;
+  width: 3%;
+  height: 50%;
+  background: #000;
+  transform: rotate(15deg);
+}
+.base .whole .bug .window__f__headrest__btm {
+  position: absolute;
+  right: -10%;
+  bottom: -30%;
+  width: 30%;
+  height: 50%;
+  background: #000;
+  transform: rotate(15deg);
+  border-radius: 63% 14% 19% 0% / 63% 14% 19% 0%;
+}
+.base .whole .bug .window__f__handle {
+  position: absolute;
+  left: 0%;
+  bottom: -30%;
+  width: 20%;
+  height: 50%;
+  background: #121212;
+  transform: rotate(-25deg);
+  border-radius: 15% / 15%;
+}
+.base .whole .bug .window__b {
+  position: absolute;
+  left: 33%;
+  top: 12%;
+  width: 32%;
+  height: 30%;
+  background: #000;
+  border-radius: 5% 100% 17% 6% / 8% 88% 21% 9%;
+  overflow: hidden;
+}
+.base .whole .bug .window__b__inner {
+  position: absolute;
+  left: 5%;
+  bottom: -2%;
+  width: 82%;
+  height: 90%;
+  background: #ccdde2;
+  border-radius: 5% 100% 17% 6% / 8% 88% 21% 9%;
+}
+.base .whole .bug .window__b__seat {
+  position: absolute;
+  right: 12%;
+  bottom: -35%;
+  width: 10%;
+  height: 50%;
+  background: #000;
+  transform: rotate(15deg);
+  border-radius: 63% 14% 19% 0% / 63% 14% 19% 0%;
+}
+.base .whole .bug .bug__headlight {
+  position: absolute;
+  left: 0%;
+  top: 52%;
+  width: 6%;
+  height: 14%;
+  background: #9da5a8;
+  border-radius: 36% 0% 0% 17% / 36% 0% 0% 17%;
+  background-image: linear-gradient(
+    0deg,
+    #91a0a3 0% 35%,
+    #010000 50% 60%,
+    #91a0a3 75% 85%,
+    #9da5a8 90% 100%
+  );
+}
+.base .whole .bug .bug__fender__f {
+  position: absolute;
+  left: 0;
+  top: 48%;
+  width: 13%;
+  height: 35%;
+  background: #b6d4de;
+  border-radius: 49% 20% 0% 10% / 70% 20% 0% 10%;
+  background-image: linear-gradient(#b6d4de, #6d929a, #527c88 40% 100%);
+  box-shadow: 0px 2px 3px 2px #6d929a inset;
+  overflow: hidden;
+}
+.base .whole .bug .bug__fender__f .bug__fender__shadow {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 110%;
+  height: 78%;
+  background: #000;
+  border-radius: 93% 0% 0% 0% / 100% 0% 0% 0%;
+}
+.base .whole .bug .bug__fender__b {
+  position: absolute;
+  left: 10%;
+  top: 48%;
+  width: 15%;
+  height: 40%;
+  background: #b6d4de;
+  border-radius: 0% 100% 0% 0% / 0% 100% 0% 0%;
+  background-image: linear-gradient(#b6d4de, #6d929a, #527c88 35% 100%);
+  box-shadow: -3px 3px 3px 1px #6d929a inset;
+  overflow: hidden;
+}
+.base .whole .bug .bug__fender__b .bug__fender__shadow {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 70%;
+  height: 79%;
+  background: #000;
+  border-radius: 0% 100% 0% 0% / 0% 100% 0% 0%;
+}
+.base .whole .bug .bug__fender__b .bug__fender__shadow__box {
+  position: absolute;
+  right: 12%;
+  bottom: 0%;
+  width: 20%;
+  height: 20%;
+  background: #000;
+}
+.base
+  .whole
+  .bug
+  .bug__fender__b
+  .bug__fender__shadow__box
+  .bug__fender__shadow__cir {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  background: #527c88;
+  border-radius: 0% 0% 0% 100% / 0% 0% 0% 100%;
+}
+.base .whole .bug .bug__taillight {
+  position: absolute;
+  right: 1%;
+  top: 55%;
+  width: 6%;
+  height: 14%;
+  background: #1f0a1b;
+  border-radius: 0% 22% 17% 0% / 0% 22% 17% 0%;
+  background-image: linear-gradient(
+    0deg,
+    #1f0a1b 0% 50%,
+    #c19b6a 70% 80%,
+    #c8b5b1 90% 100%
+  );
+}
+.base .whole .bug .bug__fender__bb {
+  position: absolute;
+  right: 0%;
+  top: 49%;
+  width: 20%;
+  height: 35%;
+  background: #b6d4de;
+  border-radius: 100% 20% 0% 10% / 100% 20% 0% 0%;
+  transform: rotateY(180deg);
+  background-image: linear-gradient(#b6d4de, #6d929a, #527c88 35% 100%);
+  box-shadow: 2px 2px 3px 2px #6d929a inset;
+  overflow: hidden;
+}
+.base .whole .bug .bug__fender__bb .bug__fender__shadow {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  width: 72%;
+  height: 77%;
+  background: #000;
+  border-radius: 93% 0% 0% 0% / 100% 0% 0% 0%;
+}
+.base .whole .bug .bug__fender__bb .bug__fender__shadow__box {
+  position: absolute;
+  left: 12%;
+  bottom: 0%;
+  width: 20%;
+  height: 32%;
+  background: #000;
+}
+.base
+  .whole
+  .bug
+  .bug__fender__bb
+  .bug__fender__shadow__box
+  .bug__fender__shadow__cir {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  background: #527c88;
+  border-radius: 0% 0% 100% 0% / 0% 0% 100% 0%;
+}
+.base .whole .bug .bug__fender__fb {
+  position: absolute;
+  right: 16%;
+  top: 49%;
+  width: 15%;
+  height: 40%;
+  background: #b6d4de;
+  border-radius: 0% 100% 0% 0% / 0% 100% 0% 0%;
+  transform: rotateY(180deg);
+  background-image: linear-gradient(#b6d4de, #6d929a, #527c88 31% 100%);
+  box-shadow: -4px 0px 3px 3px #6d929a inset;
+  overflow: hidden;
+}
+.base .whole .bug .bug__fender__fb .bug__fender__shadow {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 70%;
+  height: 78%;
+  background: #000;
+  border-radius: 0% 100% 0% 0% / 0% 100% 0% 0%;
+}
+.base .whole .bug .bug__fender__fb .bug__fender__shadow__box {
+  position: absolute;
+  right: 12%;
+  bottom: 0%;
+  width: 20%;
+  height: 20%;
+  background: #000;
+}
+.base
+  .whole
+  .bug
+  .bug__fender__fb
+  .bug__fender__shadow__box
+  .bug__fender__shadow__cir {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  background: #527c88;
+  border-radius: 0% 0% 0% 100% / 0% 0% 0% 100%;
+}
+.base .whole .bug .bug__tire__shadow {
+  position: absolute;
+  left: 6%;
+  bottom: 2%;
+  width: calc(140 * var(--unit));
+  height: calc(140 * var(--unit));
+  background: #000;
+  border-radius: 100%;
+}
+.base .whole .bug .bug__tire__shadow:nth-child(2n) {
+  left: 70%;
+}
+.base .whole .bug .bug__tire {
+  position: absolute;
+  left: 2%;
+  bottom: 0%;
+  width: calc(140 * var(--unit));
+  height: calc(140 * var(--unit));
+  background: #000;
+  border-radius: 100%;
+}
+.base .whole .bug .bug__tire:nth-child(2n) {
+  left: 75%;
+}
+.base .whole .bug .bug__tire__white {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  background: #d2dbdb;
+  border-radius: 100%;
+}
+.base .whole .bug .bug__tire__blue {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  background: #688990;
+  border-radius: 100%;
+}
+.base .whole .bug .bug__tire__blue::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  background: #53676e;
+  border-radius: 100%;
+}
+.base .whole .bug .bug__tire__blue__dots {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  border: calc(10 * var(--unit)) #121212 dotted;
+  border-radius: 100%;
+}
+.base .whole .bug .bug__tire__wheel {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 67%;
+  height: 67%;
+  background: white;
+  border-radius: 100%;
+  background-image: linear-gradient(180deg, #010101 0% 40%, #bac7cd 55% 100%);
+}
+.base .whole .bug .bug__tire__wheel__logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  background: #bac7cd;
+  border-radius: 100%;
+  box-shadow:
+    0px -1px 1px 0px #010101 inset,
+    0px 1px 1px 0px #bac7cd inset;
+}
+.base .whole .bug .bug__step {
+  position: absolute;
+  left: 23%;
+  top: 85%;
+  width: 47%;
+  height: 4%;
+  background: #bac7cd;
+  border-radius: 10px 10px 0 0 / 10px 10px 0 0;
+  box-shadow: -2px 0px 2px 1px #121212 inset;
+}
+.base .whole .bug .bug__step::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  border-top: calc(4 * var(--unit)) #121212 solid;
+}
+.base .whole .bug .bug__step__shadow {
+  position: absolute;
+  left: 23%;
+  top: 82%;
+  width: 47%;
+  height: 4%;
+  background: #121212;
+  border-radius: 0 0 10px 10Array/0Array 0 10px 10px;
+}
+.base .whole .bug .bug__handle {
+  position: absolute;
+  left: 45%;
+  top: 42%;
+  width: 5%;
+  height: 5%;
+}
+.base .whole .bug .bug__handle__shadow {
+  position: absolute;
+  left: 20%;
+  top: -17%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(#527c88 0% 50%, #b6d4de 60% 100%);
+  border-radius: 100% 63% 53% 82% / 100% 63% 53% 82%;
+}
+.base .whole .bug .bug__handle__handle {
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  width: 100%;
+  height: 40%;
+  background: #d2dbdb;
+  border-radius: 100% 75% 75% 100% / 100% 75% 75% 100%;
+  box-shadow: 0px -1px 1px 0px #010101 inset;
+}
+.base .whole .bug .bug__door {
+  position: absolute;
+  left: 25%;
+  top: 7%;
+  width: 27%;
+  height: 75%;
+}
+.base .whole .bug .bug__door__line__right {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  width: 80%;
+  height: 100%;
+  border-right: 1px solid #1c2a37;
+  border-top: 1px solid #1c2a37;
+  border-radius: 100% 100% 0% 0% / 25% 0% 0% 0%;
+}
+.base .whole .bug .bug__door__line__left__btm {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 0%;
+  height: 57%;
+  border-right: 1px solid #1c2a37;
+}
+.base .whole .bug .bug__door__line__left__top {
+  position: absolute;
+  left: 10%;
+  top: 7%;
+  width: 0%;
+  height: 37%;
+  transform: rotate(-332.944deg);
+  border-right: 1px solid #1c2a37;
+}
+.base .whole .bug .bug__door__box {
+  position: absolute;
+  left: -2%;
+  top: 42%;
+  width: 5%;
+  height: 7%;
+  background: #000;
+  background: linear-gradient(90deg, #6d929a, #527c88);
+}
+.base .whole .bug .bug__door__box:nth-child(2n) {
+  top: 87%;
+}
+.base .whole .bug .bug__longline {
+  position: absolute;
+  left: 3%;
+  top: 40%;
+  width: 84%;
+  height: 40%;
+  border-top: calc(1 * var(--unit)) #b6d4de solid;
+  border-radius: 100% 75% 75% 100% / 100% 75% 75% 100%;
+  box-shadow:
+    0px 1px 1px 1px #b6d4de inset,
+    0px 2px 2px 1px #b6d4de inset;
+}
+.base .whole .bug .bug__door__line__back {
+  position: absolute;
+  left: 40%;
+  top: 7%;
+  width: 50%;
+  height: 65%;
+  border-top: calc(1 * var(--unit)) #1c2a37 solid;
+  border-radius: 0% 72% 0% 0% / 0% 100% 0% 0%;
+}
+.base .whole .bug .bug__bumper__back {
+  position: absolute;
+  right: -4%;
+  top: 73%;
+  width: 6%;
+  height: 8%;
+  background: #7d8987;
+  border-radius: 0% 10% 10% 30% / 0% 9% 15% 99%;
+  box-shadow:
+    0px 3px 3px 1px #daeef5 inset,
+    -4px 0px 1px 0px #2f494f;
+  overflow: hidden;
+}
+.base .whole .bug .bug__bumper__back::after {
+  content: '';
+  position: absolute;
+  right: 0%;
+  top: 25%;
+  width: 100%;
+  height: 50%;
+  background: #010000;
+}
+.base .whole .bug .bug__bumper__front {
+  position: absolute;
+  left: -3%;
+  top: 73%;
+  width: 3%;
+  height: 8%;
+  background: #7d8987;
+  border-radius: 0% 10% 10% 30% / 0% 9% 15% 99%;
+  box-shadow:
+    0px 3px 3px 1px #daeef5 inset,
+    -4px 0px 1px 0px #2f494f;
+  transform: rotateY(180deg);
+  overflow: hidden;
+}
+.base .whole .bug .bug__bumper__front::after {
+  content: '';
+  position: absolute;
+  right: 0%;
+  top: 25%;
+  width: 100%;
+  height: 50%;
+  background: #010000;
+}
+.base .whole .bug .bug__ex {
+  position: absolute;
+  right: -2%;
+  top: 80%;
+  width: 5%;
+  height: 5%;
+  background: #7d8987;
+  transform: skewX(-20deg) rotate(10deg);
+  box-shadow: 0px 3px 3px 1px #daeef5 inset;
+}
+.base .whole .bug .bug__handle__back {
+  position: absolute;
+  right: 2%;
+  top: 45%;
+  width: 5%;
+  height: 4%;
+  background: #daeef5;
+  transform: skewX(20deg);
+  border-radius: 20%;
+  box-shadow: 1px -3px 2px 1px #6d929a inset;
+}

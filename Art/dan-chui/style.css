@@ -1,0 +1,121 @@
+body {
+  background: rgb(86, 109, 175);
+}
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.steam {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-top: -75px;
+  margin-left: 75px;
+  z-index: 0;
+  opacity: 0;
+}
+
+#steam1 {
+  animation: steam1 5s ease-out infinite;
+}
+
+#steam2 {
+  animation: steam1 5s ease-out 1s infinite;
+}
+
+@keyframes steam1 {
+  0% {
+    transform: translateY(0) translateX(0) scale(0.25);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-150px) translateX(-30px) scale(1);
+    opacity: 0;
+  }
+}
+
+#bowl {
+  z-index: 1;
+}
+
+.bowl-body {
+  position: absolute;
+  height: 200px;
+  width: 325px;
+  border-radius: 0 0 150px 150px;
+  background-color: #edebeb;
+  margin: auto;
+  display: inline-block;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.bowl-body .caption {
+  margin-top: 40px;
+  margin-left: 130px;
+  font-size: xx-large;
+  font-weight: bold;
+  color: red;
+}
+
+#soup {
+  height: 10px;
+  width: 325px;
+  border-radius: 50%;
+  margin-top: -5px;
+  background-color: #59b4de;
+}
+
+.chopstickOne {
+  position: absolute;
+  top: 475px;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  margin: auto;
+  width: 10px;
+  height: 270px;
+  background: #f5deb3;
+  z-index: 50;
+  border-radius: 3px;
+  box-shadow:
+    0 1px 2px 1px rgba(0, 0, 0, 0.4),
+    inset 0 -5px 2px 0 rgba(0, 0, 0, 0.4);
+  transform: rotate(90deg);
+}
+
+.chopstickTwo {
+  position: absolute;
+  top: 505px;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  margin: auto;
+  width: 10px;
+  height: 270px;
+  background: #f5deb3;
+  z-index: 50;
+  border-radius: 3px;
+  box-shadow:
+    0 1px 2px 1px rgba(0, 0, 0, 0.4),
+    inset 0 -5px 2px 0 rgba(0, 0, 0, 0.4);
+  transform: rotate(90deg);
+}
+
+.chopsticks-rest {
+  position: absolute;
+  top: 490px;
+  bottom: 0;
+  left: 53%;
+  right: 40%;
+  margin: auto;
+  width: 32px;
+  height: 60px;
+  background: #20272d;
+  z-index: 1;
+  border-radius: 10px;
+}
