@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(151, 175, 205);
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container{
+    /* border: solid; */
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cup{
+    /* border: solid; */
+    width: 300px;
+    height: 310px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.handle{
+    border: 20px solid #fff;
+    width: 150px;
+    height: 170px;
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    border-radius: 50%;
+}
+
+.circle,.top{
+    width: 100%;
+    height: 40px;
+    border-radius: 50%;
+}
+.top{
+    position: absolute;
+    top: -20px;
+    background-color: #fff;
+}
+.circle{
+    background-color: #ebe6e6;
+    width:98%;
+    position: absolute;
+    top: -10px;
+}
+.tea{
+    width: 90%;
+    transform: translateX(5%);
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    background-color: #cc8065;
+}
+.plate{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    /* border: solid; */
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.steam{
+    /* border: solid; */
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    top: -100px;
+    display: flex;
+    justify-content: space-between;
+}
+.steam span{
+    width: 12px;
+    height: 100px;
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: stream 3s linear infinite;
+    filter: blur(20px);
+    animation-delay: calc(var(--i)*0.5s);
+}
+
+@keyframes stream{
+    50%{
+        transform: translateY(-70px) scaleX(2);
+    }
+    100%{
+        transform: translateY(-140px) scaleX(4);
+    }
+}
