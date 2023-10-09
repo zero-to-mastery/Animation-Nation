@@ -495,6 +495,13 @@ let cards = [
     imageLink: './Art/varunrmantri23/stylish_text_animation.gif',
     author: 'varunrmantri23',
     githubLink: 'https://github.com/varunrmantri23'
+  },
+  {
+    artName: 'Rocking Boat',
+    pageLink: './Art/TishShaw/index.html',
+    imageLink: './Art/TishShaw/rocking-boat.gif',
+    author: 'Tish',
+    githubLink: 'https://github.com/TishShaw'
   }
 ];
 
