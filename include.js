@@ -184,6 +184,12 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
+    artName: 'glowing-candles',
+    pageLink: './Art/Dhanveeryadav/index.html',
+    imageLink: './Art/Dhanveeryadav/glowing-candles.gif',
+    author: 'Dhanveer',
+    githubLink: 'https://github.com/Dhanveeryadav'
+  } 
     artName: 'Rocket Orbit',
     pageLink: './Art/thomasravetto/index.html',
     imageLink: './Art/thomasravetto/loader_gif.gif',
