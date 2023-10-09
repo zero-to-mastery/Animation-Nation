@@ -1892,6 +1892,13 @@ let cards = [
     author: 'Sai',
     githubLink: 'https://github.com/SaiAryan1784'
   },
+  {
+    artName: 'THE ANINATION LOADER',
+    pageLink: './Art/GT0SRT/index.html',
+    imageLink: './Art/GT0SRT/TAL.gif',
+    author: 'GOURAV',
+    githubLink: 'https://github.com/GT0SRT'
+  },
 ];
 
 
