@@ -700,7 +700,6 @@ let cards = [
     githubLink: 'https://github.com/migueldalberto'
   },
   {
-
     artName: 'Infinite Hacktober Shapes',
     pageLink: './Art/Joe_DiGioia/JoeArt.html',
     imageLink: './Art/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
@@ -1608,6 +1607,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Rocking Boat',
+    pageLink: './Art/TishShaw/index.html',
+    imageLink: './Art/TishShaw/rocking-boat.gif',
+    author: 'Tish',
+    githubLink: 'https://github.com/TishShaw'
+  },
+  {
     artName: 'Button-Animation',
     pageLink: './Art/Raghavan-B/index.html',
     imageLink: './Art/Raghavan-B/button.gif',
@@ -1957,7 +1963,6 @@ let cards = [
     githubLink: 'https://github.com/samilabud'
   }
 ];
-
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
