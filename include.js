@@ -1993,6 +1993,13 @@ let cards = [
     githubLink: 'https://github.com/SaiAryan1784'
   },
   {
+    artName: 'THE ANINATION LOADER',
+    pageLink: './Art/GT0SRT/index.html',
+    imageLink: './Art/GT0SRT/TAL.gif',
+    author: 'GOURAV',
+    githubLink: 'https://github.com/GT0SRT'
+  },
+  {
     artName: 'Glowing Ring Animated Loader',
     pageLink: './Art/Bhavna2003/index.html',
     imageLink: './Art/Bhavna2003/animatedloader.gif',
