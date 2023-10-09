@@ -1965,6 +1965,13 @@ let cards = [
     githubLink: 'https://github.com/SaiAryan1784'
   },
   {
+    artName: 'Glitch',
+    pageLink: './Art/Vatsalya-Vyas/index.html',
+    imageLink: './Art/Vatsalya-Vyas/Glitch.gif',
+    author: 'Vatsalya Vyas',
+    githubLink: 'https://github.com/vatsalya-vyas'
+  },
+  {
     artName: 'animation',
     pageLink: './Art/hrishit/index.html',
     imageLink: './Art/hrishit/animation.gif',
