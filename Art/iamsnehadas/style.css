@@ -1,200 +1,199 @@
 :root {
-    --penguin-size: 800px;
-    --penguin-skin: black;
-    --penguin-belly: white;
-    --penguin-beak: #fcf009;
-  }
-  
+  --penguin-size: 800px;
+  --penguin-skin: black;
+  --penguin-belly: white;
+  --penguin-beak: #fcf009;
+}
+
 @media (max-width: 350px) {
   :root {
     --penguin-size: 200px;
-    --penguin-skin: black;  
+    --penguin-skin: black;
   }
 }
-  
-  
-  .penguin {
-    position: relative;
-    margin: auto;
-    display: block;
-    margin-top: 5%;
-    width: var(--penguin-size, 300px);
-    height: var(--penguin-size, 300px);
+
+.penguin {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 5%;
+  width: var(--penguin-size, 300px);
+  height: var(--penguin-size, 300px);
+}
+
+.right-cheek {
+  top: 20%;
+  left: 35%;
+  background: var(--penguin-belly, white);
+  width: 60%;
+  height: 70%;
+  border-radius: 50% 50% 40% 40%;
+}
+
+.left-cheek {
+  top: 20%;
+  left: 5%;
+  background: var(--penguin-belly, white);
+  width: 60%;
+  height: 70%;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.belly {
+  top: 60%;
+  left: 2.5%;
+  background: var(--penguin-belly, white);
+  width: 95%;
+  height: 100%;
+  border-radius: 120% 120% 100% 100%;
+}
+
+.penguin-top {
+  top: 10%;
+  left: 25%;
+  background: var(--penguin-skin, gray);
+  width: 50%;
+  height: 45%;
+  border-radius: 70% 70% 60% 60%;
+}
+
+.penguin-bottom {
+  top: 40%;
+  left: 23.5%;
+  background: var(--penguin-skin, rgb(73, 64, 64));
+  width: 53%;
+  height: 45%;
+  border-radius: 70% 70% 100% 100%;
+}
+
+.right-hand {
+  top: 5%;
+  left: 25%;
+  background: var(--penguin-skin, black);
+  width: 30%;
+  height: 60%;
+  border-radius: 30% 30% 120% 30%;
+  transform: rotate(130deg);
+  z-index: -1;
+  animation-duration: 3s;
+  animation-name: wave;
+  animation-iteration-count: infinite;
+  transform-origin: 0% 0%;
+  animation-timing-function: linear;
+}
+
+@keyframes wave {
+  10% {
+    transform: rotate(110deg);
   }
-  
-  .right-cheek {
-    top: 20%;
-    left: 35%;
-    background: var(--penguin-belly, white);
-    width: 60%;
-    height: 70%;
-    border-radius: 50% 50% 40% 40%;
-  }
-  
-  .left-cheek {
-    top: 20%;
-    left: 5%;
-    background: var(--penguin-belly, white);
-    width: 60%;
-    height: 70%;
-    border-radius: 50% 50% 50% 50%;
-  }
-  
-  .belly {
-    top: 60%;
-    left: 2.5%;
-    background: var(--penguin-belly, white);
-    width: 95%;
-    height: 100%;
-    border-radius: 120% 120% 100% 100%;
-  }
-  
-  .penguin-top {
-    top: 10%;
-    left: 25%;
-    background: var(--penguin-skin, gray);
-    width: 50%;
-    height: 45%;
-    border-radius: 70% 70% 60% 60%;
-  }
-  
-  .penguin-bottom {
-    top: 40%;
-    left: 23.5%;
-    background: var(--penguin-skin, rgb(73, 64, 64));
-    width: 53%;
-    height: 45%;
-    border-radius: 70% 70% 100% 100%;
-  }
-  
-  .right-hand {
-    top: 5%;
-    left: 25%;
-    background: var(--penguin-skin, black);
-    width: 30%;
-    height: 60%;
-    border-radius: 30% 30% 120% 30%;
+  20% {
     transform: rotate(130deg);
-    z-index: -1;
-    animation-duration: 3s;
-    animation-name: wave;
-    animation-iteration-count: infinite;
-    transform-origin:0% 0%;
-    animation-timing-function: linear;
   }
-  
-  @keyframes wave {
-      10% {
-        transform: rotate(110deg);
-      }
-      20% {
-        transform: rotate(130deg);
-      }
-      30% {
-        transform: rotate(110deg);
-      } 
-      40% {
-        transform: rotate(130deg);
-      }  
-    }
-  
-  .left-hand {
-    top: 0%;
-    left: 75%;
-    background: var(--penguin-skin, gray);
-    width: 30%;
-    height: 60%;
-    border-radius: 30% 30% 30% 120%;
-    transform: rotate(-45deg);
-    z-index: -1;
+  30% {
+    transform: rotate(110deg);
   }
-  
-  .right-feet {
-    top: 85%;
-    left: 60%;
-    background: var(--penguin-beak, orange);
-    width: 15%;
-    height: 30%;
-    border-radius: 50% 50% 50% 50%;
-    transform: rotate(-80deg);
-    z-index: -2222;
+  40% {
+    transform: rotate(130deg);
   }
-  
-  .left-feet {
-    top: 85%;
-    left: 25%;
-    background: var(--penguin-beak, orange);
-    width: 15%;
-    height: 30%;
-    border-radius: 50% 50% 50% 50%;
-    transform: rotate(80deg);
-    z-index: -2222;
-  }
+}
 
-  .left-eye {
-    top: 45%;
-    left: 25%;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: white;
-    border: 5px solid black;
-    position: relative;
-  }
-  
-  .left-iris {
-    width: 30px;
-    height: 30px;
-    border-radius: 80%;
-    background-color: black;
-    position: relative;
-    top: 40%;
-    left: 25%;
-  }
+.left-hand {
+  top: 0%;
+  left: 75%;
+  background: var(--penguin-skin, gray);
+  width: 30%;
+  height: 60%;
+  border-radius: 30% 30% 30% 120%;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
 
-  .right-eye {
-    top: 45%;
-    left: 60%;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: white;
-    border: 5px solid black;
-    position: relative;
-  }
-  
-  .right-iris {
-    width: 30px;
-    height: 30px;
-    border-radius: 80%;
-    background-color: black;
-    position: relative;
-    top: 40%;
-    left: 25%;
-  }
-  
-  .beak-top {
-    top: 60%;
-    left: 40%;
-    background: var(--penguin-beak, orange);
-    width: 20%;
-    height: 10%;
-    border-radius: 50%;
-  }
-  
-  .beak-bottom {
-    top: 65%;
-    left: 42%;
-    background: var(--penguin-beak, orange);
-    width: 16%;
-    height: 10%;
-    border-radius: 50%;
-  }
-  
-  body {
-    background-image: url(ice.jpg);
-  }
-  
-  .penguin * {
-    position: absolute;
-  }
+.right-feet {
+  top: 85%;
+  left: 60%;
+  background: var(--penguin-beak, orange);
+  width: 15%;
+  height: 30%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(-80deg);
+  z-index: -2222;
+}
+
+.left-feet {
+  top: 85%;
+  left: 25%;
+  background: var(--penguin-beak, orange);
+  width: 15%;
+  height: 30%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(80deg);
+  z-index: -2222;
+}
+
+.left-eye {
+  top: 45%;
+  left: 25%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  border: 5px solid black;
+  position: relative;
+}
+
+.left-iris {
+  width: 30px;
+  height: 30px;
+  border-radius: 80%;
+  background-color: black;
+  position: relative;
+  top: 40%;
+  left: 25%;
+}
+
+.right-eye {
+  top: 45%;
+  left: 60%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  border: 5px solid black;
+  position: relative;
+}
+
+.right-iris {
+  width: 30px;
+  height: 30px;
+  border-radius: 80%;
+  background-color: black;
+  position: relative;
+  top: 40%;
+  left: 25%;
+}
+
+.beak-top {
+  top: 60%;
+  left: 40%;
+  background: var(--penguin-beak, orange);
+  width: 20%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.beak-bottom {
+  top: 65%;
+  left: 42%;
+  background: var(--penguin-beak, orange);
+  width: 16%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+body {
+  background-image: url(ice.jpg);
+}
+
+.penguin * {
+  position: absolute;
+}
