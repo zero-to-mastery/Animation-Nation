@@ -672,6 +672,7 @@ let cards = [
     githubLink: 'https://github.com/migueldalberto'
   },
   {
+
     artName: 'Infinite Hacktober Shapes',
     pageLink: './Art/Joe_DiGioia/JoeArt.html',
     imageLink: './Art/Joe_DiGioia/Hacktober-Animate-JDiGioia.gif',
@@ -1198,6 +1199,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Background line animation',
+    pageLink: './Art/Hrishap/index.html',
+    imageLink: './Art/Hrishap/Background line animation.gif',
+    author: 'Hrishap',
+    githubLink: 'https://github.com/Hrishap'
+  },
+  {
     artName: 'Background line animation', 
     pageLink: './Art/Hrishap/index.html', 
     imageLink: './Art/Hrishap/Background line animation.gif', 
@@ -1344,7 +1352,6 @@ let cards = [
     author: 'Divyansh',
     githubLink: 'https://github.com/okaydivyansh'
   },
-
   {
     artName: 'wheel',
     pageLink: './Art/mohdUsman-6508/wheel.html',
@@ -1352,7 +1359,6 @@ let cards = [
     author: 'Mohd Usman',
     githubLink: 'https://github.com/mohdUsman-6508'
   },
-
   {
     artName: 'Ball-animation',
     pageLink: './Art/RohanSalgare/index.html',
@@ -1373,6 +1379,7 @@ let cards = [
     imageLink: './Art/vivek/waves.gif',
     author: 'Vivek Boii',
     githubLink: 'https://github.com/vivekBoii'
+
   },
   {
     artName: 'Optimus Prime',
@@ -1394,6 +1401,7 @@ let cards = [
     imageLink: './Art/vinay-s36/Sun-Earth Rotation.gif',
     author: 'Vinay',
     githubLink: 'https://github.com/vinay-s36'
+
   },
   {
     artName: 'Heart Loading...',
