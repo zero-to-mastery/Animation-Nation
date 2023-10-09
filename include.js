@@ -71,13 +71,13 @@ let cards = [
     githubLink: 'https://github.com/smokeraven667'
   },
   {
-
     artName: 'Astro Acrobat',
     pageLink: './Art/DarrachBarneveld/index.html',
     imageLink: './Art/DarrachBarneveld/rocket.gif',
     author: 'Darrach Barneveld',
     githubLink: 'https://github.com/DarrachBarneveld'
-  },{
+  },
+  {
     artName: 'Rotating Cube',
     pageLink: './Art/Rishi/cube.html',
     imageLink: './Art/Rishi/cube.gif',
@@ -138,7 +138,8 @@ let cards = [
     pageLink: './Art/Joy/hanisntsolo.html',
     imageLink: './Art/Joy/hanisntsolo.gif',
     author: 'Hanisntsolo',
-    githubLink: 'https://github.com/hanisntsolo'},
+    githubLink: 'https://github.com/hanisntsolo'
+  },
 
   {
     artName: 'Triangle',
@@ -622,7 +623,8 @@ let cards = [
     imageLink: './Art/Bhaskarsahu23/imageflip.gif',
     author: 'Bhaskarsahu23',
     githubLink: 'https://github.com/Bhaskarsahu23'
-  }, {
+  },
+  {
     artName: 'Pumpkin Fight',
     pageLink: './Art/SamPalacio/index.html',
     imageLink: './Art/SamPalacio/pumpkins.gif',
@@ -1534,7 +1536,6 @@ let cards = [
     imageLink: './Art/THE-AryanKumar/Among Us - result.gif',
     author: 'THE-AryanKumar',
     githubLink: 'https://github.com/THE-AryanKumar'
-    
   },
   {
     artName: 'Stylish Text Animation',
@@ -1563,7 +1564,8 @@ let cards = [
     imageLink: './Art/techfreakSahil/animation(hireBtn).png',
     author: 'techfreakSahil',
     githubLink: 'https://github.com/techfreakSahil'
-  },{
+  },
+  {
     artName: 'Beach Loading Bar with Waves and Sun',
     pageLink: './Art/Javier1019/index.html',
     imageLink: './Art/Javier1019/beachloadingbar.gif',
@@ -1661,18 +1663,18 @@ let cards = [
     author: 'Darkrider0007',
     githubLink: 'https://github.com/Darkrider0007'
   },
-  { 
+  {
     artName: 'Rotating Cube',
     pageLink: './Art/BatistaDev1113/cube.html',
     imageLink: './Art/BatistaDev1113/rotatingCube.gif',
     author: 'batistaDev1113',
     githubLink: 'https://github.com/batistaDev1113'
-   },
-   {
-    artName: 'SharinganMangekyou', 
-    pageLink: './Art/SankN22/SharinganMangekyou.html', 
-    imageLink: './Art/SankN22/SharinganMangekyou.gif', 
-    author: 'SankN22', 
+  },
+  {
+    artName: 'SharinganMangekyou',
+    pageLink: './Art/SankN22/SharinganMangekyou.html',
+    imageLink: './Art/SankN22/SharinganMangekyou.gif',
+    author: 'SankN22',
     githubLink: 'https://github.com/SankN22'
   },
   {
@@ -1704,10 +1706,10 @@ let cards = [
     githubLink: 'https://github.com/hioan-dev'
   },
   {
-    artName: 'Wordspin', 
-    pageLink: './Art/trottiemcqueen/wordspin.html', 
-    imageLink: './Art/trottiemcqueen/wordspin.png', 
-    author: 'Trottie McQueen',
+    artName: 'Wordspin',
+    pageLink: './Art/trottiemcqueen/wordspin.html',
+    imageLink: './Art/trottiemcqueen/wordspin.png',
+    author: 'Trottie McQueen'
   },
   {
     artName: 'Wordspin',
@@ -1745,9 +1747,9 @@ let cards = [
     githubLink: 'https://github.com/vamshidhar-thonti'
   },
   {
-    artName: 'Running watch', 
-    pageLink: './Art/Pratyush-Dehury/index.html', 
-    imageLink: './Art/Pratyush-Dehury/wrist-watch.gif', 
+    artName: 'Running watch',
+    pageLink: './Art/Pratyush-Dehury/index.html',
+    imageLink: './Art/Pratyush-Dehury/wrist-watch.gif',
     author: 'Pratyush Dehury',
     githubLink: 'https://github.com/Pratyush-Dehury'
   },
@@ -1766,9 +1768,9 @@ let cards = [
     githubLink: 'https://github.com/sheefanaaz123'
   },
   {
-    artName: 'CUBE', 
-    pageLink: './Art/okaydivyansh/index.html', 
-    imageLink: './Art/okaydivyansh/cube.gif', 
+    artName: 'CUBE',
+    pageLink: './Art/okaydivyansh/index.html',
+    imageLink: './Art/okaydivyansh/cube.gif',
     author: 'Divyansh',
     githubLink: 'https://github.com/okaydivyansh'
   },
@@ -1885,8 +1887,14 @@ let cards = [
     author: 'Sai',
     githubLink: 'https://github.com/SaiAryan1784'
   },
+  {
+    artName: 'animation',
+    pageLink: './Art/hrishit/index.html',
+    imageLink: './Art/hrishit/animation.gif',
+    author: 'Hrishit',
+    githubLink: 'https://github.com/Hrishit-B'
+  }
 ];
-
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
@@ -1900,14 +1908,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 });
 
