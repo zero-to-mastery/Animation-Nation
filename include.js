@@ -2040,11 +2040,25 @@ let cards = [
     githubLink: 'https://github.com/Hrishit-B'
   },
   {
+    artName: 'Coffee Machine',
+    pageLink: './Art/shruti-sen2004/index.html',
+    imageLink: './Art/shruti-sen2004/coffee-machine.gif',
+    author: 'Shruti Sen',
+    githubLink: 'https://github.com/shruti-sen2004'
+  },
+  {
     artName: 'Bouncing Balls',
     pageLink: './Art/SamilAbud/index.html',
     imageLink: './Art/SamilAbud/bouncing-effect.gif',
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
+  },
+  {
+    artName: 'Solar System',
+    pageLink: './Art/Guransh_Deol/solar_system.html',
+    imageLink: './Art/Guransh_Deol/solar.gif',
+    author: 'Guransh Deol',
+    githubLink: 'https://github.com/guranshdeol'
   },
   {
     artName: 'Santa Run',
@@ -2073,6 +2087,12 @@ let cards = [
     imageLink: './Art/Code1705/Animated_Bow.gif', 
     author: 'Sikta Mondal', 
     githubLink: 'https://github.com/Code1705' 
+  {
+    artName: 'Twirling Spheres',
+    pageLink: './Art/ParzivalAFK/TwirlingSpheres.html',
+    imageLink: './Art/ParzivalAFK/TwirlingSpheres.gif',
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
   }
 ];
 
