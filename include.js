@@ -1934,6 +1934,13 @@ let cards = [
     githubLink: 'https://github.com/vinay-s36'
   },
   {
+    artName: 'Button Animation',
+    pageLink: './Art/vinay-s36/button.html',
+    imageLink: './Art/vinay-s36/button-animation.gif',
+    author: 'Vinay',
+    githubLink: 'https://github.com/vinay-s36'
+  },
+  {
     artName: 'Heart Loading...',
     pageLink: './Art/maidxn/index.html',
     imageLink: './Art/maidxn/heart-loading-animate.gif',
