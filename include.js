@@ -2066,7 +2066,16 @@ let cards = [
     imageLink: './Art/Loukas4/Circles.gif',
     author: 'Loukas',
     githubLink: 'https://github.com/Loukas4'
+  },
+  {
+    artName: 'Car Animation',
+    pageLink: './Art/Car Aminated/car.html',
+    imageLink: './Art/Car Aminated/Screenshot (502).png',
+    author: 'Ashish',
+    githubLink: 'https://github.com/ashish5433'
   }
+  
+
 ];
 
 // +--------------------------------------------------------------------------------+
