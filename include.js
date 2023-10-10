@@ -1,5 +1,13 @@
 let cards = [
   {
+    artName: 'cube-with-Letter-Animation',
+    pageLink: './Art/sufyanhabib/index.html',
+    imageLink: './Art/sufyanhabib/cube-with-Letter-Animation.gif',
+    author: 'sufyanhabib',
+    githubLink: 'https://github.com/sufyanhabib'
+  },
+
+  {
     artName: 'Circle Animation',
     pageLink: './Art/Sahil/index.html',
     imageLink: './Art/Sahil/animation.gif',
@@ -2032,20 +2040,55 @@ let cards = [
     githubLink: 'https://github.com/Hrishit-B'
   },
   {
+    artName: 'Coffee Machine',
+    pageLink: './Art/shruti-sen2004/index.html',
+    imageLink: './Art/shruti-sen2004/coffee-machine.gif',
+    author: 'Shruti Sen',
+    githubLink: 'https://github.com/shruti-sen2004'
+  },
+  {
     artName: 'Bouncing Balls',
     pageLink: './Art/SamilAbud/index.html',
     imageLink: './Art/SamilAbud/bouncing-effect.gif',
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
   },
+  
   {
-    artName: 'Half Spin Points',
-    pageLink: './Art/ParzivalAFK/HalfSpinPoints.html',
-    imageLink: './Art/ParzivalAFK/HalfSpinPoints.gif',
-    author: 'ParzivalAFK',
-    githubLink: 'https://github.com/parzivalafk'
+    artName: 'Solar System',
+    pageLink: './Art/Guransh_Deol/solar_system.html',
+    imageLink: './Art/Guransh_Deol/solar.gif',
+    author: 'Guransh Deol',
+    githubLink: 'https://github.com/guranshdeol'
   },
   {
+    artName: 'Santa Run',
+    pageLink: './Art/psqaure11/index.html',
+    imageLink: './Art/psqaure11/santa.gif',
+    author: 'Pragya',
+    githubLink: 'https://github.com/psqaure11'
+  },
+  {
+    artName: 'Marvels God of Mischeif LoKi ',
+    pageLink: './Art/Adhiraj/index.html',
+    imageLink: './Art/Adhiraj/lokiAnimation.gif',
+    author: 'Adhiraj',
+    githubLink: 'https://github.com/ADHIRAJ-12/'
+  },
+  {
+    artName: 'Circles Animation',
+    pageLink: './Art/Loukas4/AnimatedCircles.html',
+    imageLink: './Art/Loukas4/Circles.gif',
+    author: 'Loukas',
+    githubLink: 'https://github.com/Loukas4'
+  },
+  {
+    artName: 'Twirling Spheres',
+    pageLink: './Art/ParzivalAFK/TwirlingSpheres.html',
+    imageLink: './Art/ParzivalAFK/TwirlingSpheres.gif',
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
+  },{
     artName: 'Sun Animation',
     pageLink: './Art/ParzivalAFK/sun.html',
     imageLink: './Art/ParzivalAFK/sun.gif',
