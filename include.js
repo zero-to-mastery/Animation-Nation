@@ -1,5 +1,13 @@
 let cards = [
   {
+    artName: 'cube-with-Letter-Animation',
+    pageLink: './Art/sufyanhabib/index.html',
+    imageLink: './Art/sufyanhabib/cube-with-Letter-Animation.gif',
+    author: 'sufyanhabib',
+    githubLink: 'https://github.com/sufyanhabib'
+  },
+
+  {
     artName: 'Circle Animation',
     pageLink: './Art/Sahil/index.html',
     imageLink: './Art/Sahil/animation.gif',
@@ -2044,6 +2052,27 @@ let cards = [
     imageLink: './Art/VinayKokate22/blob.gif',
     author: 'Vinay Kokate',
     githubLink: 'https://github.com/VinayKokate22'
+  },
+  {
+    artName: 'Santa Run',
+    pageLink: './Art/psqaure11/index.html',
+    imageLink: './Art/psqaure11/santa.gif',
+    author: 'Pragya',
+    githubLink: 'https://github.com/psqaure11'
+  },
+  {
+    artName: 'Marvels God of Mischeif LoKi ',
+    pageLink: './Art/Adhiraj/index.html',
+    imageLink: './Art/Adhiraj/lokiAnimation.gif',
+    author: 'Adhiraj',
+    githubLink: 'https://github.com/ADHIRAJ-12/'
+  },
+  {
+    artName: 'Circles Animation',
+    pageLink: './Art/Loukas4/AnimatedCircles.html',
+    imageLink: './Art/Loukas4/Circles.gif',
+    author: 'Loukas',
+    githubLink: 'https://github.com/Loukas4'
   }
 ];
 
