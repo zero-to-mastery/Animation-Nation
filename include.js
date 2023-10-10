@@ -1,10 +1,19 @@
 let cards = [
   {
+    artName: 'cube-with-Letter-Animation',
+    pageLink: './Art/sufyanhabib/index.html',
+    imageLink: './Art/sufyanhabib/cube-with-Letter-Animation.gif',
+    author: 'sufyanhabib',
+    githubLink: 'https://github.com/sufyanhabib'
+  },
+ 
+  {
     artName: 'Circle Animation',
     pageLink: './Art/Sahil/index.html',
     imageLink: './Art/Sahil/animation.gif',
     author: 'Sahil',
     githubLink: 'https://github.com/borkarsahil'
+ 
   },
   {
     artName: 'Chess',
