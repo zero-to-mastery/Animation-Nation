@@ -2039,6 +2039,13 @@ let cards = [
     githubLink: 'https://github.com/samilabud'
   },
   {
+    artName: 'Santa Run',
+    pageLink: './Art/psqaure11/index.html',
+    imageLink: './Art/psqaure11/santa.gif',
+    author: 'Pragya',
+    githubLink: 'https://github.com/psqaure11'
+  },
+  {
     artName: 'Marvels God of Mischeif LoKi ',
     pageLink: './Art/Adhiraj/index.html',
     imageLink: './Art/Adhiraj/lokiAnimation.gif',
