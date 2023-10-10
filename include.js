@@ -7,11 +7,18 @@ let cards = [
     githubLink: 'https://github.com/borkarsahil'
   },
   {
-    artName: 'Chess',
-    pageLink: './Art/Ronit72/index.html',
-    imageLink: './Art/Ronit72/animation.gif',
-    author: 'Ronit',
-    githubLink: 'https://github.com/Ronit72'
+    artName: 'The Chakra',
+    pageLink: './Art/devanshumasodker/index.html',
+    imageLink: './Art/devanshumasodker/Chakra.PNG',
+    author: 'devanshumasodker',
+    githubLink: 'https://github.com/Devanshumasodker'
+  },
+   {
+    artName: 'The Chakra',
+    pageLink: './Art/Sahil/index.html',
+    imageLink: './Art/Sahil/animation.gif',
+    author: 'Sahil',
+    githubLink: 'https://github.com/borkarsahil'
   },
   {
     artName: 'Square-illusion',
