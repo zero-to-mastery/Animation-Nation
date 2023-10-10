@@ -1002,6 +1002,13 @@ let cards = [
     githubLink: 'https://github.com/BlueHeart0065'
   },
   {
+    artName: 'Pixar animation',
+    pageLink: './Art/BlueHeartsecond/pixar.html',
+    imageLink: './Art/BlueHeartsecond/pixar.gif',
+    author: 'Sahil',
+    githubLink: 'https://github.com/BlueHeart0065'
+  },
+  {
     artName: 'ZTM Cube',
     pageLink: './Art/williamstophef/index.html',
     imageLink: './Art/williamstophef/CubeArt.gif',
