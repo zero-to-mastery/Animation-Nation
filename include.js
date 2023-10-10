@@ -2044,6 +2044,13 @@ let cards = [
     imageLink: './Art/Adhiraj/lokiAnimation.gif',
     author: 'Adhiraj',
     githubLink: 'https://github.com/ADHIRAJ-12/'
+  },
+  {
+    artName: 'Circles Animation',
+    pageLink: './Art/Loukas4/AnimatedCircles.html',
+    imageLink: './Art/Loukas4/Circles.gif',
+    author: 'Loukas',
+    githubLink: 'https://github.com/Loukas4'
   }
 ];
 
