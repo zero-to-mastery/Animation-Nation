@@ -2037,6 +2037,13 @@ let cards = [
     imageLink: './Art/SamilAbud/bouncing-effect.gif',
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
+  },
+  {
+    artName: 'Blob',
+    pageLink: './Art/VinayKokate22/index.html',
+    imageLink: './Art/VinayKokate22/blob.gif',
+    author: 'Vinay Kokate',
+    githubLink: 'https://github.com/VinayKokate22'
   }
 ];
 
