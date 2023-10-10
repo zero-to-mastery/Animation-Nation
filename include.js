@@ -2075,6 +2075,13 @@ let cards = [
     githubLink: 'https://github.com/ADHIRAJ-12/'
   },
   {
+    artName: 'MovingTriangle',
+    pageLink: './Art/AkashCss/index.html',
+    imageLink: './Art/AkashCss/AkashCssGif.gif',
+    author: 'Akash',
+    githubLink: 'https://github.com/Akash-Jambulkar'
+  },
+  {
     artName: 'Circles Animation',
     pageLink: './Art/Loukas4/AnimatedCircles.html',
     imageLink: './Art/Loukas4/Circles.gif',
