@@ -2037,7 +2037,14 @@ let cards = [
     imageLink: './Art/SamilAbud/bouncing-effect.gif',
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
+  },
+    artName: 'Spacecraft', 
+    pageLink: './Art/manuelachamoso/index.html', 
+    imageLink: './Art/manuelachamoso/space.gif',
+    author: 'Manuela Chamoso', 
+    githubLink: 'https://github.com/manuelachamoso/'
   }
+];
 ];
 
 // +--------------------------------------------------------------------------------+
