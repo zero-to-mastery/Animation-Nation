@@ -2088,10 +2088,18 @@ let cards = [
     imageLink: './Art/ParzivalAFK/TwirlingSpheres.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
-  },{
+  },
+  {
     artName: 'Sun Animation',
     pageLink: './Art/ParzivalAFK/sun.html',
     imageLink: './Art/ParzivalAFK/sun.gif',
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
+  },
+  {
+    artName: 'TargetLoadingBothColors',
+    pageLink: './Art/ParzivalAFK/TargetLoadingBothColors.html',
+    imageLink: './Art/ParzivalAFK/TargetLoadingBothColors.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
   }
