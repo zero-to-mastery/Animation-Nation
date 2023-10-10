@@ -2037,6 +2037,13 @@ let cards = [
     imageLink: './Art/SamilAbud/bouncing-effect.gif',
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
+  },
+  {
+    artName: 'Marvels God of Mischeif LoKi ',
+    pageLink: './Art/Adhiraj/index.html',
+    imageLink: './Art/Adhiraj/lokiAnimation.gif',
+    author: 'Adhiraj',
+    githubLink: 'https://github.com/ADHIRAJ-12/'
   }
 ];
 
