@@ -67,7 +67,9 @@ body {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(calc(-40vh + 50px)); /* Adjust to stop at the container */
+    transform: translateY(
+      calc(-40vh + 50px)
+    ); /* Adjust to stop at the container */
   }
   100% {
     transform: translateY(calc(-80vh + 50px));
