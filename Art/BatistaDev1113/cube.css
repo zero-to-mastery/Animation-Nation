@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  perspective: 1200px;
+  background-color: bisque;
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 5s linear infinite;
+}
+
+.face {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #333;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.face.front {
+  background-color: red;
+}
+.face.right {
+  background-color: blue;
+}
+.face.left {
+  background-color: green;
+}
+.face.back {
+  background-color: yellow;
+}
+.face.bottom {
+  background-color: purple;
+}
+.face.top {
+  background-color: aqua;
+}
+.front {
+  transform: translateZ(50px);
+}
+.back {
+  transform: rotateY(180deg) translateZ(50px);
+}
+.right {
+  transform: rotateY(90deg) translateZ(50px);
+}
+.left {
+  transform: rotateY(-90deg) translateZ(50px);
+}
+.top {
+  transform: rotateX(90deg) translateZ(50px);
+}
+.bottom {
+  transform: rotateX(-90deg) translateZ(50px);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg) rotateX(10deg);
+  }
+  25% {
+    transform: rotateY(180deg) rotateX(90deg);
+  }
+  75% {
+    transform: rotateX(90deg) rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(360deg) rotate3d(180deg);
+  }
+}

@@ -1,0 +1,28 @@
+div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(211, 127, 110);
+  translate: 50px 50px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-color: rgb(211, 127, 110);
+  }
+  25% {
+    background-color: rgb(238, 238, 17);
+  }
+  50% {
+    background-color: rgb(77, 77, 187);
+  }
+  75% {
+    background-color: rgb(36, 155, 166);
+  }
+  100% {
+    background-color: rgb(211, 127, 110);
+  }
+}
