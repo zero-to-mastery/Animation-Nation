@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.baloon {
+  display: inline-block;
+  width: 120px;
+  height: 145px;
+  background: hsl(215, 50%, 65%);
+  border-radius: 80%;
+  position: relative;
+  margin: 20px 30px;
+}
+
+.baloon .base {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid hsl(215, 50%, 50%);
+  position: relative;
+  top: 130px;
+  left: 45px;
+}
+
+.baloon .tail {
+  width: 2px;
+  height: 100px;
+  background-color: black;
+  position: relative;
+  top: 125px;
+  left: 58px;
+}
+
+.animation-one {
+  animation: balloon-one 4s ease-in-out infinite;
+}
+
+.animation-two {
+  animation: balloon-two 4s ease-in-out infinite;
+}
+
+.animation-three{
+  animation: balloon-one 4s ease-in-out infinite;
+}
+
+@keyframes balloon-one {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-100px) rotate(50deg);
+  }
+}
+
+@keyframes balloon-two {
+  0%, 100% {
+    transform: translateY(-100px) rotate(-50deg);
+  }
+  50% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
