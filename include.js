@@ -2066,7 +2066,14 @@ let cards = [
     imageLink: './Art/Loukas4/Circles.gif',
     author: 'Loukas',
     githubLink: 'https://github.com/Loukas4'
-  }
+  },
+ {
+    artName: 'Dragon Loading Animation',
+    pageLink: './Art/AnkitaSikdar005/index.html',
+    imageLink: './Art/AnkitaSikdar005/animation gif.gif',
+    author: 'AnkitaSikdar005',
+    githubLink: 'https://github.com/AnkitaSikdar005'
+  } 
 ];
 
 // +--------------------------------------------------------------------------------+
