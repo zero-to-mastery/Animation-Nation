@@ -1,5 +1,5 @@
 @keyframes rotateAndChangeColor {
-  0% {
+  0%, 100% {
       transform: rotate(0deg);
       background-color: #FFD700;
   }
@@ -15,9 +15,17 @@
       transform: rotate(270deg);
       background-color: #4169E1;
   }
+}
+
+@keyframes snakeMove {
+  0% {
+      transform: translateX(0);
+  }
+  50% {
+      transform: translateX(200px);
+  }
   100% {
-      transform: rotate(360deg);
-      background-color: #FFD700;
+      transform: translateX(0);
   }
 }
 
@@ -30,8 +38,49 @@ body {
   background-color: #87CEEB;
 }
 
+.container {
+  position: relative;
+}
+
 .square {
   width: 100px;
   height: 100px;
+  background-color: #FFD700;
+  border-radius: 10px;
   animation: rotateAndChangeColor 8s linear infinite;
+  position: absolute;
+}
+
+.snake {
+  width: 150px;
+  height: 20px;
+  background-color: #4CAF50;
+  animation: snakeMove 4s linear infinite;
+  position: absolute;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-200px);
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #87ceeb;
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  background-color: #ff6347;
+  border-radius: 50%;
+  animation: bounce 2s ease-in-out infinite;
 }
