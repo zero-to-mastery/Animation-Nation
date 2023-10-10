@@ -1391,7 +1391,15 @@ let cards = [
     imageLink: './Art/ParzivalAFK/sun.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
+  },
+  {
+    artName: 'Mouse Hover Glow',
+    pageLink: './Art/vivek/MouseHoverGlow.html',
+    imageLink: './Art/vivek/mouseHoverGlow.gif',
+    author: 'vivekBoii',
+    githubLink: 'https://github.com/vivekBoii'
   }
+  
 ];
 
 // +--------------------------------------------------------------------------------+
