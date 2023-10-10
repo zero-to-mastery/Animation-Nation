@@ -2037,7 +2037,14 @@ let cards = [
     imageLink: './Art/SamilAbud/bouncing-effect.gif',
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
-  }
+  },
+  {
+    artName: 'Solar System',
+    pageLink: './Art/Guransh_Deol/solar_system.html',
+    imageLink: './Art/Guransh_Deol/solar.gif',
+    author: 'Guransh Deol',
+    githubLink: 'https://github.com/guranshdeol'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
