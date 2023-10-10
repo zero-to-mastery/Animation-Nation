@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: gray;
+}
+.box {
+  position: relative;
+  border-radius: 10px;
+  background-color: #f96167;
+  height: 580px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#weathericon {
+  height: 50%;
+  display: block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  animation: scale 3s linear infinite alternate;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+.info {
+  height: 50%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.wave {
+  position: absolute;
+  border-radius: 50%;
+  animation: rotate-animation 10s infinite linear;
+}
+.one {
+  width: 200%;
+  height: 120%;
+  background-color: #fbedb2;
+  bottom: -370px;
+  left: -40px;
+  transform: rotate(360deg);
+}
+.two {
+  width: 170%;
+  height: 120%;
+  z-index: 3;
+  background-color: #f9e795;
+  bottom: -340px;
+}
+.three {
+  width: 180%;
+  height: 100%;
+  background-color: #f9ecb3;
+  bottom: -280px;
+  right: -40px;
+}
+@keyframes rotate-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

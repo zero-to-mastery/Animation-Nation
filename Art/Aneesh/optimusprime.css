@@ -1,0 +1,1703 @@
+#transform {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+h1 {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  opacity: 0.25;
+  margin: 0;
+}
+
+[for='transform'] {
+  color: transparent;
+  position: fixed;
+  inset: 0;
+  color: transparent;
+  font-weight: bold;
+  height: 100vh;
+  width: 100vw;
+  cursor: pointer;
+  transform: translate3d(0, 0, 500vmin);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  z-index: 2;
+}
+
+body > [for='transform'] span {
+  display: block;
+}
+
+:root:has([for='transform'] span:nth-of-type(1):hover) {
+  --truck-turn: -10deg;
+  --head-turn: -20deg;
+}
+:root:has([for='transform'] span:nth-of-type(2):hover) {
+  --truck-turn: -5deg;
+  --head-turn: -10deg;
+}
+:root:has([for='transform'] span:nth-of-type(3):hover) {
+  --truck-turn: 0deg;
+  --head-turn: 0deg;
+}
+:root:has([for='transform'] span:nth-of-type(4):hover) {
+  --truck-turn: 5deg;
+  --head-turn: 10deg;
+}
+:root:has([for='transform'] span:nth-of-type(5):hover) {
+  --truck-turn: 10deg;
+  --head-turn: 20deg;
+}
+
+.optimus__head-reactor {
+  height: 100%;
+  width: 100%;
+}
+:root:has(#transform:checked) .optimus__head-reactor {
+  transform: rotateY(var(--head-turn, 0deg));
+  transition: transform 0.125s;
+}
+
+:root:not(:has(#transform:checked)) .scene-turner {
+  transform: rotateZ(var(--truck-turn, 0deg));
+  transition: transform 0.125s;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+  touch-action: none;
+}
+
+:root {
+  --size: 4;
+  --optimus-rotation-y: -24;
+  --optimus-rotation-x: -32;
+  /* Optimus Colors */
+
+  /* Transition speed */
+  --transition-speed: 0.2s;
+  /* Colors */
+  --blue-1: hsl(215, 100%, 45%);
+  --blue-2: hsl(215, 100%, 40%);
+  --blue-3: hsl(215, 100%, 35%);
+  --blue-4: hsl(215, 100%, 30%);
+  --blue-5: hsl(215, 100%, 25%);
+  --grey-1: hsl(228, 3%, 65%);
+  --grey-2: hsl(228, 3%, 60%);
+  --grey-3: hsl(228, 3%, 55%);
+  --grey-4: hsl(228, 3%, 50%);
+  --grey-5: hsl(228, 3%, 45%);
+  --red-1: hsl(0, 74%, 50%);
+  --red-2: hsl(0, 74%, 45%);
+  --red-3: hsl(0, 74%, 40%);
+  --red-4: hsl(0, 74%, 35%);
+  --red-5: hsl(0, 74%, 30%);
+  --eye-blue: hsl(210 100% 70%);
+  --orange: hsl(42, 99%, 45%);
+  /* Sizing and random stuff */
+  --size: 5;
+  --cab-width: calc(var(--size) * 3.6vmin);
+  --cab-multiplier: 3.6;
+  --torso-depth: calc(var(--size) * 2.6);
+  --core-height: calc((var(--size) * 1 / 3) * 1);
+  --chest-depth: calc(var(--torso-depth) * 0.6);
+  --fist-dimension: calc(
+    (var(--size) * var(--cab-multiplier) - var(--size)) / 2
+  );
+  --fist-width: calc(
+    ((var(--size) * var(--cab-multiplier) - var(--size)) / 2) * 1vmin
+  );
+  --grill-height: calc(((var(--size) / 3) * 3.5) * 1vmin);
+  --cab-height: calc(var(--grill-height) * 1.4);
+  --wheel-depth: calc(var(--size) * 0.4);
+  --leg-height: calc(var(--size) * 6.4);
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background: hsl(210 20% 88%);
+}
+
+[for='speed'] {
+  cursor: pointer;
+  position: fixed;
+  bottom: 2rem;
+  right: 2.24rem;
+  z-index: 10;
+  font-family: sans-serif, system-ui;
+  transform: translate3d(0, 0, 500vmin);
+}
+
+#speed {
+  position: fixed;
+  bottom: 2.2rem;
+  right: 1rem;
+  z-index: 10;
+  transform: translate3d(0, 0, 500vmin);
+}
+
+:root:has(#speed:checked) {
+  --transition-speed: 2s;
+}
+
+#speed:checked ~ .scene-jumper {
+  --transition-speed: 2s;
+}
+
+.scene {
+  position: relative;
+}
+
+.optimus * {
+  position: absolute;
+}
+
+/* Remember: The core is based on 3.5 x 6 so percentages can base off that. */
+
+.optimus__core {
+  width: calc(var(--size) * 1vmin);
+  aspect-ratio: 3 / 1;
+  translate: -50% -50%;
+}
+
+.core {
+  height: 100%;
+  width: 100%;
+}
+
+.optimus__torso {
+  width: 100%;
+  height: 400%;
+  bottom: 50%;
+}
+
+.optimus__grill {
+  --color: var(--grey-1);
+  width: 100%;
+  bottom: 100%;
+  height: var(--grill-height);
+  --depth: calc(var(--torso-depth) * 1);
+}
+.optimus__grill .cuboid {
+  /*  transform: translate3d(0, 0, calc(var(--torso-depth) * 0.1vmin));*/
+}
+.optimus__grill .cuboid__side:nth-of-type(6),
+.optimus__grill .cuboid__side:nth-of-type(5) {
+  background: repeating-linear-gradient(
+    var(--grey-1) 0 10%,
+    var(--grey-5) 15% 15%
+  );
+}
+
+.optimus__top {
+  width: var(--cab-width);
+  height: var(--cab-height);
+  bottom: 100%;
+  left: 50%;
+  translate: -50% 0;
+}
+
+@keyframes breathe {
+  50% {
+    transform: translateY(-2%);
+  }
+}
+
+.reference-box {
+  height: 100%;
+  width: 100%;
+  --depth: var(--torso-depth);
+  --color: hsl(0 100% 50% / 0.25);
+}
+
+.reference-box .cuboid__side {
+  border: 1px solid white;
+}
+
+.exhaust {
+  height: 200%;
+  bottom: 10%;
+  width: calc(var(--fist-width) * 0.2);
+  --depth: calc(var(--fist-dimension) * 0.2);
+  --color: var(--grey-3);
+}
+.arm--right .exhaust {
+  left: 100%;
+}
+.arm--left .exhaust {
+  right: 100%;
+}
+.chest {
+  height: 100%;
+  width: 100%;
+  transform: translate3d(0, 0, calc(var(--torso-depth) * 0.1vmin));
+  --depth: var(--chest-depth);
+  --color: var(--red-1);
+}
+
+.chest > .cuboid > .cuboid__side:nth-of-type(1) {
+  --h-stop-one: calc(50% - (var(--fist-width) * 0.5));
+  --h-stop-two: calc(50% + (var(--fist-width) * 0.5));
+  --v-stop-one: calc(var(--torso-depth) * 0.1vmin);
+  --v-stop-two: calc(100% - (var(--torso-depth) * 0.1vmin));
+  filter: none;
+  background: linear-gradient(
+      90deg,
+      var(--red-1) 0 var(--h-stop-one),
+      transparent var(--h-stop-one) var(--h-stop-two),
+      var(--red-1) var(--h-stop-two)
+    ),
+    linear-gradient(
+      var(--red-1) 0 var(--v-stop-one),
+      transparent var(--v-stop-one) var(--v-stop-two),
+      var(--red-1) var(--v-stop-two)
+    );
+}
+
+.chest > .cuboid > .cuboid__side:nth-of-type(2),
+.chest > .cuboid > .cuboid__side:nth-of-type(4) {
+  background: linear-gradient(var(--red-1) 80%, var(--grey-1) 80%);
+}
+
+.chest > .cuboid > .cuboid__side:nth-of-type(2):after,
+.chest > .cuboid > .cuboid__side:nth-of-type(4):after {
+  content: '';
+  height: 60%;
+  left: 4%;
+  top: 10%;
+  position: absolute;
+  background: var(--blue-5);
+  border: calc(var(--torso-depth) * 0.05vmin) solid var(--grey-3);
+}
+
+.logo {
+  width: 75%;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  opacity: 0.8;
+}
+
+.hood {
+  height: 20%;
+  width: 100%;
+  bottom: 0;
+  --depth: calc(var(--torso-depth) * 0.1);
+  --color: var(--grey-1);
+  transform: translate3d(0, 0, calc(var(--torso-depth) * 0.45vmin));
+}
+.cab {
+  height: 80%;
+  width: 100%;
+  top: 0;
+  --depth: calc(var(--torso-depth) * 0.1);
+  --color: var(--red-1);
+  transform: translate3d(0, 0, calc(var(--torso-depth) * 0.45vmin));
+}
+
+.cab-light {
+  height: 16%;
+  width: 20%;
+  bottom: 0%;
+  transform: translate3d(0, 0, calc(var(--torso-depth) * 0.05vmin));
+  --depth: calc(var(--torso-depth) * 0.1);
+  --color: var(--red-1);
+}
+
+.cab-light .cuboid__side:nth-of-type(3) {
+  background: radial-gradient(circle at 25% center, white 16%, transparent 16%),
+    radial-gradient(circle at 75% center, white 16%, transparent 16%),
+    var(--red-1);
+}
+
+.cab-light--left {
+  left: 10%;
+}
+.cab-light--right {
+  right: 10%;
+}
+
+.cab .cuboid .cuboid__side:nth-of-type(2),
+.cab .cuboid__side:nth-of-type(4) {
+  filter: none !important;
+}
+.cab .cuboid__side:nth-of-type(2):after,
+.cab .cuboid__side:nth-of-type(4):after {
+  content: '';
+  position: absolute;
+  height: 40%;
+  left: 50%;
+  width: 80%;
+  top: 26%;
+  background: var(--grey-2);
+  transform-origin: 0 50%;
+  transform: rotateY(-70deg);
+}
+.cab .cuboid__side:nth-of-type(4):after {
+  transform: rotateY(70deg);
+}
+
+.cab .cuboid__side:nth-of-type(5):after,
+.cab .cuboid__side:nth-of-type(5):before {
+  position: absolute;
+  content: '';
+  width: 40%;
+  height: 70%;
+  top: 50%;
+  translate: 0 -50%;
+  background: var(--blue-5);
+  border: calc(var(--cab-height) * 0.05) solid var(--grey-1);
+}
+.cab .cuboid__side:nth-of-type(5):after {
+  left: 55%;
+}
+.cab .cuboid__side:nth-of-type(5):before {
+  background: linear-gradient(
+      -40deg,
+      transparent 0 50%,
+      hsl(0 0% 100% / 0.75) 50% 70%,
+      transparent 70% 80%,
+      hsl(0 0% 100% / 0.75) 80% 90%,
+      transparent 90%
+    ),
+    var(--blue-5);
+  right: 55%;
+}
+
+.cab .cuboid__side:nth-of-type(6) {
+  display: none;
+}
+
+.optimus__spine {
+  height: 100%;
+  width: calc(100% - (2 * var(--fist-width)));
+  left: 50%;
+  translate: -50% 0;
+  transform: translate3d(0, 0, calc(var(--torso-depth) * -0.35vmin));
+  --depth: calc(var(--torso-depth) * 0.3);
+  --color: var(--red-2);
+}
+.optimus__head {
+  width: var(--fist-width);
+  height: var(--cab-height);
+  left: 50%;
+  translate: -50% 0;
+  top: 0;
+}
+
+.optimus__helmet {
+  height: 100%;
+  width: 100%;
+}
+
+.optimus__neck {
+  bottom: 0;
+  left: 50%;
+  height: 12%;
+  width: 50%;
+  translate: -50% 0;
+  --depth: calc(var(--head-depth) * 0.5);
+  --color: var(--grey-4);
+}
+
+.optimus__face {
+  bottom: 12%;
+  width: 60%;
+  height: 46%;
+  left: 50%;
+  translate: -50% 0;
+  --depth: calc(var(--head-depth) * 0.5);
+  --color: var(--grey-5);
+}
+
+.optimus__face .cuboid__side:nth-of-type(5):after {
+  content: '';
+  height: 14%;
+  left: 50%;
+  translate: -50% -50%;
+  background: linear-gradient(
+    90deg,
+    var(--eye-blue) 0 40%,
+    transparent 20% 60%,
+    var(--eye-blue) 60%
+  );
+  top: 20%;
+  position: absolute;
+  width: 80%;
+}
+
+.optimus__mouth {
+  top: 58%;
+  width: 60%;
+  height: 32%;
+  left: 50%;
+  translate: -50% 0;
+  transform: translate3d(0, 0, calc(var(--head-depth) * 0.3vmin));
+  --depth: calc(var(--head-depth) * 0.2);
+  --color: var(--grey-2);
+}
+
+.optimus__mouth .cuboid__side:nth-of-type(5) {
+  background: linear-gradient(-90deg, var(--grey-2) 50%, var(--grey-4) 50.5%);
+}
+
+.optimus__ear {
+  height: 80%;
+  top: 1%;
+  width: 10%;
+  --depth: calc(var(--head-depth) * 0.2);
+  --color: var(--blue-4);
+}
+
+.optimus__ear--left {
+  left: 0%;
+}
+
+.optimus__ear--right {
+  right: 0%;
+}
+
+.optimus__mohawk {
+  width: 25%;
+  height: 25%;
+  left: 50%;
+  translate: -50% 0;
+  bottom: 58%;
+
+  --depth: calc(var(--head-depth) * 1);
+  --color: var(--blue-2);
+}
+
+.optimus__helmet-side-guard {
+  width: 100%;
+  height: 100%;
+  transform: translate3d(0, 0, calc(var(--head-depth) * -0.15vmin));
+  --depth: calc(var(--head-depth) * 0.6);
+  --color: var(--blue-3);
+}
+.optimus__helmet-mouth-guard {
+  width: 100%;
+  bottom: 0;
+  height: 50%;
+  --depth: calc(var(--head-depth) * 1);
+  --color: var(--blue-4);
+}
+
+.optimus__helmet-back {
+  width: 70%;
+  bottom: 12%;
+  height: 58%;
+  left: 50%;
+  translate: -50% 0;
+  transform: translate3d(0, 0, calc(var(--head-depth) * -0.36vmin));
+  --depth: calc(var(--head-depth) * 0.2);
+  --color: var(--blue-3);
+}
+
+.optimus__helmet-top {
+  height: 12%;
+  width: 70%;
+  left: 50%;
+  translate: -50% 0;
+  bottom: 58%;
+  --depth: calc(var(--head-depth) * 0.8);
+  --color: var(--blue-1);
+}
+
+.optimus__helmet-side {
+  bottom: 12%;
+  width: 10%;
+  height: 50%;
+}
+.optimus__helmet-side--left {
+  left: 10%;
+}
+.optimus__helmet-side--right {
+  right: 10%;
+}
+
+.optimus__head {
+  --head-depth: calc(var(--torso-depth) * 0.4);
+}
+.optimus__head .reference-box {
+  --depth: calc(var(--torso-depth) * 0.4);
+}
+
+/* Arms are interesting, gotta be rotate off of a spindle etc. */
+
+.arms {
+  height: 100%;
+  width: 100%;
+  transform: translate3d(0, 0, calc(var(--torso-depth) * 0.1vmin));
+}
+.arm {
+  height: 20%;
+  width: var(--fist-width);
+  top: calc(var(--fist-width) * 0.5);
+}
+
+.arm-bar {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.arm-cube {
+  height: 100%;
+  width: 100%;
+  --depth: calc(var(--torso-depth) * 0.1);
+  --color: var(--grey-4);
+}
+
+.arm--right .arm-bar {
+  left: 0;
+}
+
+.arm--left .arm-bar {
+  right: 0;
+}
+
+.shoulder-port {
+  width: var(--fist-width);
+  aspect-ratio: 1;
+  top: 50%;
+  /*  translate: calc(var(--torso-depth) * -0.1vmin) -50%;*/
+  transform-origin: 0 50%;
+}
+
+.shoulder-gesture {
+  height: 100%;
+  width: 100%;
+}
+
+.arm--right .shoulder-port {
+  left: 100%;
+}
+
+.arm--left .shoulder-port {
+  right: 100%;
+}
+
+.shoulder {
+  height: 100%;
+  width: 100%;
+  --depth: var(--fist-dimension);
+  --color: var(--red-1);
+}
+
+.bicep {
+  width: 100%;
+  height: calc(var(--cab-height) + var(--grill-height));
+  top: 0%;
+  left: 50%;
+  translate: -50% 0;
+}
+
+.bicep__strut {
+  --depth: calc(var(--fist-dimension) * 0.4);
+  --color: var(--grey-2);
+  width: 40%;
+  height: calc(100% - (var(--fist-width) * 0.6));
+  left: 50%;
+  top: calc(var(--fist-width) * 0.2);
+  translate: -50% 0;
+}
+
+.arm--right .forearm {
+  right: 0;
+}
+
+.arm--left .forearm {
+  left: 0;
+}
+
+.forearm {
+  height: calc(var(--grill-height) * 1);
+  bottom: 0;
+  width: calc((var(--torso-depth) * 0.7vmin) + var(--fist-width));
+}
+
+:is(.forearm-cradle, .forearm-gesture) {
+  height: 100%;
+  width: 100%;
+}
+
+.forearm-cap {
+  width: 18%;
+  height: 100%;
+  left: 62%;
+  --depth: calc(var(--fist-dimension) * 0.75);
+  --color: var(--red-5);
+}
+
+.forearm-shell {
+  width: 90%;
+  height: 100%;
+  right: 0;
+  z-index: 2;
+  --color: var(--red-1);
+  --depth: var(--fist-dimension);
+}
+
+.forearm-shell .cuboid__side:nth-of-type(4) {
+  display: none;
+}
+
+.forearm-shell .cuboid__side:nth-of-type(3) {
+  mask: linear-gradient(90deg, white 10%, transparent 10% 58%, white 58%);
+}
+
+.forearm-shell .cuboid__side:nth-of-type(6),
+.forearm-shell .cuboid__side:nth-of-type(5) {
+  clip-path: polygon(
+    0 0,
+    0% 100%,
+    12% 100%,
+    16% 55%,
+    54% 55%,
+    58% 100%,
+    100% 100%,
+    100% 0
+  );
+}
+.forearm-shell .cuboid__side:nth-of-type(6) {
+  --b: 0.7;
+  clip-path: polygon(
+    100% 0,
+    100% 100%,
+    88% 100%,
+    84% 55%,
+    46% 55%,
+    42% 100%,
+    0% 100%,
+    0 0
+  );
+}
+
+.forearm-strut {
+  width: 70%;
+  height: calc(var(--fist-width) * 0.32);
+  right: calc(var(--fist-width) * 0.5);
+  top: 50%;
+  translate: 0 -50%;
+  --depth: calc(var(--fist-dimension) * 0.32);
+  --color: var(--grey-3);
+}
+
+.fist {
+  height: 100%;
+  left: 10%;
+  width: 10%;
+  top: 0%;
+  transform-origin: 0 50%;
+  --depth: var(--fist-dimension);
+  --color: var(--red-2);
+}
+
+.fist > .cuboid > .cuboid__side:nth-of-type(3) {
+  --b: 1.1;
+  background: var(--red-1);
+}
+
+.fist > .cuboid > .cuboid__side:nth-of-type(2):after {
+  content: '';
+  position: absolute;
+  height: 30%;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  border: calc(var(--cab-height) * 0.05) solid var(--grey-1);
+}
+
+.hand {
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  aspect-ratio: 1;
+  translate: -50% -50%;
+  rotate: -20deg;
+  transform: translate3d(0, 0, calc(var(--fist-dimension) * -0.25vmin));
+  --depth: calc(var(--fist-dimension) * 0.5);
+  --color: var(--blue-5);
+}
+.arm--left .hand {
+  rotate: 20deg;
+}
+
+/* Lower half things */
+
+.core--lower {
+  width: var(--cab-width);
+  height: 100%;
+  translate: -50% 0;
+  left: 50%;
+}
+
+/*2.5x8*/
+.optimus__hips {
+  width: 100%;
+  height: 100%;
+}
+
+.hip {
+  position: absolute;
+  width: var(--fist-width);
+  aspect-ratio: 1;
+  bottom: 50%;
+}
+
+.optimus__axle {
+  height: 100%;
+  width: calc(100% - (var(--size) * 0.4vmin));
+  background: yellow;
+  left: 50%;
+  translate: -50% 0;
+  --depth: var(--core-height);
+  --color: var(--grey-4);
+}
+
+.hip__grill {
+  height: calc(var(--core-height) * 1vmin);
+  width: 100%;
+  transform: translate3d(0, 0, calc(var(--core-height) * 0.5vmin));
+  top: 0;
+  --depth: calc(var(--core-height) * 2);
+  --color: var(--grey-4);
+}
+
+.hip__grill .cuboid__side:nth-of-type(1):after {
+  content: '';
+  height: 25%;
+  width: 25%;
+  background: var(--orange);
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+}
+.hip--left .hip__grill .cuboid__side:nth-of-type(1):after {
+  left: 10%;
+}
+.hip--right .hip__grill .cuboid__side:nth-of-type(1):after {
+  right: 10%;
+}
+
+.hip__flexor {
+  top: calc(var(--core-height) * 1vmin);
+  height: calc(var(--core-height) * 0.9vmin);
+  transform: translate3d(0, 0, calc(var(--core-height) * 0.5vmin));
+  width: 100%;
+  --depth: calc(var(--core-height) * 2);
+  --color: var(--red-4);
+}
+
+.hip__flexor .cuboid__side:nth-of-type(2),
+.hip__flexor .cuboid__side:nth-of-type(4) {
+  background: var(--grey-4);
+}
+
+.hip__flexor-low {
+  top: calc(var(--core-height) * 1vmin);
+  width: 60%;
+  bottom: 0;
+  --depth: var(--core-height);
+  --color: var(--red-4);
+}
+.hip--right .hip__flexor-low {
+  left: 0;
+}
+.hip--left .hip__flexor-low {
+  right: 0;
+}
+
+/*.hip--right .hip__flexor .cuboid__side:nth-of-type(2) {
+    background: linear-gradient(var(--red-4) 0 30%, transparent 30%);
+  }
+  .hip--right .hip__flexor .cuboid__side:nth-of-type(5) {
+    clip-path: polygon(0 0, 100% 0%, 100% 20%, 60% 100%, 0% 100%);
+  }*/
+
+.hip--right {
+  right: 0;
+}
+
+.hip--left {
+  left: 0;
+}
+
+.holster-wheel {
+  width: calc(var(--size) * 1.25vmin);
+  aspect-ratio: 1;
+  top: calc(var(--core-height) * 0.5vmin);
+  transform: translateY(0%) rotateY(90deg);
+  --depth: var(--wheel-depth);
+}
+
+.holster-wheel--rear-one {
+  top: 40%;
+}
+.holster-wheel--rear-two {
+  top: 75%;
+}
+
+.wheel {
+  transform: translate3d(0, 0, calc(var(--depth) * 0.5vmin));
+  height: 100%;
+  width: 100%;
+}
+.leg__bottom .holster-wheel--left .wheel {
+  transform: translate3d(0, 0, calc(var(--depth) * 1vmin));
+}
+.leg__bottom .holster-wheel--right .wheel {
+  transform: translate3d(0, 0, calc(var(--depth) * -0vmin));
+}
+.wheel__side {
+  height: 100%;
+  width: 100%;
+  background: black;
+  border-radius: 50%;
+  transform: translate3d(0, 0, calc((var(--depth) * -0.1vmin) * var(--index)));
+}
+
+.wheel:before,
+.wheel:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(
+      circle at center,
+      var(--grey-1) 30%,
+      transparent 30.5%
+    ),
+    radial-gradient(circle at center, silver 40%, black 40.5%) black;
+}
+
+.wheel:before {
+  transform: translate3d(0, 0, calc(var(--depth) * -1vmin));
+}
+
+.holster-wheel--right {
+  left: 0;
+  translate: -50% -50%;
+}
+
+.holster-wheel--left {
+  right: 0;
+  translate: 50% -50%;
+}
+
+.optimus__leg {
+  transform-origin: 50% 0;
+  height: calc(var(--leg-height) * 1vmin);
+  width: 50%;
+}
+.optimus__leg--left {
+  left: 0;
+}
+.optimus__leg--right {
+  right: 0;
+}
+/* Upper half things */
+.optimus__grill-hinge {
+  width: calc(var(--size) * 1vmin);
+  height: 100%;
+  translate: -50% 0;
+  transform-origin: 50% 50%;
+  left: 50%;
+}
+
+.optimus__plate {
+  width: 100%;
+  height: 200%;
+  transform: translate3d(
+      0,
+      0,
+      calc((var(--torso-depth) * 0.45vmin) - (var(--core-height) * 0.5vmin))
+    )
+    rotateX(0deg);
+  --depth: calc(var(--core-height) * 2);
+  --color: var(--grey-1);
+}
+
+.optimus__plate .cuboid__side:nth-of-type(5):after {
+  content: 'JH3YY';
+  font-family: monospace;
+  font-weight: bold;
+  padding: calc(var(--core-height) * 0.2vmin);
+  background: var(--blue-5);
+  font-size: calc(var(--size) * 0.25vmin);
+  color: var(--orange);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+.tank {
+  height: 24%;
+  width: calc(var(--wheel-depth) * 1vmin);
+  top: 0;
+  translate: 0 -25%;
+  --depth: calc(var(--wheel-depth) * 1);
+  --color: var(--grey-4);
+}
+
+.tank .cuboid__side:nth-of-type(2),
+.tank .cuboid__side:nth-of-type(4) {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--grey-3) 0 15%,
+    var(--grey-5) 15% 20%
+  );
+}
+.optimus__leg--left .tank {
+  right: 100%;
+}
+.optimus__leg--right .tank {
+  left: 100%;
+}
+
+.boot {
+  width: 100%;
+  height: 16%;
+  bottom: 0;
+  left: 50%;
+  translate: -50% 0;
+  --depth: calc(var(--size) * 1);
+  --color: var(--blue-5);
+}
+.foot {
+  height: 100%;
+  width: 100%;
+  transform: translate3d(0, 0, calc(var(--size) * -0.5vmin));
+}
+
+.optimus__belt {
+  width: calc(100% - (var(--wheel-depth) * 1.5vmin));
+  height: 260%;
+  left: 50%;
+  translate: -50% 0;
+  transform: translate3d(0, 0, calc(var(--size) * -0.5vmin));
+  --depth: calc(var(--size) * 1);
+  --color: var(--grey-4);
+}
+
+.belt__segments {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 2fr 1fr;
+  gap: calc(var(--core-height) * 0.25vmin);
+  padding: calc(var(--core-height) * 0.5vmin);
+}
+
+.belt__segment {
+  position: static;
+  background: var(--orange);
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+.belt__segment:nth-of-type(2) {
+  grid-row: span 2;
+}
+.belt__segment:nth-of-type(4) {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 40%);
+}
+.belt__segment:nth-of-type(5) {
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 100%);
+}
+
+/*.optimus__leg--right .foot {
+    translate: calc(-50% - (var(--wheel-depth) * -0.25vmin)) 0;
+  }
+  .optimus__leg--left .foot {
+    translate: calc(-50% - (var(--wheel-depth) * 0.25vmin)) 0;
+  }*/
+
+.wheel-arch {
+  height: 75%;
+  width: 100%;
+  top: 20%;
+  transform: translate3d(0, 0, calc(var(--size) * -0.65vmin));
+  --color: var(--blue-5);
+  --depth: calc(var(--size) * 0.5);
+}
+
+.wheel-arch .cuboid__side:nth-of-type(5) {
+  display: none;
+}
+
+.optimus__leg--right .wheel-arch .cuboid__side:nth-of-type(2),
+.optimus__leg--left .wheel-arch .cuboid__side:nth-of-type(4) {
+  background: linear-gradient(270deg, var(--blue-5) 45%, transparent 20%),
+    linear-gradient(var(--blue-5) 5%, transparent 5% 95%, var(--blue-5) 95%);
+}
+
+.optimus__leg--right .wheel-arch .cuboid__side:nth-of-type(6):after,
+.optimus__leg--left .wheel-arch .cuboid__side:nth-of-type(6):after {
+  content: '';
+  width: 40%;
+  height: 70%;
+  background: repeating-linear-gradient(
+      var(--grey-4) 0 2%,
+      var(--grey-1) 2% 10%
+    ),
+    var(--grey-1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -60%;
+}
+
+.optimus__leg--left .wheel-arch {
+  translate: calc(var(--wheel-depth) * -0.5vmin) 0;
+  left: 0;
+}
+.optimus__leg--right .wheel-arch {
+  translate: calc(var(--wheel-depth) * 0.5vmin) 0;
+  right: 0;
+}
+
+.leg__top {
+  width: calc(100% - (var(--wheel-depth) * 2vmin));
+  width: calc(var(--size) * 0.9vmin);
+  height: 40%;
+  left: 50%;
+  translate: -50% 0;
+  --depth: calc(var(--size) * 0.9);
+  --color: var(--grey-2);
+}
+
+.leg__bottom {
+  top: 40%;
+  width: calc(100% - (var(--wheel-depth) * 1vmin));
+  height: 60%;
+  left: 50%;
+  translate: -50% 0;
+
+  --depth: calc(var(--size) * 1.1);
+  --color: var(--blue-4);
+}
+
+.sock {
+  height: 100%;
+  width: 100%;
+}
+
+/* Cuboid boilerplate code */
+.cuboid {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.cuboid__side--no-filter {
+  filter: none !important;
+}
+.cuboid__side {
+  background: var(--color);
+  filter: brightness(var(--b, 1));
+  position: absolute;
+}
+.cuboid__side:nth-of-type(1) {
+  --b: 1.1;
+  height: calc(var(--depth, 20) * 1vmin);
+  width: 100%;
+  top: 0;
+  transform: translate(0, -50%) rotateX(90deg);
+}
+.cuboid__side:nth-of-type(2) {
+  --b: 0.9;
+  height: 100%;
+  width: calc(var(--depth, 20) * 1vmin);
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%) rotateY(90deg);
+}
+.cuboid__side:nth-of-type(3) {
+  --b: 0.5;
+  width: 100%;
+  height: calc(var(--depth, 20) * 1vmin);
+  bottom: 0;
+  transform: translate(0%, 50%) rotateX(90deg);
+}
+.cuboid__side:nth-of-type(4) {
+  --b: 1;
+  height: 100%;
+  width: calc(var(--depth, 20) * 1vmin);
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%) rotateY(90deg);
+}
+.cuboid__side:nth-of-type(5) {
+  --b: 0.8;
+  height: 100%;
+  width: 100%;
+  transform: translate3d(0, 0, calc(var(--depth, 20) * 0.5vmin));
+  top: 0;
+  left: 0;
+}
+.cuboid__side:nth-of-type(6) {
+  --b: 1.2;
+  height: 100%;
+  width: 100%;
+  transform: translate3d(0, 0, calc(var(--depth, 20) * -0.5vmin))
+    rotateY(180deg);
+  top: 0;
+  left: 0;
+}
+
+/* START MOVING PARTS */
+.optimus__head-door {
+  background: var(--red-1);
+  height: calc(var(--torso-depth) * 0.42vmin);
+  width: 102%;
+  transform-origin: 50% 0;
+  transform: rotateX(90deg) translateY(calc(var(--torso-depth) * -0.1vmin));
+}
+
+.optimus__head-base {
+  height: calc(var(--torso-depth) * 0.4vmin);
+  width: 100%;
+  background: var(--red-5);
+  transform-origin: 50% 100%;
+  transform: rotateX(90deg) translateY(50%);
+  bottom: 0;
+}
+
+/*.arm {
+    transform: rotateY(calc(var(--optimus-arm, 0) * 90deg));
+  }*/
+
+.arm--right {
+  translate: 50% -50%;
+  right: 0;
+  transform-origin: 0 50%;
+}
+.arm--left {
+  left: 0;
+  transform-origin: 100% 50%;
+  translate: -50% -50%;
+}
+.arm--right {
+  --arm-destination: 90deg;
+  --arm-tilt: 89deg;
+  --shoulder-multiplier: -0.1vmin;
+  --bar-multiplier: -0.1;
+}
+.arm--left {
+  /*  --forearm-start: -180deg;*/
+  --arm-destination: -90deg;
+  --arm-tilt: -89deg;
+  --shoulder-multiplier: 0.1vmin;
+  --bar-multiplier: 0.1;
+}
+
+.arm--right .forearm {
+  transform-origin: calc(100% - (var(--fist-width) * 0.5)) 50%;
+}
+
+.arm--left .forearm {
+  transform-origin: calc(var(--fist-width) * 0.5) 50%;
+}
+
+.forearm-flip {
+  height: 100%;
+  width: 100%;
+  transform: rotateY(180deg);
+}
+
+.bracket {
+  width: 25%;
+  rotate: 90deg;
+  top: 50%;
+  left: 50%;
+  translate: -100% -50%;
+  opacity: 0.8;
+}
+
+.arm--right :is(.forearm-cradle, .forearm-gesture) {
+  transform-origin: calc(100% - (var(--fist-width) * 0.5)) 50%;
+}
+.arm--left :is(.forearm-cradle, .forearm-gesture) {
+  transform-origin: calc(var(--fist-width) * 0.5) 50%;
+}
+
+/* Window sizing */
+:root {
+  --transform: 1;
+}
+:root:has(#transform:checked) {
+  --transform: 0;
+}
+#transform:checked ~ .scene-jumper {
+  --transform: 0;
+}
+/* END ARM MOVING PARTS */
+
+/* Transition stuff... */
+
+/* List of things that are moving */
+/**
+   * 1. .boot 
+   * 2. .chest .cuboid__side:nth-of-type(2,4):after === Windows 
+   * 3. .forearm-shell === slight rotation for face on view...?
+   * 4. .forearm-shell .cuboid__side:nth-of-type(2) === Forearm shell arm clipping BACK CAP
+   * 5. .forearm-shell .cuboid__side:nth-of-type(1) === Forearm shell arm clipping TOP ELBOW SLOT
+   * 6. .forearm-cradle === ARM TURNING DOWN AT THE ELBOW
+   * 7. .forearm === ARM TURNING OUT AT THE ELBOW 
+   * 8. .arm === Turning the arms back into the cab
+   * 9. .arm-bar === Moving the bar on a translation and tucking it in
+   * 10. .fist === Spinning the fist around 
+   * 11. .core-upper === Hip tilt 
+   * 12. grill__hinge === Hip tilt
+   * 13. .optimus__helmet === Head popping up. Make sure to transition trapdoor as well for this
+   * 14. .core-lower === Hip spin */
+
+/**/
+
+:root {
+  --transition-speed: 0.35s;
+}
+.scene--optimus {
+  transform: translate3d(
+      0,
+      calc(((1 - var(--transform)) * (var(--leg-height)) * 0.45) * -1vmin),
+      200vmin
+    )
+    rotateX(calc(var(--optimus-rotation-y, 0) * 1deg))
+    rotateY(calc(var(--optimus-rotation-x, 0) * 1deg))
+    rotateX(calc(var(--transform, 0) * -90deg)) scale(var(--optimus-scale, 1))
+    scaleZ(var(--optimus-scale, 1));
+}
+
+.core--lower {
+  transform: rotateY(calc((1 - var(--transform)) * -180deg));
+}
+
+.fist > .cuboid > .cuboid__side:nth-of-type(2):after {
+  background: hsl(0 0% calc(((80 + (var(--transform) * 20)) * 1%)));
+}
+
+.boot {
+  transform: translate3d(0, 0, calc(var(--size) * -0.5vmin))
+    rotateX(calc(var(--transform) * 120deg));
+}
+
+.chest .cuboid__side:nth-of-type(2):after,
+.chest .cuboid__side:nth-of-type(4):after {
+  width: calc(30% + (var(--transform) * 20%));
+}
+
+.forearm-cradle {
+  transform: rotate(
+    calc((1 - var(--transform, 0)) * (var(--arm-destination) * -1))
+  );
+}
+
+/*.arm--left .forearm-gesture {
+    rotate: -60deg;
+  }
+  .arm--right .forearm-gesture {
+    rotate: 60deg;
+  }*/
+
+.forearm-shell .cuboid__side:nth-of-type(2) {
+  clip-path: inset(calc((1 - var(--transform, 0)) * 100%) 0 0 0);
+}
+.forearm-shell .cuboid__side:nth-of-type(1) {
+  --b: 0.9;
+  clip-path: inset(0 calc((1 - var(--transform)) * 25%) 0 0);
+}
+
+.fist {
+  rotate: calc(var(--transform) * -180deg);
+}
+
+.shoulder-port {
+  translate: calc(
+      (var(--torso-depth) * (var(--transform, 0) * var(--bar-multiplier))) *
+        1vmin
+    ) -50%;
+}
+.arm {
+  transform: rotateY(calc(var(--transform) * var(--arm-destination)));
+}
+.arm-bar {
+  translate: calc(
+    (var(--torso-depth) * (var(--transform) * var(--bar-multiplier))) * 1vmin
+  );
+}
+
+.forearm {
+  transform: rotateY(calc((1 - var(--transform, 0)) * (var(--arm-tilt))));
+}
+
+.optimus__head-door {
+  clip-path: inset(0 0 calc((1 - var(--transform, 0)) * 100%) 0);
+}
+
+.optimus__helmet {
+  transform: translate3d(0, 0, calc(var(--torso-depth) * 0.1vmin))
+    translateY(calc((1 - var(--transform, 0)) * -100%));
+}
+
+.optimus__head-twist {
+  height: 100%;
+  width: 100%;
+  transform: rotateY(calc((1 - var(--transform)) * 25deg));
+}
+
+.core--upper {
+  transform-origin: 50% 50%;
+  transform: rotateX(calc(var(--transform) * 90deg));
+}
+
+.arm--right .forearm-gesture {
+  rotate: calc((1 - var(--transform)) * 70deg);
+}
+.arm--right .shoulder-gesture {
+  transform: rotateX(calc((1 - var(--transform)) * 20deg))
+    rotateY(calc((1 - var(--transform)) * 20deg))
+    rotate(calc((1 - var(--transform)) * -10deg));
+}
+.arm--right .hand {
+  rotate: calc(-20deg + ((1 - var(--transform)) * -80deg));
+}
+
+.arm--left .shoulder-gesture {
+  transform: rotateX(calc((1 - var(--transform)) * 10deg))
+    rotateY(calc((1 - var(--transform)) * -20deg))
+    rotate(calc((1 - var(--transform)) * 16deg));
+}
+.arm--left .forearm-gesture {
+  rotate: calc((1 - var(--transform)) * -20deg);
+}
+
+.hand__fist {
+  height: 100%;
+  width: 100%;
+}
+
+.hand__fingers {
+  width: 150%;
+  height: 25%;
+  background: orange;
+  left: 50%;
+  translate: -50% 50%;
+  --depth: calc(var(--fist-dimension) * 0.25);
+}
+
+.optimus__grill-hinge {
+  transform: rotateX(calc(var(--transform) * 90deg));
+}
+
+/* Plan out the desired order and choreography on #transform:checked here */
+:root:has(#transform:checked) :is(.scene-roller) {
+  transition: transform var(--transition-speed)
+    calc(var(--transition-speed) * 0);
+}
+#transform:checked ~ .scene-jumper :is(.scene-roller) {
+  transition: transform var(--transition-speed)
+    calc(var(--transition-speed) * 0);
+}
+#transform:checked
+  ~ .scene-jumper
+  .fist
+  > .cuboid
+  > .cuboid__side:nth-of-type(2):after {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 1),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 1),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 1),
+    translate var(--transition-speed) calc(var(--transition-speed) * 1);
+}
+:root:has(#transform:checked)
+  .fist
+  > .cuboid
+  > .cuboid__side:nth-of-type(2):after {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 1),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 1),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 1),
+    translate var(--transition-speed) calc(var(--transition-speed) * 1);
+}
+:root:has(#transform:checked) :is(.arm-bar, .forearm) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 1),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 1),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 1),
+    translate var(--transition-speed) calc(var(--transition-speed) * 1);
+}
+#transform:checked ~ .scene-jumper :is(.arm-bar, .forearm) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 1),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 1),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 1),
+    translate var(--transition-speed) calc(var(--transition-speed) * 1);
+}
+#transform:checked ~ .scene-jumper .chest .cuboid__side:nth-of-type(2):after,
+#transform:checked ~ .scene-jumper .chest .cuboid__side:nth-of-type(4):after {
+  transition: width var(--transition-speed) calc(var(--transition-speed) * 1.5);
+}
+:root:has(#transform:checked) .chest .cuboid__side:nth-of-type(2):after,
+:root:has(#transform:checked) .chest .cuboid__side:nth-of-type(4):after {
+  transition: width var(--transition-speed) calc(var(--transition-speed) * 1.5);
+}
+:root:has(#transform:checked)
+  :is(
+    .arm,
+    .shoulder-port,
+    .optimus__head-door,
+    .fist,
+    .forearm-shell .cuboid__side:nth-of-type(1),
+    .forearm-shell .cuboid__side:nth-of-type(2),
+    .boot
+  ) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 1.5),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 1.5),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 1.5),
+    translate var(--transition-speed) calc(var(--transition-speed) * 1.5);
+}
+#transform:checked
+  ~ .scene-jumper
+  :is(
+    .arm,
+    .shoulder-port,
+    .optimus__head-door,
+    .fist,
+    .forearm-shell .cuboid__side:nth-of-type(1),
+    .forearm-shell .cuboid__side:nth-of-type(2),
+    .boot
+  ) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 1.5),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 1.5),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 1.5),
+    translate var(--transition-speed) calc(var(--transition-speed) * 1.5);
+}
+:root:has(#transform:checked)
+  :is(.optimus__helmet, .optimus__grill-hinge, .core--upper) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 2),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 2),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 2),
+    translate var(--transition-speed) calc(var(--transition-speed) * 2);
+}
+#transform:checked
+  ~ .scene-jumper
+  :is(.optimus__helmet, .optimus__grill-hinge, .core--upper) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 2),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 2),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 2),
+    translate var(--transition-speed) calc(var(--transition-speed) * 2);
+}
+:root:has(#transform:checked)
+  :is(.forearm-cradle, .core--lower, .scene--optimus) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 2.5),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 2.5),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 2.5),
+    translate var(--transition-speed) calc(var(--transition-speed) * 2.5);
+}
+#transform:checked
+  ~ .scene-jumper
+  :is(.forearm-cradle, .core--lower, .scene--optimus) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 2.5),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 2.5),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 2.5),
+    translate var(--transition-speed) calc(var(--transition-speed) * 2.5);
+}
+/* Extras... */
+:root:has(#transform:checked)
+  :is(
+    .arm--right .forearm-gesture,
+    .arm--right .shoulder-gesture,
+    .arm--left .shoulder-gesture,
+    .arm--left .forearm-gesture,
+    .arm--right .hand,
+    .optimus__head-twist
+  ) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 3.5),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 3.5),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 3.5),
+    translate var(--transition-speed) calc(var(--transition-speed) * 3.5);
+}
+#transform:checked
+  ~ .scene-jumper
+  :is(
+    .arm--right .forearm-gesture,
+    .arm--right .shoulder-gesture,
+    .arm--left .shoulder-gesture,
+    .arm--left .forearm-gesture,
+    .arm--right .hand,
+    .optimus__head-twist
+  ) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 3.5),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 3.5),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 3.5),
+    translate var(--transition-speed) calc(var(--transition-speed) * 3.5);
+}
+
+/* Back to being a transformer */
+:is(
+    .forearm-cradle,
+    .core--lower,
+    .scene--optimus,
+    .arm--right .forearm-gesture,
+    .arm--right .shoulder-gesture,
+    .arm--right .hand,
+    .arm--left .shoulder-gesture,
+    .arm--left .forearm-gesture,
+    .optimus__head-twist
+  ) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 0),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 0),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 0),
+    translate var(--transition-speed) calc(var(--transition-speed) * 0);
+}
+:is(.optimus__helmet, .optimus__grill-hinge, .core--upper) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 1),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 1),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 1),
+    translate var(--transition-speed) calc(var(--transition-speed) * 1);
+}
+.chest .cuboid__side:nth-of-type(2):after,
+.chest .cuboid__side:nth-of-type(4):after {
+  transition: width var(--transition-speed) calc(var(--transition-speed) * 1.5);
+}
+:is(
+    .arm,
+    .shoulder-port,
+    .optimus__head-door,
+    .fist,
+    .forearm-shell .cuboid__side:nth-of-type(1),
+    .forearm-shell .cuboid__side:nth-of-type(2),
+    .boot
+  ) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 1.5),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 1.5),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 1.5),
+    translate var(--transition-speed) calc(var(--transition-speed) * 1.5);
+}
+:is(.arm-bar, .forearm) {
+  transition: transform var(--transition-speed)
+      calc(var(--transition-speed) * 2),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 2),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 2),
+    translate var(--transition-speed) calc(var(--transition-speed) * 2);
+}
+.fist > .cuboid > .cuboid__side:nth-of-type(2):after {
+  transition: background var(--transition-speed)
+      calc(var(--transition-speed) * 4),
+    transform var(--transition-speed) calc(var(--transition-speed) * 4),
+    clip-path var(--transition-speed) calc(var(--transition-speed) * 4),
+    rotate var(--transition-speed) calc(var(--transition-speed) * 4),
+    translate var(--transition-speed) calc(var(--transition-speed) * 4);
+}
+.scene-roller {
+  transition: transform var(--transition-speed)
+    calc(var(--transition-speed) * 4.5);
+}
+/*:root:has(#transform:checked) :is(.scene--optimus) {
+    transition:
+      transform var(--transition-speed) calc(var(--transition-speed) * 3),
+      clip-path var(--transition-speed) calc(var(--transition-speed) * 3),
+      rotate var(--transition-speed) calc(var(--transition-speed) * 3),
+      translate var(--transition-speed) calc(var(--transition-speed) * 3);  
+  }*/
+
+/* Hack to get the arms to show at rotation */
+/*.arm--left .forearm-shell {
+    transform: rotateY(calc(1deg + ((1 - var(--transform)) * 1deg)));
+  }
+  .forearm-shell {
+    transform: rotateY(calc(-1deg + ((1 - var(--transform)) * 1deg)));
+  }*/
+/* Random animations */
+
+.scene-roller {
+  transform: translate3d(
+    0,
+    calc((var(--transform)) * (var(--leg-height) * -0.4vmin)),
+    0vmin
+  );
+}
+
+:root:has(#transform:checked) .scene-jumper {
+  animation: jump var(--transition-speed) calc(var(--transition-speed) * 2.5);
+}
+#transform:checked ~ .scene-jumper {
+  animation: jump var(--transition-speed) calc(var(--transition-speed) * 2.5);
+}
+
+:root:has(#transform:checked) .arm--right .hand {
+  animation: ehhh 1s calc(var(--transition-speed) * 6) infinite linear;
+}
+#transform:checked ~ .scene-jumper .arm--right .hand {
+  animation: ehhh 1s calc(var(--transition-speed) * 6) infinite linear;
+}
+
+@keyframes ehhh {
+  50% {
+    transform: rotateZ(-35deg);
+  }
+}
+
+@keyframes jump {
+  50% {
+    transform: translateY(calc(var(--core-height) * -10vmin));
+  }
+}
+
+.optimus__mouth {
+  animation: mouth-breathe 3s infinite linear;
+}
+.optimus__face .cuboid__side:nth-of-type(5):after {
+  animation: blink 6s -2s infinite;
+}
+
+@keyframes mouth-breathe {
+  50% {
+    translate: -50% 5%;
+  }
+}
+
+@keyframes blink {
+  0%,
+  46%,
+  48%,
+  50%,
+  100% {
+    scale: 1 1;
+  }
+  47%,
+  49% {
+    scale: 1 0.01;
+  }
+}
