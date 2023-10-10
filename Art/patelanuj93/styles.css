@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  min-height: 768px;
+  margin: 0 auto;
+  border: 2px solid white;
+  position: relative;
+}
+.player {
+  width: 20px;
+  height: 140px;
+  background-color: white;
+  position: absolute;
+}
+.player-1 {
+  top: 70%;
+  left: 0;
+  animation-name: player1move;
+  animation-delay: 3000ms;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.player-2 {
+  transform: translate3d(0, 44px, 0);
+  right: 0;
+  animation-name: player2move;
+  animation-delay: 700ms;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.ball {
+  background-color: white;
+  border-radius: 100%;
+  transform: translate3d(21px, 544px, 0px);
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  transform: translate3d(21px, 544px, 0);
+  animation: player1turnball 4s linear forwards;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+}
+
+@keyframes player1turnball {
+  0% {
+    transform: translate3d(21px, 544px, 0px);
+  }
+  40% {
+    transform: translate3d(974px, 334px, 0px);
+  }
+  100% {
+    transform: translate3d(20px, 334px, 0px);
+  }
+}
+
+@keyframes player2move {
+  0% {
+    transform: translate3d(0, 44px, 0);
+  }
+  100% {
+    transform: translate3d(0, 224px, 0);
+  }
+}
+
+@keyframes player1move {
+  0% {
+    top: 70%;
+  }
+  100% {
+    top: 43%;
+  }
+}

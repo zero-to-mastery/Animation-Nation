@@ -10,37 +10,35 @@ body {
 }
 
 #animation-content {
- justify-content: center;
- background-color: rgba(155,0,155,0.8);
- border-radius: 32px;
- padding: 4rem;
- width: 100%;
- min-height: 340px;
- max-height: 100%;
+  justify-content: center;
+  background-color: rgba(155, 0, 155, 0.8);
+  border-radius: 32px;
+  padding: 4rem;
+  width: 100%;
+  min-height: 340px;
+  max-height: 100%;
 }
 
 .scene {
-  display:flex;
+  display: flex;
   justify-content: center;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 8rem;
   margin: 2rem;
   max-width: 100%;
   min-height: 340px;
   border-radius: 32px;
 }
-#stem{
-
+#stem {
   position: absolute;
   min-height: 140px;
   transform: translate(50%, -25%);
   width: 4px;
   padding: 1rem;
   background-color: brown;
-  
 }
 .jackolantern {
-display: block;
+  display: block;
   padding: 12rem;
   justify-content: center;
   background-color: orange;
@@ -55,7 +53,6 @@ display: block;
   justify-content: space-between;
 }
 
-
 #left-eye {
   flex-basis: 80%;
   margin: 2rem;
@@ -64,7 +61,6 @@ display: block;
   border-radius: 32px;
   clip-path: polygon(50% 82%, 100% 100%, 0% 100%);
   animation: blink 2000ms ease-in-out infinite;
-  
 }
 #right-eye {
   flex-basis: 80%;
@@ -74,10 +70,9 @@ display: block;
   border-radius: 32px;
   clip-path: polygon(50% 82%, 100% 100%, 0% 100%);
   animation: blink 2000ms ease-in-out infinite;
-  
 }
 .nose-row {
-   display: flex;
+  display: flex;
   justify-content: center;
 }
 
@@ -96,7 +91,7 @@ display: block;
   justify-content: center;
 }
 
-#mouth{
+#mouth {
   background-color: yellow;
   flex-basis: 100%;
   margin-left: 3rem;
@@ -108,26 +103,24 @@ display: block;
   animation: speak 2000ms ease-in-out infinite;
 }
 
-
 /* animation css */
 
 @keyframes jackolantern-scale {
-  0%{
+  0% {
     padding: 12rem;
-    background-color: rgba(255,166,0);
+    background-color: rgba(255, 166, 0);
   }
-  66%{
+  66% {
     padding: 16rem;
-    background-color: rgba(255,202,25);
-
+    background-color: rgba(255, 202, 25);
   }
-  100%{
+  100% {
     padding: 12rem;
   }
 }
 
 @keyframes speak {
-  0%{
+  0% {
     margin-left: 2rem;
     margin-right: 2rem;
     padding-left: 1rem;
@@ -135,7 +128,7 @@ display: block;
     border-radius: 32px;
     max-width: 10px;
   }
-  66%{
+  66% {
     margin-left: 0rem;
     margin-right: 0rem;
     padding-left: 4rem;
@@ -143,11 +136,9 @@ display: block;
     border-radius: 24px;
     max-width: 100%;
     min-height: 200px;
-    background: rgba(255,105,55);
-    
-    
+    background: rgba(255, 105, 55);
   }
-  100%{
+  100% {
     margin-left: 2rem;
     margin-right: 2rem;
     padding-left: 1rem;
@@ -157,19 +148,16 @@ display: block;
 }
 
 @keyframes blink {
-  0%{
+  0% {
     clip-path: polygon(50% 82%, 100% 100%, 0% 100%);
     border-radius: 4px;
-    
   }
-  66%{
+  66% {
     clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-    background: rgba(255,105,55);
+    background: rgba(255, 105, 55);
   }
   100% {
     clip-path: polygon(50% 82%, 100% 100%, 0% 100%);
     border-radius: 32px;
   }
-
-  
 }
