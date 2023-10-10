@@ -2122,6 +2122,13 @@ let cards = [
     imageLink: './Art/ParzivalAFK/TwirlingSpheres.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
+  },
+  {
+    artName: 'Moody Sunflower',
+    pageLink: './Art/RoksolanaVeres/index.html',
+    imageLink: './Art/RoksolanaVeres/moody-sunflower.gif',
+    author: 'Roksolana',
+    githubLink: 'https://github.com/RoksolanaVeres'
   }
 ];
 
