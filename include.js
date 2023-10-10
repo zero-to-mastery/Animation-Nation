@@ -6,7 +6,13 @@ let cards = [
     author: 'sufyanhabib',
     githubLink: 'https://github.com/sufyanhabib'
   },
-
+ {
+    artName: 'The Mantras',
+    pageLink: './Art/vikasgadge/index.html',
+    imageLink: './Art/vikasgadge/The Mantras.mp4',
+    author: 'vikasgadge',
+    githubLink: 'https://github.com/vikasgadge28'
+  },
   {
     artName: 'Circle Animation',
     pageLink: './Art/Sahil/index.html',
