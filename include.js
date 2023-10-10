@@ -2037,6 +2037,13 @@ let cards = [
     imageLink: './Art/SamilAbud/bouncing-effect.gif',
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
+  },
+  {
+    artName: 'MouseWawe Effect',
+    pageLink: './Art/kaushal1717/index.html',
+    imageLink: './Art/kaushal1717/mousewawe.gif',
+    author: 'Kaushal',
+    githubLink: 'https://github.com/kaushal1717'
   }
 ];
 
