@@ -2087,6 +2087,7 @@ let cards = [
     imageLink: './Art/Code1705/Animated_Bow.gif', 
     author: 'Sikta Mondal', 
     githubLink: 'https://github.com/Code1705' 
+ },
   {
     artName: 'Twirling Spheres',
     pageLink: './Art/ParzivalAFK/TwirlingSpheres.html',
