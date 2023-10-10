@@ -2054,6 +2054,13 @@ let cards = [
     githubLink: 'https://github.com/samilabud'
   },
   {
+    artName: 'Solar System',
+    pageLink: './Art/Guransh_Deol/solar_system.html',
+    imageLink: './Art/Guransh_Deol/solar.gif',
+    author: 'Guransh Deol',
+    githubLink: 'https://github.com/guranshdeol'
+  },
+  {
     artName: 'Santa Run',
     pageLink: './Art/psqaure11/index.html',
     imageLink: './Art/psqaure11/santa.gif',
