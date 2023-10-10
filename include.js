@@ -2037,6 +2037,13 @@ let cards = [
     imageLink: './Art/SamilAbud/bouncing-effect.gif',
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
+  },
+  {
+    artName: 'Santa Run',
+    pageLink: './Art/psqaure11/index.html',
+    imageLink: './Art/psqaure11/santa.gif',
+    author: 'Pragya',
+    githubLink: 'https://github.com/psqaure11'
   }
 ];
 
