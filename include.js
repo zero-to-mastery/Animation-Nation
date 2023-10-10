@@ -6,14 +6,13 @@ let cards = [
     author: 'sufyanhabib',
     githubLink: 'https://github.com/sufyanhabib'
   },
- 
+
   {
     artName: 'Circle Animation',
     pageLink: './Art/Sahil/index.html',
     imageLink: './Art/Sahil/animation.gif',
     author: 'Sahil',
     githubLink: 'https://github.com/borkarsahil'
- 
   },
   {
     artName: 'Chess',
