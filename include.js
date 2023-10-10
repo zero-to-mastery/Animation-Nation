@@ -2044,6 +2044,20 @@ let cards = [
     imageLink: './Art/psqaure11/santa.gif',
     author: 'Pragya',
     githubLink: 'https://github.com/psqaure11'
+  },
+  {
+    artName: 'Marvels God of Mischeif LoKi ',
+    pageLink: './Art/Adhiraj/index.html',
+    imageLink: './Art/Adhiraj/lokiAnimation.gif',
+    author: 'Adhiraj',
+    githubLink: 'https://github.com/ADHIRAJ-12/'
+  },
+  {
+    artName: 'Circles Animation',
+    pageLink: './Art/Loukas4/AnimatedCircles.html',
+    imageLink: './Art/Loukas4/Circles.gif',
+    author: 'Loukas',
+    githubLink: 'https://github.com/Loukas4'
   }
 ];
 
