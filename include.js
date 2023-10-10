@@ -19,6 +19,13 @@ let cards = [
     imageLink: './Art/sufyanhabib/cube-with-Letter-Animation.gif',
     author: 'sufyanhabib',
     githubLink: 'https://github.com/sufyanhabib'
+  }
+  {,
+    artName: 'Bouncing Balls', // change this to the name of your artwork
+    pageLink: './Art/<ahmedalhamad7>/index.html', // change this
+    imageLink: './Art/<ahmedalhamad7>/static picture.jpg', // change this
+    author: 'Ahmed', // use your name
+    githubLink: 'https://github.com/<ahmedalhamad7>' // change this
   },
   {
     artName: 'Borderline-and-Movement-Animation',
