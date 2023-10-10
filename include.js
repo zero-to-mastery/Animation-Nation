@@ -2037,6 +2037,13 @@ let cards = [
     imageLink: './Art/SamilAbud/bouncing-effect.gif',
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
+  },
+  {
+    artName: 'Half Spin Points',
+    pageLink: './Art/ParzivalAFK/HalfSpinPoints.html',
+    imageLink: './Art/ParzivalAFK/HalfSpinPoints.gif',
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
   }
 ];
 
