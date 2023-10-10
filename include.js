@@ -1275,6 +1275,13 @@ let cards = [
     imageLink: './Art/MathDevWeb/CircleChase.gif',
     author: 'MathDevWeb',
     githubLink: 'https://github.com/MathDevWeb'
+  },
+  {
+    artName: 'HappyCat',
+    pageLink: './Art/dvasquez08/dave.html',
+    imageLink: './Art/dvasquez08/happy-cat.gif',
+    author: 'David Vasquez',
+    githubLink: 'https://github.com/dvasquez08'
   }
 ];
 
