@@ -2044,6 +2044,13 @@ let cards = [
     imageLink: './Art/ParzivalAFK/HalfSpinPoints.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
+  },
+  {
+    artName: 'Sun Animation',
+    pageLink: './Art/ParzivalAFK/sun.html',
+    imageLink: './Art/ParzivalAFK/sun.gif',
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
   }
 ];
 
