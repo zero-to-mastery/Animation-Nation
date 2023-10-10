@@ -2066,6 +2066,13 @@ let cards = [
     imageLink: './Art/Loukas4/Circles.gif',
     author: 'Loukas',
     githubLink: 'https://github.com/Loukas4'
+  },
+  {
+    artName: 'Ambient-Effect',
+    pageLink: './Art/Keshab1113/index.html',
+    imageLink: './Art/Keshab1113/mobile.gif',
+    author: 'Keshab',
+    githubLink: 'https://github.com/Keshab1113'
   }
 ];
 
