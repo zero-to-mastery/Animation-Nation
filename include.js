@@ -2066,7 +2066,14 @@ let cards = [
     imageLink: './Art/Loukas4/Circles.gif',
     author: 'Loukas',
     githubLink: 'https://github.com/Loukas4'
-  }
+  },
+   {
+      artName: 'Om Chanting', 
+      pageLink: './Art/kondapalli19/index.html',
+      imageLink: './Art/kondapalli19/OmChanting.gif',
+      author: 'Koyal Kondapalli',
+      githubLink: 'https://github.com/kondapalli19' 
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
