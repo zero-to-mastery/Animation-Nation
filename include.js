@@ -15,11 +15,18 @@ let cards = [
     githubLink: 'https://github.com/borkarsahil'
   },
   {
-    artName: 'Chess',
-    pageLink: './Art/Ronit72/index.html',
-    imageLink: './Art/Ronit72/animation.gif',
-    author: 'Ronit',
-    githubLink: 'https://github.com/Ronit72'
+    artName: 'The Chakra',
+    pageLink: './Art/devanshumasodker/index.html',
+    imageLink: './Art/devanshumasodker/Chakra.PNG',
+    author: 'devanshumasodker',
+    githubLink: 'https://github.com/Devanshumasodker'
+  },
+  {
+    artName: 'The Chakra',
+    pageLink: './Art/Sahil/index.html',
+    imageLink: './Art/Sahil/animation.gif',
+    author: 'Sahil',
+    githubLink: 'https://github.com/borkarsahil'
   },
   {
     artName: 'Square-illusion',
@@ -1886,6 +1893,13 @@ let cards = [
     githubLink: 'https://github.com/mohdUsman-6508'
   },
   {
+    artName: 'Chess',
+    pageLink: './Art/Ronit72/index.html',
+    imageLink: './Art/Ronit72/animation.gif',
+    author: 'Ronit',
+    githubLink: 'https://github.com/Ronit72'
+  },
+  {
     artName: 'Ball-animation',
     pageLink: './Art/RohanSalgare/index.html',
     imageLink: './Art/RohanSalgare/animation.gif',
@@ -1938,6 +1952,13 @@ let cards = [
     artName: 'Sun-Earth Rotation',
     pageLink: './Art/vinay-s36/animation.html',
     imageLink: './Art/vinay-s36/Sun-Earth Rotation.gif',
+    author: 'Vinay',
+    githubLink: 'https://github.com/vinay-s36'
+  },
+  {
+    artName: 'Button Animation',
+    pageLink: './Art/vinay-s36/button.html',
+    imageLink: './Art/vinay-s36/button-animation.gif',
     author: 'Vinay',
     githubLink: 'https://github.com/vinay-s36'
   },
@@ -2040,11 +2061,25 @@ let cards = [
     githubLink: 'https://github.com/Hrishit-B'
   },
   {
+    artName: 'Coffee Machine',
+    pageLink: './Art/shruti-sen2004/index.html',
+    imageLink: './Art/shruti-sen2004/coffee-machine.gif',
+    author: 'Shruti Sen',
+    githubLink: 'https://github.com/shruti-sen2004'
+  },
+  {
     artName: 'Bouncing Balls',
     pageLink: './Art/SamilAbud/index.html',
     imageLink: './Art/SamilAbud/bouncing-effect.gif',
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
+  },
+  {
+    artName: 'Solar System',
+    pageLink: './Art/Guransh_Deol/solar_system.html',
+    imageLink: './Art/Guransh_Deol/solar.gif',
+    author: 'Guransh Deol',
+    githubLink: 'https://github.com/guranshdeol'
   },
   {
     artName: 'Santa Run',
@@ -2061,6 +2096,13 @@ let cards = [
     githubLink: 'https://github.com/ADHIRAJ-12/'
   },
   {
+    artName: 'MovingTriangle',
+    pageLink: './Art/AkashCss/index.html',
+    imageLink: './Art/AkashCss/AkashCssGif.gif',
+    author: 'Akash',
+    githubLink: 'https://github.com/Akash-Jambulkar'
+  },
+  {
     artName: 'Circles Animation',
     pageLink: './Art/Loukas4/AnimatedCircles.html',
     imageLink: './Art/Loukas4/Circles.gif',
@@ -2073,7 +2115,14 @@ let cards = [
       imageLink: './Art/kondapalli19/OmChanting.gif',
       author: 'Koyal Kondapalli',
       githubLink: 'https://github.com/kondapalli19' 
-    }
+    },
+  {
+    artName: 'Twirling Spheres',
+    pageLink: './Art/ParzivalAFK/TwirlingSpheres.html',
+    imageLink: './Art/ParzivalAFK/TwirlingSpheres.gif',
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
