@@ -2040,11 +2040,11 @@ let cards = [
     githubLink: 'https://github.com/Hrishit-B'
   },
   {
-    artName: 'Coffee Machine', 
-    pageLink: './Art/shruti-sen2004/index.html', 
-    imageLink: './Art/shruti-sen2004/coffee-machine.gif', 
-    author: 'Shruti Sen', 
-    githubLink: 'https://github.com/shruti-sen2004' 
+    artName: 'Coffee Machine',
+    pageLink: './Art/shruti-sen2004/index.html',
+    imageLink: './Art/shruti-sen2004/coffee-machine.gif',
+    author: 'Shruti Sen',
+    githubLink: 'https://github.com/shruti-sen2004'
   },
   {
     artName: 'Bouncing Balls',
