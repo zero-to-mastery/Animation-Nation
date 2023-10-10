@@ -2039,9 +2039,9 @@ let cards = [
     githubLink: 'https://github.com/samilabud'
   },
   {
-    artName: 'Half Spin Points',
-    pageLink: './Art/ParzivalAFK/HalfSpinPoints.html',
-    imageLink: './Art/ParzivalAFK/HalfSpinPoints.gif',
+    artName: 'Twirling Spheres',
+    pageLink: './Art/ParzivalAFK/TwirlingSpheres.html',
+    imageLink: './Art/ParzivalAFK/TwirlingSpheres.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
   }
