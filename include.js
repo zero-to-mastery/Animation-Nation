@@ -85,6 +85,13 @@ let cards = [
     githubLink: 'https://github.com/iamsnehadas'
   },
   {
+    artName: 'Funky Boy',
+    pageLink: './Art/apu52/index.html',
+    imageLink: './Art/apu52/animation.gif',
+    author: 'Arpan Chowdhury',
+    githubLink: 'https://github.com/funkyboy'
+  },
+  {
     artName: 'Tic Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
