@@ -2109,6 +2109,13 @@ let cards = [
     author: 'Loukas',
     githubLink: 'https://github.com/Loukas4'
   },
+ {
+    artName: 'Dragon Loading Animation',
+    pageLink: './Art/AnkitaSikdar005/index.html',
+    imageLink: './Art/AnkitaSikdar005/animation gif.gif',
+    author: 'AnkitaSikdar005',
+    githubLink: 'https://github.com/AnkitaSikdar005'
+  },
   {
     artName: 'Om Chanting',
     pageLink: './Art/kondapalli19/index.html',
