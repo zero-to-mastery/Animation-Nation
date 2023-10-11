@@ -87,9 +87,9 @@ let cards = [
   {
     artName: 'Funky Boy',
     pageLink: './Art/apu52/index.html',
-    imageLink: './Art/apu52/animation.gif',
+    imageLink: './Art/apu52/funkyboy.gif',
     author: 'Arpan Chowdhury',
-    githubLink: 'https://github.com/funkyboy'
+    githubLink: 'https://github.com/apu52'
   },
   {
     artName: 'Tic Tac Yo!',
