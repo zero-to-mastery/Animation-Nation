@@ -2117,6 +2117,13 @@ let cards = [
     githubLink: 'https://github.com/Loukas4'
   },
   {
+    artName: 'Ambient-Effect',
+    pageLink: './Art/Keshab1113/index.html',
+    imageLink: './Art/Keshab1113/mobile.gif',
+    author: 'Keshab',
+    githubLink: 'https://github.com/Keshab1113'
+  },
+  {
     artName: 'Dragon Loading Animation',
     pageLink: './Art/AnkitaSikdar005/index.html',
     imageLink: './Art/AnkitaSikdar005/animation gif.gif',
