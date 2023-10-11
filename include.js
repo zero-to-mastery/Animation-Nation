@@ -2143,6 +2143,13 @@ let cards = [
     imageLink: './Art/RoksolanaVeres/moody-sunflower.gif',
     author: 'Roksolana',
     githubLink: 'https://github.com/RoksolanaVeres'
+  },
+  {
+    artName: 'Heart Beat',
+    pageLink: './Art/manojna191/index.html',
+    imageLink: './Art/manojna191/heartBeat.gif',
+    author: 'Manojna',
+    githubLink: 'https://github.com/manojna191'
   }
 ];
 
