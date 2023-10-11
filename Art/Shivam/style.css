@@ -1,0 +1,151 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://i.pinimg.com/originals/e5/44/9f/e5449f451a51336a17626fd5293f5243.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+}
+
+.helicopter {
+    position: absolute;
+    right: 500px;
+    animation: bounce 5s infinite;
+}
+
+.cockpit {
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    width: 195px;
+    height: 195px;
+    border-radius: 100px 40px 50px 50px;
+    background-color: red;
+}
+
+.cockpit::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    left: -25px;
+    width: 170px;
+    height: 170px;
+    border-radius: 40px;
+    background-color: #302e37;
+}
+
+.cockpit::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -60px;
+    left: -60px;
+    width: 170px;
+    height: 170px;
+    border-radius: 40px;
+    background-color: black;
+}
+
+.tail {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    transform-origin: left center;
+    border-top: 10px solid transparent;
+    border-bottom: 80px solid transparent;
+    border-left: 350px solid red;
+    border-bottom-right-radius: 10px;
+    height: 10px;
+}
+
+.main {
+    position: absolute;
+    left: 130px;
+    top: -10px;
+    width: 40px;
+    height: 20px;
+    background-color: #302e37;
+}
+
+.rotor{
+    width: 700px;
+    height: 700px;
+    border-radius: 350px;
+    position: absolute;
+    top: -360px;
+    left: -200px;
+    z-index: 2;
+    background-color: #a299ab;
+    opacity: 0.12;
+    overflow: hidden;
+    transform: scaleY(0.075);
+}
+
+.rotator {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 350px;
+    animation: fly 0.06s linear infinite;
+}
+
+.rotator div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -30px;
+    width: 700px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.rotator div:nth-child(1){
+    transform: rotate(0deg);
+}
+
+.rotator div:nth-child(2){
+    transform: rotate(90deg);
+}
+
+
+/* Keyframes */
+@keyframes bounce {
+    0%,100% {
+        transform: translate(0px, -50px) rotate(-15deg);
+    }
+
+    50% {
+        transform: translate(0px, 50px) rotate(-10deg);
+    }
+}
+@keyframes fly {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  .footer a {
+    text-decoration: none;
+    color: red;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+    color: #000
+  }
