@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+.Box
+{  min-height: 100vh;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    gap:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:linear-gradient(to  right ,rgb(148, 158, 148),rgb(3, 39, 3));
+} 
+.portFolio
+{
+ flex-basis: 30%;
+ color:aliceblue;
+ font-size: large;
+} 
+
+    
+
+.con
+{  
+    flex-basis: 50%;
+    width: 100vw;;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right,rgb(255, 255, 0),rgb(255, 192, 203,0.7)); 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 120px;
+}  
+.boc
+{  
+    background-repeat: none;
+     width: 100%;
+    height:auto;
+    background-position:right;
+    transition: all 2s ease;
+    background: rgba(34, 34, 34,0.8);
+    background-blend-mode: hard-light;
+   
+}
+ 
+.row-2
+{
+   grid-row: span 2;
+}
+.col-2
+{   
+    grid-column:  span 3;
+}
+.boc:hover{  
+ 
+   background: rgb(255, 255, 255 ,0.5);
+   background-position: left;
+}  
