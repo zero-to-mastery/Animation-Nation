@@ -2143,6 +2143,13 @@ let cards = [
     imageLink: './Art/RoksolanaVeres/moody-sunflower.gif',
     author: 'Roksolana',
     githubLink: 'https://github.com/RoksolanaVeres'
+  },
+  {
+    artName: 'Wavy boucing ball',
+    pageLink: './Art/Swadeshit27/index.html',
+    imageLink: './Art/Swadeshit27/mobile.gif',
+    author: 'Swadesh Pal',
+    githubLink: 'https://github.com/Swadeshit27'
   }
 ];
 
