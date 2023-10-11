@@ -43,6 +43,13 @@ let cards = [
     githubLink: 'https://github.com/md-talim'
   },
   {
+    artName: '3-D toaster Animation',
+    pageLink: './Art/apu52/index.html',
+    imageLink: './Art/apu52/3D toaster animation.gif',
+    author: 'Arpan Chowdhury',
+    githubLink: 'https://github.com/apu52'
+  },
+  {
     artName: 'Sliding Bot',
     pageLink: './Art/ProfoundlyParker/index.html',
     imageLink: './Art/ProfoundlyParker/robot.gif',
