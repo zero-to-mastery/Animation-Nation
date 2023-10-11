@@ -94,9 +94,9 @@ let cards = [
   {
     artName: 'Kaleidoscope Animation',
     pageLink: './Art/apu52/index.html',
-    imageLink: './Art/apu52/robot.gif',
+    imageLink: './Art/apu52/kaleidoscopeanimation.gif',
     author: 'Arpan Chowdhury',
-    githubLink: 'https://github.com/kaleidoscope animation'
+    githubLink: 'https://github.com/apu52,
   },
   {
     artName: 'Gradient Loader',
