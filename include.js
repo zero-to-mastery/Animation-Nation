@@ -2144,6 +2144,13 @@ let cards = [
     author: 'Roksolana',
     githubLink: 'https://github.com/RoksolanaVeres'
   }
+  {
+    artName: 'Rotating Plates',
+    pageLink: './Art/ItsAakif/plate.html',
+    imageLink: './Art/ItsAakif/rotating_plates.gif',
+    author: 'Aakif',
+    githubLink: 'https://github.com/ItsAakif'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
