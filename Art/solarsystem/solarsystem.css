@@ -23,7 +23,9 @@ body {
   top: 45%;
   left: 51%;
   transform-origin: center bottom;
-  animation: orbit-mercury 5s linear infinite, rotate 6s infinite linear;
+  animation:
+    orbit-mercury 5s linear infinite,
+    rotate 6s infinite linear;
 }
 .venus {
   width: 10px;
@@ -34,7 +36,9 @@ body {
   top: 45%;
   left: 51%;
   transform-origin: center bottom;
-  animation: orbit-venus 5s linear infinite, rotate 6s infinite linear;
+  animation:
+    orbit-venus 5s linear infinite,
+    rotate 6s infinite linear;
 }
 .earth {
   width: 30px;
@@ -45,7 +49,9 @@ body {
   top: 48%;
   left: 48%;
   transform-origin: center bottom;
-  animation: orbit-earth 10s linear infinite, rotate 12s infinite linear;
+  animation:
+    orbit-earth 10s linear infinite,
+    rotate 12s infinite linear;
 }
 .moon-1 {
   width: 7px;
@@ -56,7 +62,9 @@ body {
   top: 5px;
   left: 40%;
   transform-origin: center bottom;
-  animation: orbit-moon-1 2s linear infinite, rotate 4s infinite linear;
+  animation:
+    orbit-moon-1 2s linear infinite,
+    rotate 4s infinite linear;
 }
 .mars {
   width: 25px;
@@ -67,7 +75,9 @@ body {
   top: 50%;
   left: 50%;
   transform-origin: center bottom;
-  animation: orbit-mars 8s linear infinite, rotate 10s infinite linear;
+  animation:
+    orbit-mars 8s linear infinite,
+    rotate 10s infinite linear;
 }
 .moon-2 {
   width: 5px;
@@ -78,7 +88,9 @@ body {
   top: 10px;
   left: 50%;
   transform-origin: center bottom;
-  animation: orbit-moon-2 5s linear infinite, rotate 10s infinite linear;
+  animation:
+    orbit-moon-2 5s linear infinite,
+    rotate 10s infinite linear;
 }
 
 .jupiter {
@@ -90,7 +102,9 @@ body {
   top: 100%;
   left: 100%;
   transform-origin: center;
-  animation: orbit-jupiter 15s linear infinite, rotate 15s infinite linear;
+  animation:
+    orbit-jupiter 15s linear infinite,
+    rotate 15s infinite linear;
 }
 
 .saturn {
@@ -102,7 +116,9 @@ body {
   top: 100%;
   left: 100%;
   transform-origin: center;
-  animation: orbit-jupiter 20s linear infinite, rotate 15s infinite linear;
+  animation:
+    orbit-jupiter 20s linear infinite,
+    rotate 15s infinite linear;
 }
 
 .uranus {
@@ -114,7 +130,9 @@ body {
   top: 90%;
   left: 90%;
   transform-origin: center;
-  animation: orbit-uranus 25s linear infinite, rotate 20s infinite linear;
+  animation:
+    orbit-uranus 25s linear infinite,
+    rotate 20s infinite linear;
 }
 
 .neptune {
@@ -126,7 +144,9 @@ body {
   top: 200%;
   left: 150%;
   transform-origin: center;
-  animation: orbit-neptune 30s linear infinite, rotate 35s infinite linear;
+  animation:
+    orbit-neptune 30s linear infinite,
+    rotate 35s infinite linear;
 }
 
 @keyframes rotate {

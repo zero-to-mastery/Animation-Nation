@@ -29,13 +29,17 @@ img {
   border-radius: 50%;
   position: absolute;
 
-  -webkit-animation: moveX 8s linear 0s infinite alternate,
+  -webkit-animation:
+    moveX 8s linear 0s infinite alternate,
     moveY 7.6s linear 0s infinite alternate;
-  -moz-animation: moveX 8s linear 0s infinite alternate,
+  -moz-animation:
+    moveX 8s linear 0s infinite alternate,
     moveY 7.6s linear 0s infinite alternate;
-  -o-animation: moveX 8s linear 0s infinite alternate,
+  -o-animation:
+    moveX 8s linear 0s infinite alternate,
     moveY 7.6s linear 0s infinite alternate;
-  animation: moveX 8s linear 0s infinite alternate,
+  animation:
+    moveX 8s linear 0s infinite alternate,
     moveY 7.6s linear 0s infinite alternate;
 }
 
