@@ -27,7 +27,8 @@ body {
   max-height: 400px;
   border-radius: 30px;
   background: #99a0bc;
-  box-shadow: rgba(207, 193, 193, 0.25) 0px 14px 28px,
+  box-shadow:
+    rgba(207, 193, 193, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 

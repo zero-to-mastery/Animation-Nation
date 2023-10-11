@@ -62,7 +62,9 @@
   top: 10px;
   right: 10px;
   background-color: #9b9091;
-  box-shadow: -12px 0 0 #9b9091, -24px 0 0 #9b9091;
+  box-shadow:
+    -12px 0 0 #9b9091,
+    -24px 0 0 #9b9091;
 }
 
 /*////medium section/////*/
