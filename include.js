@@ -92,6 +92,13 @@ let cards = [
     githubLink: 'https://github.com/smokeraven667'
   },
   {
+    artName: 'Kaleidoscope Animation',
+    pageLink: './Art/apu52/index.html',
+    imageLink: './Art/apu52/robot.gif',
+    author: 'Arpan Chowdhury',
+    githubLink: 'https://github.com/kaleidoscope animation'
+  },
+  {
     artName: 'Gradient Loader',
     pageLink: './Art/Kartikey Mishra/index.html',
     imageLink: './Art/Kartikey Mishra/GradientLoader.gif',
