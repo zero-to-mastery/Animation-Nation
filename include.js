@@ -113,6 +113,13 @@ let cards = [
     author: 'Aman Rawat',
     githubLink: 'https://github.com/amanr-dev'
   },
+   {
+    artName: 'Mood Swing',
+    pageLink: './Art/apu52/index.html',
+    imageLink: './Art/apu52/mood swing.png',
+    author: 'Arpan Chowdhury',
+    githubLink: 'https://github.com/apu52'
+  },
   {
     artName: 'Tic Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
