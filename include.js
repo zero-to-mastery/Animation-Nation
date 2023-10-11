@@ -2144,6 +2144,13 @@ let cards = [
     author: 'Roksolana',
     githubLink: 'https://github.com/RoksolanaVeres'
   }
+  {
+    artName: 'Flying Rat',
+    pageLink: './Art/Averei/index.html',
+    imageLink: './Art/Averei/moody-sunflower.gif',
+    author: 'Averei',
+    githubLink: 'https://github.com/Averei'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
