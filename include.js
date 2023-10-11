@@ -2081,7 +2081,7 @@ let cards = [
     author: 'Vinay Kokate',
     githubLink: 'https://github.com/VinayKokate22'
   },
-    {
+  {
     artName: 'Solar System',
     pageLink: './Art/Guransh_Deol/solar_system.html',
     imageLink: './Art/Guransh_Deol/solar.gif',
