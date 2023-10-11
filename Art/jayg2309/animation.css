@@ -44,12 +44,8 @@ body {
   width: 15px;
   height: 15px;
   background: #24ecff;
-  box-shadow:
-    0 0 0 5px #24ecff33,
-    0 0 0 10px #24ecff22,
-    0 0 0 25px #24ecff11,
-    0 0 25px #24ecff,
-    0 0 30px #24ecff;
+  box-shadow: 0 0 0 5px #24ecff33, 0 0 0 10px #24ecff22, 0 0 0 25px #24ecff11,
+    0 0 25px #24ecff, 0 0 30px #24ecff;
 }
 
 .container .ring:nth-child(2) {
@@ -68,12 +64,8 @@ body {
   width: 15px;
   height: 15px;
   background: #93ff2d;
-  box-shadow:
-    0 0 0 5px #93ff2d33,
-    0 0 0 10px #93ff2d22,
-    0 0 0 25px #93ff2d11,
-    0 0 25px #93ff2d,
-    0 0 30px #93ff2d;
+  box-shadow: 0 0 0 5px #93ff2d33, 0 0 0 10px #93ff2d22, 0 0 0 25px #93ff2d11,
+    0 0 25px #93ff2d, 0 0 30px #93ff2d;
 }
 @keyframes animate2 {
   0% {
@@ -101,12 +93,8 @@ body {
   width: 15px;
   height: 15px;
   background: #e41cf8;
-  box-shadow:
-    0 0 0 5px #e41cf833,
-    0 0 0 10px #e41cf822,
-    0 0 0 25px #e41cf811,
-    0 0 25px #e41cf8,
-    0 0 30px #e41cf8;
+  box-shadow: 0 0 0 5px #e41cf833, 0 0 0 10px #e41cf822, 0 0 0 25px #e41cf811,
+    0 0 25px #e41cf8, 0 0 30px #e41cf8;
 }
 .container p {
   position: absolute;
