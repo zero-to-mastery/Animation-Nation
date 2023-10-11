@@ -85,6 +85,13 @@ let cards = [
     githubLink: 'https://github.com/iamsnehadas'
   },
   {
+    artName: 'Submarine Animation',
+    pageLink: './Art/apu52/index.html',
+    imageLink: './Art/apu52/submarineanimation.png',
+    author: 'Arpan Chowdhury',
+    githubLink: 'https://github.com/apu52'
+  },
+  {
     artName: 'Tic Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
