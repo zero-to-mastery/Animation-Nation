@@ -2087,8 +2087,16 @@ let cards = [
     imageLink: './Art/ParzivalAFK/TwirlingSpheres.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
+  },
+  {
+    artName: 'Cool Animations', 
+    pageLink: './Art/dixitatgithub/index.html', 
+    imageLink: './Art/dixitatgithub/coolanimations.gif', 
+    author: 'Dixit',
+    githubLink: 'https://github.com/dixitatgithub' 
   }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
