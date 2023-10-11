@@ -2075,6 +2075,13 @@ let cards = [
     githubLink: 'https://github.com/samilabud'
   },
   {
+    artName: 'Blob',
+    pageLink: './Art/VinayKokate22/index.html',
+    imageLink: './Art/VinayKokate22/blob.gif',
+    author: 'Vinay Kokate',
+    githubLink: 'https://github.com/VinayKokate22'
+  },
+    {
     artName: 'Solar System',
     pageLink: './Art/Guransh_Deol/solar_system.html',
     imageLink: './Art/Guransh_Deol/solar.gif',
