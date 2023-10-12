@@ -38,6 +38,13 @@ let cards = [
     githubLink: 'https://github.com/Devanshumasodker'
   },
   {
+    artName: 'Day & night fox animation',
+    pageLink: './Art/apu52/index.html',
+    imageLink: './Art/apu52/Day & night fox img.jpg',
+    author: 'Arpan Chowdhury',
+    githubLink: 'https://github.com/apu52'
+  },
+  {
     artName: 'The Chakra',
     pageLink: './Art/Sahil/index.html',
     imageLink: './Art/Sahil/animation.gif',
