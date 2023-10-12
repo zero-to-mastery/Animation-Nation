@@ -6,6 +6,7 @@ let cards = [
     author: 'Sandesh-Pyakurel',
     githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
+  
   {
     artName: 'cube-with-Letter-Animation',
     pageLink: './Art/sufyanhabib/index.html',
