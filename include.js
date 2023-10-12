@@ -1,6 +1,5 @@
 let cards = [
- 
-  { 
+  {
     artName: 'loading-screen-ball-animation',
     pageLink: './Art/Sandesh-Pyakurel/index.html',
     imageLink: './Art/Sandesh-Pyakurel/animation.gif',
