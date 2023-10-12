@@ -2201,7 +2201,7 @@ let cards = [
     imageLink: './Art/manojna191/heartBeat.gif',
     author: 'Manojna',
     githubLink: 'https://github.com/manojna191'
-  }, 
+  },
   {
     artName: 'Colorama',
     pageLink: './Art/aaditkamat/index.html',
