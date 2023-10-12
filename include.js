@@ -2168,6 +2168,13 @@ let cards = [
     githubLink: 'https://github.com/RoksolanaVeres'
   },
   {
+    artName: 'HappyCat',
+    pageLink: './Art/dvasquez08/dave.html',
+    imageLink: './Art/dvasquez08/happy-cat.gif',
+    author: 'David Vasquez',
+    githubLink: 'https://github.com/dvasquez08'
+  },
+  {
     artName: 'Bubbly load',
     pageLink: './Art/Nachiketa/index.html',
     imageLink: './Art/Nachiketa/bubbly-load.gif',
