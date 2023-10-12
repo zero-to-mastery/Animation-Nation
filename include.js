@@ -21,11 +21,11 @@ let cards = [
     githubLink: 'https://github.com/sufyanhabib'
   },
   {
-    artName: 'Bouncing Balls', // change this to the name of your artwork
-    pageLink: './Art/<ahmedalhamad7>/index.html', // change this
-    imageLink: './Art/<ahmedalhamad7>/static picture.jpg', // change this
-    author: 'Ahmed', // use your name
-    githubLink: 'https://github.com/<ahmedalhamad7>' // change this
+    artName: 'Bouncing Balls',
+    pageLink: './Art/<ahmedalhamad7>/index.html',
+    imageLink: './Art/<ahmedalhamad7>/static picture.jpg',
+    author: 'Ahmed',
+    githubLink: 'https://github.com/<ahmedalhamad7>'
   },
   {
     artName: 'Borderline-and-Movement-Animation',
@@ -1483,6 +1483,13 @@ let cards = [
     imageLink: './Art/TaniaZaitouny/Animation.gif',
     author: 'Tania',
     githubLink: 'https://github.com/TaniaZaitouny'
+  },
+  {
+    artName: 'Parrot',
+    pageLink: './Art/SamrithaS/parrot.html',
+    imageLink: './Art/SamrithaS/parrot.gif',
+    author: 'Samritha',
+    githubLink: 'https://github.com/SamrithaS'
   }
 ];
 
