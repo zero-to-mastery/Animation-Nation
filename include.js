@@ -1,10 +1,26 @@
 let cards = [
   {
+    artName: 'loading-screen-ball-animation',
+    pageLink: './Art/Sandesh-Pyakurel/index.html',
+    imageLink: './Art/Sandesh-Pyakurel/animation.gif',
+    author: 'Sandesh-Pyakurel',
+    githubLink: 'https://github.com/Sandesh-Pyakurel'
+  },
+
+  {
     artName: 'cube-with-Letter-Animation',
     pageLink: './Art/sufyanhabib/index.html',
     imageLink: './Art/sufyanhabib/cube-with-Letter-Animation.gif',
     author: 'sufyanhabib',
     githubLink: 'https://github.com/sufyanhabib'
+  },
+
+  {
+    artName: 'Borderline-and-Movement-Animation',
+    pageLink: './Art/Ayansaxena24/index.html',
+    imageLink: './Art/Ayansaxena24/Hacktoberfest-Animation.gif',
+    author: 'Ayan Saxena',
+    githubLink: 'https://github.com/Ayansaxena24'
   },
 
   {
@@ -2117,6 +2133,13 @@ let cards = [
     githubLink: 'https://github.com/Loukas4'
   },
   {
+    artName: 'Ambient-Effect',
+    pageLink: './Art/Keshab1113/index.html',
+    imageLink: './Art/Keshab1113/mobile.gif',
+    author: 'Keshab',
+    githubLink: 'https://github.com/Keshab1113'
+  },
+  {
     artName: 'Dragon Loading Animation',
     pageLink: './Art/AnkitaSikdar005/index.html',
     imageLink: './Art/AnkitaSikdar005/animation gif.gif',
@@ -2143,7 +2166,6 @@ let cards = [
     imageLink: './Art/RoksolanaVeres/moody-sunflower.gif',
     author: 'Roksolana',
     githubLink: 'https://github.com/RoksolanaVeres'
-
   },
   {
     artName: 'HappyCat',
@@ -2151,6 +2173,13 @@ let cards = [
     imageLink: './Art/dvasquez08/happy-cat.gif',
     author: 'David Vasquez',
     githubLink: 'https://github.com/dvasquez08'
+  },
+  {
+    artName: 'Bubbly load',
+    pageLink: './Art/Nachiketa/index.html',
+    imageLink: './Art/Nachiketa/bubbly-load.gif',
+    author: 'Nachiketa',
+    githubLink: 'https://github.com/NachiketaDhal'
   }
 ];
 
