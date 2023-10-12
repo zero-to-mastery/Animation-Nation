@@ -2187,11 +2187,18 @@ let cards = [
     imageLink: './Art/Nachiketa/bubbly-load.gif',
     author: 'Nachiketa',
     githubLink: 'https://github.com/NachiketaDhal'
-  }
+  },
   {
     artName: 'Blooming flowers',
     pageLink: './Art/Asymtode712/index.html',
     imageLink: './Art/Asymtode712/blooming flowers.gif',
+    author: 'Asymtode712',
+    githubLink: 'https://github.com/Asymtode712'
+  },
+  {
+    artName: 'Growing flower',
+    pageLink: './Art/Asymtode712/gflower.html',
+    imageLink: './Art/Asymtode712/growing flower.gif',
     author: 'Asymtode712',
     githubLink: 'https://github.com/Asymtode712'
   }
