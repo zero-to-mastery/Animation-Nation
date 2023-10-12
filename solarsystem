@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Solar System by Arsh</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+
+    <link rel="icon" href="imgs/icon.png">
+
+    <script>
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "96bkthmwjq");
+    </script>
+</head>
+<body>
+    <div class="nav">
+        <a href="https://arshsaxena.github.io" target="_blank"><img src="imgs/arsh.png" alt=""> Arsh Saxena</a> 
+        <span class="seperator">•</span> 
+        <a href="https://instagram.com/arsh.saxena02" target="_blank"><i class="fab fa-instagram"></i> Instagram</a> 
+        <span class="seperator">•</span>  
+        <a href="https://github.com/arshsaxena" target="_blank"><i class="fab fa-github"></i> GitHub</a> 
+        <span class="seperator">•</span>  
+        <a href="https://twitter.com/arshsaxena02" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+    </div>
+    <br>
+    <div class="container">
+        <div class="mobile-description">
+            Sorry, this page is not responsive.🙁
+            <br>
+            I know it's not right but I can't help it. Please try to use it horizontal orientation or in "Desktop Mode", it should work.😊
+            
+        </div>
+        <div class="ss-conatiner">
+            <ul class="solar-system">
+                <li class="star sun-star">
+                    <span>
+                        Sun
+                    </span>
+                </li>
+                <li class="planet mercury-planet">
+                    <span>
+                        Mercury
+                    </span>
+                </li>
+                <li class="planet venus-planet">
+                    <span>
+                        Venus
+                    </span>
+                </li>
+                <li class="planet earth-planet">
+                    <span>
+                        Earth
+                        <span class="earth-moon"> 
+                            &amp;
+                            Moon
+                        </span>
+                    </span>
+                </li>
+                <li class="planet mars-planet">
+                    <span>
+                        Mars
+                    </span>
+                </li>
+                <li class="asteroids-meteorids">
+                    <span>
+                        Asteroids &amp; Meteorids
+                    </span>
+                </li>
+                <li class="planet jupiter-planet">
+                    <span>
+                        Jupiter
+                    </span>
+                </li>
+                <li class="planet saturn-planet">
+                    <span>
+                        Saturn 
+                        &amp; 
+                        <span class="saturn-ring">
+                            Ring
+                        </span>
+                    </span>
+                </li>
+                <li class="planet uranus-planet">
+                    <span>
+                        Uranus
+                    </span>
+                </li>
+                <li class="planet neptune-planet">
+                    <span>
+                        Neptune
+                    </span>
+                </li>
+                <li class="planet pluto-planet">
+                    <span>
+                        Pluto
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="text">
+            <div class="heading"><b>SOLAR SYSTEM</b></div>
+            <span class="heading-text">ARSH SAXENA</span>
+            <br>            
+            <span id="clock" class="clock"></span>
+            <br><br><br>
+            <ul class="planets-years-passed">
+                <li>
+                    <span id="mercury-counter" class="mercury-color counter"></span>
+                    <span class="counter">years have passed on <span class="mercury-color">Mercury</span>.</span>
+                </li>
+                <li>
+                    <span id="venus-counter"class="venus-color counter"></span>
+                    <span class="counter">years have passed on <span class="venus-color">Venus</span>.</span>
+                </li>
+                <li>
+                    <span id="earth-counter" class="earth-color counter"></span>
+                    <span class="counter">years have passed on <span class="earth-color">Earth</span>.</span>
+                </li>
+                <li>
+                    <span id="mars-counter" class="mars-color counter"></span>
+                    <span class="counter">years have passed on <span class="mars-color">Mars</span>.</span>
+                </li>
+                <li>
+                    <span id="asteroid-belt-counter" class="asteroid-belt-color counter"></span>
+                    <span class="counter">times <span class="asteroid-belt-color">asteroid belt</span> has revolved.</span>
+                </li>
+                <li>
+                    <span id="jupiter-counter" class="jupiter-color counter"></span>
+                    <span class="counter">years have passed on <span class="jupiter-color">Jupiter</span>.</span>
+                </li>
+                <li>
+                    <span id="saturn-counter" class="saturn-color counter"></span>
+                    <span class="counter">years have passed on <span class="saturn-color">Saturn</span>.</span>
+                </li>
+                <li>
+                    <span id="uranus-counter" class="uranus-color counter"></span>
+                    <span class="counter">years have passed on <span class="uranus-color">Uranus</span>.</span>
+                </li>
+                <li>
+                    <span id="neptune-counter" class="neptune-color counter"></span>
+                    <span class="counter">years have passed on <span class="neptune-color">Neptune</span>.</span>
+                </li>
+                <li>
+                    <span id="pluto-counter" class="pluto-color counter"></span>
+                    <span class="counter">years have passed on <span class="pluto-color">Pluto</span>.</span>
+                </li>
+            </ul>
+            <br>
+            Yes, I've included Pluto!
+            <br>
+            <br>
+            1 earth-year in this solar system = 7.2 seconds on the real earth
+            <br>
+            <br>
+            Copyright &copy 2023 Arsh Saxena.
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
