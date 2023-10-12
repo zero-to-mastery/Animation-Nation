@@ -6,64 +6,51 @@ body {
   margin: 0;
 }
 
-
 /* ==============================================================================
 ====== The div where everything for the cat features are stored so when ======
 configurations are made in this div, it effects everything such as the roation
 ============================================================================== */
 
-
-
 .cat-head {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15%;
-    margin-left: 40%;
-    padding: 50px;
-    width: 100px;
-    animation: rotate 1s linear infinite alternate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+  margin-left: 40%;
+  padding: 50px;
+  width: 100px;
+  animation: rotate 1s linear infinite alternate;
 }
-
 
 /* =======================================
 ===== Sets the colour of the eyes =====
 ======================================= */
 
-
-
-.left-eye, .right-eye {
-    color: #000000;
+.left-eye,
+.right-eye {
+  color: #000000;
 }
-
-
-
 
 /* =======================================================================
 ===== Sets the colour and size of the whole head, all eyes, ears, ===== 
 ====== nose and mouth are stored within this face div together ========
 ======================================================================= */
 
-
-
 .face {
-    background-color: #e9c46a;
-    width: 180px;
-    height: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 2px solid #e9c46a;
-    border-radius: 50%;
+  background-color: #e9c46a;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #e9c46a;
+  border-radius: 50%;
 }
-
 
 /* =====================================
 ===== The settings for the ears =====
 ===================================== */
-
-
 
 .left-ear {
   background-color: #e9c46a;
@@ -89,13 +76,9 @@ configurations are made in this div, it effects everything such as the roation
   transform: rotate(-12deg);
 }
 
-
-
 /* ===========================================================================
 ===== The settings to make the appearance and positioning of the eyes =====
 =========================================================================== */
-
-
 
 .right-eye {
   width: 12px;
@@ -113,7 +96,7 @@ configurations are made in this div, it effects everything such as the roation
 .left-eye {
   width: 14px;
   height: 14px;
-  background-color: transparent; 
+  background-color: transparent;
   position: relative;
   border-top: 3px solid #000;
   z-index: auto;
@@ -123,12 +106,9 @@ configurations are made in this div, it effects everything such as the roation
   top: 49px;
 }
 
-
 /* ==================================================================
 ===== Configuration for the left and right mouth of the face =====
 ================================================================== */
-
-
 
 .mouth-left {
   width: 80px;
@@ -162,15 +142,13 @@ configurations are made in this div, it effects everything such as the roation
   top: 16%;
 }
 
-
-
 /* ================================================================
 ===== Configuration for left and right whiskers appearance =====
 ================================================================ */
 
-
-
-.left-whisker-1, .left-whisker-2, .left-whisker-3 {
+.left-whisker-1,
+.left-whisker-2,
+.left-whisker-3 {
   width: 40px;
   height: 40px;
   background-color: transparent;
@@ -182,7 +160,9 @@ configurations are made in this div, it effects everything such as the roation
   z-index: auto;
 }
 
-.right-whisker-1, .right-whisker-2, .right-whisker-3 {
+.right-whisker-1,
+.right-whisker-2,
+.right-whisker-3 {
   width: 40px;
   height: 40px;
   background-color: transparent;
@@ -193,12 +173,10 @@ configurations are made in this div, it effects everything such as the roation
   position: relative;
   z-index: auto;
 }
-
 
 /* ====================================================
 ===== Configuration for left whiskers position ===== 
 ==================================================== */
-
 
 .left-whisker-1 {
   bottom: 6px;
@@ -217,12 +195,9 @@ configurations are made in this div, it effects everything such as the roation
   transform: rotate(-24deg);
 }
 
-
-
 /* ====================================================
 ===== Configuration for right whiskers position ===== 
 ==================================================== */
-
 
 .right-whisker-1 {
   left: 68%;
@@ -241,18 +216,15 @@ configurations are made in this div, it effects everything such as the roation
   transform: rotate(24deg);
 }
 
-
 /* ===========================================================
 ===== The keyframe settings that makes the cat rotate =====
 =========================================================== */
 
-
-
 @keyframes rotate {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(35deg);
+    transform: rotate(35deg);
   }
 }
