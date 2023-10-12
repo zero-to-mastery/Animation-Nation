@@ -1,10 +1,10 @@
 let cards = [
   {
-    artName: 'Flower-Blade-Chakra',
-    pageLink: './Art/rishabh22204901/index.html',
-    imageLink: './Art/rishabh22204901/rishabh22204901.gif',
-    author: 'rishabh22204901',
-    githubLink: 'https://github.com/rishabh22204901'
+    artName: 'loading-screen-ball-animation',
+    pageLink: './Art/Sandesh-Pyakurel/index.html',
+    imageLink: './Art/Sandesh-Pyakurel/animation.gif',
+    author: 'Sandesh-Pyakurel',
+    githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
   {
     artName: 'cube-with-Letter-Animation',
@@ -12,6 +12,14 @@ let cards = [
     imageLink: './Art/sufyanhabib/cube-with-Letter-Animation.gif',
     author: 'sufyanhabib',
     githubLink: 'https://github.com/sufyanhabib'
+  },
+
+  {
+    artName: 'Borderline-and-Movement-Animation',
+    pageLink: './Art/Ayansaxena24/index.html',
+    imageLink: './Art/Ayansaxena24/Hacktoberfest-Animation.gif',
+    author: 'Ayan Saxena',
+    githubLink: 'https://github.com/Ayansaxena24'
   },
 
   {
@@ -2124,6 +2132,13 @@ let cards = [
     githubLink: 'https://github.com/Loukas4'
   },
   {
+    artName: 'Ambient-Effect',
+    pageLink: './Art/Keshab1113/index.html',
+    imageLink: './Art/Keshab1113/mobile.gif',
+    author: 'Keshab',
+    githubLink: 'https://github.com/Keshab1113'
+  },
+  {
     artName: 'Dragon Loading Animation',
     pageLink: './Art/AnkitaSikdar005/index.html',
     imageLink: './Art/AnkitaSikdar005/animation gif.gif',
@@ -2150,6 +2165,13 @@ let cards = [
     imageLink: './Art/RoksolanaVeres/moody-sunflower.gif',
     author: 'Roksolana',
     githubLink: 'https://github.com/RoksolanaVeres'
+  },
+  {
+    artName: 'Flower-Blade-Chakra',
+    pageLink: './Art/rishabh22204901/index.html',
+    imageLink: './Art/rishabh22204901/rishabh22204901.gif',
+    author: 'rishabh22204901',
+    githubLink: 'https://github.com/rishabh22204901'
   }
 ];
 
