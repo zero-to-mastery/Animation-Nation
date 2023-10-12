@@ -1,4 +1,13 @@
 let cards = [
+ 
+  { 
+    artName: 'loading-screen-ball-animation',
+    pageLink: './Art/Sandesh-Pyakurel/index.html',
+    imageLink: './Art/Sandesh-Pyakurel/animation.gif',
+    author: 'Sandesh-Pyakurel',
+    githubLink: 'https://github.com/Sandesh-Pyakurel'
+  },
+
   {
     artName: 'cube-with-Letter-Animation',
     pageLink: './Art/sufyanhabib/index.html',
