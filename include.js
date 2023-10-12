@@ -1454,6 +1454,13 @@ let cards = [
     imageLink: './Art/brando161/burnout.gif',
     author: 'brando161',
     githubLink: 'https://github.com/brando161'
+  },
+  {
+    artName: '',
+    pageLink: './Art//index.html',
+    imageLink: './Art//triangle.gif',
+    author: 'Edward',
+    githubLink: 'https://github.com/xed43'
   }
 ];
 
