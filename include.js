@@ -1395,6 +1395,13 @@ let cards = [
     imageLink: './Art/Sai/ani1.gif',
     author: 'Sai',
     githubLink: 'https://github.com/SaiAryan1784'
+  },
+  {
+    artName: 'Smiley Pumpkin', // change this to the name of your artwork
+    pageLink: './Art/TaniaZaitouny/index.html', // change this
+    imageLink: './Art/TaniaZaitouny/Animation.gif', // change this
+    author: 'Tania', // use your name
+    githubLink: 'https://github.com/TaniaZaitouny' // change this
   }
 ];
 
