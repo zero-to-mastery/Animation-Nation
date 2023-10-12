@@ -2187,6 +2187,13 @@ let cards = [
     imageLink: './Art/Nachiketa/bubbly-load.gif',
     author: 'Nachiketa',
     githubLink: 'https://github.com/NachiketaDhal'
+  },
+  {
+    artName: 'BMH', // change this to the name of your artwork
+    pageLink: './Art/HarrisMBrad/index.html', // change this
+    imageLink: './Art/HarrisMBrad/BMH 2023-10-12 11-17-49.gif', // change this
+    author: 'Brad M Harris', // use your name
+    githubLink: 'https://github.com/HarrisMBrad/Anim8tion-9ation/' // change this
   }
 ];
 
