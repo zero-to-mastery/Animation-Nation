@@ -2189,6 +2189,13 @@ let cards = [
     githubLink: 'https://github.com/RoksolanaVeres'
   },
   {
+    artName: 'Two Cute Candles',
+    pageLink: './Art/5h0ov/index.html',
+    imageLink: './Art/5h0ov/candles.gif',
+    author: '5h0ov',
+    githubLink: 'https://github.com/5h0ov'
+  },
+    {
     artName: 'HappyCat',
     pageLink: './Art/dvasquez08/dave.html',
     imageLink: './Art/dvasquez08/happy-cat.gif',
