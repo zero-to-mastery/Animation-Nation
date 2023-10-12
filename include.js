@@ -2146,7 +2146,8 @@ let cards = [
     author: 'Ashish',
     githubLink: 'https://github.com/ashish5433'
   },
-    {artName: 'Ambient-Effect',
+  {
+    artName: 'Ambient-Effect',
     pageLink: './Art/Keshab1113/index.html',
     imageLink: './Art/Keshab1113/mobile.gif',
     author: 'Keshab',
@@ -2194,8 +2195,6 @@ let cards = [
     author: 'Nachiketa',
     githubLink: 'https://github.com/NachiketaDhal'
   }
-  
-
 ];
 
 // +--------------------------------------------------------------------------------+
