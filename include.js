@@ -6,7 +6,13 @@ let cards = [
     author: 'Sandesh-Pyakurel',
     githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
-
+  {
+    artName: 'cloudy-rain',
+    pageLink: './Art/Ajeetraj/index.html',
+    imageLink: './Art/Ajeetraj/cloud.png',
+    author: 'Ajeetraj',
+    githubLink: 'https://github.com/ajeetraj11'
+  },
   {
     artName: 'cube-with-Letter-Animation',
     pageLink: './Art/sufyanhabib/index.html',
@@ -36,6 +42,13 @@ let cards = [
     imageLink: './Art/devanshumasodker/Chakra.PNG',
     author: 'devanshumasodker',
     githubLink: 'https://github.com/Devanshumasodker'
+  },
+  {
+    artName: 'Day & night fox animation',
+    pageLink: './Art/apu52/index.html',
+    imageLink: './Art/apu52/Day & night fox img.jpg',
+    author: 'Arpan Chowdhury',
+    githubLink: 'https://github.com/apu52'
   },
   {
     artName: 'The Chakra',
@@ -1167,6 +1180,13 @@ let cards = [
     githubLink: 'https://github.com/BlueHeart0065'
   },
   {
+    artName: 'Pixar animation',
+    pageLink: './Art/BlueHeartsecond/pixar.html',
+    imageLink: './Art/BlueHeartsecond/pixar.gif',
+    author: 'Sahil',
+    githubLink: 'https://github.com/BlueHeart0065'
+  },
+  {
     artName: 'ZTM Cube',
     pageLink: './Art/williamstophef/index.html',
     imageLink: './Art/williamstophef/CubeArt.gif',
@@ -2140,6 +2160,13 @@ let cards = [
     githubLink: 'https://github.com/Loukas4'
   },
   {
+    artName: 'Car Animation',
+    pageLink: './Art/Car Aminated/car.html',
+    imageLink: './Art/Car Aminated/Screenshot (502).png',
+    author: 'Ashish',
+    githubLink: 'https://github.com/ashish5433'
+  },
+  {
     artName: 'Ambient-Effect',
     pageLink: './Art/Keshab1113/index.html',
     imageLink: './Art/Keshab1113/mobile.gif',
@@ -2175,6 +2202,34 @@ let cards = [
     githubLink: 'https://github.com/RoksolanaVeres'
   },
   {
+    artName: 'Wavy boucing ball',
+    pageLink: './Art/Swadeshit27/index.html',
+    imageLink: './Art/Swadeshit27/mobile.gif',
+    author: 'Swadesh Pal',
+    githubLink: 'https://github.com/Swadeshit27'
+  },
+  {
+    artName: 'Heart Beat',
+    pageLink: './Art/manojna191/index.html',
+    imageLink: './Art/manojna191/heartBeat.gif',
+    author: 'Manojna',
+    githubLink: 'https://github.com/manojna191'
+  },
+  {
+    artName: 'Colorama',
+    pageLink: './Art/aaditkamat/index.html',
+    imageLink: './Art/aaditkamat/animation.gif',
+    author: 'aaditkamat',
+    githubLink: 'https://github.com/aaditkamat'
+  },
+  {
+    artName: 'Two Cute Candles',
+    pageLink: './Art/5h0ov/index.html',
+    imageLink: './Art/5h0ov/candles.gif',
+    author: '5h0ov',
+    githubLink: 'https://github.com/5h0ov'
+  },
+  {
     artName: 'HappyCat',
     pageLink: './Art/dvasquez08/dave.html',
     imageLink: './Art/dvasquez08/happy-cat.gif',
@@ -2201,6 +2256,13 @@ let cards = [
     imageLink: './Art/Asymtode712/growing flower.gif',
     author: 'Asymtode712',
     githubLink: 'https://github.com/Asymtode712'
+  },
+  {
+    artName: 'classic-loader',
+    pageLink: './Art/ramanamatya/index.html',
+    imageLink: './Art/ramanamatya/load.gif',
+    author: 'ramanamatya',
+    githubLink: 'https://github.com/ramanamatya'
   }
 ];
 
