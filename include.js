@@ -2196,6 +2196,13 @@ let cards = [
     githubLink: 'https://github.com/RoksolanaVeres'
   },
   {
+    artName: 'Heart Beat',
+    pageLink: './Art/manojna191/index.html',
+    imageLink: './Art/manojna191/heartBeat.gif',
+    author: 'Manojna',
+    githubLink: 'https://github.com/manojna191'
+  }, 
+  {
     artName: 'Colorama',
     pageLink: './Art/aaditkamat/index.html',
     imageLink: './Art/aaditkamat/animation.gif',
