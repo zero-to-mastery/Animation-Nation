@@ -16,6 +16,14 @@ let cards = [
   },
 
   {
+    artName: 'Borderline-and-Movement-Animation',
+    pageLink: './Art/Ayansaxena24/index.html',
+    imageLink: './Art/Ayansaxena24/Hacktoberfest-Animation.gif',
+    author: 'Ayan Saxena',
+    githubLink: 'https://github.com/Ayansaxena24'
+  },
+
+  {
     artName: 'Circle Animation',
     pageLink: './Art/Sahil/index.html',
     imageLink: './Art/Sahil/animation.gif',
