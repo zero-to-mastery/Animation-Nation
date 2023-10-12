@@ -6,7 +6,7 @@ let cards = [
     author: 'Sandesh-Pyakurel',
     githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
- {
+  {
     artName: 'cloudy-rain',
     pageLink: './Art/Ajeetraj/index.html',
     imageLink: './Art/Ajeetraj/cloud.png',
@@ -2249,8 +2249,7 @@ let cards = [
     imageLink: './Art/ramanamatya/load.gif',
     author: 'ramanamatya',
     githubLink: 'https://github.com/ramanamatya'
-  },
-
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
