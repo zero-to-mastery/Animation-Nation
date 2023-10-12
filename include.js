@@ -2112,6 +2112,13 @@ let cards = [
     githubLink: 'https://github.com/psqaure11'
   },
   {
+    artName: 'Rectangle Animation',
+    pageLink: './Art/Aditya/index.html',
+    imageLink: './Art/Aditya/index.gif',
+    author: 'Aditya',
+    githubLink: 'https://github.com/aditya7302'
+  },
+  {
     artName: 'Marvels God of Mischeif LoKi ',
     pageLink: './Art/Adhiraj/index.html',
     imageLink: './Art/Adhiraj/lokiAnimation.gif',
