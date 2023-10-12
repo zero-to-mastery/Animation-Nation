@@ -1476,6 +1476,13 @@ let cards = [
     imageLink: './Art/rishabh22204901/rishabh22204901.gif',
     author: 'rishabh22204901',
     githubLink: 'https://github.com/rishabh22204901'
+  },
+  {
+    artName: 'Smiley Pumpkin',
+    pageLink: './Art/TaniaZaitouny/index.html',
+    imageLink: './Art/TaniaZaitouny/Animation.gif',
+    author: 'Tania',
+    githubLink: 'https://github.com/TaniaZaitouny'
   }
 ];
 
