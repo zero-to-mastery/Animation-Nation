@@ -2194,6 +2194,13 @@ let cards = [
     imageLink: './Art/RoksolanaVeres/moody-sunflower.gif',
     author: 'Roksolana',
     githubLink: 'https://github.com/RoksolanaVeres'
+  }, 
+  {
+    artName: 'Colorama',
+    pageLink: './Art/aaditkamat/index.html',
+    imageLink: './Art/aaditkamat/animation.gif',
+    author: 'aaditkamat',
+    githubLink: 'https://github.com/aaditkamat'
   },
   {
     artName: 'Two Cute Candles',
