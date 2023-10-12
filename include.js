@@ -1512,6 +1512,14 @@ let cards = [
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
   },
+  {
+    artName: 'Bubbles', 
+    pageLink: './Art/neha3423/index.html',
+    imageLink: './Art/neha3423/bubbles.gif', 
+    author: 'Neha', 
+    githubLink: 'https://github.com/neha3423'
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
