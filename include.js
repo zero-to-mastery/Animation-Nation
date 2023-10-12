@@ -2188,6 +2188,13 @@ let cards = [
     author: 'Nachiketa',
     githubLink: 'https://github.com/NachiketaDhal'
   }
+  {
+    artName: 'Blooming flowers',
+    pageLink: './Art/Asymtode712/index.html',
+    imageLink: './Art/Asymtode712/blooming flowers.gif',
+    author: 'Asymtode712',
+    githubLink: 'https://github.com/Asymtode712'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
