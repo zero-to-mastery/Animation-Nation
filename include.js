@@ -20,7 +20,16 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-let cards = [
+let cards = [ 
+
+  
+    {
+      artName: 'Animated Image Portfolio', // change this to the name of your artwork
+      imageLink: '/Art/Ankit_Image_Portfolio/Preview.png', // change this
+      author: 'Ankit Rajput', // use your name
+      githubLink: 'https://github.com/ankit0049' // change this
+    }
+  
   {
     artName: 'loading-screen-ball-animation',
     pageLink: './Art/Sandesh-Pyakurel/index.html',
