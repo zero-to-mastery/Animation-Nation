@@ -1440,7 +1440,14 @@ let cards = [
     imageLink: './Art/Lefie/cross.gif',
     author: 'Lemon',
     githubLink: 'https://github.com/Lefie'
-  }
+  },
+  {
+    artName: 'Bouncing Ball',
+    pageLink: './Art/ball/index.html',
+    imageLink: './Art/ball/bouncing-ball.gif',
+    author: 'Varian1',
+    githubLink: 'https://github.com/varian1'
+  },
   {
     artName: 'Burnout',
     pageLink: './Art/brando161/index.html',
