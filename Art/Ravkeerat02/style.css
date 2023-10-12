@@ -1,6 +1,10 @@
 body {
   margin: 0;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
 }
 
 .road {
