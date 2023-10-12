@@ -2173,7 +2173,15 @@ let cards = [
     imageLink: './Art/Nachiketa/bubbly-load.gif',
     author: 'Nachiketa',
     githubLink: 'https://github.com/NachiketaDhal'
-  }
+  },
+  {
+    artName: 'classic-loader',
+    pageLink: './Art/ramanamatya/index.html',
+    imageLink: './Art/ramanamatya/load.gif',
+    author: 'ramanamatya',
+    githubLink: 'https://github.com/ramanamatya'
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
