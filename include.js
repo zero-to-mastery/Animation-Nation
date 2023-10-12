@@ -1,10 +1,26 @@
 let cards = [
   {
+    artName: 'loading-screen-ball-animation',
+    pageLink: './Art/Sandesh-Pyakurel/index.html',
+    imageLink: './Art/Sandesh-Pyakurel/animation.gif',
+    author: 'Sandesh-Pyakurel',
+    githubLink: 'https://github.com/Sandesh-Pyakurel'
+  },
+
+  {
     artName: 'cube-with-Letter-Animation',
     pageLink: './Art/sufyanhabib/index.html',
     imageLink: './Art/sufyanhabib/cube-with-Letter-Animation.gif',
     author: 'sufyanhabib',
     githubLink: 'https://github.com/sufyanhabib'
+  },
+
+  {
+    artName: 'Borderline-and-Movement-Animation',
+    pageLink: './Art/Ayansaxena24/index.html',
+    imageLink: './Art/Ayansaxena24/Hacktoberfest-Animation.gif',
+    author: 'Ayan Saxena',
+    githubLink: 'https://github.com/Ayansaxena24'
   },
 
   {
@@ -20,6 +36,13 @@ let cards = [
     imageLink: './Art/devanshumasodker/Chakra.PNG',
     author: 'devanshumasodker',
     githubLink: 'https://github.com/Devanshumasodker'
+  },
+  {
+    artName: 'Day & night fox animation',
+    pageLink: './Art/apu52/index.html',
+    imageLink: './Art/apu52/Day & night fox img.jpg',
+    author: 'Arpan Chowdhury',
+    githubLink: 'https://github.com/apu52'
   },
   {
     artName: 'The Chakra',
@@ -1151,6 +1174,13 @@ let cards = [
     githubLink: 'https://github.com/BlueHeart0065'
   },
   {
+    artName: 'Pixar animation',
+    pageLink: './Art/BlueHeartsecond/pixar.html',
+    imageLink: './Art/BlueHeartsecond/pixar.gif',
+    author: 'Sahil',
+    githubLink: 'https://github.com/BlueHeart0065'
+  },
+  {
     artName: 'ZTM Cube',
     pageLink: './Art/williamstophef/index.html',
     imageLink: './Art/williamstophef/CubeArt.gif',
@@ -2096,6 +2126,13 @@ let cards = [
     githubLink: 'https://github.com/psqaure11'
   },
   {
+    artName: 'Rectangle Animation',
+    pageLink: './Art/Aditya/index.html',
+    imageLink: './Art/Aditya/index.gif',
+    author: 'Aditya',
+    githubLink: 'https://github.com/aditya7302'
+  },
+  {
     artName: 'Marvels God of Mischeif LoKi ',
     pageLink: './Art/Adhiraj/index.html',
     imageLink: './Art/Adhiraj/lokiAnimation.gif',
@@ -2115,6 +2152,20 @@ let cards = [
     imageLink: './Art/Loukas4/Circles.gif',
     author: 'Loukas',
     githubLink: 'https://github.com/Loukas4'
+  },
+  {
+    artName: 'Car Animation',
+    pageLink: './Art/Car Aminated/car.html',
+    imageLink: './Art/Car Aminated/Screenshot (502).png',
+    author: 'Ashish',
+    githubLink: 'https://github.com/ashish5433'
+  },
+  {
+    artName: 'Ambient-Effect',
+    pageLink: './Art/Keshab1113/index.html',
+    imageLink: './Art/Keshab1113/mobile.gif',
+    author: 'Keshab',
+    githubLink: 'https://github.com/Keshab1113'
   },
   {
     artName: 'Dragon Loading Animation',
@@ -2150,6 +2201,34 @@ let cards = [
     imageLink: './Art/manojna191/heartBeat.gif',
     author: 'Manojna',
     githubLink: 'https://github.com/manojna191'
+  }, 
+  {
+    artName: 'Colorama',
+    pageLink: './Art/aaditkamat/index.html',
+    imageLink: './Art/aaditkamat/animation.gif',
+    author: 'aaditkamat',
+    githubLink: 'https://github.com/aaditkamat'
+  },
+  {
+    artName: 'Two Cute Candles',
+    pageLink: './Art/5h0ov/index.html',
+    imageLink: './Art/5h0ov/candles.gif',
+    author: '5h0ov',
+    githubLink: 'https://github.com/5h0ov'
+  },
+  {
+    artName: 'HappyCat',
+    pageLink: './Art/dvasquez08/dave.html',
+    imageLink: './Art/dvasquez08/happy-cat.gif',
+    author: 'David Vasquez',
+    githubLink: 'https://github.com/dvasquez08'
+  },
+  {
+    artName: 'Bubbly load',
+    pageLink: './Art/Nachiketa/index.html',
+    imageLink: './Art/Nachiketa/bubbly-load.gif',
+    author: 'Nachiketa',
+    githubLink: 'https://github.com/NachiketaDhal'
   }
 ];
 
