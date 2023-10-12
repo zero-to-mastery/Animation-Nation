@@ -8,7 +8,7 @@ body {
   width: 100%;
   height: 100vh;
   display: grid;
-  padding:  15rem 0;
+  padding: 15rem 0;
   place-items: center;
   animation: colorcng 2s linear infinite;
 }
