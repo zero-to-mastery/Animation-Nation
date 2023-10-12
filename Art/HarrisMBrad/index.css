@@ -14,6 +14,20 @@ html {
   background-color: whitesmoke;
 }
 
+.loader {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(
+    165deg,
+    #ffc800 0%,
+    rgb(255 127 0 / 83%) 40%,
+    #ff000059 98%,
+    rgb(10, 10, 10) 100%
+  );
+  border-radius: 50%;
+  position: relative;
+}
+
 #B {
   animation: rotate 7s infinite linear;
 }
