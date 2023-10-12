@@ -2195,6 +2195,13 @@ let cards = [
     githubLink: 'https://github.com/parzivalafk'
   },
   {
+    artName: 'Cool Animations',
+    pageLink: './Art/dixitatgithub/index.html',
+    imageLink: './Art/dixitatgithub/coolanimations.gif',
+    author: 'Dixit',
+    githubLink: 'https://github.com/dixitatgithub'
+  },
+  {
     artName: 'Moody Sunflower',
     pageLink: './Art/RoksolanaVeres/index.html',
     imageLink: './Art/RoksolanaVeres/moody-sunflower.gif',
