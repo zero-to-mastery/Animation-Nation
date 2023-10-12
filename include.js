@@ -1490,6 +1490,13 @@ let cards = [
     imageLink: './Art/SamrithaS/parrot.gif',
     author: 'Samritha',
     githubLink: 'https://github.com/SamrithaS'
+  },
+  {
+    artName: 'Rotating-Cube',
+    pageLink: './Art/Vivek-GuptaXCode/index.html',
+    imageLink: '/Art/Vivek-GuptaXCode/rotating-cube.gif',
+    author: 'Vivek-GuptaXCode',
+    githubLink: 'https://github.com/Vivek-GuptaXCode'
   }
 ];
 
