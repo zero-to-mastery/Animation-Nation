@@ -736,6 +736,13 @@ let cards = [
     githubLink: 'https://github.com/Baku452'
   },
   {
+    artName: 'Let the Sunshine In', 
+    pageLink: './Art/Sunshine/sunshine.html', 
+    imageLink: './Art/Sunshine/styles.css', 
+    author: 'LucileTech', 
+    githubLink: 'https://https://github.com/LucileTech' 
+  },
+  {
     artName: 'Heaart',
     pageLink: './Art/Neha045/index.html',
     imageLink: './Art/Neha045/animation.gif',
