@@ -6,7 +6,13 @@ let cards = [
     author: 'Sandesh-Pyakurel',
     githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
-
+ {
+    artName: 'cloudy-rain',
+    pageLink: './Art/Ajeetraj/index.html',
+    imageLink: './Art/Ajeetraj/cloud.png',
+    author: 'Ajeetraj',
+    githubLink: 'https://github.com/ajeetraj11'
+  },
   {
     artName: 'cube-with-Letter-Animation',
     pageLink: './Art/sufyanhabib/index.html',
