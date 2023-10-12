@@ -2195,7 +2195,7 @@ let cards = [
     author: '5h0ov',
     githubLink: 'https://github.com/5h0ov'
   },
-    {
+  {
     artName: 'HappyCat',
     pageLink: './Art/dvasquez08/dave.html',
     imageLink: './Art/dvasquez08/happy-cat.gif',
