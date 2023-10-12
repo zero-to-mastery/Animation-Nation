@@ -1447,7 +1447,7 @@ let cards = [
     imageLink: './Art/ball/bouncing-ball.gif',
     author: 'Varian1',
     githubLink: 'https://github.com/varian1'
-  },
+  }
   {
     artName: 'Burnout',
     pageLink: './Art/brando161/index.html',
