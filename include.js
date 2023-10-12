@@ -1346,6 +1346,13 @@ let cards = [
     imageLink: './Art/muhd-kifayath/Spinner.gif',
     author: 'Kifayath',
     githubLink: 'https://github.com/muhd-kifayath'
+  },
+  {
+    artName: 'The Cross',
+    pageLink: './Art/Lefie/index.html',
+    imageLink: './Art/Lefie/cross.gif',
+    author: 'Lemon',
+    githubLink: 'https://github.com/Lefie'
   }
 ];
 
