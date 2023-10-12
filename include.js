@@ -2196,6 +2196,13 @@ let cards = [
     githubLink: 'https://github.com/RoksolanaVeres'
   },
   {
+    artName: 'Wavy boucing ball',
+    pageLink: './Art/Swadeshit27/index.html',
+    imageLink: './Art/Swadeshit27/mobile.gif',
+    author: 'Swadesh Pal',
+    githubLink: 'https://github.com/Swadeshit27'
+  },
+  {
     artName: 'Heart Beat',
     pageLink: './Art/manojna191/index.html',
     imageLink: './Art/manojna191/heartBeat.gif',
