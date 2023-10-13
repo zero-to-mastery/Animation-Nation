@@ -1405,6 +1405,13 @@ let cards = [
     imageLink: './Art/vivek/mouseHoverGlow.gif',
     author: 'vivekBoii',
     githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Pikatchu??',
+    pageLink: './Art/Sayed-Husain/index.html',
+    imageLink: './Art/Sayed-Husain/img.gif',
+    author: 'Sayed-Husain',
+    githubLink: 'https://github.com/Sayed-Husain'
   }
 ];
 
