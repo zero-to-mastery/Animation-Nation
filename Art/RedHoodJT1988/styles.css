@@ -2,9 +2,6 @@
   0%, 100% {
       transform: rotate(0deg);
       background-color: #FFD700;
-  0% {
-    transform: rotate(0deg);
-    background-color: #ffd700;
   }
   25% {
     transform: rotate(90deg);
