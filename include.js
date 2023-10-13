@@ -1553,7 +1553,16 @@ let cards = [
     imageLink: './Art/sserwangaedrisa/Rainball_Sickle_Animation.gif',
     author: 'SSERWANGA EDIRISA',
     githubLink: 'https://github.com/sserwangaedrisa'
-  }
+  },
+  {
+    artName: 'Tulip Growth Animation',
+    pageLink: './Art/Malvericus/index.html',
+    imageLink: './Art/Malvericus/Tulip_Growth.gif',
+    author: 'Malvika Bhadoriya',
+    githubLink: 'https://github.com/Malvericus'
+  },
+
+
 ];
 
 // +--------------------------------------------------------------------------------+
