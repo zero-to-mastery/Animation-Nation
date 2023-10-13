@@ -3,7 +3,6 @@
   height: 200px;
   background-color: magenta;
   transition: background-color 1s, border-radius 2s;
-  /* Transition: PropertyName, Duration, Timing Function, Delay */
 }
 
 .circle:hover {
