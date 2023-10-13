@@ -6,6 +6,16 @@ let cards = [
     author: 'Sandesh-Pyakurel',
     githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
+
+    {
+      artName: 'Profile Image Animation', 
+      pageLink: './Art/thiunuwan/index.html',
+      imageLink: './Art/thiunuwan/profileAnimation.gif',
+      author: 'thiunuwan', 
+      githubLink: 'https://github.com/thiunuwan' 
+    }
+  
+  ,
   {
     artName: 'cloudy-rain',
     pageLink: './Art/Ajeetraj/index.html',
