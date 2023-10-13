@@ -1,0 +1,152 @@
+body {
+    background: url(asphalt-road-texture.jpg);
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#car {
+    height: 40em;
+    width: auto;
+    padding-right: 19em;
+    position: absolute;
+    top: 13em;
+}
+
+#container2 {
+    display: flex;
+    justify-content: center;
+}
+
+#wheel {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 33em;
+    z-index: 1;
+    animation: spin 200ms infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+#smoke1,
+#smoke2,
+#smoke3 {
+    height: 20em;
+    width: 50em;
+    top: 36em;
+    right: 40em;
+    position: absolute;
+    z-index: 2;
+    filter: blur(2px);
+    transform-origin: 50% 50%;
+}
+
+#smoke1 {
+    animation: tire-smoke-1 3s ease-in-out infinite;
+}
+
+#smoke2 {
+    animation: tire-smoke-2 3s ease-in-out infinite;
+    animation-delay: 1.5s;
+}
+
+#smoke3 {
+    animation: tire-smoke-3 4s ease-in-out infinite;
+    animation-delay: 3s;
+}
+
+
+@keyframes tire-smoke-1 {
+   0% {
+    filter: blur(0px);
+    transform: translateX(0px) scale(1, 1);
+    opacity: 0;
+   }
+   25% {
+    filter: blur(2px);
+    transform: translateX(-10px) scale(1, 1.02);
+    opacity: 0.5;
+   }
+   50% {
+    filter: blur(3px);
+    transform: translateX(-20px) scale(1, 1.04);
+    opacity: 1;
+   }
+   75% {
+    filter: blur(3px);
+    transform: translateX(-30px) scale(1, 1.06);
+    opacity: 0.5;
+   }
+   100% {
+    filter: blur(5px);
+    transform: translateX(-40px) scale(1, 1.08);
+    opacity: 1;
+   }
+}
+
+@keyframes tire-smoke-2 {
+    0% {
+     filter: blur(0px);
+     transform: translateX(0px) scale(1);
+     opacity: 0;
+    }
+    25% {
+     filter: blur(2px);
+     transform: translateX(-10px) scale(1.02);
+     opacity: 0.5;
+    }
+    50% {
+     filter: blur(3px);
+     transform: translateX(-20px) scale(1.04);
+     opacity: 1;
+    }
+    75% {
+     filter: blur(3px);
+     transform: translateX(-30px) scale(1.06);
+     opacity: 0.5;
+    }
+    100% {
+     filter: blur(5px);
+     transform: translateX(-40px) scale(1.08);
+     opacity: 1;
+    }
+ }
+
+ @keyframes tire-smoke-3 {
+    0% {
+     filter: blur(0px);
+     transform: translateX(0px) scale(1);
+     opacity: 0;
+    }
+    25% {
+     filter: blur(2px);
+     transform: translateX(-20px) scale(1.02);
+     opacity: 0.5;
+    }
+    50% {
+     filter: blur(3px);
+     transform: translateX(-40px) scale(1.04);
+     opacity: 1;
+    }
+    75% {
+     filter: blur(3px);
+     transform: translateX(-60px) scale(1.06);
+     opacity: 0.5;
+    }
+    100% {
+     filter: blur(5px);
+     transform: translateX(-80px) scale(1.08);
+     opacity: 1;
+    }
+ }

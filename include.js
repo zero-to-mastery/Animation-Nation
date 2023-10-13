@@ -28,11 +28,11 @@ let cards = [
     githubLink: 'https://github.com/sufyanhabib'
   },
   {
-    artName: 'Bouncing Balls', // change this to the name of your artwork
-    pageLink: './Art/<ahmedalhamad7>/index.html', // change this
-    imageLink: './Art/<ahmedalhamad7>/static picture.jpg', // change this
-    author: 'Ahmed', // use your name
-    githubLink: 'https://github.com/<ahmedalhamad7>' // change this
+    artName: 'Bouncing Balls',
+    pageLink: './Art/<ahmedalhamad7>/index.html',
+    imageLink: './Art/<ahmedalhamad7>/static picture.jpg',
+    author: 'Ahmed',
+    githubLink: 'https://github.com/<ahmedalhamad7>'
   },
   {
     artName: 'Borderline-and-Movement-Animation',
@@ -41,6 +41,14 @@ let cards = [
     author: 'Ayan Saxena',
     githubLink: 'https://github.com/Ayansaxena24'
   },
+  {
+    artName: 'Neon-spinning-loading-screen',
+    pageLink: './Art/aaron-jacob/index.html',
+    imageLink: './Art/aaron-jacob/loader.gif',
+    author: 'Aaron Jacob',
+    githubLink: 'https://github.com/aaron-jacob'
+  },
+
   {
     artName: 'Circle Animation',
     pageLink: './Art/Sahil/index.html',
@@ -651,6 +659,13 @@ let cards = [
     githubLink: 'https://github.com/yashviradia'
   },
   {
+    artName: 'Glow Button',
+    pageLink: './Art/Arc/index.html',
+    imageLink: './Art/Arc/Animation.gif',
+    author: 'Nobody',
+    githubLink: 'https://github.com/p/Nobody'
+  },
+  {
     artName: 'Weird Spinner',
     pageLink: './Art/lucifer510/weirdSpinner.html',
     imageLink: './Art/lucifer510/weirdSpinner.png',
@@ -733,6 +748,13 @@ let cards = [
     imageLink: './Art/Aldair/galaxy.gif',
     author: 'Aldair Huamani',
     githubLink: 'https://github.com/Baku452'
+  },
+  {
+    artName: 'Let the Sunshine In', 
+    pageLink: './Art/Sunshine/sunshine.html', 
+    imageLink: './Art/Sunshine/styles.css', 
+    author: 'LucileTech', 
+    githubLink: 'https://https://github.com/LucileTech' 
   },
   {
     artName: 'Heaart',
@@ -1232,6 +1254,13 @@ let cards = [
     githubLink: 'https://github.com/samilabud'
   },
   {
+    artName: 'Spacecraft', 
+    pageLink: './Art/manuelachamoso/index.html', 
+    imageLink: './Art/manuelachamoso/space.gif',
+    author: 'Manuela Chamoso', 
+    githubLink: 'https://github.com/manuelachamoso/'
+  },
+  {
     artName: 'Blob',
     pageLink: './Art/VinayKokate22/index.html',
     imageLink: './Art/VinayKokate22/blob.gif',
@@ -1447,6 +1476,90 @@ let cards = [
     imageLink: './Art/Lefie/cross.gif',
     author: 'Lemon',
     githubLink: 'https://github.com/Lefie'
+  },
+  {
+    artName: 'Bouncing Ball',
+    pageLink: './Art/ball/index.html',
+    imageLink: './Art/ball/bouncing-ball.gif',
+    author: 'Varian1',
+    githubLink: 'https://github.com/varian1'
+  },
+  {
+    artName: 'Burnout',
+    pageLink: './Art/brando161/index.html',
+    imageLink: './Art/brando161/burnout.gif',
+    author: 'brando161',
+    githubLink: 'https://github.com/brando161'
+  },
+  {
+    artName: 'OnHover Magic',
+    pageLink: './Art/xed43/index.html',
+    imageLink: './Art/xed43/onhover.gif',
+    author: 'Edward',
+    githubLink: 'https://github.com/xed43'
+  },
+  {
+    artName: 'Chakra-Blade-Animation',
+    pageLink: './Art/rishabh22204901/index.html',
+    imageLink: './Art/rishabh22204901/rishabh22204901.gif',
+    author: 'rishabh22204901',
+    githubLink: 'https://github.com/rishabh22204901'
+  },
+  {
+    artName: 'Smiley Pumpkin',
+    pageLink: './Art/TaniaZaitouny/index.html',
+    imageLink: './Art/TaniaZaitouny/Animation.gif',
+    author: 'Tania',
+    githubLink: 'https://github.com/TaniaZaitouny'
+  },
+  {
+    artName: 'Parrot',
+    pageLink: './Art/SamrithaS/parrot.html',
+    imageLink: './Art/SamrithaS/parrot.gif',
+    author: 'Samritha',
+    githubLink: 'https://github.com/SamrithaS'
+  },
+  {
+    artName: 'Rotating-Cube',
+    pageLink: './Art/Vivek-GuptaXCode/index.html',
+    imageLink: './Art/Vivek-GuptaXCode/rotating-cube.gif',
+    author: 'Vivek-GuptaXCode',
+    githubLink: 'https://github.com/Vivek-GuptaXCode'
+  },
+  {
+     artName: 'Lucifer Glitch',
+    pageLink: './Art/lucifer510/text.html',
+    imageLink: './Art/lucifer510/text.gif',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
+  },
+  {
+    artName: 'Bubbles', 
+    pageLink: './Art/neha3423/index.html',
+    imageLink: './Art/neha3423/bubbles.gif', 
+    author: 'Neha', 
+    githubLink: 'https://github.com/neha3423'
+  },
+  {
+    artName: 'square animation',
+    pageLink: './Art/krishay/index.html',
+    imageLink: './Art/krishay/square.gif',
+    author: 'krishay',
+    githubLink: 'https://github.com/KrishayNair'
+  },
+  {
+    artName: 'Pacman Eating Dots',
+    pageLink: './Art/PunGrumpy/index.html',
+    imageLink: './Art/PunGrumpy/Pacman.gif',
+    author: 'PunGrumpy',
+    githubLink: 'https://github.com/PunGrumpy'
+  },
+  {
+    artName: 'Rainball sickle animation',
+    pageLink: './Art/sserwangaedrisa/index.html',
+    imageLink: './Art/sserwangaedrisa/Rainball_Sickle_Animation.gif',
+    author: 'SSERWANGA EDIRISA',
+    githubLink: 'https://github.com/sserwangaedrisa'
   }
 ];
 
