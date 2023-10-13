@@ -1443,8 +1443,8 @@ let cards = [
   },
   {
     artName: "Snowstorm",
-    pageLink: "./Art/ParzivalAFK/Snowstorm.html",
-    imageLink: "./Art/ParzivalAFK/Snowstorm.gif",
+    pageLink: "./Art/ParzivalAFK/snowstorm.html",
+    imageLink: "./Art/ParzivalAFK/snowstorm.gif",
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
   }
