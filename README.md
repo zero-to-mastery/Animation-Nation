@@ -16,7 +16,7 @@
 </div>
 <br> 
 
-![](./colourpencils.png)
+![header-picture](./public/images/colourpencils.png)
 _Sharpen your pencils, we're getting creative!_
 
 
