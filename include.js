@@ -1399,7 +1399,6 @@ let cards = [
     author: 'vivekBoii',
     githubLink: 'https://github.com/vivekBoii'
   }
-  
 ];
 
 // +--------------------------------------------------------------------------------+
