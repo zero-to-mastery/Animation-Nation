@@ -1586,6 +1586,13 @@ let cards = [
     githubLink: 'https://github.com/sserwangaedrisa'
   },
   {
+    artName: 'bouncing ball with changing color',
+    pageLink: './Art/Pawaspy/index.html',
+    imageLink: './Art/Pawaspy/anime.gif',
+    author: 'Pawas-Pandey',
+    githubLink: 'https://github.com/pawaspy'
+  },
+  {
     artName: "Button Loader",
     pageLink: "./Art/psykat1116/index.html",
     imageLink: "./Art/psykat1116/loader.gif",
