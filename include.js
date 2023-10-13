@@ -1266,6 +1266,13 @@ let cards = [
     author: 'Loukas',
     githubLink: 'https://github.com/Loukas4'
   },
+ {
+    artName: 'Animated Bow', 
+    pageLink: './Art/Code1705/index.html', 
+    imageLink: './Art/Code1705/Animated_Bow.gif', 
+    author: 'Sikta Mondal', 
+    githubLink: 'https://github.com/Code1705' 
+ },
   {
     artName: 'Car Animation',
     pageLink: './Art/Car Aminated/car.html',
