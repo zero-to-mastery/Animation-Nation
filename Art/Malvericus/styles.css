@@ -3,7 +3,7 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  background: lightblue;
+  background: #ccb3a3;
   overflow: hidden;
 }
 .growing {
@@ -18,38 +18,38 @@ body {
   width: 400%;
   height: 100%;
   background:
-    /*1*/ radial-gradient(farthest-side, #639510 97%, #0000) 12.5%
-      65%/12px 9px,
-    linear-gradient(#996b52 0 0) 9% 80%/9.4% 9%,
-    linear-gradient(#996b52 0 0) 10% 100%/7% 25%,
-    linear-gradient(#639510 0 0) 12.5% 100%/5px 36%,
-    /*2*/ radial-gradient(farthest-side, #639510 97%, #0000) 35.5% 50%/15px 10px,
-    radial-gradient(farthest-side, #639510 97%, #0000) 38% 64%/15px 10px,
-    linear-gradient(#996b52 0 0) 35.5% 80%/9.4% 9%,
-    linear-gradient(#996b52 0 0) 36% 100%/7% 25%,
-    linear-gradient(#639510 0 0) 37% 100%/5px 52%,
-    /*3*/ radial-gradient(farthest-side, #fb3e4c 98%, #0000) 64.5% 40.5%/10px
+      /*1*/ radial-gradient(farthest-side, #647b6a 97%, #0000)
+      12.5% 65%/12px 9px,
+    linear-gradient(#835f58 0 0) 9% 80%/9.4% 9%,
+    linear-gradient(#835f58 0 0) 10% 100%/7% 25%,
+    linear-gradient(#647b6a 0 0) 12.5% 100%/5px 36%,
+    /*2*/ radial-gradient(farthest-side, #647b6a 97%, #0000) 35.5% 50%/15px 10px,
+    radial-gradient(farthest-side, #647b6a 97%, #0000) 38% 64%/15px 10px,
+    linear-gradient(#835f58 0 0) 35.5% 80%/9.4% 9%,
+    linear-gradient(#835f58 0 0) 36% 100%/7% 25%,
+    linear-gradient(#647b6a 0 0) 37% 100%/5px 52%,
+    /*3*/ radial-gradient(farthest-side, #f6e8b5 98%, #0000) 64.5% 40.5%/10px
       9px,
     radial-gradient(
         farthest-side at bottom,
         #0000 calc(100% - 5px),
-        #639510 0 100%,
+        #647b6a 0 100%,
         #0000
       )
       63.6% 34%/20px 10px,
-    radial-gradient(farthest-side, #639510 97%, #0000) 61% 50%/15px 10px,
-    radial-gradient(farthest-side, #639510 97%, #0000) 63.5% 64%/15px 10px,
-    linear-gradient(#996b52 0 0) 63.5% 80%/9.4% 9%,
-    linear-gradient(#996b52 0 0) 63.1% 100%/7% 25%,
-    linear-gradient(#639510 0 0) 62% 100%/5px 62%,
-    /*4*/ radial-gradient(farthest-side at 50% 4px, #fb3e4c 98%, #0000) 88.1%
+    radial-gradient(farthest-side, #647b6a 97%, #0000) 61% 50%/15px 10px,
+    radial-gradient(farthest-side, #647b6a 97%, #0000) 63.5% 64%/15px 10px,
+    linear-gradient(#835f58 0 0) 63.5% 80%/9.4% 9%,
+    linear-gradient(#835f58 0 0) 63.1% 100%/7% 25%,
+    linear-gradient(#647b6a 0 0) 62% 100%/5px 62%,
+    /*4*/ radial-gradient(farthest-side at 50% 4px, #f6e8b5 98%, #0000) 88.1%
       17.5%/17px 13px,
-    radial-gradient(farthest-side, #639510 97%, #0000) 87% 50%/15px 10px,
-    radial-gradient(farthest-side, #639510 97%, #0000) 89.5% 38%/15px 10px,
-    radial-gradient(farthest-side, #639510 97%, #0000) 89.5% 64%/15px 10px,
-    linear-gradient(#996b52 0 0) 91% 80%/9.4% 9%,
-    linear-gradient(#996b52 0 0) 90% 100%/7% 25%,
-    linear-gradient(#639510 0 0) 87.5% 100%/5px 77%;
+    radial-gradient(farthest-side, #647b6a 97%, #0000) 87% 50%/15px 10px,
+    radial-gradient(farthest-side, #647b6a 97%, #0000) 89.5% 38%/15px 10px,
+    radial-gradient(farthest-side, #647b6a 97%, #0000) 89.5% 64%/15px 10px,
+    linear-gradient(#835f58 0 0) 91% 80%/9.4% 9%,
+    linear-gradient(#835f58 0 0) 90% 100%/7% 25%,
+    linear-gradient(#647b6a 0 0) 87.5% 100%/5px 77%;
   background-repeat: no-repeat;
   animation: m 4s 0.5s both;
 }

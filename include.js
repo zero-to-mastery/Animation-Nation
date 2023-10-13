@@ -14,15 +14,14 @@ let cards = [
     githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
 
-    {
-      artName: 'Profile Image Animation', 
-      pageLink: './Art/thiunuwan/index.html',
-      imageLink: './Art/thiunuwan/profileAnimation.gif',
-      author: 'thiunuwan', 
-      githubLink: 'https://github.com/thiunuwan' 
-    }
-  
-  ,
+  {
+    artName: 'Profile Image Animation',
+    pageLink: './Art/thiunuwan/index.html',
+    imageLink: './Art/thiunuwan/profileAnimation.gif',
+    author: 'thiunuwan',
+    githubLink: 'https://github.com/thiunuwan'
+  },
+
   {
     artName: 'cloudy-rain',
     pageLink: './Art/Ajeetraj/index.html',
@@ -32,15 +31,15 @@ let cards = [
   },
   {
     artName: 'cube-with-Letter-Animation',
-    pageLink: './Art/sufyanhabib/index.html',
-    imageLink: './Art/sufyanhabib/cube-with-Letter-Animation.gif',
+    pageLink: './Art/sufyanhabib1/index.html',
+    imageLink: './Art/sufyanhabib1/cube-with-Letter-Animation.gif',
     author: 'sufyanhabib',
     githubLink: 'https://github.com/sufyanhabib'
   },
   {
     artName: 'Bouncing Balls',
-    pageLink: './Art/<ahmedalhamad7>/index.html',
-    imageLink: './Art/<ahmedalhamad7>/static picture.jpg',
+    pageLink: './Art/ahmedalhamad7/index.html',
+    imageLink: './Art/ahmedalhamad7/static-picture.jpg',
     author: 'Ahmed',
     githubLink: 'https://github.com/<ahmedalhamad7>'
   },
@@ -58,14 +57,6 @@ let cards = [
     author: 'Aaron Jacob',
     githubLink: 'https://github.com/aaron-jacob'
   },
-
-  {
-    artName: 'Circle Animation',
-    pageLink: './Art/Sahil/index.html',
-    imageLink: './Art/Sahil/animation.gif',
-    author: 'Sahil',
-    githubLink: 'https://github.com/borkarsahil'
-  },
   {
     artName: 'The Chakra',
     pageLink: './Art/devanshumasodker/index.html',
@@ -75,8 +66,8 @@ let cards = [
   },
   {
     artName: 'Day & night fox animation',
-    pageLink: './Art/apu52/index.html',
-    imageLink: './Art/apu52/Day & night fox img.jpg',
+    pageLink: './Art/apu52/day-and-night-fox/index.html',
+    imageLink: './Art/apu52/day-and-night-fox/picture.jpeg',
     author: 'Arpan Chowdhury',
     githubLink: 'https://github.com/apu52'
   },
@@ -265,7 +256,7 @@ let cards = [
   {
     artName: 'Dancing in Space',
     pageLink: './Art/Maria/index.html',
-    imageLink: './Art/Maria/style.css',
+    imageLink: './Art/Maria/dancinginspace.gif',
     author: 'Maria',
     githubLink: 'https://github.com/mariapetra'
   },
@@ -699,7 +690,7 @@ let cards = [
   {
     artName: 'spinning square',
     pageLink: './Art/dmdiamond79/spinningsquare.html',
-    imageLink: './Art/dmdiamond79/spinning.gif',
+    imageLink: './Art/dmdiamond79/spinning.gif.gif',
     author: 'dmdiamond79',
     githubLink: 'https://github.com/dmdiamond79'
   },
@@ -760,11 +751,11 @@ let cards = [
     githubLink: 'https://github.com/Baku452'
   },
   {
-    artName: 'Let the Sunshine In', 
-    pageLink: './Art/Sunshine/sunshine.html', 
-    imageLink: './Art/Sunshine/styles.css', 
-    author: 'LucileTech', 
-    githubLink: 'https://https://github.com/LucileTech' 
+    artName: 'Let the Sunshine In',
+    pageLink: './Art/Sunshine/sunshine.html',
+    imageLink: './Art/Sunshine/styles.css',
+    author: 'LucileTech',
+    githubLink: 'https://https://github.com/LucileTech'
   },
   {
     artName: 'Heaart',
@@ -1000,14 +991,14 @@ let cards = [
   {
     artName: 'moving box',
     pageLink: './Art/Esinnation/index.html',
-    imageLink: './Art/dmdiamond79/animation.gif',
+    imageLink: './Art/Esinnation/animation.gif',
     author: 'Esinnation',
     githubLink: 'https://github.com/Esinnation'
   },
   {
     artName: 'Button Hover Animation',
     pageLink: './Art/oandev/index.html',
-    imageLink: './Art/oan.gif',
+    imageLink: './Art/oandev/oan.gif',
     author: 'hioan-dev',
     githubLink: 'https://github.com/hioan-dev'
   },
@@ -1042,7 +1033,7 @@ let cards = [
   {
     artName: 'wheel',
     pageLink: './Art/mohdUsman-6508/wheel.html',
-    imageLink: './Art/mohdUsman-6508/wheel.gif',
+    imageLink: './Art/mohdUsman-6508/wheel.png',
     author: 'Mohd Usman',
     githubLink: 'https://github.com/mohdUsman-6508'
   },
@@ -1187,23 +1178,16 @@ let cards = [
     githubLink: 'https://github.com/TishShaw'
   },
   {
-    artName: 'Sliding Bot',
-    pageLink: './Art/Joy/ProfoundlyParker/index.html',
-    imageLink: './Art/Joy/ProfoundlyParker/robot.gif',
-    author: 'ProfoundlyParker',
-    githubLink: 'https://github.com/ProfoundlyParker'
-  },
-  {
     artName: 'Chess',
     pageLink: './Art/Ronit72/index.html',
-    imageLink: './Art/Ronit72/animation.gif',
+    imageLink: './Art/Ronit72/chess.gif',
     author: 'Ronit',
     githubLink: 'https://github.com/Ronit72'
   },
   {
     artName: 'Pabitra Pal',
     pageLink: './Art/Pabitra/index.html',
-    imageLink: './Art/Pabitra/face animation gif.gif',
+    imageLink: './Art/Pabitra/face-animation.gif',
     author: 'Pabitra',
     githubLink: 'https://github.com/pabitra0011'
   },
@@ -1264,10 +1248,10 @@ let cards = [
     githubLink: 'https://github.com/samilabud'
   },
   {
-    artName: 'Spacecraft', 
-    pageLink: './Art/manuelachamoso/index.html', 
+    artName: 'Spacecraft',
+    pageLink: './Art/manuelachamoso/index.html',
     imageLink: './Art/manuelachamoso/space.gif',
-    author: 'Manuela Chamoso', 
+    author: 'Manuela Chamoso',
     githubLink: 'https://github.com/manuelachamoso/'
   },
   {
@@ -1314,8 +1298,8 @@ let cards = [
   },
   {
     artName: 'Circles Animation',
-    pageLink: './Art/Loukas4/AnimatedCircles.html',
-    imageLink: './Art/Loukas4/Circles.gif',
+    pageLink: './Art/Loukas/AnimatedCircles.html',
+    imageLink: './Art/Loukas/Circles.gif',
     author: 'Loukas',
     githubLink: 'https://github.com/Loukas4'
   },
@@ -1462,7 +1446,7 @@ let cards = [
   {
     artName: 'Sun Animation',
     pageLink: './Art/ParzivalAFK/sun.html',
-    imageLink: './Art/ParzivalAFK/sun.gif',
+    imageLink: './Art/ParzivalAFK/ParzivalAFK_SUN.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
   },
@@ -1503,8 +1487,8 @@ let cards = [
   },
   {
     artName: 'Bouncing Ball',
-    pageLink: './Art/ball/index.html',
-    imageLink: './Art/ball/bouncing-ball.gif',
+    pageLink: './Art/varian1/index.html',
+    imageLink: './Art/varian1/bouncing-ball.gif',
     author: 'Varian1',
     githubLink: 'https://github.com/varian1'
   },
@@ -1551,17 +1535,17 @@ let cards = [
     githubLink: 'https://github.com/Vivek-GuptaXCode'
   },
   {
-     artName: 'Lucifer Glitch',
+    artName: 'Lucifer Glitch',
     pageLink: './Art/lucifer510/text.html',
     imageLink: './Art/lucifer510/text.gif',
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
   },
   {
-    artName: 'Bubbles', 
+    artName: 'Bubbles',
     pageLink: './Art/neha3423/index.html',
-    imageLink: './Art/neha3423/bubbles.gif', 
-    author: 'Neha', 
+    imageLink: './Art/neha3423/bubbles.gif',
+    author: 'Neha',
     githubLink: 'https://github.com/neha3423'
   },
   {
@@ -1593,11 +1577,25 @@ let cards = [
     githubLink: 'https://github.com/pawaspy'
   },
   {
-    artName: "Button Loader",
-    pageLink: "./Art/psykat1116/index.html",
-    imageLink: "./Art/psykat1116/loader.gif",
+    artName: 'Button Loader',
+    pageLink: './Art/psykat1116/index.html',
+    imageLink: './Art/psykat1116/loader.gif',
     author: 'psykat1116',
     githubLink: 'https://github.com/psykat1116'
+  },
+  {
+    artName: 'Square Pop up',
+    pageLink: './Art/leonyangela/index.html',
+    imageLink: './Art/leonyangela/index.gif',
+    author: 'leonyangela',
+    githubLink: 'https://github.com/leonyangela'
+  },
+  {
+    artName: 'Tulip Growth',
+    pageLink: './Art/Malvericus/index.html',
+    imageLink: './Art/Malvericus/Tulip_Growth.gif',
+    author: 'Malvika Bhadoriya',
+    githubLink: 'https://github.com/Malvericus'
   }
 ];
 
