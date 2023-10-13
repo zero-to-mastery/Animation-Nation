@@ -1,4 +1,35 @@
-let cards = [
+
+document.addEventListener('DOMContentLoaded', function() {
+  var backToTopButton = document.getElementById('backToTop');
+
+  // Show the button when scrolling down
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 100) {
+      backToTopButton.classList.add('show');
+    } else {
+      backToTopButton.classList.remove('show');
+    }
+  });
+
+  // Scroll to top when the button is clicked
+  backToTopButton.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
+
+let cards = [ 
+
+  
+    {
+      artName: 'Animated Image Portfolio', // change this to the name of your artwork
+      imageLink: '/Art/Ankit_Image_Portfolio/Preview.png', // change this
+      author: 'Ankit Rajput', // use your name
+      githubLink: 'https://github.com/ankit0049' // change this
+    }
+  
   {
     artName: 'rotating-cube-animation',
     pageLink: './Art/whitebeard10/index.html',
