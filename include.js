@@ -1560,8 +1560,7 @@ let cards = [
     imageLink: './Art/Malvericus/Tulip_Growth.gif',
     author: 'Malvika Bhadoriya',
     githubLink: 'https://github.com/Malvericus'
-  },
-
+  }
 
 ];
 
