@@ -148,6 +148,15 @@ let cards = [
     author: 'Joy',
     githubLink: 'https://github.com/smokeraven667'
   },
+
+ 
+    {
+      artName: 'Sleep Time',
+      pageLink: './Art/kratin01/index.html', 
+      imageLink: './Art/kratin01/animation.gif', 
+      author: 'Kratin',
+      githubLink: 'https://github.com/kratin01'
+    } ,
   {
     artName: 'Gradient Loader',
     pageLink: './Art/Kartikey Mishra/index.html',
