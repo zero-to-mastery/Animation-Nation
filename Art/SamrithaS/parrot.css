@@ -1,0 +1,148 @@
+body{
+    background-color:#f5c842;
+  }
+  .container{
+    margin:25vh auto;
+    background-color:white;
+    width:400px;
+    height:400px;
+    position:relative;
+  }
+  .l1{
+    background-color:brown;
+    width:300px;
+    height:10px;
+    position:absolute;
+      bottom:26%;
+    left:12%;
+    z-index:2;
+    border-radius:5px;
+  }
+  .l2{
+    position:absolute;
+    background-color:#e3412b;
+    width:100px;
+    height:50px;
+    top:30%;
+    left:20%;
+    
+    border-radius:0 0 150px 150px
+  }
+  .l3{
+    position:absolute;
+    background-color:#308fc7;
+    width:50px;
+    height:80px;
+    top:30%;
+    z-index:2;
+    left:30%;
+    border-radius:150px 0px 0px 150px
+  }
+  .l4{
+    position:absolute;
+    background-color:white;
+    width:50px;
+    height:50px;
+    top:30%;
+    left:37%;
+    z-index:3;
+    border-radius:150px 80px 80px 150px
+  }
+  .l5{
+      position:absolute;
+    background-color:#ffb042;
+    width:100px;
+    height:50px;
+    top:30%;
+    left:35%;
+    border-radius:140px 280px 0px 0px;
+      z-index:1;
+      animation:beak 0.9s infinite 
+  }
+  .l6{
+      position:absolute;
+    background-color:#2ac744;
+    width:50px;
+    height:130px;
+    top:40%;
+    left:37%;
+    border-radius:0px 0px 200px 20px;
+      z-index:1
+  }
+  .l7{
+      position:absolute;
+    background-color:#f78902;
+    width:50px;
+    height:20px;
+    top:42%;
+    left:43%;
+    border-radius:0px 0px 80px 0px;
+      z-index:0;
+      animation: beak2 0.9s infinite
+  }
+  .l8{
+      position:absolute;
+    background-color:#f78902;
+    width:60px;
+    height:120px;
+    top:43%;
+    left:28%;
+    border-radius:40px 0px 40px 0px;
+      z-index:3;
+        animation: wing 0.9s infinite;
+  }
+  .l9{
+    position:absolute;
+    background-color:#e3412b;
+    width:60px;
+    height:30px;
+    top:64%;
+    left:37%;
+    border-radius:40px 100px 0px 0px
+  }
+  .l10{
+      position:absolute;
+    background-color:#308fc7;
+    width:40px;
+    height:70px;
+    top:70%;
+    left:31%;
+    border-radius:0px 40px 180px 20px;
+      z-index:0
+  }
+  .l11{
+      position:absolute;
+    background-color:black;
+    width:17px;
+    height:17px;
+    top:33%;
+    left:41%;
+    border-radius:50%;
+      z-index:4;
+    animation:eyes 0.9s infinite;
+  }
+  @keyframes eyes {
+   
+    to {transform: scale(1.2, 1.2);}
+  }
+  @keyframes wing {
+   
+    to {transform: rotate(20deg); left:24%}
+  }
+  @keyframes beak {
+   
+    to {transform: rotate(-10deg)}
+  }
+  @keyframes beak2 {
+   
+    to {transform: rotate(10deg)}
+  }
+  .l12{
+      position:absolute;
+    background-color:orange;
+    width:34px;
+    height:47px;
+    top:62%;
+    left:31%;
+    border-radius:20%;
+  }

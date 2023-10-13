@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+        background-color: MediumSeaGreen;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.ball {
+    width: 200px;
+    height: 200px;
+    background-color: Yellow;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+.fast{
+    animation: bounce 4s cubic-bezier(0, 1.91, 1, 1) infinite
+}
+
+.normal{
+    animation: bounce 4s cubic-bezier(1, -0.01, 0.58, 1) infinite
+}
+
+.slow{
+    animation: bounce 4s cubic-bezier(0.99, -3.16, 0, 2.4) infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-200px); /* Adjust the bounce height */
+    }
+}
