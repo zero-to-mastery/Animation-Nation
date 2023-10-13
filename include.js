@@ -1408,6 +1408,20 @@ let cards = [
     githubLink: 'https://github.com/NachiketaDhal'
   },
   {
+    artName: 'Blooming flowers',
+    pageLink: './Art/Asymtode712/index.html',
+    imageLink: './Art/Asymtode712/blooming-flowers.gif',
+    author: 'Asymtode712',
+    githubLink: 'https://github.com/Asymtode712'
+  },
+  {
+    artName: 'Growing flower',
+    pageLink: './Art/Asymtode712/gflower.html',
+    imageLink: './Art/Asymtode712/growing-flower.gif',
+    author: 'Asymtode712',
+    githubLink: 'https://github.com/Asymtode712'
+  },
+  {
     artName: 'classic-loader',
     pageLink: './Art/ramanamatya/index.html',
     imageLink: './Art/ramanamatya/load.gif',
