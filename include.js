@@ -1376,6 +1376,13 @@ let cards = [
     imageLink: './Art/varshithab05/Letter_Animation.gif',
     author: 'varshithab05',
     githubLink: 'https://github.com/varshithab05'
+  },
+  {
+    artName: 'Funky movements',
+    pageLink: './Art/Subramaniam-dot/snake.html',
+    imageLink: './Art/Subramaniam-dot/animation.gif',
+    author: 'Subramaniam',
+    githubLink: 'https://github.com/Subramaniam-dot'
   }
 ];
 
