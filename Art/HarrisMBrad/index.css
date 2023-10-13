@@ -1,10 +1,10 @@
+/* Reset some default styles */
 body,
 html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container {
@@ -12,33 +12,29 @@ html {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: whitesmoke;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  /* Added padding for a more natural center */
 }
 
 .loader {
   width: 100px;
   height: 100px;
-  background: linear-gradient(
-    165deg,
-    #ffc800 0%,
-    rgb(255 127 0 / 83%) 40%,
-    #ff000059 98%,
-    rgb(10, 10, 10) 100%
-  );
+  background: linear-gradient(165deg, #ffc800 0%, rgb(255 127 0 / 83%) 40%, #ff000059 98%, rgb(10, 10, 10) 100%);
   border-radius: 50%;
   position: relative;
 }
 
 #B {
-  animation: rotate 7s infinite linear;
+  animation: rotate 30s infinite linear;
 }
 
 #M {
-  animation: bounce 3s infinite ease-in-out;
+  animation: rotate 30s infinite ease-in-out;
 }
 
 #H {
-  animation: flip 4s infinite ease-in-out;
+  animation: rotate 30s infinite ease-in-out;
 }
 
 @keyframes rotate {
@@ -55,6 +51,8 @@ html {
   height: 100vh;
   background-color: #ce5717d4;
   /* Sunset color */
+  padding: 20px;
+  /* Added padding for a more natural center */
 }
 
 /* Style the individual elements */
@@ -117,7 +115,7 @@ html {
   border-radius: 50%;
   box-shadow: 0 0 50px 10px #ff6f61;
   /* Sunset color */
-  animation: sunSet 5s infinite alternate;
+  animation: sunSet 30s infinite alternate;
 }
 
 @keyframes sunSet {

@@ -4,33 +4,8 @@ html {
   padding: 0;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: whitesmoke;
-}
-
-#B {
-  animation: rotate 5s infinite linear;
-}
-
-#M {
-  animation: bounce 3s infinite ease-in-out;
-}
-
-#H {
-  animation: flip 4s infinite ease-in-out;
-}
-
-@keyframes rotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 @keyframes bounce {
+
   0%,
   100% {
     transform: translateY(0);
