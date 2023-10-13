@@ -1494,10 +1494,17 @@ let cards = [
   {
     artName: 'Rotating-Cube',
     pageLink: './Art/Vivek-GuptaXCode/index.html',
-    imageLink: '/Art/Vivek-GuptaXCode/rotating-cube.gif',
+    imageLink: './Art/Vivek-GuptaXCode/rotating-cube.gif',
     author: 'Vivek-GuptaXCode',
     githubLink: 'https://github.com/Vivek-GuptaXCode'
-  }
+  },
+  {
+     artName: 'Lucifer Glitch',
+    pageLink: './Art/lucifer510/text.html',
+    imageLink: './Art/lucifer510/text.gif',
+    author: 'lucifer510',
+    githubLink: 'https://github.com/lucifer510'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
