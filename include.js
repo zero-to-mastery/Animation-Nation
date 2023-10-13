@@ -1575,6 +1575,13 @@ let cards = [
     imageLink: './Art/psykat1116/loader.gif',
     author: 'psykat1116',
     githubLink: 'https://github.com/psykat1116'
+  },
+  {
+    artName: 'Tulip Growth',
+    pageLink: './Art/Malvericus/index.html',
+    imageLink: './Art/Malvericus/Tulip_Growth.gif',
+    author: 'Malvika Bhadoriya',
+    githubLink: 'https://github.com/Malvericus'
   }
 ];
 
