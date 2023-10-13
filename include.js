@@ -1618,6 +1618,13 @@ let cards = [
     imageLink: './Art/ParzivalAFK/snowstorm.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
+  },
+  {
+    artName: 'The Cube',
+    pageLink: './Art/Sayed-Husain/cube.html',
+    imageLink: './Art/Sayed-Husain/cube.gif',
+    author: 'Sayed-Husain',
+    githubLink: 'https://github.com/Sayed-Husain'
   }
 ];
 
