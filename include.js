@@ -1546,9 +1546,14 @@ let cards = [
     imageLink: './Art/PunGrumpy/Pacman.gif',
     author: 'PunGrumpy',
     githubLink: 'https://github.com/PunGrumpy'
+  },
+  {
+    artName: 'Rainball sickle animation',
+    pageLink: './Art/sserwangaedrisa/index.html',
+    imageLink: './Art/sserwangaedrisa/Rainball_Sickle_Animation.gif',
+    author: 'SSERWANGA EDIRISA',
+    githubLink: 'https://github.com/sserwangaedrisa'
   }
-
-];
 ];
 
 // +--------------------------------------------------------------------------------+
