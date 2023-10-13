@@ -15,6 +15,23 @@ The rules are simple. You have to:
 - Please make sure that the code is indeed your own, and not copied from someone else
 - That's it!
 
+# Repo Status
+
+<div align="center">
+  <br>
+	
+  <img src="https://img.shields.io/github/repo-size/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+    <img src="https://img.shields.io/github/issues-closed-raw/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+    <img src="https://img.shields.io/github/last-commit/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+    <img src="https://img.shields.io/github/issues-pr/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+    <img src="https://img.shields.io/github/issues-pr-closed-raw/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+    <img src="https://img.shields.io/github/forks/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+    <img src="https://img.shields.io/github/stars/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+    <img src="https://img.shields.io/github/contributors-anon/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+
+</div>
+
 # How to contribute
 
 If you've never forked a repository or made a pull request before, we recommend making your first one over at [https://github.com/zero-to-mastery/start-here-guidelines](https://github.com/zero-to-mastery/start-here-guidelines). That will count towards your total, and then you'll be ready to take on this challenge with your new GitHub skills!
@@ -43,3 +60,14 @@ let cards = [
   }
 ];
 ```
+
+# Important Note
+
+If a maintainer asks for changes, _please make the required changes to your original pull request._
+
+Closing a PR and re-opening the PR for the same contribution adds an unnecessary burden on maintainers,  
+as they have to review the complete pull request again.
+
+If you don't follow this rule, maintainers reserve the right to mark your pull request as invalid.
+
+**In this case it won't count for Hacktoberfest**.
