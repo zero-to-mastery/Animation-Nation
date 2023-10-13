@@ -1180,6 +1180,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Cassette Animation', 
+    pageLink: './Art/apu52/index.html', 
+    imageLink: './Art/apu52/cassette animation.gif', 
+    author: 'Arpan Chowdhury', 
+    githubLink: 'https://github.com/apu52' 
+  },
+  {
     artName: 'Rocking Boat',
     pageLink: './Art/TishShaw/index.html',
     imageLink: './Art/TishShaw/rocking-boat.gif',
