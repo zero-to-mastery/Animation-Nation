@@ -1419,6 +1419,13 @@ let cards = [
     imageLink: './Art/Sayed-Husain/img.gif',
     author: 'Sayed-Husain',
     githubLink: 'https://github.com/Sayed-Husain'
+  },
+  {
+    artName: 'TargetLoadingBothColors',
+    pageLink: './Art/ParzivalAFK/TargetLoadingBothColors.html',
+    imageLink: './Art/ParzivalAFK/TargetLoadingBothColors.gif',
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
   }
 ];
 
