@@ -1,7 +1,8 @@
 @keyframes rotateAndChangeColor {
-  0%, 100% {
-      transform: rotate(0deg);
-      background-color: #FFD700;
+  0%,
+  100% {
+    transform: rotate(0deg);
+    background-color: #ffd700;
   }
   25% {
     transform: rotate(90deg);
@@ -19,13 +20,13 @@
 
 @keyframes snakeMove {
   0% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
   50% {
-      transform: translateX(200px);
+    transform: translateX(200px);
   }
   100% {
-      transform: translateX(0);
+    transform: translateX(0);
     transform: rotate(360deg);
     background-color: #ffd700;
   }
@@ -47,7 +48,7 @@ body {
 .square {
   width: 100px;
   height: 100px;
-  background-color: #FFD700;
+  background-color: #ffd700;
   border-radius: 10px;
   animation: rotateAndChangeColor 8s linear infinite;
   position: absolute;
@@ -56,13 +57,14 @@ body {
 .snake {
   width: 150px;
   height: 20px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   animation: snakeMove 4s linear infinite;
   position: absolute;
 }
 
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {

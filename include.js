@@ -735,11 +735,11 @@ let cards = [
     githubLink: 'https://github.com/Baku452'
   },
   {
-    artName: 'Let the Sunshine In', 
-    pageLink: './Art/Sunshine/sunshine.html', 
-    imageLink: './Art/Sunshine/styles.css', 
-    author: 'LucileTech', 
-    githubLink: 'https://https://github.com/LucileTech' 
+    artName: 'Let the Sunshine In',
+    pageLink: './Art/Sunshine/sunshine.html',
+    imageLink: './Art/Sunshine/styles.css',
+    author: 'LucileTech',
+    githubLink: 'https://https://github.com/LucileTech'
   },
   {
     artName: 'Heaart',
@@ -1232,10 +1232,10 @@ let cards = [
     githubLink: 'https://github.com/samilabud'
   },
   {
-    artName: 'Spacecraft', 
-    pageLink: './Art/manuelachamoso/index.html', 
+    artName: 'Spacecraft',
+    pageLink: './Art/manuelachamoso/index.html',
     imageLink: './Art/manuelachamoso/space.gif',
-    author: 'Manuela Chamoso', 
+    author: 'Manuela Chamoso',
     githubLink: 'https://github.com/manuelachamoso/'
   },
   {
@@ -1442,7 +1442,7 @@ let cards = [
     githubLink: 'https://github.com/parzivalafk'
   },
   {
-    artName: "Illusion Loader",
+    artName: 'Illusion Loader',
     pageLink: './Art/saikatsamanta/index.html',
     imageLink: './Art/saikatsamanta/short.gif',
     author: 'psykatsamanta',
@@ -1505,17 +1505,17 @@ let cards = [
     githubLink: 'https://github.com/Vivek-GuptaXCode'
   },
   {
-     artName: 'Lucifer Glitch',
+    artName: 'Lucifer Glitch',
     pageLink: './Art/lucifer510/text.html',
     imageLink: './Art/lucifer510/text.gif',
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
   },
   {
-    artName: 'Bubbles', 
+    artName: 'Bubbles',
     pageLink: './Art/neha3423/index.html',
-    imageLink: './Art/neha3423/bubbles.gif', 
-    author: 'Neha', 
+    imageLink: './Art/neha3423/bubbles.gif',
+    author: 'Neha',
     githubLink: 'https://github.com/neha3423'
   },
   {
@@ -1554,13 +1554,13 @@ Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
       `<a href='${c.pageLink}'>` +
-        `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
       `</a>` +
       `<div class="flex-content">` +
-        `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-        `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
       `</div>` +
-    `</li>`
+      `</li>`
   ]);
 });
 

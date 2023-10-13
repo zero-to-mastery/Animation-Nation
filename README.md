@@ -14,11 +14,10 @@
   <img src="https://img.shields.io/github/issues-closed-raw/zero-to-mastery/Animation-Nation?style=for-the-badge" />
   <img src="https://img.shields.io/github/issues-pr-closed-raw/zero-to-mastery/Animation-Nation?style=for-the-badge" />
 </div>
-<br> 
+<br>
 
 ![header-picture](./public/images/colourpencils.png)
 _Sharpen your pencils, we're getting creative!_
-
 
 Hello and welcome to Animation Nation, a ZTM project for Hacktoberfest! This site aims to showcase the creative talents of the ZTM community :)
 
@@ -30,7 +29,6 @@ The rules are simple. You have to:
 - Have at least one animation in your work
 - Please make sure that the code is indeed your own, and not copied from someone else
 - That's it!
-
 
 # How to contribute
 
