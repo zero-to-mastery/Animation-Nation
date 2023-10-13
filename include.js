@@ -1440,6 +1440,13 @@ let cards = [
     imageLink: './Art/Lefie/cross.gif',
     author: 'Lemon',
     githubLink: 'https://github.com/Lefie'
+  },
+  {
+    artName: "Parzival's Snowstorm",
+    pageLink: "./Art/ParzivalAFK/Parzival'sSnowstorm.html",
+    imageLink: "./Art/ParzivalAFK/Parzival'sSnowstorm.gif",
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
   }
 ];
 
