@@ -644,6 +644,13 @@ let cards = [
     githubLink: 'https://github.com/yashviradia'
   },
   {
+    artName: 'Glow Button',
+    pageLink: './Art/Arc/index.html',
+    imageLink: './Art/Arc/Animation.gif',
+    author: 'Nobody',
+    githubLink: 'https://github.com/p/Nobody'
+  },
+  {
     artName: 'Weird Spinner',
     pageLink: './Art/lucifer510/weirdSpinner.html',
     imageLink: './Art/lucifer510/weirdSpinner.png',
