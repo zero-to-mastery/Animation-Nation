@@ -1434,6 +1434,13 @@ let cards = [
     author: 'psykatsamanta',
     githubLink: 'https://github.com/psykatsamanta'
   },
+  {
+    artName: 'The Cross',
+    pageLink: './Art/Lefie/index.html',
+    imageLink: './Art/Lefie/cross.gif',
+    author: 'Lemon',
+    githubLink: 'https://github.com/Lefie'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
