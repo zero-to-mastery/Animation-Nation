@@ -43,6 +43,14 @@ let cards = [
   },
 
   {
+    artName: 'Borderline-and-Movement-Animation',
+    pageLink: './Art/Ayansaxena24/index.html',
+    imageLink: './Art/Ayansaxena24/Hacktoberfest-Animation.gif',
+    author: 'Ayan Saxena',
+    githubLink: 'https://github.com/Ayansaxena24'
+  },
+
+  {
     artName: 'Circle Animation',
     pageLink: './Art/Sahil/index.html',
     imageLink: './Art/Sahil/animation.gif',
@@ -1520,7 +1528,7 @@ let cards = [
     githubLink: 'https://github.com/Vivek-GuptaXCode'
   },
   {
-     artName: 'Lucifer Glitch',
+    artName: 'Lucifer Glitch',
     pageLink: './Art/lucifer510/text.html',
     imageLink: './Art/lucifer510/text.gif',
     author: 'lucifer510',
