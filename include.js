@@ -1,4 +1,11 @@
-let cards = [
+let cards = [ 
+  {
+    artName: 'Envelope Open & Close Animation',
+    pageLink: './Art/Ankit/index.html',
+    imageLink: './Art/Ankit/Preview.png',
+    author: 'Ankit',
+    githubLink: 'https://github.com/ankit0049'
+  },
   {
     artName: 'rotating-cube-animation',
     pageLink: './Art/whitebeard10/index.html',
