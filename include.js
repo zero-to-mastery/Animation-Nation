@@ -1454,6 +1454,13 @@ let cards = [
     imageLink: './Art/brando161/burnout.gif',
     author: 'brando161',
     githubLink: 'https://github.com/brando161'
+  },
+  {
+    artName: 'OnHover Magic',
+    pageLink: './Art/xed43/index.html',
+    imageLink: './Art/xed43/onhover.gif',
+    author: 'Edward',
+    githubLink: 'https://github.com/xed43'
   }
 ];
 
