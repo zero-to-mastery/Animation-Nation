@@ -1490,11 +1490,11 @@ let cards = [
     imageLink: './Art/SamrithaS/parrot.gif',
     author: 'Samritha',
     githubLink: 'https://github.com/SamrithaS'
-  }
+  },
   {
     artName: 'Loading',
     pageLink: './Art/Aswin/index.html',
-    imageLink: './Art/Aswin/animation video(1).gif',
+    imageLink: './Art/Aswin/animation video (1).gif',
     author: 'Aswin',
     githubLink: 'https://github.com/aswin98855'
   }
