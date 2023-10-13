@@ -1525,6 +1525,13 @@ let cards = [
     imageLink: './Art/krishay/square.gif',
     author: 'krishay',
     githubLink: 'https://github.com/KrishayNair'
+  },
+  {
+    artName: 'Pacman Eating Dots',
+    pageLink: './Art/PunGrumpy/index.html',
+    imageLink: './Art/PunGrumpy/Pacman.gif',
+    author: 'PunGrumpy',
+    githubLink: 'https://github.com/PunGrumpy'
   }
 
 ];
