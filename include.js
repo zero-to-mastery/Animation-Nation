@@ -1577,6 +1577,12 @@ let cards = [
     githubLink: 'https://github.com/psykat1116'
   },
   {
+    artName: 'Square Pop up',
+    pageLink: './Art/leonyangela/index.html',
+    imageLink: './Art/leonyangela/index.gif',
+    author: 'leonyangela',
+    githubLink: 'https://github.com/leonyangela'
+  },{
     artName: 'Tulip Growth',
     pageLink: './Art/Malvericus/index.html',
     imageLink: './Art/Malvericus/Tulip_Growth.gif',
