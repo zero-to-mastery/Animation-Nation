@@ -1377,6 +1377,20 @@ let cards = [
     imageLink: './Art/Subramaniam-dot/animation.gif',
     author: 'Subramaniam',
     githubLink: 'https://github.com/Subramaniam-dot'
+  },
+  {
+    artName: 'Half Spin Points',
+    pageLink: './Art/ParzivalAFK/HalfSpinPoints.html',
+    imageLink: './Art/ParzivalAFK/HalfSpinPoints.gif',
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
+  },
+  {
+    artName: 'Sun Animation',
+    pageLink: './Art/ParzivalAFK/sun.html',
+    imageLink: './Art/ParzivalAFK/sun.gif',
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
   }
 ];
 
