@@ -44,6 +44,13 @@ let cards = [
     githubLink: 'https://github.com/<ahmedalhamad7>'
   },
   {
+    artName: 'Square Bounce', // change this to the name of your artwork
+    pageLink: './Art/Ash/triangle.html', // change this
+    imageLink: './Art/Ash/triangle.gif', // change this
+    author: 'Ash V', // use your name
+    githubLink: 'https://github.com/tvermaashutosh' // change this
+  },
+  {
     artName: 'Borderline-and-Movement-Animation',
     pageLink: './Art/Ayansaxena24/index.html',
     imageLink: './Art/Ayansaxena24/Hacktoberfest-Animation.gif',
