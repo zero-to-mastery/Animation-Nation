@@ -1582,7 +1582,8 @@ let cards = [
     imageLink: './Art/leonyangela/index.gif',
     author: 'leonyangela',
     githubLink: 'https://github.com/leonyangela'
-  },{
+  },
+  {
     artName: 'Tulip Growth',
     pageLink: './Art/Malvericus/index.html',
     imageLink: './Art/Malvericus/Tulip_Growth.gif',
