@@ -1553,6 +1553,13 @@ let cards = [
     imageLink: './Art/sserwangaedrisa/Rainball_Sickle_Animation.gif',
     author: 'SSERWANGA EDIRISA',
     githubLink: 'https://github.com/sserwangaedrisa'
+  },
+  {
+    artName: "Button Loader",
+    pageLink: "./Art/psykat1116/index.html",
+    imageLink: "./Art/psykat1116/loader.gif",
+    author: 'psykat1116',
+    githubLink: 'https://github.com/psykat1116'
   }
 ];
 
