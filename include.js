@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'rotating-cube-animation',
+    pageLink: './Art/whitebeard10/index.html',
+    imageLink: './Art/whitebeard10/animation.gif',
+    author: 'Avinash',
+    githubLink: 'https://github.com/whitebeard10'
+  },
+  {
     artName: 'loading-screen-ball-animation',
     pageLink: './Art/Sandesh-Pyakurel/index.html',
     imageLink: './Art/Sandesh-Pyakurel/animation.gif',
@@ -1457,7 +1464,7 @@ let cards = [
     githubLink: 'https://github.com/parzivalafk'
   },
   {
-    artName: "Illusion Loader",
+    artName: 'Illusion Loader',
     pageLink: './Art/saikatsamanta/index.html',
     imageLink: './Art/saikatsamanta/short.gif',
     author: 'psykatsamanta',
