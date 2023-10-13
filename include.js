@@ -1461,6 +1461,13 @@ let cards = [
     imageLink: './Art/xed43/onhover.gif',
     author: 'Edward',
     githubLink: 'https://github.com/xed43'
+  },
+  {
+    artName: 'Chakra-Blade-Animation',
+    pageLink: './Art/rishabh22204901/index.html',
+    imageLink: './Art/rishabh22204901/rishabh22204901.gif',
+    author: 'rishabh22204901',
+    githubLink: 'https://github.com/rishabh22204901'
   }
 ];
 
