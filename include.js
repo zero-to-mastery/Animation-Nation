@@ -1247,6 +1247,13 @@ let cards = [
     githubLink: 'https://github.com/samilabud'
   },
   {
+    artName: 'Spacecraft', 
+    pageLink: './Art/manuelachamoso/index.html', 
+    imageLink: './Art/manuelachamoso/space.gif',
+    author: 'Manuela Chamoso', 
+    githubLink: 'https://github.com/manuelachamoso/'
+  },
+  {
     artName: 'Blob',
     pageLink: './Art/VinayKokate22/index.html',
     imageLink: './Art/VinayKokate22/blob.gif',
@@ -1541,6 +1548,7 @@ let cards = [
     githubLink: 'https://github.com/PunGrumpy'
   }
 
+];
 ];
 
 // +--------------------------------------------------------------------------------+
