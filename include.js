@@ -1613,9 +1613,9 @@ let cards = [
     githubLink: 'https://github.com/Malvericus'
   },
   {
-    artName: "Snowstorm",
-    pageLink: "./Art/ParzivalAFK/snowstorm.html",
-    imageLink: "./Art/ParzivalAFK/snowstorm.gif",
+    artName: 'Snowstorm',
+    pageLink: './Art/ParzivalAFK/snowstorm.html',
+    imageLink: './Art/ParzivalAFK/snowstorm.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
   }

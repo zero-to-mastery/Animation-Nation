@@ -1,50 +1,51 @@
-body, html {
-    margin: 0;
-    height: 100%;
-    background-color: #151515;
-    overflow: hidden;
-    font-size: 60px;
+body,
+html {
+  margin: 0;
+  height: 100%;
+  background-color: #151515;
+  overflow: hidden;
+  font-size: 60px;
 }
 
 .snowstorm {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .snowflake {
-    position: absolute;
-    color: white;
-    opacity: 0.8;
-    animation: fallAndSpin 15s ;
-    left: var(--start-x, 0);
-    top: var(--start-y, 0);
-    animation-timing-function: linear; 
+  position: absolute;
+  color: white;
+  opacity: 0.8;
+  animation: fallAndSpin 15s;
+  left: var(--start-x, 0);
+  top: var(--start-y, 0);
+  animation-timing-function: linear;
 }
 
 .snowflake2 {
-    position: absolute;
-    color: white;
-    opacity: 0.8;
-    animation: fallAndSpin2 15s ;
-    left: var(--start-x, 0);
-    top: var(--start-y, 0);
-    animation-timing-function: linear; 
+  position: absolute;
+  color: white;
+  opacity: 0.8;
+  animation: fallAndSpin2 15s;
+  left: var(--start-x, 0);
+  top: var(--start-y, 0);
+  animation-timing-function: linear;
 }
 
 @keyframes fallAndSpin {
-    0% {
-        transform: translateY(-2000%) translateX(0%) rotate(0deg);
-    }
-    100% {
-        transform: translateY(2200%) translateX(-200%) rotate(360deg);
-    }
+  0% {
+    transform: translateY(-2000%) translateX(0%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(2200%) translateX(-200%) rotate(360deg);
+  }
 }
 @keyframes fallAndSpin2 {
-    0% {
-        transform: translateY(-2000%) translateX(0%) rotate(0deg);
-    }
-    100% {
-        transform: translateY(2200%) translateX(200%) rotate(-360deg);
-    }
+  0% {
+    transform: translateY(-2000%) translateX(0%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(2200%) translateX(200%) rotate(-360deg);
+  }
 }
