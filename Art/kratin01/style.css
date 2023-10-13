@@ -15,8 +15,8 @@ body {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  
-  background-image: linear-gradient(315deg, #8EC5FC 0%, #E0C3FC 74%);
+
+  background-image: linear-gradient(315deg, #8ec5fc 0%, #e0c3fc 74%);
   z-index: -1;
   transition: 850ms;
 }
@@ -25,7 +25,7 @@ body {
   width: 160px;
   height: 50px;
   position: relative;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,8 +34,8 @@ body {
 
   color: #fff;
   cursor: pointer;
-  
-  background-image: linear-gradient(315deg, #8BC6EC 0%, #9599E2 74%);
+
+  background-image: linear-gradient(315deg, #8bc6ec 0%, #9599e2 74%);
 }
 
 .blind {
@@ -87,11 +87,11 @@ body {
 
 .noselect {
   -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #b1 {
