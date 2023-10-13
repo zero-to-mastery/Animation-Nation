@@ -35,6 +35,14 @@ let cards = [
     githubLink: 'https://github.com/Ayansaxena24'
   },
   {
+    artName: 'Neon-spinning-loading-screen',
+    pageLink: './Art/aaron-jacob/index.html',
+    imageLink: './Art/aaron-jacob/loader.gif',
+    author: 'Aaron Jacob',
+    githubLink: 'https://github.com/aaron-jacob'
+  },
+
+  {
     artName: 'Circle Animation',
     pageLink: './Art/Sahil/index.html',
     imageLink: './Art/Sahil/animation.gif',
