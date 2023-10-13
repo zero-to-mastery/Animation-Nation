@@ -1,4 +1,12 @@
-let cards = [
+let cards = [ 
+
+  {
+    artName: 'Envelope Open & Close Animation',
+    pageLink: './Art/<Envelope_Animation_Ankit>/index.html',
+    imageLink: './Art/<Envelope_Animation_Ankit>/Preview_1.png',
+    author: 'Ankit Rajput',
+    githubLink: 'https://github.com/ankit0049'
+  },
   {
     artName: 'loading-screen-ball-animation',
     pageLink: './Art/Sandesh-Pyakurel/index.html',
