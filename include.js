@@ -1575,6 +1575,13 @@ let cards = [
     imageLink: './Art/psykat1116/loader.gif',
     author: 'psykat1116',
     githubLink: 'https://github.com/psykat1116'
+  },
+  {
+    artName: 'Loader Animation',
+    pageLink: './Art/Gaurav816/index.html',
+    imageLink: './Art/Gaurav816/loader.gif',
+    author: 'psykat1116',
+    githubLink: 'https://github.com/Gauravsaxena816'
   }
 ];
 
