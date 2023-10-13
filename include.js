@@ -1,11 +1,20 @@
-let cards = [
+let cards = [ 
+  
+  {
+    artName: 'Cat Eye Tunring or Flipping Animation',
+    pageLink: './Art/Ankit/index.html',
+    imageLink: './Art/Ankit/Cat.png',
+    author: 'Ankit',
+    githubLink: 'https://github.com/ankit0049'
+  },
   {
     artName: 'rotating-cube-animation',
     pageLink: './Art/whitebeard10/index.html',
     imageLink: './Art/whitebeard10/animation.gif',
     author: 'Avinash',
     githubLink: 'https://github.com/whitebeard10'
-  },
+  }, 
+
   {
     artName: 'loading-screen-ball-animation',
     pageLink: './Art/Sandesh-Pyakurel/index.html',
