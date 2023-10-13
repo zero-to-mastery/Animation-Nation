@@ -1612,6 +1612,13 @@ let cards = [
     author: 'Malvika Bhadoriya',
     githubLink: 'https://github.com/Malvericus'
   }
+  {
+    artName: 'Solar System',
+    pageLink: './Art/adityaanandz/solarsystem.html',
+    imageLink: './Art/adityaanandz/solarsystem.gif',
+    author: 'Aditya',
+    githubLink: 'https://github.com/adityaanandz'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
