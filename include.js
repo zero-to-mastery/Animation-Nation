@@ -1426,7 +1426,14 @@ let cards = [
     imageLink: './Art/ParzivalAFK/TargetLoadingBothColors.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
-  }
+  },
+  {
+    artName: "Illusion Loader",
+    pageLink: './Art/saikatsamanta/index.html',
+    imageLink: './Art/saikatsamanta/short.gif',
+    author: 'psykatsamanta',
+    githubLink: 'https://github.com/psykatsamanta'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
