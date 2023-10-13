@@ -1518,6 +1518,13 @@ let cards = [
     imageLink: './Art/neha3423/bubbles.gif', 
     author: 'Neha', 
     githubLink: 'https://github.com/neha3423'
+  },
+  {
+    artName: 'square animation',
+    pageLink: './Art/krishay/index.html',
+    imageLink: './Art/krishay/square.gif',
+    author: 'krishay',
+    githubLink: 'https://github.com/KrishayNair'
   }
 
 ];
