@@ -2025,6 +2025,13 @@ let cards = [
     githubLink: 'https://github.com/vatsalya-vyas'
   },
   {
+    artName: 'Ball Hitting',
+    pageLink: './Art/Kamalesh-Seervi/index.html',
+    imageLink: './Art/Kamalesh-Seervi/balling-hitting.gif',
+    author: 'Kamalesh',
+    githubLink: 'https://github.com/Kamalesh-Seervi'
+  },
+  {
     artName: 'animation',
     pageLink: './Art/hrishit/index.html',
     imageLink: './Art/hrishit/animation.gif',
@@ -2038,6 +2045,8 @@ let cards = [
     author: 'Samil Abud',
     githubLink: 'https://github.com/samilabud'
   }
+]
+  
 ];
 
 // +--------------------------------------------------------------------------------+
