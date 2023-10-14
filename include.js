@@ -1,9 +1,9 @@
 let cards = [ 
   
   {
-    artName: 'Cat Eye Tunring or Flipping Animation',
-    pageLink: './Art/Ankit/index.html',
-    imageLink: './Art/Ankit/Cat.png',
+    artName: 'Cat Eye Flipping Animation',
+    pageLink: './Art/Ankit0049/index.html',
+    imageLink: './Art/Ankit0049/Cat.png',
     author: 'Ankit',
     githubLink: 'https://github.com/ankit0049'
   },
