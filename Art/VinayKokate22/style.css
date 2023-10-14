@@ -1,0 +1,44 @@
+.menu-icon {
+  margin: 10rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: animate-blob 2s ease-in-out infinite alternate;
+  width: 10rem;
+  height: 10rem;
+  border: 2px solid black;
+  position: relative;
+}
+
+.menu-icon2 {
+  position: absolute;
+  transform: rotate(20deg);
+  animation: animate-blob2 2s ease-in-out infinite alternate;
+  width: 10rem;
+  height: 10rem;
+  border: 2px solid black;
+  animation-delay: 0.6s;
+}
+
+@keyframes animate-blob {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+@keyframes animate-blob2 {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
