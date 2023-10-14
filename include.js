@@ -1648,6 +1648,13 @@ let cards = [
     imageLink: './Art/adityaanandz/solarsystem.gif',
     author: 'Aditya',
     githubLink: 'https://github.com/adityaanandz'
+  },
+  {
+    artName: 'Bubbles', // change this to the name of your artwork
+    pageLink: './Art/sudhanshu27/index.html', // change this
+    imageLink: './Art/sudhanshu27/bubbles.gif', // change this
+    author: 'Joy', // use your name
+    githubLink: 'https://github.com/sudhanshu27' // change this
   }
 ];
 
