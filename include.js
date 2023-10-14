@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Indian Flag Animation',
+    pageLink: './Art/niranjan-kurhade/indianflag.html',
+    imageLink: './Art/niranjan-kurhade/indianflag.gif',
+    author: 'Niranjan',
+    githubLink: 'https://github.com/niranjan-kurhade'
+  },
+  {
     artName: 'Cat Eye Flipping Animation',
     pageLink: './Art/Ankit0049/index.html',
     imageLink: './Art/Ankit0049/Cat.png',
