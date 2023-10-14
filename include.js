@@ -1681,6 +1681,13 @@ let cards = [
     imageLink: './Art/gaurav816/loader.gif',
     author: 'Gaurav Saxena',
     githubLink: 'https://github.com/Gauravsaxena816'
+  },
+  {
+    artName: 'Bubbles',
+    pageLink: './Art/sudhanshu27/index.html',
+    imageLink: './Art/sudhanshu27/bubbles.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/sudhanshu27' // change this
   }
 ];
 
