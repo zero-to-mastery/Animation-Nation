@@ -821,6 +821,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'simple-transition',
+    pageLink: './Art/rajan4405/index.html',
+    imageLink: './Art/rajan4405/Animation.gif',
+    author: 'rajan4405',
+    githubLink: 'https://github.com/rajan4405'
+  },
+  {
     artName: 'Shooting gun',
     pageLink: './Art/BlueHeart0065/gun.html',
     imageLink: './Art/BlueHeart0065/gun.gif',
