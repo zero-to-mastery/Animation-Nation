@@ -1,4 +1,12 @@
-let cards = [
+let cards = [ 
+  
+  {
+    artName: 'Cat Eye Flipping Animation',
+    pageLink: './Art/Ankit0049/index.html',
+    imageLink: './Art/Ankit0049/Cat.png',
+    author: 'Ankit',
+    githubLink: 'https://github.com/ankit0049'
+  },
   {
     artName: 'Envelope Open & Close Animation',
     pageLink: './Art/Ankit/index.html',
@@ -12,7 +20,8 @@ let cards = [
     imageLink: './Art/whitebeard10/animation.gif',
     author: 'Avinash',
     githubLink: 'https://github.com/whitebeard10'
-  },
+  }, 
+
   {
     artName: 'loading-screen-ball-animation',
     pageLink: './Art/Sandesh-Pyakurel/index.html',
