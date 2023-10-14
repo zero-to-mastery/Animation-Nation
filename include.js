@@ -1745,3 +1745,24 @@ function Shuffle(o) {
   );
   return o;
 }
+
+
+ // go to top
+ document.addEventListener("DOMContentLoaded", function () {
+  var goToTopBtn = document.querySelector('.go-to-top');
+
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 100) {
+      goToTopBtn.classList.add('active');
+    } else {
+      goToTopBtn.classList.remove('active');
+    }
+  });
+
+  goToTopBtn.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
