@@ -1679,7 +1679,7 @@ let cards = [
   {
     artName: 'flower-animation',
     pageLink: './Art/flower-animation/index.html',
-    imageLink: './Art/fl.png',
+    imageLink: './Art/fl.gif',
     author: 'Saurabh Singh',
     githubLink: 'https://github.com/saurabhsingh720'
   },
