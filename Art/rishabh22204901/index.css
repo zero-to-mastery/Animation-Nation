@@ -1,0 +1,91 @@
+body {
+  background: rgb(197, 188, 188);
+}
+.container {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.leaf {
+  border-radius: 5px 70%;
+  border-style: solid;
+  border-width: 10px;
+  height: 100px;
+  margin: auto;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform-origin: left top;
+}
+#n1 {
+  background: linear-gradient(red, green, blue);
+  animation: motion 5s linear infinite;
+
+  animation-delay: 1s;
+}
+#n2 {
+  background: linear-gradient(red, green, blue);
+  animation: motion2 5s linear infinite;
+  animation-delay: 2s;
+}
+#n3 {
+  background: linear-gradient(red, green, blue);
+  animation: motion3 5s linear infinite;
+  animation-delay: 3s;
+}
+#n4 {
+  background: linear-gradient(red, green, blue);
+  animation: motion4 5s linear infinite;
+  animation-delay: 4s;
+}
+#n5 {
+  background: linear-gradient(red, green, blue);
+  animation: motion5 5s linear infinite;
+  animation-delay: 5s;
+}
+@keyframes motion {
+  from {
+    transform: translate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes motion2 {
+  from {
+    transform: translate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes motion3 {
+  from {
+    transform: translate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes motion4 {
+  from {
+    transform: translate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes motion5 {
+  from {
+    transform: translate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
