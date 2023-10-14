@@ -1,5 +1,19 @@
 let cards = [
   {
+    artName: 'Indian Flag Animation',
+    pageLink: './Art/niranjan-kurhade/indianflag.html',
+    imageLink: './Art/niranjan-kurhade/indianflag.gif',
+    author: 'Niranjan',
+    githubLink: 'https://github.com/niranjan-kurhade'
+  },
+  {
+    artName: 'Cat Eye Flipping Animation',
+    pageLink: './Art/Ankit0049/index.html',
+    imageLink: './Art/Ankit0049/Cat.png',
+    author: 'Ankit',
+    githubLink: 'https://github.com/ankit0049'
+  },
+  {
     artName: 'Envelope Open & Close Animation',
     pageLink: './Art/Ankit/index.html',
     imageLink: './Art/Ankit/Preview.png',
@@ -14,13 +28,26 @@ let cards = [
     githubLink: 'https://github.com/whitebeard10'
   },
   {
+    artName: 'Taxi-Animation',
+    pageLink: './Art/alinasoy/index.html',
+    imageLink: './Art/alinasoy/taxi.gif',
+    author: 'Alina Soy',
+    githubLink: 'https://github.com/alinasoy'
+  },
+  {
     artName: 'loading-screen-ball-animation',
     pageLink: './Art/Sandesh-Pyakurel/index.html',
     imageLink: './Art/Sandesh-Pyakurel/animation.gif',
     author: 'Sandesh-Pyakurel',
     githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
-
+ {
+    artName: 'The Mantras',
+    pageLink: './Art/vikasgadge/index.html',
+    imageLink: './Art/vikasgadge/The Mantras.mp4',
+    author: 'vikasgadge',
+    githubLink: 'https://github.com/vikasgadge28'
+  },
   {
     artName: 'Profile Image Animation',
     pageLink: './Art/thiunuwan/index.html',
@@ -51,6 +78,13 @@ let cards = [
     githubLink: 'https://github.com/<ahmedalhamad7>'
   },
   {
+    artName: 'Square Bounce Animation',
+    pageLink: './Art/tvermaashutosh/index.html',
+    imageLink: './Art/tvermaashutosh/animation.gif',
+    author: 'Ash V',
+    githubLink: 'https://github.com/tvermaashutosh'
+  },
+  {
     artName: 'Borderline-and-Movement-Animation',
     pageLink: './Art/Ayansaxena24/index.html',
     imageLink: './Art/Ayansaxena24/Hacktoberfest-Animation.gif',
@@ -58,11 +92,25 @@ let cards = [
     githubLink: 'https://github.com/Ayansaxena24'
   },
   {
+    artName: 'Odometer',
+    pageLink: './Art/mdtausifiqbal/index.html',
+    imageLink: './Art/mdtausifiqbal/odometer.gif',
+    author: 'mdtausifiqbal',
+    githubLink: 'https://github.com/mdtausifiqbal'
+  },
+  {
     artName: 'Neon-spinning-loading-screen',
     pageLink: './Art/aaron-jacob/index.html',
     imageLink: './Art/aaron-jacob/loader.gif',
     author: 'Aaron Jacob',
     githubLink: 'https://github.com/aaron-jacob'
+  },
+  {
+    artName: 'Rotating and Scaling Animation for div',
+    pageLink: './Art/Abhishek1/index.html',
+    imageLink: './Art/Abhishek1/Animation.png',
+    author: 'Abhishek Gupta',
+    githubLink: 'https://github.com/Abhishekgupta204'
   },
   {
     artName: 'The Chakra',
@@ -780,6 +828,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'simple-transition',
+    pageLink: './Art/rajan4405/index.html',
+    imageLink: './Art/rajan4405/Animation.gif',
+    author: 'rajan4405',
+    githubLink: 'https://github.com/rajan4405'
+  },
+  {
     artName: 'Shooting gun',
     pageLink: './Art/BlueHeart0065/gun.html',
     imageLink: './Art/BlueHeart0065/gun.gif',
@@ -1186,6 +1241,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Cassette Animation',
+    pageLink: './Art/apu52/index.html',
+    imageLink: './Art/apu52/cassette animation.PNG',
+    author: 'Arpan Chowdhury',
+    githubLink: 'https://github.com/apu52'
+  },
+  {
     artName: 'Rocking Boat',
     pageLink: './Art/TishShaw/index.html',
     imageLink: './Art/TishShaw/rocking-boat.gif',
@@ -1240,6 +1302,13 @@ let cards = [
     imageLink: './Art/Vatsalya-Vyas/Glitch.gif',
     author: 'Vatsalya Vyas',
     githubLink: 'https://github.com/vatsalya-vyas'
+  },
+  {
+    artName: 'Ball Hitting',
+    pageLink: './Art/Kamalesh-Seervi/index.html',
+    imageLink: './Art/Kamalesh-Seervi/balling-hitting.gif',
+    author: 'Kamalesh',
+    githubLink: 'https://github.com/Kamalesh-Seervi'
   },
   {
     artName: 'animation',
@@ -1606,6 +1675,13 @@ let cards = [
     githubLink: 'https://github.com/leonyangela'
   },
   {
+    artName: 'Rotating Ashok Chakra in Indian flag',
+    pageLink: './Art/aniketicloud/index.html',
+    imageLink: './Art/aniketicloud/rotating_ashok_chakra.png',
+    author: 'Aniket Pandharabale',
+    githubLink: 'https://github.com/aniketicloud'
+  },
+  {
     artName: 'Tulip Growth',
     pageLink: './Art/Malvericus/index.html',
     imageLink: './Art/Malvericus/Tulip_Growth.gif',
@@ -1625,7 +1701,51 @@ let cards = [
     imageLink: './Art/philling1/animation.gif',
     author: 'philling1',
     githubLink: 'https://github.com/philling1'
+  },
+  {
+    artName: 'Rotating Fan',
+    pageLink: './Art/shravankshenoy/RotatingFan.html',
+    imageLink: './Art/shravankshenoy/RotatingFan.gif',
+    author: 'Shravan Shenoy',
+    githubLink: 'https://github.com/shravankshenoy'
+  },
+  {
+    artName: 'Confetti',
+    pageLink: './Art/dotslashbit/index.html',
+    imageLink: './Art/dotslashbit/confetti.gif',
+    author: 'dotslashbit',
+    githubLink: 'https://github.com/dotslashbit'
+  },
+  {
+    artName: 'The Cube',
+    pageLink: './Art/Sayed-Husain/cube.html',
+    imageLink: './Art/Sayed-Husain/cube.gif',
+    author: 'Sayed-Husain',
+    githubLink: 'https://github.com/Sayed-Husain'
+  },
+  {
+    artName: 'Solar System',
+    pageLink: './Art/adityaanandz/solarsystem.html',
+    imageLink: './Art/adityaanandz/solarsystem.gif',
+    author: 'Aditya',
+    githubLink: 'https://github.com/adityaanandz'
+  },
+  {
+    artName: 'Loader Animation',
+    pageLink: './Art/gaurav816/index.html',
+    imageLink: './Art/gaurav816/loader.gif',
+    author: 'Gaurav Saxena',
+    githubLink: 'https://github.com/Gauravsaxena816'
+  },
+  {
+    artName: 'Bubbles',
+    pageLink: './Art/sudhanshu27/index.html',
+    imageLink: './Art/sudhanshu27/bubbles.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/sudhanshu27'
   }
+]
+  
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -1661,3 +1781,24 @@ function Shuffle(o) {
   );
   return o;
 }
+
+
+ // go to top
+ document.addEventListener("DOMContentLoaded", function () {
+  var goToTopBtn = document.querySelector('.go-to-top');
+
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 100) {
+      goToTopBtn.classList.add('active');
+    } else {
+      goToTopBtn.classList.remove('active');
+    }
+  });
+
+  goToTopBtn.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
