@@ -1654,7 +1654,15 @@ let cards = [
     imageLink: './Art/adityaanandz/solarsystem.gif',
     author: 'Aditya',
     githubLink: 'https://github.com/adityaanandz'
+  },
+  {
+    artName: 'Loader Animation',
+    pageLink: './Art/gaurav816/index.html',
+    imageLink: './Art/gaurav816/loader.gif',
+    author: 'Gaurav Saxena',
+    githubLink: 'https://github.com/Gauravsaxena816'
   }
+    
 ];
 
 // +--------------------------------------------------------------------------------+
