@@ -1615,7 +1615,7 @@ let cards = [
   {
     artName: 'Circular Loading animation',
     pageLink: './Art/philling1/index.html',
-    imageLink: './Art/philling1/Simple Animation.gif',
+    imageLink: './Art/philling1/animation.gif',
     author: 'philling1',
     githubLink: 'https://github.com/philling1'
   }
