@@ -1,64 +1,51 @@
 body, html {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+#B {
+  animation: rotate 5s infinite linear;
+}
+
+#M {
+  animation: bounce 3s infinite ease-in-out;
+}
+
+#H {
+  animation: flip 4s infinite ease-in-out;
+}
+
+@keyframes rotate {
+  100% { 
+    transform: rotate(360deg); 
   }
- 
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: 'whitesmoke';
+}
+
+@keyframes bounce {
+  0%, 100% { 
+    transform: translateY(0); 
   }
-  
-  .circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: red;
-    animation: rotate 5s infinite linear;
+  50% { 
+    transform: translateY(-30px); 
   }
-  
-  .square {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    animation: bounce 3s infinite ease-in-out;
+}
+
+@keyframes flip {
+  0% { 
+    transform: scaleY(1); 
   }
-  
-  .triangle {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid green;
-    animation: flip 4s infinite ease-in-out;
+  50% { 
+    transform: scaleY(-1); 
   }
-  
-  @keyframes rotate {
-    100% {
-      transform: rotate(360deg);
-    }
+  100% { 
+    transform: scaleY(1); 
   }
-  
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-30px);
-    }
-  }
-  
-  @keyframes flip {
-    0% {
-      transform: scaleY(1);
-    }
-    50% {
-      transform: scaleY(-1);
-    }
-    100% {
-      transform: scaleY(1);
-    }
-  }
-  
+}
