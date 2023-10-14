@@ -20,7 +20,13 @@ let cards = [
     author: 'Avinash',
     githubLink: 'https://github.com/whitebeard10'
   },
-
+    {
+      artName: 'Taxi-Animation', 
+      pageLink: './Art/alinasoy/index.html', 
+      imageLink: './Art/alinasoy/taxi.gif', 
+      author: 'Alina Soy', 
+      githubLink: 'https://github.com/alinasoy'
+    },
   {
     artName: 'loading-screen-ball-animation',
     pageLink: './Art/Sandesh-Pyakurel/index.html',
