@@ -1339,6 +1339,13 @@ let cards = [
     imageLink: './Art/muhd-kifayath/Spinner.gif',
     author: 'Kifayath',
     githubLink: 'https://github.com/muhd-kifayath'
+  },
+  {
+    artName: 'stripes',
+    pageLink: './Art/NewKick/index.html',
+    imageLink: './Art/NewKick/Animation-nation-gif.gif',
+    author: 'DAYakDREAMER',
+    githubLink: 'https://github.com/DAYakDREAMER'
   }
 ];
 
