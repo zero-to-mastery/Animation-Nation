@@ -1648,6 +1648,13 @@ let cards = [
     githubLink: 'https://github.com/leonyangela'
   },
   {
+    artName: 'Rotating Ashok Chakra in Indian flag',
+    pageLink: './Art/aniketicloud/index.html',
+    imageLink: './Art/aniketicloud/rotating_ashok_chakra.png',
+    author: 'Aniket Pandharabale',
+    githubLink: 'https://github.com/aniketicloud'
+  },
+  {
     artName: 'Tulip Growth',
     pageLink: './Art/Malvericus/index.html',
     imageLink: './Art/Malvericus/Tulip_Growth.gif',
