@@ -1709,6 +1709,13 @@ let cards = [
     imageLink: './Art/sudhanshu27/bubbles.gif',
     author: 'Joy',
     githubLink: 'https://github.com/sudhanshu27' // change this
+  },
+  {
+    artName: 'Bonfire',
+    pageLink: './Art/shubham-vartak/index.html',
+    imageLink: './Art/shubham-vartak/bonfire_gif.gif',
+    author: 'Shubham Vartak',
+    githubLink: 'https://github.com/shubham-vartak'
   }
 ];
 
