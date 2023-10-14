@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Slackey');
 /* GENERAL LAYOUT STYLE */
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   text-align: center;
   background-color: #777d81;
@@ -189,3 +191,30 @@ h2 {
     font-size: 1.6vw;
   }
 }
+
+
+/* SCROLL TO TOP BUTTON */
+#progress {
+  z-index: 100;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 60px;
+  width: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: black;
+} 
