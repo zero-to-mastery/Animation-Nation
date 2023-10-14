@@ -1745,6 +1745,13 @@ let cards = [
     githubLink: 'https://github.com/Gauravsaxena816'
   },
   {
+    artName: 'Star In Sky',
+    pageLink: './Art/vivek-kumar/StarInSky.html',
+    imageLink: './Art/vivek-kumar/StarInSky.gif',
+    author: 'demonvivekBoii',
+    githubLink: 'https://github.com/demonvivekBoii'
+  },
+  {
     artName: 'Bubbles',
     pageLink: './Art/sudhanshu27/index.html',
     imageLink: './Art/sudhanshu27/bubbles.gif',
