@@ -1,4 +1,12 @@
-let cards = [
+let cards = [ 
+  
+  {
+    artName: 'Cat Eye Flipping Animation',
+    pageLink: './Art/Ankit0049/index.html',
+    imageLink: './Art/Ankit0049/Cat.png',
+    author: 'Ankit',
+    githubLink: 'https://github.com/ankit0049'
+  },
   {
     artName: 'Envelope Open & Close Animation',
     pageLink: './Art/Ankit/index.html',
@@ -12,7 +20,8 @@ let cards = [
     imageLink: './Art/whitebeard10/animation.gif',
     author: 'Avinash',
     githubLink: 'https://github.com/whitebeard10'
-  },
+  }, 
+
   {
     artName: 'loading-screen-ball-animation',
     pageLink: './Art/Sandesh-Pyakurel/index.html',
@@ -1186,6 +1195,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Cassette Animation', 
+    pageLink: './Art/apu52/index.html', 
+    imageLink: './Art/apu52/cassette animation.PNG', 
+    author: 'Arpan Chowdhury', 
+    githubLink: 'https://github.com/apu52' 
+  },
+  {
     artName: 'Rocking Boat',
     pageLink: './Art/TishShaw/index.html',
     imageLink: './Art/TishShaw/rocking-boat.gif',
@@ -1625,6 +1641,20 @@ let cards = [
     imageLink: './Art/shravankshenoy/RotatingFan.gif',
     author: 'Shravan Shenoy',
     githubLink: 'https://github.com/shravankshenoy'
+  },
+  {
+    artName: 'The Cube',
+    pageLink: './Art/Sayed-Husain/cube.html',
+    imageLink: './Art/Sayed-Husain/cube.gif',
+    author: 'Sayed-Husain',
+    githubLink: 'https://github.com/Sayed-Husain'
+  },
+  {
+    artName: 'Solar System',
+    pageLink: './Art/adityaanandz/solarsystem.html',
+    imageLink: './Art/adityaanandz/solarsystem.gif',
+    author: 'Aditya',
+    githubLink: 'https://github.com/adityaanandz'
   }
 ];
 
