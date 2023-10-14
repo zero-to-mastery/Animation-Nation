@@ -1636,12 +1636,19 @@ let cards = [
     githubLink: 'https://github.com/parzivalafk'
   },
   {
+    artName: 'Confetti',
+    pageLink: './Art/dotslashbit/index.html',
+    imageLink: './Art/dotslashbit/confetti.gif',
+    author: 'dotslashbit',
+    githubLink: 'https://github.com/dotslashbit'
+  },
+  {
     artName: 'The Cube',
     pageLink: './Art/Sayed-Husain/cube.html',
     imageLink: './Art/Sayed-Husain/cube.gif',
     author: 'Sayed-Husain',
     githubLink: 'https://github.com/Sayed-Husain'
-  }
+  },
   {
     artName: 'Solar System',
     pageLink: './Art/adityaanandz/solarsystem.html',
