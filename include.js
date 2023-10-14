@@ -1,11 +1,27 @@
-let cards = [
+let cards = [ 
+  
+  {
+    artName: 'Cat Eye Flipping Animation',
+    pageLink: './Art/Ankit0049/index.html',
+    imageLink: './Art/Ankit0049/Cat.png',
+    author: 'Ankit',
+    githubLink: 'https://github.com/ankit0049'
+  },
+  {
+    artName: 'Envelope Open & Close Animation',
+    pageLink: './Art/Ankit/index.html',
+    imageLink: './Art/Ankit/Preview.png',
+    author: 'Ankit',
+    githubLink: 'https://github.com/ankit0049'
+  },
   {
     artName: 'rotating-cube-animation',
     pageLink: './Art/whitebeard10/index.html',
     imageLink: './Art/whitebeard10/animation.gif',
     author: 'Avinash',
     githubLink: 'https://github.com/whitebeard10'
-  },
+  }, 
+
   {
     artName: 'loading-screen-ball-animation',
     pageLink: './Art/Sandesh-Pyakurel/index.html',
@@ -147,6 +163,14 @@ let cards = [
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
     author: 'Joy',
     githubLink: 'https://github.com/smokeraven667'
+  },
+
+  {
+    artName: 'Sleep Time',
+    pageLink: './Art/kratin01/index.html',
+    imageLink: './Art/kratin01/animation.gif',
+    author: 'Kratin',
+    githubLink: 'https://github.com/kratin01'
   },
   {
     artName: 'Gradient Loader',
@@ -1171,6 +1195,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Cassette Animation', 
+    pageLink: './Art/apu52/index.html', 
+    imageLink: './Art/apu52/cassette animation.PNG', 
+    author: 'Arpan Chowdhury', 
+    githubLink: 'https://github.com/apu52' 
+  },
+  {
     artName: 'Rocking Boat',
     pageLink: './Art/TishShaw/index.html',
     imageLink: './Art/TishShaw/rocking-boat.gif',
@@ -1570,11 +1601,53 @@ let cards = [
     githubLink: 'https://github.com/sserwangaedrisa'
   },
   {
+    artName: 'bouncing ball with changing color',
+    pageLink: './Art/Pawaspy/index.html',
+    imageLink: './Art/Pawaspy/anime.gif',
+    author: 'Pawas-Pandey',
+    githubLink: 'https://github.com/pawaspy'
+  },
+  {
     artName: 'Button Loader',
     pageLink: './Art/psykat1116/index.html',
     imageLink: './Art/psykat1116/loader.gif',
     author: 'psykat1116',
     githubLink: 'https://github.com/psykat1116'
+  },
+  {
+    artName: 'Square Pop up',
+    pageLink: './Art/leonyangela/index.html',
+    imageLink: './Art/leonyangela/index.gif',
+    author: 'leonyangela',
+    githubLink: 'https://github.com/leonyangela'
+  },
+  {
+    artName: 'Tulip Growth',
+    pageLink: './Art/Malvericus/index.html',
+    imageLink: './Art/Malvericus/Tulip_Growth.gif',
+    author: 'Malvika Bhadoriya',
+    githubLink: 'https://github.com/Malvericus'
+  },
+  {
+    artName: 'Snowstorm',
+    pageLink: './Art/ParzivalAFK/snowstorm.html',
+    imageLink: './Art/ParzivalAFK/snowstorm.gif',
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
+  },
+  {
+    artName: 'The Cube',
+    pageLink: './Art/Sayed-Husain/cube.html',
+    imageLink: './Art/Sayed-Husain/cube.gif',
+    author: 'Sayed-Husain',
+    githubLink: 'https://github.com/Sayed-Husain'
+  },
+  {
+    artName: 'Solar System',
+    pageLink: './Art/adityaanandz/solarsystem.html',
+    imageLink: './Art/adityaanandz/solarsystem.gif',
+    author: 'Aditya',
+    githubLink: 'https://github.com/adityaanandz'
   },
   {
     artName: 'Loader Animation',
@@ -1583,6 +1656,7 @@ let cards = [
     author: 'Gaurav Saxena',
     githubLink: 'https://github.com/Gauravsaxena816'
   }
+    
 ];
 
 // +--------------------------------------------------------------------------------+
