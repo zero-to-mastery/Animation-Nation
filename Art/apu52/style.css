@@ -1,6 +1,8 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Roboto:500,700");
-*, *:before, *:after {
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,700');
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -9,7 +11,7 @@ body {
   place-items: center;
   min-height: 100vh;
   background: #8fe2ec;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/851550/dotnoise-light-grey.png");
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/851550/dotnoise-light-grey.png');
   animation: static 2s steps(1) infinite;
 }
 
@@ -17,7 +19,7 @@ body {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/851550/dotnoise-light-grey.png");
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/851550/dotnoise-light-grey.png');
   animation: static 2s steps(1) infinite;
   opacity: 0.4;
   z-index: 11;
@@ -328,7 +330,7 @@ a {
   text-align: center;
   width: 100%;
   padding: 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: rgba(0, 0, 0, 0.3);
   z-index: 12;
 }
@@ -350,7 +352,7 @@ a {
 }
 .cassette:after {
   display: block;
-  content: "";
+  content: '';
   width: 104%;
   height: 30%;
   margin-left: -2%;
@@ -363,7 +365,7 @@ a {
 }
 .cassette:before {
   display: block;
-  content: "";
+  content: '';
   width: 89%;
   height: 4px;
   margin: auto;
@@ -380,14 +382,84 @@ a {
   top: 7%;
   border-radius: 8px;
   box-shadow: inset 0 0 0 4px #353535;
-  background: linear-gradient(#e6584c 8%, #f8f8f8 8%, #f8f8f8 30%, #484848 30%, #484848 31.5%, #f8f8f8 31.5%, #f8f8f8 36%, #484848 36%, #484848 37.5%, #f8f8f8 37.5%, #f8f8f8 39%, #484848 39%, #484848 40.5%, #f8f8f8 40.5%, #f8f8f8 42%, #484848 42%, #484848 43.5%, #f8f8f8 43.5%, #f8f8f8 45%, #484848 45%, #484848 46.5%, #f8f8f8 46.5%, #f8f8f8 48%, #484848 48%, #484848 49.5%, #f8f8f8 49.5%, #f8f8f8 51%, #484848 51%, #484848 52.5%, #f8f8f8 52.5%, #f8f8f8 54%, #484848 54%, #484848 55.5%, #f8f8f8 55.5%, #f8f8f8 57%, #484848 57%, #484848 58.5%, #f8f8f8 58.5%, #f8f8f8 60%, #484848 60%, #484848 61.5%, #f8f8f8 61.5%, #f8f8f8 63%, #484848 63%, #484848 64.5%, #f8f8f8 64.5%, #f8f8f8 66%, #484848 66%, #484848 67.5%, #f8f8f8 67.5%, #f8f8f8 69%, #484848 69%, #484848 70.5%, #f8f8f8 70.5%, #f8f8f8 72%, #484848 72%, #484848 73.5%, #f8f8f8 73.5%, #f8f8f8 75%, #484848 75%, #484848 76.5%, #f8f8f8 76.5%, #f8f8f8 78%, #484848 78%, #484848 79.5%, #f8f8f8 79.5%, #f8f8f8 81%, #484848 81%, #484848 82.5%);
+  background: linear-gradient(
+    #e6584c 8%,
+    #f8f8f8 8%,
+    #f8f8f8 30%,
+    #484848 30%,
+    #484848 31.5%,
+    #f8f8f8 31.5%,
+    #f8f8f8 36%,
+    #484848 36%,
+    #484848 37.5%,
+    #f8f8f8 37.5%,
+    #f8f8f8 39%,
+    #484848 39%,
+    #484848 40.5%,
+    #f8f8f8 40.5%,
+    #f8f8f8 42%,
+    #484848 42%,
+    #484848 43.5%,
+    #f8f8f8 43.5%,
+    #f8f8f8 45%,
+    #484848 45%,
+    #484848 46.5%,
+    #f8f8f8 46.5%,
+    #f8f8f8 48%,
+    #484848 48%,
+    #484848 49.5%,
+    #f8f8f8 49.5%,
+    #f8f8f8 51%,
+    #484848 51%,
+    #484848 52.5%,
+    #f8f8f8 52.5%,
+    #f8f8f8 54%,
+    #484848 54%,
+    #484848 55.5%,
+    #f8f8f8 55.5%,
+    #f8f8f8 57%,
+    #484848 57%,
+    #484848 58.5%,
+    #f8f8f8 58.5%,
+    #f8f8f8 60%,
+    #484848 60%,
+    #484848 61.5%,
+    #f8f8f8 61.5%,
+    #f8f8f8 63%,
+    #484848 63%,
+    #484848 64.5%,
+    #f8f8f8 64.5%,
+    #f8f8f8 66%,
+    #484848 66%,
+    #484848 67.5%,
+    #f8f8f8 67.5%,
+    #f8f8f8 69%,
+    #484848 69%,
+    #484848 70.5%,
+    #f8f8f8 70.5%,
+    #f8f8f8 72%,
+    #484848 72%,
+    #484848 73.5%,
+    #f8f8f8 73.5%,
+    #f8f8f8 75%,
+    #484848 75%,
+    #484848 76.5%,
+    #f8f8f8 76.5%,
+    #f8f8f8 78%,
+    #484848 78%,
+    #484848 79.5%,
+    #f8f8f8 79.5%,
+    #f8f8f8 81%,
+    #484848 81%,
+    #484848 82.5%
+  );
 }
 .cassette .label:before {
   position: absolute;
   display: block;
   top: 12%;
   left: 3%;
-  content: "B";
+  content: 'B';
   padding: 3px;
   text-align: center;
   width: 1.3em;
@@ -401,9 +473,9 @@ a {
 .cassette .label:after {
   position: absolute;
   display: block;
-  content: "N.R. [                   ] ☐︎IN ☒︎OUT";
+  content: 'N.R. [                   ] ☐︎IN ☒︎OUT';
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.9em;
   top: 22%;
   right: 3%;
@@ -422,28 +494,34 @@ a {
 .cassette .label .cutout:before {
   position: absolute;
   display: block;
-  content: "Normal Bias 120µ︎s EQ";
+  content: 'Normal Bias 120µ︎s EQ';
   color: rgba(255, 255, 255, 0.8);
   font-size: 0.85em;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   bottom: -25%;
 }
 .cassette .label .cutout:after {
   position: absolute;
   display: block;
-  content: "A 60";
+  content: 'A 60';
   color: rgba(255, 255, 255, 0.8);
   font-size: 1.5em;
   font-weight: bold;
   top: 100%;
   right: 0;
   background: #e6584c;
-  background-image: linear-gradient(90deg, #e6584c 44%, rgba(255, 255, 255, 0.8) 44%, rgba(255, 255, 255, 0.8) 45%, #e6584c 45%);
+  background-image: linear-gradient(
+    90deg,
+    #e6584c 44%,
+    rgba(255, 255, 255, 0.8) 44%,
+    rgba(255, 255, 255, 0.8) 45%,
+    #e6584c 45%
+  );
   height: 36%;
   padding: 1.2% 5%;
   box-shadow: inset 0 0 0 8px #e6584c;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .cassette .label .cutout .reel_hole {
   position: absolute;
@@ -456,7 +534,7 @@ a {
   right: 5.5%;
 }
 .cassette .label .cutout .reel_hole:after {
-  content: "";
+  content: '';
   display: block;
   padding-bottom: 100%;
   box-shadow: inset 0 0 0 6px #adadad;
@@ -466,7 +544,7 @@ a {
 .cassette .label .cutout .reel_hole:before {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   top: 0;
@@ -491,9 +569,10 @@ a {
   box-shadow: 0 0 0 2px #353535;
   animation: gears 3.5s linear infinite alternate;
 }
-.cassette .label .cutout .reel_hole .gear:before, .cassette .label .cutout .reel_hole .gear:after {
+.cassette .label .cutout .reel_hole .gear:before,
+.cassette .label .cutout .reel_hole .gear:after {
   display: block;
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
@@ -510,7 +589,14 @@ a {
   left: -75%;
   background: none;
   box-shadow: -2px -2px 0 0 #353535;
-  background-image: linear-gradient(90deg, #8fe2ec calc(50% - 1px), #353535 calc(50% - 1px), #353535 calc(50% + 1px), #e6584c calc(50% + 2px)), linear-gradient(#8fe2ec calc(100% - 2px), #353535 calc(100% - 2px));
+  background-image: linear-gradient(
+      90deg,
+      #8fe2ec calc(50% - 1px),
+      #353535 calc(50% - 1px),
+      #353535 calc(50% + 1px),
+      #e6584c calc(50% + 2px)
+    ),
+    linear-gradient(#8fe2ec calc(100% - 2px), #353535 calc(100% - 2px));
   background-size: 100% 50%, 50% 100%;
   background-repeat: no-repeat;
 }
@@ -535,8 +621,17 @@ a {
 .cassette .label .cutout .window:after {
   display: block;
   position: absolute;
-  background: linear-gradient(transparent 13%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0.4) 24%, transparent 24%, transparent 34%, rgba(255, 255, 255, 0.4) 34%, rgba(255, 255, 255, 0.4) 50%, transparent 50%);
-  content: "";
+  background: linear-gradient(
+    transparent 13%,
+    rgba(255, 255, 255, 0.4) 13%,
+    rgba(255, 255, 255, 0.4) 24%,
+    transparent 24%,
+    transparent 34%,
+    rgba(255, 255, 255, 0.4) 34%,
+    rgba(255, 255, 255, 0.4) 50%,
+    transparent 50%
+  );
+  content: '';
   width: 100%;
   height: 100%;
 }
@@ -550,7 +645,7 @@ a {
   box-shadow: 0 0 0 10px #626262, 0 0 0 13px #353535;
 }
 .cassette .label .cutout .window .spool:after {
-  content: "";
+  content: '';
   display: block;
   padding-bottom: 100%;
 }
@@ -577,15 +672,19 @@ a {
   margin-left: 20%;
   bottom: -4%;
 }
-.cassette .head:before, .cassette .head:after {
+.cassette .head:before,
+.cassette .head:after {
   display: block;
-  content: "";
+  content: '';
   width: 70%;
   height: 100%;
   position: absolute;
   background: #4b4b56;
   border: 4px solid #353535;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
   background-repeat: no-repeat;
   background-position: 15% 8%;
   background-size: 100% 4px;
@@ -611,7 +710,7 @@ a {
   left: 4%;
 }
 .cassette .screw:before {
-  content: "⃠︎";
+  content: '⃠︎';
   font-size: 1.1em;
   color: #353535;
   font-weight: bold;
@@ -656,7 +755,7 @@ a {
   margin-left: -2.5%;
 }
 .cassette .hole:after {
-  content: "";
+  content: '';
   display: block;
   padding-bottom: 100%;
 }

@@ -1,5 +1,4 @@
-let cards = [ 
-  
+let cards = [
   {
     artName: 'Cat Eye Flipping Animation',
     pageLink: './Art/Ankit0049/index.html',
@@ -20,8 +19,14 @@ let cards = [
     imageLink: './Art/whitebeard10/animation.gif',
     author: 'Avinash',
     githubLink: 'https://github.com/whitebeard10'
-  }, 
-
+  },
+  {
+    artName: 'Taxi-Animation',
+    pageLink: './Art/alinasoy/index.html',
+    imageLink: './Art/alinasoy/taxi.gif',
+    author: 'Alina Soy',
+    githubLink: 'https://github.com/alinasoy'
+  },
   {
     artName: 'loading-screen-ball-animation',
     pageLink: './Art/Sandesh-Pyakurel/index.html',
@@ -1195,11 +1200,11 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
-    artName: 'Cassette Animation', 
-    pageLink: './Art/apu52/index.html', 
-    imageLink: './Art/apu52/cassette animation.PNG', 
-    author: 'Arpan Chowdhury', 
-    githubLink: 'https://github.com/apu52' 
+    artName: 'Cassette Animation',
+    pageLink: './Art/apu52/index.html',
+    imageLink: './Art/apu52/cassette animation.PNG',
+    author: 'Arpan Chowdhury',
+    githubLink: 'https://github.com/apu52'
   },
   {
     artName: 'Rocking Boat',
@@ -1636,12 +1641,26 @@ let cards = [
     githubLink: 'https://github.com/parzivalafk'
   },
   {
+    artName: 'Rotating Fan',
+    pageLink: './Art/shravankshenoy/RotatingFan.html',
+    imageLink: './Art/shravankshenoy/RotatingFan.gif',
+    author: 'Shravan Shenoy',
+    githubLink: 'https://github.com/shravankshenoy'
+  },
+  {
+    artName: 'Confetti',
+    pageLink: './Art/dotslashbit/index.html',
+    imageLink: './Art/dotslashbit/confetti.gif',
+    author: 'dotslashbit',
+    githubLink: 'https://github.com/dotslashbit'
+  },
+  {
     artName: 'The Cube',
     pageLink: './Art/Sayed-Husain/cube.html',
     imageLink: './Art/Sayed-Husain/cube.gif',
     author: 'Sayed-Husain',
     githubLink: 'https://github.com/Sayed-Husain'
-  }
+  },
   {
     artName: 'Solar System',
     pageLink: './Art/adityaanandz/solarsystem.html',
@@ -1650,10 +1669,17 @@ let cards = [
     githubLink: 'https://github.com/adityaanandz'
   },
   {
-    artName: 'Bubbles', // change this to the name of your artwork
-    pageLink: './Art/sudhanshu27/index.html', // change this
-    imageLink: './Art/sudhanshu27/bubbles.gif', // change this
-    author: 'Joy', // use your name
+    artName: 'Loader Animation',
+    pageLink: './Art/gaurav816/index.html',
+    imageLink: './Art/gaurav816/loader.gif',
+    author: 'Gaurav Saxena',
+    githubLink: 'https://github.com/Gauravsaxena816'
+  },
+  {
+    artName: 'Bubbles',
+    pageLink: './Art/sudhanshu27/index.html',
+    imageLink: './Art/sudhanshu27/bubbles.gif',
+    author: 'Joy',
     githubLink: 'https://github.com/sudhanshu27' // change this
   }
 ];
