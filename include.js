@@ -1675,6 +1675,7 @@ let cards = [
     author: 'Aditya',
     githubLink: 'https://github.com/adityaanandz'
   },
+
   {
     artName: 'flower-animation',
     pageLink: './Art/flower-animation/index.html',
@@ -1682,6 +1683,7 @@ let cards = [
     author: 'Saurabh Singh',
     githubLink: 'https://github.com/saurabhsingh720'
   },
+  {
     artName: 'Loader Animation',
     pageLink: './Art/gaurav816/index.html',
     imageLink: './Art/gaurav816/loader.gif',
