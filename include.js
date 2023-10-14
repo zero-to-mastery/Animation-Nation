@@ -106,6 +106,13 @@ let cards = [
     githubLink: 'https://github.com/aaron-jacob'
   },
   {
+    artName: 'Rotating and Scaling Animation for div',
+    pageLink: './Art/Abhishek1/index.html',
+    imageLink: './Art/Abhishek1/Animation.png',
+    author: 'Abhishek Gupta',
+    githubLink: 'https://github.com/Abhishekgupta204'
+  },
+  {
     artName: 'The Chakra',
     pageLink: './Art/devanshumasodker/index.html',
     imageLink: './Art/devanshumasodker/Chakra.PNG',
