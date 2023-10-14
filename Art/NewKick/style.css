@@ -15,7 +15,7 @@ body {
 
 
 .stripe-container-sm {
-    height: 200px;
+    height: 100px;
     width: 200%;
     position: absolute;
     top: 0;
@@ -33,7 +33,7 @@ body {
     position: absolute;
     animation: moveStripe 1.5s linear infinite;
     transform-origin: bottom left;
-
+    border-radius: 100px;
    
 }
 
