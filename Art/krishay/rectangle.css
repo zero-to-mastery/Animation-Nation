@@ -1,0 +1,60 @@
+.rect1 {
+  animation-name: rectangle-animation;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rect2 {
+  animation-name: rectangle-animation2;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-image: url('./square.gif');
+  background-size: cover;
+}
+@keyframes rectangle-animation {
+  from {
+    background-color: #ffffff;
+    width: 300px;
+    top: 400px;
+  }
+  to {
+    background-color: #000000;
+    width: 50px;
+    top: 600px;
+  }
+}
+@keyframes rectangle-animation2 {
+  from {
+    background-color: #000000;
+    width: 50px;
+    top: 110px;
+  }
+  to {
+    background-color: #ffffff;
+    width: 300px;
+    top: 200px;
+  }
+}

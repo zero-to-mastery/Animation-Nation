@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #121212;
+}
+
+.hero__image {
+  outline: 4px solid #1ed9b7;
+  display: block;
+  width: 350px;
+  height: auto;
+  order: 1;
+  animation: profile_animate 10s ease-in-out infinite -5s;
+}
+@keyframes profile_animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
