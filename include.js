@@ -1,5 +1,4 @@
-let cards = [ 
-  
+let cards = [
   {
     artName: 'Cat Eye Flipping Animation',
     pageLink: './Art/Ankit0049/index.html',
@@ -20,7 +19,7 @@ let cards = [
     imageLink: './Art/whitebeard10/animation.gif',
     author: 'Avinash',
     githubLink: 'https://github.com/whitebeard10'
-  }, 
+  },
 
   {
     artName: 'loading-screen-ball-animation',
@@ -1195,11 +1194,11 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
-    artName: 'Cassette Animation', 
-    pageLink: './Art/apu52/index.html', 
-    imageLink: './Art/apu52/cassette animation.PNG', 
-    author: 'Arpan Chowdhury', 
-    githubLink: 'https://github.com/apu52' 
+    artName: 'Cassette Animation',
+    pageLink: './Art/apu52/index.html',
+    imageLink: './Art/apu52/cassette animation.PNG',
+    author: 'Arpan Chowdhury',
+    githubLink: 'https://github.com/apu52'
   },
   {
     artName: 'Rocking Boat',
