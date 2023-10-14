@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Indian Flag Animation',
+    pageLink: './Art/niranjan-kurhade/indianflag.html',
+    imageLink: './Art/niranjan-kurhade/indianflag.gif',
+    author: 'Niranjan',
+    githubLink: 'https://github.com/niranjan-kurhade'
+  },
+  {
     artName: 'Cat Eye Flipping Animation',
     pageLink: './Art/Ankit0049/index.html',
     imageLink: './Art/Ankit0049/Cat.png',
@@ -1646,6 +1653,13 @@ let cards = [
     imageLink: './Art/leonyangela/index.gif',
     author: 'leonyangela',
     githubLink: 'https://github.com/leonyangela'
+  },
+  {
+    artName: 'Rotating Ashok Chakra in Indian flag',
+    pageLink: './Art/aniketicloud/index.html',
+    imageLink: './Art/aniketicloud/rotating_ashok_chakra.png',
+    author: 'Aniket Pandharabale',
+    githubLink: 'https://github.com/aniketicloud'
   },
   {
     artName: 'Tulip Growth',
