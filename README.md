@@ -71,3 +71,5 @@ as they have to review the complete pull request again.
 If you don't follow this rule, maintainers reserve the right to mark your pull request as invalid.
 
 **In this case it won't count for Hacktoberfest**.
+
+[![An image of @7597243's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/7597243)](https://holopin.io/@7597243)
