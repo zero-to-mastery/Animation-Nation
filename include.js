@@ -6,15 +6,13 @@ let cards = [
     author: 'Ankit',
     githubLink: 'https://github.com/ankit0049'
   },
-  let cards = [
   {
     artName: 'Moonrise', 
     pageLink: './Art/ahmedalhamad7/moon.html', 
     imageLink: './Art/ahmedalhamad7/static moon.png', 
-    author: 'Ahmed', // use your name
+    author: 'Ahmed',
     githubLink: 'https://github.com/ahmedalhamad7'
-  }
-];
+  },
   {
     artName: 'Envelope Open & Close Animation',
     pageLink: './Art/Ankit/index.html',
