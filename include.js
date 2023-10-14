@@ -8,6 +8,13 @@ let cards = [
     githubLink: 'https://github.com/ankit0049'
   },
   {
+    artName: 'Envelope Open & Close Animation',
+    pageLink: './Art/Ankit/index.html',
+    imageLink: './Art/Ankit/Preview.png',
+    author: 'Ankit',
+    githubLink: 'https://github.com/ankit0049'
+  },
+  {
     artName: 'rotating-cube-animation',
     pageLink: './Art/whitebeard10/index.html',
     imageLink: './Art/whitebeard10/animation.gif',
@@ -156,6 +163,14 @@ let cards = [
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
     author: 'Joy',
     githubLink: 'https://github.com/smokeraven667'
+  },
+
+  {
+    artName: 'Sleep Time',
+    pageLink: './Art/kratin01/index.html',
+    imageLink: './Art/kratin01/animation.gif',
+    author: 'Kratin',
+    githubLink: 'https://github.com/kratin01'
   },
   {
     artName: 'Gradient Loader',
@@ -1579,6 +1594,13 @@ let cards = [
     githubLink: 'https://github.com/sserwangaedrisa'
   },
   {
+    artName: 'bouncing ball with changing color',
+    pageLink: './Art/Pawaspy/index.html',
+    imageLink: './Art/Pawaspy/anime.gif',
+    author: 'Pawas-Pandey',
+    githubLink: 'https://github.com/pawaspy'
+  },
+  {
     artName: 'Button Loader',
     pageLink: './Art/psykat1116/index.html',
     imageLink: './Art/psykat1116/loader.gif',
@@ -1598,6 +1620,13 @@ let cards = [
     imageLink: './Art/Malvericus/Tulip_Growth.gif',
     author: 'Malvika Bhadoriya',
     githubLink: 'https://github.com/Malvericus'
+  },
+  {
+    artName: 'Snowstorm',
+    pageLink: './Art/ParzivalAFK/snowstorm.html',
+    imageLink: './Art/ParzivalAFK/snowstorm.gif',
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
   }
 ];
 
