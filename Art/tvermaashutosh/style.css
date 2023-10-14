@@ -1,0 +1,41 @@
+.box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: lightcoral;
+    animation-name: runMe;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes runMe{
+    0%{
+        left:10px;
+        top:10px;
+    }
+    25%{
+        left: 210px;
+        top:10px;
+        width: 50px;
+        height: 50px;
+        transform: rotate(90deg);
+        background-color: palegreen;
+    }
+    50%{
+        left: 210px;
+        top: 210px;
+        width:25px;height: 25px;
+        transform: rotate(90deg);
+    }
+    75%{
+        left: 10px;
+        top: 210px;
+        width: 50px;
+        height: 50px;
+        background-color: greenyellow;
+    }
+    100%{
+        left: 10px;
+        top:10px;
+    }
+}
