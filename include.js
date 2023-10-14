@@ -1436,7 +1436,7 @@ let cards = [
     githubLink: 'https://github.com/parzivalafk'
   },
   {
-    artName: "Illusion Loader",
+    artName: 'Illusion Loader',
     pageLink: './Art/saikatsamanta/index.html',
     imageLink: './Art/saikatsamanta/short.gif',
     author: 'psykatsamanta',
@@ -1476,6 +1476,13 @@ let cards = [
     imageLink: './Art/rishabh22204901/rishabh22204901.gif',
     author: 'rishabh22204901',
     githubLink: 'https://github.com/rishabh22204901'
+  },
+  {
+    artName: 'Bubbles',
+    pageLink: './Art/sudhanshu27/index.html',
+    imageLink: './Art/sudhanshu27/bubbles.gif',
+    author: 'Sudhanshu',
+    githubLink: 'https://github.com/sudhanshu27'
   }
 ];
 
