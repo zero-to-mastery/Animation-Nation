@@ -44,9 +44,9 @@ let cards = [
     githubLink: 'https://github.com/<ahmedalhamad7>'
   },
   {
-    artName: 'Square Bounce',
-    pageLink: './Art/Ash/triangle.html',
-    imageLink: './Art/Ash/triangle.gif',
+    artName: 'Square Bounce Animation',
+    pageLink: './Art/tvermaashutosh/index.html',
+    imageLink: './Art/tvermaashutosh/animation.gif',
     author: 'Ash V',
     githubLink: 'https://github.com/tvermaashutosh'
   },
