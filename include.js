@@ -149,6 +149,13 @@ let cards = [
     githubLink: 'https://github.com/iamsnehadas'
   },
   {
+    artName: '3D toaster Animation', 
+    pageLink: './Art/https://github.com/apu52/index.html', 
+    imageLink: './Art/https://github.com/apu52/3D toaster.gif', 
+    author: 'Arpan Chowdhury', 
+    githubLink: 'https://github.com/https://github.com/apu52' 
+  },
+  {
     artName: 'Tic Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
