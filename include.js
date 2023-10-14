@@ -1144,13 +1144,13 @@ let cards = [
     githubLink: 'https://github.com/muhd-kifayath'
   },
   {
-<<<<<<< HEAD
-    artName: 'stripes',
-    pageLink: './Art/NewKick/index.html',
-    imageLink: './Art/NewKick/Animation-nation-gif.gif',
+    artName: 'NewKick',
+    pageLink: './Art/DAYakDREAMER/index.html',
+    imageLink: './Art/DAYakDREAMER/Animation-nation-gif.gif',
     author: 'DAYakDREAMER',
     githubLink: 'https://github.com/DAYakDREAMER'
-=======
+  },
+  {
     artName: 'Rotate 3D on Hover',
     pageLink: './Art/Vamshidhar/rotate.html',
     imageLink: './Art/Vamshidhar/rotate-3d-on-hover.gif',
