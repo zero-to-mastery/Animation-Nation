@@ -1641,6 +1641,13 @@ let cards = [
     githubLink: 'https://github.com/parzivalafk'
   },
   {
+    artName: 'Rotating Fan',
+    pageLink: './Art/shravankshenoy/RotatingFan.html',
+    imageLink: './Art/shravankshenoy/RotatingFan.gif',
+    author: 'Shravan Shenoy',
+    githubLink: 'https://github.com/shravankshenoy'
+  },
+  {
     artName: 'Confetti',
     pageLink: './Art/dotslashbit/index.html',
     imageLink: './Art/dotslashbit/confetti.gif',
