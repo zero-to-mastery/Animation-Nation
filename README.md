@@ -1,8 +1,23 @@
-![](./colourpencils.png)
+<h1 style="display:flex;justify-content:center;color:">✨ Animation Nation ✨</h1>
+<br>
+<div align="center">
+  <img src="https://img.shields.io/github/stars/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <img src="https://img.shields.io/github/repo-size/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <br>
+  <img src="https://img.shields.io/github/last-commit/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <img src="https://img.shields.io/github/contributors-anon/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <br>
+  <img src="https://img.shields.io/github/issues/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues-pr/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <br>
+  <img src="https://img.shields.io/github/issues-closed-raw/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues-pr-closed-raw/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+</div>
+<br>
 
+![header-picture](./public/images/colourpencils.png)
 _Sharpen your pencils, we're getting creative!_
-
-# Animation Nation
 
 Hello and welcome to Animation Nation, a ZTM project for Hacktoberfest! This site aims to showcase the creative talents of the ZTM community :)
 
@@ -43,3 +58,14 @@ let cards = [
   }
 ];
 ```
+
+# Important Note
+
+If a maintainer asks for changes, _please make the required changes to your original pull request._
+
+Closing a PR and re-opening the PR for the same contribution adds an unnecessary burden on maintainers,  
+as they have to review the complete pull request again.
+
+If you don't follow this rule, maintainers reserve the right to mark your pull request as invalid.
+
+**In this case it won't count for Hacktoberfest**.
