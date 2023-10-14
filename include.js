@@ -1742,10 +1742,15 @@ let cards = [
     pageLink: './Art/sudhanshu27/index.html',
     imageLink: './Art/sudhanshu27/bubbles.gif',
     author: 'Joy',
-    githubLink: 'https://github.com/sudhanshu27'
+    githubLink: 'https://github.com/sudhanshu27' 
+  },
+  {
+    artName: 'GlowingStars',
+    pageLink: './Art/vivek/GlowingStars.html',
+    imageLink: './Art/vivek/GlowingStars.gif',
+    author: 'vivekBoii',
+    githubLink: 'https://github.com/vivekBoii'
   }
-]
-  
 ];
 
 // +--------------------------------------------------------------------------------+
