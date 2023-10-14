@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: lightblue;
+}
+.background{
+
+}
+
+
+.stripe-container-sm {
+    height: 100px;
+    width: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    rotate: -45deg;
+    border-radius: 100px;
+
+}
+
+.stripe {
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(to bottom, red 0%, red 33.33%, blue 0%, blue 66.66%, orange 0%);
+    position: absolute;
+    animation: moveStripe 1.5s linear infinite;
+    transform-origin: bottom left;
+    border-radius: 100px;
+   
+}
+
+
+
+.stripe-2 {
+    animation-delay: .1s;
+}
+.stripe-3 {
+    animation-delay: ..15s;
+}
+
+
+
+@keyframes moveStripe {
+    0% {
+        transform: translateX(-100%);
+        width: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        width: 200%;
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+

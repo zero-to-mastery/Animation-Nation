@@ -1171,6 +1171,13 @@ let cards = [
     githubLink: 'https://github.com/muhd-kifayath'
   },
   {
+    artName: 'NewKick',
+    pageLink: './Art/DAYakDREAMER/index.html',
+    imageLink: './Art/DAYakDREAMER/Animation-nation-gif.gif',
+    author: 'DAYakDREAMER',
+    githubLink: 'https://github.com/DAYakDREAMER'
+  },
+  {
     artName: 'Rotate 3D on Hover',
     pageLink: './Art/Vamshidhar/rotate.html',
     imageLink: './Art/Vamshidhar/rotate-3d-on-hover.gif',
@@ -1741,7 +1748,7 @@ let cards = [
     artName: 'Bubbles',
     pageLink: './Art/sudhanshu27/index.html',
     imageLink: './Art/sudhanshu27/bubbles.gif',
-    author: 'Joy',
+    author: 'sudhanshu27',
     githubLink: 'https://github.com/sudhanshu27'
   },
   {
