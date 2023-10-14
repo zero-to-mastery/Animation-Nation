@@ -1662,7 +1662,6 @@ let cards = [
     author: 'Gaurav Saxena',
     githubLink: 'https://github.com/Gauravsaxena816'
   }
-    
 ];
 
 // +--------------------------------------------------------------------------------+
