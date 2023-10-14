@@ -79,6 +79,13 @@ let cards = [
     githubLink: 'https://github.com/Ayansaxena24'
   },
   {
+    artName: 'Odometer',
+    pageLink: './Art/mdtausifiqbal/index.html',
+    imageLink: './Art/mdtausifiqbal/odometer.gif',
+    author: 'mdtausifiqbal',
+    githubLink: 'https://github.com/mdtausifiqbal'
+  },
+  {
     artName: 'Neon-spinning-loading-screen',
     pageLink: './Art/aaron-jacob/index.html',
     imageLink: './Art/aaron-jacob/loader.gif',
