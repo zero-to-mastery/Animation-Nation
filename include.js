@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Indian Flag Animation',
+    pageLink: './Art/niranjan-kurhade/indianflag.html',
+    imageLink: './Art/niranjan-kurhade/indianflag.gif',
+    author: 'Niranjan',
+    githubLink: 'https://github.com/niranjan-kurhade'
+  },
+  {
     artName: 'Cat Eye Flipping Animation',
     pageLink: './Art/Ankit0049/index.html',
     imageLink: './Art/Ankit0049/Cat.png',
@@ -34,7 +41,13 @@ let cards = [
     author: 'Sandesh-Pyakurel',
     githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
-
+ {
+    artName: 'The Mantras',
+    pageLink: './Art/vikasgadge/index.html',
+    imageLink: './Art/vikasgadge/The Mantras.mp4',
+    author: 'vikasgadge',
+    githubLink: 'https://github.com/vikasgadge28'
+  },
   {
     artName: 'Profile Image Animation',
     pageLink: './Art/thiunuwan/index.html',
@@ -79,11 +92,25 @@ let cards = [
     githubLink: 'https://github.com/Ayansaxena24'
   },
   {
+    artName: 'Odometer',
+    pageLink: './Art/mdtausifiqbal/index.html',
+    imageLink: './Art/mdtausifiqbal/odometer.gif',
+    author: 'mdtausifiqbal',
+    githubLink: 'https://github.com/mdtausifiqbal'
+  },
+  {
     artName: 'Neon-spinning-loading-screen',
     pageLink: './Art/aaron-jacob/index.html',
     imageLink: './Art/aaron-jacob/loader.gif',
     author: 'Aaron Jacob',
     githubLink: 'https://github.com/aaron-jacob'
+  },
+  {
+    artName: 'Rotating and Scaling Animation for div',
+    pageLink: './Art/Abhishek1/index.html',
+    imageLink: './Art/Abhishek1/Animation.png',
+    author: 'Abhishek Gupta',
+    githubLink: 'https://github.com/Abhishekgupta204'
   },
   {
     artName: 'The Chakra',
@@ -801,6 +828,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'simple-transition',
+    pageLink: './Art/rajan4405/index.html',
+    imageLink: './Art/rajan4405/Animation.gif',
+    author: 'rajan4405',
+    githubLink: 'https://github.com/rajan4405'
+  },
+  {
     artName: 'Shooting gun',
     pageLink: './Art/BlueHeart0065/gun.html',
     imageLink: './Art/BlueHeart0065/gun.gif',
@@ -1270,6 +1304,13 @@ let cards = [
     githubLink: 'https://github.com/vatsalya-vyas'
   },
   {
+    artName: 'Ball Hitting',
+    pageLink: './Art/Kamalesh-Seervi/index.html',
+    imageLink: './Art/Kamalesh-Seervi/balling-hitting.gif',
+    author: 'Kamalesh',
+    githubLink: 'https://github.com/Kamalesh-Seervi'
+  },
+  {
     artName: 'animation',
     pageLink: './Art/hrishit/index.html',
     imageLink: './Art/hrishit/animation.gif',
@@ -1634,6 +1675,13 @@ let cards = [
     githubLink: 'https://github.com/leonyangela'
   },
   {
+    artName: 'Rotating Ashok Chakra in Indian flag',
+    pageLink: './Art/aniketicloud/index.html',
+    imageLink: './Art/aniketicloud/rotating_ashok_chakra.png',
+    author: 'Aniket Pandharabale',
+    githubLink: 'https://github.com/aniketicloud'
+  },
+  {
     artName: 'Tulip Growth',
     pageLink: './Art/Malvericus/index.html',
     imageLink: './Art/Malvericus/Tulip_Growth.gif',
@@ -1646,6 +1694,13 @@ let cards = [
     imageLink: './Art/ParzivalAFK/snowstorm.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
+  },
+  {
+    artName: 'Circular Loading animation',
+    pageLink: './Art/philling1/index.html',
+    imageLink: './Art/philling1/animation.gif',
+    author: 'philling1',
+    githubLink: 'https://github.com/philling1'
   },
   {
     artName: 'Rotating Fan',
@@ -1731,3 +1786,24 @@ function Shuffle(o) {
   );
   return o;
 }
+
+
+ // go to top
+ document.addEventListener("DOMContentLoaded", function () {
+  var goToTopBtn = document.querySelector('.go-to-top');
+
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 100) {
+      goToTopBtn.classList.add('active');
+    } else {
+      goToTopBtn.classList.remove('active');
+    }
+  });
+
+  goToTopBtn.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
