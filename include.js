@@ -1618,6 +1618,13 @@ let cards = [
     imageLink: './Art/ParzivalAFK/snowstorm.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
+  },
+  {
+    artName: 'Rotating Fan',
+    pageLink: './Art/shravankshenoy/RotatingFan.html',
+    imageLink: './Art/shravankshenoy/RotatingFan.gif',
+    author: 'Shravan Shenoy',
+    githubLink: 'https://github.com/shravankshenoy'
   }
 ];
 
