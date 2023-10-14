@@ -41,7 +41,13 @@ let cards = [
     author: 'Sandesh-Pyakurel',
     githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
-
+ {
+    artName: 'The Mantras',
+    pageLink: './Art/vikasgadge/index.html',
+    imageLink: './Art/vikasgadge/The Mantras.mp4',
+    author: 'vikasgadge',
+    githubLink: 'https://github.com/vikasgadge28'
+  },
   {
     artName: 'Profile Image Animation',
     pageLink: './Art/thiunuwan/index.html',
