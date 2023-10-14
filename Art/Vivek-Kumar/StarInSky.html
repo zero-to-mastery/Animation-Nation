@@ -10,16 +10,16 @@
     <script>
       function createStar(i) {
         // Create a div element
-        let div = document.createElement("div");
+        let div = document.createElement('div');
 
         // Add the 'star' class
-        div.classList.add("star");
+        div.classList.add('star');
 
         // Generate a random number between 1 and 3
         let random = Math.floor(Math.random() * 3) + 1;
 
         // Add a class like 'star1', 'star2', or 'star3' based on the random number
-        div.classList.add("star" + random);
+        div.classList.add('star' + random);
 
         // Generate a random number between 0 and 15
         let random2 = getRndInteger(0, 15);
@@ -33,27 +33,27 @@
         }
 
         // Set the animation duration using CSS style
-        div.style.animationDuration = randomSpeed + "s";
+        div.style.animationDuration = randomSpeed + 's';
 
         // Define a CSS class name
-        let class_ = "anim-moving";
+        let class_ = 'anim-moving';
 
         // Check if 'i' is less than 60
         if (i < 60) {
           // Set the 'top' and 'left' properties using CSS style
-          div.style.top = Math.random() * window.innerHeight + "px";
-          div.style.left = Math.random() * window.innerWidth + "px";
+          div.style.top = Math.random() * window.innerHeight + 'px';
+          div.style.left = Math.random() * window.innerWidth + 'px';
 
           // Check if 'i' is less than 30
           if (i < 30) {
-            class_ = "anim-static";
+            class_ = 'anim-static';
           }
         } else {
           // Generate a random delay between 0 and 10
           let randomDelay = getRndInteger(0, 10);
 
           // Set the animation delay using CSS style
-          div.style.animationDelay = randomDelay + "s";
+          div.style.animationDelay = randomDelay + 's';
 
           // Call the placeElement function (assuming it's defined elsewhere)
           placeElement(div);
@@ -63,7 +63,7 @@
         let randomZ = getRndInteger(0, 2);
 
         // Set the z-index using CSS style
-        div.style.zIndex = randomZ === 0 ? "-1" : "1";
+        div.style.zIndex = randomZ === 0 ? '-1' : '1';
 
         // Add the class defined earlier
         div.classList.add(class_);
@@ -84,8 +84,8 @@
           l = random - h;
         }
 
-        ele.style.top = t - 120 + "px";
-        ele.style.left = l - 120 + "px";
+        ele.style.top = t - 120 + 'px';
+        ele.style.left = l - 120 + 'px';
       }
 
       function getRndInteger(min, max) {
@@ -99,8 +99,8 @@
         createStar(i);
       }
 
-      document.body.addEventListener("animationiteration", function (e) {
-        if (e.animationName === "moveStar") {
+      document.body.addEventListener('animationiteration', function (e) {
+        if (e.animationName === 'moveStar') {
           placeElement(e.target);
         }
       });
