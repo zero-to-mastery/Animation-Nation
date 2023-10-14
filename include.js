@@ -1696,6 +1696,13 @@ let cards = [
     githubLink: 'https://github.com/parzivalafk'
   },
   {
+    artName: 'Circular Loading animation',
+    pageLink: './Art/philling1/index.html',
+    imageLink: './Art/philling1/animation.gif',
+    author: 'philling1',
+    githubLink: 'https://github.com/philling1'
+  },
+  {
     artName: 'Rotating Fan',
     pageLink: './Art/shravankshenoy/RotatingFan.html',
     imageLink: './Art/shravankshenoy/RotatingFan.gif',
@@ -1735,7 +1742,7 @@ let cards = [
     pageLink: './Art/sudhanshu27/index.html',
     imageLink: './Art/sudhanshu27/bubbles.gif',
     author: 'Joy',
-    githubLink: 'https://github.com/sudhanshu27' // change this
+    githubLink: 'https://github.com/sudhanshu27'
   }
 ]
   
