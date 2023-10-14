@@ -1,0 +1,138 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.stars {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.stars::before {
+  content: " ";
+  position: absolute;
+  top: calc(100vh * 0.2);
+  left: calc(100vw * 0.2);
+  width: 2px;
+  height: 2px;
+  background-color: #fff;
+  animation: blink 1s infinite;
+}
+
+.sun {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle at 10% 10%, #ffce54, transparent 70%);
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  animation: spin-sun 10s linear infinite;
+}
+
+/* Rest of the CSS remains the same */
+
+
+.earth-orbit {
+  width: 300px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 150px);
+  animation: orbit-earth 20s linear infinite;
+}
+
+.earth {
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle at 10% 10%, #00bfff, transparent 70%);
+  border-radius: 50%;
+  position: absolute;
+  animation: spin-earth 5s linear infinite;
+  top: -10px;
+  left: 135px;
+}
+
+.moon-orbit {
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  animation: orbit-moon 4s linear infinite;
+}
+
+.moon {
+  width: 8px;
+  height: 8px;
+  background: #ccc;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 21px;
+  animation: spin-moon 2s linear infinite;
+}
+
+@keyframes spin-sun {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes orbit-earth {
+  0% {
+      transform: translateX(150px) translateY(0);
+  }
+  100% {
+      transform: translateX(150px) translateY(0);
+  }
+}
+
+@keyframes spin-earth {
+  0% {
+      transform: rotate(0deg) translateX(0);
+  }
+  100% {
+      transform: rotate(360deg) translateX(0);
+  }
+}
+
+@keyframes orbit-moon {
+  0% {
+      transform: translateX(20px) translateY(0);
+  }
+  100% {
+      transform: translateX(20px) translateY(0);
+  }
+}
+
+@keyframes spin-moon {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes twinkling-stars {
+  0% {
+      background-position: 0 0;
+  }
+  100% {
+      background-position: 10000px 0;
+  }
+}
