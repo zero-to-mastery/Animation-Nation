@@ -1182,7 +1182,7 @@ let cards = [
   {
     artName: 'Cassette Animation', 
     pageLink: './Art/apu52/index.html', 
-    imageLink: './Art/apu52/cassette animation.gif', 
+    imageLink: './Art/apu52/cassette animation.PNG', 
     author: 'Arpan Chowdhury', 
     githubLink: 'https://github.com/apu52' 
   },
