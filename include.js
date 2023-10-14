@@ -1,4 +1,11 @@
 let cards = [
+    {
+      artName: 'Elevator Ride',
+      pageLink: './Art/deverestHood/index.html', 
+      imageLink: './Art/deverestHood/elevator-ride.gif', 
+      author: 'deverestHood',
+      githubLink: 'https://github.com/deverestHood' 
+    },
   {
     artName: 'Indian Flag Animation',
     pageLink: './Art/niranjan-kurhade/indianflag.html',
