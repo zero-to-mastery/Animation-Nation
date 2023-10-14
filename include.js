@@ -41,7 +41,7 @@ let cards = [
     author: 'Sandesh-Pyakurel',
     githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
- {
+  {
     artName: 'The Mantras',
     pageLink: './Art/vikasgadge/index.html',
     imageLink: './Art/vikasgadge/The Mantras.mp4',
@@ -1742,7 +1742,7 @@ let cards = [
     pageLink: './Art/sudhanshu27/index.html',
     imageLink: './Art/sudhanshu27/bubbles.gif',
     author: 'Joy',
-    githubLink: 'https://github.com/sudhanshu27' 
+    githubLink: 'https://github.com/sudhanshu27'
   },
   {
     artName: 'GlowingStars',
@@ -1787,9 +1787,8 @@ function Shuffle(o) {
   return o;
 }
 
-
- // go to top
- document.addEventListener("DOMContentLoaded", function () {
+// go to top
+document.addEventListener('DOMContentLoaded', function () {
   var goToTopBtn = document.querySelector('.go-to-top');
 
   window.addEventListener('scroll', function () {

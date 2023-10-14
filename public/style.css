@@ -126,7 +126,7 @@ h2 {
   line-height: 15px;
 }
 
-.author>a:hover {
+.author > a:hover {
   color: rgb(255, 255, 255);
 }
 
@@ -151,7 +151,7 @@ h2 {
   font-weight: 900;
   cursor: pointer;
   border: none;
-  background-color: #5A5A5A;
+  background-color: #5a5a5a;
   /* Gray background color */
   color: #fff;
   /* White text color */
@@ -176,7 +176,6 @@ h2 {
 }
 
 @keyframes bounce {
-
   0%,
   20%,
   50%,
