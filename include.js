@@ -1641,13 +1641,20 @@ let cards = [
     imageLink: './Art/Sayed-Husain/cube.gif',
     author: 'Sayed-Husain',
     githubLink: 'https://github.com/Sayed-Husain'
-  }
+  },
   {
     artName: 'Solar System',
     pageLink: './Art/adityaanandz/solarsystem.html',
     imageLink: './Art/adityaanandz/solarsystem.gif',
     author: 'Aditya',
     githubLink: 'https://github.com/adityaanandz'
+  },
+  {
+    artName: 'flower-animation',
+    pageLink: './Art/flower-animation/index.html',
+    imageLink: './Art/fl.png',
+    author: 'Saurabh Singh',
+    githubLink: 'https://github.com/saurabhsingh720'
   }
 ];
 
