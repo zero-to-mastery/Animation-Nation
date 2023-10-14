@@ -1626,6 +1626,13 @@ let cards = [
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
   }
+  {
+    artName: 'Solar System',
+    pageLink: './Art/adityaanandz/solarsystem.html',
+    imageLink: './Art/adityaanandz/solarsystem.gif',
+    author: 'Aditya',
+    githubLink: 'https://github.com/adityaanandz'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
