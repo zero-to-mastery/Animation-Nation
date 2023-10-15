@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: moccasin;
+}
+
+div.ball {
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: white;
+  margin: 5px;
+}
