@@ -1814,6 +1814,13 @@ let cards = [
     imageLink: './Art/Sayed-Husain/hover.gif',
     author: 'Sayed-Husain',
     githubLink: 'https://github.com/Sayed-Husain'
+  },
+  {
+    artName: 'Circle Hover Animation',
+    pageLink: './Art/subhayudutta/index.html',
+    imageLink: './Art/subhayudutta/style.css',
+    author: 'Subhayu Dutta',
+    githubLink: 'https://github.com/subhayudutta'
   }
 ];
 
