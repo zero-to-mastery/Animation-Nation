@@ -1744,6 +1744,14 @@ let cards = [
     author: 'Aditya',
     githubLink: 'https://github.com/adityaanandz'
   },
+
+  {
+    artName: 'GlowingFlower',
+    pageLink: './Art/saurabhsingh720/GlowingFlower.html',
+    imageLink: './Art/saurabhsingh720/GlowingFlower.gif',
+    author: 'Saurabh Singh',
+    githubLink: 'https://github.com/saurabhsingh720'
+  },
   {
     artName: 'Loader Animation',
     pageLink: './Art/gaurav816/index.html',
@@ -1778,6 +1786,27 @@ let cards = [
     imageLink: './Art/vivek/GlowingStars.gif',
     author: 'vivekBoii',
     githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Rotating Spirals',
+    pageLink: './Art/vivek/RotatingSpirals.html',
+    imageLink: './Art/vivek/RotatingStars.gif',
+    author: 'vivekBoii',
+    githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Squid Animation',
+    pageLink: './Art/barkhayadav12/squidAnimation.html',
+    imageLink: './Art/barkhayadav12/squidAnimation.gif',
+    author: 'barkhayadav12',
+    githubLink: 'https://github.com/barkhayadav12'
+  },
+  {
+    artName: 'Loading',
+    pageLink: './Art/div02-afk/index.html',
+    imageLink: './Art/div02-afk/animation.gif',
+    author: 'div02-afk',
+    githubLink: 'https://github.com/div02-afk'
   }
 ];
 
