@@ -21,9 +21,9 @@ let cards = [
     githubLink: 'https://github.com/ankit0049'
   },
   {
-    artName: 'Moonrise', 
-    pageLink: './Art/ahmedalhamad7/moon.html', 
-    imageLink: './Art/ahmedalhamad7/static moon.png', 
+    artName: 'Moonrise',
+    pageLink: './Art/ahmedalhamad7/moon.html',
+    imageLink: './Art/ahmedalhamad7/static moon.png',
     author: 'Ahmed',
     githubLink: 'https://github.com/ahmedalhamad7'
   },
