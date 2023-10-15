@@ -1771,6 +1771,13 @@ let cards = [
     imageLink: './Art/vivek/GlowingStars.gif',
     author: 'vivekBoii',
     githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Rotating Spirals',
+    pageLink: './Art/vivek/RotatingSpirals.html',
+    imageLink: './Art/vivek/RotatingStars.gif',
+    author: 'vivekBoii',
+    githubLink: 'https://github.com/vivekBoii'
   }
 ];
 
