@@ -1771,6 +1771,13 @@ let cards = [
     imageLink: './Art/vivek/GlowingStars.gif',
     author: 'vivekBoii',
     githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Oscillating Ball Wave',
+    pageLink: './Art/Aaryash-Shakya/oscillating-ball-wave.html',
+    imageLink: './Art/Aaryash-Shakya/oscillating-ball-wave.gif',
+    author: 'Aaryash-Shakya',
+    githubLink: 'https://github.com/Aaryash-Shakya'
   }
 ];
 
