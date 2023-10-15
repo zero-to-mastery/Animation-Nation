@@ -1778,6 +1778,13 @@ let cards = [
     imageLink: './Art/vivek/RotatingStars.gif',
     author: 'vivekBoii',
     githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Squid Animation',
+    pageLink: './Art/barkhayadav12/squidAnimation.html',
+    imageLink: './Art/barkhayadav12/squidAnimation.gif',
+    author: 'barkhayadav12',
+    githubLink: 'https://github.com/barkhayadav12'
   }
 ];
 
