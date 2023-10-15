@@ -33,7 +33,7 @@ div.ball {
 }
 
 @keyframes ballAnimation {
-    /* start at right */
+  /* start at right */
   0% {
     translate: 0 0;
   }
