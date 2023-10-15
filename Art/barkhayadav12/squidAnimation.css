@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #ffbdbd;
+  }
+  .container {
+    height: 31.25em;
+    width: 31.25em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+  .squid {
+    height: 18.75em;
+    width: 18.75em;
+    background: linear-gradient(#f01c8a, #f53e2f);
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    animation: swim 3s infinite;
+  }
+  @keyframes swim {
+    50% {
+      transform: translateY(6.25em) scaleY(0.95);
+    }
+  }
+  .squid:before {
+    content: "";
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+    background-color: #cd0856;
+    border-radius: 50%;
+    top: 11.25em;
+    left: 3.75em;
+    box-shadow: 8.75em 0 #cd0856;
+  }
+  .squid:after {
+    content: "";
+    position: absolute;
+    height: 3.75em;
+    width: 3.75em;
+    background-color: #000000;
+    border: 0.62em solid #ffffff;
+    border-radius: 50%;
+    top: 7.5em;
+    left: 3.75em;
+    box-shadow: 6.25em 0 0 -0.62em #000000, 6.25em 0 #ffffff;
+  }
+  .shine {
+    position: absolute;
+    border: 0.62em solid #ffffff;
+    height: 3.75em;
+    width: 6.25em;
+    border-radius: 50%;
+    border-color: transparent;
+    border-top-color: #ffffff;
+    transform: rotate(-35deg);
+    top: 2.5em;
+    left: 2.5em;
+  }
+  .shine:before {
+    position: absolute;
+    content: "";
+    height: 0.62em;
+    width: 0.62em;
+    border-radius: 50%;
+    background-color: #ffffff;
+    top: 0.62em;
+    left: -0.62em;
+  }
+  .shine:after {
+    position: absolute;
+    content: "";
+    height: 3.75em;
+    width: 3.75em;
+    border: 0.625em solid #000000;
+    transform: rotate(35deg);
+    border-radius: 50%;
+    border-color: transparent;
+    border-bottom-color: #000000;
+    left: -1.25em;
+    top: 7.5em;
+  }
+  .legs {
+    height: 7.5em;
+    width: 3.75em;
+    background-color: #f53e2f;
+    border-radius: 3.12em;
+    position: absolute;
+    left: 7.5em;
+    top: 16.87em;
+    z-index: -1;
+  }
+  .legs:before,
+  .legs:after {
+    position: absolute;
+    content: "";
+    height: 7.5em;
+    width: 3.75em;
+    background-color: #f53e2f;
+    border-radius: 3.12em;
+    bottom: 0;
+  }
+  .legs:before {
+    transform: rotate(-30deg);
+    left: 3.12em;
+  }
+  .legs:after {
+    transform: rotate(30deg);
+    left: -3.12em;
+  }
+  @media screen and (min-width: 800px) {
+    .container {
+      font-size: 1.2em;
+    }
+  }
