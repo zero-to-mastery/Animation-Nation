@@ -1807,6 +1807,13 @@ let cards = [
     imageLink: './Art/div02-afk/animation.gif',
     author: 'div02-afk',
     githubLink: 'https://github.com/div02-afk'
+  },
+  {
+    artName: 'Hover Over Me',
+    pageLink: './Art/Sayed-Husain/hoverOverMe.html',
+    imageLink: './Art/Sayed-Husain/hover.gif',
+    author: 'Sayed-Husain',
+    githubLink: 'https://github.com/Sayed-Husain'
   }
 ];
 
