@@ -1684,9 +1684,9 @@ let cards = [
   },
 
   {
-    artName: 'flower-animation',
-    pageLink: './Art/flower-animation/index.html',
-    imageLink: './Art/fl.gif',
+    artName: 'GlowingFlower',
+    pageLink: './Art/saurabhsingh720/GlowingFlower.html',
+    imageLink: './Art/saurabhsingh720/GlowingFlower.gif',
     author: 'Saurabh Singh',
     githubLink: 'https://github.com/saurabhsingh720'
   },
