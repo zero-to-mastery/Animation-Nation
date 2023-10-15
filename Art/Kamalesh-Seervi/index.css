@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #333;
+}
+
+.game-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+.paddle {
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  background-color: #00f;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-100%);
+  animation: paddleAnimation 4s infinite;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #f00;
+  border-radius: 50%;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translate(-50%, 50%) translateY(850%);
+  }
+  50% {
+    transform: translate(-50%, 50%) translateY(0);
+  }
+}
+
+@keyframes paddleAnimation {
+  0%,
+  100% {
+    transform: translateX(-50%);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  30% {
+    transform: translateX(100px);
+  }
+}
