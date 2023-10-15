@@ -1786,6 +1786,13 @@ let cards = [
     author: 'barkhayadav12',
     githubLink: 'https://github.com/barkhayadav12'
   }
+  {
+    artName: 'Loading',
+    pageLink: './Art/div02-afk/index.html',
+    imageLink: './Art/div02-afk/animation.gif',
+    author: 'div02-afk',
+    githubLink: 'https://github.com/div02-afk'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
