@@ -7,7 +7,7 @@ let cards = [
     githubLink: 'https://github.com/niranjan-kurhade'
   },
   {
-    artName: 'Newton\'s Cradle Experiment',
+    artName: "Newton's Cradle Experiment",
     pageLink: './Art/debajoti/index.html',
     imageLink: './Art/debajoti/ezgif.com-crop.gif',
     author: 'Debajoti',
