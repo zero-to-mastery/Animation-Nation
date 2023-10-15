@@ -1759,6 +1759,13 @@ let cards = [
     githubLink: 'https://github.com/sudhanshu27'
   },
   {
+    artName: 'Bonfire',
+    pageLink: './Art/shubham-vartak/index.html',
+    imageLink: './Art/shubham-vartak/bonfire_gif.gif',
+    author: 'Shubham Vartak',
+    githubLink: 'https://github.com/shubham-vartak'
+  },
+  {
     artName: 'GlowingStars',
     pageLink: './Art/vivek/GlowingStars.html',
     imageLink: './Art/vivek/GlowingStars.gif',
