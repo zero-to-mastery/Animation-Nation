@@ -1767,6 +1767,13 @@ let cards = [
     githubLink: 'https://github.com/Gauravsaxena816'
   },
   {
+    artName: 'Rocket Launch',
+    pageLink: './Art/dalvishruti14/index.html',
+    imageLink: './Art/dalvishruti14/rocketlaunch.gif',
+    author: 'Shruti', 
+    githubLink: 'https://github.com/dalvishruti14' 
+  },
+  {
     artName: 'Star In Sky',
     pageLink: './Art/vivek-kumar/StarInSky.html',
     imageLink: './Art/vivek-kumar/StarInSky.gif',
