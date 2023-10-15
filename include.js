@@ -1814,6 +1814,13 @@ let cards = [
     imageLink: './Art/Sayed-Husain/hover.gif',
     author: 'Sayed-Husain',
     githubLink: 'https://github.com/Sayed-Husain'
+  },
+  {
+    artName: 'Indian Flag Animation',
+    pageLink: './Art/TaylorDJones11/index.html',
+    imageLink: './Art/TaylorDJones11/animation.gif',
+    author: 'Taylor J',
+    githubLink: 'https://github.com/TaylorDJones11'
   }
 ];
 
