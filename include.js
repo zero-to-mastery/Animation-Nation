@@ -1771,6 +1771,13 @@ let cards = [
     imageLink: './Art/vivek/GlowingStars.gif',
     author: 'vivekBoii',
     githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Colliding Balls',
+    pageLink: './Art/Fayezkhan1/index.html',
+    imageLink: './Art/Fayezkhan1/art.png',
+    author: 'Fayezkhan1',
+    githubLink: 'https://github.com/Fayezkhan1'
   }
 ];
 
