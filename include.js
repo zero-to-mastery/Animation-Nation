@@ -1772,6 +1772,13 @@ let cards = [
     author: 'vivekBoii',
     githubLink: 'https://github.com/vivekBoii'
   }
+  {
+    artName: 'Loading',
+    pageLink: './Art/div02-afk/index.html',
+    imageLink: './Art/div02-afk/animation.gif',
+    author: 'div02-afk',
+    githubLink: 'https://github.com/div02-afk'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
