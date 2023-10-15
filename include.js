@@ -21,6 +21,13 @@ let cards = [
     githubLink: 'https://github.com/ankit0049'
   },
   {
+    artName: 'Moonrise',
+    pageLink: './Art/ahmedalhamad7/moon.html',
+    imageLink: './Art/ahmedalhamad7/static moon.png',
+    author: 'Ahmed',
+    githubLink: 'https://github.com/ahmedalhamad7'
+  },
+  {
     artName: 'Envelope Open & Close Animation',
     pageLink: './Art/Ankit/index.html',
     imageLink: './Art/Ankit/Preview.png',
@@ -1821,6 +1828,20 @@ let cards = [
     imageLink: './Art/RoshanJ20/pixel_button.png',
     author: 'RoshanJ20',
     githubLink: 'https://github.com/RoshanJ20'
+  },
+  {
+    artName: 'Indian Flag Animation',
+    pageLink: './Art/TaylorDJones11/index.html',
+    imageLink: './Art/TaylorDJones11/animation.gif',
+    author: 'Taylor J',
+    githubLink: 'https://github.com/TaylorDJones11'
+  },
+  {
+    artName: 'Oscillating Ball Wave',
+    pageLink: './Art/Aaryash-Shakya/oscillating-ball-wave.html',
+    imageLink: './Art/Aaryash-Shakya/oscillating-ball-wave.gif',
+    author: 'Aaryash-Shakya',
+    githubLink: 'https://github.com/Aaryash-Shakya'
   }
 ];
 
