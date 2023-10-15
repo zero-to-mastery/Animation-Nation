@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/niranjan-kurhade'
   },
   {
+    artName: 'Newton\'s Cradle Experiment',
+    pageLink: './Art/debajoti/index.html',
+    imageLink: './Art/debajoti/ezgif.com-crop.gif',
+    author: 'Debajoti',
+    githubLink: 'https://github.com/debajoti'
+  },
+  {
     artName: 'Cat Eye Flipping Animation',
     pageLink: './Art/Ankit0049/index.html',
     imageLink: './Art/Ankit0049/Cat.png',
