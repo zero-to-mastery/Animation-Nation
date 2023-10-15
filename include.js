@@ -48,7 +48,13 @@ let cards = [
     author: 'Sandesh-Pyakurel',
     githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
-
+  {
+    artName: 'The Mantras',
+    pageLink: './Art/vikasgadge/index.html',
+    imageLink: './Art/vikasgadge/The Mantras.mp4',
+    author: 'vikasgadge',
+    githubLink: 'https://github.com/vikasgadge28'
+  },
   {
     artName: 'Profile Image Animation',
     pageLink: './Art/thiunuwan/index.html',
@@ -105,6 +111,13 @@ let cards = [
     imageLink: './Art/aaron-jacob/loader.gif',
     author: 'Aaron Jacob',
     githubLink: 'https://github.com/aaron-jacob'
+  },
+  {
+    artName: 'Rotating and Scaling Animation for div',
+    pageLink: './Art/Abhishek1/index.html',
+    imageLink: './Art/Abhishek1/Animation.png',
+    author: 'Abhishek Gupta',
+    githubLink: 'https://github.com/Abhishekgupta204'
   },
   {
     artName: 'The Chakra',
@@ -822,6 +835,13 @@ let cards = [
     githubLink: 'https://github.com/Neha045'
   },
   {
+    artName: 'simple-transition',
+    pageLink: './Art/rajan4405/index.html',
+    imageLink: './Art/rajan4405/Animation.gif',
+    author: 'rajan4405',
+    githubLink: 'https://github.com/rajan4405'
+  },
+  {
     artName: 'Shooting gun',
     pageLink: './Art/BlueHeart0065/gun.html',
     imageLink: './Art/BlueHeart0065/gun.gif',
@@ -1158,6 +1178,13 @@ let cards = [
     githubLink: 'https://github.com/muhd-kifayath'
   },
   {
+    artName: 'NewKick',
+    pageLink: './Art/DAYakDREAMER/index.html',
+    imageLink: './Art/DAYakDREAMER/Animation-nation-gif.gif',
+    author: 'DAYakDREAMER',
+    githubLink: 'https://github.com/DAYakDREAMER'
+  },
+  {
     artName: 'Rotate 3D on Hover',
     pageLink: './Art/Vamshidhar/rotate.html',
     imageLink: './Art/Vamshidhar/rotate-3d-on-hover.gif',
@@ -1289,6 +1316,13 @@ let cards = [
     imageLink: './Art/Vatsalya-Vyas/Glitch.gif',
     author: 'Vatsalya Vyas',
     githubLink: 'https://github.com/vatsalya-vyas'
+  },
+  {
+    artName: 'Ball Hitting',
+    pageLink: './Art/Kamalesh-Seervi/index.html',
+    imageLink: './Art/Kamalesh-Seervi/balling-hitting.gif',
+    author: 'Kamalesh',
+    githubLink: 'https://github.com/Kamalesh-Seervi'
   },
   {
     artName: 'animation',
@@ -1676,6 +1710,13 @@ let cards = [
     githubLink: 'https://github.com/parzivalafk'
   },
   {
+    artName: 'Circular Loading animation',
+    pageLink: './Art/philling1/index.html',
+    imageLink: './Art/philling1/animation.gif',
+    author: 'philling1',
+    githubLink: 'https://github.com/philling1'
+  },
+  {
     artName: 'Rotating Fan',
     pageLink: './Art/shravankshenoy/RotatingFan.html',
     imageLink: './Art/shravankshenoy/RotatingFan.gif',
@@ -1711,11 +1752,32 @@ let cards = [
     githubLink: 'https://github.com/Gauravsaxena816'
   },
   {
+    artName: 'Star In Sky',
+    pageLink: './Art/vivek-kumar/StarInSky.html',
+    imageLink: './Art/vivek-kumar/StarInSky.gif',
+    author: 'demonvivekBoii',
+    githubLink: 'https://github.com/demonvivekBoii'
+  },
+  {
     artName: 'Bubbles',
     pageLink: './Art/sudhanshu27/index.html',
     imageLink: './Art/sudhanshu27/bubbles.gif',
-    author: 'Joy',
-    githubLink: 'https://github.com/sudhanshu27' // change this
+    author: 'sudhanshu27',
+    githubLink: 'https://github.com/sudhanshu27'
+  },
+  {
+    artName: 'Bonfire',
+    pageLink: './Art/shubham-vartak/index.html',
+    imageLink: './Art/shubham-vartak/bonfire_gif.gif',
+    author: 'Shubham Vartak',
+    githubLink: 'https://github.com/shubham-vartak'
+  },
+  {
+    artName: 'GlowingStars',
+    pageLink: './Art/vivek/GlowingStars.html',
+    imageLink: './Art/vivek/GlowingStars.gif',
+    author: 'vivekBoii',
+    githubLink: 'https://github.com/vivekBoii'
   }
 ];
 
@@ -1752,3 +1814,23 @@ function Shuffle(o) {
   );
   return o;
 }
+
+// go to top
+document.addEventListener('DOMContentLoaded', function () {
+  var goToTopBtn = document.querySelector('.go-to-top');
+
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 100) {
+      goToTopBtn.classList.add('active');
+    } else {
+      goToTopBtn.classList.remove('active');
+    }
+  });
+
+  goToTopBtn.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
