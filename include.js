@@ -1785,7 +1785,7 @@ let cards = [
     imageLink: './Art/barkhayadav12/squidAnimation.gif',
     author: 'barkhayadav12',
     githubLink: 'https://github.com/barkhayadav12'
-  }
+  },
   {
     artName: 'Loading',
     pageLink: './Art/div02-afk/index.html',
