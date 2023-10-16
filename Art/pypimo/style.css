@@ -5,10 +5,6 @@
 }
 
 :root {
-/*   --bg: #a4161a;
-  --wing: #b1a7a6; */
-/*   --bg: #e4c1f9;
-  --wing: #ff99c8; */
   --bg: #c9184a;
   --wing: #ff8fa3;
   --shadow: rgba(2, 62, 138, 0.5);
@@ -18,19 +14,7 @@ body {
   background-color: #0077b6;
 } 
 
-.container {
-  height: 550px;
-  width: 100vw;
-/*   border: 2px solid black; */
-/*   overflow: hidden; */
-/*   z-index: 1; */
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-}
-
-.chick {
+.duck {
   position: absolute;
   height: 270px;
   width: 100px;
