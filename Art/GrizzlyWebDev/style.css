@@ -28,7 +28,7 @@ html {
   height: 600px;
   width: 600px;
   background-color: #3d2107;
-  background-image: url("./images/wood-pattern.png");
+  background-image: url('./images/wood-pattern.png');
   border-radius: 10px;
 }
 
@@ -142,7 +142,7 @@ html {
   width: 500px;
   background-color: black;
   border-radius: 100%;
-  content: "";
+  content: '';
   border: 4px solid #3a3a3a;
   animation: rotate 5s linear infinite;
 }
@@ -157,8 +157,9 @@ html {
     rgba(210, 210, 210, 0.082) 100%
   );
   border-radius: 100% 10%;
-  top: 280px;
-  left: 280px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-98%, -98%);
   z-index: 2;
 }
 
@@ -234,7 +235,7 @@ html {
 }
 
 .label::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 25px;
   width: 25px;
