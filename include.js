@@ -1877,6 +1877,13 @@ let cards = [
     imageLink: './Art/Mel-TB/ezio_animation.gif',
     author: 'Melinda',
     githubLink: 'https://github.com/Mel-TB'
+  },
+  {
+    artName: 'Bouncing Ball Animation',
+    pageLink: './Art/Bratajit-03/index.html',
+    imageLink: './Art/Bratajit-03/Animation.gif',
+    author: 'Bratajit Das',
+    githubLink: 'https://github.com/Bratajit-03'
   }
 ];
 
