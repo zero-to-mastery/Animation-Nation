@@ -1,130 +1,125 @@
-body{
-    background-color: #0b152f47;
-    margin: 0px;
+body {
+  background-color: #0b152f47;
+  margin: 0px;
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.Pumpkin{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.PumpkinBody{
-    background-color: #f99006;
-    box-shadow: 1px 1px 1px 1px #f9900670;
-    position: relative;
-    border-radius: 80px;
-    width: 185px;
-    height: 150px;
-    animation: flying 2s infinite ease-in-out;
-  
-}
-.GreenTop{
-    background-color: black;
-    width: 25px;
-    height: 30px;
-    border-radius: 80% 100%/ 60% 10%;
-    animation: flying 2s infinite ease-in-out;
-    
-
-}
-.face{
-    position : absolute;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-   
-}
-.eyes{
-    width: 50%;
-
-    justify-content: space-between;
-    left: 50px;
-
-    top: 30%;
-    display: flex;
+.Pumpkin {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.eye{
+.PumpkinBody {
+  background-color: #f99006;
+  box-shadow: 1px 1px 1px 1px #f9900670;
+  position: relative;
+  border-radius: 80px;
+  width: 185px;
+  height: 150px;
+  animation: flying 2s infinite ease-in-out;
+}
+.GreenTop {
+  background-color: black;
+  width: 25px;
+  height: 30px;
+  border-radius: 80% 100%/ 60% 10%;
+  animation: flying 2s infinite ease-in-out;
+}
+.face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.eyes {
+  width: 50%;
 
-    width : 0px; 
-    height: 0px;
-    border-left: 17px solid transparent;
-    border-right: 17px solid transparent;
-    border-bottom: 25px solid black;
-    animation: eye 0.5s infinite ease-in-out;
-}
-.mouth{
-    position: relative;
-    background-color: black;
-    border-radius: 0px 0px 90px 90px;
-    height: 30px ;
-    width: 78px;
-    
-    animation: mouth 0.5s infinite ease-in-out;
-}
-.teeth{
-    width: 100%;
-    display: flex;
-    position: absolute;
-}
-.tooth{
-    width : 0px; 
-    height: 0px;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #f99006;
+  justify-content: space-between;
+  left: 50px;
+
+  top: 30%;
+  display: flex;
 }
 
-.shadow{
-    border-radius: 50%;
-    background-color:	rgba(71, 69, 69, 0.72);
-    height: 20px;
-    width: 120px;
-    margin-top: 20px;
-    box-shadow: 0 4px 8px 0 rgb(71, 69, 69/ 70%), 
+.eye {
+  width: 0px;
+  height: 0px;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+  border-bottom: 25px solid black;
+  animation: eye 0.5s infinite ease-in-out;
+}
+.mouth {
+  position: relative;
+  background-color: black;
+  border-radius: 0px 0px 90px 90px;
+  height: 30px;
+  width: 78px;
+
+  animation: mouth 0.5s infinite ease-in-out;
+}
+.teeth {
+  width: 100%;
+  display: flex;
+  position: absolute;
+}
+.tooth {
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #f99006;
+}
+
+.shadow {
+  border-radius: 50%;
+  background-color: rgba(71, 69, 69, 0.72);
+  height: 20px;
+  width: 120px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgb(71, 69, 69/ 70%),
     0 6px 20px 0 rgb(71, 69, 69 / 60%);
-    animation: shading 2s infinite ease-in-out ;
+  animation: shading 2s infinite ease-in-out;
 }
 @keyframes mouth {
-    from{
-         height: 30px;
-         width: 78px;}
-    to {
-        width: 82px;
-        height: 20px;
-     }
+  from {
+    height: 30px;
+    width: 78px;
+  }
+  to {
+    width: 82px;
+    height: 20px;
+  }
 }
-@keyframes eye{
-    from {
-        border-bottom: 25px solid black;
-    }
-    to{
-        border-bottom: 20px solid black;
-    }
+@keyframes eye {
+  from {
+    border-bottom: 25px solid black;
+  }
+  to {
+    border-bottom: 20px solid black;
+  }
 }
 @keyframes flying {
-    50%{
+  50% {
     transform: translateY(-30px);
-    }
+  }
 }
 @keyframes shading {
-    50%{
-        width: 150px;
-        background-color:rgba(26, 25, 25, 0.2);
-        box-shadow : 0px 7px 10px 0px rgb(71, 69, 69 / 0.2), 0px 10px 10px 0px rgb(71, 69, 69 / 0.2);
-    }
+  50% {
+    width: 150px;
+    background-color: rgba(26, 25, 25, 0.2);
+    box-shadow: 0px 7px 10px 0px rgb(71, 69, 69 / 0.2),
+      0px 10px 10px 0px rgb(71, 69, 69 / 0.2);
+  }
 }

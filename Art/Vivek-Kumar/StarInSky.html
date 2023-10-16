@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="StarInSky.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function createStar(i) {
+        // Create a div element
+        let div = document.createElement('div');
+
+        // Add the 'star' class
+        div.classList.add('star');
+
+        // Generate a random number between 1 and 3
+        let random = Math.floor(Math.random() * 3) + 1;
+
+        // Add a class like 'star1', 'star2', or 'star3' based on the random number
+        div.classList.add('star' + random);
+
+        // Generate a random number between 0 and 15
+        let random2 = getRndInteger(0, 15);
+
+        // Calculate the random speed based on the value of random2
+        let randomSpeed;
+        if (random2 < 2) {
+          randomSpeed = getRndInteger(3, 6);
+        } else {
+          randomSpeed = getRndInteger(10, 30);
+        }
+
+        // Set the animation duration using CSS style
+        div.style.animationDuration = randomSpeed + 's';
+
+        // Define a CSS class name
+        let class_ = 'anim-moving';
+
+        // Check if 'i' is less than 60
+        if (i < 60) {
+          // Set the 'top' and 'left' properties using CSS style
+          div.style.top = Math.random() * window.innerHeight + 'px';
+          div.style.left = Math.random() * window.innerWidth + 'px';
+
+          // Check if 'i' is less than 30
+          if (i < 30) {
+            class_ = 'anim-static';
+          }
+        } else {
+          // Generate a random delay between 0 and 10
+          let randomDelay = getRndInteger(0, 10);
+
+          // Set the animation delay using CSS style
+          div.style.animationDelay = randomDelay + 's';
+
+          // Call the placeElement function (assuming it's defined elsewhere)
+          placeElement(div);
+        }
+
+        // Generate a random z-index of -1 or 1
+        let randomZ = getRndInteger(0, 2);
+
+        // Set the z-index using CSS style
+        div.style.zIndex = randomZ === 0 ? '-1' : '1';
+
+        // Add the class defined earlier
+        div.classList.add(class_);
+
+        // Append the div to the body
+        document.body.appendChild(div);
+      }
+
+      function placeElement(ele) {
+        let random = getRndInteger(0, h + w);
+        let l, t;
+
+        if (random < h) {
+          t = random;
+          l = 0;
+        } else {
+          t = 0;
+          l = random - h;
+        }
+
+        ele.style.top = t - 120 + 'px';
+        ele.style.left = l - 120 + 'px';
+      }
+
+      function getRndInteger(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+      }
+
+      const h = window.innerHeight;
+      const w = window.innerWidth;
+
+      for (let i = 0; i < 100; i++) {
+        createStar(i);
+      }
+
+      document.body.addEventListener('animationiteration', function (e) {
+        if (e.animationName === 'moveStar') {
+          placeElement(e.target);
+        }
+      });
+    </script>
+  </body>
+</html>

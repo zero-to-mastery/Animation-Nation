@@ -1,0 +1,25 @@
+.animated-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotateScale 3s infinite linear;
+}
+
+@keyframes rotateScale {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    background-color: #3498db;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.2);
+    background-color: #e74c3c;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(1);
+    background-color: #3498db;
+  }
+}
