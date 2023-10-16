@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  background-color: #000;
+  border: 2px solid #fff;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: ballMove 3s linear infinite alternate;
+}
+
+.paddle {
+  position: absolute;
+  width: 10px;
+  height: 60px;
+  background-color: #fff;
+  animation: paddleMove 2s linear infinite alternate;
+}
+
+#leftPaddle {
+  left: 5px;
+  animation: leftPaddleMove 4s linear infinite alternate;
+}
+
+#rightPaddle {
+  right: 5px;
+  animation: rightPaddleMove 2s linear infinite alternate;
+}
+
+@keyframes ballMove {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: 180px;
+    left: 380px;
+  }
+}
+
+@keyframes paddleMove {
+  0%, 100% {
+    top: 0;
+  }
+  50% {
+    top: 140px;
+  }
+}
+
+@keyframes leftPaddleMove {
+  0%, 100% {
+    top: 140px;
+  }
+  50% {
+    top: 0;
+  }
+}
+
+@keyframes rightPaddleMove {
+  0%, 100% {
+    top: 0;
+  }
+  50% {
+    top: 140px;
+  }
+}

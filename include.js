@@ -1856,7 +1856,14 @@ let cards = [
     imageLink: './Art/YadlaMani/loader.gif',
     author: 'YadlaMani',
     githubLink: 'https://github.com/YadlaMani'
-  }
+  },
+  { 
+    artName: 'Pong Arcade',
+    pageLink: './Art/khrisdaniels/pong.html',
+    imageLink: './Art/khrisdaniels/pong.gif',
+    author: 'KD',
+    githubLink: 'https://github.com/khrisdaniels'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
