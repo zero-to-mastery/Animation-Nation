@@ -1770,8 +1770,8 @@ let cards = [
     artName: 'Rocket Launch',
     pageLink: './Art/dalvishruti14/index.html',
     imageLink: './Art/dalvishruti14/RocketLaunch.gif',
-    author: 'Shruti', 
-    githubLink: 'https://github.com/dalvishruti14' 
+    author: 'Shruti',
+    githubLink: 'https://github.com/dalvishruti14'
   },
   {
     artName: 'Star In Sky',

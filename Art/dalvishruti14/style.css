@@ -1,62 +1,62 @@
 body {
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
 
 .rocket {
-    position: relative;
-    animation: launch 5s linear infinite;
+  position: relative;
+  animation: launch 5s linear infinite;
 }
 
 .rocket-body {
-    width: 30px;
-    height: 70px;
-    background-color: #777;
-    border-radius: 14px 14px 0 0;
-    position: relative;
+  width: 30px;
+  height: 70px;
+  background-color: #777;
+  border-radius: 14px 14px 0 0;
+  position: relative;
 }
 
 .rocket-window {
-    width: 10px;
-    height: 10px;
-    background-color: #4a90e2;
-    border-radius: 50%;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: #4a90e2;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .flame {
-    width: 30px;
-    height: 33px;
-    background-color: #ff6a00;
-    border-radius: 70% 70% 0 0;
-    position: relative;
-    animation: burn 0.3s linear infinite;
+  width: 30px;
+  height: 33px;
+  background-color: #ff6a00;
+  border-radius: 70% 70% 0 0;
+  position: relative;
+  animation: burn 0.3s linear infinite;
 }
 
 @keyframes launch {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-100%);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
 }
 
 @keyframes burn {
-    0% {
-        transform: scaleY(1);
-    }
-    50% {
-        transform: scaleY(1.5);
-    }
-    100% {
-        transform: scaleY(1);
-    }
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.5);
+  }
+  100% {
+    transform: scaleY(1);
+  }
 }
