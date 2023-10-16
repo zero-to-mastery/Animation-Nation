@@ -1818,7 +1818,7 @@ let cards = [
   {
     artName: 'Circle Hover Animation',
     pageLink: './Art/subhayudutta/index.html',
-    imageLink: './Art/subhayudutta/style.css',
+    imageLink: './Art/subhayudutta/circlehover.gif',
     author: 'Subhayu Dutta',
     githubLink: 'https://github.com/subhayudutta'
   }
