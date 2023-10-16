@@ -1520,6 +1520,7 @@ let cards = [
     author: 'Asymtode712',
     githubLink: 'https://github.com/Asymtode712'
   },
+  {
     artName: 'classic-loader',
     pageLink: './Art/ramanamatya/index.html',
     imageLink: './Art/ramanamatya/load.gif',
