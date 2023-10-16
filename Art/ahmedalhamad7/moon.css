@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #070b34; /* Blue background */
+  overflow: hidden;
+}
+
+.scene {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.horizon {
+  width: 100%;
+  height: 40px;
+  background: #222;
+  position: absolute;
+  bottom: 0;
+}
+
+.moon {
+  width: 200px;
+  height: 200px;
+  background-image: url('moon.png');
+  background-size: cover;
+  position: absolute;
+  bottom: -100px;
+  left: calc(50% - 100px);
+  animation: moonrise 6s linear infinite;
+}
+
+@keyframes moonrise {
+  0% {
+    bottom: -100px;
+    transform: scale(1);
+  }
+  50% {
+    bottom: 50%;
+    transform: scale(1.2);
+  }
+  100% {
+    bottom: 0;
+    transform: scale(1);
+  }
+}

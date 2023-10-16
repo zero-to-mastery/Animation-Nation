@@ -1,11 +1,75 @@
 let cards = [
   {
+    artName: 'Indian Flag Animation',
+    pageLink: './Art/niranjan-kurhade/indianflag.html',
+    imageLink: './Art/niranjan-kurhade/indianflag.gif',
+    author: 'Niranjan',
+    githubLink: 'https://github.com/niranjan-kurhade'
+  },
+  {
+    artName: "Newton's Cradle Experiment",
+    pageLink: './Art/debajoti/index.html',
+    imageLink: './Art/debajoti/ezgif.com-crop.gif',
+    author: 'Debajoti',
+    githubLink: 'https://github.com/debajoti'
+  },
+  {
+    artName: 'Cat Eye Flipping Animation',
+    pageLink: './Art/Ankit0049/index.html',
+    imageLink: './Art/Ankit0049/Cat.png',
+    author: 'Ankit',
+    githubLink: 'https://github.com/ankit0049'
+  },
+  {
+    artName: 'Moonrise',
+    pageLink: './Art/ahmedalhamad7/moon.html',
+    imageLink: './Art/ahmedalhamad7/static moon.png',
+    author: 'Ahmed',
+    githubLink: 'https://github.com/ahmedalhamad7'
+  },
+  {
+    artName: 'Envelope Open & Close Animation',
+    pageLink: './Art/Ankit/index.html',
+    imageLink: './Art/Ankit/Preview.png',
+    author: 'Ankit',
+    githubLink: 'https://github.com/ankit0049'
+  },
+  {
+    artName: 'rotating-cube-animation',
+    pageLink: './Art/whitebeard10/index.html',
+    imageLink: './Art/whitebeard10/animation.gif',
+    author: 'Avinash',
+    githubLink: 'https://github.com/whitebeard10'
+  },
+  {
+    artName: 'Taxi-Animation',
+    pageLink: './Art/alinasoy/index.html',
+    imageLink: './Art/alinasoy/taxi.gif',
+    author: 'Alina Soy',
+    githubLink: 'https://github.com/alinasoy'
+  },
+  {
     artName: 'loading-screen-ball-animation',
     pageLink: './Art/Sandesh-Pyakurel/index.html',
     imageLink: './Art/Sandesh-Pyakurel/animation.gif',
     author: 'Sandesh-Pyakurel',
     githubLink: 'https://github.com/Sandesh-Pyakurel'
   },
+  {
+    artName: 'The Mantras',
+    pageLink: './Art/vikasgadge/index.html',
+    imageLink: './Art/vikasgadge/The Mantras.mp4',
+    author: 'vikasgadge',
+    githubLink: 'https://github.com/vikasgadge28'
+  },
+  {
+    artName: 'Profile Image Animation',
+    pageLink: './Art/thiunuwan/index.html',
+    imageLink: './Art/thiunuwan/profileAnimation.gif',
+    author: 'thiunuwan',
+    githubLink: 'https://github.com/thiunuwan'
+  },
+
   {
     artName: 'cloudy-rain',
     pageLink: './Art/Ajeetraj/index.html',
@@ -15,17 +79,24 @@ let cards = [
   },
   {
     artName: 'cube-with-Letter-Animation',
-    pageLink: './Art/sufyanhabib/index.html',
-    imageLink: './Art/sufyanhabib/cube-with-Letter-Animation.gif',
+    pageLink: './Art/sufyanhabib1/index.html',
+    imageLink: './Art/sufyanhabib1/cube-with-Letter-Animation.gif',
     author: 'sufyanhabib',
     githubLink: 'https://github.com/sufyanhabib'
   },
   {
     artName: 'Bouncing Balls',
-    pageLink: './Art/<ahmedalhamad7>/index.html',
-    imageLink: './Art/<ahmedalhamad7>/static picture.jpg',
+    pageLink: './Art/ahmedalhamad7/index.html',
+    imageLink: './Art/ahmedalhamad7/static-picture.jpg',
     author: 'Ahmed',
     githubLink: 'https://github.com/<ahmedalhamad7>'
+  },
+  {
+    artName: 'Square Bounce Animation',
+    pageLink: './Art/tvermaashutosh/index.html',
+    imageLink: './Art/tvermaashutosh/animation.gif',
+    author: 'Ash V',
+    githubLink: 'https://github.com/tvermaashutosh'
   },
   {
     artName: 'Borderline-and-Movement-Animation',
@@ -35,19 +106,25 @@ let cards = [
     githubLink: 'https://github.com/Ayansaxena24'
   },
   {
+    artName: 'Odometer',
+    pageLink: './Art/mdtausifiqbal/index.html',
+    imageLink: './Art/mdtausifiqbal/odometer.gif',
+    author: 'mdtausifiqbal',
+    githubLink: 'https://github.com/mdtausifiqbal'
+  },
+  {
     artName: 'Neon-spinning-loading-screen',
     pageLink: './Art/aaron-jacob/index.html',
     imageLink: './Art/aaron-jacob/loader.gif',
     author: 'Aaron Jacob',
     githubLink: 'https://github.com/aaron-jacob'
   },
-
   {
-    artName: 'Circle Animation',
-    pageLink: './Art/Sahil/index.html',
-    imageLink: './Art/Sahil/animation.gif',
-    author: 'Sahil',
-    githubLink: 'https://github.com/borkarsahil'
+    artName: 'Rotating and Scaling Animation for div',
+    pageLink: './Art/Abhishek1/index.html',
+    imageLink: './Art/Abhishek1/Animation.png',
+    author: 'Abhishek Gupta',
+    githubLink: 'https://github.com/Abhishekgupta204'
   },
   {
     artName: 'The Chakra',
@@ -58,8 +135,8 @@ let cards = [
   },
   {
     artName: 'Day & night fox animation',
-    pageLink: './Art/apu52/index.html',
-    imageLink: './Art/apu52/Day & night fox img.jpg',
+    pageLink: './Art/apu52/day-and-night-fox/index.html',
+    imageLink: './Art/apu52/day-and-night-fox/picture.jpeg',
     author: 'Arpan Chowdhury',
     githubLink: 'https://github.com/apu52'
   },
@@ -139,6 +216,14 @@ let cards = [
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',
     author: 'Joy',
     githubLink: 'https://github.com/smokeraven667'
+  },
+
+  {
+    artName: 'Sleep Time',
+    pageLink: './Art/kratin01/index.html',
+    imageLink: './Art/kratin01/animation.gif',
+    author: 'Kratin',
+    githubLink: 'https://github.com/kratin01'
   },
   {
     artName: 'Gradient Loader',
@@ -248,7 +333,7 @@ let cards = [
   {
     artName: 'Dancing in Space',
     pageLink: './Art/Maria/index.html',
-    imageLink: './Art/Maria/style.css',
+    imageLink: './Art/Maria/dancinginspace.gif',
     author: 'Maria',
     githubLink: 'https://github.com/mariapetra'
   },
@@ -682,7 +767,7 @@ let cards = [
   {
     artName: 'spinning square',
     pageLink: './Art/dmdiamond79/spinningsquare.html',
-    imageLink: './Art/dmdiamond79/spinning.gif',
+    imageLink: './Art/dmdiamond79/spinning.gif.gif',
     author: 'dmdiamond79',
     githubLink: 'https://github.com/dmdiamond79'
   },
@@ -743,11 +828,11 @@ let cards = [
     githubLink: 'https://github.com/Baku452'
   },
   {
-    artName: 'Let the Sunshine In', 
-    pageLink: './Art/Sunshine/sunshine.html', 
-    imageLink: './Art/Sunshine/styles.css', 
-    author: 'LucileTech', 
-    githubLink: 'https://https://github.com/LucileTech' 
+    artName: 'Let the Sunshine In',
+    pageLink: './Art/Sunshine/sunshine.html',
+    imageLink: './Art/Sunshine/styles.css',
+    author: 'LucileTech',
+    githubLink: 'https://https://github.com/LucileTech'
   },
   {
     artName: 'Heaart',
@@ -755,6 +840,13 @@ let cards = [
     imageLink: './Art/Neha045/animation.gif',
     author: 'Neha045',
     githubLink: 'https://github.com/Neha045'
+  },
+  {
+    artName: 'simple-transition',
+    pageLink: './Art/rajan4405/index.html',
+    imageLink: './Art/rajan4405/Animation.gif',
+    author: 'rajan4405',
+    githubLink: 'https://github.com/rajan4405'
   },
   {
     artName: 'Shooting gun',
@@ -983,14 +1075,14 @@ let cards = [
   {
     artName: 'moving box',
     pageLink: './Art/Esinnation/index.html',
-    imageLink: './Art/dmdiamond79/animation.gif',
+    imageLink: './Art/Esinnation/animation.gif',
     author: 'Esinnation',
     githubLink: 'https://github.com/Esinnation'
   },
   {
     artName: 'Button Hover Animation',
     pageLink: './Art/oandev/index.html',
-    imageLink: './Art/oan.gif',
+    imageLink: './Art/oandev/oan.gif',
     author: 'hioan-dev',
     githubLink: 'https://github.com/hioan-dev'
   },
@@ -1025,7 +1117,7 @@ let cards = [
   {
     artName: 'wheel',
     pageLink: './Art/mohdUsman-6508/wheel.html',
-    imageLink: './Art/mohdUsman-6508/wheel.gif',
+    imageLink: './Art/mohdUsman-6508/wheel.png',
     author: 'Mohd Usman',
     githubLink: 'https://github.com/mohdUsman-6508'
   },
@@ -1091,6 +1183,13 @@ let cards = [
     imageLink: './Art/muhd-kifayath/Spinner.gif',
     author: 'Kifayath',
     githubLink: 'https://github.com/muhd-kifayath'
+  },
+  {
+    artName: 'NewKick',
+    pageLink: './Art/DAYakDREAMER/index.html',
+    imageLink: './Art/DAYakDREAMER/Animation-nation-gif.gif',
+    author: 'DAYakDREAMER',
+    githubLink: 'https://github.com/DAYakDREAMER'
   },
   {
     artName: 'Rotate 3D on Hover',
@@ -1163,6 +1262,13 @@ let cards = [
     githubLink: 'https://github.com/varunrmantri23'
   },
   {
+    artName: 'Cassette Animation',
+    pageLink: './Art/apu52/index.html',
+    imageLink: './Art/apu52/cassette animation.PNG',
+    author: 'Arpan Chowdhury',
+    githubLink: 'https://github.com/apu52'
+  },
+  {
     artName: 'Rocking Boat',
     pageLink: './Art/TishShaw/index.html',
     imageLink: './Art/TishShaw/rocking-boat.gif',
@@ -1170,23 +1276,16 @@ let cards = [
     githubLink: 'https://github.com/TishShaw'
   },
   {
-    artName: 'Sliding Bot',
-    pageLink: './Art/Joy/ProfoundlyParker/index.html',
-    imageLink: './Art/Joy/ProfoundlyParker/robot.gif',
-    author: 'ProfoundlyParker',
-    githubLink: 'https://github.com/ProfoundlyParker'
-  },
-  {
     artName: 'Chess',
     pageLink: './Art/Ronit72/index.html',
-    imageLink: './Art/Ronit72/animation.gif',
+    imageLink: './Art/Ronit72/chess.gif',
     author: 'Ronit',
     githubLink: 'https://github.com/Ronit72'
   },
   {
     artName: 'Pabitra Pal',
     pageLink: './Art/Pabitra/index.html',
-    imageLink: './Art/Pabitra/face animation gif.gif',
+    imageLink: './Art/Pabitra/face-animation.gif',
     author: 'Pabitra',
     githubLink: 'https://github.com/pabitra0011'
   },
@@ -1226,6 +1325,13 @@ let cards = [
     githubLink: 'https://github.com/vatsalya-vyas'
   },
   {
+    artName: 'Ball Hitting',
+    pageLink: './Art/Kamalesh-Seervi/index.html',
+    imageLink: './Art/Kamalesh-Seervi/balling-hitting.gif',
+    author: 'Kamalesh',
+    githubLink: 'https://github.com/Kamalesh-Seervi'
+  },
+  {
     artName: 'animation',
     pageLink: './Art/hrishit/index.html',
     imageLink: './Art/hrishit/animation.gif',
@@ -1247,10 +1353,10 @@ let cards = [
     githubLink: 'https://github.com/samilabud'
   },
   {
-    artName: 'Spacecraft', 
-    pageLink: './Art/manuelachamoso/index.html', 
+    artName: 'Spacecraft',
+    pageLink: './Art/manuelachamoso/index.html',
     imageLink: './Art/manuelachamoso/space.gif',
-    author: 'Manuela Chamoso', 
+    author: 'Manuela Chamoso',
     githubLink: 'https://github.com/manuelachamoso/'
   },
   {
@@ -1297,8 +1403,8 @@ let cards = [
   },
   {
     artName: 'Circles Animation',
-    pageLink: './Art/Loukas4/AnimatedCircles.html',
-    imageLink: './Art/Loukas4/Circles.gif',
+    pageLink: './Art/Loukas/AnimatedCircles.html',
+    imageLink: './Art/Loukas/Circles.gif',
     author: 'Loukas',
     githubLink: 'https://github.com/Loukas4'
   },
@@ -1400,6 +1506,21 @@ let cards = [
     author: 'Nachiketa',
     githubLink: 'https://github.com/NachiketaDhal'
   },
+  {
+    artName: 'Blooming flowers',
+    pageLink: './Art/Asymtode712/index.html',
+    imageLink: './Art/Asymtode712/blooming-flowers.gif',
+    author: 'Asymtode712',
+    githubLink: 'https://github.com/Asymtode712'
+  },
+  {
+    artName: 'Growing flower',
+    pageLink: './Art/Asymtode712/gflower.html',
+    imageLink: './Art/Asymtode712/growing-flower.gif',
+    author: 'Asymtode712',
+    githubLink: 'https://github.com/Asymtode712'
+  },
+  {
     artName: 'classic-loader',
     pageLink: './Art/ramanamatya/index.html',
     imageLink: './Art/ramanamatya/load.gif',
@@ -1430,7 +1551,7 @@ let cards = [
   {
     artName: 'Sun Animation',
     pageLink: './Art/ParzivalAFK/sun.html',
-    imageLink: './Art/ParzivalAFK/sun.gif',
+    imageLink: './Art/ParzivalAFK/ParzivalAFK_SUN.gif',
     author: 'ParzivalAFK',
     githubLink: 'https://github.com/parzivalafk'
   },
@@ -1456,7 +1577,7 @@ let cards = [
     githubLink: 'https://github.com/parzivalafk'
   },
   {
-    artName: "Illusion Loader",
+    artName: 'Illusion Loader',
     pageLink: './Art/saikatsamanta/index.html',
     imageLink: './Art/saikatsamanta/short.gif',
     author: 'psykatsamanta',
@@ -1471,8 +1592,8 @@ let cards = [
   },
   {
     artName: 'Bouncing Ball',
-    pageLink: './Art/ball/index.html',
-    imageLink: './Art/ball/bouncing-ball.gif',
+    pageLink: './Art/varian1/index.html',
+    imageLink: './Art/varian1/bouncing-ball.gif',
     author: 'Varian1',
     githubLink: 'https://github.com/varian1'
   },
@@ -1519,17 +1640,17 @@ let cards = [
     githubLink: 'https://github.com/Vivek-GuptaXCode'
   },
   {
-     artName: 'Lucifer Glitch',
+    artName: 'Lucifer Glitch',
     pageLink: './Art/lucifer510/text.html',
     imageLink: './Art/lucifer510/text.gif',
     author: 'lucifer510',
     githubLink: 'https://github.com/lucifer510'
   },
   {
-    artName: 'Bubbles', 
+    artName: 'Bubbles',
     pageLink: './Art/neha3423/index.html',
-    imageLink: './Art/neha3423/bubbles.gif', 
-    author: 'Neha', 
+    imageLink: './Art/neha3423/bubbles.gif',
+    author: 'Neha',
     githubLink: 'https://github.com/neha3423'
   },
   {
@@ -1545,9 +1666,183 @@ let cards = [
     imageLink: './Art/PunGrumpy/Pacman.gif',
     author: 'PunGrumpy',
     githubLink: 'https://github.com/PunGrumpy'
-  }
+  },
+  {
+    artName: 'Rainball sickle animation',
+    pageLink: './Art/sserwangaedrisa/index.html',
+    imageLink: './Art/sserwangaedrisa/Rainball_Sickle_Animation.gif',
+    author: 'SSERWANGA EDIRISA',
+    githubLink: 'https://github.com/sserwangaedrisa'
+  },
+  {
+    artName: 'bouncing ball with changing color',
+    pageLink: './Art/Pawaspy/index.html',
+    imageLink: './Art/Pawaspy/anime.gif',
+    author: 'Pawas-Pandey',
+    githubLink: 'https://github.com/pawaspy'
+  },
+  {
+    artName: 'Button Loader',
+    pageLink: './Art/psykat1116/index.html',
+    imageLink: './Art/psykat1116/loader.gif',
+    author: 'psykat1116',
+    githubLink: 'https://github.com/psykat1116'
+  },
+  {
+    artName: 'Square Pop up',
+    pageLink: './Art/leonyangela/index.html',
+    imageLink: './Art/leonyangela/index.gif',
+    author: 'leonyangela',
+    githubLink: 'https://github.com/leonyangela'
+  },
+  {
+    artName: 'Rotating Ashok Chakra in Indian flag',
+    pageLink: './Art/aniketicloud/index.html',
+    imageLink: './Art/aniketicloud/rotating_ashok_chakra.png',
+    author: 'Aniket Pandharabale',
+    githubLink: 'https://github.com/aniketicloud'
+  },
+  {
+    artName: 'Tulip Growth',
+    pageLink: './Art/Malvericus/index.html',
+    imageLink: './Art/Malvericus/Tulip_Growth.gif',
+    author: 'Malvika Bhadoriya',
+    githubLink: 'https://github.com/Malvericus'
+  },
+  {
+    artName: 'Snowstorm',
+    pageLink: './Art/ParzivalAFK/snowstorm.html',
+    imageLink: './Art/ParzivalAFK/snowstorm.gif',
+    author: 'ParzivalAFK',
+    githubLink: 'https://github.com/parzivalafk'
+  },
+  {
+    artName: 'Circular Loading animation',
+    pageLink: './Art/philling1/index.html',
+    imageLink: './Art/philling1/animation.gif',
+    author: 'philling1',
+    githubLink: 'https://github.com/philling1'
+  },
+  {
+    artName: 'Rotating Fan',
+    pageLink: './Art/shravankshenoy/RotatingFan.html',
+    imageLink: './Art/shravankshenoy/RotatingFan.gif',
+    author: 'Shravan Shenoy',
+    githubLink: 'https://github.com/shravankshenoy'
+  },
+  {
+    artName: 'Confetti',
+    pageLink: './Art/dotslashbit/index.html',
+    imageLink: './Art/dotslashbit/confetti.gif',
+    author: 'dotslashbit',
+    githubLink: 'https://github.com/dotslashbit'
+  },
+  {
+    artName: 'The Cube',
+    pageLink: './Art/Sayed-Husain/cube.html',
+    imageLink: './Art/Sayed-Husain/cube.gif',
+    author: 'Sayed-Husain',
+    githubLink: 'https://github.com/Sayed-Husain'
+  },
+  {
+    artName: 'Solar System',
+    pageLink: './Art/adityaanandz/solarsystem.html',
+    imageLink: './Art/adityaanandz/solarsystem.gif',
+    author: 'Aditya',
+    githubLink: 'https://github.com/adityaanandz'
+  },
 
-];
+  {
+    artName: 'GlowingFlower',
+    pageLink: './Art/saurabhsingh720/GlowingFlower.html',
+    imageLink: './Art/saurabhsingh720/GlowingFlower.gif',
+    author: 'Saurabh Singh',
+    githubLink: 'https://github.com/saurabhsingh720'
+  },
+  {
+    artName: 'Loader Animation',
+    pageLink: './Art/gaurav816/index.html',
+    imageLink: './Art/gaurav816/loader.gif',
+    author: 'Gaurav Saxena',
+    githubLink: 'https://github.com/Gauravsaxena816'
+  },
+  {
+    artName: 'Star In Sky',
+    pageLink: './Art/vivek-kumar/StarInSky.html',
+    imageLink: './Art/vivek-kumar/StarInSky.gif',
+    author: 'demonvivekBoii',
+    githubLink: 'https://github.com/demonvivekBoii'
+  },
+  {
+    artName: 'Bubbles',
+    pageLink: './Art/sudhanshu27/index.html',
+    imageLink: './Art/sudhanshu27/bubbles.gif',
+    author: 'sudhanshu27',
+    githubLink: 'https://github.com/sudhanshu27'
+  },
+  {
+    artName: 'Bonfire',
+    pageLink: './Art/shubham-vartak/index.html',
+    imageLink: './Art/shubham-vartak/bonfire_gif.gif',
+    author: 'Shubham Vartak',
+    githubLink: 'https://github.com/shubham-vartak'
+  },
+  {
+    artName: 'GlowingStars',
+    pageLink: './Art/vivek/GlowingStars.html',
+    imageLink: './Art/vivek/GlowingStars.gif',
+    author: 'vivekBoii',
+    githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Rotating Spirals',
+    pageLink: './Art/vivek/RotatingSpirals.html',
+    imageLink: './Art/vivek/RotatingStars.gif',
+    author: 'vivekBoii',
+    githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Squid Animation',
+    pageLink: './Art/barkhayadav12/squidAnimation.html',
+    imageLink: './Art/barkhayadav12/squidAnimation.gif',
+    author: 'barkhayadav12',
+    githubLink: 'https://github.com/barkhayadav12'
+  },
+  {
+    artName: 'Loading',
+    pageLink: './Art/div02-afk/index.html',
+    imageLink: './Art/div02-afk/animation.gif',
+    author: 'div02-afk',
+    githubLink: 'https://github.com/div02-afk'
+  },
+  {
+    artName: 'Hover Over Me',
+    pageLink: './Art/Sayed-Husain/hoverOverMe.html',
+    imageLink: './Art/Sayed-Husain/hover.gif',
+    author: 'Sayed-Husain',
+    githubLink: 'https://github.com/Sayed-Husain'
+  },
+  {
+    artName: 'Pixel Button',
+    pageLink: './Art/RoshanJ20/index.html',
+    imageLink: './Art/RoshanJ20/pixel_button.png',
+    author: 'RoshanJ20',
+    githubLink: 'https://github.com/RoshanJ20'
+  },
+  {
+    artName: 'Indian Flag Animation',
+    pageLink: './Art/TaylorDJones11/index.html',
+    imageLink: './Art/TaylorDJones11/animation.gif',
+    author: 'Taylor J',
+    githubLink: 'https://github.com/TaylorDJones11'
+  },
+  {
+    artName: 'Oscillating Ball Wave',
+    pageLink: './Art/Aaryash-Shakya/oscillating-ball-wave.html',
+    imageLink: './Art/Aaryash-Shakya/oscillating-ball-wave.gif',
+    author: 'Aaryash-Shakya',
+    githubLink: 'https://github.com/Aaryash-Shakya'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -1583,3 +1878,23 @@ function Shuffle(o) {
   );
   return o;
 }
+
+// go to top
+document.addEventListener('DOMContentLoaded', function () {
+  var goToTopBtn = document.querySelector('.go-to-top');
+
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 100) {
+      goToTopBtn.classList.add('active');
+    } else {
+      goToTopBtn.classList.remove('active');
+    }
+  });
+
+  goToTopBtn.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
