@@ -1870,7 +1870,14 @@ let cards = [
     imageLink: './Art/khrisdaniels/pong.gif',
     author: 'KD',
     githubLink: 'https://github.com/khrisdaniels'
-  }
+  },
+  {
+    artName: 'Ezio Auditore Animation',
+    pageLink: './Art/Mel-TB/ezioAuditore.html',
+    imageLink: './Art/Mel-TB/ezio_animation.gif',
+    author: 'Melinda',
+    githubLink: 'https://github.com/Mel-TB'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
