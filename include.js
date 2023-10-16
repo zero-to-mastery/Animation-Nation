@@ -1,5 +1,4 @@
 let cards = [
-  
   {
     artName: 'rotating-cube-animation',
     pageLink: './Art/whitebeard10/index.html',
