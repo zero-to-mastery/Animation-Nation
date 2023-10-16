@@ -53,7 +53,8 @@ body {
 }
 
 @keyframes paddleMove {
-  0%, 100% {
+  0%,
+  100% {
     top: 0;
   }
   50% {
@@ -62,7 +63,8 @@ body {
 }
 
 @keyframes leftPaddleMove {
-  0%, 100% {
+  0%,
+  100% {
     top: 140px;
   }
   50% {
@@ -71,7 +73,8 @@ body {
 }
 
 @keyframes rightPaddleMove {
-  0%, 100% {
+  0%,
+  100% {
     top: 0;
   }
   50% {
