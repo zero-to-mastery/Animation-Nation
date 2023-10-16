@@ -1,0 +1,29 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: absolute;
+    animation: moveBall 4s linear infinite;
+    top: 50%; /* Position the ball vertically in the middle */
+    transform: translate(0, -50%); /* Center the ball vertically */
+}
+
+@keyframes moveBall {
+    0% {
+        left: 0;
+    }
+    50% {
+        background-color: #e74c3c;
+        transform: scale(1.2);
+    }
+    100% {
+        left: calc(100% - 50px);
+    }
+}
