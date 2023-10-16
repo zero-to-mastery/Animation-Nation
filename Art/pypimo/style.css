@@ -191,8 +191,9 @@ body {
   bottom: 25px;
   z-index: -2;
   background-color: var(--shadow);
-  left: 350px;
   border-radius: 50%;
+  bottom: -25px;
+  left: -60px;
 }
 
 @keyframes cloud {
@@ -212,6 +213,3 @@ body {
     transform: rotate(20deg); 
   }
 }
-
-
-
