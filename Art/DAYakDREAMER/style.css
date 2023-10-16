@@ -12,15 +12,14 @@ body {
 }
 
 .stripe-container-sm {
-    height: 100px;
-    width: 200%;
-    position: absolute;
-    top: 2;
-    left: -1;
-    overflow: hidden;
-    rotate: -40deg;
-    border-radius: 100px;
-
+  height: 100px;
+  width: 200%;
+  position: absolute;
+  top: 2;
+  left: -1;
+  overflow: hidden;
+  rotate: -40deg;
+  border-radius: 100px;
 }
 
 .stripe {
