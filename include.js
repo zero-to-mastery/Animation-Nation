@@ -1870,6 +1870,13 @@ let cards = [
     imageLink: './Art/khrisdaniels/pong.gif',
     author: 'KD',
     githubLink: 'https://github.com/khrisdaniels'
+  },
+  {
+    artName: 'ZTM Vinyl',
+    pageLink: './Art/GrizzlyWebDev/index.html',
+    imageLink: './Art/GrizzlyWebDev/images/ztmVinyl',
+    author: 'KD',
+    githubLink: 'https://github.com/GrizzlyWebDev'
   }
 ];
 

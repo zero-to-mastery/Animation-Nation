@@ -1,0 +1,257 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: darkcyan;
+}
+
+.record-player {
+  position: relative;
+  height: 600px;
+  width: 600px;
+  background-color: #3d2107;
+  background-image: url("./images/wood-pattern.png");
+  border-radius: 10px;
+}
+
+.arm-base {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #6d6d6d;
+  border-radius: 100%;
+  z-index: 3;
+  top: 10px;
+  right: 10px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(47, 47, 48, 0.1) 0px 0px 8px;
+  border: 2px solid #3a3a3a;
+}
+
+.arm {
+  position: absolute;
+  height: 200px;
+  width: 10px;
+  background-color: #6d6d6d;
+  border-radius: 4px;
+  z-index: 4;
+  transform: rotate(45deg);
+  top: -10px;
+  right: 85px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.needle {
+  position: absolute;
+  height: 25px;
+  width: 20px;
+  background-color: #6d6d6d;
+  border-radius: 4px;
+  z-index: 5;
+  top: 150px;
+  right: 152px;
+  transform: rotate(45deg);
+}
+
+.volume {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #6d6d6d;
+  border-radius: 100%;
+  z-index: 5;
+  bottom: 10px;
+  right: 10px;
+  border: 2px solid #3a3a3a;
+}
+
+.speed {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: #6d6d6d;
+  border-radius: 100%;
+  z-index: 5;
+  bottom: 10px;
+  right: 60px;
+  border: 2px solid #3a3a3a;
+}
+
+.control-btns {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  bottom: 10px;
+  left: 10px;
+}
+
+.control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 40px;
+  background-color: #6d6d6d;
+  border-radius: 4px;
+  z-index: 5;
+  border: 2px solid #3a3a3a;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(47, 47, 48, 0.1) 0px 0px 8px;
+}
+
+.control-btn img {
+  height: 15px;
+  width: 15px;
+}
+
+.vinyl-shadow {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 100%;
+  overflow: hidden;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  animation: rotate 5s linear infinite;
+}
+
+.vinyl-background {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  border-radius: 100%;
+  content: "";
+  border: 4px solid #3a3a3a;
+  animation: rotate 5s linear infinite;
+}
+
+.highlight {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.048) 0%,
+    rgba(255, 255, 255, 0.13) 35%,
+    rgba(210, 210, 210, 0.082) 100%
+  );
+  border-radius: 100% 10%;
+  top: 280px;
+  left: 280px;
+  z-index: 2;
+}
+
+.track-1 {
+  position: absolute;
+  height: 460px;
+  width: 460px;
+  background-color: none;
+  border-radius: 100%;
+  border: 3px solid #303030;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.track-2 {
+  position: absolute;
+  height: 420px;
+  width: 420px;
+  background-color: none;
+  border-radius: 100%;
+  border: 3px solid #3a3a3a;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.track-3 {
+  position: absolute;
+  height: 380px;
+  width: 380px;
+  background-color: none;
+  border-radius: 100%;
+  border: 3px solid #3a3a3a;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.track-4 {
+  position: absolute;
+  height: 330px;
+  width: 330px;
+  background-color: none;
+  border-radius: 100%;
+  border: 3px solid #3a3a3a;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.track-5 {
+  position: absolute;
+  height: 270px;
+  width: 270px;
+  background-color: none;
+  border-radius: 100%;
+  border: 3px solid #3a3a3a;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.label {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.label::after {
+  content: "";
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: #000000;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.label img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
