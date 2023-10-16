@@ -1877,6 +1877,13 @@ let cards = [
     imageLink: './Art/GrizzlyWebDev/images/ztmVinyl',
     author: 'KD',
     githubLink: 'https://github.com/GrizzlyWebDev'
+  },
+  {
+    artName: 'Ezio Auditore Animation',
+    pageLink: './Art/Mel-TB/ezioAuditore.html',
+    imageLink: './Art/Mel-TB/ezio_animation.gif',
+    author: 'Melinda',
+    githubLink: 'https://github.com/Mel-TB'
   }
 ];
 
