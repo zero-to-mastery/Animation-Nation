@@ -1849,15 +1849,14 @@ let cards = [
     imageLink: './Art/Aaryash-Shakya/oscillating-ball-wave.gif',
     author: 'Aaryash-Shakya',
     githubLink: 'https://github.com/Aaryash-Shakya'
-   },
-   {
+  },
+  {
     artName: 'Loader Animation',
     pageLink: './Art/YadlaMani/index.html',
     imageLink: './Art/YadlaMani/loader.gif',
     author: 'YadlaMani',
     githubLink: 'https://github.com/YadlaMani'
-  },
-
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
