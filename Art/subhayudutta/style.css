@@ -1,45 +1,46 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #222;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #222;
+  overflow: hidden;
 }
 
 .circle {
-    width: 100px;
-    height: 100px;
-    background-color: #3498db;
-    border-radius: 50%;
-    position: absolute;
-    animation: moveCircle 4s ease-in-out infinite, changeColor 6s ease infinite;
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  border-radius: 50%;
+  position: absolute;
+  animation: moveCircle 4s ease-in-out infinite, changeColor 6s ease infinite;
 }
 
 @keyframes moveCircle {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(100px);
-    }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100px);
+  }
 }
 
 @keyframes changeColor {
-    0% {
-        background-color: #3498db;
-    }
-    25% {
-        background-color: #e74c3c;
-    }
-    50% {
-        background-color: #2ecc71;
-    }
-    75% {
-        background-color: #f1c40f;
-    }
-    100% {
-        background-color: #3498db;
-    }
+  0% {
+    background-color: #3498db;
+  }
+  25% {
+    background-color: #e74c3c;
+  }
+  50% {
+    background-color: #2ecc71;
+  }
+  75% {
+    background-color: #f1c40f;
+  }
+  100% {
+    background-color: #3498db;
+  }
 }
