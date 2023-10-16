@@ -1769,7 +1769,7 @@ let cards = [
   {
     artName: 'Rocket Launch',
     pageLink: './Art/dalvishruti14/index.html',
-    imageLink: './Art/dalvishruti14/rocketlaunch.gif',
+    imageLink: './Art/dalvishruti14/RocketLaunch.gif',
     author: 'Shruti', 
     githubLink: 'https://github.com/dalvishruti14' 
   },
