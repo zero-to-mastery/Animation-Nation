@@ -1877,7 +1877,7 @@ let cards = [
     imageLink: './Art/Mel-TB/ezio_animation.gif',
     author: 'Melinda',
     githubLink: 'https://github.com/Mel-TB'
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
