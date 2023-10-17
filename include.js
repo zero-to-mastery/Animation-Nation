@@ -85,6 +85,13 @@ let cards = [
     githubLink: 'https://github.com/sufyanhabib'
   },
   {
+    artName: 'Circle Hover Animation',
+    pageLink: './Art/subhayudutta/index.html',
+    imageLink: './Art/subhayudutta/circlehover.gif',
+    author: 'Subhayu Dutta',
+    githubLink: 'https://github.com/subhayudutta'
+  },
+  {
     artName: 'Bouncing Balls',
     pageLink: './Art/ahmedalhamad7/index.html',
     imageLink: './Art/ahmedalhamad7/static-picture.jpg',
@@ -1767,6 +1774,13 @@ let cards = [
     githubLink: 'https://github.com/Gauravsaxena816'
   },
   {
+    artName: 'Rocket Launch',
+    pageLink: './Art/dalvishruti14/index.html',
+    imageLink: './Art/dalvishruti14/RocketLaunch.gif',
+    author: 'Shruti',
+    githubLink: 'https://github.com/dalvishruti14'
+  },
+  {
     artName: 'Star In Sky',
     pageLink: './Art/vivek-kumar/StarInSky.html',
     imageLink: './Art/vivek-kumar/StarInSky.gif',
@@ -1842,6 +1856,34 @@ let cards = [
     imageLink: './Art/Aaryash-Shakya/oscillating-ball-wave.gif',
     author: 'Aaryash-Shakya',
     githubLink: 'https://github.com/Aaryash-Shakya'
+  },
+  {
+    artName: 'Loader Animation',
+    pageLink: './Art/YadlaMani/index.html',
+    imageLink: './Art/YadlaMani/loader.gif',
+    author: 'YadlaMani',
+    githubLink: 'https://github.com/YadlaMani'
+  },
+  {
+    artName: 'Pong Arcade',
+    pageLink: './Art/khrisdaniels/pong.html',
+    imageLink: './Art/khrisdaniels/pong.gif',
+    author: 'KD',
+    githubLink: 'https://github.com/khrisdaniels'
+  },
+  {
+    artName: 'Ezio Auditore Animation',
+    pageLink: './Art/Mel-TB/ezioAuditore.html',
+    imageLink: './Art/Mel-TB/ezio_animation.gif',
+    author: 'Melinda',
+    githubLink: 'https://github.com/Mel-TB'
+  },
+  {
+    artName: 'Blue Square Spinning Animation',
+    pageLink: './Art/JohnRTitor/index.html',
+    imageLink: './Art/JohnRTitor/Sample.gif',
+    author: 'JohnRTitor',
+    githubLink: 'https://github.com/JohnRTitor'
   }
 ];
 
