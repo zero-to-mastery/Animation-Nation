@@ -1872,6 +1872,13 @@ let cards = [
     githubLink: 'https://github.com/khrisdaniels'
   },
   {
+    artName: 'ZTM Vinyl',
+    pageLink: './Art/GrizzlyWebDev/index.html',
+    imageLink: './Art/GrizzlyWebDev/images/ztmVinyl',
+    author: 'KD',
+    githubLink: 'https://github.com/GrizzlyWebDev'
+  },
+  {
     artName: 'Ezio Auditore Animation',
     pageLink: './Art/Mel-TB/ezioAuditore.html',
     imageLink: './Art/Mel-TB/ezio_animation.gif',
