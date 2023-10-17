@@ -1937,6 +1937,13 @@ let cards = [
     author: 'Ankoor Gorai',
     githubLink: 'https://github.com/ankoorgorai'
   },
+  {
+    artName: 'Mail Box Animation', 
+    pageLink: './Art/Avtech04/index.html',
+    imageLink: './Art/Avtech04/demo.gif', 
+    author: 'Avtech04', 
+    githubLink: 'https://github.com/Avtech04' 
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
