@@ -1930,6 +1930,13 @@ let cards = [
     author: 'pleomorph',
     githubLink: 'https://github.com/pleomorph'
   },
+  {
+    artName: 'Three Animate',
+    pageLink: './Art/ankoorgarai/index.html',
+    imageLink: './Art/ankoorgarai/threeanimate.gif',
+    author: 'Ankoor Gorai',
+    githubLink: 'https://github.com/ankoorgorai'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
