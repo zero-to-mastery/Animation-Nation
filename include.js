@@ -78,6 +78,13 @@ let cards = [
     githubLink: 'https://github.com/ajeetraj11'
   },
   {
+    artName: 'Abstract Spinning',
+    pageLink: './Art/MaximeGuillemot/index.html',
+    imageLink: './Art/MaximeGuillemot/abstract.gif',
+    author: 'Maxime Guillemot',
+    githubLink: 'https://github.com/MaximeGuillemot'
+  },
+  {
     artName: 'cube-with-Letter-Animation',
     pageLink: './Art/sufyanhabib1/index.html',
     imageLink: './Art/sufyanhabib1/cube-with-Letter-Animation.gif',
