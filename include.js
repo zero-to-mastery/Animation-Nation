@@ -1758,7 +1758,6 @@ let cards = [
     author: 'Aditya',
     githubLink: 'https://github.com/adityaanandz'
   },
-
   {
     artName: 'GlowingFlower',
     pageLink: './Art/saurabhsingh720/GlowingFlower.html',
@@ -1879,7 +1878,7 @@ let cards = [
     githubLink: 'https://github.com/Mel-TB'
   },
   {
-    artName: 'Dark Box Animation',
+    artName: 'Dark Boxx Animation',
     pageLink: './Art/AvinavCHATTERJEE2103028/index.html',
     imageLink: './Art/AvinavCHATTERJEE2103028/darkboxanimation.gif',
     author: 'Avinav Chatterjee',
