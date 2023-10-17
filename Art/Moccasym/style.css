@@ -35,8 +35,9 @@ body {
   left: 200px;
   height: 200px;
   width: 200px;
-  
+  background-color: #83C8E6;
   border-radius: 50%;
+  background: conic-gradient(#83C8E6 calc(20*1%),#0000 0);
   
 }
 
@@ -51,7 +52,7 @@ body {
   content: "";
   position: absolute;
   border-radius: 50%;
-  background ;
+  
   transform: rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
 }
 
