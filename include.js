@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/rishi17003'
   },
   {
+    artName: 'rectangle',
+    pageLink: './Art/ghost-2362003/recangle.html',
+    imageLink: './Art/ghost-2362003/recangle.png',
+    author: 'Shubhojyoti Das',
+    githubLink: 'https://github.com/ghost-23620031'
+  },
+  {
     artName: 'Tic Tac Yo!',
     pageLink: './Art/smokeraven667/smokeraven.html',
     imageLink: './Art/smokeraven667/tic-tac-yo.gif',

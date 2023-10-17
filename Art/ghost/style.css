@@ -1,0 +1,39 @@
+.container {
+    background-color: #2d3436;
+    
+}
+
+@keyframes hkfest {
+    0% {
+        background-color: #03fc8c;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: #03befc;
+        left: 1000px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: #03befc;
+        left: 500px;
+        top: 615px;
+    }
+
+    100% {
+        background-color: #fc035e;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.rectangle {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    animation-name: hkfest;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
