@@ -1874,8 +1874,8 @@ let cards = [
   {
     artName: 'ZTM Vinyl',
     pageLink: './Art/GrizzlyWebDev/index.html',
-    imageLink: './Art/GrizzlyWebDev/images/ztmVinyl',
-    author: 'KD',
+    imageLink: './Art/GrizzlyWebDev/images/ztmVinyl.gif',
+    author: 'GrizzlyWebDev',
     githubLink: 'https://github.com/GrizzlyWebDev'
   },
   {
