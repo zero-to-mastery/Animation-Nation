@@ -1877,6 +1877,13 @@ let cards = [
     imageLink: './Art/Mel-TB/ezio_animation.gif',
     author: 'Melinda',
     githubLink: 'https://github.com/Mel-TB'
+  },
+  {
+    artName: 'Dark Box Animation',
+    pageLink: './Art/AvinavCHATTERJEE2103028/index.html',
+    imageLink: './Art/AvinavCHATTERJEE2103028/darkboxanimation.gif',
+    author: 'Avinav Chatterjee',
+    githubLink: 'https://github.com/AvinavCHATTERJEE2103028'
   }
 ];
 
