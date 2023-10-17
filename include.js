@@ -1,4 +1,5 @@
 let cards = [
+  
   {
     artName: 'Indian Flag Animation',
     pageLink: './Art/niranjan-kurhade/indianflag.html',
@@ -1936,6 +1937,13 @@ let cards = [
     imageLink: './Art/ankoorgarai/threeanimate.gif',
     author: 'Ankoor Gorai',
     githubLink: 'https://github.com/ankoorgorai'
+  },
+  {
+    artName: 'Birthday Card Animation',
+    pageLink: './Art/Varad0014/index.html', 
+    imageLink: './Art/Varad0014/Birthday-Card-Animation.gif', 
+    author: 'Varad', 
+    githubLink: 'https://github.com/Varad0014' 
   },
 ];
 
