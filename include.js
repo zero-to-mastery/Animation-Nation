@@ -1877,6 +1877,13 @@ let cards = [
     imageLink: './Art/Mel-TB/ezio_animation.gif',
     author: 'Melinda',
     githubLink: 'https://github.com/Mel-TB'
+  },
+  {
+    artName: 'Blue Square Spinning Animation',
+    pageLink: './Art/JohnRTitor/index.html',
+    imageLink: './Art/JohnRTitor/Sample.gif',
+    author: 'JohnRTitor',
+    githubLink: 'https://github.com/JohnRTitor'
   }
 ];
 
