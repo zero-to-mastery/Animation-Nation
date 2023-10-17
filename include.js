@@ -1930,6 +1930,13 @@ let cards = [
     author: 'pleomorph',
     githubLink: 'https://github.com/pleomorph'
   },
+  {
+    artName: 'moving block',
+    pageLink: './Art/Soumyadeep_Garai/index.html',
+    imageLink: './Art/Soumyadeep_Garai/card.gif',
+    author: 'Soumyadeep_Garai',
+    githubLink: 'https://github.com/SOUMYADEP'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
