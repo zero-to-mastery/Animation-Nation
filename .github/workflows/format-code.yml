@@ -4,6 +4,11 @@ on: push
 jobs:
   format:
     runs-on: ubuntu-20.04
+    defaults:
+      run:
+        shell: bash
+    env:
+      NODE_VERSION: 16
 
     steps:
       - name: Pull Repo
