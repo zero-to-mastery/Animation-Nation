@@ -3,7 +3,7 @@
     
 }
 
-@keyframes hkfest {
+@keyframes animation {
     0% {
         background-color: #03fc8c;
         left: 0px;
@@ -33,7 +33,7 @@
     width: 300px;
     height: 100px;
     position: relative;
-    animation-name: hkfest;
+    animation-name: animation;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
