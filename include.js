@@ -1864,6 +1864,13 @@ let cards = [
     author: 'YadlaMani',
     githubLink: 'https://github.com/YadlaMani'
   },
+  { 
+    artName: 'Bouncing Ball Animation',
+    pageLink: './Art/Bratajit-03/index.html',
+    imageLink: './Art/Bratajit-03/Animation.gif',
+    author: 'Bratajit Das',
+    githubLink: 'https://github.com/Bratajit-03'
+  },
   {
     artName: 'Pong Arcade',
     pageLink: './Art/khrisdaniels/pong.html',
@@ -1879,11 +1886,11 @@ let cards = [
     githubLink: 'https://github.com/Mel-TB'
   },
   {
-    artName: 'Bouncing Ball Animation',
-    pageLink: './Art/Bratajit-03/index.html',
-    imageLink: './Art/Bratajit-03/Animation.gif',
-    author: 'Bratajit Das',
-    githubLink: 'https://github.com/Bratajit-03'
+    artName: 'Blue Square Spinning Animation',
+    pageLink: './Art/JohnRTitor/index.html',
+    imageLink: './Art/JohnRTitor/Sample.gif',
+    author: 'JohnRTitor',
+    githubLink: 'https://github.com/JohnRTitor'
   }
 ];
 
