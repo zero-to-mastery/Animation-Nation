@@ -60,6 +60,13 @@ let cards = [
     },
 
   {
+    artName: 'Text-Animation',
+    pageLink: './Art/Vinay_Adatiya/textanimation.html',
+    imageLink: './Art/Vinay_Adatiya/textanimation.gif',
+    author: 'Vinay Adatiya',
+    githubLink: 'https://github.com/Vinay94278'
+  },
+  {
     artName: 'rotating-cube-animation',
     pageLink: './Art/whitebeard10/index.html',
     imageLink: './Art/whitebeard10/animation.gif',
