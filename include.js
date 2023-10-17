@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/niranjan-kurhade'
   },
   {
+    artName: 'Bird Walk',
+    pageLink: './Art/pypimo/index.html',
+    imageLink: './Art/pypimo/bird-walk.gif',
+    author: 'pypimo',
+    githubLink: 'https://github.com/pypimo'
+  },
+  {
     artName: "Newton's Cradle Experiment",
     pageLink: './Art/debajoti/index.html',
     imageLink: './Art/debajoti/ezgif.com-crop.gif',
