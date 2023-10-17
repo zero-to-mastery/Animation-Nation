@@ -1771,6 +1771,13 @@ let cards = [
     imageLink: './Art/vivek/GlowingStars.gif',
     author: 'vivekBoii',
     githubLink: 'https://github.com/vivekBoii'
+  },
+  {
+    artName: 'Heart with Balls',
+    pageLink: './Art/shubham-vartak/heartballs.html',
+    imageLink: './Art/shubham-vartak/Heart with running balls.gif',
+    author: 'Shubham Vartak',
+    githubLink: 'https://github.com/shubham-vartak'
   }
 ];
 
