@@ -8,6 +8,13 @@ let cards = [
     githubLink: 'https://github.com/niranjan-kurhade'
   },
   {
+    artName: 'Cubic Circle Animation',
+    pageLink: './Art/88Abhi/index.html',
+    imageLink: './Art/88Abhi/cubeAnimation.png',
+    author: 'Abhishek',
+    githubLink: 'https://github.com/88Abhi'
+  },
+  {
     artName: 'Bird Walk',
     pageLink: './Art/pypimo/index.html',
     imageLink: './Art/pypimo/bird-walk.gif',
