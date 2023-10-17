@@ -1937,6 +1937,13 @@ let cards = [
     author: 'Ankoor Gorai',
     githubLink: 'https://github.com/ankoorgorai'
   },
+  {
+    artName: 'Three Animate',
+    pageLink: './Art/VishalKumar786/CameraSwitch.html',
+    imageLink: './Art/VishalKumar786/CameraSwitch.gif',
+    author: 'Vishal Kumar',
+    githubLink: 'https://github.com/vkumar786'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
