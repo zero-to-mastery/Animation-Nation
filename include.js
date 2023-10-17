@@ -1,4 +1,5 @@
 let cards = [
+  
   {
     artName: 'Indian Flag Animation',
     pageLink: './Art/niranjan-kurhade/indianflag.html',
@@ -7,11 +8,26 @@ let cards = [
     githubLink: 'https://github.com/niranjan-kurhade'
   },
   {
+    artName: 'Bird Walk',
+    pageLink: './Art/pypimo/index.html',
+    imageLink: './Art/pypimo/bird-walk.gif',
+    author: 'pypimo',
+    githubLink: 'https://github.com/pypimo'
+  },
+  {
     artName: "Newton's Cradle Experiment",
     pageLink: './Art/debajoti/index.html',
     imageLink: './Art/debajoti/ezgif.com-crop.gif',
     author: 'Debajoti',
     githubLink: 'https://github.com/debajoti'
+  },
+  {
+    artName: "Bouncing Ball ",
+    pageLink: './Art/rajneesh2322/index.html',
+    imageLink: './Art/rajneesh2322/bouncingball.gif',
+    author: 'Rajneesh2322',
+    githubLink: 'https://github.com/Rajneesh2223'
+
   },
   {
     artName: 'Cat Eye Flipping Animation',
@@ -33,6 +49,22 @@ let cards = [
     imageLink: './Art/Ankit/Preview.png',
     author: 'Ankit',
     githubLink: 'https://github.com/ankit0049'
+  },
+
+    {
+      artName: 'BouncingBall', 
+      pageLink: './Art/Abhishek-090/BouncingBall.html', 
+      imageLink: './Art/Ahishek-090/BouncingBall.gif', 
+      author: 'Abhishek-090', 
+      githubLink: 'https://github.com/Abhishek-090' 
+    },
+
+  {
+    artName: 'Text-Animation',
+    pageLink: './Art/Vinay_Adatiya/textanimation.html',
+    imageLink: './Art/Vinay_Adatiya/textanimation.gif',
+    author: 'Vinay Adatiya',
+    githubLink: 'https://github.com/Vinay94278'
   },
   {
     artName: 'rotating-cube-animation',
@@ -1871,12 +1903,33 @@ let cards = [
     author: 'YadlaMani',
     githubLink: 'https://github.com/YadlaMani'
   },
+  { 
+    artName: 'Bouncing Ball Animation',
+    pageLink: './Art/Bratajit-03/index.html',
+    imageLink: './Art/Bratajit-03/Animation.gif',
+    author: 'Bratajit Das',
+    githubLink: 'https://github.com/Bratajit-03'
+  },
   {
     artName: 'Pong Arcade',
     pageLink: './Art/khrisdaniels/pong.html',
     imageLink: './Art/khrisdaniels/pong.gif',
     author: 'KD',
     githubLink: 'https://github.com/khrisdaniels'
+  },
+  {
+     artName: 'Mail Box Animation', 
+    pageLink: './Art/Avtech04/index.html',
+    imageLink: './Art/Avtech04/demo.gif', 
+    author: 'Avtech04', 
+    githubLink: 'https://github.com/Avtech04' 
+  },
+  {
+    artName: 'ZTM Vinyl',
+    pageLink: './Art/GrizzlyWebDev/index.html',
+    imageLink: './Art/GrizzlyWebDev/images/ztmVinyl',
+    author: 'KD',
+    githubLink: 'https://github.com/GrizzlyWebDev'
   },
   {
     artName: 'Ezio Auditore Animation',
@@ -1891,7 +1944,29 @@ let cards = [
     imageLink: './Art/JohnRTitor/Sample.gif',
     author: 'JohnRTitor',
     githubLink: 'https://github.com/JohnRTitor'
-  }
+  },
+  {
+    artName: 'Happy Hacktoberfest 2023',
+    pageLink: './Art/pleomorph/index.html',
+    imageLink: './Art/pleomorph/preview-pleomorph.gif',
+    author: 'pleomorph',
+    githubLink: 'https://github.com/pleomorph'
+  },
+  {
+    artName: 'Three Animate',
+    pageLink: './Art/ankoorgarai/index.html',
+    imageLink: './Art/ankoorgarai/threeanimate.gif',
+    author: 'Ankoor Gorai',
+    githubLink: 'https://github.com/ankoorgorai'
+  },
+  {
+    artName: 'Birthday Card Animation',
+    pageLink: './Art/Varad0014/index.html', 
+    imageLink: './Art/Varad0014/Birthday-Card-Animation.gif', 
+    author: 'Varad', 
+    githubLink: 'https://github.com/Varad0014' 
+
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -1906,14 +1981,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
