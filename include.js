@@ -1871,6 +1871,13 @@ let cards = [
     author: 'YadlaMani',
     githubLink: 'https://github.com/YadlaMani'
   },
+  { 
+    artName: 'Bouncing Ball Animation',
+    pageLink: './Art/Bratajit-03/index.html',
+    imageLink: './Art/Bratajit-03/Animation.gif',
+    author: 'Bratajit Das',
+    githubLink: 'https://github.com/Bratajit-03'
+  },
   {
     artName: 'Pong Arcade',
     pageLink: './Art/khrisdaniels/pong.html',
