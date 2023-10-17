@@ -1918,6 +1918,7 @@ let cards = [
     githubLink: 'https://github.com/Mel-TB'
   },
   {
+<<<<<<< Updated upstream
     artName: 'Blue Square Spinning Animation',
     pageLink: './Art/JohnRTitor/index.html',
     imageLink: './Art/JohnRTitor/Sample.gif',
@@ -1944,6 +1945,13 @@ let cards = [
     imageLink: './Art/Varad0014/Birthday-Card-Animation.gif', 
     author: 'Varad', 
     githubLink: 'https://github.com/Varad0014' 
+=======
+    artName: 'Dark Boxx Animation',
+    pageLink: './Art/Avinav_Chatterjee/index.html',
+    imageLink: './Art/Avinav_Chatterjee/darkboxanimation.gif',
+    author: 'Avinav Chatterjee',
+    githubLink: 'https://github.com/AvinavCHATTERJEE2103028'
+>>>>>>> Stashed changes
   },
 ];
 
