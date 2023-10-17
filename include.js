@@ -5,6 +5,13 @@ let cards = [
     imageLink: './Art/Joy/triangle.gif',
     author: 'Joy',
     githubLink: 'https://github.com/royranger'
+  },
+ {
+    artName: 'AnimaNation',
+    pageLink: './Art/AnimaNation/index.html',
+    imageLink: './Art/AnimaNation/Cube.gif',
+    author: 'Pavlo',
+    githubLink: 'https://github.com/bingo9813'
   }
 ];
 
