@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/niranjan-kurhade'
   },
   {
+    artName: 'Form field animation', 
+    pageLink: './Art/massdx/index.html', 
+    imageLink: './Art/massdx/form-animation.gif', 
+    author: 'ODANOU Massahoud', 
+    githubLink: 'https://github.com/massdx' 
+  },
+  {
     artName: 'Cat Eye Flipping Animation',
     pageLink: './Art/Ankit0049/index.html',
     imageLink: './Art/Ankit0049/Cat.png',
