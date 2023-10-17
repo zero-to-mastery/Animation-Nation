@@ -2559,8 +2559,14 @@ let cards = [
     imageLink: '.Art/amandeep-singh-parihar/Screenshot_2023-10-18_141651.png',
     author: 'amandeepsinghparihar',
     githubLink: 'https://github.com/amandeep-singh-parihar'
-  }
-  
+  },
+  {
+    artName: '90 Degree Container with Shifting Base',
+    pageLink: './Art/norib016/art.html',
+    imageLink: './Art/norib016/art.gif',
+    author: 'Sree Bhanu Nori',
+    githubLink: 'https://github.com/norib016'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
