@@ -1,4 +1,5 @@
 let cards = [
+  
   {
     artName: 'Indian Flag Animation',
     pageLink: './Art/niranjan-kurhade/indianflag.html',
@@ -1903,6 +1904,13 @@ let cards = [
     githubLink: 'https://github.com/khrisdaniels'
   },
   {
+     artName: 'Mail Box Animation', 
+    pageLink: './Art/Avtech04/index.html',
+    imageLink: './Art/Avtech04/demo.gif', 
+    author: 'Avtech04', 
+    githubLink: 'https://github.com/Avtech04' 
+  },
+  {
     artName: 'ZTM Vinyl',
     pageLink: './Art/GrizzlyWebDev/index.html',
     imageLink: './Art/GrizzlyWebDev/images/ztmVinyl',
@@ -1938,11 +1946,12 @@ let cards = [
     githubLink: 'https://github.com/ankoorgorai'
   },
   {
-    artName: 'Mail Box Animation', 
-    pageLink: './Art/Avtech04/index.html',
-    imageLink: './Art/Avtech04/demo.gif', 
-    author: 'Avtech04', 
-    githubLink: 'https://github.com/Avtech04' 
+    artName: 'Birthday Card Animation',
+    pageLink: './Art/Varad0014/index.html', 
+    imageLink: './Art/Varad0014/Birthday-Card-Animation.gif', 
+    author: 'Varad', 
+    githubLink: 'https://github.com/Varad0014' 
+
   },
 ];
 
