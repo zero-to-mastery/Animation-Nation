@@ -14,7 +14,7 @@ let cards = [
     githubLink: 'https://github.com/debajoti'
   },
   {
-    artName: "Bouncing Ball",
+    artName: "Bouncing Ball ",
     pageLink: './Art/rajneesh2322/index.html',
     imageLink: './Art/rajneesh2322/bouncingball.gif',
     author: 'Rajneesh2322',
