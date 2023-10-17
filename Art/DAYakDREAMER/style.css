@@ -15,10 +15,10 @@ body {
   height: 100px;
   width: 200%;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 2;
+  left: -1;
   overflow: hidden;
-  rotate: -45deg;
+  rotate: -40deg;
   border-radius: 100px;
 }
 
