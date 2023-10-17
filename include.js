@@ -2,7 +2,7 @@ let cards = [
   {
     artName: 'Robot Image Animation',
     pageLink: './Art/aniketmdinde/index.html',
-    imageLink: './Art/aniketmdinde/aniket.gif',
+    imageLink: './Art/aniketmdinde/robot.gif',
     author: 'Aniket',
     githubLink: 'https://github.com/aniketmdinde'
   },
