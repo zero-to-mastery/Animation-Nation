@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/niranjan-kurhade'
   },
   {
+    artName: 'Bird Walk',
+    pageLink: './Art/pypimo/index.html',
+    imageLink: './Art/pypimo/bird-walk.gif',
+    author: 'pypimo',
+    githubLink: 'https://github.com/pypimo'
+  },
+  {
     artName: "Newton's Cradle Experiment",
     pageLink: './Art/debajoti/index.html',
     imageLink: './Art/debajoti/ezgif.com-crop.gif',
@@ -42,6 +49,15 @@ let cards = [
     author: 'Ankit',
     githubLink: 'https://github.com/ankit0049'
   },
+
+    {
+      artName: 'BouncingBall', 
+      pageLink: './Art/Abhishek-090/BouncingBall.html', 
+      imageLink: './Art/Ahishek-090/BouncingBall.gif', 
+      author: 'Abhishek-090', 
+      githubLink: 'https://github.com/Abhishek-090' 
+    },
+
   {
     artName: 'rotating-cube-animation',
     pageLink: './Art/whitebeard10/index.html',
@@ -1872,6 +1888,13 @@ let cards = [
     author: 'YadlaMani',
     githubLink: 'https://github.com/YadlaMani'
   },
+  { 
+    artName: 'Bouncing Ball Animation',
+    pageLink: './Art/Bratajit-03/index.html',
+    imageLink: './Art/Bratajit-03/Animation.gif',
+    author: 'Bratajit Das',
+    githubLink: 'https://github.com/Bratajit-03'
+  },
   {
     artName: 'Pong Arcade',
     pageLink: './Art/khrisdaniels/pong.html',
@@ -1880,12 +1903,33 @@ let cards = [
     githubLink: 'https://github.com/khrisdaniels'
   },
   {
+    artName: 'ZTM Vinyl',
+    pageLink: './Art/GrizzlyWebDev/index.html',
+    imageLink: './Art/GrizzlyWebDev/images/ztmVinyl',
+    author: 'KD',
+    githubLink: 'https://github.com/GrizzlyWebDev'
+  },
+  {
     artName: 'Ezio Auditore Animation',
     pageLink: './Art/Mel-TB/ezioAuditore.html',
     imageLink: './Art/Mel-TB/ezio_animation.gif',
     author: 'Melinda',
     githubLink: 'https://github.com/Mel-TB'
-  }
+  },
+  {
+    artName: 'Blue Square Spinning Animation',
+    pageLink: './Art/JohnRTitor/index.html',
+    imageLink: './Art/JohnRTitor/Sample.gif',
+    author: 'JohnRTitor',
+    githubLink: 'https://github.com/JohnRTitor'
+  },
+  {
+    artName: 'Happy Hacktoberfest 2023',
+    pageLink: './Art/pleomorph/index.html',
+    imageLink: './Art/pleomorph/preview-pleomorph.gif',
+    author: 'pleomorph',
+    githubLink: 'https://github.com/pleomorph'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -1900,14 +1944,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
