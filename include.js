@@ -1911,6 +1911,13 @@ let cards = [
     githubLink: 'https://github.com/khrisdaniels'
   },
   {
+     artName: 'Mail Box Animation', 
+    pageLink: './Art/Avtech04/index.html',
+    imageLink: './Art/Avtech04/demo.gif', 
+    author: 'Avtech04', 
+    githubLink: 'https://github.com/Avtech04' 
+  },
+  {
     artName: 'ZTM Vinyl',
     pageLink: './Art/GrizzlyWebDev/index.html',
     imageLink: './Art/GrizzlyWebDev/images/ztmVinyl',
@@ -1951,6 +1958,7 @@ let cards = [
     imageLink: './Art/Varad0014/Birthday-Card-Animation.gif', 
     author: 'Varad', 
     githubLink: 'https://github.com/Varad0014' 
+
   },
 ];
 
