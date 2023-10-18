@@ -1966,11 +1966,18 @@ let cards = [
   },
   {
     artName: 'Birthday Card Animation',
-    pageLink: './Art/Varad0014/index.html',
-    imageLink: './Art/Varad0014/Birthday-Card-Animation.gif',
-    author: 'Varad',
-    githubLink: 'https://github.com/Varad0014'
-  }
+    pageLink: './Art/Varad0014/index.html', 
+    imageLink: './Art/Varad0014/Birthday-Card-Animation.gif', 
+    author: 'Varad', 
+    githubLink: 'https://github.com/Varad0014' 
+  },
+  {
+    artName: 'Button',
+    pageLink: './Art/ishanchaskar/index.html', 
+    imageLink: './Art/ishanchaskar/Tab-1697562688244.gif', 
+    author: 'Ishan', 
+    githubLink: 'https://github.com/ishanchaskar' 
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
