@@ -32,8 +32,7 @@ body {
   width: 80px;
   height: 100px;
   opacity: 1;
-  box-shadow:
-    -20px 0 0 0 color-mix(in srgb, var(--pumpkin-colour) 80%, gray),
+  box-shadow: -20px 0 0 0 color-mix(in srgb, var(--pumpkin-colour) 80%, gray),
     -40px 0 0 0 color-mix(in srgb, var(--pumpkin-colour) 70%, gray),
     -42px 0 20px 0 color-mix(in srgb, var(--pumpkin-colour) 80%, white),
     20px 0 0 0 color-mix(in srgb, var(--pumpkin-colour) 80%, gray),

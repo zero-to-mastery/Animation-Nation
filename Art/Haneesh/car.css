@@ -62,9 +62,7 @@ html {
     #527c88 60% 76%,
     #6d929a 80% 100%
   );
-  box-shadow:
-    -3px 1px 1px 2px #daeef5 inset,
-    -7px 3px 4px 2px #b6d4de inset;
+  box-shadow: -3px 1px 1px 2px #daeef5 inset, -7px 3px 4px 2px #b6d4de inset;
   overflow: hidden;
 }
 .base .whole .bug__body__b__back .engineroom {
@@ -146,9 +144,7 @@ html {
     #527c88 35% 62%,
     #6d929a 68% 100%
   );
-  box-shadow:
-    0px 1px 2px 2px #daeef5 inset,
-    0px 4px 5px 3px #b6d4de inset;
+  box-shadow: 0px 1px 2px 2px #daeef5 inset, 0px 4px 5px 3px #b6d4de inset;
   overflow: hidden;
 }
 .base .whole .bug__body__f .bug__body__hood {
@@ -579,9 +575,7 @@ html {
   height: 50%;
   background: #bac7cd;
   border-radius: 100%;
-  box-shadow:
-    0px -1px 1px 0px #010101 inset,
-    0px 1px 1px 0px #bac7cd inset;
+  box-shadow: 0px -1px 1px 0px #010101 inset, 0px 1px 1px 0px #bac7cd inset;
 }
 .base .whole .bug .bug__step {
   position: absolute;
@@ -689,9 +683,7 @@ html {
   height: 40%;
   border-top: calc(1 * var(--unit)) #b6d4de solid;
   border-radius: 100% 75% 75% 100% / 100% 75% 75% 100%;
-  box-shadow:
-    0px 1px 1px 1px #b6d4de inset,
-    0px 2px 2px 1px #b6d4de inset;
+  box-shadow: 0px 1px 1px 1px #b6d4de inset, 0px 2px 2px 1px #b6d4de inset;
 }
 .base .whole .bug .bug__door__line__back {
   position: absolute;
@@ -710,9 +702,7 @@ html {
   height: 8%;
   background: #7d8987;
   border-radius: 0% 10% 10% 30% / 0% 9% 15% 99%;
-  box-shadow:
-    0px 3px 3px 1px #daeef5 inset,
-    -4px 0px 1px 0px #2f494f;
+  box-shadow: 0px 3px 3px 1px #daeef5 inset, -4px 0px 1px 0px #2f494f;
   overflow: hidden;
 }
 .base .whole .bug .bug__bumper__back::after {
@@ -732,9 +722,7 @@ html {
   height: 8%;
   background: #7d8987;
   border-radius: 0% 10% 10% 30% / 0% 9% 15% 99%;
-  box-shadow:
-    0px 3px 3px 1px #daeef5 inset,
-    -4px 0px 1px 0px #2f494f;
+  box-shadow: 0px 3px 3px 1px #daeef5 inset, -4px 0px 1px 0px #2f494f;
   transform: rotateY(180deg);
   overflow: hidden;
 }

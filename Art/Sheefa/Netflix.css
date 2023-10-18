@@ -21,8 +21,7 @@ body {
 .netflix-logo div {
   opacity: 0;
   transform: translateY(20px) scale(0.8);
-  animation:
-    fadeInUp 1s cubic-bezier(0.39, 0.575, 0.565, 1) forwards,
+  animation: fadeInUp 1s cubic-bezier(0.39, 0.575, 0.565, 1) forwards,
     scaleOut 2s 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite;
 }
 
