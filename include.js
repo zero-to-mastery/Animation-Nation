@@ -1974,6 +1974,14 @@ let cards = [
     githubLink: 'https://github.com/Varad0014' 
 
   },
+  {
+    artName: 'Dark Box Animation',
+    pageLink: './Art/AvinavChatterjee/index.html', 
+    imageLink: './Art/AvinavChatterjee/darkboxanimation.gif', 
+    author: 'Avinav Chatterjee', 
+    githubLink: 'https://github.com/AvinavCHATTERJEE2103028' 
+
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
