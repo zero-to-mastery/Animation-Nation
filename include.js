@@ -1972,7 +1972,13 @@ let cards = [
     imageLink: './Art/Varad0014/Birthday-Card-Animation.gif', 
     author: 'Varad', 
     githubLink: 'https://github.com/Varad0014' 
-
+  },
+  {
+    artName: 'Kinmatic Animation',
+    pageLink: './Art/VishalKumar786/KinmaticAnimation.html', 
+    imageLink: './Art/VishalKumar786/KinmaticAnimation.gif', 
+    author: 'Vishal Kumar', 
+    githubLink: 'https://github.com/vkumar786' 
   },
 ];
 
