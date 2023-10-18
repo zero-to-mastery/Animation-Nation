@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #282c35;
+    overflow: hidden;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: relative;
+    animation: rotateAndPulse 3s linear infinite, colorChange 5s ease-in-out infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes rotateAndPulse {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+    50% {
+      transform: scale(1.1) rotate(180deg);
+    }
+    100% {
+      transform: scale(1) rotate(360deg);
+    }
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background-color: #3498db;
+    }
+    25% {
+      background-color: #e74c3c;
+    }
+    50% {
+      background-color: #2ecc71;
+    }
+    75% {
+      background-color: #f1c40f;
+    }
+    100% {
+      background-color: #3498db;
+    }
+  }
+  
