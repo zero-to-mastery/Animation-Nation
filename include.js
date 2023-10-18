@@ -1945,6 +1945,13 @@ let cards = [
     author: 'Varad', 
     githubLink: 'https://github.com/Varad0014' 
   },
+  {
+    artName: 'Finger-Tap',
+    pageLink: './Art/jac0313/index.html', 
+    imageLink: './Art/jac0313/Finger-Tap.gif', 
+    author: 'JAC', 
+    githubLink: 'https://github.com/jac0313' 
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
