@@ -2554,9 +2554,9 @@ let cards = [
     githubLink: 'https://github.com/Vivek-GuptaXCode'
   }
   {
-    artName: 'glowing_circle_animation',
-    pageLink: './Art/<amandeep-singh-parihar>/glowing_circle_animation.html',
-    imageLink: './Art/<amandeep-singh-parihar>/glowing_circle_animation.gif',
+    artName: 'loader',
+    pageLink: './Art/<amandeep-singh-parihar>/loader.html',
+    imageLink: './Art/<amandeep-singh-parihar>/loader.gif',
     author: 'amandeepsinghparihar',
     githubLink: 'https://github.com/<amandeep-singh-parihar>'
   }
