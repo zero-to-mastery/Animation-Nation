@@ -1,0 +1,390 @@
+
+body{
+    background:black;
+    color: #fff;
+  }
+
+.sun {
+
+  width:59px;
+  height:59px;
+  border:2px solid #FCEDAE;
+  background: 
+                linear-gradient(90deg, rgb(253, 159, 18), rgba(255,0,0,0) 100%),
+                linear-gradient(180deg, rgb(252, 227, 58), rgba(0,255,0,0) 100%),
+                linear-gradient(320deg, rgb(251, 157, 4), rgba(73, 210, 231, 0) 100%);
+    
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%;
+
+
+}
+  
+  .main1{
+    width:100px;
+    height:100px;
+    border:1px solid #cccccc3b;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+
+  .main2{
+    width:200px;
+    height:200px;
+    border:1px solid #cccccc3b;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+
+  .main3{
+    width:300px;
+    height:300px;
+    border:1px solid #cccccc3b;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+
+  .main4{
+    width:400px;
+    height:400px;
+    border:1px solid #cccccc3b;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+
+  .main5{
+    width:500px;
+    height:500px;
+    border:1px solid #cccccc3b ;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+
+  .main6{
+    width:600px;
+    height:600px;
+    border:1px solid #cccccc3b ;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+
+  .main7{
+    width:700px;
+    height:700px;
+    border:1px solid #cccccc3b ;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+
+  .main8{
+    width:800px;
+    height:800px;
+    border:1px solid #cccccc3b ;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+
+  .main9{
+    width:900px;
+    height:900px;
+    border:1px solid #cccccc3b ;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+ 
+
+.circle1{
+    width:30px;
+    height:30px;
+    background: 
+                linear-gradient(90deg, rgb(219, 162, 106), rgba(255,0,0,0) 100%),
+                linear-gradient(180deg, rgb(129, 84, 36)    , rgba(0,255,0,0) 100%),
+                linear-gradient(320deg, rgb(103, 60, 4), rgba(73, 210, 231, 0) 100%);
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle1 3s linear infinite;
+  }   
+
+  .circle2{
+    width:40px;
+    height:40px;
+    background: 
+                linear-gradient(90deg, rgb(183, 82, 16), rgba(255,0,0,0) 100%),
+                linear-gradient(180deg, rgb(185, 80, 11), rgba(0,255,0,0) 100%),
+                linear-gradient(320deg, rgb(135, 52, 0), rgba(73, 210, 231, 0) 100%);
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle2 4s linear infinite;
+  }  
+  
+  .circle3{
+    width:30px;
+    height:30px;
+    background: 
+                linear-gradient(90deg, rgb(73, 210, 231), rgba(255,0,0,0) 100%),
+                linear-gradient(180deg, rgb(45, 181, 3), rgba(0,255,0,0) 100%),
+                linear-gradient(320deg, rgb(3, 208, 239), rgba(73, 210, 231, 0) 100%);
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle3 5s linear infinite;
+  }   
+  
+  .circle4{
+    width:30px;
+    height:30px;
+    background: 
+                linear-gradient(90deg, rgb(170, 37, 27), rgba(255,0,0,0) 100%),
+                linear-gradient(180deg, rgb(240, 119, 23), rgba(0,255,0,0) 100%),
+                linear-gradient(320deg, rgb(150, 31, 10), rgba(73, 210, 231, 0) 100%);
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle4 6s linear infinite;
+  }   
+
+  .circle5{
+    width:65px; 
+    height: 65px;
+    background: 
+                linear-gradient(90deg, rgb(228, 191, 135), rgba(255,0,0,0) 100%),
+                linear-gradient(180deg, rgb(234, 141, 72), rgba(0,255,0,0) 100%),
+                linear-gradient(320deg, rgb(175, 121, 75), rgba(73, 210, 231, 0) 100%);
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle5 7s linear infinite;
+  }   
+
+  .circle6{
+    width:50px;
+    height:50px;
+    background: 
+                linear-gradient(90deg, rgb(228, 191, 135), rgba(255,0,0,0) 100%),
+                linear-gradient(180deg, rgb(234, 141, 72), rgba(0,255,0,0) 100%),
+                linear-gradient(320deg, rgb(175, 121, 75), rgba(73, 210, 231, 0) 100%);
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle6 8s linear infinite;
+  }  
+
+  .circle7{
+    width:30px;
+    height:30px;
+    background: 
+                linear-gradient(90deg, rgb(20, 141, 150), rgba(255,0,0,0) 100%),
+                linear-gradient(180deg, rgb(145, 216, 213), rgba(0,255,0,0) 100%),
+                linear-gradient(320deg, rgb(117, 201, 202)  , rgba(73, 210, 231, 0) 100%);
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle7 9s linear infinite;
+  }  
+
+  .circle8{
+    width:30px;
+    height:30px;
+    background: 
+                linear-gradient(90deg, rgb(31, 127, 208), rgba(255,0,0,0) 100%),
+                linear-gradient(180deg, rgb(145, 206, 237), rgba(0,255,0,0) 100%),
+                linear-gradient(320deg, rgb(145, 206, 237), rgba(73, 210, 231, 0) 100%);
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle8 10s linear infinite;
+  }  
+
+  .circle9{
+    width:30px;
+    height:30px;
+    background: 
+                linear-gradient(90deg, rgb(193, 190, 183), rgba(255,0,0,0) 100%),
+                linear-gradient(180deg, rgb(217, 218, 210), rgba(0,255,0,0) 100%),
+                linear-gradient(320deg, rgb(164, 160, 160), rgba(73, 210, 231, 0) 100%);
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle9 11s linear infinite;
+  }  
+
+
+
+
+
+
+@keyframes circle1{
+    0%{
+      transform:rotate(0deg)
+                translate(-50px)
+                rotate(0deg);
+    
+    }
+    100%{
+    
+      transform:rotate(360deg)
+                translate(-50px)
+                rotate(-360deg);
+    }
+  }
+
+
+  @keyframes circle2{
+    0%{
+      transform:rotate(0deg)
+                translate(-100px)
+                rotate(0deg);
+    
+    }
+
+    100%{
+      transform:rotate(360deg)
+                translate(-100px)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes circle3{
+    0%{
+      transform:rotate(0deg)
+                translate(-150px)
+                rotate(0deg);
+    
+    }
+
+    100%{
+        
+      transform:rotate(360deg)
+                translate(-150px)
+                rotate(-360deg);
+    }
+  }
+
+
+  @keyframes circle4{
+    0%{
+      transform:rotate(0deg)
+                translate(-200px)
+                rotate(0deg);
+    }
+  
+    100%{
+      transform:rotate(360deg)
+                translate(-200px)
+                rotate(-360deg);
+    }
+  }
+
+
+  @keyframes circle5{
+    0%{
+      transform:rotate(0deg)
+                translate(-250px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-250px)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes circle6{
+    0%{
+      transform:rotate(0deg)
+                translate(-300px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-300px)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes circle7{
+    0%{
+      transform:rotate(0deg)
+                translate(-350px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-350px)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes circle8{
+    0%{
+      transform:rotate(0deg)
+                translate(-400px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-400px)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes circle9{
+    0%{
+      transform:rotate(0deg)
+                translate(-450px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-450px)
+                rotate(-360deg);
+    }
+  }
+
+
+
