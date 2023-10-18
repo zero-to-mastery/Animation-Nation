@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../ReneDev01/style.css">
+    <title>Chargement Circulaire Multicolore</title>
+</head>
+<body>
+    <div class="multicolor-loader"></div>
+
+    <script>
+        // Pour masquer le chargement après un certain temps (par exemple, 5 secondes)
+        setTimeout(function() {
+           /*  var loader = document.querySelector('.loader');
+            loader.style.display = 'none'; */
+            var multicolorLoader = document.querySelector('.multicolor-loader');
+            multicolorLoader.style.display = 'none';
+        }, 40000); // 5000 millisecondes (5 secondes)
+    </script>
+</body>
+</html>
+

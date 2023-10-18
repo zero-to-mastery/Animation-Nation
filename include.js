@@ -2594,6 +2594,13 @@ let cards = [
     author: 'Kalkeshwar',
     githubLink: 'https://github.com/kalkeshwar'
   },
+  {
+    artName: 'Circular multi-color Disk',
+    pageLink: './Art/ReneDev01/index.html', 
+    imageLink: './Art/ReneDev01/Disk-2023-10-18-09-38-09', 
+    author: 'ReneAonbo', 
+    githubLink: 'https://github.com/ReneDev01' 
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
