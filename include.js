@@ -1978,6 +1978,13 @@ let cards = [
     author: 'Ishan', 
     githubLink: 'https://github.com/ishanchaskar' 
   },
+  {
+    artName: 'Circle',
+    pageLink: './Art/rishiiiidha/index.html',
+    imageLink: './Art/rishiiiidha/animation.gif', 
+    author: 'Rishidha', 
+    githubLink: 'https://github.com/rishiiiidha'
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
