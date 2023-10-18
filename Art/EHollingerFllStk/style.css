@@ -112,4 +112,8 @@ h1 {
 #cube .bottom {
   -webkit-transform: rotateX(-90deg) translateZ(100px);
   -moz-transform: rotateX(-90deg) translateZ(100px);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b1a0c57221bce1097298011263e19bae7d5e29f8

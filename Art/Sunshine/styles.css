@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Zen+Loop&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Zen Loop', sans-serif;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  animation: changeBackground 10s linear infinite;
+}
+
+@keyframes changeBackground {
+  0% {
+    background-color: #f7d9c4;
+  }
+  20% {
+    background-color: #c9e4de;
+  }
+  40% {
+    background-color: #c6def1;
+  }
+  60% {
+    background-color: #dbcdf0;
+  }
+  80% {
+    background-color: #f2c6de;
+  }
+  100% {
+    background-color: #f7d9c4;
+  }
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  font-size: 5vw; /* Adjust font size as needed */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: appear 15s linear infinite;
+}
+
+.one-char {
+  margin-left: 1rem;
+  color: grey;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

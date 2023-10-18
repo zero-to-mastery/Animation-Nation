@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(83, 249, 255);
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 100px;
+}
+
+.hi {
+  visibility: visible;
+  opacity: 1;
+  animation: say-hi 4s ease infinite;
+}
+
+@keyframes say-hi {
+  50% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.bye {
+  visibility: hidden;
+  opacity: 0;
+  animation: say-bye 4s ease infinite;
+}
+
+@keyframes say-bye {
+  50% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.text-circle {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: -5px 8px 20px #5d5d5d;
+}
+
+.text-circle--small {
+  width: 19px;
+  height: 18px;
+  top: -24px;
+  right: -51px;
+}
+
+.text-circle--large {
+  width: 35px;
+  height: 30px;
+  top: -56px;
+  right: -80px;
+}
+
+.greeting {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  top: -157px;
+  right: -204px;
+  width: 155px;
+  height: 100px;
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+  font-family: cursive;
+  box-shadow: -5px 8px 20px #5d5d5d;
+}
+
+.sunflower {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.flower {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 40%;
+  background-color: rgb(184, 76, 76);
+}
+
+.eyebrows {
+  margin-top: 25px;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+
+.eyebrow {
+  width: 25px;
+  height: 15px;
+  border-top: 4px solid black;
+  border-radius: 50%;
+}
+
+.eyes {
+  position: absolute;
+  top: 40px;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+
+.eye {
+  width: 15px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.pupil {
+  width: 8px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.smile {
+  position: absolute;
+  top: 75px;
+  width: 50px;
+  height: 30px;
+  border-top: 4px solid black;
+  border-radius: 50%;
+  transform: rotate(180deg);
+  animation: sadsmile 4s ease infinite;
+}
+
+@keyframes sadsmile {
+  50% {
+    border-radius: 15%;
+  }
+}
+
+.cheeks {
+  position: absolute;
+  top: 64%;
+  display: flex;
+  width: 69%;
+  justify-content: space-between;
+}
+
+.blush {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  animation: pale-cheeks 4s ease-in-out infinite;
+  box-shadow: 0 0 13px 13px rgba(255, 69, 171, 0.7);
+}
+
+@keyframes pale-cheeks {
+  50% {
+    box-shadow: none;
+  }
+}
+
+.petal {
+  position: absolute;
+  height: 70px;
+  width: 60px;
+  background: radial-gradient(
+    circle,
+    rgba(217, 245, 138, 1) 44%,
+    rgba(255, 158, 0, 1) 100%
+  );
+  border-radius: 50% 50% 0% 0%;
+  border: 3px solid rgb(196, 144, 66);
+  animation: moving-petals 4s ease infinite;
+}
+
+@keyframes moving-petals {
+  50% {
+    border-radius: 100% 40% 0% 0%;
+  }
+}
+
+.petal-1 {
+  top: -64px;
+  right: 26px;
+  z-index: -10;
+}
+
+.petal-2 {
+  top: -48px;
+  right: -17px;
+  transform: rotate(29deg);
+  z-index: -10;
+}
+
+.petal-3 {
+  top: -12px;
+  right: -43px;
+  transform: rotate(64deg);
+  z-index: -10;
+}
+
+.petal-4 {
+  top: 27px;
+  right: -53px;
+  transform: rotate(87deg);
+  z-index: -11;
+}
+
+.petal-5 {
+  top: 69px;
+  right: -39px;
+  transform: rotate(123deg);
+  z-index: -10;
+}
+
+.petal-6 {
+  top: 103px;
+  right: -9px;
+  transform: rotate(159deg);
+  z-index: -10;
+}
+
+.petal-7 {
+  top: 117px;
+  right: 35px;
+  transform: rotate(180deg);
+  z-index: -10;
+}
+
+.petal-8 {
+  top: 107px;
+  right: 80px;
+  transform: rotate(212deg);
+  z-index: -9;
+}
+
+.petal-9 {
+  top: 76px;
+  right: 121px;
+  transform: rotate(253deg);
+  z-index: -10;
+}
+
+.petal-10 {
+  top: 33px;
+  right: 127px;
+  transform: rotate(272deg);
+  z-index: -10;
+}
+
+.petal-11 {
+  top: -12px;
+  right: 114px;
+  transform: rotate(297deg);
+  z-index: -10;
+}
+
+.petal-12 {
+  top: -52px;
+  right: 81px;
+  transform: rotate(340deg);
+  z-index: -11;
+}
+
+.stem-leaf__container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: -20;
+}
+
+.stem {
+  width: 15px;
+  height: 270px;
+  background-color: green;
+}
+
+.leaf {
+  background: linear-gradient(
+    106deg,
+    rgba(72, 177, 76, 1) 10%,
+    rgba(0, 255, 105, 1) 100%
+  );
+  border: 3px solid green;
+  z-index: -30;
+  width: 70px;
+  height: 90px;
+  position: absolute;
+  bottom: 88px;
+  right: 14px;
+  border-radius: 0% 69% 30% 59%;
+  transform: rotate(319deg);
+  animation: waving-leaf 4s ease infinite;
+}
+
+@keyframes waving-leaf {
+  50% {
+    transform: rotate(251deg);
+  }
+}
+
+.vein {
+  background-color: green;
+  width: 3px;
+  position: absolute;
+}
+
+.vein-main {
+  height: 72px;
+  top: 18px;
+  right: 31px;
+  transform: rotate(336deg);
+}
+
+.vein-1 {
+  height: 25px;
+  top: 52px;
+  right: 13px;
+  transform: rotate(37deg);
+}
+
+.vein-2 {
+  height: 27px;
+  top: 57px;
+  right: 36px;
+  transform: rotate(105deg);
+}
+
+.vein-3 {
+  height: 20px;
+  top: 26px;
+  right: 30px;
+  transform: rotate(29deg);
+}
+
+.vein-4 {
+  height: 20px;
+  top: 32px;
+  right: 45px;
+  transform: rotate(290deg);
+}
