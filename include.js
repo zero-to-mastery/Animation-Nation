@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/88Abhi'
   },
   {
+    artName: 'Shooting stars in the night sky',
+    pageLink: './Art/ahmedalhamad7/stars.html',
+    imageLink: './Art/ahmedalhamad7/static_stars.png',
+    author: 'Ahmed',
+    githubLink: 'https://github.com/ahmedalhamad7'
+  },
+  {
     artName: 'Bird Walk',
     pageLink: './Art/pypimo/index.html',
     imageLink: './Art/pypimo/bird-walk.gif',
