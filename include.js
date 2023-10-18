@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/massdx' 
   },
   {
+    artName: 'Cubic Circle Animation',
+    pageLink: './Art/88Abhi/index.html',
+    imageLink: './Art/88Abhi/cubeAnimation.png',
+    author: 'Abhishek',
+    githubLink: 'https://github.com/88Abhi'
+  },
+  {
     artName: 'Bird Walk',
     pageLink: './Art/pypimo/index.html',
     imageLink: './Art/pypimo/bird-walk.gif',
@@ -28,7 +35,7 @@ let cards = [
     githubLink: 'https://github.com/debajoti'
   },
   {
-    artName: "Bouncing Ball ",
+    artName: 'Bouncing Ball ',
     pageLink: './Art/rajneesh2322/index.html',
     imageLink: './Art/rajneesh2322/bouncingball.gif',
     author: 'Rajneesh2322',
@@ -56,14 +63,21 @@ let cards = [
     githubLink: 'https://github.com/ankit0049'
   },
 
-    {
-      artName: 'BouncingBall', 
-      pageLink: './Art/Abhishek-090/BouncingBall.html', 
-      imageLink: './Art/Ahishek-090/BouncingBall.gif', 
-      author: 'Abhishek-090', 
-      githubLink: 'https://github.com/Abhishek-090' 
-    },
+  {
+    artName: 'BouncingBall',
+    pageLink: './Art/Abhishek-090/BouncingBall.html',
+    imageLink: './Art/Ahishek-090/BouncingBall.gif',
+    author: 'Abhishek-090',
+    githubLink: 'https://github.com/Abhishek-090'
+  },
 
+  {
+    artName: 'Text-Animation',
+    pageLink: './Art/Vinay_Adatiya/textanimation.html',
+    imageLink: './Art/Vinay_Adatiya/textanimation.gif',
+    author: 'Vinay Adatiya',
+    githubLink: 'https://github.com/Vinay94278'
+  },
   {
     artName: 'rotating-cube-animation',
     pageLink: './Art/whitebeard10/index.html',
@@ -106,6 +120,13 @@ let cards = [
     imageLink: './Art/Ajeetraj/cloud.png',
     author: 'Ajeetraj',
     githubLink: 'https://github.com/ajeetraj11'
+  },
+  {
+    artName: 'Abstract Spinning',
+    pageLink: './Art/MaximeGuillemot/index.html',
+    imageLink: './Art/MaximeGuillemot/abstract.gif',
+    author: 'Maxime Guillemot',
+    githubLink: 'https://github.com/MaximeGuillemot'
   },
   {
     artName: 'cube-with-Letter-Animation',
@@ -1894,7 +1915,7 @@ let cards = [
     author: 'YadlaMani',
     githubLink: 'https://github.com/YadlaMani'
   },
-  { 
+  {
     artName: 'Bouncing Ball Animation',
     pageLink: './Art/Bratajit-03/index.html',
     imageLink: './Art/Bratajit-03/Animation.gif',
@@ -1909,10 +1930,17 @@ let cards = [
     githubLink: 'https://github.com/khrisdaniels'
   },
   {
+     artName: 'Mail Box Animation', 
+    pageLink: './Art/Avtech04/index.html',
+    imageLink: './Art/Avtech04/demo.gif', 
+    author: 'Avtech04', 
+    githubLink: 'https://github.com/Avtech04' 
+  },
+  {
     artName: 'ZTM Vinyl',
     pageLink: './Art/GrizzlyWebDev/index.html',
-    imageLink: './Art/GrizzlyWebDev/images/ztmVinyl',
-    author: 'KD',
+    imageLink: './Art/GrizzlyWebDev/images/ztmVinyl.gif',
+    author: 'GrizzlyWebDev',
     githubLink: 'https://github.com/GrizzlyWebDev'
   },
   {
@@ -1950,6 +1978,13 @@ let cards = [
     author: 'Varad', 
     githubLink: 'https://github.com/Varad0014' 
   },
+  {
+    artName: 'Button',
+    pageLink: './Art/ishanchaskar/index.html', 
+    imageLink: './Art/ishanchaskar/Tab-1697562688244.gif', 
+    author: 'Ishan', 
+    githubLink: 'https://github.com/ishanchaskar' 
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -1964,14 +1999,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 });
 
