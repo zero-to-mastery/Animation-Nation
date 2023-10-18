@@ -1978,6 +1978,13 @@ let cards = [
     author: 'Ishan', 
     githubLink: 'https://github.com/ishanchaskar' 
   },
+  {
+    artName: 'Button Fill Animation', 
+    pageLink: './Art/shag1802/index.html', 
+    imageLink: './Art/shag1802/hover_ani.gif',
+    author: 'Shaurya Agrawal', 
+    githubLink: 'https://github.com/shag1802' 
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
