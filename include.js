@@ -1981,7 +1981,7 @@ let cards = [
   {
     artName: 'Heart with Balls',
     pageLink: './Art/shubham-vartak/heartballs.html',
-    imageLink: './Art/shubham-vartak/Heart with running balls.gif',
+    imageLink: './Art/shubham-vartak/Heartballs.gif',
     author: 'Shubham Vartak',
     githubLink: 'https://github.com/shubham-vartak'
   }
