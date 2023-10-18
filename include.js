@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/88Abhi'
   },
   {
+    artName: 'Animatron', // change this to the name of your artwork
+    pageLink: './Art/HaroonAdil6313/index.html', // change this
+    imageLink: './Art/HaroonAdil6313/trance.gif', // change this
+    author: 'Haroon Adil', // use your name
+    githubLink: 'https://github.com/HaroonAdil6313' // change this
+  },
+  {
     artName: 'Bird Walk',
     pageLink: './Art/pypimo/index.html',
     imageLink: './Art/pypimo/bird-walk.gif',
