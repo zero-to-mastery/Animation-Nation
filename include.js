@@ -1,5 +1,4 @@
 let cards = [
-  
   {
     artName: 'Indian Flag Animation',
     pageLink: './Art/niranjan-kurhade/indianflag.html',
@@ -29,12 +28,11 @@ let cards = [
     githubLink: 'https://github.com/debajoti'
   },
   {
-    artName: "Bouncing Ball ",
+    artName: 'Bouncing Ball ',
     pageLink: './Art/rajneesh2322/index.html',
     imageLink: './Art/rajneesh2322/bouncingball.gif',
     author: 'Rajneesh2322',
     githubLink: 'https://github.com/Rajneesh2223'
-
   },
   {
     artName: 'Cat Eye Flipping Animation',
@@ -58,13 +56,13 @@ let cards = [
     githubLink: 'https://github.com/ankit0049'
   },
 
-    {
-      artName: 'BouncingBall', 
-      pageLink: './Art/Abhishek-090/BouncingBall.html', 
-      imageLink: './Art/Ahishek-090/BouncingBall.gif', 
-      author: 'Abhishek-090', 
-      githubLink: 'https://github.com/Abhishek-090' 
-    },
+  {
+    artName: 'BouncingBall',
+    pageLink: './Art/Abhishek-090/BouncingBall.html',
+    imageLink: './Art/Ahishek-090/BouncingBall.gif',
+    author: 'Abhishek-090',
+    githubLink: 'https://github.com/Abhishek-090'
+  },
 
   {
     artName: 'Text-Animation',
@@ -1910,7 +1908,7 @@ let cards = [
     author: 'YadlaMani',
     githubLink: 'https://github.com/YadlaMani'
   },
-  { 
+  {
     artName: 'Bouncing Ball Animation',
     pageLink: './Art/Bratajit-03/index.html',
     imageLink: './Art/Bratajit-03/Animation.gif',
@@ -1934,8 +1932,8 @@ let cards = [
   {
     artName: 'ZTM Vinyl',
     pageLink: './Art/GrizzlyWebDev/index.html',
-    imageLink: './Art/GrizzlyWebDev/images/ztmVinyl',
-    author: 'KD',
+    imageLink: './Art/GrizzlyWebDev/images/ztmVinyl.gif',
+    author: 'GrizzlyWebDev',
     githubLink: 'https://github.com/GrizzlyWebDev'
   },
   {
@@ -1968,12 +1966,11 @@ let cards = [
   },
   {
     artName: 'Birthday Card Animation',
-    pageLink: './Art/Varad0014/index.html', 
-    imageLink: './Art/Varad0014/Birthday-Card-Animation.gif', 
-    author: 'Varad', 
-    githubLink: 'https://github.com/Varad0014' 
-
-  },
+    pageLink: './Art/Varad0014/index.html',
+    imageLink: './Art/Varad0014/Birthday-Card-Animation.gif',
+    author: 'Varad',
+    githubLink: 'https://github.com/Varad0014'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -1988,14 +1985,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 });
 
