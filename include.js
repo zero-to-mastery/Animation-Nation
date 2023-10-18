@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/niranjan-kurhade'
   },
   {
+    artName: 'Cubic Circle Animation',
+    pageLink: './Art/88Abhi/index.html',
+    imageLink: './Art/88Abhi/cubeAnimation.png',
+    author: 'Abhishek',
+    githubLink: 'https://github.com/88Abhi'
+  },
+  {
     artName: 'Bird Walk',
     pageLink: './Art/pypimo/index.html',
     imageLink: './Art/pypimo/bird-walk.gif',
@@ -58,6 +65,13 @@ let cards = [
   },
 
   {
+    artName: 'Text-Animation',
+    pageLink: './Art/Vinay_Adatiya/textanimation.html',
+    imageLink: './Art/Vinay_Adatiya/textanimation.gif',
+    author: 'Vinay Adatiya',
+    githubLink: 'https://github.com/Vinay94278'
+  },
+  {
     artName: 'rotating-cube-animation',
     pageLink: './Art/whitebeard10/index.html',
     imageLink: './Art/whitebeard10/animation.gif',
@@ -99,6 +113,13 @@ let cards = [
     imageLink: './Art/Ajeetraj/cloud.png',
     author: 'Ajeetraj',
     githubLink: 'https://github.com/ajeetraj11'
+  },
+  {
+    artName: 'Abstract Spinning',
+    pageLink: './Art/MaximeGuillemot/index.html',
+    imageLink: './Art/MaximeGuillemot/abstract.gif',
+    author: 'Maxime Guillemot',
+    githubLink: 'https://github.com/MaximeGuillemot'
   },
   {
     artName: 'cube-with-Letter-Animation',
@@ -1900,6 +1921,13 @@ let cards = [
     imageLink: './Art/khrisdaniels/pong.gif',
     author: 'KD',
     githubLink: 'https://github.com/khrisdaniels'
+  },
+  {
+     artName: 'Mail Box Animation', 
+    pageLink: './Art/Avtech04/index.html',
+    imageLink: './Art/Avtech04/demo.gif', 
+    author: 'Avtech04', 
+    githubLink: 'https://github.com/Avtech04' 
   },
   {
     artName: 'ZTM Vinyl',
