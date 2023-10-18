@@ -1938,7 +1938,14 @@ let cards = [
     githubLink: 'https://github.com/ankoorgorai'
   },
   {
-    artName: 'Three Animate',
+    artName: 'Birthday Card Animation',
+    pageLink: './Art/Varad0014/index.html',
+    imageLink: './Art/Varad0014/Birthday-Card-Animation.gif',
+    author: 'Varad',
+    githubLink: 'https://github.com/Varad0014' 
+  },
+  {
+    artName: 'Camera Switch',
     pageLink: './Art/VishalKumar786/CameraSwitch.html',
     imageLink: './Art/VishalKumar786/CameraSwitch.gif',
     author: 'Vishal Kumar',
