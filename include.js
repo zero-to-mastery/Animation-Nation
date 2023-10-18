@@ -1984,6 +1984,13 @@ let cards = [
     imageLink: './Art/mehul1409/roundmembersection.gif', 
     author: 'mehul1409', 
     githubLink: 'https://github.com/mehul1409' 
+  },
+  {
+    artName: 'Race in Space',
+    pageLink: './Art/gabriel-conde/index.html',
+    imageLink: './Art/gabriel-conde/race.gif',
+    author: 'Gabriel Conde',
+    githubLink: 'https://github.com/gabriel-conde'
   }
 ];
 
