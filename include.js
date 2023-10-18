@@ -21,9 +21,6 @@ let cards = [
     githubLink: 'https://github.com/Rajneesh2223'
 
   },
-  
-
-  
   {
     artName: 'Cat Eye Flipping Animation',
     pageLink: './Art/Ankit0049/index.html',
@@ -80,13 +77,6 @@ let cards = [
     author: 'thiunuwan',
     githubLink: 'https://github.com/thiunuwan'
   },
-  { artName: "Colour Change Ball",
-  pageLink: './Art/colourchange/index.html',
-  imageLink: './Art/colourchange/ball_color.gif',
-  author: 'Rajneesh2322',
-  githubLink: 'https://github.com/Rajneesh2223'
-
-},
 
   {
     artName: 'cloudy-rain',
