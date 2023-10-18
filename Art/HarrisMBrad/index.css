@@ -1,3 +1,41 @@
+.hero-c {
+  background-color: #ffffff;
+  height: 960px;
+  position: relative;
+  width: 1680px;
+}
+
+.hero-c .rectangle-instance {
+  height: 384px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 576px !important;
+  width: 1680px !important;
+}
+
+.hero-c .the-largest-community-of-photo-enthusiasts {
+  left: 144px !important;
+  position: absolute !important;
+  top: 162px !important;
+}
+
+.hero-c .button-instance {
+  height: 52px !important;
+  left: 145px !important;
+  position: absolute !important;
+  top: 362px !important;
+  width: 192px !important;
+}
+
+.hero-c .design-component-instance-node {
+  font-size: 17px !important;
+  height: 21px !important;
+  left: 50px !important;
+  letter-spacing: -0.26px !important;
+  top: 15px !important;
+  white-space: unset !important;
+}
+
 body {
   background-color: black;
   font-family: Arial, sans-serif;
