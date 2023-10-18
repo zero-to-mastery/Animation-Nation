@@ -1967,6 +1967,13 @@ let cards = [
     githubLink: 'https://github.com/Varad0014' 
 
   },
+  {
+    artName: 'Race in Space',
+    pageLink: './Art/gabriel-conde/index.html',
+    imageLink: './Art/gabriel-conde/race.gif',
+    author: 'Gabriel Conde',
+    githubLink: 'https://github.com/gabriel-conde'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
