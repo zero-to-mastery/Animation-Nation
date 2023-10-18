@@ -169,7 +169,6 @@ let cards = [
     githubLink: 'https://github.com/ankit0049'
   },
   {
-<<<<<<< HEAD
     artName: 'Pacman',
     pageLink: './Art/Moccasym/index.html',
     imageLink: './Art/Moccasym/pacman.gif',
@@ -177,8 +176,6 @@ let cards = [
     githubLink: 'https://github.com/Moccasym'
   },
   {
-=======
->>>>>>> 0c10267e (Added breaking news animation (#2253))
     artName: ' Circular Roller ',
     pageLink: './Art/himanshumahto/index.html',
     imageLink: './Art/himanshumahto/Roller.gif',
