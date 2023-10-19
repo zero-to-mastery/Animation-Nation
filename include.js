@@ -1992,6 +1992,13 @@ let cards = [
     author: 'Varad', 
     githubLink: 'https://github.com/Varad0014' 
   },
+   {
+    artName: 'Gift Box Animation',
+    pageLink: './Art/Srishdwi02/index.html', 
+    imageLink: './Art/Srishdwi02/Gift-Box-Animation.gif', 
+    author: 'Srishti Dwivedi', 
+    githubLink: 'https://github.com/Srishdwi02' 
+  },
   {
     artName: 'Button',
     pageLink: './Art/ishanchaskar/index.html', 
