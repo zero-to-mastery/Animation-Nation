@@ -6,6 +6,13 @@ let cards = [
     author: 'Niranjan',
     githubLink: 'https://github.com/niranjan-kurhade'
   },
+   {
+    artName: 'Animatron', // change this to the name of your artwork
+    pageLink: './Art/HaroonAdil6313/index.html', // change this
+    imageLink: './Art/HaroonAdil6313/trance.gif', // change this
+    author: 'Haroon Adil', // use your name
+    githubLink: 'https://github.com/HaroonAdil6313' // change this
+  }
   {
     artName: 'Cubic Circle Animation',
     pageLink: './Art/88Abhi/index.html',
