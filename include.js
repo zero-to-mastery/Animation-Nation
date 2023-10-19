@@ -2000,6 +2000,14 @@ let cards = [
     author: 'Varad', 
     githubLink: 'https://github.com/Varad0014' 
   },
+  {
+    artName: 'Dark Box Animation',
+    pageLink: './Art/AvinavChatterjee/index.html', 
+    imageLink: './Art/AvinavChatterjee/darkboxanimation.gif', 
+    author: 'Avinav Chatterjee', 
+    githubLink: 'https://github.com/AvinavCHATTERJEE2103028' 
+
+  },
    {
     artName: 'Gift Box Animation',
     pageLink: './Art/Srishdwi02/index.html', 
