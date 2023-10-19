@@ -1,5 +1,19 @@
 let cards = [
   {
+    artName: 'Robot Image Animation',
+    pageLink: './Art/aniketmdinde/index.html',
+    imageLink: './Art/aniketmdinde/robot.gif',
+    author: 'Aniket',
+    githubLink: 'https://github.com/aniketmdinde'
+  },
+  {
+    artName: 'Aniket Dinde name Animation',
+    pageLink: './Art/AniketDinde/index.html',
+    imageLink: './Art/AniketDinde/aniket.gif',
+    author: 'Aniket',
+    githubLink: 'https://github.com/aniketmdinde'
+  },
+  {
     artName: 'Indian Flag Animation',
     pageLink: './Art/niranjan-kurhade/indianflag.html',
     imageLink: './Art/niranjan-kurhade/indianflag.gif',
