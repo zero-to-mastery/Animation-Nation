@@ -1,19 +1,25 @@
----
-> ### **UPDATE:** Event Concluded!
-  >
-  > **This project started as a project for Hacktoberfest 2019, Thank you to everyone that participated and made this project what it is today and we look forward to seeing you all at Hacktoberfest 2020!.
-  > Feel free to continue adding your designs to the master branch, you can check out the `Hactoberfest-Edition` branch to see the project as it was at the end of the event.**
-  >
-  > **Interested in more events? keep an eye on our Events page [HERE](https://zerotomastery.io/events?utm_source=github&utm_medium=animation-nation)**
----
+<h1 style="display:flex;justify-content:center;color:">✨ Animation Nation ✨</h1>
+<br>
+<div align="center">
+  <img src="https://img.shields.io/github/stars/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <img src="https://img.shields.io/github/repo-size/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <br>
+  <img src="https://img.shields.io/github/last-commit/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <img src="https://img.shields.io/github/contributors-anon/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <br>
+  <img src="https://img.shields.io/github/issues/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues-pr/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <br>
+  <img src="https://img.shields.io/github/issues-closed-raw/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues-pr-closed-raw/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+</div>
+<br>
 
-![](./colourpencils.png)
-
+![header-picture](./public/images/colourpencils.png)
 _Sharpen your pencils, we're getting creative!_
 
-# Animation Nation
-
-Hello and welcome to Animation Nation, a ZTM project for Hacktoberfest 2019! This site aims to showcase the creative talents of the ZTM community :)
+Hello and welcome to Animation Nation, a ZTM project for Hacktoberfest! This site aims to showcase the creative talents of the ZTM community :)
 
 # Rules
 
@@ -24,8 +30,6 @@ The rules are simple. You have to:
 - Please make sure that the code is indeed your own, and not copied from someone else
 - That's it!
 
-**All discussions around this event can now be had in our #hacktoberfest-2019 channel on Discord!**
-
 # How to contribute
 
 If you've never forked a repository or made a pull request before, we recommend making your first one over at [https://github.com/zero-to-mastery/start-here-guidelines](https://github.com/zero-to-mastery/start-here-guidelines). That will count towards your total, and then you'll be ready to take on this challenge with your new GitHub skills!
@@ -34,7 +38,7 @@ A cool resource to learn about the fork workflow can also be found here - [https
 
 Now, once you've forked this repo and got a local version up on your computer, follow these steps:
 
-1. In the Art directory (folder), create a directory named after yourself.
+1. In the Art directory (folder), create a directory named after your GitHub username.
 2. Within this folder you just made, create two files, an HTML file, and a CSS file.
 3. Link your CSS file to your HTML file.
 4. Using only HTML and CSS (no `<script>` allowed!!), create a work of art! It can be as simple or as complex as you like, as long as it's animated in some way!
@@ -46,11 +50,22 @@ Now, once you've forked this repo and got a local version up on your computer, f
 let cards = [
   //  Add your card in this section
   {
-    artName: 'Your art name here',
-    pageLink: './Art/Joy/triangle/triangle.html',
-    imageLink: './Art/Joy/triangle/triangle.gif',
-    author: 'Joy',
-    githubLink: 'https://github.com/royranger'
+    artName: 'Triangle', // change this to the name of your artwork
+    pageLink: './Art/<YOUR GITHUB USERNAME>/triangle.html', // change this
+    imageLink: './Art/<YOUR GITHUB USERNAME>/triangle.gif', // change this
+    author: 'Joy', // use your name
+    githubLink: 'https://github.com/<YOUR GITHUB USERNAME>' // change this
   }
 ];
 ```
+
+# Important Note
+
+If a maintainer asks for changes, _please make the required changes to your original pull request._
+
+Closing a PR and re-opening the PR for the same contribution adds an unnecessary burden on maintainers,  
+as they have to review the complete pull request again.
+
+If you don't follow this rule, maintainers reserve the right to mark your pull request as invalid.
+
+**In this case it won't count for Hacktoberfest**.
