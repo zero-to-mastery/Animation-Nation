@@ -1,0 +1,9 @@
+let cards = [
+  {
+    artName: 'Progress Bar With CountDown',
+    pageLink: './Art/ahmedrazabaloch/index.html',
+    imageLink: './Art/ahmedrazabaloch/progressBar.gif',
+    author: 'Ahmed Raza',
+    githubLink: 'https://github.com/ahmedrazabaloch'
+  }
+];
