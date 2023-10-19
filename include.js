@@ -2035,6 +2035,13 @@ let cards = [
     imageLink: './Art/mehul1409/roundmembersection.gif', 
     author: 'mehul1409', 
     githubLink: 'https://github.com/mehul1409' 
+  },
+  {
+    artName: 'lightsaber glowing animation',
+    pageLink: './Art/mohamedabomosallam/index.html', 
+    imageLink: './Art/mohamedabomosallam/lightsaber.gif', 
+    author: 'mohamedmosalam', 
+    githubLink: 'https://github.com/MohamedAboMousallam' 
   }
 ];
 
