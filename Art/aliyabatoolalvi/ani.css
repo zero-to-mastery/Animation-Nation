@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.animation {
+    width: 100px;
+    height: 100px;
+    background-color: #05b4ff;
+    position: absolute;
+    /* border-radius: 50%; */
+    /* top: 50%;
+    left: 50%; */
+    transform: rotate(50deg);
+    animation: moveSquare 3s infinite;
+}
+
+.animation{
+    --mask: radial-gradient(50px at 50px 50px,#0000 98%,#000) -50px -50px;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+  }
+
+@keyframes moveSquare {
+    0% {
+        left: 50%;
+        top: 30%;
+        transform: rotate(0deg);
+        transform: translate(-50%, -50%);
+    }
+    25%{
+        left: 55%;
+        top: 40%;
+        transform: rotate(45deg);
+        /* transform: translate(-50%, -50%); */
+    }
+    50%{
+        left: 60%;
+        top: 50%;
+        transform: rotate(90deg);
+        /* transform: translate(-50%, -50%); */
+    }
+    75% {
+        left: 65%;
+        top: 60%;
+        transform: rotate(180deg);
+        /* transform: translate(-50%, -50%); */
+    }
+    100%{
+        left: 50%;
+        top: 30%;
+        transform: rotate(0deg);
+        transform: translate(-50%, -50%);
+    }
+
+}
