@@ -1923,11 +1923,11 @@ let cards = [
     githubLink: 'https://github.com/khrisdaniels'
   },
   {
-     artName: 'Mail Box Animation', 
+    artName: 'Mail Box Animation',
     pageLink: './Art/Avtech04/index.html',
-    imageLink: './Art/Avtech04/demo.gif', 
-    author: 'Avtech04', 
-    githubLink: 'https://github.com/Avtech04' 
+    imageLink: './Art/Avtech04/demo.gif',
+    author: 'Avtech04',
+    githubLink: 'https://github.com/Avtech04'
   },
   {
     artName: 'ZTM Vinyl',
@@ -1966,24 +1966,31 @@ let cards = [
   },
   {
     artName: 'Birthday Card Animation',
-    pageLink: './Art/Varad0014/index.html', 
-    imageLink: './Art/Varad0014/Birthday-Card-Animation.gif', 
-    author: 'Varad', 
-    githubLink: 'https://github.com/Varad0014' 
+    pageLink: './Art/Varad0014/index.html',
+    imageLink: './Art/Varad0014/Birthday-Card-Animation.gif',
+    author: 'Varad',
+    githubLink: 'https://github.com/Varad0014'
   },
   {
     artName: 'Button',
-    pageLink: './Art/ishanchaskar/index.html', 
-    imageLink: './Art/ishanchaskar/Tab-1697562688244.gif', 
-    author: 'Ishan', 
-    githubLink: 'https://github.com/ishanchaskar' 
+    pageLink: './Art/ishanchaskar/index.html',
+    imageLink: './Art/ishanchaskar/Tab-1697562688244.gif',
+    author: 'Ishan',
+    githubLink: 'https://github.com/ishanchaskar'
   },
   {
     artName: 'circular member section animation',
-    pageLink: './Art/mehul1409/index.html', 
-    imageLink: './Art/mehul1409/roundmembersection.gif', 
-    author: 'mehul1409', 
-    githubLink: 'https://github.com/mehul1409' 
+    pageLink: './Art/mehul1409/index.html',
+    imageLink: './Art/mehul1409/roundmembersection.gif',
+    author: 'mehul1409',
+    githubLink: 'https://github.com/mehul1409'
+  },
+  {
+    artName: 'Breaking news animation',
+    pageLink: './Art/parthrc/index.html',
+    imageLink: './Art/parthrc/breaking-news.gif',
+    author: 'parthrc',
+    githubLink: 'https://github.com/parthrc'
   }
 ];
 
