@@ -18,7 +18,73 @@ main {
   padding-bottom: 100px;
 }
 
+.hi {
+  visibility: visible;
+  opacity: 1;
+  animation: say-hi 4s ease infinite;
+}
+
+@keyframes say-hi {
+  50% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.bye {
+  visibility: hidden;
+  opacity: 0;
+  animation: say-bye 4s ease infinite;
+}
+
+@keyframes say-bye {
+  50% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.text-circle {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: -5px 8px 20px #5d5d5d;
+}
+
+.text-circle--small {
+  width: 19px;
+  height: 18px;
+  top: -24px;
+  right: -51px;
+}
+
+.text-circle--large {
+  width: 35px;
+  height: 30px;
+  top: -56px;
+  right: -80px;
+}
+
+.greeting {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  top: -157px;
+  right: -204px;
+  width: 155px;
+  height: 100px;
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+  font-family: cursive;
+  box-shadow: -5px 8px 20px #5d5d5d;
+}
+
 .sunflower {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,11 +98,11 @@ main {
   width: 130px;
   height: 130px;
   border-radius: 40%;
-  background-color: rgb(161, 67, 67);
+  background-color: rgb(184, 76, 76);
 }
 
 .eyebrows {
-  margin-top: 20px;
+  margin-top: 25px;
   display: flex;
   width: 80%;
   justify-content: space-around;
@@ -76,48 +142,40 @@ main {
 
 .smile {
   position: absolute;
-  top: 84px;
-  width: 45px;
-  height: 25px;
+  top: 75px;
+  width: 50px;
+  height: 30px;
   border-top: 4px solid black;
   border-radius: 50%;
   transform: rotate(180deg);
-  animation-duration: 4s;
-  animation-name: sadsmile;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
+  animation: sadsmile 4s ease infinite;
 }
 
 @keyframes sadsmile {
-  70% {
+  50% {
     border-radius: 15%;
   }
 }
 
 .cheeks {
   position: absolute;
-  top: 55%;
+  top: 64%;
   display: flex;
-  width: 80%;
+  width: 69%;
   justify-content: space-between;
 }
 
 .blush {
-  width: 20px;
-  height: 20px;
+  width: 1px;
+  height: 1px;
   border-radius: 50%;
-  background-color: rgb(255, 101, 186);
-  animation-duration: 4s;
-  animation-name: angry-cheeks;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  box-shadow: 0 0 10px rgb(255, 69, 171);
+  animation: pale-cheeks 4s ease-in-out infinite;
+  box-shadow: 0 0 13px 13px rgba(255, 69, 171, 0.7);
 }
 
-@keyframes angry-cheeks {
-  70% {
-    background-color: pink;
-    box-shadow: 0 0 10px pink;
+@keyframes pale-cheeks {
+  50% {
+    box-shadow: none;
   }
 }
 
@@ -132,14 +190,11 @@ main {
   );
   border-radius: 50% 50% 0% 0%;
   border: 3px solid rgb(196, 144, 66);
-  animation-duration: 4s;
-  animation-name: moving-petals;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
+  animation: moving-petals 4s ease infinite;
 }
 
 @keyframes moving-petals {
-  70% {
+  50% {
     border-radius: 100% 40% 0% 0%;
   }
 }
@@ -255,10 +310,13 @@ main {
   right: 14px;
   border-radius: 0% 69% 30% 59%;
   transform: rotate(319deg);
-  animation-duration: 4s;
-  animation-name: waving-leaf;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
+  animation: waving-leaf 4s ease infinite;
+}
+
+@keyframes waving-leaf {
+  50% {
+    transform: rotate(251deg);
+  }
 }
 
 .vein {
@@ -300,10 +358,4 @@ main {
   top: 32px;
   right: 45px;
   transform: rotate(290deg);
-}
-
-@keyframes waving-leaf {
-  70% {
-    transform: rotate(251deg);
-  }
 }
