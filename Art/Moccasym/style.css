@@ -18,15 +18,17 @@ body {
   height:600px;
 }
 
-/* Container class */
-.packman {
+.pacman {
   position:absolute;
   top: 200px;
   left: 200px;
   height: 200px;
   width: 200px;
-  background-color: rgb(255, 255, 0);
+  /* background-color: rgb(255, 255, 0); */
+  background: conic-gradient(rgb(255, 255, 0) calc(100*1%),#0000 0);
   border-radius: 50%;
+  animation: mouth 1.5s steps(10) infinite;
+  
 }
 
 .mouth {
@@ -38,24 +40,86 @@ body {
   background-color: #83C8E6;
   border-radius: 50%;
   background: conic-gradient(#83C8E6 calc(20*1%),#0000 0);
+  transform: rotate(45deg);
+  animation: mouth 1.5s steps(10) infinite;
+  
+}
+/* 
+.pacman::before {
+  content: "";
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color:  rgb(255, 255, 0);
+  border-radius: 50%;
+  background: conic-gradient( rgb(255, 255, 0) calc(315*1%),#0000 0);
+  transform: rotate(-315deg);
+  transition: all(1s);
+}
+
+.pacman::after {
+  content: "";
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color:  rgb(255, 255, 0);
+  border-radius: 50%;
+  background: conic-gradient( rgb(255, 255, 0) calc(350*1%),#0000 0);
+  transform: rotate(-315deg);
+  transition: all(1s);
+  
+} */
+
+@keyframes pacman {
   
 }
 
-.mouth:before {
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-  background: conic-gradient(#83C8E6 calc(20*1%),#0000 0);
-}
+/* @keyframes mouth {
+  0%{
+    background: conic-gradient(#83C8E6 calc(0*1%),#0000 0);
+  }
+  50%{
+    background: conic-gradient(#83C8E6 calc(10*1%),#0000 0);
+  }
+  100%{
+    background: conic-gradient(#83C8E6 calc(20*1%),#0000 0);
+  }
+} */
 
-.mouth:after {
+/* .mouth::before {
   content: "";
-  position: absolute;
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #83C8E6;
   border-radius: 50%;
+  background: conic-gradient(#83C8E6 calc(10*1%),#0000 0);
+  transform: rotate(45deg);
+  transition: all(1s);
   
-  transform: rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
-}
+} */
 
+/* .mouth::after {
+  content: "";
+  position:absolute;
+  top: 201px;
+  left: 201px;
+  height: 201px;
+  width: 201px;
+  background-color: #83C8E6;
+  border-radius: 50%;
+  background: conic-gradient(#83C8E6 calc(10*1%),#0000 0);
+  transform: rotate(45deg);
+  transition: all(1s);
+}  */
+
+/* calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2) */
 .shadow {
   position: absolute;
   top: 420px;
