@@ -1,0 +1,66 @@
+.animate {
+  display: grid;
+  /* gap: 1rem; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid black; */
+  justify-items: center;
+  align-items: center;
+  background: linear-gradient(to right, rgb(204, 233, 245), rgb(167, 229, 93));
+}
+.box {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 14rem;
+  width: 14rem;
+  animation: expand 2s infinite;
+}
+.one {
+  background: linear-gradient(to right, rgb(31, 241, 238), rgb(212, 246, 20));
+  animation: expand 2.5s infinite;
+}
+.two {
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 5, 5));
+  animation: expand 1.5s infinite;
+}
+.three {
+  background: linear-gradient(to right, rgb(242, 243, 244), rgb(17, 239, 13));
+  animation: expand 1.8s infinite;
+}
+.four {
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 5, 151));
+  animation: expand 3s infinite;
+}
+.five {
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(161, 230, 76));
+  animation: expand 2s infinite;
+}
+.six {
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(4, 201, 236));
+  animation: expand 1.6s infinite;
+}
+.seven {
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(252, 91, 4));
+  animation: expand 2.7s infinite;
+}
+.eight {
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(251, 255, 5));
+  animation: expand 3.6s infinite;
+}
+.nine {
+  background: linear-gradient(to right, rgb(139, 238, 232), rgb(233, 28, 28));
+  animation: expand 1.6s infinite;
+}
+@keyframes expand {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

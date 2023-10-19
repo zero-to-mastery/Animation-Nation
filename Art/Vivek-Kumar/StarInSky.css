@@ -1,0 +1,67 @@
+body {
+  /*background like night sky*/
+  background: linear-gradient(
+    to bottom,
+    #001f3f,
+    #050a30,
+    #0b0b61,
+    #161696,
+    #1d2dee
+  );
+  color: #ffffff;
+  margin: 0;
+  height: 100vh;
+}
+
+.star {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%; /* Makes it a circle */
+  box-shadow: 0 0 20px 2px #fff, 0 0 40px 4px #fff, 0 0 60px 6px #fff,
+    0 0 80px 8px #fff, 0 0 100px 10px rgba(255, 255, 255, 0.5);
+  position: fixed;
+}
+/*each star (star1, star2, star3) have different white color to make them look different distance*/
+.star1 {
+  background-color: #fff; /* Color of the "star" */
+}
+.star2 {
+  background-color: #eee; /* Color of the "star" */
+  animation-duration: 45s;
+  box-shadow: 0 0 15px 1px #fff, 0 0 30px 3px #fff, 0 0 45px 5px #fff,
+    0 0 60px 6px #fff, 0 0 75px 8px rgba(255, 255, 255, 0.5);
+}
+.star3 {
+  background-color: #ddd; /* Color of the "star" */
+  animation-duration: 60s;
+  box-shadow: 0 0 10px 1px #fff, 0 0 20px 2px #fff, 0 0 30px 3px #fff,
+    0 0 40px 4px #fff, 0 0 50px 5px rgba(255, 255, 255, 0.5);
+}
+
+.anim-moving {
+  animation: moveStar linear infinite;
+}
+
+.anim-static {
+  animation: twinkling linear infinite;
+}
+
+@keyframes moveStar {
+  from {
+    transform: translateY(0) translateX(0);
+  }
+  to {
+    transform: translateY(100vh) translateX(100vw);
+  }
+}
+
+@keyframes twinkling {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+}
