@@ -1882,6 +1882,7 @@ let cards = [
     githubLink: 'https://github.com/vivekBoii'
   },
   {
+<<<<<<< HEAD
     artName: 'Heart with Balls',
     pageLink: './Art/shubham-vartak/heartballs.html',
     imageLink: './Art/shubham-vartak/Heart with running balls.gif',
@@ -1889,6 +1890,8 @@ let cards = [
     githubLink: 'https://github.com/shubham-vartak'
   },
   {
+=======
+>>>>>>> 731904add6cb03b563ea1f89a9329649e32f2a0b
     artName: 'Rotating Spirals',
     pageLink: './Art/vivek/RotatingSpirals.html',
     imageLink: './Art/vivek/RotatingStars.gif',
@@ -2041,7 +2044,14 @@ let cards = [
     pageLink: './Art/mehul1409/index.html', 
     imageLink: './Art/mehul1409/roundmembersection.gif', 
     author: 'mehul1409', 
-    githubLink: 'https://github.com/mehul1409' 
+    githubLink: 'https://github.com/mehul1409'
+  },
+  { 
+    artName: 'Heart with Balls',
+    pageLink: './Art/shubham-vartak/heartballs.html',
+    imageLink: './Art/shubham-vartak/Heartballs.gif',
+    author: 'Shubham Vartak',
+    githubLink: 'https://github.com/shubham-vartak'
   }
 ];
 
