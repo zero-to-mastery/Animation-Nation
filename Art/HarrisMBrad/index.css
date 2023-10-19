@@ -1,5 +1,5 @@
 .hero-c {
-  background-color: #ffffff;
+  background-color: #908d8d;
   height: 960px;
   position: relative;
   width: 1680px;
@@ -39,7 +39,7 @@
 body {
   background-color: black;
   font-family: Arial, sans-serif;
-  color: WhiteSmoke;
+  color: #f6e9e9;
 }
 
 .navigation {
@@ -59,31 +59,51 @@ body {
   font-size: 16px;
 }
 
-.circle.rotate a:before {
+/* Modify the circle properties */
+.circle.roll a:before {
   content: '';
   width: 60px;
   height: 60px;
-  background-color: WhiteSmoke;
+  background-color: rgb(241, 220, 220);
   position: absolute;
   top: 50%;
-  bottom: 50%;
-  right: 100%;
-  transform: translate(-50%, -50%);
+  left: 0%;
+  /* Start from the leftmost side of the navigation */
+  transform: translateY(-50%);
+  /* Center the circle vertically */
   border-radius: 50%;
-  animation: rotateCircle 10s infinite;
+  animation: rollCircle 10s infinite;
+  /* New animation */
   z-index: -1;
+}
+
+/* New keyframe animation for rolling effect */
+@keyframes rollCircle {
+  0% {
+    left: 0%;
+    transform: translateY(-50%) rotate(0deg);
+    /* Start rotation at 0 degrees */
+  }
+
+  100% {
+    left: 100%;
+    transform: translateY(-50%) rotate(360deg);
+    /* End rotation at 360 degrees (1 full rotation) */
+  }
 }
 
 .square.bounce a:before {
   content: '';
   width: 60px;
   height: 60px;
-  background-color: WhiteSmoke;
+  background-color: rgb(241, 220, 220);
   position: absolute;
-  top: 1%;
-  bottom: 50%;
-  right: 100%;
+  top: 50%;
+  /* adjusted this to vertically center the square */
+  left: 50%;
+  /* added this to horizontally center the square */
   transform: translate(-50%, -50%);
+  /* this makes sure the square is centered in front of the text */
   animation: bounceSquare 2s infinite;
   z-index: -1;
 }
@@ -94,12 +114,13 @@ body {
   height: 0;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
-  border-bottom: 52px solid WhiteSmoke;
+  border-bottom: 60px solid rgb(241, 220, 220);
+  /* This is where the color is set */
   position: absolute;
-  top: 60%;
-  bottom: 40%;
-  right: 100%;
-  transform: translate(-50%, -50%);
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
   animation: flipTriangle 5s infinite;
   z-index: -1;
 }
