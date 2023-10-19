@@ -37,7 +37,7 @@
 }
 
 body {
-  background-color: black;
+  background: linear-gradient(to right, #111111, #222222);
   font-family: Arial, sans-serif;
   color: #f6e9e9;
 }
