@@ -1978,6 +1978,13 @@ let cards = [
     author: 'Ishan', 
     githubLink: 'https://github.com/ishanchaskar' 
   },
+  {
+    artName: 'circular member section animation',
+    pageLink: './Art/mehul1409/index.html', 
+    imageLink: './Art/mehul1409/roundmembersection.gif', 
+    author: 'mehul1409', 
+    githubLink: 'https://github.com/mehul1409' 
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
