@@ -21,6 +21,13 @@ let cards = [
     githubLink: 'https://github.com/niranjan-kurhade'
   },
   {
+    artName: 'Form field animation', 
+    pageLink: './Art/massdx/index.html', 
+    imageLink: './Art/massdx/form-animation.gif', 
+    author: 'ODANOU Massahoud', 
+    githubLink: 'https://github.com/massdx' 
+  },
+  {
     artName: 'Cubic Circle Animation',
     pageLink: './Art/88Abhi/index.html',
     imageLink: './Art/88Abhi/cubeAnimation.png',
