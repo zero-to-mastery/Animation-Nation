@@ -1984,6 +1984,13 @@ let cards = [
     imageLink: './Art/mehul1409/roundmembersection.gif', 
     author: 'mehul1409', 
     githubLink: 'https://github.com/mehul1409' 
+  },
+  {
+    artName: 'Psychedelic Cube',
+    pageLink: './Art/Molina-Daniel/index.html',
+    imageLink: './Art/Molina-Daniel/psychedelic_cube.gif',
+    author: 'Daniel Molina',
+    githubLink: 'https://github.com/Molina-Daniel'
   }
 ];
 
