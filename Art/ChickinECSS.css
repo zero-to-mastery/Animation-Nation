@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.egg-container {
+    position: relative;
+    width: 200px;
+}
+
+.egg {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.egg img {
+    width: 100%;
+    height: auto;
+}
+
+.chicken {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 160px;
+    height: 160px;
+    animation: chickenAnimation 2s ease-in-out infinite;
+}
+
+@keyframes chickenAnimation {
+    0%, 100% {
+        transform: translateY(0) rotate(0);
+    }
+    50% {
+        transform: translateY(-40px) rotate(5deg);
+    }
+}
