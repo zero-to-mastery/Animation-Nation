@@ -25,9 +25,9 @@ body {
   height: 200px;
   width: 200px;
   /* background-color: rgb(255, 255, 0); */
-  background: conic-gradient(rgb(255, 255, 0) calc(100*1%),#0000 0);
+  background: conic-gradient(rgb(255, 255, 0) calc(360deg),#0000 0);
   border-radius: 50%;
-  animation: mouth 1.5s steps(10) infinite;
+  animation: pacman 1.5s  infinite;
   
 }
 
@@ -39,9 +39,10 @@ body {
   width: 200px;
   background-color: #83C8E6;
   border-radius: 50%;
-  background: conic-gradient(#83C8E6 calc(20*1%),#0000 0);
-  transform: rotate(45deg);
-  animation: mouth 1.5s steps(10) infinite;
+  background-position: 60deg;
+  background: conic-gradient(#83C8E6 calc(90deg),#0000 0);
+  transform: rotate(60deg);
+  animation: mouth 0.5s infinite;
   
 }
 /* 
@@ -78,17 +79,24 @@ body {
   
 }
 
-/* @keyframes mouth {
+@keyframes mouth {
   0%{
-    background: conic-gradient(#83C8E6 calc(0*1%),#0000 0);
+    background: conic-gradient(#83C8E6 calc(0deg),#0000 0);
+    
+  }
+  25%{
+    background: conic-gradient(#83C8E6 calc(30deg),#0000 0);
+    
   }
   50%{
-    background: conic-gradient(#83C8E6 calc(10*1%),#0000 0);
+    background: conic-gradient(#83C8E6 calc(70deg),#0000 0);
+    
   }
   100%{
-    background: conic-gradient(#83C8E6 calc(20*1%),#0000 0);
+    background: conic-gradient(#83C8E6 calc(30deg),#0000 0);
+    
   }
-} */
+}
 
 /* .mouth::before {
   content: "";
