@@ -2035,6 +2035,13 @@ let cards = [
     imageLink: './Art/mehul1409/roundmembersection.gif', 
     author: 'mehul1409', 
     githubLink: 'https://github.com/mehul1409' 
+  },
+  {
+    artName: '👻BOOk',
+    pageLink: './Art/archeana_/index.html',
+    imageLink: './Art/archeana_/BOOk.gif',
+    author: 'archeana',
+    githubLink: 'https://github.com/archeana'
   }
 ];
 
