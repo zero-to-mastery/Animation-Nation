@@ -2051,14 +2051,13 @@ let cards = [
     githubLink: 'https://github.com/ishanchaskar' 
   },
   {
-<<<<<<< HEAD
     artName: 'Button Fill Animation', 
     pageLink: './Art/shag1802/index.html', 
     imageLink: './Art/shag1802/hover_ani.gif',
     author: 'Shaurya Agrawal', 
     githubLink: 'https://github.com/shag1802' 
-  }
-=======
+  },
+  {
     artName: 'Circle',
     pageLink: './Art/rishiiiidha/index.html',
     imageLink: './Art/rishiiiidha/animation.gif', 
@@ -2079,7 +2078,6 @@ let cards = [
     author: 'Gabriel Conde',
     githubLink: 'https://github.com/gabriel-conde'
   },
->>>>>>> 49f40cf6c7aa88b848c38e5d6cff03f4278df705
 ];
 
 // +--------------------------------------------------------------------------------+
