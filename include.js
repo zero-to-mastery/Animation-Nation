@@ -1984,7 +1984,7 @@ let cards = [
     imageLink: './Art/ruchircodes24/Score.gif',
     author: 'Ruchir',
     githubLink: 'https://github.com/ruchircodes24'
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
