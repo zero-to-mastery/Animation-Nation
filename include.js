@@ -2339,7 +2339,14 @@ let cards = [
     imageLink: './Art/daniel1david/monkey_face.gif', 
     author: 'Daniel', 
     githubLink: 'https://github.com/daniel1david' 
-  }
+  },
+  {
+    artName: 'Race in Space',
+    pageLink: './Art/gabriel-conde/index.html',
+    imageLink: './Art/gabriel-conde/race.gif',
+    author: 'Gabriel Conde',
+    githubLink: 'https://github.com/gabriel-conde'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
