@@ -1987,6 +1987,14 @@ let cards = [
     githubLink: 'https://github.com/pleomorph'
   },
   {
+
+    artName: 'moving block',
+    pageLink: './Art/Soumyadeep_Garai/index.html',
+    imageLink: './Art/Soumyadeep_Garai/card.gif',
+    author: 'Soumyadeep_Garai',
+    githubLink: 'https://github.com/SOUMYADEP'
+  },
+{
     artName: 'Three Animate',
     pageLink: './Art/ankoorgarai/index.html',
     imageLink: './Art/ankoorgarai/threeanimate.gif',
