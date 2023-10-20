@@ -2071,6 +2071,14 @@ let cards = [
     author: 'Gabriel Conde',
     githubLink: 'https://github.com/gabriel-conde'
   },
+  {
+    artName: 'Square', 
+    pageLink: './Art/K-Wiczling/square.html', 
+    imageLink: './Art/K-Wiczling/square.gif', 
+    author: 'K-Wiczling',
+    githubLink: 'https://github.com/K-Wiczling'
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
