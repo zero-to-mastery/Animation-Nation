@@ -2071,6 +2071,11 @@ let cards = [
     author: 'Gabriel Conde',
     githubLink: 'https://github.com/gabriel-conde'
   },
+  artName: 'rotatingrectangle in cube',
+    pageLink: './Art/priyanshu/index.html',
+    imageLink: './Art/priyanshu/rotatingrectangle in cube.gif',
+    author: 'Priyanshu Prajapati',
+    githubLink: 'https://github.com/PentesterPriyanshu'
 ];
 
 // +--------------------------------------------------------------------------------+
