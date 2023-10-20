@@ -2139,6 +2139,7 @@ let cards = [
   },
   {
     artName: 'circular member section animation',
+<<<<<<< HEAD
     pageLink: './Art/mehul1409/index.html',
     imageLink: './Art/mehul1409/roundmembersection.gif',
     author: 'mehul1409',
@@ -2325,6 +2326,13 @@ let cards = [
     imageLink: './Art/nharjes/ColorfulBackgroundDemo.gif',
     author: 'nharjes',
     githubLink: 'https://github.com/nharjes'
+  },
+  {
+    artName: 'blinking_monkey',
+    pageLink: './Art/daniel1david/index.html', 
+    imageLink: './Art/daniel1david/monkey_face.gif', 
+    author: 'Daniel', 
+    githubLink: 'https://github.com/daniel1david' 
   }
 ];
 
