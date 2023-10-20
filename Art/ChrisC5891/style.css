@@ -1,0 +1,81 @@
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+@keyframes pulsate {
+    0%, 100% {
+        background-color: #ffd700; /* Yellow face */
+    }
+    50% {
+        background-color: #ff0000; /* Red face */
+    }
+}
+
+
+.happy-face {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pulsate 4s infinite;
+    position: relative;
+}
+
+/* Eyes (Higher) */
+.happy-face::before, .happy-face::after {
+    content: '';
+    width: 35px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 12px;
+}
+
+.happy-face::before {
+    transform: translateX(-20px);
+    transform: translateY(-10px);
+}
+
+.happy-face::after {
+    transform: translateX(20px);
+    transform: translateY(-10px);
+}
+
+/* Smile (U-shaped) */
+.smile {
+    width: 70px;
+    height: 40px;
+    background-color: transparent;
+    border: 6px solid #000;
+    border-top:none;
+    border-radius: 0 0 60px 60px;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: rotate-smile 4s infinite alternate;
+}
+
+@keyframes rotate-smile {
+    
+    100% {
+        transform: translateX(-50%);
+        
+    }
+    100% {
+        transform: translateX(-50%) rotate(360deg);
+        
+    }
+}
+
