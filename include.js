@@ -2597,7 +2597,7 @@ let cards = [
   {
     artName: 'Circular multi-color Disk',
     pageLink: './Art/ReneDev01/index.html', 
-    imageLink: './Art/ReneDev01/Disk-2023-10-18-09-38-09', 
+    imageLink: './Art/ReneDev01/Disk-2023-10-18-09-38-09.gif', 
     author: 'ReneAonbo', 
     githubLink: 'https://github.com/ReneDev01' 
   },
