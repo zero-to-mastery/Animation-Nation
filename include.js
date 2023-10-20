@@ -112,6 +112,13 @@ let cards = [
     githubLink: 'https://github.com/sanusisusi'
   },
   {
+    artName: 'pacman',
+    pageLink: './Art/Moccasym/index.html',
+    imageLink: './Art/Moccasym/pacman.GIF',
+    author: 'Moccasym',
+    githubLink: 'https://github.com/Moccasym'
+  },
+  {
     artName: 'RichardsAnimation',
     pageLink: './Art/Richard/animated.html',
     imageLink: './Art/Richard/bounce.gif.gif',
