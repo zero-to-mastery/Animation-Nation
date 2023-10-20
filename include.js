@@ -2217,7 +2217,6 @@ let cards = [
     githubLink: 'https://github.com/shag1802' 
   },
   {
-    artName: 'Circle',
     artName: 'Magic Card',
     pageLink: './Art/URK21CS1064/index.html', 
     imageLink: './Art/URK21CS1064/hacktober.png', 
