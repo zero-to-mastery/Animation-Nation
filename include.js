@@ -2051,6 +2051,13 @@ let cards = [
     githubLink: 'https://github.com/ishanchaskar' 
   },
   {
+    artName: 'Circle',
+    pageLink: './Art/rishiiiidha/index.html',
+    imageLink: './Art/rishiiiidha/animation.gif', 
+    author: 'Rishidha', 
+    githubLink: 'https://github.com/rishiiiidha'
+  },
+  {
     artName: 'circular member section animation',
     pageLink: './Art/mehul1409/index.html', 
     imageLink: './Art/mehul1409/roundmembersection.gif', 
