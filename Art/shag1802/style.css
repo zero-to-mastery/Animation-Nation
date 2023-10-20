@@ -17,8 +17,6 @@ body {
     align-items: center;
     width: 400px;
     height: 100px;
-    /* background-color: red; */
-    /* padding: 25px 45px; */
     position: relative;
     overflow: hidden;
     border: 1px solid #1779ff;
@@ -30,7 +28,6 @@ body {
     color: white;
     font-size: 48px;
     transition: 0.5s letter-spacing , 0.5s color;
-    /* overflow: hidden; */
 }
 .button::after{
     content :"";
@@ -63,6 +60,3 @@ body {
     letter-spacing: 2px;
     color: #0c002b;
 }
-/* .button:hover ::after{
-    transform: translateX(-100%) translateY(100%);
-} */
