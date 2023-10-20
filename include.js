@@ -2009,6 +2009,13 @@ let cards = [
     githubLink: 'https://github.com/Varad0014' 
   },
   {
+    artName: 'Kinmatic Animation',
+    pageLink: './Art/VishalKumar786/KinmaticAnimation.html', 
+    imageLink: './Art/VishalKumar786/KinmaticAnimation.gif', 
+    author: 'Vishal Kumar', 
+    githubLink: 'https://github.com/vkumar786' 
+  },
+  {
     artName: 'Finger-Tap',
     pageLink: './Art/jac0313/index.html', 
     imageLink: './Art/jac0313/Finger-Tap.gif', 
@@ -2020,8 +2027,7 @@ let cards = [
     pageLink: './Art/AvinavChatterjee/index.html', 
     imageLink: './Art/AvinavChatterjee/darkboxanimation.gif', 
     author: 'Avinav Chatterjee', 
-    githubLink: 'https://github.com/AvinavCHATTERJEE2103028' 
-
+    githubLink: 'https://github.com/AvinavCHATTERJEE2103028'
   },
    {
     artName: 'Gift Box Animation',
@@ -2043,7 +2049,7 @@ let cards = [
     imageLink: './Art/mehul1409/roundmembersection.gif', 
     author: 'mehul1409', 
     githubLink: 'https://github.com/mehul1409' 
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
