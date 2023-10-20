@@ -2103,6 +2103,13 @@ let cards = [
     githubLink: 'https://github.com/vkumar786'
   },
   {
+    artName: 'Kinmatic Animation',
+    pageLink: './Art/VishalKumar786/KinmaticAnimation.html', 
+    imageLink: './Art/VishalKumar786/KinmaticAnimation.gif', 
+    author: 'Vishal Kumar', 
+    githubLink: 'https://github.com/vkumar786' 
+  },
+  {
     artName: 'Finger-Tap',
     pageLink: './Art/jac0313/index.html',
     imageLink: './Art/jac0313/Finger-Tap.gif',
@@ -2139,7 +2146,6 @@ let cards = [
   },
   {
     artName: 'circular member section animation',
-<<<<<<< HEAD
     pageLink: './Art/mehul1409/index.html',
     imageLink: './Art/mehul1409/roundmembersection.gif',
     author: 'mehul1409',
