@@ -35,6 +35,13 @@ let cards = [
     githubLink: 'https://github.com/88Abhi'
   },
   {
+    artName: 'Shooting stars in the night sky',
+    pageLink: './Art/ahmedalhamad7/stars.html',
+    imageLink: './Art/ahmedalhamad7/static_stars.png',
+    author: 'Ahmed',
+    githubLink: 'https://github.com/ahmedalhamad7'
+  },
+  {
     artName: 'Bird Walk',
     pageLink: './Art/pypimo/index.html',
     imageLink: './Art/pypimo/bird-walk.gif',
@@ -1377,6 +1384,13 @@ let cards = [
     githubLink: 'https://github.com/vinay-s36'
   },
   {
+    artName: 'Mouse hover animation',
+    pageLink: './Art/vinay-s36/hover.html',
+    imageLink: './Art/vinay-s36/Mouse-hover-animation.gif',
+    author: 'Vinay',
+    githubLink: 'https://github.com/vinay-s36'
+  },
+  {
     artName: 'Square Loading',
     pageLink: './Art/Guransh_Deol/index.html',
     imageLink: './Art/Guransh_Deol/sq_loading.gif',
@@ -2009,6 +2023,13 @@ let cards = [
     githubLink: 'https://github.com/Varad0014' 
   },
   {
+    artName: 'Kinmatic Animation',
+    pageLink: './Art/VishalKumar786/KinmaticAnimation.html', 
+    imageLink: './Art/VishalKumar786/KinmaticAnimation.gif', 
+    author: 'Vishal Kumar', 
+    githubLink: 'https://github.com/vkumar786' 
+  },
+  {
     artName: 'Finger-Tap',
     pageLink: './Art/jac0313/index.html', 
     imageLink: './Art/jac0313/Finger-Tap.gif', 
@@ -2020,8 +2041,7 @@ let cards = [
     pageLink: './Art/AvinavChatterjee/index.html', 
     imageLink: './Art/AvinavChatterjee/darkboxanimation.gif', 
     author: 'Avinav Chatterjee', 
-    githubLink: 'https://github.com/AvinavCHATTERJEE2103028' 
-
+    githubLink: 'https://github.com/AvinavCHATTERJEE2103028'
   },
    {
     artName: 'Gift Box Animation',
@@ -2038,6 +2058,13 @@ let cards = [
     githubLink: 'https://github.com/ishanchaskar' 
   },
   {
+    artName: 'Circle',
+    pageLink: './Art/rishiiiidha/index.html',
+    imageLink: './Art/rishiiiidha/animation.gif', 
+    author: 'Rishidha', 
+    githubLink: 'https://github.com/rishiiiidha'
+  },
+  {
     artName: 'circular member section animation',
     pageLink: './Art/mehul1409/index.html', 
     imageLink: './Art/mehul1409/roundmembersection.gif', 
@@ -2050,7 +2077,28 @@ let cards = [
     imageLink: './Art/archeana_/BOOk.gif',
     author: 'archeana',
     githubLink: 'https://github.com/archeana'
-  }
+  },
+  {
+    artName: 'Psychedelic Cube',
+    pageLink: './Art/Molina-Daniel/index.html',
+    imageLink: './Art/Molina-Daniel/psychedelic_cube.gif',
+    author: 'Daniel Molina',
+    githubLink: 'https://github.com/Molina-Daniel'
+  },
+  {
+    artName: 'Race in Space',
+    pageLink: './Art/gabriel-conde/index.html',
+    imageLink: './Art/gabriel-conde/race.gif',
+    author: 'Gabriel Conde',
+    githubLink: 'https://github.com/gabriel-conde'
+  },
+  {
+    artName: 'lightsaber glowing animation',
+    pageLink: './Art/mohamedabomosallam/index.html', 
+    imageLink: './Art/mohamedabomosallam/lightsaber.gif', 
+    author: 'mohamedmosalam', 
+    githubLink: 'https://github.com/MohamedAboMousallam' 
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
