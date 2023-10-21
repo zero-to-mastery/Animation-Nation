@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/aniketmdinde'
   },
   {
+    artName 'Loading Dot Animation',
+    pageLink '.Artahmedrazaindex.html',
+    imageLink '.ArtahmedrazaLoading-Dot.gif',
+    author 'Ahmed raza',
+    githubLink 'httpsgithub.comahmedrazabaloch'
+  },
+  {
     artName: 'Aniket Dinde name Animation',
     pageLink: './Art/AniketDinde/index.html',
     imageLink: './Art/AniketDinde/aniket.gif',
