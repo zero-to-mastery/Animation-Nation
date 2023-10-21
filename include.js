@@ -1,10 +1,10 @@
 let cards = [
   {
-    artName: 'Circling square', // change this to the name of your artwork
-    pageLink: './Art/samwillson2009/blueSquare.html', // change this
-    imageLink: './Art/samwillson2009/blueSquare.gif', // change this
-    author: 'Muhammad Juned Khan', // use your name
-    githubLink: 'https://github.com/samwillson2009' // change this
+    artName: 'Circling square',
+    pageLink: './Art/samwillson2009/blueSquare.html',
+    imageLink: './Art/samwillson2009/blueSquare.gif',
+    author: 'Muhammad Juned Khan',
+    githubLink: 'https://github.com/samwillson2009'
   },
   {
     artName: 'Robot Image Animation',
