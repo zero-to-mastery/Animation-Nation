@@ -1688,6 +1688,13 @@ let cards = [
     imageLink: './Art/sudhanshu27/bubbles.gif',
     author: 'Joy',
     githubLink: 'https://github.com/sudhanshu27' // change this
+  },
+  {
+    artName: 'Basic loader animation',
+    pageLink: './Art/rishika-on-git/index.html',
+    imageLink: './Art/rishika-on-git/result.gif',
+    author: 'Rishika Aggarwal',
+    githubLink: 'https://github.com/rishika-on-git'
   }
 ];
 
