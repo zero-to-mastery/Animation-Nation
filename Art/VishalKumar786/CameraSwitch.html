@@ -1,189 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <style>
-        body {
-            height: 100vh;
-            margin: 0px;
-            display: grid;
-            place-items: center;
-            background-color: #000;
-            overflow: hidden;
+      body {
+        height: 100vh;
+        margin: 0px;
+        display: grid;
+        place-items: center;
+        background-color: #000;
+        overflow: hidden;
+      }
+
+      div {
+        position: absolute;
+        animation: 4s 1s cubic-bezier(0.7, 0, 0.3, 1) alternate infinite;
+      }
+
+      #plate {
+        width: 60vmin;
+        height: 60vmin;
+        border-radius: 10vmin;
+        border: 1vmin solid;
+        border-color: #4448 #4448 #2228 #2228;
+        background-color: #333;
+        overflow: hidden;
+        animation-name: plate-height;
+      }
+
+      @keyframes plate-height {
+        25% {
+          height: 60vmin;
         }
 
-        div {
-            position: absolute;
-            animation: 4s 1s cubic-bezier(.7, 0, .3, 1) alternate infinite;
+        75%,
+        100% {
+          height: 90vmin;
+        }
+      }
+
+      .camera {
+        box-sizing: border-box;
+        width: 20vmin;
+        height: 20vmin;
+        border-radius: 10vmin;
+        outline: 2vmin solid #bbb;
+        border: 7vmin solid #222;
+        z-index: 1;
+        background-image: linear-gradient(45deg, #024, #08b);
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 3vmin 2vmin #000;
+      }
+
+      .camera:nth-child(1) {
+        left: 5vmin;
+        top: 5vmin;
+      }
+
+      .camera:nth-child(2) {
+        left: 5vmin;
+        top: 35vmin;
+      }
+
+      .camera:nth-child(3) {
+        left: 35vmin;
+        top: 20vmin;
+        z-index: 2;
+        animation-name: cam3-move;
+      }
+
+      @keyframes cam3-move {
+        25% {
+          top: 20vmin;
         }
 
-        #plate {
-            width: 60vmin;
-            height: 60vmin;
-            border-radius: 10vmin;
-            border: 1vmin solid;
-            border-color: #4448 #4448 #2228 #2228;
-            background-color: #333;
-            overflow: hidden;
-            animation-name: plate-height;
+        40% {
+          left: 35vmin;
         }
 
-        @keyframes plate-height {
-            25% {
-                height: 60vmin;
-            }
+        75%,
+        100% {
+          left: 5vmin;
+          top: 65vmin;
+        }
+      }
 
-            75%,
-            100% {
-                height: 90vmin;
-            }
+      .camera:nth-child(4) {
+        left: 35vmin;
+        top: -25vmin;
+        scale: 0.7;
+        animation-name: cam4-move;
+      }
+
+      @keyframes cam4-move {
+        25% {
+          top: -25vmin;
         }
 
-        .camera {
-            box-sizing: border-box;
-            width: 20vmin;
-            height: 20vmin;
-            border-radius: 10vmin;
-            outline: 2vmin solid #bbb;
-            border: 7vmin solid #222;
-            z-index: 1;
-            background-image: linear-gradient(45deg, #024, #08b);
-            background-repeat: no-repeat;
-            box-shadow: 0px 0px 3vmin 2vmin #000;
+        75%,
+        100% {
+          top: 5vmin;
+        }
+      }
+
+      .camera:nth-child(5) {
+        left: 35vmin;
+        top: 35vmin;
+        scale: 0;
+        animation-name: cam5-move;
+      }
+
+      @keyframes cam5-move {
+        45% {
+          scale: 0;
         }
 
-        .camera:nth-child(1) {
-            left: 5vmin;
-            top: 5vmin;
+        45.1%,
+        100% {
+          scale: 0.7;
+        }
+      }
+
+      #torch {
+        width: 8vmin;
+        height: 8vmin;
+        border-radius: 4vmin;
+        left: 41vmin;
+        top: 6vmin;
+        background-image: linear-gradient(#dd7, #cca, #dd7);
+        background-size: 1px 2vmin;
+        animation-name: torch-move;
+      }
+
+      @keyframes torch-move {
+        25% {
+          top: 6vmin;
+          scale: 1;
         }
 
-        .camera:nth-child(2) {
-            left: 5vmin;
-            top: 35vmin;
+        75%,
+        100% {
+          top: 26vmin;
+          scale: 0.8;
+        }
+      }
+
+      #lidar {
+        width: 8vmin;
+        height: 8vmin;
+        border-radius: 4vmin;
+        left: 41vmin;
+        top: 46vmin;
+        background-color: #222;
+        animation-name: lidar-move;
+      }
+
+      @keyframes lidar-move {
+        25% {
+          top: 46vmin;
+          scale: 1;
         }
 
-        .camera:nth-child(3) {
-            left: 35vmin;
-            top: 20vmin;
-            z-index: 2;
-            animation-name: cam3-move;
+        55%,
+        100% {
+          top: 41vmin;
+          scale: 2;
         }
-
-        @keyframes cam3-move {
-            25% {
-                top: 20vmin;
-            }
-
-            40% {
-                left: 35vmin;
-            }
-
-            75%,
-            100% {
-                left: 5vmin;
-                top: 65vmin;
-            }
-        }
-
-        .camera:nth-child(4) {
-            left: 35vmin;
-            top: -25vmin;
-            scale: .7;
-            animation-name: cam4-move;
-        }
-
-        @keyframes cam4-move {
-            25% {
-                top: -25vmin;
-            }
-
-            75%,
-            100% {
-                top: 5vmin;
-            }
-        }
-
-        .camera:nth-child(5) {
-            left: 35vmin;
-            top: 35vmin;
-            scale: 0;
-            animation-name: cam5-move;
-        }
-
-        @keyframes cam5-move {
-            45% {
-                scale: 0;
-            }
-
-            45.1%,
-            100% {
-                scale: .7;
-            }
-        }
-
-        #torch {
-            width: 8vmin;
-            height: 8vmin;
-            border-radius: 4vmin;
-            left: 41vmin;
-            top: 6vmin;
-            background-image: linear-gradient(#dd7, #cca, #dd7);
-            background-size: 1px 2vmin;
-            animation-name: torch-move;
-        }
-
-        @keyframes torch-move {
-            25% {
-                top: 6vmin;
-                scale: 1;
-            }
-
-            75%,
-            100% {
-                top: 26vmin;
-                scale: .8;
-            }
-        }
-
-        #lidar {
-            width: 8vmin;
-            height: 8vmin;
-            border-radius: 4vmin;
-            left: 41vmin;
-            top: 46vmin;
-            background-color: #222;
-            animation-name: lidar-move;
-        }
-
-        @keyframes lidar-move {
-            25% {
-                top: 46vmin;
-                scale: 1;
-            }
-
-            55%,
-            100% {
-                top: 41vmin;
-                scale: 2;
-            }
-        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="plate">
-        <div class="camera"></div>
-        <div class="camera"></div>
-        <div class="camera"></div>
-        <div class="camera"></div>
-        <div class="camera"></div>
-        <div id="torch"></div>
-        <div id="lidar"></div>
+      <div class="camera"></div>
+      <div class="camera"></div>
+      <div class="camera"></div>
+      <div class="camera"></div>
+      <div class="camera"></div>
+      <div id="torch"></div>
+      <div id="lidar"></div>
     </div>
-</body>
-
+  </body>
 </html>

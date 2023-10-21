@@ -35,11 +35,11 @@ let cards = [
     githubLink: 'https://github.com/daulatojha17'
   },
   {
-    artName: 'Form field animation', 
-    pageLink: './Art/massdx/index.html', 
-    imageLink: './Art/massdx/form-animation.gif', 
-    author: 'ODANOU Massahoud', 
-    githubLink: 'https://github.com/massdx' 
+    artName: 'Form field animation',
+    pageLink: './Art/massdx/index.html',
+    imageLink: './Art/massdx/form-animation.gif',
+    author: 'ODANOU Massahoud',
+    githubLink: 'https://github.com/massdx'
   },
   {
     artName: 'Form field animation',
@@ -2126,6 +2126,42 @@ let cards = [
     githubLink: 'https://github.com/gabriel-conde'
   },
   {
+    artName: 'Rolling Square Loader',
+    pageLink: './Art/psykat1611/index.html',
+    imageLink: './Art/psykat1611/loader.gif',
+    author: 'psykat1116',
+    githubLink: 'https://github.com/psykat1116'
+  },
+  {
+    artName: 'Score a Goal',
+    pageLink: './Art/ruchircodes24/index.html',
+    imageLink: './Art/ruchircodes24/Score.gif',
+    author: 'Ruchir',
+    githubLink: 'https://github.com/ruchircodes24'
+  },
+  {
+    artName: 'lightsaber glowing animation',
+    pageLink: './Art/mohamedabomosallam/index.html',
+    imageLink: './Art/mohamedabomosallam/lightsaber.gif',
+    author: 'mohamedmosalam',
+    githubLink: 'https://github.com/MohamedAboMousallam'
+  },
+  {
+    artName: 'Breaking news',
+    pageLink: './Art/parthrc/index.html',
+    imageLink: './Art/parthrc/breaking-news.gif',
+    author: 'Parth Chawande',
+    githubLink: 'https://github.com/parthrc'
+  },
+  {
+    artName: 'Camera Switch',
+    pageLink: './Art/VishalKumar786/CameraSwitch.html',
+    imageLink: './Art/VishalKumar786/CameraSwitch.gif',
+    author: 'Vishal Kumar',
+    githubLink: 'https://github.com/vkumar786'
+  },
+  {
+    
     artName: 'rotatingrectangle in cube',
     pageLink: './Art/PentesterPriyanshu/index.html',
     imageLink: './Art/PentesterPriyanshu/rotatingrectangle in cube.gif',
