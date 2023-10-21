@@ -2072,6 +2072,13 @@ let cards = [
     githubLink: 'https://github.com/mehul1409' 
   },
   {
+    artName: '👻BOOk',
+    pageLink: './Art/archeana_/index.html',
+    imageLink: './Art/archeana_/BOOk.gif',
+    author: 'archeana',
+    githubLink: 'https://github.com/archeana'
+  },
+  {
     artName: 'Psychedelic Cube',
     pageLink: './Art/Molina-Daniel/index.html',
     imageLink: './Art/Molina-Daniel/psychedelic_cube.gif',
