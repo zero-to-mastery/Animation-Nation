@@ -2338,7 +2338,14 @@ let cards = [
     pageLink: './Art/daniel1david/index.html', 
     imageLink: './Art/daniel1david/monkey_face.gif', 
     author: 'Daniel', 
-    githubLink: 'https://github.com/daniel1david' 
+    githubLink: 'https://github.com/daniel1david'
+  },
+  {
+    artName: 'Psychedelic Cube',
+    pageLink: './Art/Molina-Daniel/index.html',
+    imageLink: './Art/Molina-Daniel/psychedelic_cube.gif',
+    author: 'Daniel Molina',
+    githubLink: 'https://github.com/Molina-Daniel'
   },
   {
     artName: 'Race in Space',
