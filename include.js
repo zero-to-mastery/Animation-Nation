@@ -35,6 +35,13 @@ let cards = [
     githubLink: 'https://github.com/88Abhi'
   },
   {
+    artName: 'Animated Name',
+    pageLink: './Art/88Abhi/index.html',
+    imageLink: './Art/88Abhi/NameAnimation.png',
+    author: 'Harsh',
+    githubLink: 'https://github.com/88Abhi'
+  },
+  {
     artName: 'Shooting stars in the night sky',
     pageLink: './Art/ahmedalhamad7/stars.html',
     imageLink: './Art/ahmedalhamad7/static_stars.png',
