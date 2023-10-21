@@ -1384,6 +1384,13 @@ let cards = [
     githubLink: 'https://github.com/vinay-s36'
   },
   {
+    artName: 'Mouse hover animation',
+    pageLink: './Art/vinay-s36/hover.html',
+    imageLink: './Art/vinay-s36/Mouse-hover-animation.gif',
+    author: 'Vinay',
+    githubLink: 'https://github.com/vinay-s36'
+  },
+  {
     artName: 'Square Loading',
     pageLink: './Art/Guransh_Deol/index.html',
     imageLink: './Art/Guransh_Deol/sq_loading.gif',
@@ -2065,11 +2072,25 @@ let cards = [
     githubLink: 'https://github.com/mehul1409' 
   },
   {
+    artName: 'Psychedelic Cube',
+    pageLink: './Art/Molina-Daniel/index.html',
+    imageLink: './Art/Molina-Daniel/psychedelic_cube.gif',
+    author: 'Daniel Molina',
+    githubLink: 'https://github.com/Molina-Daniel'
+  },
+  {
     artName: 'Race in Space',
     pageLink: './Art/gabriel-conde/index.html',
     imageLink: './Art/gabriel-conde/race.gif',
     author: 'Gabriel Conde',
     githubLink: 'https://github.com/gabriel-conde'
+  },
+  {
+    artName: 'lightsaber glowing animation',
+    pageLink: './Art/mohamedabomosallam/index.html', 
+    imageLink: './Art/mohamedabomosallam/lightsaber.gif', 
+    author: 'mohamedmosalam', 
+    githubLink: 'https://github.com/MohamedAboMousallam' 
   },
 ];
 
