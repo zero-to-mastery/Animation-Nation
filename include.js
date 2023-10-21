@@ -1384,6 +1384,13 @@ let cards = [
     githubLink: 'https://github.com/vinay-s36'
   },
   {
+    artName: 'Mouse hover animation',
+    pageLink: './Art/vinay-s36/hover.html',
+    imageLink: './Art/vinay-s36/Mouse-hover-animation.gif',
+    author: 'Vinay',
+    githubLink: 'https://github.com/vinay-s36'
+  },
+  {
     artName: 'Square Loading',
     pageLink: './Art/Guransh_Deol/index.html',
     imageLink: './Art/Guransh_Deol/sq_loading.gif',
