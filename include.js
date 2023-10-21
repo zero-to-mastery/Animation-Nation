@@ -72,6 +72,14 @@ let cards = [
     githubLink: 'https://github.com/LucasAlmeida-jpg'
   },
   {
+    artName: 'SOWRDS ANIMATION',
+    pageLink: './Art/KANNU/index.html',
+    imageLink: './Art/KANNU/CrossAnimation.gif',
+    author: 'KRATIN',
+    githubLink: 'https://github.com/krtain01'
+  },
+  
+  {
     artName: 'Falling Squares',
     pageLink: './Art/migueldalberto/index.html',
     imageLink: './Art/migueldalberto/screenshot.png',
