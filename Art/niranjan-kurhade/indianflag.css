@@ -1,0 +1,149 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.flag {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
+.saffron,
+.white,
+.green {
+  height: 33.33%;
+}
+
+.saffron {
+  background-color: #ff9933;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.green {
+  background-color: #138808;
+}
+
+.chakra {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wheel {
+  width: 60px;
+  height: 60px;
+  background-color: #000080;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+.spokes {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-origin: 50% 50%;
+  animation: rotate 10s infinite linear;
+}
+
+.spoke {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1.1px;
+  height: 50%;
+  background-color: #ffffff;
+  transform-origin: bottom center;
+}
+
+.spoke:nth-child(1) {
+  transform: rotate(15deg);
+}
+.spoke:nth-child(2) {
+  transform: rotate(30deg);
+}
+.spoke:nth-child(3) {
+  transform: rotate(45deg);
+}
+.spoke:nth-child(4) {
+  transform: rotate(60deg);
+}
+.spoke:nth-child(5) {
+  transform: rotate(75deg);
+}
+.spoke:nth-child(6) {
+  transform: rotate(90deg);
+}
+.spoke:nth-child(7) {
+  transform: rotate(105deg);
+}
+.spoke:nth-child(8) {
+  transform: rotate(120deg);
+}
+.spoke:nth-child(9) {
+  transform: rotate(135deg);
+}
+.spoke:nth-child(10) {
+  transform: rotate(150deg);
+}
+.spoke:nth-child(11) {
+  transform: rotate(165deg);
+}
+.spoke:nth-child(12) {
+  transform: rotate(180deg);
+}
+.spoke:nth-child(13) {
+  transform: rotate(195deg);
+}
+.spoke:nth-child(14) {
+  transform: rotate(210deg);
+}
+.spoke:nth-child(15) {
+  transform: rotate(225deg);
+}
+.spoke:nth-child(16) {
+  transform: rotate(240deg);
+}
+.spoke:nth-child(17) {
+  transform: rotate(255deg);
+}
+.spoke:nth-child(18) {
+  transform: rotate(270deg);
+}
+.spoke:nth-child(19) {
+  transform: rotate(285deg);
+}
+.spoke:nth-child(20) {
+  transform: rotate(300deg);
+}
+.spoke:nth-child(21) {
+  transform: rotate(315deg);
+}
+.spoke:nth-child(22) {
+  transform: rotate(330deg);
+}
+.spoke:nth-child(23) {
+  transform: rotate(345deg);
+}
+.spoke:nth-child(24) {
+  transform: rotate(360deg);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
