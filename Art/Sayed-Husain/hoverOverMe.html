@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #000;
+        transition: background 0.5s ease;
+      }
+      h1 {
+        color: aliceblue;
+      }
+
+      @keyframes gradient {
+        0% {
+          background: linear-gradient(
+            to right,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet,
+            red
+          );
+        }
+        25% {
+          background: linear-gradient(
+            to left,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet,
+            red
+          );
+        }
+        50% {
+          background: linear-gradient(
+            to bottom,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet,
+            red
+          );
+        }
+        75% {
+          background: linear-gradient(
+            to top,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet,
+            red
+          );
+        }
+        100% {
+          background: linear-gradient(
+            to right,
+            violet,
+            indigo,
+            blue,
+            green,
+            yellow,
+            orange,
+            red,
+            violet
+          );
+        }
+      }
+
+      body:hover {
+        animation: gradient 4s infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hover over this area to see the animation</h1>
+  </body>
+</html>
