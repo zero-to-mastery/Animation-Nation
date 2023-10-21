@@ -1,0 +1,94 @@
+/* background colour */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 50px;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgb(212, 180, 98);
+}
+
+.shelve {
+    position: relative;
+    width: 420px;
+    height: 20px;
+    background-color: #22148e;
+    top: 100px;
+    left: -40px;
+    border-radius: 20px 20px 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10%;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    transform: translateY(-100%);
+    /*so it is on the top of the shelve */
+}
+
+/* book */
+.book1 {
+    width: 50px;
+    height: 85px;
+    background-color: #65f60a;
+    animation-name: book_1;
+    animation-duration: 10s;
+    animation-delay: 2s; 
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes book_1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+}
+
+
+
+.book2 {
+    width: 50px;
+    height: 85px;
+    background-color: #f5aaea;
+    animation-timing-function: linear;
+    animation-name: book_1;
+    animation-duration: 10s;
+    animation-delay: 3s; 
+    animation-iteration-count: infinite;
+}
+
+.book3 {
+    width: 50px;
+    height: 85px;
+    background-color: #e4523e;
+    animation-timing-function: linear;
+    animation-name: book_1;
+    animation-duration: 10s;
+    animation-delay: 4s; 
+    animation-iteration-count: infinite;
+}
+
+.book4 {
+    width: 50px;
+    height: 85px;
+    background-color: #55bbf6;
+}
+
+p {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    color: #22148e;
+    text-align: center;
+    font-weight: 900;
+}
