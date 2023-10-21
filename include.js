@@ -373,6 +373,13 @@ let cards = [
     githubLink: 'https://github.com/jsonsinger'
   },
   {
+    artName: "Bubble Art",
+    pageLink: './Art/Comder/index.html',
+    imageLink: './Art/Comder/Animation.png',
+    author: 'Comder101',
+    githubLink: 'https://github.com/Comder101'
+  },
+  {
     artName: 'Ghost',
     pageLink: './Art/Russ/ghost.html',
     imageLink: './Art/Russ/ghost.gif',
