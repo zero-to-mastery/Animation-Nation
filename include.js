@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Smily Face Animation',
+    pageLink: './Art/Upendra/index.html',
+    imageLink: './Art/Upendra/smily.png',
+    author: 'Upendra',
+    githubLink: 'https://github.com/Upendra2003'
+  },
+  {
     artName: 'Robot Image Animation',
     pageLink: './Art/aniketmdinde/index.html',
     imageLink: './Art/aniketmdinde/robot.gif',
