@@ -2159,7 +2159,15 @@ let cards = [
     imageLink: './Art/VishalKumar786/CameraSwitch.gif',
     author: 'Vishal Kumar',
     githubLink: 'https://github.com/vkumar786'
-  }
+    
+  },
+  {
+    artName: 'rotatingrectangle in cube',
+    pageLink: './Art/PentesterPriyanshu/index.html',
+    imageLink: './Art/PentesterPriyanshu/rotatingrectangle in cube.gif',
+    author: 'Priyanshu Prajapati',
+    githubLink: 'https://github.com/PentesterPriyanshu'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
