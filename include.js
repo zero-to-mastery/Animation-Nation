@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/aniketmdinde'
   },
   {
+    artName: 'LoopLamina',
+    pageLink: './Art/manishjha-04/index.html',
+    imageLink: './Art/manishjha-04/Looplamina.gif',
+    author: 'Manish Jha',
+    githubLink: 'https://github.com/manishjha-04'
+  },
+  {
     artName: 'Aniket Dinde name Animation',
     pageLink: './Art/AniketDinde/index.html',
     imageLink: './Art/AniketDinde/aniket.gif',
