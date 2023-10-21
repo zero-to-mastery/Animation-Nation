@@ -2091,6 +2091,13 @@ let cards = [
     githubLink: 'https://github.com/Molina-Daniel'
   },
   {
+    artName: 'Bouncy Loader',
+    pageLink: './Art/tmsagarofficial/anim1.html',
+    imageLink: './Art/gabriel-conde/anim1.gif',
+    author: 'tmsagarofficial',
+    githubLink: 'https://github.com/tmsagarofficial'
+  },
+  {
     artName: 'Race in Space',
     pageLink: './Art/gabriel-conde/index.html',
     imageLink: './Art/gabriel-conde/race.gif',
