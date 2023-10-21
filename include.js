@@ -2131,7 +2131,7 @@ let cards = [
     imageLink: './Art/PentesterPriyanshu/rotatingrectangle in cube.gif',
     author: 'Priyanshu Prajapati',
     githubLink: 'https://github.com/PentesterPriyanshu'
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
