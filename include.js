@@ -2092,6 +2092,13 @@ let cards = [
     author: 'mohamedmosalam', 
     githubLink: 'https://github.com/MohamedAboMousallam' 
   },
+  {
+    artName: 'Milosz-Dev Animation',
+    pageLink: './Art/Milosz-Dev/index.html',
+    imageLink: './Art/Milosz-Dev/Milosz-Dev.gif',
+    author: 'Milosz',
+    githubLink: 'https://github.com/Milosz-Dev'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
