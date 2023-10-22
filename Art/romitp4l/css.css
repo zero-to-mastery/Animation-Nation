@@ -60,7 +60,8 @@ body {
 }
 
 @keyframes growSquaresGrow-1 {
-  0%, 10% {
+  0%,
+  10% {
     transform: scale(0) translateY(-50%);
     color: #55efc4;
   }
@@ -79,7 +80,8 @@ body {
 }
 
 @keyframes growSquaresGrow-2 {
-  0%, 20% {
+  0%,
+  20% {
     transform: scale(0) translateY(-50%);
     color: #ffeaa7;
   }
@@ -98,7 +100,8 @@ body {
 }
 
 @keyframes growSquaresGrow-3 {
-  0%, 30% {
+  0%,
+  30% {
     transform: scale(0) translateY(-50%);
     color: #fd79a8;
   }
