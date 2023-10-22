@@ -22,28 +22,28 @@
 }
 
 @keyframes rainbow {
-    from {
-      color: #5757ff;
-    }
-    10% {
-      color: #0099ff;
-    }
-    50% {
-      color: #ffe600;
-    }
-    75% {
-      color: #ff8133;
-    }
-    100% {
-      color: #ff6666;
-    }
+  from {
+    color: #5757ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #ffe600;
+  }
+  75% {
+    color: #ff8133;
+  }
+  100% {
+    color: #ff6666;
+  }
 }
 
 .shifting-name {
-    animation: bounce-and-move 3s infinite ease-in-out,
-              rainbow 5s infinite ease-in-out;
+  animation: bounce-and-move 3s infinite ease-in-out,
+    rainbow 5s infinite ease-in-out;
 }
 
 .top-margin {
-    margin-top: 35vh;
+  margin-top: 35vh;
 }
