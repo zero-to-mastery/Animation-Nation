@@ -21,20 +21,6 @@ let cards = [
     githubLink: 'https://github.com/niranjan-kurhade'
   },
   {
-    artName: 'Rotating color changing square',
-    pageLink: './Art/daulatojha17/index.html',
-    imageLink: './Art/daulatojha17/image.gif',
-    author: 'Daulat',
-    githubLink: 'https://github.com/daulatojha17'
-  },
-  {
-    artName: 'Form field animation', 
-    pageLink: './Art/massdx/index.html', 
-    imageLink: './Art/massdx/form-animation.gif', 
-    author: 'ODANOU Massahoud', 
-    githubLink: 'https://github.com/massdx' 
-  },
-  {
     artName: 'Form field animation',
     pageLink: './Art/massdx/index.html',
     imageLink: './Art/massdx/form-animation.gif',
