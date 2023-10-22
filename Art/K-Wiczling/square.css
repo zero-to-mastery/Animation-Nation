@@ -1,0 +1,19 @@
+.box1 {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  animation: box1 5s infinite;
+  margin: auto;
+  margin-top: 40vh;
+}
+
+@keyframes box1 {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+}

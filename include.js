@@ -1,5 +1,27 @@
 let cards = [
   {
+    artName: 'Circling square 2',
+    pageLink: './Art/samwillson2009/sq2.html',
+    imageLink: './Art/samwillson2009/sq2.gif',
+    author: 'Muhammad Juned Khan',
+    githubLink: 'https://github.com/samwillson2009'
+  },
+  {
+    artName: 'Circling square',
+    pageLink: './Art/samwillson2009/blueSquare.html',
+    imageLink: './Art/samwillson2009/blueSquare.gif',
+    author: 'Muhammad Juned Khan',
+    githubLink: 'https://github.com/samwillson2009'
+  },
+  {
+    artName: 'SQUARE ANIMATION',
+    pageLink: './Art/romitp4l/html.html',
+    imageLink: './Art/romitp4l/gif.gif',
+    author: 'ROMIT PAL',
+    githubLink: 'https://github.com/romitp4l'
+  },
+
+  {
     artName: 'Robot Image Animation',
     pageLink: './Art/aniketmdinde/index.html',
     imageLink: './Art/aniketmdinde/robot.gif',
@@ -7,9 +29,16 @@ let cards = [
     githubLink: 'https://github.com/aniketmdinde'
   },
   {
+    artName: 'Coffee Dispenser',
+    pageLink: './Art/TejaJanakiRam/index.html',
+    imageLink: './Art/TejaJanakiRam/coffee_machine.gif',
+    author: 'Teja',
+    githubLink: 'https://github.com/TejaJanakiRam'
+  },
+  {
     artName: 'LoopLamina',
-    pageLink: './Art/manishjha-04/index.html',
-    imageLink: './Art/manishjha-04/Looplamina.gif',
+    pageLink: './Art/manishjha-04/LoopLamina/index.html',
+    imageLink: './Art/manishjha-04/LoopLamina/Looplamina.gif',
     author: 'Manish Jha',
     githubLink: 'https://github.com/manishjha-04'
   },
@@ -91,6 +120,13 @@ let cards = [
     githubLink: 'https://github.com/ankit0049'
   },
   {
+    artName: 'Pacman',
+    pageLink: './Art/Moccasym/index.html',
+    imageLink: './Art/Moccasym/pacman.gif',
+    author: 'Moccasym',
+    githubLink: 'https://github.com/Moccasym'
+  },
+  {
     artName: ' Circular Roller ',
     pageLink: './Art/himanshumahto/index.html',
     imageLink: './Art/himanshumahto/Roller.gif',
@@ -111,15 +147,6 @@ let cards = [
     author: 'Ankit',
     githubLink: 'https://github.com/ankit0049'
   },
-
-  {
-    artName: 'BouncingBall',
-    pageLink: './Art/Abhishek-090/BouncingBall.html',
-    imageLink: './Art/Ahishek-090/BouncingBall.gif',
-    author: 'Abhishek-090',
-    githubLink: 'https://github.com/Abhishek-090'
-  },
-
   {
     artName: 'Text-Animation',
     pageLink: './Art/Vinay_Adatiya/textanimation.html',
@@ -2112,6 +2139,13 @@ let cards = [
     githubLink: 'https://github.com/Molina-Daniel'
   },
   {
+    artName: 'Cinematic-Animation',
+    pageLink: './Art/manishjha-04/Cinematic/index.html',
+    imageLink: './Art/manishjha-04/Cinematic/cinematic_animation.gif',
+    author: 'Manish Jha',
+    githubLink: 'https://github.com/manishjha-04'
+  },
+  {
     artName: 'Bouncy Loader',
     pageLink: './Art/tmsagarofficial/anim1.html',
     imageLink: './Art/gabriel-conde/anim1.gif',
@@ -2124,6 +2158,20 @@ let cards = [
     imageLink: './Art/gabriel-conde/race.gif',
     author: 'Gabriel Conde',
     githubLink: 'https://github.com/gabriel-conde'
+  },
+  {
+    artName: 'Square',
+    pageLink: './Art/K-Wiczling/square.html',
+    imageLink: './Art/K-Wiczling/square.gif',
+    author: 'K-Wiczling',
+    githubLink: 'https://github.com/K-Wiczling'
+  },
+  {
+    artName: 'Circle',
+    pageLink: './Art/K-Wiczling/circle.html',
+    imageLink: './Art/K-Wiczling/circle.png',
+    author: 'K-Wiczling',
+    githubLink: 'https://github.com/K-Wiczling'
   },
   {
     artName: 'Rolling Square Loader',
@@ -2166,6 +2214,13 @@ let cards = [
     imageLink: './Art/rishika-on-git/result.gif',
     author: 'Rishika Aggarwal',
     githubLink: 'https://github.com/rishika-on-git'
+  },
+  {
+    artName: 'CameraShutter',
+    pageLink: './Art/manishjha-04/CameraShutter/index.html',
+    imageLink: './Art/manishjha-04/CameraShutter/camera-shutter.gif',
+    author: 'Manish Jha',
+    githubLink: 'https://github.com/manishjha-04'
   }
 ];
 
