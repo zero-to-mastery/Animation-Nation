@@ -2351,20 +2351,22 @@ function shuffle(o) {
 /** Creates cards from the array above
  *  You don't need to modify this
  *  */
-let contents = shuffle(cards).map(c => ([
-  `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
-]));
-
+const getCardContents = (cardList) => {
+  return shuffle(cardList).map(c => ([
+    `<li class="card">` +
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
+  ]))
+};
 
 /* Injects cards list html into the DOM */
+let contents = getCardContents( cards );
 document.getElementById('cards').innerHTML = contents;
 
 
@@ -2387,3 +2389,28 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+
+/* Search filter - by author or by name - update displayed cards */
+function searchCard(event){
+  let timeoutId = null;
+  !!timeoutId && clearTimeout(timeoutId);
+
+  const value = event.target.value.toLowerCase();
+  let filteredCards;
+  if( !!value ){
+    filteredCards = cards.filter(({ artName, githubLink }) => {
+      const _artName = artName.toLowerCase();
+      const _githubLink = githubLink.toLowerCase();
+      // return _artName.includes( value ) || _githubLink.includes( value );
+      return [_artName, _githubLink].some(detail => detail.includes(value))
+    });
+    contents = getCardContents( filteredCards );
+  } else {
+    contents = getCardContents( cards );
+  }
+  timeoutId = setTimeout(() => {
+    document.getElementById('cards').innerHTML = contents;
+  }, 200);
+}
+document.getElementById('search-bar').addEventListener('keyup', searchCard);
