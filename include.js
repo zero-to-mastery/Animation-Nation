@@ -2133,13 +2133,6 @@ let cards = [
     githubLink: 'https://github.com/gabriel-conde'
   },
   {
-    artName: 'Rolling Square Loader',
-    pageLink: './Art/psykat1611/index.html',
-    imageLink: './Art/psykat1611/loader.gif',
-    author: 'psykat1116',
-    githubLink: 'https://github.com/psykat1116'
-  },
-  {
     artName: 'Score a Goal',
     pageLink: './Art/ruchircodes24/index.html',
     imageLink: './Art/ruchircodes24/Score.gif',
