@@ -1,11 +1,11 @@
 let cards = [
-    {
-      artName: 'Circle Animation',
-      pageLink: './Art/samwillson2009/circle2.html',
-      imageLink: './Art/samwillson2009/circle2.gif',
-      author: 'Muhammad Juned Khan',
-      githubLink: 'https://github.com/samwillson2009'
-    },
+  {
+    artName: 'Circle Animation',
+    pageLink: './Art/samwillson2009/circle2.html',
+    imageLink: './Art/samwillson2009/circle2.gif',
+    author: 'Muhammad Juned Khan',
+    githubLink: 'https://github.com/samwillson2009'
+  },
   {
     artName: 'Hacktober Circle Animation',
     pageLink: './Art/samwillson2009/circle.html',
