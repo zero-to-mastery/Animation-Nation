@@ -1,4 +1,6 @@
-let cards = [
+
+/* Each contributions details to builds cards */
+const cards = [
   {
     artName: 'Flower Animation',
     pageLink: './Art/Kris248/index.html',
@@ -2328,43 +2330,47 @@ let cards = [
   }
 ];
 
-// +--------------------------------------------------------------------------------+
-// +                                                                                +
-// +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
-// +                                                                                +
-// +--------------------------------------------------------------------------------+
 
-// Creates cards from the array above
-// You don't need to modify this
-let contents = [];
-Shuffle(cards).forEach((c) => {
-  contents.push([
-    `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
-  ]);
-});
+/* -------------------------------------------------------------------------- */
+/*                                                                            */
+/*                YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS               */
+/*                                                                            */
+/* -------------------------------------------------------------------------- */
 
-document.getElementById('cards').innerHTML = contents;
-
-function Shuffle(o) {
+/* Shuffles cards' order */
+function shuffle(o) {
   for (
-    var j, x, i = o.length;
+    let j, x, i = o.length;
     i;
     j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
   );
   return o;
 }
 
-// go to top
+
+/** Creates cards from the array above
+ *  You don't need to modify this
+ *  */
+let contents = shuffle(cards).map(c => ([
+  `<li class="card">` +
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
+]));
+
+
+/* Injects cards list html into the DOM */
+document.getElementById('cards').innerHTML = contents;
+
+
+/* Adds scroll to top arrow button */
 document.addEventListener('DOMContentLoaded', function () {
-  var goToTopBtn = document.querySelector('.go-to-top');
+  const goToTopBtn = document.querySelector('.go-to-top');
 
   window.addEventListener('scroll', function () {
     if (window.scrollY > 100) {
