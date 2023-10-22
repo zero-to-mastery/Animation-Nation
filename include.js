@@ -2196,7 +2196,6 @@ let cards = [
     githubLink: 'https://github.com/vkumar786'
   },
   {
-    
     artName: 'Rotating Box',
     pageLink: './Art/Dhairya-Mehra/animation.html',
     imageLink: './Art/Dhairya-Mehra/animation.gif',
