@@ -1,45 +1,45 @@
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #000; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
 }
 
 .animated-div {
-    width: 200px;
-    height: 200px;
-    background-color: #ff4500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: rotateAndPulse 4s linear infinite;
+  width: 200px;
+  height: 200px;
+  background-color: #ff4500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotateAndPulse 4s linear infinite;
 }
 
 .inner-circle {
-    width: 100px;
-    height: 100px;
-    background-color: #87ceeb;
-    border-radius: 50%;
-    animation: pulse 2s alternate infinite;
+  width: 100px;
+  height: 100px;
+  background-color: #87ceeb;
+  border-radius: 50%;
+  animation: pulse 2s alternate infinite;
 }
 
 @keyframes rotateAndPulse {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.2);
-    }
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
 }
