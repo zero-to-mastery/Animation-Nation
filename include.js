@@ -4,14 +4,14 @@ let cards = [
     pageLink: './Art/daemonvk18/animation..html',
     imageLink: './Art/daemonvk18/animation.gif',
     author: 'navya preetham reddy',
-    githubLink: 'https://github.com/aniketmdinde'
+    githubLink: 'https://github.com/daemonvk18'
   },
   {
     artName: 'Robot Image Animation',
     pageLink: './Art/aniketmdinde/index.html',
     imageLink: './Art/aniketmdinde/robot.gif',
     author: 'Aniket',
-    githubLink: 'https://github.com/daemonvk18'
+    githubLink: 'https://github.com/aniketmdinde'
   },
   {
     artName: 'Aniket Dinde name Animation',
