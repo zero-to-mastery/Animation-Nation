@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  opacity: 0.5;
+  animation: twinkle 1s infinite;
+  background: url('star.png') no-repeat center center/contain;
+
+}
+
+@keyframes twinkle {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.sun {
+  width: 80px;
+  height: 80px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.orbit {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.orbit-mercury { width: 210px; height: 126px; }
+.orbit-venus { width: 330px; height: 198px; }
+.orbit-earth { width: 450px; height: 270px; }
+.orbit-mars { width: 570px; height: 342px; }
+.orbit-jupiter { width: 730px; height: 438px; }
+.orbit-saturn { width: 930px; height: 558px; }
+.orbit-uranus { width: 1130px; height: 678px; }
+.orbit-neptune { width: 1290px; height: 774px; }
+
+.planet {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 49%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+}
+
+#planet-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white; /* Set the text color to white */
+}
+.mercury { background-color: #D3D3D3; }
+.venus { background-color: #FFD700; }
+.earth { background-color: #6495ED; }
+.mars { background-color: #FF4500; }
+.jupiter {width:50px; height:50px ; background-color: #D2691E; }
+.saturn {width:40px; height:40px ; background-color: #FFA500; }
+.uranus { background-color: #00CED1; }
+.neptune { background-color: #000080; }
