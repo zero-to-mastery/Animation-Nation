@@ -120,6 +120,13 @@ let cards = [
     githubLink: 'https://github.com/ankit0049'
   },
   {
+    artName: 'Pacman',
+    pageLink: './Art/Moccasym/index.html',
+    imageLink: './Art/Moccasym/pacman.gif',
+    author: 'Moccasym',
+    githubLink: 'https://github.com/Moccasym'
+  },
+  {
     artName: ' Circular Roller ',
     pageLink: './Art/himanshumahto/index.html',
     imageLink: './Art/himanshumahto/Roller.gif',
