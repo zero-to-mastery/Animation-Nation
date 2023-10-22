@@ -1003,6 +1003,13 @@ let cards = [
     githubLink: 'https://github.com/rajan4405'
   },
   {
+    artName: 'Opening Envelope Animation',
+    pageLink: './Art/VivekGuruduttK28/index.html',
+    imageLink: './Art/VivekGuruduttK28/Opening_Envelope.gif',
+    author: 'VivekGuruduttK28',
+    githubLink: 'https://github.com/VivekGuruduttK28'
+  },
+  {
     artName: 'Shooting gun',
     pageLink: './Art/BlueHeart0065/gun.html',
     imageLink: './Art/BlueHeart0065/gun.gif',
