@@ -35,11 +35,11 @@ let cards = [
     githubLink: 'https://github.com/daulatojha17'
   },
   {
-    artName: 'Form field animation',
-    pageLink: './Art/massdx/index.html',
-    imageLink: './Art/massdx/form-animation.gif',
-    author: 'ODANOU Massahoud',
-    githubLink: 'https://github.com/massdx'
+    artName: 'Form field animation', 
+    pageLink: './Art/massdx/index.html', 
+    imageLink: './Art/massdx/form-animation.gif', 
+    author: 'ODANOU Massahoud', 
+    githubLink: 'https://github.com/massdx' 
   },
   {
     artName: 'Form field animation',
@@ -2148,10 +2148,10 @@ let cards = [
   },
   {
     artName: 'lightsaber glowing animation',
-    pageLink: './Art/mohamedabomosallam/index.html',
-    imageLink: './Art/mohamedabomosallam/lightsaber.gif',
-    author: 'mohamedmosalam',
-    githubLink: 'https://github.com/MohamedAboMousallam'
+    pageLink: './Art/mohamedabomosallam/index.html', 
+    imageLink: './Art/mohamedabomosallam/lightsaber.gif', 
+    author: 'mohamedmosalam', 
+    githubLink: 'https://github.com/MohamedAboMousallam' 
   },
   {
     artName: 'Breaking news',
@@ -2166,7 +2166,7 @@ let cards = [
     imageLink: './Art/VishalKumar786/CameraSwitch.gif',
     author: 'Vishal Kumar',
     githubLink: 'https://github.com/vkumar786'
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+

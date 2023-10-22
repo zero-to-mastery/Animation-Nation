@@ -12,7 +12,7 @@
 
 body {
   background-color: #0077b6;
-}
+} 
 
 .duck {
   position: absolute;
@@ -22,7 +22,7 @@ body {
   left: 0;
   right: 0;
   bottom: 50px;
-  /*   border : 1px solid black; */
+/*   border : 1px solid black; */
 }
 
 .head {
@@ -44,7 +44,7 @@ body {
 .wing {
   width: 130px;
   height: 80px;
-  /*   background-color: #191919; */
+/*   background-color: #191919; */
   background-color: var(--wing);
   position: absolute;
   top: 5px;
@@ -64,7 +64,7 @@ body {
   top: 55px;
   right: -25px;
   z-index: -1;
-  transform: skewX(30deg) rotate(-25deg);
+  transform: skewX(30deg) rotate(-25deg); 
   border-radius: 50px;
 }
 
@@ -72,26 +72,25 @@ body {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  z-index: 1;
+  z-index:1;
   background-color: white;
   position: absolute;
   left: 40%;
   top: 20px;
-}
+} 
 
 .pupil {
   border-radius: 50%;
-  background-color: black;
-  height: 25px;
-  width: 25px;
+   background-color: black;
+  height : 25px;
+  width : 25px;
   position: absolute;
   left: 12px;
   top: 8px;
   z-index: -1;
 }
 
-.left-leg,
-.right-leg {
+.left-leg, .right-leg {
   height: 100px;
   width: 22px;
   background-color: orange;
@@ -105,19 +104,18 @@ body {
 
 @keyframes walk {
   33.33% {
-    transform: translateY(20px) rotate(0deg);
+    transform: translateY(20px)  rotate(0deg);
   }
   66.66% {
-    transform: translate(-20px, 15px) rotate(45deg);
+    transform: translate(-20px, 15px)  rotate(45deg);
   }
 }
 .right-leg {
-  /*   left: -20px; */
+/*   left: -20px; */
   animation-delay: 0.5s;
-}
+} 
 
-.left-foot,
-.right-foot {
+.left-foot, .right-foot {
   height: 18px;
   width: 45px;
   background-color: orange;
@@ -136,13 +134,13 @@ body {
   position: absolute;
   z-index: -3;
   right: -130px;
-  /*   top: 80px;
+/*   top: 80px;
   left: 80px; */
 }
 
 .cloud:before {
   position: absolute;
-  content: '';
+  content:"";
   background-color: white;
   height: 65px;
   width: 65px;
@@ -153,7 +151,7 @@ body {
 
 .cloud:after {
   position: absolute;
-  content: '';
+  content:"";
   background-color: white;
   height: 45px;
   width: 45px;
@@ -212,6 +210,6 @@ body {
 
 @keyframes wing {
   50% {
-    transform: rotate(20deg);
+    transform: rotate(20deg); 
   }
 }

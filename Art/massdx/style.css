@@ -1,91 +1,95 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
-body {
-  background-color: rgb(235, 234, 255);
+body{
+    background-color: rgb(235, 234, 255);
 }
 
 .title {
-  padding: 0.7rem 0;
-}
+    padding: .7rem 0 ;
+ }
 .card {
-  width: 25%;
-  margin-inline: auto;
-  margin-top: 10rem;
-  background-color: white;
-  box-shadow: 0 5px 50px 0 rgba(41, 48, 61, 0.13);
-  padding: 2rem;
-  border-radius: 0.5rem;
+    width: 25%;
+    margin-inline: auto;
+    margin-top: 10rem;
+    background-color: white ;
+    box-shadow: 0 5px 50px 0 rgba(41, 48, 61, 0.13);
+    padding: 2rem ;
+    border-radius: .5rem;
 }
-.form {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  padding-block: 2rem;
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-block: 2rem;
+   
 }
 label {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 .input-card {
-  width: 100%;
-  border-radius: 5px;
-  box-sizing: border-box;
+    width:100% ; 
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
-.username,
-.email {
-  width: 95%;
-  height: 50px;
-  padding-left: 1rem;
-  font-size: 16px;
-  transition: 0.3s ease;
-  border: 2px solid rgb(197, 197, 197);
-  border-radius: 5px;
-  background-color: transparent;
+.username , .email {
+    width: 95%;
+    height: 50px;
+    padding-left: 1rem;
+    font-size: 16px;
+    transition: .3s ease;
+    border: 2px solid rgb(197, 197, 197) ;
+    border-radius: 5px;
+    background-color: transparent;
+    
+
 }
 .input-card {
-  position: relative;
-  width: 100%;
+    position: relative;
+    width: 100%;
+  
 }
-.user-label,
-.email-label {
-  transform: translate(15px, -35px);
-  transition: 0.2s ease;
-  background-color: white;
-  display: inline-block;
+.user-label, .email-label {  
+   transform: translate(15px,-35px);
+   transition: .2s ease;
+   background-color: white;
+   display: inline-block;
 }
-.username:focus ~ .user-label {
-  transform: translate(0, -80px);
+.username:focus  ~ .user-label {
+    transform: translate(0,-80px);
 }
 .email:focus ~ .email-label {
-  transform: translate(0, -80px);
+    transform: translate(0,-80px);
 }
-.username:focus,
-.email:focus {
+.username:focus , .email:focus {
   outline-color: blue;
 }
 .button {
-  background-color: blue;
-  color: white;
-  padding: 1rem 1.5rem;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  width: 100%;
+    background-color: blue;
+    color: white ;
+    padding: 1rem 1.5rem;
+    border: none ;
+    border-radius: 5px ;
+    font-size: 16px ;
+    width: 100%;
+   
 }
 .button:hover {
-  box-shadow: 0 6px 10px rgb(190, 190, 190);
-  transition: 0.1s ease;
-  opacity: 0.8;
+   box-shadow: 0 6px 10px rgb(190, 190, 190);
+    transition: .1s ease;
+    opacity: .8;
+  
+
 }
-@media (max-width: 700px) {
-  .card {
-    width: 100%;
-  }
+@media (max-width: 700px ) {
+    .card {
+        width: 100% ;
+    }
 }

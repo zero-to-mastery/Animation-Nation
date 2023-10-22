@@ -1,147 +1,110 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #2e2e2e;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e2e;
 }
 
 .lightsaber {
-  position: relative;
-  width: 6px;
-  height: 180px;
-  margin-left: 25px;
-  background-color: white;
-  border-radius: 6px/10px;
-  box-shadow: 0px 0px 10px, 0px 0px 2px inset;
-  transform: scale(2) rotate(-45deg) scale(-1, 1);
-  animation: glow 1.5s linear infinite;
+    position: relative;
+    width: 6px;
+    height: 180px;
+    margin-left: 25px;
+    background-color: white;
+    border-radius: 6px/10px;
+    box-shadow: 0px 0px 10px,
+        0px 0px 2px inset;
+    transform: scale(2) rotate(-45deg) scale(-1, 1);
+    animation: glow 1.5s linear infinite;
+
 }
 
 .lightsaber:before {
-  content: '';
-  position: absolute;
-  left: -1px;
-  top: 175px;
-  width: 8px;
-  height: 12px;
-  background-image: linear-gradient(
-      to right,
-      transparent 1px,
-      rgba(255, 255, 255, 0.4) 1px,
-      rgba(255, 255, 255, 0.8) 3px,
-      rgba(255, 255, 255, 0.3) 4px,
-      rgba(0, 0, 0, 0.2) 7px,
-      transparent 7px
-    ),
-    linear-gradient(
-      to bottom,
-      orange 3px,
-      black 3px,
-      black 4px,
-      transparent 4px,
-      transparent 8px,
-      black 8px,
-      black 9px,
-      orange 9px,
-      orange 11px,
-      black 11px,
-      black 12px
-    ),
-    linear-gradient(
-      to left,
-      transparent 1px,
-      orange 1px,
-      orange 7px,
-      transparent 7px
-    );
-  box-shadow: 1px 25px 0px 0px #555, 2px 25px 0px 0px silver,
-    2px 25px 0px 1px #222;
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 175px;
+    width: 8px;
+    height: 12px;
+    background-image: linear-gradient(to right,
+            transparent 1px,
+            rgba(255, 255, 255, 0.4) 1px,
+            rgba(255, 255, 255, 0.8) 3px,
+            rgba(255, 255, 255, 0.3) 4px,
+            rgba(0, 0, 0, 0.2) 7px,
+            transparent 7px),
+        linear-gradient(to bottom,
+            orange 3px, black 3px, black 4px,
+            transparent 4px, transparent 8px,
+            black 8px, black 9px, orange 9px,
+            orange 11px, black 11px, black 12px),
+        linear-gradient(to left,
+            transparent 1px, orange 1px,
+            orange 7px, transparent 7px);
+    box-shadow: 1px 25px 0px 0px #555,
+        2px 25px 0px 0px silver,
+        2px 25px 0px 1px #222;
+
 }
 
 .lightsaber:after {
-  position: absolute;
-  top: 187px;
-  left: -1px;
-  width: 8px;
-  height: 60px;
-  background-image: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0) 0px,
-      rgba(255, 255, 255, 0.7) 2px,
-      rgba(255, 255, 255, 0.2) 3px,
-      rgba(0, 0, 0, 0.5) 8px
-    ),
-    linear-gradient(
-      to bottom,
-      grey 5px,
-      black 5px,
-      grey 6px,
-      grey 7px,
-      black 7px,
-      grey 8px,
-      grey 9px,
-      black 9px,
-      grey 10px,
-      grey 11px,
-      black 11px,
-      grey 12px,
-      grey 16px,
-      black 16px,
-      black 17px,
-      orange 17px,
-      orange 20px,
-      black 20px,
-      black 21px,
-      transparent 21px,
-      transparent 57px,
-      black 57px,
-      orange 58px
-    ),
-    linear-gradient(
-      to right,
-      silver 1px,
-      black 1px,
-      black 2px,
-      transparent 3px,
-      transparent 3px,
-      silver 3px,
-      silver 5px,
-      black 5px,
-      grey 6px,
-      transparent 6px,
-      transparent 7px,
-      silver 7px,
-      silver 8px
-    ),
-    linear-gradient(to bottom, grey 0px, grey 60px);
-  content: '';
+    position: absolute;
+    top: 187px;
+    left: -1px;
+    width: 8px;
+    height: 60px;
+    background-image:
+        linear-gradient(to right,
+            rgba(255, 255, 255, 0) 0px,
+            rgba(255, 255, 255, 0.7) 2px,
+            rgba(255, 255, 255, 0.2) 3px,
+            rgba(0, 0, 0, 0.5) 8px),
+        linear-gradient(to bottom, grey 5px, black 5px,
+            grey 6px, grey 7px, black 7px,
+            grey 8px, grey 9px, black 9px,
+            grey 10px, grey 11px, black 11px,
+            grey 12px, grey 16px,
+            black 16px, black 17px,
+            orange 17px, orange 20px,
+            black 20px, black 21px, transparent 21px,
+            transparent 57px, black 57px, orange 58px),
+        linear-gradient(to right,
+            silver 1px, black 1px, black 2px,
+            transparent 3px, transparent 3px,
+            silver 3px, silver 5px, black 5px, grey 6px,
+            transparent 6px, transparent 7px,
+            silver 7px, silver 8px),
+        linear-gradient(to bottom,
+            grey 0px, grey 60px);
+    content: "";
 }
 
 @keyframes glow {
-  from {
-    color: #234db8;
-    box-shadow: 0 0 9px #83a3f3;
-  }
+    from {
+        color: #234DB8;
+        box-shadow: 0 0 9px #83a3f3;
+    }
 
-  50% {
-    color: #234db8;
-    box-shadow: 0 0 18px #8ba5e8;
-  }
+    50% {
+        color: #234DB8;
+        box-shadow: 0 0 18px #8ba5e8;
+    }
 
-  to {
-    color: #234db8;
-    box-shadow: 0 0 9px #6e8bd3;
-  }
+    to {
+        color: #234DB8;
+        box-shadow: 0 0 9px #6e8bd3;
+    }
 }
 
+
 .star-wars-title {
-  font-family: 'Star Wars', sans-serif;
-  font-size: 36px;
-  color: white;
-  text-align: center;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Star Wars', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
