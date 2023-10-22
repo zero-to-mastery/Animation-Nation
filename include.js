@@ -2147,28 +2147,23 @@ let cards = [
     githubLink: 'https://github.com/gabriel-conde'
   },
   {
-<<<<<<< HEAD
-    artName: 'Square', 
-    pageLink: './Art/K-Wiczling/square.html', 
-    imageLink: './Art/K-Wiczling/square.gif', 
-=======
     artName: 'Square',
     pageLink: './Art/K-Wiczling/square.html',
     imageLink: './Art/K-Wiczling/square.gif',
->>>>>>> 783945a70f7eef9138a7738237de9f98f7962d83
     author: 'K-Wiczling',
     githubLink: 'https://github.com/K-Wiczling'
   },
   {
-<<<<<<< HEAD
-    artName: 'Circle', 
-    pageLink: './Art/K-Wiczling/circle.html', 
-    imageLink: './Art/K-Wiczling/circle.png', 
-=======
     artName: 'Circle',
     pageLink: './Art/K-Wiczling/circle.html',
     imageLink: './Art/K-Wiczling/circle.png',
->>>>>>> 783945a70f7eef9138a7738237de9f98f7962d83
+    author: 'K-Wiczling',
+    githubLink: 'https://github.com/K-Wiczling'
+  },
+  {
+    artName: 'Complex',
+    pageLink: './Art/K-Wiczling/complex.html',
+    imageLink: './Art/K-Wiczling/complex.png',
     author: 'K-Wiczling',
     githubLink: 'https://github.com/K-Wiczling'
   },
