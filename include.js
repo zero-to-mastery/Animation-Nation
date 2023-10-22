@@ -1,4 +1,11 @@
 let cards = [
+    {
+      artName: 'Hacktober Circle Animation',
+      pageLink: './Art/samwillson2009/circle.html',
+      imageLink: './Art/samwillson2009/circle.gif',
+      author: 'Muhammad Juned Khan',
+      githubLink: 'https://github.com/samwillson2009'
+    },
    {
     artName 'Loading Dot Animation',
     pageLink '.Artahmedrazaindex.html',
