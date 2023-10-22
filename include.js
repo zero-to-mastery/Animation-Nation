@@ -1,10 +1,24 @@
 let cards = [
   {
+    artName: 'Circling square',
+    pageLink: './Art/samwillson2009/blueSquare.html',
+    imageLink: './Art/samwillson2009/blueSquare.gif',
+    author: 'Muhammad Juned Khan',
+    githubLink: 'https://github.com/samwillson2009'
+  },
+  {
     artName: 'Robot Image Animation',
     pageLink: './Art/aniketmdinde/index.html',
     imageLink: './Art/aniketmdinde/robot.gif',
     author: 'Aniket',
     githubLink: 'https://github.com/aniketmdinde'
+  },
+  {
+    artName: 'Coffee Dispenser',
+    pageLink: './Art/TejaJanakiRam/index.html',
+    imageLink: './Art/TejaJanakiRam/coffee_machine.gif',
+    author: 'Teja',
+    githubLink: 'https://github.com/TejaJanakiRam'
   },
   {
     artName: 'LoopLamina',
@@ -2126,16 +2140,28 @@ let cards = [
     githubLink: 'https://github.com/gabriel-conde'
   },
   {
+<<<<<<< HEAD
     artName: 'Square', 
     pageLink: './Art/K-Wiczling/square.html', 
     imageLink: './Art/K-Wiczling/square.gif', 
+=======
+    artName: 'Square',
+    pageLink: './Art/K-Wiczling/square.html',
+    imageLink: './Art/K-Wiczling/square.gif',
+>>>>>>> 783945a70f7eef9138a7738237de9f98f7962d83
     author: 'K-Wiczling',
     githubLink: 'https://github.com/K-Wiczling'
   },
   {
+<<<<<<< HEAD
     artName: 'Circle', 
     pageLink: './Art/K-Wiczling/circle.html', 
     imageLink: './Art/K-Wiczling/circle.png', 
+=======
+    artName: 'Circle',
+    pageLink: './Art/K-Wiczling/circle.html',
+    imageLink: './Art/K-Wiczling/circle.png',
+>>>>>>> 783945a70f7eef9138a7738237de9f98f7962d83
     author: 'K-Wiczling',
     githubLink: 'https://github.com/K-Wiczling'
   },
