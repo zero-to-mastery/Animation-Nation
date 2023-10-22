@@ -63,6 +63,13 @@ let cards = [
     githubLink: 'https://github.com/ahmedalhamad7'
   },
   {
+    artName: 'DayToNight',
+    pageLink: './Art/NituCStefann/DayToNight.html',
+    imageLink: './Art/NituCStefann/DayToNight.png',
+    author: 'NituCStefann',
+    githubLink: 'https://github.com/NituCStefann'
+  }
+  {
     artName: 'Bird Walk',
     pageLink: './Art/pypimo/index.html',
     imageLink: './Art/pypimo/bird-walk.gif',
