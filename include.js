@@ -2248,7 +2248,14 @@ let cards = [
     imageLink: './Art/Shubhamkashyap1601/solar.gif',
     author: 'Shubham Kashyap',
     githubLink: 'https://github.com/Shubhamkashyap1601'
-  }
+  },
+  {
+    artName: 'Compass Loader',
+    pageLink: './Art/AmanPathan/index.html',
+    imageLink: '.Art/AmanPathan/CompassLoader.gif',
+    author: 'AmanPathan',
+    githubLink: 'https://github.com/AmanPathan'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
