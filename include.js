@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Animated Button',
+    pageLink: './Art/H-SM/index.html',
+    imageLink: './Art/H-SM/button_animation_here.gif',
+    author: 'H-SM',
+    githubLink: 'https://github.com/H-SM'
+  },
+  {
     artName: 'Circling square 2',
     pageLink: './Art/samwillson2009/sq2.html',
     imageLink: './Art/samwillson2009/sq2.gif',
@@ -20,7 +27,6 @@ let cards = [
     author: 'ROMIT PAL',
     githubLink: 'https://github.com/romitp4l'
   },
-
   {
     artName: 'Robot Image Animation',
     pageLink: './Art/aniketmdinde/index.html',
