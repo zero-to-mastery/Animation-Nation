@@ -48,6 +48,7 @@ let cards = [
     author: 'Aniket',
     githubLink: 'https://github.com/aniketmdinde'
   },
+  // TODO: REMOVE Coffee machine x 2 author has it
   {
     artName: 'Coffee Dispenser',
     pageLink: './Art/TejaJanakiRam/index.html',
@@ -96,13 +97,6 @@ let cards = [
     imageLink: './Art/massdx/form-animation.gif',
     author: 'ODANOU Massahoud',
     githubLink: 'https://github.com/massdx'
-  },
-  {
-    artName: 'Cubic Circle Animation',
-    pageLink: './Art/88Abhi/index.html',
-    imageLink: './Art/88Abhi/cubeAnimation.png',
-    author: 'Abhishek',
-    githubLink: 'https://github.com/88Abhi'
   },
   {
     artName: 'Shooting stars in the night sky',
@@ -197,8 +191,8 @@ let cards = [
   },
   {
     artName: 'The Mantras',
-    pageLink: './Art/vikasgadge/index.html',
-    imageLink: './Art/vikasgadge/The Mantras.mp4',
+    pageLink: './Art/vikasgadge28/index.html',
+    imageLink: './Art/vikasgadge28/The_Mantras.gif',
     author: 'vikasgadge',
     githubLink: 'https://github.com/vikasgadge28'
   },
@@ -441,13 +435,6 @@ let cards = [
     imageLink: './Art/JT-Singh/biker.gif',
     author: 'JT Singh',
     githubLink: 'https://github.com/JT-Singh'
-  },
-  {
-    artName: 'hanisntsolo',
-    pageLink: './Art/Joy/hanisntsolo.html',
-    imageLink: './Art/Joy/hanisntsolo.gif',
-    author: 'Hanisntsolo',
-    githubLink: 'https://github.com/hanisntsolo'
   },
   {
     artName: 'Triangle',
@@ -948,8 +935,8 @@ let cards = [
   },
   {
     artName: 'Starry Night',
-    pageLink: './Art/lucileTech/starry_night.html',
-    imageLink: './Art/lucileTech/starry_night.png',
+    pageLink: './Art/LucileTech/starry-night/starry_night.html',
+    imageLink: './Art/LucileTech/starry-night/starry_night.png',
     author: 'LucileTech',
     githubLink: 'https://https://github.com/LucileTech'
   },
@@ -983,8 +970,8 @@ let cards = [
   },
   {
     artName: 'Let the Sunshine In',
-    pageLink: './Art/Sunshine/sunshine.html',
-    imageLink: './Art/Sunshine/styles.css',
+    pageLink: './Art/LucileTech/Sunshine/sunshine.html',
+    imageLink: './Art/LucileTech/Sunshine/styles.css',
     author: 'LucileTech',
     githubLink: 'https://https://github.com/LucileTech'
   },
@@ -1499,6 +1486,7 @@ let cards = [
     author: 'Hrishit',
     githubLink: 'https://github.com/Hrishit-B'
   },
+  // TODO: REMOVE Coffee machine x 2 author has it
   {
     artName: 'Coffee Machine',
     pageLink: './Art/shruti-sen2004/index.html',
@@ -1971,8 +1959,8 @@ let cards = [
   },
   {
     artName: 'Rotating Spirals',
-    pageLink: './Art/vivek/RotatingSpirals.html',
-    imageLink: './Art/vivek/RotatingStars.gif',
+    pageLink: './Art/Vivek-Kumar/RotatingSpirals.html',
+    imageLink: './Art/Vivek-Kumar/RotatingSpirals.gif',
     author: 'vivekBoii',
     githubLink: 'https://github.com/vivekBoii'
   },
@@ -2083,8 +2071,8 @@ let cards = [
   },
   {
     artName: 'Three Animate',
-    pageLink: './Art/ankoorgarai/index.html',
-    imageLink: './Art/ankoorgarai/threeanimate.gif',
+    pageLink: './Art/ankoorgorai/index.html',
+    imageLink: './Art/ankoorgorai/threeanimate.gif',
     author: 'Ankoor Gorai',
     githubLink: 'https://github.com/ankoorgorai'
   },
@@ -2168,7 +2156,7 @@ let cards = [
   {
     artName: 'Bouncy Loader',
     pageLink: './Art/tmsagarofficial/anim1.html',
-    imageLink: './Art/gabriel-conde/anim1.gif',
+    imageLink: './Art/tmsagarofficial/anim1.gif',
     author: 'tmsagarofficial',
     githubLink: 'https://github.com/tmsagarofficial'
   },
