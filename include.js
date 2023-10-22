@@ -133,15 +133,6 @@ let cards = [
     author: 'Ankit',
     githubLink: 'https://github.com/ankit0049'
   },
-
-  {
-    artName: 'BouncingBall',
-    pageLink: './Art/Abhishek-090/BouncingBall.html',
-    imageLink: './Art/Ahishek-090/BouncingBall.gif',
-    author: 'Abhishek-090',
-    githubLink: 'https://github.com/Abhishek-090'
-  },
-
   {
     artName: 'Text-Animation',
     pageLink: './Art/Vinay_Adatiya/textanimation.html',
