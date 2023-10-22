@@ -7,6 +7,20 @@ let cards = [
       githubLink: 'https://github.com/samwillson2009'
     },
   {
+    artName: 'Hacktober Circle Animation',
+    pageLink: './Art/samwillson2009/circle.html',
+    imageLink: './Art/samwillson2009/circle.gif',
+    author: 'Muhammad Juned Khan',
+    githubLink: 'https://github.com/samwillson2009'
+  },
+  {
+    artName: 'Animated Button',
+    pageLink: './Art/H-SM/index.html',
+    imageLink: './Art/H-SM/button_animation_here.gif',
+    author: 'H-SM',
+    githubLink: 'https://github.com/H-SM'
+  },
+  {
     artName: 'Circling square 2',
     pageLink: './Art/samwillson2009/sq2.html',
     imageLink: './Art/samwillson2009/sq2.gif',
@@ -27,7 +41,6 @@ let cards = [
     author: 'ROMIT PAL',
     githubLink: 'https://github.com/romitp4l'
   },
-
   {
     artName: 'Robot Image Animation',
     pageLink: './Art/aniketmdinde/index.html',
@@ -2214,6 +2227,13 @@ let cards = [
     imageLink: './Art/VishalKumar786/CameraSwitch.gif',
     author: 'Vishal Kumar',
     githubLink: 'https://github.com/vkumar786'
+  },
+  {
+    artName: 'Rotating Box',
+    pageLink: './Art/Dhairya-Mehra/animation.html',
+    imageLink: './Art/Dhairya-Mehra/animation.gif',
+    author: 'Dhairya Mehra',
+    githubLink: 'https://github.com/Dhairya-A-Mehra'
   },
   {
     artName: 'CameraShutter',
