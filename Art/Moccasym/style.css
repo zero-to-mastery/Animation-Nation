@@ -2,16 +2,11 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
     background-color: #83C8E6;
   }
 
 .box{
   position: relative;
-  justify-content: center;
-  display: flex;
   margin-top: 8%;
   margin-bottom: 8%;
   width: 600px;
