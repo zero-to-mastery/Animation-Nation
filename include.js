@@ -2146,13 +2146,6 @@ let cards = [
     author: 'Parth Chawande',
     githubLink: 'https://github.com/parthrc'
   },
-  {
-    artName: 'Camera Switch',
-    pageLink: './Art/VishalKumar786/CameraSwitch.html',
-    imageLink: './Art/VishalKumar786/CameraSwitch.gif',
-    author: 'Vishal Kumar',
-    githubLink: 'https://github.com/vkumar786'
-  },
 ];
 
 // +--------------------------------------------------------------------------------+
