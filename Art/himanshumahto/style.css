@@ -1,38 +1,38 @@
 body {
-    background-color: #f0f0f0;
-    margin: 0;
-    overflow: hidden;
+  background-color: #f0f0f0;
+  margin: 0;
+  overflow: hidden;
 }
 
 .moving-element {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    background: linear-gradient(45deg, #3498db, #ff5722);
-    border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    animation: move 5s linear infinite;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background: linear-gradient(45deg, #3498db, #ff5722);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  animation: move 5s linear infinite;
 }
 
 @keyframes move {
-    0% {
-        left: 0;
-        top: 0;
-    }
-    25% {
-        left: 80%;
-        top: 0;
-    }
-    50% {
-        left: 80%;
-        top: 80%;
-    }
-    75% {
-        left: 0;
-        top: 80%;
-    }
-    100% {
-        left: 0;
-        top: 0;
-    }
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 80%;
+    top: 0;
+  }
+  50% {
+    left: 80%;
+    top: 80%;
+  }
+  75% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
 }

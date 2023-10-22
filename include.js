@@ -14,6 +14,20 @@ let cards = [
     githubLink: 'https://github.com/aniketmdinde'
   },
   {
+    artName: 'Coffee Dispenser',
+    pageLink: './Art/TejaJanakiRam/index.html',
+    imageLink: './Art/TejaJanakiRam/coffee_machine.gif',
+    author: 'Teja',
+    githubLink: 'https://github.com/TejaJanakiRam'
+  },
+  {
+    artName: 'LoopLamina',
+    pageLink: './Art/manishjha-04/index.html',
+    imageLink: './Art/manishjha-04/Looplamina.gif',
+    author: 'Manish Jha',
+    githubLink: 'https://github.com/manishjha-04'
+  },
+  {
     artName: 'Aniket Dinde name Animation',
     pageLink: './Art/AniketDinde/index.html',
     imageLink: './Art/AniketDinde/aniket.gif',
@@ -35,11 +49,11 @@ let cards = [
     githubLink: 'https://github.com/daulatojha17'
   },
   {
-    artName: 'Form field animation', 
-    pageLink: './Art/massdx/index.html', 
-    imageLink: './Art/massdx/form-animation.gif', 
-    author: 'ODANOU Massahoud', 
-    githubLink: 'https://github.com/massdx' 
+    artName: 'Form field animation',
+    pageLink: './Art/massdx/index.html',
+    imageLink: './Art/massdx/form-animation.gif',
+    author: 'ODANOU Massahoud',
+    githubLink: 'https://github.com/massdx'
   },
   {
     artName: 'Form field animation',
@@ -2126,6 +2140,27 @@ let cards = [
     githubLink: 'https://github.com/gabriel-conde'
   },
   {
+    artName: 'Square',
+    pageLink: './Art/K-Wiczling/square.html',
+    imageLink: './Art/K-Wiczling/square.gif',
+    author: 'K-Wiczling',
+    githubLink: 'https://github.com/K-Wiczling'
+  },
+  {
+    artName: 'Circle',
+    pageLink: './Art/K-Wiczling/circle.html',
+    imageLink: './Art/K-Wiczling/circle.png',
+    author: 'K-Wiczling',
+    githubLink: 'https://github.com/K-Wiczling'
+  },
+  {
+    artName: 'Rolling Square Loader',
+    pageLink: './Art/psykat1611/index.html',
+    imageLink: './Art/psykat1611/loader.gif',
+    author: 'psykat1116',
+    githubLink: 'https://github.com/psykat1116'
+  },
+  {
     artName: 'Score a Goal',
     pageLink: './Art/ruchircodes24/index.html',
     imageLink: './Art/ruchircodes24/Score.gif',
@@ -2134,10 +2169,10 @@ let cards = [
   },
   {
     artName: 'lightsaber glowing animation',
-    pageLink: './Art/mohamedabomosallam/index.html', 
-    imageLink: './Art/mohamedabomosallam/lightsaber.gif', 
-    author: 'mohamedmosalam', 
-    githubLink: 'https://github.com/MohamedAboMousallam' 
+    pageLink: './Art/mohamedabomosallam/index.html',
+    imageLink: './Art/mohamedabomosallam/lightsaber.gif',
+    author: 'mohamedmosalam',
+    githubLink: 'https://github.com/MohamedAboMousallam'
   },
   {
     artName: 'Breaking news',
@@ -2146,6 +2181,13 @@ let cards = [
     author: 'Parth Chawande',
     githubLink: 'https://github.com/parthrc'
   },
+  {
+    artName: 'Camera Switch',
+    pageLink: './Art/VishalKumar786/CameraSwitch.html',
+    imageLink: './Art/VishalKumar786/CameraSwitch.gif',
+    author: 'Vishal Kumar',
+    githubLink: 'https://github.com/vkumar786'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
