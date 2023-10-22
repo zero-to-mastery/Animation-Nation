@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Circling square 2',
+    pageLink: './Art/samwillson2009/sq2.html',
+    imageLink: './Art/samwillson2009/sq2.gif',
+    author: 'Muhammad Juned Khan',
+    githubLink: 'https://github.com/samwillson2009'
+  },
+  {
     artName: 'Circling square',
     pageLink: './Art/samwillson2009/blueSquare.html',
     imageLink: './Art/samwillson2009/blueSquare.gif',
@@ -111,6 +118,13 @@ let cards = [
     imageLink: './Art/Ankit0049/Cat.png',
     author: 'Ankit',
     githubLink: 'https://github.com/ankit0049'
+  },
+  {
+    artName: 'Pacman',
+    pageLink: './Art/Moccasym/index.html',
+    imageLink: './Art/Moccasym/pacman.gif',
+    author: 'Moccasym',
+    githubLink: 'https://github.com/Moccasym'
   },
   {
     artName: ' Circular Roller ',
