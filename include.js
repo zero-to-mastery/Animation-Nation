@@ -495,8 +495,8 @@ let cards = [
   },
   {
     artName: "Bubble Art",
-    pageLink: './Art/Comder/index.html',
-    imageLink: './Art/Comder/Animation.png',
+    pageLink: './Art/Comder101/index.html',
+    imageLink: './Art/Comder101/Animation.png',
     author: 'Comder101',
     githubLink: 'https://github.com/Comder101'
   },
