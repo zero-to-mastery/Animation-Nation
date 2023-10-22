@@ -1,18 +1,19 @@
 let cards = [
-   {
-    artName 'Loading Dot Animation',
-    pageLink '.Artahmedrazaindex.html',
-    imageLink '.ArtahmedrazaLoading-Dot.gif',
-    author 'Ahmed raza',
-    githubLink 'httpsgithub.comahmedrazabaloch'
-  },
   {
     artName: 'Circling square',
     pageLink: './Art/samwillson2009/blueSquare.html',
     imageLink: './Art/samwillson2009/blueSquare.gif',
     author: 'Muhammad Juned Khan',
-    githubLink: 'https://github.com/samwillson2009'
+    githubLink: 'https://github.com/samwillson2009',
   },
+  {
+    artName: 'SQUARE ANIMATION', 
+    pageLink: './Art/romitp4l/html.html', 
+    imageLink: './Art/romitp4l/gif.gif', 
+    author: 'ROMIT PAL', 
+    githubLink: 'https://github.com/romitp4l', 
+  },
+
   {
     artName: 'Robot Image Animation',
     pageLink: './Art/aniketmdinde/index.html',
