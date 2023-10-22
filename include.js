@@ -2248,6 +2248,13 @@ let cards = [
     imageLink: './Art/PentesterPriyanshu/rotatingrectangle.gif',
     author: 'Priyanshu Prajapati',
     githubLink: 'https://github.com/PentesterPriyanshu'
+  },
+   {
+    artName: 'Solar System',
+    pageLink: './Art/Shubhamkashyap1601/solar.html',
+    imageLink: './Art/Shubhamkashyap1601/solar.gif',
+    author: 'Shubham Kashyap',
+    githubLink: 'https://github.com/Shubhamkashyap1601'
   }
 ];
 
