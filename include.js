@@ -2198,8 +2198,8 @@ let cards = [
   {
     
     artName: 'rotatingrectangle in cube',
-    pageLink: './Art/PentesterPriyanshu/index.html',
-    imageLink: './Art/PentesterPriyanshu/rotatingrectangle in cube.gif',
+    pageLink: './Art/PentesterPriyanshu/rotatingrectangle.html',
+    imageLink: './Art/PentesterPriyanshu/rotatingrectangle.gif',
     author: 'Priyanshu Prajapati',
     githubLink: 'https://github.com/PentesterPriyanshu'
   },
