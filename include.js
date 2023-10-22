@@ -2243,7 +2243,6 @@ let cards = [
     githubLink: 'https://github.com/manishjha-04'
   },
   {
-    
     artName: 'rotatingrectangle in cube',
     pageLink: './Art/PentesterPriyanshu/rotatingrectangle.html',
     imageLink: './Art/PentesterPriyanshu/rotatingrectangle.gif',
