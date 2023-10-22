@@ -1,100 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Solar System</title>
-  
-</head>
-<body>      
-  <div class="orbit orbit-mercury"></div>
-  <div class="orbit orbit-venus"></div>
-  <div class="orbit orbit-earth"></div>
-  <div class="orbit orbit-mars"></div>
-  <div class="orbit orbit-jupiter"></div>
-  <div class="orbit orbit-saturn"></div>
-  <div class="orbit orbit-uranus"></div>
-  <div class="orbit orbit-neptune"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Solar System</title>
+  </head>
+  <body>
+    <div class="orbit orbit-mercury"></div>
+    <div class="orbit orbit-venus"></div>
+    <div class="orbit orbit-earth"></div>
+    <div class="orbit orbit-mars"></div>
+    <div class="orbit orbit-jupiter"></div>
+    <div class="orbit orbit-saturn"></div>
+    <div class="orbit orbit-uranus"></div>
+    <div class="orbit orbit-neptune"></div>
 
-  <div class="sun"></div>
-  <div class="planet mercury"></div>
-  <div class="planet venus"></div>
-  <div class="planet earth"></div>
-  <div class="planet mars"></div>
-  <div class="planet jupiter"></div>
-  <div class="planet saturn"></div>
-  <div class="planet uranus"></div>
-  <div class="planet neptune"></div>
-  <div class="stars"></div>
+    <div class="sun"></div>
+    <div class="planet mercury"></div>
+    <div class="planet venus"></div>
+    <div class="planet earth"></div>
+    <div class="planet mars"></div>
+    <div class="planet jupiter"></div>
+    <div class="planet saturn"></div>
+    <div class="planet uranus"></div>
+    <div class="planet neptune"></div>
+    <div class="stars"></div>
 
+    <div id="planet-info"></div>
 
-  <div id="planet-info"></div>
-  
-  <script>
-    const planets = document.querySelectorAll('.planet');
-    const planetNames = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'];
-    const distances = [100, 160, 220, 280, 360, 460, 560, 640]; // Orbital distances from the sun
-    const speeds = [0.1, 0.07, 0.05, 0.03, 0.01, 0.008, 0.005, 0.003]; // Orbital speeds of the planets
+    <script>
+      const planets = document.querySelectorAll('.planet');
+      const planetNames = [
+        'Mercury',
+        'Venus',
+        'Earth',
+        'Mars',
+        'Jupiter',
+        'Saturn',
+        'Uranus',
+        'Neptune'
+      ];
+      const distances = [100, 160, 220, 280, 360, 460, 560, 640]; // Orbital distances from the sun
+      const speeds = [0.1, 0.07, 0.05, 0.03, 0.01, 0.008, 0.005, 0.003]; // Orbital speeds of the planets
 
-    const planetInfo = document.getElementById('planet-info');
+      const planetInfo = document.getElementById('planet-info');
 
-    function displayPlanetName(index) {
-      planetInfo.textContent = planetNames[index];
-    }
+      function displayPlanetName(index) {
+        planetInfo.textContent = planetNames[index];
+      }
 
-    function hidePlanetName() {
-      planetInfo.textContent = '';
-    }
-
-    planets.forEach((planet, index) => {
-      planet.addEventListener('mouseover', () => {
-        displayPlanetName(index);
-      });
-
-      planet.addEventListener('mouseout', () => {
-        hidePlanetName();
-      });
-    });
-
-    function orbitPlanets() {
-      let time = performance.now();
+      function hidePlanetName() {
+        planetInfo.textContent = '';
+      }
 
       planets.forEach((planet, index) => {
-        const distanceX = distances[index];
-        const distanceY = distances[index] * 0.6; // Adjust the Y-axis distance for elliptical orbit
-        const speed = speeds[index];
-        const angle = (time * speed) / 20; // Convert time to seconds and adjust speed
-        const x = distanceX * Math.cos(angle);
-        const y = distanceY * Math.sin(angle);
-        planet.style.transform = `translate(${x}px, ${y}px)`;
+        planet.addEventListener('mouseover', () => {
+          displayPlanetName(index);
+        });
+
+        planet.addEventListener('mouseout', () => {
+          hidePlanetName();
+        });
       });
 
-      requestAnimationFrame(orbitPlanets);
-    }
+      function orbitPlanets() {
+        let time = performance.now();
 
-    orbitPlanets();
+        planets.forEach((planet, index) => {
+          const distanceX = distances[index];
+          const distanceY = distances[index] * 0.6; // Adjust the Y-axis distance for elliptical orbit
+          const speed = speeds[index];
+          const angle = (time * speed) / 20; // Convert time to seconds and adjust speed
+          const x = distanceX * Math.cos(angle);
+          const y = distanceY * Math.sin(angle);
+          planet.style.transform = `translate(${x}px, ${y}px)`;
+        });
 
-    function createRandomStars() {
-      const numberOfStars = 100; // Adjust the number of stars as desired
-      const starsContainer = document.querySelector('.stars');
-
-      for (let i = 0; i < numberOfStars; i++) {
-        const star = document.createElement('div');
-        star.className = 'star';
-        star.style.left = `${Math.random() * 100}vw`;
-        star.style.top = `${Math.random() * 100}vh`;
-        star.style.width = `${Math.random() * 80}px`;
-        star.style.height = star.style.width;
-        // Generate a random twinkling time between 0.5s and 2s
-        const twinklingTime = Math.random() * 5 + 0.5;
-        star.style.animation = `twinkle ${twinklingTime}s infinite`;
-
-        starsContainer.appendChild(star);
+        requestAnimationFrame(orbitPlanets);
       }
-    }
 
-    createRandomStars();
-  </script>
-</body>
+      orbitPlanets();
+
+      function createRandomStars() {
+        const numberOfStars = 100; // Adjust the number of stars as desired
+        const starsContainer = document.querySelector('.stars');
+
+        for (let i = 0; i < numberOfStars; i++) {
+          const star = document.createElement('div');
+          star.className = 'star';
+          star.style.left = `${Math.random() * 100}vw`;
+          star.style.top = `${Math.random() * 100}vh`;
+          star.style.width = `${Math.random() * 80}px`;
+          star.style.height = star.style.width;
+          // Generate a random twinkling time between 0.5s and 2s
+          const twinklingTime = Math.random() * 5 + 0.5;
+          star.style.animation = `twinkle ${twinklingTime}s infinite`;
+
+          starsContainer.appendChild(star);
+        }
+      }
+
+      createRandomStars();
+    </script>
+  </body>
 </html>
