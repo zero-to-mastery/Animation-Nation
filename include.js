@@ -1,4 +1,18 @@
 let cards = [
+    {
+      artName: 'Circle Animation',
+      pageLink: './Art/samwillson2009/circle2.html',
+      imageLink: './Art/samwillson2009/circle2.gif',
+      author: 'Muhammad Juned Khan',
+      githubLink: 'https://github.com/samwillson2009'
+    },
+  {
+    artName: 'Hacktober Circle Animation',
+    pageLink: './Art/samwillson2009/circle.html',
+    imageLink: './Art/samwillson2009/circle.gif',
+    author: 'Muhammad Juned Khan',
+    githubLink: 'https://github.com/samwillson2009'
+  },
   {
     artName: 'Animated Button',
     pageLink: './Art/H-SM/index.html',
@@ -2213,6 +2227,13 @@ let cards = [
     imageLink: './Art/VishalKumar786/CameraSwitch.gif',
     author: 'Vishal Kumar',
     githubLink: 'https://github.com/vkumar786'
+  },
+  {
+    artName: 'Rotating Box',
+    pageLink: './Art/Dhairya-Mehra/animation.html',
+    imageLink: './Art/Dhairya-Mehra/animation.gif',
+    author: 'Dhairya Mehra',
+    githubLink: 'https://github.com/Dhairya-A-Mehra'
   },
   {
     artName: 'CameraShutter',
