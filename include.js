@@ -1,4 +1,11 @@
 let cards = [
+   {
+    artName 'Loading Dot Animation',
+    pageLink '.Artahmedrazaindex.html',
+    imageLink '.ArtahmedrazaLoading-Dot.gif',
+    author 'Ahmed raza',
+    githubLink 'httpsgithub.comahmedrazabaloch'
+  },
   {
     artName: 'Circling square',
     pageLink: './Art/samwillson2009/blueSquare.html',
