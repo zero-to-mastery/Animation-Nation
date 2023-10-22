@@ -48,14 +48,6 @@ let cards = [
     author: 'Aniket',
     githubLink: 'https://github.com/aniketmdinde'
   },
-  // TODO: REMOVE Coffee machine x 2 author has it
-  {
-    artName: 'Coffee Dispenser',
-    pageLink: './Art/TejaJanakiRam/index.html',
-    imageLink: './Art/TejaJanakiRam/coffee_machine.gif',
-    author: 'Teja',
-    githubLink: 'https://github.com/TejaJanakiRam'
-  },
   {
     artName: 'LoopLamina',
     pageLink: './Art/manishjha-04/LoopLamina/index.html',
@@ -1485,14 +1477,6 @@ let cards = [
     imageLink: './Art/hrishit/animation.gif',
     author: 'Hrishit',
     githubLink: 'https://github.com/Hrishit-B'
-  },
-  // TODO: REMOVE Coffee machine x 2 author has it
-  {
-    artName: 'Coffee Machine',
-    pageLink: './Art/shruti-sen2004/index.html',
-    imageLink: './Art/shruti-sen2004/coffee-machine.gif',
-    author: 'Shruti Sen',
-    githubLink: 'https://github.com/shruti-sen2004'
   },
   {
     artName: 'Bouncing Balls',
