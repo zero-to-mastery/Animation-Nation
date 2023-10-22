@@ -1896,13 +1896,6 @@ let cards = [
     githubLink: 'https://github.com/shubham-vartak'
   },
   {
-    artName: 'Heart with balls',
-    pageLink: './Art/shubham-vartak/heartballs.html',
-    imageLink: './Art/shubham-vartak/Heartballs.gif',
-    author: 'Shubham Vartak',
-    githubLink: 'https://github.com/shubham-vartak'
-  },
-  {
     artName: 'GlowingStars',
     pageLink: './Art/vivek/GlowingStars.html',
     imageLink: './Art/vivek/GlowingStars.gif',
