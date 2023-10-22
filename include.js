@@ -1,10 +1,31 @@
 let cards = [
+   {
+    artName 'Loading Dot Animation',
+    pageLink '.Artahmedrazaindex.html',
+    imageLink '.ArtahmedrazaLoading-Dot.gif',
+    author 'Ahmed raza',
+    githubLink 'httpsgithub.comahmedrazabaloch'
+  },
+  {
+    artName: 'Circling square',
+    pageLink: './Art/samwillson2009/blueSquare.html',
+    imageLink: './Art/samwillson2009/blueSquare.gif',
+    author: 'Muhammad Juned Khan',
+    githubLink: 'https://github.com/samwillson2009'
+  },
   {
     artName: 'Robot Image Animation',
     pageLink: './Art/aniketmdinde/index.html',
     imageLink: './Art/aniketmdinde/robot.gif',
     author: 'Aniket',
     githubLink: 'https://github.com/aniketmdinde'
+  },
+  {
+    artName: 'Coffee Dispenser',
+    pageLink: './Art/TejaJanakiRam/index.html',
+    imageLink: './Art/TejaJanakiRam/coffee_machine.gif',
+    author: 'Teja',
+    githubLink: 'https://github.com/TejaJanakiRam'
   },
   {
     artName: 'LoopLamina',
