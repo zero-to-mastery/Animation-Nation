@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Animated Button',
+    pageLink: './Art/H-SM/index.html',
+    imageLink: './Art/H-SM/button_animation_here.gif',
+    author: 'H-SM',
+    githubLink: 'https://github.com/H-SM'
+  },
+  {
     artName: 'Robot Image Animation',
     pageLink: './Art/aniketmdinde/index.html',
     imageLink: './Art/aniketmdinde/robot.gif',
