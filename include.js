@@ -29,8 +29,8 @@ let cards = [
   },
   {
     artName: 'LoopLamina',
-    pageLink: './Art/manishjha-04/index.html',
-    imageLink: './Art/manishjha-04/Looplamina.gif',
+    pageLink: './Art/manishjha-04/LoopLamina/index.html',
+    imageLink: './Art/manishjha-04/LoopLamina/Looplamina.gif',
     author: 'Manish Jha',
     githubLink: 'https://github.com/manishjha-04'
   },
@@ -2133,6 +2133,13 @@ let cards = [
     githubLink: 'https://github.com/Molina-Daniel'
   },
   {
+    artName: 'Cinematic-Animation',
+    pageLink: './Art/manishjha-04/Cinematic/index.html',
+    imageLink: './Art/manishjha-04/Cinematic/cinematic_animation.gif',
+    author: 'Manish Jha',
+    githubLink: 'https://github.com/manishjha-04'
+  },
+  {
     artName: 'Bouncy Loader',
     pageLink: './Art/tmsagarofficial/anim1.html',
     imageLink: './Art/gabriel-conde/anim1.gif',
@@ -2194,6 +2201,13 @@ let cards = [
     imageLink: './Art/VishalKumar786/CameraSwitch.gif',
     author: 'Vishal Kumar',
     githubLink: 'https://github.com/vkumar786'
+  },
+  {
+    artName: 'CameraShutter',
+    pageLink: './Art/manishjha-04/CameraShutter/index.html',
+    imageLink: './Art/manishjha-04/CameraShutter/camera-shutter.gif',
+    author: 'Manish Jha',
+    githubLink: 'https://github.com/manishjha-04'
   }
 ];
 

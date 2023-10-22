@@ -1,0 +1,154 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  body {
+    background: #000;
+    color: #fff;
+    height: auto;
+    min-height: 100%;
+    overflow: hidden;
+  }
+  
+  main {
+    background: #111;
+    border: solid 1px #222;
+    padding: 2rem;
+    max-width: 100%;
+    width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  
+  main > * {
+    grid-column: 1 / -1;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  p {
+    line-height: 1.8;
+    margin: 1rem 0;
+    color: rgb(158, 166, 184);
+  }
+  
+  h1 {
+    line-height: 1.3;
+    font-size: 5vw;
+    margin: 1rem 0;
+  }
+  
+  h2 {
+    font-size: 4vw;
+    margin: 1rem 0;
+  }
+  
+  h3 {
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  
+  h2.subheader {
+    font-size: 2vw;
+  }
+  
+  section {
+    grid-column: auto;
+  }
+  
+  header {
+    display: grid;
+    align-content: center;
+    grid-column: 1 / -1;
+  }
+  
+  .callout {
+    text-align: center;
+    background-color: #3173fa;
+    padding: 1vw 3vw;
+  }
+  
+  .callout > p {
+    color: white;
+  }
+  
+  .container {
+    perspective: 1200px;
+    transform-style: preserve-3d;
+    animation: cinematic-camera 11s cubic-bezier(0.6, 0, 0.4, 1) both infinite;
+  }
+  
+  @keyframes cinematic-camera {
+    from {
+      perspective-origin: 60% 40%;
+    }
+    to {
+      perspective-origin: 40% 60%;
+    }
+    from,
+    to {
+      opacity: 0;
+    }
+    25%,
+    75% {
+      opacity: 1;
+    }
+  }
+  
+  .container:after {
+    content: "";
+    background: linear-gradient(to bottom, #000, #0000 20%, #0000 80%, #000);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  main {
+    transform-origin: top center;
+    transform-style: preserve-3d;
+    animation: inherit;
+    animation-name: cinematic;
+  }
+  
+  main > img {
+    display: block;
+    transform-style: preserve-3d;
+    animation: inherit;
+    animation-name: image-pop;
+  }
+  
+  @keyframes image-pop {
+    70%,
+    100% {
+      transform: translate3d(0, 0, 60px);
+    }
+  }
+  
+  main > img:last-of-type {
+    animation-delay: 4s;
+  }
+  
+  @keyframes cinematic {
+    from {
+      transform: translateZ(-200px) rotateY(30deg) translateY(50vh);
+    }
+    to {
+      transform: translateZ(-100px) rotateY(-30deg) translateY(-100%) translateY(50vh);
+    }
+  }
+  
