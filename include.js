@@ -2159,6 +2159,13 @@ let cards = [
     imageLink: './Art/VishalKumar786/CameraSwitch.gif',
     author: 'Vishal Kumar',
     githubLink: 'https://github.com/vkumar786'
+  },
+  {
+      artName: 'Triangle,Circle and Square Animation', 
+      pageLink: './Art/jahnavithutta129/index.html', 
+      imageLink: './Art/jahnavithutta129/Artwork_GIF.gif', 
+      author: 'Jahnavi', 
+      githubLink: 'https://github.com/jahnavithutta129'
   }
 ];
 

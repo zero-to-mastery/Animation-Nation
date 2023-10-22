@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.square, .circle, .triangle {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.square {
+    background-color: #3498db;
+}
+
+.circle {
+    background-color: #e74c3c;
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 87px solid #2ecc71;
+}
+
+/* Animation */
+.square {
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.circle {
+    animation: scale 2s ease-in-out infinite alternate;
+}
+
+@keyframes scale {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.2); }
+}
+
+.triangle {
+    animation: move 3s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+}
