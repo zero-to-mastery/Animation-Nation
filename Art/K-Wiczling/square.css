@@ -12,16 +12,8 @@
   100% {
     transform: scale(1);
   }
-<<<<<<< HEAD
   
   50% {
     transform: scale(1.5);
   }
 }
-=======
-
-  50% {
-    transform: scale(1.5);
-  }
-}
->>>>>>> 783945a70f7eef9138a7738237de9f98f7962d83
