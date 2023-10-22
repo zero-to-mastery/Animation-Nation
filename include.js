@@ -2248,7 +2248,16 @@ let cards = [
     imageLink: './Art/PentesterPriyanshu/rotatingrectangle.gif',
     author: 'Priyanshu Prajapati',
     githubLink: 'https://github.com/PentesterPriyanshu'
+  },
+  {
+    artName: 'Basic loader animation',
+    pageLink: './Art/rishika-on-git/index.html',
+    imageLink: './Art/rishika-on-git/result.gif',
+    author: 'Rishika Aggarwal',
+    githubLink: 'https://github.com/rishika-on-git'
+  
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
