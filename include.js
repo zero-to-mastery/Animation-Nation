@@ -2112,6 +2112,13 @@ let cards = [
     githubLink: 'https://github.com/Molina-Daniel'
   },
   {
+    artName: 'Cinematic-Animation',
+    pageLink: './Art/manishjha-04/Cinematic/index.html',
+    imageLink: './Art/manishjha-04/Cinematic/cinematic_animation.gif',
+    author: 'Manish Jha',
+    githubLink: 'https://github.com/manishjha-04'
+  },
+  {
     artName: 'Bouncy Loader',
     pageLink: './Art/tmsagarofficial/anim1.html',
     imageLink: './Art/gabriel-conde/anim1.gif',
