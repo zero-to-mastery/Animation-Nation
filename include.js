@@ -2081,7 +2081,7 @@ let cards = [
   {
     artName: 'Circle', 
     pageLink: './Art/K-Wiczling/circle.html', 
-    imageLink: './Art/K-Wiczling/circle.gif', 
+    imageLink: './Art/K-Wiczling/circle.png', 
     author: 'K-Wiczling',
     githubLink: 'https://github.com/K-Wiczling'
   }
