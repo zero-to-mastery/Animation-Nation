@@ -2222,6 +2222,13 @@ let cards = [
     githubLink: 'https://github.com/vkumar786'
   },
   {
+    artName: 'Rotating Box',
+    pageLink: './Art/Dhairya-Mehra/animation.html',
+    imageLink: './Art/Dhairya-Mehra/animation.gif',
+    author: 'Dhairya Mehra',
+    githubLink: 'https://github.com/Dhairya-A-Mehra' 
+  },
+  {
     artName: 'CameraShutter',
     pageLink: './Art/manishjha-04/CameraShutter/index.html',
     imageLink: './Art/manishjha-04/CameraShutter/camera-shutter.gif',
