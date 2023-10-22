@@ -1,0 +1,26 @@
+.box1 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 44%;
+  animation: box1 15s infinite;
+  margin-top: 40vh;
+}
+@keyframes box1 {
+    0%  {
+          background-color: red;
+          transform: translate(350px);
+        }
+    25% {
+          background-color: yellow;
+          transform: translate(100px);
+        }
+    50% {
+          background-color: blue;
+          transform: translate(250px);
+        }
+    100%  {
+            background-color: green;
+            transform: translate(50px);
+          }
+ }
