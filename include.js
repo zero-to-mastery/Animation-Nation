@@ -64,7 +64,7 @@ let cards = [
   },
   {
     artName: 'DayToNight',
-    pageLink: './Art/NituCStefann/DayToNight.html',
+    pageLink: './Art/NituCStefann/index.html',
     imageLink: './Art/NituCStefann/DayToNight.png',
     author: 'NituCStefann',
     githubLink: 'https://github.com/NituCStefann'
