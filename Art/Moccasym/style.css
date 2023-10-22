@@ -2,7 +2,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: #83C8E6;
+    background-color: #83c8e6;
   }
 
 .box{
@@ -20,7 +20,7 @@ body {
   left: 200px;
   height: 200px;
   width: 200px;
-  background: conic-gradient(rgb(255, 255, 0) calc(360deg),#0000 0);
+  background: conic-gradient((#ffff00) calc(360deg),#0000 0);
   border-radius: 50%;
 }
 
@@ -42,9 +42,9 @@ body {
   left: 200px;
   height: 200px;
   width: 200px;
-  background-color: rgb(255, 255, 0);
+  background-color: #ffff00;
   border-radius: 50%;
-  background: conic-gradient(rgb(255, 255, 0)calc(60deg),#0000 0);
+  background: conic-gradient(#ffff00)calc(60deg),#0000 0);
   transform: rotate(30deg);
   animation: pacmandown 1s infinite;
 }
@@ -55,9 +55,9 @@ body {
   left: 200px;
   height: 200px;
   width: 200px;
-  background-color: rgb(255, 255, 0);
+  background-color: #ffff00;
   border-radius: 50%;
-  background: conic-gradient(rgb(255, 255, 0) calc(60deg),#0000 0);
+  background: conic-gradient(#ffff00, calc(60deg),#0000 0);
   transform: rotate(120deg);
   animation: pacmanup 1s infinite;
 }
@@ -112,5 +112,5 @@ body {
   width: 300px;
   height: 100px;
   border-radius: 50%;
-  background: rgba(0,0,0, 0.05);
+  background: #00000005;
 }
