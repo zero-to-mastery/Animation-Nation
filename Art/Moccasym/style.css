@@ -20,7 +20,7 @@ body {
   left: 200px;
   height: 200px;
   width: 200px;
-  background: conic-gradient((#ffff00) calc(360deg),#0000 0);
+  background: conic-gradient(#ffff00 calc(360deg),#0000 0);
   border-radius: 50%;
 }
 
@@ -44,7 +44,7 @@ body {
   width: 200px;
   background-color: #ffff00;
   border-radius: 50%;
-  background: conic-gradient(#ffff00)calc(60deg),#0000 0);
+  background: conic-gradient(#ffff00 calc(60deg),#0000 0);
   transform: rotate(30deg);
   animation: pacmandown 1s infinite;
 }
@@ -57,7 +57,7 @@ body {
   width: 200px;
   background-color: #ffff00;
   border-radius: 50%;
-  background: conic-gradient(#ffff00, calc(60deg),#0000 0);
+  background: conic-gradient(#ffff00 calc(60deg),#0000 0);
   transform: rotate(120deg);
   animation: pacmanup 1s infinite;
 }
