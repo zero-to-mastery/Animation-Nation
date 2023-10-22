@@ -2126,6 +2126,20 @@ let cards = [
     githubLink: 'https://github.com/gabriel-conde'
   },
   {
+    artName: 'Square',
+    pageLink: './Art/K-Wiczling/square.html',
+    imageLink: './Art/K-Wiczling/square.gif',
+    author: 'K-Wiczling',
+    githubLink: 'https://github.com/K-Wiczling'
+  },
+  {
+    artName: 'Circle',
+    pageLink: './Art/K-Wiczling/circle.html',
+    imageLink: './Art/K-Wiczling/circle.png',
+    author: 'K-Wiczling',
+    githubLink: 'https://github.com/K-Wiczling'
+  },
+  {
     artName: 'Rolling Square Loader',
     pageLink: './Art/psykat1611/index.html',
     imageLink: './Art/psykat1611/loader.gif',
