@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Moving and Bouncing Rainbow ZTM Text',
+    pageLink: './Art/Sayed-Afnan-Khazi/art.html',
+    imageLink: 'Art/Sayed-Afnan-Khazi/art.gif',
+    author: 'Sayed Afnan Khazi',
+    githubLink: 'https://github.com/Sayed-Afnan-Khazi'
+  },
+  {
     artName: 'Circle Animation',
     pageLink: './Art/samwillson2009/circle2.html',
     imageLink: './Art/samwillson2009/circle2.gif',
@@ -980,6 +987,13 @@ let cards = [
     imageLink: './Art/rajan4405/Animation.gif',
     author: 'rajan4405',
     githubLink: 'https://github.com/rajan4405'
+  },
+  {
+    artName: 'Opening Envelope Animation',
+    pageLink: './Art/VivekGuruduttK28/index.html',
+    imageLink: './Art/VivekGuruduttK28/Opening_Envelope.gif',
+    author: 'VivekGuruduttK28',
+    githubLink: 'https://github.com/VivekGuruduttK28'
   },
   {
     artName: 'Shooting gun',
