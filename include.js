@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Moving and Bouncing Rainbow ZTM Text',
+    pageLink: './Art/Sayed-Afnan-Khazi/art.html',
+    imageLink: 'Art/Sayed-Afnan-Khazi/art.gif',
+    author: 'Sayed Afnan Khazi',
+    githubLink: 'https://github.com/Sayed-Afnan-Khazi'
+  },
+  {
     artName: 'Circle Animation',
     pageLink: './Art/samwillson2009/circle2.html',
     imageLink: './Art/samwillson2009/circle2.gif',
