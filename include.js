@@ -28,6 +28,13 @@ let cards = [
     githubLink: 'https://github.com/niranjan-kurhade'
   },
   {
+    artName: 'colourchange',
+    pageLink: './Art/colourchange/index.html',
+    imageLink: './Art/colourchange/textAnimation.gif',
+    author: 'Rajneesh Kumar',
+    githubLink: 'https://github.com/Rajneesh2223',
+  },
+  {
     artName: 'Rotating color changing square',
     pageLink: './Art/daulatojha17/index.html',
     imageLink: './Art/daulatojha17/image.gif',
