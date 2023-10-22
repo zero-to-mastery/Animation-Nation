@@ -2241,7 +2241,14 @@ let cards = [
     imageLink: './Art/manishjha-04/CameraShutter/camera-shutter.gif',
     author: 'Manish Jha',
     githubLink: 'https://github.com/manishjha-04'
-  }
+  },
+  {
+    artName: 'rotatingrectangle in cube',
+    pageLink: './Art/PentesterPriyanshu/rotatingrectangle.html',
+    imageLink: './Art/PentesterPriyanshu/rotatingrectangle.gif',
+    author: 'Priyanshu Prajapati',
+    githubLink: 'https://github.com/PentesterPriyanshu'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
