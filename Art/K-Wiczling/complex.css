@@ -5,37 +5,33 @@
   border-radius: 44%;
   animation: box 15s infinite;
 }
-.box{
+.box {
   animation: rot 2s infinite;
   background-color: black;
   width: 300px;
   height: 300px;
   margin: 0 auto;
   margin-top: 30vh;
-
 }
-#inner1{
+#inner1 {
   background-color: red;
-
 }
-#inner2{
+#inner2 {
   background-color: greenyellow;
-
 }
-#inner3{
+#inner3 {
   background-color: goldenrod;
-
 }
 @keyframes box {
-    0%  {
-          background-color: red;
-        }
+  0% {
+    background-color: red;
+  }
 
-    100%  {
-            background-color: green;
-          }
- }
- @keyframes rot {
+  100% {
+    background-color: green;
+  }
+}
+@keyframes rot {
   0%,
   100% {
     transform: rotate(360deg);
