@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    background: #ffd670;
+}
+
+.eyes {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.eye {
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    animation: blink 3s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        transform: scale(1, .05);
+    }
+    5%,
+    95% {
+        transform: scale(1, 1);
+    }
+}
+
+.ball {
+    width: 40px;
+    height: 40px;
+    background: #000;
+    position: absolute; /* relative */
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+    border-radius: 50%;
+    border: 10px solid #6d6875;
+}
+ 

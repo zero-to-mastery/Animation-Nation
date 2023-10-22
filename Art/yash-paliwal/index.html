@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="eyes">
+        <div class="eye">
+            <div class="ball"></div>
+        </div>
+
+        <div class="eye">
+            <div class="ball"></div>
+        </div>
+    </div>
+    <script>
+        let Ball = document.getElementsByClassName("ball");
+        document.onmousemove = function() {
+
+            let x = event.clientX * 100 / window.innerWidth + "%";
+            let y = event.clientY * 100 / window.innerHeight + "%";
+
+            for(let i=0;i<2;i++) {
+                Ball[i].style.left = x;
+                Ball[i].style.top = y;
+                Ball[i].style.transform = "translate(-"+x+", -"+y+")";
+            }
+        
+        }
+    </script>
+</body>
+</html>
