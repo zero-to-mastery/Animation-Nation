@@ -2173,6 +2173,13 @@ let cards = [
     imageLink: './Art/VishalKumar786/CameraSwitch.gif',
     author: 'Vishal Kumar',
     githubLink: 'https://github.com/vkumar786'
+  },
+   {
+    artName: 'Moving Eyes',
+    pageLink: './Art/yash-paliwal/index.html',
+    imageLink: './Art/yash-paliwal/MovingEyes.gif',
+    author: 'Yash Paliwal',
+    githubLink: 'https://github.com/Yash-Paliwal-0210'
   }
 ];
 
