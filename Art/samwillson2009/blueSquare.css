@@ -1,5 +1,5 @@
-body{
-    background-color: #14596b;
+body {
+  background-color: #14596b;
 }
 
 .Container {
@@ -11,7 +11,7 @@ body{
   width: 25px;
   height: 25px;
   position: relative;
-  margin: 250px 0px 0px 600px ;
+  margin: 250px 0px 0px 600px;
   text-align: center;
   animation: asus2 3s 1s 5;
 }
@@ -38,11 +38,11 @@ body{
   }
 }
 
-@keyframes asus1{
-    from{
-        width: 50px;
-    }
-    to{
-        width: 10px;
-    }
+@keyframes asus1 {
+  from {
+    width: 50px;
+  }
+  to {
+    width: 10px;
+  }
 }
