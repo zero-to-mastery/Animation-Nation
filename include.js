@@ -2180,6 +2180,13 @@ let cards = [
     githubLink: 'https://github.com/K-Wiczling'
   },
   {
+    artName: 'Complex',
+    pageLink: './Art/K-Wiczling/complex.html',
+    imageLink: './Art/K-Wiczling/complex.png',
+    author: 'K-Wiczling',
+    githubLink: 'https://github.com/K-Wiczling'
+  },
+  {
     artName: 'Rolling Square Loader',
     pageLink: './Art/psykat1611/index.html',
     imageLink: './Art/psykat1611/loader.gif',
