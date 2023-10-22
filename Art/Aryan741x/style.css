@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #3faf82
+}
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    row-gap:16px;
+    cursor: pointer;
+}
+.menu div{
+    width:100px;
+    height:10px;
+    background-color: white;
+    box-shadow:0 4px 20px #00000030;
+    border-radius: 2px;
+    transition:all 0.3s;
+}
+.menu.active div:nth-child(2){
+    transform:scale(0);
+    opacity:0;
+}
+.menu.active div:nth-child(1){
+    animation:bar1Anim 0.3s ease-in-out forwards;
+}
+@keyframes bar1Anim{
+    50%{
+        transform:translateY(24px);
+    }
+    100%{
+        transform:translateY(24px) rotateZ(45deg);
+    }
+}
+.menu.active div:nth-child(3){
+    animation:bar2Anim 0.3s ease-in-out forwards;
+}
+@keyframes bar2Anim{
+    50%{
+        transform:translateY(-24px);
+    }
+    100%{
+        transform:translateY(-24px) rotateZ(135deg);
+    }
+}
+.menu div:nth-child(1){
+    animation: bar1revAnim 0.3s ease-in-out;
+}
+@keyframes bar1revAnim{
+    0%{
+        transform:translateY(24px) rotateZ(45deg);
+    }
+    50%{
+        transform:translateY(24px) rotateZ(0deg);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.menu div:nth-child(3){
+    animation: bar3revAnim 0.3s ease-in-out;
+}
+@keyframes bar3revAnim{
+    0%{
+        transform:translateY(-24px) rotateZ(135deg);
+    }
+    50%{
+        transform:translateY(-24px) rotateZ(0deg);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.menu.no-animation div{
+    animation: none;
+}
