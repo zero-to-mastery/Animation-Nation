@@ -17,7 +17,7 @@ body {
 }
 
 .stars::before {
-  content: " ";
+  content: ' ';
   position: absolute;
   top: calc(100vh * 0.2);
   left: calc(100vw * 0.2);
@@ -39,7 +39,6 @@ body {
 }
 
 /* Rest of the CSS remains the same */
-
 
 .earth-orbit {
   width: 300px;
@@ -85,54 +84,54 @@ body {
 
 @keyframes spin-sun {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes orbit-earth {
   0% {
-      transform: translateX(150px) translateY(0);
+    transform: translateX(150px) translateY(0);
   }
   100% {
-      transform: translateX(150px) translateY(0);
+    transform: translateX(150px) translateY(0);
   }
 }
 
 @keyframes spin-earth {
   0% {
-      transform: rotate(0deg) translateX(0);
+    transform: rotate(0deg) translateX(0);
   }
   100% {
-      transform: rotate(360deg) translateX(0);
+    transform: rotate(360deg) translateX(0);
   }
 }
 
 @keyframes orbit-moon {
   0% {
-      transform: translateX(20px) translateY(0);
+    transform: translateX(20px) translateY(0);
   }
   100% {
-      transform: translateX(20px) translateY(0);
+    transform: translateX(20px) translateY(0);
   }
 }
 
 @keyframes spin-moon {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes twinkling-stars {
   0% {
-      background-position: 0 0;
+    background-position: 0 0;
   }
   100% {
-      background-position: 10000px 0;
+    background-position: 10000px 0;
   }
 }
