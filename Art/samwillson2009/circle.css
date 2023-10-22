@@ -1,0 +1,58 @@
+body {
+  background-color: #010020;
+}
+
+.htf {
+  width: 100px;
+  height: 100px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 60px;
+}
+
+.Container {
+  position: absolute;
+}
+.circle {
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 60px;
+  position: relative;
+  margin: 250px 0px 0px 600px;
+  text-align: center;
+  animation: asus2 2s 1s 3;
+}
+
+@keyframes asus2 {
+  0% {
+    top: 50px;
+    left: 0px;
+  }
+
+  25% {
+    top: 0px;
+    left: 50px;
+  }
+
+  75% {
+    top: 50px;
+    left: 100px;
+  }
+
+  100% {
+    top: 0px;
+    left: 150px;
+  }
+}
+
+@keyframes asus1 {
+  from {
+    width: 50px;
+  }
+  to {
+    width: 10px;
+  }
+}
