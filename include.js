@@ -2159,6 +2159,13 @@ let cards = [
     imageLink: './Art/VishalKumar786/CameraSwitch.gif',
     author: 'Vishal Kumar',
     githubLink: 'https://github.com/vkumar786'
+  },
+  {
+    artName: 'Menu Bar',
+    pageLink: './Art/Aryan741x/index.html',
+    imageLink: './Art/Aryan741x/animation-1.png',
+    author: 'Aryan741x',
+    githubLink: 'https://github.com/Aryan741x'
   }
 ];
 
