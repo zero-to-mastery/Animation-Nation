@@ -7,6 +7,14 @@ let cards = [
     githubLink: 'https://github.com/aniketmdinde'
   },
   {
+
+    artName: 'Coffee Dispenser', 
+    pageLink: './Art/TejaJanakiRam/index.html', 
+    imageLink: './Art/TejaJanakiRam/coffee_machine.gif', 
+    author: 'Teja',
+    githubLink: 'https://github.com/TejaJanakiRam'
+  },
+  {
     artName: 'LoopLamina',
     pageLink: './Art/manishjha-04/index.html',
     imageLink: './Art/manishjha-04/Looplamina.gif',
