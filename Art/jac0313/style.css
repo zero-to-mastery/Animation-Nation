@@ -111,35 +111,43 @@ body {
   filter: brightness(100%);
   animation-name: tap-upper-4;
 }
-@keyframes tap-upper-1{
-    0%, 50%, 100%{
-        transform: rotate(10deg) scale(0.4);
-    }
-    40% {
-        transform: rotate(50deg) scale(0.4);
-    }
+@keyframes tap-upper-1 {
+  0%,
+  50%,
+  100% {
+    transform: rotate(10deg) scale(0.4);
+  }
+  40% {
+    transform: rotate(50deg) scale(0.4);
+  }
 }
-@keyframes tap-upper-2{
-    0%, 50%, 100%{
-        transform: rotate(10deg) scale(0.6);
-    }
-    40% {
-        transform: rotate(50deg) scale(0.6);
-    }
+@keyframes tap-upper-2 {
+  0%,
+  50%,
+  100% {
+    transform: rotate(10deg) scale(0.6);
+  }
+  40% {
+    transform: rotate(50deg) scale(0.6);
+  }
 }
-@keyframes tap-upper-3{
-    0%, 50%, 100%{
-        transform: rotate(10deg) scale(0.8);
-    }
-    40% {
-        transform: rotate(50deg) scale(0.8);
-    }
+@keyframes tap-upper-3 {
+  0%,
+  50%,
+  100% {
+    transform: rotate(10deg) scale(0.8);
+  }
+  40% {
+    transform: rotate(50deg) scale(0.8);
+  }
 }
-@keyframes tap-upper-4{
-    0%, 50%, 100%{
-        transform: rotate(10deg) scale(1.0);
-    }
-    40% {
-        transform: rotate(50deg) scale(1.0);
-    }
+@keyframes tap-upper-4 {
+  0%,
+  50%,
+  100% {
+    transform: rotate(10deg) scale(1);
+  }
+  40% {
+    transform: rotate(50deg) scale(1);
+  }
 }

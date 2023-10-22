@@ -11,6 +11,7 @@ Welcome to the Animation Showcase project! This project combines various CSS ani
 2. Open the HTML file in a web browser.
 
 3. You'll see a page with a title that fades in, along with three boxes. These boxes have different animations:
+
    - The first box bounces up and down.
    - The second box spins continuously.
    - The third box pulsates.
