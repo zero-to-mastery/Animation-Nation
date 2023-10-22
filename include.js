@@ -2100,13 +2100,6 @@ let cards = [
     githubLink: 'https://github.com/gabriel-conde'
   },
   {
-    artName: 'Score a Goal',
-    pageLink: './Art/ruchircodes24/index.html',
-    imageLink: './Art/ruchircodes24/Score.gif',
-    author: 'Ruchir',
-    githubLink: 'https://github.com/ruchircodes24'
-  },
-  {
     artName: 'lightsaber glowing animation',
     pageLink: './Art/mohamedabomosallam/index.html', 
     imageLink: './Art/mohamedabomosallam/lightsaber.gif', 
