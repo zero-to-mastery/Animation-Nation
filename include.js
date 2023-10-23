@@ -2276,6 +2276,13 @@ let cards = [
     imageLink: './Art/Dzivmv/rainbow_rain.gif',
     author: 'Dzivmv',
     githubLink: 'https://github.com/Dzivmv'
+  },
+  {
+    artName: 'colorful background',
+    pageLink: './Art/nharjes/index.html',
+    imageLink: './Art/nharjes/ColorfulBackgroundDemo.gif',
+    author: 'nharjes',
+    githubLink: 'https://github.com/nharjes'
   }
 ];
 
