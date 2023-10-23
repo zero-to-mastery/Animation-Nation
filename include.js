@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Flower Animation',
+    pageLink: './Art/Kris248/index.html',
+    imageLink: 'Art/Kris248/flower.gif',
+    author: 'Krish Gautam',
+    githubLink: 'https://github.com/Kris248'
+  },
+  {
     artName: 'Moving and Bouncing Rainbow ZTM Text',
     pageLink: './Art/Sayed-Afnan-Khazi/art.html',
     imageLink: 'Art/Sayed-Afnan-Khazi/art.gif',
@@ -2269,6 +2276,13 @@ let cards = [
     imageLink: './Art/Vishalpatilr20/index.png',
     author: 'Vishal',
     githubLink: 'https://github.com/vishalpatil20'
+  },
+  {
+    artName: 'Cup of Rainbow Rain',
+    pageLink: './Art/Dzivmv/index.html',
+    imageLink: './Art/Dzivmv/rainbow_rain.gif',
+    author: 'Dzivmv',
+    githubLink: 'https://github.com/Dzivmv'
   }
 ];
 
