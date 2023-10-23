@@ -1,0 +1,48 @@
+body {
+  background-color: #14596b;
+}
+
+.Container {
+  background-color: #14596b;
+  position: absolute;
+}
+.box {
+  background-color: #33b6d8;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  margin: 250px 0px 0px 600px;
+  text-align: center;
+  animation: asus2 3s 1s 5;
+}
+
+@keyframes asus2 {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+
+  25% {
+    top: 50px;
+    left: 0px;
+  }
+
+  75% {
+    top: 50px;
+    left: 50px;
+  }
+
+  100% {
+    top: 0px;
+    left: 50px;
+  }
+}
+
+@keyframes asus1 {
+  from {
+    width: 50px;
+  }
+  to {
+    width: 10px;
+  }
+}
