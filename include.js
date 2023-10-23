@@ -2258,9 +2258,9 @@ let cards = [
   },
   {
     artName: 'Css ball animation',
-    pageLink: './Art/Vishalpatil20/index.html',
-    imageLink: './Art/Vishalpatil20/index.png',
-    author: 'Vishal B ',
+    pageLink: './Art/Vishalpatilr20/index.html',
+    imageLink: './Art/Vishalpatilr20/index.png',
+    author: 'Vishal',
     githubLink: 'https://github.com/vishalpatil20'
   }
 ];
