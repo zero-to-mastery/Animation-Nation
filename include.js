@@ -2262,6 +2262,13 @@ let cards = [
     imageLink: './Art/majidshakeelshawl/animate.gif',
     author: 'Majid Shawl',
     githubLink: 'https://github.com/majidshakeelshawl'
+  },
+  {
+    artName: 'Css ball animation',
+    pageLink: './Art/Vishalpatilr20/index.html',
+    imageLink: './Art/Vishalpatilr20/index.png',
+    author: 'Vishal',
+    githubLink: 'https://github.com/vishalpatil20'
   }
 ];
 
