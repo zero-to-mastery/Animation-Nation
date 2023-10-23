@@ -2234,8 +2234,8 @@ let cards = [
     imageLink: './Art/Aryan741x/animation-1.png',
     author: 'Aryan741x',
     githubLink: 'https://github.com/Aryan741x'
- },
- {
+  },
+  {
     artName: 'Rotating Box',
     pageLink: './Art/Dhairya-Mehra/animation.html',
     imageLink: './Art/Dhairya-Mehra/animation.gif',
