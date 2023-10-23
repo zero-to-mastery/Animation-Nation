@@ -2248,7 +2248,14 @@ let cards = [
     imageLink: './Art/Shubhamkashyap1601/solar.gif',
     author: 'Shubham Kashyap',
     githubLink: 'https://github.com/Shubhamkashyap1601'
-  }
+  },
+  {
+    artName:'Loading Animation in Page',
+    pageLink:'./Art/Parth4git/index.html',
+    imageLink:'./Art/Parth4git/LoadingAnimation.gif',
+    author:'Parth Dwivedi',
+    githubLink:'https://github.com/Parth4git'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
