@@ -2262,6 +2262,13 @@ let cards = [
     imageLink: './Art/Vishalpatilr20/index.png',
     author: 'Vishal',
     githubLink: 'https://github.com/vishalpatil20'
+  },
+  {
+    artName: 'Milosz-Dev Animation',
+    pageLink: './Art/Milosz-Dev/index.html',
+    imageLink: './Art/Milosz-Dev/Milosz-Dev.gif',
+    author: 'Milosz',
+    githubLink: 'https://github.com/Milosz-Dev'
   }
 ];
 
