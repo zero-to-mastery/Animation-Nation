@@ -2262,7 +2262,15 @@ let cards = [
     imageLink: './Art/Vishalpatilr20/index.png',
     author: 'Vishal',
     githubLink: 'https://github.com/vishalpatil20'
+  },
+  {
+    artName: 'Glow pyramid',
+    pageLink: './Art/Shubhamkashyap1601/pyramid/pyramid.html',
+    imageLink: './Art/Shubhamkashyap1601/pyramid/pyramid.gif',
+    author: 'Shubham Kashyap',
+    githubLink: 'https://github.com/Shubhamkashyap1601'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
