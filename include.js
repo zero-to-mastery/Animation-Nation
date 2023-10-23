@@ -2257,6 +2257,13 @@ let cards = [
     githubLink: 'https://github.com/Parth4git'
   },
   {
+    artName: 'Jumping ball Animation',
+    pageLink: './Art/CodeDrinks270/index.html',
+    imageLink: './Art/CodeDrinks270/LightBulbAnimation.png',
+    author: 'Code Drinks',
+    githubLink: 'https://github.com/CodeDrinks270'
+  },
+  {
     artName: 'Css ball animation',
     pageLink: './Art/Vishalpatilr20/index.html',
     imageLink: './Art/Vishalpatilr20/index.png',
