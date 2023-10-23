@@ -2255,6 +2255,13 @@ let cards = [
     imageLink: './Art/Parth4git/LoadingAnimation.gif',
     author: 'Parth Dwivedi',
     githubLink: 'https://github.com/Parth4git'
+  },
+  {
+    artName: 'Css ball animation',
+    pageLink: './Art/Vishalpatil20/index.html',
+    imageLink: './Art/Vishalpatil20/index.png',
+    author: 'Vishal B ',
+    githubLink: 'https://github.com/vishalpatil20'
   }
 ];
 
