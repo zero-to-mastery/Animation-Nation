@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Flower Animation',
+    pageLink: './Art/Kris248/index.html',
+    imageLink: 'Art/Kris248/flower.gif',
+    author: 'Krish Gautam',
+    githubLink: 'https://github.com/Kris248'
+  },
+  {
     artName: 'Moving and Bouncing Rainbow ZTM Text',
     pageLink: './Art/Sayed-Afnan-Khazi/art.html',
     imageLink: 'Art/Sayed-Afnan-Khazi/art.gif',
