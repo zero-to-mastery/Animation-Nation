@@ -2269,6 +2269,13 @@ let cards = [
     imageLink: './Art/Vishalpatilr20/index.png',
     author: 'Vishal',
     githubLink: 'https://github.com/vishalpatil20'
+  },
+  {
+    artName: 'Cup of Rainbow Rain',
+    pageLink: './Art/Dzivmv/index.html',
+    imageLink: './Art/Dzivmv/rainbow_rain.gif',
+    author: 'Dzivmv',
+    githubLink: 'https://github.com/Dzivmv'
   }
 ];
 
