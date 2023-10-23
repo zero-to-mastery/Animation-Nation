@@ -2262,7 +2262,14 @@ let cards = [
     imageLink: './Art/Vishalpatilr20/index.png',
     author: 'Vishal',
     githubLink: 'https://github.com/vishalpatil20'
-  }
+  },
+  {
+    artName: 'Mouse Eyes Animation',
+    pageLink: './Art/sandeep-dss/index.html',
+    imageLink: 'Art/sandeep-dss/mouse.gif',
+    author: 'Sandeep Desaraju',
+    githubLink: 'https://github.com/sandeep-dss'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
