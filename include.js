@@ -2263,6 +2263,13 @@ let cards = [
     author: 'Vishal',
     githubLink: 'https://github.com/vishalpatil20'
   }
+  {
+    artName: 'Nuclear', 
+    pageLink: './Art/Nuclear/nuclear.html',
+    imageLink: './Art/Nuclear/nuclear.gif', 
+    author: 'Solomon',
+    githubLink: 'https://github.com/solomongegziabher' 
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
