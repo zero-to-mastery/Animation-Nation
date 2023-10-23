@@ -2262,6 +2262,13 @@ let cards = [
     imageLink: './Art/Vishalpatilr20/index.png',
     author: 'Vishal',
     githubLink: 'https://github.com/vishalpatil20'
+  },
+  {
+    artName: 'FlagPulse',
+    pageLink: './Art/Mykbenot/index.html',
+    imageLink: './Art/Mykbenot/flagpulse.gif',
+    author: 'Mykbenot',
+    githubLink: 'https://github.com/Myk-benot'
   }
 ];
 

@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #3c3b3f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #605c3c,
+    #3c3b3f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #605c3c,
+    #3c3b3f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border-radius: 5px;
+  height: 300px;
+  width: 350px;
+  animation: Pulse 3s infinite ease-in-out;
+}
+
+@keyframes Pulse {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    box-shadow: 0 0 24px rgba(216, 240, 5, 0.904);
+    background-color: yellow;
+  }
+  100% {
+    background: linear-gradient(to top, blue 50%, yellow 50%);
+  }
+}
