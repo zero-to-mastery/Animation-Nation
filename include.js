@@ -2250,11 +2250,26 @@ let cards = [
     githubLink: 'https://github.com/Shubhamkashyap1601'
   },
   {
+
     artName: 'Basic loader animation',
     pageLink: './Art/rishika-on-git/index.html',
     imageLink: './Art/rishika-on-git/result.gif',
     author: 'Rishika Aggarwal',
     githubLink: 'https://github.com/rishika-on-git'
+  },
+  {
+    artName: 'Loading Animation in Page',
+    pageLink: './Art/Parth4git/index.html',
+    imageLink: './Art/Parth4git/LoadingAnimation.gif',
+    author: 'Parth Dwivedi',
+    githubLink: 'https://github.com/Parth4git'
+  },
+  {
+    artName: 'Css ball animation',
+    pageLink: './Art/Vishalpatilr20/index.html',
+    imageLink: './Art/Vishalpatilr20/index.png',
+    author: 'Vishal',
+    githubLink: 'https://github.com/vishalpatil20'
   }
 ];
 
