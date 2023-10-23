@@ -472,7 +472,7 @@ let cards = [
     githubLink: 'https://github.com/jatanassian'
   },
   {
-    artName: 'Bouncy Loader',
+    artName: 'Tiled Loader',
     pageLink: './Art/tmsagarofficial/anim2.html',
     imageLink: './Art/tmsagarofficial/anim2.gif',
     author: 'tmsagarofficial',
