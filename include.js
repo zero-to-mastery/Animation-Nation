@@ -2255,6 +2255,13 @@ let cards = [
     imageLink: './Art/yash-paliwal/MovingEyes.gif',
     author: 'Yash Paliwal',
     githubLink: 'https://github.com/Yash-Paliwal-0210'
+  },
+  {
+    artName: 'Loading Animation in Page',
+    pageLink: './Art/Parth4git/index.html',
+    imageLink: './Art/Parth4git/LoadingAnimation.gif',
+    author: 'Parth Dwivedi',
+    githubLink: 'https://github.com/Parth4git'
   }
 ];
 
