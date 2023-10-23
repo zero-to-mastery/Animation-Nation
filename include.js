@@ -472,6 +472,13 @@ let cards = [
     githubLink: 'https://github.com/jatanassian'
   },
   {
+    artName: 'Bouncy Loader',
+    pageLink: './Art/tmsagarofficial/anim2.html',
+    imageLink: './Art/tmsagarofficial/anim2.gif',
+    author: 'tmsagarofficial',
+    githubLink: 'https://github.com/tmsagarofficial'
+  },
+  {
     artName: 'Orbiting-Ball',
     pageLink: './Art/Tipchan/OrbitingBall.html',
     imageLink: './Art/Tipchan/OrbitingBall.gif',
