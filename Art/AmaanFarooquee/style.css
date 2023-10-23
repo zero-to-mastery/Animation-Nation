@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 300px; /* Set your desired width */
+    height: 300px; /* Set your desired height */
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
