@@ -6,6 +6,13 @@ let cards = [
     author: 'Upendra',
     githubLink: 'https://github.com/Upendra2003'
   },
+    artName: 'Moving and Bouncing Rainbow ZTM Text',
+    pageLink: './Art/Sayed-Afnan-Khazi/art.html',
+    imageLink: 'Art/Sayed-Afnan-Khazi/art.gif',
+    author: 'Sayed Afnan Khazi',
+    githubLink: 'https://github.com/Sayed-Afnan-Khazi'
+  },
+  {
     artName: 'Circle Animation',
     pageLink: './Art/samwillson2009/circle2.html',
     imageLink: './Art/samwillson2009/circle2.gif',
@@ -55,13 +62,6 @@ let cards = [
     githubLink: 'https://github.com/aniketmdinde'
   },
   {
-    artName: 'Coffee Dispenser',
-    pageLink: './Art/TejaJanakiRam/index.html',
-    imageLink: './Art/TejaJanakiRam/coffee_machine.gif',
-    author: 'Teja',
-    githubLink: 'https://github.com/TejaJanakiRam'
-  },
-  {
     artName: 'LoopLamina',
     pageLink: './Art/manishjha-04/LoopLamina/index.html',
     imageLink: './Art/manishjha-04/LoopLamina/Looplamina.gif',
@@ -102,13 +102,6 @@ let cards = [
     imageLink: './Art/massdx/form-animation.gif',
     author: 'ODANOU Massahoud',
     githubLink: 'https://github.com/massdx'
-  },
-  {
-    artName: 'Cubic Circle Animation',
-    pageLink: './Art/88Abhi/index.html',
-    imageLink: './Art/88Abhi/cubeAnimation.png',
-    author: 'Abhishek',
-    githubLink: 'https://github.com/88Abhi'
   },
   {
     artName: 'Shooting stars in the night sky',
@@ -203,8 +196,8 @@ let cards = [
   },
   {
     artName: 'The Mantras',
-    pageLink: './Art/vikasgadge/index.html',
-    imageLink: './Art/vikasgadge/The Mantras.mp4',
+    pageLink: './Art/vikasgadge28/index.html',
+    imageLink: './Art/vikasgadge28/The_Mantras.gif',
     author: 'vikasgadge',
     githubLink: 'https://github.com/vikasgadge28'
   },
@@ -447,13 +440,6 @@ let cards = [
     imageLink: './Art/JT-Singh/biker.gif',
     author: 'JT Singh',
     githubLink: 'https://github.com/JT-Singh'
-  },
-  {
-    artName: 'hanisntsolo',
-    pageLink: './Art/Joy/hanisntsolo.html',
-    imageLink: './Art/Joy/hanisntsolo.gif',
-    author: 'Hanisntsolo',
-    githubLink: 'https://github.com/hanisntsolo'
   },
   {
     artName: 'Triangle',
@@ -954,8 +940,8 @@ let cards = [
   },
   {
     artName: 'Starry Night',
-    pageLink: './Art/lucileTech/starry_night.html',
-    imageLink: './Art/lucileTech/starry_night.png',
+    pageLink: './Art/LucileTech/starry-night/starry_night.html',
+    imageLink: './Art/LucileTech/starry-night/starry_night.png',
     author: 'LucileTech',
     githubLink: 'https://https://github.com/LucileTech'
   },
@@ -989,8 +975,8 @@ let cards = [
   },
   {
     artName: 'Let the Sunshine In',
-    pageLink: './Art/Sunshine/sunshine.html',
-    imageLink: './Art/Sunshine/styles.css',
+    pageLink: './Art/LucileTech/Sunshine/sunshine.html',
+    imageLink: './Art/LucileTech/Sunshine/styles.css',
     author: 'LucileTech',
     githubLink: 'https://https://github.com/LucileTech'
   },
@@ -1007,6 +993,13 @@ let cards = [
     imageLink: './Art/rajan4405/Animation.gif',
     author: 'rajan4405',
     githubLink: 'https://github.com/rajan4405'
+  },
+  {
+    artName: 'Opening Envelope Animation',
+    pageLink: './Art/VivekGuruduttK28/index.html',
+    imageLink: './Art/VivekGuruduttK28/Opening_Envelope.gif',
+    author: 'VivekGuruduttK28',
+    githubLink: 'https://github.com/VivekGuruduttK28'
   },
   {
     artName: 'Shooting gun',
@@ -1506,13 +1499,6 @@ let cards = [
     githubLink: 'https://github.com/Hrishit-B'
   },
   {
-    artName: 'Coffee Machine',
-    pageLink: './Art/shruti-sen2004/index.html',
-    imageLink: './Art/shruti-sen2004/coffee-machine.gif',
-    author: 'Shruti Sen',
-    githubLink: 'https://github.com/shruti-sen2004'
-  },
-  {
     artName: 'Bouncing Balls',
     pageLink: './Art/SamilAbud/index.html',
     imageLink: './Art/SamilAbud/bouncing-effect.gif',
@@ -1977,8 +1963,8 @@ let cards = [
   },
   {
     artName: 'Rotating Spirals',
-    pageLink: './Art/vivek/RotatingSpirals.html',
-    imageLink: './Art/vivek/RotatingStars.gif',
+    pageLink: './Art/Vivek-Kumar/RotatingSpirals.html',
+    imageLink: './Art/Vivek-Kumar/RotatingSpirals.gif',
     author: 'vivekBoii',
     githubLink: 'https://github.com/vivekBoii'
   },
@@ -2089,8 +2075,8 @@ let cards = [
   },
   {
     artName: 'Three Animate',
-    pageLink: './Art/ankoorgarai/index.html',
-    imageLink: './Art/ankoorgarai/threeanimate.gif',
+    pageLink: './Art/ankoorgorai/index.html',
+    imageLink: './Art/ankoorgorai/threeanimate.gif',
     author: 'Ankoor Gorai',
     githubLink: 'https://github.com/ankoorgorai'
   },
@@ -2174,7 +2160,7 @@ let cards = [
   {
     artName: 'Bouncy Loader',
     pageLink: './Art/tmsagarofficial/anim1.html',
-    imageLink: './Art/gabriel-conde/anim1.gif',
+    imageLink: './Art/tmsagarofficial/anim1.gif',
     author: 'tmsagarofficial',
     githubLink: 'https://github.com/tmsagarofficial'
   },
@@ -2196,6 +2182,13 @@ let cards = [
     artName: 'Circle',
     pageLink: './Art/K-Wiczling/circle.html',
     imageLink: './Art/K-Wiczling/circle.png',
+    author: 'K-Wiczling',
+    githubLink: 'https://github.com/K-Wiczling'
+  },
+  {
+    artName: 'Complex',
+    pageLink: './Art/K-Wiczling/complex.html',
+    imageLink: './Art/K-Wiczling/complex.png',
     author: 'K-Wiczling',
     githubLink: 'https://github.com/K-Wiczling'
   },
@@ -2254,6 +2247,27 @@ let cards = [
     imageLink: './Art/PentesterPriyanshu/rotatingrectangle.gif',
     author: 'Priyanshu Prajapati',
     githubLink: 'https://github.com/PentesterPriyanshu'
+  },
+  {
+    artName: 'Solar System',
+    pageLink: './Art/Shubhamkashyap1601/solar.html',
+    imageLink: './Art/Shubhamkashyap1601/solar.gif',
+    author: 'Shubham Kashyap',
+    githubLink: 'https://github.com/Shubhamkashyap1601'
+  },
+  {
+    artName: 'Loading Animation in Page',
+    pageLink: './Art/Parth4git/index.html',
+    imageLink: './Art/Parth4git/LoadingAnimation.gif',
+    author: 'Parth Dwivedi',
+    githubLink: 'https://github.com/Parth4git'
+  },
+  {
+    artName: 'Css ball animation',
+    pageLink: './Art/Vishalpatilr20/index.html',
+    imageLink: './Art/Vishalpatilr20/index.png',
+    author: 'Vishal',
+    githubLink: 'https://github.com/vishalpatil20'
   }
 ];
 
