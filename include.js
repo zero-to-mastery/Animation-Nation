@@ -2285,6 +2285,13 @@ let cards = [
     githubLink: 'https://github.com/vishalpatil20'
   },
   {
+    artName: 'Mouse Eyes Animation',
+    pageLink: './Art/sandeep-dss/index.html',
+    imageLink: 'Art/sandeep-dss/mouse.gif',
+    author: 'Sandeep Desaraju',
+    githubLink: 'https://github.com/sandeep-dss'
+  },
+  {
     artName: 'Cup of Rainbow Rain',
     pageLink: './Art/Dzivmv/index.html',
     imageLink: './Art/Dzivmv/rainbow_rain.gif',
