@@ -24,13 +24,18 @@ stars {
   opacity: 0.5;
   animation: twinkle 1s infinite;
   background: url('star.png') no-repeat center center/contain;
-
 }
 
 @keyframes twinkle {
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .solar-system {
   position: absolute;
@@ -85,7 +90,6 @@ stars {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
- 
 }
 
 .mercury-orbit {
@@ -111,8 +115,6 @@ stars {
   height: 220px;
   animation: orbit-rotation 20s infinite linear;
 }
-
-
 
 @keyframes planet-revolution {
   from {
