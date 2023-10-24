@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body {
+  height: 10vh;
+  /* Applies the nice gradient for the blue color but repeats it to look like waves */
+  background: radial-gradient(rgb(5, 221, 245), rgb(5, 87, 146));
+}
+.container {
+  height: 60vh;
+  width: 30vw;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  /* This helps to achieve a natural look to the cube */
+  transform: translate(-50%, -50%);
+  /* This helps to achieve a natural look to the cube */
+  perspective: 1000px;
+}
+.box {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  /* top margin */
+  top: 100px;
+  /* left margin */
+  left: 100px;
+  transform: rotate(0deg);
+  transform-style: preserve-3d;
+  /* transform: rotateY(90deg); */
+  animation: animate 12s infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotateX(75deg) rotateY(-75deg);
+  }
+  25% {
+    transform: rotateX(-75deg) rotateY(-75deg);
+  }
+  50% {
+    transform: rotateX(75deg) rotateY(75deg);
+  }
+  75% {
+    transform: rotateX(-75deg) rotateY(-75deg);
+  }
+  /* 100 percent degrees are crucial so that the box ends in the same position it started otherwise it will look glitchy */
+  100% {
+    transform: rotateX(75deg) rotateY(-75deg);
+  }
+}
+.card {
+  /* parameters for the actual sides of the box */
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  padding: 100px 0px;
+  color: white;
+  /* Fades the colors from top to bottom to match ZTM color scheme */
+  background: linear-gradient(to bottom, rgb(82, 187, 82), rgb(190, 57, 57));
+  /* background: linear-gradient(to bottom, black, rgb(119, 119, 119)); */
+  border: 2px solid white;
+  font-size: 32px;
+  box-sizing: border-box;
+  position: absolute;
+  /* Needed to rotate cards 360 degrees at lift off and on return */
+  transition: all 1s;
+}
+/* The translate functions with either x, y, or z are needed to create the cube shape */
+#front {
+  transform: translateZ(125px);
+}
+#back {
+  transform: translateZ(-125px);
+}
+#left {
+  right: 125px;
+  transform: rotateY(270deg);
+}
+#right {
+  left: 125px;
+  transform: rotateY(90deg);
+}
+#top {
+  bottom: 125px;
+  transform: rotateX(90deg);
+}
+#bottom {
+  top: 125px;
+  transform: rotateX(-90deg);
+}
+/* This is for the button so the cube explodes */
+input {
+  height: 50px;
+  width: 100px;
+  background: rgb(255, 255, 255);
+  font-size: 22px;
+  cursor: pointer;
+  position: absolute;
+  top: -100px;
+  left: 175px;
+  border-radius: 70%;
+}
+/* pixel movement is to move the sides away from their current positions */
+/* rotate is to spin the sides as they move */
+input:focus ~ .box #front {
+  transform: translateZ(180px) rotateY(360deg);
+}
+input:focus ~ .box #back {
+  transform: translateZ(-180px) rotateY(360deg);
+}
+input:focus ~ .box #left {
+  right: 180px;
+  transform: rotateY(90deg);
+}
+input:focus ~ .box #right {
+  left: 180px;
+  transform: rotateY(-90deg);
+}
+input:focus ~ .box #top {
+  bottom: 180px;
+  transform: rotatex(270deg);
+}
+input:focus ~ .box #bottom {
+  top: 180px;
+  transform: rotatex(270deg);
+}

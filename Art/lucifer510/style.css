@@ -1,0 +1,62 @@
+.spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100.2px;
+  height: 9.2px;
+}
+
+.spinner div {
+  animation: spinner-4t3wzl 1.875s infinite backwards;
+  background-color: #524f2e;
+  border-radius: 50%;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.spinner div:nth-child(1) {
+  animation-delay: 0.14s;
+  background-color: rgba(235, 91, 243, 0.9);
+}
+
+.spinner div:nth-child(2) {
+  animation-delay: 0.28s;
+  background-color: rgba(97, 69, 236, 0.9);
+}
+
+.spinner div:nth-child(3) {
+  animation-delay: 0.42s;
+  background-color: rgba(93, 212, 245, 0.7);
+}
+
+.spinner div:nth-child(4) {
+  animation-delay: 0.56s;
+  background-color: rgba(38, 204, 71, 0.6);
+}
+
+.spinner div:nth-child(5) {
+  animation-delay: 0.7s;
+  background-color: rgba(205, 244, 64, 0.591);
+}
+
+.spinner div:nth-child(6) {
+  animation-delay: 0.84s;
+  background-color: rgba(207, 185, 43, 0.5);
+}
+
+.spinner div:nth-child(7) {
+  animation-delay: 0.98s;
+  background-color: rgba(203, 63, 63, 0.698);
+}
+
+@keyframes spinner-4t3wzl {
+  0% {
+    transform: rotate(0deg) translateY(-200%);
+  }
+
+  60%,
+  100% {
+    transform: rotate(360deg) translateY(-200%);
+  }
+}
