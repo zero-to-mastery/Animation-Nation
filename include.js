@@ -2325,6 +2325,13 @@ let cards = [
     imageLink: './Art/nharjes/ColorfulBackgroundDemo.gif',
     author: 'nharjes',
     githubLink: 'https://github.com/nharjes'
+  },
+  {
+    artName: 'Dog walk',
+    pageLink: './Art/madelenfoss/index.html',
+    imageLink: './Art/madelenfoss/madelenfoss_dogwalk.gif',
+    author: 'Madelen Foss',
+    githubLink: 'https://github.com/madelenfoss'
   }
 ];
 
