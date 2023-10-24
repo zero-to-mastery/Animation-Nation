@@ -2292,6 +2292,13 @@ let cards = [
     githubLink: 'https://github.com/Shubhamkashyap1601'
   },
   {
+    artName: 'Loading animation',
+    pageLink: './Art/ShashankPatil35/index.html',
+    imageLink: './Art/ShashankPatil35/LoadingGIF.gif',
+    author: 'ShashankPatil',
+    githubLink: 'hhttps://github.com/ShashankPatil35'
+  },
+  {
     artName: 'Mouse Eyes Animation',
     pageLink: './Art/sandeep-dss/index.html',
     imageLink: 'Art/sandeep-dss/mouse.gif',
