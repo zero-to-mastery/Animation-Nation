@@ -2283,6 +2283,13 @@ let cards = [
     imageLink: './Art/Dzivmv/rainbow_rain.gif',
     author: 'Dzivmv',
     githubLink: 'https://github.com/Dzivmv'
+  },
+  {
+    artName: 'Avengers Animation',
+    pageLink: './Art/lavish-github/avengers.html',
+    imageLink: './Art/lavish-github/avengers_animation.png',
+    author: 'lavish-github',
+    githubLink: 'https://github.com/lavish-github'
   }
 ];
 
