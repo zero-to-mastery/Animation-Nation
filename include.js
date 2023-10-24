@@ -112,6 +112,13 @@ let cards = [
     githubLink: 'https://github.com/ahmedalhamad7'
   },
   {
+    artName: "Solar system-Art",
+    pageLink: './Art/Comder101/solar_system.html',
+    imageLink: './Art/Comder101/solar_system.gif',
+    author: 'Comder101',
+    githubLink: 'https://github.com/Comder101'
+  },
+  {
     artName: 'Bird Walk',
     pageLink: './Art/pypimo/index.html',
     imageLink: './Art/pypimo/bird-walk.gif',
