@@ -2310,7 +2310,7 @@ let cards = [
     pageLink: './Art/nharjes/index.html',
     imageLink: './Art/nharjes/ColorfulBackgroundDemo.gif',
     author: 'nharjes',
-    githubLink: 'https://github.com/nharjes'
+    githubLink: 'https://github.com/nharjes',
   },
   {
     artName: 'blinking_monkey',
