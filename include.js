@@ -2278,6 +2278,13 @@ let cards = [
     githubLink: 'https://github.com/vishalpatil20'
   },
   {
+    artName: 'Rocket In Space',
+    pageLink: './Art/maxie7/rocket.html',
+    imageLink: './Art/maxie7/rocket.gif',
+    author: 'MaxKos',
+    githubLink: 'https://github.com/maxie7'
+  },
+  {
     artName: 'Cup of Rainbow Rain',
     pageLink: './Art/Dzivmv/index.html',
     imageLink: './Art/Dzivmv/rainbow_rain.gif',
