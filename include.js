@@ -2082,6 +2082,13 @@ let cards = [
     githubLink: 'https://github.com/ankoorgorai'
   },
   {
+    artName: 'Windows Loader',
+    pageLink: './Art/tmsagarofficial/anim3.html',
+    imageLink: './Art/tmsagarofficial/anim3.gif',
+    author: 'tmsagarofficial',
+    githubLink: 'https://github.com/tmsagarofficial'
+  },
+  {
     artName: 'Birthday Card Animation',
     pageLink: './Art/Varad0014/index.html',
     imageLink: './Art/Varad0014/Birthday-Card-Animation.gif',
