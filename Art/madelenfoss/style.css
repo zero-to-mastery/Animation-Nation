@@ -2,7 +2,6 @@
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	-webkit-font-smoothing: antialiased;
    margin: 0 auto;
    width: 100%;
 }
