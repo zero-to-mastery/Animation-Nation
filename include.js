@@ -2236,6 +2236,13 @@ let cards = [
     githubLink: 'https://github.com/Aryan741x'
   },
   {
+    artName: 'Glowing Moon',
+    pageLink: './Art/claire-ca/index.html',
+    imageLink: './Art/claire-ca/glowing-moon.gif',
+    author: 'Claire Calder',
+    githubLink: 'https://github.com/claire-ca'
+  },
+  {
     artName: 'Rotating Box',
     pageLink: './Art/Dhairya-Mehra/animation.html',
     imageLink: './Art/Dhairya-Mehra/animation.gif',
