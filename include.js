@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/Kris248'
   },
   {
+    artName: 'lightning square',
+    pageLink: './Art/aman/index.html',
+    imageLink: './Art/aman/Screencast from 2023-10-24 17-49-04.webm',
+    author: 'cbum',
+    githubLink: 'https://github.com/paman6415'
+  },
+  {
     artName: 'Moving and Bouncing Rainbow ZTM Text',
     pageLink: './Art/Sayed-Afnan-Khazi/art.html',
     imageLink: 'Art/Sayed-Afnan-Khazi/art.gif',
