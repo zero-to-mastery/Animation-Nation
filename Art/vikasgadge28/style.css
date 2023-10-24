@@ -1,0 +1,102 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  background: rgb(52, 30, 139);
+
+  height: 100%;
+  width: 100%;
+}
+.back {
+  width: 50vw;
+  height: 100vh;
+  background-color: white;
+}
+
+#container {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+}
+span {
+  height: 94%;
+  width: 94%;
+  background: rgba(255, 248, 41, 0.768);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -47% 0 0 -47%;
+  animation: animate 15s linear infinite;
+  animation-duration: calc(25s / var(--i));
+  box-shadow: 10px 10px 10px black, -10px -10px 10px black;
+}
+
+.w {
+  background-color: white;
+  rotate: 60deg;
+}
+.g {
+  background-color: red;
+
+  rotate: 120deg;
+}
+.k {
+  background-color: rgba(107, 128, 0, 0.776);
+  scale: 0.5;
+}
+.l {
+  background-color: white;
+  rotate: 60deg;
+  scale: 0.5;
+}
+.m {
+  background-color: red;
+  rotate: 120deg;
+  scale: 0.5;
+}
+.o {
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  rotate: 120deg;
+  scale: 0.5;
+  border-radius: 50%;
+  position: absolute;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: azure;
+  position: absolute;
+  top: 41%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  animation: size 2.27s linear infinite;
+}
+@keyframes size {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  100% {
+    transform: rotate(0deg) scale(0.5);
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  95% {
+    transform: rotate(360deg) scale(0.5);
+  }
+}
