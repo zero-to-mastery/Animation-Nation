@@ -1885,6 +1885,13 @@ let cards = [
     author: 'Sai',
     githubLink: 'https://github.com/SaiAryan1784'
   },
+  {
+    artName: 'Rainbow Animation Loader',
+    pageLink: './Art/Bhavna2003-2/index.html',
+    imageLink: './Art/Bhavna2003-2/Rainbow animation.gif',
+    author: 'Bhavna',
+    githubLink: 'https://github.com/Bhavna2003'
+  },
 ];
 
 
