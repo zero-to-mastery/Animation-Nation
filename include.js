@@ -2285,6 +2285,13 @@ let cards = [
     githubLink: 'https://github.com/vishalpatil20'
   },
   {
+    artName: 'Glow pyramid',
+    pageLink: './Art/Shubhamkashyap1601/pyramid/pyramid.html',
+    imageLink: './Art/Shubhamkashyap1601/pyramid/pyramid.gif',
+    author: 'Shubham Kashyap',
+    githubLink: 'https://github.com/Shubhamkashyap1601'
+  },
+  {
     artName: 'Mouse Eyes Animation',
     pageLink: './Art/sandeep-dss/index.html',
     imageLink: 'Art/sandeep-dss/mouse.gif',
