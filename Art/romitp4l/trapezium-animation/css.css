@@ -1,0 +1,111 @@
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #2d3436;
+    color: #fab1a0;
+  }
+  
+  @keyframes rotateTrapezium {
+    0% {
+      transform: skewY(0deg);
+    }
+    50% {
+      transform: skewY(20deg);
+    }
+    100% {
+      transform: skewY(0deg);
+    }
+  }
+  
+  .rotator {
+    animation: rotateTrapezium 6s linear infinite;
+  }
+  
+  @keyframes shrinkTrapezium {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.5);
+    }
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    animation: shrinkTrapezium 3s linear infinite;
+  }
+  
+  .trapezium {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+    overflow: hidden;
+    transform-origin: 50% 50%;
+    background: currentColor;
+  }
+  
+  .trapezium:nth-child(1) {
+    animation: growTrapezium-1 3s infinite;
+  }
+  
+  @keyframes growTrapezium-1 {
+    0%, 10% {
+      transform: scale(0) skewY(-20deg);
+      color: #55efc4;
+    }
+    75% {
+      transform: scale(1) skewY(-20deg);
+      color: #55efc4;
+    }
+    100% {
+      transform: scale(1) skewY(-20deg);
+      color: currentColor;
+    }
+  }
+  
+  .trapezium:nth-child(2) {
+    animation: growTrapezium-2 3s infinite;
+  }
+  
+  @keyframes growTrapezium-2 {
+    0%, 20% {
+      transform: scale(0) skewY(-20deg);
+      color: #ffeaa7;
+    }
+    75% {
+      transform: scale(1) skewY(-20deg);
+      color: #ffeaa7;
+    }
+    100% {
+      transform: scale(1) skewY(-20deg);
+      color: currentColor;
+    }
+  }
+  
+  .trapezium:nth-child(3) {
+    animation: growTrapezium-3 3s infinite;
+  }
+  
+  @keyframes growTrapezium-3 {
+    0%, 30% {
+      transform: scale(0) skewY(-20deg);
+      color: #fd79a8;
+    }
+    75% {
+      transform: scale(1) skewY(-20deg);
+      color: #fd79a8;
+    }
+    100% {
+      transform: scale(1) skewY(-20deg);
+      color: currentColor;
+    }
+  }
+  
