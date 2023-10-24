@@ -2264,6 +2264,13 @@ let cards = [
     githubLink: 'https://github.com/Shubhamkashyap1601'
   },
   {
+    artName: 'Compass Loader',
+    pageLink: './Art/AmanPathan/index.html',
+    imageLink: '.Art/AmanPathan/CompassLoader.gif',
+    author: 'AmanPathan',
+    githubLink: 'https://github.com/AmanPathan'
+  },
+  {
     artName: 'Loading Animation in Page',
     pageLink: './Art/Parth4git/index.html',
     imageLink: './Art/Parth4git/LoadingAnimation.gif',
