@@ -2283,6 +2283,13 @@ let cards = [
     imageLink: './Art/Dzivmv/rainbow_rain.gif',
     author: 'Dzivmv',
     githubLink: 'https://github.com/Dzivmv'
+  },
+  {
+    artName: 'SPINNER ORBITS',
+    pageLink: './Art/abdullahsadik00/index.html',
+    imageLink: './Art/abdullahsadik00/animation.gif',
+    author: 'Sadik Shaikh',
+    githubLink: 'https://github.com/abdullahsadik00'
   }
 ];
 
