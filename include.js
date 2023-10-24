@@ -2257,7 +2257,7 @@ let cards = [
     githubLink: 'https://github.com/Parth4git'
   },
   {
-    artName: 'Test',
+    artName: 'API Request Animation',
     pageLink: './Art/majidshakeelshawl/index.html',
     imageLink: './Art/majidshakeelshawl/animate.gif',
     author: 'Majid Shawl',
