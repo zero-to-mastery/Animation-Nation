@@ -1733,7 +1733,7 @@ const cards = [
     githubLink: 'https://github.com/Sayed-Husain'
   },
   {
-    artName: 'TargetLoadingBothColors',
+    artName: 'Target Loading Both Colors',
     pageLink: './Art/ParzivalAFK/TargetLoadingBothColors.html',
     imageLink: './Art/ParzivalAFK/TargetLoadingBothColors.gif',
     author: 'ParzivalAFK',
@@ -2259,7 +2259,7 @@ const cards = [
     githubLink: 'https://github.com/manishjha-04'
   },
   {
-    artName: 'rotatingrectangle in cube',
+    artName: 'rotating rectangle in cube',
     pageLink: './Art/PentesterPriyanshu/rotatingrectangle.html',
     imageLink: './Art/PentesterPriyanshu/rotatingrectangle.gif',
     author: 'Priyanshu Prajapati',
@@ -2356,7 +2356,7 @@ const getCardContents = (cardList) => {
     `<li class="card">` +
       `<a href='${c.pageLink}'>` +
       `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
+      `</a><hr>` + 
       `<div class="flex-content">` +
       `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
       `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
@@ -2399,11 +2399,11 @@ function searchCard(event){
   const value = event.target.value.toLowerCase();
   let filteredCards;
   if( !!value ){
-    filteredCards = cards.filter(({ artName, githubLink }) => {
+    filteredCards = cards.filter(({ artName, githubLink, author }) => {
       const _artName = artName.toLowerCase();
       const _githubLink = githubLink.toLowerCase();
-      // return _artName.includes( value ) || _githubLink.includes( value );
-      return [_artName, _githubLink].some(detail => detail.includes(value))
+      const _author = author.toLowerCase()
+      return [_artName, _githubLink, _author].some(detail => detail.includes(value))
     });
     contents = getCardContents( filteredCards );
   } else {
