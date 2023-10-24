@@ -151,3 +151,18 @@
 	border-radius: 10rem;
 	transform: rotate(-30deg);
 }
+
+
+@keyframes walk {
+	from {
+		transform: translateX(80rem);
+	}
+
+	100% {
+		transform: scale(50%)
+	}
+
+	to {
+		transform: translateX(-10);
+	}
+}
