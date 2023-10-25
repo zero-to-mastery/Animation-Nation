@@ -112,6 +112,13 @@ let cards = [
     githubLink: 'https://github.com/ahmedalhamad7'
   },
   {
+    artName: 'Solar system-Art',
+    pageLink: './Art/Comder101/solar_system.html',
+    imageLink: './Art/Comder101/solar_system.gif',
+    author: 'Comder101',
+    githubLink: 'https://github.com/Comder101'
+  },
+  {
     artName: 'Bird Walk',
     pageLink: './Art/pypimo/index.html',
     imageLink: './Art/pypimo/bird-walk.gif',
@@ -2264,11 +2271,25 @@ let cards = [
     githubLink: 'https://github.com/Shubhamkashyap1601'
   },
   {
+    artName: 'Compass Loader',
+    pageLink: './Art/AmanPathan/index.html',
+    imageLink: '.Art/AmanPathan/CompassLoader.gif',
+    author: 'AmanPathan',
+    githubLink: 'https://github.com/AmanPathan'
+  },
+  {
     artName: 'Loading Animation in Page',
     pageLink: './Art/Parth4git/index.html',
     imageLink: './Art/Parth4git/LoadingAnimation.gif',
     author: 'Parth Dwivedi',
     githubLink: 'https://github.com/Parth4git'
+  },
+  {
+    artName: 'Jumping ball Animation',
+    pageLink: './Art/CodeDrinks270/index.html',
+    imageLink: './Art/CodeDrinks270/LightBulbAnimation.png',
+    author: 'Code Drinks',
+    githubLink: 'https://github.com/CodeDrinks270'
   },
   {
     artName: 'Css ball animation',
@@ -2285,11 +2306,32 @@ let cards = [
     githubLink: 'https://github.com/maxie7'
   },
   {
+    artName: 'Glow pyramid',
+    pageLink: './Art/Shubhamkashyap1601/pyramid/pyramid.html',
+    imageLink: './Art/Shubhamkashyap1601/pyramid/pyramid.gif',
+    author: 'Shubham Kashyap',
+    githubLink: 'https://github.com/Shubhamkashyap1601'
+  },
+  {
+    artName: 'Mouse Eyes Animation',
+    pageLink: './Art/sandeep-dss/index.html',
+    imageLink: 'Art/sandeep-dss/mouse.gif',
+    author: 'Sandeep Desaraju',
+    githubLink: 'https://github.com/sandeep-dss'
+  },
+  {
     artName: 'Cup of Rainbow Rain',
     pageLink: './Art/Dzivmv/index.html',
     imageLink: './Art/Dzivmv/rainbow_rain.gif',
     author: 'Dzivmv',
     githubLink: 'https://github.com/Dzivmv'
+  },
+  {
+    artName: 'colorful background',
+    pageLink: './Art/nharjes/index.html',
+    imageLink: './Art/nharjes/ColorfulBackgroundDemo.gif',
+    author: 'nharjes',
+    githubLink: 'https://github.com/nharjes'
   }
 ];
 
