@@ -217,6 +217,13 @@ let cards = [
     githubLink: 'https://github.com/Stellar-X'
   },
   {
+    artName: 'Women in STEM',
+    pageLink: './Art/cardProject/index.html',
+    imageLink: './Art/cardProject/cardproject.png',
+    author: 'Lucile Tech',
+    githubLink: 'https://lucile-tech.com/'
+  },
+  {
     artName: 'Trippy',
     pageLink: './Art/Simar/trippy.html',
     imageLink: './Art/Simar/trippy-square.gif',
