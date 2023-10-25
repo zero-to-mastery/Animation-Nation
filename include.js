@@ -1,5 +1,13 @@
 let cards = [
   {
+
+    artName: 'Smily Face Animation',
+    pageLink: './Art/Upendra/index.html',
+    imageLink: './Art/Upendra/smily.png',
+    author: 'Upendra',
+    githubLink: 'https://github.com/Upendra2003'
+  },
+
     artName: 'Flower Animation',
     pageLink: './Art/Kris248/index.html',
     imageLink: 'Art/Kris248/flower.gif',
@@ -7,6 +15,7 @@ let cards = [
     githubLink: 'https://github.com/Kris248'
   },
   {
+
     artName: 'Moving and Bouncing Rainbow ZTM Text',
     pageLink: './Art/Sayed-Afnan-Khazi/art.html',
     imageLink: 'Art/Sayed-Afnan-Khazi/art.gif',
