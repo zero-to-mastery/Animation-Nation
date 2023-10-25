@@ -11,7 +11,6 @@ background-size: cover;
 	margin-top: 8%;
 	width: 600px;
 	height: 420px;
-/*	background: white;*/
 	border: solid 4px white;
 }
 
@@ -81,17 +80,17 @@ background-size: cover;
 }
 
 .left-eye::after {
-  content: "";
-  position: absolute;
-  top: -3%;
-  left: -5%;
-  height: 0;
-  width: 110%;
-  border-radius: 50%;
-  background: saddlebrown;
-  -webkit-animation: blink 3s infinite ease-in;
-  animation: blink 3s infinite ease-in;
-   z-index: 4;
+  	content: "";
+	position: absolute;
+	top: -3%;
+	left: -5%;
+	height: 0;
+	width: 110%;
+	border-radius: 50%;
+	background: saddlebrown;
+	-webkit-animation: blink 3s infinite ease-in;
+	animation: blink 3s infinite ease-in;
+	z-index: 4;
 }
 
 .right-eye {
@@ -106,17 +105,17 @@ background-size: cover;
 }
 
 .right-eye::after {
-  content: "";
-  position: absolute;
-  top: -3%;
-  left: -5%;
-  height: 0;
-  width: 110%;
-  border-radius: 50%;
-  background: saddlebrown;
-  -webkit-animation: blink 3s infinite ease-in;
-  animation: blink 3s infinite ease-in;
-  z-index: 4;
+	content: "";
+	position: absolute;
+	top: -3%;
+	left: -5%;
+	height: 0;
+	width: 110%;
+	border-radius: 50%;
+	background: saddlebrown;
+	-webkit-animation: blink 3s infinite ease-in;
+	animation: blink 3s infinite ease-in;
+	z-index: 4;
 }
 
 .pupil {
@@ -169,9 +168,6 @@ background-size: cover;
 	border-radius: 50%;
 	z-index: 4;
 }
-
-/*help from 'https://blog.hubspot.com/website/css-animation-examples#:~:text=To%20make%20a%20CSS%20animation,animation%2C%20like%20speed%20and%20delay.'*/
-
 
 @-webkit-keyframes blink {
   0% {
