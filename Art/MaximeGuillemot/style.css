@@ -1,0 +1,256 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: #00aeff;
+}
+.mainContainer {
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  border: 8px groove rgb(0, 255, 213);
+  position: relative;
+}
+
+.container1 {
+  width: 500px;
+  height: 500px;
+  background-color: #000;
+  border-radius: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  left: -250px;
+}
+
+.container2 {
+  width: 500px;
+  height: 500px;
+  background-color: #000;
+  border-radius: 100%;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: -250px;
+  left: -10px;
+  rotate: 90deg;
+}
+
+.container3 {
+  width: 500px;
+  height: 500px;
+  background-color: #000;
+  border-radius: 100%;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 250px;
+  rotate: 180deg;
+}
+
+.container4 {
+  width: 500px;
+  height: 500px;
+  background-color: #000;
+  border-radius: 100%;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  bottom: -250px;
+  left: 0px;
+  rotate: -90deg;
+}
+
+.triangle {
+  width: 250px;
+  height: 250px;
+  border-top-left-radius: 100%;
+  position: absolute;
+  transform-origin: bottom right;
+}
+
+.color1 {
+  background-color: #00aeff;
+}
+.color2 {
+  background-color: #00ff59;
+}
+.color3 {
+  background-color: #ffe500;
+}
+.color4 {
+  background-color: #ff54fc;
+}
+.color5 {
+  background-color: #ff3030;
+}
+.color6 {
+  background-color: #68ffea;
+}
+.color7 {
+  background-color: #9dff68;
+}
+.color8 {
+  background-color: #d968ff;
+}
+.color9 {
+  background-color: #ffa632;
+}
+.color10 {
+  background-color: #00ff72;
+}
+.color11 {
+  background-color: #0090ff;
+}
+.color12 {
+  background-color: #ff2d70;
+}
+.color13 {
+  background-color: #fff87f;
+}
+.color14 {
+  background-color: #33ce4d;
+}
+.color15 {
+  background-color: #fdafff;
+}
+.color16 {
+  background-color: #586fe2;
+}
+.color17 {
+  background-color: #e87000;
+}
+.color18 {
+  background-color: #00ddc0;
+}
+.color19 {
+  background-color: #e51600;
+}
+.color20 {
+  background-color: #dbffa3;
+}
+.color21 {
+  background-color: #f5d8ff;
+}
+.color22 {
+  background-color: #c94900;
+}
+.color23 {
+  background-color: #84a5ff;
+}
+.color24 {
+  background-color: #a3ff84;
+}
+
+.deg2 {
+  rotate: 15deg;
+}
+.deg3 {
+  rotate: 30deg;
+}
+.deg4 {
+  rotate: 45deg;
+}
+.deg5 {
+  rotate: 60deg;
+}
+.deg6 {
+  rotate: 75deg;
+}
+.deg7 {
+  rotate: 90deg;
+}
+.deg8 {
+  rotate: 105deg;
+}
+.deg9 {
+  rotate: 120deg;
+}
+.deg10 {
+  rotate: 135deg;
+}
+.deg11 {
+  rotate: 150deg;
+}
+.deg12 {
+  rotate: 165deg;
+}
+.deg13 {
+  rotate: 180deg;
+}
+.deg14 {
+  rotate: 195deg;
+}
+.deg15 {
+  rotate: 210deg;
+}
+.deg16 {
+  rotate: 225deg;
+}
+.deg17 {
+  rotate: 240deg;
+}
+.deg18 {
+  rotate: 255deg;
+}
+.deg19 {
+  rotate: 270deg;
+}
+.deg20 {
+  rotate: 285deg;
+}
+.deg21 {
+  rotate: 300deg;
+}
+.deg22 {
+  rotate: 315deg;
+}
+.deg23 {
+  rotate: 330deg;
+}
+.deg24 {
+  rotate: 345deg;
+}
+
+.anim {
+  animation: 1s 0s infinite rotate15deg;
+}
+
+.bgAnim {
+  animation: 20s 0s infinite bgAnim;
+}
+
+@keyframes rotate15deg {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bgAnim {
+  0% {
+    background-color: #00aeff;
+  }
+  20% {
+    background-color: #00ddc0;
+  }
+  40% {
+    background-color: #fdafff;
+  }
+  60% {
+    background-color: #ffa632;
+  }
+  80% {
+    background-color: #84a5ff;
+  }
+  100% {
+    background-color: #00aeff;
+  }
+}

@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.confetti-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #e74c3c;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  animation: fall 1s infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+.confetti:nth-child(1) {
+  left: 5%;
+  animation-duration: 1.2s;
+}
+
+.confetti:nth-child(2) {
+  left: 15%;
+  animation-duration: 1.5s;
+}
+
+.confetti:nth-child(3) {
+  left: 25%;
+  animation-duration: 1.3s;
+}

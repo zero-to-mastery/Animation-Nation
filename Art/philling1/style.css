@@ -1,0 +1,47 @@
+:root {
+  --main-color: #2c2f30;
+  --point-color: #cf4343;
+  --size: 10px;
+}
+
+.animation {
+  background-color: var(--main-color);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  z-index: 100000;
+}
+
+.loaders {
+  border-radius: 100%;
+  border: var(--size) solid var(--point-color);
+  margin: calc(var(--size) * 4);
+}
+
+.loaders:nth-child(1) {
+  animation: preloader 0.6s ease-in-out alternate infinite;
+}
+.loaders:nth-child(2) {
+  animation: preloader 0.6s ease-in-out alternate 0.2s infinite;
+}
+
+.loaders:nth-child(3) {
+  animation: preloader 0.6s ease-in-out alternate 0.4s infinite;
+}
+
+.loaders:nth-child(4) {
+  animation: preloader 0.6s ease-in-out alternate 0.6s infinite;
+}
+
+@keyframes preloader {
+  100% {
+    transform: scale(2);
+  }
+}
