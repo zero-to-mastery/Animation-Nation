@@ -2299,6 +2299,13 @@ let cards = [
     githubLink: 'https://github.com/vishalpatil20'
   },
   {
+    artName: 'Rocket In Space',
+    pageLink: './Art/maxie7/rocket.html',
+    imageLink: './Art/maxie7/rocket.gif',
+    author: 'MaxKos',
+    githubLink: 'https://github.com/maxie7'
+  },
+  {
     artName: 'Glow pyramid',
     pageLink: './Art/Shubhamkashyap1601/pyramid/pyramid.html',
     imageLink: './Art/Shubhamkashyap1601/pyramid/pyramid.gif',
@@ -2335,9 +2342,9 @@ let cards = [
   },
   {
     artName: 'blinking_monkey',
-    pageLink: './Art/daniel1david/index.html', 
-    imageLink: './Art/daniel1david/monkey_face.gif', 
-    author: 'Daniel', 
+    pageLink: './Art/daniel1david/index.html',
+    imageLink: './Art/daniel1david/monkey_face.gif',
+    author: 'Daniel',
     githubLink: 'https://github.com/daniel1david'
   },
   {
@@ -2370,10 +2377,10 @@ let cards = [
   },
   {
     artName: 'lightsaber glowing animation',
-    pageLink: './Art/mohamedabomosallam/index.html', 
-    imageLink: './Art/mohamedabomosallam/lightsaber.gif', 
-    author: 'mohamedmosalam', 
-    githubLink: 'https://github.com/MohamedAboMousallam' 
+    pageLink: './Art/mohamedabomosallam/index.html',
+    imageLink: './Art/mohamedabomosallam/lightsaber.gif',
+    author: 'mohamedmosalam',
+    githubLink: 'https://github.com/MohamedAboMousallam'
   },
   {
     artName: 'Rainbow Animation Loader',
