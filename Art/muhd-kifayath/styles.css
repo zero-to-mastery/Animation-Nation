@@ -1,0 +1,74 @@
+body {
+  background: #000000;
+  height: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 25vh;
+}
+.tyre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+  border: 10px solid white;
+}
+.center-cap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+.spoke-blue {
+  position: absolute;
+  height: 180px;
+  width: 5px;
+  background-color: blue;
+  z-index: -1;
+  animation: rotate 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+.spoke-red {
+  position: absolute;
+  height: 180px;
+  width: 5px;
+  background-color: red;
+  z-index: -1;
+  transform: rotate(45deg);
+  animation: rotate 3s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-delay: 1s;
+}
+.spoke-green {
+  position: absolute;
+  height: 180px;
+  width: 5px;
+  background-color: green;
+  z-index: -1;
+  transform: rotate(-60deg);
+  animation: rotate 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translateY(0px) rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(10deg) translateY(0px) rotate(3600deg);
+  }
+}

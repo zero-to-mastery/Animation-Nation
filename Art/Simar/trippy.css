@@ -5,7 +5,6 @@
   max-width: 1080px;
   margin: auto;
   overflow: hidden;
-
 }
 
 .container {
@@ -32,7 +31,7 @@
   position: absolute;
   top: 48%;
   left: 50%;
-  transform: translate( -50%, -50%);
+  transform: translate(-50%, -50%);
   width: 84%;
   height: auto;
 }
@@ -48,19 +47,19 @@ button.dile {
   transform: translateY(-50%);
   padding: 0;
   border-radius: 50%;
-  border: #DFDDD1 solid 3px;
+  border: #dfddd1 solid 3px;
   background-color: transparent;
   width: 10.2%;
   line-height: 0;
   cursor: pointer;
   transition: all 200ms ease-in-out;
-  
+
   &:hover,
   &:focus {
     outline: none;
     border: #007fff solid 2px;
   }
-  
+
   span {
     display: block;
     width: 100%;
@@ -68,9 +67,13 @@ button.dile {
   }
 }
 
-button#channels { top: 56.3%; }
+button#channels {
+  top: 56.3%;
+}
 
-button#volume { top: 74.6%; }
+button#volume {
+  top: 74.6%;
+}
 
 button.switch {
   display: block;
@@ -80,19 +83,19 @@ button.switch {
   padding: 0;
   border-radius: 50%;
   border: none;
-  background-color: #DFDDD1;
+  background-color: #dfddd1;
   width: 1.5%;
   line-height: 0;
   cursor: pointer;
   transition: all 200ms ease-in-out;
-  
+
   &:hover,
   &:focus {
     outline: none;
     border: none;
     background-color: #007fff;
   }
-  
+
   span {
     display: block;
     width: 100%;
@@ -100,8 +103,18 @@ button.switch {
   }
 }
 
-button#mute { top: 53.7%; }
-button#hd { top: 60.2%; }
-button#idk { top: 66.5%; }
-button#bright { top: 72.9%; }
-button#color { top: 79.3%; }
+button#mute {
+  top: 53.7%;
+}
+button#hd {
+  top: 60.2%;
+}
+button#idk {
+  top: 66.5%;
+}
+button#bright {
+  top: 72.9%;
+}
+button#color {
+  top: 79.3%;
+}
