@@ -2417,6 +2417,13 @@ let cards = [
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
   },
+  {
+    artName: 'Bouncing ball',
+    pageLink: './Art/johnpauljohnnes/animation-one-ball/JPJArt.html',
+    imageLink: './Art/johnpauljohnnes/animation-one-ball/Ball.gif',
+    author: 'johnpauljohnnes',
+    githubLink: 'https://github.com/johnpauljohnnes'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
