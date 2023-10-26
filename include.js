@@ -413,8 +413,8 @@ let cards = [
   },
   {
     artName: 'Falling-ball',
-    pageLink: './Art/Ornitcg/index.html',
-    imageLink: './Art/Ornitcg/ball1.gif',
+    pageLink: './Art/Ornitcg/fallingBall/index.html',
+    imageLink: './Art/Ornitcg/fallingBall/ball1.gif',
     author: 'Ornitcg',
     githubLink: 'https://github.com/ornitcg'
   },
