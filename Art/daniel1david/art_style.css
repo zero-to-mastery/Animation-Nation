@@ -1,0 +1,191 @@
+body {
+background-image: url('https://cdn1.vectorstock.com/i/1000x1000/86/10/background-with-jungle-plants-vector-23578610.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.box {
+	position: relative;
+	margin: auto;
+	display: block;
+	margin-top: 8%;
+	width: 600px;
+	height: 420px;
+	border: solid 4px white;
+}
+
+.back-head {
+	position: relative;
+	margin: auto;
+	margin-top: 10%;
+	width: 50%;
+	height: 67%;
+	background: saddlebrown;
+	border: 5px solid darkred;
+	border-radius: 50%;
+}
+
+.front-head {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: saddlebrown;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.left-ear {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	top: 10%;
+	left: -20%;
+	background: saddlebrown;
+	border-radius: 50%;
+	border: 5px solid darkred;
+	z-index: 1;
+}
+
+.right-ear {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	top: 10%;
+	right: -20%;
+	background: saddlebrown;
+	border-radius: 50%;
+	border: 5px solid darkred;
+	z-index: 1;
+}
+
+.inner-ear {
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	top: 10%;
+	left: 10%;
+	border-radius: 50%;
+	background: sandybrown;
+}
+
+.left-eye {
+	position: absolute;
+	width: 25%;
+	height: 25%;
+	top: 25%;
+	left: 20%;
+	border-radius: 50%;
+	background: white;
+	z-index: 2;
+}
+
+.left-eye::after {
+  	content: "";
+	position: absolute;
+	top: -3%;
+	left: -5%;
+	height: 0;
+	width: 110%;
+	border-radius: 50%;
+	background: saddlebrown;
+	-webkit-animation: blink 3s infinite ease-in;
+	animation: blink 3s infinite ease-in;
+	z-index: 4;
+}
+
+.right-eye {
+	position: absolute;
+	width: 25%;
+	height: 25%;
+	top: 25%;
+	right: 20%;
+	border-radius: 50%;
+	background: white;
+	z-index: 3;
+}
+
+.right-eye::after {
+	content: "";
+	position: absolute;
+	top: -3%;
+	left: -5%;
+	height: 0;
+	width: 110%;
+	border-radius: 50%;
+	background: saddlebrown;
+	-webkit-animation: blink 3s infinite ease-in;
+	animation: blink 3s infinite ease-in;
+	z-index: 4;
+}
+
+.pupil {
+	position: absolute;
+	width: 25%;
+	height: 30%;
+	top: 25%;
+	left: 37%;
+	border-radius: 50%;
+	background: black;
+	animation: move 2s infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes move {
+	from {left: 0px;}
+	to {left: 50px;}
+}
+
+.outer-mouth {
+	position: absolute;
+	height: 45%;
+	width: 40%;
+	top: 45%;
+	left: 30%;
+	border-radius: 50%;
+	background: sandybrown;
+	z-index: 2;
+}
+
+.nose {
+	position: absolute;
+	width: 15%;
+	height: 15%;
+	top: 45%;
+	left: 42.5%;
+	border-radius: 40%;
+	background: black;
+	z-index: 4;
+}
+
+.lips {
+	position: absolute;
+	width: 40%;
+	height: 10%;
+	left: 30%;
+	top: 62.5%;
+	border-bottom: 5px solid brown;
+	border-radius: 50%;
+	z-index: 4;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    height: 0;
+  }
+  90% {
+    height: 0;
+  }
+  95.5% {
+    height: 100%;
+  }
+  95% {
+    height: 0;
+  }
+  95% {
+    height: 100%;
+  }
+  100% {
+    height: 0;
+  }
+}
