@@ -2371,6 +2371,13 @@ const cards = [
     githubLink: 'https://github.com/nharjes'
   },
   {
+    artName: 'Dog walk',
+    pageLink: './Art/madelenfoss/index.html',
+    imageLink: './Art/madelenfoss/madelenfoss_dogwalk.gif',
+    author: 'Madelen Foss',
+    githubLink: 'https://github.com/madelenfoss'
+  },
+  {
     artName: 'Milosz-Dev Animation',
     pageLink: './Art/Milosz-Dev/index.html',
     imageLink: './Art/Milosz-Dev/Milosz-Dev.gif',
