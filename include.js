@@ -1,4 +1,3 @@
-
 /* Each contributions details to builds cards */
 const cards = [
   {
@@ -2432,9 +2431,8 @@ const cards = [
     imageLink: './Art/Bhavna2003-2/Rainbow animation.gif',
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
-  },
+  }
 ];
-
 
 /* -------------------------------------------------------------------------- */
 /*                                                                            */
@@ -2452,28 +2450,26 @@ function shuffle(o) {
   return o;
 }
 
-
 /** Creates cards from the array above
  *  You don't need to modify this
  *  */
 const getCardContents = (cardList) => {
-  return shuffle(cardList).map(c => ([
+  return shuffle(cardList).map((c) => [
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
-});
+};
 
 /* Injects cards list html into the DOM */
-let contents = getCardContents( cards );
+let contents = getCardContents(cards);
 document.getElementById('cards').innerHTML = contents;
-
 
 /* Adds scroll to top arrow button */
 document.addEventListener('DOMContentLoaded', function () {
@@ -2495,24 +2491,25 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-
 /* Search filter - by author or by name - update displayed cards */
-function searchCard(event){
+function searchCard(event) {
   let timeoutId = null;
   !!timeoutId && clearTimeout(timeoutId);
 
   const value = event.target.value.toLowerCase();
   let filteredCards;
-  if( !!value ){
+  if (!!value) {
     filteredCards = cards.filter(({ artName, githubLink, author }) => {
       const _artName = artName.toLowerCase();
       const _githubLink = githubLink.toLowerCase();
-      const _author = author.toLowerCase()
-      return [_artName, _githubLink, _author].some(detail => detail.includes(value))
+      const _author = author.toLowerCase();
+      return [_artName, _githubLink, _author].some((detail) =>
+        detail.includes(value)
+      );
     });
-    contents = getCardContents( filteredCards );
+    contents = getCardContents(filteredCards);
   } else {
-    contents = getCardContents( cards );
+    contents = getCardContents(cards);
   }
   timeoutId = setTimeout(() => {
     document.getElementById('cards').innerHTML = contents;
