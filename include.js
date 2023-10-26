@@ -2327,6 +2327,13 @@ let cards = [
     githubLink: 'https://github.com/Dzivmv'
   },
   {
+    artName: 'Countdown',
+    pageLink: './Art/zli213/index.html',
+    imageLink: './Art/zli213/countdown.gif',
+    author: 'Ralph Li',
+    githubLink: 'https://github.com/zli213'
+  },
+  {
     artName: 'colorful background',
     pageLink: './Art/nharjes/index.html',
     imageLink: './Art/nharjes/ColorfulBackgroundDemo.gif',
