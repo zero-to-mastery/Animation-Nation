@@ -2334,6 +2334,13 @@ let cards = [
     githubLink: 'https://github.com/Dzivmv'
   },
   {
+    artName: 'SPINNER ORBITS',
+    pageLink: './Art/abdullahsadik00/index.html',
+    imageLink: './Art/abdullahsadik00/animation.gif',
+    author: 'Sadik Shaikh',
+    githubLink: 'https://github.com/abdullahsadik00'
+  },
+  {
     artName: 'Avengers Animation',
     pageLink: './Art/lavish-github/avengers.html',
     imageLink: './Art/lavish-github/avengers_animation.png',
