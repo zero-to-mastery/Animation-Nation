@@ -338,8 +338,15 @@ let cards = [
   },
   {
     artName: 'Sliding Bot',
-    pageLink: './Art/ProfoundlyParker/index.html',
-    imageLink: './Art/ProfoundlyParker/robot.gif',
+    pageLink: './Art/ProfoundlyParker/Sliding-Bot/index.html',
+    imageLink: './Art/ProfoundlyParker/Sliding-Bot/robot.gif',
+    author: 'ProfoundlyParker',
+    githubLink: 'https://github.com/profoundlyparker'
+  },
+  {
+    artName: 'Haunted Pumpkin Patch',
+    pageLink: './Art/ProfoundlyParker/Haunted-Pumpkin-Patch/index.html',
+    imageLink: './Art/ProfoundlyParker/Haunted-Pumpkin-Patch/ghosts.gif',
     author: 'ProfoundlyParker',
     githubLink: 'https://github.com/profoundlyparker'
   },
@@ -2271,6 +2278,13 @@ let cards = [
     githubLink: 'https://github.com/Parth4git'
   },
   {
+    artName: 'API Request Animation',
+    pageLink: './Art/majidshakeelshawl/index.html',
+    imageLink: './Art/majidshakeelshawl/animate.gif',
+    author: 'Majid Shawl',
+    githubLink: 'https://github.com/majidshakeelshawl'
+  },
+  {
     artName: 'Jumping ball Animation',
     pageLink: './Art/CodeDrinks270/index.html',
     imageLink: './Art/CodeDrinks270/LightBulbAnimation.png',
@@ -2317,7 +2331,14 @@ let cards = [
     pageLink: './Art/nharjes/index.html',
     imageLink: './Art/nharjes/ColorfulBackgroundDemo.gif',
     author: 'nharjes',
-    githubLink: 'https://github.com/nharjes',
+    githubLink: 'https://github.com/nharjes'
+  },
+  {
+    artName: 'Milosz-Dev Animation',
+    pageLink: './Art/Milosz-Dev/index.html',
+    imageLink: './Art/Milosz-Dev/Milosz-Dev.gif',
+    author: 'Milosz',
+    githubLink: 'https://github.com/Milosz-Dev'
   },
   {
     artName: 'blinking_monkey',
@@ -2361,6 +2382,13 @@ let cards = [
     author: 'mohamedmosalam',
     githubLink: 'https://github.com/MohamedAboMousallam'
   },
+  {
+    artName: 'Rainbow Animation Loader',
+    pageLink: './Art/Bhavna2003-2/index.html',
+    imageLink: './Art/Bhavna2003-2/Rainbow animation.gif',
+    author: 'Bhavna',
+    githubLink: 'https://github.com/Bhavna2003'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -2375,14 +2403,14 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
