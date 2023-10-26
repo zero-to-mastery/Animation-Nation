@@ -105,6 +105,13 @@ let cards = [
     githubLink: 'https://github.com/massdx'
   },
   {
+    artName: 'Form field animation',
+    pageLink: './Art/massdx/index.html',
+    imageLink: './Art/massdx/form-animation.gif',
+    author: 'ODANOU Massahoud',
+    githubLink: 'https://github.com/massdx'
+  },
+  {
     artName: 'Shooting stars in the night sky',
     pageLink: './Art/ahmedalhamad7/stars.html',
     imageLink: './Art/ahmedalhamad7/static_stars.png',
@@ -2089,11 +2096,25 @@ let cards = [
     githubLink: 'https://github.com/ankoorgorai'
   },
   {
+    artName: 'Windows Loader',
+    pageLink: './Art/tmsagarofficial/anim3.html',
+    imageLink: './Art/tmsagarofficial/anim3.gif',
+    author: 'tmsagarofficial',
+    githubLink: 'https://github.com/tmsagarofficial'
+  },
+  {
     artName: 'Birthday Card Animation',
     pageLink: './Art/Varad0014/index.html',
     imageLink: './Art/Varad0014/Birthday-Card-Animation.gif',
     author: 'Varad',
     githubLink: 'https://github.com/Varad0014'
+  },
+  {
+    artName: 'Kinmatic Animation',
+    pageLink: './Art/VishalKumar786/KinmaticAnimation.html',
+    imageLink: './Art/VishalKumar786/KinmaticAnimation.gif',
+    author: 'Vishal Kumar',
+    githubLink: 'https://github.com/vkumar786'
   },
   {
     artName: 'Kinmatic Animation',
@@ -2145,20 +2166,6 @@ let cards = [
     githubLink: 'https://github.com/mehul1409'
   },
   {
-    artName: '👻BOOk',
-    pageLink: './Art/archeana_/index.html',
-    imageLink: './Art/archeana_/BOOk.gif',
-    author: 'archeana',
-    githubLink: 'https://github.com/archeana'
-  },
-  {
-    artName: 'Psychedelic Cube',
-    pageLink: './Art/Molina-Daniel/index.html',
-    imageLink: './Art/Molina-Daniel/psychedelic_cube.gif',
-    author: 'Daniel Molina',
-    githubLink: 'https://github.com/Molina-Daniel'
-  },
-  {
     artName: 'Cinematic-Animation',
     pageLink: './Art/manishjha-04/Cinematic/index.html',
     imageLink: './Art/manishjha-04/Cinematic/cinematic_animation.gif',
@@ -2171,13 +2178,6 @@ let cards = [
     imageLink: './Art/tmsagarofficial/anim1.gif',
     author: 'tmsagarofficial',
     githubLink: 'https://github.com/tmsagarofficial'
-  },
-  {
-    artName: 'Race in Space',
-    pageLink: './Art/gabriel-conde/index.html',
-    imageLink: './Art/gabriel-conde/race.gif',
-    author: 'Gabriel Conde',
-    githubLink: 'https://github.com/gabriel-conde'
   },
   {
     artName: 'Square',
@@ -2206,20 +2206,6 @@ let cards = [
     imageLink: './Art/psykat1611/loader.gif',
     author: 'psykat1116',
     githubLink: 'https://github.com/psykat1116'
-  },
-  {
-    artName: 'Score a Goal',
-    pageLink: './Art/ruchircodes24/index.html',
-    imageLink: './Art/ruchircodes24/Score.gif',
-    author: 'Ruchir',
-    githubLink: 'https://github.com/ruchircodes24'
-  },
-  {
-    artName: 'lightsaber glowing animation',
-    pageLink: './Art/mohamedabomosallam/index.html',
-    imageLink: './Art/mohamedabomosallam/lightsaber.gif',
-    author: 'mohamedmosalam',
-    githubLink: 'https://github.com/MohamedAboMousallam'
   },
   {
     artName: 'Breaking news',
@@ -2332,7 +2318,49 @@ let cards = [
     imageLink: './Art/Milosz-Dev/Milosz-Dev.gif',
     author: 'Milosz',
     githubLink: 'https://github.com/Milosz-Dev'
-  }
+  },
+  {
+    artName: 'blinking_monkey',
+    pageLink: './Art/daniel1david/index.html', 
+    imageLink: './Art/daniel1david/monkey_face.gif', 
+    author: 'Daniel', 
+    githubLink: 'https://github.com/daniel1david'
+  },
+  {
+    artName: '👻BOOk',
+    pageLink: './Art/archeana_/index.html',
+    imageLink: './Art/archeana_/BOOk.gif',
+    author: 'archeana',
+    githubLink: 'https://github.com/archeana'
+  },
+  {
+    artName: 'Psychedelic Cube',
+    pageLink: './Art/Molina-Daniel/index.html',
+    imageLink: './Art/Molina-Daniel/psychedelic_cube.gif',
+    author: 'Daniel Molina',
+    githubLink: 'https://github.com/Molina-Daniel'
+  },
+  {
+    artName: 'Race in Space',
+    pageLink: './Art/gabriel-conde/index.html',
+    imageLink: './Art/gabriel-conde/race.gif',
+    author: 'Gabriel Conde',
+    githubLink: 'https://github.com/gabriel-conde'
+  },
+  {
+    artName: 'Score a Goal',
+    pageLink: './Art/ruchircodes24/index.html',
+    imageLink: './Art/ruchircodes24/Score.gif',
+    author: 'Ruchir',
+    githubLink: 'https://github.com/ruchircodes24'
+  },
+  {
+    artName: 'lightsaber glowing animation',
+    pageLink: './Art/mohamedabomosallam/index.html', 
+    imageLink: './Art/mohamedabomosallam/lightsaber.gif', 
+    author: 'mohamedmosalam', 
+    githubLink: 'https://github.com/MohamedAboMousallam' 
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
