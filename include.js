@@ -2361,6 +2361,13 @@ let cards = [
     author: 'mohamedmosalam', 
     githubLink: 'https://github.com/MohamedAboMousallam' 
   },
+  {
+    artName: 'CSS Duck art', // change this to the name of your artwork
+    pageLink: './Art/animatron/index.html', // change this
+    imageLink: './Art/animatron/segment-display.gif', // change this
+    author: 'pari',// use your name
+    githubLink: 'https://github.com/Pariskarpoudel' // change this
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
