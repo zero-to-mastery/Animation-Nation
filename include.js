@@ -84,19 +84,18 @@ let cards = [
     githubLink: 'https://github.com/niranjan-kurhade'
   },
   {
-<<<<<<< HEAD
     artName: 'Rotating color changing square',
     pageLink: './Art/daulatojha17/index.html',
     imageLink: './Art/daulatojha17/image.gif',
     author: 'Daulat',
     githubLink: 'https://github.com/daulatojha17'
-=======
+  },
+  {
     artName: 'Form field animation',
     pageLink: './Art/massdx/index.html',
     imageLink: './Art/massdx/form-animation.gif',
     author: 'ODANOU Massahoud',
     githubLink: 'https://github.com/massdx'
->>>>>>> a7954a92 (Added breaking news animation (#2253))
   },
   {
     artName: 'Form field animation',
@@ -155,7 +154,6 @@ let cards = [
     githubLink: 'https://github.com/ankit0049'
   },
   {
-<<<<<<< HEAD
     artName: 'Pacman',
     pageLink: './Art/Moccasym/index.html',
     imageLink: './Art/Moccasym/pacman.gif',
@@ -163,8 +161,6 @@ let cards = [
     githubLink: 'https://github.com/Moccasym'
   },
   {
-=======
->>>>>>> a7954a92 (Added breaking news animation (#2253))
     artName: ' Circular Roller ',
     pageLink: './Art/himanshumahto/index.html',
     imageLink: './Art/himanshumahto/Roller.gif',
@@ -2112,7 +2108,6 @@ let cards = [
     imageLink: './Art/Varad0014/Birthday-Card-Animation.gif',
     author: 'Varad',
     githubLink: 'https://github.com/Varad0014'
-<<<<<<< HEAD
   },
   {
     artName: 'Kinmatic Animation',
@@ -2120,8 +2115,6 @@ let cards = [
     imageLink: './Art/VishalKumar786/KinmaticAnimation.gif',
     author: 'Vishal Kumar',
     githubLink: 'https://github.com/vkumar786'
-=======
->>>>>>> a7954a92 (Added breaking news animation (#2253))
   },
   {
     artName: 'Kinmatic Animation',
@@ -2328,9 +2321,9 @@ let cards = [
   },
   {
     artName: 'blinking_monkey',
-    pageLink: './Art/daniel1david/index.html', 
-    imageLink: './Art/daniel1david/monkey_face.gif', 
-    author: 'Daniel', 
+    pageLink: './Art/daniel1david/index.html',
+    imageLink: './Art/daniel1david/monkey_face.gif',
+    author: 'Daniel',
     githubLink: 'https://github.com/daniel1david'
   },
   {
@@ -2363,10 +2356,10 @@ let cards = [
   },
   {
     artName: 'lightsaber glowing animation',
-    pageLink: './Art/mohamedabomosallam/index.html', 
-    imageLink: './Art/mohamedabomosallam/lightsaber.gif', 
-    author: 'mohamedmosalam', 
-    githubLink: 'https://github.com/MohamedAboMousallam' 
+    pageLink: './Art/mohamedabomosallam/index.html',
+    imageLink: './Art/mohamedabomosallam/lightsaber.gif',
+    author: 'mohamedmosalam',
+    githubLink: 'https://github.com/MohamedAboMousallam'
   },
 ];
 
