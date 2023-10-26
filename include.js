@@ -338,8 +338,15 @@ let cards = [
   },
   {
     artName: 'Sliding Bot',
-    pageLink: './Art/ProfoundlyParker/index.html',
-    imageLink: './Art/ProfoundlyParker/robot.gif',
+    pageLink: './Art/ProfoundlyParker/Sliding-Bot/index.html',
+    imageLink: './Art/ProfoundlyParker/Sliding-Bot/robot.gif',
+    author: 'ProfoundlyParker',
+    githubLink: 'https://github.com/profoundlyparker'
+  },
+  {
+    artName: 'Haunted Pumpkin Patch',
+    pageLink: './Art/ProfoundlyParker/Haunted-Pumpkin-Patch/index.html',
+    imageLink: './Art/ProfoundlyParker/Haunted-Pumpkin-Patch/ghosts.gif',
     author: 'ProfoundlyParker',
     githubLink: 'https://github.com/profoundlyparker'
   },
