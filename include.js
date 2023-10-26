@@ -2334,6 +2334,13 @@ let cards = [
     githubLink: 'https://github.com/Dzivmv'
   },
   {
+    artName: 'Avengers Animation',
+    pageLink: './Art/lavish-github/avengers.html',
+    imageLink: './Art/lavish-github/avengers_animation.png',
+    author: 'lavish-github',
+    githubLink: 'https://github.com/lavish-github'
+  },
+  {
     artName: 'Countdown',
     pageLink: './Art/zli213/index.html',
     imageLink: './Art/zli213/countdown.gif',
