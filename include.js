@@ -1,4 +1,6 @@
-let cards = [
+
+/* Each contributions details to builds cards */
+const cards = [
   {
     artName: 'Flower Animation',
     pageLink: './Art/Kris248/index.html',
@@ -1745,7 +1747,7 @@ let cards = [
     githubLink: 'https://github.com/Sayed-Husain'
   },
   {
-    artName: 'TargetLoadingBothColors',
+    artName: 'Target Loading Both Colors',
     pageLink: './Art/ParzivalAFK/TargetLoadingBothColors.html',
     imageLink: './Art/ParzivalAFK/TargetLoadingBothColors.gif',
     author: 'ParzivalAFK',
@@ -2257,7 +2259,7 @@ let cards = [
     githubLink: 'https://github.com/manishjha-04'
   },
   {
-    artName: 'rotatingrectangle in cube',
+    artName: 'rotating rectangle in cube',
     pageLink: './Art/PentesterPriyanshu/rotatingrectangle.html',
     imageLink: './Art/PentesterPriyanshu/rotatingrectangle.gif',
     author: 'Priyanshu Prajapati',
@@ -2419,17 +2421,29 @@ let cards = [
   },
 ];
 
-// +--------------------------------------------------------------------------------+
-// +                                                                                +
-// +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
-// +                                                                                +
-// +--------------------------------------------------------------------------------+
 
-// Creates cards from the array above
-// You don't need to modify this
-let contents = [];
-Shuffle(cards).forEach((c) => {
-  contents.push([
+/* -------------------------------------------------------------------------- */
+/*                                                                            */
+/*                YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS               */
+/*                                                                            */
+/* -------------------------------------------------------------------------- */
+
+/* Shuffles cards' order */
+function shuffle(o) {
+  for (
+    let j, x, i = o.length;
+    i;
+    j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
+  );
+  return o;
+}
+
+
+/** Creates cards from the array above
+ *  You don't need to modify this
+ *  */
+const getCardContents = (cardList) => {
+  return shuffle(cardList).map(c => ([
     `<li class="card">` +
     `<a href='${c.pageLink}'>` +
     `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
@@ -2442,20 +2456,14 @@ Shuffle(cards).forEach((c) => {
   ]);
 });
 
+/* Injects cards list html into the DOM */
+let contents = getCardContents( cards );
 document.getElementById('cards').innerHTML = contents;
 
-function Shuffle(o) {
-  for (
-    var j, x, i = o.length;
-    i;
-    j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
-  );
-  return o;
-}
 
-// go to top
+/* Adds scroll to top arrow button */
 document.addEventListener('DOMContentLoaded', function () {
-  var goToTopBtn = document.querySelector('.go-to-top');
+  const goToTopBtn = document.querySelector('.go-to-top');
 
   window.addEventListener('scroll', function () {
     if (window.scrollY > 100) {
@@ -2472,3 +2480,28 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+
+/* Search filter - by author or by name - update displayed cards */
+function searchCard(event){
+  let timeoutId = null;
+  !!timeoutId && clearTimeout(timeoutId);
+
+  const value = event.target.value.toLowerCase();
+  let filteredCards;
+  if( !!value ){
+    filteredCards = cards.filter(({ artName, githubLink, author }) => {
+      const _artName = artName.toLowerCase();
+      const _githubLink = githubLink.toLowerCase();
+      const _author = author.toLowerCase()
+      return [_artName, _githubLink, _author].some(detail => detail.includes(value))
+    });
+    contents = getCardContents( filteredCards );
+  } else {
+    contents = getCardContents( cards );
+  }
+  timeoutId = setTimeout(() => {
+    document.getElementById('cards').innerHTML = contents;
+  }, 200);
+}
+document.getElementById('search-bar').addEventListener('keyup', searchCard);
