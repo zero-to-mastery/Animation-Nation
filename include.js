@@ -412,6 +412,13 @@ let cards = [
     githubLink: 'https://github.com/Himanshuch8055'
   },
   {
+    artName: 'Falling-ball',
+    pageLink: './Art/Ornitcg/index.html',
+    imageLink: './Art/Ornitcg/ball1.gif',
+    author: 'Ornitcg',
+    githubLink: 'https://github.com/ornitcg'
+  },
+  {
     artName: 'Circles',
     pageLink: './Art/AmanRawat/index.html',
     imageLink: './Art/AmanRawat/circles.gif',
