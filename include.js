@@ -2283,6 +2283,13 @@ let cards = [
     imageLink: './Art/Dzivmv/rainbow_rain.gif',
     author: 'Dzivmv',
     githubLink: 'https://github.com/Dzivmv'
+  },
+  {
+    artName: 'Box of shapes',
+    pageLink: './Art/kishky101/index.html',
+    imageLink: './Art/kishky101/box-shapes.gif',
+    author: 'Kishky',
+    githubLink: 'https://github.com/kishky101'
   }
 ];
 
