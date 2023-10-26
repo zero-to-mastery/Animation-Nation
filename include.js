@@ -419,6 +419,13 @@ let cards = [
     githubLink: 'https://github.com/ornitcg'
   },
   {
+    artName: 'Shining-Stars',
+    pageLink: './Art/Ornitcg/Stars/index.html',
+    imageLink: './Art/Ornitcg/Stars/stars.gif',
+    author: 'Ornitcg',
+    githubLink: 'https://github.com/ornitcg'
+  },
+  {
     artName: 'Circles',
     pageLink: './Art/AmanRawat/index.html',
     imageLink: './Art/AmanRawat/circles.gif',
