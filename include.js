@@ -2375,6 +2375,13 @@ let cards = [
     author: 'mohamedmosalam', 
     githubLink: 'https://github.com/MohamedAboMousallam' 
   },
+  {
+    artName: 'Rainbow Animation Loader',
+    pageLink: './Art/Bhavna2003-2/index.html',
+    imageLink: './Art/Bhavna2003-2/Rainbow animation.gif',
+    author: 'Bhavna',
+    githubLink: 'https://github.com/Bhavna2003'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
