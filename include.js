@@ -2432,6 +2432,14 @@ const cards = [
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
   }
+
+    {
+    artName: 'Sliding Circles',
+    pageLink: './Art/hassan02/index.html',
+    imageLink: 'Art/hassan02/ezgif.com-video-to-gif.gif',
+    author: 'Hassan',
+    githubLink: 'https://github.com/hfarah02'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
