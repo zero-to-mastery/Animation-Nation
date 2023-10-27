@@ -2538,7 +2538,14 @@ let cards = [
     imageLink: './Art/milesjorg/retrowave.gif',
     author: 'milesjorg',
     githubLink: 'https://github.com/milesjorg'
-  }
+  },
+  {
+    artName: 'Arrows',
+    pageLink: './Art/rudrakushwaha/index.html',
+    imageLink: './Art/rudrakushwaha/arrows.gif',
+    author: 'Rudraksh',
+    githubLink: 'https://github.com/rudrakushwaha'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
