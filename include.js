@@ -2196,7 +2196,13 @@ const cards = [
     githubLink: 'https://github.com/ishanchaskar'
   },
   {
-    artName: 'Circle',
+    artName: 'Magic Card',
+    pageLink: './Art/URK21CS1064/index.html', 
+    imageLink: './Art/URK21CS1064/hacktober.png', 
+    author: 'URK21CS1064', 
+    githubLink: 'https://github.com/URK21CS1064' 
+  },
+  {    artName: 'Circle',
     pageLink: './Art/rishiiiidha/index.html',
     imageLink: './Art/rishiiiidha/animation.gif',
     author: 'Rishidha',
