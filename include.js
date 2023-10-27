@@ -2342,6 +2342,13 @@ const cards = [
     githubLink: 'https://github.com/Dzivmv'
   },
   {
+    artName: 'Box of shapes',
+    pageLink: './Art/kishky101/index.html',
+    imageLink: './Art/kishky101/box-shapes.gif',
+    author: 'Kishky',
+    githubLink: 'https://github.com/kishky101'
+  },
+  {
     artName: 'SPINNER ORBITS',
     pageLink: './Art/abdullahsadik00/index.html',
     imageLink: './Art/abdullahsadik00/animation.gif',
