@@ -2531,6 +2531,13 @@ let cards = [
     imageLink: './Art/johnpauljohnnes/animation-one-ball/Ball.gif',
     author: 'johnpauljohnnes',
     githubLink: 'https://github.com/johnpauljohnnes'
+  },
+  {
+    artName: 'Retrowave Animation',
+    pageLink: './Art/milesjorg/index.html',
+    imageLink: './Art/retrowave.gif',
+    author: 'milesjorg',
+    githubLink: 'https://github.com/milesjorg'
   }
 ];
 
