@@ -2533,6 +2533,13 @@ let cards = [
     githubLink: 'https://github.com/johnpauljohnnes'
   },
   {
+    artName: 'Retrowave Animation',
+    pageLink: './Art/milesjorg/index.html',
+    imageLink: './Art/milesjorg/retrowave.gif',
+    author: 'milesjorg',
+    githubLink: 'https://github.com/milesjorg'
+  },
+  {
     artName: 'Arrows',
     pageLink: './Art/rudrakushwaha/index.html',
     imageLink: './Art/rudrakushwaha/arrows.gif',
