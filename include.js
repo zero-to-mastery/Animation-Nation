@@ -1999,6 +1999,7 @@ const cards = [
     githubLink: 'https://github.com/vivekBoii'
   },
   {
+
     artName: 'Rotating Spirals',
     pageLink: './Art/Vivek-Kumar/RotatingSpirals.html',
     imageLink: './Art/Vivek-Kumar/RotatingSpirals.gif',
@@ -2018,6 +2019,13 @@ const cards = [
     imageLink: './Art/div02-afk/animation.gif',
     author: 'div02-afk',
     githubLink: 'https://github.com/div02-afk'
+  },
+  {
+    artName: 'Colliding Balls',
+    pageLink: './Art/Fayezkhan1/index.html',
+    imageLink: './Art/Fayezkhan1/art.png',
+    author: 'Fayezkhan1',
+    githubLink: 'https://github.com/Fayezkhan1'
   },
   {
     artName: 'Hover Over Me',
