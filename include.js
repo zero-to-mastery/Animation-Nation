@@ -2454,6 +2454,13 @@ const cards = [
     githubLink: 'https://github.com/Bhavna2003'
   },
   {
+    artName: 'Wave Animation',
+    pageLink: '.Art/runtimeerror11/index.html',
+    imageLink: './Art/runtimeerror11/wave.gif',
+    author: 'Suparshwa',
+    githubLink: 'https://github.com/runtimeerror11'
+  },
+  {
     artName: 'Bouncing ball',
     pageLink: './Art/johnpauljohnnes/animation-one-ball/JPJArt.html',
     imageLink: './Art/johnpauljohnnes/animation-one-ball/Ball.gif',
