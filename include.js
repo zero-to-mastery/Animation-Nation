@@ -2546,6 +2546,13 @@ let cards = [
     author: 'Rudraksh',
     githubLink: 'https://github.com/rudrakushwaha'
   },
+    {
+    artName: 'Rolling square',
+    pageLink: './Art/johnpauljohnnes/animation-two-square/JPJArt.html',
+    imageLink: './Art/johnpauljohnnes/animation-two-square/Rolling Square.gif',
+    author: 'johnpauljohnnes',
+    githubLink: 'https://github.com/johnpauljohnnes'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
