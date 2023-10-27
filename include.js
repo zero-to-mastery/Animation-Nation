@@ -416,6 +416,20 @@ const cards = [
     githubLink: 'https://github.com/Himanshuch8055'
   },
   {
+    artName: 'Falling-ball',
+    pageLink: './Art/Ornitcg/fallingBall/index.html',
+    imageLink: './Art/Ornitcg/fallingBall/ball1.gif',
+    author: 'Ornitcg',
+    githubLink: 'https://github.com/ornitcg'
+  },
+  {
+    artName: 'Shining-Stars',
+    pageLink: './Art/Ornitcg/Stars/index.html',
+    imageLink: './Art/Ornitcg/Stars/stars.gif',
+    author: 'Ornitcg',
+    githubLink: 'https://github.com/ornitcg'
+  },
+  {
     artName: 'Circles',
     pageLink: './Art/AmanRawat/index.html',
     imageLink: './Art/AmanRawat/circles.gif',
@@ -2342,6 +2356,13 @@ const cards = [
     githubLink: 'https://github.com/Dzivmv'
   },
   {
+    artName: 'Box of shapes',
+    pageLink: './Art/kishky101/index.html',
+    imageLink: './Art/kishky101/box-shapes.gif',
+    author: 'Kishky',
+    githubLink: 'https://github.com/kishky101'
+  },
+  {
     artName: 'SPINNER ORBITS',
     pageLink: './Art/abdullahsadik00/index.html',
     imageLink: './Art/abdullahsadik00/animation.gif',
@@ -2438,6 +2459,13 @@ const cards = [
     imageLink: './Art/runtimeerror11/wave.gif',
     author: 'Suparshwa',
     githubLink: 'https://github.com/runtimeerror11'
+  },
+  {
+    artName: 'Bouncing ball',
+    pageLink: './Art/johnpauljohnnes/animation-one-ball/JPJArt.html',
+    imageLink: './Art/johnpauljohnnes/animation-one-ball/Ball.gif',
+    author: 'johnpauljohnnes',
+    githubLink: 'https://github.com/johnpauljohnnes'
   }
 ];
 
