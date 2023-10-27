@@ -24,12 +24,12 @@ body {
   }
   
   .diamond:before {
-    border-bottom-color: #078ecd; /* White color for top triangle */
+    border-bottom-color: #078ecd;
     top: 25px;
   }
   
   .diamond:after {
-    border-top-color: rgb(255, 0, 76); /* Pink color for bottom triangle */
+    border-top-color: rgb(255, 0, 76);
     bottom: 25px;
   }
   
