@@ -2531,7 +2531,14 @@ let cards = [
     imageLink: './Art/johnpauljohnnes/animation-one-ball/Ball.gif',
     author: 'johnpauljohnnes',
     githubLink: 'https://github.com/johnpauljohnnes'
-  }
+  },
+  {
+    artName: 'Arrows',
+    pageLink: './Art/rudrakushwaha/index.html',
+    imageLink: './Art/rudrakushwaha/arrows.gif',
+    author: 'Rudraksh',
+    githubLink: 'https://github.com/rudrakushwaha'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
