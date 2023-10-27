@@ -1662,6 +1662,13 @@ const cards = [
     githubLink: 'https://github.com/RoksolanaVeres'
   },
   {
+    artName: 'Bouncing Tennis Ball',
+    pageLink: './Art/runtimeerror11_2/index.html',
+    imageLink: '.Art/runtimeerror11_2/tennis_ball.gif',
+    author: 'Suparshwa Patil',
+    githubLink: 'https://github.com/runtimeerror11'
+  },
+  {
     artName: 'Wavy boucing ball',
     pageLink: './Art/Swadeshit27/index.html',
     imageLink: './Art/Swadeshit27/mobile.gif',
