@@ -416,6 +416,20 @@ const cards = [
     githubLink: 'https://github.com/Himanshuch8055'
   },
   {
+    artName: 'Falling-ball',
+    pageLink: './Art/Ornitcg/fallingBall/index.html',
+    imageLink: './Art/Ornitcg/fallingBall/ball1.gif',
+    author: 'Ornitcg',
+    githubLink: 'https://github.com/ornitcg'
+  },
+  {
+    artName: 'Shining-Stars',
+    pageLink: './Art/Ornitcg/Stars/index.html',
+    imageLink: './Art/Ornitcg/Stars/stars.gif',
+    author: 'Ornitcg',
+    githubLink: 'https://github.com/ornitcg'
+  },
+  {
     artName: 'Circles',
     pageLink: './Art/AmanRawat/index.html',
     imageLink: './Art/AmanRawat/circles.gif',
