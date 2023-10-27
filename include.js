@@ -2431,6 +2431,13 @@ const cards = [
     imageLink: './Art/Bhavna2003-2/Rainbow animation.gif',
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
+  },
+  {
+    artName: 'Blob Animation',
+    pageLink: './Art/blue-butterflies/index.html',
+    imageLink: './Art/blue-butterflies/blob-animation.gif',
+    author: 'Siyana',
+    githubLink: 'https://github.com/BlueButterflies' 
   }
 ];
 
