@@ -2535,7 +2535,7 @@ let cards = [
   {
     artName: 'Retrowave Animation',
     pageLink: './Art/milesjorg/index.html',
-    imageLink: './Art/retrowave.gif',
+    imageLink: './Art/milesjorg/retrowave.gif',
     author: 'milesjorg',
     githubLink: 'https://github.com/milesjorg'
   }
