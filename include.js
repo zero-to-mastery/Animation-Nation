@@ -1,6 +1,13 @@
 /* Each contributions details to builds cards */
 const cards = [
   {
+    artName: 'tilt-card-3d',
+    pageLink: './Art/Bidexdablitz/index.html',
+    imageLink: './Art/Bidexdablitz/tilt-card-3d.gif',
+    author: 'Bamidele Damilola Joseph',
+    githubLink: 'https://github.com/Bidexdablitz'
+  },
+  {
     artName: 'Flower Animation',
     pageLink: './Art/Kris248/index.html',
     imageLink: 'Art/Kris248/flower.gif',
@@ -414,6 +421,20 @@ const cards = [
     imageLink: './Art/Himanshu_Chauhan/animation-box.gif',
     author: 'Himanshu Chauhan',
     githubLink: 'https://github.com/Himanshuch8055'
+  },
+  {
+    artName: 'Falling-ball',
+    pageLink: './Art/Ornitcg/fallingBall/index.html',
+    imageLink: './Art/Ornitcg/fallingBall/ball1.gif',
+    author: 'Ornitcg',
+    githubLink: 'https://github.com/ornitcg'
+  },
+  {
+    artName: 'Shining-Stars',
+    pageLink: './Art/Ornitcg/Stars/index.html',
+    imageLink: './Art/Ornitcg/Stars/stars.gif',
+    author: 'Ornitcg',
+    githubLink: 'https://github.com/ornitcg'
   },
   {
     artName: 'Circles',
@@ -1985,6 +2006,7 @@ const cards = [
     githubLink: 'https://github.com/vivekBoii'
   },
   {
+
     artName: 'Rotating Spirals',
     pageLink: './Art/Vivek-Kumar/RotatingSpirals.html',
     imageLink: './Art/Vivek-Kumar/RotatingSpirals.gif',
@@ -2004,6 +2026,13 @@ const cards = [
     imageLink: './Art/div02-afk/animation.gif',
     author: 'div02-afk',
     githubLink: 'https://github.com/div02-afk'
+  },
+  {
+    artName: 'Colliding Balls',
+    pageLink: './Art/Fayezkhan1/index.html',
+    imageLink: './Art/Fayezkhan1/art.png',
+    author: 'Fayezkhan1',
+    githubLink: 'https://github.com/Fayezkhan1'
   },
   {
     artName: 'Hover Over Me',
@@ -2342,6 +2371,13 @@ const cards = [
     githubLink: 'https://github.com/Dzivmv'
   },
   {
+    artName: 'Box of shapes',
+    pageLink: './Art/kishky101/index.html',
+    imageLink: './Art/kishky101/box-shapes.gif',
+    author: 'Kishky',
+    githubLink: 'https://github.com/kishky101'
+  },
+  {
     artName: 'SPINNER ORBITS',
     pageLink: './Art/abdullahsadik00/index.html',
     imageLink: './Art/abdullahsadik00/animation.gif',
@@ -2438,6 +2474,27 @@ const cards = [
     imageLink: './Art/blue-butterflies/blob-animation.gif',
     author: 'Siyana',
     githubLink: 'https://github.com/BlueButterflies' 
+  },
+  {
+  artName: 'Card Flip Animation',
+    pageLink: './Art/DhanushNehru/index.html',
+    imageLink: './Art/DhanushNehru/card_flip.gif',
+    author: 'Dhanush',
+    githubLink: 'https://github.com/DhanushNehru'
+  },
+  {
+    artName: 'Wave Animation',
+    pageLink: '.Art/runtimeerror11/index.html',
+    imageLink: './Art/runtimeerror11/wave.gif',
+    author: 'Suparshwa',
+    githubLink: 'https://github.com/runtimeerror11'
+  },
+  {
+    artName: 'Bouncing ball',
+    pageLink: './Art/johnpauljohnnes/animation-one-ball/JPJArt.html',
+    imageLink: './Art/johnpauljohnnes/animation-one-ball/Ball.gif',
+    author: 'johnpauljohnnes',
+    githubLink: 'https://github.com/johnpauljohnnes'
   }
 ];
 
