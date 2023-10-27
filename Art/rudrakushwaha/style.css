@@ -35,6 +35,8 @@ body {
   
   /* Sparkling animation */
   .sparkle1 {
+    top: 20px;
+    left: 20px;
     position: absolute;
     width: 10px;
     height: 10px;
@@ -43,6 +45,8 @@ body {
   }
   
   .sparkle2 {
+    top: 20px;
+    left: 60px;
     position: absolute;
     width: 10px;
     height: 10px;
@@ -51,6 +55,8 @@ body {
   }
   
   .sparkle3 {
+    top: 60px;
+    left: 20px;
     position: absolute;
     width: 10px;
     height: 10px;
@@ -59,6 +65,8 @@ body {
   }
   
   .sparkle4 {
+    top: 60px;
+    left: 60px;
     position: absolute;
     width: 10px;
     height: 10px;
