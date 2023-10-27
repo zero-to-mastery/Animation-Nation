@@ -1,4 +1,5 @@
-let cards = [
+/* Each contributions details to builds cards */
+const cards = [
   {
     artName: 'Flower Animation',
     pageLink: './Art/Kris248/index.html',
@@ -413,6 +414,20 @@ let cards = [
     imageLink: './Art/Himanshu_Chauhan/animation-box.gif',
     author: 'Himanshu Chauhan',
     githubLink: 'https://github.com/Himanshuch8055'
+  },
+  {
+    artName: 'Falling-ball',
+    pageLink: './Art/Ornitcg/fallingBall/index.html',
+    imageLink: './Art/Ornitcg/fallingBall/ball1.gif',
+    author: 'Ornitcg',
+    githubLink: 'https://github.com/ornitcg'
+  },
+  {
+    artName: 'Shining-Stars',
+    pageLink: './Art/Ornitcg/Stars/index.html',
+    imageLink: './Art/Ornitcg/Stars/stars.gif',
+    author: 'Ornitcg',
+    githubLink: 'https://github.com/ornitcg'
   },
   {
     artName: 'Circles',
@@ -1745,7 +1760,7 @@ let cards = [
     githubLink: 'https://github.com/Sayed-Husain'
   },
   {
-    artName: 'TargetLoadingBothColors',
+    artName: 'Target Loading Both Colors',
     pageLink: './Art/ParzivalAFK/TargetLoadingBothColors.html',
     imageLink: './Art/ParzivalAFK/TargetLoadingBothColors.gif',
     author: 'ParzivalAFK',
@@ -2257,7 +2272,7 @@ let cards = [
     githubLink: 'https://github.com/manishjha-04'
   },
   {
-    artName: 'rotatingrectangle in cube',
+    artName: 'rotating rectangle in cube',
     pageLink: './Art/PentesterPriyanshu/rotatingrectangle.html',
     imageLink: './Art/PentesterPriyanshu/rotatingrectangle.gif',
     author: 'Priyanshu Prajapati',
@@ -2320,6 +2335,13 @@ let cards = [
     githubLink: 'https://github.com/Shubhamkashyap1601'
   },
   {
+    artName: 'Loading animation',
+    pageLink: './Art/ShashankPatil35/index.html',
+    imageLink: './Art/ShashankPatil35/LoadingGIF.gif',
+    author: 'ShashankPatil',
+    githubLink: 'hhttps://github.com/ShashankPatil35'
+  },
+  {
     artName: 'Mouse Eyes Animation',
     pageLink: './Art/sandeep-dss/index.html',
     imageLink: 'Art/sandeep-dss/mouse.gif',
@@ -2332,6 +2354,13 @@ let cards = [
     imageLink: './Art/Dzivmv/rainbow_rain.gif',
     author: 'Dzivmv',
     githubLink: 'https://github.com/Dzivmv'
+  },
+  {
+    artName: 'Box of shapes',
+    pageLink: './Art/kishky101/index.html',
+    imageLink: './Art/kishky101/box-shapes.gif',
+    author: 'Kishky',
+    githubLink: 'https://github.com/kishky101'
   },
   {
     artName: 'SPINNER ORBITS',
@@ -2360,6 +2389,13 @@ let cards = [
     imageLink: './Art/nharjes/ColorfulBackgroundDemo.gif',
     author: 'nharjes',
     githubLink: 'https://github.com/nharjes'
+  },
+  {
+    artName: 'Dog walk',
+    pageLink: './Art/madelenfoss/index.html',
+    imageLink: './Art/madelenfoss/madelenfoss_dogwalk.gif',
+    author: 'Madelen Foss',
+    githubLink: 'https://github.com/madelenfoss'
   },
   {
     artName: 'Milosz-Dev Animation',
@@ -2426,43 +2462,46 @@ let cards = [
   }
 ];
 
-// +--------------------------------------------------------------------------------+
-// +                                                                                +
-// +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
-// +                                                                                +
-// +--------------------------------------------------------------------------------+
+/* -------------------------------------------------------------------------- */
+/*                                                                            */
+/*                YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS               */
+/*                                                                            */
+/* -------------------------------------------------------------------------- */
 
-// Creates cards from the array above
-// You don't need to modify this
-let contents = [];
-Shuffle(cards).forEach((c) => {
-  contents.push([
-    `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
-  ]);
-});
-
-document.getElementById('cards').innerHTML = contents;
-
-function Shuffle(o) {
+/* Shuffles cards' order */
+function shuffle(o) {
   for (
-    var j, x, i = o.length;
+    let j, x, i = o.length;
     i;
     j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
   );
   return o;
 }
 
-// go to top
+/** Creates cards from the array above
+ *  You don't need to modify this
+ *  */
+const getCardContents = (cardList) => {
+  return shuffle(cardList).map((c) => [
+    `<li class="card">` +
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
+  ]);
+};
+
+/* Injects cards list html into the DOM */
+let contents = getCardContents(cards);
+document.getElementById('cards').innerHTML = contents;
+
+/* Adds scroll to top arrow button */
 document.addEventListener('DOMContentLoaded', function () {
-  var goToTopBtn = document.querySelector('.go-to-top');
+  const goToTopBtn = document.querySelector('.go-to-top');
 
   window.addEventListener('scroll', function () {
     if (window.scrollY > 100) {
@@ -2479,3 +2518,29 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+/* Search filter - by author or by name - update displayed cards */
+function searchCard(event) {
+  let timeoutId = null;
+  !!timeoutId && clearTimeout(timeoutId);
+
+  const value = event.target.value.toLowerCase();
+  let filteredCards;
+  if (!!value) {
+    filteredCards = cards.filter(({ artName, githubLink, author }) => {
+      const _artName = artName.toLowerCase();
+      const _githubLink = githubLink.toLowerCase();
+      const _author = author.toLowerCase();
+      return [_artName, _githubLink, _author].some((detail) =>
+        detail.includes(value)
+      );
+    });
+    contents = getCardContents(filteredCards);
+  } else {
+    contents = getCardContents(cards);
+  }
+  timeoutId = setTimeout(() => {
+    document.getElementById('cards').innerHTML = contents;
+  }, 200);
+}
+document.getElementById('search-bar').addEventListener('keyup', searchCard);
