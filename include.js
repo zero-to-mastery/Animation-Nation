@@ -2469,7 +2469,14 @@ const cards = [
     githubLink: 'https://github.com/Bhavna2003'
   },
   {
-    artName: 'Card Flip Animation',
+    artName: 'Blob Animation',
+    pageLink: './Art/blue-butterflies/index.html',
+    imageLink: './Art/blue-butterflies/blob-animation.gif',
+    author: 'Siyana',
+    githubLink: 'https://github.com/BlueButterflies' 
+  },
+  {
+  artName: 'Card Flip Animation',
     pageLink: './Art/DhanushNehru/index.html',
     imageLink: './Art/DhanushNehru/card_flip.gif',
     author: 'Dhanush',
