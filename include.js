@@ -2469,6 +2469,13 @@ const cards = [
     githubLink: 'https://github.com/Bhavna2003'
   },
   {
+    artName: 'Card Flip Animation',
+    pageLink: './Art/DhanushNehru/index.html',
+    imageLink: './Art/DhanushNehru/card_flip.gif',
+    author: 'Dhanush',
+    githubLink: 'https://github.com/DhanushNehru'
+  },
+  {
     artName: 'Wave Animation',
     pageLink: '.Art/runtimeerror11/index.html',
     imageLink: './Art/runtimeerror11/wave.gif',
