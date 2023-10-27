@@ -2210,13 +2210,22 @@ let cards = [
     githubLink: 'https://github.com/ishanchaskar'
   },
   {
+    artName: 'Button Fill Animation', 
+    pageLink: './Art/shag1802/index.html', 
+    imageLink: './Art/shag1802/hover_ani.gif',
+    author: 'Shaurya Agrawal', 
+    githubLink: 'https://github.com/shag1802' 
+  },
+  {
+    artName: 'Circle',
     artName: 'Magic Card',
     pageLink: './Art/URK21CS1064/index.html', 
     imageLink: './Art/URK21CS1064/hacktober.png', 
     author: 'URK21CS1064', 
     githubLink: 'https://github.com/URK21CS1064' 
   },
-  {    artName: 'Circle',
+  { 
+    artName: 'Circle',
     pageLink: './Art/rishiiiidha/index.html',
     imageLink: './Art/rishiiiidha/animation.gif',
     author: 'Rishidha',
