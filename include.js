@@ -1,5 +1,11 @@
-/* Each contributions details to builds cards */
-const cards = [
+let cards = [
+    {
+      artName: 'Elevator Ride',
+      pageLink: './Art/deverestHood/index.html', 
+      imageLink: './Art/deverestHood/elevator-ride.gif', 
+      author: 'deverestHood',
+      githubLink: 'https://github.com/deverestHood' 
+    },
   {
     artName: 'tilt-card-3d',
     pageLink: './Art/Bidexdablitz/index.html',
