@@ -2546,6 +2546,13 @@ let cards = [
     author: 'Rudraksh',
     githubLink: 'https://github.com/rudrakushwaha'
   },
+  {
+    artName: 'Plant Growth',
+    pageLink: './Art/PlantGrowAnimation/PlantGrowthAnimate.html',
+    imageLink: './Art/PlantGrowAnimation/plantGrowthAnimation.gif',
+    author: 'Vishal Kumar',
+    githubLink: 'https://github.com/VKumar786/'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
