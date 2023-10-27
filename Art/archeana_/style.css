@@ -36,7 +36,6 @@ body {
 
 /* book */
 .book1 {
-<<<<<<< HEAD
   width: 50px;
   height: 85px;
   background-color: #65f60a;
@@ -95,16 +94,14 @@ p {
   color: #22148e;
   text-align: center;
   font-weight: 900;
-}
-=======
-    width: 50px;
-    height: 85px;
-    background-color: #65f60a;
-    animation-name: book_1;
-    animation-duration: 10s;
-    animation-delay: 2s; 
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  width: 50px;
+  height: 85px;
+  background-color: #65f60a;
+  animation-name: book_1;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 
@@ -123,7 +120,7 @@ p {
     animation-timing-function: linear;
     animation-name: book_1;
     animation-duration: 10s;
-    animation-delay: 3s; 
+    animation-delay: 3s;
     animation-iteration-count: infinite;
 }
 
@@ -134,7 +131,7 @@ p {
     animation-timing-function: linear;
     animation-name: book_1;
     animation-duration: 10s;
-    animation-delay: 4s; 
+    animation-delay: 4s;
     animation-iteration-count: infinite;
 }
 
@@ -153,4 +150,3 @@ p {
     text-align: center;
     font-weight: 900;
 }
->>>>>>> 7334f016 (commit second animation - BOOk (#2245))
