@@ -15,6 +15,14 @@ const cards = [
     githubLink: 'https://github.com/Kris248'
   },
   {
+
+    artName: 'Ball Animation',
+    pageLink: './Art/daemonvk18/animation..html',
+    imageLink: './Art/daemonvk18/animation.gif',
+    author: 'navya preetham reddy',
+    githubLink: 'https://github.com/daemonvk18'
+  },
+  {
     artName: 'Moving and Bouncing Rainbow ZTM Text',
     pageLink: './Art/Sayed-Afnan-Khazi/art.html',
     imageLink: 'Art/Sayed-Afnan-Khazi/art.gif',
