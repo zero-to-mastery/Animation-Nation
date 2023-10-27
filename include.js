@@ -1,6 +1,13 @@
 /* Each contributions details to builds cards */
 const cards = [
   {
+    artName: 'tilt-card-3d',
+    pageLink: './Art/Bidexdablitz/index.html',
+    imageLink: './Art/Bidexdablitz/tilt-card-3d.gif',
+    author: 'Bamidele Damilola Joseph',
+    githubLink: 'https://github.com/Bidexdablitz'
+  },
+  {
     artName: 'Flower Animation',
     pageLink: './Art/Kris248/index.html',
     imageLink: 'Art/Kris248/flower.gif',
