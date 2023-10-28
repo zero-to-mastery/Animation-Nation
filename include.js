@@ -2546,6 +2546,13 @@ let cards = [
     author: 'Rudraksh',
     githubLink: 'https://github.com/rudrakushwaha'
   },
+  {
+    artName: 'Bouncing Balls with colour change',
+    pageLink: './Art/Vivek-GuptaXCode/bouncing-ball.html',
+    imageLink: './Art/Vivek-GuptaXCode/bouncing-ball.gif',
+    author: 'Vivek-GuptaXCode',
+    githubLink: 'https://github.com/Vivek-GuptaXCode'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
