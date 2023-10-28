@@ -2432,6 +2432,13 @@ const cards = [
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
   }
+  {
+    artName: 'Robot Animation',
+    pageLink: './Art/JeffreyAdu/index.html',
+    imageLink: 'Art/JeffreyAdu/robotanimation.gif',
+    author: ' Jeffrey Adu',
+    githubLink: 'https://github.com/JeffreyAdu'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
