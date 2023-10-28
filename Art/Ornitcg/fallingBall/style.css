@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background-color: black;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.ball {
+    
+    height: 150px;
+    width: 150px;
+    background: radial-gradient(circle at 20px 20px, #FAF803, #ffffff);
+    border-radius: 50%;    
+    transition: transform 3s cubic-bezier(0.98, 0.05, 0.54, 0.95)n; 
+    
+    
+}
+
+body:hover {
+    .ball {
+        background: radial-gradient(circle at 20px 20px, #EB3BED, #ffffff);
+        transform: translateY(500%);
+    }
+    
+}

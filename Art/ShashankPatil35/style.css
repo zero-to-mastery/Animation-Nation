@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+    background-color: #0B0605;
+}
+.loading {
+    width: 150px;
+    height: 2px;
+    position: relative;
+    margin: 23% 41%;
+    line-height: 180px;
+}
+.loading span {
+    display: block;
+    bottom: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: .5;
+    position: absolute;
+    background-color: #d41313;
+    animation: snake 1.5s infinite ease-in-out;
+}
+.loading span:nth-of-type(2) {
+    left: 70px;
+    animation-delay: .2s;
+}
+.loading span:nth-of-type(3) {
+    left: 140px;
+    animation-delay: .4s;
+}
+.loading span:nth-of-type(4) {
+    left: 210px;
+    animation-delay: .6s;
+}
+.loading span:last-of-type {
+    left: 280px;
+    animation-delay: .8s;
+}
+@keyframes snake {
+    0%, 100% {
+        background-color: #d41313;
+        opacity: .3;
+        box-shadow: 0 0 3px #0000001a;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        background-color: "cornflowerblue";
+
+        box-shadow: 0 20px 3px #0000002f;
+        transform: scale(1.5);
+    }
+}
