@@ -1892,6 +1892,13 @@ let cards = [
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
   },
+  {
+    artName: 'Text Animation Loader',
+    pageLink: './Art/Bhavna2003-3/index.html',
+    imageLink: './Art/Bhavna2003-3/text=animation.gif',
+    author: 'Bhavna',
+    githubLink: 'https://github.com/Bhavna2003'
+  },
 ];
 
 
