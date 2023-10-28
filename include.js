@@ -2566,6 +2566,13 @@ let cards = [
     author: 'Sree Bhanu Nori',
     githubLink: 'https://github.com/norib016'
   },
+  {
+    artName: 'Basic loader animation',
+    pageLink: './Art/rishika-on-git/index.html',
+    imageLink: './Art/rishika-on-git/result.gif',
+    author: 'Rishika Aggarwal',
+    githubLink: 'https://github.com/rishika-on-git'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
