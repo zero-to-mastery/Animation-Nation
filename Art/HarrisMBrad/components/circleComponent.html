@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circles</title>
+
+
+
+</head>
+
+<body>
+  <style>
+    .circle.roll a:before {
+      content: '';
+      width: 80px;
+      height: 80px;
+      background-color: rgb(0, 0, 0);
+      position: absolute;
+      top: 90%;
+      left: 0%;
+      /* Start from the leftmost side of the navigation */
+      transform: translateY(-50%);
+      /* Center the circle vertically */
+      border-radius: 50%;
+      animation: rollCircle 6s infinite;
+      /* New animation */
+      z-index: -5;
+    }
+
+    /* New keyframe animation for rolling effect */
+    @keyframes rollCircle {
+      0% {
+        left: 0%;
+        transform: translateY(-50%) rotate(0deg);
+        /* Start rotation at 0 degrees */
+      }
+
+      100% {
+        left: 100%;
+        transform: translateY(-50%) rotate(360deg);
+        /* End rotation at 360 degrees (1 full rotation) */
+      }
+    }
+  </style>
+
+  <dev class="circle roll"><a href="#home">Home</a>
+</body>
+
+</html>

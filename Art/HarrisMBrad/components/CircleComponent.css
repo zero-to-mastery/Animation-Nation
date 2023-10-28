@@ -1,0 +1,45 @@
+
+body {
+  background: linear-gradient(to right, #111111, #222222);
+  font-family: Arial, sans-serif;
+  color: #fab663;
+}
+.circle.roll a:before {
+  content: '';
+  width: 80px;
+  height: 80px;
+  background-color: rgb(247, 143, 7);
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  /* Start from the leftmost side of the navigation */
+  transform: translateY(-50%);
+  /* Center the circle vertically */
+  border-radius: 50%;
+  animation: rollCircle 10s infinite;
+  /* New animation */
+  z-index: -5;
+}
+@keyframes rollCircle {
+  0% {
+    left: 0%;
+    transform: translateY(-50%) rotate(0deg);
+    /* Start rotation at 0 degrees */
+  }
+
+  100% {
+    left: 100%;
+    transform: translateY(-50%) rotate(360deg);
+    /* End rotation at 360 degrees (1 full rotation) */
+  }
+}
+
+@keyframes rotateCircle {
+  0% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

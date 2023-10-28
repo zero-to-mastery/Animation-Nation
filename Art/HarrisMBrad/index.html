@@ -47,6 +47,39 @@
         </div>
 
   </card>
+
+  <style>
+    .circle.roll a:before {
+      content: '';
+      width: 80px;
+      height: 80px;
+      background-color: rgb(0, 0, 0);
+      position: absolute;
+      top: 90%;
+      left: 0%;
+      /* Start from the leftmost side of the navigation */
+      transform: translateY(-50%);
+      /* Center the circle vertically */
+      border-radius: 50%;
+      animation: rollCircle 6s infinite;
+      /* New animation */
+      z-index: -5;
+    }
+  
+    /* New keyframe animation for rolling effect */
+    @keyframes rollCircle {
+      0% {
+        left: 0%;
+        transform: translateY(-50%) rotate(0deg);
+        /* Start rotation at 0 degrees */
+      }
+  
+      100% {
+        left: 100%;
+        transform: translateY(-50%) rotate(360deg);
+        /* End rotation at 360 degrees (1 full rotation) */
+      }
+    }
 </body>
 
 </html>
