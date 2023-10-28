@@ -2281,8 +2281,8 @@ let cards = [
   },
   {
     artName: 'Rotating 3D Cube',
-    pageLink: './Art/Abhika/index.html',
-    imageLink: './Art/Abhika/Cube.gif',
+    pageLink: './Art/Abhika3021/index.html',
+    imageLink: './Art/Abhika3021/Cube.gif',
     author: 'Abhika Mittal',
     githubLink: 'https://github.com/Abhika3021'
   },
