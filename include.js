@@ -218,10 +218,10 @@ let cards = [
   },
   {
     artName: 'Women in STEM',
-    pageLink: './Art/cardProject/index.html',
-    imageLink: './Art/cardProject/cardproject.png',
+    pageLink: './Art/Lucile-Tech/index.html',
+    imageLink: './Art/Lucile-Tech/cardproject.png',
     author: 'Lucile Tech',
-    githubLink: 'https://lucile-tech.com/'
+    githubLink: 'https://github.com/LucileTech'
   },
   {
     artName: 'Trippy',
