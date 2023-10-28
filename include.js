@@ -2576,7 +2576,7 @@ let cards = [
   {
     artName: 'Slide In Animation',
     pageLink: './Art/kalkeshwar/index.html',
-    imageLink: 'Art/kalkeshwar/slideinanimation.gif',
+    imageLink: 'Art/kalkeshwar/sliderightanimation.gif',
     author: 'Kalkeshwar',
     githubLink: 'https://github.com/kalkeshwar'
   },
