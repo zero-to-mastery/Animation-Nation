@@ -65,7 +65,7 @@
       /* New animation */
       z-index: -5;
     }
-  
+
     /* New keyframe animation for rolling effect */
     @keyframes rollCircle {
       0% {
@@ -73,13 +73,30 @@
         transform: translateY(-50%) rotate(0deg);
         /* Start rotation at 0 degrees */
       }
-  
+
       100% {
         left: 100%;
         transform: translateY(-50%) rotate(360deg);
         /* End rotation at 360 degrees (1 full rotation) */
       }
     }
+
+    .square.bounce a:before {
+      content: '';
+      width: 50px;
+      height: 50px;
+      background-color: rgb(4, 0, 0);
+      position: absolute;
+      top: 10%;
+      /* adjusted this to vertically center the square */
+      left: 20%;
+      /* added this to horizontally center the square */
+      transform: translate(-50%, -50%);
+      /* this makes sure the square is centered in front of the text */
+      animation: bounceSquare 2s infinite;
+      z-index: -1;
+    }
+  </style>
 </body>
 
 </html>
