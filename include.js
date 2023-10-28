@@ -1,11 +1,32 @@
-/* Each contributions details to builds cards */
-const cards = [
+let cards = [
+    {
+      artName: 'Elevator Ride',
+      pageLink: './Art/deverestHood/index.html', 
+      imageLink: './Art/deverestHood/elevator-ride.gif', 
+      author: 'deverestHood',
+      githubLink: 'https://github.com/deverestHood' 
+    },
+  {
+    artName: 'tilt-card-3d',
+    pageLink: './Art/Bidexdablitz/index.html',
+    imageLink: './Art/Bidexdablitz/tilt-card-3d.gif',
+    author: 'Bamidele Damilola Joseph',
+    githubLink: 'https://github.com/Bidexdablitz'
+  },
   {
     artName: 'Flower Animation',
     pageLink: './Art/Kris248/index.html',
     imageLink: 'Art/Kris248/flower.gif',
     author: 'Krish Gautam',
     githubLink: 'https://github.com/Kris248'
+  },
+  {
+
+    artName: 'Ball Animation',
+    pageLink: './Art/daemonvk18/animation..html',
+    imageLink: './Art/daemonvk18/animation.gif',
+    author: 'navya preetham reddy',
+    githubLink: 'https://github.com/daemonvk18'
   },
   {
     artName: 'Moving and Bouncing Rainbow ZTM Text',
@@ -1655,6 +1676,13 @@ const cards = [
     githubLink: 'https://github.com/RoksolanaVeres'
   },
   {
+    artName: 'Bouncing Tennis Ball',
+    pageLink: './Art/runtimeerror11_2/index.html',
+    imageLink: '.Art/runtimeerror11_2/tennis_ball.gif',
+    author: 'Suparshwa Patil',
+    githubLink: 'https://github.com/runtimeerror11'
+  },
+  {
     artName: 'Wavy boucing ball',
     pageLink: './Art/Swadeshit27/index.html',
     imageLink: './Art/Swadeshit27/mobile.gif',
@@ -1999,6 +2027,7 @@ const cards = [
     githubLink: 'https://github.com/vivekBoii'
   },
   {
+
     artName: 'Rotating Spirals',
     pageLink: './Art/Vivek-Kumar/RotatingSpirals.html',
     imageLink: './Art/Vivek-Kumar/RotatingSpirals.gif',
@@ -2018,6 +2047,13 @@ const cards = [
     imageLink: './Art/div02-afk/animation.gif',
     author: 'div02-afk',
     githubLink: 'https://github.com/div02-afk'
+  },
+  {
+    artName: 'Colliding Balls',
+    pageLink: './Art/Fayezkhan1/index.html',
+    imageLink: './Art/Fayezkhan1/art.png',
+    author: 'Fayezkhan1',
+    githubLink: 'https://github.com/Fayezkhan1'
   },
   {
     artName: 'Hover Over Me',
@@ -2174,6 +2210,20 @@ const cards = [
     githubLink: 'https://github.com/ishanchaskar'
   },
   {
+    artName: 'Button Fill Animation', 
+    pageLink: './Art/shag1802/index.html', 
+    imageLink: './Art/shag1802/hover_ani.gif',
+    author: 'Shaurya Agrawal', 
+    githubLink: 'https://github.com/shag1802' 
+  },
+  {
+    artName: 'Magic Card',
+    pageLink: './Art/URK21CS1064/index.html', 
+    imageLink: './Art/URK21CS1064/hacktober.png', 
+    author: 'URK21CS1064', 
+    githubLink: 'https://github.com/URK21CS1064' 
+  },
+  { 
     artName: 'Circle',
     pageLink: './Art/rishiiiidha/index.html',
     imageLink: './Art/rishiiiidha/animation.gif',
@@ -2356,6 +2406,13 @@ const cards = [
     githubLink: 'https://github.com/Dzivmv'
   },
   {
+    artName: 'Box of shapes',
+    pageLink: './Art/kishky101/index.html',
+    imageLink: './Art/kishky101/box-shapes.gif',
+    author: 'Kishky',
+    githubLink: 'https://github.com/kishky101'
+  },
+  {
     artName: 'SPINNER ORBITS',
     pageLink: './Art/abdullahsadik00/index.html',
     imageLink: './Art/abdullahsadik00/animation.gif',
@@ -2445,7 +2502,70 @@ const cards = [
     imageLink: './Art/Bhavna2003-2/Rainbow animation.gif',
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
-  }
+  },
+  {
+    artName: 'Blob Animation',
+    pageLink: './Art/blue-butterflies/index.html',
+    imageLink: './Art/blue-butterflies/blob-animation.gif',
+    author: 'Siyana',
+    githubLink: 'https://github.com/BlueButterflies' 
+  },
+  {
+  artName: 'Card Flip Animation',
+    pageLink: './Art/DhanushNehru/index.html',
+    imageLink: './Art/DhanushNehru/card_flip.gif',
+    author: 'Dhanush',
+    githubLink: 'https://github.com/DhanushNehru'
+  },
+  {
+    artName: 'Wave Animation',
+    pageLink: '.Art/runtimeerror11/index.html',
+    imageLink: './Art/runtimeerror11/wave.gif',
+    author: 'Suparshwa',
+    githubLink: 'https://github.com/runtimeerror11'
+  },
+  {
+    artName: 'Bouncing ball',
+    pageLink: './Art/johnpauljohnnes/animation-one-ball/JPJArt.html',
+    imageLink: './Art/johnpauljohnnes/animation-one-ball/Ball.gif',
+    author: 'johnpauljohnnes',
+    githubLink: 'https://github.com/johnpauljohnnes'
+  },
+  {
+    artName: 'Retrowave Animation',
+    pageLink: './Art/milesjorg/index.html',
+    imageLink: './Art/milesjorg/retrowave.gif',
+    author: 'milesjorg',
+    githubLink: 'https://github.com/milesjorg'
+  },
+  {
+    artName: 'Arrows',
+    pageLink: './Art/rudrakushwaha/index.html',
+    imageLink: './Art/rudrakushwaha/arrows.gif',
+    author: 'Rudraksh',
+    githubLink: 'https://github.com/rudrakushwaha'
+  },
+  {
+    artName: 'Bouncing Balls with colour change',
+    pageLink: './Art/Vivek-GuptaXCode/bouncing-ball.html',
+    imageLink: './Art/Vivek-GuptaXCode/bouncing-ball.gif',
+    author: 'Vivek-GuptaXCode',
+    githubLink: 'https://github.com/Vivek-GuptaXCode'
+  },
+  {
+    artName: 'loader',
+    pageLink: './Art/amandeep-singh-parihar/loader/index.html',
+    imageLink: '.Art/amandeep-singh-parihar/Screenshot_2023-10-18_141651.png',
+    author: 'amandeepsinghparihar',
+    githubLink: 'https://github.com/amandeep-singh-parihar'
+  },
+  {
+    artName: '90 Degree Container with Shifting Base',
+    pageLink: './Art/norib016/art.html',
+    imageLink: './Art/norib016/art.gif',
+    author: 'Sree Bhanu Nori',
+    githubLink: 'https://github.com/norib016'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
