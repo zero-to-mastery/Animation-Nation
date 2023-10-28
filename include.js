@@ -2566,6 +2566,13 @@ let cards = [
     author: 'Sree Bhanu Nori',
     githubLink: 'https://github.com/norib016'
   },
+  {
+    artName: 'Circles and Lines',
+    pageLink: './Art/Asymtode712/circles_lines_index.html',
+    imageLink: './Art/Asymtode712/circles_lines.gif',
+    author: 'Asymtode712',
+    githubLink: 'https://github.com/Asymtode712'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
