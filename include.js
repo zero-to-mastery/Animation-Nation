@@ -2552,13 +2552,13 @@ let cards = [
     imageLink: './Art/Vivek-GuptaXCode/bouncing-ball.gif',
     author: 'Vivek-GuptaXCode',
     githubLink: 'https://github.com/Vivek-GuptaXCode'
-  }
+  },
   {
     artName: 'loader',
-    pageLink: './Art/<amandeep-singh-parihar>/loader.html',
-    imageLink: './Art/<amandeep-singh-parihar>/loader.gif',
+    pageLink: './Art/amandeep-singh-parihar/loader/index.html',
+    imageLink: '.Art/amandeep-singh-parihar/Screenshot_2023-10-18_141651.png',
     author: 'amandeepsinghparihar',
-    githubLink: 'https://github.com/<amandeep-singh-parihar>'
+    githubLink: 'https://github.com/amandeep-singh-parihar'
   }
   
 ];
