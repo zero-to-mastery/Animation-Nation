@@ -96,6 +96,23 @@
       animation: bounceSquare 2s infinite;
       z-index: -1;
     }
+
+    .triangle.flip a:before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-left: 59px solid transparent;
+      border-right: 59px solid transparent;
+      border-bottom: 80px solid rgb(0, 0, 0);
+      /* This is where the color is set */
+      position: absolute;
+      top: 49%;
+      transform: translateY(-50%);
+      left: 49%;
+      transform: translateX(-50%);
+      animation: flipTriangle 5s infinite;
+      z-index: -1;
+    }
   </style>
 </body>
 

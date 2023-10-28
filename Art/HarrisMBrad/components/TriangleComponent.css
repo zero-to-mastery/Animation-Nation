@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(to right, #111111, #222222);
+  font-family: Arial, sans-serif;
+  color: #f6e9e9;
+}
+
+
+.triangle.flip a:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 59px solid transparent;
+  border-right: 59px solid transparent;
+  border-bottom: 80px solid rgb(0, 0, 0);
+  /* This is where the color is set */
+  position: absolute;
+  top: 49%;
+  transform: translateY(-50%);
+  left: 49%;
+  transform: translateX(-50%);
+  animation: flipTriangle 5s infinite;
+  z-index: -1;
+}
+
+@keyframes flipTriangle {
+
+  0%,
+  100% {
+    transform: translate(-50%, -50%) rotateY(0deg);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) rotateY(180deg);
+  }
+}
