@@ -176,6 +176,13 @@ let cards = [
     githubLink: 'https://github.com/Moccasym'
   },
   {
+    artName: '3D Rotating Cube Animation',
+    pageLink: './Art/MananSharma2710/index.html',
+    imageLink: './Art/MananSharma2710/Cube.gif',
+    author: 'Manan Sharma',
+    githubLink: 'https://github.com/MananSharma2710'
+  },
+  {
     artName: ' Circular Roller ',
     pageLink: './Art/himanshumahto/index.html',
     imageLink: './Art/himanshumahto/Roller.gif',
