@@ -46,7 +46,7 @@ body {
     background-color: inherit;
     display: grid;
     place-content: center ;
-    animation: swing 4000ms 100;
+    animation: swing 4000ms infinite;
 }
 
 @keyframes swing {
