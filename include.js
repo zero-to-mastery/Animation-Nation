@@ -2541,23 +2541,23 @@ let cards = [
     pageLink: './Art/Bhavna2003-2/index.html',
     imageLink: './Art/Bhavna2003-2/Rainbow animation.gif',
     author: 'Bhavna',
-    githubLink: 'https://github.com/Bhavna2003'
+    githubLink: 'https://github.com/Bhavna2003',
   },
   {
-<<<<<<< HEAD
     artName: 'Camera Switch',
     pageLink: './Art/VishalKumar786/CameraSwitch.html',
     imageLink: './Art/VishalKumar786/CameraSwitch.gif',
     author: 'Vishal Kumar',
     githubLink: 'https://github.com/vkumar786'
-  }
+  },
   {
     artName: 'Radial Bar',
     pageLink: './Art/WhiteSnek/index.html',
     imageLink: './Art/WhiteSnek/radial_bar.gif',
     author: 'WhiteSnek',
-    githubLink: 'https://github.com/WhiteSnek'
-=======
+    githubLink: 'https://github.com/WhiteSnek',
+  },
+  {
     artName: 'Blob Animation',
     pageLink: './Art/blue-butterflies/index.html',
     imageLink: './Art/blue-butterflies/blob-animation.gif',
@@ -2682,7 +2682,6 @@ let cards = [
     imageLink: './Art/JeevaRamanathan/ping-pong.gif',
     author: 'Jeeva Ramanathan',
     githubLink: 'https://github.com/JeevaRamanathan'
->>>>>>> dc74b05932e9f9e90fd73189a23228951aad0942
   },
 ];
 
