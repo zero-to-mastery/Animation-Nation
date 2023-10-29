@@ -120,25 +120,18 @@ let cards = [
     githubLink: 'https://github.com/massdx'
   },
   {
-    artName: 'Form field animation',
-    pageLink: './Art/massdx/index.html',
-    imageLink: './Art/massdx/form-animation.gif',
-    author: 'ODANOU Massahoud',
-    githubLink: 'https://github.com/massdx'
-  },
-  {
-    artName: 'Form field animation',
-    pageLink: './Art/massdx/index.html',
-    imageLink: './Art/massdx/form-animation.gif',
-    author: 'ODANOU Massahoud',
-    githubLink: 'https://github.com/massdx'
-  },
-  {
     artName: 'Shooting stars in the night sky',
     pageLink: './Art/ahmedalhamad7/stars.html',
     imageLink: './Art/ahmedalhamad7/static_stars.png',
     author: 'Ahmed',
     githubLink: 'https://github.com/ahmedalhamad7'
+  },
+  {
+    artName: 'DayToNight',
+    pageLink: './Art/NituCStefann/index.html',
+    imageLink: './Art/NituCStefann/DayToNight.png',
+    author: 'NituCStefann',
+    githubLink: 'https://github.com/NituCStefann'
   },
   {
     artName: 'Solar system-Art',
@@ -2182,13 +2175,6 @@ let cards = [
     githubLink: 'https://github.com/vkumar786'
   },
   {
-    artName: 'Kinmatic Animation',
-    pageLink: './Art/VishalKumar786/KinmaticAnimation.html',
-    imageLink: './Art/VishalKumar786/KinmaticAnimation.gif',
-    author: 'Vishal Kumar',
-    githubLink: 'https://github.com/vkumar786'
-  },
-  {
     artName: 'Finger-Tap',
     pageLink: './Art/jac0313/index.html',
     imageLink: './Art/jac0313/Finger-Tap.gif',
@@ -2224,7 +2210,6 @@ let cards = [
     githubLink: 'https://github.com/shag1802' 
   },
   {
-    artName: 'Circle',
     artName: 'Magic Card',
     pageLink: './Art/URK21CS1064/index.html', 
     imageLink: './Art/URK21CS1064/hacktober.png', 
@@ -2342,6 +2327,13 @@ let cards = [
     imageLink: './Art/Shubhamkashyap1601/solar.gif',
     author: 'Shubham Kashyap',
     githubLink: 'https://github.com/Shubhamkashyap1601'
+  },
+  {
+    artName: 'Basic loader animation',
+    pageLink: './Art/rishika-on-git/index.html',
+    imageLink: './Art/rishika-on-git/result.gif',
+    author: 'Rishika Aggarwal',
+    githubLink: 'https://github.com/rishika-on-git'
   },
   {
     artName: 'Compass Loader',
@@ -2470,6 +2462,13 @@ let cards = [
     githubLink: 'https://github.com/daniel1david'
   },
   {
+    artName: 'circular member section animation',
+    pageLink: './Art/mehul1409/index.html',
+    imageLink: './Art/mehul1409/roundmembersection.gif',
+    author: 'mehul1409',
+    githubLink: 'https://github.com/mehul1409'
+  },
+  {
     artName: '👻BOOk',
     pageLink: './Art/archeana_/index.html',
     imageLink: './Art/archeana_/BOOk.gif',
@@ -2552,6 +2551,69 @@ let cards = [
     imageLink: './Art/rudrakushwaha/arrows.gif',
     author: 'Rudraksh',
     githubLink: 'https://github.com/rudrakushwaha'
+  },
+  {
+    artName: 'Bouncing Balls with colour change',
+    pageLink: './Art/Vivek-GuptaXCode/bouncing-ball.html',
+    imageLink: './Art/Vivek-GuptaXCode/bouncing-ball.gif',
+    author: 'Vivek-GuptaXCode',
+    githubLink: 'https://github.com/Vivek-GuptaXCode'
+  },
+  {
+    artName: 'loader',
+    pageLink: './Art/amandeep-singh-parihar/loader/index.html',
+    imageLink: '.Art/amandeep-singh-parihar/Screenshot_2023-10-18_141651.png',
+    author: 'amandeepsinghparihar',
+    githubLink: 'https://github.com/amandeep-singh-parihar'
+  },
+  {
+    artName: '90 Degree Container with Shifting Base',
+    pageLink: './Art/norib016/art.html',
+    imageLink: './Art/norib016/art.gif',
+    author: 'Sree Bhanu Nori',
+    githubLink: 'https://github.com/norib016'
+  },
+  {
+    artName: 'Circles and Lines',
+    pageLink: './Art/Asymtode712/circles_lines_index.html',
+    imageLink: './Art/Asymtode712/circles_lines.gif',
+    author: 'Asymtode712',
+    githubLink: 'https://github.com/Asymtode712'
+  },
+  {
+    artName: 'Slide In Animation',
+    pageLink: './Art/kalkeshwar/index.html',
+    imageLink: 'Art/kalkeshwar/sliderightanimation.gif',
+    author: 'Kalkeshwar',
+    githubLink: 'https://github.com/kalkeshwar'
+  },
+  {
+    artName: 'Circle',
+    pageLink: './Art/rishiiiidha/index.html',
+    imageLink: './Art/rishiiiidha/animation.gif', 
+    author: 'Rishidha', 
+    githubLink: 'https://github.com/rishiiiidha'
+  },
+  {
+    artName: 'circular member section animation',
+    pageLink: './Art/mehul1409/index.html', 
+    imageLink: './Art/mehul1409/roundmembersection.gif', 
+    author: 'mehul1409', 
+    githubLink: 'https://github.com/mehul1409'
+  },
+  {
+    artName: 'Circular multi-color Disk',
+    pageLink: './Art/ReneDev01/index.html', 
+    imageLink: './Art/ReneDev01/Disk-2023-10-18-09-38-09.gif', 
+    author: 'ReneAonbo', 
+    githubLink: 'https://github.com/ReneDev01' 
+  },
+  {
+    artName: 'Breaking news',
+    pageLink: './Art/parthrc/index.html',
+    imageLink: './Art/parthrc/breaking-news.gif',
+    author: 'Parth Chawande',
+    githubLink: 'https://github.com/parthrc'
   },
 ];
 
