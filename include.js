@@ -2540,6 +2540,13 @@ let cards = [
     githubLink: 'https://github.com/milesjorg'
   },
   {
+      artName: 'Square color changing animation',
+      pagelink: './Art/divyansharya8826/index.html',
+      imageLink: './Art/divyansharya8826/Square.gif',
+      author: 'divyansharya8826',
+      githubLink: 'https://github.com/divyansharya8826'
+  },
+  {
     artName: 'Arrows',
     pageLink: './Art/rudrakushwaha/index.html',
     imageLink: './Art/rudrakushwaha/arrows.gif',
