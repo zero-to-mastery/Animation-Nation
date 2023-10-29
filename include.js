@@ -2608,6 +2608,13 @@ let cards = [
     author: 'Parth Chawande',
     githubLink: 'https://github.com/parthrc'
   },
+  {
+    artName: 'Cloud',
+    pageLink: './Art/archana423/index.html',
+    imageLink: './Art/archana423/cloud.gif',
+    author: 'Archana',
+    githubLink: 'https://github.com/archana423'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
