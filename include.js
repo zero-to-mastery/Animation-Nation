@@ -2595,6 +2595,20 @@ let cards = [
     githubLink: 'https://github.com/kalkeshwar'
   },
   {
+    artName: 'Circle',
+    pageLink: './Art/rishiiiidha/index.html',
+    imageLink: './Art/rishiiiidha/animation.gif', 
+    author: 'Rishidha', 
+    githubLink: 'https://github.com/rishiiiidha'
+  },
+  {
+    artName: 'circular member section animation',
+    pageLink: './Art/mehul1409/index.html', 
+    imageLink: './Art/mehul1409/roundmembersection.gif', 
+    author: 'mehul1409', 
+    githubLink: 'https://github.com/mehul1409'
+  },
+  {
     artName: 'Circular multi-color Disk',
     pageLink: './Art/ReneDev01/index.html', 
     imageLink: './Art/ReneDev01/Disk-2023-10-18-09-38-09.gif', 
