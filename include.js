@@ -2280,6 +2280,13 @@ let cards = [
     githubLink: 'https://github.com/psykat1116'
   },
   {
+    artName: 'Rotating 3D Cube',
+    pageLink: './Art/Abhika3021/index.html',
+    imageLink: './Art/Abhika3021/Cube.gif',
+    author: 'Abhika Mittal',
+    githubLink: 'https://github.com/Abhika3021'
+  },
+  {
     artName: 'Breaking news',
     pageLink: './Art/parthrc/index.html',
     imageLink: './Art/parthrc/breaking-news.gif',
