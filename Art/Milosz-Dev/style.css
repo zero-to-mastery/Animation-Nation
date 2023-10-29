@@ -1,0 +1,33 @@
+body {
+  background-color: #252d39;
+  overflow: hidden;
+}
+.text-circle {
+  animation-name: circleRotate;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  bottom: 25px;
+  right: 25px;
+  font-family: 'Georama', sans-serif;
+  line-height: 1.5;
+  fill: #86c33a;
+}
+textPath {
+  font-family: 'Georama', sans-serif;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.p-absolute {
+    position: absolute;
+}
+@keyframes circleRotate {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
