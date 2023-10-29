@@ -1,10 +1,10 @@
 let cards = [
-   {
+  {
     artName: 'Elevator Ride',
-    pageLink: './Art/deverestHood/index.html', 
-    imageLink: './Art/deverestHood/elevator-ride.gif', 
+    pageLink: './Art/deverestHood/index.html',
+    imageLink: './Art/deverestHood/elevator-ride.gif',
     author: 'deverestHood',
-    githubLink: 'https://github.com/deverestHood' 
+    githubLink: 'https://github.com/deverestHood'
   },
   {
     artName: 'Moving Rectangle',
