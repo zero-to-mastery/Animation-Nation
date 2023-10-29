@@ -2621,7 +2621,14 @@ let cards = [
     imageLink: 'Art/hfarah02/ezgif.com-video-to-gif.gif',
     author: 'Hassan',
     githubLink: 'https://github.com/hfarah02'
-  }
+  },
+  {
+    artName: 'Awesome',
+    pageLink: './Art/marjsky/index.html',
+    imageLink: './Art/marjsky/awesome-2.gif',
+    author: 'Marcus',
+    githubLink: 'https://github.com/marjsky'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
