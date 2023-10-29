@@ -23,7 +23,7 @@ body {
     background-color: white;
     clip-path: polygon(44% 6%, 61% 35%, 91% 29%, 69% 54%, 78% 86%, 50% 70%, 23% 85%, 32% 57%, 6% 41%, 39% 35%);
     transform: scale(200%) rotate(50deg);      
-    animation: sparkle 3000ms 5;
+    animation: sparkle 3000ms infinite;
 }
 
 @keyframes sparkle {
