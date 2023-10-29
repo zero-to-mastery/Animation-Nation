@@ -2655,6 +2655,13 @@ let cards = [
     author: 'Archana',
     githubLink: 'https://github.com/archana423'
   },
+  {
+    artName: 'Ping Pong',
+    pageLink: './Art/JeevaRamanathan/index.html',
+    imageLink: './Art/JeevaRamanathan/ping-pong.gif',
+    author: 'Jeeva Ramanathan',
+    githubLink: 'https://github.com/JeevaRamanathan'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
