@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Progress Bar',
+    pageLink: './Art/Mrinmoy/index.html',
+    imageLink: './Art/Mrinmoy/progress_bar.gif',
+    author: 'mrinmoyf2',
+    githubLink: 'https://github.com/mrinmoyf2'
+  },
+  {
     artName: 'Elevator Ride',
     pageLink: './Art/deverestHood/index.html',
     imageLink: './Art/deverestHood/elevator-ride.gif',
