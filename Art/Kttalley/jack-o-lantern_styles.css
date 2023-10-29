@@ -1,0 +1,163 @@
+body {
+  background-color: black;
+  transform: scale(0.5);
+}
+.layout {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+#animation-content {
+  justify-content: center;
+  background-color: rgba(155, 0, 155, 0.8);
+  border-radius: 32px;
+  padding: 4rem;
+  width: 100%;
+  min-height: 340px;
+  max-height: 100%;
+}
+
+.scene {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 8rem;
+  margin: 2rem;
+  max-width: 100%;
+  min-height: 340px;
+  border-radius: 32px;
+}
+#stem {
+  position: absolute;
+  min-height: 140px;
+  transform: translate(50%, -25%);
+  width: 4px;
+  padding: 1rem;
+  background-color: brown;
+}
+.jackolantern {
+  display: block;
+  padding: 12rem;
+  justify-content: center;
+  background-color: orange;
+  border-radius: 100%;
+  width: 500px;
+  animation: jackolantern-scale 2000ms ease-in-out infinite;
+}
+
+.eyes-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#left-eye {
+  flex-basis: 80%;
+  margin: 2rem;
+  padding: 4rem;
+  background-color: yellow;
+  border-radius: 32px;
+  clip-path: polygon(50% 82%, 100% 100%, 0% 100%);
+  animation: blink 2000ms ease-in-out infinite;
+}
+#right-eye {
+  flex-basis: 80%;
+  margin: 2rem;
+  padding: 4rem;
+  background-color: yellow;
+  border-radius: 32px;
+  clip-path: polygon(50% 82%, 100% 100%, 0% 100%);
+  animation: blink 2000ms ease-in-out infinite;
+}
+.nose-row {
+  display: flex;
+  justify-content: center;
+}
+
+#nose {
+  background-color: yellow;
+  margin: 2rem;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  padding: 2rem;
+  animation: blink 2000ms ease-in-out infinite;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.mouth-row {
+  display: flex;
+  justify-content: center;
+}
+
+#mouth {
+  background-color: yellow;
+  flex-basis: 100%;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  min-height: 20px;
+  max-width: 10px;
+  padding: 2rem;
+  border-radius: 32px;
+  animation: speak 2000ms ease-in-out infinite;
+}
+
+/* animation css */
+
+@keyframes jackolantern-scale {
+  0% {
+    padding: 12rem;
+    background-color: rgba(255, 166, 0);
+  }
+  66% {
+    padding: 16rem;
+    background-color: rgba(255, 202, 25);
+  }
+  100% {
+    padding: 12rem;
+  }
+}
+
+@keyframes speak {
+  0% {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 32px;
+    max-width: 10px;
+  }
+  66% {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 24px;
+    max-width: 100%;
+    min-height: 200px;
+    background: rgba(255, 105, 55);
+  }
+  100% {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 16px;
+  }
+}
+
+@keyframes blink {
+  0% {
+    clip-path: polygon(50% 82%, 100% 100%, 0% 100%);
+    border-radius: 4px;
+  }
+  66% {
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    background: rgba(255, 105, 55);
+  }
+  100% {
+    clip-path: polygon(50% 82%, 100% 100%, 0% 100%);
+    border-radius: 32px;
+  }
+}

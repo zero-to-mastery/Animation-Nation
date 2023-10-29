@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #444646;
+}
+
+.container {
+  display: flex;
+  perspective: 200px;
+}
+
+.cube {
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: rotateCube 4s infinite linear;
+}
+
+@keyframes rotateCube {
+  0%,
+  6% {
+    transform: translateZ(-100px) rotateY(0deg) rotateX(0deg);
+  }
+  16%,
+  21% {
+    transform: translateZ(-100px) rotateY(90deg) rotateX(0deg);
+  }
+  33%,
+  38% {
+    transform: translateZ(-100px) rotateX(90deg);
+  }
+  47%,
+  52% {
+    transform: translateZ(-100px) rotateY(180deg) rotateX(0deg);
+  }
+
+  61%,
+  66% {
+    transform: translateZ(-100px) rotateX(-90deg);
+  }
+  76%,
+  80% {
+    transform: translateZ(-100px) rotateY(270deg) rotateX(90deg);
+  }
+  90%,
+  100% {
+    transform: translateZ(-100px) rotateY(360deg) rotateX(0deg);
+  }
+}
+
+.cube_face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+}
+
+.cube_face_red {
+  background: #ff00009c;
+  transform: rotateY(0deg) translateZ(100px);
+}
+
+.cube_face_blue {
+  background: #00ffff9c;
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.cube_face_green {
+  background: #00ff7f9c;
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.cube_face_pink {
+  background: #ff14939c;
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.cube_face_orange {
+  background: #ffa5009c;
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.cube_face_purple {
+  background: #8000809c;
+  transform: rotateX(-90deg) translateZ(100px);
+}

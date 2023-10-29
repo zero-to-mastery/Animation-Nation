@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.blueSky {
+    width: 100%;
+    height: 100vh;
+    background-color: #87CEEB;
+    animation-name: night;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.sun {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    animation:
+    sunset 3s ease-in-out forwards 1,
+    sunrise 3s ease-in-out 3s forwards 1;
+}
+
+@keyframes sunset {
+    0%, 50% {
+        transform: translateY(0) rotate(0deg);
+        background-color: yellow;
+    }
+    100% {
+        transform: translateY(calc(100vh - 100px)) rotate(180deg);
+        background-color: lightgrey;
+    }
+}
+
+@keyframes sunrise {
+    0% {
+        transform: translateY(calc(100vh - 100px));
+    }
+    100% {
+        transform: translateY(0);
+    }
+} 
+
+@keyframes night {
+    from {
+        background-color: #87CEEB;
+    }
+    to {
+        background-color: #000;
+    }
+}
