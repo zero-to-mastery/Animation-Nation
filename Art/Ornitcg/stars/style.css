@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+.row {
+    width:auto;
+    height: 100vh;
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.sky {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.star {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    clip-path: polygon(44% 6%, 61% 35%, 91% 29%, 69% 54%, 78% 86%, 50% 70%, 23% 85%, 32% 57%, 6% 41%, 39% 35%);
+    transform: scale(200%) rotate(50deg);      
+    animation: sparkle 3000ms 5;
+}
+
+@keyframes sparkle {
+    
+    0%   {
+        height: 50px;
+        width: 50px;
+        background-color: red;
+        transform: scale(100%) rotate(50deg);
+        clip-path: polygon(44% 6%, 61% 35%, 91% 29%, 69% 54%, 78% 86%, 50% 70%, 23% 85%, 32% 57%, 6% 41%, 39% 35%);
+        
+    }
+    25%  {
+        background-color: yellow;
+        transform: scale(70%) rotate(50deg);
+        clip-path: polygon(40% 6%, 61% 35%, 91% 29%, 69% 54%, 88% 86%, 50% 70%, 23% 85%, 32% 57%, 6% 41%, 39% 35%);
+        
+    }
+    50%  {
+        background-color: rgba(0, 255, 247, 0.976);
+        transform: scale(100%) rotate(50deg);
+        clip-path: polygon(40% 6%, 61% 35%, 91% 29%, 69% 54%, 88% 86%, 50% 70%, 13% 85%, 32% 57%, 6% 41%, 39% 35%);
+    }
+    100% {
+        background-color: green;
+        transform: scale(100%) rotate(50deg);
+    }
+}
+
