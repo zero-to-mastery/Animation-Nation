@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/lio2011'
   },
   {
+    artName: 'Three Line oscillation Vertical ', 
+    pageLink: './Art/varadtote/three_line_oscillation_vertical.html', 
+    imageLink: './Art/varadtote/three_line_oscillation_vertical.gif', 
+    author: 'Varad Tote', 
+    githubLink: 'https://github.com/varadtote'
+  },
+  {
     artName: 'tilt-card-3d',
     pageLink: './Art/Bidexdablitz/index.html',
     imageLink: './Art/Bidexdablitz/tilt-card-3d.gif',
