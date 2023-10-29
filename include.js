@@ -14,10 +14,10 @@ let cards = [
     githubLink: 'https://github.com/lio2011'
   },
   {
-    artName: 'Three Line oscillation Vertical ', 
-    pageLink: './Art/varadtote/three_line_oscillation_vertical.html', 
-    imageLink: './Art/varadtote/three_line_oscillation_vertical.gif', 
-    author: 'Varad Tote', 
+    artName: 'Three Line oscillation Vertical ',
+    pageLink: './Art/varadtote/three_line_oscillation_vertical.html',
+    imageLink: './Art/varadtote/three_line_oscillation_vertical.gif',
+    author: 'Varad Tote',
     githubLink: 'https://github.com/varadtote'
   },
   {
@@ -990,8 +990,8 @@ let cards = [
   },
   {
     artName: 'Ruby',
-    pageLink: './Art/daniel-badura/ruby.html',
-    imageLink: './Art/daniel-badura/ruby.gif',
+    pageLink: './Art/daniel-badura/ruby/ruby.html',
+    imageLink: './Art/daniel-badura/ruby/ruby.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
   },
@@ -1228,8 +1228,8 @@ let cards = [
   },
   {
     artName: 'Diamond',
-    pageLink: './Art/daniel-badura/diamond.html',
-    imageLink: './Art/daniel-badura/diamond.gif',
+    pageLink: './Art/daniel-badura/diamond/diamond.html',
+    imageLink: './Art/daniel-badura/diamond/diamond.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
   },
@@ -2669,6 +2669,13 @@ let cards = [
     author: 'Jeeva Ramanathan',
     githubLink: 'https://github.com/JeevaRamanathan'
   },
+  {
+    artName: 'Emerald',
+    pageLink: './Art/daniel-badura/emerald/emerald.html',
+    imageLink: './Art/daniel-badura/emerald/emerald.gif',
+    author: 'daniel-badura',
+    githubLink: 'https://github.com/daniel-badura'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -2693,14 +2700,14 @@ function shuffle(o) {
 const getCardContents = (cardList) => {
   return shuffle(cardList).map((c) => [
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 };
 
