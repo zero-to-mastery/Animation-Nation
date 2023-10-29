@@ -2336,6 +2336,13 @@ let cards = [
     githubLink: 'https://github.com/Shubhamkashyap1601'
   },
   {
+    artName: 'Basic loader animation',
+    pageLink: './Art/rishika-on-git/index.html',
+    imageLink: './Art/rishika-on-git/result.gif',
+    author: 'Rishika Aggarwal',
+    githubLink: 'https://github.com/rishika-on-git'
+  },
+  {
     artName: 'Compass Loader',
     pageLink: './Art/AmanPathan/index.html',
     imageLink: '.Art/AmanPathan/CompassLoader.gif',
