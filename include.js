@@ -2483,13 +2483,6 @@ let cards = [
     githubLink: 'https://github.com/daniel1david'
   },
   {
-    artName: 'circular member section animation',
-    pageLink: './Art/mehul1409/index.html',
-    imageLink: './Art/mehul1409/roundmembersection.gif',
-    author: 'mehul1409',
-    githubLink: 'https://github.com/mehul1409'
-  },
-  {
     artName: '👻BOOk',
     pageLink: './Art/archeana_/index.html',
     imageLink: './Art/archeana_/BOOk.gif',
@@ -2604,23 +2597,9 @@ let cards = [
   {
     artName: 'Slide In Animation',
     pageLink: './Art/kalkeshwar/index.html',
-    imageLink: 'Art/kalkeshwar/sliderightanimation.gif',
+    imageLink: './Art/kalkeshwar/sliderightanimation.gif',
     author: 'Kalkeshwar',
     githubLink: 'https://github.com/kalkeshwar'
-  },
-  {
-    artName: 'Circle',
-    pageLink: './Art/rishiiiidha/index.html',
-    imageLink: './Art/rishiiiidha/animation.gif', 
-    author: 'Rishidha', 
-    githubLink: 'https://github.com/rishiiiidha'
-  },
-  {
-    artName: 'circular member section animation',
-    pageLink: './Art/mehul1409/index.html', 
-    imageLink: './Art/mehul1409/roundmembersection.gif', 
-    author: 'mehul1409', 
-    githubLink: 'https://github.com/mehul1409'
   },
   {
     artName: 'Circular multi-color Disk',
@@ -2630,12 +2609,12 @@ let cards = [
     githubLink: 'https://github.com/ReneDev01' 
   },
   {
-    artName: 'Breaking news',
-    pageLink: './Art/parthrc/index.html',
-    imageLink: './Art/parthrc/breaking-news.gif',
-    author: 'Parth Chawande',
-    githubLink: 'https://github.com/parthrc'
-  },
+    artName: 'Moving and rotating galaxy ',
+    pageLink: './Art/supriya/galaxy.html',
+    imageLink: './Art/supriya/galaxy.gif',
+    author: 'Supriya',
+    githubLink: 'https://github.com/BoonDocks-sl'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -2660,14 +2639,14 @@ function shuffle(o) {
 const getCardContents = (cardList) => {
   return shuffle(cardList).map((c) => [
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 };
 
