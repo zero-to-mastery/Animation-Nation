@@ -120,20 +120,6 @@ let cards = [
     githubLink: 'https://github.com/massdx'
   },
   {
-    artName: 'Form field animation',
-    pageLink: './Art/massdx/index.html',
-    imageLink: './Art/massdx/form-animation.gif',
-    author: 'ODANOU Massahoud',
-    githubLink: 'https://github.com/massdx'
-  },
-  {
-    artName: 'Form field animation',
-    pageLink: './Art/massdx/index.html',
-    imageLink: './Art/massdx/form-animation.gif',
-    author: 'ODANOU Massahoud',
-    githubLink: 'https://github.com/massdx'
-  },
-  {
     artName: 'Shooting stars in the night sky',
     pageLink: './Art/ahmedalhamad7/stars.html',
     imageLink: './Art/ahmedalhamad7/static_stars.png',
@@ -2182,13 +2168,6 @@ let cards = [
     githubLink: 'https://github.com/vkumar786'
   },
   {
-    artName: 'Kinmatic Animation',
-    pageLink: './Art/VishalKumar786/KinmaticAnimation.html',
-    imageLink: './Art/VishalKumar786/KinmaticAnimation.gif',
-    author: 'Vishal Kumar',
-    githubLink: 'https://github.com/vkumar786'
-  },
-  {
     artName: 'Finger-Tap',
     pageLink: './Art/jac0313/index.html',
     imageLink: './Art/jac0313/Finger-Tap.gif',
@@ -2476,6 +2455,13 @@ let cards = [
     githubLink: 'https://github.com/daniel1david'
   },
   {
+    artName: 'circular member section animation',
+    pageLink: './Art/mehul1409/index.html',
+    imageLink: './Art/mehul1409/roundmembersection.gif',
+    author: 'mehul1409',
+    githubLink: 'https://github.com/mehul1409'
+  },
+  {
     artName: '👻BOOk',
     pageLink: './Art/archeana_/index.html',
     imageLink: './Art/archeana_/BOOk.gif',
@@ -2593,6 +2579,34 @@ let cards = [
     imageLink: 'Art/kalkeshwar/sliderightanimation.gif',
     author: 'Kalkeshwar',
     githubLink: 'https://github.com/kalkeshwar'
+  },
+  {
+    artName: 'Circle',
+    pageLink: './Art/rishiiiidha/index.html',
+    imageLink: './Art/rishiiiidha/animation.gif', 
+    author: 'Rishidha', 
+    githubLink: 'https://github.com/rishiiiidha'
+  },
+  {
+    artName: 'circular member section animation',
+    pageLink: './Art/mehul1409/index.html', 
+    imageLink: './Art/mehul1409/roundmembersection.gif', 
+    author: 'mehul1409', 
+    githubLink: 'https://github.com/mehul1409'
+  },
+  {
+    artName: 'Circular multi-color Disk',
+    pageLink: './Art/ReneDev01/index.html', 
+    imageLink: './Art/ReneDev01/Disk-2023-10-18-09-38-09.gif', 
+    author: 'ReneAonbo', 
+    githubLink: 'https://github.com/ReneDev01' 
+  },
+  {
+    artName: 'Breaking news',
+    pageLink: './Art/parthrc/index.html',
+    imageLink: './Art/parthrc/breaking-news.gif',
+    author: 'Parth Chawande',
+    githubLink: 'https://github.com/parthrc'
   },
 ];
 
