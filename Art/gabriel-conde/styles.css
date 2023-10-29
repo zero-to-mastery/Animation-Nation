@@ -1,49 +1,49 @@
 .parent {
-  background-color: rgb(18, 47, 120);
-  height: 900px;
-  width: 900px;
-  animation: bg-loop 2000ms ease-in-out forwards infinite alternate;
+    background-color: rgb(18, 47, 120);
+    height: 900px;
+    width: 900px;
+    animation: bg-loop 2000ms ease-in-out forwards infinite alternate;
 }
 
 .child {
-  background-size: cover;
-  background-color: #003366;
-  height: 50%;
-  width: 50%;
-  animation: loop 2000ms ease-in-out forwards infinite alternate-reverse;
+    background-size: cover;
+    background-color: #003366;
+    height: 50%;
+    width: 50%;
+    animation: loop 2000ms ease-in-out forwards infinite alternate-reverse;
 }
 
-.parent:hover .child {
-  background-size: cover;
+.parent:hover .child{
+    background-size: cover;
 }
 
 @keyframes loop {
-  0% {
-    background-image: url('https://media0.giphy.com/media/M3ymyfBfmVUXQi7gZT/200w.gif?cid=82a1493b9j6x6jit5psczeoba0xhonbklyvqdapxghe9vycw&ep=v1_gifs_related&rid=200w.gif&ct=g');
-    border-radius: 50%;
-    transform: translateX(0%);
-  }
+    0% {
+        background-image: url("https://media0.giphy.com/media/M3ymyfBfmVUXQi7gZT/200w.gif?cid=82a1493b9j6x6jit5psczeoba0xhonbklyvqdapxghe9vycw&ep=v1_gifs_related&rid=200w.gif&ct=g");
+        border-radius: 50%;
+        transform: translateX(0%);
+    }
 
-  25% {
-    transform: translateY(100%);
-  }
+    25% {
+        transform: translateY(100%);
+    }
 
-  50% {
-    transform: translateX(100%) translateY(100%);
-  }
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
 
-  75% {
-    transform: translateX(100%);
-  }
+    75% {
+        transform: translateX(100%);
+    }
 
-  100% {
-    background-image: url('https://media2.giphy.com/media/QjSoXOQIcEXBu/200w.gif?cid=6c09b95290wpb4a9vs22zy5v1j50luevokikaprmbnplo9ng&ep=v1_gifs_search&rid=200w.gif&ct=g');
-    transform: translateX(0%);
-  }
+    100% {
+        background-image: url("https://media2.giphy.com/media/QjSoXOQIcEXBu/200w.gif?cid=6c09b95290wpb4a9vs22zy5v1j50luevokikaprmbnplo9ng&ep=v1_gifs_search&rid=200w.gif&ct=g");
+        transform: translateX(0%);
+    }
 }
 
 @keyframes bg-loop {
-  100% {
-    background-color: #0a006b;
-  }
+    100% {
+        background-color: #0A006B;
+    }
 }
