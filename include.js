@@ -120,25 +120,18 @@ let cards = [
     githubLink: 'https://github.com/massdx'
   },
   {
-    artName: 'Form field animation',
-    pageLink: './Art/massdx/index.html',
-    imageLink: './Art/massdx/form-animation.gif',
-    author: 'ODANOU Massahoud',
-    githubLink: 'https://github.com/massdx'
-  },
-  {
-    artName: 'Form field animation',
-    pageLink: './Art/massdx/index.html',
-    imageLink: './Art/massdx/form-animation.gif',
-    author: 'ODANOU Massahoud',
-    githubLink: 'https://github.com/massdx'
-  },
-  {
     artName: 'Shooting stars in the night sky',
     pageLink: './Art/ahmedalhamad7/stars.html',
     imageLink: './Art/ahmedalhamad7/static_stars.png',
     author: 'Ahmed',
     githubLink: 'https://github.com/ahmedalhamad7'
+  },
+  {
+    artName: 'DayToNight',
+    pageLink: './Art/NituCStefann/index.html',
+    imageLink: './Art/NituCStefann/DayToNight.png',
+    author: 'NituCStefann',
+    githubLink: 'https://github.com/NituCStefann'
   },
   {
     artName: 'Solar system-Art',
@@ -477,6 +470,13 @@ let cards = [
     imageLink: './Art/jatanassian/hamburger-close.gif',
     author: 'Joy',
     githubLink: 'https://github.com/jatanassian'
+  },
+  {
+    artName: 'Tiled Loader',
+    pageLink: './Art/tmsagarofficial/anim2.html',
+    imageLink: './Art/tmsagarofficial/anim2.gif',
+    author: 'tmsagarofficial',
+    githubLink: 'https://github.com/tmsagarofficial'
   },
   {
     artName: 'Orbiting-Ball',
@@ -2182,13 +2182,6 @@ let cards = [
     githubLink: 'https://github.com/vkumar786'
   },
   {
-    artName: 'Kinmatic Animation',
-    pageLink: './Art/VishalKumar786/KinmaticAnimation.html',
-    imageLink: './Art/VishalKumar786/KinmaticAnimation.gif',
-    author: 'Vishal Kumar',
-    githubLink: 'https://github.com/vkumar786'
-  },
-  {
     artName: 'Finger-Tap',
     pageLink: './Art/jac0313/index.html',
     imageLink: './Art/jac0313/Finger-Tap.gif',
@@ -2343,6 +2336,13 @@ let cards = [
     githubLink: 'https://github.com/Shubhamkashyap1601'
   },
   {
+    artName: 'Basic loader animation',
+    pageLink: './Art/rishika-on-git/index.html',
+    imageLink: './Art/rishika-on-git/result.gif',
+    author: 'Rishika Aggarwal',
+    githubLink: 'https://github.com/rishika-on-git'
+  },
+  {
     artName: 'Compass Loader',
     pageLink: './Art/AmanPathan/index.html',
     imageLink: '.Art/AmanPathan/CompassLoader.gif',
@@ -2469,6 +2469,13 @@ let cards = [
     githubLink: 'https://github.com/daniel1david'
   },
   {
+    artName: 'circular member section animation',
+    pageLink: './Art/mehul1409/index.html',
+    imageLink: './Art/mehul1409/roundmembersection.gif',
+    author: 'mehul1409',
+    githubLink: 'https://github.com/mehul1409'
+  },
+  {
     artName: '👻BOOk',
     pageLink: './Art/archeana_/index.html',
     imageLink: './Art/archeana_/BOOk.gif',
@@ -2572,6 +2579,48 @@ let cards = [
     imageLink: './Art/norib016/art.gif',
     author: 'Sree Bhanu Nori',
     githubLink: 'https://github.com/norib016'
+  },
+  {
+    artName: 'Circles and Lines',
+    pageLink: './Art/Asymtode712/circles_lines_index.html',
+    imageLink: './Art/Asymtode712/circles_lines.gif',
+    author: 'Asymtode712',
+    githubLink: 'https://github.com/Asymtode712'
+  },
+  {
+    artName: 'Slide In Animation',
+    pageLink: './Art/kalkeshwar/index.html',
+    imageLink: 'Art/kalkeshwar/sliderightanimation.gif',
+    author: 'Kalkeshwar',
+    githubLink: 'https://github.com/kalkeshwar'
+  },
+  {
+    artName: 'Circle',
+    pageLink: './Art/rishiiiidha/index.html',
+    imageLink: './Art/rishiiiidha/animation.gif', 
+    author: 'Rishidha', 
+    githubLink: 'https://github.com/rishiiiidha'
+  },
+  {
+    artName: 'circular member section animation',
+    pageLink: './Art/mehul1409/index.html', 
+    imageLink: './Art/mehul1409/roundmembersection.gif', 
+    author: 'mehul1409', 
+    githubLink: 'https://github.com/mehul1409'
+  },
+  {
+    artName: 'Circular multi-color Disk',
+    pageLink: './Art/ReneDev01/index.html', 
+    imageLink: './Art/ReneDev01/Disk-2023-10-18-09-38-09.gif', 
+    author: 'ReneAonbo', 
+    githubLink: 'https://github.com/ReneDev01' 
+  },
+  {
+    artName: 'Breaking news',
+    pageLink: './Art/parthrc/index.html',
+    imageLink: './Art/parthrc/breaking-news.gif',
+    author: 'Parth Chawande',
+    githubLink: 'https://github.com/parthrc'
   },
 ];
 
