@@ -2648,6 +2648,13 @@ let cards = [
     author: 'Fiona Dash',
     githubLink: 'https://github.com/fi1na'
   },
+  {
+    artName: 'Cloud',
+    pageLink: './Art/archana423/index.html',
+    imageLink: './Art/archana423/cloud.gif',
+    author: 'Archana',
+    githubLink: 'https://github.com/archana423'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
