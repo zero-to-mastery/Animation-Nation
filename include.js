@@ -2641,6 +2641,13 @@ let cards = [
     author: 'Marcus',
     githubLink: 'https://github.com/marjsky'
   },
+  {
+    artName: '360 Degree gradient loading spinner',
+    pageLink: './Art/fi1na/index.html',
+    imageLink: './Art/fi1na/Loading-spinner.gif',
+    author: 'Fiona Dash',
+    githubLink: 'https://github.com/fi1na'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
