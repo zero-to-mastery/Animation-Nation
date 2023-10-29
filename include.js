@@ -28,6 +28,13 @@ let cards = [
     githubLink: 'https://github.com/Bidexdablitz'
   },
   {
+    artName: 'Alien Tunnel',
+    pageLink: './Art/nite-stocker/alien-tunnel.html',
+    imageLink: './Art/nite-stocker/alien-tunnel-small.gif',
+    author: 'nite-stocker',
+    githubLink: 'https://github.com/nite-stocker'
+  },
+  {
     artName: 'Flower Animation',
     pageLink: './Art/Kris248/index.html',
     imageLink: 'Art/Kris248/flower.gif',
@@ -2615,10 +2622,10 @@ let cards = [
   },
   {
     artName: 'Circular multi-color Disk',
-    pageLink: './Art/ReneDev01/index.html', 
-    imageLink: './Art/ReneDev01/Disk-2023-10-18-09-38-09.gif', 
-    author: 'ReneAonbo', 
-    githubLink: 'https://github.com/ReneDev01' 
+    pageLink: './Art/ReneDev01/index.html',
+    imageLink: './Art/ReneDev01/Disk-2023-10-18-09-38-09.gif',
+    author: 'ReneAonbo',
+    githubLink: 'https://github.com/ReneDev01'
   },
   {
     artName: 'Moving and rotating galaxy ',
@@ -2654,6 +2661,13 @@ let cards = [
     imageLink: './Art/archana423/cloud.gif',
     author: 'Archana',
     githubLink: 'https://github.com/archana423'
+  },
+  {
+    artName: 'Ping Pong',
+    pageLink: './Art/JeevaRamanathan/index.html',
+    imageLink: './Art/JeevaRamanathan/ping-pong.gif',
+    author: 'Jeeva Ramanathan',
+    githubLink: 'https://github.com/JeevaRamanathan'
   },
 ];
 
