@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+
+.motor {
+  background-color: orange;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+
+  animation: fan-rotate 3s linear infinite;
+}
+
+.blade1 {
+  background-color: orange;
+  width: 280px;
+  height: 60px;
+  border-radius: 20px 10px 10px 20px;
+  transform: rotate(30deg);
+  position: relative;
+  left: 60%;
+  top: 100%;
+}
+
+.blade2 {
+  background-color: orange;
+  width: 280px;
+  height: 60px;
+  border-radius: 20px 10px 10px 20px;
+  transform: rotate(-90deg);
+  position: relative;
+  left: -90%;
+  top: -200%;
+}
+
+.blade3 {
+  background-color: orange;
+  width: 280px;
+  height: 60px;
+  border-radius: 20px 10px 10px 20px;
+  transform: rotate(145deg);
+  position: relative;
+  left: -230%;
+  top: -5%;
+}
+
+@keyframes fan-rotate {
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
