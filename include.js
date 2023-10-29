@@ -1,11 +1,18 @@
 let cards = [
-    {
-      artName: 'Elevator Ride',
-      pageLink: './Art/deverestHood/index.html', 
-      imageLink: './Art/deverestHood/elevator-ride.gif', 
-      author: 'deverestHood',
-      githubLink: 'https://github.com/deverestHood' 
-    },
+  {
+    artName: 'Elevator Ride',
+    pageLink: './Art/deverestHood/index.html',
+    imageLink: './Art/deverestHood/elevator-ride.gif',
+    author: 'deverestHood',
+    githubLink: 'https://github.com/deverestHood'
+  },
+  {
+    artName: 'Moving Rectangle',
+    pageLink: './Art/lio2011/index.html',
+    imageLink: './Art/lio2011/Moving_rectangle.png',
+    author: 'lio2011',
+    githubLink: 'https://github.com/lio2011'
+  },
   {
     artName: 'tilt-card-3d',
     pageLink: './Art/Bidexdablitz/index.html',
@@ -21,7 +28,6 @@ let cards = [
     githubLink: 'https://github.com/Kris248'
   },
   {
-
     artName: 'Ball Animation',
     pageLink: './Art/daemonvk18/animation..html',
     imageLink: './Art/daemonvk18/animation.gif',
@@ -925,6 +931,13 @@ let cards = [
     imageLink: './Art/Shubham-Chaudhary/square_animation.gif',
     author: 'Shubham Chaudhary',
     githubLink: 'https://github.com/Stellar-X'
+  },
+  {
+    artName: 'Women in STEM',
+    pageLink: './Art/Lucile-Tech/index.html',
+    imageLink: './Art/Lucile-Tech/cardproject.png',
+    author: 'Lucile Tech',
+    githubLink: 'https://github.com/LucileTech'
   },
   {
     artName: 'Trippy',
@@ -2034,7 +2047,6 @@ let cards = [
     githubLink: 'https://github.com/vivekBoii'
   },
   {
-
     artName: 'Rotating Spirals',
     pageLink: './Art/Vivek-Kumar/RotatingSpirals.html',
     imageLink: './Art/Vivek-Kumar/RotatingSpirals.gif',
@@ -2210,20 +2222,20 @@ let cards = [
     githubLink: 'https://github.com/ishanchaskar'
   },
   {
-    artName: 'Button Fill Animation', 
-    pageLink: './Art/shag1802/index.html', 
+    artName: 'Button Fill Animation',
+    pageLink: './Art/shag1802/index.html',
     imageLink: './Art/shag1802/hover_ani.gif',
-    author: 'Shaurya Agrawal', 
-    githubLink: 'https://github.com/shag1802' 
+    author: 'Shaurya Agrawal',
+    githubLink: 'https://github.com/shag1802'
   },
   {
     artName: 'Magic Card',
-    pageLink: './Art/URK21CS1064/index.html', 
-    imageLink: './Art/URK21CS1064/hacktober.png', 
-    author: 'URK21CS1064', 
-    githubLink: 'https://github.com/URK21CS1064' 
+    pageLink: './Art/URK21CS1064/index.html',
+    imageLink: './Art/URK21CS1064/hacktober.png',
+    author: 'URK21CS1064',
+    githubLink: 'https://github.com/URK21CS1064'
   },
-  { 
+  {
     artName: 'Circle',
     pageLink: './Art/rishiiiidha/index.html',
     imageLink: './Art/rishiiiidha/animation.gif',
@@ -2278,6 +2290,13 @@ let cards = [
     imageLink: './Art/psykat1611/loader.gif',
     author: 'psykat1116',
     githubLink: 'https://github.com/psykat1116'
+  },
+  {
+    artName: 'Rotating 3D Cube',
+    pageLink: './Art/Abhika3021/index.html',
+    imageLink: './Art/Abhika3021/Cube.gif',
+    author: 'Abhika Mittal',
+    githubLink: 'https://github.com/Abhika3021'
   },
   {
     artName: 'Breaking news',
@@ -2469,13 +2488,6 @@ let cards = [
     githubLink: 'https://github.com/daniel1david'
   },
   {
-    artName: 'circular member section animation',
-    pageLink: './Art/mehul1409/index.html',
-    imageLink: './Art/mehul1409/roundmembersection.gif',
-    author: 'mehul1409',
-    githubLink: 'https://github.com/mehul1409'
-  },
-  {
     artName: '👻BOOk',
     pageLink: './Art/archeana_/index.html',
     imageLink: './Art/archeana_/BOOk.gif',
@@ -2522,10 +2534,10 @@ let cards = [
     pageLink: './Art/blue-butterflies/index.html',
     imageLink: './Art/blue-butterflies/blob-animation.gif',
     author: 'Siyana',
-    githubLink: 'https://github.com/BlueButterflies' 
+    githubLink: 'https://github.com/BlueButterflies'
   },
   {
-  artName: 'Card Flip Animation',
+    artName: 'Card Flip Animation',
     pageLink: './Art/DhanushNehru/index.html',
     imageLink: './Art/DhanushNehru/card_flip.gif',
     author: 'Dhanush',
@@ -2590,23 +2602,9 @@ let cards = [
   {
     artName: 'Slide In Animation',
     pageLink: './Art/kalkeshwar/index.html',
-    imageLink: 'Art/kalkeshwar/sliderightanimation.gif',
+    imageLink: './Art/kalkeshwar/sliderightanimation.gif',
     author: 'Kalkeshwar',
     githubLink: 'https://github.com/kalkeshwar'
-  },
-  {
-    artName: 'Circle',
-    pageLink: './Art/rishiiiidha/index.html',
-    imageLink: './Art/rishiiiidha/animation.gif', 
-    author: 'Rishidha', 
-    githubLink: 'https://github.com/rishiiiidha'
-  },
-  {
-    artName: 'circular member section animation',
-    pageLink: './Art/mehul1409/index.html', 
-    imageLink: './Art/mehul1409/roundmembersection.gif', 
-    author: 'mehul1409', 
-    githubLink: 'https://github.com/mehul1409'
   },
   {
     artName: 'Circular multi-color Disk',
@@ -2616,11 +2614,25 @@ let cards = [
     githubLink: 'https://github.com/ReneDev01' 
   },
   {
-    artName: 'Breaking news',
-    pageLink: './Art/parthrc/index.html',
-    imageLink: './Art/parthrc/breaking-news.gif',
-    author: 'Parth Chawande',
-    githubLink: 'https://github.com/parthrc'
+    artName: 'Moving and rotating galaxy ',
+    pageLink: './Art/supriya/galaxy.html',
+    imageLink: './Art/supriya/galaxy.gif',
+    author: 'Supriya',
+    githubLink: 'https://github.com/BoonDocks-sl'
+  },
+  {
+    artName: 'Sliding Circles',
+    pageLink: './Art/hfarah02/index.html',
+    imageLink: 'Art/hfarah02/ezgif.com-video-to-gif.gif',
+    author: 'Hassan',
+    githubLink: 'https://github.com/hfarah02'
+  },
+  {
+    artName: 'Awesome',
+    pageLink: './Art/marjsky/index.html',
+    imageLink: './Art/marjsky/awesome-2.gif',
+    author: 'Marcus',
+    githubLink: 'https://github.com/marjsky'
   },
 ];
 
@@ -2646,14 +2658,14 @@ function shuffle(o) {
 const getCardContents = (cardList) => {
   return shuffle(cardList).map((c) => [
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 };
 
