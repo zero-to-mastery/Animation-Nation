@@ -141,6 +141,13 @@ let cards = [
     githubLink: 'https://github.com/ahmedalhamad7'
   },
   {
+    artName: 'DayToNight',
+    pageLink: './Art/NituCStefann/index.html',
+    imageLink: './Art/NituCStefann/DayToNight.png',
+    author: 'NituCStefann',
+    githubLink: 'https://github.com/NituCStefann'
+  },
+  {
     artName: 'Solar system-Art',
     pageLink: './Art/Comder101/solar_system.html',
     imageLink: './Art/Comder101/solar_system.gif',
