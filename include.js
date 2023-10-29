@@ -1,4 +1,11 @@
 let cards = [
+   {
+    artName: 'Elevator Ride',
+    pageLink: './Art/deverestHood/index.html', 
+    imageLink: './Art/deverestHood/elevator-ride.gif', 
+    author: 'deverestHood',
+    githubLink: 'https://github.com/deverestHood' 
+  },
   {
     artName: 'Moving Rectangle',
     pageLink: './Art/lio2011/index.html',
@@ -12,13 +19,6 @@ let cards = [
     imageLink: './Art/varadtote/three_line_oscillation_vertical.gif', 
     author: 'Varad Tote', 
     githubLink: 'https://github.com/varadtote'
-  },
-  {
-    artName: 'Elevator Ride',
-    pageLink: './Art/deverestHood/index.html', 
-    imageLink: './Art/deverestHood/elevator-ride.gif', 
-    author: 'deverestHood',
-    githubLink: 'https://github.com/deverestHood' 
   },
   {
     artName: 'tilt-card-3d',
