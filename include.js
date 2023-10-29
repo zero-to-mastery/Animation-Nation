@@ -1,11 +1,18 @@
 let cards = [
-    {
-      artName: 'Elevator Ride',
-      pageLink: './Art/deverestHood/index.html', 
-      imageLink: './Art/deverestHood/elevator-ride.gif', 
-      author: 'deverestHood',
-      githubLink: 'https://github.com/deverestHood' 
-    },
+  {
+    artName: 'Elevator Ride',
+    pageLink: './Art/deverestHood/index.html',
+    imageLink: './Art/deverestHood/elevator-ride.gif',
+    author: 'deverestHood',
+    githubLink: 'https://github.com/deverestHood'
+  },
+  {
+    artName: 'Moving Rectangle',
+    pageLink: './Art/lio2011/index.html',
+    imageLink: './Art/lio2011/Moving_rectangle.png',
+    author: 'lio2011',
+    githubLink: 'https://github.com/lio2011'
+  },
   {
     artName: 'tilt-card-3d',
     pageLink: './Art/Bidexdablitz/index.html',
@@ -21,7 +28,6 @@ let cards = [
     githubLink: 'https://github.com/Kris248'
   },
   {
-
     artName: 'Ball Animation',
     pageLink: './Art/daemonvk18/animation..html',
     imageLink: './Art/daemonvk18/animation.gif',
@@ -2041,7 +2047,6 @@ let cards = [
     githubLink: 'https://github.com/vivekBoii'
   },
   {
-
     artName: 'Rotating Spirals',
     pageLink: './Art/Vivek-Kumar/RotatingSpirals.html',
     imageLink: './Art/Vivek-Kumar/RotatingSpirals.gif',
@@ -2217,20 +2222,20 @@ let cards = [
     githubLink: 'https://github.com/ishanchaskar'
   },
   {
-    artName: 'Button Fill Animation', 
-    pageLink: './Art/shag1802/index.html', 
+    artName: 'Button Fill Animation',
+    pageLink: './Art/shag1802/index.html',
     imageLink: './Art/shag1802/hover_ani.gif',
-    author: 'Shaurya Agrawal', 
-    githubLink: 'https://github.com/shag1802' 
+    author: 'Shaurya Agrawal',
+    githubLink: 'https://github.com/shag1802'
   },
   {
     artName: 'Magic Card',
-    pageLink: './Art/URK21CS1064/index.html', 
-    imageLink: './Art/URK21CS1064/hacktober.png', 
-    author: 'URK21CS1064', 
-    githubLink: 'https://github.com/URK21CS1064' 
+    pageLink: './Art/URK21CS1064/index.html',
+    imageLink: './Art/URK21CS1064/hacktober.png',
+    author: 'URK21CS1064',
+    githubLink: 'https://github.com/URK21CS1064'
   },
-  { 
+  {
     artName: 'Circle',
     pageLink: './Art/rishiiiidha/index.html',
     imageLink: './Art/rishiiiidha/animation.gif',
@@ -2529,10 +2534,10 @@ let cards = [
     pageLink: './Art/blue-butterflies/index.html',
     imageLink: './Art/blue-butterflies/blob-animation.gif',
     author: 'Siyana',
-    githubLink: 'https://github.com/BlueButterflies' 
+    githubLink: 'https://github.com/BlueButterflies'
   },
   {
-  artName: 'Card Flip Animation',
+    artName: 'Card Flip Animation',
     pageLink: './Art/DhanushNehru/index.html',
     imageLink: './Art/DhanushNehru/card_flip.gif',
     author: 'Dhanush',
