@@ -2283,7 +2283,6 @@ let cards = [
     imageLink: '.Art/AmanPathan/CompassLoader.gif',
     author: 'AmanPathan',
     githubLink: 'https://github.com/AmanPathan'
-
   },
   {
     artName: 'Loading Animation in Page',
