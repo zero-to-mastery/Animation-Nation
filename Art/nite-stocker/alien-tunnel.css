@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    perspective: 1000px;
+}
+
+.tunnel {
+    width: 210px;
+    height: 210px;
+    position: relative;
+    animation: moveTunnel 10s linear infinite;
+    transform-style: preserve-3d;
+    transform: translateZ(-210px);
+    background: linear-gradient(#000, #333);
+    border-radius: 50%;
+    box-shadow: 0 0 14px 14px #00f, 0 0 28px 28px #00f, 0 0 42px 42px #00f;
+}
+
+.light {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #0f0;
+    border-radius: 50%;
+    opacity: 0.7;
+    animation: pulseLight 1.5s alternate infinite, rotateLights 5s linear infinite;
+}
+
+.light-1 {
+    top: 84px;
+    left: 98px;
+}
+
+.light-2 {
+    top: 98px;
+    left: 42px;
+    background-color: #f00;
+}
+
+.light-3 {
+    top: 112px;
+    left: 98px;
+    background-color: #00f;
+}
+
+@keyframes moveTunnel {
+    0% {
+        transform: translateZ(-210px);
+    }
+
+    100% {
+        transform: translateZ(-630px);
+    }
+}
+
+@keyframes pulseLight {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.4);
+    }
+}
+
+@keyframes rotateLights {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
