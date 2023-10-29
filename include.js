@@ -2181,6 +2181,13 @@ let cards = [
     author: 'Vishal Kumar',
     githubLink: 'https://github.com/vkumar786'
   }
+  {
+    artName: 'Radial Bar',
+    pageLink: './Art/WhiteSnek/index.html',
+    imageLink: './Art/WhiteSnek/radial_bar.gif',
+    author: 'WhiteSnek',
+    githubLink: 'https://github.com/WhiteSnek'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
