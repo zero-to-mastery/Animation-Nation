@@ -2614,12 +2614,11 @@ let cards = [
     imageLink: './Art/supriya/galaxy.gif',
     author: 'Supriya',
     githubLink: 'https://github.com/BoonDocks-sl'
-  }
-
-    {
+  },
+  {
     artName: 'Sliding Circles',
-    pageLink: './Art/hassan02/index.html',
-    imageLink: 'Art/hassan02/ezgif.com-video-to-gif.gif',
+    pageLink: './Art/hfarah02/index.html',
+    imageLink: 'Art/hfarah02/ezgif.com-video-to-gif.gif',
     author: 'Hassan',
     githubLink: 'https://github.com/hfarah02'
   }
