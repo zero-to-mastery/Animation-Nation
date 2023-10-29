@@ -2572,7 +2572,14 @@ let cards = [
     imageLink: './Art/Asymtode712/circles_lines.gif',
     author: 'Asymtode712',
     githubLink: 'https://github.com/Asymtode712'
-  }
+  },
+  {
+    artName: 'Slide In Animation',
+    pageLink: './Art/kalkeshwar/index.html',
+    imageLink: 'Art/kalkeshwar/sliderightanimation.gif',
+    author: 'Kalkeshwar',
+    githubLink: 'https://github.com/kalkeshwar'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
