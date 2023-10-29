@@ -21,6 +21,13 @@ let cards = [
     githubLink: 'https://github.com/Kris248'
   },
   {
+    artName: 'Smiling Pumpkin Animation',
+    pageLink: './Art/Suparnaen/smiling_pumpkin.html',
+    imageLink: 'Art/Suparnaen/smiling-pumpkin-animation.gif',
+    author: 'Suparna Das',
+    githubLink: 'https://github.com/Suparnaen'
+  },
+  {
 
     artName: 'Ball Animation',
     pageLink: './Art/daemonvk18/animation..html',
