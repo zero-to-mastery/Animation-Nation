@@ -1,0 +1,41 @@
+body {
+	background: black;
+}
+.loading {
+
+	width: 50px;
+	height: 50px;
+	margin: 100px auto;
+	position: relative;
+}
+
+.loading span {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	background: yellowgreen;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	animation: loading 1.5s infinite ease-in-out;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0deg);
+		background: yellow;
+		box-shadow: 0 0 10px black,
+			0 0 10px 5px green;
+	}
+
+	25% {
+		transform: rotate(80deg);
+		box-shadow: 0 0 10px #9966ff,
+			0 0 10px 5px black,
+			0 0 10px 5px yellow;
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
+}
