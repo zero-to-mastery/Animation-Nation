@@ -14,11 +14,25 @@ let cards = [
     githubLink: 'https://github.com/lio2011'
   },
   {
+    artName: 'Three Line oscillation Vertical ', 
+    pageLink: './Art/varadtote/three_line_oscillation_vertical.html', 
+    imageLink: './Art/varadtote/three_line_oscillation_vertical.gif', 
+    author: 'Varad Tote', 
+    githubLink: 'https://github.com/varadtote'
+  },
+  {
     artName: 'tilt-card-3d',
     pageLink: './Art/Bidexdablitz/index.html',
     imageLink: './Art/Bidexdablitz/tilt-card-3d.gif',
     author: 'Bamidele Damilola Joseph',
     githubLink: 'https://github.com/Bidexdablitz'
+  },
+  {
+    artName: 'Alien Tunnel',
+    pageLink: './Art/nite-stocker/alien-tunnel.html',
+    imageLink: './Art/nite-stocker/alien-tunnel-small.gif',
+    author: 'nite-stocker',
+    githubLink: 'https://github.com/nite-stocker'
   },
   {
     artName: 'Flower Animation',
@@ -2608,10 +2622,10 @@ let cards = [
   },
   {
     artName: 'Circular multi-color Disk',
-    pageLink: './Art/ReneDev01/index.html', 
-    imageLink: './Art/ReneDev01/Disk-2023-10-18-09-38-09.gif', 
-    author: 'ReneAonbo', 
-    githubLink: 'https://github.com/ReneDev01' 
+    pageLink: './Art/ReneDev01/index.html',
+    imageLink: './Art/ReneDev01/Disk-2023-10-18-09-38-09.gif',
+    author: 'ReneAonbo',
+    githubLink: 'https://github.com/ReneDev01'
   },
   {
     artName: 'Moving and rotating galaxy ',
@@ -2633,6 +2647,27 @@ let cards = [
     imageLink: './Art/marjsky/awesome-2.gif',
     author: 'Marcus',
     githubLink: 'https://github.com/marjsky'
+  },
+  {
+    artName: '360 Degree gradient loading spinner',
+    pageLink: './Art/fi1na/index.html',
+    imageLink: './Art/fi1na/Loading-spinner.gif',
+    author: 'Fiona Dash',
+    githubLink: 'https://github.com/fi1na'
+  },
+  {
+    artName: 'Cloud',
+    pageLink: './Art/archana423/index.html',
+    imageLink: './Art/archana423/cloud.gif',
+    author: 'Archana',
+    githubLink: 'https://github.com/archana423'
+  },
+  {
+    artName: 'Ping Pong',
+    pageLink: './Art/JeevaRamanathan/index.html',
+    imageLink: './Art/JeevaRamanathan/ping-pong.gif',
+    author: 'Jeeva Ramanathan',
+    githubLink: 'https://github.com/JeevaRamanathan'
   },
 ];
 
