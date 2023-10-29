@@ -20,13 +20,7 @@ let cards = [
     author: 'Krish Gautam',
     githubLink: 'https://github.com/Kris248'
   },
-  {
-    artName: 'Smiling Pumpkin Animation',
-    pageLink: './Art/Suparnaen/smiling_pumpkin.html',
-    imageLink: 'Art/Suparnaen/smiling-pumpkin-animation.gif',
-    author: 'Suparna Das',
-    githubLink: 'https://github.com/Suparnaen'
-  },
+  
   {
 
     artName: 'Ball Animation',
@@ -2552,6 +2546,13 @@ let cards = [
     imageLink: './Art/rudrakushwaha/arrows.gif',
     author: 'Rudraksh',
     githubLink: 'https://github.com/rudrakushwaha'
+  },
+  {
+    artName: 'Smiling Pumpkin Animation',
+    pageLink: './Art/Suparnaen/smiling_pumpkin.html',
+    imageLink: 'Art/Suparnaen/smiling-pumpkin-animation.gif',
+    author: 'Suparna Das',
+    githubLink: 'https://github.com/Suparnaen'
   },
 ];
 
