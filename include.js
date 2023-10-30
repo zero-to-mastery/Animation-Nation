@@ -2676,6 +2676,13 @@ let cards = [
     author: 'Jeeva Ramanathan',
     githubLink: 'https://github.com/JeevaRamanathan'
   },
+  {
+    artName: 'Box Color Changing',
+    pageLink: './Art/cpasigna90/boxcolorchange.html',
+    imageLink: './Art/cpasigna90/animationColorBox.gif',
+    author: 'Christian',
+    githubLink: 'https://github.com/cpasigna90'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
