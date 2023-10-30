@@ -41,6 +41,7 @@ let cards = [
     author: 'Krish Gautam',
     githubLink: 'https://github.com/Kris248'
   },
+  
   {
     artName: 'Ball Animation',
     pageLink: './Art/daemonvk18/animation..html',
@@ -2600,6 +2601,12 @@ let cards = [
     githubLink: 'https://github.com/rudrakushwaha'
   },
   {
+    artName: 'Smiling Pumpkin Animation',
+    pageLink: './Art/Suparnaen/smiling_pumpkin.html',
+    imageLink: 'Art/Suparnaen/smiling-pumpkin-animation.gif',
+    author: 'Suparna Das',
+    githubLink: 'https://github.com/Suparnaen'
+  },
     artName: 'Bouncing Balls with colour change',
     pageLink: './Art/Vivek-GuptaXCode/bouncing-ball.html',
     imageLink: './Art/Vivek-GuptaXCode/bouncing-ball.gif',
