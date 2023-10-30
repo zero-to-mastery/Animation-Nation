@@ -1,8 +1,8 @@
 let cards = [
   {
     artName: 'Progress Bar',
-    pageLink: './Art/Mrinmoy/index.html',
-    imageLink: './Art/Mrinmoy/progress_bar.gif',
+    pageLink: './Art/mrinmoyf2/index.html',
+    imageLink: './Art/mrinmoyf2/progress_bar.gif',
     author: 'mrinmoyf2',
     githubLink: 'https://github.com/mrinmoyf2'
   },
