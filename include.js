@@ -2670,12 +2670,12 @@ let cards = [
     githubLink: 'https://github.com/JeevaRamanathan'
   },
   {
-    artName: 'Box Color Changing', // change this to the name of your artwork
-    pageLink: './Art/cpasigna90/boxcolorchange.html', // change this
-    imageLink: './Art/cpasigna90/animationColorBox.gif', // change this
-    author: 'Christian', // use your name
-    githubLink: 'https://github.com/cpasigna90' // change this
-  }
+    artName: 'Box Color Changing',
+    pageLink: './Art/cpasigna90/boxcolorchange.html',
+    imageLink: './Art/cpasigna90/animationColorBox.gif',
+    author: 'Christian',
+    githubLink: 'https://github.com/cpasigna90'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
