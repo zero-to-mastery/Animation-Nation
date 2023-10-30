@@ -62,6 +62,13 @@ let cards = [
     author: 'Muhammad Juned Khan',
     githubLink: 'https://github.com/samwillson2009'
   },
+   {
+    artName: 'Circle Animation',
+    pageLink: './Art/samwillson2009/circle2.html',
+    imageLink: './Art/samwillson2009/circle2.gif',
+    author: 'Maulik Parmar',
+    githubLink: 'https://github.com/Maulikatgit'
+  },
   {
     artName: 'Hacktober Circle Animation',
     pageLink: './Art/samwillson2009/circle.html',
