@@ -14,10 +14,10 @@ let cards = [
     githubLink: 'https://github.com/lio2011'
   },
   {
-    artName: 'Three Line oscillation Vertical ', 
-    pageLink: './Art/varadtote/three_line_oscillation_vertical.html', 
-    imageLink: './Art/varadtote/three_line_oscillation_vertical.gif', 
-    author: 'Varad Tote', 
+    artName: 'Three Line oscillation Vertical ',
+    pageLink: './Art/varadtote/three_line_oscillation_vertical.html',
+    imageLink: './Art/varadtote/three_line_oscillation_vertical.gif',
+    author: 'Varad Tote',
     githubLink: 'https://github.com/varadtote'
   },
   {
@@ -2342,8 +2342,8 @@ let cards = [
   },
   {
     artName: 'Glowing Moon',
-    pageLink: './Art/claire-ca/index.html',
-    imageLink: './Art/claire-ca/glowing-moon.gif',
+    pageLink: './Art/claire-ca/glowing-moon/index.html',
+    imageLink: './Art/claire-ca/glowing-moon/glowing-moon.gif',
     author: 'Claire Calder',
     githubLink: 'https://github.com/claire-ca'
   },
@@ -2670,6 +2670,13 @@ let cards = [
     githubLink: 'https://github.com/archana423'
   },
   {
+    artName: 'City Sunset',
+    pageLink: './Art/claire-ca/city-sunset/index.html',
+    imageLink: './Art/claire-ca/city-sunset/city-sunset.gif',
+    author: 'Claire Calder',
+    githubLink: 'https://github.com/claire-ca'
+  },
+  {
     artName: 'Ping Pong',
     pageLink: './Art/JeevaRamanathan/index.html',
     imageLink: './Art/JeevaRamanathan/ping-pong.gif',
@@ -2682,7 +2689,7 @@ let cards = [
     imageLink: './Art/cpasigna90/animationColorBox.gif',
     author: 'Christian',
     githubLink: 'https://github.com/cpasigna90'
-  },
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -2707,14 +2714,14 @@ function shuffle(o) {
 const getCardContents = (cardList) => {
   return shuffle(cardList).map((c) => [
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 };
 
