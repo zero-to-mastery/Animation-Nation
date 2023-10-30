@@ -2607,6 +2607,7 @@ let cards = [
     author: 'Suparna Das',
     githubLink: 'https://github.com/Suparnaen'
   },
+  {
     artName: 'Bouncing Balls with colour change',
     pageLink: './Art/Vivek-GuptaXCode/bouncing-ball.html',
     imageLink: './Art/Vivek-GuptaXCode/bouncing-ball.gif',
