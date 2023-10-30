@@ -1,0 +1,79 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(hsl(208, 34%, 24%)),
+    to(hsl(213, 74%, 15%))
+  );
+  background: -o-linear-gradient(
+    bottom,
+    hsl(208, 34%, 24%),
+    hsl(213, 74%, 15%)
+  );
+  background: linear-gradient(to top, hsl(208, 34%, 24%), hsl(213, 74%, 15%));
+}
+.grid {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.moon {
+  background-color: hsl(60, 45%, 94%);
+  width: 8rem;
+  height: 8rem;
+  border: 3px solid hsl(60, 73%, 91%);
+  border-radius: 50%;
+  -webkit-animation: glow 2s infinite alternate;
+  animation: glow 2s infinite alternate;
+}
+.mountain {
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-left: 9.375rem solid transparent;
+  border-right: 9.375rem solid transparent;
+}
+.mountain-1 {
+  left: 50%;
+  border-bottom: 17.5rem solid hsl(0, 0%, 0%);
+  z-index: 1;
+}
+.mountain-2 {
+  left: 60%;
+  border-bottom: 16.25rem solid hsl(0, 2%, 12%);
+}
+.mountain-3 {
+  left: 40%;
+  border-bottom: 13.75rem solid hsl(0, 0%, 9%);
+}
+@-webkit-keyframes glow {
+  from {
+    -webkit-box-shadow: 0 0 5px -5px hsl(60, 80%, 90%);
+    box-shadow: 0 0 5px -5px hsl(60, 80%, 90%);
+  }
+  to {
+    -webkit-box-shadow: 0 0 5px 5px hsl(60, 80%, 90%);
+    box-shadow: 0 0 5px 5px hsl(60, 80%, 90%);
+  }
+}
+@keyframes glow {
+  from {
+    -webkit-box-shadow: 0 0 5px -5px hsl(60, 80%, 90%);
+    box-shadow: 0 0 5px -5px hsl(60, 80%, 90%);
+  }
+  to {
+    -webkit-box-shadow: 0 0 5px 5px hsl(60, 80%, 90%);
+    box-shadow: 0 0 5px 5px hsl(60, 80%, 90%);
+  }
+}
