@@ -2686,7 +2686,7 @@ let cards = [
   {
     artName: 'Moving square that changes color',
     pageLink: './Art/Piyush_Luitel/index.html',
-    imageLink: './Art/lio2011/index.gif',
+    imageLink: './Art/Piyush_Luitel/index.gif',
     author: 'Piyush_Luitel',
     githubLink: 'https://github.com/PiyushLuitel-07'
   }
