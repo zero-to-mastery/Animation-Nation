@@ -2711,7 +2711,7 @@ let cards = [
     author: 'Piyush_Luitel',
     githubLink: 'https://github.com/PiyushLuitel-07'
   }
-  {
+  ,{
     artName: 'Kinetic Loading',
     pageLink: './Art/urjabahad/kinetic_loading.html', 
     imageLink: './Art/urjabahad/kinetic_loading.gif', 
