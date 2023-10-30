@@ -112,6 +112,13 @@ let cards = [
     author: 'Manish Jha',
     githubLink: 'https://github.com/manishjha-04'
   },
+    {
+    artName: 'MeetingPoint',
+    pageLink: './Art/manishjha-04/Meeting Point/index.html',
+    imageLink: './Art/manishjha-04/Meeting Point/Meetingpoint.gif',
+    author: 'Manish Jha',
+    githubLink: 'https://github.com/manishjha-04'
+  },
   {
     artName: 'Aniket Dinde name Animation',
     pageLink: './Art/AniketDinde/index.html',
