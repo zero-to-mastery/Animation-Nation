@@ -2435,7 +2435,7 @@ const cards = [
   {
     artName: 'Robot Animation',
     pageLink: './Art/JeffreyAdu/index.html',
-    imageLink: 'Art/JeffreyAdu/robotanimation.gif',
+    imageLink: './Art/JeffreyAdu/robotanimation.gif,
     author: ' Jeffrey Adu',
     githubLink: 'https://github.com/JeffreyAdu'
   }
