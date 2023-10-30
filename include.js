@@ -1887,22 +1887,22 @@ let cards = [
   },
   {
     artName: 'Rainbow Animation Loader',
-    pageLink: './Art/Bhavna2003-2/index.html',
-    imageLink: './Art/Bhavna2003-2/Rainbow animation.gif',
+    pageLink: './Art/Bhavna2003/Rainbow_Animation/index.html',
+    imageLink: './Art/Bhavna2003/Rainbow_Animation/RainbowAnimation.gif',
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
   },
   {
     artName: 'Text Animation Loader',
-    pageLink: './Art/Bhavna2003-3/index.html',
-    imageLink: './Art/Bhavna2003-3/text=animation.gif',
+    pageLink: './Art/Bhavna2003/TextAnimation/index.html',
+    imageLink: './Art/Bhavna2003/TextAnimation/textanimation.gif',
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
   },
   {
     artName: '3D-Box Animation',
-    pageLink: './Art/Bhavna2003-4/index.html',
-    imageLink: './Art/Bhavna2003-4/box-animation.gif',
+    pageLink: './Art/Bhavna2003/BoxAnimation/index.html',
+    imageLink: './Art/Bhavna2003/BoxAnimation/box-animation.gif',
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
   },
