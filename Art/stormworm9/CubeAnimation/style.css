@@ -1,0 +1,94 @@
+body {
+  background: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scene {
+  perspective: 1200px;
+  width: 200px;
+  height: 200px;
+  animation: spin 10s linear infinite;
+}
+
+.cube {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 10s linear infinite, change-color 5s infinite alternate;
+  margin: 0 auto;
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+  background: var(--face-color);
+}
+
+.front {
+  transform: rotateY(0deg) translateZ(100px);
+}
+.back {
+  transform: rotateY(180deg) translateZ(100px);
+}
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+.right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg) translateZ(0);
+  }
+  100% {
+    transform: rotateY(360deg) translateZ(0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) translateZ(0);
+  }
+  100% {
+    transform: rotate(360deg) translateZ(200px);
+  }
+}
+
+@keyframes change-color {
+  0%,
+  100% {
+    --face-color: #007bff;
+  }
+  20% {
+    --face-color: #ff6f61;
+  }
+  40% {
+    --face-color: #ffd166;
+  }
+  60% {
+    --face-color: #6b4226;
+  }
+  80% {
+    --face-color: #50b5e9;
+  }
+}

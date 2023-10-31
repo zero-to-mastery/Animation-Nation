@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-content: center;
+  background-color: antiquewhite;
+}
+
+.baloon {
+  display: block;
+  height: 5rem;
+  width: 5rem;
+  background-color: blueviolet;
+  border-radius: 50% 58% 43% 58%;
+}
+
+.baloon-tie {
+  display: block;
+  height: 0.5rem;
+  width: 20px;
+  margin-top: -2px;
+  margin-left: 40px;
+
+  background-color: blueviolet;
+  clip-path: polygon(40% 0%, 50% 0%, 0% 100%, 100% 100%);
+}
+.baloon-strand1 {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  border: solid 5px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 100px 100%/50px 100px 0 0;
+  margin-left: -30px;
+  margin-top: -15px;
+  transform: rotate(90deg);
+}
+
+.baloon-container {
+  position: relative;
+  padding: 0;
+  height: 200px;
+  width: 100px;
+  background-color: inherit;
+  display: grid;
+  place-content: center;
+  animation: swing 4000ms infinite;
+}
+
+@keyframes swing {
+  0% {
+    transform: translateY(300%) rotate(30deg);
+    animation-timing-function: linear;
+  }
+
+  50% {
+    transform: translateY(100%) rotate(-30deg);
+    animation-timing-function: linear;
+  }
+  100% {
+    transform: translateY(-200%) rotate(30deg);
+    animation-timing-function: linear;
+  }
+}
