@@ -1,11 +1,11 @@
 let cards = [
-  {
+    {
     artName: 'GoldenCoin',
     pageLink: './Art/stormworm9/GoldenCoin/GoldenCoin.html',
     imageLink: './Art/stormworm9/GoldenCoin/GoldenCoin.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
-  }
+  },
   {
     artName: 'RingAnimation',
     pageLink: './Art/stormworm9/RingAnimation/ring.html',
