@@ -2573,6 +2573,13 @@ let cards = [
     githubLink: 'https://github.com/Bhavna2003'
   },
   {
+    artName: 'Robot Animation',
+    pageLink: './Art/JeffreyAdu/index.html',
+    imageLink: './Art/JeffreyAdu/robotanimation.gif',
+    author: ' JeffreyAdu',
+    githubLink: 'https://github.com/JeffreyAdu'
+  },
+  {
     artName: 'Blob Animation',
     pageLink: './Art/blue-butterflies/index.html',
     imageLink: './Art/blue-butterflies/blob-animation.gif',
