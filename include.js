@@ -2,7 +2,7 @@ let cards = [
   {
     artName: 'Loading Page',
     pageLink: './Art/SaumyaKumar-09/Animation%204/index.html',
-    imageLink: './Art/SaumyaKumar-09/Animation%204/Gif4.mp4',
+    imageLink: './Art/SaumyaKumar-09/Animation%204/Animation4.gif',
     author: 'SaumyaKumar-09',
     githubLink: 'https://github.com/SaumyaKumar-09'
   },
