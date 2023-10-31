@@ -15,9 +15,7 @@ body {
 
 p {
   color: #fff;
-  font:
-    50px 'Press Start 2P',
-    cursive;
+  font: 50px 'Press Start 2P', cursive;
   margin: 250px 120px;
   position: static;
   text-align: center;
@@ -72,24 +70,14 @@ p {
 
 @keyframes eat {
   0% {
-    box-shadow:
-      100px 65px 0 0 red,
-      300px 65px 0 0 red,
-      500px 65px 0 0 red,
-      700px 65px 0 0 red,
-      900px 65px 0 0 red,
-      1100px 65px 0 0 red,
+    box-shadow: 100px 65px 0 0 red, 300px 65px 0 0 red, 500px 65px 0 0 red,
+      700px 65px 0 0 red, 900px 65px 0 0 red, 1100px 65px 0 0 red,
       1300px 65px 0 0 red;
   }
 
   100% {
-    box-shadow:
-      0px 65px 0 0 blue,
-      100px 65px 0 0 blue,
-      300px 65px 0 0 blue,
-      500px 65px 0 0 blue,
-      700px 65px 0 0 blue,
-      900px 65px 0 0 blue,
+    box-shadow: 0px 65px 0 0 blue, 100px 65px 0 0 blue, 300px 65px 0 0 blue,
+      500px 65px 0 0 blue, 700px 65px 0 0 blue, 900px 65px 0 0 blue,
       1100px 65px 0 0 blue;
   }
 }

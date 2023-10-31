@@ -19,9 +19,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation:
-    Santa 0.9s steps(11) infinite,
-    moveSanta 2s linear infinite;
+  animation: Santa 0.9s steps(11) infinite, moveSanta 2s linear infinite;
 }
 
 @keyframes Santa {

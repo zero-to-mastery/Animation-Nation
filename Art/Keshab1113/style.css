@@ -67,11 +67,8 @@ body {
   background: #0f0;
   transform: translateZ(-380px);
   filter: blur(20px);
-  box-shadow:
-    0 0 120px rgba(0, 255, 0, 0.2),
-    0 0 200px rgba(0, 255, 0, 0.4),
-    0 0 300px rgba(0, 255, 0, 0.6),
-    0 0 400px rgba(0, 255, 0, 0.8),
+  box-shadow: 0 0 120px rgba(0, 255, 0, 0.2), 0 0 200px rgba(0, 255, 0, 0.4),
+    0 0 300px rgba(0, 255, 0, 0.6), 0 0 400px rgba(0, 255, 0, 0.8),
     0 0 500px rgba(0, 255, 0, 1);
 }
 .heading {

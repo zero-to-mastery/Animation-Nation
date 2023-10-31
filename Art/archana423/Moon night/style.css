@@ -58,10 +58,8 @@ body {
   left: 5.62em;
   top: 4.4em;
   border-radius: 50%;
-  box-shadow:
-    0 0 0 0.62em rgba(32, 105, 149, 0.6),
-    0 0 0 1.25em rgba(32, 105, 149, 0.5),
-    0 0 0 1.9em rgba(32, 105, 149, 0.4);
+  box-shadow: 0 0 0 0.62em rgba(32, 105, 149, 0.6),
+    0 0 0 1.25em rgba(32, 105, 149, 0.5), 0 0 0 1.9em rgba(32, 105, 149, 0.4);
 }
 .moon:before {
   content: '';
@@ -122,8 +120,7 @@ body {
   top: 0.75em;
   left: 0.5em;
   border-radius: 50%;
-  box-shadow:
-    0 0 0.06em 0.12em rgba(141, 175, 118, 0.3),
+  box-shadow: 0 0 0.06em 0.12em rgba(141, 175, 118, 0.3),
     0 0 0.06em 0.25em rgba(141, 175, 118, 0.2);
 }
 .light:before {

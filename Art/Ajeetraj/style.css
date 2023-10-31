@@ -63,10 +63,7 @@ body {
   background: rgb(224, 217, 217);
   margin: 0px 10px;
   border-radius: 50%;
-  box-shadow:
-    0 0 0 5px #4fc3dc44,
-    0 0 20px #4fc3dc,
-    0 0 50px #4fc3dc;
+  box-shadow: 0 0 0 5px #4fc3dc44, 0 0 20px #4fc3dc, 0 0 50px #4fc3dc;
   animation: animate 15s linear infinite;
   animation-duration: calc(10s / var(--i));
 }

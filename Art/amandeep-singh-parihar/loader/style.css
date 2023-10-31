@@ -23,17 +23,12 @@ body {
   0% {
     transform: rotate(0deg);
     background: yellow;
-    box-shadow:
-      0 0 10px black,
-      0 0 10px 5px green;
+    box-shadow: 0 0 10px black, 0 0 10px 5px green;
   }
 
   25% {
     transform: rotate(80deg);
-    box-shadow:
-      0 0 10px #9966ff,
-      0 0 10px 5px black,
-      0 0 10px 5px yellow;
+    box-shadow: 0 0 10px #9966ff, 0 0 10px 5px black, 0 0 10px 5px yellow;
   }
 
   100% {
