@@ -1,5 +1,5 @@
 let cards = [
-   {
+  {
     artName: 'RingAnimation',
     pageLink: './Art/stormworm9/RingAnimation/ring.html',
     imageLink: './Art/stormworm9/RingAnimation/ring.gif',
@@ -55,7 +55,7 @@ let cards = [
     author: 'Krish Gautam',
     githubLink: 'https://github.com/Kris248'
   },
-  
+
   {
     artName: 'Ball Animation',
     pageLink: './Art/daemonvk18/animation..html',
@@ -126,7 +126,7 @@ let cards = [
     author: 'Manish Jha',
     githubLink: 'https://github.com/manishjha-04'
   },
-    {
+  {
     artName: 'MeetingPoint',
     pageLink: './Art/manishjha-04/Meeting Point/index.html',
     imageLink: './Art/manishjha-04/Meeting Point/Meetingpoint.gif',
@@ -1459,6 +1459,13 @@ let cards = [
     githubLink: 'https://github.com/muhd-kifayath'
   },
   {
+    artName: 'Floating Ghost',
+    pageLink: './Art/claire-ca/floating-ghost/index.html',
+    imageLink: './Art/claire-ca/floating-ghost/floating-ghost.gif',
+    author: 'Claire Calder',
+    githubLink: 'https://github.com/claire-ca'
+  },
+  {
     artName: 'NewKick',
     pageLink: './Art/DAYakDREAMER/index.html',
     imageLink: './Art/DAYakDREAMER/Animation-nation-gif.gif',
@@ -2615,11 +2622,11 @@ let cards = [
     githubLink: 'https://github.com/milesjorg'
   },
   {
-      artName: 'Square color changing animation',
-      pagelink: './Art/divyansharya8826/index.html',
-      imageLink: './Art/divyansharya8826/Square.gif',
-      author: 'divyansharya8826',
-      githubLink: 'https://github.com/divyansharya8826'
+    artName: 'Square color changing animation',
+    pagelink: './Art/divyansharya8826/index.html',
+    imageLink: './Art/divyansharya8826/Square.gif',
+    author: 'divyansharya8826',
+    githubLink: 'https://github.com/divyansharya8826'
   },
   {
     artName: 'Arrows',
@@ -2739,12 +2746,12 @@ let cards = [
     imageLink: './Art/Piyush_Luitel/index.gif',
     author: 'Piyush_Luitel',
     githubLink: 'https://github.com/PiyushLuitel-07'
-  }
-  ,{
+  },
+  {
     artName: 'Kinetic Loading',
-    pageLink: './Art/urjabahad/kinetic_loading.html', 
-    imageLink: './Art/urjabahad/kinetic_loading.gif', 
-    author: 'Urja', 
+    pageLink: './Art/urjabahad/kinetic_loading.html',
+    imageLink: './Art/urjabahad/kinetic_loading.gif',
+    author: 'Urja',
     githubLink: 'https://github.com/urjabahad'
   }
 ];
