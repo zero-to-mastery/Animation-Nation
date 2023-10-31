@@ -5,7 +5,7 @@ let cards = [
     imageLink: './Art/stormworm9/RingAnimation/ring.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
-   }
+   },
 
   {
     artName: 'TriangleProjection',
