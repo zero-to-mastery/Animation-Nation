@@ -1,5 +1,4 @@
-body
-{
+body {
   margin: 0;
   padding: 0;
   background-image: url(./pumpkins.jpg);
@@ -11,8 +10,7 @@ body
   justify-content: center;
 }
 
-.ghost
-{
+.ghost {
   width: 140px;
   height: 160px;
   background-color: #f2f2f2;
@@ -28,21 +26,20 @@ body
     transform: translate(-50%, -50%);
   }
   25% {
-      transform: translate(40%, -50%);
+    transform: translate(40%, -50%);
   }
   50% {
-      transform: translate(40%, 40%);
+    transform: translate(40%, 40%);
   }
   75% {
-      transform: translate(-50%, 40%);
+    transform: translate(-50%, 40%);
   }
   100% {
-      transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
 
-.face
-{
+.face {
   width: 100px;
   position: absolute;
   top: 50px;
@@ -62,7 +59,7 @@ body
   height: 24px;
   background-color: #2c3a47;
   border-radius: 50%;
-  transition: .3s linear;
+  transition: 0.3s linear;
   position: relative;
 }
 
@@ -73,52 +70,48 @@ body
 }
 
 @keyframes wink {
-  0%, 20% {
+  0%,
+  20% {
     transform: scaleY(1);
   }
-  25%, 100% {
+  25%,
+  100% {
     transform: scaleY(0.1);
   }
 }
 
-.mouth
-{
+.mouth {
   width: 40px;
   height: 20px;
   background-color: #2c3a47;
   margin: auto;
   border-radius: 0 0 20px 20px;
-  transition: .3s linear;
+  transition: 0.3s linear;
 }
 
-.feet
-{
+.feet {
   position: absolute;
   width: 100%;
   bottom: -20px;
   display: flex;
 }
 
-.feet span
-{
+.feet span {
   flex: 1;
   height: 20px;
   background-color: #f2f2f2;
   border-radius: 0 0 20px 20px;
 }
 
-.feet span:first-child
-{
+.feet span:first-child {
   border-radius: 0 0 20px 20px;
 }
 
-.feet span:last-child
-{
+.feet span:last-child {
   border-radius: 0 0 20px 20px;
 }
 
-.ghost-2
-{
+.ghost-2 {
   width: 140px;
   height: 160px;
   background-color: #f2f2f2;
@@ -134,21 +127,20 @@ body
     transform: translate(50%, 50%);
   }
   25% {
-      transform: translate(-40%, 50%);
+    transform: translate(-40%, 50%);
   }
   50% {
-      transform: translate(-40%, -40%);
+    transform: translate(-40%, -40%);
   }
   75% {
-      transform: translate(50%, -40%);
+    transform: translate(50%, -40%);
   }
   100% {
-      transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
   }
 }
 
-.face-2
-{
+.face-2 {
   width: 100px;
   position: absolute;
   top: 50px;
@@ -168,7 +160,7 @@ body
   height: 24px;
   background-color: #2c3a47;
   border-radius: 50%;
-  transition: .3s linear;
+  transition: 0.3s linear;
   position: relative;
 }
 
@@ -179,46 +171,43 @@ body
 }
 
 @keyframes wink-2 {
-  0%, 20% {
+  0%,
+  20% {
     transform: scaleY(1);
   }
-  25%, 100% {
+  25%,
+  100% {
     transform: scaleY(0.1);
   }
 }
 
-.mouth-2
-{
+.mouth-2 {
   width: 40px;
   height: 20px;
   background-color: #2c3a47;
   margin: auto;
   border-radius: 0 0 20px 20px;
-  transition: .3s linear;
+  transition: 0.3s linear;
 }
 
-.feet-2
-{
+.feet-2 {
   position: absolute;
   width: 100%;
   bottom: -20px;
   display: flex;
 }
 
-.feet-2 span
-{
+.feet-2 span {
   flex: 1;
   height: 20px;
   background-color: #f2f2f2;
   border-radius: 0 0 20px 20px;
 }
 
-.feet-2 span:first-child
-{
+.feet-2 span:first-child {
   border-radius: 0 0 20px 20px;
 }
 
-.feet-2 span:last-child
-{
+.feet-2 span:last-child {
   border-radius: 0 0 20px 20px;
 }
