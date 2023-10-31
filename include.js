@@ -1,4 +1,18 @@
 let cards = [
+   {
+    artName: 'RingAnimation',
+    pageLink: './Art/stormworm9/RingAnimation/ring.html',
+    imageLink: './Art/stormworm9/RingAnimation/ring.gif',
+    author: 'stormworm9',
+    githubLink: 'https://github.com/stormworm9'
+  },
+  {
+    artName: 'Loading Page',
+    pageLink: './Art/SaumyaKumar-09/Animation%204/index.html',
+    imageLink: './Art/SaumyaKumar-09/Animation%204/Animation4.gif',
+    author: 'SaumyaKumar-09',
+    githubLink: 'https://github.com/SaumyaKumar-09'
+  },
   {
     artName: 'Elevator Ride',
     pageLink: './Art/deverestHood/index.html',
@@ -2559,6 +2573,13 @@ let cards = [
     githubLink: 'https://github.com/Bhavna2003'
   },
   {
+    artName: 'Robot Animation',
+    pageLink: './Art/JeffreyAdu/index.html',
+    imageLink: './Art/JeffreyAdu/robotanimation.gif',
+    author: ' JeffreyAdu',
+    githubLink: 'https://github.com/JeffreyAdu'
+  },
+  {
     artName: 'Blob Animation',
     pageLink: './Art/blue-butterflies/index.html',
     imageLink: './Art/blue-butterflies/blob-animation.gif',
@@ -2730,6 +2751,11 @@ let cards = [
     artName: '3D Box Animation',
     pageLink: './Art/Bhavna2003/3DboxAnimation/index.html',
     imageLink: './Art/Bhavna2003/3DboxAnimation/3Dbox.gif',
+  },
+  {
+    artName: 'Loading Text Animation',
+    pageLink: './Art/Bhavna2003/loadingtextanimation/index.html',
+    imageLink: './Art/Bhavna2003/loadingtextanimation/textanimation.gif',
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
   }
