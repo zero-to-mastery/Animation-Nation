@@ -1,0 +1,71 @@
+body {
+    background-color: #009688; 
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    position: relative;
+    width: 200px;
+    height: 400px;
+    border: 2px solid #333;
+    overflow: hidden;
+  }
+  
+  .coin {
+    width: 40px;
+    height: 40px;
+    background-color: #FFD700; 
+    border-radius: 50%;
+    position: absolute;
+    top: -40px; 
+    animation: fall 2s linear infinite, rotate 4s linear infinite;
+  }
+  
+  @keyframes fall {
+    0% {
+      top: -40px;
+    }
+    100% {
+      top: calc(100% - 40px); 
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .coin:nth-child(1) {
+    left: 20px;
+    animation-delay: 0s;
+  }
+  
+  .coin:nth-child(2) {
+    left: 60px;
+    animation-delay: 0.3s;
+  }
+  
+  .coin:nth-child(3) {
+    left: 100px;
+    animation-delay: 0.6s;
+  }
+  
+  .coin:nth-child(4) {
+    left: 140px;
+    animation-delay: 0.9s;
+  }
+  
+  .coin:nth-child(5) {
+    left: 180px;
+    animation-delay: 1.2s;
+  }
+  
