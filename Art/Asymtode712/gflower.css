@@ -18,8 +18,8 @@ body {
   width: 400%;
   height: 100%;
   background:
-    /*1*/ radial-gradient(farthest-side, #639510 97%, #0000) 12.5%
-      65%/12px 9px,
+    /*1*/
+    radial-gradient(farthest-side, #639510 97%, #0000) 12.5% 65%/12px 9px,
     linear-gradient(#996b52 0 0) 9% 80%/9.4% 9%,
     linear-gradient(#996b52 0 0) 10% 100%/7% 25%,
     linear-gradient(#639510 0 0) 12.5% 100%/5px 36%,
@@ -57,7 +57,8 @@ body {
   content: '';
   position: absolute;
   inset: -100vh 49px 42px 54px;
-  background: conic-gradient(at 2px 50%, #0000 270deg, #fff 0) 0 0/8px 10px,
+  background:
+    conic-gradient(at 2px 50%, #0000 270deg, #fff 0) 0 0/8px 10px,
     conic-gradient(at 2px 50%, #0000 270deg, #fff 0) 4px 5px/8px 10px;
   animation: s 4s 0.5s both;
 }

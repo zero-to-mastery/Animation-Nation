@@ -1,87 +1,90 @@
 body {
-    background-color: darkgreen;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  background-color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .pumpkin {
-    width: 250px;
-    height: 250px;
-    background-color:orange;
-    border-radius: 50%;
-    position: relative;
-    animation: float 2s ease-in-out infinite;
+  width: 250px;
+  height: 250px;
+  background-color: orange;
+  border-radius: 50%;
+  position: relative;
+  animation: float 2s ease-in-out infinite;
 }
 
 .eyes {
-    position: absolute;
-    top: 50%;
-    width: 20px;
-    height: 20px;
-    background-color: #000;
-    border-radius: 50%;
-    transform: translateY(-50%);
-    animation: move-eyes 2s linear infinite alternate;
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  animation: move-eyes 2s linear infinite alternate;
 }
 
 .eye-left {
-    left: 30%;
+  left: 30%;
 }
 
 .eye-right {
-    left: 70%;
+  left: 70%;
 }
 
 .mouth {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    width: 60px;
-    height: 30px;
-    background-color: transparent;
-    border: 2px solid #000;
-    border-radius: 0 0 60px 60px;
-    transform: translateX(-50%);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 60px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 0 0 60px 60px;
+  transform: translateX(-50%);
 }
 
 .tooth {
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    width: 15px;
-    height: 15px;
-    background-color: #fff;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    animation: move-tooth 2s linear infinite alternate;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: move-tooth 2s linear infinite alternate;
 }
 
 @keyframes float {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-5px);
-    }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
 }
 
 @keyframes move-tooth {
-    0%, 100% {
-        left: 20%;
-    }
-    50% {
-        left: 80%;
-    }
+  0%,
+  100% {
+    left: 20%;
+  }
+  50% {
+    left: 80%;
+  }
 }
 
 @keyframes move-eyes {
-    0%, 100% {
-        top: 50%;
-    }
-    50% {
-        top: 55%;
-    }
+  0%,
+  100% {
+    top: 50%;
+  }
+  50% {
+    top: 55%;
+  }
 }

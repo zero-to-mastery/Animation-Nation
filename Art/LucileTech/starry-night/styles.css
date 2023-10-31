@@ -24,7 +24,11 @@ body {
   top: 0;
   left: 0;
   border-radius: 50%;
-  box-shadow: 2% 2% 0 0 #ccc, 4% 4% 0 0 #ccc, 6% 6% 0 0 #ccc, 8% 8% 0 0 #ccc;
+  box-shadow:
+    2% 2% 0 0 #ccc,
+    4% 4% 0 0 #ccc,
+    6% 6% 0 0 #ccc,
+    8% 8% 0 0 #ccc;
 }
 
 .starry-night {

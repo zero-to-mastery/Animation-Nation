@@ -52,7 +52,9 @@ body {
   border-radius: 50%;
   top: 7.5em;
   left: 3.75em;
-  box-shadow: 6.25em 0 0 -0.62em #000000, 6.25em 0 #ffffff;
+  box-shadow:
+    6.25em 0 0 -0.62em #000000,
+    6.25em 0 #ffffff;
 }
 .shine {
   position: absolute;

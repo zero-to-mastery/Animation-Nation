@@ -14,8 +14,11 @@ body {
   border-radius: 50%;
   background: linear-gradient(-45deg, green, blue, red, green);
   background-size: 200% 200%;
-  animation: bounce 3s infinite linear, colorChange 3s infinite linear,
-    spin 2s linear infinite, move 3s linear infinite;
+  animation:
+    bounce 3s infinite linear,
+    colorChange 3s infinite linear,
+    spin 2s linear infinite,
+    move 3s linear infinite;
 }
 
 @keyframes bounce {
