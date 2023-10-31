@@ -1480,6 +1480,13 @@ let cards = [
     githubLink: 'https://github.com/muhd-kifayath'
   },
   {
+    artName: 'Floating Ghost',
+    pageLink: './Art/claire-ca/floating-ghost/index.html',
+    imageLink: './Art/claire-ca/floating-ghost/floating-ghost.gif',
+    author: 'Claire Calder',
+    githubLink: 'https://github.com/claire-ca'
+  },
+  {
     artName: 'NewKick',
     pageLink: './Art/DAYakDREAMER/index.html',
     imageLink: './Art/DAYakDREAMER/Animation-nation-gif.gif',
