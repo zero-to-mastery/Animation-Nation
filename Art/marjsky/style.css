@@ -29,9 +29,7 @@ body {
   }
   100% {
     color: hsl(14, 89%, 55%);
-    text-shadow:
-      0 0 7px hsl(14, 89%, 55%),
-      0 0 50px hsl(218, 100%, 17%);
+    text-shadow: 0 0 7px hsl(14, 89%, 55%), 0 0 50px hsl(218, 100%, 17%);
   }
 }
 

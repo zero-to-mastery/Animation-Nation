@@ -80,8 +80,7 @@ body {
   align-items: center;
   color: #fff;
   font-size: 2em;
-  animation:
-    bouncingLetters 1.5s ease-in-out infinite,
+  animation: bouncingLetters 1.5s ease-in-out infinite,
     colorChange 2s alternate infinite;
 }
 

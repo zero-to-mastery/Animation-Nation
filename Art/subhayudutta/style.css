@@ -14,9 +14,7 @@ body {
   background-color: #3498db;
   border-radius: 50%;
   position: absolute;
-  animation:
-    moveCircle 4s ease-in-out infinite,
-    changeColor 6s ease infinite;
+  animation: moveCircle 4s ease-in-out infinite, changeColor 6s ease infinite;
 }
 
 @keyframes moveCircle {

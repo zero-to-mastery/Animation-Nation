@@ -14,9 +14,7 @@ body {
   background-color: #3498db; /* Blue ball color */
   border-radius: 50%; /* Make it a circle */
   position: relative;
-  animation:
-    bounce 2s ease-in-out infinite,
-    colorChange 4s ease-in-out infinite; /* Color change animation added */
+  animation: bounce 2s ease-in-out infinite, colorChange 4s ease-in-out infinite; /* Color change animation added */
 }
 
 @keyframes bounce {

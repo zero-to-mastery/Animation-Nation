@@ -253,8 +253,7 @@ body {
 
 .flower__fall-down--purple {
   bottom: 4vmin;
-  animation:
-    flower-fall-down-purple 6s 1.2s linear forwards,
+  animation: flower-fall-down-purple 6s 1.2s linear forwards,
     flower-falling 6s 7.2s linear infinite;
 }
 

@@ -27,9 +27,7 @@ body {
   text-decoration: none;
   color: white;
   font-size: 48px;
-  transition:
-    0.5s letter-spacing,
-    0.5s color;
+  transition: 0.5s letter-spacing, 0.5s color;
 }
 .button::after {
   content: '';

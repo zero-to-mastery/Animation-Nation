@@ -15,9 +15,7 @@ body {
   height: 10px;
   background-color: #fff;
   position: absolute;
-  animation:
-    shootingStar 3s linear infinite,
-    blink 0.5s alternate infinite;
+  animation: shootingStar 3s linear infinite, blink 0.5s alternate infinite;
 }
 
 @keyframes shootingStar {
@@ -43,57 +41,39 @@ body {
 }
 
 .shooting-star:nth-child(2) {
-  animation:
-    shootingStar 2.5s linear infinite,
-    blink 0.3s alternate infinite;
+  animation: shootingStar 2.5s linear infinite, blink 0.3s alternate infinite;
 }
 
 .shooting-star:nth-child(3) {
-  animation:
-    shootingStar 3.2s linear infinite,
-    blink 0.7s alternate infinite;
+  animation: shootingStar 3.2s linear infinite, blink 0.7s alternate infinite;
 }
 
 .shooting-star:nth-child(4) {
-  animation:
-    shootingStar 3.5s linear infinite,
-    blink 0.4s alternate infinite;
+  animation: shootingStar 3.5s linear infinite, blink 0.4s alternate infinite;
 }
 
 .shooting-star:nth-child(5) {
-  animation:
-    shootingStar 2.8s linear infinite,
-    blink 0.6s alternate infinite;
+  animation: shootingStar 2.8s linear infinite, blink 0.6s alternate infinite;
 }
 
 .shooting-star:nth-child(6) {
-  animation:
-    shootingStar 4s linear infinite,
-    blink 0.8s alternate infinite;
+  animation: shootingStar 4s linear infinite, blink 0.8s alternate infinite;
 }
 
 .shooting-star:nth-child(7) {
-  animation:
-    shootingStar 3.7s linear infinite,
-    blink 0.6s alternate infinite;
+  animation: shootingStar 3.7s linear infinite, blink 0.6s alternate infinite;
 }
 
 .shooting-star:nth-child(8) {
-  animation:
-    shootingStar 4.2s linear infinite,
-    blink 0.7s alternate infinite;
+  animation: shootingStar 4.2s linear infinite, blink 0.7s alternate infinite;
 }
 
 .shooting-star:nth-child(9) {
-  animation:
-    shootingStar 3s linear infinite,
-    blink 0.5s alternate infinite;
+  animation: shootingStar 3s linear infinite, blink 0.5s alternate infinite;
 }
 
 .shooting-star:nth-child(10) {
-  animation:
-    shootingStar 2.3s linear infinite,
-    blink 0.4s alternate infinite;
+  animation: shootingStar 2.3s linear infinite, blink 0.4s alternate infinite;
 }
 
 .night-sky::before {

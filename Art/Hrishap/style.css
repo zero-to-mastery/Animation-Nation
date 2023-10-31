@@ -19,12 +19,10 @@
   width: 100px;
   height: 250vh;
   background: #fff;
-  box-shadow:
-    inset -10px 0 40px rgba(0, 0, 0, 1),
+  box-shadow: inset -10px 0 40px rgba(0, 0, 0, 1),
     inset 10px 0 40px rgba(0, 0, 0, 1),
     inset -10px 0 10px rgba(255, 255, 0255, 0.25),
-    inset 10px 0 10px rgba(255, 255, 255, 0.25),
-    0 0 50px rgba(0, 0, 0, 1);
+    inset 10px 0 10px rgba(255, 255, 255, 0.25), 0 0 50px rgba(0, 0, 0, 1);
 }
 
 .layer.layer1 {

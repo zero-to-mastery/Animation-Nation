@@ -34,9 +34,7 @@ span {
   margin: -47% 0 0 -47%;
   animation: animate 15s linear infinite;
   animation-duration: calc(25s / var(--i));
-  box-shadow:
-    10px 10px 10px black,
-    -10px -10px 10px black;
+  box-shadow: 10px 10px 10px black, -10px -10px 10px black;
 }
 
 .w {

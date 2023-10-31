@@ -11,9 +11,7 @@ body {
   position: relative;
   width: 200px;
   height: 200px;
-  animation:
-    rotate 10s linear infinite,
-    pulse 2s alternate infinite;
+  animation: rotate 10s linear infinite, pulse 2s alternate infinite;
 }
 
 .cube {

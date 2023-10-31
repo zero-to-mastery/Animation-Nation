@@ -18,18 +18,12 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition:
-    transform 0.2s,
-    box-shadow 0.2s,
-    background 0.4s;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.4s;
 }
 
 .elegant-button:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background: linear-gradient(45deg, #e74c3c, #3498db);
-  transition:
-    transform 0.2s,
-    box-shadow 0.2s,
-    background 0.4s;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.4s;
 }

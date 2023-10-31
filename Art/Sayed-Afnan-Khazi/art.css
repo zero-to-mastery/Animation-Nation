@@ -40,8 +40,7 @@
 }
 
 .shifting-name {
-  animation:
-    bounce-and-move 3s infinite ease-in-out,
+  animation: bounce-and-move 3s infinite ease-in-out,
     rainbow 5s infinite ease-in-out;
 }
 

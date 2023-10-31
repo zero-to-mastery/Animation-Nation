@@ -41,8 +41,7 @@ html {
   z-index: 3;
   top: 10px;
   right: 10px;
-  box-shadow:
-    rgba(17, 17, 26, 0.05) 0px 1px 0px,
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
     rgba(47, 47, 48, 0.1) 0px 0px 8px;
   border: 2px solid #3a3a3a;
 }
@@ -57,8 +56,7 @@ html {
   transform: rotate(45deg);
   top: -10px;
   right: 85px;
-  box-shadow:
-    rgba(17, 17, 26, 0.05) 0px 1px 0px,
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
     rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
 
@@ -117,8 +115,7 @@ html {
   border-radius: 4px;
   z-index: 5;
   border: 2px solid #3a3a3a;
-  box-shadow:
-    rgba(17, 17, 26, 0.05) 0px 1px 0px,
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
     rgba(47, 47, 48, 0.1) 0px 0px 8px;
 }
 
@@ -134,8 +131,7 @@ html {
   background-color: #fff;
   border-radius: 100%;
   overflow: hidden;
-  box-shadow:
-    rgba(17, 17, 26, 0.05) 0px 1px 0px,
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
     rgba(17, 17, 26, 0.1) 0px 0px 8px;
   animation: rotate 5s linear infinite;
 }

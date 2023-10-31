@@ -70,11 +70,8 @@
   background-color: #565350;
   border-radius: 50%;
   top: 1.87em;
-  box-shadow:
-    5.62em 3.12em 0 0.75em #565350,
-    2.18em 4.68em 0 -0.3em #565350,
-    6.25em -1.87em 0 -0.18em #565350,
-    3.43em 0.3em 0 -0.5em #565350;
+  box-shadow: 5.62em 3.12em 0 0.75em #565350, 2.18em 4.68em 0 -0.3em #565350,
+    6.25em -1.87em 0 -0.18em #565350, 3.43em 0.3em 0 -0.5em #565350;
 }
 .blush {
   height: 2.62em;

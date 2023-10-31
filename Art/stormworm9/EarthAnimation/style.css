@@ -1,48 +1,48 @@
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #000;
-    perspective: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000;
+  perspective: 1000px;
 }
 
 .solar-system {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    transform-style: preserve-3d;
-    animation: rotateEarth 10s linear infinite;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotateEarth 10s linear infinite;
 }
 
 .sun {
-    width: 100px;
-    height: 100px;
-    background: radial-gradient(circle, #ffdb4d, transparent);
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, #ffdb4d, transparent);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .earth {
-    width: 30px;
-    height: 30px;
-    background: #0b24fb;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) translateX(150px);
+  width: 30px;
+  height: 30px;
+  background: #0b24fb;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateX(150px);
 }
 
 @keyframes rotateEarth {
-    0% {
-        transform: translate(-50%, -50%) translateX(150px) rotate(0deg);
-    }
-    100% {
-        transform: translate(-50%, -50%) translateX(150px) rotate(360deg);
-    }
+  0% {
+    transform: translate(-50%, -50%) translateX(150px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateX(150px) rotate(360deg);
+  }
 }

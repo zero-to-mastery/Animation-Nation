@@ -13,9 +13,7 @@ body {
   height: 50px;
   border-radius: 50%;
   position: absolute;
-  animation:
-    bounce 2s infinite,
-    changeColor 4s infinite;
+  animation: bounce 2s infinite, changeColor 4s infinite;
 }
 
 .ball:nth-child(2) {
