@@ -2707,8 +2707,15 @@ let cards = [
   },
   {
     artName: 'Cloud',
-    pageLink: './Art/archana423/index.html',
-    imageLink: './Art/archana423/cloud.gif',
+    pageLink: './Art/archana423/Cloud/index.html',
+    imageLink: './Art/archana423/Cloud/cloud.gif',
+    author: 'Archana',
+    githubLink: 'https://github.com/archana423'
+  },
+  {
+    artName: 'MoonNight',
+    pageLink: './Art/archana423/Moon night/index.html',
+    imageLink: './Art/archana423/Moon night/MoonNight.gif',
     author: 'Archana',
     githubLink: 'https://github.com/archana423'
   },
