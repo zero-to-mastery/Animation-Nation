@@ -1,0 +1,154 @@
+body {
+    background-color: #84a5ab;
+    padding: 150px;
+  }
+  
+  .floor-indicator {
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+      justify-content: center;
+      height: 80px;
+  }
+  
+  .indicator {
+      width: 40px;
+      height: 40px;
+      background-color: #e6e4db;
+      border-radius: 50%;
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #1d1802;
+      font-weight: bold;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .indicator:nth-child(1) {
+      animation: illuminate 1s ease-in;
+      animation-delay: 4s;
+  }
+  
+  .indicator:nth-child(2) {
+      animation: illuminate 1s ease-in;
+      animation-delay: 5s;
+  }
+  
+  .indicator:nth-child(3) {
+      animation: illuminate 1s ease-in;
+      animation-delay: 6s;
+  }
+  
+  .indicator:nth-child(4) {
+      animation: illuminate 1s ease-in;
+      animation-delay: 7s;
+  }
+  
+  .indicator:nth-child(5) {
+      animation: illuminate 1s ease-in;
+      animation-delay: 8s;
+  }
+  
+  .indicator:nth-child(6) {
+      animation: illuminate 1s ease-in;
+      animation-delay: 9s;
+  }
+  
+  .indicator:nth-child(7) {
+      animation: illuminate 1s ease-in;
+      animation-delay: 10s;
+  }
+  
+  .indicator:nth-child(8) {
+      animation: illuminate 1s ease-in;
+      animation-delay: 11s;
+  }
+  
+  .indicator:nth-child(9) {
+      animation: illuminate 1s ease-in;
+      animation-delay: 12s;
+  }
+  
+  .indicator:nth-child(10) {
+      animation: illuminate 1s ease-in forwards;
+      animation-delay: 13s;
+  }
+  
+  @keyframes illuminate {
+    from {background: #e6e4db; color: #1d1802; box-shadow:
+      0 0 10px 3px #fef7d7,
+      0 0 50px 6px #fefcd7,
+      0 0 90px 9px #fef769;}
+    to {background: #ffdd33; color: #d3bd00; box-shadow:
+      0 0 10px 3px #fef7d7,
+      0 0 50px 6px #fefcd7,
+      0 0 90px 9px #fef769;}
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+  }
+  
+  .door-frame {
+    width: 450px;
+    height: 400px;
+    border: 2px solid #000;
+    display: flex;
+  }
+  
+  #view {
+    background-size: cover;
+    animation: transit 20s steps(3, jump-none);
+  }
+  
+  @keyframes transit {
+      0% {background-image: url('/Art/deverestHood/sven-mieke-Zj6bUfkThFM-unsplash.jpg')}
+      100% {background-image: url('/Art/deverestHood/thestandingdesk-7OPkQBNVl9A-unsplash.jpg')};
+  }
+  
+  .left-door {
+    width: 225px;
+    height: 400px;
+    border: 2px solid #000;
+    background: linear-gradient(0.25turn, #424242, #ebf8e1, #e3e3e3);
+    animation: open 3s linear, close 3s linear 3s, open 3s linear 12s forwards;
+    transform-origin: left;
+  }
+  
+  .right-door {
+    width: 225px;
+    height: 400px;
+    border: 2px solid #000;
+    background: linear-gradient(0.25turn, #e3e3e3, #ebf8e1, #424242);
+    animation: open 3s linear, close 3s linear 3s, open 3s linear 12s forwards;
+    transform-origin: right;
+  }
+  
+  @keyframes open {
+      0% {
+          transform: scaleX(1);
+      }
+      50% {
+          transform: scaleX(1.05);
+      }
+      100% {
+          transform: scaleX(0);
+      }
+  }
+  
+  @keyframes close {
+      0% {
+          transform: scaleX(0);
+      }
+      50% {
+          transform: scaleX(1.05);
+      }
+      100% {
+          transform: scaleX(1);
+      }
+  }
+  

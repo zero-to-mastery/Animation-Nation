@@ -1,0 +1,413 @@
+:root {
+    --background-color: #1b1b2c;
+    --main-color: #0ff;
+    --meeting-point-color: #7fffff;
+  
+    --canvas-size: 68vmin;
+    --canvas-max-size: 500px;
+  
+    --circle-size: 8vmin;
+  
+    --corner-size-large: 20vmin;
+    --corner-size-medium: 16vmin;
+    --corner-size-small: 12vmin;
+  
+    --corner-side-size-width: 1.5vmin;
+    --corner-side-size-height: 1.5vmin;
+  
+    --animation-duration: 3000ms;
+  }
+  
+  body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: var(--background-color);
+  }
+  
+  .canvas {
+    width: var(--canvas-size);
+    height: var(--canvas-size);
+    max-width: var(--canvas-max-size);
+    max-height: var(--canvas-max-size);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    position: relative;
+  }
+  
+  .ninth {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cornersWrapper {
+    position: absolute;
+    z-index: 1;
+    mix-blend-mode: plus-lighter;
+  }
+  
+  .ninth:nth-child(1) .cornersWrapper {
+    bottom: 0;
+    right: 0;
+  }
+  .ninth:nth-child(2) .cornersWrapper {
+    bottom: 0;
+    left: 50%;
+    transform: rotate(45deg);
+  }
+  .ninth:nth-child(3) .cornersWrapper {
+    bottom: 0;
+    transform: rotate(90deg);
+  }
+  .ninth:nth-child(4) .cornersWrapper {
+    top: 50%;
+    right: 0;
+    transform: rotate(315deg);
+  }
+  .ninth:nth-child(6) .cornersWrapper {
+    top: 50%;
+    transform: rotate(135deg);
+  }
+  .ninth:nth-child(7) .cornersWrapper {
+    right: 0;
+    transform: rotate(270deg);
+  }
+  .ninth:nth-child(8) .cornersWrapper {
+    left: 50%;
+    transform: rotate(225deg);
+  }
+  .ninth:nth-child(9) .cornersWrapper {
+    transform: rotate(180deg);
+  }
+  
+  .corner {
+    position: absolute;
+  }
+  .corner.is-large {
+    width: var(--corner-size-large);
+    height: var(--corner-size-large);
+    bottom: 0;
+    right: 0;
+  }
+  .corner.is-medium {
+    width: var(--corner-size-medium);
+    height: var(--corner-size-medium);
+    opacity: 0.35;
+    bottom: 4vmin;
+    right: 4vmin;
+  }
+  .corner.is-small {
+    width: var(--corner-size-small);
+    height: var(--corner-size-small);
+    bottom: 8vmin;
+    right: 8vmin;
+  }
+  .corner::before,
+  .corner::after {
+    content: "";
+    position: absolute;
+  }
+  .corner::before {
+    width: var(--corner-side-size-width);
+    height: 100%;
+    right: 0;
+    background: linear-gradient(transparent, var(--main-color) 50%);
+  }
+  .corner::after {
+    width: 100%;
+    height: var(--corner-side-size-height);
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, var(--main-color) 50%);
+  }
+  
+  .circle {
+    position: absolute;
+    width: var(--circle-size);
+    height: var(--circle-size);
+    background-color: var(--main-color);
+    border-radius: 50%;
+    box-shadow: 0 0 20px var(--main-color);
+  }
+  
+  @keyframes move-circle-first {
+    0%,
+    100% {
+      top: 0;
+      left: 0;
+      transform: scale(0) translate(0%, 0%);
+    }
+    20% {
+      top: 0;
+      left: 0;
+      transform: scale(1) translate(0%, 0%);
+      opacity: 1;
+    }
+    85% {
+      top: 50%;
+      left: 50%;
+      transform: scale(1) translate(-50%, -50%);
+      opacity: 0.75;
+    }
+    95% {
+      top: calc(50% - var(--circle-size) / 2);
+      left: calc(50% - var(--circle-size) / 2);
+      transform: scale(0) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }
+  .circle.is-first {
+    top: 0;
+    left: 0;
+    transform: scale(0) translate(0%, 0%);
+    animation: move-circle-first var(--animation-duration) ease-in-out infinite;
+  }
+  
+  @keyframes move-circle-second {
+    0%,
+    100% {
+      top: calc(-1 * var(--circle-size) / 2);
+      left: calc(50% - var(--circle-size) / 2);
+      transform: scale(0) translate(-50%, -80%);
+    }
+    20% {
+      top: 0;
+      left: 50%;
+      transform: scale(1) translate(-50%, -80%);
+      opacity: 1;
+    }
+    85% {
+      top: 50%;
+      left: 50%;
+      transform: scale(1) translate(-50%, -50%);
+      opacity: 0.75;
+    }
+    95% {
+      top: calc(50% - var(--circle-size) / 2);
+      left: calc(50% - var(--circle-size) / 2);
+      transform: scale(0) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }
+  .circle.is-second {
+    top: 0;
+    left: 50%;
+    transform: scale(0) translate(-50%, -80%);
+    animation: move-circle-second var(--animation-duration) ease-in-out infinite;
+    animation-delay: calc(var(--animation-duration) * 0.4);
+  }
+  
+  @keyframes move-circle-third {
+    0%,
+    100% {
+      top: 0;
+      right: 0;
+      transform: scale(0) translate(0%, 0%);
+    }
+    20% {
+      top: 0;
+      right: 0;
+      transform: scale(1) translate(0%, 0%);
+      opacity: 1;
+    }
+    85% {
+      top: 50%;
+      right: 50%;
+      transform: scale(1) translate(50%, -50%);
+      opacity: 0.75;
+    }
+    95% {
+      top: calc(50% - var(--circle-size) / 2);
+      right: calc(50% - var(--circle-size) / 2);
+      transform: scale(0) translate(50%, -50%);
+      opacity: 0;
+    }
+  }
+  .circle.is-third {
+    top: 0;
+    right: 0;
+    transform: scale(0) translate(0%, 0%);
+    animation: move-circle-third var(--animation-duration) ease-in-out infinite;
+  }
+  
+  @keyframes move-circle-fourth {
+    0%,
+    100% {
+      top: calc(50% - var(--circle-size) / 2);
+      left: calc(-1 * var(--circle-size) / 2);
+      transform: scale(0) translate(-80%, -50%);
+    }
+    20% {
+      top: 50%;
+      left: 0;
+      transform: scale(1) translate(-80%, -50%);
+      opacity: 1;
+    }
+    85% {
+      top: 50%;
+      left: 50%;
+      transform: scale(1) translate(-50%, -50%);
+      opacity: 0.75;
+    }
+    95% {
+      top: calc(50% - var(--circle-size) / 2);
+      left: calc(50% - var(--circle-size) / 2);
+      transform: scale(0) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }
+  .circle.is-fourth {
+    top: 50%;
+    left: 0;
+    transform: scale(0) translate(-80%, -50%);
+    animation: move-circle-fourth var(--animation-duration) ease-in-out infinite;
+    animation-delay: calc(var(--animation-duration) * 0.4);
+  }
+  
+  @keyframes move-circle-fifth {
+    0%,
+    100% {
+      top: calc(50% - var(--circle-size) / 2);
+      right: calc(-1 * var(--circle-size) / 2);
+      transform: scale(0) translate(80%, -50%);
+    }
+    20% {
+      top: 50%;
+      right: 0;
+      transform: scale(1) translate(80%, -50%);
+      opacity: 1;
+    }
+    85% {
+      top: 50%;
+      right: 50%;
+      transform: scale(1) translate(50%, -50%);
+      opacity: 0.75;
+    }
+    95% {
+      top: calc(50% - var(--circle-size) / 2);
+      right: calc(50% - var(--circle-size) / 2);
+      transform: scale(0) translate(50%, -50%);
+      opacity: 0;
+    }
+  }
+  .circle.is-fifth {
+    top: 50%;
+    right: 0;
+    transform: scale(0) translate(80%, -50%);
+    animation: move-circle-fifth var(--animation-duration) ease-in-out infinite;
+    animation-delay: calc(var(--animation-duration) * 0.4);
+  }
+  
+  @keyframes move-circle-sixth {
+    0%,
+    100% {
+      bottom: 0;
+      left: 0;
+      transform: scale(0) translate(0%, 0%);
+    }
+    20% {
+      bottom: 0;
+      left: 0;
+      transform: scale(1) translate(0%, 0%);
+      opacity: 1;
+    }
+    85% {
+      bottom: 50%;
+      left: 50%;
+      transform: scale(1) translate(-50%, 50%);
+      opacity: 0.75;
+    }
+    95% {
+      bottom: calc(50% - var(--circle-size) / 2);
+      left: calc(50% - var(--circle-size) / 2);
+      transform: scale(0) translate(-50%, 50%);
+      opacity: 0;
+    }
+  }
+  .circle.is-sixth {
+    bottom: 0;
+    left: 0;
+    transform: scale(0) translate(0%, 0%);
+    animation: move-circle-sixth var(--animation-duration) ease-in-out infinite;
+  }
+  
+  @keyframes move-circle-seventh {
+    0%,
+    100% {
+      bottom: calc(-1 * var(--circle-size) / 2);
+      left: calc(50% - var(--circle-size) / 2);
+      transform: scale(0) translate(-50%, 80%);
+    }
+    20% {
+      bottom: 0;
+      left: 50%;
+      transform: scale(1) translate(-50%, 80%);
+      opacity: 1;
+    }
+    85% {
+      bottom: 50%;
+      left: 50%;
+      transform: scale(1) translate(-50%, 50%);
+      opacity: 0.75;
+    }
+    95% {
+      bottom: calc(50% - var(--circle-size) / 2);
+      left: calc(50% - var(--circle-size) / 2);
+      transform: scale(0) translate(-50%, 50%);
+      opacity: 0;
+    }
+  }
+  .circle.is-seventh {
+    bottom: 0;
+    left: 50%;
+    transform: scale(0) translate(-50%, 80%);
+    animation: move-circle-seventh var(--animation-duration) ease-in-out infinite;
+    animation-delay: calc(var(--animation-duration) * 0.4);
+  }
+  
+  @keyframes move-circle-eighth {
+    0%,
+    100% {
+      bottom: 0;
+      right: 0;
+      transform: scale(0) translate(0%, 0%);
+    }
+    20% {
+      bottom: 0;
+      right: 0;
+      transform: scale(1) translate(0%, 0%);
+      opacity: 1;
+    }
+    85% {
+      bottom: 50%;
+      right: 50%;
+      transform: scale(1) translate(50%, 50%);
+      opacity: 0.75;
+    }
+    95% {
+      bottom: calc(50% - var(--circle-size) / 2);
+      right: calc(50% - var(--circle-size) / 2);
+      transform: scale(0) translate(50%, 50%);
+      opacity: 0;
+    }
+  }
+  .circle.is-eighth {
+    bottom: 0;
+    right: 0;
+    transform: scale(0) translate(0%, 0%);
+    animation: move-circle-eighth var(--animation-duration) ease-in-out infinite;
+  }
+  
+  .meetingPoint {
+    width: 12vmin;
+    height: 12vmin;
+    border-radius: 50%;
+    border: solid 1.5vmin var(--meeting-point-color);
+    filter: drop-shadow(0 0 30px var(--main-color));
+    mix-blend-mode: plus-lighter;
+    position: absolute;
+    inset: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

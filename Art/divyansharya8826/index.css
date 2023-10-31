@@ -1,0 +1,23 @@
+@keyframes ani
+{
+    0%{background-color: black; left: 0; top: 0;}
+    25%{background-color: aqua; left: 30px; top: 30px;}
+    50%{background-color: blanchedalmond;left: 60px; top: 60px;}
+    75%{background-color: blue; left: 90px; top: 90px;}
+    100%{background-color: red; left: 120px; top: 120px;}
+}
+#sqr
+{
+    background-color:aqua;
+    margin: 20px 30px;
+    width: 100px;
+    height: 100px;
+    transition-property: width height background-color;
+    transition-duration: 2s;
+    animation: ani 20s infinite;
+    position: absolute;
+}
+#sqr:hover{
+    width: 200px;
+    height: 200px;
+}
