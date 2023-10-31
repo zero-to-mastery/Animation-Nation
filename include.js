@@ -5,7 +5,7 @@ let cards = [
     imageLink: './Art/stormworm9/CubeAnimation/CubeAnimation.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9
-   }
+   },
    {
     artName: 'RingAnimation',
     pageLink: './Art/stormworm9/RingAnimation/ring.html',
