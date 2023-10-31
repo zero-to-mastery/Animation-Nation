@@ -14,10 +14,10 @@ let cards = [
     githubLink: 'https://github.com/lio2011'
   },
   {
-    artName: 'Three Line oscillation Vertical ', 
-    pageLink: './Art/varadtote/three_line_oscillation_vertical.html', 
-    imageLink: './Art/varadtote/three_line_oscillation_vertical.gif', 
-    author: 'Varad Tote', 
+    artName: 'Three Line oscillation Vertical ',
+    pageLink: './Art/varadtote/three_line_oscillation_vertical.html',
+    imageLink: './Art/varadtote/three_line_oscillation_vertical.gif',
+    author: 'Varad Tote',
     githubLink: 'https://github.com/varadtote'
   },
   {
@@ -41,6 +41,7 @@ let cards = [
     author: 'Krish Gautam',
     githubLink: 'https://github.com/Kris248'
   },
+  
   {
     artName: 'Ball Animation',
     pageLink: './Art/daemonvk18/animation..html',
@@ -108,6 +109,13 @@ let cards = [
     artName: 'LoopLamina',
     pageLink: './Art/manishjha-04/LoopLamina/index.html',
     imageLink: './Art/manishjha-04/LoopLamina/Looplamina.gif',
+    author: 'Manish Jha',
+    githubLink: 'https://github.com/manishjha-04'
+  },
+    {
+    artName: 'MeetingPoint',
+    pageLink: './Art/manishjha-04/Meeting Point/index.html',
+    imageLink: './Art/manishjha-04/Meeting Point/Meetingpoint.gif',
     author: 'Manish Jha',
     githubLink: 'https://github.com/manishjha-04'
   },
@@ -467,6 +475,13 @@ let cards = [
     artName: 'Shining-Stars',
     pageLink: './Art/Ornitcg/Stars/index.html',
     imageLink: './Art/Ornitcg/Stars/stars.gif',
+    author: 'Ornitcg',
+    githubLink: 'https://github.com/ornitcg'
+  },
+  {
+    artName: 'Flying-Baloon',
+    pageLink: './Art/Ornitcg/baloon/index.html',
+    imageLink: './Art/Ornitcg/baloon/baloon.gif',
     author: 'Ornitcg',
     githubLink: 'https://github.com/ornitcg'
   },
@@ -2335,8 +2350,8 @@ let cards = [
   },
   {
     artName: 'Glowing Moon',
-    pageLink: './Art/claire-ca/index.html',
-    imageLink: './Art/claire-ca/glowing-moon.gif',
+    pageLink: './Art/claire-ca/glowing-moon/index.html',
+    imageLink: './Art/claire-ca/glowing-moon/glowing-moon.gif',
     author: 'Claire Calder',
     githubLink: 'https://github.com/claire-ca'
   },
@@ -2593,11 +2608,25 @@ let cards = [
     githubLink: 'https://github.com/milesjorg'
   },
   {
+      artName: 'Square color changing animation',
+      pagelink: './Art/divyansharya8826/index.html',
+      imageLink: './Art/divyansharya8826/Square.gif',
+      author: 'divyansharya8826',
+      githubLink: 'https://github.com/divyansharya8826'
+  },
+  {
     artName: 'Arrows',
     pageLink: './Art/rudrakushwaha/index.html',
     imageLink: './Art/rudrakushwaha/arrows.gif',
     author: 'Rudraksh',
     githubLink: 'https://github.com/rudrakushwaha'
+  },
+  {
+    artName: 'Smiling Pumpkin Animation',
+    pageLink: './Art/Suparnaen/smiling_pumpkin.html',
+    imageLink: 'Art/Suparnaen/smiling-pumpkin-animation.gif',
+    author: 'Suparna Das',
+    githubLink: 'https://github.com/Suparnaen'
   },
   {
     artName: 'Bouncing Balls with colour change',
@@ -2677,12 +2706,40 @@ let cards = [
     githubLink: 'https://github.com/archana423'
   },
   {
+    artName: 'City Sunset',
+    pageLink: './Art/claire-ca/city-sunset/index.html',
+    imageLink: './Art/claire-ca/city-sunset/city-sunset.gif',
+    author: 'Claire Calder',
+    githubLink: 'https://github.com/claire-ca'
+  },
+  {
     artName: 'Ping Pong',
     pageLink: './Art/JeevaRamanathan/index.html',
     imageLink: './Art/JeevaRamanathan/ping-pong.gif',
     author: 'Jeeva Ramanathan',
     githubLink: 'https://github.com/JeevaRamanathan'
   },
+  {
+    artName: 'Box Color Changing',
+    pageLink: './Art/cpasigna90/boxcolorchange.html',
+    imageLink: './Art/cpasigna90/animationColorBox.gif',
+    author: 'Christian',
+    githubLink: 'https://github.com/cpasigna90'
+  },
+  {
+    artName: 'Moving square that changes color',
+    pageLink: './Art/Piyush_Luitel/index.html',
+    imageLink: './Art/Piyush_Luitel/index.gif',
+    author: 'Piyush_Luitel',
+    githubLink: 'https://github.com/PiyushLuitel-07'
+  }
+  ,{
+    artName: 'Kinetic Loading',
+    pageLink: './Art/urjabahad/kinetic_loading.html', 
+    imageLink: './Art/urjabahad/kinetic_loading.gif', 
+    author: 'Urja', 
+    githubLink: 'https://github.com/urjabahad'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -2707,14 +2764,14 @@ function shuffle(o) {
 const getCardContents = (cardList) => {
   return shuffle(cardList).map((c) => [
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 };
 
