@@ -1,4 +1,11 @@
 let cards = [
+   {
+    artName: 'RingAnimation',
+    pageLink: './Art/stormworm9/RingAnimation/ring.html',
+    imageLink: './Art/stormworm9/RingAnimation/ring.gif',
+    author: 'stormworm9',
+    githubLink: 'https://github.com/stormworm9'
+  },
   {
     artName: 'Elevator Ride',
     pageLink: './Art/deverestHood/index.html',
