@@ -14,6 +14,27 @@ let cards = [
     githubLink: 'https://github.com/SaumyaKumar-09'
   },
   {
+    artName: 'Windows start animation',
+    pageLink: './Art/SaumyaKumar-09/Animation%202/index.html',
+    imageLink: './Art/SaumyaKumar-09/Animation%202/Animation2.gif',
+    author: 'SaumyaKumar-09',
+    githubLink: 'https://github.com/SaumyaKumar-09'
+  },
+  {
+    artName: 'Attractive Sqaure Animation',
+    pageLink: './Art/SaumyaKumar-09/Animation%203/index.html',
+    imageLink: './Art/SaumyaKumar-09/Animation%203/Animation3.gif',
+    author: 'SaumyaKumar-09',
+    githubLink: 'https://github.com/SaumyaKumar-09'
+  },
+  {
+    artName: 'Loading Page',
+    pageLink: './Art/SaumyaKumar-09/Animation%204/index.html',
+    imageLink: './Art/SaumyaKumar-09/Animation%204/Animation4.gif',
+    author: 'SaumyaKumar-09',
+    githubLink: 'https://github.com/SaumyaKumar-09'
+  },
+  {
     artName: 'Elevator Ride',
     pageLink: './Art/deverestHood/index.html',
     imageLink: './Art/deverestHood/elevator-ride.gif',
