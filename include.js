@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Balls pattern movement alongwith its shadow',
+    pageLink: './Art/SaumyaKumar-09/Animation%205/index.html',
+    imageLink: './Art/SaumyaKumar-09/Animation%205/Animation5.gif',
+    author: 'SaumyaKumar-09',
+    githubLink: 'https://github.com/SaumyaKumar-09'
+  },
+  {
     artName: 'Windows start animation',
     pageLink: './Art/SaumyaKumar-09/Animation%202/index.html',
     imageLink: './Art/SaumyaKumar-09/Animation%202/Animation2.gif',
