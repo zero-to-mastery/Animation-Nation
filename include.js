@@ -5,7 +5,14 @@ let cards = [
     imageLink: './Art/stormworm9/RingAnimation/ring.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
-  },
+  }
+  {
+    artName: 'TriangleProjection',
+    pageLink: './Art/stormworm9/TriangleProjection/projection.html',
+    imageLink: './Art/stormworm9/TriangleProjection/TriangleProjection.gif',
+    author: 'stormworm9',
+    githubLink: 'https://github.com/stormworm9'
+  }, 
   {
     artName: 'Elevator Ride',
     pageLink: './Art/deverestHood/index.html',
