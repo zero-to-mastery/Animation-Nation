@@ -1,8 +1,8 @@
 let cards = [
    {
     artName: 'Earth',
-    pageLink: './Art/stormworm9/Earth/Earth.html',
-    imageLink: './Art/stormworm9/Earth/earth.gif',
+    pageLink: './Art/stormworm9/EarthAnimation/Earth.html',
+    imageLink: './Art/stormworm9/EarthAnimation/earth.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9
    },
