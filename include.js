@@ -2725,6 +2725,13 @@ let cards = [
     imageLink: './Art/urjabahad/kinetic_loading.gif', 
     author: 'Urja', 
     githubLink: 'https://github.com/urjabahad'
+  },
+  {
+    artName: '3D Box Animation',
+    pageLink: './Art/Bhavna2003/3DboxAnimation/index.html',
+    imageLink: './Art/Bhavna2003/3DboxAnimation/3Dbox.gif',
+    author: 'Bhavna',
+    githubLink: 'https://github.com/Bhavna2003'
   }
 ];
 
