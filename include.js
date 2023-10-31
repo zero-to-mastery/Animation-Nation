@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/stormworm9'
   },
   {
+    artName: 'Loading Page',
+    pageLink: './Art/SaumyaKumar-09/Animation%204/index.html',
+    imageLink: './Art/SaumyaKumar-09/Animation%204/Animation4.gif',
+    author: 'SaumyaKumar-09',
+    githubLink: 'https://github.com/SaumyaKumar-09'
+  },
+  {
     artName: 'Elevator Ride',
     pageLink: './Art/deverestHood/index.html',
     imageLink: './Art/deverestHood/elevator-ride.gif',
