@@ -40,8 +40,15 @@ body {
 @keyframes animate {
   0% {
     transform: rotate(0deg) scale(1);
-    box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #0fa,
-      0 0 45px #0fa, 0 0 55px #0fa, 0 0 70px #0fa, 0 0 80px #0fa;
+    box-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #0fa,
+      0 0 45px #0fa,
+      0 0 55px #0fa,
+      0 0 70px #0fa,
+      0 0 80px #0fa;
     width: 500px;
   }
   50% {

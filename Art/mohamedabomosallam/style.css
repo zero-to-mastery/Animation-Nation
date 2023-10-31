@@ -15,7 +15,9 @@ body {
   margin-left: 25px;
   background-color: white;
   border-radius: 6px/10px;
-  box-shadow: 0px 0px 10px, 0px 0px 2px inset;
+  box-shadow:
+    0px 0px 10px,
+    0px 0px 2px inset;
   transform: scale(2) rotate(-45deg) scale(-1, 1);
   animation: glow 1.5s linear infinite;
 }
@@ -57,7 +59,9 @@ body {
       orange 7px,
       transparent 7px
     );
-  box-shadow: 1px 25px 0px 0px #555, 2px 25px 0px 0px silver,
+  box-shadow:
+    1px 25px 0px 0px #555,
+    2px 25px 0px 0px silver,
     2px 25px 0px 1px #222;
 }
 

@@ -17,8 +17,12 @@ body {
   width: 3px;
   height: 3px;
   border-radius: 50%; /* Makes it a circle */
-  box-shadow: 0 0 20px 2px #fff, 0 0 40px 4px #fff, 0 0 60px 6px #fff,
-    0 0 80px 8px #fff, 0 0 100px 10px rgba(255, 255, 255, 0.5);
+  box-shadow:
+    0 0 20px 2px #fff,
+    0 0 40px 4px #fff,
+    0 0 60px 6px #fff,
+    0 0 80px 8px #fff,
+    0 0 100px 10px rgba(255, 255, 255, 0.5);
   position: fixed;
 }
 /*each star (star1, star2, star3) have different white color to make them look different distance*/
@@ -28,14 +32,22 @@ body {
 .star2 {
   background-color: #eee; /* Color of the "star" */
   animation-duration: 45s;
-  box-shadow: 0 0 15px 1px #fff, 0 0 30px 3px #fff, 0 0 45px 5px #fff,
-    0 0 60px 6px #fff, 0 0 75px 8px rgba(255, 255, 255, 0.5);
+  box-shadow:
+    0 0 15px 1px #fff,
+    0 0 30px 3px #fff,
+    0 0 45px 5px #fff,
+    0 0 60px 6px #fff,
+    0 0 75px 8px rgba(255, 255, 255, 0.5);
 }
 .star3 {
   background-color: #ddd; /* Color of the "star" */
   animation-duration: 60s;
-  box-shadow: 0 0 10px 1px #fff, 0 0 20px 2px #fff, 0 0 30px 3px #fff,
-    0 0 40px 4px #fff, 0 0 50px 5px rgba(255, 255, 255, 0.5);
+  box-shadow:
+    0 0 10px 1px #fff,
+    0 0 20px 2px #fff,
+    0 0 30px 3px #fff,
+    0 0 40px 4px #fff,
+    0 0 50px 5px rgba(255, 255, 255, 0.5);
 }
 
 .anim-moving {

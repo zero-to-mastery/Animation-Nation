@@ -11,15 +11,14 @@ body {
   height: 100vh;
 }
 
-.ring-logo 
-{
+.ring-logo {
   display: flex;
 }
 .ring {
   width: 100px;
   height: 100px;
   background-color: transparent;
-  border: 15px dashed; 
+  border: 15px dashed;
   border-radius: 50%;
   position: relative;
   animation: fallAndRotate 4s alternate-reverse infinite;
@@ -30,19 +29,19 @@ body {
 .blue {
   border-color: blue;
   animation-delay: 0s;
-  transform: translateX(-100px) translateY(-100px); 
+  transform: translateX(-100px) translateY(-100px);
 }
 
 .yellow {
   border-color: yellow;
   animation-delay: 0s;
-  transform: translateX(100px) translateY(-100px); 
+  transform: translateX(100px) translateY(-100px);
 }
 
 .black {
   border-color: black;
   animation-delay: 0s;
-  transform: translateY(-100px); 
+  transform: translateY(-100px);
 }
 
 .green {
@@ -58,7 +57,7 @@ body {
 
 @keyframes fallAndRotate {
   0% {
-    transform: translateY(0) rotate(10deg); 
+    transform: translateY(0) rotate(10deg);
   }
   100% {
     transform: translateY(250px) rotate(360deg);

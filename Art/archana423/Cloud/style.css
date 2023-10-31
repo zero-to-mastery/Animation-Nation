@@ -26,7 +26,7 @@
 }
 .cloud:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 10.62em;
   width: 10.62em;
   background-color: #f5f5f5;
@@ -36,7 +36,7 @@
 }
 .cloud:after {
   position: absolute;
-  content: "";
+  content: '';
   height: 6.25em;
   width: 6.25em;
   background-color: #f5f5f5;
@@ -64,14 +64,17 @@
 }
 .moon:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 1.87em;
   width: 1.87em;
   background-color: #565350;
   border-radius: 50%;
   top: 1.87em;
-  box-shadow: 5.62em 3.12em 0 0.75em #565350, 2.18em 4.68em 0 -0.3em #565350,
-    6.25em -1.87em 0 -0.18em #565350, 3.43em 0.3em 0 -0.5em #565350;
+  box-shadow:
+    5.62em 3.12em 0 0.75em #565350,
+    2.18em 4.68em 0 -0.3em #565350,
+    6.25em -1.87em 0 -0.18em #565350,
+    3.43em 0.3em 0 -0.5em #565350;
 }
 .blush {
   height: 2.62em;
@@ -96,7 +99,7 @@
 .eye-l:before,
 .eye-r:before {
   position: absolute;
-  content: "";
+  content: '';
   background-color: #f5f5f5;
   height: 0.81em;
   width: 1.25em;
@@ -130,7 +133,7 @@
 }
 .star:before {
   position: absolute;
-  content: "";
+  content: '';
   background-color: rgba(240, 216, 21, 0.4);
   height: 0.31em;
   width: 0.31em;

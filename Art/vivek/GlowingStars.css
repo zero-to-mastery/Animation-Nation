@@ -25,7 +25,11 @@ body {
   position: absolute;
   transform-origin: 150px;
   transform: rotate(calc(var(--i) * 10deg));
-  text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua;
+  text-shadow:
+    0 0 10px aqua,
+    0 0 20px aqua,
+    0 0 30px aqua,
+    0 0 40px aqua;
 }
 
 .container span i {

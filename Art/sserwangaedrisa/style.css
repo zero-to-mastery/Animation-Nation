@@ -19,7 +19,9 @@ html {
   height: 50px;
   border-radius: 50%;
   position: absolute;
-  animation: moveIn 2s forwards, moveOut 2s forwards;
+  animation:
+    moveIn 2s forwards,
+    moveOut 2s forwards;
   animation-iteration-count: infinite;
 }
 

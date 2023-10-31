@@ -54,7 +54,9 @@ img {
   overflow: hidden;
   transform: 0.5s;
   border: 1px solid white;
-  box-shadow: 0 0 0 4px black, 0 0 0 6px white;
+  box-shadow:
+    0 0 0 4px black,
+    0 0 0 6px white;
   transform: rotate(calc(360deg / 5 * var(--i)));
   transform-origin: 270px;
   z-index: 100;
@@ -62,7 +64,9 @@ img {
 }
 
 .container .icon .imgbox.active {
-  box-shadow: 0 0 0 3px black, 0 0 0 6px red;
+  box-shadow:
+    0 0 0 3px black,
+    0 0 0 6px red;
 }
 
 .container .icon .imgbox img {

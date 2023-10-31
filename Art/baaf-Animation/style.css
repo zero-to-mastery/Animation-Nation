@@ -42,7 +42,9 @@ body {
 }
 
 #name {
-  font-family: OCR A Std, monospace;
+  font-family:
+    OCR A Std,
+    monospace;
   margin-top: 25%;
   animation: rotateText 10s linear 2s infinite;
 }

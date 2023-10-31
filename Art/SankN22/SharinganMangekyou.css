@@ -96,7 +96,9 @@ body {
   position: relative;
 
   border: 5px #7d6f6f solid;
-  animation: spin 5s ease-in-out, shine 5s ease-in-out;
+  animation:
+    spin 5s ease-in-out,
+    shine 5s ease-in-out;
 }
 .sharingan {
   background: #e41414;
@@ -105,7 +107,10 @@ body {
   position: relative;
   border: 5px #000 solid;
   margin: 1.5rem auto;
-  animation: spin 5s ease-in-out, shine 5s ease-in-out, convert 5s ease-in-out;
+  animation:
+    spin 5s ease-in-out,
+    shine 5s ease-in-out,
+    convert 5s ease-in-out;
 }
 .mangekyou {
   background: #050505;
@@ -114,7 +119,9 @@ body {
   position: fixed;
 
   border: 5px #000 solid;
-  animation: spin 5s ease-in-out, fading 5s ease-in-out;
+  animation:
+    spin 5s ease-in-out,
+    fading 5s ease-in-out;
   animation-delay: 1ms;
 }
 

@@ -23,7 +23,7 @@ body {
   transform: rotate(-50deg);
 }
 .mountains:before {
-  content: "";
+  content: '';
   position: absolute;
   height: 5em;
   width: 8.75em;
@@ -33,7 +33,7 @@ body {
   transform: rotate(-90deg);
 }
 .mountains:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 6.25em;
   width: 11em;
@@ -58,11 +58,13 @@ body {
   left: 5.62em;
   top: 4.4em;
   border-radius: 50%;
-  box-shadow: 0 0 0 0.62em rgba(32, 105, 149, 0.6),
-    0 0 0 1.25em rgba(32, 105, 149, 0.5), 0 0 0 1.9em rgba(32, 105, 149, 0.4);
+  box-shadow:
+    0 0 0 0.62em rgba(32, 105, 149, 0.6),
+    0 0 0 1.25em rgba(32, 105, 149, 0.5),
+    0 0 0 1.9em rgba(32, 105, 149, 0.4);
 }
 .moon:before {
-  content: "";
+  content: '';
   position: absolute;
   background-color: #ebefe7;
   height: 0.62em;
@@ -72,7 +74,7 @@ body {
   left: 0.37em;
 }
 .moon:after {
-  content: "";
+  content: '';
   position: absolute;
   background-color: #ebefe7;
   height: 0.43em;
@@ -93,7 +95,7 @@ body {
 }
 .windmill:after {
   position: absolute;
-  content: "";
+  content: '';
   background-color: #041524;
   height: 0.62em;
   width: 1.25em;
@@ -101,7 +103,7 @@ body {
   border-radius: 1.25em 1.25em 0 0;
 }
 .windmill:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 1.5em;
   height: 0;
@@ -120,11 +122,12 @@ body {
   top: 0.75em;
   left: 0.5em;
   border-radius: 50%;
-  box-shadow: 0 0 0.06em 0.12em rgba(141, 175, 118, 0.3),
+  box-shadow:
+    0 0 0.06em 0.12em rgba(141, 175, 118, 0.3),
     0 0 0.06em 0.25em rgba(141, 175, 118, 0.2);
 }
 .light:before {
-  content: "";
+  content: '';
   position: absolute;
   background-color: #0f304f;
   height: 0.5em;
@@ -148,7 +151,7 @@ body {
 }
 .blades:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 100%;
   width: 0.5em;
   background-color: #041524;
@@ -156,7 +159,7 @@ body {
 }
 .blades:after {
   position: absolute;
-  content: "";
+  content: '';
   height: 100%;
   width: 0.5em;
   background-color: #041524;
@@ -184,13 +187,13 @@ body {
   left: 18.75em;
 }
 .star-1:before {
-  content: "";
+  content: '';
   top: 1.9em;
   left: -16.4em;
   animation-delay: 0.3s;
 }
 .star-1:after {
-  content: "";
+  content: '';
   left: -12.8em;
   top: 5em;
   animation-delay: 0.7s;
@@ -201,13 +204,13 @@ body {
   animation-delay: 0.2s;
 }
 .star-2:before {
-  content: "";
+  content: '';
   left: 2.5em;
   top: 8.75em;
   animation-delay: 0.9s;
 }
 .star-2:after {
-  content: "";
+  content: '';
   left: 7.5em;
   top: 6.25em;
   animation-delay: 0.35s;
@@ -218,7 +221,7 @@ body {
   animation-delay: 0.1s;
 }
 .star-3:before {
-  content: "";
+  content: '';
   top: 5em;
   left: -0.93em;
 }
@@ -251,7 +254,7 @@ body {
   left: 3.12em;
 }
 .tree:before {
-  content: "";
+  content: '';
   position: absolute;
   border-bottom: 1.56em solid #041524;
   border-left: 0.37em solid transparent;

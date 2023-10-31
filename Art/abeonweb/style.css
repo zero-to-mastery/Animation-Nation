@@ -29,15 +29,21 @@ body {
 }
 
 .shrink {
-  animation: shrink 5s infinite, color_change_2 20s infinite;
+  animation:
+    shrink 5s infinite,
+    color_change_2 20s infinite;
 }
 
 .morph {
-  animation: shrink_rotate 10s infinite, color_change_1 15s infinite;
+  animation:
+    shrink_rotate 10s infinite,
+    color_change_1 15s infinite;
 }
 
 .grow_morph {
-  animation: grow_morph 10s infinite, color_change_3 30s infinite;
+  animation:
+    grow_morph 10s infinite,
+    color_change_3 30s infinite;
 }
 
 .box_color {
