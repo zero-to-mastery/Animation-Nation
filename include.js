@@ -5,7 +5,8 @@ let cards = [
     imageLink: './Art/stormworm9/RingAnimation/ring.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
-  }
+   }
+
   {
     artName: 'TriangleProjection',
     pageLink: './Art/stormworm9/TriangleProjection/projection.html',
@@ -13,6 +14,16 @@ let cards = [
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
   }, 
+
+
+  {
+    artName: 'Loading Page',
+    pageLink: './Art/SaumyaKumar-09/Animation%204/index.html',
+    imageLink: './Art/SaumyaKumar-09/Animation%204/Animation4.gif',
+    author: 'SaumyaKumar-09',
+    githubLink: 'https://github.com/SaumyaKumar-09'
+  },
+
   {
     artName: 'Elevator Ride',
     pageLink: './Art/deverestHood/index.html',
@@ -2571,6 +2582,13 @@ let cards = [
     imageLink: './Art/Bhavna2003-2/Rainbow animation.gif',
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
+  },
+  {
+    artName: 'Robot Animation',
+    pageLink: './Art/JeffreyAdu/index.html',
+    imageLink: './Art/JeffreyAdu/robotanimation.gif',
+    author: ' JeffreyAdu',
+    githubLink: 'https://github.com/JeffreyAdu'
   },
   {
     artName: 'Blob Animation',
