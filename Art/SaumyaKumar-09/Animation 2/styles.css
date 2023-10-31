@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #d35;
+}
+
+.loader {
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    animation: load 2s ease-in-out infinite;
+}
+
+@keyframes load {
+    0% {
+        transform: perspective(37px) rotateX(0deg) rotateY(0deg);
+        background-color: cyan;
+    }
+    50% {
+        transform: perspective(37px) rotateX(-180deg) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(37px) rotateX(-180deg) rotateY(-180deg);
+        background-color: aquamarine;
+    }
+}
