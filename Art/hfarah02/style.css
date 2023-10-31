@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 50px auto;
+}
+
+.div1 {
+  background-color: #8980f5;
+}
+
+.div2 {
+  background-color: #69d1c5;
+}

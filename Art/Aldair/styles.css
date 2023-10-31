@@ -48,27 +48,19 @@ body {
 
 .ring1 {
   border: calc(var(--ringsize) * 0.045) solid var(--ring1Color);
-  animation:
-    redanim linear 6s infinite,
-    glowAnim linear 4s infinite;
+  animation: redanim linear 6s infinite, glowAnim linear 4s infinite;
 }
 .ring2 {
   border: calc(var(--ringsize) * 0.045) solid var(--ring2Color);
-  animation:
-    greenanim linear 6s infinite,
-    glowAnim linear 4s infinite;
+  animation: greenanim linear 6s infinite, glowAnim linear 4s infinite;
 }
 .ring3 {
   border: calc(var(--ringsize) * 0.045) solid var(---ring3Color);
-  animation:
-    blueanim linear 6s infinite,
-    glowAnim linear 4s infinite;
+  animation: blueanim linear 6s infinite, glowAnim linear 4s infinite;
 }
 .ring4 {
   border: calc(var(--ringsize) * 0.045) solid var(--ring4Color);
-  animation:
-    yellowanim linear 6s infinite,
-    glowAnim linear 4s infinite;
+  animation: yellowanim linear 6s infinite, glowAnim linear 4s infinite;
 }
 
 @keyframes sparkle {
