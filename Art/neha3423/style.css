@@ -19,7 +19,8 @@ html {
   position: absolute;
   border-radius: 50%;
   background-color: transparent;
-  animation: bubble-rise 3s linear infinite,
+  animation:
+    bubble-rise 3s linear infinite,
     bubble-float 0s ease-in-out infinite;
 }
 

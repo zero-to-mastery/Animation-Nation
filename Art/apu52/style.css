@@ -529,7 +529,9 @@ a {
   width: 20%;
   top: 15%;
   border: 3px solid #353535;
-  box-shadow: 0 0 0 3px #4b4b56, 0 0 0 5px #353535;
+  box-shadow:
+    0 0 0 3px #4b4b56,
+    0 0 0 5px #353535;
   border-radius: 50%;
   right: 5.5%;
 }
@@ -597,7 +599,9 @@ a {
       #e6584c calc(50% + 2px)
     ),
     linear-gradient(#8fe2ec calc(100% - 2px), #353535 calc(100% - 2px));
-  background-size: 100% 50%, 50% 100%;
+  background-size:
+    100% 50%,
+    50% 100%;
   background-repeat: no-repeat;
 }
 @keyframes gears {
@@ -642,7 +646,9 @@ a {
   background: #adadad;
   border: 3px solid #353535;
   border-radius: 50%;
-  box-shadow: 0 0 0 10px #626262, 0 0 0 13px #353535;
+  box-shadow:
+    0 0 0 10px #626262,
+    0 0 0 13px #353535;
 }
 .cassette .label .cutout .window .spool:after {
   content: '';
@@ -659,10 +665,14 @@ a {
 }
 @keyframes spooling {
   from {
-    box-shadow: 0 0 0 0.5em #626262, 0 0 0 calc(0.5em + 3px) #353535;
+    box-shadow:
+      0 0 0 0.5em #626262,
+      0 0 0 calc(0.5em + 3px) #353535;
   }
   to {
-    box-shadow: 0 0 0 5em #626262, 0 0 0 calc(5em + 3px) #353535;
+    box-shadow:
+      0 0 0 5em #626262,
+      0 0 0 calc(5em + 3px) #353535;
   }
 }
 .cassette .head {

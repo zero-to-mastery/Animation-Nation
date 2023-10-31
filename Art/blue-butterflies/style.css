@@ -1,403 +1,403 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 #pic {
-    background-color: #45eeaa;
-    animation-name:  blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 330px;
-    height: 330px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #45eeaa;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 330px;
+  height: 330px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic1 {
-    background-color: #e74ad5;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 320px;
-    height: 320px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #e74ad5;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 320px;
+  height: 320px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic2 {
-    background-color: #4a8ce7;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 310px;
-    height: 310px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #4a8ce7;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 310px;
+  height: 310px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic3 {
-    background-color: #dfe74a;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 300px;
-    height: 300px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #dfe74a;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 300px;
+  height: 300px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic4 {
-    background-color: rgb(240, 122, 5);
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 290px;
-    height: 290px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: rgb(240, 122, 5);
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 290px;
+  height: 290px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic5 {
-    background-color: #07e2be;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 280px;
-    height: 280px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #07e2be;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 280px;
+  height: 280px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic6 {
-    background-color: #a80868;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 270px;
-    height: 270px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #a80868;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 270px;
+  height: 270px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic7 {
-    background-color: #fb2b06;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 260px;
-    height: 260px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #fb2b06;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 260px;
+  height: 260px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic8 {
-    background-color: #f58dcb;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 250px;
-    height: 250px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #f58dcb;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 250px;
+  height: 250px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic9 {
-    background-color: #89d3e8;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 240px;
-    height: 240px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #89d3e8;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 240px;
+  height: 240px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic10 {
-    background-color: #f38b5a;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 230px;
-    height: 230px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #f38b5a;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 230px;
+  height: 230px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic11 {
-    background-color: #b56aea;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 220px;
-    height: 220px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #b56aea;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 220px;
+  height: 220px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic12 {
-    background-color: #dda0da;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 210px;
-    height: 210px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #dda0da;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 210px;
+  height: 210px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic13 {
-    background-color: #0f01aa;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 200;
-    height: 200px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #0f01aa;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 200;
+  height: 200px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic14 {
-    background-color: #10ad4c;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 190px;
-    height: 190px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #10ad4c;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 190px;
+  height: 190px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic15 {
-    background-color: #edfd09;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 180px;
-    height: 180px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #edfd09;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 180px;
+  height: 180px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic17 {
-    background-color: #bf5c00;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 170px;
-    height: 170px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #bf5c00;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 170px;
+  height: 170px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic18 {
-    background-color: #c32bf6;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 160px;
-    height: 160px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #c32bf6;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 160px;
+  height: 160px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic19 {
-    background-color: #7fb793;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 150px;
-    height: 150px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #7fb793;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 150px;
+  height: 150px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic20 {
-    background-color: #dc0c0c;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 140px;
-    height: 140px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #dc0c0c;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 140px;
+  height: 140px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic21 {
-    background-color: #cc8fe1;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 130px;
-    height: 130px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #cc8fe1;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 130px;
+  height: 130px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic22 {
-    background-color: #4800ff;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 120px;
-    height: 120px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #4800ff;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 120px;
+  height: 120px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic23 {
-    background-color: #068fc6;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 110px;
-    height: 110px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #068fc6;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 110px;
+  height: 110px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 #pic24 {
-    background-color: #ffea00;
-    animation-name: blobAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
-    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    width: 100px;
-    height: 100px;
-    z-index: 5;
-    aspect-ratio: 1/1;
+  background-color: #ffea00;
+  animation-name: blobAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.26, 0.49, 0.45, 0.94);
+  border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 100px;
+  height: 100px;
+  z-index: 5;
+  aspect-ratio: 1/1;
 }
 
 @keyframes blobAnimation {
-    0% {
-        border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    }
-    25% {
-        border-radius: 37% 63% 80% 20% / 71% 76% 24% 29%;
-    }
-    50% {
-        border-radius: 51% 49% 31% 69% / 27% 21% 79% 73%;
-    }
-    100% {
-        border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
-    }
+  0% {
+    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  }
+  25% {
+    border-radius: 37% 63% 80% 20% / 71% 76% 24% 29%;
+  }
+  50% {
+    border-radius: 51% 49% 31% 69% / 27% 21% 79% 73%;
+  }
+  100% {
+    border-radius: 69% 31% 29% 71% / 48% 42% 58% 52%;
+  }
 }

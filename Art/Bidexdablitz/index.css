@@ -3,105 +3,106 @@
 *,
 *::after,
 *::before {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 :root {
-	--limit: 30deg;
+  --limit: 30deg;
 }
 
 .tilt-card-3d {
-	padding: 2rem;
-	font-size: 3rem;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-family: cursive;
-	width: fit-content;
-	margin: 4rem;
-	margin-inline: auto;
-	position: relative;
-	border-radius: 10px;
-	color: white;
-	background-color: black;
+  padding: 2rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: cursive;
+  width: fit-content;
+  margin: 4rem;
+  margin-inline: auto;
+  position: relative;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
 
-	/* 3D effect */
-	transform-style: preserve-3d;
-	transform: perspective(5000px);
+  /* 3D effect */
+  transform-style: preserve-3d;
+  transform: perspective(5000px);
 
-	/* animation */
-	animation: tilt-card-3d 12s ease-in-out infinite alternate,
-		shine 12s ease-in-out infinite alternate;
+  /* animation */
+  animation:
+    tilt-card-3d 12s ease-in-out infinite alternate,
+    shine 12s ease-in-out infinite alternate;
 }
 
 .tilt-card-3d::before,
 .tilt-card-3d::after {
-	content: '';
-	position: absolute;
-	border-radius: inherit;
+  content: '';
+  position: absolute;
+  border-radius: inherit;
 }
 
 .tilt-card-3d::before {
-	inset: -0.4em;
-	background: linear-gradient(-45deg, red, blue);
-	transform: translateZ(-50px);
+  inset: -0.4em;
+  background: linear-gradient(-45deg, red, blue);
+  transform: translateZ(-50px);
 }
 
 /* shadow */
 .tilt-card-3d::after {
-	inset: 0;
-	background: black;
-	transform: translateZ(-50px);
-	filter: blur(10px);
-	opacity: 0.6;
+  inset: 0;
+  background: black;
+  transform: translateZ(-50px);
+  filter: blur(10px);
+  opacity: 0.6;
 }
 
 @keyframes tilt-card-3d {
-	from {
-		transform: perspective(5000px) rotateY(0deg) rotateX(0deg)
-			translate(0em, 0em);
-	}
-	25% {
-		transform: perspective(5000px) rotateY(-30deg) rotateX(-30deg)
-			translate(0.5em, -0.2em);
-	}
-	50% {
-		transform: perspective(5000px) rotateY(30deg) rotateX(30deg)
-			translate(-0.5em, 0.2em);
-	}
-	62.5% {
-		transform: perspective(5000px) rotateY(0deg) rotateX(0deg)
-			translate(0em, 0em);
-	}
-	75% {
-		transform: perspective(5000px) rotateY(-30deg) rotateX(30deg)
-			translate(0.5em, 0.2em);
-	}
-	to {
-		transform: perspective(5000px) rotateY(30deg) rotateX(-30deg)
-			translate(-0.5em, -0.2em);
-	}
+  from {
+    transform: perspective(5000px) rotateY(0deg) rotateX(0deg)
+      translate(0em, 0em);
+  }
+  25% {
+    transform: perspective(5000px) rotateY(-30deg) rotateX(-30deg)
+      translate(0.5em, -0.2em);
+  }
+  50% {
+    transform: perspective(5000px) rotateY(30deg) rotateX(30deg)
+      translate(-0.5em, 0.2em);
+  }
+  62.5% {
+    transform: perspective(5000px) rotateY(0deg) rotateX(0deg)
+      translate(0em, 0em);
+  }
+  75% {
+    transform: perspective(5000px) rotateY(-30deg) rotateX(30deg)
+      translate(0.5em, 0.2em);
+  }
+  to {
+    transform: perspective(5000px) rotateY(30deg) rotateX(-30deg)
+      translate(-0.5em, -0.2em);
+  }
 }
 @keyframes shine {
-	from {
-		text-shadow: 0 0 0em blue;
-	}
-	17% {
-		text-shadow: 0 0 0.4em blue;
-	}
-	34% {
-		text-shadow: 0 0 0em currentColor;
-	}
-	51% {
-		text-shadow: 0 0 0.2em currentColor;
-	}
-	68% {
-		text-shadow: 0 0 0em red;
-	}
-	85% {
-		text-shadow: 0 0 0.4em red;
-	}
-	to {
-		text-shadow: 0 0 0 currentColor;
-	}
+  from {
+    text-shadow: 0 0 0em blue;
+  }
+  17% {
+    text-shadow: 0 0 0.4em blue;
+  }
+  34% {
+    text-shadow: 0 0 0em currentColor;
+  }
+  51% {
+    text-shadow: 0 0 0.2em currentColor;
+  }
+  68% {
+    text-shadow: 0 0 0em red;
+  }
+  85% {
+    text-shadow: 0 0 0.4em red;
+  }
+  to {
+    text-shadow: 0 0 0 currentColor;
+  }
 }

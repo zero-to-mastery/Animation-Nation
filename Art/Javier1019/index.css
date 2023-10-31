@@ -47,7 +47,9 @@ body {
     #00bfff,
     #1e90ff
   ); /* Deep sky blue */
-  animation: wave 2s infinite, fillUp 10s infinite alternate;
+  animation:
+    wave 2s infinite,
+    fillUp 10s infinite alternate;
   z-index: 2;
 }
 
