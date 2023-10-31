@@ -17,10 +17,10 @@ textPath {
   font-family: 'Georama', sans-serif;
 }
 .text-uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 .p-absolute {
-    position: absolute;
+  position: absolute;
 }
 @keyframes circleRotate {
   0% {

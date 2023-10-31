@@ -17,16 +17,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: spin 8s infinite linear, bounce 2s infinite,
+  animation:
+    spin 8s infinite linear,
+    bounce 2s infinite,
     morph 6s infinite alternate;
 }
 
 .hacktoberfest-text {
   font-size: 24px;
   color: white;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff00ff, 0 0 20px #ff00ff,
-    0 0 25px #ff00ff, 0 0 30px #ff00ff, 0 0 35px #ff00ff;
-  animation: pulse 1s infinite alternate, neon 1.5s infinite alternate;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #ff00ff,
+    0 0 20px #ff00ff,
+    0 0 25px #ff00ff,
+    0 0 30px #ff00ff,
+    0 0 35px #ff00ff;
+  animation:
+    pulse 1s infinite alternate,
+    neon 1.5s infinite alternate;
 }
 @keyframes spin {
   0% {
@@ -60,12 +70,24 @@ body {
 
 @keyframes neon {
   0% {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff00ff, 0 0 20px #ff00ff,
-      0 0 25px #ff00ff, 0 0 30px #ff00ff, 0 0 35px #ff00ff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 15px #ff00ff,
+      0 0 20px #ff00ff,
+      0 0 25px #ff00ff,
+      0 0 30px #ff00ff,
+      0 0 35px #ff00ff;
   }
   100% {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00ffff, 0 0 20px #00ffff,
-      0 0 25px #00ffff, 0 0 30px #00ffff, 0 0 35px #00ffff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 15px #00ffff,
+      0 0 20px #00ffff,
+      0 0 25px #00ffff,
+      0 0 30px #00ffff,
+      0 0 35px #00ffff;
   }
 }
 

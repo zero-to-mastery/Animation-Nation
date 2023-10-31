@@ -881,11 +881,8 @@ body {
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  background: radial-gradient(
-      circle at center,
-      var(--grey-1) 30%,
-      transparent 30.5%
-    ),
+  background:
+    radial-gradient(circle at center, var(--grey-1) 30%, transparent 30.5%),
     radial-gradient(circle at center, silver 40%, black 40.5%) black;
 }
 
@@ -1423,8 +1420,8 @@ body {
   .fist
   > .cuboid
   > .cuboid__side:nth-of-type(2):after {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 1),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 1),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 1),
     rotate var(--transition-speed) calc(var(--transition-speed) * 1),
     translate var(--transition-speed) calc(var(--transition-speed) * 1);
@@ -1433,22 +1430,22 @@ body {
   .fist
   > .cuboid
   > .cuboid__side:nth-of-type(2):after {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 1),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 1),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 1),
     rotate var(--transition-speed) calc(var(--transition-speed) * 1),
     translate var(--transition-speed) calc(var(--transition-speed) * 1);
 }
 :root:has(#transform:checked) :is(.arm-bar, .forearm) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 1),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 1),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 1),
     rotate var(--transition-speed) calc(var(--transition-speed) * 1),
     translate var(--transition-speed) calc(var(--transition-speed) * 1);
 }
 #transform:checked ~ .scene-jumper :is(.arm-bar, .forearm) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 1),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 1),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 1),
     rotate var(--transition-speed) calc(var(--transition-speed) * 1),
     translate var(--transition-speed) calc(var(--transition-speed) * 1);
@@ -1471,8 +1468,8 @@ body {
     .forearm-shell .cuboid__side:nth-of-type(2),
     .boot
   ) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 1.5),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 1.5),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 1.5),
     rotate var(--transition-speed) calc(var(--transition-speed) * 1.5),
     translate var(--transition-speed) calc(var(--transition-speed) * 1.5);
@@ -1488,16 +1485,16 @@ body {
     .forearm-shell .cuboid__side:nth-of-type(2),
     .boot
   ) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 1.5),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 1.5),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 1.5),
     rotate var(--transition-speed) calc(var(--transition-speed) * 1.5),
     translate var(--transition-speed) calc(var(--transition-speed) * 1.5);
 }
 :root:has(#transform:checked)
   :is(.optimus__helmet, .optimus__grill-hinge, .core--upper) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 2),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 2),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 2),
     rotate var(--transition-speed) calc(var(--transition-speed) * 2),
     translate var(--transition-speed) calc(var(--transition-speed) * 2);
@@ -1505,16 +1502,16 @@ body {
 #transform:checked
   ~ .scene-jumper
   :is(.optimus__helmet, .optimus__grill-hinge, .core--upper) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 2),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 2),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 2),
     rotate var(--transition-speed) calc(var(--transition-speed) * 2),
     translate var(--transition-speed) calc(var(--transition-speed) * 2);
 }
 :root:has(#transform:checked)
   :is(.forearm-cradle, .core--lower, .scene--optimus) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 2.5),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 2.5),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 2.5),
     rotate var(--transition-speed) calc(var(--transition-speed) * 2.5),
     translate var(--transition-speed) calc(var(--transition-speed) * 2.5);
@@ -1522,8 +1519,8 @@ body {
 #transform:checked
   ~ .scene-jumper
   :is(.forearm-cradle, .core--lower, .scene--optimus) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 2.5),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 2.5),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 2.5),
     rotate var(--transition-speed) calc(var(--transition-speed) * 2.5),
     translate var(--transition-speed) calc(var(--transition-speed) * 2.5);
@@ -1538,8 +1535,8 @@ body {
     .arm--right .hand,
     .optimus__head-twist
   ) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 3.5),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 3.5),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 3.5),
     rotate var(--transition-speed) calc(var(--transition-speed) * 3.5),
     translate var(--transition-speed) calc(var(--transition-speed) * 3.5);
@@ -1554,8 +1551,8 @@ body {
     .arm--right .hand,
     .optimus__head-twist
   ) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 3.5),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 3.5),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 3.5),
     rotate var(--transition-speed) calc(var(--transition-speed) * 3.5),
     translate var(--transition-speed) calc(var(--transition-speed) * 3.5);
@@ -1573,15 +1570,15 @@ body {
     .arm--left .forearm-gesture,
     .optimus__head-twist
   ) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 0),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 0),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 0),
     rotate var(--transition-speed) calc(var(--transition-speed) * 0),
     translate var(--transition-speed) calc(var(--transition-speed) * 0);
 }
 :is(.optimus__helmet, .optimus__grill-hinge, .core--upper) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 1),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 1),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 1),
     rotate var(--transition-speed) calc(var(--transition-speed) * 1),
     translate var(--transition-speed) calc(var(--transition-speed) * 1);
@@ -1599,22 +1596,22 @@ body {
     .forearm-shell .cuboid__side:nth-of-type(2),
     .boot
   ) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 1.5),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 1.5),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 1.5),
     rotate var(--transition-speed) calc(var(--transition-speed) * 1.5),
     translate var(--transition-speed) calc(var(--transition-speed) * 1.5);
 }
 :is(.arm-bar, .forearm) {
-  transition: transform var(--transition-speed)
-      calc(var(--transition-speed) * 2),
+  transition:
+    transform var(--transition-speed) calc(var(--transition-speed) * 2),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 2),
     rotate var(--transition-speed) calc(var(--transition-speed) * 2),
     translate var(--transition-speed) calc(var(--transition-speed) * 2);
 }
 .fist > .cuboid > .cuboid__side:nth-of-type(2):after {
-  transition: background var(--transition-speed)
-      calc(var(--transition-speed) * 4),
+  transition:
+    background var(--transition-speed) calc(var(--transition-speed) * 4),
     transform var(--transition-speed) calc(var(--transition-speed) * 4),
     clip-path var(--transition-speed) calc(var(--transition-speed) * 4),
     rotate var(--transition-speed) calc(var(--transition-speed) * 4),

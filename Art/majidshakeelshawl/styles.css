@@ -1,27 +1,27 @@
 .container {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .circle-outer {
-    height: 30vh;
-    width: 30vh;
-    border-color: green;
-    background-color: orange;
-    position: relative;
-    animation: myRotateAnimation 5s infinite;
-    border-radius: 30rem;
+  height: 30vh;
+  width: 30vh;
+  border-color: green;
+  background-color: orange;
+  position: relative;
+  animation: myRotateAnimation 5s infinite;
+  border-radius: 30rem;
 }
 
 @keyframes myRotateAnimation {
-    from {
-        transform: rotate(120deg);
-    }
+  from {
+    transform: rotate(120deg);
+  }
 
-    to {
-        transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(360deg);
+  }
 }
