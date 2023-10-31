@@ -2725,6 +2725,13 @@ let cards = [
     imageLink: './Art/urjabahad/kinetic_loading.gif', 
     author: 'Urja', 
     githubLink: 'https://github.com/urjabahad'
+  },
+  {
+    artName: 'Loading Text Animation',
+    pageLink: './Art/Bhavna2003/loadingtextanimation/index.html',
+    imageLink: './Art/Bhavna2003/loadingtextanimation/textanimation.gif',
+    author: 'Bhavna',
+    githubLink: 'https://github.com/Bhavna2003'
   }
 ];
 
