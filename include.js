@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/SaumyaKumar-09'
   },
   {
+    artName: 'Progress Bar',
+    pageLink: './Art/mrinmoyf2/index.html',
+    imageLink: './Art/mrinmoyf2/progress_bar.gif',
+    author: 'mrinmoyf2',
+    githubLink: 'https://github.com/mrinmoyf2'
+  },
+  {
     artName: 'Elevator Ride',
     pageLink: './Art/deverestHood/index.html',
     imageLink: './Art/deverestHood/elevator-ride.gif',
