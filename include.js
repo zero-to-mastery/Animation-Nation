@@ -4,7 +4,7 @@ let cards = [
     pageLink: './Art/stormworm9/EarthAnimation/Earth.html',
     imageLink: './Art/stormworm9/EarthAnimation/earth.gif',
     author: 'stormworm9',
-    githubLink: 'https://github.com/stormworm9
+    githubLink: 'https://github.com/stormworm9'
    },
    {
     artName: 'CubeAnimation',
