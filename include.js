@@ -2792,7 +2792,7 @@ let cards = [
   {
     artName: '3D Box Animation',
     pageLink: './Art/Bhavna2003/3DboxAnimation/index.html',
-    imageLink: './Art/Bhavna2003/3DboxAnimation/3Dbox.gif',
+    imageLink: './Art/Bhavna2003/3DboxAnimation/3Dbox.gif'
   },
   {
     artName: 'Loading Text Animation',

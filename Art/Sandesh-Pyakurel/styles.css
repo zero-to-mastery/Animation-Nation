@@ -23,7 +23,9 @@ body {
   background-color: #3498db;
   border-radius: 50%;
   position: absolute;
-  animation: bounce 1.5s ease-in-out infinite, colorChange 3s infinite;
+  animation:
+    bounce 1.5s ease-in-out infinite,
+    colorChange 3s infinite;
 }
 
 .ball:nth-child(2) {

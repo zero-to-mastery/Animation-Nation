@@ -17,7 +17,9 @@ body {
   margin: 10px;
   overflow: hidden;
   position: relative;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
 }
 
 .card:hover.card1 {
