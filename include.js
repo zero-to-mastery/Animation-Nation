@@ -119,6 +119,13 @@ let cards = [
     author: 'Manish Jha',
     githubLink: 'https://github.com/manishjha-04'
   },
+    {
+    artName: 'MeetingPoint',
+    pageLink: './Art/manishjha-04/Meeting Point/index.html',
+    imageLink: './Art/manishjha-04/Meeting Point/Meetingpoint.gif',
+    author: 'Manish Jha',
+    githubLink: 'https://github.com/manishjha-04'
+  },
   {
     artName: 'Aniket Dinde name Animation',
     pageLink: './Art/AniketDinde/index.html',
@@ -2614,6 +2621,7 @@ let cards = [
     author: 'Suparna Das',
     githubLink: 'https://github.com/Suparnaen'
   },
+  {
     artName: 'Bouncing Balls with colour change',
     pageLink: './Art/Vivek-GuptaXCode/bouncing-ball.html',
     imageLink: './Art/Vivek-GuptaXCode/bouncing-ball.gif',
@@ -2717,6 +2725,13 @@ let cards = [
     imageLink: './Art/Piyush_Luitel/index.gif',
     author: 'Piyush_Luitel',
     githubLink: 'https://github.com/PiyushLuitel-07'
+  }
+  ,{
+    artName: 'Kinetic Loading',
+    pageLink: './Art/urjabahad/kinetic_loading.html', 
+    imageLink: './Art/urjabahad/kinetic_loading.gif', 
+    author: 'Urja', 
+    githubLink: 'https://github.com/urjabahad'
   }
 ];
 
