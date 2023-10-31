@@ -2748,6 +2748,11 @@ let cards = [
     githubLink: 'https://github.com/urjabahad'
   },
   {
+    artName: '3D Box Animation',
+    pageLink: './Art/Bhavna2003/3DboxAnimation/index.html',
+    imageLink: './Art/Bhavna2003/3DboxAnimation/3Dbox.gif',
+  },
+  {
     artName: 'Loading Text Animation',
     pageLink: './Art/Bhavna2003/loadingtextanimation/index.html',
     imageLink: './Art/Bhavna2003/loadingtextanimation/textanimation.gif',
