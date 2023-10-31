@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Attractive Sqaure Animation',
+    pageLink: './Art/SaumyaKumar-09/Animation%203/index.html',
+    imageLink: './Art/SaumyaKumar-09/Animation%203/Animation3.gif',
+    author: 'SaumyaKumar-09',
+    githubLink: 'https://github.com/SaumyaKumar-09'
+  }
+  {
     artName: 'Loading Page',
     pageLink: './Art/SaumyaKumar-09/Animation%204/index.html',
     imageLink: './Art/SaumyaKumar-09/Animation%204/Animation4.gif',
