@@ -1,8 +1,8 @@
 let cards = [
   {
     artName: 'Windows start animation',
-    pageLink: './Art/SaumyaKumar-09/Animation%202/index.html',
-    imageLink: './Art/SaumyaKumar-09/Animation%202/Animation2.gif',
+    pageLink: './Art/SaumyaKumar-09/Animation2/index.html',
+    imageLink: './Art/SaumyaKumar-09/Animation2/Animation2.gif',
     author: 'SaumyaKumar-09',
     githubLink: 'https://github.com/SaumyaKumar-09'
   },
@@ -31,6 +31,14 @@ let cards = [
     artName: 'RingAnimation',
     pageLink: './Art/stormworm9/RingAnimation/ring.html',
     imageLink: './Art/stormworm9/RingAnimation/ring.gif',
+    author: 'stormworm9',
+    githubLink: 'https://github.com/stormworm9'
+   },
+
+  {
+    artName: 'TriangleProjection',
+    pageLink: './Art/stormworm9/TriangleProjection/projection.html',
+    imageLink: './Art/stormworm9/TriangleProjection/TriangleProjection.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
   },
@@ -1054,8 +1062,8 @@ let cards = [
   },
   {
     artName: 'Ruby',
-    pageLink: './Art/daniel-badura/ruby.html',
-    imageLink: './Art/daniel-badura/ruby.gif',
+    pageLink: './Art/daniel-badura/ruby/ruby.html',
+    imageLink: './Art/daniel-badura/ruby/ruby.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
   },
@@ -1292,8 +1300,8 @@ let cards = [
   },
   {
     artName: 'Diamond',
-    pageLink: './Art/daniel-badura/diamond.html',
-    imageLink: './Art/daniel-badura/diamond.gif',
+    pageLink: './Art/daniel-badura/diamond/diamond.html',
+    imageLink: './Art/daniel-badura/diamond/diamond.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
   },
@@ -2814,6 +2822,20 @@ let cards = [
     imageLink: './Art/Bhavna2003/loadingtextanimation/textanimation.gif',
     author: 'Bhavna',
     githubLink: 'https://github.com/Bhavna2003'
+  },
+  {
+    artName: 'HelloThere',
+    pageLink: './Art/MojoBoingo/index.html',
+    imageLink: './Art/MojoBoingo/hellothere.gif',
+    author: 'Brady Ayres',
+    githubLink: 'https://github.com/MojoBoingo'
+  },
+  {
+    artName: 'Emerald',
+    pageLink: './Art/daniel-badura/emerald/emerald.html',
+    imageLink: './Art/daniel-badura/emerald/emerald.gif',
+    author: 'daniel-badura',
+    githubLink: 'https://github.com/daniel-badura'
   }
 ];
 
