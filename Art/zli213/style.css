@@ -1,621 +1,618 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
 }
 
 .container {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .dot {
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: transparent;
-    animation: fadeEffect 1.2s 10;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: transparent;
+  animation: fadeEffect 1.2s 10;
 }
 
 @keyframes fadeEffect {
-    0% {
-        background-color: transparent;
-    }
+  0% {
+    background-color: transparent;
+  }
 
-    25% {
-        background-color: #333;
-    }
+  25% {
+    background-color: #333;
+  }
 
-    100% {
-        background-color: transparent;
-    }
+  100% {
+    background-color: transparent;
+  }
 }
 
 .dot:nth-child(1) {
-    transform: rotate(0deg) translateY(-50px);
-    animation-delay: 0s;
+  transform: rotate(0deg) translateY(-50px);
+  animation-delay: 0s;
 }
 
 .dot:nth-child(2) {
-    transform: rotate(30deg) translateY(-50px);
-    animation-delay: 0.1s;
+  transform: rotate(30deg) translateY(-50px);
+  animation-delay: 0.1s;
 }
 
 .dot:nth-child(3) {
-    transform: rotate(60deg) translateY(-50px);
-    animation-delay: 0.2s;
+  transform: rotate(60deg) translateY(-50px);
+  animation-delay: 0.2s;
 }
 
 .dot:nth-child(4) {
-    transform: rotate(90deg) translateY(-50px);
-    animation-delay: 0.3s;
+  transform: rotate(90deg) translateY(-50px);
+  animation-delay: 0.3s;
 }
 
 .dot:nth-child(5) {
-    transform: rotate(120deg) translateY(-50px);
-    animation-delay: 0.4s;
+  transform: rotate(120deg) translateY(-50px);
+  animation-delay: 0.4s;
 }
 
 .dot:nth-child(6) {
-    transform: rotate(150deg) translateY(-50px);
-    animation-delay: 0.5s;
+  transform: rotate(150deg) translateY(-50px);
+  animation-delay: 0.5s;
 }
 
 .dot:nth-child(7) {
-    transform: rotate(180deg) translateY(-50px);
-    animation-delay: 0.6s;
+  transform: rotate(180deg) translateY(-50px);
+  animation-delay: 0.6s;
 }
 
 .dot:nth-child(8) {
-    transform: rotate(210deg) translateY(-50px);
-    animation-delay: 0.7s;
+  transform: rotate(210deg) translateY(-50px);
+  animation-delay: 0.7s;
 }
 
 .dot:nth-child(9) {
-    transform: rotate(240deg) translateY(-50px);
-    animation-delay: 0.8s;
+  transform: rotate(240deg) translateY(-50px);
+  animation-delay: 0.8s;
 }
 
 .dot:nth-child(10) {
-    transform: rotate(270deg) translateY(-50px);
-    animation-delay: 0.9s;
+  transform: rotate(270deg) translateY(-50px);
+  animation-delay: 0.9s;
 }
 
 .dot:nth-child(11) {
-    transform: rotate(300deg) translateY(-50px);
-    animation-delay: 1s;
+  transform: rotate(300deg) translateY(-50px);
+  animation-delay: 1s;
 }
 
 .dot:nth-child(12) {
-    transform: rotate(330deg) translateY(-50px);
-    animation-delay: 1.1s;
+  transform: rotate(330deg) translateY(-50px);
+  animation-delay: 1.1s;
 }
 
-
 .counter {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
 }
 
 .counter span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    animation: showNumber 1s forwards;
-    line-height: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: showNumber 1s forwards;
+  line-height: 1em;
 }
 
 @keyframes showNumber {
+  0%,
+  90% {
+    opacity: 1;
+  }
 
-    0%,
-    90% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
+  100% {
+    opacity: 0;
+  }
 }
 
 .counter span:nth-child(1) {
-    animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .counter span:nth-child(2) {
-    animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .counter span:nth-child(3) {
-    animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 .counter span:nth-child(4) {
-    animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 .counter span:nth-child(5) {
-    animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 .counter span:nth-child(6) {
-    animation-delay: 5s;
+  animation-delay: 5s;
 }
 
 .counter span:nth-child(7) {
-    animation-delay: 6s;
+  animation-delay: 6s;
 }
 
 .counter span:nth-child(8) {
-    animation-delay: 7s;
+  animation-delay: 7s;
 }
 
 .counter span:nth-child(9) {
-    animation-delay: 8s;
+  animation-delay: 8s;
 }
 
 .counter span:nth-child(10) {
-    animation-delay: 9s;
+  animation-delay: 9s;
 }
 
 .counter span:nth-child(11) {
-    animation-delay: 10s;
+  animation-delay: 10s;
 }
 
-
 @keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
 
-    100% {
-        transform: rotate(-360deg);
-    }
+  100% {
+    transform: rotate(-360deg);
+  }
 }
 
 @keyframes fadeOut {
-    100% {
-        opacity: 0;
-        transform: scale(0.9);
-    }
+  100% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
 }
 
 .circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    animation: fly linear forwards;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  animation: fly linear forwards;
 }
 
 @keyframes flyAndFadeIn {
-    0% {
-        transform: translate(0, 0);
-        opacity: 0;
-    }
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
 
-    100% {
-        transform: translate(var(--x), var(--y));
-        opacity: 1;
-    }
+  100% {
+    transform: translate(var(--x), var(--y));
+    opacity: 1;
+  }
 }
 
 #circle1 {
-    width: 40px;
-    height: 40px;
-    background-color: #ff0000;
-    animation-duration: 2s;
-    --x: 300px;
-    --y: -3000px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 40px;
+  height: 40px;
+  background-color: #ff0000;
+  animation-duration: 2s;
+  --x: 300px;
+  --y: -3000px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle2 {
-    width: 50px;
-    height: 50px;
-    background-color: #00ff00;
-    animation-duration: 3s;
-    --x: -2000px;
-    --y: 200px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 50px;
+  height: 50px;
+  background-color: #00ff00;
+  animation-duration: 3s;
+  --x: -2000px;
+  --y: 200px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle3 {
-    width: 60px;
-    height: 60px;
-    background-color: #0000ff;
-    animation-duration: 2.5s;
-    --x: 400px;
-    --y: 1000px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 60px;
+  height: 60px;
+  background-color: #0000ff;
+  animation-duration: 2.5s;
+  --x: 400px;
+  --y: 1000px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle4 {
-    width: 100px;
-    height: 100px;
-    background-color: #ff00ff;
-    animation-duration: 3.5s;
-    --x: -3000px;
-    --y: -1500px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 100px;
+  height: 100px;
+  background-color: #ff00ff;
+  animation-duration: 3.5s;
+  --x: -3000px;
+  --y: -1500px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle5 {
-    width: 80px;
-    height: 80px;
-    background-color: #00ffff;
-    animation-duration: 2.2s;
-    --x: 1000px;
-    --y: 300px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 80px;
+  height: 80px;
+  background-color: #00ffff;
+  animation-duration: 2.2s;
+  --x: 1000px;
+  --y: 300px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle6 {
-    background-color: #ffff00;
-    animation-duration: 3s;
-    --x: -4500px;
-    --y: -1200px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  background-color: #ffff00;
+  animation-duration: 3s;
+  --x: -4500px;
+  --y: -1200px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle7 {
-    background-color: #ff4500;
-    animation-duration: 2.8s;
-    --x: 3500px;
-    --y: -200px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  background-color: #ff4500;
+  animation-duration: 2.8s;
+  --x: 3500px;
+  --y: -200px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle8 {
-    background-color: #6a5acd;
-    animation-duration: 2.5s;
-    --x: -4000px;
-    --y: 150px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  background-color: #6a5acd;
+  animation-duration: 2.5s;
+  --x: -4000px;
+  --y: 150px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle9 {
-    background-color: #008080;
-    animation-duration: 3.2s;
-    --x: 1500px;
-    --y: -350px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  background-color: #008080;
+  animation-duration: 3.2s;
+  --x: 1500px;
+  --y: -350px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle10 {
-    background-color: #d2691e;
-    animation-duration: 2.7s;
-    --x: -1000px;
-    --y: 2000px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  background-color: #d2691e;
+  animation-duration: 2.7s;
+  --x: -1000px;
+  --y: 2000px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle11 {
-    background-color: #ff1493;
-    animation-duration: 2.9s;
-    --x: 2000px;
-    --y: 1000px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  background-color: #ff1493;
+  animation-duration: 2.9s;
+  --x: 2000px;
+  --y: 1000px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle12 {
-    background-color: #00bfff;
-    animation-duration: 2.4s;
-    --x: -3000px;
-    --y: 3000px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  background-color: #00bfff;
+  animation-duration: 2.4s;
+  --x: -3000px;
+  --y: 3000px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle13 {
-    width: 20px;
-    height: 20px;
-    background-color: #ff8c00;
-    animation-duration: 3.1s;
-    --x: 4000px;
-    --y: -4000px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 20px;
+  height: 20px;
+  background-color: #ff8c00;
+  animation-duration: 3.1s;
+  --x: 4000px;
+  --y: -4000px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle14 {
-    width: 30px;
-    height: 30px;
-    background-color: #ecb65a;
-    animation-duration: 2.6s;
-    --x: -5000px;
-    --y: 500px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 30px;
+  height: 30px;
+  background-color: #ecb65a;
+  animation-duration: 2.6s;
+  --x: -5000px;
+  --y: 500px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle15 {
-    width: 40px;
-    height: 40px;
-    background-color: #445d44;
-    animation-duration: 2.3s;
-    --x: 500px;
-    --y: 5000px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 40px;
+  height: 40px;
+  background-color: #445d44;
+  animation-duration: 2.3s;
+  --x: 500px;
+  --y: 5000px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle16 {
-    width: 50px;
-    height: 50px;
-    background-color: #7b7bf5;
-    animation-duration: 3.4s;
-    --x: -6000px;
-    --y: -600px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 50px;
+  height: 50px;
+  background-color: #7b7bf5;
+  animation-duration: 3.4s;
+  --x: -6000px;
+  --y: -600px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle17 {
-    width: 60px;
-    height: 60px;
-    background-color: #e9b1b1;
-    animation-duration: 2.1s;
-    --x: 600px;
-    --y: 6000px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 60px;
+  height: 60px;
+  background-color: #e9b1b1;
+  animation-duration: 2.1s;
+  --x: 600px;
+  --y: 6000px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle18 {
-    width: 70px;
-    height: 70px;
-    background-color: #93935f;
-    animation-duration: 3.3s;
-    --x: -7000px;
-    --y: -700px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 70px;
+  height: 70px;
+  background-color: #93935f;
+  animation-duration: 3.3s;
+  --x: -7000px;
+  --y: -700px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle19 {
-    width: 80px;
-    height: 80px;
-    background-color: #00ffff;
-    animation-duration: 2.2s;
-    --x: 700px;
-    --y: 7000px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 80px;
+  height: 80px;
+  background-color: #00ffff;
+  animation-duration: 2.2s;
+  --x: 700px;
+  --y: 7000px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle20 {
-    width: 90px;
-    height: 90px;
-    background-color: #450445;
-    animation-duration: 3.5s;
-    --x: -8000px;
-    --y: 8000px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 90px;
+  height: 90px;
+  background-color: #450445;
+  animation-duration: 3.5s;
+  --x: -8000px;
+  --y: 8000px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle21 {
-    width: 100px;
-    height: 100px;
-    background-color: #ff0000;
-    animation-duration: 2.5s;
-    --x: 1800px;
-    --y: -800px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+  animation-duration: 2.5s;
+  --x: 1800px;
+  --y: -800px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle22 {
-    width: 110px;
-    height: 110px;
-    background-color: #00ff00;
-    animation-duration: 3.5s;
-    --x: -9100px;
-    --y: 900px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 110px;
+  height: 110px;
+  background-color: #00ff00;
+  animation-duration: 3.5s;
+  --x: -9100px;
+  --y: 900px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle23 {
-    width: 120px;
-    height: 120px;
-    background-color: #0000ff;
-    animation-duration: 2.5s;
-    --x: 2900px;
-    --y: -4900px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 120px;
+  height: 120px;
+  background-color: #0000ff;
+  animation-duration: 2.5s;
+  --x: 2900px;
+  --y: -4900px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle24 {
-    width: 130px;
-    height: 130px;
-    background-color: #ff00ff;
-    animation-duration: 3.5s;
-    --x: -51000px;
-    --y: 91000px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 130px;
+  height: 130px;
+  background-color: #ff00ff;
+  animation-duration: 3.5s;
+  --x: -51000px;
+  --y: 91000px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle25 {
-    width: 140px;
-    height: 140px;
-    background-color: #00ffff;
-    animation-duration: 2.5s;
-    --x: 11000px;
-    --y: -71000px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 140px;
+  height: 140px;
+  background-color: #00ffff;
+  animation-duration: 2.5s;
+  --x: 11000px;
+  --y: -71000px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle26 {
-    width: 150px;
-    height: 150px;
-    background-color: #ffff00;
-    animation-duration: 3.5s;
-    --x: -31100px;
-    --y: 21100px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 150px;
+  height: 150px;
+  background-color: #ffff00;
+  animation-duration: 3.5s;
+  --x: -31100px;
+  --y: 21100px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle27 {
-    width: 160px;
-    height: 160px;
-    background-color: #ff4500;
-    animation-duration: 2.5s;
-    --x: 41100px;
-    --y: -61100px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 160px;
+  height: 160px;
+  background-color: #ff4500;
+  animation-duration: 2.5s;
+  --x: 41100px;
+  --y: -61100px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle28 {
-    width: 170px;
-    height: 170px;
-    background-color: #6a5acd;
-    animation-duration: 3.5s;
-    --x: -71200px;
-    --y: 21200px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 170px;
+  height: 170px;
+  background-color: #6a5acd;
+  animation-duration: 3.5s;
+  --x: -71200px;
+  --y: 21200px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle29 {
-    width: 180px;
-    height: 180px;
-    background-color: #008080;
-    animation-duration: 2.5s;
-    --x: 11200px;
-    --y: -91200px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 180px;
+  height: 180px;
+  background-color: #008080;
+  animation-duration: 2.5s;
+  --x: 11200px;
+  --y: -91200px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }
 
 #circle30 {
-    width: 190px;
-    height: 190px;
-    background-color: #d2691e;
-    animation-duration: 3.5s;
-    --x: -21300px;
-    --y: 31300px;
-    opacity: 0;
-    animation-name: flyAndFadeIn;
-    animation-duration: 2s, 0.1s;
-    animation-delay: 13s, 13s;
-    animation-fill-mode: forwards, forwards;
+  width: 190px;
+  height: 190px;
+  background-color: #d2691e;
+  animation-duration: 3.5s;
+  --x: -21300px;
+  --y: 31300px;
+  opacity: 0;
+  animation-name: flyAndFadeIn;
+  animation-duration: 2s, 0.1s;
+  animation-delay: 13s, 13s;
+  animation-fill-mode: forwards, forwards;
 }

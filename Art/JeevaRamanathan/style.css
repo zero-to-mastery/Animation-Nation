@@ -9,7 +9,6 @@
   left: 40%;
   top: 18%;
   height: 63vh;
-
 }
 .bat-container {
   position: absolute;
@@ -65,7 +64,7 @@
   transform: rotate(-25deg);
 }
 .handle-holder-left::after {
-  content: "";
+  content: '';
   position: absolute;
   left: -18px;
   height: 10px;
@@ -86,7 +85,7 @@
   transform: rotate(-25deg);
 }
 .handle-holder-right::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 23px;
   height: 10px;
@@ -106,7 +105,7 @@
   left: 90px;
   margin-top: -95px !important;
   position: absolute;
-  content: "";
+  content: '';
   background-color: black;
   filter: blur(3px);
   width: 30px;
