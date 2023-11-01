@@ -1877,6 +1877,13 @@ let cards = [
     imageLink: './Art/Mel-TB/ezio_animation.gif',
     author: 'Melinda',
     githubLink: 'https://github.com/Mel-TB'
+  },
+  {
+    artName: 'Solar System', 
+    pageLink: './Art/jon/index.html',
+    imageLink: './Art/jon/SolarSystem.gif', 
+    author: 'Jon',
+    githubLink: 'https://github.com/jonnguyen1926'
   }
 ];
 

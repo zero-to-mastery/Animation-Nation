@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 26, 26);
+    overflow: hidden; 
+}
+
+.solar_system {
+    width: 50em;
+    height: 50em;
+    position: relative;
+}
+
+.sun {
+    position: absolute;
+    top: calc(50% - 4em);
+    left: calc(50% - 4em);
+    width: 8em;
+    height: 8em;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 1.5em white;
+}
+
+.earth, .moon, .mars, .jupiter {
+    position: absolute;
+    border: 0.1em solid transparent;
+    border-radius: 50%;
+}
+
+.earth {
+    top: calc(50% - 13em);
+    left: calc(50% - 13em);
+    width: 26em;
+    height: 26em;
+    animation: orbit 15s linear infinite; 
+}
+
+.moon {
+    top: -1.5em;
+    left: 15.5em;
+    width: 5em;
+    height: 5em;
+    animation: orbit 4s linear infinite;
+}
+
+.mars {
+    top: calc(50% - 18em);
+    left: calc(50% - 18em);
+    width: 36em;
+    height: 36em;
+    animation: orbit 17s linear infinite;
+}
+
+.jupiter {
+    top: calc(50% - 23em);
+    left: calc(50% - 23em);
+    width: 46em;
+    height: 46em;
+    animation: orbit 30s linear infinite;
+}
+
+
+.earth::before, .moon::before, .mars::before, .jupiter::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+}
+
+.earth::before {
+    left: 17em;
+    width: 2.5em;
+    height: 2.5em;
+    background: linear-gradient(rgb(182, 209, 198), rgb(5, 54, 249));
+}
+
+.moon::before {
+    top: 0;
+    left: 0;
+    width: 1.15em;
+    height: 1.15em;
+    background-color: rgb(164, 164, 164);
+}
+
+.mars::before {
+    top: 15em;
+    left: -0.5em;
+    width: 2em;
+    height: 2em;
+    background: linear-gradient(rgb(100, 15, 15), rgb(191, 10, 10));
+}
+
+.jupiter::before {
+    bottom: 2em;
+    right: 6.5em;
+    width: 5em;
+    height: 5em;
+    background: linear-gradient(rgb(188, 32, 32), rgb(226, 95, 48));
+}
+
+@keyframes orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (width <= 45em) {
+    body {
+        font-size: 10px;
+    }
+}
