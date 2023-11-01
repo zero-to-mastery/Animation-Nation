@@ -33,7 +33,17 @@ let cards = [
     imageLink: './Art/stormworm9/RingAnimation/ring.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
-  },
+   },
+
+  {
+    artName: 'TriangleProjection',
+    pageLink: './Art/stormworm9/TriangleProjection/projection.html',
+    imageLink: './Art/stormworm9/TriangleProjection/TriangleProjection.gif',
+    author: 'stormworm9',
+    githubLink: 'https://github.com/stormworm9'
+  }, 
+
+
   {
     artName: 'Loading Page',
     pageLink: './Art/SaumyaKumar-09/Animation%204/index.html',
@@ -41,6 +51,7 @@ let cards = [
     author: 'SaumyaKumar-09',
     githubLink: 'https://github.com/SaumyaKumar-09'
   },
+
   {
     artName: 'Windows start animation',
     pageLink: './Art/SaumyaKumar-09/Animation%202/index.html',
