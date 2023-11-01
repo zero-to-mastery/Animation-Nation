@@ -1,48 +1,44 @@
 body {
-    margin: 0;
-    overflow: hidden;
-    background-color: #0c0c0c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .avengers-logo {
-    display: flex;
-    font-family: 'Metal Mania', sans-serif;
-    font-size: 4rem;
-    animation: avengers 2s infinite;
+  display: flex;
+  font-family: 'Metal Mania', sans-serif;
+  font-size: 4rem;
+  animation: avengers 2s infinite;
 }
 
-.avengers-logo>* {
-    text-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
-    animation: glow 2s infinite;
-    opacity: 0;
+.avengers-logo > * {
+  text-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+  animation: glow 2s infinite;
+  opacity: 0;
 }
-
-
 
 @keyframes avengers {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
 
-    0%,
-    100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 @keyframes glow {
+  0%,
+  100% {
+    opacity: 0;
+  }
 
-    0%,
-    100% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 1;
-    }
+  50% {
+    opacity: 1;
+  }
 }

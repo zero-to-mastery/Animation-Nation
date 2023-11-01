@@ -1,0 +1,107 @@
+body {
+  background-color: #eee;
+}
+header {
+  text-align: center;
+  font-size: 18px;
+  color: rgba(25, 25, 25, 1);
+}
+
+.wrap {
+  margin-top: 150px;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  background-size: 80px 80px;
+}
+
+.cube {
+  margin: auto;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  transform-style: preserve-3d;
+}
+
+.cube div {
+  position: absolute;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+  border: solid 1px #eee;
+  color: #fff;
+  font: 10px arial;
+  transition: transform 0.2s ease-in;
+}
+.front {
+  background-color: rgba(255, 0, 0, 0.6);
+  transform: translateZ(100px);
+}
+
+.back {
+  background-color: rgba(0, 255, 0, 0.6);
+  transform: translateZ(-100px) rotateY(180deg);
+}
+
+.right {
+  background-color: rgba(0, 0, 255, 0.6);
+  transform: rotateY(-270deg) translateX(100px);
+  transform-origin: top right;
+}
+
+.left {
+  background-color: rgba(255, 255, 0, 0.6);
+  transform: rotateY(270deg) translateX(-100px);
+  transform-origin: center left;
+}
+
+.top {
+  background-color: rgba(255, 0, 255, 0.6);
+  transform: rotateX(-270deg) translateY(-100px);
+  transform-origin: top center;
+}
+
+.bottom {
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: rotateX(270deg) translateY(100px);
+  transform-origin: bottom center;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+.cube {
+  animation: rotate 20s infinite linear;
+}
+
+.wrap:hover .front {
+  transform: translateZ(200px);
+}
+
+.wrap:hover .back {
+  transform: translateZ(-200px) rotateY(180deg);
+}
+
+.wrap:hover .right {
+  transform: rotateY(-270deg) translateZ(100px) translateX(100px);
+}
+
+.wrap:hover .left {
+  transform: rotateY(270deg) translateZ(100px) translateX(-100px);
+}
+
+.wrap:hover .top {
+  transform: rotateX(-270deg) translateZ(100px) translateY(-100px);
+}
+
+.wrap:hover .bottom {
+  transform: rotateX(270deg) translateZ(100px) translateY(100px);
+}
