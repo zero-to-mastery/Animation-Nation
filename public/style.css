@@ -2,7 +2,7 @@
 /* GENERAL LAYOUT STYLE */
 
 :root {
-  --main:  #03dac6;
+  --main: #03dac6;
   --main-header: #25c2c0a6;
   --main-darker: #017170c3;
   --main-deep: #00a8b7;
@@ -21,7 +21,10 @@ body {
 }
 
 /* Overrides Browser Defaults */
-p, h3, a, ul {
+p,
+h3,
+a,
+ul {
   text-decoration: none;
   color: #333;
   margin-block-start: 0;
@@ -35,7 +38,7 @@ h2 {
 }
 
 hr {
-  border: .5px solid var(--main-deep);
+  border: 0.5px solid var(--main-deep);
   margin: 40px 25px 40px;
   border-radius: 100%;
 }
@@ -44,7 +47,6 @@ hr {
   background: var(--main-header);
   padding: 1.5vw;
 }
-
 
 #header h1 {
   font-family: 'Slackside One', cursive;
@@ -58,9 +60,8 @@ hr {
   margin: 20px;
 }
 
-
 #search-bar {
-  background-color: #FFF;
+  background-color: #fff;
   width: 60%;
   border-radius: 3px;
   padding: 15px 20px;
@@ -68,7 +69,6 @@ hr {
   outline: unset;
   margin-bottom: 30px;
 }
-
 
 /* Flex Card Container */
 .flex {
@@ -97,7 +97,7 @@ hr {
   flex-wrap: wrap;
   margin: 3vw;
   padding: 50px;
-  overflow:hidden;
+  overflow: hidden;
   grid-gap: 20px 20px;
 }
 
@@ -131,7 +131,7 @@ hr {
   box-shadow: 0 15px 25px 0px var(--shadow);
   -webkit-box-shadow: 0 15px 25px 0px var(--shadow);
   -moz-box-shadow: 0 15px 25px 0px var(--shadow);
-  background-color: #FFFFFF25;
+  background-color: #ffffff25;
 }
 
 .art-image {
@@ -153,7 +153,8 @@ hr {
   font-size: 1.4rem;
 }
 
-.art-title:hover, .author > a:hover {
+.art-title:hover,
+.author > a:hover {
   color: var(--main-deep);
   transition: color 0.2s ease-in-out;
 }
@@ -169,7 +170,7 @@ hr {
   padding: 35px 20px;
   background-color: #343a40b0;
   justify-content: center;
-  color: #DDD;
+  color: #ddd;
   border-top: 1px solid rgba(255, 255, 255, 0.89);
 }
 
@@ -242,4 +243,3 @@ hr {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(88, 194, 250);
 }
-
