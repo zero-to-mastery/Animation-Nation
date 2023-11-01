@@ -2264,9 +2264,9 @@ let cards = [
     githubLink: 'https://github.com/vishalpatil20'
   }
   {
-    artName: 'Nuclear', 
-    pageLink: './Art/Nuclear/nuclear.html',
-    imageLink: './Art/Nuclear/nuclear.gif', 
+    artName: 'SolomonAnim', 
+    pageLink: './Art/SolomonAnim/index.html',
+    imageLink: './Art/SolomonAnim/animation.gif', 
     author: 'Solomon',
     githubLink: 'https://github.com/solomongegziabher' 
   }
