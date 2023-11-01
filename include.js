@@ -2823,6 +2823,13 @@ let cards = [
     githubLink: 'https://github.com/Bhavna2003'
   },
   {
+    artName: 'HelloThere',
+    pageLink: './Art/MojoBoingo/index.html',
+    imageLink: './Art/MojoBoingo/hellothere.gif',
+    author: 'Brady Ayres',
+    githubLink: 'https://github.com/MojoBoingo'
+  },
+  {
     artName: 'Emerald',
     pageLink: './Art/daniel-badura/emerald/emerald.html',
     imageLink: './Art/daniel-badura/emerald/emerald.gif',
