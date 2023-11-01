@@ -1061,8 +1061,8 @@ let cards = [
   },
   {
     artName: 'Ruby',
-    pageLink: './Art/daniel-badura/ruby.html',
-    imageLink: './Art/daniel-badura/ruby.gif',
+    pageLink: './Art/daniel-badura/ruby/ruby.html',
+    imageLink: './Art/daniel-badura/ruby/ruby.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
   },
@@ -1299,8 +1299,8 @@ let cards = [
   },
   {
     artName: 'Diamond',
-    pageLink: './Art/daniel-badura/diamond.html',
-    imageLink: './Art/daniel-badura/diamond.gif',
+    pageLink: './Art/daniel-badura/diamond/diamond.html',
+    imageLink: './Art/daniel-badura/diamond/diamond.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
   },
@@ -2828,6 +2828,13 @@ let cards = [
     imageLink: './Art/MojoBoingo/hellothere.gif',
     author: 'Brady Ayres',
     githubLink: 'https://github.com/MojoBoingo'
+  },
+  {
+    artName: 'Emerald',
+    pageLink: './Art/daniel-badura/emerald/emerald.html',
+    imageLink: './Art/daniel-badura/emerald/emerald.gif',
+    author: 'daniel-badura',
+    githubLink: 'https://github.com/daniel-badura'
   }
 ];
 
