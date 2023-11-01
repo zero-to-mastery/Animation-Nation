@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.message {
+    font-size: 24px;
+    color: #3498db;
+    animation: fadeInOut 2s ease infinite;
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.submit-button:hover {
+    animation: moveButton 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveButton {
+    0%, 100% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(-50px) translateY(0);
+    }
+    50% {
+        transform: translateX(0) translateY(-50px);
+    }
+    75% {
+        transform: translateX(50px) translateY(0);
+    }
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
