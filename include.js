@@ -528,11 +528,11 @@ let cards = [
     githubLink: 'https://github.com/ornitcg'
   },
   {
-    artName: 'Portugal Flag', // change this to the name of your artwork
-    pageLink: './Art/criscaldeiraa/index.html', // change this
-    imageLink: './Art/criscaldeiraa/portugal_flag.gif', // change this
-    author: 'Cristina', // use your name
-    githubLink: 'https://github.com/criscaldeiraa' // change this
+    artName: 'Portugal Flag',
+    pageLink: './Art/criscaldeiraa/index.html',
+    imageLink: './Art/criscaldeiraa/portugal_flag.gif',
+    author: 'Cristina',
+    githubLink: 'https://github.com/criscaldeiraa'
   }
   {
     artName: 'Circles',
