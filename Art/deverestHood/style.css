@@ -79,18 +79,12 @@ body {
   from {
     background: #e6e4db;
     color: #1d1802;
-    box-shadow:
-      0 0 10px 3px #fef7d7,
-      0 0 50px 6px #fefcd7,
-      0 0 90px 9px #fef769;
+    box-shadow: 0 0 10px 3px #fef7d7, 0 0 50px 6px #fefcd7, 0 0 90px 9px #fef769;
   }
   to {
     background: #ffdd33;
     color: #d3bd00;
-    box-shadow:
-      0 0 10px 3px #fef7d7,
-      0 0 50px 6px #fefcd7,
-      0 0 90px 9px #fef769;
+    box-shadow: 0 0 10px 3px #fef7d7, 0 0 50px 6px #fefcd7, 0 0 90px 9px #fef769;
   }
 }
 
@@ -127,10 +121,7 @@ body {
   height: 400px;
   border: 2px solid #000;
   background: linear-gradient(0.25turn, #424242, #ebf8e1, #e3e3e3);
-  animation:
-    open 3s linear,
-    close 3s linear 3s,
-    open 3s linear 12s forwards;
+  animation: open 3s linear, close 3s linear 3s, open 3s linear 12s forwards;
   transform-origin: left;
 }
 
@@ -139,10 +130,7 @@ body {
   height: 400px;
   border: 2px solid #000;
   background: linear-gradient(0.25turn, #e3e3e3, #ebf8e1, #424242);
-  animation:
-    open 3s linear,
-    close 3s linear 3s,
-    open 3s linear 12s forwards;
+  animation: open 3s linear, close 3s linear 3s, open 3s linear 12s forwards;
   transform-origin: right;
 }
 

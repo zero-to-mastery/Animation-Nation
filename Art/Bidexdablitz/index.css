@@ -30,8 +30,7 @@
   transform: perspective(5000px);
 
   /* animation */
-  animation:
-    tilt-card-3d 12s ease-in-out infinite alternate,
+  animation: tilt-card-3d 12s ease-in-out infinite alternate,
     shine 12s ease-in-out infinite alternate;
 }
 

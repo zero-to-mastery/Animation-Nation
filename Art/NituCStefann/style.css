@@ -21,8 +21,7 @@ body {
   position: absolute;
   top: calc(50% - 50px);
   left: calc(50% - 50px);
-  animation:
-    sunset 3s ease-in-out forwards 1,
+  animation: sunset 3s ease-in-out forwards 1,
     sunrise 3s ease-in-out 3s forwards 1;
 }
 

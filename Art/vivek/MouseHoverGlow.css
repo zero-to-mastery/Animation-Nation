@@ -45,13 +45,8 @@
   border-radius: 50%;
   transform: scale(0);
   transition: 2s;
-  box-shadow:
-    0 0 10px #00ff0a,
-    0 0 20px #00ff0a,
-    0 0 40px #00ff0a,
-    0 0 6cqh #00ff0a,
-    0 0 60px #00ff0a,
-    0 0 80px #00ff0a;
+  box-shadow: 0 0 10px #00ff0a, 0 0 20px #00ff0a, 0 0 40px #00ff0a,
+    0 0 6cqh #00ff0a, 0 0 60px #00ff0a, 0 0 80px #00ff0a;
 }
 
 .container span:hover::before {

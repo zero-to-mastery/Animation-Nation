@@ -27,9 +27,7 @@ body {
   background: linear-gradient(-45deg, hsl(225, 14%, 95%), rgba(0, 0, 255, 0));
   border-radius: 999px;
   filter: drop-shadow(0 0 6px hsl(220, 69%, 49%));
-  animation:
-    tail 3s ease-in-out infinite,
-    falling 3s ease-in-out infinite;
+  animation: tail 3s ease-in-out infinite, falling 3s ease-in-out infinite;
 }
 
 @keyframes tail {

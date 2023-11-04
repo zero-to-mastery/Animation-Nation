@@ -99,64 +99,49 @@ body::after {
 
 .invisible-box-1:hover ~ .card {
   transform: rotate3d(-1, 1, 0, -20deg);
-  box-shadow:
-    10px 10px 5px var(--shadow-color-1),
-    10px 10px 10px var(--shadow-color-2),
-    10px 10px 15px var(--shadow-color-3);
+  box-shadow: 10px 10px 5px var(--shadow-color-1),
+    10px 10px 10px var(--shadow-color-2), 10px 10px 15px var(--shadow-color-3);
 }
 
 .invisible-box-2:hover ~ .card {
   transform: rotate3d(1, 0, 0, 20deg);
-  box-shadow:
-    0px 10px 5px var(--shadow-color-1),
-    0px 10px 10px var(--shadow-color-2),
-    0px 10px 15px var(--shadow-color-3);
+  box-shadow: 0px 10px 5px var(--shadow-color-1),
+    0px 10px 10px var(--shadow-color-2), 0px 10px 15px var(--shadow-color-3);
 }
 
 .invisible-box-3:hover ~ .card {
   transform: rotate3d(1, 1, 0, 20deg);
-  box-shadow:
-    -10px 10px 5px var(--shadow-color-1),
-    -10px 10px 10px var(--shadow-color-2),
-    -10px 10px 15px var(--shadow-color-3);
+  box-shadow: -10px 10px 5px var(--shadow-color-1),
+    -10px 10px 10px var(--shadow-color-2), -10px 10px 15px var(--shadow-color-3);
 }
 
 .invisible-box-4:hover ~ .card {
   transform: rotate3d(0, 1, 0, -20deg);
-  box-shadow:
-    10px 0px 5px var(--shadow-color-1),
-    10px 0px 10px var(--shadow-color-2),
-    10px 0px 15px var(--shadow-color-3);
+  box-shadow: 10px 0px 5px var(--shadow-color-1),
+    10px 0px 10px var(--shadow-color-2), 10px 0px 15px var(--shadow-color-3);
 }
 
 .invisible-box-6:hover ~ .card {
   transform: rotate3d(0, 1, 0, 20deg);
-  box-shadow:
-    -10px 0px 5px var(--shadow-color-1),
-    -10px 0px 10px var(--shadow-color-2),
-    -10px 0px 15px var(--shadow-color-3);
+  box-shadow: -10px 0px 5px var(--shadow-color-1),
+    -10px 0px 10px var(--shadow-color-2), -10px 0px 15px var(--shadow-color-3);
 }
 
 .invisible-box-7:hover ~ .card {
   transform: rotate3d(1, 1, 0, -20deg);
-  box-shadow:
-    10px -10px 5px var(--shadow-color-1),
-    10px -10px 10px var(--shadow-color-2),
-    10px -10px 15px var(--shadow-color-3);
+  box-shadow: 10px -10px 5px var(--shadow-color-1),
+    10px -10px 10px var(--shadow-color-2), 10px -10px 15px var(--shadow-color-3);
 }
 
 .invisible-box-8:hover ~ .card {
   transform: rotate3d(1, 0, 0, -20deg);
-  box-shadow:
-    0px -10px 5px var(--shadow-color-1),
-    0px -10px 10px var(--shadow-color-2),
-    0px -10px 15px var(--shadow-color-3);
+  box-shadow: 0px -10px 5px var(--shadow-color-1),
+    0px -10px 10px var(--shadow-color-2), 0px -10px 15px var(--shadow-color-3);
 }
 
 .invisible-box-9:hover ~ .card {
   transform: rotate3d(1, -1, 0, -20deg);
-  box-shadow:
-    -10px -10px 5px var(--shadow-color-1),
+  box-shadow: -10px -10px 5px var(--shadow-color-1),
     -10px -10px 10px var(--shadow-color-2),
     -10px -10px 15px var(--shadow-color-3);
 }

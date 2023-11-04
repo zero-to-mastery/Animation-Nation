@@ -18,10 +18,7 @@ body {
   transform: translateZ(-210px);
   background: linear-gradient(#000, #333);
   border-radius: 50%;
-  box-shadow:
-    0 0 14px 14px #00f,
-    0 0 28px 28px #00f,
-    0 0 42px 42px #00f;
+  box-shadow: 0 0 14px 14px #00f, 0 0 28px 28px #00f, 0 0 42px 42px #00f;
 }
 
 .light {
@@ -31,9 +28,7 @@ body {
   background-color: #0f0;
   border-radius: 50%;
   opacity: 0.7;
-  animation:
-    pulseLight 1.5s alternate infinite,
-    rotateLights 5s linear infinite;
+  animation: pulseLight 1.5s alternate infinite, rotateLights 5s linear infinite;
 }
 
 .light-1 {

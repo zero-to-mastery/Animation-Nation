@@ -13,9 +13,7 @@ body {
   height: 200px;
   background-color: #3498db;
   border-radius: 50%;
-  animation:
-    spin 5s linear infinite,
-    color-change 10s alternate infinite;
+  animation: spin 5s linear infinite, color-change 10s alternate infinite;
   width: 150%;
 }
 .second {
@@ -27,9 +25,7 @@ body {
   height: 200px;
   background-color: #3498db;
   border-radius: 50%;
-  animation:
-    spin 10s linear infinite,
-    color-change 10s alternate infinite;
+  animation: spin 10s linear infinite, color-change 10s alternate infinite;
 
   width: 150%;
 }
@@ -42,9 +38,7 @@ body {
   height: 200px;
   background-color: #3498db;
   border-radius: 50%;
-  animation:
-    spin 10s infinite,
-    color-change 10s alternate infinite;
+  animation: spin 10s infinite, color-change 10s alternate infinite;
   width: 150%;
 }
 
