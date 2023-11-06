@@ -2853,6 +2853,13 @@ let cards = [
     imageLink: './Art/daniel-badura/emerald/emerald.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
+  },
+  {
+    artName: 'Unknown', // change this to the name of your artwork
+    pageLink: './Art/albertomtferreira/index.html', // change this
+    imageLink: './Art/albertomtferreira/albertomtferreira.gif', // change this
+    author: 'Alberto Ferreira', // use your name
+    githubLink: 'https://github.com/albertomtferreira' // change this
   }
 ];
 
