@@ -2853,7 +2853,14 @@ let cards = [
     imageLink: './Art/daniel-badura/emerald/emerald.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
-  }
+  },
+  {
+    artName: 'Fascinating Animation',
+    pageLink: './Art/moutro/index.html',
+    imageLink: './Art/moutro/Animation-Nation.png',
+    author: 'Jay',
+    githubLink: 'https://github.com/moutro'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
