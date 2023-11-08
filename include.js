@@ -2853,6 +2853,13 @@ let cards = [
     imageLink: './Art/daniel-badura/emerald/emerald.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
+  },
+  {
+    artName: 'Animated', 
+    pageLink: './Art/Nyrkn10/index.html',
+    imageLink: './Art/Nyrkn10/set.gif',
+    author: 'Nyariki Kevin',
+    githubLink: 'https://github.com/nyrkn10>' 
   }
 ];
 
