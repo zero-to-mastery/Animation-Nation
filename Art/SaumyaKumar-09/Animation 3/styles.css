@@ -1,0 +1,83 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #e15f41;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.bounce1 {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 20%;
+  opacity: 0.6;
+  position: absolute;
+  animation: bounce 3s ease-in-out infinite;
+}
+
+.bounce2 {
+  width: 150%;
+  height: 150%;
+  background-color: #ffffff;
+  border-radius: 20%;
+  opacity: 0.6;
+  position: absolute;
+  animation: bounce 3s ease-in-out infinite;
+  animation-delay: -0.5s;
+}
+.bounce3 {
+  width: 200%;
+  height: 200%;
+  background-color: #ffffff;
+  border-radius: 20%;
+  opacity: 0.6;
+  position: absolute;
+  animation: bounce 3s ease-in-out infinite;
+  animation-delay: -1s;
+}
+.bounce4 {
+  width: 250%;
+  height: 250%;
+  background-color: #ffffff;
+  border-radius: 20%;
+  opacity: 0.6;
+  position: absolute;
+  animation: bounce 3s ease-in-out infinite;
+  animation-delay: -1.5s;
+}
+
+.bounce5 {
+  width: 300%;
+  height: 300%;
+  background-color: #ffffff;
+  border-radius: 20%;
+  opacity: 0.6;
+  position: absolute;
+  animation: bounce 2s ease-in-out infinite;
+  animation-delay: -2s;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(2);
+  }
+  25% {
+    transform: trasnlate(100px, 200px);
+  }
+}
