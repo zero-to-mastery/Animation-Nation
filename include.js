@@ -2855,6 +2855,13 @@ let cards = [
     githubLink: 'https://github.com/daniel-badura'
   },
   {
+    artName: 'Unknown',
+    pageLink: './Art/albertomtferreira/index.html',
+    imageLink: './Art/albertomtferreira/albertomtferreira.gif',
+    author: 'Alberto Ferreira',
+    githubLink: 'https://github.com/albertomtferreira'
+  },
+  {
     artName: 'Danimation',
     pageLink: './Art/daniloslovic17/index.html',
     imageLink: './Art/daniloslovic17/danimation.gif',
