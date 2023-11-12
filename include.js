@@ -2855,11 +2855,11 @@ let cards = [
     githubLink: 'https://github.com/daniel-badura'
   },
   {
-    artName: 'Unknown', // change this to the name of your artwork
-    pageLink: './Art/albertomtferreira/index.html', // change this
-    imageLink: './Art/albertomtferreira/albertomtferreira.gif', // change this
-    author: 'Alberto Ferreira', // use your name
-    githubLink: 'https://github.com/albertomtferreira' // change this
+    artName: 'Unknown',
+    pageLink: './Art/albertomtferreira/index.html',
+    imageLink: './Art/albertomtferreira/albertomtferreira.gif',
+    author: 'Alberto Ferreira',
+    githubLink: 'https://github.com/albertomtferreira'
   }
 ];
 
