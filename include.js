@@ -2855,7 +2855,13 @@ let cards = [
     githubLink: 'https://github.com/daniel-badura'
   },
   {
-    artName: 'Animated', 
+    artName: 'Danimation',
+    pageLink: './Art/daniloslovic17/index.html',
+    imageLink: './Art/daniloslovic17/danimation.gif',
+    author: 'Danilo Slovic',
+    githubLink: 'https://github.com/daniloslovic17'
+  },
+  {    artName: 'Animated', 
     pageLink: './Art/Nyrkn10/index.html',
     imageLink: './Art/Nyrkn10/set.gif',
     author: 'Nyariki Kevin',
