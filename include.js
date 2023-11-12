@@ -2860,7 +2860,19 @@ let cards = [
     imageLink: './Art/daniloslovic17/danimation.gif',
     author: 'Danilo Slovic',
     githubLink: 'https://github.com/daniloslovic17'
-  }
+  },
+  {    artName: 'Animated', 
+    pageLink: './Art/Nyrkn10/index.html',
+    imageLink: './Art/Nyrkn10/set.gif',
+    author: 'Nyariki Kevin',
+    githubLink: 'https://github.com/nyrkn10>' 
+  },
+  {    artName: 'Fascinating Animation',
+    pageLink: './Art/moutro/index.html',
+    imageLink: './Art/moutro/Animation-Nation.png',
+    author: 'Jay',
+    githubLink: 'https://github.com/moutro'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
