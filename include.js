@@ -2860,7 +2860,13 @@ let cards = [
     imageLink: './Art/Nyrkn10/set.gif',
     author: 'Nyariki Kevin',
     githubLink: 'https://github.com/nyrkn10>' 
-  }
+  },
+  {    artName: 'Fascinating Animation',
+    pageLink: './Art/moutro/index.html',
+    imageLink: './Art/moutro/Animation-Nation.png',
+    author: 'Jay',
+    githubLink: 'https://github.com/moutro'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
