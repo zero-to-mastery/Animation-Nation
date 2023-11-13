@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: black;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ball {
+  height: 150px;
+  width: 150px;
+  background: radial-gradient(circle at 20px 20px, #faf803, #ffffff);
+  border-radius: 50%;
+  background: radial-gradient(circle at 20px 20px, #eb3bed, #ffffff);
+
+  animation: bounce 6s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0%);
+    animation-timing-function: ease-in;
+  }
+
+  15% {
+    transform: translateY(530%);
+    animation-timing-function: ease-in;
+  }
+
+  35% {
+    transform: translateY(200%);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateY(530%);
+    animation-timing-function: ease-in;
+  }
+  60% {
+    transform: translateY(350%);
+    animation-timing-function: ease-out;
+  }
+  70% {
+    transform: translateY(530%);
+    animation-timing-function: ease-in;
+  }
+  80% {
+    transform: translateY(450%);
+    animation-timing-function: ease-out;
+  }
+  90% {
+    transform: translateY(530%);
+    animation-timing-function: ease-in;
+  }
+  95% {
+    transform: translateY(500%);
+    animation-timing-function: ease-out;
+  }
+
+  100% {
+    transform: translateY(530%);
+    animation-timing-function: ease-in;
+  }
+}
