@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {    
+    artName: 'Moving Clouds Animation',
+    pageLink: './Art/artursniegowski/index.html',
+    imageLink: './Art/artursniegowski/moving_clouds.gif',
+    author: 'Artur Sniegowski',
+    githubLink: 'https://github.com/artursniegowski'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
