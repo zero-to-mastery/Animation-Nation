@@ -2853,14 +2853,40 @@ let cards = [
     imageLink: './Art/daniel-badura/emerald/emerald.gif',
     author: 'daniel-badura',
     githubLink: 'https://github.com/daniel-badura'
-  }
+  },
   {
     artName: 'SolomonAnim', 
     pageLink: './Art/SolomonAnim/index.html',
     imageLink: './Art/SolomonAnim/animation.gif', 
     author: 'Solomon',
-    githubLink: 'https://github.com/solomongegziabher' 
-  }
+    githubLink: 'https://github.com/solomongegziabher'
+  },
+  {
+    artName: 'Unknown',
+    pageLink: './Art/albertomtferreira/index.html',
+    imageLink: './Art/albertomtferreira/albertomtferreira.gif',
+    author: 'Alberto Ferreira',
+    githubLink: 'https://github.com/albertomtferreira'
+  },
+  {
+    artName: 'Danimation',
+    pageLink: './Art/daniloslovic17/index.html',
+    imageLink: './Art/daniloslovic17/danimation.gif',
+    author: 'Danilo Slovic',
+    githubLink: 'https://github.com/daniloslovic17'
+  },
+  {    artName: 'Animated', 
+    pageLink: './Art/Nyrkn10/index.html',
+    imageLink: './Art/Nyrkn10/set.gif',
+    author: 'Nyariki Kevin',
+    githubLink: 'https://github.com/nyrkn10>' 
+  },
+  {    artName: 'Fascinating Animation',
+    pageLink: './Art/moutro/index.html',
+    imageLink: './Art/moutro/Animation-Nation.png',
+    author: 'Jay',
+    githubLink: 'https://github.com/moutro'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
