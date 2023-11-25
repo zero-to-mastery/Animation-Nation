@@ -2902,7 +2902,13 @@ let cards = [
     imageLink: './Art/Kalliran/Animation-Nation.gif',
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
-  },
+  },{
+    artName: 'Matrix',
+    pageLink: './Art/hamzakadd/index.html',
+    imageLink: './Art/hamzakadd/matrix.gif',
+    author: 'Hamza',
+    githubLink: 'https://github.com/hamzakadd'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
