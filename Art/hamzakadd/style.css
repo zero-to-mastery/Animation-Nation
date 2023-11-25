@@ -1,0 +1,116 @@
+@property --timer {
+    syntax: '<integer>';
+    inherits: false;
+    initial-value: 1;
+}    
+
+:root { background-color: black; overflow: hidden; font-family: monospace; }
+
+.l00 { left: calc(100% + 20px); }
+.l05 { left: 05%; }
+.l10 { left: 10%; }
+.l15 { left: 15%; }
+.l20 { left: 20%; }
+.l25 { left: 25%; }
+.l30 { left: 30%; }    
+.l35 { left: 35%; }
+.l40 { left: 40%; }
+.l45 { left: 45%; }
+.l50 { left: 50%; }
+.l55 { left: 55%; }
+.l60 { left: 60%; }
+.l65 { left: 65%; }
+.l70 { left: 70%; }
+.l75 { left: 75%; }
+.l80 { left: 80%; }
+.l85 { left: 85%; }
+.l90 { left: 90%; }
+.l95 { left: 95%; }
+.l100 { left: calc(100% - 20px); }
+
+
+.t200 { top: -400px; }
+.t500 { top: -500px; }
+.t180 { top: -680px; }
+.t700 { top: -700px; }
+.t800 { top: -800px; }
+.t900 { top: -900px; }
+.t300 { top: -300px; }    
+.t400 { top: -400px; }    
+.t250 { top: -250px; }    
+.t320 { top: -320px; }    
+.t190 { top: -690px; }    
+.t520 { top: -520px; }    
+.t380 { top: -680px; }    
+.t400 { top: -800px; }    
+.t600 { top: -600px; }    
+.t650 { top: -650px; }    
+.t290 { top: -790px; }    
+.t530 { top: -730px; }    
+.t420 { top: -720px; }    
+.t310 { top: -410px; }
+
+
+.big div {
+    width: 40px!important;        
+    height: 300px!important;
+    font-size: 24px!important;
+    color: #008000!important;
+}
+
+.letter {
+    position: absolute;
+    background-color: black;
+    counter-reset: timer-1 calc(var(--timer) + 9) timer-2 calc(var(--timer) + 8) timer-3 calc(var(--timer) + 7) timer-4 calc(var(--timer) + 6) timer-5 calc(var(--timer) + 5) timer-6 calc(var(--timer) + 4) timer-7 calc(var(--timer) + 3) timer-8 calc(var(--timer) + 2) timer-9 calc(var(--timer) + 1) timer-10 calc(var(--timer) + 0);
+    animation: animate-letter 2s linear infinite running, animate-rotate 1s linear infinite running, animate-position 5s linear infinite running;
+}
+
+.d2{
+animation-delay: 2.5s;
+}
+
+.letter div {
+    width: 20px;
+    height: 140px;
+    font-size: 12px;
+    color: #002e00;
+}
+
+.letter div:before {
+    position: absolute;
+    filter: brightness(2.5) blur(0.5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    content: counter(timer-1, lower-alpha) counter(timer-2, lower-alpha) counter(timer-3, lower-alpha) counter(timer-4, lower-alpha) counter(timer-5, lower-alpha) counter(timer-6, lower-alpha) counter(timer-7, lower-alpha) counter(timer-8, lower-alpha) counter(timer-9, lower-alpha) counter(timer-10, lower-alpha);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.letter div:after {
+    position: absolute;
+    content: counter(timer-1, lower-alpha);
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background: linear-gradient(180deg, black, transparent);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+@keyframes animate-letter {
+    to {
+        --timer: 16;
+    }
+}
+
+@keyframes animate-position {
+    to {
+        top: calc(100% + 40px);
+    }
+}
+
