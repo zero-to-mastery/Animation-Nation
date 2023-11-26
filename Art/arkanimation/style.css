@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #1d2630;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vh;
+  height: 100vh;
+}
+
+.spinner-box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.blue-orbit {
+  width: 165px;
+  height: 165px;
+  border: 1px solid #91daffa5;
+  animation: spin3D 3s linear 0.2s infinite;
+}
+
+.leo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.green-orbit {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #91ffbfa5;
+  animation: spin3D 2s linear 0s infinite;
+}
+
+.red-orbit {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #ffca91a5;
+  animation: spin3D 1s linear 0s infinite;
+}
+
+.white-orbit {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ffffff;
+  animation: spin3D 10s linear 0s infinite;
+}
+
+.w1 {
+  transform: rotate3D(1, 1, 1, 90deg);
+}
+
+.w2 {
+  transform: rotate3D(1, 2, 0.5, 90deg);
+}
+
+.w3 {
+  transform: rotate3D(0.5, 1, 2, 90deg);
+}
+
+@keyframes spin3D {
+  from {
+    transform: rotate3d(0.5, 0.5, 0.5, 360deg);
+  }
+
+  to {
+    transform: rotate3d(0deg);
+  }
+}

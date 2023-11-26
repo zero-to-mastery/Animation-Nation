@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+    artName: 'Arkanimation',
+    pageLink: './Art/arkanimation/index.html',
+    imageLink: './Art/arkanimation/animation.gif',
+    author: 'Arkanide',
+    githubLink: 'https://github.com/arkanide1' 
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
