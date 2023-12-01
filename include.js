@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+    artName: 'Text Rotating Animation', 
+    pageLink: './Art/fedryalvindra/index.html', 
+    imageLink: './Art/fedryalvindra/textrotating-fedry.gif', 
+    author: 'Fedry Alvindra',
+    githubLink: 'https://github.com/fedryalvindra' 
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
