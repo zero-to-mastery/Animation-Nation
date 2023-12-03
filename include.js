@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+    artName: 'White Christmas',
+    pageLink: './Art/YumiMachino/index.html', 
+    imageLink: './Art/YumiMachino/white_christmas.gif', 
+    author: 'Yumi Machino', 
+    githubLink: 'https://github.com/YumiMachino'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
