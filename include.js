@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {    
+    artName: 'Crazy Spinning Circles',
+    pageLink: './Art/Imaginario27/animation.html',
+    imageLink: './Art/Imaginario27/crazy-spinning-circles.gif',
+    author: 'Imaginario27',
+    githubLink: 'https://github.com/Imaginario27'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
