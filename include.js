@@ -2882,6 +2882,7 @@ let cards = [
     githubLink: 'https://github.com/moutro'
   },
   {
+<<<<<<< HEAD
     artName: 'Animatron',
     pageLink: './Art/shazeen-1990/index.html',
     imageLink: './Art/shazeen-1990/animate.jpg',
@@ -2915,6 +2916,14 @@ let cards = [
     author: 'Nyame Richmond',
     githubLink: 'https://github.com/nyame100'
   }
+=======
+    artName: 'White Christmas',
+    pageLink: './Art/YumiMachino/index.html', 
+    imageLink: './Art/YumiMachino/white_christmas.gif', 
+    author: 'Yumi Machino', 
+    githubLink: 'https://github.com/YumiMachino'
+  },
+>>>>>>> da7b7b4b (Add my art to the project)
 ];
 
 /* -------------------------------------------------------------------------- */
