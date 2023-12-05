@@ -1,8 +1,15 @@
 let cards = [
   {
+    artName: 'Colorful Letter Animation',
+    pageLink: './Art/Mikeabah/index.html',
+    imageLink: './Art/Mikeabah/ColorfulLetterAnimation.gif',
+    author: 'Mikeabah',
+    githubLink: 'https://github.com/Mikeabah'
+  },
+  {
     artName: 'Balls Animation',
     pageLink: './Art/vikasverma67/Animation1/index.html',
-    imageLink: './Art/vikasverma67/Animation1/lets play ball.gif',
+    imageLink: './Art/vikasverma67/Animation1/lets_play_ball.gif',
     author: 'vikasverma67',
     githubLink: 'https://github.com/vikasverma67'
   },
