@@ -8,11 +8,7 @@
   <img src="https://img.shields.io/github/last-commit/zero-to-mastery/Animation-Nation?style=for-the-badge" />
   <img src="https://img.shields.io/github/contributors-anon/zero-to-mastery/Animation-Nation?style=for-the-badge" />
   <br>
-  <img src="https://img.shields.io/github/issues/zero-to-mastery/Animation-Nation?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues-pr/zero-to-mastery/Animation-Nation?style=for-the-badge" />
-  <br>
-  <img src="https://img.shields.io/github/issues-closed-raw/zero-to-mastery/Animation-Nation?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues-pr-closed-raw/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+
 </div>
 <br>
 
