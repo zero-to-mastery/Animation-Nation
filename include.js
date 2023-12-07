@@ -2,9 +2,7 @@ let cards = [
   {
     artName: 'Balls Animation',
     pageLink: './Art/vikasverma67/Animation1/index.html',
-    imageLink: './Art/vikasverma67/Animation1/lets play ball.gif',
-    author: 'vikasverma67',
-    githubLink: 'https://github.com/vikasverma67'
+    imageLink: './Art/vikasverma67/Animation1/lets play ball.gif'
   },
   {
     artName: 'Earth',
