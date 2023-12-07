@@ -33,7 +33,7 @@ let cards = [
     imageLink: './Art/stormworm9/RingAnimation/ring.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
-   },
+  },
 
   {
     artName: 'TriangleProjection',
@@ -41,8 +41,7 @@ let cards = [
     imageLink: './Art/stormworm9/TriangleProjection/TriangleProjection.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
-  }, 
-
+  },
 
   {
     artName: 'Loading Page',
@@ -2868,18 +2867,28 @@ let cards = [
     author: 'Danilo Slovic',
     githubLink: 'https://github.com/daniloslovic17'
   },
-  {    artName: 'Animated', 
+  {
+    artName: 'Animated',
     pageLink: './Art/Nyrkn10/index.html',
     imageLink: './Art/Nyrkn10/set.gif',
     author: 'Nyariki Kevin',
-    githubLink: 'https://github.com/nyrkn10>' 
+    githubLink: 'https://github.com/nyrkn10>'
   },
-  {    artName: 'Fascinating Animation',
+  {
+    artName: 'Fascinating Animation',
     pageLink: './Art/moutro/index.html',
     imageLink: './Art/moutro/Animation-Nation.png',
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+
+  {
+    artName: 'Batimation Project',
+    pageLink: './Art/Dbat24/index.html',
+    imageLink: './Art/Dbat24/batimation.gif',
+    author: 'Abdulhafis',
+    githubLink: 'https://github.com/Dbat24'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
