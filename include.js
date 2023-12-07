@@ -2880,6 +2880,12 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {    artName: 'Coders Life Cycle',
+    pageLink: './Art/aogajoseph/index.html',
+    imageLink: './Art/aogajoseph/life-cycle.gif',
+    author: 'Joseph Aoga',
+    githubLink: 'https://github.com/aogajoseph'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
