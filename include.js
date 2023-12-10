@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  ,
+  {    artName: 'Typing Animation',
+    pageLink: './Art/arr199/index.html',
+    imageLink: './Art/arr199/preview.gif',
+    author: 'Abiel',
+    githubLink: 'https://github.com/arr199'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
