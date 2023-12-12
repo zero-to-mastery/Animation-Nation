@@ -115,6 +115,13 @@ let cards = [
     author: 'Krish Gautam',
     githubLink: 'https://github.com/Kris248'
   },
+  {
+    artName: 'Coffee☕', // change this to the name of your artwork
+    pageLink: './Art/<magic1986>/index.html', // change this
+    imageLink: './Art/<magic1986>/coffee.gif', // change this
+    author: 'Dragan', // use your name
+    githubLink: 'https://github.com/<magic1986>' // change this
+  },
 
   {
     artName: 'Ball Animation',
