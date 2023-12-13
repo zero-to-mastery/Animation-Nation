@@ -3907,13 +3907,20 @@ let cards = [
     imageLink: './Art/wcgraupmann/giphy.gif',
     author: 'Will Graupmann',
     githubLink: 'https://github.com/wcgraupmann'
+  },
   {
-=======
     artName: 'Animated Tree',
     pageLink: './Art/berenvrl/index.html',
     imageLink: './Art/berenvrl/animatedtree.gif',
+    author: 'berenvrl',
     githubLink: 'https://github.com/berenvrl'
->>>>>>> c716f852 (adding my animation art to the project)
+  },
+  {
+    artName: 'Something different',
+    pageLink: './Art/fenwood/index.html',
+    imageLink: './Art/fenwood/fenwood.fig',
+    author: 'fenwood',
+    githubLink: 'https://github.com/fenwood'
   }
 ];
 
