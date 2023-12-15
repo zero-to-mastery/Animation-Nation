@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.c1 {
+  background-color: #33658a;
+  animation: fly-ball 3s;
+}
+
+.c2 {
+  background-color: #86bbd8;
+  animation: fly-ball 3.5s;
+}
+
+.c3 {
+  background-color: #2f4858;
+  animation: fly-ball 4s;
+}
+
+.c4 {
+  background-color: #f6ae2d;
+  animation: fly-ball 4.5s;
+}
+
+.c5 {
+  background-color: #f26419;
+  animation: fly-ball 5s;
+}
+
+@keyframes fly-ball {
+  30% {
+    transform: translateY(65vh);
+    animation-name: fade-bg-1, fade-bg-2;
+    animation-delay: 0, 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+}
