@@ -2889,6 +2889,7 @@ let cards = [
     githubLink: 'https://github.com/moutro'
   },
   {
+<<<<<<< HEAD
     artName: 'mojaanimacia',
     pageLink: './Art/mojaanimacia/stranka.html',
     author: 'Martin052',
@@ -3949,6 +3950,13 @@ let cards = [
     imageLink: './Art/Farzan-Ullah/Bouncing_ball.gif',
     author: 'Farzan Ullah',
     githubLink: 'https://github.com/Farzan-Ullah'
+  },
+  {
+    artName: 'Submit_button',
+    pageLink: './Art/Lenrok01/index.html',
+    imageLink: './Art/Lenrok01/photo.jpg',
+    author: 'Lenrok01',
+    githubLink: 'https://github.com/Lenrok01'
   }
 ];
 
