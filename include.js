@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+    artName: 'Submit_button', // change this to the name of your artwork
+    pageLink: './Art/Lenrok01/index.html', // change this
+    imageLink: './Art/Lenrok01/photo.jpg', // change this
+    author: 'Lenrok01', // use your name
+    githubLink: 'https://github.com/Lenrok01' // change this
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
