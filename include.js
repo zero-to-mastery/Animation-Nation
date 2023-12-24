@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {     
+    artName: 'Balance',
+    pageLink: './Art/Vicruro/index.html',
+    imageLink: './Art/Vicruro/Balance.gif',
+    author: 'Vicruro',
+    githubLink: 'https://github.com/Victoryruro'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */

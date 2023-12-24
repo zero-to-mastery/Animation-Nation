@@ -1,0 +1,154 @@
+body{
+    margin: 0px auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+section{
+    display: flex;
+    flex-direction:row;
+    width: 50%;
+    height: 700px;
+    border:3px ridge #00ff7b1e;
+    padding: 7px;
+    box-shadow: 0px 0px 20px 14px black;
+    
+
+}
+.first{
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-between;
+}
+.first .up{
+    height: 150px;
+    width: 100%;
+
+    background-color: aquamarine;
+    
+    animation-name: down;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    
+}
+.first .down{
+    height: 350px;
+    width: 100%;
+   
+    
+    background-color: rgb(243, 18, 29);
+    
+    animation-name: up;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+.second{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-between;
+}
+
+.second .up{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(243, 18, 29);
+   
+    
+    animation-name: up;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 200ms;
+    
+}
+.second .down{
+    height: 350px;
+    width: 100%;
+    background-color: aquamarine;
+    
+    animation-name: down;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 200ms;
+}
+.third{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-between;
+}
+
+.third .up{
+    height: 150px;
+    width: 100%;
+
+    background-color: aquamarine;
+    
+    animation-name: down;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 600ms;
+    
+}
+.third .down{
+    height: 350px;
+    width: 100%;
+   
+    
+    background-color: rgb(243, 18, 29);
+    
+    animation-name: up;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 600ms;
+}
+@media only  screen and (max-width:1200px){
+    section{
+        width: 70%;
+    
+    }
+}    
+@media only  screen and (max-width:750px){
+    section{
+        width: 90%;
+        height: 100vh;
+    
+    }
+}
+
+
+@keyframes down {
+    0% , 100% ,50%{
+        height: 150px;
+        transition: all 4s ease;
+    }
+    20% ,40%{
+        height: 350px;
+        transition: all 4s ease;
+    }
+    
+}
+@keyframes up{
+    0% , 100% ,50%{
+        height: 350px;
+        transition: all 4s ease;
+    }
+    20% ,40%{
+        height: 150px;
+        transition: all 4s ease;
+    }
+    
+}
