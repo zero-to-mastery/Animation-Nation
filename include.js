@@ -623,6 +623,13 @@ let cards = [
     githubLink: 'https://github.com/royranger'
   },
   {
+    artName: 'Red Square', // change this to the name of your artwork
+    pageLink: './Art/<YOUR GITHUB USERNAME>/triangle.html', // change this
+    imageLink: './Art/<YOUR GITHUB USERNAME>/triangle.gif', // change this
+    author: 'Joy', // use your name
+    githubLink: 'https://github.com/<YOUR GITHUB USERNAME>' // change this
+  }
+  {
     artName: 'glowing-candles',
     pageLink: './Art/Dhanveeryadav/index.html',
     imageLink: './Art/Dhanveeryadav/glowing-candles.gif',
