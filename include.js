@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+    artName: 'Chanimation',
+    pageLink: './Art/AnimatronChad/index.html',
+    imageLink: './AnimatronChad/trance.gif',
+    author: 'Chad',
+    githubLink: 'https://github.com/chadGomez'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */

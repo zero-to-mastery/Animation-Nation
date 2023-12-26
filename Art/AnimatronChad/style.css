@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #282c34;
+}
+
+.animated-box {
+  width: 100px;
+  height: 100px;
+  background-color: #61dafb;
+  animation: scaleAndRotate 2s infinite alternate;
+}
+
+@keyframes scaleAndRotate {
+  0% {
+      transform: scale(1) rotate(0deg);
+  }
+  100% {
+      transform: scale(1.5) rotate(360deg);
+  }
+}
