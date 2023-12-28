@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+    artName: 'Eye',
+    pageLink: './Art/ansh/index.html',
+    imageLink: './Art/ansh/eye.gif',
+    author: 'Ansh Jain',
+    githubLink: 'https://github.com/jainansh06'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
