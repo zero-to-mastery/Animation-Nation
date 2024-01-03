@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  { 
+    artName: 'Bycicle animation',
+    pageLink: './Art/Bubu-revelat/index.html',
+    imageLink: './Art/Bubu-revelat/bycicle.gif',
+    author: 'Bubu',
+    githubLink: 'https://github.com/bubu-revelat'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
