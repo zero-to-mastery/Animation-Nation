@@ -2884,7 +2884,7 @@ let cards = [
   {
     artName: 'Triangle', // change this to the name of your artwork
     pageLink: './Art/jwbw29/index.html', // change this
-    imageLink: './Art/jwbw29/triangle.gif', // change this
+    imageLink: './Art/jwbw29/hover.gif', // change this
     author: 'Justin', // use your name
     githubLink: 'https://github.com/jwbw29' // change this
   }
