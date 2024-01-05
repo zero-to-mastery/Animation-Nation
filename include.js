@@ -2880,6 +2880,12 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  { artName: 'Coffee Machine',
+    pageLink: './Art/melkibson/index.html',
+    imageLink: './Art/melkibson/coffeemachine.gif',
+    author: 'Yamna',
+    githubLink: 'https://github.com/melkibson'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
