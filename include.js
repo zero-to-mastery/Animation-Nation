@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+    artName: 'The Box',
+    pageLink: './Art/Ramen96/box.html',
+    imageLink: './Art/Ramen96/box.gif',
+    author: 'Eric Worsfold',
+    githubLink: 'https://github.com/Ramen96'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
