@@ -6,25 +6,27 @@
 
 body {
     height: 100vh;
-    background: radial-gradient(rgb(5, 221, 245), rgb(6, 105, 253));
+    background: radial-gradient(rgb(5, 221, 245), rgb(3, 102, 252));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .container {
-    height: 60vh;
-    width: 30vw;
-    position: absolute;
-    top: 50vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
-    perspective: 1000px;
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .box {
     height: 250px;
     width: 250px;
-    position: absolute;
-    top: 100px;
-    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform-style: preserve-3d;
     animation: animate 5s infinite;
 }
@@ -90,17 +92,19 @@ body {
 }
 
 input {
-    height: 50px;
-    width: 100px;
+    height: 55px;
+    width: 110px;
     background: rgb(240, 29, 65);
     font-style: italic;
     color: white;
-    border-radius: 15%;
-    font-size: 22px;
+    border-radius: 15px;
+    border: none;
+    font-size: 23px;
     cursor: pointer;
-    position: absolute;
-    top: -100px;
-    left: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
 }
 
 input:focus~ .box #front {
