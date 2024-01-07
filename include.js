@@ -2862,6 +2862,13 @@ let cards = [
     githubLink: 'https://github.com/albertomtferreira'
   },
   {
+    artName: 'Gavel_Animation', // 
+    pageLink: './Art/chaitraDev/gavel.html', 
+    imageLink: './Art/chaitraDev/gavel.gif', 
+    author: 'Chaitra Ghule', 
+    githubLink: 'https://github.com/chaitraDev'
+  },
+  {
     artName: 'Danimation',
     pageLink: './Art/daniloslovic17/index.html',
     imageLink: './Art/daniloslovic17/danimation.gif',
