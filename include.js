@@ -4032,6 +4032,16 @@ let cards = [
   }
 ];
 
+let cards = [
+  {
+    artName: 'Smiling Face',
+    pageLink: './Art/phfj/index.html',
+    imageLink: './Art/phfj/phfjgif.gif',
+    author: 'Paul Holmes',
+    githubLink: 'https://github.com/phfj'
+  }
+];
+
 /* -------------------------------------------------------------------------- */
 /*                                                                            */
 /*                YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS               */
