@@ -1,0 +1,86 @@
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+.step1 {
+  height: 10px;
+  width: 100px;
+  background-color: blue;
+  position: relative;
+  animation-name: stack1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.step2 {
+  height: 10px;
+  width: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: stack2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.step3 {
+  height: 10px;
+  width: 100px;
+  background-color: maroon;
+  position: relative;
+  animation-name: stack3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.step4 {
+  height: 10px;
+  width: 100px;
+  background-color: green;
+  position: relative;
+  animation-name: stack4;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes stack1 {
+  0%,
+  100% {
+    top: 0px;
+  }
+  25%,
+  75% {
+    top: 200px;
+  }
+}
+
+@keyframes stack2 {
+  0%,
+  100% {
+    top: 0px;
+  }
+  25%,
+  75% {
+    top: 150px;
+  }
+}
+
+@keyframes stack3 {
+  0%,
+  100% {
+    top: 0px;
+  }
+  25%,
+  75% {
+    top: 100px;
+  }
+}
+
+@keyframes stack4 {
+  0%,
+  100% {
+    top: 0px;
+  }
+  25%,
+  75% {
+    top: 50px;
+  }
+}
