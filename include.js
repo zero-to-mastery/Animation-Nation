@@ -2880,7 +2880,15 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+   {
+    artName: 'Anima', // change this to the name of your artwork
+    pageLink: './Art/Anima/index.html', // change this
+    imageLink: '<iframe src="https://giphy.com/embed/JZlrOAYF7fgoasXwWq" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/daveonfxx-dave-lil-dicky-gata-JZlrOAYF7fgoasXwWq">via GIPHY</a></p>', // change this
+    author: 'Joy', // use your name
+    githubLink: 'https://github.com/deadpool' // change this
+  }
 ];
+
 
 /* -------------------------------------------------------------------------- */
 /*                                                                            */
