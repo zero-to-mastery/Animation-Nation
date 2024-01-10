@@ -1,0 +1,29 @@
+#one {
+    height: 100px;
+    width: 100%;
+    background: #fae3d9;
+    animation: slidein 5s linear 1s infinite;
+}
+
+#two {
+    height: 100px;
+    width: 100%;
+    background: #cc4260;
+    animation: slidein 3s linear 1s infinite;
+}
+
+#three {
+    height: 100px;
+    width: 100%;
+    background: #ffb6b9;
+    animation: slidein 4s linear 1s infinite;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
