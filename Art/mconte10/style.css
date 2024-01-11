@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: brown;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.grid > img {
+	width: 15%;
+	height: 20vh;
+	position: relative;
+	animation: run 5s;
+	animation-fill-mode: forwards;
+	z-index: 10;
+}
+img.runner0 {
+	animation-timing-function: linear;
+}
+img.runner1 {
+	animation-timing-function: ease;
+}
+img.runner2 {
+	animation-timing-function: ease-in;
+}
+img.runner3 {
+	animation-timing-function: ease-out;
+}
+
+@keyframes run {
+	from {left: 0%;}
+	to {left: 80%;}
+}
+
+.horizontal-line {
+	background-color: white;
+	padding: 10px;
+}
+.finish-line {
+	border-left: 10px solid white;
+	height: 100vh;
+	position: fixed;
+	left: 80%;
+	margin-left: -3px;
+	top: 0;
+}

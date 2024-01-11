@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+    artName: 'Runimation', // change this to the name of your artwork
+    pageLink: './Art/mconte10/index.html', // change this
+    imageLink: './Art/mconte10/runimation.gif', // change this
+    author: 'Maurizio Conte', // use your name
+    githubLink: 'https://github.com/mconte10' // change this
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
