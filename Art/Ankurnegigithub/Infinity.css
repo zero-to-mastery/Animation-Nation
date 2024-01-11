@@ -1,0 +1,86 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 100vh;
+    animation:an 8s linear infinite;
+}
+
+@keyframes animatecolor {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.banner .box {
+    display: flex;
+}
+
+.banner .box .infi {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: 0 -7.5px;
+}
+
+.banner .box .infi span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: rotate(calc(18deg * var(--i)));
+}
+
+.banner .box .infi span::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: calc(50% - 7.5px);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:rgb(255,232,8);
+    box-shadow: 0 0 10px rgb(255,0,0),
+    0 0 20px rgb(255,90,0),
+    0 0 40px rgb(255,154,0),
+    0 0 60px rgb(255,154,0),
+    0 0 80px rgb(255,206,0),
+    0 0 100px rgb(255,232,8);
+    transform: scale(0);
+    animation: animate 4s infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(1);
+    }
+    50%, 100% {
+        transform: scale(0.1);
+    }
+}
+
+.banner .box .infi:nth-child(2) {
+    transform: rotate(-180deg);
+}
+ 
+.banner .box .infi:nth-child(2) span::before {
+  background-color: rgb(116,204,244);
+    box-shadow: 0 0 10px rgb(0,0,255),
+    0 0 20px rgb(0,90,255),
+    0 0 40px rgb(0,154,255),
+    0 0 60px rgb(0,154,255),
+    0 0 80px rgb(0,206,255),
+    0 0 100px rgb(0,232,255);
+}
