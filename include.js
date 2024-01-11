@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+   {
+    artName: 'Infinity',
+    pageLink: './Art/Ankurnegigithub/Infinity.html',
+    imageLink: './Art/Ankurnegigithub/Infinity.gif',
+    author: 'AnkurNegi',
+    githubLink: 'https://github.com/Ankurnegigithub'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
