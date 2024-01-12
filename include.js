@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'New Year 2024',
+    pageLink: './Art/pranavhajare/Animation1/index.html',
+    imageLink: './Art/pranavhajare/Animation1/New-Year.gif',
+    author: 'Pranav',
+    githubLink: 'https://github.com/pranavhajare'
+  },
+  {
     artName: 'Balls Animation',
     pageLink: './Art/vikasverma67/Animation1/index.html',
     imageLink: './Art/vikasverma67/Animation1/lets play ball.gif',
@@ -33,7 +40,7 @@ let cards = [
     imageLink: './Art/stormworm9/RingAnimation/ring.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
-   },
+  },
 
   {
     artName: 'TriangleProjection',
@@ -41,8 +48,7 @@ let cards = [
     imageLink: './Art/stormworm9/TriangleProjection/TriangleProjection.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
-  }, 
-
+  },
 
   {
     artName: 'Loading Page',
@@ -2868,18 +2874,20 @@ let cards = [
     author: 'Danilo Slovic',
     githubLink: 'https://github.com/daniloslovic17'
   },
-  {    artName: 'Animated', 
+  {
+    artName: 'Animated',
     pageLink: './Art/Nyrkn10/index.html',
     imageLink: './Art/Nyrkn10/set.gif',
     author: 'Nyariki Kevin',
-    githubLink: 'https://github.com/nyrkn10>' 
+    githubLink: 'https://github.com/nyrkn10>'
   },
-  {    artName: 'Fascinating Animation',
+  {
+    artName: 'Fascinating Animation',
     pageLink: './Art/moutro/index.html',
     imageLink: './Art/moutro/Animation-Nation.png',
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
-  },
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
