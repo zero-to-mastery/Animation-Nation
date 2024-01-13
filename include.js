@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+    artName: 'Green Squares', 
+    pageLink: './Art/Qwerty3341/index.html',
+    imageLink: './Art/Qwerty3341/style.css', 
+    author: 'Qwerty', 
+    githubLink: 'https://github.com/Qwerty3341'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
