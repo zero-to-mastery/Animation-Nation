@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 5px solid rgb(0, 0, 0);
+    width: 500px;
+}
+
+.cell {
+    width: 100%;
+    padding-bottom: 100%;
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box; 
+}
+
+#one {
+    animation: colorChange 1s infinite alternate;
+}
+#two {
+    animation: colorChange 2s infinite alternate;
+}
+#three {
+    animation: colorChange 3s infinite alternate;
+}
+#four {
+    animation: colorChange 4s infinite alternate;
+}
+#five {
+    animation: colorChange 5s infinite alternate;
+}
+#six {
+    animation: colorChange 6s infinite alternate;
+}
+#seven {
+    animation: colorChange 7s infinite alternate;
+}
+#eight {
+    animation: colorChange 8s infinite alternate;
+}
+#nine {
+    animation: colorChange 9s infinite alternate;
+}
+@keyframes colorChange {
+    0% {
+        background-color: rgb(0, 255, 0); 
+    }
+    10% {
+        background-color: rgb(51, 204, 51);
+    }
+    20% {
+        background-color: rgb(102, 204, 0);
+    }
+    30% {
+        background-color: rgb(0, 153, 0);
+    }
+    40% {
+        background-color: rgb(0, 128, 0);
+    }
+    50% {
+        background-color: rgb(0, 102, 0);
+    }
+    60% {
+        background-color: rgb(0, 76, 0); 
+    }
+    70% {
+        background-color: rgb(0, 51, 0); 
+    }
+    80% {
+        background-color: rgb(0, 26, 0); 
+    }
+    90% {
+        background-color: rgb(0, 153, 76);
+    }
+    100% {
+        background-color: rgb(0, 255, 0);
+    }
+}
