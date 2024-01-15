@@ -1,0 +1,136 @@
+body,
+html {
+	height: 100%;
+	display: grid;
+}
+
+body {
+	background: #efcd51;
+	animation: invert 4s cubic-bezier(0.25, 0.125, 0.25, 0.85) infinite -0.65s;
+	margin: 0px;
+	padding: 0px;
+	&:before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: blue;
+		z-index: 10;
+		mix-blend-mode: lighten;
+	}
+}
+
+.pattern1 {
+	position: relative;
+	width: 60px;
+	height: 224px;
+	margin: auto;
+	&:before,
+	&:after {
+		content: "";
+		box-shadow: 0 0 0 2px #000;
+		position: absolute;
+		background-image: url("data:image/svg+xml, %3Csvg width='24' height='24' viewBox='0 0 24 24'  style='transform:scaleY(-1)' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cstyle%3E.dot%7Bstroke:%23000;stroke-linecap:round; stroke-width:4px; animation:bounce 1s cubic-bezier(0.75,0.125,0.25,0.85) infinite;%7D @keyframes bounce%7B 50%25%7B transform:translateY(-9px); %7D %7D.dash%7Bstroke:%23000;stroke-width:2px;transform-origin:6px 6.5px;stroke-linecap:round;animation:turn 1s cubic-bezier(0.25,0.125,0.25,0.45) infinite%7D @keyframes turn%7B 50%25%7B transform:rotate(90deg); %7D 100%25%7B transform:rotate(180deg); %7D %7D;%3C/style%3E%3C/defs%3E%3Cpath class='dash' d='M 6 0 L 6 13'/%3E%3Cpath class='dot' d='M 6 18 L 6 18' /%3E%3C/svg%3E"),
+			url("data:image/svg+xml, %3Csvg width='24' height='24' viewBox='0 0 24 24' style='transform:scaleY(-1)' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cstyle%3E.dot%7Bstroke:%23000;stroke-linecap:round; stroke-width:4px; animation:bounce 1s cubic-bezier(0.75,0.125,0.25,0.85) infinite;%7D @keyframes bounce%7B 50%25%7B transform:translateY(-9px); %7D %7D.dash%7Bstroke:%23000;stroke-width:2px;transform-origin:6px 6.5px;stroke-linecap:round;animation:turn 1s cubic-bezier(0.25,0.125,0.25,0.45) infinite%7D @keyframes turn%7B 50%25%7B transform:rotate(90deg); %7D 100%25%7B transform:rotate(180deg); %7D %7D;%3C/style%3E%3C/defs%3E%3Cpath class='dash' d='M 6 0 L 6 13'/%3E%3Cpath class='dot' d='M 6 18 L 6 18' /%3E%3C/svg%3E"),
+			linear-gradient(to right, #fff, #fff);
+		background-position: 0 calc(50% + 12px), 12px 50%;
+		@keyframes bgShift {
+			to {
+				background-position: 24px calc(50% + 36px), 36px calc(50% + 24px);
+			}
+		}
+	}
+	&:before {
+		width: 75px;
+		height: 75px;
+		border-radius: 100%;
+		bottom: 100%;
+		left: calc(50% - 37.5px);
+		animation: bgShift 5s linear infinite,
+			bounce 1s cubic-bezier(0.85, 0.25, 0.25, 0.85) infinite,
+			invert 4s cubic-bezier(0.25, 0.125, 0.25, 0.85) infinite -0.65s;
+		transform: translateY(0) scaleY(0.85) scaleX(1.15);
+		transform-origin: bottom;
+		@keyframes bounce {
+			50% {
+				transform: translateY(-112.5px) scaleY(1.05) scaleX(1);
+			}
+		}
+		@keyframes invert {
+			12.49% {
+				filter: invert(0);
+			}
+			12.5% {
+				filter: invert(1);
+			}
+			62.49% {
+				filter: invert(1);
+			}
+			62.5% {
+				filter: invert(0);
+			}
+		}
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		box-shadow: inset 0 0 0 2px #fff, 0 0 0 2px #000;
+		-webkit-mask: radial-gradient(ellipse at top, transparent 50px, #000 50px) 50%
+				calc(0% - 20px) / 600px 180px no-repeat,
+			radial-gradient(ellipse at bottom, transparent 50px, #000 50px) 50%
+				calc(100% + 20px) / 600px 180px no-repeat;
+		-webkit-mask-position: 50% calc(0% - 50px), 50% calc(100% + 50px);
+		animation: bgShift 5s linear infinite,
+			turn 4s cubic-bezier(0.25, 0.125, 0.25, 1.15) infinite -0.05s,
+			bend 4s ease-in-out infinite;
+		@keyframes bend {
+			0% {
+				-webkit-mask-position: 50% calc(0% - 20px), 50% calc(100% + 50px);
+			}
+			12.5% {
+				-webkit-mask-position: 50% calc(0% - 50px), 50% calc(100% + 50px);
+			}
+			25% {
+				-webkit-mask-position: 50% calc(0% - 20px), 50% calc(100% + 50px);
+			}
+			37.5% {
+				-webkit-mask-position: 50% calc(0% - 50px), 50% calc(100% + 50px);
+			}
+			50% {
+				-webkit-mask-position: 50% calc(0% - 50px), 50% calc(100% + 20px);
+			}
+			62.5% {
+				-webkit-mask-position: 50% calc(0% - 50px), 50% calc(100% + 50px);
+			}
+			75% {
+				-webkit-mask-position: 50% calc(0% - 50px), 50% calc(100% + 20px);
+			}
+			87.5% {
+				-webkit-mask-position: 50% calc(0% - 50px), 50% calc(100% + 50px);
+			}
+			100% {
+				-webkit-mask-position: 50% calc(0% - 20px), 50% calc(100% + 50px);
+			}
+		}
+		@keyframes turn {
+			33% {
+				transform: rotate(0deg);
+			}
+			50% {
+				transform: rotate(-180deg);
+			}
+			82% {
+				transform: rotate(-180deg);
+			}
+			100% {
+				transform: rotate(-360deg);
+			}
+		}
+	}
+}

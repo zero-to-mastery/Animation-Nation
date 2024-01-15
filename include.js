@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+      artName: 'Animax',
+      pageLink: './Art/burekusvemiru3/index.html',
+      imageLink: './Art/burekusvemiru3/animation.gif',
+      author: 'Krisztina',
+      githubLink: 'https://github.com/burekusvemiru3'
+    },
 ];
 
 /* -------------------------------------------------------------------------- */
