@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+    artName: '3D_Animated_Cube',
+    pageLink: './Art/Rataash99/index.html',
+    imageLink: './Art/Rataash99/3D_Cube.gif',
+    author: 'Rohit Singh',
+    githubLink: 'https://github.com/Rataash99'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
