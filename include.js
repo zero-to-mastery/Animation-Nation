@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+    {
+      artName: 'aryananimate', 
+      pageLink: './Art/aryanhash/index.html',
+      imageLink: './Art/aryanhash/hash.gif', 
+      author: 'Aryan', 
+      githubLink: 'https://github.com/aryanhash'
+    }
 ];
 
 /* -------------------------------------------------------------------------- */
