@@ -1,0 +1,52 @@
+@keyframes glideAnimation{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left:100%;
+    }
+}
+
+@keyframes rotateCircle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.glide{
+    width:100%;
+    height: 33.33vh;
+    position: fixed;
+    left:0;
+    animation:glideAnimation 3s linear infinite ;
+}
+
+.Saffron {
+    top: 0;
+    background-color: #ff9933; 
+}
+
+.White {
+    top: 33.33vh;
+    background-color: #ffffff; 
+}
+
+.blue{
+    width: 80px; 
+    height: 80px;
+    background-color: #3498db; 
+    border-radius: 30%; 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    animation: rotateCircle 3s linear infinite;
+}
+
+.Green {
+    top: 66.66vh;
+    background-color: #008000; 
+}

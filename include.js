@@ -2880,7 +2880,15 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+    artName: 'India', 
+    pageLink: './Art/Guhan-C/index.html', 
+    imageLink: './Art/Guhan-C/India.gif',
+    author: 'Guhan', 
+    githubLink: 'https://github.com/Guhan-C'
+  }
 ];
+
 
 /* -------------------------------------------------------------------------- */
 /*                                                                            */
@@ -2964,3 +2972,5 @@ function searchCard(event) {
   }, 200);
 }
 document.getElementById('search-bar').addEventListener('keyup', searchCard);
+
+
