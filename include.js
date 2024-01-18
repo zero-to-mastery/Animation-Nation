@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  { 
+    artName: 'Mouse Loader Animation',
+    pageLink: './Art/dev-rathore/index.html',
+    imageLink: './Art/dev-rathore/loader.gif',
+    author: 'Devender Singh Rathore',
+    githubLink: 'https://github.com/dev-rathore'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
