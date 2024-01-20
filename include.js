@@ -2880,6 +2880,14 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+
+{
+    artName: 'Square Dance', 
+    pageLink: './Art/<wwwcris007>/index.html', 
+    imageLink: './Art/<wwwcris007>/picture', //no gif just pic
+    author: 'Cris',
+    githubLink: 'https://github.com/<wwwcris007>' 
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
