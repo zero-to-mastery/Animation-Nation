@@ -1,0 +1,44 @@
+@keyframes theAnimation {
+    0% {
+        transform: translate();
+        background-color: aqua;
+
+    }
+
+    25% {
+        transform: translateY(100px);
+        background-color: blueviolet;
+
+        border-radius: 40%;
+    }
+
+    50% {
+        transform: translateX(100px);
+        background-color: blueviolet;
+
+    }
+
+
+    75% {
+        transform: translateY(0px);
+        background-color: coral;
+
+        border-radius: 40%;
+    }
+
+    100% {
+        transform: translate(100px, 100px);
+        background-color: rgb(15, 7, 58);
+
+    }
+
+}
+
+.myanimation {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    animation: theAnimation 5s linear infinite;
+
+
+}
