@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#one {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: maria;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;  
+}
+
+@keyframes maria {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:300px; top:0px;}
+  50%  {background-color:blue; left:300px; top:300px;}
+  75%  {background-color:green; left:0px; top:300px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+div#two {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: maria24;
+  animation-duration: 4s;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;  
+}
+
+@keyframes maria24 {
+  100%   {background-color:green; left:0px; top:0px;}
+  75%  {background-color:red; left:300px; top:0px;}
+  50%  {background-color:blue; left:300px; top:300px;}
+  25%  {background-color:yellow; left:0px; top:300px;}
+  0% {background-color:green; left:0px; top:0px;}
+}
