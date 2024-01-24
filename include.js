@@ -426,6 +426,13 @@ let cards = [
     githubLink: 'https://github.com/Devanshumasodker'
   },
   {
+    artName: 'Rectangles', 
+    pageLink: './Art/<maria24>/index.html', 
+    imageLink: './Art/<maria24>/maria24.gif',
+    author: 'Maria Ines', 
+    githubLink: 'https://github.com/<Mariaines24>' 
+  },
+  {
     artName: 'Day & night fox animation',
     pageLink: './Art/apu52/day-and-night-fox/index.html',
     imageLink: './Art/apu52/day-and-night-fox/picture.jpeg',
