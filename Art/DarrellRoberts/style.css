@@ -1,0 +1,90 @@
+
+.orbitCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+    }
+    
+    .orbit1, .orbit2 {
+    border-color: black;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 5rem;
+    animation-name: orbit;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    color: white;
+    margin-right: 2rem;
+    }
+    
+      .orbitItem1, .orbitItem2 {
+        position: absolute;
+        right: 0px;
+        transform: translateX(100%);
+        background-color: black;
+        border-radius: 50%;
+        background-color: green;
+        padding: 1rem;
+        animation-name: orbit;
+        animation-duration: 9s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+      }
+    
+    .orbitItem1 h1, .orbitItem2 h1, .orbitItem3 h1 {
+      font-size: 1.5rem;
+    }
+    
+    .orbit3 {
+      border-color: black;
+      border-width: 5px;
+      border-style: solid;
+      position: absolute;
+      bottom: 20%;
+      border-radius: 50%;
+      padding: 5rem;
+      animation-name: orbit;
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+      color: white;
+      background-color: green;
+      }
+      
+      .orbitItem3 {
+        position: absolute;
+        border-color: black;
+        border-style: solid;
+        background-color: red;
+        border-radius: 50%;
+        padding: 1rem;
+        color: white;
+        animation-name: orbit;
+        animation-duration: 9s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+      }
+    
+    @keyframes orbit {
+      0% {transform: rotate(0)}
+    100% {transform: rotate(360deg)}
+    }
+    
+    .brothers {
+      font-size: 2rem;
+      color: white;
+      text-align: center;
+      position: absolute;
+      top: 48%;
+      right: 45%;
+    }
+    
