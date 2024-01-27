@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {
+    artName: 'Animation Delay', 
+    pageLink: './Art/animation-delay-aatish/index.html',
+    imageLink: './Art/animation-delay-aatish/animation-delay.gif',
+    author: 'Aatish',
+    githubLink: 'https://github.com/Aatish03'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
