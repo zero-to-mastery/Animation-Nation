@@ -1,0 +1,7 @@
+html, body {
+  padding: 0;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  background: #0A0A27;
+}
