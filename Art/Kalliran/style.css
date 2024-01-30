@@ -1,0 +1,65 @@
+@keyframes circleDance{
+    0% {background-color: red; left:0px; top:0px;}
+    10% {background-color: green; left:800px; top:0px;}
+    20% {background-color: yellow; left:800px; top:200px;}
+    30% {background-color: blue; left: 0px; top:200px;}
+    40% {background-color: violet; left:0px; top:0px;}
+    50% {background-color: purple; left:0px; top:0px;}
+    60% {background-color: rgb(22, 0, 22); left:800px; top:0px;}
+    70% {background-color: rgb(1, 1, 114); left:800px; top:200px;}
+    80% {background-color: orange; left: 0px; top:200px;}
+    90% {background-color: rgb(255, 102, 0); left:0px; top:0px;}
+    100% {background-color: rgb(233, 0, 70);}
+}
+
+/* @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:0px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  } */
+  
+body{
+    background-color: rgb(55, 55, 55);
+}  
+
+h1 {
+    width: 500px;
+    height: 100px;
+    position:relative;
+    background-color: red;
+    animation-name: circleDance;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.secondBox{
+   width: 500px;
+   height: 100px;
+   position: relative;
+   background-color: red;
+   animation-name: circleDance;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: both;   
+}
+
+.thirdBox{ 
+    width: 500px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: circleDance;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+

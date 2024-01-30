@@ -2887,6 +2887,13 @@ let cards = [
     author: 'Artur Sniegowski',
     githubLink: 'https://github.com/artursniegowski'
   },
+  { 
+    artName: 'First Animation',
+    pageLink: './Art/Kalliran/index.html',
+    imageLink: './Art/Kalliran/Animation-Nation.gif',
+    author: 'Kalliran',
+    githubLink: 'https://github.com/Kalliran'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
