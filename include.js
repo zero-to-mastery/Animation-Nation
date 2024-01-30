@@ -2880,6 +2880,12 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+  {    artName: 'First Animation',
+    pageLink: './Art/Kalliran/index.html',
+    imageLink: './Art/Kalliran/Animation-Nation.gif',
+    author: 'Kalliran',
+    githubLink: 'https://github.com/Kalliran'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
