@@ -2883,11 +2883,11 @@ let cards = [
     githubLink: 'https://github.com/moutro'
   },
   {
-    artName: 'Animatron', // change this to the name of your artwork
-    pageLink: './Art/shazeen-1990/index.html', // change this
-    imageLink: './Art/shazeen-1990/animate.jpg', // change this
-    author: 'Shazeen Thowfeek', // use your name
-    githubLink: 'https://github.com/shazeen-1990' // change this
+    artName: 'Animatron',
+    pageLink: './Art/shazeen-1990/index.html',
+    imageLink: './Art/shazeen-1990/animate.jpg',
+    author: 'Shazeen Thowfeek',
+    githubLink: 'https://github.com/shazeen-1990'
   }
 ];
 
