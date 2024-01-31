@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.fibonacci {
+  display: flex;
+}
+
+.number {
+  font-size: 4em;
+  font-weight: bold;
+  opacity: 0;
+  animation: appearDisappear 10s linear infinite;
+}
+
+@keyframes appearDisappear {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  10%,
+  18% {
+    opacity: 1;
+  } /* 1 */
+  20%,
+  28% {
+    opacity: 1;
+  } /* 1 */
+  30%,
+  38% {
+    opacity: 1;
+  } /* 2 */
+  40%,
+  48% {
+    opacity: 1;
+  } /* 3 */
+  50%,
+  58% {
+    opacity: 1;
+  } /* 5 */
+  60%,
+  100% {
+    opacity: 0;
+  } /* All numbers disappear */
+}
+
+/* Offset the animation for each number */
+.number:nth-child(1) {
+  animation-delay: 0s;
+}
+.number:nth-child(2) {
+  animation-delay: 2s;
+}
+.number:nth-child(3) {
+  animation-delay: 4s;
+}
+.number:nth-child(4) {
+  animation-delay: 6s;
+}
+.number:nth-child(5) {
+  animation-delay: 8s;
+}
