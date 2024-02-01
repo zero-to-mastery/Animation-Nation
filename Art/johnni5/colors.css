@@ -1,0 +1,105 @@
+body {
+  width: 100vh;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ff7a59;
+  position: relative;
+  animation: MyCirc;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes MyCirc {
+  0% {
+    left: 20px;
+    top: 20px;
+  }
+  100% {
+    left: 190px;
+    top: 80px;
+  }
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+
+  background: #371adb;
+  position: relative;
+  animation: MySquare;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes MySquare {
+  0% {
+    left: 120px;
+    top: 130px;
+  }
+  100% {
+    left: 190px;
+    top: 170px;
+  }
+}
+
+.pentagon {
+  position: relative;
+  width: 54px;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: #01ff70 transparent;
+  animation: MyPenta;
+
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+.pentagon:before {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -85px;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent #01ff70;
+}
+
+@keyframes MyPenta {
+  0% {
+    left: 80px;
+    top: 20px;
+  }
+  100% {
+    left: 5px;
+    top: 150px;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #3498db; /* Initial color */
+  }
+  50% {
+    background-color: #e74c3c; /* Color during transit */
+  }
+  100% {
+    background-color: #2ecc71; /* Final color */
+  }
+}
+
+.moving-object {
+  width: 500px;
+  height: 500px;
+  background-color: #3498db; /* Initial color */
+  position: relative;
+  animation: colorChange 3s infinite; /* Adjust duration as needed */
+}
