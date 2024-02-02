@@ -2882,9 +2882,9 @@ let cards = [
   },
 {
     artName: 'animat', 
-    pageLink: './Art/saifza/animat.html', 
-    imageLink: './Art/saifza/animat.gif', // change this
-    author: 'Saif zaman', 
+    pageLink: './Art/Saifza/animat.html', 
+    imageLink: './Art/Saifza/animat.gif', // change this
+    author: 'Saif Zaman', 
     githubLink: 'https://github.com/saifza' 
   }
 ];
