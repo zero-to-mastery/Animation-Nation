@@ -2903,7 +2903,15 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Horror anime', 
+    pageLink: './Art/Supratim99/indexhtml', 
+    imageLink: './Art/Supratim99>/gifproj.gif', 
+    author: 'Supratim', // use your name
+    githubLink: 'https://github.com/<codewithsupra>' 
+  },
 ];
+
 
 /* -------------------------------------------------------------------------- */
 /*                                                                            */
