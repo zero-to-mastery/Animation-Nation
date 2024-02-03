@@ -33,7 +33,7 @@ let cards = [
     imageLink: './Art/stormworm9/RingAnimation/ring.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
-   },
+  },
 
   {
     artName: 'TriangleProjection',
@@ -41,7 +41,7 @@ let cards = [
     imageLink: './Art/stormworm9/TriangleProjection/TriangleProjection.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
-  }, 
+  },
 
 
   {
@@ -2868,18 +2868,28 @@ let cards = [
     author: 'Danilo Slovic',
     githubLink: 'https://github.com/daniloslovic17'
   },
-  {    artName: 'Animated', 
+  {
+    artName: 'Animated',
     pageLink: './Art/Nyrkn10/index.html',
     imageLink: './Art/Nyrkn10/set.gif',
     author: 'Nyariki Kevin',
-    githubLink: 'https://github.com/nyrkn10>' 
+    githubLink: 'https://github.com/nyrkn10>'
   },
-  {    artName: 'Fascinating Animation',
+  {
+    artName: 'Fascinating Animation',
     pageLink: './Art/moutro/index.html',
     imageLink: './Art/moutro/Animation-Nation.png',
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+
+  {
+    artName: 'animat', // change this to the name of your artwork
+    pageLink: './Art/Saifza/index.html', // change this
+    imageLink: './Art/Saifza/animat.gif', // change this
+    author: 'Joy', // use your name
+    githubLink: 'https://github.com/<YOUR GITHUB USERNAME>' // change this
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -2904,14 +2914,14 @@ function shuffle(o) {
 const getCardContents = (cardList) => {
   return shuffle(cardList).map((c) => [
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 };
 
