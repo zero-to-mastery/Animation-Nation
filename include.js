@@ -2884,11 +2884,11 @@ let cards = [
   },
 
   {
-    artName: 'animat', // change this to the name of your artwork
-    pageLink: './Art/Saifza/index.html', // change this
-    imageLink: './Art/Saifza/animat.gif', // change this
-    author: 'Joy', // use your name
-    githubLink: 'https://github.com/<YOUR GITHUB USERNAME>' // change this
+    artName: 'animat',
+    pageLink: './Art/Saifza/index.html',
+    imageLink: './Art/Saifza/animat.gif',
+    author: 'Saifza',
+    githubLink: 'https://github.com/saifza'
   }
 ];
 
