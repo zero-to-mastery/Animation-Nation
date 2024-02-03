@@ -1,0 +1,340 @@
+body {
+	background-color: lightslategray;
+	display: flex;
+}
+
+.container {
+	display: flex;
+	margin: auto;
+	margin-top: 100px;
+	align-items: center;
+	justify-content: center;
+	border: 4px solid lightslategray;
+	height: 400px;
+	width: 400px;
+	transform: rotate(45deg);
+
+	animation-name: containerAnim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 1400ms;
+}
+
+.box {
+	height: 150px;
+	width: 300px;
+	background-color: lightslategray;
+	position: absolute;
+	margin-left: 700px;
+}
+
+.ball1 {
+	height: 50px;
+	width: 50px;
+	background: royalblue;
+	border: 2px solid royalblue;
+	border-radius: 50%;
+	justify-self: center;
+	position: absolute;
+
+	animation-name: ball1Anim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 200ms;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+
+
+.ball2 {
+	height: 50px;
+	width: 50px;
+	background: red;
+	border: 2px solid red;
+	border-radius: 50%;
+	justify-self: center;
+	position: absolute;
+
+	animation-name: ball2Anim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 800ms;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+.ball3 {
+	height: 50px;
+	width: 50px;
+	background: green;
+	border: 2px solid green;
+	border-radius: 50%;
+	position: absolute;
+
+	animation-name: ball3Anim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 600ms;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+.ball4 {
+	height: 50px;
+	width: 50px;
+	background: yellow;
+	border: 2px solid yellow;
+	border-radius: 50%;
+	position: absolute;
+
+	animation-name: ball4Anim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 1200ms;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+.ball5 {
+	height: 50px;
+	width: 50px;
+	background: mediumpurple;
+	border: 2px solid mediumpurple;
+	border-radius: 50%;
+	position: absolute;
+
+	animation-name: ball5Anim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 400ms;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+.ball6 {
+	height: 50px;
+	width: 50px;
+	background: lightslategray;
+	border: 2px solid lightslategray;
+	border-radius: 50%;
+	position: absolute;
+
+	animation-name: ball6Anim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 1400ms;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+.ball7 {
+	height: 50px;
+	width: 50px;
+	background: lightslategray;
+	border: 2px solid lightslategray;
+	border-radius: 50%;
+	position: absolute;
+
+	animation-name: ball7Anim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 1000ms;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+
+/* Animation */
+
+@keyframes containerAnim {
+	from {
+		background-color: lightslategray;
+		border: 8px solid lightslategray;
+/*		transform: rotate(-45deg);*/
+	}
+
+	to {
+		background-color: royalblue;
+		border: 4px solid royalblue;
+/*		transform: rotate(315deg);*/
+	}
+}
+
+@keyframes ball1Anim {
+	0% {
+		position: absolute;
+		margin-top: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+
+	50% {
+		position: fixed;
+		margin-top: 350px;
+		background-color: royalblue;
+		border-color: royalblue;
+	}
+
+	100% {
+		position: absolute;
+		margin-top: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+}
+
+@keyframes ball2Anim {
+	0% {
+		position: absolute;
+		margin-bottom: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+
+	50% {
+		position: fixed;
+		margin-bottom: 350px;
+		background-color: royalblue;
+		border-color: royalblue;
+	}
+
+	100% {
+		position: absolute;
+		margin-bottom: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+}
+
+@keyframes ball3Anim {
+	0% {
+		justify-self: center;
+		position: absolute;
+		margin-right: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+
+	50% {
+		justify-self: flex-start;
+		position: fixed;
+		margin-right: 350px;
+		background-color: royalblue;
+		border-color: royalblue;
+	}
+
+	100% {
+		justify-self: center;
+		position: absolute;
+		margin-right: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+}
+
+@keyframes ball4Anim {
+	0% {
+		justify-self: center;
+		position: absolute;
+		margin-left: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+
+	50% {
+		justify-self: flex-end;
+		position: fixed;
+		margin-left: 350px;
+		background-color: royalblue;
+		border-color: royalblue;
+	}
+
+	100% {
+		justify-self: center;
+		position: absolute;
+		margin-left: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+}
+
+@keyframes ball5Anim {
+	0% {
+		position: absolute;
+		margin-top: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+
+	50% {
+		position: fixed;
+		margin-top: 350px;
+		margin-right: 350px;
+		background-color: royalblue;
+		border-color: royalblue;
+	}
+
+	100% {
+		position: absolute;
+		margin-top: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+}
+
+@keyframes ball6Anim {
+	0% {
+		position: absolute;
+		margin-top: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+
+	50% {
+		position: fixed;
+		margin-top: 350px;
+		margin-left: 350px;
+		background-color: royalblue;
+		border-color: royalblue;
+	}
+
+	100% {
+		position: absolute;
+		margin-top: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+}
+
+@keyframes ball7Anim {
+	0% {
+		position: absolute;
+		margin-top: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+
+	50% {
+		position: fixed;
+		margin-bottom: 350px;
+		margin-left: 350px;
+		background-color: royalblue;
+		border-color: royalblue;
+	}
+
+	100% {
+		position: absolute;
+		margin-top: 0px;
+		background-color: lightslategray;
+		border-color: lightslategray;
+	}
+}

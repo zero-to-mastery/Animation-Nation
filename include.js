@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Diamond Atoms',
+    pageLink: './Art/AMP35/index.html',
+    imageLink: './Art/AMP35/diamond-atoms.gif',
+    author: 'Antonio Pierre',
+    githubLink: 'https://github.com/AMP35'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
