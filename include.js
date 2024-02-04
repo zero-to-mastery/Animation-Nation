@@ -2880,6 +2880,13 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
+   {
+    artName: 'Fold', // change this to the name of your artwork
+    pageLink: './Art/CharlieBrown/index.html', // change this
+    imageLink: './Art/CharlieBrown/fold.gif', // change this
+    author: 'CharlieBrown', // use your name
+    githubLink: 'https://github.com/CharlieBrown5' // change this
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
