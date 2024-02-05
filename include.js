@@ -2903,6 +2903,14 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  ,
+  { 
+    artName: 'Coffee Machine',
+    pageLink: './Art/Coffee-Machine/index.html',
+    imageLink: './Art/coffee-machine/coffee-machine.gif',
+    author: 'ILYASS',
+    githubLink: 'https://github.com/Nasrallahilyass'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
