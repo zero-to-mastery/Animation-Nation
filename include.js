@@ -179,6 +179,13 @@ let cards = [
     githubLink: 'https://github.com/aniketmdinde'
   },
   {
+    artName: 'Animated Gavel',
+    pageLink: './Art/chaitraDev/gavel.html', 
+    imageLink: './Art/chaitraDev/gavel.gif', 
+    author: 'Joy', 
+    githubLink: 'https://github.com/chaitraDev' 
+  },
+  {
     artName: 'LoopLamina',
     pageLink: './Art/manishjha-04/LoopLamina/index.html',
     imageLink: './Art/manishjha-04/LoopLamina/Looplamina.gif',
