@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Tea Cup',
+    pageLink: './Art/LandoTech/index.html',
+    imageLink: './Art/LandoTech/Animation-Nation.gif',
+    author: 'LandoTech',
+    githubLink: 'https://github.com/LandoTech
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
