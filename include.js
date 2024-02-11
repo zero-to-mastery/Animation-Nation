@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Bulgarian Flag Animation',
+    pageLink: './Art/VasilTsvetkov/index.html',
+    imageLink: './Art/VasilTsvetkov/bulgarian-flag-animation.gif',
+    author: 'Vasil',
+    githubLink: 'https://github.com/VasilTsvetkov'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
