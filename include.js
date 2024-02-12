@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Bouncing Balls', // change this to the name of your artwork
+    pageLink: './Art/cathy_animation/index.html', // change this
+    imageLink: './Art/kaaafeiii/bouncing.gif', // change this
+    author: 'Cathy', // use your name
+    githubLink: 'https://github.com/kaaafeiii' // change this
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
