@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Sneaky Eyes',
+    pageLink: './Art/v3nk3y/index.html',
+    imageLink: './Art/v3nk3y/sneaky-eyes.gif',
+    author: 'v3nk3y',
+    githubLink: 'https://github.com/v3nk3y'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
