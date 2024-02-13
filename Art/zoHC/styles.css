@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.octocat-container {
+  position: relative;
+}
+
+.octocat {
+  width: 120px;
+  height: 120px;
+  background-image: url('https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-256.png');
+  background-size: cover;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
