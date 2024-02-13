@@ -1,0 +1,127 @@
+:root {
+  --ringsize: 250px;
+  --ring1Color: #66070e;
+  --ring2Color: #71e08c;
+  --ring3Color: #1b2cea;
+  --ring4Color: #dec16b;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  position: absolute;
+  background: #000000;
+}
+
+.container {
+  margin: auto;
+  width: var(--ringsize);
+  height: var(--ringsize);
+  position: relative;
+  top: 45%;
+  transform: translateY(-45%);
+}
+
+.ring {
+  width: var(--ringsize);
+  height: var(--ringsize);
+  border-radius: var(--ringsize);
+  position: absolute;
+  mix-blend-mode: screen;
+  background: transparent;
+  box-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.97);
+  animation: glowAnim linear 4s;
+}
+
+@keyframes glowAnim {
+  0% {
+    box-shadow: 0 0 15px 0px rgba(255, 0, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 15px 20px rgba(255, 0, 0, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 15px 0px rgba(255, 0, 0, 0.5);
+  }
+}
+
+.ring1 {
+  border: calc(var(--ringsize) * 0.045) solid var(--ring1Color);
+  animation: redanim linear 6s infinite, glowAnim linear 4s infinite;
+}
+.ring2 {
+  border: calc(var(--ringsize) * 0.045) solid var(--ring2Color);
+  animation: greenanim linear 6s infinite, glowAnim linear 4s infinite;
+}
+.ring3 {
+  border: calc(var(--ringsize) * 0.045) solid var(---ring3Color);
+  animation: blueanim linear 6s infinite, glowAnim linear 4s infinite;
+}
+.ring4 {
+  border: calc(var(--ringsize) * 0.045) solid var(--ring4Color);
+  animation: yellowanim linear 6s infinite, glowAnim linear 4s infinite;
+}
+
+@keyframes sparkle {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 1;
+  }
+}
+
+@keyframes greenanim {
+  0% {
+    transform: rotate(50deg) scaleX(0.3) scaleY(1);
+  }
+  25% {
+    transform: rotate(121deg) scaleX(1) scaleY(0.9);
+  }
+  50% {
+    transform: rotate(211deg) scaleX(0.3) scaleY(1);
+  }
+  75% {
+    transform: rotate(301deg) scaleX(1) scaleY(0.9);
+  }
+  100% {
+    transform: rotate(391deg) scaleX(0.3) scaleY(1);
+  }
+}
+
+@keyframes blueanim {
+  0% {
+    transform: rotate(413deg) scaleX(0.5) scaleY(1);
+  }
+  50% {
+    transform: rotate(233deg) scaleX(1) scaleY(0.9);
+  }
+  100% {
+    transform: rotate(53deg) scaleX(0.15) scaleY(1);
+  }
+}
+
+@keyframes yellowanim {
+  0% {
+    transform: rotate(472deg) scaleX(0.5) scaleY(1);
+  }
+  25% {
+    transform: rotate(382deg) scaleX(1) scaleY(0.9);
+  }
+  50% {
+    transform: rotate(292deg) scaleX(0.5) scaleY(1);
+  }
+  75% {
+    transform: rotate(202deg) scaleX(1) scaleY(0.9);
+  }
+  100% {
+    transform: rotate(112deg) scaleX(0.5) scaleY(1);
+  }
+}
