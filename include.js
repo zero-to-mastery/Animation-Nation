@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'KevMonstah Anim Effect',
+    pageLink: './Art/KevMonstah/index.html',
+    imageLink: './Art/KevMonstah/snow.gif',
+    author: 'KevMonstah', 
+    githubLink: 'https://github.com/KevMonstah'
+  }  
 ];
 
 /* -------------------------------------------------------------------------- */
