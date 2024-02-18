@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Clinking-Cutlery', // change this to the name of your artwork
+    pageLink: './Art/BrendonPedro/index.html', // change this
+    imageLink: './Art/BrendonPedro/Clinking-Cutlery.gif', // change this
+    author: 'Brendon Pedro', // use your name
+    githubLink: 'https://github.com/BrendonPedro' // change this
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
