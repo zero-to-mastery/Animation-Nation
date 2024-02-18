@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  { 
+    artName: 'Focus.',
+    pageLink: './Art/fyallbrandon/index.html',
+    imageLink: './Art/fyallbrandon/Focus.gif',
+    author: 'Brandon Fyall',
+    githubLink: 'https://github.com/fyallbrandon'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
