@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    /* Removes default margins */
+}
+
+.cutlery-container {
+  display: flex; /* Activate Flexbox */
+  justify-content: center; /* Center horizontally  */
+  align-items: center; /* Center vertically */
+
+ 
+}
+
+/* Styling for the individual images */
+.fork,
+.knife {
+    position: absolute;
+}
+
+.fork {
+    top: 20rem;
+    z-index: 2;
+} 
+
+.knife {
+    top: 35rem;
+    z-index: 1;
+}
+
+/* Animation to make the fork 'clink' */
+@keyframes clink-fork {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px) rotate(45deg);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Animation to make the knife 'clink' */
+@keyframes clink-knife {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px) rotate(-45deg);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+} 
+
+/* Animation applied to the fork */
+.fork {
+    animation: clink-fork 1.5s ease-in-out alternate infinite;
+}
+
+/* Animation applied to the knife */
+.knife {
+    animation: clink-knife 1.5s ease-in-out alternate infinite;
+}
