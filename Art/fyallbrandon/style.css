@@ -1,0 +1,188 @@
+body {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.ball {
+    width: 50px;
+    height: 50px; 
+    background-color: white; 
+    border-radius: 50%; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the ball */
+    animation: animate__bounceInDown 1s ease, animate__shakeX 0.5s ease 1.75s; /* Adjust duration and timing function as needed */
+}
+
+@keyframes animate__bounceInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100vh); /* Start the animation from the top of the viewport */
+    }
+    25% {
+        opacity: 1;
+        top: 20%; /* Move the element to the middle of the viewport */
+    }
+    50% {
+        opacity: 1;
+        top: 40%; /* Move the element to the middle of the viewport */
+    }
+    75% {
+        top: 60%; /* Slightly overshoot */
+    }
+    100% {
+        top: 50%; /* Return to the middle of the viewport */
+    }
+}
+
+@keyframes animate__shakeX {
+    0% {
+        opacity: 1;
+        top: 50%;
+    }
+    25% {
+        opacity: 1;
+        top: 50%;
+        left: calc(50% - 10px); /* Move 5 pixels to the left */
+    }
+    50% {
+        opacity: 1;
+        top: 50%;
+        left: calc(50% + 10px); /* Move 5 pixels to the right */
+    }
+    75% {
+        top: 50%;
+        left: calc(50% - 5px); /* Return to the middle of the viewport */
+    }
+    100% {
+        top: 50%;
+        left: calc(50% + 5px); /* Ensure the ball stays centered */
+    }
+}
+
+.ball2 {
+    width: 30px;
+    height: 30px; 
+    background-color: white; 
+    border-radius: 50%; 
+    position: fixed;
+    top: 40%; /* Adjust initial horizontal position as needed */
+    left: 40%; /* Adjust initial vertical position as needed */
+    opacity: 0; /* Start with opacity set to 0 */
+    animation: initialPosition 0s, animate__fadeInTopLeft 0.5s ease 1s forwards, animate__fadeOutTopLeft 0.5s ease 2.5s forwards; /* Apply both animations */
+}
+
+/* I fixed the ball starting on the screen, leaving, and coming back by creating an initialPosition keyframe. */
+@keyframes initialPosition {
+    from {
+        transform: translate3d(-1000px, -500px, 0); /* Move off the screen */
+    }
+    to {
+        transform: translate3d(-1000px, -500px, 0); /* Ensure it stays off the screen */
+    }
+}
+
+@keyframes animate__fadeInTopLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-1000px, -500px, 0); /* Maintain initial off-screen position */
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0); /* Move onto the screen */
+    }
+}
+
+@keyframes animate__fadeOutTopLeft {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0); /* Move onto the screen */
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(-1000px, -500px, 0); /* Maintain initial off-screen position */
+    }
+}
+
+/* .ball3 coming in from the right side */
+.ball3 {
+    width: 30px;
+    height: 30px; 
+    background-color: white; 
+    border-radius: 50%; 
+    position: fixed;
+    top: 40%; /* Adjust initial horizontal position as needed */
+    right: 40%; /* Adjust initial vertical position as needed */
+    opacity: 0; /* Start with opacity set to 0 */
+    animation: initialPosition 0s, animate__fadeInTopRight 0.5s ease 1s forwards, animate__fadeOutTopRight 0.5s ease 2.5s forwards; /* Apply both animations */
+}
+
+@keyframes initialPosition {
+    from {
+        transform: translate3d(-1000px, -500px, 0); /* Move off the screen */
+    }
+    to {
+        transform: translate3d(-1000px, -500px, 0); /* Ensure it stays off the screen */
+    }
+}
+
+@keyframes animate__fadeInTopRight {
+    from {
+        opacity: 0;
+        transform: translate3d(1000px, -500px, 0); /* Maintain initial off-screen position */
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0); /* Move onto the screen */
+    }
+}
+
+@keyframes animate__fadeOutTopRight {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0); /* Move onto the screen */
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(1000px, -500px, 0); /* Maintain initial off-screen position */
+    }
+}
+
+body {
+    justify-content: center;
+    align-items: end;
+    display: flex;
+    height: 70vh;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 150px;
+  }
+  
+  .progress-value {
+    animation: load 1s normal ease 3s forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 100%; }
+  }
