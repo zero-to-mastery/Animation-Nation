@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: radial-gradient(circle, #c70039 0%, #141011 100%);
+  background-size: 100% 600px;
+  min-height: 100vh;
+}
+
+.container {
+  width: 250px;
+  height: 350px;
+  background-color: #fee69e;
+  border-radius: 10%;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 5s;
+}
+
+.container:hover {
+  transform: rotate3d(1, 1, 0, -360deg) translateY(25px);
+}
+
+.front {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  border-radius: inherit;
+  background-image: url("./back.jpg");
+  background-size: 100% 100%;
+}
+
+.ace {
+  color: #000;
+  font-size: 1.5em;
+  position: absolute;
+}
+
+.ace.top-left {
+  left: 10%;
+  top: 10%;
+}
+
+.top-left::before {
+  content: "A";
+  position: absolute;
+  left: 10%;
+  top: -60%;
+}
+
+.bottom-right {
+  bottom: 10%;
+  right: 10%;
+  transform: rotate(180deg);
+}
+
+.bottom-right::after {
+  content: "A";
+  position: absolute;
+  bottom: 60%;
+  right: 10%;
+}
+
+.ace.center {
+  font-size: 8em;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  background: #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+div {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  position: absolute;
+}
+.first {
+  background:radial-gradient(ellipse at top, #fe6e6e, transparent), radial-gradient(ellipse at bottom, #71e512, transparent);
+  animation: rotate 10s linear infinite alternate;
+  right: 10%;
+}
+
+.sec {
+  background: radial-gradient(ellipse at top, #ff6ed8, transparent), radial-gradient(ellipse at bottom, #29f5c5, transparent);
+  animation: rotate 6s linear infinite alternate-reverse;
+
+}
+
+.third {
+  background:radial-gradient(ellipse at top, #6effa1, transparent), radial-gradient(ellipse at bottom, #5117ff, transparent);
+  animation: rotate 9s linear infinite alternate;
+}
+
+@keyframes rotate {
+  0% {
+  left: 13%;
+  bottom:10%;
+  transform: rotate(0deg);
+}
+25% {
+  left:45%;
+  bottom: 70%;
+  transform: rotate(90deg);
+}
+50% {
+  left: 10%;
+  bottom: 50%;
+  transform: rotate(180deg);
+}
+100% {
+  transform: rotate(360deg);
+  left: 75%;
+  bottom: 30%;
+}
+}
