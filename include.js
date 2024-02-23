@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Cool CSS Animation',
+    pageLink: './Art/gabe-marques/index.html',
+    imageLink: './Art/gabe-marques/Cool-CSS-Animation.gif',
+    author: 'Gabe Marques',
+    githubLink: 'https://github.com/gabe-marques'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -2987,3 +2994,5 @@ function searchCard(event) {
   }, 200);
 }
 document.getElementById('search-bar').addEventListener('keyup', searchCard);
+
+
