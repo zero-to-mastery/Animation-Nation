@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'CSS Carousel',
+    pageLink: './Art/FanisKapetanakis/index.html',
+    imageLink: './Art/FanisKapetanakis/Carousel.gif',
+    author: 'Fanis',
+    githubLink: 'https://github.com/KapetanakisFanis'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
