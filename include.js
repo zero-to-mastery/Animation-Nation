@@ -2903,6 +2903,14 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  
+  {
+    artName: 'animate', 
+    pageLink: './Art/FordPipatkittikul/index.html', 
+    imageLink: './Art/FordPipatkittikul/a.gif', 
+    author: 'Ford', 
+    githubLink: 'https://github.com/FordPipatkittikul' 
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
