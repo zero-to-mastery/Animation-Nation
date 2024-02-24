@@ -1,0 +1,33 @@
+.move-square-button {
+  display: block;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.container {
+  width: 400px;
+  height: 144px;
+  position: relative;
+  background-color: black;
+}
+
+.square {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  transform: translateX(0);
+}
+
+.move-square-button:focus {
+  cursor: not-allowed;
+}
+
+.move-square-button:focus + .container .square {
+  animation: moveSquareRightThenLeft 2s linear;
+}
+
+@keyframes moveSquareRightThenLeft {
+  50% { transform: translateX(calc(400px - 100%)); }
+}
