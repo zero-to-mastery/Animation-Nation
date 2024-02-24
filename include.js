@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Frog Animation',
+    pageLink: './Art/DarrellRoberts/index.html',
+    imageLink: './Art/DarrellRoberts/frog_screenshot.jpg',
+    author: 'DarrellRoberts',
+    githubLink: 'https://github.com/DarrellRoberts'
+  },
+  {
     artName: 'Balls Animation',
     pageLink: './Art/vikasverma67/Animation1/index.html',
     imageLink: './Art/vikasverma67/Animation1/lets play ball.gif',
