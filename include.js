@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Color Illusion', 
+    pageLink: './Art/Berke-Bayram/index.html', 
+    imageLink: './Art/Berke-Bayram/animation.gif', 
+    author: 'Berke Bayram', 
+    githubLink: 'https://github.com/Berke-Bayram'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
