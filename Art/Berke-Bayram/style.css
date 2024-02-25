@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 600px; 
+    height: 600px; 
+}
+
+.group {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin: 5px;
+}
+
+.group1 {
+    background-color: red;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.group2 {
+    background-color: black;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.group3 {
+    background-color: aqua;
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.group4 {
+    background-color: blueviolet;
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.box {
+    display: inline-block;
+    width: 50px; 
+    height: 50px; 
+    background-color: #c0b75e;
+}
+
+.group1 .box {
+    animation: 0.5s common infinite alternate, 1s animateGroup1 infinite alternate;
+}
+
+.group2 .box {
+    animation: 0.5s common infinite alternate, 1s animateGroup2 infinite alternate; 
+}
+
+.group3 .box {
+    animation: 0.5s common infinite alternate, 1s animateGroup3 infinite alternate;
+}
+
+.group4 .box {
+    animation: 0.5s common infinite alternate, 1s animateGroup4 infinite alternate;
+}
+
+@keyframes common {
+    0% {
+        border-radius: 5%;
+    }
+    10% {
+        border-radius: 10%;
+    }
+    20% {
+        border-radius: 15%;
+    }
+    30% {
+        border-radius: 20%;
+    }
+    40% {
+        border-radius: 25%;
+    }
+    50% {
+        border-radius: 30%;
+    }
+    60% {
+        border-radius: 35%;
+    }
+    70% {
+        border-radius: 40%;
+    }
+    80% {
+        border-radius: 45%;
+    }
+    90% {
+        border-radius: 50%;
+    }
+    100% {
+        border-radius: 55%;
+        transform: rotate(270deg);
+    }
+}
+
+@keyframes animateGroup1 {
+    from {
+        background-color: coral;
+    }
+    to {
+        background-color: cadetblue;
+        transform: translate(300%, 0%) scale(0.3);
+    }
+}
+
+@keyframes animateGroup2 {
+    from {
+        background-color: whitesmoke;
+    }
+    to {
+        background-color: violet;
+        transform: translate(0%, 300%) scale(0.7);
+    }
+}
+
+@keyframes animateGroup3 {
+    from {
+        background-color: rgb(199, 237, 63);
+    }
+    to {
+        background-color: rgb(117, 120, 212);
+        transform: translate(0%, -300%) scale(0.7);
+    }
+}
+
+@keyframes animateGroup4 {
+    from {
+        background-color: crimson;
+    }
+    to {
+        background-color: gold;
+        transform: translate(-300%, 0%) scale(0.3);
+    }
+}
