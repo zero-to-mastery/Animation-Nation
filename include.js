@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Wabi Animation',
+    pageLink: './Art/wabi_animation/index.html',
+    imageLink: './Art/wabi_animation/trance.gif',
+    author: 'wabi',
+    githubLink: 'https://github.com/ayinla77'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */

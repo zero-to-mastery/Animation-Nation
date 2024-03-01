@@ -1,0 +1,86 @@
+/*
+ * 1) Modify the duration and delay.
+ * 2) Modify the animation function.
+ * 3) Try to combine the simple-square-to-circle and simple-scale animations (one & three).
+ * 4) Why can't you combine animation simple-rotate and simple-scale?
+ * 5) Add a new shape and animate its color.
+ */
+
+ .simple-shape {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 50px;
+}
+
+.one {
+  background-color: #ffaabb;
+  -webkit-animation: simple-square-to-circle 2s 0s linear infinite alternate;
+  animation: simple-square-to-circle 2s 0s linear infinite alternate;
+}
+
+.two {
+  background-color: #aabbff;
+  -webkit-animation: simple-rotate 2s 2s linear infinite alternate;
+  animation: simple-rotate 2s 2s linear infinite alternate;
+}
+
+.three {
+  background-color: #00ddcc;
+  -webkit-animation: simple-scale 1s 1s linear infinite alternate;
+  animation: simple-scale 1s 1s linear infinite alternate;
+}
+
+.four {
+  background-color: #c7e1ba;
+  -webkit-animation: simple-move 2s 2s linear infinite alternate;
+  animation: simple-move 2s 2s linear infinite alternate;
+}
+
+@-webkit-keyframes simple-square-to-circle {
+  100% {
+    -webkit-border-radius: 50%;
+  }
+}
+
+@keyframes simple-square-to-circle {
+  100% {
+    border-radius: 50%;
+  }
+}
+
+@-webkit-keyframes simple-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes simple-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes simple-scale {
+  100% {
+    -webkit-transform: scale(1.5);
+  }
+}
+
+@keyframes simple-scale {
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+@-webkit-keyframes simple-move {
+  100% {
+    -webkit-transform: translate(50px, 0);
+  }
+}
+
+@keyframes simple-move {
+  100% {
+    transform: translate(50px, 0);
+  }
+}
