@@ -2903,6 +2903,14 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+
+  {
+    artName: 'Moving Ball', 
+    pageLink: './Art/Quouou/index.html', 
+    imageLink: './Art/Quouou/movingBall.gif', 
+    author: 'Quouou', 
+    githubLink: 'https://github.com/Quouou' 
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
