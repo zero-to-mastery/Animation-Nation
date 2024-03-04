@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box-expand {
+  height: 100px;
+  width: 100px;
+  color: #fff;
+  background-color: red;
+  padding: 40px;
+  animation: beat 0.25s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes beat {
+  to {
+    transform: scale(1.4);
+  }
+}
