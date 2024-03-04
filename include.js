@@ -2922,8 +2922,8 @@ let cards = [
   },
   {
     artName: 'Earth Solar Basic Animation',
-    pageLink: './Art/Earsunor/index.html',
-    imageLink: './Art/Earsunor/Earsunor.gif',
+    pageLink: './Art/mostsayed93/Earsunor/index.html',
+    imageLink: './Art/mostsayed93/Earsunor/Earsunor.gif',
     author: 'Mostafa Osman',
     githubLink: 'https://github.com/mostsayed93'
   },
@@ -3995,6 +3995,13 @@ let cards = [
     imageLink: './Art/Lenrok01/photo.png',
     author: 'Lenrok01',
     githubLink: 'https://github.com/Lenrok01'
+  },
+  {
+    artName: 'Heart Beat',
+    pageLink: './Art/RazalBinKabeer/index.html',
+    imageLink: './Art/RazalBinKabeer/heart-beat.gif',
+    author: 'Razal',
+    githubLink: 'https://github.com/RazalBinKabeer'
   }
 ];
 
