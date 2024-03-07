@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'A step into CSS', // change this to the name of your artwork
+    pageLink: './Art/saloni-0504/index.html', // change this
+    imageLink: './Art/saloni-0504/.gif', // change this
+    author: 'SALONI AZAD', // use your name
+    githubLink: 'https://github.com/shizi0504' // change this
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -2987,3 +2994,4 @@ function searchCard(event) {
   }, 200);
 }
 document.getElementById('search-bar').addEventListener('keyup', searchCard);
+
