@@ -1,0 +1,146 @@
+body,html{
+
+width:100%;
+height:100%;
+font-family:'Montserrat',sans-serif;
+background:url('portfolio_background.jpg') no-repeat center center fixed;
+-webkit-background-size:cover;
+ -moz-background-size:cover;
+ -o-background-size:cover;
+background-size:cover;
+}
+
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+
+li,a{
+	font-weight:bold;
+	font-size:16px;
+	color:#edf0f1;
+	text-decoration:none;
+}
+
+.header{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	padding:20px 10%;
+	background-color:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    border-bottom:2px solid red rgba(255,255,255,0.2);
+}
+
+.header::before{
+	content:'';
+	position:absolute;
+	top:0;
+	left:-100%;
+	width:100%;
+	height:100%;
+	background:linear-gradient(90deg, transparent, rgba(255,255,255,0.4),transparent);
+	transition:0.5s;
+}
+
+.header:hover::before{
+	left:100%;
+}
+
+.logo{
+	color:#edf0f1;
+	font-weight:bold;
+}
+.logo:hover{
+	cursor:pointer;
+}
+.logo_surname{
+	color:yellow;
+}
+
+.nav_links{
+	list-style: none;
+}
+
+.nav_links li{
+	display:inline-block;
+	padding:0px 20px;
+}
+
+.nav_links li a{
+	transition:all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+	color:#edf0f1;
+}
+
+.body-portfolio-contents-image
+{
+display:flex;
+justify-content: center;
+margin-top:7%;
+}
+
+.body-portfolio-contents-image > img
+{
+
+	width:6%;
+	border-radius:600px;
+	height:7rem;
+}
+
+.body-portfolio-contents-heading{
+display:flex;
+justify-content: center;
+margin-top:2%;
+height:6rem;
+}
+
+.body-portfolio-contents-heading>h2{
+	color:#fefefe;
+	font-weight: bolder;
+	font-family:'Montserrat',sans-serif;
+	font-size: 4.2rem;
+}
+
+.body-portfolio-contents-para
+{
+	display: flex;
+	justify-content: center;
+	margin-top:0;
+}
+
+.body-portfolio-contents-para>p{
+	color:#fefefe;
+	font-family:'Montserrat',sans-serif;
+	font-size: 1.2rem;
+	margin-top:0rem;
+}
+
+.body-portfolio-contents-buttons
+{
+	display: flex;
+	justify-content: center;
+	margin-top:2%;
+}
+
+.body-portfolio-contents-buttons > button{
+	margin-right:1.4rem;
+	padding:0.2rem;
+	padding-left:2rem;
+	padding-right:2rem;
+	color:#fefefe;
+	font-weight: bold;
+	background:transparent;
+	border:1px solid;
+    border-radius:6rem;
+	border-width: 0.2rem;
+	outline:none;
+	}
+
+.body-portfolio-contents-buttons>button:hover{
+	background-color:rgba(255,246,247,0.3); 
+}
