@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'EmojiCube',
+    pageLink: './Art/iamovi/emoji_cube.html',
+    imageLink: './Art/iamovi/EmojiCube-preview.gif',
+    author: 'Maruf OVi',
+    githubLink: 'https://github.com/iamovi'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
