@@ -4009,7 +4009,13 @@ let cards = [
     imageLink: './Art/Roberto315/fieldgoalgif.gif',
     author: 'roberto315',
     githubLink: 'https://github.com/roberto315' 
-  }
+  },{
+    artName: 'EmojiCube',
+    pageLink: './Art/iamovi/emoji_cube.html',
+    imageLink: './Art/iamovi/EmojiCube-preview.gif',
+    author: 'Maruf OVi',
+    githubLink: 'https://github.com/iamovi'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
