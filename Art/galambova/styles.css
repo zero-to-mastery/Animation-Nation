@@ -1,0 +1,60 @@
+body{
+	background-color: #232323;
+	margin: 0;
+}
+
+main {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.one {
+ 	background-color: red;
+ 	animation: changeScaleR 6s infinite;
+
+}
+
+.two {
+	background-color: orange;
+	animation: changeScaleO 6s infinite;
+	
+}
+
+.three {
+	background-color: green;
+	animation: changeScaleG 6s infinite;
+	
+}
+
+.block {
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+    border-radius: 150px;
+}
+
+@keyframes changeScaleR {
+  0%   {transform: scale(1.0);}
+  10% {transform: scale(1.5);}
+  20% {transform: scale(1.0);}
+
+}
+
+@keyframes changeScaleO {
+  30%   {transform: scale(1.0);}
+  40% {transform: scale(1.5);}
+  50% {transform: scale(1.0);}
+}
+
+@keyframes changeScaleG {
+  60%   {transform: scale(1.0);}
+  80% {transform: scale(1.5);}
+  90% {transform: scale(1.0);}
+}
+
+
+
