@@ -1,0 +1,66 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(12, 12, 12);
+    height: 100vh;
+    perspective: 100rem;
+    perspective-origin: 5rem 5rem;
+}
+
+/* cube */
+#cube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: animate 15s normal infinite;
+}
+
+/* rotate cube */
+@keyframes animate{
+    to{
+        transform: rotateY(360deg) rotateX(360deg);
+    }
+}
+/* cube side */
+#cube div {
+    height: 8rem;
+    width: 8rem;
+    background: linear-gradient(rgb(0, 0, 0) , rgb(125, 10, 10),rgb(228, 19, 19));
+    position: absolute;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+/* create cube shape */
+.front {
+    transform: translateZ(4rem);
+}
+
+.back {
+    transform: translateZ(-4rem);
+}
+
+.top {
+    transform: translateY(-4rem) rotateX(90deg);
+}
+
+.bottom {
+    transform: translateY(4rem) rotateX(-90deg);
+}
+
+.right {
+    transform: translateX(4rem) rotateY(90deg);
+}
+
+.left {
+    transform: translateX(-4rem) rotateY(90deg);
+}

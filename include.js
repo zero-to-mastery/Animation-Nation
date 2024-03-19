@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Glowing Cube', 
+    pageLink: './Art/GlowingCube/index.html', 
+    imageLink: './Art/GlowingCube/glowingcube.gif',
+    author: 'Pat', // use your name
+    githubLink: 'https://github.com/PatLatting'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
