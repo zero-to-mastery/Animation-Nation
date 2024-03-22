@@ -66,6 +66,13 @@ let cards = [
     githubLink: 'https://github.com/SaumyaKumar-09'
   },
   {
+    artName: 'Hello world! Square Scaling',
+    pageLink: './Art/allegraanka/index.html',
+    imageLink: './Art/allegraanka/helloworld.gif',
+    author: 'allegraanka',
+    githubLink: 'https://github.com/allegraanka'
+  },
+  {
     artName: 'Loading Page',
     pageLink: './Art/SaumyaKumar-09/Animation%204/index.html',
     imageLink: './Art/SaumyaKumar-09/Animation%204/Animation4.gif',
@@ -2889,14 +2896,14 @@ let cards = [
     author: 'Shazeen Thowfeek',
     githubLink: 'https://github.com/shazeen-1990'
   },
-  {    
+  {
     artName: 'Moving Clouds Animation',
     pageLink: './Art/artursniegowski/index.html',
     imageLink: './Art/artursniegowski/moving_clouds.gif',
     author: 'Artur Sniegowski',
     githubLink: 'https://github.com/artursniegowski'
   },
-  { 
+  {
     artName: 'First Animation',
     pageLink: './Art/Kalliran/index.html',
     imageLink: './Art/Kalliran/Animation-Nation.gif',
@@ -2927,14 +2934,14 @@ function shuffle(o) {
 const getCardContents = (cardList) => {
   return shuffle(cardList).map((c) => [
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 };
 
