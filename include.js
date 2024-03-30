@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  { 
+    artName: 'Rinnegan Eyes',
+    pageLink: './Art/mohmmadAyesh/Rinnegan.html',
+    imageLink: './Art/mohmmadAyesh/rinnegan.gif',
+    author: 'Mohmmad Ayesh',
+    githubLink: 'https://github.com/mohmmadAyesh'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
