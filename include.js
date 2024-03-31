@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  { 
+    artName: 'Night Sky Animation',
+    pageLink: './Art/Kalliran/index.html',
+    imageLink: './Art/Kalliran/the-night-sky.gif',
+    author: 'SAGAR',
+    githubLink: 'https://github.com/C0des-by-SAGAR'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */

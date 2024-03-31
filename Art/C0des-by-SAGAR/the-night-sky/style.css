@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(to left, rgb(29, 28, 28), rgb(1, 1, 30));
+}
+
+.head {
+    text-align: center;
+    margin: 5rem;
+    padding: 1rem;
+    border: auto;
+}
+
+.heading {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    position: relative;
+    animation: blinkx 2s;
+    animation-iteration-count: infinite;
+    transition: all 1s;
+}
+
+.cloud-img {
+    height: 15rem;
+    width: auto;
+    position: relative;
+    animation-name: blinkx;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: all 0.5s;
+}
+
+.hotballoon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+}
+
+.hotballoon-img {
+    height: 25rem;
+    width: 25rem;
+    position: relative;
+    animation-name: floatUp;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: all 0.5s;
+}
+
+.plane-img {
+    width: 20rem;
+    height: auto;
+    position: relative;
+    animation-name: floatside;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: all 0.5s;
+}
+
+@keyframes floatUp {
+    from {
+        bottom: 0px;
+        opacity: 0;
+        transform: translateX(1);
+    }
+    to {
+        top: 0px;
+        opacity: 100%;
+        transform: translateY(-175%);
+    }
+}
+
+@keyframes floatside {
+    from {
+        left: 0%;
+        opacity: 0;
+        transform: translateX(1);
+    }
+    to {
+        right: 0px;
+        opacity: 100%;
+        transform: translateX(300%);
+    }
+}
+
+@keyframes blinkx {
+    from{
+        top: 0px;
+        left: 0px;
+    }
+    to{
+        top: 0px;
+        transform: scale(3);
+    }
+}
