@@ -1,0 +1,34 @@
+.container {
+  background-color: #16d277;
+  display: flex;
+  width: 1000px;
+}
+
+
+.heading {
+  background-color: #15202B;
+  color: #8B98A5;
+  font-weight: bold;
+  font-family: 'Trebuchet MS';
+  font-size: 30px;
+  padding: 0px 30px;
+}
+
+.text-slide {
+  --c: #fff;
+  width: auto;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  color: #0000;
+  overflow: hidden;
+  text-shadow: 0 0 var(--c), 80ch 0 var(--c);
+  animation: slide 13s infinite linear;
+}
+
+
+@keyframes slide {
+  to {
+    text-shadow: -80ch 0 var(--c), 0ch 0 var(--c);
+  }
+}

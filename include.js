@@ -4065,7 +4065,14 @@ let cards = [
     imageLink: './Art/phfj/phfjgif.gif',
     author: 'Paul Holmes',
     githubLink: 'https://github.com/phfj'
-  }
+  },
+  {
+    artName: 'Hints-slide',
+    pageLink: './Art/ChuxMg/index.html',
+    imageLink: './Art/ChuxMg/hints-slide.gif',
+    author: 'Chuks',
+    githubLink: 'https://github.com/ChuxMg'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
