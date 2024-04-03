@@ -2903,6 +2903,14 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Throwbounce', 
+    pageLink: './Art/ChristopherJamesL/index.html', 
+    imageLink: './Art/ChristopherJamesL/throwbounce.gif', 
+    author: 'Chris', 
+    githubLink: 'https://github.com/ChristopherJamesL' 
+  },
+  ];
 ];
 
 /* -------------------------------------------------------------------------- */
