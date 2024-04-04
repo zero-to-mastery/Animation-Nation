@@ -4065,7 +4065,14 @@ let cards = [
     imageLink: './Art/phfj/phfjgif.gif',
     author: 'Paul Holmes',
     githubLink: 'https://github.com/phfj'
-  }
+  },
+  {
+    artName: 'Throwbounce', 
+    pageLink: './Art/ChristopherJamesL/index.html', 
+    imageLink: './Art/ChristopherJamesL/throwbounce.gif', 
+    author: 'Chris', 
+    githubLink: 'https://github.com/ChristopherJamesL'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
