@@ -1,0 +1,69 @@
+:root {
+    /* the only thing needed is a grainy/noisy background image */
+   --glitter: url("C:\Users\Javon\Animation-Nation\Art\SlayersJay");
+   
+}
+
+.fire::before,
+.fire::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+}
+
+.fire::before {
+    content: "";
+    background-image: var(--glitter), var(--glitter),
+        linear-gradient(
+            0deg,
+            rgb(201, 200, 200) 0px,
+            #7e24f5 5px,
+            #303eff9c 30%,
+            transparent 50%
+        ),
+        radial-gradient(ellipse at bottom, transparent 20%, rgb(0, 0, 0) 30%);
+    background-size: 350px 500px, 400px 650px, 100% 100%, 100% 100%;
+    background-blend-mode: soft-light, color-burn, multiply;
+    background-position: 0px 0px, 0px 0px, var(--gradientPos);
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    mix-blend-mode: color-burn;
+    filter: brightness(1.2) blur(1px) contrast(7);
+    animation: fire 1.2s linear infinite;
+    box-shadow: inset 0 -40px 50px -60px #63bbc5;
+}
+
+@keyframes fire {
+    0% {
+        background-position: center 0px, center 0px, 50% 100%, center center;
+    }
+    100% {
+        background-position: center -500px, center -650px, 50% 100%, center center;
+    }
+}
+
+
+html,
+body {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.fire {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: 200;
+    opacity: .8;
+    text-align: center;
+    margin: 0;
+}
