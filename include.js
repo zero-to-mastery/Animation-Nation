@@ -2896,6 +2896,13 @@ let cards = [
     author: 'Artur Sniegowski',
     githubLink: 'https://github.com/artursniegowski'
   },
+  {
+    artName: 'Flame', 
+    pageLink: './Art/SlayersJay/index.html', 
+    imageLink: './Art/SlayersJay/noisy.png', 
+    author: 'Javon', 
+    githubLink: 'https://github.com/SlayesJay'
+  },
   { 
     artName: 'First Animation',
     pageLink: './Art/Kalliran/index.html',
