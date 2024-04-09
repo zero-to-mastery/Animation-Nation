@@ -2903,6 +2903,14 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  { 
+    artName: 'Responsive Shapes',
+    pageLink: './Art/cardonaw/index.html',
+    imageLink: './Art/cardonaw/responsive-shapes-demo.gif',
+    author: 'William Cardona',
+    githubLink: 'https://github.com/cardonaw'
+  },
+  
 ];
 
 /* -------------------------------------------------------------------------- */
