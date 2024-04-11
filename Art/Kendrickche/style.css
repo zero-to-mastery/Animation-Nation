@@ -1,0 +1,33 @@
+@keyframes roll {
+    0%  {left:0px; top:0px;}
+  25%   {left:25%; top:100px;}
+  50%   {left:50%; top:0px;}
+  75%   {left:75%; top:100px;}
+  100%  {left:100%; top:0px;}
+}
+
+div {
+    height: 50px;
+    width: 100px;
+    animation-direction: alternate-reverse;
+    transform: rotate(20deg);
+    position: relative;
+    animation-name: roll;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;  
+}
+
+.box1 {
+    background-color: black;
+}
+.box2 {
+    background-color: red;
+}
+.box3 {
+    background-color: blue;
+}
+.box0 {
+    background-color: white;
+}
+
+
