@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/vikasverma67'
   },
   {
+    artName: 'ZigZag', 
+    pageLink: './Art/<kendrickche>/ZigZag.html',
+    imageLink: './Art/<kendrickche>/ZigZag.gif', 
+    author: 'Kendrick', 
+    githubLink: 'https://github.com/<kendrickche>'
+  },
+  {
     artName: 'Earth',
     pageLink: './Art/stormworm9/EarthAnimation/Earth.html',
     imageLink: './Art/stormworm9/EarthAnimation/earth.gif',
