@@ -1,0 +1,91 @@
+/* css animation for <h2> */
+/* use @keyframes to animate in css style.
+what it appears is you have keyframes with an animation name 
+and a element with an animation name
+however, the keyframes is just more detail of how you want the animation name to animation
+for ex., <h1> animation-name: fadeIn, so you also name keyframes with the same name
+then fadeIn will now follow the guidelines set by keyframes. 
+the keyframes rules only apply to whatever you put there that matches with the animation you have in the element.
+ */
+
+
+
+ body {
+    margin: 20px;
+   
+}
+
+.container {
+    width: 500px;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-iteration-count: 5s;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.animate {
+    border-left: 100px;
+    background-color: violet;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin: 0 auto;
+    animation-name: first;
+    animation-duration: 4s;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    position: relative;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+@keyframes first {
+
+
+    0% {
+        background-color: violet;
+        left: 0px;
+        top: 0px;
+        border-radius: 0 0 0 0;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        background-color: rgb(228, 228, 19);
+        left: 250px;
+        top: 150px;
+        border-radius: 0 50% 0 0;
+    }
+
+    50% {
+        background-color: rgb(27, 27, 196);
+        left: 0px;
+        top: 250px;
+        border-radius: 0 50% 50% 0;
+    }
+
+    75% {
+        background-color: rgb(143, 134, 134);
+        left: 350px;
+        top: 350px;
+        border-radius: 0 50% 50% 50%;
+    }
+
+    100% {
+        background-color: rgb(211, 42, 211);
+        left: 0px;
+        top: 0px;
+        border-radius: 50%;
+        transform: rotate(90deg);
+    }
+
+
+}

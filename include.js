@@ -2903,6 +2903,15 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+
+  {
+    artName: 'circles',  
+    pageLink: './Art/timthetech30/index.html',  
+    imageLink: './Art/timthetech30/circles.gif',  
+    author: 'Tim Jacobs',  
+    githubLink: 'https://github.com/timthetech30'  
+  }
+
 ];
 
 /* -------------------------------------------------------------------------- */
