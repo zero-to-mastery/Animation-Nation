@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'No Animation',
+    pageLink: './Art/davidr/index.html',
+    imageLink: './Art/vikasverma67/Animation1/lets play ball.gif',
+    author: 'davodr',
+    githubLink: 'https://github.com/0r0ck3t'
+  },
+  {
     artName: 'Balls Animation',
     pageLink: './Art/vikasverma67/Animation1/index.html',
     imageLink: './Art/vikasverma67/Animation1/lets play ball.gif',
