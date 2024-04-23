@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  { 
+    artName: 'Solar Eclipse',
+    pageLink: './Art/kyeenno/index.html',
+    imageLink: './Art/kyeenno/screenshot.jpg',
+    author: 'kyeenno',
+    githubLink: 'https://github.com/kyeenno'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
