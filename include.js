@@ -2903,6 +2903,14 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+
+  { 
+    artName: 'The Fastest Guy in the Room (Literally)',
+    pageLink: './Art/animation/index.html',
+    imageLink: './Art/animation/run.gif',
+    author: 'Matheus',
+    githubLink: 'https://github.com/mateusmart6'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
