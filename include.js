@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Rotating Blobs', 
+    pageLink: './Art/bsour/index.html', 
+    imageLink: './Art/bsour/blob.gif',
+    author: 'Sourabh', 
+    githubLink: 'https://github.com/bsour' 
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
