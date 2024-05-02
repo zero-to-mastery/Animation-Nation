@@ -2889,6 +2889,15 @@ let cards = [
     author: 'Shazeen Thowfeek',
     githubLink: 'https://github.com/shazeen-1990'
   },
+  
+  {
+    artName: 'Name Animation',
+    pageLink: './Art/manasroutcse/index.html', 
+    imageLink: './Art/manas-animation_project/manas-text.gif', 
+    author: 'manas', 
+    githubLink: 'https://github.com/manasroutcse' 
+  },
+
   {    
     artName: 'Moving Clouds Animation',
     pageLink: './Art/artursniegowski/index.html',
