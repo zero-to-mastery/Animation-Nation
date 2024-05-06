@@ -1,0 +1,21 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.triangle {
+  width: 0px;
+  height: 0px;
+  margin: 50px auto;
+  top: 50px;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 100px solid #555;
+  position: relative; /* Added to ensure the triangle has layout context for transformations */
+  animation: spin 5s linear infinite; /* Apply the animation */
+  transform-origin: 49% 69%;
+}
