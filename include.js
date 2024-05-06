@@ -21,6 +21,13 @@ let cards = [
     githubLink: 'https://github.com/stormworm9'
   },
   {
+    artName: 'Zion Cloud',
+    pageLink: './Art/stormworm9/zioncloudart/index.html',
+    imageLink: './Art/stormworm9/zioncloudart/zioncloud.gif',
+    author: 'olekingKinga',
+    githubLink: 'https://github.com/olekingKinga'
+  },
+  {
     artName: 'CubeAnimation',
     pageLink: './Art/stormworm9/CubeAnimation/CubeAnimation.html',
     imageLink: './Art/stormworm9/CubeAnimation/CubeAnimation.gif',
