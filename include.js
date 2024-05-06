@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/Mikeabah'
   },
   {
+    artName: 'Spinning Triangle',
+    pageLink: './Art/icez213/index.html',
+    imageLink: './Art/icez213/spinningTriangle.gif',
+    author: 'icez213',
+    githubLink: 'https://github.com/icez213'
+  },
+  {
     artName: 'Balls Animation',
     pageLink: './Art/vikasverma67/Animation1/index.html',
     imageLink: './Art/vikasverma67/Animation1/lets_play_ball.gif',
