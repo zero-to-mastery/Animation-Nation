@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  { 
+    artName: 'Animatron',
+    pageLink: './Art/spinner/index.html',
+    imageLink: './Art/spinner/spinner.gif',
+    author: 'Ian',
+    githubLink: 'https://github.com/Ianpack'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
