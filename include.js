@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Car-Animation',
+    pageLink: './Art/niyati/index.html',
+    imageLink: './Art/niyati/car-animation.gif',
+    author: 'Niyati Patel',
+    githubLink: 'https://github.com/NiyatiMPatel'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
