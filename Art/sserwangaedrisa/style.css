@@ -1,0 +1,86 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.ring-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  animation: moveIn 2s forwards, moveOut 2s forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moveIn {
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes moveOut {
+  to {
+    transform: translateX(150px);
+  }
+}
+
+.circle:nth-child(1) {
+  background: linear-gradient(45deg, #ff6b6b, #3498db);
+  transform: rotate(0deg) translateX(150px) rotate(0deg);
+}
+.circle:nth-child(2) {
+  background: linear-gradient(-45deg, #3498db, #2ecc71);
+  transform: rotate(36deg) translateX(150px) rotate(-36deg);
+  animation-delay: 0.2s;
+}
+.circle:nth-child(3) {
+  background: linear-gradient(90deg, #9b59b6, #f1c40f);
+  transform: rotate(72deg) translateX(150px) rotate(-72deg);
+  animation-delay: 0.4s;
+}
+.circle:nth-child(4) {
+  background: linear-gradient(-90deg, #1abc9c, #e74c3c);
+  transform: rotate(108deg) translateX(150px) rotate(-108deg);
+  animation-delay: 0.6s;
+}
+.circle:nth-child(5) {
+  background: linear-gradient(135deg, #2ecc71, #3498db);
+  transform: rotate(144deg) translateX(150px) rotate(-144deg);
+  animation-delay: 0.8s;
+}
+.circle:nth-child(6) {
+  background: linear-gradient(-135deg, #f39c12, #9b59b6);
+  transform: rotate(180deg) translateX(150px) rotate(-180deg);
+  animation-delay: 1s;
+}
+.circle:nth-child(7) {
+  background: linear-gradient(180deg, #3498db, #e74c3c);
+  transform: rotate(216deg) translateX(150px) rotate(-216deg);
+  animation-delay: 1.2s;
+}
+.circle:nth-child(8) {
+  background: linear-gradient(225deg, #1abc9c, #f39c12);
+  transform: rotate(252deg) translateX(150px) rotate(-252deg);
+  animation-delay: 1.4s;
+}
+.circle:nth-child(9) {
+  background: linear-gradient(-225deg, #9b59b6, #2ecc71);
+  transform: rotate(288deg) translateX(150px) rotate(-288deg);
+  animation-delay: 1.6s;
+}
+.circle:nth-child(10) {
+  background: linear-gradient(45deg, #f1c40f, #1abc9c);
+  transform: rotate(324deg) translateX(150px) rotate(-324deg);
+  animation-delay: 1.8s;
+}

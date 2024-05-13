@@ -1,0 +1,54 @@
+/* Animation property */
+button {
+  animation: wiggle 3s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(10deg);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  80%,
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+body {
+  background: #000;
+}
+
+button {
+  position: absolute;
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+
+  height: 4em;
+  width: 7em;
+
+  background: #3ea47a;
+  background: linear-gradient(top, #4c2626, #996b6b);
+  border: none;
+  border-top: 3px solid orange;
+  border-radius: 0 0 0.2em 0.2em;
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+}

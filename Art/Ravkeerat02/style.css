@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+}
+
+.road {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#ff4500, #333); /* Gradient Sky Blue */
+  position: relative;
+  overflow: hidden;
+  animation: moveRoad 5s linear infinite;
+}
+
+.car {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  bottom: 10px;
+  left: -200px;
+  animation: moveCar 5s linear infinite;
+}
+
+.roof {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 30px solid #333; /* Dark Gray */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.body {
+  width: 100%;
+  height: 70px;
+  background-color: #ff4500; /* Orange Red */
+  border-radius: 10px;
+  position: relative;
+}
+
+.headlight {
+  width: 20px;
+  height: 20px;
+  background-color: #ffff00; /* Yellow */
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.window {
+  width: 40px;
+  height: 20px;
+  background-color: #add8e6; /* Light Blue */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wheel {
+  width: 20px;
+  height: 20px;
+  background-color: #333; /* Dark Gray */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  transform-origin: center; /* Ensure proper rotation around the center */
+}
+
+.front-wheel {
+  left: 40px;
+  animation: rotateWheel 1s linear infinite;
+}
+
+.rear-wheel {
+  right: 40px;
+  animation: rotateWheel 1s linear infinite;
+}
+
+@keyframes moveCar {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes moveRoad {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes rotateWheel {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.road {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#ff4500, #333); /* Gradient Sky Blue */
+  position: relative;
+  overflow: hidden;
+  animation: moveRoad 5s linear infinite;
+}
+
+.car {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  bottom: 10px;
+  left: -200px;
+  animation: moveCar 5s linear infinite;
+}
+
+.roof {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 30px solid #333; /* Dark Gray */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.body {
+  width: 100%;
+  height: 70px;
+  background-color: #ff4500; /* Orange Red */
+  border-radius: 10px;
+  position: relative;
+}
+
+.headlight {
+  width: 20px;
+  height: 20px;
+  background-color: #ffff00; /* Yellow */
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.window {
+  width: 40px;
+  height: 20px;
+  background-color: #add8e6; /* Light Blue */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wheel {
+  width: 20px;
+  height: 20px;
+  background-color: #333; /* Dark Gray */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  transform-origin: center; /* Ensure proper rotation around the center */
+}
+
+.front-wheel {
+  left: 40px;
+  animation: rotateWheel 1s linear infinite;
+}
+
+.rear-wheel {
+  right: 40px;
+  animation: rotateWheel 1s linear infinite;
+}
+
+@keyframes moveCar {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes moveRoad {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes rotateWheel {
+  100% {
+    transform: rotate(360deg);
+  }
+}

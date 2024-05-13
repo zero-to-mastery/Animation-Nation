@@ -1,0 +1,113 @@
+:root {
+  --color-bg: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  --color-sun: linear-gradient(180deg, #ffd301 22%, #e08065 100%);
+  --color-moon: linear-gradient(180deg, #555596 0%, #9cf4ff 100%);
+  --circle-radius: 50%;
+}
+
+body {
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.circle {
+  border-radius: var(--circle-radius);
+  display: block;
+}
+
+.circle__one {
+  width: 150px;
+  height: 150px;
+  background: var(--color-sun);
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.circle__one::before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: var(--circle-radius);
+  box-shadow: 0 0 22px 12px #ffd301;
+  position: relative;
+  z-index: -1;
+  animation: sun-shine 2s ease-in-out infinite normal forwards;
+}
+
+.circle__two {
+  width: 50px;
+  height: 50px;
+  background: var(--color-moon);
+  margin: 0 auto;
+  animation: orbit 5s linear infinite;
+  transform-origin: center bottom;
+}
+
+.circle__two::before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: var(--circle-radius);
+  box-shadow: 0 0 12px 4px #555596;
+  position: relative;
+  z-index: -1;
+  animation: moon-shine 2s ease-in-out infinite normal forwards;
+}
+
+@keyframes sun-shine {
+  0% {
+    box-shadow: 0 0 6px 2px #ffd301;
+  }
+
+  50% {
+    box-shadow: 0 0 12px 4px #ffd301;
+  }
+
+  100% {
+    box-shadow: 0 0 6px 2px #ffd301;
+  }
+}
+
+@keyframes moon-shine {
+  0% {
+    box-shadow: 0 0 6px 2px #555596;
+  }
+
+  50% {
+    box-shadow: 0 0 12px 4px #555596;
+  }
+
+  100% {
+    box-shadow: 0 0 6px 2px #555596;
+  }
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateY(100px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateY(100px) rotate(-360deg);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}

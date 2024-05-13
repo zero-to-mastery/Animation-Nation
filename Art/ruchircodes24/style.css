@@ -1,0 +1,41 @@
+body {
+  background-image: url(images/goal-post.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.football {
+  height: 40px;
+  position: fixed;
+  top: 40vw;
+  left: 30vw;
+}
+
+.football:hover {
+  animation: curvePath 0.5s ease-in forwards;
+  cursor: url(images/ball.png), auto;
+}
+
+@keyframes curvePath {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(50%, -50%);
+  }
+
+  50% {
+    transform: translate(75%, -75%);
+  }
+
+  100% {
+    transform: translate(200%, -350%);
+  }
+}
+
+.text {
+  color: white;
+  font-family: nosifer;
+  font-size: 1rem;
+}

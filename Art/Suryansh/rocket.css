@@ -1,0 +1,105 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.sky {
+  background: black;
+  height: 100%;
+  position: relative;
+  animation: skyAnimation 10s infinite linear;
+}
+
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(white 1%, transparent 1%);
+  background-size: 3px 3px;
+  animation: starsAnimation 10s infinite linear;
+}
+
+.rocket {
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: rocketAnimation 10s infinite linear;
+}
+
+.body {
+  width: 60px;
+  height: 120px;
+  background: red;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.window {
+  width: 25px;
+  height: 25px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fire {
+  width: 10px;
+  height: 60px;
+  background: #d28810;
+  position: absolute;
+  top: 120px;
+  left: 47%;
+  transform: translateX(-50%);
+  animation: fireAnimation 2s infinite alternate;
+}
+
+@keyframes rocketAnimation {
+  0% {
+    bottom: 0;
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    bottom: 100%;
+    transform: translateX(-50%) translateY(-100%);
+  }
+}
+
+@keyframes skyAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 1000%; /* Adjusted background position */
+  }
+}
+
+@keyframes starsAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-1000px);
+  }
+}
+
+@keyframes fireAnimation {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+}

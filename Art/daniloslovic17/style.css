@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.box{
+	border-radius: 30px;
+	width: 230px;
+	height: 175px;
+    background: blueviolet;
+    position: absolute;
+    -webkit-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    -moz-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    -o-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+}
+
+.dvd{
+	margin: 0 auto;
+	background-color: #0078D7;
+	position: relative;
+	width: 711px;
+    height: 509px;
+}
+
+h1{
+	font-size: 54px;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+h2{
+	font-size: 27px;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0;
+    color: blueviolet;
+}
+
+.video-background{
+	border-radius: 100%;
+    background: black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@-webkit-keyframes moveX {
+  from { left: 0; } to { left: 480px; }
+}
+@-moz-keyframes moveX {
+  from { left: 0; } to { left: 480px; }
+}
+@-o-keyframes moveX {
+  from { left: 0; } to { left: 480px; }
+}
+@keyframes moveX {
+  from { left: 0; } to { left: 480px; }
+}
+
+@-webkit-keyframes moveY {
+  from { top: 0; } to { top: 333px; }
+}
+@-moz-keyframes moveY {
+  from { top: 0; } to { top: 333px; }
+}
+@-o-keyframes moveY {
+  from { top: 0; } to { top: 333px; }
+}
+@keyframes moveY {
+  from { top: 0; } to { top: 333px; }
+}

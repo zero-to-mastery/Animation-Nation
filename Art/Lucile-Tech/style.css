@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+.card {
+  width: 300px;
+  height: 150px;
+  perspective: 1000px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: transform 0.5s;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.face1 {
+  background: #d2d7e7;
+}
+
+.face2 {
+  background: #d1dfde;
+  transform: rotateY(180deg);
+}
+
+.card:hover .face1 {
+  transform: rotateY(-180deg);
+}
+
+.card:hover .face2 {
+  transform: rotateY(0);
+}
+
+.content {
+  text-align: center;
+  color: #fff;
+}

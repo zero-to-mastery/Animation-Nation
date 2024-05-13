@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.multicolor-loader {
+  background: conic-gradient(from 0deg, red, yellow, green, blue, violet, red);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  /* Mask after 5 seconds */
+  animation-delay: 5s;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.multicolor-loader:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* Background color to mask */
+  background: #333;
+  border-radius: 50%;
+  animation: fadeOut 1s ease-in forwards;
+  /* Mask after 5 seconds */
+  animation-delay: 5s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
