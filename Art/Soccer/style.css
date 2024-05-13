@@ -1,0 +1,98 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: skyblue;
+}
+.container {
+  	display: grid;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.sun {
+	width: 70px;
+	height: 70px;
+	margin: 20px;
+	background: yellow;
+	border-radius: 100px;
+	position: relative;
+	animation: mymove 30s ease-in-out infinite alternate;
+}
+.cloud {
+	width: 262px;
+	height: 60px;
+	background: white;
+	border-radius: 100px;
+	position: absolute;
+	margin: 100px 100px;
+	animation: mymove 15s ease-in-out infinite alternate;
+}
+.cloud .top {
+	position: absolute;
+	width: 125px;
+	height: 125px;
+	background: white;
+	top: -70px;
+	left: 110px;
+	border-radius: 100px;
+}
+.cloud .mid {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background: white;
+	top: -40px;
+	left: 35px;
+	border-radius: 100px;
+}
+.goals {
+	background-image: url("big.png");
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 30%;
+    bottom: 30%;
+    width: 400px;
+	height: 170px;
+	justify-content: center;
+	z-index: 1;
+	animation: mymove 5s ease-in-out infinite alternate;
+	animation-timing-function: ;
+}
+.ball {
+	background-image: url("ball.png");
+    position: relative;
+    margin-top: 40%;
+    margin-left: 30%;
+    width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	box-shadow: inset -5px -12px 0 rgba(0, 0, 0, 0.37);
+	animation: balls 3s linear infinite alternate;
+	transition: width 2s, height 2s, transform 2s;
+	z-index: 2;
+}
+.footer {
+	background: #8bc34a;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+  	width: 100%;
+  	height: 40%;
+  	z-index: -1;
+}
+@keyframes mymove {
+  from {left: -150px;}
+  to {left: 150px;}
+}
+
+@keyframes balls {
+  0%,
+  25%  {width: 90px; height: 90px; transform: translate(40px, -140px) rotate(30deg);}
+  50%  {width: 60px; height: 60px; transform: translate(60px, -210px) rotate(50deg);}
+  75%  {transform: translateY(100px) translateX(-90px) rotate(60deg);}
+  100% {transform: translateY(50px) translateX(-70px) rotate(40deg);}
+}
+
+
+
+
+
