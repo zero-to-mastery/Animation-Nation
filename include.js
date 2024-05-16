@@ -2903,8 +2903,14 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
-];
-
+  {
+    artName: 'Snow Animation', // change this to the name of your artwork
+    pageLink: './Art/imankitajamwal/index.html', // change this
+    imageLink: './Art/imankitajamwal/Snow_Globe.gif', // change this
+    author: 'Ankita', // use your name
+    githubLink: 'https://github.com/imankitajamwal' // change this
+  } 
+  ];
 /* -------------------------------------------------------------------------- */
 /*                                                                            */
 /*                YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS               */
