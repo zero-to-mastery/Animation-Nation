@@ -965,6 +965,13 @@ let cards = [
     githubLink: 'https://github.com/jeetkanodia'
   },
   {
+    artName: 'Blob Scale',
+    pageLink: './Art/romankyv/index.html',
+    imageLink: './Art/romankyv/BlobScale.gif',
+    author: 'Roman',
+    githubLink: 'https://github.com/romankyv'
+  },
+  {
     artName: 'Flower',
     pageLink: './Art/ChrRepou/flower.html',
     imageLink: './Art/ChrRepou/flower.png',

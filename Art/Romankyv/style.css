@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #001300;
+}
+
+section {
+    padding: 100px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #001300;
+}
+
+ section .loader {
+    position: relative;
+ }
+
+ section .loader .dot {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #178ccb;
+    box-shadow: 0 0 10px #178ccb,
+                0 0 20px #178ccb,
+                0 0 40px #178ccb,
+                0 0 60px #178ccb,
+                0 0 80px #178ccb,
+                0 0 100px #178ccb;
+    margin: 20px 10px;
+    transform: scale(2.0);
+    border-radius: 50%;
+    animation: animateDot 3s ease-in-out infinite;
+ }
+
+ @keyframes animateDot {
+    0% {
+        transform: scale(0.2);
+    }
+    10% {
+        transform: scale(1);
+    }
+    50%,100% {
+        transform: scale(0.2);
+    }
+    
+ }
