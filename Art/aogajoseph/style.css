@@ -3,6 +3,7 @@
     1. frame
     2. second-hand
     3. minute-hand
+    4. hour-hand
 
 */
 
@@ -57,7 +58,7 @@ body, html {
     }
 }
 
-/* 2.minute-hand */
+/* 3. minute-hand */
 .minute-hand {
     background-color: black;
     width: 8px;
@@ -72,15 +73,43 @@ body, html {
     margin: auto;
     transform: translate(-150%, -150%);
     transform-origin: 200px 0;
-    -webkit-animation: minute-hand 360s linear infinite;
-    animation: minute-hand 360s linear infinite;
+    -webkit-animation: minute-hand 3600s linear infinite;
+    animation: minute-hand 3600s linear infinite;
 }
 
 @-webkit-keyframes minute-hand {
     from {
-        transform: rotate(0deg) translate(-100px) rotate(0deg);
+        transform: rotate(0deg) translate(-110px) rotate(0deg);
     }
     to {
         transform: rotate(360deg) translate(-110px) rotate(-360deg);
+    }
+}
+
+/* 3. hour-hand */
+.hour-hand {
+    background-color: black;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    transform: translate(-150%, -150%);
+    transform-origin: 200px 0;
+    -webkit-animation: hour-hand 43200s linear infinite;
+    animation: hour-hand 43200s linear infinite;
+}
+
+@-webkit-keyframes hour-hand {
+    from {
+        transform: rotate(0deg) translate(-80px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(-80px) rotate(-360deg);
     }
 }
