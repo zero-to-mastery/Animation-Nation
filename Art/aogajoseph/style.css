@@ -1,0 +1,47 @@
+/* styles 
+1. circle
+2. dot
+*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 1. circle */
+.circle {
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid green;
+    border-radius: 50%;
+    position: relative;
+}
+
+/* 2. dot */
+.dot {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* border-radius: 100%; */
+    /* margin: 20px auto; */
+    transform: translate(-150%, -150%);
+    transform-origin: 100px 0;
+    animation: rotate-around 5s linear infinite;
+}
+
+@keyframes rotate-around {
+    from {
+        transform: rotate(0deg) translateX(100px) translateY(-50%);
+    }
+    to {
+        transform: rotate(360deg) translateX(100px) translateY(-50%);
+    }
+}
