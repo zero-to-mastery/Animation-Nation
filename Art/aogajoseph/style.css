@@ -5,6 +5,7 @@
     3. second-hand
     4. minute-hand
     5. hour-hand
+    6. Brand
 
 */
 
@@ -223,4 +224,15 @@
     to {
         transform: rotate(360deg);
     }
+}
+
+/* 6. brand */
+.brand {
+    color: azure;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    letter-spacing: 6px;
 }
