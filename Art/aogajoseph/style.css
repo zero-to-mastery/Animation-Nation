@@ -8,123 +8,202 @@
 
 */
 
-body, html {
-    height: 100%;
-    background-image: linear-gradient(to right, rgb(0, 238, 255), rgb(255, 2, 255));
+* {
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0;
 }
 
-/* 1. frame */
-.frame {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    border: 5px solid rgb(3, 0, 158);
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(0, 238, 255), rgb(255, 2, 255));
+    font-family: 'josefin sans', 'sans-serif';
+    float: left;
+}
+
+#clock {
+    width: 280px;
+    height: 280px;
+    background: black;
+    border: 18px solid rgb(0, 225, 255);
     border-radius: 50%;
-    position: absolute;
-}
-
-/* 2. second-hand */
-.second-hand {
-    background-color: rgb(255, 255, 255);
-    width: 2px;
-    height: 150px;
+    margin: 200px auto;
     position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    margin: auto;
-    transform: translate(-150%, -150%);
-    transform-origin: 200px 0;
-    -webkit-animation: second-hand 60s linear infinite;
-    animation: second-hand 60s linear infinite;
+    box-shadow: inset 0 5px 25px rgb(0, 110, 255), 0 5px 25px black,
+    0 5px 25px black,
+    0 5px 30px black,
+    0 5px 35px black,
+    0 5px 35px black,
+    0 5px 35px black;
 }
 
-@-webkit-keyframes second-hand {
-    from {
-        transform: rotate(0deg) translate(-120px) rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg) translate(-120px) rotate(-360deg);
-    }
-}
-
-/* 3. minute-hand */
-.minute-hand {
-    background-color: rgb(255, 255, 255);
-    width: 8px;
-    height: 8px;
+#clock::before {
+    content: "";
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
+    width: 280px;
+    height: 280px;
+    left: -18px;
+    top: -10px;
+    border: 18px solid #ccc;
     border-radius: 50%;
-    margin: auto;
-    transform: translate(-150%, -150%);
-    transform-origin: 200px 0;
-    -webkit-animation: minute-hand 3600s linear infinite;
-    animation: minute-hand 3600s linear infinite;
+    z-index: -2;
 }
 
-@-webkit-keyframes minute-hand {
-    from {
-        transform: rotate(0deg) translate(-110px) rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg) translate(-110px) rotate(-360deg);
-    }
-}
-
-/* 4. hour-hand */
-.hour-hand {
-    background-color: rgb(255, 255, 255);
-    width: 12px;
-    height: 12px;
+#clock::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: whitesmoke;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
     border-radius: 50%;
-    margin: auto;
-    transform: translate(-150%, -150%);
-    transform-origin: 200px 0;
-    -webkit-animation: hour-hand 43200s linear infinite;
-    animation: hour-hand 43200s linear infinite;
+    left: calc(50% - 9px);
+    top: calc(50% - 9px);
+    box-shadow: 0 2px 4px rgb(27, 26, 26);
 }
 
-@-webkit-keyframes hour-hand {
-    from {
-        transform: rotate(0deg) translate(-80px) rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg) translate(-80px) rotate(-360deg);
-    }
+#clock li {
+    list-style: none;
+    position: absolute;
 }
 
-/* 5. numbers */
-.num3, .num6, .num9, .num12 {
+.num {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    text-align: center;
+}
+
+.num span {
+    display: block;
     color: beige;
-    font-size: 1.5em;
-    font-family: ;
-    font-style: italic;
-    font-weight: 1000;
+    font-size: 38px;
+    text-shadow: 0 5px 18px rgb(58, 55, 55), 0 2px 3px rgb(26, 14, 14);
 }
 
-.num3 { transform: rotate(90deg) rotate(-90deg); }
-.frame .num6 { transform: rotate(90deg) rotate(-90deg); }
-.frame .num9 { transform: rotate(0deg) translate(130px) rotate(0deg); }
-.frame .num12 { transform: rotate(0deg) translate(130px) rotate(0deg); }
+.num:nth-child(1) {
+    transform: rotate(30deg);
+}
+.num:nth-child(1) span {
+    transform: rotate(-30deg);
+}
+.num:nth-child(2) {
+    transform: rotate(60deg);
+}
+.num:nth-child(2) span {
+    transform: rotate(-60deg);
+}
+.num:nth-child(3) {
+    transform: rotate(90deg);
+}
+.num:nth-child(3) span {
+    transform: rotate(-90deg);
+}
+.num:nth-child(4) {
+    transform: rotate(120deg);
+}
+.num:nth-child(4) span {
+    transform: rotate(-120deg);
+}
+.num:nth-child(5) {
+    transform: rotate(150deg);
+}
+.num:nth-child(5) span {
+    transform: rotate(-150deg);
+}
+.num:nth-child(6) {
+    transform: rotate(180deg);
+}
+.num:nth-child(6) span {
+    transform: rotate(-180deg);
+}
+.num:nth-child(7) {
+    transform: rotate(210deg);
+}
+.num:nth-child(7) span {
+    transform: rotate(-210deg);
+}
+.num:nth-child(8) {
+    transform: rotate(240deg);
+}
+.num:nth-child(8) span {
+    transform: rotate(-240deg);
+}
+.num:nth-child(9) {
+    transform: rotate(270deg);
+}
+.num:nth-child(9) span {
+    transform: rotate(-270deg);
+}
+.num:nth-child(10) {
+    transform: rotate(300deg);
+}
+.num:nth-child(10) span {
+    transform: rotate(-300deg);
+}
+.num:nth-child(11) {
+    transform: rotate(330deg);
+}
+.num:nth-child(11) span {
+    transform: rotate(-330deg);
+}
+.num:nth-child(12) {
+    transform: rotate(360deg);
+}
+.num:nth-child(12) span {
+    transform: rotate(-360deg);
+}
+
+#second {
+    width: 100%;
+    height: 100%;
+    animation: sec 60s steps(60, end) infinite;
+}
+#second::after {
+    content: "";
+    width: 4px;
+    height: 107px;
+    border-radius: 2px;
+    background: #fc009b;
+    position: absolute;
+    left: calc(50% - 2px);
+    top: 55px;
+    box-shadow: 1px 2px 3px rgb(56, 53, 53);
+}
+
+#minute {
+    width: 100%;   
+    height: 79px;
+    animation: sec 3600s steps(60, end) infinite;
+}
+
+#minute::after {
+    content: "";
+    width: 8px;
+    height: 79px;
+    border-radius: 4px 4px 2px 2px;
+    background: #ccc;
+    position: absolute;
+    left: calc(50% + 30px);
+    top: 79px;
+    transform: rotate(-120deg);
+    box-shadow: -1px 0 5px rgb(44, 42, 42);
+}
+
+#hour {
+    width: 100px;
+    height: 100%;
+    animation: sec 43200s steps(60, end) infinite;
+}
+#hour::after {
+    content: "";
+    width: 12px;
+    height: 65px;
+    border-radius: 6px 6px 3px 3px;
+    background: rgb(123, 84, 160);
+    position: absolute;
+    left: calc(110% - 4px);
+    top: 33%;
+    transform: rotate(120deg);
+    box-shadow: 1px 0 4px rgb(53, 50, 50);
+}
