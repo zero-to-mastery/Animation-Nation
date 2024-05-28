@@ -1,6 +1,9 @@
 /* styles 
-1. circle
-2. dot
+
+    1. frame
+    2. second-hand
+    3. minute-hand
+
 */
 
 body, html {
@@ -11,37 +14,73 @@ body, html {
     align-items: center;
 }
 
-/* 1. circle */
-.circle {
+/* 1. frame */
+.frame {
     background-color: transparent;
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     margin: auto;
-    border: 1px solid green;
+    border: 5px solid green;
     border-radius: 50%;
-    position: relative;
-}
-
-/* 2. dot */
-.dot {
-    background-color: black;
-    width: 50px;
-    height: 50px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    /* border-radius: 100%; */
-    /* margin: 20px auto; */
-    transform: translate(-150%, -150%);
-    transform-origin: 100px 0;
-    animation: rotate-around 5s linear infinite;
 }
 
-@keyframes rotate-around {
+/* 2. second-hand */
+.second-hand {
+    background-color: black;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    transform: translate(-150%, -150%);
+    transform-origin: 200px 0;
+    -webkit-animation: second-hand 60s linear infinite;
+    animation: second-hand 60s linear infinite;
+}
+
+@-webkit-keyframes second-hand {
     from {
-        transform: rotate(0deg) translateX(100px) translateY(-50%);
+        transform: rotate(0deg) translate(-120px) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(100px) translateY(-50%);
+        transform: rotate(360deg) translate(-120px) rotate(-360deg);
+    }
+}
+
+/* 2.minute-hand */
+.minute-hand {
+    background-color: black;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    transform: translate(-150%, -150%);
+    transform-origin: 200px 0;
+    -webkit-animation: minute-hand 360s linear infinite;
+    animation: minute-hand 360s linear infinite;
+}
+
+@-webkit-keyframes minute-hand {
+    from {
+        transform: rotate(0deg) translate(-100px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(-110px) rotate(-360deg);
     }
 }
