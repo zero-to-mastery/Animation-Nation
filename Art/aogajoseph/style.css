@@ -4,11 +4,13 @@
     2. second-hand
     3. minute-hand
     4. hour-hand
+    5. numbers
 
 */
 
 body, html {
     height: 100%;
+    background-image: linear-gradient(to right, rgb(0, 238, 255), rgb(255, 2, 255));
     margin: 0;
     display: flex;
     justify-content: center;
@@ -25,23 +27,22 @@ body, html {
     left: 0;
     right: 0;
     margin: auto;
-    border: 5px solid green;
+    border: 5px solid rgb(3, 0, 158);
     border-radius: 50%;
     position: absolute;
 }
 
 /* 2. second-hand */
 .second-hand {
-    background-color: black;
-    width: 4px;
-    height: 4px;
-    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 2px;
+    height: 150px;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     overflow: hidden;
-    border-radius: 50%;
     margin: auto;
     transform: translate(-150%, -150%);
     transform-origin: 200px 0;
@@ -60,7 +61,7 @@ body, html {
 
 /* 3. minute-hand */
 .minute-hand {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     width: 8px;
     height: 8px;
     position: absolute;
@@ -86,9 +87,9 @@ body, html {
     }
 }
 
-/* 3. hour-hand */
+/* 4. hour-hand */
 .hour-hand {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     width: 12px;
     height: 12px;
     position: absolute;
@@ -113,3 +114,17 @@ body, html {
         transform: rotate(360deg) translate(-80px) rotate(-360deg);
     }
 }
+
+/* 5. numbers */
+.num3, .num6, .num9, .num12 {
+    color: beige;
+    font-size: 1.5em;
+    font-family: ;
+    font-style: italic;
+    font-weight: 1000;
+}
+
+.num3 { transform: rotate(90deg) rotate(-90deg); }
+.frame .num6 { transform: rotate(90deg) rotate(-90deg); }
+.frame .num9 { transform: rotate(0deg) translate(130px) rotate(0deg); }
+.frame .num12 { transform: rotate(0deg) translate(130px) rotate(0deg); }
