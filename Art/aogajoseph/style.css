@@ -5,7 +5,8 @@
     3. second-hand
     4. minute-hand
     5. hour-hand
-    6. Brand
+    6. logo
+    7. brand
 
 */
 
@@ -230,9 +231,28 @@
 .brand {
     color: azure;
     position: absolute;
-    left: 30%;
-    top: 30%;
+    text-transform: lowercase;
+    left: 28%;
+    top: 32%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
-    letter-spacing: 6px;
+    letter-spacing: 12px;
+    font-size: x-small;
+}
+
+/* 7. logo */
+.logo {
+    color: rgb(38, 0, 255);
+    position: absolute;
+    text-transform: lowercase;
+    text-align: center;
+    border: 1px solid rgb(70, 59, 59);
+    background-color:rgb(255, 251, 0);
+    border-radius: 50%;
+    top: 22%;
+    left: 46%;
+    width: 20px;
+    height: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
 }
