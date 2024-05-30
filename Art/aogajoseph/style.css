@@ -1,0 +1,249 @@
+/* styles 
+
+    1. wrapper
+    2. numbers
+    3. second-hand
+    4. minute-hand
+    5. hour-hand
+    6. logo
+    7. brand
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 1. wrapper */
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(0, 238, 255), rgb(255, 2, 255));
+    font-family: 'josefin sans', 'sans-serif';
+    float: left;
+}
+
+/* frame */
+#frame {
+    width: 280px;
+    height: 280px;
+    background: black;
+    border: 10px solid rgb(0, 225, 255);
+    border-radius: 50%;
+    margin: 200px auto;
+    position: relative;
+    box-shadow: inset 0 5px 25px rgb(0, 110, 255), 0 5px 25px black,
+    0 5px 25px black,
+    0 5px 30px black,
+    0 5px 35px black,
+    0 5px 35px black,
+    0 5px 35px black;
+}
+
+#frame::before {
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    left: -18px;
+    top: -10px;
+    border: 18px solid #ccc;
+    border-radius: 50%;
+    z-index: -2;
+}
+
+#frame::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: rgb(145, 150, 138);
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 9px);
+    top: calc(50% - 9px);
+    box-shadow: 0 2px 4px rgb(27, 26, 26);
+}
+
+#frame li {
+    list-style: none;
+    position: absolute;
+}
+
+/* 2. numbers */
+.num {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+.num span {
+    display: block;
+    color: greenyellow;
+    font-size: 1.7rem;
+    text-shadow: 0 5px 18px rgb(58, 55, 55), 0 2px 3px rgb(26, 14, 14);
+}
+
+.num:nth-child(1) {
+    transform: rotate(30deg);
+}
+.num:nth-child(1) span {
+    transform: rotate(-30deg);
+}
+.num:nth-child(2) {
+    transform: rotate(60deg);
+}
+.num:nth-child(2) span {
+    transform: rotate(-60deg);
+}
+.num:nth-child(3) {
+    transform: rotate(90deg);
+}
+.num:nth-child(3) span {
+    transform: rotate(-90deg);
+}
+.num:nth-child(4) {
+    transform: rotate(120deg);
+}
+.num:nth-child(4) span {
+    transform: rotate(-120deg);
+}
+.num:nth-child(5) {
+    transform: rotate(150deg);
+}
+.num:nth-child(5) span {
+    transform: rotate(-150deg);
+}
+.num:nth-child(6) {
+    transform: rotate(180deg);
+}
+.num:nth-child(6) span {
+    transform: rotate(-180deg);
+}
+.num:nth-child(7) {
+    transform: rotate(210deg);
+}
+.num:nth-child(7) span {
+    transform: rotate(-210deg);
+}
+.num:nth-child(8) {
+    transform: rotate(240deg);
+}
+.num:nth-child(8) span {
+    transform: rotate(-240deg);
+}
+.num:nth-child(9) {
+    transform: rotate(270deg);
+}
+.num:nth-child(9) span {
+    transform: rotate(-270deg);
+}
+.num:nth-child(10) {
+    transform: rotate(300deg);
+}
+.num:nth-child(10) span {
+    transform: rotate(-300deg);
+}
+.num:nth-child(11) {
+    transform: rotate(330deg);
+}
+.num:nth-child(11) span {
+    transform: rotate(-330deg);
+}
+.num:nth-child(12) {
+    transform: rotate(360deg);
+}
+.num:nth-child(12) span {
+    transform: rotate(-360deg);
+}
+
+/* 3. second-hand */
+#second-hand {
+    position: absolute;
+    width: 45%;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    border-radius: 6px 6px 3px 3px;
+    background: #fc009b;
+    transform-origin: 0% 50%;
+    animation: second-hand 60s linear infinite;
+}
+
+@keyframes second-hand {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* 4. minute-hand */
+#minute-hand {
+    position: absolute;
+    width: 36%;   
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    border-radius: 6px 6px 3px 3px;
+    background: #00d9ff;
+    transform-origin: 0% 50%;
+    animation: minute-hand 3600s linear infinite;
+}
+
+@keyframes minute-hand {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* 5. hour-hand */
+#hour-hand { 
+    position: absolute;
+    width: 4%;   
+    height: 68px;
+    top: 50%;
+    left: 48%;
+    border-radius: 3px 3px 6px 6px;
+    background: rgb(123, 84, 160);
+    transform-origin: 50% 0%;
+    animation: hour-hand 43200s linear infinite;
+}
+
+@keyframes hour-hand {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* 6. brand */
+.brand {
+    color: azure;
+    position: absolute;
+    text-transform: lowercase;
+    left: 30%;
+    top: 30%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-size: x-small;
+    animation: brand 1.5s infinite;
+}
+
+@keyframes brand {
+    0%, 100% { opacity: 1;}
+    15%, 85% { opacity: 0.2;}
+    30%, 70% { opacity: 0.8;}
+    45%, 55% { opacity: 0.4;}
+}
