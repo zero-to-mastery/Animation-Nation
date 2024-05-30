@@ -232,27 +232,18 @@
     color: azure;
     position: absolute;
     text-transform: lowercase;
-    left: 28%;
-    top: 32%;
+    left: 30%;
+    top: 30%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
-    letter-spacing: 12px;
+    letter-spacing: 10px;
     font-size: x-small;
+    animation: brand 1.5s infinite;
 }
 
-/* 7. logo */
-.logo {
-    color: rgb(38, 0, 255);
-    position: absolute;
-    text-transform: lowercase;
-    text-align: center;
-    border: 1px solid rgb(70, 59, 59);
-    background-color:rgb(255, 251, 0);
-    border-radius: 50%;
-    top: 22%;
-    left: 46%;
-    width: 20px;
-    height: 16px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 800;
+@keyframes brand {
+    0%, 100% { opacity: 1;}
+    15%, 85% { opacity: 0.2;}
+    30%, 70% { opacity: 0.8;}
+    45%, 55% { opacity: 0.4;}
 }
