@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Square animation', 
+    pageLink: './Art/cyberspark/index.html',
+    imageLink: './Art/cyberspark/cyberspark.gif',
+    author: 'Steve',
+    githubLink: 'https://github.com/steveostler'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
