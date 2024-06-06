@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  { 
+    artName: 'Pokemon Button Animation',
+    pageLink: './Art/nandan7198/index.html',
+    imageLink: './Art/nandan7198/pokemonAnimation.gif',
+    author: 'Nandan S',
+    githubLink: 'https://github.com/nandan7198/'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
