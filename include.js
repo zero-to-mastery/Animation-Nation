@@ -2443,6 +2443,13 @@ let cards = [
     githubLink: 'https://github.com/Dhairya-A-Mehra'
   },
   {
+    artName: 'Dancing Raccoon', 
+    pageLink: './Art/ShervonnW/index.html', 
+    imageLink: './Art/ShervonnW/raccoon-dance.gif', 
+    author: 'Shervon',
+    githubLink: 'https://github.com/ShervonnW' 
+  }
+  {
     artName: 'CameraShutter',
     pageLink: './Art/manishjha-04/CameraShutter/index.html',
     imageLink: './Art/manishjha-04/CameraShutter/camera-shutter.gif',
