@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Animrotation', 
+    pageLink: './Art/danielbarrosdevs/index.html',
+    imageLink: './Art/danielbarrosdevs/Animrotation.gif', 
+    author: 'Daniel', 
+    githubLink: 'https://github.com/danielbarrosdevs' 
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
