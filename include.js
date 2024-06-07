@@ -2448,7 +2448,7 @@ let cards = [
     imageLink: './Art/ShervonnW/raccoon-dance.gif', 
     author: 'Shervon',
     githubLink: 'https://github.com/ShervonnW' 
-  }
+  },
   {
     artName: 'CameraShutter',
     pageLink: './Art/manishjha-04/CameraShutter/index.html',

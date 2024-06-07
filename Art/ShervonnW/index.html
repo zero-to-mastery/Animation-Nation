@@ -3,12 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dancing Raccoon</title>
+    <title>Simple Animation Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="animation-container">
+    <div class="countdown-container">
+        <img src="https://cdn-icons-png.flaticon.com/128/235/235394.png" alt="Raccoon Icon" class="countdown-icon">
+        <div id="countdown" class="countdown-number">5</div>
+    </div>
+    <div class="animation-container" id="animation" style="display: none;">
         <img src="raccoon-dance.gif" alt="Raccoon Dance">
     </div>
+
+    <script>
+        let countdown = 5;
+        const countdownElement = document.getElementById('countdown');
+        const countdownIcon = document.querySelector('.countdown-icon');
+        const animationElement = document.getElementById('animation');
+
+        const countdownInterval = setInterval(() => {
+            countdown--;
+            countdownElement.textContent = countdown;
+            countdownElement.classList.add('animate');
+
+            // Remove the animation class after animation ends to reset it
+            setTimeout(() => {
+                countdownElement.classList.remove('animate');
+            }, 500);
+
+            if (countdown === 0) {
+                clearInterval(countdownInterval);
+                document.querySelector('.countdown-container').style.display = 'none';
+                animationElement.style.display = 'block';
+            }
+        }, 1000);
+    </script>
 </body>
 </html>
