@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(51, 45, 45);
+    display: grid;
+    height: 90vh;
+    place-content: center;
+}
+
+.squere-rounded-corners {
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    border-radius: 8px;
+    transition: transform 0.9s ease;
+    animation: color 4s infinite;
+}
+
+.squere-rounded-corners:hover {
+    transform: rotate(360deg);
+}
+
+@keyframes color {
+    0% {
+        background-color: crimson;
+    }
+    25% {
+        background-color: darkorange;
+    }
+    50% {
+        background-color: darkblue;
+    }
+    75% {
+        background-color: fuchsia;
+    }
+    100% {
+        background-color:lightgreen;
+    }
+}
