@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'dbAnimation', 
+    pageLink: './Art/db1830/index.html', 
+    imageLink: './Art/db1830/dbanimation.gif',
+    author: 'Daveed', 
+    githubLink: 'https://github.com/db1830' 
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
