@@ -1,0 +1,40 @@
+@keyframes gradient-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+body {
+    background-color: black; /* Set the background color of the entire page to black */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.gradient-container {
+    width: 400px; /* Adjust size as needed */
+    height: 400px; /* Adjust size as needed */
+    background-color: black; /* Set background color to black */
+    background-image: radial-gradient(circle, 
+        #000080, /* Dark Blue - Deep space */
+        #4B0082, /* Indigo - Star clusters */
+        #9400D3, /* Dark Violet - Nebulae */
+        #FF00FF, /* Magenta - Nebulae */
+        #FF7F00, /* Orange - Nebulae */
+        #FFFF00, /* Yellow - Stars */
+        #00FF00, /* Green - Stars */
+        #0000FF /* Blue - Stars */
+    );
+    background-size: cover;
+    animation: gradient-animation 2s ease infinite; /* Adjust animation duration as needed */
+    border-radius: 50%;
+}
