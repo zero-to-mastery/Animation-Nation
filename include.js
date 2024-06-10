@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Nebula animation', // change this to the name of your artwork
+    pageLink: './Art/ms-roshni/triangle.html', // change this
+    imageLink: './Art/ms-roshni/nebula-gif.gif', // change this
+    author: 'Roshni', // use your name
+    githubLink: 'https://github.com/ms-roshni' // change this
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
