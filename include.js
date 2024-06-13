@@ -2903,6 +2903,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Platform Box Animation',
+    pageLink: './Art/AdityaLohar/index.html',
+    imageLink: './Art/AdityaLohar/platformbox.gif',
+    author: 'AdityaLohar',
+    githubLink: 'https://github.com/AdityLohar'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
