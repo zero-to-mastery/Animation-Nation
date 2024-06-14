@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  perspective: 800px;
+  transform-style: preserve-3d; /* Ensures children elements respect the 3D transformations */
+  transform: rotateX(80deg) rotateY(50deg) rotateZ(5deg);
+}
+
+.square {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid transparent;
+  animation: rotate 5s linear infinite alternate, changeColor 6s infinite;
+  transform-origin: center;
+}
+
+.square:nth-child(1) {
+  border-color: black;
+  transform: rotateY(0deg) rotateZ(0deg) scale(1);
+  background-color: #ff6347; /* Initial color */
+}
+
+.square:nth-child(2) {
+  border-color: blue;
+  transform: rotateY(0deg) rotateZ(0deg) scale(1);
+  animation-delay: 1s;
+  background-color: #9370db; /* Initial color */
+}
+
+.square:nth-child(3) {
+  border-color: green;
+  transform: rotateX(0deg) rotateZ(0deg) scale(1);
+  animation-delay: 2s;
+  background-color: #32cd32; /* Initial color */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg) rotateZ(0deg) scale(1);
+  }
+  100% {
+    transform: rotateY(360deg) rotateZ(360deg) scale(1.2);
+  }
+}
+
+@keyframes changeColor {
+  0%,
+  15% {
+    background-color: #ff6347; /* Tomato */
+  }
+  30%,
+  45% {
+    background-color: #9370db; /* MediumPurple */
+  }
+  60%,
+  75% {
+    background-color: #32cd32; /* LimeGreen */
+  }
+  90%,
+  100% {
+    background-color: #ffd700; /* Gold */
+  }
+}
