@@ -2874,7 +2874,6 @@ let cards = [
     author: 'Nyariki Kevin',
     githubLink: 'https://github.com/nyrkn10>'
   },
-
   {
     artName: 'Fascinating Animation',
     pageLink: './Art/moutro/index.html',
@@ -2898,11 +2897,12 @@ let cards = [
   },
   { 
     artName: 'First Animation',
-    pageLink: './Art/Kalliran/index.html',
-    imageLink: './Art/Kalliran/Animation-Nation.gif',
-    author: 'Kalliran',
-    githubLink: 'https://github.com/Kalliran'
-  },
+    pageLink: './Art/MrCyberSecureTT/index.html',
+    imageLink: './Art/mrcybersecurett/fadeaway.gif',
+    author: 'MrCyberSecureTT',
+    githubLink: 'https://github.com/mrcybersecurett'
+  }
+
 ];
 
 /* -------------------------------------------------------------------------- */
