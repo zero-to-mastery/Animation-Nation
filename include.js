@@ -2889,25 +2889,33 @@ let cards = [
     author: 'Shazeen Thowfeek',
     githubLink: 'https://github.com/shazeen-1990'
   },
-  {    
+  {
     artName: 'Moving Clouds Animation',
     pageLink: './Art/artursniegowski/index.html',
     imageLink: './Art/artursniegowski/moving_clouds.gif',
     author: 'Artur Sniegowski',
     githubLink: 'https://github.com/artursniegowski'
   },
-  { 
+  {
     artName: 'First Animation',
     pageLink: './Art/Kalliran/index.html',
     imageLink: './Art/Kalliran/Animation-Nation.gif',
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
-  },{
+  },
+  {
     artName: 'Matrix',
     pageLink: './Art/hamzakadd/index.html',
     imageLink: './Art/hamzakadd/matrix.gif',
     author: 'Hamza',
     githubLink: 'https://github.com/hamzakadd'
+  },
+  {
+    artName: 'Color_Square_1Dragon',
+    pageLink: './Art/Color_Square_1Dragon /index.html',
+    imageLink: './Art/Color_Square_1Dragon/colorSquare.gif',
+    author: 'Dragon',
+    githubLink: 'https://github.com/OneDragon1'
   }
 ];
 
