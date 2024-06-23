@@ -2874,7 +2874,6 @@ let cards = [
     author: 'Nyariki Kevin',
     githubLink: 'https://github.com/nyrkn10>'
   },
-
   {
     artName: 'Fascinating Animation',
     pageLink: './Art/moutro/index.html',
@@ -2908,6 +2907,13 @@ let cards = [
     imageLink: './Art/hamzakadd/matrix.gif',
     author: 'Hamza',
     githubLink: 'https://github.com/hamzakadd'
+  },
+  {
+    artName: 'Traffic Light Animation',
+    pageLink: './Art/nyame100/index.html',
+    imageLink: './Art/nyame100/trafficLight.gif',
+    author: 'Nyame Richmond',
+    githubLink: 'https://github.com/nyame100'
   }
 ];
 
