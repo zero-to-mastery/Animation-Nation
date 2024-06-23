@@ -2914,6 +2914,13 @@ let cards = [
     imageLink: './Art/nyame100/trafficLight.gif',
     author: 'Nyame Richmond',
     githubLink: 'https://github.com/nyame100'
+  },
+  {
+    artName: 'BXI Orbit Symphony',
+    pageLink: './Art/BradXIII/bxi-orbit-symphony.html',
+    imageLink: './Art/BradXIII/Orbit.gif',
+    author: 'Brad',
+    githubLink: 'https://github.com/BradXIII'
   }
 ];
 
