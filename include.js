@@ -2914,6 +2914,13 @@ let cards = [
     imageLink: './Art/nyame100/trafficLight.gif',
     author: 'Nyame Richmond',
     githubLink: 'https://github.com/nyame100'
+  },
+  {
+    artName: 'Lightning Strike',
+    pageLink: './Art/jfl77/index.html',
+    imageLink: './Art/jfl77/lightning.gif',
+    author: 'J',
+    githubLink: 'https://github.com/jfl77'
   }
 ];
 

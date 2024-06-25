@@ -1,0 +1,59 @@
+body { 
+            margin: 0; 
+            padding: 0; 
+            background: black; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+        } 
+
+@keyframes flash {
+    from{
+            width: .1vw; 
+            height: .1vw; 
+            background: #ff8001; 
+            border-radius: 50%; 
+            box-shadow: 0 0 20px rgb(153, 105, 57), 
+                        0 0 40px rgb(153, 105, 57),
+                        0 0 60px rgb(153, 105, 57),  
+                        0 0 80px rgb(153, 105, 57),  
+                        0 0 120px rgb(153, 105, 57), 
+                        0 0 220px rgb(153, 105, 57),
+                        0 0 320px rgb(153, 105, 57); 
+    }
+
+    to{
+            box-shadow: 0 0 0 30px rgb(255, 255, 255),  
+                        0 0 0 60px rgb(153, 105, 57),
+                        0 0 0 100px rgb(153, 105, 57),
+                        0 0 0 120px rgb(153, 105, 57), 
+                        0 0 0 200px rgb(153, 105, 57),
+                        0 0 0 400px rgb(153, 105, 57), 
+                        0 0 0 450px rgb(153, 105, 57);
+                        opacity: 10%;
+    }
+}
+ 
+
+
+.lightning {
+    position: fixed;
+    right:center;
+    top: center;
+    height: 30vw; /* control the size */
+    aspect-ratio: 0.56;
+    clip-path: polygon(100% 0, 23% 46%, 46% 44%, 15% 69%, 38% 67%, 0 100%, 76% 57%, 53% 58%, 88% 33%, 60% 37%);
+    background: #ff8001;
+}
+
+.flash {
+            width: 2vw; 
+            height: 2vw; 
+            background: whitesmoke; 
+            border-radius: 50%;
+            animation-name: flash;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+            animation-timing-function: ease-out;
+        }
