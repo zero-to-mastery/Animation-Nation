@@ -410,6 +410,13 @@ let cards = [
     author: 'Aaron Jacob',
     githubLink: 'https://github.com/aaron-jacob'
   },
+ {
+    artName: 'looping Animation',
+    pageLink: './Art/ShebMichel/index.html',
+    imageLink: './Art/ShebMichel/looping.gif',
+    author: 'Michel N.',
+    githubLink: 'https://github.com/ShebMichel'
+  },
   {
     artName: 'Rotating and Scaling Animation for div',
     pageLink: './Art/Abhishek1/index.html',
