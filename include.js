@@ -2914,7 +2914,14 @@ let cards = [
     imageLink: './Art/nyame100/trafficLight.gif',
     author: 'Nyame Richmond',
     githubLink: 'https://github.com/nyame100'
-  }
+  },
+  {
+    artName: 'White Christmas',
+    pageLink: './Art/YumiMachino/index.html', 
+    imageLink: './Art/YumiMachino/white_christmas.gif', 
+    author: 'Yumi Machino', 
+    githubLink: 'https://github.com/YumiMachino'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
