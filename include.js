@@ -2922,6 +2922,16 @@ let cards = [
     author: 'Yumi Machino', 
     githubLink: 'https://github.com/YumiMachino'
   },
+
+  {
+
+      artName: 'NischalPortfolio', // change this to the name of your artwork
+      pageLink: './Art/Nischal/portfolio.html', // change this
+      imageLink: './Art/Nischal/portfolio_background.jpg', // change this
+      author: 'Nischal', // use your name
+      githubLink: 'https://github.com/nischal6' // change this
+    
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
