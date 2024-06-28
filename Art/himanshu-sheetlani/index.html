@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>himanshu-sheetlani</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./fan.webp" type="image/x-icon">
+</head>
+<body>
+    <div class="fan">
+        <div class="circle">
+            <img src="./fan.webp" alt="fan">
+        </div>
+    </div>
+    <div class="btn">
+        <a class="btn1 b" onclick="on()">ON</a>
+        <a class="btn2 b" onclick="s1()">1</a>
+        <a class="btn3 b" onclick="s2()">2</a>
+        <a class="btn4 b" onclick="s3()">3</a>
+    </div>
+
+    <!-- script to change styling -->
+    <script>
+        let img= document.querySelector(".circle img")
+        let btn1= document.querySelector(".btn1")
+        let btn2= document.querySelector(".btn2")
+        let btn3= document.querySelector(".btn3")
+        let btn4= document.querySelector(".btn4")
+        btn1.style.backgroundColor="red"
+        function on(){
+
+            console.log("function called")
+            if(btn1.style.backgroundColor=="red"){
+                console.log("text is on")
+                btn1.innerText="OFF"
+                btn1.style.backgroundColor="green";
+                img.style.animationDuration="2s"
+                btn1.style.fontSize="20px"
+                btn2.style.backgroundColor="rgb(82, 82, 82)"
+                btn3.style.backgroundColor="grey"
+                btn4.style.backgroundColor="grey"
+                btn2.style.color="white"
+                btn3.style.color="black"
+                btn4.style.color="black"
+                btn2.style.boxShadow="0 0"
+                btn3.style.boxShadow="inset white 0px 6px 9px 0px"
+                btn4.style.boxShadow="inset white 0px 6px 9px 0px"
+            }else{
+                btn1.style.backgroundColor="red";
+                btn1.innerText="ON"
+                img.style.animationDuration="0s"
+                btn1.style.fontSize="25px"
+                btn2.style.backgroundColor="grey"
+                btn3.style.backgroundColor="grey"
+                btn4.style.backgroundColor="grey"
+                btn2.style.color="black"
+                btn3.style.color="black"
+                btn4.style.color="black"
+                btn2.style.boxShadow="inset white 0px 6px 9px 0px"
+                btn3.style.boxShadow="inset white 0px 6px 9px 0px"
+                btn4.style.boxShadow="inset white 0px 6px 9px 0px"
+            }
+        }
+        function s1(){
+            if(btn1.style.backgroundColor=="green"){
+                img.style.animationDuration="2s"
+                btn2.style.backgroundColor="rgb(82, 82, 82)"
+                btn3.style.backgroundColor="grey"
+                btn4.style.backgroundColor="grey"
+                btn2.style.color="white"
+                btn3.style.color="black"
+                btn4.style.color="black"
+                btn2.style.boxShadow="0 0"
+                btn3.style.boxShadow="inset white 0px 6px 9px 0px"
+                btn4.style.boxShadow="inset white 0px 6px 9px 0px"
+            }else{
+                alert("Press ON Button First")
+            }
+        }
+        function s2(){
+            if(btn1.style.backgroundColor=="green"){
+                img.style.animationDuration="1s"
+                btn3.style.backgroundColor="rgb(82, 82, 82)"
+                btn2.style.backgroundColor="grey"
+                btn4.style.backgroundColor="grey"
+                btn3.style.color="white"
+                btn2.style.color="black"
+                btn4.style.color="black"
+                btn3.style.boxShadow="0 0"
+                btn2.style.boxShadow="inset white 0px 6px 9px 0px"
+                btn4.style.boxShadow="inset white 0px 6px 9px 0px"
+            }else{
+                alert("Press ON Button First")
+            }
+        }
+        function s3(){
+            if(btn1.style.backgroundColor=="green"){
+                img.style.animationDuration=".5s"
+                btn4.style.backgroundColor="rgb(82, 82, 82)"
+                btn3.style.backgroundColor="grey"
+                btn2.style.backgroundColor="grey"
+                btn4.style.color="white"
+                btn3.style.color="black"
+                btn2.style.color="black"
+                btn4.style.boxShadow="0 0"
+                btn3.style.boxShadow="inset white 0px 6px 9px 0px"
+                btn2.style.boxShadow="inset white 0px 6px 9px 0px"
+            }else{
+                alert("Press ON Button First")
+            }
+        }
+    </script>
+</body>
+</html>
