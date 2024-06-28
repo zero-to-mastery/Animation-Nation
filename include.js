@@ -2922,6 +2922,13 @@ let cards = [
     author: 'Yumi Machino', 
     githubLink: 'https://github.com/YumiMachino'
   },
+  {
+    artName: 'Animatron', // change this to the name of your artwork
+    pageLink: './Art/animatron>/index.html', // change this
+    imageLink: './Art/animatron/trance.gif', // change this
+    author: 'Mani', // use your name
+    githubLink: 'https://github.com/mannu1433' // change this
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
