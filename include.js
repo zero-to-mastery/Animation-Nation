@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Fan Animation',
+    pageLink: './Art/himanshu-sheetlani/index.html',
+    imageLink: './Art/himanshu-sheetlani/Fan Animation.gif',
+    author: 'Himanshu Sheetlani',
+    githubLink: 'https://github.com/himanshu-sheetlani'
+  },
+  {
     artName: 'Balls Animation',
     pageLink: './Art/vikasverma67/Animation1/index.html',
     imageLink: './Art/vikasverma67/Animation1/lets play ball.gif',
