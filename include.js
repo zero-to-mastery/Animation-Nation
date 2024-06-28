@@ -2922,6 +2922,13 @@ let cards = [
     author: 'Yumi Machino', 
     githubLink: 'https://github.com/YumiMachino'
   },
+  {
+    artName: 'Lightning',
+    pageLink: './Art/jfl77/index.html',
+    imageLink: './Art/jfl77/lightning.gif',
+    author: 'J',
+    githubLink: 'https://github.com/jfl77'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
