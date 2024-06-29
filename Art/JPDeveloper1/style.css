@@ -1,0 +1,209 @@
+            *{
+                margin:0 auto;
+            }
+            body{ 
+                background-color:rgb(1, 2, 31);
+            }
+            .solar-system{
+                margin-top: 12%;
+                margin-left: 16%;
+                position: absolute;
+                width:1000px;
+            }
+            @keyframes translation{
+                from{ transform: rotate(0deg);}
+                to{ transform: rotate(360deg);}
+            }
+            #sun{
+                width: 65px;
+                height: 65px;
+                background-image: radial-gradient(rgb(230, 255, 1), rgb(255, 166, 0), rgb(128, 105, 0));
+                filter:blur(5px);
+                border-radius:50px;
+                position: absolute;
+                display:block;
+                top: 192px;
+                left: 430px;
+ 
+            }
+            #sunshine{
+                width: 90px;
+                height: 90px;
+                background-image: radial-gradient(rgb(230, 255, 1), rgb(255, 166, 0), rgb(128, 105, 0));
+                filter:blur(50px);
+                border-radius:50px;
+                position: absolute;
+                display:block;
+                top: -14px;
+                left: -14px;
+            }
+            #mercury{
+                position: absolute;
+                width: 90px;
+                height: 90px;
+                top: 177px;
+                left: 415px;
+                border-radius: 200px;
+                border:2px solid #001636;
+                animation:translation 2s infinite linear;
+                list-style: none;
+            }
+            #mercury p{
+                width: 7px;
+                height: 7px;
+                background-image: radial-gradient( rgb(128, 105, 0),rgb(71, 59, 4), rgb(83, 54, 27));
+                border-radius: 20px;
+                display:block;
+                position:absolute;  
+                top:9px;
+                left:9px;
+            }
+            #venus{
+                position: absolute;
+                width: 140px;
+                height: 140px;
+                top: 150px;
+                left: 390px;
+                border-radius: 200px;
+                border:2px solid #001636;
+                animation:translation 6s infinite linear;
+                list-style: none;
+            }
+            #venus p{
+                width: 15px;
+                height: 15px;
+                background-image: radial-gradient( rgb(250, 250, 250),rgb(175, 175, 175), rgb(122, 122, 122));
+                border-radius: 20px;
+                display:block;
+                position:absolute;  
+                top:12px;
+                left:12px;
+            }
+            #earth{
+                position: absolute;
+                width: 190px;
+                height: 190px;
+                top: 122px;
+                left: 365px;
+                border-radius: 500px;
+                border:2px solid #001636;
+                animation:translation 8s infinite linear;
+                list-style: none;
+            }
+            #earth p{
+                width: 14px;
+                height: 14px;
+                background-image: radial-gradient( rgb(0, 132, 255),rgb(0, 85, 165), rgb(0, 65, 126));
+                border-radius: 20px;
+                display:block;
+                position:absolute;  
+                top:19px;
+                left:19px;
+            }
+            #mars{
+                position: absolute;
+                width: 245px;
+                height: 245px;
+                top: 92px;
+                left: 337px;
+                border-radius: 500px;
+                border:2px solid #001636;
+                animation:translation 14s infinite linear;
+                list-style: none;
+            }
+            #mars p{
+                width: 11px;
+                height: 11px;                
+                background-image: radial-gradient( rgb(255, 0, 0),rgb(190, 1, 1), rgb(128, 0, 0));
+                border-radius: 20px;
+                display:block;
+                position:absolute;  
+                top:29px;
+                left:29px;
+            }
+            #jupter{
+                position: absolute;
+                width: 445px;
+                height: 445px;
+                top: -10px;
+                left: 245px;
+                border-radius: 500px;
+                border:2px solid #001636;
+                animation:translation 360s infinite linear;
+                list-style: none;
+            }
+            #jupter p{
+                width: 30px;
+                height: 30px;
+                background-image: radial-gradient( rgb(255, 138, 42),rgb(165, 91, 31), rgb(107, 48, 1));
+                border-radius: 20px;
+                display:block;
+                position:absolute;  
+                top:50px;
+                left:50px;
+            }
+            #saturn{
+                position:absolute;
+                width: 550px;
+                height: 550px;
+                top: -62px;
+                left: 190px;
+                border-radius:500px;
+                border:2px solid #001636;
+                animation: translation 450s infinite linear;
+                list-style: none;
+            }
+            #saturn p{
+                width:25px;
+                height:25px;
+                background-image: radial-gradient(rgb(222,222,222),rgb(90,87,23));
+                border-radius:50px;
+                display:block;
+                position: absolute;
+                top:67px;
+                left:67px;
+            }
+            #uran{
+                position:absolute;
+                width: 650px;
+                height: 650px;
+                top: -110px;
+                left: 140px;
+                border-radius:600px;
+                border:2px solid #001636;
+                animation: translation 672s infinite linear;
+                list-style: none;
+            }
+            #uran p{
+                width: 22px;
+                height: 22px;
+                background-image: radial-gradient(#cbf1f4,rgb(163, 228, 240),rgb(133, 224, 240));
+                border-radius:50px;
+                display:block;
+                position: absolute;
+                top:85px;
+                left:85px;
+
+            }
+            #neptune{
+                position:absolute;
+                width: 750px;
+                height: 750px;
+                top: -160px;
+                left: 90px;
+                border-radius:600px;
+                border:2px solid #001636;
+                animation: translation 1320s infinite linear;
+                list-style: none;
+            }
+            #neptune p{
+                width: 22px;
+                height: 22px;
+                background-image: radial-gradient(#0400ff,#0300b4,#02006d);
+                border-radius:50px;
+                display:block;
+                position: absolute;
+                top:98px;
+                left:98px;
+
+            }
