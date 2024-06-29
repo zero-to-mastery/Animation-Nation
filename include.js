@@ -2922,6 +2922,13 @@ let cards = [
     author: 'Yumi Machino', 
     githubLink: 'https://github.com/YumiMachino'
   },
+  {
+    artName: 'animcss',
+    pageLink: './Art/<BravoKolos>/index.html',
+    imageLink: './Art/<BravoKolos>/box.gif',
+    author: 'Kamil',
+    githubLink: 'https://github.com/BravoKolos'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
