@@ -2928,7 +2928,14 @@ let cards = [
     imageLink: './Art/Imaginario27/crazy-spinning-circles.gif',
     author: 'Imaginario27',
     githubLink: 'https://github.com/Imaginario27'
-  }
+  },
+  {    
+    artName: 'Lightning',
+    pageLink: './Art/jfl77/index.html',
+    imageLink: './Art/jfl77/lightning.gif',
+    author: 'J',
+    githubLink: 'https://github.com/jfl77'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
