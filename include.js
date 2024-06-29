@@ -2922,6 +2922,13 @@ let cards = [
     author: 'Yumi Machino', 
     githubLink: 'https://github.com/YumiMachino'
   },
+  {    
+    artName: 'Crazy Spinning Circles',
+    pageLink: './Art/Imaginario27/animation.html',
+    imageLink: './Art/Imaginario27/crazy-spinning-circles.gif',
+    author: 'Imaginario27',
+    githubLink: 'https://github.com/Imaginario27'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
