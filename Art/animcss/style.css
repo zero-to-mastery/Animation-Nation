@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.animated-box {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    position: relative;
+    animation: moveAndColorChange 4s infinite alternate;
+}
+
+@keyframes moveAndColorChange {
+    0% {
+        left: 0;
+        background-color: #3498db;
+    }
+    50% {
+        left: 200px;
+        background-color: #e74c3c;
+    }
+    100% {
+        left: 400px;
+        background-color: #2ecc71;
+    }
+}
