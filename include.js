@@ -2935,6 +2935,13 @@ let cards = [
     imageLink: './Art/Imaginario27/crazy-spinning-circles.gif',
     author: 'Imaginario27',
     githubLink: 'https://github.com/Imaginario27'
+  },
+  { 
+    artName: 'Typing Animation',
+    pageLink: './Art/arr199/index.html',
+    imageLink: './Art/arr199/preview.gif',
+    author: 'Abiel',
+    githubLink: 'https://github.com/arr199'
   }
 ];
 
