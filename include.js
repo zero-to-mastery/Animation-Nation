@@ -2943,7 +2943,7 @@ let cards = [
     author: 'Abiel',
     githubLink: 'https://github.com/arr199'
   },
-=======
+  {
     artName: "EvaCtion",
     pageLink: "./Art/EvaCtion/index.html",
     author: "Gawbb",
@@ -3045,12 +3045,6 @@ let cards = [
     imageLink: "./Art/cspencernd/dracula-colors.gif",
     author: "Christopher Spencer",
     githubLink: "https://github.com/cspencernd",
-  },
-  {
-    pageLink: "./Art/GabrielArt/GabrielArt.html",
-    imageLink: "./Art/GabrielArt/ZTM.jpg",
-    author: "GabrielAvramescu",
-    githubLink: "https://github.com/GabrielAvramescu",
   },
   {
     artName: "Pong",
@@ -3906,6 +3900,13 @@ let cards = [
     imageLink: './Art/FanisKapetanakis/Carousel.gif',
     author: 'Fanis',
     githubLink: 'https://github.com/KapetanakisFanis'
+  },
+  { 
+    artName: 'Red White and Blue',
+    pageLink: './Art/wcgraupmann/index.html',
+    imageLink: './Art/wcgraupmann/giphy.gif',
+    author: 'Will Graupmann',
+    githubLink: 'https://github.com/wcgraupmann'
   }
 ];
 
