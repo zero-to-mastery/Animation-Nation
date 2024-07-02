@@ -3907,6 +3907,13 @@ let cards = [
     imageLink: './Art/wcgraupmann/giphy.gif',
     author: 'Will Graupmann',
     githubLink: 'https://github.com/wcgraupmann'
+  {
+=======
+    artName: 'Animated Tree',
+    pageLink: './Art/berenvrl/index.html',
+    imageLink: './Art/berenvrl/animatedtree.gif',
+    githubLink: 'https://github.com/berenvrl'
+>>>>>>> c716f852 (adding my animation art to the project)
   }
 ];
 
