@@ -3907,6 +3907,13 @@ let cards = [
     imageLink: './Art/wcgraupmann/giphy.gif',
     author: 'Will Graupmann',
     githubLink: 'https://github.com/wcgraupmann'
+  },
+  {
+    artName: 'Loader Animation',
+    pageLink: './Art/glen654/index.html', 
+    imageLink: './Art/glen654/Loader.gif',
+    author: 'Glen Alloy', 
+    githubLink: 'https://github.com/glen654'
   }
 ];
 
