@@ -3909,6 +3909,12 @@ let cards = [
     githubLink: 'https://github.com/wcgraupmann'
   },
   {
+    artName: 'Animated Tree',
+    pageLink: './Art/berenvrl/index.html',
+    imageLink: './Art/berenvrl/animatedtree.gif',
+    githubLink: 'https://github.com/berenvrl'
+  },
+  {
     artName: 'Loader Animation',
     pageLink: './Art/glen654/index.html', 
     imageLink: './Art/glen654/Loader-Animation.gif',
