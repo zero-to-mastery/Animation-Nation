@@ -3911,7 +3911,7 @@ let cards = [
   {
     artName: 'Loader Animation',
     pageLink: './Art/glen654/index.html', 
-    imageLink: './Art/glen654/Loader.gif',
+    imageLink: './Art/glen654/Loader-Animation.gif',
     author: 'Glen Alloy', 
     githubLink: 'https://github.com/glen654'
   }
