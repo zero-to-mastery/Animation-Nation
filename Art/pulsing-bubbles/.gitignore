@@ -1,0 +1,15 @@
+.DS_Store
+.prettierignore
+
+.vscode
+
+node_modules
+dist
+.cache
+
+Thumbs.db
+.eslintrc.json
+package-lock.json
+package.json
+
+authentication.js

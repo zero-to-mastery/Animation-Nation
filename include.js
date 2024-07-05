@@ -235,6 +235,13 @@ let cards = [
     githubLink: 'https://github.com/ahmedalhamad7'
   },
   {
+    artName: 'Pulsing Bubbles', 
+    pageLink: './Art/pulsing-bubbles/index.html', 
+    imageLink: './Art/pulsing-bubbles/bubble.png', 
+    author: 'Christina', 
+    githubLink: 'https://github.com/codercreative' 
+  },
+  {
     artName: 'DayToNight',
     pageLink: './Art/NituCStefann/index.html',
     imageLink: './Art/NituCStefann/DayToNight.png',
