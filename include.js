@@ -3901,6 +3901,13 @@ let cards = [
     author: 'Fanis',
     githubLink: 'https://github.com/KapetanakisFanis'
   },
+  {
+    artName: 'Bouncy Animation', 
+    pageLink: './Art/Bouncy-animation/index.html', 
+    imageLink: './Art/Bouncy-animation/bouncy.gif',
+    author: 'Anca', 
+    githubLink: 'https://github.com/ancadunca' 
+  }
   { 
     artName: 'Red White and Blue',
     pageLink: './Art/wcgraupmann/index.html',
