@@ -2889,6 +2889,12 @@ let cards = [
     githubLink: 'https://github.com/moutro'
   },
   {
+    artName: 'mojaanimacia',
+    pageLink: './Art/mojaanimacia/stranka.html',
+    author: 'Martin052',
+    githubLink: 'https://github.com/martin052'
+  },
+  {
     artName: 'Animatron',
     pageLink: './Art/shazeen-1990/index.html',
     imageLink: './Art/shazeen-1990/animate.jpg',
@@ -3281,7 +3287,13 @@ let cards = [
     githubLink: "https://github.com/ErezAvni9",
   },
   {
-    artName: "Rolling Cat",
+    artName: 'Soccer',
+    pageLink: './Art/Soccer/index.html',
+    imageLink: './Art/Soccer/big.png',
+    author: 'Boris',
+    githubLink: 'https://github.com/henzbori'
+  },
+  {    artName: "Rolling Cat",
     pageLink: "./Art/ssoppet1/index.html",
     imageLink: "./Art/ssoppet1/cat.gif",
     author: "Stacy",
