@@ -2908,6 +2908,13 @@ let cards = [
     author: 'Artur Sniegowski',
     githubLink: 'https://github.com/artursniegowski'
   },
+  {    
+    artName: 'Earth Solar Basic Animation',
+    pageLink: './Art/Earsunor/index.html',
+    imageLink: './Art/Earsunor/Earsunor.gif',
+    author: 'Mostafa Osman',
+    githubLink: 'https://github.com/mostsayed93'
+  },
   { 
     artName: 'First Animation',
     pageLink: './Art/Kalliran/index.html',
