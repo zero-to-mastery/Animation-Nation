@@ -3137,6 +3137,13 @@ let cards = [
     githubLink: "https://github.com/kennedy-ogutu",
   },
   {
+    artName: "Pulsing Bubbles",
+    pageLink: "./Art/pulsing-bubbles/index.html",
+    imageLink: "./Art/pulsing-bubbles/bubble.png",
+    author: "Christina",
+    githubLink: "https://github.com/codercreative",
+  },
+  {
     artName: "ZTM Animation",
     pageLink: "./Art/TC/index.html",
     imageLink: "./Art/TC/ztm.gif",
