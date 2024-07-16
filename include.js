@@ -2896,6 +2896,12 @@ let cards = [
     githubLink: 'https://github.com/moutro'
   },
   {
+    artName: 'mojaanimacia',
+    pageLink: './Art/mojaanimacia/stranka.html',
+    author: 'Martin052',
+    githubLink: 'https://github.com/martin052'
+  },
+  {
     artName: 'Animatron',
     pageLink: './Art/shazeen-1990/index.html',
     imageLink: './Art/shazeen-1990/animate.jpg',
@@ -2908,6 +2914,13 @@ let cards = [
     imageLink: './Art/artursniegowski/moving_clouds.gif',
     author: 'Artur Sniegowski',
     githubLink: 'https://github.com/artursniegowski'
+  },
+  {    
+    artName: 'Earth Solar Basic Animation',
+    pageLink: './Art/Earsunor/index.html',
+    imageLink: './Art/Earsunor/Earsunor.gif',
+    author: 'Mostafa Osman',
+    githubLink: 'https://github.com/mostsayed93'
   },
   { 
     artName: 'First Animation',
@@ -3288,7 +3301,13 @@ let cards = [
     githubLink: "https://github.com/ErezAvni9",
   },
   {
-    artName: "Rolling Cat",
+    artName: 'Soccer',
+    pageLink: './Art/Soccer/index.html',
+    imageLink: './Art/Soccer/big.png',
+    author: 'Boris',
+    githubLink: 'https://github.com/henzbori'
+  },
+  {    artName: "Rolling Cat",
     pageLink: "./Art/ssoppet1/index.html",
     imageLink: "./Art/ssoppet1/cat.gif",
     author: "Stacy",
@@ -3914,13 +3933,20 @@ let cards = [
     imageLink: './Art/wcgraupmann/giphy.gif',
     author: 'Will Graupmann',
     githubLink: 'https://github.com/wcgraupmann'
+  },
   {
-=======
     artName: 'Animated Tree',
     pageLink: './Art/berenvrl/index.html',
     imageLink: './Art/berenvrl/animatedtree.gif',
+    author: 'berenvrl',
     githubLink: 'https://github.com/berenvrl'
->>>>>>> c716f852 (adding my animation art to the project)
+  },
+  {
+    artName: 'Something different',
+    pageLink: './Art/fenwood/index.html',
+    imageLink: './Art/fenwood/fenwood.fig',
+    author: 'fenwood',
+    githubLink: 'https://github.com/fenwood'
   }
 ];
 
