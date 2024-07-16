@@ -3,27 +3,111 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: black;
+  background-color: #f0f0f0;
 }
 
-.box {
-  background-color: white;
-  border: 1px solid black;
-  width: 40%;
-  height: 200px;
-  animation: slidein 3s cubic-bezier(0.4, 2.1, 0.8, 0.7) 0.3s;
+.star {
+  position: relative;
+  width: 300px; /* Adjust size as needed */
+  height: 300px; /* Adjust size as needed */
+  animation: rotate-star 5s linear infinite;
 }
 
-@keyframes slidein {
+.part {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px; /* Adjust size of each part */
+  height: 160px; /* Adjust size of each part */
+  transform-origin: 0 100%; /* Rotate around bottom-left corner */
+}
+
+#part1 {
+  clip-path: polygon(
+    50% 0%,
+    77% 28%,
+    100% 50%,
+    77% 72%,
+    50% 100%,
+    23% 72%,
+    0% 50%,
+    23% 28%
+  );
+  transform: rotate(0deg) translate(-50%, -50%);
+  background-color: gold; /* Adjust color as needed */
+}
+
+#part2 {
+  clip-path: polygon(
+    50% 0%,
+    77% 28%,
+    100% 50%,
+    77% 72%,
+    50% 100%,
+    23% 72%,
+    0% 50%,
+    23% 28%
+  );
+  transform: rotate(72deg) translate(-50%, -50%);
+  background-color: silver; /* Adjust color as needed */
+}
+
+#part3 {
+  clip-path: polygon(
+    50% 0%,
+    77% 28%,
+    100% 50%,
+    77% 72%,
+    50% 100%,
+    23% 72%,
+    0% 50%,
+    23% 28%
+  );
+  transform: rotate(144deg) translate(-50%, -50%);
+  background-color: teal; /* Adjust color as needed */
+}
+
+#part4 {
+  clip-path: polygon(
+    50% 0%,
+    77% 28%,
+    100% 50%,
+    77% 72%,
+    50% 100%,
+    23% 72%,
+    0% 50%,
+    23% 28%
+  );
+  transform: rotate(216deg) translate(-50%, -50%);
+  background-color: coral; /* Adjust color as needed */
+}
+
+#part5 {
+  clip-path: polygon(
+    50% 0%,
+    77% 28%,
+    100% 50%,
+    77% 72%,
+    50% 100%,
+    23% 72%,
+    0% 50%,
+    23% 28%
+  );
+  transform: rotate(288deg) translate(-50%, -50%);
+  background-color: crimson; /* Adjust color as needed */
+}
+
+@keyframes rotate-star {
   0% {
-    transform: translateX(-500px);
+    transform: rotate(0deg);
   }
   100% {
-    transform: translateX(0);
+    transform: rotate(360deg);
   }
 }
