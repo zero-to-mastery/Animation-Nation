@@ -3940,6 +3940,13 @@ let cards = [
     imageLink: './Art/fenwood/fenwood.fig',
     author: 'fenwood',
     githubLink: 'https://github.com/fenwood'
+  },
+  {
+    artName: 'Starry Night',
+    pageLink: './Art/BOSE-git/index.html',
+    imageLink: './Art/BOSE-git/starrynight.gif',
+    author: 'BOSE',
+    githubLink: 'https://github.com/BOSE-git'
   }
 ];
 
