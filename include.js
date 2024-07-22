@@ -755,6 +755,13 @@ let cards = [
     githubLink: 'https://github.com/sanusisusi'
   },
   {
+    artName: 'Triangle', // change this to the name of your artwork
+    pageLink: './Art/<lema>/triangle.html', // change this
+    imageLink: './Art/<lema>/triangle.gif', // change this
+    author: 'Parikshit', // use your name
+    githubLink: 'https://github.com/<lembhe853>' // change this
+  },
+  {
     artName: 'RichardsAnimation',
     pageLink: './Art/Richard/animated.html',
     imageLink: './Art/Richard/bounce.gif.gif',
