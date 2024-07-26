@@ -61,12 +61,12 @@
 @keyframes disappear {
     0% {
         opacity: 1;
-        } 20% {
+    } 20% {
         color: #fff;
-        } 100% {
+    } 100% {
         opacity: 0;
-        }
     }
+}
 
 @-webkit-keyframes appear {
     0% {
