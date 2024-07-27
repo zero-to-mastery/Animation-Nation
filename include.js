@@ -2889,6 +2889,11 @@ let cards = [
     githubLink: 'https://github.com/moutro'
   },
   {
+    /** TODO: Review implementation - 
+     * Art name: mojaanimacia instead of martin052
+     * Folder: mojaanimacia - not existing
+     * From LP
+     *  */
     artName: 'mojaanimacia',
     pageLink: './Art/mojaanimacia/stranka.html',
     author: 'Martin052',
@@ -2958,6 +2963,13 @@ let cards = [
     githubLink: 'https://github.com/arr199'
   },
   {
+
+     /** TODO: Review implementation - 
+     * Art name: "EvaCtion" instead of "royranger"
+     * Folder: "EvaCtion" - not existing
+     * From LP
+     *  */
+
     artName: 'EvaCtion',
     pageLink: './Art/EvaCtion/index.html',
     author: 'Gawbb',
@@ -2971,12 +2983,25 @@ let cards = [
     githubLink: 'https://github.com/kxmom'
   },
   {
+
+    /** TODO: Review implementation - art name missing, folder not existing
+     * Folder: "pragya-sharma11" - not existing
+     * From LP
+     *  */
+
     pageLink: './Art/pragya-sharma11/index.html',
     imageLink: './Art/pragya-sharma11/animation.gif',
     author: 'Pragya Sharma',
     githubLink: 'https://github.com/pragya-sharma11'
   },
   {
+
+     /** TODO: Review implementation - folder name not username, no art name
+     * Art name: "EvaCtion" instead of "royranger"
+     * Folder: "EvaCtion" - not existing
+     * From LP
+     *  */
+
     pageLink: './Art/chrisg/index.html',
     imageLink: './Art/chrisg/redwhiteblue.gif',
     author: 'ChrisG',
@@ -3946,9 +3971,23 @@ let cards = [
   {
     artName: 'Something different',
     pageLink: './Art/fenwood/index.html',
-    imageLink: './Art/fenwood/fenwood.fig',
+    imageLink: './Art/fenwood/fenwood.gif',
     author: 'fenwood',
     githubLink: 'https://github.com/fenwood'
+  },
+  {
+    artName: 'Bouncing Ball',
+    pageLink: './Art/Farzan-Ullah/index.html',
+    imageLink: './Art/Farzan-Ullah/Bouncing_ball.gif',
+    author: 'Farzan Ullah',
+    githubLink: 'https://github.com/Farzan-Ullah'
+  },
+  {
+    artName: 'Submit_button',
+    pageLink: './Art/Lenrok01/index.html',
+    imageLink: './Art/Lenrok01/photo.png',
+    author: 'Lenrok01',
+    githubLink: 'https://github.com/Lenrok01'
   }
 ];
 
