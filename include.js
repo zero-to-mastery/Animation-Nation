@@ -2963,11 +2963,13 @@ let cards = [
     githubLink: 'https://github.com/arr199'
   },
   {
+
      /** TODO: Review implementation - 
      * Art name: "EvaCtion" instead of "royranger"
      * Folder: "EvaCtion" - not existing
      * From LP
      *  */
+
     artName: 'EvaCtion',
     pageLink: './Art/EvaCtion/index.html',
     author: 'Gawbb',
@@ -2981,21 +2983,25 @@ let cards = [
     githubLink: 'https://github.com/kxmom'
   },
   {
+
     /** TODO: Review implementation - art name missing, folder not existing
      * Folder: "pragya-sharma11" - not existing
      * From LP
      *  */
+
     pageLink: './Art/pragya-sharma11/index.html',
     imageLink: './Art/pragya-sharma11/animation.gif',
     author: 'Pragya Sharma',
     githubLink: 'https://github.com/pragya-sharma11'
   },
   {
+
      /** TODO: Review implementation - folder name not username, no art name
      * Art name: "EvaCtion" instead of "royranger"
      * Folder: "EvaCtion" - not existing
      * From LP
      *  */
+
     pageLink: './Art/chrisg/index.html',
     imageLink: './Art/chrisg/redwhiteblue.gif',
     author: 'ChrisG',
@@ -3954,6 +3960,13 @@ let cards = [
     imageLink: './Art/berenvrl/animatedtree.gif',
     author: 'berenvrl',
     githubLink: 'https://github.com/berenvrl'
+  },
+  {
+    artName: 'Spinning Star',
+    pageLink: './Art/jdgrundy/index.html',
+    imageLink: './Art/jdgrundy/SpinningStarVHi.gif',
+    author: 'jdgrundy',
+    githubLink: 'https://github.com/jdgrundy'
   },
   {
     artName: 'Something different',
