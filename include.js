@@ -4,7 +4,7 @@ let cards = [
     pageLink: './Art/yashksaini-coder/index.html',
     imageLink: './Art/yashksaini-coder/Infinite_Scroll_Animation.gif', 
     author: 'yashksaini-coder', 
-    githubLink: 'https://github.com/yashksaini-coder' // change this
+    githubLink: 'https://github.com/yashksaini-coder'
   }
   {
     artName: 'Colorful Letter Animation',
