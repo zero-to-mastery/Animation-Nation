@@ -4016,6 +4016,13 @@ let cards = [
     author: 'Maruf OVi',
     githubLink: 'https://github.com/iamovi'
   },
+  {
+    artName: 'Moving Ball', 
+    pageLink: './Art/Quouou/index.html', 
+    imageLink: './Art/Quouou/movingBall.gif', 
+    author: 'Quouou', 
+    githubLink: 'https://github.com/Quouou' 
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
