@@ -2888,8 +2888,8 @@ let cards = [
     author: 'Danilo Slovic',
     githubLink: 'https://github.com/daniloslovic17'
   },
-  {
-    artName: 'Animated',
+  { 
+    artName: 'Animated', 
     pageLink: './Art/Nyrkn10/index.html',
     imageLink: './Art/Nyrkn10/set.gif',
     author: 'Nyariki Kevin',
@@ -4010,13 +4010,14 @@ let cards = [
     author: 'Razal',
     githubLink: 'https://github.com/RazalBinKabeer'
   },
-   {
+  {
     artName: 'FieldGoal',
     pageLink: './Art/Roberto315/index.html', 
     imageLink: './Art/Roberto315/fieldgoalgif.gif',
     author: 'roberto315',
     githubLink: 'https://github.com/roberto315' 
-  },{
+  },
+  {
     artName: 'EmojiCube',
     pageLink: './Art/iamovi/emoji_cube.html',
     imageLink: './Art/iamovi/EmojiCube-preview.gif',
@@ -4029,6 +4030,13 @@ let cards = [
     imageLink: './Art/Quouou/movingBall.gif', 
     author: 'Quouou', 
     githubLink: 'https://github.com/Quouou' 
+  },
+  {
+    artName: 'Smiling Face',
+    pageLink: './Art/phfj/index.html',
+    imageLink: './Art/phfj/phfjgif.gif',
+    author: 'Paul Holmes',
+    githubLink: 'https://github.com/phfj'
   }
 ];
 
