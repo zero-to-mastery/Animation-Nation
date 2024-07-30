@@ -1,12 +1,5 @@
 let cards = [
   {
-    artName: 'Infinite Scroll Animation', 
-    pageLink: './Art/yashksaini-coder/index.html',
-    imageLink: './Art/yashksaini-coder/Infinite_Scroll_Animation.gif', 
-    author: 'yashksaini-coder', 
-    githubLink: 'https://github.com/yashksaini-coder'
-  },
-  {
     artName: 'Colorful Letter Animation',
     pageLink: './Art/Mikeabah/index.html',
     imageLink: './Art/Mikeabah/ColorfulLetterAnimation.gif',
@@ -33,13 +26,6 @@ let cards = [
     imageLink: './Art/stormworm9/GoldenCoin/GoldenCoin.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
-  },
-  {
-    artName: 'TrafficLight', 
-    pageLink: './Art/galambova/index.html', 
-    imageLink: './Art/galambova/trafficlight.gif', 
-    author: 'Elizabeth', 
-    githubLink: 'https://github.com/galambova'
   },
   {
     artName: 'CubeAnimation',
@@ -85,13 +71,6 @@ let cards = [
     imageLink: './Art/SaumyaKumar-09/Animation%203/Animation3.gif',
     author: 'SaumyaKumar-09',
     githubLink: 'https://github.com/SaumyaKumar-09'
-  },
-  {
-    artName: 'Hello world! Square Scaling',
-    pageLink: './Art/allegraanka/index.html',
-    imageLink: './Art/allegraanka/helloworld.gif',
-    author: 'allegraanka',
-    githubLink: 'https://github.com/allegraanka'
   },
   {
     artName: 'Loading Page',
@@ -585,13 +564,6 @@ let cards = [
     imageLink: './Art/Ornitcg/baloon/baloon.gif',
     author: 'Ornitcg',
     githubLink: 'https://github.com/ornitcg'
-  },
-  {
-    artName: 'Portugal Flag',
-    pageLink: './Art/criscaldeiraa/index.html',
-    imageLink: './Art/criscaldeiraa/portugal_flag.gif',
-    author: 'Cristina',
-    githubLink: 'https://github.com/criscaldeiraa'
   },
   {
     artName: 'Circles',
@@ -2902,8 +2874,8 @@ let cards = [
     author: 'Danilo Slovic',
     githubLink: 'https://github.com/daniloslovic17'
   },
-  { 
-    artName: 'Animated', 
+  {
+    artName: 'Animated',
     pageLink: './Art/Nyrkn10/index.html',
     imageLink: './Art/Nyrkn10/set.gif',
     author: 'Nyariki Kevin',
@@ -2915,13 +2887,6 @@ let cards = [
     imageLink: './Art/moutro/Animation-Nation.png',
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
-  },
-  { 
-    artName: 'Mouse Loader Animation',
-    pageLink: './Art/dev-rathore/index.html',
-    imageLink: './Art/dev-rathore/loader.gif',
-    author: 'Devender Singh Rathore',
-    githubLink: 'https://github.com/dev-rathore'
   },
   {
     /** TODO: Review implementation - 
@@ -2950,8 +2915,8 @@ let cards = [
   },
   {
     artName: 'Earth Solar Basic Animation',
-    pageLink: './Art/mostsayed93/Earsunor/index.html',
-    imageLink: './Art/mostsayed93/Earsunor/Earsunor.gif',
+    pageLink: './Art/Earsunor/index.html',
+    imageLink: './Art/Earsunor/Earsunor.gif',
     author: 'Mostafa Osman',
     githubLink: 'https://github.com/mostsayed93'
   },
@@ -2961,13 +2926,6 @@ let cards = [
     imageLink: './Art/Kalliran/Animation-Nation.gif',
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
-  },
-  { 
-    artName: 'Rinnegan Eyes',
-    pageLink: './Art/mohmmadAyesh/Rinnegan.html',
-    imageLink: './Art/mohmmadAyesh/rinnegan.gif',
-    author: 'Mohmmad Ayesh',
-    githubLink: 'https://github.com/mohmmadAyesh'
   },
   {
     artName: 'Matrix',
@@ -4032,39 +3990,11 @@ let cards = [
     githubLink: 'https://github.com/Lenrok01'
   },
   {
-    artName: 'Heart Beat',
-    pageLink: './Art/RazalBinKabeer/index.html',
-    imageLink: './Art/RazalBinKabeer/heart-beat.gif',
-    author: 'Razal',
-    githubLink: 'https://github.com/RazalBinKabeer'
-  },
-  {
-    artName: 'FieldGoal',
-    pageLink: './Art/Roberto315/index.html', 
-    imageLink: './Art/Roberto315/fieldgoalgif.gif',
-    author: 'roberto315',
-    githubLink: 'https://github.com/roberto315' 
-  },
-  {
-    artName: 'EmojiCube',
-    pageLink: './Art/iamovi/emoji_cube.html',
-    imageLink: './Art/iamovi/EmojiCube-preview.gif',
-    author: 'Maruf OVi',
-    githubLink: 'https://github.com/iamovi'
-  },
-  {
-    artName: 'Moving Ball', 
-    pageLink: './Art/Quouou/index.html', 
-    imageLink: './Art/Quouou/movingBall.gif', 
-    author: 'Quouou', 
-    githubLink: 'https://github.com/Quouou' 
-  },
-  {
-    artName: 'Smiling Face',
-    pageLink: './Art/phfj/index.html',
-    imageLink: './Art/phfj/phfjgif.gif',
-    author: 'Paul Holmes',
-    githubLink: 'https://github.com/phfj'
+    artName: 'charanimatron',
+    pageLink: './Art/charanimatron/index.html',
+    imageLink: './Art/charanimatron/chr.gif',
+    author: 'Raffy',
+    githubLink: 'https://github.com/RaffyLeong'
   }
 ];
 
@@ -4090,14 +4020,14 @@ function shuffle(o) {
 const getCardContents = (cardList) => {
   return shuffle(cardList).map((c) => [
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 };
 
