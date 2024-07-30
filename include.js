@@ -35,6 +35,13 @@ let cards = [
     githubLink: 'https://github.com/stormworm9'
   },
   {
+    artName: 'TrafficLight', 
+    pageLink: './Art/galambova/index.html', 
+    imageLink: './Art/galambova/trafficlight.gif', 
+    author: 'Elizabeth', 
+    githubLink: 'https://github.com/galambova'
+  },
+  {
     artName: 'CubeAnimation',
     pageLink: './Art/stormworm9/CubeAnimation/CubeAnimation.html',
     imageLink: './Art/stormworm9/CubeAnimation/CubeAnimation.gif',
