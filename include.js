@@ -1,8 +1,22 @@
 let cards = [
   {
+    artName: 'Infinite Scroll Animation', 
+    pageLink: './Art/yashksaini-coder/index.html',
+    imageLink: './Art/yashksaini-coder/Infinite_Scroll_Animation.gif', 
+    author: 'yashksaini-coder', 
+    githubLink: 'https://github.com/yashksaini-coder'
+  },
+  {
+    artName: 'Colorful Letter Animation',
+    pageLink: './Art/Mikeabah/index.html',
+    imageLink: './Art/Mikeabah/ColorfulLetterAnimation.gif',
+    author: 'Mikeabah',
+    githubLink: 'https://github.com/Mikeabah'
+  },
+  {
     artName: 'Balls Animation',
     pageLink: './Art/vikasverma67/Animation1/index.html',
-    imageLink: './Art/vikasverma67/Animation1/lets play ball.gif',
+    imageLink: './Art/vikasverma67/Animation1/lets_play_ball.gif',
     author: 'vikasverma67',
     githubLink: 'https://github.com/vikasverma67'
   },
@@ -19,6 +33,13 @@ let cards = [
     imageLink: './Art/stormworm9/GoldenCoin/GoldenCoin.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
+  },
+  {
+    artName: 'TrafficLight', 
+    pageLink: './Art/galambova/index.html', 
+    imageLink: './Art/galambova/trafficlight.gif', 
+    author: 'Elizabeth', 
+    githubLink: 'https://github.com/galambova'
   },
   {
     artName: 'CubeAnimation',
@@ -64,6 +85,13 @@ let cards = [
     imageLink: './Art/SaumyaKumar-09/Animation%203/Animation3.gif',
     author: 'SaumyaKumar-09',
     githubLink: 'https://github.com/SaumyaKumar-09'
+  },
+  {
+    artName: 'Hello world! Square Scaling',
+    pageLink: './Art/allegraanka/index.html',
+    imageLink: './Art/allegraanka/helloworld.gif',
+    author: 'allegraanka',
+    githubLink: 'https://github.com/allegraanka'
   },
   {
     artName: 'Loading Page',
@@ -2867,14 +2895,13 @@ let cards = [
     author: 'Danilo Slovic',
     githubLink: 'https://github.com/daniloslovic17'
   },
-  {
-    artName: 'Animated',
+  { 
+    artName: 'Animated', 
     pageLink: './Art/Nyrkn10/index.html',
     imageLink: './Art/Nyrkn10/set.gif',
     author: 'Nyariki Kevin',
     githubLink: 'https://github.com/nyrkn10>'
   },
-
   {
     artName: 'Fascinating Animation',
     pageLink: './Art/moutro/index.html',
@@ -2890,26 +2917,1144 @@ let cards = [
     githubLink: 'https://github.com/dev-rathore'
   },
   {
+    /** TODO: Review implementation - 
+     * Art name: mojaanimacia instead of martin052
+     * Folder: mojaanimacia - not existing
+     * From LP
+     *  */
+    artName: 'mojaanimacia',
+    pageLink: './Art/mojaanimacia/stranka.html',
+    author: 'Martin052',
+    githubLink: 'https://github.com/martin052'
+  },
+  {
     artName: 'Animatron',
     pageLink: './Art/shazeen-1990/index.html',
     imageLink: './Art/shazeen-1990/animate.jpg',
     author: 'Shazeen Thowfeek',
     githubLink: 'https://github.com/shazeen-1990'
   },
-  {    
+  {
     artName: 'Moving Clouds Animation',
     pageLink: './Art/artursniegowski/index.html',
     imageLink: './Art/artursniegowski/moving_clouds.gif',
     author: 'Artur Sniegowski',
     githubLink: 'https://github.com/artursniegowski'
   },
-  { 
+  {
+<<<<<<< HEAD
+    artName: 'Earth Solar Basic Animation',
+    pageLink: './Art/mostsayed93/Earsunor/index.html',
+    imageLink: './Art/mostsayed93/Earsunor/Earsunor.gif',
+    author: 'Mostafa Osman',
+    githubLink: 'https://github.com/mostsayed93'
+  },
+  {
+=======
+>>>>>>> 109bdfd6 (adding simple keyframes animation to project)
     artName: 'First Animation',
     pageLink: './Art/Kalliran/index.html',
     imageLink: './Art/Kalliran/Animation-Nation.gif',
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Matrix',
+    pageLink: './Art/hamzakadd/index.html',
+    imageLink: './Art/hamzakadd/matrix.gif',
+    author: 'Hamza',
+    githubLink: 'https://github.com/hamzakadd'
+  },
+  {
+    artName: 'Traffic Light Animation',
+    pageLink: './Art/nyame100/index.html',
+    imageLink: './Art/nyame100/trafficLight.gif',
+    author: 'Nyame Richmond',
+    githubLink: 'https://github.com/nyame100'
+  },
+  {
+    artName: 'White Christmas',
+    pageLink: './Art/YumiMachino/index.html',
+    imageLink: './Art/YumiMachino/white_christmas.gif',
+    author: 'Yumi Machino',
+    githubLink: 'https://github.com/YumiMachino'
+  },
+  {
+    artName: 'Crazy Spinning Circles',
+    pageLink: './Art/Imaginario27/animation.html',
+    imageLink: './Art/Imaginario27/crazy-spinning-circles.gif',
+    author: 'Imaginario27',
+    githubLink: 'https://github.com/Imaginario27'
+  },
+  {
+    artName: 'Typing Animation',
+    pageLink: './Art/arr199/index.html',
+    imageLink: './Art/arr199/preview.gif',
+    author: 'Abiel',
+    githubLink: 'https://github.com/arr199'
+  },
+  {
+
+     /** TODO: Review implementation - 
+     * Art name: "EvaCtion" instead of "royranger"
+     * Folder: "EvaCtion" - not existing
+     * From LP
+     *  */
+
+    artName: 'EvaCtion',
+    pageLink: './Art/EvaCtion/index.html',
+    author: 'Gawbb',
+    githubLink: 'https://github.com/royranger'
+  },
+  {
+    artName: 'cheeky face',
+    pageLink: './Art/bluck/index.html',
+    imageLink: './Art/bluck/img.gif',
+    author: 'kxmom',
+    githubLink: 'https://github.com/kxmom'
+  },
+  {
+
+    /** TODO: Review implementation - art name missing, folder not existing
+     * Folder: "pragya-sharma11" - not existing
+     * From LP
+     *  */
+
+    pageLink: './Art/pragya-sharma11/index.html',
+    imageLink: './Art/pragya-sharma11/animation.gif',
+    author: 'Pragya Sharma',
+    githubLink: 'https://github.com/pragya-sharma11'
+  },
+  {
+
+     /** TODO: Review implementation - folder name not username, no art name
+     * Art name: "EvaCtion" instead of "royranger"
+     * Folder: "EvaCtion" - not existing
+     * From LP
+     *  */
+
+    pageLink: './Art/chrisg/index.html',
+    imageLink: './Art/chrisg/redwhiteblue.gif',
+    author: 'ChrisG',
+    githubLink: 'https://github.com/chrisgithubok'
+  },
+  {
+    artName: 'League of Legends Card Animation',
+    pageLink: './Art/Bryanmax9/index.html',
+    imageLink: './Art/Bryanmax9/league.gif',
+    author: 'Bryanmax9',
+    githubLink: 'https://github.com/bryanmax9/'
+  },
+  {
+    pageLink: '.Art/yash2003/index.html',
+    imageLink: '.Art/yash2003/animation.gif',
+    author: 'Yashraj',
+    githubLink: 'https://github.com/yashraj2003e'
+  },
+  {
+    artName: 'segunOsiki',
+    pageLink: './Art/segunOsiki/index.html',
+    imageLink: './Art/segunOsiki/segunOsiki.gif',
+    author: 'Segun',
+    githubLink: 'https://github.com/Danny4life'
+  },
+  {
+    pageLink: '.Art/Yang/index.html',
+    imageLink: '.Art/Yang/Screenshot.blink.png',
+    author: 'Yang',
+    githubLink: 'https://github.com/yangcodes'
+  },
+  {
+    pageLink: './Art/VinWare/index.html',
+    imageLink: './Art/VinWare/risingsun.gif',
+    author: 'VinWare',
+    githubLink: 'https://github.com/VinWare'
+  },
+  {
+    pageLink: './Art/AnimationLoader/index.html',
+    imageLink: './Art/AnimationLoader/Animation.gif',
+    author: 'Pragya Sharma',
+    githubLink: 'https://github.com/pragya-sharma11'
+  },
+  {
+    pageLink: './Art/complementaryColors/index.html',
+    imageLink: './Art/complementaryColors/complementaryColors.gif',
+    author: 'Hilary',
+    githubLink: 'https://github.com/hwilson2563'
+  },
+  {
+    pageLink: './Art/Mansvini/index.html',
+    imageLink: './Art/Mansvini/magic.gif',
+    author: 'Mansvini',
+    githubLink: 'https://github.com/Mansvini'
+  },
+  {
+    artName: 'Rainbow Spinner',
+    pageLink: './Art/joesayat/index.html',
+    imageLink: './Art/joesayat/joe-animation.gif',
+    author: 'Joe Sayat',
+    githubLink: 'https://github.com/joesayat'
+  },
+  {
+    artName: 'Random',
+    pageLink: './Art/animation/index.html',
+    imageLink: './Art/animation/random.gif',
+    author: 'DTPsykko',
+    githubLink: 'https://github.com/DTPsykko'
+  },
+  {
+    artName: 'Funky Alien',
+    pageLink: './Art/Funky Alien/index.html',
+    imageLink: './Art/Funky Alien/Domcake-Dancing-Alien.gif',
+    author: 'Jenique Knoesen',
+    githubLink: 'https://github.com/jenique22'
+  },
+  {
+    artName: 'Dracula Colors',
+    pageLink: './Art/cspencernd/index.html',
+    imageLink: './Art/cspencernd/dracula-colors.gif',
+    author: 'Christopher Spencer',
+    githubLink: 'https://github.com/cspencernd'
+  },
+  {
+    artName: 'Pong',
+    pageLink: './Art/danielalanholmes/index.html',
+    imageLink: './Art/danielalanholmes/index.gif',
+    author: 'Daniel Holmes',
+    githubLink: 'https://github.com/danielalanholmes'
+  },
+  {
+    artName: 'Wigglers',
+    pageLink: './Art/kv/wiggle.html',
+    imageLink: './Art/kv/wiggle.gif',
+    author: 'khaivern',
+    githubLink: 'https://github.com/khaivern'
+  },
+  {
+    artName: 'Round360',
+    pageLink: './Art/MHShayek/index.html',
+    imageLink: './Art/MHShayek/round360.gif',
+    author: 'MHShayek',
+    githubLink: 'https://github.com/MHShayek'
+  },
+  {
+    artName: 'animatoris',
+    pageLink: './Art/animatoris/index.html',
+    imageLink: './Art/animatoris/circle.gif',
+    author: 'Mark Heathcliff',
+    githubLink: 'https://github.com/saimark123'
+  },
+  {
+    artName: 'EyeStrain',
+    pageLink: './Art/MattRuetz/index.html',
+    imageLink: './Art/MattRuetz/eyestrain.gif',
+    author: 'MattRuetz',
+    githubLink: 'https://github.com/MattRuetz'
+  },
+  {
+    artName: 'Sun',
+    pageLink: './Art/DaniM/sun.html',
+    imageLink: './Art/DaniM/sun.gif',
+    author: 'DaniMash',
+    githubLink: 'https://github.com/dani-mashasha'
+  },
+  {
+    artName: 'Modern Clock',
+    pageLink: './Art/Tiziano/index.html',
+    imageLink: './Art/Tiziano/clock.gif',
+    author: 'Tiziano',
+    githubLink: 'https://github.com/tizspagno'
+  },
+  {
+    artName: 'Work of art',
+    pageLink: './Art/Romano/index.html',
+    imageLink: './Art/Romano/index.gif',
+    author: 'Romano',
+    githubLink: 'https://github.com/Mrschabs'
+  },
+  {
+    pageLink: './Art/sanation/index.html',
+    imageLink: './Art/sanation/trial.gif',
+    author: 'Sajal',
+    githubLink: 'https://github.com/sajalnayansingh'
+  },
+  {
+    artName: 'Jo Ngono',
+    pageLink: './Art/jongono/index.html',
+    imageLink: './Art/jongono/jongono.png',
+    author: 'inazrabuu',
+    githubLink: 'https://github.com/inazrabuu'
+  },
+  {
+    artName: 'poorly drawn pikachu',
+    pageLink: "./Art/Sayed's Pikachu/Sayed's Pikachu.html",
+    imageLink: "./Art/Sayed's Pikachu/img.gif",
+    author: 'Sayed Husain',
+    githubLink: 'https://github.com/Sayed-Husain'
+  },
+  {
+    artName: 'colorful flower',
+    pageLink: './Art/shai/index.html',
+    imageLink: './Art/shai/animation.gif',
+    author: 'Shytech1',
+    githubLink: 'https://github.com/ShyTech1'
+  },
+  {
+    artName: 'Pulse',
+    pageLink: './Art/ogutu/index.html',
+    imageLink: './Art/ogutu/giphy.gif',
+    author: 'kennedy',
+    githubLink: 'https://github.com/kennedy-ogutu'
+  },
+  {
+    artName: 'ZTM Animation',
+    pageLink: './Art/TC/index.html',
+    imageLink: './Art/TC/ztm.gif',
+    author: 'Terence',
+    githubLink: 'https://github.com/TerenceChew'
+  },
+  {
+    artName: 'Serene Animation',
+    pageLink: './Art/sereneanimation/index.html',
+    imageLink: './Art/sereneanimation/trance.gif',
+    author: 'Serene',
+    githubLink: 'https://github.com/meikuan23'
+  },
+  {
+    artName: 'Slow_Bounce',
+    pageLink: './Art/Slow_Bounce/index.html',
+    imageLink: './Art/Slow_Bounce/Slow_Bounce.gif',
+    author: 'MichaelClautice',
+    githubLink: 'https://github.com/MichaelClautice'
+  },
+  {
+    artName: 'Icymation',
+    pagelink: './Art/icymation/icymation.html',
+    imageLink: './Art/icymation/icymation.gif',
+    author: 'Isai',
+    githublink: 'https://github.com/isaicastro1'
+  },
+  {
+    artName: 'boxslide',
+    pageLink: './Art/AK47/anima.html',
+    imageLink: './Art/AK47/boxslide.png',
+    author: 'Anurag Kanungo',
+    githubLink: 'https://github.com/Anuragcr'
+  },
+  {
+    artName: 'letz ani',
+    pageLink: './Art/letz/index.html',
+    imageLink: './Art/letz/trans.gif',
+    author: 'letz0703',
+    githubLink: 'https://github.com/letz0703'
+  },
+  {
+    artName: 'My Full-Stack Animation',
+    pageLink: './Art/BrandonNSangma/index.html',
+    imageLink: './Art/BrandonNSangma/fullstack.gif',
+    author: 'Brandon N. Sangma',
+    githubLink: 'https://github.com/brancore87'
+  },
+  {
+    artName: 'radar-animation',
+    pageLink: './Art/radar-animation/index.html',
+    imageLink: './Art/radar-animation/radar.gif',
+    author: 'Angel Orellana',
+    githubLink: 'https://github.com/luisangel2895'
+  },
+  {
+    artName: 'Parachute Guy',
+    pageLink: './Art/barretoga/index.html',
+    imageLink: './Art/barretoga/animation.gif',
+    author: 'Gabriel Barreto',
+    githubLink: 'https://github.com/barretoga'
+  },
+  {
+    artName: 'Animated Bird',
+    pageLink: './Art/sampConrad/index.html',
+    imageLink: './Art/sampConrad/bird.gif',
+    author: 'Conrado Sampaio',
+    githubLink: 'https://github.com/sampconrad'
+  },
+  {
+    artName: 'U-turn',
+    pageLink: './Art/baraksArt.index.html',
+    imageLink: './Art/baraksArt/U-turn.gif',
+    author: 'Barak',
+    githubLink: 'https://github.com/bcolovas'
+  },
+  {
+    artName: 'Bouncing Balls DF',
+    pageLink: './Art/bouncingdf/index.html',
+    imageLink: './Art/bouncingdf/bouncingdf.gif',
+    author: 'David Flores',
+    githubLink: 'https://github.com/dflo55'
+  },
+  {
+    artName: 'WAnimation',
+    pageLink: './Art/WAnimation/index.html',
+    imageLink: './Art/WAnimation/Animation.gif',
+    author: 'WDevelopsWebApps',
+    githubLink: 'https://github.com/WDevelopsWebApps'
+  },
+  {
+    artName: 'textSlide',
+    pageLink: './Art/textSlide/index.html',
+    imageLink: './Art/textSlide/textSliding.gif',
+    author: 'Lucas GM',
+    githubLink: 'https://github.com/LucasGM17'
+  },
+  {
+    artName: 'Loading Logo',
+    pageLink: './Art/magedmohammed/index.html',
+    author: 'Maged Mohammed',
+    githubLink: 'https://github.com/magedmohammed834'
+  },
+  {
+    artName: 'Green Loading',
+    pageLink: './Art/KevinMaida/index.html',
+    imageLink: './Art/KevinMaida/loadingGif.gif',
+    author: 'Kevin Maida',
+    githubLink: 'https://github.com/KevinMaida'
+  },
+  {
+    artName: 'Simple Bounce',
+    pageLink: './Art/ardiandharminto/index.html',
+    imageLink: './Art/ardiandharminto/simple-bounce.gif',
+    author: 'Ardian Dharminto',
+    githubLink: 'https://github.com/ardiandharminto'
+  },
+  {
+    pageLink: './Art/ZTM-Academy/index.html',
+    imageLink: './Art/ZTM-Academy/ztm.gif',
+    author: 'Denis',
+    githubLink: 'https://github.com/denis11m'
+  },
+  {
+    pageLink: './Art/evropa/index.html',
+    imageLink: './Art/evropa/drift.gif',
+    author: 'evropa',
+    githubLink: 'https://github.com/evropa'
+  },
+  {
+    artName: 'animatron_av',
+    pageLink: './Art/animatron_av/index.html',
+    imageLink: './Art/Joy/triangle/trance.gif',
+    author: 'Alex',
+    githubLink: 'https://github.com/averde1973'
+  },
+  {
+    artName: 'animationzone',
+    pageLink: './Art/animationzone/index.html',
+    imageLink: './Art/animationzone/ezgif.com-gif-maker',
+    author: 'Erez',
+    githubLink: 'https://github.com/ErezAvni9'
+  },
+  {
+    artName: 'Soccer',
+    pageLink: './Art/Soccer/index.html',
+    imageLink: './Art/Soccer/big.png',
+    author: 'Boris',
+    githubLink: 'https://github.com/henzbori'
+  },
+  {
+    artName: 'Rolling Cat',
+    pageLink: './Art/ssoppet1/index.html',
+    imageLink: './Art/ssoppet1/cat.gif',
+    author: 'Stacy',
+    githubLink: 'https://github.com/ssoppet1'
+  },
+  {
+    artName: 'brotation',
+    pageLink: './Art/box-rotate-animation/index.html',
+    imageLink: './Art/box-rotate-animation/brotation.gif',
+    author: 'Andrey',
+    githubLink: 'https://github.com/Life1sOk'
+  },
+  {
+    artName: 'Loading animation',
+    pageLink: './Art/graphitexhd/index.html',
+    imageLink: './Art/graphitexhd/animation.gif',
+    author: 'Graphitexhd',
+    githubLink: 'https://github.com/graphitexhd'
+  },
+  {
+    artName: 'Our Solar System',
+    pageLink: './Art/bryanRillstone/index.html',
+    imageLink: './Art/bryanRillstone/Solar-System.gif',
+    author: 'Bryan Rillstone',
+    githubLink: 'https://github.com/bryanrillstone'
+  },
+  {
+    artName: 'viskarra',
+    pageLink: './Art/viskarra/index.html',
+    imageLink: './Art/viskarra/imgif.gif',
+    author: 'Viskarra',
+    githubLink: 'https://github.com/viskarra'
+  },
+  {
+    artName: 'Chess Board Dance Floor',
+    pageLink: './Art/Robin/index.html',
+    imageLink: './Art/Robin/chessBoardDanceFloor.gif',
+    author: 'Robin',
+    githubLink: 'https://github.com/robinpunn'
+  },
+  {
+    artName: 'Fishy',
+    pageLink: './Art/Mayorman/index.html',
+    imageLink: './Art/Mayorman/Fishy-Screen-Rec.gif',
+    author: 'Mayowa',
+    githubLink: 'https://github.com/Mayorman07'
+  },
+  {
+    artName: 'The Beach',
+    pageLink: './Art/Jon-Bull/index.html',
+    imageLink: './Art/Jon-Bull/beach.gif',
+    author: 'Jon',
+    githubLink: 'https://github.com/Jon-Bull'
+  },
+  {
+    artName: 'Loading screen',
+    pageLink: './Art/ShueiYang/index.html',
+    imageLink: './Art/ShueiYang/Loading.gif',
+    author: 'ShueiYang',
+    githubLink: 'https://github.com/ShueiYang'
+  },
+  {
+    artName: 'Get Started',
+    pageLink: './Art/imaadfakier/index.html',
+    imageLink: './Art/imaadfakier/Loading.gif',
+    author: 'Imaad Fakier',
+    githubLink: 'https://github.com/imaadfakier'
+  },
+  {
+    artName: 'BoxPM',
+    pageLink: './Art/BoxPM/index.html',
+    imageLink: './Art/BoxPM/trance2.gif',
+    author: 'Pradeep',
+    githubLink: 'https://github.com/Pmakaju'
+  },
+  {
+    artName: 'Pendulam',
+    pageLink: './Art/Pendulam/index.html',
+    imageLink: './Art/Pendulam/swinging_pendulam.gif',
+    author: 'Dinesh',
+    githubLink: 'https://github.com/dinesh-729'
+  },
+  {
+    artName: 'Wave Ring',
+    pageLink: './Art/JinalPatel/Wavering/wavering.html',
+    imageLink: './Art/JinalPatel/Wavering/wavering.gif',
+    author: 'Jinal Patel',
+    githubLink: 'https://github.com/JinalPatel17'
+  },
+  {
+    artName: 'Samination',
+    pageLink: './Art/Samination/index.html',
+    imageLink: './Art/Samination/samination.gif',
+    author: 'Sami',
+    githubLink: 'https://github.com/samialmaradni97'
+  },
+  {
+    artName: 'Esinnaton',
+    pageLink: './Art/Esinnaton/index.html',
+    imageLink: './Art/Esinnaton/transition.gif',
+    author: 'Esinnation',
+    githubLink: 'https://github.com/esinnation'
+  },
+  {
+    artName: 'Spining Numbers',
+    pageLink: './Art/jamesnjovu/index.html',
+    imageLink: './Art/jamesnjovu/number.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/jamesnjovu'
+  },
+  {
+    artName: 'CrazyBalls',
+    pageLink: './Art/CrazyBalls/index.html',
+    imageLink: './Art/CrazyBalls/balls.gif',
+    author: 'Rohan Bobby',
+    githubLink: 'https://github.com/rohanbobby01'
+  },
+  {
+    artName: 'Simple Circle Animation',
+    pageLink: './Art/simple_Circle_Animation/index.html',
+    imageLink: './Art/Joy/simple_Circle_Animation/circle_animation.gif',
+    author: 'dw',
+    githubLink: 'https://github.com/dwthefirst'
+  },
+  {
+    artName: 'Matrix Animation',
+    pageLink: './Art/TenmaChinen/index.html',
+    imageLink: './Art/TenmaChinen/matrix_animation.gif',
+    author: 'Tenma Chinen',
+    githubLink: 'https://github.com/TenmaChinen'
+  },
+  {
+    artName: 'Crazy Cat',
+    pageLink: './Art/sikumiku/index.html',
+    imageLink: './Art/sikumiku/crazy_cat.gif',
+    author: 'Sigrid',
+    githubLink: 'https://github.com/sikumiku'
+  },
+  {
+    artName: 'Magic',
+    pageLink: './Art/dmwspace/index.html',
+    imageLink: './Art/dmwspace/magic.gif',
+    author: 'Dean',
+    githubLink: 'https://github.com/dmwspace'
+  },
+  {
+    artName: 'Button Effect',
+    pageLink: './Art/Jatin-7/index.html',
+    imageLink: './Art/Jatin-7/btn.gif',
+    author: 'Jatin-7',
+    githubLink: 'https://github.com/Jatin-7'
+  },
+  {
+    artName: 'Bird Animation',
+    pageLink: './Art/bird_animation/index.html',
+    imageLink: './Art/bird_animation/bird-animation.gif',
+    author: 'Tarun Mankar',
+    githubLink: 'https://github.com/tarunmankar'
+  },
+  {
+    artName: 'Rainbow Circle',
+    pageLink: './Art/Mengnan_Wang/rainbow_circle.html',
+    imageLink: './Art/Mengnan_Wang/rainbow_circle.gif',
+    author: 'Mengnan Wang',
+    githubLink: 'https://github.com/Mengnan-Wang'
+  },
+  {
+    artName: 'Phillys Animation',
+    pageLink: './Art/phillysrevenge/index.html',
+    imageLink: './Art/phillysrevenge/web.gif',
+    author: 'phillysrevenge',
+    githubLink: 'https://github.com/phillysrevenge'
+  },
+  {
+    artName: 'largebox',
+    pageLink: './Art/largebox/index.html',
+    imageLink: './Art/largebox/box.gif',
+    author: 'rajmishra-47',
+    githubLink: 'https://github.com/rajmishra-47'
+  },
+  {
+    artName: 'Robot-2.0',
+    pageLink: './Art/Robot-2.0/index.html',
+    imageLink: './Art/Robot-2.0/robo.gif',
+    author: 'Nabil Ahmed',
+    githubLink: 'https://github.com/nabil-github0'
+  },
+  {
+    artName: 'Damian Box',
+    pageLink: './Art/DamiAnim/index.html',
+    imageLink: './Art/DamiAnim/giphy.gif',
+    author: 'Damian Padilla',
+    githubLink: 'https://github.com/Damianpad'
+  },
+  {
+    artName: 'Pretty-Simple',
+    pageLink: './Art/Asier/index.html',
+    imageLink: './Art/Asier/Pretty-Simple.gif',
+    author: 'Asier-D-Reveire',
+    githubLink: 'https://github.com/Asier-D-Reveire'
+  },
+  {
+    artName: 'Can You Feel My Heartbeat',
+    pageLink: './Art/can-you-feel-my-heartbeat/index.html',
+    imageLink: './Art/can-you-feel-my-heartbeat/heartbeat.png',
+    author: 'Vanessa Vun',
+    githubLink: 'https://github.com/vanessavun'
+  },
+  {
+    artName: 'Straight lines',
+    pageLink: './Art/artinator/index.html',
+    imageLink: './Art/artinator/art.png',
+    author: 'Scraper232',
+    githubLink: 'https://github.com/scraper232'
+  },
+  {
+    artName: 'Glowing 3 Circles',
+    pageLink: './Art/josephld/index.html',
+    imageLink: './Art/josephld/glowing_circles.gif',
+    author: 'Leandre Derpo',
+    githubLink: 'https://github.com/LeandreDerpo'
+  },
+  {
+    artName: 'Quoters',
+    pageLink: './Art/Quoters/index.html',
+    imageLink: './Art/Quoters/giphy.gif',
+    author: 'Arif Wibawa',
+    githubLink: 'https://github.com/wibawaarif'
+  },
+  {
+    artName: 'USAfloridaUSA',
+    pageLink: './Art/usa-florida-usa/index.html',
+    imageLink: './Art/usa-florida-usa/USAfloridaUSA.gif',
+    author: 'Stephen Eith',
+    githubLink: 'https://github.com/eith71'
+  },
+  {
+    artName: 'Heart beat and pulse',
+    pageLink: './Art/Luisa/index.html',
+    imageLink: './Art/Luisa/HeartBeat.gif',
+    author: 'Luisa Bowie',
+    githubLink: 'https://github.com/Tala101'
+  },
+  {
+    artName: '1Abel-Animate',
+    pageLink: './Art/1Abel-Animate/index.html',
+    imageLink: './Art/1Abel-Animate/1abel.gif',
+    author: 'perez11abel',
+    githubLink: 'https://github.com/perez11abel'
+  },
+  {
+    artName: 'Snow and Rain Animation',
+    pageLink: './Art/Snow_Animation/index.html',
+    imageLink: './Art/Snow_Animation/Snow_Rain_Animation.gif',
+    author: 'Mosespt',
+    githubLink: 'https://github.com/Mosespt'
+  },
+  {
+    artName: 'Color Palette with Pure CSS Animation',
+    pageLink: './Art/color-palette-with-pure-css-animation/dist/index.html',
+    imageLink: './Art/color-palette-with-pure-css-animation/animation.gif',
+    author: 'julien muke',
+    githubLink: 'https://github.com/julien-muke'
+  },
+  {
+    artName: "That's rotating!!",
+    pageLink: './Art/Rotating/index.html',
+    imageLink: './Art/Rotating/Rotation.gif',
+    author: 'Vito Chu',
+    githubLink: 'https://github.com/VitoChuChu'
+  },
+  {
+    artName: 'example animation',
+    pageLink: './Art/emanuelretamozo/index.html',
+    imageLink: './Art/emanuelretamozo/example.gif',
+    author: 'Emanuel Retamozo',
+    githubLink: 'https://github.com/emanuelretamozo'
+  },
+  {
+    artName: 'Bouncy Ball',
+    pageLink: './Art/Valadot/index.html',
+    imageLink: './Art/Valadot/bouncy-ball.gif',
+    author: 'Valadot',
+    githubLink: 'https://github.com/Valadot'
+  },
+  {
+    artName: 'Snow Fall',
+    pageLink: './Art/snow-fall/index.html',
+    imageLink: './Art/snow-fall/snow-fall.gif',
+    author: 'MAHA Labs',
+    githubLink: 'https://github.com/mahalabs'
+  },
+  {
+    artName: 'css_anishape-1.0',
+    pageLink: './Art/css_anishape-1.0/index.html',
+    imageLink: './Art/css_anishape-1.0/css-anishape-s1.jpg',
+    author: 'Dwight',
+    githubLink: 'https://github.com/DwightMckenzie'
+  },
+  {
+    artName: 'Simple Hover Rotaton Animation',
+    pageLink: './Art/jaReaps/index.html',
+    imageLink: './Art/Joy/jaReaps/Rotation Animation.gif',
+    author: 'Jon',
+    githubLink: 'https://github.com/jonreapsome'
+  },
+  {
+    artName: 'CSS_Magic',
+    pageLink: './Art/CSS_Magic/index.html',
+    imageLink: './Art/CSS_Magic/Move.gif',
+    author: 'Subhadip',
+    githubLink: 'https://github.com/SubhadipMaji'
+  },
+  {
+    artName: 'Color Flip Cards',
+    pageLink: './Art/Flipping/index.html',
+    imageLink: './Art/Flipping/gif.gif',
+    author: 'AspiringMay2022',
+    githubLink: 'https://github.com/AspiringMay2022'
+  },
+  {
+    artName: 'Square',
+    pageLink: './Art/Square/square.html',
+    imageLink: './Art/Square/square.gif',
+    author: 'Nico',
+    githubLink: 'https://github.com/nsherban1'
+  },
+  {
+    artName: 'Sun Rise and Set',
+    pageLink: './Art/mikerobards/index.html',
+    imageLink: './Art/mikerobards/sunrise-set.gif',
+    author: 'mikerobards',
+    githubLink: 'https://github.com/mikerobards'
+  },
+  {
+    artName: 'GeminiSpace',
+    pageLink: './Art/GeminiSpace/index.html',
+    imageLink: './Art/GeminiSpace/space.gif',
+    author: 'Saviour',
+    githubLink: 'https://github.com/GeminiSpace'
+  },
+  {
+    artName: 'The rolling and spinning football',
+    pageLink: './Art/Nomishka/index.html',
+    imageLink: './Art/Football.png',
+    author: 'Nomishka',
+    githubLink: 'https://github.com/Nomishka'
+  },
+  {
+    artName: 'Infinite Circle Loop',
+    pageLink: './Art/InfiniteCircleLoop/index.html',
+    imageLink: './Art/InfiniteCircleLoop/infinitecircleloop.gif',
+    author: 'Giselle',
+    githubLink: 'https://github.com/gisellerx'
+  },
+  {
+    artName: 'Updown',
+    pageLink: './Art/updown/index.html',
+    imageLink: './Art/updown/updown.gif',
+    author: 'Nueng',
+    githubLink: 'https://github.com/AlgorithmNueng'
+  },
+  {
+    artName: 'cajaheart',
+    pageLink: './Art/erikanimation/corazon.html',
+    imageLink: './Art/erikanimation/corazon.gif',
+    author: 'Erika',
+    githubLink: 'https://github.com/erikaaquino'
+  },
+  {
+    artName: 'Colorful Heart',
+    pageLink: './Art/cr-animation/index.html',
+    imageLink: './Art/cr-animation/index.html/colorful-heart.png',
+    author: 'Cristina',
+    githubLink: 'https://github.com/crsecu'
+  },
+  {
+    artName: 'wink',
+    pageLink: './Art/Robrigado/index.html',
+    imageLink: './Art/Robrigado/wink.gif',
+    author: 'Robrigado',
+    githubLink: 'https://github.com/Robrigado'
+  },
+  {
+    artName: 'mrsanim',
+    pageLink: './Art/mrsanim/index.html',
+    imageLink: './Art/mrsanim/mrsanim.png',
+    author: 'Adi',
+    githubLink: 'https://github.com/adimrs'
+  },
+  {
+    artName: 'Loader',
+    pageLink: './Art/Loader/index.html',
+    author: 'Cristi Manea',
+    githubLink: 'https://github.com/cristimanea26'
+  },
+  {
+    artName: 'click to stop',
+    pageLink: './Art/cssanimacja/index.html',
+    imageLink: 'css.png',
+    author: 'Mateusz',
+    githubLink: 'https://github.com/mateuszsnieg'
+  },
+  {
+    artName: 'A Square Circus',
+    pageLink: './Art/aSquareCircus/index.html',
+    imageLink: './Art/aSquareCircus/SquareControl.gif',
+    author: 'Abdul Rahim',
+    githubLink: 'https://github.com/arx0x0'
+  },
+  {
+    artName: 'css-glow-effect-animation',
+    pageLink: './Art/css-glow-effect-animation/index.html',
+    imageLink: './Art/css-glow-effect-animation/glow.png',
+    author: 'tidz',
+    githubLink: 'https://github.com/john-tidz'
+  },
+  {
+    artName: 'Lithuania',
+    pageLink: './Art/MiUlon/index.html',
+    imageLink: './Art/MiUlon/lithuania.gif',
+    author: 'MiUlon',
+    githubLink: 'https://github.com/MiUlon'
+  },
+  {
+    artName: 'yuki',
+    pageLink: './Art/yuki/index.html',
+    imageLink: './Art/yuki/yuki.gif',
+    author: 'rachel',
+    githubLink: 'https://github.com/rchin8877'
+  },
+  {
+    artName: 'AnimateManas',
+    pageLink: './Art/AnimatManas/index.html',
+    imageLink: './Art/AnimatManas/ZTM_animation.gif',
+    author: 'Manas',
+    githubLink: 'https://github.com/ManasKumar111'
+  },
+  {
+    artName: 'Glowing orb',
+    pageLink: './Art/Glowing-orb/index.html',
+    imageLink: './Art/Glowing-orb/glow.png',
+    author: 'RubenVerkuylen',
+    githubLink: 'https://github.com/rubenverkuylen'
+  },
+  {
+    artName: 'car-animation',
+    pageLink: './Art/car-animation/index.html',
+    imageLink: './Art/car-animation',
+    author: 'Markus',
+    githubLink: 'https://github.com/Markus-Sm'
+  },
+  {
+    artName: 'Dummy Animation',
+    pageLink: './Art/dummy_me/index.html',
+    imageLink: './Art/dummy_me/dummy.gif',
+    author: 'Mansi',
+    githubLink: 'https://github.com/manasi-20'
+  },
+  {
+    artName: 'moving_choices',
+    pageLink: './Art/Katana/index.html',
+    imageLink: './Art/Katana/bounce-choice.GIF',
+    author: 'Katana',
+    githubLink: 'https://github.com/katanaji'
+  },
+  {
+    artName: 'SpinnieStar3',
+    pageLink: './Art/Joshua/SpinnieStar3.html',
+    imageLink: './Art/Joshua/goldstar.GIF',
+    author: 'Josdadev',
+    githubLink: 'https://github.com/Josdadev'
+  },
+  {
+    artName: 'Dive Into Space',
+    pageLink: './Art/Dive Into Space/index.html',
+    imageLink: './Art/Dive Into Space/space.gif',
+    author: 'Kareem Abd El-Moneam',
+    githubLink: 'https://github.com/KareemMoneeam'
+  },
+  {
+    artName: 'Moving Colors',
+    pageLink: './Art/Moving Colors/index.html',
+    imageLink: './Art/Moving Colors/MovingColors.gif',
+    author: 'cjhaspenfalls',
+    githubLink: 'https://github.com/cjhaspenfalls'
+  },
+  {
+    artName: 'Rotating Number Cards',
+    pageLink: './Art/victor-anderson/index.html',
+    imageLink: './Art/victor-anderson/index.gif',
+    author: 'Victor Anderson',
+    githubLink: 'https://github.com/realvicandy'
+  },
+  {
+    artName: 'Living Robot',
+    pageLink: './Art/greywind/index.html',
+    imageLink: './Art/greywind/greywind.gif',
+    author: 'George',
+    githubLink: 'https://github.com/greyXwind'
+  },
+  {
+    artName: 'loading circle',
+    pageLink: './Art/loading-circle/index.html',
+    imageLink: './Art/greywind/circle.gif',
+    author: 'Olayinka',
+    githubLink: 'https://github.com/KOLEAJEOLAYINKA'
+  },
+  {
+    artName: 'Factory',
+    pageLink: './Art/SEN-RAD/index.html',
+    imageLink: './Art/SEN-RAD/factory.gif',
+    author: 'SEN-RAD',
+    githubLink: 'https://github.com/SEN-RAD'
+  },
+  {
+    artName: 'Halloween',
+    pageLink: './Art/AashiGoel/index.html',
+    imageLink: './Art/AashiGoel/Halloween.gif',
+    author: 'Aashi Goel',
+    githubLink: 'https://github.com/AashiGoel'
+  },
+  {
+    artName: 'Rectangloom',
+    pageLink: './Art/Rectangloom/index.html',
+    imageLink: './Art/Rectangloom/rectangloom.gif',
+    author: 'Emines',
+    githubLink: 'https://github.com/emines0'
+  },
+  {
+    artName: 'Cards',
+    pageLink: './Art/Sak/index.html',
+    imageLink: './Art/Joy/Sak/image1.gif',
+    author: 'Sak',
+    githubLink: 'https://github.com/sakshimudrale'
+  },
+  {
+    artName: 'Snow',
+    pageLink: './Art/Snow/index.html',
+    imageLink: './Art/Snow/snow.gif',
+    author: 'K-Wiczling',
+    githubLink: 'https://github.com/K-Wiczling'
+  },
+  {
+    artName: 'Bouncy Balls',
+    pageLink: './Art/Paarit/index.html',
+    imageLink: './Art/Paarit/BallBounce.gif',
+    author: 'Paarit',
+    githubLink: 'https://github.com/paarit'
+  },
+  {
+    artName: 'Good Luck',
+    pageLink: './Art/YYarts/index.html',
+    imageLink: './Art/YYarts/YYarts.gif',
+    author: 'Chee Yen',
+    githubLink: 'https://github.com/yyyen93'
+  },
+  {
+    artName: 'color fan',
+    pageLink: './Art/raman project/project.html',
+    imageLink: './Art/raman project/project.gif',
+    author: 'raman2482',
+    githubLink: 'https://github.com/raman2482'
+  },
+  {
+    artName: 'Animated-Cube-Slider',
+    pageLink: './Art/Animated-Cube-Slider/index.html',
+    imageLink: './Art/Animated-Cube-Slider/Animated.gif',
+    author: 'Anayat',
+    githubLink: 'https://github.com/anayatkhan1'
+  },
+  {
+    artName: 'Natinats',
+    pageLink: './Art/Natinats/index.html',
+    imageLink: './Art/Natinats/nata.gif',
+    author: 'Natalia',
+    githubLink: 'https://github.com/nquirogac'
+  },
+  {
+    artName: 'The art of patience',
+    pageLink: './Art/Animation-Gtn/index.html',
+    imageLink: './Art/Animation-Gtn/art.gif',
+    author: 'Iulia Gtn',
+    githubLink: 'https://github.com/Iulia-Gaitanaru'
+  },
+  {
+    artName: 'BHARAT',
+    pageLink: './Art/BHARAT/index.html',
+    imageLink: './Art/BHARAT/BHARAT.gif',
+    author: 'mbera99',
+    githubLink: 'https://github.com/mbera99'
+  },
+  {
+    artName: 'Ducky',
+    pageLink: './Art/cpk3/index.html',
+    imageLink: './Art/cpk3/Ducky.gif',
+    author: 'cpk3',
+    githubLink: 'https://github.com/cpk3'
+  },
+  {
+    pageLink: '.Art/yashraj2003e/index.html',
+    imageLink: '.Art/yashraj20033/animation.gif',
+    author: 'Yashraj',
+    githubLink: 'https://github.com/yashraj2003e'
+  },
+  {
+    artName: 'Rolling Happy',
+    pageLink: './Art/marion/index.html',
+    imageLink: './Art/marion/smiles.gif',
+    author: 'Marion',
+    githubLink: 'https://github.com/marionjudy13'
+  },
+  {
+    artName: 'CSS Carousel',
+    pageLink: './Art/FanisKapetanakis/index.html',
+    imageLink: './Art/FanisKapetanakis/Carousel.gif',
+    author: 'Fanis',
+    githubLink: 'https://github.com/KapetanakisFanis'
+  },
+  {
+    artName: 'Red White and Blue',
+    pageLink: './Art/wcgraupmann/index.html',
+    imageLink: './Art/wcgraupmann/giphy.gif',
+    author: 'Will Graupmann',
+    githubLink: 'https://github.com/wcgraupmann'
+  },
+  {
+    artName: 'Animated Tree',
+    pageLink: './Art/berenvrl/index.html',
+    imageLink: './Art/berenvrl/animatedtree.gif',
+    author: 'berenvrl',
+    githubLink: 'https://github.com/berenvrl'
+  },
+  {
+    artName: 'Spinning Star',
+    pageLink: './Art/jdgrundy/index.html',
+    imageLink: './Art/jdgrundy/SpinningStarVHi.gif',
+    author: 'jdgrundy',
+    githubLink: 'https://github.com/jdgrundy'
+  },
+  {
+    artName: 'Something different',
+    pageLink: './Art/fenwood/index.html',
+    imageLink: './Art/fenwood/fenwood.gif',
+    author: 'fenwood',
+    githubLink: 'https://github.com/fenwood'
+  },
+  {
+    artName: 'Bouncing Ball',
+    pageLink: './Art/Farzan-Ullah/index.html',
+    imageLink: './Art/Farzan-Ullah/Bouncing_ball.gif',
+    author: 'Farzan Ullah',
+    githubLink: 'https://github.com/Farzan-Ullah'
+  },
+  {
+    artName: 'Submit_button',
+    pageLink: './Art/Lenrok01/index.html',
+    imageLink: './Art/Lenrok01/photo.png',
+    author: 'Lenrok01',
+    githubLink: 'https://github.com/Lenrok01'
+  },
+  {
+    artName: 'Heart Beat',
+    pageLink: './Art/RazalBinKabeer/index.html',
+    imageLink: './Art/RazalBinKabeer/heart-beat.gif',
+    author: 'Razal',
+    githubLink: 'https://github.com/RazalBinKabeer'
+  },
+  {
+    artName: 'FieldGoal',
+    pageLink: './Art/Roberto315/index.html', 
+    imageLink: './Art/Roberto315/fieldgoalgif.gif',
+    author: 'roberto315',
+    githubLink: 'https://github.com/roberto315' 
+  },
+  {
+    artName: 'EmojiCube',
+    pageLink: './Art/iamovi/emoji_cube.html',
+    imageLink: './Art/iamovi/EmojiCube-preview.gif',
+    author: 'Maruf OVi',
+    githubLink: 'https://github.com/iamovi'
+  },
+  {
+    artName: 'Moving Ball', 
+    pageLink: './Art/Quouou/index.html', 
+    imageLink: './Art/Quouou/movingBall.gif', 
+    author: 'Quouou', 
+    githubLink: 'https://github.com/Quouou' 
+  },
+  {
+    artName: 'Smiling Face',
+    pageLink: './Art/phfj/index.html',
+    imageLink: './Art/phfj/phfjgif.gif',
+    author: 'Paul Holmes',
+    githubLink: 'https://github.com/phfj'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -2934,14 +4079,14 @@ function shuffle(o) {
 const getCardContents = (cardList) => {
   return shuffle(cardList).map((c) => [
     `<li class="card">` +
-      `<a href='${c.pageLink}'>` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<a href='${c.pageLink}'>` +
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 };
 
