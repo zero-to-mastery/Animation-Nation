@@ -2942,7 +2942,6 @@ let cards = [
     githubLink: 'https://github.com/artursniegowski'
   },
   {
-<<<<<<< HEAD
     artName: 'Earth Solar Basic Animation',
     pageLink: './Art/mostsayed93/Earsunor/index.html',
     imageLink: './Art/mostsayed93/Earsunor/Earsunor.gif',
@@ -2950,13 +2949,18 @@ let cards = [
     githubLink: 'https://github.com/mostsayed93'
   },
   {
-=======
->>>>>>> 109bdfd6 (adding simple keyframes animation to project)
     artName: 'First Animation',
     pageLink: './Art/Kalliran/index.html',
     imageLink: './Art/Kalliran/Animation-Nation.gif',
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
+  },
+  { 
+    artName: 'Rinnegan Eyes',
+    pageLink: './Art/mohmmadAyesh/Rinnegan.html',
+    imageLink: './Art/mohmmadAyesh/rinnegan.gif',
+    author: 'Mohmmad Ayesh',
+    githubLink: 'https://github.com/mohmmadAyesh'
   },
   {
     artName: 'Matrix',
