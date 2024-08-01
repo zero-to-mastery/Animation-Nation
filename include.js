@@ -592,7 +592,7 @@ let cards = [
     imageLink: './Art/criscaldeiraa/portugal_flag.gif',
     author: 'Cristina',
     githubLink: 'https://github.com/criscaldeiraa'
-  }
+  },
   {
     artName: 'Circles',
     pageLink: './Art/AmanRawat/index.html',
