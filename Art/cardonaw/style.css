@@ -1,0 +1,124 @@
+body, html {
+    z-index: -2;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1e1d2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.title {
+    position: absolute;
+    top: 3.5rem;
+    height: auto;
+}
+
+h1 {
+    color: rgb(250, 242, 233);
+    font-size: 4em;
+    font-family: "Fjalla One", sans-serif;
+    margin-left: 2rem;
+}
+
+
+a {
+    font-family: "Arial", sans-serif;
+    color: rgb(170, 148, 121);
+}
+
+footer {
+    width: 100vw;
+    position: absolute;
+    bottom: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(252, 220, 181);
+    font-family: "Arial", sans-serif;
+}
+
+.background-shapes-container {
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.background-shape {
+    background-color: rgba(81, 79, 105, 0.2);
+    animation: shaping 80s ease-in-out infinite alternate;
+}
+
+#background-shape-1-container {
+    position: absolute;
+    top: 20%;
+    left: -5%;
+    height: 100vh;
+    width: 50vw;
+    overflow: visible;
+    animation: spin 90s linear infinite;
+}
+
+#background-shape-2-container {
+    position: absolute;
+    bottom: 29%;
+    right: 7%;
+    height: 70vh;
+    width: 50vw;
+    overflow: visible;
+    display: flex;
+    align-items: flex-end;
+    animation: spin-negative 70s linear infinite;
+}
+
+#background-shape-1{
+    transform: rotate(270deg);
+    height: 50vh;
+    width: 50vw;
+    border-radius: 22% 78% 24% 76% / 62% 57% 43% 38%;
+}
+#background-shape-2{
+    transform: rotate(90deg);
+    height: 35vh;
+    width: 35vw;
+    border-radius: 22% 78% 24% 76% / 62% 57% 43% 38%;
+}
+
+.sign {
+    margin-right: 1.5rem;
+}
+
+#shape {
+    background-color: rgb(252, 220, 181);
+    height: 25vh;
+    width: 25vw;
+    border-radius: 22% 78% 24% 76% / 62% 57% 43% 38%;
+    transform: rotate(15deg);
+    animation: shaping 12s ease-in-out infinite alternate, spin 120s linear infinite;;
+}
+
+@keyframes shaping {
+    0% {border-radius: 22% 78% 24% 76% / 62% 57% 43% 38%; scale: 1 1;}
+    10% {border-radius: 71% 29% 67% 33% / 32% 77% 23% 68%; scale: 1 1.4;}
+    20% {border-radius: 33% 67% 75% 25% / 73% 71% 29% 27%; scale: 1.5 1;}
+    30% {border-radius: 82% 18% 75% 25% / 27% 15% 85% 73%; scale: 1.4 1;}
+    40% {border-radius: 75% 25% 24% 76% / 22% 80% 20% 78%; scale: 1 1.4;}
+    50% {border-radius: 44% 56% 76% 24% / 16% 18% 82% 84%; scale: 0.8 1.1;}
+    60% {border-radius: 42% 58% 44% 56% / 77% 49% 51% 23%; scale: 1.5 1;}
+    70% {border-radius: 70% 30% 67% 33% / 77% 78% 22% 23%; scale: 1 1.2;}
+    80% {border-radius: 50% 50% 52% 48% / 27% 81% 19% 73%; scale: 1.4 1;}
+    90% {border-radius: 80% 20% 81% 19% / 72% 26% 74% 28% ; scale: 1.4 1.4;}
+    100% {border-radius: 16% 84% 19% 81% / 19% 42% 58% 81%; scale: 1 1.1;}
+}
+
+@keyframes spin {
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes spin-negative {
+    100% {transform: rotate(-360deg);}
+}
+
