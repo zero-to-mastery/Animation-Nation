@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width:500px;
+    height:500px;
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.eye{
+    width:300px;
+    height:300px;
+    background-color:blue;
+    border-radius: 98% 6% 75% 1%;
+    position:absolute;
+    top:50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+    border:1px solid #212121;
+    background-color: rgb(197,184,298);
+    overflow: hidden;
+}
+.eye1{
+    left:0%;
+}
+.eye2{
+    right:-50%;
+    border-radius:98% 1% 75% 6%;
+}
+.eye div{
+    border:1px solid black;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 50%;
+    animation-name:animate;
+    animation-duration:5.25s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+span{
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.iris{
+    width:8.5%;
+    height:8.5%;
+    background-color: #212121;
+}
+.iris2{
+    width: 24%;
+    height: 24%;
+    background-color: rgb(175,158,195);
+    border:1px solid black;
+}
+.l1{
+    animation-delay:0s;
+}
+.l2{
+    animation-delay: 0.75s;
+}
+.l3{
+    animation-delay:1.5s;
+}
+.l4{
+    animation-delay: 2.25s;
+}
+.l5{
+    animation-delay:3s;
+}
+.l6{
+    animation-delay: 3.75s;
+}
+.l7{
+    animation-delay:4.5s;
+}
+.l8{
+    animation-delay: 5.25s;
+}
+
+@keyframes animate {
+    0%{
+        width:5%;
+        height:5%;
+    }
+    100%{
+        width:100%;
+        height:100%;
+    }
+}
+
+
