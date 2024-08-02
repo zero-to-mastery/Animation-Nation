@@ -4087,7 +4087,13 @@ let cards = [
     author: 'William Cardona',
     githubLink: 'https://github.com/cardonaw'
   },
-  
+  {
+    artName: 'Solar Eclipse',
+    pageLink: './Art/kyeenno/index.html',
+    imageLink: './Art/kyeenno/screenshot.jpg',
+    author: 'kyeenno',
+    githubLink: 'https://github.com/kyeenno'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
