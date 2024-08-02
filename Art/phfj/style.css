@@ -1,0 +1,95 @@
+/*The animation code*/
+@keyframes container-animation{
+	from {background-color: black}
+	to {background-color: white}
+}
+
+@keyframes left-eye{
+	0% {background-color: red; left: 0; top: 0;}
+	12.5% {background-color: purple; left: 25%; top: 0px;}
+	25% {background-color: yellow; left: 50%; top: 0px;}
+	37.5% {background-color: slategray; left: 50%; top: 25%;}
+}
+
+@keyframes right-eye{
+	0% {background-color: red; right: 0; top: 0;}
+	12.5% {background-color: purple; right: 25%; top: 0px;}
+	25% {background-color: yellow; right: 50%; top: 0px;}
+	37.5% {background-color: slategray; right: 50%; top: 25%}
+}
+
+@keyframes face-feature{
+	from {background-color: black; border-radius:0; top: 0}
+	to {background-color: yellow; border-radius: 50%; top: 10%}
+}
+
+@keyframes mouth-feature{
+	from {top: 0}
+	to {top: 47%;}
+}
+
+body{
+	background-color: black;
+}
+
+#container{
+	height: 95vh;
+	width: 95vw;
+	margin: 0 auto;
+	animation-name: container-animation;
+	animation-duration: 2s;
+}
+
+/*The element to apply the animation to*/
+div{
+	display: float;
+	width: 100px;
+	height: 100px;
+	border-radius:50px;
+	position: relative;
+	animation-duration: 5s;
+}
+
+
+
+#div1{
+	float: left; 
+	animation-name: left-eye;
+	animation-duration: 7s;
+	z-index: 1;
+}
+
+#div2{
+	float: right;
+	animation-name: right-eye;
+	animation-duration: 7s;
+	z-index: 1;
+}
+
+#inner{
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	background-color: black;
+}
+
+#mouth {
+	width: 215px;
+	height: 90px;
+	border-radius: 7px 7px 100px 100px;
+	top: 275px;
+	margin: 0 auto;
+	z-index: 1;
+	background-color: black;
+	animation-name: mouth-feature;
+	animation-duration: 3s;
+}
+
+#face{
+	width: 350px;
+	height: 350px;
+	/*border-radius:50%;*/
+	margin: 0 auto;
+	animation-name: face-feature;
+	animation-duration: 3s;
+}
