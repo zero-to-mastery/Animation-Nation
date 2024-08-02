@@ -2268,6 +2268,13 @@ let cards = [
     githubLink: 'https://github.com/khrisdaniels'
   },
   {
+    artName: 'Apple Face',
+    pageLink: './Art/tykkid/apple-face.html',
+    imageLink: './Art/tykkid/apple-face.gif',
+    author: 'TykkiD',
+    githubLink: 'https://github.com/TykkiD'
+  },
+  {
     artName: 'Mail Box Animation',
     pageLink: './Art/Avtech04/index.html',
     imageLink: './Art/Avtech04/demo.gif',
