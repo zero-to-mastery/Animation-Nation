@@ -4101,6 +4101,13 @@ let cards = [
     author: 'Sourabh', 
     githubLink: 'https://github.com/bsour' 
   },
+  {
+    artName: 'Spinning Head', 
+    pageLink: './Art/Fred759/index.html', 
+    imageLink: './Art/Fred759/Head.jpeg', 
+    author: 'Fred',
+    githubLink: 'https://github.com/Fred759' 
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
