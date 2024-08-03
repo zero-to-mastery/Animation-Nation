@@ -4094,6 +4094,13 @@ let cards = [
     author: 'kyeenno',
     githubLink: 'https://github.com/kyeenno'
   },
+  {
+    artName: 'Rotating Blobs', 
+    pageLink: './Art/bsour/index.html', 
+    imageLink: './Art/bsour/blob.gif',
+    author: 'Sourabh', 
+    githubLink: 'https://github.com/bsour' 
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
