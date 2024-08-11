@@ -4121,6 +4121,13 @@ let cards = [
     imageLink: './Art/Fred759/Head.jpeg', 
     author: 'Fred',
     githubLink: 'https://github.com/Fred759' 
+  },
+  {
+    artName: 'Animated Orange', 
+    pageLink: './Art/AnnaWijetunga/index.html', 
+    imageLink: './Art/AnnaWijetunga/orange.gif', 
+    author: 'Anna',
+    githubLink: 'https://github.com/AnnaWijetunga' 
   }
 ];
 
