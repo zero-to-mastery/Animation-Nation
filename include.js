@@ -14,6 +14,13 @@ let cards = [
     githubLink: 'https://github.com/Mikeabah'
   },
   {
+    artName: 'Spinning Triangle',
+    pageLink: './Art/icez213/index.html',
+    imageLink: './Art/icez213/spinningTriangle.gif',
+    author: 'icez213',
+    githubLink: 'https://github.com/icez213'
+  },
+  {
     artName: 'Balls Animation',
     pageLink: './Art/vikasverma67/Animation1/index.html',
     imageLink: './Art/vikasverma67/Animation1/lets_play_ball.gif',
@@ -26,6 +33,13 @@ let cards = [
     imageLink: './Art/stormworm9/EarthAnimation/earth.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
+  },
+  {
+    artName: 'Bouncing Balls',
+    pageLink: './Art/ksachin7/index.html', 
+    imageLink: './Art/ksachin7/balls.gif', 
+    author: 'Sachin', 
+    githubLink: 'https://github.com/ksachin7' 
   },
   {
     artName: 'GoldenCoin',
