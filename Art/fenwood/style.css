@@ -1,0 +1,147 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  position: absolute;
+  background: #000000;
+}
+
+.container {
+  margin: auto;
+  position: relative;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: square;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  animation-name: circle;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+}
+
+.pacman {
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid red;
+  border-left: 60px solid red;
+  border-bottom: 60px solid red;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  position: relative;
+  animation-name: pacman;
+  animation-duration: 6s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes square {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: purple;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes circle {
+  0% {
+    background-color: white;
+    left: 400px;
+    top: 400px;
+  }
+  25% {
+    background-color: aqua;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: burlywood;
+    left: 0px;
+    top: 400px;
+  }
+  75% {
+    background-color: darkgreen;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: white;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes pacman {
+  0% {
+    border-top: 60px solid red;
+    border-left: 60px solid red;
+    border-bottom: 60px solid red;
+    left: 0px;
+    top: 400px;
+  }
+  25% {
+    border-top: 60px solid khaki;
+    border-left: 60px solid khaki;
+    border-bottom: 60px solid khaki;
+    left: 200px;
+    top: 50px;
+  }
+  50% {
+    border-top: 60px solid royalblue;
+    border-left: 60px solid royalblue;
+    border-bottom: 60px solid royalblue;
+    left: 300px;
+    top: 200px;
+  }
+  75% {
+    border-top: 60px solid lawngreen;
+    border-left: 60px solid lawngreen;
+    border-bottom: 60px solid lawngreen;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    border-top: 60px solid white;
+    border-left: 60px solid white;
+    border-bottom: 60px solid white;
+    left: 0px;
+    top: 0px;
+  }
+}
