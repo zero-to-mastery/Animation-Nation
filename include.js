@@ -902,6 +902,13 @@ let cards = [
     githubLink: 'https://github.com/jnovak5'
   },
   {
+    artName: 'Simple Loading Spinner',
+    pageLink: './Art/jormondroyd27/index.html',
+    imageLink: './Art/jormondroyd27/loading.gif',
+    author: 'Jimmy Ormondroyd',
+    githubLink: 'https://github.com/jormondroyd27'
+  },
+  {
     artName: 'Twist',
     pageLink: './Art/Anna/twist.html',
     imageLink: './Art/Anna/twist.gif',
