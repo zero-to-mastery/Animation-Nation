@@ -1,0 +1,22 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+}
+h1{
+	font-family: cursive;
+	font-size: 3em;
+	border-bottom: 3px solid red;
+	border-right: 3px solid red;
+	width: 400px;
+	text-align: center;
+
+}
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+}

@@ -4143,6 +4143,13 @@ let cards = [
     imageLink: './Art/AnnaWijetunga/orange.gif', 
     author: 'Anna',
     githubLink: 'https://github.com/AnnaWijetunga' 
+  },
+  {
+    artName: 'Animator', // change this to the name of your artwork
+    pageLink: './Art/Animator/index2.html', // change this
+    imageLink: './Art/Animator/triangle.gif', // change this
+    author: 'ESAM', // use your name
+    githubLink: 'https://github.com/ESAMHADI' // change this
   }
 ];
 
