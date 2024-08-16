@@ -42,6 +42,13 @@ let cards = [
     githubLink: 'https://github.com/ksachin7' 
   },
   {
+    artName: 'Moon',
+    pageLink: './Art/Sumisha4/index.html', 
+    imageLink: './Art/Sumisha4/moon.gif', 
+    author: 'Sumisha', 
+    githubLink: 'https://github.com/Sumisha4' 
+  },
+  {
     artName: 'GoldenCoin',
     pageLink: './Art/stormworm9/GoldenCoin/GoldenCoin.html',
     imageLink: './Art/stormworm9/GoldenCoin/GoldenCoin.gif',
