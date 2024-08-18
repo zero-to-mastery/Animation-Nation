@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000000; /* Sky blue background */
+}
+
+#sun {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, rgba(255,192,0,1) 0%, rgba(252,70,70,1) 100%);
+
+  /* background-color: #FFD700; /* Yellow for the sun */
+  
+  border-radius: 100%;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -30px;
+  animation: rotateSun 10s linear infinite; /* Adjust the duration as needed */
+}
+
+#earth {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url('earth.jpg') center center no-repeat; /* Replace 'earth.jpg' with your image file name */
+  background-size: cover; /* Adjust as needed */
+  /* background-color: #1E90FF; /* Blue for the Earth */
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  margin-left: 80px;
+  margin-top: -20px;
+  transform-origin: 75px 75px; /* Adjust the rotation origin */
+  animation: rotateEarth 10s linear infinite, fadeEarth 10s linear infinite; /* Adjust the duration as needed */
+}
+
+
+#orbit {
+  position: absolute;
+  width: 180px; /* Adjust the width for the elliptical orbit */
+  height: 180px; /* Adjust the height for the elliptical orbit */
+  border: 1px dashed #FFFFFF; /* Border color for the orbit line (white in this case) */
+  border-radius: 150px 150px; /* Adjust the values for elliptical shape */
+  left: 50%;
+  top: 50%;
+  margin-left: -170px; /* Half of the width */
+  margin-top: -60px; /* Half of the height */
+  transform-origin: 150px 150px; /* Set the origin to match the sun's origin */
+  transform: rotate(60deg);
+}
+
+@keyframes rotateSun {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes rotateEarth {
+  0% { transform: translateX(-150px) translateY(-50px) rotate(0deg); }
+  100% { transform: translateX(-150px) translateY(-50px) rotate(360deg); }
+  }
+
+@keyframes fadeEarth {
+  0% { opacity: 1; }
+  50% { opacity: 0.2; } /* Adjust the opacity level during the animation */
+  100% { opacity: 1; }
+}
