@@ -2,7 +2,7 @@ let cards = [
   {
     artName: 'Fan Animation',
     pageLink: './Art/himanshu-sheetlani/index.html',
-    imageLink: './Art/himanshu-sheetlani/Fan Animation.gif',
+    imageLink: 'Art/himanshu-sheetlani/animation-gif.gif',
     author: 'Himanshu Sheetlani',
     githubLink: 'https://github.com/himanshu-sheetlani'
   },
