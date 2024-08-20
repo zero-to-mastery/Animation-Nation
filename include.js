@@ -2802,7 +2802,7 @@ let cards = [
   {
     artName: 'Sliding Circles',
     pageLink: './Art/hfarah02/index.html',
-    imageLink: 'Art/hfarah02/ezgif.com-video-to-gif.gif',
+    imageLink: './Art/hfarah02/ezgif.com-video-to-gif.gif',
     author: 'Hassan',
     githubLink: 'https://github.com/hfarah02'
   },
@@ -3322,6 +3322,7 @@ let cards = [
     author: 'Lucas GM',
     githubLink: 'https://github.com/LucasGM17'
   },
+  /** [LP]TODO: missing fields - code need to be reviewed (add the imagelink )**/
   {
     artName: 'Loading Logo',
     pageLink: './Art/magedmohammed/index.html',
