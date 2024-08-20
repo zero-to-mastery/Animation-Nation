@@ -1,5 +1,12 @@
 let cards = [
   {
+    artName: 'Fan Animation',
+    pageLink: './Art/himanshu-sheetlani/index.html',
+    imageLink: 'Art/himanshu-sheetlani/animation-gif.gif',
+    author: 'Himanshu Sheetlani',
+    githubLink: 'https://github.com/himanshu-sheetlani'
+  },
+  {
     artName: 'Infinite Scroll Animation', 
     pageLink: './Art/yashksaini-coder/index.html',
     imageLink: './Art/yashksaini-coder/Infinite_Scroll_Animation.gif', 
@@ -2830,7 +2837,7 @@ let cards = [
   {
     artName: 'Sliding Circles',
     pageLink: './Art/hfarah02/index.html',
-    imageLink: 'Art/hfarah02/ezgif.com-video-to-gif.gif',
+    imageLink: './Art/hfarah02/ezgif.com-video-to-gif.gif',
     author: 'Hassan',
     githubLink: 'https://github.com/hfarah02'
   },
@@ -3365,6 +3372,7 @@ let cards = [
     author: 'Lucas GM',
     githubLink: 'https://github.com/LucasGM17'
   },
+  /** [LP]TODO: missing fields - code need to be reviewed (add the imagelink )**/
   {
     artName: 'Loading Logo',
     pageLink: './Art/magedmohammed/index.html',
