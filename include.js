@@ -21,6 +21,13 @@ let cards = [
     githubLink: 'https://github.com/Mikeabah'
   },
   {
+    artName: 'Spinning Triangle',
+    pageLink: './Art/icez213/index.html',
+    imageLink: './Art/icez213/spinningTriangle.gif',
+    author: 'icez213',
+    githubLink: 'https://github.com/icez213'
+  },
+  {
     artName: 'Balls Animation',
     pageLink: './Art/vikasverma67/Animation1/index.html',
     imageLink: './Art/vikasverma67/Animation1/lets_play_ball.gif',
@@ -33,6 +40,20 @@ let cards = [
     imageLink: './Art/stormworm9/EarthAnimation/earth.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
+  },
+  {
+    artName: 'Bouncing Balls',
+    pageLink: './Art/ksachin7/index.html', 
+    imageLink: './Art/ksachin7/balls.gif', 
+    author: 'Sachin', 
+    githubLink: 'https://github.com/ksachin7' 
+  },
+  {
+    artName: 'Moon',
+    pageLink: './Art/Sumisha4/index.html', 
+    imageLink: './Art/Sumisha4/moon.gif', 
+    author: 'Sumisha', 
+    githubLink: 'https://github.com/Sumisha4' 
   },
   {
     artName: 'GoldenCoin',
@@ -893,6 +914,13 @@ let cards = [
     imageLink: './Art/jnovak5/novak.gif',
     author: 'Jnovak5',
     githubLink: 'https://github.com/jnovak5'
+  },
+  {
+    artName: 'Simple Loading Spinner',
+    pageLink: './Art/jormondroyd27/index.html',
+    imageLink: './Art/jormondroyd27/loading.gif',
+    author: 'Jimmy Ormondroyd',
+    githubLink: 'https://github.com/jormondroyd27'
   },
   {
     artName: 'Twist',
@@ -2275,6 +2303,13 @@ let cards = [
     githubLink: 'https://github.com/khrisdaniels'
   },
   {
+    artName: 'Apple Face',
+    pageLink: './Art/tykkid/apple-face.html',
+    imageLink: './Art/tykkid/apple-face.gif',
+    author: 'TykkiD',
+    githubLink: 'https://github.com/TykkiD'
+  },
+  {
     artName: 'Mail Box Animation',
     pageLink: './Art/Avtech04/index.html',
     imageLink: './Art/Avtech04/demo.gif',
@@ -2991,6 +3026,13 @@ let cards = [
     githubLink: 'https://github.com/nyame100'
   },
   {
+    artName: 'BXI Orbit Symphony',
+    pageLink: './Art/BradXIII/bxi-orbit-symphony.html',
+    imageLink: './Art/BradXIII/Orbit.gif',
+    author: 'Brad',
+    githubLink: 'https://github.com/BradXIII'
+  },
+  {
     artName: 'White Christmas',
     pageLink: './Art/YumiMachino/index.html',
     imageLink: './Art/YumiMachino/white_christmas.gif',
@@ -3004,6 +3046,14 @@ let cards = [
     author: 'Imaginario27',
     githubLink: 'https://github.com/Imaginario27'
   },
+  {    
+    artName: 'Lightning',
+    pageLink: './Art/jfl77/index.html',
+    imageLink: './Art/jfl77/lightning.gif',
+    author: 'J',
+    githubLink: 'https://github.com/jfl77'
+  },
+
   {
     artName: 'Typing Animation',
     pageLink: './Art/arr199/index.html',
@@ -4081,6 +4131,41 @@ let cards = [
     author: 'Chris', 
     githubLink: 'https://github.com/ChristopherJamesL'
   },
+  {
+    artName: 'Responsive Shapes',
+    pageLink: './Art/cardonaw/index.html',
+    imageLink: './Art/cardonaw/responsive-shapes-demo.gif',
+    author: 'William Cardona',
+    githubLink: 'https://github.com/cardonaw'
+  },
+  {
+    artName: 'Solar Eclipse',
+    pageLink: './Art/kyeenno/index.html',
+    imageLink: './Art/kyeenno/screenshot.jpg',
+    author: 'kyeenno',
+    githubLink: 'https://github.com/kyeenno'
+  },
+  {
+    artName: 'Rotating Blobs', 
+    pageLink: './Art/bsour/index.html', 
+    imageLink: './Art/bsour/blob.gif',
+    author: 'Sourabh', 
+    githubLink: 'https://github.com/bsour' 
+  },
+  {
+    artName: 'Spinning Head', 
+    pageLink: './Art/Fred759/index.html', 
+    imageLink: './Art/Fred759/Head.jpeg', 
+    author: 'Fred',
+    githubLink: 'https://github.com/Fred759' 
+  },
+  {
+    artName: 'Animated Orange', 
+    pageLink: './Art/AnnaWijetunga/index.html', 
+    imageLink: './Art/AnnaWijetunga/orange.gif', 
+    author: 'Anna',
+    githubLink: 'https://github.com/AnnaWijetunga' 
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
