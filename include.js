@@ -4165,6 +4165,13 @@ let cards = [
     imageLink: './Art/AnnaWijetunga/orange.gif', 
     author: 'Anna',
     githubLink: 'https://github.com/AnnaWijetunga' 
+  },
+  {
+    artName: 'cute puppy animation', 
+    pageLink: '.Art/mintera10/index.html', 
+    imageLink: './Art/mintera10/puppy.gif', 
+    author: 'Mintera',
+    githubLink: 'https://github.com/mintera10' 
   }
 ];
 
