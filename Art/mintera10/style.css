@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa;
+}
+
+.puppy {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.puppy-body {
+    position: relative;
+    width: 100px;
+    height: 60px;
+    background-color: #ffcc80;
+    border-radius: 50px;
+    margin: 0 auto;
+    animation: bounce 1s infinite;
+}
+
+.puppy-ear {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #ffcc80;
+    border-radius: 50%;
+    top: -15px;
+}
+
+.puppy-ear.left {
+    left: -15px;
+}
+
+.puppy-ear.right {
+    right: -15px;
+}
+
+.puppy-eye {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    top: 20px;
+}
+
+.puppy-eye.left {
+    left: 20px;
+}
+
+.puppy-eye.right {
+    right: 20px;
+}
+
+.puppy-nose {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    top: 30px;
+    left: 40px;
+}
+
+.puppy-tail {
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    background-color: #ffcc80;
+    border-radius: 20px;
+    top: 30px;
+    left: -20px;
+    transform-origin: right center;
+    animation: wag 0.5s infinite alternate;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes wag {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(15deg); }
+}
+
+.puppy-leg {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    background-color: #ffcc80;
+    border-radius: 10px;
+}
+
+.front-left {
+    top: 60px;
+    left: 10px;
+    animation: step 0.5s infinite alternate;
+}
+
+.front-right {
+    top: 60px;
+    right: 10px;
+    animation: step 0.5s infinite alternate-reverse;
+}
+
+.back-left {
+    top: 70px;
+    left: 30px;
+    animation: step 0.5s infinite alternate-reverse;
+}
+
+.back-right {
+    top: 70px;
+    right: 30px;
+    animation: step 0.5s infinite alternate;
+}
+
+@keyframes step {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10px); }
+}
