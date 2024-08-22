@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stand{
+    position: relative;
+    top: -5px;
+    height: 100px;
+    width: 50px;
+    background-color: black;
+}
+
+.standCircle{
+    position: relative;
+    top: -20px;
+    height: 50px;
+    width: 50px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.bottomStand{
+    position: relative;
+    top: -50px;
+    z-index: -1;
+    height: 150px;
+    width: 20px;
+    background-color: grey;
+}
+
+.base{
+    position: relative;
+    top: -50px;
+    width: 150px;
+    height: 20px;
+    border-radius: 25px 25px 0 0;
+    border: 2px solid white;
+    background-color: black;
+}
+
+.circle img{
+    height: 250px;
+    width: 250px;
+    animation: 1s linear spin infinite;
+    rotate: 360deg;
+}
+
+.btn{
+    margin: 100px;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.b{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: inset white 0px 6px 9px 0px;
+}
+
+.b:hover{
+    background: rgb(82, 82, 82);
+    border: 1px solid black;
+    box-shadow: 0 0 0;
+    color: #fff;
+}
+
+.btn1{
+    background-color: red;
+    color: #fff;
+}
+
+.btn1:hover{
+    background-color: red;
+    box-shadow: 0 0 0;
+}
+
+@keyframes spin{
+    0%{
+        rotate: 360deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}
