@@ -3004,6 +3004,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  {
+    artName: 'Rotating Squares', 
+    pageLink: './Art/NehalSurti/index.html', 
+    imageLink: './Art/NehalSurti/RotatingSqrs.gif',
+    author: 'Nehal', 
+    githubLink: 'https://github.com/NehalSurti'
+  },
   { 
     artName: 'Rinnegan Eyes',
     pageLink: './Art/mohmmadAyesh/Rinnegan.html',
