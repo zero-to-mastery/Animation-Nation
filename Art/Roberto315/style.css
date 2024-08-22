@@ -1,0 +1,60 @@
+html {
+    height:100%;
+}
+body { 
+ height: 100%;
+    margin: 0;
+
+ background-image: url("background.png");
+  background-repeat: no-repeat; 
+  background-size: cover; 
+};
+
+/*div {
+    display: flex;
+}
+.container {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   align-items:flex-end;
+   height: 100%;
+};*/
+div {
+
+}
+img {
+    position: fixed;
+    bottom: 0%;
+    left: 66%;
+      position: relative;
+  animation-name: fieldGoal;
+  animation-duration: 2s;
+/*  animation-delay: 2s;*/
+  animation-iteration-count: infinite;
+}
+p {
+/*I have a nasty setting or erron in my computer 
+and thats the reason for using 
+this empty css selectors.
+I dont know how, but using this is the only way for my pc
+ to make this work ( my html elements is not inheriting some css because some
+ user agent default settings or something) */
+}
+
+@keyframes fieldGoal {
+  0% {top:600px; left: 75%}
+  55% { top: 60px; left: 53%; transform: rotate(-34deg); }
+  100% { top: 173px; left: 51%; transform: rotate(-80deg); }
+  
+
+from {
+    width: 150px;
+    height: 250px;
+  }
+
+  to {
+    width: 35px;
+    height: 60px;
+  }
+}
