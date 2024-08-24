@@ -4178,7 +4178,7 @@ let cards = [
     pageLink: './Art/devMTCodes/index.html',
     imageLink: 'Art/devMTCodes/StylishFXs-gif.gif',
     author: 'Mohammad',
-    githubLink: 'https://github.com/himanshu-sheetlani'
+    githubLink: 'https://github.com/devMTCodes'
   },
 ];
 
