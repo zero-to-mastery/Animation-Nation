@@ -4175,8 +4175,8 @@ let cards = [
   }
   {
     artName: 'CSS Tricks',
-    pageLink: './Art/StylishFXs/index.html',
-    imageLink: 'Art/StylishFXs/StylishFXs-gif.gif',
+    pageLink: './Art/devMTCodes/index.html',
+    imageLink: 'Art/devMTCodes/StylishFXs-gif.gif',
     author: 'Mohammad',
     githubLink: 'https://github.com/himanshu-sheetlani'
   },
