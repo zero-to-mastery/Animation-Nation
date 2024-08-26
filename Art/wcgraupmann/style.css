@@ -1,0 +1,36 @@
+.block {
+  display: block;
+  text-align: center;
+  margin: 0 100px;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+.red {
+  margin-top: 50px;
+  background-color: red;
+  transition: all 1s;
+}
+
+.red:hover {
+  transform: scale(1.25);
+  transition: all 1s;
+}
+
+.white {
+  background-color: white;
+  transition: all 1s;
+}
+.white:hover {
+  transform: scale(1.25);
+  transition: all 1s;
+}
+
+.blue {
+  background-color: blue;
+  transition: all 1s;
+}
+.blue:hover {
+  transform: scale(1.25);
+  transition: all 1s;
+}
