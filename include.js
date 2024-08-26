@@ -3004,6 +3004,13 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  { 
+    artName: 'Timeless',
+    pageLink: './Art/aogajoseph/index.html',
+    imageLink: './Art/aogajoseph/screenshot.png',
+    author: 'Joseph Aoga',
+    githubLink: 'https://github.com/aogajoseph'
+  },
   {
     artName: 'Platform Box Animation',
     pageLink: './Art/AdityaLohar/index.html',
