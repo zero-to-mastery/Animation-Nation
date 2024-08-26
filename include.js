@@ -3005,6 +3005,13 @@ let cards = [
     githubLink: 'https://github.com/Kalliran'
   },
   { 
+    artName: 'Pokemon Button Animation',
+    pageLink: './Art/nandan7198/index.html',
+    imageLink: './Art/nandan7198/pokemonAnimation.gif',
+    author: 'Nandan S',
+    githubLink: 'https://github.com/nandan7198/'
+  },
+  {
     artName: 'Timeless',
     pageLink: './Art/aogajoseph/index.html',
     imageLink: './Art/aogajoseph/screenshot.png',
