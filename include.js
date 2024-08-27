@@ -3004,6 +3004,28 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
+  { 
+    artName: 'Pokemon Button Animation',
+    pageLink: './Art/nandan7198/index.html',
+    imageLink: './Art/nandan7198/pokemonAnimation.gif',
+    author: 'Nandan S',
+    githubLink: 'https://github.com/nandan7198/'
+  },
+  {
+    artName: 'Timeless',
+    pageLink: './Art/aogajoseph/index.html',
+    imageLink: './Art/aogajoseph/screenshot.png',
+    author: 'Joseph Aoga',
+    githubLink: 'https://github.com/aogajoseph'
+  },
+  {
+    artName: 'Platform Box Animation',
+    pageLink: './Art/AdityaLohar/index.html',
+    imageLink: './Art/AdityaLohar/platformbox.gif',
+    author: 'AdityaLohar',
+    githubLink: 'https://github.com/AdityLohar'
+  },
+
   {
     artName: 'Rotating Squares', 
     pageLink: './Art/NehalSurti/index.html', 
