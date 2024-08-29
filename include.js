@@ -7,6 +7,13 @@ let cards = [
     githubLink: 'https://github.com/himanshu-sheetlani'
   },
   {
+    artName: 'Dance',
+    pageLink: './Art/thejonamreddy/index.html',
+    imageLink: './Art/thejonamreddy/dance.gif',
+    author: 'thejonamreddy',
+    githubLink: 'https://github.com/thejonamreddy'
+  },
+  {
     artName: 'Infinite Scroll Animation', 
     pageLink: './Art/yashksaini-coder/index.html',
     imageLink: './Art/yashksaini-coder/Infinite_Scroll_Animation.gif', 
