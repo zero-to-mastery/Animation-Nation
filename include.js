@@ -4195,6 +4195,13 @@ let cards = [
     author: 'Anna',
     githubLink: 'https://github.com/AnnaWijetunga' 
   }
+  {
+    artName: 'CSS Tricks',
+    pageLink: './Art/devMTCodes/index.html',
+    imageLink: 'Art/devMTCodes/StylishFXs-gif.gif',
+    author: 'Mohammad',
+    githubLink: 'https://github.com/devMTCodes'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
