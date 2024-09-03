@@ -1,0 +1,33 @@
+.div1{
+    height: 500px;
+    width:700px;
+    background-color: cadetblue;
+    transition: all 2s;
+}
+
+.div1:hover{
+    transform: scale(0.5);
+}
+
+
+.div2{
+    height: 100px;
+    width:200px;
+    background-color: burlywood;
+    transition: all 3s;
+}
+
+.div2:hover{
+    transform: scale(1.5);
+}
+
+.div3{
+    height: 100px;
+    width:200px;
+    background-color:chocolate;
+    transition: all 4s;
+}
+
+.div3:hover{
+    transform: scale(2.5);
+}

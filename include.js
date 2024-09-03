@@ -4174,6 +4174,7 @@ let cards = [
     author: 'William Cardona',
     githubLink: 'https://github.com/cardonaw'
   },
+  
   {
     artName: 'Solar Eclipse',
     pageLink: './Art/kyeenno/index.html',
@@ -4216,6 +4217,13 @@ let cards = [
     author: 'Mohammad',
     githubLink: 'https://github.com/devMTCodes'
   },
+  {
+    artName: 'Abhi',
+    pageLink: './Art/Abhi/index.html',
+    imageLink: './Art/Abhi/anime.gif',
+    author: 'Abhis-droid',
+    githubLink: 'https://github.com/Abhis-droid'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
