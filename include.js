@@ -4216,6 +4216,13 @@ let cards = [
     author: 'Mohammad',
     githubLink: 'https://github.com/devMTCodes'
   },
+  {
+    artName: 'Infinite Twist Animation', 
+    pageLink: './Art/ekecolin/twist.html',
+    imageLink: './Art/ekecolin/twist.gif', 
+    author: 'ekecolin', 
+    githubLink: 'https://github.com/ekecolin'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
