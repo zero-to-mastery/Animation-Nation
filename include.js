@@ -4216,13 +4216,6 @@ let cards = [
     author: 'Mohammad',
     githubLink: 'https://github.com/devMTCodes'
   },
-  {
-    artName: '3d Cube Animation',
-    pageLink: './Art/TejasNarkhede/index.html',
-    imageLink: 'Art/TejasNarkhede/3d Cube Animation.gif',
-    author: 'Tejas Narkhede',
-    githubLink: 'https://github.com/TejasNarkhede'
-  },
 ];
 
 /* -------------------------------------------------------------------------- */
