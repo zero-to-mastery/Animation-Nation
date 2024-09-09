@@ -4223,6 +4223,13 @@ let cards = [
     author: 'ekecolin', 
     githubLink: 'https://github.com/ekecolin'
   },
+  {
+    artName: 'Gradient Animation',
+    pageLink: './Art/monicacoding/index.html',
+    imageLink: './Art/monicacoding/gradient-animation.gif',
+    author: 'monicacoding',
+    githubLink: 'https://github.com/monicacoding'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
