@@ -92,6 +92,14 @@ let cards = [
   },
 
   {
+    artName: 'MagicalLoader', 
+    pageLink: './Art/Isabelle36/Loader/index.html', 
+    imageLink: './Art/Isabelle36/Loader/Loadeer.gif', 
+    author: 'Isabelle', 
+    githubLink: 'https://github.com/Isabelle36' 
+  },
+
+  {
     artName: 'TriangleProjection',
     pageLink: './Art/stormworm9/TriangleProjection/projection.html',
     imageLink: './Art/stormworm9/TriangleProjection/TriangleProjection.gif',
