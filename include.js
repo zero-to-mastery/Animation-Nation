@@ -2772,6 +2772,13 @@ let cards = [
     githubLink: 'https://github.com/divyansharya8826'
   },
   {
+    artName: 'AnimeMe',
+    pageLink: './Art/<AndreiP91>/index.html', 
+    imageLink: './Art/<AndreiP91>/AnimeMe.gif',
+    author: 'Andrei',
+    githubLink: 'https://github.com/<AndreiP91>'
+  },
+  {
     artName: 'Arrows',
     pageLink: './Art/rudrakushwaha/index.html',
     imageLink: './Art/rudrakushwaha/arrows.gif',
