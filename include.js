@@ -4224,12 +4224,19 @@ let cards = [
     githubLink: 'https://github.com/ekecolin'
   },
   {
-    artName: 'Circular Twist', // change this to the name of your artwork
-    pageLink: 'Animation-Nation\Art\Ayesha-Muskan\index.html', // change this
-    imageLink: 'Animation-Nation\Art\Ayesha-Muskan\cool-profile-picture-minion-13pu7815v42uvrsg.jpg', // change this
-    author: 'Ayesha Muskan', // use your name
-    githubLink: 'https://github.com/Ayesha-Muskan-2114' // change this
+    artName: 'Infinite Twist Animation',
+    pageLink: './Art/ekecolin/twist.html',
+    imageLink: './Art/ekecolin/twist.gif',
+    author: 'ekecolin',
+    githubLink: 'https://github.com/ekecolin'
   },
+  {
+    artName: 'Transiting Colors', // change this to the name of your artwork
+    pageLink: './Animation-Nation/Art/Ayesha-Muskan/index.html', // change this
+    imageLink: './Animation-Nation/Art/Ayesha-Muskan/cool-profile-picture-minion-13pu7815v42uvrsg.jpg', // change this
+    author: 'Ayesha Muskan', // use your name
+    githubLink: 'https://github.com/Ayesha-Muskan' // change this
+  }  
 ];
 
 /* -------------------------------------------------------------------------- */
