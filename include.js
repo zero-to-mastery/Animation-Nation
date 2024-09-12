@@ -4229,7 +4229,7 @@ let cards = [
     imageLink: 'Animation-Nation\Art\Ayesha-Muskan\cool-profile-picture-minion-13pu7815v42uvrsg.jpg', // change this
     author: 'Ayesha Muskan', // use your name
     githubLink: 'https://github.com/Ayesha-Muskan-2114' // change this
-  }
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
