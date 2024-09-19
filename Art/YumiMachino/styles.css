@@ -25,8 +25,6 @@ body {
   animation: snowfall 15s linear 0s infinite;
 }
 
-
-
 .snow:nth-of-type(even) {
   animation: snowfall 15s linear 1s infinite;
 }
@@ -52,7 +50,6 @@ body {
 .snow:nth-child(n + 20 / 2).snow:nth-of-type(odd) {
   animation: snowfall 10s linear 3s infinite;
 }
-
 
 .snow:nth-child(1),
 .snow:nth-child(11),
@@ -155,7 +152,7 @@ body {
   top: -10px;
   left: -12px;
   display: block;
-  content: "";
+  content: '';
   transform: rotate(-35deg);
 }
 
@@ -170,7 +167,7 @@ body {
   border-bottom: 15px solid #ffd700;
   border-left: 20px solid transparent;
   transform: rotate(-70deg);
-  content: "";
+  content: '';
 }
 
 .branch {
@@ -284,8 +281,7 @@ body {
 }
 
 .yellow {
-  background-color: #FFD700;
-  ;
+  background-color: #ffd700;
   animation-name: yellowblink;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -310,7 +306,6 @@ body {
   animation-iteration-count: infinite;
 }
 
-
 .tree {
   background-color: #8b4513;
   width: 10%;
@@ -326,7 +321,6 @@ body {
   height: 26vh;
   background-color: #eaeaea;
 }
-
 
 /* 
 animation 
@@ -352,37 +346,37 @@ animation
 
 @keyframes pinkblink {
   0% {
-    background-color: #DB7093;
+    background-color: #db7093;
   }
 
   25% {
-    background-color: #DB7093;
+    background-color: #db7093;
   }
 
   50% {
-    background-color: #C71585;
+    background-color: #c71585;
   }
 
   100% {
-    background-color: #C71585;
+    background-color: #c71585;
   }
 }
 
 @keyframes yellowblink {
   0% {
-    background-color: #FFD700;
+    background-color: #ffd700;
   }
 
   25% {
-    background-color: #FFD700;
+    background-color: #ffd700;
   }
 
   50% {
-    background-color: #B8860B;
+    background-color: #b8860b;
   }
 
   100% {
-    background-color: #B8860B;
+    background-color: #b8860b;
   }
 }
 
@@ -396,11 +390,11 @@ animation
   }
 
   50% {
-    background-color: #00FF00;
+    background-color: #00ff00;
   }
 
   100% {
-    background-color: #00FF00;
+    background-color: #00ff00;
   }
 }
 

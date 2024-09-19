@@ -1,70 +1,70 @@
 /* Rotating cube */
 
 .rotating-cube {
-    margin: 0 auto;
-    width: 100px;
-    height: 100px;
-    background-color: #000;
-    transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
-    animation: rotate 1s linear infinite;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+  animation: rotate 1s linear infinite;
 }
 
 @keyframes rotate {
-    from {
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    }
+  from {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
 
-    to {
-        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-    }
+  to {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
 }
 
 /* Bouncing ball */
 
 .bouncing-ball {
-    margin: 0 auto;
-    width: 50px;
-    height: 50px;
-    background-color: dodgerblue;
-    border-radius: 50px;
-    animation: bounce 1s ease-in-out infinite;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  background-color: dodgerblue;
+  border-radius: 50px;
+  animation: bounce 1s ease-in-out infinite;
 }
 
 @keyframes bounce {
-    0% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
 
-    50% {
-        transform: translateY(-50px);
-    }
+  50% {
+    transform: translateY(-50px);
+  }
 
-    100% {
-        transform: translateY(0);
-    }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* Pulsating circle */
 
 .pulsating-circle {
-    margin: 0 auto;
-    width: 100px;
-    height: 100px;
-    background-color: #ff0000;
-    border-radius: 50%;
-    animation: pulsate 1s ease-in-out infinite;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  animation: pulsate 1s ease-in-out infinite;
 }
 
 @keyframes pulsate {
-    0% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
 
-    50% {
-        transform: scale(1.1);
-    }
+  50% {
+    transform: scale(1.1);
+  }
 
-    100% {
-        transform: scale(1);
-    }
+  100% {
+    transform: scale(1);
+  }
 }

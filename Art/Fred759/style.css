@@ -1,28 +1,35 @@
 h1 {
-    color: darkred;
+  color: darkred;
 }
 
 body {
-    background: red;
-    animation: changeColor 1s infinite;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background: red;
+  animation: changeColor 1s infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-  
+
 @keyframes changeColor {
-    from {background-color:red ;}
-    to {background-color: blue;}
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
 }
 
 @keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .spinning {
-    width: 400px;
-    height: 400px;
-    animation: spin 1s infinite;
+  width: 400px;
+  height: 400px;
+  animation: spin 1s infinite;
 }
-  

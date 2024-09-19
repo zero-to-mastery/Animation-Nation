@@ -6,7 +6,7 @@ body {
   margin: 0;
   perspective: 800px;
   user-select: none;
-  background: url(bg.jpg) no-repeat center center fixed; 
+  background: url(bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
