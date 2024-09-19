@@ -13,12 +13,13 @@
 }
 
 @keyframes animation {
-  0%, 100% {
-      height: 10px;
-      width: 100px;
+  0%,
+  100% {
+    height: 10px;
+    width: 100px;
   }
   50% {
-      height: 100px;
-      width: 10px;
+    height: 100px;
+    width: 10px;
   }
 }

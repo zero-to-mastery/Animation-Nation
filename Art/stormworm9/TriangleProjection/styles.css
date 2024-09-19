@@ -1,55 +1,56 @@
 body {
-    background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    perspective: 1000px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  perspective: 1000px;
 }
 
 .container {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .star-group {
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: break-stars 4s infinite alternate;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: break-stars 4s infinite alternate;
 }
 
 .star {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid #fff;
-    position: relative;
-    margin: 20px;
-    transform-style: preserve-3d;
-    animation: spin 4s linear infinite, break-stars 4s infinite alternate;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #fff;
+  position: relative;
+  margin: 20px;
+  transform-style: preserve-3d;
+  animation: spin 4s linear infinite, break-stars 4s infinite alternate;
 }
 
 @keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes break-stars {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-30px);
-    }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
 }

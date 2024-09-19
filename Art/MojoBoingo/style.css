@@ -24,21 +24,25 @@ body {
 }
 
 .dynamic-text::before {
-  content: " world!";
+  content: ' world!';
   animation: changeText 6s linear infinite;
 }
 
 @keyframes changeText {
-  0%, 25% {
-    content: "world! ]";
+  0%,
+  25% {
+    content: 'world! ]';
   }
-  25.01%, 50% {
-    content: "user! ]";
+  25.01%,
+  50% {
+    content: 'user! ]';
   }
-  50.01%, 75% {
-    content: "developer! ]";
+  50.01%,
+  75% {
+    content: 'developer! ]';
   }
-  75.01%, 100% {
-    content: "friend! ]";
+  75.01%,
+  100% {
+    content: 'friend! ]';
   }
 }
