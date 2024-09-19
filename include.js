@@ -4214,6 +4214,13 @@ let cards = [
     githubLink: 'https://github.com/devMTCodes'
   },
   {
+    artName: '3d Cube Animation',
+    pageLink: './Art/TejasNarkhede/index.html',
+    imageLink: 'Art/TejasNarkhede/3d Cube Animation.gif',
+    author: 'Tejas Narkhede',
+    githubLink: 'https://github.com/TejasNarkhede'
+  },
+  {
     artName: 'Infinite Twist Animation',
     pageLink: './Art/ekecolin/twist.html',
     imageLink: './Art/ekecolin/twist.gif',
