@@ -19,7 +19,6 @@ body {
 .depth {
   transform-origin: 0 0;
   transform-style: preserve-3d;
-
 }
 
 .triangle {
@@ -31,7 +30,6 @@ body {
   border-left: 33.3px solid transparent;
   border-right: 33.3px solid transparent;
   border-bottom: 100.5px solid;
-
 }
 
 .trapeze {
@@ -43,7 +41,6 @@ body {
   border-bottom: 36px solid;
   height: 0;
   width: 33px;
-
 }
 
 .hexagon {
@@ -132,44 +129,41 @@ body {
 .hexagon {
   transform-origin: 50% 0%;
   border-bottom-color: #cbe3f0;
-
 }
 
 .hexagon.part-one {
-  transform: rotateY(0deg) translateZ(3px) rotateX(-90deg) scaleY(1.9)
+  transform: rotateY(0deg) translateZ(3px) rotateX(-90deg) scaleY(1.9);
 }
 
 .hexagon.part-two {
-  transform: rotateY(60deg) translateZ(3px) rotateX(-90deg) scaleY(1.9)
+  transform: rotateY(60deg) translateZ(3px) rotateX(-90deg) scaleY(1.9);
 }
 
 .hexagon.part-three {
-  transform: rotateY(120deg) translateZ(3px) rotateX(-90deg) scaleY(1.9)
+  transform: rotateY(120deg) translateZ(3px) rotateX(-90deg) scaleY(1.9);
 }
 
 .hexagon.part-four {
-  transform: rotateY(180deg) translateZ(3px) rotateX(-90deg) scaleY(1.9)
+  transform: rotateY(180deg) translateZ(3px) rotateX(-90deg) scaleY(1.9);
 }
 
 .hexagon.part-five {
-  transform: rotateY(240deg) translateZ(3px) rotateX(-90deg) scaleY(1.9)
+  transform: rotateY(240deg) translateZ(3px) rotateX(-90deg) scaleY(1.9);
 }
 
 .hexagon.part-six {
-  transform: rotateY(300deg) translateZ(3px) rotateX(-90deg) scaleY(1.9)
+  transform: rotateY(300deg) translateZ(3px) rotateX(-90deg) scaleY(1.9);
 }
 
 /* Animations */
 
 .rotate {
   transform: rotateX(-18deg);
-
 }
 
 .spinner {
   animation: spinner 18s infinite Linear;
 }
-
 
 @keyframes spinner {
   from {
