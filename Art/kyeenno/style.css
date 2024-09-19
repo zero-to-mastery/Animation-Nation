@@ -1,45 +1,51 @@
-html, body {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000029;
+}
+
+.animation {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.animation,
+div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.animation,
+.loop-one::before {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(
+    218deg,
+    rgba(8, 8, 8, 1) 0%,
+    rgba(0, 0, 41, 0.6783088235294117) 43%
+  );
+  border-radius: 50%;
+  box-shadow: 0 0 45px white;
+  animation: rotate 7s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    rotate: 0;
   }
-  
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #000029;
+  100% {
+    rotate: 360deg;
   }
-  
-  .animation {
-    position: relative;
-    height: 200px;
-    width: 200px;
-  }
-  
-  .animation, div {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .animation, .loop-one::before {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    background: linear-gradient(218deg, rgba(8,8,8,1) 0%, rgba(0,0,41,0.6783088235294117) 43%);
-    border-radius: 50%;
-    box-shadow: 0 0 45px white;
-    animation: rotate 7s infinite linear;
-  }
-  
-  @keyframes rotate {
-    0% {
-      rotate: 0;
-    }
-    100% {
-      rotate: 360deg;
-    }
-  }
-    
+}
