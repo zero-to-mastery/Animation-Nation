@@ -2780,6 +2780,13 @@ let cards = [
     githubLink: 'https://github.com/divyansharya8826'
   },
   {
+    artName: 'AnimeMe',
+    pageLink: './Art/<AndreiP91>/index.html',
+    imageLink: './Art/<AndreiP91>/AnimeMe.gif',
+    author: 'Andrei',
+    githubLink: 'https://github.com/<AndreiP91>'
+  },
+  {
     artName: 'Arrows',
     pageLink: './Art/rudrakushwaha/index.html',
     imageLink: './Art/rudrakushwaha/arrows.gif',
@@ -3018,6 +3025,13 @@ let cards = [
     imageLink: './Art/Kalliran/Animation-Nation.gif',
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
+  },
+  {
+    artName: 'Car-Animation',
+    pageLink: './Art/niyati/index.html',
+    imageLink: './Art/niyati/car-animation.gif',
+    author: 'Niyati Patel',
+    githubLink: 'https://github.com/NiyatiMPatel'
   },
   {
     artName: 'Pokemon Button Animation',
@@ -4241,6 +4255,14 @@ let cards = [
     imageLink: './Art/8morr/flag-animation.gif',
     author: '8morr',
     githubLink: 'https://github.com/8morr'
+  },
+  {
+    artName: 'Transiting Colors',
+    pageLink: './Art/Ayesha-Muskan/index.html',
+    imageLink:
+      './Art/Ayesha-Muskan/cool-profile-picture-minion-13pu7815v42uvrsg.jpg',
+    author: 'Ayesha Muskan',
+    githubLink: 'https://github.com/Ayesha-Muskan'
   }
 ];
 
