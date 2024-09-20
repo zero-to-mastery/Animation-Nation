@@ -2781,7 +2781,7 @@ let cards = [
   },
   {
     artName: 'AnimeMe',
-    pageLink: './Art/<AndreiP91>/index.html', 
+    pageLink: './Art/<AndreiP91>/index.html',
     imageLink: './Art/<AndreiP91>/AnimeMe.gif',
     author: 'Andrei',
     githubLink: 'https://github.com/<AndreiP91>'
