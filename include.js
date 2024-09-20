@@ -4252,10 +4252,11 @@ let cards = [
   {
     artName: 'Transiting Colors',
     pageLink: './Art/Ayesha-Muskan/index.html',
-    imageLink: './Art/Ayesha-Muskan/cool-profile-picture-minion-13pu7815v42uvrsg.jpg',
+    imageLink:
+      './Art/Ayesha-Muskan/cool-profile-picture-minion-13pu7815v42uvrsg.jpg',
     author: 'Ayesha Muskan',
     githubLink: 'https://github.com/Ayesha-Muskan'
-  }  
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
