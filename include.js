@@ -3020,6 +3020,13 @@ let cards = [
     githubLink: 'https://github.com/Kalliran'
   },
   {
+    artName: 'Car-Animation',
+    pageLink: './Art/niyati/index.html',
+    imageLink: './Art/niyati/car-animation.gif',
+    author: 'Niyati Patel',
+    githubLink: 'https://github.com/NiyatiMPatel'
+  },
+  { 
     artName: 'Pokemon Button Animation',
     pageLink: './Art/nandan7198/index.html',
     imageLink: './Art/nandan7198/pokemonAnimation.gif',
