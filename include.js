@@ -14,10 +14,10 @@ let cards = [
     githubLink: 'https://github.com/thejonamreddy'
   },
   {
-    artName: 'Infinite Scroll Animation', 
+    artName: 'Infinite Scroll Animation',
     pageLink: './Art/yashksaini-coder/index.html',
-    imageLink: './Art/yashksaini-coder/Infinite_Scroll_Animation.gif', 
-    author: 'yashksaini-coder', 
+    imageLink: './Art/yashksaini-coder/Infinite_Scroll_Animation.gif',
+    author: 'yashksaini-coder',
     githubLink: 'https://github.com/yashksaini-coder'
   },
   {
@@ -50,17 +50,17 @@ let cards = [
   },
   {
     artName: 'Bouncing Balls',
-    pageLink: './Art/ksachin7/index.html', 
-    imageLink: './Art/ksachin7/balls.gif', 
-    author: 'Sachin', 
-    githubLink: 'https://github.com/ksachin7' 
+    pageLink: './Art/ksachin7/index.html',
+    imageLink: './Art/ksachin7/balls.gif',
+    author: 'Sachin',
+    githubLink: 'https://github.com/ksachin7'
   },
   {
     artName: 'Moon',
-    pageLink: './Art/Sumisha4/index.html', 
-    imageLink: './Art/Sumisha4/moon.gif', 
-    author: 'Sumisha', 
-    githubLink: 'https://github.com/Sumisha4' 
+    pageLink: './Art/Sumisha4/index.html',
+    imageLink: './Art/Sumisha4/moon.gif',
+    author: 'Sumisha',
+    githubLink: 'https://github.com/Sumisha4'
   },
   {
     artName: 'GoldenCoin',
@@ -70,10 +70,10 @@ let cards = [
     githubLink: 'https://github.com/stormworm9'
   },
   {
-    artName: 'TrafficLight', 
-    pageLink: './Art/galambova/index.html', 
-    imageLink: './Art/galambova/trafficlight.gif', 
-    author: 'Elizabeth', 
+    artName: 'TrafficLight',
+    pageLink: './Art/galambova/index.html',
+    imageLink: './Art/galambova/trafficlight.gif',
+    author: 'Elizabeth',
     githubLink: 'https://github.com/galambova'
   },
   {
@@ -89,6 +89,14 @@ let cards = [
     imageLink: './Art/stormworm9/RingAnimation/ring.gif',
     author: 'stormworm9',
     githubLink: 'https://github.com/stormworm9'
+  },
+
+  {
+    artName: 'MagicalLoader',
+    pageLink: './Art/Isabelle36/Loader/index.html',
+    imageLink: './Art/Isabelle36/Loader/Loadeer.gif',
+    author: 'Isabelle',
+    githubLink: 'https://github.com/Isabelle36'
   },
 
   {
@@ -2772,6 +2780,13 @@ let cards = [
     githubLink: 'https://github.com/divyansharya8826'
   },
   {
+    artName: 'AnimeMe',
+    pageLink: './Art/<AndreiP91>/index.html',
+    imageLink: './Art/<AndreiP91>/AnimeMe.gif',
+    author: 'Andrei',
+    githubLink: 'https://github.com/<AndreiP91>'
+  },
+  {
     artName: 'Arrows',
     pageLink: './Art/rudrakushwaha/index.html',
     imageLink: './Art/rudrakushwaha/arrows.gif',
@@ -2951,8 +2966,8 @@ let cards = [
     author: 'Danilo Slovic',
     githubLink: 'https://github.com/daniloslovic17'
   },
-  { 
-    artName: 'Animated', 
+  {
+    artName: 'Animated',
     pageLink: './Art/Nyrkn10/index.html',
     imageLink: './Art/Nyrkn10/set.gif',
     author: 'Nyariki Kevin',
@@ -2965,7 +2980,7 @@ let cards = [
     author: 'Jay',
     githubLink: 'https://github.com/moutro'
   },
-  { 
+  {
     artName: 'Mouse Loader Animation',
     pageLink: './Art/dev-rathore/index.html',
     imageLink: './Art/dev-rathore/loader.gif',
@@ -2973,7 +2988,7 @@ let cards = [
     githubLink: 'https://github.com/dev-rathore'
   },
   {
-    /** TODO: Review implementation - 
+    /** TODO: Review implementation -
      * Art name: mojaanimacia instead of martin052
      * Folder: mojaanimacia - not existing
      * From LP
@@ -3011,7 +3026,14 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
-  { 
+  {
+    artName: 'Car-Animation',
+    pageLink: './Art/niyati/index.html',
+    imageLink: './Art/niyati/car-animation.gif',
+    author: 'Niyati Patel',
+    githubLink: 'https://github.com/NiyatiMPatel'
+  },
+  {
     artName: 'Pokemon Button Animation',
     pageLink: './Art/nandan7198/index.html',
     imageLink: './Art/nandan7198/pokemonAnimation.gif',
@@ -3034,13 +3056,13 @@ let cards = [
   },
 
   {
-    artName: 'Rotating Squares', 
-    pageLink: './Art/NehalSurti/index.html', 
+    artName: 'Rotating Squares',
+    pageLink: './Art/NehalSurti/index.html',
     imageLink: './Art/NehalSurti/RotatingSqrs.gif',
-    author: 'Nehal', 
+    author: 'Nehal',
     githubLink: 'https://github.com/NehalSurti'
   },
-  { 
+  {
     artName: 'Rinnegan Eyes',
     pageLink: './Art/mohmmadAyesh/Rinnegan.html',
     imageLink: './Art/mohmmadAyesh/rinnegan.gif',
@@ -3082,7 +3104,7 @@ let cards = [
     author: 'Imaginario27',
     githubLink: 'https://github.com/Imaginario27'
   },
-  {    
+  {
     artName: 'Lightning',
     pageLink: './Art/jfl77/index.html',
     imageLink: './Art/jfl77/lightning.gif',
@@ -3098,8 +3120,7 @@ let cards = [
     githubLink: 'https://github.com/arr199'
   },
   {
-
-     /** TODO: Review implementation - 
+    /** TODO: Review implementation -
      * Art name: "EvaCtion" instead of "royranger"
      * Folder: "EvaCtion" - not existing
      * From LP
@@ -3118,7 +3139,6 @@ let cards = [
     githubLink: 'https://github.com/kxmom'
   },
   {
-
     /** TODO: Review implementation - art name missing, folder not existing
      * Folder: "pragya-sharma11" - not existing
      * From LP
@@ -3130,8 +3150,7 @@ let cards = [
     githubLink: 'https://github.com/pragya-sharma11'
   },
   {
-
-     /** TODO: Review implementation - folder name not username, no art name
+    /** TODO: Review implementation - folder name not username, no art name
      * Art name: "EvaCtion" instead of "royranger"
      * Folder: "EvaCtion" - not existing
      * From LP
@@ -4134,10 +4153,10 @@ let cards = [
   },
   {
     artName: 'FieldGoal',
-    pageLink: './Art/Roberto315/index.html', 
+    pageLink: './Art/Roberto315/index.html',
     imageLink: './Art/Roberto315/fieldgoalgif.gif',
     author: 'roberto315',
-    githubLink: 'https://github.com/roberto315' 
+    githubLink: 'https://github.com/roberto315'
   },
   {
     artName: 'EmojiCube',
@@ -4147,11 +4166,11 @@ let cards = [
     githubLink: 'https://github.com/iamovi'
   },
   {
-    artName: 'Moving Ball', 
-    pageLink: './Art/Quouou/index.html', 
-    imageLink: './Art/Quouou/movingBall.gif', 
-    author: 'Quouou', 
-    githubLink: 'https://github.com/Quouou' 
+    artName: 'Moving Ball',
+    pageLink: './Art/Quouou/index.html',
+    imageLink: './Art/Quouou/movingBall.gif',
+    author: 'Quouou',
+    githubLink: 'https://github.com/Quouou'
   },
   {
     artName: 'Smiling Face',
@@ -4161,10 +4180,10 @@ let cards = [
     githubLink: 'https://github.com/phfj'
   },
   {
-    artName: 'Throwbounce', 
-    pageLink: './Art/ChristopherJamesL/index.html', 
-    imageLink: './Art/ChristopherJamesL/throwbounce.gif', 
-    author: 'Chris', 
+    artName: 'Throwbounce',
+    pageLink: './Art/ChristopherJamesL/index.html',
+    imageLink: './Art/ChristopherJamesL/throwbounce.gif',
+    author: 'Chris',
     githubLink: 'https://github.com/ChristopherJamesL'
   },
   {
@@ -4182,32 +4201,32 @@ let cards = [
     githubLink: 'https://github.com/kyeenno'
   },
   {
-    artName: 'Rotating Blobs', 
-    pageLink: './Art/bsour/index.html', 
+    artName: 'Rotating Blobs',
+    pageLink: './Art/bsour/index.html',
     imageLink: './Art/bsour/blob.gif',
-    author: 'Sourabh', 
-    githubLink: 'https://github.com/bsour' 
+    author: 'Sourabh',
+    githubLink: 'https://github.com/bsour'
   },
   {
-    artName: 'Spinning Head', 
-    pageLink: './Art/Fred759/index.html', 
-    imageLink: './Art/Fred759/Head.jpeg', 
+    artName: 'Spinning Head',
+    pageLink: './Art/Fred759/index.html',
+    imageLink: './Art/Fred759/Head.jpeg',
     author: 'Fred',
-    githubLink: 'https://github.com/Fred759' 
+    githubLink: 'https://github.com/Fred759'
   },
   {
-    artName: 'Animated Orange', 
-    pageLink: './Art/AnnaWijetunga/index.html', 
-    imageLink: './Art/AnnaWijetunga/orange.gif', 
+    artName: 'Animated Orange',
+    pageLink: './Art/AnnaWijetunga/index.html',
+    imageLink: './Art/AnnaWijetunga/orange.gif',
     author: 'Anna',
-    githubLink: 'https://github.com/AnnaWijetunga' 
+    githubLink: 'https://github.com/AnnaWijetunga'
   },
   {
-    artName: "cute puppy animation",
-    pageLink: "./Art/mintera10/index.html",
-    imageLink: "./Art/mintera10/puppy.png",
-    author: "Mintera",
-    githubLink: "https://github.com/mintera10"
+    artName: 'cute puppy animation',
+    pageLink: './Art/mintera10/index.html',
+    imageLink: './Art/mintera10/puppy.png',
+    author: 'Mintera',
+    githubLink: 'https://github.com/mintera10'
   },
   {
     artName: 'CSS Tricks',
@@ -4217,11 +4236,11 @@ let cards = [
     githubLink: 'https://github.com/devMTCodes'
   },
   {
-    artName: 'Infinite Twist Animation', 
-    pageLink: './Art/ekecolin/twist.html',
-    imageLink: './Art/ekecolin/twist.gif', 
-    author: 'ekecolin', 
-    githubLink: 'https://github.com/ekecolin'
+    artName: '3d Cube Animation',
+    pageLink: './Art/TejasNarkhede/index.html',
+    imageLink: 'Art/TejasNarkhede/3d Cube Animation.gif',
+    author: 'Tejas Narkhede',
+    githubLink: 'https://github.com/TejasNarkhede'
   },
   {
     artName: 'Infinite Twist Animation',
@@ -4231,11 +4250,11 @@ let cards = [
     githubLink: 'https://github.com/ekecolin'
   },
   {
-    artName: 'Transiting Colors', // change this to the name of your artwork
-    pageLink: './Animation-Nation/Art/Ayesha-Muskan/index.html', // change this
-    imageLink: './Animation-Nation/Art/Ayesha-Muskan/cool-profile-picture-minion-13pu7815v42uvrsg.jpg', // change this
-    author: 'Ayesha Muskan', // use your name
-    githubLink: 'https://github.com/Ayesha-Muskan' // change this
+    artName: 'Transiting Colors',
+    pageLink: './Art/Ayesha-Muskan/index.html',
+    imageLink: './Art/Ayesha-Muskan/cool-profile-picture-minion-13pu7815v42uvrsg.jpg',
+    author: 'Ayesha Muskan',
+    githubLink: 'https://github.com/Ayesha-Muskan'
   }  
 ];
 
@@ -4261,14 +4280,14 @@ function shuffle(o) {
 const getCardContents = (cardList) => {
   return shuffle(cardList).map((c) => [
     `<li class="card">` +
-    `<a href='${c.pageLink}'>` +
-    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-    `</a>` +
-    `<div class="flex-content">` +
-    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<a href='${c.pageLink}'>` +
+      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+      `</a>` +
+      `<div class="flex-content">` +
+      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 };
 

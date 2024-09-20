@@ -1,50 +1,50 @@
 body {
-    background-color: rgb(22, 22, 22);
-    margin: 0;
-    /* position: absolute; */
+  background-color: rgb(22, 22, 22);
+  margin: 0;
+  /* position: absolute; */
 }
 #outer {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    animation: rotatePlatform 6s infinite;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  animation: rotatePlatform 6s infinite;
 }
 
 #platform {
-    width: 200px;
-    height: 4px;
-    background: white;
-    position: relative;
-     
-    }
-    
+  width: 200px;
+  height: 4px;
+  background: white;
+  position: relative;
+}
+
 #box {
-    width: 10px;
-    height: 10px;
-    background: white;
-    position: absolute;
-    top: -260%;
-    left: 0%;
-    animation: moveBox 6s infinite; 
+  width: 10px;
+  height: 10px;
+  background: white;
+  position: absolute;
+  top: -260%;
+  left: 0%;
+  animation: moveBox 6s infinite;
 }
 
 @keyframes rotatePlatform {
-    0%, 100% {
+  0%,
+  100% {
     transform: rotate(-45deg);
-    }
-    50% {
-        transform: rotate(45deg);
-    }
+  }
+  50% {
+    transform: rotate(45deg);
+  }
 }
 
 @keyframes moveBox {
-    0% {
-        transform: translateX(0px) rotate(0deg);
-    }
-    50% {
-        transform: translateX(190px) rotate(360deg);
-    }
-    100% {
-        transform: translateX(0px) rotate(0deg);
-    }
+  0% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateX(190px) rotate(360deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+  }
 }

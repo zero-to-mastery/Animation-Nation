@@ -1,101 +1,121 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Infinite Scroll Animation (Pure CSS)</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="app">
-  <header>
-    <h1>Infinite Scroll Animation</h1>
-    <p>CSS only, content independent, bi-directional, customizable</p>
-  </header>
-  <div class="tag-list">
-    <div class="loop-slider" style="--duration:15951ms; --direction:normal;">
-      <div class="inner">
-        <div class="tag"><span>#</span> JavaScript</div>
-        <div class="tag"><span>#</span> webdev</div>
-        <div class="tag"><span>#</span> Typescript</div>
-        <div class="tag"><span>#</span> Next.js</div>
-        <div class="tag"><span>#</span> UI/UX</div>
-        <!-- duplicated content -->
-        <div class="tag"><span>#</span> JavaScript</div>
-        <div class="tag"><span>#</span> webdev</div>
-        <div class="tag"><span>#</span> Typescript</div>
-        <div class="tag"><span>#</span> Next.js</div>
-        <div class="tag"><span>#</span> UI/UX</div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Infinite Scroll Animation (Pure CSS)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="app">
+      <header>
+        <h1>Infinite Scroll Animation</h1>
+        <p>CSS only, content independent, bi-directional, customizable</p>
+      </header>
+      <div class="tag-list">
+        <div
+          class="loop-slider"
+          style="--duration: 15951ms; --direction: normal"
+        >
+          <div class="inner">
+            <div class="tag"><span>#</span> JavaScript</div>
+            <div class="tag"><span>#</span> webdev</div>
+            <div class="tag"><span>#</span> Typescript</div>
+            <div class="tag"><span>#</span> Next.js</div>
+            <div class="tag"><span>#</span> UI/UX</div>
+            <!-- duplicated content -->
+            <div class="tag"><span>#</span> JavaScript</div>
+            <div class="tag"><span>#</span> webdev</div>
+            <div class="tag"><span>#</span> Typescript</div>
+            <div class="tag"><span>#</span> Next.js</div>
+            <div class="tag"><span>#</span> UI/UX</div>
+          </div>
+        </div>
+        <div
+          class="loop-slider"
+          style="--duration: 19260ms; --direction: reverse"
+        >
+          <div class="inner">
+            <div class="tag"><span>#</span> webdev</div>
+            <div class="tag"><span>#</span> Gatsby</div>
+            <div class="tag"><span>#</span> JavaScript</div>
+            <div class="tag"><span>#</span> Tailwind</div>
+            <div class="tag"><span>#</span> Typescript</div>
+            <!-- duplicated content -->
+            <div class="tag"><span>#</span> webdev</div>
+            <div class="tag"><span>#</span> Gatsby</div>
+            <div class="tag"><span>#</span> JavaScript</div>
+            <div class="tag"><span>#</span> Tailwind</div>
+            <div class="tag"><span>#</span> Typescript</div>
+          </div>
+        </div>
+        <div
+          class="loop-slider"
+          style="--duration: 10449ms; --direction: normal"
+        >
+          <div class="inner">
+            <div class="tag"><span>#</span> animation</div>
+            <div class="tag"><span>#</span> Tailwind</div>
+            <div class="tag"><span>#</span> React</div>
+            <div class="tag"><span>#</span> SVG</div>
+            <div class="tag"><span>#</span> HTML</div>
+            <!-- duplicated content -->
+            <div class="tag"><span>#</span> animation</div>
+            <div class="tag"><span>#</span> Tailwind</div>
+            <div class="tag"><span>#</span> React</div>
+            <div class="tag"><span>#</span> SVG</div>
+            <div class="tag"><span>#</span> HTML</div>
+          </div>
+        </div>
+        <div
+          class="loop-slider"
+          style="--duration: 16638ms; --direction: reverse"
+        >
+          <div class="inner">
+            <div class="tag"><span>#</span> Gatsby</div>
+            <div class="tag"><span>#</span> HTML</div>
+            <div class="tag"><span>#</span> CSS</div>
+            <div class="tag"><span>#</span> React</div>
+            <div class="tag"><span>#</span> Next.js</div>
+            <!-- duplicated content -->
+            <div class="tag"><span>#</span> Gatsby</div>
+            <div class="tag"><span>#</span> HTML</div>
+            <div class="tag"><span>#</span> CSS</div>
+            <div class="tag"><span>#</span> React</div>
+            <div class="tag"><span>#</span> Next.js</div>
+          </div>
+        </div>
+        <div
+          class="loop-slider"
+          style="--duration: 15936ms; --direction: normal"
+        >
+          <div class="inner">
+            <div class="tag"><span>#</span> Next.js</div>
+            <div class="tag"><span>#</span> React</div>
+            <div class="tag"><span>#</span> webdev</div>
+            <div class="tag"><span>#</span> Typescript</div>
+            <div class="tag"><span>#</span> Gatsby</div>
+            <!-- duplicated content -->
+            <div class="tag"><span>#</span> Next.js</div>
+            <div class="tag"><span>#</span> React</div>
+            <div class="tag"><span>#</span> webdev</div>
+            <div class="tag"><span>#</span> Typescript</div>
+            <div class="tag"><span>#</span> Gatsby</div>
+          </div>
+        </div>
+        <div class="fade"></div>
       </div>
     </div>
-    <div class="loop-slider" style="--duration:19260ms; --direction:reverse;">
-      <div class="inner">
-        <div class="tag"><span>#</span> webdev</div>
-        <div class="tag"><span>#</span> Gatsby</div>
-        <div class="tag"><span>#</span> JavaScript</div>
-        <div class="tag"><span>#</span> Tailwind</div>
-        <div class="tag"><span>#</span> Typescript</div>
-        <!-- duplicated content -->
-        <div class="tag"><span>#</span> webdev</div>
-        <div class="tag"><span>#</span> Gatsby</div>
-        <div class="tag"><span>#</span> JavaScript</div>
-        <div class="tag"><span>#</span> Tailwind</div>
-        <div class="tag"><span>#</span> Typescript</div>
-      </div>
-    </div>
-    <div class="loop-slider" style="--duration:10449ms; --direction:normal;">
-      <div class="inner">
-        <div class="tag"><span>#</span> animation</div>
-        <div class="tag"><span>#</span> Tailwind</div>
-        <div class="tag"><span>#</span> React</div>
-        <div class="tag"><span>#</span> SVG</div>
-        <div class="tag"><span>#</span> HTML</div>
-        <!-- duplicated content -->
-        <div class="tag"><span>#</span> animation</div>
-        <div class="tag"><span>#</span> Tailwind</div>
-        <div class="tag"><span>#</span> React</div>
-        <div class="tag"><span>#</span> SVG</div>
-        <div class="tag"><span>#</span> HTML</div>
-      </div>
-    </div>
-    <div class="loop-slider" style="--duration:16638ms; --direction:reverse;">
-      <div class="inner">
-        <div class="tag"><span>#</span> Gatsby</div>
-        <div class="tag"><span>#</span> HTML</div>
-        <div class="tag"><span>#</span> CSS</div>
-        <div class="tag"><span>#</span> React</div>
-        <div class="tag"><span>#</span> Next.js</div>
-        <!-- duplicated content -->
-        <div class="tag"><span>#</span> Gatsby</div>
-        <div class="tag"><span>#</span> HTML</div>
-        <div class="tag"><span>#</span> CSS</div>
-        <div class="tag"><span>#</span> React</div>
-        <div class="tag"><span>#</span> Next.js</div>
-      </div>
-    </div>
-    <div class="loop-slider" style="--duration:15936ms; --direction:normal;">
-      <div class="inner">
-        <div class="tag"><span>#</span> Next.js</div>
-        <div class="tag"><span>#</span> React</div>
-        <div class="tag"><span>#</span> webdev</div>
-        <div class="tag"><span>#</span> Typescript</div>
-        <div class="tag"><span>#</span> Gatsby</div>
-        <!-- duplicated content -->
-        <div class="tag"><span>#</span> Next.js</div>
-        <div class="tag"><span>#</span> React</div>
-        <div class="tag"><span>#</span> webdev</div>
-        <div class="tag"><span>#</span> Typescript</div>
-        <div class="tag"><span>#</span> Gatsby</div>
-      </div>
-    </div>
-    <div class="fade"></div>
-  </div>
-</div>
-<!-- partial -->
-  
-</body>
+    <!-- partial -->
+  </body>
 </html>

@@ -1,15 +1,27 @@
-div#one{
-    height: 200px;
-    width: 100px;
-    background: #fae3d9;
-    position: relative;
-    animation-name: exampleDivOne;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+div#one {
+  height: 200px;
+  width: 100px;
+  background: #fae3d9;
+  position: relative;
+  animation-name: exampleDivOne;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes exampleDivOne {
-    0%   {background-color:red; left:0px; top:0px;}
-    50%  {background-color:yellow; left:200px; top:0px;}
-    100%  {background-color:blue; left:0px; top:0px;}
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
   }
+  50% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  100% {
+    background-color: blue;
+    left: 0px;
+    top: 0px;
+  }
+}

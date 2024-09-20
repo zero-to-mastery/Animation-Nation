@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.firecamp {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: black;
+}
+.wood {
+  position: absolute;
+  height: 200px;
+  width: 20px;
+  right: 30px;
+  top: 140px;
+  background: cornsilk;
+}
+.fire {
+  position: absolute;
+  display: flex;
+  height: 140px;
+  width: 80px;
+  left: 50%;
+  bottom: 350px;
+  background: linear-gradient(yellow, red);
+  border-radius: 80% 80% 40% 40%/ 100% 100% 40% 40%;
+  z-index: 1;
+}
+.fire span {
+  position: relative;
+  display: block;
+  margin: auto;
+  min-width: 3px;
+  height: 220px;
+  background: #cc711c;
+  border-radius: 80% 80% 40% 40% / 100% 100% 40% 40%;
+  animation: animate 5s linear infinite;
+  opacity: 0;
+  filter: blur(10px);
+  animation-delay: calc(var(--i) * -0.7s);
+}
+@keyframes animate {
+  0% {
+    transform: translateY(0) scaleX(5);
+    opacity: 3;
+  }
+  15% {
+    opacity: 9;
+  }
+  50% {
+    transform: translateY(-100px) scaleX(6);
+  }
+  95% {
+    opacity: 5;
+  }
+  100% {
+    transform: translateY(-200px) scaleX(2);
+  }
+}

@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: #1e293b;
   color: #f8fafc;
 }
@@ -70,7 +70,8 @@ header a {
   border-radius: 0.4rem;
   padding: 0.7rem 1rem;
   margin-right: 1rem;
-  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2), 0 0.1rem 0.5rem rgba(0, 0, 0, 0.3), 0 0.2rem 1.5rem rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2),
+    0 0.1rem 0.5rem rgba(0, 0, 0, 0.3), 0 0.2rem 1.5rem rgba(0, 0, 0, 0.4);
 }
 .tag span {
   font-size: 1.2rem;
@@ -79,7 +80,13 @@ header a {
 
 .fade {
   pointer-events: none;
-  background: linear-gradient(90deg, #1e293b, transparent 30%, transparent 70%, #1e293b);
+  background: linear-gradient(
+    90deg,
+    #1e293b,
+    transparent 30%,
+    transparent 70%,
+    #1e293b
+  );
   position: absolute;
   inset: 0;
 }
