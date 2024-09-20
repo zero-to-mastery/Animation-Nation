@@ -3026,7 +3026,7 @@ let cards = [
     author: 'Niyati Patel',
     githubLink: 'https://github.com/NiyatiMPatel'
   },
-  { 
+  {
     artName: 'Pokemon Button Animation',
     pageLink: './Art/nandan7198/index.html',
     imageLink: './Art/nandan7198/pokemonAnimation.gif',
