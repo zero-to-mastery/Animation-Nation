@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #222;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ball-container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.ball {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ff5722, #e64a19);
+  animation: bounce 2s ease-in-out infinite, glow 1.5s ease-in-out infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 20px rgba(255, 87, 34, 0.8);
+}
+
+.ball:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 40px rgba(255, 87, 34, 1);
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(255, 87, 34, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 87, 34, 1);
+  }
+}
+
+/* Random gradient generation using CSS variables */
+.ball-container:nth-child(odd) .ball {
+  background: radial-gradient(
+    circle,
+    hsl(calc(360 * var(--random-hue)), 80%, 60%),
+    hsl(calc(360 * var(--random-hue)), 70%, 50%)
+  );
+}
+
+.ball-container:nth-child(even) .ball {
+  background: radial-gradient(
+    circle,
+    hsl(calc(360 * var(--random-hue)), 80%, 60%),
+    hsl(calc(360 * var(--random-hue)), 70%, 50%)
+  );
+}
+
+/* Animation for hover effects */
+.ball:hover {
+  animation: none;
+}

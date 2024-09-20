@@ -7,7 +7,7 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-color: #87CEEB; /* Sky Blue */
+  background-color: #87ceeb; /* Sky Blue */
   animation: moveSky 10s linear infinite;
 }
 
@@ -15,92 +15,512 @@ body {
   /* 1,33 ratio */
   width: 100px;
   height: 75px;
-  background-size:cover;
+  background-size: cover;
   position: absolute;
   /*image from www.textures4photoshop.com */
-  background-image: url('img/blue-cloud.png'); 
+  background-image: url('img/blue-cloud.png');
   background-size: cover;
   opacity: 0.5;
 }
 
-
-.cloud1 { top: 20%; left: 10%; width: 250px; height: 185px; animation: moveCloud 14s linear infinite; }
-.cloud2 { top: 25%; left: 15%; width: 250px; height: 185px; animation: moveCloud 15s linear infinite; }
-.cloud3 { top: 30%; left: 20%; width: 250px; height: 185px; animation: moveCloud 16s linear infinite; }
-.cloud4 { top: 35%; left: 25%; width: 350px; height: 260px; animation: moveCloud 17s linear infinite; }
-.cloud5 { top: 40%; left: 30%; width: 250px; height: 185px; animation: moveCloud 18s linear infinite; }
-.cloud6 { top: 45%; left: 35%; width: 250px; height: 185px; animation: moveCloud 19s linear infinite; }
-.cloud7 { top: 50%; left: 40%; width: 250px; height: 185px; animation: moveCloud 20s linear infinite; }
-.cloud8 { top: 55%; left: 35%; width: 250px; height: 185px; animation: moveCloud 21s linear infinite; }
-.cloud9 { top: 50%; left: 40%; width: 350px; height: 260px; animation: moveCloud 22s linear infinite; }
-.cloud10 { top: 45%; left: 0%; width: 250px; height: 185px; animation: moveCloud 23s linear infinite; }
-.cloud11 { top: 40%; left: 5%; width: 250px; height: 185px; animation: moveCloud 24s linear infinite; }
-.cloud12 { top: 35%; left: 15%; width: 150px; height: 70px; animation: moveCloud 25s linear infinite; }
-.cloud13 { top: 30%; left: 10%; width: 250px; height: 185px; animation: moveCloud 26s linear infinite; }
-.cloud14 { top: 25%; left: 25%; width: 350px; height: 260px; animation: moveCloud 27s linear infinite; }
-.cloud15 { top: 20%; left: 20%; width: 250px; height: 185px; animation: moveCloud 28s linear infinite; }
-.cloud16 { top: 25%; left: 35%; width: 250px; height: 185px; animation: moveCloud 29s linear infinite; }
-.cloud17 { top: 30%; left: 30%; width: 250px; height: 185px; animation: moveCloud 16s linear infinite; }
-.cloud18 { top: 35%; left: 40%; width: 250px; height: 185px; animation: moveCloud 17s linear infinite; }
-.cloud19 { top: 40%; left: 35%; width: 350px; height: 260px; animation: moveCloud 18s linear infinite; }
-.cloud20 { top: 45%; left: -5%; width: 250px; height: 185px; animation: moveCloud 19s linear infinite; }
-.cloud21 { top: 50%; left: 0%; width: 250px; height: 185px; animation: moveCloud 20s linear infinite; }
-.cloud22 { top: 45%; left: 10%; width: 250px; height: 185px; animation: moveCloud 21s linear infinite; }
-.cloud23 { top: 40%; left: 20%; width: 250px; height: 185px; animation: moveCloud 22s linear infinite; }
-.cloud24 { top: 35%; left: 35%; width: 350px; height: 260px; animation: moveCloud 23s linear infinite; }
-.cloud25 { top: 30%; left: -15%; width: 250px; height: 185px; animation: moveCloud 24s linear infinite; }
-.cloud26 { top: 25%; left: -20%; width: 250px; height: 185px; animation: moveCloud 25s linear infinite; }
-.cloud27 { top: 20%; left: 25%; width: 250px; height: 185px; animation: moveCloud 26s linear infinite; }
-.cloud28 { top: 15%; left: 35%; width: 250px; height: 185px; animation: moveCloud 27s linear infinite; }
-.cloud29 { top: 35%; left: 25%; width: 350px; height: 260px; animation: moveCloud 27s linear infinite; }
-.cloud30 { top: 45%; left: 0%; width: 250px; height: 185px; animation: moveCloud 27s linear infinite; }
-.cloud31 { top: 20%; left: 10%; width: 250px; height: 185px; animation: moveCloud 24s linear infinite; }
-.cloud32 { top: 25%; left: -15%; width: 250px; height: 185px; animation: moveCloud 23s linear infinite; }
-.cloud33 { top: 30%; left: -10%; width: 250px; height: 185px; animation: moveCloud 22s linear infinite; }
-.cloud34 { top: 35%; left: -15%; width: 150px; height: 100px; animation: moveCloud 21s linear infinite; }
-.cloud35 { top: 40%; left: -10%; width: 350px; height: 260px; animation: moveCloud 20s linear infinite; }
-.cloud36 { top: 45%; left: -15%; width: 250px; height: 185px; animation: moveCloud 22s linear infinite; }
-.cloud37 { top: 50%; left: -5%; width: 250px; height: 185px; animation: moveCloud 23s linear infinite; }
-.cloud38 { top: 55%; left: -15%; width: 250px; height: 185px; animation: moveCloud 24s linear infinite; }
-.cloud39 { top: 50%; left: -10%; width: 250px; height: 185px; animation: moveCloud 25s linear infinite; }
-.cloud40 { top: 45%; left: -8%; width: 350px; height: 260px; animation: moveCloud 26s linear infinite; }
-.cloud41 { top: 40%; left: -5%; width: 250px; height: 185px; animation: moveCloud 27s linear infinite; }
-.cloud42 { top: 35%; left: -15%; width: 250px; height: 185px; animation: moveCloud 28s linear infinite; }
-.cloud43 { top: 30%; left: -10%; width: 250px; height: 185px; animation: moveCloud 29s linear infinite; }
-.cloud44 { top: 25%; left: -15%; width: 250px; height: 185px; animation: moveCloud 30s linear infinite; }
-.cloud45 { top: 20%; left: -20%; width: 350px; height: 260px; animation: moveCloud 31s linear infinite; }
-.cloud46 { top: 25%; left: -10%; width: 250px; height: 185px; animation: moveCloud 29s linear infinite; }
-.cloud47 { top: 30%; left: -15%; width: 150px; height: 100px; animation: moveCloud 28s linear infinite; }
-.cloud48 { top: 35%; left: -25%; width: 250px; height: 185px; animation: moveCloud 27s linear infinite; }
-.cloud49 { top: 40%; left: -20%; width: 350px; height: 260px; animation: moveCloud 26s linear infinite; }
-.cloud50 { top: 45%; left: -5%; width: 250px; height: 185px; animation: moveCloud 25s linear infinite; }
-.cloud51 { top: 50%; left: 10%; width: 250px; height: 185px; animation: moveCloud 24s linear infinite; }
-.cloud52 { top: 45%; left: -10%; width: 250px; height: 185px; animation: moveCloud 23s linear infinite; }
-.cloud53 { top: 40%; left: -9%; width: 350px; height: 260px; animation: moveCloud 22s linear infinite; }
-.cloud54 { top: 35%; left: -5%; width: 250px; height: 185px; animation: moveCloud 15s linear infinite; }
-.cloud55 { top: 30%; left: -15%; width: 250px; height: 185px; animation: moveCloud 14s linear infinite; }
-.cloud56 { top: 25%; left: -2%; width: 250px; height: 185px; animation: moveCloud 16s linear infinite; }
-.cloud57 { top: 20%; left: -3%; width: 350px; height: 260px; animation: moveCloud 17s linear infinite; }
-.cloud58 { top: 15%; left: -15%; width: 250px; height: 185px; animation: moveCloud 18s linear infinite; }
-.cloud59 { top: 35%; left: -5%; width: 150px; height: 100px; animation: moveCloud 17s linear infinite; }
-.cloud60 { top: 45%; left: 10%; width: 250px; height: 185px; animation: moveCloud 16s linear infinite; }
-.cloud61 { top: 50%; left: 10%; width: 250px; height: 185px; animation: moveCloud 40s linear infinite; }
-.cloud62 { top: 45%; left: -10%; width: 250px; height: 185px; animation: moveCloud 41s linear infinite; }
-.cloud63 { top: 40%; left: -9%; width: 350px; height: 260px; animation: moveCloud 42s linear infinite; }
-.cloud64 { top: 35%; left: -5%; width: 250px; height: 185px; animation: moveCloud 39s linear infinite; }
-.cloud65 { top: 30%; left: -15%; width: 250px; height: 185px; animation: moveCloud 42s linear infinite; }
-.cloud66 { top: 25%; left: -2%; width: 250px; height: 185px; animation: moveCloud 41s linear infinite; }
-.cloud67 { top: 20%; left: -3%; width: 350px; height: 260px; animation: moveCloud 39s linear infinite; }
-.cloud68 { top: 15%; left: -15%; width: 250px; height: 185px; animation: moveCloud 40s linear infinite; }
-.cloud69 { top: 35%; left: -5%; width: 150px; height: 100px; animation: moveCloud 38s linear infinite; }
-.cloud70 { top: 45%; left: 0%; width: 250px; height: 185px; animation: moveCloud 45s linear infinite; }
+.cloud1 {
+  top: 20%;
+  left: 10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 14s linear infinite;
+}
+.cloud2 {
+  top: 25%;
+  left: 15%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 15s linear infinite;
+}
+.cloud3 {
+  top: 30%;
+  left: 20%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 16s linear infinite;
+}
+.cloud4 {
+  top: 35%;
+  left: 25%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 17s linear infinite;
+}
+.cloud5 {
+  top: 40%;
+  left: 30%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 18s linear infinite;
+}
+.cloud6 {
+  top: 45%;
+  left: 35%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 19s linear infinite;
+}
+.cloud7 {
+  top: 50%;
+  left: 40%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 20s linear infinite;
+}
+.cloud8 {
+  top: 55%;
+  left: 35%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 21s linear infinite;
+}
+.cloud9 {
+  top: 50%;
+  left: 40%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 22s linear infinite;
+}
+.cloud10 {
+  top: 45%;
+  left: 0%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 23s linear infinite;
+}
+.cloud11 {
+  top: 40%;
+  left: 5%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 24s linear infinite;
+}
+.cloud12 {
+  top: 35%;
+  left: 15%;
+  width: 150px;
+  height: 70px;
+  animation: moveCloud 25s linear infinite;
+}
+.cloud13 {
+  top: 30%;
+  left: 10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 26s linear infinite;
+}
+.cloud14 {
+  top: 25%;
+  left: 25%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 27s linear infinite;
+}
+.cloud15 {
+  top: 20%;
+  left: 20%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 28s linear infinite;
+}
+.cloud16 {
+  top: 25%;
+  left: 35%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 29s linear infinite;
+}
+.cloud17 {
+  top: 30%;
+  left: 30%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 16s linear infinite;
+}
+.cloud18 {
+  top: 35%;
+  left: 40%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 17s linear infinite;
+}
+.cloud19 {
+  top: 40%;
+  left: 35%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 18s linear infinite;
+}
+.cloud20 {
+  top: 45%;
+  left: -5%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 19s linear infinite;
+}
+.cloud21 {
+  top: 50%;
+  left: 0%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 20s linear infinite;
+}
+.cloud22 {
+  top: 45%;
+  left: 10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 21s linear infinite;
+}
+.cloud23 {
+  top: 40%;
+  left: 20%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 22s linear infinite;
+}
+.cloud24 {
+  top: 35%;
+  left: 35%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 23s linear infinite;
+}
+.cloud25 {
+  top: 30%;
+  left: -15%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 24s linear infinite;
+}
+.cloud26 {
+  top: 25%;
+  left: -20%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 25s linear infinite;
+}
+.cloud27 {
+  top: 20%;
+  left: 25%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 26s linear infinite;
+}
+.cloud28 {
+  top: 15%;
+  left: 35%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 27s linear infinite;
+}
+.cloud29 {
+  top: 35%;
+  left: 25%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 27s linear infinite;
+}
+.cloud30 {
+  top: 45%;
+  left: 0%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 27s linear infinite;
+}
+.cloud31 {
+  top: 20%;
+  left: 10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 24s linear infinite;
+}
+.cloud32 {
+  top: 25%;
+  left: -15%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 23s linear infinite;
+}
+.cloud33 {
+  top: 30%;
+  left: -10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 22s linear infinite;
+}
+.cloud34 {
+  top: 35%;
+  left: -15%;
+  width: 150px;
+  height: 100px;
+  animation: moveCloud 21s linear infinite;
+}
+.cloud35 {
+  top: 40%;
+  left: -10%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 20s linear infinite;
+}
+.cloud36 {
+  top: 45%;
+  left: -15%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 22s linear infinite;
+}
+.cloud37 {
+  top: 50%;
+  left: -5%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 23s linear infinite;
+}
+.cloud38 {
+  top: 55%;
+  left: -15%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 24s linear infinite;
+}
+.cloud39 {
+  top: 50%;
+  left: -10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 25s linear infinite;
+}
+.cloud40 {
+  top: 45%;
+  left: -8%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 26s linear infinite;
+}
+.cloud41 {
+  top: 40%;
+  left: -5%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 27s linear infinite;
+}
+.cloud42 {
+  top: 35%;
+  left: -15%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 28s linear infinite;
+}
+.cloud43 {
+  top: 30%;
+  left: -10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 29s linear infinite;
+}
+.cloud44 {
+  top: 25%;
+  left: -15%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 30s linear infinite;
+}
+.cloud45 {
+  top: 20%;
+  left: -20%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 31s linear infinite;
+}
+.cloud46 {
+  top: 25%;
+  left: -10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 29s linear infinite;
+}
+.cloud47 {
+  top: 30%;
+  left: -15%;
+  width: 150px;
+  height: 100px;
+  animation: moveCloud 28s linear infinite;
+}
+.cloud48 {
+  top: 35%;
+  left: -25%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 27s linear infinite;
+}
+.cloud49 {
+  top: 40%;
+  left: -20%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 26s linear infinite;
+}
+.cloud50 {
+  top: 45%;
+  left: -5%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 25s linear infinite;
+}
+.cloud51 {
+  top: 50%;
+  left: 10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 24s linear infinite;
+}
+.cloud52 {
+  top: 45%;
+  left: -10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 23s linear infinite;
+}
+.cloud53 {
+  top: 40%;
+  left: -9%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 22s linear infinite;
+}
+.cloud54 {
+  top: 35%;
+  left: -5%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 15s linear infinite;
+}
+.cloud55 {
+  top: 30%;
+  left: -15%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 14s linear infinite;
+}
+.cloud56 {
+  top: 25%;
+  left: -2%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 16s linear infinite;
+}
+.cloud57 {
+  top: 20%;
+  left: -3%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 17s linear infinite;
+}
+.cloud58 {
+  top: 15%;
+  left: -15%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 18s linear infinite;
+}
+.cloud59 {
+  top: 35%;
+  left: -5%;
+  width: 150px;
+  height: 100px;
+  animation: moveCloud 17s linear infinite;
+}
+.cloud60 {
+  top: 45%;
+  left: 10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 16s linear infinite;
+}
+.cloud61 {
+  top: 50%;
+  left: 10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 40s linear infinite;
+}
+.cloud62 {
+  top: 45%;
+  left: -10%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 41s linear infinite;
+}
+.cloud63 {
+  top: 40%;
+  left: -9%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 42s linear infinite;
+}
+.cloud64 {
+  top: 35%;
+  left: -5%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 39s linear infinite;
+}
+.cloud65 {
+  top: 30%;
+  left: -15%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 42s linear infinite;
+}
+.cloud66 {
+  top: 25%;
+  left: -2%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 41s linear infinite;
+}
+.cloud67 {
+  top: 20%;
+  left: -3%;
+  width: 350px;
+  height: 260px;
+  animation: moveCloud 39s linear infinite;
+}
+.cloud68 {
+  top: 15%;
+  left: -15%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 40s linear infinite;
+}
+.cloud69 {
+  top: 35%;
+  left: -5%;
+  width: 150px;
+  height: 100px;
+  animation: moveCloud 38s linear infinite;
+}
+.cloud70 {
+  top: 45%;
+  left: 0%;
+  width: 250px;
+  height: 185px;
+  animation: moveCloud 45s linear infinite;
+}
 
 @keyframes moveSky {
-  0%, 100% {
-    background-color: #87CEEB;
+  0%,
+  100% {
+    background-color: #87ceeb;
   }
   50% {
-    background-color: #6CA6CD;
+    background-color: #6ca6cd;
   }
 }
 

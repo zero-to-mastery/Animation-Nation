@@ -1,0 +1,145 @@
+/* styles.css */
+
+/* General styles */
+body {
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Puppy container */
+.puppy {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  animation: puppy-bounce 2s infinite ease-in-out;
+}
+
+/* Puppy GIF/Image */
+.puppy-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  z-index: -1; /* Ensure the image stays behind the shapes */
+}
+
+/* Puppy body */
+.puppy-body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(245, 199, 169, 0.7);
+  border-radius: 50%;
+}
+
+/* Puppy ears */
+.puppy-ear {
+  position: absolute;
+  width: 60px;
+  height: 80px;
+  background-color: #9c6d57;
+  border-radius: 50%;
+}
+
+.puppy-ear.left {
+  top: -30px;
+  left: 10px;
+  transform: rotate(-30deg);
+}
+
+.puppy-ear.right {
+  top: -30px;
+  right: 10px;
+  transform: rotate(30deg);
+}
+
+/* Puppy eyes */
+.puppy-eye {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.puppy-eye.left {
+  top: 60px;
+  left: 50px;
+}
+
+.puppy-eye.right {
+  top: 60px;
+  right: 50px;
+}
+
+/* Puppy nose */
+.puppy-nose {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+/* Puppy tail */
+.puppy-tail {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  width: 40px;
+  height: 10px;
+  background-color: #f5c7a9;
+  border-radius: 50% 50% 0 0;
+  transform: rotate(30deg);
+}
+
+/* Puppy legs */
+.puppy-leg {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  background-color: #9c6d57;
+  border-radius: 50%;
+}
+
+.puppy-leg.front-left {
+  top: 160px;
+  left: 30px;
+}
+
+.puppy-leg.front-right {
+  top: 160px;
+  right: 30px;
+}
+
+.puppy-leg.back-left {
+  top: 170px;
+  left: 50px;
+}
+
+.puppy-leg.back-right {
+  top: 170px;
+  right: 50px;
+}
+
+/* Puppy bounce animation */
+@keyframes puppy-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}

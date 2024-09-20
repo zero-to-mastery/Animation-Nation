@@ -1,178 +1,178 @@
 :root {
-    --color-one: rgba(42, 147, 189, 0.8);
-    --color-two: rgba(145, 56, 98, 0.7);
-    --color-three: rgba(76, 184, 90, 0.6);
-    --color-four: rgba(234, 123, 65, 0.8);
-    --color-five: rgba(32, 97, 142, 0.7);
-    --color-six: rgba(169, 49, 80, 0.8);
-    --color-seven: rgba(101, 195, 221, 0.7);
-    --color-eight: rgba(218, 74, 124, 0.8);
-    --color-small-squircle: #ff6347; /* Tomato Red */
-    --color-small-squircle-two: rgba(84, 62, 125, 0.8);
-    --color-small-squircle-four: rgba(188, 153, 71, 0.8);
-    --color-small-squircle-six: rgba(26, 173, 181, 0.8);
-    --color-small-squircle-eight: rgba(169, 37, 97, 0.8);
-    --color-large-squircle: rgba(57, 6, 111, 0.15);
-    --border-color: rgba(255, 255, 255, 0.4);
-    --box-shadow-color: rgba(0, 0, 0, 0.5);
-    --box-shadow-small: rgba(0, 0, 0, 0.2);
-    --bg-color: #06051c;
+  --color-one: rgba(42, 147, 189, 0.8);
+  --color-two: rgba(145, 56, 98, 0.7);
+  --color-three: rgba(76, 184, 90, 0.6);
+  --color-four: rgba(234, 123, 65, 0.8);
+  --color-five: rgba(32, 97, 142, 0.7);
+  --color-six: rgba(169, 49, 80, 0.8);
+  --color-seven: rgba(101, 195, 221, 0.7);
+  --color-eight: rgba(218, 74, 124, 0.8);
+  --color-small-squircle: #ff6347; /* Tomato Red */
+  --color-small-squircle-two: rgba(84, 62, 125, 0.8);
+  --color-small-squircle-four: rgba(188, 153, 71, 0.8);
+  --color-small-squircle-six: rgba(26, 173, 181, 0.8);
+  --color-small-squircle-eight: rgba(169, 37, 97, 0.8);
+  --color-large-squircle: rgba(57, 6, 111, 0.15);
+  --border-color: rgba(255, 255, 255, 0.4);
+  --box-shadow-color: rgba(0, 0, 0, 0.5);
+  --box-shadow-small: rgba(0, 0, 0, 0.2);
+  --bg-color: #06051c;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    background: var(--bg-color);
+  background: var(--bg-color);
 }
 
 div {
-    display: block;
-    height: 20em;
-    left: calc(50% - 10em);
-    position: absolute;
-    top: calc(50% - 10em);
-    width: 20em;
+  display: block;
+  height: 20em;
+  left: calc(50% - 10em);
+  position: absolute;
+  top: calc(50% - 10em);
+  width: 20em;
 }
 
 .large-circles {
-    animation: spin 10s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
+  animation: spin 10s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
 }
 
 .small-shapes {
-    animation: spin-inverse 10s linear infinite;
+  animation: spin-inverse 10s linear infinite;
 }
 
 .content-squircle {
-    animation: spin-inverse 10s linear infinite;
+  animation: spin-inverse 10s linear infinite;
 }
 
 .circle,
 .squircle {
-    border-top: 0.1em solid var(--border-color);
-    height: 12.5em;
-    position: absolute;
-    width: 12.5em;
+  border-top: 0.1em solid var(--border-color);
+  height: 12.5em;
+  position: absolute;
+  width: 12.5em;
 }
 
 .circle {
-    border-radius: 50%;
-    box-shadow: 0 1em 2em var(--box-shadow-color);
-    left: calc(50% - 6.25em);
-    top: calc(50% - 12.5em);
-    transform-origin: 50% 12.5em;
+  border-radius: 50%;
+  box-shadow: 0 1em 2em var(--box-shadow-color);
+  left: calc(50% - 6.25em);
+  top: calc(50% - 12.5em);
+  transform-origin: 50% 12.5em;
 }
 
 .one {
-    background: var(--color-one);
-    transform: rotateZ(225deg);
+  background: var(--color-one);
+  transform: rotateZ(225deg);
 }
 
 .two {
-    background: var(--color-two);
-    transform: rotateZ(180deg);
+  background: var(--color-two);
+  transform: rotateZ(180deg);
 }
 
 .three {
-    background: var(--color-three);
-    transform: rotateZ(135deg);
+  background: var(--color-three);
+  transform: rotateZ(135deg);
 }
 
 .four {
-    background: var(--color-four);
-    transform: rotateZ(90deg);
+  background: var(--color-four);
+  transform: rotateZ(90deg);
 }
 
 .five {
-    background: var(--color-five);
-    transform: rotateZ(45deg);
+  background: var(--color-five);
+  transform: rotateZ(45deg);
 }
 
 .six {
-    background: var(--color-six);
-    transform: rotateZ(0);
+  background: var(--color-six);
+  transform: rotateZ(0);
 }
 
 .seven {
-    background: var(--color-seven);
-    transform: rotateZ(-45deg);
+  background: var(--color-seven);
+  transform: rotateZ(-45deg);
 }
 
 .eight {
-    background: var(--color-eight);
-    transform: rotateZ(-90deg);
+  background: var(--color-eight);
+  transform: rotateZ(-90deg);
 }
 
 .small {
-    width: 4em;
-    height: 4em;
-    left: calc(50% - 2em);
-    top: calc(50% - 15em);
-    transform-origin: 50% 15em;
-    box-shadow: 0 0.25em 0.5em var(--box-shadow-small);
+  width: 4em;
+  height: 4em;
+  left: calc(50% - 2em);
+  top: calc(50% - 15em);
+  transform-origin: 50% 15em;
+  box-shadow: 0 0.25em 0.5em var(--box-shadow-small);
 }
 
 .small.squircle {
-    background: none;
-    border: none;
-    box-shadow: none;
+  background: none;
+  border: none;
+  box-shadow: none;
 }
 
 .small.squircle::after {
-    background: var(--color-small-squircle);
-    border-radius: 25%;
-    box-shadow: -0.25em 0.25em 0.5em var(--box-shadow-small);
-    content: "";
-    height: 100%;
-    position: absolute;
-    transform: rotateZ(-45deg);
-    width: 100%;
+  background: var(--color-small-squircle);
+  border-radius: 25%;
+  box-shadow: -0.25em 0.25em 0.5em var(--box-shadow-small);
+  content: '';
+  height: 100%;
+  position: absolute;
+  transform: rotateZ(-45deg);
+  width: 100%;
 }
 
 .small.squircle.two::after {
-    background: var(--color-small-squircle-two);
+  background: var(--color-small-squircle-two);
 }
 
 .small.squircle.four::after {
-    background: var(--color-small-squircle-four);
+  background: var(--color-small-squircle-four);
 }
 
 .small.squircle.six::after {
-    background: var(--color-small-squircle-six);
+  background: var(--color-small-squircle-six);
 }
 
 .small.squircle.eight::after {
-    background: var(--color-small-squircle-eight);
+  background: var(--color-small-squircle-eight);
 }
 
 .large.squircle {
-    background: var(--color-large-squircle);
-    border: none;
-    height: 15em;
-    width: 15em;
-    left: calc(50% - 7.5em);
-    position: absolute;
-    top: calc(50% - 7.5em);
-    transform: none;
-    border-radius: 2em;
-    border-bottom: 2em;
+  background: var(--color-large-squircle);
+  border: none;
+  height: 15em;
+  width: 15em;
+  left: calc(50% - 7.5em);
+  position: absolute;
+  top: calc(50% - 7.5em);
+  transform: none;
+  border-radius: 2em;
+  border-bottom: 2em;
 }
 
 @keyframes spin {
-    0% {
-        transform: rotateZ(0);
-    }
-    100% {
-        transform: rotateZ(360deg);
-    }
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
 }
 
 @keyframes spin-inverse {
-    0% {
-        transform: rotateZ(0);
-    }
-    100% {
-        transform: rotateZ(-360deg);
-    }
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
 }
