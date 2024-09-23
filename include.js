@@ -4264,14 +4264,13 @@ let cards = [
     author: 'Ayesha Muskan',
     githubLink: 'https://github.com/Ayesha-Muskan'
   },
- {
-      artName: 'BD Flag',
-      pageLink: './Art/nislam2023/index.html',
-      imageLink: './Art/nislam/bd_flag.gif',
-      author: 'Nazmul Islam',
-      githubLink: 'https://github.com/nislam2023'
-    }
-  ];
+  {
+    artName: 'BD Flag',
+    pageLink: './Art/nislam2023/index.html',
+    imageLink: './Art/nislam/bd_flag.gif',
+    author: 'Nazmul Islam',
+    githubLink: 'https://github.com/nislam2023'
+  }
 ];
 
 /* -------------------------------------------------------------------------- */
