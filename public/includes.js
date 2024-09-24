@@ -1,5 +1,5 @@
 // Load the cards.json file using Fetch API
-fetch('/public/cards.json')
+fetch('./public/cards.json')
   .then((response) => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
