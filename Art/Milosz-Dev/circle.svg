@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" width="125" height="125" fill="#86c33a" class="text-circle text-uppercase p-absolute" style="font-family: 'Georama', sans-serif;
-  line-height: 1.5; text-transform: uppercase;bottom: 25px;
-    right: 25px;font-size: 15px;letter-spacing: -1px;">
-  <defs><path id="circle" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"></path></defs>
-  <text font-size="15"><textPath xlink:href="#circle">Check what we have to offer</textPath></text>
-</svg>
