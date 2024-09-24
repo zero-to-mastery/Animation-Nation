@@ -17,8 +17,8 @@ function generateIncludes() {
     // Use directory name as project name
     const projectName = dir.split("-")[1]
     const authorName = dir.split("-")[0]; 
-    const projectUrl = `../Art/${dir}/index.html`;
-    const projectImage = `../Art/${dir}/icon.png`;
+    const projectUrl = `./Art/${dir}/index.html`;
+    const projectImage = `./Art/${dir}/icon.png`;
 
     // Add the project to the cards array
     cards.push({
