@@ -101,4 +101,3 @@ Ready? Let’s make some amazing CSS animations together! 🚀
 <img src="https://images.ctfassets.net/aq13lwl6616q/51gDR7DozuNea9fltdgHIc/0c8577f24eaa1b33c40656a522f2d1db/hacktoberfest_discord_banner.png?h=250" align="center" />
 
 ---
-
