@@ -14,9 +14,12 @@ This repository is a space where developers of all levels, especially **beginner
 
 1. **Fork the repo** to your GitHub account.
 2. **Clone your fork** to your local machine.
-3. Create an animated HTML and CSS artwork in a folder named after your GitHub username.
-4. **Submit a pull request (PR)** with your animated artwork
-5. [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/36L1C), and you're done! 🎉
+3. **Create a branch**, you should not be working in the main/master branch
+4. Create a new directory in the Art directory. Naming it <your_github_username>-<your_arts_name>
+5. Create your animated HTML and CSS artwork.
+6. Pull down recent changes
+7. **Submit a pull request (PR)** with your animated artwork
+8. [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/36L1C), and you're done! 🎉
 
 #### 📌 _Don't worry if it's your first time contributing—below, we've got detailed steps and resources to help you get started!_
 
@@ -37,7 +40,7 @@ We keep things simple! Here are the rules for contributing:
 
 - Use **HTML** and **CSS** only. No **JavaScript**. No **Images/SVGs**.
 - Your project must include **at least one animation**.
-- Make sure your code is **original**. Don't copy it from others and showcase your own skills.
+- Don't copy work from others. Make sure your code is **original** so you can showcase your own skills.
 
 <br />
 
@@ -60,7 +63,10 @@ Once you've forked the repo, clone it to your local machine so you can work on i
 git clone https://github.com/<your-github-username>/Animation-Nation.git
 ```
 
-### 3. Create Your Artwork
+### 3. Create A Branch
+Working in the master or main branch is often frowned upon and are usually expected to branch off. Branching also helps to reduce the chance of a merge conflict. 
+
+### 4. Create Your Artwork
 
 Now for the fun part! Inside the `Art/` folder:
 
@@ -71,7 +77,7 @@ Now for the fun part! Inside the `Art/` folder:
 
 ⚠️ It is important to name the directory and your files exactly as mentioned above ⚠️
 
-### 6. Submit a Pull Request (PR)
+### 5. Submit a Pull Request (PR)
 
 After completing your artwork, you are now ready to create a pull request and have it added to the collection. 
 Remembering to first pull down the recent changes from to the upstream, commit your changes, push them to your forked repo, and submit a PR. If you're unfamiliar with pull requests, check out the following resources or drop a message in the Hacktoberfest channel on Discord. 

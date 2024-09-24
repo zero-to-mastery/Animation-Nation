@@ -56,7 +56,16 @@ ul {
     color: var(--main);
 }
 
-/* Flex Card Container */
+#header p {
+    margin-top: 20px;
+    color: var(--main-50);
+}
+
+.card-container {
+    padding-top: 50px;
+}
+
+
 .flex {
     display: flex;
     display: -webkit-box;
@@ -74,8 +83,7 @@ ul {
 }
 
 .flex-content {
-    display: block;
-    margin-top: 15px;
+    
 }
 
 #cards {
