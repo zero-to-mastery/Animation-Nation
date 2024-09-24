@@ -1,0 +1,56 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+  display: grid;
+  place-content: center;
+}
+
+.wrapper {
+  width: 100px;
+  padding: 50px;
+  box-sizing: border-box;
+  transform: rotateY(20deg);
+}
+
+.circle {
+  width: 100px;
+  padding: 50px 0;
+  margin: 100px 130;
+  background: red;
+  color: yellow;
+  border-radius: 50px;
+  position: absolute;
+  transition: 1s;
+  animation-name: circlebbb;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+}
+.square {
+  width: 300px;
+  height: 200px;
+  background: green;
+  box-sizing: border-box;
+  margin: 50px 0;
+  position: absolute;
+  transition: 1s;
+  transition-delay: 3s;
+  animation-name: flag;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes flag {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(50px);
+  }
+}
+@keyframes circlebbb {
+  from {
+    transform: translateX(70px);
+  }
+  to {
+    transform: translateX(-70px);
+  }
+}
