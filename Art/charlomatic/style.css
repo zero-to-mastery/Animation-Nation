@@ -1,0 +1,127 @@
+/* The animation code  */
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 12, 12);
+    height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lina {
+    width: 140px;
+    height: 160px;
+    background-color: #cfc8da;
+    border-radius: 1000px 0px 0px 50px;
+    position: relative;
+    top: 160px;
+    right: 0px;
+    cursor: pointer;
+
+}
+
+.runble {
+    width: 140px;
+    height: 160px;
+    background-color: rgb(8, 127, 231);
+    border-radius: 0px 50px 0px 1000px;
+    position: relative;
+    top: 160px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.sunble {
+    width: 140px;
+    height: 160px;
+    background-color: #490cac;
+    border-radius: 50px 0px 1000px 0px;
+    position: relative;
+    bottom: 0px;
+    left: 140px;
+    cursor: pointer;
+
+}
+
+.wunble {
+    width: 140px;
+    height: 160px;
+    background-color: #0ad699;
+    border-radius: 0px 1000px 50px 0px;
+    position: relative;
+    bottom: 320px;
+    left: 140px;
+    cursor: pointer;
+
+}
+
+@keyframes lalala {
+    0% {
+        filter: glow(10px);
+        box-shadow: 0 0 40px hsl(64, 97%, 55%);
+    }
+
+    50% {
+        transform: rotateX(720deg);
+
+
+    }
+
+    50% {
+        transform: rotate(720deg);
+        animation-play-state: paused, running;
+    }
+
+    100% {
+        transform: translate3d(100%, 50%, 0px);
+
+    }
+
+    100% {
+
+        transform: rotate(900deg);
+    }
+}
+
+.lina,
+.runble,
+.wunble,
+.sunble {
+
+    animation: 2s infinite lalala;
+    animation-composition: add, replace, accumulate;
+    animation-direction: alternate-reverse;
+    animation-delay: 2s;
+
+}
+
+@keyframes blabla {
+    0% {
+        transform: translate3d(-200px, -100px, 0);
+    }
+
+    50% {
+        transform: rotateX(900deg);
+    }
+
+    100% {
+        animation-play-state: paused, running;
+        transform: rotateY(900deg);
+    }
+}
+
+.circle {
+    animation: 3s infinite blabla;
+    animation-delay: 4s;
+    animation-direction: alternate-reverse;
+
+}
