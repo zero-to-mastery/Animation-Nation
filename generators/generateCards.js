@@ -14,9 +14,11 @@ function generateIncludes() {
   studentDirs.forEach((dir) => {
     const projectPath = path.join(artDir, dir);
 
-    // Use directory name as project name
-    const projectName = dir.split("-")[1]
-    const authorName = dir.split("-")[0]; 
+    // Use directory name, splitting on the last hyphen
+    const lastHyphenIndex = dir.lastIndexOf('-');
+    const authorName = dir.substring(0, lastHyphenIndex); // Everything before the last hyphen
+    const projectName = dir.substring(lastHyphenIndex + 1); // Everything after the last hyphen
+
     const projectUrl = `./Art/${dir}/index.html`;
     const projectImage = `./Art/${dir}/icon.png`;
 
@@ -30,6 +32,7 @@ function generateIncludes() {
       projectPath
     });
   });
+
 
   // Write the content to includes.js file
   fs.writeFileSync("public/cards.json", JSON.stringify(cards, null, 2));
