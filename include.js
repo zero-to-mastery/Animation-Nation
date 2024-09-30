@@ -4223,6 +4223,13 @@ let cards = [
     author: 'ekecolin', 
     githubLink: 'https://github.com/ekecolin'
   },
+  {
+    artName: 'CircleSlider',
+    pageLink: './Art/charlomatic/index.html',
+    imageLink: 'Art/charlomatic/charlimation.gif',
+    author: 'Charles',
+    githubLink: 'https://github.com/charlomatic'
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
