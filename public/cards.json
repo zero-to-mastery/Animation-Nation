@@ -1,5 +1,13 @@
 [
   {
+    "artName": "209",
+    "pageLink": "./Art/SJ-209-loader/index.html",
+    "imageLink": "./Art/SJ-209-loader/icon.png",
+    "author": "SJ",
+    "githubLink": "https://github.com/SJ",
+    "projectPath": "Art/SJ-209-loader"
+  },
+  {
     "artName": "triangle",
     "pageLink": "./Art/mattcsmith-triangle/index.html",
     "imageLink": "./Art/mattcsmith-triangle/icon.png",
