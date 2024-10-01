@@ -32,6 +32,14 @@
     "projectPath": "Art/Kisalaykisu-uniqueanimation"
   },
   {
+    "artName": "animation",
+    "pageLink": "./Art/Kisalaykisu-ztm-logo-animation/index.html",
+    "imageLink": "./Art/Kisalaykisu-ztm-logo-animation/icon.png",
+    "author": "Kisalaykisu-ztm-logo",
+    "githubLink": "https://github.com/Kisalaykisu-ztm-logo",
+    "projectPath": "Art/Kisalaykisu-ztm-logo-animation"
+  },
+  {
     "artName": "Pumpkin",
     "pageLink": "./Art/Pauljd1-Pumpkin/index.html",
     "imageLink": "./Art/Pauljd1-Pumpkin/icon.png",
