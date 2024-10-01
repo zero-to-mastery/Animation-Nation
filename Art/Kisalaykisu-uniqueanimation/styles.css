@@ -5,45 +5,87 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f1f1f1;
+  background: linear-gradient(135deg, #ff5722, #673ab7);
+  background-size: 200% 200%;
+  animation: backgroundShift 8s infinite ease-in-out;
   font-family: Arial, sans-serif;
 }
 
-.ztm-logo {
+@keyframes backgroundShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.ring {
   position: absolute;
-  top: 20px;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: 100px;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  animation: rotate 4s infinite linear;
+  transform-style: preserve-3d;
 }
 
-.ztm-triangle {
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: #00aaff;
+  border-radius: 50%;
   position: absolute;
+  box-shadow: 0 0 20px #00aaff, 0 0 40px #00aaff, 0 0 60px #00aaff;
+  animation: colorShift 4s infinite;
 }
 
-.green {
-  border-bottom: 80px solid #2ecc71;
-  top: 0;
-  left: 0;
+@keyframes colorShift {
+  0% {
+    background-color: #00aaff;
+  }
+  25% {
+    background-color: #ff5722;
+  }
+  50% {
+    background-color: #673ab7;
+  }
+  75% {
+    background-color: #009688;
+  }
+  100% {
+    background-color: #00aaff;
+  }
 }
 
-.red {
-  border-bottom: 80px solid #e74c3c;
-  top: 0;
-  left: 0;
-  transform: rotate(45deg);
+.dot:nth-child(1) {
+  transform: rotateY(60deg) translateZ(75px);
+}
+.dot:nth-child(2) {
+  transform: rotateY(120deg) translateZ(75px);
+}
+.dot:nth-child(3) {
+  transform: rotateY(180deg) translateZ(75px);
+}
+.dot:nth-child(4) {
+  transform: rotateY(240deg) translateZ(75px);
+}
+.dot:nth-child(5) {
+  transform: rotateY(300deg) translateZ(75px);
+}
+.dot:nth-child(6) {
+  transform: rotateY(360deg) translateZ(75px);
 }
 
-.ztm-text {
-  font-size: 20px;
-  font-weight: bold;
-  color: #333;
-  position: absolute;
-  top: 85px;
-  left: 35px;
+@keyframes rotate {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
 }
