@@ -32,6 +32,14 @@
     "projectPath": "Art/SJ-209-loader"
   },
   {
+    "artName": "loadingDino",
+    "pageLink": "./Art/bandhan-majumder-loadingDino/index.html",
+    "imageLink": "./Art/bandhan-majumder-loadingDino/icon.png",
+    "author": "bandhan-majumder",
+    "githubLink": "https://github.com/bandhan-majumder",
+    "projectPath": "Art/bandhan-majumder-loadingDino"
+  },
+  {
     "artName": "CircleSlider",
     "pageLink": "./Art/charlomatic-CircleSlider/index.html",
     "imageLink": "./Art/charlomatic-CircleSlider/icon.png",
