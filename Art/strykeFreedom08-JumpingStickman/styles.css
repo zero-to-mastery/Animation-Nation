@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.stickman {
+    position: relative;
+    width: 10px;
+    height: 80px;
+    background-color: black;
+    animation: jump 2s ease-in-out infinite;
+}
+
+.head {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: -40px;
+    left: -10px;
+}
+
+.body {
+    width: 10px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.left-arm, .right-arm {
+    width: 40px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+}
+
+.left-arm {
+    left: -40px;
+}
+
+.right-arm {
+    right: -30px;
+}
+
+.left-leg, .right-leg {
+    width: 5px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    top: 80px;
+}
+
+.left-leg {
+    left: -15px;
+}
+
+.right-leg {
+    right: -15px;
+}
+
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes swingLeftArm {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes swingRightArm {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes swingLeftLeg {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes swingRightLeg {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+}
+
+.left-arm {
+    animation: swingLeftArm 2s infinite;
+}
+
+.right-arm {
+    animation: swingRightArm 2s infinite;
+}
+
+.left-leg {
+    animation: swingLeftLeg 2s infinite;
+}
+
+.right-leg {
+    animation: swingRightLeg 2s infinite;
+}
