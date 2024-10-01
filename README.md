@@ -33,7 +33,6 @@ This repository is a space where developers of all levels, especially **beginner
 
 <br />
 
-
 ## 📝 Contribution Guidelines
 
 We keep things simple! Here are the rules for contributing:
@@ -43,7 +42,6 @@ We keep things simple! Here are the rules for contributing:
 - Don't copy work from others. Make sure your code is **original** so you can showcase your own skills.
 
 <br />
-
 
 ## 🔥 Step-by-Step Contribution Guide
 
@@ -64,7 +62,8 @@ git clone https://github.com/<your-github-username>/Animation-Nation.git
 ```
 
 ### 3. Create A Branch
-Working in the master or main branch is often frowned upon and are usually expected to branch off. Branching also helps to reduce the chance of a merge conflict. 
+
+Working in the master or main branch is often frowned upon and are usually expected to branch off. Branching also helps to reduce the chance of a merge conflict.
 
 ### 4. Create Your Artwork
 
@@ -73,14 +72,14 @@ Now for the fun part! Inside the `Art/` folder:
 - Create a new directory named: <github_username>-<art_name> eg. `mattcsmith-helloworld`.
 - Inside **your** folder, create an index.html file
 - Inside **your** folder, create an styles.css file
-- Use these to create your **animated artwork** — let your creativity flow!  
+- Use these to create your **animated artwork** — let your creativity flow!
 
 ⚠️ It is important to name the directory and your files exactly as mentioned above ⚠️
 
 ### 5. Submit a Pull Request (PR)
 
-After completing your artwork, you are now ready to create a pull request and have it added to the collection. 
-Remembering to first pull down the recent changes from to the upstream, commit your changes, push them to your forked repo, and submit a PR. If you're unfamiliar with pull requests, check out the following resources or drop a message in the Hacktoberfest channel on Discord. 
+After completing your artwork, you are now ready to create a pull request and have it added to the collection.
+Remembering to first pull down the recent changes from to the upstream, commit your changes, push them to your forked repo, and submit a PR. If you're unfamiliar with pull requests, check out the following resources or drop a message in the Hacktoberfest channel on Discord.
 
 - [Creating a Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 - [Aldo's Contributing to Github video](https://www.youtube.com/watch?v=uQLNFRviB6Q)
@@ -91,8 +90,8 @@ Remembering to first pull down the recent changes from to the upstream, commit y
 
 - You can contribute multiple animations, Just create a new directory with your <github_username>-<art_name>
 - Ensure that you have not modified any other file outside of your own directory
-- Ensure that your directory includes an `index.html` and `styles.css`, these **exact names are important**. 
-- Do **NOT** include any images, svg's or other files. Optimised images will be generate automatically to keep the repository at a managable size.  
+- Ensure that your directory includes an `index.html` and `styles.css`, these **exact names are important**.
+- Do **NOT** include any images, svg's or other files. Optimised images will be generate automatically to keep the repository at a managable size.
 
 ---
 
