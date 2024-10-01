@@ -1,7 +1,3 @@
-@font-face {
-  font-family: 'Scary Halloween Font';
-  src: url('./Scary Halloween Font.ttf') format('truetype');
-}
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +13,7 @@ body {
 }
 
 .Halloween {
-  font-family: 'Scary Halloween Font';
+  font-family: 'Sans Serif';
   font-size: 50px;
   display: flex;
   align-items: center;
@@ -48,5 +44,5 @@ body {
 }
 
 .box {
-  animation: bounce 300ms alternate infinite cubic-bezier(2, 0.65, 1.0, 2);
+  animation: bounce 300ms alternate infinite cubic-bezier(2, 0.65, 1, 2);
 }
