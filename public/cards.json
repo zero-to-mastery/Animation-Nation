@@ -8,36 +8,28 @@
     "projectPath": "Art/JayShukla8-cat"
   },
   {
-    "artName": "animation",
-    "pageLink": "./Art/Kisalaykisu-cube-animation/index.html",
-    "imageLink": "./Art/Kisalaykisu-cube-animation/icon.png",
-    "author": "Kisalaykisu-cube",
-    "githubLink": "https://github.com/Kisalaykisu-cube",
-    "projectPath": "Art/Kisalaykisu-cube-animation"
-  },
-  {
-    "artName": "animation",
-    "pageLink": "./Art/Kisalaykisu-particle-ring-animation/index.html",
-    "imageLink": "./Art/Kisalaykisu-particle-ring-animation/icon.png",
-    "author": "Kisalaykisu-particle-ring",
-    "githubLink": "https://github.com/Kisalaykisu-particle-ring",
-    "projectPath": "Art/Kisalaykisu-particle-ring-animation"
-  },
-  {
-    "artName": "uniqueanimation",
-    "pageLink": "./Art/Kisalaykisu-uniqueanimation/index.html",
-    "imageLink": "./Art/Kisalaykisu-uniqueanimation/icon.png",
+    "artName": "cubeAnimation",
+    "pageLink": "./Art/Kisalaykisu-cubeAnimation/index.html",
+    "imageLink": "./Art/Kisalaykisu-cubeAnimation/icon.png",
     "author": "Kisalaykisu",
     "githubLink": "https://github.com/Kisalaykisu",
-    "projectPath": "Art/Kisalaykisu-uniqueanimation"
+    "projectPath": "Art/Kisalaykisu-cubeAnimation"
   },
   {
-    "artName": "animation",
-    "pageLink": "./Art/Kisalaykisu-ztm-logo-animation/index.html",
-    "imageLink": "./Art/Kisalaykisu-ztm-logo-animation/icon.png",
-    "author": "Kisalaykisu-ztm-logo",
-    "githubLink": "https://github.com/Kisalaykisu-ztm-logo",
-    "projectPath": "Art/Kisalaykisu-ztm-logo-animation"
+    "artName": "particleRingAnimation",
+    "pageLink": "./Art/Kisalaykisu-particleRingAnimation/index.html",
+    "imageLink": "./Art/Kisalaykisu-particleRingAnimation/icon.png",
+    "author": "Kisalaykisu",
+    "githubLink": "https://github.com/Kisalaykisu",
+    "projectPath": "Art/Kisalaykisu-particleRingAnimation"
+  },
+  {
+    "artName": "ztmLogoAnimation",
+    "pageLink": "./Art/Kisalaykisu-ztmLogoAnimation/index.html",
+    "imageLink": "./Art/Kisalaykisu-ztmLogoAnimation/icon.png",
+    "author": "Kisalaykisu",
+    "githubLink": "https://github.com/Kisalaykisu",
+    "projectPath": "Art/Kisalaykisu-ztmLogoAnimation"
   },
   {
     "artName": "Pumpkin",
