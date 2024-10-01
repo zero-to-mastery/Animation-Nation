@@ -53,7 +53,7 @@ html {
     transform: translateY(0);
   }
   60% {
-    transform: teY(200px);
+    transform: translateY(200px);
   }
   100% {
     transform: translateY(0);
