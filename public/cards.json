@@ -8,6 +8,14 @@
     "projectPath": "Art/JayShukla8-cat"
   },
   {
+    "artName": "animation",
+    "pageLink": "./Art/Kisalaykisu-cube-animation/index.html",
+    "imageLink": "./Art/Kisalaykisu-cube-animation/icon.png",
+    "author": "Kisalaykisu-cube",
+    "githubLink": "https://github.com/Kisalaykisu-cube",
+    "projectPath": "Art/Kisalaykisu-cube-animation"
+  },
+  {
     "artName": "uniqueanimation",
     "pageLink": "./Art/Kisalaykisu-uniqueanimation/index.html",
     "imageLink": "./Art/Kisalaykisu-uniqueanimation/icon.png",
