@@ -1,5 +1,13 @@
 [
   {
+    "artName": "cat",
+    "pageLink": "./Art/JayShukla8-cat/index.html",
+    "imageLink": "./Art/JayShukla8-cat/icon.png",
+    "author": "JayShukla8",
+    "githubLink": "https://github.com/JayShukla8",
+    "projectPath": "Art/JayShukla8-cat"
+  },
+  {
     "artName": "loader",
     "pageLink": "./Art/SJ-209-loader/index.html",
     "imageLink": "./Art/SJ-209-loader/icon.png",
