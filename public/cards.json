@@ -16,6 +16,14 @@
     "projectPath": "Art/SJ-209-loader"
   },
   {
+    "artName": "pinball",
+    "pageLink": "./Art/hoangnv170752-pinball/index.html",
+    "imageLink": "./Art/hoangnv170752-pinball/icon.png",
+    "author": "hoangnv170752",
+    "githubLink": "https://github.com/hoangnv170752",
+    "projectPath": "Art/hoangnv170752-pinball"
+  },
+  {
     "artName": "bouncingball",
     "pageLink": "./Art/jeevaramanathan-bouncingball/index.html",
     "imageLink": "./Art/jeevaramanathan-bouncingball/icon.png",
