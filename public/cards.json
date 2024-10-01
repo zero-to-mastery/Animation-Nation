@@ -16,6 +16,14 @@
     "projectPath": "Art/SJ-209-loader"
   },
   {
+    "artName": "CircleSlider",
+    "pageLink": "./Art/charlomatic-CircleSlider/index.html",
+    "imageLink": "./Art/charlomatic-CircleSlider/icon.png",
+    "author": "charlomatic",
+    "githubLink": "https://github.com/charlomatic",
+    "projectPath": "Art/charlomatic-CircleSlider"
+  },
+  {
     "artName": "pinball",
     "pageLink": "./Art/hoangnv170752-pinball/index.html",
     "imageLink": "./Art/hoangnv170752-pinball/icon.png",
