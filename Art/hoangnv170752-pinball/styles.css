@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+#pinBall {
+    background-color: #333;
+    position: relative;
+    width: 80vw;
+    height: 50vh;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+#ball {
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 50%;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: ballMove 4s infinite ease-in-out;
+}
+
+#paddle {
+    position: absolute;
+    width: 15vw;
+    height: 2vh;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    animation: paddleMove 3s ease-in-out infinite;
+}
+
+@keyframes ballMove {
+    0% {
+        top: 80%;
+        left: 50%;
+    }
+    20% {
+        top: 0%;
+        left: 90%;
+    }
+    40% {
+        top: 0%;
+        left: 10%;
+    }
+    60% {
+        top: 80%;
+        left: 25%;
+    }
+    80% {
+        top: 50%;
+        left: 75%;
+    }
+    100% {
+        top: 80%;
+        left: 50%;
+    }
+}
+
+@keyframes paddleMove {
+    0% {
+        left: 0%;
+    }
+    50% {
+        left: calc(100% - 15vw);
+    }
+    100% {
+        left: 0%;
+    }
+}
