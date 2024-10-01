@@ -94,5 +94,13 @@
     "author": "mattcsmith",
     "githubLink": "https://github.com/mattcsmith",
     "projectPath": "Art/mattcsmith-triangle"
+  },
+  {
+    "artName": "JumpingStickman",
+    "pageLink": "./Art/strykeFreedom08-JumpingStickman/index.html",
+    "imageLink": "./Art/strykeFreedom08-JumpingStickman/icon.png",
+    "author": "strykeFreedom08",
+    "githubLink": "https://github.com/strykeFreedom08",
+    "projectPath": "Art/strykeFreedom08-JumpingStickman"
   }
 ]
