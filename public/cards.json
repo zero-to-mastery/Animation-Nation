@@ -8,6 +8,14 @@
     "projectPath": "Art/SJ-209-loader"
   },
   {
+    "artName": "bouncingball",
+    "pageLink": "./Art/jeevaramanathan-bouncingball/index.html",
+    "imageLink": "./Art/jeevaramanathan-bouncingball/icon.png",
+    "author": "jeevaramanathan",
+    "githubLink": "https://github.com/jeevaramanathan",
+    "projectPath": "Art/jeevaramanathan-bouncingball"
+  },
+  {
     "artName": "triangle",
     "pageLink": "./Art/mattcsmith-triangle/index.html",
     "imageLink": "./Art/mattcsmith-triangle/icon.png",
