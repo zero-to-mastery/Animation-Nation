@@ -16,6 +16,14 @@
     "projectPath": "Art/Kisalaykisu-cube-animation"
   },
   {
+    "artName": "animation",
+    "pageLink": "./Art/Kisalaykisu-particle-ring-animation/index.html",
+    "imageLink": "./Art/Kisalaykisu-particle-ring-animation/icon.png",
+    "author": "Kisalaykisu-particle-ring",
+    "githubLink": "https://github.com/Kisalaykisu-particle-ring",
+    "projectPath": "Art/Kisalaykisu-particle-ring-animation"
+  },
+  {
     "artName": "uniqueanimation",
     "pageLink": "./Art/Kisalaykisu-uniqueanimation/index.html",
     "imageLink": "./Art/Kisalaykisu-uniqueanimation/icon.png",
