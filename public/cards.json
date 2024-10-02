@@ -56,6 +56,14 @@
     "projectPath": "Art/SJ-209-loader"
   },
   {
+    "artName": "bubbles",
+    "pageLink": "./Art/SumitDutta007-bubbles/index.html",
+    "imageLink": "./Art/SumitDutta007-bubbles/icon.png",
+    "author": "SumitDutta007",
+    "githubLink": "https://github.com/SumitDutta007",
+    "projectPath": "Art/SumitDutta007-bubbles"
+  },
+  {
     "artName": "loading Dino",
     "pageLink": "./Art/bandhan-majumder-loadingDino/index.html",
     "imageLink": "./Art/bandhan-majumder-loadingDino/icon.png",
