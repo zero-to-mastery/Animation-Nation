@@ -104,6 +104,14 @@
     "projectPath": "Art/smitthakore-oreo"
   },
   {
+    "artName": "helicopter Animation",
+    "pageLink": "./Art/staticBird-helicopterAnimation/index.html",
+    "imageLink": "./Art/staticBird-helicopterAnimation/icon.png",
+    "author": "staticBird",
+    "githubLink": "https://github.com/staticBird",
+    "projectPath": "Art/staticBird-helicopterAnimation"
+  },
+  {
     "artName": "Jumping Stickman",
     "pageLink": "./Art/strykeFreedom08-JumpingStickman/index.html",
     "imageLink": "./Art/strykeFreedom08-JumpingStickman/icon.png",
