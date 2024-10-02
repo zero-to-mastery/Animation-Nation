@@ -17,7 +17,8 @@ function generateIncludes() {
     // Use directory name, splitting on the last hyphen
     const lastHyphenIndex = dir.lastIndexOf('-');
     const authorName = dir.substring(0, lastHyphenIndex); // Everything before the last hyphen
-    const projectName = dir.substring(lastHyphenIndex + 1); // Everything after the last hyphen
+    let projectName = dir.substring(lastHyphenIndex + 1); // Everything after the last hyphen
+    projectName = projectName.replace(/([A-Z])/g, ' $1').trim(); // Handles camel case project name
 
     const projectUrl = `./Art/${dir}/index.html`;
     const projectImage = `./Art/${dir}/icon.png`;
