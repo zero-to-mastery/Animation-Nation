@@ -1,0 +1,138 @@
+/* Background */
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle,#4a90e2,#0a2a6b);
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    overflow: visible;
+}
+
+/* Cookie Container */
+.cookie {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: -200px; 
+    animation: rollToCenter 5s ease-in-out forwards, split 2s 5s forwards;
+}
+
+/* Roll from left to center */
+@keyframes rollToCenter {
+    0% {
+        left: -200px; 
+        transform: rotate(0deg);
+    }
+    100% {
+        left: calc(50vw - 60px); 
+        transform: rotate(360deg);
+    }
+}
+
+/* Oreo Top Cookie Layer */
+.oreo-top {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    background-color: #111;
+    border-radius: 50%;
+    border: 4px solid #333;
+    box-shadow: inset 0 0 10px #000, 0 0 5px #444;
+    background: radial-gradient(circle, #333 30%, #111 90%);
+    top: 0;
+    z-index: 3;
+    animation: splitTop 2s 5s forwards;
+}
+
+/* Oreo Cream Layer */
+.cream {
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 50px;
+    left: 8px;
+    z-index: 2;
+    animation: revealCream 3s 6s forwards;
+}
+
+/* Oreo Bottom Cookie Layer */
+.oreo-bottom {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    background-color: #111;
+    border-radius: 50%;
+    border: 4px solid #333;
+    box-shadow: inset 0 0 10px #000, 0 0 5px #444;
+    background: radial-gradient(circle, #333 30%, #111 90%);
+    top: 80px;
+    z-index: 1;
+    animation: splitBottom 2s 5s forwards;
+}
+
+/* Text */
+.text {
+    position: absolute;
+    top: 75px;
+    left: 63px;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    opacity: 0;
+    z-index: 4;
+    animation: revealText 1s 7s forwards;
+    text-align: center; 
+    width: 100%; 
+}
+
+
+/* Split the Oreo top */
+@keyframes splitTop {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: -80px;
+    }
+}
+
+/* Split the Oreo bottom */
+@keyframes splitBottom {
+    0% {
+        top: 80px;
+    }
+    100% {
+        top: 140px;
+    }
+}
+
+/* Reveal Cream */
+@keyframes revealCream {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: -10px;
+    }
+}
+
+/* Reveal Text after split */
+@keyframes revealText {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
