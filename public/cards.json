@@ -88,6 +88,14 @@
     "projectPath": "Art/mattcsmith-triangle"
   },
   {
+    "artName": "oreo",
+    "pageLink": "./Art/smitthakore-oreo/index.html",
+    "imageLink": "./Art/smitthakore-oreo/icon.png",
+    "author": "smitthakore",
+    "githubLink": "https://github.com/smitthakore",
+    "projectPath": "Art/smitthakore-oreo"
+  },
+  {
     "artName": "JumpingStickman",
     "pageLink": "./Art/strykeFreedom08-JumpingStickman/index.html",
     "imageLink": "./Art/strykeFreedom08-JumpingStickman/icon.png",
