@@ -1,5 +1,13 @@
 [
   {
+    "artName": "Typewriter",
+    "pageLink": "./Art/BaraniVA-Typewriter/index.html",
+    "imageLink": "./Art/BaraniVA-Typewriter/icon.png",
+    "author": "BaraniVA",
+    "githubLink": "https://github.com/BaraniVA",
+    "projectPath": "Art/BaraniVA-Typewriter"
+  },
+  {
     "artName": "cat",
     "pageLink": "./Art/JayShukla8-cat/index.html",
     "imageLink": "./Art/JayShukla8-cat/icon.png",
