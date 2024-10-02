@@ -94,5 +94,13 @@
     "author": "strykeFreedom08",
     "githubLink": "https://github.com/strykeFreedom08",
     "projectPath": "Art/strykeFreedom08-JumpingStickman"
+  },
+  {
+    "artName": "animatedEyes",
+    "pageLink": "./Art/stutxi-animatedEyes/index.html",
+    "imageLink": "./Art/stutxi-animatedEyes/icon.png",
+    "author": "stutxi",
+    "githubLink": "https://github.com/stutxi",
+    "projectPath": "Art/stutxi-animatedEyes"
   }
 ]
