@@ -6,12 +6,15 @@ on:
       - master
     types:
       - closed
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   generateIncludes:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
