@@ -112,12 +112,28 @@
     "projectPath": "Art/jeevaramanathan-bouncingball"
   },
   {
+    "artName": "pixel Loading",
+    "pageLink": "./Art/kasunJayasanka-pixelLoading/index.html",
+    "imageLink": "./Art/kasunJayasanka-pixelLoading/icon.png",
+    "author": "kasunJayasanka",
+    "githubLink": "https://github.com/kasunJayasanka",
+    "projectPath": "Art/kasunJayasanka-pixelLoading"
+  },
+  {
     "artName": "triangle",
     "pageLink": "./Art/mattcsmith-triangle/index.html",
     "imageLink": "./Art/mattcsmith-triangle/icon.png",
     "author": "mattcsmith",
     "githubLink": "https://github.com/mattcsmith",
     "projectPath": "Art/mattcsmith-triangle"
+  },
+  {
+    "artName": "piramid Sun Set",
+    "pageLink": "./Art/samilabud-piramidSunSet/index.html",
+    "imageLink": "./Art/samilabud-piramidSunSet/icon.png",
+    "author": "samilabud",
+    "githubLink": "https://github.com/samilabud",
+    "projectPath": "Art/samilabud-piramidSunSet"
   },
   {
     "artName": "oreo",
