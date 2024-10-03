@@ -1,5 +1,13 @@
 [
   {
+    "artName": "rotating Ball",
+    "pageLink": "./Art/Argwingskodhek-rotatingBall/index.html",
+    "imageLink": "./Art/Argwingskodhek-rotatingBall/icon.png",
+    "author": "Argwingskodhek",
+    "githubLink": "https://github.com/Argwingskodhek",
+    "projectPath": "Art/Argwingskodhek-rotatingBall"
+  },
+  {
     "artName": "Typewriter",
     "pageLink": "./Art/BaraniVA-Typewriter/index.html",
     "imageLink": "./Art/BaraniVA-Typewriter/icon.png",
