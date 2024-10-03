@@ -120,6 +120,14 @@
     "projectPath": "Art/mattcsmith-triangle"
   },
   {
+    "artName": "piramid Sun Set",
+    "pageLink": "./Art/samilabud-piramidSunSet/index.html",
+    "imageLink": "./Art/samilabud-piramidSunSet/icon.png",
+    "author": "samilabud",
+    "githubLink": "https://github.com/samilabud",
+    "projectPath": "Art/samilabud-piramidSunSet"
+  },
+  {
     "artName": "oreo",
     "pageLink": "./Art/smitthakore-oreo/index.html",
     "imageLink": "./Art/smitthakore-oreo/icon.png",
