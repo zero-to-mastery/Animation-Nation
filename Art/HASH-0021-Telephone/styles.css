@@ -1,0 +1,106 @@
+body {
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	font-style: italic;
+}
+
+#head {
+	margin-top: 50px;
+	width: 100px;
+	height: 20px;
+	display: flex;
+	background-color: black;
+	border-radius: 10px 10px 8px 8px;
+	justify-content: center;
+	align-items: flex-end;
+	animation-name: ring;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: 1s;
+}
+
+@keyframes ring {
+	0% {margin-top: 50px;margin-bottom: 0;}
+	4% {margin-top: 40px;margin-bottom: 10px;}
+	10% {margin-top: 40px;margin-bottom: 10px;transform: rotate(5deg)}
+	16% {margin-top: 40px;margin-bottom: 10px;transform: rotate(0deg)}
+	22% {margin-top: 40px;margin-bottom: 10px;transform: rotate(-5deg)}
+	28% {margin-top: 40px;margin-bottom: 10px;transform: rotate(0deg)}
+	34% {margin-top: 40px;margin-bottom: 10px;transform: rotate(5deg)}
+	40% {margin-top: 40px;margin-bottom: 10px;transform: rotate(0deg)}
+	46% {margin-top: 40px;margin-bottom: 10px;transform: rotate(-5deg)}
+	52% {margin-top: 40px;margin-bottom: 10px;transform: rotate(0deg)}
+	58% {margin-top: 40px;margin-bottom: 10px;transform: rotate(5deg)}
+	64% {margin-top: 40px;margin-bottom: 10px;transform: rotate(0deg)}
+	70% {margin-top: 40px;margin-bottom: 10px;transform: rotate(-5deg)}
+	76% {margin-top: 40px;margin-bottom: 10px;transform: rotate(0deg)}
+	82% {margin-top: 40px;margin-bottom: 10px;transform: rotate(5deg)}
+	88% {margin-top: 40px;margin-bottom: 10px;transform: rotate(0deg)}
+	94% {margin-top: 40px;margin-bottom: 10px;transform: rotate(-5deg)}
+	100% {margin-top: 50px;margin-bottom: 0; transform: rotate(0deg);}
+}
+
+#head > div {
+	width: 70px;
+	height: 8px;
+	background-color: white;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#body {
+	width: 100px;
+	height: 80px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+#left-spacing {
+	border: 0px solid transparent;
+	border-top: 80px solid white;
+	border-right-width: 20px;
+}
+
+#middle-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#middle-spacing {
+	width: 40px;
+	height: 8px;
+	background-color: white;
+}
+
+#numpad {
+	margin-top: 15px;
+	width: 40px;
+	height: 40px;
+	background-color: gray;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#numpad-spacing {
+	width: 25px;
+	height: 25px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+#right-spacing {
+	border: 0px solid transparent;
+	border-top: 80px solid white;
+	border-left-width: 20px;
+}
