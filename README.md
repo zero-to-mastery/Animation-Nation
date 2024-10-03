@@ -19,7 +19,7 @@ This repository is a space where developers of all levels, especially **beginner
 5. Create your animated HTML and CSS artwork.
 6. Pull down recent changes
 7. **Submit a pull request (PR)** with your animated artwork
-8. [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/36L1C), and you're done! 🎉
+8. **OPTIONAL** [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/36L1C), and you're done! 🎉
 
 #### 📌 _Don't worry if it's your first time contributing—below, we've got detailed steps and resources to help you get started!_
 
@@ -83,6 +83,9 @@ Remembering to first pull down the recent changes from to the upstream, commit y
 
 - [Creating a Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 - [Aldo's Contributing to Github video](https://www.youtube.com/watch?v=uQLNFRviB6Q)
+
+### 6. [ OPTIONAL ] Tweet about your progress
+Optinonally you can [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/36L1C) on X
 
 ---
 
