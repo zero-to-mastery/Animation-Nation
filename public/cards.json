@@ -182,5 +182,13 @@
     "author": "stutxi",
     "githubLink": "https://github.com/stutxi",
     "projectPath": "Art/stutxi-animatedEyes"
+  },
+  {
+    "artName": "verticalballsbounceloader",
+    "pageLink": "./Art/surjayankar-verticalballsbounceloader/index.html",
+    "imageLink": "./Art/surjayankar-verticalballsbounceloader/icon.png",
+    "author": "surjayankar",
+    "githubLink": "https://github.com/surjayankar",
+    "projectPath": "Art/surjayankar-verticalballsbounceloader"
   }
 ]
