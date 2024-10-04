@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(#00b4db, #0083b0);
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
