@@ -1,0 +1,138 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(#00b4db, #0083b0);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+@keyframes colorChange {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: green;
+  }
+}
+@keyframes slideUp {
+  0% {
+    translate: 0 0;
+    scale: 100%;
+  }
+  25% {
+    translate: 2vw -2vh;
+    scale: 110%;
+  }
+  75% {
+    translate: -2vw -4vh;
+    scale: 120%;
+  }
+  100% {
+    translate: 0 -5vh;
+    scale: 125%;
+  }
+}
+
+@keyframes slideUp2 {
+  0% {
+    translate: 0 0;
+    scale: 100%;
+  }
+  25% {
+    translate: 2vw -2vh;
+    scale: 110%;
+  }
+  75% {
+    translate: -2vw -4vh;
+    scale: 120%;
+  }
+  100% {
+    translate: 0 -5vh;
+    scale: 125%;
+  }
+}
+@keyframes slideUp3 {
+  0% {
+    translate: 0 0;
+    scale: 100%;
+  }
+  25% {
+    translate: 2vw -2vh;
+    scale: 110%;
+  }
+  75% {
+    translate: -2vw -4vh;
+    scale: 120%;
+  }
+  100% {
+    translate: 0 -5vh;
+    scale: 125%;
+  }
+}
+
+@keyframes squiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.container {
+  width: 100px;
+  height: 110px;
+  background-color: red;
+  border-radius: 50%;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 1px;
+  height: 100px;
+  background-color: black;
+  animation: squiggle 2s infinite;
+  transform-origin: top;
+}
+
+.container:nth-child(1) {
+  animation-name: colorChange, slideUp;
+  animation-delay: 0s;
+}
+.container:nth-child(1)::after {
+  animation-delay: 0.3s;
+}
+
+.container:nth-child(2) {
+  animation-name: colorChange, slideUp2;
+  animation-delay: 1s;
+}
+.container:nth-child(2)::after {
+  animation-delay: 1s;
+}
+.container:nth-child(3) {
+  animation-name: colorChange, slideUp3;
+  animation-delay: 2s;
+}
+.container:nth-child(3)::after {
+  animation-delay: 2.5s;
+}
