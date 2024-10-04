@@ -160,6 +160,14 @@
     "projectPath": "Art/kasunJayasanka-pixelLoading"
   },
   {
+    "artName": "dripping Coffee",
+    "pageLink": "./Art/laurelinep-drippingCoffee/index.html",
+    "imageLink": "./Art/laurelinep-drippingCoffee/icon.png",
+    "author": "laurelinep",
+    "githubLink": "https://github.com/laurelinep",
+    "projectPath": "Art/laurelinep-drippingCoffee"
+  },
+  {
     "artName": "triangle",
     "pageLink": "./Art/mattcsmith-triangle/index.html",
     "imageLink": "./Art/mattcsmith-triangle/icon.png",
