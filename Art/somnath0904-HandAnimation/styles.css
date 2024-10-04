@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: consolas;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background: #111;
+}
+.scan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scan .hand {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: url(hand_02.png);
+  background-size: 500px;
+}
+.scan .hand::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(hand_01.png);
+  background-size: 500px;
+  animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate {
+  0%,
+  100% {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+}
+.scan .hand::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: #3fefef;
+  border-radius: 8px;
+  filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
+  animation: animateLines 4s ease-in-out infinite;
+}
+@keyframes animateLines {
+  0%,
+  100% {
+    top: 0%;
+  }
+  50% {
+    top: 100%;
+  }
+}
+
+.scan h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  color: #3fefef;
+  filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
+  animation: animateText 0.5s steps(1) infinite;
+}
+@keyframes animateText {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.scan .hand .lines {
+  position: absolute;
+  inset: 0;
+}
+.scan .hand .lines::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background: url(lines.png);
+  background-size: 500px;
+  animation: handLines 4s ease-in-out infinite;
+}
+@keyframes handLines {
+  0%,
+  25%,
+  100% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+  }
+}
+.scan .hand .lines::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background: url(points.png);
+  background-size: 500px;
+  animation: handPoints 4s ease-in-out infinite;
+}
+@keyframes handPoints {
+  0%,
+  100% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+  }
+}
