@@ -16,6 +16,22 @@
     "projectPath": "Art/BaraniVA-Typewriter"
   },
   {
+    "artName": "Balloons",
+    "pageLink": "./Art/BrianCheung1-Balloons/index.html",
+    "imageLink": "./Art/BrianCheung1-Balloons/icon.png",
+    "author": "BrianCheung1",
+    "githubLink": "https://github.com/BrianCheung1",
+    "projectPath": "Art/BrianCheung1-Balloons"
+  },
+  {
+    "artName": "Telephone",
+    "pageLink": "./Art/HASH-0021-Telephone/index.html",
+    "imageLink": "./Art/HASH-0021-Telephone/icon.png",
+    "author": "HASH-0021",
+    "githubLink": "https://github.com/HASH-0021",
+    "projectPath": "Art/HASH-0021-Telephone"
+  },
+  {
     "artName": "cat",
     "pageLink": "./Art/JayShukla8-cat/index.html",
     "imageLink": "./Art/JayShukla8-cat/icon.png",
@@ -104,6 +120,14 @@
     "projectPath": "Art/charlomatic-CircleSlider"
   },
   {
+    "artName": "heart_beat_animation",
+    "pageLink": "./Art/harshporwal03-heart_beat_animation/index.html",
+    "imageLink": "./Art/harshporwal03-heart_beat_animation/icon.png",
+    "author": "harshporwal03",
+    "githubLink": "https://github.com/harshporwal03",
+    "projectPath": "Art/harshporwal03-heart_beat_animation"
+  },
+  {
     "artName": "pinball",
     "pageLink": "./Art/hoangnv170752-pinball/index.html",
     "imageLink": "./Art/hoangnv170752-pinball/icon.png",
@@ -144,6 +168,22 @@
     "projectPath": "Art/mattcsmith-triangle"
   },
   {
+    "artName": "Animation",
+    "pageLink": "./Art/nabinkumarshaw-Animation/index.html",
+    "imageLink": "./Art/nabinkumarshaw-Animation/icon.png",
+    "author": "nabinkumarshaw",
+    "githubLink": "https://github.com/nabinkumarshaw",
+    "projectPath": "Art/nabinkumarshaw-Animation"
+  },
+  {
+    "artName": "animation",
+    "pageLink": "./Art/rutubhanderi-sunrise-animation/index.html",
+    "imageLink": "./Art/rutubhanderi-sunrise-animation/icon.png",
+    "author": "rutubhanderi-sunrise",
+    "githubLink": "https://github.com/rutubhanderi-sunrise",
+    "projectPath": "Art/rutubhanderi-sunrise-animation"
+  },
+  {
     "artName": "piramid Sun Set",
     "pageLink": "./Art/samilabud-piramidSunSet/index.html",
     "imageLink": "./Art/samilabud-piramidSunSet/icon.png",
@@ -158,6 +198,30 @@
     "author": "smitthakore",
     "githubLink": "https://github.com/smitthakore",
     "projectPath": "Art/smitthakore-oreo"
+  },
+  {
+    "artName": "Animated Page",
+    "pageLink": "./Art/somnath0904-AnimatedPage/index.html",
+    "imageLink": "./Art/somnath0904-AnimatedPage/icon.png",
+    "author": "somnath0904",
+    "githubLink": "https://github.com/somnath0904",
+    "projectPath": "Art/somnath0904-AnimatedPage"
+  },
+  {
+    "artName": "Hand Animation",
+    "pageLink": "./Art/somnath0904-HandAnimation/index.html",
+    "imageLink": "./Art/somnath0904-HandAnimation/icon.png",
+    "author": "somnath0904",
+    "githubLink": "https://github.com/somnath0904",
+    "projectPath": "Art/somnath0904-HandAnimation"
+  },
+  {
+    "artName": "Login Page",
+    "pageLink": "./Art/somnath0904-LoginPage/index.html",
+    "imageLink": "./Art/somnath0904-LoginPage/icon.png",
+    "author": "somnath0904",
+    "githubLink": "https://github.com/somnath0904",
+    "projectPath": "Art/somnath0904-LoginPage"
   },
   {
     "artName": "helicopter Animation",
