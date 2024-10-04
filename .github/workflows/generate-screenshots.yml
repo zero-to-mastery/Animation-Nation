@@ -1,15 +1,14 @@
 name: Generate Screenshots
 
+# Running this workflow concurrently with Generate Includes
+# introduces race conditions and usuaully results in a failed
+# workflow run. To avoid this, this workflow is triggered
+# only when the Generate Includes workflow is successful.
 on:
-  pull_request:
-    branches:
-      - master
-    types:
-      - closed
+  workflow_call:
 
 jobs:
   screenshots:
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -36,9 +35,6 @@ jobs:
           # Configure git
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-
-          # Check for changes
-          git pull
 
           # Add changes
           git add Art/**/icon.png

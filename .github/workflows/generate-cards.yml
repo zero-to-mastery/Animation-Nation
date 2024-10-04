@@ -8,6 +8,7 @@ on:
       - closed
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  SKIP_SCREENSHOTS: false
 
 jobs:
   generateIncludes:
@@ -34,8 +35,13 @@ jobs:
         run: |
           if git diff --quiet public/cards.json; then
             echo "No changes to commit"
+            echo SKIP_SCREENSHOTS=true >> $GITHUB_ENV
           else
             git add public/cards.json
             git commit -m "(CI) cards.json Generation"
             git push
           fi
+
+      - name: Call Generate Screenshots
+        if: env.SKIP_SCREENSHOTS != 'true'
+        uses: ./.github/workflows/generate-screenshots.yml
