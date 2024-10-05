@@ -12,4 +12,6 @@ jobs:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/workflows/post-merge.yml
+      - uses: actions/checkout@v4
+      - name: Call post merge jobs
+        uses: ./.github/workflows/post-merge.yml
