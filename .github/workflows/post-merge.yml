@@ -1,11 +1,7 @@
 name: Post Merge
 
 on:
-  pull_request:
-    types:
-      - closed
-    branches:
-      - master
+  workflow_call:
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -13,7 +9,6 @@ env:
 
 jobs:
   post-merge:
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       contents: write
