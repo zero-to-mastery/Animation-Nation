@@ -1,0 +1,15 @@
+name: Trigger Post Merge Jobs
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [master]
+
+jobs:
+  kickoff-post-merge:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Post Merge Jobs
+        uses: ./.github/workflows/update-cards.yml
