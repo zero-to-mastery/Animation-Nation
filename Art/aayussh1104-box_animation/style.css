@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: moveAndChangeColor 3s infinite alternate;
+}
+
+@keyframes moveAndChangeColor {
+    0% {
+        transform: translateX(0);
+        background-color: red;
+    }
+    50% {
+        transform: translateX(200px);
+        background-color: blue;
+    }
+    100% {
+        transform: translateX(0);
+        background-color: green;
+    }
+}
