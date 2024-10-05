@@ -2,10 +2,5 @@
   "name": "AnimationNation2024",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "prettier": "^2.8.8",
-    "puppeteer": "^23.5.0",
-    "sharp": "^0.33.5"
-  }
+  "license": "MIT"
 }

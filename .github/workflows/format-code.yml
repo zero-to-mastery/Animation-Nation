@@ -1,0 +1,43 @@
+name: Format Code
+on: push
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Pull Repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Install Prettier
+        env:
+          PRETTIER_VERSION: 2
+        run: |
+          sudo npm i -g prettier@$PRETTIER_VERSION
+
+      - name: Format
+        run: |
+          # don't format if there's no .prettierrc file
+          if [ ! -f .prettierrc ]; then
+            echo ".prettierrc not found"
+            echo "terminating workflow..."
+            exit 1;
+          fi
+
+          prettier . --ignore-unknown --write
+
+      # Configure Git
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      # Add, commit, and push changes
+      - name: Commit and push cards.json
+        run: |
+          git add public/cards.json
+          git commit -m "(CI) Format Code" || echo "No changes to commit"
+          git push
