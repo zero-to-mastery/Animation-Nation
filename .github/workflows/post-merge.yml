@@ -1,0 +1,78 @@
+name: Post Merge
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - master
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  SKIP_REST: false
+
+jobs:
+  post-merge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    # running two copies of this job at once can create race conditions
+    # and will usually cause the most recent workflow to fail. It is
+    # preferable to always have the most up to date workflow succeed
+    # so we cancel this job whenever a newer one is started.
+    concurrency:
+      group: post-merge
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install job dependencies
+        run: npm install
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Generate cards.json
+        run: node generators/generateCards.js
+
+      - name: Check for cards changes
+        run: |
+          if git diff --quiet public/cards.json; then
+            echo "No changes to commit"
+            echo "SKIP_REST=true" >> $GITHUB_ENV
+          else
+            git add public/cards.json
+            git commit -m "(CI) cards.json Generation"
+          fi
+
+      - name: Format cards
+        if: env.SKIP_REST != 'true'
+        run: |
+          if [ ! -f .prettierrc ]; then
+            echo ".prettierrc not found"
+            echo "terminating workflow..."
+            exit 1;
+          fi
+
+          npx prettier public/cards.json --write
+
+          git add public/cards.json
+          git commit -m "(CI) Format cards" || echo "No changes to commit"
+
+      - name: Generate screenshots
+        if: env.SKIP_REST != 'true'
+        run: |
+          node generators/generateScreenshot.js
+          git add Art/**/icon.png
+          git commit -m "(CI) Screenshot Generation" || echo "No changes to commit"
+
+      - name: Push changes
+        if: env.SKIP_REST != 'true'
+        run: git push origin master
