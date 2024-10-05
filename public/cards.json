@@ -1,5 +1,13 @@
 [
   {
+    "artName": "wave Animation",
+    "pageLink": "./Art/AAbhijithA-waveAnimation/index.html",
+    "imageLink": "./Art/AAbhijithA-waveAnimation/icon.png",
+    "author": "AAbhijithA",
+    "githubLink": "https://github.com/AAbhijithA",
+    "projectPath": "Art/AAbhijithA-waveAnimation"
+  },
+  {
     "artName": "rotating Ball",
     "pageLink": "./Art/Argwingskodhek-rotatingBall/index.html",
     "imageLink": "./Art/Argwingskodhek-rotatingBall/icon.png",
@@ -96,6 +104,14 @@
     "projectPath": "Art/SumitDutta007-bubbles"
   },
   {
+    "artName": "scroll",
+    "pageLink": "./Art/SumitDutta007-scroll/index.html",
+    "imageLink": "./Art/SumitDutta007-scroll/icon.png",
+    "author": "SumitDutta007",
+    "githubLink": "https://github.com/SumitDutta007",
+    "projectPath": "Art/SumitDutta007-scroll"
+  },
+  {
     "artName": "Front Page",
     "pageLink": "./Art/Tushar-0202-Shaw-FrontPage/index.html",
     "imageLink": "./Art/Tushar-0202-Shaw-FrontPage/icon.png",
@@ -168,6 +184,14 @@
     "projectPath": "Art/kasunJayasanka-pixelLoading"
   },
   {
+    "artName": "changer",
+    "pageLink": "./Art/kishan-25-animated-backgroundcolor-changer/index.html",
+    "imageLink": "./Art/kishan-25-animated-backgroundcolor-changer/icon.png",
+    "author": "kishan-25-animated-backgroundcolor",
+    "githubLink": "https://github.com/kishan-25-animated-backgroundcolor",
+    "projectPath": "Art/kishan-25-animated-backgroundcolor-changer"
+  },
+  {
     "artName": "dripping Coffee",
     "pageLink": "./Art/laurelinep-drippingCoffee/index.html",
     "imageLink": "./Art/laurelinep-drippingCoffee/icon.png",
@@ -200,6 +224,22 @@
     "projectPath": "Art/nabinkumarshaw-animatedgeometry"
   },
   {
+    "artName": "rotating cube",
+    "pageLink": "./Art/nabinkumarshaw-rotating_cube/index.html",
+    "imageLink": "./Art/nabinkumarshaw-rotating_cube/icon.png",
+    "author": "nabinkumarshaw",
+    "githubLink": "https://github.com/nabinkumarshaw",
+    "projectPath": "Art/nabinkumarshaw-rotating_cube"
+  },
+  {
+    "artName": "happyhacktoberfest",
+    "pageLink": "./Art/pleomorph-happyhacktoberfest/index.html",
+    "imageLink": "./Art/pleomorph-happyhacktoberfest/icon.png",
+    "author": "pleomorph",
+    "githubLink": "https://github.com/pleomorph",
+    "projectPath": "Art/pleomorph-happyhacktoberfest"
+  },
+  {
     "artName": "animation",
     "pageLink": "./Art/rutubhanderi-sunrise-animation/index.html",
     "imageLink": "./Art/rutubhanderi-sunrise-animation/icon.png",
@@ -214,6 +254,14 @@
     "author": "samilabud",
     "githubLink": "https://github.com/samilabud",
     "projectPath": "Art/samilabud-piramidSunSet"
+  },
+  {
+    "artName": "twilight voyage",
+    "pageLink": "./Art/shuaixr-twilight_voyage/index.html",
+    "imageLink": "./Art/shuaixr-twilight_voyage/icon.png",
+    "author": "shuaixr",
+    "githubLink": "https://github.com/shuaixr",
+    "projectPath": "Art/shuaixr-twilight_voyage"
   },
   {
     "artName": "oreo",
@@ -246,6 +294,14 @@
     "author": "somnath0904",
     "githubLink": "https://github.com/somnath0904",
     "projectPath": "Art/somnath0904-LoginPage"
+  },
+  {
+    "artName": "Orbitting Circles",
+    "pageLink": "./Art/somnath0904-OrbittingCircles/index.html",
+    "imageLink": "./Art/somnath0904-OrbittingCircles/icon.png",
+    "author": "somnath0904",
+    "githubLink": "https://github.com/somnath0904",
+    "projectPath": "Art/somnath0904-OrbittingCircles"
   },
   {
     "artName": "helicopter Animation",
