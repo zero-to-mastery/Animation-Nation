@@ -1,0 +1,47 @@
+.cir1{
+  display:inline-block;
+  position:relative;
+  top:100px;
+  left:100px;
+  height:200px;
+  width:200px;
+  background-color: yellow;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  
+}
+.cir2{
+  display:inline-block;
+  position:absolute;
+  height:100px;
+  width:100px;
+  left:-15px;
+  top:-15px;
+  background-color: black;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.cir3{
+  display:inline-block;
+  position:absolute;
+  height:50px;
+  width:50px;
+  left:-10.5px;
+  top:-10.5px;
+  background-color: brown;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes rotate{
+  from{transform: rotate(0);}
+  to{transform: rotate(360deg);}
+}
