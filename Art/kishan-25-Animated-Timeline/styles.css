@@ -106,7 +106,7 @@
     100% {
       transform: translateX(0);
       opacity: 1;
-    }
+    } 
   }
   
   /* Clearfix for floating timeline items */
