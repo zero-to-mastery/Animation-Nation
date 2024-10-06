@@ -184,6 +184,14 @@
     "projectPath": "Art/kasunJayasanka-pixelLoading"
   },
   {
+    "artName": "Timeline",
+    "pageLink": "./Art/kishan-25-Animated-Timeline/index.html",
+    "imageLink": "./Art/kishan-25-Animated-Timeline/icon.png",
+    "author": "kishan-25-Animated",
+    "githubLink": "https://github.com/kishan-25-Animated",
+    "projectPath": "Art/kishan-25-Animated-Timeline"
+  },
+  {
     "artName": "Animation",
     "pageLink": "./Art/kishan-25-Dino-Loading-Animation/index.html",
     "imageLink": "./Art/kishan-25-Dino-Loading-Animation/icon.png",
