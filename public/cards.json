@@ -184,6 +184,14 @@
     "projectPath": "Art/kasunJayasanka-pixelLoading"
   },
   {
+    "artName": "Animation",
+    "pageLink": "./Art/kishan-25-Dino-Loading-Animation/index.html",
+    "imageLink": "./Art/kishan-25-Dino-Loading-Animation/icon.png",
+    "author": "kishan-25-Dino-Loading",
+    "githubLink": "https://github.com/kishan-25-Dino-Loading",
+    "projectPath": "Art/kishan-25-Dino-Loading-Animation"
+  },
+  {
     "artName": "changer",
     "pageLink": "./Art/kishan-25-animated-backgroundcolor-changer/index.html",
     "imageLink": "./Art/kishan-25-animated-backgroundcolor-changer/icon.png",
