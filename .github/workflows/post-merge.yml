@@ -50,7 +50,6 @@ jobs:
             git commit -m "(CI) cards.json Generation"
           fi
       - name: Format cards
-        if: env.SKIP_REST != 'true'
         run: |
           if [ ! -f .prettierrc ]; then
             echo ".prettierrc not found"
@@ -61,11 +60,9 @@ jobs:
           git add public/cards.json
           git commit -m "(CI) Format cards" || echo "No changes to commit"
       - name: Generate screenshots
-        if: env.SKIP_REST != 'true'
         run: |
           node generators/generateScreenshot.js
           git add Art/**/icon.png
           git commit -m "(CI) Screenshot Generation" || echo "No changes to commit"
       - name: Push changes
-        if: env.SKIP_REST != 'true'
         run: git push origin master
