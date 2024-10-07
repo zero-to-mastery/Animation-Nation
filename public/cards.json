@@ -168,6 +168,14 @@
     "projectPath": "Art/harshporwal03-heart_beat_animation"
   },
   {
+    "artName": "loading",
+    "pageLink": "./Art/hoangnv170752-loading/index.html",
+    "imageLink": "./Art/hoangnv170752-loading/icon.png",
+    "author": "hoangnv170752",
+    "githubLink": "https://github.com/hoangnv170752",
+    "projectPath": "Art/hoangnv170752-loading"
+  },
+  {
     "artName": "pinball",
     "pageLink": "./Art/hoangnv170752-pinball/index.html",
     "imageLink": "./Art/hoangnv170752-pinball/icon.png",
