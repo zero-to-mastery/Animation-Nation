@@ -80,6 +80,14 @@
     "projectPath": "Art/Kisalaykisu-ztmLogoAnimation"
   },
   {
+    "artName": "loader",
+    "pageLink": "./Art/Nishankulal03-loader/index.html",
+    "imageLink": "./Art/Nishankulal03-loader/icon.png",
+    "author": "Nishankulal03",
+    "githubLink": "https://github.com/Nishankulal03",
+    "projectPath": "Art/Nishankulal03-loader"
+  },
+  {
     "artName": "Pumpkin",
     "pageLink": "./Art/Pauljd1-Pumpkin/index.html",
     "imageLink": "./Art/Pauljd1-Pumpkin/icon.png",
