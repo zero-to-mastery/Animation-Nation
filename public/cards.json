@@ -8,6 +8,14 @@
     "projectPath": "Art/AAbhijithA-waveAnimation"
   },
   {
+    "artName": "loader",
+    "pageLink": "./Art/AlexanderSanin-spinning-loader/index.html",
+    "imageLink": "./Art/AlexanderSanin-spinning-loader/icon.png",
+    "author": "AlexanderSanin-spinning",
+    "githubLink": "https://github.com/AlexanderSanin-spinning",
+    "projectPath": "Art/AlexanderSanin-spinning-loader"
+  },
+  {
     "artName": "rotating Ball",
     "pageLink": "./Art/Argwingskodhek-rotatingBall/index.html",
     "imageLink": "./Art/Argwingskodhek-rotatingBall/icon.png",
