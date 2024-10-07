@@ -160,6 +160,14 @@
     "projectPath": "Art/charlomatic-CircleSlider"
   },
   {
+    "artName": "scaryface",
+    "pageLink": "./Art/fullspeccoder-scaryface/index.html",
+    "imageLink": "./Art/fullspeccoder-scaryface/icon.png",
+    "author": "fullspeccoder",
+    "githubLink": "https://github.com/fullspeccoder",
+    "projectPath": "Art/fullspeccoder-scaryface"
+  },
+  {
     "artName": "heart beat animation",
     "pageLink": "./Art/harshporwal03-heart_beat_animation/index.html",
     "imageLink": "./Art/harshporwal03-heart_beat_animation/icon.png",
