@@ -24,6 +24,14 @@
     "projectPath": "Art/Argwingskodhek-rotatingBall"
   },
   {
+    "artName": "animated Button",
+    "pageLink": "./Art/Astro-Dude-animatedButton/index.html",
+    "imageLink": "./Art/Astro-Dude-animatedButton/icon.png",
+    "author": "Astro-Dude",
+    "githubLink": "https://github.com/Astro-Dude",
+    "projectPath": "Art/Astro-Dude-animatedButton"
+  },
+  {
     "artName": "Typewriter",
     "pageLink": "./Art/BaraniVA-Typewriter/index.html",
     "imageLink": "./Art/BaraniVA-Typewriter/icon.png",
