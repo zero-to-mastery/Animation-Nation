@@ -48,6 +48,22 @@
     "projectPath": "Art/BrianCheung1-Balloons"
   },
   {
+    "artName": "Omnitrix",
+    "pageLink": "./Art/Debajyati-Omnitrix/index.html",
+    "imageLink": "./Art/Debajyati-Omnitrix/icon.png",
+    "author": "Debajyati",
+    "githubLink": "https://github.com/Debajyati",
+    "projectPath": "Art/Debajyati-Omnitrix"
+  },
+  {
+    "artName": "sunmoon",
+    "pageLink": "./Art/Debajyati-sunmoon/index.html",
+    "imageLink": "./Art/Debajyati-sunmoon/icon.png",
+    "author": "Debajyati",
+    "githubLink": "https://github.com/Debajyati",
+    "projectPath": "Art/Debajyati-sunmoon"
+  },
+  {
     "artName": "Telephone",
     "pageLink": "./Art/HASH-0021-Telephone/index.html",
     "imageLink": "./Art/HASH-0021-Telephone/icon.png",
