@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Rotating Cube Animation with Subtle Colors</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+            perspective: 800px;
+        }
+
+        .scene {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            transform-style: preserve-3d;
+            animation: rotate 5s infinite linear;
+        }
+
+        .cube {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.8);
+            border: 2px solid #b0c4de; /* Light Steel Blue */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .face1 { transform: rotateY(0deg) translateZ(100px); background-color: #d1e7dd; } /* Light Green */
+        .face2 { transform: rotateY(90deg) translateZ(100px); background-color: #f8d7da; } /* Light Red */
+        .face3 { transform: rotateY(180deg) translateZ(100px); background-color: #d1ecf1; } /* Light Blue */
+        .face4 { transform: rotateY(-90deg) translateZ(100px); background-color: #fff3cd; } /* Light Yellow */
+        .face5 { transform: rotateX(90deg) translateZ(100px); background-color: #e2e3e5; } /* Light Gray */
+        .face6 { transform: rotateX(-90deg) translateZ(100px); background-color: #f5f5f5; } /* Very Light Gray */
+
+        @keyframes rotate {
+            0% { transform: rotateX(0) rotateY(0); }
+            100% { transform: rotateX(360deg) rotateY(360deg); }
+        }
+
+        @media (min-width: 768px) {
+            .scene {
+                width: 300px;
+                height: 300px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .scene {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="scene">
+        <div class="cube face1"></div>
+        <div class="cube face2"></div>
+        <div class="cube face3"></div>
+        <div class="cube face4"></div>
+        <div class="cube face5"></div>
+        <div class="cube face6"></div>
+    </div>
+</body>
+</html>
