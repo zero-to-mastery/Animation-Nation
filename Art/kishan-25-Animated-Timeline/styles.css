@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .timeline-container {
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .timeline {
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .timeline-item {
+    position: relative;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  .timeline-item.left {
+    left: 0;
+    float: left;
+    clear: left;
+    animation: slideInFromLeft 1s forwards;
+  }
+  
+  .timeline-item.right {
+    right: 0;
+    float: right;
+    clear: right;
+    animation: slideInFromRight 1s forwards;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 15px;
+    height: 15px;
+    background-color: #3498db;
+    border-radius: 50%;
+  }
+  
+  .timeline-item.left::before {
+    left: -30px;
+  }
+  
+  .timeline-item.right::before {
+    right: -30px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    } 
+  }
+  
+  /* Clearfix for floating timeline items */
+  .timeline::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

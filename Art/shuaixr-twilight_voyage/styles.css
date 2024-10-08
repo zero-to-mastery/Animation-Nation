@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+  background: linear-gradient(to bottom, #ff7e00, #ff1500);
+  animation: sky-color 10s infinite alternate;
+}
+.sea {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(to bottom, #0077be, #00305a);
+  animation: sea-waves 5s ease-in-out infinite;
+}
+.boat {
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+  width: 100px;
+  height: 100px;
+  animation: boat-movement 15s ease-in-out infinite;
+}
+.hull {
+  position: absolute;
+  bottom: 0;
+  width: 80px;
+  height: 20px;
+  background-color: #8b4513;
+  border-radius: 0 0 40% 40%;
+}
+.sail {
+  position: absolute;
+  bottom: 20px;
+  left: 35px;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-bottom: 80px solid #fff;
+}
+.sun {
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  width: 60px;
+  height: 60px;
+  background-color: #ffff00;
+  border-radius: 50%;
+  animation: sun-glow 5s infinite alternate;
+}
+@keyframes sea-waves {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+@keyframes boat-movement {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(10px, -5px) rotate(2deg);
+  }
+  50% {
+    transform: translate(20px, 0) rotate(0deg);
+  }
+  75% {
+    transform: translate(10px, 5px) rotate(-2deg);
+  }
+}
+@keyframes sun-glow {
+  0% {
+    box-shadow: 0 0 20px #ffff00;
+  }
+  100% {
+    box-shadow: 0 0 40px #ffff00;
+  }
+}
