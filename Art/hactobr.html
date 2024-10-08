@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendulum Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to bottom, #87CEEB, #f0f0f0);
+        }
+        canvas {
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="pendulumCanvas" width="600" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('pendulumCanvas');
+        const ctx = canvas.getContext('2d');
+
+        const originX = canvas.width / 2;
+        const originY = 50;
+        const length = 200;
+        let angle = Math.PI / 4;
+        let angleVelocity = 0;
+        let angleAcceleration = 0;
+        const gravity = 0.4;
+
+        function drawPendulum() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const bobX = originX + length * Math.sin(angle);
+            const bobY = originY + length * Math.cos(angle);
+
+            ctx.beginPath();
+            ctx.moveTo(originX, originY);
+            ctx.lineTo(bobX, bobY);
+            ctx.strokeStyle = '#000';
+            ctx.lineWidth = 2;
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.arc(bobX, bobY, 20, 0, Math.PI * 2);
+            ctx.fillStyle = '#000';
+            ctx.shadowColor = 'rgba(0, 0, 0, 0.5)';
+            ctx.shadowBlur = 10;
+            ctx.shadowOffsetX = 5;
+            ctx.shadowOffsetY = 5;
+            ctx.fill();
+            ctx.shadowColor = 'transparent'; // Reset shadow
+        }
+
+        function updatePendulum() {
+            angleAcceleration = (-1 * gravity / length) * Math.sin(angle);
+            angleVelocity += angleAcceleration;
+            angle += angleVelocity;
+
+            angleVelocity *= 0.999; 
+        }
+
+        function animate() {
+            updatePendulum();
+            drawPendulum();
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+</body>
