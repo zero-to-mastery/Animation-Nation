@@ -136,6 +136,14 @@
     "projectPath": "Art/SumitDutta007-scroll"
   },
   {
+    "artName": "animation",
+    "pageLink": "./Art/THE-ASHUTOSH-button-animation/index.html",
+    "imageLink": "./Art/THE-ASHUTOSH-button-animation/icon.png",
+    "author": "THE-ASHUTOSH-button",
+    "githubLink": "https://github.com/THE-ASHUTOSH-button",
+    "projectPath": "Art/THE-ASHUTOSH-button-animation"
+  },
+  {
     "artName": "Front Page",
     "pageLink": "./Art/Tushar-0202-Shaw-FrontPage/index.html",
     "imageLink": "./Art/Tushar-0202-Shaw-FrontPage/icon.png",
