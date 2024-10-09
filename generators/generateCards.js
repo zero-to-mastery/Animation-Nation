@@ -20,6 +20,11 @@ function generateIncludes() {
     let projectName = dir.substring(lastHyphenIndex + 1); // Everything after the last hyphen
     projectName = projectName.replace(/([A-Z])/g, ' $1').trim(); // Handles camel case project name
 
+    // Handles underscores case in project name
+    if( projectName.includes('_') ){
+      projectName = projectName.replace(/(_)/g, ' ').trim();
+    }
+
     const projectUrl = `./Art/${dir}/index.html`;
     const projectImage = `./Art/${dir}/icon.png`;
 
