@@ -144,6 +144,14 @@
     "projectPath": "Art/SagarVerma893-orbitalMotion"
   },
   {
+    "artName": "pendulum",
+    "pageLink": "./Art/SammyUrfen-pendulum/index.html",
+    "imageLink": "./Art/SammyUrfen-pendulum/icon.png",
+    "author": "SammyUrfen",
+    "githubLink": "https://github.com/SammyUrfen",
+    "projectPath": "Art/SammyUrfen-pendulum"
+  },
+  {
     "artName": "bubbles",
     "pageLink": "./Art/SumitDutta007-bubbles/index.html",
     "imageLink": "./Art/SumitDutta007-bubbles/icon.png",
