@@ -24,6 +24,14 @@
     "projectPath": "Art/Argwingskodhek-rotatingBall"
   },
   {
+    "artName": "animated Button",
+    "pageLink": "./Art/Astro-Dude-animatedButton/index.html",
+    "imageLink": "./Art/Astro-Dude-animatedButton/icon.png",
+    "author": "Astro-Dude",
+    "githubLink": "https://github.com/Astro-Dude",
+    "projectPath": "Art/Astro-Dude-animatedButton"
+  },
+  {
     "artName": "Typewriter",
     "pageLink": "./Art/BaraniVA-Typewriter/index.html",
     "imageLink": "./Art/BaraniVA-Typewriter/icon.png",
@@ -40,6 +48,22 @@
     "projectPath": "Art/BrianCheung1-Balloons"
   },
   {
+    "artName": "Omnitrix",
+    "pageLink": "./Art/Debajyati-Omnitrix/index.html",
+    "imageLink": "./Art/Debajyati-Omnitrix/icon.png",
+    "author": "Debajyati",
+    "githubLink": "https://github.com/Debajyati",
+    "projectPath": "Art/Debajyati-Omnitrix"
+  },
+  {
+    "artName": "sunmoon",
+    "pageLink": "./Art/Debajyati-sunmoon/index.html",
+    "imageLink": "./Art/Debajyati-sunmoon/icon.png",
+    "author": "Debajyati",
+    "githubLink": "https://github.com/Debajyati",
+    "projectPath": "Art/Debajyati-sunmoon"
+  },
+  {
     "artName": "Telephone",
     "pageLink": "./Art/HASH-0021-Telephone/index.html",
     "imageLink": "./Art/HASH-0021-Telephone/icon.png",
@@ -54,6 +78,22 @@
     "author": "JayShukla8",
     "githubLink": "https://github.com/JayShukla8",
     "projectPath": "Art/JayShukla8-cat"
+  },
+  {
+    "artName": "Dance",
+    "pageLink": "./Art/Kaif-Azmi-Celestial-Dance/index.html",
+    "imageLink": "./Art/Kaif-Azmi-Celestial-Dance/icon.png",
+    "author": "Kaif-Azmi-Celestial",
+    "githubLink": "https://github.com/Kaif-Azmi-Celestial",
+    "projectPath": "Art/Kaif-Azmi-Celestial-Dance"
+  },
+  {
+    "artName": "Animation",
+    "pageLink": "./Art/Kaif-Azmi-Hacktoberfest-Animation/index.html",
+    "imageLink": "./Art/Kaif-Azmi-Hacktoberfest-Animation/icon.png",
+    "author": "Kaif-Azmi-Hacktoberfest",
+    "githubLink": "https://github.com/Kaif-Azmi-Hacktoberfest",
+    "projectPath": "Art/Kaif-Azmi-Hacktoberfest-Animation"
   },
   {
     "artName": "cube Animation",
@@ -120,6 +160,14 @@
     "projectPath": "Art/SagarVerma893-orbitalMotion"
   },
   {
+    "artName": "pendulum",
+    "pageLink": "./Art/SammyUrfen-pendulum/index.html",
+    "imageLink": "./Art/SammyUrfen-pendulum/icon.png",
+    "author": "SammyUrfen",
+    "githubLink": "https://github.com/SammyUrfen",
+    "projectPath": "Art/SammyUrfen-pendulum"
+  },
+  {
     "artName": "bubbles",
     "pageLink": "./Art/SumitDutta007-bubbles/index.html",
     "imageLink": "./Art/SumitDutta007-bubbles/icon.png",
@@ -168,6 +216,14 @@
     "projectPath": "Art/aayu5hgit-LoaderAnimation"
   },
   {
+    "artName": "profilecard",
+    "pageLink": "./Art/alienx5499-profilecard/index.html",
+    "imageLink": "./Art/alienx5499-profilecard/icon.png",
+    "author": "alienx5499",
+    "githubLink": "https://github.com/alienx5499",
+    "projectPath": "Art/alienx5499-profilecard"
+  },
+  {
     "artName": "loading Dino",
     "pageLink": "./Art/bandhan-majumder-loadingDino/index.html",
     "imageLink": "./Art/bandhan-majumder-loadingDino/icon.png",
@@ -198,6 +254,14 @@
     "author": "fullspeccoder",
     "githubLink": "https://github.com/fullspeccoder",
     "projectPath": "Art/fullspeccoder-scaryface"
+  },
+  {
+    "artName": "verticalballsbounce",
+    "pageLink": "./Art/hanisntsolo-verticalballsbounce/index.html",
+    "imageLink": "./Art/hanisntsolo-verticalballsbounce/icon.png",
+    "author": "hanisntsolo",
+    "githubLink": "https://github.com/hanisntsolo",
+    "projectPath": "Art/hanisntsolo-verticalballsbounce"
   },
   {
     "artName": "heart beat animation",
