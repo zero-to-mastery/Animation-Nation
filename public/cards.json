@@ -208,6 +208,14 @@
     "projectPath": "Art/aayu5hgit-LoaderAnimation"
   },
   {
+    "artName": "profilecard",
+    "pageLink": "./Art/alienx5499-profilecard/index.html",
+    "imageLink": "./Art/alienx5499-profilecard/icon.png",
+    "author": "alienx5499",
+    "githubLink": "https://github.com/alienx5499",
+    "projectPath": "Art/alienx5499-profilecard"
+  },
+  {
     "artName": "loading Dino",
     "pageLink": "./Art/bandhan-majumder-loadingDino/index.html",
     "imageLink": "./Art/bandhan-majumder-loadingDino/icon.png",
