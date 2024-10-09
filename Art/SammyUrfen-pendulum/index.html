@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="btn-box">
+        <button class="btn">Click!</button>
+    </div>
     <div class="box">
         <div class="support">
             <div class="fix">
@@ -18,19 +21,5 @@
             </div>
         </div>
     </div>
-    <div class="btn-box">
-        <button class="btn">Click!</button>
-    </div>
 </body>
-<script>
-    document.querySelector('.btn').addEventListener('click', function() {
-        // Select the box element
-        const box = document.querySelector('.box');
-        const btn = document.querySelector('.btn');
-  
-        // Toggle the 'active' class
-        btn.classList.toggle('active');
-        box.classList.toggle('active');
-    });
-</script>
 </html>
