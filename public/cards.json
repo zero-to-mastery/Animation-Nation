@@ -80,6 +80,14 @@
     "projectPath": "Art/JayShukla8-cat"
   },
   {
+    "artName": "Dance",
+    "pageLink": "./Art/Kaif-Azmi-Celestial-Dance/index.html",
+    "imageLink": "./Art/Kaif-Azmi-Celestial-Dance/icon.png",
+    "author": "Kaif-Azmi-Celestial",
+    "githubLink": "https://github.com/Kaif-Azmi-Celestial",
+    "projectPath": "Art/Kaif-Azmi-Celestial-Dance"
+  },
+  {
     "artName": "cube Animation",
     "pageLink": "./Art/Kisalaykisu-cubeAnimation/index.html",
     "imageLink": "./Art/Kisalaykisu-cubeAnimation/icon.png",
