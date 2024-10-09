@@ -88,6 +88,14 @@
     "projectPath": "Art/Kaif-Azmi-Celestial-Dance"
   },
   {
+    "artName": "Animation",
+    "pageLink": "./Art/Kaif-Azmi-Hacktoberfest-Animation/index.html",
+    "imageLink": "./Art/Kaif-Azmi-Hacktoberfest-Animation/icon.png",
+    "author": "Kaif-Azmi-Hacktoberfest",
+    "githubLink": "https://github.com/Kaif-Azmi-Hacktoberfest",
+    "projectPath": "Art/Kaif-Azmi-Hacktoberfest-Animation"
+  },
+  {
     "artName": "cube Animation",
     "pageLink": "./Art/Kisalaykisu-cubeAnimation/index.html",
     "imageLink": "./Art/Kisalaykisu-cubeAnimation/icon.png",
