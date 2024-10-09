@@ -80,6 +80,14 @@
     "projectPath": "Art/JayShukla8-cat"
   },
   {
+    "artName": "Dance",
+    "pageLink": "./Art/Kaif-Azmi-Celestial-Dance/index.html",
+    "imageLink": "./Art/Kaif-Azmi-Celestial-Dance/icon.png",
+    "author": "Kaif-Azmi-Celestial",
+    "githubLink": "https://github.com/Kaif-Azmi-Celestial",
+    "projectPath": "Art/Kaif-Azmi-Celestial-Dance"
+  },
+  {
     "artName": "cube Animation",
     "pageLink": "./Art/Kisalaykisu-cubeAnimation/index.html",
     "imageLink": "./Art/Kisalaykisu-cubeAnimation/icon.png",
@@ -142,6 +150,14 @@
     "author": "SagarVerma893",
     "githubLink": "https://github.com/SagarVerma893",
     "projectPath": "Art/SagarVerma893-orbitalMotion"
+  },
+  {
+    "artName": "pendulum",
+    "pageLink": "./Art/SammyUrfen-pendulum/index.html",
+    "imageLink": "./Art/SammyUrfen-pendulum/icon.png",
+    "author": "SammyUrfen",
+    "githubLink": "https://github.com/SammyUrfen",
+    "projectPath": "Art/SammyUrfen-pendulum"
   },
   {
     "artName": "bubbles",
