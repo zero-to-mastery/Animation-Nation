@@ -14,3 +14,21 @@ body {
     justify-content: flex-end;
     background-color: skyblue;
   }
+  .flower {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: hotpink;
+  }
+  .center {
+    width: 25%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: yellow;
+  }
+  .stem {
+    width: 30px;
+    background-color: green;
+  }
