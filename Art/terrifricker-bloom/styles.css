@@ -32,3 +32,19 @@ body {
     width: 30px;
     background-color: green;
   }
+
+  /* Amimation Instructions */
+  .flower, .center, .stem {
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  .flower {
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-name: bloom;
+  }
+  .stem {
+    animation-delay: 0.25s;
+    animation-duration: 2.75s;
+    animation-name: grow;
+  }
