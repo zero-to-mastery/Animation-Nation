@@ -48,3 +48,19 @@ body {
     animation-duration: 2.75s;
     animation-name: grow;
   }
+  @keyframes bloom {
+    from {
+      width: 0;
+    }
+    to {
+      width: 200px;
+    }
+  }
+  @keyframes grow {
+    from {
+      height: 0;
+    }
+    to {
+      height: 40%;
+    }
+  }
