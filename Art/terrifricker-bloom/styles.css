@@ -45,7 +45,7 @@ body {
   }
   .stem {
     animation-delay: 0.25s;
-    animation-duration: 2.75s;
+    animation-duration: 3.75s;
     animation-name: grow;
   }
   @keyframes bloom {
