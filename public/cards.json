@@ -80,6 +80,14 @@
     "projectPath": "Art/JayShukla8-cat"
   },
   {
+    "artName": "Dance",
+    "pageLink": "./Art/Kaif-Azmi-Celestial-Dance/index.html",
+    "imageLink": "./Art/Kaif-Azmi-Celestial-Dance/icon.png",
+    "author": "Kaif-Azmi-Celestial",
+    "githubLink": "https://github.com/Kaif-Azmi-Celestial",
+    "projectPath": "Art/Kaif-Azmi-Celestial-Dance"
+  },
+  {
     "artName": "cube Animation",
     "pageLink": "./Art/Kisalaykisu-cubeAnimation/index.html",
     "imageLink": "./Art/Kisalaykisu-cubeAnimation/icon.png",
@@ -144,6 +152,14 @@
     "projectPath": "Art/SagarVerma893-orbitalMotion"
   },
   {
+    "artName": "pendulum",
+    "pageLink": "./Art/SammyUrfen-pendulum/index.html",
+    "imageLink": "./Art/SammyUrfen-pendulum/icon.png",
+    "author": "SammyUrfen",
+    "githubLink": "https://github.com/SammyUrfen",
+    "projectPath": "Art/SammyUrfen-pendulum"
+  },
+  {
     "artName": "bubbles",
     "pageLink": "./Art/SumitDutta007-bubbles/index.html",
     "imageLink": "./Art/SumitDutta007-bubbles/icon.png",
@@ -190,6 +206,14 @@
     "author": "aayu5hgit",
     "githubLink": "https://github.com/aayu5hgit",
     "projectPath": "Art/aayu5hgit-LoaderAnimation"
+  },
+  {
+    "artName": "profilecard",
+    "pageLink": "./Art/alienx5499-profilecard/index.html",
+    "imageLink": "./Art/alienx5499-profilecard/icon.png",
+    "author": "alienx5499",
+    "githubLink": "https://github.com/alienx5499",
+    "projectPath": "Art/alienx5499-profilecard"
   },
   {
     "artName": "loading Dino",
