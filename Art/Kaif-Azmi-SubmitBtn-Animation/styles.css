@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative;
+}
+
+.checkbox {
+    display: none; /* Hide the checkbox */
+}
+
+.submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    background-color: #007BFF; /* Bluish color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.8s ease, width 0.8s ease, height 0.8s ease, border-radius 0.8s ease; /* Transition for properties */
+}
+
+.checkbox:checked + .submit-btn {
+    border-radius: 50%; /* Make it a circle */
+    width: 50px; /* Width of the circle */
+    height: 50px; /* Height of the circle */
+    background-color: #28a745; /* Green color */
+    font-size: 0; /* Hide text when clicked */
+}
+
+.checkmark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.8s ease; /* Smooth transition for opacity */
+}
+
+.checkbox:checked + .submit-btn + .checkmark {
+    opacity: 1; /* Show checkmark when checked */
+}
+
+/* Hide checkmark when unchecked */
+.checkbox:not(:checked) + .submit-btn + .checkmark {
+    opacity: 0; /* Hide checkmark when unchecked */
+}
