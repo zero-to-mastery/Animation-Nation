@@ -1,1 +1,6 @@
 .prettierrc
+.github/
+node_modules/
+public/
+*.md
+package*.json
