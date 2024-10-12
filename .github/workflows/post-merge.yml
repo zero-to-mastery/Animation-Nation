@@ -37,6 +37,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+          
       - name: Generate cards.json
         run: node generators/generateCards.js
 
@@ -49,23 +50,14 @@ jobs:
             git add public/cards.json
             git commit -m "(CI) cards.json Generation"
           fi
-      - name: Format cards
-        if: env.SKIP_REST != 'true'
-        run: |
-          if [ ! -f .prettierrc ]; then
-            echo ".prettierrc not found"
-            echo "terminating workflow..."
-            exit 1;
-          fi
-          npx prettier public/cards.json --write
-          git add public/cards.json
-          git commit -m "(CI) Format cards" || echo "No changes to commit"
+
       - name: Generate screenshots
         if: env.SKIP_REST != 'true'
         run: |
           node generators/generateScreenshot.js
           git add Art/**/icon.png
           git commit -m "(CI) Screenshot Generation" || echo "No changes to commit"
+
       - name: Push changes
         if: env.SKIP_REST != 'true'
         run: git push origin master
