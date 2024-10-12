@@ -1,0 +1,30 @@
+{
+    "artName": "Contribute with Style",
+    "githubHandle": "gauravbalade",
+    "description": "This piece highlights the importance of collaboration and style in the open-source community. Through vivid animations, it showcases how contributions, no matter how small, add significant value.",
+    "createdDate": "2024-10-12",
+    "tags": ["Hacktoberfest", "animation", "CSS", "HTML", "open-source"],
+    "version": "1.0.0",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Gaurav Balade",
+            "email": "gauravbalade@gmail.com",
+            "github": "https://github.com/gauravbalade"
+        }
+    ],
+    "artDetails": {
+        "mainColors": ["#007bff", "#f4f4f4", "#ffffff", "#333"],
+        "animationDetails": {
+            "animationsUsed": ["fadeIn", "blink"],
+            "duration": "2s",
+            "ease": "ease-in-out"
+        }
+    },
+    "displaySettings": {
+        "backgroundColor": "#f4f4f4",
+        "textColor": "#333",
+        "fontSize": "2em",
+        "padding": "20px"
+    }
+}
