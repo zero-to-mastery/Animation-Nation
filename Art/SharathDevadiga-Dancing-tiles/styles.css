@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0b8ff;
+  transition: background-color 0.5s;
+}
+
+.heading {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  color: #eee;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  max-width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.inner-box {
+  width: 100px;
+  height: 100px;
+  animation: shake 5s linear 0s infinite;
+  transition: all 0.7s;
+  border-radius: 11px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.251);
+  backdrop-filter: blur(10px);
+  background-color: var(--random-color, rgba(255, 255, 255, 0.7));
+}
+
+.inner-box:hover {
+  transform: scale(2);
+  cursor: pointer;
+  z-index: 10;
+  background-color: rgba(0, 255, 255, 0.7);
+}
+
+.inner-box:active {
+  background-color: rgba(255, 0, 255, 0.7);
+}
+
+@keyframes shake {
+  25% {
+    transform: rotate(45deg);
+  }
+  75% {
+    transform: rotate(-45deg);
+  }
+}
+
+/* Random colors for each box */
+.inner-box:nth-child(1) { --random-color: rgba(255, 0, 0, 0.7); }
+.inner-box:nth-child(2) { --random-color: rgba(0, 255, 0, 0.7); }
+.inner-box:nth-child(3) { --random-color: rgba(0, 0, 255, 0.7); }
+.inner-box:nth-child(4) { --random-color: rgba(255, 255, 0, 0.7); }
+.inner-box:nth-child(5) { --random-color: rgba(0, 255, 255, 0.7); }
+.inner-box:nth-child(6) { --random-color: rgba(255, 0, 255, 0.7); }
+.inner-box:nth-child(7) { --random-color: rgba(128, 0, 0, 0.7); }
+.inner-box:nth-child(8) { --random-color: rgba(0, 128, 0, 0.7); }
+.inner-box:nth-child(9) { --random-color: rgba(0, 0, 128, 0.7); }
+.inner-box:nth-child(10) { --random-color: rgba(128, 128, 0, 0.7); }
+.inner-box:nth-child(11) { --random-color: rgba(0, 128, 128, 0.7); }
+.inner-box:nth-child(12) { --random-color: rgba(128, 0, 128, 0.7); }
+.inner-box:nth-child(13) { --random-color: rgba(192, 192, 192, 0.7); }
+.inner-box:nth-child(14) { --random-color: rgba(128, 128, 128, 0.7); }
+.inner-box:nth-child(15) { --random-color: rgba(64, 64, 64, 0.7); }
+.inner-box:nth-child(16) { --random-color: rgba(255, 165, 0, 0.7); }
+.inner-box:nth-child(17) { --random-color: rgba(255, 20, 147, 0.7); }
+.inner-box:nth-child(18) { --random-color: rgba(75, 0, 130, 0.7); }
+.inner-box:nth-child(19) { --random-color: rgba(0, 255, 127, 0.7); }
+.inner-box:nth-child(20) { --random-color: rgba(255, 69, 0, 0.7); }
