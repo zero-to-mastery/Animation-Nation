@@ -72,6 +72,14 @@
     "projectPath": "Art/Dhairya-A-Mehra-spininng_cube"
   },
   {
+    "author": "Dhruv-Davda",
+    "artName": "Animated Button",
+    "githubLink": "https://github.com/Dhruv-Davda",
+    "pageLink": "./Art/Dhruv-Davda-AnimatedButton/index.html",
+    "imageLink": "./Art/Dhruv-Davda-AnimatedButton/icon.png",
+    "projectPath": "Art/Dhruv-Davda-AnimatedButton"
+  },
+  {
     "author": "HASH-0021",
     "artName": "Telephone",
     "githubLink": "https://github.com/HASH-0021",
@@ -150,6 +158,14 @@
     "pageLink": "./Art/SJ-209-loader/index.html",
     "imageLink": "./Art/SJ-209-loader/icon.png",
     "projectPath": "Art/SJ-209-loader"
+  },
+  {
+    "author": "SagarVerma893",
+    "artName": "3D Flip Card Animation",
+    "githubLink": "https://github.com/SagarVerma893",
+    "pageLink": "./Art/SagarVerma893-3D Flip Card Animation/index.html",
+    "imageLink": "./Art/SagarVerma893-3D Flip Card Animation/icon.png",
+    "projectPath": "Art/SagarVerma893-3D Flip Card Animation"
   },
   {
     "author": "SagarVerma893",
@@ -264,6 +280,14 @@
     "projectPath": "Art/dev1abhi-Hindu-Swastika"
   },
   {
+    "author": "fabio123789",
+    "artName": "spooky shost",
+    "githubLink": "https://github.com/fabio123789",
+    "pageLink": "./Art/fabio123789-spookyGhost/index.html",
+    "imageLink": "./Art/fabio123789-spookyGhost/icon.png",
+    "projectPath": "Art/fabio123789-spookyGhost"
+  },
+  {
     "author": "fullspeccoder",
     "artName": "scaryface",
     "githubLink": "https://github.com/fullspeccoder",
@@ -366,6 +390,14 @@
     "pageLink": "./Art/laurelinep-drippingCoffee/index.html",
     "imageLink": "./Art/laurelinep-drippingCoffee/icon.png",
     "projectPath": "Art/laurelinep-drippingCoffee"
+  },
+  {
+    "author": "maidxn",
+    "artName": "Earth Moon Sun",
+    "githubLink": "https://github.com/maidxn",
+    "pageLink": "./Art/maidxn-solarsystem/index.html",
+    "imageLink": "./Art/maidxn-solarsystem/icon.png",
+    "projectPath": "Art/maidxn-solarsystem"
   },
   {
     "author": "mattcsmith",
@@ -518,5 +550,13 @@
     "pageLink": "./Art/surjayankar-verticalballsbounceloader/index.html",
     "imageLink": "./Art/surjayankar-verticalballsbounceloader/icon.png",
     "projectPath": "Art/surjayankar-verticalballsbounceloader"
+  },
+  {
+    "author": "terrifricker",
+    "artName": "Flower Bloom",
+    "githubLink": "https://github.com/terrifricker",
+    "pageLink": "./Art/terrifricker-bloom/index.html",
+    "imageLink": "./Art/terrifricker-bloom/icon.png",
+    "projectPath": "Art/terrifricker-bloom"
   }
 ]
