@@ -193,6 +193,14 @@
   },
   {
     "author": "SagarVerma893",
+    "artName": "Typing Animation",
+    "githubLink": "https://github.com/SagarVerma893",
+    "pageLink": "./Art/SagarVerma893-Typing Animation/index.html",
+    "imageLink": "./Art/SagarVerma893-Typing Animation/icon.png",
+    "projectPath": "Art/SagarVerma893-Typing Animation"
+  },
+  {
+    "author": "SagarVerma893",
     "artName": "orbital Motion",
     "githubLink": "https://github.com/SagarVerma893",
     "pageLink": "./Art/SagarVerma893-orbitalMotion/index.html",
@@ -310,6 +318,14 @@
     "pageLink": "./Art/fullspeccoder-scaryface/index.html",
     "imageLink": "./Art/fullspeccoder-scaryface/icon.png",
     "projectPath": "Art/fullspeccoder-scaryface"
+  },
+  {
+    "author": "guranshdeol",
+    "artName": "Card Flip",
+    "githubLink": "https://github.com/guranshdeol",
+    "pageLink": "./Art/guranshdeol-CardFlip/index.html",
+    "imageLink": "./Art/guranshdeol-CardFlip/icon.png",
+    "projectPath": "Art/guranshdeol-CardFlip"
   },
   {
     "author": "hanisntsolo",
