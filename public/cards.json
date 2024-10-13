@@ -16,6 +16,14 @@
     "projectPath": "Art/AlexanderSanin-spinning-loader"
   },
   {
+    "author": "Anurag-singh-thakur",
+    "artName": "Rotating Sqaure",
+    "githubLink": "https://github.com/Anurag-singh-thakur",
+    "pageLink": "./Art/Anurag-singh-thakur-Rotating Sqaure/index.html",
+    "imageLink": "./Art/Anurag-singh-thakur-Rotating Sqaure/icon.png",
+    "projectPath": "Art/Anurag-singh-thakur-Rotating Sqaure"
+  },
+  {
     "author": "Argwingskodhek",
     "artName": "rotating Ball",
     "githubLink": "https://github.com/Argwingskodhek",
@@ -30,6 +38,14 @@
     "pageLink": "./Art/Astro-Dude-animatedButton/index.html",
     "imageLink": "./Art/Astro-Dude-animatedButton/icon.png",
     "projectPath": "Art/Astro-Dude-animatedButton"
+  },
+  {
+    "author": "BYT-Bender",
+    "artName": "Square Loader",
+    "githubLink": "https://github.com/BYT-Bender",
+    "pageLink": "./Art/BYT-Bender-square-loader/index.html",
+    "imageLink": "./Art/BYT-Bender-square-loader/icon.png",
+    "projectPath": "Art/BYT-Bender-square-loader"
   },
   {
     "author": "BaraniVA",
@@ -72,6 +88,14 @@
     "projectPath": "Art/Dhairya-A-Mehra-spininng_cube"
   },
   {
+    "author": "Dhruv-Davda",
+    "artName": "Animated Button",
+    "githubLink": "https://github.com/Dhruv-Davda",
+    "pageLink": "./Art/Dhruv-Davda-AnimatedButton/index.html",
+    "imageLink": "./Art/Dhruv-Davda-AnimatedButton/icon.png",
+    "projectPath": "Art/Dhruv-Davda-AnimatedButton"
+  },
+  {
     "author": "HASH-0021",
     "artName": "Telephone",
     "githubLink": "https://github.com/HASH-0021",
@@ -80,12 +104,44 @@
     "projectPath": "Art/HASH-0021-Telephone"
   },
   {
+    "author": "HossamGouda",
+    "artName": "Circle Pulse",
+    "githubLink": "https://github.com/HossamGouda",
+    "pageLink": "./Art/HossamGouda-CirclePulse/index.html",
+    "imageLink": "./Art/HossamGouda-CirclePulse/icon.png",
+    "projectPath": "Art/HossamGouda-CirclePulse"
+  },
+  {
+    "author": "Isabelle36",
+    "artName": "Halloween Texxt",
+    "githubLink": "https://github.com/Isabelle36",
+    "pageLink": "./Art/Isabelle36-Halloween/index.html",
+    "imageLink": "./Art/Isabelle36-Halloween/icon.png",
+    "projectPath": "Art/Isabelle36-Halloween"
+  },
+  {
     "author": "JayShukla8",
     "artName": "cat",
     "githubLink": "https://github.com/JayShukla8",
     "pageLink": "./Art/JayShukla8-cat/index.html",
     "imageLink": "./Art/JayShukla8-cat/icon.png",
     "projectPath": "Art/JayShukla8-cat"
+  },
+  {
+    "author": "KC1064",
+    "artName": "Pop Up Text Animation",
+    "githubLink": "https://github.com/KC1064",
+    "pageLink": "./Art/KC1064-Pop_Up_Text/index.html",
+    "imageLink": "./Art/KC1064-Pop_Up_Text/icon.png",
+    "projectPath": "Art/KC1064-Pop_Up_Text"
+  },
+  {
+    "author": "KC1064",
+    "artName": "Welcome Animation",
+    "githubLink": "https://github.com/KC1064",
+    "pageLink": "./Art/KC1064-Welcome/index.html",
+    "imageLink": "./Art/KC1064-Welcome/icon.png",
+    "projectPath": "Art/KC1064-Welcome"
   },
   {
     "author": "Kaif-Azmi",
@@ -153,11 +209,27 @@
   },
   {
     "author": "SagarVerma893",
+    "artName": "3D Flip Card Animation",
+    "githubLink": "https://github.com/SagarVerma893",
+    "pageLink": "./Art/SagarVerma893-3D Flip Card Animation/index.html",
+    "imageLink": "./Art/SagarVerma893-3D Flip Card Animation/icon.png",
+    "projectPath": "Art/SagarVerma893-3D Flip Card Animation"
+  },
+  {
+    "author": "SagarVerma893",
     "artName": "Flickering Neon Sign",
     "githubLink": "https://github.com/SagarVerma893",
     "pageLink": "./Art/SagarVerma893-Flickering Neon Sign/index.html",
     "imageLink": "./Art/SagarVerma893-Flickering Neon Sign/icon.png",
     "projectPath": "Art/SagarVerma893-Flickering Neon Sign"
+  },
+  {
+    "author": "SagarVerma893",
+    "artName": "Typing Animation",
+    "githubLink": "https://github.com/SagarVerma893",
+    "pageLink": "./Art/SagarVerma893-Typing Animation/index.html",
+    "imageLink": "./Art/SagarVerma893-Typing Animation/icon.png",
+    "projectPath": "Art/SagarVerma893-Typing Animation"
   },
   {
     "author": "SagarVerma893",
@@ -264,12 +336,36 @@
     "projectPath": "Art/dev1abhi-Hindu-Swastika"
   },
   {
+    "author": "fabio123789",
+    "artName": "spooky shost",
+    "githubLink": "https://github.com/fabio123789",
+    "pageLink": "./Art/fabio123789-spookyGhost/index.html",
+    "imageLink": "./Art/fabio123789-spookyGhost/icon.png",
+    "projectPath": "Art/fabio123789-spookyGhost"
+  },
+  {
     "author": "fullspeccoder",
     "artName": "scaryface",
     "githubLink": "https://github.com/fullspeccoder",
     "pageLink": "./Art/fullspeccoder-scaryface/index.html",
     "imageLink": "./Art/fullspeccoder-scaryface/icon.png",
     "projectPath": "Art/fullspeccoder-scaryface"
+  },
+  {
+    "author": "gauravbalade",
+    "artName": "Contribute with Style",
+    "githubLink": "https://github.com/gauravbalade",
+    "pageLink": "./Art/gauravbalade-myartwork/index.html",
+    "imageLink": "./Art/gauravbalade-myartwork/icon.png",
+    "projectPath": "Art/gauravbalade-myartwork"
+  },
+  {
+    "author": "guranshdeol",
+    "artName": "Card Flip",
+    "githubLink": "https://github.com/guranshdeol",
+    "pageLink": "./Art/guranshdeol-CardFlip/index.html",
+    "imageLink": "./Art/guranshdeol-CardFlip/icon.png",
+    "projectPath": "Art/guranshdeol-CardFlip"
   },
   {
     "author": "hanisntsolo",
@@ -368,6 +464,14 @@
     "projectPath": "Art/laurelinep-drippingCoffee"
   },
   {
+    "author": "maidxn",
+    "artName": "Earth Moon Sun",
+    "githubLink": "https://github.com/maidxn",
+    "pageLink": "./Art/maidxn-solarsystem/index.html",
+    "imageLink": "./Art/maidxn-solarsystem/icon.png",
+    "projectPath": "Art/maidxn-solarsystem"
+  },
+  {
     "author": "mattcsmith",
     "artName": "triangle",
     "githubLink": "https://github.com/mattcsmith",
@@ -408,6 +512,30 @@
     "projectPath": "Art/nabinkumarshaw-rotating_cube"
   },
   {
+    "author": "ornitcg",
+    "artName": "coloredsquares",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-coloredsquares/index.html",
+    "imageLink": "./Art/ornitcg-coloredsquares/icon.png",
+    "projectPath": "Art/ornitcg-coloredsquares"
+  },
+  {
+    "author": "ornitcg",
+    "artName": "eclipse",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-eclipse/index.html",
+    "imageLink": "./Art/ornitcg-eclipse/icon.png",
+    "projectPath": "Art/ornitcg-eclipse"
+  },
+  {
+    "author": "ornitcg",
+    "artName": "rotation",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-rotation/index.html",
+    "imageLink": "./Art/ornitcg-rotation/icon.png",
+    "projectPath": "Art/ornitcg-rotation"
+  },
+  {
     "author": "pleomorph",
     "artName": "happyhacktoberfest",
     "githubLink": "https://github.com/pleomorph",
@@ -430,6 +558,14 @@
     "pageLink": "./Art/samilabud-piramidSunSet/index.html",
     "imageLink": "./Art/samilabud-piramidSunSet/icon.png",
     "projectPath": "Art/samilabud-piramidSunSet"
+  },
+  {
+    "author": "ShehzanSk",
+    "artName": "Animated Button",
+    "githubLink": "https://github.com/ShehzanSk",
+    "pageLink": "./Art/shehzansk-animatedbutton/index.html",
+    "imageLink": "./Art/shehzansk-animatedbutton/icon.png",
+    "projectPath": "Art/shehzansk-animatedbutton"
   },
   {
     "author": "shuaixr",
@@ -518,5 +654,13 @@
     "pageLink": "./Art/surjayankar-verticalballsbounceloader/index.html",
     "imageLink": "./Art/surjayankar-verticalballsbounceloader/icon.png",
     "projectPath": "Art/surjayankar-verticalballsbounceloader"
+  },
+  {
+    "author": "terrifricker",
+    "artName": "Flower Bloom",
+    "githubLink": "https://github.com/terrifricker",
+    "pageLink": "./Art/terrifricker-bloom/index.html",
+    "imageLink": "./Art/terrifricker-bloom/icon.png",
+    "projectPath": "Art/terrifricker-bloom"
   }
 ]
