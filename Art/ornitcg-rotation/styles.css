@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+  
+  .sqr1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background: rgb(252, 2, 139);
+    animation: rotate 30s linear infinite;
+  }
+
+  .sqr2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background: rgb(207, 38, 131);
+    animation: rotate 30s linear infinite;
+    
+  }
+
+  .sqr3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background: rgb(189, 82, 141);
+    animation: rotate 30s linear infinite;
+    
+  }
+
+  .sqr4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background: rgb(139, 98, 121);
+    animation: rotate 30s linear infinite;
+    
+  }
+
+
+  .tri5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 0;
+      height: 0;
+      border-left: 75px solid transparent;
+      border-right: 75px solid transparent;
+      border-bottom: 150px solid  rgb(168, 158, 164);
+    
+    animation: rotate 50s linear infinite;
+    
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
