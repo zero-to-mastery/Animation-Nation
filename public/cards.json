@@ -129,6 +129,14 @@
   },
   {
     "author": "KC1064",
+    "artName": "Pop Up Text Animation",
+    "githubLink": "https://github.com/KC1064",
+    "pageLink": "./Art/KC1064-Pop_Up_Text/index.html",
+    "imageLink": "./Art/KC1064-Pop_Up_Text/icon.png",
+    "projectPath": "Art/KC1064-Pop_Up_Text"
+  },
+  {
+    "author": "KC1064",
     "artName": "Welcome Animation",
     "githubLink": "https://github.com/KC1064",
     "pageLink": "./Art/KC1064-Welcome/index.html",
@@ -510,6 +518,22 @@
     "pageLink": "./Art/ornitcg-coloredsquares/index.html",
     "imageLink": "./Art/ornitcg-coloredsquares/icon.png",
     "projectPath": "Art/ornitcg-coloredsquares"
+  },
+  {
+    "author": "ornitcg",
+    "artName": "eclipse",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-eclipse/index.html",
+    "imageLink": "./Art/ornitcg-eclipse/icon.png",
+    "projectPath": "Art/ornitcg-eclipse"
+  },
+  {
+    "author": "ornitcg",
+    "artName": "rotation",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-rotation/index.html",
+    "imageLink": "./Art/ornitcg-rotation/icon.png",
+    "projectPath": "Art/ornitcg-rotation"
   },
   {
     "author": "pleomorph",
