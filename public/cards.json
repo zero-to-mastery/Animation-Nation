@@ -104,6 +104,14 @@
     "projectPath": "Art/HASH-0021-Telephone"
   },
   {
+    "author": "HossamGouda",
+    "artName": "Circle Pulse",
+    "githubLink": "https://github.com/HossamGouda",
+    "pageLink": "./Art/HossamGouda-CirclePulse/index.html",
+    "imageLink": "./Art/HossamGouda-CirclePulse/icon.png",
+    "projectPath": "Art/HossamGouda-CirclePulse"
+  },
+  {
     "author": "Isabelle36",
     "artName": "Halloween Texxt",
     "githubLink": "https://github.com/Isabelle36",
@@ -494,6 +502,14 @@
     "pageLink": "./Art/nabinkumarshaw-rotating_cube/index.html",
     "imageLink": "./Art/nabinkumarshaw-rotating_cube/icon.png",
     "projectPath": "Art/nabinkumarshaw-rotating_cube"
+  },
+  {
+    "author": "ornitcg",
+    "artName": "coloredsquares",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-coloredsquares/index.html",
+    "imageLink": "./Art/ornitcg-coloredsquares/icon.png",
+    "projectPath": "Art/ornitcg-coloredsquares"
   },
   {
     "author": "pleomorph",
