@@ -184,6 +184,14 @@
     "projectPath": "Art/Kisalaykisu-ztmLogoAnimation"
   },
   {
+    "author": "Navdeepsingh4298",
+    "artName": "Linear Colorful Loader",
+    "githubLink": "https://github.com/Navdeepsingh4298",
+    "pageLink": "./Art/Navdeepsingh4298-linearColorfulLoader/index.html",
+    "imageLink": "./Art/Navdeepsingh4298-linearColorfulLoader/icon.png",
+    "projectPath": "Art/Navdeepsingh4298-linearColorfulLoader"
+  },
+  {
     "author": "Nishankulal03",
     "artName": "loader",
     "githubLink": "https://github.com/Nishankulal03",
@@ -342,6 +350,22 @@
     "pageLink": "./Art/bandhan-majumder-loadingDino/index.html",
     "imageLink": "./Art/bandhan-majumder-loadingDino/icon.png",
     "projectPath": "Art/bandhan-majumder-loadingDino"
+  },
+  {
+    "author": "chaitraDev",
+    "artName": "pulsating circles",
+    "githubLink": "https://github.com/chaitraDev",
+    "pageLink": "./Art/chaitraDev_pulsating_circles/index.html",
+    "imageLink": "./Art/chaitraDev_pulsating_circles/icon.png",
+    "projectPath": "Art/chaitraDev_pulsating_circles"
+  },
+  {
+    "author": "chaitraDev",
+    "artName": "spiral Move",
+    "githubLink": "https://github.com/chaitraDev",
+    "pageLink": "./Art/chaitraDev_spiralMove/index.html",
+    "imageLink": "./Art/chaitraDev_spiralMove/icon.png",
+    "projectPath": "Art/chaitraDev_spiralMove"
   },
   {
     "author": "charlomatic",
