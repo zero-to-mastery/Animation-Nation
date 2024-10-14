@@ -12,7 +12,6 @@ body{
 
 #circle{
     height:60%; aspect-ratio: 1;
-    /* background-image: conic-gradient(from 30deg,orange,red); */
     background-image: linear-gradient(0deg, red,orange);
     border-radius: 100%;
     animation: rise ease-out 3s infinite alternate-reverse;
@@ -24,11 +23,6 @@ body{
         transform: translate(-30%,-100%);
         scale:0%;
     }
-    /* 50%{
-        rotate:180deg;
-        transform: translate(10%,-100%);
-        scale:50%;
-    } */
     100%{
         transform: translate(10%);
         rotate:360deg;
