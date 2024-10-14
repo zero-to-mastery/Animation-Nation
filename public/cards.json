@@ -129,6 +129,14 @@
   },
   {
     "author": "KC1064",
+    "artName": "Pop Up Text Animation",
+    "githubLink": "https://github.com/KC1064",
+    "pageLink": "./Art/KC1064-Pop_Up_Text/index.html",
+    "imageLink": "./Art/KC1064-Pop_Up_Text/icon.png",
+    "projectPath": "Art/KC1064-Pop_Up_Text"
+  },
+  {
+    "author": "KC1064",
     "artName": "Welcome Animation",
     "githubLink": "https://github.com/KC1064",
     "pageLink": "./Art/KC1064-Welcome/index.html",
@@ -190,6 +198,22 @@
     "pageLink": "./Art/Pauljd1-Pumpkin/index.html",
     "imageLink": "./Art/Pauljd1-Pumpkin/icon.png",
     "projectPath": "Art/Pauljd1-Pumpkin"
+  },
+  {
+    "author": "PragyaTripathi990",
+    "artName": "cards Animation",
+    "githubLink": "https://github.com/PragyaTripathi990",
+    "pageLink": "./Art/PragyaTripathi990-cardsAnimation/index.html",
+    "imageLink": "./Art/PragyaTripathi990-cardsAnimation/icon.png",
+    "projectPath": "Art/PragyaTripathi990-cardsAnimation"
+  },
+  {
+    "author": "ProfoundlyParker",
+    "artName": "Shop Like You Give a Damn",
+    "githubLink": "https://github.com/ProfoundlyParker",
+    "pageLink": "./Art/ProfoundlyParker-Shop-Like-You-Give-a-Damn/index.html",
+    "imageLink": "./Art/ProfoundlyParker-Shop-Like-You-Give-a-Damn/icon.png",
+    "projectPath": "Art/ProfoundlyParker-Shop-Like-You-Give-a-Damn"
   },
   {
     "author": "SJ-209",
@@ -278,6 +302,14 @@
     "pageLink": "./Art/Yadnyesh-Dashpute-AnimatedForm/index.html",
     "imageLink": "./Art/Yadnyesh-Dashpute-AnimatedForm/icon.png",
     "projectPath": "Art/Yadnyesh-Dashpute-AnimatedForm"
+  },
+  {
+    "author": "aarushsaboo",
+    "artName": "neonsign",
+    "githubLink": "https://github.com/aarushsaboo",
+    "pageLink": "./Art/aarushsaboo-neonsign/index.html",
+    "imageLink": "./Art/aarushsaboo-neonsign/icon.png",
+    "projectPath": "Art/aarushsaboo-neonsign"
   },
   {
     "author": "aayu5hgit",
@@ -505,11 +537,35 @@
   },
   {
     "author": "ornitcg",
+    "artName": "blink",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-blink/index.html",
+    "imageLink": "./Art/ornitcg-blink/icon.png",
+    "projectPath": "Art/ornitcg-blink"
+  },
+  {
+    "author": "ornitcg",
     "artName": "coloredsquares",
     "githubLink": "https://github.com/ornitcg",
     "pageLink": "./Art/ornitcg-coloredsquares/index.html",
     "imageLink": "./Art/ornitcg-coloredsquares/icon.png",
     "projectPath": "Art/ornitcg-coloredsquares"
+  },
+  {
+    "author": "ornitcg",
+    "artName": "eclipse",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-eclipse/index.html",
+    "imageLink": "./Art/ornitcg-eclipse/icon.png",
+    "projectPath": "Art/ornitcg-eclipse"
+  },
+  {
+    "author": "ornitcg",
+    "artName": "rotation",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-rotation/index.html",
+    "imageLink": "./Art/ornitcg-rotation/icon.png",
+    "projectPath": "Art/ornitcg-rotation"
   },
   {
     "author": "pleomorph",
@@ -638,5 +694,13 @@
     "pageLink": "./Art/terrifricker-bloom/index.html",
     "imageLink": "./Art/terrifricker-bloom/icon.png",
     "projectPath": "Art/terrifricker-bloom"
+  },
+  {
+    "author": "terrifricker",
+    "artName": "Rotating Square",
+    "githubLink": "https://github.com/terrifricker",
+    "pageLink": "./Art/terrifricker-rotatingSquare/index.html",
+    "imageLink": "./Art/terrifricker-rotatingSquare/icon.png",
+    "projectPath": "Art/terrifricker-rotatingSquare"
   }
 ]
