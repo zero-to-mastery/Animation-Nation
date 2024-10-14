@@ -200,6 +200,14 @@
     "projectPath": "Art/Pauljd1-Pumpkin"
   },
   {
+    "author": "ProfoundlyParker",
+    "artName": "Shop Like You Give a Damn",
+    "githubLink": "https://github.com/ProfoundlyParker",
+    "pageLink": "./Art/ProfoundlyParker-Shop-Like-You-Give-a-Damn/index.html",
+    "imageLink": "./Art/ProfoundlyParker-Shop-Like-You-Give-a-Damn/icon.png",
+    "projectPath": "Art/ProfoundlyParker-Shop-Like-You-Give-a-Damn"
+  },
+  {
     "author": "SJ-209",
     "artName": "loader",
     "githubLink": "https://github.com/SJ-209",
@@ -286,6 +294,14 @@
     "pageLink": "./Art/Yadnyesh-Dashpute-AnimatedForm/index.html",
     "imageLink": "./Art/Yadnyesh-Dashpute-AnimatedForm/icon.png",
     "projectPath": "Art/Yadnyesh-Dashpute-AnimatedForm"
+  },
+  {
+    "author": "aarushsaboo",
+    "artName": "neonsign",
+    "githubLink": "https://github.com/aarushsaboo",
+    "pageLink": "./Art/aarushsaboo-neonsign/index.html",
+    "imageLink": "./Art/aarushsaboo-neonsign/icon.png",
+    "projectPath": "Art/aarushsaboo-neonsign"
   },
   {
     "author": "aayu5hgit",
@@ -662,5 +678,13 @@
     "pageLink": "./Art/terrifricker-bloom/index.html",
     "imageLink": "./Art/terrifricker-bloom/icon.png",
     "projectPath": "Art/terrifricker-bloom"
+  },
+  {
+    "author": "terrifricker",
+    "artName": "Rotating Square",
+    "githubLink": "https://github.com/terrifricker",
+    "pageLink": "./Art/terrifricker-rotatingSquare/index.html",
+    "imageLink": "./Art/terrifricker-rotatingSquare/icon.png",
+    "projectPath": "Art/terrifricker-rotatingSquare"
   }
 ]
