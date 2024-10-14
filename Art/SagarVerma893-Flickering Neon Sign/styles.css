@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.neon-sign h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+    color: #00FF00;
+    text-shadow: 
+        0 0 5px #00FF00,
+        0 0 10px #00FF00,
+        0 0 20px #00FF00,
+        0 0 40px #00FF00,
+        0 0 80px #00FF00,
+        0 0 100px #00FF00;
+    animation: flicker 2s infinite;
+}
+
+@keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+        text-shadow: 
+            0 0 5px #00FF00,
+            0 0 10px #00FF00,
+            0 0 20px #00FF00,
+            0 0 40px #00FF00,
+            0 0 80px #00FF00,
+            0 0 100px #00FF00;
+    }
+    20%, 24%, 55% {
+        opacity: 0.5;
+        text-shadow: none;
+    }
+    22% {
+        opacity: 0.2;
+        text-shadow: none;
+    }
+}

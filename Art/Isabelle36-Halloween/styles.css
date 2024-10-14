@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(180deg, purple,#000000);   
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 7rem;
+}
+
+span{
+    color: yellow;
+    opacity: 1;
+
+    text-shadow: 0 0 5px rgb(255, 145, 0),
+                1px 1px 10px rgb(210, 119, 0),
+                  0px 0px 15px rgb(210, 119, 0);
+
+    animation-name: flicker;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flicker {
+    0%,30%{
+        opacity: 0.1;
+    }
+    50%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 1;
+    }
+}
