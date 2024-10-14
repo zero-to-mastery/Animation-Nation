@@ -40,6 +40,14 @@
     "projectPath": "Art/Astro-Dude-animatedButton"
   },
   {
+    "author": "AvinashKumar0923",
+    "artName": "atom Animation",
+    "githubLink": "https://github.com/AvinashKumar0923",
+    "pageLink": "./Art/AvinashKumar0923-atomAnimation/index.html",
+    "imageLink": "./Art/AvinashKumar0923-atomAnimation/icon.png",
+    "projectPath": "Art/AvinashKumar0923-atomAnimation"
+  },
+  {
     "author": "BYT-Bender",
     "artName": "Square Loader",
     "githubLink": "https://github.com/BYT-Bender",
@@ -350,6 +358,14 @@
     "pageLink": "./Art/bandhan-majumder-loadingDino/index.html",
     "imageLink": "./Art/bandhan-majumder-loadingDino/icon.png",
     "projectPath": "Art/bandhan-majumder-loadingDino"
+  },
+  {
+    "author": "chaitraDev",
+    "artName": "gavel",
+    "githubLink": "https://github.com/chaitraDev",
+    "pageLink": "./Art/chaitraDev_gavel/index.html",
+    "imageLink": "./Art/chaitraDev_gavel/icon.png",
+    "projectPath": "Art/chaitraDev_gavel"
   },
   {
     "author": "chaitraDev",
