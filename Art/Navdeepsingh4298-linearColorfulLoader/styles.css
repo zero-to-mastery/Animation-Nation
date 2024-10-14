@@ -18,7 +18,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* gap: 20px; */
   -webkit-box-reflect: below 12px linear-gradient(transparent, #0005);
 }
 
@@ -26,7 +25,6 @@ body {
   position: relative;
   width: 200px;
   height: 200px;
-  /* border-radius: 50%; */
   background: linear-gradient(
     45deg,
     #00f376 40%,
