@@ -352,6 +352,22 @@
     "projectPath": "Art/bandhan-majumder-loadingDino"
   },
   {
+    "author": "chaitraDev",
+    "artName": "pulsating circles",
+    "githubLink": "https://github.com/chaitraDev",
+    "pageLink": "./Art/chaitraDev_pulsating_circles/index.html",
+    "imageLink": "./Art/chaitraDev_pulsating_circles/icon.png",
+    "projectPath": "Art/chaitraDev_pulsating_circles"
+  },
+  {
+    "author": "chaitraDev",
+    "artName": "spiral Move",
+    "githubLink": "https://github.com/chaitraDev",
+    "pageLink": "./Art/chaitraDev_spiralMove/index.html",
+    "imageLink": "./Art/chaitraDev_spiralMove/icon.png",
+    "projectPath": "Art/chaitraDev_spiralMove"
+  },
+  {
     "author": "charlomatic",
     "artName": "Circle Slider",
     "githubLink": "https://github.com/charlomatic",
