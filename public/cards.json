@@ -678,5 +678,13 @@
     "pageLink": "./Art/terrifricker-bloom/index.html",
     "imageLink": "./Art/terrifricker-bloom/icon.png",
     "projectPath": "Art/terrifricker-bloom"
+  },
+  {
+    "author": "terrifricker",
+    "artName": "Rotating Square",
+    "githubLink": "https://github.com/terrifricker",
+    "pageLink": "./Art/terrifricker-rotatingSquare/index.html",
+    "imageLink": "./Art/terrifricker-rotatingSquare/icon.png",
+    "projectPath": "Art/terrifricker-rotatingSquare"
   }
 ]
