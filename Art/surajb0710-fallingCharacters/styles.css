@@ -1,0 +1,285 @@
+/* styles.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  background-color: black;
+  color: lime; /* Matrix color */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.matrix {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  height: 100%;
+}
+
+.col {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+.char {
+  bottom: 100%; /* Start above the screen */
+  font-size: 20px; /* Adjust as needed */
+  opacity: 0; /* Start invisible */
+  animation: fall linear infinite; /* Apply falling animation */
+}
+
+.charA {
+  bottom: 10%; /* Start above the screen */
+  font-size: 20px; /* Adjust as needed */
+  opacity: 0; /* Start invisible */
+  animation: fall 1s infinite linear; /* Apply falling animation */
+}
+
+/* Falling animation */
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateY(20%);
+    opacity: 0.8;
+  }
+  40% {
+    transform: translateY(40%);
+    opacity: 0.6;
+  }
+  60% {
+    transform: translateY(60%);
+    opacity: 0.4;
+  }
+  80% {
+    transform: translateY(80%);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+/* Add different animation durations and delays for each character */
+
+.char:nth-child(1) {
+  left: 0%;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+.char:nth-child(2) {
+  left: 5%;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+.char:nth-child(3) {
+  left: 10%;
+  animation-duration: 2.5s;
+  animation-delay: 0s;
+}
+.char:nth-child(4) {
+  left: 15%;
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+}
+.char:nth-child(5) {
+  left: 20%;
+  animation-duration: 2.25s;
+  animation-delay: 0s;
+}
+.char:nth-child(6) {
+  left: 25%;
+  animation-duration: 3.1s;
+  animation-delay: 0s;
+}
+.char:nth-child(7) {
+  left: 30%;
+  animation-duration: 1.75s;
+  animation-delay: 0s;
+}
+.char:nth-child(8) {
+  left: 35%;
+  animation-duration: 2.6s;
+  animation-delay: 0s;
+}
+.char:nth-child(9) {
+  left: 40%;
+  animation-duration: 1.8s;
+  animation-delay: 0s;
+}
+.char:nth-child(10) {
+  left: 45%;
+  animation-duration: 3.4s;
+  animation-delay: 0s;
+}
+.char:nth-child(11) {
+  left: 50%;
+  animation-duration: 2.8s;
+  animation-delay: 0s;
+}
+.char:nth-child(12) {
+  left: 55%;
+  animation-duration: 1.4s;
+  animation-delay: 0s;
+}
+.char:nth-child(13) {
+  left: 60%;
+  animation-duration: 2.4s;
+  animation-delay: 0s;
+}
+.char:nth-child(14) {
+  left: 65%;
+  animation-duration: 1.8s;
+  animation-delay: 0s;
+}
+.char:nth-child(15) {
+  left: 70%;
+  animation-duration: 1.6s;
+  animation-delay: 0s;
+}
+.char:nth-child(16) {
+  left: 75%;
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+.char:nth-child(17) {
+  left: 80%;
+  animation-duration: 2.1s;
+  animation-delay: 0s;
+}
+.char:nth-child(18) {
+  left: 85%;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+.char:nth-child(19) {
+  left: 90%;
+  animation-duration: 3.4s;
+  animation-delay: 0s;
+}
+.char:nth-child(20) {
+  left: 95%;
+  animation-duration: 2.5s;
+  animation-delay: 0s;
+}
+.char:nth-child(21) {
+  left: 100%;
+  animation-duration: 1.2s;
+  animation-delay: 0s;
+}
+
+.charA:nth-child(1) {
+  left: 2.5%;
+  animation-duration: 1.8s;
+  animation-delay: 0s;
+}
+.charA:nth-child(2) {
+  left: 7.5%;
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+.charA:nth-child(3) {
+  left: 12.5%;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+.charA:nth-child(4) {
+  left: 17.5%;
+  animation-duration: 1.56s;
+  animation-delay: 0s;
+}
+.charA:nth-child(5) {
+  left: 22.5%;
+  animation-duration: 3.14s;
+  animation-delay: 0s;
+}
+.charA:nth-child(6) {
+  left: 27.5%;
+  animation-duration: 1.25s;
+  animation-delay: 0s;
+}
+.charA:nth-child(7) {
+  left: 32.5%;
+  animation-duration: 3.25s;
+  animation-delay: 0s;
+}
+.charA:nth-child(8) {
+  left: 37.5%;
+  animation-duration: 2.47s;
+  animation-delay: 0s;
+}
+.charA:nth-child(9) {
+  left: 42.5%;
+  animation-duration: 1.68s;
+  animation-delay: 0s;
+}
+.charA:nth-child(10) {
+  left: 47.5%;
+  animation-duration: 3.12s;
+  animation-delay: 0s;
+}
+.charA:nth-child(11) {
+  left: 52.5%;
+  animation-duration: 2.56s;
+  animation-delay: 0s;
+}
+.charA:nth-child(12) {
+  left: 57.5%;
+  animation-duration: 2.87s;
+  animation-delay: 0s;
+}
+.charA:nth-child(13) {
+  left: 62.5%;
+  animation-duration: 1.69s;
+  animation-delay: 0s;
+}
+.charA:nth-child(14) {
+  left: 67.5%;
+  animation-duration: 2.25s;
+  animation-delay: 0s;
+}
+.charA:nth-child(15) {
+  left: 72.5%;
+  animation-duration: 3.14s;
+  animation-delay: 0s;
+}
+.charA:nth-child(16) {
+  left: 77.5%;
+  animation-duration: 1.25s;
+  animation-delay: 0s;
+}
+.charA:nth-child(17) {
+  left: 82.5%;
+  animation-duration: 1.67s;
+  animation-delay: 0s;
+}
+.charA:nth-child(18) {
+  left: 87.5%;
+  animation-duration: 2.36s;
+  animation-delay: 0s;
+}
+.charA:nth-child(19) {
+  left: 92.5%;
+  animation-duration: 1.58s;
+  animation-delay: 0s;
+}
+.charA:nth-child(20) {
+  left: 97.5%;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
