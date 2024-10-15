@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+
+#grid {
+  width: 90%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  transition: grid-template-columns 0.5s ease-in-out;
+}
+
+#grid:has(.left:hover) {
+  grid-template-columns: 2fr 0.5fr 0.5fr;
+}
+#grid:has(.center:hover) {
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+}
+#grid:has(.right:hover) {
+  grid-template-columns: 0.5fr 0.5fr 2fr;
+}
+
+.col {
+  background-size: cover;
+}
+
+.left {
+  background-image: url(./images/1.jpg);
+}
+.center {
+  background-image: url(./images/2.jpg);
+  background-position: center;
+}
+.right {
+  background-image: url(./images/3.jpg);
+}
