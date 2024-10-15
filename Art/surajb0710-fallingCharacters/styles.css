@@ -12,9 +12,6 @@ html {
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -281,5 +278,10 @@ body {
 .charA:nth-child(20) {
   left: 97.5%;
   animation-duration: 3s;
+  animation-delay: 0s;
+}
+.charA:nth-child(10) {
+  left: 99.5%;
+  animation-duration: 1.9s;
   animation-delay: 0s;
 }
