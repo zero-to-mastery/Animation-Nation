@@ -761,6 +761,14 @@
   },
   {
     "author": "surjayankar",
+    "artName": "Shooting Stars",
+    "githubLink": "https://github.com/surjayankar",
+    "pageLink": "./Art/surjayankar-ShootingStars/index.html",
+    "imageLink": "./Art/surjayankar-ShootingStars/icon.png",
+    "projectPath": "Art/surjayankar-ShootingStars"
+  },
+  {
+    "author": "surjayankar",
     "artName": "verticalballsbounceloader",
     "githubLink": "https://github.com/surjayankar",
     "pageLink": "./Art/surjayankar-verticalballsbounceloader/index.html",
