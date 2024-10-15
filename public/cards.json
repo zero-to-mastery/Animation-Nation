@@ -728,12 +728,28 @@
     "projectPath": "Art/stutxi-animatedEyes"
   },
   {
+    "author": "surajb0710",
+    "artName": "falling Characters",
+    "githubLink": "https://github.com/surajb0710",
+    "pageLink": "./Art/surajb0710-fallingCharacters/index.html",
+    "imageLink": "./Art/surajb0710-fallingCharacters/icon.png",
+    "projectPath": "Art/surajb0710-fallingCharacters"
+  },
+  {
     "author": "surjayankar",
     "artName": "Dynamic Rotating Squares",
     "githubLink": "https://github.com/surjayankar",
     "pageLink": "./Art/surjayankar-DynamicRotatingSquares/index.html",
     "imageLink": "./Art/surjayankar-DynamicRotatingSquares/icon.png",
     "projectPath": "Art/surjayankar-DynamicRotatingSquares"
+  },
+  {
+    "author": "surjayankar",
+    "artName": "Infinite Grid Background",
+    "githubLink": "https://github.com/surjayankar",
+    "pageLink": "./Art/surjayankar-InfiniteGridBackground/index.html",
+    "imageLink": "./Art/surjayankar-InfiniteGridBackground/icon.png",
+    "projectPath": "Art/surjayankar-InfiniteGridBackground"
   },
   {
     "author": "surjayankar",
