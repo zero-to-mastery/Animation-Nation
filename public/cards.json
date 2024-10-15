@@ -40,6 +40,14 @@
     "projectPath": "Art/Astro-Dude-animatedButton"
   },
   {
+    "author": "AvinashKumar0923",
+    "artName": "atom Animation",
+    "githubLink": "https://github.com/AvinashKumar0923",
+    "pageLink": "./Art/AvinashKumar0923-atomAnimation/index.html",
+    "imageLink": "./Art/AvinashKumar0923-atomAnimation/icon.png",
+    "projectPath": "Art/AvinashKumar0923-atomAnimation"
+  },
+  {
     "author": "BYT-Bender",
     "artName": "Square Loader",
     "githubLink": "https://github.com/BYT-Bender",
@@ -62,6 +70,14 @@
     "pageLink": "./Art/BrianCheung1-Balloons/index.html",
     "imageLink": "./Art/BrianCheung1-Balloons/icon.png",
     "projectPath": "Art/BrianCheung1-Balloons"
+  },
+  {
+    "author": "DEBASISH077",
+    "artName": "Bouncing Effects",
+    "githubLink": "https://github.com/DEBASISH077",
+    "pageLink": "./Art/DEBASISH077-BouncingEffect/index.html",
+    "imageLink": "./Art/DEBASISH077-BouncingEffect/icon.png",
+    "projectPath": "Art/DEBASISH077-BouncingEffect"
   },
   {
     "author": "Debajyati",
@@ -129,6 +145,14 @@
   },
   {
     "author": "KC1064",
+    "artName": "Image Grid Animation",
+    "githubLink": "https://github.com/KC1064",
+    "pageLink": "./Art/KC1064-Grid-Animation/index.html",
+    "imageLink": "./Art/KC1064-Grid-Animation/icon.png",
+    "projectPath": "Art/KC1064-Grid-Animation"
+  },
+  {
+    "author": "KC1064",
     "artName": "Pop Up Text Animation",
     "githubLink": "https://github.com/KC1064",
     "pageLink": "./Art/KC1064-Pop_Up_Text/index.html",
@@ -184,6 +208,14 @@
     "projectPath": "Art/Kisalaykisu-ztmLogoAnimation"
   },
   {
+    "author": "Navdeepsingh4298",
+    "artName": "Linear Colorful Loader",
+    "githubLink": "https://github.com/Navdeepsingh4298",
+    "pageLink": "./Art/Navdeepsingh4298-linearColorfulLoader/index.html",
+    "imageLink": "./Art/Navdeepsingh4298-linearColorfulLoader/icon.png",
+    "projectPath": "Art/Navdeepsingh4298-linearColorfulLoader"
+  },
+  {
     "author": "Nishankulal03",
     "artName": "loader",
     "githubLink": "https://github.com/Nishankulal03",
@@ -198,6 +230,22 @@
     "pageLink": "./Art/Pauljd1-Pumpkin/index.html",
     "imageLink": "./Art/Pauljd1-Pumpkin/icon.png",
     "projectPath": "Art/Pauljd1-Pumpkin"
+  },
+  {
+    "author": "PragyaTripathi990",
+    "artName": "cards Animation",
+    "githubLink": "https://github.com/PragyaTripathi990",
+    "pageLink": "./Art/PragyaTripathi990-cardsAnimation/index.html",
+    "imageLink": "./Art/PragyaTripathi990-cardsAnimation/icon.png",
+    "projectPath": "Art/PragyaTripathi990-cardsAnimation"
+  },
+  {
+    "author": "ProfoundlyParker",
+    "artName": "Shop Like You Give a Damn",
+    "githubLink": "https://github.com/ProfoundlyParker",
+    "pageLink": "./Art/ProfoundlyParker-Shop-Like-You-Give-a-Damn/index.html",
+    "imageLink": "./Art/ProfoundlyParker-Shop-Like-You-Give-a-Damn/icon.png",
+    "projectPath": "Art/ProfoundlyParker-Shop-Like-You-Give-a-Damn"
   },
   {
     "author": "SJ-209",
@@ -273,6 +321,14 @@
   },
   {
     "author": "Tushar-0202-Shaw",
+    "artName": "Spinning Cube Animation",
+    "githubLink": "https://github.com/Tushar-0202-Shaw",
+    "pageLink": "./Art/Tushar-0202-Shaw-CubeAnimation/index.html",
+    "imageLink": "./Art/Tushar-0202-Shaw-CubeAnimation/icon.png",
+    "projectPath": "Art/Tushar-0202-Shaw-CubeAnimation"
+  },
+  {
+    "author": "Tushar-0202-Shaw",
     "artName": "Front Page",
     "githubLink": "https://github.com/Tushar-0202-Shaw",
     "pageLink": "./Art/Tushar-0202-Shaw-FrontPage/index.html",
@@ -326,6 +382,30 @@
     "pageLink": "./Art/bandhan-majumder-loadingDino/index.html",
     "imageLink": "./Art/bandhan-majumder-loadingDino/icon.png",
     "projectPath": "Art/bandhan-majumder-loadingDino"
+  },
+  {
+    "author": "chaitraDev",
+    "artName": "gavel",
+    "githubLink": "https://github.com/chaitraDev",
+    "pageLink": "./Art/chaitraDev_gavel/index.html",
+    "imageLink": "./Art/chaitraDev_gavel/icon.png",
+    "projectPath": "Art/chaitraDev_gavel"
+  },
+  {
+    "author": "chaitraDev",
+    "artName": "pulsating circles",
+    "githubLink": "https://github.com/chaitraDev",
+    "pageLink": "./Art/chaitraDev_pulsating_circles/index.html",
+    "imageLink": "./Art/chaitraDev_pulsating_circles/icon.png",
+    "projectPath": "Art/chaitraDev_pulsating_circles"
+  },
+  {
+    "author": "chaitraDev",
+    "artName": "spiral Move",
+    "githubLink": "https://github.com/chaitraDev",
+    "pageLink": "./Art/chaitraDev_spiralMove/index.html",
+    "imageLink": "./Art/chaitraDev_spiralMove/icon.png",
+    "projectPath": "Art/chaitraDev_spiralMove"
   },
   {
     "author": "charlomatic",
@@ -521,6 +601,14 @@
   },
   {
     "author": "ornitcg",
+    "artName": "blink",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-blink/index.html",
+    "imageLink": "./Art/ornitcg-blink/icon.png",
+    "projectPath": "Art/ornitcg-blink"
+  },
+  {
+    "author": "ornitcg",
     "artName": "coloredsquares",
     "githubLink": "https://github.com/ornitcg",
     "pageLink": "./Art/ornitcg-coloredsquares/index.html",
@@ -648,12 +736,28 @@
     "projectPath": "Art/stutxi-animatedEyes"
   },
   {
+    "author": "surajb0710",
+    "artName": "falling Characters",
+    "githubLink": "https://github.com/surajb0710",
+    "pageLink": "./Art/surajb0710-fallingCharacters/index.html",
+    "imageLink": "./Art/surajb0710-fallingCharacters/icon.png",
+    "projectPath": "Art/surajb0710-fallingCharacters"
+  },
+  {
     "author": "surjayankar",
     "artName": "Dynamic Rotating Squares",
     "githubLink": "https://github.com/surjayankar",
     "pageLink": "./Art/surjayankar-DynamicRotatingSquares/index.html",
     "imageLink": "./Art/surjayankar-DynamicRotatingSquares/icon.png",
     "projectPath": "Art/surjayankar-DynamicRotatingSquares"
+  },
+  {
+    "author": "surjayankar",
+    "artName": "Infinite Grid Background",
+    "githubLink": "https://github.com/surjayankar",
+    "pageLink": "./Art/surjayankar-InfiniteGridBackground/index.html",
+    "imageLink": "./Art/surjayankar-InfiniteGridBackground/icon.png",
+    "projectPath": "Art/surjayankar-InfiniteGridBackground"
   },
   {
     "author": "surjayankar",
@@ -670,5 +774,13 @@
     "pageLink": "./Art/terrifricker-bloom/index.html",
     "imageLink": "./Art/terrifricker-bloom/icon.png",
     "projectPath": "Art/terrifricker-bloom"
+  },
+  {
+    "author": "terrifricker",
+    "artName": "Rotating Square",
+    "githubLink": "https://github.com/terrifricker",
+    "pageLink": "./Art/terrifricker-rotatingSquare/index.html",
+    "imageLink": "./Art/terrifricker-rotatingSquare/icon.png",
+    "projectPath": "Art/terrifricker-rotatingSquare"
   }
 ]
