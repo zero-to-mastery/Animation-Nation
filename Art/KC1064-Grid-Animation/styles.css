@@ -33,17 +33,26 @@ body {
   grid-template-columns: 0.5fr 0.5fr 2fr;
 }
 
-.col {
-  background-size: cover;
-}
 
 .left {
-  background-image: url(./images/1.jpg);
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 .center {
-  background-image: url(./images/2.jpg);
-  background-position: center;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  
 }
 .right {
-  background-image: url(./images/3.jpg);
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
