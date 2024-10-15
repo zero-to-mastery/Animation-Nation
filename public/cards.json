@@ -145,6 +145,14 @@
   },
   {
     "author": "KC1064",
+    "artName": "Image Grid Animation",
+    "githubLink": "https://github.com/KC1064",
+    "pageLink": "./Art/KC1064-Grid-Animation/index.html",
+    "imageLink": "./Art/KC1064-Grid-Animation/icon.png",
+    "projectPath": "Art/KC1064-Grid-Animation"
+  },
+  {
+    "author": "KC1064",
     "artName": "Pop Up Text Animation",
     "githubLink": "https://github.com/KC1064",
     "pageLink": "./Art/KC1064-Pop_Up_Text/index.html",
