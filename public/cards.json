@@ -80,6 +80,14 @@
     "projectPath": "Art/DEBASISH077-BouncingEffect"
   },
   {
+    "author": "DEBASISH077",
+    "artName": "Ripple Effects",
+    "githubLink": "https://github.com/DEBASISH077",
+    "pageLink": "./Art/DEBASISH077-RippleEffect/index.html",
+    "imageLink": "./Art/DEBASISH077-RippleEffect/icon.png",
+    "projectPath": "Art/DEBASISH077-RippleEffect"
+  },
+  {
     "author": "Debajyati",
     "artName": "Omnitrix",
     "githubLink": "https://github.com/Debajyati",
@@ -334,6 +342,14 @@
     "pageLink": "./Art/Tushar-0202-Shaw-FrontPage/index.html",
     "imageLink": "./Art/Tushar-0202-Shaw-FrontPage/icon.png",
     "projectPath": "Art/Tushar-0202-Shaw-FrontPage"
+  },
+  {
+    "author": "Tushar-0202-Shaw",
+    "artName": "Front Page",
+    "githubLink": "https://github.com/Tushar-0202-Shaw",
+    "pageLink": "./Art/Tushar-0202-Shaw-InfiniteRoad/index.html",
+    "imageLink": "./Art/Tushar-0202-Shaw-InfiniteRoad/icon.png",
+    "projectPath": "Art/Tushar-0202-Shaw-InfiniteRoad"
   },
   {
     "author": "Yadnyesh-Dashpute",
