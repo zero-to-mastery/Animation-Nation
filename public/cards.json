@@ -352,6 +352,14 @@
     "projectPath": "Art/Tushar-0202-Shaw-InfiniteRoad"
   },
   {
+    "author": "Tushar-0202-Shaw",
+    "artName": "Image slider",
+    "githubLink": "https://github.com/Tushar-0202-Shaw",
+    "pageLink": "./Art/Tushar-0202-Shaw-imageSlider/index.html",
+    "imageLink": "./Art/Tushar-0202-Shaw-imageSlider/icon.png",
+    "projectPath": "Art/Tushar-0202-Shaw-imageSlider"
+  },
+  {
     "author": "Yadnyesh-Dashpute",
     "artName": "Animated Form",
     "githubLink": "https://github.com/Yadnyesh-Dashpute",
@@ -614,6 +622,14 @@
     "pageLink": "./Art/nabinkumarshaw-rotating_cube/index.html",
     "imageLink": "./Art/nabinkumarshaw-rotating_cube/icon.png",
     "projectPath": "Art/nabinkumarshaw-rotating_cube"
+  },
+  {
+    "author": "nikkvijay",
+    "artName": "Glowing Rotating Cube",
+    "githubLink": "https://github.com/nikkvijay",
+    "pageLink": "./Art/nikkvijay-GlowingRCube/index.html",
+    "imageLink": "./Art/nikkvijay-GlowingRCube/icon.png",
+    "projectPath": "Art/nikkvijay-GlowingRCube"
   },
   {
     "author": "ornitcg",
