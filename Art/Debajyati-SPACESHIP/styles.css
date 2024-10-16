@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    font-family: 'Space Grotesk';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #4f2873;
+}
+
+.title {
+    color: burlywood;
+    text-shadow: 5px 3px #0a0a0a;
+    text-align: center;
+    background-color: orangered;
+    margin: 10px;
+    padding: 20px;
+    border: groove 5px black;
+    box-shadow: 10px 10px;
+    max-width: fit-content;
+}
+
+#content {
+    margin-left: 4rem;
+    max-width: fit-content;
+    max-height: fit-content;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    animation: Rotate 10s infinite;
+}
+
+.spiral {
+    position: relative;
+    rotate: 45deg;
+    top: 10rem;
+    height: 50px;
+    width: 50px;
+    border: 5px solid orangered;
+}
+
+.dot {
+    position: absolute;
+    background-color: orangered;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    top: 50%;
+    left: calc(50% + 5px);
+}
+
+.two, .three, .four, .five, .six, .seven, .eight {
+    position: absolute;
+}
+
+.three {
+    left: 3.6rem;
+}
+
+.four {
+    left: calc(3.6rem + 10px)
+}
+
+.two, .six {
+    left: 10px;
+}
+
+.five, .six {
+    top: calc(400%);
+}
+
+.three, .four, .seven, .eight {
+    top: 12.5rem;
+}
+
+.seven {
+    right: 3.6rem;
+}
+
+.eight {
+    right: calc(3.6rem - 10px)
+}
+
+@keyframes Rotate {
+    from {
+        rotate: -360deg;
+    }
+    20% {
+        rotate: 0;
+        top: 5rem;
+        left: 2rem;
+    }
+    25% {
+        rotate: 0;
+        top: 3rem;
+        right: 3rem;
+    }
+    
+    66% {
+        rotate: 90deg;
+        top: 500px;
+    }
+    to {
+        rotate: 720deg;
+    }
+}
