@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+    color:#eee
+}
+
+.card {
+    display: inline-block;
+    width: 16rem;
+    height: 12rem;
+    background:  #fff;
+    overflow: hidden;
+    transition: all 0.3s;
+    transform: perspective(20px) rotateY(1deg);
+    overflow: hidden;
+    transition: all 0.3s;
+    transform: perspective(20px) rotateY(1deg);
+    clip-path: polygon(
+        50% 0%, 
+        61% 35%, 
+        98% 35%, 
+        68% 57%, 
+        79% 91%, 
+        50% 70%, 
+        21% 91%, 
+        32% 57%, 
+        2% 35%, 
+        39% 35%
+    );
+}
+.card:hover {
+  transform: perspective(20px) rotatey(0deg);
+  cursor: pointer;
+}
+
+.card:active {
+  transform: scale(0.96);
+}
+
+.card-swing {
+  animation: swing 4s infinite ease-in-out;
+}
+
+@keyframes swing {
+  0% {
+    transform:  rotatey(0deg);
+  }
+    25% {
+        transform: perspective(175px) rotateX(10deg) rotateY(10deg);
+    }
+  50% {
+    transform:  rotatey(0deg);
+  }
+  75% {
+    transform: perspective(175px) rotatex(10deg) rotatey(-10deg);
+  }
+   100% {
+    transform:  rotatey(0deg);
+  }
+}
