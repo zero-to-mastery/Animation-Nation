@@ -169,6 +169,14 @@
   },
   {
     "author": "KC1064",
+    "artName": "Menu Hover Animation",
+    "githubLink": "https://github.com/KC1064",
+    "pageLink": "./Art/KC1064-Menu-Animation/index.html",
+    "imageLink": "./Art/KC1064-Menu-Animation/icon.png",
+    "projectPath": "Art/KC1064-Menu-Animation"
+  },
+  {
+    "author": "KC1064",
     "artName": "Pop Up Text Animation",
     "githubLink": "https://github.com/KC1064",
     "pageLink": "./Art/KC1064-Pop_Up_Text/index.html",
