@@ -24,6 +24,14 @@
     "projectPath": "Art/AfreenInnovates-buttonswiggle"
   },
   {
+    "author": "AfreenInnovates",
+    "artName": "cube rotate animation",
+    "githubLink": "https://github.com/AfreenInnovates",
+    "pageLink": "./Art/AfreenInnovates-cube/index.html",
+    "imageLink": "./Art/AfreenInnovates-cube/icon.png",
+    "projectPath": "Art/AfreenInnovates-cube"
+  },
+  {
     "author": "AlexanderSanin",
     "artName": "spinning loader",
     "githubLink": "https://github.com/AlexanderSanin",
@@ -654,6 +662,14 @@
     "pageLink": "./Art/laurelinep-drippingCoffee/index.html",
     "imageLink": "./Art/laurelinep-drippingCoffee/icon.png",
     "projectPath": "Art/laurelinep-drippingCoffee"
+  },
+  {
+    "author": "maidxn",
+    "artName": "Just text",
+    "githubLink": "https://github.com/maidxn",
+    "pageLink": "./Art/maidx-waveText/index.html",
+    "imageLink": "./Art/maidx-waveText/icon.png",
+    "projectPath": "Art/maidx-waveText"
   },
   {
     "author": "maidxn",
