@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB;
+    overflow: hidden;
+}
+
+.scene {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    perspective: 1000px;
+}
+
+.horse {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 20px;
+    left: 0;
+    animation: gallop-out 3s infinite linear;
+}
+
+@keyframes gallop-out {
+    0% {
+        transform: translateX(-100%) rotateY(-20deg) scale(0.6);
+    }
+
+    100% {
+        transform: translateX(100%) rotateY(-20deg) scale(1.2);
+    }
+}
+
+.body {
+    width: 120px;
+    height: 80px;
+    background-color: #8B4513;
+    border-radius: 60px 60px 0 0;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.head {
+    width: 60px;
+    height: 80px;
+    background-color: #8B4513;
+    border-radius: 50% 50% 20% 20%;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    transform-origin: bottom center;
+    animation: head-bob 0.25s infinite alternate;
+}
+
+@keyframes head-bob {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+.eye {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.pupil {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    animation: look-around 2s infinite;
+}
+
+@keyframes look-around {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(-3px, -3px);
+    }
+
+    50% {
+        transform: translate(3px, 3px);
+    }
+
+    75% {
+        transform: translate(-3px, 3px);
+    }
+}
+
+.mane {
+    width: 10px;
+    height: 60px;
+    background-color: #4B3621;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    transform-origin: top center;
+    animation: mane-wave 0.2s infinite alternate;
+}
+
+@keyframes mane-wave {
+    0% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+.leg {
+    width: 20px;
+    height: 60px;
+    background-color: #8B4513;
+    position: absolute;
+    bottom: 0;
+}
+
+.front-leg {
+    left: 20px;
+    animation: front-leg-kick 0.25s infinite alternate;
+}
+
+.back-leg {
+    right: 20px;
+    animation: back-leg-kick 0.25s infinite alternate;
+}
+
+@keyframes front-leg-kick {
+    0% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+@keyframes back-leg-kick {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+
+.tail {
+    width: 40px;
+    height: 10px;
+    background-color: #4B3621;
+    position: absolute;
+    bottom: 70px;
+    left: -20px;
+    transform-origin: right center;
+    animation: tail-wag 0.2s infinite alternate;
+}
+
+@keyframes tail-wag {
+    0% {
+        transform: rotate(-20deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+}
+
+.ground {
+    width: 100%;
+    height: 20px;
+    background-color: #228B22;
+    position: absolute;
+    bottom: 0;
+}
