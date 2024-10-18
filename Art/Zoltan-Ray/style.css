@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff6b6b, #ffcc5c, #88d8b0, #6b6bff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, rgba(255,0,150,1) 0%, rgba(0,204,255,1) 100%);
+    border-radius: 50%;
+    animation: move 3s ease-in-out infinite, scale 2s ease-in-out infinite alternate;
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+@keyframes move {
+    0% {transform: translateY(0) rotate(0deg);}
+    50% {transform: translateY(-50px) rotate(180deg);}
+    100% {transform: translateY(0) rotate(360deg);}
+}
+
+@keyframes scale {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.5);}
+}
