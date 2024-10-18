@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Enhanced Rocket Launch Animation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scene">
+      <div class="sky">
+        <div class="stars"></div>
+        <div class="celestial-bodies">
+          <!-- Moon -->
+          <div class="moon"></div>
+          <!-- Planet -->
+          <div class="planet"></div>
+        </div>
+        <div class="clouds">
+          <div class="cloud"></div>
+          <div class="cloud"></div>
+          <div class="cloud"></div>
+        </div>
+        <div class="rocket">
+          <!-- Rocket SVG -->
+          <svg viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+            <!-- Rocket Body with Gradient -->
+            <defs>
+              <linearGradient
+                id="bodyGradient"
+                x1="0%"
+                y1="0%"
+                x2="0%"
+                y2="100%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #e0e0e0; stop-opacity: 1" />
+                <stop
+                  offset="100%"
+                  style="stop-color: #9e9e9e; stop-opacity: 1" />
+              </linearGradient>
+              <linearGradient
+                id="finGradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #f44336; stop-opacity: 1" />
+                <stop
+                  offset="100%"
+                  style="stop-color: #d32f2f; stop-opacity: 1" />
+              </linearGradient>
+            </defs>
+            <!-- Body -->
+            <rect
+              x="45"
+              y="60"
+              width="10"
+              height="80"
+              fill="url(#bodyGradient)" />
+            <!-- Nose Cone -->
+            <polygon points="50,20 35,60 65,60" fill="url(#finGradient)" />
+            <!-- Left Fin -->
+            <polygon points="45,140 30,160 45,160" fill="url(#finGradient)" />
+            <!-- Right Fin -->
+            <polygon points="55,140 70,160 55,160" fill="url(#finGradient)" />
+            <!-- Windows -->
+            <circle cx="50" cy="80" r="3" fill="#2196F3" />
+            <circle cx="50" cy="90" r="3" fill="#2196F3" />
+            <circle cx="50" cy="100" r="3" fill="#2196F3" />
+            <!-- Logo -->
+            <text
+              x="50%"
+              y="130"
+              text-anchor="middle"
+              fill="#FFFFFF"
+              font-size="8"
+              font-family="Arial"
+              transform="rotate(-90,50,130)">
+              Space Co.
+            </text>
+            <!-- Exhaust Flames -->
+            <polygon
+              class="flame"
+              points="50,140 40,170 60,170"
+              fill="#ff9800" />
+          </svg>
+        </div>
+      </div>
+      <div class="ground">
+        <div class="launch-pad"></div>
+      </div>
+    </div>
+  </body>
+</html>
