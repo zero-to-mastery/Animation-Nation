@@ -24,6 +24,14 @@
     "projectPath": "Art/AfreenInnovates-buttonswiggle"
   },
   {
+    "author": "AfreenInnovates",
+    "artName": "cube rotate animation",
+    "githubLink": "https://github.com/AfreenInnovates",
+    "pageLink": "./Art/AfreenInnovates-cube/index.html",
+    "imageLink": "./Art/AfreenInnovates-cube/icon.png",
+    "projectPath": "Art/AfreenInnovates-cube"
+  },
+  {
     "author": "AlexanderSanin",
     "artName": "spinning loader",
     "githubLink": "https://github.com/AlexanderSanin",
@@ -144,6 +152,14 @@
     "projectPath": "Art/Dhruv-Davda-AnimatedButton"
   },
   {
+    "author": "Emmykeys101",
+    "artName": "anime Art",
+    "githubLink": "https://github.com/Emmykeys101",
+    "pageLink": "./Art/Emmykeys101-animeArt/index.html",
+    "imageLink": "./Art/Emmykeys101-animeArt/icon.png",
+    "projectPath": "Art/Emmykeys101-animeArt"
+  },
+  {
     "author": "HASH-0021",
     "artName": "Telephone",
     "githubLink": "https://github.com/HASH-0021",
@@ -158,6 +174,14 @@
     "pageLink": "./Art/HossamGouda-CirclePulse/index.html",
     "imageLink": "./Art/HossamGouda-CirclePulse/icon.png",
     "projectPath": "Art/HossamGouda-CirclePulse"
+  },
+  {
+    "author": "HossamGouda",
+    "artName": "Rocket Launch",
+    "githubLink": "https://github.com/HossamGouda",
+    "pageLink": "./Art/HossamGouda-Rocket-Launch/index.html",
+    "imageLink": "./Art/HossamGouda-Rocket-Launch/icon.png",
+    "projectPath": "Art/HossamGouda-Rocket-Launch"
   },
   {
     "author": "Isabelle36",
@@ -302,6 +326,14 @@
     "pageLink": "./Art/RAj5517-animated_profilecard/index.html",
     "imageLink": "./Art/RAj5517-animated_profilecard/icon.png",
     "projectPath": "Art/RAj5517-animated_profilecard"
+  },
+  {
+    "author": "RaHasib",
+    "artName": "Flickering Stars",
+    "githubLink": "https://github.com/RaHasib",
+    "pageLink": "./Art/RaHasib-flickeringStars/index.html",
+    "imageLink": "./Art/RaHasib-flickeringStars/icon.png",
+    "projectPath": "Art/RaHasib-flickeringStars"
   },
   {
     "author": "SJ-209",
@@ -638,6 +670,14 @@
     "pageLink": "./Art/laurelinep-drippingCoffee/index.html",
     "imageLink": "./Art/laurelinep-drippingCoffee/icon.png",
     "projectPath": "Art/laurelinep-drippingCoffee"
+  },
+  {
+    "author": "maidxn",
+    "artName": "Just text",
+    "githubLink": "https://github.com/maidxn",
+    "pageLink": "./Art/maidx-waveText/index.html",
+    "imageLink": "./Art/maidx-waveText/icon.png",
+    "projectPath": "Art/maidx-waveText"
   },
   {
     "author": "maidxn",
