@@ -1,0 +1,51 @@
+git add ..animation-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the animation */
+.animation-container {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Ball element */
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: relative;
+    animation: bounce 2s infinite ease-in-out;
+}
+
+/* Keyframe animation for bouncing effect */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-300px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
