@@ -17,6 +17,14 @@
   },
   {
     "author": "AfreenInnovates",
+    "artName": "Indian flag animation",
+    "githubLink": "https://github.com/AfreenInnovates",
+    "pageLink": "./Art/AfreenInnovates-Indianflag/index.html",
+    "imageLink": "./Art/AfreenInnovates-Indianflag/icon.png",
+    "projectPath": "Art/AfreenInnovates-Indianflag"
+  },
+  {
+    "author": "AfreenInnovates",
     "artName": "wiggling buttons",
     "githubLink": "https://github.com/AfreenInnovates",
     "pageLink": "./Art/AfreenInnovates-buttonswiggle/index.html",
