@@ -17,6 +17,14 @@
   },
   {
     "author": "AfreenInnovates",
+    "artName": "Indian flag animation",
+    "githubLink": "https://github.com/AfreenInnovates",
+    "pageLink": "./Art/AfreenInnovates-Indianflag/index.html",
+    "imageLink": "./Art/AfreenInnovates-Indianflag/icon.png",
+    "projectPath": "Art/AfreenInnovates-Indianflag"
+  },
+  {
+    "author": "AfreenInnovates",
     "artName": "wiggling buttons",
     "githubLink": "https://github.com/AfreenInnovates",
     "pageLink": "./Art/AfreenInnovates-buttonswiggle/index.html",
@@ -174,6 +182,22 @@
     "pageLink": "./Art/HossamGouda-CirclePulse/index.html",
     "imageLink": "./Art/HossamGouda-CirclePulse/icon.png",
     "projectPath": "Art/HossamGouda-CirclePulse"
+  },
+  {
+    "author": "HossamGouda",
+    "artName": "Rocket Launch",
+    "githubLink": "https://github.com/HossamGouda",
+    "pageLink": "./Art/HossamGouda-Rocket-Launch/index.html",
+    "imageLink": "./Art/HossamGouda-Rocket-Launch/icon.png",
+    "projectPath": "Art/HossamGouda-Rocket-Launch"
+  },
+  {
+    "author": "HossamGouda",
+    "artName": "Solar System Animation",
+    "githubLink": "https://github.com/HossamGouda",
+    "pageLink": "./Art/HossamGouda-Solar-System/index.html",
+    "imageLink": "./Art/HossamGouda-Solar-System/icon.png",
+    "projectPath": "Art/HossamGouda-Solar-System"
   },
   {
     "author": "Isabelle36",
