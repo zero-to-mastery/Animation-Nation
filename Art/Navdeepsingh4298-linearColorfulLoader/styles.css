@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  -webkit-box-reflect: below 12px linear-gradient(transparent, #0005);
+}
+
+.container .box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    45deg,
+    #00f376 40%,
+    transparent 10%,
+    transparent 50%,
+    #00f376 50%,
+    #00f376 60%,
+    transparent 60%,
+    transparent 100%
+  );
+  background-size: 40px 40px;
+  transform: rotate(calc(var(--i) * 0deg));
+  filter: hue-rotate(calc(var(--i) * 45deg));
+  animation: animate 0.5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 40px;
+  }
+}

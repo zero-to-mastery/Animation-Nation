@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+  
+  .eclipse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+
+  .sun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+  }
+
+
+  .moon{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    background-color: rgb(54, 52, 52);
+    position: absolute;
+    animation: move 5s infinite;
+  }
+
+
+
+  @keyframes move {
+    0% {
+      left: -100%;
+    } 
+    
+    100% {
+      left: 100%;
+    }
+   
+  }
