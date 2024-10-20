@@ -1,44 +1,45 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
+const { formatProjectName } = require("./utils");
+const { handleMissingMetaData } = require("./__fixWithMetaData");
 
 const artDir = "./Art";
 
 // Function to generate the includes.js content
-function generateIncludes() {
+async function generateIncludes() {
   const studentDirs = fs
     .readdirSync(artDir)
     .filter((dir) => fs.lstatSync(path.join(artDir, dir)).isDirectory());
 
   const cards = [];
 
-  studentDirs.forEach((dir) => {
-    const projectPath = path.join(artDir, dir);
+  for(const dir of studentDirs){
+    const projectPath 		= path.join(artDir, dir);
+    const metaDataPath 		= path.resolve(projectPath, 'meta.json');
 
-    // Use directory name, splitting on the last hyphen
-    const lastHyphenIndex = dir.lastIndexOf('-');
-    const authorName = dir.substring(0, lastHyphenIndex); // Everything before the last hyphen
-    let projectName = dir.substring(lastHyphenIndex + 1); // Everything after the last hyphen
-    projectName = projectName.replace(/([A-Z])/g, ' $1').trim(); // Handles camel case project name
+    // Gets HTML and CSS file paths
+    const pageLink = `./Art/${dir}/index.html`;
+    const imageLink = `./Art/${dir}/icon.png`;
 
-    // Handles underscores case in project name
-    if( projectName.includes('_') ){
-      projectName = projectName.replace(/(_)/g, ' ').trim();
-    }
+    // TODO: Removes once repo is updated -  Handle Mission MetaData
+    let doMetaDataExist = fs.existsSync(metaDataPath)
+    if(!doMetaDataExist){
+      await handleMissingMetaData(dir)
+    } // TODO END: ------------------------------------------------
 
-    const projectUrl = `./Art/${dir}/index.html`;
-    const projectImage = `./Art/${dir}/icon.png`;
-
+    // Loads contribution meta data info
+    const metaData = require(metaDataPath);
+	 
     // Add the project to the cards array
     cards.push({
-      artName: projectName,
-      pageLink: projectUrl,
-      imageLink: projectImage,
-      author: authorName,
-      githubLink: `https://github.com/${authorName}`,
+      author: metaData.githubHandle,
+      artName: formatProjectName( metaData.artName ),
+      githubLink: `https://github.com/${ metaData.githubHandle }`,
+      pageLink,
+      imageLink,
       projectPath
     });
-  });
-
+   }
 
   // Write the content to includes.js file
   fs.writeFileSync("public/cards.json", JSON.stringify(cards, null, 2));

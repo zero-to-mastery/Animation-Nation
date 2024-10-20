@@ -8,11 +8,14 @@ While you're waiting, please look over this checklist. Feel free to write a desc
 
 ## Pull request checklist
 
-- [ ] This pull request uses **HTML and CSS** only.
+- [ ] This pull request uses **HTML and CSS** only and provides a `meta.json` file.
 - [ ] All files in this pull request are in a directory named: `<github_username>-<art_name>` without the <>.
-- [ ] Your pull request contains only `index.html` and `styles.css`.
-- [ ] Your html file is named exactly: `index.html`
-- [ ] Your css file is named exactly: `styles.css`
+- [ ] Your pull request contains `index.html` and `styles.css`.
+	- [ ] Your html file is named exactly: `index.html`
+	- [ ] Your css file is named exactly: `styles.css`
+- [ ] Your pull request your `meta.json` with:
+	- [ ] `githubHandle`: being your unique github user name,
+	- [ ] `artName` : name of your animation
 - [ ] Your submission includes **at least one animation**.
 - [ ] Your pull request **does not modify any other files** in the repository.
 

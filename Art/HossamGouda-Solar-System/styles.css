@@ -1,0 +1,280 @@
+/* General Styles */
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.universe {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  overflow: hidden;
+}
+
+/* Stars Background */
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+.stars::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  top: 0;
+  left: 0;
+  /* Generating stars using multiple box-shadows */
+  box-shadow:
+    /* white stars */
+    1vw 2vh #FFF,
+    15vw 20vh #FFF,
+    25vw 30vh #FFF,
+    35vw 40vh #FFF,
+    50vw 60vh #FFF,
+    60vw 70vh #FFF,
+    70vw 80vh #FFF,
+    80vw 85vh #FFF,
+    90vw 90vh #FFF,
+    10vw 95vh #FFF,
+    /* yellow stars */
+    5vw 10vh #FFD700,
+    20vw 25vh #FFD700,
+    30vw 35vh #FFD700,
+    40vw 45vh #FFD700,
+    55vw 55vh #FFD700,
+    65vw 65vh #FFD700,
+    75vw 75vh #FFD700,
+    85vw 85vh #FFD700,
+    95vw 95vh #FFD700;
+  animation: twinkle 100s linear infinite;
+}
+
+/* Nebula */
+.nebula {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 0, 255, 0.2), transparent 70%),
+              radial-gradient(circle at 20% 80%, rgba(0, 255, 255, 0.15), transparent 70%),
+              radial-gradient(circle at 80% 20%, rgba(255, 255, 0, 0.1), transparent 70%);
+  animation: nebula-move 120s ease-in-out infinite;
+}
+
+/* Sun */
+.sun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6vh;
+  height: 6vh;
+  margin: -3vh;
+  background: radial-gradient(circle, #FFD700, #FFA500);
+  border-radius: 50%;
+  box-shadow: 0 0 3vh #FF8C00, 0 0 6vh #FF8C00, 0 0 9vh #FF8C00;
+}
+
+/* Orbits */
+.orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 0.1vh dashed rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform-origin: center;
+}
+
+/* Planets */
+.planet {
+  position: absolute;
+  top: -1vh;
+  left: calc(50% - 1vh);
+  width: 2vh;
+  height: 2vh;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/* Individual Planets */
+/* Mercury */
+.orbit-mercury {
+  width: 10vh;
+  height: 10vh;
+  margin: -5vh;
+  animation: rotate-orbit 15s linear infinite;
+}
+.mercury {
+  background-color: #aaa;
+}
+
+/* Venus */
+.orbit-venus {
+  width: 15vh;
+  height: 15vh;
+  margin: -7.5vh;
+  animation: rotate-orbit 20s linear infinite;
+}
+.venus {
+  background-color: #d4af37;
+}
+
+/* Earth */
+.orbit-earth {
+  width: 20vh;
+  height: 20vh;
+  margin: -10vh;
+  animation: rotate-orbit 25s linear infinite;
+}
+.earth {
+  background-color: #2196F3;
+}
+
+/* Mars */
+.orbit-mars {
+  width: 25vh;
+  height: 25vh;
+  margin: -12.5vh;
+  animation: rotate-orbit 30s linear infinite;
+}
+.mars {
+  background-color: #B22222;
+}
+
+/* Jupiter */
+.orbit-jupiter {
+  width: 35vh;
+  height: 35vh;
+  margin: -17.5vh;
+  animation: rotate-orbit 35s linear infinite;
+}
+.jupiter {
+  width: 4vh;
+  height: 4vh;
+  top: -2vh;
+  left: calc(50% - 2vh);
+  background-color: #DEB887;
+}
+
+/* Saturn */
+.orbit-saturn {
+  width: 45vh;
+  height: 45vh;
+  margin: -22.5vh;
+  animation: rotate-orbit 40s linear infinite;
+}
+.saturn {
+  width: 3.5vh;
+  height: 3.5vh;
+  top: -1.75vh;
+  left: calc(50% - 1.75vh);
+  background-color: #D2B48C;
+  position: relative;
+}
+.saturn .ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5vh;
+  height: 1vh;
+  margin-top: -0.5vh;
+  margin-left: -2.5vh;
+  background: rgba(210, 180, 140, 0.5);
+  border-radius: 50%;
+  transform: rotate(20deg);
+}
+
+/* Uranus */
+.orbit-uranus {
+  width: 55vh;
+  height: 55vh;
+  margin: -27.5vh;
+  animation: rotate-orbit 45s linear infinite;
+}
+.uranus {
+  background-color: #AFEEEE;
+}
+
+/* Neptune */
+.orbit-neptune {
+  width: 65vh;
+  height: 65vh;
+  margin: -32.5vh;
+  animation: rotate-orbit 50s linear infinite;
+}
+.neptune {
+  background-color: #4682B4;
+}
+
+/* Shooting Stars */
+.shooting-star {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  width: 0.2vh;
+  height: 100vh;
+  background: linear-gradient(0deg, transparent, #fff);
+  transform: rotate(45deg);
+  opacity: 0;
+  animation: shoot 5s linear infinite;
+}
+
+.shooting-star.delay-1 {
+  animation-delay: 2s;
+}
+
+.shooting-star.delay-2 {
+  animation-delay: 4s;
+}
+
+/* Animations */
+@keyframes rotate-orbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes twinkle {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes nebula-move {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.1) translate(-5%, -5%);
+  }
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+}
+
+@keyframes shoot {
+  0% {
+    top: -10%;
+    left: 50%;
+    opacity: 1;
+  }
+  100% {
+    top: 110%;
+    left: 150%;
+    opacity: 0;
+  }
+}
