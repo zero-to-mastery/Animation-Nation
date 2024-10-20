@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Slackey|Comfortaa|Slackside+One&display=swap');
+
+:root {
+    --main: #03dac6;
+    --main-header: #25c2c0a6;
+    --main-darker: #017170c3;
+    --main-deep: #00a8b7;
+    --shadow: rgba(255, 255, 255, 0.151);
+    --main-10: #03dac61a;
+    --main-20: #03dac61f;
+    --main-30: #03dac630;
+    --main-40: #03dac640;
+    --main-50: #03dac650;
+}
+
+body {
+    text-align: center;
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa';
+}
+
+/* Overrides Browser Defaults */
+p,
+h3,
+a,
+ul {
+    text-decoration: none;
+    color: #333;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000;
+    background: #1a1a1ade;
+    border-bottom: 2px solid var(--main-20);
+}
+
+#header h1 {
+    font-size: 2.5rem; 
+    margin: 0;
+    color: var(--main);
+}
+
+#header p {
+    margin-top: 20px;
+    color: var(--main-50);
+}
+
+.card-container {
+    padding-top: 50px;
+}
+
+
+.flex {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    -ms-box-orient: horizontal;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex-content {
+    
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3vw;
+    padding: 50px;
+    grid-gap: 20px;
+    overflow: hidden;
+}
+
+.card {
+    background-color: #1a1a1ace;
+    padding: 30px;
+    backdrop-filter: blur(1px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    height: 40vh;
+    min-width: 250px;
+    width: 18vw;
+    max-width: 250px;
+    border: 2px solid var(--main-30);
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+
+.card a, .card p, .card h3 {
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    backdrop-filter: blur(0px);
+    box-shadow: 0 5px 25px 0px var(--shadow);
+}
+
+.art-image {
+    width: 18vw;
+    height: 18vw;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    vertical-align: middle;
+    border-radius: 100%;
+    border: 2.5px solid var(--main-darker);
+    padding: 5px;
+    object-fit: cover;
+}
+
+.art-title {
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+
+.art-title h3 {
+    margin: auto;
+    color: var(--main-deep);
+}
+
+.author a { text-transform: uppercase;
+    padding: 10px;
+    line-height: 15px;
+    font-size: 1rem;
+    color: var(--main-50);
+}
+
+
+/* Go to top */
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    background-color: var(--main-header);
+    color: #fff;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.go-to-top.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.go-to-top span {
+    display: inline-block;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-5px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(85, 84, 84, 0.364);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #161616fb;
+    box-shadow: inset 0 0 5px var(--main-header);
+    border-radius: 10px;
+}
+
+/* Handles scrollbar-thumb*/
+::-webkit-scrollbar-thumb {
+    background: var(--main);
+    border-radius: 10px;
+}
+
+/* Handles on scrollbar hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(88, 194, 250);
+}
