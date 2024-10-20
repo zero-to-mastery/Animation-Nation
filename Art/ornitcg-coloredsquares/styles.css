@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+  
+  .innerone {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    border: 2px;
+    border-style: dotted;
+    border-color: black;
+    background: green;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    }
+
+    .innertwo{
+        width: 180px;
+        height: 180px;
+        border: 2px;
+        border-style: dotted;
+        border-color: black;
+        background: green;
+        animation-name: example1;
+        animation-duration: 4s;
+        animation-iteration-count: 10;
+
+
+    }
+  
+  .outer {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    background: red;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    }
+  
+  
+  
+  @keyframes example1 {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+  @keyframes example2 {
+    0%   {background-color: yellow;}
+    25%  {background-color: olive;}
+    50%  {background-color: orchid;}
+    100% {background-color: rgb(51, 204, 209);}
+  }

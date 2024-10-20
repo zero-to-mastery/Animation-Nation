@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+  
+
+.eye {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  
+}
+
+
+.eye::after {
+  content: "" ;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  margin: 0px; 
+  height: 300px;
+  width: 300px;
+  background-color: rgb(5, 5, 5);
+  border-radius: 0% 0% 50% 50% / 30%;
+  animation: blink 4s infinite ease-out;
+}
+
+@keyframes blink {
+  0%, 90%, 96%, 100% {
+    height: 0px;
+  }
+  93%, 99%{
+    height: 300px;
+  }
+}
+
+ 
+.pupil{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 0px;
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  animation: lookdirection 5s infinite;
+
+
+}
+
+.shine {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  animation: moveshine 5s infinite;
+}
+  
+
+@keyframes lookdirection{
+  0% {
+    left: -20%;
+  } 
+  50% {
+    left: 30%;
+  }
+  100% {
+    left: -20%;
+  } 
+}
+  
+
+@keyframes moveshine{
+  0% {
+    left: 20%;
+  } 
+  50% {
+    left: 30%;
+  }
+  100% {
+    left: 0%;
+  } 
+}
+
+

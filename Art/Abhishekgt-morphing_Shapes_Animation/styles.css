@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    font-family: Arial, sans-serif;
+}
+
+.animated-title {
+    font-size: 36px; /* Larger text for better readability */
+    font-weight: bold;
+    color: #ffffff; /* White color for high contrast */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+                 0 0 20px rgba(255, 255, 255, 0.6), 
+                 0 0 30px rgba(255, 255, 255, 0.4), 
+                 0 0 40px #ff512f, 
+                 0 0 70px #ff512f, 
+                 0 0 80px #dd2476, 
+                 0 0 100px #dd2476;
+    animation: pulse-glow 2s infinite alternate;
+}
+
+@keyframes pulse-glow {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+                     0 0 20px rgba(255, 255, 255, 0.6), 
+                     0 0 30px rgba(255, 255, 255, 0.4), 
+                     0 0 40px #ff512f, 
+                     0 0 70px #ff512f, 
+                     0 0 80px #dd2476, 
+                     0 0 100px #dd2476;
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 1), 
+                     0 0 30px rgba(255, 255, 255, 0.8), 
+                     0 0 40px rgba(255, 255, 255, 0.6), 
+                     0 0 50px #ff512f, 
+                     0 0 80px #ff512f, 
+                     0 0 90px #dd2476, 
+                     0 0 120px #dd2476;
+    }
+}
+
+.morphing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.morphing-shape {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    animation: morphing 4s infinite ease-in-out;
+}
+
+@keyframes morphing {
+    0% {
+        border-radius: 0; /* Square */
+        transform: scale(1);
+    }
+    25% {
+        border-radius: 50%; /* Circle */
+        transform: scale(1.2);
+    }
+    50% {
+        border-radius: 0% 50% 50% 50%; /* Triangle-like shape */
+        transform: scale(1);
+    }
+    75% {
+        border-radius: 50% 0% 50% 0%; /* Diamond-like shape */
+        transform: scale(0.8);
+    }
+    100% {
+        border-radius: 0; /* Back to Square */
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .square {
+    width: 100px;
+    aspect-ratio: 1;
+    animation-delay: 250ms;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: spin;
+  }
+  @keyframes spin {
+    0% {
+      width: 100px;
+      border: 2pt solid #f7240c;
+      transform: rotate(1.25turn)
+    }
+    25% {
+      width: 150px;
+      border: 2pt solid #30f70c;
+      transform: rotate(2.50turn)
+    }
+    50% {
+      width: 200px;
+      border: 2pt solid #0c3bf7;
+      transform: rotate(1.25turn)
+    }
+    100% {
+      width: 150px;
+      border: 2pt solid #f70ca1;
+      transform: rotate(2.50turn)
+    }
+  }

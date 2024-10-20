@@ -1,0 +1,31 @@
+*{
+    margin:0;   padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    height:100vh; width:100vw;
+    display: flex;  align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#circle{
+    height:60%; aspect-ratio: 1;
+    background-image: linear-gradient(0deg, red,orange);
+    border-radius: 100%;
+    animation: rise ease-out 3s infinite alternate-reverse;
+}
+
+@keyframes rise {
+    0%{
+        rotate:0deg;
+        transform: translate(-30%,-100%);
+        scale:0%;
+    }
+    100%{
+        transform: translate(10%);
+        rotate:360deg;
+        scale:100%;
+    }
+}

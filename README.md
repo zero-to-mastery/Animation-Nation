@@ -70,8 +70,19 @@ Working in the master or main branch is often frowned upon and are usually expec
 Now for the fun part! Inside the `Art/` folder:
 
 - Create a new directory named: <github_username>-<art_name> eg. `mattcsmith-helloworld`.
-- Inside **your** folder, create an index.html file
-- Inside **your** folder, create an styles.css file
+- Inside **your** folder, create an `index.html` file
+- Inside **your** folder, create an `styles.css` file
+- Inside **your** folder, create an `meta.json` file   
+to specify your art name, github author and github link  
+Note: copy the following snippet and replace only the values with your own details,  
+Do not change the JSON keys.
+```json
+// Example
+{
+    "artName": "hello world",
+    "githubHandle": "mattcsmith"
+}
+```
 - Use these to create your **animated artwork** — let your creativity flow!
 
 ⚠️ It is important to name the directory and your files exactly as mentioned above ⚠️
