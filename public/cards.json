@@ -16,6 +16,14 @@
     "projectPath": "Art/AbdulRehmanGHub-NeonBorderAnimations"
   },
   {
+    "author": "Abhishekgt",
+    "artName": "Morphing Shapes Animation",
+    "githubLink": "https://github.com/Abhishekgt",
+    "pageLink": "./Art/Abhishekgt-morphing_Shapes_Animation/index.html",
+    "imageLink": "./Art/Abhishekgt-morphing_Shapes_Animation/icon.png",
+    "projectPath": "Art/Abhishekgt-morphing_Shapes_Animation"
+  },
+  {
     "author": "AfreenInnovates",
     "artName": "Indian flag animation",
     "githubLink": "https://github.com/AfreenInnovates",
@@ -104,12 +112,28 @@
     "projectPath": "Art/BrianCheung1-Balloons"
   },
   {
+    "author": "Codeioholic",
+    "artName": "Loading Screen",
+    "githubLink": "https://github.com/Codeioholic",
+    "pageLink": "./Art/Codeioholic-LoadingScreen/index.html",
+    "imageLink": "./Art/Codeioholic-LoadingScreen/icon.png",
+    "projectPath": "Art/Codeioholic-LoadingScreen"
+  },
+  {
     "author": "DEBASISH077",
-    "artName": "Bouncing Effects",
+    "artName": "Horizontal Car_Animation",
     "githubLink": "https://github.com/DEBASISH077",
     "pageLink": "./Art/DEBASISH077-BouncingEffect/index.html",
     "imageLink": "./Art/DEBASISH077-BouncingEffect/icon.png",
     "projectPath": "Art/DEBASISH077-BouncingEffect"
+  },
+  {
+    "author": "DEBASISH077",
+    "artName": "Horizontal Car Animation",
+    "githubLink": "https://github.com/DEBASISH077",
+    "pageLink": "./Art/DEBASISH077-Horizontal_Car_Animation/index.html",
+    "imageLink": "./Art/DEBASISH077-Horizontal_Car_Animation/icon.png",
+    "projectPath": "Art/DEBASISH077-Horizontal_Car_Animation"
   },
   {
     "author": "DEBASISH077",
@@ -257,11 +281,27 @@
   },
   {
     "author": "Kaif-Azmi",
+    "artName": "Color filling animation",
+    "githubLink": "https://github.com/Kaif-Azmi",
+    "pageLink": "./Art/Kaif-Azmi-Colour-Fill/index.html",
+    "imageLink": "./Art/Kaif-Azmi-Colour-Fill/icon.png",
+    "projectPath": "Art/Kaif-Azmi-Colour-Fill"
+  },
+  {
+    "author": "Kaif-Azmi",
     "artName": "Hacktoberfest Animation",
     "githubLink": "https://github.com/Kaif-Azmi",
     "pageLink": "./Art/Kaif-Azmi-Hacktoberfest-Animation/index.html",
     "imageLink": "./Art/Kaif-Azmi-Hacktoberfest-Animation/icon.png",
     "projectPath": "Art/Kaif-Azmi-Hacktoberfest-Animation"
+  },
+  {
+    "author": "Kaif-Azmi",
+    "artName": "Submit button cool animation",
+    "githubLink": "https://github.com/Kaif-Azmi",
+    "pageLink": "./Art/Kaif-Azmi-SubmitBtn-Animation/index.html",
+    "imageLink": "./Art/Kaif-Azmi-SubmitBtn-Animation/icon.png",
+    "projectPath": "Art/Kaif-Azmi-SubmitBtn-Animation"
   },
   {
     "author": "Kisalaykisu",
