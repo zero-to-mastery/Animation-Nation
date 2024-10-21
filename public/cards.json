@@ -121,11 +121,19 @@
   },
   {
     "author": "DEBASISH077",
-    "artName": "Bouncing Effects",
+    "artName": "Horizontal Car_Animation",
     "githubLink": "https://github.com/DEBASISH077",
     "pageLink": "./Art/DEBASISH077-BouncingEffect/index.html",
     "imageLink": "./Art/DEBASISH077-BouncingEffect/icon.png",
     "projectPath": "Art/DEBASISH077-BouncingEffect"
+  },
+  {
+    "author": "DEBASISH077",
+    "artName": "Horizontal Car Animation",
+    "githubLink": "https://github.com/DEBASISH077",
+    "pageLink": "./Art/DEBASISH077-Horizontal_Car_Animation/index.html",
+    "imageLink": "./Art/DEBASISH077-Horizontal_Car_Animation/icon.png",
+    "projectPath": "Art/DEBASISH077-Horizontal_Car_Animation"
   },
   {
     "author": "DEBASISH077",
