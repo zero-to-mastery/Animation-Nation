@@ -48,6 +48,14 @@
     "projectPath": "Art/AfreenInnovates-cube"
   },
   {
+    "author": "AfreenInnovates",
+    "artName": "cube grow_rotate",
+    "githubLink": "https://github.com/AfreenInnovates",
+    "pageLink": "./Art/AfreenInnovates-cube_grow_rotate/index.html",
+    "imageLink": "./Art/AfreenInnovates-cube_grow_rotate/icon.png",
+    "projectPath": "Art/AfreenInnovates-cube_grow_rotate"
+  },
+  {
     "author": "AlexanderSanin",
     "artName": "spinning loader",
     "githubLink": "https://github.com/AlexanderSanin",
