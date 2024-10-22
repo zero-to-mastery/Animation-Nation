@@ -33,6 +33,14 @@
   },
   {
     "author": "AfreenInnovates",
+    "artName": "animated curtain",
+    "githubLink": "https://github.com/AfreenInnovates",
+    "pageLink": "./Art/AfreenInnovates-animated_curtain/index.html",
+    "imageLink": "./Art/AfreenInnovates-animated_curtain/icon.png",
+    "projectPath": "Art/AfreenInnovates-animated_curtain"
+  },
+  {
+    "author": "AfreenInnovates",
     "artName": "wiggling buttons",
     "githubLink": "https://github.com/AfreenInnovates",
     "pageLink": "./Art/AfreenInnovates-buttonswiggle/index.html",
