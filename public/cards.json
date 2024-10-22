@@ -48,6 +48,14 @@
     "projectPath": "Art/AfreenInnovates-cube"
   },
   {
+    "author": "AfreenInnovates",
+    "artName": "cube grow_rotate",
+    "githubLink": "https://github.com/AfreenInnovates",
+    "pageLink": "./Art/AfreenInnovates-cube_grow_rotate/index.html",
+    "imageLink": "./Art/AfreenInnovates-cube_grow_rotate/icon.png",
+    "projectPath": "Art/AfreenInnovates-cube_grow_rotate"
+  },
+  {
     "author": "AlexanderSanin",
     "artName": "spinning loader",
     "githubLink": "https://github.com/AlexanderSanin",
@@ -878,6 +886,14 @@
     "pageLink": "./Art/shehzansk-animatedbutton/index.html",
     "imageLink": "./Art/shehzansk-animatedbutton/icon.png",
     "projectPath": "Art/shehzansk-animatedbutton"
+  },
+  {
+    "author": "shrlaw",
+    "artName": "bouncing",
+    "githubLink": "https://github.com/shrlaw",
+    "pageLink": "./Art/shrlaw-bouncing/index.html",
+    "imageLink": "./Art/shrlaw-bouncing/icon.png",
+    "projectPath": "Art/shrlaw-bouncing"
   },
   {
     "author": "shuaixr",
