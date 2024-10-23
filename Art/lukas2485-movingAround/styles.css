@@ -4,7 +4,7 @@
     background-color: black;
     padding: 15px;
   }
-  
+
   #bubble {
     height: 100px;
     width: 100px;
@@ -14,7 +14,7 @@
       pulse 2s ease infinite alternate,
       nudge 6s linear infinite alternate;
   }
-  
+
   #line {
     height: 100%;
     width: 5px;
@@ -23,18 +23,18 @@
       nudge 6s linear infinite alternate,
       rotate 4s ease infinite;
   }
-  
+
   @keyframes rotate {
     50% {
       transform: rotate(0);
     }
-    
+
     80% {
       transform: rotate(-70deg);
     }
    }
-  
-  
+
+
   @keyframes pulse {
     0%, 100% {
       background-color: red;
@@ -43,16 +43,14 @@
       background-color: orange;
     }
   }
-  
+
   @keyframes nudge {
-    
+
     50% {
       transform: translate(320px, 0);
     }
-    
+
     100% {
       transform: translate(-30px, 0);
     }
   }
-  
-  
