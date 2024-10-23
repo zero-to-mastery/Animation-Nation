@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEC;
+  }
+  
+  .road {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .car {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 120px;
+    height: 60px;
+    background-color: #f00;
+    animation: moveCar 4s linear infinite;
+  }
+  
+  .top {
+    width: 60px;
+    height: 30px;
+    background-color: #d32f2f;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+  }
+  
+  .body {
+    width: 120px;
+    height: 30px;
+    background-color: #c0392b;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .wheel {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    top: 45px;
+  }
+  
+  .front-wheel {
+    left: 10px;
+    animation: rotateWheel 0.7s linear infinite;
+  }
+  
+  .back-wheel {
+    right: 10px;
+    animation: rotateWheel 0.7s linear infinite;
+  }
+  
+  @keyframes moveCar {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 600px;
+    }
+  }
+  
+  @keyframes rotateWheel {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

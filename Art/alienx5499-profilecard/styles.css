@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6E3BFF, #00FFD5, #FF8C00, #FF00C8);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.profile-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+.profile-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.bio {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btn {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn.follow {
+    background: linear-gradient(90deg, #FF7300, #FFFB00);
+    color: #333;
+    box-shadow: 0 5px 15px rgba(255, 115, 0, 0.4);
+}
+
+.btn.follow:hover {
+    background: linear-gradient(90deg, #FFFB00, #FF7300);
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(255, 115, 0, 0.6);
+}
+
+.btn.message {
+    background: linear-gradient(90deg, #6E3BFF, #00FFD5);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(110, 59, 255, 0.4);
+}
+
+.btn.message:hover {
+    background: linear-gradient(90deg, #00FFD5, #6E3BFF);
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(110, 59, 255, 0.6);
+}
