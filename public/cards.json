@@ -713,7 +713,15 @@
   },
   {
     "author": "kasunjayasanka",
-    "artName": "Data Fetching Animation",
+    "artName": "ZTM letters Animation",
+    "githubLink": "https://github.com/kasunjayasanka",
+    "pageLink": "./Art/kasunjayasanka-ZTM-letters-animation/index.html",
+    "imageLink": "./Art/kasunjayasanka-ZTM-letters-animation/icon.png",
+    "projectPath": "Art/kasunjayasanka-ZTM-letters-animation"
+  },
+  {
+    "author": "kasunjayasanka",
+    "artName": "fetching animation",
     "githubLink": "https://github.com/kasunjayasanka",
     "pageLink": "./Art/kasunjayasanka-fetching-animation/index.html",
     "imageLink": "./Art/kasunjayasanka-fetching-animation/icon.png",
