@@ -145,6 +145,14 @@
   },
   {
     "author": "DEBASISH077",
+    "artName": "Coffee Machine",
+    "githubLink": "https://github.com/DEBASISH077",
+    "pageLink": "./Art/DEBASISH077-Coffee Machine/index.html",
+    "imageLink": "./Art/DEBASISH077-Coffee Machine/icon.png",
+    "projectPath": "Art/DEBASISH077-Coffee Machine"
+  },
+  {
+    "author": "DEBASISH077",
     "artName": "Horizontal Car Animation",
     "githubLink": "https://github.com/DEBASISH077",
     "pageLink": "./Art/DEBASISH077-Horizontal_Car_Animation/index.html",
@@ -702,6 +710,14 @@
     "pageLink": "./Art/kasunJayasanka-pixelLoading/index.html",
     "imageLink": "./Art/kasunJayasanka-pixelLoading/icon.png",
     "projectPath": "Art/kasunJayasanka-pixelLoading"
+  },
+  {
+    "author": "kasunjayasanka",
+    "artName": "Data Fetching Animation",
+    "githubLink": "https://github.com/kasunjayasanka",
+    "pageLink": "./Art/kasunjayasanka-fetching-animation/index.html",
+    "imageLink": "./Art/kasunjayasanka-fetching-animation/icon.png",
+    "projectPath": "Art/kasunjayasanka-fetching-animation"
   },
   {
     "author": "kishan-25",
