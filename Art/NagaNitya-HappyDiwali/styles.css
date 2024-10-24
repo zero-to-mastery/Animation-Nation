@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Borel", sans-serif;
+    align-content: center;
+    justify-content: center;
+}
+
+@keyframes changeback{
+    0%{
+        background: rgb(6, 213, 236);
+    }
+    50%{
+        background: rgb(6, 236, 209);
+    }
+    100%{
+        background: rgb(6, 213, 236);
+    }
+}
+
+body{
+    animation-name: changeback;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background: rgb(6, 213, 236);
+}
+
+@keyframes changecontainerback{
+    0%{
+        background: rgb(6, 236, 209);
+    }
+    50%{
+        background: rgb(6, 213, 236);
+    }
+    100%{
+        background: rgb(6, 236, 209);
+    }
+}
+
+.container{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(6, 236, 209);
+    border-radius: 50%;
+    animation-name: changecontainerback;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flamerise{
+    0%{
+        margin-bottom: 0px;
+    }
+    50%{
+        margin-bottom: 10px;
+    }
+    100%{
+        margin-bottom: 0px;
+    }
+}
+.flame-top{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid yellow;
+
+
+}
+
+.flame{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    background-size: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: flamerise;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flicker{
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+
+.inner-flame-top{
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid orange;
+    animation-name: flicker;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.inner-flame{
+    width: 60px;
+    height: 40px;
+    background: orange;
+    background-size: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-bottom: 5px;
+    animation-name: flicker;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.deepam{
+    width: 200px;
+    height: 50px;
+    background: rgb(114, 8, 8);
+    background-size: 100%;
+    border-width: 1000px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-top: 5px;
+}
+
+@keyframes textsize{
+    0%{
+        font-size: 30px;
+    }
+    50%{
+        font-size: 35px;
+    }
+    100%{
+        font-size: 30px;
+    }
+}
+
+.text{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: black;
+    animation-name: textsize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
