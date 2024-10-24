@@ -1,0 +1,37 @@
+body {
+  background-color: #000000; /* Black background for the page */
+}
+
+.box{
+  perspective: 120px;
+  min-height: 100vh; /* Ensures it takes up full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 100hv;
+}
+
+.coin {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+ background: linear-gradient(135deg, #FF5F6D, #FFC371, #36D1DC, #5B86E5, #A1FFCE);
+;  
+  animation: twist 2s ease-in-out alternate infinite;
+}
+
+@keyframes twist {
+  
+  to{
+    transform: rotateX(360deg) scale(0.5);
+  }
+
+}
