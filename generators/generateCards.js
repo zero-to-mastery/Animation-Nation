@@ -1,7 +1,6 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const { formatProjectName } = require("./utils");
-const { handleMissingMetaData } = require("./__fixWithMetaData");
 
 const artDir = "./Art";
 
@@ -21,24 +20,24 @@ async function generateIncludes() {
     const pageLink = `./Art/${dir}/index.html`;
     const imageLink = `./Art/${dir}/icon.png`;
 
-    // TODO: Removes once repo is updated -  Handle Mission MetaData
-    let doMetaDataExist = fs.existsSync(metaDataPath)
-    if(!doMetaDataExist){
-      await handleMissingMetaData(dir)
-    } // TODO END: ------------------------------------------------
+	try {
+    	// Loads contribution meta data info
+		const metaData = require(metaDataPath)
 
-    // Loads contribution meta data info
-    const metaData = require(metaDataPath);
-	 
-    // Add the project to the cards array
-    cards.push({
-      author: metaData.githubHandle,
-      artName: formatProjectName( metaData.artName ),
-      githubLink: `https://github.com/${ metaData.githubHandle }`,
-      pageLink,
-      imageLink,
-      projectPath
-    });
+		// Add the project to the cards array
+		cards.push({
+			author: metaData.githubHandle,
+			artName: formatProjectName( metaData.artName ),
+			githubLink: `https://github.com/${ metaData.githubHandle }`,
+			pageLink,
+			imageLink,
+			projectPath
+		});
+	} catch(error){
+		console.error(`[ ERROR x MISSING METADATA ]\n\t - Concerning folder: "${projectPath}"`);
+		fs.rmdirSync(projectPath)
+		console.error(`\t|____ Folder removed: "${projectPath}"\n`);
+	}
    }
 
   // Write the content to includes.js file
