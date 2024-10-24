@@ -1062,5 +1062,13 @@
     "pageLink": "./Art/terrifricker-rotatingSquare/index.html",
     "imageLink": "./Art/terrifricker-rotatingSquare/icon.png",
     "projectPath": "Art/terrifricker-rotatingSquare"
+  },
+  {
+    "author": "venkateeshh",
+    "artName": "Bouncing Ball",
+    "githubLink": "https://github.com/venkateeshh",
+    "pageLink": "./Art/venkateeshh-bouncingball/index.html",
+    "imageLink": "./Art/venkateeshh-bouncingball/icon.png",
+    "projectPath": "Art/venkateeshh-bouncingball"
   }
 ]
