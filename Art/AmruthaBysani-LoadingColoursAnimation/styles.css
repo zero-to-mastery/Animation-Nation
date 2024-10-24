@@ -1,10 +1,9 @@
 body {
-  background-color: #000000; /* Black background for the page */
+  background-color: #000000; 
 }
-
 .box{
   perspective: 120px;
-  min-height: 100vh; /* Ensures it takes up full viewport height */
+  min-height: 100vh; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,3 +34,4 @@ body {
   }
 
 }
+
