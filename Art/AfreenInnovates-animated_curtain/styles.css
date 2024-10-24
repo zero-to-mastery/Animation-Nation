@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    overflow: hidden;
+}
+
+.curtain {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curtain-left {
+    position: absolute;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(101, 34, 34);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    animation: openLeftCurtain 2s ease forwards;
+}
+
+.curtain-right {
+    position: absolute;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(101, 34, 34);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    animation: openRightCurtain 2s ease forwards;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    animation: fadeInContent 1s 2s forwards;
+}
+
+@keyframes openLeftCurtain {
+    0% {
+        transform: translateX(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    50% {
+        clip-path: polygon(0 0, 80% 20%, 80% 80%, 0% 100%);
+    }
+    100% {
+        transform: translateX(-100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+
+@keyframes openRightCurtain {
+    0% {
+        transform: translateX(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    50% {
+        clip-path: polygon(20% 20%, 100% 0, 100% 100%, 20% 80%);
+    }
+    100% {
+        transform: translateX(100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+
+@keyframes fadeInContent {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
