@@ -73,11 +73,11 @@
   },
   {
     "author": "Anurag-singh-thakur",
-    "artName": "Rotating Sqaure",
+    "artName": "Rotating Square",
     "githubLink": "https://github.com/Anurag-singh-thakur",
-    "pageLink": "./Art/Anurag-singh-thakur-Rotating Sqaure/index.html",
-    "imageLink": "./Art/Anurag-singh-thakur-Rotating Sqaure/icon.png",
-    "projectPath": "Art/Anurag-singh-thakur-Rotating Sqaure"
+    "pageLink": "./Art/Anurag-singh-thakur-Rotating-Square/index.html",
+    "imageLink": "./Art/Anurag-singh-thakur-Rotating-Square/icon.png",
+    "projectPath": "Art/Anurag-singh-thakur-Rotating-Square"
   },
   {
     "author": "Argwingskodhek",
@@ -142,6 +142,14 @@
     "pageLink": "./Art/DEBASISH077-BouncingEffect/index.html",
     "imageLink": "./Art/DEBASISH077-BouncingEffect/icon.png",
     "projectPath": "Art/DEBASISH077-BouncingEffect"
+  },
+  {
+    "author": "DEBASISH077",
+    "artName": "Coffee Machine",
+    "githubLink": "https://github.com/DEBASISH077",
+    "pageLink": "./Art/DEBASISH077-Coffee Machine/index.html",
+    "imageLink": "./Art/DEBASISH077-Coffee Machine/icon.png",
+    "projectPath": "Art/DEBASISH077-Coffee Machine"
   },
   {
     "author": "DEBASISH077",
@@ -704,6 +712,22 @@
     "projectPath": "Art/kasunJayasanka-pixelLoading"
   },
   {
+    "author": "kasunjayasanka",
+    "artName": "ZTM letters Animation",
+    "githubLink": "https://github.com/kasunjayasanka",
+    "pageLink": "./Art/kasunjayasanka-ZTM-letters-animation/index.html",
+    "imageLink": "./Art/kasunjayasanka-ZTM-letters-animation/icon.png",
+    "projectPath": "Art/kasunjayasanka-ZTM-letters-animation"
+  },
+  {
+    "author": "kasunjayasanka",
+    "artName": "fetching animation",
+    "githubLink": "https://github.com/kasunjayasanka",
+    "pageLink": "./Art/kasunjayasanka-fetching-animation/index.html",
+    "imageLink": "./Art/kasunjayasanka-fetching-animation/icon.png",
+    "projectPath": "Art/kasunjayasanka-fetching-animation"
+  },
+  {
     "author": "kishan-25",
     "artName": "3D",
     "githubLink": "https://github.com/kishan-25",
@@ -742,6 +766,14 @@
     "pageLink": "./Art/laurelinep-drippingCoffee/index.html",
     "imageLink": "./Art/laurelinep-drippingCoffee/icon.png",
     "projectPath": "Art/laurelinep-drippingCoffee"
+  },
+  {
+    "author": "lukas2485",
+    "artName": "Moving Around",
+    "githubLink": "https://github.com/lukas2485",
+    "pageLink": "./Art/lukas2485-movingAround/index.html",
+    "imageLink": "./Art/lukas2485-movingAround/icon.png",
+    "projectPath": "Art/lukas2485-movingAround"
   },
   {
     "author": "maidxn",
