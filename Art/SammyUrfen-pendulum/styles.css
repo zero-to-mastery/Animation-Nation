@@ -1,146 +1,168 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        
+        html, body {
+            background: linear-gradient(135deg, #0f2027, #2c5364, #3a6073);
+            height: 100%;
+            width: 100%;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            transition: background 0.3s ease;
+        }
 
-html {
-    background-color: #2e2a2a;
-    width: 100%;
-    height: 100%;
-}
+        
+        .container {
+            text-align: center;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
 
-body {
-    border: solid 5px black;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+        .btn {
+            font-size: 2.5rem;
+            color: #fff;
+            background: linear-gradient(145deg, #fc466b, #3f5efb);
+            height: 80px; 
+            width: 250px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2), 0 0 25px rgba(255, 255, 255, 0.3);
+            transition: all 0.4s ease;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
 
-.btn-box {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    transition: background-color 0.3s ease;
-    margin-bottom: 20px;
-}
+        
+        .btn:hover {
+            box-shadow: 0 0 25px rgba(252, 70, 107, 0.6), 0 0 35px rgba(63, 94, 251, 0.6);
+            transform: scale(1.1);
+        }
 
-.btn {
-    font-size: 2.5rem;
-    color: rgb(164, 210, 224);
-    background-color: rgb(68, 85, 83);
-    height: 5.75rem; 
-    width: 14rem;
-    border-radius: 25px;
-    cursor: pointer;
-}
+        .btn::after {
+            content: 'Click Me!';
+            color: rgba(255, 255, 255, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            background: linear-gradient(145deg, rgba(252, 70, 107, 0.6), rgba(63, 94, 251, 0.6));
+            clip-path: polygon(0 0, 100% 0, 0 100%);
+            animation: slideIn 2.5s infinite;
+            z-index: -1;
+        }
 
-.btn:hover {
-    background-color: rgb(83, 108, 116);
-    color: rgb(33, 43, 41);
-    transition: all 0.3s ease;
-    box-shadow: 0 0 30px 15px #48abe0;
-    color: #fff;
-    font-size: 60px;
-    text-align: center;
-    animation: glow 1s ease-in-out infinite alternate;
-}
+        /* Smooth slide effect for button */
+        @keyframes slideIn {
+            0% { clip-path: polygon(0 0, 100% 0, 0 100%); }
+            100% { clip-path: polygon(100% 0, 100% 100%, 0 100%); }
+        }
 
-.box {
-    width: 100%;
-    height: 200px;
-    opacity: 0;
-    transition: opacity 0.3s ease, transform 0.5s ease;
-}
+        /* Pendulum container */
+        .box {
+            width: 100%;
+            height: 200px;
+            opacity: 0;
+            transition: opacity 0.6s ease, transform 0.5s ease;
+        }
+        
+        /* Reveal pendulum on button hover */
+        .btn:hover + .box {
+            opacity: 1;
+            animation: boxActivate 1s forwards;
+        }
+        
+        /* Pendulum structure */
+        .box .support {
+            margin: auto;
+            background-color: #9DA7B8;
+            height: 8px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        
+        .box .fix {
+            background-color: #333;
+            width: 40px;
+            height: 30px;
+            border-radius: 0 0 50% 50%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        /* Knob and thread styling */
+        .box .knob {
+            margin-top: 20px;
+            background-color: #FF6B6B;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            border: 2px solid #FFF;
+        }
+        
+        .box .thread {
+            background-color: #000;
+            height: 140px;
+            width: 2px;
+            margin-top: 4px;
+            transform-origin: 50% 0;
+            animation: pendulum 3s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
+        }
+        
+        /* Pendulum weight styling */
+        .box .pendulum {
+            background: radial-gradient(circle at center, #FFD700, #FF8C00);
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            position: relative;
+            top: 135px;
+            box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.6);
+        }
+        
+        /* Pendulum swing animation */
+        @keyframes pendulum {
+            0%, 100% {
+                transform: rotate(40deg);
+            }
+            50% {
+                transform: rotate(-40deg);
+            }
+        }
 
-.btn-box:hover + .box {
-    opacity: 1;
-    animation: boxActivate 1s forwards;
-}
-
-.box .support {
-    margin: auto;
-    background-color: rgb(194, 175, 66);
-    height: 6px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-}
-
-.box .fix {
-    background-color: rgb(0, 0, 0);
-    width: 37px;
-    height: 25px;
-    border-radius: 0 0 50% 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-}
-
-.box .knob {
-    margin-top: 20px;
-    background-color: rgb(189, 17, 11);
-    height: 8px;
-    width: 8px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    border: 1px solid white;
-}
-
-.box .thread {
-    background-color: #000000;
-    display: inline-block;
-    height: 140px;
-    width: 2px;
-    margin-top: 4px;
-    transform-origin: 50% 0;
-    animation: pendulum 2.5s ease-in-out infinite;
-}
-
-.box .pendulum {
-    background-color: rgb(245, 213, 35);
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    position: relative;
-    top: 135px;
-    right: 8px;
-}
-
-@keyframes pendulum {
-    0%, 100% {
-        transform: rotate(45deg);
-    }
-    50% {
-        transform: rotate(-45deg);
-    }
-}
-
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
-}
-
-@keyframes boxActivate {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-@font-face {
-    font-family: 'Neon Glow';
-    src: url(https://assets.codepen.io/230569/NeonGlow-8VLz.ttf);
-}
+        /* Smooth box scaling animation */
+        @keyframes boxActivate {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
