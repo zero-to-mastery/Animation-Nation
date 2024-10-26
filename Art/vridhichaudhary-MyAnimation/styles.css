@@ -1,4 +1,4 @@
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -68,7 +68,7 @@ h1 {
     font-size: 50px;
 }
 
-/* Keyframes for the flip animation */
+Keyframes for the flip animation
 @keyframes flip {
     from {
         transform: rotateY(0deg);
