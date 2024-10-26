@@ -87,7 +87,7 @@
   width: 100%;
   height: 150px;
   left: 10px;
-  animation: shadowmoving 4s linear infinite;
+  animation: shadowmoving 6s linear infinite;
 }
 
 @keyframes sunorbit {
@@ -133,19 +133,18 @@
   0% {
     clip-path: polygon(16% 0, 100% 5%, 83% 0);
   }
-
-  25% {
-    clip-path: polygon(16% 0, 100% 16%, 83% 0);
+  20% {
+    clip-path: polygon(16% 0, 90% 10%, 83% 0);
   }
-
-  50% {
-    clip-path: polygon(16% 0, 51% 6%, 83% 0);
+  40% {
+    clip-path: polygon(16% 0, 70% 12%, 83% 0);
   }
-
-  75% {
-    clip-path: polygon(16% 0, 10% 18%, 83% 0);
+  60% {
+    clip-path: polygon(16% 0, 50% 10%, 83% 0);
   }
-
+  80% {
+    clip-path: polygon(16% 0, 20% 8%, 83% 0);
+  }
   100% {
     clip-path: polygon(16% 0, 0 4%, 83% 0);
   }
