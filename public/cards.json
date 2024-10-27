@@ -912,6 +912,14 @@
     "projectPath": "Art/ornitcg-train"
   },
   {
+    "author": "parthrajsinghbhati",
+    "artName": "Pulsing circle",
+    "githubLink": "https://github.com/parthrajsinghbhati",
+    "pageLink": "./Art/parthrajsinghbhati-pulsatingcircle/index.html",
+    "imageLink": "./Art/parthrajsinghbhati-pulsatingcircle/icon.png",
+    "projectPath": "Art/parthrajsinghbhati-pulsatingcircle"
+  },
+  {
     "author": "pleomorph",
     "artName": "happyhacktoberfest",
     "githubLink": "https://github.com/pleomorph",
@@ -1126,5 +1134,13 @@
     "pageLink": "./Art/venkateeshh-bouncingball/index.html",
     "imageLink": "./Art/venkateeshh-bouncingball/icon.png",
     "projectPath": "Art/venkateeshh-bouncingball"
+  },
+  {
+    "author": "vridhichaudhary",
+    "artName": "card Animation",
+    "githubLink": "https://github.com/vridhichaudhary",
+    "pageLink": "./Art/vridhichaudhary-waveAnimation/index.html",
+    "imageLink": "./Art/vridhichaudhary-waveAnimation/icon.png",
+    "projectPath": "Art/vridhichaudhary-waveAnimation"
   }
 ]
