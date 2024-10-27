@@ -1,0 +1,124 @@
+html,
+body {
+  background-color: #404456; /* colour of webpage background */
+}
+
+#loader { /* our loading animation element */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -2.7em;
+  margin-left: -2.7em;
+  width: 5.4em;
+  height: 5.4em;
+  background-color: #404456;
+}
+/* loader element positioned at the centre of the page. So our other elements that will be animated, is centred as well */
+
+#hill { /* hill element is a line at a 45 degree angle. This slope is used for our box to animate over */
+  position: absolute;
+  width: 7.1em;
+  height: 7.1em;
+  top: 1.7em;
+  left: 1.7em;
+  background-color: transparent;
+  border-left: .25em solid palegoldenrod; /* we create a 4 sided shape. Instead of having all sides having colour, we'll colour one side only to represent the slope */
+  transform: rotate(45deg);
+  animation: fall 5s infinite; /* we use the animation named 'fall', play in 5 sec duration, infinitely */
+}
+
+@keyframes fall { /* this is our fall animation, dictating the animation's movement/position */
+    0% { /* percentage till the animation completes its full progression */
+        transform: translate(0, 0) rotate(45deg);
+    }
+    35% {
+        transform: translate(0, 0) rotate(45deg); /* keeping slope still */
+    }
+    45% {
+        transform: translate(-6.5em, 0) rotate(135deg); /* rotating our slope down, to simulate that the box's weight influenced the slope. 
+        translation has to be -6.5em as the centre of rotation is not on the line, but in another spot, due to 'hill' being a 2d shape.
+        em is a type of unit, a lot like pixels */
+        animation-timing-function: cubic-bezier(0, 0, 0, 0); /* custom easing for the following keyframe of the animation */
+    }
+    60% {
+        transform: translate(-6.5em, 0) rotate(135deg);
+        animation-timing-function: cubic-bezier(.79, 0, .47, .97); /* the numbers, correlate to the influence pegs on the animation easing curve. (x1, y1, x2, y2). This'll be further explained in my blog */
+    }
+    100% {
+        transform: translate(0, 0) rotate(45deg); /* return animation back to its start position */
+    }
+}
+
+#box {
+  position: absolute;
+  left: 0;
+  bottom: -.1em;
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  border: .25em solid palegoldenrod;
+  border-radius: 15%;
+  transform: translate(0, -1em) rotate(-45deg);
+  animation: push 5s cubic-bezier(.79, 0, .47, .97) infinite; /* here, we specified the master easing of our animation. If easing is not specified, it will default to this */
+}
+
+@keyframes push {
+  0% {
+    transform: translate(0, -1em) rotate(-45deg);
+  }
+  2.5% {
+    transform: translate(0, -1em) rotate(-50deg);
+  }
+  10% {
+    transform: translate(1em, -2em) rotate(47deg);
+  }
+  12.5% {
+    transform: translate(1em, -2em) rotate(45deg);
+  }
+  15% {
+    transform: translate(1em, -2em) rotate(40deg);
+  }
+  22.5% {
+    transform: translate(2em, -3em) rotate(137deg);
+  }
+  25% {
+    transform: translate(2em, -3em) rotate(135deg);
+  }
+  27.5% {
+    transform: translate(2em, -3em) rotate(130deg);
+  }
+  35% {
+    transform: translate(3em, -4em) rotate(217deg); 
+  }
+  37.5% {
+    transform: translate(3em, -4em) rotate(220deg); /* our box is climbing up the hill */
+    animation-timing-function: cubic-bezier(.56,0,.87,.15);
+  }
+  50% {
+    transform: translate(3em, -0.75em) rotate(405deg);
+    animation-timing-function: cubic-bezier(.55,-100.81,.87,.15);
+  }
+  55% {
+    transform: translate(3em, -0.74em) rotate(405.3deg);
+  }
+  65% {
+    transform: translate(3em, -0.74em) rotate(405.3deg); /* falls down from the hill */
+    animation-timing-function: cubic-bezier(.7,0,1,1.02);
+  }
+  72.5% {
+    transform: translate(2.9em, -1.85em) rotate(380deg);
+    animation-timing-function: cubic-bezier(.43,.59,.56,1);
+  }
+  86% {
+    transform: translate(1.5em, -3.8em) rotate(275deg);
+    animation-timing-function: cubic-bezier(.57,.02,1,.73);
+  }
+  90% {
+    transform: translate(1.2em, -3.2em) rotate(225deg);
+    animation-timing-function: cubic-bezier(.7,.45,.53,1.30);
+  }
+  100% {
+    transform: translate(0, -1em) rotate(-45deg); /* box rolls with the hill, back to it's original starting position */
+  }
+}
+
