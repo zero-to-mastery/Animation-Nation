@@ -904,6 +904,14 @@
     "projectPath": "Art/ornitcg-rotation"
   },
   {
+    "author": "ornitcg",
+    "artName": "train",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-train/index.html",
+    "imageLink": "./Art/ornitcg-train/icon.png",
+    "projectPath": "Art/ornitcg-train"
+  },
+  {
     "author": "pleomorph",
     "artName": "happyhacktoberfest",
     "githubLink": "https://github.com/pleomorph",
@@ -918,6 +926,14 @@
     "pageLink": "./Art/rutubhanderi-sunrise-animation/index.html",
     "imageLink": "./Art/rutubhanderi-sunrise-animation/icon.png",
     "projectPath": "Art/rutubhanderi-sunrise-animation"
+  },
+  {
+    "author": "sadhikatadinada",
+    "artName": "Moon & Stars",
+    "githubLink": "https://github.com/sadhikatadinada",
+    "pageLink": "./Art/sadhikatadinada-moon-and-stars/index.html",
+    "imageLink": "./Art/sadhikatadinada-moon-and-stars/icon.png",
+    "projectPath": "Art/sadhikatadinada-moon-and-stars"
   },
   {
     "author": "sadhika tadinada",
