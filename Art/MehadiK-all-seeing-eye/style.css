@@ -1,0 +1,71 @@
+.ball-container {
+  background-color: black;
+  width: 420px;
+  height: 420px;
+  margin: auto;
+  background-image: url("eye.jpg");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: center;
+  border: solid 10px darkred;
+  border-radius: 25%;
+  padding: 20px;
+
+
+}
+
+.ball {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  background-color: yellow;
+
+}
+
+.ball-two {
+  background-color: darkred;
+  margin:135px 160px
+  
+}
+
+.ball-one-container {
+  position: relative;
+  width: 60%;
+  height: 60%;
+  /* background-color: white; */
+  /* margin: auto; */
+  margin: 30px 30px;
+}
+
+.ball-one {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  animation: follower 2s ease-in reverse infinite;
+}
+
+@keyframes follower {
+  0% {
+    background-color: white;
+    transform: translateX(0);
+  }
+
+  25% {
+    background-color: red;
+    transform: translateY(100%);
+  }
+
+  50% {
+    background-color: black;
+    transform: translateX(100%) translateY(100%);
+  }
+
+  75% {
+    background-color: green;
+    transform: translateX(100%);
+  }
+
+}
