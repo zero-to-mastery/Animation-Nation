@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, #000428, #004e92);
+    overflow: hidden;
+    perspective: 1000px; /* Perspective for depth */
+}
+
+.sphere {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    animation: rotate-sphere 10s linear infinite; /* Continuous rotation */
+    transform-style: preserve-3d; /* Preserve 3D transformations for children */
+}
+
+@keyframes rotate-sphere {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(20deg); /* Tilted rotation */
+    }
+}
+
+/* Creating the sphere layers */
+.layer {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.7; /* Slight transparency for layering effect */
+}
+
+/* Define various layers for the sphere */
+.layer:nth-child(1) {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent);
+    width: 300px;
+    height: 300px;
+    transform: rotateX(60deg) translateZ(0px);
+}
+
+.layer:nth-child(2) {
+    background: rgba(75, 160, 84, 0.7); /* Greenish for continents */
+    width: 280px;
+    height: 280px;
+    transform: rotateX(60deg) translateZ(20px);
+    clip-path: polygon(30% 10%, 70% 30%, 80% 60%, 50% 90%, 20% 60%); /* Custom shape for a continent */
+}
+
+.layer:nth-child(3) {
+    background: rgba(0, 0, 255, 0.4); /* Blue for water */
+    width: 260px;
+    height: 260px;
+    transform: rotateX(60deg) translateZ(40px);
+}
+
+.layer:nth-child(4) {
+    background: rgba(75, 160, 84, 0.7); /* Another continent */
+    width: 240px;
+    height: 240px;
+    transform: rotateX(60deg) translateZ(60px);
+    clip-path: polygon(20% 20%, 40% 10%, 60% 30%, 40% 50%, 20% 60%); /* Custom shape for a continent */
+}
+
+.layer:nth-child(5) {
+    background: rgba(255, 165, 0, 0.5); /* Orange for another landmass */
+    width: 220px;
+    height: 220px;
+    transform: rotateX(60deg) translateZ(80px);
+    clip-path: polygon(10% 40%, 30% 20%, 50% 30%, 70% 50%, 60% 70%); /* Custom shape for a continent */
+}
+
+/* Adding a shine effect */
+.shine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3), transparent);
+    animation: shine 3s linear infinite;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+@keyframes shine {
+    0% {
+        transform: translateX(-50%) rotateY(0deg);
+    }
+    100% {
+        transform: translateX(-50%) rotateY(360deg);
+    }
+}
