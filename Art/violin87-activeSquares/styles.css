@@ -1,0 +1,106 @@
+.squareBox {
+   display: flex;
+   flex-direction: column;
+   background-color: aquamarine;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   flex-wrap: wrap;
+   gap: 10px;
+   width: 100vw;
+   height: 100vh;
+   animation-name: colorChange;
+   animation-iteration-count: infinite; 
+   animation-duration: 5s;
+   animation-direction: alternate;
+   position: relative;
+}
+
+.squareSection1, .squareSection2 {
+   display: flex;
+   justify-content: center;
+   width: 45%;
+   height: 45%;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+.squareSection1 {
+   align-items: flex-end;
+   animation-name: moveSquares1;
+}
+
+.squareSection2 {
+   align-items: flex-start;
+   animation-name: moveSquare2;
+}
+
+.square1, .square2, .square3 {
+ animation: moveSquares1 3s infinite alternate;
+}
+.square4, .square5, .square6 {
+   animation: moveSquares2 3s infinite alternate;
+}
+.square1 {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+.square2 {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+
+.square3 {
+   background-color: black;
+   width: 30px;
+   height: 30px;
+}
+.square4 {
+   background-color: black;
+   width: 30px;
+   height: 30px;
+ }
+
+.square5 {
+   background-color: black;
+   width: 30px;
+   height: 30px;
+ }
+
+.square6 {
+   background-color: black;
+   width: 30px;
+   height: 30px;
+ }
+
+@keyframes moveSquares1 {
+   0% {
+      transform: translateY(100%);
+   }
+   50% {
+      transform: translateX(50%);
+   }
+   100% {
+      transform: translateY(-100%);
+   }
+}
+
+@keyframes moveSquares2 {
+   0% {
+      transform: translateY(-100%);
+   }
+   50% {
+      transform: translateX(-50%);
+   }
+   100% {
+      transform: translateY(100%);
+   }
+}
+@keyframes colorChange {
+
+      from{background-color: aquamarine;}
+      to{background-color: yellow;}
+}
