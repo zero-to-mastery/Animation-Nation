@@ -25,7 +25,7 @@ body {
   background-size: 500px;
 }
 .scan .hand::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -45,7 +45,7 @@ body {
   }
 }
 .scan .hand::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -89,7 +89,7 @@ body {
   inset: 0;
 }
 .scan .hand .lines::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -110,7 +110,7 @@ body {
   }
 }
 .scan .hand .lines::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;

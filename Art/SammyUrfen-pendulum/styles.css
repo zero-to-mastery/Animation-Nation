@@ -1,146 +1,163 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    background-color: #2e2a2a;
-    width: 100%;
-    height: 100%;
+  background-color: #2e2a2a;
+  width: 100%;
+  height: 100%;
 }
 
 body {
-    border: solid 5px black;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  border: solid 5px black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-box {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    transition: background-color 0.3s ease;
-    margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
 }
 
 .btn {
-    font-size: 2.5rem;
-    color: rgb(164, 210, 224);
-    background-color: rgb(68, 85, 83);
-    height: 5.75rem; 
-    width: 14rem;
-    border-radius: 25px;
-    cursor: pointer;
+  font-size: 2.5rem;
+  color: rgb(164, 210, 224);
+  background-color: rgb(68, 85, 83);
+  height: 5.75rem;
+  width: 14rem;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
 .btn:hover {
-    background-color: rgb(83, 108, 116);
-    color: rgb(33, 43, 41);
-    transition: all 0.3s ease;
-    box-shadow: 0 0 30px 15px #48abe0;
-    color: #fff;
-    font-size: 60px;
-    text-align: center;
-    animation: glow 1s ease-in-out infinite alternate;
+  background-color: rgb(83, 108, 116);
+  color: rgb(33, 43, 41);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 30px 15px #48abe0;
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
 .box {
-    width: 100%;
-    height: 200px;
-    opacity: 0;
-    transition: opacity 0.3s ease, transform 0.5s ease;
+  width: 100%;
+  height: 200px;
+  opacity: 0;
+  transition:
+    opacity 0.3s ease,
+    transform 0.5s ease;
 }
 
 .btn-box:hover + .box {
-    opacity: 1;
-    animation: boxActivate 1s forwards;
+  opacity: 1;
+  animation: boxActivate 1s forwards;
 }
 
 .box .support {
-    margin: auto;
-    background-color: rgb(194, 175, 66);
-    height: 6px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
+  margin: auto;
+  background-color: rgb(194, 175, 66);
+  height: 6px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .box .fix {
-    background-color: rgb(0, 0, 0);
-    width: 37px;
-    height: 25px;
-    border-radius: 0 0 50% 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
+  background-color: rgb(0, 0, 0);
+  width: 37px;
+  height: 25px;
+  border-radius: 0 0 50% 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .box .knob {
-    margin-top: 20px;
-    background-color: rgb(189, 17, 11);
-    height: 8px;
-    width: 8px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    border: 1px solid white;
+  margin-top: 20px;
+  background-color: rgb(189, 17, 11);
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
 }
 
 .box .thread {
-    background-color: #000000;
-    display: inline-block;
-    height: 140px;
-    width: 2px;
-    margin-top: 4px;
-    transform-origin: 50% 0;
-    animation: pendulum 2.5s ease-in-out infinite;
+  background-color: #000000;
+  display: inline-block;
+  height: 140px;
+  width: 2px;
+  margin-top: 4px;
+  transform-origin: 50% 0;
+  animation: pendulum 2.5s ease-in-out infinite;
 }
 
 .box .pendulum {
-    background-color: rgb(245, 213, 35);
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    position: relative;
-    top: 135px;
-    right: 8px;
+  background-color: rgb(245, 213, 35);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: relative;
+  top: 135px;
+  right: 8px;
 }
 
 @keyframes pendulum {
-    0%, 100% {
-        transform: rotate(45deg);
-    }
-    50% {
-        transform: rotate(-45deg);
-    }
+  0%,
+  100% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
 }
 
 @keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
+  from {
+    text-shadow:
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 30px #e60073,
+      0 0 40px #e60073,
+      0 0 50px #e60073,
+      0 0 60px #e60073,
+      0 0 70px #e60073;
+  }
+  to {
+    text-shadow:
+      0 0 20px #fff,
+      0 0 30px #ff4da6,
+      0 0 40px #ff4da6,
+      0 0 50px #ff4da6,
+      0 0 60px #ff4da6,
+      0 0 70px #ff4da6,
+      0 0 80px #ff4da6;
+  }
 }
 
 @keyframes boxActivate {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05);
-    }
-    100% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 @font-face {
-    font-family: 'Neon Glow';
-    src: url(https://assets.codepen.io/230569/NeonGlow-8VLz.ttf);
+  font-family: 'Neon Glow';
+  src: url(https://assets.codepen.io/230569/NeonGlow-8VLz.ttf);
 }

@@ -1,81 +1,81 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
 }
 
 .loader {
-    position: relative;
-    width: 100px;
-    height: 100px;
+  position: relative;
+  width: 100px;
+  height: 100px;
 }
 
 .circle {
-    position: absolute;
-    border: 6px solid #3498db;
-    border-radius: 50%;
-    animation: spin 1.2s ease-in-out infinite;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  border: 6px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1.2s ease-in-out infinite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .circle:nth-child(1) {
-    width: 70px;
-    height: 70px;
-    animation-delay: 0s;
-    opacity: 0.8;
+  width: 70px;
+  height: 70px;
+  animation-delay: 0s;
+  opacity: 0.8;
 }
 
 .circle:nth-child(2) {
-    width: 80px;
-    height: 80px;
-    animation-delay: 0.2s;
-    opacity: 0.6;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0.2s;
+  opacity: 0.6;
 }
 
 .circle:nth-child(3) {
-    width: 90px;
-    height: 90px;
-    animation-delay: 0.4s;
-    opacity: 0.4;
+  width: 90px;
+  height: 90px;
+  animation-delay: 0.4s;
+  opacity: 0.4;
 }
 
 .circle:nth-child(4) {
-    width: 100px;
-    height: 100px;
-    animation-delay: 0.6s;
-    opacity: 0.2;
+  width: 100px;
+  height: 100px;
+  animation-delay: 0.6s;
+  opacity: 0.2;
 }
 
 @keyframes spin {
-    0% {
-        transform: scale(0);
-    }
-    25% {
-        transform: scale(1);
-        opacity: 1;
-    }
-    50% {
-        transform: scale(1.2);
-        opacity: 0.6;
-    }
-    75% {
-        transform: scale(1);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(0);
-        opacity: 0;
-    }
+  0% {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.6;
+  }
+  75% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
 }
 
 h1 {
-    margin-top: 20px;
-    color: #333;
-    font-size: 1.5rem;
-    text-align: center;
+  margin-top: 20px;
+  color: #333;
+  font-size: 1.5rem;
+  text-align: center;
 }

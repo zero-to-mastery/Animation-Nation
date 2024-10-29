@@ -1,12 +1,12 @@
 body {
-	background: linear-gradient(135deg, #1e90ff, #87cefa);
+  background: linear-gradient(135deg, #1e90ff, #87cefa);
 }
 
 #container {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .steam {
@@ -14,7 +14,7 @@ body {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background: radial-gradient(circle, #ffffff 20%, rgba(255,255,255,0) 100%);
+  background: radial-gradient(circle, #ffffff 20%, rgba(255, 255, 255, 0) 100%);
   margin-top: -75px;
   margin-left: 75px;
   z-index: 0;
@@ -31,8 +31,14 @@ body {
 }
 
 @keyframes steam1 {
-  0% {transform: translateY(0) translateX(0) scale(0.5); opacity: 0.3;}
-  100% {transform: translateY(-220px) translateX(-20px) scale(1.2); opacity: 0;}
+  0% {
+    transform: translateY(0) translateX(0) scale(0.5);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(-220px) translateX(-20px) scale(1.2);
+    opacity: 0;
+  }
 }
 
 #steam2 {
@@ -44,8 +50,14 @@ body {
 }
 
 @keyframes steam2 {
-  0% {transform: translateY(0) translateX(0) scale(0.5); opacity: 0.3;}
-  100% {transform: translateY(-220px) translateX(20px) scale(1.2); opacity: 0;}
+  0% {
+    transform: translateY(0) translateX(0) scale(0.5);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(-220px) translateX(20px) scale(1.2);
+    opacity: 0;
+  }
 }
 
 #cup-body {
@@ -69,7 +81,7 @@ body {
 
 #saucer {
   height: 35px;
-  width: 320px;  
+  width: 320px;
   border-radius: 0 0 100px 100px;
   background: radial-gradient(circle, #f9f9f9, #d3d3d3);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);

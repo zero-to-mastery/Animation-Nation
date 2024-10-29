@@ -33,7 +33,6 @@ body {
   grid-template-columns: 0.5fr 0.5fr 2fr;
 }
 
-
 .left {
   background-color: pink;
   display: flex;
@@ -47,7 +46,6 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  
 }
 .right {
   background-color: greenyellow;

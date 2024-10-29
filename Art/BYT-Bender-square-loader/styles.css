@@ -1,93 +1,103 @@
-**, *::before, *::after {
-    box-sizing: border-box;
+**,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-	--color: white;
-	--size-square: 3vmin;
+  --color: white;
+  --size-square: 3vmin;
 }
 
-html, body {
-    height: 100vh;
-    width: 100vw;
+html,
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
 body {
-	display: flex;
-    background: rgb(81,0,255);
-    background: linear-gradient(90deg, rgba(81,0,255,1) 0%, rgba(166,0,255,1) 35%, rgba(243,0,255,1) 100%);
+  display: flex;
+  background: rgb(81, 0, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(81, 0, 255, 1) 0%,
+    rgba(166, 0, 255, 1) 35%,
+    rgba(243, 0, 255, 1) 100%
+  );
 }
 
 .container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .loader {
-	position: relative;
+  position: relative;
 }
 
 .loader::before,
 .loader::after {
-	content: '';
-	position: absolute;
-	width: var(--size-square);
-	height: var(--size-square);
-	background-color: var(--color);
+  content: '';
+  position: absolute;
+  width: var(--size-square);
+  height: var(--size-square);
+  background-color: var(--color);
 }
 
 .loader::before {
-	top: calc(50% - var(--size-square));
-	left: calc(50% - var(--size-square));
-	animation: loader-1 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;
+  top: calc(50% - var(--size-square));
+  left: calc(50% - var(--size-square));
+  animation: loader-1 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;
 }
 
 .loader::after {
-	top: 50%;
-	left: 50%;
-	animation: loader-2 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;
+  top: 50%;
+  left: 50%;
+  animation: loader-2 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;
 }
 
 @keyframes loader-1 {
-	0%, 100% {
-		transform: none;
-	}
-	
-	25% {
-		transform: translateX(100%);
-	}
-	
-	50% {
-		transform: translateX(100%) translateY(100%);
-	}
-	
-	75% {
-		transform: translateY(100%);
-	}
+  0%,
+  100% {
+    transform: none;
+  }
+
+  25% {
+    transform: translateX(100%);
+  }
+
+  50% {
+    transform: translateX(100%) translateY(100%);
+  }
+
+  75% {
+    transform: translateY(100%);
+  }
 }
 
 @keyframes loader-2 {
-	0%, 100% {
-		transform: none;
-	}
-	
-	25% {
-		transform: translateX(-100%);
-	}
-	
-	50% {
-		transform: translateX(-100%) translateY(-100%);
-	}
-	
-	75% {
-		transform: translateY(-100%);
-	}
+  0%,
+  100% {
+    transform: none;
+  }
+
+  25% {
+    transform: translateX(-100%);
+  }
+
+  50% {
+    transform: translateX(-100%) translateY(-100%);
+  }
+
+  75% {
+    transform: translateY(-100%);
+  }
 }
