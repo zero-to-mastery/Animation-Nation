@@ -20,9 +20,7 @@ body {
   font-weight: bold;
   margin: 0 10px; /* Space between letters */
   color: #e63946; /* Red color for all letters */
-  animation:
-    bounce 1s infinite alternate,
-    rotate 2s infinite linear;
+  animation: bounce 1s infinite alternate, rotate 2s infinite linear;
 }
 
 /* Adding different colors to each letter */

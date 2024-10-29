@@ -25,9 +25,7 @@ body {
   height: 20px;
   border-radius: 50%;
   position: absolute;
-  animation:
-    orbit 4s linear infinite,
-    colorChange 4s linear infinite;
+  animation: orbit 4s linear infinite, colorChange 4s linear infinite;
 }
 .orbit1 {
   background-color: #f3722c;

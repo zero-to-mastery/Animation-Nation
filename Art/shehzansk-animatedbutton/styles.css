@@ -20,9 +20,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   overflow: hidden;
-  transition:
-    background-color 0.4s ease,
-    padding 0.4s ease;
+  transition: background-color 0.4s ease, padding 0.4s ease;
 }
 
 .animated-button:before {

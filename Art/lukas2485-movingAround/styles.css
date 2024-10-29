@@ -10,8 +10,7 @@
   width: 100px;
   border-radius: 50%;
   background-color: lightblue;
-  animation:
-    pulse 2s ease infinite alternate,
+  animation: pulse 2s ease infinite alternate,
     nudge 6s linear infinite alternate;
 }
 
@@ -19,9 +18,7 @@
   height: 100%;
   width: 5px;
   background-color: lightblue;
-  animation:
-    nudge 6s linear infinite alternate,
-    rotate 4s ease infinite;
+  animation: nudge 6s linear infinite alternate, rotate 4s ease infinite;
 }
 
 @keyframes rotate {

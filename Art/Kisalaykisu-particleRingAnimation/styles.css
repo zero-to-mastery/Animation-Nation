@@ -40,10 +40,7 @@ html {
   background-color: #00aaff;
   border-radius: 50%;
   position: absolute;
-  box-shadow:
-    0 0 20px #00aaff,
-    0 0 40px #00aaff,
-    0 0 60px #00aaff;
+  box-shadow: 0 0 20px #00aaff, 0 0 40px #00aaff, 0 0 60px #00aaff;
   animation: colorShift 4s infinite;
 }
 

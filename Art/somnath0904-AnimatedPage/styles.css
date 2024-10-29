@@ -110,9 +110,7 @@ body {
   border-radius: 15px;
   width: 300px;
   transform: scale(0.9);
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   opacity: 0;
   animation: fadeInUp 1.5s ease forwards 2s;
 }

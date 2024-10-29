@@ -49,9 +49,7 @@ body {
   align-items: start;
   width: 100%;
   max-width: 600px;
-  transition:
-    transform 0.4s ease-in-out,
-    box-shadow 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
 }
 
 .form-components:hover {
@@ -67,9 +65,7 @@ input {
   font-size: 18px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  transition:
-    border-color 0.3s,
-    box-shadow 0.3s;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 input:focus {
@@ -98,9 +94,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition:
-    background-color 0.3s,
-    transform 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 button:hover {

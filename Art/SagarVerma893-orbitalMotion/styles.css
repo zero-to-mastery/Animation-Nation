@@ -28,9 +28,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow:
-    0 0 20px rgba(255, 204, 0, 0.8),
-    0 0 30px rgba(255, 204, 0, 0.6),
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.8), 0 0 30px rgba(255, 204, 0, 0.6),
     0 0 40px rgba(255, 204, 0, 0.4);
   overflow: hidden;
 }

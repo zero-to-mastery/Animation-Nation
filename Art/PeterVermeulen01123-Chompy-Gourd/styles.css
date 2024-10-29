@@ -39,10 +39,8 @@ body {
   height: var(--h);
   z-index: 60;
   background-color: #f18b36;
-  box-shadow:
-    calc(-1 * var(--bs1)) 0 0 0 #f38b36,
-    calc(-1 * var(--bs2)) 0 0 0 #c95927,
-    calc(var(--bs1)) 0 0 0 #c95927,
+  box-shadow: calc(-1 * var(--bs1)) 0 0 0 #f38b36,
+    calc(-1 * var(--bs2)) 0 0 0 #c95927, calc(var(--bs1)) 0 0 0 #c95927,
     calc(var(--bs2)) 0 0 0 #97441a;
   background-image: linear-gradient(to right, #f4a34b 50%, #f19245 50%);
   z-index: 10;
@@ -114,9 +112,7 @@ body {
       #000 1deg calc(var(--a) - 1deg),
       #0000 var(--a)
     );
-  mask:
-    50% calc(-1 * var(--b)) / var(--_g) exclude,
-    50% / var(--_g);
+  mask: 50% calc(-1 * var(--b)) / var(--_g) exclude, 50% / var(--_g);
   animation: mouth 0.45s infinite ease-in-out;
 }
 

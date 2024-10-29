@@ -26,10 +26,7 @@ h1 {
   width: 300px;
   height: auto;
   border-radius: 10px;
-  animation:
-    bounce 2s infinite,
-    rotate 4s infinite,
-    color-change 5s infinite;
+  animation: bounce 2s infinite, rotate 4s infinite, color-change 5s infinite;
   transition: transform 0.2s ease-in-out;
   cursor: pointer;
 }

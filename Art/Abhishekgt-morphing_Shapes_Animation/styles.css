@@ -18,37 +18,22 @@ html {
   text-transform: uppercase;
   letter-spacing: 5px;
   margin-bottom: 30px;
-  text-shadow:
-    0 0 10px rgba(255, 255, 255, 0.8),
-    0 0 20px rgba(255, 255, 255, 0.6),
-    0 0 30px rgba(255, 255, 255, 0.4),
-    0 0 40px #ff512f,
-    0 0 70px #ff512f,
-    0 0 80px #dd2476,
-    0 0 100px #dd2476;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4),
+    0 0 40px #ff512f, 0 0 70px #ff512f, 0 0 80px #dd2476, 0 0 100px #dd2476;
   animation: pulse-glow 2s infinite alternate;
 }
 
 @keyframes pulse-glow {
   0% {
-    text-shadow:
-      0 0 10px rgba(255, 255, 255, 0.8),
-      0 0 20px rgba(255, 255, 255, 0.6),
-      0 0 30px rgba(255, 255, 255, 0.4),
-      0 0 40px #ff512f,
-      0 0 70px #ff512f,
-      0 0 80px #dd2476,
-      0 0 100px #dd2476;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+      0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4),
+      0 0 40px #ff512f, 0 0 70px #ff512f, 0 0 80px #dd2476, 0 0 100px #dd2476;
   }
   100% {
-    text-shadow:
-      0 0 20px rgba(255, 255, 255, 1),
-      0 0 30px rgba(255, 255, 255, 0.8),
-      0 0 40px rgba(255, 255, 255, 0.6),
-      0 0 50px #ff512f,
-      0 0 80px #ff512f,
-      0 0 90px #dd2476,
-      0 0 120px #dd2476;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1),
+      0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.6),
+      0 0 50px #ff512f, 0 0 80px #ff512f, 0 0 90px #dd2476, 0 0 120px #dd2476;
   }
 }
 

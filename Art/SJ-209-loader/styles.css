@@ -46,13 +46,8 @@ section .loader span::before {
   height: 15px;
   border-radius: 60%;
   background: #cf1818f3;
-  box-shadow:
-    0 0 10px #cf1818f3,
-    0 0 20px #cf1818f3,
-    0 0 40px #cf1818f3,
-    0 0 60px #cf1818f3,
-    0 0 80px #cf1818f3,
-    0 0 100px #cf1818f3;
+  box-shadow: 0 0 10px #cf1818f3, 0 0 20px #cf1818f3, 0 0 40px #cf1818f3,
+    0 0 60px #cf1818f3, 0 0 80px #cf1818f3, 0 0 100px #cf1818f3;
   animation: animate 2s linear infinite;
   animation-delay: calc(0.1s * var(--i));
 }

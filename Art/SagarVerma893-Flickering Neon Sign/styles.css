@@ -13,13 +13,8 @@ body {
   font-family: 'Monoton', cursive;
   font-size: 100px;
   color: #00ff00;
-  text-shadow:
-    0 0 5px #00ff00,
-    0 0 10px #00ff00,
-    0 0 20px #00ff00,
-    0 0 40px #00ff00,
-    0 0 80px #00ff00,
-    0 0 100px #00ff00;
+  text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00,
+    0 0 40px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00;
   animation: flicker 2s infinite;
 }
 
@@ -33,13 +28,8 @@ body {
   56%,
   100% {
     opacity: 1;
-    text-shadow:
-      0 0 5px #00ff00,
-      0 0 10px #00ff00,
-      0 0 20px #00ff00,
-      0 0 40px #00ff00,
-      0 0 80px #00ff00,
-      0 0 100px #00ff00;
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00,
+      0 0 40px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00;
   }
   20%,
   24%,

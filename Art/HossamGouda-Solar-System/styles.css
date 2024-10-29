@@ -30,26 +30,12 @@ body {
   left: 0;
   /* Generating stars using multiple box-shadows */
   box-shadow:
-    /* white stars */
-    1vw 2vh #fff,
-    15vw 20vh #fff,
-    25vw 30vh #fff,
-    35vw 40vh #fff,
-    50vw 60vh #fff,
-    60vw 70vh #fff,
-    70vw 80vh #fff,
-    80vw 85vh #fff,
-    90vw 90vh #fff,
-    10vw 95vh #fff,
-    /* yellow stars */ 5vw 10vh #ffd700,
-    20vw 25vh #ffd700,
-    30vw 35vh #ffd700,
-    40vw 45vh #ffd700,
-    55vw 55vh #ffd700,
-    65vw 65vh #ffd700,
-    75vw 75vh #ffd700,
-    85vw 85vh #ffd700,
-    95vw 95vh #ffd700;
+    /* white stars */ 1vw 2vh #fff, 15vw 20vh #fff, 25vw 30vh #fff,
+    35vw 40vh #fff, 50vw 60vh #fff, 60vw 70vh #fff, 70vw 80vh #fff,
+    80vw 85vh #fff, 90vw 90vh #fff, 10vw 95vh #fff,
+    /* yellow stars */ 5vw 10vh #ffd700, 20vw 25vh #ffd700, 30vw 35vh #ffd700,
+    40vw 45vh #ffd700, 55vw 55vh #ffd700, 65vw 65vh #ffd700, 75vw 75vh #ffd700,
+    85vw 85vh #ffd700, 95vw 95vh #ffd700;
   animation: twinkle 100s linear infinite;
 }
 
@@ -80,10 +66,7 @@ body {
   margin: -3vh;
   background: radial-gradient(circle, #ffd700, #ffa500);
   border-radius: 50%;
-  box-shadow:
-    0 0 3vh #ff8c00,
-    0 0 6vh #ff8c00,
-    0 0 9vh #ff8c00;
+  box-shadow: 0 0 3vh #ff8c00, 0 0 6vh #ff8c00, 0 0 9vh #ff8c00;
 }
 
 /* Orbits */

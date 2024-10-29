@@ -17,9 +17,7 @@ span {
   color: yellow;
   opacity: 1;
 
-  text-shadow:
-    0 0 5px rgb(255, 145, 0),
-    1px 1px 10px rgb(210, 119, 0),
+  text-shadow: 0 0 5px rgb(255, 145, 0), 1px 1px 10px rgb(210, 119, 0),
     0px 0px 15px rgb(210, 119, 0);
 
   animation-name: flicker;

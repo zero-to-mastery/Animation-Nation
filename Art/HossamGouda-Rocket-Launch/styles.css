@@ -51,9 +51,7 @@ body {
   background: radial-gradient(circle at 30% 30%, #f0e68c, #bdb76b);
   border-radius: 50%;
   opacity: 0;
-  animation:
-    moon-appear 10s forwards,
-    moon-move 10s forwards;
+  animation: moon-appear 10s forwards, moon-move 10s forwards;
 }
 
 .planet {
@@ -65,9 +63,7 @@ body {
   background: radial-gradient(circle at 30% 30%, #8a2be2, #4b0082);
   border-radius: 50%;
   opacity: 0;
-  animation:
-    planet-appear 10s forwards,
-    planet-move 10s forwards;
+  animation: planet-appear 10s forwards, planet-move 10s forwards;
 }
 
 /* Clouds */

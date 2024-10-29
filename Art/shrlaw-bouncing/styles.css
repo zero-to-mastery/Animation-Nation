@@ -15,8 +15,7 @@
 
 body {
   text-align: center;
-  background:
-    radial-gradient(black 15%, transparent 16%) 0 0,
+  background: radial-gradient(black 15%, transparent 16%) 0 0,
     radial-gradient(black 15%, transparent 16%) 8px 8px,
     radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
     radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
@@ -174,9 +173,7 @@ ul {
   color: #fff;
   border-radius: 5px;
   opacity: 0;
-  transition:
-    opacity 0.3s ease-in-out,
-    transform 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .go-to-top.active {

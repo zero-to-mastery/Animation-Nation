@@ -85,9 +85,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   border-radius: 50%;
-  transition:
-    transform 0.5s,
-    opacity 1s;
+  transition: transform 0.5s, opacity 1s;
   pointer-events: none;
 }
 

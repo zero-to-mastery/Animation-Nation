@@ -23,10 +23,7 @@ body {
   color: white;
   font-size: 16px;
   cursor: pointer;
-  transition:
-    background-color 0.8s ease,
-    width 0.8s ease,
-    height 0.8s ease,
+  transition: background-color 0.8s ease, width 0.8s ease, height 0.8s ease,
     border-radius 0.8s ease;
 }
 

@@ -43,9 +43,7 @@ span {
   display: inline-block;
   opacity: 0;
   transform: translateY(100%);
-  animation:
-    comeup 1.2s ease-in forwards,
-    glow 1.5s ease-in-out infinite;
+  animation: comeup 1.2s ease-in forwards, glow 1.5s ease-in-out infinite;
   animation-fill-mode: forwards;
   animation-delay: calc(0.1s * var(--n));
 }
@@ -64,14 +62,9 @@ span {
 @keyframes glow {
   0%,
   100% {
-    text-shadow:
-      0 0 5px #fff,
-      0 0 10px #a8f312;
+    text-shadow: 0 0 5px #fff, 0 0 10px #a8f312;
   }
   50% {
-    text-shadow:
-      0 0 5px #0c68f1,
-      0 0 10px #14d890,
-      0 0 15px #c0ff01;
+    text-shadow: 0 0 5px #0c68f1, 0 0 10px #14d890, 0 0 15px #c0ff01;
   }
 }

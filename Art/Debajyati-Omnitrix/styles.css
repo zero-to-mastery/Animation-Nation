@@ -43,9 +43,7 @@ body {
   width: 100%;
   clip-path: polygon(0% 0%, 30% 50%, 0% 100%, 100% 100%, 70% 50%, 100% 0%);
   transition: clip-path 1s ease-in-out;
-  animation:
-    changeShape 1s ease forwards,
-    redFlicker 5s ease,
+  animation: changeShape 1s ease forwards, redFlicker 5s ease,
     redEnd 0.5s ease 5s;
 }
 

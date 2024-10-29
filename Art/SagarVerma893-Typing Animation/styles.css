@@ -14,9 +14,7 @@ html {
   border-right: 2px solid #3498db;
   white-space: nowrap;
   overflow: hidden;
-  animation:
-    typing 4s steps(30, end),
-    blink-caret 0.75s step-end infinite;
+  animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
 }
 
 .typing-text {

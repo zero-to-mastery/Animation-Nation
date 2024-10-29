@@ -23,9 +23,7 @@ body {
   border-bottom: 175px solid;
   position: absolute;
   top: 0;
-  animation:
-    1s ease-in 1s spread-out,
-    1.5s ease-in 2s liftupfromtop;
+  animation: 1s ease-in 1s spread-out, 1.5s ease-in 2s liftupfromtop;
   animation-fill-mode: forwards;
 }
 

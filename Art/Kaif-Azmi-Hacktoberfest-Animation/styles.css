@@ -23,9 +23,7 @@ body {
   overflow: hidden;
   border-right: 2px solid #ffffff;
   white-space: nowrap;
-  animation:
-    bounce 1s infinite alternate,
-    colorChange 5s infinite;
+  animation: bounce 1s infinite alternate, colorChange 5s infinite;
 }
 .cursor {
   display: inline-block;
@@ -41,9 +39,7 @@ body {
   color: #f7d94d;
   opacity: 0;
   white-space: nowrap;
-  animation:
-    typewriter 4s steps(30) forwards,
-    fadeIn 4s forwards,
+  animation: typewriter 4s steps(30) forwards, fadeIn 4s forwards,
     textPop 2s infinite 4s;
 }
 @keyframes bounce {

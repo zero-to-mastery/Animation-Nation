@@ -18,9 +18,7 @@ body {
   margin: 10px;
   cursor: pointer;
   border-radius: 8px;
-  transition:
-    transform 0.2s ease,
-    background-color 0.3s ease;
+  transition: transform 0.2s ease, background-color 0.3s ease;
   position: relative;
 }
 
