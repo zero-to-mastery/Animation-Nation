@@ -144,14 +144,6 @@
     "projectPath": "Art/BrianCheung1-Balloons"
   },
   {
-    "author": "Codeioholic",
-    "artName": "Loading Screen",
-    "githubLink": "https://github.com/Codeioholic",
-    "pageLink": "./Art/Codeioholic-LoadingScreen/index.html",
-    "imageLink": "./Art/Codeioholic-LoadingScreen/icon.png",
-    "projectPath": "Art/Codeioholic-LoadingScreen"
-  },
-  {
     "author": "DEBASISH077",
     "artName": "Horizontal Car_Animation",
     "githubLink": "https://github.com/DEBASISH077",
@@ -777,7 +769,7 @@
   },
   {
     "author": "kasunjayasanka",
-    "artName": "fetching animation",
+    "artName": "Data Fetching Animation",
     "githubLink": "https://github.com/kasunjayasanka",
     "pageLink": "./Art/kasunjayasanka-fetching-animation/index.html",
     "imageLink": "./Art/kasunjayasanka-fetching-animation/icon.png",

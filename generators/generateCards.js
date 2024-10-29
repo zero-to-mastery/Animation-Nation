@@ -35,7 +35,7 @@ async function generateIncludes() {
 		});
 	} catch(error){
 		console.error(`[ ERROR x MISSING METADATA ]\n\t - Concerning folder: "${projectPath}"`);
-		fs.rm(projectPath, { recursive: true });
+		fs.rmSync(projectPath, { recursive: true })
 		console.error(`\t|____ Folder removed: "${projectPath}"\n`);
 	}
    }
