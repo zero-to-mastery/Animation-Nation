@@ -1,0 +1,75 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.posts .post {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.posts .post h2 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.posts .post p {
+    margin-bottom: 1rem;
+}
+
+.posts .post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.posts .post a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
