@@ -1,40 +1,44 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #282c34;
-    font-family: 'Courier New', Courier, monospace;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .typing-container {
-    border-right: 2px solid #3498db; 
-    white-space: nowrap; 
-    overflow: hidden;
-    animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
+  border-right: 2px solid #3498db;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 4s steps(30, end),
+    blink-caret 0.75s step-end infinite;
 }
 
 .typing-text {
-    font-size: 36px;
-    color: #ffffff;
+  font-size: 36px;
+  color: #ffffff;
 }
 
 @keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-    from, to {
-        border-color: transparent;
-    }
-    50% {
-        border-color: #3498db; 
-    }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #3498db;
+  }
 }

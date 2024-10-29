@@ -1,67 +1,69 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .letter {
-    font-size: 80px;
-    font-weight: bold;
-    margin: 0 10px; /* Space between letters */
-    color: #e63946; /* Red color for all letters */
-    animation: bounce 1s infinite alternate, rotate 2s infinite linear;
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0 10px; /* Space between letters */
+  color: #e63946; /* Red color for all letters */
+  animation:
+    bounce 1s infinite alternate,
+    rotate 2s infinite linear;
 }
 
 /* Adding different colors to each letter */
 .z {
-    color: #e63946; /* Red */
-    animation-delay: 0s;
+  color: #e63946; /* Red */
+  animation-delay: 0s;
 }
 
 .t {
-    color: #2ec4b6; /* Teal */
-    animation-delay: 0.2s;
+  color: #2ec4b6; /* Teal */
+  animation-delay: 0.2s;
 }
 
 .m {
-    color: #264653; /* Dark Color */
-    animation-delay: 0.4s;
+  color: #264653; /* Dark Color */
+  animation-delay: 0.4s;
 }
 
 /* Bounce Animation */
 @keyframes bounce {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 
 /* Rotate Animation */
 @keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 h1 {
-    margin-top: 20px;
-    color: #333;
-    font-size: 1.5rem;
-    text-align: center;
+  margin-top: 20px;
+  color: #333;
+  font-size: 1.5rem;
+  text-align: center;
 }

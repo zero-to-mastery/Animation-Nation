@@ -1,68 +1,71 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.animated-image {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  animation:
+    bounce 2s infinite,
+    rotate 4s infinite,
+    color-change 5s infinite;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
   }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+  50% {
+    transform: translateY(-20px);
   }
-  
-  .container {
-    text-align: center;
+}
+
+/* Rotate Animation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
   }
-  
-  h1 {
-    margin-bottom: 20px;
-    color: #333;
+  100% {
+    transform: rotate(360deg);
   }
-  
-  .animated-image {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    animation: bounce 2s infinite, rotate 4s infinite, color-change 5s infinite;
-    transition: transform 0.2s ease-in-out;
-    cursor: pointer;
+}
+
+/* Color Change Animation */
+@keyframes color-change {
+  0% {
+    filter: hue-rotate(0deg);
   }
-  
-  /* Bounce Animation */
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-20px);
-    }
+  100% {
+    filter: hue-rotate(360deg);
   }
-  
-  /* Rotate Animation */
-  @keyframes rotate {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  /* Color Change Animation */
-  @keyframes color-change {
-    0% {
-      filter: hue-rotate(0deg);
-    }
-    100% {
-      filter: hue-rotate(360deg);
-    }
-  }
-  
-  /* Scale Effect on Hover */
-  .animated-image:hover {
-    transform: scale(1.1);
-  }
-  
+}
+
+/* Scale Effect on Hover */
+.animated-image:hover {
+  transform: scale(1.1);
+}

@@ -8,7 +8,7 @@ body {
   height: 100%;
 }
 .halloween-text {
-  font-family: "Griffy", system-ui;
+  font-family: 'Griffy', system-ui;
   font-weight: 400;
   font-style: normal;
   color: #c95927;
@@ -39,14 +39,16 @@ body {
   height: var(--h);
   z-index: 60;
   background-color: #f18b36;
-  box-shadow: calc(-1 * var(--bs1)) 0 0 0 #f38b36,
-    calc(-1 * var(--bs2)) 0 0 0 #c95927, calc(var(--bs1)) 0 0 0 #c95927,
+  box-shadow:
+    calc(-1 * var(--bs1)) 0 0 0 #f38b36,
+    calc(-1 * var(--bs2)) 0 0 0 #c95927,
+    calc(var(--bs1)) 0 0 0 #c95927,
     calc(var(--bs2)) 0 0 0 #97441a;
   background-image: linear-gradient(to right, #f4a34b 50%, #f19245 50%);
   z-index: 10;
 }
 .pumpkin:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 22px;
   height: 25px;
@@ -55,7 +57,7 @@ body {
   background-image: linear-gradient(-70deg, #a37c00 50%, transparent 50%);
 }
 .pumpkin:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 11px;
   height: 25px;
@@ -77,7 +79,7 @@ body {
 }
 
 .pumpkin-eye:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 50px;
   height: 43px;
@@ -88,7 +90,7 @@ body {
 }
 
 .pumpkin-eye:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 50px;
   height: 43px;
@@ -112,7 +114,9 @@ body {
       #000 1deg calc(var(--a) - 1deg),
       #0000 var(--a)
     );
-  mask: 50% calc(-1 * var(--b)) / var(--_g) exclude, 50% / var(--_g);
+  mask:
+    50% calc(-1 * var(--b)) / var(--_g) exclude,
+    50% / var(--_g);
   animation: mouth 0.45s infinite ease-in-out;
 }
 
@@ -133,17 +137,14 @@ body {
     --b: 30px;
   }
 }
-@keyframes fadeInAnimation
-{
-   0%
-   { 
-   opacity: 0;
-   }
-50%{
-  opacity: 1;
-}
-   100% 
-   {
-   opacity: 0;
-   }
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
