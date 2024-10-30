@@ -1,4 +1,7 @@
-html, body { height: 100%; }
+html,
+body {
+  height: 100%;
+}
 
 .container {
   height: 600px;
@@ -14,8 +17,12 @@ html, body { height: 100%; }
 }
 
 @keyframes background {
-  0% {background-color: #85edf2;}
-  100% {background-color: #030200;}
+  0% {
+    background-color: #85edf2;
+  }
+  100% {
+    background-color: #030200;
+  }
 }
 
 .pumpkin {
@@ -77,11 +84,10 @@ html, body { height: 100%; }
   border: 8px solid brown;
 }
 
-
 .leftEye {
   margin-top: -90px;
   margin-right: 40px;
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
 }
 
 .rightEye {
@@ -89,7 +95,8 @@ html, body { height: 100%; }
   margin-right: -158px;
 }
 
-.leftEye, .rightEye {
+.leftEye,
+.rightEye {
   width: 0;
   height: 0;
   border-left: 40px solid transparent;
@@ -100,7 +107,7 @@ html, body { height: 100%; }
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  animation-timing-function: linear; 
+  animation-timing-function: linear;
 }
 
 .mouth {
@@ -117,7 +124,6 @@ html, body { height: 100%; }
   animation-direction: alternate;
   animation-timing-function: linear;
 }
-
 
 @keyframes eyes {
   0% {
