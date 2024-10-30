@@ -43,7 +43,8 @@ body {
   width: 100%;
   clip-path: polygon(0% 0%, 30% 50%, 0% 100%, 100% 100%, 70% 50%, 100% 0%);
   transition: clip-path 1s ease-in-out;
-  animation: changeShape 1s ease forwards, redFlicker 5s ease, redEnd 0.5s ease 5s;
+  animation: changeShape 1s ease forwards, redFlicker 5s ease,
+    redEnd 0.5s ease 5s;
 }
 
 @media (max-width: 400px) {
@@ -60,7 +61,14 @@ body {
 
 @keyframes changeShape {
   0% {
-    clip-path: polygon(0% 0%, 30% 50%, 0% 100%, 100% 100%, 70% 50%, 100% 0%); /* The OG Omnitrix Shape */
+    clip-path: polygon(
+      0% 0%,
+      30% 50%,
+      0% 100%,
+      100% 100%,
+      70% 50%,
+      100% 0%
+    ); /* The OG Omnitrix Shape */
     transform: rotate(0deg);
   }
   33% {
@@ -110,10 +118,17 @@ body {
 }
 
 @keyframes redFlicker {
-  0%, 90%, 92%, 94%, 96% {
+  0%,
+  90%,
+  92%,
+  94%,
+  96% {
     background-color: #009933;
   }
-  91%, 93%, 95%, 97% {
+  91%,
+  93%,
+  95%,
+  97% {
     background-color: #e4181e;
   }
   100% {

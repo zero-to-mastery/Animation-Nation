@@ -1,0 +1,85 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(26, 188, 156, 1) 0%,
+    rgba(142, 68, 173, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(26, 188, 156, 1) 0%,
+    rgba(142, 68, 173, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(26, 188, 156, 1) 0%,
+    rgba(142, 68, 173, 1) 100%
+  );
+}
+
+.profile-card {
+  width: 320px;
+  padding: 30px;
+  background-color: #e1efee;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-card .profile-image img {
+  width: 150px;
+  height: 150px;
+  border-bottom-left-radius: 70%;
+  border-bottom-right-radius: 70%;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border: 2px solid #2c3133;
+  margin-bottom: 20px;
+}
+
+.profile-card h2 {
+  margin: 10px 0;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-card .title {
+  color: #383bdd;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.profile-card p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.profile-card .social-links .btn {
+  background-color: #6c79ed;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.profile-card .social-links .btn:hover {
+  background-color: #10d7ff;
+}
+
+.profile-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 30px rgba(17, 211, 241, 0.3);
+}
