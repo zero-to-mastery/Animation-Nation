@@ -1,89 +1,107 @@
 .halloweenWordOrange {
-    line-height: 70px;
-    font-size: 80px;
-    color: orangered;
-    position: relative;
-    margin: 10px;
-    left:20px;
+  line-height: 70px;
+  font-size: 80px;
+  color: orangered;
+  position: relative;
+  margin: 10px;
+  left: 20px;
 }
 .halloweenWordYellow {
-    line-height: 70px;
-    font-size: 80px;
-    color: sandybrown;
-    position: relative;
-    margin: 10px;
-    left:300px;
+  line-height: 70px;
+  font-size: 80px;
+  color: sandybrown;
+  position: relative;
+  margin: 10px;
+  left: 300px;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    background:black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background: black;
 }
 
 .pumpkin-body-center {
-    width: 140px;
-    height: 200px;
-    background-color: orangered;
-    border: 1px dotted #97441a;
-    border-radius: 35%;
-    position: relative;
-    z-index: 3;
+  width: 140px;
+  height: 200px;
+  background-color: orangered;
+  border: 1px dotted #97441a;
+  border-radius: 35%;
+  position: relative;
+  z-index: 3;
 }
 .pumpkin-body-second {
-    width: 100px;
-    height: 185px;
-    background-color: orangered;
-    border: 1px dotted #97441a;
-    border-radius: 40%;
-    position: relative;
-    z-index: 2;
+  width: 100px;
+  height: 185px;
+  background-color: orangered;
+  border: 1px dotted #97441a;
+  border-radius: 40%;
+  position: relative;
+  z-index: 2;
 }
 .pumpkin-body-third {
-    width: 80px;
-    height: 160px;
-    background-color: orangered;
-    border: 1px dotted #97441a;
-    border-radius: 40%;
-    position: relative;
-    z-index: 1;
+  width: 80px;
+  height: 160px;
+  background-color: orangered;
+  border: 1px dotted #97441a;
+  border-radius: 40%;
+  position: relative;
+  z-index: 1;
 }
 
 .pumpkin-eye {
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    border: 3px solid #97441a;
-    border-radius: 50%;
-    position: relative;
-    animation-name: ani-circle; /*動畫名稱(自訂)*/
-    animation-duration: 10s; /*一次完整動畫時間為4秒*/
-    animation-iteration-count: infinite; /*播放次數為無限次*/
-    /*animation-direction: alternate; !*播放方向為先正向再反向*!*/
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border: 3px solid #97441a;
+  border-radius: 50%;
+  position: relative;
+  animation-name: ani-circle; /*動畫名稱(自訂)*/
+  animation-duration: 10s; /*一次完整動畫時間為4秒*/
+  animation-iteration-count: infinite; /*播放次數為無限次*/
+  /*animation-direction: alternate; !*播放方向為先正向再反向*!*/
 }
 
-@keyframes ani-circle { /*動畫名稱為 ani-circle*/
-    0%   {z-index: 0;background: black;}
-    25%  {z-index: 1;}
-    50%  {z-index: 4;}
-    100%  {z-index: 4; background: orange;}
+@keyframes ani-circle {
+  /*動畫名稱為 ani-circle*/
+  0% {
+    z-index: 0;
+    background: black;
+  }
+  25% {
+    z-index: 1;
+  }
+  50% {
+    z-index: 4;
+  }
+  100% {
+    z-index: 4;
+    background: orange;
+  }
 }
 
 .pumpkin-month-smile {
-    border-bottom: 25px solid black;
-    width: 180px;
-    height: 30px;
-    border-radius: 50%;
-    position: relative;
-    animation-name: smile; /*動畫名稱(自訂)*/
-    animation-duration: 10s; /*一次完整動畫時間為4秒*/
-    animation-iteration-count: infinite; /*播放次數為無限次*/
+  border-bottom: 25px solid black;
+  width: 180px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  animation-name: smile; /*動畫名稱(自訂)*/
+  animation-duration: 10s; /*一次完整動畫時間為4秒*/
+  animation-iteration-count: infinite; /*播放次數為無限次*/
 }
 
-@keyframes smile { /*動畫名稱為 ani-circle*/
-    0%  {z-index: 0;}
-    70% {z-index: 4;}
-    100% {z-index: 4;}
+@keyframes smile {
+  /*動畫名稱為 ani-circle*/
+  0% {
+    z-index: 0;
+  }
+  70% {
+    z-index: 4;
+  }
+  100% {
+    z-index: 4;
+  }
 }

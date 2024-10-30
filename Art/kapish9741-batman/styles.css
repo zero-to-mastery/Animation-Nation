@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #000000; 
+  background-color: #000000;
   overflow: hidden;
 }
 
@@ -35,21 +35,21 @@ body {
 /* Keyframes for swinging and moving across the screen */
 @keyframes swingAcrossScreen {
   0% {
-      left: -100px;
-      transform: rotate(-15deg);
+    left: -100px;
+    transform: rotate(-15deg);
   }
   25% {
-      transform: rotate(15deg);
+    transform: rotate(15deg);
   }
   50% {
-      left: 50%;
-      transform: rotate(-15deg);
+    left: 50%;
+    transform: rotate(-15deg);
   }
   75% {
-      transform: rotate(15deg);
+    transform: rotate(15deg);
   }
   100% {
-      left: 110%;
-      transform: rotate(-15deg);
+    left: 110%;
+    transform: rotate(-15deg);
   }
 }

@@ -1,159 +1,160 @@
 :root {
-    --coffee-gradient			: linear-gradient(brown 60%, #300);
+  --coffee-gradient: linear-gradient(brown 60%, #300);
 }
 
-
 body {
-    height						: 100vh;
-    width						: 100vw;
-    background-color			: #339999;
-    display						: flex;
-    flex-direction				: column;
-    justify-content				: center;
-    align-items					: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #339999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* -------------------------------------------------------------------------- */
 /*                                     CUP                                    */
 /* -------------------------------------------------------------------------- */
 .cup__container {
-	margin						: 0;
-    transform					: rotate(-55deg);
-	animation					: cup-levitate 1.5s ease-in-out infinite alternate;
+  margin: 0;
+  transform: rotate(-55deg);
+  animation: cup-levitate 1.5s ease-in-out infinite alternate;
 }
 
 .cup__main {
-    height						: 170px;
-    width						: 200px;
-    background-color			: whitesmoke;
-    border-radius				: 15px;
-    border-bottom-left-radius	: 100px;
-    border-bottom-right-radius	: 100px;
-    box-shadow					: inset 10px -10px 10px 2px #CCC;
-    z-index						: 100;
+  height: 170px;
+  width: 200px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: inset 10px -10px 10px 2px #ccc;
+  z-index: 100;
 }
 
 /* refine cup shapes on top curve */
 .cup__main::before {
-    content						: "";
-    width						: 200px;
-    height						: 50px;
-    background-color			: whitesmoke;
-    display						: block;
-    margin-top					: -10px;
-    border-radius				: 50%;
-    position					: absolute;
-    border-bottom-left-radius	: 60%;
-    border-bottom-right-radius	: 60%;
+  content: '';
+  width: 200px;
+  height: 50px;
+  background-color: whitesmoke;
+  display: block;
+  margin-top: -10px;
+  border-radius: 50%;
+  position: absolute;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%;
 }
 
 .cup__liquid {
-    width						: 170px;
-    height						: 20px;
-    background					: var(--coffee-gradient);
-    position					: absolute;
-    margin						: 10px 15px 0 15px;
-    border-radius				: 50%;
-    z-index						: 1;
+  width: 170px;
+  height: 20px;
+  background: var(--coffee-gradient);
+  position: absolute;
+  margin: 10px 15px 0 15px;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 /* ------------------------------- CUP HANDLE ------------------------------- */
 .cup__handle {
-    position					: absolute;
-    height						: 130px;
-    width						: 130px;
-    background-color			: whitesmoke;
-    border-radius				: 50%;
-    z-index						: -1;
-    transform					: translate(130px, 30px);
-    transform					: scale(.8) translate(170px, 30px);
-    box-shadow					: inset 5px -5px 20px 2px #AAA;
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  z-index: -1;
+  transform: translate(130px, 30px);
+  transform: scale(0.8) translate(170px, 30px);
+  box-shadow: inset 5px -5px 20px 2px #aaa;
 }
 .cup__handle::after {
-    content						: '';
-    position					: absolute;
-    height						: 80px;
-    width						: 80px;
-    background-color			: #339999;
-    border-radius				: 50%;
-    display						: block;
-    margin-top					: 26px;
-    margin-left					: 26px;
+  content: '';
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-color: #339999;
+  border-radius: 50%;
+  display: block;
+  margin-top: 26px;
+  margin-left: 26px;
 }
 
 /* -------------------------------------------------------------------------- */
 /*                                  DRIPPING                                  */
 /* -------------------------------------------------------------------------- */
 .dripping {
-    height						: 200px;
-    width						: 15px;
-    background					: var(--coffee-gradient);
-    border-radius				: 20px;
-    border-top-right-radius		: 0;
-    position					: absolute;
-    animation					: dripping-size ease-in-out infinite alternate 1500ms;
-	margin-left					: -215px;
-    margin-top					: 240px;
+  height: 200px;
+  width: 15px;
+  background: var(--coffee-gradient);
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  position: absolute;
+  animation: dripping-size ease-in-out infinite alternate 1500ms;
+  margin-left: -215px;
+  margin-top: 240px;
 }
 
 .dripping::after {
-	content						: '';
-	height						: 20px;
-	width						: 8px;
-	display						: block;
-	background-color			: brown;
-	opacity						: 1;
-	border-radius				: 10px;
-	margin						: 2px;
-	margin-top					: 150px;
-	transform					: translateY(20px);
-    animation					: dripping-size-light ease-in-out infinite alternate 1500ms;
+  content: '';
+  height: 20px;
+  width: 8px;
+  display: block;
+  background-color: brown;
+  opacity: 1;
+  border-radius: 10px;
+  margin: 2px;
+  margin-top: 150px;
+  transform: translateY(20px);
+  animation: dripping-size-light ease-in-out infinite alternate 1500ms;
 }
 
 /* -------------------------------------------------------------------------- */
 /*                                COFFEE PUDDLE                               */
 /* -------------------------------------------------------------------------- */
 .coffee-puddle {
-    height						: 0px;
-    width						: 15px;
-    background					: linear-gradient(brown, #300);
-    border-radius				: 50px;
-    transform					: translate(-100px, 240px);
-    animation					: puddle-size ease-in-out alternate infinite 1500ms;
-	animation-delay				: -1.2s;
-	opacity						: 0;
-    z-index						: -1;
-    position					: absolute;
-	margin-top					: -25px;
+  height: 0px;
+  width: 15px;
+  background: linear-gradient(brown, #300);
+  border-radius: 50px;
+  transform: translate(-100px, 240px);
+  animation: puddle-size ease-in-out alternate infinite 1500ms;
+  animation-delay: -1.2s;
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+  margin-top: -25px;
 }
 
 /* -------------------------------------------------------------------------- */
 /*                                 ANIMATIONS                                 */
 /* -------------------------------------------------------------------------- */
 @keyframes cup-levitate {
-	to { margin-top: -50px }
+  to {
+    margin-top: -50px;
+  }
 }
 
 @keyframes dripping-size {
-    to {
-		margin-top	: 190px;
-		height		: 100px;
-		transform	: translateY(-50px);
-	}
+  to {
+    margin-top: 190px;
+    height: 100px;
+    transform: translateY(-50px);
+  }
 }
 @keyframes dripping-size-light {
-    to {
-		height		: 80px;
-		margin-top	: 50px;
-		transform	: translateY(-50px);
-		opacity: 0;
-	}
+  to {
+    height: 80px;
+    margin-top: 50px;
+    transform: translateY(-50px);
+    opacity: 0;
+  }
 }
 
 @keyframes puddle-size {
-    to {
-		width		: 100px;
-		height		: 15px;
-		opacity		: 1;
-	}
+  to {
+    width: 100px;
+    height: 15px;
+    opacity: 1;
+  }
 }

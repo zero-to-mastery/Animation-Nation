@@ -144,12 +144,12 @@
     "projectPath": "Art/BrianCheung1-Balloons"
   },
   {
-    "author": "Codeioholic",
-    "artName": "Loading Screen",
-    "githubLink": "https://github.com/Codeioholic",
-    "pageLink": "./Art/Codeioholic-LoadingScreen/index.html",
-    "imageLink": "./Art/Codeioholic-LoadingScreen/icon.png",
-    "projectPath": "Art/Codeioholic-LoadingScreen"
+    "author": "Catrina-W",
+    "artName": "Jack O Lantern",
+    "githubLink": "https://github.com/Catrina-W",
+    "pageLink": "./Art/Catrina-W-JackOLantern/index.html",
+    "imageLink": "./Art/Catrina-W-JackOLantern/icon.png",
+    "projectPath": "Art/Catrina-W-JackOLantern"
   },
   {
     "author": "DEBASISH077",
@@ -163,9 +163,9 @@
     "author": "DEBASISH077",
     "artName": "Coffee Machine",
     "githubLink": "https://github.com/DEBASISH077",
-    "pageLink": "./Art/DEBASISH077-Coffee Machine/index.html",
-    "imageLink": "./Art/DEBASISH077-Coffee Machine/icon.png",
-    "projectPath": "Art/DEBASISH077-Coffee Machine"
+    "pageLink": "./Art/DEBASISH077-CoffeeMachine/index.html",
+    "imageLink": "./Art/DEBASISH077-CoffeeMachine/icon.png",
+    "projectPath": "Art/DEBASISH077-CoffeeMachine"
   },
   {
     "author": "DEBASISH077",
@@ -777,7 +777,7 @@
   },
   {
     "author": "kasunjayasanka",
-    "artName": "fetching animation",
+    "artName": "Data Fetching Animation",
     "githubLink": "https://github.com/kasunjayasanka",
     "pageLink": "./Art/kasunjayasanka-fetching-animation/index.html",
     "imageLink": "./Art/kasunjayasanka-fetching-animation/icon.png",
@@ -1182,6 +1182,14 @@
     "pageLink": "./Art/venkateeshh-bouncingball/index.html",
     "imageLink": "./Art/venkateeshh-bouncingball/icon.png",
     "projectPath": "Art/venkateeshh-bouncingball"
+  },
+  {
+    "author": "violin87",
+    "artName": "active Squares",
+    "githubLink": "https://github.com/violin87",
+    "pageLink": "./Art/violin87-activeSquares/index.html",
+    "imageLink": "./Art/violin87-activeSquares/icon.png",
+    "projectPath": "Art/violin87-activeSquares"
   },
   {
     "author": "vridhichaudhary",

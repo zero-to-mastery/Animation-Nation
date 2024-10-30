@@ -1,5 +1,5 @@
 body {
-  background-color: #0057B8;
+  background-color: #0057b8;
   text-align: center;
   line-height: 100vh;
 }
@@ -10,14 +10,14 @@ body {
   width: 200px;
   line-height: 200px;
   text-align: center;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 50%;
 }
 
 #svg {
   display: inline-block;
   vertical-align: middle;
-  fill: #0057B8;
+  fill: #0057b8;
 }
 #svg path:nth-child(1) {
   animation: pweek 1.8s linear infinite;
@@ -148,22 +148,22 @@ body {
 
 @keyframes pweek {
   0% {
-    fill: #0057B8;
+    fill: #0057b8;
   }
   20% {
-    fill: #F11E4A;
+    fill: #f11e4a;
   }
   40% {
-    fill: #F8A527;
+    fill: #f8a527;
   }
   60% {
-    fill: #266D7F;
+    fill: #266d7f;
   }
   80% {
-    fill: #8822AA;
+    fill: #8822aa;
   }
   100% {
-    fill: #0057B8;
+    fill: #0057b8;
   }
 }
 

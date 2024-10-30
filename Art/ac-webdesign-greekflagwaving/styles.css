@@ -1,157 +1,293 @@
-body{
-    margin: 50px;
-    background:linear-gradient(to right,
-            rgb(86, 170, 163) ,
-            rgb(114, 129, 175),
-            lightblue    
-    );
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  margin: 50px;
+  background: linear-gradient(
+    to right,
+    rgb(86, 170, 163),
+    rgb(114, 129, 175),
+    lightblue
+  );
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.flag{
-    width: 400px;
-    display: flex;
-    gap: 0;
+.flag {
+  width: 400px;
+  display: flex;
+  gap: 0;
 }
 
-.column{
-    height: 250px;
-    width: 100%;
-    animation :wave 1s infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: backwards;
+.column {
+  height: 250px;
+  width: 100%;
+  animation: wave 1s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
 }
 
-.column1{
-    background: linear-gradient(
-        to bottom, 
-        #055EB1 0% 11.1%,
-        #055EB1 11.1% 22.2%,
-        white 22.2% 33.3%,
-        #055EB1 33.3% 44.4%,
-        #055EB1 44.4% 55.5%,
-        white 55.5% 66.6%,
-        #055EB1 66.6% 77.7%,
-        white 77.7% 88.8%,
-        #055EB1 88.8% 100%
-    );
-    &:first-child{
-        border-top-left-radius: 16px;
-        border-bottom-left-radius: 16px;
-        overflow: hidden;
-    }
+.column1 {
+  background: linear-gradient(
+    to bottom,
+    #055eb1 0% 11.1%,
+    #055eb1 11.1% 22.2%,
+    white 22.2% 33.3%,
+    #055eb1 33.3% 44.4%,
+    #055eb1 44.4% 55.5%,
+    white 55.5% 66.6%,
+    #055eb1 66.6% 77.7%,
+    white 77.7% 88.8%,
+    #055eb1 88.8% 100%
+  );
+  &:first-child {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    overflow: hidden;
+  }
 }
 
-.column2{
-    background: linear-gradient(
-        to bottom, 
-        white 0% 11.1%,
-        white 11.1% 22.2%,
-        white 22.2% 33.3%,
-        white 33.3% 44.4%,
-        white 44.4% 55.5%,
-        white 55.5% 66.6%,
-        #055EB1 66.6% 77.7%,
-        white 77.7% 88.8%,
-        #055EB1 88.8% 100%
-    );
+.column2 {
+  background: linear-gradient(
+    to bottom,
+    white 0% 11.1%,
+    white 11.1% 22.2%,
+    white 22.2% 33.3%,
+    white 33.3% 44.4%,
+    white 44.4% 55.5%,
+    white 55.5% 66.6%,
+    #055eb1 66.6% 77.7%,
+    white 77.7% 88.8%,
+    #055eb1 88.8% 100%
+  );
 }
 
-.column3{
-    
-    background: linear-gradient(
-        to bottom, 
-        #055EB1 0% 11.1%,
-        white 11.1% 22.2%,
-        #055EB1 22.2% 33.3%,
-        white 33.3% 44.4%,
-        #055EB1 44.4% 55.5%,
-        white 55.5% 66.6%,
-        #055EB1 66.6% 77.7%,
-        white 77.7% 88.8%,
-        #055EB1 88.8% 100%
-    );
-    &:last-child{
-        border-top-right-radius: 16px;
-        border-bottom-right-radius: 16px;
-        overflow: hidden;
+.column3 {
+  background: linear-gradient(
+    to bottom,
+    #055eb1 0% 11.1%,
+    white 11.1% 22.2%,
+    #055eb1 22.2% 33.3%,
+    white 33.3% 44.4%,
+    #055eb1 44.4% 55.5%,
+    white 55.5% 66.6%,
+    #055eb1 66.6% 77.7%,
+    white 77.7% 88.8%,
+    #055eb1 88.8% 100%
+  );
+  &:last-child {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+  }
+}
+@keyframes rotate {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes wave {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
 
-    }
+.column:nth-child(1) {
+  animation-delay: 50ms;
 }
-@keyframes rotate{
-    0%,100%{transform: rotate(-2deg);}
-    50%{transform: rotate(0deg);}
+.column:nth-child(2) {
+  animation-delay: 100ms;
 }
-@keyframes wave{
-    from{transform: translateY(10px);}
-    to{transform: translateY(-10px);}
+.column:nth-child(3) {
+  animation-delay: 150ms;
 }
-
-.column:nth-child(1){animation-delay: 50ms;}
-.column:nth-child(2){animation-delay: 100ms;}
-.column:nth-child(3){animation-delay: 150ms;}
-.column:nth-child(4){animation-delay: 200ms;}
-.column:nth-child(5){animation-delay: 250ms;}
-.column:nth-child(6){animation-delay: 300ms;}
-.column:nth-child(7){animation-delay: 350ms;}
-.column:nth-child(8){animation-delay: 400ms;}
-.column:nth-child(9){animation-delay: 450ms;}
-.column:nth-child(10){animation-delay: 500ms;}
-.column:nth-child(11){animation-delay: 550ms;}
-.column:nth-child(12){animation-delay: 600ms;}
-.column:nth-child(13){animation-delay: 650ms;}
-.column:nth-child(14){animation-delay: 700ms;}
-.column:nth-child(15){animation-delay: 750ms;}
-.column:nth-child(16){animation-delay: 800ms;}
-.column:nth-child(17){animation-delay: 850ms;}
-.column:nth-child(18){animation-delay: 900ms;}
-.column:nth-child(19){animation-delay: 950ms;}
-.column:nth-child(20){animation-delay: 1000ms;}
-.column:nth-child(21){animation-delay: 1050ms;}
-.column:nth-child(22){animation-delay: 1100ms;}
-.column:nth-child(23){animation-delay: 1150ms;}
-.column:nth-child(24){animation-delay: 1200ms;}
-.column:nth-child(25){animation-delay: 1250ms;}
-.column:nth-child(26){animation-delay: 1300ms;}
-.column:nth-child(27){animation-delay: 1350ms;}
-.column:nth-child(28){animation-delay: 1400ms;}
-.column:nth-child(29){animation-delay: 1450ms;}
-.column:nth-child(30){animation-delay: 1500ms;}
-.column:nth-child(31){animation-delay: 1550ms;}
-.column:nth-child(32){animation-delay: 1600ms;}
-.column:nth-child(33){animation-delay: 1650ms;}
-.column:nth-child(34){animation-delay: 1700ms;}
-.column:nth-child(35){animation-delay: 1750ms;}
-.column:nth-child(36){animation-delay: 1800ms;}
-.column:nth-child(37){animation-delay: 1850ms;}
-.column:nth-child(38){animation-delay: 1900ms;}
-.column:nth-child(39){animation-delay: 1950ms;}
-.column:nth-child(40){animation-delay: 2000ms;}
-.column:nth-child(41){animation-delay: 2050ms;}
-.column:nth-child(42){animation-delay: 2100ms;}
-.column:nth-child(43){animation-delay: 2150ms;}
-.column:nth-child(44){animation-delay: 2200ms;}
-.column:nth-child(45){animation-delay: 2250ms;}
-.column:nth-child(46){animation-delay: 2300ms;}
-.column:nth-child(47){animation-delay: 2350ms;}
-.column:nth-child(48){animation-delay: 2400ms;}
-.column:nth-child(49){animation-delay: 2450ms;}
-.column:nth-child(50){animation-delay: 2500ms;}
-.column:nth-child(51){animation-delay: 2550ms;}
-.column:nth-child(52){animation-delay: 2600ms;}
-.column:nth-child(53){animation-delay: 2650ms;}
-.column:nth-child(54){animation-delay: 2700ms;}
-.column:nth-child(55){animation-delay: 2750ms;}
-.column:nth-child(56){animation-delay: 2800ms;}
-.column:nth-child(57){animation-delay: 2850ms;}
-.column:nth-child(58){animation-delay: 2900ms;}
-.column:nth-child(59){animation-delay: 2950ms;}
-.column:nth-child(60){animation-delay: 3000ms;}
-.column:nth-child(61){animation-delay: 3050ms;}
-.column:nth-child(62){animation-delay: 3100ms;}
-.column:nth-child(63){animation-delay: 3150ms;}
-.column:nth-child(64){animation-delay: 3200ms;}
+.column:nth-child(4) {
+  animation-delay: 200ms;
+}
+.column:nth-child(5) {
+  animation-delay: 250ms;
+}
+.column:nth-child(6) {
+  animation-delay: 300ms;
+}
+.column:nth-child(7) {
+  animation-delay: 350ms;
+}
+.column:nth-child(8) {
+  animation-delay: 400ms;
+}
+.column:nth-child(9) {
+  animation-delay: 450ms;
+}
+.column:nth-child(10) {
+  animation-delay: 500ms;
+}
+.column:nth-child(11) {
+  animation-delay: 550ms;
+}
+.column:nth-child(12) {
+  animation-delay: 600ms;
+}
+.column:nth-child(13) {
+  animation-delay: 650ms;
+}
+.column:nth-child(14) {
+  animation-delay: 700ms;
+}
+.column:nth-child(15) {
+  animation-delay: 750ms;
+}
+.column:nth-child(16) {
+  animation-delay: 800ms;
+}
+.column:nth-child(17) {
+  animation-delay: 850ms;
+}
+.column:nth-child(18) {
+  animation-delay: 900ms;
+}
+.column:nth-child(19) {
+  animation-delay: 950ms;
+}
+.column:nth-child(20) {
+  animation-delay: 1000ms;
+}
+.column:nth-child(21) {
+  animation-delay: 1050ms;
+}
+.column:nth-child(22) {
+  animation-delay: 1100ms;
+}
+.column:nth-child(23) {
+  animation-delay: 1150ms;
+}
+.column:nth-child(24) {
+  animation-delay: 1200ms;
+}
+.column:nth-child(25) {
+  animation-delay: 1250ms;
+}
+.column:nth-child(26) {
+  animation-delay: 1300ms;
+}
+.column:nth-child(27) {
+  animation-delay: 1350ms;
+}
+.column:nth-child(28) {
+  animation-delay: 1400ms;
+}
+.column:nth-child(29) {
+  animation-delay: 1450ms;
+}
+.column:nth-child(30) {
+  animation-delay: 1500ms;
+}
+.column:nth-child(31) {
+  animation-delay: 1550ms;
+}
+.column:nth-child(32) {
+  animation-delay: 1600ms;
+}
+.column:nth-child(33) {
+  animation-delay: 1650ms;
+}
+.column:nth-child(34) {
+  animation-delay: 1700ms;
+}
+.column:nth-child(35) {
+  animation-delay: 1750ms;
+}
+.column:nth-child(36) {
+  animation-delay: 1800ms;
+}
+.column:nth-child(37) {
+  animation-delay: 1850ms;
+}
+.column:nth-child(38) {
+  animation-delay: 1900ms;
+}
+.column:nth-child(39) {
+  animation-delay: 1950ms;
+}
+.column:nth-child(40) {
+  animation-delay: 2000ms;
+}
+.column:nth-child(41) {
+  animation-delay: 2050ms;
+}
+.column:nth-child(42) {
+  animation-delay: 2100ms;
+}
+.column:nth-child(43) {
+  animation-delay: 2150ms;
+}
+.column:nth-child(44) {
+  animation-delay: 2200ms;
+}
+.column:nth-child(45) {
+  animation-delay: 2250ms;
+}
+.column:nth-child(46) {
+  animation-delay: 2300ms;
+}
+.column:nth-child(47) {
+  animation-delay: 2350ms;
+}
+.column:nth-child(48) {
+  animation-delay: 2400ms;
+}
+.column:nth-child(49) {
+  animation-delay: 2450ms;
+}
+.column:nth-child(50) {
+  animation-delay: 2500ms;
+}
+.column:nth-child(51) {
+  animation-delay: 2550ms;
+}
+.column:nth-child(52) {
+  animation-delay: 2600ms;
+}
+.column:nth-child(53) {
+  animation-delay: 2650ms;
+}
+.column:nth-child(54) {
+  animation-delay: 2700ms;
+}
+.column:nth-child(55) {
+  animation-delay: 2750ms;
+}
+.column:nth-child(56) {
+  animation-delay: 2800ms;
+}
+.column:nth-child(57) {
+  animation-delay: 2850ms;
+}
+.column:nth-child(58) {
+  animation-delay: 2900ms;
+}
+.column:nth-child(59) {
+  animation-delay: 2950ms;
+}
+.column:nth-child(60) {
+  animation-delay: 3000ms;
+}
+.column:nth-child(61) {
+  animation-delay: 3050ms;
+}
+.column:nth-child(62) {
+  animation-delay: 3100ms;
+}
+.column:nth-child(63) {
+  animation-delay: 3150ms;
+}
+.column:nth-child(64) {
+  animation-delay: 3200ms;
+}

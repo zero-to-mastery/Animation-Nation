@@ -72,17 +72,19 @@ Now for the fun part! Inside the `Art/` folder:
 - Create a new directory named: <github_username>-<art_name> eg. `mattcsmith-helloworld`.
 - Inside **your** folder, create an `index.html` file
 - Inside **your** folder, create an `styles.css` file
-- Inside **your** folder, create an `meta.json` file   
-to specify your art name, github author and github link  
-Note: copy the following snippet and replace only the values with your own details,  
-Do not change the JSON keys.
+- Inside **your** folder, create an `meta.json` file  
+  to specify your art name, github author and github link  
+  Note: copy the following snippet and replace only the values with your own details,  
+  Do not change the JSON keys.
+
 ```json
 // Example
 {
-    "artName": "hello world",
-    "githubHandle": "mattcsmith"
+  "artName": "hello world",
+  "githubHandle": "mattcsmith"
 }
 ```
+
 - Use these to create your **animated artwork** — let your creativity flow!
 
 ⚠️ It is important to name the directory and your files exactly as mentioned above ⚠️
@@ -96,6 +98,7 @@ Remembering to first pull down the recent changes from to the upstream, commit y
 - [Aldo's Contributing to Github video](https://www.youtube.com/watch?v=uQLNFRviB6Q)
 
 ### 6. [ OPTIONAL ] Tweet about your progress
+
 Optinonally you can [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/36L1C) on X
 
 ---

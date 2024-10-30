@@ -35,10 +35,12 @@ body {
 }
 
 @keyframes changeBackground {
-  0%, 50% {
+  0%,
+  50% {
     background-color: #87ceeb; /* Day - Sky blue color */
   }
-  51%, 100% {
+  51%,
+  100% {
     background-color: #2b2b63; /* Night - Dark indigo color */
   }
 }
@@ -64,7 +66,8 @@ body {
 }
 
 @keyframes moonMovement {
-  0%, 50% {
+  0%,
+  50% {
     transform: translate(-50%, -50%) translateY(50vh);
     opacity: 0;
   }
