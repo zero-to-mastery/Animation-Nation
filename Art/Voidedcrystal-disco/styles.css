@@ -1,2 +1,23 @@
 /* CSS Document */
+body {
+	background: black;
+	
+}
 
+
+
+div {
+	background: gray;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	box-shadow: 
+		inset 60px 0 120px #f0f,
+		inset -60px 0 120px #0ff;
+	
+}
+
+
+@keyframes Disco{
+	
+}
