@@ -8,16 +8,41 @@ body {
 
 div {
 	background: gray;
-	width: 100px;
-	height: 100px;
-	border-radius: 100px;
+	position: absolute;
+	left: 300px;
+	top: 200px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
 	box-shadow: 
-		inset 60px 0 120px #f0f,
-		inset -60px 0 120px #0ff;
-	
+		inset 0 0 50px #fff,      
+    	inset 20px 0 80px #f0f,   
+    	inset -20px 0 80px #0ff,  
+    	inset 20px 0 300px #f0f,  
+    	inset -20px 0 300px #0ff, 
+    	0 0 50px #fff,            
+    	-10px 0 80px #f0f,        
+    	10px 0 80px #0ff;         
 }
 
 
 @keyframes Disco{
-	
+	0% {inset 0 0 50px #fff,      
+    	inset 20px 0 80px #f0f,   
+    	inset -20px 0 80px #0ff,  
+    	inset 20px 0 300px #f0f,  
+    	inset -20px 0 300px #0ff, 
+    	0 0 50px #fff,            
+    	-10px 0 80px #f0f,        
+    	10px 0 80px #0ff;}
+	100% {
+		inset 0 0 50px #fff,      
+    	inset 20px 0 80px #0ff,   
+    	inset -20px 0 80px #f0f,  
+    	inset 20px 0 300px #0ff,  
+    	inset -20px 0 300px #f0f, 
+    	0 0 50px #fff,            
+    	-10px 0 80px #0ff,        
+    	10px 0 80px #f0f;         
+	}
 }
