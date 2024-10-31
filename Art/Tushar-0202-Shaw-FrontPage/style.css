@@ -1,102 +1,104 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+  animation: bgAnimation 10s infinite alternate;
+}
+
+@keyframes bgAnimation {
+  0% {
     background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
-    font-family: 'Segoe UI', sans-serif;
-    overflow: hidden;
-    animation: bgAnimation 10s infinite alternate;
   }
-  
-  @keyframes bgAnimation {
-    0% {
-      background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
-    }
-    100% {
-      background: linear-gradient(135deg, #ff9a9e 0%, #f6d365 100%);
-    }
+  100% {
+    background: linear-gradient(135deg, #ff9a9e 0%, #f6d365 100%);
   }
-  
-  .container {
-    text-align: center;
-    color: white;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 3.5em;
+  animation: bounce 2s infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
   }
-  
-  h1 {
-    font-size: 3.5em;
-    animation: bounce 2s infinite;
-    margin-bottom: 20px;
+  50% {
+    transform: translateY(-20px);
   }
-  
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-20px);
-    }
-  }
-  
-  .pulse-btn {
-    padding: 15px 40px;
-    font-size: 1.2em;
-    color: white;
-    background-color: #ff9a9e;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
+}
+
+.pulse-btn {
+  padding: 15px 40px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #ff9a9e;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  animation: pulse 2s infinite;
+  transition: all 0.3s ease;
+}
+
+.pulse-btn:hover {
+  background-color: #ff758c;
+}
+
+@keyframes pulse {
+  0% {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
-    animation: pulse 2s infinite;
-    transition: all 0.3s ease;
   }
-  
-  .pulse-btn:hover {
-    background-color: #ff758c;
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
   }
-  
-  @keyframes pulse {
-    0% {
-      box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
-    }
-    50% {
-      box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
-    }
-    100% {
-      box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
-    }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
   }
-  
-  p {
-    font-size: 1.5em;
-    animation: floatText 4s ease-in-out infinite;
-    margin-top: 20px;
+}
+
+p {
+  font-size: 1.5em;
+  animation: floatText 4s ease-in-out infinite;
+  margin-top: 20px;
+}
+
+@keyframes floatText {
+  0%,
+  100% {
+    transform: translateY(0);
   }
-  
-  @keyframes floatText {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-15px);
-    }
+  50% {
+    transform: translateY(-15px);
   }
-  
-  .icon {
-    font-size: 3em;
-    margin-top: 30px;
-    color: white;
-    animation: spin 4s infinite linear;
+}
+
+.icon {
+  font-size: 3em;
+  margin-top: 30px;
+  color: white;
+  animation: spin 4s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-  
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
   }
-  
+}

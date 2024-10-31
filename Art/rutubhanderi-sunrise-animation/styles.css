@@ -1,61 +1,60 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #87ceeb;
-  }
-  
-  .scene {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .mountain {
-    position: absolute;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #87ceeb;
+}
+
+.scene {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mountain {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 200px solid #2e8b57;
+  left: 20%;
+}
+
+.mountain2 {
+  left: 50%;
+  border-bottom-color: #3cb371;
+}
+
+.sun {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  background-color: #ffd700;
+  border-radius: 50%;
+  animation: rise 8s ease-in-out infinite;
+}
+
+@keyframes rise {
+  0% {
     bottom: 0;
-    width: 0;
-    height: 0;
-    border-left: 300px solid transparent;
-    border-right: 300px solid transparent;
-    border-bottom: 200px solid #2e8b57;
-    left: 20%;
   }
-  
-  .mountain2 {
-    left: 50%;
-    border-bottom-color: #3cb371;
+  50% {
+    bottom: 300px;
   }
-  
-  .sun {
-    position: absolute;
+  100% {
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 100px;
-    background-color: #ffd700;
-    border-radius: 50%;
-    animation: rise 8s ease-in-out infinite;
   }
-  
-  @keyframes rise {
-    0% {
-      bottom: 0;
-    }
-    50% {
-      bottom: 300px;
-    }
-    100% {
-      bottom: 0;
-    }
-  }
-  
+}

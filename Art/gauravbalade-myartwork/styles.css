@@ -1,80 +1,97 @@
 body {
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .art-wrapper {
-    text-align: center;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .title {
-    font-size: 3em;
-    color: #333;
-    margin-bottom: 20px;
-    animation: fadeIn 2s ease-in-out;
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .art {
-    font-size: 2em;
-    color: #007bff;
-    animation: blink 1s infinite;
+  font-size: 2em;
+  color: #007bff;
+  animation: blink 1s infinite;
 }
 
 .description {
-    animation: slideIn 1s ease-out;
+  animation: slideIn 1s ease-out;
 }
 
 .details {
-    animation: bounce 1.5s infinite;
+  animation: bounce 1.5s infinite;
 }
 
 .animated-image {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    animation: fadeInImage 2s ease-in-out;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  animation: fadeInImage 2s ease-in-out;
 }
 
 @keyframes blink {
-    50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes slideIn {
-    from { transform: translateX(-100%); }
-    to { transform: translateX(0); }
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-30px);
-    }
-    60% {
-        transform: translateY(-15px);
-    }
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
 
 @keyframes fadeInImage {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
 
 /*This code is a CSS stylesheet that styles a webpage with a focus on creating a visually appealing layout for an art-related component. Here’s a breakdown of each section:
 

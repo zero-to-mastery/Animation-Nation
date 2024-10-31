@@ -1,236 +1,228 @@
 body {
-    height: 100vh;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #evilface {
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    display: flex;
-    justify-content: center;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
 }
 
-#righteye, #lefteye {
-    width: 0;
-    height: 0;
-    border-right: 50px solid transparent;
-    border-left: 50px solid transparent;
-    border-bottom: 175px solid;
-    position: absolute;
-    top: 0;
-    animation: 1s ease-in 1s spread-out, 1.5s ease-in 2s liftupfromtop ;
-    animation-fill-mode: forwards;
+#righteye,
+#lefteye {
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 175px solid;
+  position: absolute;
+  top: 0;
+  animation: 1s ease-in 1s spread-out, 1.5s ease-in 2s liftupfromtop;
+  animation-fill-mode: forwards;
 }
 
 #righteye {
-    right: 100px;    
-    
-
+  right: 100px;
 }
 
 #lefteye {
-    left: 100px;
-
+  left: 100px;
 }
 
-#uppermouth, #lowermouth {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: absolute;
+#uppermouth,
+#lowermouth {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
 }
 
 #uppermouth {
-    bottom: 150px;
-    animation: 1.5s ease-in 2s liftup;
-    animation-fill-mode: forwards;
+  bottom: 150px;
+  animation: 1.5s ease-in 2s liftup;
+  animation-fill-mode: forwards;
 }
 
 #lowermouth {
-    bottom: -25px;
-    animation: 1.5s ease-in 2s liftdown;
-    animation-fill-mode: forwards;
+  bottom: -25px;
+  animation: 1.5s ease-in 2s liftdown;
+  animation-fill-mode: forwards;
 }
 
 .upperteeth {
-    width: 0;
-    height: 0;
-    border-right: 50px solid transparent;
-    border-left: 50px solid transparent;
-    border-top: 100px solid;
-    animation: 2s ease-in 2s spread-out;
-    animation-fill-mode: forwards;
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-top: 100px solid;
+  animation: 2s ease-in 2s spread-out;
+  animation-fill-mode: forwards;
 }
 
 .upperteeth:first-child {
-    transform: rotateZ(-30deg) translateX(-75px) translateY(12px);
+  transform: rotateZ(-30deg) translateX(-75px) translateY(12px);
 }
 
 .upperteeth:nth-child(2) {
-    transform: rotateZ(-5deg) translateX(-25px);
+  transform: rotateZ(-5deg) translateX(-25px);
 }
 
 .upperteeth:nth-child(3) {
-    transform: rotateZ(5deg) translateX(25px);
+  transform: rotateZ(5deg) translateX(25px);
 }
 
 .upperteeth:last-child {
-    transform: rotateZ(30deg) translateX(75px) translateY(12px);
+  transform: rotateZ(30deg) translateX(75px) translateY(12px);
 }
 
 .lowerteeth {
-    width: 0;
-    height: 0;
-    border-right: 50px solid transparent;
-    border-left: 50px solid transparent;
-    border-bottom: 100px solid;
-    animation: 1s ease-in 2s spread-out;
-    animation-fill-mode: forwards;
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 100px solid;
+  animation: 1s ease-in 2s spread-out;
+  animation-fill-mode: forwards;
 }
 
 .lowerteeth:first-child {
-    transform: rotateZ(30deg) translateX(-75px) translateY(12px);
+  transform: rotateZ(30deg) translateX(-75px) translateY(12px);
 }
 
 .lowerteeth:nth-child(2) {
-    transform: rotateZ(15deg) translateX(-34px) translateY(39px);
+  transform: rotateZ(15deg) translateX(-34px) translateY(39px);
 }
 
 .lowerteeth:nth-child(3) {
-    transform: translateY(50px);
+  transform: translateY(50px);
 }
 
 .lowerteeth:nth-child(4) {
-    transform: rotateZ(-15deg) translateX(34px) translateY(39px);
+  transform: rotateZ(-15deg) translateX(34px) translateY(39px);
 }
 
 .lowerteeth:last-child {
-    transform: rotateZ(-30deg) translateX(75px) translateY(12px);
+  transform: rotateZ(-30deg) translateX(75px) translateY(12px);
 }
 
 #pumpkin {
-    position: absolute;
-    top: -1000px;
-    animation: 1s ease-in 3.6s reveal;
-    animation-fill-mode: forwards;
+  position: absolute;
+  top: -1000px;
+  animation: 1s ease-in 3.6s reveal;
+  animation-fill-mode: forwards;
 }
 
 #pumpkin > p {
-    font-size: 128px;
-    text-align: center;
-    
+  font-size: 128px;
+  text-align: center;
 }
 
 #pumpkin > h1 {
-    font-family: monospace;
-    font-size: 64px;
-    text-align: center;
-    animation: 6s ease-in infinite 3.6s animatedtext;
-    animation-fill-mode: forwards;
+  font-family: monospace;
+  font-size: 64px;
+  text-align: center;
+  animation: 6s ease-in infinite 3.6s animatedtext;
+  animation-fill-mode: forwards;
 }
 
 /* Animations */
 @keyframes spread-out {
-    0% {
-        border-bottom-color: transparent;
-        opacity: 0;
-    }
-    50% {
-        border-bottom-color: red;
-        border-top-color: red;
-        opacity: 1;
-        
-    }
-    100% {
-        border-top-color: red;
-        border-bottom-color: red;
-        opacity: 1;
-        scale: 1.5;
-    }
+  0% {
+    border-bottom-color: transparent;
+    opacity: 0;
+  }
+  50% {
+    border-bottom-color: red;
+    border-top-color: red;
+    opacity: 1;
+  }
+  100% {
+    border-top-color: red;
+    border-bottom-color: red;
+    opacity: 1;
+    scale: 1.5;
+  }
 }
 
 @keyframes liftup {
-    0% {
-        bottom: 0px;
-
-    }
-    100% {
-        bottom: 1000px;
-        
-    }
+  0% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: 1000px;
+  }
 }
 
 @keyframes liftupfromtop {
-    0% {
-        top: 0px;
-
-    }
-    100% {
-        top: -1000px;
-        
-    }
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: -1000px;
+  }
 }
 
 @keyframes liftdown {
-    0% {
-        bottom: 0px;
-
-    }
-    100% {
-        bottom: -1000px;
-    }
+  0% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: -1000px;
+  }
 }
 
 @keyframes reveal {
-    0% {
-        opacity: 0;
-        visibility:hidden;
-    }
-    50% {
-        top: -1000px;
-        opacity: 0;
-    }
-    100% {
-        position: relative;
-        top: 0;
-        visibility:visible;
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  50% {
+    top: -1000px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 @keyframes animatedtext {
-    0% {
-        color: #585123;
-    }
-    12% {
-        color: #eec170;
-    }
-    25% {
-        color: #f2a65a;
-    }
-    37% {
-        color: #f58549;
-    }
-    49% {
-        color: #772f1a;
-    }
-    51% {
-        color: #e36414;
-    }
-    63% {
-        color: #fb8b24;
-    }
-    75% {
-        color: #9a031e;
-    }
-    87% {
-        color: #823324;
-    }
-    100% {
-        color: #5d513c;
-    }
+  0% {
+    color: #585123;
+  }
+  12% {
+    color: #eec170;
+  }
+  25% {
+    color: #f2a65a;
+  }
+  37% {
+    color: #f58549;
+  }
+  49% {
+    color: #772f1a;
+  }
+  51% {
+    color: #e36414;
+  }
+  63% {
+    color: #fb8b24;
+  }
+  75% {
+    color: #9a031e;
+  }
+  87% {
+    color: #823324;
+  }
+  100% {
+    color: #5d513c;
+  }
 }

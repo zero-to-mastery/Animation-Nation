@@ -1,57 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e1e1e;
 }
 
 .container {
-    position: relative;
-    width: 200px;
-    height: 200px;
+  position: relative;
+  width: 200px;
+  height: 200px;
 }
 
 .ball {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #ff6f61;
-    animation: bounce 2s ease-in-out infinite;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ff6f61;
+  animation: bounce 2s ease-in-out infinite;
 }
 
 .ball1 {
-    left: 0;
-    background-color: #ff6f61;
-    animation-delay: 0s;
+  left: 0;
+  background-color: #ff6f61;
+  animation-delay: 0s;
 }
 
 .ball2 {
-    left: 50px;
-    background-color: #fdd835;
-    animation-delay: 0.2s;
+  left: 50px;
+  background-color: #fdd835;
+  animation-delay: 0.2s;
 }
 
 .ball3 {
-    left: 100px;
-    background-color: #29b6f6;
-    animation-delay: 0.4s;
+  left: 100px;
+  background-color: #29b6f6;
+  animation-delay: 0.4s;
 }
 
 @keyframes bounce {
-    0%, 100% {
-        top: 0;
-        transform: translateY(0);
-    }
-    50% {
-        top: 160px;
-        transform: translateY(-100%);
-    }
+  0%,
+  100% {
+    top: 0;
+    transform: translateY(0);
+  }
+  50% {
+    top: 160px;
+    transform: translateY(-100%);
+  }
 }
