@@ -1,151 +1,294 @@
 body {
-    background-color: rgb(30, 112, 61);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgb(30, 112, 61);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    width: 100%;
-    height: 50%;
-    position: relative;
-    background-color: aqua;
-    border-radius: 10px;
-    box-shadow: 1px 1px 20px 5px;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 5px;
 }
 
 .circle-one {
-    top: 20px;
-    left: 20px;
-    position: absolute;
-    background-color:rgb(12, 12, 12);
-    border-radius: 100%;
-    width: 25px;
-    height: 25px;
-    animation-name: circleOne;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  background-color: rgb(12, 12, 12);
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  animation-name: circleOne;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes circleOne {
-    0%   {background-color: red; left: 2%; top: 2%;}
-    25%  {background-color: green; left: 92%; top: 2%;}
-    75%  {background-color: yellow; left: 3%; top: 90%;}
+  0% {
+    background-color: red;
+    left: 2%;
+    top: 2%;
+  }
+  25% {
+    background-color: green;
+    left: 92%;
+    top: 2%;
+  }
+  75% {
+    background-color: yellow;
+    left: 3%;
+    top: 90%;
+  }
 }
 
 .circle-two {
-    bottom: 20px;
-    right: 20px;
-    position: absolute;
-    background-color:rgb(12, 12, 12);
-    border-radius: 100%;
-    width: 25px;
-    height: 25px;
-    animation-name: circleTwo;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  background-color: rgb(12, 12, 12);
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  animation-name: circleTwo;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes circleTwo {
-     0%   {background-color: red; right: 2%; bottom: 2%;}
-     25%  {background-color: green; right: 92%; bottom: 2%;}
-     75%  {background-color: yellow; right: 3%; bottom: 90%;}
- }
+  0% {
+    background-color: red;
+    right: 2%;
+    bottom: 2%;
+  }
+  25% {
+    background-color: green;
+    right: 92%;
+    bottom: 2%;
+  }
+  75% {
+    background-color: yellow;
+    right: 3%;
+    bottom: 90%;
+  }
+}
 
 .circle-three {
-    top: 20px;
-    right: 20px;
-    position: absolute;
-    background-color:rgb(12, 12, 12);
-    border-radius: 100%;
-    width: 25px;
-    height: 25px;
-    animation-name: circleThree;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  background-color: rgb(12, 12, 12);
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  animation-name: circleThree;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes circleThree {
-    0%   {background-color: red; right: 2%; top: 2%;}
-    25%  {background-color: green; right: 92%; top: 2%;}
-    75%  {background-color: yellow; right: 3%; top: 90%;}
+  0% {
+    background-color: red;
+    right: 2%;
+    top: 2%;
+  }
+  25% {
+    background-color: green;
+    right: 92%;
+    top: 2%;
+  }
+  75% {
+    background-color: yellow;
+    right: 3%;
+    top: 90%;
+  }
 }
 
 .circle-four {
-    bottom: 20px;
-    left: 20px;
-    position: absolute;
-    background-color:rgb(12, 12, 12);
-    border-radius: 100%;
-    width: 25px;
-    height: 25px;
-    animation-name: circleFour;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+  bottom: 20px;
+  left: 20px;
+  position: absolute;
+  background-color: rgb(12, 12, 12);
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  animation-name: circleFour;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes circleFour {
-    0%   {background-color: red; left: 2%; bottom: 2%;}
-    25%  {background-color: green; left: 92%; bottom: 2%;}
-    75%  {background-color: yellow; left: 3%; bottom: 90%;}
+  0% {
+    background-color: red;
+    left: 2%;
+    bottom: 2%;
+  }
+  25% {
+    background-color: green;
+    left: 92%;
+    bottom: 2%;
+  }
+  75% {
+    background-color: yellow;
+    left: 3%;
+    bottom: 90%;
+  }
 }
 
 @media (min-width: 700px) {
-    .container {
-        margin: 20px;
+  .container {
+    margin: 20px;
+  }
+  @keyframes circleOne {
+    0% {
+      background-color: red;
+      left: 2%;
+      top: 2%;
     }
-    @keyframes circleOne {
-          0%   {background-color: red; left: 2%; top: 2%;}
-          25%  {background-color: green; left: 95%; top: 2%;}
-          75%  {background-color: yellow; left: 2%; top: 92%;}
-      }
-      
-    @keyframes circleTwo {
-        0%   {background-color: red; right: 2%; bottom: 2%;}
-        25%  {background-color: green; right: 95%; bottom: 2%;}
-        75%  {background-color: yellow; right: 2%; bottom: 92%;}
+    25% {
+      background-color: green;
+      left: 95%;
+      top: 2%;
     }
-   
-    @keyframes circleThree {
-        0%   {background-color: red; right: 2%; top: 2%;}
-        25%  {background-color: green; right: 95%; top: 2%;}
-        75%  {background-color: yellow; right: 2%; top: 92%;}
+    75% {
+      background-color: yellow;
+      left: 2%;
+      top: 92%;
     }
-    
-    @keyframes circleFour {
-        0%   {background-color: red; left: 2%; bottom: 2%;}
-        25%  {background-color: green; left: 92%; bottom: 2%;}
-        75%  {background-color: yellow; left: 2%; bottom: 92%;}
+  }
+
+  @keyframes circleTwo {
+    0% {
+      background-color: red;
+      right: 2%;
+      bottom: 2%;
     }
-      
+    25% {
+      background-color: green;
+      right: 95%;
+      bottom: 2%;
+    }
+    75% {
+      background-color: yellow;
+      right: 2%;
+      bottom: 92%;
+    }
+  }
+
+  @keyframes circleThree {
+    0% {
+      background-color: red;
+      right: 2%;
+      top: 2%;
+    }
+    25% {
+      background-color: green;
+      right: 95%;
+      top: 2%;
+    }
+    75% {
+      background-color: yellow;
+      right: 2%;
+      top: 92%;
+    }
+  }
+
+  @keyframes circleFour {
+    0% {
+      background-color: red;
+      left: 2%;
+      bottom: 2%;
+    }
+    25% {
+      background-color: green;
+      left: 92%;
+      bottom: 2%;
+    }
+    75% {
+      background-color: yellow;
+      left: 2%;
+      bottom: 92%;
+    }
+  }
 }
-    
+
 @media (min-width: 1000px) {
-    .container {
-        width: 50%;
+  .container {
+    width: 50%;
+  }
+  @keyframes circleOne {
+    0% {
+      background-color: red;
+      left: 2%;
+      top: 2%;
     }
-    @keyframes circleOne {
-          0%   {background-color: red; left: 2%; top: 2%;}
-          25%  {background-color: green; left: 95%; top: 2%;}
-          75%  {background-color: yellow; left: 2%; top: 87.5%;}
-      }
-     
-    @keyframes circleTwo {
-        0%   {background-color: red; right: 2%; bottom: 2%;}
-        25%  {background-color: green; right: 95%; bottom: 2%;}
-        75%  {background-color: yellow; right: 2%; bottom: 87.5%;}
+    25% {
+      background-color: green;
+      left: 95%;
+      top: 2%;
     }
-    
-    @keyframes circleThree {
-        0%   {background-color: red; right: 2%; top: 2%;}
-        25%  {background-color: green; right: 95%; top: 2%;}
-        75%  {background-color: yellow; right: 2%; top: 87.5%;}
+    75% {
+      background-color: yellow;
+      left: 2%;
+      top: 87.5%;
     }
-  
-    @keyframes circleFour {
-        0%   {background-color: red; left: 2%; bottom: 2%;}
-        25%  {background-color: green; left: 92%; bottom: 2%;}
-        75%  {background-color: yellow; left: 2%; bottom: 87.5%;}
+  }
+
+  @keyframes circleTwo {
+    0% {
+      background-color: red;
+      right: 2%;
+      bottom: 2%;
     }
+    25% {
+      background-color: green;
+      right: 95%;
+      bottom: 2%;
+    }
+    75% {
+      background-color: yellow;
+      right: 2%;
+      bottom: 87.5%;
+    }
+  }
+
+  @keyframes circleThree {
+    0% {
+      background-color: red;
+      right: 2%;
+      top: 2%;
+    }
+    25% {
+      background-color: green;
+      right: 95%;
+      top: 2%;
+    }
+    75% {
+      background-color: yellow;
+      right: 2%;
+      top: 87.5%;
+    }
+  }
+
+  @keyframes circleFour {
+    0% {
+      background-color: red;
+      left: 2%;
+      bottom: 2%;
+    }
+    25% {
+      background-color: green;
+      left: 92%;
+      bottom: 2%;
+    }
+    75% {
+      background-color: yellow;
+      left: 2%;
+      bottom: 87.5%;
+    }
+  }
 }
