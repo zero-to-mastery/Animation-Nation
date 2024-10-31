@@ -1,92 +1,92 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: black;
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
 
 .flower {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
 }
 
 .flower > div {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    transform-origin: 300px;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    opacity: 0.5;
-    animation-name: color;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  transform-origin: 300px;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  opacity: 0.5;
+  animation-name: color;
 }
 
 .petal1 {
-    background-color: #fbf8cc;
-    transform: translate(0px, 150px) rotate(0deg);
+  background-color: #fbf8cc;
+  transform: translate(0px, 150px) rotate(0deg);
 }
 
 .petal2 {
-    background-color: #fde4cf;
-    transform: translate(0px, 150px) rotate(30deg);
+  background-color: #fde4cf;
+  transform: translate(0px, 150px) rotate(30deg);
 }
 
 .petal3 {
-    background-color: #ffcfd2;
-    transform: translate(0px, 150px) rotate(60deg);
+  background-color: #ffcfd2;
+  transform: translate(0px, 150px) rotate(60deg);
 }
 
 .petal4 {
-    background-color: #f1c0e8;
-    transform: translate(0px, 150px) rotate(90deg);
+  background-color: #f1c0e8;
+  transform: translate(0px, 150px) rotate(90deg);
 }
 
 .petal5 {
-    background-color: #cfbaf0;
-    transform: translate(0px, 150px) rotate(120deg);
+  background-color: #cfbaf0;
+  transform: translate(0px, 150px) rotate(120deg);
 }
 
 .petal6 {
-    background-color: #a3c4f3;
-    transform: translate(0px, 150px) rotate(150deg);
+  background-color: #a3c4f3;
+  transform: translate(0px, 150px) rotate(150deg);
 }
 
 .petal7 {
-    background-color: #90dbf4;
-    transform: translate(0px, 150px) rotate(180deg);
+  background-color: #90dbf4;
+  transform: translate(0px, 150px) rotate(180deg);
 }
 
 .petal8 {
-    background-color: #8eecf5;
-    transform: translate(0px, 150px) rotate(210deg);
+  background-color: #8eecf5;
+  transform: translate(0px, 150px) rotate(210deg);
 }
 
 .petal9 {
-    background-color: #98f5e1;
-    transform: translate(0px, 150px) rotate(240deg);
+  background-color: #98f5e1;
+  transform: translate(0px, 150px) rotate(240deg);
 }
 
 .petal10 {
-    background-color: #b9fbc0;
-    transform: translate(0px, 150px) rotate(270deg);
+  background-color: #b9fbc0;
+  transform: translate(0px, 150px) rotate(270deg);
 }
 
 .petal11 {
-    background-color: #d0e3cc;
-    transform: translate(0px, 150px) rotate(300deg);
+  background-color: #d0e3cc;
+  transform: translate(0px, 150px) rotate(300deg);
 }
 
 .petal12 {
-    background-color: #dfe7fd;
-    transform: translate(0px, 150px) rotate(330deg);
+  background-color: #dfe7fd;
+  transform: translate(0px, 150px) rotate(330deg);
 }
 
 @keyframes color {
-    20% {
-        transform: translate(0px, 150px) rotate(-360deg);
-    }
+  20% {
+    transform: translate(0px, 150px) rotate(-360deg);
+  }
 }

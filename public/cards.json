@@ -8,6 +8,14 @@
     "projectPath": "Art/AAbhijithA-waveAnimation"
   },
   {
+    "author": "AMRUTHA-BYSANI",
+    "artName": "Loading Colours",
+    "githubLink": "https://github.com/AMRUTHA-BYSANI",
+    "pageLink": "./Art/AMRUTHA-BYSANI-LoadingColoursAnimation/index.html",
+    "imageLink": "./Art/AMRUTHA-BYSANI-LoadingColoursAnimation/icon.png",
+    "projectPath": "Art/AMRUTHA-BYSANI-LoadingColoursAnimation"
+  },
+  {
     "author": "ARYPROGRAMMER",
     "artName": "Quantum Portal Animation",
     "githubLink": "https://github.com/ARYPROGRAMMER",
@@ -144,12 +152,12 @@
     "projectPath": "Art/BrianCheung1-Balloons"
   },
   {
-    "author": "Codeioholic",
-    "artName": "Loading Screen",
-    "githubLink": "https://github.com/Codeioholic",
-    "pageLink": "./Art/Codeioholic-LoadingScreen/index.html",
-    "imageLink": "./Art/Codeioholic-LoadingScreen/icon.png",
-    "projectPath": "Art/Codeioholic-LoadingScreen"
+    "author": "Catrina-W",
+    "artName": "Jack O Lantern",
+    "githubLink": "https://github.com/Catrina-W",
+    "pageLink": "./Art/Catrina-W-JackOLantern/index.html",
+    "imageLink": "./Art/Catrina-W-JackOLantern/icon.png",
+    "projectPath": "Art/Catrina-W-JackOLantern"
   },
   {
     "author": "DEBASISH077",
@@ -163,9 +171,9 @@
     "author": "DEBASISH077",
     "artName": "Coffee Machine",
     "githubLink": "https://github.com/DEBASISH077",
-    "pageLink": "./Art/DEBASISH077-Coffee Machine/index.html",
-    "imageLink": "./Art/DEBASISH077-Coffee Machine/icon.png",
-    "projectPath": "Art/DEBASISH077-Coffee Machine"
+    "pageLink": "./Art/DEBASISH077-CoffeeMachine/index.html",
+    "imageLink": "./Art/DEBASISH077-CoffeeMachine/icon.png",
+    "projectPath": "Art/DEBASISH077-CoffeeMachine"
   },
   {
     "author": "DEBASISH077",
@@ -182,6 +190,14 @@
     "pageLink": "./Art/DEBASISH077-RippleEffect/index.html",
     "imageLink": "./Art/DEBASISH077-RippleEffect/icon.png",
     "projectPath": "Art/DEBASISH077-RippleEffect"
+  },
+  {
+    "author": "DEREKFERRER",
+    "artName": "Moving Circle",
+    "githubLink": "https://github.com/DEREKFERRER",
+    "pageLink": "./Art/DEREKFERRER-movingCircle/index.html",
+    "imageLink": "./Art/DEREKFERRER-movingCircle/icon.png",
+    "projectPath": "Art/DEREKFERRER-movingCircle"
   },
   {
     "author": "Debajyati",
@@ -310,6 +326,14 @@
     "pageLink": "./Art/KC1064-Welcome/index.html",
     "imageLink": "./Art/KC1064-Welcome/icon.png",
     "projectPath": "Art/KC1064-Welcome"
+  },
+  {
+    "author": "Kaif-Azmi",
+    "artName": "Card Animation",
+    "githubLink": "https://github.com/Kaif-Azmi",
+    "pageLink": "./Art/Kaif-Azmi-Animation-Done/index.html",
+    "imageLink": "./Art/Kaif-Azmi-Animation-Done/icon.png",
+    "projectPath": "Art/Kaif-Azmi-Animation-Done"
   },
   {
     "author": "Kaif-Azmi",
@@ -616,6 +640,14 @@
     "projectPath": "Art/buzzcosm-neon_greetings"
   },
   {
+    "author": "ccholinski",
+    "artName": "Disappearing Squares",
+    "githubLink": "https://github.com/ccholinski",
+    "pageLink": "./Art/ccholinski-DisappearingSquares/index.html",
+    "imageLink": "./Art/ccholinski-DisappearingSquares/icon.png",
+    "projectPath": "Art/ccholinski-DisappearingSquares"
+  },
+  {
     "author": "chaitraDev",
     "artName": "gavel",
     "githubLink": "https://github.com/chaitraDev",
@@ -769,11 +801,19 @@
   },
   {
     "author": "kasunjayasanka",
-    "artName": "fetching animation",
+    "artName": "Data Fetching Animation",
     "githubLink": "https://github.com/kasunjayasanka",
     "pageLink": "./Art/kasunjayasanka-fetching-animation/index.html",
     "imageLink": "./Art/kasunjayasanka-fetching-animation/icon.png",
     "projectPath": "Art/kasunjayasanka-fetching-animation"
+  },
+  {
+    "author": "katkatniss",
+    "artName": "Make a Halloween Pumpkin",
+    "githubLink": "https://github.com/katkatniss",
+    "pageLink": "./Art/katkatniss-makeAHalloweenPumpkin/index.html",
+    "imageLink": "./Art/katkatniss-makeAHalloweenPumpkin/icon.png",
+    "projectPath": "Art/katkatniss-makeAHalloweenPumpkin"
   },
   {
     "author": "kishan-25",
@@ -1166,6 +1206,14 @@
     "pageLink": "./Art/venkateeshh-bouncingball/index.html",
     "imageLink": "./Art/venkateeshh-bouncingball/icon.png",
     "projectPath": "Art/venkateeshh-bouncingball"
+  },
+  {
+    "author": "violin87",
+    "artName": "active Squares",
+    "githubLink": "https://github.com/violin87",
+    "pageLink": "./Art/violin87-activeSquares/index.html",
+    "imageLink": "./Art/violin87-activeSquares/icon.png",
+    "projectPath": "Art/violin87-activeSquares"
   },
   {
     "author": "vridhichaudhary",
