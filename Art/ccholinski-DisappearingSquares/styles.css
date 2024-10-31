@@ -1,0 +1,135 @@
+body {
+    background-color: blue;
+}
+div {
+    position: absolute;
+}
+.first {
+    background-color: blue;
+    z-index: 3;
+    animation-name: cantordust1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#horizontal1 {
+    width: 100%;
+    height: calc(100%/3);
+    left: 0;
+    bottom: calc(100%/3);
+}
+#vertical1 {
+    width: calc(100%/3);
+    height: 100%;
+    left: calc(100%/3);
+    bottom: 0;
+}
+.second {
+    background-color: blue;
+    z-index: 2;
+    animation-name: cantordust2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#horizontal2 {
+    width: 100%;
+    height: calc(100%/9);
+    left: 0;
+    bottom: calc(100%/9);
+}
+#vertical2 {
+    width: calc(100%/9);
+    height: 100%;
+    left: calc(100%/9);
+    bottom: 0;
+}
+#horizontal3 {
+    width: 100%;
+    height: calc(100%/9);
+    left: 0;
+    bottom: calc(700%/9);
+}
+#vertical3 {
+    width: calc(100%/9);
+    height: 100%;
+    left: calc(700%/9);
+    bottom: 0;
+}
+.third {
+    background-color: blue;
+    z-index: 1;
+    animation-name: cantordust3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#horizontal4 {
+    width: 100%;
+    height: calc(100%/27);
+    left: 0;
+    bottom: calc(100%/27);
+}
+#vertical4 {
+    width: calc(100%/27);
+    height: 100%;
+    left: calc(100%/27);
+    bottom: 0;
+}
+#horizontal5 {
+    width: 100%;
+    height: calc(100%/27);
+    left: 0;
+    bottom: calc(700%/27);
+}
+#vertical5 {
+    width: calc(100%/27);
+    height: 100%;
+    left: calc(700%/27);
+    bottom: 0;
+}
+#horizontal6 {
+    width: 100%;
+    height: calc(100%/27);
+    left: 0;
+    bottom: calc(1900%/27);
+}
+#vertical6 {
+    width: calc(100%/27);
+    height: 100%;
+    left: calc(1900%/27);
+    bottom: 0;
+}
+#horizontal7 {
+    width: 100%;
+    height: calc(100%/27);
+    left: 0;
+    bottom: calc(2500%/27);
+}
+#vertical7 {
+    width: calc(100%/27);
+    height: 100%;
+    left: calc(2500%/27);
+    bottom: 0;
+}
+@keyframes cantordust1 {
+    0% {background-color: blue;}  
+    25% {background-color: white;}
+    50% {background-color: white;}
+    75% {background-color: white;}
+    100% {background-color: white;}
+}
+@keyframes cantordust2 {
+    0% {background-color: blue;}  
+    25% {background-color: blue;}
+    50% {background-color: white;}
+    75% {background-color: white;}
+    100% {background-color: white;}
+}
+@keyframes cantordust3 {
+    0% {background-color: blue;}  
+    25% {background-color: blue;}
+    50% {background-color: blue;}
+    75% {background-color: white;}
+    100% {background-color: white;}
+}
