@@ -753,6 +753,14 @@
   },
   {
     "author": "guranshdeol",
+    "artName": "Radar Scannar Animation",
+    "githubLink": "https://github.com/guranshdeol",
+    "pageLink": "./Art/guranshdeol-RadarScannarAnimation/index.html",
+    "imageLink": "./Art/guranshdeol-RadarScannarAnimation/icon.png",
+    "projectPath": "Art/guranshdeol-RadarScannarAnimation"
+  },
+  {
+    "author": "guranshdeol",
     "artName": "Morphing Blob",
     "githubLink": "https://github.com/guranshdeol",
     "pageLink": "./Art/guranshdeol-morphingblob/index.html",
@@ -1104,6 +1112,14 @@
     "projectPath": "Art/shanolhere-dogAnimation"
   },
   {
+    "author": "shanolhere",
+    "artName": "Loader Animation",
+    "githubLink": "https://github.com/shanolhere",
+    "pageLink": "./Art/shanolhere-loaderAnimation/index.html",
+    "imageLink": "./Art/shanolhere-loaderAnimation/icon.png",
+    "projectPath": "Art/shanolhere-loaderAnimation"
+  },
+  {
     "author": "ShehzanSk",
     "artName": "Animated Button",
     "githubLink": "https://github.com/ShehzanSk",
@@ -1246,6 +1262,13 @@
     "pageLink": "./Art/terrifricker-rotatingSquare/index.html",
     "imageLink": "./Art/terrifricker-rotatingSquare/icon.png",
     "projectPath": "Art/terrifricker-rotatingSquare"
+  },
+  {
+    "artName": "bouncingball",
+    "githubLink": "https://github.com/undefined",
+    "pageLink": "./Art/vedpawar2254-bouncingball/index.html",
+    "imageLink": "./Art/vedpawar2254-bouncingball/icon.png",
+    "projectPath": "Art/vedpawar2254-bouncingball"
   },
   {
     "author": "venkateeshh",
