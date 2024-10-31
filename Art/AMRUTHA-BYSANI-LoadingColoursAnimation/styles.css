@@ -1,15 +1,15 @@
 body {
-  background-color: #000000; 
+  background-color: #000000;
 }
-.box{
+.box {
   perspective: 120px;
-  min-height: 100vh; 
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -21,17 +21,20 @@ body {
 .coin {
   width: 100px;
   height: 100px;
-  border-radius: 50%; 
- background: linear-gradient(135deg, #FF5F6D, #FFC371, #36D1DC, #5B86E5, #A1FFCE);
-;  
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    #ff5f6d,
+    #ffc371,
+    #36d1dc,
+    #5b86e5,
+    #a1ffce
+  );
   animation: twist 2s ease-in-out alternate infinite;
 }
 
 @keyframes twist {
-  
-  to{
+  to {
     transform: rotateX(360deg) scale(0.5);
   }
-
 }
-

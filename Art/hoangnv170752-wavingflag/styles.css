@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-color: #DA251D; 
+  background-color: #da251d;
 }
 
 .flag-container {
@@ -20,7 +21,16 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.1) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.1) 75%, transparent 75%, transparent);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.1) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0.1) 75%,
+    transparent 75%,
+    transparent
+  );
   background-size: 20px 20px;
   animation: wave 6s ease-in-out infinite, wrinkle 2s linear infinite;
   perspective: 1000px;
@@ -28,30 +38,32 @@ body, html {
 
 .star {
   font-size: 20vw;
-  color: #FFCD00;
+  color: #ffcd00;
   position: absolute;
 }
 
 @keyframes wave {
-  0%, 100% {
-      transform: translateZ(0) rotate(0deg);
+  0%,
+  100% {
+    transform: translateZ(0) rotate(0deg);
   }
   25% {
-      transform: translateZ(-10px) rotate(1deg);
+    transform: translateZ(-10px) rotate(1deg);
   }
   50% {
-      transform: translateZ(-20px) rotate(0deg);
+    transform: translateZ(-20px) rotate(0deg);
   }
   75% {
-      transform: translateZ(-10px) rotate(-1deg);
+    transform: translateZ(-10px) rotate(-1deg);
   }
 }
 
 @keyframes wrinkle {
-  0%, 100% {
-      background-position: 0 0;
+  0%,
+  100% {
+    background-position: 0 0;
   }
   50% {
-      background-position: 10px 10px;
+    background-position: 10px 10px;
   }
 }
