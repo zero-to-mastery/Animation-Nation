@@ -1,97 +1,97 @@
-        /* Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: #0d1b2a;
-            overflow: hidden;
-            font-family: Arial, sans-serif;
-            color: #fff;
-        }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0d1b2a;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
 
-        /* Container for the blob and text */
-        .container {
-            position: relative;
-            width: 300px;
-            height: 300px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            perspective: 1000px;
-        }
+/* Container for the blob and text */
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
 
-        /* Blob styling */
-        .blob {
-            width: 250px;
-            height: 250px;
-            position: absolute;
-            background: linear-gradient(135deg, #ff416c, #ff4b2b);
-            border-radius: 50%;
-            filter: blur(30px);
-            animation: morph 8s infinite ease-in-out;
-            transform-origin: center;
-            z-index: 1;
-            box-shadow: 0 0 60px rgba(255, 50, 80, 0.3);
-        }
+/* Blob styling */
+.blob {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  border-radius: 50%;
+  filter: blur(30px);
+  animation: morph 8s infinite ease-in-out;
+  transform-origin: center;
+  z-index: 1;
+  box-shadow: 0 0 60px rgba(255, 50, 80, 0.3);
+}
 
-        /* Adding another layer for depth */
-        .blob::before {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: inherit;
-            border-radius: inherit;
-            filter: blur(20px);
-            animation: morph 8s infinite ease-in-out alternate;
-            transform: scale(1.3);
-        }
+/* Adding another layer for depth */
+.blob::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: inherit;
+  filter: blur(20px);
+  animation: morph 8s infinite ease-in-out alternate;
+  transform: scale(1.3);
+}
 
-        /* Text styling */
-        .text {
-            font-size: 2em;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: #ff416c;
-            z-index: 2;
-            animation: floatingText 6s infinite ease-in-out;
-        }
+/* Text styling */
+.text {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ff416c;
+  z-index: 2;
+  animation: floatingText 6s infinite ease-in-out;
+}
 
-        /* Animation for morphing blob */
-        @keyframes morph {
-            0% {
-                border-radius: 60% 40% 30% 70% / 50% 30% 70% 50%;
-            }
-            25% {
-                border-radius: 30% 50% 60% 40% / 40% 60% 30% 70%;
-            }
-            50% {
-                border-radius: 70% 30% 40% 60% / 50% 70% 30% 50%;
-            }
-            75% {
-                border-radius: 40% 60% 50% 30% / 70% 50% 40% 60%;
-            }
-            100% {
-                border-radius: 60% 40% 30% 70% / 50% 30% 70% 50%;
-            }
-        }
+/* Animation for morphing blob */
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 50% 30% 70% 50%;
+  }
+  25% {
+    border-radius: 30% 50% 60% 40% / 40% 60% 30% 70%;
+  }
+  50% {
+    border-radius: 70% 30% 40% 60% / 50% 70% 30% 50%;
+  }
+  75% {
+    border-radius: 40% 60% 50% 30% / 70% 50% 40% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 50% 30% 70% 50%;
+  }
+}
 
-        /* Floating text animation */
-        @keyframes floatingText {
-            0% {
-                transform: translateY(-10px);
-            }
-            50% {
-                transform: translateY(10px);
-            }
-            100% {
-                transform: translateY(-10px);
-            }
-        }
+/* Floating text animation */
+@keyframes floatingText {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

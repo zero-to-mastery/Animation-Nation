@@ -600,6 +600,14 @@
     "projectPath": "Art/Vandita-014-BoilingBrew"
   },
   {
+    "author": "VoidedCrystal",
+    "artName": "Disco Ball",
+    "githubLink": "https://github.com/VoidedCrystal",
+    "pageLink": "./Art/Voidedcrystal-disco/index.html",
+    "imageLink": "./Art/Voidedcrystal-disco/icon.png",
+    "projectPath": "Art/Voidedcrystal-disco"
+  },
+  {
     "author": "Yadnyesh-Dashpute",
     "artName": "Animated Form",
     "githubLink": "https://github.com/Yadnyesh-Dashpute",
@@ -750,6 +758,14 @@
     "pageLink": "./Art/guranshdeol-CardFlip/index.html",
     "imageLink": "./Art/guranshdeol-CardFlip/icon.png",
     "projectPath": "Art/guranshdeol-CardFlip"
+  },
+  {
+    "author": "guranshdeol",
+    "artName": "Radar Scannar Animation",
+    "githubLink": "https://github.com/guranshdeol",
+    "pageLink": "./Art/guranshdeol-RadarScannarAnimation/index.html",
+    "imageLink": "./Art/guranshdeol-RadarScannarAnimation/icon.png",
+    "projectPath": "Art/guranshdeol-RadarScannarAnimation"
   },
   {
     "author": "guranshdeol",
@@ -944,6 +960,14 @@
     "projectPath": "Art/mattcsmith-triangle"
   },
   {
+    "author": "mitul-bhatia",
+    "artName": "immersive 3D billboard",
+    "githubLink": "https://github.com/mitul-bhatia",
+    "pageLink": "./Art/mitul-bhatia-keyboardanimation/index.html",
+    "imageLink": "./Art/mitul-bhatia-keyboardanimation/icon.png",
+    "projectPath": "Art/mitul-bhatia-keyboardanimation"
+  },
+  {
     "author": "nabinkumarshaw",
     "artName": "Animation",
     "githubLink": "https://github.com/nabinkumarshaw",
@@ -1096,6 +1120,14 @@
     "projectPath": "Art/shanolhere-dogAnimation"
   },
   {
+    "author": "shanolhere",
+    "artName": "Loader Animation",
+    "githubLink": "https://github.com/shanolhere",
+    "pageLink": "./Art/shanolhere-loaderAnimation/index.html",
+    "imageLink": "./Art/shanolhere-loaderAnimation/icon.png",
+    "projectPath": "Art/shanolhere-loaderAnimation"
+  },
+  {
     "author": "ShehzanSk",
     "artName": "Animated Button",
     "githubLink": "https://github.com/ShehzanSk",
@@ -1238,6 +1270,13 @@
     "pageLink": "./Art/terrifricker-rotatingSquare/index.html",
     "imageLink": "./Art/terrifricker-rotatingSquare/icon.png",
     "projectPath": "Art/terrifricker-rotatingSquare"
+  },
+  {
+    "artName": "bouncingball",
+    "githubLink": "https://github.com/undefined",
+    "pageLink": "./Art/vedpawar2254-bouncingball/index.html",
+    "imageLink": "./Art/vedpawar2254-bouncingball/icon.png",
+    "projectPath": "Art/vedpawar2254-bouncingball"
   },
   {
     "author": "venkateeshh",

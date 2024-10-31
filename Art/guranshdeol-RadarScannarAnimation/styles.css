@@ -1,0 +1,116 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0a0a0a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* Radar container */
+.radar-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 3px solid rgba(0, 255, 128, 0.3);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 255, 128, 0.1) 0%,
+    rgba(0, 0, 0, 0.8) 70%
+  );
+  box-shadow: 0 0 20px rgba(0, 255, 128, 0.5);
+  overflow: hidden;
+}
+
+/* Sweeping radar line */
+.radar-line {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: conic-gradient(
+    from 90deg,
+    rgba(0, 255, 128, 0.2) 0deg,
+    rgba(0, 255, 128, 0.3) 45deg,
+    transparent 180deg,
+    transparent
+  );
+  border-radius: 50%;
+  animation: rotateRadar 4s infinite linear;
+  z-index: 2;
+}
+
+/* Radar dots */
+.dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(0, 255, 128, 0.8);
+  box-shadow: 0 0 10px rgba(0, 255, 128, 0.8);
+  animation: pulse 2s infinite ease-in-out;
+}
+
+/* Placing radar dots randomly within the radar container */
+.dot:nth-child(1) {
+  top: 40%;
+  left: 60%;
+  animation-delay: 0.5s;
+}
+.dot:nth-child(2) {
+  top: 30%;
+  left: 20%;
+  animation-delay: 1s;
+}
+.dot:nth-child(3) {
+  top: 70%;
+  left: 80%;
+  animation-delay: 1.5s;
+}
+.dot:nth-child(4) {
+  top: 50%;
+  left: 40%;
+  animation-delay: 2s;
+}
+.dot:nth-child(5) {
+  top: 20%;
+  left: 70%;
+  animation-delay: 2.5s;
+}
+.dot:nth-child(6) {
+  top: 80%;
+  left: 30%;
+  animation-delay: 3s;
+}
+
+/* Rotate radar animation */
+@keyframes rotateRadar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Dot pulse animation */
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 0.5;
+  }
+}
