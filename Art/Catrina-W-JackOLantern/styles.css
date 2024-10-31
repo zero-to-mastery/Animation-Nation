@@ -1,0 +1,144 @@
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  height: 600px;
+  background: #85edf2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: background;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes background {
+  0% {
+    background-color: #85edf2;
+  }
+  100% {
+    background-color: #030200;
+  }
+}
+
+.pumpkin {
+  position: absolute;
+  background: red;
+  width: 250px;
+  height: 330px;
+  border-radius: 50%;
+}
+
+.pumpkin span {
+  position: absolute;
+  background: #f5980c;
+  display: block;
+  width: 250px;
+  height: 320px;
+  border-radius: 50%;
+  margin-left: -90px;
+  transform: rotate(10deg);
+  border: 8px solid brown;
+}
+
+.pumpkin span:nth-child(1) {
+  background: #f5980c;
+  width: 250px;
+  height: 320px;
+  transform: rotate(-10deg);
+  left: 180px;
+  z-index: 3;
+  border: 8px solid brown;
+}
+
+.pumpkin span:nth-child(2) {
+  background: #f5980c;
+  width: 250px;
+  height: 310px;
+  transform: rotate(-10deg);
+  left: 230px;
+  border: 8px solid brown;
+}
+
+.pumpkin span:nth-child(3) {
+  background: #f5980c;
+  width: 250px;
+  height: 310px;
+  left: -55px;
+  transform: rotate(10deg);
+  border: 8px solid brown;
+}
+
+.pumpkin span:nth-child(4) {
+  background: #f5980c;
+  width: 250px;
+  height: 340px;
+  left: 85px;
+  z-index: 4;
+  top: -5px;
+  transform: rotate(0deg);
+  border: 8px solid brown;
+}
+
+.leftEye {
+  margin-top: -90px;
+  margin-right: 40px;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+.rightEye {
+  margin-top: -90px;
+  margin-right: -158px;
+}
+
+.leftEye,
+.rightEye {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid #f5980c;
+  z-index: 7;
+  animation-name: eyes;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.mouth {
+  height: 50px;
+  width: 50px;
+  background-color: #f5980c;
+  border-radius: 50%;
+  z-index: 8;
+  margin-top: 130px;
+  margin-right: 100px;
+  animation-name: mouth;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes eyes {
+  0% {
+    border-bottom: 80px solid #f5980c;
+  }
+  100% {
+    border-bottom: 80px solid black;
+  }
+}
+
+@keyframes mouth {
+  0% {
+    background-color: #f5980c;
+  }
+  100% {
+    background-color: black;
+  }
+}

@@ -1,21 +1,21 @@
 body {
-	background: #2c3147;
+  background: #2c3147;
 }
 #container {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #liquid {
-    position: absolute;
-    height: 200px;
-    width: 300px;
-    background: linear-gradient(to bottom, #ae8155 0%, #5b3a19 100%);
-    border-radius: 0 0 150px 150px;
-    top: 0;
-    overflow: hidden;
-} 
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  background: linear-gradient(to bottom, #ae8155 0%, #5b3a19 100%);
+  border-radius: 0 0 150px 150px;
+  top: 0;
+  overflow: hidden;
+}
 .steam {
   position: absolute;
   height: 150px;
@@ -39,13 +39,25 @@ body {
 }
 
 @-webkit-keyframes steam1 {
-  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
-  100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 0;}
+  0% {
+    transform: translateY(0) translateX(0) scale(0.25);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-200px) translateX(-20px) scale(1);
+    opacity: 0;
+  }
 }
 
 @keyframes steam1 {
-  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
-  100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 0;}
+  0% {
+    transform: translateY(0) translateX(0) scale(0.25);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-200px) translateX(-20px) scale(1);
+    opacity: 0;
+  }
 }
 
 #steam2 {
@@ -59,13 +71,25 @@ body {
 }
 
 @-webkit-keyframes steam2 {
-  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
-  100% {transform: translateY(-200px) translateX(20px) scale(1); opacity: 0;}
+  0% {
+    transform: translateY(0) translateX(0) scale(0.25);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-200px) translateX(20px) scale(1);
+    opacity: 0;
+  }
 }
 
 @keyframes steam2 {
-  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
-  100% {transform: translateY(-200px) translateX(20px) scale(1); opacity: 0;}
+  0% {
+    transform: translateY(0) translateX(0) scale(0.25);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-200px) translateX(20px) scale(1);
+    opacity: 0;
+  }
 }
 
 #cup {
@@ -102,7 +126,7 @@ body {
   height: 75px;
   width: 80px;
   border-radius: 0 150px 150px 0;
-  border: 15px solid  rgba(245, 243, 243, 0.882);
+  border: 15px solid rgba(245, 243, 243, 0.882);
   margin-bottom: 95px;
   margin-left: 250px;
   display: inline-block;
@@ -112,7 +136,7 @@ body {
 #saucer {
   position: absolute;
   height: 30px;
-  width: 300px;  
+  width: 300px;
   border-radius: 0 0 100px 100px;
   border: 2px solid rgba(246, 243, 243, 0.469);
   background-color: #dbd7d2;

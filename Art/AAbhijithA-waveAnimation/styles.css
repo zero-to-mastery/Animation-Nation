@@ -1,443 +1,467 @@
-body, html {
-    background-color: #201E43;
-    height: 100%;
-    margin: 0;
-    position: relative;
+body,
+html {
+  background-color: #201e43;
+  height: 100%;
+  margin: 0;
+  position: relative;
 }
 
 .box {
-    position: absolute;
-    bottom: 0;
-    width: 4%;
-    height: 50px;
-    border: 1px solid #000;
-    margin: 0.25%;
+  position: absolute;
+  bottom: 0;
+  width: 4%;
+  height: 50px;
+  border: 1px solid #000;
+  margin: 0.25%;
 }
 
 @keyframes anim1 {
-    0%, 100% {
-        height: 50px;
-    }
-    5% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  5% {
+    height: 300px;
+  }
 }
 
 @keyframes anim2 {
-    0%, 100% {
-        height: 50px;
-    }
-    5% {
-        height: 50px;
-    }
-    10% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  5% {
+    height: 50px;
+  }
+  10% {
+    height: 300px;
+  }
 }
 
 @keyframes anim3 {
-    0%, 100% {
-        height: 50px;
-    }
-    10% {
-        height: 50px;
-    }
-    15% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  10% {
+    height: 50px;
+  }
+  15% {
+    height: 300px;
+  }
 }
 
 @keyframes anim4 {
-    0%, 100% {
-        height: 50px;
-    }
-    15% {
-        height: 50px;
-    }
-    20% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  15% {
+    height: 50px;
+  }
+  20% {
+    height: 300px;
+  }
 }
 
 @keyframes anim5 {
-    0%, 100% {
-        height: 50px;
-    }
-    20% {
-        height: 50px;
-    }
-    25% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  20% {
+    height: 50px;
+  }
+  25% {
+    height: 300px;
+  }
 }
 
 @keyframes anim6 {
-    0%, 100% {
-        height: 50px;
-    }
-    25% {
-        height: 50px;
-    }
-    30% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  25% {
+    height: 50px;
+  }
+  30% {
+    height: 300px;
+  }
 }
 
 @keyframes anim7 {
-    0%, 100% {
-        height: 50px;
-    }
-    30% {
-        height: 50px;
-    }
-    35% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  30% {
+    height: 50px;
+  }
+  35% {
+    height: 300px;
+  }
 }
 
 @keyframes anim8 {
-    0%, 100% {
-        height: 50px;
-    }
-    35% {
-        height: 50px;
-    }
-    40% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  35% {
+    height: 50px;
+  }
+  40% {
+    height: 300px;
+  }
 }
 
 @keyframes anim9 {
-    0%, 100% {
-        height: 50px;
-    }
-    40% {
-        height: 50px;
-    }
-    45% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  40% {
+    height: 50px;
+  }
+  45% {
+    height: 300px;
+  }
 }
 
 @keyframes anim10 {
-    0%, 100% {
-        height: 50px;
-    }
-    45% {
-        height: 50px;
-    }
-    50% {
-        height: 325px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  45% {
+    height: 50px;
+  }
+  50% {
+    height: 325px;
+  }
 }
 
 @keyframes anim11 {
-    0%, 100% {
-        height: 50px;
-    }
-    40% {
-        height: 50px;
-    }
-    45% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  40% {
+    height: 50px;
+  }
+  45% {
+    height: 300px;
+  }
 }
 
 @keyframes anim12 {
-    0%, 100% {
-        height: 50px;
-    }
-    35% {
-        height: 50px;
-    }
-    40% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  35% {
+    height: 50px;
+  }
+  40% {
+    height: 300px;
+  }
 }
 
 @keyframes anim13 {
-    0%, 100% {
-        height: 50px;
-    }
-    30% {
-        height: 50px;
-    }
-    35% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  30% {
+    height: 50px;
+  }
+  35% {
+    height: 300px;
+  }
 }
 
 @keyframes anim14 {
-    0%, 100% {
-        height: 50px;
-    }
-    25% {
-        height: 50px;
-    }
-    30% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  25% {
+    height: 50px;
+  }
+  30% {
+    height: 300px;
+  }
 }
 
 @keyframes anim15 {
-    0%, 100% {
-        height: 50px;
-    }
-    20% {
-        height: 50px;
-    }
-    25% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  20% {
+    height: 50px;
+  }
+  25% {
+    height: 300px;
+  }
 }
 
 @keyframes anim16 {
-    0%, 100% {
-        height: 50px;
-    }
-    15% {
-        height: 50px;
-    }
-    20% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  15% {
+    height: 50px;
+  }
+  20% {
+    height: 300px;
+  }
 }
 
 @keyframes anim17 {
-    0%, 100% {
-        height: 50px;
-    }
-    10% {
-        height: 50px;
-    }
-    15% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  10% {
+    height: 50px;
+  }
+  15% {
+    height: 300px;
+  }
 }
 
 @keyframes anim18 {
-    0%, 100% {
-        height: 50px;
-    }
-    5% {
-        height: 50px;
-    }
-    10% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  5% {
+    height: 50px;
+  }
+  10% {
+    height: 300px;
+  }
 }
 
 @keyframes anim19 {
-    0%, 100% {
-        height: 50px;
-    }
-    5% {
-        height: 300px;
-    }
+  0%,
+  100% {
+    height: 50px;
+  }
+  5% {
+    height: 300px;
+  }
 }
 
 #b1 {
-    background-color: #7CF5FF;
-    animation: anim1 4s infinite;
+  background-color: #7cf5ff;
+  animation: anim1 4s infinite;
 }
 
 #b2 {
-    background-color: #7CF5FF;
-    animation: anim2 4s infinite;
+  background-color: #7cf5ff;
+  animation: anim2 4s infinite;
 }
 
 #b3 {
-    background-color: #7CF5FF;
-    animation: anim3 4s infinite;
+  background-color: #7cf5ff;
+  animation: anim3 4s infinite;
 }
 
 #b4 {
-    background-color: #00CCDD;
-    animation: anim4 4s infinite;
+  background-color: #00ccdd;
+  animation: anim4 4s infinite;
 }
 
 #b5 {
-    background-color: #00CCDD;
-    animation: anim5 4s infinite;
+  background-color: #00ccdd;
+  animation: anim5 4s infinite;
 }
 
 #b6 {
-    background-color: #00CCDD;
-    animation: anim6 4s infinite;
+  background-color: #00ccdd;
+  animation: anim6 4s infinite;
 }
 
 #b7 {
-    background-color: #4F75FF;
-    animation: anim7 4s infinite;
+  background-color: #4f75ff;
+  animation: anim7 4s infinite;
 }
 
 #b8 {
-    background-color: #4F75FF;
-    animation: anim8 4s infinite;
+  background-color: #4f75ff;
+  animation: anim8 4s infinite;
 }
 
 #b9 {
-    background-color: #6439FF;
-    animation: anim9 4s infinite;
+  background-color: #6439ff;
+  animation: anim9 4s infinite;
 }
 
 #b10 {
-    background-color: #6439FF;
-    animation: anim10 4s infinite;
+  background-color: #6439ff;
+  animation: anim10 4s infinite;
 }
 
 #b11 {
-    background-color: #6439FF;
-    animation: anim11 4s infinite;
+  background-color: #6439ff;
+  animation: anim11 4s infinite;
 }
 
 #b12 {
-    background-color: #4F75FF;
-    animation: anim12 4s infinite;
+  background-color: #4f75ff;
+  animation: anim12 4s infinite;
 }
 
 #b13 {
-    background-color: #4F75FF;
-    animation: anim13 4s infinite;
+  background-color: #4f75ff;
+  animation: anim13 4s infinite;
 }
 
 #b14 {
-    background-color: #00CCDD;
-    animation: anim14 4s infinite;
+  background-color: #00ccdd;
+  animation: anim14 4s infinite;
 }
 
 #b15 {
-    background-color: #00CCDD;
-    animation: anim15 4s infinite;
+  background-color: #00ccdd;
+  animation: anim15 4s infinite;
 }
 
 #b16 {
-    background-color: #00CCDD;
-    animation: anim16 4s infinite;
+  background-color: #00ccdd;
+  animation: anim16 4s infinite;
 }
 
 #b17 {
-    background-color: #7CF5FF;
-    animation: anim17 4s infinite;
+  background-color: #7cf5ff;
+  animation: anim17 4s infinite;
 }
 
 #b18 {
-    background-color: #7CF5FF;
-    animation: anim18 4s infinite;
+  background-color: #7cf5ff;
+  animation: anim18 4s infinite;
 }
 
 #b19 {
-    background-color: #7CF5FF;
-    animation: anim19 4s infinite;
+  background-color: #7cf5ff;
+  animation: anim19 4s infinite;
 }
 
 .circle {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
 
 @keyframes canim1 {
-    0%, 100%{
-        top: 25px;
-        left: 750px;
-    }
-    25%{
-        top: 150px;
-        left: 600px;
-    }
-    50%{
-        top: 275px;
-        left: 750px; 
-    }
-    75%{
-        top: 150px;
-        left: 900px;
-    }
+  0%,
+  100% {
+    top: 25px;
+    left: 750px;
+  }
+  25% {
+    top: 150px;
+    left: 600px;
+  }
+  50% {
+    top: 275px;
+    left: 750px;
+  }
+  75% {
+    top: 150px;
+    left: 900px;
+  }
 }
 
 @keyframes canim2 {
-    0%, 100%{
-        top: 150px;
-        left: 600px;
-    }
-    25%{
-        top: 275px;
-        left: 750px; 
-    }
-    50%{
-        top: 150px;
-        left: 900px;
-    }
-    75%{
-        top: 25px;
-        left: 750px;
-    }
+  0%,
+  100% {
+    top: 150px;
+    left: 600px;
+  }
+  25% {
+    top: 275px;
+    left: 750px;
+  }
+  50% {
+    top: 150px;
+    left: 900px;
+  }
+  75% {
+    top: 25px;
+    left: 750px;
+  }
 }
 
 @keyframes canim3 {
-    0%, 100%{
-        top: 275px;
-        left: 750px; 
-    }
-    25%{
-        top: 150px;
-        left: 900px;
-    }
-    50%{
-        top: 25px;
-        left: 750px;
-    }
-    75%{
-        top: 150px;
-        left: 600px;
-    }
+  0%,
+  100% {
+    top: 275px;
+    left: 750px;
+  }
+  25% {
+    top: 150px;
+    left: 900px;
+  }
+  50% {
+    top: 25px;
+    left: 750px;
+  }
+  75% {
+    top: 150px;
+    left: 600px;
+  }
 }
 
 @keyframes canim4 {
-    0%, 100%{
-        top: 150px;
-        left: 900px;
-    }
-    25%{
-        top: 25px;
-        left: 750px;
-    }
-    50%{
-        top: 150px;
-        left: 600px;
-    }
-    75%{
-        top: 275px;
-        left: 750px;
-    }
+  0%,
+  100% {
+    top: 150px;
+    left: 900px;
+  }
+  25% {
+    top: 25px;
+    left: 750px;
+  }
+  50% {
+    top: 150px;
+    left: 600px;
+  }
+  75% {
+    top: 275px;
+    left: 750px;
+  }
 }
 
 #c1 {
-    top: 25px;
-    left: 750px;
-    background-color: #FABC3F;
-    animation: canim1 4s infinite;
+  top: 25px;
+  left: 750px;
+  background-color: #fabc3f;
+  animation: canim1 4s infinite;
 }
 
 #c2 {
-    top: 150px;
-    left: 600px;
-    background-color: #f5ed06;
-    animation: canim2 4s infinite;
+  top: 150px;
+  left: 600px;
+  background-color: #f5ed06;
+  animation: canim2 4s infinite;
 }
 
 #c3 {
-    top: 275px;
-    left: 750px;
-    background-color: #FABC3F;
-    animation: canim3 4s infinite;
+  top: 275px;
+  left: 750px;
+  background-color: #fabc3f;
+  animation: canim3 4s infinite;
 }
 
 #c4 {
-    top: 150px;
-    left: 900px;
-    background-color: #f5ed06;
-    animation: canim4 4s infinite;
+  top: 150px;
+  left: 900px;
+  background-color: #f5ed06;
+  animation: canim4 4s infinite;
 }
