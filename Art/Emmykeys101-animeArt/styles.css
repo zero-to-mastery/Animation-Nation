@@ -337,23 +337,18 @@ h2 {
     position: absolute;
     width: 100%;
     height: 0.5px;
-    /* Adjust height as needed*/
     background: #24ecff;
-    /* Color of the line*/
+
     top: 97%;
-    /* Position vertically in the bottom*/
     animation: moveline 5s linear infinite;
-    /* Animation for moving line*/
 }
 
 @keyframes moverline {
     0% {
         left: -100%
-            /* Start off the left side*/
     }
 
     100% {
         left: 100%;
-        /* Move to the right side*/
     }
 }

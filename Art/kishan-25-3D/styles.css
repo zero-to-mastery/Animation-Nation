@@ -1,63 +1,63 @@
 /* Basic Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #2c3e50;
-    font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2c3e50;
+  font-family: Arial, sans-serif;
 }
 
 /* Flip Container */
 .flip-container {
-    perspective: 1000px; /* This controls the intensity of the 3D effect */
+  perspective: 1000px; /* This controls the intensity of the 3D effect */
 }
 
 /* Title Flip Animation */
 .flip-title {
-    display: inline-block;
-    color: #fff;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    transform-style: preserve-3d;
-    transform-origin: center;
-    transition: transform 1s;
-    padding: 20px;
-    border: 2px solid #fff;
-    cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  transform-style: preserve-3d;
+  transform-origin: center;
+  transition: transform 1s;
+  padding: 20px;
+  border: 2px solid #fff;
+  cursor: pointer;
 }
 
 /* 3D Flip Animation */
 .flip-title:hover {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 /* 3D Flip Effect: Backface Visibility */
 .flip-title::before {
-    content: 'Flip to the Back!';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    backface-visibility: hidden;
-    color: #f39c12;
-    font-size: 2rem;
+  content: 'Flip to the Back!';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backface-visibility: hidden;
+  color: #f39c12;
+  font-size: 2rem;
 }
 
 .flip-title::after {
-    content: 'Welcome to 3D Flip';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotateY(180deg);
-    backface-visibility: hidden;
-    color: #9b59b6;
-    font-size: 2rem;
+  content: 'Welcome to 3D Flip';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateY(180deg);
+  backface-visibility: hidden;
+  color: #9b59b6;
+  font-size: 2rem;
 }

@@ -8,6 +8,14 @@
     "projectPath": "Art/AAbhijithA-waveAnimation"
   },
   {
+    "author": "AMRUTHA-BYSANI",
+    "artName": "Loading Colours",
+    "githubLink": "https://github.com/AMRUTHA-BYSANI",
+    "pageLink": "./Art/AMRUTHA-BYSANI-LoadingColoursAnimation/index.html",
+    "imageLink": "./Art/AMRUTHA-BYSANI-LoadingColoursAnimation/icon.png",
+    "projectPath": "Art/AMRUTHA-BYSANI-LoadingColoursAnimation"
+  },
+  {
     "author": "ARYPROGRAMMER",
     "artName": "Quantum Portal Animation",
     "githubLink": "https://github.com/ARYPROGRAMMER",
@@ -70,6 +78,14 @@
     "pageLink": "./Art/AfreenInnovates-cube_grow_rotate/index.html",
     "imageLink": "./Art/AfreenInnovates-cube_grow_rotate/icon.png",
     "projectPath": "Art/AfreenInnovates-cube_grow_rotate"
+  },
+  {
+    "author": "Ajish777",
+    "artName": "Smartwatch Animation",
+    "githubLink": "https://github.com/Ajish777",
+    "pageLink": "./Art/Ajish777_watch_animation/index.html",
+    "imageLink": "./Art/Ajish777_watch_animation/icon.png",
+    "projectPath": "Art/Ajish777_watch_animation"
   },
   {
     "author": "AlexanderSanin",
@@ -144,12 +160,12 @@
     "projectPath": "Art/BrianCheung1-Balloons"
   },
   {
-    "author": "Codeioholic",
-    "artName": "Loading Screen",
-    "githubLink": "https://github.com/Codeioholic",
-    "pageLink": "./Art/Codeioholic-LoadingScreen/index.html",
-    "imageLink": "./Art/Codeioholic-LoadingScreen/icon.png",
-    "projectPath": "Art/Codeioholic-LoadingScreen"
+    "author": "Catrina-W",
+    "artName": "Jack O Lantern",
+    "githubLink": "https://github.com/Catrina-W",
+    "pageLink": "./Art/Catrina-W-JackOLantern/index.html",
+    "imageLink": "./Art/Catrina-W-JackOLantern/icon.png",
+    "projectPath": "Art/Catrina-W-JackOLantern"
   },
   {
     "author": "DEBASISH077",
@@ -163,9 +179,9 @@
     "author": "DEBASISH077",
     "artName": "Coffee Machine",
     "githubLink": "https://github.com/DEBASISH077",
-    "pageLink": "./Art/DEBASISH077-Coffee Machine/index.html",
-    "imageLink": "./Art/DEBASISH077-Coffee Machine/icon.png",
-    "projectPath": "Art/DEBASISH077-Coffee Machine"
+    "pageLink": "./Art/DEBASISH077-CoffeeMachine/index.html",
+    "imageLink": "./Art/DEBASISH077-CoffeeMachine/icon.png",
+    "projectPath": "Art/DEBASISH077-CoffeeMachine"
   },
   {
     "author": "DEBASISH077",
@@ -182,6 +198,14 @@
     "pageLink": "./Art/DEBASISH077-RippleEffect/index.html",
     "imageLink": "./Art/DEBASISH077-RippleEffect/icon.png",
     "projectPath": "Art/DEBASISH077-RippleEffect"
+  },
+  {
+    "author": "DEREKFERRER",
+    "artName": "Moving Circle",
+    "githubLink": "https://github.com/DEREKFERRER",
+    "pageLink": "./Art/DEREKFERRER-movingCircle/index.html",
+    "imageLink": "./Art/DEREKFERRER-movingCircle/icon.png",
+    "projectPath": "Art/DEREKFERRER-movingCircle"
   },
   {
     "author": "Debajyati",
@@ -392,6 +416,14 @@
     "projectPath": "Art/Nishankulal03-loader"
   },
   {
+    "author": "NotIncorecc",
+    "artName": "cool Gradient Text",
+    "githubLink": "https://github.com/NotIncorecc",
+    "pageLink": "./Art/NotIncorecc-coolGradientText/index.html",
+    "imageLink": "./Art/NotIncorecc-coolGradientText/icon.png",
+    "projectPath": "Art/NotIncorecc-coolGradientText"
+  },
+  {
     "author": "Pauljd1",
     "artName": "Pumpkin",
     "githubLink": "https://github.com/Pauljd1",
@@ -520,6 +552,14 @@
     "projectPath": "Art/Tanisha800-bounceBall"
   },
   {
+    "author": "Tenatic-X",
+    "artName": "Rotating Box",
+    "githubLink": "https://github.com/Tenatic-X",
+    "pageLink": "./Art/Tenatic-X-RotatingBox/index.html",
+    "imageLink": "./Art/Tenatic-X-RotatingBox/icon.png",
+    "projectPath": "Art/Tenatic-X-RotatingBox"
+  },
+  {
     "author": "Tushar-0202-Shaw",
     "artName": "Spinning Cube Animation",
     "githubLink": "https://github.com/Tushar-0202-Shaw",
@@ -558,6 +598,14 @@
     "pageLink": "./Art/Vandita-014-BoilingBrew/index.html",
     "imageLink": "./Art/Vandita-014-BoilingBrew/icon.png",
     "projectPath": "Art/Vandita-014-BoilingBrew"
+  },
+  {
+    "author": "VoidedCrystal",
+    "artName": "Disco Ball",
+    "githubLink": "https://github.com/VoidedCrystal",
+    "pageLink": "./Art/Voidedcrystal-disco/index.html",
+    "imageLink": "./Art/Voidedcrystal-disco/icon.png",
+    "projectPath": "Art/Voidedcrystal-disco"
   },
   {
     "author": "Yadnyesh-Dashpute",
@@ -622,6 +670,14 @@
     "pageLink": "./Art/buzzcosm-neon_greetings/index.html",
     "imageLink": "./Art/buzzcosm-neon_greetings/icon.png",
     "projectPath": "Art/buzzcosm-neon_greetings"
+  },
+  {
+    "author": "ccholinski",
+    "artName": "Disappearing Squares",
+    "githubLink": "https://github.com/ccholinski",
+    "pageLink": "./Art/ccholinski-DisappearingSquares/index.html",
+    "imageLink": "./Art/ccholinski-DisappearingSquares/icon.png",
+    "projectPath": "Art/ccholinski-DisappearingSquares"
   },
   {
     "author": "chaitraDev",
@@ -704,6 +760,22 @@
     "projectPath": "Art/guranshdeol-CardFlip"
   },
   {
+    "author": "guranshdeol",
+    "artName": "Radar Scannar Animation",
+    "githubLink": "https://github.com/guranshdeol",
+    "pageLink": "./Art/guranshdeol-RadarScannarAnimation/index.html",
+    "imageLink": "./Art/guranshdeol-RadarScannarAnimation/icon.png",
+    "projectPath": "Art/guranshdeol-RadarScannarAnimation"
+  },
+  {
+    "author": "guranshdeol",
+    "artName": "Morphing Blob",
+    "githubLink": "https://github.com/guranshdeol",
+    "pageLink": "./Art/guranshdeol-morphingblob/index.html",
+    "imageLink": "./Art/guranshdeol-morphingblob/icon.png",
+    "projectPath": "Art/guranshdeol-morphingblob"
+  },
+  {
     "author": "hanisntsolo",
     "artName": "verticalballsbounce",
     "githubLink": "https://github.com/hanisntsolo",
@@ -734,6 +806,14 @@
     "pageLink": "./Art/hoangnv170752-pinball/index.html",
     "imageLink": "./Art/hoangnv170752-pinball/icon.png",
     "projectPath": "Art/hoangnv170752-pinball"
+  },
+  {
+    "author": "hoangnv170752",
+    "artName": "wavingflag",
+    "githubLink": "https://github.com/hoangnv170752",
+    "pageLink": "./Art/hoangnv170752-wavingflag/index.html",
+    "imageLink": "./Art/hoangnv170752-wavingflag/icon.png",
+    "projectPath": "Art/hoangnv170752-wavingflag"
   },
   {
     "author": "jayg2309",
@@ -777,7 +857,7 @@
   },
   {
     "author": "kasunjayasanka",
-    "artName": "fetching animation",
+    "artName": "Data Fetching Animation",
     "githubLink": "https://github.com/kasunjayasanka",
     "pageLink": "./Art/kasunjayasanka-fetching-animation/index.html",
     "imageLink": "./Art/kasunjayasanka-fetching-animation/icon.png",
@@ -878,6 +958,14 @@
     "pageLink": "./Art/mattcsmith-triangle/index.html",
     "imageLink": "./Art/mattcsmith-triangle/icon.png",
     "projectPath": "Art/mattcsmith-triangle"
+  },
+  {
+    "author": "mitul-bhatia",
+    "artName": "immersive 3D billboard",
+    "githubLink": "https://github.com/mitul-bhatia",
+    "pageLink": "./Art/mitul-bhatia-keyboardanimation/index.html",
+    "imageLink": "./Art/mitul-bhatia-keyboardanimation/icon.png",
+    "projectPath": "Art/mitul-bhatia-keyboardanimation"
   },
   {
     "author": "nabinkumarshaw",
@@ -1032,6 +1120,14 @@
     "projectPath": "Art/shanolhere-dogAnimation"
   },
   {
+    "author": "shanolhere",
+    "artName": "Loader Animation",
+    "githubLink": "https://github.com/shanolhere",
+    "pageLink": "./Art/shanolhere-loaderAnimation/index.html",
+    "imageLink": "./Art/shanolhere-loaderAnimation/icon.png",
+    "projectPath": "Art/shanolhere-loaderAnimation"
+  },
+  {
     "author": "ShehzanSk",
     "artName": "Animated Button",
     "githubLink": "https://github.com/ShehzanSk",
@@ -1174,6 +1270,13 @@
     "pageLink": "./Art/terrifricker-rotatingSquare/index.html",
     "imageLink": "./Art/terrifricker-rotatingSquare/icon.png",
     "projectPath": "Art/terrifricker-rotatingSquare"
+  },
+  {
+    "artName": "bouncingball",
+    "githubLink": "https://github.com/undefined",
+    "pageLink": "./Art/vedpawar2254-bouncingball/index.html",
+    "imageLink": "./Art/vedpawar2254-bouncingball/icon.png",
+    "projectPath": "Art/vedpawar2254-bouncingball"
   },
   {
     "author": "venkateeshh",
