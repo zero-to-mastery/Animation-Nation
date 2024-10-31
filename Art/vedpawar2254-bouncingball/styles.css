@@ -1,0 +1,44 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    border: 2px solid #61dafb;
+}
+
+.ball {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #61dafb;
+    border-radius: 50%;
+    animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+        background-color: #61dafb; /* Initial color */
+    }
+    
+    50% {
+        transform: translateY(-200px);
+        background-color: #ff6f61; /* Change color at the peak */
+    }
+}
