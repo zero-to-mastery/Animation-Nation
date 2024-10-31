@@ -21,7 +21,7 @@ body {
   background: #000;
 }
 .stars::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
@@ -30,27 +30,12 @@ body {
   left: 0;
   /* Generating stars using multiple box-shadows */
   box-shadow:
-    /* white stars */
-    1vw 2vh #FFF,
-    15vw 20vh #FFF,
-    25vw 30vh #FFF,
-    35vw 40vh #FFF,
-    50vw 60vh #FFF,
-    60vw 70vh #FFF,
-    70vw 80vh #FFF,
-    80vw 85vh #FFF,
-    90vw 90vh #FFF,
-    10vw 95vh #FFF,
-    /* yellow stars */
-    5vw 10vh #FFD700,
-    20vw 25vh #FFD700,
-    30vw 35vh #FFD700,
-    40vw 45vh #FFD700,
-    55vw 55vh #FFD700,
-    65vw 65vh #FFD700,
-    75vw 75vh #FFD700,
-    85vw 85vh #FFD700,
-    95vw 95vh #FFD700;
+    /* white stars */ 1vw 2vh #fff, 15vw 20vh #fff, 25vw 30vh #fff,
+    35vw 40vh #fff, 50vw 60vh #fff, 60vw 70vh #fff, 70vw 80vh #fff,
+    80vw 85vh #fff, 90vw 90vh #fff, 10vw 95vh #fff,
+    /* yellow stars */ 5vw 10vh #ffd700, 20vw 25vh #ffd700, 30vw 35vh #ffd700,
+    40vw 45vh #ffd700, 55vw 55vh #ffd700, 65vw 65vh #ffd700, 75vw 75vh #ffd700,
+    85vw 85vh #ffd700, 95vw 95vh #ffd700;
   animation: twinkle 100s linear infinite;
 }
 
@@ -61,9 +46,13 @@ body {
   height: 200%;
   top: -50%;
   left: -50%;
-  background: radial-gradient(circle at 50% 50%, rgba(255, 0, 255, 0.2), transparent 70%),
-              radial-gradient(circle at 20% 80%, rgba(0, 255, 255, 0.15), transparent 70%),
-              radial-gradient(circle at 80% 20%, rgba(255, 255, 0, 0.1), transparent 70%);
+  background: radial-gradient(
+      circle at 50% 50%,
+      rgba(255, 0, 255, 0.2),
+      transparent 70%
+    ),
+    radial-gradient(circle at 20% 80%, rgba(0, 255, 255, 0.15), transparent 70%),
+    radial-gradient(circle at 80% 20%, rgba(255, 255, 0, 0.1), transparent 70%);
   animation: nebula-move 120s ease-in-out infinite;
 }
 
@@ -75,9 +64,9 @@ body {
   width: 6vh;
   height: 6vh;
   margin: -3vh;
-  background: radial-gradient(circle, #FFD700, #FFA500);
+  background: radial-gradient(circle, #ffd700, #ffa500);
   border-radius: 50%;
-  box-shadow: 0 0 3vh #FF8C00, 0 0 6vh #FF8C00, 0 0 9vh #FF8C00;
+  box-shadow: 0 0 3vh #ff8c00, 0 0 6vh #ff8c00, 0 0 9vh #ff8c00;
 }
 
 /* Orbits */
@@ -132,7 +121,7 @@ body {
   animation: rotate-orbit 25s linear infinite;
 }
 .earth {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 /* Mars */
@@ -143,7 +132,7 @@ body {
   animation: rotate-orbit 30s linear infinite;
 }
 .mars {
-  background-color: #B22222;
+  background-color: #b22222;
 }
 
 /* Jupiter */
@@ -158,7 +147,7 @@ body {
   height: 4vh;
   top: -2vh;
   left: calc(50% - 2vh);
-  background-color: #DEB887;
+  background-color: #deb887;
 }
 
 /* Saturn */
@@ -173,7 +162,7 @@ body {
   height: 3.5vh;
   top: -1.75vh;
   left: calc(50% - 1.75vh);
-  background-color: #D2B48C;
+  background-color: #d2b48c;
   position: relative;
 }
 .saturn .ring {
@@ -197,7 +186,7 @@ body {
   animation: rotate-orbit 45s linear infinite;
 }
 .uranus {
-  background-color: #AFEEEE;
+  background-color: #afeeee;
 }
 
 /* Neptune */
@@ -208,7 +197,7 @@ body {
   animation: rotate-orbit 50s linear infinite;
 }
 .neptune {
-  background-color: #4682B4;
+  background-color: #4682b4;
 }
 
 /* Shooting Stars */
