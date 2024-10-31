@@ -1,104 +1,105 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    background-color: #000; /* Black background to resemble the night sky */
-    overflow: hidden;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #000; /* Black background to resemble the night sky */
+  overflow: hidden;
 }
 
 .sky {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, #001848 0%, #000 100%);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #001848 0%, #000 100%);
 }
 
 /* Shooting star styling */
 .shooting-star {
-    position: absolute;
-    top: -100px;
-    width: 3px;
-    height: 100px;
-    background: linear-gradient(45deg, #ffffff, rgba(255, 255, 255, 0));
-    border-radius: 50%;
-    box-shadow: 0px 0px 8px 2px #fff;
-    animation: shoot 7s infinite;
+  position: absolute;
+  top: -100px;
+  width: 3px;
+  height: 100px;
+  background: linear-gradient(45deg, #ffffff, rgba(255, 255, 255, 0));
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px 2px #fff;
+  animation: shoot 7s infinite;
 }
 
 /* Keyframes for shooting star motion */
 @keyframes shoot {
-    0% {
-        transform: translate(0, 0) rotate(-45deg);
-        opacity: 0; /* Initially invisible */
-    }
-    10% {
-        opacity: 1; /* Star becomes visible */
-    }
-    50% {
-        transform: translate(100vw, 100vh) rotate(-45deg);
-        opacity: 1; /* Star is fully visible while moving */
-    }
-    51% {
-        opacity: 0; /* Completely invisible once it passes 50% (bottom-right corner) */
-    }
-    100% {
-        opacity: 0; /* Ensures it's invisible during the return */
-        transform: translate(0, 0) rotate(-45deg); /* Reset to start */
-    }
+  0% {
+    transform: translate(0, 0) rotate(-45deg);
+    opacity: 0; /* Initially invisible */
+  }
+  10% {
+    opacity: 1; /* Star becomes visible */
+  }
+  50% {
+    transform: translate(100vw, 100vh) rotate(-45deg);
+    opacity: 1; /* Star is fully visible while moving */
+  }
+  51% {
+    opacity: 0; /* Completely invisible once it passes 50% (bottom-right corner) */
+  }
+  100% {
+    opacity: 0; /* Ensures it's invisible during the return */
+    transform: translate(0, 0) rotate(-45deg); /* Reset to start */
+  }
 }
 
 /* Delaying the stars so they shoot at different times */
 .shooting-star:nth-child(1) {
-    left: 10%;
-    animation-delay: 0s;
+  left: 10%;
+  animation-delay: 0s;
 }
 
 .shooting-star:nth-child(2) {
-    left: 40%;
-    animation-delay: 1s;
+  left: 40%;
+  animation-delay: 1s;
 }
 
 .shooting-star:nth-child(3) {
-    left: 70%;
-    animation-delay: 2s;
+  left: 70%;
+  animation-delay: 2s;
 }
 
 .shooting-star:nth-child(4) {
-    left: 20%;
-    animation-delay: 3s;
+  left: 20%;
+  animation-delay: 3s;
 }
 
 .shooting-star:nth-child(5) {
-    left: 80%;
-    animation-delay: 4s;
+  left: 80%;
+  animation-delay: 4s;
 }
 
 .shooting-star:nth-child(6) {
-    left: 15%;
-    animation-delay: 5s;
+  left: 15%;
+  animation-delay: 5s;
 }
 
 .shooting-star:nth-child(7) {
-    left: 50%;
-    animation-delay: 6s;
+  left: 50%;
+  animation-delay: 6s;
 }
 
 .shooting-star:nth-child(8) {
-    left: 30%;
-    animation-delay: 7s;
+  left: 30%;
+  animation-delay: 7s;
 }
 
 .shooting-star:nth-child(9) {
-    left: 60%;
-    animation-delay: 8s;
+  left: 60%;
+  animation-delay: 8s;
 }
 
 .shooting-star:nth-child(10) {
-    left: 85%;
-    animation-delay: 9s;
+  left: 85%;
+  animation-delay: 9s;
 }
