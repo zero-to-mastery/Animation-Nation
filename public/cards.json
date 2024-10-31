@@ -8,6 +8,14 @@
     "projectPath": "Art/AAbhijithA-waveAnimation"
   },
   {
+    "author": "AMRUTHA-BYSANI",
+    "artName": "Loading Colours",
+    "githubLink": "https://github.com/AMRUTHA-BYSANI",
+    "pageLink": "./Art/AMRUTHA-BYSANI-LoadingColoursAnimation/index.html",
+    "imageLink": "./Art/AMRUTHA-BYSANI-LoadingColoursAnimation/icon.png",
+    "projectPath": "Art/AMRUTHA-BYSANI-LoadingColoursAnimation"
+  },
+  {
     "author": "ARYPROGRAMMER",
     "artName": "Quantum Portal Animation",
     "githubLink": "https://github.com/ARYPROGRAMMER",
@@ -630,6 +638,14 @@
     "pageLink": "./Art/buzzcosm-neon_greetings/index.html",
     "imageLink": "./Art/buzzcosm-neon_greetings/icon.png",
     "projectPath": "Art/buzzcosm-neon_greetings"
+  },
+  {
+    "author": "ccholinski",
+    "artName": "Disappearing Squares",
+    "githubLink": "https://github.com/ccholinski",
+    "pageLink": "./Art/ccholinski-DisappearingSquares/index.html",
+    "imageLink": "./Art/ccholinski-DisappearingSquares/icon.png",
+    "projectPath": "Art/ccholinski-DisappearingSquares"
   },
   {
     "author": "chaitraDev",
