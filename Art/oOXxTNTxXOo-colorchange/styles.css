@@ -1,28 +1,29 @@
 body {
-    animation: changercolor 15s linear infinite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
+  animation: changercolor 15s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-@keyframes changercolor { /* background randbow cycle */
-    0%{
-        background-color: red;
-    }
-    25%{
-        background-color: yellow;
-    }
-    50%{
-        background-color: cyan;
-    }
-    75%{
-        background-color: purple;
-    } 
-    100%{
-        background-color: red;
-    }
+@keyframes changercolor {
+  /* background randbow cycle */
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: cyan;
+  }
+  75% {
+    background-color: purple;
+  }
+  100% {
+    background-color: red;
+  }
 }
 
 .pixel-container {
@@ -65,14 +66,13 @@ body {
   animation-delay: 0.8s;
 }
 
-
 @keyframes pixel-load {
   0% {
     opacity: 0.5;
     transform: scale(1);
     background-color: cyan;
   }
-  25%{
+  25% {
     background-color: purple;
   }
   50% {
@@ -80,9 +80,9 @@ body {
     transform: scale(1.2);
     background-color: red;
   }
-  75%{
+  75% {
     background-color: yellow;
-  } 
+  }
   100% {
     opacity: 1;
     transform: scale(1);
