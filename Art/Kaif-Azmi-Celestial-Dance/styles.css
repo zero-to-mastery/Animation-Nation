@@ -1,62 +1,63 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #0d1b2a;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0d1b2a;
+  overflow: hidden;
 }
 .center-circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #f9c74f;
-    box-shadow: 0 0 20px rgba(249, 199, 79, 0.6);
-    position: relative;
-    z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f9c74f;
+  box-shadow: 0 0 20px rgba(249, 199, 79, 0.6);
+  position: relative;
+  z-index: 1;
 }
 .orbiting-circle {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    position: absolute;
-    animation: orbit 4s linear infinite, colorChange 4s linear infinite;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  animation: orbit 4s linear infinite, colorChange 4s linear infinite;
 }
 .orbit1 {
-    background-color: #f3722c;
-    animation-delay: 0s;
+  background-color: #f3722c;
+  animation-delay: 0s;
 }
 .orbit2 {
-    background-color: #f9c74f;
-    animation-delay: 1s;
+  background-color: #f9c74f;
+  animation-delay: 1s;
 }
 .orbit3 {
-    background-color: #90be6d;
-    animation-delay: 2s;
+  background-color: #90be6d;
+  animation-delay: 2s;
 }
 .orbit4 {
-    background-color: #90be6d;
-    animation-delay: 3s;
+  background-color: #90be6d;
+  animation-delay: 3s;
 }
 @keyframes orbit {
-    0% {
-        transform: rotate(0deg) translateX(100px) rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg) translateX(100px) rotate(-360deg);
-    }
+  0% {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+  }
 }
 
 @keyframes colorChange {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.5;
-    }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
 }

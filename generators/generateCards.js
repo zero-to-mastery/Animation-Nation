@@ -1,9 +1,8 @@
-const fs = require("node:fs");
-const path = require("node:path");
-const { formatProjectName } = require("./utils");
-const { handleMissingMetaData } = require("./__fixWithMetaData");
+const fs = require('node:fs');
+const path = require('node:path');
+const { formatProjectName } = require('./utils');
 
-const artDir = "./Art";
+const artDir = './Art';
 
 // Function to generate the includes.js content
 async function generateIncludes() {
@@ -13,36 +12,38 @@ async function generateIncludes() {
 
   const cards = [];
 
-  for(const dir of studentDirs){
-    const projectPath 		= path.join(artDir, dir);
-    const metaDataPath 		= path.resolve(projectPath, 'meta.json');
+  for (const dir of studentDirs) {
+    const projectPath = path.join(artDir, dir);
+    const metaDataPath = path.resolve(projectPath, 'meta.json');
 
     // Gets HTML and CSS file paths
     const pageLink = `./Art/${dir}/index.html`;
     const imageLink = `./Art/${dir}/icon.png`;
 
-    // TODO: Removes once repo is updated -  Handle Mission MetaData
-    let doMetaDataExist = fs.existsSync(metaDataPath)
-    if(!doMetaDataExist){
-      await handleMissingMetaData(dir)
-    } // TODO END: ------------------------------------------------
+    try {
+      // Loads contribution meta data info
+      const metaData = require(metaDataPath);
 
-    // Loads contribution meta data info
-    const metaData = require(metaDataPath);
-	 
-    // Add the project to the cards array
-    cards.push({
-      author: metaData.githubHandle,
-      artName: formatProjectName( metaData.artName ),
-      githubLink: `https://github.com/${ metaData.githubHandle }`,
-      pageLink,
-      imageLink,
-      projectPath
-    });
-   }
+      // Add the project to the cards array
+      cards.push({
+        author: metaData.githubHandle,
+        artName: formatProjectName(metaData.artName),
+        githubLink: `https://github.com/${metaData.githubHandle}`,
+        pageLink,
+        imageLink,
+        projectPath
+      });
+    } catch (error) {
+      console.error(
+        `[ ERROR x MISSING METADATA ]\n\t - Concerning folder: "${projectPath}"`
+      );
+      fs.rmSync(projectPath, { recursive: true });
+      console.error(`\t|____ Folder removed: "${projectPath}"\n`);
+    }
+  }
 
   // Write the content to includes.js file
-  fs.writeFileSync("public/cards.json", JSON.stringify(cards, null, 2));
+  fs.writeFileSync('public/cards.json', JSON.stringify(cards, null, 2));
 }
 
 generateIncludes();
