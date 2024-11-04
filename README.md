@@ -63,6 +63,7 @@ We keep things simple! Here are the rules for contributing:
 > we've got detailed steps and resources to help you get started!
 
 ### 🔥 Contribution Guide: Step-by-Step
+
 <details>
 	<summary>💡 Quick overview of the Development Workflow</summary>
 
@@ -73,8 +74,8 @@ We keep things simple! Here are the rules for contributing:
 5. Create your animated HTML and CSS artwork.
 6. Pull down recent changes
 7. **Submit a pull request (PR)** with your animated artwork
-*Ensure to review yourself in Github during your PR submission
- before definitely submitting your PR*
+   _Ensure to review yourself in Github during your PR submission
+   before definitely submitting your PR_
 8. **OPTIONAL** [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/36L1C), and you're done! 🎉
 </details>
 
@@ -116,7 +117,7 @@ to reduce the chance of a merge conflict._
 
 <br>
 
---- 
+---
 
 #### 4. Create Your Artwork
 
