@@ -19,12 +19,12 @@ we'd love to see your animated artwork using only **HTML** and **CSS**
 ## 🌟 Why Contribute?
 
 - **Gain GitHub experience** by contributing to open-source repositories.
-- **Join a supportive community** where you can share your creativity and get feedback in our Discord.
+- **Join a supportive community** where you can share your creativity and get feedbacks in our Discord.
 - **Enhance your skills** in HTML and CSS while learning GitHub workflows.
 
 ## 🎯 Objective Overview
 
-Create an animation using CSS and HTML only (no JavaScript, no SVG).
+Create an animation using CSS and HTML only (no JavaScript, no SVG).  
 A [CSS animation](https://developer.mozilla.org/fr/docs/Web/CSS/animation) refers to the css rule `animation`.
 
 The purpose is to display a creative and looping animation  
@@ -45,7 +45,7 @@ An animation should not be:
 - a landing page, etc...
   _( which are elements requiring user interaction )_
 
-Here is an example of an expected animation:
+Here is an example of an expected animation:  
 <img src="./public/example-animation.gif" alt="triangle" />
 
 ### ☝️ Keep in mind
@@ -58,36 +58,25 @@ We keep things simple! Here are the rules for contributing:
 
 ## 🚀 How to contribute
 
-> [!TIPS]
+> [!TIP]
 > 📌 Don't worry if it's your first time contributing—below,  
-> we've got detailed steps and resources to help you get started!\*\*\*
-
-<details>
-	<summary>💡 Development Workflow</summary>
-	
-	1. **Fork the repo** to your GitHub account.
-	2. **Clone your fork** to your local machine.
-	3. **Create a branch**, you should not be working in the main/master branch
-	4. Create a new directory in the Art directory. Naming it <your_github_username>-<your_arts_name>
-	5. Create your animated HTML and CSS artwork.
-	6. Pull down recent changes
-	7. **Submit a pull request (PR)** with your animated artwork
-	*Ensure to review yourself in Github during your PR submission
-	 before definitely submitting your PR*
-	8. **OPTIONAL** [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/36L1C), and you're done! 🎉
-</details>
-
-<br>
-
-We keep things simple! Here are the rules for contributing:
-
-- Use **HTML** and **CSS** only. No **JavaScript**. No **Images/SVGs**.
-- Your project must include **at least one animation**.
-- Don't copy work from others. Make sure your code is **original** so you can showcase your own skills.
-
-<br />
+> we've got detailed steps and resources to help you get started!
 
 ### 🔥 Contribution Guide: Step-by-Step
+<details>
+	<summary>💡 Quick overview of the Development Workflow</summary>
+
+1. **Fork the repo** to your GitHub account.
+2. **Clone your fork** to your local machine.
+3. **Create a branch**, you should not be working in the main/master branch
+4. Create a new directory in the Art directory. Naming it <your_github_username>-<your_arts_name>
+5. Create your animated HTML and CSS artwork.
+6. Pull down recent changes
+7. **Submit a pull request (PR)** with your animated artwork
+*Ensure to review yourself in Github during your PR submission
+ before definitely submitting your PR*
+8. **OPTIONAL** [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/36L1C), and you're done! 🎉
+</details>
 
 #### 1. Fork This Repository
 
@@ -102,6 +91,8 @@ Check out these beginner-friendly resources for more help:
 
 <br>
 
+---
+
 #### 2. Clone Your Fork
 
 Once you've forked the repo, clone it to your local machine  
@@ -114,6 +105,8 @@ git clone https://github.com/<your-github-username>/Animation-Nation.git
 
 <br>
 
+---
+
 #### 3. Create A Branch
 
 Create a new branch from `master` or `main`
@@ -122,6 +115,8 @@ and are usually expected to branch off. Branching also helps
 to reduce the chance of a merge conflict._
 
 <br>
+
+--- 
 
 #### 4. Create Your Artwork
 
@@ -156,6 +151,8 @@ Now for the fun part! Inside the `Art/` folder:
 
 <br>
 
+---
+
 #### 5. Submit a Pull Request (PR)
 
 After completing your artwork, you are now ready to create  
@@ -173,6 +170,8 @@ Remembering
 - [Aldo's Contributing to Github video](https://www.youtube.com/watch?v=uQLNFRviB6Q)
 
 <br>
+
+---
 
 #### 6. OPTIONAL - Tweet about your progress
 
