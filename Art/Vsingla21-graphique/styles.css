@@ -1,5 +1,4 @@
 
-    /* General Styles */
     * {
         box-sizing: border-box;
         margin: 0;
@@ -32,7 +31,6 @@
         animation: changeColor 5s linear infinite;
       }
   
-      /* Creating multiple stars with different rotations */
       .star:nth-child(1) {
         transform: rotateY(0deg) translateZ(75px);
         animation: changeColor1 5s linear infinite;
@@ -53,8 +51,7 @@
         transform: rotateY(288deg) translateZ(75px);
         animation: changeColor5 5s linear infinite;
       }
-  
-      /* Rotation Animation */
+
       @keyframes rotate {
         0% {
           transform: rotateY(0deg);
@@ -64,8 +61,7 @@
         }
       }
   
-      /* Color Change Animations for Each Star */
-      @keyframes changeColor1 {
+     @keyframes changeColor1 {
         0% {
           background: hsl(0, 100%, 50%);   /* Red */
         }
