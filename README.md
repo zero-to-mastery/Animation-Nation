@@ -6,7 +6,7 @@
 </div>
 <br />
 
-Welcome to **Animation Nation**, a fun and creative project by the [ZTM Community](https://github.com/zero-to-mastery) as part of **Hacktoberfest**! 🎉
+Welcome to **Animation Nation**, a fun and creative project by the [ZTM Community](https://github.com/zero-to-mastery)! 🎉
 
 This repository is a space where developers of all levels, especially **beginners**,  
 can contribute, showcase their creativity.  
