@@ -1,0 +1,92 @@
+:root {
+	--color1: pink;
+	--color2: beige;
+	--color3: lightcyan;
+}
+p {
+	margin: 0px;
+}
+
+h1 {
+	text-align: center;
+	height: 20px;
+	margin: 20px auto;
+	color:lightsteelblue;
+}
+
+.wrapper {
+	display: flex;
+	margin:40px auto ;
+	background-color: lightslategray;
+	position: relative;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+#box-1, #box-2, #box-3 {
+	width: 100px;
+	height: 100px;
+	margin: 20px auto;
+	line-height:100px;
+	text-align: center;
+	animation-duration: 4s;
+	animation-direction: reverse;
+	animation-iteration-count: infinite;
+
+}
+
+#box-1 {
+	background-color: pink;
+	animation-name: change-color1;	
+}
+
+#box-2 {
+	background-color: beige;
+	animation-name: change-color2;
+	
+}
+
+#box-3 {
+	background-color: lightcyan;
+	animation-name: change-color3;
+	
+}
+
+@keyframes change-color1 {
+	0% {background-color: var(--color1);
+		transform: scale(1.0);}
+	25% {background-color: var(--color2);
+		transform: scale(1.0);}
+	50% {background-color: var(--color3);
+		transform: scale(1.0);}
+	75% {background-color: var(--color1);
+		transform: scale(1.2);}
+	100% {transform: scale(1.0);}
+}
+
+@keyframes change-color2 {
+	0% {background-color: var(--color2);
+		transform: scale(1.0);}
+	25% {background-color: var(--color3);
+		transform: scale(1.0);}
+	50% {background-color: var(--color1);
+		transform: scale(1.2);}
+	75% {background-color: var(--color2);
+		transform: scale(1.0);}
+	100% {transform: scale(1.0);}
+}
+
+@keyframes change-color3 {
+	0% {background-color: var(--color3);
+		transform: scale(1.0)}
+	25% {background-color: var(--color1);
+		transform: scale(1.2);}
+	50% {background-color: var(--color2);
+		transform: scale(1.0)}
+	75% {background-color: var(--color3);
+		transform: scale(1.0)}
+	100% {transform: scale(1.0)}
+}
