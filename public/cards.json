@@ -592,6 +592,30 @@
     "projectPath": "Art/Tushar-0202-Shaw-imageSlider"
   },
   {
+    "author": "Tzipi-Winefeld",
+    "artName": "Color Rain",
+    "githubLink": "https://github.com/Tzipi-Winefeld",
+    "pageLink": "./Art/Tzipi-Winefeld-ColorRain/index.html",
+    "imageLink": "./Art/Tzipi-Winefeld-ColorRain/icon.png",
+    "projectPath": "Art/Tzipi-Winefeld-ColorRain"
+  },
+  {
+    "author": "Tzipi-Winefeld",
+    "artName": "Glowing Text",
+    "githubLink": "https://github.com/Tzipi-Winefeld",
+    "pageLink": "./Art/Tzipi-Winefeld-GlowingText/index.html",
+    "imageLink": "./Art/Tzipi-Winefeld-GlowingText/icon.png",
+    "projectPath": "Art/Tzipi-Winefeld-GlowingText"
+  },
+  {
+    "author": "Tzipi-Winefeld",
+    "artName": "Rising Sun",
+    "githubLink": "https://github.com/Tzipi-Winefeld",
+    "pageLink": "./Art/Tzipi-Winefeld-RisingSun/index.html",
+    "imageLink": "./Art/Tzipi-Winefeld-RisingSun/icon.png",
+    "projectPath": "Art/Tzipi-Winefeld-RisingSun"
+  },
+  {
     "author": "Vandita-014",
     "artName": "Boiling Brew",
     "githubLink": "https://github.com/Vandita-014",
@@ -646,6 +670,14 @@
     "pageLink": "./Art/ac-webdesign-greekflagwaving/index.html",
     "imageLink": "./Art/ac-webdesign-greekflagwaving/icon.png",
     "projectPath": "Art/ac-webdesign-greekflagwaving"
+  },
+  {
+    "author": "al3shan33",
+    "artName": "Animated Text",
+    "githubLink": "https://github.com/al3shan33",
+    "pageLink": "./Art/al3shan33-animatedText/index.html",
+    "imageLink": "./Art/al3shan33-animatedText/icon.png",
+    "projectPath": "Art/al3shan33-animatedText"
   },
   {
     "author": "alienx5499",
