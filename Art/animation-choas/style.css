@@ -1,0 +1,63 @@
+
+ body {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+	font-family: "Bangers", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: black;
+	text-shadow: 3px 3px 5px grey;
+    font-size: 500%;
+}	
+
+
+.position {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	width: 100%;
+}				
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+ .circle {
+	background-color: purple;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	animation-iteration-count: 20;
+
+}
+.square {
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+	animation-iteration-count: 20;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-bottom: 200px solid green;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	     animation-iteration-count: 20;
+}
+
+
+
