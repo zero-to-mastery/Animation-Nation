@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.body {
+    height: 100vh;
+    width: 100vw;
+    background-color:white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+}
+
+.anime {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    background-color: #226666;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.pebble1, .pebble2, .pebble3, .pebble4, .pebble5 {
+    margin-top: 10px;
+    background: #B8BBBB; 
+    height: 12px;
+    width: 12px;
+    border-radius: 50%; 
+    animation: bounce 3s infinite ease-in-out;
+}
+
+.pebble1 {
+    animation-delay: 0s;
+}
+
+.pebble2 {
+    animation-delay: 0.2s;
+}
+
+.pebble3 {
+    animation-delay: 0.4s;
+}
+
+.pebble4 {
+    animation-delay: 0.6s;
+}
+
+.pebble5 {
+    animation-delay: 0.8s;
+}
+
+.anime::after {
+  content: '';
+  position: absolute;
+  bottom: 10vh; 
+  width: 95vw; 
+  height: 5px; 
+  background: #B8BBBB; 
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate(0, 0); 
+    }
+    20% {
+        transform: translate(-4vw, 87vh); 
+    }
+    40% {
+        transform: translate(-2vw, 35vh); 
+    }
+    60% {
+        transform: translate(0vw, 87vh); 
+    }
+    80% {
+        transform: translate(2vw, 60vh);
+    }
+    100% {
+        transform: translate(4vw, 87vh); 
+    }
+}
