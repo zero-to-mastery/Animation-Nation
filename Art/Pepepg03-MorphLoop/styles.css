@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.container {
+    position: relative; 
+    width: 100px; 
+    height: 100px;
+}
+
+.square{
+    height: 50px;
+    width: 50px;
+    border: 6px solid rgb(218, 41, 109);    
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(218, 41, 109), 0 0 10px rgb(218, 41, 109) inset;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -100%);
+    z-index: 10;
+    animation: MorphLoop  4s ease-in-out 0s infinite normal;
+}
+
+.square-fill{ 
+    background-color: rgb(237, 253, 255);
+    border: 6px solid rgb(237, 253, 255);   
+    box-shadow: 0 0 10px rgb(237, 253, 255), 0 0 10px rgb(237, 253, 255) inset;
+}
+
+.square1{
+    animation-delay: 1s;
+    border: 6px solid rgb(38, 206, 170);   
+    box-shadow: 0 0 10px rgb(38, 206, 170), 0 0 10px rgb(38, 206, 170) inset;
+}
+.square2{
+    animation-delay: 2s;
+    border: 6px solid rgb(123, 173, 226);   
+    box-shadow: 0 0 10px rgb(123, 173, 226), 0 0 10px rgb(123, 173, 226) inset;   
+}
+.square3{
+    animation-delay: 3s;
+    border: 6px solid rgb(80, 73, 204);   
+    box-shadow: 0 0 10px rgb(80, 73, 204), 0 0 10px rgb(80, 73, 204) inset; 
+}
+
+@keyframes MorphLoop  {
+    0% {
+        transform: translate(-100%, -100%) translate(0px, 0px) rotateZ(0);
+        border-radius: 4px;
+    }
+    25% {
+        transform: translate(-100%, -100%) translate(100px, 0px) rotateZ(180deg);
+        border-radius: 50%;
+    }
+    50% {
+        transform: translate(-100%, -100%) translate(100px, 100px) rotateZ(360deg);
+        border-radius: 4px;
+    }
+    75% {
+        transform: translate(-100%, -100%) translate(0px, 100px) rotateZ(180deg);
+        border-radius: 50%;
+    }
+}
