@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geanimeerde CSS Database</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- De database-container heeft een vaste maat en overflow: visible zodat content buiten kan komen -->
+  <div class="database">
+    <!-- Bovenste dekseltje -->
+    <div class="lid top-lid">DATABASE</div>
+    
+    <!-- Midden (de “body” van de database) -->
+    <div class="db-body"></div>
+    
+    <!-- Onderste dekseltje -->
+    <div class="lid bottom-lid"></div>
+
+    <!-- Content die van boven komt: de query -->
+    <div class="query-container">
+      <span class="query">SELECT * FROM tabel;</span>
+    </div>
+    
+    <!-- Content die van onder komt: eerst de tabel, dan de grafiek -->
+    <div class="table-container">
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>Naam</th>
+          <th>Waarde</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Item A</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Item B</td>
+          <td>200</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="chart-container">
+      <svg viewBox="0 0 300 150" width="300" height="150">
+        <polyline points="0,100 50,60 100,80 150,40 200,70 250,30 300,50" fill="none" stroke="blue" stroke-width="2"/>
+      </svg>
+    </div>
+  </div>
+</body>
+</html>
