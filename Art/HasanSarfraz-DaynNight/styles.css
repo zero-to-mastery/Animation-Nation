@@ -154,6 +154,17 @@ h1{
   to {left: 80%;}
 }
 
+#greenfield{
+  position: absolute;
+  top: 70%;
+  left: 0%;
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(to top right, #009900 10%, #003300 67%);
+  // opacity: 0.9;
+  z-index: 2
+}
+
 
 #wave3{
   position: absolute;
@@ -202,29 +213,6 @@ h1{
   to {top: 80%;}
 };
 
-// #wave6{
-//   position: absolute;
-//   height: 150px;
-//   width: 300px;
-//   background-color: #555;
-//   border-radius: 50%;
-//   background: #33ccff;
-//   opacity: 0.8;
-//   top: 60%;
-//   left: 100%;
-//   z-index: 1;
-// }
-
-#greenfield{
-  position: absolute;
-  top: 70%;
-  left: 0%;
-  width: 100%;
-  height: 250px;
-  background: linear-gradient(to top right, #009900 10%, #003300 67%);
-  // opacity: 0.9;
-  z-index: 2
-}
 
 #mountain1{
   position: absolute;
