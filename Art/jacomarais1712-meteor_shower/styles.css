@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.meteor {
+    position: absolute;
+    width: 60px;
+    height: auto;
+    animation: fall 1s linear infinite;
+}
+
+/* Keyframes for falling meteors */
+@keyframes fall {
+    0% {
+        transform: translateY(-100px) translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) translateX(50vw);
+        opacity: 0.5;
+    }
+}
+
+.meteor:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+.meteor:nth-child(2) {
+    left: 20%;
+    animation-delay: 0.5s;
+}
+.meteor:nth-child(3) {
+    left: 50%;
+    animation-delay: 1s;
+}
+.meteor:nth-child(4) {
+    left: 75%;
+    animation-delay: 1.5s;
+}
+.meteor:nth-child(5) {
+    left: 90%;
+    animation-delay: 2s;
+}
