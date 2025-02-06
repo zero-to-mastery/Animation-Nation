@@ -106,19 +106,6 @@ h1{
   animation: waveuptodown 3s infinite;
 };
 
-#wave3{
-  position: absolute;
-  height: 150px;
-  width: 310px;
-  background-color: #33ccff;
-  border-radius: 50%;
-  background: #33ccff;
-  opacity: 0.8;
-  top: 60%;
-  left: 40%;
-  z-index: 1;
-  animation: waveuptodown 3s infinite;
-};
 
 #flooring{
   position: absolute;
