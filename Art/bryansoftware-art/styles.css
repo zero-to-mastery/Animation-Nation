@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #887CAF;
+  padding: 100px;
+}
+
+@keyframes morph {
+  0%   {background-color:#2B4970;}
+  20%  {background-color:#AA9239; border-radius: 25px 50px 50px 50px;}
+  40%  {background-color:#AA6339; border-radius: 50px 50px 25px 50px;}
+  60%  {background-color:#554300; border-radius: 50px 25px 50px 50px;}
+  80%  {background-color:#051B38; border-radius: 50px 50px 50px 25px;}
+  100% {background-color:#2B4970; border-radius: 50px;}
+}
+
+#main {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #051B38;
+  animation: morph 10s infinite;
+}
