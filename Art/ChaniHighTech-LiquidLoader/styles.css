@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+}
+
+.loader {
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background: #ff4500;
+    border-radius: 50%;
+    animation: liquid 1.5s infinite ease-in-out;
+}
+
+.dot:nth-child(2) {
+    background: #ffa500;
+    animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+    background: #32cd32;
+    animation-delay: 0.4s;
+}
+
+@keyframes liquid {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px) scale(1.2); }
+}
