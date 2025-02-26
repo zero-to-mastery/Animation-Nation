@@ -1437,5 +1437,13 @@
     "pageLink": "./Art/vridhichaudhary-waveAnimation/index.html",
     "imageLink": "./Art/vridhichaudhary-waveAnimation/icon.png",
     "projectPath": "Art/vridhichaudhary-waveAnimation"
+  },
+  {
+    "author": "KavenWo",
+    "artName": "Polaroid",
+    "githubLink": "https://github.com/KavenWo",
+    "pageLink": "./Art/KavenWo-Polaroid/index.html",
+    "imageLink": "./Art/KavenWo-Polaroid/icon.png",
+    "projectPath": "Art/KavenWo-Polaroid"
   }
 ]
