@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(243, 239, 239);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+}
+
+button{
+  padding: 1em 2em;
+  background-color: black;
+  border: none;
+  color:whitesmoke;
+  border-radius:1000px;
+  font-family: 'Times New Roman', Times, serif ;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button::after{
+  content: "";
+  position: absolute;
+  height: 107%;
+  width:102%;
+  border-radius: 1000px;
+  background: linear-gradient(to bottom right,aquamarine, magenta); 
+  z-index: -1;
+  transition: width 0.3s ease;
+}
+
+button:hover{
+  z-index: 0;
+  box-shadow: 40px 0 100px aquamarine,
+  -40px 0 100px magenta;
+}
