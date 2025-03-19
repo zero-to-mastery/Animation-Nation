@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: Arial;
+  }
+  
+
+  .text-box {
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background: linear-gradient(90deg, red, blue, green, yellow, purple);
+    background-size: 200% 200%;
+    background-clip: text;
+    border: 15px solid white;
+    border-radius: 100px;
+    color: transparent;
+    animation: gradient-shift 3s ease-in-out infinite;
+  }
+  
+  @keyframes gradient-shift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
