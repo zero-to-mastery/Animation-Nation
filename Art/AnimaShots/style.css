@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    position: relative;
+    top: 50px;
+}
+
+.box {
+    position: relative;
+    width: 100px;
+    height: 350px;
+    background-color: rgb(206, 128, 128);
+    animation: rotateIn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.top 
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(37, 16, 131);
+    top: -35px;
+    animation: backOutLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.bottom 
+{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(37, 16, 131);
+    bottom: -35px;
+    animation: backOutRight;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
