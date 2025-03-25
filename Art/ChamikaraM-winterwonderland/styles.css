@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url('bg.jpg') no-repeat center/cover;
+  background: url('https://i.ibb.co/GvLwdRnF/bg.webp') no-repeat center/cover;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -56,7 +56,7 @@ body {
   top: -50px;
   width: 30px;
   height: 30px;
-  background-image: url('snowflake.png');
+  background-image: url('https://i.ibb.co/zVLrTfv2/snowflake.png');
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0;
