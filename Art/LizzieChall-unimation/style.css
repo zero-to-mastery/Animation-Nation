@@ -1,0 +1,118 @@
+.unicorn {
+    font-size: 155px;
+    position: absolute;
+    top: 50%;
+    right: -100%;
+    transform: translateY(-50%);
+    animation: gallop 10s linear infinite;
+}
+.stardust {
+    font-size: 80px;
+    position: absolute;
+    top: 60%;
+    right: -200%;
+    animation: spray 10s linear infinite;
+    transform: translateY(-50%);
+}
+
+@keyframes gallop {
+    0% {
+        right: -100px;
+        transform: translateY(-80%) rotate(0deg);
+    }
+    25% {
+        right: 40vw;
+        transform: translateY(-80%) rotate(20deg);
+    }
+    50% {
+        right: 60vw;
+        transform: translateY(-50%) rotate(0deg);
+    }
+    75% {
+        right: 85vw;
+        transform: translateY(-60%) rotate(-20deg);
+    }
+    100% {
+        right: 100vw;
+        transform: translateY(-80%) rotate(0deg);
+    }
+}
+@keyframes spray {
+    0%, 15% {  /* Stay invisible for first 10% of animation */
+        right: -50px;
+        transform: translateY(-80%) rotate(5deg);
+        opacity: 0;
+    }
+    10% {  /* Start appearing after unicorn */
+        right: 15vw;
+        transform: translateY(-70%) rotate(5deg);
+    }
+    35% {
+        right: 30vw;
+        transform: translateY(-90%) rotate(-5deg);
+        opacity: 1;
+    }
+    50% {
+        right: 40vw;
+        transform: translateY(-70%) rotate(5deg);
+    }
+    70% {
+        right: 60vw;
+        transform: translateY(-90%) rotate(-5deg);
+        opacity: 1;
+    }
+    100% {
+        right: 100vw;
+        transform: translateY(-80%) rotate(0deg);
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .unicorn {
+        font-size: 100px;
+    }
+    .stardust {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .unicorn {
+        font-size: 80px;
+    }
+    .stardust {
+        font-size: 40px;
+    }
+    @keyframes gallop {
+        0% {
+            right: -100px;
+        }
+        25% {
+            right: 30vw;
+        }
+        50% {
+            right: 50vw;
+        }
+        75% {
+            right: 70vw;
+        }
+        100% {
+            right: 100vw;
+        }
+    }
+}
+body {
+    background-color: rgb(200, 124, 219);
+}
+
+.footnote {
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
