@@ -1,0 +1,89 @@
+/* איפוס עמוד */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* מערכת השמש */
+.solar-system {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, yellow, orange, red);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 30px rgba(255, 165, 0, 0.8);
+}
+
+/* כוכבי הלכת */
+.planet {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    animation: orbit 5s linear infinite, colorChange 3s infinite alternate;
+}
+
+.planet:nth-child(2) { width: 10px; height: 10px; animation-duration: 4s; top: 50%; left: 50%; }
+.planet:nth-child(3) { width: 15px; height: 15px; animation-duration: 6s; top: 50%; left: 50%; }
+.planet:nth-child(4) { width: 25px; height: 25px; animation-duration: 8s; top: 50%; left: 50%; }
+.planet:nth-child(5) { width: 18px; height: 18px; animation-duration: 10s; top: 50%; left: 50%; }
+
+/* אנימציה למסלולי כוכבי הלכת */
+@keyframes orbit {
+    0% { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    100% { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+@keyframes colorChange {
+    0% { background-color: #ff5733; }
+    25% { background-color: #33ff57; }
+    50% { background-color: #5733ff; }
+    75% { background-color: #ff33a1; }
+    100% { background-color: #ffdd33; }
+}
+
+/* כוכבים בצדדים */
+.star {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    animation: twinkle 2s infinite alternate ease-in-out;
+}
+
+/* מיקום רנדומלי לכוכבים */
+.star:nth-child(6) { top: 10%; left: 5%; }
+.star:nth-child(7) { top: 20%; right: 10%; }
+.star:nth-child(8) { top: 70%; left: 7%; }
+.star:nth-child(9) { top: 85%; right: 15%; }
+.star:nth-child(10) { top: 40%; left: 3%; }
+
+/* אנימציה לניצנוץ */
+@keyframes twinkle {
+    0% { opacity: 0.5; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1); }
+}
