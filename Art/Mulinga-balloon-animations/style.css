@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background: #87CEEB; /* sky blue */
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .balloon {
+    position: absolute;
+    bottom: -100px;
+    width: 60px;
+    height: 80px;
+    background: red;
+    border-radius: 50% 50% 50% 50%;
+    animation: floatUp 10s linear infinite;
+  }
+  
+  .balloon::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 2px;
+    height: 20px;
+    background: #333;
+    transform: translateX(-50%);
+  }
+  
+  /* Different colors and delays for variety */
+  .balloon:nth-child(1) {
+    left: 10%;
+    background: #ff6666;
+    animation-delay: 0s;
+  }
+  
+  .balloon:nth-child(2) {
+    left: 30%;
+    background: #66ccff;
+    animation-delay: 3s;
+  }
+  
+  .balloon:nth-child(3) {
+    left: 50%;
+    background: #99ff99;
+    animation-delay: 6s;
+  }
+  
+  .balloon:nth-child(4) {
+    left: 70%;
+    background: #ffcc66;
+    animation-delay: 1.5s;
+  }
+  
+  .balloon:nth-child(5) {
+    left: 90%;
+    background: #cc99ff;
+    animation-delay: 4.5s;
+  }
+  
+  @keyframes floatUp {
+    0% {
+      bottom: -100px;
+      transform: translateX(0) rotate(0deg);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    50% {
+      transform: translateX(30px) rotate(10deg);
+    }
+    100% {
+      bottom: 110%;
+      transform: translateX(-30px) rotate(-10deg);
+      opacity: 0;
+    }
+  }
+  
