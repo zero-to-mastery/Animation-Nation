@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.circle {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+/* The animation code */
+@keyframes move {
+    0% {
+        translate: 10px 10px;
+    }
+
+    25% {
+        translate: 20px 20px;
+    }
+
+    50% {
+        translate: 30px 30px;
+    }
+
+    75% {
+        translate: 40px 40px;
+    }
+
+    100% {
+        translate: 50px 50px;
+
+    }
+}
