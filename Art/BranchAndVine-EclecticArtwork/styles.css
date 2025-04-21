@@ -1,0 +1,40 @@
+div square {
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+square:hover{
+    animation-name: do-something;
+
+}
+
+@keyframes do-something {
+    0% {
+        background-color: aquamarine;
+    }
+
+    15% {
+        background-color: aqua;
+    }
+
+    30% {
+        background-color: rgb(43, 134, 195);
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    70% {
+        background-color: blueviolet;
+    }
+
+    90% {
+        background-color: purple;
+    }
+
+    100% {
+        background-color: darkmagenta;
+    }
+}
