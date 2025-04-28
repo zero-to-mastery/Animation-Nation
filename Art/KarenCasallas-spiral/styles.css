@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #faf8f2;
+  font-family: Arial, sans-serif;
+}
+
+.spin{
+  position: relative;
+  width: 600px; 
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  border-radius: 50%;
+  background: conic-gradient(
+    red 0deg 7.5deg,
+    white 7.5deg 15deg,
+    red 15deg 22.5deg,
+    white 22.5deg 30deg,
+    red 30deg 37.5deg,
+    white 37.5deg 45deg,
+    red 45deg 52.5deg,
+    white 52.5deg 60deg,
+    red 60deg 67.5deg,
+    white 67.5deg 75deg,
+    red 75deg 82.5deg,
+    white 82.5deg 90deg,
+    red 90deg 97.5deg,
+    white 97.5deg 105deg,
+    red 105deg 112.5deg,
+    white 112.5deg 120deg,
+    red 120deg 127.5deg,
+    white 127.5deg 135deg,
+    red 135deg 142.5deg,
+    white 142.5deg 150deg,
+    red 150deg 157.5deg,
+    white 157.5deg 165deg,
+    red 165deg 172.5deg,
+    white 172.5deg 180deg,
+    red 180deg 187.5deg,
+    white 187.5deg 195deg,
+    red 195deg 202.5deg,
+    white 202.5deg 210deg,
+    red 210deg 217.5deg,
+    white 217.5deg 225deg,
+    red 225deg 232.5deg,
+    white 232.5deg 240deg,
+    red 240deg 247.5deg,
+    white 247.5deg 255deg,
+    red 255deg 262.5deg,
+    white 262.5deg 270deg,
+    red 270deg 277.5deg,
+    white 277.5deg 285deg,
+    red 285deg 292.5deg,
+    white 292.5deg 300deg,
+    red 300deg 307.5deg,
+    white 307.5deg 315deg,
+    red 315deg 322.5deg,
+    white 322.5deg 330deg,
+    red 330deg 337.5deg,
+    white 337.5deg 345deg,
+    red 345deg 352.5deg,
+    white 352.5deg 360deg
+    );
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  animation: spinRigth 6s linear infinite;
+}
+.reverse {
+  width: 600px;
+  height: 600px;
+  animation: spinLeft 6s linear infinite;
+}
+
+@keyframes spinLeft {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes spinRigth {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
