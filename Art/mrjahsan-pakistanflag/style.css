@@ -1,0 +1,288 @@
+/* =============================================
+   CHAPTER 1: THE FOUNDATION
+   A tale of beauty and animation begins...
+============================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #87CEEB, #E0F7FA);
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Subtle cloud effects in the background */
+body::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  top: 15%;
+  left: 20%;
+  filter: blur(8px);
+  animation: driftCloud 30s linear infinite;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  top: 25%;
+  right: 15%;
+  filter: blur(12px);
+  animation: driftCloud 40s linear infinite reverse;
+}
+
+@keyframes driftCloud {
+  0% { transform: translateX(-100px); }
+  100% { transform: translateX(calc(100vw + 100px)); }
+}
+
+/* =============================================
+ CHAPTER 2: THE FLAGPOLE
+ Standing tall and proud...
+============================================= */
+.flag-container {
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+  perspective: 1000px;
+}
+
+.flag-pole {
+  width: 12px;
+  height: 400px;
+  background: linear-gradient(90deg, 
+      #5D4037 0%, 
+      #8D6E63 15%, 
+      #A1887F 50%,
+      #8D6E63 85%,
+      #5D4037 100%);
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+  transform-style: preserve-3d;
+}
+
+.flag-pole::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+      rgba(0,0,0,0.2) 0%,
+      rgba(0,0,0,0) 50%,
+      rgba(0,0,0,0.1) 100%);
+  border-radius: 6px;
+}
+
+.pole-top {
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle at 30% 30%, 
+      #FFF176 0%, 
+      #FFD700 50%, 
+      #FBC02D 100%);
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.pole-top::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 3px;
+  left: 3px;
+}
+
+.pole-base {
+  width: 80px;
+  height: 20px;
+  background: linear-gradient(to bottom, #5D4037, #3E2723);
+  position: absolute;
+  bottom: 0;
+  left: -34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  transform: perspective(100px) rotateX(5deg);
+}
+
+.pole-base::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.2);
+  bottom: -4px;
+  left: 5%;
+  border-radius: 50%;
+  filter: blur(2px);
+}
+
+/* =============================================
+ CHAPTER 3: THE GLORIOUS FLAG
+ Colors of pride moving in the breeze...
+============================================= */
+.flag {
+  display: flex;
+  width: 240px;
+  height: 160px;
+  position: absolute;
+  left: 12px;
+  top: 40px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  transform-origin: left center;
+  animation: flagRise 6s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+@keyframes flagRise {
+  0%, 100% { 
+      top: 40px;
+      transform: rotateZ(0deg); 
+  }
+  25% {
+      transform: rotateZ(-1deg);
+  }
+  50% { 
+      top: 65px;
+      transform: rotateZ(1deg); 
+  }
+  75% {
+      transform: rotateZ(-0.5deg);
+  }
+}
+
+.white-portion {
+  width: 25%;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.white-portion::after {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+      rgba(255,255,255,0) 0%,
+      rgba(255,255,255,0.5) 50%,
+      rgba(255,255,255,0) 100%);
+  animation: shimmer 4s infinite;
+  transform: skewX(-20deg);
+}
+
+@keyframes shimmer {
+  0% { left: -200%; }
+  50% { left: 100%; }
+  100% { left: -200%; }
+}
+
+.green-portion {
+  width: 75%;
+  height: 100%;
+  background-color: #01411c;
+  position: relative;
+  overflow: hidden;
+}
+
+.green-portion::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, 
+      rgba(255,255,255,0.05) 0%,
+      rgba(255,255,255,0) 50%,
+      rgba(255,255,255,0.05) 100%);
+}
+
+/* =============================================
+ CHAPTER 4: THE CELESTIAL SYMBOLS
+ Moon and star shining with eternal hope...
+============================================= */
+
+.crescent-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  animation: gentle-spin 12s linear infinite;
+}
+
+@keyframes gentle-spin {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  50% { transform: translate(-50%, -50%) rotate(1deg); }
+  100% { transform: translate(-50%, -50%) rotate(0deg); }
+}
+
+.crescent {
+  width: 64px;
+  height: 64px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+.crescent-inner {
+  width: 52px;
+  height: 52px;
+  background-color: #01411c;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  left: 12px;
+}
+
+.star {
+  position: absolute;
+  top: 20px;
+  left: 46px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  clip-path: polygon(
+      50% 0%, 61% 35%, 98% 35%, 68% 57%,
+      79% 91%, 50% 70%, 21% 91%, 32% 57%,
+      2% 35%, 39% 35%
+  );
+  transform: rotate(15deg);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+  animation: twinkle 3s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.3); }
+}
