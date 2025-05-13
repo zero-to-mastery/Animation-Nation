@@ -1,0 +1,339 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe3e3;
+    margin: 0;
+}
+.donut-container{
+    display: flex;
+    gap:30px;
+}
+.Happy-Hanukkah {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #ff6347, #ffd700, #32cd32, #1e90ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+    top:50px;
+}
+
+.donut1 , .donut2, .donut3{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: jump 1s infinite ease-in-out;
+}
+.donut1{
+    background-color: #ff6384;
+}
+.donut2{
+    background-color: #1ce949;
+    animation-delay: 0.1s;
+}
+.donut3{
+    background-color: #e8c05a;
+}
+@keyframes jump {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+}
+
+.donut1::before,.donut2::before,.donut3::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: #ffe3e3;
+    border-radius: 50%;
+}
+
+.sprinkle {
+    position: absolute;
+    width: 12px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    transform: rotate(var(--angle));
+    top: var(--top);
+    left: var(--left);
+}
+
+/* ספרילנקים בצבעים שונים ומפוזרים יותר */
+.sprinkle.dark {
+    background-color: #e95b6f;
+}
+
+.sprinkle.pink {
+    background-color: #f7a1c7;
+}
+
+.sprinkle.light {
+    background-color: #ffd9e0;
+}
+
+/* תנועת הידיים */
+@keyframes wave-arm-left {
+
+    0%,
+    100% {
+        transform: rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(33deg);
+    }
+
+    70% {
+        transform: rotate(37deg);
+    }
+
+}
+
+@keyframes wave-arm-right {
+
+    0%,
+    100% {
+        transform: rotate(-30deg);
+    }
+
+    50% {
+        transform: rotate(-29deg);
+    }
+
+    70% {
+        transform: rotate(-21deg);
+    }
+}
+
+@keyframes wave-leg {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+}
+
+
+
+/* תנועת הרגליים */
+.leg {
+    position: absolute;
+    width: 4px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 25px;
+    transform-origin: top;
+    animation: wave-leg 1s infinite ease-in-out;
+}
+
+.leg.left {
+    left: 30%;
+    bottom: -25px;
+    /* מיקום */
+    animation-delay: 0.2s;
+    /* תנועה א-סינכרונית */
+}
+
+.leg.right {
+    right: 30%;
+    bottom: -25px;
+    animation-delay: -0.2s;
+}
+
+/* כפות ידיים ורגליים */
+.hand,
+.foot {
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    bottom: -5px;
+    /* יושב מתחת לזרוע או לרגל */
+    left: 50%;
+}
+
+.arm,
+.leg {
+    position: absolute;
+    width: 4px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 25px;
+}
+
+.arm {
+    top: 20%;
+
+}
+
+.arm.left {
+    left: -2px;
+    transform: rotate(30deg);
+    animation-delay: -0.5s;
+    animation: wave-arm-left 0.5s infinite ease-in-out;
+
+}
+
+.arm.right {
+    right: -2px;
+    transform: rotate(-30deg);
+    animation: wave-arm-right 1s infinite ease-in-out;
+
+}
+
+.arm {
+    position: absolute;
+    width: 4px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 25px;
+}
+
+
+
+.hand,
+.foot {
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 42%;
+    bottom: -5px;
+    /* יושב בדיוק מתחת לקצה הזרוע */
+    left: 50%;
+
+}
+
+.hand.left {
+    transform: translateX(-70%);
+}
+
+.hand.right {
+    transform: translateX(-90%);
+}
+
+.leg {
+    bottom: -25px;
+    border-radius: 25px;
+}
+
+
+.leg.left {
+    left: 20%;
+}
+
+.foot.left {
+    transform: translateX(-70%);
+
+}
+
+.leg.right {
+    right: 20%;
+}
+
+.face {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.eyes {
+    display: flex;
+}
+
+
+.eye-to {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.eye {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    animation: move-eye 2s infinite alternate ease-in-out;
+}
+
+@keyframes move-eye {
+    0% {
+        transform: translate(5px, 0);
+        /* יזוז ימינה */
+    }
+
+    25% {
+        transform: translate(0, -5px);
+        /* למעלה */
+    }
+
+    50% {
+        transform: translate(-5px, 0);
+        /* שמאלה */
+    }
+
+    75% {
+        transform: translate(0, 5px);
+        /* למטה */
+    }
+
+    100% {
+        transform: translate(5px, 0);
+        /* חזרה לימינה */
+    }
+}
+
+.smile {
+    width: 25px;
+    height: 11px;
+    border: 2px solid #000;
+    border-top: none;
+    border-radius: 1px 0 20px 16px;
+    /* margin-top: 5px; */
+
+}
+
+@keyframes wave {
+
+    0%,
+    100% {
+        transform: rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(50deg);
+    }
+}

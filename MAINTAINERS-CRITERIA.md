@@ -6,22 +6,24 @@ This document outlines the criteria for evaluating and accepting Pull Requests (
 
 ## 🎯 Key Criteria for PR Acceptance
 
-
 ### 1. **Check the File Structure**
+
 - Ensure that the directory is correctly named using the `<github_username>-<art_name>` format.
 - Ensure that the directory contains only the `index.html` and `styles.css` files.
 - Ensure the html file is named exactly `index.html`
 - Ensure the css file is named exactly `styles.css`
 
 ### 2. **Code Quality**
+
 - Verify that the submission contains **only HTML and CSS** (no JavaScript, no images).
 - Ensure the code is original and not copied from other sources.
 - Verify submission includes at least one visible CSS animation.
 
 ### 3. **Check for Additional Files**
+
 - Ensure there are no other files in the submission (such as images, SVGs, or JavaScript).
 - Ensure not other files outside of the contributors own animation directory have been modified.
-- Any modification to core files and configuration files without prior discussion will be closed. 
+- Any modification to core files and configuration files without prior discussion will be closed.
 
 ---
 
@@ -42,8 +44,7 @@ PRs will be rejected if any of the following issues are detected:
 - **Request Changes:** If a PR is nearly acceptable but has minor issues (such as incorrect file names or missing animations), request the contributor to make changes before merging.
 - **Mark Closed:** If the PR significantly violates the criteria (such as including JavaScript or modifying a number of other files), provide feedback and close the PR.
 
-(Closed PRs can always be re-opened should the requirements be addressed)
----
+## (Closed PRs can always be re-opened should the requirements be addressed)
 
 ## 🚀 Contribution Guidelines Summary
 

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #ff0033 0%, #03055b 100%);
+}
+
+.Halloween {
+  font-family: 'Sans Serif';
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.Hacktoberfest {
+  padding: 0 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.emoji {
+  font-size: 110px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(200px);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+.box {
+  animation: bounce 300ms alternate infinite cubic-bezier(2, 0.65, 1, 2);
+}

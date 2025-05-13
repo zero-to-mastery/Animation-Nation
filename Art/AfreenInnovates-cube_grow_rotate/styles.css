@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.scene {
+  perspective: 1000px;
+}
+
+.prism {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transform: rotateX(30deg) rotateY(45deg);
+  animation: growAndRotate 5s ease-in-out infinite;
+}
+
+.face {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: rgba(52, 152, 219, 0.7);
+  border: 1px solid #2980b9;
+}
+
+/* Front face */
+.front {
+  transform: translateZ(50px);
+}
+
+/* Back face */
+.back {
+  transform: rotateY(180deg) translateZ(50px);
+}
+
+/* Left face */
+.left {
+  transform: rotateY(-90deg) translateZ(50px);
+}
+
+/* Right face */
+.right {
+  transform: rotateY(90deg) translateZ(50px);
+}
+
+/* Top face */
+.top {
+  transform: rotateX(90deg) translateZ(50px);
+}
+
+/* Bottom face */
+.bottom {
+  transform: rotateX(-90deg) translateZ(50px);
+}
+
+@keyframes growAndRotate {
+  0% {
+    transform: rotateX(30deg) rotateY(45deg) scale(1);
+  }
+  50% {
+    transform: rotateX(390deg) rotateY(405deg) scale(1.5);
+  }
+  100% {
+    transform: rotateX(750deg) rotateY(765deg) scale(1);
+  }
+}

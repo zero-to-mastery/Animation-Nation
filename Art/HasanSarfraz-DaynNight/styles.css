@@ -1,0 +1,241 @@
+.container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
+    
+}
+
+body {
+  background: #0d1a26;
+  animation: daytonight 15s infinite
+}
+@keyframes daytonight {
+  from {background-color: #80d4ff;}
+  to {background: #0d1a26;}
+}
+
+h1{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  color: #ffffff;
+  animation-duration: 15s;
+  z-index: 5;
+}
+
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 150% 2;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+
+#water{
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  width: 100%;
+  height: 272px;
+  background: linear-gradient(to right, #33ccff 0%, #000099 36%);
+  opacity: 0.8;
+  z-index: 1
+}
+
+#sun {
+  top: 10%;
+  left: 25%;
+  background-color: yellow;
+  height: 60px;
+  width: 60px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50%;
+  shape-outside: border-box;
+  animation: suntomoon 15s infinite
+}
+
+@keyframes suntomoon {
+  from {background-color: #ffff00;}
+  to {background-color: #e6f2ff;}
+}
+
+#flooring{
+  position: absolute;
+  top: 45%;
+  left: 5px;
+  border-bottom: 120px solid #ffcc66;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 10px;
+  width: 250px;
+  rotate: 180deg;
+  z-index: 4;
+  animation: mymove 20s infinite;
+}
+
+#wave1{
+  position: absolute;
+  height: 150px;
+  width: 310px;
+  background-color: #33ccff;
+  border-radius: 50%;
+  background: #33ccff;
+  opacity: 0.8;
+  top: 60%;
+  left: 0%;
+  z-index: 1;
+  animation: waveuptodown 3s infinite;
+}
+#wave2{
+  position: absolute;
+  height: 150px;
+  width: 310px;
+  background-color: #33ccff;
+  border-radius: 50%;
+  background: #33ccff;
+  opacity: 0.8;
+  top: 60%;
+  left: 20%;
+  z-index: 1;
+  animation: waveuptodown 3s infinite;
+};
+
+
+#flooring{
+  position: absolute;
+  top: 45%;
+  left: 5px;
+  border-bottom: 120px solid #ffcc66;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 10px;
+  width: 250px;
+  rotate: 180deg;
+  z-index: 4;
+  animation: mymove 20s infinite;
+}
+
+#sails{
+  position: absolute;
+  top: 28%;
+  left: 30px;
+  width: 0;
+  height: 2px;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 120px solid #cc6699;
+  // background-color: linear-gradient(to top right, #00cc99 10%, #6600cc 67%);
+  z-index: 4;
+  // position: relative;
+  animation: mymove 20s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 80%;}
+}
+
+#greenfield{
+  position: absolute;
+  top: 70%;
+  left: 0%;
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(to top right, #009900 10%, #003300 67%);
+  // opacity: 0.9;
+  z-index: 2
+}
+
+
+#wave3{
+  position: absolute;
+  height: 150px;
+  width: 310px;
+  background-color: #33ccff;
+  border-radius: 50%;
+  background: #33ccff;
+  opacity: 0.8;
+  top: 60%;
+  left: 40%;
+  z-index: 1;
+  animation: waveuptodown 3s infinite;
+}
+
+#wave4{
+  position: absolute;
+  height: 150px;
+  width: 310px;
+  background-color: #33ccff;
+  border-radius: 50%;
+  background: #33ccff;
+  opacity: 0.8;
+  top: 60%;
+  left: 60%;
+  z-index: 1;
+  animation: waveuptodown 3s infinite;
+}
+
+#wave5{
+  position: absolute;
+  height: 150px;
+  width: 310px;
+  background-color: #33ccff;
+  border-radius: 50%;
+  background: #33ccff;
+  opacity: 0.8;
+  top: 60%;
+  left: 80%;
+  z-index: 1;
+  animation: waveuptodown 3s infinite;
+}
+
+@keyframes waveuptodown {
+  from {top: 60%;}
+  to {top: 80%;}
+};
+
+
+#mountain1{
+  position: absolute;
+  top: 10%;
+  left: -50px;
+  width: 0;
+  height: 30px;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 120px solid #996633;
+  z-index: 3
+}
+
+#mountain2{
+  position: absolute;
+  top: 10%;
+  left: 480px;
+  width: 0;
+  height: 30px;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 120px solid #996633;
+  z-index: 3
+}
+
+#mountain3{
+  position: absolute;
+  top: 10%;
+  right: -50px;
+  width: 0;
+  height: 30px;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 120px solid #996633;
+  z-index: 3
+}
+
+
+

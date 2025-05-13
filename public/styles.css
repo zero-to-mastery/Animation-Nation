@@ -56,7 +56,16 @@ ul {
     color: var(--main);
 }
 
-/* Flex Card Container */
+#header p {
+    margin-top: 20px;
+    color: var(--main-50);
+}
+
+.card-container {
+    padding-top: 50px;
+}
+
+
 .flex {
     display: flex;
     display: -webkit-box;
@@ -74,8 +83,7 @@ ul {
 }
 
 .flex-content {
-    display: block;
-    margin-top: 15px;
+    
 }
 
 #cards {
@@ -99,12 +107,16 @@ ul {
     min-width: 250px;
     width: 18vw;
     max-width: 250px;
-    /* min-height: 350px; */
     border: 2px solid var(--main-30);
     border-radius: 10px;
     margin-top: 20px;
     transition: 0.5s ease;
     overflow: hidden;
+}
+
+.card a, .card p, .card h3 {
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 .card:hover {

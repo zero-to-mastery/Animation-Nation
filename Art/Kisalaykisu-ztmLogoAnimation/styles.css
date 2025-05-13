@@ -1,0 +1,49 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+.ztm-logo {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+}
+
+.ztm-triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: absolute;
+}
+
+.green {
+  border-bottom: 80px solid #2ecc71;
+  top: 0;
+  left: 0;
+}
+
+.red {
+  border-bottom: 80px solid #e74c3c;
+  top: 0;
+  left: 0;
+  transform: rotate(45deg);
+}
+
+.ztm-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  position: absolute;
+  top: 85px;
+  left: 35px;
+}

@@ -1,0 +1,52 @@
+.box {
+  width: 500px;
+  height: 300px;
+  background-color: black;
+  padding: 15px;
+}
+
+#bubble {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: lightblue;
+  animation: pulse 2s ease infinite alternate,
+    nudge 6s linear infinite alternate;
+}
+
+#line {
+  height: 100%;
+  width: 5px;
+  background-color: lightblue;
+  animation: nudge 6s linear infinite alternate, rotate 4s ease infinite;
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(0);
+  }
+
+  80% {
+    transform: rotate(-70deg);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    background-color: red;
+  }
+  50% {
+    background-color: orange;
+  }
+}
+
+@keyframes nudge {
+  50% {
+    transform: translate(320px, 0);
+  }
+
+  100% {
+    transform: translate(-30px, 0);
+  }
+}

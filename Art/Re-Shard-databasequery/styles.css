@@ -1,0 +1,201 @@
+/* Algemene reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body- en container-instellingen */
+  body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .database {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    perspective: 800px;
+    overflow: visible; /* zodat elementen buiten de box getoond worden */
+  }
+  
+  /* Basisstijl voor beide dekseltjes */
+  .lid {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    backface-visibility: hidden;
+  }
+  
+  /* Bovenste dekseltje (top-lid) */
+  .top-lid {
+    top: 0;
+    height: 50px;
+    transform-origin: bottom center;
+    /* Animatie voor top-lid: 
+       - 0–1s: gesloten,
+       - 1–2s: opent (roteren naar -90°),
+       - 2–4s: open,
+       - 4–5s: sluit weer,
+       - daarna gesloten. */
+    animation: topLidAnim 10s forwards;
+  }
+  
+  /* Onderste dekseltje (bottom-lid) */
+  .bottom-lid {
+    bottom: 0;
+    height: 50px;
+    transform-origin: top center;
+    /* Animatie voor bottom-lid:
+       - 0–4s: gesloten,
+       - 4–5s: opent (voor de tabel),
+       - 5–6s: open,
+       - 6–7s: sluit,
+       - 7–8s: opent (voor de grafiek),
+       - 8–9s: open,
+       - 9–10s: sluit. */
+    animation: bottomLidAnim 10s forwards;
+  }
+  
+  /* De “body” van de database (visueel een frame) */
+  .db-body {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #ecf0f1;
+    border: 2px solid #3498db;
+  }
+  
+  /* --- Content die buiten komt --- */
+  
+  /* Query-container: verschijnt bovenaan (onder het top-lid) */
+  .query-container {
+    position: absolute;
+    top: -40px; /* startpositie net boven de database */
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    /* Laat de query-container binnen 1 seconde (na 1s vertraging) naar beneden schuiven
+       en fade-in, en weer verdwijnen als het top-lid sluit */
+    animation: slideDown 1s forwards 1s, fadeOut 0.5s forwards 4s;
+  }
+  
+  /* De query: typewriter-effect */
+  .query {
+    font-family: monospace;
+    font-size: 16px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black;
+    width: 0; /* start met 0 breedte */
+    /* Typewriter-effect: begint na 1s, duurt 2s */
+    animation: typing 2s steps(30, end) forwards 1s, blink-caret 0.75s step-end infinite 3s;
+  }
+  
+  /* Tabel-container: verschijnt onderaan (onder het bottom-lid) */
+  .table-container {
+    position: absolute;
+    bottom: -150px; /* start buiten beeld */
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    /* Laat de tabel binnen 1s vanuit de onderkant verschijnen (start bij 4s),
+       en laat hem weer vervagen als de klep sluit (vanaf 6s) */
+    animation: slideUp 1s forwards 4s, fadeOut 0.5s forwards 6s;
+  }
+  
+  /* Chart-container: verschijnt later onderaan */
+  .chart-container {
+    position: absolute;
+    bottom: -150px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    /* Laat de grafiek binnen 1s vanuit de onderkant verschijnen (start bij 7s),
+       en laat hem weer vervagen als de klep sluit (vanaf 9s) */
+    animation: slideUp 1s forwards 7s, fadeOut 0.5s forwards 9s;
+  }
+  
+  /* Tabel-opmaak */
+  table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  th {
+    background: #2ecc71;
+    color: white;
+  }
+  
+  /* --- Animatie Keyframes --- */
+  
+  /* Top-lid animatie */
+  @keyframes topLidAnim {
+    0% { transform: rotateX(0deg); }
+    10% { transform: rotateX(0deg); }
+    20% { transform: rotateX(-90deg); }
+    40% { transform: rotateX(-90deg); }
+    50% { transform: rotateX(0deg); }
+    100% { transform: rotateX(0deg); }
+  }
+  
+  /* Bottom-lid animatie */
+  @keyframes bottomLidAnim {
+    0% { transform: rotateX(0deg); }
+    40% { transform: rotateX(0deg); }
+    50% { transform: rotateX(90deg); }
+    60% { transform: rotateX(90deg); }
+    70% { transform: rotateX(0deg); }
+    80% { transform: rotateX(90deg); }
+    90% { transform: rotateX(90deg); }
+    100% { transform: rotateX(0deg); }
+  }
+  
+  /* Slide-down voor query (van boven naar zijn plek) */
+  @keyframes slideDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  /* Slide-up voor tabel en grafiek (van onder naar zijn plek) */
+  @keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  /* Fade-out (voor het geleidelijk verdwijnen van content) */
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  
+  /* Typewriter-effect: breidt de breedte uit */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  /* Knipperende cursor */
+  @keyframes blink-caret {
+    50% { border-color: transparent; }
+  }
+  

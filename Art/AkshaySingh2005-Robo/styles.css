@@ -1,0 +1,277 @@
+:root {
+    --primary: #0cf;
+    --secondary: #08a;
+    --background: #111;
+    --circuit: #0a3;
+    --text: #0fc;
+    --robot-head: #333;
+    --robot-eye: #0cf;
+    --robot-mouth: #08a;
+    --antenna: #777;
+    --antenna-light: #f55;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--background);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Robot Head */
+  .robot-head {
+    position: relative;
+    width: 200px;
+    height: 240px;
+    background-color: var(--robot-head);
+    border-radius: 30px;
+    border: 4px solid #444;
+    box-shadow: 0 0 20px rgba(0, 204, 255, 0.3);
+    z-index: 10;
+    animation: hover 3s ease-in-out infinite;
+  }
+  
+  @keyframes hover {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  /* Eyes */
+  .eyes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .eye {
+    width: 60px;
+    height: 40px;
+    background-color: #222;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #444;
+  }
+  
+  .scanner {
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: var(--robot-eye);
+    left: 0;
+    top: 0;
+    animation: scan 2s linear infinite;
+    box-shadow: 0 0 10px var(--robot-eye);
+  }
+  
+  @keyframes scan {
+    0% { left: 0; }
+    100% { left: 100%; }
+  }
+  
+  .pupil {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--robot-eye);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% { opacity: 0.7; transform: translate(-50%, -50%) scale(1); }
+    50% { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+  }
+  
+  /* Mouth */
+  .mouth {
+    width: 120px;
+    height: 30px;
+    background-color: #222;
+    margin: 40px auto 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    border: 2px solid #444;
+    overflow: hidden;
+  }
+  
+  .sound-wave {
+    width: 4px;
+    height: 5px;
+    background-color: var(--robot-mouth);
+    animation: soundWave 0.5s ease-in-out infinite;
+  }
+  
+  .sound-wave:nth-child(2) { animation-delay: 0.1s; }
+  .sound-wave:nth-child(3) { animation-delay: 0.2s; }
+  .sound-wave:nth-child(4) { animation-delay: 0.3s; }
+  .sound-wave:nth-child(5) { animation-delay: 0.4s; }
+  
+  @keyframes soundWave {
+    0%, 100% { height: 5px; }
+    50% { height: 20px; }
+  }
+  
+  /* Antennas */
+  .antenna {
+    position: absolute;
+    width: 8px;
+    height: 30px;
+    background-color: var(--antenna);
+    top: -30px;
+    border-radius: 4px;
+  }
+  
+  .left-antenna {
+    left: 50px;
+  }
+  
+  .right-antenna {
+    right: 50px;
+  }
+  
+  .antenna-light {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: var(--antenna-light);
+    border-radius: 50%;
+    top: -6px;
+    left: -2px;
+    animation: blink 1.5s ease-in-out infinite alternate;
+  }
+  
+  .right-antenna .antenna-light {
+    animation-delay: 0.75s;
+  }
+  
+  @keyframes blink {
+    0%, 80% { opacity: 1; box-shadow: 0 0 10px var(--antenna-light); }
+    100% { opacity: 0.3; box-shadow: 0 0 2px var(--antenna-light); }
+  }
+  
+  /* Circuit Board */
+  .circuit-board {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .circuit {
+    position: absolute;
+    background-color: var(--circuit);
+    box-shadow: 0 0 5px var(--circuit);
+  }
+  
+  .line-1 {
+    width: 2px;
+    height: 30%;
+    top: 10%;
+    left: 20%;
+    animation: circuitPulse 3s infinite;
+  }
+  
+  .line-2 {
+    width: 15%;
+    height: 2px;
+    top: 40%;
+    left: 20%;
+    animation: circuitPulse 3s infinite 0.5s;
+  }
+  
+  .line-3 {
+    width: 2px;
+    height: 25%;
+    top: 40%;
+    left: 35%;
+    animation: circuitPulse 3s infinite 1s;
+  }
+  
+  .line-4 {
+    width: 2px;
+    height: 30%;
+    top: 10%;
+    right: 20%;
+    animation: circuitPulse 3s infinite 1.5s;
+  }
+  
+  .line-5 {
+    width: 15%;
+    height: 2px;
+    top: 40%;
+    right: 20%;
+    animation: circuitPulse 3s infinite 2s;
+  }
+  
+  .line-6 {
+    width: 2px;
+    height: 25%;
+    top: 40%;
+    right: 35%;
+    animation: circuitPulse 3s infinite 2.5s;
+  }
+  
+  @keyframes circuitPulse {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
+  }
+  
+  .node {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: var(--circuit);
+    border-radius: 50%;
+    box-shadow: 0 0 5px var(--circuit);
+    animation: nodePulse 2s infinite;
+  }
+  
+  .node-1 { top: 10%; left: 20%; animation-delay: 0.2s; }
+  .node-2 { top: 40%; left: 20%; animation-delay: 0.7s; }
+  .node-3 { top: 65%; left: 35%; animation-delay: 1.2s; }
+  .node-4 { top: 10%; right: 20%; animation-delay: 1.7s; }
+  .node-5 { top: 40%; right: 20%; animation-delay: 2.2s; }
+  .node-6 { top: 65%; right: 35%; animation-delay: 2.7s; }
+  
+  @keyframes nodePulse {
+    0%, 100% { transform: scale(1); opacity: 0.7; }
+    50% { transform: scale(1.5); opacity: 1; }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

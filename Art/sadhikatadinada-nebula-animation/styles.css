@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+}
+
+/* Main nebula container */
+.nebula {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+    circle at center,
+    rgba(10, 10, 20, 1),
+    rgba(0, 0, 0, 1)
+  );
+  overflow: hidden;
+}
+
+/* Stars layer */
+.stars {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: url('https://www.transparenttextures.com/patterns/stardust.png');
+  opacity: 0.8;
+  animation: twinkle 60s linear infinite;
+}
+
+/* Cloud layers for nebula effect */
+.cloud {
+  position: absolute;
+  width: 250%;
+  height: 250%;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 0, 150, 0.6),
+    rgba(0, 0, 50, 0)
+  );
+  filter: blur(50px);
+  opacity: 0.5;
+  animation: moveClouds 40s linear infinite;
+}
+
+.cloud1 {
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 0, 150, 0.7),
+    rgba(0, 0, 50, 0)
+  );
+  animation-duration: 50s;
+  animation-delay: 0s;
+}
+
+.cloud2 {
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(0, 255, 200, 0.5),
+    rgba(0, 0, 50, 0)
+  );
+  animation-duration: 60s;
+  animation-delay: 5s;
+}
+
+.cloud3 {
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(50, 100, 255, 0.5),
+    rgba(0, 0, 50, 0)
+  );
+  animation-duration: 70s;
+  animation-delay: 10s;
+}
+
+/* Soft glow effect at center */
+.glow {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 200, 150, 0.8),
+    rgba(255, 100, 0, 0)
+  );
+  filter: blur(60px);
+  opacity: 0.8;
+  animation: pulsate 6s ease-in-out infinite;
+}
+
+/* Animation for moving stars */
+@keyframes twinkle {
+  0% {
+    transform: translate(-10%, -10%);
+  }
+  50% {
+    transform: translate(10%, 10%);
+  }
+  100% {
+    transform: translate(-10%, -10%);
+  }
+}
+
+/* Animation for nebula clouds */
+@keyframes moveClouds {
+  0% {
+    transform: translate(-10%, -10%) scale(1);
+  }
+  50% {
+    transform: translate(10%, 10%) scale(1.1);
+  }
+  100% {
+    transform: translate(-10%, -10%) scale(1);
+  }
+}
+
+/* Pulsating center glow effect */
+@keyframes pulsate {
+  0% {
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0.6;
+  }
+}

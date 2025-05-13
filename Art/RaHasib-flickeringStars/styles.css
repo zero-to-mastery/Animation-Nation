@@ -1,0 +1,94 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background: #243642;
+  overflow: hidden;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 60px;
+  right: 220px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 30px 10px #fff, 0 0 60px 20px #008cff, 0 0 100px 30px #002cff;
+}
+
+.stars {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  box-shadow: 0 0 5px 1px #fff;
+  animation: shimmer 3s infinite;
+}
+
+.stars:nth-child(1) {
+  top: 30%;
+  left: 25%;
+}
+
+.stars:nth-child(2) {
+  top: 40%;
+  left: 70%;
+}
+
+.stars:nth-child(3) {
+  top: 60%;
+  left: 40%;
+}
+
+.stars:nth-child(4) {
+  top: 80%;
+  left: 15%;
+}
+
+.stars:nth-child(5) {
+  top: 50%;
+  left: 60%;
+}
+
+.stars:nth-child(6) {
+  top: 40%;
+  left: 80%;
+}
+
+.stars:nth-child(7) {
+  top: 46%;
+  left: 55%;
+}
+
+.stars:nth-child(8) {
+  top: 75%;
+  left: 65%;
+}
+
+.stars:nth-child(9) {
+  top: 38%;
+  left: 78%;
+}
+
+.stars:nth-child(10) {
+  top: 85%;
+  left: 90%;
+}
+
+.stars:nth-child(11) {
+  top: 75%;
+  left: 50%;
+}
+
+@keyframes shimmer {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
