@@ -22,11 +22,11 @@ fetch('./public/cards.json')
       return shuffle(cardList).map((c) => [
         `<li class="card">` +
           `<a href='${c.pageLink}'>` +
-          `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+            `<img class="art-image" src='${c.imageLink}' alt='Popsnation Giltchy Hacktober' />` +
           `</a>` +
-          `<a class="art-title" href='${c.pageLink}'><h3 >${c.artName}</h3></a>` +
-          `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-          `</li>`
+          `<a class="art-title" href='${c.pageLink}'><h3>Popsnation Giltchy Hacktober</h3></a>` +
+          `<p class='author'><a href="https://github.com/Enock12234" target="_blank"><i class="fab fa-github"></i> Any Author</a></p>` +
+        `</li>`
       ]);
     };
 
@@ -53,9 +53,7 @@ fetch('./public/cards.json')
     });
 
     // Get element by id "stats" and set the innerHTML to the following
-    document.getElementById(
-      'stats'
-    ).innerHTML = `Showcasing ${cards.length} artworks`;
+    document.getElementById('stats').innerHTML = `Showcasing ${cards.length} artworks`;
   })
   .catch((error) => {
     console.error('Error fetching the cards.json file:', error);
