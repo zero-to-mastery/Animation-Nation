@@ -1,0 +1,20 @@
+{
+  "name": "Hacktoberfest CSS Glitch Animation",
+  "description": "A pure CSS3 glitch animation featuring 'HACKTOBERFEST' with optional background imagery and effects. Built for Hacktoberfest 2025 animation showcase.",
+  "author": {
+    "name": "Takunda",
+    "github": "https://github.com/Enock12234"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "tags": ["CSS3", "glitch", "animation", "Hacktoberfest", "frontend", "html", "design"],
+  "files": [
+    "index.html",
+    "styles.css",
+    "hacktoberfest-logo.png"
+  ],
+  "created": "2025-10-01",
+  "updated": "2025-10-13",
+  "preview": "hacktoberfest-logo.png",
+  "repository": "https://github.com/Enock12234/hacktoberfest-css-glitch-animation"
+}
