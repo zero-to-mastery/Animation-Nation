@@ -1,0 +1,68 @@
+div.at-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+.at-item {
+	width: 100px; 
+	height: 100px; 
+	border-radius: 50px; 
+	background-color: #50ed50;
+	
+	animation-name: flip-diagonal-tr;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-fill-mode: both;
+}
+
+/* Different delays for each circle */
+.circle-1 {
+	animation-delay: 0s;
+}
+
+.circle-2 {
+	animation-delay: 0.3s;
+}
+
+.circle-3 {
+	animation-delay: 0.6s;
+}
+
+.circle-4 {
+	animation-delay: 0.9s;
+}
+
+.circle-5 {
+	animation-delay: 1.2s;
+}
+
+@keyframes flip-diagonal-tr {
+	0% {
+		transform: rotate3d(1, 1, 0, 0deg);
+		background-color: #50ed50; /* Green */
+	}
+	
+	25% {
+		background-color: #ed50ed; /* Pink/Purple */
+	}
+	
+	50% {
+		background-color: #5050ed; /* Blue */
+	}
+	
+	75% {
+		background-color: #eded50; /* Yellow */
+	}
+	
+	100% {
+		transform: rotate3d(1, 1, 0, 180deg);
+		background-color: #ed5050; /* Red */
+	}
+}
