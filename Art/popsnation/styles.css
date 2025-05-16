@@ -1,0 +1,96 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  height: 100vh;
+  background: linear-gradient(120deg, #0f0f0f, #1a1a1a);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Optional image or animated overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url('hacktoberfest-logo.png') no-repeat center center/cover;
+  opacity: 0.15;
+  z-index: 0;
+  filter: blur(2px);
+}
+
+/* Glitch text wrapper */
+.glitch-wrapper {
+  z-index: 1;
+  position: relative;
+}
+
+/* Main glitch animation */
+.glitch-text {
+  font-size: 3.5rem;
+  color: #fff;
+  position: relative;
+  animation: flicker 2s infinite;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px #0ff, 0 0 12px #f0f;
+}
+
+.glitch-text::before,
+.glitch-text::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  overflow: hidden;
+}
+
+.glitch-text::before {
+  color: #f0f;
+  top: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  animation: glitchTop 2.5s infinite ease-in-out;
+}
+
+.glitch-text::after {
+  color: #0ff;
+  top: 0;
+  clip-path: polygon(0 66%, 100% 66%, 100% 100%, 0 100%);
+  animation: glitchBottom 2.5s infinite ease-in-out;
+}
+
+/* Glitch effects */
+@keyframes glitchTop {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(-2px, -2px); }
+  40% { transform: translate(2px, 2px); }
+  60% { transform: translate(-1px, 1px); }
+  80% { transform: translate(1px, -1px); }
+}
+
+@keyframes glitchBottom {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(1px, -1px); }
+  80% { transform: translate(-1px, 1px); }
+}
+
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+  }
+  20%, 22%, 24%, 55% {
+    opacity: 0.4;
+  }
+}
