@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Animation</title>
+  <style>
+    body {
+      margin: 0;
+      background: #222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #animation-container {
+      position: relative;
+      width: 600px;
+      height: 400px;
+      border: 2px solid #fff;
+      overflow: hidden;
+    }
+
+    .ball {
+      position: absolute;
+      border-radius: 50%;
+      animation: bounce 2s infinite ease-in-out;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(300px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="animation-container"></div>
+
+  <script>
+    // JSON configuration inside script
+    const config = {
+      balls: [
+        { color: "red", size: 40, left: 50, delay: "0s" },
+        { color: "lime", size: 50, left: 150, delay: "0.3s" },
+        { color: "skyblue", size: 30, left: 250, delay: "0.6s" },
+        { color: "orange", size: 45, left: 350, delay: "0.9s" }
+      ]
+    };
+
+    const container = document.getElementById("animation-container");
+
+    config.balls.forEach(ball => {
+      const div = document.createElement("div");
+      div.classList.add("ball");
+      div.style.backgroundColor = ball.color;
+      div.style.width = `${ball.size}px`;
+      div.style.height = `${ball.size}px`;
+      div.style.left = `${ball.left}px`;
+      div.style.animationDelay = ball.delay;
+      container.appendChild(div);
+    });
+  </script>
+</body>
+</html>
