@@ -60,3 +60,48 @@ fetch('./public/cards.json')
   .catch((error) => {
     console.error('Error fetching the cards.json file:', error);
   });
+
+// 🎨 Hacktoberfest Card Data
+const cardList = [
+  {
+    artName: "HACKTOBERFEST",
+    pageLink: "index.html",
+    imageLink: "hacktoberfest-logo.png",
+    author: "Takunda",
+    githubLink: "https://github.com/Enock12234"
+  }
+];
+
+// 🔀 Optional shuffle function (add if not defined)
+function shuffle(array) {
+  return array.sort(() => 0.5 - Math.random());
+}
+
+// 🖼️ Generate HTML cards
+const getCardContents = (cardList) => {
+  return shuffle(cardList)
+    .map((c) => `
+      <li class="card">
+        <a href='${c.pageLink}'>
+          <img class="art-image" src='${c.imageLink}' alt='${c.artName}' />
+        </a>
+        <a class="art-title" href='${c.pageLink}'>
+          <h3>${c.artName}</h3>
+        </a>
+        <p class='author'>
+          <a href="${c.githubLink}" target="_blank">
+            <i class="fab fa-github"></i> ${c.author}
+          </a>
+        </p>
+      </li>
+    `)
+    .join('');
+};
+
+// 🧩 Inject into the DOM
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.getElementById("cardContainer");
+  if (container) {
+    container.innerHTML = getCardContents(cardList);
+  }
+});
