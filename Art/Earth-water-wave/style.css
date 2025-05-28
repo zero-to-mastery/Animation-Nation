@@ -1,0 +1,59 @@
+.water-round-container {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 3px solid silver;
+  text-align: center;
+  line-height: 50px;
+  animation: water-waves linear infinite;
+}
+.water-wave1 {
+  position: absolute;
+  top: 40%;
+  left: -25%;
+  background: #33cfff;
+  opacity: 0.7;
+  width: 200%;
+  height: 200%;
+  border-radius: 40%;
+  animation: inherit;
+  animation-duration: 5s;
+}
+
+.water-wave2 {
+  position: absolute;
+  top: 45%;
+  left: -35%;
+  background: #0eaffe;;
+  opacity: 0.5;
+  width: 200%;
+  height: 200%;
+  border-radius: 35%;
+  animation: inherit;
+  animation-duration: 7s;
+}
+
+.water-wave3 {
+  position: absolute;
+  top: 50%;
+  left: -35%;
+  background: #0f7ae4;
+  opacity: 0.3;
+  width: 200%;
+  height: 200%;
+  border-radius: 33%;
+  animation: inherit;
+  animation-duration: 11s;
+}
+
+@keyframes water-waves {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
