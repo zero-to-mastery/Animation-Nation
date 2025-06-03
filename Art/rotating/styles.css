@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+}
+.loader {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.loader div {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: move 3s ease-in-out infinite, rotate 1s linear infinite;
+  opacity: 0.8;
+}
+@keyframes move {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(30px, 30px) scale(1); }
+  60% { transform: translate(30px, 30px) scale(1.414); }
+  70% { transform: translate(30px, 30px) scale(1.414); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
