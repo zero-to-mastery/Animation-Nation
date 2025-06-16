@@ -1,0 +1,175 @@
+ body {
+            background: linear-gradient(120deg, #f8e1f4 0%, #c7e9fb 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .bike-container {
+            position: absolute;
+            top: 40vh;
+            left: -220px;
+            width: 220px;
+            height: 180px;
+            animation: bike-move 6s linear infinite;
+            overflow: visible;
+        }
+
+        @keyframes bike-move {
+            0% { left: -220px; }
+            100% { left: 100vw; }
+        }
+
+        .bike-wheel {
+            fill: #444;
+            stroke: #222;
+            stroke-width: 4;
+            transform-box: fill-box;
+            transform-origin: 50% 50%;
+            animation: wheel-spin 1s linear infinite;
+        }
+
+        @keyframes wheel-spin {
+            100% { transform: rotate(360deg); }
+        }
+
+        .bike-frame {
+            stroke: #2d6a4f;
+            stroke-width: 7;
+            fill: none;
+        }
+
+        .bike-seat {
+            stroke: #b5838d;
+            stroke-width: 7;
+            stroke-linecap: round;
+        }
+
+        .bike-handle {
+            stroke: #b5838d;
+            stroke-width: 7;
+            stroke-linecap: round;
+        }
+
+        .bike-pedal {
+            stroke: #ffb703;
+            stroke-width: 6;
+            stroke-linecap: round;
+        }
+
+        .hourglass-container {
+            width: 140px;
+            height: 260px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            perspective: 600px;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+        }
+
+        .hourglass {
+            width: 120px;
+            height: 240px;
+            position: relative;
+            animation: flip 4s linear infinite;
+            transform-origin: 50% 50%;
+        }
+
+        .glass {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100px;
+            height: 200px;
+            z-index: 1;
+        }
+
+        .sand-top, .sand-bottom {
+            position: absolute;
+            left: 25px;
+            width: 50px;
+            background: linear-gradient(to bottom, #f7d774 70%, #e6b800 100%);
+            border-radius: 0 0 25px 25px / 0 0 20px 20px;
+            z-index: 2;
+        }
+
+        .sand-top {
+            top: 30px;
+            height: 60px;
+            transform-origin: bottom center;
+            animation: sand-top-flow 4s linear infinite;
+        }
+
+        .sand-bottom {
+            bottom: 30px;
+            height: 0;
+            border-radius: 25px 25px 0 0 / 20px 20px 0 0;
+            background: linear-gradient(to top, #f7d774 70%, #e6b800 100%);
+            transform-origin: top center;
+            animation: sand-bottom-fill 4s linear infinite;
+        }
+
+        .sand-stream {
+            position: absolute;
+            left: 48px;
+            top: 90px;
+            width: 4px;
+            height: 40px;
+            background: linear-gradient(to bottom, #f7d774 60%, #e6b800 100%);
+            border-radius: 2px;
+            opacity: 1;
+            z-index: 3;
+            animation: sand-stream-flow 4s linear infinite;
+        }
+
+        @keyframes sand-top-flow {
+            0% { height: 60px; opacity: 1; }
+            45% { height: 5px; opacity: 1; }
+            50% { height: 0; opacity: 0; }
+            100% { height: 60px; opacity: 1; }
+        }
+
+        @keyframes sand-bottom-fill {
+            0% { height: 0; opacity: 1; }
+            45% { height: 55px; opacity: 1; }
+            50% { height: 60px; opacity: 1; }
+            51% { opacity: 0; }
+            100% { height: 0; opacity: 1; }
+        }
+
+        @keyframes sand-stream-flow {
+            0% { opacity: 1; }
+            45% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes flip {
+            0% { transform: rotate(0deg); }
+            49.9% { transform: rotate(0deg); }
+            50% { transform: rotate(180deg); }
+            100% { transform: rotate(180deg); }
+        }
+
+        @keyframes bike-move-zigzag {
+            1% { left: 0px; top: 40vh; }
+            10% { left: 8vw; top: 36vh; }
+            20% { left: 18vw; top: 44vh; }
+            30% { left: 28vw; top: 36vh; }
+            40% { left: 38vw; top: 44vh; }
+            50% { left: 48vw; top: 36vh; }
+            60% { left: 58vw; top: 44vh; }
+            70% { left: 68vw; top: 36vh; }
+            80% { left: 78vw; top: 44vh; }
+            90% { left: 88vw; top: 36vh; }
+            100% { left: 100vw; top: 40vh; }
+        }
+
+        .bike-container {
+            animation: bike-move-zigzag 6s linear infinite;
+        }
