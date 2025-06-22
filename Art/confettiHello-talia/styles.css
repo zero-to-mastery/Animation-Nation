@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to top, #1e1e1e, #3c3c3c);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.confetti {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: float linear infinite;
+}
+
+.confetti.up {
+  animation-name: rise;
+}
+
+.confetti.down {
+  animation-name: fall;
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(110vh) rotate(0deg);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-10vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-10vh) rotate(0deg);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.hello {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  animation: rainbow 2s infinite linear, bounce 1.5s infinite ease-in-out;
+  text-shadow: 2px 2px 8px #000;
+}
+
+@keyframes rainbow {
+  0% { color: #e74c3c; }
+  20% { color: #f1c40f; }
+  40% { color: #2ecc71; }
+  60% { color: #3498db; }
+  80% { color: #9b59b6; }
+  100% { color: #e74c3c; }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
