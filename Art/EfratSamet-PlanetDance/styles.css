@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle at center, #000000 0%, #111111 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbit-system {
+  position: relative;
+  width: 320px;
+  height: 320px;
+}
+
+.orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25); /* יותר בהיר */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.1); /* זוהר עדין */
+}
+
+.orbit1 {
+  width: 120px;
+  height: 120px;
+  animation: spin1 6s linear infinite;
+}
+.orbit2 {
+  width: 180px;
+  height: 180px;
+  animation: spin2 8s linear infinite;
+}
+.orbit3 {
+  width: 240px;
+  height: 240px;
+  animation: spin3 10s linear infinite;
+}
+.orbit4 {
+  width: 300px;
+  height: 300px;
+  animation: spin4 12s linear infinite;
+}
+
+.planet {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.planet1 { background-color: #4caf50; }
+.planet2 { background-color: #2196f3; }
+.planet3 { background-color: #ff9800; }
+.planet4 { background-color: #e91e63; }
+
+@keyframes spin1 {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+@keyframes spin2 {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+@keyframes spin3 {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+@keyframes spin4 {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
