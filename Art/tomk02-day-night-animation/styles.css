@@ -1,0 +1,468 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #1a2980, #26d0ce);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    animation: sky-change 10s infinite alternate;
+}
+
+.scene {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Sun animation */
+.sun {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, #ffffc0, #ffd700);
+    border-radius: 50%;
+    box-shadow: 0 0 40px 15px rgba(255, 215, 0, 0.4);
+    animation: sun-move 10s infinite alternate ease-in-out;
+    z-index: 1;
+}
+
+.sun::after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 0 0 40px 15px rgba(255, 215, 0, 0.2);
+}
+
+@keyframes sun-move {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(250px, -30px); }
+}
+
+/* Sky color change animation */
+@keyframes sky-change {
+    0% { background: linear-gradient(to bottom, #1a2980, #26d0ce); }
+    50% { background: linear-gradient(to bottom, #2c3e50, #3498db); }
+    100% { background: linear-gradient(to bottom, #0f2027, #203a43); }
+}
+
+/* Clouds */
+.cloud {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.cloud-1 {
+    width: 100px;
+    height: 40px;
+    top: 80px;
+    animation: cloud-move-1 25s infinite linear;
+}
+
+.cloud-1::before,
+.cloud-1::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.cloud-1::before {
+    width: 50px;
+    height: 50px;
+    top: -20px;
+    left: 15px;
+}
+
+.cloud-1::after {
+    width: 35px;
+    height: 35px;
+    top: -15px;
+    left: 50px;
+}
+
+.cloud-2 {
+    width: 80px;
+    height: 30px;
+    top: 40px;
+    animation: cloud-move-2 30s infinite linear;
+}
+
+.cloud-2::before,
+.cloud-2::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.cloud-2::before {
+    width: 40px;
+    height: 40px;
+    top: -15px;
+    left: 10px;
+}
+
+.cloud-2::after {
+    width: 30px;
+    height: 30px;
+    top: -10px;
+    left: 40px;
+}
+
+@keyframes cloud-move-1 {
+    0% { transform: translateX(-150px); }
+    100% { transform: translateX(900px); }
+}
+
+@keyframes cloud-move-2 {
+    0% { transform: translateX(900px); }
+    100% { transform: translateX(-200px); }
+}
+
+/* Ocean */
+.ocean {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to bottom, #1e5799, #207cca);
+    overflow: hidden;
+    z-index: 3;
+}
+
+.wave {
+    position: absolute;
+    width: 200%;
+    height: 40px;
+    bottom: 100px;
+    left: 0;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%231e5799" fill-opacity="0.5" d="M0,192L48,202.7C96,213,192,235,288,229.3C384,224,480,192,576,181.3C672,171,768,181,864,197.3C960,213,1056,235,1152,229.3C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+    animation: wave-animation 15s infinite linear;
+}
+
+.wave-2 {
+    height: 50px;
+    bottom: 50px;
+    opacity: 0.7;
+    animation: wave-animation 12s infinite linear reverse;
+}
+
+@keyframes wave-animation {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Boat */
+.boat {
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+    z-index: 4;
+    animation: boat-move 20s infinite alternate ease-in-out;
+}
+
+.boat-body {
+    width: 100px;
+    height: 30px;
+    background: #8B4513;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+}
+
+.sail {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 30px;
+    left: 30px;
+    border-left: 40px solid transparent;
+    border-bottom: 70px solid #f5f5f5;
+    animation: sail-move 4s infinite ease-in-out;
+}
+
+.mast {
+    position: absolute;
+    width: 4px;
+    height: 80px;
+    bottom: 30px;
+    left: 50px;
+    background: #8B4513;
+}
+
+@keyframes boat-move {
+    0% { transform: translate(0, 5px) rotate(2deg); }
+    25% { transform: translate(100px, 0) rotate(-1deg); }
+    50% { transform: translate(200px, 8px) rotate(3deg); }
+    75% { transform: translate(300px, 2px) rotate(-2deg); }
+    100% { transform: translate(400px, 5px) rotate(1deg); }
+}
+
+@keyframes sail-move {
+    0% { transform: skewX(0deg); }
+    50% { transform: skewX(-5deg); }
+    100% { transform: skewX(0deg); }
+}
+
+/* Birds */
+.bird {
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+}
+
+.bird-1 {
+    top: 70px;
+    left: 20px;
+    animation: bird-fly-1 20s infinite linear;
+}
+
+.bird-2 {
+    top: 90px;
+    left: 40px;
+    animation: bird-fly-2 18s infinite linear;
+}
+
+.wing {
+    display: inline-block;
+    width: 15px;
+    height: 4px;
+    background: #333;
+    border-radius: 50% 50% 0 0;
+}
+
+.wing-right {
+    transform: rotate(20deg);
+    margin-left: 5px;
+    animation: wing-flap-right 0.5s infinite alternate;
+}
+
+.wing-left {
+    transform: rotate(-20deg);
+    margin-right: 5px;
+    animation: wing-flap-left 0.5s infinite alternate;
+}
+
+@keyframes wing-flap-right {
+    0% { transform: rotate(20deg); }
+    100% { transform: rotate(50deg); }
+}
+
+@keyframes wing-flap-left {
+    0% { transform: rotate(-20deg); }
+    100% { transform: rotate(-50deg); }
+}
+
+@keyframes bird-fly-1 {
+    0% { transform: translate(-50px, 0) scale(0.8); }
+    50% { transform: translate(850px, -30px) scale(1); }
+    100% { transform: translate(-50px, 0) scale(0.8); }
+}
+
+@keyframes bird-fly-2 {
+    0% { transform: translate(-80px, 10px) scale(0.6); }
+    50% { transform: translate(850px, -20px) scale(0.9); }
+    100% { transform: translate(-80px, 10px) scale(0.6); }
+}
+
+/* Stars */
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%; /* Only in the sky area */
+    opacity: 0;
+    animation: stars-appear 10s infinite alternate;
+    z-index: 1;
+}
+
+/* Multiple star layers for randomness and twinkling */
+.stars::before,
+.stars::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.stars::before {
+    animation: twinkle-1 3s infinite ease-in-out alternate;
+    box-shadow: 
+        23px 17px 0 1px rgba(255, 255, 255, 0.9),
+        87px 9px 0 1px rgba(255, 255, 255, 0.7),
+        134px 31px 0 1px rgba(255, 255, 255, 0.8),
+        201px 6px 0 1px rgba(255, 255, 255, 0.6),
+        267px 28px 0 1px rgba(255, 255, 255, 0.9),
+        298px 14px 0 1px rgba(255, 255, 255, 0.7),
+        356px 42px 0 1px rgba(255, 255, 255, 0.8),
+        423px 18px 0 1px rgba(255, 255, 255, 0.6),
+        489px 35px 0 1px rgba(255, 255, 255, 0.9),
+        534px 8px 0 1px rgba(255, 255, 255, 0.7),
+        602px 25px 0 1px rgba(255, 255, 255, 0.8),
+        656px 39px 0 1px rgba(255, 255, 255, 0.6),
+        723px 12px 0 1px rgba(255, 255, 255, 0.9),
+        789px 33px 0 1px rgba(255, 255, 255, 0.7),
+        45px 67px 0 1px rgba(255, 255, 255, 0.8),
+        112px 51px 0 1px rgba(255, 255, 255, 0.6),
+        178px 84px 0 1px rgba(255, 255, 255, 0.9),
+        234px 58px 0 1px rgba(255, 255, 255, 0.7),
+        301px 73px 0 1px rgba(255, 255, 255, 0.8),
+        367px 47px 0 1px rgba(255, 255, 255, 0.6),
+        423px 92px 0 1px rgba(255, 255, 255, 0.9),
+        489px 66px 0 1px rgba(255, 255, 255, 0.7),
+        556px 81px 0 1px rgba(255, 255, 255, 0.8),
+        612px 55px 0 1px rgba(255, 255, 255, 0.6),
+        678px 88px 0 1px rgba(255, 255, 255, 0.9),
+        734px 62px 0 1px rgba(255, 255, 255, 0.7),
+        67px 123px 0 1px rgba(255, 255, 255, 0.8),
+        134px 107px 0 1px rgba(255, 255, 255, 0.6),
+        200px 134px 0 1px rgba(255, 255, 255, 0.9),
+        256px 118px 0 1px rgba(255, 255, 255, 0.7),
+        323px 145px 0 1px rgba(255, 255, 255, 0.8),
+        389px 129px 0 1px rgba(255, 255, 255, 0.6),
+        445px 156px 0 1px rgba(255, 255, 255, 0.9),
+        512px 140px 0 1px rgba(255, 255, 255, 0.7),
+        578px 167px 0 1px rgba(255, 255, 255, 0.8),
+        634px 151px 0 1px rgba(255, 255, 255, 0.6),
+        700px 178px 0 1px rgba(255, 255, 255, 0.9),
+        756px 162px 0 1px rgba(255, 255, 255, 0.7);
+}
+
+.stars::after {
+    animation: twinkle-2 4s infinite ease-in-out alternate;
+    animation-delay: 1s;
+    box-shadow: 
+        56px 23px 0 1px rgba(255, 255, 255, 0.6),
+        123px 41px 0 1px rgba(255, 255, 255, 0.8),
+        167px 15px 0 1px rgba(255, 255, 255, 0.7),
+        234px 37px 0 1px rgba(255, 255, 255, 0.9),
+        289px 21px 0 1px rgba(255, 255, 255, 0.6),
+        334px 48px 0 1px rgba(255, 255, 255, 0.8),
+        401px 32px 0 1px rgba(255, 255, 255, 0.7),
+        456px 11px 0 1px rgba(255, 255, 255, 0.9),
+        523px 44px 0 1px rgba(255, 255, 255, 0.6),
+        567px 26px 0 1px rgba(255, 255, 255, 0.8),
+        634px 49px 0 1px rgba(255, 255, 255, 0.7),
+        689px 33px 0 1px rgba(255, 255, 255, 0.9),
+        734px 7px 0 1px rgba(255, 255, 255, 0.6),
+        789px 29px 0 1px rgba(255, 255, 255, 0.8),
+        34px 89px 0 1px rgba(255, 255, 255, 0.7),
+        89px 63px 0 1px rgba(255, 255, 255, 0.9),
+        145px 97px 0 1px rgba(255, 255, 255, 0.6),
+        201px 71px 0 1px rgba(255, 255, 255, 0.8),
+        256px 85px 0 1px rgba(255, 255, 255, 0.7),
+        312px 59px 0 1px rgba(255, 255, 255, 0.9),
+        367px 93px 0 1px rgba(255, 255, 255, 0.6),
+        423px 77px 0 1px rgba(255, 255, 255, 0.8),
+        478px 101px 0 1px rgba(255, 255, 255, 0.7),
+        534px 65px 0 1px rgba(255, 255, 255, 0.9),
+        589px 99px 0 1px rgba(255, 255, 255, 0.6),
+        645px 83px 0 1px rgba(255, 255, 255, 0.8),
+        700px 117px 0 1px rgba(255, 255, 255, 0.7),
+        756px 91px 0 1px rgba(255, 255, 255, 0.9),
+        12px 156px 0 1px rgba(255, 255, 255, 0.6),
+        78px 134px 0 1px rgba(255, 255, 255, 0.8),
+        123px 168px 0 1px rgba(255, 255, 255, 0.7),
+        189px 142px 0 1px rgba(255, 255, 255, 0.9),
+        234px 176px 0 1px rgba(255, 255, 255, 0.6),
+        290px 150px 0 1px rgba(255, 255, 255, 0.8),
+        345px 184px 0 1px rgba(255, 255, 255, 0.7),
+        401px 158px 0 1px rgba(255, 255, 255, 0.9),
+        456px 192px 0 1px rgba(255, 255, 255, 0.6),
+        512px 166px 0 1px rgba(255, 255, 255, 0.8),
+        567px 190px 0 1px rgba(255, 255, 255, 0.7),
+        623px 174px 0 1px rgba(255, 255, 255, 0.9);
+}
+
+@keyframes twinkle-1 {
+    0% { opacity: 0.1 }
+    50% { opacity: 1 }
+    100% { opacity: 0.6 }
+}
+
+@keyframes twinkle-2 {
+    0% { opacity: 0.3}
+    50% { opacity: 1 }
+    100% { opacity: 0.8 }
+}
+
+@keyframes stars-appear {
+    0% { opacity: 0; }
+    70% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Loading animation */
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    animation: fade-out 2s forwards;
+    z-index: 10;
+}
+
+.spinner {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 8px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes fade-out {
+    0% { opacity: 1; visibility: visible; }
+    90% { opacity: 0; visibility: visible; }
+    100% { opacity: 0; visibility: hidden; }
+}
+
+/* Title */
+.title {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    opacity: 0;
+    animation: title-fade 3s forwards 2s;
+    z-index: 5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes title-fade {
+    0% { opacity: 0; transform: translateX(-50%) translateY(20px); }
+    100% { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
