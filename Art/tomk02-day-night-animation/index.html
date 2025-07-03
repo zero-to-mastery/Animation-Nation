@@ -3,61 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complex CSS Animation</title>
+    <title>Pure CSS Animation</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="loading">
         <div class="spinner"></div>
     </div>
-    
     <div class="scene">
-        <div class="stars" id="stars-container">
-            <!-- Stars will be generated with JavaScript -->
-        </div>
-        
+        <div class="stars"></div>
         <div class="sun"></div>
-        
         <div class="cloud cloud-1"></div>
         <div class="cloud cloud-2"></div>
-        
         <div class="bird bird-1">
             <span class="wing wing-left"></span>
             <span class="wing wing-right"></span>
         </div>
-        
         <div class="bird bird-2">
             <span class="wing wing-left"></span>
             <span class="wing wing-right"></span>
         </div>
-        
         <div class="ocean">
             <div class="wave"></div>
             <div class="wave wave-2"></div>
-            
             <div class="boat">
                 <div class="mast"></div>
                 <div class="sail"></div>
                 <div class="boat-body"></div>
             </div>
         </div>
-        
         <div class="title">Day to Night Animation</div>
     </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const starsContainer = document.getElementById('stars-container');
-            for (let i = 0; i < 100; i++) {
-                const star = document.createElement('div');
-                star.classList.add('star');
-                star.style.top = `${Math.random() * 70}%`;  // Keep stars in the sky area
-                star.style.left = `${Math.random() * 100}%`;
-                star.style.width = `${Math.random() * 3 + 1}px`;
-                star.style.height = star.style.width;
-                starsContainer.appendChild(star);
-            }
-        });
-    </script>
 </body>
 </html>

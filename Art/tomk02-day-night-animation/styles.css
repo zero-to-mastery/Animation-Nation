@@ -171,7 +171,7 @@ body {
     100% { transform: translateX(-50%); }
 }
 
-/* Boat - now inside the ocean */
+/* Boat */
 .boat {
     position: absolute;
     bottom: 60px;
@@ -295,12 +295,116 @@ body {
     z-index: 1;
 }
 
-.star {
+/* Multiple star layers for randomness and twinkling */
+.stars::before,
+.stars::after {
+    content: '';
     position: absolute;
-    width: 2px;
-    height: 2px;
-    background: white;
+    width: 1px;
+    height: 1px;
+    background: transparent;
     border-radius: 50%;
+}
+
+.stars::before {
+    animation: twinkle-1 3s infinite ease-in-out alternate;
+    box-shadow: 
+        23px 17px 0 1px rgba(255, 255, 255, 0.9),
+        87px 9px 0 1px rgba(255, 255, 255, 0.7),
+        134px 31px 0 1px rgba(255, 255, 255, 0.8),
+        201px 6px 0 1px rgba(255, 255, 255, 0.6),
+        267px 28px 0 1px rgba(255, 255, 255, 0.9),
+        298px 14px 0 1px rgba(255, 255, 255, 0.7),
+        356px 42px 0 1px rgba(255, 255, 255, 0.8),
+        423px 18px 0 1px rgba(255, 255, 255, 0.6),
+        489px 35px 0 1px rgba(255, 255, 255, 0.9),
+        534px 8px 0 1px rgba(255, 255, 255, 0.7),
+        602px 25px 0 1px rgba(255, 255, 255, 0.8),
+        656px 39px 0 1px rgba(255, 255, 255, 0.6),
+        723px 12px 0 1px rgba(255, 255, 255, 0.9),
+        789px 33px 0 1px rgba(255, 255, 255, 0.7),
+        45px 67px 0 1px rgba(255, 255, 255, 0.8),
+        112px 51px 0 1px rgba(255, 255, 255, 0.6),
+        178px 84px 0 1px rgba(255, 255, 255, 0.9),
+        234px 58px 0 1px rgba(255, 255, 255, 0.7),
+        301px 73px 0 1px rgba(255, 255, 255, 0.8),
+        367px 47px 0 1px rgba(255, 255, 255, 0.6),
+        423px 92px 0 1px rgba(255, 255, 255, 0.9),
+        489px 66px 0 1px rgba(255, 255, 255, 0.7),
+        556px 81px 0 1px rgba(255, 255, 255, 0.8),
+        612px 55px 0 1px rgba(255, 255, 255, 0.6),
+        678px 88px 0 1px rgba(255, 255, 255, 0.9),
+        734px 62px 0 1px rgba(255, 255, 255, 0.7),
+        67px 123px 0 1px rgba(255, 255, 255, 0.8),
+        134px 107px 0 1px rgba(255, 255, 255, 0.6),
+        200px 134px 0 1px rgba(255, 255, 255, 0.9),
+        256px 118px 0 1px rgba(255, 255, 255, 0.7),
+        323px 145px 0 1px rgba(255, 255, 255, 0.8),
+        389px 129px 0 1px rgba(255, 255, 255, 0.6),
+        445px 156px 0 1px rgba(255, 255, 255, 0.9),
+        512px 140px 0 1px rgba(255, 255, 255, 0.7),
+        578px 167px 0 1px rgba(255, 255, 255, 0.8),
+        634px 151px 0 1px rgba(255, 255, 255, 0.6),
+        700px 178px 0 1px rgba(255, 255, 255, 0.9),
+        756px 162px 0 1px rgba(255, 255, 255, 0.7);
+}
+
+.stars::after {
+    animation: twinkle-2 4s infinite ease-in-out alternate;
+    animation-delay: 1s;
+    box-shadow: 
+        56px 23px 0 1px rgba(255, 255, 255, 0.6),
+        123px 41px 0 1px rgba(255, 255, 255, 0.8),
+        167px 15px 0 1px rgba(255, 255, 255, 0.7),
+        234px 37px 0 1px rgba(255, 255, 255, 0.9),
+        289px 21px 0 1px rgba(255, 255, 255, 0.6),
+        334px 48px 0 1px rgba(255, 255, 255, 0.8),
+        401px 32px 0 1px rgba(255, 255, 255, 0.7),
+        456px 11px 0 1px rgba(255, 255, 255, 0.9),
+        523px 44px 0 1px rgba(255, 255, 255, 0.6),
+        567px 26px 0 1px rgba(255, 255, 255, 0.8),
+        634px 49px 0 1px rgba(255, 255, 255, 0.7),
+        689px 33px 0 1px rgba(255, 255, 255, 0.9),
+        734px 7px 0 1px rgba(255, 255, 255, 0.6),
+        789px 29px 0 1px rgba(255, 255, 255, 0.8),
+        34px 89px 0 1px rgba(255, 255, 255, 0.7),
+        89px 63px 0 1px rgba(255, 255, 255, 0.9),
+        145px 97px 0 1px rgba(255, 255, 255, 0.6),
+        201px 71px 0 1px rgba(255, 255, 255, 0.8),
+        256px 85px 0 1px rgba(255, 255, 255, 0.7),
+        312px 59px 0 1px rgba(255, 255, 255, 0.9),
+        367px 93px 0 1px rgba(255, 255, 255, 0.6),
+        423px 77px 0 1px rgba(255, 255, 255, 0.8),
+        478px 101px 0 1px rgba(255, 255, 255, 0.7),
+        534px 65px 0 1px rgba(255, 255, 255, 0.9),
+        589px 99px 0 1px rgba(255, 255, 255, 0.6),
+        645px 83px 0 1px rgba(255, 255, 255, 0.8),
+        700px 117px 0 1px rgba(255, 255, 255, 0.7),
+        756px 91px 0 1px rgba(255, 255, 255, 0.9),
+        12px 156px 0 1px rgba(255, 255, 255, 0.6),
+        78px 134px 0 1px rgba(255, 255, 255, 0.8),
+        123px 168px 0 1px rgba(255, 255, 255, 0.7),
+        189px 142px 0 1px rgba(255, 255, 255, 0.9),
+        234px 176px 0 1px rgba(255, 255, 255, 0.6),
+        290px 150px 0 1px rgba(255, 255, 255, 0.8),
+        345px 184px 0 1px rgba(255, 255, 255, 0.7),
+        401px 158px 0 1px rgba(255, 255, 255, 0.9),
+        456px 192px 0 1px rgba(255, 255, 255, 0.6),
+        512px 166px 0 1px rgba(255, 255, 255, 0.8),
+        567px 190px 0 1px rgba(255, 255, 255, 0.7),
+        623px 174px 0 1px rgba(255, 255, 255, 0.9);
+}
+
+@keyframes twinkle-1 {
+    0% { opacity: 0.1 }
+    50% { opacity: 1 }
+    100% { opacity: 0.6 }
+}
+
+@keyframes twinkle-2 {
+    0% { opacity: 0.3}
+    50% { opacity: 1 }
+    100% { opacity: 0.8 }
 }
 
 @keyframes stars-appear {
@@ -359,6 +463,6 @@ body {
 }
 
 @keyframes title-fade {
-    0% { opacity: 0; transform: translate(-50%, 20px); }
-    100% { opacity: 1; transform: translate(-50%, 0); }
+    0% { opacity: 0; transform: translateX(-50%) translateY(20px); }
+    100% { opacity: 1; transform: translateX(-50%) translateY(0); }
 }
