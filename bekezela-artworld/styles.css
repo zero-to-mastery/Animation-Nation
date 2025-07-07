@@ -1,0 +1,52 @@
+*{
+	background-color: #754c4c;
+}
+
+h1{
+	color: #fff;
+	text-align: center;
+}
+
+@keyframes pop {
+	0% {
+		transform: scale(0);
+	} 100% {
+		transform: scale(1)
+	}
+}
+
+@keyframes example {
+	0%		{background-color:rgb(201, 201, 201); left:0px; top:0px;}
+	25%		{background-color:#fababa; left:200px; top:0px;}
+	50%		{background-color:rgb(244, 245, 247); left:200px; top:200px;}
+	75%		{background-color:rgb(182, 248, 249); left:0px; top:200px;}
+	100%	{background-color:rgb(248, 248, 170); left:0px; top:0px;}
+}
+
+section{
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: max-content;
+	height: max-content;
+	margin: 0 auto;
+	border-radius: 5px;
+	padding: 40px;
+	position: relative;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+}
+
+section > .dot {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	display: inline-block;
+	animation: pop 1s ease infinite forwards;
+	background: linear-gradient(#fababa, rgb(5, 5, 5));
+}
+
+
+
