@@ -1,0 +1,38 @@
+body {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wave-container {
+  display: flex;
+  gap: 10px;
+}
+
+.bar {
+  width: 10px;
+  height: 60px;
+  background: linear-gradient(180deg, #ff5f6d, #ffc371);
+  border-radius: 10px;
+  animation: pulse 1.2s ease-in-out infinite;
+  transform-origin: bottom;
+}
+
+.bar1 { animation-delay: 0s; background: #ff5f6d; }
+.bar2 { animation-delay: 0.1s; background: #ffc371; }
+.bar3 { animation-delay: 0.2s; background: #47e4c2; }
+.bar4 { animation-delay: 0.3s; background: #7158e2; }
+.bar5 { animation-delay: 0.4s; background: #ff6b81; }
+.bar6 { animation-delay: 0.5s; background: #0be881; }
+.bar7 { animation-delay: 0.6s; background: #18dcff; }
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2.2);
+  }
+}
