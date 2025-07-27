@@ -1,0 +1,42 @@
+
+div {
+	height: 150px;
+	width: 100%;
+	border-radius: 50%;
+}
+
+
+div#one {
+	background: red;
+  	animation: slidein 2s linear .1s infinite;  	
+}
+
+
+div#two {
+	background: green;
+	animation: slidein 2s linear .1s infinite;
+}
+
+
+div#three {
+	background: blue;	
+	animation: slidein 2s linear .1s infinite;
+}
+
+
+@keyframes slidein {
+
+	0% {
+		transform: scale(1);		  
+	}
+
+  	100% {
+  		transform: scale(0);       
+  	}
+
+}
+
+
+/*  	1.	bandicam 
+		2.	https://ezgif.com/video-to-gif		 */
+
