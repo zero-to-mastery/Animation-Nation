@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+.sky {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#000010, #001133);
+}
+
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(white 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.nasa-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 20px #00f;
+  opacity: 0;
+  animation: showNASA 1.5s ease-out 2s forwards;
+  letter-spacing: 10px;
+  z-index: 10;
+}
+
+@keyframes showNASA {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.rocket {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: launch 5s ease-in-out forwards;
+  z-index: 5;
+}
+
+.body {
+  width: 60px;
+  height: 150px;
+  background: silver;
+  border-radius: 30px 30px 10px 10px;
+  position: relative;
+}
+
+.window {
+  width: 20px;
+  height: 20px;
+  background: #0ff;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 10px #0ff;
+}
+
+.flame {
+  width: 20px;
+  height: 40px;
+  background: orange;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  animation: flame 0.3s infinite alternate;
+  box-shadow: 0 0 20px yellow;
+}
+
+@keyframes flame {
+  0% {
+    transform: translateX(-50%) scaleY(1);
+    background: orange;
+  }
+  100% {
+    transform: translateX(-50%) scaleY(1.5);
+    background: red;
+  }
+}
+
+@keyframes launch {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 100%;
+  }
+}
