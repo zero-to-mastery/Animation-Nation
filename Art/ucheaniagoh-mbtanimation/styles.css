@@ -1,0 +1,56 @@
+body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0a0a0a;
+            overflow: hidden;
+        }
+
+        .text-container {
+            position: relative;
+            font-family: 'Arial', sans-serif;
+            font-size: 4rem;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.8),
+                         0 0 20px rgba(0, 255, 255, 0.6),
+                         0 0 30px rgba(0, 255, 255, 0.4);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .text-container::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: -100%;
+            width: 200%;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #00ffff, transparent);
+            animation: slide 3s linear infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                text-shadow: 0 0 10px rgba(0, 255, 255, 0.8),
+                             0 0 20px rgba(0, 255, 255, 0.6),
+                             0 0 30px rgba(0, 255, 255, 0.4);
+            }
+            50% {
+                text-shadow: 0 0 20px rgba(0, 255, 255, 1),
+                             0 0 30px rgba(0, 255, 255, 0.8),
+                             0 0 40px rgba(0, 255, 255, 0.6);
+            }
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
