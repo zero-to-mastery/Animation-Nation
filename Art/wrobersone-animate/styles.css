@@ -1,0 +1,20 @@
+div#one {
+    height: 100px;
+    width: 100px;
+    background: teal;
+    animation: ease-in .5s linear 1s infinite;
+}
+
+div#two {
+    height: 100px;
+    width: 100px;
+    background: tan;
+    animation: ease-in .4s linear 1s infinite;
+}
+
+div#three {
+    height: 100px;
+    width: 100px;
+    background: sienna;
+    animation: ease-in .3s linear 1s infinite;
+}

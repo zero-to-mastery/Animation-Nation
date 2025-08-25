@@ -1437,5 +1437,13 @@
     "pageLink": "./Art/vridhichaudhary-waveAnimation/index.html",
     "imageLink": "./Art/vridhichaudhary-waveAnimation/icon.png",
     "projectPath": "Art/vridhichaudhary-waveAnimation"
-  }
+  },
+  {
+    "author": "wrobersone",
+  "artName": "loopsfordays",
+  "githubLink": "htps://github.com/wrobersone",
+  "pageLink": "./Art/wrobersone-animate/index.html",
+    "imageLink": "./Art/wrobersone-animate/icon.png",
+    "projectPath": "Art/wrobersone-animate"
+}
 ]
