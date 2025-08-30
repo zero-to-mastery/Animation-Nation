@@ -1,0 +1,77 @@
+:root{
+    --speed: 20s;       /* rotation speed */
+    --segment: 18deg;   /* wedge thickness */
+    --bg: #000;         /* black */
+    --fg: #fff;         /* white */
+    --diameter: 220vmax;/* big enough to cover screen while rotating */
+  }
+  
+  *{ box-sizing:border-box; }
+  
+  html, body{
+    height:100%;
+    margin:0;
+    background: var(--bg);
+    overflow:hidden;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  }
+  
+  /* Clips any overflow so the round disc looks clean */
+  .stage{
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+  }
+  
+  /* The circular, oversized disc with the hypnotize pattern */
+  .disc{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: var(--diameter);
+    height: var(--diameter);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background:
+      repeating-conic-gradient(
+        from 0deg,
+        var(--bg) 0 var(--segment),
+        var(--fg) var(--segment) calc(var(--segment) * 2)
+      );
+    animation: spin var(--speed) linear infinite;
+    will-change: transform;
+  }
+  
+  /* Optional content overlay */
+  .overlay{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+  
+    /* Gradient fill */
+    background: linear-gradient(90deg, black, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: white;
+    -webkit-text-fill-color: white;
+  
+    /* Invert relative to background */
+    mix-blend-mode: difference;
+  
+    pointer-events: none;
+    font-size: 3rem; 
+  }
+  
+  @keyframes spin{
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+  }
+  
+  /* Respect reduced-motion */
+  @media (prefers-reduced-motion: reduce){
+    .disc{ animation: none; }
+  }
+  
