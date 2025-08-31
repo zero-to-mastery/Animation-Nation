@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at bottom, #00111a, #000); /* deep sea effect */
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Common bubble style */
+.bubble {
+  position: absolute;
+  bottom: -100px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.9), rgba(255,255,255,0.1));
+  box-shadow: inset -8px -8px 20px rgba(255,255,255,0.4),
+              inset 8px 8px 20px rgba(0,0,0,0.3),
+              0 0 25px rgba(255,255,255,0.2);
+  animation: rise 10s infinite ease-in;
+}
+
+/* Different colors + timings for each bubble */
+.bubble:nth-child(1) {
+  left: 15%;
+  animation-duration: 9s;
+  background: radial-gradient(circle at 30% 30%, rgba(255, 100, 100, 0.9), rgba(255, 100, 100, 0.1));
+}
+.bubble:nth-child(2) {
+  left: 35%;
+  width: 40px;
+  height: 40px;
+  animation-duration: 6s;
+  background: radial-gradient(circle at 30% 30%, rgba(100, 200, 255, 0.9), rgba(100, 200, 255, 0.1));
+}
+.bubble:nth-child(3) {
+  left: 55%;
+  width: 70px;
+  height: 70px;
+  animation-duration: 11s;
+  background: radial-gradient(circle at 30% 30%, rgba(180, 255, 120, 0.9), rgba(180, 255, 120, 0.1));
+}
+.bubble:nth-child(4) {
+  left: 75%;
+  width: 50px;
+  height: 50px;
+  animation-duration: 7s;
+  background: radial-gradient(circle at 30% 30%, rgba(255, 200, 50, 0.9), rgba(255, 200, 50, 0.1));
+}
+.bubble:nth-child(5) {
+  left: 90%;
+  width: 30px;
+  height: 30px;
+  animation-duration: 5s;
+  background: radial-gradient(circle at 30% 30%, rgba(200, 150, 255, 0.9), rgba(200, 150, 255, 0.1));
+}
+
+/* Rising animation */
+@keyframes rise {
+  0%   { transform: translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateY(-110vh) scale(1.3); opacity: 0; }
+}
