@@ -1,0 +1,113 @@
+/* 版面 */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: #0f0f10;
+  display: grid;
+  place-items: center;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+}
+
+.stage {
+  position: relative;
+  width: 520px;
+  height: 520px;
+  isolation: isolate;
+}
+
+/* 藍色中空圓（更粗、縮放更明顯） */
+.ring {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 300px;
+  height: 300px;
+  border: 18px solid #1e90ff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  animation: ringPulse 3.2s ease-in-out infinite;
+  filter: drop-shadow(0 0 10px rgba(30,144,255,.35));
+}
+
+/* 籃球容器：負責路徑位移（會進出藍圈） */
+.basketball {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 120px;   /* 放大球體 */
+  height: 120px;
+  transform: translate(-50%, -50%);
+  animation: moveBall 8s linear infinite;
+  will-change: transform;
+}
+
+/* 籃球皮層：外觀＋旋轉 */
+.skin {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  /* 橘色皮革＋立體高光陰影 */
+  background:
+    radial-gradient(circle at 35% 30%, #ffbe6a 0%, #ff9a35 35%, #ff7f11 70%, #e06300 100%);
+  box-shadow:
+    inset 0 0 0 4px #0e0e0e,                   /* 外框黑線（真實感） */
+    inset 20px -20px 40px rgba(0,0,0,.35),     /* 暗部陰影 */
+    inset -10px 10px 15px rgba(255,255,255,.15); /* 高光過渡 */
+  overflow: visible;
+  transform: rotate(0deg);
+  transform-origin: 50% 50%;
+  animation: spin 1.6s linear infinite; /* 籃球自轉 */
+}
+
+/* 真實球紋（SVG） */
+.lacing {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* 球在「完全進入藍圈中央」時的黃色描邊（與 moveBall 時序同步） */
+.basketball::after {
+  content: "";
+  position: absolute;
+  inset: -7px;
+  border-radius: 50%;
+  border: 7px solid rgba(255,215,0,0.95); /* 金黃 */
+  box-shadow: 0 0 18px rgba(255,215,0,0.7), 0 0 32px rgba(255,215,0,0.35);
+  opacity: 0;
+  animation: highlight 8s linear infinite;
+}
+
+/* ---- 動畫定義 ---- */
+
+/* 藍圈縮放：更大幅度 */
+@keyframes ringPulse {
+  0%, 100% { transform: translate(-50%, -50%) scale(1.05); }
+  50%      { transform: translate(-50%, -50%) scale(1.7); }
+}
+
+/* 籃球自轉（持續） */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* 籃球路徑（會進出藍圈；在 12.5%、37.5%、62.5%、87.5% 時回到中心） */
+@keyframes moveBall {
+  /* 以舞台中心為原點，先到上方外圈，再依序右、下、左，期間多次「回中心」 */
+  0%    { transform: translate(-50%, -50%) translate(0, -190px); }   /* 外：上 */
+  12.5% { transform: translate(-50%, -50%) translate(0, 0); }        /* 中：進圈 */
+  25%   { transform: translate(-50%, -50%) translate(190px, 0); }    /* 外：右 */
+  37.5% { transform: translate(-50%, -50%) translate(0, 0); }        /* 中：進圈 */
+  50%   { transform: translate(-50%, -50%) translate(0, 190px); }    /* 外：下 */
+  62.5% { transform: translate(-50%, -50%) translate(0, 0); }        /* 中：進圈 */
+  75%   { transform: translate(-50%, -50%) translate(-190px, 0); }   /* 外：左 */
+  87.5% { transform: translate(-50%, -50%) translate(0, 0); }        /* 中：進圈 */
+  100%  { transform: translate(-50%, -50%) translate(0, -190px); }   /* 回到外：上 */
+}
+
+/* 與 moveBall 關鍵影格對齊：回中心時亮起黃色描邊 */
+@keyframes highlight {
+  0%, 20%, 45%, 70%, 95%, 100% { opacity: 0; }
+  12.5%, 37.5%, 62.5%, 87.5%   { opacity: 1; }
+}
