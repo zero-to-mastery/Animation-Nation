@@ -1,0 +1,79 @@
+* { box-sizing: border-box; }
+html,body { height: 100%; margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+body {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, #0f172a 0%, #05233a 60%);
+  color: #e6f6ff;
+  padding: 24px;
+}
+
+.page { text-align: center; width: 100%; max-width: 900px; }
+
+.ripple-scene {
+  --size: 340px;           
+  --color: #66d0ff;        
+  --bg: rgba(255,255,255,0.06); 
+  --count: 8;             
+  --duration: 3800ms;     
+  position: relative;
+  width: var(--size);
+  height: var(--size);
+  margin: 0 auto 14px auto;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 50% 60%, var(--bg) 0%, transparent 60%);
+  overflow: visible;
+}
+
+.ripple {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 35%, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.1) 10%, transparent 40%), var(--color);
+  opacity: 0.9;
+  mix-blend-mode: screen;
+  will-change: transform, opacity;
+  animation-name: ripple-expand;
+  animation-timing-function: cubic-bezier(.25,.46,.45,.94);
+  animation-iteration-count: infinite;
+}
+
+.ripple:nth-child(1) { animation-duration: var(--duration); animation-delay: calc(var(--duration) * 0); }
+.ripple:nth-child(2) { animation-duration: var(--duration); animation-delay: calc(var(--duration) * 0.25); }
+.ripple:nth-child(3) { animation-duration: var(--duration); animation-delay: calc(var(--duration) * 0.5); }
+.ripple:nth-child(4) { animation-duration: var(--duration); animation-delay: calc(var(--duration) * 0.75); }
+
+@keyframes ripple-expand {
+  0% {
+    transform: translate(-50%, -50%) scale(0.08);
+    opacity: 0.95;
+    filter: blur(0px);
+  }
+  30% {
+    opacity: 0.65;
+    filter: blur(0.6px);
+  }
+  60% {
+    transform: translate(-50%, -50%) scale(1.05);
+    opacity: 0.18;
+    filter: blur(1.5px);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.9);
+    opacity: 0;
+    filter: blur(2px);
+  }
+}
+
+@media (max-width: 520px) {
+  .ripple-scene { --size: 180px; }
+  h1 { font-size: 1.2rem; }
+}
+
+.hint { opacity: 0.8; font-size: 0.9rem; margin-top: 6px; color: #cfefff; }
