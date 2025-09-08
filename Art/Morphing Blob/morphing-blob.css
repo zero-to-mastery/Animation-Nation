@@ -1,0 +1,74 @@
+
+/* morphing-blob.css */
+:root {
+  --bg: #0f172a;
+  --blob1: #ff5470;
+  --blob2: #ffad33;
+  --blob3: #3d89ff;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: var(--bg);
+  color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+.page { width: 100%; max-width: 800px; }
+.card {
+  background: rgba(255,255,255,0.04);
+  border-radius: 20px;
+  padding: 28px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  backdrop-filter: blur(6px);
+}
+
+h1 { margin: 0 0 12px; font-size: 22px; }
+p { margin: 0 0 18px; color: #94a3b8; }
+
+.blob {
+  width: 280px;
+  height: 280px;
+  margin: 0 auto 20px;
+  background: radial-gradient(circle at 30% 30%, var(--blob1), var(--blob2), var(--blob3));
+  border-radius: 42% 58% 65% 35% / 45% 40% 60% 55%;
+  animation: morph 8s ease-in-out infinite, spin 20s linear infinite;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.4), inset 0 -4px 10px rgba(255,255,255,0.2);
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 42% 58% 65% 35% / 45% 40% 60% 55%;
+    background-position: 30% 30%;
+  }
+  25% {
+    border-radius: 60% 40% 30% 70% / 55% 60% 40% 45%;
+    background-position: 70% 30%;
+  }
+  50% {
+    border-radius: 58% 42% 60% 40% / 50% 65% 35% 50%;
+    background-position: 70% 70%;
+  }
+  75% {
+    border-radius: 35% 65% 45% 55% / 40% 45% 55% 60%;
+    background-position: 30% 70%;
+  }
+  100% {
+    border-radius: 42% 58% 65% 35% / 45% 40% 60% 55%;
+    background-position: 30% 30%;
+  }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.note { font-size: 13px; color: #94a3b8; margin-top: 16px; }
+code { background: rgba(255,255,255,0.08); padding: 4px 8px; border-radius: 6px; color: #cfe6ff; }
