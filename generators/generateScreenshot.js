@@ -6,7 +6,10 @@ const sharp = require('sharp');
 const artDir = 'Art'; // Adjusted to be relative to the root of the repository
 
 (async () => {
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
   const studentDirs = fs
     .readdirSync(artDir)
     .filter((dir) => fs.lstatSync(path.join(artDir, dir)).isDirectory());
