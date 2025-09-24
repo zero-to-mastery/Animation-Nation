@@ -7,4 +7,12 @@
     "imageLink": "./Art/mattcsmith-triangle/icon.png",
     "projectPath": "Art/mattcsmith-triangle"
   }
+  {
+    "author": "DRGGamble",
+    "artName": "Something",
+    "githubLink": "https://github.com/DRGGamble",
+    "pageLink": "./Art/DRGGamble-Artwork/index.html",
+    "imageLink": "./Art/DRGGamble-Artwork/something.gif",
+    "projectPath": "Art/DRGGamble-Artwork"
+  }
 ]
