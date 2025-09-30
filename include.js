@@ -2283,7 +2283,15 @@ let cards = [
     imageLink: './Art/Dzivmv/rainbow_rain.gif',
     author: 'Dzivmv',
     githubLink: 'https://github.com/Dzivmv'
-  }
+  },
+  {
+  artName: 'Colorful Orbiting Circles',
+  pageLink: './Art/Harshalyadav/orbiting-circles.html',
+  imageLink: './Art/Harshalyadav/orbiting-circles.gif',
+  author: 'Your Name',
+  githubLink: 'https://github.com/Harshalyadav'
+}
+
 ];
 
 // +--------------------------------------------------------------------------------+
