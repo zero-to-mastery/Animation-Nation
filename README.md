@@ -19,7 +19,7 @@ we'd love to see your animated artwork using only **HTML** and **CSS**
 ## 🌟 Why Contribute?
 
 - **Gain GitHub experience** by contributing to open-source repositories.
-- **Join a supportive community** where you can share your creativity and get feedbacks in our Discord.
+- **Join a supportive community** where you can share your creativity and get feedback in our Discord.
 - **Enhance your skills** in HTML and CSS while learning GitHub workflows.
 
 ## 🎯 Objective Overview
