@@ -60,9 +60,7 @@ body {
   height: 14px;
   border-radius: 50%;
   background: #00ffff;
-  box-shadow: 
-    0 0 12px #00ffff, 
-    0 0 24px #00ffff,
+  box-shadow: 0 0 12px #00ffff, 0 0 24px #00ffff,
     0 0 36px rgba(0, 255, 255, 0.4);
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.8, 0.2);
 }
@@ -116,44 +114,44 @@ body {
 }
 
 @keyframes emerge {
-  0% { 
+  0% {
     transform: scale(0);
     opacity: 0;
   }
-  100% { 
+  100% {
     transform: scale(1);
     opacity: 1;
   }
 }
 
 @keyframes traverse {
-  0% { 
+  0% {
     transform: translateX(0);
   }
-  100% { 
+  100% {
     transform: translateX(26px);
   }
 }
 
 @keyframes vanish {
-  0% { 
+  0% {
     transform: scale(1);
     opacity: 1;
   }
-  100% { 
+  100% {
     transform: scale(0);
     opacity: 0;
   }
 }
 
 @keyframes spectrum-shift {
-  0% { 
+  0% {
     filter: hue-rotate(0deg) brightness(1);
   }
   50% {
     filter: hue-rotate(180deg) brightness(1.2);
   }
-  100% { 
+  100% {
     filter: hue-rotate(360deg) brightness(1);
   }
 }
