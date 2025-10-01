@@ -1,4 +1,4 @@
-:root{
+:root {
   --bg: #0b1020;
   --fg: #e9eefc;
   --a1: #6aa9ff;
@@ -7,8 +7,11 @@
   --a4: #7fffd4;
 }
 
-* { box-sizing: border-box; }
-html, body {
+* {
+  box-sizing: border-box;
+}
+html,
+body {
   height: 100%;
   margin: 0;
   background: radial-gradient(1200px 800px at 50% 40%, #111a33, var(--bg));
@@ -16,14 +19,14 @@ html, body {
   color: var(--fg);
 }
 
-.stage{
+.stage {
   position: fixed;
   inset: 0;
   display: grid;
   place-items: center;
 }
 
-.system{
+.system {
   width: 260px;
   height: 260px;
   border-radius: 50%;
@@ -31,7 +34,7 @@ html, body {
   animation: gentle-tilt 6s ease-in-out infinite alternate;
 }
 
-.center{
+.center {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -44,7 +47,8 @@ html, body {
 /* Orbit wrappers — each has its own ring + planet inside */
 .orbit {
   position: absolute;
-  top: 50%; left: 50%;
+  top: 50%;
+  left: 50%;
   border: 2px dashed #8aa1ff33;
   border-radius: 50%;
   transform-origin: center;
@@ -52,40 +56,90 @@ html, body {
 }
 
 /* Planet styles */
-.planet{
-  width: 10px; height: 10px;
+.planet {
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   position: absolute;
-  top: 50%; left: 50%;
+  top: 50%;
+  left: 50%;
   margin: -5px;
   box-shadow: 0 0 8px 2px currentColor;
 }
 
 /* Each orbit’s size, speed, and planet color */
-.o1 { width: 156px; height: 156px; margin: -78px; animation-duration: 14s; }
-.o2 { width: 120px; height: 120px; margin: -60px; animation-duration: 18s; }
-.o3 { width: 192px; height: 192px; margin: -96px; animation-duration: 22s; }
-.o4 { width: 88px;  height: 88px;  margin: -44px; animation-duration: 26s; }
+.o1 {
+  width: 156px;
+  height: 156px;
+  margin: -78px;
+  animation-duration: 14s;
+}
+.o2 {
+  width: 120px;
+  height: 120px;
+  margin: -60px;
+  animation-duration: 18s;
+}
+.o3 {
+  width: 192px;
+  height: 192px;
+  margin: -96px;
+  animation-duration: 22s;
+}
+.o4 {
+  width: 88px;
+  height: 88px;
+  margin: -44px;
+  animation-duration: 26s;
+}
 
-.p1 { color: var(--a1); transform: rotate(0deg) translateX(78px); }
-.p2 { color: var(--a2); transform: rotate(0deg) translateX(60px); }
-.p3 { color: var(--a3); transform: rotate(0deg) translateX(96px); }
-.p4 { color: var(--a4); transform: rotate(0deg) translateX(44px); }
+.p1 {
+  color: var(--a1);
+  transform: rotate(0deg) translateX(78px);
+}
+.p2 {
+  color: var(--a2);
+  transform: rotate(0deg) translateX(60px);
+}
+.p3 {
+  color: var(--a3);
+  transform: rotate(0deg) translateX(96px);
+}
+.p4 {
+  color: var(--a4);
+  transform: rotate(0deg) translateX(44px);
+}
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-@keyframes gentle-tilt{
-  from{ transform: rotateX(15deg) rotateZ(-6deg) }
-  to  { transform: rotateX(23deg) rotateZ(6deg) }
+@keyframes gentle-tilt {
+  from {
+    transform: rotateX(15deg) rotateZ(-6deg);
+  }
+  to {
+    transform: rotateX(23deg) rotateZ(6deg);
+  }
 }
 
-@keyframes throb{
-  0%, 100% { transform: scale(1); }
-  50%      { transform: scale(1.12); }
+@keyframes throb {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.12);
+  }
 }
 
-@media (prefers-reduced-motion: reduce){
-  .system, .orbit, .planet { animation-duration: 0.001ms; animation-iteration-count: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .system,
+  .orbit,
+  .planet {
+    animation-duration: 0.001ms;
+    animation-iteration-count: 1;
+  }
 }
