@@ -37,7 +37,7 @@ body {
 }
 
 @keyframes sqr { to { scale: calc(var(--distance) + 0.3); } }
-@keyframes rotate { to { rotate: max(var(--rotation), 360deg); } }
+@keyframes rotate { to { rotate: var(--rotation); } }
 @keyframes colorCycle { 100% { filter: hue-rotate(360deg); } }
 
 body:not(.supported).loaded .chrome-only {
