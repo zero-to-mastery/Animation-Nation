@@ -1,0 +1,52 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.supported .ripple {
+  --size: 15px;
+  position: relative;
+
+  i {
+    --x: calc(rem((sibling-index() - 1), 20) - 9.5);
+    --y: calc(9.5 - round(down, (sibling-index() - 1) / 20));
+
+    --distance: calc(sqrt(var(--x) * var(--x) + var(--y) * var(--y)) / sqrt(180));
+    --delay: calc(var(--distance) * 5s);
+    --hue: calc(10 * var(--distance));
+    --rotation: calc(sign(var(--x)) * 360deg);
+
+    scale: 0;
+    position: absolute;
+    border-radius: calc(50% * var(--distance));
+    background-color: hsl(var(--hue) 100% calc(70% - var(--distance) * 60%));
+    inset: calc(var(--size) * -0.5);
+    translate: calc(var(--x) * var(--size)) calc(var(--y) * var(--size));
+    animation: sqr .7s var(--delay, 0s) infinite linear alternate,
+               rotate 5s var(--delay, 0s) infinite linear,
+               colorCycle 45s infinite linear;
+  }
+}
+
+@keyframes sqr { to { scale: calc(var(--distance) + 0.3); } }
+@keyframes rotate { to { rotate: max(var(--rotation), 360deg); } }
+@keyframes colorCycle { 100% { filter: hue-rotate(360deg); } }
+
+body:not(.supported).loaded .chrome-only {
+  position: absolute;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  inset: 0;
+  color: white;
+  font-size: 1.5em;
+  font-family: monospace;
+}
