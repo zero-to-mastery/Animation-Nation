@@ -1,0 +1,116 @@
+body {
+  background: radial-gradient(circle at 60% 80%, #23243d 10%, #191b3f 100%);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.carousel-bg {
+  width: 450px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  position: relative;
+  width: 380px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 700px;
+}
+
+.card {
+  position: absolute;
+  width: 130px;
+  height: 180px;
+  border-radius: 24px;
+  border: 1.5px solid rgba(255, 255, 255, 0.18);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.17) 0%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+  backdrop-filter: blur(18px) saturate(1.2);
+  box-shadow: 0 6px 36px 4px #43e97b44, 0 2px 8px #fff3;
+  opacity: 0.7;
+  transform: translateX(0) scale(1) rotateY(0deg);
+  animation: carousel-move 6s cubic-bezier(0.6, 0, 0.4, 1) infinite;
+}
+
+.card1 {
+  animation-delay: 0s;
+}
+.card2 {
+  animation-delay: 1.2s;
+}
+.card3 {
+  animation-delay: 2.4s;
+}
+.card4 {
+  animation-delay: 3.6s;
+}
+.card5 {
+  animation-delay: 4.8s;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  background: linear-gradient(
+    120deg,
+    #43e97b88 10%,
+    #38f9d799 60%,
+    #fffde488 100%
+  );
+  opacity: 0.7;
+  z-index: 1;
+  mix-blend-mode: lighten;
+  animation: grad-anim 5s linear infinite alternate;
+}
+@keyframes grad-anim {
+  0% {
+    filter: blur(6px) brightness(1.2);
+  }
+  100% {
+    filter: blur(10px) brightness(1.08);
+  }
+}
+
+@keyframes carousel-move {
+  0% {
+    opacity: 0.1;
+    z-index: 1;
+    transform: translateX(-180px) scale(0.7) rotateY(42deg);
+  }
+  10% {
+    opacity: 0.5;
+    z-index: 2;
+    transform: translateX(-90px) scale(0.85) rotateY(20deg);
+  }
+  20%,
+  60% {
+    opacity: 1;
+    z-index: 4;
+    transform: translateX(0) scale(1.08) rotateY(0deg);
+    box-shadow: 0 12px 48px 8px #43e97b66, 0 2px 8px #fff4;
+  }
+  80% {
+    opacity: 0.5;
+    z-index: 2;
+    transform: translateX(90px) scale(0.85) rotateY(-20deg);
+  }
+  100% {
+    opacity: 0.1;
+    z-index: 1;
+    transform: translateX(180px) scale(0.7) rotateY(-42deg);
+  }
+}

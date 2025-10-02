@@ -1,0 +1,15 @@
+{
+  "name": "animationnation2024",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "npx prettier . --check --config ./.prettierrc",
+    "prettier:fix": "npx prettier . --check --write --config ./.prettierrc"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "puppeteer": "^23.5.0",
+    "sharp": "^0.33.5"
+  }
+}
