@@ -1,6 +1,14 @@
 [
   {
     "author": "bhupeshk3014",
+    "artName": "neon equalizer",
+    "githubLink": "https://github.com/bhupeshk3014",
+    "pageLink": "./Art/bhupeshk3014-neon-equalizer/index.html",
+    "imageLink": "./Art/bhupeshk3014-neon-equalizer/icon.png",
+    "projectPath": "Art/bhupeshk3014-neon-equalizer"
+  },
+  {
+    "author": "bhupeshk3014",
     "artName": "orbit loader",
     "githubLink": "https://github.com/bhupeshk3014",
     "pageLink": "./Art/bhupeshk3014-orbit-loader/index.html",
