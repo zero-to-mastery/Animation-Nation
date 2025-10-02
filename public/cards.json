@@ -1,6 +1,14 @@
 [
   {
     "author": "bhupeshk3014",
+    "artName": "aurora veil",
+    "githubLink": "https://github.com/bhupeshk3014",
+    "pageLink": "./Art/bhupeshk3014-aurora-veil/index.html",
+    "imageLink": "./Art/bhupeshk3014-aurora-veil/icon.png",
+    "projectPath": "Art/bhupeshk3014-aurora-veil"
+  },
+  {
+    "author": "bhupeshk3014",
     "artName": "neon equalizer",
     "githubLink": "https://github.com/bhupeshk3014",
     "pageLink": "./Art/bhupeshk3014-neon-equalizer/index.html",
