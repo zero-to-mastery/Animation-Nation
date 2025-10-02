@@ -41,6 +41,14 @@
   },
   {
     "author": "fab-c14",
+    "artName": "Morph Carousel",
+    "githubLink": "https://github.com/fab-c14",
+    "pageLink": "./Art/fab-c14-morph-carousel/index.html",
+    "imageLink": "./Art/fab-c14-morph-carousel/icon.png",
+    "projectPath": "Art/fab-c14-morph-carousel"
+  },
+  {
+    "author": "fab-c14",
     "artName": "Morpning Blob",
     "githubLink": "https://github.com/fab-c14",
     "pageLink": "./Art/fab-c14-morphing-blob/index.html",
