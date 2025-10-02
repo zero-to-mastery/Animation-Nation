@@ -110,5 +110,12 @@
     "pageLink": "./Art/mattcsmith-triangle/index.html",
     "imageLink": "./Art/mattcsmith-triangle/icon.png",
     "projectPath": "Art/mattcsmith-triangle"
+  },
+  {
+    "artName": "Cyber Rader",
+    "githubLink": "https://github.com/undefined",
+    "pageLink": "./Art/nithinu2802-cyber-radar/index.html",
+    "imageLink": "./Art/nithinu2802-cyber-radar/icon.png",
+    "projectPath": "Art/nithinu2802-cyber-radar"
   }
 ]
