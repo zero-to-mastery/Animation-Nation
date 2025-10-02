@@ -20,7 +20,7 @@ body {
   border-radius: 50%;
   border: 5px solid;
   opacity: 0.8;
-  animation: pulse 2.5s infinite cubic-bezier(.68,-0.55,.27,1.55);
+  animation: pulse 2.5s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .ring1 {
@@ -30,7 +30,7 @@ body {
   animation-delay: 0s;
   animation-name: pulse, rainbow1;
   animation-duration: 2.5s, 4s;
-  animation-timing-function: cubic-bezier(.68,-0.55,.27,1.55), linear;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55), linear;
   animation-iteration-count: infinite, infinite;
 }
 
@@ -41,7 +41,7 @@ body {
   animation-delay: 0.4s;
   animation-name: pulse, rainbow2;
   animation-duration: 2.5s, 4s;
-  animation-timing-function: cubic-bezier(.68,-0.55,.27,1.55), linear;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55), linear;
   animation-iteration-count: infinite, infinite;
 }
 
@@ -52,7 +52,7 @@ body {
   animation-delay: 0.8s;
   animation-name: pulse, rainbow3;
   animation-duration: 2.5s, 4s;
-  animation-timing-function: cubic-bezier(.68,-0.55,.27,1.55), linear;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55), linear;
   animation-iteration-count: infinite, infinite;
 }
 
@@ -63,12 +63,13 @@ body {
   animation-delay: 1.2s;
   animation-name: pulse, rainbow4;
   animation-duration: 2.5s, 4s;
-  animation-timing-function: cubic-bezier(.68,-0.55,.27,1.55), linear;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55), linear;
   animation-iteration-count: infinite, infinite;
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
     opacity: 0.8;
   }
@@ -79,30 +80,70 @@ body {
 }
 
 @keyframes rainbow1 {
-  0% { border-color: #ff6ec4; }
-  25% { border-color: #f7971e; }
-  50% { border-color: #43e97b; }
-  75% { border-color: #38f9d7; }
-  100% { border-color: #ff6ec4; }
+  0% {
+    border-color: #ff6ec4;
+  }
+  25% {
+    border-color: #f7971e;
+  }
+  50% {
+    border-color: #43e97b;
+  }
+  75% {
+    border-color: #38f9d7;
+  }
+  100% {
+    border-color: #ff6ec4;
+  }
 }
 @keyframes rainbow2 {
-  0% { border-color: #787ff6; }
-  25% { border-color: #f7971e; }
-  50% { border-color: #ff6ec4; }
-  75% { border-color: #43e97b; }
-  100% { border-color: #787ff6; }
+  0% {
+    border-color: #787ff6;
+  }
+  25% {
+    border-color: #f7971e;
+  }
+  50% {
+    border-color: #ff6ec4;
+  }
+  75% {
+    border-color: #43e97b;
+  }
+  100% {
+    border-color: #787ff6;
+  }
 }
 @keyframes rainbow3 {
-  0% { border-color: #43e97b; }
-  25% { border-color: #38f9d7; }
-  50% { border-color: #f7971e; }
-  75% { border-color: #ff6ec4; }
-  100% { border-color: #43e97b; }
+  0% {
+    border-color: #43e97b;
+  }
+  25% {
+    border-color: #38f9d7;
+  }
+  50% {
+    border-color: #f7971e;
+  }
+  75% {
+    border-color: #ff6ec4;
+  }
+  100% {
+    border-color: #43e97b;
+  }
 }
 @keyframes rainbow4 {
-  0% { border-color: #38f9d7; }
-  25% { border-color: #ff6ec4; }
-  50% { border-color: #787ff6; }
-  75% { border-color: #f7971e; }
-  100% { border-color: #38f9d7; }
+  0% {
+    border-color: #38f9d7;
+  }
+  25% {
+    border-color: #ff6ec4;
+  }
+  50% {
+    border-color: #787ff6;
+  }
+  75% {
+    border-color: #f7971e;
+  }
+  100% {
+    border-color: #38f9d7;
+  }
 }
