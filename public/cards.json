@@ -169,6 +169,14 @@
   },
   {
     "author": "mrkc2303",
+    "artName": "pixel spiral",
+    "githubLink": "https://github.com/mrkc2303",
+    "pageLink": "./Art/mrkc2303-pixel-spiral/index.html",
+    "imageLink": "./Art/mrkc2303-pixel-spiral/icon.png",
+    "projectPath": "Art/mrkc2303-pixel-spiral"
+  },
+  {
+    "author": "mrkc2303",
     "artName": "wave grid",
     "githubLink": "https://github.com/mrkc2303",
     "pageLink": "./Art/mrkc2303-wave-grid/index.html",
