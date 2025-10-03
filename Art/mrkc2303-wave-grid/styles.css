@@ -5,10 +5,23 @@
   --gap: 8px;
 }
 
-* { box-sizing: border-box; }
-html, body { height: 100%; margin: 0; background: var(--bg); color: #e8edff; font-family: system-ui, sans-serif; }
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  color: #e8edff;
+  font-family: system-ui, sans-serif;
+}
 
-.stage { height: 100%; display: grid; place-items: center; }
+.stage {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
 
 .grid {
   display: grid;
@@ -19,7 +32,8 @@ html, body { height: 100%; margin: 0; background: var(--bg); color: #e8edff; fon
 }
 
 .cell {
-  width: var(--cell); height: var(--cell);
+  width: var(--cell);
+  height: var(--cell);
   background: radial-gradient(circle at 30% 30%, #fff, var(--fg));
   border-radius: 4px;
   transform: translateY(0) scale(1);
@@ -27,6 +41,13 @@ html, body { height: 100%; margin: 0; background: var(--bg); color: #e8edff; fon
 }
 
 @keyframes bob {
-  0%, 100% { transform: translateY(0) scale(1); opacity: 0.85; }
-  50%      { transform: translateY(-12px) scale(1.08); opacity: 1; }
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.85;
+  }
+  50% {
+    transform: translateY(-12px) scale(1.08);
+    opacity: 1;
+  }
 }
