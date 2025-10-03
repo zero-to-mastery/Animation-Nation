@@ -19,11 +19,17 @@ body {
 
 .battery-glow {
   position: absolute;
-  left: 20px; top: 13px;
+  left: 20px;
+  top: 13px;
   width: 140px;
   height: 74px;
   border-radius: 18px;
-  background: radial-gradient(circle at 60% 40%, #43e97b55 0 25%, #38f9d744 55%, transparent 85%);
+  background: radial-gradient(
+    circle at 60% 40%,
+    #43e97b55 0 25%,
+    #38f9d744 55%,
+    transparent 85%
+  );
   filter: blur(8px);
   z-index: 0;
 }
@@ -33,7 +39,7 @@ body {
   width: 140px;
   height: 74px;
   border-radius: 18px;
-  background: rgba(255,255,255,0.07);
+  background: rgba(255, 255, 255, 0.07);
   border: 4.5px solid #c5fdee;
   box-shadow: 0 6px 36px #38f9d733, 0 0 2px 2px #23243dcc inset;
   overflow: hidden;
@@ -43,22 +49,43 @@ body {
 
 .battery-inner {
   position: absolute;
-  left: 0; top: 0; bottom: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
   width: 0%;
   background: linear-gradient(90deg, #43e97b 5%, #38f9d7 60%, #ff6ec4 100%);
   border-radius: 15px 30px 30px 15px / 15px 28px 28px 15px;
   box-shadow: 0 0 30px 10px #43e97baa, 0 0 80px 40px #38f9d744;
-  animation: charge 3.2s cubic-bezier(.6,0,.4,1) infinite;
+  animation: charge 3.2s cubic-bezier(0.6, 0, 0.4, 1) infinite;
   z-index: 1;
 }
 @keyframes charge {
-  0%   { width: 0%; opacity: 1;}
-  10%  { width: 18%; }
-  30%  { width: 65%; }
-  56%  { width: 100%; opacity: 1;}
-  62%  { width: 100%; opacity: 0.85;}
-  75%  { width: 0%; opacity: 0.55;}
-  100% { width: 0%; opacity: 1;}
+  0% {
+    width: 0%;
+    opacity: 1;
+  }
+  10% {
+    width: 18%;
+  }
+  30% {
+    width: 65%;
+  }
+  56% {
+    width: 100%;
+    opacity: 1;
+  }
+  62% {
+    width: 100%;
+    opacity: 0.85;
+  }
+  75% {
+    width: 0%;
+    opacity: 0.55;
+  }
+  100% {
+    width: 0%;
+    opacity: 1;
+  }
 }
 
 .battery-cap {
@@ -83,10 +110,10 @@ body {
   z-index: 4;
   pointer-events: none;
   opacity: 0;
-  animation: boltFlash 3.2s cubic-bezier(.55,0,.6,1) infinite;
+  animation: boltFlash 3.2s cubic-bezier(0.55, 0, 0.6, 1) infinite;
 }
 .bolt::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 17px;
   top: 2px;
@@ -99,11 +126,25 @@ body {
 }
 
 @keyframes boltFlash {
-  0%, 40% { opacity: 0; }
-  50% { opacity: 0.92; transform: scale(1.08);}
-  60% { opacity: 1; transform: scale(1.18);}
-  70% { opacity: 0.5; transform: scale(1);}
-  100% { opacity: 0; }
+  0%,
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.92;
+    transform: scale(1.08);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.18);
+  }
+  70% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .shine {
