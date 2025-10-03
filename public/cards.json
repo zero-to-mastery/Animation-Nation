@@ -65,6 +65,14 @@
   },
   {
     "author": "fab-c14",
+    "artName": "3D Dna Animation",
+    "githubLink": "https://github.com/fab-c14",
+    "pageLink": "./Art/fab-c14-3D-Dna/index.html",
+    "imageLink": "./Art/fab-c14-3D-Dna/icon.png",
+    "projectPath": "Art/fab-c14-3D-Dna"
+  },
+  {
+    "author": "fab-c14",
     "artName": "Morph Carousel",
     "githubLink": "https://github.com/fab-c14",
     "pageLink": "./Art/fab-c14-morph-carousel/index.html",
