@@ -1,5 +1,141 @@
 [
   {
+    "author": "Vatsakala",
+    "artName": "spiral weave",
+    "githubLink": "https://github.com/Vatsakala",
+    "pageLink": "./Art/Vatsakala-spiral-weave/index.html",
+    "imageLink": "./Art/Vatsakala-spiral-weave/icon.png",
+    "projectPath": "Art/Vatsakala-spiral-weave"
+  },
+  {
+    "author": "bhupeshk3014",
+    "artName": "aurora veil",
+    "githubLink": "https://github.com/bhupeshk3014",
+    "pageLink": "./Art/bhupeshk3014-aurora-veil/index.html",
+    "imageLink": "./Art/bhupeshk3014-aurora-veil/icon.png",
+    "projectPath": "Art/bhupeshk3014-aurora-veil"
+  },
+  {
+    "author": "bhupeshk3014",
+    "artName": "digital rain",
+    "githubLink": "https://github.com/bhupeshk3014",
+    "pageLink": "./Art/bhupeshk3014-digital-rain/index.html",
+    "imageLink": "./Art/bhupeshk3014-digital-rain/icon.png",
+    "projectPath": "Art/bhupeshk3014-digital-rain"
+  },
+  {
+    "author": "bhupeshk3014",
+    "artName": "liquid hourglass",
+    "githubLink": "https://github.com/bhupeshk3014",
+    "pageLink": "./Art/bhupeshk3014-liquid-hourglass/index.html",
+    "imageLink": "./Art/bhupeshk3014-liquid-hourglass/icon.png",
+    "projectPath": "Art/bhupeshk3014-liquid-hourglass"
+  },
+  {
+    "author": "bhupeshk3014",
+    "artName": "neon equalizer",
+    "githubLink": "https://github.com/bhupeshk3014",
+    "pageLink": "./Art/bhupeshk3014-neon-equalizer/index.html",
+    "imageLink": "./Art/bhupeshk3014-neon-equalizer/icon.png",
+    "projectPath": "Art/bhupeshk3014-neon-equalizer"
+  },
+  {
+    "author": "bhupeshk3014",
+    "artName": "neon tunnel",
+    "githubLink": "https://github.com/bhupeshk3014",
+    "pageLink": "./Art/bhupeshk3014-neon-tunnel/index.html",
+    "imageLink": "./Art/bhupeshk3014-neon-tunnel/icon.png",
+    "projectPath": "Art/bhupeshk3014-neon-tunnel"
+  },
+  {
+    "author": "bhupeshk3014",
+    "artName": "orbit loader",
+    "githubLink": "https://github.com/bhupeshk3014",
+    "pageLink": "./Art/bhupeshk3014-orbit-loader/index.html",
+    "imageLink": "./Art/bhupeshk3014-orbit-loader/icon.png",
+    "projectPath": "Art/bhupeshk3014-orbit-loader"
+  },
+  {
+    "author": "bmavlo",
+    "artName": "heart",
+    "githubLink": "https://github.com/bmavlo",
+    "pageLink": "./Art/bmalvo-heart/index.html",
+    "imageLink": "./Art/bmalvo-heart/icon.png",
+    "projectPath": "Art/bmalvo-heart"
+  },
+  {
+    "author": "fab-c14",
+    "artName": "3D Dna Animation",
+    "githubLink": "https://github.com/fab-c14",
+    "pageLink": "./Art/fab-c14-3D-Dna/index.html",
+    "imageLink": "./Art/fab-c14-3D-Dna/icon.png",
+    "projectPath": "Art/fab-c14-3D-Dna"
+  },
+  {
+    "author": "fab-c14",
+    "artName": "Morph Carousel",
+    "githubLink": "https://github.com/fab-c14",
+    "pageLink": "./Art/fab-c14-morph-carousel/index.html",
+    "imageLink": "./Art/fab-c14-morph-carousel/icon.png",
+    "projectPath": "Art/fab-c14-morph-carousel"
+  },
+  {
+    "author": "fab-c14",
+    "artName": "Morpning Blob",
+    "githubLink": "https://github.com/fab-c14",
+    "pageLink": "./Art/fab-c14-morphing-blob/index.html",
+    "imageLink": "./Art/fab-c14-morphing-blob/icon.png",
+    "projectPath": "Art/fab-c14-morphing-blob"
+  },
+  {
+    "author": "fab-c14",
+    "artName": "Premium Battery Charge",
+    "githubLink": "https://github.com/fab-c14",
+    "pageLink": "./Art/fab-c14-premium-battery-charge/index.html",
+    "imageLink": "./Art/fab-c14-premium-battery-charge/icon.png",
+    "projectPath": "Art/fab-c14-premium-battery-charge"
+  },
+  {
+    "author": "fab-c14",
+    "artName": "Pulsing Rings",
+    "githubLink": "https://github.com/fab-c14",
+    "pageLink": "./Art/fabc14-pulsing-rings/index.html",
+    "imageLink": "./Art/fabc14-pulsing-rings/icon.png",
+    "projectPath": "Art/fabc14-pulsing-rings"
+  },
+  {
+    "author": "fab-c14",
+    "artName": "Wi Fi  Signal",
+    "githubLink": "https://github.com/fab-c14",
+    "pageLink": "./Art/fabc14-wifi-signal/index.html",
+    "imageLink": "./Art/fabc14-wifi-signal/icon.png",
+    "projectPath": "Art/fabc14-wifi-signal"
+  },
+  {
+    "author": "jeevaramanathan",
+    "artName": "Dot Wave Loader",
+    "githubLink": "https://github.com/jeevaramanathan",
+    "pageLink": "./Art/jeevaramanathan-dot-wave-loader/index.html",
+    "imageLink": "./Art/jeevaramanathan-dot-wave-loader/icon.png",
+    "projectPath": "Art/jeevaramanathan-dot-wave-loader"
+  },
+  {
+    "author": "kevinbatdorf",
+    "artName": "ripple",
+    "githubLink": "https://github.com/kevinbatdorf",
+    "pageLink": "./Art/kevinbatdorf-ripple/index.html",
+    "imageLink": "./Art/kevinbatdorf-ripple/icon.png",
+    "projectPath": "Art/kevinbatdorf-ripple"
+  },
+  {
+    "author": "liketiger",
+    "artName": "pendulum",
+    "githubLink": "https://github.com/liketiger",
+    "pageLink": "./Art/liketiger-pendulum/index.html",
+    "imageLink": "./Art/liketiger-pendulum/icon.png",
+    "projectPath": "Art/liketiger-pendulum"
+  },
+  {
     "author": "mattcsmith",
     "artName": "triangle",
     "githubLink": "https://github.com/mattcsmith",
@@ -14,5 +150,28 @@
     "pageLink": "./Art/DRGGamble-Artwork/index.html",
     "imageLink": "./Art/DRGGamble-Artwork/something.gif",
     "projectPath": "Art/DRGGamble-Artwork"
+  },
+  {
+    "author": "mrkc2303",
+    "artName": "neon radar",
+    "githubLink": "https://github.com/mrkc2303",
+    "pageLink": "./Art/mrkc2303-neon-radar/index.html",
+    "imageLink": "./Art/mrkc2303-neon-radar/icon.png",
+    "projectPath": "Art/mrkc2303-neon-radar"
+  },
+  {
+    "author": "mrkc2303",
+    "artName": "wave grid",
+    "githubLink": "https://github.com/mrkc2303",
+    "pageLink": "./Art/mrkc2303-wave-grid/index.html",
+    "imageLink": "./Art/mrkc2303-wave-grid/icon.png",
+    "projectPath": "Art/mrkc2303-wave-grid"
+  },
+  {
+    "artName": "Cyber Rader",
+    "githubLink": "https://github.com/undefined",
+    "pageLink": "./Art/nithinu2802-cyber-radar/index.html",
+    "imageLink": "./Art/nithinu2802-cyber-radar/icon.png",
+    "projectPath": "Art/nithinu2802-cyber-radar"
   }
 ]
