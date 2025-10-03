@@ -1,0 +1,53 @@
+:root {
+  --bg: #0e0f1a;
+  --fg: #a9b5ff;
+  --cell: 18px;
+  --gap: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  color: #e8edff;
+  font-family: system-ui, sans-serif;
+}
+
+.stage {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, var(--cell));
+  grid-auto-rows: var(--cell);
+  gap: var(--gap);
+  filter: drop-shadow(0 0 6px #4451ff55);
+}
+
+.cell {
+  width: var(--cell);
+  height: var(--cell);
+  background: radial-gradient(circle at 30% 30%, #fff, var(--fg));
+  border-radius: 4px;
+  transform: translateY(0) scale(1);
+  animation: bob 1.8s ease-in-out calc((var(--x) + var(--y)) * 80ms) infinite;
+}
+
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.85;
+  }
+  50% {
+    transform: translateY(-12px) scale(1.08);
+    opacity: 1;
+  }
+}
