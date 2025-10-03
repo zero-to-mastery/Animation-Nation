@@ -73,6 +73,14 @@
   },
   {
     "author": "fab-c14",
+    "artName": "Premium Battery Charge",
+    "githubLink": "https://github.com/fab-c14",
+    "pageLink": "./Art/fab-c14-premium-battery-charge/index.html",
+    "imageLink": "./Art/fab-c14-premium-battery-charge/icon.png",
+    "projectPath": "Art/fab-c14-premium-battery-charge"
+  },
+  {
+    "author": "fab-c14",
     "artName": "Pulsing Rings",
     "githubLink": "https://github.com/fab-c14",
     "pageLink": "./Art/fabc14-pulsing-rings/index.html",
@@ -118,6 +126,22 @@
     "pageLink": "./Art/mattcsmith-triangle/index.html",
     "imageLink": "./Art/mattcsmith-triangle/icon.png",
     "projectPath": "Art/mattcsmith-triangle"
+  },
+  {
+    "author": "mrkc2303",
+    "artName": "neon radar",
+    "githubLink": "https://github.com/mrkc2303",
+    "pageLink": "./Art/mrkc2303-neon-radar/index.html",
+    "imageLink": "./Art/mrkc2303-neon-radar/icon.png",
+    "projectPath": "Art/mrkc2303-neon-radar"
+  },
+  {
+    "author": "mrkc2303",
+    "artName": "wave grid",
+    "githubLink": "https://github.com/mrkc2303",
+    "pageLink": "./Art/mrkc2303-wave-grid/index.html",
+    "imageLink": "./Art/mrkc2303-wave-grid/icon.png",
+    "projectPath": "Art/mrkc2303-wave-grid"
   },
   {
     "artName": "Cyber Rader",
