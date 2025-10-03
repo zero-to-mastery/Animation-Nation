@@ -3,9 +3,9 @@
   --c1: #00f7ff;
   --c2: #ff00ff;
   --c3: #00ff88;
-  --r1: 60px;                      /* radius for orbit1 */
-  --r2: 90px;                     /* radius for orbit2 */
-  --r3: 125px;                   /* radius for orbit3 */
+  --r1: 60px; /* radius for orbit1 */
+  --r2: 90px; /* radius for orbit2 */
+  --r3: 125px; /* radius for orbit3 */
 }
 
 * {
@@ -145,7 +145,8 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .orbit, .glow {
+  .orbit,
+  .glow {
     animation: none;
   }
 }
