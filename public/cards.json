@@ -73,6 +73,14 @@
   },
   {
     "author": "fab-c14",
+    "artName": "Premium Battery Charge",
+    "githubLink": "https://github.com/fab-c14",
+    "pageLink": "./Art/fab-c14-premium-battery-charge/index.html",
+    "imageLink": "./Art/fab-c14-premium-battery-charge/icon.png",
+    "projectPath": "Art/fab-c14-premium-battery-charge"
+  },
+  {
+    "author": "fab-c14",
     "artName": "Pulsing Rings",
     "githubLink": "https://github.com/fab-c14",
     "pageLink": "./Art/fabc14-pulsing-rings/index.html",
