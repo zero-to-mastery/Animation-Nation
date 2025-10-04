@@ -184,6 +184,14 @@
     "projectPath": "Art/liketiger-pendulum"
   },
   {
+    "author": "liketiger",
+    "artName": "shooting star",
+    "githubLink": "https://github.com/liketiger",
+    "pageLink": "./Art/liketiger-shooting-star/index.html",
+    "imageLink": "./Art/liketiger-shooting-star/icon.png",
+    "projectPath": "Art/liketiger-shooting-star"
+  },
+  {
     "author": "mattcsmith",
     "artName": "triangle",
     "githubLink": "https://github.com/mattcsmith",
