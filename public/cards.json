@@ -9,11 +9,27 @@
   },
   {
     "author": "Vatsakala",
+    "artName": "shooting meteors",
+    "githubLink": "https://github.com/Vatsakala",
+    "pageLink": "./Art/Vatsakala-shooting-meteors/index.html",
+    "imageLink": "./Art/Vatsakala-shooting-meteors/icon.png",
+    "projectPath": "Art/Vatsakala-shooting-meteors"
+  },
+  {
+    "author": "Vatsakala",
     "artName": "spiral weave",
     "githubLink": "https://github.com/Vatsakala",
     "pageLink": "./Art/Vatsakala-spiral-weave/index.html",
     "imageLink": "./Art/Vatsakala-spiral-weave/icon.png",
     "projectPath": "Art/Vatsakala-spiral-weave"
+  },
+  {
+    "author": "Vatsakala",
+    "artName": "snake chase",
+    "githubLink": "https://github.com/Vatsakala",
+    "pageLink": "./Art/Vatsakala-target-chaser/index.html",
+    "imageLink": "./Art/Vatsakala-target-chaser/icon.png",
+    "projectPath": "Art/Vatsakala-target-chaser"
   },
   {
     "author": "bhupeshk3014",
@@ -166,6 +182,22 @@
     "pageLink": "./Art/mrkc2303-eclipse/index.html",
     "imageLink": "./Art/mrkc2303-eclipse/icon.png",
     "projectPath": "Art/mrkc2303-eclipse"
+  },
+  {
+    "author": "mrkc2303",
+    "artName": "kaleido spin",
+    "githubLink": "https://github.com/mrkc2303",
+    "pageLink": "./Art/mrkc2303-kaleido-spin/index.html",
+    "imageLink": "./Art/mrkc2303-kaleido-spin/icon.png",
+    "projectPath": "Art/mrkc2303-kaleido-spin"
+  },
+  {
+    "author": "mrkc2303",
+    "artName": "eclipse",
+    "githubLink": "https://github.com/mrkc2303",
+    "pageLink": "./Art/mrkc2303-neon-bars/index.html",
+    "imageLink": "./Art/mrkc2303-neon-bars/icon.png",
+    "projectPath": "Art/mrkc2303-neon-bars"
   },
   {
     "author": "mrkc2303",
