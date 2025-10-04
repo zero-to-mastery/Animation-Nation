@@ -177,6 +177,14 @@
   },
   {
     "author": "mrkc2303",
+    "artName": "eclipse",
+    "githubLink": "https://github.com/mrkc2303",
+    "pageLink": "./Art/mrkc2303-neon-bars/index.html",
+    "imageLink": "./Art/mrkc2303-neon-bars/icon.png",
+    "projectPath": "Art/mrkc2303-neon-bars"
+  },
+  {
+    "author": "mrkc2303",
     "artName": "neon radar",
     "githubLink": "https://github.com/mrkc2303",
     "pageLink": "./Art/mrkc2303-neon-radar/index.html",
