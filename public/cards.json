@@ -9,6 +9,14 @@
   },
   {
     "author": "Vatsakala",
+    "artName": "shooting meteors",
+    "githubLink": "https://github.com/Vatsakala",
+    "pageLink": "./Art/Vatsakala-shooting-meteors/index.html",
+    "imageLink": "./Art/Vatsakala-shooting-meteors/icon.png",
+    "projectPath": "Art/Vatsakala-shooting-meteors"
+  },
+  {
+    "author": "Vatsakala",
     "artName": "spiral weave",
     "githubLink": "https://github.com/Vatsakala",
     "pageLink": "./Art/Vatsakala-spiral-weave/index.html",
