@@ -17,6 +17,14 @@
   },
   {
     "author": "Vatsakala",
+    "artName": "neon typewriter",
+    "githubLink": "https://github.com/Vatsakala",
+    "pageLink": "./Art/Vatsakala-neon-typewriter/index.html",
+    "imageLink": "./Art/Vatsakala-neon-typewriter/icon.png",
+    "projectPath": "Art/Vatsakala-neon-typewriter"
+  },
+  {
+    "author": "Vatsakala",
     "artName": "shooting meteors",
     "githubLink": "https://github.com/Vatsakala",
     "pageLink": "./Art/Vatsakala-shooting-meteors/index.html",
