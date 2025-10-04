@@ -7,6 +7,7 @@
   --orbit-size: 12vmin;
 }
 
+/* ========== Base setup ========== */
 html, body {
   height: 100%;
   margin: 0;
@@ -23,6 +24,7 @@ html, body {
   position: relative;
   display: grid;
   place-items: center;
+  overflow: hidden;
 }
 
 .sun {
@@ -37,6 +39,7 @@ html, body {
   transform: translate(-50%, -50%);
 }
 
+/* ========== Orbits & Planets ========== */
 .orbit {
   position: absolute;
   left: 50%;
@@ -86,11 +89,64 @@ html, body {
   animation: orbit-rotate 2.2s linear infinite;
 }
 
+/* ========== Rocket ========== */
+.rocket {
+  position: absolute;
+  bottom: -10vmin;
+  left: 40%;
+  width: 2vmin;
+  height: 4vmin;
+  background: linear-gradient(to top, #ff4444, #fff);
+  border-radius: 40% 40% 10% 10%;
+  animation: rocket-fly 12s linear infinite;
+}
+
+/* Rocket flame effect */
+.rocket::after {
+  content: "";
+  position: absolute;
+  bottom: -1.2vmin;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1vmin;
+  height: 2vmin;
+  background: radial-gradient(circle at center, orange 20%, red 80%, transparent 100%);
+  border-radius: 50%;
+  animation: flame-flicker 0.3s infinite alternate;
+}
+
+/* Rocket trail */
+.rocket::before {
+  content: "";
+  position: absolute;
+  bottom: -12vmin;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.6vmin;
+  height: 10vmin;
+  background: linear-gradient(to bottom, rgba(255, 120, 0, 0.6), transparent);
+  border-radius: 50%;
+  filter: blur(2px);
+}
+
+/* ========== Animations ========== */
 @keyframes orbit-rotate {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
+@keyframes rocket-fly {
+  0%   { transform: translate(0, 0) rotate(-45deg); opacity: 1; }
+  70%  { transform: translate(-30vmin, -70vmin) rotate(-45deg); opacity: 1; }
+  100% { transform: translate(-40vmin, -90vmin) rotate(-45deg); opacity: 0; }
+}
+
+@keyframes flame-flicker {
+  from { transform: scaleY(1); opacity: 0.8; }
+  to   { transform: scaleY(1.3); opacity: 0.4; }
+}
+
+/* ========== Stars & Label ========== */
 .stars {
   position: absolute;
   inset: 0;
