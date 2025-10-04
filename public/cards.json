@@ -9,11 +9,43 @@
   },
   {
     "author": "Vatsakala",
+    "artName": "neon curves",
+    "githubLink": "https://github.com/Vatsakala",
+    "pageLink": "./Art/Vatsakala-neon-curves/index.html",
+    "imageLink": "./Art/Vatsakala-neon-curves/icon.png",
+    "projectPath": "Art/Vatsakala-neon-curves"
+  },
+  {
+    "author": "Vatsakala",
+    "artName": "neon typewriter",
+    "githubLink": "https://github.com/Vatsakala",
+    "pageLink": "./Art/Vatsakala-neon-typewriter/index.html",
+    "imageLink": "./Art/Vatsakala-neon-typewriter/icon.png",
+    "projectPath": "Art/Vatsakala-neon-typewriter"
+  },
+  {
+    "author": "Vatsakala",
+    "artName": "shooting meteors",
+    "githubLink": "https://github.com/Vatsakala",
+    "pageLink": "./Art/Vatsakala-shooting-meteors/index.html",
+    "imageLink": "./Art/Vatsakala-shooting-meteors/icon.png",
+    "projectPath": "Art/Vatsakala-shooting-meteors"
+  },
+  {
+    "author": "Vatsakala",
     "artName": "spiral weave",
     "githubLink": "https://github.com/Vatsakala",
     "pageLink": "./Art/Vatsakala-spiral-weave/index.html",
     "imageLink": "./Art/Vatsakala-spiral-weave/icon.png",
     "projectPath": "Art/Vatsakala-spiral-weave"
+  },
+  {
+    "author": "Vatsakala",
+    "artName": "snake chase",
+    "githubLink": "https://github.com/Vatsakala",
+    "pageLink": "./Art/Vatsakala-target-chaser/index.html",
+    "imageLink": "./Art/Vatsakala-target-chaser/icon.png",
+    "projectPath": "Art/Vatsakala-target-chaser"
   },
   {
     "author": "bhupeshk3014",
@@ -152,6 +184,30 @@
     "projectPath": "Art/liketiger-pendulum"
   },
   {
+    "author": "liketiger",
+    "artName": "reflecting star",
+    "githubLink": "https://github.com/liketiger",
+    "pageLink": "./Art/liketiger-reflecting-star/index.html",
+    "imageLink": "./Art/liketiger-reflecting-star/icon.png",
+    "projectPath": "Art/liketiger-reflecting-star"
+  },
+  {
+    "author": "liketiger",
+    "artName": "shooting star",
+    "githubLink": "https://github.com/liketiger",
+    "pageLink": "./Art/liketiger-shooting-star/index.html",
+    "imageLink": "./Art/liketiger-shooting-star/icon.png",
+    "projectPath": "Art/liketiger-shooting-star"
+  },
+  {
+    "author": "liketiger",
+    "artName": "spinner whirl",
+    "githubLink": "https://github.com/liketiger",
+    "pageLink": "./Art/liketiger-spinner-whirl/index.html",
+    "imageLink": "./Art/liketiger-spinner-whirl/icon.png",
+    "projectPath": "Art/liketiger-spinner-whirl"
+  },
+  {
     "author": "mattcsmith",
     "artName": "triangle",
     "githubLink": "https://github.com/mattcsmith",
@@ -174,6 +230,14 @@
     "pageLink": "./Art/mrkc2303-kaleido-spin/index.html",
     "imageLink": "./Art/mrkc2303-kaleido-spin/icon.png",
     "projectPath": "Art/mrkc2303-kaleido-spin"
+  },
+  {
+    "author": "mrkc2303",
+    "artName": "eclipse",
+    "githubLink": "https://github.com/mrkc2303",
+    "pageLink": "./Art/mrkc2303-neon-bars/index.html",
+    "imageLink": "./Art/mrkc2303-neon-bars/icon.png",
+    "projectPath": "Art/mrkc2303-neon-bars"
   },
   {
     "author": "mrkc2303",
