@@ -1,0 +1,140 @@
+@property --rot { syntax: "<angle>";  inherits: false; initial-value: 0deg; }
+@property --sc  { syntax: "<number>"; inherits: false; initial-value: 1; }
+
+:root{
+  --bg-1: #06090f;
+  --bg-2: #0b101c;
+  --ink:  #eaf1ff;
+  --size: min(78vmin, 780px);
+  --gap:  clamp(12px, 1.8vmin, 20px);
+  --dur-morph: 4.8s;       
+  --dur-rotate: 7.6s;     
+  --dur-hue: 8s;          
+  --dur-pulse: 2.8s;       
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  color: var(--ink);
+  background: radial-gradient(120% 120% at 30% 15%, var(--bg-1), var(--bg-2));
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+.scene{
+  height: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid{
+  width: var(--size);
+  height: var(--size);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap);
+  padding: var(--gap);
+}
+
+.cell{
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  position: relative;
+}
+
+.shape{
+  width: 64%;
+  height: 64%;
+  display: block;
+  position: relative;
+  border-radius: 22%;
+  background:
+    radial-gradient(120% 120% at 30% 25%, #ffffffaa, #eff4ff 42%, #cfd9e6 85%);
+  box-shadow: 0 2px 8px #00000080;
+
+  transform: rotate(var(--rot)) scale(var(--sc));
+  will-change: transform, border-radius, opacity, filter;
+
+  animation:
+    morph var(--dur-morph) ease-in-out infinite,
+    spin  var(--dur-rotate) linear infinite,
+    breatheScale var(--dur-morph) ease-in-out infinite;
+}
+
+.shape::before{
+  content: "";
+  position: absolute;
+  inset: -28%;
+  border-radius: inherit;
+  background:
+    radial-gradient(circle at 50% 45%, #00ffe5, rgba(0,255,229,.75) 24%, rgba(0,0,0,0) 70%),
+    conic-gradient(from 0deg,
+      rgba(255,0,200,.65),
+      rgba(0,255,170,.65),
+      rgba(0,170,255,.65),
+      rgba(255,0,200,.65));
+  filter: blur(22px) saturate(1.6);
+  mix-blend-mode: screen;
+  pointer-events: none;
+  animation:
+    hue var(--dur-hue) linear infinite,
+    pulse var(--dur-pulse) ease-in-out infinite;
+}
+.shape::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background:
+    radial-gradient(60% 45% at 35% 30%, #ffffffcc, #ffffff20 60%, #0000 70%),
+    linear-gradient(180deg, #ffffff18, #0000 45%);
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+.cell:nth-child(1)  .shape { animation-delay: 0s,     0s,     0s; }
+.cell:nth-child(2)  .shape { animation-delay: .10s,  .10s,  .10s; }
+.cell:nth-child(3)  .shape { animation-delay: .20s,  .20s,  .20s; }
+.cell:nth-child(4)  .shape { animation-delay: .30s,  .30s,  .30s; }
+.cell:nth-child(5)  .shape { animation-delay: .40s,  .40s,  .40s; }
+.cell:nth-child(6)  .shape { animation-delay: .50s,  .50s,  .50s; }
+.cell:nth-child(7)  .shape { animation-delay: .60s,  .60s,  .60s; }
+.cell:nth-child(8)  .shape { animation-delay: .70s,  .70s,  .70s; }
+.cell:nth-child(9)  .shape { animation-delay: .80s,  .80s,  .80s; }
+.cell:nth-child(odd)  .shape::before { animation-delay: .2s, .1s; }
+.cell:nth-child(even) .shape::before { animation-delay: 0s,   .3s; }
+@keyframes morph{
+  0%,100%{ border-radius: 22%; opacity: .96; }
+  25%    { border-radius: 40%; opacity: 1;   }
+  50%    { border-radius: 54%; opacity: .98; }
+  75%    { border-radius: 32%; opacity: .99; }
+}
+@keyframes spin{ to { --rot: 360deg; } }
+@keyframes breatheScale{
+  0%,100% { --sc: .94; }
+  25%     { --sc: 1.06; }
+  50%     { --sc: .98; }
+  75%     { --sc: 1.03; }
+}
+
+@keyframes hue   { to { filter: hue-rotate(360deg); } }
+@keyframes pulse {
+  0%,100% { opacity: .68; transform: scale(1); }
+  50%     { opacity: .9;  transform: scale(1.04); }
+}
+@media (prefers-reduced-motion: reduce){
+  .shape, .shape::before { animation: none; }
+}
+.credit{
+  position: absolute;
+  inset: auto 0 2rem 0;
+  text-align: center;
+  font-size: .85rem;
+  letter-spacing: .06em;
+  opacity: .6;
+  user-select: none;
+}
