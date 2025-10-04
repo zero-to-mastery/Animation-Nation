@@ -69,22 +69,40 @@ html, body {
 .shape::before{
   content: "";
   position: absolute;
-  inset: -28%;
+  inset: -30%;                  /* slightly larger halo for prominence */
   border-radius: inherit;
+
+  /* Multicolor aura using ONLY radial blends (no angular bands) */
   background:
-    radial-gradient(circle at 50% 45%, #00ffe5, rgba(0,255,229,.75) 24%, rgba(0,0,0,0) 70%),
-    conic-gradient(from 0deg,
-      rgba(255,0,200,.65),
-      rgba(0,255,170,.65),
-      rgba(0,170,255,.65),
-      rgba(255,0,200,.65));
-  filter: blur(22px) saturate(1.6);
+    /* cyan core */
+    radial-gradient(130% 130% at 50% 45%,
+      rgba(0,255,234,.70) 0%,
+      rgba(0,255,234,0) 60%),
+
+    /* magenta wash */
+    radial-gradient(160% 160% at 70% 35%,
+      rgba(255,0,200,.55) 0%,
+      rgba(255,0,200,0) 72%),
+
+    /* electric blue wash */
+    radial-gradient(150% 150% at 35% 70%,
+      rgba(26,125,255,.55) 0%,
+      rgba(26,125,255,0) 74%),
+
+    /* neon green-teal wash */
+    radial-gradient(170% 170% at 62% 72%,
+      rgba(0,255,170,.50) 0%,
+      rgba(0,255,170,0) 78%);
+
+  filter: blur(30px) saturate(1.5) brightness(1.05);  /* stronger, glowy */
+  opacity: .95;                                       /* more visible */
   mix-blend-mode: screen;
   pointer-events: none;
-  animation:
-    hue var(--dur-hue) linear infinite,
-    pulse var(--dur-pulse) ease-in-out infinite;
+
+  /* keep your existing pulse timing */
+  animation: pulse var(--dur-pulse) ease-in-out infinite;
 }
+
 .shape::after{
   content: "";
   position: absolute;
@@ -96,6 +114,7 @@ html, body {
   mix-blend-mode: screen;
   pointer-events: none;
 }
+
 .cell:nth-child(1)  .shape { animation-delay: 0s,     0s,     0s; }
 .cell:nth-child(2)  .shape { animation-delay: .10s,  .10s,  .10s; }
 .cell:nth-child(3)  .shape { animation-delay: .20s,  .20s,  .20s; }
@@ -107,6 +126,7 @@ html, body {
 .cell:nth-child(9)  .shape { animation-delay: .80s,  .80s,  .80s; }
 .cell:nth-child(odd)  .shape::before { animation-delay: .2s, .1s; }
 .cell:nth-child(even) .shape::before { animation-delay: 0s,   .3s; }
+
 @keyframes morph{
   0%,100%{ border-radius: 22%; opacity: .96; }
   25%    { border-radius: 40%; opacity: 1;   }
@@ -121,14 +141,16 @@ html, body {
   75%     { --sc: 1.03; }
 }
 
-@keyframes hue   { to { filter: hue-rotate(360deg); } }
+/* keep your pulse animation */
 @keyframes pulse {
   0%,100% { opacity: .68; transform: scale(1); }
   50%     { opacity: .9;  transform: scale(1.04); }
 }
+
 @media (prefers-reduced-motion: reduce){
   .shape, .shape::before { animation: none; }
 }
+
 .credit{
   position: absolute;
   inset: auto 0 2rem 0;
