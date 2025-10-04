@@ -89,19 +89,20 @@ html, body {
   animation: orbit-rotate 2.2s linear infinite;
 }
 
-/* ========== Rocket ========== */
+/* ========== Rocket with curved semi-circle trajectory ========== */
 .rocket {
   position: absolute;
-  bottom: -10vmin;
-  left: 40%;
+  left: 50%;
+  top: 50%;
   width: 2vmin;
   height: 4vmin;
   background: linear-gradient(to top, #ff4444, #fff);
   border-radius: 40% 40% 10% 10%;
-  animation: rocket-fly 12s linear infinite;
+  transform-origin: -15vmin center; /* pivot around the system */
+  animation: rocket-arc 8s linear infinite;
 }
 
-/* Rocket flame effect */
+/* rocket flame */
 .rocket::after {
   content: "";
   position: absolute;
@@ -115,30 +116,17 @@ html, body {
   animation: flame-flicker 0.3s infinite alternate;
 }
 
-/* Rocket trail */
-.rocket::before {
-  content: "";
-  position: absolute;
-  bottom: -12vmin;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0.6vmin;
-  height: 10vmin;
-  background: linear-gradient(to bottom, rgba(255, 120, 0, 0.6), transparent);
-  border-radius: 50%;
-  filter: blur(2px);
-}
-
 /* ========== Animations ========== */
 @keyframes orbit-rotate {
   from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  to   { transform: rotate(360deg); }
 }
 
-@keyframes rocket-fly {
-  0%   { transform: translate(0, 0) rotate(-45deg); opacity: 1; }
-  70%  { transform: translate(-30vmin, -70vmin) rotate(-45deg); opacity: 1; }
-  100% { transform: translate(-40vmin, -90vmin) rotate(-45deg); opacity: 0; }
+@keyframes rocket-arc {
+  0%   { transform: rotate(0deg) scale(1); opacity: 1; }
+  50%  { transform: rotate(-180deg) scale(0.6); opacity: 1; }
+  75%  { transform: rotate(-270deg) scale(0.3); opacity: 0.5; }
+  100% { transform: rotate(-300deg) scale(0); opacity: 0; }
 }
 
 @keyframes flame-flicker {
@@ -164,6 +152,9 @@ html, body {
   bottom: 6%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 2vw, 1.2rem); /* responsive font size */
+  text-align: center;
+  max-width: 90%; /* keeps it inside smaller screens */
+  line-height: 1.4;
   opacity: 0.8;
 }
