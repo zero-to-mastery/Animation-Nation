@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1a1a2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.candle-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Candle Styles */
+.candle {
+  position: relative;
+  z-index: 2;
+}
+
+.candle-top {
+  width: 30px;
+  height: 8px;
+  background: #ff6b35;
+  border-radius: 50% 50% 0 0;
+  margin: 0 auto;
+}
+
+.candle-body {
+  width: 50px;
+  height: 120px;
+  background: linear-gradient(to right, #ffb347, #ffcc33, #ffb347);
+  border-radius: 5px;
+  position: relative;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.candle-base {
+  width: 70px;
+  height: 10px;
+  background: #8b4513;
+  border-radius: 5px;
+  margin-top: -2px;
+}
+
+.wax-drip {
+  position: absolute;
+  background: #ffa500;
+  border-radius: 50%;
+}
+
+.drip-1 {
+  width: 8px;
+  height: 15px;
+  left: 5px;
+  top: 40px;
+  background: #ff8c00;
+}
+
+.drip-2 {
+  width: 6px;
+  height: 12px;
+  right: 8px;
+  top: 80px;
+  background: #ff9500;
+}
+
+.drip-3 {
+  width: 7px;
+  height: 18px;
+  left: 15px;
+  top: 100px;
+  background: #ff8c00;
+}
+
+/* Flame Container */
+.flame-container {
+  position: absolute;
+  top: -80px;
+  z-index: 3;
+}
+
+/* Main Flame */
+.flame-main {
+  width: 25px;
+  height: 60px;
+  background: linear-gradient(to top, #ff3300, #ff9900, #ffff00);
+  border-radius: 50% 50% 20% 20%;
+  box-shadow: 0 0 20px #ff3300, 0 0 40px #ff9900;
+  animation: flicker-main 0.8s infinite alternate;
+  transform-origin: bottom center;
+}
+
+/* Inner Flame (hotter part) */
+.flame-inner {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  width: 11px;
+  height: 30px;
+  background: linear-gradient(to top, transparent, #ffff00, #ffffff);
+  border-radius: 50% 50% 20% 20%;
+  animation: flicker-inner 0.6s infinite alternate;
+  transform-origin: bottom center;
+}
+
+/* Outer Flame (glow effect) */
+.flame-outer {
+  position: absolute;
+  top: -10px;
+  left: -5px;
+  width: 35px;
+  height: 80px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 100, 0, 0.4) 0%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  animation: flicker-outer 1s infinite alternate;
+}
+
+/* Glow around flame */
+.glow {
+  position: absolute;
+  top: -20px;
+  left: -25px;
+  width: 75px;
+  height: 100px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 100, 0, 0.2) 0%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  animation: glow-pulse 2s infinite alternate;
+}
+
+/* Sparks */
+.spark {
+  position: absolute;
+  background: #ffff00;
+  border-radius: 50%;
+  animation: spark-float 3s infinite linear;
+}
+
+.spark-1 {
+  width: 3px;
+  height: 3px;
+  top: -5px;
+  left: 12px;
+  animation-delay: 0s;
+}
+
+.spark-2 {
+  width: 2px;
+  height: 2px;
+  top: -8px;
+  left: 8px;
+  animation-delay: 1s;
+}
+
+.spark-3 {
+  width: 2px;
+  height: 2px;
+  top: -10px;
+  left: 16px;
+  animation-delay: 2s;
+}
+
+/* Smoke */
+.smoke {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  animation: smoke-rise 4s infinite linear;
+  top: -90px;
+}
+
+.smoke-1 {
+  width: 8px;
+  height: 8px;
+  left: 13px;
+  animation-delay: 0s;
+}
+
+.smoke-2 {
+  width: 6px;
+  height: 6px;
+  left: 10px;
+  animation-delay: 1.3s;
+}
+
+.smoke-3 {
+  width: 7px;
+  height: 7px;
+  left: 16px;
+  animation-delay: 2.7s;
+}
+
+/* Animations */
+@keyframes flicker-main {
+  0% {
+    transform: scaleY(1) scaleX(1) translateX(0);
+    opacity: 0.9;
+  }
+  25% {
+    transform: scaleY(1.1) scaleX(1.05) translateX(-1px);
+    opacity: 1;
+  }
+  50% {
+    transform: scaleY(0.95) scaleX(1.1) translateX(1px);
+    opacity: 0.85;
+  }
+  75% {
+    transform: scaleY(1.05) scaleX(0.95) translateX(-0.5px);
+    opacity: 0.95;
+  }
+  100% {
+    transform: scaleY(1.02) scaleX(0.98) translateX(0.5px);
+    opacity: 0.92;
+  }
+}
+
+@keyframes flicker-inner {
+  0%,
+  100% {
+    transform: scaleY(1) scaleX(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scaleY(1.2) scaleX(0.9);
+    opacity: 1;
+  }
+}
+
+@keyframes flicker-outer {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes glow-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+}
+
+@keyframes spark-float {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-30px) translateX(5px);
+    opacity: 0;
+  }
+}
+
+@keyframes smoke-rise {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-50px) translateX(10px) scale(1.5);
+    opacity: 0.2;
+  }
+  80% {
+    transform: translateY(-100px) translateX(-5px) scale(2);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateY(-150px) translateX(8px) scale(2.5);
+    opacity: 0;
+  }
+}
