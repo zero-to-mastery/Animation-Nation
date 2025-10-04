@@ -17,6 +17,14 @@
   },
   {
     "author": "Bharath-dev05",
+    "artName": "glowing bulb",
+    "githubLink": "https://github.com/Bharath-dev05",
+    "pageLink": "./Art/Bharath-dev05-glowing-bulb/index.html",
+    "imageLink": "./Art/Bharath-dev05-glowing-bulb/icon.png",
+    "projectPath": "Art/Bharath-dev05-glowing-bulb"
+  },
+  {
+    "author": "Bharath-dev05",
     "artName": "Solar System",
     "githubLink": "https://github.com/Bharath-dev05",
     "pageLink": "./Art/Bharath-dev05-solar-system/index.html",
