@@ -1,0 +1,217 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: radial-gradient(circle at 50% 30%, #0b1220, #05070d 60%, #01030a);
+  color: #ffd166;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.stage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(
+      2px 2px at 10% 20%,
+      #ffffff40 40%,
+      transparent 41%
+    ),
+    radial-gradient(2px 2px at 30% 70%, #ffffff30 40%, transparent 41%),
+    radial-gradient(1.5px 1.5px at 80% 35%, #ffffff20 40%, transparent 41%),
+    radial-gradient(1.5px 1.5px at 65% 85%, #ffffff25 40%, transparent 41%);
+}
+
+.emitter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 140px;
+  height: 140px;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 8px 20px rgba(255, 209, 102, 0.25));
+}
+
+.core {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    circle at 35% 30%,
+    #ffe9a6,
+    #ffc94b 60%,
+    #ffad1f 100%
+  );
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  animation: spin 6s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.vec {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  transform-origin: 0 0;
+}
+
+.s1 {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.s2 {
+  transform: translate(-50%, -50%) rotate(30deg);
+}
+.s3 {
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+.s4 {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.s5 {
+  transform: translate(-50%, -50%) rotate(120deg);
+}
+.s6 {
+  transform: translate(-50%, -50%) rotate(150deg);
+}
+
+.spark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 14px;
+  height: 14px;
+  transform-origin: left center;
+  background: radial-gradient(
+    circle at 35% 30%,
+    #fff9f0,
+    #ffd166 60%,
+    #ff9f1c 100%
+  );
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  box-shadow: 0 0 8px #ffd16688, 0 0 16px #ffd16655, 0 0 28px #ff9f1c44;
+  opacity: 0;
+  animation: shoot 1.4s ease-out infinite;
+}
+
+.spark::after {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  clip-path: inherit;
+  background: radial-gradient(circle, #ffd16655, transparent 70%);
+  filter: blur(2px);
+  opacity: 0.6;
+}
+
+@keyframes shoot {
+  0% {
+    transform: translateX(0) scale(0.4);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translateX(180px) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(220px) scale(0.9);
+    opacity: 0;
+  }
+}
+
+.d0 {
+  animation-delay: 0s;
+}
+.d1 {
+  animation-delay: 0.12s;
+}
+.d2 {
+  animation-delay: 0.24s;
+}
+.d3 {
+  animation-delay: 0.36s;
+}
+.d4 {
+  animation-delay: 0.48s;
+}
+.d5 {
+  animation-delay: 0.6s;
+}
+.d6 {
+  animation-delay: 0.72s;
+}
+.d7 {
+  animation-delay: 0.84s;
+}
+.d8 {
+  animation-delay: 0.96s;
+}
+.d9 {
+  animation-delay: 1.08s;
+}
+.d10 {
+  animation-delay: 1.2s;
+}
+.d11 {
+  animation-delay: 1.32s;
+}
+
+.core::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 120px;
+  height: 120px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffd16633, transparent 60%);
+  animation: pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.12);
+    opacity: 0.85;
+  }
+}
