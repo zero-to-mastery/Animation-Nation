@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bylerma - Animated Artwork</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+      font-family: 'Arial', sans-serif;
+      position: relative;
+    }
+
+    .container {
+      text-align: center;
+      position: relative;
+      z-index: 10;
+    }
+
+    .name {
+      font-size: 5rem;
+      font-weight: bold;
+      color: #fff;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      text-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(255, 255, 255, 0.6),
+        0 0 30px rgba(230, 0, 115, 0.8),
+        0 0 40px rgba(230, 0, 115, 0.6);
+      animation: glow 2s ease-in-out infinite alternate;
+      transition: all 0.3s ease;
+    }
+
+    .name:hover {
+      transform: scale(1.1);
+      letter-spacing: 0.4em;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: rgba(255, 255, 255, 0.9);
+      margin-top: 20px;
+      letter-spacing: 0.2em;
+      animation: fadeIn 3s ease-in;
+    }
+
+    .underline {
+      width: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+      margin: 20px auto;
+      border-radius: 2px;
+      animation: expand 3s ease-out 1s forwards;
+    }
+
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      animation: float 6s ease-in-out infinite;
+      backdrop-filter: blur(2px);
+    }
+
+    .circle:nth-child(1) {
+      width: 80px;
+      height: 80px;
+      top: 10%;
+      left: 20%;
+      animation-delay: 0s;
+    }
+
+    .circle:nth-child(2) {
+      width: 120px;
+      height: 120px;
+      top: 60%;
+      right: 15%;
+      animation-delay: 1s;
+    }
+
+    .circle:nth-child(3) {
+      width: 60px;
+      height: 60px;
+      bottom: 20%;
+      left: 15%;
+      animation-delay: 2s;
+    }
+
+    .circle:nth-child(4) {
+      width: 100px;
+      height: 100px;
+      top: 30%;
+      right: 25%;
+      animation-delay: 1.5s;
+    }
+
+    .particle {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 50%;
+      animation: sparkle 4s linear infinite;
+    }
+
+    .particle:nth-child(5) { top: 20%; left: 30%; animation-delay: 0s; }
+    .particle:nth-child(6) { top: 70%; left: 60%; animation-delay: 1s; }
+    .particle:nth-child(7) { top: 40%; left: 80%; animation-delay: 2s; }
+    .particle:nth-child(8) { top: 80%; left: 20%; animation-delay: 3s; }
+
+    @keyframes glow {
+      from {
+        text-shadow: 
+          0 0 10px rgba(255, 255, 255, 0.8),
+          0 0 20px rgba(255, 255, 255, 0.6),
+          0 0 30px rgba(230, 0, 115, 0.8),
+          0 0 40px rgba(230, 0, 115, 0.6);
+      }
+      to {
+        text-shadow: 
+          0 0 20px rgba(255, 255, 255, 1),
+          0 0 30px rgba(255, 255, 255, 0.8),
+          0 0 40px rgba(230, 0, 115, 1),
+          0 0 50px rgba(230, 0, 115, 0.8),
+          0 0 60px rgba(230, 0, 115, 0.6);
+      }
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0.3;
+      }
+      50% {
+        transform: translateY(-30px) rotate(180deg);
+        opacity: 0.6;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes expand {
+      from {
+        width: 0;
+      }
+      to {
+        width: 400px;
+      }
+    }
+
+    @keyframes sparkle {
+      0%, 100% {
+        opacity: 0;
+        transform: scale(0);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .name {
+        font-size: 3rem;
+        letter-spacing: 0.2em;
+      }
+      .subtitle {
+        font-size: 1rem;
+      }
+      @keyframes expand {
+        to {
+          width: 250px;
+        }
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  
+  <div class="container">
+    <h1 class="name">Bylerma</h1>
+    <div class="underline"></div>
+    <p class="subtitle">Animated with HTML & CSS</p>
+  </div>
+</body>
+</html>
