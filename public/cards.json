@@ -17,6 +17,22 @@
   },
   {
     "author": "Bharath-dev05",
+    "artName": "falling leaves",
+    "githubLink": "https://github.com/Bharath-dev05",
+    "pageLink": "./Art/Bharath-dev05-falling-leaves/index.html",
+    "imageLink": "./Art/Bharath-dev05-falling-leaves/icon.png",
+    "projectPath": "Art/Bharath-dev05-falling-leaves"
+  },
+  {
+    "author": "Bharath-dev05",
+    "artName": "glowing bulb",
+    "githubLink": "https://github.com/Bharath-dev05",
+    "pageLink": "./Art/Bharath-dev05-glowing-bulb/index.html",
+    "imageLink": "./Art/Bharath-dev05-glowing-bulb/icon.png",
+    "projectPath": "Art/Bharath-dev05-glowing-bulb"
+  },
+  {
+    "author": "Bharath-dev05",
     "artName": "Solar System",
     "githubLink": "https://github.com/Bharath-dev05",
     "pageLink": "./Art/Bharath-dev05-solar-system/index.html",
@@ -38,6 +54,13 @@
     "pageLink": "./Art/Bharath-dev05-water-fall/index.html",
     "imageLink": "./Art/Bharath-dev05-water-fall/icon.png",
     "projectPath": "Art/Bharath-dev05-water-fall"
+  },
+  {
+    "artName": "Searching",
+    "githubLink": "https://github.com/undefined",
+    "pageLink": "./Art/Saptarshi1984-searching/index.html",
+    "imageLink": "./Art/Saptarshi1984-searching/icon.png",
+    "projectPath": "Art/Saptarshi1984-searching"
   },
   {
     "author": "Vatsakala",
