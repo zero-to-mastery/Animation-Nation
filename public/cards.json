@@ -9,6 +9,14 @@
   },
   {
     "author": "Vatsakala",
+    "artName": "neon curves",
+    "githubLink": "https://github.com/Vatsakala",
+    "pageLink": "./Art/Vatsakala-neon-curves/index.html",
+    "imageLink": "./Art/Vatsakala-neon-curves/icon.png",
+    "projectPath": "Art/Vatsakala-neon-curves"
+  },
+  {
+    "author": "Vatsakala",
     "artName": "shooting meteors",
     "githubLink": "https://github.com/Vatsakala",
     "pageLink": "./Art/Vatsakala-shooting-meteors/index.html",
