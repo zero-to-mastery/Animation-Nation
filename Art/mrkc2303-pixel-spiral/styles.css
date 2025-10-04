@@ -1,0 +1,77 @@
+:root {
+  --bg: #0b0e19;
+  --c1: #8fd3ff;
+  --c2: #b49bff;
+  --c3: #ff8aa5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: radial-gradient(
+    1000px 900px at 50% 65%,
+    #111a39 0,
+    var(--bg) 65%
+  );
+  color: #e8edff;
+  font-family: system-ui, sans-serif;
+}
+
+.stage {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.spiral {
+  position: relative;
+  width: 420px;
+  height: 420px;
+  filter: drop-shadow(0 0 8px #ffffff22);
+  animation: turn 12s linear infinite;
+}
+
+.spiral > div {
+  --size: calc(6px + var(--i) * 0.4px);
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: var(--size);
+  height: var(--size);
+  background: conic-gradient(
+    from 90deg,
+    var(--c1),
+    var(--c2),
+    var(--c3),
+    var(--c1)
+  );
+  border-radius: 3px;
+  transform: rotate(calc(var(--i) * 10deg)) translate(calc(var(--i) * 4px))
+    rotate(calc(var(--i) * 10deg));
+  animation: pulse 2.4s ease-in-out calc(var(--i) * 30ms) infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.75;
+    filter: brightness(1);
+  }
+
+  50% {
+    opacity: 1;
+    filter: brightness(1.25);
+  }
+}
+
+@keyframes turn {
+  to {
+    transform: rotate(360deg);
+  }
+}
