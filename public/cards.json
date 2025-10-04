@@ -169,6 +169,14 @@
   },
   {
     "author": "mrkc2303",
+    "artName": "kaleido spin",
+    "githubLink": "https://github.com/mrkc2303",
+    "pageLink": "./Art/mrkc2303-kaleido-spin/index.html",
+    "imageLink": "./Art/mrkc2303-kaleido-spin/icon.png",
+    "projectPath": "Art/mrkc2303-kaleido-spin"
+  },
+  {
+    "author": "mrkc2303",
     "artName": "neon radar",
     "githubLink": "https://github.com/mrkc2303",
     "pageLink": "./Art/mrkc2303-neon-radar/index.html",
