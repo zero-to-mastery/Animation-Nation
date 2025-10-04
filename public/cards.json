@@ -372,5 +372,13 @@
     "pageLink": "./Art/nithinu2802-cyber-radar/index.html",
     "imageLink": "./Art/nithinu2802-cyber-radar/icon.png",
     "projectPath": "Art/nithinu2802-cyber-radar"
+  },
+  {
+    "author": "ornitcg",
+    "artName": "rolling egg",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-rolling-egg/index.html",
+    "imageLink": "./Art/ornitcg-rolling-egg/icon.png",
+    "projectPath": "Art/ornitcg-rolling-egg"
   }
 ]
