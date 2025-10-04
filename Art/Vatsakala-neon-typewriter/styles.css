@@ -9,7 +9,6 @@ body {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
 }
 
-/* === Frame === */
 .frame {
   position: relative;
   width: min(92vmin, 900px);
@@ -25,7 +24,6 @@ body {
     inset 0 1px 0 #ffffff33;
 }
 
-/* === Neon Grid Background === */
 .glow-grid {
   position: absolute; inset: 0;
   background:
@@ -79,7 +77,6 @@ body {
   content: attr(data-text);
 }
 
-/* Typing Layer */
 .line::after {
   content: attr(data-text);
   position: absolute; inset: 0;
@@ -112,7 +109,6 @@ body {
   50%, 100% { border-right-color: transparent; }
 }
 
-/* Subtle Scanline Shine */
 .terminal::after {
   content: "";
   position: absolute; inset: 0;
