@@ -224,6 +224,14 @@
     "projectPath": "Art/liketiger-spinning-top"
   },
   {
+    "author": "liketiger",
+    "artName": "jesus",
+    "githubLink": "https://github.com/liketiger",
+    "pageLink": "./Art/liketiger-zeus/index.html",
+    "imageLink": "./Art/liketiger-zeus/icon.png",
+    "projectPath": "Art/liketiger-zeus"
+  },
+  {
     "author": "mattcsmith",
     "artName": "triangle",
     "githubLink": "https://github.com/mattcsmith",
