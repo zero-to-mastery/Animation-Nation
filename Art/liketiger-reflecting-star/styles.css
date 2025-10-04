@@ -1,0 +1,259 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 50% 35%, #0b1020, #060914 60%, #03050b);
+  overflow: hidden;
+}
+
+.arena {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 2px solid #7cc0ff66;
+  box-shadow: inset 0 0 40px #1b3a5b66, 0 8px 24px rgba(0, 0, 0, 0.35);
+  background: radial-gradient(circle at 50% 50%, #0e1628, #0a1222 65%, #08101e);
+  overflow: hidden;
+}
+
+.bullet,
+.ghost {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  transform: translate(0, 0);
+  animation: bounceStar 2.8s linear infinite;
+}
+
+.bullet {
+  background: radial-gradient(circle at 35% 30%, #ffffff, #bfe3ff 60%, #7cc0ff);
+  box-shadow: 0 0 6px 2px rgba(124, 192, 255, 0.65),
+    0 0 16px 6px rgba(124, 192, 255, 0.35);
+}
+
+.ghost {
+  width: 10px;
+  height: 10px;
+  background: radial-gradient(circle at 35% 30%, #f3fbff, #a5d7ff 70%, #6fb6ff);
+  opacity: 0.55;
+  filter: blur(0.6px) saturate(1.05);
+  box-shadow: 0 0 8px 2px rgba(124, 192, 255, 0.25),
+    0 0 18px 8px rgba(124, 192, 255, 0.18);
+}
+
+.g1 {
+  animation-delay: -0.06s;
+  opacity: 0.52;
+}
+.g2 {
+  animation-delay: -0.12s;
+  opacity: 0.46;
+}
+.g3 {
+  animation-delay: -0.18s;
+  opacity: 0.4;
+}
+.g4 {
+  animation-delay: -0.24s;
+  opacity: 0.34;
+}
+.g5 {
+  animation-delay: -0.3s;
+  opacity: 0.28;
+}
+.g6 {
+  animation-delay: -0.36s;
+  opacity: 0.22;
+}
+.g7 {
+  animation-delay: -0.42s;
+  opacity: 0.16;
+}
+.g8 {
+  animation-delay: -0.48s;
+  opacity: 0.1;
+}
+.g9 {
+  animation-delay: -0.54s;
+  opacity: 0.1;
+}
+.g10 {
+  animation-delay: -0.6s;
+  opacity: 0.1;
+}
+.g11 {
+  animation-delay: -0.66s;
+  opacity: 0.1;
+}
+.g12 {
+  animation-delay: -0.72s;
+  opacity: 0.1;
+}
+.g13 {
+  animation-delay: -0.78s;
+  opacity: 0.1;
+}
+.g14 {
+  animation-delay: -0.84s;
+  opacity: 0.1;
+}
+.g15 {
+  animation-delay: -0.9s;
+  opacity: 0.1;
+}
+.g16 {
+  animation-delay: -0.96s;
+  opacity: 0.1;
+}
+.g17 {
+  animation-delay: -1.02s;
+  opacity: 0.1;
+}
+.g18 {
+  animation-delay: -1.08s;
+  opacity: 0.1;
+}
+.g19 {
+  animation-delay: -1.14s;
+  opacity: 0.1;
+}
+.g20 {
+  animation-delay: -1.2s;
+  opacity: 0.1;
+}
+.g21 {
+  animation-delay: -1.26s;
+  opacity: 0.1;
+}
+.g22 {
+  animation-delay: -1.32s;
+  opacity: 0.1;
+}
+.g23 {
+  animation-delay: -1.38s;
+  opacity: 0.1;
+}
+.g24 {
+  animation-delay: -1.44s;
+  opacity: 0.1;
+}
+.g25 {
+  animation-delay: -1.5s;
+  opacity: 0.1;
+}
+.g26 {
+  animation-delay: -1.56s;
+  opacity: 0.1;
+}
+.g27 {
+  animation-delay: -1.62s;
+  opacity: 0.1;
+}
+.g28 {
+  animation-delay: -1.68s;
+  opacity: 0.1;
+}
+.g29 {
+  animation-delay: -1.74s;
+  opacity: 0.1;
+}
+.g30 {
+  animation-delay: -1.8s;
+  opacity: 0.1;
+}
+.g31 {
+  animation-delay: -1.86s;
+  opacity: 0.1;
+}
+.g32 {
+  animation-delay: -1.92s;
+  opacity: 0.1;
+}
+.g33 {
+  animation-delay: -1.98s;
+  opacity: 0.1;
+}
+.g34 {
+  animation-delay: -2.04s;
+  opacity: 0.1;
+}
+.g35 {
+  animation-delay: -2.1s;
+  opacity: 0.1;
+}
+.g36 {
+  animation-delay: -2.16s;
+  opacity: 0.1;
+}
+.g37 {
+  animation-delay: -2.22s;
+  opacity: 0.1;
+}
+.g38 {
+  animation-delay: -2.28s;
+  opacity: 0.1;
+}
+.g39 {
+  animation-delay: -2.34s;
+  opacity: 0.1;
+}
+.g40 {
+  animation-delay: -2.4s;
+  opacity: 0.1;
+}
+
+@keyframes bounceStar {
+  0% {
+    transform: translate(34.7px, 75px);
+  }
+  20% {
+    transform: translate(225.3px, 75px);
+  }
+  40% {
+    transform: translate(34.7px, 185px);
+  }
+  60% {
+    transform: translate(130px, 20px);
+  }
+  80% {
+    transform: translate(225.3px, 185px);
+  }
+  100% {
+    transform: translate(34.7px, 75px);
+  }
+}
+
+.bullet::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 22px;
+  height: 22px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.55),
+    transparent 70%
+  );
+  animation: flash 2.8s steps(5, end) infinite;
+  pointer-events: none;
+}
+@keyframes flash {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.95;
+  }
+}
