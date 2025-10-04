@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: #070b12;
+  color: #eaf9ff;
+  font-family: ui-sans-serif, system-ui, Segoe UI, Roboto, Inter, sans-serif;
+}
+
+.frame {
+  position: relative;
+  width: min(92vmin, 820px);
+  aspect-ratio: 16/9;
+  border-radius: 28px;
+  overflow: hidden;
+  isolation: isolate;
+  background: transparent;
+  box-shadow: 0 28px 90px #000a;
+  display: grid;
+  place-items: center;
+}
+
+.board {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  background: radial-gradient(
+    130% 100% at 50% -20%,
+    #0a1825 0,
+    #081522 60%,
+    #050a14 100%
+  );
+  box-shadow: inset 0 0 0 1px #ffffff10, inset 0 18px 50px #0008;
+}
+
+.board::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  --cell: 36px;
+  background: linear-gradient(#ffffff12 1px, transparent 1px) 0 0 / var(--cell)
+      var(--cell),
+    linear-gradient(90deg, #ffffff10 1px, transparent 1px) 0 0 / var(--cell)
+      var(--cell);
+  opacity: 0.55;
+  pointer-events: none;
+  -webkit-mask: radial-gradient(
+    140% 120% at 50% 50%,
+    #000 65%,
+    transparent 100%
+  );
+  mask: radial-gradient(140% 120% at 50% 50%, #000 65%, transparent 100%);
+}
+
+.board::after {
+  content: '';
+  position: absolute;
+  width: 6.2%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 2px #00ffd0 inset, 0 0 18px 4px #00ffd060;
+  background: radial-gradient(
+    circle at 50% 50%,
+    #00ffd033 0 45%,
+    #00ffd000 60%
+  );
+  animation: targets 9.5s steps(1, end) infinite;
+  z-index: 1;
+}
+
+.food {
+  position: absolute;
+  width: 5.6%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle at 35% 35%, #fff9, #0000 45%),
+    radial-gradient(circle at 50% 60%, #52ff85, #16f1ff 70%);
+  box-shadow: 0 0 28px 10px #3cff8f90, 0 0 2px 1px #16f1ff88 inset;
+  z-index: 2;
+  animation: runner 9.5s cubic-bezier(0.65, 0.05, 0.25, 1) infinite,
+    glow 1.2s ease-in-out infinite alternate;
+}
+
+.food::after {
+  content: '';
+  position: absolute;
+  inset: -20% -20% -35% -20%;
+  transform: translateZ(0) scaleY(0.6);
+  background: radial-gradient(
+    100% 140% at 50% 0%,
+    #16f1ff55 0 45%,
+    #16f1ff00 70%
+  );
+  filter: blur(10px);
+  opacity: 0.7;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+@keyframes runner {
+  0% {
+    left: 18%;
+    top: 76%;
+  }
+  12% {
+    left: 46%;
+    top: 58%;
+  }
+  20% {
+    left: 54%;
+    top: 42%;
+  }
+  32% {
+    left: 40%;
+    top: 60%;
+  }
+  45% {
+    left: 26%;
+    top: 74%;
+  }
+  60% {
+    left: 54%;
+    top: 56%;
+  }
+  72% {
+    left: 76%;
+    top: 62%;
+  }
+  86% {
+    left: 46%;
+    top: 70%;
+  }
+  100% {
+    left: 18%;
+    top: 76%;
+  }
+}
+
+@keyframes targets {
+  0%,
+  20% {
+    left: 54%;
+    top: 42%;
+  }
+  20.01%,
+  45% {
+    left: 26%;
+    top: 74%;
+  }
+  45.01%,
+  72% {
+    left: 76%;
+    top: 62%;
+  }
+  72.01%,
+  100% {
+    left: 18%;
+    top: 76%;
+  }
+}
+
+@keyframes glow {
+  to {
+    filter: brightness(1.2);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .food {
+    animation-duration: 12s, 1.6s;
+  }
+  .board::after {
+    animation-duration: 12s;
+  }
+}
