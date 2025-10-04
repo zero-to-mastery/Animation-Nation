@@ -9,6 +9,14 @@
   },
   {
     "author": "Bharath-dev05",
+    "artName": "clouds",
+    "githubLink": "https://github.com/Bharath-dev05",
+    "pageLink": "./Art/Bharath-dev05-clouds/index.html",
+    "imageLink": "./Art/Bharath-dev05-clouds/icon.png",
+    "projectPath": "Art/Bharath-dev05-clouds"
+  },
+  {
+    "author": "Bharath-dev05",
     "artName": "Solar System",
     "githubLink": "https://github.com/Bharath-dev05",
     "pageLink": "./Art/Bharath-dev05-solar-system/index.html",
