@@ -17,6 +17,14 @@
   },
   {
     "author": "Bharath-dev05",
+    "artName": "falling leaves",
+    "githubLink": "https://github.com/Bharath-dev05",
+    "pageLink": "./Art/Bharath-dev05-falling-leaves/index.html",
+    "imageLink": "./Art/Bharath-dev05-falling-leaves/icon.png",
+    "projectPath": "Art/Bharath-dev05-falling-leaves"
+  },
+  {
+    "author": "Bharath-dev05",
     "artName": "glowing bulb",
     "githubLink": "https://github.com/Bharath-dev05",
     "pageLink": "./Art/Bharath-dev05-glowing-bulb/index.html",
