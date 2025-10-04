@@ -69,37 +69,31 @@ html, body {
 .shape::before{
   content: "";
   position: absolute;
-  inset: -30%;                  /* slightly larger halo for prominence */
+  inset: -30%;                  
   border-radius: inherit;
-
-  /* Multicolor aura using ONLY radial blends (no angular bands) */
   background:
-    /* cyan core */
     radial-gradient(130% 130% at 50% 45%,
       rgba(0,255,234,.70) 0%,
       rgba(0,255,234,0) 60%),
 
-    /* magenta wash */
     radial-gradient(160% 160% at 70% 35%,
       rgba(255,0,200,.55) 0%,
       rgba(255,0,200,0) 72%),
 
-    /* electric blue wash */
     radial-gradient(150% 150% at 35% 70%,
       rgba(26,125,255,.55) 0%,
       rgba(26,125,255,0) 74%),
 
-    /* neon green-teal wash */
     radial-gradient(170% 170% at 62% 72%,
       rgba(0,255,170,.50) 0%,
       rgba(0,255,170,0) 78%);
 
-  filter: blur(30px) saturate(1.5) brightness(1.05);  /* stronger, glowy */
-  opacity: .95;                                       /* more visible */
+  filter: blur(30px) saturate(1.5) brightness(1.05);  
+  opacity: .95;                                      
   mix-blend-mode: screen;
   pointer-events: none;
 
-  /* keep your existing pulse timing */
+
   animation: pulse var(--dur-pulse) ease-in-out infinite;
 }
 
@@ -141,7 +135,6 @@ html, body {
   75%     { --sc: 1.03; }
 }
 
-/* keep your pulse animation */
 @keyframes pulse {
   0%,100% { opacity: .68; transform: scale(1); }
   50%     { opacity: .9;  transform: scale(1.04); }
