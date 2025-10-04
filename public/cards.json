@@ -153,6 +153,14 @@
   },
   {
     "author": "huzfm",
+    "artName": "CSS cityscape",
+    "githubLink": "https://github.com/huzfm",
+    "pageLink": "./Art/huzfm-css-cityscape/index.html",
+    "imageLink": "./Art/huzfm-css-cityscape/icon.png",
+    "projectPath": "Art/huzfm-css-cityscape"
+  },
+  {
+    "author": "huzfm",
     "artName": "Neon Orbit Animation",
     "githubLink": "https://github.com/huzfm",
     "pageLink": "./Art/huzfm-neon-orbit-animation/index.html",
