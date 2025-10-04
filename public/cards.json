@@ -216,6 +216,14 @@
   },
   {
     "author": "huzfm",
+    "artName": "Missile hitting target Animation",
+    "githubLink": "https://github.com/huzfm",
+    "pageLink": "./Art/huzfm-missile/index.html",
+    "imageLink": "./Art/huzfm-missile/icon.png",
+    "projectPath": "Art/huzfm-missile"
+  },
+  {
+    "author": "huzfm",
     "artName": "Neon Orbit Animation",
     "githubLink": "https://github.com/huzfm",
     "pageLink": "./Art/huzfm-neon-orbit-animation/index.html",
