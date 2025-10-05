@@ -1,3 +1,12 @@
+:root {
+  /* Change settings here if needed*/
+  --stick-man-animation-size: min(100vw, 100vh);
+  --stick-man-animation-bg-color: lightskyblue;
+  --stick-man-foreground-color: black;
+  --stick-man-speech-bg-color: lightgoldenrodyellow;
+  --stick-man-speech-font: sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,28 +15,19 @@ html,
 body {
   height: 100%;
   margin: 0;
-  background-color: lightskyblue;
-}
-
-.stick-figure {
-  --size: min(100vw, 100vh);
+  background-color: var(--stick-man-animation-bg-color);
 }
 
 .stick-figure {
   position: absolute;
-  width: var(--size);
-  height: var(--size);
+  width: var(--stick-man-animation-size);
+  height: var(--stick-man-animation-size);
   border: 0;
   margin: auto;
-  background: lightskyblue;
-  box-sizing: border-box;
+  background-color: var(--stick-man-animation-bg-color);
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-}
-
-.stick-figure * {
-  box-sizing: border-box;
 }
 
 .speech-bubble {
@@ -36,30 +36,29 @@ body {
   top: 5%;
   min-width: 55%;
   max-width: 65%;
-  background: #fff;
-  border: calc(.02 * var(--size)) solid #333;
-  border-radius: calc(.1 * var(--size));
-  padding: calc(.04 * var(--size));
-  font-size: calc(.06 * var(--size));
+  border: calc(.02 * var(--stick-man-animation-size)) solid var(--stick-man-foreground-color);
+  border-radius: calc(.1 * var(--stick-man-animation-size));
+  padding: calc(.04 * var(--stick-man-animation-size));
+  font-size: calc(.06 * var(--stick-man-animation-size));
   font-weight: bold;
-  color: #222;
-  box-shadow: calc(.02 * var(--size)) calc(.04 * var(--size)) calc(.12 * var(--size)) rgba(0,0,0,0.08);
+  color: var(--stick-man-foreground-color);
+  box-shadow: calc(.02 * var(--stick-man-animation-size)) calc(.04 * var(--stick-man-animation-size)) calc(.12 * var(--stick-man-animation-size)) rgba(0,0,0,0.08);
   z-index: 10;
-  background-color: lightgoldenrodyellow;
-  font-family: sans-serif;
+  background-color: var(--stick-man-speech-bg-color);
+  font-family: var(--stick-man-speech-font);
 }
 .speech-bubble:after {
   content: '';
   position: absolute;
-  left: calc(-.07 * var(--size));
+  left: calc(-.07 * var(--stick-man-animation-size));
   top: 50%;
   transform: translateY(-50%);
   width: 0;
   height: 0;
-  border-top: calc(.05 * var(--size)) solid transparent;
-  border-bottom: calc(.05 * var(--size)) solid transparent;
-  border-right: calc(.09 * var(--size)) solid lightgoldenrodyellow;
-  filter: drop-shadow(calc(-.02 * var(--size)) 0 0 #333);
+  border-top: calc(.05 * var(--stick-man-animation-size)) solid transparent;
+  border-bottom: calc(.05 * var(--stick-man-animation-size)) solid transparent;
+  border-right: calc(.09 * var(--stick-man-animation-size)) solid var(--stick-man-speech-bg-color);
+  filter: drop-shadow(calc(-.02 * var(--stick-man-animation-size)) 0 0 var(--stick-man-foreground-color));
 }
 
 /* Head */
@@ -69,16 +68,16 @@ body {
   left: 16%;
   width: 15%;
   height: 15%;
-  border: calc(.03 * var(--size)) solid #000;
+  border: calc(.03 * var(--stick-man-animation-size)) solid var(--stick-man-foreground-color);
   border-radius: 50%;
   margin: 0 auto;
 }
 
 /* Body */
 .body {
-  width: calc(.08 * var(--size));
+  width: calc(.08 * var(--stick-man-animation-size));
   height: 25%;
-  background: #000;
+  background: var(--stick-man-foreground-color);
   margin: 0 auto;
   position: absolute;
   top: 30%;
@@ -91,8 +90,8 @@ body {
   position: absolute;
   top: 31%;
   width: 25%;
-  height: calc(.04 * var(--size));
-  background: #000;
+  height: calc(.04 * var(--stick-man-animation-size));
+  background: var(--stick-man-foreground-color);
   transform-origin: left center;
 }
 
@@ -112,9 +111,9 @@ body {
   position: absolute;
   top: 55%; /* start at the bottom of the body */
   left: 24%;
-  width: calc(.04 * var(--size));
+  width: calc(.04 * var(--stick-man-animation-size));
   height: 35%;
-  background: #000;
+  background: var(--stick-man-foreground-color);
   transform-origin: top center;
 }
 
