@@ -24,7 +24,6 @@ ice-wrapper {
   margin-top: 25px;
 }
 
-
 goal {
   display: flex;
   font-family: column;
@@ -36,9 +35,7 @@ goal {
   border-bottom-left-radius: 0px;
   border: 8px solid black;
   border-bottom-color: transparent;
-
   filter: drop-shadow(2px 8px 3px #6a6262);
-
 }
 
 red-line {
