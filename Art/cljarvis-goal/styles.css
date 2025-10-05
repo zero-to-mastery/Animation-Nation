@@ -34,16 +34,16 @@ goal {
   border-radius: 40%;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
-  border: 8px groove black;
+  border: 8px solid black;
   border-bottom-color: transparent;
 
-
+  filter: drop-shadow(2px 8px 3px #6a6262);
 
 }
 
 red-line{
   width: 100%;
-  height: 10px;
+  height: 12px;
   background-color: red;
   margin-top: -5px;
   z-index: 5;
@@ -55,8 +55,8 @@ blue {
   background-color: blue;
   border: 10px solid red;
   border-radius: 40%;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
   border-top-color: transparent;
   margin-top: -10px;
 }
@@ -78,7 +78,7 @@ puck {
   border-radius: 50%;
   background-color: black;
   border: 2px solid gray;
-  animation: puck 2s ease-out 2s;
+  animation: puck 4s linear 2s; /* infinite; */
   filter: drop-shadow(2px 8px 3px #6a6262);
   z-index: 10;
 
@@ -90,5 +90,52 @@ puck {
     }
     to {
         transform: translateY(-400px);
+    }
+}
+
+text{
+  width: 50px;
+  height: 500px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column-reverse;
+  position: relative;
+  margin-top: -200px;
+}
+
+cheer{
+  font-size: 40px;
+  color: gold;
+  animation: cheer 2s ease-in 2s;
+}
+
+@keyframes cheer {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-500px);
+    }
+}
+
+stick {
+  width: 100px;
+  height: 200px;
+  background-color: transparent;
+  border: 10px solid black;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  position: relative;
+  margin-bottom: 270px;
+  animation: shoot 2s ease-in 2s;
+}
+
+@keyframes shoot {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100px);
     }
 }
