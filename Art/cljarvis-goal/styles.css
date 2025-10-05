@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-ice: rgb(240, 240, 240);
+}
+
+body {
+  background: var(--background-ice);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ice-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+
+goal {
+  display: flex;
+  font-family: column;
+  background: var(--background-ice);
+  width: 400px;
+  height: 150px;
+  border-radius: 40%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 2px solid black;
+  border-bottom-color: red;
+
+
+
+}
+
+red-line{
+  width: 100%;
+  height: 10px;
+  background-color: red;
+  margin-top: -5px;
+}
+
+one-timer{
+  width: 50px;
+  height: 400px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column-reverse;
+
+  margin-top: -55px; 
+}
+
+puck {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  border: 2px solid blue;
+  animation: puck 2s ease-out 2s;
+
+}
+
+@keyframes puck {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-400px);
+    }
+}
