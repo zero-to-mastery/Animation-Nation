@@ -32,10 +32,10 @@ goal {
   width: 400px;
   height: 150px;
   border-radius: 40%;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border: 2px solid black;
-  border-bottom-color: red;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 8px groove black;
+  border-bottom-color: transparent;
 
 
 
@@ -46,6 +46,19 @@ red-line{
   height: 10px;
   background-color: red;
   margin-top: -5px;
+  z-index: 5;
+}
+
+blue {
+  width: 400px;
+  height: 150px;
+  background-color: blue;
+  border: 10px solid red;
+  border-radius: 40%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-color: transparent;
+  margin-top: -10px;
 }
 
 one-timer{
@@ -55,8 +68,8 @@ one-timer{
   justify-content: end;
   align-items: center;
   flex-direction: column-reverse;
-
-  margin-top: -55px; 
+  position: relative;
+  margin-top: -200px;
 }
 
 puck {
@@ -64,8 +77,10 @@ puck {
   height: 40px;
   border-radius: 50%;
   background-color: black;
-  border: 2px solid blue;
+  border: 2px solid gray;
   animation: puck 2s ease-out 2s;
+  filter: drop-shadow(2px 8px 3px #6a6262);
+  z-index: 10;
 
 }
 
