@@ -1,0 +1,149 @@
+body {
+  min-height: 100vh;
+  background: #1a1a2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.wifi-container {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wifi-dot {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  background: #43e97b;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 10px #43e97b99;
+  animation: dotPulse 2.2s infinite;
+}
+
+@keyframes dotPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 10px #43e97b99;
+  }
+  50% {
+    box-shadow: 0 0 22px #43e97b;
+  }
+}
+
+.wifi-bar {
+  position: absolute;
+  left: 50%;
+  border-radius: 70px 70px 0 0;
+  border: 7px solid transparent;
+  border-bottom: none;
+  transform: translateX(-50%) scaleX(1.03);
+  opacity: 0.7;
+}
+
+.bar1 {
+  bottom: 24px;
+  width: 42px;
+  height: 30px;
+  border-top: 7px solid #43e97b;
+  z-index: 3;
+  animation: bar1Anim 2.2s infinite;
+}
+.bar2 {
+  bottom: 10px;
+  width: 74px;
+  height: 54px;
+  border-top: 7px solid #38f9d7;
+  z-index: 2;
+  animation: bar2Anim 2.2s infinite;
+}
+.bar3 {
+  bottom: -10px;
+  width: 110px;
+  height: 82px;
+  border-top: 7px solid #ff6ec4;
+  z-index: 1;
+  animation: bar3Anim 2.2s infinite;
+}
+
+@keyframes bar1Anim {
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: translateX(-50%) scaleX(0.9);
+  }
+  10% {
+    opacity: 0.7;
+    transform: translateX(-50%) scaleX(1.05);
+  }
+  20% {
+    opacity: 1;
+    transform: translateX(-50%) scaleX(1.1);
+  }
+  40% {
+    opacity: 0.7;
+    transform: translateX(-50%) scaleX(1.05);
+  }
+  60%,
+  100% {
+    opacity: 0.2;
+    transform: translateX(-50%) scaleX(0.9);
+  }
+}
+@keyframes bar2Anim {
+  0%,
+  18%,
+  100% {
+    opacity: 0.12;
+    transform: translateX(-50%) scaleX(0.85);
+  }
+  22% {
+    opacity: 0.5;
+    transform: translateX(-50%) scaleX(1);
+  }
+  36% {
+    opacity: 0.9;
+    transform: translateX(-50%) scaleX(1.1);
+  }
+  52% {
+    opacity: 0.5;
+    transform: translateX(-50%) scaleX(1);
+  }
+  72%,
+  100% {
+    opacity: 0.12;
+    transform: translateX(-50%) scaleX(0.85);
+  }
+}
+@keyframes bar3Anim {
+  0%,
+  38%,
+  100% {
+    opacity: 0.08;
+    transform: translateX(-50%) scaleX(0.8);
+  }
+  44% {
+    opacity: 0.3;
+    transform: translateX(-50%) scaleX(1);
+  }
+  62% {
+    opacity: 0.6;
+    transform: translateX(-50%) scaleX(1.08);
+  }
+  80% {
+    opacity: 0.3;
+    transform: translateX(-50%) scaleX(1);
+  }
+  100% {
+    opacity: 0.08;
+    transform: translateX(-50%) scaleX(0.8);
+  }
+}

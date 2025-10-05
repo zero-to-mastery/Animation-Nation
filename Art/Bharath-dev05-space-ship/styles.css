@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle at center, #000010, #000 80%);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(2px 2px at 20% 30%, white, transparent),
+    radial-gradient(1.5px 1.5px at 70% 80%, white, transparent),
+    radial-gradient(1.2px 1.2px at 40% 60%, white, transparent),
+    radial-gradient(2px 2px at 90% 20%, white, transparent),
+    radial-gradient(1.5px 1.5px at 10% 70%, white, transparent);
+  background-repeat: repeat;
+  animation: starScroll 30s linear infinite;
+}
+
+@keyframes starScroll {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 1000px;
+  }
+}
+
+.ufo {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  background: radial-gradient(ellipse at center, #666, #333);
+  border-radius: 50% / 50%;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.6);
+  animation: hover 3s ease-in-out infinite;
+}
+
+.ufo::before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 50px;
+  background: radial-gradient(circle at 50% 30%, #9cf, #036);
+  border-radius: 50% 50% 40% 40%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 15px rgba(0, 200, 255, 0.6);
+}
+
+.beam {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-top: 200px solid rgba(0, 255, 200, 0.2);
+  filter: blur(2px);
+  animation: beamFlicker 1.5s infinite alternate;
+}
+
+@keyframes hover {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes beamFlicker {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
