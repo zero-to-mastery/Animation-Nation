@@ -10,18 +10,20 @@ body {
 
 .sky {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   animation: drift 40s ease-in-out infinite alternate;
 }
 
 .star {
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 1vw;
+  height: 1vw;
+  min-width: 6px;
+  min-height: 6px;
   border-radius: 50%;
   background: #ffffff;
-  box-shadow: 0 0 25px 10px #00eaff, 0 0 50px 20px rgba(0, 234, 255, 0.3);
+  box-shadow: 0 0 1vw 0.5vw #00eaff, 0 0 2vw 1vw rgba(0, 234, 255, 0.3);
   animation: twinkle 2.5s infinite ease-in-out alternate;
 }
 
@@ -33,17 +35,17 @@ body {
 
 .line {
   position: absolute;
-  height: 2px;
-  background: linear-gradient(90deg, rgba(0,255,255,0) 0%, rgba(0,255,255,0.9) 50%, rgba(0,255,255,0) 100%);
-  box-shadow: 0 0 15px rgba(0,255,255,0.8);
+  height: 0.3vh;
+  background: linear-gradient(90deg, rgba(0,255,255,0) 0%, rgba(0,255,255,0.8) 50%, rgba(0,255,255,0) 100%);
+  box-shadow: 0 0 0.5vw rgba(0,255,255,0.8);
   transform-origin: left center;
   animation: glow 3s infinite ease-in-out alternate;
 }
 
-.l1 { top: 27%; left: 21%; width: 23%; transform: rotate(25deg); animation-delay: 0s; }
+.l1 { top: 27%; left: 21%; width: 22%; transform: rotate(25deg); animation-delay: 0s; }
 .l2 { top: 40%; left: 43%; width: 19%; transform: rotate(18deg); animation-delay: 0.6s; }
 .l3 { top: 54%; left: 61%; width: 19%; transform: rotate(14deg); animation-delay: 1.2s; }
-.l4 { top: 43%; left: 81%; width: 10%; transform: rotate(110deg); animation-delay: 1.8s; }
+.l4 { top: 42%; left: 81%; width: 10%; transform: rotate(110deg); animation-delay: 1.8s; }
 
 @keyframes twinkle {
   0% { opacity: 0.4; transform: scale(0.8); filter: hue-rotate(0deg); }
@@ -57,6 +59,6 @@ body {
 
 @keyframes drift {
   0% { transform: translate(0, 0) scale(1); }
-  50% { transform: translate(10px, -15px) scale(1.02); }
-  100% { transform: translate(-10px, 15px) scale(1); }
+  50% { transform: translate(1vw, -1vh) scale(1.02); }
+  100% { transform: translate(-1vw, 1vh) scale(1); }
 }
