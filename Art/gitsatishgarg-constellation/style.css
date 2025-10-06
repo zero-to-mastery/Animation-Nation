@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle at bottom, #020111 0%, #000 100%);
+  overflow: hidden;
+}
+
+.sky {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.star {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 8px 4px white;
+  animation: twinkle 2s infinite ease-in-out alternate;
+}
+
+.s1 { top: 30%; left: 20%; animation-delay: 0s; }
+.s2 { top: 40%; left: 40%; animation-delay: 0.5s; }
+.s3 { top: 55%; left: 55%; animation-delay: 1s; }
+.s4 { top: 65%; left: 70%; animation-delay: 1.5s; }
+.s5 { top: 35%; left: 75%; animation-delay: 2s; }
+
+.line {
+  position: absolute;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  transform-origin: left center;
+  animation: pulse 6s infinite ease-in-out alternate;
+}
+
+.l1 { top: 31%; left: 20%; width: 22%; transform: rotate(20deg); }
+.l2 { top: 42%; left: 40%; width: 18%; transform: rotate(25deg); }
+.l3 { top: 57%; left: 55%; width: 18%; transform: rotate(15deg); }
+.l4 { top: 37%; left: 75%; width: 10%; transform: rotate(110deg); }
+
+@keyframes twinkle {
+  0% { opacity: 0.4; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes pulse {
+  0% { opacity: 0.1; }
+  100% { opacity: 0.4; }
+}
