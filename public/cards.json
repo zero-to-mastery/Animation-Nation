@@ -88,6 +88,22 @@
     "projectPath": "Art/Bharath-dev05-water-fall"
   },
   {
+    "author": "GitSatishGarg",
+    "artName": "Balloons",
+    "githubLink": "https://github.com/GitSatishGarg",
+    "pageLink": "./Art/GitSatishGarg-Balloons/index.html",
+    "imageLink": "./Art/GitSatishGarg-Balloons/icon.png",
+    "projectPath": "Art/GitSatishGarg-Balloons"
+  },
+  {
+    "author": "GitSatishGarg",
+    "artName": "Circles",
+    "githubLink": "https://github.com/GitSatishGarg",
+    "pageLink": "./Art/GitSatishGarg-Circles/index.html",
+    "imageLink": "./Art/GitSatishGarg-Circles/icon.png",
+    "projectPath": "Art/GitSatishGarg-Circles"
+  },
+  {
     "artName": "Searching",
     "githubLink": "https://github.com/undefined",
     "pageLink": "./Art/Saptarshi1984-searching/index.html",
