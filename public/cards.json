@@ -484,5 +484,13 @@
     "pageLink": "./Art/ornitcg-rolling-egg/index.html",
     "imageLink": "./Art/ornitcg-rolling-egg/icon.png",
     "projectPath": "Art/ornitcg-rolling-egg"
+  },
+  {
+    "author": "tomdu3",
+    "artName": "neon hello",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-neon-hello/index.html",
+    "imageLink": "./Art/tomdu3-neon-hello/icon.png",
+    "projectPath": "Art/tomdu3-neon-hello"
   }
 ]
