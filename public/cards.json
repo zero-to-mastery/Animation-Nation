@@ -41,6 +41,14 @@
   },
   {
     "author": "Bharath-dev05",
+    "artName": "hot air ballon",
+    "githubLink": "https://github.com/Bharath-dev05",
+    "pageLink": "./Art/Bharath-dev05-hot-air-ballon/index.html",
+    "imageLink": "./Art/Bharath-dev05-hot-air-ballon/icon.png",
+    "projectPath": "Art/Bharath-dev05-hot-air-ballon"
+  },
+  {
+    "author": "Bharath-dev05",
     "artName": "Solar System",
     "githubLink": "https://github.com/Bharath-dev05",
     "pageLink": "./Art/Bharath-dev05-solar-system/index.html",
@@ -54,6 +62,14 @@
     "pageLink": "./Art/Bharath-dev05-space-ship/index.html",
     "imageLink": "./Art/Bharath-dev05-space-ship/icon.png",
     "projectPath": "Art/Bharath-dev05-space-ship"
+  },
+  {
+    "author": "Bharath-dev05",
+    "artName": "Un boxing",
+    "githubLink": "https://github.com/Bharath-dev05",
+    "pageLink": "./Art/Bharath-dev05-unboxing/index.html",
+    "imageLink": "./Art/Bharath-dev05-unboxing/icon.png",
+    "projectPath": "Art/Bharath-dev05-unboxing"
   },
   {
     "author": "Bharath-dev05",
@@ -85,6 +101,14 @@
     "pageLink": "./Art/Vatsakala-neon-curves/index.html",
     "imageLink": "./Art/Vatsakala-neon-curves/icon.png",
     "projectPath": "Art/Vatsakala-neon-curves"
+  },
+  {
+    "author": "Vatsakala",
+    "artName": "neon morph grid",
+    "githubLink": "https://github.com/Vatsakala",
+    "pageLink": "./Art/Vatsakala-neon-morph-grid/index.html",
+    "imageLink": "./Art/Vatsakala-neon-morph-grid/icon.png",
+    "projectPath": "Art/Vatsakala-neon-morph-grid"
   },
   {
     "author": "Vatsakala",
@@ -125,6 +149,14 @@
     "pageLink": "./Art/adithya-pathakoti-galaxy/index.html",
     "imageLink": "./Art/adithya-pathakoti-galaxy/icon.png",
     "projectPath": "Art/adithya-pathakoti-galaxy"
+  },
+  {
+    "author": "behramshah",
+    "artName": "mini solar system",
+    "githubLink": "https://github.com/behramshah",
+    "pageLink": "./Art/behramshah-Mini_Solar_System/index.html",
+    "imageLink": "./Art/behramshah-Mini_Solar_System/icon.png",
+    "projectPath": "Art/behramshah-Mini_Solar_System"
   },
   {
     "author": "bhupeshk3014",
@@ -183,6 +215,14 @@
     "projectPath": "Art/bmalvo-heart"
   },
   {
+    "author": "chandra-durgampudi",
+    "artName": "Loading Stick Man",
+    "githubLink": "https://github.com/chandra-durgampudi",
+    "pageLink": "./Art/chandra-durgampudi-loading-stick-man/index.html",
+    "imageLink": "./Art/chandra-durgampudi-loading-stick-man/icon.png",
+    "projectPath": "Art/chandra-durgampudi-loading-stick-man"
+  },
+  {
     "author": "fab-c14",
     "artName": "3D Dna Animation",
     "githubLink": "https://github.com/fab-c14",
@@ -229,6 +269,22 @@
     "pageLink": "./Art/fabc14-wifi-signal/index.html",
     "imageLink": "./Art/fabc14-wifi-signal/icon.png",
     "projectPath": "Art/fabc14-wifi-signal"
+  },
+  {
+    "author": "GitSatishGarg",
+    "artName": "constellation",
+    "githubLink": "https://github.com/GitSatishGarg",
+    "pageLink": "./Art/gitsatishgarg-constellation/index.html",
+    "imageLink": "./Art/gitsatishgarg-constellation/icon.png",
+    "projectPath": "Art/gitsatishgarg-constellation"
+  },
+  {
+    "author": "huzfm",
+    "artName": "Dark Glowing Blobs+Ripples Animation",
+    "githubLink": "https://github.com/huzfm",
+    "pageLink": "./Art/huzfm-Dark-Glowing-Blobs+Ripples/index.html",
+    "imageLink": "./Art/huzfm-Dark-Glowing-Blobs+Ripples/icon.png",
+    "projectPath": "Art/huzfm-Dark-Glowing-Blobs+Ripples"
   },
   {
     "author": "huzfm",
