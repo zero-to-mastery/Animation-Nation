@@ -436,13 +436,5 @@
     "pageLink": "./Art/ornitcg-rolling-egg/index.html",
     "imageLink": "./Art/ornitcg-rolling-egg/icon.png",
     "projectPath": "Art/ornitcg-rolling-egg"
-  },
-  {
-    "author": "gitsatishgarg",
-    "artName": "constellation",
-    "githubLink": "https://github.com/constellation",
-    "pageLink": "./Art/gitsatishgarg-constellation/index.html",
-    "imageLink": "./Art/gitsatishgarg-constellation/icon.png",
-    "projectPath": "Art/gitsatishgarg-constellation"
   }
 ]
