@@ -1,8 +1,4 @@
 {
-  "title": "Moonlit Sky",
-  "description": "A CSS-only animation featuring a realistic glowing moon and shooting stars.",
-  "author": "Ujjansh Sundram",
-  "technologies": ["HTML", "CSS"],
-  "looping": true,
-  "interactive": false
+  "githubHandle": "Ujjansh",
+  "artName": "Moonlit-Sky"
 }
