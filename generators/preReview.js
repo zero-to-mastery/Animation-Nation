@@ -18,14 +18,15 @@ const createFeedbacks = (feedbacks = [], mode = 'line') => {
 
 /** Establishes a state about the contribution */
 const getContributionState = () => {
-    const changedFiles      = changedFilesStr.split(" ") || []
+    const changedFiles      = changedFilesStr.split(" ").filter(Boolean) || []
+
     const requiredRegexp  = /(index.html|styles.css|meta.json)$/
-    const fileCorrectness   = changedFiles.reduce((details, file) => {
 
     // Separates changed file to "incorrectFiles" or "correctFiles"
-    const detailsProperty = requiredRegexp.test( file )? details.correctFiles : details.incorrectFiles
-        detailsProperty.push( file )
-        return details
+    const fileCorrectness   = changedFiles.reduce((details, file) => {
+        const detailsProperty = requiredRegexp.test( file )? details.correctFiles : details.incorrectFiles
+            detailsProperty.push( file )
+            return details
     }, { incorrectFiles: [], correctFiles: []})
 
     const state = {
@@ -39,28 +40,29 @@ const getContributionState = () => {
 
 /** Review HTML file - returning an array of feedbacks */
 const reviewHTMLFile = (file, fileContent) => {
-    const feedbacks = []
-    if (file.includes('.html')){
-        const feedbackPush = createFeedbacks(feedbacks, 'task')
+  const feedbacks = []
+  if (!file.endsWith('.html')) return feedbacks
+  const feedbackPush = createFeedbacks(feedbacks, 'task')
 
-        const isHTMLWithJS  = /<(.+)?script(.+)?>/.test(fileContent)
-        const hasValidStylesheet = /<(.+)?link(.+)?href=(\.+)?styles.css>/gi.test(fileContent)
-        if ( isHTMLWithJS ){
-            feedbackPush('Remove the JavaScript contained in your HTML file: JavaScript is not allowed')
-        }
-        if ( !hasValidStylesheet ){
-            const isMissingCSS = !hasValidStylesheet && !/\w.css/gi.test(fileContent)
-            const message = isMissingCSS
-                ? 'Missing linked stylesheet file: link the CSS file to your HTML'
-                : 'Remove the JavaScript contained in your HTML file: JavaScript is not allowed'
-            
-            feedbackPush(message)
-        }
-    
-        if(feedbacks.length) feedbacks.unshift('### HTML feedbacks')
-        return feedbacks
-    }
+  const hasJS = /<script\b[^>]*>/i.test(fileContent)
+  const hasCSS = fileContent.includes('.css')
+  const hasCorrectStylesheet = /<link\s+[^>]*href=["']styles\.css["'][^>]*>/i.test(fileContent)
 
+  // Check any JS content
+  if (hasJS) {
+    feedbackPush(`Remove any JavaScript content in the HTML file: \`${file}\``)
+  }
+
+  // Check CSS link tag: exists or incorrect name
+  if (!hasCSS) {
+    feedbackPush('Missing linked stylesheet file: link the CSS file to your HTML')
+  } else if(!hasCorrectStylesheet){
+     feedbackPush('Incorrect stylesheet link: update the href to point to the correct CSS file')
+  }
+
+  // If any feedbacks, prepends a feedback title
+  if (feedbacks.length) feedbacks.unshift('### HTML feedbacks')
+  return feedbacks
 }
 
 /** Review CSS file - returning an array of feedbacks */
@@ -75,7 +77,7 @@ const reviewCSSFile = (file, fileContent) => {
         feedbackPush(`Missing content, add the code for the file \`${file}\``)
         
     } else if( !hasCSSAnimation ){
-        feedbackPush('Add animation(s) using the `@keyframes` in your CSS')
+        feedbackPush('Add animation(s) using the `@keyframes` and `animation` properties in your CSS')
     }
 
 
@@ -93,8 +95,9 @@ const reviewJSONFile = (file, fileContent) => {
 
     // Meta checks
     const contributorRegexp = new RegExp(contributorHandle, 'i')
-    const hasMetaArtNameValue = /artName\s?:\s?\w+./.test(fileContent)
-    const hasMetaGithubHandleValue = /githubHandle\s?:\?\w+./.test(fileContent)
+    const hasMetaArtNameValue = /"artName":\s*".+"/gi.test(fileContent)
+    const hasMetaGithubHandleValue = /"githubHandle"\s*:\s*".+?"/gi.test(fileContent)
+    
     const hasCorrectMetaGithubHandle = contributorRegexp.test(fileContent)
 
 
@@ -125,8 +128,9 @@ const reviewContribution = (contributionStates) => {
         const hasValidFolderName = folderRegexp.test(file)
 
         if(!canChangeAnyFiles){
-            // File(s) outside of the Art folder
+            // File(s) outside of the Art folder for the animation contribution
             if(!hasValidFolderName){
+                feedbacks.push("Contribution out `Art/` folder scope:")
                 feedbackPush(`Remove unnecessary file: \`${file}\``)
             } else { // Incorrect file names in Art contribution folder
                 feedbackPush(`Rename your file as recommended: \`${file}\``)
@@ -155,17 +159,19 @@ const checkContent = async (contributionStates) => {
         if(!fileContent){
             feedbackPush(`Missing content, add the code for the file \`${file}\``)
         } else {
-            HTMLReviews   = reviewHTMLFile(file, fileContent) || HTMLReviews
-            CSSReviews    = reviewCSSFile(file, fileContent) || CSSReviews
-            JSONReviews   = reviewJSONFile(file, fileContent) || JSONReviews
+            HTMLReviews   = [ ...HTMLReviews, ...(reviewHTMLFile(file, fileContent)  || []) ]
+            CSSReviews    = [ ...CSSReviews, ...(reviewCSSFile(file, fileContent)   || []) ]
+            JSONReviews   = [ ...JSONReviews, ...(reviewJSONFile(file, fileContent)  || []) ]
         }
     }
+
     feedbacks = [
         ...feedbacks,
         ...HTMLReviews,
         ...CSSReviews,
         ...JSONReviews,
     ]
+
     const otherReviews  = reviewContribution(contributionStates)
     return ([
         ...feedbacks,
@@ -185,11 +191,12 @@ const generateReviewMessage = (feedbacks ) => {
         const taskList = feedbacks.join("\n")
         messagePush(`${ taskList }`)
     } else {
-        messagePush("Seems to meet requirements, now awaiting for a maintener last validation.")
+        messagePush("\n🎉 Your submission seems to meet all requirements")
+        messagePush("and is now awaiting final validation from a maintainer.")
     }
 
     
-    messageLines.push( "Happy Coding! 🚀")
+    messageLines.push( "\nHappy Coding! 🚀")
     const messageReview = messageLines.join("\n")
     return messageReview
 }

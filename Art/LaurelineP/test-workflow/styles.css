@@ -1,0 +1,22 @@
+#box {
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    animation: 3s linear 1s infinite running rotate;
+    
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0)
+    }
+    30% {
+        transform: rotate(50)
+    }
+    50% {
+        transform: rotate(80)
+    }
+    to {
+        transform: rotate(100)
+    }
+}
