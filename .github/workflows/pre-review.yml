@@ -35,9 +35,14 @@ jobs:
                 echo "$1=${!1}" >> $GITHUB_ENV
             }
             
-            MERGE_BASE=$(git merge-base origin/master HEAD 2>/dev/null || echo HEAD~1)
+            MERGE_BASE=$(git merge-base origin/master HEAD 2>/dev/null || echo HEAD~1);
             GITHUB_HANDLE=${GITHUB_TRIGGERING_ACTOR:-local-actor}; setEnv "GITHUB_HANDLE";
-            CHANGED_FILES=$(git diff --name-only $MERGE_BASE HEAD | tr '\n' ' ' | xargs); setEnv "CHANGED_FILES";
+
+            CHANGED_FILES=$(git diff --name-only $MERGE_BASE HEAD)
+            echo "CHANGED_FILES<<EOF" >> $GITHUB_ENV
+            printf '%s\n' "$CHANGED_FILES" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+
             GITHUB_PERMISSION_ROLE=$(gh api "repos/$GITHUB_REPOSITORY/collaborators/$GITHUB_HANDLE/permission" -q '.role_name' 2>/dev/null || echo 'unknown');
             setEnv "GITHUB_PERMISSION_ROLE";
 
@@ -70,10 +75,18 @@ jobs:
 
             # Add "invalid" label when changes are out of Art/ folder (and not maintainer)
             echo "Handle label \"invalid\""
-            if echo "$REVIEW_MESSAGE" | grep -q -Eqi 'Contribution outside `Art/` folder scope'; then
-                gh pr edit "$PR_NUMBER" --add-label "Invalid";
+            if echo "$REVIEW_MESSAGE" | grep -q -Eqi 'empty file'; then
+                gh pr edit "$PR_NUMBER" --add-label "invalid";
             else
-              gh pr edit "$PR_NUMBER" --remove-label "Invalid";
+              gh pr edit "$PR_NUMBER" --remove-label "invalid";
+            fi
+
+            # Add "Conflict present" when an icon is present in changes
+            echo "Handle label \"Conflict present\""
+            if echo "$REVIEW_MESSAGE" | grep -q -Eqi '/icon'; then
+                gh pr edit "$PR_NUMBER" --add-label "Conflict present";
+            else
+              gh pr edit "$PR_NUMBER" --remove-label "Conflict present";
             fi
 
         env:
@@ -85,7 +98,10 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
-        # Automatically assign labels on review "approved" or "requested changes" 
+        # While reviewing on github, this automatically assign labels on review actions.
+        # When submiting a review (reminder, this cannot run for maintainers reviewing their own PRs.) 
+        # - Label "Changes Requested" on "request changes" review action
+        # - Label "hacktoberfest-accepted" on "aprove" review action only if current date is in October
         - name: Show previous review message
           run: |
             echo "Message from pre-review job:"
@@ -100,13 +116,10 @@ jobs:
             if [[ "$REVIEW_STATE" == "changes_requested" ]]; then
               gh pr edit "$PR_NUMBER" --add-label "Changes Requested"
               echo "Maintainer requested changes — label added."
-            elif [[ "$REVIEW_STATE" == "approved" ]]; then
-              gh pr edit "$PR_NUMBER" --add-label "Approved"
-              echo "Maintainer approved — label added."
             fi
 
             # Add Hacktoberfest label only if current month is October (10)
-            if [[ "$CURRENT_MONTH" == "10" ]]; then
+            if [[ "$CURRENT_MONTH" == "10" && "$REVIEW_STATE" == "approved" ]]; then
               gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-accepted"
             fi
             
