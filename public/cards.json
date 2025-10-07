@@ -112,6 +112,14 @@
     "projectPath": "Art/GitSatishGarg-Clouds"
   },
   {
+    "author": "GitSatishGarg",
+    "artName": "Dots",
+    "githubLink": "https://github.com/GitSatishGarg",
+    "pageLink": "./Art/GitSatishGarg-Dots/index.html",
+    "imageLink": "./Art/GitSatishGarg-Dots/icon.png",
+    "projectPath": "Art/GitSatishGarg-Dots"
+  },
+  {
     "artName": "Searching",
     "githubLink": "https://github.com/undefined",
     "pageLink": "./Art/Saptarshi1984-searching/index.html",
