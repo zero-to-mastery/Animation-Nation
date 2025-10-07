@@ -9,6 +9,14 @@
   },
   {
     "author": "Bharath-dev05",
+    "artName": "Butterflies",
+    "githubLink": "https://github.com/Bharath-dev05",
+    "pageLink": "./Art/Bharath-dev05-butterflies/index.html",
+    "imageLink": "./Art/Bharath-dev05-butterflies/icon.png",
+    "projectPath": "Art/Bharath-dev05-butterflies"
+  },
+  {
+    "author": "Bharath-dev05",
     "artName": "clouds",
     "githubLink": "https://github.com/Bharath-dev05",
     "pageLink": "./Art/Bharath-dev05-clouds/index.html",
@@ -118,6 +126,14 @@
     "pageLink": "./Art/GitSatishGarg-Dots/index.html",
     "imageLink": "./Art/GitSatishGarg-Dots/icon.png",
     "projectPath": "Art/GitSatishGarg-Dots"
+  },
+  {
+    "author": "GitSatishGarg",
+    "artName": "Stars",
+    "githubLink": "https://github.com/GitSatishGarg",
+    "pageLink": "./Art/GitSatishGarg-Stars/index.html",
+    "imageLink": "./Art/GitSatishGarg-Stars/icon.png",
+    "projectPath": "Art/GitSatishGarg-Stars"
   },
   {
     "artName": "Searching",
@@ -492,6 +508,14 @@
     "pageLink": "./Art/ornitcg-rolling-egg/index.html",
     "imageLink": "./Art/ornitcg-rolling-egg/icon.png",
     "projectPath": "Art/ornitcg-rolling-egg"
+  },
+  {
+    "author": "ravikantchauhan246",
+    "artName": "ufo in sky",
+    "githubLink": "https://github.com/ravikantchauhan246",
+    "pageLink": "./Art/ravikantchauhan246-ufo-in-sky/index.html",
+    "imageLink": "./Art/ravikantchauhan246-ufo-in-sky/icon.png",
+    "projectPath": "Art/ravikantchauhan246-ufo-in-sky"
   },
   {
     "author": "tomdu3",
