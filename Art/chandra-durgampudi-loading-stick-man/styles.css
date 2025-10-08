@@ -1,0 +1,185 @@
+:root {
+  /* Change settings here if needed*/
+  --stick-man-animation-size: min(100vw, 100vh);
+  --stick-man-animation-bg-color: lightskyblue;
+  --stick-man-foreground-color: black;
+  --stick-man-speech-bg-color: lightgoldenrodyellow;
+  --stick-man-speech-font: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: var(--stick-man-animation-bg-color);
+}
+
+.stick-figure {
+  position: absolute;
+  width: var(--stick-man-animation-size);
+  height: var(--stick-man-animation-size);
+  border: 0;
+  margin: auto;
+  background-color: var(--stick-man-animation-bg-color);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.speech-bubble {
+  position: absolute;
+  left: 45%;
+  top: 5%;
+  min-width: 55%;
+  max-width: 65%;
+  border: calc(0.02 * var(--stick-man-animation-size)) solid
+    var(--stick-man-foreground-color);
+  border-radius: calc(0.1 * var(--stick-man-animation-size));
+  padding: calc(0.04 * var(--stick-man-animation-size));
+  font-size: calc(0.06 * var(--stick-man-animation-size));
+  font-weight: bold;
+  color: var(--stick-man-foreground-color);
+  box-shadow: calc(0.02 * var(--stick-man-animation-size))
+    calc(0.04 * var(--stick-man-animation-size))
+    calc(0.12 * var(--stick-man-animation-size)) rgba(0, 0, 0, 0.08);
+  z-index: 10;
+  background-color: var(--stick-man-speech-bg-color);
+  font-family: var(--stick-man-speech-font);
+}
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  left: calc(-0.07 * var(--stick-man-animation-size));
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: calc(0.05 * var(--stick-man-animation-size)) solid transparent;
+  border-bottom: calc(0.05 * var(--stick-man-animation-size)) solid transparent;
+  border-right: calc(0.09 * var(--stick-man-animation-size)) solid
+    var(--stick-man-speech-bg-color);
+  filter: drop-shadow(
+    calc(-0.02 * var(--stick-man-animation-size)) 0 0
+      var(--stick-man-foreground-color)
+  );
+}
+
+/* Head */
+.head {
+  position: absolute;
+  top: 16%;
+  left: 16%;
+  width: 15%;
+  height: 15%;
+  border: calc(0.03 * var(--stick-man-animation-size)) solid
+    var(--stick-man-foreground-color);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+/* Body */
+.body {
+  width: calc(0.08 * var(--stick-man-animation-size));
+  height: 25%;
+  background: var(--stick-man-foreground-color);
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  border-radius: 10%;
+}
+
+/* Arms */
+.arm {
+  position: absolute;
+  top: 31%;
+  width: 25%;
+  height: calc(0.04 * var(--stick-man-animation-size));
+  background: var(--stick-man-foreground-color);
+  transform-origin: left center;
+}
+
+.arm.right {
+  right: 77%;
+  transform-origin: right center;
+  animation: stretch-right-hand 4s ease-in-out infinite;
+}
+
+.arm.left {
+  left: 25%;
+  animation: stretch-left-hand 4s ease-in-out infinite;
+}
+
+/* Legs */
+.leg {
+  position: absolute;
+  top: 55%; /* start at the bottom of the body */
+  left: 24%;
+  width: calc(0.04 * var(--stick-man-animation-size));
+  height: 35%;
+  background: var(--stick-man-foreground-color);
+  transform-origin: top center;
+}
+
+.leg.left {
+  transform: translateX(-50%) rotate(20deg);
+}
+
+.leg.right {
+  transform: translateX(-50%) rotate(-20deg);
+}
+
+.leg.left {
+  transform: translateX(-50%) rotate(20deg);
+  animation: leg-left-move 2s ease-in-out infinite;
+}
+.leg.right {
+  transform: translateX(-50%) rotate(-20deg);
+  animation: leg-right-move 2s ease-in-out infinite;
+}
+
+/* Animation for legs */
+@keyframes leg-left-move {
+  0%,
+  100% {
+    transform: translateX(-50%) rotate(20deg);
+  }
+  50% {
+    transform: translateX(-50%) rotate(-30deg);
+  }
+}
+
+@keyframes leg-right-move {
+  0%,
+  100% {
+    transform: translateX(-50%) rotate(-20deg);
+  }
+  50% {
+    transform: translateX(-50%) rotate(30deg);
+  }
+}
+
+/* Animation for arms */
+@keyframes stretch-left-hand {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-90deg);
+  }
+}
+
+@keyframes stretch-right-hand {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+}
