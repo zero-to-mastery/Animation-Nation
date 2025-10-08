@@ -144,6 +144,14 @@
     "projectPath": "Art/GitSatishGarg-Waves"
   },
   {
+    "author": "IshaaqDaahir",
+    "artName": "northern aurora",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-northern-aurora/index.html",
+    "imageLink": "./Art/IshaaqDaahir-northern-aurora/icon.png",
+    "projectPath": "Art/IshaaqDaahir-northern-aurora"
+  },
+  {
     "artName": "Searching",
     "githubLink": "https://github.com/undefined",
     "pageLink": "./Art/Saptarshi1984-searching/index.html",
@@ -535,10 +543,26 @@
   },
   {
     "author": "tomdu3",
+    "artName": "hearts",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-hearts/index.html",
+    "imageLink": "./Art/tomdu3-hearts/icon.png",
+    "projectPath": "Art/tomdu3-hearts"
+  },
+  {
+    "author": "tomdu3",
     "artName": "neon hello",
     "githubLink": "https://github.com/tomdu3",
     "pageLink": "./Art/tomdu3-neon-hello/index.html",
     "imageLink": "./Art/tomdu3-neon-hello/icon.png",
     "projectPath": "Art/tomdu3-neon-hello"
+  },
+  {
+    "author": "tomdu3",
+    "artName": "neon sign",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-neon-sign/index.html",
+    "imageLink": "./Art/tomdu3-neon-sign/icon.png",
+    "projectPath": "Art/tomdu3-neon-sign"
   }
 ]
