@@ -145,6 +145,14 @@
   },
   {
     "author": "IshaaqDaahir",
+    "artName": "flying helicopter",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-flying-helicopter/index.html",
+    "imageLink": "./Art/IshaaqDaahir-flying-helicopter/icon.png",
+    "projectPath": "Art/IshaaqDaahir-flying-helicopter"
+  },
+  {
+    "author": "IshaaqDaahir",
     "artName": "moving train",
     "githubLink": "https://github.com/IshaaqDaahir",
     "pageLink": "./Art/IshaaqDaahir-moving-train/index.html",
@@ -158,6 +166,22 @@
     "pageLink": "./Art/IshaaqDaahir-northern-aurora/index.html",
     "imageLink": "./Art/IshaaqDaahir-northern-aurora/icon.png",
     "projectPath": "Art/IshaaqDaahir-northern-aurora"
+  },
+  {
+    "author": "IshaaqDaahir",
+    "artName": "traffic lights",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-traffic-lights/index.html",
+    "imageLink": "./Art/IshaaqDaahir-traffic-lights/icon.png",
+    "projectPath": "Art/IshaaqDaahir-traffic-lights"
+  },
+  {
+    "author": "IshaaqDaahir",
+    "artName": "tv stories",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-tv-stories/index.html",
+    "imageLink": "./Art/IshaaqDaahir-tv-stories/icon.png",
+    "projectPath": "Art/IshaaqDaahir-tv-stories"
   },
   {
     "artName": "Searching",
@@ -370,9 +394,9 @@
     "author": "huzfm",
     "artName": "Dark Glowing Blobs+Ripples Animation",
     "githubLink": "https://github.com/huzfm",
-    "pageLink": "./Art/huzfm-Dark-Glowing-Blobs+Ripples/index.html",
-    "imageLink": "./Art/huzfm-Dark-Glowing-Blobs+Ripples/icon.png",
-    "projectPath": "Art/huzfm-Dark-Glowing-Blobs+Ripples"
+    "pageLink": "./Art/huzfm-Dark-Glowing-Blobs-and-Ripples/index.html",
+    "imageLink": "./Art/huzfm-Dark-Glowing-Blobs-and-Ripples/icon.png",
+    "projectPath": "Art/huzfm-Dark-Glowing-Blobs-and-Ripples"
   },
   {
     "author": "huzfm",
@@ -572,6 +596,14 @@
     "pageLink": "./Art/tomdu3-neon-sign/index.html",
     "imageLink": "./Art/tomdu3-neon-sign/icon.png",
     "projectPath": "Art/tomdu3-neon-sign"
+  },
+  {
+    "author": "tomdu3",
+    "artName": "olympics",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-olympics/index.html",
+    "imageLink": "./Art/tomdu3-olympics/icon.png",
+    "projectPath": "Art/tomdu3-olympics"
   },
   {
     "author": "tomdu3",

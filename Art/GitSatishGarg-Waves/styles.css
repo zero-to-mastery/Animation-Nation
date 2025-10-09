@@ -29,7 +29,13 @@ body {
 }
 
 @keyframes riseWave {
-  0% { transform: translateY(100%) rotate(0deg); }
-  50% { transform: translateY(50%) rotate(180deg); }
-  100% { transform: translateY(100%) rotate(360deg); }
+  0% {
+    transform: translateY(100%) rotate(0deg);
+  }
+  50% {
+    transform: translateY(50%) rotate(180deg);
+  }
+  100% {
+    transform: translateY(100%) rotate(360deg);
+  }
 }

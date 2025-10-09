@@ -15,10 +15,18 @@ body {
   animation: rise 5s infinite linear, sway 2s infinite alternate;
 }
 @keyframes rise {
-  0% { bottom: 0; }
-  100% { bottom: 100%; }
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 100%;
+  }
 }
 @keyframes sway {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(20px); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(20px);
+  }
 }
