@@ -16,8 +16,8 @@ body {
     #000 100%
   );
   color: #dff8ff;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
-    monospace;
+  font-family:
+    ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
 }
 
 .frame {
@@ -28,14 +28,18 @@ body {
   overflow: hidden;
   isolation: isolate;
   border: 1px solid #0ff4;
-  box-shadow: 0 0 40px #00ffff66, 0 0 120px #00ffff33, inset 0 0 100px #00ffff22,
+  box-shadow:
+    0 0 40px #00ffff66,
+    0 0 120px #00ffff33,
+    inset 0 0 100px #00ffff22,
     inset 0 1px 0 #ffffff33;
 }
 
 .glow-grid {
   position: absolute;
   inset: 0;
-  background: linear-gradient(#0000 90%, #00ffff22) 0 0/100% 100%,
+  background:
+    linear-gradient(#0000 90%, #00ffff22) 0 0/100% 100%,
     repeating-linear-gradient(0deg, #0000 0 28px, #00ffff22 28px 29px),
     repeating-linear-gradient(90deg, #0000 0 32px, #a000ff33 32px 33px);
   opacity: 0.7;
@@ -61,7 +65,8 @@ body {
   align-content: center;
   gap: 1.2rem;
   padding: 3vmin;
-  background: linear-gradient(#00000077, #00000044),
+  background:
+    linear-gradient(#00000077, #00000044),
     radial-gradient(80% 140% at 50% 0%, #00ffff22, #0000 60%);
   backdrop-filter: blur(3px) saturate(140%);
   animation: cycle 12s linear infinite;
@@ -85,7 +90,10 @@ body {
   font-size: var(--size);
   white-space: pre;
   color: #6fffff;
-  text-shadow: 0 0 0.5em #00ffff, 0 0 1.5em #00ffff, 0 0 2.5em #7a00ffaa;
+  text-shadow:
+    0 0 0.5em #00ffff,
+    0 0 1.5em #00ffff,
+    0 0 2.5em #7a00ffaa;
   opacity: 0.35;
 }
 
@@ -98,13 +106,20 @@ body {
   position: absolute;
   inset: 0;
   color: #eaffff;
-  text-shadow: 0 0 1em #00ffff, 0 0 2.2em #ff00f2, 0 0 3.8em #a000ff;
+  text-shadow:
+    0 0 1em #00ffff,
+    0 0 2.2em #ff00f2,
+    0 0 3.8em #a000ff;
   overflow: hidden;
   white-space: pre;
   width: 0ch;
   border-right: 0.12em solid #afffff;
-  box-shadow: 0 0 10px #00ffff, 0 0 25px #a000ff, inset 0 0 12px #00ffff88;
-  animation: typing calc(var(--dur)) steps(var(--n)) var(--delay) 1,
+  box-shadow:
+    0 0 10px #00ffff,
+    0 0 25px #a000ff,
+    inset 0 0 12px #00ffff88;
+  animation:
+    typing calc(var(--dur)) steps(var(--n)) var(--delay) 1,
     hold var(--pause) linear calc(var(--delay) + var(--dur)) 1,
     erase var(--erase) steps(var(--n))
       calc(var(--delay) + var(--dur) + var(--pause)) 1,
@@ -149,8 +164,8 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(0deg, #0000 48%, #ffffff0f 50%, #0000 52%) 0 0/100%
-    4px;
+  background: linear-gradient(0deg, #0000 48%, #ffffff0f 50%, #0000 52%) 0
+    0/100% 4px;
   mix-blend-mode: screen;
   opacity: 0.4;
   animation: scan 5s linear infinite;

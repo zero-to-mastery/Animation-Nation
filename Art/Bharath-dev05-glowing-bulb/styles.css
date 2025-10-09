@@ -23,8 +23,15 @@ body {
   );
   margin: 0;
   color: #c9ced6;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
-    'Helvetica Neue', Arial, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Ubuntu,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
 }
 
 .stage {
@@ -67,7 +74,8 @@ body {
     var(--glass-4) 70%,
     var(--glass-5) 100%
   );
-  box-shadow: 0 0 24px 10px rgba(var(--halo), 0.65),
+  box-shadow:
+    0 0 24px 10px rgba(var(--halo), 0.65),
     0 0 80px 36px rgba(var(--halo), 0.45),
     inset 0 0 40px 12px rgba(255, 255, 255, 0.35);
   animation: pulse 3.2s ease-in-out infinite;
@@ -123,7 +131,8 @@ body {
   border: 3px solid var(--filament);
   border-top: none;
   border-radius: 0 0 22px 22px;
-  box-shadow: 0 0 10px 2px rgba(var(--halo), 0.6),
+  box-shadow:
+    0 0 10px 2px rgba(var(--halo), 0.6),
     inset 0 0 12px rgba(255, 180, 0, 0.6);
   animation: filamentGlow 2.2s ease-in-out infinite;
 }
@@ -154,7 +163,8 @@ body {
   transform: translateX(-50%);
   border-radius: 14px;
   background: linear-gradient(180deg, #6b6f78 0%, var(--cap) 70%);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5),
+  box-shadow:
+    0 6px 14px rgba(0, 0, 0, 0.5),
     inset 0 -6px 10px rgba(0, 0, 0, 0.5),
     inset 0 4px 6px rgba(255, 255, 255, 0.06);
 }
@@ -168,7 +178,8 @@ body {
   transform: translateX(-50%);
   border-radius: 10px;
   background: linear-gradient(180deg, #4a4d55 0%, var(--screw) 80%);
-  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.6),
+  box-shadow:
+    0 10px 18px rgba(0, 0, 0, 0.6),
     inset 0 -8px 12px rgba(0, 0, 0, 0.6),
     inset 0 6px 8px rgba(255, 255, 255, 0.05);
   overflow: hidden;
@@ -216,13 +227,15 @@ body {
 @keyframes pulse {
   0%,
   100% {
-    box-shadow: 0 0 24px 10px rgba(var(--halo), 0.65),
+    box-shadow:
+      0 0 24px 10px rgba(var(--halo), 0.65),
       0 0 80px 36px rgba(var(--halo), 0.45),
       inset 0 0 40px 12px rgba(255, 255, 255, 0.35);
     transform: translateX(-50%) scale(1);
   }
   50% {
-    box-shadow: 0 0 34px 14px rgba(var(--halo), 0.85),
+    box-shadow:
+      0 0 34px 14px rgba(var(--halo), 0.85),
       0 0 120px 50px rgba(var(--halo), 0.55),
       inset 0 0 52px 16px rgba(255, 255, 255, 0.45);
     transform: translateX(-50%) scale(1.02);
