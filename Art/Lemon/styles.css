@@ -2,8 +2,6 @@
   display:flex;
   justify-content: center;
 }
-
-
 .css {
   border: 1px solid black;
   background-color: white;
@@ -13,7 +11,6 @@
   animation-duration: 3s;
   animation-direction: alternate-reverse;
 }
-
 @keyframes Lemon {
   from {
     width: 300px;
@@ -24,33 +21,3 @@
     background-color: yellow;
   }
 }
-
-
-  
-
-
-  
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
