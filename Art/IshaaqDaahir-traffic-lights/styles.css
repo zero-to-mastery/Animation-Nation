@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: #2f4f2f;
+}
+
+.scene {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.road {
+  position: absolute;
+  background: #333;
+}
+
+.road.horizontal {
+  width: 100%;
+  height: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #444;
+}
+
+.road.horizontal::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    #fff 0px,
+    #fff 20px,
+    transparent 20px,
+    transparent 40px
+  );
+  transform: translateY(-50%);
+}
+
+.road.vertical {
+  width: 80px;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #444;
+}
+
+.road.vertical::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    #fff 0px,
+    #fff 20px,
+    transparent 20px,
+    transparent 40px
+  );
+  transform: translateX(-50%);
+}
+
+.traffic-light {
+  position: absolute;
+  top: 30%;
+  right: 45%;
+  z-index: 10;
+}
+
+.pole {
+  width: 8px;
+  height: 120px;
+  background: #666;
+  margin: 0 auto;
+}
+
+.light-box {
+  width: 40px;
+  height: 90px;
+  background: #222;
+  border-radius: 8px;
+  border: 2px solid #444;
+  padding: 5px;
+  margin-left: -16px;
+}
+
+.light {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 2px auto;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+.light.red {
+  background: #ff0000;
+}
+
+.light.yellow {
+  background: #ffff00;
+}
+
+.light.green {
+  background: #00ff00;
+}
+
+.light.active {
+  opacity: 1;
+  box-shadow: 0 0 20px currentColor;
+}
+
+.car {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.car::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: -8px;
+  width: 35px;
+  height: 15px;
+  border-radius: 5px;
+  background: rgba(135, 206, 235, 0.7);
+}
+
+.car::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #222;
+  box-shadow: 32px 0 0 #222;
+}
+
+.car-1 {
+  background: #ff4500;
+  top: calc(50% - 15px);
+  left: -70px;
+  animation: carMoveRight1 18s linear infinite;
+  z-index: 3;
+}
+
+.car-2 {
+  background: #4169e1;
+  top: calc(50% - 15px);
+  left: -70px;
+  animation: carMoveRight2 18s linear infinite;
+  animation-delay: -6s;
+  z-index: 3;
+}
+
+.car-3 {
+  background: #32cd32;
+  top: calc(50% - 15px);
+  left: -70px;
+  animation: carMoveRight3 18s linear infinite;
+  animation-delay: -12s;
+  z-index: 3;
+}
+
+.car-4 {
+  background: #ffd700;
+  left: calc(50% - 30px);
+  top: -40px;
+  transform: rotate(90deg);
+  animation: carMoveDown1 18s linear infinite;
+  animation-delay: -9s;
+  z-index: 6;
+}
+
+.car-5 {
+  background: #ff69b4;
+  left: calc(50% - 30px);
+  top: -40px;
+  transform: rotate(90deg);
+  animation: carMoveDown2 18s linear infinite;
+  animation-delay: -15s;
+  z-index: 6;
+}
+
+.car-6 {
+  background: #8a2be2;
+  left: calc(50% - 30px);
+  top: -40px;
+  transform: rotate(90deg);
+  animation: carMoveDown3 18s linear infinite;
+  animation-delay: -3s;
+  z-index: 6;
+}
+
+@keyframes carMoveRight1 {
+  0% {
+    left: -70px;
+  }
+  20% {
+    left: 25%;
+  }
+  40% {
+    left: 25%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes carMoveRight2 {
+  0% {
+    left: -70px;
+  }
+  20% {
+    left: 15%;
+  }
+  40% {
+    left: 15%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes carMoveRight3 {
+  0% {
+    left: -70px;
+  }
+  20% {
+    left: 5%;
+  }
+  40% {
+    left: 5%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes carMoveDown1 {
+  0% {
+    top: -40px;
+  }
+  50% {
+    top: -40px;
+  }
+  60% {
+    top: 25%;
+  }
+  80% {
+    top: 25%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes carMoveDown2 {
+  0% {
+    top: -40px;
+  }
+  50% {
+    top: -40px;
+  }
+  60% {
+    top: 15%;
+  }
+  80% {
+    top: 15%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes carMoveDown3 {
+  0% {
+    top: -40px;
+  }
+  50% {
+    top: -40px;
+  }
+  60% {
+    top: 5%;
+  }
+  80% {
+    top: 5%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+.light-box {
+  animation: lightCycle 6s infinite;
+}
+
+@keyframes lightCycle {
+  0%,
+  33% {
+    /* Red light active */
+  }
+  33.1% {
+    /* Switch to yellow */
+  }
+  33.1%,
+  50% {
+    /* Yellow light active */
+  }
+  50.1% {
+    /* Switch to green */
+  }
+  50.1%,
+  100% {
+    /* Green light active */
+  }
+}
+
+.light.red {
+  animation: redLight 6s infinite;
+}
+
+.light.yellow {
+  animation: yellowLight 6s infinite;
+}
+
+.light.green {
+  animation: greenLight 6s infinite;
+}
+
+@keyframes redLight {
+  0%,
+  33% {
+    opacity: 1;
+    box-shadow: 0 0 20px #ff0000;
+  }
+  33.1%,
+  100% {
+    opacity: 0.3;
+    box-shadow: none;
+  }
+}
+
+@keyframes yellowLight {
+  0%,
+  33% {
+    opacity: 0.3;
+    box-shadow: none;
+  }
+  33.1%,
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 20px #ffff00;
+  }
+  50.1%,
+  100% {
+    opacity: 0.3;
+    box-shadow: none;
+  }
+}
+
+@keyframes greenLight {
+  0%,
+  50% {
+    opacity: 0.3;
+    box-shadow: none;
+  }
+  50.1%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 20px #00ff00;
+  }
+}
