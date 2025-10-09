@@ -591,6 +591,14 @@
   },
   {
     "author": "tomdu3",
+    "artName": "olympics",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-olympics/index.html",
+    "imageLink": "./Art/tomdu3-olympics/icon.png",
+    "projectPath": "Art/tomdu3-olympics"
+  },
+  {
+    "author": "tomdu3",
     "artName": "time flies",
     "githubLink": "https://github.com/tomdu3",
     "pageLink": "./Art/tomdu3-time-flies/index.html",
