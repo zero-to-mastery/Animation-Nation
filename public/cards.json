@@ -9,6 +9,14 @@
   },
   {
     "author": "Bharath-dev05",
+    "artName": "Butterflies",
+    "githubLink": "https://github.com/Bharath-dev05",
+    "pageLink": "./Art/Bharath-dev05-butterflies/index.html",
+    "imageLink": "./Art/Bharath-dev05-butterflies/icon.png",
+    "projectPath": "Art/Bharath-dev05-butterflies"
+  },
+  {
+    "author": "Bharath-dev05",
     "artName": "clouds",
     "githubLink": "https://github.com/Bharath-dev05",
     "pageLink": "./Art/Bharath-dev05-clouds/index.html",
@@ -104,11 +112,91 @@
     "projectPath": "Art/GitSatishGarg-Circles"
   },
   {
+    "author": "GitSatishGarg",
+    "artName": "Clouds",
+    "githubLink": "https://github.com/GitSatishGarg",
+    "pageLink": "./Art/GitSatishGarg-Clouds/index.html",
+    "imageLink": "./Art/GitSatishGarg-Clouds/icon.png",
+    "projectPath": "Art/GitSatishGarg-Clouds"
+  },
+  {
+    "author": "GitSatishGarg",
+    "artName": "Dots",
+    "githubLink": "https://github.com/GitSatishGarg",
+    "pageLink": "./Art/GitSatishGarg-Dots/index.html",
+    "imageLink": "./Art/GitSatishGarg-Dots/icon.png",
+    "projectPath": "Art/GitSatishGarg-Dots"
+  },
+  {
+    "author": "GitSatishGarg",
+    "artName": "Stars",
+    "githubLink": "https://github.com/GitSatishGarg",
+    "pageLink": "./Art/GitSatishGarg-Stars/index.html",
+    "imageLink": "./Art/GitSatishGarg-Stars/icon.png",
+    "projectPath": "Art/GitSatishGarg-Stars"
+  },
+  {
+    "author": "GitSatishGarg",
+    "artName": "Waves",
+    "githubLink": "https://github.com/GitSatishGarg",
+    "pageLink": "./Art/GitSatishGarg-Waves/index.html",
+    "imageLink": "./Art/GitSatishGarg-Waves/icon.png",
+    "projectPath": "Art/GitSatishGarg-Waves"
+  },
+  {
+    "author": "IshaaqDaahir",
+    "artName": "flying helicopter",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-flying-helicopter/index.html",
+    "imageLink": "./Art/IshaaqDaahir-flying-helicopter/icon.png",
+    "projectPath": "Art/IshaaqDaahir-flying-helicopter"
+  },
+  {
+    "author": "IshaaqDaahir",
+    "artName": "moving train",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-moving-train/index.html",
+    "imageLink": "./Art/IshaaqDaahir-moving-train/icon.png",
+    "projectPath": "Art/IshaaqDaahir-moving-train"
+  },
+  {
+    "author": "IshaaqDaahir",
+    "artName": "northern aurora",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-northern-aurora/index.html",
+    "imageLink": "./Art/IshaaqDaahir-northern-aurora/icon.png",
+    "projectPath": "Art/IshaaqDaahir-northern-aurora"
+  },
+  {
+    "author": "IshaaqDaahir",
+    "artName": "traffic lights",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-traffic-lights/index.html",
+    "imageLink": "./Art/IshaaqDaahir-traffic-lights/icon.png",
+    "projectPath": "Art/IshaaqDaahir-traffic-lights"
+  },
+  {
+    "author": "IshaaqDaahir",
+    "artName": "tv stories",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-tv-stories/index.html",
+    "imageLink": "./Art/IshaaqDaahir-tv-stories/icon.png",
+    "projectPath": "Art/IshaaqDaahir-tv-stories"
+  },
+  {
     "artName": "Searching",
     "githubLink": "https://github.com/undefined",
     "pageLink": "./Art/Saptarshi1984-searching/index.html",
     "imageLink": "./Art/Saptarshi1984-searching/icon.png",
     "projectPath": "Art/Saptarshi1984-searching"
+  },
+  {
+    "author": "Ujjansh05",
+    "artName": "Moonlit Sky",
+    "githubLink": "https://github.com/Ujjansh05",
+    "pageLink": "./Art/Ujjansh05-Night-Sky/index.html",
+    "imageLink": "./Art/Ujjansh05-Night-Sky/icon.png",
+    "projectPath": "Art/Ujjansh05-Night-Sky"
   },
   {
     "author": "Vatsakala",
@@ -306,9 +394,9 @@
     "author": "huzfm",
     "artName": "Dark Glowing Blobs+Ripples Animation",
     "githubLink": "https://github.com/huzfm",
-    "pageLink": "./Art/huzfm-Dark-Glowing-Blobs+Ripples/index.html",
-    "imageLink": "./Art/huzfm-Dark-Glowing-Blobs+Ripples/icon.png",
-    "projectPath": "Art/huzfm-Dark-Glowing-Blobs+Ripples"
+    "pageLink": "./Art/huzfm-Dark-Glowing-Blobs-and-Ripples/index.html",
+    "imageLink": "./Art/huzfm-Dark-Glowing-Blobs-and-Ripples/icon.png",
+    "projectPath": "Art/huzfm-Dark-Glowing-Blobs-and-Ripples"
   },
   {
     "author": "huzfm",
@@ -333,6 +421,14 @@
     "pageLink": "./Art/huzfm-neon-orbit-animation/index.html",
     "imageLink": "./Art/huzfm-neon-orbit-animation/icon.png",
     "projectPath": "Art/huzfm-neon-orbit-animation"
+  },
+  {
+    "author": "jayantghadge",
+    "artName": "cube loader",
+    "githubLink": "https://github.com/jayantghadge",
+    "pageLink": "./Art/jayantghadge-cube-loader/index.html",
+    "imageLink": "./Art/jayantghadge-cube-loader/icon.png",
+    "projectPath": "Art/jayantghadge-cube-loader"
   },
   {
     "author": "jeevaramanathan",
@@ -468,6 +564,53 @@
     "pageLink": "./Art/ornitcg-rolling-egg/index.html",
     "imageLink": "./Art/ornitcg-rolling-egg/icon.png",
     "projectPath": "Art/ornitcg-rolling-egg"
-
-  
+  },
+  {
+    "author": "ravikantchauhan246",
+    "artName": "ufo in sky",
+    "githubLink": "https://github.com/ravikantchauhan246",
+    "pageLink": "./Art/ravikantchauhan246-ufo-in-sky/index.html",
+    "imageLink": "./Art/ravikantchauhan246-ufo-in-sky/icon.png",
+    "projectPath": "Art/ravikantchauhan246-ufo-in-sky"
+  },
+  {
+    "author": "tomdu3",
+    "artName": "hearts",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-hearts/index.html",
+    "imageLink": "./Art/tomdu3-hearts/icon.png",
+    "projectPath": "Art/tomdu3-hearts"
+  },
+  {
+    "author": "tomdu3",
+    "artName": "neon hello",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-neon-hello/index.html",
+    "imageLink": "./Art/tomdu3-neon-hello/icon.png",
+    "projectPath": "Art/tomdu3-neon-hello"
+  },
+  {
+    "author": "tomdu3",
+    "artName": "neon sign",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-neon-sign/index.html",
+    "imageLink": "./Art/tomdu3-neon-sign/icon.png",
+    "projectPath": "Art/tomdu3-neon-sign"
+  },
+  {
+    "author": "tomdu3",
+    "artName": "olympics",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-olympics/index.html",
+    "imageLink": "./Art/tomdu3-olympics/icon.png",
+    "projectPath": "Art/tomdu3-olympics"
+  },
+  {
+    "author": "tomdu3",
+    "artName": "time flies",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-time-flies/index.html",
+    "imageLink": "./Art/tomdu3-time-flies/icon.png",
+    "projectPath": "Art/tomdu3-time-flies"
+  }
 ]
