@@ -15,12 +15,7 @@ body {
   margin: 0;
   background: radial-gradient(1100px 700px at 50% 42%, #0c1230, var(--bg));
   color: #e9eefc;
-  font-family:
-    ui-sans-serif,
-    system-ui,
-    -apple-system,
-    'Segoe UI',
-    Roboto,
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
     Arial;
 }
 
@@ -37,15 +32,15 @@ body {
   height: min(540px, 92vw);
   border-radius: 18px;
   overflow: hidden;
-  background:
-    radial-gradient(85% 65% at 50% 55%, #0b122d 0, #081025 60%, #070b18 100%),
+  background: radial-gradient(
+      85% 65% at 50% 55%,
+      #0b122d 0,
+      #081025 60%,
+      #070b18 100%
+    ),
     radial-gradient(#ffffff15 1px, transparent 1px); /* faint speckles */
-  background-size:
-    auto,
-    3px 3px;
-  background-position:
-    0 0,
-    0 0;
+  background-size: auto, 3px 3px;
+  background-position: 0 0, 0 0;
   filter: drop-shadow(0 20px 60px #0008);
   transform: perspective(900px) rotateX(22deg);
   animation: sway 8s ease-in-out infinite alternate;
@@ -63,8 +58,7 @@ body {
   height: 25vmin; /* base size before scaling */
   transform: translate(-50%, -50%) scale(0.25);
   border-radius: 50%;
-  background:
-    radial-gradient(
+  background: radial-gradient(
       circle at 50% 50%,
       transparent 58%,
       var(--c) 60% 63%,
@@ -84,9 +78,7 @@ body {
   box-shadow: var(--glow);
   filter: saturate(140%);
   opacity: 0;
-  animation:
-    fly 2.8s linear infinite,
-    spin 6s linear infinite;
+  animation: fly 2.8s linear infinite, spin 6s linear infinite;
   animation-delay: calc(var(--i) * -0.2s);
 }
 

@@ -16,12 +16,7 @@ body {
     #05070c
   );
   color: #fff;
-  font-family:
-    system-ui,
-    Segoe UI,
-    Roboto,
-    Inter,
-    sans-serif;
+  font-family: system-ui, Segoe UI, Roboto, Inter, sans-serif;
 }
 
 .scene {
@@ -42,8 +37,7 @@ body {
   aspect-ratio: 1;
   border-radius: 50%;
   overflow: hidden;
-  background:
-    repeating-conic-gradient(
+  background: repeating-conic-gradient(
       from 0deg,
       transparent 0 9deg,
       rgba(0, 255, 242, 0.9) 9deg 14deg
@@ -53,8 +47,7 @@ body {
       transparent 0 11deg,
       rgba(151, 104, 255, 0.85) 11deg 16deg
     );
-  box-shadow:
-    inset 0 0 0 3px rgba(255, 255, 255, 0.06),
+  box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.06),
     inset 0 -120px 160px rgba(0, 0, 0, 0.45),
     inset 0 120px 160px rgba(0, 0, 0, 0.35);
 }
@@ -81,8 +74,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(
+  background: radial-gradient(
       120% 90% at 50% 120%,
       rgba(255, 255, 255, 0.22),
       rgba(255, 255, 255, 0) 55%
@@ -141,13 +133,14 @@ body {
   aspect-ratio: 1;
   border-radius: 50%;
   transform: rotateX(62deg) translateZ(-44px);
-  background:
-    radial-gradient(closest-side, rgba(255, 255, 255, 0.08), transparent 70%),
+  background: radial-gradient(
+      closest-side,
+      rgba(255, 255, 255, 0.08),
+      transparent 70%
+    ),
     radial-gradient(circle at 50% 52%, rgba(0, 0, 0, 0.45) 64%, transparent 67%);
-  box-shadow:
-    0 14px 0 -6px rgba(18, 24, 33, 0.75),
-    0 32px 0 -10px rgba(18, 24, 33, 0.6),
-    0 46px 0 -14px rgba(18, 24, 33, 0.45);
+  box-shadow: 0 14px 0 -6px rgba(18, 24, 33, 0.75),
+    0 32px 0 -10px rgba(18, 24, 33, 0.6), 0 46px 0 -14px rgba(18, 24, 33, 0.45);
   pointer-events: none;
 }
 

@@ -15,8 +15,11 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image:
-    radial-gradient(2px 2px at 10% 20%, #ffffff40 40%, transparent 41%),
+  background-image: radial-gradient(
+      2px 2px at 10% 20%,
+      #ffffff40 40%,
+      transparent 41%
+    ),
     radial-gradient(2px 2px at 30% 70%, #ffffff30 40%, transparent 41%),
     radial-gradient(1.5px 1.5px at 80% 35%, #ffffff20 40%, transparent 41%),
     radial-gradient(1.5px 1.5px at 65% 85%, #ffffff25 40%, transparent 41%);
@@ -118,10 +121,7 @@ body {
     2% 35%,
     39% 35%
   );
-  box-shadow:
-    0 0 8px #ffd16688,
-    0 0 16px #ffd16655,
-    0 0 28px #ff9f1c44;
+  box-shadow: 0 0 8px #ffd16688, 0 0 16px #ffd16655, 0 0 28px #ff9f1c44;
   opacity: 0;
   animation: shoot 1.4s ease-out infinite;
 }

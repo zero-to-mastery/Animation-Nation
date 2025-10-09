@@ -18,8 +18,7 @@ body {
   width: var(--size);
   height: calc(var(--size) * 2);
   transform: translateX(-50%);
-  animation:
-    fall var(--speed) linear infinite var(--delay),
+  animation: fall var(--speed) linear infinite var(--delay),
     sway calc(var(--speed) * 0.9) ease-in-out infinite var(--delay),
     spin calc(var(--speed) * 0.8) ease-in-out infinite var(--delay);
   filter: hue-rotate(var(--hue)) drop-shadow(0 4px 3px rgba(0, 0, 0, 0.4));
