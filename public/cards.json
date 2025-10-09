@@ -145,6 +145,14 @@
   },
   {
     "author": "IshaaqDaahir",
+    "artName": "moving train",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-moving-train/index.html",
+    "imageLink": "./Art/IshaaqDaahir-moving-train/icon.png",
+    "projectPath": "Art/IshaaqDaahir-moving-train"
+  },
+  {
+    "author": "IshaaqDaahir",
     "artName": "northern aurora",
     "githubLink": "https://github.com/IshaaqDaahir",
     "pageLink": "./Art/IshaaqDaahir-northern-aurora/index.html",
@@ -564,5 +572,13 @@
     "pageLink": "./Art/tomdu3-neon-sign/index.html",
     "imageLink": "./Art/tomdu3-neon-sign/icon.png",
     "projectPath": "Art/tomdu3-neon-sign"
+  },
+  {
+    "author": "tomdu3",
+    "artName": "time flies",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-time-flies/index.html",
+    "imageLink": "./Art/tomdu3-time-flies/icon.png",
+    "projectPath": "Art/tomdu3-time-flies"
   }
 ]
