@@ -37,7 +37,8 @@ body {
   border-radius: 50%;
   transform-origin: left center;
   animation: radius 2.4s ease-in-out infinite both;
-  box-shadow: 0 0 10px 4px rgba(120, 190, 255, 0.12),
+  box-shadow:
+    0 0 10px 4px rgba(120, 190, 255, 0.12),
     0 0 24px 6px rgba(120, 190, 255, 0.1);
 }
 

@@ -29,7 +29,8 @@ body {
     rgba(255, 255, 255, 0.03),
     rgba(255, 255, 255, 0)
   );
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6),
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.6),
     inset 0 0 60px rgba(255, 255, 255, 0.05);
   display: grid;
   place-items: end center;
@@ -43,8 +44,8 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(transparent 95%, rgba(255, 255, 255, 0.05) 0) 0 0/100%
-      8%,
+  background:
+    linear-gradient(transparent 95%, rgba(255, 255, 255, 0.05) 0) 0 0/100% 8%,
     linear-gradient(90deg, transparent 95%, rgba(255, 255, 255, 0.05) 0) 0 0/8%
       100%;
   opacity: 0.3;
@@ -63,14 +64,13 @@ body {
 .bars span {
   height: 15%;
   border-radius: 999px;
-  background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0)
-    ),
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)),
     linear-gradient(180deg, #6fd3ff, #de8bff 40%, #ffd86f 80%);
-  box-shadow: 0 0 12px rgba(111, 211, 255, 0.6),
-    0 0 24px rgba(222, 139, 255, 0.35), inset 0 0 20px rgba(255, 255, 255, 0.18);
+  box-shadow:
+    0 0 12px rgba(111, 211, 255, 0.6),
+    0 0 24px rgba(222, 139, 255, 0.35),
+    inset 0 0 20px rgba(255, 255, 255, 0.18);
   animation: bounce 2.8s ease-in-out infinite;
   animation-delay: calc(var(--i) * -0.18s);
   filter: saturate(1.2);

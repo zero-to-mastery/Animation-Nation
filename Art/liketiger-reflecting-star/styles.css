@@ -16,7 +16,9 @@ body {
   height: 260px;
   border-radius: 50%;
   border: 2px solid #7cc0ff66;
-  box-shadow: inset 0 0 40px #1b3a5b66, 0 8px 24px rgba(0, 0, 0, 0.35);
+  box-shadow:
+    inset 0 0 40px #1b3a5b66,
+    0 8px 24px rgba(0, 0, 0, 0.35);
   background: radial-gradient(circle at 50% 50%, #0e1628, #0a1222 65%, #08101e);
   overflow: hidden;
 }
@@ -35,7 +37,8 @@ body {
 
 .bullet {
   background: radial-gradient(circle at 35% 30%, #ffffff, #bfe3ff 60%, #7cc0ff);
-  box-shadow: 0 0 6px 2px rgba(124, 192, 255, 0.65),
+  box-shadow:
+    0 0 6px 2px rgba(124, 192, 255, 0.65),
     0 0 16px 6px rgba(124, 192, 255, 0.35);
 }
 
@@ -45,7 +48,8 @@ body {
   background: radial-gradient(circle at 35% 30%, #f3fbff, #a5d7ff 70%, #6fb6ff);
   opacity: 0.55;
   filter: blur(0.6px) saturate(1.05);
-  box-shadow: 0 0 8px 2px rgba(124, 192, 255, 0.25),
+  box-shadow:
+    0 0 8px 2px rgba(124, 192, 255, 0.25),
     0 0 18px 8px rgba(124, 192, 255, 0.18);
 }
 
