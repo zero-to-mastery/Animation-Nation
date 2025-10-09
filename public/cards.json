@@ -145,6 +145,14 @@
   },
   {
     "author": "IshaaqDaahir",
+    "artName": "flying helicopter",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-flying-helicopter/index.html",
+    "imageLink": "./Art/IshaaqDaahir-flying-helicopter/icon.png",
+    "projectPath": "Art/IshaaqDaahir-flying-helicopter"
+  },
+  {
+    "author": "IshaaqDaahir",
     "artName": "moving train",
     "githubLink": "https://github.com/IshaaqDaahir",
     "pageLink": "./Art/IshaaqDaahir-moving-train/index.html",
@@ -158,6 +166,14 @@
     "pageLink": "./Art/IshaaqDaahir-northern-aurora/index.html",
     "imageLink": "./Art/IshaaqDaahir-northern-aurora/icon.png",
     "projectPath": "Art/IshaaqDaahir-northern-aurora"
+  },
+  {
+    "author": "IshaaqDaahir",
+    "artName": "traffic lights",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-traffic-lights/index.html",
+    "imageLink": "./Art/IshaaqDaahir-traffic-lights/icon.png",
+    "projectPath": "Art/IshaaqDaahir-traffic-lights"
   },
   {
     "artName": "Searching",
@@ -572,6 +588,14 @@
     "pageLink": "./Art/tomdu3-neon-sign/index.html",
     "imageLink": "./Art/tomdu3-neon-sign/icon.png",
     "projectPath": "Art/tomdu3-neon-sign"
+  },
+  {
+    "author": "tomdu3",
+    "artName": "olympics",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-olympics/index.html",
+    "imageLink": "./Art/tomdu3-olympics/icon.png",
+    "projectPath": "Art/tomdu3-olympics"
   },
   {
     "author": "tomdu3",
