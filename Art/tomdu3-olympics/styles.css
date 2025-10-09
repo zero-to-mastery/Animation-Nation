@@ -19,9 +19,7 @@ body {
   height: 10px;
   background-color: black;
   border-radius: 50%;
-  animation:
-    fly-zig-zag 3s forwards,
-    grow-circle 1s 3s forwards;
+  animation: fly-zig-zag 3s forwards, grow-circle 1s 3s forwards;
 }
 
 @keyframes fly-zig-zag {
@@ -67,9 +65,7 @@ body {
   border-radius: 50%;
   border: 10px solid;
   opacity: 0;
-  animation:
-    emerge 2s 4s forwards,
-    bliss-effect 2s 6s infinite alternate;
+  animation: emerge 2s 4s forwards, bliss-effect 2s 6s infinite alternate;
 }
 
 .blue {

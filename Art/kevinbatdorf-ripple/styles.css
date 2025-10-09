@@ -34,10 +34,8 @@ body {
     background-color: hsl(var(--hue) 100% calc(70% - var(--distance) * 60%));
     inset: calc(var(--size) * -0.5);
     translate: calc(var(--x) * var(--size)) calc(var(--y) * var(--size));
-    animation:
-      sqr 0.7s var(--delay, 0s) infinite linear alternate,
-      rotate 5s var(--delay, 0s) infinite linear,
-      colorCycle 45s infinite linear;
+    animation: sqr 0.7s var(--delay, 0s) infinite linear alternate,
+      rotate 5s var(--delay, 0s) infinite linear, colorCycle 45s infinite linear;
   }
 }
 

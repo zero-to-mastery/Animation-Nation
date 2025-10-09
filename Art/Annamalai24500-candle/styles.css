@@ -94,9 +94,7 @@ body {
   height: 60px;
   background: linear-gradient(to top, #ff3300, #ff9900, #ffff00);
   border-radius: 50% 50% 20% 20%;
-  box-shadow:
-    0 0 20px #ff3300,
-    0 0 40px #ff9900;
+  box-shadow: 0 0 20px #ff3300, 0 0 40px #ff9900;
   animation: flicker-main 0.8s infinite alternate;
   transform-origin: bottom center;
 }
