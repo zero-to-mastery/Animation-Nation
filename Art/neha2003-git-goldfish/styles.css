@@ -3,9 +3,9 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background: linear-gradient(180deg, #87CEEB 0%, #4682B4 50%, #191970 100%);
+  background: linear-gradient(180deg, #87ceeb 0%, #4682b4 50%, #191970 100%);
   overflow: hidden;
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 html {
@@ -41,7 +41,12 @@ html {
   left: 0%;
   width: 500px;
   height: 260px;
-  background: linear-gradient(145deg, #ffd46b 0%, #ff9b1f 50%, #ff7b00 100%); /* improved */
+  background: linear-gradient(
+    145deg,
+    #ffd46b 0%,
+    #ff9b1f 50%,
+    #ff7b00 100%
+  ); /* improved */
   border-radius: 100%;
   box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.4); /* glow for realism */
   overflow: hidden;
@@ -91,10 +96,9 @@ html {
   border-radius: 80% 100% 90% 95%;
 }
 
-
 #fish-head::before {
   position: absolute;
-  content: "";
+  content: '';
   top: -53px;
   left: -99px;
   height: 46px;
@@ -106,7 +110,7 @@ html {
 
 #fish-head::after {
   position: absolute;
-  content: "";
+  content: '';
   top: -24px;
   left: -75px;
   width: 35px;
@@ -117,7 +121,7 @@ html {
 
 .fish-eye-highlight {
   position: absolute;
-  top: -18px;  /* adjust inside pupil */
+  top: -18px; /* adjust inside pupil */
   left: -65px; /* adjust inside pupil */
   width: 8px;
   height: 8px;
@@ -155,7 +159,7 @@ html {
 }
 #fish-tail2::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 230px; /* 220 */
   top: 95px; /* 101 */
   width: 100px;
@@ -191,7 +195,7 @@ html {
 
 #fish-tail4::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 200px;
   top: -63px;
   width: 100px;
@@ -207,13 +211,17 @@ html {
   left: -69px;
   width: 30%;
   height: 120px;
-  background: linear-gradient(145deg, #ffcc66, #ff9b33 80%, #ff7b00 100%); /* gradient for depth */
+  background: linear-gradient(
+    145deg,
+    #ffcc66,
+    #ff9b33 80%,
+    #ff7b00 100%
+  ); /* gradient for depth */
   border-radius: 20% 10% 10% 20%;
   overflow: hidden;
   box-shadow: inset 0 0 15px rgba(255, 200, 100, 0.4);
   opacity: 0.9;
 }
-
 
 /* === FINS MORE GRADIENT AND DELICATE === */
 #fish-fin1 {
