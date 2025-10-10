@@ -63,31 +63,31 @@ jobs:
 
             # Submit review
             echo "Submit review comment"
-            gh pr comment "$PR_NUMBER" --body "$REVIEW_MESSAGE" -R "${{ github.repository }}"
+            gh pr comment "$PR_NUMBER" --body "$REVIEW_MESSAGE" -R "${{ github.event.pull_request.base.repo.full_name }}"
 
             # Add "Requested Changes" label + assign contributor
             echo "Handle \"Changes Requested\" label and contributor assignment"
             if echo "$REVIEW_MESSAGE" | grep -q '\- \[ \]'; then
-              gh pr edit "$PR_NUMBER" --add-assignee "$GITHUB_HANDLE" -R "${{ github.repository }}";
-              gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.repository }}";
+              gh pr edit "$PR_NUMBER" --add-assignee "$GITHUB_HANDLE" -R "${{ github.event.pull_request.base.repo.full_name }}";
+              gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}";
             else
-              gh pr edit "$PR_NUMBER" --remove-label "Changes Requested" -R "${{ github.repository }}";
+              gh pr edit "$PR_NUMBER" --remove-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}";
             fi
 
             # Add "invalid" label when changes are out of Art/ folder (and not maintainer)
             echo "Handle label \"invalid\""
             if echo "$REVIEW_MESSAGE" | grep -q -Eqi 'empty file'; then
-                gh pr edit "$PR_NUMBER" --add-label "invalid" -R "${{ github.repository }}";
+                gh pr edit "$PR_NUMBER" --add-label "invalid" -R "${{ github.event.pull_request.base.repo.full_name }}";
             else
-              gh pr edit "$PR_NUMBER" --remove-label "invalid" -R "${{ github.repository }}";
+              gh pr edit "$PR_NUMBER" --remove-label "invalid" -R "${{ github.event.pull_request.base.repo.full_name }}";
             fi
 
             # Add "Conflict present" when an icon is present in changes
             echo "Handle label \"Conflict present\""
             if echo "$REVIEW_MESSAGE" | grep -q -Eqi '/icon'; then
-                gh pr edit "$PR_NUMBER" --add-label "Conflict present" -R "${{ github.repository }}";
+                gh pr edit "$PR_NUMBER" --add-label "Conflict present" -R "${{ github.event.pull_request.base.repo.full_name }}";
             else
-              gh pr edit "$PR_NUMBER" --remove-label "Conflict present" -R "${{ github.repository }}";
+              gh pr edit "$PR_NUMBER" --remove-label "Conflict present" -R "${{ github.event.pull_request.base.repo.full_name }}";
             fi
 
         env:
@@ -115,12 +115,12 @@ jobs:
             CURRENT_MONTH=$(date +%m)
 
             if [[ "$REVIEW_STATE" == "changes_requested" ]]; then
-              gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.repository }}
+              gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}
               echo "Maintainer requested changes — label added."
             fi
 
             # Add Hacktoberfest label only if current month is October (10)
             if [[ "$CURRENT_MONTH" == "10" && "$REVIEW_STATE" == "approved" ]]; then
-              gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-accepted" -R "${{ github.repository }}
+              gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-accepted" -R "${{ github.event.pull_request.base.repo.full_name }}
             fi
             
