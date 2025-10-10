@@ -4,6 +4,8 @@ on:
   pull_request_target:
     branches: [ master ]
     types: [opened, synchronize, reopened]
+  pull_request_review:
+    types: [submitted]
 
 permissions:
   contents: read
@@ -140,8 +142,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  maintainer-review:
-      needs: pre-review
+  maintainer-review-actions:
       if: github.event_name == 'pull_request_review'
       runs-on: ubuntu-latest
 
