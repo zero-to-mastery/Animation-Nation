@@ -40,6 +40,11 @@ jobs:
             setEnv() {
                 echo "$1=${!1}" >> $GITHUB_ENV
             }
+            # PR author (the contributor)
+            CONTRIBUTOR=${{ github.event.pull_request.user.login }};
+            setEnv "CONTRIBUTOR";
+            echo "Contributor github handle: $CONTRIBUTOR"
+
             
             MERGE_BASE=$(git merge-base origin/master HEAD 2>/dev/null || echo HEAD~1);
             GITHUB_HANDLE=${GITHUB_TRIGGERING_ACTOR:-local-actor}; setEnv "GITHUB_HANDLE";
@@ -49,14 +54,14 @@ jobs:
             printf '%s\n' "$CHANGED_FILES" >> $GITHUB_ENV
             echo "EOF" >> $GITHUB_ENV
 
-            GITHUB_PERMISSION_ROLE=$(gh api "repos/$GITHUB_REPOSITORY/collaborators/$GITHUB_HANDLE/permission" -q '.role_name' 2>/dev/null || echo 'unknown');
+            GITHUB_PERMISSION_ROLE=$(gh api "repos/$GITHUB_REPOSITORY/collaborators/$CONTRIBUTOR/permission" -q '.role_name' 2>/dev/null || echo 'unknown');
             setEnv "GITHUB_PERMISSION_ROLE";
 
       - name: Run "preReview" script
         id: pre-review
         run: |
             PR_NUMBER=${{ github.event.pull_request.number }};
-            REVIEW_MESSAGE=$(node ./generators/preReview.js "$GITHUB_HANDLE" "$CHANGED_FILES" "$GITHUB_PERMISSION_ROLE");
+            REVIEW_MESSAGE=$(node ./generators/preReview.js "$CONTRIBUTOR" "$CHANGED_FILES" "$GITHUB_PERMISSION_ROLE");
             echo "REVIEW_MESSAGE<<EOF" >> $GITHUB_ENV;
             echo "$REVIEW_MESSAGE" >> $GITHUB_ENV;
             echo "EOF" >> $GITHUB_ENV;
@@ -73,7 +78,7 @@ jobs:
             # Add "Requested Changes" label + assign contributor
             echo "Handle \"Changes Requested\" label and contributor assignment"
             if echo "$REVIEW_MESSAGE" | grep -q '\- \[ \]'; then
-              gh pr edit "$PR_NUMBER" --add-assignee "$GITHUB_HANDLE" -R "${{ github.event.pull_request.base.repo.full_name }}";
+              gh pr edit "$PR_NUMBER" --add-assignee "$CONTRIBUTOR" -R "${{ github.event.pull_request.base.repo.full_name }}";
               gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}";
             else
               gh pr edit "$PR_NUMBER" --remove-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}";
@@ -120,12 +125,12 @@ jobs:
             CURRENT_MONTH=$(date +%m)
 
             if [[ "$REVIEW_STATE" == "changes_requested" ]]; then
-              gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}
+              gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
               echo "Maintainer requested changes — label added."
             fi
 
             # Add Hacktoberfest label only if current month is October (10)
             if [[ "$CURRENT_MONTH" == "10" && "$REVIEW_STATE" == "approved" ]]; then
-              gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-accepted" -R "${{ github.event.pull_request.base.repo.full_name }}
+              gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-accepted" -R "${{ github.event.pull_request.base.repo.full_name }}"
             fi
             

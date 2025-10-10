@@ -1,7 +1,7 @@
 const fs = require('node:fs/promises');
 
 /* Github Actions values to use */
-const CONTRIBUTOR_HANDLER = process.env.GITHUB_HANDLE || '';
+const CONTRIBUTOR_HANDLER = process.env.CONTRIBUTOR || '';
 const CHANGED_FILES_STR = process.env?.CHANGED_FILES || '';
 const EXPECTED_HTML = 'index.html';
 const EXPECTED_CSS = 'styles.css';
@@ -292,7 +292,7 @@ const checkContent = async (contributionStates) => {
 
 /** Generates the final review message */
 const generateReviewMessage = (feedbackList) => {
-  const interlocutor = `@${CONTRIBUTOR_HANDLER}` || 'Dear Contributor';
+  const interlocutor = CONTRIBUTOR_HANDLER ? `@${CONTRIBUTOR_HANDLER}` : 'Dear Contributor';
   const messageLines = [
     `Aloha ${interlocutor} 🙌 - Thanks for your contribution!`
   ];
