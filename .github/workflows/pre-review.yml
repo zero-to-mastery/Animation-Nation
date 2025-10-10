@@ -18,6 +18,7 @@ env:
 
 jobs:
   pre-review:
+    if: github.event_name == 'pull_request_target'
     runs-on: ubuntu-latest
 
     steps:
