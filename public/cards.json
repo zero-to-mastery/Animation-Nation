@@ -591,6 +591,14 @@
   },
   {
     "author": "tomdu3",
+    "artName": "day",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-day/index.html",
+    "imageLink": "./Art/tomdu3-day/icon.png",
+    "projectPath": "Art/tomdu3-day"
+  },
+  {
+    "author": "tomdu3",
     "artName": "hearts",
     "githubLink": "https://github.com/tomdu3",
     "pageLink": "./Art/tomdu3-hearts/index.html",
