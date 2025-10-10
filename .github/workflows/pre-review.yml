@@ -78,10 +78,16 @@ jobs:
             # Add "Requested Changes" label + assign contributor
             echo "Handle \"Changes Requested\" label and contributor assignment"
             if echo "$REVIEW_MESSAGE" | grep -q '\- \[ \]'; then
-              gh pr edit "$PR_NUMBER" --add-assignee "$CONTRIBUTOR" -R "${{ github.event.pull_request.base.repo.full_name }}";
-              gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}";
+              # Only assign if contributor is a collaborator
+              if [[ "$GITHUB_PERMISSION_ROLE" != "unknown" ]]; then
+                gh pr edit "$PR_NUMBER" --add-assignee "$CONTRIBUTOR" -R "${{ github.event.pull_request.base.repo.full_name }}"
+              fi
+
+              # Always add "Changes Requested" label
+              gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
             else
-              gh pr edit "$PR_NUMBER" --remove-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}";
+              # Remove the label if no changes requested
+              gh pr edit "$PR_NUMBER" --remove-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
             fi
 
             # Add "invalid" label when changes are out of Art/ folder (and not maintainer)

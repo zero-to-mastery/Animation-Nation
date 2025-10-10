@@ -292,7 +292,9 @@ const checkContent = async (contributionStates) => {
 
 /** Generates the final review message */
 const generateReviewMessage = (feedbackList) => {
-  const interlocutor = CONTRIBUTOR_HANDLER ? `@${CONTRIBUTOR_HANDLER}` : 'Dear Contributor';
+  const interlocutor = CONTRIBUTOR_HANDLER
+    ? `@${CONTRIBUTOR_HANDLER}`
+    : 'Dear Contributor';
   const messageLines = [
     `Aloha ${interlocutor} 🙌 - Thanks for your contribution!`
   ];
