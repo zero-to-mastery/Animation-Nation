@@ -35,27 +35,24 @@ jobs:
 
       - name: Collect information
         run: |
-            PR_NUMBER=${{ github.event.pull_request.number }}
-            echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
+          # Set PR_NUMBER
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
 
-            # PR author
-            CONTRIBUTOR=${{ github.event.pull_request.user.login }}
-            echo "CONTRIBUTOR=$CONTRIBUTOR" >> $GITHUB_ENV
-            echo "Contributor github handle: $CONTRIBUTOR"
+          # Set repository full name
+          REPO_NAME="${{ github.event.pull_request.head.repo.full_name }}"
+          echo "REPO_NAME=$REPO_NAME" >> $GITHUB_ENV
 
-            # Base branch for diff
-            MERGE_BASE=$(git merge-base origin/master HEAD 2>/dev/null || echo HEAD~1)
-            echo "MERGE_BASE=$MERGE_BASE" >> $GITHUB_ENV
+          # PR author
+          CONTRIBUTOR=${{ github.event.pull_request.user.login }}
+          echo "CONTRIBUTOR=$CONTRIBUTOR" >> $GITHUB_ENV
+          echo "Contributor github handle: $CONTRIBUTOR"
 
-            # Changed files
-            CHANGED_FILES=$(gh pr view $PR_NUMBER -R "${{ github.event.pull_request.head.repo.full_name }}" --json files -q '.files[].path')
-            echo "CHANGED_FILES<<EOF" >> $GITHUB_ENV
-            printf '%s\n' "$CHANGED_FILES" >> $GITHUB_ENV
-            echo "EOF" >> $GITHUB_ENV
-
-            # GitHub permission role
-            GITHUB_PERMISSION_ROLE=$(gh api "repos/$GITHUB_REPOSITORY/collaborators/$CONTRIBUTOR/permission" -q '.role_name' 2>/dev/null || echo 'unknown')
-            echo "GITHUB_PERMISSION_ROLE=$GITHUB_PERMISSION_ROLE" >> $GITHUB_ENV
+          # Get changed files
+          CHANGED_FILES=$(gh pr view "$PR_NUMBER" -R "$REPO_NAME" --json files -q '.files[].path')
+          echo "CHANGED_FILES<<EOF" >> $GITHUB_ENV
+          printf '%s\n' "$CHANGED_FILES" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
       - name: Run "preReview" script
         id: pre-review
