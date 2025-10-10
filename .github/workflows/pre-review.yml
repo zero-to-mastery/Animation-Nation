@@ -2,8 +2,8 @@ name: PR Pre-review
 
 on:
   pull_request_target:
-    branches:
-      - master
+    branches: [ master ]
+    types: [opened, synchronize, reopened]
 
 permissions:
   contents: read
