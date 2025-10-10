@@ -1,7 +1,7 @@
 const fs = require('node:fs/promises');
 
 /* Github Actions values to use */
-const CONTRIBUTOR_HANDLER = process.env.GITHUB_HANDLE || '';
+const CONTRIBUTOR_HANDLER = process.env.CONTRIBUTOR || '';
 const CHANGED_FILES_STR = process.env?.CHANGED_FILES || '';
 const EXPECTED_HTML = 'index.html';
 const EXPECTED_CSS = 'styles.css';
