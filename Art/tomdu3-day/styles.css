@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.sky {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #87ceeb, #f0f0f0);
+  animation: sky-change 20s linear infinite;
+}
+
+@keyframes sky-change {
+  0% {
+    background: linear-gradient(to bottom, #191970, #4682b4);
+  }
+  25% {
+    background: linear-gradient(to bottom, #4682b4, #f0f0f0);
+  }
+  50% {
+    background: linear-gradient(to bottom, #87ceeb, #f0f0f0);
+  }
+  75% {
+    background: linear-gradient(to bottom, #4682b4, #f0f0f0);
+  }
+  100% {
+    background: linear-gradient(to bottom, #191970, #4682b4);
+  }
+}
+
+.sun {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.sun {
+  background: #ffd700;
+  box-shadow: 0 0 50px #ffd700;
+  animation: sun-move 20s linear infinite;
+}
+
+@keyframes sun-move {
+  0% {
+    transform: translate(100vw, 100px) scale(1.5);
+  }
+  25% {
+    transform: translate(75vw, -100px) scale(1);
+  }
+  50% {
+    transform: translate(50vw, -150px) scale(0.8);
+  }
+  75% {
+    transform: translate(25vw, -100px) scale(1);
+  }
+  100% {
+    transform: translate(0, 100px) scale(1.5);
+  }
+}
+
+.cloud {
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: cloud-move 15s linear infinite;
+}
+
+.cloud1 {
+  width: 150px;
+  height: 50px;
+  top: 10%;
+  left: -20%;
+}
+
+.cloud2 {
+  width: 200px;
+  height: 60px;
+  top: 20%;
+  left: -30%;
+  animation-delay: 5s;
+}
+
+.cloud3 {
+  width: 120px;
+  height: 40px;
+  top: 15%;
+  left: -15%;
+  animation-delay: 10s;
+}
+
+@keyframes cloud-move {
+  from {
+    left: -20%;
+  }
+  to {
+    left: 120%;
+  }
+}
+
+.hills {
+  position: absolute;
+  width: 100vw;
+  height: 25vh;
+  bottom: 0;
+}
+
+.hill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}
+
+.hill1 {
+  background: #6b8e23;
+  z-index: 3;
+}
+
+.hill2 {
+  background: #556b2f;
+  transform: scale(1.1);
+  bottom: -5%;
+  z-index: 2;
+}
+
+.hill3 {
+  background: #2f4f4f;
+  transform: scale(1.2);
+  bottom: -10%;
+  z-index: 1;
+}
+
+.woods {
+  position: absolute;
+  width: 100vw;
+  height: 20vh;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  z-index: 4;
+}
+
+.tree {
+  position: relative;
+  width: 20px;
+  height: 50px;
+  background: #8b4513;
+}
+
+.tree::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #228b22;
+  top: -40px;
+  left: -15px;
+}

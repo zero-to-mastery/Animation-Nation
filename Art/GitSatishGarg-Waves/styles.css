@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #001f3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wave-container {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #003366;
+}
+
+.wave {
+  position: absolute;
+  bottom: -50%;
+  width: 200%;
+  height: 200%;
+  background: #00ffff;
+  border-radius: 40%;
+  animation: riseWave 5s infinite linear;
+  opacity: 0.5;
+}
+
+@keyframes riseWave {
+  0% {
+    transform: translateY(100%) rotate(0deg);
+  }
+  50% {
+    transform: translateY(50%) rotate(180deg);
+  }
+  100% {
+    transform: translateY(100%) rotate(360deg);
+  }
+}
