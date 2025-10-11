@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle at 50% 80%, #01010a 0%, #000000 80%);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sky {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  animation: drift 40s ease-in-out infinite alternate;
+}
+
+.star {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  min-width: 6px;
+  min-height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 0 1vw 0.5vw #00eaff, 0 0 2vw 1vw rgba(0, 234, 255, 0.3);
+  animation: twinkle 2.5s infinite ease-in-out alternate;
+}
+
+.s1 {
+  top: 25%;
+  left: 20%;
+  animation-delay: 0s;
+}
+.s2 {
+  top: 38%;
+  left: 42%;
+  animation-delay: 0.4s;
+}
+.s3 {
+  top: 52%;
+  left: 60%;
+  animation-delay: 0.8s;
+}
+.s4 {
+  top: 68%;
+  left: 75%;
+  animation-delay: 1.2s;
+}
+.s5 {
+  top: 40%;
+  left: 82%;
+  animation-delay: 1.6s;
+}
+
+.line {
+  position: absolute;
+  height: 0.3vh;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 255, 0) 0%,
+    rgba(0, 255, 255, 0.8) 50%,
+    rgba(0, 255, 255, 0) 100%
+  );
+  box-shadow: 0 0 0.5vw rgba(0, 255, 255, 0.8);
+  transform-origin: left center;
+  animation: glow 3s infinite ease-in-out alternate;
+}
+
+.l1 {
+  top: 27%;
+  left: 21%;
+  width: 22%;
+  transform: rotate(25deg);
+  animation-delay: 0s;
+}
+.l2 {
+  top: 40%;
+  left: 43%;
+  width: 19%;
+  transform: rotate(18deg);
+  animation-delay: 0.6s;
+}
+.l3 {
+  top: 54%;
+  left: 61%;
+  width: 19%;
+  transform: rotate(14deg);
+  animation-delay: 1.2s;
+}
+.l4 {
+  top: 42%;
+  left: 81%;
+  width: 10%;
+  transform: rotate(110deg);
+  animation-delay: 1.8s;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.4;
+    transform: scale(0.8);
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.4);
+    filter: hue-rotate(90deg);
+  }
+}
+
+@keyframes glow {
+  0% {
+    opacity: 0.2;
+    filter: blur(1px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(2px);
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(1vw, -1vh) scale(1.02);
+  }
+  100% {
+    transform: translate(-1vw, 1vh) scale(1);
+  }
+}

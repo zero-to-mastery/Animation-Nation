@@ -1,0 +1,223 @@
+:root {
+  --bg: #040718;
+  --sun: #ffcc33;
+  --planet1: #4fc3f7;
+  --planet2: #f06292;
+  --planet3: #81c784;
+  --orbit-size: 12vmin;
+}
+
+/* ========== Base setup ========== */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.space {
+  width: min(70vmin, 700px);
+  height: min(70vmin, 700px);
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.sun {
+  width: 12vmin;
+  height: 12vmin;
+  background: radial-gradient(
+    circle at 30% 25%,
+    #fffecd,
+    var(--sun) 40%,
+    #f39c12 70%
+  );
+  border-radius: 50%;
+  box-shadow: 0 0 40px 6px rgba(255, 204, 51, 0.12),
+    0 0 120px 20px rgba(255, 140, 0, 0.06);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ========== Orbits & Planets ========== */
+.orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  border: 1px dashed rgba(255, 255, 255, 0.06);
+  transform: translate(-50%, -50%);
+}
+
+.planet {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: -50% -50%;
+  will-change: transform;
+}
+
+.planet .ball {
+  width: 2.6vmin;
+  height: 2.6vmin;
+  border-radius: 50%;
+  transform: translateX(calc(var(--orbit) * 1px));
+}
+
+.orbit--1 {
+  width: calc(var(--orbit-size) * 1);
+  height: calc(var(--orbit-size) * 1);
+}
+.planet--1 {
+  --orbit: calc(var(--orbit-size) / 2 + 6);
+  animation: orbit-rotate 6s linear infinite;
+}
+.planet--1 .ball {
+  background: var(--planet1);
+  width: 3vmin;
+  height: 3vmin;
+}
+
+.orbit--2 {
+  width: calc(var(--orbit-size) * 1.8);
+  height: calc(var(--orbit-size) * 1.8);
+}
+.planet--2 {
+  --orbit: calc(var(--orbit-size) * 0.9 + 12);
+  animation: orbit-rotate 11s linear infinite reverse;
+}
+.planet--2 .ball {
+  background: var(--planet2);
+  width: 3.6vmin;
+  height: 3.6vmin;
+}
+
+.orbit--3 {
+  width: calc(var(--orbit-size) * 2.6);
+  height: calc(var(--orbit-size) * 2.6);
+}
+.planet--3 {
+  --orbit: calc(var(--orbit-size) * 1.3 + 18);
+  animation: orbit-rotate 18s linear infinite;
+}
+.planet--3 .ball {
+  background: var(--planet3);
+  width: 2.8vmin;
+  height: 2.8vmin;
+}
+
+.moon {
+  width: 1.2vmin;
+  height: 1.2vmin;
+  border-radius: 50%;
+  background: #cfcfcf;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: -50% -50%;
+  transform: translateX(6vmin);
+  animation: orbit-rotate 2.2s linear infinite;
+}
+
+/* ========== Rocket with curved semi-circle trajectory ========== */
+.rocket {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 2vmin;
+  height: 4vmin;
+  background: linear-gradient(to top, #ff4444, #fff);
+  border-radius: 40% 40% 10% 10%;
+  transform-origin: -15vmin center; /* pivot around the system */
+  animation: rocket-arc 8s linear infinite;
+}
+
+/* rocket flame */
+.rocket::after {
+  content: '';
+  position: absolute;
+  bottom: -1.2vmin;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1vmin;
+  height: 2vmin;
+  background: radial-gradient(
+    circle at center,
+    orange 20%,
+    red 80%,
+    transparent 100%
+  );
+  border-radius: 50%;
+  animation: flame-flicker 0.3s infinite alternate;
+}
+
+/* ========== Animations ========== */
+@keyframes orbit-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rocket-arc {
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(-180deg) scale(0.6);
+    opacity: 1;
+  }
+  75% {
+    transform: rotate(-270deg) scale(0.3);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotate(-300deg) scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes flame-flicker {
+  from {
+    transform: scaleY(1);
+    opacity: 0.8;
+  }
+  to {
+    transform: scaleY(1.3);
+    opacity: 0.4;
+  }
+}
+
+/* ========== Stars & Label ========== */
+.stars {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(1px 1px at 10% 20%, #fff, transparent),
+    radial-gradient(1px 1px at 40% 10%, #fff, transparent),
+    radial-gradient(1px 1px at 70% 60%, #fff, transparent),
+    radial-gradient(1px 1px at 20% 80%, #fff, transparent),
+    radial-gradient(1px 1px at 85% 30%, #fff, transparent);
+  opacity: 0.5;
+}
+
+.label {
+  position: absolute;
+  bottom: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: clamp(0.7rem, 2vw, 1.2rem); /* responsive font size */
+  text-align: center;
+  max-width: 90%; /* keeps it inside smaller screens */
+  line-height: 1.4;
+  opacity: 0.8;
+}
