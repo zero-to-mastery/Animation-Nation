@@ -568,6 +568,14 @@
   },
   {
     "author": "neha2003-git",
+    "artName": "airplane",
+    "githubLink": "https://github.com/neha2003-git",
+    "pageLink": "./Art/neha2003-git-airplane/index.html",
+    "imageLink": "./Art/neha2003-git-airplane/icon.png",
+    "projectPath": "Art/neha2003-git-airplane"
+  },
+  {
+    "author": "neha2003-git",
     "artName": "goldfish",
     "githubLink": "https://github.com/neha2003-git",
     "pageLink": "./Art/neha2003-git-goldfish/index.html",
