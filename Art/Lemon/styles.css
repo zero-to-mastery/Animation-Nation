@@ -1,9 +1,13 @@
 .container {
 <<<<<<< HEAD
+<<<<<<< HEAD
   display: flex;
 =======
   display:flex;
 >>>>>>> 2982cbb9 (adding my artsyness to the project (#3074))
+=======
+  display: flex;
+>>>>>>> b0c853b1 ((CI) Run Prettier)
   justify-content: center;
 }
 .css {
@@ -25,7 +29,11 @@
     background-color: yellow;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> 2982cbb9 (adding my artsyness to the project (#3074))
+=======
+}
+>>>>>>> b0c853b1 ((CI) Run Prettier)
