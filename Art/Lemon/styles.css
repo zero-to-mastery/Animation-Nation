@@ -1,6 +1,7 @@
 .container {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   display: flex;
 =======
   display:flex;
@@ -8,6 +9,9 @@
 =======
   display: flex;
 >>>>>>> b0c853b1 ((CI) Run Prettier)
+=======
+  display:flex;
+>>>>>>> c9b2ba33 (adding my artsyness to the project (#3074))
   justify-content: center;
 }
 .css {
@@ -30,6 +34,7 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
@@ -37,3 +42,6 @@
 =======
 }
 >>>>>>> b0c853b1 ((CI) Run Prettier)
+=======
+}
+>>>>>>> c9b2ba33 (adding my artsyness to the project (#3074))
