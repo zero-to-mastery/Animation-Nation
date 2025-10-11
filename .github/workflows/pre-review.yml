@@ -3,7 +3,7 @@ name: PR Pre-review
 on:
   pull_request_target:
     branches: [ master ]
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened, closed]
   pull_request_review:
     types: [submitted]
 
@@ -18,7 +18,7 @@ env:
 
 jobs:
   pre-review:
-    if: github.event_name == 'pull_request_target'
+    if: github.event_name == 'pull_request_target' && github.event.action != 'closed'
     runs-on: ubuntu-latest
 
     steps:
@@ -39,10 +39,7 @@ jobs:
       - name: Collect information
         run: |
           echo "Setting environment variables for preReview.js"
-
-          setEnv() {
-            echo "$1=${!1}" >> $GITHUB_ENV
-          }
+          setEnv() { echo "$1=${!1}" >> $GITHUB_ENV; }
 
           PR_NUMBER=${{ github.event.pull_request.number }}
           setEnv "PR_NUMBER"
@@ -58,7 +55,6 @@ jobs:
           setEnv "HEAD_REF"
 
           git fetch origin ${{ github.event.pull_request.base.ref }}
-
           MERGE_BASE=$(git merge-base origin/${{ github.event.pull_request.base.ref }} HEAD)
           setEnv "MERGE_BASE"
 
@@ -75,7 +71,6 @@ jobs:
         run: |
           PR_NUMBER=${{ github.event.pull_request.number }}
           REVIEW_MESSAGE=$(node ./generators/preReview.js "$CONTRIBUTOR" "$CHANGED_FILES" "$GITHUB_PERMISSION_ROLE")
-
           echo "REVIEW_MESSAGE<<EOF" >> $GITHUB_ENV
           echo "$REVIEW_MESSAGE" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
@@ -95,38 +90,43 @@ jobs:
               echo "Assigning contributor: $CONTRIBUTOR"
               gh pr edit "$PR_NUMBER" --add-assignee "$CONTRIBUTOR" -R "${{ github.event.pull_request.base.repo.full_name }}"
             fi
-
-            echo "Adding 'Changes Requested' label"
             gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
-
-            echo "Removing 'Awaiting Maintainer Validation' label if present"
             gh pr edit "$PR_NUMBER" --remove-label "Awaiting Maintainer Validation" -R "${{ github.event.pull_request.base.repo.full_name }}"
           else
-            echo "Adding 'Awaiting Maintainer Validation' label"
             gh pr edit "$PR_NUMBER" --add-label "Awaiting Maintainer Validation" -R "${{ github.event.pull_request.base.repo.full_name }}"
-
-            echo "Removing 'Changes Requested' label just in case"
             gh pr edit "$PR_NUMBER" --remove-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
-
             if [[ "$CURRENT_MONTH" == "10" ]]; then
               echo "Adding 'hacktoberfest-accepted' as no review detected"
               gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-accepted" -R "${{ github.event.pull_request.base.repo.full_name }}"
             fi
           fi
 
-          echo "Handle 'invalid' label"
           if echo "$REVIEW_MESSAGE" | grep -q -Eqi 'empty file'; then
             gh pr edit "$PR_NUMBER" --add-label "invalid" -R "${{ github.event.pull_request.base.repo.full_name }}"
           else
             gh pr edit "$PR_NUMBER" --remove-label "invalid" -R "${{ github.event.pull_request.base.repo.full_name }}"
           fi
 
-          echo "Handle 'Conflict present' label"
           if echo "$REVIEW_MESSAGE" | grep -q -Eqi '/icon'; then
             gh pr edit "$PR_NUMBER" --add-label "Conflict present" -R "${{ github.event.pull_request.base.repo.full_name }}"
           else
             gh pr edit "$PR_NUMBER" --remove-label "Conflict present" -R "${{ github.event.pull_request.base.repo.full_name }}"
           fi
 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  remove-awaiting-on-merge:
+    if: github.event_name == 'pull_request_target' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove 'Awaiting Maintainer Validation' on merged PR
+        run: |
+          if [ "${{ github.event.pull_request.merged }}" == "true" ]; then
+            echo "PR merged — removing 'Awaiting Maintainer Validation' label"
+            gh pr edit ${{ github.event.pull_request.number }} --remove-label "Awaiting Maintainer Validation" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          else
+            echo "PR closed but not merged — skipping label removal"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
