@@ -109,8 +109,8 @@ jobs:
             gh pr edit "$PR_NUMBER" --remove-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
 
             if [[ "$CURRENT_MONTH" == "10" ]]; then
-              echo "Adding 'hacktoberfest-pending' as no review detected"
-              gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-pending" -R "${{ github.event.pull_request.base.repo.full_name }}"
+              echo "Adding 'hacktoberfest-accepted' as no review detected"
+              gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-accepted" -R "${{ github.event.pull_request.base.repo.full_name }}"
             fi
           fi
 
