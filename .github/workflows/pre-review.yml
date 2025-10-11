@@ -76,6 +76,7 @@ jobs:
         run: |
           PR_NUMBER=${{ github.event.pull_request.number }}
           REVIEW_MESSAGE=$(node ./generators/preReview.js "$CONTRIBUTOR" "$CHANGED_FILES" "$GITHUB_PERMISSION_ROLE")
+
           echo "REVIEW_MESSAGE<<EOF" >> $GITHUB_ENV
           echo "$REVIEW_MESSAGE" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
@@ -93,25 +94,31 @@ jobs:
           if echo "$REVIEW_MESSAGE" | grep -q '\- \[ \]'; then
             if [[ "$GITHUB_PERMISSION_ROLE" != "unknown" ]]; then
               echo "Assigning contributor: $CONTRIBUTOR"
-              gh pr edit "$PR_NUMBER" --add-assignee "$CONTRIBUTOR" -R "${{ github.event.pull_request.base.repo.full_name }}"
+              gh pr edit "$PR_NUMBER" --add-assignee "$CONTRIBUTOR" -R "${{ github.event.pull_request.base.repo.full_name }}" || true
+            else
+              echo "Contributor $CONTRIBUTOR is not a collaborator — skipping assignment"
             fi
+
             gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
             gh pr edit "$PR_NUMBER" --remove-label "Awaiting Maintainer Validation" -R "${{ github.event.pull_request.base.repo.full_name }}"
           else
             gh pr edit "$PR_NUMBER" --add-label "Awaiting Maintainer Validation" -R "${{ github.event.pull_request.base.repo.full_name }}"
             gh pr edit "$PR_NUMBER" --remove-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
+
             if [[ "$CURRENT_MONTH" == "10" ]]; then
               echo "Adding 'hacktoberfest-accepted' as no review detected"
               gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-accepted" -R "${{ github.event.pull_request.base.repo.full_name }}"
             fi
           fi
 
+          echo "Handle 'invalid' label"
           if echo "$REVIEW_MESSAGE" | grep -q -Eqi 'empty file'; then
             gh pr edit "$PR_NUMBER" --add-label "invalid" -R "${{ github.event.pull_request.base.repo.full_name }}"
           else
             gh pr edit "$PR_NUMBER" --remove-label "invalid" -R "${{ github.event.pull_request.base.repo.full_name }}"
           fi
 
+          echo "Handle 'Conflict present' label"
           if echo "$REVIEW_MESSAGE" | grep -q -Eqi '/icon'; then
             gh pr edit "$PR_NUMBER" --add-label "Conflict present" -R "${{ github.event.pull_request.base.repo.full_name }}"
           else
