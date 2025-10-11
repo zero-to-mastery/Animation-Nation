@@ -97,6 +97,14 @@
   },
   {
     "author": "ChrRepou",
+    "artName": "book with turning pages",
+    "githubLink": "https://github.com/ChrRepou",
+    "pageLink": "./Art/ChrRepou-book/index.html",
+    "imageLink": "./Art/ChrRepou-book/icon.png",
+    "projectPath": "Art/ChrRepou-book"
+  },
+  {
+    "author": "ChrRepou",
     "artName": "moving circles",
     "githubLink": "https://github.com/ChrRepou",
     "pageLink": "./Art/ChrRepou-moving-circles/index.html",
