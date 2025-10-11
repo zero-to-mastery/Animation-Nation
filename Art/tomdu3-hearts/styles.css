@@ -1,0 +1,265 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #111;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for hearts */
+.heart-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+/* Main heart styling */
+.main-heart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg) scale(1);
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(45deg, #ff2a6d, #ff7bac);
+  animation: growAndRotate 2s ease-in-out forwards, disappear 0.1s 2s forwards;
+  box-shadow: 0 0 30px #ff2a6d;
+}
+
+.main-heart::before,
+.main-heart::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(45deg, #ff2a6d, #ff7bac);
+  border-radius: 50%;
+  box-shadow: 0 0 20px #ff2a6d;
+}
+
+.main-heart::before {
+  top: -30px;
+  left: 0;
+}
+
+.main-heart::after {
+  top: 0;
+  left: 30px;
+}
+
+/* Small hearts */
+.small-heart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  background: #ff2a6d;
+  opacity: 0;
+  transform: translate(-50%, -50%) rotate(-45deg) scale(0.5);
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.3, 1.2);
+}
+
+.small-heart::before,
+.small-heart::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #ff2a6d;
+  border-radius: 50%;
+}
+
+.small-heart::before {
+  top: -7.5px;
+  left: 0;
+}
+
+.small-heart::after {
+  top: 0;
+  left: 7.5px;
+}
+
+/* Big heart animations */
+@keyframes growAndRotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(-45deg) scale(1);
+  }
+  40% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1.8);
+  }
+  60% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(2);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(2.2);
+  }
+}
+
+@keyframes disappear {
+  to {
+    opacity: 0;
+  }
+}
+
+/* Scatter animation */
+@keyframes scatterToHeart {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(-45deg) scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(var(--tx), var(--ty)) rotate(var(--r)) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(var(--tx), var(--ty)) rotate(var(--r)) scale(1);
+    filter: drop-shadow(0 0 8px #ff2a6d) brightness(1.3);
+  }
+}
+
+/* Bliss small hearts effect */
+@keyframes bliss {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 5px #ff2a6d) brightness(1.2);
+  }
+  50% {
+    filter: drop-shadow(0 0 15px #ff2a6d) brightness(1.5);
+  }
+}
+
+/* Individual small heart animations - positioned to form a large heart shape */
+/* Top curve points */
+.small-heart:nth-child(2) {
+  --tx: -102px;
+  --ty: -156px;
+  --r: -55deg;
+  animation: scatterToHeart 1.5s 2.1s forwards, bliss 1.2s 3.5s infinite;
+}
+.small-heart:nth-child(3) {
+  --tx: -84px;
+  --ty: -180px;
+  --r: -35deg;
+  animation: scatterToHeart 1.5s 2.15s forwards, bliss 1.1s 3.5s infinite;
+}
+.small-heart:nth-child(4) {
+  --tx: -60px;
+  --ty: -192px;
+  --r: -15deg;
+  animation: scatterToHeart 1.5s 2.2s forwards, bliss 1s 3.5s infinite;
+}
+.small-heart:nth-child(5) {
+  --tx: -30px;
+  --ty: -192px;
+  --r: 0deg;
+  animation: scatterToHeart 1.5s 2.25s forwards, bliss 0.9s 3.5s infinite;
+}
+.small-heart:nth-child(6) {
+  --tx: 0px;
+  --ty: -180px;
+  --r: -45deg;
+  animation: scatterToHeart 1.5s 2.3s forwards, bliss 1.3s 3.5s infinite;
+}
+.small-heart:nth-child(7) {
+  --tx: 30px;
+  --ty: -192px;
+  --r: 0deg;
+  animation: scatterToHeart 1.5s 2.25s forwards, bliss 0.8s 3.5s infinite;
+}
+.small-heart:nth-child(8) {
+  --tx: 60px;
+  --ty: -192px;
+  --r: 15deg;
+  animation: scatterToHeart 1.5s 2.2s forwards, bliss 1.1s 3.5s infinite;
+}
+.small-heart:nth-child(9) {
+  --tx: 84px;
+  --ty: -180px;
+  --r: 35deg;
+  animation: scatterToHeart 1.5s 2.15s forwards, bliss 0.7s 3.5s infinite;
+}
+.small-heart:nth-child(10) {
+  --tx: 102px;
+  --ty: -156px;
+  --r: 55deg;
+  animation: scatterToHeart 1.5s 2.1s forwards, bliss 1.4s 3.5s infinite;
+}
+
+/* Left side points */
+.small-heart:nth-child(11) {
+  --tx: -114px;
+  --ty: -120px;
+  --r: -75deg;
+  animation: scatterToHeart 1.5s 2.05s forwards, bliss 1s 3.5s infinite;
+}
+.small-heart:nth-child(12) {
+  --tx: -114px;
+  --ty: -84px;
+  --r: -90deg;
+  animation: scatterToHeart 1.5s 2.1s forwards, bliss 1.2s 3.5s infinite;
+}
+.small-heart:nth-child(13) {
+  --tx: -102px;
+  --ty: -48px;
+  --r: -105deg;
+  animation: scatterToHeart 1.5s 2.15s forwards, bliss 0.9s 3.5s infinite;
+}
+.small-heart:nth-child(14) {
+  --tx: -72px;
+  --ty: -12px;
+  --r: -125deg;
+  animation: scatterToHeart 1.5s 2.2s forwards, bliss 1.1s 3.5s infinite;
+}
+.small-heart:nth-child(15) {
+  --tx: -36px;
+  --ty: 24px;
+  --r: -145deg;
+  animation: scatterToHeart 1.5s 2.25s forwards, bliss 0.8s 3.5s infinite;
+}
+
+/* Right side points */
+.small-heart:nth-child(16) {
+  --tx: 114px;
+  --ty: -120px;
+  --r: 75deg;
+  animation: scatterToHeart 1.5s 2.05s forwards, bliss 1.3s 3.5s infinite;
+}
+.small-heart:nth-child(17) {
+  --tx: 114px;
+  --ty: -84px;
+  --r: 90deg;
+  animation: scatterToHeart 1.5s 2.1s forwards, bliss 1s 3.5s infinite;
+}
+.small-heart:nth-child(18) {
+  --tx: 102px;
+  --ty: -48px;
+  --r: 105deg;
+  animation: scatterToHeart 1.5s 2.15s forwards, bliss 1.4s 3.5s infinite;
+}
+.small-heart:nth-child(19) {
+  --tx: 72px;
+  --ty: -12px;
+  --r: 125deg;
+  animation: scatterToHeart 1.5s 2.2s forwards, bliss 0.7s 3.5s infinite;
+}
+.small-heart:nth-child(20) {
+  --tx: 36px;
+  --ty: 24px;
+  --r: 145deg;
+  animation: scatterToHeart 1.5s 2.25s forwards, bliss 1.1s 3.5s infinite;
+}
+
+/* Bottom point */
+.small-heart:nth-child(21) {
+  --tx: 0px;
+  --ty: 60px;
+  --r: -45deg;
+  animation: scatterToHeart 1.5s 2.3s forwards, bliss 1.2s 3.5s infinite;
+}

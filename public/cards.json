@@ -184,6 +184,22 @@
     "projectPath": "Art/IshaaqDaahir-tv-stories"
   },
   {
+    "author": "JoydeepBanerjee71",
+    "artName": "floating circles",
+    "githubLink": "https://github.com/JoydeepBanerjee71",
+    "pageLink": "./Art/JoydeepBanerjee71-floating-circles/index.html",
+    "imageLink": "./Art/JoydeepBanerjee71-floating-circles/icon.png",
+    "projectPath": "Art/JoydeepBanerjee71-floating-circles"
+  },
+  {
+    "author": "KadimiJaswanth",
+    "artName": "neon orbit",
+    "githubLink": "https://github.com/KadimiJaswanth",
+    "pageLink": "./Art/KadimiJaswanth-neon-orbit/index.html",
+    "imageLink": "./Art/KadimiJaswanth-neon-orbit/icon.png",
+    "projectPath": "Art/KadimiJaswanth-neon-orbit"
+  },
+  {
     "artName": "Searching",
     "githubLink": "https://github.com/undefined",
     "pageLink": "./Art/Saptarshi1984-searching/index.html",
@@ -551,6 +567,14 @@
     "projectPath": "Art/mrkc2303-wave-grid"
   },
   {
+    "author": "neha2003-git",
+    "artName": "goldfish",
+    "githubLink": "https://github.com/neha2003-git",
+    "pageLink": "./Art/neha2003-git-goldfish/index.html",
+    "imageLink": "./Art/neha2003-git-goldfish/icon.png",
+    "projectPath": "Art/neha2003-git-goldfish"
+  },
+  {
     "artName": "Cyber Rader",
     "githubLink": "https://github.com/undefined",
     "pageLink": "./Art/nithinu2802-cyber-radar/index.html",
@@ -566,12 +590,28 @@
     "projectPath": "Art/ornitcg-rolling-egg"
   },
   {
+    "author": "ornitcg",
+    "artName": "solar system",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-solar-system/index.html",
+    "imageLink": "./Art/ornitcg-solar-system/icon.png",
+    "projectPath": "Art/ornitcg-solar-system"
+  },
+  {
     "author": "ravikantchauhan246",
     "artName": "ufo in sky",
     "githubLink": "https://github.com/ravikantchauhan246",
     "pageLink": "./Art/ravikantchauhan246-ufo-in-sky/index.html",
     "imageLink": "./Art/ravikantchauhan246-ufo-in-sky/icon.png",
     "projectPath": "Art/ravikantchauhan246-ufo-in-sky"
+  },
+  {
+    "author": "tomdu3",
+    "artName": "day",
+    "githubLink": "https://github.com/tomdu3",
+    "pageLink": "./Art/tomdu3-day/index.html",
+    "imageLink": "./Art/tomdu3-day/icon.png",
+    "projectPath": "Art/tomdu3-day"
   },
   {
     "author": "tomdu3",

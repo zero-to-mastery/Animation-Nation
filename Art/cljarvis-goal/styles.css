@@ -75,7 +75,6 @@ body {
   border-radius: 50%;
 }
 
-
 .puck-track {
   width: 50px;
   height: 400px;
@@ -96,14 +95,13 @@ body {
   animation: puck 4s linear 4s infinite;
   filter: drop-shadow(2px 8px 3px #6a6262);
   z-index: 10;
-
 }
 
 @keyframes puck {
-    from {
-        transform: translateY(0);
-    }
-    to {
-        transform: translateY(-400px);
-    }
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-400px);
+  }
 }
