@@ -144,32 +144,47 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   maintainer-review-actions:
-      if: github.event_name == 'pull_request_review'
-      runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request_review'
+    runs-on: ubuntu-latest
 
-      steps:
-        # While reviewing on github, this automatically assign labels on review actions.
-        # When submiting a review (reminder, this cannot run for maintainers reviewing their own PRs.) 
-        # - Label "Changes Requested" on "request changes" review action
-        # - Label "hacktoberfest-accepted" on "aprove" review action only if current date is in October
-        - name: Show previous review message
-          run: |
-            echo "Message from pre-review job:"
-            echo "${{ needs.pre-review.outputs.review_message }}"
-      
-        - name: Add labels depending on maintainer review
-          run: |
-            PR_NUMBER=${{ github.event.pull_request.number }}
-            REVIEW_STATE=${{ github.event.review.state }}
-            CURRENT_MONTH=$(date +%m)
+    steps:
+      # While reviewing on GitHub, this automatically assigns labels on review actions.
+      # When submitting a review (reminder, this cannot run for maintainers reviewing their own PRs.) 
+      # - Label "Changes Requested" on "request changes" review action
+      # - Label "hacktoberfest-accepted" on "approve" review action only if current date is in October
+      - name: Show previous review message
+        run: |
+          echo "Message from pre-review job:"
+          echo "${{ needs.pre-review.outputs.review_message }}"
 
+      - name: Add labels depending on maintainer review
+        run: |
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          REVIEW_STATE=${{ github.event.review.state }}
+          CURRENT_MONTH=$(date +%m)
+
+          echo "PR_NUMBER=$PR_NUMBER"
+          echo "REVIEW_STATE=$REVIEW_STATE"
+          echo "CURRENT_MONTH=$CURRENT_MONTH"
+
+          # Skip label edits if the PR comes from a fork to avoid permissions issues
+          if [[ "${{ github.event.pull_request.head.repo.full_name }}" == "${{ github.event.pull_request.base.repo.full_name }}" ]]; then
+            echo "PR is from the same repo — safe to edit labels"
+
+            # Label "Changes Requested" if maintainer requested changes
             if [[ "$REVIEW_STATE" == "changes_requested" ]]; then
+              echo "Maintainer requested changes — adding 'Changes Requested' label"
               gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
-              echo "Maintainer requested changes — label added."
             fi
 
-            # Add Hacktoberfest label only if current month is October (10)
+            # Add Hacktoberfest label only if current month is October and review is approved
             if [[ "$CURRENT_MONTH" == "10" && "$REVIEW_STATE" == "approved" ]]; then
+              echo "PR approved in October — adding 'hacktoberfest-accepted' label"
               gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-accepted" -R "${{ github.event.pull_request.base.repo.full_name }}"
             fi
-            
+
+            echo "Label edits completed"
+
+          else
+            echo "PR comes from a fork — skipping label edits to avoid permission errors"
+          fi
