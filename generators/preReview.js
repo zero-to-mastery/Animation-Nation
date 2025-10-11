@@ -157,7 +157,7 @@ const checkJSON = (file, fileContent, feedbackPush) => {
       feedbackPush('Missing `githubHandle`: please add your GitHub username');
     }
 
-    const linesCount = fileContent.split('\n').length;
+    const linesCount = fileContent.trim().split('\n').length;
     const hasMoreProperties = linesCount > 4;
     if (hasMoreProperties) {
       feedbackPush(
