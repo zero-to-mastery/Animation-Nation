@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scene {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.sky {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  background: linear-gradient(to bottom, #87ceeb 0%, #98d8e8 50%, #b0e0e6 100%);
+}
+
+.mountains {
+  position: absolute;
+  bottom: 30%;
+  width: 200%;
+  height: 40%;
+  background: linear-gradient(to bottom, #8b7355 0%, #a0522d 50%, #654321 100%);
+  clip-path: polygon(
+    0% 100%,
+    10% 60%,
+    20% 80%,
+    30% 40%,
+    45% 70%,
+    60% 30%,
+    75% 60%,
+    85% 45%,
+    95% 70%,
+    100% 50%,
+    100% 100%
+  );
+  animation: scroll 15s linear infinite;
+}
+
+.ground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(to bottom, #228b22 0%, #32cd32 30%, #90ee90 100%);
+}
+
+.tracks {
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  height: 4px;
+  background: repeating-linear-gradient(
+    90deg,
+    #8b4513 0px,
+    #8b4513 20px,
+    transparent 20px,
+    transparent 40px
+  );
+  animation: trackMove 2s linear infinite;
+}
+
+.tracks::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  width: 100%;
+  height: 2px;
+  background: #696969;
+}
+
+.tracks::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #696969;
+}
+
+.train {
+  position: absolute;
+  bottom: 19%;
+  left: -600px;
+  width: 580px;
+  height: 60px;
+  animation: trainMove 15s linear infinite;
+}
+
+.engine {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80px;
+  height: 50px;
+  background: #dc143c;
+  border-radius: 10px 10px 0 0;
+}
+
+.engine::before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  bottom: 10px;
+  width: 20px;
+  height: 30px;
+  background: #8b0000;
+  border-radius: 10px 0 0 10px;
+}
+
+.engine::after {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: -20px;
+  width: 12px;
+  height: 25px;
+  background: #8b0000;
+  border-radius: 6px 6px 0 0;
+}
+
+.cabin {
+  position: absolute;
+  left: 80px;
+  bottom: 0;
+  width: 60px;
+  height: 40px;
+  background: #4169e1;
+  border-radius: 5px 5px 0 0;
+}
+
+.car {
+  position: absolute;
+  bottom: 0;
+  width: 80px;
+  height: 45px;
+  border-radius: 5px 5px 0 0;
+}
+
+.car::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  width: 25px;
+  height: 20px;
+  background: #87ceeb;
+  border-radius: 3px;
+}
+
+.car::after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  width: 25px;
+  height: 20px;
+  background: #87ceeb;
+  border-radius: 3px;
+}
+
+.car-1 {
+  left: 140px;
+  background: #dc143c;
+}
+
+.car-2 {
+  left: 220px;
+  background: #dc143c;
+}
+
+.car-3 {
+  left: 300px;
+  background: #dc143c;
+}
+
+.car-4 {
+  left: 380px;
+  background: #dc143c;
+}
+
+.car-5 {
+  left: 460px;
+  background: #dc143c;
+}
+
+.cabin::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  width: 40px;
+  height: 20px;
+  background: #87ceeb;
+  border-radius: 3px;
+}
+
+.smoke {
+  position: absolute;
+  left: 20px;
+  bottom: 50px;
+  width: 15px;
+  height: 15px;
+  background: #d3d3d3;
+  border-radius: 50%;
+  animation: smoke 1s ease-out infinite;
+}
+
+.smoke::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  width: 12px;
+  height: 12px;
+  background: #d3d3d3;
+  border-radius: 50%;
+  animation: smoke 1s ease-out infinite 0.3s;
+}
+
+.smoke::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: -35px;
+  width: 10px;
+  height: 10px;
+  background: #d3d3d3;
+  border-radius: 50%;
+  animation: smoke 1s ease-out infinite 0.6s;
+}
+
+.wheel {
+  position: absolute;
+  bottom: -15px;
+  width: 30px;
+  height: 30px;
+  background: #2f4f4f;
+  border-radius: 50%;
+  border: 3px solid #696969;
+  animation: wheelSpin 0.5s linear infinite;
+}
+
+.wheel::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  background: #000;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wheel-1 {
+  left: 15px;
+}
+
+.wheel-2 {
+  left: 50px;
+}
+
+.wheel-3 {
+  left: 95px;
+}
+
+.wheel-4 {
+  left: 155px;
+}
+
+.wheel-5 {
+  left: 190px;
+}
+
+.wheel-6 {
+  left: 235px;
+}
+
+.wheel-7 {
+  left: 270px;
+}
+
+.wheel-8 {
+  left: 315px;
+}
+
+.wheel-9 {
+  left: 350px;
+}
+
+.wheel-10 {
+  left: 395px;
+}
+
+.wheel-11 {
+  left: 430px;
+}
+
+.wheel-12 {
+  left: 475px;
+}
+
+.wheel-13 {
+  left: 510px;
+}
+
+@keyframes trainMove {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -600px;
+  }
+}
+
+@keyframes wheelSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes smoke {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-30px) scale(1.5);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes trackMove {
+  0% {
+    background-position: 40px;
+  }
+  100% {
+    background-position: 0px;
+  }
+}
