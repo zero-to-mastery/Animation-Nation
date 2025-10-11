@@ -63,7 +63,12 @@ jobs:
           printf '%s\n' "$CHANGED_FILES" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
-          GITHUB_PERMISSION_ROLE=$(gh api "repos/$BASE_REPO/collaborators/$CONTRIBUTOR/permission" -q '.role_name' 2>/dev/null || echo 'unknown')
+          if [[ "$GITHUB_PERMISSION_ROLE" != "unknown" ]]; then
+            echo "Assigning contributor: $CONTRIBUTOR"
+            gh pr edit "$PR_NUMBER" --add-assignee "$CONTRIBUTOR" -R "$BASE_REPO"
+          else
+            echo "Contributor $CONTRIBUTOR is not a collaborator — skipping assignment"
+          fi
           setEnv "GITHUB_PERMISSION_ROLE"
 
       - name: Run "preReview" script
