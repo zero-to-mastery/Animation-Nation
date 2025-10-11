@@ -44,147 +44,89 @@ jobs:
             echo "$1=${!1}" >> $GITHUB_ENV
           }
 
-          # PR info
           PR_NUMBER=${{ github.event.pull_request.number }}
           setEnv "PR_NUMBER"
 
-          # PR author (GitHub handle)
           CONTRIBUTOR=${{ github.event.pull_request.user.login }}
           setEnv "CONTRIBUTOR"
           echo "Contributor github handle: $CONTRIBUTOR"
 
-          # Base repository for fork PRs
           BASE_REPO=${{ github.event.pull_request.base.repo.full_name }}
           setEnv "BASE_REPO"
 
-          # PR head branch (contributor branch)
           HEAD_REF=${{ github.event.pull_request.head.ref }}
           setEnv "HEAD_REF"
 
-          # Fetch base branch for git diff
           git fetch origin ${{ github.event.pull_request.base.ref }}
 
-          # Merge base for calculating changed files
           MERGE_BASE=$(git merge-base origin/${{ github.event.pull_request.base.ref }} HEAD)
           setEnv "MERGE_BASE"
 
-          # Changed files in the PR
           CHANGED_FILES=$(gh pr view $PR_NUMBER -R "$BASE_REPO" --json files -q '.files[].path')
           echo "CHANGED_FILES<<EOF" >> $GITHUB_ENV
           printf '%s\n' "$CHANGED_FILES" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
-          # Contributor permission role (returns 'unknown' for non-collaborators)
           GITHUB_PERMISSION_ROLE=$(gh api "repos/$BASE_REPO/collaborators/$CONTRIBUTOR/permission" -q '.role_name' 2>/dev/null || echo 'unknown')
           setEnv "GITHUB_PERMISSION_ROLE"
 
       - name: Run "preReview" script
         id: pre-review
         run: |
-            PR_NUMBER=${{ github.event.pull_request.number }};
-            REVIEW_MESSAGE=$(node ./generators/preReview.js "$CONTRIBUTOR" "$CHANGED_FILES" "$GITHUB_PERMISSION_ROLE");
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          REVIEW_MESSAGE=$(node ./generators/preReview.js "$CONTRIBUTOR" "$CHANGED_FILES" "$GITHUB_PERMISSION_ROLE")
 
-            # Save review message to env
-            echo "REVIEW_MESSAGE<<EOF" >> $GITHUB_ENV;
-            echo "$REVIEW_MESSAGE" >> $GITHUB_ENV;
-            echo "EOF" >> $GITHUB_ENV;
-            
-            # Show review message in logs
-            echo "===== REVIEW_MESSAGE ====="
-            echo "$REVIEW_MESSAGE"
-            echo "=========================="
+          echo "REVIEW_MESSAGE<<EOF" >> $GITHUB_ENV
+          echo "$REVIEW_MESSAGE" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
-            # Submit review comment
-            echo "Submit review comment"
-            gh pr comment "$PR_NUMBER" --body "$REVIEW_MESSAGE" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          echo "===== REVIEW_MESSAGE ====="
+          echo "$REVIEW_MESSAGE"
+          echo "=========================="
 
-            # Handle "Changes Requested" label + assignee
-            echo "Handle 'Changes Requested' label and contributor assignment"
-            if echo "$REVIEW_MESSAGE" | grep -q '\- \[ \]'; then
-              # Only assign if contributor is a collaborator
-              if [[ "$GITHUB_PERMISSION_ROLE" != "unknown" ]]; then
-                echo "Assigning contributor: $CONTRIBUTOR"
-                gh pr edit "$PR_NUMBER" --add-assignee "$CONTRIBUTOR" -R "${{ github.event.pull_request.base.repo.full_name }}"
-              fi
+          echo "Submit review comment"
+          gh pr comment "$PR_NUMBER" --body "$REVIEW_MESSAGE" -R "${{ github.event.pull_request.base.repo.full_name }}"
 
-              # Add "Changes Requested" label
-              echo "Adding 'Changes Requested' label"
-              gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          echo "Handle 'Changes Requested' label and contributor assignment"
+          CURRENT_MONTH=$(date +%m)
 
-              # Remove "Awaiting Maintainer Validation" if previously added
-              echo "Removing 'Awaiting Maintainer Validation' label if present"
-              gh pr edit "$PR_NUMBER" --remove-label "Awaiting Maintainer Validation" -R "${{ github.event.pull_request.base.repo.full_name }}"
-            else
-              # No changes requested → add "Awaiting Maintainer Validation"
-              echo "Adding 'Awaiting Maintainer Validation' label"
-              gh pr edit "$PR_NUMBER" --add-label "Awaiting Maintainer Validation" -R "${{ github.event.pull_request.base.repo.full_name }}"
-
-              # Remove "Changes Requested" label just in case
-              echo "Removing 'Changes Requested' label if present"
-              gh pr edit "$PR_NUMBER" --remove-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          if echo "$REVIEW_MESSAGE" | grep -q '\- \[ \]'; then
+            if [[ "$GITHUB_PERMISSION_ROLE" != "unknown" ]]; then
+              echo "Assigning contributor: $CONTRIBUTOR"
+              gh pr edit "$PR_NUMBER" --add-assignee "$CONTRIBUTOR" -R "${{ github.event.pull_request.base.repo.full_name }}"
             fi
 
-            # Handle "invalid" label
-            echo "Handle 'invalid' label"
-            if echo "$REVIEW_MESSAGE" | grep -q -Eqi 'empty file'; then
-                gh pr edit "$PR_NUMBER" --add-label "invalid" -R "${{ github.event.pull_request.base.repo.full_name }}"
-            else
-                gh pr edit "$PR_NUMBER" --remove-label "invalid" -R "${{ github.event.pull_request.base.repo.full_name }}"
-            fi
+            echo "Adding 'Changes Requested' label"
+            gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
 
-            # Handle "Conflict present" label
-            echo "Handle 'Conflict present' label"
-            if echo "$REVIEW_MESSAGE" | grep -q -Eqi '/icon'; then
-                gh pr edit "$PR_NUMBER" --add-label "Conflict present" -R "${{ github.event.pull_request.base.repo.full_name }}"
-            else
-                gh pr edit "$PR_NUMBER" --remove-label "Conflict present" -R "${{ github.event.pull_request.base.repo.full_name }}"
+            echo "Removing 'Awaiting Maintainer Validation' label if present"
+            gh pr edit "$PR_NUMBER" --remove-label "Awaiting Maintainer Validation" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          else
+            echo "Adding 'Awaiting Maintainer Validation' label"
+            gh pr edit "$PR_NUMBER" --add-label "Awaiting Maintainer Validation" -R "${{ github.event.pull_request.base.repo.full_name }}"
+
+            echo "Removing 'Changes Requested' label just in case"
+            gh pr edit "$PR_NUMBER" --remove-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
+
+            if [[ "$CURRENT_MONTH" == "10" ]]; then
+              echo "Adding 'hacktoberfest-pending' as no review detected"
+              gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-pending" -R "${{ github.event.pull_request.base.repo.full_name }}"
             fi
+          fi
+
+          echo "Handle 'invalid' label"
+          if echo "$REVIEW_MESSAGE" | grep -q -Eqi 'empty file'; then
+            gh pr edit "$PR_NUMBER" --add-label "invalid" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          else
+            gh pr edit "$PR_NUMBER" --remove-label "invalid" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          fi
+
+          echo "Handle 'Conflict present' label"
+          if echo "$REVIEW_MESSAGE" | grep -q -Eqi '/icon'; then
+            gh pr edit "$PR_NUMBER" --add-label "Conflict present" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          else
+            gh pr edit "$PR_NUMBER" --remove-label "Conflict present" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          fi
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  maintainer-review-actions:
-    if: github.event_name == 'pull_request_review'
-    runs-on: ubuntu-latest
-
-    steps:
-      # While reviewing on GitHub, this automatically assigns labels on review actions.
-      # When submitting a review (reminder, this cannot run for maintainers reviewing their own PRs.) 
-      # - Label "Changes Requested" on "request changes" review action
-      # - Label "hacktoberfest-accepted" on "approve" review action only if current date is in October
-      - name: Show previous review message
-        run: |
-          echo "Message from pre-review job:"
-          echo "${{ needs.pre-review.outputs.review_message }}"
-
-      - name: Add labels depending on maintainer review
-        run: |
-          PR_NUMBER=${{ github.event.pull_request.number }}
-          REVIEW_STATE=${{ github.event.review.state }}
-          CURRENT_MONTH=$(date +%m)
-
-          echo "PR_NUMBER=$PR_NUMBER"
-          echo "REVIEW_STATE=$REVIEW_STATE"
-          echo "CURRENT_MONTH=$CURRENT_MONTH"
-
-          # Skip label edits if the PR comes from a fork to avoid permissions issues
-          if [[ "${{ github.event.pull_request.head.repo.full_name }}" == "${{ github.event.pull_request.base.repo.full_name }}" ]]; then
-            echo "PR is from the same repo — safe to edit labels"
-
-            # Label "Changes Requested" if maintainer requested changes
-            if [[ "$REVIEW_STATE" == "changes_requested" ]]; then
-              echo "Maintainer requested changes — adding 'Changes Requested' label"
-              gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
-            fi
-
-            # Add Hacktoberfest label only if current month is October and review is approved
-            if [[ "$CURRENT_MONTH" == "10" && "$REVIEW_STATE" == "approved" ]]; then
-              echo "PR approved in October — adding 'hacktoberfest-accepted' label"
-              gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-accepted" -R "${{ github.event.pull_request.base.repo.full_name }}"
-            fi
-
-            echo "Label edits completed"
-
-          else
-            echo "PR comes from a fork — skipping label edits to avoid permission errors"
-          fi
