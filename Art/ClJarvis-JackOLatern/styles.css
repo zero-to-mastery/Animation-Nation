@@ -38,6 +38,7 @@ body {
   border-top-left-radius: 15%;
   border-bottom-right-radius: 21%;
   border-bottom-left-radius: 18%;
+  border: 4px double black;
   transform: skew(-34deg);
 }
 
@@ -45,6 +46,7 @@ body {
   width: 400px;
   height: 450px;
   border-radius: 40%;
+  border: 4px solid black;
   background-image: linear-gradient(orange, #c1861a, #97650a);
 
   display: flex;
@@ -104,4 +106,78 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+
+.face {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent;
+}
+
+.eye-row {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eyes {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  background: transparent;
+  animation: carvePumpkin 6s infinite;
+  animation-fill-mode: forwards;
+}
+
+.nose {
+  width: 70px;
+  height: 70px;
+  transform: rotate(45deg);
+
+  animation-delay: 6s;
+  animation: carveNose 6s;
+  animation-fill-mode: forwards;
+}
+
+.mouth{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+ 
+.tooth {
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+
+  animation-delay: 11s;
+  animation: carveMouth 4s;
+  animation-fill-mode: forwards;
+}
+
+.mouth :nth-child(odd) {
+  margin-top: -10px;
+}
+
+@keyframes carvePumpkin {
+  from {background-color: transparent;}
+  to { background-color: black; }
+}
+
+@keyframes carveNose {
+  from {background-color: transparent;}
+  to { background-color: black; }
+}
+
+@keyframes carveMouth {
+  from {background-color: transparent;}
+  to { background-color: black; }
 }
