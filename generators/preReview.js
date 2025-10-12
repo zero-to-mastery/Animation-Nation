@@ -77,7 +77,7 @@ const checkHTML = (file, fileContent, feedbackPush) => {
   const hasJS = /<script\b[^>]*>/i.test(fileContent);
   const hasCSS = fileContent.includes('.css');
   const hasCorrectStylesheet =
-    /<link\s+[^>]*href=["']styles\.css["'][^>]*>/i.test(fileContent);
+    /<link\s+[^>]*href=["'](\.?\/)?styles\.css["']?[^>]*>/i.test(fileContent);
 
   // Exact file name check for HTML
   if (!file.includes(EXPECTED_HTML)) {
