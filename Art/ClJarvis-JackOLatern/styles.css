@@ -131,9 +131,11 @@ body {
   height: 100px;
   border-radius: 50%;
 
-  background: transparent;
+  background: yellow;
   animation: carvePumpkin 6s infinite;
   animation-fill-mode: forwards;
+
+  border: 2px solid orange;
 }
 
 .nose {
@@ -141,15 +143,19 @@ body {
   height: 70px;
   transform: rotate(45deg);
 
-  animation-delay: 6s;
-  animation: carveNose 6s;
-  animation-fill-mode: forwards;
+  background: yellow;
+  animation: carveNose 6s infinite;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+    border: 2px solid orange;
+
 }
 
-.mouth{
+.mouth {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+
 
 }
  
@@ -158,8 +164,9 @@ body {
   height: 40px;
   transform: rotate(45deg);
 
-  animation-delay: 11s;
-  animation: carveMouth 4s;
+
+  animation: carveMouth 6s infinite;
+  animation-delay: -4s; 
   animation-fill-mode: forwards;
 }
 
@@ -167,17 +174,19 @@ body {
   margin-top: -10px;
 }
 
+
+
 @keyframes carvePumpkin {
-  from {background-color: transparent;}
-  to { background-color: black; }
+  from {background-image: linear-gradient(to top, yellow, orange);}
+  to { background-image: linear-gradient(to bottom, yellow, red); }
 }
 
 @keyframes carveNose {
-  from {background-color: transparent;}
-  to { background-color: black; }
+  from {background-image: linear-gradient(to top, yellow, orange);}
+  to { background-image: linear-gradient(to bottom, yellow, red); }
 }
 
 @keyframes carveMouth {
-  from {background-color: transparent;}
-  to { background-color: black; }
+  from {background-image: linear-gradient(to left, yellow, orange);}
+  to { background-image: linear-gradient(to bottom, yellow, red); }
 }
