@@ -692,5 +692,13 @@
     "pageLink": "./Art/tomdu3-time-flies/index.html",
     "imageLink": "./Art/tomdu3-time-flies/icon.png",
     "projectPath": "Art/tomdu3-time-flies"
+  },
+  {
+    "author": "majidshakeelshawl",
+    "artName": "Star",
+    "githubLink": "https://github.com/majidshakeelshawl",
+    "pageLink": "./Art/majidshakeelshawl-star/index.html",
+    "imageLink": "./Art/majidshakeelshawl-star/icon.png",
+    "projectPath": "Art/majidshakeelshawl-star"
   }
 ]
