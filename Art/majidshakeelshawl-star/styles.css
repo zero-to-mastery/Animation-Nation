@@ -1,0 +1,190 @@
+/* Reset and layout */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(ellipse at bottom, #0b1b2b 0%, #000814 60%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: system-ui, sans-serif;
+}
+
+.sky {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Subtle center glow for depth */
+.glow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vmin;
+  height: 70vmin;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.05),
+    rgba(0, 0, 0, 0) 60%
+  );
+  pointer-events: none;
+}
+
+/* Main star layer using box-shadow trick */
+.stars {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 10vw 12vh #fff, 18vw 22vh #fff, 5vw 30vh #fff, 70vw 8vh #fff,
+    80vw 40vh #fff, 32vw 60vh #fff, 60vw 70vh #fff, 90vw 20vh #fff,
+    45vw 28vh #fff, 12vw 75vh #fff, 22vw 50vh #fff, 72vw 58vh #fff,
+    40vw 82vh #fff, 85vw 85vh #fff, 2vw 10vh #fff, 50vw 10vh #fff,
+    28vw 12vh #fff, 64vw 32vh #fff, 36vw 44vh #fff, 14vw 40vh #fff,
+    26vw 68vh #fff, 56vw 18vh #fff, 96vw 50vh #fff, 6vw 90vh #fff,
+    48vw 56vh #fff, 80vw 64vh #fff, 34vw 8vh #fff, 16vw 6vh #fff, 58vw 86vh #fff,
+    88vw 6vh #fff;
+  animation: twinkle 4s linear infinite;
+}
+
+/* Second layer for depth */
+.stars::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  box-shadow: 6vw 6vh rgba(255, 255, 255, 0.7),
+    14vw 18vh rgba(255, 255, 255, 0.7), 23vw 6vh rgba(255, 255, 255, 0.5),
+    55vw 12vh rgba(255, 255, 255, 0.6), 68vw 36vh rgba(255, 255, 255, 0.7),
+    39vw 62vh rgba(255, 255, 255, 0.6), 82vw 26vh rgba(255, 255, 255, 0.7),
+    12vw 48vh rgba(255, 255, 255, 0.6), 33vw 82vh rgba(255, 255, 255, 0.5),
+    90vw 72vh rgba(255, 255, 255, 0.6), 46vw 36vh rgba(255, 255, 255, 0.5);
+  animation: twinkle 6s linear infinite reverse;
+  opacity: 0.9;
+}
+
+/* Twinkle animation */
+@keyframes twinkle {
+  0% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  25% {
+    opacity: 0.6;
+    transform: scale(1.02);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  75% {
+    opacity: 0.7;
+    transform: scale(1.01);
+  }
+  100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+}
+
+/* Shooting star streak */
+.shooting {
+  position: absolute;
+  width: 2px;
+  height: 80px;
+  right: -20%;
+  top: 10%;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.9) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: blur(0.6px) drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
+  opacity: 0;
+  transform: rotate(-30deg);
+  animation: shoot 6s linear infinite;
+}
+
+@keyframes shoot {
+  0% {
+    transform: translate(0, 0) rotate(-30deg);
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  20% {
+    transform: translate(-120vw, 60vh) rotate(-30deg);
+    opacity: 0.9;
+  }
+  35% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0) rotate(-30deg);
+    opacity: 0;
+  }
+}
+
+/* Big soft star (foreground depth) */
+.big-star {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  width: 10px;
+  height: 10px;
+  background: radial-gradient(
+    circle,
+    #fff 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  border-radius: 50%;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
+  animation: slowPulse 5s ease-in-out infinite;
+}
+
+@keyframes slowPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+}
+
+/* Caption */
+.caption {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  opacity: 0.7;
+  letter-spacing: 0.05em;
+}
+
+/* Mobile optimization */
+@media (max-width: 600px) {
+  .shooting {
+    display: none;
+  }
+}
