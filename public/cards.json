@@ -96,6 +96,22 @@
     "projectPath": "Art/Bharath-dev05-water-fall"
   },
   {
+    "author": "ChrRepou",
+    "artName": "book with turning pages",
+    "githubLink": "https://github.com/ChrRepou",
+    "pageLink": "./Art/ChrRepou-book/index.html",
+    "imageLink": "./Art/ChrRepou-book/icon.png",
+    "projectPath": "Art/ChrRepou-book"
+  },
+  {
+    "author": "ChrRepou",
+    "artName": "moving circles",
+    "githubLink": "https://github.com/ChrRepou",
+    "pageLink": "./Art/ChrRepou-moving-circles/index.html",
+    "imageLink": "./Art/ChrRepou-moving-circles/icon.png",
+    "projectPath": "Art/ChrRepou-moving-circles"
+  },
+  {
     "author": "GitSatishGarg",
     "artName": "Balloons",
     "githubLink": "https://github.com/GitSatishGarg",
