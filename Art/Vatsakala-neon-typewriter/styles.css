@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(
+    120% 120% at 50% -10%,
+    #031020 0 40%,
+    #010811 70%,
+    #000 100%
+  );
+  color: #dff8ff;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
+    monospace;
+}
+
+.frame {
+  position: relative;
+  width: min(92vmin, 900px);
+  aspect-ratio: 16/9;
+  border-radius: 28px;
+  overflow: hidden;
+  isolation: isolate;
+  border: 1px solid #0ff4;
+  box-shadow: 0 0 40px #00ffff66, 0 0 120px #00ffff33, inset 0 0 100px #00ffff22,
+    inset 0 1px 0 #ffffff33;
+}
+
+.glow-grid {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(#0000 90%, #00ffff22) 0 0/100% 100%,
+    repeating-linear-gradient(0deg, #0000 0 28px, #00ffff22 28px 29px),
+    repeating-linear-gradient(90deg, #0000 0 32px, #a000ff33 32px 33px);
+  opacity: 0.7;
+  filter: drop-shadow(0 0 10px #00ffff) drop-shadow(0 0 30px #a000ff);
+  animation: grid-fade 6s ease-in-out infinite alternate;
+}
+@keyframes grid-fade {
+  0% {
+    opacity: 0.55;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0.9;
+    transform: translateY(-1%);
+  }
+}
+
+/* === Terminal Panel === */
+.terminal {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-content: center;
+  gap: 1.2rem;
+  padding: 3vmin;
+  background: linear-gradient(#00000077, #00000044),
+    radial-gradient(80% 140% at 50% 0%, #00ffff22, #0000 60%);
+  backdrop-filter: blur(3px) saturate(140%);
+  animation: cycle 12s linear infinite;
+}
+@keyframes cycle {
+  from,
+  to {
+    filter: brightness(1.15) saturate(1.2);
+  }
+}
+
+/* === Neon Text === */
+.line {
+  --size: clamp(18px, 2.8vmin, 28px);
+  --dur: 3.2s;
+  --delay: 0s;
+  --pause: 1.2s;
+  --erase: 1.8s;
+  position: relative;
+  font-weight: 700;
+  font-size: var(--size);
+  white-space: pre;
+  color: #6fffff;
+  text-shadow: 0 0 0.5em #00ffff, 0 0 1.5em #00ffff, 0 0 2.5em #7a00ffaa;
+  opacity: 0.35;
+}
+
+.line::before {
+  content: attr(data-text);
+}
+
+.line::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  color: #eaffff;
+  text-shadow: 0 0 1em #00ffff, 0 0 2.2em #ff00f2, 0 0 3.8em #a000ff;
+  overflow: hidden;
+  white-space: pre;
+  width: 0ch;
+  border-right: 0.12em solid #afffff;
+  box-shadow: 0 0 10px #00ffff, 0 0 25px #a000ff, inset 0 0 12px #00ffff88;
+  animation: typing calc(var(--dur)) steps(var(--n)) var(--delay) 1,
+    hold var(--pause) linear calc(var(--delay) + var(--dur)) 1,
+    erase var(--erase) steps(var(--n))
+      calc(var(--delay) + var(--dur) + var(--pause)) 1,
+    caret 800ms steps(1) infinite calc(var(--delay));
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0ch;
+  }
+  to {
+    width: calc(var(--n) * 1ch);
+  }
+}
+@keyframes hold {
+  from,
+  to {
+    width: calc(var(--n) * 1ch);
+  }
+}
+@keyframes erase {
+  from {
+    width: calc(var(--n) * 1ch);
+  }
+  to {
+    width: 0ch;
+  }
+}
+@keyframes caret {
+  0%,
+  49% {
+    border-right-color: #afffff;
+  }
+  50%,
+  100% {
+    border-right-color: transparent;
+  }
+}
+
+.terminal::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, #0000 48%, #ffffff0f 50%, #0000 52%) 0 0/100%
+    4px;
+  mix-blend-mode: screen;
+  opacity: 0.4;
+  animation: scan 5s linear infinite;
+}
+@keyframes scan {
+  from {
+    transform: translateY(-10%);
+  }
+  to {
+    transform: translateY(10%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow-grid,
+  .terminal::after,
+  .line::after,
+  .terminal {
+    animation: none !important;
+  }
+  .line::after {
+    width: auto;
+    border-right: 0;
+  }
+}

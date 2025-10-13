@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.olympic-container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+
+.fly {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  animation: fly-zig-zag 3s forwards, grow-circle 1s 3s forwards;
+}
+
+@keyframes fly-zig-zag {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  20% {
+    top: 100px;
+    left: 80%;
+  }
+  40% {
+    top: 50px;
+    left: 20%;
+  }
+  60% {
+    top: 150px;
+    left: 90%;
+  }
+  80% {
+    top: 20px;
+    left: 10%;
+  }
+  100% {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes grow-circle {
+  to {
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+  }
+}
+
+.ring {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid;
+  opacity: 0;
+  animation: emerge 2s 4s forwards, bliss-effect 2s 6s infinite alternate;
+}
+
+.blue {
+  border-color: #0085c7;
+  --transform-end: translate(50px, 50px);
+}
+.black {
+  border-color: #000000;
+  --transform-end: translate(150px, 50px);
+  animation-delay: 4.2s, 6.2s;
+}
+.red {
+  border-color: #df0024;
+  --transform-end: translate(250px, 50px);
+  animation-delay: 4.4s, 6.4s;
+}
+.yellow {
+  border-color: #f4c300;
+  --transform-end: translate(100px, 100px);
+  animation-delay: 4.6s, 6.6s;
+}
+.green {
+  border-color: #009f3d;
+  --transform-end: translate(200px, 100px);
+  animation-delay: 4.8s, 6.8s;
+}
+
+@keyframes emerge {
+  from {
+    opacity: 0;
+    transform: translate(150px, 100px) rotate(0deg) scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: var(--transform-end) rotate(360deg);
+  }
+}
+
+@keyframes bliss-effect {
+  to {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+    filter: blur(2px);
+  }
+}
+
+@media (max-width: 600px) {
+  .olympic-container {
+    width: 300px;
+    height: 200px;
+  }
+
+  .ring {
+    width: 70px;
+    height: 70px;
+    border-width: 7px;
+  }
+
+  .blue {
+    --transform-end: translate(45px, 30px);
+  }
+  .black {
+    --transform-end: translate(115px, 30px);
+  }
+  .red {
+    --transform-end: translate(185px, 30px);
+  }
+  .yellow {
+    --transform-end: translate(80px, 65px);
+  }
+  .green {
+    --transform-end: translate(150px, 65px);
+  }
+}

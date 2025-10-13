@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-ice: rgb(240, 240, 240);
+}
+
+body {
+  background: var(--background-ice);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.goal {
+  display: flex;
+  font-family: column;
+  background: var(--background-ice);
+  width: 400px;
+  height: 150px;
+  border-radius: 40%;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 8px solid black;
+  border-bottom-color: transparent;
+  filter: drop-shadow(2px 8px 3px #6a6262);
+}
+
+.red-line {
+  width: 100%;
+  height: 12px;
+  background-color: red;
+  margin-top: -5px;
+  z-index: 5;
+}
+
+.blue {
+  width: 400px;
+  height: 150px;
+  background-color: blue;
+  border: 10px solid red;
+  border-radius: 40%;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-color: transparent;
+  margin-top: -10px;
+}
+
+.rink {
+  width: 1025px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  background-color: transparent;
+  border: 4px solid red;
+  border-radius: 50%;
+}
+
+.puck-track {
+  width: 50px;
+  height: 400px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column-reverse;
+  position: relative;
+  margin-top: -400px;
+}
+
+.puck {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  border: 2px solid gray;
+  animation: puck 4s linear 4s infinite;
+  filter: drop-shadow(2px 8px 3px #6a6262);
+  z-index: 10;
+}
+
+@keyframes puck {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-400px);
+  }
+}
