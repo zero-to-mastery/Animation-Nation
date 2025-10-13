@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2c3e50;
+    }
+
+   .transformer-box {
+    width: 150px;
+    height: 150px;
+    background-color: #1abc9c;
+    transition: all 0.4s ease;
+    }
+
+    .transformer-box:hover {
+        animation: shape-shifter 2s infinite alternate;
+    }
+
+    @keyframes shape-shifter {
+    0% {
+    transform: rotate(0deg);
+    border-radius: 0%;
+    background-color: #1abc9c;
+    }
+    50% {
+    transform: rotate(180deg);
+    border-radius: 50%;
+    background-color: #9b59b6;
+    }
+    100% {
+    transform: rotate(405deg);
+    border-radius: 0%;
+    background-color: #e67e22;
+    }
+  }
+
+</style>
+
+
+</head>
+<body>
+ <div class="transformer-box"></div>
+</body>
+
+
+</html>
