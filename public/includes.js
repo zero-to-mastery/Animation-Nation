@@ -1,14 +1,18 @@
 // Load the cards.json file using Fetch API
 fetch('./public/cards.json')
-  .then((response) => {
-    if (!response.ok) {
+  .then((response) =>
+  {
+    if (!response.ok)
+    {
       throw new Error('Network response was not ok');
     }
     return response.json(); // Parse the JSON file content
   })
-  .then((cards) => {
+  .then((cards) =>
+  {
     /* Shuffles cards' order */
-    function shuffle(o) {
+    function shuffle(o)
+    {
       for (
         let j, x, i = o.length;
         i;
@@ -18,15 +22,16 @@ fetch('./public/cards.json')
     }
 
     /** Creates cards from the array above */
-    const getCardContents = (cardList) => {
+    const getCardContents = (cardList) =>
+    {
       return shuffle(cardList).map((c) => [
         `<li class="card">` +
-          `<a href='${c.pageLink}'>` +
-          `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-          `</a>` +
-          `<a class="art-title" href='${c.pageLink}'><h3 >${c.artName}</h3></a>` +
-          `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-          `</li>`
+        `<a href='${c.pageLink}'>` +
+        `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+        `</a>` +
+        `<a class="art-title" href='${c.pageLink}'><h3 >${c.artName}</h3></a>` +
+        `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+        `</li>`
       ]);
     };
 
@@ -35,17 +40,21 @@ fetch('./public/cards.json')
     document.getElementById('cards').innerHTML = contents;
 
     /* Adds scroll to top arrow button */
-    window.onscroll = function () {
-      if (window.scrollY > 100) {
+    window.onscroll = function ()
+    {
+      if (window.scrollY > 100)
+      {
         goToTopBtn.classList.add('active');
-      } else {
+      } else
+      {
         goToTopBtn.classList.remove('active');
       }
     };
 
     // Adds the click event to the button
     const goToTopBtn = document.querySelector('.go-to-top');
-    goToTopBtn.addEventListener('click', function () {
+    goToTopBtn.addEventListener('click', function ()
+    {
       window.scrollTo({
         top: 0,
         behavior: 'smooth'
@@ -57,7 +66,8 @@ fetch('./public/cards.json')
       'stats'
     ).innerHTML = `Showcasing ${cards.length} artworks`;
   })
-  .catch((error) => {
+  .catch((error) =>
+  {
     console.error('Error fetching the cards.json file:', error);
   });
 
@@ -69,16 +79,25 @@ const cardList = [
     imageLink: "hacktoberfest-logo.png",
     author: "Takunda",
     githubLink: "https://github.com/Enock12234"
+  },
+  {
+    artName: "PULL-CURTAIN",
+    pageLink: "./Art/pull-curtain/index.html",
+    imageLink: "./Art/pull-curtain/PullCurtain.gif",
+    author: "Andrew McCluskey",
+    githubLink: "https://github.com/anja-ui"
   }
 ];
 
 // 🔀 Optional shuffle function (add if not defined)
-function shuffle(array) {
+function shuffle(array)
+{
   return array.sort(() => 0.5 - Math.random());
 }
 
 // 🖼️ Generate HTML cards
-const getCardContents = (cardList) => {
+const getCardContents = (cardList) =>
+{
   return shuffle(cardList)
     .map((c) => `
       <li class="card">
@@ -99,9 +118,11 @@ const getCardContents = (cardList) => {
 };
 
 // 🧩 Inject into the DOM
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () =>
+{
   const container = document.getElementById("cardContainer");
-  if (container) {
+  if (container)
+  {
     container.innerHTML = getCardContents(cardList);
   }
 });

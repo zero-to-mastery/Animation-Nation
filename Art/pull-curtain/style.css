@@ -1,0 +1,92 @@
+body {
+    background: lightblue;
+}
+
+.wrapper {
+    display: inline-block;
+    background: rgb(154, 151, 158);
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    margin-top: 120px;
+    margin-left: 180px;
+}
+
+.screen-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wrapper:hover .pull-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: moveBoxLeft 2s linear forwards;
+}
+
+.wrapper:hover .pull-right {
+    position: absolute;
+    top: 0;
+    animation: moveBoxRight 2s linear forwards;
+}
+
+.screen-container,
+.screen {
+    width: 480px;
+    height: 540px;
+}
+
+.pull {
+    position: relative;
+}
+
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: blueviolet;
+    overflow: hidden;
+}
+
+.bar {
+    width: 100px;
+    height: 10px;
+    background: white;
+}
+
+.screen-left .bar {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    margin-top: -50px;
+}
+
+.screen-right .bar {
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    margin-top: -50px;
+}
+
+@keyframes moveBoxLeft {
+    0% {
+        scale: 1.0 1.0;
+    }
+
+    100% {
+        scale: 0.1 1.0;
+    }
+}
+
+@keyframes moveBoxRight {
+    0% {
+        scale: 1.0 1.0;
+        translate: 0px;
+    }
+
+    100% {
+        scale: 0.1 1.0;
+        translate: 432px;
+    }
+}
