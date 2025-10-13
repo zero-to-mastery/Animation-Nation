@@ -96,6 +96,14 @@
     "projectPath": "Art/Bharath-dev05-water-fall"
   },
   {
+    "author": "BlurryShady",
+    "artName": "Hover Morph",
+    "githubLink": "https://github.com/BlurryShady",
+    "pageLink": "./Art/BlurryShady-MorphAnimation/index.html",
+    "imageLink": "./Art/BlurryShady-MorphAnimation/icon.png",
+    "projectPath": "Art/BlurryShady-MorphAnimation"
+  },
+  {
     "author": "ChrRepou",
     "artName": "book with turning pages",
     "githubLink": "https://github.com/ChrRepou",
@@ -110,6 +118,14 @@
     "pageLink": "./Art/ChrRepou-moving-circles/index.html",
     "imageLink": "./Art/ChrRepou-moving-circles/icon.png",
     "projectPath": "Art/ChrRepou-moving-circles"
+  },
+  {
+    "author": "ClJarvis",
+    "artName": "Jack O Latern",
+    "githubLink": "https://github.com/ClJarvis",
+    "pageLink": "./Art/ClJarvis-JackOLatern/index.html",
+    "imageLink": "./Art/ClJarvis-JackOLatern/icon.png",
+    "projectPath": "Art/ClJarvis-JackOLatern"
   },
   {
     "author": "GitSatishGarg",
@@ -623,11 +639,27 @@
     "projectPath": "Art/neha2003-git-goldfish"
   },
   {
+    "author": "neha2003-git",
+    "artName": "owl",
+    "githubLink": "https://github.com/neha2003-git",
+    "pageLink": "./Art/neha2003-git-owl/index.html",
+    "imageLink": "./Art/neha2003-git-owl/icon.png",
+    "projectPath": "Art/neha2003-git-owl"
+  },
+  {
     "artName": "Cyber Rader",
     "githubLink": "https://github.com/undefined",
     "pageLink": "./Art/nithinu2802-cyber-radar/index.html",
     "imageLink": "./Art/nithinu2802-cyber-radar/icon.png",
     "projectPath": "Art/nithinu2802-cyber-radar"
+  },
+  {
+    "author": "ornitcg",
+    "artName": "drawing pencil",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-drawing-pencil/index.html",
+    "imageLink": "./Art/ornitcg-drawing-pencil/icon.png",
+    "projectPath": "Art/ornitcg-drawing-pencil"
   },
   {
     "author": "ornitcg",
