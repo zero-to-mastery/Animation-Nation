@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+}
+
+.neon-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #00fffc;
+  box-shadow: 0 0 10px #00fffc, 0 0 20px #00fffc;
+  animation: pulse 1.5s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 10px #00fffc, 0 0 20px #00fffc;
+  }
+  100% {
+    transform: scale(1.5);
+    box-shadow: 0 0 30px #00fffc, 0 0 60px #00fffc;
+  }
+}
