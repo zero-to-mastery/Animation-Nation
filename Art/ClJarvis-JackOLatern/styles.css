@@ -19,12 +19,50 @@ body {
   align-items: center;
 }
 
+.main-container {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.moon-path {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.moon {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: yellow;
+  animation: move-moon 10s linear 0s infinite;
+  margin-top: 20px;
+  left: -25%;
+}
+
+.shadow{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: var(--night);
+  margin-left: 46px;
+  margin-top: 11px;
+}
+
+
+
+
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 125px;
+  margin-top: 175px;
+  position: absolute;
 }
 
 
@@ -174,6 +212,15 @@ body {
 
 .mouth :nth-child(odd) {
   margin-top: -10px;
+}
+
+@keyframes move-moon {
+    from {
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(900px);
+    }
 }
 
 
