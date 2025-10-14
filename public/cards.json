@@ -764,5 +764,13 @@
     "pageLink": "./Art/volt3301-GradientLoop/index.html",
     "imageLink": "./Art/volt3301-GradientLoop/icon.png",
     "projectPath": "Art/volt3301-GradientLoop"
+  },
+  {
+    "author": "volt3301",
+    "artName": "Neon Grid",
+    "githubLink": "https://github.com/volt3301",
+    "pageLink": "./Art/volt3301-NeonGrid/index.html",
+    "imageLink": "./Art/volt3301-NeonGrid/icon.png",
+    "projectPath": "Art/volt3301-NeonGrid"
   }
 ]
