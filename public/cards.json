@@ -511,6 +511,14 @@
     "projectPath": "Art/jeevaramanathan-dot-wave-loader"
   },
   {
+    "author": "kantagarg17",
+    "artName": "Fire Pulse",
+    "githubLink": "https://github.com/kantagarg17",
+    "pageLink": "./Art/kantagarg17-FirePulse/index.html",
+    "imageLink": "./Art/kantagarg17-FirePulse/icon.png",
+    "projectPath": "Art/kantagarg17-FirePulse"
+  },
+  {
     "author": "kevinbatdorf",
     "artName": "ripple",
     "githubLink": "https://github.com/kevinbatdorf",
@@ -748,5 +756,13 @@
     "pageLink": "./Art/tomdu3-time-flies/index.html",
     "imageLink": "./Art/tomdu3-time-flies/icon.png",
     "projectPath": "Art/tomdu3-time-flies"
+  },
+  {
+    "author": "volt3301",
+    "artName": "Gradient Loop",
+    "githubLink": "https://github.com/volt3301",
+    "pageLink": "./Art/volt3301-GradientLoop/index.html",
+    "imageLink": "./Art/volt3301-GradientLoop/icon.png",
+    "projectPath": "Art/volt3301-GradientLoop"
   }
 ]
