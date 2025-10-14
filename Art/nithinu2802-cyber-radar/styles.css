@@ -82,13 +82,9 @@ body {
   color: #00ff41;
   font-size: 24px;
   font-weight: bold;
-  text-shadow:
-    0 0 5px #00ff00,
-    0 0 10px #00ff00,
-    0 0 15px #00ff00;
+  text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
   margin: 10px 0;
-  animation:
-    digitalFlicker 2s ease-in-out infinite,
+  animation: digitalFlicker 2s ease-in-out infinite,
     digitalGlow 3s ease-in-out infinite;
   display: block;
   text-align: center;
@@ -118,16 +114,10 @@ body {
 @keyframes digitalGlow {
   0%,
   100% {
-    text-shadow:
-      0 0 5px #00ff41,
-      0 0 10px #00ff41,
-      0 0 15px #00ff41;
+    text-shadow: 0 0 5px #00ff41, 0 0 10px #00ff41, 0 0 15px #00ff41;
   }
   50% {
-    text-shadow:
-      0 0 10px #00ff41,
-      0 0 20px #00ff41,
-      0 0 30px #00ff41,
+    text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 30px #00ff41,
       0 0 40px #00ff41;
   }
 }
@@ -283,17 +273,11 @@ body {
   0%,
   100% {
     transform: translate(-50%, -50%) scale(1);
-    box-shadow:
-      0 0 20px #00ff41,
-      0 0 40px #00ff41,
-      0 0 60px #00ff41;
+    box-shadow: 0 0 20px #00ff41, 0 0 40px #00ff41, 0 0 60px #00ff41;
   }
   50% {
     transform: translate(-50%, -50%) scale(1.5);
-    box-shadow:
-      0 0 40px #00ff41,
-      0 0 80px #00ff41,
-      0 0 120px #00ff41,
+    box-shadow: 0 0 40px #00ff41, 0 0 80px #00ff41, 0 0 120px #00ff41,
       0 0 160px #00ff41;
   }
 }

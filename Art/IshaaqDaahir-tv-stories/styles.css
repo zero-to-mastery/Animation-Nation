@@ -130,11 +130,7 @@ body {
   width: 8px;
   height: 2px;
   background: #666;
-  box-shadow:
-    0 4px 0 #666,
-    0 8px 0 #666,
-    0 -4px 0 #666,
-    0 -8px 0 #666;
+  box-shadow: 0 4px 0 #666, 0 8px 0 #666, 0 -4px 0 #666, 0 -8px 0 #666;
 }
 
 .speaker::after {
@@ -146,11 +142,7 @@ body {
   width: 8px;
   height: 2px;
   background: #666;
-  box-shadow:
-    0 4px 0 #666,
-    0 8px 0 #666,
-    0 -4px 0 #666,
-    0 -8px 0 #666;
+  box-shadow: 0 4px 0 #666, 0 8px 0 #666, 0 -4px 0 #666, 0 -8px 0 #666;
 }
 
 .tv-stand {

@@ -11,8 +11,8 @@ body {
 .pencil {
   width: 25%;
   height: 16%;
-  background:
-    linear-gradient(90deg, #e7e7e7 30%, #fe668c 0) 100%/50px 100% no-repeat,
+  background: linear-gradient(90deg, #e7e7e7 30%, #fe668c 0) 100%/50px 100%
+      no-repeat,
     conic-gradient(from 55deg at left, #fee7b3, #0000 1deg 69deg, #fee7b3 70deg)
       100% 8px / calc(100% - 40px) 16px repeat-y,
     linear-gradient(#0003 50%, #0000 0) 100% 8px / calc(100% - 41px) 32px

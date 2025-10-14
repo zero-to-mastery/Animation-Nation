@@ -10,14 +10,8 @@ body {
 }
 
 body {
-  font-family:
-    Inter,
-    system-ui,
-    -apple-system,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial;
   background: linear-gradient(
     180deg,
     #011023 0%,
@@ -45,8 +39,7 @@ body {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background:
-    radial-gradient(
+  background: radial-gradient(
       2px 2px at 10% 20%,
       rgba(255, 255, 255, 0.9) 0,
       transparent 40%
@@ -98,8 +91,7 @@ body {
     #cbdff8 40%,
     transparent 70%
   );
-  box-shadow:
-    0 0 60px rgba(200, 220, 255, 0.2),
+  box-shadow: 0 0 60px rgba(200, 220, 255, 0.2),
     inset -6px -8px 18px rgba(0, 0, 0, 0.06);
   transform: translateZ(60px);
   animation: moonFloat 8s ease-in-out infinite;
@@ -214,8 +206,7 @@ body {
   bottom: 22vh;
   height: 28vh;
   pointer-events: none;
-  background:
-    radial-gradient(
+  background: radial-gradient(
       ellipse at 8% 40%,
       rgba(10, 25, 35, 0.6) 0%,
       transparent 40%
@@ -248,8 +239,7 @@ body {
   bottom: 0;
   background: linear-gradient(180deg, rgba(12, 16, 26, 1), rgba(6, 10, 16, 1));
   border-radius: 6px 6px 2px 2px;
-  box-shadow:
-    0 12px 30px rgba(0, 0, 0, 0.6),
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6),
     inset 0 -8px 20px rgba(255, 255, 255, 0.02);
   overflow: visible;
 }
@@ -333,12 +323,9 @@ body {
   top: 8%;
   width: 84%;
   height: 84%;
-  background-image:
-    linear-gradient(transparent 0, transparent 20px),
+  background-image: linear-gradient(transparent 0, transparent 20px),
     linear-gradient(90deg, transparent 0, transparent 20px);
-  background-size:
-    22px 22px,
-    22px 22px;
+  background-size: 22px 22px, 22px 22px;
   background-repeat: repeat;
   filter: blur(0.1px);
   opacity: 0.95;
@@ -439,8 +426,7 @@ body {
   position: absolute;
   inset: 0;
   border-radius: 4px;
-  box-shadow:
-    0 0 20px rgba(255, 62, 199, 0.08),
+  box-shadow: 0 0 20px rgba(255, 62, 199, 0.08),
     0 0 40px rgba(0, 229, 255, 0.06);
   mix-blend-mode: screen;
   opacity: 0.9;
@@ -481,9 +467,7 @@ body {
   height: 56px;
   border-radius: 8px;
   background: linear-gradient(90deg, #0f2a36, #05202b);
-  box-shadow:
-    0 12px 24px rgba(0, 0, 0, 0.6),
-    0 0 40px rgba(0, 160, 200, 0.06);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 160, 200, 0.06);
   display: flex;
   align-items: center;
   gap: 10px;
@@ -585,8 +569,7 @@ body {
   right: 0;
   top: 0;
   height: 100%;
-  background-image:
-    radial-gradient(
+  background-image: radial-gradient(
       circle at 20% 30%,
       rgba(255, 255, 255, 0.018) 0,
       transparent 20%
@@ -605,15 +588,11 @@ body {
 
 @keyframes ripple {
   from {
-    background-position:
-      0 0,
-      0 0;
+    background-position: 0 0, 0 0;
   }
 
   to {
-    background-position:
-      200px 60px,
-      -120px -40px;
+    background-position: 200px 60px, -120px -40px;
   }
 }
 
