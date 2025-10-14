@@ -1,11 +1,12 @@
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f5f6fa;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .download-btn {
@@ -23,7 +24,8 @@ html, body {
 }
 
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {

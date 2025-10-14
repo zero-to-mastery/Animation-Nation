@@ -38,7 +38,9 @@ body {
     rgba(255, 255, 255, 0.08) 100%
   );
   backdrop-filter: blur(18px) saturate(1.2);
-  box-shadow: 0 6px 36px 4px #43e97b44, 0 2px 8px #fff3;
+  box-shadow:
+    0 6px 36px 4px #43e97b44,
+    0 2px 8px #fff3;
   opacity: 0.7;
   transform: translateX(0) scale(1) rotateY(0deg);
   animation: carousel-move 6s cubic-bezier(0.6, 0, 0.4, 1) infinite;
@@ -101,7 +103,9 @@ body {
     opacity: 1;
     z-index: 4;
     transform: translateX(0) scale(1.08) rotateY(0deg);
-    box-shadow: 0 12px 48px 8px #43e97b66, 0 2px 8px #fff4;
+    box-shadow:
+      0 12px 48px 8px #43e97b66,
+      0 2px 8px #fff4;
   }
   80% {
     opacity: 0.5;

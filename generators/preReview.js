@@ -5,9 +5,9 @@ const CONTRIBUTOR_HANDLER = process.env.CONTRIBUTOR || '';
 const CHANGED_FILES_STR = process.env?.CHANGED_FILES || '';
 const EXPECTED_FILE = {
   html: 'index.html',
-  css : 'styles.css',
-  json: 'meta.json',
-}
+  css: 'styles.css',
+  json: 'meta.json'
+};
 const IS_MAINTAINER = ['admin', 'maintain'].includes(
   process.env?.GITHUB_PERMISSION_ROLE || ''
 );
@@ -15,7 +15,9 @@ const IS_MAINTAINER = ['admin', 'maintain'].includes(
 /* Patterns */
 const PATTERN = {
   folderUsername: new RegExp(`^Art/${CONTRIBUTOR_HANDLER}`, 'i'),
-  requiredFiles: new RegExp(`(${EXPECTED_FILE.html}|${EXPECTED_FILE.css}|${EXPECTED_FILE.json})$`),
+  requiredFiles: new RegExp(
+    `(${EXPECTED_FILE.html}|${EXPECTED_FILE.css}|${EXPECTED_FILE.json})$`
+  ),
   extension: {
     self: /\.\w+$/,
     images: /(png|jpe?g)$/,
@@ -34,22 +36,23 @@ const PATTERN = {
     artNameProperty: /"artName":\s*".+"/gi,
     githubHandleProperty: /"githubHandle"\s*:\s*".+?"/gi
   }
-}
-
+};
 
 /* ------------------------------- Predicates ------------------------------- */
 
-const doesStartWithArt = f =>  f.startsWith('Art/')
-const isValidFolderName = f => PATTERN.folderUsername.test(f)
-const isExpectedFileName = (filename, expectedFilename) => filename.endsWith(expectedFilename)
-const hasSpace = f => /\s/g.test(f)
+const doesStartWithArt = (f) => f.startsWith('Art/');
+const isValidFolderName = (f) => PATTERN.folderUsername.test(f);
+const isExpectedFileName = (filename, expectedFilename) =>
+  filename.endsWith(expectedFilename);
+const hasSpace = (f) => /\s/g.test(f);
 
 /* -------------------------------------------------------------------------- */
 /*                                   Helpers                                  */
 /* -------------------------------------------------------------------------- */
 
 /* ------------------------------- Uilitaries ------------------------------- */
-const extractFileExtension = f => f.match(PATTERN.extension.self)?.[0]?.slice(1) || ''
+const extractFileExtension = (f) =>
+  f.match(PATTERN.extension.self)?.[0]?.slice(1) || '';
 
 /** Create a feedbackList to format inputs based on `mode` (line | task) */
 const createFeedbackList = (feedbackList = [], mode = 'line') => {
@@ -79,41 +82,43 @@ const reviewFile = (file, fileContent, checkerFn) => {
   return feedbackList;
 };
 
-
-
 /* --------------------------- Feedback checkers --------------------------- */
 
 /** Gives feedback on empty files if necessary and returns if has empty file  */
-const reviewEmptyFileFeedback = (file, fileContent, pushFeedbackFn ) => {
-  const isEmpty = !fileContent.trim()
-  if( isEmpty){
-    pushFeedbackFn(`Empty file, add the code for the file \`${file}\``)
+const reviewEmptyFileFeedback = (file, fileContent, pushFeedbackFn) => {
+  const isEmpty = !fileContent.trim();
+  if (isEmpty) {
+    pushFeedbackFn(`Empty file, add the code for the file \`${file}\``);
   }
-  return isEmpty
-}
+  return isEmpty;
+};
 
-const reviewExpectedFileFeedback = (file, extectedFile, pushFeedbackFn ) => {
-  const isCorrectFileName = isExpectedFileName(file, extectedFile)
+const reviewExpectedFileFeedback = (file, extectedFile, pushFeedbackFn) => {
+  const isCorrectFileName = isExpectedFileName(file, extectedFile);
   if (!isCorrectFileName) {
     pushFeedbackFn(
       `Incorrect filename: please rename as recommended or remove if unnecessary`
     );
   }
-  return isCorrectFileName
-}
+  return isCorrectFileName;
+};
 
-const reviewFileSpecs = (file, fileContent, pushFeedback ) => {
+const reviewFileSpecs = (file, fileContent, pushFeedback) => {
   // [ CASE ] Gives feedback on expected and incorrect file name
-  const fileExtension = extractFileExtension(file)
-  if( fileExtension ){
-    reviewExpectedFileFeedback(file, EXPECTED_FILE?.[fileExtension], pushFeedback)
+  const fileExtension = extractFileExtension(file);
+  if (fileExtension) {
+    reviewExpectedFileFeedback(
+      file,
+      EXPECTED_FILE?.[fileExtension],
+      pushFeedback
+    );
   }
-  
+
   // [ CASE ] Gives feedback on empty file and shortcuts if this is the case
-  const isEmptyFile = reviewEmptyFileFeedback(file, fileContent, pushFeedback)
-  const shouldContinue = !isEmptyFile
-  return shouldContinue
-}
+  const isEmptyFile = reviewEmptyFileFeedback(file, fileContent, pushFeedback);
+  const shouldContinue = !isEmptyFile;
+  return shouldContinue;
+};
 /* ------------------------------------ - ----------------------------------- */
 
 /** Establishes a state about the contribution
@@ -154,16 +159,14 @@ const checkGlobally = (contributionStates) => {
   const { changedFiles, incorrectFiles } = contributionStates;
 
   /* --------------------------- FOLDER LEVEL CHECKS -------------------------- */
-  
-  
-  /* [ CASE ] Gives feedback on missing Art/* files 
-  *  - For Any non maintainers' contributions
-  *  - For maintainers participating as contributors
-  * */
+
+  /* [ CASE ] Gives feedback on missing Art/* files
+   *  - For Any non maintainers' contributions
+   *  - For maintainers participating as contributors
+   * */
   const artFolderFiles = changedFiles.filter(doesStartWithArt);
   const has3FilesInArt = artFolderFiles.length === 3;
-  const isMaintainerAsContributor = IS_MAINTAINER && artFolderFiles.length > 0
-
+  const isMaintainerAsContributor = IS_MAINTAINER && artFolderFiles.length > 0;
 
   if (!has3FilesInArt && (!IS_MAINTAINER || isMaintainerAsContributor)) {
     pushFeedback(
@@ -172,17 +175,17 @@ const checkGlobally = (contributionStates) => {
   }
 
   /** [ CASE ] Gives feedback on incorrect folder name */
-  if( !artFolderFiles.every(isValidFolderName) ){
+  if (!artFolderFiles.every(isValidFolderName)) {
     pushFeedback(
       `Incorrect folder name: it should start with your GitHub handle, followed by your art name, inside the Art/ folder.`
-    )
+    );
   }
 
   /* ------------------ INCORRECT FILES SCOPE CHECKS --------------------------- */
   /** Files besides HTML, CSS, JSON files in Art folder */
   for (const file of incorrectFiles) {
-    const isInContributorFolder = isValidFolderName(file)
-    const isInsideArtFolder     = doesStartWithArt(file);
+    const isInContributorFolder = isValidFolderName(file);
+    const isInsideArtFolder = doesStartWithArt(file);
 
     const isIcon = file.includes('icon');
     const isPictural = PATTERN.extension.images.test(file);
@@ -195,7 +198,8 @@ const checkGlobally = (contributionStates) => {
 
     // [ CASE REASON ] Gives feedback on files [in/out]-side the "Art/<GITHUB_HANDLE>" folder
     if (isInContributorFolder) reason = 'not allowed for animations';
-    if (!isInContributorFolder) reason = 'this should not be part of your contribution';
+    if (!isInContributorFolder)
+      reason = 'this should not be part of your contribution';
 
     // [ CASE REASON ] Gives feedback on pictural content
     if (isPictural && !isIcon)
@@ -208,12 +212,12 @@ const checkGlobally = (contributionStates) => {
         - can contributes in touching other files without having invading feedback 
       - Regular contributors can only add contribution to "Art"
     */
-    const isContributorInsideArt  = !IS_MAINTAINER && isInsideArtFolder;
+    const isContributorInsideArt = !IS_MAINTAINER && isInsideArtFolder;
     const isContributorOutsideArt = !IS_MAINTAINER && !isInsideArtFolder;
-    const isMaintenerInsideArt    = IS_MAINTAINER && isInsideArtFolder;
+    const isMaintenerInsideArt = IS_MAINTAINER && isInsideArtFolder;
 
     const isFeedbackForUser =
-    isContributorInsideArt || isContributorOutsideArt || isMaintenerInsideArt;
+      isContributorInsideArt || isContributorOutsideArt || isMaintenerInsideArt;
 
     // [ CASE ] Gives feedback based on: user kind and contexts based on Art folder
     if (!isOveralCompliant && isFeedbackForUser) {
@@ -228,14 +232,13 @@ const checkGlobally = (contributionStates) => {
 
 /** Checks HTML content in details */
 const checkHTML = (file, fileContent, pushFeedback) => {
-
   // [ CASES ] Checks general file specs
-  const shouldContinue = reviewFileSpecs(file, fileContent, pushFeedback)
-  if (!shouldContinue ) return
+  const shouldContinue = reviewFileSpecs(file, fileContent, pushFeedback);
+  if (!shouldContinue) return;
 
   // HTML checks interpretations
   const hasScriptTag = PATTERN.html.scriptTag.test(fileContent);
-  const hasStyleTag = PATTERN.html.styleTag.test(fileContent)
+  const hasStyleTag = PATTERN.html.styleTag.test(fileContent);
   const hasCSS = fileContent.includes('.css');
   const hasCorrectStylesheet = PATTERN.css.linkTag.test(fileContent);
 
@@ -259,7 +262,7 @@ const checkHTML = (file, fileContent, pushFeedback) => {
   }
 
   // [ CASE ] Gives feedback on incorrect styling approach ( inline style in HTML )
-  if ( hasStyleTag ){
+  if (hasStyleTag) {
     pushFeedback(
       'Incorrect styling approach: please make a stylesheet file out of the style tag'
     );
@@ -268,11 +271,10 @@ const checkHTML = (file, fileContent, pushFeedback) => {
 
 /** Checks CSS content in details */
 const checkCSS = (file, fileContent, pushFeedback) => {
-
   // [ CASES ] Gives feedback on general file specs
-  const shouldContinue = reviewFileSpecs(file, fileContent, pushFeedback)
-  if (!shouldContinue ) return  
-  
+  const shouldContinue = reviewFileSpecs(file, fileContent, pushFeedback);
+  if (!shouldContinue) return;
+
   // [ CASE ] Gives feedback on missing CSS animation(s) check
   const hasCSSAnimation = PATTERN.css.keyframes.test(fileContent);
   if (!hasCSSAnimation) {
@@ -282,61 +284,60 @@ const checkCSS = (file, fileContent, pushFeedback) => {
   }
 
   // [ CASE ] Gives feedback on interactive CSS animations
-  if( PATTERN.css.interactiveElements.test(fileContent)){
+  if (PATTERN.css.interactiveElements.test(fileContent)) {
     pushFeedback(
       'Incorrect animation trigger: remove any pseudo elements with your animation(s) and attach the animation to the concerned element'
-    )
+    );
   }
 };
 
 /** Checks JSON content in details */
 const checkJSON = (file, fileContent, pushFeedback) => {
-
   // [ CASES ] Gives feedback on file specs
-  const shouldContinue = reviewFileSpecs(file, fileContent, pushFeedback)
-  if (!shouldContinue ) return
+  const shouldContinue = reviewFileSpecs(file, fileContent, pushFeedback);
+  if (!shouldContinue) return;
 
   // [ CASE ] Gives feedback on invalid JSON
-  let metaJSON = {}
+  let metaJSON = {};
   try {
-    metaJSON = JSON.parse( fileContent )
+    metaJSON = JSON.parse(fileContent);
   } catch {
-    pushFeedback('Invalid JSON structure — please ensure valid JSON format')
-    return
+    pushFeedback('Invalid JSON structure — please ensure valid JSON format');
+    return;
   }
 
-  const metaKeys = Object.keys(metaJSON)
-  if(!metaKeys.length) return 
+  const metaKeys = Object.keys(metaJSON);
+  if (!metaKeys.length) return;
 
   // [ CASE ] Gives feedback on extra properties
-  if (metaKeys.length > 2 ){
+  if (metaKeys.length > 2) {
     pushFeedback(
       'Remove extra properties — only `githubHandle` and `artName` should be present'
     );
   }
-  
-  // [ CASE ] Gives feedback on missing art name value 
-  if (!metaJSON?.artName){
+
+  // [ CASE ] Gives feedback on missing art name value
+  if (!metaJSON?.artName) {
     pushFeedback('Missing `artName`: please include an `artName` value');
   }
-  
-  // Check for matched contributor github handle 
-  const hasCorrectGithubHandle = new RegExp(CONTRIBUTOR_HANDLER, 'i').test(metaJSON?.githubHandle);
 
-  // [ CASE ] Gives feedback on incorrect github handle value 
+  // Check for matched contributor github handle
+  const hasCorrectGithubHandle = new RegExp(CONTRIBUTOR_HANDLER, 'i').test(
+    metaJSON?.githubHandle
+  );
+
+  // [ CASE ] Gives feedback on incorrect github handle value
   if (metaJSON?.githubHandle && !hasCorrectGithubHandle) {
     pushFeedback(
       'Unmatched `githubHandle`: make sure it matches your GitHub username'
     );
   }
 
-  // [ CASE ] Gives feedback on missing github handle value 
+  // [ CASE ] Gives feedback on missing github handle value
   else if (!metaJSON?.githubHandle) {
     pushFeedback('Missing `githubHandle`: please add your GitHub username');
   }
-}
-
-
+};
 
 /* -------------------------------------------------------------------------- */
 /*                          Logic Orchestration Items                         */
@@ -361,15 +362,17 @@ const reviewContribution = async (contributionStates) => {
     (filename) => !hasSpace(filename)
   );
   // Files Checks
-  const filesReviews = { html: [], css: [], json: []}
+  const filesReviews = { html: [], css: [], json: [] };
   for (const file of changedFilesWithoutSpace) {
     if (!file) continue;
 
     // Reads file
-    let fileContent = ''
+    let fileContent = '';
     try {
-      fileContent = await fs.readFile(file, 'utf-8')
-    } catch { continue }
+      fileContent = await fs.readFile(file, 'utf-8');
+    } catch {
+      continue;
+    }
 
     // [ CASE ] Gives reviews for empty files other than expected one
     const isReviewableFile = PATTERN.extension.expected.test(file);
@@ -378,14 +381,14 @@ const reviewContribution = async (contributionStates) => {
     }
     // [ CASE ] Gives reviews all accepted files
     else {
-      [checkHTML, checkCSS, checkJSON ].forEach( checkFileFn => {
-        const fileKind = checkFileFn.name.replace(/^check/i, '').toLowerCase()
+      [checkHTML, checkCSS, checkJSON].forEach((checkFileFn) => {
+        const fileKind = checkFileFn.name.replace(/^check/i, '').toLowerCase();
 
-        filesReviews[ fileKind ] = [
-          ...filesReviews[ fileKind ],
+        filesReviews[fileKind] = [
+          ...filesReviews[fileKind],
           ...(reviewFile(file, fileContent, checkFileFn) || [])
-        ]
-      })
+        ];
+      });
     }
   }
 
@@ -393,7 +396,7 @@ const reviewContribution = async (contributionStates) => {
     ...feedbackList,
     ...filesReviews.html,
     ...filesReviews.css,
-    ...filesReviews.json,
+    ...filesReviews.json
   ];
 
   const overviewReviews = checkGlobally(contributionStates);
@@ -437,12 +440,11 @@ const generateReviewMessage = (feedbackList) => {
   return messageReview;
 };
 
-
 /* -------------------------------------------------------------------------- */
 /*                                    MAIN                                    */
 /* -------------------------------------------------------------------------- */
 /** Automatically run the script */
-;(async () => {
+(async () => {
   const contributionState = getContributionState();
   const feedbackList = await reviewContribution(contributionState);
   const PRFinalReview = generateReviewMessage(feedbackList);

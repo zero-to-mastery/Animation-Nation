@@ -60,7 +60,9 @@ body {
   height: 14px;
   border-radius: 50%;
   background: #00ffff;
-  box-shadow: 0 0 12px #00ffff, 0 0 24px #00ffff,
+  box-shadow:
+    0 0 12px #00ffff,
+    0 0 24px #00ffff,
     0 0 36px rgba(0, 255, 255, 0.4);
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.8, 0.2);
 }

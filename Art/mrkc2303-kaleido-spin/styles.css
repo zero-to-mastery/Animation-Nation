@@ -20,12 +20,18 @@ body {
   height: 360px;
   border-radius: 50%;
   background: conic-gradient(#8fd3ff, #b49bff, #ff8aa5, #ffd38d, #8fd3ff);
-  -webkit-mask: radial-gradient(circle 60px, #0000 98%, #000) center/100% 100%,
+  -webkit-mask:
+    radial-gradient(circle 60px, #0000 98%, #000) center/100% 100%,
     radial-gradient(circle, #000 55%, #0000 56%);
-  mask: radial-gradient(circle 60px, #0000 98%, #000) center/100% 100%,
+  mask:
+    radial-gradient(circle 60px, #0000 98%, #000) center/100% 100%,
     radial-gradient(circle, #000 55%, #0000 56%);
-  box-shadow: 0 0 40px 8px #ffffff14, inset 0 0 18px #0006;
-  animation: spin 8s linear infinite, pulse 3.5s ease-in-out infinite;
+  box-shadow:
+    0 0 40px 8px #ffffff14,
+    inset 0 0 18px #0006;
+  animation:
+    spin 8s linear infinite,
+    pulse 3.5s ease-in-out infinite;
 }
 
 @keyframes spin {
