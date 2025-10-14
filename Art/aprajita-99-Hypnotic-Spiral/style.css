@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spiral-container {
+  position: relative;
+  width: 130vmin;
+  height: 130vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.spiral {
+  position: absolute;
+  border-radius: 50%;
+  background: repeating-conic-gradient(#000 0deg 15deg, #fff 15deg 30deg);
+  mask: radial-gradient(circle at center, transparent 0%, black 92%);
+  -webkit-mask: radial-gradient(circle at center, transparent 0%, black 92%);
+  filter: blur(0.8px) brightness(1.2);
+}
+
+.layer1 {
+  width: 120vmin;
+  height: 120vmin;
+  animation: spin 10s linear infinite, pulse 6s ease-in-out infinite;
+}
+
+.layer2 {
+  width: 100vmin;
+  height: 100vmin;
+  opacity: 0.8;
+  animation: spinReverse 8s linear infinite, pulse 5s ease-in-out infinite;
+  filter: blur(1px) brightness(1.4);
+}
+
+.layer3 {
+  width: 80vmin;
+  height: 80vmin;
+  opacity: 0.7;
+  animation: spin 6s linear infinite, pulse 4s ease-in-out infinite;
+  filter: blur(1.2px) brightness(1.5);
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg) scale(1); }
+  to { transform: rotate(360deg) scale(1.05); }
+}
+
+@keyframes spinReverse {
+  from { transform: rotate(360deg) scale(1.05); }
+  to { transform: rotate(0deg) scale(1); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.07); }
+}
