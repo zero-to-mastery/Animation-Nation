@@ -695,6 +695,14 @@
   },
   {
     "author": "ornitcg",
+    "artName": "flower",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-flower/index.html",
+    "imageLink": "./Art/ornitcg-flower/icon.png",
+    "projectPath": "Art/ornitcg-flower"
+  },
+  {
+    "author": "ornitcg",
     "artName": "rolling egg",
     "githubLink": "https://github.com/ornitcg",
     "pageLink": "./Art/ornitcg-rolling-egg/index.html",
