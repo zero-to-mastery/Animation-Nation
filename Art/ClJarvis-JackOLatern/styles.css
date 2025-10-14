@@ -6,7 +6,7 @@
 
 :root {
   --night: #22220f;
-  --light-green: #5a825a; 
+  --light-green: #5a825a;
   --dark-green: #095b12;
 }
 
@@ -43,7 +43,7 @@ body {
   left: -25%;
 }
 
-.shadow{
+.shadow {
   width: 130px;
   height: 130px;
   border-radius: 50%;
@@ -51,7 +51,6 @@ body {
   margin-left: 46px;
   margin-top: 11px;
 }
-
 
 .wrapper {
   display: flex;
@@ -67,7 +66,11 @@ body {
   height: 100px;
   margin-left: 55px;
   margin-bottom: -10px;
-  background-image: linear-gradient(to right bottom, var(--light-green), var(--dark-green));
+  background-image: linear-gradient(
+    to right bottom,
+    var(--light-green),
+    var(--dark-green)
+  );
   border-top-right-radius: 14%;
   border-top-left-radius: 15%;
   border-bottom-right-radius: 21%;
@@ -143,7 +146,6 @@ body {
   align-items: center;
 }
 
-
 .face {
   width: 400px;
   height: 300px;
@@ -182,7 +184,6 @@ body {
   animation-delay: 2s;
   animation-fill-mode: both;
   border: 2px solid orange;
-
 }
 
 .mouth {
@@ -190,14 +191,14 @@ body {
   justify-content: center;
   margin-top: 40px;
 }
- 
+
 .tooth {
   width: 40px;
   height: 40px;
   transform: rotate(45deg);
 
   animation: carveMouth 6s infinite;
-  animation-delay: -4s; 
+  animation-delay: -4s;
   animation-fill-mode: forwards;
   border: 2px solid orange;
   border-right-color: transparent;
@@ -209,26 +210,37 @@ body {
 }
 
 @keyframes move-moon {
-    from {
-        transform: translateX(-200px);
-    }
-    to {
-        transform: translateX(900px);
-    }
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(900px);
+  }
 }
 
-
 @keyframes carvePumpkin {
-  from {background-image: linear-gradient(to top, yellow, orange);}
-  to { background-image: linear-gradient(to bottom, yellow, red); }
+  from {
+    background-image: linear-gradient(to top, yellow, orange);
+  }
+  to {
+    background-image: linear-gradient(to bottom, yellow, red);
+  }
 }
 
 @keyframes carveNose {
-  from {background-image: linear-gradient(to top, yellow, orange);}
-  to { background-image: linear-gradient(to bottom, yellow, red); }
+  from {
+    background-image: linear-gradient(to top, yellow, orange);
+  }
+  to {
+    background-image: linear-gradient(to bottom, yellow, red);
+  }
 }
 
 @keyframes carveMouth {
-  from {background-image: linear-gradient(to left, orange, red);}
-  to { background-image: linear-gradient(to right, yellow, red); }
+  from {
+    background-image: linear-gradient(to left, orange, red);
+  }
+  to {
+    background-image: linear-gradient(to right, yellow, red);
+  }
 }

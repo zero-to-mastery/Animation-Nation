@@ -21,7 +21,9 @@ body {
   border-radius: 15px;
   /* Rounded corners for the frame */
   padding: 2rem;
-  box-shadow: 0 0 15px #ef6fc3, /* Inner glow effect */ inset 0 0 15px #ef6fc3;
+  box-shadow:
+    0 0 15px #ef6fc3,
+    /* Inner glow effect */ inset 0 0 15px #ef6fc3;
 }
 
 .text-container {
@@ -37,8 +39,13 @@ body {
   color: #fff;
   /* Base text color */
   /* Neon Pink glow effect using text-shadow */
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #ef6fc3,
-    0 0 82px #ef6fc3, 0 0 92px #ef6fc3;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #ef6fc3,
+    0 0 82px #ef6fc3,
+    0 0 92px #ef6fc3;
   /* Animation properties */
   animation: fall-and-wiggle 2s ease-out forwards;
   opacity: 0;

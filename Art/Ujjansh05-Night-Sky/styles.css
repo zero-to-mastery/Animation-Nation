@@ -36,11 +36,18 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(var(--star-color) 1px, transparent 1px),
+  background-image:
+    radial-gradient(var(--star-color) 1px, transparent 1px),
     radial-gradient(var(--star-color) 1px, transparent 1px),
     radial-gradient(var(--star-color) 1px, transparent 1px);
-  background-size: 100px 100px, 150px 150px, 200px 200px;
-  background-position: 0 0, 50px 50px, 25px 75px;
+  background-size:
+    100px 100px,
+    150px 150px,
+    200px 200px;
+  background-position:
+    0 0,
+    50px 50px,
+    25px 75px;
   animation: twinkle 8s linear infinite;
   opacity: 0.8;
 }
@@ -70,7 +77,8 @@ body {
     #b0b0b0 70%,
     #8a8a8a 100%
   );
-  box-shadow: 0 0 60px 15px rgba(255, 255, 240, 0.1),
+  box-shadow:
+    0 0 60px 15px rgba(255, 255, 240, 0.1),
     0 0 80px 25px rgba(230, 232, 235, 0.15);
   animation: moonGlow 6s ease-in-out infinite alternate;
   overflow: hidden;
@@ -80,7 +88,8 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       circle at 40% 50%,
       rgba(255, 255, 255, 0.3) 0 8%,
       transparent 9%
@@ -95,7 +104,11 @@ body {
       rgba(255, 255, 255, 0.15) 0 5%,
       transparent 6%
     ),
-    radial-gradient(circle at 60% 40%, rgba(0, 0, 0, 0.15) 0 4%, transparent 6%),
+    radial-gradient(
+      circle at 60% 40%,
+      rgba(0, 0, 0, 0.15) 0 4%,
+      transparent 6%
+    ),
     radial-gradient(circle at 55% 80%, rgba(0, 0, 0, 0.1) 0 3%, transparent 5%);
   background-repeat: no-repeat;
   filter: blur(0.5px);
@@ -103,11 +116,13 @@ body {
 
 @keyframes moonGlow {
   0% {
-    box-shadow: 0 0 40px 10px rgba(230, 232, 235, 0.12),
+    box-shadow:
+      0 0 40px 10px rgba(230, 232, 235, 0.12),
       0 0 70px 15px rgba(230, 232, 235, 0.1);
   }
   100% {
-    box-shadow: 0 0 80px 25px rgba(230, 232, 235, 0.18),
+    box-shadow:
+      0 0 80px 25px rgba(230, 232, 235, 0.18),
       0 0 100px 40px rgba(230, 232, 235, 0.12);
   }
 }
