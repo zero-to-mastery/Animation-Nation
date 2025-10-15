@@ -471,6 +471,14 @@
     "projectPath": "Art/gitsatishgarg-constellation"
   },
   {
+    "author": "guranshdeol",
+    "artName": "Solar System",
+    "githubLink": "https://github.com/guranshdeol",
+    "pageLink": "./Art/guranshdeol.solarsystem/index.html",
+    "imageLink": "./Art/guranshdeol.solarsystem/icon.png",
+    "projectPath": "Art/guranshdeol.solarsystem"
+  },
+  {
     "author": "huzfm",
     "artName": "Dark Glowing Blobs+Ripples Animation",
     "githubLink": "https://github.com/huzfm",
@@ -796,5 +804,13 @@
     "pageLink": "./Art/volt3301-NeonGrid/index.html",
     "imageLink": "./Art/volt3301-NeonGrid/icon.png",
     "projectPath": "Art/volt3301-NeonGrid"
+  },
+  {
+    "author": "volt3301",
+    "artName": "Orbit Rings",
+    "githubLink": "https://github.com/volt3301",
+    "pageLink": "./Art/volt3301-OrbitRings/index.html",
+    "imageLink": "./Art/volt3301-OrbitRings/icon.png",
+    "projectPath": "Art/volt3301-OrbitRings"
   }
 ]
