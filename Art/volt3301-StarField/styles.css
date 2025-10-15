@@ -7,10 +7,15 @@ body {
 .stars {
   width: 200%;
   height: 200%;
-  background: transparent url("https://www.transparenttextures.com/patterns/stardust.png") repeat;
+  background: transparent
+    url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
   animation: zoom 20s linear infinite;
 }
 @keyframes zoom {
-  0% { transform: scale(1) rotate(0deg); }
-  100% { transform: scale(1.5) rotate(360deg); }
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1.5) rotate(360deg);
+  }
 }
