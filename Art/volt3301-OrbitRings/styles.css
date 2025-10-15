@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle, #01010a 0%, #000 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  width: 20px;
+  height: 20px;
+  background: #00ffff;
+  border-radius: 50%;
+}
+.ring {
+  position: absolute;
+  border: 2px solid rgba(0, 255, 255, 0.4);
+  border-radius: 50%;
+  animation: rotate 8s linear infinite;
+}
+.r1 {
+  width: 100px;
+  height: 100px;
+  animation-duration: 6s;
+}
+.r2 {
+  width: 160px;
+  height: 160px;
+  animation-duration: 8s;
+}
+.r3 {
+  width: 220px;
+  height: 220px;
+  animation-duration: 10s;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}

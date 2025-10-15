@@ -3,15 +3,58 @@ const fs = require('node:fs/promises');
 /* Github Actions values to use */
 const CONTRIBUTOR_HANDLER = process.env.CONTRIBUTOR || '';
 const CHANGED_FILES_STR = process.env?.CHANGED_FILES || '';
-const EXPECTED_HTML = 'index.html';
-const EXPECTED_CSS = 'styles.css';
-const EXPECTED_JSON = 'meta.json';
+const EXPECTED_FILE = {
+  html: 'index.html',
+  css: 'styles.css',
+  json: 'meta.json'
+};
 const IS_MAINTAINER = ['admin', 'maintain'].includes(
   process.env?.GITHUB_PERMISSION_ROLE || ''
 );
 
-/* Helpers */
-/** Create a feedbackList - formatting the list item based on `mode` (line | task) */
+/* Patterns */
+const PATTERN = {
+  folderUsername: new RegExp(`^Art/${CONTRIBUTOR_HANDLER}`, 'i'),
+  requiredFiles: new RegExp(
+    `(${EXPECTED_FILE.html}|${EXPECTED_FILE.css}|${EXPECTED_FILE.json})$`
+  ),
+  extension: {
+    self: /\.\w+$/,
+    images: /(png|jpe?g)$/,
+    expected: /(.html|.css|.json)$/
+  },
+  html: {
+    scriptTag: /<script\b[^>]*>/i,
+    styleTag: /<style\b[^>]*>/i
+  },
+  css: {
+    linkTag: /<link\s+[^>]*href=["'](\.?\/)?styles\.css["']?[^>]*>/i,
+    keyframes: /@keyframes/gi,
+    interactiveElements: /\w+\s?:{1,2}\s?(hover|active)/gm
+  },
+  json: {
+    artNameProperty: /"artName":\s*".+"/gi,
+    githubHandleProperty: /"githubHandle"\s*:\s*".+?"/gi
+  }
+};
+
+/* ------------------------------- Predicates ------------------------------- */
+
+const doesStartWithArt = (f) => f.startsWith('Art/');
+const isValidFolderName = (f) => PATTERN.folderUsername.test(f);
+const isExpectedFileName = (filename, expectedFilename) =>
+  filename.endsWith(expectedFilename);
+const hasSpace = (f) => /\s/g.test(f);
+
+/* -------------------------------------------------------------------------- */
+/*                                   Helpers                                  */
+/* -------------------------------------------------------------------------- */
+
+/* ------------------------------- Uilitaries ------------------------------- */
+const extractFileExtension = (f) =>
+  f.match(PATTERN.extension.self)?.[0]?.slice(1) || '';
+
+/** Create a feedbackList to format inputs based on `mode` (line | task) */
 const createFeedbackList = (feedbackList = [], mode = 'line') => {
   return (message) => {
     const feedback = mode == 'task' ? `\t> - [ ] ${message}` : message;
@@ -27,8 +70,8 @@ const reviewFile = (file, fileContent, checkerFn) => {
   let fileType = checkerFn.name.replace(/^check/i, '').toLowerCase();
   if (!file.endsWith(`.${fileType}`)) return feedbackList;
 
-  const feedbackPush = createFeedbackList(feedbackList, 'task');
-  checkerFn(file, fileContent, feedbackPush);
+  const pushFeedback = createFeedbackList(feedbackList, 'task');
+  checkerFn(file, fileContent, pushFeedback);
 
   // Prepends feedback header if any feedback items
   if (feedbackList.length) {
@@ -39,6 +82,43 @@ const reviewFile = (file, fileContent, checkerFn) => {
   return feedbackList;
 };
 
+/* --------------------------- Feedback checkers --------------------------- */
+
+/** Gives feedback on empty files if necessary and returns if has empty file  */
+const reviewEmptyFileFeedback = (file, fileContent, pushFeedbackFn) => {
+  const isEmpty = !fileContent.trim();
+  if (isEmpty) {
+    pushFeedbackFn(`Empty file, add the code for the file \`${file}\``);
+  }
+  return isEmpty;
+};
+
+const reviewExpectedFileFeedback = (file, extectedFile, pushFeedbackFn) => {
+  const isCorrectFileName = isExpectedFileName(file, extectedFile);
+  if (!isCorrectFileName) {
+    pushFeedbackFn(
+      `Incorrect filename: please rename as recommended or remove if unnecessary`
+    );
+  }
+  return isCorrectFileName;
+};
+
+const reviewFileSpecs = (file, fileContent, pushFeedback) => {
+  // [ CASE ] Gives feedback on expected and incorrect file name
+  const fileExtension = extractFileExtension(file);
+  if (fileExtension) {
+    reviewExpectedFileFeedback(
+      file,
+      EXPECTED_FILE?.[fileExtension],
+      pushFeedback
+    );
+  }
+
+  // [ CASE ] Gives feedback on empty file and shortcuts if this is the case
+  const isEmptyFile = reviewEmptyFileFeedback(file, fileContent, pushFeedback);
+  const shouldContinue = !isEmptyFile;
+  return shouldContinue;
+};
 /* ------------------------------------ - ----------------------------------- */
 
 /** Establishes a state about the contribution
@@ -48,14 +128,10 @@ const reviewFile = (file, fileContent, checkerFn) => {
 const getContributionState = () => {
   const changedFiles = CHANGED_FILES_STR.split('\n') || [];
 
-  const requiredFilesRegexp = new RegExp(
-    `(${EXPECTED_HTML}|${EXPECTED_CSS}|${EXPECTED_JSON})$`
-  );
-
   // Separates changed file to "incorrectFiles" or "correctFiles"
   const fileCorrectness = changedFiles.reduce(
     (details, file) => {
-      const detailsProperty = requiredFilesRegexp.test(file)
+      const detailsProperty = PATTERN.requiredFiles.test(file)
         ? details.correctFiles
         : details.incorrectFiles;
 
@@ -72,229 +148,267 @@ const getContributionState = () => {
   return state;
 };
 
-/* ---------------------------- File Based Checks --------------------------- */
-const checkHTML = (file, fileContent, feedbackPush) => {
-  const hasJS = /<script\b[^>]*>/i.test(fileContent);
-  const hasCSS = fileContent.includes('.css');
-  const hasCorrectStylesheet =
-    /<link\s+[^>]*href=["']styles\.css["'][^>]*>/i.test(fileContent);
+/* -------------------------------------------------------------------------- */
+/*                            Contribution Checkers                           */
+/* -------------------------------------------------------------------------- */
 
-  // Exact file name check for HTML
-  if (!file.includes(EXPECTED_HTML)) {
-    feedbackPush(
-      `Incorrect filename for \`${file}\`: please **rename** it as recommended`
-    );
-  }
-
-  if (!fileContent) {
-    feedbackPush(`Empty file, add the code for the file \`${file}\``);
-  } else {
-    // Check any JS content
-    if (hasJS) {
-      feedbackPush(`Remove **any JavaScript content** from your HTML file`);
-    }
-
-    // Check CSS link tag: exists or incorrect name
-    if (!hasCSS) {
-      feedbackPush(
-        'Missing linked stylesheet file: link the CSS file to your HTML'
-      );
-    } else if (!hasCorrectStylesheet) {
-      feedbackPush(
-        'Incorrect stylesheet link: update the `href` so it points to the correct CSS file'
-      );
-    }
-  }
-};
-
-const checkCSS = (file, fileContent, feedbackPush) => {
-  // Exact file name check for CSS
-  if (!file.includes(EXPECTED_CSS)) {
-    feedbackPush(
-      `Incorrect filename: please rename as recommended or remove if unnecessary`
-    );
-  }
-
-  // CSS animation(s) check
-  const hasCSSAnimation = /@keyframes/gi.test(fileContent);
-  if (!fileContent) {
-    feedbackPush(`Empty file, add the code for the file \`${file}\``);
-  } else if (!hasCSSAnimation) {
-    feedbackPush(
-      'Missing animation: include at least one `@keyframes` definition and use the `animation` property'
-    );
-  }
-};
-
-const checkJSON = (file, fileContent, feedbackPush) => {
-  // Exact file name check for JSON
-  if (!file.includes(EXPECTED_JSON)) {
-    feedbackPush(
-      `Incorrect filename for \`${file}\`: please **rename** it as recommended`
-    );
-  }
-
-  if (!fileContent) {
-    feedbackPush(`Empty file, add the code for the file \`${file}\``);
-  } else {
-    // Meta checks ( artName & githubHandle )
-    const contributorRegexp = new RegExp(CONTRIBUTOR_HANDLER, 'i');
-    const hasMetaArtNameValue = /"artName":\s*".+"/gi.test(fileContent);
-    const hasMetaGithubHandleValue = /"githubHandle"\s*:\s*".+?"/gi.test(
-      fileContent
-    );
-
-    const hasCorrectMetaGithubHandle = contributorRegexp.test(fileContent);
-
-    if (!hasMetaArtNameValue)
-      feedbackPush('Missing `artName`: please include an `artName` value');
-
-    if (hasMetaGithubHandleValue && !hasCorrectMetaGithubHandle) {
-      feedbackPush(
-        'Unmatched `githubHandle`: make sure it matches your GitHub username'
-      );
-    } else if (!hasMetaGithubHandleValue) {
-      feedbackPush('Missing `githubHandle`: please add your GitHub username');
-    }
-
-    const linesCount = fileContent.trim().split('\n').length;
-    const hasMoreProperties = linesCount > 4;
-    if (hasMoreProperties) {
-      feedbackPush(
-        'Remove extra properties — only `githubHandle` and `artName` should be present'
-      );
-    }
-  }
-};
-
-/* Project level reviews: checks file names, count, and paths */
-const reviewOverallContribution = (contributionStates) => {
+/* Checks Overall Contribution - without specific file content */
+const checkGlobally = (contributionStates) => {
   const feedbackList = [];
-  const feedbackPush = createFeedbackList(feedbackList, 'task');
-
+  const pushFeedback = createFeedbackList(feedbackList, 'task');
   const { changedFiles, incorrectFiles } = contributionStates;
 
-  // Content contained within `Art/`
-  const artFolderFiles = changedFiles.filter((filename) =>
-    filename.startsWith('Art/')
-  );
+  /* --------------------------- FOLDER LEVEL CHECKS -------------------------- */
 
-  // Files count in Art
+  /* [ CASE ] Gives feedback on missing Art/* files
+   *  - For Any non maintainers' contributions
+   *  - For maintainers participating as contributors
+   * */
+  const artFolderFiles = changedFiles.filter(doesStartWithArt);
   const has3FilesInArt = artFolderFiles.length === 3;
+  const isMaintainerAsContributor = IS_MAINTAINER && artFolderFiles.length > 0;
 
-  // Missing file contributions for any contributor or maintainer contributing with an animation
-  const isMaintainerAsContributor =
-    artFolderFiles.some((f) => f.startsWith('Art/')) && IS_MAINTAINER;
   if (!has3FilesInArt && (!IS_MAINTAINER || isMaintainerAsContributor)) {
-    feedbackPush(
+    pushFeedback(
       `Missing files in your contribution: include all required files inside the \`Art/\` folder - (3 files expected)`
     );
   }
 
-  // Handle incorrect files outside the Art/ folder for contributors
-  const folderRegexp = new RegExp(`^Art/${CONTRIBUTOR_HANDLER}`, 'i');
+  /** [ CASE ] Gives feedback on incorrect folder name */
+  if (!artFolderFiles.every(isValidFolderName)) {
+    pushFeedback(
+      `Incorrect folder name: it should start with your GitHub handle, followed by your art name, inside the Art/ folder.`
+    );
+  }
 
-  // Incorrect files context
+  /* ------------------ INCORRECT FILES SCOPE CHECKS --------------------------- */
+  /** Files besides HTML, CSS, JSON files in Art folder */
   for (const file of incorrectFiles) {
-    const isInContributorFolder = folderRegexp.test(file);
-    const isInsideArtFolder = file.startsWith('Art/');
+    const isInContributorFolder = isValidFolderName(file);
+    const isInsideArtFolder = doesStartWithArt(file);
 
     const isIcon = file.includes('icon');
-    const isPictural = /(png|jpe?g)$/.test(file);
+    const isPictural = PATTERN.extension.images.test(file);
 
     // Excludes html, css, json as they have their own checkers
-    const isOveralCompliant = /(.html|.css|.json)/.test(file);
+    const isOveralCompliant = PATTERN.extension.expected.test(file);
 
+    // Defines reasons for file incorrections
     let reason = '';
-    // Checks files is inside or outside the "Art/<GITHUB_HANDLE>" folder
+
+    // [ CASE REASON ] Gives feedback on files [in/out]-side the "Art/<GITHUB_HANDLE>" folder
     if (isInContributorFolder) reason = 'not allowed for animations';
     if (!isInContributorFolder)
       reason = 'this should not be part of your contribution';
 
-    // Checking pictural files cases
+    // [ CASE REASON ] Gives feedback on pictural content
     if (isPictural && !isIcon)
       reason = 'pictures are not allowed, use online ones';
     if (isPictural && isIcon) reason = 'icons are auto-generated after merge';
 
-    // User kind checks & context ( maintainer or contributor )
+    /* Deduces user kinds ( maintainers or regular contributors )
+      - Maintainers:
+        - can have pre-review feedback on "Art" contribution
+        - can contributes in touching other files without having invading feedback 
+      - Regular contributors can only add contribution to "Art"
+    */
     const isContributorInsideArt = !IS_MAINTAINER && isInsideArtFolder;
     const isContributorOutsideArt = !IS_MAINTAINER && !isInsideArtFolder;
     const isMaintenerInsideArt = IS_MAINTAINER && isInsideArtFolder;
 
     const isFeedbackForUser =
       isContributorInsideArt || isContributorOutsideArt || isMaintenerInsideArt;
-    // Push a Feedback for any above compliant cases
+
+    // [ CASE ] Gives feedback based on: user kind and contexts based on Art folder
     if (!isOveralCompliant && isFeedbackForUser) {
-      feedbackPush(`Remove unnecessary file: \`${file}\` - ${reason}`);
+      pushFeedback(`Remove unnecessary file: \`${file}\` - ${reason}`);
     }
   }
+
+  // If any feedback are provided, sets the header "Overall feedback"
   if (feedbackList.length) feedbackList.unshift('\n- **Overall feedback**');
   return feedbackList;
 };
 
+/** Checks HTML content in details */
+const checkHTML = (file, fileContent, pushFeedback) => {
+  // [ CASES ] Checks general file specs
+  const shouldContinue = reviewFileSpecs(file, fileContent, pushFeedback);
+  if (!shouldContinue) return;
+
+  // HTML checks interpretations
+  const hasScriptTag = PATTERN.html.scriptTag.test(fileContent);
+  const hasStyleTag = PATTERN.html.styleTag.test(fileContent);
+  const hasCSS = fileContent.includes('.css');
+  const hasCorrectStylesheet = PATTERN.css.linkTag.test(fileContent);
+
+  // [ CASE ] Gives feedback on JS within
+  if (hasScriptTag) {
+    pushFeedback(`Remove **any JavaScript content** from your HTML file`);
+  }
+
+  // [ CASE ] Gives feedback on any missing CSS file
+  if (!hasCSS) {
+    pushFeedback(
+      'Missing linked stylesheet file: link the CSS file to your HTML'
+    );
+  }
+
+  // [ CASE ] Gives feedback on incorrect a CSS file name
+  else if (!hasCorrectStylesheet) {
+    pushFeedback(
+      'Incorrect stylesheet link: update the `href` so it points to the correct CSS file'
+    );
+  }
+
+  // [ CASE ] Gives feedback on incorrect styling approach ( inline style in HTML )
+  if (hasStyleTag) {
+    pushFeedback(
+      'Incorrect styling approach: please make a stylesheet file out of the style tag'
+    );
+  }
+};
+
+/** Checks CSS content in details */
+const checkCSS = (file, fileContent, pushFeedback) => {
+  // [ CASES ] Gives feedback on general file specs
+  const shouldContinue = reviewFileSpecs(file, fileContent, pushFeedback);
+  if (!shouldContinue) return;
+
+  // [ CASE ] Gives feedback on missing CSS animation(s) check
+  const hasCSSAnimation = PATTERN.css.keyframes.test(fileContent);
+  if (!hasCSSAnimation) {
+    pushFeedback(
+      'Missing animation: include at least one `@keyframes` definition and use the `animation` property'
+    );
+  }
+
+  // [ CASE ] Gives feedback on interactive CSS animations
+  if (PATTERN.css.interactiveElements.test(fileContent)) {
+    pushFeedback(
+      'Incorrect animation trigger: remove any pseudo elements with your animation(s) and attach the animation to the concerned element'
+    );
+  }
+};
+
+/** Checks JSON content in details */
+const checkJSON = (file, fileContent, pushFeedback) => {
+  // [ CASES ] Gives feedback on file specs
+  const shouldContinue = reviewFileSpecs(file, fileContent, pushFeedback);
+  if (!shouldContinue) return;
+
+  // [ CASE ] Gives feedback on invalid JSON
+  let metaJSON = {};
+  try {
+    metaJSON = JSON.parse(fileContent);
+  } catch {
+    pushFeedback('Invalid JSON structure — please ensure valid JSON format');
+    return;
+  }
+
+  const metaKeys = Object.keys(metaJSON);
+  if (!metaKeys.length) return;
+
+  // [ CASE ] Gives feedback on extra properties
+  if (metaKeys.length > 2) {
+    pushFeedback(
+      'Remove extra properties — only `githubHandle` and `artName` should be present'
+    );
+  }
+
+  // [ CASE ] Gives feedback on missing art name value
+  if (!metaJSON?.artName) {
+    pushFeedback('Missing `artName`: please include an `artName` value');
+  }
+
+  // Check for matched contributor github handle
+  const hasCorrectGithubHandle = new RegExp(CONTRIBUTOR_HANDLER, 'i').test(
+    metaJSON?.githubHandle
+  );
+
+  // [ CASE ] Gives feedback on incorrect github handle value
+  if (metaJSON?.githubHandle && !hasCorrectGithubHandle) {
+    pushFeedback(
+      'Unmatched `githubHandle`: make sure it matches your GitHub username'
+    );
+  }
+
+  // [ CASE ] Gives feedback on missing github handle value
+  else if (!metaJSON?.githubHandle) {
+    pushFeedback('Missing `githubHandle`: please add your GitHub username');
+  }
+};
+
+/* -------------------------------------------------------------------------- */
+/*                          Logic Orchestration Items                         */
+/* -------------------------------------------------------------------------- */
 /* File details reviews: checks all files and their content */
-const checkContent = async (contributionStates) => {
+const reviewContribution = async (contributionStates) => {
   let feedbackList = [];
-  const feedbackPush = createFeedbackList(feedbackList, 'task');
+  const pushFeedback = createFeedbackList(feedbackList, 'task');
 
   // Files
   const { changedFiles } = contributionStates;
-  const changedFilesWithSpace = changedFiles.filter((filename) =>
-    /\s/.test(filename)
-  );
+  const changedFilesWithSpace = changedFiles.filter(hasSpace);
+
+  // [ CASE ] Give feedback on filename containing spaces
   if (changedFilesWithSpace.length) {
-    feedbackPush(
+    pushFeedback(
       'Space(s) detected in file or folder name(s) - please remove them'
     );
   }
 
   const changedFilesWithoutSpace = changedFiles.filter(
-    (filename) => !/\s/.test(filename)
+    (filename) => !hasSpace(filename)
   );
-  let HTMLReviews = [],
-    CSSReviews = [],
-    JSONReviews = [];
-
   // Files Checks
+  const filesReviews = { html: [], css: [], json: [] };
   for (const file of changedFilesWithoutSpace) {
     if (!file) continue;
-    let fileContent = await fs.readFile(file, 'utf-8');
 
-    const shouldSkip = /(.html|.css|.json)/.test(file);
-    if (!fileContent && !shouldSkip) {
-      feedbackPush(`Empty file, add content to your file \`${file}\``);
-    } else {
-      HTMLReviews = [
-        ...HTMLReviews,
-        ...(reviewFile(file, fileContent, checkHTML) || [])
-      ];
-      CSSReviews = [
-        ...CSSReviews,
-        ...(reviewFile(file, fileContent, checkCSS) || [])
-      ];
-      JSONReviews = [
-        ...JSONReviews,
-        ...(reviewFile(file, fileContent, checkJSON) || [])
-      ];
+    // Reads file
+    let fileContent = '';
+    try {
+      fileContent = await fs.readFile(file, 'utf-8');
+    } catch {
+      continue;
+    }
+
+    // [ CASE ] Gives reviews for empty files other than expected one
+    const isReviewableFile = PATTERN.extension.expected.test(file);
+    if (!fileContent && !isReviewableFile) {
+      pushFeedback(`Empty file, add content to your file \`${file}\``);
+    }
+    // [ CASE ] Gives reviews all accepted files
+    else {
+      [checkHTML, checkCSS, checkJSON].forEach((checkFileFn) => {
+        const fileKind = checkFileFn.name.replace(/^check/i, '').toLowerCase();
+
+        filesReviews[fileKind] = [
+          ...filesReviews[fileKind],
+          ...(reviewFile(file, fileContent, checkFileFn) || [])
+        ];
+      });
     }
   }
 
   feedbackList = [
     ...feedbackList,
-    ...HTMLReviews,
-    ...CSSReviews,
-    ...JSONReviews
+    ...filesReviews.html,
+    ...filesReviews.css,
+    ...filesReviews.json
   ];
 
-  const overviewReviews = reviewOverallContribution(contributionStates);
+  const overviewReviews = checkGlobally(contributionStates);
   return [...overviewReviews, ...feedbackList];
 };
 
-/** Generates the final review message */
+/** Generates the final pre-review message */
 const generateReviewMessage = (feedbackList) => {
   const interlocutor = CONTRIBUTOR_HANDLER
     ? `@${CONTRIBUTOR_HANDLER}`
     : 'Dear Contributor';
+
   const messageLines = [
     `Aloha ${interlocutor} 🙌 - Thanks for your contribution!`
   ];
@@ -326,10 +440,13 @@ const generateReviewMessage = (feedbackList) => {
   return messageReview;
 };
 
+/* -------------------------------------------------------------------------- */
+/*                                    MAIN                                    */
+/* -------------------------------------------------------------------------- */
 /** Automatically run the script */
 (async () => {
   const contributionState = getContributionState();
-  const feedbackList = await checkContent(contributionState);
+  const feedbackList = await reviewContribution(contributionState);
   const PRFinalReview = generateReviewMessage(feedbackList);
   console.info(PRFinalReview);
 })();
