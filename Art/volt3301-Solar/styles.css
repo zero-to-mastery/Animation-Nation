@@ -24,16 +24,42 @@ body {
   animation: rotate 8s linear infinite;
 }
 
-.f1 { width: 180px; height: 180px; animation-duration: 6s; }
-.f2 { width: 250px; height: 250px; animation-duration: 8s; }
-.f3 { width: 320px; height: 320px; animation-duration: 10s; }
+.f1 {
+  width: 180px;
+  height: 180px;
+  animation-duration: 6s;
+}
+.f2 {
+  width: 250px;
+  height: 250px;
+  animation-duration: 8s;
+}
+.f3 {
+  width: 320px;
+  height: 320px;
+  animation-duration: 10s;
+}
 
 @keyframes pulse {
-  0% { transform: scale(1); opacity: 0.9; box-shadow: 0 0 30px 15px #ff6600; }
-  100% { transform: scale(1.2); opacity: 1; box-shadow: 0 0 60px 30px #ffaa00; }
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+    box-shadow: 0 0 30px 15px #ff6600;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 1;
+    box-shadow: 0 0 60px 30px #ffaa00;
+  }
 }
 
 @keyframes rotate {
-  0% { transform: rotate(0deg) scale(1); opacity: 0.5; }
-  100% { transform: rotate(360deg) scale(1.1); opacity: 1; }
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotate(360deg) scale(1.1);
+    opacity: 1;
+  }
 }
