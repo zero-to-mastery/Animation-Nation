@@ -836,5 +836,13 @@
     "pageLink": "./Art/volt3301-StarField/index.html",
     "imageLink": "./Art/volt3301-StarField/icon.png",
     "projectPath": "Art/volt3301-StarField"
+  },
+  {
+    "author": "volt3301",
+    "artName": "Wave Flow",
+    "githubLink": "https://github.com/volt3301",
+    "pageLink": "./Art/volt3301-WaveFlow/index.html",
+    "imageLink": "./Art/volt3301-WaveFlow/icon.png",
+    "projectPath": "Art/volt3301-WaveFlow"
   }
 ]
