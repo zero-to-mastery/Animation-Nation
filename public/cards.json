@@ -327,6 +327,14 @@
     "projectPath": "Art/adithya-pathakoti-galaxy"
   },
   {
+    "author": "aprajita-99",
+    "artName": "Hypnotic Spiral",
+    "githubLink": "https://github.com/aprajita-99",
+    "pageLink": "./Art/aprajita-99-Hypnotic-Spiral/index.html",
+    "imageLink": "./Art/aprajita-99-Hypnotic-Spiral/icon.png",
+    "projectPath": "Art/aprajita-99-Hypnotic-Spiral"
+  },
+  {
     "author": "behramshah",
     "artName": "mini solar system",
     "githubLink": "https://github.com/behramshah",
@@ -463,6 +471,14 @@
     "projectPath": "Art/gitsatishgarg-constellation"
   },
   {
+    "author": "guranshdeol",
+    "artName": "Solar System",
+    "githubLink": "https://github.com/guranshdeol",
+    "pageLink": "./Art/guranshdeol.solarsystem/index.html",
+    "imageLink": "./Art/guranshdeol.solarsystem/icon.png",
+    "projectPath": "Art/guranshdeol.solarsystem"
+  },
+  {
     "author": "huzfm",
     "artName": "Dark Glowing Blobs+Ripples Animation",
     "githubLink": "https://github.com/huzfm",
@@ -509,6 +525,14 @@
     "pageLink": "./Art/jeevaramanathan-dot-wave-loader/index.html",
     "imageLink": "./Art/jeevaramanathan-dot-wave-loader/icon.png",
     "projectPath": "Art/jeevaramanathan-dot-wave-loader"
+  },
+  {
+    "author": "kantagarg17",
+    "artName": "Fire Pulse",
+    "githubLink": "https://github.com/kantagarg17",
+    "pageLink": "./Art/kantagarg17-FirePulse/index.html",
+    "imageLink": "./Art/kantagarg17-FirePulse/icon.png",
+    "projectPath": "Art/kantagarg17-FirePulse"
   },
   {
     "author": "kevinbatdorf",
@@ -679,6 +703,30 @@
   },
   {
     "author": "ornitcg",
+    "artName": "falling leaves",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-falling-leaves/index.html",
+    "imageLink": "./Art/ornitcg-falling-leaves/icon.png",
+    "projectPath": "Art/ornitcg-falling-leaves"
+  },
+  {
+    "author": "ornitcg",
+    "artName": "flower",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-flower/index.html",
+    "imageLink": "./Art/ornitcg-flower/icon.png",
+    "projectPath": "Art/ornitcg-flower"
+  },
+  {
+    "author": "ornitcg",
+    "artName": "morph",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-morph/index.html",
+    "imageLink": "./Art/ornitcg-morph/icon.png",
+    "projectPath": "Art/ornitcg-morph"
+  },
+  {
+    "author": "ornitcg",
     "artName": "rolling egg",
     "githubLink": "https://github.com/ornitcg",
     "pageLink": "./Art/ornitcg-rolling-egg/index.html",
@@ -748,5 +796,53 @@
     "pageLink": "./Art/tomdu3-time-flies/index.html",
     "imageLink": "./Art/tomdu3-time-flies/icon.png",
     "projectPath": "Art/tomdu3-time-flies"
+  },
+  {
+    "author": "volt3301",
+    "artName": "Gradient Loop",
+    "githubLink": "https://github.com/volt3301",
+    "pageLink": "./Art/volt3301-GradientLoop/index.html",
+    "imageLink": "./Art/volt3301-GradientLoop/icon.png",
+    "projectPath": "Art/volt3301-GradientLoop"
+  },
+  {
+    "author": "volt3301",
+    "artName": "Neon Grid",
+    "githubLink": "https://github.com/volt3301",
+    "pageLink": "./Art/volt3301-NeonGrid/index.html",
+    "imageLink": "./Art/volt3301-NeonGrid/icon.png",
+    "projectPath": "Art/volt3301-NeonGrid"
+  },
+  {
+    "author": "volt3301",
+    "artName": "Orbit Rings",
+    "githubLink": "https://github.com/volt3301",
+    "pageLink": "./Art/volt3301-OrbitRings/index.html",
+    "imageLink": "./Art/volt3301-OrbitRings/icon.png",
+    "projectPath": "Art/volt3301-OrbitRings"
+  },
+  {
+    "author": "volt3301",
+    "artName": "Solar Flare",
+    "githubLink": "https://github.com/volt3301",
+    "pageLink": "./Art/volt3301-Solar/index.html",
+    "imageLink": "./Art/volt3301-Solar/icon.png",
+    "projectPath": "Art/volt3301-Solar"
+  },
+  {
+    "author": "volt3301",
+    "artName": "Star Field",
+    "githubLink": "https://github.com/volt3301",
+    "pageLink": "./Art/volt3301-StarField/index.html",
+    "imageLink": "./Art/volt3301-StarField/icon.png",
+    "projectPath": "Art/volt3301-StarField"
+  },
+  {
+    "author": "volt3301",
+    "artName": "Wave Flow",
+    "githubLink": "https://github.com/volt3301",
+    "pageLink": "./Art/volt3301-WaveFlow/index.html",
+    "imageLink": "./Art/volt3301-WaveFlow/icon.png",
+    "projectPath": "Art/volt3301-WaveFlow"
   }
 ]
