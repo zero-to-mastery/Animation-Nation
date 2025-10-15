@@ -719,6 +719,14 @@
   },
   {
     "author": "ornitcg",
+    "artName": "morph",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-morph/index.html",
+    "imageLink": "./Art/ornitcg-morph/icon.png",
+    "projectPath": "Art/ornitcg-morph"
+  },
+  {
+    "author": "ornitcg",
     "artName": "rolling egg",
     "githubLink": "https://github.com/ornitcg",
     "pageLink": "./Art/ornitcg-rolling-egg/index.html",
@@ -812,5 +820,13 @@
     "pageLink": "./Art/volt3301-OrbitRings/index.html",
     "imageLink": "./Art/volt3301-OrbitRings/icon.png",
     "projectPath": "Art/volt3301-OrbitRings"
+  },
+  {
+    "author": "volt3301",
+    "artName": "Solar Flare",
+    "githubLink": "https://github.com/volt3301",
+    "pageLink": "./Art/volt3301-Solar/index.html",
+    "imageLink": "./Art/volt3301-Solar/icon.png",
+    "projectPath": "Art/volt3301-Solar"
   }
 ]
