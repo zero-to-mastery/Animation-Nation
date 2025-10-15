@@ -828,5 +828,13 @@
     "pageLink": "./Art/volt3301-Solar/index.html",
     "imageLink": "./Art/volt3301-Solar/icon.png",
     "projectPath": "Art/volt3301-Solar"
+  },
+  {
+    "author": "volt3301",
+    "artName": "Star Field",
+    "githubLink": "https://github.com/volt3301",
+    "pageLink": "./Art/volt3301-StarField/index.html",
+    "imageLink": "./Art/volt3301-StarField/icon.png",
+    "projectPath": "Art/volt3301-StarField"
   }
 ]
