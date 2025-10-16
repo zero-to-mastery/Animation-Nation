@@ -1,12 +1,13 @@
 /* Fullscreen centering */
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f5f6fa;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 /* Container to hold the ripple and button */
