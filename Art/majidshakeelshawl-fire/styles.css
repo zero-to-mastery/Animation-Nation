@@ -1,0 +1,77 @@
+/* Fullscreen centering */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e0e0e;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Center container */
+.container {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flame glow beneath button */
+.flame {
+  position: absolute;
+  bottom: -15px;
+  width: 90px;
+  height: 90px;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 190, 70, 0.7) 0%,
+    rgba(255, 115, 0, 0.4) 50%,
+    rgba(255, 0, 0, 0.1) 100%
+  );
+  border-radius: 50%;
+  filter: blur(15px);
+  animation: flicker 1.5s infinite ease-in-out;
+  z-index: 0;
+}
+
+/* Button styling */
+.download-btn {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(135deg, #ff8c00, #ff4500);
+  color: #fff;
+  border: none;
+  padding: 14px 36px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: default;
+  box-shadow: 0 4px 12px rgba(255, 69, 0, 0.3);
+}
+
+/* Flicker effect for flame */
+@keyframes flicker {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.9;
+    filter: blur(15px);
+  }
+  25% {
+    transform: scale(1.05);
+    opacity: 1;
+    filter: blur(12px);
+  }
+  50% {
+    transform: scale(0.95);
+    opacity: 0.8;
+    filter: blur(16px);
+  }
+  75% {
+    transform: scale(1.1);
+    opacity: 0.95;
+    filter: blur(13px);
+  }
+}
