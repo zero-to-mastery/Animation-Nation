@@ -201,6 +201,14 @@
   },
   {
     "author": "IshaaqDaahir",
+    "artName": "lava lamp",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-lava-lamp/index.html",
+    "imageLink": "./Art/IshaaqDaahir-lava-lamp/icon.png",
+    "projectPath": "Art/IshaaqDaahir-lava-lamp"
+  },
+  {
+    "author": "IshaaqDaahir",
     "artName": "moving train",
     "githubLink": "https://github.com/IshaaqDaahir",
     "pageLink": "./Art/IshaaqDaahir-moving-train/index.html",
@@ -637,6 +645,14 @@
     "pageLink": "./Art/majidshakeelshawl-droplet/index.html",
     "imageLink": "./Art/majidshakeelshawl-droplet/icon.png",
     "projectPath": "Art/majidshakeelshawl-droplet"
+  },
+  {
+    "author": "majidshakeelshawl",
+    "artName": "Fire",
+    "githubLink": "https://github.com/majidshakeelshawl",
+    "pageLink": "./Art/majidshakeelshawl-fire/index.html",
+    "imageLink": "./Art/majidshakeelshawl-fire/icon.png",
+    "projectPath": "Art/majidshakeelshawl-fire"
   },
   {
     "author": "majidshakeelshawl",
