@@ -89,7 +89,8 @@ body {
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(-50%, -50%) scale(1);
     box-shadow: 0 0 30px #3b82f6, 0 0 60px #3b82f6;
   }
