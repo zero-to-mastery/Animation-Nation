@@ -1,12 +1,13 @@
 /* Fullscreen centering */
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #0e0e0e;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 /* Center container */
@@ -23,10 +24,12 @@ html, body {
   bottom: -15px;
   width: 90px;
   height: 90px;
-  background: radial-gradient(circle at center,
+  background: radial-gradient(
+    circle at center,
     rgba(255, 190, 70, 0.7) 0%,
     rgba(255, 115, 0, 0.4) 50%,
-    rgba(255, 0, 0, 0.1) 100%);
+    rgba(255, 0, 0, 0.1) 100%
+  );
   border-radius: 50%;
   filter: blur(15px);
   animation: flicker 1.5s infinite ease-in-out;
@@ -50,7 +53,8 @@ html, body {
 
 /* Flicker effect for flame */
 @keyframes flicker {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
     opacity: 0.9;
     filter: blur(15px);
