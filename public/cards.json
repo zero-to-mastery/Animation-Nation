@@ -256,6 +256,14 @@
     "projectPath": "Art/Lemon"
   },
   {
+    "author": "Navdeepsingh4298",
+    "artName": "yin yang",
+    "githubLink": "https://github.com/Navdeepsingh4298",
+    "pageLink": "./Art/Navdeepsingh4298-yin-yang/index.html",
+    "imageLink": "./Art/Navdeepsingh4298-yin-yang/icon.png",
+    "projectPath": "Art/Navdeepsingh4298-yin-yang"
+  },
+  {
     "artName": "Searching",
     "githubLink": "https://github.com/undefined",
     "pageLink": "./Art/Saptarshi1984-searching/index.html",
@@ -421,6 +429,14 @@
     "pageLink": "./Art/cljarvis-goal/index.html",
     "imageLink": "./Art/cljarvis-goal/icon.png",
     "projectPath": "Art/cljarvis-goal"
+  },
+  {
+    "author": "cocoisarobo",
+    "artName": "smiley",
+    "githubLink": "https://github.com/cocoisarobo",
+    "pageLink": "./Art/cocoisarobo-smiley/index.html",
+    "imageLink": "./Art/cocoisarobo-smiley/icon.png",
+    "projectPath": "Art/cocoisarobo-smiley"
   },
   {
     "author": "fab-c14",
@@ -621,6 +637,14 @@
     "pageLink": "./Art/majidshakeelshawl-droplet/index.html",
     "imageLink": "./Art/majidshakeelshawl-droplet/icon.png",
     "projectPath": "Art/majidshakeelshawl-droplet"
+  },
+  {
+    "author": "majidshakeelshawl",
+    "artName": "Fire",
+    "githubLink": "https://github.com/majidshakeelshawl",
+    "pageLink": "./Art/majidshakeelshawl-fire/index.html",
+    "imageLink": "./Art/majidshakeelshawl-fire/icon.png",
+    "projectPath": "Art/majidshakeelshawl-fire"
   },
   {
     "author": "majidshakeelshawl",
