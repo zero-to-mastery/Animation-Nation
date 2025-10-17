@@ -640,6 +640,14 @@
   },
   {
     "author": "majidshakeelshawl",
+    "artName": "Fire",
+    "githubLink": "https://github.com/majidshakeelshawl",
+    "pageLink": "./Art/majidshakeelshawl-fire/index.html",
+    "imageLink": "./Art/majidshakeelshawl-fire/icon.png",
+    "projectPath": "Art/majidshakeelshawl-fire"
+  },
+  {
+    "author": "majidshakeelshawl",
     "artName": "star",
     "githubLink": "https://github.com/majidshakeelshawl",
     "pageLink": "./Art/majidshakeelshawl-star/index.html",
