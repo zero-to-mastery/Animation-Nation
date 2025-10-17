@@ -33,7 +33,6 @@ html {
 }
 
 @keyframes moveSky {
-
   0%,
   100% {
     transform: translateX(0);
@@ -43,7 +42,6 @@ html {
     transform: translateX(-5%);
   }
 }
-
 
 .moon-wrapper {
   position: relative;
@@ -58,13 +56,16 @@ html {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 10%, transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 10%,
+    transparent 70%
+  );
   animation: pulse 4s ease-in-out infinite;
   box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.05);
 }
 
 @keyframes pulse {
-
   0%,
   100% {
     transform: scale(1);
@@ -156,7 +157,6 @@ html {
 }
 
 @keyframes twinkle {
-
   0%,
   100% {
     opacity: 0.2;
@@ -170,7 +170,6 @@ html {
 }
 
 @keyframes lunarPhases {
-
   0% {
     transform: translateX(100px);
   }
