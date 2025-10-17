@@ -201,6 +201,14 @@
   },
   {
     "author": "IshaaqDaahir",
+    "artName": "lava lamp",
+    "githubLink": "https://github.com/IshaaqDaahir",
+    "pageLink": "./Art/IshaaqDaahir-lava-lamp/index.html",
+    "imageLink": "./Art/IshaaqDaahir-lava-lamp/icon.png",
+    "projectPath": "Art/IshaaqDaahir-lava-lamp"
+  },
+  {
+    "author": "IshaaqDaahir",
     "artName": "moving train",
     "githubLink": "https://github.com/IshaaqDaahir",
     "pageLink": "./Art/IshaaqDaahir-moving-train/index.html",
