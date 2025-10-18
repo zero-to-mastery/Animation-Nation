@@ -70,7 +70,7 @@ jobs:
         id: pre-review
         run: |
           PR_NUMBER=${{ github.event.pull_request.number }}
-          REVIEW_MESSAGE=$(node ./generators/preReview.js "$CONTRIBUTOR" "$CHANGED_FILES" "$GITHUB_PERMISSION_ROLE")
+          REVIEW_MESSAGE=$(node ./generators/pre-review/preReview.js "$CONTRIBUTOR" "$CHANGED_FILES" "$GITHUB_PERMISSION_ROLE")
 
           echo "REVIEW_MESSAGE<<EOF" >> $GITHUB_ENV
           echo "$REVIEW_MESSAGE" >> $GITHUB_ENV
