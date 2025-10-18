@@ -4,7 +4,6 @@ const {
   README_LINK_MD,
   CONTRIBUTOR_HANDLER
 } = require('./preReview.constants.js');
-console.log('README_LINK_MD:', README_LINK_MD);
 
 const {
   hasSpace,
