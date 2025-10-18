@@ -1,5 +1,13 @@
 [
   {
+    "author": "AlHamid-dev",
+    "artName": "Moon Eclipsed",
+    "githubLink": "https://github.com/AlHamid-dev",
+    "pageLink": "./Art/AlHamid-dev-moon-eclipsed/index.html",
+    "imageLink": "./Art/AlHamid-dev-moon-eclipsed/icon.png",
+    "projectPath": "Art/AlHamid-dev-moon-eclipsed"
+  },
+  {
     "author": "Annamalai24500",
     "artName": "candle",
     "githubLink": "https://github.com/Annamalai24500",
@@ -190,6 +198,22 @@
     "pageLink": "./Art/Harshalyadav-orbiting-circles/index.html",
     "imageLink": "./Art/Harshalyadav-orbiting-circles/icon.png",
     "projectPath": "Art/Harshalyadav-orbiting-circles"
+  },
+  {
+    "author": "Hitesh-Bhor28",
+    "artName": "pulsing orbit",
+    "githubLink": "https://github.com/Hitesh-Bhor28",
+    "pageLink": "./Art/Hitesh-Bhor28-pulsing-orbit/index.html",
+    "imageLink": "./Art/Hitesh-Bhor28-pulsing-orbit/icon.png",
+    "projectPath": "Art/Hitesh-Bhor28-pulsing-orbit"
+  },
+  {
+    "author": "Hitesh-Bhor28",
+    "artName": "rotating square",
+    "githubLink": "https://github.com/Hitesh-Bhor28",
+    "pageLink": "./Art/Hitesh-Bhor28-rotating-square/index.html",
+    "imageLink": "./Art/Hitesh-Bhor28-rotating-square/icon.png",
+    "projectPath": "Art/Hitesh-Bhor28-rotating-square"
   },
   {
     "author": "IshaaqDaahir",
