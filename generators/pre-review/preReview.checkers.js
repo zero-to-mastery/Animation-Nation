@@ -174,9 +174,11 @@ const checkJSON = (file, fileContent, pushFeedback) => {
   if (!metaKeys.length) return;
 
   // [ CASE ] Gives feedback on extra properties
-  const extraKeys = metaKeys.filter(k => !['githubHandle', 'artName'].includes(k))
+  const extraKeys = metaKeys.filter(
+    (k) => !['githubHandle', 'artName'].includes(k)
+  );
   if (metaKeys.length > 2 || !!extraKeys.length) {
-    const formattedExtraKeysStr = extraKeys.map(k => `\`${k}\``).join(', ')
+    const formattedExtraKeysStr = extraKeys.map((k) => `\`${k}\``).join(', ');
     pushFeedback(
       `Remove extra properties ${formattedExtraKeysStr} — only \`githubHandle\` and \`artName\` should be present`
     );
