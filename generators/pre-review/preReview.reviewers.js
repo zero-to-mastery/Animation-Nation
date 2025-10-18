@@ -1,15 +1,12 @@
-const {
-  EXPECTED_FILE,
-} = require('./preReview.constants')
+const { EXPECTED_FILE } = require('./preReview.constants');
 
 const {
-    hasSpace,
-    isExpectedFileName,
-    doesStartWithArt,
-    createFeedbackList,
-    extractFileExtension
-} = require('./preReview.helpers')
-
+  hasSpace,
+  isExpectedFileName,
+  doesStartWithArt,
+  createFeedbackList,
+  extractFileExtension
+} = require('./preReview.helpers');
 
 /** Review contribution files  */
 const reviewFile = (file, fileContent, checkerFn) => {
@@ -69,105 +66,99 @@ const reviewFileSpecs = (file, fileContent, pushFeedback) => {
   return shouldContinue;
 };
 
-
 const reviewOverallFiles = (contributionStates, pushFeedback) => {
-  const { changedFiles, detailsPerExtension } = contributionStates
+  const { changedFiles, detailsPerExtension } = contributionStates;
   const artFolderFiles = changedFiles.filter(doesStartWithArt);
 
-// [ CASES ] Reviews for unhandled file ( files not html, css. html ) - shortcuts cases - not reviewed
-  const reviewOveralArgs = [ detailsPerExtension, pushFeedback ]
-  reviewOveralForbiddenChanges(...reviewOveralArgs)
-  reviewOveralRejectedFiles(...reviewOveralArgs)
-  reviewOveralSpaceInFileNames(...reviewOveralArgs)
-  reviewOveralPicturalFiles(...reviewOveralArgs)
+  // [ CASES ] Reviews for unhandled file ( files not html, css. html ) - shortcuts cases - not reviewed
+  const reviewOveralArgs = [detailsPerExtension, pushFeedback];
+  reviewOveralForbiddenChanges(...reviewOveralArgs);
+  reviewOveralRejectedFiles(...reviewOveralArgs);
+  reviewOveralSpaceInFileNames(...reviewOveralArgs);
+  reviewOveralPicturalFiles(...reviewOveralArgs);
 
   return artFolderFiles;
-}
-
+};
 
 /** OK - Reviews for forbidden changes */
-function reviewOveralForbiddenChanges(detailsPerExtension, pushFeedback){
-  const messages = detailsPerExtension.forbidden.files.map( f => 
-    `\n\t\t- please remove any changes in \`${f}\``
-  )
+function reviewOveralForbiddenChanges(detailsPerExtension, pushFeedback) {
+  const messages = detailsPerExtension.forbidden.files.map(
+    (f) => `\n\t\t- please remove any changes in \`${f}\``
+  );
 
-  let formattedReviewStr = ''
-  if(messages.length){
-    messages.unshift('Unauthorised changes:')
-    formattedReviewStr = messages.join('')
+  let formattedReviewStr = '';
+  if (messages.length) {
+    messages.unshift('Unauthorised changes:');
+    formattedReviewStr = messages.join('');
   }
 
-  if( formattedReviewStr ){
-    pushFeedback(formattedReviewStr)
+  if (formattedReviewStr) {
+    pushFeedback(formattedReviewStr);
   }
 }
 
 // other file in art than html, css, json
-function reviewOveralRejectedFiles (detailsPerExtension, pushFeedback) {
-  const files = detailsPerExtension.rejected.files
-  const messages = files.map( f => 
-      `\n\t\t- please remove the invalid file \`${f}\``
-    )
+function reviewOveralRejectedFiles(detailsPerExtension, pushFeedback) {
+  const files = detailsPerExtension.rejected.files;
+  const messages = files.map(
+    (f) => `\n\t\t- please remove the invalid file \`${f}\``
+  );
 
-    let formattedReviewStr = ''
-    if(messages.length){
-      messages.unshift('Non-accepted files:')
-      formattedReviewStr = messages.join('')
-    }
+  let formattedReviewStr = '';
+  if (messages.length) {
+    messages.unshift('Non-accepted files:');
+    formattedReviewStr = messages.join('');
+  }
 
-    if( formattedReviewStr ){
-      pushFeedback(formattedReviewStr)
-    }
-
+  if (formattedReviewStr) {
+    pushFeedback(formattedReviewStr);
+  }
 }
 
-function reviewOveralSpaceInFileNames (detailsPerExtension, pushFeedback) {
-  const fileWithSpace = detailsPerExtension.rejected.files.filter(hasSpace)
-  const messages = fileWithSpace.map( f => 
-      `\n\t\t- please remove spaces in \`${f}\``
-    )
+function reviewOveralSpaceInFileNames(detailsPerExtension, pushFeedback) {
+  const fileWithSpace = detailsPerExtension.rejected.files.filter(hasSpace);
+  const messages = fileWithSpace.map(
+    (f) => `\n\t\t- please remove spaces in \`${f}\``
+  );
 
-    let formattedReviewStr = ''
-    if(messages.length){
-      messages.unshift('Space(s) detected in file or folder name(s):')
-      formattedReviewStr = messages.join('')
-    }
+  let formattedReviewStr = '';
+  if (messages.length) {
+    messages.unshift('Space(s) detected in file or folder name(s):');
+    formattedReviewStr = messages.join('');
+  }
 
-    if( formattedReviewStr ){
-      pushFeedback(formattedReviewStr)
-    }
+  if (formattedReviewStr) {
+    pushFeedback(formattedReviewStr);
+  }
 }
 
+function reviewOveralPicturalFiles(detailsPerExtension, pushFeedback) {
+  const picturalFiles = detailsPerExtension.images.files;
 
+  const isOtherThanIcon = (f) => !f.includes('icon');
 
-function reviewOveralPicturalFiles (detailsPerExtension, pushFeedback) {
-  const picturalFiles = detailsPerExtension.images.files
+  const messages = picturalFiles.map((f) => {
+    return isOtherThanIcon(f)
+      ? `\n\t\t- pictures are not allowed, use online ones, please remove \`${f}\``
+      : `\n\t\t- icons are auto-generated after merge, please remove \`${f}\``;
+  });
 
-  const isOtherThanIcon = (f) => !f.includes('icon')
+  let formattedReviewStr = '';
+  if (messages.length) {
+    messages.unshift('Images files detected in contribution:');
+    formattedReviewStr = messages.join('');
+  }
 
-  const messages = picturalFiles.map( f => {
-     return isOtherThanIcon(f)
-        ? `\n\t\t- pictures are not allowed, use online ones, please remove \`${f}\``
-        : `\n\t\t- icons are auto-generated after merge, please remove \`${f}\`` 
-    })
-
-    let formattedReviewStr = ''
-    if(messages.length){
-      messages.unshift('Images files detected in contribution:')
-      formattedReviewStr = messages.join('')
-    }
-
-    if( formattedReviewStr ){
-      pushFeedback(formattedReviewStr)
-    }
+  if (formattedReviewStr) {
+    pushFeedback(formattedReviewStr);
+  }
 }
 
 module.exports = {
-    reviewFile,
-    reviewFileSpecs,
-    reviewOverallFiles,
-}
-
+  reviewFile,
+  reviewFileSpecs,
+  reviewOverallFiles
+};
 
 // // Identifies changed files inside or outside art
 // let changedInOutArtProp = doesStartWithArt(f) ? 'changesInArt' : 'changesOutArt'

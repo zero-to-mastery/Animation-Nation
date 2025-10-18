@@ -3,25 +3,23 @@ const fs = require('node:fs/promises');
 const {
   README_LINK_MD,
   CONTRIBUTOR_HANDLER,
-  PATTERN,
-} = require('./preReview.constants.js')
-
+  PATTERN
+} = require('./preReview.constants.js');
 
 const {
   hasSpace,
   createFeedbackList,
-  getContributionState,
-} = require('./preReview.helpers.js')
+  getContributionState
+} = require('./preReview.helpers.js');
 
 const {
   checkGlobally,
   checkHTML,
   checkCSS,
   checkJSON
-} = require('./preReview.checkers.js')
+} = require('./preReview.checkers.js');
 
-const { reviewFile } = require('./preReview.reviewers.js')
-
+const { reviewFile } = require('./preReview.reviewers.js');
 
 /* -------------------------------------------------------------------------- */
 /*                          Logic Orchestration Items                         */
@@ -30,26 +28,25 @@ const { reviewFile } = require('./preReview.reviewers.js')
 const reviewContribution = async (contributionStates) => {
   let feedbackList = [];
   const pushFeedback = createFeedbackList(feedbackList, 'task');
-  
+
   // Files
   const { changedFiles, detailsPerExtension } = contributionStates;
 
-
-  // Remaining files to process for html, css, json 
+  // Remaining files to process for html, css, json
   const handledFileCases = [
     ...detailsPerExtension.rejected.files,
     ...detailsPerExtension.images.files,
     ...detailsPerExtension.forbidden.files
-  ]
-  const processableFiles = changedFiles.filter(f => {
-    return !handledFileCases.includes(f)
-  })
-  const isRemainingToProcess = f => processableFiles.includes(f)
+  ];
+  const processableFiles = changedFiles.filter((f) => {
+    return !handledFileCases.includes(f);
+  });
+  const isRemainingToProcess = (f) => processableFiles.includes(f);
 
-  
   // Gets valid files (in/out-side Art without spaces in name)
-  const changedFilesWithoutSpace = processableFiles
-    .filter( (filename) => !hasSpace(filename) )
+  const changedFilesWithoutSpace = processableFiles.filter(
+    (filename) => !hasSpace(filename)
+  );
 
   // Iterates through all files for scoped html,css,json file content details checks
   const filesReviews = { html: [], css: [], json: [] };
@@ -64,18 +61,17 @@ const reviewContribution = async (contributionStates) => {
       continue;
     }
 
-
     // [ CASE ] Gives reviews for empty files other than expected one
     if (!fileContent) {
       pushFeedback(`Empty file, add content to your file \`${file}\``);
     }
     // [ CASE ] Gives reviews for scoped html, css, json files
-    else if( isRemainingToProcess(file )){
-      [ checkHTML, checkCSS, checkJSON ].forEach((checkFileFn) => {
+    else if (isRemainingToProcess(file)) {
+      [checkHTML, checkCSS, checkJSON].forEach((checkFileFn) => {
         const extension = checkFileFn.name.replace(/^check/i, '').toLowerCase();
 
-        filesReviews[ extension ] = [
-          ...filesReviews[ extension ],
+        filesReviews[extension] = [
+          ...filesReviews[extension],
           ...(reviewFile(file, fileContent, checkFileFn) || [])
         ];
       });
@@ -111,7 +107,7 @@ const generateReviewMessage = (feedbackList) => {
     messagePush('\n## Feedback');
 
     // Tip message refering to README
-    
+
     messagePush(
       `> [!TIP] \n> _You can refer to ${README_LINK_MD} for additional guidance._`
     );
