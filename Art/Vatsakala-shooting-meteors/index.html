@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Shooting Meteors</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="frame">
+      <div class="scene">
+        <div class="stars"></div>
+        <div class="meteors">
+          <span
+            class="m"
+            style="
+              --i: 0;
+              --sx: -8%;
+              --sy: -12%;
+              --ex: 112%;
+              --ey: 85%;
+              --dur: 7.5s;
+              --delay: 0s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 1;
+              --sx: -12%;
+              --sy: 10%;
+              --ex: 100%;
+              --ey: 100%;
+              --dur: 8s;
+              --delay: -2s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 2;
+              --sx: -6%;
+              --sy: -4%;
+              --ex: 108%;
+              --ey: 90%;
+              --dur: 6.5s;
+              --delay: -3.5s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 3;
+              --sx: -16%;
+              --sy: 22%;
+              --ex: 96%;
+              --ey: 110%;
+              --dur: 9s;
+              --delay: -1.2s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 4;
+              --sx: -20%;
+              --sy: -8%;
+              --ex: 110%;
+              --ey: 92%;
+              --dur: 7.2s;
+              --delay: -4.2s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 5;
+              --sx: -10%;
+              --sy: 6%;
+              --ex: 104%;
+              --ey: 105%;
+              --dur: 8.6s;
+              --delay: -5.6s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 6;
+              --sx: -14%;
+              --sy: -16%;
+              --ex: 116%;
+              --ey: 88%;
+              --dur: 7.8s;
+              --delay: -0.8s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 7;
+              --sx: -18%;
+              --sy: 14%;
+              --ex: 98%;
+              --ey: 108%;
+              --dur: 8.8s;
+              --delay: -6.8s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 8;
+              --sx: -8%;
+              --sy: -10%;
+              --ex: 112%;
+              --ey: 95%;
+              --dur: 6.9s;
+              --delay: -2.8s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 9;
+              --sx: -22%;
+              --sy: 18%;
+              --ex: 96%;
+              --ey: 112%;
+              --dur: 9.4s;
+              --delay: -3.9s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 10;
+              --sx: -12%;
+              --sy: -14%;
+              --ex: 118%;
+              --ey: 90%;
+              --dur: 7.1s;
+              --delay: -1.9s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 11;
+              --sx: -24%;
+              --sy: 8%;
+              --ex: 100%;
+              --ey: 104%;
+              --dur: 8.2s;
+              --delay: -5.1s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 12;
+              --sx: -14%;
+              --sy: -20%;
+              --ex: 120%;
+              --ey: 92%;
+              --dur: 7.4s;
+              --delay: -2.7s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 13;
+              --sx: -26%;
+              --sy: 12%;
+              --ex: 102%;
+              --ey: 110%;
+              --dur: 9.1s;
+              --delay: -4.5s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 14;
+              --sx: -18%;
+              --sy: -6%;
+              --ex: 112%;
+              --ey: 94%;
+              --dur: 8s;
+              --delay: -6.2s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 15;
+              --sx: -22%;
+              --sy: 16%;
+              --ex: 98%;
+              --ey: 108%;
+              --dur: 8.8s;
+              --delay: -1.6s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 16;
+              --sx: -18%;
+              --sy: -20%;
+              --ex: 120%;
+              --ey: 105%;
+              --dur: 7.6s;
+              --delay: -1.5s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 17;
+              --sx: -26%;
+              --sy: 8%;
+              --ex: 100%;
+              --ey: 112%;
+              --dur: 8.8s;
+              --delay: -3.8s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 18;
+              --sx: -30%;
+              --sy: -10%;
+              --ex: 118%;
+              --ey: 108%;
+              --dur: 8.1s;
+              --delay: -5.1s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 19;
+              --sx: -14%;
+              --sy: -22%;
+              --ex: 124%;
+              --ey: 96%;
+              --dur: 7.4s;
+              --delay: -6.2s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 20;
+              --sx: -20%;
+              --sy: 16%;
+              --ex: 98%;
+              --ey: 118%;
+              --dur: 9s;
+              --delay: -2.9s;
+            "
+          ></span>
+          <span
+            class="m"
+            style="
+              --i: 21;
+              --sx: -24%;
+              --sy: -12%;
+              --ex: 110%;
+              --ey: 104%;
+              --dur: 8.3s;
+              --delay: -4.7s;
+            "
+          ></span>
+        </div>
+        <div class="haze"></div>
+      </div>
+    </main>
+  </body>
+</html>
