@@ -1,3 +1,6 @@
+const fs = require('node:fs/promises');
+const path = require('node:path/posix');
+
 const {
   CHANGED_FILES_STR,
   EXISTING_FORBIDDEN,
@@ -61,10 +64,16 @@ const getContributionState = () => {
       if (isForbidden(f) && !IS_MAINTAINER) {
         details.forbidden.count += 1;
         details.forbidden.files.push(f);
-      } else if (doesStartWithArt(f) && f.endsWith('html')) details.html += 1;
-      else if (doesStartWithArt(f) && f.endsWith('css')) details.css += 1;
-      else if (doesStartWithArt(f) && f.endsWith('json')) details.json += 1;
-      else if (PATTERN.extension.images.test(f)) {
+      } else if (doesStartWithArt(f)) {
+        if (f.endsWith('html')) details.html += 1;
+        else if (f.endsWith('css')) details.css += 1;
+        else if (f.endsWith('json')) details.json += 1;
+        const pathFolder = path.parse(f).dir;
+        if (!details.contributionFolders.folders.includes(pathFolder)) {
+          details.contributionFolders.count += 1;
+          details.contributionFolders.folders.push(pathFolder);
+        }
+      } else if (PATTERN.extension.images.test(f)) {
         details.images.count += 1;
         details.images.files.push(f);
       } else {
@@ -78,6 +87,7 @@ const getContributionState = () => {
       html: 0,
       css: 0,
       json: 0,
+      contributionFolders: { count: 0, folders: [] },
       images: { count: 0, files: [] },
       rejected: { count: 0, files: [] },
       forbidden: { count: 0, files: [] }
