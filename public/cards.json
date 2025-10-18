@@ -752,6 +752,14 @@
   },
   {
     "author": "neha2003-git",
+    "artName": "earth",
+    "githubLink": "https://github.com/neha2003-git",
+    "pageLink": "./Art/neha2003-git-earth/index.html",
+    "imageLink": "./Art/neha2003-git-earth/icon.png",
+    "projectPath": "Art/neha2003-git-earth"
+  },
+  {
+    "author": "neha2003-git",
     "artName": "goldfish",
     "githubLink": "https://github.com/neha2003-git",
     "pageLink": "./Art/neha2003-git-goldfish/index.html",
