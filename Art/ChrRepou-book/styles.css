@@ -1,0 +1,130 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #333;
+  font-family: sans-serif;
+}
+
+.book-container {
+  perspective: 1200px;
+}
+
+.book {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: left center;
+  transform-style: preserve-3d;
+}
+
+.page-front,
+.page-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  backface-visibility: hidden;
+}
+
+.author {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.page-back {
+  background-color: #e8e8e8;
+  transform: rotateY(180deg);
+}
+
+.page-1 .page-front {
+  background-color: #8b4513;
+  color: #fff;
+  border: 2px solid #5a2d0c;
+}
+
+.page-3 .page-back {
+  background-color: #8b4513;
+  color: #fff;
+  border: 2px solid #5a2d0c;
+}
+
+@keyframes turn-page-1 {
+  0%,
+  100% {
+    transform: rotateY(0deg);
+    z-index: 3;
+  }
+  15%,
+  85% {
+    transform: rotateY(-180deg);
+    z-index: 1;
+  }
+}
+
+@keyframes turn-page-2 {
+  0%,
+  15% {
+    transform: rotateY(0deg);
+    z-index: 2;
+  }
+  30%,
+  70% {
+    transform: rotateY(-180deg);
+    z-index: 2;
+  }
+  85%,
+  100% {
+    transform: rotateY(0deg);
+    z-index: 2;
+  }
+}
+
+@keyframes turn-page-3 {
+  0%,
+  30% {
+    transform: rotateY(0deg);
+    z-index: 1;
+  }
+  45%,
+  55% {
+    transform: rotateY(-180deg);
+    z-index: 3;
+  }
+  70%,
+  100% {
+    transform: rotateY(0deg);
+    z-index: 1;
+  }
+}
+
+.page-1 {
+  animation: turn-page-1 15s infinite;
+  animation-delay: 1s;
+}
+.page-2 {
+  animation: turn-page-2 15s infinite;
+  animation-delay: 1s;
+}
+.page-3 {
+  animation: turn-page-3 15s infinite;
+  animation-delay: 1s;
+}

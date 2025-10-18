@@ -1,0 +1,139 @@
+name: PR Pre-review
+
+on:
+  pull_request_target:
+    branches: [ master ]
+    types: [opened, synchronize, reopened, closed]
+  pull_request_review:
+    types: [submitted]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  SKIP_REST: false
+
+jobs:
+  pre-review:
+    if: github.event_name == 'pull_request_target' && github.event.action != 'closed'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 50
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Fetch master branch
+        run: git fetch origin master
+
+      - name: Collect information
+        run: |
+          echo "Setting environment variables for preReview.js"
+          setEnv() { echo "$1=${!1}" >> $GITHUB_ENV; }
+
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          setEnv "PR_NUMBER"
+
+          CONTRIBUTOR=${{ github.event.pull_request.user.login }}
+          setEnv "CONTRIBUTOR"
+          echo "Contributor github handle: $CONTRIBUTOR"
+
+          BASE_REPO=${{ github.event.pull_request.base.repo.full_name }}
+          setEnv "BASE_REPO"
+
+          HEAD_REF=${{ github.event.pull_request.head.ref }}
+          setEnv "HEAD_REF"
+
+          git fetch origin ${{ github.event.pull_request.base.ref }}
+          MERGE_BASE=$(git merge-base origin/${{ github.event.pull_request.base.ref }} HEAD)
+          setEnv "MERGE_BASE"
+
+          CHANGED_FILES=$(gh pr view $PR_NUMBER -R "$BASE_REPO" --json files -q '.files[].path')
+          echo "CHANGED_FILES<<EOF" >> $GITHUB_ENV
+          printf '%s\n' "$CHANGED_FILES" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+          GITHUB_PERMISSION_ROLE=$(gh api "repos/$BASE_REPO/collaborators/$CONTRIBUTOR/permission" -q '.role_name' 2>/dev/null || echo 'unknown')
+          setEnv "GITHUB_PERMISSION_ROLE"
+
+      - name: Run "preReview" script
+        id: pre-review
+        run: |
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          REVIEW_MESSAGE=$(node ./generators/pre-review/preReview.js "$CONTRIBUTOR" "$CHANGED_FILES" "$GITHUB_PERMISSION_ROLE")
+
+          echo "REVIEW_MESSAGE<<EOF" >> $GITHUB_ENV
+          echo "$REVIEW_MESSAGE" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+          echo "===== REVIEW_MESSAGE ====="
+          echo "$REVIEW_MESSAGE"
+          echo "=========================="
+
+          echo "Submit review comment"
+          gh pr comment "$PR_NUMBER" --body "$REVIEW_MESSAGE" -R "${{ github.event.pull_request.base.repo.full_name }}"
+
+          echo "Handle 'Changes Requested' label and contributor assignment"
+          CURRENT_MONTH=$(date +%m)
+
+          if echo "$REVIEW_MESSAGE" | grep -q '\- \[ \]'; then
+            if [[ "$GITHUB_PERMISSION_ROLE" != "unknown" ]]; then
+              echo "Assigning contributor: $CONTRIBUTOR"
+              gh pr edit "$PR_NUMBER" --add-assignee "$CONTRIBUTOR" -R "${{ github.event.pull_request.base.repo.full_name }}" || true
+            else
+              echo "Contributor $CONTRIBUTOR is not a collaborator — skipping assignment"
+            fi
+
+            gh pr edit "$PR_NUMBER" --add-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
+            gh pr edit "$PR_NUMBER" --remove-label "Awaiting Maintainer Validation" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          else
+            gh pr edit "$PR_NUMBER" --add-label "Awaiting Maintainer Validation" -R "${{ github.event.pull_request.base.repo.full_name }}"
+            gh pr edit "$PR_NUMBER" --remove-label "Changes Requested" -R "${{ github.event.pull_request.base.repo.full_name }}"
+
+            if [[ "$CURRENT_MONTH" == "10" ]]; then
+              echo "Adding 'hacktoberfest-accepted' as no review detected"
+              gh pr edit "$PR_NUMBER" --add-label "hacktoberfest-accepted" -R "${{ github.event.pull_request.base.repo.full_name }}"
+            fi
+          fi
+
+          echo "Handle 'invalid' label"
+          if echo "$REVIEW_MESSAGE" | grep -q -Eqi 'empty file'; then
+            gh pr edit "$PR_NUMBER" --add-label "invalid" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          else
+            gh pr edit "$PR_NUMBER" --remove-label "invalid" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          fi
+
+          echo "Handle 'Conflict present' label"
+          if echo "$REVIEW_MESSAGE" | grep -q -Eqi '/icon'; then
+            gh pr edit "$PR_NUMBER" --add-label "Conflict present" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          else
+            gh pr edit "$PR_NUMBER" --remove-label "Conflict present" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          fi
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  remove-awaiting-on-merge:
+    if: github.event_name == 'pull_request_target' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove 'Awaiting Maintainer Validation' on merged PR
+        run: |
+          if [ "${{ github.event.pull_request.merged }}" == "true" ]; then
+            echo "PR merged — removing 'Awaiting Maintainer Validation' label"
+            gh pr edit ${{ github.event.pull_request.number }} --remove-label "Awaiting Maintainer Validation" -R "${{ github.event.pull_request.base.repo.full_name }}"
+          else
+            echo "PR closed but not merged — skipping label removal"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

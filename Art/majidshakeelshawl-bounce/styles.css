@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f6fa;
+  font-family: 'Inter', sans-serif;
+}
+
+.download-btn {
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  padding: 14px 36px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: default;
+  animation: bounce 2s ease-in-out infinite;
+  box-shadow: 0 4px 10px rgba(45, 137, 239, 0.2);
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

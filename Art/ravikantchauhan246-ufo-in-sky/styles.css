@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #0a0e27 0%,
+    #1a1f3a 30%,
+    #2d1b4e 60%,
+    #1a0933 100%
+  );
+  overflow: hidden;
+  position: relative;
+}
+
+/* Stars */
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 3s ease-in-out infinite;
+}
+
+.star1 {
+  width: 2px;
+  height: 2px;
+  top: 10%;
+  left: 20%;
+  animation-delay: 0s;
+}
+.star2 {
+  width: 3px;
+  height: 3px;
+  top: 20%;
+  left: 60%;
+  animation-delay: 0.5s;
+}
+.star3 {
+  width: 2px;
+  height: 2px;
+  top: 15%;
+  left: 80%;
+  animation-delay: 1s;
+}
+.star4 {
+  width: 3px;
+  height: 3px;
+  top: 30%;
+  left: 40%;
+  animation-delay: 1.5s;
+}
+.star5 {
+  width: 2px;
+  height: 2px;
+  top: 25%;
+  left: 90%;
+  animation-delay: 2s;
+}
+.star6 {
+  width: 3px;
+  height: 3px;
+  top: 35%;
+  left: 10%;
+  animation-delay: 2.5s;
+}
+
+/* Clouds */
+.cloud {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  opacity: 0.6;
+  animation: cloudFloat 20s linear infinite;
+}
+
+.cloud::before,
+.cloud::after {
+  content: '';
+  position: absolute;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+}
+
+.cloud1 {
+  width: 100px;
+  height: 40px;
+  top: 15%;
+  left: -150px;
+  animation-duration: 25s;
+}
+.cloud1::before {
+  width: 50px;
+  height: 40px;
+  top: -20px;
+  left: 20px;
+}
+.cloud1::after {
+  width: 70px;
+  height: 30px;
+  top: -10px;
+  right: 10px;
+}
+
+.cloud2 {
+  width: 120px;
+  height: 45px;
+  top: 25%;
+  left: -200px;
+  animation-duration: 30s;
+  animation-delay: -5s;
+}
+.cloud2::before {
+  width: 60px;
+  height: 45px;
+  top: -22px;
+  left: 25px;
+}
+.cloud2::after {
+  width: 80px;
+  height: 35px;
+  top: -12px;
+  right: 15px;
+}
+
+.cloud3 {
+  width: 90px;
+  height: 35px;
+  top: 40%;
+  left: -180px;
+  animation-duration: 28s;
+  animation-delay: -10s;
+}
+.cloud3::before {
+  width: 45px;
+  height: 35px;
+  top: -18px;
+  left: 18px;
+}
+.cloud3::after {
+  width: 60px;
+  height: 28px;
+  top: -10px;
+  right: 12px;
+}
+
+.cloud4 {
+  width: 110px;
+  height: 42px;
+  top: 55%;
+  left: -220px;
+  animation-duration: 32s;
+  animation-delay: -15s;
+}
+.cloud4::before {
+  width: 55px;
+  height: 42px;
+  top: -20px;
+  left: 22px;
+}
+.cloud4::after {
+  width: 75px;
+  height: 32px;
+  top: -11px;
+  right: 14px;
+}
+
+.cloud5 {
+  width: 95px;
+  height: 38px;
+  top: 35%;
+  left: -190px;
+  animation-duration: 27s;
+  animation-delay: -20s;
+}
+.cloud5::before {
+  width: 48px;
+  height: 38px;
+  top: -19px;
+  left: 20px;
+}
+.cloud5::after {
+  width: 65px;
+  height: 30px;
+  top: -10px;
+  right: 13px;
+}
+
+/* UFO Container */
+.ufo-container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ufoFly 10s ease-in-out infinite;
+}
+
+/* UFO */
+.ufo {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  animation: ufoHover 3s ease-in-out infinite;
+  filter: drop-shadow(0 20px 30px rgba(0, 255, 200, 0.3));
+}
+
+/* Dome (Top Part) */
+.dome {
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  background: radial-gradient(
+    ellipse at center top,
+    rgba(0, 255, 200, 0.8) 0%,
+    rgba(0, 200, 150, 0.6) 40%,
+    rgba(0, 150, 100, 0.4) 100%
+  );
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  top: 0;
+  left: 60px;
+  box-shadow: inset 0 -10px 20px rgba(0, 255, 200, 0.4),
+    inset 0 5px 15px rgba(255, 255, 255, 0.5), 0 0 30px rgba(0, 255, 200, 0.6);
+  animation: domeGlow 2s ease-in-out infinite;
+}
+
+/* Saucer (Bottom Disc) */
+.saucer {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(
+    to bottom,
+    #b0b0b0 0%,
+    #808080 30%,
+    #606060 60%,
+    #404040 100%
+  );
+  border-radius: 50% / 40%;
+  top: 35px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5),
+    inset 0 5px 20px rgba(255, 255, 255, 0.3),
+    inset 0 -5px 20px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 255, 200, 0.4);
+  position: relative;
+  overflow: visible;
+}
+
+.saucer::before {
+  content: '';
+  position: absolute;
+  width: 180px;
+  height: 8px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(0, 255, 200, 0.6) 20%,
+    rgba(0, 255, 200, 0.8) 50%,
+    rgba(0, 255, 200, 0.6) 80%,
+    transparent
+  );
+  border-radius: 50%;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.8);
+}
+
+/* Lights Around Saucer */
+.light {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: radial-gradient(circle, #ffff00, #ff6600);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 0 15px rgba(255, 200, 0, 0.9), 0 0 30px rgba(255, 100, 0, 0.6);
+  animation: lightBlink 1s ease-in-out infinite;
+}
+
+.light1 {
+  left: 10px;
+  animation-delay: 0s;
+}
+.light2 {
+  left: 50px;
+  animation-delay: 0.2s;
+}
+.light3 {
+  left: 94px;
+  animation-delay: 0.4s;
+}
+.light4 {
+  left: 138px;
+  animation-delay: 0.6s;
+}
+.light5 {
+  left: 178px;
+  animation-delay: 0.8s;
+}
+
+/* Beam */
+.beam {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-top: 200px solid rgba(150, 255, 200, 0.3);
+  top: 75px;
+  left: 20px;
+  filter: blur(8px);
+  animation: beamPulse 3s ease-in-out infinite;
+  opacity: 0.7;
+}
+
+/* UFO Animations */
+@keyframes ufoFly {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) translateX(-150px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(150px);
+  }
+}
+
+@keyframes ufoHover {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-3deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(3deg);
+  }
+}
+
+@keyframes domeGlow {
+  0%,
+  100% {
+    box-shadow: inset 0 -10px 20px rgba(0, 255, 200, 0.4),
+      inset 0 5px 15px rgba(255, 255, 255, 0.5), 0 0 30px rgba(0, 255, 200, 0.6);
+  }
+  50% {
+    box-shadow: inset 0 -10px 20px rgba(0, 255, 200, 0.6),
+      inset 0 5px 15px rgba(255, 255, 255, 0.7), 0 0 50px rgba(0, 255, 200, 0.9);
+  }
+}
+
+@keyframes lightBlink {
+  0%,
+  100% {
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    transform: translateY(-50%) scale(0.8);
+  }
+}
+
+@keyframes beamPulse {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scaleY(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scaleY(1.1);
+  }
+}
+
+@keyframes cloudFloat {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(100vw + 250px));
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+}

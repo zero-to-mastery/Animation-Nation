@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #87ceeb;
+  overflow: hidden;
+}
+.balloon {
+  width: 40px;
+  height: 60px;
+  background: red;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  animation: rise 5s infinite linear, sway 2s infinite alternate;
+}
+@keyframes rise {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 100%;
+  }
+}
+@keyframes sway {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}

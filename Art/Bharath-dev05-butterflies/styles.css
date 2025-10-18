@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(#87ceeb, #fdfdfd);
+  overflow: hidden;
+}
+
+.butterfly {
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  animation: fly 14s linear infinite;
+}
+
+.wing {
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  border-radius: 60% 80% 60% 80%;
+  transform-origin: right center;
+  animation: flap 0.6s ease-in-out infinite;
+}
+
+.wing.right {
+  left: 60px;
+  transform-origin: left center;
+}
+
+.body {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  width: 20px;
+  height: 80px;
+  margin-left: -10px;
+  background: #2d3436;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.antenna {
+  position: absolute;
+  top: -20px;
+  width: 2px;
+  height: 20px;
+  background: #2d3436;
+}
+.antenna.left {
+  left: 40%;
+  transform: rotate(-20deg);
+}
+.antenna.right {
+  right: 40%;
+  transform: rotate(20deg);
+}
+
+@keyframes flap {
+  0%,
+  100% {
+    transform: rotateY(0deg) scaleY(1);
+  }
+  50% {
+    transform: rotateY(50deg) scaleY(1.05);
+  }
+}
+
+@keyframes fly {
+  0% {
+    top: 70%;
+    left: -150px;
+    transform: scale(0.8) rotate(0deg);
+  }
+  25% {
+    top: 30%;
+    left: 25%;
+    transform: scale(0.9) rotate(-10deg);
+  }
+  50% {
+    top: 50%;
+    left: 50%;
+    transform: scale(1) rotate(10deg);
+  }
+  75% {
+    top: 20%;
+    left: 75%;
+    transform: scale(0.9) rotate(-5deg);
+  }
+  100% {
+    top: 70%;
+    left: 110%;
+    transform: scale(0.8) rotate(0deg);
+  }
+}
+
+.pink .wing.left {
+  background: radial-gradient(circle at 30% 30%, #ff9ff3, #e84393);
+}
+.pink .wing.right {
+  background: radial-gradient(circle at 70% 30%, #74b9ff, #0984e3);
+}
+
+.orange .wing.left {
+  background: radial-gradient(circle at 30% 30%, #ffeaa7, #fdcb6e);
+}
+.orange .wing.right {
+  background: radial-gradient(circle at 70% 30%, #fab1a0, #e17055);
+}
+
+.green .wing.left {
+  background: radial-gradient(circle at 30% 30%, #55efc4, #00b894);
+}
+.green .wing.right {
+  background: radial-gradient(circle at 70% 30%, #81ecec, #00cec9);
+}
+
+.purple .wing.left {
+  background: radial-gradient(circle at 30% 30%, #a29bfe, #6c5ce7);
+}
+.purple .wing.right {
+  background: radial-gradient(circle at 70% 30%, #dfe6e9, #636e72);
+}
+
+.yellow .wing.left {
+  background: radial-gradient(circle at 30% 30%, #ffeaa7, #fdcb6e);
+}
+.yellow .wing.right {
+  background: radial-gradient(circle at 70% 30%, #ffeaa7, #e1b12c);
+}
