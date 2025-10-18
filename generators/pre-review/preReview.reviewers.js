@@ -1,4 +1,4 @@
-const { EXPECTED_FILE } = require('./preReview.constants');
+const { EXPECTED_FILE, IS_MAINTAINER } = require('./preReview.constants');
 
 const {
   hasSpace,
@@ -28,7 +28,8 @@ const reviewFile = (file, fileContent, checkerFn) => {
   return feedbackList;
 };
 
-/* --------------------------- Feedback checkers --------------------------- */
+
+/* ---------------- Feedback review helpers - individual file --------------- */
 
 /** Gives feedback on empty files if necessary and returns if has empty file  */
 const reviewEmptyFileFeedback = (file, fileContent, pushFeedbackFn) => {
@@ -39,6 +40,8 @@ const reviewEmptyFileFeedback = (file, fileContent, pushFeedbackFn) => {
   return isEmpty;
 };
 
+
+/** Gives feedback on file name not correctly as expected  */
 const reviewExpectedFileFeedback = (file, extectedFile, pushFeedbackFn) => {
   const isCorrectFileName = isExpectedFileName(file, extectedFile);
   if (!isCorrectFileName) {
@@ -49,6 +52,10 @@ const reviewExpectedFileFeedback = (file, extectedFile, pushFeedbackFn) => {
   return isCorrectFileName;
 };
 
+
+/* ----------------- Feedback review main - individual file ----------------- */
+
+/** Gives feedback common specs (filename, empty files, ...)*/
 const reviewFileSpecs = (file, fileContent, pushFeedback) => {
   // [ CASE ] Gives feedback on expected and incorrect file name
   const fileExtension = extractFileExtension(file);
@@ -66,22 +73,63 @@ const reviewFileSpecs = (file, fileContent, pushFeedback) => {
   return shouldContinue;
 };
 
-const reviewOverallFiles = (contributionStates, pushFeedback) => {
-  const { changedFiles, detailsPerExtension } = contributionStates;
-  const artFolderFiles = changedFiles.filter(doesStartWithArt);
+/* ----------------- Feedback review helpers - folder level ----------------- */
 
-  // [ CASES ] Reviews for unhandled file ( files not html, css. html ) - shortcuts cases - not reviewed
-  const reviewOveralArgs = [detailsPerExtension, pushFeedback];
-  reviewOveralForbiddenChanges(...reviewOveralArgs);
-  reviewOveralRejectedFiles(...reviewOveralArgs);
-  reviewOveralSpaceInFileNames(...reviewOveralArgs);
-  reviewOveralPicturalFiles(...reviewOveralArgs);
+/** Gives feedback for folder contribution missing files */
+const reviewOveralFolders = (contributionStates, pushFeedback) => {
+  const { changedFiles, detailsPerExtension } = contributionStates
+  const { count, folders } = detailsPerExtension.contributionFolders
 
-  return artFolderFiles;
-};
+  const expectedExtensions = ['html', 'css', 'json']
 
-/** OK - Reviews for forbidden changes */
-function reviewOveralForbiddenChanges(detailsPerExtension, pushFeedback) {
+
+  // Organises files per folders
+  const splittedChangesPerFolders = folders.map( folderName => {
+    const folderFiles = []
+    const missings = []
+
+    // Pushes files to corresponding folder
+    for( let file of changedFiles ){
+      if(file.includes(folderName)) folderFiles.push(file)
+    }
+
+    for( let ext of expectedExtensions ){
+      if( !folderFiles.toString().includes(ext)){
+        missings.push(ext)
+      }
+    }
+    return {
+      name: folderName,
+      files: folderFiles,
+      missings
+    }
+  })
+
+  // Message processing
+  const incompleteFolders = splittedChangesPerFolders.filter( details => !!details.missings.length)
+  if(!!incompleteFolders.length ){
+
+    const messages = incompleteFolders.map((folder) => {
+      const accordedFileText = folder.missings.length > 1 ? 'files' : 'file'
+      const extensionsText = folder.missings.map(ext => `\`${ext}\``).join(', ')
+      return `\n\t\t- please add the missing ${extensionsText} ${accordedFileText} in the folder \`${folder.name}\``
+    });
+  
+    let formattedReviewStr = '';
+    if (messages.length) {
+      messages.unshift(`Missing in ${incompleteFolders.length} of the ${count} contributions folders`);
+      formattedReviewStr = messages.join('');
+    }
+  
+    if (formattedReviewStr) {
+      pushFeedback(formattedReviewStr);
+    }
+  }
+}
+
+
+/** Gives feedback on forbidden changes (any changes outside Art/ folder) */
+const reviewOveralForbiddenChanges = (detailsPerExtension, pushFeedback) => {
   const messages = detailsPerExtension.forbidden.files.map(
     (f) => `\n\t\t- please remove any changes in \`${f}\``
   );
@@ -97,25 +145,28 @@ function reviewOveralForbiddenChanges(detailsPerExtension, pushFeedback) {
   }
 }
 
-// other file in art than html, css, json
-function reviewOveralRejectedFiles(detailsPerExtension, pushFeedback) {
+/** Gives feedback rejected files (files with un-scoped extension and is not image ) */
+const reviewOveralRejectedFiles = (detailsPerExtension, pushFeedback) => {
   const files = detailsPerExtension.rejected.files;
-  const messages = files.map(
-    (f) => `\n\t\t- please remove the invalid file \`${f}\``
-  );
-
-  let formattedReviewStr = '';
-  if (messages.length) {
-    messages.unshift('Non-accepted files:');
-    formattedReviewStr = messages.join('');
-  }
-
-  if (formattedReviewStr) {
-    pushFeedback(formattedReviewStr);
+  if(!IS_MAINTAINER){
+    const messages = files.map(
+      (f) => `\n\t\t- please remove the invalid file \`${f}\``
+    );
+  
+    let formattedReviewStr = '';
+    if (messages.length) {
+      messages.unshift('Non-accepted files:');
+      formattedReviewStr = messages.join('');
+    }
+  
+    if (formattedReviewStr) {
+      pushFeedback(formattedReviewStr);
+    }
   }
 }
 
-function reviewOveralSpaceInFileNames(detailsPerExtension, pushFeedback) {
+/** Gives feedback on contribution containing space in folder / file names */
+const reviewOveralSpaceInFileNames = (detailsPerExtension, pushFeedback) => {
   const fileWithSpace = detailsPerExtension.rejected.files.filter(hasSpace);
   const messages = fileWithSpace.map(
     (f) => `\n\t\t- please remove spaces in \`${f}\``
@@ -132,7 +183,8 @@ function reviewOveralSpaceInFileNames(detailsPerExtension, pushFeedback) {
   }
 }
 
-function reviewOveralPicturalFiles(detailsPerExtension, pushFeedback) {
+/** Gives feedback on contribution containing any pictural file */
+const reviewOveralPicturalFiles = (detailsPerExtension, pushFeedback) => {
   const picturalFiles = detailsPerExtension.images.files;
 
   const isOtherThanIcon = (f) => !f.includes('icon');
@@ -153,6 +205,27 @@ function reviewOveralPicturalFiles(detailsPerExtension, pushFeedback) {
     pushFeedback(formattedReviewStr);
   }
 }
+
+
+
+
+
+/* ---------------------------------- MAIN ---------------------------------- */
+
+const reviewOverallFiles = (contributionStates, pushFeedback) => {
+  const { changedFiles, detailsPerExtension } = contributionStates;
+  const artFolderFiles = changedFiles.filter(doesStartWithArt);
+
+  // [ CASES ] Reviews for unhandled file ( files not html, css. html ) - shortcuts cases - not reviewed
+  const reviewOveralArgs = [detailsPerExtension, pushFeedback];
+  reviewOveralFolders(contributionStates, pushFeedback)
+  reviewOveralForbiddenChanges(...reviewOveralArgs);
+  reviewOveralRejectedFiles(...reviewOveralArgs);
+  reviewOveralSpaceInFileNames(...reviewOveralArgs);
+  reviewOveralPicturalFiles(...reviewOveralArgs);
+
+  return artFolderFiles;
+};
 
 module.exports = {
   reviewFile,
