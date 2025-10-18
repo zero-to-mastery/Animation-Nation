@@ -7,8 +7,6 @@ const IS_MAINTAINER = ['admin', 'maintain'].includes(
   process.env?.GITHUB_PERMISSION_ROLE || ''
 );
 
-
-
 /** Unauthorised folders and files changes ( compared using startsWith on file path)  */
 const EXISTING_FORBIDDEN = [
   '.github/',
@@ -17,7 +15,7 @@ const EXISTING_FORBIDDEN = [
   'index.html',
   'index.html',
   'package.json',
-  'package-lock.json',
+  'package-lock.json'
 ];
 
 /** Required file in Art folder */
@@ -27,9 +25,9 @@ const EXPECTED_FILE = {
   json: 'meta.json'
 };
 
-const README_LINK_MD = '[README.md](https://github.com/zero-to-mastery/Animation-Nation/blob/master/README.md)';
-const EXPECTED_FILE_COUNT = Object.keys(EXPECTED_FILE).length
-
+const README_LINK_MD =
+  '[README.md](https://github.com/zero-to-mastery/Animation-Nation/blob/master/README.md)';
+const EXPECTED_FILE_COUNT = Object.keys(EXPECTED_FILE).length;
 
 /** Patterns helper for checks */
 const PATTERN = {
@@ -45,8 +43,8 @@ const PATTERN = {
     fonts: /\.(ttf|woff|otf|eot)$/
   },
   handleExceptions: {
-    js: /\.js$/,
-    // pictural: 
+    js: /\.js$/
+    // pictural:
   },
   html: {
     scriptTag: /<script\b[^>]*>/i,
@@ -63,7 +61,6 @@ const PATTERN = {
   }
 };
 
-
 module.exports = {
   CONTRIBUTOR_HANDLER,
   CHANGED_FILES_STR,
@@ -71,5 +68,5 @@ module.exports = {
   EXISTING_FORBIDDEN,
   EXPECTED_FILE,
   EXPECTED_FILE_COUNT,
-  PATTERN,
-}
+  PATTERN
+};

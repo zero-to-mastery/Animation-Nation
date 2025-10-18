@@ -1,10 +1,9 @@
-
 const {
   CHANGED_FILES_STR,
   EXISTING_FORBIDDEN,
   IS_MAINTAINER,
-  PATTERN,
-} = require('./preReview.constants.js')
+  PATTERN
+} = require('./preReview.constants.js');
 
 /* ------------------------------- Predicates ------------------------------- */
 
@@ -13,7 +12,8 @@ const isValidFolderName = (f) => PATTERN.folderUsername.test(f);
 const isExpectedFileName = (filename, expectedFilename) =>
   filename.endsWith(expectedFilename);
 const hasSpace = (f) => /\s/g.test(f);
-const isForbidden = f => EXISTING_FORBIDDEN.some(forbidden => f.startsWith(forbidden))
+const isForbidden = (f) =>
+  EXISTING_FORBIDDEN.some((forbidden) => f.startsWith(forbidden));
 /* -------------------------------------------------------------------------- */
 /*                                   Helpers                                  */
 /* -------------------------------------------------------------------------- */
@@ -39,7 +39,6 @@ const getContributionState = () => {
   /** All changed files detected */
   const changedFiles = CHANGED_FILES_STR.split('\n') || [];
 
-
   /** Separates all changed files to "incorrectFiles" or "correctFiles"
    * - "correctFiles": file paths matching requirements - to skip
    * - "incorrectFiles": file paths not matching requirements - to review
@@ -57,33 +56,33 @@ const getContributionState = () => {
   );
 
   // Count status on all changed files ( inside / outside Art )
-  const detailsPerExtension = changedFiles.reduce((details, f) => {
+  const detailsPerExtension = changedFiles.reduce(
+    (details, f) => {
+      if (isForbidden(f) && !IS_MAINTAINER) {
+        details.forbidden.count += 1;
+        details.forbidden.files.push(f);
+      } else if (doesStartWithArt(f) && f.endsWith('html')) details.html += 1;
+      else if (doesStartWithArt(f) && f.endsWith('css')) details.css += 1;
+      else if (doesStartWithArt(f) && f.endsWith('json')) details.json += 1;
+      else if (PATTERN.extension.images.test(f)) {
+        details.images.count += 1;
+        details.images.files.push(f);
+      } else {
+        details.rejected.count += 1;
+        details.rejected.files.push(f);
+      }
 
-    if (isForbidden(f) && !IS_MAINTAINER){
-      details.forbidden.count += 1
-      details.forbidden.files.push(f)
+      return details;
+    },
+    {
+      html: 0, // TODO: handling mutliples "valid" files for checks
+      css: 0, // TODO: handling mutliples "valid" files for checks
+      json: 0, // TODO: handling mutliples "valid" files for checks
+      images: { count: 0, files: [] },
+      rejected: { count: 0, files: [] }, // TODO: rename as rejected
+      forbidden: { count: 0, files: [] }
     }
-    else if (doesStartWithArt(f) && f.endsWith('html')) details.html += 1
-    else if (doesStartWithArt(f) && f.endsWith('css')) details.css += 1
-    else if (doesStartWithArt(f) && f.endsWith('json')) details.json += 1
-    else if (PATTERN.extension.images.test(f)){
-      details.images.count += 1
-      details.images.files.push(f)
-    }
-    else {
-      details.rejected.count += 1
-      details.rejected.files.push(f)
-    }
-    
-    return details
-  }, {
-    html: 0,    // TODO: handling mutliples "valid" files for checks
-    css: 0,     // TODO: handling mutliples "valid" files for checks 
-    json: 0,    // TODO: handling mutliples "valid" files for checks 
-    images: { count: 0 , files: []},
-    rejected: { count: 0, files: []}, // TODO: rename as rejected
-    forbidden: { count: 0, files: []}
-  })
+  );
 
   const state = {
     changedFiles,
@@ -93,7 +92,6 @@ const getContributionState = () => {
   return state;
 };
 
-
 module.exports = {
   doesStartWithArt,
   isValidFolderName,
@@ -102,11 +100,10 @@ module.exports = {
   isForbidden,
   extractFileExtension,
   createFeedbackList,
-  getContributionState,
-}
+  getContributionState
+};
 
-
-    //    // Identifies changed files inside or outside art
-    // let changedInOutArtProp = doesStartWithArt(f) ? 'changesInArt' : 'changesOutArt'
-    // details[changedInOutArtProp].count += 1
-    // details[changedInOutArtProp].files.push(f)
+//    // Identifies changed files inside or outside art
+// let changedInOutArtProp = doesStartWithArt(f) ? 'changesInArt' : 'changesOutArt'
+// details[changedInOutArtProp].count += 1
+// details[changedInOutArtProp].files.push(f)
