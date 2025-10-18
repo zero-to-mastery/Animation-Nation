@@ -75,11 +75,11 @@ const getContributionState = () => {
       return details;
     },
     {
-      html: 0, // TODO: handling mutliples "valid" files for checks
-      css: 0, // TODO: handling mutliples "valid" files for checks
-      json: 0, // TODO: handling mutliples "valid" files for checks
+      html: 0,
+      css: 0,
+      json: 0,
       images: { count: 0, files: [] },
-      rejected: { count: 0, files: [] }, // TODO: rename as rejected
+      rejected: { count: 0, files: [] },
       forbidden: { count: 0, files: [] }
     }
   );
@@ -102,8 +102,3 @@ module.exports = {
   createFeedbackList,
   getContributionState
 };
-
-//    // Identifies changed files inside or outside art
-// let changedInOutArtProp = doesStartWithArt(f) ? 'changesInArt' : 'changesOutArt'
-// details[changedInOutArtProp].count += 1
-// details[changedInOutArtProp].files.push(f)

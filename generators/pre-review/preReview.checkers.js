@@ -41,7 +41,6 @@ const checkGlobally = (contributionStates) => {
    *  - For Any non maintainers' contributions
    *  - For maintainers participating as contributors
    * */
-  // const artFolderFiles = reviewOverallFiles(contributionStates, pushFeedback);
   reviewOverallFiles(contributionStates, pushFeedback);
 
   /** [ CASE ] Gives feedback on incorrect folder name */
