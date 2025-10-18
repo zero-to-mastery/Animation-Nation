@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+}
+
+.moon-loader {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #1a002b, #3a0a4d);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* animated sky */
+.sky {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(ellipse at bottom, #32183d 0%, #0a0011 100%);
+  animation: moveSky 20s ease-in-out infinite;
+  z-index: 0;
+}
+
+@keyframes moveSky {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-5%);
+  }
+}
+
+.moon-wrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+}
+
+/*  moon aura */
+.aura {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 10%,
+    transparent 70%
+  );
+  animation: pulse 4s ease-in-out infinite;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.05);
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.6;
+  }
+}
+
+/* moon */
+.moon {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 25px #ffffff88;
+}
+
+.shadow {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: black;
+  opacity: 0.5;
+  animation: lunarPhases 15s linear infinite;
+}
+
+/* stars */
+.stars .star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: twinkle 2s infinite ease-in-out;
+}
+
+.s1 {
+  width: 4px;
+  height: 4px;
+  top: 20%;
+  left: 25%;
+  animation-delay: 0s;
+}
+
+.s2 {
+  width: 6px;
+  height: 6px;
+  top: 40%;
+  left: 70%;
+  animation-delay: 1s;
+}
+
+.s3 {
+  width: 3px;
+  height: 3px;
+  top: 60%;
+  left: 20%;
+  animation-delay: 0.5s;
+}
+
+.s4 {
+  width: 5px;
+  height: 5px;
+  top: 80%;
+  left: 50%;
+  animation-delay: 1.5s;
+}
+
+.s5 {
+  width: 2px;
+  height: 2px;
+  top: 10%;
+  left: 80%;
+  animation-delay: 2s;
+}
+
+.s6 {
+  width: 4px;
+  height: 4px;
+  top: 30%;
+  left: 55%;
+  animation-delay: 2.5s;
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+}
+
+@keyframes lunarPhases {
+  0% {
+    transform: translateX(100px);
+  }
+
+  25% {
+    transform: translateX(50px);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+
+  75% {
+    transform: translateX(-50px);
+  }
+
+  100% {
+    transform: translateX(-100px);
+  }
+}

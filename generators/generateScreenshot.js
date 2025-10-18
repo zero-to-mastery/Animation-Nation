@@ -51,7 +51,7 @@ const artDir = 'Art'; // Adjusted to be relative to the root of the repository
         }
       }
     } else {
-      console.log(`index.html not found for ${dir}`);
+      console.info(`index.html not found for ${dir}`);
     }
   }
 
