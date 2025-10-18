@@ -62,6 +62,7 @@ const PATTERN = {
 };
 
 module.exports = {
+  README_LINK_MD,
   CONTRIBUTOR_HANDLER,
   CHANGED_FILES_STR,
   IS_MAINTAINER,

@@ -159,8 +159,3 @@ module.exports = {
   reviewFileSpecs,
   reviewOverallFiles
 };
-
-// // Identifies changed files inside or outside art
-// let changedInOutArtProp = doesStartWithArt(f) ? 'changesInArt' : 'changesOutArt'
-// details[changedInOutArtProp].count += 1
-// details[changedInOutArtProp].files.push(f)
