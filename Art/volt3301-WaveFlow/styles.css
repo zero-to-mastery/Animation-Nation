@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #001f3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.wave {
+  position: relative;
+  width: 200%;
+  height: 200px;
+  background: radial-gradient(circle, #00ffff 0%, transparent 70%) repeat-x;
+  animation: move 4s linear infinite;
+  opacity: 0.6;
+}
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

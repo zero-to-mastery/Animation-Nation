@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --night: #22220f;
+  --light-green: #5a825a;
+  --dark-green: #095b12;
+}
+
+body {
+  background: var(--night);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.moon-path {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.moon {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: yellow;
+  animation: move-moon 10s linear 0s infinite;
+  margin-top: 20px;
+  left: -25%;
+}
+
+.shadow {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: var(--night);
+  margin-left: 46px;
+  margin-top: 11px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 175px;
+  position: absolute;
+}
+
+.vine {
+  width: 70px;
+  height: 100px;
+  margin-left: 55px;
+  margin-bottom: -10px;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--light-green),
+    var(--dark-green)
+  );
+  border-top-right-radius: 14%;
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 21%;
+  border-bottom-left-radius: 18%;
+  border: 4px double black;
+  transform: skew(-34deg);
+}
+
+.pumpkin {
+  width: 400px;
+  height: 450px;
+  border-radius: 40%;
+  border: 4px solid black;
+  background-image: linear-gradient(orange, #c1861a, #97650a);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 12px 12px gray);
+}
+
+.lines {
+  width: 400px;
+  height: 440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-1 {
+  width: 396px;
+  height: 440px;
+  background-color: transparent;
+  border-radius: 40%;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-2 {
+  width: 280px;
+  height: 440px;
+  background-color: transparent;
+  border-radius: 40%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-3 {
+  width: 180px;
+  height: 440px;
+  background-color: transparent;
+  border-radius: 40%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-4 {
+  width: 108px;
+  height: 440px;
+  background-color: transparent;
+  border-radius: 40%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.face {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent;
+}
+
+.eye-row {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eyes {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: yellow;
+  animation: carvePumpkin 6s infinite;
+  animation-fill-mode: forwards;
+
+  border: 2px solid orange;
+}
+
+.nose {
+  width: 70px;
+  height: 70px;
+  transform: rotate(45deg);
+  border-radius: 20%;
+
+  background: yellow;
+  animation: carveNose 6s infinite;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  border: 2px solid orange;
+}
+
+.mouth {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.tooth {
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+
+  animation: carveMouth 6s infinite;
+  animation-delay: -4s;
+  animation-fill-mode: forwards;
+  border: 2px solid orange;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+.mouth :nth-child(odd) {
+  margin-top: -10px;
+}
+
+@keyframes move-moon {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(900px);
+  }
+}
+
+@keyframes carvePumpkin {
+  from {
+    background-image: linear-gradient(to top, yellow, orange);
+  }
+  to {
+    background-image: linear-gradient(to bottom, yellow, red);
+  }
+}
+
+@keyframes carveNose {
+  from {
+    background-image: linear-gradient(to top, yellow, orange);
+  }
+  to {
+    background-image: linear-gradient(to bottom, yellow, red);
+  }
+}
+
+@keyframes carveMouth {
+  from {
+    background-image: linear-gradient(to left, orange, red);
+  }
+  to {
+    background-image: linear-gradient(to right, yellow, red);
+  }
+}
