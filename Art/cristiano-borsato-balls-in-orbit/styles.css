@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #282c34;
+}
+
+.orbit,
+.outer-orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.orbit {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed rgba(255, 255, 255, 0.4);
+  animation: rotate 4s linear infinite;
+}
+
+.outer-orbit {
+  width: 300px;
+  height: 300px;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  animation: rotate-reverse 6s linear infinite;
+}
+
+.ball,
+.outer-ball {
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  animation: colors 4s linear infinite;
+}
+
+.ball {
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%) translateX(100px);
+}
+
+.outer-ball {
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%) translateX(150px);
+  animation-duration: 3s, 2s;
+}
+
+@keyframes rotate {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes rotate-reverse {
+  from { transform: translate(-50%, -50%) rotate(360deg); }
+  to { transform: translate(-50%, -50%) rotate(0deg); }
+}
+
+@keyframes colors {
+  0%   { background-color: #4285F4; }
+  25%  { background-color: #EA4335; }
+  50%  { background-color: #FBBC05; }
+  75%  { background-color: #34A853; }
+  100% { background-color: #4285F4; }
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 5px 2px rgba(255,255,255,0.2); }
+  100% { box-shadow: 0 0 25px 8px rgba(255,255,255,0.8); }
+}
