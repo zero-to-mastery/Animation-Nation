@@ -22,6 +22,10 @@ body {
   box-shadow: 16px 4px 230px lightpink;
   position: relative;
   animation: swing 10s  ease-in-out infinite;
+  animation-name: swing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 
 }
 
