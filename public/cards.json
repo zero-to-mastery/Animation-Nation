@@ -305,7 +305,15 @@
   },
   {
     "author": "Saptarshi1984",
-    "artName": "Laltern",
+    "artName": "ai thinking",
+    "githubLink": "https://github.com/Saptarshi1984",
+    "pageLink": "./Art/Saptarshi1984-ai-thinking/index.html",
+    "imageLink": "./Art/Saptarshi1984-ai-thinking/icon.png",
+    "projectPath": "Art/Saptarshi1984-ai-thinking"
+  },
+  {
+    "author": "Saptarshi1984",
+    "artName": "laltern",
     "githubLink": "https://github.com/Saptarshi1984",
     "pageLink": "./Art/Saptarshi1984-laltern/index.html",
     "imageLink": "./Art/Saptarshi1984-laltern/icon.png",
@@ -313,7 +321,7 @@
   },
   {
     "author": "Saptarshi1984",
-    "artName": "Searching",
+    "artName": "searching",
     "githubLink": "https://github.com/Saptarshi1984",
     "pageLink": "./Art/Saptarshi1984-searching/index.html",
     "imageLink": "./Art/Saptarshi1984-searching/icon.png",
