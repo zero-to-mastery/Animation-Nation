@@ -68,7 +68,7 @@ body {
 }
 
 @keyframes swing {
-  
+
   0% {
     transform: rotate(2deg);
   }
