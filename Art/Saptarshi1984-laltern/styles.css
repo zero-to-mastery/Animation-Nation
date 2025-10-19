@@ -22,7 +22,7 @@ body {
   box-shadow: 16px 4px 230px lightpink;
   position: relative;
   animation: swing 10s  ease-in-out infinite;
-  
+
 }
 
 #laltern {  
@@ -68,6 +68,7 @@ body {
 }
 
 @keyframes swing {
+  
   0% {
     transform: rotate(2deg);
   }
