@@ -58,24 +58,46 @@ body {
 }
 
 @keyframes rotate {
-  from { transform: translate(-50%, -50%) rotate(0deg); }
-  to { transform: translate(-50%, -50%) rotate(360deg); }
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
 @keyframes rotate-reverse {
-  from { transform: translate(-50%, -50%) rotate(360deg); }
-  to { transform: translate(-50%, -50%) rotate(0deg); }
+  from {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
 }
 
 @keyframes colors {
-  0%   { background-color: #4285F4; }
-  25%  { background-color: #EA4335; }
-  50%  { background-color: #FBBC05; }
-  75%  { background-color: #34A853; }
-  100% { background-color: #4285F4; }
+  0% {
+    background-color: #4285f4;
+  }
+  25% {
+    background-color: #ea4335;
+  }
+  50% {
+    background-color: #fbbc05;
+  }
+  75% {
+    background-color: #34a853;
+  }
+  100% {
+    background-color: #4285f4;
+  }
 }
 
 @keyframes glow {
-  0% { box-shadow: 0 0 5px 2px rgba(255,255,255,0.2); }
-  100% { box-shadow: 0 0 25px 8px rgba(255,255,255,0.8); }
+  0% {
+    box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 25px 8px rgba(255, 255, 255, 0.8);
+  }
 }
