@@ -1,5 +1,6 @@
 /* Fullscreen centered layout */
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   display: flex;
@@ -25,7 +26,7 @@ html, body {
   height: 30px;
   background: #2f3640;
   border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* The bar (see-saw plank) */
@@ -64,7 +65,8 @@ html, body {
 
 /* Smooth see-saw animation */
 @keyframes tilt {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateX(-50%) rotate(10deg);
   }
   50% {
