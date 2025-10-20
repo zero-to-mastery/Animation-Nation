@@ -1,0 +1,73 @@
+/* Fullscreen centered layout */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f6fa;
+}
+
+/* See-saw container */
+.seesaw {
+  position: relative;
+  width: 300px;
+  height: 150px;
+}
+
+/* Pivot point (center support) */
+.pivot {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  background: #2f3640;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* The bar (see-saw plank) */
+.bar {
+  position: absolute;
+  bottom: 55px;
+  left: 50%;
+  width: 260px;
+  height: 8px;
+  background: linear-gradient(90deg, #4b6584, #718093);
+  border-radius: 4px;
+  transform-origin: center center;
+  transform: translateX(-50%) rotate(0deg);
+  animation: tilt 2s ease-in-out infinite;
+}
+
+/* Balls on both ends */
+.ball {
+  position: absolute;
+  bottom: 8px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #00a8ff;
+  box-shadow: 0 3px 6px rgba(0, 168, 255, 0.3);
+}
+
+.ball.left {
+  left: -10px;
+  background: #e84118;
+}
+
+.ball.right {
+  right: -10px;
+}
+
+/* Smooth see-saw animation */
+@keyframes tilt {
+  0%, 100% {
+    transform: translateX(-50%) rotate(10deg);
+  }
+  50% {
+    transform: translateX(-50%) rotate(-10deg);
+  }
+}
