@@ -84,7 +84,6 @@ body {
   transform-origin: bottom center;
 }
 
-
 @keyframes flicker-main {
   0% {
     transform: scaleY(1) scaleX(1) translateX(0);
