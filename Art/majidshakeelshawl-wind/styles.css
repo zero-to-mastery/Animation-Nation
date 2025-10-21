@@ -1,0 +1,41 @@
+/* Center everything */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f6fa;
+}
+
+/* Spinner container */
+.spinner {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+}
+
+/* Four blades making a pinwheel */
+.blade {
+  position: absolute;
+  width: 12px;
+  height: 35px;
+  background: #2f3640;
+  border-radius: 6px;
+  top: 5px;
+  left: 34px;
+  transform-origin: bottom center;
+}
+
+/* Rotate each blade */
+.blade:nth-child(1) { transform: rotate(0deg); }
+.blade:nth-child(2) { transform: rotate(90deg); }
+.blade:nth-child(3) { transform: rotate(180deg); }
+.blade:nth-child(4) { transform: rotate(270deg); }
+
+/* Continuous spin */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
