@@ -1,0 +1,178 @@
+/* Body */
+body 
+{
+  background: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Comic Sans MS', sans-serif;
+  margin: 0;
+}
+
+/* CD Player Base */
+.cd-player 
+{
+  position: relative;
+  background: #2b2b2b;
+  width: 300px;
+  height: 340px;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6), inset 0 -4px 6px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 12px;
+}
+
+/* Lights */
+.lights 
+{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.light 
+{
+  background: currentColor;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px currentColor;
+  animation: glow 3s infinite alternate;
+}
+
+.light.red { color: #ff4d4d; animation-delay: 0s; }
+.light.yellow { color: #ffd24d; animation-delay: 0.3s; }
+.light.green { color: #4dff88; animation-delay: 0.6s; }
+
+@keyframes glow 
+{
+  0% { opacity: 0.2; box-shadow: 0 0 4px currentColor; }
+  50% { opacity: 1; box-shadow: 0 0 12px currentColor; }
+  100% { opacity: 0.2; box-shadow: 0 0 4px currentColor; }
+}
+
+/* CD Tray */
+.tray 
+{
+  position: relative;
+  background: #3a3a3a;
+  width: 220px;
+  height: 200px;
+  border-radius: 18px;
+  box-shadow: inset 0 4px 12px rgba(0,0,0,0.4), 0 2px 4px rgba(0,0,0,0.2);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+  border: 2px solid #555;
+  padding: 8px;
+}
+
+/* CD */
+.cd 
+{
+  position: relative;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center,
+      #e0e0e0 15%,   
+      #b0b0b0 50%,   
+      #888888 90%    
+  );
+  border: 6px solid #aaa; 
+  box-sizing: border-box;
+  box-shadow: inset 0 0 12px rgba(0,0,0,0.4), 0 0 12px rgba(0,0,0,0.3);
+  animation: spin 3s linear infinite;
+}
+
+/* Disc grooves */
+.cd::before 
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: repeating-radial-gradient(
+    circle at center,
+    rgba(255,255,255,0.08) 0 1px,
+    transparent 1px 4px
+  );
+}
+
+.cd::after 
+{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.2), transparent 40%);
+}
+
+.cd .reflection 
+{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 4px;
+  height: 80%;
+  background: rgba(255,255,255,0.4);
+  border-radius: 2px;
+  transform: translateX(-50%) rotate(10deg);
+  animation: spin 3s linear infinite;
+}
+
+/* CD player label */
+.label 
+{
+  margin: 10px 0 10px 0;
+  font-size: 16px;
+  color: #f0f0f0;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+/* Buttons Position*/
+.buttons 
+{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Individual Buttons */
+.btn 
+{
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.4), inset 0 -2px 4px rgba(255,255,255,0.2);
+  font-size: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button Color */
+.btn.play { background: linear-gradient(to top, #2a9d8f 0%, #66cdaa 100%); }
+.btn.pause { background: linear-gradient(to top, #e9c46a 0%, #f1d18a 100%); }
+.btn.stop { background: linear-gradient(to top, #f4a261 0%, #ffba08 100%); }
+.btn.change { background: linear-gradient(to top, #8e44ad 0%, #a678de 100%); }
+.btn.vol { background: linear-gradient(to top, #555 0%, #888 100%); }
+
+/* Disc Spin Animation */
+@keyframes spin 
+{
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
