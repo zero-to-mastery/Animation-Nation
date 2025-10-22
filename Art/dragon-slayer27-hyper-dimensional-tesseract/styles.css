@@ -1,0 +1,555 @@
+@property --gradient-angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+:root {
+    --primary: #c300ff;
+    --secondary: #00d9ff;
+    --accent: #ffb400;
+    --scene-size: min(90vw, 90vh);
+    --cube-size: calc(var(--scene-size) * 0.375);
+    --inner-cube-size: calc(var(--scene-size) * 0.1875);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    position: relative;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #150221;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scene {
+    width: var(--scene-size);
+    height: var(--scene-size);
+    perspective: calc(var(--scene-size) * 5);
+    transform-style: preserve-3d;
+}
+
+.tesseract-container {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: scene-rotation 120s infinite linear;
+}
+
+@keyframes scene-rotation {
+    from {
+        transform: rotate3d(0.7, 0.5, 0.3, 0deg);
+    }
+
+    to {
+        transform: rotate3d(0.7, 0.5, 0.3, 360deg);
+    }
+}
+
+.energy-core {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(var(--scene-size) * 0.0625);
+    height: calc(var(--scene-size) * 0.0625);
+    margin-top: calc(var(--scene-size) * -0.03125);
+    margin-left: calc(var(--scene-size) * -0.03125);
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 calc(var(--scene-size) * 0.01875) var(--accent), 0 0 calc(var(--scene-size) * 0.0375) var(--accent), 0 0 calc(var(--scene-size) * 0.075) var(--primary);
+    animation: core-flicker 3s infinite ease-in-out;
+}
+
+@keyframes core-flicker {
+    50% {
+        background: var(--secondary);
+        box-shadow: 0 0 calc(var(--scene-size) * 0.01875) var(--secondary), 0 0 calc(var(--scene-size) * 0.0375) var(--secondary), 0 0 calc(var(--scene-size) * 0.075) var(--secondary);
+        transform: scale(1.1);
+    }
+}
+
+.outer-cube,
+.inner-cube {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-style: preserve-3d;
+}
+
+.outer-cube {
+    width: var(--cube-size);
+    height: var(--cube-size);
+    margin-top: calc(var(--cube-size) / -2);
+    margin-left: calc(var(--cube-size) / -2);
+    animation: outer-cube-spin 15s infinite linear reverse;
+}
+
+.inner-cube {
+    width: var(--inner-cube-size);
+    height: var(--inner-cube-size);
+    margin-top: calc(var(--inner-cube-size) / -2);
+    margin-left: calc(var(--inner-cube-size) / -2);
+    animation: inner-cube-spin 10s infinite linear;
+}
+
+@keyframes outer-cube-spin {
+    from {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    to {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+@keyframes inner-cube-spin {
+    from {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateX(-360deg) rotateY(360deg) rotateZ(-360deg);
+    }
+}
+
+.face {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(from var(--gradient-angle),
+            var(--primary), var(--secondary), var(--primary));
+    opacity: 0.15;
+    border: 1px solid var(--accent);
+    animation: sweep-gradient 4s linear infinite;
+}
+
+@keyframes sweep-gradient {
+    to {
+        --gradient-angle: 360deg;
+    }
+}
+
+.outer-cube .face {
+    width: var(--cube-size);
+    height: var(--cube-size);
+}
+
+.outer-cube .face:nth-of-type(1) {
+    transform: rotateY(0deg) translateZ(calc(var(--cube-size) / 2));
+}
+
+.outer-cube .face:nth-of-type(2) {
+    transform: rotateY(90deg) translateZ(calc(var(--cube-size) / 2));
+}
+
+.outer-cube .face:nth-of-type(3) {
+    transform: rotateY(180deg) translateZ(calc(var(--cube-size) / 2));
+}
+
+.outer-cube .face:nth-of-type(4) {
+    transform: rotateY(-90deg) translateZ(calc(var(--cube-size) / 2));
+}
+
+.outer-cube .face:nth-of-type(5) {
+    transform: rotateX(90deg) translateZ(calc(var(--cube-size) / 2));
+}
+
+.outer-cube .face:nth-of-type(6) {
+    transform: rotateX(-90deg) translateZ(calc(var(--cube-size) / 2));
+}
+
+.inner-cube .face {
+    width: var(--inner-cube-size);
+    height: var(--inner-cube-size);
+    border-color: var(--secondary);
+    opacity: 0.3;
+}
+
+.inner-cube .face:nth-of-type(1) {
+    transform: rotateY(0deg) translateZ(calc(var(--inner-cube-size) / 2));
+}
+
+.inner-cube .face:nth-of-type(2) {
+    transform: rotateY(90deg) translateZ(calc(var(--inner-cube-size) / 2));
+}
+
+.inner-cube .face:nth-of-type(3) {
+    transform: rotateY(180deg) translateZ(calc(var(--inner-cube-size) / 2));
+}
+
+.inner-cube .face:nth-of-type(4) {
+    transform: rotateY(-90deg) translateZ(calc(var(--inner-cube-size) / 2));
+}
+
+.inner-cube .face:nth-of-type(5) {
+    transform: rotateX(90deg) translateZ(calc(var(--inner-cube-size) / 2));
+}
+
+.inner-cube .face:nth-of-type(6) {
+    transform: rotateX(-90deg) translateZ(calc(var(--inner-cube-size) / 2));
+}
+
+.gyro-ring-system {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.gyro-ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    border: 2px solid;
+    transform-style: preserve-3d;
+}
+
+.gyro-ring:nth-child(1) {
+    width: calc(var(--scene-size) * 0.5625);
+    height: calc(var(--scene-size) * 0.5625);
+    margin: calc(var(--scene-size) * -0.28125) 0 0 calc(var(--scene-size) * -0.28125);
+    border-color: var(--primary);
+    opacity: 0.5;
+    animation: gyro-spin-1 18s infinite linear;
+}
+
+.gyro-ring:nth-child(2) {
+    width: calc(var(--scene-size) * 0.625);
+    height: calc(var(--scene-size) * 0.625);
+    margin: calc(var(--scene-size) * -0.3125) 0 0 calc(var(--scene-size) * -0.3125);
+    border-color: var(--secondary);
+    opacity: 0.5;
+    animation: gyro-spin-2 18s infinite linear;
+}
+
+.gyro-ring:nth-child(3) {
+    width: calc(var(--scene-size) * 0.6875);
+    height: calc(var(--scene-size) * 0.6875);
+    margin: calc(var(--scene-size) * -0.34375) 0 0 calc(var(--scene-size) * -0.34375);
+    border-color: var(--primary);
+    opacity: 0.4;
+    animation: gyro-spin-1 22s infinite linear reverse;
+}
+
+.gyro-ring:nth-child(4) {
+    width: calc(var(--scene-size) * 0.75);
+    height: calc(var(--scene-size) * 0.75);
+    margin: calc(var(--scene-size) * -0.375) 0 0 calc(var(--scene-size) * -0.375);
+    border-color: var(--secondary);
+    opacity: 0.4;
+    animation: gyro-spin-2 22s infinite linear reverse;
+}
+
+.gyro-ring:nth-child(5) {
+    width: calc(var(--scene-size) * 0.8125);
+    height: calc(var(--scene-size) * 0.8125);
+    margin: calc(var(--scene-size) * -0.40625) 0 0 calc(var(--scene-size) * -0.40625);
+    border: 1px dotted var(--accent);
+    opacity: 0.3;
+    animation: gyro-spin-1 30s infinite linear;
+}
+
+.gyro-ring:nth-child(6) {
+    width: calc(var(--scene-size) * 0.875);
+    height: calc(var(--scene-size) * 0.875);
+    margin: calc(var(--scene-size) * -0.4375) 0 0 calc(var(--scene-size) * -0.4375);
+    border: 1px dotted var(--accent);
+    opacity: 0.3;
+    animation: gyro-spin-2 30s infinite linear;
+}
+
+@keyframes gyro-spin-1 {
+    to {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+@keyframes gyro-spin-2 {
+    to {
+        transform: rotateX(-360deg) rotateY(-360deg);
+    }
+}
+
+.particle-field {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateY(90deg);
+}
+
+.particle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(var(--scene-size) * 0.005);
+    height: calc(var(--scene-size) * 0.005);
+    border-radius: 50%;
+    background-color: var(--accent);
+    animation: particle-path 10s infinite linear;
+}
+
+@keyframes particle-path {
+    from {
+        transform: var(--transform-start);
+        opacity: 1;
+    }
+
+    to {
+        transform: var(--transform-end);
+        opacity: 0;
+    }
+}
+
+.particle:nth-child(1) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.4425), calc(var(--scene-size) * 0.1775), calc(var(--scene-size) * 0.46));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.4425), calc(var(--scene-size) * -0.1775), calc(var(--scene-size) * -0.46));
+    animation-delay: -0.2s;
+}
+
+.particle:nth-child(2) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.3025), calc(var(--scene-size) * 0.41375), calc(var(--scene-size) * 0.02875));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.3025), calc(var(--scene-size) * -0.41375), calc(var(--scene-size) * -0.02875));
+    animation-delay: -0.4s;
+}
+
+.particle:nth-child(3) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.0175), calc(var(--scene-size) * 0.04875), calc(var(--scene-size) * -0.49875));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.0175), calc(var(--scene-size) * -0.04875), calc(var(--scene-size) * 0.49875));
+    animation-delay: -0.6s;
+}
+
+.particle:nth-child(4) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.34375), calc(var(--scene-size) * 0.365), calc(var(--scene-size) * 0.00375));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.34375), calc(var(--scene-size) * -0.365), calc(var(--scene-size) * -0.00375));
+    animation-delay: -0.8s;
+}
+
+.particle:nth-child(5) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.025), calc(var(--scene-size) * 0.4525), calc(var(--scene-size) * 0.04875));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.025), calc(var(--scene-size) * -0.4525), calc(var(--scene-size) * -0.04875));
+    animation-delay: -1.0s;
+}
+
+.particle:nth-child(6) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.47), calc(var(--scene-size) * -0.15875), calc(var(--scene-size) * 0.04625));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.47), calc(var(--scene-size) * 0.15875), calc(var(--scene-size) * -0.04625));
+    animation-delay: -1.2s;
+}
+
+.particle:nth-child(7) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.48375), calc(var(--scene-size) * 0.04), calc(var(--scene-size) * 0.21125));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.48375), calc(var(--scene-size) * -0.04), calc(var(--scene-size) * -0.21125));
+    animation-delay: -1.4s;
+}
+
+.particle:nth-child(8) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.33375), calc(var(--scene-size) * 0.03), calc(var(--scene-size) * -0.2125));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.33375), calc(var(--scene-size) * -0.03), calc(var(--scene-size) * 0.2125));
+    animation-delay: -1.6s;
+}
+
+.particle:nth-child(9) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.405), calc(var(--scene-size) * -0.19125), calc(var(--scene-size) * -0.03375));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.405), calc(var(--scene-size) * 0.19125), calc(var(--scene-size) * 0.03375));
+    animation-delay: -1.8s;
+}
+
+.particle:nth-child(10) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.04875), calc(var(--scene-size) * -0.3375), calc(var(--scene-size) * 0.1225));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.04875), calc(var(--scene-size) * 0.3375), calc(var(--scene-size) * -0.1225));
+    animation-delay: -2.0s;
+}
+
+.particle:nth-child(11) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.2725), calc(var(--scene-size) * -0.33875), calc(var(--scene-size) * -0.4725));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.2725), calc(var(--scene-size) * 0.33875), calc(var(--scene-size) * 0.4725));
+    animation-delay: -2.2s;
+}
+
+.particle:nth-child(12) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.17125), calc(var(--scene-size) * 0.00875), calc(var(--scene-size) * -0.46));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.17125), calc(var(--scene-size) * -0.00875), calc(var(--scene-size) * 0.46));
+    animation-delay: -2.4s;
+}
+
+.particle:nth-child(13) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.3975), calc(var(--scene-size) * -0.46375), calc(var(--scene-size) * 0.4625));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.3975), calc(var(--scene-size) * 0.46375), calc(var(--scene-size) * -0.4625));
+    animation-delay: -2.6s;
+}
+
+.particle:nth-child(14) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.0175), calc(var(--scene-size) * -0.395), calc(var(--scene-size) * 0.17125));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.0175), calc(var(--scene-size) * 0.395), calc(var(--scene-size) * -0.17125));
+    animation-delay: -2.8s;
+}
+
+.particle:nth-child(15) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.4325), calc(var(--scene-size) * -0.0475), calc(var(--scene-size) * -0.2075));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.4325), calc(var(--scene-size) * 0.0475), calc(var(--scene-size) * 0.2075));
+    animation-delay: -3.0s;
+}
+
+.particle:nth-child(16) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.37125), calc(var(--scene-size) * -0.03375), calc(var(--scene-size) * 0.1775));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.37125), calc(var(--scene-size) * 0.03375), calc(var(--scene-size) * -0.1775));
+    animation-delay: -3.2s;
+}
+
+.particle:nth-child(17) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.045), calc(var(--scene-size) * 0.43875), calc(var(--scene-size) * -0.41375));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.045), calc(var(--scene-size) * -0.43875), calc(var(--scene-size) * 0.41375));
+    animation-delay: -3.4s;
+}
+
+.particle:nth-child(18) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.4125), calc(var(--scene-size) * 0.19125), calc(var(--scene-size) * 0.245));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.4125), calc(var(--scene-size) * -0.19125), calc(var(--scene-size) * -0.245));
+    animation-delay: -3.6s;
+}
+
+.particle:nth-child(19) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.04875), calc(var(--scene-size) * -0.37375), calc(var(--scene-size) * 0.38875));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.04875), calc(var(--scene-size) * 0.37375), calc(var(--scene-size) * -0.38875));
+    animation-delay: -3.8s;
+}
+
+.particle:nth-child(20) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.33625), calc(var(--scene-size) * 0.4775), calc(var(--scene-size) * -0.04125));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.33625), calc(var(--scene-size) * -0.4775), calc(var(--scene-size) * 0.04125));
+    animation-delay: -4.0s;
+}
+
+.particle:nth-child(21) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.4425), calc(var(--scene-size) * -0.1775), calc(var(--scene-size) * -0.46));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.4425), calc(var(--scene-size) * 0.1775), calc(var(--scene-size) * 0.46));
+    animation-delay: -4.2s;
+}
+
+.particle:nth-child(22) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.3025), calc(var(--scene-size) * -0.41375), calc(var(--scene-size) * -0.02875));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.3025), calc(var(--scene-size) * 0.41375), calc(var(--scene-size) * 0.02875));
+    animation-delay: -4.4s;
+}
+
+.particle:nth-child(23) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.0175), calc(var(--scene-size) * -0.04875), calc(var(--scene-size) * 0.49875));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.0175), calc(var(--scene-size) * 0.04875), calc(var(--scene-size) * -0.49875));
+    animation-delay: -4.6s;
+}
+
+.particle:nth-child(24) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.34375), calc(var(--scene-size) * -0.365), calc(var(--scene-size) * -0.00375));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.34375), calc(var(--scene-size) * 0.365), calc(var(--scene-size) * 0.00375));
+    animation-delay: -4.8s;
+}
+
+.particle:nth-child(25) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.025), calc(var(--scene-size) * -0.4525), calc(var(--scene-size) * -0.04875));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.025), calc(var(--scene-size) * 0.4525), calc(var(--scene-size) * 0.04875));
+    animation-delay: -5.0s;
+}
+
+.particle:nth-child(26) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.47), calc(var(--scene-size) * 0.15875), calc(var(--scene-size) * -0.04625));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.47), calc(var(--scene-size) * -0.15875), calc(var(--scene-size) * 0.04625));
+    animation-delay: -5.2s;
+}
+
+.particle:nth-child(27) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.48375), calc(var(--scene-size) * -0.04), calc(var(--scene-size) * -0.21125));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.48375), calc(var(--scene-size) * 0.04), calc(var(--scene-size) * 0.21125));
+    animation-delay: -5.4s;
+}
+
+.particle:nth-child(28) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.33375), calc(var(--scene-size) * -0.03), calc(var(--scene-size) * 0.2125));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.33375), calc(var(--scene-size) * 0.03), calc(var(--scene-size) * -0.2125));
+    animation-delay: -5.6s;
+}
+
+.particle:nth-child(29) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.405), calc(var(--scene-size) * 0.19125), calc(var(--scene-size) * 0.03375));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.405), calc(var(--scene-size) * -0.19125), calc(var(--scene-size) * -0.03375));
+    animation-delay: -5.8s;
+}
+
+.particle:nth-child(30) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.04875), calc(var(--scene-size) * 0.3375), calc(var(--scene-size) * -0.1225));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.04875), calc(var(--scene-size) * -0.3375), calc(var(--scene-size) * 0.1225));
+    animation-delay: -6.0s;
+}
+
+.particle:nth-child(31) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.2725), calc(var(--scene-size) * 0.33875), calc(var(--scene-size) * 0.4725));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.2725), calc(var(--scene-size) * -0.33875), calc(var(--scene-size) * -0.4725));
+    animation-delay: -6.2s;
+}
+
+.particle:nth-child(32) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.17125), calc(var(--scene-size) * -0.00875), calc(var(--scene-size) * 0.46));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.17125), calc(var(--scene-size) * 0.00875), calc(var(--scene-size) * -0.46));
+    animation-delay: -6.4s;
+}
+
+.particle:nth-child(33) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.3975), calc(var(--scene-size) * 0.46375), calc(var(--scene-size) * -0.4625));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.3975), calc(var(--scene-size) * -0.46375), calc(var(--scene-size) * 0.4625));
+    animation-delay: -6.6s;
+}
+
+.particle:nth-child(34) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.0175), calc(var(--scene-size) * 0.395), calc(var(--scene-size) * -0.17125));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.0175), calc(var(--scene-size) * -0.395), calc(var(--scene-size) * 0.17125));
+    animation-delay: -6.8s;
+}
+
+.particle:nth-child(35) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.4325), calc(var(--scene-size) * 0.0475), calc(var(--scene-size) * 0.2075));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.4325), calc(var(--scene-size) * -0.0475), calc(var(--scene-size) * -0.2075));
+    animation-delay: -7.0s;
+}
+
+.particle:nth-child(36) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.37125), calc(var(--scene-size) * 0.03375), calc(var(--scene-size) * -0.1775));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.37125), calc(var(--scene-size) * -0.03375), calc(var(--scene-size) * 0.1775));
+    animation-delay: -7.2s;
+}
+
+.particle:nth-child(37) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.045), calc(var(--scene-size) * -0.43875), calc(var(--scene-size) * 0.41375));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.045), calc(var(--scene-size) * 0.43875), calc(var(--scene-size) * -0.41375));
+    animation-delay: -7.4s;
+}
+
+.particle:nth-child(38) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.4125), calc(var(--scene-size) * -0.19125), calc(var(--scene-size) * -0.245));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.4125), calc(var(--scene-size) * 0.19125), calc(var(--scene-size) * 0.245));
+    animation-delay: -7.6s;
+}
+
+.particle:nth-child(39) {
+    --transform-start: translate3d(calc(var(--scene-size) * -0.04875), calc(var(--scene-size) * 0.37375), calc(var(--scene-size) * -0.38875));
+    --transform-end: translate3d(calc(var(--scene-size) * 0.04875), calc(var(--scene-size) * -0.37375), calc(var(--scene-size) * 0.38875));
+    animation-delay: -7.8s;
+}
+
+.particle:nth-child(40) {
+    --transform-start: translate3d(calc(var(--scene-size) * 0.33625), calc(var(--scene-size) * -0.4775), calc(var(--scene-size) * 0.04125));
+    --transform-end: translate3d(calc(var(--scene-size) * -0.33625), calc(var(--scene-size) * 0.4775), calc(var(--scene-size) * 0.04125));
+    animation-delay: -8.0s;
+}
