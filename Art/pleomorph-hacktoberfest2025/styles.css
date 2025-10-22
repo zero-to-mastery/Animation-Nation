@@ -1,0 +1,96 @@
+/* Base layout */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+	margin: 0;
+	min-height: 100vh;
+	font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	color: #fff;
+	background: radial-gradient(1200px 600px at 50% 20%, #2a1a40 0%, #110b1a 60%, #0a0710 100%);
+}
+
+.center {
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	text-align: center;
+	padding: 2rem;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: clamp(2.5rem, 10vw, 8rem);
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+	text-shadow: 0 6px 18px rgba(0,0,0,0.45), 0 0 18px rgba(255, 98, 0, 0.25);
+	/* Fallback solid color if gradient-clip is unsupported */
+	color: #ff9a3c;
+}
+
+/* Animated orange gradient for text */
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+	h1 {
+		background-image: linear-gradient(45deg,
+			#ff6a00 0%,
+			#ff7a00 20%,
+			#8707ff 40%,
+			#ffaa00 60%,
+			#8707ff 80%,
+			#ff6a00 100%
+		);
+		background-size: 200% 200%;
+		background-position: 0% 50%;
+		-webkit-background-clip: text;
+		background-clip: text;
+		/* Render only the gradient inside glyphs */
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+		animation: gradient-slide 4s ease-in-out infinite alternate;
+	}
+}
+
+@keyframes gradient-slide {
+	0%   { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+/* Ghosts running across the bottom */
+.ghosts {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 88px;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+.ghost {
+	position: absolute;
+	bottom: 0.25rem;
+	filter: drop-shadow(0 0 6px rgba(255,255,255,0.45));
+	transform: translateX(-12vw);
+	animation-name: ghost-run;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ghost-run {
+	from { transform: translateX(-12vw); }
+	to   { transform: translateX(110vw); }
+}
+
+/* Individual ghosts with staggered sizes, heights, speeds, and delays */
+.g1 { left: -10vw; font-size: 1.9rem; bottom: 0.3rem; animation-duration: 8.5s;  animation-delay: 0s; }
+.g2 { left: -22vw; font-size: 2.4rem; bottom: 0.6rem; animation-duration: 10.5s; animation-delay: 1.2s; }
+.g3 { left: -16vw; font-size: 1.6rem; bottom: 1.0rem; animation-duration: 12.5s; animation-delay: 2.4s; }
+.g4 { left: -28vw; font-size: 2.1rem; bottom: 0.4rem; animation-duration: 9.5s;  animation-delay: 3.2s; }
+.g5 { left: -34vw; font-size: 1.8rem; bottom: 0.8rem; animation-duration: 11.5s; animation-delay: 4.6s; }
+.g6 { left: -40vw; font-size: 2.8rem; bottom: 0.2rem; animation-duration: 13.5s; animation-delay: 5.8s; }
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+	.ghost { animation: none !important; display: none; }
+  h1 { animation: none !important; }
+}
