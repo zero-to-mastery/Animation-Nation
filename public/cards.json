@@ -241,6 +241,14 @@
   },
   {
     "author": "IneshAg",
+    "artName": "Night Boat Wave",
+    "githubLink": "https://github.com/IneshAg",
+    "pageLink": "./Art/Inesh-Agarwal-Night-Boat-Wave/index.html",
+    "imageLink": "./Art/Inesh-Agarwal-Night-Boat-Wave/icon.png",
+    "projectPath": "Art/Inesh-Agarwal-Night-Boat-Wave"
+  },
+  {
+    "author": "IneshAg",
     "artName": "Rain",
     "githubLink": "https://github.com/IneshAg",
     "pageLink": "./Art/Inesh-Agarwal-Rain/index.html",
@@ -710,6 +718,14 @@
     "pageLink": "./Art/kaiallalone-hollowpurple/index.html",
     "imageLink": "./Art/kaiallalone-hollowpurple/icon.png",
     "projectPath": "Art/kaiallalone-hollowpurple"
+  },
+  {
+    "author": "KaiAllAlone",
+    "artName": "Malevolent Shrine",
+    "githubLink": "https://github.com/KaiAllAlone",
+    "pageLink": "./Art/kaiallalone-malevolent_shrine/index.html",
+    "imageLink": "./Art/kaiallalone-malevolent_shrine/icon.png",
+    "projectPath": "Art/kaiallalone-malevolent_shrine"
   },
   {
     "author": "kantagarg17",
