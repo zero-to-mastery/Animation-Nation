@@ -136,6 +136,14 @@
     "projectPath": "Art/ClJarvis-JackOLatern"
   },
   {
+    "author": "ClJarvis",
+    "artName": "saturn",
+    "githubLink": "https://github.com/ClJarvis",
+    "pageLink": "./Art/ClJarvis-saturn/index.html",
+    "imageLink": "./Art/ClJarvis-saturn/icon.png",
+    "projectPath": "Art/ClJarvis-saturn"
+  },
+  {
     "author": "GitSatishGarg",
     "artName": "Balloons",
     "githubLink": "https://github.com/GitSatishGarg",
@@ -216,6 +224,14 @@
     "projectPath": "Art/Hitesh-Bhor28-rotating-square"
   },
   {
+    "author": "IneshAg",
+    "artName": "Car  Night Time",
+    "githubLink": "https://github.com/IneshAg",
+    "pageLink": "./Art/Inesh-Agarwal-Car-NightTime/index.html",
+    "imageLink": "./Art/Inesh-Agarwal-Car-NightTime/icon.png",
+    "projectPath": "Art/Inesh-Agarwal-Car-NightTime"
+  },
+  {
     "author": "IshaaqDaahir",
     "artName": "flying helicopter",
     "githubLink": "https://github.com/IshaaqDaahir",
@@ -289,6 +305,14 @@
   },
   {
     "author": "Navdeepsingh4298",
+    "artName": "happy diwali",
+    "githubLink": "https://github.com/Navdeepsingh4298",
+    "pageLink": "./Art/Navdeepsingh4298-happy-diwali/index.html",
+    "imageLink": "./Art/Navdeepsingh4298-happy-diwali/icon.png",
+    "projectPath": "Art/Navdeepsingh4298-happy-diwali"
+  },
+  {
+    "author": "Navdeepsingh4298",
     "artName": "yin yang",
     "githubLink": "https://github.com/Navdeepsingh4298",
     "pageLink": "./Art/Navdeepsingh4298-yin-yang/index.html",
@@ -304,8 +328,24 @@
     "projectPath": "Art/Parth-co79-the-ball"
   },
   {
+    "author": "Rajudas94",
+    "artName": "Retro Spin  Player",
+    "githubLink": "https://github.com/Rajudas94",
+    "pageLink": "./Art/Rajudas94-RetroSpin Player/index.html",
+    "imageLink": "./Art/Rajudas94-RetroSpin Player/icon.png",
+    "projectPath": "Art/Rajudas94-RetroSpin Player"
+  },
+  {
     "author": "Saptarshi1984",
-    "artName": "Laltern",
+    "artName": "ai thinking",
+    "githubLink": "https://github.com/Saptarshi1984",
+    "pageLink": "./Art/Saptarshi1984-ai-thinking/index.html",
+    "imageLink": "./Art/Saptarshi1984-ai-thinking/icon.png",
+    "projectPath": "Art/Saptarshi1984-ai-thinking"
+  },
+  {
+    "author": "Saptarshi1984",
+    "artName": "laltern",
     "githubLink": "https://github.com/Saptarshi1984",
     "pageLink": "./Art/Saptarshi1984-laltern/index.html",
     "imageLink": "./Art/Saptarshi1984-laltern/icon.png",
@@ -313,7 +353,7 @@
   },
   {
     "author": "Saptarshi1984",
-    "artName": "Searching",
+    "artName": "searching",
     "githubLink": "https://github.com/Saptarshi1984",
     "pageLink": "./Art/Saptarshi1984-searching/index.html",
     "imageLink": "./Art/Saptarshi1984-searching/icon.png",
@@ -486,6 +526,14 @@
     "pageLink": "./Art/cocoisarobo-smiley/index.html",
     "imageLink": "./Art/cocoisarobo-smiley/icon.png",
     "projectPath": "Art/cocoisarobo-smiley"
+  },
+  {
+    "author": "cristiano-borsato",
+    "artName": "Balls In Orbit",
+    "githubLink": "https://github.com/cristiano-borsato",
+    "pageLink": "./Art/cristiano-borsato-balls-in-orbit/index.html",
+    "imageLink": "./Art/cristiano-borsato-balls-in-orbit/icon.png",
+    "projectPath": "Art/cristiano-borsato-balls-in-orbit"
   },
   {
     "author": "fab-c14",
@@ -697,11 +745,27 @@
   },
   {
     "author": "majidshakeelshawl",
+    "artName": "See Saw",
+    "githubLink": "https://github.com/majidshakeelshawl",
+    "pageLink": "./Art/majidshakeelshawl-seesaw/index.html",
+    "imageLink": "./Art/majidshakeelshawl-seesaw/icon.png",
+    "projectPath": "Art/majidshakeelshawl-seesaw"
+  },
+  {
+    "author": "majidshakeelshawl",
     "artName": "star",
     "githubLink": "https://github.com/majidshakeelshawl",
     "pageLink": "./Art/majidshakeelshawl-star/index.html",
     "imageLink": "./Art/majidshakeelshawl-star/icon.png",
     "projectPath": "Art/majidshakeelshawl-star"
+  },
+  {
+    "author": "majidshakeelshawl",
+    "artName": "Wind",
+    "githubLink": "https://github.com/majidshakeelshawl",
+    "pageLink": "./Art/majidshakeelshawl-wind/index.html",
+    "imageLink": "./Art/majidshakeelshawl-wind/icon.png",
+    "projectPath": "Art/majidshakeelshawl-wind"
   },
   {
     "author": "mattcsmith",
@@ -861,6 +925,14 @@
     "pageLink": "./Art/ravikantchauhan246-ufo-in-sky/index.html",
     "imageLink": "./Art/ravikantchauhan246-ufo-in-sky/icon.png",
     "projectPath": "Art/ravikantchauhan246-ufo-in-sky"
+  },
+  {
+    "author": "shivanshx7",
+    "artName": "shuffling squares",
+    "githubLink": "https://github.com/shivanshx7",
+    "pageLink": "./Art/shivanshx7-shuffling_squares/index.html",
+    "imageLink": "./Art/shivanshx7-shuffling_squares/icon.png",
+    "projectPath": "Art/shivanshx7-shuffling_squares"
   },
   {
     "author": "tomdu3",
