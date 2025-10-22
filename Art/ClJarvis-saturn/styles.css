@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --space: #22220f;
+}
+
+body {
+  background: var(--space);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.rings {
+  width: 500px;
+  height: 240px;
+  border-radius: 50%;
+  border: 8px double firebrick;
+  transform: skew(33deg);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+
+  animation-name: orbit;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+
+}
+
+.rings-opposite {
+  width: 500px;
+  height: 240px;
+  border-radius: 50%;
+  border: 8px double #ffc107;
+  transform: skew(33deg);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+
+  animation-name: orbit-opposite;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+
+.planet {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* #ff5722 */
+  background-image: linear-gradient(#ff5722 50%, firebrick);
+}
+
+.yellow {
+    background-image: linear-gradient(#ffc107, firebrick);
+
+}
+
+@keyframes orbit{
+  from { transform: rotate(180deg); }
+  to{ transform: rotate(-180deg); }
+}
+
+@keyframes orbit-opposite{
+  from { transform: rotate(-180deg); }
+  to{ transform: rotate(180deg); }
+}
