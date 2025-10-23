@@ -856,6 +856,14 @@
     "projectPath": "Art/mattcsmith-triangle"
   },
   {
+    "author": "mdtausifiqbal",
+    "artName": "Clock Animation",
+    "githubLink": "https://github.com/mdtausifiqbal",
+    "pageLink": "./Art/mdtausifiqbal-clockanimation/index.html",
+    "imageLink": "./Art/mdtausifiqbal-clockanimation/icon.png",
+    "projectPath": "Art/mdtausifiqbal-clockanimation"
+  },
+  {
     "author": "mrkc2303",
     "artName": "eclipse",
     "githubLink": "https://github.com/mrkc2303",
@@ -1069,6 +1077,14 @@
     "pageLink": "./Art/tomdu3-time-flies/index.html",
     "imageLink": "./Art/tomdu3-time-flies/icon.png",
     "projectPath": "Art/tomdu3-time-flies"
+  },
+  {
+    "author": "vishrutha-rao-k",
+    "artName": "Quantum Pulse",
+    "githubLink": "https://github.com/vishrutha-rao-k",
+    "pageLink": "./Art/vishrutha-rao-k-quantum-pulse/index.html",
+    "imageLink": "./Art/vishrutha-rao-k-quantum-pulse/icon.png",
+    "projectPath": "Art/vishrutha-rao-k-quantum-pulse"
   },
   {
     "author": "volt3301",
