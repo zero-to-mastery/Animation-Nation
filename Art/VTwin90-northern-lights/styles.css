@@ -1,5 +1,6 @@
 /* Base */
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -26,7 +27,7 @@ body, html {
   height: 80px;
   background: radial-gradient(circle at 30% 30%, #fff, #ccc 70%, #888);
   border-radius: 50%;
-  box-shadow: 0 0 40px rgba(255,255,255,0.3);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
   z-index: 8;
   animation: moonPulse 20s infinite ease-in-out;
 }
@@ -36,9 +37,13 @@ body, html {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-image: radial-gradient(circle at 20% 30%, rgba(0,0,0,0.2) 5px, transparent 6px),
-                    radial-gradient(circle at 60% 50%, rgba(0,0,0,0.15) 4px, transparent 5px),
-                    radial-gradient(circle at 40% 70%, rgba(0,0,0,0.1) 3px, transparent 4px);
+  background-image: radial-gradient(
+      circle at 20% 30%,
+      rgba(0, 0, 0, 0.2) 5px,
+      transparent 6px
+    ),
+    radial-gradient(circle at 60% 50%, rgba(0, 0, 0, 0.15) 4px, transparent 5px),
+    radial-gradient(circle at 40% 70%, rgba(0, 0, 0, 0.1) 3px, transparent 4px);
   background-repeat: no-repeat;
   mix-blend-mode: multiply;
 }
@@ -65,7 +70,12 @@ body, html {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(120deg, rgba(60,255,255,0.2), rgba(159,255,102,0.3), rgba(255,102,255,0.2));
+  background: linear-gradient(
+    120deg,
+    rgba(60, 255, 255, 0.2),
+    rgba(159, 255, 102, 0.3),
+    rgba(255, 102, 255, 0.2)
+  );
   background-size: 400% 400%;
   background-position: 0% 50%;
   animation: auroraFlow 60s ease-in-out infinite;
@@ -77,7 +87,12 @@ body, html {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(100deg, rgba(60,255,255,0.1), rgba(159,255,102,0.2), rgba(255,102,255,0.1));
+  background: linear-gradient(
+    100deg,
+    rgba(60, 255, 255, 0.1),
+    rgba(159, 255, 102, 0.2),
+    rgba(255, 102, 255, 0.1)
+  );
   filter: blur(50px);
   mix-blend-mode: screen;
   animation: auroraDriftSecondary 60s ease-in-out infinite;
@@ -149,7 +164,14 @@ body, html {
 
 /* Icelayer 1 */
 .icelayer1 {
-  background: linear-gradient(to right, #0a1a2a, #1a3a5a, #2a5a7a, #1a3a5a, #0a1a2a);
+  background: linear-gradient(
+    to right,
+    #0a1a2a,
+    #1a3a5a,
+    #2a5a7a,
+    #1a3a5a,
+    #0a1a2a
+  );
   animation: iceShift 60s linear infinite;
   z-index: 1;
   background-repeat: repeat;
@@ -166,7 +188,19 @@ body, html {
 }
 .icelayer1::before {
   background: linear-gradient(to right, #1a3a5a, #2a6a8a, #3a7a9a);
-  clip-path: polygon(0% 100%, 10% 85%, 20% 90%, 30% 82%, 40% 88%, 50% 85%, 60% 88%, 70% 82%, 80% 86%, 90% 88%, 100% 100%);
+  clip-path: polygon(
+    0% 100%,
+    10% 85%,
+    20% 90%,
+    30% 82%,
+    40% 88%,
+    50% 85%,
+    60% 88%,
+    70% 82%,
+    80% 86%,
+    90% 88%,
+    100% 100%
+  );
   animation: iceShift 5s linear infinite;
   filter: blur(3px);
   opacity: 0.3;
@@ -174,7 +208,19 @@ body, html {
 }
 .icelayer1::after {
   background: linear-gradient(to right, #2a5a7a, #3a7a9a, #4a8aaa);
-  clip-path: polygon(0% 100%, 10% 80%, 20% 85%, 30% 78%, 40% 83%, 50% 80%, 60% 83%, 70% 78%, 80% 82%, 90% 84%, 100% 100%);
+  clip-path: polygon(
+    0% 100%,
+    10% 80%,
+    20% 85%,
+    30% 78%,
+    40% 83%,
+    50% 80%,
+    60% 83%,
+    70% 78%,
+    80% 82%,
+    90% 84%,
+    100% 100%
+  );
   filter: blur(4px);
   opacity: 0.25;
   z-index: 3;
@@ -183,7 +229,14 @@ body, html {
 
 /* Ice Layer 2 */
 .icelayer2 {
-  background: linear-gradient(to right, #102840, #1c4a6a, #2a6a8a, #1c4a6a, #102840);
+  background: linear-gradient(
+    to right,
+    #102840,
+    #1c4a6a,
+    #2a6a8a,
+    #1c4a6a,
+    #102840
+  );
   z-index: 4;
   background-repeat: repeat;
   background-size: 400% 100%;
@@ -199,7 +252,19 @@ body, html {
 }
 .icelayer2::before {
   background: linear-gradient(to right, #2a5a7a, #3a7a9a, #4a8aaa);
-  clip-path: polygon(0% 100%, 10% 75%, 20% 80%, 30% 73%, 40% 78%, 50% 75%, 60% 78%, 70% 73%, 80% 77%, 90% 79%, 100% 100%);
+  clip-path: polygon(
+    0% 100%,
+    10% 75%,
+    20% 80%,
+    30% 73%,
+    40% 78%,
+    50% 75%,
+    60% 78%,
+    70% 73%,
+    80% 77%,
+    90% 79%,
+    100% 100%
+  );
   filter: blur(2px);
   opacity: 0.35;
   z-index: 5;
@@ -207,11 +272,23 @@ body, html {
 }
 .icelayer2::after {
   background: linear-gradient(to right, #3a7a9a, #4a8aaa, #5ab0cc);
-  clip-path: polygon(0% 100%, 10% 70%, 20% 75%, 30% 68%, 40% 73%, 50% 70%, 60% 73%, 70% 68%, 80% 72%, 90% 74%, 100% 100%);
+  clip-path: polygon(
+    0% 100%,
+    10% 70%,
+    20% 75%,
+    30% 68%,
+    40% 73%,
+    50% 70%,
+    60% 73%,
+    70% 68%,
+    80% 72%,
+    90% 74%,
+    100% 100%
+  );
   filter: blur(5px);
   opacity: 0.2;
   z-index: 6;
-  top: 8%; 
+  top: 8%;
 }
 
 /* Mist Above Pond */
@@ -220,7 +297,11 @@ body, html {
   bottom: 20%;
   width: 100%;
   height: 20%;
-  background: radial-gradient(ellipse at center, rgba(255,255,255,0.05), transparent);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.05),
+    transparent
+  );
   filter: blur(20px);
   z-index: 3;
   pointer-events: none;
@@ -232,7 +313,7 @@ body, html {
   bottom: 16%;
   width: 100%;
   height: 10%;
-  background: linear-gradient(to top, rgba(255,255,255,0.05), transparent);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.05), transparent);
   filter: blur(20px);
   z-index: 3;
 }
@@ -245,7 +326,7 @@ body, html {
   bottom: 20%;
 }
 .mountains.back {
-  background: linear-gradient(to top, #0b0b0b, rgba(255,255,255,0.05));
+  background: linear-gradient(to top, #0b0b0b, rgba(255, 255, 255, 0.05));
   clip-path: polygon(0% 100%, 20% 70%, 40% 85%, 60% 65%, 80% 80%, 100% 100%);
   opacity: 0.3;
   filter: blur(2px);
@@ -271,7 +352,12 @@ body, html {
 }
 
 .icebear-body {
-  background: radial-gradient(circle at 0 50%, #aab4c4, #b5becd 60%, #d7dfe7 61%);
+  background: radial-gradient(
+    circle at 0 50%,
+    #aab4c4,
+    #b5becd 60%,
+    #d7dfe7 61%
+  );
   height: 8.12em;
   width: 15.62em;
   border-radius: 8.12em 8.12em 0 0;
@@ -311,10 +397,14 @@ body, html {
   position: absolute;
   top: -1.2em;
 }
-.ear-l { left: 1em; }
-.ear-r { right: 1em; }
+.ear-l {
+  left: 1em;
+}
+.ear-r {
+  right: 1em;
+}
 .ear::before {
-  content: "";
+  content: '';
   position: absolute;
   background-color: #a87c9f;
   height: 1.5em;
@@ -324,7 +414,8 @@ body, html {
   left: 0.5em;
 }
 
-.eye-l, .eye-r {
+.eye-l,
+.eye-r {
   position: absolute;
   height: 0.81em;
   width: 1.56em;
@@ -332,10 +423,15 @@ body, html {
   border-radius: 0 0 1.87em 1.87em;
   top: 3.75em;
 }
-.eye-l { left: 1.56em; }
-.eye-r { right: 1.56em; }
-.eye-l::before, .eye-r::before {
-  content: "";
+.eye-l {
+  left: 1.56em;
+}
+.eye-r {
+  right: 1.56em;
+}
+.eye-l::before,
+.eye-r::before {
+  content: '';
   position: absolute;
   background-color: #d7dfe7;
   height: 0.75em;
@@ -356,7 +452,7 @@ body, html {
   top: 4.06em;
 }
 .mouth::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 0.93em;
   width: 1.25em;
@@ -366,7 +462,8 @@ body, html {
   transform: translateX(-50%);
 }
 
-.hand-l, .hand-r {
+.hand-l,
+.hand-r {
   position: absolute;
   height: 2.5em;
   width: 5em;
@@ -381,8 +478,9 @@ body, html {
   background-color: #ffffff;
   left: 5em;
 }
-.hand-l::before, .hand-r::before {
-  content: "";
+.hand-l::before,
+.hand-r::before {
+  content: '';
   position: absolute;
   height: 2em;
   width: 3.12em;
@@ -414,7 +512,7 @@ body, html {
 
 /* ZZZ Snoring ZZZ */
 .container span {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 2em;
   color: #021825;
@@ -439,27 +537,53 @@ body, html {
 
 /* KeyFrames Animations*/
 @keyframes moonPulse {
-  0%, 100% { box-shadow: 0 0 40px rgba(255,255,255,0.3); }
-  50% { box-shadow: 0 0 60px rgba(255,255,255,0.5); }
+  0%,
+  100% {
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 60px rgba(255, 255, 255, 0.5);
+  }
 }
 
 @keyframes twinkle {
-  0%, 100% { opacity: 0.8; }
-  50% { opacity: 0.2; }
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.2;
+  }
 }
 
 @keyframes auroraFlow {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes auroraDriftSecondary {
-  0%   { transform: translateX(0%) scaleY(1); }
-  25%  { transform: translateX(5%) scaleY(1.1); }
-  50%  { transform: translateX(10%) scaleY(0.9); }
-  75%  { transform: translateX(6%) scaleY(1.05); }
-  100% { transform: translateX(0%) scaleY(1); }
+  0% {
+    transform: translateX(0%) scaleY(1);
+  }
+  25% {
+    transform: translateX(5%) scaleY(1.1);
+  }
+  50% {
+    transform: translateX(10%) scaleY(0.9);
+  }
+  75% {
+    transform: translateX(6%) scaleY(1.05);
+  }
+  100% {
+    transform: translateX(0%) scaleY(1);
+  }
 }
 
 @keyframes snowFall {
@@ -468,25 +592,43 @@ body, html {
     opacity: 1;
   }
   100% {
-    transform: translateY(100vh) translateX(var(--drift)) rotate(360deg) scale(0.8);
+    transform: translateY(100vh) translateX(var(--drift)) rotate(360deg)
+      scale(0.8);
     opacity: 0.3;
   }
 }
 
 @keyframes icebearDrift {
-  0% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-52%) translateY(1.5%); }
-  100% { transform: translateX(-48%) translateY(0); }
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-52%) translateY(1.5%);
+  }
+  100% {
+    transform: translateX(-48%) translateY(0);
+  }
 }
 
 @keyframes icebearBreath {
-  0%, 100% { transform: scaleY(1); }
-  50% { transform: scaleY(1.15); }
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.15);
+  }
 }
 
 @keyframes snore {
-  30% { transform: rotate(10deg) translateY(0); opacity: 1; }
-  100% { transform: rotate(10deg) translateY(-7em); opacity: 0.2; }
+  30% {
+    transform: rotate(10deg) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(10deg) translateY(-7em);
+    opacity: 0.2;
+  }
 }
 
 /* Media Screens */
