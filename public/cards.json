@@ -144,6 +144,14 @@
     "projectPath": "Art/ClJarvis-saturn"
   },
   {
+    "author": "DEREKFERRER",
+    "artName": "Square Bear",
+    "githubLink": "https://github.com/DEREKFERRER",
+    "pageLink": "./Art/DEREKFERRER_SquareBear/index.html",
+    "imageLink": "./Art/DEREKFERRER_SquareBear/icon.png",
+    "projectPath": "Art/DEREKFERRER_SquareBear"
+  },
+  {
     "author": "GitSatishGarg",
     "artName": "Balloons",
     "githubLink": "https://github.com/GitSatishGarg",
@@ -552,6 +560,14 @@
     "projectPath": "Art/bmalvo-spinning-road-sign"
   },
   {
+    "author": "carljustineoyales",
+    "artName": "the otherlog clock",
+    "githubLink": "https://github.com/carljustineoyales",
+    "pageLink": "./Art/carljustineoyales-otherlog-clock/index.html",
+    "imageLink": "./Art/carljustineoyales-otherlog-clock/icon.png",
+    "projectPath": "Art/carljustineoyales-otherlog-clock"
+  },
+  {
     "author": "chandra-durgampudi",
     "artName": "Loading Stick Man",
     "githubLink": "https://github.com/chandra-durgampudi",
@@ -848,6 +864,14 @@
     "projectPath": "Art/mattcsmith-triangle"
   },
   {
+    "author": "mdtausifiqbal",
+    "artName": "Clock Animation",
+    "githubLink": "https://github.com/mdtausifiqbal",
+    "pageLink": "./Art/mdtausifiqbal-clockanimation/index.html",
+    "imageLink": "./Art/mdtausifiqbal-clockanimation/icon.png",
+    "projectPath": "Art/mdtausifiqbal-clockanimation"
+  },
+  {
     "author": "mrkc2303",
     "artName": "eclipse",
     "githubLink": "https://github.com/mrkc2303",
@@ -991,6 +1015,14 @@
     "projectPath": "Art/ornitcg-solar-system"
   },
   {
+    "author": "Pasan11504",
+    "artName": "smyley bouncing",
+    "githubLink": "https://github.com/Pasan11504",
+    "pageLink": "./Art/pasan11504-smiley/index.html",
+    "imageLink": "./Art/pasan11504-smiley/icon.png",
+    "projectPath": "Art/pasan11504-smiley"
+  },
+  {
     "author": "pleomorph",
     "artName": "hacktoberfest2025",
     "githubLink": "https://github.com/pleomorph",
@@ -1061,6 +1093,14 @@
     "pageLink": "./Art/tomdu3-time-flies/index.html",
     "imageLink": "./Art/tomdu3-time-flies/icon.png",
     "projectPath": "Art/tomdu3-time-flies"
+  },
+  {
+    "author": "vishrutha-rao-k",
+    "artName": "Quantum Pulse",
+    "githubLink": "https://github.com/vishrutha-rao-k",
+    "pageLink": "./Art/vishrutha-rao-k-quantum-pulse/index.html",
+    "imageLink": "./Art/vishrutha-rao-k-quantum-pulse/icon.png",
+    "projectPath": "Art/vishrutha-rao-k-quantum-pulse"
   },
   {
     "author": "volt3301",

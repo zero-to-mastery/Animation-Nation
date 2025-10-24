@@ -1,0 +1,141 @@
+:root {
+  --clock-width: 350px;
+  --clock-height: 350px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wall {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.footer__text {
+  position: absolute;
+  bottom: 10%;
+  font-family: arial;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: black;
+  border-radius: 100%;
+  background: radial-gradient(circle at 10%, #bf9b30, white, #bf9b30);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.clock__body {
+  width: var(--clock-width);
+  height: var(--clock-height);
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.5),
+    inset -2px -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.clock .center {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.clock .branding {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.numbers {
+  --radius: calc(var(--clock-width) * 0.4);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.number {
+  --rotation: calc(360deg / var(--total) * (var(--i) - 2));
+  position: absolute;
+  transform: translateX(calc(cos(var(--rotation)) * var(--radius)))
+    translateY(calc(sin(var(--rotation)) * var(--radius)));
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.needles {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 4;
+}
+
+.needles .needle {
+  width: 100%;
+  height: calc(var(--clock-height) * 0.8);
+  position: absolute;
+}
+
+.needles .needle::before {
+  content: '';
+  display: block;
+  height: 50%;
+  width: var(--needle-width);
+  background: var(--needle-color);
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  clip-path: polygon(50% 0%, 100% 5%, 100% 100%, 0 100%, 0 5%);
+}
+
+.needles .needle.second {
+  animation: rotateNeedle 60s linear infinite;
+  z-index: 3;
+}
+
+.needles .needle.minute {
+  animation: rotateNeedle 3600s linear infinite;
+  z-index: 2;
+}
+
+.needles .needle.hour {
+  animation: rotateNeedle 216000s linear infinite;
+  z-index: 1;
+  height: calc(var(--clock-width) * 0.6);
+}
+
+@keyframes rotateNeedle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
