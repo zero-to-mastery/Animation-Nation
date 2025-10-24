@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(240, 240, 240);
+}
+
+/* Tree image setup */
+.tree {
+  width: 200px;
+  height: 250px;
+  background-image: url("tree.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: sway-tree;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transform-origin: bottom center; /* makes the sway look natural */
+}
+
+/* Tree sway animation */
+@keyframes sway-tree {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
