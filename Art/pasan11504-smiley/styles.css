@@ -1,0 +1,140 @@
+/* Simple looping CSS-only Smyley bouncing animation
+   Designed for zero-to-mastery/Animation-Nation contributions
+   No images, no JS, single animation loop */
+
+:root {
+  --bg: #0f172a;
+  --yellow: #ffd24d;
+  --shadow: rgba(0, 0, 0, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+}
+
+.stage {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.face {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, var(--yellow), #ffb94a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transform-origin: 50% 90%;
+  animation: bounce 1.4s ease-in-out infinite;
+  box-shadow: 0 16px 30px -12px var(--shadow);
+}
+
+.eye {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #222;
+  margin: 0 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18) inset;
+}
+
+.mouth {
+  position: absolute;
+  bottom: 36px;
+  width: 72px;
+  height: 36px;
+  border-bottom-left-radius: 72px 36px;
+  border-bottom-right-radius: 72px 36px;
+  background: #e94a6b;
+  transform: translateY(6px);
+  animation: mouth-wiggle 1.4s ease-in-out infinite;
+}
+
+.face::after {
+  content: '';
+  position: absolute;
+  bottom: -18px;
+  width: 80px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.15);
+  filter: blur(6px);
+  transform-origin: 50% 50%;
+  animation: shadow-scale 1.4s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  30% {
+    transform: translateY(-36px) scale(1.02);
+  }
+  50% {
+    transform: translateY(-46px) scale(1.04);
+  }
+  65% {
+    transform: translateY(-32px) scale(1.03);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes mouth-wiggle {
+  0% {
+    transform: translateY(6px) scaleX(1);
+  }
+  40% {
+    transform: translateY(2px) scaleX(1.05);
+  }
+  60% {
+    transform: translateY(8px) scaleX(0.98);
+  }
+  100% {
+    transform: translateY(6px) scaleX(1);
+  }
+}
+
+@keyframes shadow-scale {
+  0% {
+    transform: scaleX(1) translateY(0);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scaleX(0.6) translateY(-6px);
+    opacity: 0.65;
+  }
+  100% {
+    transform: scaleX(1) translateY(0);
+    opacity: 0.9;
+  }
+}
+
+/* Responsive center */
+@media (max-width: 420px) {
+  .stage {
+    width: 90vw;
+    height: 90vw;
+  }
+  .face {
+    width: 46vw;
+    height: 46vw;
+  }
+}
