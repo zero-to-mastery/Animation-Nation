@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,
+  initial-scale=1.0">
+  <title>NYY Animation</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    .move-image {
+      position: relative;
+      animation: slide 2s infinite alternate;
+    }
+
+    @keyframes slide {
+      0% {
+        left: 0;
+      }
+      100% {
+        left: 10px; /* change this value to control how far it moves */
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="icon.png" alt="Moving Icon" class="move-image">
+</body>
+</html>
+
