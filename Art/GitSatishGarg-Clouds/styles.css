@@ -23,10 +23,20 @@ body {
   height: 60px;
   border-radius: 50%;
 }
-.cloud::before { top: -30px; left: 10px; }
-.cloud::after { top: -20px; left: 40px; }
+.cloud::before {
+  top: -30px;
+  left: 10px;
+}
+.cloud::after {
+  top: -20px;
+  left: 40px;
+}
 
 @keyframes drift {
-  0% { left: -120px; }
-  100% { left: 110%; }
+  0% {
+    left: -120px;
+  }
+  100% {
+    left: 110%;
+  }
 }

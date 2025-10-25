@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #000;
-  perspective: 800px; 
+  perspective: 800px;
 }
 
 .loader {
@@ -28,29 +28,66 @@ body {
   height: 100px;
   border: 2px solid #fff;
   background: rgba(30, 200, 150, 0.7);
-  box-shadow: 0 0 15px rgba(30,200,150,0.7), 0 0 25px rgba(30,200,150,0.5);
+  box-shadow: 0 0 15px rgba(30, 200, 150, 0.7), 0 0 25px rgba(30, 200, 150, 0.5);
   animation: colorShift 4s ease-in-out infinite alternate;
 }
 
-.front  { transform: translateZ(50px); }
-.back   { transform: rotateY(180deg) translateZ(50px); }
-.right  { transform: rotateY(90deg) translateZ(50px); }
-.left   { transform: rotateY(-90deg) translateZ(50px); }
-.top    { transform: rotateX(90deg) translateZ(50px); }
-.bottom { transform: rotateX(-90deg) translateZ(50px); }
+.front {
+  transform: translateZ(50px);
+}
+.back {
+  transform: rotateY(180deg) translateZ(50px);
+}
+.right {
+  transform: rotateY(90deg) translateZ(50px);
+}
+.left {
+  transform: rotateY(-90deg) translateZ(50px);
+}
+.top {
+  transform: rotateX(90deg) translateZ(50px);
+}
+.bottom {
+  transform: rotateX(-90deg) translateZ(50px);
+}
 
 @keyframes rotateCube {
-  0%   { transform: rotateX(0deg) rotateY(0deg); }
-  25%  { transform: rotateX(180deg) rotateY(90deg); }
-  50%  { transform: rotateX(360deg) rotateY(180deg); }
-  75%  { transform: rotateX(540deg) rotateY(270deg); }
-  100% { transform: rotateX(720deg) rotateY(360deg); }
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  25% {
+    transform: rotateX(180deg) rotateY(90deg);
+  }
+  50% {
+    transform: rotateX(360deg) rotateY(180deg);
+  }
+  75% {
+    transform: rotateX(540deg) rotateY(270deg);
+  }
+  100% {
+    transform: rotateX(720deg) rotateY(360deg);
+  }
 }
 
 @keyframes colorShift {
-  0%   { background: rgba(30,200,150,0.7); border-color: #1dd1a1; }
-  25%  { background: rgba(255,159,67,0.7); border-color: #ff9f43; }
-  50%  { background: rgba(84,160,255,0.7); border-color: #54a0ff; }
-  75%  { background: rgba(255,159,67,0.7); border-color: #ff9f43; }
-  100% { background: rgba(30,200,150,0.7); border-color: #1dd1a1; }
+  0% {
+    background: rgba(30, 200, 150, 0.7);
+    border-color: #1dd1a1;
+  }
+  25% {
+    background: rgba(255, 159, 67, 0.7);
+    border-color: #ff9f43;
+  }
+  50% {
+    background: rgba(84, 160, 255, 0.7);
+    border-color: #54a0ff;
+  }
+  75% {
+    background: rgba(255, 159, 67, 0.7);
+    border-color: #ff9f43;
+  }
+  100% {
+    background: rgba(30, 200, 150, 0.7);
+    border-color: #1dd1a1;
+  }
 }
