@@ -12,12 +12,35 @@ body {
   position: absolute;
   animation: twinkle 2s infinite alternate;
 }
-.stars div:nth-child(1) { top: 20%; left: 10%; animation-delay: 0s; }
-.stars div:nth-child(2) { top: 50%; left: 50%; animation-delay: 0.5s; }
-.stars div:nth-child(3) { top: 80%; left: 30%; animation-delay: 1s; }
-.stars div:nth-child(4) { top: 40%; left: 70%; animation-delay: 1.5s; }
+.stars div:nth-child(1) {
+  top: 20%;
+  left: 10%;
+  animation-delay: 0s;
+}
+.stars div:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  animation-delay: 0.5s;
+}
+.stars div:nth-child(3) {
+  top: 80%;
+  left: 30%;
+  animation-delay: 1s;
+}
+.stars div:nth-child(4) {
+  top: 40%;
+  left: 70%;
+  animation-delay: 1.5s;
+}
 
 @keyframes twinkle {
-  0%, 100% { opacity: 0.2; transform: scale(0.5); }
-  50% { opacity: 1; transform: scale(1.2); }
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
 }
