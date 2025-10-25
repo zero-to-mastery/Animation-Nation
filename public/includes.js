@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardsContainer = document.getElementById("cards");
   const statsElement = document.getElementById("stats");
   const goToTopBtn = document.querySelector(".go-to-top");
+  const clearBtn = document.getElementById("clearBtn");
 
   let masterCardList = [];
 
@@ -11,9 +12,19 @@ document.addEventListener("DOMContentLoaded", () => {
     for (
       let j, x, i = array.length;
       i;
-      j = parseInt(Math.random() * i), x = array[--i], (array[i] = array[j]), (array[j] = x)
+      j = parseInt(Math.random() * i), (x = array[--i]), (array[i] = array[j]), (array[j] = x)
     );
     return array;
+  }
+
+  function debounce(func, delay = 300) {
+    let timer;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        func.apply(this, args);
+      }, delay);
+    };
   }
 
   const renderCards = (cardsToRender) => {
@@ -22,25 +33,21 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
     const html = cardsToRender
-      .map(
-        (card) => `
-      <li class="card">
-        <a href='${card.pageLink || "#"}'>
-          <img class="art-image" src='${card.imageLink || ""}' alt='${
-          card.artName || "Untitled"
-        }' />
-        </a>
-        <a class="art-title" href='${card.pageLink || "#"}'><h3>${
-          card.artName || "Untitled"
-        }</h3></a>
-        <p class='author'>
-          <a href="${card.githubLink || "#"}" target="_blank">${
-          card.author || "Unknown"
-        }</a>
-        </p>
-      </li>
-    `
-      )
+      .map((card) => `
+        <li class="card">
+          <a href='${card.pageLink || "#"}'>
+            <img class="art-image" src='${card.imageLink || ""}' alt='${card.artName || "Untitled"}' />
+          </a>
+          <a class="art-title" href='${card.pageLink || "#"}'>
+            <h3>${card.artName || "Untitled"}</h3>
+          </a>
+          <p class='author'>
+            <a href="${card.githubLink || "#"}" target="_blank">
+             <i class="fab fa-github"></i> ${card.author || "Unknown"}
+            </a>
+          </p>
+        </li>
+      `)
       .join("");
     cardsContainer.innerHTML = html;
   };
@@ -48,9 +55,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const handleSearch = () => {
     const query = searchInput.value.toLowerCase().trim();
 
-    if (query === "") {
-      renderCards(shuffle(masterCardList));
-      return;
+    if (query.length > 0) {
+      clearBtn.classList.add("visible");
+    } else {
+      clearBtn.classList.remove("visible");
     }
 
     const filteredList = masterCardList.filter((card) => {
@@ -60,6 +68,11 @@ document.addEventListener("DOMContentLoaded", () => {
       return artName.includes(query) || author.includes(query);
     });
 
+    if (query === "") {
+      statsElement.innerHTML = `Showcasing ${masterCardList.length} artworks`;
+    } else {
+      statsElement.innerHTML = `Showcasing ${masterCardList.length} artworks | ${filteredList.length} found`;
+    }
     renderCards(filteredList);
   };
 
@@ -69,9 +82,20 @@ document.addEventListener("DOMContentLoaded", () => {
       masterCardList = data.filter((card) => card);
       statsElement.innerHTML = `Showcasing ${masterCardList.length} artworks`;
 
-      renderCards(shuffle(masterCardList));
+      if (searchInput.value.trim() !== "") {
+        handleSearch();
+      } else {
+        renderCards(shuffle(masterCardList));
+      }
 
-      searchInput.addEventListener("input", handleSearch);
+      searchInput.addEventListener("input", debounce(handleSearch));
+
+      clearBtn.addEventListener("click", () => {
+        searchInput.value = "";
+        renderCards(shuffle(masterCardList)); 
+        handleSearch();
+        searchInput.blur();
+      });
     })
     .catch((error) => {
       console.error("Error loading artworks:", error);

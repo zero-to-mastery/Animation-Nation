@@ -62,7 +62,7 @@ ul {
 }
 
 .card-container {
-    padding-top: 120px;
+    padding-top: 210px;
 }
 
 
@@ -82,35 +82,29 @@ ul {
     flex-wrap: wrap;
 }
 
-.flex-content {
-    
-}
-
 #cards {
     display: flex;
     flex-wrap: wrap;
-    margin: 3vw;
-    padding: 50px;
-    grid-gap: 20px;
-    overflow: hidden;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 .card {
     background-color: #1a1a1ace;
     padding: 30px;
-    backdrop-filter: blur(1px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: space-between;
-    height: 40vh;
-    min-width: 250px;
-    width: 18vw;
-    max-width: 250px;
     border: 2px solid var(--main-30);
     border-radius: 10px;
-    margin-top: 20px;
-    transition: 0.5s ease;
+    flex-basis: 260px;
+    flex-grow: 0;
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 330px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
 }
 
@@ -236,30 +230,31 @@ ul {
   top: 120px;
   left: 0;
   right: 0;
-  
-  z-index: 999; 
-  
+  z-index: 999;
+  display: flex;
+  justify-content: center;
   padding: 15px 0;
   background: #1a1a1ade;
   border-bottom: 2px solid var(--main-20);
+}
 
+.search-wrapper {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
   display: flex;
-  justify-content: center;
 }
 
 #searchInput {
-  width: 90%;
-  max-width: 400px;
+  width: 100%;
   padding: 12px;
-  
+  padding-right: 40px; 
   border: 1px solid var(--main-40);
   border-radius: 8px;
   background-color: #2c2c2c;
   color: #f1f1f1;
   font-size: 1rem;
   font-family: 'Comfortaa';
-  
-  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 #searchInput:focus {
@@ -268,8 +263,24 @@ ul {
   box-shadow: 0 0 8px var(--main-50);
 }
 
-#searchInput::placeholder {
+.clear-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
   color: #888;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.clear-btn.visible {
+  opacity: 1;
+  visibility: visible;
 }
 
 .no-results {
