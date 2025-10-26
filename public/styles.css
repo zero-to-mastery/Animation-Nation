@@ -225,7 +225,7 @@ ul {
     background: rgb(88, 194, 250);
 }
 
-.search-container {
+#search-container {
   position: fixed;
   top: 120px;
   left: 0;
@@ -238,14 +238,14 @@ ul {
   border-bottom: 2px solid var(--main-20);
 }
 
-.search-wrapper {
+#search-wrapper {
   position: relative;
   width: 90%;
   max-width: 400px;
   display: flex;
 }
 
-#searchInput {
+#search-input {
   width: 100%;
   padding: 12px;
   padding-right: 40px; 
@@ -257,13 +257,13 @@ ul {
   font-family: 'Comfortaa';
 }
 
-#searchInput:focus {
+#search-input:focus {
   outline: none;
   border-color: var(--main);
   box-shadow: 0 0 8px var(--main-50);
 }
 
-.clear-btn {
+#clear-btn {
   position: absolute;
   top: 50%;
   right: 10px;
@@ -278,7 +278,7 @@ ul {
   transition: opacity 0.2s, visibility 0.2s;
 }
 
-.clear-btn.visible {
+#clear-btn.visible {
   opacity: 1;
   visibility: visible;
 }

@@ -75,11 +75,11 @@ function handleSearch(elements, masterCardList) {
 
 async function initApp() {
   const elements = {
-    searchInput: document.getElementById("searchInput"),
+    searchInput: document.getElementById("search-input"),
     cardsContainer: document.getElementById("cards"),
     statsElement: document.getElementById("stats"),
     goToTopBtn: document.querySelector(".go-to-top"),
-    clearBtn: document.getElementById("clearBtn"),
+    clearBtn: document.getElementById("clear-btn"),
   };
 
   try {
