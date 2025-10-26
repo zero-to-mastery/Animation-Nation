@@ -119,8 +119,7 @@ body {
 }
 
 /* String */
-.ball-wrapper::before {
-  content: "";
+.string {
   position: absolute;
   top: 0;
   left: 50%;
