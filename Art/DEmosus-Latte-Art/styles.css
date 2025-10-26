@@ -67,6 +67,11 @@ body {
   z-index: 1;
 }
 
+.heart-wrap {
+  display: inline-block;
+  animation: beatWobble 2.5s infinite ease-in-out;
+}
+
 /* Heart styling */
 .heart {
   position: relative;
@@ -74,7 +79,6 @@ body {
   height: 100px;
   background: #fff;
   transform: rotate(-45deg);
-  animation: beatWobble 2.5s infinite ease-in-out;
   z-index: 1;
 }
 
@@ -112,46 +116,64 @@ body {
 .steam1 {
   left: 30%;
   animation-delay: 0s;
+  animation-duration: 3.5s;
 }
+
 .steam2 {
   left: 50%;
   animation-delay: 1s;
+  animation-duration: 4s;
 }
+
 .steam3 {
   left: 70%;
   animation-delay: 2s;
+  animation-duration: 3s;
 }
 
 /* Animations */
 @keyframes beatWobble {
   0%,
   100% {
-    transform: rotate(-45deg) scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0);
   }
   20% {
-    transform: rotate(-48deg) scale(1.15) translate(-2px, -2px);
+    transform: scale(1.15) translate(0, -2px);
   }
   40% {
-    transform: rotate(-42deg) scale(0.9) translate(2px, 2px);
+    transform: scale(0.9) translate(0, 2px);
   }
   60% {
-    transform: rotate(-46deg) scale(1.1) translate(-1px, -1px);
+    transform: scale(1.1) translate(0, -1px);
   }
   80% {
-    transform: rotate(-44deg) scale(1.05) translate(1px, 1px);
+    transform: scale(1.05) translate(0, 1px);
   }
 }
 
 @keyframes rise {
   0% {
-    transform: translateY(0) scale(1);
+    transform: translate(0, 0) scale(1);
     opacity: 0.3;
   }
+  25% {
+    transform: translate(-10px, -25px) scale(1.1);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translate(10px, -50px) scale(1.2);
+    opacity: 0.2;
+  }
+  75% {
+    transform: translate(-5px, -75px) scale(1.35);
+    opacity: 0.15;
+  }
   100% {
-    transform: translateY(-100px) scale(1.5);
+    transform: translate(5px, -100px) scale(1.5);
     opacity: 0;
   }
 }
+
 
 @keyframes fadeIn {
   0% {
