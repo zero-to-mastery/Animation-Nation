@@ -61,6 +61,66 @@ fetch('./public/cards.json')
     console.error('Error fetching the cards.json file:', error);
   });
 
+// THEME TOGGLE: initialize and wire up theme toggle button
+(function () {
+  const THEME_KEY = 'site-theme'; // 'dark' or 'light'
+
+  function prefersLight() {
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+  }
+
+  function applyTheme(theme) {
+    if (theme === 'light') {
+      document.documentElement.setAttribute('data-theme', 'light');
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+    }
+    updateToggleIcon(theme);
+  }
+
+  function updateToggleIcon(theme) {
+    const btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    const icon = btn.querySelector('.icon');
+    if (theme === 'light') {
+      icon.textContent = '🌙';
+      btn.setAttribute('aria-pressed', 'true');
+      btn.title = 'Switch to dark theme';
+    } else {
+      icon.textContent = '🌞';
+      btn.setAttribute('aria-pressed', 'false');
+      btn.title = 'Switch to light theme';
+    }
+  }
+
+  // Initialize
+  let saved = null;
+  try {
+    saved = localStorage.getItem(THEME_KEY);
+  } catch (e) {
+    // ignore
+  }
+
+  const initialTheme = saved || (prefersLight() ? 'light' : 'dark');
+  applyTheme(initialTheme);
+
+  // Wire up button
+  document.addEventListener('DOMContentLoaded', function () {
+    const btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      const current = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+      const next = current === 'light' ? 'dark' : 'light';
+      applyTheme(next);
+      try {
+        localStorage.setItem(THEME_KEY, next);
+      } catch (e) {
+        // ignore
+      }
+    });
+  });
+})();
+
 // 🎨 Hacktoberfest Card Data
 const cardList = [
   {
