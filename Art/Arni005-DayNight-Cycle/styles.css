@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background: #1a1a2e;
+    overflow:hidden;
+}
+
+.scene {
+    position: relative;
+    width:300px;
+    height:200px;
+    border-radius:15px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Sky with day-night transition */
+.sky {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:70%;
+    background: linear-gradient(to bottom, #87CEEB, #98D8F0);
+    animation: sky-cycle 10s infinite alternate;
+}
+
+@keyframes sky-cycle {
+    0%, 40% {
+        background: linear-gradient(to bottom, #87CEEB, #98D8F0);
+    }
+    50%, 90% {
+        background: linear-gradient(to bottom, #1a237e, #283593);
+    }
+    100% {
+        background: linear-gradient(to bottom, #87CEEB, #98D8F0);
+    }
+}
+
+/* Sun/Moon */
+.sun-moon {
+    position: absolute;
+    top: 30px;
+    left:50px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background: #FFD700;
+    box-shadow: 0 0 20px #FFA500;
+    animation: sun-moon-orbit 10s infinite alternate;
+}
+
+@keyframes sun-moon-orbit {
+    0%, 40% {
+        transform: translateX(0) translateY(0);
+        background: #FFD700;
+        box-shadow: 0 0 20px #FFA500;
+    }
+    50%, 90% {
+        transform: translateX(200px) translateY(30px);
+        background: #E8E8E8;
+        box-shadow: 0 0 15px #FFFFFF;
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+        background: #FFD700;
+        box-shadow: 0 0 20px #FFA500;
+    }
+}
+
+/* Clouds */
+.cloud {
+    position: absolute;
+    background: white;
+    border-radius: 50px;
+    opacity: 0.9;
+}
+
+.cloud-1 {
+    top:40px;
+    left: 150px;
+    width:60px;
+    height:25px;
+    animation: cloud-move-1 15s infinite linear;
+}
+
+.cloud-2 {
+    top: 60px;
+    left:50px;
+    width:45px;
+    height:20px;
+    animation: cloud-move-2 12s infinite linear;
+}
+
+.cloud-3 {
+    top: 80px;
+    left: 200px;
+    width:35px;
+    height:15px;
+    animation: cloud-move-3 18s infinite linear;
+}
+
+@keyframes cloud-move-1 {
+    0% { transform: translateX(300px); }
+    100% { transform: translateX(-100px); }
+}
+
+@keyframes cloud-move-2 {
+    0% { transform: translateX(-50px); }
+    100% { transform: translateX(300px); }
+}
+
+@keyframes cloud-move-3 {
+    0% { transform: translateX(300px); }
+    100% { transform: translateX(-100px); }
+}
+
+/* Stars in night cycle */
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:70%;
+    opacity: 0;
+    animation: stars-twinkle 10s infinite alternate;
+}
+
+.stars::before,
+.stars::after {
+    content: '';
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+}
+
+.stars::before {
+    top: 20px;
+    right:80px;
+    width:2px;
+    height: 2px;
+    box-shadow: 
+        50px 30px white,
+        120px 50px white,
+        180px 20px white,
+        220px 60px white,
+        80px 80px white;
+}
+
+.stars::after {
+    top: 40px;
+    right: 40px;
+    width: 1px;
+    height: 1px;
+    box-shadow: 
+        30px 20px white,
+        90px 40px white,
+        150px 30px white,
+        200px 70px white,
+        60px 60px white;
+}
+
+@keyframes stars-twinkle {
+    0%, 40% {
+        opacity: 0;
+    }
+    50%, 90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Ground */
+.ground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height: 30%;
+    background: linear-gradient(to bottom, #8BC34A, #689F38);
+    animation: ground-cycle 10s infinite alternate;
+}
+
+@keyframes ground-cycle {
+    0%, 40% {
+        background: linear-gradient(to bottom, #8BC34A, #689F38);
+    }
+    50%, 90% {
+        background: linear-gradient(to bottom, #2E7D32, #1B5E20);
+    }
+    100% {
+        background: linear-gradient(to bottom, #8BC34A, #689F38);
+    }
+}
+
+/* Mountain */
+.mountain {
+    position: absolute;
+    bottom:30%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left:60px solid transparent;
+    border-right:60px solid transparent;
+    border-bottom:80px solid #795548;
+    animation: mountain-cycle 10s infinite alternate;
+}
+
+@keyframes mountain-cycle {
+    0%, 40% {
+        border-bottom-color: #795548;
+    }
+    50%, 90% {
+        border-bottom-color: #5D4037;
+    }
+    100% {
+        border-bottom-color: #795548;
+    }
+}
+
+/* Tree */
+.tree {
+    position: absolute;
+    bottom:30%;
+    right: 50px;
+}
+
+.tree::before {
+    content: '';
+    position:absolute;
+    bottom: 0;
+    left: -10px;
+    width: 0;
+    height:0;
+    border-left: 10px solid transparent;
+    border-right:10px solid transparent;
+    border-bottom:40px solid #5D4037;
+}
+
+.tree::after {
+    content: '';
+    position: absolute;
+    bottom: 30px;
+    left: -25px;
+    width: 0;
+    height:0;
+    border-left: 25px solid transparent;
+    border-right:25px solid transparent;
+    border-bottom:60px solid #388E3C;
+    animation: tree-cycle 10s infinite alternate;
+}
+
+@keyframes tree-cycle {
+    0%, 40% {
+        border-bottom-color: #388E3C;
+    }
+    50%, 90% {
+        border-bottom-color: #1B5E20;
+    }
+    100% {
+        border-bottom-color: #388E3C;
+    }
+}
