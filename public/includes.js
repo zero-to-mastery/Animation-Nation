@@ -1,117 +1,115 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const searchInput = document.getElementById("searchInput");
-  const cardsContainer = document.getElementById("cards");
-  const statsElement = document.getElementById("stats");
-  const goToTopBtn = document.querySelector(".go-to-top");
-  const clearBtn = document.getElementById("clearBtn");
+function shuffle(array) {
+  const newArray = [...array];
+  for (
+    let j, x, i = newArray.length;
+    i;
+    j = parseInt(Math.random() * i),
+      (x = newArray[--i]),
+      (newArray[i] = newArray[j]),
+      (newArray[j] = x)
+  );
+  return newArray;
+}
 
-  let masterCardList = [];
-
-  function shuffle(o) {
-    const array = [...o];
-    for (
-      let j, x, i = array.length;
-      i;
-      j = parseInt(Math.random() * i), (x = array[--i]), (array[i] = array[j]), (array[j] = x)
-    );
-    return array;
-  }
-
-  function debounce(func, delay = 300) {
-    let timer;
-    return (...args) => {
-      clearTimeout(timer);
-      timer = setTimeout(() => {
-        func.apply(this, args);
-      }, delay);
-    };
-  }
-
-  const renderCards = (cardsToRender) => {
-    if (cardsToRender.length === 0 && searchInput.value !== "") {
-      cardsContainer.innerHTML = '<p class="no-results">No artworks found.</p>';
-      return;
-    }
-    const html = cardsToRender
-      .map((card) => `
-        <li class="card">
-          <a href='${card.pageLink || "#"}'>
-            <img class="art-image" src='${card.imageLink || ""}' alt='${card.artName || "Untitled"}' />
-          </a>
-          <a class="art-title" href='${card.pageLink || "#"}'>
-            <h3>${card.artName || "Untitled"}</h3>
-          </a>
-          <p class='author'>
-            <a href="${card.githubLink || "#"}" target="_blank">
-             <i class="fab fa-github"></i> ${card.author || "Unknown"}
-            </a>
-          </p>
-        </li>
-      `)
-      .join("");
-    cardsContainer.innerHTML = html;
+function debounce(func, delay = 300) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      func.apply(this, args);
+    }, delay);
   };
+}
 
-  const handleSearch = () => {
-    const query = searchInput.value.toLowerCase().trim();
+function renderMessage(container, message) {
+  if (!container) return;
+  container.innerHTML = `<p class="no-results">${message}</p>`;
+}
 
-    if (query.length > 0) {
-      clearBtn.classList.add("visible");
-    } else {
-      clearBtn.classList.remove("visible");
-    }
+function renderCards(container, cardList) {
+  if (!container) return;
+  if (cardList.length === 0) {
+    renderMessage(container, "No artworks found.");
+    return;
+  }
+  const html = cardList
+    .map((card) => `
+      <li class="card">
+        <a href='${card.pageLink || "#"}'>
+          <img class="art-image" src='${card.imageLink || ""}' alt='${card.artName || "Untitled"}' />
+        </a>
+        <a class="art-title" href='${card.pageLink || "#"}'>
+          <h3>${card.artName || "Untitled"}</h3>
+        </a>
+        <p class='author'>
+          <a href="${card.githubLink || "#"}" target="_blank">
+            <i class="fab fa-github"></i> ${card.author || "Unknown"}
+          </a>
+        </p>
+      </li>
+    `)
+    .join("");
+  container.innerHTML = html;
+}
 
+function handleSearch(elements, masterCardList) {
+  const { searchInput, cardsContainer, statsElement, clearBtn } = elements;
+  const query = searchInput.value.toLowerCase().trim();
+
+  clearBtn.classList.toggle("visible", query.length > 0);
+
+  if (query === "") {
+    statsElement.innerHTML = `Showcasing ${masterCardList.length} artworks`;
+    renderCards(cardsContainer, shuffle(masterCardList));
+  } else {
     const filteredList = masterCardList.filter((card) => {
       if (!card) return false;
       const artName = (card.artName || "").toLowerCase();
       const author = (card.author || "").toLowerCase();
       return artName.includes(query) || author.includes(query);
     });
+    statsElement.innerHTML = `Showcasing ${masterCardList.length} artworks | ${filteredList.length} found`;
+    renderCards(cardsContainer, filteredList);
+  }
+}
 
-    if (query === "") {
-      statsElement.innerHTML = `Showcasing ${masterCardList.length} artworks`;
-    } else {
-      statsElement.innerHTML = `Showcasing ${masterCardList.length} artworks | ${filteredList.length} found`;
-    }
-    renderCards(filteredList);
+async function initApp() {
+  const elements = {
+    searchInput: document.getElementById("searchInput"),
+    cardsContainer: document.getElementById("cards"),
+    statsElement: document.getElementById("stats"),
+    goToTopBtn: document.querySelector(".go-to-top"),
+    clearBtn: document.getElementById("clearBtn"),
   };
 
-  fetch("./public/cards.json")
-    .then((response) => response.json())
-    .then((data) => {
-      masterCardList = data.filter((card) => card);
-      statsElement.innerHTML = `Showcasing ${masterCardList.length} artworks`;
+  try {
+    const response = await fetch("./public/cards.json");
+    if (!response.ok) throw new Error("Failed to fetch cards.json");
+    const data = await response.json();
+    
+    const masterCardList = data;
 
-      if (searchInput.value.trim() !== "") {
-        handleSearch();
-      } else {
-        renderCards(shuffle(masterCardList));
-      }
+    const debouncedSearch = debounce(() => handleSearch(elements, masterCardList), 300);
+    elements.searchInput.addEventListener("input", debouncedSearch);
 
-      searchInput.addEventListener("input", debounce(handleSearch));
-
-      clearBtn.addEventListener("click", () => {
-        searchInput.value = "";
-        renderCards(shuffle(masterCardList)); 
-        handleSearch();
-        searchInput.blur();
-      });
-    })
-    .catch((error) => {
-      console.error("Error loading artworks:", error);
-      cardsContainer.innerHTML =
-        '<p class="no-results">Error: Could not load artworks.</p>';
+    elements.clearBtn.addEventListener("click", () => {
+      elements.searchInput.value = "";
+      handleSearch(elements, masterCardList); 
+      elements.searchInput.blur();
     });
 
-  window.onscroll = function () {
-    if (window.scrollY > 100) {
-      goToTopBtn.classList.add("active");
-    } else {
-      goToTopBtn.classList.remove("active");
-    }
-  };
+    handleSearch(elements, masterCardList);
+    window.onscroll = () => {
+      elements.goToTopBtn.classList.toggle("active", window.scrollY > 100);
+    };
+    elements.goToTopBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
 
-  goToTopBtn.addEventListener("click", function () {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-});
+  } catch (error) {
+    console.error("Error initializing app:", error);
+    renderMessage(elements.cardsContainer, "Error: Could not load artworks.");
+  }
+}
+
+document.addEventListener("DOMContentLoaded", initApp);
