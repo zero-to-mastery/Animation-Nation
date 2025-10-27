@@ -32,6 +32,14 @@
     "projectPath": "Art/Arni005-Pulsating-Heart"
   },
   {
+    "author": "Arni005",
+    "artName": "Sweet Treat",
+    "githubLink": "https://github.com/Arni005",
+    "pageLink": "./Art/Arni005-Sweet-Treat/index.html",
+    "imageLink": "./Art/Arni005-Sweet-Treat/icon.png",
+    "projectPath": "Art/Arni005-Sweet-Treat"
+  },
+  {
     "author": "Bharath-dev05",
     "artName": "Butterflies",
     "githubLink": "https://github.com/Bharath-dev05",
@@ -166,6 +174,22 @@
     "pageLink": "./Art/DEREKFERRER_SquareBear/index.html",
     "imageLink": "./Art/DEREKFERRER_SquareBear/icon.png",
     "projectPath": "Art/DEREKFERRER_SquareBear"
+  },
+  {
+    "author": "DEmosus",
+    "artName": "Fractal Bloom",
+    "githubLink": "https://github.com/DEmosus",
+    "pageLink": "./Art/DEmosus-Fractal-Bloom/index.html",
+    "imageLink": "./Art/DEmosus-Fractal-Bloom/icon.png",
+    "projectPath": "Art/DEmosus-Fractal-Bloom"
+  },
+  {
+    "author": "DEmosus",
+    "artName": "Galactic Kaleidoscope",
+    "githubLink": "https://github.com/DEmosus",
+    "pageLink": "./Art/DEmosus-Galactic-Kaleidoscope/index.html",
+    "imageLink": "./Art/DEmosus-Galactic-Kaleidoscope/icon.png",
+    "projectPath": "Art/DEmosus-Galactic-Kaleidoscope"
   },
   {
     "author": "GitSatishGarg",
