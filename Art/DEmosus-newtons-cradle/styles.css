@@ -150,9 +150,9 @@ body {
   animation: swing-right 1.8s infinite ease-in-out;
 }
 
-.ball-wrapper.ball2,
-.ball-wrapper.ball3,
-.ball-wrapper.ball4 {
+.ball-wrapper.ball2 .ball,
+.ball-wrapper.ball3 .ball,
+.ball-wrapper.ball4 .ball{
   animation: vibrate 1.8s infinite ease-in-out; /* Subtle middle vibration */
 }
 
