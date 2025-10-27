@@ -176,6 +176,22 @@
     "projectPath": "Art/DEREKFERRER_SquareBear"
   },
   {
+    "author": "DEmosus",
+    "artName": "Fractal Bloom",
+    "githubLink": "https://github.com/DEmosus",
+    "pageLink": "./Art/DEmosus-Fractal-Bloom/index.html",
+    "imageLink": "./Art/DEmosus-Fractal-Bloom/icon.png",
+    "projectPath": "Art/DEmosus-Fractal-Bloom"
+  },
+  {
+    "author": "DEmosus",
+    "artName": "Galactic Kaleidoscope",
+    "githubLink": "https://github.com/DEmosus",
+    "pageLink": "./Art/DEmosus-Galactic-Kaleidoscope/index.html",
+    "imageLink": "./Art/DEmosus-Galactic-Kaleidoscope/icon.png",
+    "projectPath": "Art/DEmosus-Galactic-Kaleidoscope"
+  },
+  {
     "author": "GitSatishGarg",
     "artName": "Balloons",
     "githubLink": "https://github.com/GitSatishGarg",
