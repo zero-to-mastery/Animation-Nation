@@ -32,11 +32,9 @@ jobs:
 
       - name: Check for labelled PR to skip
         run: |
-          LABELS=$(\ 
-            gh pr view ${{ github.event.pull_request.number }} \
+          LABELS=$(gh pr view ${{ github.event.pull_request.number }} \
             -R "${{ github.event.pull_request.base.repo.full_name }}" \
-            --json labels --jq ".labels[].name" \
-          )
+            --json labels --jq ".labels[].name")
           if echo "$LABELS" | grep -Eiq 'Out of scope|Consideration / WIP'; then
             echo "Skipping pre-review for non-scoped contributions."
             exit 0
