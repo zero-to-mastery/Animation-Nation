@@ -21,6 +21,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 50
+      
       - name: Check for labelled PR to skip
         run: |
           LABELS=$(gh pr view --json labels --jq ".labels[].name")
@@ -28,11 +34,6 @@ jobs:
             echo "Skipping pre-review for non-scoped contributions."
             exit 0
           fi
-      - uses: actions/checkout@v4
-        with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 50
 
       - uses: actions/setup-node@v4
         with:
