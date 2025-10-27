@@ -26,7 +26,10 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 50
-      
+          
+      - name: Fetch master branch
+        run: git fetch origin master
+
       - name: Check for labelled PR to skip
         run: |
           LABELS=$(gh pr view --json labels --jq ".labels[].name")
@@ -40,8 +43,6 @@ jobs:
           node-version: 20
           cache: 'npm'
 
-      - name: Fetch master branch
-        run: git fetch origin master
 
       - name: Collect information
         run: |
