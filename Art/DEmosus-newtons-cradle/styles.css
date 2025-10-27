@@ -61,7 +61,7 @@ body {
   text-shadow: 0 0 10px rgba(56, 189, 248, 0.8);
   margin-bottom: 20px;
   text-align: center;
-  animation: glow 2s infinite alternate;
+  /* animation: glow 2s infinite alternate; */
 }
 
 /* Cradle frame */
@@ -277,12 +277,12 @@ body {
 
 .joke-setup {
   color: #4ade80;
-  animation: glow-green 2.5s infinite alternate;
+  /* animation: glow-green 2.5s infinite alternate; */
 }
 
 .joke-punchline {
   color: #c084fc;
-  animation: glow-purple 2.5s infinite alternate;
+  /* animation: glow-purple 2.5s infinite alternate; */
 }
 
 .joke:hover {
