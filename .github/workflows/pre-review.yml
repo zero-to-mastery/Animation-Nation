@@ -14,7 +14,6 @@ permissions:
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  SKIP_REST: false
 
 jobs:
   pre-review:
@@ -22,6 +21,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check for labelled PR to skip
+        run: |
+          LABELS=$(gh pr view --json labels --jq ".labels[].name")
+          if echo "$LABELS" | grep -Eiq 'Out of scope|Consideration / WIP'; then
+            echo "Skipping pre-review for non-scoped contributions."
+            exit 0
+          fi
       - uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
