@@ -141,18 +141,18 @@ body {
     inset 4px 4px 8px rgba(255, 255, 255, 0.5), 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Animations */
-.ball1 {
+/* Animations applied to wrappers */
+.ball-wrapper.ball1 {
   animation: swing-left 1.8s infinite ease-in-out;
 }
 
-.ball5 {
+.ball-wrapper.ball5 {
   animation: swing-right 1.8s infinite ease-in-out;
 }
 
-.ball2,
-.ball3,
-.ball4 {
+.ball-wrapper.ball2,
+.ball-wrapper.ball3,
+.ball-wrapper.ball4 {
   animation: vibrate 1.8s infinite ease-in-out; /* Subtle middle vibration */
 }
 
