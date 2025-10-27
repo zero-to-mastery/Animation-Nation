@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Slackey|Comfortaa|Slackside+One&display=swap');
 
 :root {
-    --main: #03dac6;
-    --main-header: #25c2c0a6;
-    --main-darker: #017170c3;
-    --main-deep: #00a8b7;
-    --shadow: rgba(255, 255, 255, 0.151);
-    --main-10: #03dac61a;
-    --main-20: #03dac61f;
-    --main-30: #03dac630;
-    --main-40: #03dac640;
-    --main-50: #03dac650;
+    --main: #ffffff;
+    --main-header: #f5f5f5e6;
+    --main-darker: #e0e0e0c3;
+    --main-deep: #f0f0f0;
+    --shadow: rgba(255, 255, 255, 0.6);
+    --main-10: #ffffff1a;
+    --main-20: #ffffff2f;
+    --main-30: #ffffff50;
+    --main-40: #ffffff70;
+    --main-50: #ffffff90;
 }
 
 body {
@@ -82,9 +82,7 @@ ul {
     flex-wrap: wrap;
 }
 
-.flex-content {
-    
-}
+
 
 #cards {
     display: flex;
@@ -97,13 +95,13 @@ ul {
 
 .card {
     background-color: #1a1a1ace;
-    padding: 30px;
+    padding: 3px;
     backdrop-filter: blur(1px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
-    height: 40vh;
+    height: 35vh;
     min-width: 250px;
     width: 18vw;
     max-width: 250px;
@@ -137,6 +135,7 @@ ul {
     border: 2.5px solid var(--main-darker);
     padding: 5px;
     object-fit: cover;
+    margin-top: 20px;
 }
 
 .art-title {
