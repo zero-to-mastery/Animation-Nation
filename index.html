@@ -12,6 +12,199 @@
     <link rel="stylesheet" type="text/css" href="./public/styles.css" />
     <link rel="icon" type="image/png" href="./public/favicon.ico" />
     <title>Animation Nation - ZTM Hacktoberfest</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+        background-size: 200% 200%;
+        animation: gradientShift 15s ease infinite;
+        min-height: 100vh;
+        position: relative;
+        overflow-x: hidden;
+      }
+      
+      @keyframes gradientShift {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      
+      /* Animated background particles */
+      body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 
+          radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+          radial-gradient(circle at 80% 80%, rgba(255, 119, 198, 0.15) 0%, transparent 50%),
+          radial-gradient(circle at 40% 20%, rgba(120, 219, 255, 0.15) 0%, transparent 50%);
+        animation: float 20s ease-in-out infinite;
+        pointer-events: none;
+        z-index: 0;
+      }
+      
+      @keyframes float {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50% { transform: translateY(-30px) rotate(5deg); }
+      }
+      
+      /* Header styling */
+      #header {
+        text-align: center;
+        padding: 60px 20px 40px;
+        position: relative;
+        z-index: 1;
+        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.1);
+        margin: 20px;
+        border-radius: 30px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        animation: slideDown 0.8s ease;
+      }
+      
+      @keyframes slideDown {
+        from {
+          opacity: 0;
+          transform: translateY(-50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      #header h1 {
+        font-size: 4.5rem;
+        font-weight: 800;
+        color: white;
+        text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        letter-spacing: -2px;
+        margin-bottom: 15px;
+        background: linear-gradient(135deg, #fff 0%, #e0e7ff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        position: relative;
+        display: inline-block;
+        animation: bounce 2s ease infinite;
+      }
+      
+      @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      
+      #header h1::after {
+        content: '✨';
+        position: absolute;
+        font-size: 3rem;
+        animation: sparkle 2s ease infinite;
+      }
+      
+      @keyframes sparkle {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.5; transform: scale(1.2); }
+      }
+      
+      #stats {
+        font-size: 1.3rem;
+        color: white;
+        opacity: 0.9;
+        font-weight: 400;
+      }
+      
+      /* Card container */
+      .card-container {
+        position: relative;
+        z-index: 1;
+        padding: 40px 20px;
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+      
+      .flex {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 30px;
+        list-style: none;
+        padding: 0;
+      }
+      
+      /* Go to top button */
+      .go-to-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 10px 30px rgba(102, 126, 234, 0.5);
+        transition: all 0.3s ease;
+        z-index: 1000;
+        animation: pulse 2s ease infinite;
+        font-size: 2rem;
+        color: white;
+        border: 3px solid rgba(255, 255, 255, 0.3);
+      }
+      
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); box-shadow: 0 10px 30px rgba(102, 126, 234, 0.5); }
+        50% { transform: scale(1.1); box-shadow: 0 15px 40px rgba(102, 126, 234, 0.8); }
+      }
+      
+      .go-to-top:hover {
+        transform: scale(1.2) translateY(-5px);
+        box-shadow: 0 20px 50px rgba(102, 126, 234, 0.8);
+      }
+      
+      /* Responsive design */
+      @media (max-width: 768px) {
+        #header h1 {
+          font-size: 2.5rem;
+        }
+        
+        .flex {
+          grid-template-columns: 1fr;
+          gap: 20px;
+        }
+        
+        .card-container {
+          padding: 20px 10px;
+        }
+        
+        .go-to-top {
+          width: 50px;
+          height: 50px;
+          bottom: 20px;
+          right: 20px;
+          font-size: 1.5rem;
+        }
+      }
+      
+      /* Additional effects */
+      #header:hover {
+        background: rgba(255, 255, 255, 0.15);
+        transform: scale(1.02);
+        transition: all 0.3s ease;
+      }
+    </style>
   </head>
 
   <body>
