@@ -14,7 +14,6 @@ permissions:
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  SKIP_REST: false
 
 jobs:
   pre-review:
@@ -27,16 +26,34 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 50
+          
+      - name: Fetch master branch
+        run: git fetch origin master
+
+      - name: Check for labelled PR to skip
+        id: check-skip
+        run: |
+          LABELS=$(gh pr view ${{ github.event.pull_request.number }} \
+            -R "${{ github.event.pull_request.base.repo.full_name }}" \
+            --json labels --jq ".labels[].name")
+
+          if echo "$LABELS" | grep -Eiq 'Out of scope|Consideration / WIP'; then
+            echo "Skipping pre-review for non-scoped contributions."
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "Eligible for pre-review"
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
 
       - uses: actions/setup-node@v4
+        if: steps.check-skip.outputs.skip != 'true'
         with:
           node-version: 20
           cache: 'npm'
 
-      - name: Fetch master branch
-        run: git fetch origin master
 
       - name: Collect information
+        if: steps.check-skip.outputs.skip != 'true'
         run: |
           echo "Setting environment variables for preReview.js"
           setEnv() { echo "$1=${!1}" >> $GITHUB_ENV; }
@@ -67,6 +84,7 @@ jobs:
           setEnv "GITHUB_PERMISSION_ROLE"
 
       - name: Run "preReview" script
+        if: steps.check-skip.outputs.skip != 'true'
         id: pre-review
         run: |
           PR_NUMBER=${{ github.event.pull_request.number }}

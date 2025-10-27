@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+}
+
+/* Ice Cream Container */
+.ice-cream {
+  position: relative;
+  width: 180px;
+  height: 300px;
+  margin: 0 auto;
+  animation: bounce 3s ease-in-out infinite;
+}
+
+/* Ice Cream Cone */
+.cone {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 120px;
+  background: linear-gradient(to bottom, #e67e22, #d35400);
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+  border-radius: 0 0 10px 10px;
+}
+
+/* Ice Cream Scoops */
+.scoop {
+  position: absolute;
+  width: 140px;
+  height: 100px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: wobble 4s ease-in-out infinite;
+}
+
+.scoop-1 {
+  background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+  bottom: 120px;
+  z-index: 3;
+  animation-delay: 0s;
+}
+
+.scoop-2 {
+  background: linear-gradient(135deg, #a29bfe, #6c5ce7);
+  bottom: 80px;
+  z-index: 2;
+  animation-delay: 0.2s;
+  width: 130px;
+  height: 90px;
+}
+
+.scoop-3 {
+  background: linear-gradient(135deg, #fd79a8, #e84393);
+  bottom: 40px;
+  z-index: 1;
+  animation-delay: 0.4s;
+  width: 120px;
+  height: 80px;
+}
+
+/* Cherry */
+.cherry {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
+  border-radius: 50%;
+  z-index: 4;
+  animation: cherry-bounce 2s ease-in-out infinite;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cherry::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 15px;
+  background: #27ae60;
+  border-radius: 2px;
+}
+
+/* Melting Drips */
+.drip {
+  position: absolute;
+  width: 12px;
+  height: 25px;
+  background: linear-gradient(to bottom, #ff6b6b, #ff8e8e);
+  border-radius: 0 0 6px 6px;
+  animation: drip 3s ease-in-out infinite;
+  z-index: 2;
+}
+
+.drip-1 {
+  left: 45%;
+  bottom: 120px;
+  animation-delay: 0.5s;
+}
+
+.drip-2 {
+  left: 50%;
+  bottom: 120px;
+  animation-delay: 1s;
+}
+
+.drip-3 {
+  left: 55%;
+  bottom: 120px;
+  animation-delay: 1.5s;
+}
+
+/* Cute Face */
+.face {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.eye {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #2d3436;
+  border-radius: 50%;
+  animation: blink 4s ease-in-out infinite;
+}
+
+.left-eye {
+  left: -20px;
+}
+
+.right-eye {
+  right: -20px;
+}
+
+.mouth {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 8px;
+  background: #2d3436;
+  border-radius: 0 0 10px 10px;
+  animation: smile 3s ease-in-out infinite;
+}
+
+.blush {
+  position: absolute;
+  width: 16px;
+  height: 8px;
+  background: rgba(255, 155, 155, 0.6);
+  border-radius: 50%;
+  top: 15px;
+  animation: blush 2s ease-in-out infinite;
+}
+
+.left-blush {
+  left: -30px;
+}
+
+.right-blush {
+  right: -30px;
+}
+
+/* Sparkles */
+.sparkle {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+.s1 {
+  width: 8px;
+  height: 8px;
+  top: 50px;
+  left: 50px;
+  animation-delay: 0s;
+}
+
+.s2 {
+  width: 6px;
+  height: 6px;
+  top: 80px;
+  right: 60px;
+  animation-delay: 0.7s;
+}
+
+.s3 {
+  width: 10px;
+  height: 10px;
+  bottom: 100px;
+  left: 70px;
+  animation-delay: 1.4s;
+}
+
+/* Animations */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes wobble {
+  0%,
+  100% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  25% {
+    transform: translateX(-50%) rotate(2deg);
+  }
+  75% {
+    transform: translateX(-50%) rotate(-2deg);
+  }
+}
+
+@keyframes cherry-bounce {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(-50%) translateY(-5px) rotate(5deg);
+  }
+  50% {
+    transform: translateX(-50%) translateY(0) rotate(0deg);
+  }
+  75% {
+    transform: translateX(-50%) translateY(-3px) rotate(-5deg);
+  }
+}
+
+@keyframes drip {
+  0%,
+  100% {
+    transform: translateY(0) scaleY(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(15px) scaleY(1.2);
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0%,
+  45%,
+  55%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.1);
+  }
+}
+
+@keyframes smile {
+  0%,
+  100% {
+    width: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+  50% {
+    width: 25px;
+    border-radius: 0 0 12px 12px;
+  }
+}
+
+@keyframes blush {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes sparkle {
+  0%,
+  100% {
+    transform: scale(0) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1) rotate(180deg);
+    opacity: 1;
+  }
+}
+
+@keyframes title-bounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Background elements */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+      4px 4px at 20% 30%,
+      rgba(255, 255, 255, 0.3),
+      transparent
+    ),
+    radial-gradient(3px 3px at 40% 70%, rgba(255, 255, 255, 0.4), transparent),
+    radial-gradient(5px 5px at 60% 20%, rgba(255, 255, 255, 0.5), transparent);
+  animation: float 15s linear infinite;
+  z-index: -1;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ice-cream {
+    width: 150px;
+    height: 250px;
+  }
+
+  .scoop {
+    width: 120px;
+    height: 80px;
+  }
+
+  .scoop-2 {
+    width: 110px;
+    height: 70px;
+  }
+
+  .scoop-3 {
+    width: 100px;
+    height: 60px;
+  }
+}
