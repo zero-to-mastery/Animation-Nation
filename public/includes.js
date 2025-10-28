@@ -24,7 +24,7 @@ function debounce(func, delay = 300) {
 }
 
 // Renders a generic message ("No results") into a specified container.
-function renderMessage(container, message) {
+function renderNoResultsMessage(container, message) {
   if (!container) return;
   container.innerHTML = `<p class="no-results">${message}</p>`;
 }
@@ -33,7 +33,7 @@ function renderMessage(container, message) {
 function renderCards(container, cardList) {
   if (!container) return;
   if (cardList.length === 0) {
-    renderMessage(container, "No artworks found.");
+    renderNoResultsMessage(container, "No artworks found.");
     return;
   }
   const html = cardList
@@ -56,6 +56,15 @@ function renderCards(container, cardList) {
   container.innerHTML = html;
 }
 
+// Updates the stats text with the total and optionally the filtered count.
+function updateStats(statsElement, totalCount, filteredCount) {
+  let message = `Showcasing ${totalCount} artworks`;
+  if (filteredCount !== undefined) {
+    message += ` | ${filteredCount} found`;
+  }
+  statsElement.innerHTML = message;
+}
+
 // Filters cards, updates stats, and triggers re-renders based on search input.
 function handleSearch(elements, masterCardList) {
   const { searchInput, cardsContainer, statsElement, clearBtn } = elements;
@@ -64,7 +73,7 @@ function handleSearch(elements, masterCardList) {
   clearBtn.classList.toggle("visible", query.length > 0);
 
   if (query === "") {
-    statsElement.innerHTML = `Showcasing ${masterCardList.length} artworks`;
+    updateStats(statsElement, masterCardList.length);
     renderCards(cardsContainer, shuffle(masterCardList));
   } else {
     const filteredList = masterCardList.filter((card) => {
@@ -73,7 +82,7 @@ function handleSearch(elements, masterCardList) {
       const author = (card.author || "").toLowerCase();
       return artName.includes(query) || author.includes(query);
     });
-    statsElement.innerHTML = `Showcasing ${masterCardList.length} artworks | ${filteredList.length} found`;
+    updateStats(statsElement, masterCardList.length, filteredList.length);
     renderCards(cardsContainer, filteredList);
   }
 }
@@ -117,7 +126,7 @@ async function initApp() {
 
   } catch (error) {
     console.error("Error initializing app:", error);
-    renderMessage(elements.cardsContainer, "Error: Could not load artworks.");
+    renderNoResultsMessage(elements.cardsContainer, "Error: Could not load artworks.");
   }
 }
 
