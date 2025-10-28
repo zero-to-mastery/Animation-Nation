@@ -1,0 +1,30 @@
+body {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pulsewave {
+  width: 80px;
+  height: 80px;
+  background-color: #00ffff;
+  border-radius: 50%;
+  animation: pulsewave 1.2s infinite ease-in-out;
+}
+
+@keyframes pulsewave {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
