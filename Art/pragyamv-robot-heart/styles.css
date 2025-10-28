@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 130vh;
-  background:#000000;
+  background: #000000;
 }
 
 .robot {
@@ -30,11 +30,15 @@ body {
   top: 25px;
 }
 
-.eye.left { left: 20px; }
-.eye.right { right: 20px; }
+.eye.left {
+  left: 20px;
+}
+.eye.right {
+  right: 20px;
+}
 
 .eye::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 5px;
   left: 4px;
@@ -73,8 +77,13 @@ body {
   transform-origin: top center;
 }
 
-.arm.left { left: -18px; }
-.arm.right { right: -18px; animation: wave 3s ease-in-out infinite; }
+.arm.left {
+  left: -18px;
+}
+.arm.right {
+  right: -18px;
+  animation: wave 3s ease-in-out infinite;
+}
 
 .heart {
   position: absolute;
@@ -86,12 +95,29 @@ body {
 }
 
 @keyframes wave {
-  0%, 100% { transform: rotate(0deg); }
-  30%, 50% { transform: rotate(-40deg); }
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  30%,
+  50% {
+    transform: rotate(-40deg);
+  }
 }
 
 @keyframes heartPop {
-  0%, 20% { opacity: 0; transform: scale(0.5); }
-  35%, 70% { opacity: 1; transform: scale(1.2) translateY(-20px); }
-  100% { opacity: 0; transform: scale(0.5) translateY(-40px); }
+  0%,
+  20% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  35%,
+  70% {
+    opacity: 1;
+    transform: scale(1.2) translateY(-20px);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5) translateY(-40px);
+  }
 }
