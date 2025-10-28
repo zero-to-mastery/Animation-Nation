@@ -1,3 +1,4 @@
+// Shuffles an array's elements into a random order without mutating the original.
 function shuffle(array) {
   const newArray = [...array];
   for (
@@ -11,6 +12,7 @@ function shuffle(array) {
   return newArray;
 }
 
+// Returns a function that delays invoking its callback until after a specified delay.
 function debounce(func, delay = 300) {
   let timer;
   return (...args) => {
@@ -21,11 +23,13 @@ function debounce(func, delay = 300) {
   };
 }
 
+// Renders a generic message ("No results") into a specified container.
 function renderMessage(container, message) {
   if (!container) return;
   container.innerHTML = `<p class="no-results">${message}</p>`;
 }
 
+// Renders a list of card objects into the main card container.
 function renderCards(container, cardList) {
   if (!container) return;
   if (cardList.length === 0) {
@@ -52,6 +56,7 @@ function renderCards(container, cardList) {
   container.innerHTML = html;
 }
 
+// Filters cards, updates stats, and triggers re-renders based on search input.
 function handleSearch(elements, masterCardList) {
   const { searchInput, cardsContainer, statsElement, clearBtn } = elements;
   const query = searchInput.value.toLowerCase().trim();
@@ -73,6 +78,7 @@ function handleSearch(elements, masterCardList) {
   }
 }
 
+// Fetches initial data and sets up all application event listeners.
 async function initApp() {
   const elements = {
     searchInput: document.getElementById("search-input"),
@@ -98,7 +104,10 @@ async function initApp() {
       elements.searchInput.blur();
     });
 
+    // Manages the initial render, including handling the browser back button state.
     handleSearch(elements, masterCardList);
+
+    // Sets up the go-to-top button functionality.
     window.onscroll = () => {
       elements.goToTopBtn.classList.toggle("active", window.scrollY > 100);
     };
@@ -112,4 +121,5 @@ async function initApp() {
   }
 }
 
+// Kicks off the application once the DOM is fully loaded.
 document.addEventListener("DOMContentLoaded", initApp);
