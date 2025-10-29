@@ -1,0 +1,495 @@
+:root {
+  --bg: #f0f4f8;
+  --grid-color: #dbe2e8;
+  --primary-line: #0a3d62;
+  --secondary-line: #e67e22;
+  --accent-glow: rgba(230, 126, 34, 0.5);
+  --panel-color: rgba(10, 61, 98, 0.1);
+  --building-color: #ffffff;
+  --scene-size: min(85vw, 85vh);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scene {
+  width: var(--scene-size);
+  height: var(--scene-size);
+  perspective: calc(var(--scene-size) * 10);
+}
+
+.grid-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(var(--grid-color) 1px, transparent 1px),
+    linear-gradient(to right, var(--grid-color) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.blueprint-container {
+  width: 100%;
+  height: 100%;
+  animation: scene-spin 120s infinite linear;
+}
+
+@keyframes scene-spin {
+  from {
+    transform: rotateX(75deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(75deg) rotateZ(360deg);
+  }
+}
+
+.central-axis {
+  position: absolute;
+  width: 2px;
+  height: 150%;
+  top: -25%;
+  left: calc(50% - 1px);
+  background: var(--primary-line);
+}
+
+.cityscape {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 30%;
+  left: 30%;
+  animation: cityscape-rotate 50s infinite linear;
+}
+
+@keyframes cityscape-rotate {
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.city-base {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff, #e9eef2 60%);
+  border: 1px solid var(--grid-color);
+  transform: rotateX(90deg);
+}
+
+.building-group {
+  width: 100%;
+  height: 100%;
+}
+
+.building {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  background-color: var(--building-color);
+  border: 1px solid var(--grid-color);
+  transform-origin: bottom center;
+  animation: building-growth 8s infinite ease-in-out;
+}
+
+@keyframes building-growth {
+  0%,
+  100% {
+    transform: var(--transform) scaleY(0.05);
+  }
+  50% {
+    transform: var(--transform) scaleY(1);
+  }
+}
+
+.building::before,
+.building::after {
+  content: '';
+  position: absolute;
+  background: inherit;
+  border: inherit;
+}
+
+.building.b1 {
+  width: 3%;
+  height: 15%;
+  --transform: rotateY(0deg) translateZ(calc(var(--scene-size) * 0.1));
+  animation-delay: -0.2s;
+}
+.building.b2 {
+  width: 4%;
+  height: 25%;
+  --transform: rotateY(30deg) translateZ(calc(var(--scene-size) * 0.1));
+  animation-delay: -0.4s;
+}
+.building.b3 {
+  width: 3.5%;
+  height: 20%;
+  --transform: rotateY(60deg) translateZ(calc(var(--scene-size) * 0.1));
+  animation-delay: -0.6s;
+}
+.building.b4 {
+  width: 3%;
+  height: 30%;
+  --transform: rotateY(90deg) translateZ(calc(var(--scene-size) * 0.1));
+  animation-delay: -0.8s;
+}
+.building.b5 {
+  width: 4%;
+  height: 22%;
+  --transform: rotateY(120deg) translateZ(calc(var(--scene-size) * 0.1));
+  animation-delay: -1s;
+}
+.building.b6 {
+  width: 3.5%;
+  height: 28%;
+  --transform: rotateY(150deg) translateZ(calc(var(--scene-size) * 0.1));
+  animation-delay: -1.2s;
+}
+.building.b7 {
+  width: 3%;
+  height: 20%;
+  --transform: rotateY(180deg) translateZ(calc(var(--scene-size) * 0.1));
+  animation-delay: -1.4s;
+}
+.building.b8 {
+  width: 4%;
+  height: 35%;
+  --transform: rotateY(210deg) translateZ(calc(var(--scene-size) * 0.1));
+  animation-delay: -1.6s;
+}
+.building.b9 {
+  width: 3.5%;
+  height: 24%;
+  --transform: rotateY(240deg) translateZ(calc(var(--scene-size) * 0.1));
+  animation-delay: -1.8s;
+}
+.building.b10 {
+  width: 3%;
+  height: 32%;
+  --transform: rotateY(270deg) translateZ(calc(var(--scene-size) * 0.1));
+  animation-delay: -2s;
+}
+.building.b11 {
+  width: 4%;
+  height: 26%;
+  --transform: rotateY(300deg) translateZ(calc(var(--scene-size) * 0.1));
+  animation-delay: -2.2s;
+}
+.building.b12 {
+  width: 3.5%;
+  height: 38%;
+  --transform: rotateY(330deg) translateZ(calc(var(--scene-size) * 0.1));
+  animation-delay: -2.4s;
+}
+
+.building.b13 {
+  width: 2.5%;
+  height: 25%;
+  --transform: rotateY(15deg) translateZ(calc(var(--scene-size) * 0.18));
+  animation-delay: -2.6s;
+}
+.building.b14 {
+  width: 3.5%;
+  height: 35%;
+  --transform: rotateY(45deg) translateZ(calc(var(--scene-size) * 0.18));
+  animation-delay: -2.8s;
+}
+.building.b15 {
+  width: 3%;
+  height: 30%;
+  --transform: rotateY(75deg) translateZ(calc(var(--scene-size) * 0.18));
+  animation-delay: -3s;
+}
+.building.b16 {
+  width: 2.5%;
+  height: 40%;
+  --transform: rotateY(105deg) translateZ(calc(var(--scene-size) * 0.18));
+  animation-delay: -3.2s;
+}
+.building.b17 {
+  width: 3.5%;
+  height: 28%;
+  --transform: rotateY(135deg) translateZ(calc(var(--scene-size) * 0.18));
+  animation-delay: -3.4s;
+}
+.building.b18 {
+  width: 3%;
+  height: 38%;
+  --transform: rotateY(165deg) translateZ(calc(var(--scene-size) * 0.18));
+  animation-delay: -3.6s;
+}
+.building.b19 {
+  width: 2.5%;
+  height: 28%;
+  --transform: rotateY(195deg) translateZ(calc(var(--scene-size) * 0.18));
+  animation-delay: -3.8s;
+}
+.building.b20 {
+  width: 3.5%;
+  height: 45%;
+  --transform: rotateY(225deg) translateZ(calc(var(--scene-size) * 0.18));
+  animation-delay: -4s;
+}
+.building.b21 {
+  width: 3%;
+  height: 33%;
+  --transform: rotateY(255deg) translateZ(calc(var(--scene-size) * 0.18));
+  animation-delay: -4.2s;
+}
+.building.b22 {
+  width: 2.5%;
+  height: 42%;
+  --transform: rotateY(285deg) translateZ(calc(var(--scene-size) * 0.18));
+  animation-delay: -4.4s;
+}
+.building.b23 {
+  width: 3.5%;
+  height: 30%;
+  --transform: rotateY(315deg) translateZ(calc(var(--scene-size) * 0.18));
+  animation-delay: -4.6s;
+}
+.building.b24 {
+  width: 3%;
+  height: 48%;
+  --transform: rotateY(345deg) translateZ(calc(var(--scene-size) * 0.18));
+  animation-delay: -4.8s;
+}
+
+.b4::after {
+  width: 10%;
+  height: 30%;
+  background: var(--secondary-line);
+  top: -30%;
+  left: 45%;
+  border: none;
+}
+.b8::before {
+  width: 140%;
+  height: 10%;
+  top: -10%;
+  left: -20%;
+}
+.b2::before {
+  width: 60%;
+  height: 20%;
+  top: -20%;
+  left: 20%;
+}
+
+.crane-system {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: system-rotate 80s infinite linear reverse;
+}
+@keyframes system-rotate {
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.crane {
+  position: absolute;
+  width: 2px;
+  height: 60%;
+  top: -10%;
+  left: calc(50% - 1px);
+  background: var(--secondary-line);
+  transform-origin: bottom center;
+}
+.crane:nth-child(1) {
+  transform: rotateY(0deg);
+}
+.crane:nth-child(2) {
+  transform: rotateY(120deg);
+}
+.crane:nth-child(3) {
+  transform: rotateY(240deg);
+}
+
+.arm {
+  position: absolute;
+  width: calc(var(--scene-size) * 0.4);
+  height: 2px;
+  top: 0;
+  left: 1px;
+  background: var(--secondary-line);
+  transform-origin: left center;
+  animation: arm-sway 18s infinite ease-in-out alternate;
+}
+.crane:nth-child(2) .arm {
+  animation-delay: -6s;
+}
+.crane:nth-child(3) .arm {
+  animation-delay: -12s;
+}
+@keyframes arm-sway {
+  to {
+    transform: rotateZ(30deg);
+  }
+}
+
+.cable {
+  position: absolute;
+  width: 1px;
+  height: 100px;
+  top: 0;
+  right: 20%;
+  background: linear-gradient(to bottom, var(--secondary-line), transparent);
+  animation: cable-length 18s infinite ease-in-out alternate;
+}
+@keyframes cable-length {
+  to {
+    height: calc(var(--scene-size) * 0.4);
+  }
+}
+.cable::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -4px;
+  width: 8px;
+  height: 8px;
+  background: var(--secondary-line);
+  box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.floating-scaffold {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  border-style: solid;
+  animation: scaffold-spin 40s infinite linear reverse;
+}
+.ring-1 {
+  width: 70%;
+  height: 70%;
+  margin: -35% 0 0 -35%;
+  border: 2px solid var(--primary-line);
+  opacity: 0.3;
+}
+.ring-2 {
+  width: 100%;
+  height: 100%;
+  margin: -50% 0 0 -50%;
+  border: 1px dotted var(--primary-line);
+  opacity: 0.2;
+  animation-duration: 60s;
+}
+.ring-3 {
+  width: 110%;
+  height: 110%;
+  margin: -55% 0 0 -55%;
+  border: 1px dashed var(--secondary-line);
+  opacity: 0.4;
+  animation-duration: 80s;
+}
+@keyframes scaffold-spin {
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+.scanner-arm {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--secondary-line),
+    transparent
+  );
+  top: 50%;
+  animation: scanner-sweep 10s infinite ease-in-out;
+}
+@keyframes scanner-sweep {
+  0%,
+  100% {
+    transform: translateZ(calc(var(--scene-size) * -0.3));
+  }
+  50% {
+    transform: translateZ(calc(var(--scene-size) * 0.3));
+  }
+}
+
+.hologram-field {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+}
+.panel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--panel-color);
+  border: 1px solid var(--primary-line);
+  animation: holo-flicker 12s infinite ease-in-out;
+}
+.panel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--accent-glow);
+  box-shadow: 0 0 10px var(--accent-glow);
+  animation: scan-line 6s infinite linear alternate;
+}
+.panel:nth-child(1) {
+  transform: rotateY(0deg) translateZ(calc(var(--scene-size) * 0.25));
+  animation-delay: -0s;
+}
+.panel:nth-child(2) {
+  transform: rotateY(90deg) translateZ(calc(var(--scene-size) * 0.25));
+  animation-delay: -3s;
+}
+.panel:nth-child(3) {
+  transform: rotateY(180deg) translateZ(calc(var(--scene-size) * 0.25));
+  animation-delay: -6s;
+}
+.panel:nth-child(4) {
+  transform: rotateY(-90deg) translateZ(calc(var(--scene-size) * 0.25));
+  animation-delay: -9s;
+}
+@keyframes holo-flicker {
+  0%,
+  20%,
+  80%,
+  100% {
+    opacity: 0;
+  }
+  30%,
+  70% {
+    opacity: 1;
+  }
+}
+@keyframes scan-line {
+  to {
+    top: calc(100% - 3px);
+  }
+}
