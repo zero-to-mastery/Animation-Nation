@@ -1,4 +1,8 @@
-// Shuffles an array's elements into a random order without mutating the original.
+/**
+ * Shuffles an array's elements into a random order without mutating the original.
+ * @param {Array} array The array to shuffle.
+ * @returns {Array} A new array containing the same elements in a random order.
+ */
 function shuffle(array) {
   const newArray = [...array];
   for (
@@ -12,7 +16,12 @@ function shuffle(array) {
   return newArray;
 }
 
-// Returns a function that delays invoking its callback until after a specified delay.
+/**
+ * Returns a function that delays invoking its callback until after a specified delay.
+ * @param {Function} func The function to debounce.
+ * @param {number} [delay=300] The number of milliseconds to delay.
+ * @returns {Function} The new debounced function.
+ */
 function debounce(func, delay = 300) {
   let timer;
   return (...args) => {
@@ -23,13 +32,21 @@ function debounce(func, delay = 300) {
   };
 }
 
-// Renders a generic message ("No results") into a specified container.
+/**
+ * Renders a generic message (e.g., "No results") into a specified container.
+ * @param {HTMLElement} container The DOM element to render the message into.
+ * @param {string} message The text content of the message.
+ */
 function renderNoResultsMessage(container, message) {
   if (!container) return;
   container.innerHTML = `<p class="no-results">${message}</p>`;
 }
 
-// Renders a list of card objects into the main card container.
+/**
+ * Renders a list of card objects into the main card container.
+ * @param {HTMLElement} container The DOM element to render the cards into.
+ * @param {Array} cardList The array of card objects to display.
+ */
 function renderCards(container, cardList) {
   if (!container) return;
   if (cardList.length === 0) {
@@ -56,7 +73,12 @@ function renderCards(container, cardList) {
   container.innerHTML = html;
 }
 
-// Updates the stats text with the total and optionally the filtered count.
+/**
+ * Updates the stats text with the total and optionally the filtered count.
+ * @param {HTMLElement} statsElement The DOM element for the stats text.
+ * @param {number} totalCount The total number of artworks.
+ * @param {number} [filteredCount] The optional number of found artworks.
+ */
 function updateStats(statsElement, totalCount, filteredCount) {
   let message = `Showcasing ${totalCount} artworks`;
   if (filteredCount !== undefined) {
@@ -65,7 +87,11 @@ function updateStats(statsElement, totalCount, filteredCount) {
   statsElement.innerHTML = message;
 }
 
-// Filters cards, updates stats, and triggers re-renders based on search input.
+/**
+ * Filters cards, updates stats, and triggers re-renders based on search input.
+ * @param {object} elements An object containing the required DOM elements.
+ * @param {Array} masterCardList The complete, unfiltered list of cards.
+ */
 function handleSearch(elements, masterCardList) {
   const { searchInput, cardsContainer, statsElement, clearBtn } = elements;
   const query = searchInput.value.toLowerCase().trim();
@@ -87,7 +113,9 @@ function handleSearch(elements, masterCardList) {
   }
 }
 
-// Fetches initial data and sets up all application event listeners.
+/**
+ * Fetches initial data and sets up all application event listeners.
+ */
 async function initApp() {
   const elements = {
     searchInput: document.getElementById("search-input"),
