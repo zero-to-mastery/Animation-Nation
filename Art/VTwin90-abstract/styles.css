@@ -1,0 +1,56 @@
+/* Scroll lock and full viewport */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(#0a0a1f 0%, #000 100%);
+}
+
+/* Scene container */
+.scene {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  perspective: 1000px;
+}
+
+/* Vortex */
+.vortex {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ff00ff, #ffa500, #000);
+  box-shadow: 0 0 120px rgba(255, 0, 255, 0.9);
+  animation: vortexSpin 20s cubic-bezier(0.4, 0, 0.2, 1) forwards, hueShift 20s linear infinite;
+  z-index: 2;
+}
+
+/* KeyFrames */
+@keyframes vortexSpin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  40% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(720deg) scale(2.5);
+    opacity: 1;
+  }
+}
+
+@keyframes hueShift {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
