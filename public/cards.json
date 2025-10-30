@@ -545,6 +545,14 @@
   },
   {
     "author": "WizardCarp85",
+    "artName": "Minecraft Blocks",
+    "githubLink": "https://github.com/WizardCarp85",
+    "pageLink": "./Art/WizardCarp85-Minecraft-Blocks/index.html",
+    "imageLink": "./Art/WizardCarp85-Minecraft-Blocks/icon.png",
+    "projectPath": "Art/WizardCarp85-Minecraft-Blocks"
+  },
+  {
+    "author": "WizardCarp85",
     "artName": "Neon Wave Pulse",
     "githubLink": "https://github.com/WizardCarp85",
     "pageLink": "./Art/WizardCarp85-Neon-Pulse-Wave/index.html",
