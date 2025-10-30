@@ -30,7 +30,7 @@ body {
       transparent 12%
     ),
     linear-gradient(180deg, var(--bg-a), var(--bg-b));
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
     Arial;
   overflow: hidden;
   -webkit-font-smoothing: antialiased;
@@ -72,7 +72,7 @@ body {
   opacity: 0.95;
 }
 .stars::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 2px;
   height: 2px;
@@ -227,7 +227,7 @@ body {
   will-change: transform;
 }
 .sat::after {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
   border-radius: inherit;
@@ -250,7 +250,7 @@ body {
 }
 
 .scene::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
   background: radial-gradient(

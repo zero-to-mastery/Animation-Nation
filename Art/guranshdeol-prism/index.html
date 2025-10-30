@@ -1,95 +1,200 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Prism Animation — CSS Only</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="controls-bar" aria-label="Animation controls">
-    <!-- Pause toggle (CSS-only) -->
-    <input id="pauseToggle" type="checkbox" class="visually-hidden" />
-    <label for="pauseToggle" class="btn toggle" aria-pressed="false">
-      <span class="label-on">Pause</span>
-      <span class="label-off">Play</span>
-    </label>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Prism Animation — CSS Only</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="controls-bar" aria-label="Animation controls">
+      <!-- Pause toggle (CSS-only) -->
+      <input id="pauseToggle" type="checkbox" class="visually-hidden" />
+      <label for="pauseToggle" class="btn toggle" aria-pressed="false">
+        <span class="label-on">Pause</span>
+        <span class="label-off">Play</span>
+      </label>
 
-    <!-- Speed (CSS-only radios) -->
-    <fieldset class="speed-controls" aria-label="Animation speed">
-      <legend class="sr-only">Speed</legend>
-      <input type="radio" name="speed" id="speed-slow" class="visually-hidden" />
-      <label for="speed-slow" class="speed-btn">Slow</label>
+      <!-- Speed (CSS-only radios) -->
+      <fieldset class="speed-controls" aria-label="Animation speed">
+        <legend class="sr-only">Speed</legend>
+        <input
+          type="radio"
+          name="speed"
+          id="speed-slow"
+          class="visually-hidden"
+        />
+        <label for="speed-slow" class="speed-btn">Slow</label>
 
-      <input type="radio" name="speed" id="speed-normal" class="visually-hidden" checked />
-      <label for="speed-normal" class="speed-btn">Normal</label>
+        <input
+          type="radio"
+          name="speed"
+          id="speed-normal"
+          class="visually-hidden"
+          checked
+        />
+        <label for="speed-normal" class="speed-btn">Normal</label>
 
-      <input type="radio" name="speed" id="speed-fast" class="visually-hidden" />
-      <label for="speed-fast" class="speed-btn">Fast</label>
-    </fieldset>
-  </header>
+        <input
+          type="radio"
+          name="speed"
+          id="speed-fast"
+          class="visually-hidden"
+        />
+        <label for="speed-fast" class="speed-btn">Fast</label>
+      </fieldset>
+    </header>
 
-  <main class="stage" aria-live="polite">
-    <h1 class="title">Prism Light Dispersion — CSS-only Demo</h1>
+    <main class="stage" aria-live="polite">
+      <h1 class="title">Prism Light Dispersion — CSS-only Demo</h1>
 
-    <div class="canvas">
-      <svg viewBox="0 0 1000 420" preserveAspectRatio="xMidYMid meet" class="scene" role="img" aria-hidden="false">
-        <defs>
-          <linearGradient id="prismFill" x1="0" x2="1" y1="0" y2="1">
-            <stop offset="0%" stop-color="#e6f2ff" stop-opacity="0.18"/>
-            <stop offset="50%" stop-color="#bfe0ff" stop-opacity="0.12"/>
-            <stop offset="100%" stop-color="#9ed6ff" stop-opacity="0.08"/>
-          </linearGradient>
+      <div class="canvas">
+        <svg
+          viewBox="0 0 1000 420"
+          preserveAspectRatio="xMidYMid meet"
+          class="scene"
+          role="img"
+          aria-hidden="false"
+        >
+          <defs>
+            <linearGradient id="prismFill" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#e6f2ff" stop-opacity="0.18" />
+              <stop offset="50%" stop-color="#bfe0ff" stop-opacity="0.12" />
+              <stop offset="100%" stop-color="#9ed6ff" stop-opacity="0.08" />
+            </linearGradient>
 
-          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
-            <feMerge>
-              <feMergeNode in="coloredBlur"/>
-              <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-          </filter>
+            <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+              <feGaussianBlur stdDeviation="6" result="coloredBlur" />
+              <feMerge>
+                <feMergeNode in="coloredBlur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
 
-          <mask id="prismMask">
-            <rect x="0" y="0" width="100%" height="100%" fill="white"/>
-            <polygon points="435,140 565,140 500,300" fill="black"/>
-          </mask>
+            <mask id="prismMask">
+              <rect x="0" y="0" width="100%" height="100%" fill="white" />
+              <polygon points="435,140 565,140 500,300" fill="black" />
+            </mask>
 
-          <filter id="prismShadow" x="-50%" y="-50%" width="200%" height="200%">
-            <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.18"/>
-          </filter>
-        </defs>
+            <filter
+              id="prismShadow"
+              x="-50%"
+              y="-50%"
+              width="200%"
+              height="200%"
+            >
+              <feDropShadow
+                dx="0"
+                dy="6"
+                stdDeviation="10"
+                flood-color="#000"
+                flood-opacity="0.18"
+              />
+            </filter>
+          </defs>
 
-        <rect x="0" y="0" width="100%" height="100%" fill="url(#bgGrad)" opacity="0.12" />
-        <rect x="0" y="0" width="100%" height="100" fill="rgba(0,0,0,0.02)"></rect>
+          <rect
+            x="0"
+            y="0"
+            width="100%"
+            height="100%"
+            fill="url(#bgGrad)"
+            opacity="0.12"
+          />
+          <rect
+            x="0"
+            y="0"
+            width="100%"
+            height="100"
+            fill="rgba(0,0,0,0.02)"
+          ></rect>
 
-        <!-- Incoming white beam -->
-        <g class="incomingGroup" filter="url(#glow)">
-          <rect class="incomingBeam" x="-260" y="170" width="360" height="48" rx="6" fill="rgba(255,255,255,0.95)"/>
-          <rect class="incomingCore" x="-260" y="184" width="360" height="8" fill="white" opacity="0.95"/>
-        </g>
-
-        <!-- Prism -->
-        <g class="prismGroup" transform-origin="500px 193px">
-          <polygon class="prism" points="435,140 565,140 500,300" fill="url(#prismFill)" stroke="rgba(255,255,255,0.18)" stroke-width="1.2" filter="url(#prismShadow)"/>
-          <line x1="480" y1="170" x2="520" y2="230" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-        </g>
-
-        <!-- Refracted colored beams (masked so they appear only outside the prism) -->
-        <g class="refractedGroup" mask="url(#prismMask)" filter="url(#glow)">
-          <g class="colorBeams" transform="translate(0,0)">
-            <polygon class="beam red" points="520,192 520,192 980,56 980,80" fill="#ff3b30"/>
-            <polygon class="beam orange" points="520,196 520,196 980,92 980,116" fill="#ff8c00"/>
-            <polygon class="beam yellow" points="520,200 520,200 980,128 980,152" fill="#ffd300"/>
-            <polygon class="beam green" points="520,204 520,204 980,164 980,188" fill="#28c76f"/>
-            <polygon class="beam blue" points="520,208 520,208 980,200 980,224" fill="#0095ff"/>
-            <polygon class="beam indigo" points="520,212 520,212 980,236 980,260" fill="#6a00ff"/>
-            <polygon class="beam violet" points="520,216 520,216 980,272 980,296" fill="#c86cff"/>
+          <!-- Incoming white beam -->
+          <g class="incomingGroup" filter="url(#glow)">
+            <rect
+              class="incomingBeam"
+              x="-260"
+              y="170"
+              width="360"
+              height="48"
+              rx="6"
+              fill="rgba(255,255,255,0.95)"
+            />
+            <rect
+              class="incomingCore"
+              x="-260"
+              y="184"
+              width="360"
+              height="8"
+              fill="white"
+              opacity="0.95"
+            />
           </g>
-        </g>
-      </svg>
-    </div>
 
-    <footer class="credit">Built with HTML & CSS — no JavaScript</footer>
-  </main>
-</body>
+          <!-- Prism -->
+          <g class="prismGroup" transform-origin="500px 193px">
+            <polygon
+              class="prism"
+              points="435,140 565,140 500,300"
+              fill="url(#prismFill)"
+              stroke="rgba(255,255,255,0.18)"
+              stroke-width="1.2"
+              filter="url(#prismShadow)"
+            />
+            <line
+              x1="480"
+              y1="170"
+              x2="520"
+              y2="230"
+              stroke="rgba(255,255,255,0.06)"
+              stroke-width="1"
+            />
+          </g>
+
+          <!-- Refracted colored beams (masked so they appear only outside the prism) -->
+          <g class="refractedGroup" mask="url(#prismMask)" filter="url(#glow)">
+            <g class="colorBeams" transform="translate(0,0)">
+              <polygon
+                class="beam red"
+                points="520,192 520,192 980,56 980,80"
+                fill="#ff3b30"
+              />
+              <polygon
+                class="beam orange"
+                points="520,196 520,196 980,92 980,116"
+                fill="#ff8c00"
+              />
+              <polygon
+                class="beam yellow"
+                points="520,200 520,200 980,128 980,152"
+                fill="#ffd300"
+              />
+              <polygon
+                class="beam green"
+                points="520,204 520,204 980,164 980,188"
+                fill="#28c76f"
+              />
+              <polygon
+                class="beam blue"
+                points="520,208 520,208 980,200 980,224"
+                fill="#0095ff"
+              />
+              <polygon
+                class="beam indigo"
+                points="520,212 520,212 980,236 980,260"
+                fill="#6a00ff"
+              />
+              <polygon
+                class="beam violet"
+                points="520,216 520,216 980,272 980,296"
+                fill="#c86cff"
+              />
+            </g>
+          </g>
+        </svg>
+      </div>
+
+      <footer class="credit">Built with HTML & CSS — no JavaScript</footer>
+    </main>
+  </body>
 </html>

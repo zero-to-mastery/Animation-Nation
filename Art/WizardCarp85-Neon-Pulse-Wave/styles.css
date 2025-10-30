@@ -1,137 +1,188 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wave {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    animation: pulse 3s ease-out infinite;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  animation: pulse 3s ease-out infinite;
 }
 
 .wave1 {
-    background: radial-gradient(circle, transparent 40%, #ff0080 41%, #ff0080 43%, transparent 44%);
-    animation-delay: 0s;
+  background: radial-gradient(
+    circle,
+    transparent 40%,
+    #ff0080 41%,
+    #ff0080 43%,
+    transparent 44%
+  );
+  animation-delay: 0s;
 }
 
 .wave2 {
-    background: radial-gradient(circle, transparent 40%, #00ffff 41%, #00ffff 43%, transparent 44%);
-    animation-delay: 0.6s;
+  background: radial-gradient(
+    circle,
+    transparent 40%,
+    #00ffff 41%,
+    #00ffff 43%,
+    transparent 44%
+  );
+  animation-delay: 0.6s;
 }
 
 .wave3 {
-    background: radial-gradient(circle, transparent 40%, #ffff00 41%, #ffff00 43%, transparent 44%);
-    animation-delay: 1.2s;
+  background: radial-gradient(
+    circle,
+    transparent 40%,
+    #ffff00 41%,
+    #ffff00 43%,
+    transparent 44%
+  );
+  animation-delay: 1.2s;
 }
 
 .wave4 {
-    background: radial-gradient(circle, transparent 40%, #ff00ff 41%, #ff00ff 43%, transparent 44%);
-    animation-delay: 1.8s;
+  background: radial-gradient(
+    circle,
+    transparent 40%,
+    #ff00ff 41%,
+    #ff00ff 43%,
+    transparent 44%
+  );
+  animation-delay: 1.8s;
 }
 
 .wave5 {
-    background: radial-gradient(circle, transparent 40%, #00ff00 41%, #00ff00 43%, transparent 44%);
-    animation-delay: 2.4s;
+  background: radial-gradient(
+    circle,
+    transparent 40%,
+    #00ff00 41%,
+    #00ff00 43%,
+    transparent 44%
+  );
+  animation-delay: 2.4s;
 }
 
 @keyframes pulse {
-    0% {
-        transform: scale(0.3);
-        opacity: 1;
-        filter: blur(0px) brightness(2);
-    }
-    100% {
-        transform: scale(3);
-        opacity: 0;
-        filter: blur(10px) brightness(0.5);
-    }
+  0% {
+    transform: scale(0.3);
+    opacity: 1;
+    filter: blur(0px) brightness(2);
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+    filter: blur(10px) brightness(0.5);
+  }
 }
 
 .center {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background: linear-gradient(45deg, #ff0080, #ff8c00, #ffff00, #00ff00, #00ffff, #ff00ff);
-    background-size: 400% 400%;
-    animation: gradient 4s ease infinite, spin 8s linear infinite;
-    box-shadow: 
-        0 0 60px #ff0080,
-        0 0 100px #00ffff,
-        0 0 140px #ffff00,
-        inset 0 0 60px rgba(255,255,255,0.3);
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(
+    45deg,
+    #ff0080,
+    #ff8c00,
+    #ffff00,
+    #00ff00,
+    #00ffff,
+    #ff00ff
+  );
+  background-size: 400% 400%;
+  animation: gradient 4s ease infinite, spin 8s linear infinite;
+  box-shadow: 0 0 60px #ff0080, 0 0 100px #00ffff, 0 0 140px #ffff00,
+    inset 0 0 60px rgba(255, 255, 255, 0.3);
 }
 
 @keyframes gradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .rays {
-    position: absolute;
-    width: 400px;
-    height: 400px;
+  position: absolute;
+  width: 400px;
+  height: 400px;
 }
 
 .ray {
-    position: absolute;
-    width: 4px;
-    height: 200px;
-    left: 50%;
-    top: 50%;
-    transform-origin: 2px 0;
-    animation: rotate-ray 4s linear infinite;
+  position: absolute;
+  width: 4px;
+  height: 200px;
+  left: 50%;
+  top: 50%;
+  transform-origin: 2px 0;
+  animation: rotate-ray 4s linear infinite;
 }
 
-.ray:nth-child(1) { 
-    background: linear-gradient(to bottom, #ff0080, transparent);
-    transform: rotate(0deg);
+.ray:nth-child(1) {
+  background: linear-gradient(to bottom, #ff0080, transparent);
+  transform: rotate(0deg);
 }
-.ray:nth-child(2) { 
-    background: linear-gradient(to bottom, #00ffff, transparent);
-    transform: rotate(60deg);
+.ray:nth-child(2) {
+  background: linear-gradient(to bottom, #00ffff, transparent);
+  transform: rotate(60deg);
 }
-.ray:nth-child(3) { 
-    background: linear-gradient(to bottom, #ffff00, transparent);
-    transform: rotate(120deg);
+.ray:nth-child(3) {
+  background: linear-gradient(to bottom, #ffff00, transparent);
+  transform: rotate(120deg);
 }
-.ray:nth-child(4) { 
-    background: linear-gradient(to bottom, #ff00ff, transparent);
-    transform: rotate(180deg);
+.ray:nth-child(4) {
+  background: linear-gradient(to bottom, #ff00ff, transparent);
+  transform: rotate(180deg);
 }
-.ray:nth-child(5) { 
-    background: linear-gradient(to bottom, #00ff00, transparent);
-    transform: rotate(240deg);
+.ray:nth-child(5) {
+  background: linear-gradient(to bottom, #00ff00, transparent);
+  transform: rotate(240deg);
 }
-.ray:nth-child(6) { 
-    background: linear-gradient(to bottom, #ff8c00, transparent);
-    transform: rotate(300deg);
+.ray:nth-child(6) {
+  background: linear-gradient(to bottom, #ff8c00, transparent);
+  transform: rotate(300deg);
 }
 
 @keyframes rotate-ray {
-    0% { transform: rotate(0deg); opacity: 0.6; }
-    100% { transform: rotate(360deg); opacity: 0.6; }
+  0% {
+    transform: rotate(0deg);
+    opacity: 0.6;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0.6;
+  }
 }
