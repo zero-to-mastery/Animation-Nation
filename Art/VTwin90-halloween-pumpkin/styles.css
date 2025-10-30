@@ -1,5 +1,6 @@
 /* === Base Reset === */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -13,7 +14,12 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(circle at center, #ff7518 0%, #1a0a00 40%, #000 100%);
+  background: radial-gradient(
+    circle at center,
+    #ff7518 0%,
+    #1a0a00 40%,
+    #000 100%
+  );
 }
 
 /* === Pumpkin === */
@@ -24,9 +30,7 @@ html, body {
   margin: 50px auto;
   border-radius: 50% / 60%;
   background: linear-gradient(to right, #ff7518, #d2691e);
-  box-shadow:
-    inset 0 0 30px #8b4513,
-    0 0 20px rgba(255, 117, 24, 0.3),
+  box-shadow: inset 0 0 30px #8b4513, 0 0 20px rgba(255, 117, 24, 0.3),
     0 0 40px rgba(255, 117, 24, 0.2);
   animation: pulse 6s infinite ease-in-out;
 }
@@ -41,9 +45,18 @@ html, body {
   opacity: 0.6;
   z-index: 2;
 }
-.r1 { left: 30px; width: 240px; }
-.r2 { left: 50px; width: 200px; }
-.r3 { left: 70px; width: 160px; }
+.r1 {
+  left: 30px;
+  width: 240px;
+}
+.r2 {
+  left: 50px;
+  width: 200px;
+}
+.r3 {
+  left: 70px;
+  width: 160px;
+}
 
 /* Eyes */
 .eye {
@@ -58,8 +71,14 @@ html, body {
   animation: eyeBurst 10s infinite ease-in-out;
   transform-origin: center;
 }
-.left-eye { top: 80px; left: 70px; }
-.right-eye { top: 80px; right: 70px; }
+.left-eye {
+  top: 80px;
+  left: 70px;
+}
+.right-eye {
+  top: 80px;
+  right: 70px;
+}
 
 /* Nose */
 .nose {
@@ -97,10 +116,12 @@ html, body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+    to bottom,
     rgba(255, 117, 24, 0.8) 0%,
     rgba(255, 117, 24, 0.4) 50%,
-    rgba(255, 117, 24, 0) 100%);
+    rgba(255, 117, 24, 0) 100%
+  );
   z-index: 4;
   animation: flicker 10s infinite ease-in-out;
 }
@@ -142,9 +163,7 @@ html, body {
   font-family: 'Nosifer', cursive, sans-serif;
   font-size: clamp(2rem, 5vw, 4rem);
   color: #ff7518;
-  text-shadow:
-    0 0 5px rgba(255, 117, 24, 0.6),
-    0 0 15px rgba(255, 117, 24, 0.4),
+  text-shadow: 0 0 5px rgba(255, 117, 24, 0.6), 0 0 15px rgba(255, 117, 24, 0.4),
     0 0 30px rgba(255, 117, 24, 0.2);
   opacity: 0;
   animation: halloweenReveal 10s infinite ease-in-out;
@@ -154,24 +173,69 @@ html, body {
 
 /* === Animations === */
 @keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.02); }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
 }
 
 @keyframes eyeBurst {
-  0%   { filter: drop-shadow(0 0 0px rgba(255, 140, 0, 0)); transform: scale(1); border-bottom-color: #3b1f0f; }
-  45%  { filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.6)); transform: scale(1.2); border-bottom-color: #ff7518; }
-  55%  { filter: drop-shadow(0 0 12px rgba(255, 140, 0, 0.8)); transform: scale(1.3); border-bottom-color: #ff8c00; }
-  65%  { filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.6)); transform: scale(1.2); border-bottom-color: #ff7518; }
-  100% { filter: drop-shadow(0 0 0px rgba(255, 140, 0, 0)); transform: scale(1); border-bottom-color: #3b1f0f; }
+  0% {
+    filter: drop-shadow(0 0 0px rgba(255, 140, 0, 0));
+    transform: scale(1);
+    border-bottom-color: #3b1f0f;
+  }
+  45% {
+    filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.6));
+    transform: scale(1.2);
+    border-bottom-color: #ff7518;
+  }
+  55% {
+    filter: drop-shadow(0 0 12px rgba(255, 140, 0, 0.8));
+    transform: scale(1.3);
+    border-bottom-color: #ff8c00;
+  }
+  65% {
+    filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.6));
+    transform: scale(1.2);
+    border-bottom-color: #ff7518;
+  }
+  100% {
+    filter: drop-shadow(0 0 0px rgba(255, 140, 0, 0));
+    transform: scale(1);
+    border-bottom-color: #3b1f0f;
+  }
 }
 
 @keyframes noseBurst {
-  0%   { filter: drop-shadow(0 0 0px rgba(255, 140, 0, 0)); transform: scale(1); border-top-color: #3b1f0f; }
-  45%  { filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.6)); transform: scale(1.2); border-top-color: #ff7518; }
-  55%  { filter: drop-shadow(0 0 12px rgba(255, 140, 0, 0.8)); transform: scale(1.3); border-top-color: #ff8c00; }
-  65%  { filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.6)); transform: scale(1.2); border-top-color: #ff7518; }
-  100% { filter: drop-shadow(0 0 0px rgba(255, 140, 0, 0)); transform: scale(1); border-top-color: #3b1f0f; }
+  0% {
+    filter: drop-shadow(0 0 0px rgba(255, 140, 0, 0));
+    transform: scale(1);
+    border-top-color: #3b1f0f;
+  }
+  45% {
+    filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.6));
+    transform: scale(1.2);
+    border-top-color: #ff7518;
+  }
+  55% {
+    filter: drop-shadow(0 0 12px rgba(255, 140, 0, 0.8));
+    transform: scale(1.3);
+    border-top-color: #ff8c00;
+  }
+  65% {
+    filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.6));
+    transform: scale(1.2);
+    border-top-color: #ff7518;
+  }
+  100% {
+    filter: drop-shadow(0 0 0px rgba(255, 140, 0, 0));
+    transform: scale(1);
+    border-top-color: #3b1f0f;
+  }
 }
 
 @keyframes morphTeeth {
@@ -183,16 +247,34 @@ html, body {
   40% {
     height: 50%;
     clip-path: polygon(
-      0% 0%, 10% 100%, 20% 0%, 30% 100%, 40% 0%, 
-      50% 100%, 60% 0%, 70% 100%, 80% 0%, 90% 100%, 100% 0%
+      0% 0%,
+      10% 100%,
+      20% 0%,
+      30% 100%,
+      40% 0%,
+      50% 100%,
+      60% 0%,
+      70% 100%,
+      80% 0%,
+      90% 100%,
+      100% 0%
     );
     opacity: 0.8;
   }
   60% {
     height: 50%;
     clip-path: polygon(
-      0% 0%, 10% 100%, 20% 0%, 30% 100%, 40% 0%, 
-      50% 100%, 60% 0%, 70% 100%, 80% 0%, 90% 100%, 100% 0%
+      0% 0%,
+      10% 100%,
+      20% 0%,
+      30% 100%,
+      40% 0%,
+      50% 100%,
+      60% 0%,
+      70% 100%,
+      80% 0%,
+      90% 100%,
+      100% 0%
     );
     opacity: 0.8;
   }
@@ -204,16 +286,35 @@ html, body {
 }
 
 @keyframes flicker {
-  0%   { opacity: 0; transform: scaleY(1); }
-  20%  { opacity: 0.3; transform: scaleY(1.01); }
-  40%  { opacity: 0.6; transform: scaleY(1.03); }
-  60%  { opacity: 0.4; transform: scaleY(1.02); }
-  80%  { opacity: 0.2; transform: scaleY(1.01); }
-  100% { opacity: 0; transform: scaleY(1); }
+  0% {
+    opacity: 0;
+    transform: scaleY(1);
+  }
+  20% {
+    opacity: 0.3;
+    transform: scaleY(1.01);
+  }
+  40% {
+    opacity: 0.6;
+    transform: scaleY(1.03);
+  }
+  60% {
+    opacity: 0.4;
+    transform: scaleY(1.02);
+  }
+  80% {
+    opacity: 0.2;
+    transform: scaleY(1.01);
+  }
+  100% {
+    opacity: 0;
+    transform: scaleY(1);
+  }
 }
 
 @keyframes halloweenReveal {
-  0%, 35% {
+  0%,
+  35% {
     opacity: 0;
     transform: translateX(-50%) scale(0.9);
     text-shadow: none;
@@ -221,23 +322,19 @@ html, body {
   45% {
     opacity: 1;
     transform: translateX(-50%) scale(1.1);
-    text-shadow:
-      0 0 10px rgba(255, 117, 24, 0.8),
-      0 0 20px rgba(255, 117, 24, 0.6),
-      0 0 40px rgba(255, 117, 24, 0.4);
+    text-shadow: 0 0 10px rgba(255, 117, 24, 0.8),
+      0 0 20px rgba(255, 117, 24, 0.6), 0 0 40px rgba(255, 117, 24, 0.4);
   }
   55% {
     opacity: 1;
     transform: translateX(-50%) scale(1);
-    text-shadow:
-      0 0 15px rgba(255, 117, 24, 0.6),
+    text-shadow: 0 0 15px rgba(255, 117, 24, 0.6),
       0 0 30px rgba(255, 117, 24, 0.4);
   }
   65% {
     opacity: 0.8;
     transform: translateX(-50%) scale(1.05);
-    text-shadow:
-      0 0 10px rgba(255, 117, 24, 0.5);
+    text-shadow: 0 0 10px rgba(255, 117, 24, 0.5);
   }
   100% {
     opacity: 0;
