@@ -5,7 +5,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to top, #001F3F, #005f99, #ff9900);
+  background: linear-gradient(to top, #001f3f, #005f99, #ff9900);
   animation: skyShift 10s ease-in-out infinite alternate;
 }
 
@@ -32,7 +32,7 @@ body {
   transform: translateX(-50%);
   width: 120px;
   height: 120px;
-  background: radial-gradient(circle, #FFD700, #FF8C00);
+  background: radial-gradient(circle, #ffd700, #ff8c00);
   border-radius: 50%;
   box-shadow: 0 0 60px 15px rgba(255, 200, 0, 0.7);
   animation: sunset 10s ease-in-out infinite alternate;
@@ -43,7 +43,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 40%;
-  background: linear-gradient(to bottom, #0077b6, #001F3F);
+  background: linear-gradient(to bottom, #0077b6, #001f3f);
   overflow: hidden;
 }
 
@@ -55,7 +55,11 @@ body {
   height: 200%;
   top: -50%;
   left: -50%;
-  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.3) 10%, transparent 70%);
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 255, 255, 0.3) 10%,
+    transparent 70%
+  );
   animation: waves 6s linear infinite;
 }
 
@@ -65,21 +69,38 @@ body {
 }
 
 @keyframes sunset {
-  0% { top: 20%; }
-  100% { top: 60%; opacity: 0.7; }
+  0% {
+    top: 20%;
+  }
+  100% {
+    top: 60%;
+    opacity: 0.7;
+  }
 }
 
 @keyframes skyShift {
-  0% { background: linear-gradient(to top, #001F3F, #005f99, #ff9900); }
-  100% { background: linear-gradient(to top, #001F3F, #000814, #ff3300); }
+  0% {
+    background: linear-gradient(to top, #001f3f, #005f99, #ff9900);
+  }
+  100% {
+    background: linear-gradient(to top, #001f3f, #000814, #ff3300);
+  }
 }
 
 @keyframes skyColor {
-  0% { background: linear-gradient(to top, #ff6600, #ffcc66, #ffefcc); }
-  100% { background: linear-gradient(to top, #1b1b2f, #16213e, #0f3460); }
+  0% {
+    background: linear-gradient(to top, #ff6600, #ffcc66, #ffefcc);
+  }
+  100% {
+    background: linear-gradient(to top, #1b1b2f, #16213e, #0f3460);
+  }
 }
 
 @keyframes waves {
-  from { transform: translateX(0); }
-  to { transform: translateX(50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50%);
+  }
 }
