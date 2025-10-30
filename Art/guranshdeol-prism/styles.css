@@ -1,0 +1,240 @@
+:root{
+  /* default animation duration (this can be toggled via CSS-only controls) */
+  --duration: 4s;
+  --bg: #01061a;
+  --accent: #7FD3FF;
+}
+
+/* Control-based adjustments:
+   The radio inputs are placed before the .stage in the DOM.
+   When they are checked, sibling selectors below override --duration on .stage.
+   The pause toggle (checkbox) will pause animations via a sibling selector.
+*/
+
+/* Speed selectors (radio buttons) adjust the --duration on the .stage element */
+#speed-slow:checked ~ .stage { --duration: 6s; }
+#speed-normal:checked ~ .stage { --duration: 4s; }
+#speed-fast:checked ~ .stage { --duration: 2s; }
+
+/* Pause toggle: when checked, pause all animations inside .stage */
+#pauseToggle:checked ~ .stage * {
+  animation-play-state: paused !important;
+  transition: none !important;
+}
+
+/* Basic reset and layout */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:
+    radial-gradient(ellipse at 20% 10%, rgba(125,170,255,0.06), transparent 15%),
+    radial-gradient(ellipse at 85% 80%, rgba(60,220,160,0.03), transparent 12%),
+    var(--bg);
+  color:#e6f0ff;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  padding:28px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* visually-hidden utility for accessible inputs */
+.visually-hidden{
+  position:absolute !important;
+  height:1px; width:1px;
+  overflow:hidden;
+  clip:rect(1px, 1px, 1px, 1px);
+  white-space:nowrap;
+  border:0; padding:0; margin:-1px;
+}
+
+/* screen-reader-only */
+.sr-only{ position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden; }
+
+/* Controls bar (inputs are before .stage in DOM) */
+.controls-bar{
+  position:fixed;
+  top:18px;
+  left:18px;
+  display:flex;
+  gap:10px;
+  align-items:center;
+  z-index:60;
+}
+
+/* Buttons */
+.btn{
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  color:var(--accent);
+  border:1px solid rgba(127,211,255,0.12);
+  padding:8px 12px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:600;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+}
+
+/* Toggle label shows different text depending on checkbox state */
+.toggle .label-off{ display:none; }
+#pauseToggle:checked + label .label-on{ display:none; }
+#pauseToggle:checked + label .label-off{ display:inline; }
+
+/* Speed control buttons */
+.speed-controls{
+  display:flex;
+  gap:8px;
+  align-items:center;
+  margin:0;
+  padding:0;
+  border:none;
+  background:transparent;
+}
+.speed-btn{
+  background:transparent;
+  border:1px solid rgba(255,255,255,0.04);
+  color:rgba(255,255,255,0.7);
+  padding:6px 8px;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:13px;
+}
+#speed-slow:checked + label[for="speed-slow"],
+#speed-normal:checked + label[for="speed-normal"],
+#speed-fast:checked + label[for="speed-fast"]{
+  color:var(--accent);
+  border-color:rgba(127,211,255,0.18);
+  background:linear-gradient(180deg, rgba(127,211,255,0.02), rgba(127,211,255,0.01));
+}
+
+/* Stage layout */
+.stage{
+  max-width:1100px;
+  width:100%;
+  text-align:center;
+}
+.title{
+  margin:0 0 14px 0;
+  font-size:18px;
+  color:#cfe9ff;
+  font-weight:600;
+  letter-spacing:0.2px;
+}
+
+.canvas{
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius:12px;
+  padding:18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.02);
+  margin:18px auto 14px;
+}
+
+/* SVG sizing */
+.scene{
+  width:100%;
+  height:360px;
+  display:block;
+  border-radius:8px;
+  background:
+    radial-gradient(ellipse at 50% 20%, rgba(255,255,255,0.02), transparent 12%);
+  overflow:visible;
+}
+
+/* Prism rotation (uses --duration) */
+.prismGroup{
+  transform-origin: 500px 193px;
+  animation: prismRotate calc(var(--duration) * 1.6) linear infinite;
+}
+@keyframes prismRotate{
+  0%{ transform: rotate(0deg) }
+  50%{ transform: rotate(-6deg) }
+  100%{ transform: rotate(0deg) }
+}
+
+/* Incoming beam animation */
+.incomingGroup{
+  animation: incomingMove var(--duration) linear infinite;
+}
+@keyframes incomingMove{
+  0%{ transform: translateX(-40px); opacity:0 }
+  10%{ opacity:1 }
+  45%{ transform: translateX(295px); opacity:1 } /* beam hits the prism */
+  55%{ opacity:0.2 } /* beam reduces when inside prism */
+  100%{ transform: translateX(620px); opacity:0 }
+}
+
+.incomingBeam{
+  filter: drop-shadow(0 8px 18px rgba(0,140,255,0.06));
+  mix-blend-mode: screen;
+  opacity:0.95;
+}
+
+/* Refracted beams appearing after the prism */
+.refractedGroup{
+  animation: refractedAppear calc(var(--duration)) linear infinite;
+}
+@keyframes refractedAppear{
+  0%{ opacity:0 }
+  35%{ opacity:1 }
+  95%{ opacity:1 }
+  100%{ opacity:0 }
+}
+
+.beam{
+  opacity:0.0;
+  transform-origin: 520px 200px;
+  mix-blend-mode: screen;
+  filter: blur(0.6px);
+  animation: beamFan calc(var(--duration)) linear infinite;
+}
+@keyframes beamFan{
+  0%{
+    opacity:0;
+    transform: translateX(0) scaleX(0.8);
+  }
+  30%{
+    opacity:1;
+    transform: translateX(0) scaleX(1);
+  }
+  70%{
+    opacity:1;
+    transform: translateX(6%) scaleX(1.0);
+  }
+  100%{
+    opacity:0;
+    transform: translateX(18%) scaleX(1.02);
+  }
+}
+
+/* stagger delays to create dispersion feel */
+.beam.red{ animation-delay: calc(var(--duration) * 0.08) ; }
+.beam.orange{ animation-delay: calc(var(--duration) * 0.12) ; transform-origin:520px 196px;}
+.beam.yellow{ animation-delay: calc(var(--duration) * 0.16) ; transform-origin:520px 200px;}
+.beam.green{ animation-delay: calc(var(--duration) * 0.20) ; transform-origin:520px 204px;}
+.beam.blue{ animation-delay: calc(var(--duration) * 0.24) ; transform-origin:520px 208px;}
+.beam.indigo{ animation-delay: calc(var(--duration) * 0.28) ; transform-origin:520px 212px;}
+.beam.violet{ animation-delay: calc(var(--duration) * 0.32) ; transform-origin:520px 216px;}
+
+/* footer */
+.credit{
+  margin-top:10px;
+  font-size:13px;
+  color:rgba(215,230,255,0.6);
+}
+
+/* small screens */
+@media (max-width:720px){
+  .scene{ height:260px }
+  .title{ font-size:15px }
+}
+
+/* minor focus styles for keyboard users */
+label:focus{
+  outline: 2px solid rgba(127,211,255,0.14);
+  outline-offset: 2px;
+  border-radius:6px;
+}
