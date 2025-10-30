@@ -282,10 +282,10 @@ body {
   /* animation: glow-purple 2.5s infinite alternate; */
 }
 
-.joke:hover {
+/* .joke:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(56, 189, 248, 0.5);
-}
+} */
 
 .joke em {
   color: #38bdf8;
