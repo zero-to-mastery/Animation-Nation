@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle, #000010, #000);
+  overflow: hidden;
+}
+.stars {
+  width: 200%;
+  height: 200%;
+  background: transparent
+    url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+  animation: zoom 20s linear infinite;
+}
+@keyframes zoom {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1.5) rotate(360deg);
+  }
+}

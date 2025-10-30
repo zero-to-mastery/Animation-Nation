@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(240, 240, 240);
+}
+.egg {
+  display: block;
+  width: 126px;
+  height: 180px;
+  /* background-color: rgb(156, 121, 152); */
+  background-image: linear-gradient(
+    45deg,
+    rgb(199, 78, 185),
+    rgb(92, 209, 211)
+  );
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+  animation-name: rolling-egg;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  /* make the animation loop from the last point */
+}
+
+@keyframes rolling-egg {
+  /* make it loop */
+
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(300px) rotate(180deg);
+  }
+  50% {
+    transform: translateX(0px) rotate(-90deg);
+  }
+  75% {
+    transform: translateX(-300px) rotate(-360deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+  }
+}

@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.solar-system {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.sun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, #ffd700, #ff8c00);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 50px #ffd700, 0 0 100px #ff8c00;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 50px #ffd700, 0 0 100px #ff8c00;
+  }
+  to {
+    box-shadow: 0 0 70px #ffd700, 0 0 120px #ff8c00;
+  }
+}
+
+.planet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: orbit linear infinite;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.earth {
+  background: linear-gradient(to bottom, #1e90ff, #00bfff);
+  animation-duration: 10s;
+  animation-delay: 0s;
+}
+
+.mars {
+  background: linear-gradient(to bottom, #ff4500, #ff6347);
+  width: 15px;
+  height: 15px;
+  animation-duration: 15s;
+  animation-delay: -2s;
+}
+
+.jupiter {
+  background: linear-gradient(to bottom, #deb887, #cd853f);
+  width: 40px;
+  height: 40px;
+  animation-duration: 20s;
+  animation-delay: -5s;
+}
+
+@keyframes orbit {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(100px)
+      rotate(-360deg);
+  }
+}
+
+.earth {
+  --orbit-radius: 120px;
+}
+.mars {
+  --orbit-radius: 180px;
+}
+.jupiter {
+  --orbit-radius: 250px;
+}
+
+.planet {
+  --orbit-radius: 100px; /* Default */
+  animation: orbit calc(var(--orbit-duration, 10s)) linear infinite;
+}
+
+@keyframes orbit {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg)
+      translateX(var(--orbit-radius)) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg)
+      translateX(var(--orbit-radius)) rotate(-360deg);
+  }
+}
+
+.earth {
+  --orbit-radius: 120px;
+  --orbit-duration: 10s;
+}
+
+.mars {
+  --orbit-radius: 180px;
+  --orbit-duration: 15s;
+}
+
+.jupiter {
+  --orbit-radius: 250px;
+  --orbit-duration: 20s;
+}
+
+/* Add some tilt for 3D effect */
+.solar-system {
+  animation: rotate-system 30s linear infinite;
+}
+
+@keyframes rotate-system {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}

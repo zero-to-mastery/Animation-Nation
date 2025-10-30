@@ -1,0 +1,154 @@
+/* Digital Rain — pure CSS (no JS/images), accessible, reduced-motion friendly */
+
+:root {
+  --bg: #070b18;
+  --panel-1: #0c1434;
+  --panel-2: #0a1128;
+  --glyph-dim: #1cff6a;
+  --glyph-bright: #caffde;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: radial-gradient(1200px 800px at 50% 42%, #0f1942, var(--bg));
+  color: #e9eefc;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', monospace;
+}
+
+.stage {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+
+/* Framed scene with subtle star specks */
+.matrix {
+  position: relative;
+  width: min(860px, 92vw);
+  height: min(520px, 68vh);
+  border-radius: 18px;
+  overflow: hidden;
+  background: radial-gradient(
+      90% 65% at 50% 55%,
+      var(--panel-1) 0,
+      var(--panel-2) 60%,
+      #070b18 100%
+    ),
+    radial-gradient(#ffffff20 1px, transparent 1px);
+  background-size: auto, 3px 3px;
+  background-position: 0 0, 0 0;
+  box-shadow: 0 24px 72px #000a, inset 0 0 80px #0b102888;
+  filter: saturate(120%);
+}
+
+/* Lay columns using grid so spacing scales with width */
+.matrix {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1.35ch;
+  gap: 0.65ch;
+  align-items: stretch;
+  padding: 18px 14px;
+}
+
+/* Each column is a clipping window; text scrolls inside the ::before */
+.col {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  isolation: isolate; /* let ::after blend without affecting neighbors */
+}
+
+/* Long “stream” of glyphs (katakana + latin + digits), written vertically */
+.col::before {
+  content: 'ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ'
+    '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ' 'ｱｶｻﾀﾅﾊﾏﾔﾗ0123456789ﾀﾁﾂﾃﾄABCDEFｳｴｵ'
+    'MNOPQRSTUVWXﾊﾋﾌﾍﾎYZ0123456789'
+    'ｱｲｳｴｵﾔﾕﾖﾜﾝ0123456789ABCDEFGHJKLMNPQRSTUVWXZ';
+  position: absolute;
+  left: 0;
+  top: -110%; /* start above the window */
+  display: inline-block;
+  min-height: 220%; /* long enough to scroll */
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 16px;
+  line-height: 1.08;
+  letter-spacing: 0.06em;
+  color: #0cff66;
+  text-shadow: 0 0 8px #00ff88, 0 0 16px #00ff88;
+  transform: translateY(0);
+  animation: rain var(--dur, 7s) linear infinite;
+  animation-delay: calc(var(--i) * -0.25s);
+  /* fade top & bottom edges inside the window */
+  -webkit-mask: linear-gradient(
+    180deg,
+    transparent 0 6%,
+    #000 12% 88%,
+    transparent 94% 100%
+  );
+  mask: linear-gradient(
+    180deg,
+    transparent 0 6%,
+    #000 12% 88%,
+    transparent 94% 100%
+  );
+}
+
+/* Column-specific timing (varies duration a little for organic look) */
+.col:nth-child(odd)::before {
+  animation-duration: 7.6s;
+}
+.col:nth-child(even)::before {
+  animation-duration: 6.8s;
+}
+.col:nth-child(3n)::before {
+  animation-duration: 7.9s;
+}
+
+.col:nth-child(odd)::after {
+  animation-duration: 7.6s;
+}
+.col:nth-child(even)::after {
+  animation-duration: 6.8s;
+}
+.col:nth-child(3n)::after {
+  animation-duration: 7.9s;
+}
+
+/* Motion */
+@keyframes rain {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(110%);
+  } /* scroll fully through */
+}
+@keyframes head {
+  from {
+    top: -18%;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+/* Reduce motion: show a calm, readable grid */
+@media (prefers-reduced-motion: reduce) {
+  .col::before,
+  .col::after {
+    animation: none !important;
+    top: 0;
+  }
+  .col::after {
+    display: none;
+  }
+}

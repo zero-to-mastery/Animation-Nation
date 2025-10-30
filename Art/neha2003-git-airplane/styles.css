@@ -1,0 +1,236 @@
+body {
+  background: #c2e5f9;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* plane container */
+.airplane {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  animation: flyAcross 8s linear infinite;
+}
+
+/* Body */
+.airplane-body {
+  width: 500px;
+  height: 100px;
+  background: linear-gradient(to right, #f0f4fc, #e6f2ff);
+  /* reversed shape */
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 80%);
+  position: relative;
+  border-radius: 80% 100% 100% 80%;
+}
+
+/* Cockpit */
+.airplane-cockpit {
+  position: absolute;
+  right: -240px;
+  top: 60%;
+  width: 55px;
+  height: 25px;
+  background: linear-gradient(145deg, #a0d8ff, #ffffff, #6bb7ff);
+  border-radius: 50% 50% 30% 30% / 100% 100% 30% 30%;
+  transform: rotate(85deg);
+}
+
+/* Wings */
+.wing-top,
+.wing-bottom {
+  position: absolute;
+  top: 5px;
+  left: 50px;
+  width: 270px;
+  height: 90px;
+  background: linear-gradient(to bottom, #3399ff, #66ccff);
+  border-radius: 50% 0% 0% 50%;
+  transform-origin: right center;
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.wing-top {
+  top: 20%;
+  transform: rotate(-58deg);
+}
+
+.wing-bottom {
+  bottom: 20%;
+  transform: rotate(58deg);
+}
+
+/* Tail */
+
+.tail-vertical-stabilizer {
+  position: absolute;
+  top: 44px;
+  left: -13px;
+  width: 73px;
+  height: 11px;
+  background: linear-gradient(to bottom, #3399ff, #66ccff);
+  border-radius: 40% 0% 0% 40%;
+  transform-origin: right center;
+}
+
+.tail-top,
+.tail-bottom {
+  position: absolute;
+  top: 67px;
+  left: -20px;
+  width: 100px;
+  height: 55px;
+  background: linear-gradient(to bottom, #3399ff, #66ccff);
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
+  border-radius: 80% 0% 0% 80%;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tail-top {
+  top: -30%;
+  transform: rotate(59deg);
+}
+
+.tail-bottom {
+  bottom: 20%;
+  transform: rotate(-59deg);
+}
+
+/* Engines */
+.engine-top {
+  position: absolute;
+  top: -90px;
+  left: 227px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(to bottom, #f0f4fc, #99ccff);
+  border-radius: 12px;
+  box-shadow: inset -2px -1px 3px rgba(255, 255, 255, 0.2);
+}
+
+.engine-bottom {
+  position: absolute;
+  top: 150px;
+  left: 227px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(to bottom, #f0f4fc, #99ccff);
+  border-radius: 12px;
+  box-shadow: inset -2px -1px 3px rgba(255, 255, 255, 0.2);
+}
+
+/* Drop Shadow */
+.airplane * {
+  filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+/* Clouds */
+.cloud {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50px;
+  animation: driftLeft 3s linear infinite;
+}
+
+.cloud::before,
+.cloud::after {
+  content: '';
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.cloud::before {
+  width: 60px;
+  height: 60px;
+  top: -30px;
+  left: 10px;
+}
+
+.cloud::after {
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  right: 10px;
+}
+
+/* Spread out cloud */
+.cloud1 {
+  top: 50px;
+  left: 120%;
+  animation-duration: 25s;
+}
+
+.cloud2 {
+  top: 180px;
+  left: 140%;
+  animation-duration: 30s;
+}
+
+.cloud3 {
+  top: 300px;
+  left: 110%;
+  animation-duration: 20s;
+}
+
+.cloud4 {
+  top: 420px;
+  left: 130%;
+  animation-duration: 28s;
+}
+
+.cloud5 {
+  top: 420px;
+  right: 50%;
+  animation-duration: 38s;
+}
+
+/* Animation for the clouds */
+@keyframes driftLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-160vw);
+  }
+}
+
+/* Animation for the plane */
+@keyframes flyAcross {
+  0% {
+    left: -150px;
+    transform: translateY(0px);
+  }
+  20% {
+    left: 20%;
+    transform: translateY(-10px);
+  }
+  40% {
+    left: 35%;
+    transform: translateY(5px);
+  }
+  50% {
+    left: 38%;
+    transform: translateY(-5px);
+  }
+  60% {
+    left: 40%;
+    transform: translateY(-8px);
+  }
+  70% {
+    left: 45%;
+    transform: translateY(-5px);
+  }
+  85% {
+    left: 70%;
+    transform: translateY(0px);
+  }
+  100% {
+    left: calc(100% + 50px);
+    transform: translateY(5px);
+  }
+}

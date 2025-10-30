@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(32, 31, 31);
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-wrap {
+  position: relative;
+  top: 20vh;
+  left: 30vw;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+  background-color: rgb(32, 31, 31);
+  animation: mymove 2s ease-in-out infinite;
+}
+
+.sign {
+  width: 100px;
+  height: 100px;
+  top: 20vh;
+  left: 10vw;
+  rotate: 45deg;
+  position: absolute;
+  text-align: center;
+  background-color: #e7b732;
+  border: 1px solid black;
+  box-shadow: 2px 2px 0px RGB(231, 183, 50), -2px -2px 0px RGB(231, 183, 50);
+}
+
+h6 {
+  transform: rotate(-45deg);
+  box-shadow: none;
+  text-align: center;
+}
+
+@keyframes mymove {
+  from {
+    transform: rotatey(0deg);
+  }
+
+  to {
+    transform: rotatey(1800deg);
+  }
+}

@@ -3,6 +3,8 @@
     <img src="https://img.shields.io/github/repo-size/zero-to-mastery/Animation-Nation?style=for-the-badge" />
     <img src="https://img.shields.io/github/contributors-anon/zero-to-mastery/Animation-Nation?style=for-the-badge" />
     <img src="https://img.shields.io/github/issues-pr-closed-raw/zero-to-mastery/Animation-Nation?style=for-the-badge" />
+	<img src="https://img.shields.io/badge/Hacktoberfest-friendly-orange?style=for-the-badge" />
+
 </div>
 <br />
 
@@ -14,7 +16,7 @@ Whether you're a seasoned developer or writing your first line of code,
 we'd love to see your animated artwork using only **HTML** and **CSS**
 
 > [!IMPORTANT]
-> no **JavaScript** or **images** or **SVG** allowed!
+> No **JavaScript** or **images** or **SVG** allowed!
 
 ## 🌟 Why Contribute?
 

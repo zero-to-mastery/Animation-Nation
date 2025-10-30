@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #0a0e16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+/* Scene container */
+.scene {
+  position: relative;
+  width: min(900px, 90vw);
+  height: min(500px, 75vh);
+  background: linear-gradient(to bottom, #0d1525, #101a30 50%, #070b12);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Ground */
+.ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 25%;
+  background: linear-gradient(to bottom, #0a101b, #05070b);
+}
+
+/* Target */
+.target {
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border: 3px solid #ff4d4d;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #ff4d4d, 0 0 30px #ff8b3a;
+  animation: pulse 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translateY(-50%) scale(1);
+  }
+
+  100% {
+    transform: translateY(-50%) scale(1.25);
+  }
+}
+
+/* Missile path wrapper */
+.missile-path {
+  position: absolute;
+  top: 10%;
+  left: -20%;
+  width: 140%;
+  height: 30%;
+  pointer-events: none;
+  transform-origin: 0 0;
+  animation: path 4s linear infinite;
+}
+
+/* Missile */
+.missile {
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  left: 10%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.4));
+}
+
+.missile .body {
+  width: 30px;
+  height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #ccc, #888);
+}
+
+.missile .nose {
+  width: 0;
+  height: 0;
+  border-left: 8px solid #ff4d4d;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+.missile .flame {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70px;
+  height: 6px;
+  border-radius: 6px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 180, 90, 0.1),
+    rgba(255, 130, 40, 0.8),
+    rgba(255, 60, 0, 0.6)
+  );
+  filter: blur(5px);
+  animation: flame 0.2s infinite alternate;
+}
+
+/* Explosion */
+.explosion {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50%) scale(0);
+  opacity: 0;
+  pointer-events: none;
+  animation: boom 4s ease-out infinite;
+}
+
+.explosion::before,
+.explosion::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.explosion::before {
+  width: 30px;
+  height: 30px;
+  background: radial-gradient(
+    circle,
+    #fff,
+    #ffbe75 40%,
+    #ff8b3a 70%,
+    transparent 90%
+  );
+  box-shadow: 0 0 60px #ffb140, 0 0 120px #ff7a00;
+  animation: core 4s ease-out infinite;
+}
+
+.explosion::after {
+  width: 60px;
+  height: 60px;
+  border: 4px solid rgba(255, 160, 80, 0.6);
+  animation: ring 4s ease-out infinite;
+}
+
+/* Flame animation */
+@keyframes flame {
+  from {
+    opacity: 1;
+    width: 70px;
+  }
+
+  to {
+    opacity: 0.6;
+    width: 60px;
+  }
+}
+
+/* Missile path */
+@keyframes path {
+  0% {
+    transform: translateX(0) translateY(0) rotate(-10deg);
+  }
+
+  65% {
+    transform: translateX(82%) translateY(0%) rotate(5deg);
+  }
+
+  100% {
+    transform: translateX(92%) translateY(0%) rotate(0deg);
+  }
+}
+
+/* Explosion */
+@keyframes boom {
+  0%,
+  60% {
+    transform: translateY(-50%) scale(0);
+    opacity: 0;
+  }
+
+  70% {
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+
+  90% {
+    transform: translateY(-50%) scale(1.2);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: translateY(-50%) scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes core {
+  0%,
+  60% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.3);
+  }
+
+  90% {
+    opacity: 0.5;
+    transform: translate(-50%, -50%) scale(2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
+
+@keyframes ring {
+  0%,
+  60% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(2.5);
+  }
+}
+
+/* Caption */
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}

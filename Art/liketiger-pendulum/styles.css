@@ -1,0 +1,81 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: #2d3436;
+  color: #fab1a0;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+.pendulum {
+  position: relative;
+  width: 18px;
+  transform-origin: top center;
+}
+
+.pendulum::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 18px;
+  height: 18px;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 35% 30%,
+    hsl(220 10% 90%),
+    hsl(220 10% 30%)
+  );
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.35),
+    inset 0 1px 2px rgba(255, 255, 255, 0.6);
+}
+
+.pendulum:nth-child(1) {
+  animation: leftX 2.4s cubic-bezier(0.32, 0.01, 0.17, 0.99) infinite both;
+  animation-delay: -1.8s;
+}
+.pendulum:nth-child(4) {
+  animation: rightX 2.4s cubic-bezier(0.32, 0.01, 0.17, 0.99) infinite both;
+  animation-delay: 0.6s;
+}
+
+@keyframes rightX {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes leftX {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

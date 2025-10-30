@@ -1,0 +1,148 @@
+/* CENTER FRAME IN THE MIDDLE OF THE SCREEN */
+
+body {
+  margin: 0;
+  /* Black background for contrast */
+  background-color: #000;
+  /* Center the container horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* TEXT FRAME */
+
+.frame {
+  /* Creates the frame border */
+  border: 3px solid #ef6fc3;
+  /* Neon Pink border */
+  border-radius: 15px;
+  /* Rounded corners for the frame */
+  padding: 2rem;
+  box-shadow: 0 0 15px #ef6fc3, /* Inner glow effect */ inset 0 0 15px #ef6fc3;
+}
+
+.text-container {
+  text-align: center;
+}
+
+/* MESSAGE LETTERS */
+
+.letter {
+  display: inline-block;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff;
+  /* Base text color */
+  /* Neon Pink glow effect using text-shadow */
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #ef6fc3,
+    0 0 82px #ef6fc3, 0 0 92px #ef6fc3;
+  /* Animation properties */
+  animation: fall-and-wiggle 2s ease-out forwards;
+  opacity: 0;
+  position: relative;
+  top: -200px;
+}
+
+/* Keyframes for the falling and wiggling animation */
+@keyframes fall-and-wiggle {
+  0% {
+    opacity: 0;
+    top: -200px;
+    transform: rotate(0deg);
+  }
+
+  70% {
+    opacity: 1;
+    top: 15px;
+    /* Creates a slight bounce effect */
+    transform: rotate(0deg);
+  }
+
+  /* Wiggle effect */
+  80% {
+    transform: translateX(-8px) rotate(-5deg);
+  }
+
+  85% {
+    transform: translateX(6px) rotate(3deg);
+  }
+
+  90% {
+    transform: translateX(-4px) rotate(-2deg);
+  }
+
+  95% {
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  100% {
+    opacity: 1;
+    top: 0;
+    /* Final settled position */
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+/* Stagger the animation delay for each letter */
+.letter:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.letter:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.letter:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.letter:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.letter:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.letter:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+.letter:nth-child(7) {
+  animation-delay: 0.7s;
+}
+
+.letter:nth-child(8) {
+  animation-delay: 0.8s;
+}
+
+.letter:nth-child(9) {
+  animation-delay: 0.9s;
+}
+
+.letter:nth-child(10) {
+  animation-delay: 1s;
+}
+
+.letter:nth-child(11) {
+  animation-delay: 1.1s;
+}
+.letter:nth-child(12) {
+  animation-delay: 1.2s;
+}
+
+/* Add more if your text is longer */
+/* Media Queries */
+
+@media (max-width: 440px) {
+  .letter {
+    font-size: 2.8rem;
+  }
+
+  .frame {
+    padding: 1rem;
+  }
+}

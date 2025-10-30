@@ -1,0 +1,373 @@
+body {
+  height: 100vh;
+  background: #000;
+  overflow: hidden;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matrix-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, #000 0%, #001100 50%, #000 100%);
+}
+
+/* Digit Rain effect */
+.digital-rain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+.rain-column {
+  display: flex;
+  flex-direction: column;
+  height: 120vh;
+  animation: rainFall 4s linear infinite;
+  opacity: 0.8;
+}
+
+.rain-column.column-1 {
+  animation-delay: 0s;
+  animation-duration: 3s;
+}
+
+.rain-column.column-2 {
+  animation-delay: 0.5s;
+  animation-duration: 4s;
+}
+
+.rain-column.column-3 {
+  animation-delay: 1s;
+  animation-duration: 3.5s;
+}
+
+.rain-column.column-4 {
+  animation-delay: 1.5s;
+  animation-duration: 4.5s;
+}
+
+.rain-column.column-5 {
+  animation-delay: 2s;
+  animation-duration: 3.8s;
+}
+
+@keyframes rainFall {
+  0% {
+    transform: translateY(-120vh);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(20vh);
+    opacity: 0;
+  }
+}
+
+.digit {
+  color: #00ff41;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
+  margin: 10px 0;
+  animation: digitalFlicker 2s ease-in-out infinite,
+    digitalGlow 3s ease-in-out infinite;
+  display: block;
+  text-align: center;
+  min-width: 30px;
+}
+
+.digit:nth-child(odd) {
+  animation-delay: 0.2s;
+  color: #39ff14;
+}
+
+.digit:nth-child(even) {
+  animation-delay: 0.8s;
+  color: #00ff00;
+}
+
+@keyframes digitalFlicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes digitalGlow {
+  0%,
+  100% {
+    text-shadow: 0 0 5px #00ff41, 0 0 10px #00ff41, 0 0 15px #00ff41;
+  }
+  50% {
+    text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 30px #00ff41,
+      0 0 40px #00ff41;
+  }
+}
+
+/* Overlay effect */
+.glitch-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.glitch-line {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    #ff0080 20%,
+    #00ffff 50%,
+    #ff0080 80%,
+    transparent 100%
+  );
+  animation: glitchScan 6s ease-in-out infinite;
+  opacity: 0.7;
+}
+
+.line-1 {
+  top: 20%;
+  animation-delay: 0s;
+  animation-duration: 5s;
+}
+
+.line-2 {
+  top: 45%;
+  animation-delay: 1s;
+  animation-duration: 7s;
+}
+
+.line-3 {
+  top: 70%;
+  animation-delay: 2s;
+  animation-duration: 4s;
+}
+
+.line-4 {
+  top: 85%;
+  animation-delay: 3s;
+  animation-duration: 6s;
+}
+
+@keyframes glitchScan {
+  0%,
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* Central focus Element */
+.central-focus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  z-index: 3;
+}
+
+.focus-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid;
+  border-radius: 50%;
+  animation: ringPulse 4s ease-in-out infinite;
+}
+
+.ring-outer {
+  width: 180px;
+  height: 180px;
+  border-color: rgba(0, 255, 65, 0.3);
+  animation-delay: 0s;
+  animation-duration: 6s;
+}
+
+.ring-middle {
+  width: 120px;
+  height: 120px;
+  border-color: rgba(0, 255, 65, 0.5);
+  animation-delay: 1s;
+  animation-duration: 4s;
+}
+
+.ring-inner {
+  width: 60px;
+  height: 60px;
+  border-color: rgba(0, 255, 65, 0.8);
+  animation-delay: 2s;
+  animation-duration: 3s;
+}
+
+@keyframes ringPulse {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 1;
+  }
+}
+
+.core-pulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(
+    circle,
+    #00ff41 0%,
+    #004d00 50%,
+    transparent 100%
+  );
+  border-radius: 50%;
+  animation: corePulse 2s ease-in-out infinite;
+}
+
+@keyframes corePulse {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 20px #00ff41, 0 0 40px #00ff41, 0 0 60px #00ff41;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+    box-shadow: 0 0 40px #00ff41, 0 0 80px #00ff41, 0 0 120px #00ff41,
+      0 0 160px #00ff41;
+  }
+}
+
+/* Additional matrix effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 65, 0.1) 2px,
+    rgba(0, 255, 65, 0.1) 4px
+  );
+  pointer-events: none;
+  z-index: 4;
+  animation: scanLines 10s linear infinite;
+}
+
+@keyframes scanLines {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(4px);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .digit {
+    font-size: 18px;
+    margin: 8px 0;
+    min-width: 25px;
+  }
+
+  .central-focus {
+    width: 150px;
+    height: 150px;
+  }
+
+  .ring-outer {
+    width: 130px;
+    height: 130px;
+  }
+
+  .ring-middle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .ring-inner {
+    width: 50px;
+    height: 50px;
+  }
+
+  .glitch-line {
+    height: 1px;
+  }
+}
+
+@media (max-width: 480px) {
+  .digit {
+    font-size: 14px;
+    margin: 6px 0;
+    min-width: 20px;
+  }
+
+  .central-focus {
+    width: 100px;
+    height: 100px;
+  }
+
+  .ring-outer {
+    width: 90px;
+    height: 90px;
+  }
+
+  .ring-middle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .ring-inner {
+    width: 30px;
+    height: 30px;
+  }
+}

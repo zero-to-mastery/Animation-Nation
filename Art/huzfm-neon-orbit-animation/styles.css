@@ -1,0 +1,152 @@
+:root {
+  --bg: #060b20;
+  --c1: #00f7ff;
+  --c2: #ff00ff;
+  --c3: #00ff88;
+  --r1: 60px; /* radius for orbit1 */
+  --r2: 90px; /* radius for orbit2 */
+  --r3: 125px; /* radius for orbit3 */
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle at 50% 50%, #0a0f30, var(--bg));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  transition: transform 0.3s ease;
+}
+
+.stage:hover {
+  transform: scale(1.05);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 25px white, 0 0 50px var(--c2);
+}
+
+/* Orbits */
+.orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: border-color 0.3s ease;
+}
+
+.orbit1 {
+  --r: var(--r1);
+  width: calc(2 * var(--r));
+  height: calc(2 * var(--r));
+  animation: spin 6s linear infinite;
+}
+.orbit2 {
+  --r: var(--r2);
+  width: calc(2 * var(--r));
+  height: calc(2 * var(--r));
+  animation: spin 10s linear infinite reverse;
+}
+.orbit3 {
+  --r: var(--r3);
+  width: calc(2 * var(--r));
+  height: calc(2 * var(--r));
+  animation: spin 14s linear infinite;
+}
+
+/* Glowing Orbs */
+.glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  will-change: transform;
+  transition: box-shadow 0.3s ease;
+}
+
+.glow1 {
+  --r: var(--r1);
+  background: var(--c1);
+  box-shadow: 0 0 20px var(--c1), 0 0 40px var(--c1);
+  animation: orbit 6s linear infinite;
+}
+.glow2 {
+  --r: var(--r2);
+  background: var(--c2);
+  box-shadow: 0 0 20px var(--c2), 0 0 40px var(--c2);
+  animation: orbit 10s linear infinite reverse;
+}
+.glow3 {
+  --r: var(--r3);
+  background: var(--c3);
+  box-shadow: 0 0 20px var(--c3), 0 0 40px var(--c3);
+  animation: orbit 14s linear infinite;
+}
+
+/* Hover Effects → faster + brighter */
+.stage:hover .orbit1 {
+  animation-duration: 3s;
+  border-color: var(--c1);
+}
+.stage:hover .orbit2 {
+  animation-duration: 5s;
+  border-color: var(--c2);
+}
+.stage:hover .orbit3 {
+  animation-duration: 7s;
+  border-color: var(--c3);
+}
+
+.stage:hover .glow1 {
+  box-shadow: 0 0 30px var(--c1), 0 0 60px var(--c1);
+}
+.stage:hover .glow2 {
+  box-shadow: 0 0 30px var(--c2), 0 0 60px var(--c2);
+}
+.stage:hover .glow3 {
+  box-shadow: 0 0 30px var(--c3), 0 0 60px var(--c3);
+}
+
+/* Animations */
+@keyframes spin {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes orbit {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(var(--r));
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(var(--r));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orbit,
+  .glow {
+    animation: none;
+  }
+}
