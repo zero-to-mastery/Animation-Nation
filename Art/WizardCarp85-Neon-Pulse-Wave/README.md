@@ -4,7 +4,7 @@ Pure CSS animation with neon colors and pulsing waves!
 
 ## Files
 - `index.html` - main html file
-- `style.css` - all the styles and animations
+- `styles.css` - all the styles and animations
 
 ## How to Run
 1. Put both files in the same folder
@@ -25,3 +25,5 @@ Pure CSS animation with neon colors and pulsing waves!
 - Magenta (#ff00ff)
 - Lime (#00ff00)
 - Orange (#ff8c00)
+
+Built with pure CSS animations
