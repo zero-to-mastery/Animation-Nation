@@ -1,171 +1,182 @@
-/* Reset and general styles */
+/* Reset */
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-
 :root {
-  /* Base sizing for desktop */
-  --cradle-width: 320px;
-  --cradle-height: 240px;
-  --ball-size: 50px;
-  --string-length: 140px;
-  --frame-top: 20px;
-  --horizontal-padding: 10px;
+  --cradle-w: 360px;
+  --cradle-h: 260px;
+  --ball-size: 52px;
+  --string-l: 150px;
+  --pad: 12px;
 }
 
-/* Scales down smoothly on narrow screens */
 @media (max-width: 480px) {
   :root {
-    --cradle-width: 240px;
-    --cradle-height: 180px;
+    --cradle-w: 260px;
+    --cradle-h: 200px;
     --ball-size: 40px;
-    --string-length: 95px;
-    --frame-top: 16px;
-    --horizontal-padding: 8px;
+    --string-l: 110px;
   }
 }
 
-@media (max-width: 360px) {
-  :root {
-    --cradle-width: 200px;
-    --cradle-height: 160px;
-    --ball-size: 34px;
-    --string-length: 82px;
-    --frame-top: 14px;
-    --horizontal-padding: 6px;
-  }
-}
-
+html,
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
+}
+body {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-  background-image: linear-gradient(135deg, #0f172a 0%, #1e293b 100%),
-    url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"%3E%3Ccircle cx="10" cy="10" r="1" fill="%23ffffff" opacity="0.5"/%3E%3Ccircle cx="30" cy="70" r="0.5" fill="%23ffffff" opacity="0.3"/%3E%3Ccircle cx="50" cy="20" r="1.5" fill="%23ffffff" opacity="0.4"/%3E%3Ccircle cx="80" cy="50" r="0.8" fill="%23ffffff" opacity="0.6"/%3E%3Ccircle cx="90" cy="90" r="1" fill="%23ffffff" opacity="0.2"/%3E%3C/svg%3E');
-  background-size: cover, 50px 50px;
-  color: #f8fafc;
-  font-family: "Courier New", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #071029 0%, #0f1724 100%);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+  color: #fff;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
   overflow: hidden;
-  padding: 16px;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }
 
-/* Title styling */
-.title {
-  font-size: clamp(1.6rem, 2.5vw + 1rem, 2.5rem);
-  color: #38bdf8;
-  text-shadow: 0 0 10px rgba(56, 189, 248, 0.8);
-  margin-bottom: 20px;
-  text-align: center;
-  /* animation: glow 2s infinite alternate; */
-}
-
-/* Cradle frame */
 .cradle {
+  width: var(--cradle-w);
+  height: var(--cradle-h);
   position: relative;
-  width: var(--cradle-width);
-  height: var(--cradle-height);
-  perspective: 800px; /* Adds 3D depth */
-  transform-style: preserve-3d;
-  margin-bottom: 24px;
+  perspective: 800px;
 }
-
 .top-bar {
   position: absolute;
-  top: 0;
   left: 0;
+  top: 0;
   width: 100%;
-  height: 20px;
-  background: linear-gradient(#a0a0a0, #707070);
+  height: 18px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  z-index: 1;
+  background: linear-gradient(#bbbbbb, #7a7a7a);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
 }
-
 .base {
   position: absolute;
-  bottom: 0;
   left: 0;
+  bottom: 0;
   width: 100%;
-  height: 30px;
-  background: linear-gradient(#707070, #505050);
+  height: 28px;
   border-radius: 10px 10px 0 0;
-  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(#7a7a7a, #555555);
 }
 
-/* Balls container */
 .balls-container {
-  display: flex;
-  justify-content: space-between;
   position: absolute;
-  top: var(--frame-top);
-  left: var(--horizontal-padding);
-  width: calc(100% - (var(--horizontal-padding) * 2));
-  height: calc(var(--cradle-height) - var(--frame-top) - 30px);
+  left: var(--pad);
+  right: var(--pad);
+  top: 22px;
+  height: calc(var(--cradle-h) - 22px - 28px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-/* Each ball (wrapper + string + sphere) */
 .ball-wrapper {
-  position: relative;
   width: var(--ball-size);
-  height: calc(var(--string-length) + var(--ball-size));
-  transform-origin: 50% 0; /* pivot at the top attachment point */
+  height: calc(var(--string-l) + var(--ball-size));
+  position: relative;
+  transform-origin: 50% 0%;
   display: flex;
+  align-items: flex-start;
   justify-content: center;
 }
 
-/* String */
 .string {
+  width: 2px;
+  height: var(--string-l);
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 2px;
-  height: var(--string-length);
-  background: linear-gradient(#d0d0d0, #a0a0a0);
+  background: linear-gradient(#ddd, #888);
 }
 
-/* Ball */
 .ball {
   width: var(--ball-size);
   height: var(--ball-size);
-  background: radial-gradient(circle at 20% 20%, #f0f0f0, #a0a0a0, #505050);
   border-radius: 50%;
   position: absolute;
   bottom: 0;
-  box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.4),
-    inset 4px 4px 8px rgba(255, 255, 255, 0.5), 0 4px 8px rgba(0, 0, 0, 0.3);
+  background: radial-gradient(
+    circle at 30% 25%,
+    #fff,
+    #ccc 25%,
+    #777 60%,
+    #333 100%
+  );
+  box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.45),
+    0 6px 12px rgba(0, 0, 0, 0.35);
 }
 
-/* Animations applied to wrappers */
-.ball-wrapper.ball1 {
-  animation: swing-left 1.8s infinite ease-in-out;
+/* Pendulum timing & sync */
+.pendulum {
+  width: var(--ball-size);
+  height: calc(var(--string-l) + var(--ball-size));
+  position: relative;
+  transform-origin: 50% 0%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.ball-wrapper.ball5 {
-  animation: swing-right 1.8s infinite ease-in-out;
+.ball-wrapper.ball1 .pendulum {
+  animation: swing-left 1.8s cubic-bezier(0.42, 0, 0.58, 1) infinite;
 }
 
-.ball-wrapper.ball2 .ball,
-.ball-wrapper.ball3 .ball,
-.ball-wrapper.ball4 .ball{
-  animation: vibrate 1.8s infinite ease-in-out; /* Subtle middle vibration */
+.ball-wrapper.ball5 .pendulum {
+  animation: swing-right 1.8s cubic-bezier(0.42, 0, 0.58, 1) infinite;
+  animation-delay: 0.9s;
 }
 
+.ball-wrapper.ball2 .pendulum,
+.ball-wrapper.ball3 .pendulum,
+.ball-wrapper.ball4 .pendulum {
+  animation: vibrate-cycle 1.8s ease-in-out infinite;
+}
+
+/* Sparks */
+.spark1 {
+  left: 86px;
+  bottom: 72px;
+  animation: spark-anim 1.8s ease-out infinite;
+  animation-delay: 0.45s;
+}
+
+.spark2 {
+  right: 86px;
+  bottom: 72px;
+  animation: spark-anim 1.8s ease-out infinite;
+  animation-delay: 1.35s;
+}
+
+/* Keyframes */
 @keyframes swing-left {
   0% {
     transform: rotate(0deg);
   }
-  20% {
+  25% {
     transform: rotate(40deg);
-  }
-  40% {
+  } /* peak */
+  50% {
     transform: rotate(0deg);
-  }
+  } /* collision */
+  75% {
+    transform: rotate(-6deg);
+  } /* recoil */
   100% {
     transform: rotate(0deg);
   }
@@ -175,141 +186,81 @@ body {
   0% {
     transform: rotate(0deg);
   }
-  40% {
+  25% {
     transform: rotate(0deg);
-  }
-  60% {
+  } /* idle */
+  50% {
     transform: rotate(-40deg);
-  }
-  80% {
+  } /* peak */
+  75% {
     transform: rotate(0deg);
-  }
+  } /* collision */
   100% {
     transform: rotate(0deg);
   }
 }
 
-@keyframes vibrate {
-  39% {
-    transform: translateX(0);
-  }
-  40% {
-    transform: translateX(1px);
-  }
-  41% {
-    transform: translateX(-1px);
-  }
-  42% {
-    transform: translateX(0);
-  }
-  79% {
-    transform: translateX(0);
-  }
-  80% {
-    transform: translateX(-1px);
-  }
-  81% {
-    transform: translateX(1px);
-  }
-  82% {
-    transform: translateX(0);
-  }
-}
-
-/* Spark effects for collision */
-.spark {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: radial-gradient(#ffffff, transparent);
-  border-radius: 50%;
-  opacity: 0;
-  animation: spark-animate 1.8s infinite;
-}
-
-.spark1 {
-  bottom: 60px;
-  left: 120px; /* left collision */
-  animation-delay: 0.1s;
-}
-
-.spark2 {
-  bottom: 60px;
-  right: 120px; /* right collision */
-  animation-delay: 0.8s;
-}
-
-@keyframes spark-animate {
-  0% {
-    opacity: 0;
-    transform: scale(0);
-  }
-  10% {
-    opacity: 1;
-    transform: scale(1.5);
-  }
+/* Vibrate twice per cycle (after each collision) */
+@keyframes vibrate-cycle {
+  0%,
   20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(1px);
+  }
+  30% {
+    transform: translateX(-1px);
+  }
+  35% {
+    transform: translateX(0);
+  }
+  70% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(1px);
+  }
+  80% {
+    transform: translateX(-1px);
+  }
+  85% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* quick spark burst */
+@keyframes spark-anim {
+  0%,
+  24% {
     opacity: 0;
     transform: scale(0);
   }
-}
-
-/* Title glow */
-@keyframes glow {
-  0% {
-    text-shadow: 0 0 5px rgba(56, 189, 248, 0.5);
+  25% {
+    opacity: 1;
+    transform: scale(1.6);
+  }
+  30% {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  74% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  75% {
+    opacity: 1;
+    transform: scale(1.6);
+  }
+  80% {
+    opacity: 0;
+    transform: scale(0.2);
   }
   100% {
-    text-shadow: 0 0 15px rgba(56, 189, 248, 0.8);
-  }
-}
-
-/* Joke styling */
-.joke {
-  font-size: clamp(0.95rem, 1.2vw + 0.6rem, 1.1rem);
-  text-align: center;
-  background: rgba(30, 41, 59, 0.7);
-  padding: 12px 18px;
-  border-radius: 8px;
-  max-width: 460px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.joke-setup {
-  color: #4ade80;
-  /* animation: glow-green 2.5s infinite alternate; */
-}
-
-.joke-punchline {
-  color: #c084fc;
-  /* animation: glow-purple 2.5s infinite alternate; */
-}
-
-.joke:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.5);
-}
-
-.joke em {
-  color: #38bdf8;
-  font-style: normal;
-  font-weight: bold;
-}
-
-@keyframes glow-green {
-  0% {
-    text-shadow: 0 0 5px rgba(74, 222, 128, 0.4);
-  }
-  100% {
-    text-shadow: 0 0 15px rgba(74, 222, 128, 0.8);
-  }
-}
-
-@keyframes glow-purple {
-  0% {
-    text-shadow: 0 0 5px rgba(192, 132, 252, 0.4);
-  }
-  100% {
-    text-shadow: 0 0 15px rgba(192, 132, 252, 0.8);
+    opacity: 0;
+    transform: scale(0);
   }
 }
