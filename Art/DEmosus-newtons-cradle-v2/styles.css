@@ -269,7 +269,7 @@ body {
   padding: 12px 18px;
   border-radius: 8px;
   max-width: 460px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
 }
 
 .joke-setup {
@@ -293,7 +293,7 @@ body {
   font-weight: bold;
 }
 
-@keyframes glow-green {
+/* @keyframes glow-green {
   0% {
     text-shadow: 0 0 5px rgba(74, 222, 128, 0.4);
   }
@@ -309,4 +309,4 @@ body {
   100% {
     text-shadow: 0 0 15px rgba(192, 132, 252, 0.8);
   }
-}
+} */
