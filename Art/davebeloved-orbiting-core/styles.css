@@ -1,0 +1,510 @@
+:root {
+  --bg-a: #071029;
+  --bg-b: #0b2740;
+  --accent-1: #76f2ff;
+  --accent-2: #7a7aff;
+  --accent-3: #ffc58f;
+  --glass: rgba(255, 255, 255, 0.04);
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(
+      1200px 600px at 10% 10%,
+      rgba(122, 122, 255, 0.06),
+      transparent 10%
+    ),
+    radial-gradient(
+      900px 400px at 90% 80%,
+      rgba(255, 197, 143, 0.03),
+      transparent 12%
+    ),
+    linear-gradient(180deg, var(--bg-a), var(--bg-b));
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  animation: bg-pan 18s linear infinite;
+}
+
+.stage {
+  width: 100%;
+  max-width: 1100px;
+  padding: 2rem;
+}
+.scene {
+  position: relative;
+  height: 72vh;
+  min-height: 420px;
+  border-radius: 26px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 14px 60px rgba(2, 6, 23, 0.65),
+    inset 0 1px 0 rgba(255, 255, 255, 0.02);
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.015),
+    transparent 20%
+  );
+  transform-style: preserve-3d;
+}
+
+.stars {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: transparent;
+  filter: contrast(120%);
+  opacity: 0.95;
+}
+.stars::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  left: 6%;
+  top: 6%;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 4vw 8vh #fff, 12vw 16vh #fff, 18vw 36vh #fff, 30vw 10vh #fff,
+    45vw 28vh #fff, 62vw 20vh #fff, 78vw 50vh #fff, 90vw 30vh #fff,
+    15vw 55vh #fff, 35vw 60vh #fff, 52vw 12vh #fff, 66vw 55vh #fff,
+    5vw 40vh #fff, 30vw 20vh #fff, 85vw 8vh #fff, 22vw 8vh #fff, 10vw 70vh #fff,
+    50vw 75vh #fff, 80vw 72vh #fff, 40vw 30vh #fff;
+  opacity: 0.75;
+  filter: blur(0.4px);
+  animation: star-twinkle 8s linear infinite, star-drift 28s linear infinite;
+}
+
+.nebula {
+  position: absolute;
+  width: 36vmin;
+  height: 36vmin;
+  max-width: 560px;
+  max-height: 560px;
+  border-radius: 50%;
+  filter: blur(46px) saturate(140%);
+  mix-blend-mode: screen;
+  opacity: 0.75;
+  pointer-events: none;
+  transform-origin: center;
+}
+.nebula-1 {
+  left: -14%;
+  top: 6%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    var(--accent-1),
+    transparent 40%
+  );
+  animation: neb-1 19s ease-in-out infinite;
+}
+.nebula-2 {
+  right: -10%;
+  bottom: -10%;
+  background: radial-gradient(
+    circle at 70% 40%,
+    var(--accent-2),
+    transparent 40%
+  );
+  animation: neb-2 22s ease-in-out infinite;
+}
+.nebula-3 {
+  left: 18%;
+  bottom: -14%;
+  background: radial-gradient(
+    circle at 50% 60%,
+    var(--accent-3),
+    transparent 45%
+  );
+  animation: neb-3 26s ease-in-out infinite;
+}
+
+.core {
+  position: relative;
+  width: 34vmin;
+  height: 34vmin;
+  max-width: 420px;
+  max-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+  transform-style: preserve-3d;
+}
+
+.halo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 160%;
+  height: 160%;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 35% 30%,
+    rgba(118, 242, 255, 0.55),
+    rgba(122, 122, 255, 0.28) 30%,
+    transparent 60%
+  );
+  filter: blur(26px) saturate(140%);
+  animation: halo-breathe 5.2s ease-in-out infinite;
+  z-index: 1;
+}
+
+.core-center {
+  width: 34%;
+  height: 34%;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    #ffffff,
+    rgba(118, 242, 255, 0.95) 18%,
+    rgba(122, 122, 255, 0.6) 45%,
+    transparent 70%
+  );
+  box-shadow: 0 0 110px rgba(118, 242, 255, 0.27),
+    0 0 48px rgba(122, 122, 255, 0.12), 0 10px 40px rgba(0, 0, 0, 0.35);
+  z-index: 3;
+  animation: core-pulse 3.4s ease-in-out infinite, hue-spin 9s linear infinite;
+  transform-origin: center;
+  will-change: transform, filter;
+}
+
+/* rings */
+.ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: overlay;
+}
+.ring--thin {
+  width: 62%;
+  height: 62%;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  filter: blur(0.8px);
+  animation: rotate-slow 14s linear infinite,
+    ring-breathe 6s ease-in-out infinite;
+}
+.ring--thick {
+  width: 120%;
+  height: 120%;
+  border: 6px solid rgba(118, 242, 255, 0.06);
+  filter: blur(6px);
+  animation: rotate-slow-rev 26s linear infinite,
+    ring-shimmer 11s ease-in-out infinite;
+}
+
+.sat {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-1);
+  z-index: 8;
+  transform-origin: 50% 50%;
+  box-shadow: 0 0 14px rgba(118, 242, 255, 0.7);
+  will-change: transform;
+}
+.sat::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+
+.sat-1 {
+  animation: orbit-1 6.6s linear infinite;
+  background: var(--accent-1);
+  transform: translate(-50%, -50%) rotate(0deg) translateX(140px) rotate(0deg);
+}
+.sat-2 {
+  animation: orbit-2 9.2s linear infinite;
+  background: var(--accent-2);
+  transform: translate(-50%, -50%) rotate(0deg) translateX(100px) rotate(0deg);
+}
+.sat-3 {
+  animation: orbit-3 12.4s linear infinite;
+  background: var(--accent-3);
+  transform: translate(-50%, -50%) rotate(0deg) translateX(180px) rotate(0deg);
+}
+
+.scene::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+      40% 40% at 50% 30%,
+      rgba(255, 255, 255, 0.02),
+      transparent 12%
+    ),
+    radial-gradient(
+      70% 40% at 10% 80%,
+      rgba(122, 122, 255, 0.02),
+      transparent 12%
+    );
+  pointer-events: none;
+  z-index: 5;
+  animation: scene-shift 24s ease-in-out infinite;
+}
+
+@keyframes bg-pan {
+  0% {
+    background-position: 0% 30%;
+  }
+  50% {
+    background-position: 100% 70%;
+  }
+  100% {
+    background-position: 0% 30%;
+  }
+}
+
+@keyframes star-twinkle {
+  0% {
+    opacity: 0.65;
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-2px) scale(1.05);
+  }
+  100% {
+    opacity: 0.65;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes star-drift {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes neb-1 {
+  0% {
+    transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+  25% {
+    transform: translate(6%, -4%) scale(1.05) rotate(4deg);
+  }
+  50% {
+    transform: translate(-3%, 6%) scale(1) rotate(-3deg);
+  }
+  75% {
+    transform: translate(-6%, -2%) scale(1.03) rotate(2deg);
+  }
+  100% {
+    transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+}
+@keyframes neb-2 {
+  0% {
+    transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+  25% {
+    transform: translate(-6%, 4%) scale(1.06) rotate(-6deg);
+  }
+  50% {
+    transform: translate(4%, -6%) scale(1) rotate(3deg);
+  }
+  75% {
+    transform: translate(6%, 2%) scale(1.02) rotate(-2deg);
+  }
+  100% {
+    transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+}
+@keyframes neb-3 {
+  0% {
+    transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+  25% {
+    transform: translate(3%, 6%) scale(1.04) rotate(5deg);
+  }
+  50% {
+    transform: translate(-6%, -3%) scale(1) rotate(-4deg);
+  }
+  75% {
+    transform: translate(2%, -6%) scale(1.03) rotate(2deg);
+  }
+  100% {
+    transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+}
+
+@keyframes halo-breathe {
+  0% {
+    opacity: 0.95;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.65;
+    transform: translate(-50%, -50%) scale(1.08);
+  }
+  100% {
+    opacity: 0.95;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes core-pulse {
+  0% {
+    transform: translateZ(0) scale(0.96);
+  }
+  50% {
+    transform: translateZ(0) scale(1.08);
+  }
+  100% {
+    transform: translateZ(0) scale(0.96);
+  }
+}
+
+@keyframes hue-spin {
+  0% {
+    filter: hue-rotate(0deg) saturate(110%);
+  }
+  50% {
+    filter: hue-rotate(45deg) saturate(125%);
+  }
+  100% {
+    filter: hue-rotate(0deg) saturate(110%);
+  }
+}
+
+@keyframes rotate-slow {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes rotate-slow-rev {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+@keyframes ring-breathe {
+  0% {
+    opacity: 0.95;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.95;
+  }
+}
+@keyframes ring-shimmer {
+  0% {
+    filter: blur(6px) contrast(90%);
+  }
+  50% {
+    filter: blur(12px) contrast(140%);
+  }
+  100% {
+    filter: blur(6px) contrast(90%);
+  }
+}
+
+@keyframes orbit-1 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(140px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(140px)
+      rotate(-360deg);
+  }
+}
+@keyframes orbit-2 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg) translateX(100px)
+      rotate(360deg);
+  }
+}
+@keyframes orbit-3 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(180px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(180px)
+      rotate(-360deg);
+  }
+}
+
+@keyframes scene-shift {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.01);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@media (max-width: 720px) {
+  .scene {
+    height: 62vh;
+    min-height: 320px;
+    border-radius: 18px;
+  }
+  .core {
+    width: 52vmin;
+    height: 52vmin;
+  }
+  .nebula {
+    width: 48vmin;
+    height: 48vmin;
+  }
+  .sat-1 {
+    animation-duration: 8.4s;
+  }
+  .sat-2 {
+    animation-duration: 11s;
+  }
+  .sat-3 {
+    animation-duration: 16s;
+  }
+}
