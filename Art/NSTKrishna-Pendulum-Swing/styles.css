@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+}
+
+.clock {
+  position: relative;
+  width: 10px;
+  height: 150px;
+  background: #999;
+}
+
+.pendulum {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 6px;
+  height: 100px;
+  background: #444;
+  transform-origin: top;
+  animation: swing 2s ease-in-out infinite;
+}
+
+.pendulum::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -12px;
+  width: 30px;
+  height: 30px;
+  background: #ff6b6b;
+  border-radius: 50%;
+}
+
+@keyframes swing {
+  0% { transform: rotate(-30deg); }
+  50% { transform: rotate(30deg); }
+  100% { transform: rotate(-30deg); }
+}
