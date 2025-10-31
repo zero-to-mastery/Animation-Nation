@@ -282,18 +282,13 @@ body {
   /* animation: glow-purple 2.5s infinite alternate; */
 }
 
-/* .joke:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.5);
-} */
-
 .joke em {
   color: #38bdf8;
   font-style: normal;
   font-weight: bold;
 }
 
-/* @keyframes glow-green {
+@keyframes glow-green {
   0% {
     text-shadow: 0 0 5px rgba(74, 222, 128, 0.4);
   }
@@ -309,4 +304,4 @@ body {
   100% {
     text-shadow: 0 0 15px rgba(192, 132, 252, 0.8);
   }
-} */
+}
