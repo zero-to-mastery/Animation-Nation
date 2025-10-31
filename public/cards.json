@@ -505,6 +505,22 @@
   },
   {
     "author": "UserAkku",
+    "artName": "Coffee Cup Animation",
+    "githubLink": "https://github.com/UserAkku",
+    "pageLink": "./Art/UserAkku-Coffee-Cup-Animation/index.html",
+    "imageLink": "./Art/UserAkku-Coffee-Cup-Animation/icon.png",
+    "projectPath": "Art/UserAkku-Coffee-Cup-Animation"
+  },
+  {
+    "author": "UserAkku",
+    "artName": "Music On",
+    "githubLink": "https://github.com/UserAkku",
+    "pageLink": "./Art/UserAkku-Music-On/index.html",
+    "imageLink": "./Art/UserAkku-Music-On/icon.png",
+    "projectPath": "Art/UserAkku-Music-On"
+  },
+  {
+    "author": "UserAkku",
     "artName": "colorspinner",
     "githubLink": "https://github.com/UserAkku",
     "pageLink": "./Art/UserAkku-colorspinner/index.html",
@@ -638,6 +654,14 @@
     "pageLink": "./Art/adithya-pathakoti-galaxy/index.html",
     "imageLink": "./Art/adithya-pathakoti-galaxy/icon.png",
     "projectPath": "Art/adithya-pathakoti-galaxy"
+  },
+  {
+    "author": "agrawalshreyansh",
+    "artName": "spinning wheel",
+    "githubLink": "https://github.com/agrawalshreyansh",
+    "pageLink": "./Art/agrawalshreyansh-spinning_wheel/index.html",
+    "imageLink": "./Art/agrawalshreyansh-spinning_wheel/icon.png",
+    "projectPath": "Art/agrawalshreyansh-spinning_wheel"
   },
   {
     "author": "antoniomilin13",
