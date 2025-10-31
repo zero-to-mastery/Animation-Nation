@@ -1,0 +1,433 @@
+/* === Base Reset === */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
+/* === Scene === */
+.scene {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #0a0a2a 0%, #000 100%);
+  overflow: hidden;
+}
+
+/* === Stars === */
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 3s infinite ease-in-out;
+  filter: drop-shadow(0 0 2px white);
+}
+
+/* === Moon === */
+.moon {
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform-style: preserve-3d;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #fff 0%, #ddd 60%, #aaa 100%);
+  box-shadow:
+    0 0 80px rgba(255, 255, 255, 0.4),
+    0 0 160px rgba(255, 255, 255, 0.2);
+  animation: moonTilt 12s ease-in-out infinite;
+  overflow: hidden;
+}
+.moon::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.08) 0%, transparent 70%);
+  filter: blur(8px);
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+  animation: moonGlowPulse 12s ease-in-out infinite;
+}
+.moon::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+  z-index: 4;
+}
+.moon-shadow {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 85% 85%, /* bottom-right corner */
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.2) 10%,
+    rgba(0, 0, 0, 0.1) 20%,
+    transparent 30%
+  );
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* === Moon Craters === */
+.crater {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(160,160,160,0.4) 0%, rgba(80,80,80,0.2) 60%, transparent 100%);
+  box-shadow:
+    inset -2px -2px 4px rgba(0, 0, 0, 0.5),
+    inset 1px 1px 2px rgba(255, 255, 255, 0.1);
+  filter: blur(0.6px);
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+  animation: craterPulse 10s ease-in-out infinite;
+  z-index: 1;
+}
+.c1 { top: 40px; left: 30px; width: 40px; height: 35px; }   /* upper-left, outside face */
+.c2 { top: 180px; left: 270px; width: 30px; height: 26px; } /* lower-right, near edge */
+.c3 { top: 260px; left: 50px; width: 50px; height: 50px; }  /* lower-left, balanced */
+
+/* === Moon Face === */
+.eye {
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #222 60%, #000 100%);
+  top: 100px;
+  z-index: 3;
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);
+}
+.left-eye { left: 70px; }
+.right-eye {
+  right: 70px;
+  animation: wink 12s ease-in-out infinite;
+  transform-origin: center;
+}
+.sparkle {
+  position: absolute;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.9;
+}
+.s1 { width: 15px; height: 19px; top: 10px; left: 22px; }
+.s2 { width: 7px; height: 10px; top: 24px; left: 14px; }
+.s3 { width: 6px; height: 8px; top: 30px; left: 25px; }
+
+.wink-starburst {
+  position: absolute;
+  top: 110px; /* near right eye */
+  right: 60px;
+  width: 0;
+  height: 0;
+  z-index: 4;
+  pointer-events: none;
+  opacity: 0;
+  animation: starburstPulse 12s ease-in-out infinite;
+}
+.wink-starburst::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle, #ffd700 0%, #ffec8b 60%, transparent 100%);
+  clip-path: polygon(
+    50% 0%, 61% 35%, 98% 35%, 68% 57%,
+    79% 91%, 50% 70%, 21% 91%, 32% 57%,
+    2% 35%, 39% 35%
+  );
+  transform: scale(0.5);
+  opacity: 0;
+  animation: starburstPulse 12s ease-in-out infinite;
+}
+
+/* === Moon Cheeks === */
+.cheek {
+  position: absolute;
+  width: 64px; /* was 56px */
+  height: 28px; /* was 20px */
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,153,180,0.9), transparent 70%);
+  bottom: 88px;
+  z-index: 3;
+}
+.left-cheek { left: 48px; }
+.right-cheek { right: 48px; }
+
+.left-cheek,.right-cheek {
+  animation: cheekPulse 12s ease-in-out infinite;
+}
+
+/* === Moon Mouth & Tongue === */
+.mouth {
+  position: absolute;
+  bottom: 72px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 24px;
+  z-index: 3;
+}
+.mouth::before,
+.mouth::after {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 15px;
+  border: 4.5px solid #505050;
+  border-top: none;
+  border-radius: 0 0 50% 50%;
+  background: transparent;
+}
+.mouth::before { left: -32px; }
+.mouth::after { left: -1px; }
+
+.tongue {
+  position: absolute;
+  bottom: 67.5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 14px;
+  border-radius: 0 0 50% 50%;
+  background: radial-gradient(circle at center, #ff7aa2 0%, #ff4f88 100%);
+  z-index: 2;
+  animation: tongueRetract 12s ease-in-out infinite;
+}
+
+/* === Fireflies === */
+.firefly {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffff99;
+  box-shadow: 0 0 8px rgba(255, 255, 153, 0.8);
+  animation: drift 12s infinite ease-in-out, flicker 2s infinite ease-in-out;
+}
+.firefly::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,153,0.2), transparent);
+  transform: rotate(15deg) skewX(5deg);
+  animation: pulseTrail 2s infinite ease-in-out;
+}
+.firefly::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ffff99;
+  opacity: 0.2;
+  transform: scaleY(-1) translateY(4px);
+  filter: blur(6px);
+}
+
+/* Random positions */
+.f1 { top: 20%; left: 10%; animation-delay: 0s, 0.2s; }
+.f2 { top: 40%; left: 80%; animation-delay: 1s, 0.4s; }
+.f3 { top: 60%; left: 30%; animation-delay: 2s, 0.6s; }
+.f4 { top: 70%; left: 60%; animation-delay: 3s, 0.8s; }
+.f5 { top: 30%; left: 69%; animation-delay: 4s, 1s; }
+.f6 { top: 30%; left: 70%; animation-delay: 5s, 1.2s; }
+.f7 { top: 80%; left: 20%; animation-delay: 6s, 1.4s; }
+.f8 { top: 10%; left: 90%; animation-delay: 7s, 1.6s; }
+
+/* === Ocean === */
+.ocean {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30vh;
+  background: linear-gradient(to top, #000c1f 0%, #001a33 30%, transparent 100%);
+  box-shadow: inset 0 8px 20px rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+}
+.ocean::before {
+  content: '';
+  position: absolute;
+  top: -150px;
+  left: 50%;
+  transform: translateX(-50%) scaleY(-1) skewX(2deg);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff 0%, #ddd 60%, #aaa 100%);
+  opacity: 0.15;
+  filter: blur(12px);
+}
+.ocean::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, rgba(255,255,255,0.05), transparent);
+  opacity: 0.3;
+  filter: blur(12px);
+}
+
+/* === Animations === */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 0.2; }
+}
+
+@keyframes moonGlowPulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.03); opacity: 0.6; }
+}
+
+@keyframes moonTilt {
+  0%, 59% { rotate: 0deg; }
+  60% { rotate: -3deg; }
+  65% { rotate: 3deg; }
+  70% { rotate: 0deg; }
+  100% { rotate: 0deg; }
+}
+
+@keyframes craterPulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.05); }
+}
+
+@keyframes wink {
+  0%, 59% { transform: scaleY(1) scaleX(1); }
+  60%     { transform: scaleY(0.04) scaleX(1.2); }
+  70%     { transform: scaleY(0.04) scaleX(1.2); }
+  80%     { transform: scaleY(1) scaleX(1); }
+  100%    { transform: scaleY(1) scaleX(1); }
+}
+
+@keyframes starburstPulse {
+  0%, 59%, 100% {
+    transform: scale(0.5) rotate(0deg);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.6) rotate(15deg);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1.2) rotate(5deg);
+    opacity: 0.6;
+  }
+  80% {
+    transform: scale(0.5) rotate(0deg);
+    opacity: 0;
+  }
+}
+
+@keyframes cheekPulse {
+  0%, 59%, 100% { opacity: 0.9; transform: scale(1); }
+  60%           { opacity: 1; transform: scale(1.6); }
+  70%           { opacity: 1; transform: scale(1.6); }
+  80%           { opacity: 0.9; transform: scale(1); }
+}
+
+@keyframes tongueRetract {
+  0%, 59% {
+    height: 0;
+    bottom: 67.5px;
+    opacity: 0;
+  }
+  60% {
+    height: 14px;
+    bottom: 67.5px;
+    opacity: 1;
+  }
+  70% {
+    height: 14px;
+    bottom: 67.5px;
+    opacity: 1;
+  }
+  80% {
+    height: 0;
+    bottom: 81.5px;
+    opacity: 0;
+  }
+  100% {
+    height: 0;
+    bottom: 81.5px;
+    opacity: 0;
+  }
+}
+
+@keyframes drift {
+  0%   { transform: translate(0, 0) scale(1) rotate(0deg); }
+  25%  { transform: translate(20px, -30px) scale(1.2) rotate(5deg); }
+  50%  { transform: translate(-10px, 20px) scale(0.9) rotate(-3deg); }
+  75%  { transform: translate(15px, -10px) scale(1.1) rotate(2deg); }
+  100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 0.2; box-shadow: 0 0 4px rgba(255, 255, 153, 0.3); }
+  50%      { opacity: 1; box-shadow: 0 0 12px rgba(255, 255, 153, 0.9); }
+}
+
+@keyframes pulseTrail {
+  0%, 100% { opacity: 0.1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.3); }
+}
+
+/* === Media Screens === */
+@media (max-height: 1400px) {
+  .moon {
+    top: 40%;
+  }
+}
+
+@media (max-height: 950px) {
+  .moon {
+    top: 30%;
+  }
+}
+
+@media (max-height: 800px) {
+  .moon {
+    top: 22%;
+  }
+}
+
+@media (max-height: 600px) {
+  .moon {
+    top: 19%;
+  }
+}
+
+/* === Accessibility === */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
