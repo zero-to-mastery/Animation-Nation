@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #001d3d 0%, #003566 100%);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.ocean {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    bottom: 0;
+    left: -100%;
+    border-radius: 50%;
+    animation: wave 4s linear infinite;
+}
+
+.wave1 {
+    background: rgba(0, 119, 182, 0.4);
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+.wave2 {
+    background: rgba(0, 150, 199, 0.4);
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+}
+
+.wave3 {
+    background: rgba(0, 180, 216, 0.4);
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+.wave4 {
+    background: rgba(72, 202, 228, 0.4);
+    animation-duration: 6s;
+    animation-delay: 1.5s;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    50% {
+        transform: translateX(25%) translateY(-20px);
+    }
+    100% {
+        transform: translateX(50%) translateY(0);
+    }
+}
