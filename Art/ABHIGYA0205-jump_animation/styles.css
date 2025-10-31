@@ -1,0 +1,97 @@
+body {
+  background: linear-gradient(to bottom, #87CEEB, #fff);
+  overflow: hidden;
+  margin: 0;
+  height: 100vh;
+}
+
+.game-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Ground */
+.ground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: #654321;
+}
+
+/* Character */
+.character {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  width: 60px;
+  height: 60px;
+  background: #ff5050;
+  border-radius: 10px;
+  animation: jump 2s infinite ease-in-out;
+}
+
+/* Jump animation */
+@keyframes jump {
+  0%, 100% { bottom: 100px; }
+  50% { bottom: 250px; }
+}
+
+/* Moving obstacle */
+.obstacle {
+  position: absolute;
+  bottom: 100px;
+  right: -80px;
+  width: 50px;
+  height: 50px;
+  background: #333;
+  animation: moveObstacle 3s linear infinite;
+}
+
+@keyframes moveObstacle {
+  0% { right: -80px; }
+  100% { right: 100%; }
+}
+
+/* Clouds */
+.cloud {
+  position: absolute;
+  top: 50px;
+  background: white;
+  width: 100px;
+  height: 60px;
+  border-radius: 50px;
+  animation: moveCloud 10s linear infinite;
+  opacity: 0.8;
+}
+
+.cloud::before, .cloud::after {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 80px;
+  height: 80px;
+  top: -20px;
+  border-radius: 50%;
+}
+
+.cloud::before {
+  left: 10px;
+}
+
+.cloud::after {
+  right: 10px;
+}
+
+@keyframes moveCloud {
+  0% { left: -150px; }
+  100% { left: 110%; }
+}
+
+.cloud:nth-child(3) {
+  top: 100px;
+  animation-duration: 15s;
+  opacity: 0.6;
+}
