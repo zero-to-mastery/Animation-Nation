@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center, #0d1b2a 0%, #000000 100%);
+    overflow: hidden;
+}
+
+.solar-system {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, #ffd700, #ff8c00);
+    border-radius: 50%;
+    box-shadow: 0 0 60px #ff8c00, 0 0 100px #ffd700;
+    animation: sunPulse 4s ease-in-out infinite;
+}
+
+.orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.orbit-1 {
+    width: 160px;
+    height: 160px;
+    animation: rotate 8s linear infinite;
+}
+
+.orbit-2 {
+    width: 240px;
+    height: 240px;
+    animation: rotate 12s linear infinite;
+}
+
+.orbit-3 {
+    width: 320px;
+    height: 320px;
+    animation: rotate 16s linear infinite;
+}
+
+.planet {
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.planet-1 {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(135deg, #4fc3f7, #0288d1);
+    box-shadow: 0 0 20px #4fc3f7;
+}
+
+.planet-2 {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(135deg, #f06292, #c2185b);
+    box-shadow: 0 0 25px #f06292;
+}
+
+.planet-3 {
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(135deg, #81c784, #388e3c);
+    box-shadow: 0 0 22px #81c784;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes sunPulse {
+    0%, 100% {
+        box-shadow: 0 0 60px #ff8c00, 0 0 100px #ffd700;
+    }
+    50% {
+        box-shadow: 0 0 80px #ff8c00, 0 0 130px #ffd700, 0 0 160px #ff6347;
+    }
+}
