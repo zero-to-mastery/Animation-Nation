@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
   background: linear-gradient(135deg, #3e2723 0%, #6d4c41 100%);
   color: #f8fafc;
-  font-family: "Courier New", monospace;
+  font-family: 'Courier New', monospace;
   overflow: hidden;
 }
 
@@ -84,7 +84,7 @@ body {
 
 .heart::before,
 .heart::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 110px;
   height: 100px;
@@ -173,7 +173,6 @@ body {
     opacity: 0;
   }
 }
-
 
 @keyframes fadeIn {
   0% {
