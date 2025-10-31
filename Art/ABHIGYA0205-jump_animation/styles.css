@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #87CEEB, #fff);
+  background: linear-gradient(to bottom, #87ceeb, #fff);
   overflow: hidden;
   margin: 0;
   height: 100vh;
@@ -35,8 +35,13 @@ body {
 
 /* Jump animation */
 @keyframes jump {
-  0%, 100% { bottom: 100px; }
-  50% { bottom: 250px; }
+  0%,
+  100% {
+    bottom: 100px;
+  }
+  50% {
+    bottom: 250px;
+  }
 }
 
 /* Moving obstacle */
@@ -51,8 +56,12 @@ body {
 }
 
 @keyframes moveObstacle {
-  0% { right: -80px; }
-  100% { right: 100%; }
+  0% {
+    right: -80px;
+  }
+  100% {
+    right: 100%;
+  }
 }
 
 /* Clouds */
@@ -67,8 +76,9 @@ body {
   opacity: 0.8;
 }
 
-.cloud::before, .cloud::after {
-  content: "";
+.cloud::before,
+.cloud::after {
+  content: '';
   position: absolute;
   background: white;
   width: 80px;
@@ -86,8 +96,12 @@ body {
 }
 
 @keyframes moveCloud {
-  0% { left: -150px; }
-  100% { left: 110%; }
+  0% {
+    left: -150px;
+  }
+  100% {
+    left: 110%;
+  }
 }
 
 .cloud:nth-child(3) {
