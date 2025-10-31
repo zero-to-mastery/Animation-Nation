@@ -552,6 +552,22 @@
     "projectPath": "Art/MohitSingh250-Quantum Veil"
   },
   {
+    "author": "NSTKrishna",
+    "artName": "movieicons",
+    "githubLink": "https://github.com/NSTKrishna",
+    "pageLink": "./Art/NSTKrishna-Animated-Movie-Icons/index.html",
+    "imageLink": "./Art/NSTKrishna-Animated-Movie-Icons/icon.png",
+    "projectPath": "Art/NSTKrishna-Animated-Movie-Icons"
+  },
+  {
+    "author": "NSTKrishna",
+    "artName": "bouncingtriangle",
+    "githubLink": "https://github.com/NSTKrishna",
+    "pageLink": "./Art/NSTKrishna-Bouncing-Triangle-Animation/index.html",
+    "imageLink": "./Art/NSTKrishna-Bouncing-Triangle-Animation/icon.png",
+    "projectPath": "Art/NSTKrishna-Bouncing-Triangle-Animation"
+  },
+  {
     "author": "Namokar05",
     "artName": "Neon Morphing Cube",
     "githubLink": "https://github.com/Namokar05",
@@ -918,6 +934,14 @@
     "pageLink": "./Art/awesome-kartikey-cherry-blossoms/index.html",
     "imageLink": "./Art/awesome-kartikey-cherry-blossoms/icon.png",
     "projectPath": "Art/awesome-kartikey-cherry-blossoms"
+  },
+  {
+    "author": "awesome-kartikey",
+    "artName": "diwali fireworks",
+    "githubLink": "https://github.com/awesome-kartikey",
+    "pageLink": "./Art/awesome-kartikey-diwali-fireworks/index.html",
+    "imageLink": "./Art/awesome-kartikey-diwali-fireworks/icon.png",
+    "projectPath": "Art/awesome-kartikey-diwali-fireworks"
   },
   {
     "author": "awesome-kartikey",
@@ -1541,6 +1565,30 @@
     "pageLink": "./Art/rajatrsrivastav-Animated-Content/index.html",
     "imageLink": "./Art/rajatrsrivastav-Animated-Content/icon.png",
     "projectPath": "Art/rajatrsrivastav-Animated-Content"
+  },
+  {
+    "author": "rajatrsrivastav",
+    "artName": "Electric Border",
+    "githubLink": "https://github.com/rajatrsrivastav",
+    "pageLink": "./Art/rajatrsrivastav-Electric-Border-Animation/index.html",
+    "imageLink": "./Art/rajatrsrivastav-Electric-Border-Animation/icon.png",
+    "projectPath": "Art/rajatrsrivastav-Electric-Border-Animation"
+  },
+  {
+    "author": "rajatrsrivastav",
+    "artName": "Fade Content",
+    "githubLink": "https://github.com/rajatrsrivastav",
+    "pageLink": "./Art/rajatrsrivastav-Fade-Content/index.html",
+    "imageLink": "./Art/rajatrsrivastav-Fade-Content/icon.png",
+    "projectPath": "Art/rajatrsrivastav-Fade-Content"
+  },
+  {
+    "author": "rajatrsrivastav",
+    "artName": "Pixel Transition",
+    "githubLink": "https://github.com/rajatrsrivastav",
+    "pageLink": "./Art/rajatrsrivastav-Pixel-Transition-Animation/index.html",
+    "imageLink": "./Art/rajatrsrivastav-Pixel-Transition-Animation/icon.png",
+    "projectPath": "Art/rajatrsrivastav-Pixel-Transition-Animation"
   },
   {
     "author": "rajatrsrivastav",

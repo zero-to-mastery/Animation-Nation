@@ -1,4 +1,8 @@
-* {margin: 0; padding: 0; box-sizing: border-box;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   height: 100vh;
@@ -8,7 +12,11 @@ body {
   background: linear-gradient(to bottom, #0f0f1a, #2b2b3c);
 }
 
-.container {position: relative; width: 200px; height: 200px;}
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
 
 .triangle {
   position: absolute;
@@ -36,10 +44,22 @@ body {
 }
 
 @keyframes bounce {
-  0%,100% {transform: translate(-50%,0) scaleY(1);}
-  50% {transform: translate(-50%,-100px) scaleY(0.8);}
+  0%,
+  100% {
+    transform: translate(-50%, 0) scaleY(1);
+  }
+  50% {
+    transform: translate(-50%, -100px) scaleY(0.8);
+  }
 }
 @keyframes shadowScale {
-  0%,100% {transform: translateX(-50%) scale(1); opacity: 0.6;}
-  50% {transform: translateX(-50%) scale(0.7); opacity: 0.3;}
+  0%,
+  100% {
+    transform: translateX(-50%) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateX(-50%) scale(0.7);
+    opacity: 0.3;
+  }
 }
