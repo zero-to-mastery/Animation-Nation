@@ -72,6 +72,14 @@
     "projectPath": "Art/Arni005-Sweet-Treat"
   },
   {
+    "author": "Aviral02git",
+    "artName": "Floating Bubbles",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Floating-Bubbles/index.html",
+    "imageLink": "./Art/Aviral02git-Floating-Bubbles/icon.png",
+    "projectPath": "Art/Aviral02git-Floating-Bubbles"
+  },
+  {
     "author": "Bharath-dev05",
     "artName": "Butterflies",
     "githubLink": "https://github.com/Bharath-dev05",
@@ -1469,6 +1477,30 @@
     "pageLink": "./Art/vs-code06-Cosmic_Tesseract/index.html",
     "imageLink": "./Art/vs-code06-Cosmic_Tesseract/icon.png",
     "projectPath": "Art/vs-code06-Cosmic_Tesseract"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Hypercube Shift",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-HypercubeShift/index.html",
+    "imageLink": "./Art/vs-code06-HypercubeShift/icon.png",
+    "projectPath": "Art/vs-code06-HypercubeShift"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Neon DNA",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-NeonDNA/index.html",
+    "imageLink": "./Art/vs-code06-NeonDNA/icon.png",
+    "projectPath": "Art/vs-code06-NeonDNA"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Quantum Tunnel",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-QuantumTunnel/index.html",
+    "imageLink": "./Art/vs-code06-QuantumTunnel/icon.png",
+    "projectPath": "Art/vs-code06-QuantumTunnel"
   },
   {
     "author": "vs-code06",
