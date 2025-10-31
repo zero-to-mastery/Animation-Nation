@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(to bottom, #87ceeb, #fff);
+  overflow: hidden;
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ball {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(circle at 30% 30%, #ff6b6b, #4ecdc4);
+  border-radius: 50%;
+  animation: bounce 1.5s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    bottom: 50px;
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    bottom: 200px;
+    transform: translateX(-50%) scale(1.1);
+  }
+}
