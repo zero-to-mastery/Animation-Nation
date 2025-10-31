@@ -400,6 +400,14 @@
     "projectPath": "Art/KadimiJaswanth-neon-orbit"
   },
   {
+    "author": "Kavya-Jain-coder",
+    "artName": "bouncing ball",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Kavya-Jain-coder-Bouncing-Ball/index.html",
+    "imageLink": "./Art/Kavya-Jain-coder-Bouncing-Ball/icon.png",
+    "projectPath": "Art/Kavya-Jain-coder-Bouncing-Ball"
+  },
+  {
     "author": "SilverioZ",
     "artName": "Lemon",
     "githubLink": "https://github.com/SilverioZ",
@@ -1445,5 +1453,13 @@
     "pageLink": "./Art/volt3301-WaveFlow/index.html",
     "imageLink": "./Art/volt3301-WaveFlow/icon.png",
     "projectPath": "Art/volt3301-WaveFlow"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Temporal Ripples",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-Temporal Ripples/index.html",
+    "imageLink": "./Art/vs-code06-Temporal Ripples/icon.png",
+    "projectPath": "Art/vs-code06-Temporal Ripples"
   }
 ]
