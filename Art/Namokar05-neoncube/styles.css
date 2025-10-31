@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.scene {
+  perspective: 800px;
+}
+
+.cube {
+  position: relative;
+  width: 120px;
+  transform-style: preserve-3d;
+  animation: rotate 5s linear infinite;
+}
+
+.face {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ff00ff, #00ffff);
+  box-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff;
+  opacity: 0.9;
+}
+
+/* Position each cube face */
+.front {
+  transform: translateZ(60px);
+}
+.back {
+  transform: rotateY(180deg) translateZ(60px);
+}
+.right {
+  transform: rotateY(90deg) translateZ(60px);
+}
+.left {
+  transform: rotateY(-90deg) translateZ(60px);
+}
+.top {
+  transform: rotateX(90deg) translateZ(60px);
+}
+.bottom {
+  transform: rotateX(-90deg) translateZ(60px);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: rotateX(180deg) rotateY(180deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}

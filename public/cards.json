@@ -1,5 +1,29 @@
 [
   {
+    "author": "ABHIGYA0205",
+    "artName": "jump animation",
+    "githubLink": "https://github.com/ABHIGYA0205",
+    "pageLink": "./Art/ABHIGYA0205-jump_animation/index.html",
+    "imageLink": "./Art/ABHIGYA0205-jump_animation/icon.png",
+    "projectPath": "Art/ABHIGYA0205-jump_animation"
+  },
+  {
+    "author": "ABHIGYA0205",
+    "artName": "melting clock",
+    "githubLink": "https://github.com/ABHIGYA0205",
+    "pageLink": "./Art/ABHIGYA0205-melting_clock/index.html",
+    "imageLink": "./Art/ABHIGYA0205-melting_clock/icon.png",
+    "projectPath": "Art/ABHIGYA0205-melting_clock"
+  },
+  {
+    "author": "ABHIGYA0205",
+    "artName": "folding space portal",
+    "githubLink": "https://github.com/ABHIGYA0205",
+    "pageLink": "./Art/ABHIGYA0205-space_portal/index.html",
+    "imageLink": "./Art/ABHIGYA0205-space_portal/icon.png",
+    "projectPath": "Art/ABHIGYA0205-space_portal"
+  },
+  {
     "author": "AlHamid-dev",
     "artName": "Moon Eclipsed",
     "githubLink": "https://github.com/AlHamid-dev",
@@ -14,6 +38,14 @@
     "pageLink": "./Art/Annamalai24500-candle/index.html",
     "imageLink": "./Art/Annamalai24500-candle/icon.png",
     "projectPath": "Art/Annamalai24500-candle"
+  },
+  {
+    "author": "Anuragkumar-687",
+    "artName": "Floating Laptop with Animated Code",
+    "githubLink": "https://github.com/Anuragkumar-687",
+    "pageLink": "./Art/Anuragkumar-687-Floating Laptop with Animated Code/index.html",
+    "imageLink": "./Art/Anuragkumar-687-Floating Laptop with Animated Code/icon.png",
+    "projectPath": "Art/Anuragkumar-687-Floating Laptop with Animated Code"
   },
   {
     "author": "Arni005",
@@ -376,6 +408,14 @@
     "projectPath": "Art/Lemon"
   },
   {
+    "author": "Namokar05",
+    "artName": "Neon Morphing Cube",
+    "githubLink": "https://github.com/Namokar05",
+    "pageLink": "./Art/Namokar05-neoncube/index.html",
+    "imageLink": "./Art/Namokar05-neoncube/icon.png",
+    "projectPath": "Art/Namokar05-neoncube"
+  },
+  {
     "author": "Navdeepsingh4298",
     "artName": "happy diwali",
     "githubLink": "https://github.com/Navdeepsingh4298",
@@ -456,6 +496,62 @@
     "projectPath": "Art/Ujjansh05_Glitch_Effect"
   },
   {
+    "author": "Ujjansh05",
+    "artName": "Speedy Truck",
+    "githubLink": "https://github.com/Ujjansh05",
+    "pageLink": "./Art/Ujjansh05_SpeedyTruck/index.html",
+    "imageLink": "./Art/Ujjansh05_SpeedyTruck/icon.png",
+    "projectPath": "Art/Ujjansh05_SpeedyTruck"
+  },
+  {
+    "author": "UserAkku",
+    "artName": "colorspinner",
+    "githubLink": "https://github.com/UserAkku",
+    "pageLink": "./Art/UserAkku-colorspinner/index.html",
+    "imageLink": "./Art/UserAkku-colorspinner/icon.png",
+    "projectPath": "Art/UserAkku-colorspinner"
+  },
+  {
+    "author": "UserAkku",
+    "artName": "pentagon",
+    "githubLink": "https://github.com/UserAkku",
+    "pageLink": "./Art/UserAkku-pentagon/index.html",
+    "imageLink": "./Art/UserAkku-pentagon/icon.png",
+    "projectPath": "Art/UserAkku-pentagon"
+  },
+  {
+    "author": "VTwin90",
+    "artName": "Abstract",
+    "githubLink": "https://github.com/VTwin90",
+    "pageLink": "./Art/VTwin90-abstract/index.html",
+    "imageLink": "./Art/VTwin90-abstract/icon.png",
+    "projectPath": "Art/VTwin90-abstract"
+  },
+  {
+    "author": "VTwin90",
+    "artName": "Expressive Bunny",
+    "githubLink": "https://github.com/VTwin90",
+    "pageLink": "./Art/VTwin90-expressive-bunny/index.html",
+    "imageLink": "./Art/VTwin90-expressive-bunny/icon.png",
+    "projectPath": "Art/VTwin90-expressive-bunny"
+  },
+  {
+    "author": "VTwin90",
+    "artName": "Halloween Pumpkin",
+    "githubLink": "https://github.com/VTwin90",
+    "pageLink": "./Art/VTwin90-halloween-pumpkin/index.html",
+    "imageLink": "./Art/VTwin90-halloween-pumpkin/icon.png",
+    "projectPath": "Art/VTwin90-halloween-pumpkin"
+  },
+  {
+    "author": "VTwin90",
+    "artName": "Night Sky, Ocean & Fireflies",
+    "githubLink": "https://github.com/VTwin90",
+    "pageLink": "./Art/VTwin90-night-sky-ocean-and-fireflies/index.html",
+    "imageLink": "./Art/VTwin90-night-sky-ocean-and-fireflies/icon.png",
+    "projectPath": "Art/VTwin90-night-sky-ocean-and-fireflies"
+  },
+  {
     "author": "VTwin90",
     "artName": "Northern Lights Over a Sleeping Ice Bear",
     "githubLink": "https://github.com/VTwin90",
@@ -510,6 +606,30 @@
     "pageLink": "./Art/Vatsakala-target-chaser/index.html",
     "imageLink": "./Art/Vatsakala-target-chaser/icon.png",
     "projectPath": "Art/Vatsakala-target-chaser"
+  },
+  {
+    "author": "WizardCarp85",
+    "artName": "Minecraft Blocks",
+    "githubLink": "https://github.com/WizardCarp85",
+    "pageLink": "./Art/WizardCarp85-Minecraft-Blocks/index.html",
+    "imageLink": "./Art/WizardCarp85-Minecraft-Blocks/icon.png",
+    "projectPath": "Art/WizardCarp85-Minecraft-Blocks"
+  },
+  {
+    "author": "WizardCarp85",
+    "artName": "Neon Wave Pulse",
+    "githubLink": "https://github.com/WizardCarp85",
+    "pageLink": "./Art/WizardCarp85-Neon-Pulse-Wave/index.html",
+    "imageLink": "./Art/WizardCarp85-Neon-Pulse-Wave/icon.png",
+    "projectPath": "Art/WizardCarp85-Neon-Pulse-Wave"
+  },
+  {
+    "author": "WizardCarp85",
+    "artName": "Race Car Animate",
+    "githubLink": "https://github.com/WizardCarp85",
+    "pageLink": "./Art/WizardCarp85-Race-Car-Animate/index.html",
+    "imageLink": "./Art/WizardCarp85-Race-Car-Animate/icon.png",
+    "projectPath": "Art/WizardCarp85-Race-Car-Animate"
   },
   {
     "author": "adithya-pathakoti",
@@ -664,12 +784,36 @@
     "projectPath": "Art/cyber-scribe-moving-bot"
   },
   {
+    "author": "darshan-totagi",
+    "artName": "sunsetview animation",
+    "githubLink": "https://github.com/darshan-totagi",
+    "pageLink": "./Art/darshan-totagi-sunset-animation/index.html",
+    "imageLink": "./Art/darshan-totagi-sunset-animation/icon.png",
+    "projectPath": "Art/darshan-totagi-sunset-animation"
+  },
+  {
+    "author": "davebeloved",
+    "artName": "orbiting core",
+    "githubLink": "https://github.com/davebeloved",
+    "pageLink": "./Art/davebeloved-orbiting-core/index.html",
+    "imageLink": "./Art/davebeloved-orbiting-core/icon.png",
+    "projectPath": "Art/davebeloved-orbiting-core"
+  },
+  {
     "author": "dragon-slayer27",
     "artName": "hyper dimensional tesseract",
     "githubLink": "https://github.com/dragon-slayer27",
     "pageLink": "./Art/dragon-slayer27-hyper-dimensional-tesseract/index.html",
     "imageLink": "./Art/dragon-slayer27-hyper-dimensional-tesseract/icon.png",
     "projectPath": "Art/dragon-slayer27-hyper-dimensional-tesseract"
+  },
+  {
+    "author": "dragon-slayer27",
+    "artName": "the architects dream",
+    "githubLink": "https://github.com/dragon-slayer27",
+    "pageLink": "./Art/dragon-slayer27-the-architects-dream/index.html",
+    "imageLink": "./Art/dragon-slayer27-the-architects-dream/icon.png",
+    "projectPath": "Art/dragon-slayer27-the-architects-dream"
   },
   {
     "author": "fab-c14",
@@ -726,6 +870,14 @@
     "pageLink": "./Art/gitsatishgarg-constellation/index.html",
     "imageLink": "./Art/gitsatishgarg-constellation/icon.png",
     "projectPath": "Art/gitsatishgarg-constellation"
+  },
+  {
+    "author": "guranshdeol",
+    "artName": "Prism",
+    "githubLink": "https://github.com/guranshdeol",
+    "pageLink": "./Art/guranshdeol-prism/index.html",
+    "imageLink": "./Art/guranshdeol-prism/icon.png",
+    "projectPath": "Art/guranshdeol-prism"
   },
   {
     "author": "guranshdeol",
@@ -1079,6 +1231,14 @@
     "projectPath": "Art/ornitcg-solar-system"
   },
   {
+    "author": "ornitcg",
+    "artName": "spider",
+    "githubLink": "https://github.com/ornitcg",
+    "pageLink": "./Art/ornitcg-spider/index.html",
+    "imageLink": "./Art/ornitcg-spider/icon.png",
+    "projectPath": "Art/ornitcg-spider"
+  },
+  {
     "author": "Pasan11504",
     "artName": "smyley bouncing",
     "githubLink": "https://github.com/Pasan11504",
@@ -1095,6 +1255,14 @@
     "projectPath": "Art/pleomorph-hacktoberfest2025"
   },
   {
+    "author": "pragyamv",
+    "artName": "robot heart",
+    "githubLink": "https://github.com/pragyamv",
+    "pageLink": "./Art/pragyamv-robot-heart/index.html",
+    "imageLink": "./Art/pragyamv-robot-heart/icon.png",
+    "projectPath": "Art/pragyamv-robot-heart"
+  },
+  {
     "author": "ravikantchauhan246",
     "artName": "ufo in sky",
     "githubLink": "https://github.com/ravikantchauhan246",
@@ -1103,12 +1271,28 @@
     "projectPath": "Art/ravikantchauhan246-ufo-in-sky"
   },
   {
+    "author": "rylew0925",
+    "artName": "pulsewave",
+    "githubLink": "https://github.com/rylew0925",
+    "pageLink": "./Art/rylew0925-pulsewave/index.html",
+    "imageLink": "./Art/rylew0925-pulsewave/icon.png",
+    "projectPath": "Art/rylew0925-pulsewave"
+  },
+  {
     "author": "shivanshx7",
     "artName": "shuffling squares",
     "githubLink": "https://github.com/shivanshx7",
     "pageLink": "./Art/shivanshx7-shuffling_squares/index.html",
     "imageLink": "./Art/shivanshx7-shuffling_squares/icon.png",
     "projectPath": "Art/shivanshx7-shuffling_squares"
+  },
+  {
+    "author": "agrawalshreyansh",
+    "artName": "bouncing ball",
+    "githubLink": "https://github.com/agrawalshreyansh",
+    "pageLink": "./Art/shreyanshagrawal-bouncing_ball/index.html",
+    "imageLink": "./Art/shreyanshagrawal-bouncing_ball/icon.png",
+    "projectPath": "Art/shreyanshagrawal-bouncing_ball"
   },
   {
     "author": "tomdu3",
