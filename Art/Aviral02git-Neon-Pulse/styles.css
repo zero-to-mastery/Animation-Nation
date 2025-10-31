@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+}
+
+.neon-box {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation: neonGlow 2s ease-in-out infinite;
+    border: 3px solid #00ffff;
+    box-shadow: 
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff,
+        inset 0 0 10px #00ffff,
+        inset 0 0 20px #00ffff;
+}
+
+.corner {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #ff00ff;
+}
+
+.corner.top-left {
+    top: -15px;
+    left: -15px;
+    border-right: none;
+    border-bottom: none;
+    animation: cornerPulse 2s ease-in-out infinite;
+    box-shadow: 0 0 15px #ff00ff;
+}
+
+.corner.top-right {
+    top: -15px;
+    right: -15px;
+    border-left: none;
+    border-bottom: none;
+    animation: cornerPulse 2s ease-in-out infinite 0.5s;
+    box-shadow: 0 0 15px #ff00ff;
+}
+
+.corner.bottom-left {
+    bottom: -15px;
+    left: -15px;
+    border-right: none;
+    border-top: none;
+    animation: cornerPulse 2s ease-in-out infinite 1s;
+    box-shadow: 0 0 15px #ff00ff;
+}
+
+.corner.bottom-right {
+    bottom: -15px;
+    right: -15px;
+    border-left: none;
+    border-top: none;
+    animation: cornerPulse 2s ease-in-out infinite 1.5s;
+    box-shadow: 0 0 15px #ff00ff;
+}
+
+@keyframes neonGlow {
+    0%, 100% {
+        box-shadow: 
+            0 0 10px #00ffff,
+            0 0 20px #00ffff,
+            0 0 40px #00ffff,
+            inset 0 0 10px #00ffff,
+            inset 0 0 20px #00ffff;
+    }
+    50% {
+        box-shadow: 
+            0 0 20px #00ffff,
+            0 0 40px #00ffff,
+            0 0 60px #00ffff,
+            inset 0 0 20px #00ffff,
+            inset 0 0 40px #00ffff;
+    }
+}
+
+@keyframes cornerPulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 15px #ff00ff;
+    }
+    50% {
+        transform: scale(1.3);
+        box-shadow: 0 0 25px #ff00ff;
+    }
+}
