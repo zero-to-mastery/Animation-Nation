@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a1a1a;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.beats-container {
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+}
+
+.beats {
+  font-size: 100px;
+  animation: rotate 4s ease-in-out infinite;
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes rotate {
+  0%, 100% {
+    transform: rotate(-5deg) scale(1);
+  }
+  50% {
+    transform: rotate(5deg) scale(1.1);
+  }
+}
+
+/* Waves */
+.wave {
+  position: absolute;
+  width: 10px;
+  background: linear-gradient(to top, #4CAF50, #8BC34A);
+  border-radius: 10px;
+  animation: pulse 0.6s ease-in-out infinite;
+}
+
+.wave1 {
+  left: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 40px;
+  animation-delay: 0s;
+}
+
+.wave2 {
+  left: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50px;
+  animation-delay: 0.1s;
+}
+
+.wave3 {
+  left: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 35px;
+  animation-delay: 0.2s;
+}
+
+.wave4 {
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 40px;
+  animation-delay: 0s;
+}
+
+.wave5 {
+  right: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50px;
+  animation-delay: 0.1s;
+}
+
+.wave6 {
+  right: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 35px;
+  animation-delay: 0.2s;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: translateY(-50%) scaleY(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-50%) scaleY(1.8);
+    opacity: 1;
+  }
+}
+
+.text {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;
+  animation: glow 2s ease-in-out infinite;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+@keyframes glow {
+  0%, 100% {
+    opacity: 0.6;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+}
