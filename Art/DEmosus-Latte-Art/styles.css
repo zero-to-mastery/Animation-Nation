@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3e2723 0%, #6d4c41 100%);
+  color: #f8fafc;
+  font-family: "Courier New", monospace;
+  overflow: hidden;
+}
+
+/* Title styling */
+.title {
+  font-size: 2.5rem;
+  color: #f8e1d9;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.cup-wrap {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin-bottom: 30px;
+}
+
+/* Cup styling */
+.cup {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: #d7ccc8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4), 0 8px 16px rgba(0, 0, 0, 0.3);
+  border: 5px solid #fff3e0;
+  z-index: 2;
+}
+
+/* Handle styling  */
+.handle {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border: 12px solid #fff3e0;
+  border-left: none;
+  border-radius: 50%;
+  right: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.15),
+    4px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.heart-wrap {
+  display: inline-block;
+  animation: beatWobble 2.5s infinite ease-in-out;
+}
+
+/* Heart styling */
+.heart {
+  position: relative;
+  width: 110px;
+  height: 100px;
+  background: #fff;
+  transform: rotate(-45deg);
+  z-index: 1;
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.heart::before {
+  top: -55px;
+  left: 0;
+}
+.heart::after {
+  left: 55px;
+  top: 0;
+}
+
+/* Steam effect */
+.steam {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  animation: rise 3s infinite ease-in-out;
+  z-index: 3; /* above cup */
+}
+
+/* steam positions relative to cup */
+.steam1 {
+  left: 30%;
+  animation-delay: 0s;
+  animation-duration: 3.5s;
+}
+
+.steam2 {
+  left: 50%;
+  animation-delay: 1s;
+  animation-duration: 4s;
+}
+
+.steam3 {
+  left: 70%;
+  animation-delay: 2s;
+  animation-duration: 3s;
+}
+
+/* Animations */
+@keyframes beatWobble {
+  0%,
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+  20% {
+    transform: scale(1.15) translate(0, -2px);
+  }
+  40% {
+    transform: scale(0.9) translate(0, 2px);
+  }
+  60% {
+    transform: scale(1.1) translate(0, -1px);
+  }
+  80% {
+    transform: scale(1.05) translate(0, 1px);
+  }
+}
+
+@keyframes rise {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.3;
+  }
+  25% {
+    transform: translate(-10px, -25px) scale(1.1);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translate(10px, -50px) scale(1.2);
+    opacity: 0.2;
+  }
+  75% {
+    transform: translate(-5px, -75px) scale(1.35);
+    opacity: 0.15;
+  }
+  100% {
+    transform: translate(5px, -100px) scale(1.5);
+    opacity: 0;
+  }
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Joke styling */
+.joke {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #f1f5f9;
+  background: rgba(30, 41, 59, 0.7);
+  padding: 15px 25px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.joke code {
+  background: #1e293b;
+  padding: 3px 6px;
+  border-radius: 4px;
+  color: #38bdf8;
+  font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .cup-wrap {
+    width: 220px;
+    height: 220px;
+  }
+
+  .cup {
+    width: 220px;
+    height: 220px;
+  }
+
+  .handle {
+    width: 90px;
+    height: 90px;
+    right: -55px;
+    border-width: 10px;
+  }
+
+  .heart {
+    width: 90px;
+    height: 80px;
+  }
+
+  .heart::before,
+  .heart::after {
+    width: 90px;
+    height: 80px;
+  }
+
+  .heart::before {
+    top: -45px;
+  }
+  .heart::after {
+    left: 45px;
+  }
+
+  .joke {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+}
