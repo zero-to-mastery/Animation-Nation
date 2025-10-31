@@ -6,20 +6,36 @@ body {
   align-items: center;
   background: #2c3e50;
   font-family: Arial, sans-serif;
+  overflow: hidden;
 }
 
 .coffee-container {
   position: relative;
-  cursor: pointer;
+  animation: bounce 2s ease-in-out infinite;
 }
 
 .cup {
   font-size: 120px;
-  transition: transform 0.4s ease;
+  animation: tilt 3s ease-in-out infinite;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
 }
 
-.coffee-container:hover .cup {
-  transform: translateY(-20px);
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes tilt {
+  0%, 100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
 }
 
 .steam {
@@ -29,21 +45,24 @@ body {
   background: rgba(255, 255, 255, 0.6);
   border-radius: 50%;
   top: -10px;
-  opacity: 0;
   filter: blur(8px);
-}
-
-.steam1 { left: 30%; }
-.steam2 { left: 50%; }
-.steam3 { left: 70%; }
-
-.coffee-container:hover .steam {
   animation: rise 2s ease-in-out infinite;
 }
 
-.coffee-container:hover .steam1 { animation-delay: 0s; }
-.coffee-container:hover .steam2 { animation-delay: 0.3s; }
-.coffee-container:hover .steam3 { animation-delay: 0.6s; }
+.steam1 {
+  left: 30%;
+  animation-delay: 0s;
+}
+
+.steam2 {
+  left: 50%;
+  animation-delay: 0.3s;
+}
+
+.steam3 {
+  left: 70%;
+  animation-delay: 0.6s;
+}
 
 @keyframes rise {
   0% {
@@ -67,38 +86,45 @@ body {
   color: #ecf0f1;
   font-size: 28px;
   font-weight: bold;
-  opacity: 0;
-  transition: opacity 0.4s ease;
   white-space: nowrap;
+  animation: pulse-text 2s ease-in-out infinite;
+  text-shadow: 0 0 10px rgba(236, 240, 241, 0.5);
 }
 
-.coffee-container:hover .text {
-  opacity: 1;
+@keyframes pulse-text {
+  0%, 100% {
+    opacity: 0.7;
+    transform: translateX(-50%) scale(0.95);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
 }
 
 .heart {
   position: absolute;
   font-size: 30px;
-  opacity: 0;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  animation: float-heart 3s ease-in-out infinite;
 }
 
-.coffee-container:hover .heart {
-  animation: float 1.5s ease-out forwards;
-}
-
-@keyframes float {
+@keyframes float-heart {
   0% {
     opacity: 0;
-    transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0) rotate(0deg);
   }
-  50% {
+  30% {
     opacity: 1;
+    transform: translate(-50%, -80%) scale(1) rotate(10deg);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(-50%, -120%) scale(1.2) rotate(-10deg);
   }
   100% {
     opacity: 0;
-    transform: translate(-50%, -150%) scale(1.5);
+    transform: translate(-50%, -180%) scale(0.8) rotate(0deg);
   }
 }
