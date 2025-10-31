@@ -240,6 +240,14 @@
     "projectPath": "Art/DEmosus-Galactic-Kaleidoscope"
   },
   {
+    "author": "DEmosus",
+    "artName": "Latte Art",
+    "githubLink": "https://github.com/DEmosus",
+    "pageLink": "./Art/DEmosus-Latte-Art/index.html",
+    "imageLink": "./Art/DEmosus-Latte-Art/icon.png",
+    "projectPath": "Art/DEmosus-Latte-Art"
+  },
+  {
     "author": "GitSatishGarg",
     "artName": "Balloons",
     "githubLink": "https://github.com/GitSatishGarg",
