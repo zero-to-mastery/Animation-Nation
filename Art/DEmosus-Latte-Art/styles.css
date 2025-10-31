@@ -197,11 +197,6 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.joke:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
-
 .joke code {
   background: #1e293b;
   padding: 3px 6px;
