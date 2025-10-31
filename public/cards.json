@@ -1,6 +1,14 @@
 [
   {
     "author": "ABHIGYA0205",
+    "artName": "jump animation",
+    "githubLink": "https://github.com/ABHIGYA0205",
+    "pageLink": "./Art/ABHIGYA0205-jump_animation/index.html",
+    "imageLink": "./Art/ABHIGYA0205-jump_animation/icon.png",
+    "projectPath": "Art/ABHIGYA0205-jump_animation"
+  },
+  {
+    "author": "ABHIGYA0205",
     "artName": "melting clock",
     "githubLink": "https://github.com/ABHIGYA0205",
     "pageLink": "./Art/ABHIGYA0205-melting_clock/index.html",
@@ -30,6 +38,14 @@
     "pageLink": "./Art/Annamalai24500-candle/index.html",
     "imageLink": "./Art/Annamalai24500-candle/icon.png",
     "projectPath": "Art/Annamalai24500-candle"
+  },
+  {
+    "author": "Anuragkumar-687",
+    "artName": "Floating Laptop with Animated Code",
+    "githubLink": "https://github.com/Anuragkumar-687",
+    "pageLink": "./Art/Anuragkumar-687-Floating Laptop with Animated Code/index.html",
+    "imageLink": "./Art/Anuragkumar-687-Floating Laptop with Animated Code/icon.png",
+    "projectPath": "Art/Anuragkumar-687-Floating Laptop with Animated Code"
   },
   {
     "author": "Arni005",
