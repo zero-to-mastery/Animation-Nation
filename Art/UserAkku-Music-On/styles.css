@@ -21,7 +21,8 @@ body {
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px);
   }
   50% {
@@ -30,7 +31,8 @@ body {
 }
 
 @keyframes rotate {
-  0%, 100% {
+  0%,
+  100% {
     transform: rotate(-5deg) scale(1);
   }
   50% {
@@ -42,7 +44,7 @@ body {
 .wave {
   position: absolute;
   width: 10px;
-  background: linear-gradient(to top, #4CAF50, #8BC34A);
+  background: linear-gradient(to top, #4caf50, #8bc34a);
   border-radius: 10px;
   animation: pulse 0.6s ease-in-out infinite;
 }
@@ -96,7 +98,8 @@ body {
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(-50%) scaleY(1);
     opacity: 0.8;
   }
@@ -120,7 +123,8 @@ body {
 }
 
 @keyframes glow {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.6;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   }
