@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2c3e50;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.coffee-container {
+  position: relative;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+.cup {
+  font-size: 120px;
+  animation: tilt 3s ease-in-out infinite;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes tilt {
+  0%,
+  100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+.steam {
+  position: absolute;
+  width: 8px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  top: -10px;
+  filter: blur(8px);
+  animation: rise 2s ease-in-out infinite;
+}
+
+.steam1 {
+  left: 30%;
+  animation-delay: 0s;
+}
+
+.steam2 {
+  left: 50%;
+  animation-delay: 0.3s;
+}
+
+.steam3 {
+  left: 70%;
+  animation-delay: 0.6s;
+}
+
+@keyframes rise {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scaleX(1);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-80px) scaleX(1.5);
+  }
+}
+
+.text {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ecf0f1;
+  font-size: 28px;
+  font-weight: bold;
+  white-space: nowrap;
+  animation: pulse-text 2s ease-in-out infinite;
+  text-shadow: 0 0 10px rgba(236, 240, 241, 0.5);
+}
+
+@keyframes pulse-text {
+  0%,
+  100% {
+    opacity: 0.7;
+    transform: translateX(-50%) scale(0.95);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+.heart {
+  position: absolute;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  animation: float-heart 3s ease-in-out infinite;
+}
+
+@keyframes float-heart {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0) rotate(0deg);
+  }
+  30% {
+    opacity: 1;
+    transform: translate(-50%, -80%) scale(1) rotate(10deg);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(-50%, -120%) scale(1.2) rotate(-10deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -180%) scale(0.8) rotate(0deg);
+  }
+}
