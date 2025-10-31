@@ -73,6 +73,14 @@
   },
   {
     "author": "Aviral02git",
+    "artName": "DNA Helix Spiral",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-DNA-Helix-Spiral/index.html",
+    "imageLink": "./Art/Aviral02git-DNA-Helix-Spiral/icon.png",
+    "projectPath": "Art/Aviral02git-DNA-Helix-Spiral"
+  },
+  {
+    "author": "Aviral02git",
     "artName": "Floating Bubbles",
     "githubLink": "https://github.com/Aviral02git",
     "pageLink": "./Art/Aviral02git-Floating-Bubbles/index.html",
@@ -94,6 +102,14 @@
     "pageLink": "./Art/Aviral02git-Neon-Pulse/index.html",
     "imageLink": "./Art/Aviral02git-Neon-Pulse/icon.png",
     "projectPath": "Art/Aviral02git-Neon-Pulse"
+  },
+  {
+    "author": "Aviral02git",
+    "artName": "Particle Explosion",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Particle-Explosion/index.html",
+    "imageLink": "./Art/Aviral02git-Particle-Explosion/icon.png",
+    "projectPath": "Art/Aviral02git-Particle-Explosion"
   },
   {
     "author": "Aviral02git",
@@ -449,11 +465,27 @@
   },
   {
     "author": "Kavya-Jain-coder",
+    "artName": "aurora borealis",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Kavya-Jain-coder-Aurora-Borealis/index.html",
+    "imageLink": "./Art/Kavya-Jain-coder-Aurora-Borealis/icon.png",
+    "projectPath": "Art/Kavya-Jain-coder-Aurora-Borealis"
+  },
+  {
+    "author": "Kavya-Jain-coder",
     "artName": "bouncing ball",
     "githubLink": "https://github.com/Kavya-Jain-coder",
     "pageLink": "./Art/Kavya-Jain-coder-Bouncing-Ball/index.html",
     "imageLink": "./Art/Kavya-Jain-coder-Bouncing-Ball/icon.png",
     "projectPath": "Art/Kavya-Jain-coder-Bouncing-Ball"
+  },
+  {
+    "author": "Kavya-Jain-coder",
+    "artName": "cyberpunk city",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Kavya-Jain-coder-Cyberpunk-City/index.html",
+    "imageLink": "./Art/Kavya-Jain-coder-Cyberpunk-City/icon.png",
+    "projectPath": "Art/Kavya-Jain-coder-Cyberpunk-City"
   },
   {
     "author": "Lakshya182005",
@@ -566,6 +598,38 @@
     "pageLink": "./Art/NSTKrishna-Bouncing-Triangle-Animation/index.html",
     "imageLink": "./Art/NSTKrishna-Bouncing-Triangle-Animation/icon.png",
     "projectPath": "Art/NSTKrishna-Bouncing-Triangle-Animation"
+  },
+  {
+    "author": "NSTKrishna",
+    "artName": "circular text rotation",
+    "githubLink": "https://github.com/NSTKrishna",
+    "pageLink": "./Art/NSTKrishna-Circular-Text-Rotation/index.html",
+    "imageLink": "./Art/NSTKrishna-Circular-Text-Rotation/icon.png",
+    "projectPath": "Art/NSTKrishna-Circular-Text-Rotation"
+  },
+  {
+    "author": "NSTKrishna",
+    "artName": "melting ice cube",
+    "githubLink": "https://github.com/NSTKrishna",
+    "pageLink": "./Art/NSTKrishna-Melting-Ice-Cube-Animation/index.html",
+    "imageLink": "./Art/NSTKrishna-Melting-Ice-Cube-Animation/icon.png",
+    "projectPath": "Art/NSTKrishna-Melting-Ice-Cube-Animation"
+  },
+  {
+    "author": "NSTKrishna",
+    "artName": "pendulum",
+    "githubLink": "https://github.com/NSTKrishna",
+    "pageLink": "./Art/NSTKrishna-Pendulum-Swing/index.html",
+    "imageLink": "./Art/NSTKrishna-Pendulum-Swing/icon.png",
+    "projectPath": "Art/NSTKrishna-Pendulum-Swing"
+  },
+  {
+    "author": "NSTKrishna",
+    "artName": "waves",
+    "githubLink": "https://github.com/NSTKrishna",
+    "pageLink": "./Art/NSTKrishna-Wave_animation/index.html",
+    "imageLink": "./Art/NSTKrishna-Wave_animation/icon.png",
+    "projectPath": "Art/NSTKrishna-Wave_animation"
   },
   {
     "author": "Namokar05",
@@ -758,6 +822,14 @@
     "pageLink": "./Art/VTwin90-northern-lights/index.html",
     "imageLink": "./Art/VTwin90-northern-lights/icon.png",
     "projectPath": "Art/VTwin90-northern-lights"
+  },
+  {
+    "author": "VTwin90",
+    "artName": "Pac Man",
+    "githubLink": "https://github.com/VTwin90",
+    "pageLink": "./Art/VTwin90-pac-man/index.html",
+    "imageLink": "./Art/VTwin90-pac-man/icon.png",
+    "projectPath": "Art/VTwin90-pac-man"
   },
   {
     "author": "Vatsakala",
@@ -1272,6 +1344,54 @@
     "projectPath": "Art/kevinbatdorf-ripple"
   },
   {
+    "author": "khuswant18",
+    "artName": "Letter Glitch",
+    "githubLink": "https://github.com/khuswant18",
+    "pageLink": "./Art/khuswant18-Letter-Glitch/index.html",
+    "imageLink": "./Art/khuswant18-Letter-Glitch/icon.png",
+    "projectPath": "Art/khuswant18-Letter-Glitch"
+  },
+  {
+    "author": "khuswant18",
+    "artName": "Dome Gallery",
+    "githubLink": "https://github.com/khuswant18",
+    "pageLink": "./Art/khuswant18-demo-gallery/index.html",
+    "imageLink": "./Art/khuswant18-demo-gallery/icon.png",
+    "projectPath": "Art/khuswant18-demo-gallery"
+  },
+  {
+    "author": "khuswant18",
+    "artName": "Galaxy",
+    "githubLink": "https://github.com/khuswant18",
+    "pageLink": "./Art/khuswant18-galaxy-animation/index.html",
+    "imageLink": "./Art/khuswant18-galaxy-animation/icon.png",
+    "projectPath": "Art/khuswant18-galaxy-animation"
+  },
+  {
+    "author": "khuswant18",
+    "artName": "Folder",
+    "githubLink": "https://github.com/khuswant18",
+    "pageLink": "./Art/khuswant18-interactive-artife/index.html",
+    "imageLink": "./Art/khuswant18-interactive-artife/icon.png",
+    "projectPath": "Art/khuswant18-interactive-artife"
+  },
+  {
+    "author": "khuswant18",
+    "artName": "Lines",
+    "githubLink": "https://github.com/khuswant18",
+    "pageLink": "./Art/khuswant18-lines/index.html",
+    "imageLink": "./Art/khuswant18-lines/icon.png",
+    "projectPath": "Art/khuswant18-lines"
+  },
+  {
+    "author": "khuswant18",
+    "artName": "Spotlight Card",
+    "githubLink": "https://github.com/khuswant18",
+    "pageLink": "./Art/khuswant18-spotlight-card/index.html",
+    "imageLink": "./Art/khuswant18-spotlight-card/icon.png",
+    "projectPath": "Art/khuswant18-spotlight-card"
+  },
+  {
     "author": "liketiger",
     "artName": "pendulum",
     "githubLink": "https://github.com/liketiger",
@@ -1581,6 +1701,14 @@
     "pageLink": "./Art/rajatrsrivastav-Fade-Content/index.html",
     "imageLink": "./Art/rajatrsrivastav-Fade-Content/icon.png",
     "projectPath": "Art/rajatrsrivastav-Fade-Content"
+  },
+  {
+    "author": "rajatrsrivastav",
+    "artName": "Glare Hover",
+    "githubLink": "https://github.com/rajatrsrivastav",
+    "pageLink": "./Art/rajatrsrivastav-Glare-Hover-Animation/index.html",
+    "imageLink": "./Art/rajatrsrivastav-Glare-Hover-Animation/icon.png",
+    "projectPath": "Art/rajatrsrivastav-Glare-Hover-Animation"
   },
   {
     "author": "rajatrsrivastav",
