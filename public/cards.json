@@ -1464,6 +1464,14 @@
   },
   {
     "author": "vs-code06",
+    "artName": "Cosmic Tesseract",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-Cosmic_Tesseract/index.html",
+    "imageLink": "./Art/vs-code06-Cosmic_Tesseract/icon.png",
+    "projectPath": "Art/vs-code06-Cosmic_Tesseract"
+  },
+  {
+    "author": "vs-code06",
     "artName": "Temporal Ripples",
     "githubLink": "https://github.com/vs-code06",
     "pageLink": "./Art/vs-code06-Temporal Ripples/index.html",
