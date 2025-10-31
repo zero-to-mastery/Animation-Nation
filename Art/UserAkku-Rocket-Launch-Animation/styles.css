@@ -69,7 +69,8 @@ body {
 }
 
 @keyframes flicker {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateX(-50%) scaleY(1);
   }
   50% {
@@ -128,7 +129,8 @@ body {
 }
 
 @keyframes twinkle {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0;
     transform: scale(0) rotate(0deg);
   }

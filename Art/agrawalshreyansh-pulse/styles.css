@@ -1,5 +1,6 @@
 /* Simple pulsing circle animation */
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
@@ -8,7 +9,8 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial;
 }
 
 .scene {
@@ -33,16 +35,16 @@ body {
   0% {
     transform: scale(0.92);
     filter: hue-rotate(0deg) saturate(1);
-    box-shadow: 0 6px 20px rgba(255,105,135,0.12);
+    box-shadow: 0 6px 20px rgba(255, 105, 135, 0.12);
   }
   50% {
     transform: scale(1.08);
     filter: hue-rotate(20deg) saturate(1.1);
-    box-shadow: 0 30px 90px rgba(255,105,135,0.18);
+    box-shadow: 0 30px 90px rgba(255, 105, 135, 0.18);
   }
   100% {
     transform: scale(0.92);
     filter: hue-rotate(0deg) saturate(1);
-    box-shadow: 0 6px 20px rgba(255,105,135,0.12);
+    box-shadow: 0 6px 20px rgba(255, 105, 135, 0.12);
   }
 }
