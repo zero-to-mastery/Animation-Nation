@@ -1,43 +1,48 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #050012;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #050012;
 }
 
 .helix {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 span {
-    width: 12px;
-    height: 12px;
-    background: #ff007a;
-    border-radius: 50%;
-    position: relative;
-    animation: helix 1.5s infinite ease-in-out;
-    box-shadow: 0 0 10px #ff007a;
+  width: 12px;
+  height: 12px;
+  background: #ff007a;
+  border-radius: 50%;
+  position: relative;
+  animation: helix 1.5s infinite ease-in-out;
+  box-shadow: 0 0 10px #ff007a;
 }
 
 span:after {
-    content: "";
-    width: 12px;
-    height: 12px;
-    background: #00eaff;
-    border-radius: 50%;
-    position: absolute;
-    left: 24px;
-    top: 0;
-    box-shadow: 0 0 10px #00eaff;
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #00eaff;
+  border-radius: 50%;
+  position: absolute;
+  left: 24px;
+  top: 0;
+  box-shadow: 0 0 10px #00eaff;
 }
 
 @keyframes helix {
-    0%, 100% { transform: translateY(-40px) scale(0.5); }
-    50% { transform: translateY(40px) scale(1.2); }
+  0%,
+  100% {
+    transform: translateY(-40px) scale(0.5);
+  }
+  50% {
+    transform: translateY(40px) scale(1.2);
+  }
 }
 
 span:nth-child(even) {
-    animation-delay: .1s;   
+  animation-delay: 0.1s;
 }

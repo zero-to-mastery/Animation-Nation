@@ -1,100 +1,100 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    width: 100%;
-    height: 100%;
-    position: relative;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 .bubble {
-    position: absolute;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    animation: float 4s ease-in-out infinite;
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  animation: float 4s ease-in-out infinite;
 }
 
 .bubble1 {
-    width: 80px;
-    height: 80px;
-    left: 10%;
-    bottom: -100px;
-    animation-delay: 0s;
-    animation-duration: 6s;
+  width: 80px;
+  height: 80px;
+  left: 10%;
+  bottom: -100px;
+  animation-delay: 0s;
+  animation-duration: 6s;
 }
 
 .bubble2 {
-    width: 60px;
-    height: 60px;
-    left: 25%;
-    bottom: -100px;
-    animation-delay: 1s;
-    animation-duration: 5s;
+  width: 60px;
+  height: 60px;
+  left: 25%;
+  bottom: -100px;
+  animation-delay: 1s;
+  animation-duration: 5s;
 }
 
 .bubble3 {
-    width: 100px;
-    height: 100px;
-    left: 45%;
-    bottom: -100px;
-    animation-delay: 2s;
-    animation-duration: 7s;
+  width: 100px;
+  height: 100px;
+  left: 45%;
+  bottom: -100px;
+  animation-delay: 2s;
+  animation-duration: 7s;
 }
 
 .bubble4 {
-    width: 70px;
-    height: 70px;
-    left: 65%;
-    bottom: -100px;
-    animation-delay: 0.5s;
-    animation-duration: 5.5s;
+  width: 70px;
+  height: 70px;
+  left: 65%;
+  bottom: -100px;
+  animation-delay: 0.5s;
+  animation-duration: 5.5s;
 }
 
 .bubble5 {
-    width: 90px;
-    height: 90px;
-    left: 80%;
-    bottom: -100px;
-    animation-delay: 1.5s;
-    animation-duration: 6.5s;
+  width: 90px;
+  height: 90px;
+  left: 80%;
+  bottom: -100px;
+  animation-delay: 1.5s;
+  animation-duration: 6.5s;
 }
 
 .bubble6 {
-    width: 50px;
-    height: 50px;
-    left: 35%;
-    bottom: -100px;
-    animation-delay: 3s;
-    animation-duration: 5s;
+  width: 50px;
+  height: 50px;
+  left: 35%;
+  bottom: -100px;
+  animation-delay: 3s;
+  animation-duration: 5s;
 }
 
 @keyframes float {
-    0% {
-        transform: translateY(0) translateX(0);
-        opacity: 0;
-    }
-    10% {
-        opacity: 1;
-    }
-    90% {
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(-100vh) translateX(50px);
-        opacity: 0;
-    }
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) translateX(50px);
+    opacity: 0;
+  }
 }
