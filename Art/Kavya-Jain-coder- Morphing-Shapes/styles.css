@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+}
+
+.container {
+    perspective: 1000px;
+}
+
+.shape {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: morph 12s ease-in-out infinite, rotate3d 12s linear infinite;
+}
+
+.shape::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #f7dc6f, #bb8fce);
+    background-size: 300% 300%;
+    border-radius: 50%;
+    box-shadow: 
+        0 0 60px rgba(255, 107, 107, 0.6),
+        0 0 100px rgba(78, 205, 196, 0.4),
+        inset 0 0 60px rgba(255, 255, 255, 0.3);
+    animation: gradientShift 8s ease-in-out infinite;
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        transform: rotate(0deg);
+    }
+    10% {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+    20% {
+        border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+    }
+    30% {
+        border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+    }
+    40% {
+        border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
+    }
+    50% {
+        border-radius: 20% 80% 20% 80% / 20% 80% 20% 80%;
+        transform: rotate(180deg);
+    }
+    60% {
+        border-radius: 67% 33% 47% 53% / 37% 20% 80% 63%;
+    }
+    70% {
+        border-radius: 79% 21% 48% 52% / 21% 83% 17% 79%;
+    }
+    80% {
+        border-radius: 48% 52% 30% 70% / 27% 37% 63% 73%;
+    }
+    90% {
+        border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+    }
+    100% {
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate3d {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    33% {
+        transform: rotateX(360deg) rotateY(120deg) rotateZ(180deg);
+    }
+    66% {
+        transform: rotateX(180deg) rotateY(240deg) rotateZ(360deg);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(540deg);
+    }
+}
+
+@keyframes gradientShift {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
