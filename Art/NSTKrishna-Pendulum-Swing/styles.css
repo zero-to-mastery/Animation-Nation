@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  margin: 0;
+}
+
+/* Clock rod (main pendulum support) */
+.clock {
+  position: relative;
+  width: 10px;
+  height: 150px;
+  background: #999;
+  border-radius: 5px;
+  animation: pulse 3s ease-in-out infinite;
+}
+
+/* The swinging pendulum */
+.pendulum {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 6px;
+  height: 100px;
+  background: #444;
+  transform-origin: top;
+  animation: swing 2s ease-in-out infinite;
+}
+
+/* The pendulum ball */
+.pendulum::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -12px;
+  width: 30px;
+  height: 30px;
+  background: #ff6b6b;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #ff6b6b88;
+}
+
+/* Swing animation for pendulum */
+@keyframes swing {
+  0% { transform: rotate(-30deg); }
+  50% { transform: rotate(30deg); }
+  100% { transform: rotate(-30deg); }
+}
+
+/* Gentle pulse animation on clock base (to ensure animation detection) */
+@keyframes pulse {
+  0%, 100% { opacity: 0.9; }
+  50% { opacity: 1; }
+}
