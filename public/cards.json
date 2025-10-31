@@ -456,6 +456,14 @@
     "projectPath": "Art/Lakshya182005_bouncing_swords"
   },
   {
+    "author": "Lakshya182005",
+    "artName": "Cartwheel Man",
+    "githubLink": "https://github.com/Lakshya182005",
+    "pageLink": "./Art/Lakshya182005_cartwheel_man/index.html",
+    "imageLink": "./Art/Lakshya182005_cartwheel_man/icon.png",
+    "projectPath": "Art/Lakshya182005_cartwheel_man"
+  },
+  {
     "author": "SilverioZ",
     "artName": "Lemon",
     "githubLink": "https://github.com/SilverioZ",
@@ -1605,6 +1613,14 @@
     "pageLink": "./Art/vs-code06-NeonDNA/index.html",
     "imageLink": "./Art/vs-code06-NeonDNA/icon.png",
     "projectPath": "Art/vs-code06-NeonDNA"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Quantum Starburst",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-QuantumStarburst/index.html",
+    "imageLink": "./Art/vs-code06-QuantumStarburst/icon.png",
+    "projectPath": "Art/vs-code06-QuantumStarburst"
   },
   {
     "author": "vs-code06",
