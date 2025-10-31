@@ -1,132 +1,162 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #000;
-    overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  overflow: hidden;
 }
 
 .matrix-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .glitch-text {
-    font-size: 120px;
-    font-weight: bold;
-    color: #00ff41;
-    font-family: monospace;
-    position: relative;
-    text-shadow: 0 0 10px #00ff41;
-    animation: glitch 1s infinite;
+  font-size: 120px;
+  font-weight: bold;
+  color: #00ff41;
+  font-family: monospace;
+  position: relative;
+  text-shadow: 0 0 10px #00ff41;
+  animation: glitch 1s infinite;
 }
 
 .glitch-text::before,
 .glitch-text::after {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .glitch-text::before {
-    animation: glitchTop 1.5s infinite;
-    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
-    color: #ff00ff;
+  animation: glitchTop 1.5s infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  color: #ff00ff;
 }
 
 .glitch-text::after {
-    animation: glitchBottom 1.3s infinite;
-    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
-    color: #00ffff;
+  animation: glitchBottom 1.3s infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  color: #00ffff;
 }
 
 .matrix-lines {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
 .line {
-    position: absolute;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(transparent, #00ff41, transparent);
-    animation: rain 3s linear infinite;
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(transparent, #00ff41, transparent);
+  animation: rain 3s linear infinite;
 }
 
-.line:nth-child(1) { left: 10%; animation-delay: 0s; }
-.line:nth-child(2) { left: 20%; animation-delay: 0.5s; }
-.line:nth-child(3) { left: 35%; animation-delay: 1s; }
-.line:nth-child(4) { left: 50%; animation-delay: 1.5s; }
-.line:nth-child(5) { left: 65%; animation-delay: 0.8s; }
-.line:nth-child(6) { left: 75%; animation-delay: 2s; }
-.line:nth-child(7) { left: 85%; animation-delay: 1.2s; }
-.line:nth-child(8) { left: 95%; animation-delay: 0.3s; }
+.line:nth-child(1) {
+  left: 10%;
+  animation-delay: 0s;
+}
+.line:nth-child(2) {
+  left: 20%;
+  animation-delay: 0.5s;
+}
+.line:nth-child(3) {
+  left: 35%;
+  animation-delay: 1s;
+}
+.line:nth-child(4) {
+  left: 50%;
+  animation-delay: 1.5s;
+}
+.line:nth-child(5) {
+  left: 65%;
+  animation-delay: 0.8s;
+}
+.line:nth-child(6) {
+  left: 75%;
+  animation-delay: 2s;
+}
+.line:nth-child(7) {
+  left: 85%;
+  animation-delay: 1.2s;
+}
+.line:nth-child(8) {
+  left: 95%;
+  animation-delay: 0.3s;
+}
 
 @keyframes glitch {
-    0%, 90%, 100% {
-        transform: translate(0);
-    }
-    92% {
-        transform: translate(-5px, 5px);
-    }
-    94% {
-        transform: translate(5px, -5px);
-    }
-    96% {
-        transform: translate(-5px, -5px);
-    }
+  0%,
+  90%,
+  100% {
+    transform: translate(0);
+  }
+  92% {
+    transform: translate(-5px, 5px);
+  }
+  94% {
+    transform: translate(5px, -5px);
+  }
+  96% {
+    transform: translate(-5px, -5px);
+  }
 }
 
 @keyframes glitchTop {
-    0%, 90%, 100% {
-        transform: translate(0);
-    }
-    92% {
-        transform: translate(-8px, -5px);
-    }
-    96% {
-        transform: translate(8px, 5px);
-    }
+  0%,
+  90%,
+  100% {
+    transform: translate(0);
+  }
+  92% {
+    transform: translate(-8px, -5px);
+  }
+  96% {
+    transform: translate(8px, 5px);
+  }
 }
 
 @keyframes glitchBottom {
-    0%, 90%, 100% {
-        transform: translate(0);
-    }
-    93% {
-        transform: translate(8px, 5px);
-    }
-    97% {
-        transform: translate(-8px, -5px);
-    }
+  0%,
+  90%,
+  100% {
+    transform: translate(0);
+  }
+  93% {
+    transform: translate(8px, 5px);
+  }
+  97% {
+    transform: translate(-8px, -5px);
+  }
 }
 
 @keyframes rain {
-    0% {
-        transform: translateY(-100%);
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(100vh);
-        opacity: 0;
-    }
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
 }

@@ -1,113 +1,113 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: radial-gradient(circle, #1a1a2e 0%, #0f0f1e 100%);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  background: radial-gradient(circle, #1a1a2e 0%, #0f0f1e 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .container {
-    position: relative;
+  position: relative;
 }
 
 .spiral {
-    width: 300px;
-    height: 300px;
-    position: relative;
-    animation: rotate 4s linear infinite;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  animation: rotate 4s linear infinite;
 }
 
 .dot {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform-origin: center;
-    animation: spiral 4s ease-in-out infinite;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+  animation: spiral 4s ease-in-out infinite;
 }
 
 .dot1 {
-    background: #ff006e;
-    animation-delay: 0s;
-    box-shadow: 0 0 20px #ff006e;
+  background: #ff006e;
+  animation-delay: 0s;
+  box-shadow: 0 0 20px #ff006e;
 }
 
 .dot2 {
-    background: #fb5607;
-    animation-delay: 0.5s;
-    box-shadow: 0 0 20px #fb5607;
+  background: #fb5607;
+  animation-delay: 0.5s;
+  box-shadow: 0 0 20px #fb5607;
 }
 
 .dot3 {
-    background: #ffbe0b;
-    animation-delay: 1s;
-    box-shadow: 0 0 20px #ffbe0b;
+  background: #ffbe0b;
+  animation-delay: 1s;
+  box-shadow: 0 0 20px #ffbe0b;
 }
 
 .dot4 {
-    background: #8ac926;
-    animation-delay: 1.5s;
-    box-shadow: 0 0 20px #8ac926;
+  background: #8ac926;
+  animation-delay: 1.5s;
+  box-shadow: 0 0 20px #8ac926;
 }
 
 .dot5 {
-    background: #1982c4;
-    animation-delay: 2s;
-    box-shadow: 0 0 20px #1982c4;
+  background: #1982c4;
+  animation-delay: 2s;
+  box-shadow: 0 0 20px #1982c4;
 }
 
 .dot6 {
-    background: #6a4c93;
-    animation-delay: 2.5s;
-    box-shadow: 0 0 20px #6a4c93;
+  background: #6a4c93;
+  animation-delay: 2.5s;
+  box-shadow: 0 0 20px #6a4c93;
 }
 
 .dot7 {
-    background: #f72585;
-    animation-delay: 3s;
-    box-shadow: 0 0 20px #f72585;
+  background: #f72585;
+  animation-delay: 3s;
+  box-shadow: 0 0 20px #f72585;
 }
 
 .dot8 {
-    background: #4cc9f0;
-    animation-delay: 3.5s;
-    box-shadow: 0 0 20px #4cc9f0;
+  background: #4cc9f0;
+  animation-delay: 3.5s;
+  box-shadow: 0 0 20px #4cc9f0;
 }
 
 @keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes spiral {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg) translateX(0px) scale(0);
-        opacity: 0;
-    }
-    25% {
-        opacity: 1;
-    }
-    50% {
-        transform: translate(-50%, -50%) rotate(180deg) translateX(80px) scale(1);
-    }
-    75% {
-        opacity: 1;
-    }
-    100% {
-        transform: translate(-50%, -50%) rotate(360deg) translateX(150px) scale(0);
-        opacity: 0;
-    }
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(0px) scale(0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) translateX(80px) scale(1);
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(150px) scale(0);
+    opacity: 0;
+  }
 }

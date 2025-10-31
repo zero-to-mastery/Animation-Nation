@@ -1,175 +1,215 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(to bottom, #1e3a5f 0%, #2c5f7f 100%);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  background: linear-gradient(to bottom, #1e3a5f 0%, #2c5f7f 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .scene {
-    position: relative;
-    width: 600px;
-    height: 500px;
+  position: relative;
+  width: 600px;
+  height: 500px;
 }
 
 .waterfall {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 200px;
-    height: 350px;
-    display: flex;
-    justify-content: space-around;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .stream {
-    width: 20px;
-    height: 100%;
-    background: linear-gradient(to bottom, 
-        rgba(173, 216, 230, 0.8) 0%,
-        rgba(135, 206, 250, 0.9) 50%,
-        rgba(100, 180, 220, 1) 100%);
-    border-radius: 10px;
-    animation: flow 1.5s linear infinite;
-    opacity: 0.7;
-    box-shadow: 0 0 10px rgba(135, 206, 250, 0.5);
+  width: 20px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(173, 216, 230, 0.8) 0%,
+    rgba(135, 206, 250, 0.9) 50%,
+    rgba(100, 180, 220, 1) 100%
+  );
+  border-radius: 10px;
+  animation: flow 1.5s linear infinite;
+  opacity: 0.7;
+  box-shadow: 0 0 10px rgba(135, 206, 250, 0.5);
 }
 
-.stream1 { animation-delay: 0s; }
-.stream2 { animation-delay: 0.1s; }
-.stream3 { animation-delay: 0.2s; }
-.stream4 { animation-delay: 0.3s; }
-.stream5 { animation-delay: 0.4s; }
-.stream6 { animation-delay: 0.5s; }
-.stream7 { animation-delay: 0.6s; }
-.stream8 { animation-delay: 0.7s; }
+.stream1 {
+  animation-delay: 0s;
+}
+.stream2 {
+  animation-delay: 0.1s;
+}
+.stream3 {
+  animation-delay: 0.2s;
+}
+.stream4 {
+  animation-delay: 0.3s;
+}
+.stream5 {
+  animation-delay: 0.4s;
+}
+.stream6 {
+  animation-delay: 0.5s;
+}
+.stream7 {
+  animation-delay: 0.6s;
+}
+.stream8 {
+  animation-delay: 0.7s;
+}
 
 .pool {
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 300px;
-    height: 60px;
-    background: linear-gradient(to bottom, 
-        rgba(100, 180, 220, 0.8) 0%,
-        rgba(70, 130, 180, 0.9) 100%);
-    border-radius: 50%;
-    box-shadow: 0 0 30px rgba(135, 206, 250, 0.6),
-                inset 0 -10px 20px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 60px;
+  background: linear-gradient(
+    to bottom,
+    rgba(100, 180, 220, 0.8) 0%,
+    rgba(70, 130, 180, 0.9) 100%
+  );
+  border-radius: 50%;
+  box-shadow: 0 0 30px rgba(135, 206, 250, 0.6),
+    inset 0 -10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .ripple {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50px;
-    height: 10px;
-    border: 2px solid rgba(173, 216, 230, 0.6);
-    border-radius: 50%;
-    animation: rippleEffect 2s ease-out infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 10px;
+  border: 2px solid rgba(173, 216, 230, 0.6);
+  border-radius: 50%;
+  animation: rippleEffect 2s ease-out infinite;
 }
 
-.ripple1 { animation-delay: 0s; }
-.ripple2 { animation-delay: 0.7s; }
-.ripple3 { animation-delay: 1.4s; }
+.ripple1 {
+  animation-delay: 0s;
+}
+.ripple2 {
+  animation-delay: 0.7s;
+}
+.ripple3 {
+  animation-delay: 1.4s;
+}
 
 .splash-container {
-    position: absolute;
-    bottom: 110px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 50px;
+  position: absolute;
+  bottom: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 50px;
 }
 
 .drop {
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    background: radial-gradient(circle, rgba(173, 216, 230, 0.9) 0%, rgba(135, 206, 250, 0.6) 100%);
-    border-radius: 50%;
-    animation: splash 1.5s ease-out infinite;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: radial-gradient(
+    circle,
+    rgba(173, 216, 230, 0.9) 0%,
+    rgba(135, 206, 250, 0.6) 100%
+  );
+  border-radius: 50%;
+  animation: splash 1.5s ease-out infinite;
 }
 
 .drop1 {
-    left: 30%;
-    animation-delay: 0s;
+  left: 30%;
+  animation-delay: 0s;
 }
 
 .drop2 {
-    left: 50%;
-    animation-delay: 0.2s;
+  left: 50%;
+  animation-delay: 0.2s;
 }
 
 .drop3 {
-    left: 70%;
-    animation-delay: 0.4s;
+  left: 70%;
+  animation-delay: 0.4s;
 }
 
 .drop4 {
-    left: 40%;
-    animation-delay: 0.6s;
+  left: 40%;
+  animation-delay: 0.6s;
 }
 
 .drop5 {
-    left: 60%;
-    animation-delay: 0.8s;
+  left: 60%;
+  animation-delay: 0.8s;
 }
 
 @keyframes flow {
-    0% {
-        transform: translateY(-100%) scaleY(0.8);
-        opacity: 0;
-    }
-    10% {
-        opacity: 0.7;
-    }
-    100% {
-        transform: translateY(100%) scaleY(1.2);
-        opacity: 0.9;
-    }
+  0% {
+    transform: translateY(-100%) scaleY(0.8);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(100%) scaleY(1.2);
+    opacity: 0.9;
+  }
 }
 
 @keyframes rippleEffect {
-    0% {
-        width: 50px;
-        height: 10px;
-        opacity: 1;
-    }
-    100% {
-        width: 250px;
-        height: 50px;
-        opacity: 0;
-    }
+  0% {
+    width: 50px;
+    height: 10px;
+    opacity: 1;
+  }
+  100% {
+    width: 250px;
+    height: 50px;
+    opacity: 0;
+  }
 }
 
 @keyframes splash {
-    0% {
-        transform: translate(0, 0) scale(1);
-        opacity: 1;
-    }
-    50% {
-        transform: translate(var(--x, 20px), -30px) scale(0.8);
-        opacity: 0.8;
-    }
-    100% {
-        transform: translate(var(--x, 40px), 10px) scale(0.3);
-        opacity: 0;
-    }
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(var(--x, 20px), -30px) scale(0.8);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(var(--x, 40px), 10px) scale(0.3);
+    opacity: 0;
+  }
 }
 
-.drop1 { --x: -25px; }
-.drop2 { --x: 0px; }
-.drop3 { --x: 25px; }
-.drop4 { --x: -15px; }
-.drop5 { --x: 15px; }
+.drop1 {
+  --x: -25px;
+}
+.drop2 {
+  --x: 0px;
+}
+.drop3 {
+  --x: 25px;
+}
+.drop4 {
+  --x: -15px;
+}
+.drop5 {
+  --x: 15px;
+}

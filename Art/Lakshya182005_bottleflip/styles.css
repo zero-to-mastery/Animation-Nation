@@ -1,176 +1,198 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(to bottom, #f0f4f8 0%, #d9e2ec 100%);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
+  background: linear-gradient(to bottom, #f0f4f8 0%, #d9e2ec 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
 }
 
 .table {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 150px;
-    background: linear-gradient(to bottom, #8b4513 0%, #654321 100%);
-    box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to bottom, #8b4513 0%, #654321 100%);
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3);
 }
 
 .bottle {
-    position: relative;
-    width: 60px;
-    height: 180px;
-    animation: flip 3s ease-in-out infinite;
-    transform-origin: center center;
+  position: relative;
+  width: 60px;
+  height: 180px;
+  animation: flip 3s ease-in-out infinite;
+  transform-origin: center center;
 }
 
 .cap {
-    position: absolute;
-    width: 25px;
-    height: 15px;
-    background: linear-gradient(to bottom, #ff0000 0%, #cc0000 100%);
-    border-radius: 3px 3px 0 0;
-    left: 17.5px;
-    top: 0;
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  background: linear-gradient(to bottom, #ff0000 0%, #cc0000 100%);
+  border-radius: 3px 3px 0 0;
+  left: 17.5px;
+  top: 0;
 }
 
 .neck {
-    position: absolute;
-    width: 20px;
-    height: 30px;
-    background: linear-gradient(to right, rgba(200, 220, 255, 0.3) 0%, rgba(180, 210, 255, 0.2) 50%, rgba(200, 220, 255, 0.3) 100%);
-    border: 2px solid rgba(150, 180, 220, 0.4);
-    border-radius: 5px;
-    left: 20px;
-    top: 15px;
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background: linear-gradient(
+    to right,
+    rgba(200, 220, 255, 0.3) 0%,
+    rgba(180, 210, 255, 0.2) 50%,
+    rgba(200, 220, 255, 0.3) 100%
+  );
+  border: 2px solid rgba(150, 180, 220, 0.4);
+  border-radius: 5px;
+  left: 20px;
+  top: 15px;
 }
 
 .body-bottle {
-    position: absolute;
-    width: 60px;
-    height: 110px;
-    background: linear-gradient(to right, rgba(200, 220, 255, 0.3) 0%, rgba(180, 210, 255, 0.2) 50%, rgba(200, 220, 255, 0.3) 100%);
-    border: 2px solid rgba(150, 180, 220, 0.4);
-    border-radius: 10px;
-    left: 0;
-    top: 45px;
+  position: absolute;
+  width: 60px;
+  height: 110px;
+  background: linear-gradient(
+    to right,
+    rgba(200, 220, 255, 0.3) 0%,
+    rgba(180, 210, 255, 0.2) 50%,
+    rgba(200, 220, 255, 0.3) 100%
+  );
+  border: 2px solid rgba(150, 180, 220, 0.4);
+  border-radius: 10px;
+  left: 0;
+  top: 45px;
 }
 
 .water {
-    position: absolute;
-    width: 56px;
-    height: 40px;
-    background: linear-gradient(to bottom, rgba(64, 156, 255, 0.6) 0%, rgba(32, 128, 255, 0.7) 100%);
-    border-radius: 0 0 8px 8px;
-    left: 2px;
-    top: 113px;
+  position: absolute;
+  width: 56px;
+  height: 40px;
+  background: linear-gradient(
+    to bottom,
+    rgba(64, 156, 255, 0.6) 0%,
+    rgba(32, 128, 255, 0.7) 100%
+  );
+  border-radius: 0 0 8px 8px;
+  left: 2px;
+  top: 113px;
 }
 
 .label {
-    position: absolute;
-    width: 50px;
-    height: 30px;
-    background: linear-gradient(to right, #e8f4f8 0%, #cce7f0 100%);
-    border: 1px solid #87ceeb;
-    left: 5px;
-    top: 75px;
-    border-radius: 3px;
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  background: linear-gradient(to right, #e8f4f8 0%, #cce7f0 100%);
+  border: 1px solid #87ceeb;
+  left: 5px;
+  top: 75px;
+  border-radius: 3px;
 }
 
 .bottom {
-    position: absolute;
-    width: 60px;
-    height: 25px;
-    background: linear-gradient(to bottom, rgba(180, 210, 255, 0.3) 0%, rgba(150, 190, 240, 0.4) 100%);
-    border: 2px solid rgba(150, 180, 220, 0.4);
-    border-radius: 0 0 10px 10px;
-    left: 0;
-    top: 155px;
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  background: linear-gradient(
+    to bottom,
+    rgba(180, 210, 255, 0.3) 0%,
+    rgba(150, 190, 240, 0.4) 100%
+  );
+  border: 2px solid rgba(150, 180, 220, 0.4);
+  border-radius: 0 0 10px 10px;
+  left: 0;
+  top: 155px;
 }
 
 .splash {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: radial-gradient(circle, rgba(64, 156, 255, 0.6) 0%, transparent 70%);
-    border-radius: 50%;
-    opacity: 0;
-    animation: splashing 3s ease-out infinite;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(
+    circle,
+    rgba(64, 156, 255, 0.6) 0%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  opacity: 0;
+  animation: splashing 3s ease-out infinite;
 }
 
 .splash1 {
-    left: 45%;
-    animation-delay: 2.4s;
+  left: 45%;
+  animation-delay: 2.4s;
 }
 
 .splash2 {
-    left: 50%;
-    animation-delay: 2.5s;
+  left: 50%;
+  animation-delay: 2.5s;
 }
 
 .splash3 {
-    left: 55%;
-    animation-delay: 2.45s;
+  left: 55%;
+  animation-delay: 2.45s;
 }
 
 @keyframes flip {
-    0% {
-        transform: translateY(0) rotate(0deg);
-        bottom: 150px;
-    }
-    30% {
-        transform: translateY(-200px) rotate(180deg);
-    }
-    60% {
-        transform: translateY(-100px) rotate(360deg);
-    }
-    80% {
-        transform: translateY(0) rotate(360deg);
-        bottom: 150px;
-    }
-    85% {
-        transform: translateY(-20px) rotate(360deg);
-        bottom: 150px;
-    }
-    90% {
-        transform: translateY(0) rotate(360deg);
-        bottom: 150px;
-    }
-    95% {
-        transform: translateY(-5px) rotate(360deg);
-        bottom: 150px;
-    }
-    100% {
-        transform: translateY(0) rotate(360deg);
-        bottom: 150px;
-    }
+  0% {
+    transform: translateY(0) rotate(0deg);
+    bottom: 150px;
+  }
+  30% {
+    transform: translateY(-200px) rotate(180deg);
+  }
+  60% {
+    transform: translateY(-100px) rotate(360deg);
+  }
+  80% {
+    transform: translateY(0) rotate(360deg);
+    bottom: 150px;
+  }
+  85% {
+    transform: translateY(-20px) rotate(360deg);
+    bottom: 150px;
+  }
+  90% {
+    transform: translateY(0) rotate(360deg);
+    bottom: 150px;
+  }
+  95% {
+    transform: translateY(-5px) rotate(360deg);
+    bottom: 150px;
+  }
+  100% {
+    transform: translateY(0) rotate(360deg);
+    bottom: 150px;
+  }
 }
 
 @keyframes splashing {
-    0% {
-        opacity: 0;
-        transform: scale(0) translateY(0);
-        bottom: 150px;
-    }
-    80% {
-        opacity: 0;
-        bottom: 150px;
-    }
-    85% {
-        opacity: 1;
-        transform: scale(1) translateY(-10px);
-        bottom: 150px;
-    }
-    100% {
-        opacity: 0;
-        transform: scale(2) translateY(-30px);
-        bottom: 150px;
-    }
+  0% {
+    opacity: 0;
+    transform: scale(0) translateY(0);
+    bottom: 150px;
+  }
+  80% {
+    opacity: 0;
+    bottom: 150px;
+  }
+  85% {
+    opacity: 1;
+    transform: scale(1) translateY(-10px);
+    bottom: 150px;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2) translateY(-30px);
+    bottom: 150px;
+  }
 }
