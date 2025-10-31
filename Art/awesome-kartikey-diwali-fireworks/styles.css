@@ -1,0 +1,431 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --sky-bg: #0a0e27;
+  --sky-gradient: radial-gradient(
+    ellipse at bottom,
+    var(--sky-bg) 0%,
+    #000000 100%
+  );
+  --smoke-color: rgba(20, 20, 30, 0.4);
+}
+
+body {
+  background: var(--sky-gradient);
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+  contain: layout style paint;
+}
+
+.firework {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  contain: layout style paint;
+}
+
+/* Enhanced particle emission system with CSS custom properties */
+.firework::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+/* HDR-like bloom effects */
+.firework::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: radial-gradient(circle, currentColor 0%, transparent 70%);
+  filter: blur(2px);
+  opacity: 0.3;
+  animation: bloom-pulse 0.5s ease-out forwards;
+  mix-blend-mode: screen;
+  z-index: -1;
+}
+
+@keyframes bloom-pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* Enhanced smoke trails */
+.smoke-trail {
+  position: absolute;
+  width: 2px;
+  height: 50px;
+  background: var(--smoke-color);
+  border-radius: 50%;
+  opacity: 0;
+  animation: smoke-fade 5s ease-out forwards;
+  mix-blend-mode: screen;
+}
+
+@keyframes smoke-fade {
+  0% {
+    opacity: 0;
+    height: 20px;
+  }
+  10% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
+    height: 100px;
+  }
+}
+
+/* Type 1: Enhanced CHRYSANTHEMUM - Red/Orange */
+.chrysanthemum {
+  left: 20%;
+  top: 30%;
+  color: #ff3366;
+  animation: launch-chrysanthemum 3s ease-out infinite;
+  animation-delay: 0s;
+  filter: drop-shadow(0 0 25px #ff3366) drop-shadow(0 0 50px #ff6600)
+    drop-shadow(0 0 75px #ff9900);
+  will-change: transform, opacity, filter;
+}
+
+@keyframes launch-chrysanthemum {
+  0% {
+    transform: translate(-50%, 100vh) scale(1);
+    opacity: 1;
+    box-shadow: 0 0 0 0 currentColor;
+  }
+  45% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 80px 30px #ff3366;
+    filter: brightness(4) contrast(2) drop-shadow(0 0 40px #ff3366);
+  }
+  100% {
+    opacity: 0;
+    filter: brightness(12) contrast(2.2) saturate(2.2);
+    box-shadow: 0 0 240px 100px #ff3366, 0 0 190px 80px #ff6600,
+      0 0 140px 60px #ff9900, 0 -220px 22px 12px #ff3366,
+      155px -155px 22px 12px #ff6600, 220px 0 22px 12px #ff9900,
+      155px 155px 22px 12px #ff3366, 0 220px 22px 12px #ff6600,
+      -155px 155px 22px 12px #ff9900, -220px 0 22px 12px #ff3366,
+      -155px -155px 22px 12px #ff6600, 0 -308px 18px 9px #ff3366,
+      110px -286px 18px 9px #ff6600, 209px -209px 18px 9px #ff9900,
+      286px -110px 18px 9px #ff3366, 308px 0 18px 9px #ff6600,
+      286px 110px 18px 9px #ff9900, 209px 209px 18px 9px #ff3366,
+      110px 286px 18px 9px #ff6600, 0 308px 18px 9px #ff9900,
+      -110px 286px 18px 9px #ff3366, -209px 209px 18px 9px #ff6600,
+      -286px 110px 18px 9px #ff9900, -308px 0 18px 9px #ff3366,
+      -286px -110px 18px 9px #ff6600, -209px -209px 18px 9px #ff9900,
+      -110px -286px 18px 9px #ff3366;
+  }
+}
+
+/* Type 2: Enhanced WILLOW - Gold/Yellow */
+.willow {
+  left: 75%;
+  top: 25%;
+  color: #ffdd33;
+  animation: launch-willow 3.5s ease-out infinite;
+  animation-delay: 1.5s;
+  filter: drop-shadow(0 0 25px #ffdd33) drop-shadow(0 0 50px #ffaa00)
+    drop-shadow(0 0 75px #ff8800);
+  will-change: transform, opacity, filter;
+}
+
+@keyframes launch-willow {
+  0% {
+    transform: translate(-50%, 100vh) scale(1);
+    opacity: 1;
+  }
+  45% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    box-shadow: 0 0 80px 30px #ffdd33;
+    filter: brightness(4) contrast(2) drop-shadow(0 0 40px #ffdd33);
+  }
+  100% {
+    opacity: 0;
+    filter: brightness(12) contrast(2.2) saturate(2.2);
+    box-shadow: 0 0 220px 90px #ffdd33, 0 0 176px 66px #ffaa00,
+      -55px 165px 20px 11px #ffdd33, -88px 220px 18px 9px #ffaa00,
+      -110px 308px 16px 8px #ff8800, 0 176px 20px 11px #ffdd33,
+      0 242px 18px 9px #ffaa00, 0 330px 16px 8px #ff8800,
+      55px 165px 20px 11px #ffdd33, 88px 220px 18px 9px #ffaa00,
+      110px 308px 16px 8px #ff8800, -132px 198px 19px 10px #ffdd33,
+      -154px 264px 17px 9px #ffaa00, 132px 198px 19px 10px #ff8800,
+      154px 264px 17px 9px #ffdd33, -33px 220px 18px 9px #ffaa00,
+      33px 220px 18px 9px #ff8800;
+  }
+}
+
+/* Type 3: Enhanced PEONY - Pink/Magenta */
+.peony {
+  left: 45%;
+  top: 35%;
+  color: #ff0088;
+  animation: launch-peony 3s ease-out infinite;
+  animation-delay: 0.8s;
+  filter: drop-shadow(0 0 25px #ff0088) drop-shadow(0 0 50px #ff00ff)
+    drop-shadow(0 0 75px #ff44ff);
+  will-change: transform, opacity, filter;
+}
+
+@keyframes launch-peony {
+  0% {
+    transform: translate(-50%, 100vh) scale(1);
+    opacity: 1;
+  }
+  45% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    box-shadow: 0 0 90px 35px #ff0088;
+    filter: brightness(4) contrast(2) drop-shadow(0 0 40px #ff0088);
+  }
+  100% {
+    opacity: 0;
+    filter: brightness(13) contrast(2.4) saturate(2.4);
+    box-shadow: 0 0 264px 110px #ff0088, 0 0 198px 77px #ff00ff,
+      0 0 154px 66px #ff44ff, 0 -242px 24px 13px #ff0088,
+      77px -231px 24px 13px #ff00ff, 143px -198px 24px 13px #ff44ff,
+      198px -143px 24px 13px #ff0088, 231px -77px 24px 13px #ff00ff,
+      242px 0 24px 13px #ff44ff, 231px 77px 24px 13px #ff0088,
+      198px 143px 24px 13px #ff00ff, 143px 198px 24px 13px #ff44ff,
+      77px 231px 24px 13px #ff0088, 0 242px 24px 13px #ff00ff,
+      -77px 231px 24px 13px #ff44ff, -143px 198px 24px 13px #ff0088,
+      -198px 143px 24px 13px #ff00ff, -231px 77px 24px 13px #ff44ff,
+      -242px 0 24px 13px #ff0088, -231px -77px 24px 13px #ff00ff,
+      -198px -143px 24px 13px #ff44ff, -143px -198px 24px 13px #ff0088,
+      -77px -231px 24px 13px #ff00ff;
+  }
+}
+
+/* Type 4: Enhanced PALM TREE - Lime Green */
+.palm {
+  left: 85%;
+  top: 40%;
+  color: #88ff00;
+  animation: launch-palm 3.2s ease-out infinite;
+  animation-delay: 2.2s;
+  filter: drop-shadow(0 0 25px #88ff00) drop-shadow(0 0 50px #ccff00)
+    drop-shadow(0 0 75px #ddff44);
+  will-change: transform, opacity, filter;
+}
+
+@keyframes launch-palm {
+  0% {
+    transform: translate(-50%, 100vh) scale(1);
+    opacity: 1;
+    box-shadow: 0 55px 6px 4px currentColor, 0 110px 6px 4px currentColor,
+      0 165px 6px 4px currentColor;
+  }
+  45% {
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 55px 6px 4px currentColor, 0 110px 6px 4px currentColor;
+  }
+  50% {
+    box-shadow: 0 0 70px 30px #88ff00;
+    filter: brightness(4) contrast(2) drop-shadow(0 0 40px #88ff00);
+  }
+  100% {
+    opacity: 0;
+    filter: brightness(12) contrast(2.2) saturate(2.2);
+    box-shadow: 0 0 231px 94px #88ff00, 0 0 176px 72px #ccff00,
+      -88px 110px 22px 11px #88ff00, -132px 198px 20px 10px #ccff00,
+      -154px 275px 18px 9px #ddff44, -44px 132px 22px 11px #88ff00,
+      -66px 220px 20px 10px #ccff00, 0 154px 22px 11px #ddff44,
+      0 242px 20px 10px #88ff00, 44px 132px 22px 11px #ccff00,
+      66px 220px 20px 10px #ddff44, 88px 110px 22px 11px #88ff00,
+      132px 198px 20px 10px #ccff00, 154px 275px 18px 9px #ddff44;
+  }
+}
+
+/* Type 5: Enhanced STROBE - Cyan/White */
+.strobe {
+  left: 55%;
+  top: 20%;
+  color: #00ffff;
+  animation: launch-strobe 3s ease-out infinite;
+  animation-delay: 2.7s;
+  filter: drop-shadow(0 0 25px #00ffff) drop-shadow(0 0 50px #ffffff)
+    drop-shadow(0 0 75px #aaffff);
+  will-change: transform, opacity, filter;
+}
+
+@keyframes launch-strobe {
+  0% {
+    transform: translate(-50%, 100vh) scale(1);
+    opacity: 1;
+  }
+  45% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50%,
+  52%,
+  54%,
+  56%,
+  58% {
+    box-shadow: 0 0 100px 42px #00ffff;
+    opacity: 1;
+    filter: brightness(7) contrast(2.2);
+  }
+  51%,
+  53%,
+  55%,
+  57%,
+  59% {
+    box-shadow: 0 0 35px 14px #00ffff;
+    opacity: 0.5;
+    filter: brightness(3.5);
+  }
+  100% {
+    opacity: 0;
+    filter: brightness(13) contrast(2.5) saturate(2.5);
+    box-shadow: 0 0 242px 105px #00ffff, 0 0 187px 77px #ffffff,
+      0 -198px 22px 13px #00ffff, 139px -139px 22px 13px #ffffff,
+      198px 0 22px 13px #aaffff, 139px 139px 22px 13px #00ffff,
+      0 198px 22px 13px #ffffff, -139px 139px 22px 13px #aaffff,
+      -198px 0 22px 13px #00ffff, -139px -139px 22px 13px #ffffff;
+  }
+}
+
+/* Type 6: Enhanced CROSSETTE - Purple */
+.crossette {
+  left: 28%;
+  top: 45%;
+  color: #cc33ff;
+  animation: launch-crossette 3.5s ease-out infinite;
+  animation-delay: 1.2s;
+  filter: drop-shadow(0 0 25px #cc33ff) drop-shadow(0 0 50px #aa00ff)
+    drop-shadow(0 0 75px #dd55ff);
+  will-change: transform, opacity, filter;
+}
+
+@keyframes launch-crossette {
+  0% {
+    transform: translate(-50%, 100vh) scale(1);
+    opacity: 1;
+  }
+  45% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    box-shadow: 0 0 70px 30px #cc33ff;
+    filter: brightness(4) contrast(2) drop-shadow(0 0 40px #cc33ff);
+  }
+  65% {
+    box-shadow: 0 -110px 18px 9px #cc33ff, 110px 0 18px 9px #aa00ff,
+      0 110px 18px 9px #dd55ff, -110px 0 18px 9px #cc33ff;
+    filter: brightness(5.5);
+  }
+  100% {
+    opacity: 0;
+    filter: brightness(12) contrast(2.2) saturate(2.2);
+    box-shadow: 0 0 198px 83px #cc33ff, 0 -220px 20px 11px #cc33ff,
+      55px -209px 16px 8px #aa00ff, -55px -209px 16px 8px #dd55ff,
+      220px 0 20px 11px #cc33ff, 209px 55px 16px 8px #aa00ff,
+      209px -55px 16px 8px #dd55ff, 0 220px 20px 11px #cc33ff,
+      55px 209px 16px 8px #aa00ff, -55px 209px 16px 8px #dd55ff,
+      -220px 0 20px 11px #cc33ff, -209px 55px 16px 8px #aa00ff,
+      -209px -55px 16px 8px #dd55ff;
+  }
+}
+
+/* Type 7: Enhanced RING - Orange */
+.ring {
+  left: 63%;
+  top: 50%;
+  color: #ff9100;
+  animation: launch-ring 3s ease-out infinite;
+  animation-delay: 1.8s;
+  filter: drop-shadow(0 0 25px #ff9100) drop-shadow(0 0 50px #ffd600)
+    drop-shadow(0 0 75px #ffee00);
+  will-change: transform, opacity, filter;
+}
+
+@keyframes launch-ring {
+  0% {
+    transform: translate(-50%, 100vh) scale(1);
+    opacity: 1;
+  }
+  45% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    box-shadow: 0 0 80px 35px #ff9100;
+    filter: brightness(4) contrast(2) drop-shadow(0 0 40px #ff9100);
+  }
+  100% {
+    opacity: 0;
+    filter: brightness(12) contrast(2.2) saturate(2.2);
+    box-shadow: 0 0 220px 90px #ff9100, 0 0 176px 72px #ffd600,
+      0 -275px 24px 15px #ff9100, 97px -258px 24px 15px #ffd600,
+      182px -182px 24px 15px #ffee00, 258px -97px 24px 15px #ff9100,
+      275px 0 24px 15px #ffd600, 258px 97px 24px 15px #ffee00,
+      182px 182px 24px 15px #ff9100, 97px 258px 24px 15px #ffd600,
+      0 275px 24px 15px #ffee00, -97px 258px 24px 15px #ff9100,
+      -182px 182px 24px 15px #ffd600, -258px 97px 24px 15px #ffee00,
+      -275px 0 24px 15px #ff9100, -258px -97px 24px 15px #ffd600,
+      -182px -182px 24px 15px #ffee00, -97px -258px 24px 15px #ff9100;
+  }
+}
+
+/* Type 8: Enhanced DAHLIA - Cyan/Blue */
+.dahlia {
+  left: 38%;
+  top: 15%;
+  color: #0099ff;
+  animation: launch-dahlia 3.2s ease-out infinite;
+  animation-delay: 0.5s;
+  filter: drop-shadow(0 0 25px #0099ff) drop-shadow(0 0 50px #00ddff)
+    drop-shadow(0 0 75px #44ccff);
+  will-change: transform, opacity, filter;
+}
+
+@keyframes launch-dahlia {
+  0% {
+    transform: translate(-50%, 100vh) scale(1);
+    opacity: 1;
+  }
+  45% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    box-shadow: 0 0 80px 35px #0099ff;
+    filter: brightness(4) contrast(2) drop-shadow(0 0 40px #0099ff);
+  }
+  100% {
+    opacity: 0;
+    filter: brightness(13) contrast(2.4) saturate(2.4);
+    box-shadow: 0 0 253px 105px #0099ff, 0 0 198px 83px #00ddff,
+      0 0 143px 61px #44ccff, 0 -264px 24px 13px #0099ff,
+      88px -248px 22px 11px #00ddff, 165px -209px 20px 10px #44ccff,
+      220px -132px 18px 9px #0099ff, 264px 0 24px 13px #00ddff,
+      220px 132px 18px 9px #44ccff, 165px 209px 20px 10px #0099ff,
+      88px 248px 22px 11px #00ddff, 0 264px 24px 13px #44ccff,
+      -88px 248px 22px 11px #0099ff, -165px 209px 20px 10px #00ddff,
+      -220px 132px 18px 9px #44ccff, -264px 0 24px 13px #0099ff,
+      -220px -132px 18px 9px #00ddff, -165px -209px 20px 10px #44ccff,
+      -88px -248px 22px 11px #0099ff;
+  }
+}
