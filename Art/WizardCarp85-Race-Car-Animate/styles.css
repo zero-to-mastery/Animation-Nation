@@ -1,106 +1,134 @@
 body {
-    margin: 0;
-    height: 100vh;
-    background: linear-gradient(180deg, #0a0015 0%, #1a0033 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(180deg, #0a0015 0%, #1a0033 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .road {
-    position: relative;
-    width: 400px;
-    height: 100vh;
-    background: #1a1a2e;
-    box-shadow: 0 0 50px rgba(255, 0, 255, 0.3);
+  position: relative;
+  width: 400px;
+  height: 100vh;
+  background: #1a1a2e;
+  box-shadow: 0 0 50px rgba(255, 0, 255, 0.3);
 }
 
 .line {
-    position: absolute;
-    width: 8px;
-    height: 80px;
-    background: #00ffff;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 0 10px #00ffff;
-    animation: moveLines 1s linear infinite;
+  position: absolute;
+  width: 8px;
+  height: 80px;
+  background: #00ffff;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 10px #00ffff;
+  animation: moveLines 1s linear infinite;
 }
 
-.line:nth-child(1) { top: -80px; }
-.line:nth-child(2) { top: -240px; }
-.line:nth-child(3) { top: -400px; }
-.line:nth-child(4) { top: -560px; }
-.line:nth-child(5) { top: -720px; }
+.line:nth-child(1) {
+  top: -80px;
+}
+.line:nth-child(2) {
+  top: -240px;
+}
+.line:nth-child(3) {
+  top: -400px;
+}
+.line:nth-child(4) {
+  top: -560px;
+}
+.line:nth-child(5) {
+  top: -720px;
+}
 
 .car {
-    position: absolute;
-    width: 60px;
-    height: 100px;
-    bottom: 80px;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: carFloat 2s ease-in-out infinite;
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: carFloat 2s ease-in-out infinite;
 }
 
 .car-body {
-    width: 100%;
-    height: 70%;
-    background: linear-gradient(180deg, #ff00ff 0%, #ff0080 100%);
-    border-radius: 10px 10px 5px 5px;
-    position: relative;
-    box-shadow: 0 0 20px #ff00ff, 0 5px 15px rgba(0,0,0,0.5);
+  width: 100%;
+  height: 70%;
+  background: linear-gradient(180deg, #ff00ff 0%, #ff0080 100%);
+  border-radius: 10px 10px 5px 5px;
+  position: relative;
+  box-shadow: 0 0 20px #ff00ff, 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .windshield {
-    width: 70%;
-    height: 30%;
-    background: rgba(0, 255, 255, 0.3);
-    border-radius: 5px;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.5);
+  width: 70%;
+  height: 30%;
+  background: rgba(0, 255, 255, 0.3);
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.5);
 }
 
 .wheel {
-    width: 15px;
-    height: 25px;
-    background: #000;
-    border: 2px solid #00ffff;
-    border-radius: 3px;
-    position: absolute;
-    bottom: -5px;
-    box-shadow: 0 0 8px #00ffff;
+  width: 15px;
+  height: 25px;
+  background: #000;
+  border: 2px solid #00ffff;
+  border-radius: 3px;
+  position: absolute;
+  bottom: -5px;
+  box-shadow: 0 0 8px #00ffff;
 }
 
-.wheel.left { left: -5px; }
-.wheel.right { right: -5px; }
+.wheel.left {
+  left: -5px;
+}
+.wheel.right {
+  right: -5px;
+}
 
 .glow {
-    position: absolute;
-    width: 40px;
-    height: 3px;
-    background: #ff00ff;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 0 20px #ff00ff;
-    animation: pulse 0.5s ease-in-out infinite;
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background: #ff00ff;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 20px #ff00ff;
+  animation: pulse 0.5s ease-in-out infinite;
 }
 
 @keyframes moveLines {
-    0% { transform: translateX(-50%) translateY(0); }
-    100% { transform: translateX(-50%) translateY(100vh); }
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    transform: translateX(-50%) translateY(100vh);
+  }
 }
 
 @keyframes carFloat {
-    0%, 100% { transform: translateX(-50%) translateY(0); }
-    50% { transform: translateX(-50%) translateY(-8px); }
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-8px);
+  }
 }
 
 @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
 }
