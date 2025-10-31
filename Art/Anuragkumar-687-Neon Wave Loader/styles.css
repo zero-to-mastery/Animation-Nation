@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: radial-gradient(circle at center, #020024, #090979, #00d4ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wave-loader {
+  position: relative;
+  display: flex;
+  gap: 10px;
+}
+
+.wave-loader span {
+  width: 15px;
+  height: 15px;
+  background: #00ffff;
+  border-radius: 50%;
+  box-shadow:
+    0 0 10px #00ffff,
+    0 0 20px #00ffff,
+    0 0 40px #00ffff;
+  animation: wave 1.2s ease-in-out infinite;
+}
+
+/* Wave motion for each dot */
+.wave-loader span:nth-child(1) { animation-delay: 0s; }
+.wave-loader span:nth-child(2) { animation-delay: 0.1s; }
+.wave-loader span:nth-child(3) { animation-delay: 0.2s; }
+.wave-loader span:nth-child(4) { animation-delay: 0.3s; }
+.wave-loader span:nth-child(5) { animation-delay: 0.4s; }
+.wave-loader span:nth-child(6) { animation-delay: 0.5s; }
+.wave-loader span:nth-child(7) { animation-delay: 0.6s; }
+.wave-loader span:nth-child(8) { animation-delay: 0.7s; }
+.wave-loader span:nth-child(9) { animation-delay: 0.8s; }
+.wave-loader span:nth-child(10) { animation-delay: 0.9s; }
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-25px);
+    opacity: 1;
+  }
+}
+
+/* Optional: subtle background motion */
+body::before {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(from 0deg, #00ffff22, transparent, #09097922, transparent);
+  animation: bgRotate 8s linear infinite;
+  z-index: -1;
+}
+
+@keyframes bgRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
