@@ -1,202 +1,208 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(to bottom, #87ceeb 0%, #98d8e8 50%, #a8e6cf 100%);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  background: linear-gradient(to bottom, #87ceeb 0%, #98d8e8 50%, #a8e6cf 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .container {
-    position: relative;
-    width: 400px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  position: relative;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flower {
-    position: relative;
-    width: 250px;
-    height: 250px;
-    margin-bottom: 20px;
-    animation: flowerRotate 20s linear infinite;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+  animation: flowerRotate 20s linear infinite;
 }
 
 .petal {
-    position: absolute;
-    width: 80px;
-    height: 120px;
-    background: linear-gradient(135deg, #ff6b9d 0%, #ffa8cc 50%, #ff6b9d 100%);
-    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    top: 50%;
-    left: 50%;
-    transform-origin: center bottom;
-    animation: bloom 4s ease-in-out infinite;
-    box-shadow: 
-        inset 0 -20px 30px rgba(255, 107, 157, 0.4),
-        0 5px 15px rgba(255, 107, 157, 0.3);
+  position: absolute;
+  width: 80px;
+  height: 120px;
+  background: linear-gradient(135deg, #ff6b9d 0%, #ffa8cc 50%, #ff6b9d 100%);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  top: 50%;
+  left: 50%;
+  transform-origin: center bottom;
+  animation: bloom 4s ease-in-out infinite;
+  box-shadow: inset 0 -20px 30px rgba(255, 107, 157, 0.4),
+    0 5px 15px rgba(255, 107, 157, 0.3);
 }
 
 .p1 {
-    transform: translate(-50%, -100%) rotate(0deg);
-    animation-delay: 0s;
+  transform: translate(-50%, -100%) rotate(0deg);
+  animation-delay: 0s;
 }
 
 .p2 {
-    transform: translate(-50%, -100%) rotate(45deg);
-    animation-delay: 0.2s;
+  transform: translate(-50%, -100%) rotate(45deg);
+  animation-delay: 0.2s;
 }
 
 .p3 {
-    transform: translate(-50%, -100%) rotate(90deg);
-    animation-delay: 0.4s;
+  transform: translate(-50%, -100%) rotate(90deg);
+  animation-delay: 0.4s;
 }
 
 .p4 {
-    transform: translate(-50%, -100%) rotate(135deg);
-    animation-delay: 0.6s;
+  transform: translate(-50%, -100%) rotate(135deg);
+  animation-delay: 0.6s;
 }
 
 .p5 {
-    transform: translate(-50%, -100%) rotate(180deg);
-    animation-delay: 0.8s;
+  transform: translate(-50%, -100%) rotate(180deg);
+  animation-delay: 0.8s;
 }
 
 .p6 {
-    transform: translate(-50%, -100%) rotate(225deg);
-    animation-delay: 1s;
+  transform: translate(-50%, -100%) rotate(225deg);
+  animation-delay: 1s;
 }
 
 .p7 {
-    transform: translate(-50%, -100%) rotate(270deg);
-    animation-delay: 1.2s;
+  transform: translate(-50%, -100%) rotate(270deg);
+  animation-delay: 1.2s;
 }
 
 .p8 {
-    transform: translate(-50%, -100%) rotate(315deg);
-    animation-delay: 1.4s;
+  transform: translate(-50%, -100%) rotate(315deg);
+  animation-delay: 1.4s;
 }
 
 .center {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background: radial-gradient(circle, #ffd700 0%, #ffed4e 50%, #ffa500 100%);
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 
-        inset 0 0 20px rgba(255, 215, 0, 0.8),
-        0 0 30px rgba(255, 215, 0, 0.5);
-    animation: centerPulse 2s ease-in-out infinite;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, #ffd700 0%, #ffed4e 50%, #ffa500 100%);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: inset 0 0 20px rgba(255, 215, 0, 0.8),
+    0 0 30px rgba(255, 215, 0, 0.5);
+  animation: centerPulse 2s ease-in-out infinite;
 }
 
 .center::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle at 30% 30%, transparent 0%, transparent 40%, rgba(255, 140, 0, 0.3) 70%);
-    border-radius: 50%;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    transparent 0%,
+    transparent 40%,
+    rgba(255, 140, 0, 0.3) 70%
+  );
+  border-radius: 50%;
 }
 
 .stem {
-    width: 12px;
-    height: 200px;
-    background: linear-gradient(to right, #2d5016 0%, #4a7c2c 50%, #2d5016 100%);
-    border-radius: 6px;
-    position: relative;
-    animation: stemGrow 3s ease-out infinite;
-    box-shadow: inset -3px 0 5px rgba(0, 0, 0, 0.3);
+  width: 12px;
+  height: 200px;
+  background: linear-gradient(to right, #2d5016 0%, #4a7c2c 50%, #2d5016 100%);
+  border-radius: 6px;
+  position: relative;
+  animation: stemGrow 3s ease-out infinite;
+  box-shadow: inset -3px 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .leaf {
-    position: absolute;
-    width: 60px;
-    height: 40px;
-    background: linear-gradient(135deg, #4a7c2c 0%, #6ba83d 50%, #4a7c2c 100%);
-    border-radius: 0 50% 50% 0;
-    bottom: 150px;
-    animation: leafSway 3s ease-in-out infinite;
-    box-shadow: 
-        inset -5px 5px 10px rgba(0, 0, 0, 0.2),
-        2px 2px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  background: linear-gradient(135deg, #4a7c2c 0%, #6ba83d 50%, #4a7c2c 100%);
+  border-radius: 0 50% 50% 0;
+  bottom: 150px;
+  animation: leafSway 3s ease-in-out infinite;
+  box-shadow: inset -5px 5px 10px rgba(0, 0, 0, 0.2),
+    2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .leaf::before {
-    content: '';
-    position: absolute;
-    width: 1px;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.3);
-    left: 10px;
-    top: 0;
-    transform: rotate(-30deg);
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  left: 10px;
+  top: 0;
+  transform: rotate(-30deg);
 }
 
 .leaf-left {
-    left: -50px;
-    transform-origin: right center;
-    animation-delay: 0s;
+  left: -50px;
+  transform-origin: right center;
+  animation-delay: 0s;
 }
 
 .leaf-right {
-    right: -50px;
-    transform: scaleX(-1);
-    transform-origin: left center;
-    animation-delay: 1.5s;
+  right: -50px;
+  transform: scaleX(-1);
+  transform-origin: left center;
+  animation-delay: 1.5s;
 }
 
 @keyframes bloom {
-    0%, 100% {
-        transform: translate(-50%, -100%) scale(1);
-    }
-    50% {
-        transform: translate(-50%, -100%) scale(1.1);
-    }
+  0%,
+  100% {
+    transform: translate(-50%, -100%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -100%) scale(1.1);
+  }
 }
 
 @keyframes flowerRotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes centerPulse {
-    0%, 100% {
-        transform: translate(-50%, -50%) scale(1);
-    }
-    50% {
-        transform: translate(-50%, -50%) scale(1.15);
-    }
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.15);
+  }
 }
 
 @keyframes stemGrow {
-    0%, 100% {
-        transform: scaleY(1);
-    }
-    50% {
-        transform: scaleY(1.05);
-    }
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.05);
+  }
 }
 
 @keyframes leafSway {
-    0%, 100% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(-10deg);
-    }
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
 }
