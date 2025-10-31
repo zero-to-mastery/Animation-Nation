@@ -441,6 +441,14 @@
   },
   {
     "author": "Lakshya182005",
+    "artName": "Curtain in Wind",
+    "githubLink": "https://github.com/Lakshya182005",
+    "pageLink": "./Art/Lakshya182005_Curtain_in_Wind/index.html",
+    "imageLink": "./Art/Lakshya182005_Curtain_in_Wind/icon.png",
+    "projectPath": "Art/Lakshya182005_Curtain_in_Wind"
+  },
+  {
+    "author": "Lakshya182005",
     "artName": "Bouncing Swords",
     "githubLink": "https://github.com/Lakshya182005",
     "pageLink": "./Art/Lakshya182005_bouncing_swords/index.html",
@@ -478,6 +486,22 @@
     "pageLink": "./Art/MohitSingh250-CosmicParticleRings/index.html",
     "imageLink": "./Art/MohitSingh250-CosmicParticleRings/icon.png",
     "projectPath": "Art/MohitSingh250-CosmicParticleRings"
+  },
+  {
+    "author": "MohitSingh250",
+    "artName": "Echo Nebula",
+    "githubLink": "https://github.com/MohitSingh250",
+    "pageLink": "./Art/MohitSingh250-Echo Nebula/index.html",
+    "imageLink": "./Art/MohitSingh250-Echo Nebula/icon.png",
+    "projectPath": "Art/MohitSingh250-Echo Nebula"
+  },
+  {
+    "author": "MohitSingh250",
+    "artName": "Quantum Veil",
+    "githubLink": "https://github.com/MohitSingh250",
+    "pageLink": "./Art/MohitSingh250-Quantum Veil/index.html",
+    "imageLink": "./Art/MohitSingh250-Quantum Veil/icon.png",
+    "projectPath": "Art/MohitSingh250-Quantum Veil"
   },
   {
     "author": "Namokar05",
@@ -750,6 +774,14 @@
     "pageLink": "./Art/adithya-pathakoti-galaxy/index.html",
     "imageLink": "./Art/adithya-pathakoti-galaxy/icon.png",
     "projectPath": "Art/adithya-pathakoti-galaxy"
+  },
+  {
+    "author": "afk-anant",
+    "artName": "cosmicorbit",
+    "githubLink": "https://github.com/afk-anant",
+    "pageLink": "./Art/afk-anant-Cosmic-Orbit/index.html",
+    "imageLink": "./Art/afk-anant-Cosmic-Orbit/icon.png",
+    "projectPath": "Art/afk-anant-Cosmic-Orbit"
   },
   {
     "author": "afk-anant",
