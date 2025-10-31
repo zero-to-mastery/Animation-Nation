@@ -521,6 +521,22 @@
   },
   {
     "author": "UserAkku",
+    "artName": "Pizza SLICE Animation",
+    "githubLink": "https://github.com/UserAkku",
+    "pageLink": "./Art/UserAkku-Pizza-Slice-Animation/index.html",
+    "imageLink": "./Art/UserAkku-Pizza-Slice-Animation/icon.png",
+    "projectPath": "Art/UserAkku-Pizza-Slice-Animation"
+  },
+  {
+    "author": "UserAkku",
+    "artName": "Rocket Launch Animation",
+    "githubLink": "https://github.com/UserAkku",
+    "pageLink": "./Art/UserAkku-Rocket-Launch-Animation/index.html",
+    "imageLink": "./Art/UserAkku-Rocket-Launch-Animation/icon.png",
+    "projectPath": "Art/UserAkku-Rocket-Launch-Animation"
+  },
+  {
+    "author": "UserAkku",
     "artName": "colorspinner",
     "githubLink": "https://github.com/UserAkku",
     "pageLink": "./Art/UserAkku-colorspinner/index.html",
@@ -654,6 +670,14 @@
     "pageLink": "./Art/adithya-pathakoti-galaxy/index.html",
     "imageLink": "./Art/adithya-pathakoti-galaxy/icon.png",
     "projectPath": "Art/adithya-pathakoti-galaxy"
+  },
+  {
+    "author": "agrawalshreyansh",
+    "artName": "animation",
+    "githubLink": "https://github.com/agrawalshreyansh",
+    "pageLink": "./Art/agrawalshreyansh-pulse/index.html",
+    "imageLink": "./Art/agrawalshreyansh-pulse/icon.png",
+    "projectPath": "Art/agrawalshreyansh-pulse"
   },
   {
     "author": "agrawalshreyansh",
