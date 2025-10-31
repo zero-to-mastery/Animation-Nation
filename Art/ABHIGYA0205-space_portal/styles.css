@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at center, #000010 0%, #010014 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  perspective: 800px;
+  font-family: sans-serif;
+}
+
+.portal {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  transform-style: preserve-3d;
+  animation: spin 12s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotateY(0deg) rotateX(15deg); }
+  to { transform: rotateY(360deg) rotateX(15deg); }
+}
+
+.fold {
+  position: absolute;
+  inset: 0;
+  background: conic-gradient(from 180deg, #0ff2, #00ffff11, #0ff2);
+  transform: rotateX(90deg) scale(1.5);
+  animation: foldAnim 6s ease-in-out infinite alternate;
+  filter: blur(8px);
+}
+
+@keyframes foldAnim {
+  0% { transform: rotateX(90deg) scale(1.5); opacity: 0.2; }
+  50% { transform: rotateX(0deg) scale(1); opacity: 0.7; }
+  100% { transform: rotateX(-90deg) scale(1.5); opacity: 0.2; }
+}
+
+.rings {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+
+.ring {
+  position: absolute;
+  border: 2px solid #0ff6;
+  border-radius: 50%;
+  animation: pulse 4s ease-in-out infinite;
+}
+
+.ring:nth-child(1) { width: 60px; height: 60px; animation-delay: 0s; }
+.ring:nth-child(2) { width: 100px; height: 100px; animation-delay: 0.5s; }
+.ring:nth-child(3) { width: 160px; height: 160px; animation-delay: 1s; }
+.ring:nth-child(4) { width: 220px; height: 220px; animation-delay: 1.5s; }
+.ring:nth-child(5) { width: 280px; height: 280px; animation-delay: 2s; }
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.2); opacity: 0.3; }
+}
+
+.core {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #0ff, #00f 80%, #000 100%);
+  box-shadow:
+    0 0 20px #0ff,
+    0 0 40px #0ff,
+    0 0 80px #00f;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 20px #0ff, 0 0 40px #0ff, 0 0 80px #00f; }
+  100% { box-shadow: 0 0 40px #0ff, 0 0 100px #0ff, 0 0 150px #00f; }
+}
