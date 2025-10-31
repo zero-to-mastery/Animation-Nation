@@ -1,57 +1,114 @@
 body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #020612;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #020612;
 }
-  
+
 .grid {
-    width: 250px;
-    height: 250px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
+  width: 250px;
+  height: 250px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
 }
-  
+
 .grid div {
-    width: 30px;
-    height: 30px;
-    background: #00eaff;
-    border-radius: 50%;
-    opacity: 0.3;
-    animation: pulse 2.2s infinite ease-in-out;
-    box-shadow: 0 0 10px #00eaff;
+  width: 30px;
+  height: 30px;
+  background: #00eaff;
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: pulse 2.2s infinite ease-in-out;
+  box-shadow: 0 0 10px #00eaff;
 }
-  
+
 @keyframes pulse {
-    0%, 100% { transform: scale(0.6); opacity: 0.3; }
-    50% { transform: scale(1.4); opacity: 1; }
+  0%,
+  100% {
+    transform: scale(0.6);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 1;
+  }
 }
-  
-.grid div:nth-child(1) { animation-delay: 0s; }
-.grid div:nth-child(2) { animation-delay: .1s; }
-.grid div:nth-child(3) { animation-delay: .2s; }
-.grid div:nth-child(4) { animation-delay: .3s; }
-.grid div:nth-child(5) { animation-delay: .4s; }
-.grid div:nth-child(6) { animation-delay: .5s; }
-.grid div:nth-child(7) { animation-delay: .6s; }
-.grid div:nth-child(8) { animation-delay: .7s; }
-.grid div:nth-child(9) { animation-delay: .8s; }
-.grid div:nth-child(10) { animation-delay: .9s; }
-.grid div:nth-child(11) { animation-delay: 1s; }
-.grid div:nth-child(12) { animation-delay: 1.1s; }
-.grid div:nth-child(13) { animation-delay: 1.2s; }
-.grid div:nth-child(14) { animation-delay: 1.3s; }
-.grid div:nth-child(15) { animation-delay: 1.4s; }
-.grid div:nth-child(16) { animation-delay: 1.5s; }
-.grid div:nth-child(17) { animation-delay: 1.6s; }
-.grid div:nth-child(18) { animation-delay: 1.7s; }
-.grid div:nth-child(19) { animation-delay: 1.8s; }
-.grid div:nth-child(20) { animation-delay: 1.9s; }
-.grid div:nth-child(21) { animation-delay: 2s; }
-.grid div:nth-child(22) { animation-delay: 2.1s; }
-.grid div:nth-child(23) { animation-delay: 2.2s; }
-.grid div:nth-child(24) { animation-delay: 2.3s; }
-.grid div:nth-child(25) { animation-delay: 2.4s; }
+
+.grid div:nth-child(1) {
+  animation-delay: 0s;
+}
+.grid div:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.grid div:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.grid div:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.grid div:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.grid div:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.grid div:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.grid div:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.grid div:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.grid div:nth-child(10) {
+  animation-delay: 0.9s;
+}
+.grid div:nth-child(11) {
+  animation-delay: 1s;
+}
+.grid div:nth-child(12) {
+  animation-delay: 1.1s;
+}
+.grid div:nth-child(13) {
+  animation-delay: 1.2s;
+}
+.grid div:nth-child(14) {
+  animation-delay: 1.3s;
+}
+.grid div:nth-child(15) {
+  animation-delay: 1.4s;
+}
+.grid div:nth-child(16) {
+  animation-delay: 1.5s;
+}
+.grid div:nth-child(17) {
+  animation-delay: 1.6s;
+}
+.grid div:nth-child(18) {
+  animation-delay: 1.7s;
+}
+.grid div:nth-child(19) {
+  animation-delay: 1.8s;
+}
+.grid div:nth-child(20) {
+  animation-delay: 1.9s;
+}
+.grid div:nth-child(21) {
+  animation-delay: 2s;
+}
+.grid div:nth-child(22) {
+  animation-delay: 2.1s;
+}
+.grid div:nth-child(23) {
+  animation-delay: 2.2s;
+}
+.grid div:nth-child(24) {
+  animation-delay: 2.3s;
+}
+.grid div:nth-child(25) {
+  animation-delay: 2.4s;
+}
