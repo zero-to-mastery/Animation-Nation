@@ -39,11 +39,26 @@ body {
 }
 
 /* Place beams at different angles in 3D space */
-.b1 { transform: rotateY(0deg) rotateX(45deg); animation-delay: 0s; }
-.b2 { transform: rotateY(72deg) rotateX(45deg); animation-delay: 0.5s; }
-.b3 { transform: rotateY(144deg) rotateX(45deg); animation-delay: 1s; }
-.b4 { transform: rotateY(216deg) rotateX(45deg); animation-delay: 1.5s; }
-.b5 { transform: rotateY(288deg) rotateX(45deg); animation-delay: 2s; }
+.b1 {
+  transform: rotateY(0deg) rotateX(45deg);
+  animation-delay: 0s;
+}
+.b2 {
+  transform: rotateY(72deg) rotateX(45deg);
+  animation-delay: 0.5s;
+}
+.b3 {
+  transform: rotateY(144deg) rotateX(45deg);
+  animation-delay: 1s;
+}
+.b4 {
+  transform: rotateY(216deg) rotateX(45deg);
+  animation-delay: 1.5s;
+}
+.b5 {
+  transform: rotateY(288deg) rotateX(45deg);
+  animation-delay: 2s;
+}
 
 /* Subtle beam flickering & morphing */
 @keyframes flicker {
@@ -76,18 +91,19 @@ body {
 
 /* Soft ambient glow */
 body::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 120%;
   height: 120%;
-  background: radial-gradient(circle, rgba(0,255,255,0.1), transparent 70%);
+  background: radial-gradient(circle, rgba(0, 255, 255, 0.1), transparent 70%);
   animation: pulse 6s ease-in-out infinite;
   filter: blur(80px);
   z-index: -1;
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.3;
     transform: scale(1);
   }

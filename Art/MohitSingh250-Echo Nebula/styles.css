@@ -32,10 +32,10 @@ body {
   border-radius: 50%;
   background: conic-gradient(
     from 0deg,
-    rgba(0,255,255,0.8),
-    rgba(255,0,255,0.6),
-    rgba(255,255,0,0.6),
-    rgba(0,255,255,0.8)
+    rgba(0, 255, 255, 0.8),
+    rgba(255, 0, 255, 0.6),
+    rgba(255, 255, 0, 0.6),
+    rgba(0, 255, 255, 0.8)
   );
   opacity: 0.7;
   mix-blend-mode: screen;
@@ -43,11 +43,21 @@ body {
 }
 
 /* Stagger each wave for echo effect */
-.w1 { animation-delay: 0s; }
-.w2 { animation-delay: 1s; }
-.w3 { animation-delay: 2s; }
-.w4 { animation-delay: 3s; }
-.w5 { animation-delay: 4s; }
+.w1 {
+  animation-delay: 0s;
+}
+.w2 {
+  animation-delay: 1s;
+}
+.w3 {
+  animation-delay: 2s;
+}
+.w4 {
+  animation-delay: 3s;
+}
+.w5 {
+  animation-delay: 4s;
+}
 
 /* Expansion, fading and hue rotation */
 @keyframes expand {
@@ -70,7 +80,7 @@ body {
 
 /* Add subtle stars background */
 body::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
   background-image: radial-gradient(white 1px, transparent 1px);
