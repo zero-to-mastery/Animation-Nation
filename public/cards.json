@@ -913,6 +913,14 @@
   },
   {
     "author": "awesome-kartikey",
+    "artName": "cherry blossoms",
+    "githubLink": "https://github.com/awesome-kartikey",
+    "pageLink": "./Art/awesome-kartikey-cherry-blossoms/index.html",
+    "imageLink": "./Art/awesome-kartikey-cherry-blossoms/icon.png",
+    "projectPath": "Art/awesome-kartikey-cherry-blossoms"
+  },
+  {
+    "author": "awesome-kartikey",
     "artName": "jellyfish swarm",
     "githubLink": "https://github.com/awesome-kartikey",
     "pageLink": "./Art/awesome-kartikey-jellyfish-swarm/index.html",
@@ -1525,6 +1533,14 @@
     "pageLink": "./Art/pragyamv-robot-heart/index.html",
     "imageLink": "./Art/pragyamv-robot-heart/icon.png",
     "projectPath": "Art/pragyamv-robot-heart"
+  },
+  {
+    "author": "rajatrsrivastav",
+    "artName": "Animated Content",
+    "githubLink": "https://github.com/rajatrsrivastav",
+    "pageLink": "./Art/rajatrsrivastav-Animated-Content/index.html",
+    "imageLink": "./Art/rajatrsrivastav-Animated-Content/icon.png",
+    "projectPath": "Art/rajatrsrivastav-Animated-Content"
   },
   {
     "author": "rajatrsrivastav",
