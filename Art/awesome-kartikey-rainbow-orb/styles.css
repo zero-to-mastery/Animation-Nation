@@ -52,3 +52,21 @@ body {
     filter: hue-rotate(360deg);
   }
 }
+
+@keyframes rotate {
+  0% {
+    background: linear-gradient(0deg, #ff00aa, #ffcc00, #00ffaa);
+  }
+  25% {
+    background: linear-gradient(90deg, #00ffaa, #ff00aa, #ffcc00);
+  }
+  50% {
+    background: linear-gradient(180deg, #ffcc00, #00ffaa, #ff00aa);
+  }
+  75% {
+    background: linear-gradient(270deg, #ff00aa, #ffcc00, #00ffaa);
+  }
+  100% {
+    background: linear-gradient(360deg, #ff00aa, #ffcc00, #00ffaa);
+  }
+}
