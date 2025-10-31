@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(ellipse at center, #0d1b2a 0%, #000000 100%);
+    overflow: hidden;
+}
+
+.galaxy {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    animation: galaxyRotate 30s linear infinite;
+}
+
+@keyframes galaxyRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.core {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #ffd700 0%, #ff6b35 50%, #6a0572 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 80px #ffd700, 0 0 120px #ff6b35, 0 0 160px #6a0572;
+    animation: corePulse 4s ease-in-out infinite;
+}
+
+@keyframes corePulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+        box-shadow: 0 0 80px #ffd700, 0 0 120px #ff6b35, 0 0 160px #6a0572;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.1);
+        box-shadow: 0 0 100px #ffd700, 0 0 150px #ff6b35, 0 0 200px #6a0572;
+    }
+}
+
+.ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    transform-origin: center;
+}
+
+.ring-1 {
+    width: 200px;
+    height: 200px;
+    margin: -100px 0 0 -100px;
+    animation: ringRotate 10s linear infinite;
+}
+
+.ring-2 {
+    width: 350px;
+    height: 350px;
+    margin: -175px 0 0 -175px;
+    animation: ringRotate 15s linear infinite reverse;
+}
+
+.ring-3 {
+    width: 500px;
+    height: 500px;
+    margin: -250px 0 0 -250px;
+    animation: ringRotate 20s linear infinite;
+}
+
+@keyframes ringRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.star {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: radial-gradient(circle, #ffffff 0%, #00d4ff 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 20px #00d4ff;
+    animation: starTwinkle 2s ease-in-out infinite;
+}
+
+.star-1 { top: 0; left: 50%; transform: translateX(-50%); animation-delay: 0s; }
+.star-2 { top: 50%; left: 0; transform: translateY(-50%); animation-delay: 0.3s; }
+.star-3 { bottom: 0; left: 50%; transform: translateX(-50%); animation-delay: 0.6s; }
+.star-4 { top: 10%; right: 20%; animation-delay: 0.9s; }
+.star-5 { bottom: 20%; left: 15%; animation-delay: 1.2s; }
+.star-6 { top: 60%; right: 10%; animation-delay: 1.5s; }
+.star-7 { top: 5%; left: 30%; animation-delay: 1.8s; }
+.star-8 { bottom: 15%; right: 25%; animation-delay: 2.1s; }
+.star-9 { top: 70%; left: 60%; animation-delay: 2.4s; }
+
+@keyframes starTwinkle {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.3;
+        transform: scale(0.8);
+    }
+}
+
+.particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #ff00ff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ff00ff;
+    animation: particleFloat 8s ease-in-out infinite;
+}
+
+.particle-1 {
+    top: 20%;
+    left: 30%;
+    animation-delay: 0s;
+}
+
+.particle-2 {
+    top: 60%;
+    left: 70%;
+    animation-delay: 1.6s;
+}
+
+.particle-3 {
+    top: 40%;
+    left: 15%;
+    animation-delay: 3.2s;
+}
+
+.particle-4 {
+    top: 75%;
+    left: 45%;
+    animation-delay: 4.8s;
+}
+
+.particle-5 {
+    top: 25%;
+    left: 80%;
+    animation-delay: 6.4s;
+}
+
+@keyframes particleFloat {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    50% {
+        transform: translate(50px, -80px) scale(1.5);
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(100px, -160px) scale(0.5);
+        opacity: 0;
+    }
+}
