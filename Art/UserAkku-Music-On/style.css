@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a1a1a;
+  font-family: Arial, sans-serif;
+}
+
+.beats-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.beats {
+  font-size: 100px;
+  transition: all 0.3s ease;
+}
+
+.beats-container:hover .beats {
+  transform: scale(1.2) rotate(15deg);
+  filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.8));
+}
+
+.wave {
+  position: absolute;
+  width: 10px;
+  height: 40px;
+  background: white;
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.wave1 { left: -40px; top: 50%; transform: translateY(-50%); }
+.wave2 { left: -70px; top: 50%; transform: translateY(-50%); }
+.wave3 { left: -100px; top: 50%; transform: translateY(-50%); }
+.wave4 { right: -40px; top: 50%; transform: translateY(-50%); }
+.wave5 { right: -70px; top: 50%; transform: translateY(-50%); }
+.wave6 { right: -100px; top: 50%; transform: translateY(-50%); }
+
+.beats-container:hover .wave {
+  opacity: 0.8;
+  animation: pulse 0.6s ease-in-out infinite;
+}
+
+.beats-container:hover .wave1,
+.beats-container:hover .wave4 { animation-delay: 0s; }
+
+.beats-container:hover .wave2,
+.beats-container:hover .wave5 { animation-delay: 0.1s; }
+
+.beats-container:hover .wave3,
+.beats-container:hover .wave6 { animation-delay: 0.2s; }
+
+@keyframes pulse {
+  0%, 100% { height: 40px; }
+  50% { height: 80px; }
+}
+
+.text {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+}
+
+.beats-container:hover .text {
+  opacity: 1;
+}
