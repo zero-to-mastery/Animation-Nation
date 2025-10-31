@@ -80,6 +80,14 @@
     "projectPath": "Art/Aviral02git-Floating-Bubbles"
   },
   {
+    "author": "Aviral02git",
+    "artName": "Glowing Rings",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Glowing Rings/index.html",
+    "imageLink": "./Art/Aviral02git-Glowing Rings/icon.png",
+    "projectPath": "Art/Aviral02git-Glowing Rings"
+  },
+  {
     "author": "Bharath-dev05",
     "artName": "Butterflies",
     "githubLink": "https://github.com/Bharath-dev05",
@@ -478,6 +486,14 @@
     "pageLink": "./Art/Rajudas94-RetroSpin Player/index.html",
     "imageLink": "./Art/Rajudas94-RetroSpin Player/icon.png",
     "projectPath": "Art/Rajudas94-RetroSpin Player"
+  },
+  {
+    "author": "Kavya-Jain-coder",
+    "artName": "rotating cube",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Rotating-Cube-Kavya-Jain-coder/index.html",
+    "imageLink": "./Art/Rotating-Cube-Kavya-Jain-coder/icon.png",
+    "projectPath": "Art/Rotating-Cube-Kavya-Jain-coder"
   },
   {
     "author": "Saptarshi1984",
@@ -1477,6 +1493,14 @@
     "pageLink": "./Art/vs-code06-Cosmic_Tesseract/index.html",
     "imageLink": "./Art/vs-code06-Cosmic_Tesseract/icon.png",
     "projectPath": "Art/vs-code06-Cosmic_Tesseract"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Hologram Ripple Grid",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-HologramRippleGrid/index.html",
+    "imageLink": "./Art/vs-code06-HologramRippleGrid/icon.png",
+    "projectPath": "Art/vs-code06-HologramRippleGrid"
   },
   {
     "author": "vs-code06",
