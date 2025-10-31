@@ -1445,5 +1445,13 @@
     "pageLink": "./Art/volt3301-WaveFlow/index.html",
     "imageLink": "./Art/volt3301-WaveFlow/icon.png",
     "projectPath": "Art/volt3301-WaveFlow"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Temporal Ripples",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-Temporal Ripples/index.html",
+    "imageLink": "./Art/vs-code06-Temporal Ripples/icon.png",
+    "projectPath": "Art/vs-code06-Temporal Ripples"
   }
 ]
