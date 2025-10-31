@@ -440,6 +440,14 @@
     "projectPath": "Art/Kavya-Jain-coder-Bouncing-Ball"
   },
   {
+    "author": "Lakshya182005",
+    "artName": "Bouncing Swords",
+    "githubLink": "https://github.com/Lakshya182005",
+    "pageLink": "./Art/Lakshya182005_bouncing_swords/index.html",
+    "imageLink": "./Art/Lakshya182005_bouncing_swords/icon.png",
+    "projectPath": "Art/Lakshya182005_bouncing_swords"
+  },
+  {
     "author": "SilverioZ",
     "artName": "Lemon",
     "githubLink": "https://github.com/SilverioZ",
@@ -454,6 +462,22 @@
     "pageLink": "./Art/Loading-Dots-Kavya-Jain-coder/index.html",
     "imageLink": "./Art/Loading-Dots-Kavya-Jain-coder/icon.png",
     "projectPath": "Art/Loading-Dots-Kavya-Jain-coder"
+  },
+  {
+    "author": "MohitSingh250",
+    "artName": "Aurora Threads",
+    "githubLink": "https://github.com/MohitSingh250",
+    "pageLink": "./Art/MohitSingh250-AuroraThreads/index.html",
+    "imageLink": "./Art/MohitSingh250-AuroraThreads/icon.png",
+    "projectPath": "Art/MohitSingh250-AuroraThreads"
+  },
+  {
+    "author": "MohitSingh250",
+    "artName": "Cosmic Particle Rings",
+    "githubLink": "https://github.com/MohitSingh250",
+    "pageLink": "./Art/MohitSingh250-CosmicParticleRings/index.html",
+    "imageLink": "./Art/MohitSingh250-CosmicParticleRings/icon.png",
+    "projectPath": "Art/MohitSingh250-CosmicParticleRings"
   },
   {
     "author": "Namokar05",
@@ -726,6 +750,22 @@
     "pageLink": "./Art/adithya-pathakoti-galaxy/index.html",
     "imageLink": "./Art/adithya-pathakoti-galaxy/icon.png",
     "projectPath": "Art/adithya-pathakoti-galaxy"
+  },
+  {
+    "author": "afk-anant",
+    "artName": "neonpulse",
+    "githubLink": "https://github.com/afk-anant",
+    "pageLink": "./Art/afk-anant-Neon-Pulse-Ring/index.html",
+    "imageLink": "./Art/afk-anant-Neon-Pulse-Ring/icon.png",
+    "projectPath": "Art/afk-anant-Neon-Pulse-Ring"
+  },
+  {
+    "author": "afk-anant",
+    "artName": "liquidwave",
+    "githubLink": "https://github.com/afk-anant",
+    "pageLink": "./Art/afk-anant-liquid-loading-wave/index.html",
+    "imageLink": "./Art/afk-anant-liquid-loading-wave/icon.png",
+    "projectPath": "Art/afk-anant-liquid-loading-wave"
   },
   {
     "author": "agrawalshreyansh",
