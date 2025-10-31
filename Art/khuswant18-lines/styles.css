@@ -1,155 +1,157 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%);
-    overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%);
+  overflow: hidden;
 }
 
 .container {
-    position: relative;
-    width: 600px;
-    height: 400px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+  position: relative;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .line {
-    width: 40px;
-    background: linear-gradient(180deg, #00f5ff 0%, #00a8ff 100%);
-    border-radius: 20px 20px 0 0;
-    box-shadow: 0 0 20px rgba(0, 245, 255, 0.5), 0 0 40px rgba(0, 168, 255, 0.3);
-    position: relative;
+  width: 40px;
+  background: linear-gradient(180deg, #00f5ff 0%, #00a8ff 100%);
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 0 20px rgba(0, 245, 255, 0.5), 0 0 40px rgba(0, 168, 255, 0.3);
+  position: relative;
 }
 
 .line::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20px;
-    height: 20px;
-    background: radial-gradient(circle, #ffffff 0%, #00f5ff 100%);
-    border-radius: 50%;
-    box-shadow: 0 0 30px #00f5ff;
-    animation: dotPulse 1.5s ease-in-out infinite;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle, #ffffff 0%, #00f5ff 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 30px #00f5ff;
+  animation: dotPulse 1.5s ease-in-out infinite;
 }
 
 @keyframes dotPulse {
-    0%, 100% {
-        transform: translateX(-50%) scale(1);
-        opacity: 1;
-    }
-    50% {
-        transform: translateX(-50%) scale(1.3);
-        opacity: 0.7;
-    }
+  0%,
+  100% {
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-50%) scale(1.3);
+    opacity: 0.7;
+  }
 }
 
 .line-1 {
-    height: 80px;
-    animation: lineGrow 2s ease-in-out infinite;
-    animation-delay: 0s;
+  height: 80px;
+  animation: lineGrow 2s ease-in-out infinite;
+  animation-delay: 0s;
 }
 
 .line-2 {
-    height: 150px;
-    animation: lineGrow 2s ease-in-out infinite;
-    animation-delay: 0.2s;
+  height: 150px;
+  animation: lineGrow 2s ease-in-out infinite;
+  animation-delay: 0.2s;
 }
 
 .line-3 {
-    height: 200px;
-    animation: lineGrow 2s ease-in-out infinite;
-    animation-delay: 0.4s;
+  height: 200px;
+  animation: lineGrow 2s ease-in-out infinite;
+  animation-delay: 0.4s;
 }
 
 .line-4 {
-    height: 120px;
-    animation: lineGrow 2s ease-in-out infinite;
-    animation-delay: 0.6s;
+  height: 120px;
+  animation: lineGrow 2s ease-in-out infinite;
+  animation-delay: 0.6s;
 }
 
 .line-5 {
-    height: 180px;
-    animation: lineGrow 2s ease-in-out infinite;
-    animation-delay: 0.8s;
+  height: 180px;
+  animation: lineGrow 2s ease-in-out infinite;
+  animation-delay: 0.8s;
 }
 
 .line-6 {
-    height: 140px;
-    animation: lineGrow 2s ease-in-out infinite;
-    animation-delay: 1s;
+  height: 140px;
+  animation: lineGrow 2s ease-in-out infinite;
+  animation-delay: 1s;
 }
 
 .line-7 {
-    height: 220px;
-    animation: lineGrow 2s ease-in-out infinite;
-    animation-delay: 1.2s;
+  height: 220px;
+  animation: lineGrow 2s ease-in-out infinite;
+  animation-delay: 1.2s;
 }
 
 .line-8 {
-    height: 100px;
-    animation: lineGrow 2s ease-in-out infinite;
-    animation-delay: 1.4s;
+  height: 100px;
+  animation: lineGrow 2s ease-in-out infinite;
+  animation-delay: 1.4s;
 }
 
 .line-9 {
-    height: 160px;
-    animation: lineGrow 2s ease-in-out infinite;
-    animation-delay: 1.6s;
+  height: 160px;
+  animation: lineGrow 2s ease-in-out infinite;
+  animation-delay: 1.6s;
 }
 
 .line-10 {
-    height: 190px;
-    animation: lineGrow 2s ease-in-out infinite;
-    animation-delay: 1.8s;
+  height: 190px;
+  animation: lineGrow 2s ease-in-out infinite;
+  animation-delay: 1.8s;
 }
 
 @keyframes lineGrow {
-    0%, 100% {
-        transform: scaleY(1);
-        opacity: 1;
-    }
-    25% {
-        transform: scaleY(1.3);
-        opacity: 0.8;
-    }
-    50% {
-        transform: scaleY(0.7);
-        opacity: 0.6;
-    }
-    75% {
-        transform: scaleY(1.1);
-        opacity: 0.9;
-    }
+  0%,
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+  25% {
+    transform: scaleY(1.3);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scaleY(0.7);
+    opacity: 0.6;
+  }
+  75% {
+    transform: scaleY(1.1);
+    opacity: 0.9;
+  }
 }
 
 .line:nth-child(even) {
-    background: linear-gradient(180deg, #ff006e 0%, #ff4d8f 100%);
-    box-shadow: 0 0 20px rgba(255, 0, 110, 0.5), 0 0 40px rgba(255, 77, 143, 0.3);
+  background: linear-gradient(180deg, #ff006e 0%, #ff4d8f 100%);
+  box-shadow: 0 0 20px rgba(255, 0, 110, 0.5), 0 0 40px rgba(255, 77, 143, 0.3);
 }
 
 .line:nth-child(even)::before {
-    background: radial-gradient(circle, #ffffff 0%, #ff006e 100%);
-    box-shadow: 0 0 30px #ff006e;
+  background: radial-gradient(circle, #ffffff 0%, #ff006e 100%);
+  box-shadow: 0 0 30px #ff006e;
 }
 
 .line:nth-child(3n) {
-    background: linear-gradient(180deg, #7209b7 0%, #9d4edd 100%);
-    box-shadow: 0 0 20px rgba(114, 9, 183, 0.5), 0 0 40px rgba(157, 78, 221, 0.3);
+  background: linear-gradient(180deg, #7209b7 0%, #9d4edd 100%);
+  box-shadow: 0 0 20px rgba(114, 9, 183, 0.5), 0 0 40px rgba(157, 78, 221, 0.3);
 }
 
 .line:nth-child(3n)::before {
-    background: radial-gradient(circle, #ffffff 0%, #7209b7 100%);
-    box-shadow: 0 0 30px #7209b7;
+  background: radial-gradient(circle, #ffffff 0%, #7209b7 100%);
+  box-shadow: 0 0 30px #7209b7;
 }

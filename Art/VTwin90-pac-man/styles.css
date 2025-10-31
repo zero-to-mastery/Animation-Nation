@@ -1,5 +1,6 @@
 /* === Base Reset === */
-html, body {
+html,
+body {
   height: 100%;
   overscroll-behavior-x: none;
   overflow-x: hidden;
@@ -8,7 +9,12 @@ html, body {
 
 body {
   animation: backgroundPulse 30s ease-in-out infinite;
-  background: radial-gradient(circle at center, #0f0c29 0%, #1a1a3f 40%, #000 100%);
+  background: radial-gradient(
+    circle at center,
+    #0f0c29 0%,
+    #1a1a3f 40%,
+    #000 100%
+  );
   background-size: cover;
   margin: 0;
   overflow: hidden;
@@ -38,9 +44,12 @@ body::before {
 
 .scene::after {
   animation: gridGlow 10s ease-in-out infinite;
-  background-image:
-    linear-gradient(to top, rgba(255,255,255,0.05) 1px, transparent 1px),
-    linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
   background-size: 40px 40px;
   bottom: 0;
   content: '';
@@ -55,7 +64,11 @@ body::before {
 /* === Track Container === */
 .track {
   backdrop-filter: blur(4px);
-  background: linear-gradient(to right, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.03),
+    rgba(255, 255, 255, 0.01)
+  );
   border-radius: 30px;
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.05);
   margin: 0 auto;
@@ -69,10 +82,13 @@ body::before {
 
 /* === Portal & Vortex === */
 .portal {
-  background: radial-gradient(ellipse at center, rgba(255,255,255,0.05), transparent 70%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.05),
+    transparent 70%
+  );
   border-radius: 50% / 50%;
-  box-shadow:
-    0 0 60px 20px rgba(255, 255, 255, 0.05),
+  box-shadow: 0 0 60px 20px rgba(255, 255, 255, 0.05),
     0 0 20px 10px rgba(255, 255, 255, 0.1);
   filter: blur(2px);
   height: 80px;
@@ -95,7 +111,11 @@ body::before {
 
 .vortex {
   animation: none;
-  background: radial-gradient(ellipse at center, rgba(142, 68, 173, 0.2), transparent 70%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(142, 68, 173, 0.2),
+    transparent 70%
+  );
   border-radius: 50% / 50%;
   box-shadow: 0 0 40px 20px rgba(142, 68, 173, 0.4);
   filter: blur(2px);
@@ -224,77 +244,163 @@ body::before {
 }
 
 /* === Dot Positions and Fade === */
-.d1 { animation-name: fadeDot1; left: 20%; }
-.d2 { animation-name: fadeDot2; left: 40%; }
-.d3 { animation-name: fadeDot3; left: 60%; }
-.d4 { animation-name: fadeDot4; left: 80%; }
-.d5 { animation-name: fadeDot5; left: 95%; }
+.d1 {
+  animation-name: fadeDot1;
+  left: 20%;
+}
+.d2 {
+  animation-name: fadeDot2;
+  left: 40%;
+}
+.d3 {
+  animation-name: fadeDot3;
+  left: 60%;
+}
+.d4 {
+  animation-name: fadeDot4;
+  left: 80%;
+}
+.d5 {
+  animation-name: fadeDot5;
+  left: 95%;
+}
 
 /* === Animations === */
 @keyframes backgroundPulse {
-  0% { filter: hue-rotate(0deg); }
-  50% { filter: hue-rotate(30deg); }
-  100% { filter: hue-rotate(0deg); }
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(30deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+  }
 }
 
 @keyframes chomp {
-  0%, 100% { clip-path: circle(50%); }
+  0%,
+  100% {
+    clip-path: circle(50%);
+  }
   50% {
     clip-path: polygon(
-      0% 0%, 100% 0%, 100% 35%, 65% 50%, 100% 65%, 100% 100%, 0% 100%
+      0% 0%,
+      100% 0%,
+      100% 35%,
+      65% 50%,
+      100% 65%,
+      100% 100%,
+      0% 100%
     );
   }
 }
 
 @keyframes fadeDot1 {
-  0%, 19% { opacity: 1; transform: scale(1); }
-  20%, 99% { opacity: 0; transform: scale(0.5); }
-  100% { opacity: 1; transform: scale(1); }
+  0%,
+  19% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  20%,
+  99% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes fadeDot2 {
-  0%, 39% { opacity: 1; transform: scale(1); }
-  40%, 99% { opacity: 0; transform: scale(0.5); }
-  100% { opacity: 1; transform: scale(1); }
+  0%,
+  39% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  40%,
+  99% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes fadeDot3 {
-  0%, 59% { opacity: 1; transform: scale(1); }
-  60%, 99% { opacity: 0; transform: scale(0.5); }
-  100% { opacity: 1; transform: scale(1); }
+  0%,
+  59% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  60%,
+  99% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes fadeDot4 {
-  0%, 79% { opacity: 1; transform: scale(1); }
-  80%, 99% { opacity: 0; transform: scale(0.5); }
-  100% { opacity: 1; transform: scale(1); }
+  0%,
+  79% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80%,
+  99% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes fadeDot5 {
-  0%, 94% { opacity: 1; transform: scale(1); }
-  95%, 99% { opacity: 0; transform: scale(0.5); }
-  100% { opacity: 1; transform: scale(1); }
+  0%,
+  94% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  95%,
+  99% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
-@keyframes movePacman { 
-  0% { 
-    left: 0; 
-    transform: translateY(-50%) scale(1); 
-    opacity: 1; 
-  } 
-  90% { 
-    transform: translateY(-50%) scale(1); 
-    opacity: 1; 
-  } 
-  100% { 
-    left: 98%; 
-    transform: translateY(-50%) scale(0.8); 
-    opacity: 0.0; 
-  } 
+@keyframes movePacman {
+  0% {
+    left: 0;
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  90% {
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    left: 98%;
+    transform: translateY(-50%) scale(0.8);
+    opacity: 0;
+  }
 }
 
 @keyframes pulseArrival {
-  0%, 20% {
+  0%,
+  20% {
     box-shadow: 0 0 20px 10px rgba(142, 68, 173, 0.2);
     opacity: 0.4;
     transform: scale(1);
@@ -304,7 +410,8 @@ body::before {
     opacity: 0.8;
     transform: scale(1.3);
   }
-  25%, 100% {
+  25%,
+  100% {
     box-shadow: none;
     opacity: 0.4;
     transform: scale(1);
@@ -312,6 +419,10 @@ body::before {
 }
 
 @keyframes swirlLayer {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

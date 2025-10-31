@@ -18,7 +18,7 @@ body {
 }
 
 .ice-cube::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -10px;
   left: 50%;
@@ -31,13 +31,30 @@ body {
 }
 
 @keyframes melt {
-  0% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(0.9); opacity: 0.7; }
-  100% { transform: scale(0.8); opacity: 0.4; }
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.4;
+  }
 }
 
 @keyframes drip {
-  0% { transform: translate(-50%, 0); opacity: 1; }
-  80% { transform: translate(-50%, 60px); opacity: 0.3; }
-  100% { opacity: 0; }
+  0% {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+  80% {
+    transform: translate(-50%, 60px);
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+  }
 }

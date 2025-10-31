@@ -31,7 +31,7 @@ body {
 
 /* The pendulum ball */
 .pendulum::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -20px;
   left: -12px;
@@ -44,13 +44,24 @@ body {
 
 /* Swing animation for pendulum */
 @keyframes swing {
-  0% { transform: rotate(-30deg); }
-  50% { transform: rotate(30deg); }
-  100% { transform: rotate(-30deg); }
+  0% {
+    transform: rotate(-30deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(-30deg);
+  }
 }
 
 /* Gentle pulse animation on clock base (to ensure animation detection) */
 @keyframes pulse {
-  0%, 100% { opacity: 0.9; }
-  50% { opacity: 1; }
+  0%,
+  100% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 1;
+  }
 }

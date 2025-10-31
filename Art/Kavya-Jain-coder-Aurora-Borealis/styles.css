@@ -1,154 +1,163 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    overflow: hidden;
-    background: #000;
+  overflow: hidden;
+  background: #000;
 }
 
 .sky {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to bottom, #0a1128 0%, #001f3f 50%, #1a1a2e 100%);
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #0a1128 0%, #001f3f 50%, #1a1a2e 100%);
 }
 
 .stars {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: 
-        radial-gradient(2px 2px at 20px 30px, white, transparent),
-        radial-gradient(2px 2px at 60px 70px, white, transparent),
-        radial-gradient(1px 1px at 50px 50px, white, transparent),
-        radial-gradient(1px 1px at 130px 80px, white, transparent),
-        radial-gradient(2px 2px at 90px 10px, white, transparent),
-        radial-gradient(1px 1px at 200px 100px, white, transparent),
-        radial-gradient(2px 2px at 150px 50px, white, transparent),
-        radial-gradient(1px 1px at 180px 80px, white, transparent);
-    background-size: 200px 200px;
-    background-repeat: repeat;
-    animation: twinkle 3s ease-in-out infinite;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(2px 2px at 20px 30px, white, transparent),
+    radial-gradient(2px 2px at 60px 70px, white, transparent),
+    radial-gradient(1px 1px at 50px 50px, white, transparent),
+    radial-gradient(1px 1px at 130px 80px, white, transparent),
+    radial-gradient(2px 2px at 90px 10px, white, transparent),
+    radial-gradient(1px 1px at 200px 100px, white, transparent),
+    radial-gradient(2px 2px at 150px 50px, white, transparent),
+    radial-gradient(1px 1px at 180px 80px, white, transparent);
+  background-size: 200px 200px;
+  background-repeat: repeat;
+  animation: twinkle 3s ease-in-out infinite;
 }
 
 @keyframes twinkle {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.7;
-    }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
 }
 
 .aurora {
-    position: absolute;
-    width: 100%;
-    height: 300px;
-    top: 10%;
-    filter: blur(40px);
-    opacity: 0.7;
-    mix-blend-mode: screen;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  top: 10%;
+  filter: blur(40px);
+  opacity: 0.7;
+  mix-blend-mode: screen;
 }
 
 .aurora1 {
-    background: linear-gradient(90deg, 
-        transparent 0%,
-        rgba(0, 255, 150, 0.4) 20%,
-        rgba(0, 200, 255, 0.4) 40%,
-        rgba(100, 150, 255, 0.4) 60%,
-        rgba(200, 100, 255, 0.4) 80%,
-        transparent 100%);
-    animation: wave1 15s ease-in-out infinite;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0, 255, 150, 0.4) 20%,
+    rgba(0, 200, 255, 0.4) 40%,
+    rgba(100, 150, 255, 0.4) 60%,
+    rgba(200, 100, 255, 0.4) 80%,
+    transparent 100%
+  );
+  animation: wave1 15s ease-in-out infinite;
 }
 
 .aurora2 {
-    background: linear-gradient(90deg, 
-        transparent 0%,
-        rgba(100, 255, 200, 0.3) 25%,
-        rgba(150, 100, 255, 0.3) 50%,
-        rgba(255, 150, 200, 0.3) 75%,
-        transparent 100%);
-    animation: wave2 18s ease-in-out infinite;
-    top: 15%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(100, 255, 200, 0.3) 25%,
+    rgba(150, 100, 255, 0.3) 50%,
+    rgba(255, 150, 200, 0.3) 75%,
+    transparent 100%
+  );
+  animation: wave2 18s ease-in-out infinite;
+  top: 15%;
 }
 
 .aurora3 {
-    background: linear-gradient(90deg, 
-        transparent 0%,
-        rgba(0, 255, 255, 0.3) 30%,
-        rgba(200, 150, 255, 0.3) 60%,
-        transparent 100%);
-    animation: wave3 20s ease-in-out infinite;
-    top: 20%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0, 255, 255, 0.3) 30%,
+    rgba(200, 150, 255, 0.3) 60%,
+    transparent 100%
+  );
+  animation: wave3 20s ease-in-out infinite;
+  top: 20%;
 }
 
 @keyframes wave1 {
-    0%, 100% {
-        transform: translateX(-50%) skewX(10deg);
-    }
-    25% {
-        transform: translateX(-30%) skewX(-5deg);
-    }
-    50% {
-        transform: translateX(0%) skewX(8deg);
-    }
-    75% {
-        transform: translateX(30%) skewX(-8deg);
-    }
+  0%,
+  100% {
+    transform: translateX(-50%) skewX(10deg);
+  }
+  25% {
+    transform: translateX(-30%) skewX(-5deg);
+  }
+  50% {
+    transform: translateX(0%) skewX(8deg);
+  }
+  75% {
+    transform: translateX(30%) skewX(-8deg);
+  }
 }
 
 @keyframes wave2 {
-    0%, 100% {
-        transform: translateX(50%) skewX(-10deg);
-    }
-    25% {
-        transform: translateX(30%) skewX(5deg);
-    }
-    50% {
-        transform: translateX(0%) skewX(-8deg);
-    }
-    75% {
-        transform: translateX(-30%) skewX(8deg);
-    }
+  0%,
+  100% {
+    transform: translateX(50%) skewX(-10deg);
+  }
+  25% {
+    transform: translateX(30%) skewX(5deg);
+  }
+  50% {
+    transform: translateX(0%) skewX(-8deg);
+  }
+  75% {
+    transform: translateX(-30%) skewX(8deg);
+  }
 }
 
 @keyframes wave3 {
-    0%, 100% {
-        transform: translateX(0%) skewX(5deg);
-    }
-    33% {
-        transform: translateX(40%) skewX(-10deg);
-    }
-    66% {
-        transform: translateX(-40%) skewX(10deg);
-    }
+  0%,
+  100% {
+    transform: translateX(0%) skewX(5deg);
+  }
+  33% {
+    transform: translateX(40%) skewX(-10deg);
+  }
+  66% {
+    transform: translateX(-40%) skewX(10deg);
+  }
 }
 
 .mountain {
-    position: absolute;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
 }
 
 .mountain1 {
-    left: -10%;
-    border-width: 0 300px 400px 300px;
-    border-color: transparent transparent #0a0a1a transparent;
+  left: -10%;
+  border-width: 0 300px 400px 300px;
+  border-color: transparent transparent #0a0a1a transparent;
 }
 
 .mountain2 {
-    left: 20%;
-    border-width: 0 400px 500px 400px;
-    border-color: transparent transparent #050510 transparent;
+  left: 20%;
+  border-width: 0 400px 500px 400px;
+  border-color: transparent transparent #050510 transparent;
 }
 
 .mountain3 {
-    right: -10%;
-    border-width: 0 350px 450px 350px;
-    border-color: transparent transparent #0f0f20 transparent;
+  right: -10%;
+  border-width: 0 350px 450px 350px;
+  border-color: transparent transparent #0f0f20 transparent;
 }

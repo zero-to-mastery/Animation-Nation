@@ -1,64 +1,65 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .glare-container {
-    perspective: 1000px;
+  perspective: 1000px;
 }
 
 .glare-card {
-    position: relative;
-    width: 300px;
-    height: 400px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-    animation: cardFloat 6s ease-in-out infinite;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: cardFloat 6s ease-in-out infinite;
 }
 
 .shine {
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(
-        45deg,
-        transparent 30%,
-        rgba(255, 255, 255, 0.1) 40%,
-        rgba(255, 255, 255, 0.6) 50%,
-        rgba(255, 255, 255, 0.1) 60%,
-        transparent 70%
-    );
-    animation: glareMove 3s linear infinite;
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.1) 40%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(255, 255, 255, 0.1) 60%,
+    transparent 70%
+  );
+  animation: glareMove 3s linear infinite;
 }
 
 @keyframes cardFloat {
-    0%, 100% {
-        transform: translateY(0) rotateY(-5deg) rotateX(5deg);
-    }
-    50% {
-        transform: translateY(-20px) rotateY(5deg) rotateX(-5deg);
-    }
+  0%,
+  100% {
+    transform: translateY(0) rotateY(-5deg) rotateX(5deg);
+  }
+  50% {
+    transform: translateY(-20px) rotateY(5deg) rotateX(-5deg);
+  }
 }
 
 @keyframes glareMove {
-    0% {
-        transform: translateX(-100%) translateY(-100%) rotate(45deg);
-    }
-    100% {
-        transform: translateX(100%) translateY(100%) rotate(45deg);
-    }
+  0% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) translateY(100%) rotate(45deg);
+  }
 }
