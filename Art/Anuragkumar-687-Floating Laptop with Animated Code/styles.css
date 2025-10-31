@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #0d1117, #010409);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.scene {
+  text-align: center;
+  position: relative;
+}
+
+.laptop {
+  width: 220px;
+  height: 140px;
+  background: #161b22;
+  border: 2px solid #30363d;
+  border-radius: 8px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+  animation: float 3s ease-in-out infinite;
+}
+
+.screen {
+  width: 90%;
+  height: 70%;
+  background: #0d1117;
+  margin: 10px auto;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.code-line {
+  width: 0%;
+  height: 8px;
+  border-radius: 2px;
+  margin: 6px auto;
+  background: linear-gradient(90deg, #00ff99, #00ccff);
+  animation: typing 3s infinite ease-in-out alternate;
+}
+
+.line1 { animation-delay: 0.2s; }
+.line2 { animation-delay: 0.6s; }
+.line3 { animation-delay: 1s; }
+.line4 { animation-delay: 1.4s; }
+
+@keyframes typing {
+  0% { width: 0; opacity: 0.5; }
+  50% { width: 80%; opacity: 1; }
+  100% { width: 0; opacity: 0.5; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.floating-icons {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+}
+
+.icon {
+  position: absolute;
+  font-size: 20px;
+  opacity: 0.8;
+  animation: floatUp 5s linear infinite;
+}
+
+.star { color: #f5c518; left: 20%; animation-delay: 0s; }
+.commit { color: #00ff99; left: 50%; animation-delay: 1s; }
+.branch { color: #00ccff; left: 80%; animation-delay: 2s; }
+
+@keyframes floatUp {
+  0% { transform: translateY(0) scale(1); opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { transform: translateY(-150px) scale(1.3); opacity: 0; }
+}
+
+.text {
+  margin-top: 40px;
+  font-size: 1.4rem;
+  color: #00ffcc;
+  text-shadow: 0 0 8px #00ff99;
+  animation: fadeIn 3s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0.6; }
+  to { opacity: 1; }
+}
