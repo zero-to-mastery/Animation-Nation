@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e74c3c;
+  font-family: Arial, sans-serif;
+}
+
+.pizza-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.pizza {
+  font-size: 120px;
+  transition: all 0.4s ease;
+  display: inline-block;
+}
+
+.pizza-container:hover .pizza {
+  transform: rotate(360deg) scale(1.3);
+}
+
+.cheese {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #f1c40f;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.cheese1 { top: -20px; left: 20%; }
+.cheese2 { top: -30px; right: 25%; }
+.cheese3 { top: -15px; left: 50%; }
+.cheese4 { bottom: -20px; left: 30%; }
+.cheese5 { bottom: -25px; right: 35%; }
+
+.pizza-container:hover .cheese {
+  animation: melt 1s ease-out forwards;
+}
+
+.pizza-container:hover .cheese1 { animation-delay: 0.1s; }
+.pizza-container:hover .cheese2 { animation-delay: 0.2s; }
+.pizza-container:hover .cheese3 { animation-delay: 0.3s; }
+.pizza-container:hover .cheese4 { animation-delay: 0.4s; }
+.pizza-container:hover .cheese5 { animation-delay: 0.5s; }
+
+@keyframes melt {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(50px) scale(1.5);
+  }
+}
+
+.circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 3px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.pizza-container:hover .circle {
+  opacity: 1;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.text {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  white-space: nowrap;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.pizza-container:hover .text {
+  opacity: 1;
+}
+
+.heart {
+  position: absolute;
+  font-size: 25px;
+  opacity: 0;
+}
+
+.heart1 { top: 10%; left: -30px; }
+.heart2 { top: 10%; right: -30px; }
+.heart3 { bottom: 10%; left: -40px; }
+
+.pizza-container:hover .heart {
+  animation: bounce 0.8s ease-out forwards;
+}
+
+.pizza-container:hover .heart1 { animation-delay: 0.2s; }
+.pizza-container:hover .heart2 { animation-delay: 0.4s; }
+.pizza-container:hover .heart3 { animation-delay: 0.6s; }
+
+@keyframes bounce {
+  0% {
+    opacity: 0;
+    transform: scale(0) translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2) translateY(-20px);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.8) translateY(-40px);
+  }
+}
