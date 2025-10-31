@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(circle at center, #0a0a1f 0%, #000000 100%);
+    perspective: 1000px;
+}
+
+.portal-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    transform-style: preserve-3d;
+    animation: containerRotate 20s linear infinite;
+}
+
+@keyframes containerRotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center center;
+    border-radius: 50%;
+    border: 4px solid;
+    transform-style: preserve-3d;
+}
+
+.ring1 {
+    width: 400px;
+    height: 400px;
+    margin: -200px 0 0 -200px;
+    border-color: rgba(255, 0, 255, 0.8);
+    box-shadow: 0 0 40px rgba(255, 0, 255, 0.8), inset 0 0 40px rgba(255, 0, 255, 0.5);
+    animation: ring1Spin 4s linear infinite;
+}
+
+.ring2 {
+    width: 340px;
+    height: 340px;
+    margin: -170px 0 0 -170px;
+    border-color: rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.8), inset 0 0 40px rgba(0, 255, 255, 0.5);
+    animation: ring2Spin 3.5s linear infinite reverse;
+}
+
+.ring3 {
+    width: 280px;
+    height: 280px;
+    margin: -140px 0 0 -140px;
+    border-color: rgba(255, 255, 0, 0.8);
+    box-shadow: 0 0 40px rgba(255, 255, 0, 0.8), inset 0 0 40px rgba(255, 255, 0, 0.5);
+    animation: ring3Spin 3s linear infinite;
+}
+
+.ring4 {
+    width: 220px;
+    height: 220px;
+    margin: -110px 0 0 -110px;
+    border-color: rgba(0, 255, 128, 0.8);
+    box-shadow: 0 0 40px rgba(0, 255, 128, 0.8), inset 0 0 40px rgba(0, 255, 128, 0.5);
+    animation: ring4Spin 2.5s linear infinite reverse;
+}
+
+.ring5 {
+    width: 160px;
+    height: 160px;
+    margin: -80px 0 0 -80px;
+    border-color: rgba(255, 128, 0, 0.8);
+    box-shadow: 0 0 40px rgba(255, 128, 0, 0.8), inset 0 0 40px rgba(255, 128, 0, 0.5);
+    animation: ring5Spin 2s linear infinite;
+}
+
+@keyframes ring1Spin {
+    from {
+        transform: translate(-50%, -50%) rotateX(75deg) rotateZ(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotateX(75deg) rotateZ(360deg);
+    }
+}
+
+@keyframes ring2Spin {
+    from {
+        transform: translate(-50%, -50%) rotateY(75deg) rotateZ(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotateY(75deg) rotateZ(360deg);
+    }
+}
+
+@keyframes ring3Spin {
+    from {
+        transform: translate(-50%, -50%) rotateX(45deg) rotateY(45deg) rotateZ(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotateX(45deg) rotateY(45deg) rotateZ(360deg);
+    }
+}
+
+@keyframes ring4Spin {
+    from {
+        transform: translate(-50%, -50%) rotateX(60deg) rotateY(30deg) rotateZ(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotateX(60deg) rotateY(30deg) rotateZ(360deg);
+    }
+}
+
+@keyframes ring5Spin {
+    from {
+        transform: translate(-50%, -50%) rotateX(30deg) rotateY(60deg) rotateZ(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotateX(30deg) rotateY(60deg) rotateZ(360deg);
+    }
+}
+
+.portal-core {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+    background: radial-gradient(circle at center, 
+        rgba(255, 255, 255, 1) 0%,
+        rgba(200, 100, 255, 0.8) 30%,
+        rgba(100, 200, 255, 0.6) 60%,
+        transparent 100%);
+    border-radius: 50%;
+    box-shadow: 
+        0 0 60px rgba(255, 255, 255, 1),
+        0 0 100px rgba(200, 100, 255, 0.8),
+        0 0 140px rgba(100, 200, 255, 0.6);
+    animation: corePulse 2s ease-in-out infinite;
+    z-index: 10;
+}
+
+@keyframes corePulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+}
+
+.particle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+}
+
+.par1 {
+    top: 20%;
+    left: 30%;
+    animation: float1 5s ease-in-out infinite;
+}
+
+.par2 {
+    top: 30%;
+    right: 25%;
+    animation: float2 6s ease-in-out infinite;
+}
+
+.par3 {
+    bottom: 25%;
+    left: 20%;
+    animation: float3 5.5s ease-in-out infinite;
+}
+
+.par4 {
+    bottom: 30%;
+    right: 30%;
+    animation: float4 6.5s ease-in-out infinite;
+}
+
+.par5 {
+    top: 40%;
+    left: 15%;
+    animation: float1 7s ease-in-out infinite;
+}
+
+.par6 {
+    top: 35%;
+    right: 20%;
+    animation: float2 5.5s ease-in-out infinite;
+}
+
+.par7 {
+    bottom: 35%;
+    left: 25%;
+    animation: float3 6s ease-in-out infinite;
+}
+
+.par8 {
+    bottom: 40%;
+    right: 15%;
+    animation: float4 5s ease-in-out infinite;
+}
+
+@keyframes float1 {
+    0%, 100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(30px, -30px);
+        opacity: 0.5;
+    }
+}
+
+@keyframes float2 {
+    0%, 100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(-30px, 30px);
+        opacity: 0.5;
+    }
+}
+
+@keyframes float3 {
+    0%, 100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(30px, 30px);
+        opacity: 0.5;
+    }
+}
+
+@keyframes float4 {
+    0%, 100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(-30px, -30px);
+        opacity: 0.5;
+    }
+}
