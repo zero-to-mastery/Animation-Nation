@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at center, #050505, #000 80%);
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The prismatic core container */
+.prism {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(2px) contrast(120%);
+  animation: rotateScene 20s linear infinite;
+  transform-style: preserve-3d;
+}
+
+/* Radiating rainbow beams */
+.beam {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: conic-gradient(
+    red,
+    orange,
+    yellow,
+    lime,
+    cyan,
+    blue,
+    violet,
+    red
+  );
+  opacity: 0.4;
+  mix-blend-mode: screen;
+  animation: pulse 5s ease-in-out infinite;
+}
+
+/* Slight offsets and rotations for depth */
+.b1 { transform: rotateX(40deg); animation-delay: 0s; }
+.b2 { transform: rotateY(40deg); animation-delay: 1s; }
+.b3 { transform: rotateX(-40deg); animation-delay: 2s; }
+.b4 { transform: rotateY(-40deg); animation-delay: 3s; }
+.b5 { transform: rotateZ(45deg); animation-delay: 4s; }
+
+/* Pulsing light effect */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 0.5;
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    transform: scale(1.3) rotateZ(180deg);
+    opacity: 0.9;
+    filter: hue-rotate(180deg);
+  }
+}
+
+/* The glowing light core */
+.core {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(circle, white 0%, transparent 70%);
+  box-shadow:
+    0 0 40px rgba(255,255,255,0.6),
+    0 0 100px rgba(255,255,255,0.4),
+    0 0 200px rgba(255,255,255,0.2);
+  animation: corePulse 4s ease-in-out infinite;
+}
+
+/* Soft breathing glow for the core */
+@keyframes corePulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 0.7;
+  }
+}
+
+/* Scene rotation */
+@keyframes rotateScene {
+  from {
+    transform: rotateX(20deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(20deg) rotateY(360deg);
+  }
+}
+
+/* Faint space dust background */
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(white 1px, transparent 1px);
+  background-size: 4px 4px;
+  opacity: 0.03;
+}
