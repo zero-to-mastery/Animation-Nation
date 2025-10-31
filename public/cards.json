@@ -73,6 +73,14 @@
   },
   {
     "author": "Aviral02git",
+    "artName": "Blooming Flower",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Blooming-Flower/index.html",
+    "imageLink": "./Art/Aviral02git-Blooming-Flower/icon.png",
+    "projectPath": "Art/Aviral02git-Blooming-Flower"
+  },
+  {
+    "author": "Aviral02git",
     "artName": "DNA Helix Spiral",
     "githubLink": "https://github.com/Aviral02git",
     "pageLink": "./Art/Aviral02git-DNA-Helix-Spiral/index.html",
@@ -94,6 +102,14 @@
     "pageLink": "./Art/Aviral02git-Glowing Rings/index.html",
     "imageLink": "./Art/Aviral02git-Glowing Rings/icon.png",
     "projectPath": "Art/Aviral02git-Glowing Rings"
+  },
+  {
+    "author": "Aviral02git",
+    "artName": "Morphing Shapes",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Morphing-Shapes/index.html",
+    "imageLink": "./Art/Aviral02git-Morphing-Shapes/icon.png",
+    "projectPath": "Art/Aviral02git-Morphing-Shapes"
   },
   {
     "author": "Aviral02git",
@@ -486,6 +502,14 @@
     "pageLink": "./Art/Kavya-Jain-coder-Cyberpunk-City/index.html",
     "imageLink": "./Art/Kavya-Jain-coder-Cyberpunk-City/icon.png",
     "projectPath": "Art/Kavya-Jain-coder-Cyberpunk-City"
+  },
+  {
+    "author": "Kavya-Jain-coder",
+    "artName": "dna helix",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Kavya-Jain-coder-DNA-Helix/index.html",
+    "imageLink": "./Art/Kavya-Jain-coder-DNA-Helix/icon.png",
+    "projectPath": "Art/Kavya-Jain-coder-DNA-Helix"
   },
   {
     "author": "Lakshya182005",
