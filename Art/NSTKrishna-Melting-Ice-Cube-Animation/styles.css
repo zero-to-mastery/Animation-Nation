@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(to bottom, #aee1f9, #e0f7ff);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ice-cube {
+  width: 100px;
+  height: 100px;
+  background: rgba(173, 216, 230, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  animation: melt 6s infinite ease-in-out;
+}
+
+.ice-cube::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background: rgba(173, 216, 230, 0.5);
+  border-radius: 50%;
+  animation: drip 2s infinite ease-in;
+}
+
+@keyframes melt {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(0.9); opacity: 0.7; }
+  100% { transform: scale(0.8); opacity: 0.4; }
+}
+
+@keyframes drip {
+  0% { transform: translate(-50%, 0); opacity: 1; }
+  80% { transform: translate(-50%, 60px); opacity: 0.3; }
+  100% { opacity: 0; }
+}
