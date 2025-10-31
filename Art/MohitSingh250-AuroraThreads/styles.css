@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at bottom, #020024, #000 90%);
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aurora {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Base thread styling */
+.thread {
+  position: absolute;
+  width: 200%;
+  height: 400px;
+  filter: blur(80px);
+  opacity: 0.8;
+  animation: flow 12s ease-in-out infinite alternate;
+  background-size: 300% 300%;
+  mix-blend-mode: screen;
+}
+
+/* Different aurora color gradients */
+.t1 {
+  top: 20%;
+  background: linear-gradient(120deg, #00ffff, #00ff99, #0066ff);
+  animation-delay: 0s;
+}
+.t2 {
+  top: 40%;
+  background: linear-gradient(120deg, #ff00ff, #ff0080, #8000ff);
+  animation-delay: 3s;
+}
+.t3 {
+  top: 60%;
+  background: linear-gradient(120deg, #ff6600, #ffff00, #ff3300);
+  animation-delay: 1.5s;
+}
+.t4 {
+  top: 80%;
+  background: linear-gradient(120deg, #00ffcc, #00ffff, #33ccff);
+  animation-delay: 2s;
+}
+
+/* Animation for shifting aurora movement */
+@keyframes flow {
+  0% {
+    transform: translateX(-50%) rotate(0deg);
+    background-position: 0% 50%;
+  }
+  50% {
+    transform: translateX(0%) rotate(2deg);
+    background-position: 100% 50%;
+  }
+  100% {
+    transform: translateX(50%) rotate(-2deg);
+    background-position: 0% 50%;
+  }
+}
+
+/* Add subtle shimmer overlay */
+.aurora::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 60%);
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
