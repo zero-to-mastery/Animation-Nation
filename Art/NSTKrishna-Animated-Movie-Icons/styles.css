@@ -12,7 +12,13 @@ body {
   height: 80px;
   border: 8px solid silver;
   border-radius: 50%;
-  background: repeating-radial-gradient(circle, #1d1f27 0, #1d1f27 10px, silver 10px, silver 12px);
+  background: repeating-radial-gradient(
+    circle,
+    #1d1f27 0,
+    #1d1f27 10px,
+    silver 10px,
+    silver 12px
+  );
   animation: spin 3s linear infinite;
 }
 
@@ -26,7 +32,7 @@ body {
 }
 
 .clapper::before {
-  content: "";
+  content: '';
   position: absolute;
   top: -20px;
   width: 80px;
@@ -45,15 +51,26 @@ body {
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes clap {
-  0%,100% { transform: rotate(0); }
-  50% { transform: rotate(-15deg); }
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
 }
 
 @keyframes pop {
-  from { transform: scale(0.8); }
-  to { transform: scale(1.2); }
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1.2);
+  }
 }
