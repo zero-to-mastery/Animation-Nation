@@ -150,7 +150,7 @@ const checkCSS = (file, fileContent, pushFeedback) => {
   // [ CASE ] Gives feedback on interactive CSS animations
   if (PATTERN.css.interactiveElements.test(fileContent)) {
     pushFeedback(
-      'Incorrect animation trigger: remove any pseudo elements with your animation(s) and attach the animation to the concerned element'
+      'Incorrect animation trigger: remove any pseudo classes with your animation(s) and attach the animation to the concerned element'
     );
   }
 };
