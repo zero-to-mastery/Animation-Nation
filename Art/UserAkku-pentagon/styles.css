@@ -1,92 +1,94 @@
 body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1a1a2e;
-    overflow: hidden;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a1a2e;
+  overflow: hidden;
 }
 
 .container {
-    position: relative;
-    width: 400px;
-    height: 400px;
+  position: relative;
+  width: 400px;
+  height: 400px;
 }
 
 .pentagon {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-    animation: rotate 4s linear infinite;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  animation: rotate 4s linear infinite;
 }
 
 .pentagon:nth-child(1) {
-    background: #ff6b6b;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: spin 3s linear infinite, pulse 2s ease-in-out infinite;
+  background: #ff6b6b;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spin 3s linear infinite, pulse 2s ease-in-out infinite;
 }
 
 .pentagon:nth-child(2) {
-    background: #4ecdc4;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: orbit 5s linear infinite;
+  background: #4ecdc4;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: orbit 5s linear infinite;
 }
 
 .pentagon:nth-child(3) {
-    background: #ffe66d;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: orbit 5s linear infinite reverse;
+  background: #ffe66d;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: orbit 5s linear infinite reverse;
 }
 
 .pentagon:nth-child(4) {
-    background: #95e1d3;
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    animation: orbit 6s linear infinite;
-    animation-delay: 1s;
+  background: #95e1d3;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  animation: orbit 6s linear infinite;
+  animation-delay: 1s;
 }
 
 .pentagon:nth-child(5) {
-    background: #f38181;
-    top: 50%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-    animation: orbit 6s linear infinite reverse;
-    animation-delay: 1s;
+  background: #f38181;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  animation: orbit 6s linear infinite reverse;
+  animation-delay: 1s;
 }
 
 @keyframes spin {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-    100% {
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
 @keyframes pulse {
-    0%, 100% {
-        transform: translate(-50%, -50%) scale(1);
-    }
-    50% {
-        transform: translate(-50%, -50%) scale(1.3);
-    }
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.3);
+  }
 }
 
 @keyframes orbit {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg) translateX(120px) rotate(0deg);
-    }
-    100% {
-        transform: translate(-50%, -50%) rotate(360deg) translateX(120px) rotate(-360deg);
-    }
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(120px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(120px)
+      rotate(-360deg);
+  }
 }

@@ -512,6 +512,14 @@
     "projectPath": "Art/UserAkku-colorspinner"
   },
   {
+    "author": "UserAkku",
+    "artName": "pentagon",
+    "githubLink": "https://github.com/UserAkku",
+    "pageLink": "./Art/UserAkku-pentagon/index.html",
+    "imageLink": "./Art/UserAkku-pentagon/icon.png",
+    "projectPath": "Art/UserAkku-pentagon"
+  },
+  {
     "author": "VTwin90",
     "artName": "Abstract",
     "githubLink": "https://github.com/VTwin90",
@@ -614,6 +622,14 @@
     "pageLink": "./Art/WizardCarp85-Neon-Pulse-Wave/index.html",
     "imageLink": "./Art/WizardCarp85-Neon-Pulse-Wave/icon.png",
     "projectPath": "Art/WizardCarp85-Neon-Pulse-Wave"
+  },
+  {
+    "author": "WizardCarp85",
+    "artName": "Race Car Animate",
+    "githubLink": "https://github.com/WizardCarp85",
+    "pageLink": "./Art/WizardCarp85-Race-Car-Animate/index.html",
+    "imageLink": "./Art/WizardCarp85-Race-Car-Animate/icon.png",
+    "projectPath": "Art/WizardCarp85-Race-Car-Animate"
   },
   {
     "author": "adithya-pathakoti",
@@ -1269,6 +1285,14 @@
     "pageLink": "./Art/shivanshx7-shuffling_squares/index.html",
     "imageLink": "./Art/shivanshx7-shuffling_squares/icon.png",
     "projectPath": "Art/shivanshx7-shuffling_squares"
+  },
+  {
+    "author": "agrawalshreyansh",
+    "artName": "bouncing ball",
+    "githubLink": "https://github.com/agrawalshreyansh",
+    "pageLink": "./Art/shreyanshagrawal-bouncing_ball/index.html",
+    "imageLink": "./Art/shreyanshagrawal-bouncing_ball/icon.png",
+    "projectPath": "Art/shreyanshagrawal-bouncing_ball"
   },
   {
     "author": "tomdu3",
