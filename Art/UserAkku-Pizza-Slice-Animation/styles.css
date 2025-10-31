@@ -6,21 +6,33 @@ body {
   align-items: center;
   background: #e74c3c;
   font-family: Arial, sans-serif;
+  overflow: hidden;
 }
 
 .pizza-container {
   position: relative;
-  cursor: pointer;
 }
 
 .pizza {
   font-size: 120px;
-  transition: all 0.4s ease;
   display: inline-block;
+  animation: rotate-pizza 4s ease-in-out infinite;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
 }
 
-.pizza-container:hover .pizza {
-  transform: rotate(360deg) scale(1.3);
+@keyframes rotate-pizza {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(90deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  75% {
+    transform: rotate(270deg) scale(1.1);
+  }
 }
 
 .cheese {
@@ -29,32 +41,52 @@ body {
   height: 15px;
   background: #f1c40f;
   border-radius: 50%;
-  opacity: 0;
+  box-shadow: 0 0 10px rgba(241, 196, 15, 0.5);
+  animation: melt 2s ease-out infinite;
 }
 
-.cheese1 { top: -20px; left: 20%; }
-.cheese2 { top: -30px; right: 25%; }
-.cheese3 { top: -15px; left: 50%; }
-.cheese4 { bottom: -20px; left: 30%; }
-.cheese5 { bottom: -25px; right: 35%; }
-
-.pizza-container:hover .cheese {
-  animation: melt 1s ease-out forwards;
+.cheese1 {
+  top: -20px;
+  left: 20%;
+  animation-delay: 0s;
 }
 
-.pizza-container:hover .cheese1 { animation-delay: 0.1s; }
-.pizza-container:hover .cheese2 { animation-delay: 0.2s; }
-.pizza-container:hover .cheese3 { animation-delay: 0.3s; }
-.pizza-container:hover .cheese4 { animation-delay: 0.4s; }
-.pizza-container:hover .cheese5 { animation-delay: 0.5s; }
+.cheese2 {
+  top: -30px;
+  right: 25%;
+  animation-delay: 0.2s;
+}
+
+.cheese3 {
+  top: -15px;
+  left: 50%;
+  animation-delay: 0.4s;
+}
+
+.cheese4 {
+  bottom: -20px;
+  left: 30%;
+  animation-delay: 0.6s;
+}
+
+.cheese5 {
+  bottom: -25px;
+  right: 35%;
+  animation-delay: 0.8s;
+}
 
 @keyframes melt {
   0% {
     opacity: 0;
     transform: translateY(-30px) scale(0);
   }
-  50% {
+  30% {
     opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(20px) scale(1.2);
   }
   100% {
     opacity: 0;
@@ -66,23 +98,21 @@ body {
   position: absolute;
   width: 200px;
   height: 200px;
-  border: 3px dashed rgba(255, 255, 255, 0.3);
+  border: 3px dashed rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: all 0.5s ease;
-}
-
-.pizza-container:hover .circle {
-  opacity: 1;
-  animation: spin 3s linear infinite;
+  animation: spin 4s linear infinite;
 }
 
 @keyframes spin {
-  from { transform: translate(-50%, -50%) rotate(0deg); }
-  to { transform: translate(-50%, -50%) rotate(360deg); }
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
 .text {
@@ -93,45 +123,65 @@ body {
   color: white;
   font-size: 28px;
   font-weight: bold;
-  opacity: 0;
-  transition: opacity 0.4s ease;
   white-space: nowrap;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: pulse-text 2s ease-in-out infinite;
 }
 
-.pizza-container:hover .text {
-  opacity: 1;
+@keyframes pulse-text {
+  0%, 100% {
+    opacity: 0.7;
+    transform: translateX(-50%) scale(0.95);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.05);
+  }
 }
 
 .heart {
   position: absolute;
   font-size: 25px;
-  opacity: 0;
+  animation: bounce 2.5s ease-out infinite;
 }
 
-.heart1 { top: 10%; left: -30px; }
-.heart2 { top: 10%; right: -30px; }
-.heart3 { bottom: 10%; left: -40px; }
-
-.pizza-container:hover .heart {
-  animation: bounce 0.8s ease-out forwards;
+.heart1 {
+  top: 10%;
+  left: -30px;
+  animation-delay: 0s;
 }
 
-.pizza-container:hover .heart1 { animation-delay: 0.2s; }
-.pizza-container:hover .heart2 { animation-delay: 0.4s; }
-.pizza-container:hover .heart3 { animation-delay: 0.6s; }
+.heart2 {
+  top: 10%;
+  right: -30px;
+  animation-delay: 0.8s;
+}
+
+.heart3 {
+  bottom: 10%;
+  left: -40px;
+  animation-delay: 1.6s;
+}
 
 @keyframes bounce {
   0% {
     opacity: 0;
-    transform: scale(0) translateY(0);
+    transform: scale(0) translateY(0) rotate(0deg);
   }
-  50% {
+  20% {
     opacity: 1;
-    transform: scale(1.2) translateY(-20px);
+    transform: scale(1.2) translateY(-15px) rotate(10deg);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1) translateY(-25px) rotate(-10deg);
+  }
+  60% {
+    opacity: 0.8;
+    transform: scale(0.9) translateY(-35px) rotate(5deg);
   }
   100% {
     opacity: 0;
-    transform: scale(0.8) translateY(-40px);
+    transform: scale(0.5) translateY(-50px) rotate(0deg);
   }
 }
