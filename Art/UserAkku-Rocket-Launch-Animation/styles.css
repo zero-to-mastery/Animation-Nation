@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0a0e27;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.rocket-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rocket {
+  font-size: 100px;
+  position: absolute;
+  bottom: 10%;
+  z-index: 2;
+  animation: launch 5s ease-in-out infinite;
+}
+
+@keyframes launch {
+  0% {
+    transform: translateY(0) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  5% {
+    transform: translateY(-20px) rotate(-5deg) scale(1);
+  }
+  10% {
+    transform: translateY(-10px) rotate(5deg) scale(1);
+  }
+  15% {
+    transform: translateY(-30px) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translateY(-70vh) rotate(0deg) scale(0.5);
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+    transform: translateY(-80vh) rotate(0deg) scale(0.3);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+}
+
+.flame {
+  position: absolute;
+  bottom: calc(10% - 30px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 60px;
+  background: linear-gradient(to bottom, #ff6b00, #ff0000, transparent);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  filter: blur(5px);
+  animation: flameMove 5s ease-in-out infinite, flicker 0.1s infinite;
+  z-index: 1;
+}
+
+@keyframes flicker {
+  0%, 100% {
+    transform: translateX(-50%) scaleY(1);
+  }
+  50% {
+    transform: translateX(-50%) scaleY(1.3);
+  }
+}
+
+@keyframes flameMove {
+  0% {
+    opacity: 1;
+    bottom: calc(10% - 30px);
+  }
+  50% {
+    opacity: 1;
+    bottom: calc(10% - 30px + 70vh);
+  }
+  60% {
+    opacity: 0;
+    bottom: calc(10% - 30px + 80vh);
+  }
+  100% {
+    opacity: 0;
+    bottom: calc(10% - 30px);
+  }
+}
+
+.star {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  animation: twinkle 2s ease-in-out infinite;
+}
+
+.star1 {
+  top: 20%;
+  left: 20%;
+  animation-delay: 0s;
+}
+
+.star2 {
+  top: 30%;
+  right: 25%;
+  animation-delay: 0.5s;
+}
+
+.star3 {
+  top: 50%;
+  left: 15%;
+  animation-delay: 1s;
+}
+
+.star4 {
+  top: 60%;
+  right: 20%;
+  animation-delay: 1.5s;
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2) rotate(180deg);
+  }
+}
+
+.text {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+  white-space: nowrap;
+  animation: countdown 5s ease-in-out infinite;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+@keyframes countdown {
+  0% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+  15% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%) scale(0.9);
+  }
+  60% {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.8);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) scale(1);
+  }
+}
