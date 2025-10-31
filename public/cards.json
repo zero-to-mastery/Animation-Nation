@@ -72,6 +72,14 @@
     "projectPath": "Art/Arni005-Sweet-Treat"
   },
   {
+    "author": "Aviral02git",
+    "artName": "Floating Bubbles",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Floating-Bubbles/index.html",
+    "imageLink": "./Art/Aviral02git-Floating-Bubbles/icon.png",
+    "projectPath": "Art/Aviral02git-Floating-Bubbles"
+  },
+  {
     "author": "Bharath-dev05",
     "artName": "Butterflies",
     "githubLink": "https://github.com/Bharath-dev05",
@@ -400,12 +408,28 @@
     "projectPath": "Art/KadimiJaswanth-neon-orbit"
   },
   {
+    "author": "Kavya-Jain-coder",
+    "artName": "bouncing ball",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Kavya-Jain-coder-Bouncing-Ball/index.html",
+    "imageLink": "./Art/Kavya-Jain-coder-Bouncing-Ball/icon.png",
+    "projectPath": "Art/Kavya-Jain-coder-Bouncing-Ball"
+  },
+  {
     "author": "SilverioZ",
     "artName": "Lemon",
     "githubLink": "https://github.com/SilverioZ",
     "pageLink": "./Art/Lemon/index.html",
     "imageLink": "./Art/Lemon/icon.png",
     "projectPath": "Art/Lemon"
+  },
+  {
+    "author": "Kavya-Jain-coder",
+    "artName": "loading dots",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Loading-Dots-Kavya-Jain-coder/index.html",
+    "imageLink": "./Art/Loading-Dots-Kavya-Jain-coder/icon.png",
+    "projectPath": "Art/Loading-Dots-Kavya-Jain-coder"
   },
   {
     "author": "Namokar05",
@@ -1445,5 +1469,45 @@
     "pageLink": "./Art/volt3301-WaveFlow/index.html",
     "imageLink": "./Art/volt3301-WaveFlow/icon.png",
     "projectPath": "Art/volt3301-WaveFlow"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Cosmic Tesseract",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-Cosmic_Tesseract/index.html",
+    "imageLink": "./Art/vs-code06-Cosmic_Tesseract/icon.png",
+    "projectPath": "Art/vs-code06-Cosmic_Tesseract"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Hypercube Shift",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-HypercubeShift/index.html",
+    "imageLink": "./Art/vs-code06-HypercubeShift/icon.png",
+    "projectPath": "Art/vs-code06-HypercubeShift"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Neon DNA",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-NeonDNA/index.html",
+    "imageLink": "./Art/vs-code06-NeonDNA/icon.png",
+    "projectPath": "Art/vs-code06-NeonDNA"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Quantum Tunnel",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-QuantumTunnel/index.html",
+    "imageLink": "./Art/vs-code06-QuantumTunnel/icon.png",
+    "projectPath": "Art/vs-code06-QuantumTunnel"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Temporal Ripples",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-Temporal Ripples/index.html",
+    "imageLink": "./Art/vs-code06-Temporal Ripples/icon.png",
+    "projectPath": "Art/vs-code06-Temporal Ripples"
   }
 ]
