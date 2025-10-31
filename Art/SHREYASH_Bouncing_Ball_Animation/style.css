@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #001f3f, #003366);
+  overflow: hidden;
+}
+
+/* Scene (ground area) */
+.scene {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* Shadow under the ball */
+.shadow {
+  position: absolute;
+  bottom: 30px;
+  width: 100px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  filter: blur(5px);
+  animation: shadow-scale 1s ease-in-out infinite;
+}
+
+/* Ball itself */
+.ball {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle at 30% 30%, #ff6b6b, #c0392b);
+  border-radius: 50%;
+  animation: bounce 1s ease-in-out infinite;
+  box-shadow: inset -5px -10px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Ball bounce animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-180px);
+  }
+}
+
+/* Shadow scales with ball height */
+@keyframes shadow-scale {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(0.6);
+    opacity: 0.2;
+  }
+}
