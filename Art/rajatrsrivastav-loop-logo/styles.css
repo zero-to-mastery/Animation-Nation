@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle at center, #141e30, #243b55);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo-container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+.logo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    animation: logoSpin 10s linear infinite;
+}
+
+.ring {
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+}
+
+.ring-outer {
+    width: 280px;
+    height: 280px;
+    border-width: 6px;
+    border-color: #00f3ff transparent #00f3ff transparent;
+    animation: ringPulse 3s ease-in-out infinite;
+}
+
+.ring-middle {
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-color: transparent #ff00ff transparent #ff00ff;
+    animation: ringPulse 3s ease-in-out infinite reverse;
+    animation-delay: 0.5s;
+}
+
+.ring-inner {
+    width: 120px;
+    height: 120px;
+    border-width: 4px;
+    border-color: #00ff88 transparent #00ff88 transparent;
+    animation: ringPulse 3s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.core {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(circle, #ffffff, #00f3ff);
+    border-radius: 50%;
+    animation: corePulse 2s ease-in-out infinite;
+    box-shadow: 
+        0 0 30px #00f3ff,
+        0 0 60px #00f3ff,
+        0 0 90px rgba(0, 243, 255, 0.5);
+}
+
+@keyframes logoSpin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes ringPulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.15);
+        opacity: 0.7;
+    }
+}
+
+@keyframes corePulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+        box-shadow: 
+            0 0 30px #00f3ff,
+            0 0 60px #00f3ff,
+            0 0 90px rgba(0, 243, 255, 0.5);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.4);
+        box-shadow: 
+            0 0 40px #00f3ff,
+            0 0 80px #00f3ff,
+            0 0 120px rgba(0, 243, 255, 0.7);
+    }
+}
