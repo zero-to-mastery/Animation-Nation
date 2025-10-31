@@ -1,0 +1,75 @@
+:root {
+  --sky-top: #d4e0f0;
+  --sky-bottom: #f8e9ec;
+  --petal-1: #f8b4c0;
+  --petal-2: #ffc9de;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, var(--sky-top), var(--sky-bottom));
+  overflow: hidden;
+}
+
+.petal-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.petal {
+  position: absolute;
+  top: -10%; /* Start off-screen */
+  left: var(--start-x);
+  width: var(--size);
+  height: calc(var(--size) * 0.8);
+  background-color: var(--color);
+  border-radius: 50% 0; /* Simple petal shape */
+  opacity: 0; /* Start invisible */
+
+  animation: drift-swirl var(--duration) linear infinite;
+  animation-delay: var(--delay);
+}
+
+@keyframes drift-swirl {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg) scale(1);
+    filter: blur(var(--blur-intensity));
+    opacity: 0;
+  }
+  10% {
+    /* Fade in */
+    opacity: 0.9;
+  }
+  25% {
+    /* Swirl left and rise up, shrink for perspective */
+    transform: translateX(calc(var(--x-swirl) * -1)) translateY(var(--y-rise))
+      rotate(calc(var(--rot-end) * 0.25))
+      scale(calc(1 - var(--scale-variation)));
+    filter: blur(calc(var(--blur-intensity) * 1.5));
+  }
+  50% {
+    /* Swirl right and start falling, come back into focus */
+    transform: translateX(var(--x-swirl)) translateY(40vh)
+      rotate(calc(var(--rot-end) * 0.5)) scale(1);
+    filter: blur(0px);
+  }
+  75% {
+    /* Swirl left again while continuing to fall */
+    transform: translateX(calc(var(--x-swirl) * -0.5)) translateY(80vh)
+      rotate(calc(var(--rot-end) * 0.75))
+      scale(calc(1 + var(--scale-variation)));
+    filter: blur(calc(var(--blur-intensity) * 0.5));
+  }
+  90% {
+    /* Fade out towards the bottom */
+    opacity: 0.9;
+  }
+  100% {
+    /* End position below the screen */
+    transform: translateX(0) translateY(110vh) rotate(var(--rot-end)) scale(1);
+    opacity: 0;
+    filter: blur(var(--blur-intensity));
+  }
+}
