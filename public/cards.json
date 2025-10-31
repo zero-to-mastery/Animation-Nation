@@ -89,6 +89,22 @@
   },
   {
     "author": "Aviral02git",
+    "artName": "Neon Pulse",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Neon-Pulse/index.html",
+    "imageLink": "./Art/Aviral02git-Neon-Pulse/icon.png",
+    "projectPath": "Art/Aviral02git-Neon-Pulse"
+  },
+  {
+    "author": "Aviral02git",
+    "artName": "Spiral Spinner",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Spiral-Spinner/index.html",
+    "imageLink": "./Art/Aviral02git-Spiral-Spinner/icon.png",
+    "projectPath": "Art/Aviral02git-Spiral-Spinner"
+  },
+  {
+    "author": "Aviral02git",
     "artName": "Morphing Shapes",
     "githubLink": "https://github.com/Aviral02git",
     "pageLink": "./Art/Aviral02git-Wave-Motion/index.html",
@@ -449,6 +465,30 @@
   },
   {
     "author": "Lakshya182005",
+    "artName": "Falling Water",
+    "githubLink": "https://github.com/Lakshya182005",
+    "pageLink": "./Art/Lakshya182005_Falling_water/index.html",
+    "imageLink": "./Art/Lakshya182005_Falling_water/icon.png",
+    "projectPath": "Art/Lakshya182005_Falling_water"
+  },
+  {
+    "author": "Lakshya182005",
+    "artName": "Sun to Moon and Back",
+    "githubLink": "https://github.com/Lakshya182005",
+    "pageLink": "./Art/Lakshya182005_Sun_to_moon/index.html",
+    "imageLink": "./Art/Lakshya182005_Sun_to_moon/icon.png",
+    "projectPath": "Art/Lakshya182005_Sun_to_moon"
+  },
+  {
+    "author": "Lakshya182005",
+    "artName": "Bottle Flip",
+    "githubLink": "https://github.com/Lakshya182005",
+    "pageLink": "./Art/Lakshya182005_bottleflip/index.html",
+    "imageLink": "./Art/Lakshya182005_bottleflip/icon.png",
+    "projectPath": "Art/Lakshya182005_bottleflip"
+  },
+  {
+    "author": "Lakshya182005",
     "artName": "Bouncing Swords",
     "githubLink": "https://github.com/Lakshya182005",
     "pageLink": "./Art/Lakshya182005_bouncing_swords/index.html",
@@ -793,6 +833,30 @@
   },
   {
     "author": "afk-anant",
+    "artName": "cyberhexagon",
+    "githubLink": "https://github.com/afk-anant",
+    "pageLink": "./Art/afk-anant-Cyber-Hexagon-Grid/index.html",
+    "imageLink": "./Art/afk-anant-Cyber-Hexagon-Grid/icon.png",
+    "projectPath": "Art/afk-anant-Cyber-Hexagon-Grid"
+  },
+  {
+    "author": "afk-anant",
+    "artName": "glitchmatrix",
+    "githubLink": "https://github.com/afk-anant",
+    "pageLink": "./Art/afk-anant-Glitch-Matrix/index.html",
+    "imageLink": "./Art/afk-anant-Glitch-Matrix/icon.png",
+    "projectPath": "Art/afk-anant-Glitch-Matrix"
+  },
+  {
+    "author": "afk-anant",
+    "artName": "infinityloader",
+    "githubLink": "https://github.com/afk-anant",
+    "pageLink": "./Art/afk-anant-Infinity-Loader/index.html",
+    "imageLink": "./Art/afk-anant-Infinity-Loader/icon.png",
+    "projectPath": "Art/afk-anant-Infinity-Loader"
+  },
+  {
+    "author": "afk-anant",
     "artName": "neonpulse",
     "githubLink": "https://github.com/afk-anant",
     "pageLink": "./Art/afk-anant-Neon-Pulse-Ring/index.html",
@@ -846,6 +910,14 @@
     "pageLink": "./Art/aprajita-99-Hypnotic-Spiral/index.html",
     "imageLink": "./Art/aprajita-99-Hypnotic-Spiral/icon.png",
     "projectPath": "Art/aprajita-99-Hypnotic-Spiral"
+  },
+  {
+    "author": "awesome-kartikey",
+    "artName": "jellyfish swarm",
+    "githubLink": "https://github.com/awesome-kartikey",
+    "pageLink": "./Art/awesome-kartikey-jellyfish-swarm/index.html",
+    "imageLink": "./Art/awesome-kartikey-jellyfish-swarm/icon.png",
+    "projectPath": "Art/awesome-kartikey-jellyfish-swarm"
   },
   {
     "author": "behramshah",
