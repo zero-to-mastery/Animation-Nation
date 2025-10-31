@@ -1,0 +1,428 @@
+/* === Base Reset === */
+html,
+body {
+  height: 100%;
+  overscroll-behavior-x: none;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  animation: backgroundPulse 30s ease-in-out infinite;
+  background: radial-gradient(
+    circle at center,
+    #0f0c29 0%,
+    #1a1a3f 40%,
+    #000 100%
+  );
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+body::before {
+  background: #fff;
+  content: '';
+  height: 100%;
+  opacity: 0.02;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+/* === Scene Container === */
+.scene {
+  backdrop-filter: blur(2px);
+  box-shadow: 0 0 80px 20px rgba(138, 43, 226, 0.2) inset;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  width: 100vw;
+}
+
+.scene::after {
+  animation: gridGlow 10s ease-in-out infinite;
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+  bottom: 0;
+  content: '';
+  height: 40vh;
+  left: 0;
+  position: absolute;
+  transform: perspective(300px) rotateX(60deg);
+  width: 100%;
+  z-index: 0;
+}
+
+/* === Track Container === */
+.track {
+  backdrop-filter: blur(4px);
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.03),
+    rgba(255, 255, 255, 0.01)
+  );
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.05);
+  margin: 0 auto;
+  max-width: 600px;
+  overflow: visible;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90vw;
+}
+
+/* === Portal & Vortex === */
+.portal {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.05),
+    transparent 70%
+  );
+  border-radius: 50% / 50%;
+  box-shadow: 0 0 60px 20px rgba(255, 255, 255, 0.05),
+    0 0 20px 10px rgba(255, 255, 255, 0.1);
+  filter: blur(2px);
+  height: 80px;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  z-index: 2;
+}
+
+.portal.entry {
+  left: -20px;
+}
+
+.portal:not(.entry) {
+  right: -20px;
+  z-index: 4;
+}
+
+.vortex {
+  animation: none;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(142, 68, 173, 0.2),
+    transparent 70%
+  );
+  border-radius: 50% / 50%;
+  box-shadow: 0 0 40px 20px rgba(142, 68, 173, 0.4);
+  filter: blur(2px);
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  transform: rotateY(10deg);
+  transform-origin: center;
+  width: 100%;
+}
+
+.vortex::before,
+.vortex::after {
+  content: '';
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-radius: 50%;
+  filter: blur(4px);
+}
+
+.vortex::before {
+  animation: swirlLayer 4s linear infinite;
+  background: conic-gradient(from 0deg, #8e44ad, #5e3370, #000, #8e44ad);
+}
+
+.vortex::after {
+  animation-delay: -2s;
+  opacity: 0.3;
+  transform: scale(1.2);
+}
+
+.portal.entry .vortex {
+  animation: pulseArrival 5.8s ease-in-out infinite;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.portal:not(.entry) .vortex {
+  animation: pulseArrival 6s ease-in-out infinite;
+  animation-delay: 5.5s;
+  animation-fill-mode: both;
+}
+
+/* === Pac-Man === */
+.pacman {
+  animation: movePacman 6s linear infinite, chomp 0.6s ease-in-out infinite;
+  background: radial-gradient(circle at 30% 30%, #fff176, #fdd835, #fbc02d);
+  border-radius: 50%;
+  box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.2);
+  clip-path: circle(50%);
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  z-index: 1;
+}
+
+.pacman::after {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  content: '';
+  height: 30px;
+  left: 10%;
+  position: absolute;
+  top: 10%;
+  transform: rotate(-20deg);
+  width: 30px;
+  z-index: 2;
+}
+
+/* Eye & Sparkle */
+.eye {
+  background: #000;
+  border-radius: 50%;
+  height: 8px;
+  left: 60%;
+  position: absolute;
+  top: 18%;
+  width: 8px;
+  z-index: 3;
+}
+
+.sparkle {
+  background: #fff;
+  border-radius: 50%;
+  height: 4px;
+  left: 2px;
+  position: absolute;
+  top: 1px;
+  width: 3px;
+  z-index: 4;
+}
+
+/* === Dots Container === */
+.dots {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+/* === Dot Base Style === */
+.dot {
+  animation-duration: 6s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 6px 2px #fff;
+  height: 12px;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: center;
+  width: 12px;
+}
+
+/* === Dot Positions and Fade === */
+.d1 {
+  animation-name: fadeDot1;
+  left: 20%;
+}
+.d2 {
+  animation-name: fadeDot2;
+  left: 40%;
+}
+.d3 {
+  animation-name: fadeDot3;
+  left: 60%;
+}
+.d4 {
+  animation-name: fadeDot4;
+  left: 80%;
+}
+.d5 {
+  animation-name: fadeDot5;
+  left: 95%;
+}
+
+/* === Animations === */
+@keyframes backgroundPulse {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(30deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
+
+@keyframes chomp {
+  0%,
+  100% {
+    clip-path: circle(50%);
+  }
+  50% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 35%,
+      65% 50%,
+      100% 65%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+@keyframes fadeDot1 {
+  0%,
+  19% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  20%,
+  99% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeDot2 {
+  0%,
+  39% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  40%,
+  99% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeDot3 {
+  0%,
+  59% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  60%,
+  99% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeDot4 {
+  0%,
+  79% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80%,
+  99% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeDot5 {
+  0%,
+  94% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  95%,
+  99% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes movePacman {
+  0% {
+    left: 0;
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  90% {
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    left: 98%;
+    transform: translateY(-50%) scale(0.8);
+    opacity: 0;
+  }
+}
+
+@keyframes pulseArrival {
+  0%,
+  20% {
+    box-shadow: 0 0 20px 10px rgba(142, 68, 173, 0.2);
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  10% {
+    box-shadow: 0 0 60px 30px rgba(142, 68, 173, 0.6);
+    opacity: 0.8;
+    transform: scale(1.3);
+  }
+  25%,
+  100% {
+    box-shadow: none;
+    opacity: 0.4;
+    transform: scale(1);
+  }
+}
+
+@keyframes swirlLayer {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -72,6 +72,78 @@
     "projectPath": "Art/Arni005-Sweet-Treat"
   },
   {
+    "author": "Aviral02git",
+    "artName": "Blooming Flower",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Blooming-Flower/index.html",
+    "imageLink": "./Art/Aviral02git-Blooming-Flower/icon.png",
+    "projectPath": "Art/Aviral02git-Blooming-Flower"
+  },
+  {
+    "author": "Aviral02git",
+    "artName": "DNA Helix Spiral",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-DNA-Helix-Spiral/index.html",
+    "imageLink": "./Art/Aviral02git-DNA-Helix-Spiral/icon.png",
+    "projectPath": "Art/Aviral02git-DNA-Helix-Spiral"
+  },
+  {
+    "author": "Aviral02git",
+    "artName": "Floating Bubbles",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Floating-Bubbles/index.html",
+    "imageLink": "./Art/Aviral02git-Floating-Bubbles/icon.png",
+    "projectPath": "Art/Aviral02git-Floating-Bubbles"
+  },
+  {
+    "author": "Aviral02git",
+    "artName": "Glowing Rings",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Glowing Rings/index.html",
+    "imageLink": "./Art/Aviral02git-Glowing Rings/icon.png",
+    "projectPath": "Art/Aviral02git-Glowing Rings"
+  },
+  {
+    "author": "Aviral02git",
+    "artName": "Morphing Shapes",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Morphing-Shapes/index.html",
+    "imageLink": "./Art/Aviral02git-Morphing-Shapes/icon.png",
+    "projectPath": "Art/Aviral02git-Morphing-Shapes"
+  },
+  {
+    "author": "Aviral02git",
+    "artName": "Neon Pulse",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Neon-Pulse/index.html",
+    "imageLink": "./Art/Aviral02git-Neon-Pulse/icon.png",
+    "projectPath": "Art/Aviral02git-Neon-Pulse"
+  },
+  {
+    "author": "Aviral02git",
+    "artName": "Particle Explosion",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Particle-Explosion/index.html",
+    "imageLink": "./Art/Aviral02git-Particle-Explosion/icon.png",
+    "projectPath": "Art/Aviral02git-Particle-Explosion"
+  },
+  {
+    "author": "Aviral02git",
+    "artName": "Spiral Spinner",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Spiral-Spinner/index.html",
+    "imageLink": "./Art/Aviral02git-Spiral-Spinner/icon.png",
+    "projectPath": "Art/Aviral02git-Spiral-Spinner"
+  },
+  {
+    "author": "Aviral02git",
+    "artName": "Morphing Shapes",
+    "githubLink": "https://github.com/Aviral02git",
+    "pageLink": "./Art/Aviral02git-Wave-Motion/index.html",
+    "imageLink": "./Art/Aviral02git-Wave-Motion/icon.png",
+    "projectPath": "Art/Aviral02git-Wave-Motion"
+  },
+  {
     "author": "Bharath-dev05",
     "artName": "Butterflies",
     "githubLink": "https://github.com/Bharath-dev05",
@@ -222,6 +294,14 @@
     "pageLink": "./Art/DEmosus-Galactic-Kaleidoscope/index.html",
     "imageLink": "./Art/DEmosus-Galactic-Kaleidoscope/icon.png",
     "projectPath": "Art/DEmosus-Galactic-Kaleidoscope"
+  },
+  {
+    "author": "DEmosus",
+    "artName": "Latte Art",
+    "githubLink": "https://github.com/DEmosus",
+    "pageLink": "./Art/DEmosus-Latte-Art/index.html",
+    "imageLink": "./Art/DEmosus-Latte-Art/icon.png",
+    "projectPath": "Art/DEmosus-Latte-Art"
   },
   {
     "author": "GitSatishGarg",
@@ -400,12 +480,180 @@
     "projectPath": "Art/KadimiJaswanth-neon-orbit"
   },
   {
+    "author": "Kavya-Jain-coder",
+    "artName": "aurora borealis",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Kavya-Jain-coder-Aurora-Borealis/index.html",
+    "imageLink": "./Art/Kavya-Jain-coder-Aurora-Borealis/icon.png",
+    "projectPath": "Art/Kavya-Jain-coder-Aurora-Borealis"
+  },
+  {
+    "author": "Kavya-Jain-coder",
+    "artName": "bouncing ball",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Kavya-Jain-coder-Bouncing-Ball/index.html",
+    "imageLink": "./Art/Kavya-Jain-coder-Bouncing-Ball/icon.png",
+    "projectPath": "Art/Kavya-Jain-coder-Bouncing-Ball"
+  },
+  {
+    "author": "Kavya-Jain-coder",
+    "artName": "cyberpunk city",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Kavya-Jain-coder-Cyberpunk-City/index.html",
+    "imageLink": "./Art/Kavya-Jain-coder-Cyberpunk-City/icon.png",
+    "projectPath": "Art/Kavya-Jain-coder-Cyberpunk-City"
+  },
+  {
+    "author": "Kavya-Jain-coder",
+    "artName": "dna helix",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Kavya-Jain-coder-DNA-Helix/index.html",
+    "imageLink": "./Art/Kavya-Jain-coder-DNA-Helix/icon.png",
+    "projectPath": "Art/Kavya-Jain-coder-DNA-Helix"
+  },
+  {
+    "author": "Lakshya182005",
+    "artName": "Curtain in Wind",
+    "githubLink": "https://github.com/Lakshya182005",
+    "pageLink": "./Art/Lakshya182005_Curtain_in_Wind/index.html",
+    "imageLink": "./Art/Lakshya182005_Curtain_in_Wind/icon.png",
+    "projectPath": "Art/Lakshya182005_Curtain_in_Wind"
+  },
+  {
+    "author": "Lakshya182005",
+    "artName": "Falling Water",
+    "githubLink": "https://github.com/Lakshya182005",
+    "pageLink": "./Art/Lakshya182005_Falling_water/index.html",
+    "imageLink": "./Art/Lakshya182005_Falling_water/icon.png",
+    "projectPath": "Art/Lakshya182005_Falling_water"
+  },
+  {
+    "author": "Lakshya182005",
+    "artName": "Sun to Moon and Back",
+    "githubLink": "https://github.com/Lakshya182005",
+    "pageLink": "./Art/Lakshya182005_Sun_to_moon/index.html",
+    "imageLink": "./Art/Lakshya182005_Sun_to_moon/icon.png",
+    "projectPath": "Art/Lakshya182005_Sun_to_moon"
+  },
+  {
+    "author": "Lakshya182005",
+    "artName": "Bottle Flip",
+    "githubLink": "https://github.com/Lakshya182005",
+    "pageLink": "./Art/Lakshya182005_bottleflip/index.html",
+    "imageLink": "./Art/Lakshya182005_bottleflip/icon.png",
+    "projectPath": "Art/Lakshya182005_bottleflip"
+  },
+  {
+    "author": "Lakshya182005",
+    "artName": "Bouncing Swords",
+    "githubLink": "https://github.com/Lakshya182005",
+    "pageLink": "./Art/Lakshya182005_bouncing_swords/index.html",
+    "imageLink": "./Art/Lakshya182005_bouncing_swords/icon.png",
+    "projectPath": "Art/Lakshya182005_bouncing_swords"
+  },
+  {
+    "author": "Lakshya182005",
+    "artName": "Cartwheel Man",
+    "githubLink": "https://github.com/Lakshya182005",
+    "pageLink": "./Art/Lakshya182005_cartwheel_man/index.html",
+    "imageLink": "./Art/Lakshya182005_cartwheel_man/icon.png",
+    "projectPath": "Art/Lakshya182005_cartwheel_man"
+  },
+  {
     "author": "SilverioZ",
     "artName": "Lemon",
     "githubLink": "https://github.com/SilverioZ",
     "pageLink": "./Art/Lemon/index.html",
     "imageLink": "./Art/Lemon/icon.png",
     "projectPath": "Art/Lemon"
+  },
+  {
+    "author": "Kavya-Jain-coder",
+    "artName": "loading dots",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Loading-Dots-Kavya-Jain-coder/index.html",
+    "imageLink": "./Art/Loading-Dots-Kavya-Jain-coder/icon.png",
+    "projectPath": "Art/Loading-Dots-Kavya-Jain-coder"
+  },
+  {
+    "author": "MohitSingh250",
+    "artName": "Aurora Threads",
+    "githubLink": "https://github.com/MohitSingh250",
+    "pageLink": "./Art/MohitSingh250-AuroraThreads/index.html",
+    "imageLink": "./Art/MohitSingh250-AuroraThreads/icon.png",
+    "projectPath": "Art/MohitSingh250-AuroraThreads"
+  },
+  {
+    "author": "MohitSingh250",
+    "artName": "Cosmic Particle Rings",
+    "githubLink": "https://github.com/MohitSingh250",
+    "pageLink": "./Art/MohitSingh250-CosmicParticleRings/index.html",
+    "imageLink": "./Art/MohitSingh250-CosmicParticleRings/icon.png",
+    "projectPath": "Art/MohitSingh250-CosmicParticleRings"
+  },
+  {
+    "author": "MohitSingh250",
+    "artName": "Echo Nebula",
+    "githubLink": "https://github.com/MohitSingh250",
+    "pageLink": "./Art/MohitSingh250-Echo Nebula/index.html",
+    "imageLink": "./Art/MohitSingh250-Echo Nebula/icon.png",
+    "projectPath": "Art/MohitSingh250-Echo Nebula"
+  },
+  {
+    "author": "MohitSingh250",
+    "artName": "Quantum Veil",
+    "githubLink": "https://github.com/MohitSingh250",
+    "pageLink": "./Art/MohitSingh250-Quantum Veil/index.html",
+    "imageLink": "./Art/MohitSingh250-Quantum Veil/icon.png",
+    "projectPath": "Art/MohitSingh250-Quantum Veil"
+  },
+  {
+    "author": "NSTKrishna",
+    "artName": "movieicons",
+    "githubLink": "https://github.com/NSTKrishna",
+    "pageLink": "./Art/NSTKrishna-Animated-Movie-Icons/index.html",
+    "imageLink": "./Art/NSTKrishna-Animated-Movie-Icons/icon.png",
+    "projectPath": "Art/NSTKrishna-Animated-Movie-Icons"
+  },
+  {
+    "author": "NSTKrishna",
+    "artName": "bouncingtriangle",
+    "githubLink": "https://github.com/NSTKrishna",
+    "pageLink": "./Art/NSTKrishna-Bouncing-Triangle-Animation/index.html",
+    "imageLink": "./Art/NSTKrishna-Bouncing-Triangle-Animation/icon.png",
+    "projectPath": "Art/NSTKrishna-Bouncing-Triangle-Animation"
+  },
+  {
+    "author": "NSTKrishna",
+    "artName": "circular text rotation",
+    "githubLink": "https://github.com/NSTKrishna",
+    "pageLink": "./Art/NSTKrishna-Circular-Text-Rotation/index.html",
+    "imageLink": "./Art/NSTKrishna-Circular-Text-Rotation/icon.png",
+    "projectPath": "Art/NSTKrishna-Circular-Text-Rotation"
+  },
+  {
+    "author": "NSTKrishna",
+    "artName": "melting ice cube",
+    "githubLink": "https://github.com/NSTKrishna",
+    "pageLink": "./Art/NSTKrishna-Melting-Ice-Cube-Animation/index.html",
+    "imageLink": "./Art/NSTKrishna-Melting-Ice-Cube-Animation/icon.png",
+    "projectPath": "Art/NSTKrishna-Melting-Ice-Cube-Animation"
+  },
+  {
+    "author": "NSTKrishna",
+    "artName": "pendulum",
+    "githubLink": "https://github.com/NSTKrishna",
+    "pageLink": "./Art/NSTKrishna-Pendulum-Swing/index.html",
+    "imageLink": "./Art/NSTKrishna-Pendulum-Swing/icon.png",
+    "projectPath": "Art/NSTKrishna-Pendulum-Swing"
+  },
+  {
+    "author": "NSTKrishna",
+    "artName": "waves",
+    "githubLink": "https://github.com/NSTKrishna",
+    "pageLink": "./Art/NSTKrishna-Wave_animation/index.html",
+    "imageLink": "./Art/NSTKrishna-Wave_animation/icon.png",
+    "projectPath": "Art/NSTKrishna-Wave_animation"
   },
   {
     "author": "Namokar05",
@@ -454,6 +702,14 @@
     "pageLink": "./Art/Rajudas94-RetroSpin Player/index.html",
     "imageLink": "./Art/Rajudas94-RetroSpin Player/icon.png",
     "projectPath": "Art/Rajudas94-RetroSpin Player"
+  },
+  {
+    "author": "Kavya-Jain-coder",
+    "artName": "rotating cube",
+    "githubLink": "https://github.com/Kavya-Jain-coder",
+    "pageLink": "./Art/Rotating-Cube-Kavya-Jain-coder/index.html",
+    "imageLink": "./Art/Rotating-Cube-Kavya-Jain-coder/icon.png",
+    "projectPath": "Art/Rotating-Cube-Kavya-Jain-coder"
   },
   {
     "author": "Saptarshi1984",
@@ -592,6 +848,14 @@
     "projectPath": "Art/VTwin90-northern-lights"
   },
   {
+    "author": "VTwin90",
+    "artName": "Pac Man",
+    "githubLink": "https://github.com/VTwin90",
+    "pageLink": "./Art/VTwin90-pac-man/index.html",
+    "imageLink": "./Art/VTwin90-pac-man/icon.png",
+    "projectPath": "Art/VTwin90-pac-man"
+  },
+  {
     "author": "Vatsakala",
     "artName": "neon curves",
     "githubLink": "https://github.com/Vatsakala",
@@ -672,6 +936,54 @@
     "projectPath": "Art/adithya-pathakoti-galaxy"
   },
   {
+    "author": "afk-anant",
+    "artName": "cosmicorbit",
+    "githubLink": "https://github.com/afk-anant",
+    "pageLink": "./Art/afk-anant-Cosmic-Orbit/index.html",
+    "imageLink": "./Art/afk-anant-Cosmic-Orbit/icon.png",
+    "projectPath": "Art/afk-anant-Cosmic-Orbit"
+  },
+  {
+    "author": "afk-anant",
+    "artName": "cyberhexagon",
+    "githubLink": "https://github.com/afk-anant",
+    "pageLink": "./Art/afk-anant-Cyber-Hexagon-Grid/index.html",
+    "imageLink": "./Art/afk-anant-Cyber-Hexagon-Grid/icon.png",
+    "projectPath": "Art/afk-anant-Cyber-Hexagon-Grid"
+  },
+  {
+    "author": "afk-anant",
+    "artName": "glitchmatrix",
+    "githubLink": "https://github.com/afk-anant",
+    "pageLink": "./Art/afk-anant-Glitch-Matrix/index.html",
+    "imageLink": "./Art/afk-anant-Glitch-Matrix/icon.png",
+    "projectPath": "Art/afk-anant-Glitch-Matrix"
+  },
+  {
+    "author": "afk-anant",
+    "artName": "infinityloader",
+    "githubLink": "https://github.com/afk-anant",
+    "pageLink": "./Art/afk-anant-Infinity-Loader/index.html",
+    "imageLink": "./Art/afk-anant-Infinity-Loader/icon.png",
+    "projectPath": "Art/afk-anant-Infinity-Loader"
+  },
+  {
+    "author": "afk-anant",
+    "artName": "neonpulse",
+    "githubLink": "https://github.com/afk-anant",
+    "pageLink": "./Art/afk-anant-Neon-Pulse-Ring/index.html",
+    "imageLink": "./Art/afk-anant-Neon-Pulse-Ring/icon.png",
+    "projectPath": "Art/afk-anant-Neon-Pulse-Ring"
+  },
+  {
+    "author": "afk-anant",
+    "artName": "liquidwave",
+    "githubLink": "https://github.com/afk-anant",
+    "pageLink": "./Art/afk-anant-liquid-loading-wave/index.html",
+    "imageLink": "./Art/afk-anant-liquid-loading-wave/icon.png",
+    "projectPath": "Art/afk-anant-liquid-loading-wave"
+  },
+  {
     "author": "agrawalshreyansh",
     "artName": "animation",
     "githubLink": "https://github.com/agrawalshreyansh",
@@ -710,6 +1022,38 @@
     "pageLink": "./Art/aprajita-99-Hypnotic-Spiral/index.html",
     "imageLink": "./Art/aprajita-99-Hypnotic-Spiral/icon.png",
     "projectPath": "Art/aprajita-99-Hypnotic-Spiral"
+  },
+  {
+    "author": "awesome-kartikey",
+    "artName": "cherry blossoms",
+    "githubLink": "https://github.com/awesome-kartikey",
+    "pageLink": "./Art/awesome-kartikey-cherry-blossoms/index.html",
+    "imageLink": "./Art/awesome-kartikey-cherry-blossoms/icon.png",
+    "projectPath": "Art/awesome-kartikey-cherry-blossoms"
+  },
+  {
+    "author": "awesome-kartikey",
+    "artName": "diwali fireworks",
+    "githubLink": "https://github.com/awesome-kartikey",
+    "pageLink": "./Art/awesome-kartikey-diwali-fireworks/index.html",
+    "imageLink": "./Art/awesome-kartikey-diwali-fireworks/icon.png",
+    "projectPath": "Art/awesome-kartikey-diwali-fireworks"
+  },
+  {
+    "author": "awesome-kartikey",
+    "artName": "jellyfish swarm",
+    "githubLink": "https://github.com/awesome-kartikey",
+    "pageLink": "./Art/awesome-kartikey-jellyfish-swarm/index.html",
+    "imageLink": "./Art/awesome-kartikey-jellyfish-swarm/icon.png",
+    "projectPath": "Art/awesome-kartikey-jellyfish-swarm"
+  },
+  {
+    "author": "awesome-kartikey",
+    "artName": "rainbow orb",
+    "githubLink": "https://github.com/awesome-kartikey",
+    "pageLink": "./Art/awesome-kartikey-rainbow-orb/index.html",
+    "imageLink": "./Art/awesome-kartikey-rainbow-orb/icon.png",
+    "projectPath": "Art/awesome-kartikey-rainbow-orb"
   },
   {
     "author": "behramshah",
@@ -1024,6 +1368,54 @@
     "projectPath": "Art/kevinbatdorf-ripple"
   },
   {
+    "author": "khuswant18",
+    "artName": "Letter Glitch",
+    "githubLink": "https://github.com/khuswant18",
+    "pageLink": "./Art/khuswant18-Letter-Glitch/index.html",
+    "imageLink": "./Art/khuswant18-Letter-Glitch/icon.png",
+    "projectPath": "Art/khuswant18-Letter-Glitch"
+  },
+  {
+    "author": "khuswant18",
+    "artName": "Dome Gallery",
+    "githubLink": "https://github.com/khuswant18",
+    "pageLink": "./Art/khuswant18-demo-gallery/index.html",
+    "imageLink": "./Art/khuswant18-demo-gallery/icon.png",
+    "projectPath": "Art/khuswant18-demo-gallery"
+  },
+  {
+    "author": "khuswant18",
+    "artName": "Galaxy",
+    "githubLink": "https://github.com/khuswant18",
+    "pageLink": "./Art/khuswant18-galaxy-animation/index.html",
+    "imageLink": "./Art/khuswant18-galaxy-animation/icon.png",
+    "projectPath": "Art/khuswant18-galaxy-animation"
+  },
+  {
+    "author": "khuswant18",
+    "artName": "Folder",
+    "githubLink": "https://github.com/khuswant18",
+    "pageLink": "./Art/khuswant18-interactive-artife/index.html",
+    "imageLink": "./Art/khuswant18-interactive-artife/icon.png",
+    "projectPath": "Art/khuswant18-interactive-artife"
+  },
+  {
+    "author": "khuswant18",
+    "artName": "Lines",
+    "githubLink": "https://github.com/khuswant18",
+    "pageLink": "./Art/khuswant18-lines/index.html",
+    "imageLink": "./Art/khuswant18-lines/icon.png",
+    "projectPath": "Art/khuswant18-lines"
+  },
+  {
+    "author": "khuswant18",
+    "artName": "Spotlight Card",
+    "githubLink": "https://github.com/khuswant18",
+    "pageLink": "./Art/khuswant18-spotlight-card/index.html",
+    "imageLink": "./Art/khuswant18-spotlight-card/icon.png",
+    "projectPath": "Art/khuswant18-spotlight-card"
+  },
+  {
     "author": "liketiger",
     "artName": "pendulum",
     "githubLink": "https://github.com/liketiger",
@@ -1311,6 +1703,54 @@
     "projectPath": "Art/pragyamv-robot-heart"
   },
   {
+    "author": "rajatrsrivastav",
+    "artName": "Animated Content",
+    "githubLink": "https://github.com/rajatrsrivastav",
+    "pageLink": "./Art/rajatrsrivastav-Animated-Content/index.html",
+    "imageLink": "./Art/rajatrsrivastav-Animated-Content/icon.png",
+    "projectPath": "Art/rajatrsrivastav-Animated-Content"
+  },
+  {
+    "author": "rajatrsrivastav",
+    "artName": "Electric Border",
+    "githubLink": "https://github.com/rajatrsrivastav",
+    "pageLink": "./Art/rajatrsrivastav-Electric-Border-Animation/index.html",
+    "imageLink": "./Art/rajatrsrivastav-Electric-Border-Animation/icon.png",
+    "projectPath": "Art/rajatrsrivastav-Electric-Border-Animation"
+  },
+  {
+    "author": "rajatrsrivastav",
+    "artName": "Fade Content",
+    "githubLink": "https://github.com/rajatrsrivastav",
+    "pageLink": "./Art/rajatrsrivastav-Fade-Content/index.html",
+    "imageLink": "./Art/rajatrsrivastav-Fade-Content/icon.png",
+    "projectPath": "Art/rajatrsrivastav-Fade-Content"
+  },
+  {
+    "author": "rajatrsrivastav",
+    "artName": "Glare Hover",
+    "githubLink": "https://github.com/rajatrsrivastav",
+    "pageLink": "./Art/rajatrsrivastav-Glare-Hover-Animation/index.html",
+    "imageLink": "./Art/rajatrsrivastav-Glare-Hover-Animation/icon.png",
+    "projectPath": "Art/rajatrsrivastav-Glare-Hover-Animation"
+  },
+  {
+    "author": "rajatrsrivastav",
+    "artName": "Pixel Transition",
+    "githubLink": "https://github.com/rajatrsrivastav",
+    "pageLink": "./Art/rajatrsrivastav-Pixel-Transition-Animation/index.html",
+    "imageLink": "./Art/rajatrsrivastav-Pixel-Transition-Animation/icon.png",
+    "projectPath": "Art/rajatrsrivastav-Pixel-Transition-Animation"
+  },
+  {
+    "author": "rajatrsrivastav",
+    "artName": "Logo Loop",
+    "githubLink": "https://github.com/rajatrsrivastav",
+    "pageLink": "./Art/rajatrsrivastav-loop-logo/index.html",
+    "imageLink": "./Art/rajatrsrivastav-loop-logo/icon.png",
+    "projectPath": "Art/rajatrsrivastav-loop-logo"
+  },
+  {
     "author": "ravikantchauhan246",
     "artName": "ufo in sky",
     "githubLink": "https://github.com/ravikantchauhan246",
@@ -1445,5 +1885,61 @@
     "pageLink": "./Art/volt3301-WaveFlow/index.html",
     "imageLink": "./Art/volt3301-WaveFlow/icon.png",
     "projectPath": "Art/volt3301-WaveFlow"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Cosmic Tesseract",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-Cosmic_Tesseract/index.html",
+    "imageLink": "./Art/vs-code06-Cosmic_Tesseract/icon.png",
+    "projectPath": "Art/vs-code06-Cosmic_Tesseract"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Hologram Ripple Grid",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-HologramRippleGrid/index.html",
+    "imageLink": "./Art/vs-code06-HologramRippleGrid/icon.png",
+    "projectPath": "Art/vs-code06-HologramRippleGrid"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Hypercube Shift",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-HypercubeShift/index.html",
+    "imageLink": "./Art/vs-code06-HypercubeShift/icon.png",
+    "projectPath": "Art/vs-code06-HypercubeShift"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Neon DNA",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-NeonDNA/index.html",
+    "imageLink": "./Art/vs-code06-NeonDNA/icon.png",
+    "projectPath": "Art/vs-code06-NeonDNA"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Quantum Starburst",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-QuantumStarburst/index.html",
+    "imageLink": "./Art/vs-code06-QuantumStarburst/icon.png",
+    "projectPath": "Art/vs-code06-QuantumStarburst"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Quantum Tunnel",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-QuantumTunnel/index.html",
+    "imageLink": "./Art/vs-code06-QuantumTunnel/icon.png",
+    "projectPath": "Art/vs-code06-QuantumTunnel"
+  },
+  {
+    "author": "vs-code06",
+    "artName": "Temporal Ripples",
+    "githubLink": "https://github.com/vs-code06",
+    "pageLink": "./Art/vs-code06-Temporal Ripples/index.html",
+    "imageLink": "./Art/vs-code06-Temporal Ripples/icon.png",
+    "projectPath": "Art/vs-code06-Temporal Ripples"
   }
 ]

@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at center, #0f0c29, #302b63, #24243e);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, #fff, #ffeb3b, #ff5722);
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
+  box-shadow: 0 0 20px #ffeb3b, 0 0 40px #ff5722, 0 0 60px #ff5722,
+    inset 0 0 20px #fff;
+  z-index: 10;
+}
+
+.particle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  transform-origin: center;
+}
+
+.p1 {
+  background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 0s;
+  box-shadow: 0 0 15px #ff6b6b;
+}
+
+.p2 {
+  background: linear-gradient(135deg, #4ecdc4, #44a08d);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 0.15s;
+  box-shadow: 0 0 15px #4ecdc4;
+}
+
+.p3 {
+  background: linear-gradient(135deg, #f7b731, #f39c12);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 0.3s;
+  box-shadow: 0 0 15px #f7b731;
+}
+
+.p4 {
+  background: linear-gradient(135deg, #5f27cd, #341f97);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 0.45s;
+  box-shadow: 0 0 15px #5f27cd;
+}
+
+.p5 {
+  background: linear-gradient(135deg, #ff9ff3, #f368e0);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 0.6s;
+  box-shadow: 0 0 15px #ff9ff3;
+}
+
+.p6 {
+  background: linear-gradient(135deg, #48dbfb, #0abde3);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 0.75s;
+  box-shadow: 0 0 15px #48dbfb;
+}
+
+.p7 {
+  background: linear-gradient(135deg, #1dd1a1, #10ac84);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 0.9s;
+  box-shadow: 0 0 15px #1dd1a1;
+}
+
+.p8 {
+  background: linear-gradient(135deg, #ff6348, #e74c3c);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 1.05s;
+  box-shadow: 0 0 15px #ff6348;
+}
+
+.p9 {
+  background: linear-gradient(135deg, #feca57, #ff9ff3);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 1.2s;
+  box-shadow: 0 0 15px #feca57;
+}
+
+.p10 {
+  background: linear-gradient(135deg, #54a0ff, #2e86de);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 1.35s;
+  box-shadow: 0 0 15px #54a0ff;
+}
+
+.p11 {
+  background: linear-gradient(135deg, #00d2d3, #01a3a4);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 1.5s;
+  box-shadow: 0 0 15px #00d2d3;
+}
+
+.p12 {
+  background: linear-gradient(135deg, #ff6b81, #fd79a8);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 1.65s;
+  box-shadow: 0 0 15px #ff6b81;
+}
+
+.p13 {
+  background: linear-gradient(135deg, #a29bfe, #6c5ce7);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 1.8s;
+  box-shadow: 0 0 15px #a29bfe;
+}
+
+.p14 {
+  background: linear-gradient(135deg, #fd79a8, #e84393);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 1.95s;
+  box-shadow: 0 0 15px #fd79a8;
+}
+
+.p15 {
+  background: linear-gradient(135deg, #fdcb6e, #e17055);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 2.1s;
+  box-shadow: 0 0 15px #fdcb6e;
+}
+
+.p16 {
+  background: linear-gradient(135deg, #55efc4, #00b894);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 2.25s;
+  box-shadow: 0 0 15px #55efc4;
+}
+
+.p17 {
+  background: linear-gradient(135deg, #74b9ff, #0984e3);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 2.4s;
+  box-shadow: 0 0 15px #74b9ff;
+}
+
+.p18 {
+  background: linear-gradient(135deg, #a29bfe, #6c5ce7);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 2.55s;
+  box-shadow: 0 0 15px #a29bfe;
+}
+
+.p19 {
+  background: linear-gradient(135deg, #fab1a0, #e17055);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 2.7s;
+  box-shadow: 0 0 15px #fab1a0;
+}
+
+.p20 {
+  background: linear-gradient(135deg, #ff7675, #d63031);
+  animation: explode 3s ease-out infinite;
+  animation-delay: 2.85s;
+  box-shadow: 0 0 15px #ff7675;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 20px #ffeb3b, 0 0 40px #ff5722, 0 0 60px #ff5722,
+      inset 0 0 20px #fff;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.3);
+    box-shadow: 0 0 30px #ffeb3b, 0 0 60px #ff5722, 0 0 90px #ff5722,
+      inset 0 0 30px #fff;
+  }
+}
+
+@keyframes explode {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(0) scale(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) translateX(150px) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(200px) scale(0);
+    opacity: 0;
+  }
+}

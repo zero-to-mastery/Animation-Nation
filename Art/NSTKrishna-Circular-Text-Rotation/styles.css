@@ -1,0 +1,35 @@
+body {
+  background: #0d0d0d;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  animation: rotate 10s linear infinite;
+}
+
+.circle span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: 0 100px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
