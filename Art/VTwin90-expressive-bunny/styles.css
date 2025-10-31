@@ -1,5 +1,6 @@
 /* === Base Reset === */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -41,8 +42,14 @@ html, body {
   top: -90px;
   z-index: 2;
 }
-.left-ear { left: -20px; transform: rotate(-20deg); }
-.right-ear { right: -20px; transform: rotate(20deg); }
+.left-ear {
+  left: -20px;
+  transform: rotate(-20deg);
+}
+.right-ear {
+  right: -20px;
+  transform: rotate(20deg);
+}
 
 /* === Inner Ear === */
 .inner-ear {
@@ -69,8 +76,12 @@ html, body {
   opacity: 0;
   animation: angryEyebrows 24s ease-in-out infinite;
 }
-.left-eyebrow { left: 65px; }
-.right-eyebrow { right: 65px; }
+.left-eyebrow {
+  left: 65px;
+}
+.right-eyebrow {
+  right: 65px;
+}
 
 /* === Eyes === */
 .eye {
@@ -81,10 +92,12 @@ html, body {
   background: radial-gradient(circle at 30% 30%, #222 60%, #000 100%);
   top: 100px;
   z-index: 3;
-  box-shadow: 0 0 6px rgba(0,0,0,0.4);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
   animation: eyeCycle 24s ease-in-out infinite;
 }
-.left-eye { left: 70px; }
+.left-eye {
+  left: 70px;
+}
 .right-eye {
   right: 70px;
   animation: wink 24s ease-in-out infinite;
@@ -98,9 +111,24 @@ html, body {
   background: #fff;
   opacity: 0.9;
 }
-.s1 { width: 15px; height: 19px; top: 10px; left: 22px; }
-.s2 { width: 7px; height: 10px; top: 24px; left: 14px; }
-.s3 { width: 6px; height: 8px; top: 30px; left: 25px; }
+.s1 {
+  width: 15px;
+  height: 19px;
+  top: 10px;
+  left: 22px;
+}
+.s2 {
+  width: 7px;
+  height: 10px;
+  top: 24px;
+  left: 14px;
+}
+.s3 {
+  width: 6px;
+  height: 8px;
+  top: 30px;
+  left: 25px;
+}
 
 /* === Wink Starburst === */
 .wink-starburst {
@@ -121,11 +149,23 @@ html, body {
   top: -10px;
   width: 20px;
   height: 20px;
-  background: radial-gradient(circle, #ffd700 0%, #ffec8b 60%, transparent 100%);
+  background: radial-gradient(
+    circle,
+    #ffd700 0%,
+    #ffec8b 60%,
+    transparent 100%
+  );
   clip-path: polygon(
-    50% 0%, 61% 35%, 98% 35%, 68% 57%,
-    79% 91%, 50% 70%, 21% 91%, 32% 57%,
-    2% 35%, 39% 35%
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
   );
   transform: scale(0.5);
   opacity: 0;
@@ -138,13 +178,21 @@ html, body {
   width: 64px;
   height: 28px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255,153,180,0.9), transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 153, 180, 0.9),
+    transparent 70%
+  );
   bottom: 88px;
   z-index: 3;
   animation: cheekPulse 24s ease-in-out infinite;
 }
-.left-cheek { left: 48px; }
-.right-cheek { right: 48px; }
+.left-cheek {
+  left: 48px;
+}
+.right-cheek {
+  right: 48px;
+}
 
 /* === Nose === */
 .nose {
@@ -171,7 +219,7 @@ html, body {
 }
 .mouth::before,
 .mouth::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 28px;
   height: 15px;
@@ -182,9 +230,11 @@ html, body {
   animation: mouthEmotion 24s ease-in-out infinite;
   opacity: 1;
 }
-.mouth::before { left: -32px; }
+.mouth::before {
+  left: -32px;
+}
 .mouth::after {
-  left: -1px; 
+  left: -1px;
   animation: mouthEmotion 24s ease-in-out infinite;
   opacity: 1 !important;
 }
@@ -229,36 +279,89 @@ html, body {
 
 /* === Animations === */
 @keyframes bunnyTilt {
-  0%, 79% { rotate: 0deg; }
-  80% { rotate: -3deg; }
-  85% { rotate: 3deg; }
-  90% { rotate: 0deg; }
-  100% { rotate: 0deg; }
+  0%,
+  79% {
+    rotate: 0deg;
+  }
+  80% {
+    rotate: -3deg;
+  }
+  85% {
+    rotate: 3deg;
+  }
+  90% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
 }
 
 @keyframes wink {
-  0%, 79% { transform: scaleY(1) scaleX(1); }
-  80%, 90% { transform: scaleY(0.04) scaleX(1.2); }
-  91%, 100% { transform: scaleY(1) scaleX(1); }
+  0%,
+  79% {
+    transform: scaleY(1) scaleX(1);
+  }
+  80%,
+  90% {
+    transform: scaleY(0.04) scaleX(1.2);
+  }
+  91%,
+  100% {
+    transform: scaleY(1) scaleX(1);
+  }
 }
 
 @keyframes starburstPulse {
-  0%, 79%, 100% { opacity: 0; transform: scale(0.5) rotate(0deg); }
-  80% { opacity: 1; transform: scale(1.6) rotate(15deg); }
-  90% { opacity: 0.6; transform: scale(1.2) rotate(5deg); }
-  100% { opacity: 0; transform: scale(0.5) rotate(0deg); }
+  0%,
+  79%,
+  100% {
+    opacity: 0;
+    transform: scale(0.5) rotate(0deg);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(1.6) rotate(15deg);
+  }
+  90% {
+    opacity: 0.6;
+    transform: scale(1.2) rotate(5deg);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5) rotate(0deg);
+  }
 }
 
 @keyframes cheekPulse {
-  0%, 59%, 100% { opacity: 0.9; transform: scale(1); }
-  60%           { opacity: 1; transform: scale(1.6); }
-  70%           { opacity: 1; transform: scale(1.6); }
-  80%           { opacity: 0.9; transform: scale(1); }
+  0%,
+  59%,
+  100% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.6);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.6);
+  }
+  80% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
 }
 
 @keyframes mouthEmotion {
   /* Smile */
-  0%, 19%, 39%, 59%, 79%, 100% {
+  0%,
+  19%,
+  39%,
+  59%,
+  79%,
+  100% {
     border-radius: 0 0 50% 50%;
     border: 4.5px solid #505050;
     border-top: none;
@@ -270,7 +373,8 @@ html, body {
   }
 
   /* Surprise */
-  20%, 38% {
+  20%,
+  38% {
     border-radius: 50%;
     border: 4.5px solid #505050;
     background: transparent;
@@ -281,7 +385,8 @@ html, body {
   }
 
   /* Flat Smile*/
-  40%, 58% {
+  40%,
+  58% {
     border: none;
     background: #505050;
     height: 4px;
@@ -292,7 +397,8 @@ html, body {
   }
 
   /* Sad/Flat Smile*/
-  60%, 78% {
+  60%,
+  78% {
     border: none;
     background: #505050;
     height: 4px;
@@ -303,7 +409,8 @@ html, body {
   }
 
   /* Smile */
-  80%, 99% {
+  80%,
+  99% {
     border-radius: 0 0 50% 50%;
     border: 4.5px solid #505050;
     border-top: none;
@@ -316,22 +423,26 @@ html, body {
 }
 
 @keyframes tongueRetract {
-  0%, 2% {
+  0%,
+  2% {
     height: 0;
     bottom: 81.5px;
     opacity: 0;
   }
-  3%, 6% {
+  3%,
+  6% {
     height: 14px;
     bottom: 67.5px;
     opacity: 1;
   }
-  7%, 19% {
+  7%,
+  19% {
     height: 0;
     bottom: 81.5px;
     opacity: 0;
   }
-  20%, 100% {
+  20%,
+  100% {
     height: 0;
     bottom: 81.5px;
     opacity: 0;
@@ -339,25 +450,62 @@ html, body {
 }
 
 @keyframes tearDrop {
-  0%, 59% { opacity: 0; }
-  60%, 78% { opacity: 1; transform: translateY(0); }
-  79%, 100% { opacity: 0; transform: translateY(20px); }
+  0%,
+  59% {
+    opacity: 0;
+  }
+  60%,
+  78% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  79%,
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
 }
 
 @keyframes tearDropSecondary {
-  0%, 59% { opacity: 0; }
-  60%, 78% { opacity: 0.8; transform: translateY(0); }
-  79%, 100% { opacity: 0; transform: translateY(12px); }
+  0%,
+  59% {
+    opacity: 0;
+  }
+  60%,
+  78% {
+    opacity: 0.8;
+    transform: translateY(0);
+  }
+  79%,
+  100% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
 }
 
 @keyframes eyeCycle {
-  0%, 24%, 50%, 100% { transform: scale(1); }
-  25%, 49% { transform: scaleX(1.4) scaleY(1.1); }
+  0%,
+  24%,
+  50%,
+  100% {
+    transform: scale(1);
+  }
+  25%,
+  49% {
+    transform: scaleX(1.4) scaleY(1.1);
+  }
 }
 
 @keyframes angryEyebrows {
-  0%, 39%, 59%, 100% { opacity: 0; transform: rotate(0); }
-  40%, 58% {
+  0%,
+  39%,
+  59%,
+  100% {
+    opacity: 0;
+    transform: rotate(0);
+  }
+  40%,
+  58% {
     opacity: 1;
     transform: rotate(-20deg);
   }
