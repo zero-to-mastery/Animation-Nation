@@ -1,12 +1,12 @@
 body {
   background-color: rgb(164, 209, 159);
-  margin:0;
+  margin: 0;
 }
 .scene {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:100vh;
+  height: 100vh;
 }
 
 .bear_face {
@@ -42,24 +42,24 @@ body {
   border-radius: 25px;
   width: 45px;
   height: 60px;
-  position:relative;
+  position: relative;
 }
-.eye_2{
-    align-self:center;
-    animation-name:twinkle;
-    animation-duration:3s;
-    animation-iteration-count: infinite;
+.eye_2 {
+  align-self: center;
+  animation-name: twinkle;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
-.white_circle{
-    background-color:white;
-    width:20px;
-    height:20px;
-    border-radius:100%;
-    position: absolute;
-    top: 3px;
+.white_circle {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  position: absolute;
+  top: 3px;
 }
-.white_circle_2{
-    animation:twinkle_circle 3s infinite;
+.white_circle_2 {
+  animation: twinkle_circle 3s infinite;
 }
 .nose {
   width: 35px;
@@ -75,7 +75,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position:relative;
+  position: relative;
 }
 
 .upper_line {
@@ -85,71 +85,72 @@ body {
 }
 
 .lower_line {
-    
-    width: 95px;
-    height: 60px;
-    display: block;
-    background-color: transparent;
-    border-radius: 100%;
-    border-bottom: 2px solid rgb(43, 31, 31);
-    position: absolute;
-    top: -31px;
+  width: 95px;
+  height: 60px;
+  display: block;
+  background-color: transparent;
+  border-radius: 100%;
+  border-bottom: 2px solid rgb(43, 31, 31);
+  position: absolute;
+  top: -31px;
 }
 
-.tongue{
-    background-color:palevioletred;
-   border-radius: 0 0 20px 20px;
-   border-color:transparent;
-   width: 20px;
-   height: 20px;
-   margin: 0 auto;
-   animation-name:tongueOut;
-   animation-duration:3s;
-   animation-iteration-count: infinite;
-   animation-timing-function: ease-in-out;
+.tongue {
+  background-color: palevioletred;
+  border-radius: 0 0 20px 20px;
+  border-color: transparent;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  animation-name: tongueOut;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
-@keyframes tongueOut{
-  0%{
-    height:0;
+@keyframes tongueOut {
+  0% {
+    height: 0;
   }
-  50%{
-    height:20px;
-    transform:scaleY(1);
+  50% {
+    height: 20px;
+    transform: scaleY(1);
   }
-  90%, 100%{
-    height:0;
-    
+  90%,
+  100% {
+    height: 0;
   }
 }
 
-@keyframes twinkle{
-    0%{
-        transform:scaleY(1) scaleX(1);
-    }
-    
-    50%{
-        border-radius: 50%;
-        transform:scaleY(0.04) scaleX(1.2);
-    }
-    80%, 100%{
-        transform:scaleY(1) scaleX(1);
-    }
-    }
+@keyframes twinkle {
+  0% {
+    transform: scaleY(1) scaleX(1);
+  }
 
-@keyframes twinkle_circle{
-    0%{
-        opacity:1;
-    }
-    40%, 60%{
-        opacity:0.5;
-    }
-     50%{
-        opacity:0;
-        border-radius: 50%;
-        transform:scaleY(0.04) scaleX(1.2);
-    }
-    100%{
-        opacity:1;
-    }
-    }
+  50% {
+    border-radius: 50%;
+    transform: scaleY(0.04) scaleX(1.2);
+  }
+  80%,
+  100% {
+    transform: scaleY(1) scaleX(1);
+  }
+}
+
+@keyframes twinkle_circle {
+  0% {
+    opacity: 1;
+  }
+  40%,
+  60% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+    border-radius: 50%;
+    transform: scaleY(0.04) scaleX(1.2);
+  }
+  100% {
+    opacity: 1;
+  }
+}
