@@ -1949,5 +1949,14 @@
     "pageLink": "./Art/vs-code06-Temporal Ripples/index.html",
     "imageLink": "./Art/vs-code06-Temporal Ripples/icon.png",
     "projectPath": "Art/vs-code06-Temporal Ripples"
+  },
+    {
+    "author": "tamartre",
+    "artName": "jump animation",
+    "githubLink": "https://github.com/tamartre",
+    "pageLink": "./Art/AAbi/index.html",
+    "imageLink": "./Art/AAbi/icon.png",
+    "projectPath": "Art/AAbi"
+
   }
 ]
