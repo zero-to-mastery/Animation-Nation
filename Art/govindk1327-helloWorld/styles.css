@@ -16,20 +16,18 @@ body {
   position: relative;
   background: linear-gradient(
     90deg,
-    rgba(255,0,0,0) 0%,
-    rgba(255,50,0,1) 30%,
-    rgba(255,220,100,1) 50%,
-    rgba(255,50,0,1) 70%,
-    rgba(255,0,0,0) 100%
+    rgba(255, 0, 0, 0) 0%,
+    rgba(255, 50, 0, 1) 30%,
+    rgba(255, 220, 100, 1) 50%,
+    rgba(255, 50, 0, 1) 70%,
+    rgba(255, 0, 0, 0) 100%
   );
   background-size: 200%;
   -webkit-background-clip: text;
   background-clip: text;
   animation: beamDraw 6s linear infinite;
-  text-shadow:
-    0 0 20px rgba(255,0,0,0.4),
-    0 0 40px rgba(255,100,0,0.3),
-    0 0 80px rgba(255,180,0,0.2);
+  text-shadow: 0 0 20px rgba(255, 0, 0, 0.4), 0 0 40px rgba(255, 100, 0, 0.3),
+    0 0 80px rgba(255, 180, 0, 0.2);
 }
 
 @keyframes beamDraw {
@@ -56,7 +54,7 @@ body {
 }
 
 .beam-text::after {
-  content: "HELLO WORLD";
+  content: 'HELLO WORLD';
   position: absolute;
   inset: 0;
   color: #ff0000;
@@ -66,7 +64,14 @@ body {
 }
 
 @keyframes glowFade {
-  0%, 50% { opacity: 0.1; }
-  60% { opacity: 0.4; }
-  100% { opacity: 0.1; }
+  0%,
+  50% {
+    opacity: 0.1;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.1;
+  }
 }
