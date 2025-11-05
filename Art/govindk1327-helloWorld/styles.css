@@ -1,0 +1,72 @@
+body {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.beam-text {
+  font-size: 8vw;
+  font-weight: 900;
+  color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(255,0,0,0) 0%,
+    rgba(255,50,0,1) 30%,
+    rgba(255,220,100,1) 50%,
+    rgba(255,50,0,1) 70%,
+    rgba(255,0,0,0) 100%
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: beamDraw 6s linear infinite;
+  text-shadow:
+    0 0 20px rgba(255,0,0,0.4),
+    0 0 40px rgba(255,100,0,0.3),
+    0 0 80px rgba(255,180,0,0.2);
+}
+
+@keyframes beamDraw {
+  0% {
+    background-position: -100%;
+    filter: brightness(0.6);
+  }
+  25% {
+    background-position: 0%;
+    filter: brightness(1);
+  }
+  50% {
+    background-position: 100%;
+    filter: brightness(1.2);
+  }
+  75% {
+    background-position: 200%;
+    filter: brightness(0.9);
+  }
+  100% {
+    background-position: 300%;
+    filter: brightness(0.6);
+  }
+}
+
+.beam-text::after {
+  content: "HELLO WORLD";
+  position: absolute;
+  inset: 0;
+  color: #ff0000;
+  opacity: 0;
+  filter: blur(20px);
+  animation: glowFade 6s ease-in-out infinite;
+}
+
+@keyframes glowFade {
+  0%, 50% { opacity: 0.1; }
+  60% { opacity: 0.4; }
+  100% { opacity: 0.1; }
+}
