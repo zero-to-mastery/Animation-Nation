@@ -1,0 +1,81 @@
+:root {
+    --size: 500px;
+    --color1: #21b100;
+    --color2: #c11236;
+    --color3: #ffffff;
+    --backg: #000000;
+    --velocidad: 8s;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--backg);
+    overflow: hidden;
+}
+
+
+.circle {
+    width: var(--size);
+    height: var(--size);
+    border-radius: 70%;
+    background: conic-gradient(var(--color1) 0deg 20deg,
+            transparent 20deg 40deg,
+            var(--color2) 40deg 60deg,
+            transparent 60deg 80deg,
+            var(--color3) 80deg 100deg,
+            transparent 100deg 120deg,
+            var(--color1) 120deg 140deg,
+            transparent 140deg 160deg,
+            var(--color2) 160deg 180deg,
+            transparent 180deg 200deg,
+            var(--color3) 200deg 220deg,
+            transparent 220deg 240deg,
+            var(--color1) 240deg 260deg,
+            transparent 260deg 280deg,
+            var(--color2) 280deg 300deg,
+            transparent 300deg 320deg,
+            var(--color3) 320deg 340deg,
+            transparent 340deg 360deg,
+            var(--color1) 360deg 380deg,
+            transparent 380deg 400deg);
+    animation: rotar var(--velocidad) linear infinite;
+    box-shadow: 0 0 60px rgba(0, 255, 255, 0.69);
+    position: relative;
+}
+
+.center_circle {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px rgba(2, 1, 1, 0.7);
+}
+
+.circle::after {
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: var(--backg --background);
+    border-radius: 60%;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
