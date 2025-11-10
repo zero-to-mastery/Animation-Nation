@@ -1,30 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Neon Orbit — Animation</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<main class="stage" aria-label="Neon orbit animation">
-  <div class="core"></div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Neon Orbit — Animation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="stage" aria-label="Neon orbit animation">
+      <div class="core"></div>
 
-  <div class="orbit orbit--1"><div class="satellite"></div></div>
-  <div class="orbit orbit--2"><div class="satellite"></div></div>
-  <div class="orbit orbit--3"><div class="satellite"></div></div>
+      <div class="orbit orbit--1"><div class="satellite"></div></div>
+      <div class="orbit orbit--2"><div class="satellite"></div></div>
+      <div class="orbit orbit--3"><div class="satellite"></div></div>
 
-  <svg class="glow-filter" width="0" height="0" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <filter id="softGlow">
-        <feGaussianBlur stdDeviation="6" result="b" />
-        <feMerge>
-          <feMergeNode in="b" />
-          <feMergeNode in="SourceGraphic" />
-        </feMerge>
-      </filter>
-    </defs>
-  </svg>
-</main>
-</body>
+      <svg
+        class="glow-filter"
+        width="0"
+        height="0"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <filter id="softGlow">
+            <feGaussianBlur stdDeviation="6" result="b" />
+            <feMerge>
+              <feMergeNode in="b" />
+              <feMergeNode in="SourceGraphic" />
+            </feMerge>
+          </filter>
+        </defs>
+      </svg>
+    </main>
+  </body>
 </html>
