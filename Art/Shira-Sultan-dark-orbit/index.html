@@ -8,33 +8,23 @@
 </head>
 <body>
 <main class="stage" aria-label="Neon orbit animation">
-<div class="core"></div>
+  <div class="core"></div>
 
+  <div class="orbit orbit--1"><div class="satellite"></div></div>
+  <div class="orbit orbit--2"><div class="satellite"></div></div>
+  <div class="orbit orbit--3"><div class="satellite"></div></div>
 
-<div class="orbit orbit--1"><div class="satellite"></div></div>
-<div class="orbit orbit--2"><div class="satellite"></div></div>
-<div class="orbit orbit--3"><div class="satellite"></div></div>
-
-
-<svg class="glow-filter" width="0" height="0" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<filter id="softGlow">
-<feGaussianBlur stdDeviation="6" result="b" />
-<feMerge>
-<feMergeNode in="b" />
-<feMergeNode in="SourceGraphic" />
-</feMerge>
-</filter>
-</defs>
-</svg>
+  <svg class="glow-filter" width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <filter id="softGlow">
+        <feGaussianBlur stdDeviation="6" result="b" />
+        <feMerge>
+          <feMergeNode in="b" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+    </defs>
+  </svg>
 </main>
-
-
-<script>
-// Accessibility: pause animation with Space key
-document.body.addEventListener('keydown', (e) => {
-if (e.code === 'Space') document.documentElement.classList.toggle('paused');
-});
-</script>
 </body>
 </html>

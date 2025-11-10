@@ -1,9 +1,9 @@
 :root {
-  --bg: #010005;           /* רקע כהה מאוד */
-  --core: #ffd966;         /* ליבה זהובה רכה */
-  --accent1: #009dff;      /* כחול ניאון כהה */
-  --accent2: #9f00ff;      /* סגול ניאון */
-  --accent3: #00ffa2;      /* ירקרק זוהר */
+  --bg: #010005;
+  --core: #ffd966;
+  --accent1: #009dff;
+  --accent2: #9f00ff;
+  --accent3: #00ffa2;
 }
 
 * { box-sizing: border-box }
@@ -42,7 +42,7 @@ body {
   border-radius: 50%;
   background: radial-gradient(circle at 35% 30%, #fff, var(--core) 40%, rgba(255,228,139,0.08) 70%);
   box-shadow: 0 0 30px rgba(255,228,139,0.6), 0 0 80px rgba(255,228,139,0.12);
-  animation: pulse 3s linear infinite; /* תנועה רציפה לגמרי */
+  animation: pulse 3s linear infinite;
   z-index: 6;
 }
 
@@ -100,9 +100,6 @@ body {
   0% { transform: translate(-50%, -50%) rotate(0deg); }
   100% { transform: translate(-50%, -50%) rotate(360deg); }
 }
-
-/* ביטול עצירה בהובר */
-.stage:hover .orbit { animation-play-state: running; }
 
 @media (prefers-reduced-motion: reduce) {
   .orbit { animation: none; }
