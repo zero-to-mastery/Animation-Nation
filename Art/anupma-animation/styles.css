@@ -1,0 +1,212 @@
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  
+}
+
+.sparkle {
+  white-space: narrow;
+  overflow: hidden;
+  font-size: 3rem;
+  border-right: solid  white;
+  font-weight: bold;
+  background: linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  /*multiple animation*/
+  animation: typing  3s steps(30) forwards, blink 0.7s step-end infinite;
+
+/* Delay shimmer until typing finishes */
+  animation-delay: 0s, 0s, 3s;
+
+  /* Gradient for shimmer */
+  background: linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@keyframes typing{
+  from{ width: 0 }
+  to{ width: 100% }
+}
+
+@keyframes blink{
+  50% { border-color: transparent }
+}
+
+@keyframes shimmer{
+  0%{ background-position: 0% }
+  100%{ background-position: 100% }
+}
+
+.typewriter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  overflow: hidden;
+  color: white;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  animation: moveUp 2s ease-in-out forwards, blink 0.5s step-end infinite;
+}
+
+@keyframes moveUp{
+  0% p{
+    bottom: 0;
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    bottom: 80%;
+  }
+}
+.sparkle-container {
+  position: relative;
+  height: 100vh;
+  background: black;
+}
+.pulse {
+  font-size: 2rem;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white;
+  animation: typing 3s steps(30) forwards, blink 0.7s step-end infinite;
+
+  background: linear-gradient(90deg, violet, indigo, pink, green, yellow, orange, aqua);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+}
+
+@keyframes typing{
+  from{ width: 0 }
+  to{ width: 100% }
+  0%{ color: rgb(205, 63, 86)}
+  25%{ color: aquamarine}
+  50%{ color: rgba(160, 160, 10, 0.757) }
+  75%{ color: rgba(6, 104, 6, 0.906) }
+   100%{ color: brown}
+}
+@keyframes blink{
+{ border-color: transparent }
+}
+
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  animation: float 3s ease-in-out infinite;
+}
+.dot:nth-child(2) { left: 50px; animation-delay: 1s }
+.dot:nth-child(3) { left: 100px; animation-delay: 2s }
+
+@keyframes typing{
+  from{ width: 0 }
+  to{ width: 100% }
+}
+
+@keyframes blink{
+  50%{ border-color: transparent }
+}
+
+
+@keyframes shimmer{
+  0%{ background-position: 0% }
+  100%{ background-position: 100% }
+}
+@keyframes float{
+  0%{ top: 100% } 
+ 100%{ top: 0% }
+}
+.sparkle {
+  animation: typing 3s steps(30) forwards, blink 0.7s step-end infinite, shimmer 2s linear infinite, glow 2s ease-in-out infinite;
+  animation-delay: 0s, 0s, 3s, 3s;
+}
+
+@keyframes glow{
+  0%, 100%{ text-shadow: 0 0 10px white }
+  50%{ text-shadow: 0 0 20px violet }
+}
+.typewriter {
+  animation: moveUp 2s ease-out forwards, bounce 1s ease-in-out 2s;
+}
+
+@keyframes bounce{
+  0%{ transform: translateY(0) }
+  50%{ transform: translateY(-10px) }
+  100%{ transform: translateY(0) }
+}
+.dot {
+  animation: float 3s ease-in-out infinite, dotColor 3s linear infinite;
+}
+
+@keyframes dotColor{
+  0%{ background: greenyellow}
+  50%{ background: cyan }
+  100%{ background: blue }
+}
+.pulse {
+  animation: fadeLetters 3s steps(30) forwards;
+}
+
+@keyframes fadeLetters{
+  from{ opacity: 0 }
+  to{ opacity: 1 }
+}
+.sparkle:hover {
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@media (max-width: 768px) {
+  .typewriter {
+    font-size: 2rem;
+  }
+
+  .pulse, .sparkle {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+
+  .typewriter-row, .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .sparkle-container {
+    height: 60px;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+@media (max-width: 480px){
+  .typewriter {
+    font-size: 1.5rem;
+  }
+
+  .pulse, .sparkle {
+    font-size: 1.2rem;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+  }
+}
