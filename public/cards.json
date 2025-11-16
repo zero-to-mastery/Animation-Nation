@@ -1981,5 +1981,10 @@
     "pageLink": "./Art/vs-code06-Temporal Ripples/index.html",
     "imageLink": "./Art/vs-code06-Temporal Ripples/icon.png",
     "projectPath": "Art/vs-code06-Temporal Ripples"
+  }, {
+    "author": "Jaime",
+    "artName": "everything-is-awesome",
+    "githubLink": "https://github.com/jzepedaa",
+    "pageLink": "./Art/everything-is-awesome/index.html"
   }
 ]
