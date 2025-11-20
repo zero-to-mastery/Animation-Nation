@@ -39,7 +39,8 @@ body {
 }
 
 @keyframes blink {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.2;
   }
   50% {
