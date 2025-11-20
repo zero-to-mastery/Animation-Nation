@@ -1,0 +1,26 @@
+body {
+    background: #111;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: cyan;
+    border-radius: 10px;
+    animation: move 3s infinite alternate ease-in-out;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(-150px);
+        background: cyan;
+    }
+    100% {
+        transform: translateX(150px);
+        background: magenta;
+    }
+}
