@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background: #000;
+  overflow: hidden;
+}
+
+.night {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.firefly {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 8px yellow;
+  animation: fly 10s linear infinite, blink 2s ease-in-out infinite;
+}
+
+@keyframes fly {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(100px, -50px);
+  }
+  50% {
+    transform: translate(-50px, 100px);
+  }
+  75% {
+    transform: translate(80px, -80px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.firefly:nth-child(1) {
+  top: 20%;
+  left: 30%;
+  animation-delay: 0s, 1s;
+}
+.firefly:nth-child(2) {
+  top: 50%;
+  left: 60%;
+  animation-delay: 2s, 0.5s;
+}
+.firefly:nth-child(3) {
+  top: 70%;
+  left: 40%;
+  animation-delay: 4s, 1.5s;
+}
+.firefly:nth-child(4) {
+  top: 30%;
+  left: 80%;
+  animation-delay: 1s, 0.2s;
+}
+.firefly:nth-child(5) {
+  top: 60%;
+  left: 20%;
+  animation-delay: 3s, 1s;
+}
