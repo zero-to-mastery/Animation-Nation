@@ -3,14 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" type="text/css" href="./public/styles.css" />
     <link rel="icon" type="image/png" href="./public/favicon.ico" />
+
     <title>Animation Nation - ZTM Hacktoberfest</title>
   </head>
 
@@ -18,9 +21,18 @@
     <div id="header">
       <div id="header-content">
         <h1>Animation Nation</h1>
-        <p id="stats"></p>
+
+        <!-- 🔧 ADDED FOR ACCESSIBILITY: aria-live so screen readers are notified when stats update -->
+        <p id="stats" aria-live="polite"></p>
+        <!-- END OF MODIFICATION -->
+
         <div id="search-container">
           <div id="search-wrapper">
+
+            <!-- 🔧 ADDED FOR ACCESSIBILITY: hidden label for search input -->
+            <label for="search-input" class="sr-only">Search animations</label>
+            <!-- END OF MODIFICATION -->
+
             <input
               type="text"
               id="search-input"
@@ -33,16 +45,19 @@
     </div>
 
     <div class="card-container">
-      <ul class="flex" id="cards">
-        <!-- Content is generated dynamically  -->
+      <!-- 🔧 ADDED FOR ACCESSIBILITY: gallery label for screen readers -->
+      <ul class="flex" id="cards" aria-label="Animation cards gallery">
+        <!-- Content is generated dynamically -->
         <!-- Do not add your card here -->
       </ul>
+      <!-- END OF MODIFICATION -->
     </div>
 
-    <div class="go-to-top">
+    <!-- 🔧 ADDED FOR ACCESSIBILITY: role + aria-label for button-like element -->
+    <div class="go-to-top" role="button" aria-label="Scroll to top">
       <span>&uarr;</span>
-      <!-- Use an upward arrow character -->
     </div>
+    <!-- END OF MODIFICATION -->
 
     <script src="./public/includes.js"></script>
   </body>
