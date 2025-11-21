@@ -290,3 +290,27 @@ ul {
   text-align: center;
   padding: 50px 0;
 }
+
+/* contribution */
+#contribute-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 25px; /* Sépare le bouton du champ de recherche */
+    background-color: #007bff; /* Bleu classique */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    /* Assurez-vous que cela s'aligne bien avec les autres éléments du header */
+    text-align: center;
+}
+
+#contribute-btn:hover {
+    background-color: #0056b3; /* Bleu plus foncé au survol */
+}
+
+#contribute-btn i {
+    margin-right: 8px; /* Espace entre l'icône et le texte */
+}
