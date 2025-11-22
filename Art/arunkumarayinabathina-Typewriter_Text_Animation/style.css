@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.typewriter {
+    font-size: 28px;
+    width: 17ch;
+    border-right: 3px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(15), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
