@@ -58,7 +58,7 @@ The script is able to:
 
 ### 🔹 Terminologies
 
-`constants`: Also holds configurable variables if project grow
+`constants`: Also holds configurable variables if project the grows
 
 `helpers`: Main script high-level helpers for main logic implementation  
 _( contributionStates, helpers functions , ...)_
