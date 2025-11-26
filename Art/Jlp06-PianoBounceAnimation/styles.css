@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    background: #87CEEB;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.scene {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+/* Buildings */
+.building {
+    position: absolute;
+    bottom: 0;
+    width: calc((100% / 15) - 2px);
+    background: #2f2f2f;
+    border: 1px solid black;
+    animation: colorCycle 6s infinite alternate;
+}
+
+/* Buildings sizes & positions */
+.b1 {
+    left: 0;
+    height: 240px;
+    animation-duration: 5s;
+}
+
+.b2 {
+    left: calc(100% / 15);
+    height: 180px;
+    animation-duration: 7s;
+}
+
+.b3 {
+    left: calc(100% * 2 / 15);
+    height: 300px;
+    animation-duration: 6s;
+}
+
+.b4 {
+    left: calc(100% * 3 / 15);
+    height: 210px;
+    animation-duration: 4s;
+}
+
+.b5 {
+    left: calc(100% * 4 / 15);
+    height: 260px;
+    animation-duration: 5s;
+}
+
+.b6 {
+    left: calc(100% * 5 / 15);
+    height: 170px;
+    animation-duration: 8s;
+}
+
+.b7 {
+    left: calc(100% * 6 / 15);
+    height: 310px;
+    animation-duration: 6s;
+}
+
+.b8 {
+    left: calc(100% * 7 / 15);
+    height: 200px;
+    animation-duration: 5s;
+}
+
+.b9 {
+    left: calc(100% * 8 / 15);
+    height: 250px;
+    animation-duration: 7s;
+}
+
+.b10 {
+    left: calc(100% * 9 / 15);
+    height: 150px;
+    animation-duration: 9s;
+}
+
+.b11 {
+    left: calc(100% * 10 / 15);
+    height: 280px;
+    animation-duration: 6s;
+}
+
+.b12 {
+    left: calc(100% * 11 / 15);
+    height: 220px;
+    animation-duration: 4s;
+}
+
+.b13 {
+    left: calc(100% * 12 / 15);
+    height: 320px;
+    animation-duration: 5s;
+}
+
+.b14 {
+    left: calc(100% * 13 / 15);
+    height: 190px;
+    animation-duration: 7s;
+}
+
+.b15 {
+    left: calc(100% * 14 / 15);
+    height: 270px;
+    animation-duration: 6s;
+}
+
+/* Balls container */
+.balls-container {
+    position: absolute;
+    bottom: 320px;
+    /* slightly above tallest building */
+    width: 100%;
+    height: 80px;
+    /* space for balls to move */
+}
+
+/* Balls */
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: yellow;
+    bottom: 0;
+    /* start at bottom of container */
+}
+
+/* Ball starting positions */
+.ball1 {
+    left: 10%;
+    animation: bounce1 3s infinite alternate ease-in-out;
+}
+
+.ball2 {
+    left: 30%;
+    animation: bounce2 4s infinite alternate ease-in-out;
+}
+
+.ball3 {
+    left: 50%;
+    animation: bounce3 5s infinite alternate ease-in-out;
+}
+
+.ball4 {
+    left: 70%;
+    animation: bounce4 3.5s infinite alternate ease-in-out;
+}
+
+.ball5 {
+    left: 90%;
+    animation: bounce5 4.5s infinite alternate ease-in-out;
+}
+
+/* Ball keyframes (move up and down above buildings) */
+@keyframes bounce1 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-60px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce2 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce3 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-70px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce4 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-55px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce5 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-65px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Building color animation */
+@keyframes colorCycle {
+    0% {
+        background-color: #2f2f2f;
+    }
+
+    25% {
+        background-color: #ff6f61;
+    }
+
+    50% {
+        background-color: #6a5acd;
+    }
+
+    75% {
+        background-color: #20b2aa;
+    }
+
+    100% {
+        background-color: #ffb347;
+    }
+}
