@@ -38,20 +38,29 @@ body {
   height: 180px;
   background: radial-gradient(circle, #fff6c7 0%, #ffd86e 40%, #ff8936 100%);
   border-radius: 50%;
-  animation: sunDrop 10s ease-in-out infinite alternate, glowPulse 3s ease-in-out infinite;
+  animation: sunDrop 10s ease-in-out infinite alternate,
+    glowPulse 3s ease-in-out infinite;
   box-shadow: 0 0 60px rgba(255, 210, 90, 0.9);
 }
 
 /* Sun lowering animation */
 @keyframes sunDrop {
-  0% { transform: translate(-50%, -30px); }
-  100% { transform: translate(-50%, 60px); }
+  0% {
+    transform: translate(-50%, -30px);
+  }
+  100% {
+    transform: translate(-50%, 60px);
+  }
 }
 
 /* Pulsing glow effect */
 @keyframes glowPulse {
-  0% { box-shadow: 0 0 40px rgba(255, 200, 120, 0.6); }
-  100% { box-shadow: 0 0 75px rgba(255, 160, 60, 1); }
+  0% {
+    box-shadow: 0 0 40px rgba(255, 200, 120, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 75px rgba(255, 160, 60, 1);
+  }
 }
 
 /* ---- OCEAN ---- */
@@ -76,14 +85,29 @@ body {
   animation: waveRoll 7s linear infinite;
 }
 
-.wave1 { top: 40px; animation-duration: 8s; }
-.wave2 { top: 80px; opacity: 0.2; animation-duration: 6s; }
-.wave3 { top: 115px; opacity: 0.15; animation-duration: 10s; }
+.wave1 {
+  top: 40px;
+  animation-duration: 8s;
+}
+.wave2 {
+  top: 80px;
+  opacity: 0.2;
+  animation-duration: 6s;
+}
+.wave3 {
+  top: 115px;
+  opacity: 0.15;
+  animation-duration: 10s;
+}
 
 /* Wave movement */
 @keyframes waveRoll {
-  0% { transform: translateX(0) }
-  100% { transform: translateX(-50%) }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ---- CLOUDS ---- */
@@ -119,7 +143,10 @@ body {
 
 /* Cloud drifting animation */
 @keyframes drift {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(700px); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(700px);
+  }
 }
-
