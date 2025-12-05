@@ -488,12 +488,28 @@
     "projectPath": "Art/IshaaqDaahir-tv-stories"
   },
   {
+    "author": "JacobCasaer",
+    "artName": "sunset mood",
+    "githubLink": "https://github.com/JacobCasaer",
+    "pageLink": "./Art/JacobCasaer-sunset-mood/index.html",
+    "imageLink": "./Art/JacobCasaer-sunset-mood/icon.png",
+    "projectPath": "Art/JacobCasaer-sunset-mood"
+  },
+  {
     "author": "Jlp06",
     "artName": "Piano Bounce Animation",
     "githubLink": "https://github.com/Jlp06",
     "pageLink": "./Art/Jlp06-PianoBounceAnimation/index.html",
     "imageLink": "./Art/Jlp06-PianoBounceAnimation/icon.png",
     "projectPath": "Art/Jlp06-PianoBounceAnimation"
+  },
+  {
+    "author": "JoeBreidinger",
+    "artName": "Concentric Pulse",
+    "githubLink": "https://github.com/JoeBreidinger",
+    "pageLink": "./Art/JoeBreidinger-ConcentricPulse/index.html",
+    "imageLink": "./Art/JoeBreidinger-ConcentricPulse/icon.png",
+    "projectPath": "Art/JoeBreidinger-ConcentricPulse"
   },
   {
     "author": "JoydeepBanerjee71",
@@ -734,6 +750,14 @@
     "pageLink": "./Art/Rajudas94-RetroSpin Player/index.html",
     "imageLink": "./Art/Rajudas94-RetroSpin Player/icon.png",
     "projectPath": "Art/Rajudas94-RetroSpin Player"
+  },
+  {
+    "author": "Ritchee92",
+    "artName": "Neon Bars",
+    "githubLink": "https://github.com/Ritchee92",
+    "pageLink": "./Art/Ritchee92-Neon-Bars/index.html",
+    "imageLink": "./Art/Ritchee92-Neon-Bars/icon.png",
+    "projectPath": "Art/Ritchee92-Neon-Bars"
   },
   {
     "author": "Kavya-Jain-coder",

@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 100vh;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.d1,
+.d2,
+.d3,
+.d4 {
+  flex-grow: 1;
+  border: 2px solid black;
+  animation: pulse 1s infinite ease-in-out;
+}
+
+.d1 {
+  background-color: aqua;
+}
+
+.d2 {
+  background-color: red;
+}
+
+.d3 {
+  background-color: lightgreen;
+}
+
+.d4 {
+  background-color: peru;
+}
