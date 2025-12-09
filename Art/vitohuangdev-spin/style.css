@@ -7,7 +7,7 @@
   --radius: 50px;
 }
 
-@keyframes spiralling {
+@keyframes spin {
   from {
     transform: translate(-50%, -50%) rotate(0deg)
   }
@@ -16,14 +16,14 @@
   }
 }
 
-.spiral-container {
+.spin-container {
   position: relative;
   width: 100vw;
   height: 100vh;
   background: black;
 }
 
-.spiral-rotator {
+.spin-rotator {
   width: 600px;
   height: 600px;
   position: absolute;
@@ -31,10 +31,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   transform-origin: 50% 50%;
-  animation: spiralling 4s linear infinite;
+  animation: spin 4s linear infinite;
 }
 
-.spiral-rotator__particle {
+.spin-rotator__particle {
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -44,42 +44,42 @@
   top: 50%;
 }
 
-.spiral-rotator__particle:nth-child(2) {
+.spin-rotator__particle:nth-child(2) {
   transform: translate(calc(var(--radius) * 1), calc(var(--radius) * 1))
 }
 
-.spiral-rotator__particle:nth-child(3) {
+.spin-rotator__particle:nth-child(3) {
   transform: translate(calc(var(--radius) * 2), calc(var(--radius) * 2))
 }
 
-.spiral-rotator__particle:nth-child(4) {
+.spin-rotator__particle:nth-child(4) {
   transform: translate(calc(var(--radius) * 3), calc(var(--radius) * 3))
 }
 
-.spiral-rotator__particle:nth-child(5) {
+.spin-rotator__particle:nth-child(5) {
   transform: translate(calc(var(--radius) * 4), calc(var(--radius) * 4))
 }
 
-.spiral-rotator__particle:nth-child(6) {
+.spin-rotator__particle:nth-child(6) {
   transform: translate(calc(var(--radius) * 5), calc(var(--radius) * 5))
 }
 
-.spiral-rotator__particle:nth-child(7) {
+.spin-rotator__particle:nth-child(7) {
   transform: translate(calc(var(--radius) * -1), calc(var(--radius) * -1))
 }
 
-.spiral-rotator__particle:nth-child(8) {
+.spin-rotator__particle:nth-child(8) {
   transform: translate(calc(var(--radius) * -2), calc(var(--radius) * -2))
 }
 
-.spiral-rotator__particle:nth-child(9) {
+.spin-rotator__particle:nth-child(9) {
   transform: translate(calc(var(--radius) * -3), calc(var(--radius) * -3))
 }
 
-.spiral-rotator__particle:nth-child(10) {
+.spin-rotator__particle:nth-child(10) {
   transform: translate(calc(var(--radius) * -4), calc(var(--radius) * -4))
 }
 
-.spiral-rotator__particle:last-child {
+.spin-rotator__particle:last-child {
   transform: translate(calc(var(--radius) * -5), calc(var(--radius) * -5))
 }
