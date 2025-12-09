@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.animation-wrapper {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+.bouncing-ball {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    animation: bounce 1.5s ease-in-out infinite;
+}
+
+.ball-1 {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    animation-delay: 0s;
+    box-shadow: 0 0 30px rgba(102, 126, 234, 0.8);
+}
+
+.ball-2 {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+    animation-delay: 0.2s;
+    box-shadow: 0 0 30px rgba(245, 87, 108, 0.8);
+}
+
+.ball-3 {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    animation-delay: 0.4s;
+    box-shadow: 0 0 30px rgba(79, 172, 254, 0.8);
+}
+
+.ball-4 {
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+    animation-delay: 0.6s;
+    box-shadow: 0 0 30px rgba(67, 233, 123, 0.8);
+}
+
+.ball-5 {
+    background: linear-gradient(135deg, #fa709a, #fee140);
+    animation-delay: 0.8s;
+    box-shadow: 0 0 30px rgba(250, 112, 154, 0.8);
+}
+
+.shadow {
+    width: 60px;
+    height: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    filter: blur(5px);
+    animation: shadowPulse 1.5s ease-in-out infinite;
+}
+
+.shadow-1 {
+    left: 20px;
+    animation-delay: 0s;
+}
+
+.shadow-2 {
+    left: 110px;
+    animation-delay: 0.2s;
+}
+
+.shadow-3 {
+    left: 200px;
+    animation-delay: 0.4s;
+}
+
+.shadow-4 {
+    left: 290px;
+    animation-delay: 0.6s;
+}
+
+.shadow-5 {
+    left: 380px;
+    animation-delay: 0.8s;
+}
+
+.title {
+    margin-top: 40px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    animation: glow 2s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0) scale(1, 1);
+    }
+    50% {
+        transform: translateY(-200px) scale(1.1, 0.9);
+    }
+}
+
+@keyframes shadowPulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.3;
+    }
+    50% {
+        transform: scale(0.5);
+        opacity: 0.6;
+    }
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgba(102, 126, 234, 0.5),
+                     0 0 20px rgba(102, 126, 234, 0.3),
+                     0 0 30px rgba(102, 126, 234, 0.2);
+    }
+    to {
+        text-shadow: 0 0 20px rgba(245, 87, 108, 0.8),
+                     0 0 30px rgba(245, 87, 108, 0.5),
+                     0 0 40px rgba(245, 87, 108, 0.3);
+    }
+}
