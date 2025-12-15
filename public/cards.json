@@ -880,54 +880,6 @@
     "projectPath": "Art/UserAkku-pentagon"
   },
   {
-    "author": "VTwin90",
-    "artName": "Abstract",
-    "githubLink": "https://github.com/VTwin90",
-    "pageLink": "./Art/VTwin90-abstract/index.html",
-    "imageLink": "./Art/VTwin90-abstract/icon.png",
-    "projectPath": "Art/VTwin90-abstract"
-  },
-  {
-    "author": "VTwin90",
-    "artName": "Expressive Bunny",
-    "githubLink": "https://github.com/VTwin90",
-    "pageLink": "./Art/VTwin90-expressive-bunny/index.html",
-    "imageLink": "./Art/VTwin90-expressive-bunny/icon.png",
-    "projectPath": "Art/VTwin90-expressive-bunny"
-  },
-  {
-    "author": "VTwin90",
-    "artName": "Halloween Pumpkin",
-    "githubLink": "https://github.com/VTwin90",
-    "pageLink": "./Art/VTwin90-halloween-pumpkin/index.html",
-    "imageLink": "./Art/VTwin90-halloween-pumpkin/icon.png",
-    "projectPath": "Art/VTwin90-halloween-pumpkin"
-  },
-  {
-    "author": "VTwin90",
-    "artName": "Night Sky, Ocean & Fireflies",
-    "githubLink": "https://github.com/VTwin90",
-    "pageLink": "./Art/VTwin90-night-sky-ocean-and-fireflies/index.html",
-    "imageLink": "./Art/VTwin90-night-sky-ocean-and-fireflies/icon.png",
-    "projectPath": "Art/VTwin90-night-sky-ocean-and-fireflies"
-  },
-  {
-    "author": "VTwin90",
-    "artName": "Northern Lights Over a Sleeping Ice Bear",
-    "githubLink": "https://github.com/VTwin90",
-    "pageLink": "./Art/VTwin90-northern-lights/index.html",
-    "imageLink": "./Art/VTwin90-northern-lights/icon.png",
-    "projectPath": "Art/VTwin90-northern-lights"
-  },
-  {
-    "author": "VTwin90",
-    "artName": "Pac Man",
-    "githubLink": "https://github.com/VTwin90",
-    "pageLink": "./Art/VTwin90-pac-man/index.html",
-    "imageLink": "./Art/VTwin90-pac-man/icon.png",
-    "projectPath": "Art/VTwin90-pac-man"
-  },
-  {
     "author": "Vatsakala",
     "artName": "neon curves",
     "githubLink": "https://github.com/Vatsakala",
@@ -1941,6 +1893,54 @@
     "pageLink": "./Art/tomdu3-time-flies/index.html",
     "imageLink": "./Art/tomdu3-time-flies/icon.png",
     "projectPath": "Art/tomdu3-time-flies"
+  },
+  {
+    "author": "vanjatorp",
+    "artName": "Abstract",
+    "githubLink": "https://github.com/vanjatorp",
+    "pageLink": "./Art/vanjatorp-abstract/index.html",
+    "imageLink": "./Art/vanjatorp-abstract/icon.png",
+    "projectPath": "Art/vanjatorp-abstract"
+  },
+  {
+    "author": "vanjatorp",
+    "artName": "Expressive Bunny",
+    "githubLink": "https://github.com/vanjatorp",
+    "pageLink": "./Art/vanjatorp-expressive-bunny/index.html",
+    "imageLink": "./Art/vanjatorp-expressive-bunny/icon.png",
+    "projectPath": "Art/vanjatorp-expressive-bunny"
+  },
+  {
+    "author": "vanjatorp",
+    "artName": "Halloween Pumpkin",
+    "githubLink": "https://github.com/vanjatorp",
+    "pageLink": "./Art/vanjatorp-halloween-pumpkin/index.html",
+    "imageLink": "./Art/vanjatorp-halloween-pumpkin/icon.png",
+    "projectPath": "Art/vanjatorp-halloween-pumpkin"
+  },
+  {
+    "author": "vanjatorp",
+    "artName": "Night Sky, Ocean & Fireflies",
+    "githubLink": "https://github.com/vanjatorp",
+    "pageLink": "./Art/vanjatorp-night-sky-ocean-and-fireflies/index.html",
+    "imageLink": "./Art/vanjatorp-night-sky-ocean-and-fireflies/icon.png",
+    "projectPath": "Art/vanjatorp-night-sky-ocean-and-fireflies"
+  },
+  {
+    "author": "vanjatorp",
+    "artName": "Northern Lights Over a Sleeping Ice Bear",
+    "githubLink": "https://github.com/vanjatorp",
+    "pageLink": "./Art/vanjatorp-northern-lights/index.html",
+    "imageLink": "./Art/vanjatorp-northern-lights/icon.png",
+    "projectPath": "Art/vanjatorp-northern-lights"
+  },
+  {
+    "author": "vanjatorp",
+    "artName": "Pac Man",
+    "githubLink": "https://github.com/vanjatorp",
+    "pageLink": "./Art/vanjatorp-pac-man/index.html",
+    "imageLink": "./Art/vanjatorp-pac-man/icon.png",
+    "projectPath": "Art/vanjatorp-pac-man"
   },
   {
     "author": "vishrutha-rao-k",
