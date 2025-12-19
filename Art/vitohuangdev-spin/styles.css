@@ -9,10 +9,10 @@
 
 @keyframes spin {
   from {
-    transform: translate(-50%, -50%) rotate(0deg)
+    transform: translate(-50%, -50%) rotate(0deg);
   }
   to {
-    transform: translate(-50%, -50%) rotate(360deg)
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
 
@@ -45,41 +45,41 @@
 }
 
 .spin-rotator__particle:nth-child(2) {
-  transform: translate(calc(var(--radius) * 1), calc(var(--radius) * 1))
+  transform: translate(calc(var(--radius) * 1), calc(var(--radius) * 1));
 }
 
 .spin-rotator__particle:nth-child(3) {
-  transform: translate(calc(var(--radius) * 2), calc(var(--radius) * 2))
+  transform: translate(calc(var(--radius) * 2), calc(var(--radius) * 2));
 }
 
 .spin-rotator__particle:nth-child(4) {
-  transform: translate(calc(var(--radius) * 3), calc(var(--radius) * 3))
+  transform: translate(calc(var(--radius) * 3), calc(var(--radius) * 3));
 }
 
 .spin-rotator__particle:nth-child(5) {
-  transform: translate(calc(var(--radius) * 4), calc(var(--radius) * 4))
+  transform: translate(calc(var(--radius) * 4), calc(var(--radius) * 4));
 }
 
 .spin-rotator__particle:nth-child(6) {
-  transform: translate(calc(var(--radius) * 5), calc(var(--radius) * 5))
+  transform: translate(calc(var(--radius) * 5), calc(var(--radius) * 5));
 }
 
 .spin-rotator__particle:nth-child(7) {
-  transform: translate(calc(var(--radius) * -1), calc(var(--radius) * -1))
+  transform: translate(calc(var(--radius) * -1), calc(var(--radius) * -1));
 }
 
 .spin-rotator__particle:nth-child(8) {
-  transform: translate(calc(var(--radius) * -2), calc(var(--radius) * -2))
+  transform: translate(calc(var(--radius) * -2), calc(var(--radius) * -2));
 }
 
 .spin-rotator__particle:nth-child(9) {
-  transform: translate(calc(var(--radius) * -3), calc(var(--radius) * -3))
+  transform: translate(calc(var(--radius) * -3), calc(var(--radius) * -3));
 }
 
 .spin-rotator__particle:nth-child(10) {
-  transform: translate(calc(var(--radius) * -4), calc(var(--radius) * -4))
+  transform: translate(calc(var(--radius) * -4), calc(var(--radius) * -4));
 }
 
 .spin-rotator__particle:last-child {
-  transform: translate(calc(var(--radius) * -5), calc(var(--radius) * -5))
+  transform: translate(calc(var(--radius) * -5), calc(var(--radius) * -5));
 }

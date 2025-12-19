@@ -1,62 +1,56 @@
 body {
-    background: rgb(182, 237, 237);
+  background: rgb(182, 237, 237);
 
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    min-height: 100vh;       
-  }
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 
 .box {
-    background-color: rgb(255, 0, 221);
-    width: 300px;
-    height: 300px;
-    border: 15px solid rgb(245, 166, 223);
-    padding: 50px;
-    margin: 20px;
+  background-color: rgb(255, 0, 221);
+  width: 300px;
+  height: 300px;
+  border: 15px solid rgb(245, 166, 223);
+  padding: 50px;
+  margin: 20px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    animation: 
-    colorChange 4s infinite,
-    fadeInOut 4s infinite;
-    
-
+  animation: colorChange 4s infinite, fadeInOut 4s infinite;
 }
 
 @keyframes colorChange {
-    0% {
-        background-color: aqua;
-    }
-    25% {
-        background-color: rgb(255, 0, 119);
-    }
-    50% {
-        background-color: aqua;
-    }
-    75% {
-        background-color: rgb(255, 0, 187);
-    }
-    100% {
-        background-color: aqua;
-    }
+  0% {
+    background-color: aqua;
+  }
+  25% {
+    background-color: rgb(255, 0, 119);
+  }
+  50% {
+    background-color: aqua;
+  }
+  75% {
+    background-color: rgb(255, 0, 187);
+  }
+  100% {
+    background-color: aqua;
+  }
 }
 
 @keyframes fadeInOut {
-    0% {
-      opacity: 0;
-      transform: scale(0.5);
-    }
-    50% {
-      opacity: 1;
-      transform: scale(1);
-    }
-    100% {
-      opacity: 0;
-      transform: scale(0.5);
-    }
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
   }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
