@@ -1192,6 +1192,14 @@
     "projectPath": "Art/chicacode-pineapple"
   },
   {
+    "author": "ChrisAhearn",
+    "artName": "pureart",
+    "githubLink": "https://github.com/ChrisAhearn",
+    "pageLink": "./Art/chrisahearn-box animation/index.html",
+    "imageLink": "./Art/chrisahearn-box animation/icon.png",
+    "projectPath": "Art/chrisahearn-box animation"
+  },
+  {
     "author": "ClJarvis",
     "artName": "goal",
     "githubLink": "https://github.com/ClJarvis",
@@ -1949,6 +1957,22 @@
     "pageLink": "./Art/vishrutha-rao-k-quantum-pulse/index.html",
     "imageLink": "./Art/vishrutha-rao-k-quantum-pulse/icon.png",
     "projectPath": "Art/vishrutha-rao-k-quantum-pulse"
+  },
+  {
+    "author": "vitohuangdev",
+    "artName": "spin",
+    "githubLink": "https://github.com/vitohuangdev",
+    "pageLink": "./Art/vitohuangdev-spin/index.html",
+    "imageLink": "./Art/vitohuangdev-spin/icon.png",
+    "projectPath": "Art/vitohuangdev-spin"
+  },
+  {
+    "author": "vitohuangdev",
+    "artName": "spiralling",
+    "githubLink": "https://github.com/vitohuangdev",
+    "pageLink": "./Art/vitohuangdev-spiralling/index.html",
+    "imageLink": "./Art/vitohuangdev-spiralling/icon.png",
+    "projectPath": "Art/vitohuangdev-spiralling"
   },
   {
     "author": "volt3301",
