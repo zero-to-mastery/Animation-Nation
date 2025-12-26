@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    overflow: hidden;
+}
+
+/* Stars background */
+body::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(2px 2px at 20% 30%, white, transparent),
+        radial-gradient(2px 2px at 60% 70%, white, transparent),
+        radial-gradient(1px 1px at 50% 50%, white, transparent),
+        radial-gradient(1px 1px at 80% 10%, white, transparent),
+        radial-gradient(2px 2px at 90% 60%, white, transparent),
+        radial-gradient(1px 1px at 33% 80%, white, transparent);
+    background-size: 200% 200%;
+    animation: twinkle 4s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+.saturn-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    animation: dance 3s ease-in-out infinite,
+    tilt3d 5s ease-in-out infinite;
+}
+
+
+@keyframes dance {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg) scale(1);
+    }
+    25% {
+        transform: translateY(-30px) rotate(-10deg) scale(1.05);
+    }
+    50% {
+        transform: translateY(0) rotate(0deg) scale(1);
+    }
+    75% {
+        transform: translateY(-30px) rotate(10deg) scale(1.05);
+    }
+}
+
+.planet {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle at 30% 30%, #f4d03f, #e8b923 30%, #c89116 60%, #a67c00);
+    border-radius: 50%;
+    box-shadow: 
+        inset -20px -20px 40px rgba(0, 0, 0, 0.3),
+        0 0 60px rgba(244, 208, 63, 0.4);
+    animation: spin 20s linear infinite, wobble 2s ease-in-out infinite;
+    z-index: 2;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes wobble {
+    0%, 100% { 
+        border-radius: 50% 50% 50% 50%;
+    }
+    25% { 
+        border-radius: 48% 52% 50% 50%;
+    }
+    50% { 
+        border-radius: 50% 50% 48% 52%;
+    }
+    75% { 
+        border-radius: 52% 48% 50% 50%;
+    }
+}
+
+/* Saturn's bands */
+.band {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background: rgba(200, 145, 22, 0.3);
+    border-radius: 50%;
+}
+
+.band:nth-child(1) {
+    top: 30%;
+    animation: bandMove1 3s ease-in-out infinite;
+}
+
+.band:nth-child(2) {
+    top: 50%;
+    animation: bandMove2 3s ease-in-out infinite;
+}
+
+.band:nth-child(3) {
+    top: 70%;
+    animation: bandMove3 3s ease-in-out infinite;
+}
+
+@keyframes bandMove1 {
+    0%, 100% { transform: translateX(0) scaleX(1); }
+    50% { transform: translateX(5px) scaleX(1.02); }
+}
+
+@keyframes bandMove2 {
+    0%, 100% { transform: translateX(0) scaleX(1); }
+    50% { transform: translateX(-5px) scaleX(0.98); }
+}
+
+@keyframes bandMove3 {
+    0%, 100% { transform: translateX(0) scaleX(1); }
+    50% { transform: translateX(3px) scaleX(1.01); }
+}
+
+/* Ring system */
+.ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateX(75deg);
+    border: 40px solid transparent;
+    border-radius: 50%;
+    animation: ringPulse 4s ease-in-out infinite;
+}
+
+.ring-outer {
+    width: 450px;
+    height: 450px;
+    border-color: rgba(151, 118, 7, 0.4);
+    z-index: 1;
+}
+
+.ring-middle {
+    width: 320px;
+    height: 320px;
+    border-color: rgba(200, 145, 22, 0.5);
+    border-width: 30px;
+    z-index: 1;
+}
+
+.ring-inner {
+    width: 280px;
+    height: 280px;
+    border-color: rgba(166, 124, 0, 0.3);
+    border-width: 20px;
+    z-index: 3;
+}
+
+@keyframes ringPulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) rotateX(75deg) scale(1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translate(-50%, -50%) rotateX(75deg) scale(1.05);
+        opacity: 1;
+    }
+}
+
+/* Bounce effect for the whole container */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+
+/* Title */
+.title {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    color: #f4d03f;
+    text-shadow: 0 0 20px rgba(244, 208, 63, 0.8);
+    animation: titleFloat 3s ease-in-out infinite;
+    z-index: 10;
+}
+
+@keyframes titleFloat {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) translateY(-10px);
+    }
+}
+@keyframes tilt3d {
+    0% {
+        transform: rotateZ(-10deg) rotateX(8deg);
+    }
+
+    50% {
+        transform: rotateZ(10deg) rotateX(-8deg);
+    }
+
+    100% {
+        transform: rotateZ(-10deg) rotateX(8deg);
+    }
+}
