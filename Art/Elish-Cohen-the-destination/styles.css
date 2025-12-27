@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+/* world */
+.world {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* sky */
+.sky {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  animation: dayNight 20s infinite linear;
+  background: #87ceeb;
+}
+
+/* sun  */
+.sun {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: #ffd700;
+  border-radius: 50%;
+  top: 40px;
+  left: 70%;
+  animation: sunMoon 20s infinite;
+}
+
+/* moon  */
+.moon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #eee;
+  border-radius: 50%;
+  top: 50px;
+  left: 20%;
+  opacity: 0;
+  animation: moonFade 20s infinite;
+}
+
+/* stars */
+.stars {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(2px 2px at 20% 30%, white, transparent),
+    radial-gradient(2px 2px at 60% 20%, white, transparent),
+    radial-gradient(2px 2px at 80% 40%, white, transparent),
+    radial-gradient(1.5px 1.5px at 30% 10%, white, transparent);
+  opacity: 0;
+  animation: starsFade 20s infinite;
+}
+
+/* sea*/
+.sea {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(#1e90ff, #003f7f);
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  width: 200%;
+  height: 60px;
+  background: rgba(255,255,255,0.25);
+  border-radius: 50%;
+  animation: wave 8s linear infinite;
+}
+
+.w1 { top: 20px; }
+.w2 { top: 60px; animation-duration: 10s; opacity: .5; }
+.w3 { top: 100px; animation-duration: 12s; opacity: .3; }
+
+@keyframes wave {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* boat*/
+.boat {
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: float 3s infinite ease-in-out;
+}
+
+.hull {
+  width: 140px;
+  height: 30px;
+  background: #8b4513;
+  border-radius: 0 0 40px 40px;
+}
+
+.mast {
+  position: absolute;
+  width: 6px;
+  height: 70px;
+  background: #333;
+  left: 67px;
+  bottom: 30px;
+}
+
+.sail {
+  position: absolute;
+  border-left: 60px solid #f5f5f5;
+  border-top: 50px solid transparent;
+  bottom: 30px;
+  left: 73px;
+}
+
+/* emimations*/
+@keyframes float {
+  0% { transform: translateX(-50%) rotate(2deg); }
+  50% { transform: translateX(-50%) rotate(-2deg) translateY(6px); }
+  100% { transform: translateX(-50%) rotate(2deg); }
+}
+
+@keyframes dayNight {
+  0%   { background: #9ad9ff; }  
+  30%  { background: #87ceeb; }  
+  50%  { background: #ffb347; }  
+  70%  { background: #020824; }  
+  100% { background: #9ad9ff; }  
+}
+
+
+@keyframes sunMoon {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }  
+  35%  { opacity: 1; }   
+  45%  { opacity: 0; }   
+  100% { opacity: 0; }
+}
+
+
+@keyframes moonFade {
+  0%   { opacity: 0; }
+  45%  { opacity: 0; }   
+  55%  { opacity: 1; }
+  85%  { opacity: 1; }
+  100% { opacity: 0; }   
+}
+
+
+@keyframes starsFade {
+  0%   { opacity: 0; }
+  50%  { opacity: 0; }  
+  60%  { opacity: 1; }  
+  80%  { opacity: 1; }
+  100% { opacity: 0; }   
+}
+
