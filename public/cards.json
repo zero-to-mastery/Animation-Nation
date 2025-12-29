@@ -240,6 +240,14 @@
     "projectPath": "Art/BlurryShady-MorphAnimation"
   },
   {
+    "author": "ChaniSurkis",
+    "artName": "Cosmic Lava Lamp",
+    "githubLink": "https://github.com/ChaniSurkis",
+    "pageLink": "./Art/ChaniSurkis-cosmic-lava-lamp/index.html",
+    "imageLink": "./Art/ChaniSurkis-cosmic-lava-lamp/icon.png",
+    "projectPath": "Art/ChaniSurkis-cosmic-lava-lamp"
+  },
+  {
     "author": "ChrRepou",
     "artName": "book with turning pages",
     "githubLink": "https://github.com/ChrRepou",
@@ -310,6 +318,14 @@
     "pageLink": "./Art/Dalizovic-Fireflies/index.html",
     "imageLink": "./Art/Dalizovic-Fireflies/icon.png",
     "projectPath": "Art/Dalizovic-Fireflies"
+  },
+  {
+    "author": "Elish-Cohen",
+    "artName": "the destination",
+    "githubLink": "https://github.com/Elish-Cohen",
+    "pageLink": "./Art/Elish-Cohen-the-destination/index.html",
+    "imageLink": "./Art/Elish-Cohen-the-destination/icon.png",
+    "projectPath": "Art/Elish-Cohen-the-destination"
   },
   {
     "author": "EzequielPL",
@@ -1702,6 +1718,14 @@
     "pageLink": "./Art/neha2003-git-owl/index.html",
     "imageLink": "./Art/neha2003-git-owl/icon.png",
     "projectPath": "Art/neha2003-git-owl"
+  },
+  {
+    "author": "sarirefaelov",
+    "artName": "neonpulse",
+    "githubLink": "https://github.com/sarirefaelov",
+    "pageLink": "./Art/neonpulse/index.html",
+    "imageLink": "./Art/neonpulse/icon.png",
+    "projectPath": "Art/neonpulse"
   },
   {
     "artName": "Cyber Rader",
