@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0d0d0d;
+  overflow: hidden;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ff0000);
+  background-size: 600% 600%;
+  box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff, 0 0 60px #ff0000;
+  animation: pulse 2s ease-in-out infinite, colorShift 6s linear infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.5); }
+}
+
+@keyframes colorShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
