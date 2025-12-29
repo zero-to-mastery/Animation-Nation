@@ -1,140 +1,179 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #050510;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    overflow: hidden;
+  background-color: #050510;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 .container {
-    perspective: 1000px;
+  perspective: 1000px;
 }
 
 .orbit-system {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    transform-style: preserve-3d;
-    animation: rotateSystem 20s linear infinite;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: rotateSystem 20s linear infinite;
 }
 
 .core {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40px;
-    height: 40px;
-    background: radial-gradient(circle, #fff, #00ffff, #0000ff);
-    border-radius: 50%;
-    box-shadow: 0 0 20px #00ffff, 0 0 40px #0000ff;
-    animation: pulse 2s ease-in-out infinite alternate;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background: radial-gradient(circle, #fff, #00ffff, #0000ff);
+  border-radius: 50%;
+  box-shadow: 0 0 20px #00ffff, 0 0 40px #0000ff;
+  animation: pulse 2s ease-in-out infinite alternate;
 }
 
 .ring {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    border: 2px solid transparent;
-    transform-style: preserve-3d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transform-style: preserve-3d;
 }
 
 .ring-1 {
-    width: 100px;
-    height: 100px;
-    border-top: 2px solid #ff00ff;
-    border-bottom: 2px solid #ff00ff;
-    animation: rotateRing1 4s linear infinite;
-    box-shadow: 0 0 10px #ff00ff;
+  width: 100px;
+  height: 100px;
+  border-top: 2px solid #ff00ff;
+  border-bottom: 2px solid #ff00ff;
+  animation: rotateRing1 4s linear infinite;
+  box-shadow: 0 0 10px #ff00ff;
 }
 
 .ring-2 {
-    width: 160px;
-    height: 160px;
-    border-left: 2px solid #00ffff;
-    border-right: 2px solid #00ffff;
-    animation: rotateRing2 6s linear infinite reverse;
-    box-shadow: 0 0 10px #00ffff;
+  width: 160px;
+  height: 160px;
+  border-left: 2px solid #00ffff;
+  border-right: 2px solid #00ffff;
+  animation: rotateRing2 6s linear infinite reverse;
+  box-shadow: 0 0 10px #00ffff;
 }
 
 .ring-3 {
-    width: 220px;
-    height: 220px;
-    border-top: 2px solid #ffff00;
-    border-bottom: 2px solid #ffff00;
-    animation: rotateRing3 8s linear infinite;
-    box-shadow: 0 0 10px #ffff00;
+  width: 220px;
+  height: 220px;
+  border-top: 2px solid #ffff00;
+  border-bottom: 2px solid #ffff00;
+  animation: rotateRing3 8s linear infinite;
+  box-shadow: 0 0 10px #ffff00;
 }
 
 .particle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    border-radius: 50%;
-    box-shadow: 0 0 10px white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 10px white;
 }
 
 .p1 {
-    animation: orbit1 3s linear infinite;
+  animation: orbit1 3s linear infinite;
 }
 
 .p2 {
-    animation: orbit2 5s linear infinite;
+  animation: orbit2 5s linear infinite;
 }
 
 .p3 {
-    animation: orbit3 7s linear infinite;
+  animation: orbit3 7s linear infinite;
 }
 
-
 @keyframes rotateSystem {
-    0% { transform: rotateX(0deg) rotateY(0deg); }
-    100% { transform: rotateX(360deg) rotateY(360deg); }
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
 }
 
 @keyframes pulse {
-    0% { transform: translate(-50%, -50%) scale(1); opacity: 0.8; }
-    100% { transform: translate(-50%, -50%) scale(1.2); opacity: 1; }
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 1;
+  }
 }
 
 @keyframes rotateRing1 {
-    0% { transform: translate(-50%, -50%) rotateX(60deg) rotateZ(0deg); }
-    100% { transform: translate(-50%, -50%) rotateX(60deg) rotateZ(360deg); }
+  0% {
+    transform: translate(-50%, -50%) rotateX(60deg) rotateZ(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateX(60deg) rotateZ(360deg);
+  }
 }
 
 @keyframes rotateRing2 {
-    0% { transform: translate(-50%, -50%) rotateY(60deg) rotateZ(0deg); }
-    100% { transform: translate(-50%, -50%) rotateY(60deg) rotateZ(360deg); }
+  0% {
+    transform: translate(-50%, -50%) rotateY(60deg) rotateZ(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateY(60deg) rotateZ(360deg);
+  }
 }
 
 @keyframes rotateRing3 {
-    0% { transform: translate(-50%, -50%) rotateX(-45deg) rotateZ(0deg); }
-    100% { transform: translate(-50%, -50%) rotateX(-45deg) rotateZ(360deg); }
+  0% {
+    transform: translate(-50%, -50%) rotateX(-45deg) rotateZ(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateX(-45deg) rotateZ(360deg);
+  }
 }
 
 @keyframes orbit1 {
-    0% { transform: translate(-50%, -50%) rotateZ(0deg) translateX(60px) rotateZ(0deg); }
-    100% { transform: translate(-50%, -50%) rotateZ(360deg) translateX(60px) rotateZ(-360deg); }
+  0% {
+    transform: translate(-50%, -50%) rotateZ(0deg) translateX(60px)
+      rotateZ(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(360deg) translateX(60px)
+      rotateZ(-360deg);
+  }
 }
 
 @keyframes orbit2 {
-    0% { transform: translate(-50%, -50%) rotateZ(120deg) translateX(90px) rotateZ(0deg); }
-    100% { transform: translate(-50%, -50%) rotateZ(480deg) translateX(90px) rotateZ(-360deg); }
+  0% {
+    transform: translate(-50%, -50%) rotateZ(120deg) translateX(90px)
+      rotateZ(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(480deg) translateX(90px)
+      rotateZ(-360deg);
+  }
 }
 
 @keyframes orbit3 {
-    0% { transform: translate(-50%, -50%) rotateZ(240deg) translateX(120px) rotateZ(0deg); }
-    100% { transform: translate(-50%, -50%) rotateZ(600deg) translateX(120px) rotateZ(-360deg); }
+  0% {
+    transform: translate(-50%, -50%) rotateZ(240deg) translateX(120px)
+      rotateZ(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(600deg) translateX(120px)
+      rotateZ(-360deg);
+  }
 }
