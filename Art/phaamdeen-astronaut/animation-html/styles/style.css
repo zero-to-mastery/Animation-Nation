@@ -1,0 +1,52 @@
+/* Basic Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #050505;
+}
+
+/* 1. The Space Background */
+.space-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+}
+
+/* 2. The Floating Astronaut */
+.astronaut {
+    font-size: 80px;
+    position: relative;
+    /* Apply the 'float' animation: 3 seconds, infinite loop, smooth easing */
+    animation: float 4s ease-in-out infinite;
+}
+
+/* 3. Defining the Float Animation */
+@keyframes float {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-50px) rotate(10deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+/* 4. Moving Stars background */
+.stars {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: transparent url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+    animation: move-stars 100s linear infinite;
+}
+
+@keyframes move-stars {
+    from { background-position: 0 0; }
+    to { background-position: -10000px 5000px; }
+}
