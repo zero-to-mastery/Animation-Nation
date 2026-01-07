@@ -1799,6 +1799,14 @@
     "projectPath": "Art/pasan11504-smiley"
   },
   {
+    "author": "phaamdeen",
+    "artName": "astronaut",
+    "githubLink": "https://github.com/phaamdeen",
+    "pageLink": "./Art/phaamdeen-astronaut/index.html",
+    "imageLink": "./Art/phaamdeen-astronaut/icon.png",
+    "projectPath": "Art/phaamdeen-astronaut"
+  },
+  {
     "author": "pleomorph",
     "artName": "hacktoberfest2025",
     "githubLink": "https://github.com/pleomorph",
