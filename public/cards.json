@@ -1200,6 +1200,14 @@
     "projectPath": "Art/bmalvo-spinning-road-sign"
   },
   {
+    "author": "brandonmay-dev",
+    "artName": "solarsystem",
+    "githubLink": "https://github.com/brandonmay-dev",
+    "pageLink": "./Art/brandonmay-dev-solarsystem/index.html",
+    "imageLink": "./Art/brandonmay-dev-solarsystem/icon.png",
+    "projectPath": "Art/brandonmay-dev-solarsystem"
+  },
+  {
     "author": "carljustineoyales",
     "artName": "the otherlog clock",
     "githubLink": "https://github.com/carljustineoyales",
@@ -1406,6 +1414,14 @@
     "pageLink": "./Art/huzfm-neon-orbit-animation/index.html",
     "imageLink": "./Art/huzfm-neon-orbit-animation/icon.png",
     "projectPath": "Art/huzfm-neon-orbit-animation"
+  },
+  {
+    "author": "jasonjun1221",
+    "artName": "3d neon cube",
+    "githubLink": "https://github.com/jasonjun1221",
+    "pageLink": "./Art/jasonjun122-3d-neon-cube/index.html",
+    "imageLink": "./Art/jasonjun122-3d-neon-cube/icon.png",
+    "projectPath": "Art/jasonjun122-3d-neon-cube"
   },
   {
     "author": "jayantghadge",
@@ -1630,6 +1646,14 @@
     "pageLink": "./Art/mdtausifiqbal-clockanimation/index.html",
     "imageLink": "./Art/mdtausifiqbal-clockanimation/icon.png",
     "projectPath": "Art/mdtausifiqbal-clockanimation"
+  },
+  {
+    "author": "mister2fresh",
+    "artName": "Event Horizon",
+    "githubLink": "https://github.com/mister2fresh",
+    "pageLink": "./Art/mister2fresh-eventhorizon/index.html",
+    "imageLink": "./Art/mister2fresh-eventhorizon/icon.png",
+    "projectPath": "Art/mister2fresh-eventhorizon"
   },
   {
     "author": "mrkc2303",
