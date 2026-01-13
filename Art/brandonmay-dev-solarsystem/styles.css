@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #050b1f;
+}
+
+.space {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.sun {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: orange;
+  box-shadow: 0 0 40px orange;
+}
+
+.orbit {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 50%;
+  animation: spin linear infinite;
+}
+
+.o1 {
+  width: 140px;
+  height: 140px;
+  animation-duration: 4s;
+}
+
+.o2 {
+  width: 220px;
+  height: 220px;
+  animation-duration: 7s;
+}
+
+.planet {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: cyan;
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.p2 {
+  background: hotpink;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
