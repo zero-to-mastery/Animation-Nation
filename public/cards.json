@@ -2173,5 +2173,13 @@
     "pageLink": "./Art/vs-code06-Temporal Ripples/index.html",
     "imageLink": "./Art/vs-code06-Temporal Ripples/icon.png",
     "projectPath": "Art/vs-code06-Temporal Ripples"
+  },
+  {
+    "author": "zkuperberg",
+    "artName": "hourglass",
+    "githubLink": "https://github.com/zkuperberg",
+    "pageLink": "./Art/zkuperberg-hourglass/index.html",
+    "imageLink": "./Art/zkuperberg-hourglass/icon.png",
+    "projectPath": "Art/zkuperberg-hourglass"
   }
 ]
