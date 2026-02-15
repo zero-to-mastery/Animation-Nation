@@ -1,242 +1,244 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #357a58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #357a58;
 }
 
 .hourglass {
-    width: 90px;
-    height: 120px;
-    position: relative;
-    animation: flip 3s linear infinite;
-    z-index: 1;
-
+  width: 90px;
+  height: 120px;
+  position: relative;
+  animation: flip 3s linear infinite;
+  z-index: 1;
 }
 
 .hourglass-icon {
-    position: absolute;
-    font-size: 160px;
-    left: -39%;
-    top: -25px;
-    color: #2e2929;
+  position: absolute;
+  font-size: 160px;
+  left: -39%;
+  top: -25px;
+  color: #2e2929;
 }
-
 
 .ball {
-    width: 18px;
-    height: 18px;
-    background: radial-gradient(circle at 30% 30%, #eecece, #857171);
-    border-radius: 50%;
-    position: absolute;
-    transform: translateX(-50%);
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3),
-        inset -2px -2px 4px rgba(0, 0, 0, 0.2),
-        inset 2px 2px 4px rgba(255, 255, 255, 0.4);
+  width: 18px;
+  height: 18px;
+  background: radial-gradient(circle at 30% 30%, #eecece, #857171);
+  border-radius: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3),
+    inset -2px -2px 4px rgba(0, 0, 0, 0.2),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.4);
 }
 
-
 .ball-1 {
-    animation: fall1 3s ease-in infinite;
+  animation: fall1 3s ease-in infinite;
 }
 
 .ball-2 {
-    animation: fall2 3s ease-in infinite;
+  animation: fall2 3s ease-in infinite;
 }
 
 .ball-3 {
-    animation: fall3 3s ease-in infinite;
+  animation: fall3 3s ease-in infinite;
 }
 
 .ball-4 {
-    animation: fall4 3s ease-in infinite;
+  animation: fall4 3s ease-in infinite;
 }
 
 .ball-5 {
-    animation: fall5 3s ease-in infinite;
+  animation: fall5 3s ease-in infinite;
 }
 
 .ball-6 {
-    animation: fall6 3s ease-in infinite;
+  animation: fall6 3s ease-in infinite;
 }
 
 @keyframes fall1 {
-    0% {
-        top: 40px;
-        left: 50%;
-    }
+  0% {
+    top: 40px;
+    left: 50%;
+  }
 
-    15%, 100% {
-        top: 100px;
-        left: 50%;
-    }
+  15%,
+  100% {
+    top: 100px;
+    left: 50%;
+  }
 }
 
 @keyframes fall2 {
-    0% {
-        top: 25px;
-        left: 35%;
-    }
+  0% {
+    top: 25px;
+    left: 35%;
+  }
 
-    15% {
-        top: 40px;
-        left: 50%;
-    }
+  15% {
+    top: 40px;
+    left: 50%;
+  }
 
-    30% {
-        top: 75px;
-        left: 50%;
-    }
+  30% {
+    top: 75px;
+    left: 50%;
+  }
 
-    35% {
-        top: 77px;
-        left: 63%;
-    }
+  35% {
+    top: 77px;
+    left: 63%;
+  }
 
-    40%, 100% {
-        top: 100px;
-        left: 80%;
-    }
+  40%,
+  100% {
+    top: 100px;
+    left: 80%;
+  }
 }
 
 @keyframes fall3 {
-    0% {
-        top: 25px;
-        left: 65%;
-    }
+  0% {
+    top: 25px;
+    left: 65%;
+  }
 
-    15% {
-        top: 25px;
-        left: 65%;
-    }
+  15% {
+    top: 25px;
+    left: 65%;
+  }
 
-    30% {
-        top: 40px;
-        left: 50%;
-    }
+  30% {
+    top: 40px;
+    left: 50%;
+  }
 
-    40% {
-        top: 70px;
-        left: 50%;
-    }
+  40% {
+    top: 70px;
+    left: 50%;
+  }
 
-    45% {
-        top: 80px;
-        left: 35%;
-    }
+  45% {
+    top: 80px;
+    left: 35%;
+  }
 
-    50%, 100% {
-        top: 100px;
-        left: 20%;
-    }
+  50%,
+  100% {
+    top: 100px;
+    left: 20%;
+  }
 }
 
 @keyframes fall4 {
-    0% {
-        top: 10px;
-        left: 20%;
-    }
+  0% {
+    top: 10px;
+    left: 20%;
+  }
 
-    15% {
-        top: 25px;
-        left: 35%;
-    }
+  15% {
+    top: 25px;
+    left: 35%;
+  }
 
-    60% {
-        top: 25px;
-        left: 35%;
-    }
+  60% {
+    top: 25px;
+    left: 35%;
+  }
 
-    75% {
-        top: 40px;
-        left: 50%;
-    }
+  75% {
+    top: 40px;
+    left: 50%;
+  }
 
-    90%, 100% {
-        top: 70px;
-        left: 50%;
-    }
+  90%,
+  100% {
+    top: 70px;
+    left: 50%;
+  }
 }
 
 @keyframes fall5 {
-    0% {
-        top: 10px;
-        left: 50%;
-    }
+  0% {
+    top: 10px;
+    left: 50%;
+  }
 
-    35% {
-        top: 10px;
-        left: 50%;
-    }
+  35% {
+    top: 10px;
+    left: 50%;
+  }
 
-    50% {
-        top: 25px;
-        left: 65%;
-    }
+  50% {
+    top: 25px;
+    left: 65%;
+  }
 
-    60% {
-        top: 40px;
-        left: 50%;
-    }
+  60% {
+    top: 40px;
+    left: 50%;
+  }
 
-    75% {
-        top: 65px;
-        left: 50%;
-    }
+  75% {
+    top: 65px;
+    left: 50%;
+  }
 
-    80%, 100% {
-        top: 85px;
-        left: 65%;
-    }
+  80%,
+  100% {
+    top: 85px;
+    left: 65%;
+  }
 }
 
 @keyframes fall6 {
-    0% {
-        top: 10px;
-        left: 80%;
-    }
+  0% {
+    top: 10px;
+    left: 80%;
+  }
 
-    15% {
-        top: 10px;
-        left: 80%;
-    }
+  15% {
+    top: 10px;
+    left: 80%;
+  }
 
-    30% {
-        top: 25px;
-        left: 65%;
-    }
+  30% {
+    top: 25px;
+    left: 65%;
+  }
 
-    45% {
-        top: 40px;
-        left: 50%;
-    }
+  45% {
+    top: 40px;
+    left: 50%;
+  }
 
-    50% {
-        top: 70px;
-        left: 50%;
-    }
+  50% {
+    top: 70px;
+    left: 50%;
+  }
 
-    60%, 100% {
-        top: 85px;
-        left: 35%;
-    }
+  60%,
+  100% {
+    top: 85px;
+    left: 35%;
+  }
 }
 
 @keyframes flip {
+  0%,
+  92% {
+    transform: rotate(0deg);
+  }
 
-    0%,
-    92% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(180deg);
-    }
+  100% {
+    transform: rotate(180deg);
+  }
 }
