@@ -1,0 +1,129 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #000
+}
+
+body {
+    font-family: ui-monospace, Menlo, Consolas, monospace;
+}
+
+.screen {
+    position: fixed;
+    inset: 0;
+    background:
+        radial-gradient(1200px 700px at 50% 20%, rgba(0, 255, 102, .12), transparent 60%),
+        linear-gradient(180deg, #000, #010203);
+}
+
+/* scanlines */
+.screen::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 0px,
+            rgba(0, 0, 0, 0) 2px,
+            rgba(0, 0, 0, .22) 3px,
+            rgba(0, 0, 0, .22) 4px);
+    opacity: .55;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    z-index: 3;
+}
+
+/* vignette + subtle flicker */
+.screen::after {
+    content: "";
+    position: absolute;
+    inset: -10%;
+    background:
+        radial-gradient(circle at 50% 45%, rgba(255, 255, 255, .07), transparent 55%),
+        radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0), rgba(0, 0, 0, .88) 72%, rgba(0, 0, 0, .99) 100%);
+    opacity: .78;
+    pointer-events: none;
+    animation: flicker 3.2s steps(7) infinite;
+    z-index: 4;
+}
+
+@keyframes flicker {
+    0% {
+        opacity: .72;
+        filter: brightness(1)
+    }
+
+    30% {
+        opacity: .84;
+        filter: brightness(1.05)
+    }
+
+    55% {
+        opacity: .66;
+        filter: brightness(.98)
+    }
+
+    80% {
+        opacity: .88;
+        filter: brightness(1.04)
+    }
+
+    100% {
+        opacity: .74;
+        filter: brightness(1)
+    }
+}
+
+.matrix {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-columns: repeat(300, 1fr);
+    /* evenly spaced */
+}
+
+.col {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.stream {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -120vh);
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(0, 255, 102, .42);
+    text-shadow: 0 0 6px rgba(0, 255, 100, .45);
+    opacity: var(--opa, .9);
+    animation: fall var(--dur, 8s) linear infinite;
+    animation-delay: var(--delay, -3s);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 10%, #000 86%, transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, #000 10%, #000 86%, transparent 100%);
+}
+
+.head {
+    color: rgba(235, 255, 245, .95);
+    text-shadow: 0 0 10px rgba(255, 255, 255, .55), 0 0 24px rgba(0, 255, 102, .45);
+}
+
+@keyframes fall {
+    from {
+        transform: translate(-50%, -120vh);
+    }
+
+    to {
+        transform: translate(-50%, 120vh);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .stream,
+    .screen::after {
+        animation: none !important;
+    }
+}
