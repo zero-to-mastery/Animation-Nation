@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./scripts/serve.mjs",
     "prettier": "npx prettier . --check --config ./.prettierrc",
     "prettier:fix": "npx prettier . --check --write --config ./.prettierrc"
   },
