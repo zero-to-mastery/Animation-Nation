@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.gradient {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(270deg, #ff00ff, #00ffff, #ff6600);
+  background-size: 600% 600%;
+  animation: shift 10s ease infinite;
+}
+@keyframes shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

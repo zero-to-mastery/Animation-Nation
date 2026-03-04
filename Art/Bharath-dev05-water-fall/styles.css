@@ -1,0 +1,306 @@
+:root {
+  --sky: #cfe8ff;
+  --cliff-1: #6b624f;
+  --cliff-2: #4e4636;
+  --water-1: rgba(120, 190, 255, 0.7);
+  --water-2: rgba(70, 160, 240, 0.6);
+  --water-3: rgba(40, 140, 230, 0.5);
+  --foam: rgba(255, 255, 255, 0.9);
+  --mist: rgba(255, 255, 255, 0.35);
+  --bg-rock: #3d3629;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(#bfe0ff, var(--sky));
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.scene {
+  position: relative;
+  width: min(90vw, 700px);
+  aspect-ratio: 16/9;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  background: radial-gradient(120% 80% at 10% 10%, #e8f4ff 0%, transparent 60%),
+    radial-gradient(100% 60% at 90% 20%, #eaf5ff 0%, transparent 65%),
+    linear-gradient(180deg, #eaf5ff 0%, #e0f0ff 50%, #d6ecff 100%);
+}
+
+.cliffs {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.cliffs::before,
+.cliffs::after {
+  content: '';
+  position: absolute;
+  top: -10%;
+  bottom: 0;
+  width: 40%;
+  background: linear-gradient(180deg, var(--cliff-1), var(--cliff-2)),
+    repeating-linear-gradient(
+      180deg,
+      transparent 0 8px,
+      rgba(0, 0, 0, 0.05) 8px 9px
+    );
+  box-shadow: inset 0 -30px 60px rgba(0, 0, 0, 0.25);
+  filter: saturate(0.9) contrast(0.95);
+}
+.cliffs::before {
+  left: -5%;
+  border-top-right-radius: 60px;
+}
+.cliffs::after {
+  right: -5%;
+  border-top-left-radius: 60px;
+}
+
+.pool {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 26%;
+  border-radius: 45%;
+  background: radial-gradient(
+      60% 120% at 50% 100%,
+      rgba(255, 255, 255, 0.6) 0%,
+      transparent 35%
+    ),
+    linear-gradient(180deg, rgba(180, 220, 255, 0.6), rgba(130, 190, 255, 0.8));
+  backdrop-filter: blur(1px);
+  overflow: hidden;
+}
+
+.rocks {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.rock {
+  position: absolute;
+  bottom: 2%;
+  width: 18%;
+  height: 10%;
+  background: linear-gradient(180deg, var(--bg-rock), #2f2a21);
+  border-radius: 60% 40% 40% 60% / 60% 60% 40% 40%;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.35);
+  transform: rotate(-2deg);
+  opacity: 0.95;
+}
+.rock.r1 {
+  left: 8%;
+  transform: rotate(-4deg) scale(1.05);
+}
+.rock.r2 {
+  left: 42%;
+  width: 22%;
+  height: 12%;
+  transform: rotate(1deg);
+}
+.rock.r3 {
+  right: 6%;
+  transform: rotate(3deg) scale(0.95);
+}
+
+.fall {
+  position: absolute;
+  left: 27%;
+  right: 27%;
+  top: 8%;
+  bottom: 26%;
+  border-radius: 18px 18px 0 0;
+  overflow: hidden;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.1)
+    ),
+    repeating-linear-gradient(
+      180deg,
+      var(--water-1) 0px,
+      var(--water-1) 18px,
+      var(--water-2) 18px,
+      var(--water-2) 34px,
+      var(--water-3) 34px,
+      var(--water-3) 48px
+    );
+  background-blend-mode: screen;
+  filter: saturate(1.1);
+}
+
+@keyframes flow {
+  0% {
+    background-position: 0 0, 0 0;
+  }
+  100% {
+    background-position: 0 0, 0 600px;
+  }
+}
+.fall {
+  animation: flow 1.8s linear infinite;
+  transform: skewX(-1.5deg);
+}
+
+.fall::before,
+.fall::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.35) 0px,
+    rgba(255, 255, 255, 0.35) 16px,
+    rgba(255, 255, 255, 0) 16px,
+    rgba(255, 255, 255, 0) 36px
+  );
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+@keyframes flow2 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 500px;
+  }
+}
+.fall::before {
+  opacity: 0.6;
+  animation: flow2 1.5s linear infinite;
+}
+.fall::after {
+  opacity: 0.35;
+  animation: flow2 2.4s linear infinite;
+}
+
+.mist {
+  position: absolute;
+  left: 22%;
+  right: 22%;
+  bottom: 26%;
+  height: 9%;
+  filter: blur(6px);
+  background: radial-gradient(
+    50% 140% at 50% 0%,
+    var(--mist) 0%,
+    transparent 70%
+  );
+  animation: breathe 3.6s ease-in-out infinite;
+}
+@keyframes breathe {
+  0% {
+    opacity: 0.35;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0.55;
+    transform: translateY(-2px);
+  }
+  100% {
+    opacity: 0.35;
+    transform: translateY(0);
+  }
+}
+
+.splash {
+  position: absolute;
+  left: 28%;
+  right: 28%;
+  bottom: 25%;
+  height: 12%;
+  pointer-events: none;
+}
+.dot {
+  position: absolute;
+  bottom: 0;
+  width: 8px;
+  height: 8px;
+  background: var(--foam);
+  border-radius: 50%;
+  filter: blur(0.6px);
+  opacity: 0.85;
+  animation: pop 0.9s ease-out infinite;
+}
+
+.dot:nth-child(1) {
+  left: 10%;
+  animation-delay: 0s;
+}
+.dot:nth-child(2) {
+  left: 22%;
+  animation-delay: 0.15s;
+}
+.dot:nth-child(3) {
+  left: 34%;
+  animation-delay: 0.3s;
+}
+.dot:nth-child(4) {
+  left: 46%;
+  animation-delay: 0.45s;
+}
+.dot:nth-child(5) {
+  left: 58%;
+  animation-delay: 0.6s;
+}
+.dot:nth-child(6) {
+  left: 70%;
+  animation-delay: 0.75s;
+}
+
+@keyframes pop {
+  0% {
+    transform: translateY(0) scale(0.7);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.9;
+  }
+  60% {
+    transform: translateY(-16px) scale(1.1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-26px) scale(1);
+    opacity: 0;
+  }
+}
+
+.ripples {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+      120% 30% at 50% 80%,
+      rgba(255, 255, 255, 0.7) 0%,
+      transparent 25%
+    ),
+    repeating-radial-gradient(
+      circle at 50% 80%,
+      rgba(255, 255, 255, 0.35) 0 2px,
+      rgba(255, 255, 255, 0) 2px 12px
+    );
+  opacity: 0.6;
+  mix-blend-mode: screen;
+  animation: ripple 4.5s linear infinite;
+}
+@keyframes ripple {
+  0% {
+    background-size: 100% 100%, 6% 6%;
+    opacity: 0.55;
+  }
+  50% {
+    background-size: 102% 101%, 8% 8%;
+    opacity: 0.75;
+  }
+  100% {
+    background-size: 100% 100%, 6% 6%;
+    opacity: 0.55;
+  }
+}

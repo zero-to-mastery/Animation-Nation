@@ -1,0 +1,46 @@
+:root {
+  --bg: #0b0e19;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: radial-gradient(900px 700px at 50% 65%, #121a39 0, var(--bg) 70%);
+  display: grid;
+  place-items: center;
+}
+
+.disc {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background: conic-gradient(#8fd3ff, #b49bff, #ff8aa5, #ffd38d, #8fd3ff);
+  -webkit-mask: radial-gradient(circle 60px, #0000 98%, #000) center/100% 100%,
+    radial-gradient(circle, #000 55%, #0000 56%);
+  mask: radial-gradient(circle 60px, #0000 98%, #000) center/100% 100%,
+    radial-gradient(circle, #000 55%, #0000 56%);
+  box-shadow: 0 0 40px 8px #ffffff14, inset 0 0 18px #0006;
+  animation: spin 8s linear infinite, pulse 3.5s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    filter: saturate(1);
+  }
+
+  50% {
+    filter: saturate(1.25) brightness(1.05);
+  }
+}

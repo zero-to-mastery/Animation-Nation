@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: #070b12;
+  color: #eaf9ff;
+  font-family: ui-sans-serif, system-ui, Segoe UI, Roboto, Inter, sans-serif;
+}
+
+.frame {
+  position: relative;
+  width: min(92vmin, 860px);
+  aspect-ratio: 16/9;
+  border-radius: 28px;
+  overflow: hidden;
+  isolation: isolate;
+  box-shadow: 0 30px 90px #000a, inset 0 1px 0 #ffffff12;
+}
+
+.scene {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    130% 110% at 50% -20%,
+    #0a1827 0 48%,
+    #091421 70%,
+    #050a14 100%
+  );
+}
+
+.haze {
+  position: absolute;
+  left: -10%;
+  right: -10%;
+  bottom: -18%;
+  height: 50%;
+  background: radial-gradient(
+    120% 80% at 50% 0%,
+    rgba(18, 40, 48, 0.32) 0%,
+    rgba(8, 24, 36, 0.2) 40%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  filter: blur(12px);
+}
+
+.meteors {
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+}
+.m {
+  position: absolute;
+  left: var(--sx);
+  top: var(--sy);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fff, #0000 45%),
+    radial-gradient(circle at 50% 60%, #4dffe6 0, #1ee3ff 80%);
+  box-shadow: 0 0 16px 6px #4dffe678, 0 0 2px 1px #ffffff66 inset;
+
+  transform: rotate(45deg);
+  mix-blend-mode: screen;
+
+  animation: fall var(--dur) linear var(--delay) infinite;
+}
+.m::after {
+  content: '';
+  position: absolute;
+  left: -120px;
+  top: 50%;
+  width: 130px;
+  height: 2px;
+  transform: translateY(-50%);
+  background: linear-gradient(
+    90deg,
+    #00fff588 0%,
+    #00fff544 35%,
+    transparent 100%
+  );
+  filter: blur(1px);
+  border-radius: 2px;
+}
+
+@keyframes fall {
+  0% {
+    left: var(--sx);
+    top: var(--sy);
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    left: var(--ex);
+    top: var(--ey);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    animation-duration: calc((var(--dur, 8s)) * 1.25);
+  }
+}

@@ -1,0 +1,645 @@
+/* Base */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #0a0a1f 0%, #000 100%);
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+
+.scene {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Moon */
+.moon {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle at 30% 30%, #fff, #ccc 70%, #888);
+  border-radius: 50%;
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
+  z-index: 8;
+  animation: moonPulse 20s infinite ease-in-out;
+}
+.moon::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: radial-gradient(
+      circle at 20% 30%,
+      rgba(0, 0, 0, 0.2) 5px,
+      transparent 6px
+    ),
+    radial-gradient(circle at 60% 50%, rgba(0, 0, 0, 0.15) 4px, transparent 5px),
+    radial-gradient(circle at 40% 70%, rgba(0, 0, 0, 0.1) 3px, transparent 4px);
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+}
+
+/* Stars */
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 3s infinite ease-in-out;
+  filter: drop-shadow(0 0 2px white);
+}
+
+/* Aurora */
+.aurora-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(60, 255, 255, 0.2),
+    rgba(159, 255, 102, 0.3),
+    rgba(255, 102, 255, 0.2)
+  );
+  background-size: 400% 400%;
+  background-position: 0% 50%;
+  animation: auroraFlow 60s ease-in-out infinite;
+  filter: blur(60px);
+  mix-blend-mode: screen;
+  z-index: 2;
+}
+.aurora-layer.secondary {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    100deg,
+    rgba(60, 255, 255, 0.1),
+    rgba(159, 255, 102, 0.2),
+    rgba(255, 102, 255, 0.1)
+  );
+  filter: blur(50px);
+  mix-blend-mode: screen;
+  animation: auroraDriftSecondary 60s ease-in-out infinite;
+  will-change: transform;
+  z-index: 1;
+}
+
+/* Snow */
+.snowflakes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 8; /* Make sure it's above stars and aurora */
+  overflow: hidden;
+}
+.snowflake {
+  position: absolute;
+  top: -2em;
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.8);
+  animation: snowFall 12s linear infinite;
+  user-select: none;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+/* Depth styling */
+.snowflake.fg {
+  font-size: 1.5em;
+  opacity: 0.9;
+  z-index: 21;
+  animation-duration: 10s;
+}
+.snowflake.mg {
+  font-size: 1.2em;
+  opacity: 0.6;
+  z-index: 20;
+  animation-duration: 14s;
+}
+.snowflake.bg {
+  font-size: 0.9em;
+  opacity: 0.4;
+  z-index: 19;
+  animation-duration: 18s;
+}
+
+/* Pond */
+.pond {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Base Ice Floe */
+.ice-floe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: 400% 100%;
+  background-position: 0% 0%;
+}
+
+/* Icelayer 1 */
+.icelayer1 {
+  background: linear-gradient(
+    to right,
+    #0a1a2a,
+    #1a3a5a,
+    #2a5a7a,
+    #1a3a5a,
+    #0a1a2a
+  );
+  animation: iceShift 60s linear infinite;
+  z-index: 1;
+  background-repeat: repeat;
+  background-size: 400% 100%;
+}
+.icelayer1::before,
+.icelayer1::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: 300% 100%;
+  mix-blend-mode: screen;
+}
+.icelayer1::before {
+  background: linear-gradient(to right, #1a3a5a, #2a6a8a, #3a7a9a);
+  clip-path: polygon(
+    0% 100%,
+    10% 85%,
+    20% 90%,
+    30% 82%,
+    40% 88%,
+    50% 85%,
+    60% 88%,
+    70% 82%,
+    80% 86%,
+    90% 88%,
+    100% 100%
+  );
+  animation: iceShift 5s linear infinite;
+  filter: blur(3px);
+  opacity: 0.3;
+  z-index: 2;
+}
+.icelayer1::after {
+  background: linear-gradient(to right, #2a5a7a, #3a7a9a, #4a8aaa);
+  clip-path: polygon(
+    0% 100%,
+    10% 80%,
+    20% 85%,
+    30% 78%,
+    40% 83%,
+    50% 80%,
+    60% 83%,
+    70% 78%,
+    80% 82%,
+    90% 84%,
+    100% 100%
+  );
+  filter: blur(4px);
+  opacity: 0.25;
+  z-index: 3;
+  top: 4%;
+}
+
+/* Ice Layer 2 */
+.icelayer2 {
+  background: linear-gradient(
+    to right,
+    #102840,
+    #1c4a6a,
+    #2a6a8a,
+    #1c4a6a,
+    #102840
+  );
+  z-index: 4;
+  background-repeat: repeat;
+  background-size: 400% 100%;
+}
+.icelayer2::before,
+.icelayer2::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: 300% 100%;
+  mix-blend-mode: screen;
+}
+.icelayer2::before {
+  background: linear-gradient(to right, #2a5a7a, #3a7a9a, #4a8aaa);
+  clip-path: polygon(
+    0% 100%,
+    10% 75%,
+    20% 80%,
+    30% 73%,
+    40% 78%,
+    50% 75%,
+    60% 78%,
+    70% 73%,
+    80% 77%,
+    90% 79%,
+    100% 100%
+  );
+  filter: blur(2px);
+  opacity: 0.35;
+  z-index: 5;
+  top: 6%;
+}
+.icelayer2::after {
+  background: linear-gradient(to right, #3a7a9a, #4a8aaa, #5ab0cc);
+  clip-path: polygon(
+    0% 100%,
+    10% 70%,
+    20% 75%,
+    30% 68%,
+    40% 73%,
+    50% 70%,
+    60% 73%,
+    70% 68%,
+    80% 72%,
+    90% 74%,
+    100% 100%
+  );
+  filter: blur(5px);
+  opacity: 0.2;
+  z-index: 6;
+  top: 8%;
+}
+
+/* Mist Above Pond */
+.pond-mist {
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  height: 20%;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.05),
+    transparent
+  );
+  filter: blur(20px);
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Horizon Mist */
+.horizon-mist {
+  position: absolute;
+  bottom: 16%;
+  width: 100%;
+  height: 10%;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.05), transparent);
+  filter: blur(20px);
+  z-index: 3;
+}
+
+/* Mountains */
+.mountains {
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  bottom: 20%;
+}
+.mountains.back {
+  background: linear-gradient(to top, #0b0b0b, rgba(255, 255, 255, 0.05));
+  clip-path: polygon(0% 100%, 20% 70%, 40% 85%, 60% 65%, 80% 80%, 100% 100%);
+  opacity: 0.3;
+  filter: blur(2px);
+  z-index: 4;
+}
+.mountains.front {
+  background: linear-gradient(to top, #111, transparent);
+  clip-path: polygon(0% 100%, 15% 65%, 35% 80%, 55% 60%, 75% 75%, 100% 100%);
+  opacity: 0.5;
+  z-index: 5;
+}
+
+/* Sleeping Bear */
+.container.icebear {
+  position: absolute;
+  bottom: -10em;
+  left: 50%;
+  width: 31em;
+  height: 31em;
+  z-index: 6;
+  font-size: 0.5em;
+  animation: icebearDrift 90s ease-in-out infinite alternate;
+}
+
+.icebear-body {
+  background: radial-gradient(
+    circle at 0 50%,
+    #aab4c4,
+    #b5becd 60%,
+    #d7dfe7 61%
+  );
+  height: 8.12em;
+  width: 15.62em;
+  border-radius: 8.12em 8.12em 0 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 11.25em;
+  margin: auto;
+  z-index: 1;
+  animation: icebearBreath 8s ease-in-out infinite;
+}
+
+.tail {
+  position: absolute;
+  background-color: #ffffff;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  right: 7em;
+  top: 16em;
+}
+
+.icebear-face {
+  background-color: #d7dfe7;
+  height: 5.93em;
+  width: 9.3em;
+  border-radius: 4.68em 4.68em 0 0;
+  position: absolute;
+  left: -1.25em;
+}
+
+.ear {
+  background-color: #d7dfe7;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  position: absolute;
+  top: -1.2em;
+}
+.ear-l {
+  left: 1em;
+}
+.ear-r {
+  right: 1em;
+}
+.ear::before {
+  content: '';
+  position: absolute;
+  background-color: #a87c9f;
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 50%;
+  top: 0.5em;
+  left: 0.5em;
+}
+
+.eye-l,
+.eye-r {
+  position: absolute;
+  height: 0.81em;
+  width: 1.56em;
+  background-color: #101010;
+  border-radius: 0 0 1.87em 1.87em;
+  top: 3.75em;
+}
+.eye-l {
+  left: 1.56em;
+}
+.eye-r {
+  right: 1.56em;
+}
+.eye-l::before,
+.eye-r::before {
+  content: '';
+  position: absolute;
+  background-color: #d7dfe7;
+  height: 0.75em;
+  width: 1.12em;
+  border-radius: 0 0 0.9em 0.9em;
+  left: 0.23em;
+  bottom: 0.25em;
+}
+
+.mouth {
+  background-color: #ffffff;
+  position: absolute;
+  height: 1.87em;
+  width: 2.5em;
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 4.06em;
+}
+.mouth::before {
+  content: '';
+  position: absolute;
+  height: 0.93em;
+  width: 1.25em;
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  background-color: #101010;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hand-l,
+.hand-r {
+  position: absolute;
+  height: 2.5em;
+  width: 5em;
+  bottom: 0;
+  border-radius: 0.93em 0.93em 0 0;
+}
+.hand-l {
+  background-color: #b5becd;
+  left: -3.12em;
+}
+.hand-r {
+  background-color: #ffffff;
+  left: 5em;
+}
+.hand-l::before,
+.hand-r::before {
+  content: '';
+  position: absolute;
+  height: 2em;
+  width: 3.12em;
+  bottom: 0;
+  border-radius: 0.62em 0.62em 0 0;
+}
+.hand-l::before {
+  background-color: #ffffff;
+  right: -1.56em;
+}
+.hand-r::before {
+  background-color: #b5becd;
+  left: -1.56em;
+}
+
+.icebear-shadow {
+  background-color: #032532;
+  width: 22em;
+  height: 0.5em;
+  border-radius: 0.31em;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 19.5em;
+  filter: blur(5px);
+  animation: shadowPulse 12s ease-in-out infinite;
+}
+
+/* ZZZ Snoring ZZZ */
+.container span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  color: #021825;
+  position: absolute;
+  transform: rotate(10deg);
+  animation: snore 9s infinite linear forwards;
+}
+.container .z-1 {
+  top: 5.5em;
+  left: 4.5em;
+  animation-delay: 7s;
+}
+.container .z-2 {
+  top: 7em;
+  left: 3.5em;
+  animation-delay: 1s;
+}
+.container .z-3 {
+  top: 5em;
+  left: 6em;
+}
+
+/* KeyFrames Animations*/
+@keyframes moonPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 60px rgba(255, 255, 255, 0.5);
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes auroraFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes auroraDriftSecondary {
+  0% {
+    transform: translateX(0%) scaleY(1);
+  }
+  25% {
+    transform: translateX(5%) scaleY(1.1);
+  }
+  50% {
+    transform: translateX(10%) scaleY(0.9);
+  }
+  75% {
+    transform: translateX(6%) scaleY(1.05);
+  }
+  100% {
+    transform: translateX(0%) scaleY(1);
+  }
+}
+
+@keyframes snowFall {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) translateX(var(--drift)) rotate(360deg)
+      scale(0.8);
+    opacity: 0.3;
+  }
+}
+
+@keyframes icebearDrift {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-52%) translateY(1.5%);
+  }
+  100% {
+    transform: translateX(-48%) translateY(0);
+  }
+}
+
+@keyframes icebearBreath {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.15);
+  }
+}
+
+@keyframes snore {
+  30% {
+    transform: rotate(10deg) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(10deg) translateY(-7em);
+    opacity: 0.2;
+  }
+}
+
+/* Media Screens */
+@media (min-width: 768px) {
+  .container.icebear {
+    font-size: 0.65em;
+  }
+}
+
+@media (max-width: 767px) {
+  .container.icebear {
+    font-size: 0.5em;
+  }
+}

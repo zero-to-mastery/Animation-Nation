@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sky {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  animation: skyChange 8s ease-in-out infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.celestial-body {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.sun {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle, #ffd700 0%, #ffa500 100%);
+  border-radius: 50%;
+  top: 40px;
+  left: 40px;
+  animation: fadeInOut 8s ease-in-out infinite;
+  box-shadow: 0 0 60px rgba(255, 215, 0, 0.8), 0 0 100px rgba(255, 165, 0, 0.6);
+}
+
+.ray {
+  position: absolute;
+  width: 4px;
+  height: 30px;
+  background: linear-gradient(to bottom, #ffd700 0%, transparent 100%);
+  top: 50%;
+  left: 50%;
+  transform-origin: center -30px;
+  animation: rotate 4s linear infinite;
+}
+
+.ray1 {
+  transform: rotate(0deg);
+}
+.ray2 {
+  transform: rotate(45deg);
+}
+.ray3 {
+  transform: rotate(90deg);
+}
+.ray4 {
+  transform: rotate(135deg);
+}
+.ray5 {
+  transform: rotate(180deg);
+}
+.ray6 {
+  transform: rotate(225deg);
+}
+.ray7 {
+  transform: rotate(270deg);
+}
+.ray8 {
+  transform: rotate(315deg);
+}
+
+.moon {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle at 30% 30%, #f0f0f0 0%, #c0c0c0 100%);
+  border-radius: 50%;
+  top: 40px;
+  left: 40px;
+  animation: fadeOutIn 8s ease-in-out infinite;
+  box-shadow: 0 0 40px rgba(200, 200, 200, 0.6),
+    inset -10px -10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.crater {
+  position: absolute;
+  background: radial-gradient(circle, #a8a8a8 0%, #c0c0c0 100%);
+  border-radius: 50%;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.crater1 {
+  width: 20px;
+  height: 20px;
+  top: 30px;
+  left: 40px;
+}
+
+.crater2 {
+  width: 15px;
+  height: 15px;
+  top: 60px;
+  left: 70px;
+}
+
+.crater3 {
+  width: 12px;
+  height: 12px;
+  top: 50px;
+  left: 25px;
+}
+
+.star {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: white;
+  border-radius: 50%;
+  animation: starTwinkle 8s ease-in-out infinite;
+  box-shadow: 0 0 4px white;
+}
+
+.star1 {
+  top: 20%;
+  left: 15%;
+  animation-delay: 0s;
+}
+.star2 {
+  top: 30%;
+  left: 80%;
+  animation-delay: 1s;
+}
+.star3 {
+  top: 60%;
+  left: 20%;
+  animation-delay: 2s;
+}
+.star4 {
+  top: 70%;
+  left: 75%;
+  animation-delay: 1.5s;
+}
+.star5 {
+  top: 40%;
+  left: 50%;
+  animation-delay: 0.5s;
+}
+
+@keyframes skyChange {
+  0%,
+  100% {
+    background: linear-gradient(to bottom, #87ceeb 0%, #e0f6ff 100%);
+  }
+  50% {
+    background: linear-gradient(to bottom, #0c1445 0%, #1a237e 100%);
+  }
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+
+@keyframes fadeOutIn {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes starTwinkle {
+  0%,
+  40%,
+  100% {
+    opacity: 0;
+  }
+  50%,
+  90% {
+    opacity: 1;
+  }
+}

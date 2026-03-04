@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+
+.universe {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+}
+
+/* Star layers */
+.stars {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, white 1px, transparent 1px);
+  background-size: 80px 80px;
+  animation: drift 60s linear infinite;
+}
+
+.layer1 {
+  opacity: 0.8;
+  animation-duration: 40s;
+}
+.layer2 {
+  opacity: 0.5;
+  background-size: 120px 120px;
+  animation-duration: 80s;
+}
+.layer3 {
+  opacity: 0.3;
+  background-size: 200px 200px;
+  animation-duration: 120s;
+}
+
+/* Aurora effect */
+.aurora {
+  position: absolute;
+  inset: 0;
+  background: conic-gradient(
+    from 0deg,
+    rgba(255, 0, 150, 0.3),
+    rgba(0, 200, 255, 0.3),
+    rgba(0, 255, 150, 0.3),
+    rgba(255, 200, 0, 0.3),
+    rgba(255, 0, 150, 0.3)
+  );
+  mix-blend-mode: screen;
+  animation: spin 30s linear infinite;
+}
+
+/* Pulsing cosmic signal */
+.pulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.8),
+    transparent 70%
+  );
+  transform: translate(-50%, -50%);
+  animation: pulse 6s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes drift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1000px 1000px;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0.2;
+  }
+}

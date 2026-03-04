@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #87ceeb;
+  overflow: hidden;
+}
+.cloud {
+  width: 100px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: -120px;
+  animation: drift 20s linear infinite;
+}
+.cloud::before,
+.cloud::after {
+  content: '';
+  position: absolute;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.cloud::before {
+  top: -30px;
+  left: 10px;
+}
+.cloud::after {
+  top: -20px;
+  left: 40px;
+}
+
+@keyframes drift {
+  0% {
+    left: -120px;
+  }
+  100% {
+    left: 110%;
+  }
+}

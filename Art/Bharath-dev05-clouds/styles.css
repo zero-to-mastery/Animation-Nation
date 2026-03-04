@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to top, #87ceeb 0%, #e0f7ff 100%);
+  overflow: hidden;
+}
+
+.sky {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cloud {
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0.9;
+  filter: blur(2px);
+  animation: moveClouds linear infinite;
+}
+
+.cloud::before,
+.cloud::after {
+  content: '';
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.cloud1 {
+  width: 120px;
+  height: 60px;
+  top: 15%;
+  left: -200px;
+  animation-duration: 60s;
+}
+.cloud1::before {
+  width: 80px;
+  height: 80px;
+  top: -20px;
+  left: 10px;
+}
+.cloud1::after {
+  width: 100px;
+  height: 100px;
+  top: -30px;
+  left: 60px;
+}
+
+.cloud2 {
+  width: 200px;
+  height: 100px;
+  top: 35%;
+  left: -300px;
+  opacity: 0.8;
+  animation-duration: 90s;
+}
+.cloud2::before {
+  width: 120px;
+  height: 120px;
+  top: -40px;
+  left: 20px;
+}
+.cloud2::after {
+  width: 140px;
+  height: 140px;
+  top: -50px;
+  left: 90px;
+}
+
+.cloud3 {
+  width: 150px;
+  height: 80px;
+  top: 55%;
+  left: -250px;
+  opacity: 0.7;
+  animation-duration: 75s;
+}
+.cloud3::before {
+  width: 100px;
+  height: 100px;
+  top: -30px;
+  left: 15px;
+}
+.cloud3::after {
+  width: 120px;
+  height: 120px;
+  top: -40px;
+  left: 70px;
+}
+
+@keyframes moveClouds {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(140vw);
+  }
+}

@@ -1,0 +1,565 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #0f0f23 0%, #1a1a3a 50%, #2d2d5a 100%);
+  overflow: hidden;
+}
+
+/* Colors */
+
+:root {
+  --light-brown: #a69586;
+  --medium-brown: #9d8775;
+  --dark-brown: #3b2314;
+}
+
+.owl,
+.ear-l,
+.ear-r,
+.eye-l,
+.eye-r,
+.eye-r::before,
+.eye-l::before,
+.eye-r::after,
+.eye-l::after,
+.beak,
+.beak::after,
+.beak::before,
+.body-1,
+.body-2,
+.body-3,
+.foot-l,
+.foot-r,
+.foot-l::before,
+.foot-r::before,
+.foot-l::after,
+.foot-r::after {
+  position: absolute;
+}
+.eye-r::before,
+.eye-l::before,
+.eye-r::after,
+.eye-l::after,
+.beak::after,
+.beak::before,
+.foot-l::before,
+.foot-r::before,
+.foot-l::after,
+.foot-r::after {
+  content: ' ';
+}
+
+.beak,
+.beak::after,
+.beak::before {
+  background: #c97a3d;
+}
+
+.foot-l,
+.foot-r,
+.foot-l::before,
+.foot-r::before,
+.foot-l::after,
+.foot-r::after {
+  background: linear-gradient(to bottom, #c78a54 0%, #8b5a2b 100%);
+  box-shadow: inset 0 -1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.eye-l,
+.eye-r,
+.head,
+.body-2 {
+  background-color: var(--medium-brown);
+}
+
+/* Moon */
+
+.moon {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle at 30% 30%, #fff 0%, #f0f0f0 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+  animation: moonGlow 3s ease-in-out infinite alternate;
+}
+
+/* Stars */
+
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 2s infinite alternate;
+}
+
+/* Spread out Stars */
+.star:nth-child(1) {
+  top: 20%;
+  left: 10%;
+  width: 3px;
+  height: 3px;
+  animation-delay: 0s;
+}
+.star:nth-child(2) {
+  top: 15%;
+  left: 25%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 0.5s;
+}
+.star:nth-child(3) {
+  top: 30%;
+  left: 80%;
+  width: 3px;
+  height: 3px;
+  animation-delay: 1s;
+}
+.star:nth-child(4) {
+  top: 25%;
+  left: 60%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 1.5s;
+}
+.star:nth-child(5) {
+  top: 40%;
+  left: 20%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 0.3s;
+}
+.star:nth-child(6) {
+  top: 35%;
+  left: 90%;
+  width: 3px;
+  height: 3px;
+  animation-delay: 0.8s;
+}
+
+/* Clouds */
+
+.cloud {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50px;
+  animation: driftLeft 3s linear infinite;
+}
+
+.cloud::before,
+.cloud::after {
+  content: '';
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.cloud::before {
+  width: 60px;
+  height: 60px;
+  top: -30px;
+  left: 10px;
+}
+
+.cloud::after {
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  right: 10px;
+}
+
+/* Spread out cloud */
+.cloud1 {
+  top: 50px;
+  left: 120%;
+  animation-duration: 50s;
+}
+
+.cloud2 {
+  top: 180px;
+  left: 140%;
+  animation-duration: 55s;
+}
+
+.cloud3 {
+  top: 200px;
+  left: 110%;
+  animation-duration: 45s;
+}
+
+.cloud4 {
+  top: 180px;
+  right: 50%;
+  animation-duration: 63s;
+}
+
+/* Tree Branch */
+
+.tree-branch {
+  position: absolute;
+  bottom: -48px;
+  left: -110px;
+  width: 400px;
+  height: 20px;
+  background: linear-gradient(90deg, #3b240b, #5a3411);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Head */
+
+.head {
+  position: relative;
+  width: 180px;
+  height: 160px;
+  border-radius: 50%;
+  top: -58px;
+  animation: headTilt 8s ease-in-out infinite;
+}
+
+/* Ears */
+
+.ear-l,
+.ear-r {
+  border-top: 10px solid transparent;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 35px solid var(--medium-brown);
+  top: -10px;
+  border-radius: 80%;
+}
+
+.ear-l {
+  transform: rotate(-36deg);
+  left: -3px;
+}
+.ear-r {
+  transform: rotate(36deg);
+  right: -3px;
+}
+
+/* Eyes */
+
+.eye-l,
+.eye-r {
+  width: 44px;
+  height: 44px;
+  background-color: #22150c;
+  top: 57px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px #5c4025, 0 0 0 14px #d2a877, 0 0 0 22px #fff9f1,
+    0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.eye-r::before,
+.eye-l::before {
+  width: 13px;
+  height: 13px;
+  top: 1px;
+  left: 27px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: eyeMove 5s ease-in-out infinite;
+}
+.eye-l {
+  left: 26px;
+}
+.eye-r {
+  right: 26px;
+}
+
+.white-patch {
+  position: absolute;
+  width: 16px;
+  height: 60px;
+  left: 82px;
+  top: 70px;
+  border-radius: 0% 0% 100% 100%;
+  background: white;
+}
+
+/* Beak */
+
+.beak {
+  width: 16px;
+  height: 30px;
+  left: 82px;
+  top: 107px;
+  border-radius: 0% 0% 100% 100%;
+}
+
+.beak::after,
+.beak::before {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  transform-origin: bottom;
+}
+.beak::after {
+  transform: rotate(-17deg);
+  top: -1px;
+}
+.beak::before {
+  transform: rotate(17deg);
+  top: -1px;
+}
+
+.beak-shadow {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  transform: rotate(17deg);
+  top: 107px;
+  left: 83px;
+}
+
+/* Body */
+
+.body-1 {
+  width: 90px;
+  height: 203px;
+  border-radius: 50%;
+  background-color: var(--light-brown);
+  left: 25%;
+}
+.body-2 {
+  width: 135px;
+  height: 204px;
+  border-radius: 50%;
+  left: 13%;
+}
+.body-3 {
+  width: 190px;
+  height: 204px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #b59171 0%, #5b3b27 100%);
+  left: -3%;
+  animation: wingFlap 3s ease-in-out infinite;
+}
+
+/* Body Patterns */
+.spots {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  width: 130px;
+  height: 120px;
+  pointer-events: none;
+}
+
+.spot {
+  position: absolute;
+  width: 5px;
+  height: 13px;
+  background: #6e5847;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+/* Spread out patterns */
+.spot:nth-child(1) {
+  top: 10px;
+  left: 30px;
+}
+.spot:nth-child(2) {
+  top: 25px;
+  left: 60px;
+}
+.spot:nth-child(3) {
+  top: 50px;
+  left: 30px;
+}
+.spot:nth-child(4) {
+  top: 10px;
+  left: 85px;
+}
+.spot:nth-child(5) {
+  top: 80px;
+  left: 45px;
+}
+.spot:nth-child(6) {
+  top: 50px;
+  left: 85px;
+}
+.spot:nth-child(7) {
+  top: 80px;
+  left: 70px;
+}
+.spot:nth-child(8) {
+  top: 57px;
+  left: 60px;
+}
+
+/* Tail */
+
+.tail {
+  position: absolute;
+  animation: tailSway 4s ease-in-out infinite;
+  bottom: -1px;
+  left: 50%;
+}
+
+.tail-front {
+  position: absolute;
+  bottom: -165px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35px;
+  height: 200px;
+  background: linear-gradient(to bottom, #b59171 0%, #5b3b27 100%);
+  border-radius: 47%;
+  box-shadow: inset 0 -4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.tail-back {
+  position: absolute;
+  bottom: -140px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35px;
+  height: 160px;
+  border-radius: 45%;
+  background: linear-gradient(to bottom, #b59171 0%, #5b3b27 100%);
+  box-shadow: inset 0 -4px 6px rgba(0, 0, 0, 0.2);
+}
+.tail-back-left {
+  transform: translateX(-65%) rotate(14deg);
+}
+.tail-back-right {
+  transform: translateX(-35%) rotate(-14deg);
+}
+
+/* Feets */
+
+.foot-l,
+.foot-r {
+  width: 15px;
+  height: 35px;
+  bottom: -53px;
+  border-radius: 10px;
+}
+.foot-l::before,
+.foot-r::before {
+  width: 100%;
+  height: 95%;
+  top: 0px;
+  border-radius: 10px;
+}
+.foot-l::after,
+.foot-r::after {
+  width: 100%;
+  height: 115%;
+  top: 0px;
+  border-radius: 10px;
+}
+.foot-l::after {
+  left: 14px;
+}
+.foot-r::after {
+  right: 14px;
+}
+.foot-l::before {
+  left: -14px;
+}
+.foot-r::before {
+  right: -14px;
+}
+.foot-l {
+  left: 38px;
+}
+.foot-r {
+  right: 38px;
+}
+
+/* Animations */
+
+/* Animation for the Moon to glow */
+@keyframes moonGlow {
+  0% {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* Animation for the Stars to twinkle */
+@keyframes twinkle {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Animation for the clouds */
+@keyframes driftLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-160vw);
+  }
+}
+
+/* Animation for the Owl to tilt it's head*/
+@keyframes headTilt {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  75% {
+    transform: rotate(15deg);
+  }
+}
+
+/* Animation for the Owl's eyes to sparkle'*/
+@keyframes eyeMove {
+  0%,
+  100% {
+    transform: rotate(0deg) scaleY(1);
+  }
+  50% {
+    transform: rotate(-5deg) scaleY(1.2);
+  }
+}
+
+/* Animation for the Owl's wings to twitch'*/
+@keyframes wingFlap {
+  0%,
+  100% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-14deg);
+  }
+}
+
+/* Animation for the Owl's tail to sway'*/
+@keyframes tailSway {
+  0%,
+  100% {
+    transform: translateX(-50%) rotate(3deg);
+  }
+  50% {
+    transform: translateX(-50%) rotate(-3deg);
+  }
+}

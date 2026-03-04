@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(
+    140vmax at 50% 40%,
+    #0e121a 0 45%,
+    #080b12 70%,
+    #05070c
+  );
+  color: #fff;
+  font-family: system-ui, Segoe UI, Roboto, Inter, sans-serif;
+}
+
+.scene {
+  position: relative;
+  width: min(84vmin, 640px);
+  aspect-ratio: 1 / 0.68;
+  perspective: 900px;
+  filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.6));
+}
+
+.disk {
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  transform-style: preserve-3d;
+  translate: -50% -50%;
+  width: 92%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  background: repeating-conic-gradient(
+      from 0deg,
+      transparent 0 9deg,
+      rgba(0, 255, 242, 0.9) 9deg 14deg
+    ),
+    repeating-conic-gradient(
+      from 4deg,
+      transparent 0 11deg,
+      rgba(151, 104, 255, 0.85) 11deg 16deg
+    );
+  box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.06),
+    inset 0 -120px 160px rgba(0, 0, 0, 0.45),
+    inset 0 120px 160px rgba(0, 0, 0, 0.35);
+}
+
+.d1 {
+  transform: rotateX(62deg) translateZ(-30px);
+  animation: spin1 10s linear infinite;
+  opacity: 0.95;
+}
+.d2 {
+  transform: rotateX(62deg) translateZ(-6px) scale(0.98);
+  animation: spin2 14s linear infinite reverse;
+  filter: blur(1px) brightness(1.08);
+  opacity: 0.9;
+}
+.d3 {
+  transform: rotateX(62deg) translateZ(16px) scale(1.02);
+  animation: spin3 18s linear infinite;
+  filter: blur(2px) brightness(1.12);
+  opacity: 0.8;
+}
+
+.disk::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+      120% 90% at 50% 120%,
+      rgba(255, 255, 255, 0.22),
+      rgba(255, 255, 255, 0) 55%
+    ),
+    radial-gradient(
+      40% 20% at 50% 35%,
+      rgba(255, 255, 255, 0.08),
+      transparent 70%
+    );
+  mix-blend-mode: screen;
+  animation: sweep 4.5s ease-in-out infinite;
+}
+
+@keyframes spin1 {
+  from {
+    transform: rotateX(62deg) rotateZ(0) translateZ(-30px);
+  }
+  to {
+    transform: rotateX(62deg) rotateZ(360deg) translateZ(-30px);
+  }
+}
+@keyframes spin2 {
+  from {
+    transform: rotateX(62deg) rotateZ(0) translateZ(-6px) scale(0.98);
+  }
+  to {
+    transform: rotateX(62deg) rotateZ(360deg) translateZ(-6px) scale(0.98);
+  }
+}
+@keyframes spin3 {
+  from {
+    transform: rotateX(62deg) rotateZ(0) translateZ(16px) scale(1.02);
+  }
+  to {
+    transform: rotateX(62deg) rotateZ(360deg) translateZ(16px) scale(1.02);
+  }
+}
+@keyframes sweep {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: rotate(0deg);
+  }
+  50% {
+    opacity: 0.25;
+    transform: rotate(180deg);
+  }
+}
+
+.rim {
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  translate: -50% -50%;
+  width: 96%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transform: rotateX(62deg) translateZ(-44px);
+  background: radial-gradient(
+      closest-side,
+      rgba(255, 255, 255, 0.08),
+      transparent 70%
+    ),
+    radial-gradient(circle at 50% 52%, rgba(0, 0, 0, 0.45) 64%, transparent 67%);
+  box-shadow: 0 14px 0 -6px rgba(18, 24, 33, 0.75),
+    0 32px 0 -10px rgba(18, 24, 33, 0.6), 0 46px 0 -14px rgba(18, 24, 33, 0.45);
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .disk,
+  .disk::after {
+    animation: none;
+  }
+}

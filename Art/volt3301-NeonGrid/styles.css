@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 255, 255, 0.3) 1px,
+      transparent 1px
+    ),
+    linear-gradient(rgba(0, 255, 255, 0.3) 1px, transparent 1px);
+  background-size: 50px 50px;
+  animation: move 5s linear infinite;
+}
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}

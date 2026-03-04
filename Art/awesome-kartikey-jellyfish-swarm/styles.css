@@ -1,0 +1,431 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Bright bioluminescent palette */
+  --glow-cyan: #00ffff;
+  --glow-purple: #ab5cff;
+
+  /* Background */
+  --bg1: #0a0e27;
+  --bg2: #0d1b2a;
+  --bg3: #1b263b;
+  --bg4: #0d1321;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    var(--bg1) 0%,
+    var(--bg2) 30%,
+    var(--bg3) 60%,
+    var(--bg4) 100%
+  );
+  overflow: hidden;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+
+/* ==================== SCENE ==================== */
+.ocean-scene {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  transform-style: preserve-3d;
+  animation: oceanSway 20s ease-in-out infinite;
+}
+@keyframes oceanSway {
+  0%,
+  100% {
+    transform: rotateX(5deg) rotateY(0deg);
+  }
+  25% {
+    transform: rotateX(2deg) rotateY(-3deg);
+  }
+  50% {
+    transform: rotateX(-3deg) rotateY(2deg);
+  }
+  75% {
+    transform: rotateX(4deg) rotateY(-1deg);
+  }
+}
+
+/* ==================== LIGHT RAYS ==================== */
+.light-rays,
+.particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  transform-style: preserve-3d;
+}
+
+.light-rays {
+  top: -50%;
+  height: 150%;
+  background: linear-gradient(
+      180deg,
+      rgba(100, 150, 200, 0.03) 0%,
+      transparent 50%
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent 0px,
+      rgba(100, 150, 200, 0.015) 100px,
+      transparent 200px,
+      transparent 300px
+    );
+  animation: raysShift 30s linear infinite;
+  transform: translateZ(-300px);
+  will-change: transform, opacity;
+}
+@keyframes raysShift {
+  0% {
+    transform: translateZ(-300px) translateX(0);
+  }
+  100% {
+    transform: translateZ(-300px) translateX(300px);
+  }
+}
+
+/* ==================== PARTICLES (FIXED Z DEPTH) ==================== */
+.particles {
+  overflow: hidden;
+}
+.particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at center,
+    rgba(150, 220, 255, 0.8) 0%,
+    rgba(150, 220, 255, 0.4) 40%,
+    transparent 70%
+  );
+  box-shadow: 0 0 8px rgba(150, 220, 255, 0.6);
+  animation: particleFloat 15s linear infinite;
+  will-change: transform, opacity;
+}
+/* Each sets its Z via CSS var for consistent transform chain */
+.particle:nth-child(1) {
+  top: 10%;
+  left: 15%;
+  --pz: 150px;
+  animation-delay: 0s;
+}
+.particle:nth-child(2) {
+  top: 25%;
+  left: 80%;
+  --pz: -80px;
+  animation-delay: -2s;
+  animation-duration: 12s;
+}
+.particle:nth-child(3) {
+  top: 40%;
+  left: 45%;
+  --pz: 80px;
+  animation-delay: -4s;
+}
+.particle:nth-child(4) {
+  top: 55%;
+  left: 25%;
+  --pz: -150px;
+  animation-delay: -6s;
+  animation-duration: 18s;
+}
+.particle:nth-child(5) {
+  top: 70%;
+  left: 60%;
+  --pz: 50px;
+  animation-delay: -8s;
+}
+.particle:nth-child(6) {
+  top: 15%;
+  left: 50%;
+  --pz: -120px;
+  animation-delay: -10s;
+}
+.particle:nth-child(7) {
+  top: 85%;
+  left: 35%;
+  --pz: 120px;
+  animation-delay: -3s;
+}
+.particle:nth-child(8) {
+  top: 30%;
+  left: 10%;
+  --pz: -50px;
+  animation-delay: -5s;
+}
+.particle:nth-child(9) {
+  top: 50%;
+  left: 75%;
+  --pz: 90px;
+  animation-delay: -7s;
+}
+.particle:nth-child(10) {
+  top: 65%;
+  left: 90%;
+  --pz: -100px;
+  animation-delay: -9s;
+}
+.particle:nth-child(11) {
+  top: 20%;
+  left: 65%;
+  --pz: 60px;
+  animation-delay: -1s;
+}
+.particle:nth-child(12) {
+  top: 80%;
+  left: 20%;
+  --pz: -70px;
+  animation-delay: -11s;
+}
+@keyframes particleFloat {
+  0% {
+    transform: translateZ(var(--pz, 0)) translateY(110vh) scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateZ(var(--pz, 0)) translateY(-10vh) scale(0.5);
+    opacity: 0;
+  }
+}
+
+/* ==================== SWARM WITH PATHS ==================== */
+.jellyfish-swarm {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+}
+
+.jellyfish {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  transform-style: preserve-3d;
+  animation: drift var(--dur, 30s) ease-in-out infinite;
+  animation-delay: var(--delay, 0s);
+  will-change: transform;
+  transform-origin: center;
+  filter: none;
+}
+@keyframes drift {
+  from {
+    transform: translate3d(
+        var(--x-start, 0),
+        var(--y-start, 0),
+        var(--z-start, 0)
+      )
+      scale(var(--scale, 1)) rotateX(180deg);
+  }
+  to {
+    transform: translate3d(var(--x-end, 0), var(--y-end, 0), var(--z-end, 0))
+      scale(var(--scale, 1)) rotateX(180deg);
+  }
+}
+
+/* ==================== BELL ==================== */
+.bell {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 45% 45% / 60% 60% 40% 40%;
+  background: linear-gradient(
+    135deg,
+    rgba(171, 92, 255, 0.12),
+    rgba(0, 255, 255, 0.08)
+  );
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 2px solid rgba(150, 200, 255, 0.24);
+  animation: bioluminescePulse 3s ease-in-out infinite alternate;
+  box-shadow: 0 0 22px rgba(0, 255, 255, 0.35),
+    0 0 42px rgba(171, 92, 255, 0.28), inset 0 0 20px rgba(0, 255, 255, 0.2);
+  will-change: transform, box-shadow, opacity, filter;
+  transform: rotateX(180deg);
+}
+@keyframes bioluminescePulse {
+  from {
+    box-shadow: 0 0 22px rgba(0, 255, 255, 0.35),
+      0 0 42px rgba(171, 92, 255, 0.28), inset 0 0 18px rgba(171, 92, 255, 0.28);
+  }
+  to {
+    box-shadow: 0 0 50px rgba(0, 255, 255, 0.6),
+      0 0 110px rgba(171, 92, 255, 0.55), inset 0 0 30px rgba(0, 255, 255, 0.45);
+  }
+}
+.bell::before,
+.bell::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.bell::before {
+  inset: 15%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    rgba(150, 220, 255, 0.45) 0%,
+    rgba(180, 150, 255, 0.22) 40%,
+    transparent 70%
+  );
+  filter: blur(8px);
+  animation: innerGlow 2.5s ease-in-out infinite alternate;
+}
+@keyframes innerGlow {
+  from {
+    opacity: 0.55;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+.bell::after {
+  top: 10%;
+  left: 15%;
+  width: 40%;
+  height: 35%;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.55) 0%,
+    transparent 70%
+  );
+  filter: blur(6px);
+  animation: shimmer 4s ease-in-out infinite;
+}
+@keyframes shimmer {
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 0.9;
+    transform: translateX(5px);
+  }
+}
+
+/* ==================== TENTACLES ==================== */
+.tentacles {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 200px;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
+.tentacle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 3px;
+  height: 180px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 255, 255, 0.75) 0%,
+    rgba(171, 92, 255, 0.5) 55%,
+    rgba(0, 255, 255, 0.15) 85%,
+    transparent 100%
+  );
+  border-radius: 50%;
+  transform-origin: top center;
+  filter: blur(0.4px);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.55),
+    0 0 22px rgba(171, 92, 255, 0.45);
+  animation: tentacleWave 3.2s cubic-bezier(0.5, 0, 0.5, 1) infinite alternate;
+  will-change: transform, opacity, filter;
+}
+@keyframes tentacleWave {
+  0% {
+    transform: translateX(0) rotateZ(0deg) scaleY(1);
+  }
+  25% {
+    transform: translateX(8px) rotateZ(5deg) scaleY(0.96);
+  }
+  50% {
+    transform: translateX(-5px) rotateZ(-3deg) scaleY(1.05);
+  }
+  75% {
+    transform: translateX(10px) rotateZ(7deg) scaleY(0.98);
+  }
+  100% {
+    transform: translateX(0) rotateZ(0deg) scaleY(1);
+  }
+}
+/* Positions preserved from your final version */
+.tentacle:nth-child(1) {
+  transform: translateX(-40px) rotateZ(-15deg);
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+.tentacle:nth-child(2) {
+  transform: translateX(-25px) rotateZ(-8deg);
+  animation-duration: 3.2s;
+  animation-delay: -0.4s;
+  height: 160px;
+}
+.tentacle:nth-child(3) {
+  transform: translateX(-10px) rotateZ(-3deg);
+  animation-duration: 2.8s;
+  animation-delay: -0.8s;
+  height: 190px;
+}
+.tentacle:nth-child(4) {
+  transform: translateX(5px) rotateZ(2deg);
+  animation-duration: 3.1s;
+  animation-delay: -1.2s;
+  height: 170px;
+}
+.tentacle:nth-child(5) {
+  transform: translateX(20px) rotateZ(6deg);
+  animation-duration: 2.9s;
+  animation-delay: -1.6s;
+  height: 185px;
+}
+.tentacle:nth-child(6) {
+  transform: translateX(35px) rotateZ(12deg);
+  animation-duration: 3.3s;
+  animation-delay: -2s;
+  height: 165px;
+}
+.tentacle:nth-child(7) {
+  transform: translateX(-18px) rotateZ(-10deg);
+  animation-duration: 2.7s;
+  animation-delay: -2.4s;
+  height: 175px;
+}
+.tentacle:nth-child(8) {
+  transform: translateX(12px) rotateZ(4deg);
+  animation-duration: 3.4s;
+  animation-delay: -2.8s;
+  height: 180px;
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 768px) {
+  .jellyfish {
+    width: 90px;
+    height: 90px;
+  }
+  .tentacles {
+    height: 140px;
+  }
+  .tentacle {
+    height: 140px;
+  }
+}

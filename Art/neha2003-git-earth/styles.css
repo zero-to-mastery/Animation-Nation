@@ -1,0 +1,463 @@
+:root {
+  --bg: #1a1a2e;
+  --earth-size: 220px;
+  --moon-size: 72px;
+  --orbit-size: 370px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: var(--bg);
+}
+
+.scene {
+  position: relative;
+  width: var(--orbit-size);
+  height: var(--orbit-size);
+  display: block;
+}
+
+/*  Earth  */
+.earth {
+  --size: var(--earth-size);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    circle at 30% 20%,
+    #7ec8f7 0%,
+    #6db9f1 30%,
+    #58a9e8 60%,
+    #3c93db 100%
+  );
+  box-shadow: inset -14px -10px 20px rgba(0, 0, 0, 0.23),
+    0 0 100px rgba(74, 144, 226, 0.3), 0 0 200px rgba(74, 144, 226, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Earth shine */
+.earth-shine {
+  position: absolute;
+  left: 18%;
+  top: 12%;
+  width: 10%;
+  height: 2%;
+  border-radius: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.35)
+  );
+  transform: rotate(-38deg);
+  filter: blur(1px);
+  opacity: 0.95;
+}
+
+.earth::after {
+  content: '';
+  position: absolute;
+  left: 14.5%;
+  top: 19%;
+  width: 2%;
+  height: 2%;
+  border-radius: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.35)
+  );
+  transform: rotate(-35deg);
+  filter: blur(1px);
+  opacity: 0.95;
+}
+
+/* Continents */
+.continent,
+.continent2,
+.continent3,
+.continent4,
+.continent5 {
+  position: absolute;
+  background: #a0d64d;
+}
+
+.continent {
+  width: 49%;
+  height: 18%;
+  right: -19%;
+  top: 18%;
+  transform: rotate(0deg) skewX(3deg);
+  border-radius: 45px;
+}
+
+.continent2 {
+  width: 49%;
+  height: 48%;
+  left: 65%;
+  top: 57%;
+  border-radius: 15px 0 0 100px;
+}
+
+.continent3 {
+  width: 49%;
+  height: 18%;
+  left: -8%;
+  top: 18%;
+  border-radius: 45px;
+}
+
+.continent4 {
+  width: 49%;
+  height: 18%;
+  left: -28%;
+  top: 30%;
+  border-radius: 45px;
+}
+
+.continent5 {
+  width: 49%;
+  height: 18%;
+  left: -8%;
+  top: 85%;
+  border-radius: 45px;
+  transform: rotate(40deg);
+}
+
+/* Earth face */
+.face {
+  position: relative;
+  width: 60%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.eye {
+  width: 18px;
+  height: 18px;
+  background: #06132a;
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.06),
+    inset -3px -3px 0 rgba(255, 255, 255, 0.08);
+  position: relative;
+  animation: eyeMove 2s infinite alternate;
+}
+
+.eye::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  opacity: 0.9;
+}
+
+.smile {
+  position: absolute;
+  bottom: 30%;
+  left: 58%;
+  width: 26px;
+  height: 12px;
+  margin-left: -23px;
+  border-bottom: 10px solid #081a2a;
+  border-radius: 0 0 80px 80px;
+  transform: translateY(10px);
+  background: transparent;
+  animation: smileMove 2s ease-in-out 1s infinite alternate;
+}
+
+/*  Moon */
+.moon-orbit {
+  position: absolute;
+  width: var(--orbit-size);
+  height: var(--orbit-size);
+  left: 50%;
+  top: 50%;
+  transform-origin: center center;
+  animation: rotate-orbit 12s linear infinite;
+}
+
+.moon {
+  width: var(--moon-size);
+  height: var(--moon-size);
+  border-radius: 50%;
+  background: linear-gradient(135deg, #dfeefc 0%, #cfdff4 60%, #c9d8ef 100%);
+  position: absolute;
+  left: 50%;
+  top: calc(50% - var(--orbit-size) / 2);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
+  display: block;
+  animation: moonGlow 3s ease-in-out infinite alternate;
+}
+
+/* Moon craters */
+.moon::before,
+.moon::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(148, 165, 183, 0.45);
+}
+
+.moon::before {
+  width: 22%;
+  height: 22%;
+  left: 20%;
+  top: 28%;
+}
+
+.moon::after {
+  width: 16%;
+  height: 16%;
+  right: 18%;
+  top: 44%;
+}
+
+/* Moon face */
+.moon .moon-eye {
+  position: absolute;
+  right: 34%;
+  top: 36%;
+  width: 8px;
+  height: 8px;
+  background: #06132a;
+  border-radius: 50%;
+}
+
+.moon .moon-eye::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  left: 2px;
+  top: 1px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+}
+
+.moon .moon-eye2 {
+  position: absolute;
+  right: 54%;
+  top: 36%;
+  width: 8px;
+  height: 8px;
+  background: #06132a;
+  border-radius: 50%;
+}
+
+.moon .moon-eye2::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  left: 2px;
+  top: 1px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+}
+
+.moon .smile {
+  position: absolute;
+  width: 24px;
+  height: 12px;
+  border-bottom-width: 10px;
+  left: 50%;
+  margin-left: -12px;
+  bottom: 30%;
+  animation: smileMove 2s infinite alternate;
+}
+
+.moon-shine {
+  position: absolute;
+  left: 25%;
+  top: 10%;
+  width: 15%;
+  height: 3%;
+  border-radius: 50px;
+  background: white;
+  transform: rotate(-25deg);
+  filter: blur(1px);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+/*  Stars  */
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 2s infinite alternate;
+}
+
+.star:nth-child(1) {
+  top: 5%;
+  left: 5%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 0s;
+}
+.star:nth-child(2) {
+  top: 10%;
+  left: 80%;
+  width: 3px;
+  height: 3px;
+  animation-delay: 0.3s;
+}
+.star:nth-child(3) {
+  top: 20%;
+  left: 25%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 0.5s;
+}
+.star:nth-child(4) {
+  top: 35%;
+  left: 90%;
+  width: 3px;
+  height: 3px;
+  animation-delay: 0.8s;
+}
+.star:nth-child(5) {
+  top: 50%;
+  left: 15%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 1s;
+}
+.star:nth-child(6) {
+  top: 60%;
+  left: 70%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 1.2s;
+}
+.star:nth-child(7) {
+  top: 75%;
+  left: 5%;
+  width: 3px;
+  height: 3px;
+  animation-delay: 1.5s;
+}
+.star:nth-child(8) {
+  top: 85%;
+  left: 55%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 0.2s;
+}
+.star:nth-child(9) {
+  top: 40%;
+  left: 35%;
+  width: 3px;
+  height: 3px;
+  animation-delay: 0.7s;
+}
+.star:nth-child(10) {
+  top: 25%;
+  left: 60%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 1s;
+}
+.star:nth-child(11) {
+  top: 65%;
+  left: 85%;
+  width: 3px;
+  height: 3px;
+  animation-delay: 1.3s;
+}
+.star:nth-child(12) {
+  top: 90%;
+  left: 20%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 0.5s;
+}
+
+/*  Animations  */
+@keyframes twinkle {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes moonGlow {
+  0% {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  }
+}
+
+@keyframes rotate-orbit {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes smileMove {
+  0% {
+    border-bottom-width: 3px;
+  }
+  25% {
+    border-bottom-width: 10px;
+  }
+  50% {
+    border-bottom-width: 10px;
+    transform: translate(0.1px);
+  }
+  75% {
+    border-bottom-width: 10px;
+  }
+  100% {
+    border-bottom-width: 3px;
+  }
+}
+
+@keyframes eyeMove {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(1px, -1px);
+  }
+  50% {
+    transform: translate(-1px, 1px);
+  }
+  75% {
+    transform: translate(1px, 1px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

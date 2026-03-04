@@ -1,0 +1,235 @@
+@property --rot {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+@property --sc {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 1;
+}
+
+:root {
+  --bg-1: #06090f;
+  --bg-2: #0b101c;
+  --ink: #eaf1ff;
+  --size: min(78vmin, 780px);
+  --gap: clamp(12px, 1.8vmin, 20px);
+  --dur-morph: 4.8s;
+  --dur-rotate: 7.6s;
+  --dur-hue: 8s;
+  --dur-pulse: 2.8s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  color: var(--ink);
+  background: radial-gradient(120% 120% at 30% 15%, var(--bg-1), var(--bg-2));
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+
+.scene {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid {
+  width: var(--size);
+  height: var(--size);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap);
+  padding: var(--gap);
+}
+
+.cell {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  position: relative;
+}
+
+.shape {
+  width: 64%;
+  height: 64%;
+  display: block;
+  position: relative;
+  border-radius: 22%;
+  background: radial-gradient(
+    120% 120% at 30% 25%,
+    #ffffffaa,
+    #eff4ff 42%,
+    #cfd9e6 85%
+  );
+  box-shadow: 0 2px 8px #00000080;
+
+  transform: rotate(var(--rot)) scale(var(--sc));
+  will-change: transform, border-radius, opacity, filter;
+
+  animation: morph var(--dur-morph) ease-in-out infinite,
+    spin var(--dur-rotate) linear infinite,
+    breatheScale var(--dur-morph) ease-in-out infinite;
+}
+
+.shape::before {
+  content: '';
+  position: absolute;
+  inset: -30%;
+  border-radius: inherit;
+  background: radial-gradient(
+      130% 130% at 50% 45%,
+      rgba(0, 255, 234, 0.7) 0%,
+      rgba(0, 255, 234, 0) 60%
+    ),
+    radial-gradient(
+      160% 160% at 70% 35%,
+      rgba(255, 0, 200, 0.55) 0%,
+      rgba(255, 0, 200, 0) 72%
+    ),
+    radial-gradient(
+      150% 150% at 35% 70%,
+      rgba(26, 125, 255, 0.55) 0%,
+      rgba(26, 125, 255, 0) 74%
+    ),
+    radial-gradient(
+      170% 170% at 62% 72%,
+      rgba(0, 255, 170, 0.5) 0%,
+      rgba(0, 255, 170, 0) 78%
+    );
+
+  filter: blur(30px) saturate(1.5) brightness(1.05);
+  opacity: 0.95;
+  mix-blend-mode: screen;
+  pointer-events: none;
+
+  animation: pulse var(--dur-pulse) ease-in-out infinite;
+}
+
+.shape::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+      60% 45% at 35% 30%,
+      #ffffffcc,
+      #ffffff20 60%,
+      #0000 70%
+    ),
+    linear-gradient(180deg, #ffffff18, #0000 45%);
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+.cell:nth-child(1) .shape {
+  animation-delay: 0s, 0s, 0s;
+}
+.cell:nth-child(2) .shape {
+  animation-delay: 0.1s, 0.1s, 0.1s;
+}
+.cell:nth-child(3) .shape {
+  animation-delay: 0.2s, 0.2s, 0.2s;
+}
+.cell:nth-child(4) .shape {
+  animation-delay: 0.3s, 0.3s, 0.3s;
+}
+.cell:nth-child(5) .shape {
+  animation-delay: 0.4s, 0.4s, 0.4s;
+}
+.cell:nth-child(6) .shape {
+  animation-delay: 0.5s, 0.5s, 0.5s;
+}
+.cell:nth-child(7) .shape {
+  animation-delay: 0.6s, 0.6s, 0.6s;
+}
+.cell:nth-child(8) .shape {
+  animation-delay: 0.7s, 0.7s, 0.7s;
+}
+.cell:nth-child(9) .shape {
+  animation-delay: 0.8s, 0.8s, 0.8s;
+}
+.cell:nth-child(odd) .shape::before {
+  animation-delay: 0.2s, 0.1s;
+}
+.cell:nth-child(even) .shape::before {
+  animation-delay: 0s, 0.3s;
+}
+
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 22%;
+    opacity: 0.96;
+  }
+  25% {
+    border-radius: 40%;
+    opacity: 1;
+  }
+  50% {
+    border-radius: 54%;
+    opacity: 0.98;
+  }
+  75% {
+    border-radius: 32%;
+    opacity: 0.99;
+  }
+}
+@keyframes spin {
+  to {
+    --rot: 360deg;
+  }
+}
+@keyframes breatheScale {
+  0%,
+  100% {
+    --sc: 0.94;
+  }
+  25% {
+    --sc: 1.06;
+  }
+  50% {
+    --sc: 0.98;
+  }
+  75% {
+    --sc: 1.03;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.68;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.04);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shape,
+  .shape::before {
+    animation: none;
+  }
+}
+
+.credit {
+  position: absolute;
+  inset: auto 0 2rem 0;
+  text-align: center;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  opacity: 0.6;
+  user-select: none;
+}

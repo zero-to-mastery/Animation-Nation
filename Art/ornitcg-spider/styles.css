@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spider {
+  width: 20%;
+  aspect-ratio: 1.5/1;
+  display: flex;
+  position: absolute;
+  animation: walk 5s linear infinite;
+}
+
+.left-legs {
+  width: 30%;
+  height: 100%;
+}
+.mid-body {
+  width: 30%;
+  height: 100%;
+}
+
+.top {
+  width: 100%;
+  height: 40%;
+  border-radius: 70% 70% 30% 30%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.face {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+  height: 50%;
+}
+.mouth {
+  width: 40%;
+  height: 30%;
+  border: 10px solid black;
+  border-radius: 80% 80% 0% 0%;
+  border-bottom: none;
+}
+.eyes {
+  display: flex;
+  justify-content: space-between;
+
+  justify-items: center;
+  align-items: center;
+  width: 70%;
+  height: 30%;
+}
+.eye {
+  background-color: black;
+  border-radius: 50%;
+  width: 20%;
+  aspect-ratio: 1/1;
+}
+.bottom {
+  width: 100%;
+  height: 60%;
+  border-radius: 30% 30% 80% 80%;
+}
+.top,
+.bottom,
+.leg {
+  background-color: blue;
+}
+
+.right-legs {
+  width: 30%;
+  height: 100%;
+}
+
+.leg1 {
+  width: 100%;
+  height: 10%;
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%, 50% 25%);
+}
+
+.leg2 {
+  width: 100%;
+  height: 15%;
+  clip-path: polygon(0% 50%, 50% 10%, 100% 100%, 50% 30%);
+  animation-delay: 0.2s;
+}
+
+.leg3 {
+  width: 100%;
+  height: 15%;
+  clip-path: polygon(0% 10%, 65% 10%, 100% 100%, 60% 25%);
+  animation-delay: 0.4s;
+}
+
+.leg4 {
+  width: 100%;
+  height: 60%;
+  clip-path: polygon(0% 10%, 70% 10%, 100% 100%, 65% 20%);
+  animation-delay: 0.6s;
+}
+
+.leg {
+  transform-origin: top left;
+}
+
+.left-legs {
+  transform: scaleX(-1);
+}
+
+.left-legs .leg1,
+.left-legs .leg3,
+.right-legs .leg2,
+.right-legs .leg4 {
+  animation: move-leg 1.2s ease-in infinite;
+}
+
+.left-legs .leg2,
+.left-legs .leg4,
+.right-legs .leg1,
+.right-legs .leg3 {
+  animation: move-leg 1.2s ease-in infinite;
+  animation-delay: 0.2s;
+}
+
+@keyframes move-leg {
+  0% {
+    rotate: -30deg;
+  }
+  25% {
+    rotate: 0deg;
+  }
+  50% {
+    rotate: 15deg;
+  }
+  75% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: -30deg;
+  }
+}
+
+@keyframes walk {
+  0% {
+    rotate: -30deg;
+    top: 100%;
+    left: 60%;
+  }
+  25% {
+    rotate: -45deg;
+    top: 70%;
+    left: 40%;
+  }
+  50% {
+    rotate: 10deg;
+    top: 55%;
+    left: 25%;
+  }
+  70% {
+    rotate: 30deg;
+    top: 35%;
+    left: 30%;
+  }
+  80% {
+    rotate: 45deg;
+    top: 10%;
+    left: 40%;
+  }
+  100% {
+    rotate: 30deg;
+    top: -50%;
+    left: 60%;
+  }
+}

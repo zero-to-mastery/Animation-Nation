@@ -1,0 +1,308 @@
+/* Compact neon loader optimized for gallery thumbnails
+   - Keeps the moon fully visible at small sizes
+   - No JS, no images/SVG
+*/
+
+:root {
+  --bg: #07101a;
+  --accent-a: #6ef3ff;
+  --accent-b: #a07bff;
+  --accent-c: #ff6ec7;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  display: grid;
+  place-items: center;
+  font-family: system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial;
+}
+
+.scene {
+  width: min(84vmin, 520px);
+  aspect-ratio: 1/1;
+  display: grid;
+  place-items: center;
+}
+
+/* .mini-loader removed; replaced by .loader for the sleek loader */
+
+.core {
+  width: 44%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0.02)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6),
+    inset 0 -14px 28px rgba(255, 255, 255, 0.02);
+  position: relative;
+}
+
+/* Sleek loader layout */
+.loader {
+  width: 36%;
+  min-width: 120px;
+  aspect-ratio: 1/1;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.rings {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: grid;
+  place-items: center;
+}
+.ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  mix-blend-mode: screen;
+}
+.ring--outer {
+  width: 92%;
+  height: 92%;
+  box-shadow: 0 0 34px rgba(110, 243, 255, 0.12),
+    inset 0 -8px 22px rgba(0, 0, 0, 0.45);
+  animation: spin-slow 10s linear infinite;
+  border-color: rgba(110, 243, 255, 0.16);
+}
+.ring--mid {
+  width: 68%;
+  height: 68%;
+  box-shadow: 0 0 26px rgba(160, 123, 255, 0.1);
+  animation: spin-fast 6.8s linear reverse infinite;
+  border-color: rgba(160, 123, 255, 0.14);
+}
+
+.dot {
+  --d: 12%;
+  width: var(--d);
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: radial-gradient(
+      circle at 30% 30%,
+      #fff,
+      rgba(255, 255, 255, 0.95) 10%,
+      transparent 36%
+    ),
+    linear-gradient(180deg, var(--accent-b), var(--accent-c));
+  box-shadow: 0 0 10px var(--accent-b), 0 0 22px rgba(255, 110, 199, 0.12) inset;
+  position: absolute;
+  left: 50%;
+  top: 6%;
+  transform: translate(-50%, 0) rotate(0deg);
+  transform-origin: 50% calc(100% + 110%);
+  animation: dot-orbit 1.6s cubic-bezier(0.22, 0.85, 0.3, 1) infinite;
+}
+
+.d1 {
+  animation-delay: 0s;
+  opacity: 1;
+}
+.d2 {
+  animation-delay: 0.22s;
+  opacity: 0.9;
+  transform-origin: 50% calc(100% + 115%);
+  --d: 10%;
+}
+.d3 {
+  animation-delay: 0.44s;
+  opacity: 0.85;
+  transform-origin: 50% calc(100% + 105%);
+  --d: 8%;
+}
+
+/* Rotator containers: rotate these so dots follow a perfect circular path */
+.rotator {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  display: block;
+  transform-origin: 50% 50%;
+}
+.rotator .dot {
+  left: 50%;
+  top: 6%;
+  transform: translate(-50%, 0);
+}
+.r1 {
+  animation: rotate-1 2.4s linear infinite;
+}
+.r2 {
+  animation: rotate-2 2.4s linear infinite;
+}
+.r3 {
+  animation: rotate-3 2.4s linear infinite;
+}
+
+@keyframes rotate-1 {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes rotate-2 {
+  from {
+    transform: translate(-50%, -50%) rotate(120deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(480deg);
+  }
+}
+@keyframes rotate-3 {
+  from {
+    transform: translate(-50%, -50%) rotate(240deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(600deg);
+  }
+}
+
+.dot .trail {
+  position: absolute;
+  right: 110%;
+  top: 50%;
+  width: 160%;
+  height: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(110, 243, 255, 0),
+    rgba(110, 243, 255, 0.85),
+    rgba(110, 243, 255, 0)
+  );
+  filter: blur(6px);
+  transform-origin: 100% 50%;
+  opacity: 0.75;
+}
+
+.ring--mid::after {
+  content: '';
+  position: absolute;
+  inset: 22%;
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.03),
+    transparent 40%
+  );
+}
+
+.orbit {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transform: translateZ(0) rotateX(22deg);
+  pointer-events: none;
+}
+.orbit::before {
+  content: '';
+  position: absolute;
+  inset: 12%;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin-medium {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes spin-fast {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dot-orbit {
+  0% {
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, 0) rotate(180deg);
+  }
+  100% {
+    transform: translate(-50%, 0) rotate(360deg);
+  }
+}
+
+/* keep dot readable on small thumbnails */
+@media (max-width: 420px) {
+  .loader {
+    width: 52%;
+  }
+  .dot {
+    --d: 18%;
+  }
+}
+
+/* legacy keyframes removed; dot/orbit used instead */
+@media (prefers-reduced-motion: reduce) {
+  .orbit,
+  .dot {
+    animation: none;
+  }
+}
+
+/* subtle inner sweep to make the core feel alive */
+.sweep {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.01)
+  );
+  transform: translateX(-60%) rotate(-12deg);
+  animation: sweep 2.6s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes sweep {
+  0%,
+  100% {
+    transform: translateX(-60%) rotate(-12deg);
+  }
+  50% {
+    transform: translateX(60%) rotate(18deg);
+  }
+}

@@ -1,0 +1,146 @@
+:root {
+  --main-circle-size: 20vh;
+  --outer-circle-base-size: 18vh;
+  --size-decrement: 2vh;
+  --outer-radius: 25vh;
+  --animation-total-duration: 6s;
+  --animation-stagger-delay: 0.2s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #222;
+}
+
+.main-circle {
+  font-family: 'Segoe UI', 'Helvetica', sans-serif;
+  font-size: 6vh;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  transform: translateZ(0);
+  animation-name: fadeInOut;
+  animation-duration: var(--animation-total-duration);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes orbit {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(0);
+    opacity: 0;
+  }
+  40% {
+    transform: translate(-50%, -50%) rotate(var(--angle))
+      translateX(var(--outer-radius));
+    opacity: 1;
+  }
+
+  60% {
+    transform: translate(-50%, -50%) rotate(var(--angle))
+      translateX(var(--outer-radius));
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(0);
+    opacity: 0;
+  }
+}
+
+.outer-circle {
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  opacity: 0;
+  animation-name: orbit;
+  animation-duration: var(--animation-total-duration);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: calc(var(--index) * var(--animation-stagger-delay));
+}
+
+.outer-circle-1 {
+  --index: 0;
+  --angle: 0deg;
+  --size: var(--outer-circle-base-size);
+  height: var(--size);
+  background-color: #ff6b6b;
+}
+.outer-circle-2 {
+  --index: 1;
+  --angle: 45deg;
+  --size: calc(var(--outer-circle-base-size) - var(--size-decrement));
+  height: var(--size);
+  background-color: #f06595;
+}
+.outer-circle-3 {
+  --index: 2;
+  --angle: 90deg;
+  --size: calc(var(--outer-circle-base-size) - var(--size-decrement) * 2);
+  height: var(--size);
+  background-color: #cc5de8;
+}
+.outer-circle-4 {
+  --index: 3;
+  --angle: 135deg;
+  --size: calc(var(--outer-circle-base-size) - var(--size-decrement) * 3);
+  height: var(--size);
+  background-color: #845ef7;
+}
+.outer-circle-5 {
+  --index: 4;
+  --angle: 180deg;
+  --size: calc(var(--outer-circle-base-size) - var(--size-decrement) * 4);
+  height: var(--size);
+  background-color: #5c7cfa;
+}
+.outer-circle-6 {
+  --index: 5;
+  --angle: 225deg;
+  --size: calc(var(--outer-circle-base-size) - var(--size-decrement) * 5);
+  height: var(--size);
+  background-color: #339af0;
+}
+.outer-circle-7 {
+  --index: 6;
+  --angle: 270deg;
+  --size: calc(var(--outer-circle-base-size) - var(--size-decrement) * 6);
+  height: var(--size);
+  background-color: #22b8cf;
+}
+.outer-circle-8 {
+  --index: 7;
+  --angle: 315deg;
+  --size: calc(var(--outer-circle-base-size) - var(--size-decrement) * 7);
+  height: var(--size);
+  background-color: #20c997;
+}

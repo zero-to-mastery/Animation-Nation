@@ -1,0 +1,854 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial;
+  background: linear-gradient(
+    180deg,
+    #011023 0%,
+    #041429 40%,
+    #08182a 70%,
+    #04121a 100%
+  );
+  color: #fff;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* scene container */
+.scene {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  perspective: 1000px;
+  overflow: hidden;
+}
+
+/* stars layer */
+.stars {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+      2px 2px at 10% 20%,
+      rgba(255, 255, 255, 0.9) 0,
+      transparent 40%
+    ),
+    radial-gradient(
+      1.6px 1.6px at 20% 70%,
+      rgba(255, 255, 255, 0.85) 0,
+      transparent 40%
+    ),
+    radial-gradient(
+      1.2px 1.2px at 52% 34%,
+      rgba(255, 255, 255, 0.9) 0,
+      transparent 40%
+    ),
+    radial-gradient(
+      1.8px 1.8px at 80% 18%,
+      rgba(255, 255, 255, 0.8) 0,
+      transparent 40%
+    ),
+    linear-gradient(transparent, transparent);
+  filter: blur(0.3px);
+  animation: starShift 30s linear infinite;
+  opacity: 0.95;
+}
+
+@keyframes starShift {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-40px);
+  }
+}
+
+/* moon */
+.moon {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: 8vh;
+  right: 10vw;
+  background: radial-gradient(
+    circle at 35% 30%,
+    #fff 0%,
+    #fbfbfb 8%,
+    #f0f6ff 18%,
+    #cbdff8 40%,
+    transparent 70%
+  );
+  box-shadow: 0 0 60px rgba(200, 220, 255, 0.2),
+    inset -6px -8px 18px rgba(0, 0, 0, 0.06);
+  transform: translateZ(60px);
+  animation: moonFloat 8s ease-in-out infinite;
+}
+
+@keyframes moonFloat {
+  0% {
+    transform: translateZ(60px) translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateZ(60px) translateY(6px) rotate(3deg);
+  }
+
+  100% {
+    transform: translateZ(60px) translateY(0px) rotate(0deg);
+  }
+}
+
+/* cloud layers for nice parallax */
+.clouds {
+  position: absolute;
+  left: -10%;
+  right: -10%;
+  top: 6vh;
+  height: 220px;
+  pointer-events: none;
+  transform-style: preserve-3d;
+}
+
+.cloud {
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.08),
+    rgba(255, 255, 255, 0.02)
+  );
+  filter: blur(8px);
+  border-radius: 60px;
+  opacity: 0.95;
+  mix-blend-mode: screen;
+}
+
+.cloud.c1 {
+  width: 420px;
+  height: 120px;
+  left: 6%;
+  top: 10px;
+  animation: cloudDrift1 36s linear infinite;
+}
+
+.cloud.c2 {
+  width: 520px;
+  height: 140px;
+  left: 36%;
+  top: 40px;
+  animation: cloudDrift2 48s linear infinite;
+}
+
+.cloud.c3 {
+  width: 300px;
+  height: 90px;
+  left: 68%;
+  top: 18px;
+  animation: cloudDrift1 42s linear infinite;
+}
+
+.cloud.c4 {
+  width: 650px;
+  height: 160px;
+  left: -12%;
+  top: 60px;
+  animation: cloudDrift3 60s linear infinite;
+  opacity: 0.85;
+}
+
+@keyframes cloudDrift1 {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(160%);
+  }
+}
+
+@keyframes cloudDrift2 {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-140%);
+  }
+}
+
+@keyframes cloudDrift3 {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(120%);
+  }
+}
+
+/* distant hills */
+.hills {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 22vh;
+  height: 28vh;
+  pointer-events: none;
+  background: radial-gradient(
+      ellipse at 8% 40%,
+      rgba(10, 25, 35, 0.6) 0%,
+      transparent 40%
+    ),
+    radial-gradient(
+      ellipse at 50% 50%,
+      rgba(6, 18, 28, 0.5) 0%,
+      transparent 50%
+    ),
+    linear-gradient(180deg, transparent 0%, rgba(2, 10, 18, 0.6) 100%);
+  transform: translateZ(10px) scale(1.02);
+  filter: blur(1px);
+}
+
+/* skyline (buildings) - multiple layers for depth */
+.skyline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 8vh;
+  height: 40vh;
+  display: block;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
+
+/* buildings base */
+.building {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(12, 16, 26, 1), rgba(6, 10, 16, 1));
+  border-radius: 6px 6px 2px 2px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6),
+    inset 0 -8px 20px rgba(255, 255, 255, 0.02);
+  overflow: visible;
+}
+
+/* define many buildings across the width */
+.b1 {
+  left: 2%;
+  width: 10%;
+  height: 58%;
+}
+
+.b2 {
+  left: 12%;
+  width: 8%;
+  height: 70%;
+}
+
+.b3 {
+  left: 22%;
+  width: 6.4%;
+  height: 48%;
+}
+
+.b4 {
+  left: 30%;
+  width: 12%;
+  height: 82%;
+}
+
+.b5 {
+  left: 44%;
+  width: 9%;
+  height: 62%;
+}
+
+.b6 {
+  left: 56%;
+  width: 7.5%;
+  height: 52%;
+}
+
+.b7 {
+  left: 66%;
+  width: 10%;
+  height: 90%;
+}
+
+.b8 {
+  left: 78%;
+  width: 6%;
+  height: 45%;
+}
+
+.b9 {
+  left: 86%;
+  width: 8%;
+  height: 68%;
+}
+
+.b10 {
+  left: 94%;
+  width: 6%;
+  height: 40%;
+}
+
+/* windows grid */
+.window {
+  position: absolute;
+  width: 10px;
+  height: 14px;
+  border-radius: 2px;
+  background: rgba(255, 240, 200, 0.06);
+  box-shadow: 0 0 12px rgba(255, 200, 120, 0.02) inset;
+}
+
+/* place lots of windows using pseudo-elements pattern inside each building */
+.building::before {
+  content: '';
+  position: absolute;
+  left: 8%;
+  top: 8%;
+  width: 84%;
+  height: 84%;
+  background-image: linear-gradient(transparent 0, transparent 20px),
+    linear-gradient(90deg, transparent 0, transparent 20px);
+  background-size: 22px 22px, 22px 22px;
+  background-repeat: repeat;
+  filter: blur(0.1px);
+  opacity: 0.95;
+}
+
+/* window glow animation — achieve staggered blinking using multiple layers */
+.building .winGrid {
+  position: absolute;
+  left: 8%;
+  top: 8%;
+  width: 84%;
+  height: 84%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: 22px;
+  gap: 2px;
+  pointer-events: none;
+}
+
+.building .winGrid .w {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  background: rgba(255, 255, 220, 0.06);
+  box-shadow: 0 0 8px rgba(255, 200, 120, 0.02) inset;
+  animation: blink 6s linear infinite;
+  opacity: 0.95;
+  transform-origin: center;
+}
+
+.building .winGrid .w:nth-child(3n) {
+  animation-duration: 5.8s;
+}
+
+.building .winGrid .w:nth-child(4n) {
+  animation-duration: 4.6s;
+}
+
+.building .winGrid .w:nth-child(7n) {
+  animation-duration: 7.2s;
+}
+
+@keyframes blink {
+  0% {
+    background: rgba(255, 255, 220, 0.02);
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+
+  6% {
+    background: rgba(255, 230, 160, 0.9);
+    box-shadow: 0 0 10px rgba(255, 200, 120, 0.28);
+    transform: scale(1);
+  }
+
+  10% {
+    background: rgba(255, 255, 220, 0.04);
+    box-shadow: none;
+    transform: scale(0.99);
+  }
+
+  100% {
+    background: rgba(255, 255, 220, 0.02);
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+}
+
+/* neon signs */
+.neon {
+  position: absolute;
+  bottom: 10%;
+  left: 44%;
+  width: 220px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.14);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  transform: translateZ(40px);
+}
+
+.neon span {
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.neon span::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(255, 62, 199, 0.08),
+    0 0 40px rgba(0, 229, 255, 0.06);
+  mix-blend-mode: screen;
+  opacity: 0.9;
+  animation: neonPulse 2.8s ease-in-out infinite;
+}
+
+@keyframes neonPulse {
+  0% {
+    filter: drop-shadow(0 0 6px rgba(0, 229, 255, 0.08));
+  }
+
+  50% {
+    filter: drop-shadow(0 0 28px rgba(255, 62, 199, 0.22));
+  }
+
+  100% {
+    filter: drop-shadow(0 0 6px rgba(0, 229, 255, 0.08));
+  }
+}
+
+/* moving subway/train that passes in front of buildings */
+.track {
+  position: absolute;
+  left: -20%;
+  right: -20%;
+  bottom: 6.6vh;
+  height: 60px;
+  pointer-events: none;
+  overflow: visible;
+  transform: translateZ(80px);
+}
+
+.train {
+  position: absolute;
+  bottom: 0;
+  left: -30%;
+  width: 28%;
+  height: 56px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #0f2a36, #05202b);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 160, 200, 0.06);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  animation: trainTravel 18s linear infinite;
+}
+
+.train .car {
+  width: 22%;
+  height: 40px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #122f3a, #0a272f);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  box-shadow: inset 0 -4px 8px rgba(255, 255, 255, 0.02);
+}
+
+.train .window {
+  width: 36px;
+  height: 22px;
+  border-radius: 3px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.16),
+    rgba(255, 255, 255, 0.06)
+  );
+  box-shadow: 0 0 6px rgba(0, 160, 200, 0.06) inset;
+  margin-left: 8px;
+}
+
+@keyframes trainTravel {
+  0% {
+    left: -40%;
+  }
+
+  50% {
+    left: 60%;
+  }
+
+  100% {
+    left: 120%;
+  }
+}
+
+/* water reflection at bottom */
+.river {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20vh;
+  background: linear-gradient(
+    180deg,
+    rgba(4, 6, 12, 0) 0%,
+    rgba(3, 8, 12, 0.35) 20%,
+    rgba(2, 8, 10, 0.9) 100%
+  );
+  transform: translateZ(0);
+  overflow: hidden;
+}
+
+.river .reflections {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1200px;
+  height: 100%;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0.02)
+  );
+  opacity: 0.12;
+  filter: blur(6px);
+  transform-origin: center top;
+  animation: waterShift 6s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+
+@keyframes waterShift {
+  0% {
+    transform: translateX(-50%) translateY(0) scaleX(1);
+  }
+
+  50% {
+    transform: translateX(-50%) translateY(4px) scaleX(1.02);
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(0) scaleX(1);
+  }
+}
+
+/* ripples overlay */
+.river::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-image: radial-gradient(
+      circle at 20% 30%,
+      rgba(255, 255, 255, 0.018) 0,
+      transparent 20%
+    ),
+    radial-gradient(
+      circle at 70% 60%,
+      rgba(255, 255, 255, 0.02) 0,
+      transparent 18%
+    ),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.01), transparent 50%);
+  background-repeat: repeat;
+  mix-blend-mode: overlay;
+  animation: ripple 8s linear infinite;
+  opacity: 0.9;
+}
+
+@keyframes ripple {
+  from {
+    background-position: 0 0, 0 0;
+  }
+
+  to {
+    background-position: 200px 60px, -120px -40px;
+  }
+}
+
+/* floating balloons */
+.balloons {
+  position: absolute;
+  left: 6%;
+  top: 18vh;
+  width: 220px;
+  height: 320px;
+  pointer-events: none;
+  transform: translateZ(120px);
+}
+
+.balloon {
+  position: absolute;
+  width: 36px;
+  height: 48px;
+  border-radius: 50% 50% 45% 45%;
+  background: linear-gradient(180deg, #ff7aa2, #ffb27f);
+  box-shadow: 0 10px 26px rgba(255, 120, 160, 0.08);
+  transform-origin: center bottom;
+  animation: floatY 8s ease-in-out infinite;
+}
+
+.balloon:nth-child(1) {
+  left: 10px;
+  top: 20px;
+  animation-duration: 7.6s;
+  animation-delay: 0s;
+}
+
+.balloon:nth-child(2) {
+  left: 80px;
+  top: 60px;
+  animation-duration: 9.4s;
+  animation-delay: 1.4s;
+}
+
+.balloon:nth-child(3) {
+  left: 34px;
+  top: 120px;
+  animation-duration: 8.9s;
+  animation-delay: 3s;
+}
+
+@keyframes floatY {
+  0% {
+    transform: translateY(0) rotate(-2deg);
+  }
+
+  50% {
+    transform: translateY(-26px) rotate(3deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(-2deg);
+  }
+}
+
+/* foreground silhouettes for depth */
+.fg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 26vh;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 4, 8, 0) 0%,
+    rgba(2, 6, 10, 1) 100%
+  );
+  pointer-events: none;
+  box-shadow: 0 -18px 40px rgba(0, 0, 0, 0.5) inset;
+  transform: translateZ(200px);
+}
+
+/* subtle particle shimmer over whole scene */
+.particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+.particles .p {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    rgba(255, 255, 255, 0.95),
+    rgba(255, 255, 255, 0.12)
+  );
+  opacity: 0.85;
+  filter: blur(0.4px);
+  animation: particleMove 12s linear infinite;
+}
+
+.particles .p1 {
+  left: 6%;
+  top: 26%;
+  animation-delay: 0s;
+}
+
+.particles .p2 {
+  left: 24%;
+  top: 18%;
+  animation-delay: 2.2s;
+}
+
+.particles .p3 {
+  left: 52%;
+  top: 34%;
+  animation-delay: 4.1s;
+}
+
+.particles .p4 {
+  left: 78%;
+  top: 22%;
+  animation-delay: 6.3s;
+}
+
+.particles .p5 {
+  left: 40%;
+  top: 8%;
+  animation-delay: 8.4s;
+}
+
+@keyframes particleMove {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.9;
+  }
+
+  50% {
+    transform: translateY(-18px) scale(0.96);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.9;
+  }
+}
+
+/* responsive tweaks */
+@media (max-width: 900px) {
+  .moon {
+    width: 92px;
+    height: 92px;
+    right: 6vw;
+    top: 6vh;
+  }
+
+  .train {
+    width: 44%;
+  }
+
+  .neon {
+    left: 36%;
+    width: 180px;
+  }
+}
+
+/* small UI text for demo credit */
+.credit {
+  position: absolute;
+  left: 16px;
+  bottom: 14px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.18);
+  padding: 8px 10px;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  transform: translateZ(210px);
+}
+
+/* Keep CSS length up — a few more detailed keyframes for micro-animations */
+@keyframes microBlink {
+  0% {
+    opacity: 0.05;
+    transform: scale(0.98);
+  }
+
+  4% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+
+  10% {
+    opacity: 0.22;
+    transform: scale(0.99);
+  }
+
+  100% {
+    opacity: 0.06;
+    transform: scale(0.98);
+  }
+}
+
+@keyframes signFlicker {
+  0% {
+    opacity: 0.08;
+    filter: blur(0.4px);
+  }
+
+  5% {
+    opacity: 0.96;
+    filter: drop-shadow(0 0 24px rgba(255, 62, 199, 0.12));
+  }
+
+  9% {
+    opacity: 0.6;
+  }
+
+  12% {
+    opacity: 0.95;
+  }
+
+  100% {
+    opacity: 0.08;
+  }
+}
+
+@keyframes buildingSway {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-1px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* decorative gradient strip to increase complexity */
+.gradStrip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 8vh;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 229, 255, 0.06),
+    rgba(255, 62, 199, 0.03) 24%,
+    rgba(255, 180, 120, 0.02) 48%,
+    rgba(0, 229, 255, 0.03) 76%
+  );
+  mix-blend-mode: overlay;
+  transform: translateZ(300px);
+  opacity: 0.35;
+}

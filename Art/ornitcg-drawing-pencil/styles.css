@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pencil {
+  width: 25%;
+  height: 16%;
+  background: linear-gradient(90deg, #e7e7e7 30%, #fe668c 0) 100%/50px 100%
+      no-repeat,
+    conic-gradient(from 55deg at left, #fee7b3, #0000 1deg 69deg, #fee7b3 70deg)
+      100% 8px / calc(100% - 40px) 16px repeat-y,
+    linear-gradient(#0003 50%, #0000 0) 100% 8px / calc(100% - 41px) 32px
+      repeat-y,
+    linear-gradient(90deg, #08eac8 15px, #fee7b3 16px 40px, #fecc2b 0);
+  clip-path: polygon(0 50%, 42px 0, 100% 0, 100% 100%, 42px 100%);
+  border-radius: 0 10px 10px 0;
+  z-index: 2;
+  animation: spin 8s linear infinite;
+}
+
+.circle {
+  position: absolute;
+  width: 26%;
+  aspect-ratio: 1 / 1;
+  background-color: black;
+  border-color: #08eac8;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  z-index: 1;
+  display: none;
+}
+
+.circle.p1,
+.circle.p2,
+.circle.p3,
+.circle.p4,
+.circle.p5,
+.circle.p6,
+.circle.p7,
+.circle.p8 {
+  display: block;
+}
+
+.circle.p1 {
+  clip-path: polygon(0% 50%, 0% 0%, 50% 50%);
+  animation: draw-p1 8s ease-in infinite;
+}
+.circle.p2 {
+  clip-path: polygon(0% 0%, 50% 0%, 50% 50%);
+  animation: draw-p2 8s ease-in infinite;
+}
+.circle.p3 {
+  clip-path: polygon(50% 0%, 100% 0%, 50% 50%);
+  animation: draw-p3 8s ease-in infinite;
+}
+.circle.p4 {
+  clip-path: polygon(100% 0%, 100% 50%, 50% 50%);
+  animation: draw-p4 8s ease-in infinite;
+}
+
+.circle.p5 {
+  clip-path: polygon(100% 50%, 100% 100%, 50% 50%);
+  animation: draw-p5 8s ease-in infinite;
+}
+.circle.p6 {
+  clip-path: polygon(100% 100%, 50% 100%, 50% 50%);
+  animation: draw-p6 8s ease-in infinite;
+}
+.circle.p7 {
+  clip-path: polygon(50% 100%, 0% 100%, 50% 50%);
+  animation: draw-p7 8s ease-in infinite;
+}
+.circle.p8 {
+  clip-path: polygon(0% 100%, 0% 50%, 50% 50%);
+  animation: draw-p8 8s ease-in infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes draw-p1 {
+  0% {
+    opacity: 0;
+  }
+  8% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes draw-p2 {
+  0%,
+  12.4% {
+    opacity: 0;
+  }
+  12.5%,
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes draw-p3 {
+  0%,
+  24.9% {
+    opacity: 0;
+  }
+  25%,
+  32% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes draw-p4 {
+  0%,
+  37.4% {
+    opacity: 0;
+  }
+  37.5%,
+  43% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes draw-p5 {
+  0%,
+  49.9% {
+    opacity: 0;
+  }
+  50%,
+  56% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes draw-p6 {
+  0%,
+  62.4% {
+    opacity: 0;
+  }
+  62.5%,
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes draw-p7 {
+  0%,
+  74.9% {
+    opacity: 0;
+  }
+  75%,
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes draw-p8 {
+  0%,
+  87.4% {
+    opacity: 0;
+  }
+  87.5%,
+  92% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

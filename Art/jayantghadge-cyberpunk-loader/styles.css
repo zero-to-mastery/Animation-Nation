@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  overflow: hidden;
+}
+
+.loader {
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+.core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #fff, rgb(253, 138, 7));
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px rgb(253, 138, 7), 0 0 20px rgb(253, 138, 7),
+    0 0 30px rgb(253, 138, 7);
+}
+
+/* Orbiting neon rings */
+.orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 2px solid transparent;
+  border-top: 2px solid #0ff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 0 6px #0ff) drop-shadow(0 0 12px #0ff);
+}
+
+.orbit1 {
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+}
+.orbit2 {
+  width: 130px;
+  height: 130px;
+  animation: spin 3.5s linear reverse infinite;
+}
+.orbit3 {
+  width: 180px;
+  height: 180px;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

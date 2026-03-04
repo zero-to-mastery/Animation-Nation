@@ -1,0 +1,127 @@
+:root {
+  --bg: #070b18;
+  --glowA: #6aa9ff;
+  --glowB: #9b6bff;
+  --glowC: #ff6ad5;
+  --glowD: #7fffd4;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: radial-gradient(1100px 700px at 50% 42%, #0c1230, var(--bg));
+  color: #e9eefc;
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    Arial;
+}
+
+.stage {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+
+.tunnel {
+  position: relative;
+  width: min(540px, 92vw);
+  height: min(540px, 92vw);
+  border-radius: 18px;
+  overflow: hidden;
+  background: radial-gradient(
+      85% 65% at 50% 55%,
+      #0b122d 0,
+      #081025 60%,
+      #070b18 100%
+    ),
+    radial-gradient(#ffffff15 1px, transparent 1px); /* faint speckles */
+  background-size: auto, 3px 3px;
+  background-position: 0 0, 0 0;
+  filter: drop-shadow(0 20px 60px #0008);
+  transform: perspective(900px) rotateX(22deg);
+  animation: sway 8s ease-in-out infinite alternate;
+}
+
+.ring {
+  --h: calc(200 + 20 * var(--i)); /* hue-ish variation for fun if using hsl */
+  --c: hsl(var(--h), 90%, 70%); /* base color per ring */
+  --glow: 0 0 10px var(--c), 0 0 24px var(--c), 0 0 48px var(--c);
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 25vmin;
+  height: 25vmin; /* base size before scaling */
+  transform: translate(-50%, -50%) scale(0.25);
+  border-radius: 50%;
+  background: radial-gradient(
+      circle at 50% 50%,
+      transparent 58%,
+      var(--c) 60% 63%,
+      transparent 66%
+    ),
+    conic-gradient(
+      from 0deg,
+      transparent 0 10deg,
+      rgba(255, 255, 255, 0.25) 10deg 12deg,
+      transparent 12deg 24deg,
+      rgba(255, 255, 255, 0.15) 24deg 26deg,
+      transparent 26deg 36deg,
+      rgba(255, 255, 255, 0.2) 36deg 38deg,
+      transparent 38deg 48deg
+    );
+  mix-blend-mode: screen;
+  box-shadow: var(--glow);
+  filter: saturate(140%);
+  opacity: 0;
+  animation: fly 2.8s linear infinite, spin 6s linear infinite;
+  animation-delay: calc(var(--i) * -0.2s);
+}
+
+@keyframes fly {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.15);
+  }
+  8% {
+    opacity: 0.85;
+  }
+  70% {
+    opacity: 0.9;
+    transform: translate(-50%, -50%) scale(1.25);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.4);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: translate(-50%, -50%) scale(var(--s, 1)) rotate(360deg);
+  }
+}
+
+@keyframes sway {
+  from {
+    transform: perspective(900px) rotateX(22deg) rotateZ(-3deg);
+  }
+  to {
+    transform: perspective(900px) rotateX(22deg) rotateZ(3deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tunnel {
+    animation: none;
+  }
+  .ring {
+    animation: none;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

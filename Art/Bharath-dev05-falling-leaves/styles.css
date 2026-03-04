@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(#0d0f14, #111521);
+  overflow: hidden;
+}
+
+.leaf {
+  --x: 50vw;
+  --size: 40px;
+  --speed: 12s;
+  --delay: 0s;
+  --hue: 90deg;
+
+  position: absolute;
+  top: -10vh;
+  left: var(--x);
+  width: var(--size);
+  height: calc(var(--size) * 2);
+  transform: translateX(-50%);
+  animation: fall var(--speed) linear infinite var(--delay),
+    sway calc(var(--speed) * 0.9) ease-in-out infinite var(--delay),
+    spin calc(var(--speed) * 0.8) ease-in-out infinite var(--delay);
+  filter: hue-rotate(var(--hue)) drop-shadow(0 4px 3px rgba(0, 0, 0, 0.4));
+}
+
+.leaf-shape {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 50%,
+    90% 80%,
+    50% 100%,
+    10% 80%,
+    0% 50%,
+    10% 20%
+  );
+  position: relative;
+}
+
+.leaf-shape::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  transform: translateX(-50%);
+}
+
+@keyframes fall {
+  0% {
+    top: -10vh;
+  }
+  100% {
+    top: 110vh;
+  }
+}
+@keyframes sway {
+  0% {
+    transform: translateX(-50%) translateX(-3vw);
+  }
+  50% {
+    transform: translateX(-50%) translateX(3vw);
+  }
+  100% {
+    transform: translateX(-50%) translateX(-3vw);
+  }
+}
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+  50% {
+    rotate: 15deg;
+  }
+  100% {
+    rotate: -10deg;
+  }
+}

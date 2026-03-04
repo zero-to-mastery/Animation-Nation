@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.swirl {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.swirl div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  /* color added per child */
+  transform-origin: -200px 0;
+  animation: orbit 4s linear infinite alternate;
+}
+
+/* color and delay variations */
+.swirl div:nth-child(odd) {
+  animation-duration: 3s;
+}
+.swirl div:nth-child(even) {
+  animation-duration: 5s;
+}
+.swirl div:nth-child(1) {
+  animation-delay: 0s;
+  box-shadow: 0 0 15px 3px #ff3;
+}
+.swirl div:nth-child(2) {
+  animation-delay: 0.2s;
+  box-shadow: 0 0 15px 3px #3ff;
+}
+.swirl div:nth-child(3) {
+  animation-delay: 0.4s;
+  box-shadow: 0 0 15px 3px #f3f;
+}
+.swirl div:nth-child(4) {
+  animation-delay: 0.6s;
+  box-shadow: 0 0 15px 3px #3f3;
+}
+.swirl div:nth-child(5) {
+  animation-delay: 0.8s;
+  box-shadow: 0 0 15px 3px #ff6;
+}
+.swirl div:nth-child(6) {
+  animation-delay: 1s;
+  box-shadow: 0 0 15px 3px #6ff;
+}
+.swirl div:nth-child(7) {
+  animation-delay: 1.2s;
+  box-shadow: 0 0 15px 3px #f66;
+}
+.swirl div:nth-child(8) {
+  animation-delay: 1.4s;
+  box-shadow: 0 0 15px 3px #66f;
+}
+.swirl div:nth-child(9) {
+  animation-delay: 1.6s;
+  box-shadow: 0 0 15px 3px #c3f;
+}
+.swirl div:nth-child(10) {
+  animation-delay: 1.8s;
+  box-shadow: 0 0 15px 3px #3c3;
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(200px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(200px) rotate(-360deg);
+  }
+}
+
+.credit {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.8rem;
+  color: #fff;
+}
+.credit a {
+  color: #fff;
+  text-decoration: none;
+}

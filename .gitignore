@@ -1,5 +1,3 @@
-.DS_Store
-.idea
-start-here-guidelines
-start
-.vs
+/node_modules
+.vscode
+**/.DS_Store

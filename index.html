@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./public/styles.css" />
+    <link rel="icon" type="image/png" href="./public/favicon.ico" />
+    <title>Animation Nation - ZTM Hacktoberfest</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-    crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <title>Animation Nation - ZTM Hacktoberfest 2019</title>
-</head>
-
-<body>
-  <div class="header" id="head">
-    <h1>Animation Nation</h1>
-    <h2>A ZTM Challenge for Hacktoberfest 2019</h2>
-  </div>
-
-  <ul class="flex" id="cards">
-    <!-- Content is generated dynamically  -->
-    <!-- Add your card in include.js following the instructions -->
-  </ul>
-
-  <footer id="footer">
-    <div>
-      © 2019 Zero To Mastery Inc.
+  <body>
+    <div id="header">
+      <div id="header-content">
+        <h1>Animation Nation</h1>
+        <p id="stats"></p>
+        <div id="search-container">
+          <div id="search-wrapper">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search by art name or author..."
+            />
+            <button id="clear-btn">&times;</button>
+          </div>
+        </div>
+      </div>
     </div>
-  </footer>
 
-  <script src="include.js"></script>
+    <div class="card-container">
+      <ul class="flex" id="cards">
+        <!-- Content is generated dynamically  -->
+        <!-- Do not add your card here -->
+      </ul>
+    </div>
 
-</body>
+    <div class="go-to-top">
+      <span>&uarr;</span>
+      <!-- Use an upward arrow character -->
+    </div>
 
+    <script src="./public/includes.js"></script>
+  </body>
 </html>

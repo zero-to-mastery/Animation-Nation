@@ -1,0 +1,289 @@
+:root {
+  --bg: #050814;
+  --glow: #e9eefc;
+  --aqua: #7fffd4; /* aqua */
+  --blue: #6aa9ff; /* blue */
+  --pink: #ff6ad5; /* pink */
+  --vio: #9b6bff; /* violet */
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  background: radial-gradient(1200px 800px at 50% 40%, #0b1028, var(--bg));
+  color: var(--glow);
+}
+
+.stage {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+
+.sky {
+  position: relative;
+  width: min(720px, 92vw);
+  height: min(440px, 64vh);
+  border-radius: 18px;
+  overflow: hidden;
+  background: linear-gradient(#0b1330, #09102a 60%, #061024);
+  box-shadow: 0 24px 70px #000a, inset 0 0 80px #0b102888;
+}
+
+/* Stars (no images) */
+.stars {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(#fff 1px, transparent 1px),
+    radial-gradient(#fff 1px, transparent 1px);
+  background-size: 2px 2px, 3px 3px;
+  background-position: 0 0, 20px 10px;
+  opacity: 0.14;
+  animation: twinkle 8s ease-in-out infinite alternate,
+    star-pan 40s linear infinite;
+  filter: drop-shadow(0 0 6px #fff5);
+}
+
+/* Aurora container: light 3D tilt + sway */
+.aurora {
+  position: absolute;
+  inset: -10% -15% 10% -15%;
+  transform: perspective(900px) rotateX(25deg);
+  animation: sway3d 12s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+/* Each layer is just blurred, blended gradients (no masking) */
+.layer {
+  position: absolute;
+  inset: 0;
+  mix-blend-mode: screen;
+  filter: saturate(140%);
+}
+.layer::before,
+.layer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  filter: blur(22px);
+  mix-blend-mode: screen;
+}
+
+/* Back layer: wide, gentle ribbons */
+.l1::before {
+  background: radial-gradient(
+      120% 85% at 12% 115%,
+      rgba(127, 255, 212, 0.7) 0 42%,
+      transparent 64%
+    ),
+    radial-gradient(
+      120% 85% at 72% 120%,
+      rgba(106, 169, 255, 0.7) 0 40%,
+      transparent 66%
+    ),
+    radial-gradient(
+      120% 85% at 44% 116%,
+      rgba(255, 106, 213, 0.6) 0 36%,
+      transparent 62%
+    );
+  animation: driftX 16s linear infinite alternate,
+    rippleX 13s ease-in-out infinite alternate;
+}
+.l1::after {
+  background: radial-gradient(
+      120% 85% at 20% 118%,
+      rgba(155, 107, 255, 0.45) 0 36%,
+      transparent 62%
+    ),
+    radial-gradient(
+      120% 85% at 52% 118%,
+      rgba(127, 255, 212, 0.45) 0 34%,
+      transparent 60%
+    );
+  animation: driftY 20s ease-in-out infinite alternate,
+    breathe 14s ease-in-out infinite alternate;
+  opacity: 0.85;
+}
+
+/* Mid layer: slightly stronger colors, different drift */
+.l2::before {
+  background: radial-gradient(
+      120% 85% at 18% 118%,
+      rgba(155, 107, 255, 0.65) 0 40%,
+      transparent 64%
+    ),
+    radial-gradient(
+      120% 85% at 68% 120%,
+      rgba(127, 255, 212, 0.6) 0 36%,
+      transparent 64%
+    ),
+    radial-gradient(
+      120% 85% at 50% 120%,
+      rgba(106, 169, 255, 0.6) 0 34%,
+      transparent 62%
+    );
+  animation: driftY 18s ease-in-out infinite alternate,
+    rippleY 12s ease-in-out infinite alternate;
+}
+.l2::after {
+  background: radial-gradient(
+      120% 85% at 34% 116%,
+      rgba(255, 106, 213, 0.5) 0 34%,
+      transparent 64%
+    ),
+    radial-gradient(
+      120% 85% at 78% 118%,
+      rgba(106, 169, 255, 0.4) 0 30%,
+      transparent 60%
+    );
+  animation: driftXY 22s ease-in-out infinite alternate,
+    breathe 11s ease-in-out infinite alternate;
+  opacity: 0.8;
+}
+
+/* Front layer: subtle hue shimmer for realism */
+.l3::before {
+  background: radial-gradient(
+      120% 85% at 10% 120%,
+      rgba(255, 106, 213, 0.7) 0 44%,
+      transparent 64%
+    ),
+    radial-gradient(
+      120% 85% at 70% 118%,
+      rgba(155, 107, 255, 0.7) 0 36%,
+      transparent 66%
+    );
+  animation: driftXY 24s ease-in-out infinite alternate,
+    rippleX 10s ease-in-out infinite alternate, hue 36s linear infinite;
+}
+.l3::after {
+  background: radial-gradient(
+      120% 85% at 30% 122%,
+      rgba(127, 255, 212, 0.35) 0 32%,
+      transparent 58%
+    ),
+    radial-gradient(
+      120% 85% at 85% 118%,
+      rgba(106, 169, 255, 0.35) 0 30%,
+      transparent 56%
+    );
+  animation: driftX 26s ease-in-out infinite alternate-reverse,
+    breathe 12s ease-in-out infinite alternate;
+  opacity: 0.65;
+}
+
+/* Ground glow to anchor the scene */
+.horizon {
+  position: absolute;
+  left: -5%;
+  right: -5%;
+  bottom: -12%;
+  height: 40%;
+  background: radial-gradient(80% 40% at 50% 0%, #10255a 0, transparent 70%),
+    linear-gradient(180deg, transparent 0 40%, #050a18 70%, #000 100%);
+  filter: blur(6px);
+  -webkit-mask: linear-gradient(180deg, transparent, #000 35% 100%);
+  mask: linear-gradient(180deg, transparent, #000 35% 100%);
+}
+
+/* --- Animations --- */
+@keyframes twinkle {
+  from {
+    opacity: 0.12;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+@keyframes star-pan {
+  from {
+    background-position: 0 0, 20px 10px;
+  }
+  to {
+    background-position: -120px -60px, -60px -30px;
+  }
+}
+
+@keyframes sway3d {
+  from {
+    transform: perspective(900px) rotateX(24deg) rotateZ(-3deg);
+  }
+  to {
+    transform: perspective(900px) rotateX(26deg) rotateZ(3deg);
+  }
+}
+
+@keyframes driftX {
+  from {
+    transform: translateX(-2.2%);
+  }
+  to {
+    transform: translateX(2.2%);
+  }
+}
+@keyframes driftY {
+  from {
+    transform: translateY(-1.4%);
+  }
+  to {
+    transform: translateY(1.4%);
+  }
+}
+@keyframes driftXY {
+  from {
+    transform: translate(-1.6%, -0.8%);
+  }
+  to {
+    transform: translate(1.6%, 0.8%);
+  }
+}
+
+@keyframes rippleX {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(1.06);
+  }
+}
+@keyframes rippleY {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(0.94);
+  }
+}
+@keyframes breathe {
+  from {
+    transform: scale(0.98);
+  }
+  to {
+    transform: scale(1.03);
+  }
+}
+
+@keyframes hue {
+  from {
+    filter: blur(22px) saturate(140%) hue-rotate(0deg);
+  }
+  to {
+    filter: blur(22px) saturate(140%) hue-rotate(18deg);
+  }
+}
+
+/* Reduced motion: keep a pretty still image */
+@media (prefers-reduced-motion: reduce) {
+  .stars,
+  .aurora,
+  .layer::before,
+  .layer::after {
+    animation: none !important;
+  }
+}

@@ -1,0 +1,153 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 50% 35%, #0b1020, #060914 60%, #03050b);
+  overflow: hidden;
+}
+
+.spinner {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.35));
+}
+
+.rotor {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  transform: translate(-50%, -50%);
+  animation: spin 1.2s linear infinite;
+}
+
+.dot,
+.ghost {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform-origin: left center;
+  animation: radius 2.4s ease-in-out infinite both;
+  box-shadow: 0 0 10px 4px rgba(120, 190, 255, 0.12),
+    0 0 24px 6px rgba(120, 190, 255, 0.1);
+}
+
+.dot {
+  background: radial-gradient(
+    circle at 35% 30%,
+    #ffffff,
+    #bfe3ff 60%,
+    #7cc0ff 100%
+  );
+  filter: saturate(1.15);
+}
+.dot::after {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(124, 192, 255, 0.35),
+    transparent 60%
+  );
+  filter: blur(4px);
+}
+
+.ghost {
+  width: 12px;
+  height: 12px;
+  background: radial-gradient(
+    circle at 35% 30%,
+    #f5fbff,
+    #a5d7ff 70%,
+    #6fb6ff 100%
+  );
+  opacity: 0.55;
+  filter: blur(0.4px) saturate(1.05);
+}
+
+@keyframes spin {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes radius {
+  0% {
+    transform: translate(-50%, -50%) translateX(60px) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(0px) scale(0.55);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateX(60px) scale(1);
+  }
+}
+
+.d1 {
+  animation-delay: -0.06s;
+}
+.d2 {
+  animation-delay: -0.12s;
+}
+.d3 {
+  animation-delay: -0.18s;
+}
+.d4 {
+  animation-delay: -0.24s;
+}
+.d5 {
+  animation-delay: -0.3s;
+}
+.d6 {
+  animation-delay: -0.36s;
+}
+.d7 {
+  animation-delay: -0.42s;
+}
+.d8 {
+  animation-delay: -0.48s;
+}
+
+.g1 {
+  animation-delay: -0.06s;
+  opacity: 0.55;
+}
+.g2 {
+  animation-delay: -0.12s;
+  opacity: 0.48;
+}
+.g3 {
+  animation-delay: -0.18s;
+  opacity: 0.42;
+}
+.g4 {
+  animation-delay: -0.24s;
+  opacity: 0.36;
+}
+.g5 {
+  animation-delay: -0.3s;
+  opacity: 0.3;
+}
+.g6 {
+  animation-delay: -0.36s;
+  opacity: 0.24;
+}
+.g7 {
+  animation-delay: -0.42s;
+  opacity: 0.18;
+}
+.g8 {
+  animation-delay: -0.48s;
+  opacity: 0.12;
+}

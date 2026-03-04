@@ -1,0 +1,152 @@
+/* Page Layout */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  animation: skyShift 12s ease-in-out infinite alternate;
+  background: linear-gradient(#ffcf72, #ff7b6b, #6241b8);
+  font-family: sans-serif;
+}
+
+/* Animated sky gradient */
+@keyframes skyShift {
+  0% {
+    background: linear-gradient(#ffd891, #ff8d7a, #6a4cc2);
+  }
+  100% {
+    background: linear-gradient(#ff9a4a, #ff525a, #3a2f8e);
+  }
+}
+
+/* Main container */
+.scene {
+  position: relative;
+  width: 430px;
+  height: 430px;
+}
+
+/* ---- SUN ---- */
+.sun {
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, #fff6c7 0%, #ffd86e 40%, #ff8936 100%);
+  border-radius: 50%;
+  animation: sunDrop 10s ease-in-out infinite alternate,
+    glowPulse 3s ease-in-out infinite;
+  box-shadow: 0 0 60px rgba(255, 210, 90, 0.9);
+}
+
+/* Sun lowering animation */
+@keyframes sunDrop {
+  0% {
+    transform: translate(-50%, -30px);
+  }
+  100% {
+    transform: translate(-50%, 60px);
+  }
+}
+
+/* Pulsing glow effect */
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 40px rgba(255, 200, 120, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 75px rgba(255, 160, 60, 1);
+  }
+}
+
+/* ---- OCEAN ---- */
+.ocean {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(#3652d9, #1e2b7b);
+  overflow: hidden;
+  border-radius: 0 0 25px 25px;
+}
+
+/* ---- WAVES ---- */
+.wave {
+  position: absolute;
+  width: 220%;
+  height: 55px;
+  background: rgba(255, 255, 255, 0.28);
+  opacity: 0.32;
+  border-radius: 100%;
+  animation: waveRoll 7s linear infinite;
+}
+
+.wave1 {
+  top: 40px;
+  animation-duration: 8s;
+}
+.wave2 {
+  top: 80px;
+  opacity: 0.2;
+  animation-duration: 6s;
+}
+.wave3 {
+  top: 115px;
+  opacity: 0.15;
+  animation-duration: 10s;
+}
+
+/* Wave movement */
+@keyframes waveRoll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* ---- CLOUDS ---- */
+.cloud {
+  position: absolute;
+  width: 160px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50px;
+  filter: blur(2px);
+  animation: drift 30s linear infinite;
+}
+
+.cloud1 {
+  top: 40px;
+  left: -120px;
+  animation-duration: 32s;
+}
+
+.cloud2 {
+  top: 80px;
+  left: -150px;
+  opacity: 0.6;
+  animation-duration: 40s;
+}
+
+.cloud3 {
+  top: 140px;
+  left: -200px;
+  opacity: 0.5;
+  animation-duration: 35s;
+}
+
+/* Cloud drifting animation */
+@keyframes drift {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(700px);
+  }
+}

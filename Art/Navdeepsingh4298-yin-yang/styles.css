@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.yin-yang-circle {
+  border: 10px solid #000;
+  border-radius: 50%;
+}
+
+.yin-yang {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, black 50%, white 50%);
+}
+
+.common {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: 25%;
+  background: white;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 25%;
+  background: black;
+}
+
+.dot {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.white-dot {
+  background: white;
+}
+
+.black-dot {
+  background: black;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.yin-yang {
+  animation: spin 5s linear infinite;
+}

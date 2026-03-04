@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+
+.morph1,
+.morph2,
+.morph3 {
+  position: absolute;
+  height: 30%;
+  aspect-ratio: 1 / 1;
+  filter: blur(20px) contrast(20);
+}
+
+.morph1 {
+  top: 50%;
+  left: 50%;
+  border-radius: 50% 80% 30% 20%;
+  animation: shape-shift1 8s infinite linear alternate,
+    color-shift 8s infinite linear alternate;
+}
+.morph2 {
+  top: 50%;
+  left: 45%;
+  border-radius: 80% 50% 30% 50%;
+  animation: shape-shift2 8s infinite ease-in-out alternate,
+    color-shift 8s infinite linear alternate;
+}
+.morph3 {
+  top: 40%;
+  left: 48%;
+  border-radius: 30% 50% 50% 80%;
+  animation: shape-shift3 8s infinite ease-in-out alternate,
+    color-shift 8s infinite linear alternate;
+}
+
+@keyframes shape-shift1 {
+  0%,
+  100% {
+    border-radius: 50% 80% 30% 20%;
+    rotate: 10deg;
+  }
+  20% {
+    border-radius: 80% 50% 30% 50%;
+    rotate: 40deg;
+  }
+  40% {
+    border-radius: 50% 20% 30% 80%;
+    rotate: 20deg;
+  }
+  60% {
+    border-radius: 30% 50% 50% 80%;
+    rotate: 70deg;
+  }
+  80% {
+    border-radius: 80% 50% 30% 50%;
+    rotate: 35deg;
+  }
+  99.9% {
+    border-radius: 50% 30% 50% 80%;
+    rotate: 9deg;
+  }
+}
+
+@keyframes shape-shift2 {
+  0%,
+  100% {
+    border-radius: 80% 50% 30% 50%;
+    rotate: 10deg;
+  }
+  20% {
+    border-radius: 50% 80% 30% 20%;
+    rotate: 40deg;
+  }
+  40% {
+    border-radius: 80% 50% 30% 50%;
+    rotate: 20deg;
+  }
+  60% {
+    border-radius: 30% 50% 50% 80%;
+    rotate: 70deg;
+  }
+  80% {
+    border-radius: 50% 20% 30% 80%;
+    rotate: 35deg;
+  }
+  99.9% {
+    border-radius: 50% 30% 50% 80%;
+    rotate: 9deg;
+  }
+}
+@keyframes shape-shift3 {
+  0%,
+  100% {
+    border-radius: 30% 50% 50% 80%;
+    rotate: 10deg;
+  }
+  20% {
+    border-radius: 80% 50% 30% 50%;
+    rotate: 40deg;
+  }
+  40% {
+    border-radius: 50% 20% 30% 80%;
+    rotate: 20deg;
+  }
+  60% {
+    border-radius: 50% 80% 30% 20%;
+    rotate: 70deg;
+  }
+  80% {
+    border-radius: 80% 50% 30% 50%;
+    rotate: 35deg;
+  }
+  99.9% {
+    border-radius: 50% 30% 50% 80%;
+    rotate: 9deg;
+  }
+}
+
+@keyframes color-shift {
+  0% {
+    background-color: rgb(164, 121, 205);
+  }
+  20% {
+    background-color: cadetblue;
+  }
+  40% {
+    background-color: rgb(246, 246, 172);
+  }
+  60% {
+    background-color: rgb(225, 168, 83);
+  }
+
+  80% {
+    background-color: rgb(172, 237, 172);
+  }
+  100% {
+    background-color: rgb(235, 98, 153);
+  }
+}

@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #0d0f14, #000 80%);
+  perspective: 1000px;
+}
+
+.dice {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  transform-style: preserve-3d;
+  animation: roll 5s infinite linear;
+}
+
+.face {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  border: 3px solid #222;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: #222;
+}
+
+.front {
+  transform: rotateY(0deg) translateZ(60px);
+}
+.back {
+  transform: rotateY(180deg) translateZ(60px);
+}
+.right {
+  transform: rotateY(90deg) translateZ(60px);
+}
+.left {
+  transform: rotateY(-90deg) translateZ(60px);
+}
+.top {
+  transform: rotateX(90deg) translateZ(60px);
+}
+.bottom {
+  transform: rotateX(-90deg) translateZ(60px);
+}
+
+@keyframes roll {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  25% {
+    transform: rotateX(180deg) rotateY(90deg);
+  }
+  50% {
+    transform: rotateX(360deg) rotateY(180deg);
+  }
+  75% {
+    transform: rotateX(540deg) rotateY(270deg);
+  }
+  100% {
+    transform: rotateX(720deg) rotateY(360deg);
+  }
+}

@@ -1,0 +1,805 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+:root {
+  --speed: 5;
+  /* Durations based on steps */
+  --duration-second-minute: calc(150s / var(--speed));
+  --duration-first-minute: calc(150s / var(--speed));
+  --duration-second-hour: calc(150s / var(--speed));
+  --duration-first-hour: calc(150s / var(--speed));
+  --degrees-second-minute: 30deg;
+  --degrees-first-minute: 30deg;
+  --degrees-second-hour: -30deg;
+  --degrees-first-hour: 30deg;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1.5vw;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+body li {
+  list-style-type: none;
+  font-size: 2rem;
+  font-family: 'Vend Sans', sans-serif;
+  font-weight: 600;
+}
+
+#app {
+  background: #d8d8d8;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  background: #a92f24;
+  border-radius: 50%;
+}
+.clock__cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  border: 4px solid #a92f24;
+  -webkit-mask-image: linear-gradient(to bottom, black 45%, transparent 0%),
+    linear-gradient(to left, black 2%, transparent 0%),
+    linear-gradient(to right, black 50%, transparent 0%),
+    linear-gradient(to top, black 45%, transparent 0%);
+  -webkit-mask-composite: source-over;
+  -webkit-mask-repeat: no-repeat;
+}
+.clock__window {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  translate: 0 -50%;
+  width: 48%;
+  height: 2.2rem;
+  border: 4px solid #a92f24;
+  z-index: 4000;
+}
+.clock__container {
+  position: relative;
+  z-index: 1000;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.clock__hours {
+  grid-area: 1/1/1/1;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.clock__hours-firstDigit {
+  grid-area: 1/1/1/1;
+  z-index: 5000;
+  position: relative;
+  width: 9rem;
+  height: 9rem;
+  border: 2px solid #202123;
+  border-radius: 50%;
+  background: #bfbab6;
+  margin: 0 auto;
+}
+.clock__hours-firstDigit ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.clock__hours-firstDigit ul li {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin: -1rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.clock__hours-firstDigit ul li:nth-child(1) {
+  transform: rotate(calc(0deg + 0 * var(--degrees-first-hour)))
+    translate(3.5rem);
+}
+.clock__hours-firstDigit ul li:nth-child(2) {
+  transform: rotate(calc(0deg + 1 * var(--degrees-first-hour)))
+    translate(3.5rem);
+}
+.clock__hours-firstDigit ul li:nth-child(3) {
+  transform: rotate(calc(0deg + 2 * var(--degrees-first-hour)))
+    translate(3.5rem);
+}
+.clock__hours-secondDigit {
+  grid-area: 1/1/1/1;
+  z-index: 4000;
+  position: relative;
+  width: 13rem;
+  height: 13rem;
+  border: 2px solid #202123;
+  border-radius: 50%;
+  background: #bfbab6;
+  margin: 0 auto;
+}
+.clock__hours-secondDigit ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.clock__hours-secondDigit ul li {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin: -1rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.clock__hours-secondDigit ul li:nth-child(1) {
+  transform: rotate(calc(0deg + 0 * var(--degrees-second-hour)))
+    translate(5.5rem);
+}
+.clock__hours-secondDigit ul li:nth-child(2) {
+  transform: rotate(calc(0deg + 1 * var(--degrees-second-hour)))
+    translate(5.5rem);
+}
+.clock__hours-secondDigit ul li:nth-child(3) {
+  transform: rotate(calc(0deg + 2 * var(--degrees-second-hour)))
+    translate(5.5rem);
+}
+.clock__hours-secondDigit ul li:nth-child(4) {
+  transform: rotate(calc(0deg + 3 * var(--degrees-second-hour)))
+    translate(5.5rem);
+}
+.clock__hours-secondDigit ul li:nth-child(5) {
+  transform: rotate(calc(0deg + 4 * var(--degrees-second-hour)))
+    translate(5.5rem);
+}
+.clock__hours-secondDigit ul li:nth-child(6) {
+  transform: rotate(calc(0deg + 5 * var(--degrees-second-hour)))
+    translate(5.5rem);
+}
+.clock__hours-secondDigit ul li:nth-child(7) {
+  transform: rotate(calc(0deg + 6 * var(--degrees-second-hour)))
+    translate(5.5rem);
+}
+.clock__hours-secondDigit ul li:nth-child(8) {
+  transform: rotate(calc(0deg + 7 * var(--degrees-second-hour)))
+    translate(5.5rem);
+}
+.clock__hours-secondDigit ul li:nth-child(9) {
+  transform: rotate(calc(0deg + 8 * var(--degrees-second-hour)))
+    translate(5.5rem);
+}
+.clock__hours-secondDigit ul li:nth-child(10) {
+  transform: rotate(calc(0deg + 9 * var(--degrees-second-hour)))
+    translate(5.5rem);
+}
+.clock__minutes {
+  grid-area: 1/1/1/1;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.clock__minutes-firstDigit {
+  grid-area: 1/1/1/1;
+  z-index: 2000;
+  position: relative;
+  width: 18.5rem;
+  height: 18.5rem;
+  border: 2px solid #202123;
+  border-radius: 50%;
+  background: #bfbab6;
+  margin: 0 auto;
+}
+.clock__minutes-firstDigit ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.clock__minutes-firstDigit ul li {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin: -1rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.clock__minutes-firstDigit ul li:nth-child(1) {
+  transform: rotate(calc(0deg + 0 * var(--degrees-first-minute)))
+    translate(8.25rem);
+}
+.clock__minutes-firstDigit ul li:nth-child(2) {
+  transform: rotate(calc(0deg + 1 * var(--degrees-first-minute)))
+    translate(8.25rem);
+}
+.clock__minutes-firstDigit ul li:nth-child(3) {
+  transform: rotate(calc(0deg + 2 * var(--degrees-first-minute)))
+    translate(8.25rem);
+}
+.clock__minutes-firstDigit ul li:nth-child(4) {
+  transform: rotate(calc(0deg + 3 * var(--degrees-first-minute)))
+    translate(8.25rem);
+}
+.clock__minutes-firstDigit ul li:nth-child(5) {
+  transform: rotate(calc(0deg + 4 * var(--degrees-first-minute)))
+    translate(8.25rem);
+}
+.clock__minutes-firstDigit ul li:nth-child(6) {
+  transform: rotate(calc(0deg + 5 * var(--degrees-first-minute)))
+    translate(8.25rem);
+}
+.clock__minutes-secondDigit {
+  grid-area: 1/1/1/1;
+  z-index: 1000;
+  position: relative;
+  width: 22.5rem;
+  height: 22.5rem;
+  border-radius: 50%;
+  background: #bfbab6;
+  margin: 0 auto;
+}
+.clock__minutes-secondDigit ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.clock__minutes-secondDigit ul li {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin: -1rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.clock__minutes-secondDigit ul li:nth-child(1) {
+  transform: rotate(calc(0deg + 0 * var(--degrees-second-minute)))
+    translate(10.2rem);
+}
+.clock__minutes-secondDigit ul li:nth-child(2) {
+  transform: rotate(calc(0deg + 1 * var(--degrees-second-minute)))
+    translate(10.2rem);
+}
+.clock__minutes-secondDigit ul li:nth-child(3) {
+  transform: rotate(calc(0deg + 2 * var(--degrees-second-minute)))
+    translate(10.2rem);
+}
+.clock__minutes-secondDigit ul li:nth-child(4) {
+  transform: rotate(calc(0deg + 3 * var(--degrees-second-minute)))
+    translate(10.2rem);
+}
+.clock__minutes-secondDigit ul li:nth-child(5) {
+  transform: rotate(calc(0deg + 4 * var(--degrees-second-minute)))
+    translate(10.2rem);
+}
+.clock__minutes-secondDigit ul li:nth-child(6) {
+  transform: rotate(calc(0deg + 5 * var(--degrees-second-minute)))
+    translate(10.2rem);
+}
+.clock__minutes-secondDigit ul li:nth-child(7) {
+  transform: rotate(calc(0deg + 6 * var(--degrees-second-minute)))
+    translate(10.2rem);
+}
+.clock__minutes-secondDigit ul li:nth-child(8) {
+  transform: rotate(calc(0deg + 7 * var(--degrees-second-minute)))
+    translate(10.2rem);
+}
+.clock__minutes-secondDigit ul li:nth-child(9) {
+  transform: rotate(calc(0deg + 8 * var(--degrees-second-minute)))
+    translate(10.2rem);
+}
+.clock__minutes-secondDigit ul li:nth-child(10) {
+  transform: rotate(calc(0deg + 9 * var(--degrees-second-minute)))
+    translate(10.2rem);
+}
+.clock__separator {
+  grid-area: 1/1/1/1;
+  z-index: 3000;
+  position: relative;
+  width: 14.5rem;
+  height: 14.5rem;
+  border: 2px solid #202123;
+  border-radius: 50%;
+  background: #bfbab6;
+  margin: 0 auto;
+}
+.clock__separator ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.clock__separator ul li {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin: -1rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.clock__separator ul li:nth-child(1) {
+  transform: rotate(-1deg) translate(6.9rem);
+}
+.clock__separator ul li:nth-child(2) {
+  transform: rotate(24deg) translate(6.9rem);
+}
+.clock__separator ul li:nth-child(3) {
+  transform: rotate(49deg) translate(6.9rem);
+}
+.clock__separator ul li:nth-child(4) {
+  transform: rotate(74deg) translate(6.9rem);
+}
+.clock__separator ul li:nth-child(5) {
+  transform: rotate(99deg) translate(6.9rem);
+}
+.clock__separator ul li:nth-child(6) {
+  transform: rotate(124deg) translate(6.9rem);
+}
+.clock__separator ul li:nth-child(7) {
+  transform: rotate(149deg) translate(6.9rem);
+}
+.clock__separator ul li:nth-child(8) {
+  transform: rotate(174deg) translate(6.9rem);
+}
+.clock__separator ul li:nth-child(9) {
+  transform: rotate(199deg) translate(6.9rem);
+}
+.clock__separator ul li:nth-child(10) {
+  transform: rotate(224deg) translate(6.9rem);
+}
+.clock__separator ul li:nth-child(11) {
+  transform: rotate(249deg) translate(6.9rem);
+}
+.clock__separator ul li:nth-child(12) {
+  transform: rotate(274deg) translate(6.9rem);
+}
+
+.grid {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  rotate: 25deg;
+  grid-template-columns: repeat(50, 1fr);
+}
+
+.grid-items {
+  height: 100%;
+  width: 100%;
+  border-left: 2px solid #a92f24;
+}
+
+.clock__hours-firstDigit,
+.clock__hours-secondDigit {
+  transform-origin: center center;
+}
+.clock__hours-firstDigit {
+  animation: rotateHoursFirstDigits calc(var(--duration-first-hour) * 24) ease
+    infinite;
+}
+.clock__hours-secondDigit {
+  animation: rotateHoursSecondDigits calc(var(--duration-second-hour) * 24) ease
+    infinite;
+}
+
+.clock__minutes-firstDigit,
+.clock__minutes-secondDigit {
+  transform-origin: center center;
+}
+.clock__minutes-firstDigit {
+  animation: rotateMinutesFirstDigits var(--duration-first-minute) ease infinite;
+}
+.clock__minutes-secondDigit {
+  animation: rotateMinutesSecondDigits var(--duration-second-minute) ease
+    infinite;
+}
+
+.clock__separator {
+  transform-origin: center center;
+}
+
+@keyframes rotateMinutesSecondDigits {
+  0% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 0));
+  }
+  1.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 1));
+  }
+  3.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 2));
+  }
+  5% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 3));
+  }
+  6.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 4));
+  }
+  8.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 5));
+  }
+  10% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 6));
+  }
+  11.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 7));
+  }
+  13.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 8));
+  }
+  15% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 9));
+  }
+  16.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 0));
+  }
+  18.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 1));
+  }
+  20% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 2));
+  }
+  21.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 3));
+  }
+  23.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 4));
+  }
+  25% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 5));
+  }
+  26.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 6));
+  }
+  28.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 7));
+  }
+  30% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 8));
+  }
+  31.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 9));
+  }
+  33.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 0));
+  }
+  35% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 1));
+  }
+  36.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 2));
+  }
+  38.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 3));
+  }
+  40% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 4));
+  }
+  41.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 5));
+  }
+  43.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 6));
+  }
+  45% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 7));
+  }
+  46.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 8));
+  }
+  48.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 9));
+  }
+  50% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 0));
+  }
+  51.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 1));
+  }
+  53.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 2));
+  }
+  55% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 3));
+  }
+  56.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 4));
+  }
+  58.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 5));
+  }
+  60% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 6));
+  }
+  61.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 7));
+  }
+  63.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 8));
+  }
+  65% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 9));
+  }
+  66.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 0));
+  }
+  68.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 1));
+  }
+  70% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 2));
+  }
+  71.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 3));
+  }
+  73.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 4));
+  }
+  75% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 5));
+  }
+  76.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 6));
+  }
+  78.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 7));
+  }
+  80% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 8));
+  }
+  81.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 9));
+  }
+  83.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 0));
+  }
+  85% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 1));
+  }
+  86.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 2));
+  }
+  88.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 3));
+  }
+  90% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 4));
+  }
+  91.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 5));
+  }
+  93.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 6));
+  }
+  95% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 7));
+  }
+  96.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 8));
+  }
+  98.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 9));
+  }
+  100% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 0));
+  }
+}
+@keyframes rotateMinutesFirstDigits {
+  0%,
+  15% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 0));
+  }
+  16.67%,
+  31.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 1));
+  }
+  33.33%,
+  48.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 2));
+  }
+  50%,
+  65% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 3));
+  }
+  66.67%,
+  81.67% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 4));
+  }
+  83.33%,
+  98.33% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 5));
+  }
+  100% {
+    transform: rotate(calc(-1 * var(--degrees-second-minute) * 0));
+  }
+}
+@keyframes rotateHoursSecondDigits {
+  /* ===== Phase 0 — stays at *0 ===== */
+  0%,
+  4.03% {
+    transform: rotate(calc(var(--degrees-second-minute) * 0));
+  }
+  /* ===== Phase 1 — stays at *1 ===== */
+  4.17%,
+  8.20% {
+    transform: rotate(calc(var(--degrees-second-minute) * 1));
+  }
+  /* ===== Phase 2 — stays at *2 ===== */
+  8.33%,
+  12.36% {
+    transform: rotate(calc(var(--degrees-second-minute) * 2));
+  }
+  /* ===== Phase 3 — stays at *3 ===== */
+  12.5%,
+  16.53% {
+    transform: rotate(calc(var(--degrees-second-minute) * 3));
+  }
+  /* ===== Phase 4 — stays at *4 ===== */
+  16.67%,
+  20.70% {
+    transform: rotate(calc(var(--degrees-second-minute) * 4));
+  }
+  /* ===== Phase 5 — stays at *5 ===== */
+  20.83%,
+  24.86% {
+    transform: rotate(calc(var(--degrees-second-minute) * 5));
+  }
+  /* ===== Phase 6 — stays at *6 ===== */
+  25%,
+  29.03% {
+    transform: rotate(calc(var(--degrees-second-minute) * 6));
+  }
+  /* ===== Phase 7 — stays at *7 ===== */
+  29.17%,
+  33.20% {
+    transform: rotate(calc(var(--degrees-second-minute) * 7));
+  }
+  /* ===== Phase 8 — stays at *8 ===== */
+  33.33%,
+  37.36% {
+    transform: rotate(calc(var(--degrees-second-minute) * 8));
+  }
+  /* ===== Phase 9 — stays at *9 ===== */
+  37.5%,
+  41.53% {
+    transform: rotate(calc(var(--degrees-second-minute) * 9));
+  }
+  /* ===== Phase 10 — stays at *0 ===== */
+  41.67%,
+  45.70% {
+    transform: rotate(calc(var(--degrees-second-minute) * 0));
+  }
+  /* ===== Phase 11 — stays at *1 ===== */
+  45.83%,
+  49.86% {
+    transform: rotate(calc(var(--degrees-second-minute) * 1));
+  }
+  /* ===== Phase 12 — stays at *2 ===== */
+  50%,
+  54.03% {
+    transform: rotate(calc(var(--degrees-second-minute) * 2));
+  }
+  /* ===== Phase 13 — stays at *3 ===== */
+  54.17%,
+  58.20% {
+    transform: rotate(calc(var(--degrees-second-minute) * 3));
+  }
+  /* ===== Phase 14 — stays at *4 ===== */
+  58.33%,
+  62.36% {
+    transform: rotate(calc(var(--degrees-second-minute) * 4));
+  }
+  /* ===== Phase 15 — stays at *5 ===== */
+  62.5%,
+  66.53% {
+    transform: rotate(calc(var(--degrees-second-minute) * 5));
+  }
+  /* ===== Phase 16 — stays at *6 ===== */
+  66.67%,
+  70.70% {
+    transform: rotate(calc(var(--degrees-second-minute) * 6));
+  }
+  /* ===== Phase 17 — stays at *7 ===== */
+  70.83%,
+  74.86% {
+    transform: rotate(calc(var(--degrees-second-minute) * 7));
+  }
+  /* ===== Phase 18 — stays at *8 ===== */
+  75%,
+  79.03% {
+    transform: rotate(calc(var(--degrees-second-minute) * 8));
+  }
+  /* ===== Phase 19 — stays at *9 ===== */
+  79.17%,
+  83.20% {
+    transform: rotate(calc(var(--degrees-second-minute) * 9));
+  }
+  /* ===== Phase 20 — stays at *0 ===== */
+  83.33%,
+  87.36% {
+    transform: rotate(calc(var(--degrees-second-minute) * 0));
+  }
+  /* ===== Phase 21 — stays at *1 ===== */
+  87.5%,
+  91.53% {
+    transform: rotate(calc(var(--degrees-second-minute) * 1));
+  }
+  /* ===== Phase 22 — stays at *2 ===== */
+  91.67%,
+  95.70% {
+    transform: rotate(calc(var(--degrees-second-minute) * 2));
+  }
+  /* ===== Phase 23 — stays at *3 and returns to *0 ===== */
+  95.83%,
+  99.50% {
+    transform: rotate(calc(var(--degrees-second-minute) * 3));
+  }
+  100% {
+    transform: rotate(calc(var(--degrees-second-minute) * 0));
+  }
+}
+@keyframes rotateHoursFirstDigits {
+  /* First cycle (0–9): 0% → 40% */
+  0%,
+  40% {
+    transform: rotate(calc(-1 * var(--degrees-first-hour) * 0));
+  }
+  46% {
+    transform: rotate(calc(-1 * var(--degrees-first-hour) * 1));
+  }
+  /* Second cycle (0–9): 40% → 80% */
+  46%,
+  82% {
+    transform: rotate(calc(-1 * var(--degrees-first-hour) * 1));
+  }
+  86% {
+    transform: rotate(calc(-1 * var(--degrees-first-hour) * 2));
+  }
+  /* Third cycle (0–4): 80% → 100% */
+  86%,
+  98% {
+    transform: rotate(calc(-1 * var(--degrees-first-hour) * 2));
+  }
+  100% {
+    transform: rotate(calc(-1 * var(--degrees-first-hour) * 0));
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,312 @@
+:root {
+  --bg: #0d0f14;
+  --wire: #202430;
+  --glass-1: #fffbe6;
+  --glass-2: #ffe96b;
+  --glass-3: #ffdc3c;
+  --glass-4: #f9c930;
+  --glass-5: #d49d17;
+  --filament: #a95e00;
+  --cap: #3c3f47;
+  --screw: #2b2e35;
+  --halo: 255, 220, 60;
+}
+
+html,
+body {
+  height: 100%;
+  background: radial-gradient(
+    circle at 50% 20%,
+    #12151c 0%,
+    var(--bg) 60%,
+    #07080c 100%
+  );
+  margin: 0;
+  color: #c9ced6;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    'Helvetica Neue', Arial, sans-serif;
+}
+
+.stage {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.lamp {
+  position: relative;
+  width: 220px;
+  height: 320px;
+}
+
+.wire {
+  position: absolute;
+  left: 50%;
+  top: -30%;
+  width: 3px;
+  height: 50%;
+  background: linear-gradient(var(--wire), #12151c 70%);
+  transform: translateX(-50%);
+  filter: drop-shadow(0 10px 4px rgba(0, 0, 0, 0.4));
+}
+
+.bulb {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  width: 160px;
+  height: 160px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: radial-gradient(
+    120px 90px at 50% 35%,
+    var(--glass-1) 0%,
+    var(--glass-2) 30%,
+    var(--glass-3) 55%,
+    var(--glass-4) 70%,
+    var(--glass-5) 100%
+  );
+  box-shadow: 0 0 24px 10px rgba(var(--halo), 0.65),
+    0 0 80px 36px rgba(var(--halo), 0.45),
+    inset 0 0 40px 12px rgba(255, 255, 255, 0.35);
+  animation: pulse 3.2s ease-in-out infinite;
+}
+
+.bulb::before {
+  content: '';
+  position: absolute;
+  left: 20%;
+  top: 18%;
+  width: 30%;
+  height: 40%;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.1) 60%,
+    transparent 70%
+  );
+  transform: rotate(-10deg);
+  filter: blur(0.6px);
+  pointer-events: none;
+  mix-blend-mode: screen;
+  animation: highlightShift 6s ease-in-out infinite;
+}
+.halo {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  width: 220px;
+  height: 220px;
+  transform: translate(-50%, -18%);
+  border-radius: 50%;
+  background: radial-gradient(
+    closest-side,
+    rgba(var(--halo), 0.45),
+    rgba(var(--halo), 0.12) 60%,
+    transparent 100%
+  );
+  filter: blur(10px) drop-shadow(0 0 50px rgba(var(--halo), 0.35))
+    drop-shadow(0 0 120px rgba(var(--halo), 0.25));
+  animation: flicker 9s linear infinite;
+  pointer-events: none;
+}
+
+.filament {
+  position: absolute;
+  left: 50%;
+  top: 52%;
+  width: 84px;
+  height: 36px;
+  transform: translateX(-50%);
+  border: 3px solid var(--filament);
+  border-top: none;
+  border-radius: 0 0 22px 22px;
+  box-shadow: 0 0 10px 2px rgba(var(--halo), 0.6),
+    inset 0 0 12px rgba(255, 180, 0, 0.6);
+  animation: filamentGlow 2.2s ease-in-out infinite;
+}
+
+.filament::before,
+.filament::after {
+  content: '';
+  position: absolute;
+  top: -6px;
+  width: 3px;
+  height: 14px;
+  background: var(--filament);
+  box-shadow: 0 0 6px rgba(var(--halo), 0.4);
+}
+.filament::before {
+  left: 12px;
+}
+.filament::after {
+  right: 12px;
+}
+
+.cap {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  width: 90px;
+  height: 34px;
+  transform: translateX(-50%);
+  border-radius: 14px;
+  background: linear-gradient(180deg, #6b6f78 0%, var(--cap) 70%);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5),
+    inset 0 -6px 10px rgba(0, 0, 0, 0.5),
+    inset 0 4px 6px rgba(255, 255, 255, 0.06);
+}
+
+.screw {
+  position: absolute;
+  left: 50%;
+  top: calc(70% + 26px);
+  width: 76px;
+  height: 54px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  background: linear-gradient(180deg, #4a4d55 0%, var(--screw) 80%);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.6),
+    inset 0 -8px 12px rgba(0, 0, 0, 0.6),
+    inset 0 6px 8px rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+}
+
+.screw::before,
+.screw::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(0, 0, 0, 0.4)
+  );
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.35);
+}
+.screw::before {
+  top: 12px;
+}
+.screw::after {
+  top: 28px;
+}
+
+.floor-glow {
+  position: absolute;
+  left: 50%;
+  bottom: -12%;
+  width: 360px;
+  height: 120px;
+  transform: translateX(-50%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(var(--halo), 0.18) 0%,
+    rgba(var(--halo), 0.05) 60%,
+    transparent 80%
+  );
+  filter: blur(10px);
+  animation: floorPulse 3.2s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 24px 10px rgba(var(--halo), 0.65),
+      0 0 80px 36px rgba(var(--halo), 0.45),
+      inset 0 0 40px 12px rgba(255, 255, 255, 0.35);
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    box-shadow: 0 0 34px 14px rgba(var(--halo), 0.85),
+      0 0 120px 50px rgba(var(--halo), 0.55),
+      inset 0 0 52px 16px rgba(255, 255, 255, 0.45);
+    transform: translateX(-50%) scale(1.02);
+  }
+}
+
+@keyframes filamentGlow {
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.25);
+  }
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.85;
+  }
+  7% {
+    opacity: 0.88;
+  }
+  8% {
+    opacity: 0.7;
+  }
+  9% {
+    opacity: 0.9;
+  }
+  15% {
+    opacity: 0.82;
+  }
+  23% {
+    opacity: 0.88;
+  }
+  24% {
+    opacity: 0.68;
+  }
+  26% {
+    opacity: 0.92;
+  }
+  40% {
+    opacity: 0.86;
+  }
+  55% {
+    opacity: 0.9;
+  }
+  56% {
+    opacity: 0.72;
+  }
+  58% {
+    opacity: 0.93;
+  }
+  75% {
+    opacity: 0.88;
+  }
+  92% {
+    opacity: 0.86;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes floorPulse {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: translateX(-50%) scaleX(1);
+  }
+  50% {
+    opacity: 0.75;
+    transform: translateX(-50%) scaleX(1.05);
+  }
+}
+
+@keyframes highlightShift {
+  0%,
+  100% {
+    transform: rotate(-10deg) translateY(0);
+    opacity: 0.7;
+  }
+  50% {
+    transform: rotate(-6deg) translateY(1px);
+    opacity: 0.9;
+  }
+}

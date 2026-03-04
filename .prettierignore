@@ -1,0 +1,5 @@
+.prettierrc
+.github/
+node_modules/
+public/
+package*.json

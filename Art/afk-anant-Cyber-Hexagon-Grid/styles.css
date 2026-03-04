@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+  overflow: hidden;
+}
+
+.hexagon-grid {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.hexagon {
+  position: absolute;
+  width: 100px;
+  height: 115px;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 255, 255, 0.3),
+    rgba(255, 0, 255, 0.3)
+  );
+  clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 0% 50%);
+  border: 2px solid rgba(0, 255, 255, 0.5);
+  animation: pulse 3s ease-in-out infinite;
+}
+
+.hex-1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: 0s;
+}
+
+.hex-2 {
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: 0.3s;
+}
+
+.hex-3 {
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: 0.6s;
+}
+
+.hex-4 {
+  top: 35%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  animation-delay: 0.9s;
+}
+
+.hex-5 {
+  top: 35%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  animation-delay: 1.2s;
+}
+
+.hex-6 {
+  top: 65%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  animation-delay: 1.5s;
+}
+
+.hex-7 {
+  top: 65%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  animation-delay: 1.8s;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0.4;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 1;
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.8), 0 0 60px rgba(255, 0, 255, 0.6);
+    filter: hue-rotate(90deg);
+  }
+}

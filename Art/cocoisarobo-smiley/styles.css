@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a5699;
+}
+
+.smiling-face {
+  width: 100px;
+  height: 100px;
+  background-color: #2a5699;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  animation: 1.5s infinite alternate rotationanimation ease-in-out;
+}
+
+@keyframes rotationanimation {
+  from {
+    transform: rotate(0deg);
+    background-color: #2a5699;
+  }
+  to {
+    transform: rotate(360deg);
+    background-color: yellow;
+    scale: 2.5;
+    border-radius: 50%;
+  }
+}
+
+.eyes {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  border-radius: 100px 100px 0px 0px;
+  animation: 1.5s infinite alternate face ease-in-out;
+}
+
+.eyes.right {
+  top: 50%;
+  left: 44%;
+}
+
+.eyes.left {
+  top: 50%;
+  left: 50%;
+}
+
+.smile {
+  width: 100px;
+  height: 50px;
+  border-radius: 0px 0px 100px 100px;
+  background-color: black;
+  position: fixed;
+  top: 60%;
+  left: 45.5%;
+  animation: 1.5s infinite alternate face ease-in-out;
+}
+
+@keyframes face {
+  from {
+    opacity: 0;
+    transform: scaleY(0.1);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}

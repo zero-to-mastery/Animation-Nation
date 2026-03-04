@@ -1,0 +1,149 @@
+body {
+  background: #10141a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+.dna-wrapper {
+  perspective: 800px;
+  width: 160px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dna {
+  position: relative;
+  width: 100px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  animation: rotate 4s linear infinite;
+  transform-style: preserve-3d;
+}
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.pair {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100px;
+  height: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform-style: preserve-3d;
+  opacity: 0.8;
+}
+.strand {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #23d7fb 60%, #1e72e8 100%);
+  box-shadow: 0 2px 8px #02d2fc77;
+}
+.strand.right {
+  background: linear-gradient(145deg, #ff6fd8 60%, #ff6f61 100%);
+  box-shadow: 0 2px 8px #ff6fd855;
+}
+.connector {
+  height: 4px;
+  width: 68px;
+  background: linear-gradient(90deg, #de3e3e 20%, #1b4bdb 80%);
+  border-radius: 4px;
+  margin: 0 2px;
+}
+/* Position the pairs along the helix and set their rotation/offset */
+.pair:nth-child(1) {
+  top: 0px;
+  transform: rotateY(0deg) translateZ(40px);
+}
+.pair:nth-child(2) {
+  top: 28px;
+  transform: rotateY(22.5deg) translateZ(36px);
+}
+.pair:nth-child(3) {
+  top: 56px;
+  transform: rotateY(45deg) translateZ(32px);
+}
+.pair:nth-child(4) {
+  top: 84px;
+  transform: rotateY(67.5deg) translateZ(28px);
+}
+.pair:nth-child(5) {
+  top: 112px;
+  transform: rotateY(90deg) translateZ(24px);
+}
+.pair:nth-child(6) {
+  top: 140px;
+  transform: rotateY(112.5deg) translateZ(20px);
+}
+.pair:nth-child(7) {
+  top: 168px;
+  transform: rotateY(135deg) translateZ(16px);
+}
+.pair:nth-child(8) {
+  top: 196px;
+  transform: rotateY(157.5deg) translateZ(12px);
+}
+.pair:nth-child(9) {
+  top: 224px;
+  transform: rotateY(180deg) translateZ(8px);
+}
+.pair:nth-child(10) {
+  top: 252px;
+  transform: rotateY(202.5deg) translateZ(12px);
+}
+.pair:nth-child(11) {
+  top: 280px;
+  transform: rotateY(225deg) translateZ(16px);
+}
+.pair:nth-child(12) {
+  top: 308px;
+  transform: rotateY(247.5deg) translateZ(20px);
+}
+.pair:nth-child(13) {
+  top: 336px;
+  transform: rotateY(270deg) translateZ(24px);
+}
+/* Fade for depth illusion */
+.pair {
+  filter: blur(0.2px);
+}
+.pair:nth-child(1),
+.pair:nth-child(13) {
+  opacity: 0.45;
+}
+.pair:nth-child(2),
+.pair:nth-child(12) {
+  opacity: 0.65;
+}
+.pair:nth-child(3),
+.pair:nth-child(11) {
+  opacity: 0.8;
+}
+.pair:nth-child(4),
+.pair:nth-child(10) {
+  opacity: 0.95;
+}
+.pair:nth-child(5),
+.pair:nth-child(9) {
+  opacity: 1;
+}
+.pair:nth-child(6),
+.pair:nth-child(8) {
+  opacity: 0.95;
+}
+.pair:nth-child(7) {
+  opacity: 1;
+}

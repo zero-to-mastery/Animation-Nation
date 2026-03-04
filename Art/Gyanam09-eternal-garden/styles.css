@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  background: radial-gradient(
+    circle at center,
+    #01010a 10%,
+    #040018 60%,
+    #000 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.garden {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: sway 30s ease-in-out infinite alternate;
+}
+@keyframes sway {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  100% {
+    transform: rotate(5deg) scale(1.05);
+  }
+}
+
+.flower {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  animation: spin 25s linear infinite, hue 16s linear infinite;
+}
+.flower1 {
+  top: 10%;
+  left: 15%;
+  transform-origin: center;
+  animation-delay: 0s;
+}
+.flower2 {
+  bottom: 15%;
+  right: 10%;
+  transform-origin: center;
+  animation-delay: 5s;
+}
+.flower3 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.1);
+  animation-delay: 2s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes hue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.petal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(
+    circle at 30% 30%,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 100, 200, 0.4),
+    rgba(0, 0, 0, 0) 70%
+  );
+  border-radius: 50% 50% 0 50%;
+  transform-origin: 0% 100%;
+  mix-blend-mode: screen;
+  animation: pulse 4s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1) rotate(var(--r));
+    opacity: 0.85;
+  }
+  50% {
+    transform: scale(1.1) rotate(calc(var(--r) + 3deg));
+    opacity: 1;
+  }
+}
+
+/* 12 petals */
+.petal:nth-child(3n + 1) {
+  --r: 0deg;
+}
+.petal:nth-child(3n + 2) {
+  --r: 30deg;
+}
+.petal:nth-child(3n + 3) {
+  --r: 60deg;
+}
+.petal:nth-child(3n + 4) {
+  --r: 90deg;
+}
+.petal:nth-child(3n + 5) {
+  --r: 120deg;
+}
+.petal:nth-child(3n + 6) {
+  --r: 150deg;
+}
+.petal:nth-child(3n + 7) {
+  --r: 180deg;
+}
+.petal:nth-child(3n + 8) {
+  --r: 210deg;
+}
+.petal:nth-child(3n + 9) {
+  --r: 240deg;
+}
+.petal:nth-child(3n + 10) {
+  --r: 270deg;
+}
+.petal:nth-child(3n + 11) {
+  --r: 300deg;
+}
+.petal:nth-child(3n + 12) {
+  --r: 330deg;
+}
+
+.core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 40% 40%,
+    #fff,
+    #ff69b4,
+    #ff00aa 60%,
+    transparent 80%
+  );
+  box-shadow: 0 0 20px 10px rgba(255, 100, 200, 0.6),
+    0 0 60px 40px rgba(255, 0, 150, 0.15);
+  animation: pulseCore 3s ease-in-out infinite;
+}
+@keyframes pulseCore {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.15);
+    opacity: 1;
+  }
+}
+
+.aura {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    rgba(255, 0, 150, 0.15),
+    transparent 30%,
+    rgba(100, 0, 255, 0.25),
+    transparent 60%,
+    rgba(255, 255, 255, 0.15)
+  );
+  animation: aura 10s linear infinite;
+  mix-blend-mode: screen;
+  filter: blur(30px);
+}
+@keyframes aura {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

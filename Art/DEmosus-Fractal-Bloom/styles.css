@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bloom {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.petal {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    rgba(255, 0, 150, 0.6),
+    rgba(0, 200, 255, 0.6),
+    rgba(0, 255, 150, 0.6),
+    rgba(255, 200, 0, 0.6),
+    rgba(255, 0, 150, 0.6)
+  );
+  mix-blend-mode: screen;
+  animation: bloom 12s linear infinite;
+}
+
+.layer1 {
+  animation-duration: 12s;
+  transform: scale(1);
+}
+.layer2 {
+  animation-duration: 18s;
+  transform: scale(0.8);
+  opacity: 0.7;
+}
+.layer3 {
+  animation-duration: 24s;
+  transform: scale(0.6);
+  opacity: 0.5;
+}
+.layer4 {
+  animation-duration: 30s;
+  transform: scale(0.4);
+  opacity: 0.4;
+}
+
+@keyframes bloom {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.5) rotate(180deg);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}

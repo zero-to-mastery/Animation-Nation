@@ -1,0 +1,243 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: hsla(248, 21%, 15%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(248, 21%, 15%, 1) 0%,
+    hsla(250, 14%, 61%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(248, 21%, 15%, 1) 0%,
+    hsla(250, 14%, 61%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(248, 21%, 15%, 1) 0%,
+    hsla(250, 14%, 61%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#211F2F", endColorstr="#918CA9", GradientType=1 );
+}
+
+#tree-container {
+  margin: 0 auto;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 20px 10px rgba(255, 255, 255, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+#tree-container div {
+  margin: 0 auto;
+}
+
+.leafs {
+  box-shadow: inset 0 0 2.5vh 1.5vh white;
+
+  background: hsla(165, 60%, 11%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(165, 60%, 11%, 1) 0%,
+    hsla(149, 54%, 31%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(165, 60%, 11%, 1) 0%,
+    hsla(149, 54%, 31%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(165, 60%, 11%, 1) 0%,
+    hsla(149, 54%, 31%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0B2C24", endColorstr="#247A4D", GradientType=1 );
+}
+
+@keyframes topLevelAnimation {
+  to {
+    gap: 4vh;
+    border-bottom: 1.5vh ridge rgb(238, 229, 184);
+  }
+}
+
+#tree-level-one {
+  height: 14%;
+  aspect-ratio: 3 / 2;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+  animation: topLevelAnimation 2.5s linear 1s infinite alternate;
+}
+
+@keyframes tinselAnimation {
+  to {
+    border-bottom: 1.5vh ridge rgb(238, 229, 184);
+  }
+}
+
+.tinsel {
+  border-bottom: 1.5vh ridge silver;
+  border-radius: 11%;
+  animation: tinselAnimation 2.5s linear 1s infinite alternate;
+}
+
+@keyframes starAnimation {
+  to {
+    width: 50%;
+    box-shadow: inset 0 0 5vh 2.5vh #f8f8ff;
+  }
+}
+
+.star {
+  margin: 0 auto;
+  width: 35%;
+  aspect-ratio: 1 / 1;
+  background: #c6ae2a;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  animation: starAnimation 2.5s ease-in 1s infinite alternate;
+}
+
+#tree-level-two {
+  clip-path: polygon(30% 0%, 70% 0%, 100% 100%, 0% 100%);
+  height: 14%;
+  aspect-ratio: 5 / 2;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ornament-row {
+  height: 18%;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes circleAnimation {
+  to {
+    height: 160%;
+    box-shadow: inset 0 0 1vh 0.5vh #f8f8ff;
+  }
+}
+
+.circle {
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background-color: #d5c4a1;
+  animation: circleAnimation 2.5s ease-in 1s infinite alternate;
+}
+
+@keyframes diamondAnimation {
+  to {
+    background-color: #e77575;
+    height: 260%;
+    box-shadow: inset 0 0 2vh 1vh #f8f8ff;
+  }
+}
+
+.diamond {
+  height: 180%;
+  aspect-ratio: 2 / 3;
+  background-color: #d32f2f;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  animation: diamondAnimation 2.5s ease-out 3.5s infinite alternate;
+}
+
+.first {
+  gap: 70%;
+}
+
+.trapezoid {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
+}
+
+#tree-level-three {
+  height: 14%;
+  aspect-ratio: 7 / 2;
+}
+
+.second {
+  gap: 55%;
+}
+
+#tree-level-four {
+  height: 14%;
+  aspect-ratio: 9 / 2;
+}
+
+.third {
+  gap: 45%;
+}
+
+#tree-body {
+  height: 14%;
+  aspect-ratio: 2 / 3;
+  border-radius: 0% 0% 20% 20%;
+  background: hsla(26, 58%, 23%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(26, 58%, 23%, 1) 0%,
+    hsla(30, 15%, 64%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(26, 58%, 23%, 1) 0%,
+    hsla(30, 15%, 64%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsl(26deg 84.76% 6.65%),
+    hsl(30deg 56.23% 25.6%)
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5E3719", endColorstr="#B2A496", GradientType=1 );
+}

@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.center {
+  position: absolute;
+  height: 25%;
+  aspect-ratio: 1 / 1;
+  background-color: aquamarine;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -110%);
+}
+
+.leaf1 {
+  transform: translate(-120%, -150%) rotate(180deg);
+}
+.leaf2 {
+  transform: translate(0%, 70%) rotate(45deg);
+}
+.leaf3 {
+  transform: translate(-50%, 170%) rotate(90deg);
+}
+.leaf4 {
+  transform: translate(-98%, 80%) rotate(135deg);
+}
+.leaf5 {
+  transform: translate(20%, -150%) rotate(0deg);
+}
+.leaf6 {
+  transform: translate(-100%, -370%) rotate(225deg);
+}
+.leaf7 {
+  transform: translate(-50%, -470%) rotate(270deg);
+}
+.leaf8 {
+  transform: translate(-2%, -380%) rotate(315deg);
+}
+
+.leaf1,
+.leaf2,
+.leaf3,
+.leaf4,
+.leaf5,
+.leaf6,
+.leaf7,
+.leaf8 {
+  position: absolute;
+  height: 15%;
+  width: 30%;
+  aspect-ratio: 1 / 1;
+  top: 50%;
+  left: 50%;
+}
+
+.leaf {
+  height: 100%;
+  position: relative;
+  top: -50%;
+  aspect-ratio: 1 / 1;
+  background-color: rgb(238, 250, 4);
+  border-radius: 80% 10% 80% 10%;
+  transform-origin: bottom left;
+  animation: grow 5s infinite;
+  rotate: 45deg;
+  transform: scaleX(-1);
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

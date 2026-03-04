@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #170e25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 85vmin;
+  height: 85vmin;
+}
+
+.layer {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: repeating-conic-gradient(#000 0deg 15deg, #fff 15deg 30deg);
+  mask: radial-gradient(circle at center, transparent 0%, black 92%);
+  -webkit-mask: radial-gradient(circle at center, transparent 0%, black 92%);
+  animation: spin 18s linear infinite;
+  opacity: 1;
+}
+
+.layer:nth-child(2) {
+  inset: 6vmin;
+  opacity: 1;
+  animation: spinReverse 22s linear infinite;
+}
+
+.layer:nth-child(3) {
+  inset: 12vmin;
+  opacity: 1;
+  animation: spin 26s linear infinite;
+}
+
+.layer:nth-child(4) {
+  inset: 18vmin;
+  opacity: 1;
+  animation: spinReverse 30s linear infinite;
+}
+
+.layer:nth-child(5) {
+  inset: 24vmin;
+  opacity: 1;
+  animation: spin 34s linear infinite;
+}
+
+.layer:nth-child(6) {
+  inset: 30vmin;
+  opacity: 1;
+  animation: spinReverse 38s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinReverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

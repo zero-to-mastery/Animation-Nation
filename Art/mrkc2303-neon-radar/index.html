@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Neon Radar — CSS Only</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="stage">
+      <div class="radar">
+        <div class="grid grid--1"></div>
+        <div class="grid grid--2"></div>
+        <div class="grid grid--3"></div>
+
+        <div class="sweep"></div>
+
+        <span class="blip" style="--x: -70px; --y: -10px; --d: 0s"></span>
+        <span class="blip" style="--x: 40px; --y: -60px; --d: 0.6s"></span>
+        <span class="blip" style="--x: 85px; --y: 35px; --d: 1.2s"></span>
+        <span class="blip" style="--x: -45px; --y: 65px; --d: 1.8s"></span>
+      </div>
+    </main>
+  </body>
+</html>

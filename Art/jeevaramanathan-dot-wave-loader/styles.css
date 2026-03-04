@@ -1,0 +1,157 @@
+body {
+  background: radial-gradient(circle at center, #000 0%, #111 100%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+
+.page-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wave-container {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.loader-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.dot-wave {
+  display: inline-block;
+  position: relative;
+  width: 85px;
+  height: 85px;
+  animation: spectrum-shift 3.5s linear infinite;
+  z-index: 2;
+}
+
+.dot {
+  position: absolute;
+  top: 36px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #00ffff;
+  box-shadow: 0 0 12px #00ffff, 0 0 24px #00ffff,
+    0 0 36px rgba(0, 255, 255, 0.4);
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.8, 0.2);
+}
+
+.dot-one {
+  left: 8px;
+  animation: emerge 0.65s infinite;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.dot-two {
+  left: 8px;
+  animation: traverse 0.65s infinite;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.dot-three {
+  left: 34px;
+  animation: traverse 0.65s infinite;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.dot-four {
+  left: 60px;
+  animation: vanish 0.65s infinite;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.dot:nth-child(1) {
+  left: 8px;
+  animation: emerge 0.65s infinite;
+}
+
+.dot:nth-child(2) {
+  left: 8px;
+  animation: traverse 0.65s infinite;
+}
+
+.dot:nth-child(3) {
+  left: 34px;
+  animation: traverse 0.65s infinite;
+}
+
+.dot:nth-child(4) {
+  left: 60px;
+  animation: vanish 0.65s infinite;
+}
+
+@keyframes emerge {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes traverse {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(26px);
+  }
+}
+
+@keyframes vanish {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes spectrum-shift {
+  0% {
+    filter: hue-rotate(0deg) brightness(1);
+  }
+  50% {
+    filter: hue-rotate(180deg) brightness(1.2);
+  }
+  100% {
+    filter: hue-rotate(360deg) brightness(1);
+  }
+}

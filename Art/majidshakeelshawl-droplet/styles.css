@@ -1,0 +1,62 @@
+/* Fullscreen centering */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f6fa;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Container to hold the ripple and button */
+.container {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ripple (droplet) effect */
+.ripple {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: rgba(45, 137, 239, 0.25);
+  border-radius: 50%;
+  animation: droplet 2.5s ease-out infinite;
+  z-index: 0;
+}
+
+/* Button styling */
+.download-btn {
+  position: relative;
+  z-index: 1;
+  background-color: #2d89ef;
+  color: #fff;
+  border: none;
+  padding: 14px 36px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: default;
+  box-shadow: 0 4px 10px rgba(45, 137, 239, 0.25);
+  cursor: pointer;
+}
+
+/* Droplet animation: smooth expansion + fade */
+@keyframes droplet {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.8;
+  }
+  70% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
