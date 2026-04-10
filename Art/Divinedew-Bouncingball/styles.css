@@ -1,4 +1,4 @@
-body {
+body{
   background-color: #000000;
   justify-content: center;
   align-items: center;
@@ -7,6 +7,7 @@ body {
   padding: 0;
   overflow: hidden;
 }
+
 
 .container {
   display: flex;
@@ -22,20 +23,23 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
-img {
-  width: 70px;
-  height: 50px;
-  margin-right: 25px;
-}
 
 .ball {
+  width: 45px;
+  height: 45px;
+  background: radial-gradient(circle at 10% 30%, #d6ace2, #50035a);
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+
+.ballShadow {
   width: 15px;
-  height: 7px;
+  height: 5px;
   background-color: rgba(138, 43, 226, 0.9);
-  /*background-color: rgba(109, 80, 69, 0.2);*/
   border-radius: 50%;
   padding: 0px 10px;
-  margin-right: 22px;
+  margin-right: 24px;
 }
 
 .container3 {
@@ -52,25 +56,27 @@ p {
   letter-spacing: 5px;
 }
 
+
 @keyframes bounce {
   0% {
-    transform: translateY(0);
+    transform: translateY(3px);
   }
   50% {
     transform: translateY(-90px);
   }
   100% {
-    transform: translateY(15px);
+    transform: translateY(3px);
   }
 }
 
-.bounce-ball {
+.ball{
   animation: bounce 1s ease-in-out infinite;
 }
 
+
 @keyframes expandshadow {
   0% {
-    transform: scale(0.5);
+    transform: scale(0.);
   }
   50% {
     transform: scale(1.5);
@@ -80,7 +86,7 @@ p {
   }
 }
 
-.ball {
+.ballShadow {
   box-shadow: 0 0 25px rgba(138, 43, 226, 0.9);
   animation: expandshadow 1s ease-in-out infinite;
 }
