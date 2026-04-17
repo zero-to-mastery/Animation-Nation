@@ -1,0 +1,90 @@
+/* Base layout */
+body {
+  margin: 0;
+  padding: 0;
+  background: #0e2136;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lily Script One", system-ui;
+}
+
+/* Centered container with max width */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+/* Responsive heading */
+.title h1 {
+  color: #fff;
+  text-align: center;
+  font-size: clamp(2rem, 0.4194rem + 2.5806vw, 4rem);
+}
+
+/* Media frame */
+.frame {
+  position: relative;
+  min-width: 0;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 16px;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image styling */
+.frame img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: inherit;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* Animated gradient angle */
+@property --deg {
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: 0deg;
+}
+
+/* Border and glow layers */
+.frame::before,
+.frame::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: conic-gradient(
+    from var(--deg) at center,
+    #00c3ff,
+    #4d0199,
+    #4d0199,
+    #00c3ff
+  );
+  border-radius: inherit;
+  z-index: -2;
+  padding: 4px;
+  animation: autoRotate 2s linear infinite;
+}
+
+/* Glow effect */
+.frame::after {
+  filter: blur(10px);
+}
+
+/* Rotation animation */
+@keyframes autoRotate {
+  to {
+    --deg: 360deg;
+  }
+}
