@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff4d4d;
+    box-shadow: 0 0 20px rgb(224, 13, 13);
+    animation: animate 2s linear forwards infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.circle h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 
+        0 0 5px #fff, /* This makes the text feel like part of the neon system. */
+        2px 3px 5px rgb(224, 13, 13);
+}
+.circle::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+    background-color: #1a0000;
+    border-radius: 50%;
+    background: radial-gradient(circle, #330000 0%, #1a0000 70%, #0a0000 100%); /* This gives the illusion of light spilling inward. */
+}
+
+.circle:hover {
+    box-shadow: 0 0 20px rgb(224, 13, 13), 0 0 40px rgb(224, 13, 13);
+    transform: translate(-50%, -50%) scale(1.05);
+    cursor: pointer;
+}
+
+@keyframes animate {
+    0% {
+    box-shadow: 0 0 20px rgb(224, 13, 13), 0 0 40px rgb(224, 13, 13);
+  }
+  70% {
+    box-shadow: 0 0 30px rgb(224, 13, 13), 0 0 60px rgb(224, 13, 13), 0 0 100px rgb(224, 13, 13);
+  }
+  100% {
+    box-shadow: 0 0 20px rgb(224, 13, 13), 0 0 40px rgb(224, 13, 13);
+  }
+}
