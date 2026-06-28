@@ -1,0 +1,116 @@
+body {
+	background: black;
+}
+
+.universe{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+	/*align-items: flex-start;*/
+}
+
+.sun {
+	width: 100px;
+	height: 100px;
+	background: #ffb150;
+	border-radius: 50%;
+	background: radial-gradient(circle at 30% 30%, #ff9853,#ff855b);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.mercury {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 160px;
+	/*left: 40px;*/
+	background: #A9A9A9;
+	border-radius: 50%;
+	background: radial-gradient(circle at 30% 30%, #A9A9A9,#9D9494);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.venus {
+	width: 58px;
+	height: 58px;
+	position: relative;
+	top: 90px;
+	/*left: 80px;*/
+	background: #F8F6F0;
+	border-radius: 50%;
+	background: radial-gradient(circle at 30% 30%, #ffdb9f,#ffcf80);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.earth {
+	width: 78px;
+	height: 78px;
+	position: relative;
+	top: 240px;
+	/*left: 50px;*/
+	/*background: #287AB8;*/
+	border-radius: 50%;
+	background: radial-gradient(circle at 30% 30%, #287AB8,#223b05);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.mars {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 200px;
+	/*left: 120px;*/
+	/*background: #287AB8;*/
+	border-radius: 50%;
+	background: radial-gradient(circle at 30% 30%, #964514,#fda600);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.jupiter {
+	width: 98px;
+	height: 98px;
+	position: relative;
+	top: 320px;
+	/*left: 70px;*/
+	/*background: #287AB8;*/
+	border-radius: 50%;
+	background: radial-gradient(circle at 30% 30%, #ebf3f6,#c99039);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.saturn {
+	width: 90px;
+	height: 90px;
+	position: relative;
+	top: 280px;
+	/*left: 140px;*/
+	/*background: ;*/
+	border-radius: 50%;
+	background: radial-gradient(circle at 30% 30%, #ceb8b8, #ead6b8);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.uranus {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 400px;
+	/*left: 140px;*/
+	/*background: ;*/
+	border-radius: 50%;
+	background: radial-gradient(circle at 30% 30%, #afdbf5, #2e84ce);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.neptune {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 320px;
+	/*left: 190px;*/
+	/*background: ;*/
+	border-radius: 50%;
+	background: radial-gradient(circle at 30% 30%, #ffffff, #144496);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
