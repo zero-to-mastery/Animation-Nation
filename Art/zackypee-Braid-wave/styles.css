@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #2b2b2b, #4a4a4a);
+}
+
+.braid {
+  position: relative;
+  width: 160px;
+  height: 300px;
+}
+
+.strand {
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  border-radius: 15px;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.strand-left {
+  left: 20px;
+  background: #d98324;
+  animation-name: weaveLeft;
+}
+
+.strand-center {
+  left: 65px;
+  background: #8b5a2b;
+  animation-name: weaveCenter;
+  z-index: 2;
+}
+
+.strand-right {
+  left: 110px;
+  background: #f0c987;
+  animation-name: weaveRight;
+}
+
+@keyframes weaveLeft {
+  0%   { transform: translateX(0) translateY(0); }
+  25%  { transform: translateX(45px) translateY(20px); }
+  50%  { transform: translateX(90px) translateY(0); }
+  75%  { transform: translateX(45px) translateY(-20px); }
+  100% { transform: translateX(0) translateY(0); }
+}
+
+@keyframes weaveCenter {
+  0%   { transform: translateX(0) translateY(-10px); }
+  25%  { transform: translateX(-45px) translateY(10px); }
+  50%  { transform: translateX(0) translateY(-10px); }
+  75%  { transform: translateX(45px) translateY(10px); }
+  100% { transform: translateX(0) translateY(-10px); }
+}
+
+@keyframes weaveRight {
+  0%   { transform: translateX(0) translateY(0); }
+  25%  { transform: translateX(-45px) translateY(-20px); }
+  50%  { transform: translateX(-90px) translateY(0); }
+  75%  { transform: translateX(-45px) translateY(20px); }
+  100% { transform: translateX(0) translateY(0); }
+}
