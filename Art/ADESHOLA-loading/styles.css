@@ -1,15 +1,71 @@
-*{box-sizing:border-box}
-html,body{height:100%}
-body{margin:0;display:flex;align-items:center;justify-content:center;background:#010611;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #010611;
+  font-family: Inter, system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial;
+}
 
-.loader{position:relative;width:140px;height:140px;display:grid;place-items:center}
+.loader {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  display: grid;
+  place-items: center;
+}
 
-.ring{position:absolute;width:120px;height:120px;border-radius:50%;border:6px solid rgba(16, 240, 46, 0.911);border-top-color:#1a491e;animation:spin 1.6s linear infinite;box-shadow:0 0 24px rgba(6,182,212,0.28)}
+.ring {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 6px solid rgba(16, 240, 46, 0.911);
+  border-top-color: #1a491e;
+  animation: spin 1.6s linear infinite;
+  box-shadow: 0 0 24px rgba(6, 182, 212, 0.28);
+}
 
-.dots{position:relative;display:flex;gap:12px}
-.dots div{width:18px;height:18px;border-radius:50%;background:#1af125;animation:bounce 0.8s ease-in-out infinite}
-.dots div:nth-child(2){animation-delay:0.16s;background:#ebd621}
-.dots div:nth-child(3){animation-delay:0.32s;background:#eb1022}
+.dots {
+  position: relative;
+  display: flex;
+  gap: 12px;
+}
+.dots div {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #1af125;
+  animation: bounce 0.8s ease-in-out infinite;
+}
+.dots div:nth-child(2) {
+  animation-delay: 0.16s;
+  background: #ebd621;
+}
+.dots div:nth-child(3) {
+  animation-delay: 0.32s;
+  background: #eb1022;
+}
 
-@keyframes spin{to{transform:rotate(360deg)}}
-@keyframes bounce{0%,80%,100%{transform:translateY(0)}40%{transform:translateY(-18px)}}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes bounce {
+  0%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-18px);
+  }
+}
