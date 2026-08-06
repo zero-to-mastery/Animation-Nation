@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a , #1e1b4b );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*overflow: hidden;*/
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  height: 400px;
+}
+
+.crystal-core {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+  transform: rotate(45deg);
+  border-radius: 30px;
+  top: 90px;
+  left: 80px;
+  box-shadow: 0 0 40px rgba(56, 189, 248, 0.6), inset 0 0 20px rgba(255, 255, 255, 0.5);
+  animation: floatAndPuls 4s ease-in-out infinite;
+}
+
+@keyframes floatAndPuls {
+  0%, 100% {
+    transform: translateY(0) rotate(45deg) scale(1);
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.5), inset 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    transform: translateY(-20px) rotate(45deg) scale(1.08);
+    box-shadow: 0 0 60px rgba(192, 132, 252, 0.8), inset 0 0 30px rgba(255, 255, 255, 0.8);
+  }
+}
+
+.orbit-ring {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border: 2px dashed rgba(255, 140, 248, 0.4);
+  border-radius: 50%;
+  top: 50px;
+  left: 40px;
+  animation: spinR 10s linear infinite;
+}
+
+@keyframes spinR {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.sparkle {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 50%;
+  animation: sparkleAnim 3s ease-in-out infinite;
+  opacity: 0;
+}
+
+.sparkle1 {
+  width: 8px;
+  height: 8px;
+  top: 60px;
+  left: 60px;
+  animation-delay: 0s;
+}
+
+.sparkle2 {
+  width: 6px;
+  height: 6px;
+  top: 80px;
+  right: 60px;
+  animation-delay: 1s;
+}
+
+.sparkle3 {
+  width: 10px;
+  height: 10px;
+  bottom: 80px;
+  left: 90px;
+  animation-delay: 2s;
+}
+
+@keyframes sparkleAnim {
+  0%, 100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+    box-shadow: 0 0 10px #fff;
+  }
+}
+
+.energy-glow {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 20px;
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.6) 0%, transparent 70%);
+  border-radius: 50%;
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    width: 80px;
+    opacity: 0.3;
+  }
+  50% {
+    width: 140px;
+    opacity: 0.8;
+  }
+}
