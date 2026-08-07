@@ -1,16 +1,16 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 
 body {
-  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+  background: linear-gradient(135deg, #0f172a , #1e1b4b );
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .container {
@@ -29,10 +29,10 @@ body {
   top: 90px;
   left: 80px;
   box-shadow: 0 0 40px rgba(56, 189, 248, 0.6), inset 0 0 20px rgba(255, 255, 255, 0.5);
-  animation: floatAndPulse 4s ease-in-out infinite;
+  animation: floatAndPuls 4s ease-in-out infinite;
 }
 
-@keyframes floatAndPulse {
+@keyframes floatAndPuls {
   0%, 100% {
     transform: translateY(0) rotate(45deg) scale(1);
     box-shadow: 0 0 30px rgba(56, 189, 248, 0.5), inset 0 0 20px rgba(255, 255, 255, 0.5);
@@ -47,19 +47,19 @@ body {
   position: absolute;
   width: 220px;
   height: 220px;
-  border: 2px dashed rgba(129, 140, 248, 0.4);
+  border: 2px dashed rgba(255, 140, 248, 0.4);
   border-radius: 50%;
   top: 50px;
   left: 40px;
-  animation: spinRing 10s linear infinite;
+  animation: spinR 10s linear infinite;
 }
 
-@keyframes spinRing {
+@keyframes spinR {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
 
