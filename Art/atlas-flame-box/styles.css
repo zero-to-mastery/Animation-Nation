@@ -1,52 +1,47 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 #box {
-    width: 20%;
-    height: 20%;
-    background-color: #3498db; 
+  width: 20%;
+  height: 20%;
+  background-color: #3498db;
 
-    position: absolute; 
-    top: 0;
-    left: 0;
-    
-    animation-name: trackPathColors;
-    animation-duration: 14s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  animation-name: trackPathColors;
+  animation-duration: 14s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes trackPathColors {
-    0% {
-   
-        top: 0%;
-        left: 0%;
-    }
-    25% {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  25% {
+    top: 0%;
 
-        top: 0%;
-
-        left: calc(100vw - 20%); 
-        background-color: aquamarine;
-    }
-    50% {
- 
-        top: calc(100vh - 20%); 
-        left: calc(100vw - 20%);
-        background-color: chocolate;
-    }
-   75% {
-   
-        top: calc(100vh - 20%);
-        left: 0%;
-        background-color: crimson;
-    }
-    100% {
-    
-        top: 0%;
-        left: 0%;
-        background-color: bisque;
-    }
+    left: calc(100vw - 20%);
+    background-color: aquamarine;
+  }
+  50% {
+    top: calc(100vh - 20%);
+    left: calc(100vw - 20%);
+    background-color: chocolate;
+  }
+  75% {
+    top: calc(100vh - 20%);
+    left: 0%;
+    background-color: crimson;
+  }
+  100% {
+    top: 0%;
+    left: 0%;
+    background-color: bisque;
+  }
 }
