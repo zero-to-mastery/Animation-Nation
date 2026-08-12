@@ -1,24 +1,19 @@
 * {
   margin: 0;
   padding: 0;
-  /*box-sizing: border-box;*/
 }
-
 body {
   background: linear-gradient(135deg, #0f172a , #1e1b4b );
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  /*overflow: hidden;*/
 }
-
 .container {
   position: relative;
   width: 300px;
   height: 400px;
 }
-
 .crystal-core {
   position: absolute;
   width: 140px;
@@ -42,7 +37,6 @@ body {
     box-shadow: 0 0 60px rgba(192, 132, 252, 0.8), inset 0 0 30px rgba(255, 255, 255, 0.8);
   }
 }
-
 .orbit-ring {
   position: absolute;
   width: 220px;
@@ -53,7 +47,6 @@ body {
   left: 40px;
   animation: spinR 10s linear infinite;
 }
-
 @keyframes spinR {
   from {
     transform: rotate(0deg);
@@ -70,7 +63,6 @@ body {
   animation: sparkleAnim 3s ease-in-out infinite;
   opacity: 0;
 }
-
 .sparkle1 {
   width: 8px;
   height: 8px;
@@ -78,7 +70,6 @@ body {
   left: 60px;
   animation-delay: 0s;
 }
-
 .sparkle2 {
   width: 6px;
   height: 6px;
@@ -86,7 +77,6 @@ body {
   right: 60px;
   animation-delay: 1s;
 }
-
 .sparkle3 {
   width: 10px;
   height: 10px;
@@ -94,7 +84,6 @@ body {
   left: 90px;
   animation-delay: 2s;
 }
-
 @keyframes sparkleAnim {
   0%, 100% {
     transform: scale(0);
@@ -118,7 +107,6 @@ body {
   border-radius: 50%;
   animation: glowPulse 4s ease-in-out infinite;
 }
-
 @keyframes glowPulse {
   0%, 100% {
     width: 80px;
