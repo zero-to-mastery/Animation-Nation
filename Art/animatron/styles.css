@@ -1,0 +1,174 @@
+/* Основна настройка за сцената */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    /* Светло сив фон */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.scene {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    perspective: 1000px;
+    /* 3D перспектива за веенето */
+}
+
+/* Контейнер за знамето и стойката */
+.flag-container {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Стойката на знамето */
+.pole {
+    position: absolute;
+    top: 0;
+    right: -10px;
+    /* Позиционирана отдясно на знамето */
+    width: 10px;
+    height: 100%;
+    background-color: #6d4c41;
+    /* Кафяво */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Основната част на знамето */
+.flag {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(10deg);
+    animation: wave-animation 3s infinite linear;
+    /* Главната анимация */
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Лентите на знамето */
+.stripe {
+    width: 100%;
+    height: calc(100% / 3);
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.green {
+    background-color: #00966e;
+}
+
+/* Офиц. българско зелено */
+.red {
+    background-color: #d62612;
+}
+
+/* Офиц. българско червено */
+
+/* Дефиниране на анимацията за веене */
+@keyframes wave-animation {
+    0% {
+        transform: rotateX(10deg) rotateY(-5deg) skewY(0deg);
+    }
+
+    25% {
+        transform: rotateX(10deg) rotateY(10deg) skewY(-2deg);
+    }
+
+    50% {
+        transform: rotateX(10deg) rotateY(-5deg) skewY(0deg);
+    }
+
+    75% {
+        transform: rotateX(10deg) rotateY(10deg) skewY(2deg);
+    }
+
+    100% {
+        transform: rotateX(10deg) rotateY(-5deg) skewY(0deg);
+    }
+}
+
+/* Анимиран надпис БЪЛГАРИЯ */
+.country-title {
+    margin-top: 30px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.letter {
+    display: inline-block;
+    animation: bounce 1.5s infinite;
+    /* Анимация за подскачане */
+    animation-timing-function: ease-in-out;
+}
+
+/* Прилагане на цветове и закъснения за всяка буква */
+.letter:nth-child(1) {
+    animation-delay: 0.1s;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.letter:nth-child(2) {
+    animation-delay: 0.2s;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.letter:nth-child(3) {
+    animation-delay: 0.3s;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.letter:nth-child(4) {
+    animation-delay: 0.4s;
+    color: #00966e;
+}
+
+.letter:nth-child(5) {
+    animation-delay: 0.5s;
+    color: #00966e;
+}
+
+.letter:nth-child(6) {
+    animation-delay: 0.6s;
+    color: #00966e;
+}
+
+.letter:nth-child(7) {
+    animation-delay: 0.7s;
+    color: #d62612;
+}
+
+.letter:nth-child(8) {
+    animation-delay: 0.8s;
+    color: #d62612;
+}
+
+/* Дефиниране на анимацията за подскачане */
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+        /* Подскачане нагоре */
+    }
+}
