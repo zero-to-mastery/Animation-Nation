@@ -1,0 +1,202 @@
+/* NORMALIZE CSS */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 150px auto;
+}
+
+.list {
+  position: relative;
+  max-width: calc(100vw - 160px);
+  max-height: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1279px) {
+  .list {
+    max-width: calc(100vw - 48px);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .list {
+    max-width: calc(100vw - 32px);
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .list {
+    max-width: 1760px;
+  }
+}
+
+/* FADE PLACEHOLDER START */
+.fade-placeholder {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
+.fade-placeholder--right {
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  background-image: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+@media only screen and (max-width: 1279px) {
+  .fade-placeholder--right {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fade-placeholder--right {
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fade-placeholder--right {
+    width: 40px;
+  }
+}
+.fade-placeholder--left {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+}
+@media only screen and (max-width: 1279px) {
+  .fade-placeholder--left {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fade-placeholder--left {
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fade-placeholder--left {
+    width: 40px;
+  }
+}
+.fade-placeholder--bottom {
+  bottom: 0;
+  background-image: linear-gradient(0deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  height: 150px;
+  width: 100%;
+}
+@media only screen and (max-width: 1279px) {
+  .fade-placeholder--bottom {
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fade-placeholder--bottom {
+    height: 80px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fade-placeholder--bottom {
+    height: 40px;
+  }
+}
+/* FADE PLACEHOLDER END */
+
+.list__row {
+  display: flex;
+  gap: 40px;
+}
+@media only screen and (max-width: 767px) {
+  .list__row {
+    margin-bottom: 32px;
+    gap: 32px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .list__row {
+    margin-bottom: 32px;
+    gap: 28px;
+  }
+}
+.list__row {
+  rotate: -15deg;
+}
+.list__row:not(:last-child) {
+  margin-bottom: 64px;
+}
+@media only screen and (max-width: 1279px) {
+  .list__row:not(:last-child) {
+    margin-bottom: 48px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .list__row:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+.list__row--1 {
+  margin-top: 100px;
+  animation: scroll 10s linear infinite;
+}
+
+.list__row--2 {
+  animation: scroll 10s linear reverse infinite;
+}
+
+.list__row--3 {
+  animation: scroll 10s linear infinite;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 144px;
+  height: 144px;
+  border-radius: 24px;
+  background-color: #f6f7f8;
+}
+
+@media only screen and (max-width: 767px) {
+  .card {
+    flex: 0 0 88px;
+    height: 88px;
+  }
+}
+
+.card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+
+  font-size: 60px;
+}
+@media only screen and (max-width: 767px) {
+  .card__icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-50% - 10px));
+  }
+}
