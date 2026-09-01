@@ -1,0 +1,148 @@
+body {
+	background-color: #7ABC52;
+}
+
+.container {
+	height: 100vh;
+	width: 100%;
+	height: 32em;
+	width: 32em;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+
+}
+
+.tree {
+	position: relative;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-bottom: 300px solid lightsalmon;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 0;
+	width: 120px;
+}
+
+.leaves {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: green;
+	background: #629b2a;
+	background: linear-gradient(45deg,rgba(98, 155, 42, 1) 0%, rgba(102, 199, 87, 1) 75%, rgba(83, 237, 150, 1) 96%);
+}
+
+.leaves-left {
+	left: 40%;
+}
+
+.leaves-right {
+	right: 40%;
+}
+
+.leaves-center {
+	top: -140px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.root {
+	position: absolute;
+	top: 300px;
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid lightsalmon;
+}
+
+
+.root1 {
+	top: 225px;
+	left: -47%;
+	rotate: 70deg;
+	transform-origin: bottom left;
+}
+
+.root2 {
+	top: 258px;
+	left: -15%;
+	rotate: 40deg;
+	transform-origin: bottom left;
+}
+
+.root3 {
+	top: 258px;
+	right: -15%;
+	rotate: -40deg;
+	transform-origin: bottom right;
+}
+
+.root4 {
+	top: 225px;
+	right: -47%;
+	rotate: -70deg;
+	transform-origin: bottom right;
+}
+
+.apple {
+	position: absolute;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background-color: red;
+	animation-name: drop;
+	animation-duration: 7s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	background: #9b2a2a;
+	background: linear-gradient(119deg,rgba(155, 42, 42, 1) 0%, rgba(255, 0, 0, 1) 61%, rgba(237, 191, 83, 1) 96%);
+}
+
+.apple:after {
+	content: "";
+	display: block;
+	height: 30px;
+	width: 10px;
+	background-color: brown;
+	rotate: -55deg;
+}
+
+.apple-left {
+	left: -55%;
+	top: 60px;
+	animation-delay: 2s;
+}
+
+.apple-right {
+	right: -55%;
+	top: 60px;
+	animation-delay: 4s;
+}
+
+.apple-center {
+	top: -85px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation-name: dropfar;
+	animation-delay: 6s;
+}
+
+@keyframes drop {
+	0% {opacity: 0; transform: translateY(0px);}
+	25% {opacity: 1; transform: translateY(0px);}
+	35% {opacity: 1; transform: translateY(200px);}
+	100% {opacity: 0; transform: translateY(200px);}
+}
+
+@keyframes dropfar {
+	0% {opacity: 0; transform: translateX(-50%) translateY(0);}
+	35% {opacity: 1; transform: translateX(-50%) translateY(0);}
+	45% {opacity: 1; transform: translateX(-50%) translateY(380px);}
+	100% {opacity: 0; transform: translateX(-50%) translateY(380px);}
+}
