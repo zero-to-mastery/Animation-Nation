@@ -9,7 +9,10 @@
   },
   "devDependencies": {
     "prettier": "^2.8.8",
-    "puppeteer": "^23.5.0",
+    "puppeteer": "^25.9.0",
     "sharp": "^0.35.0"
+  },
+  "allowScripts": {
+    "puppeteer@25.9.0": true
   }
 }
