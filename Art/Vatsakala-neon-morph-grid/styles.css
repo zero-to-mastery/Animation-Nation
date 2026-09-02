@@ -31,8 +31,17 @@ body {
   margin: 0;
   color: var(--ink);
   background: radial-gradient(120% 120% at 30% 15%, var(--bg-1), var(--bg-2));
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
-    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    'Noto Sans',
+    'Liberation Sans',
+    sans-serif;
 }
 
 .scene {
@@ -76,7 +85,8 @@ body {
   transform: rotate(var(--rot)) scale(var(--sc));
   will-change: transform, border-radius, opacity, filter;
 
-  animation: morph var(--dur-morph) ease-in-out infinite,
+  animation:
+    morph var(--dur-morph) ease-in-out infinite,
     spin var(--dur-rotate) linear infinite,
     breatheScale var(--dur-morph) ease-in-out infinite;
 }
@@ -86,7 +96,8 @@ body {
   position: absolute;
   inset: -30%;
   border-radius: inherit;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       130% 130% at 50% 45%,
       rgba(0, 255, 234, 0.7) 0%,
       rgba(0, 255, 234, 0) 60%
@@ -120,12 +131,8 @@ body {
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  background: radial-gradient(
-      60% 45% at 35% 30%,
-      #ffffffcc,
-      #ffffff20 60%,
-      #0000 70%
-    ),
+  background:
+    radial-gradient(60% 45% at 35% 30%, #ffffffcc, #ffffff20 60%, #0000 70%),
     linear-gradient(180deg, #ffffff18, #0000 45%);
   mix-blend-mode: screen;
   pointer-events: none;

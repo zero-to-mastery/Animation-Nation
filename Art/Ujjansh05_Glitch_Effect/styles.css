@@ -60,7 +60,9 @@ body {
   width: 100%;
   height: 100%;
   color: #fff;
-  text-shadow: -2px 0 #00fff9, 2px 0 #00fff9;
+  text-shadow:
+    -2px 0 #00fff9,
+    2px 0 #00fff9;
   animation: glitch-bottom 1.2s linear infinite;
   clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   z-index: 5;

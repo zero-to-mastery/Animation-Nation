@@ -20,14 +20,21 @@ body {
 body {
   margin: 0;
   overflow: hidden;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       circle at 50% 45%,
       rgba(104, 61, 184, 0.14),
       transparent 28%
     ),
     radial-gradient(circle at 50% 50%, #0a0617 0 34%, var(--bg) 70%);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
 }
 
 .scene {
@@ -69,15 +76,18 @@ body {
 .stars {
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(
-      circle,
-      rgba(255, 255, 255, 0.8) 0 1px,
-      transparent 1.4px
-    ),
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.8) 0 1px, transparent 1.4px),
     radial-gradient(circle, rgba(114, 245, 255, 0.7) 0 1px, transparent 1.5px),
     radial-gradient(circle, rgba(255, 88, 214, 0.6) 0 1px, transparent 1.3px);
-  background-size: 110px 110px, 170px 170px, 240px 240px;
-  background-position: 12px 22px, 70px 30px, 140px 115px;
+  background-size:
+    110px 110px,
+    170px 170px,
+    240px 240px;
+  background-position:
+    12px 22px,
+    70px 30px,
+    140px 115px;
   opacity: 0.22;
   animation: star-drift 24s linear infinite;
 }
@@ -85,15 +95,18 @@ body {
 .stars-layer {
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(
-      circle,
-      rgba(255, 255, 255, 0.8) 0 1px,
-      transparent 1.4px
-    ),
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.8) 0 1px, transparent 1.4px),
     radial-gradient(circle, rgba(114, 245, 255, 0.7) 0 1px, transparent 1.5px),
     radial-gradient(circle, rgba(255, 88, 214, 0.6) 0 1px, transparent 1.3px);
-  background-size: 110px 110px, 170px 170px, 240px 240px;
-  background-position: 12px 22px, 70px 30px, 140px 115px;
+  background-size:
+    110px 110px,
+    170px 170px,
+    240px 240px;
+  background-position:
+    12px 22px,
+    70px 30px,
+    140px 115px;
 }
 
 .stars-layer--a {
@@ -124,7 +137,8 @@ body {
   position: absolute;
   inset: 18%;
   border-radius: 50%;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       circle at 50% 48%,
       rgba(255, 255, 255, 0.92) 0 1%,
       rgba(114, 245, 255, 0.56) 2%,
@@ -156,7 +170,8 @@ body {
   height: 94%;
   margin: -47%;
   border-color: rgba(114, 245, 255, 0.24);
-  box-shadow: inset 0 0 42px rgba(114, 245, 255, 0.08),
+  box-shadow:
+    inset 0 0 42px rgba(114, 245, 255, 0.08),
     0 0 38px rgba(159, 108, 255, 0.08);
   animation: halo-tilt-a 12s ease-in-out infinite;
 }
@@ -166,7 +181,8 @@ body {
   height: 73%;
   margin: -36.5%;
   border-color: rgba(255, 88, 214, 0.3);
-  box-shadow: inset 0 0 35px rgba(255, 88, 214, 0.08),
+  box-shadow:
+    inset 0 0 35px rgba(255, 88, 214, 0.08),
     0 0 28px rgba(255, 88, 214, 0.08);
   animation: halo-tilt-b 9s ease-in-out infinite reverse;
 }
@@ -176,7 +192,8 @@ body {
   height: 51%;
   margin: -25.5%;
   border-color: rgba(255, 225, 140, 0.34);
-  box-shadow: inset 0 0 25px rgba(255, 225, 140, 0.12),
+  box-shadow:
+    inset 0 0 25px rgba(255, 225, 140, 0.12),
     0 0 22px rgba(255, 225, 140, 0.08);
   animation: halo-tilt-c 6s ease-in-out infinite;
 }
@@ -197,7 +214,8 @@ body {
   height: 28%;
   border-radius: 70% 70% 58% 58% / 88% 88% 26% 26%;
   transform-origin: 50% 100%;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       90deg,
       transparent,
       rgba(255, 255, 255, 0.72) 48%,
@@ -210,7 +228,8 @@ body {
       rgba(255, 88, 214, 0.12)
     );
   border: 1px solid rgba(255, 255, 255, 0.17);
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.14),
+  box-shadow:
+    inset 0 0 20px rgba(255, 255, 255, 0.14),
     0 0 18px rgba(114, 245, 255, 0.13);
   clip-path: polygon(50% 0, 88% 18%, 100% 64%, 50% 100%, 0 64%, 12% 18%);
   backface-visibility: visible;
@@ -231,7 +250,8 @@ body {
   top: -34%;
   width: 13%;
   height: 34%;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       90deg,
       transparent,
       rgba(255, 255, 255, 0.88) 48%,
@@ -267,7 +287,9 @@ body {
   margin-top: -5px;
   border-radius: 50%;
   background: white;
-  box-shadow: 0 0 12px 3px currentColor, 0 0 36px 8px currentColor;
+  box-shadow:
+    0 0 12px 3px currentColor,
+    0 0 36px 8px currentColor;
 }
 
 .orbit--one {
@@ -317,7 +339,8 @@ body {
     #15072f 62%,
     #020107 76%
   );
-  box-shadow: inset -16px -18px 28px rgba(0, 0, 0, 0.72),
+  box-shadow:
+    inset -16px -18px 28px rgba(0, 0, 0, 0.72),
     inset 10px 8px 22px rgba(255, 255, 255, 0.28),
     0 0 18px 4px rgba(114, 245, 255, 0.6),
     0 0 55px 14px rgba(159, 108, 255, 0.35),
@@ -330,7 +353,9 @@ body {
   inset: 28%;
   border-radius: inherit;
   background: white;
-  box-shadow: 0 0 12px 4px white, 0 0 35px 10px var(--cyan);
+  box-shadow:
+    0 0 12px 4px white,
+    0 0 35px 10px var(--cyan);
   animation: spark 2s ease-in-out infinite;
 }
 
@@ -517,7 +542,10 @@ body {
 
 @keyframes star-drift {
   to {
-    background-position: 122px 132px, -100px 200px, 380px -125px;
+    background-position:
+      122px 132px,
+      -100px 200px,
+      380px -125px;
   }
 }
 @keyframes atmosphere {

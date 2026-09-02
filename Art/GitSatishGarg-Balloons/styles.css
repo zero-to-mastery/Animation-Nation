@@ -12,7 +12,9 @@ body {
   position: absolute;
   bottom: 0;
   left: 50%;
-  animation: rise 5s infinite linear, sway 2s infinite alternate;
+  animation:
+    rise 5s infinite linear,
+    sway 2s infinite alternate;
 }
 @keyframes rise {
   0% {

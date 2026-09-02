@@ -91,11 +91,8 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: radial-gradient(
-      2px 2px at 15% 20%,
-      rgba(255, 255, 255, 0.8),
-      transparent
-    ),
+  background:
+    radial-gradient(2px 2px at 15% 20%, rgba(255, 255, 255, 0.8), transparent),
     radial-gradient(
       1.5px 1.5px at 85% 15%,
       rgba(255, 255, 255, 0.7),
@@ -257,7 +254,8 @@ body {
 }
 
 .wave1::before {
-  background-image: radial-gradient(
+  background-image:
+    radial-gradient(
       ellipse 500px 40px at 0% 50%,
       rgba(90, 120, 160, 0.4) 0%,
       transparent 50%
@@ -276,7 +274,8 @@ body {
 }
 
 .wave2::before {
-  background-image: radial-gradient(
+  background-image:
+    radial-gradient(
       ellipse 600px 50px at 200px 50%,
       rgba(80, 110, 150, 0.35) 0%,
       transparent 50%
@@ -295,7 +294,8 @@ body {
 }
 
 .wave3::before {
-  background-image: radial-gradient(
+  background-image:
+    radial-gradient(
       ellipse 700px 60px at 400px 50%,
       rgba(70, 100, 140, 0.3) 0%,
       transparent 50%
@@ -314,7 +314,8 @@ body {
 }
 
 .wave4::before {
-  background-image: radial-gradient(
+  background-image:
+    radial-gradient(
       ellipse 800px 70px at 100px 50%,
       rgba(60, 90, 130, 0.25) 0%,
       transparent 50%
@@ -333,7 +334,8 @@ body {
 }
 
 .wave5::before {
-  background-image: radial-gradient(
+  background-image:
+    radial-gradient(
       ellipse 900px 80px at 300px 50%,
       rgba(50, 80, 120, 0.2) 0%,
       transparent 50%

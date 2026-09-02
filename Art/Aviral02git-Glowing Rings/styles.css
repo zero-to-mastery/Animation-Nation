@@ -34,7 +34,9 @@ body {
   height: 100px;
   border-color: #ff006e;
   animation-delay: 0s;
-  box-shadow: 0 0 20px #ff006e, inset 0 0 20px #ff006e;
+  box-shadow:
+    0 0 20px #ff006e,
+    inset 0 0 20px #ff006e;
 }
 
 .ring2 {
@@ -42,7 +44,9 @@ body {
   height: 160px;
   border-color: #8338ec;
   animation-delay: 0.5s;
-  box-shadow: 0 0 20px #8338ec, inset 0 0 20px #8338ec;
+  box-shadow:
+    0 0 20px #8338ec,
+    inset 0 0 20px #8338ec;
 }
 
 .ring3 {
@@ -50,7 +54,9 @@ body {
   height: 220px;
   border-color: #3a86ff;
   animation-delay: 1s;
-  box-shadow: 0 0 20px #3a86ff, inset 0 0 20px #3a86ff;
+  box-shadow:
+    0 0 20px #3a86ff,
+    inset 0 0 20px #3a86ff;
 }
 
 .ring4 {
@@ -58,7 +64,9 @@ body {
   height: 280px;
   border-color: #06ffa5;
   animation-delay: 1.5s;
-  box-shadow: 0 0 20px #06ffa5, inset 0 0 20px #06ffa5;
+  box-shadow:
+    0 0 20px #06ffa5,
+    inset 0 0 20px #06ffa5;
 }
 
 @keyframes pulse {

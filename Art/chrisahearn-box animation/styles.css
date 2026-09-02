@@ -19,7 +19,9 @@ body {
   justify-content: center;
   align-items: center;
 
-  animation: colorChange 4s infinite, fadeInOut 4s infinite;
+  animation:
+    colorChange 4s infinite,
+    fadeInOut 4s infinite;
 }
 
 @keyframes colorChange {

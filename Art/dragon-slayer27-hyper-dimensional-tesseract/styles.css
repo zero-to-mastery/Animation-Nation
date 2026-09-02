@@ -67,7 +67,8 @@ body {
   margin-left: calc(var(--scene-size) * -0.03125);
   border-radius: 50%;
   background: var(--accent);
-  box-shadow: 0 0 calc(var(--scene-size) * 0.01875) var(--accent),
+  box-shadow:
+    0 0 calc(var(--scene-size) * 0.01875) var(--accent),
     0 0 calc(var(--scene-size) * 0.0375) var(--accent),
     0 0 calc(var(--scene-size) * 0.075) var(--primary);
   animation: core-flicker 3s infinite ease-in-out;
@@ -76,7 +77,8 @@ body {
 @keyframes core-flicker {
   50% {
     background: var(--secondary);
-    box-shadow: 0 0 calc(var(--scene-size) * 0.01875) var(--secondary),
+    box-shadow:
+      0 0 calc(var(--scene-size) * 0.01875) var(--secondary),
       0 0 calc(var(--scene-size) * 0.0375) var(--secondary),
       0 0 calc(var(--scene-size) * 0.075) var(--secondary);
     transform: scale(1.1);

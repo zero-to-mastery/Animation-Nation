@@ -41,7 +41,8 @@
   border-radius: 100%;
   background-color: white;
   position: relative;
-  box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.5),
+  box-shadow:
+    inset 2px 2px 10px rgba(0, 0, 0, 0.5),
     inset -2px -2px 10px rgba(0, 0, 0, 0.5);
 }
 

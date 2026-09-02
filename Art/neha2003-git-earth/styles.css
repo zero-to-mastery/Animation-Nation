@@ -38,8 +38,10 @@ body {
     #58a9e8 60%,
     #3c93db 100%
   );
-  box-shadow: inset -14px -10px 20px rgba(0, 0, 0, 0.23),
-    0 0 100px rgba(74, 144, 226, 0.3), 0 0 200px rgba(74, 144, 226, 0.1);
+  box-shadow:
+    inset -14px -10px 20px rgba(0, 0, 0, 0.23),
+    0 0 100px rgba(74, 144, 226, 0.3),
+    0 0 200px rgba(74, 144, 226, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -150,7 +152,8 @@ body {
   height: 18px;
   background: #06132a;
   border-radius: 50%;
-  box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.06),
+  box-shadow:
+    0 0 0 6px rgba(255, 255, 255, 0.06),
     inset -3px -3px 0 rgba(255, 255, 255, 0.08);
   position: relative;
   animation: eyeMove 2s infinite alternate;

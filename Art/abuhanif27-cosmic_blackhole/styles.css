@@ -69,7 +69,9 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   border: 2px solid rgba(255, 160, 60, 0.8);
-  box-shadow: 0 0 10px rgba(255, 140, 40, 0.6), 0 0 25px rgba(255, 100, 20, 0.3),
+  box-shadow:
+    0 0 10px rgba(255, 140, 40, 0.6),
+    0 0 25px rgba(255, 100, 20, 0.3),
     inset 0 0 10px rgba(255, 140, 40, 0.2);
   animation: ringPulse 3s ease-in-out infinite;
 }
@@ -77,12 +79,16 @@ body {
 @keyframes ringPulse {
   0%,
   100% {
-    box-shadow: 0 0 10px rgba(255, 140, 40, 0.6),
-      0 0 25px rgba(255, 100, 20, 0.3), inset 0 0 10px rgba(255, 140, 40, 0.2);
+    box-shadow:
+      0 0 10px rgba(255, 140, 40, 0.6),
+      0 0 25px rgba(255, 100, 20, 0.3),
+      inset 0 0 10px rgba(255, 140, 40, 0.2);
   }
   50% {
-    box-shadow: 0 0 15px rgba(255, 140, 40, 0.8),
-      0 0 35px rgba(255, 100, 20, 0.5), inset 0 0 15px rgba(255, 140, 40, 0.3);
+    box-shadow:
+      0 0 15px rgba(255, 140, 40, 0.8),
+      0 0 35px rgba(255, 100, 20, 0.5),
+      inset 0 0 15px rgba(255, 140, 40, 0.3);
   }
 }
 
@@ -96,7 +102,9 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   border: 2.5px solid rgba(255, 180, 80, 0.9);
-  box-shadow: 0 0 12px rgba(255, 150, 50, 0.8), 0 0 30px rgba(255, 120, 30, 0.4),
+  box-shadow:
+    0 0 12px rgba(255, 150, 50, 0.8),
+    0 0 30px rgba(255, 120, 30, 0.4),
     inset 0 0 8px rgba(255, 150, 50, 0.3);
   animation: diskSpin 12s linear infinite;
 }
@@ -105,7 +113,9 @@ body {
   width: 160px;
   height: 30px;
   border-color: rgba(255, 200, 100, 0.6);
-  box-shadow: 0 0 8px rgba(255, 180, 80, 0.6), 0 0 20px rgba(255, 140, 50, 0.3);
+  box-shadow:
+    0 0 8px rgba(255, 180, 80, 0.6),
+    0 0 20px rgba(255, 140, 50, 0.3);
   animation: diskSpin 8s linear infinite reverse;
 }
 
@@ -133,7 +143,9 @@ body {
     #050505 70%,
     rgba(0, 0, 0, 0.9) 100%
   );
-  box-shadow: 0 0 40px 15px rgba(0, 0, 0, 1), 0 0 80px 30px rgba(0, 0, 0, 0.8);
+  box-shadow:
+    0 0 40px 15px rgba(0, 0, 0, 1),
+    0 0 80px 30px rgba(0, 0, 0, 0.8);
   z-index: 10;
 }
 
@@ -146,7 +158,9 @@ body {
   height: 3px;
   border-radius: 50%;
   background: #ffcc66;
-  box-shadow: 0 0 4px #ff9933, 0 0 8px rgba(255, 150, 50, 0.5);
+  box-shadow:
+    0 0 4px #ff9933,
+    0 0 8px rgba(255, 150, 50, 0.5);
 }
 
 .p1 {

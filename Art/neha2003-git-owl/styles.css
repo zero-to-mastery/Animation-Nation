@@ -260,7 +260,10 @@ body {
   background-color: #22150c;
   top: 57px;
   border-radius: 50%;
-  box-shadow: 0 0 0 6px #5c4025, 0 0 0 14px #d2a877, 0 0 0 22px #fff9f1,
+  box-shadow:
+    0 0 0 6px #5c4025,
+    0 0 0 14px #d2a877,
+    0 0 0 22px #fff9f1,
     0 4px 10px rgba(0, 0, 0, 0.4);
 }
 .eye-r::before,

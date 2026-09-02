@@ -26,7 +26,9 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   animation: beamDraw 6s linear infinite;
-  text-shadow: 0 0 20px rgba(255, 0, 0, 0.4), 0 0 40px rgba(255, 100, 0, 0.3),
+  text-shadow:
+    0 0 20px rgba(255, 0, 0, 0.4),
+    0 0 40px rgba(255, 100, 0, 0.3),
     0 0 80px rgba(255, 180, 0, 0.2);
 }
 

@@ -52,7 +52,8 @@ body {
 .stars {
   position: absolute;
   inset: 0;
-  background: radial-gradient(2px 2px at 20% 30%, white, transparent),
+  background:
+    radial-gradient(2px 2px at 20% 30%, white, transparent),
     radial-gradient(2px 2px at 60% 20%, white, transparent),
     radial-gradient(2px 2px at 80% 40%, white, transparent),
     radial-gradient(1.5px 1.5px at 30% 10%, white, transparent);

@@ -25,7 +25,9 @@ body {
   height: 120px;
   border-radius: 12px;
   background: linear-gradient(135deg, #ff00ff, #00ffff);
-  box-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff;
+  box-shadow:
+    0 0 20px #00ffff,
+    0 0 40px #ff00ff;
   opacity: 0.9;
 }
 

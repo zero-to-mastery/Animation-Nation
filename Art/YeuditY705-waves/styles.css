@@ -9,7 +9,8 @@ body {
   overflow: hidden;
   display: grid;
   place-items: center;
-  background: radial-gradient(circle at 20% 10%, #2b5cff 0%, transparent 35%),
+  background:
+    radial-gradient(circle at 20% 10%, #2b5cff 0%, transparent 35%),
     radial-gradient(circle at 80% 0%, #ff4fd8 0%, transparent 40%),
     linear-gradient(160deg, #05061a 0%, #071a3a 45%, #041026 100%);
   font-family: system-ui, sans-serif;
@@ -30,12 +31,9 @@ body {
   content: '';
   position: absolute;
   inset: -40%;
-  background: radial-gradient(
-        circle,
-        rgba(255, 255, 255, 0.05) 1px,
-        transparent 2px
-      )
-      0 0 / 22px 22px,
+  background:
+    radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 2px) 0
+      0 / 22px 22px,
     radial-gradient(circle, rgba(255, 255, 255, 0.03) 1px, transparent 2px) 10px
       10px / 26px 26px;
   opacity: 0.25;

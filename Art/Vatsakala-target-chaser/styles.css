@@ -11,7 +11,13 @@ body {
   place-items: center;
   background: #070b12;
   color: #eaf9ff;
-  font-family: ui-sans-serif, system-ui, Segoe UI, Roboto, Inter, sans-serif;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    Segoe UI,
+    Roboto,
+    Inter,
+    sans-serif;
 }
 
 .frame {
@@ -38,7 +44,9 @@ body {
     #081522 60%,
     #050a14 100%
   );
-  box-shadow: inset 0 0 0 1px #ffffff10, inset 0 18px 50px #0008;
+  box-shadow:
+    inset 0 0 0 1px #ffffff10,
+    inset 0 18px 50px #0008;
 }
 
 .board::before {
@@ -46,7 +54,8 @@ body {
   position: absolute;
   inset: 0;
   --cell: 36px;
-  background: linear-gradient(#ffffff12 1px, transparent 1px) 0 0 / var(--cell)
+  background:
+    linear-gradient(#ffffff12 1px, transparent 1px) 0 0 / var(--cell)
       var(--cell),
     linear-gradient(90deg, #ffffff10 1px, transparent 1px) 0 0 / var(--cell)
       var(--cell);
@@ -67,7 +76,9 @@ body {
   aspect-ratio: 1;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0 0 0 2px #00ffd0 inset, 0 0 18px 4px #00ffd060;
+  box-shadow:
+    0 0 0 2px #00ffd0 inset,
+    0 0 18px 4px #00ffd060;
   background: radial-gradient(
     circle at 50% 50%,
     #00ffd033 0 45%,
@@ -83,11 +94,15 @@ body {
   aspect-ratio: 1;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  background: radial-gradient(circle at 35% 35%, #fff9, #0000 45%),
+  background:
+    radial-gradient(circle at 35% 35%, #fff9, #0000 45%),
     radial-gradient(circle at 50% 60%, #52ff85, #16f1ff 70%);
-  box-shadow: 0 0 28px 10px #3cff8f90, 0 0 2px 1px #16f1ff88 inset;
+  box-shadow:
+    0 0 28px 10px #3cff8f90,
+    0 0 2px 1px #16f1ff88 inset;
   z-index: 2;
-  animation: runner 9.5s cubic-bezier(0.65, 0.05, 0.25, 1) infinite,
+  animation:
+    runner 9.5s cubic-bezier(0.65, 0.05, 0.25, 1) infinite,
     glow 1.2s ease-in-out infinite alternate;
 }
 

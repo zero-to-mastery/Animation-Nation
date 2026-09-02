@@ -23,7 +23,9 @@ body {
   border-radius: 50%;
   background: radial-gradient(circle at center, #fff, rgb(253, 138, 7));
   transform: translate(-50%, -50%);
-  box-shadow: 0 0 10px rgb(253, 138, 7), 0 0 20px rgb(253, 138, 7),
+  box-shadow:
+    0 0 10px rgb(253, 138, 7),
+    0 0 20px rgb(253, 138, 7),
     0 0 30px rgb(253, 138, 7);
 }
 

@@ -16,7 +16,13 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Arial,
+    sans-serif;
 }
 
 .scene {
@@ -26,7 +32,8 @@ body {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
-  background: radial-gradient(120% 80% at 10% 10%, #e8f4ff 0%, transparent 60%),
+  background:
+    radial-gradient(120% 80% at 10% 10%, #e8f4ff 0%, transparent 60%),
     radial-gradient(100% 60% at 90% 20%, #eaf5ff 0%, transparent 65%),
     linear-gradient(180deg, #eaf5ff 0%, #e0f0ff 50%, #d6ecff 100%);
 }
@@ -43,7 +50,8 @@ body {
   top: -10%;
   bottom: 0;
   width: 40%;
-  background: linear-gradient(180deg, var(--cliff-1), var(--cliff-2)),
+  background:
+    linear-gradient(180deg, var(--cliff-1), var(--cliff-2)),
     repeating-linear-gradient(
       180deg,
       transparent 0 8px,
@@ -68,7 +76,8 @@ body {
   bottom: 0;
   height: 26%;
   border-radius: 45%;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       60% 120% at 50% 100%,
       rgba(255, 255, 255, 0.6) 0%,
       transparent 35%
@@ -117,11 +126,8 @@ body {
   bottom: 26%;
   border-radius: 18px 18px 0 0;
   overflow: hidden;
-  background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.1)
-    ),
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1)),
     repeating-linear-gradient(
       180deg,
       var(--water-1) 0px,
@@ -137,10 +143,14 @@ body {
 
 @keyframes flow {
   0% {
-    background-position: 0 0, 0 0;
+    background-position:
+      0 0,
+      0 0;
   }
   100% {
-    background-position: 0 0, 0 600px;
+    background-position:
+      0 0,
+      0 600px;
   }
 }
 .fall {
@@ -276,7 +286,8 @@ body {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       120% 30% at 50% 80%,
       rgba(255, 255, 255, 0.7) 0%,
       transparent 25%
@@ -292,15 +303,21 @@ body {
 }
 @keyframes ripple {
   0% {
-    background-size: 100% 100%, 6% 6%;
+    background-size:
+      100% 100%,
+      6% 6%;
     opacity: 0.55;
   }
   50% {
-    background-size: 102% 101%, 8% 8%;
+    background-size:
+      102% 101%,
+      8% 8%;
     opacity: 0.75;
   }
   100% {
-    background-size: 100% 100%, 6% 6%;
+    background-size:
+      100% 100%,
+      6% 6%;
     opacity: 0.55;
   }
 }

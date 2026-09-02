@@ -38,7 +38,8 @@ body {
   height: 180px;
   background: radial-gradient(circle, #fff6c7 0%, #ffd86e 40%, #ff8936 100%);
   border-radius: 50%;
-  animation: sunDrop 10s ease-in-out infinite alternate,
+  animation:
+    sunDrop 10s ease-in-out infinite alternate,
     glowPulse 3s ease-in-out infinite;
   box-shadow: 0 0 60px rgba(255, 210, 90, 0.9);
 }
