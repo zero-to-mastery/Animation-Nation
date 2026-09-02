@@ -51,7 +51,11 @@ body {
   right: 0;
   height: 100%;
   width: 300px;
-  background-image: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(
+    270deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 @media only screen and (max-width: 1279px) {
   .fade-placeholder--right {
@@ -73,7 +77,11 @@ body {
   left: 0;
   height: 100%;
   width: 300px;
-  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  background-image: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0) 0%,
+    #fff 100%
+  );
 }
 @media only screen and (max-width: 1279px) {
   .fade-placeholder--left {

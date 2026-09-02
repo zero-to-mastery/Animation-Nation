@@ -1,10 +1,10 @@
 body {
-    margin: 0px;
-    width: 100vh;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin: 0px;
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box {
@@ -28,4 +28,3 @@ body {
     transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
   }
 }
-
