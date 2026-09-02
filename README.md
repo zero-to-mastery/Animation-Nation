@@ -79,6 +79,7 @@ We keep things simple! Here are the rules for contributing:
    _Ensure to review yourself in Github during your PR submission
    before definitely submitting your PR_
 8. **OPTIONAL** [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/36L1C), and you're done! 🎉
+
 </details>
 
 #### 1. Fork This Repository
