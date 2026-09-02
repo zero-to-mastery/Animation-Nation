@@ -338,8 +338,7 @@ body {
   overflow: hidden;
   border-right: 3px solid #b7cccc;
   width: 0;
-  animation:
-    typing 4s steps(50) 1s forwards,
+  animation: typing 4s steps(50) 1s forwards,
     blink-cursor 0.75s step-end infinite;
 }
 
@@ -368,8 +367,6 @@ body {
     text-shadow: 0 0 10px #00ffff;
   }
   50% {
-    text-shadow:
-      0 0 20px #00ffff,
-      0 0 40px #00ffff;
+    text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
   }
 }

@@ -17,24 +17,21 @@ body {
   top: 50%;
   left: 50%;
   border-radius: 50% 80% 30% 20%;
-  animation:
-    shape-shift1 8s infinite linear alternate,
+  animation: shape-shift1 8s infinite linear alternate,
     color-shift 8s infinite linear alternate;
 }
 .morph2 {
   top: 50%;
   left: 45%;
   border-radius: 80% 50% 30% 50%;
-  animation:
-    shape-shift2 8s infinite ease-in-out alternate,
+  animation: shape-shift2 8s infinite ease-in-out alternate,
     color-shift 8s infinite linear alternate;
 }
 .morph3 {
   top: 40%;
   left: 48%;
   border-radius: 30% 50% 50% 80%;
-  animation:
-    shape-shift3 8s infinite ease-in-out alternate,
+  animation: shape-shift3 8s infinite ease-in-out alternate,
     color-shift 8s infinite linear alternate;
 }
 

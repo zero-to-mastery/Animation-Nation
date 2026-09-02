@@ -48,19 +48,15 @@ body {
 .diamond {
   background: linear-gradient(135deg, #00ced1 0%, #1e90ff 100%);
   border: 3px solid #1873cc;
-  box-shadow:
-    inset -5px -5px 0 rgba(0, 0, 0, 0.2),
+  box-shadow: inset -5px -5px 0 rgba(0, 0, 0, 0.2),
     0 0 20px rgba(0, 206, 209, 0.5);
-  animation:
-    float 3s ease-in-out infinite,
-    sparkle 1.5s infinite;
+  animation: float 3s ease-in-out infinite, sparkle 1.5s infinite;
 }
 
 .gold {
   background: linear-gradient(135deg, #ffd700 0%, #ffa500 100%);
   border: 3px solid #daa520;
-  box-shadow:
-    inset -5px -5px 0 rgba(0, 0, 0, 0.2),
+  box-shadow: inset -5px -5px 0 rgba(0, 0, 0, 0.2),
     0 0 15px rgba(255, 215, 0, 0.4);
 }
 

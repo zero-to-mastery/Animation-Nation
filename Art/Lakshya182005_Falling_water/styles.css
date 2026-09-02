@@ -83,8 +83,7 @@ body {
     rgba(70, 130, 180, 0.9) 100%
   );
   border-radius: 50%;
-  box-shadow:
-    0 0 30px rgba(135, 206, 250, 0.6),
+  box-shadow: 0 0 30px rgba(135, 206, 250, 0.6),
     inset 0 -10px 20px rgba(0, 0, 0, 0.2);
 }
 

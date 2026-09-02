@@ -29,9 +29,7 @@ body {
   background: linear-gradient(45deg, #ff00aa, #ffcc00, #00ffaa);
   border-radius: 50%;
   box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
-  animation:
-    pulse 3s ease-in-out infinite,
-    hueShift 6s linear infinite;
+  animation: pulse 3s ease-in-out infinite, hueShift 6s linear infinite;
 }
 
 @keyframes pulse {

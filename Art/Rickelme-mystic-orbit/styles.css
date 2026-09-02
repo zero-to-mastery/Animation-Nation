@@ -34,9 +34,7 @@ body {
   height: 40px;
   background: radial-gradient(circle, #fff, #00ffff, #0000ff);
   border-radius: 50%;
-  box-shadow:
-    0 0 20px #00ffff,
-    0 0 40px #0000ff;
+  box-shadow: 0 0 20px #00ffff, 0 0 40px #0000ff;
   animation: pulse 2s ease-in-out infinite alternate;
 }
 

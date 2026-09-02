@@ -12,8 +12,7 @@ body::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image:
-    radial-gradient(2px 2px at 20% 30%, white, transparent),
+  background-image: radial-gradient(2px 2px at 20% 30%, white, transparent),
     radial-gradient(1.5px 1.5px at 70% 80%, white, transparent),
     radial-gradient(1.2px 1.2px at 40% 60%, white, transparent),
     radial-gradient(2px 2px at 90% 20%, white, transparent),

@@ -38,9 +38,7 @@ body {
   height: 10px;
   border-radius: 50%;
   background: radial-gradient(circle, #fff, transparent 70%);
-  box-shadow:
-    0 0 15px #00ffff,
-    0 0 30px #00ffff;
+  box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
   animation: orbit 5s ease-in-out infinite;
 }
 
@@ -68,21 +66,15 @@ body {
 
 /* Different colored rings */
 .ring1 span {
-  box-shadow:
-    0 0 15px #ff00ff,
-    0 0 30px #ff00ff;
+  box-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff;
   animation-duration: 6s;
 }
 .ring2 span {
-  box-shadow:
-    0 0 15px #00ffff,
-    0 0 30px #00ffff;
+  box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
   animation-duration: 8s;
 }
 .ring3 span {
-  box-shadow:
-    0 0 15px #00ff99,
-    0 0 30px #00ff99;
+  box-shadow: 0 0 15px #00ff99, 0 0 30px #00ff99;
   animation-duration: 10s;
 }
 

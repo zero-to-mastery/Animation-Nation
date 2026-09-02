@@ -22,8 +22,7 @@ body {
   background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
   border-radius: 50% 60% 45% 55% / 60% 40% 60% 40%;
   box-shadow: 0 0 60px #38f9d799;
-  animation:
-    morph 5s ease-in-out infinite alternate,
+  animation: morph 5s ease-in-out infinite alternate,
     colorShift 10s linear infinite;
   transition: background 0.3s;
 }

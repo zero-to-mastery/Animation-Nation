@@ -9,12 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
-  font-family:
-    system-ui,
-    -apple-system,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
     Arial;
 }
 

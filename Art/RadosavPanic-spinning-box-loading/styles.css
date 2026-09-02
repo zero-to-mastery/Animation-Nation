@@ -56,9 +56,7 @@ body {
   width: 50px;
   border: 6px solid aqua;
   border-radius: 4px;
-  box-shadow:
-    0 0 8px blue,
-    0 0 8px blue inset;
+  box-shadow: 0 0 8px blue, 0 0 8px blue inset;
 }
 
 .loading-1 {
@@ -85,17 +83,13 @@ body {
   67% {
     transform: rotateX(180deg) rotateY(180deg) rotateZ(0) scale(1);
     border-radius: 20px;
-    box-shadow:
-      0 0 8px greenyellow,
-      0 0 8px greenyellow inset;
+    box-shadow: 0 0 8px greenyellow, 0 0 8px greenyellow inset;
   }
 
   100% {
     transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg) scale(1);
     border-radius: 4px;
-    box-shadow:
-      0 0 8px greenyellow,
-      0 0 8px greenyellow inset;
+    box-shadow: 0 0 8px greenyellow, 0 0 8px greenyellow inset;
   }
 }
 
@@ -113,17 +107,13 @@ body {
   67% {
     transform: rotateX(180deg) rotateY(180deg) rotateZ(0) scale(1);
     border-radius: 20px;
-    box-shadow:
-      0 0 8px greenyellow,
-      0 0 8px greenyellow inset;
+    box-shadow: 0 0 8px greenyellow, 0 0 8px greenyellow inset;
   }
 
   100% {
     transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg) scale(0);
     border-radius: 4px;
-    box-shadow:
-      0 0 8px greenyellow,
-      0 0 8px greenyellow inset;
+    box-shadow: 0 0 8px greenyellow, 0 0 8px greenyellow inset;
   }
 }
 
@@ -141,16 +131,12 @@ body {
   67% {
     transform: rotateX(180deg) rotateY(180deg) rotateZ(0) scale(1);
     border-radius: 20px;
-    box-shadow:
-      0 0 8px greenyellow,
-      0 0 8px greenyellow inset;
+    box-shadow: 0 0 8px greenyellow, 0 0 8px greenyellow inset;
   }
 
   100% {
     transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg) scale(0);
     border-radius: 4px;
-    box-shadow:
-      0 0 8px greenyellow,
-      0 0 8px greenyellow inset;
+    box-shadow: 0 0 8px greenyellow, 0 0 8px greenyellow inset;
   }
 }

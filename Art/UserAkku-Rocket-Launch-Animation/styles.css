@@ -64,9 +64,7 @@ body {
   background: linear-gradient(to bottom, #ff6b00, #ff0000, transparent);
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   filter: blur(5px);
-  animation:
-    flameMove 5s ease-in-out infinite,
-    flicker 0.1s infinite;
+  animation: flameMove 5s ease-in-out infinite, flicker 0.1s infinite;
   z-index: 1;
 }
 

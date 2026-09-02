@@ -17,9 +17,8 @@ body {
   margin: 0;
   background: radial-gradient(1200px 800px at 50% 42%, #0f1942, var(--bg));
   color: #e9eefc;
-  font-family:
-    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
-    monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', monospace;
 }
 
 .stage {
@@ -36,23 +35,16 @@ body {
   height: min(520px, 68vh);
   border-radius: 18px;
   overflow: hidden;
-  background:
-    radial-gradient(
+  background: radial-gradient(
       90% 65% at 50% 55%,
       var(--panel-1) 0,
       var(--panel-2) 60%,
       #070b18 100%
     ),
     radial-gradient(#ffffff20 1px, transparent 1px);
-  background-size:
-    auto,
-    3px 3px;
-  background-position:
-    0 0,
-    0 0;
-  box-shadow:
-    0 24px 72px #000a,
-    inset 0 0 80px #0b102888;
+  background-size: auto, 3px 3px;
+  background-position: 0 0, 0 0;
+  box-shadow: 0 24px 72px #000a, inset 0 0 80px #0b102888;
   filter: saturate(120%);
 }
 
@@ -91,9 +83,7 @@ body {
   line-height: 1.08;
   letter-spacing: 0.06em;
   color: #0cff66;
-  text-shadow:
-    0 0 8px #00ff88,
-    0 0 16px #00ff88;
+  text-shadow: 0 0 8px #00ff88, 0 0 16px #00ff88;
   transform: translateY(0);
   animation: rain var(--dur, 7s) linear infinite;
   animation-delay: calc(var(--i) * -0.25s);

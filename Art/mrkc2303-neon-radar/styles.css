@@ -36,9 +36,7 @@ body {
     #0d1327 0 55%,
     transparent 56% 100%
   );
-  box-shadow:
-    0 0 30px #5e79ff1f,
-    inset 0 0 40px #5e79ff26;
+  box-shadow: 0 0 30px #5e79ff1f, inset 0 0 40px #5e79ff26;
   overflow: hidden;
 }
 

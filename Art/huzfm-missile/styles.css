@@ -47,9 +47,7 @@ body {
   height: 50px;
   border: 3px solid #ff4d4d;
   border-radius: 50%;
-  box-shadow:
-    0 0 15px #ff4d4d,
-    0 0 30px #ff8b3a;
+  box-shadow: 0 0 15px #ff4d4d, 0 0 30px #ff8b3a;
   animation: pulse 1.5s ease-in-out infinite alternate;
 }
 
@@ -155,9 +153,7 @@ body {
     #ff8b3a 70%,
     transparent 90%
   );
-  box-shadow:
-    0 0 60px #ffb140,
-    0 0 120px #ff7a00;
+  box-shadow: 0 0 60px #ffb140, 0 0 120px #ff7a00;
   animation: core 4s ease-out infinite;
 }
 

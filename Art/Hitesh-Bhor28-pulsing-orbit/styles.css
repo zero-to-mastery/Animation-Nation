@@ -19,9 +19,7 @@ body {
   height: 50px;
   background: radial-gradient(circle, #3b82f6, #1e3a8a);
   border-radius: 50%;
-  box-shadow:
-    0 0 30px #3b82f6,
-    0 0 60px #3b82f6;
+  box-shadow: 0 0 30px #3b82f6, 0 0 60px #3b82f6;
   animation: pulse 2s infinite ease-in-out;
   position: absolute;
   top: 50%;
@@ -94,14 +92,10 @@ body {
   0%,
   100% {
     transform: translate(-50%, -50%) scale(1);
-    box-shadow:
-      0 0 30px #3b82f6,
-      0 0 60px #3b82f6;
+    box-shadow: 0 0 30px #3b82f6, 0 0 60px #3b82f6;
   }
   50% {
     transform: translate(-50%, -50%) scale(1.15);
-    box-shadow:
-      0 0 50px #60a5fa,
-      0 0 100px #3b82f6;
+    box-shadow: 0 0 50px #60a5fa, 0 0 100px #3b82f6;
   }
 }

@@ -37,9 +37,7 @@ body {
   top: 40px;
   left: 40px;
   animation: fadeInOut 8s ease-in-out infinite;
-  box-shadow:
-    0 0 60px rgba(255, 215, 0, 0.8),
-    0 0 100px rgba(255, 165, 0, 0.6);
+  box-shadow: 0 0 60px rgba(255, 215, 0, 0.8), 0 0 100px rgba(255, 165, 0, 0.6);
 }
 
 .ray {
@@ -87,8 +85,7 @@ body {
   top: 40px;
   left: 40px;
   animation: fadeOutIn 8s ease-in-out infinite;
-  box-shadow:
-    0 0 40px rgba(200, 200, 200, 0.6),
+  box-shadow: 0 0 40px rgba(200, 200, 200, 0.6),
     inset -10px -10px 20px rgba(0, 0, 0, 0.1);
 }
 

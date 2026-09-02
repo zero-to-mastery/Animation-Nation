@@ -113,10 +113,7 @@ body {
   height: 40px;
   background: radial-gradient(circle, #fff 0%, #8a2be2 50%, #6a0dad 100%);
   border-radius: 50%;
-  box-shadow:
-    0 0 20px #8a2be2,
-    0 0 40px #8a2be2,
-    0 0 60px #6a0dad,
+  box-shadow: 0 0 20px #8a2be2, 0 0 40px #8a2be2, 0 0 60px #6a0dad,
     inset 0 0 20px rgba(255, 255, 255, 0.5);
   animation: coreGlow 2s ease-in-out infinite;
 }
@@ -150,18 +147,12 @@ body {
   0%,
   100% {
     transform: translate(-50%, -50%) scale(1);
-    box-shadow:
-      0 0 20px #8a2be2,
-      0 0 40px #8a2be2,
-      0 0 60px #6a0dad,
+    box-shadow: 0 0 20px #8a2be2, 0 0 40px #8a2be2, 0 0 60px #6a0dad,
       inset 0 0 20px rgba(255, 255, 255, 0.5);
   }
   50% {
     transform: translate(-50%, -50%) scale(1.1);
-    box-shadow:
-      0 0 30px #8a2be2,
-      0 0 60px #8a2be2,
-      0 0 90px #6a0dad,
+    box-shadow: 0 0 30px #8a2be2, 0 0 60px #8a2be2, 0 0 90px #6a0dad,
       inset 0 0 30px rgba(255, 255, 255, 0.8);
   }
 }
@@ -187,9 +178,7 @@ body {
   width: 8px;
   height: 8px;
   background: #8a2be2;
-  box-shadow:
-    0 0 10px #8a2be2,
-    0 0 20px #8a2be2;
+  box-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2;
   animation: float 2s ease-in-out infinite;
 }
 
@@ -343,10 +332,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: #8a2be2;
-  text-shadow:
-    2px 2px 0 #000,
-    0 0 10px #8a2be2,
-    0 0 20px #8a2be2;
+  text-shadow: 2px 2px 0 #000, 0 0 10px #8a2be2, 0 0 20px #8a2be2;
   letter-spacing: 4px;
 }
 
@@ -426,8 +412,7 @@ body {
   height: 20px;
   background: #1a1a1a;
   border: 3px solid #8a2be2;
-  box-shadow:
-    inset 0 0 10px rgba(138, 43, 226, 0.3),
+  box-shadow: inset 0 0 10px rgba(138, 43, 226, 0.3),
     0 0 15px rgba(138, 43, 226, 0.5);
 }
 

@@ -11,13 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   background: #010611;
-  font-family:
-    Inter,
-    system-ui,
-    Segoe UI,
-    Roboto,
-    'Helvetica Neue',
-    Arial;
+  font-family: Inter, system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial;
 }
 
 .loader {

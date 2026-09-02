@@ -19,13 +19,9 @@ body {
   bottom: -20px;
   width: 2px;
   height: 2px;
-  box-shadow:
-    0 0 0 50px #4db6ac,
-    60px 50px 0 70px #4db6ac,
-    90px 90px 0 50px #4db6ac,
-    250px 250px 0 50px #4db6ac,
-    290px 320px 0 50px #4db6ac,
-    320px 400px 0 50px #4db6ac;
+  box-shadow: 0 0 0 50px #4db6ac, 60px 50px 0 70px #4db6ac,
+    90px 90px 0 50px #4db6ac, 250px 250px 0 50px #4db6ac,
+    290px 320px 0 50px #4db6ac, 320px 400px 0 50px #4db6ac;
   transform: rotate(130deg);
   animation: mtn 20s linear infinite;
 }
@@ -36,13 +32,8 @@ body {
   width: 400px;
   border-radius: 50%;
   height: 20px;
-  box-shadow:
-    0 0 0 50px #4db6ac,
-    -20px 0 0 20px #4db6ac,
-    -90px 0 0 50px #4db6ac,
-    250px 0 0 50px #4db6ac,
-    290px 0 0 50px #4db6ac,
-    620px 0 0 50px #4db6ac;
+  box-shadow: 0 0 0 50px #4db6ac, -20px 0 0 20px #4db6ac, -90px 0 0 50px #4db6ac,
+    250px 0 0 50px #4db6ac, 290px 0 0 50px #4db6ac, 620px 0 0 50px #4db6ac;
   animation: hill 4s 2s linear infinite;
 }
 .tree,
@@ -84,9 +75,7 @@ body {
   content: ' ';
   position: absolute;
   width: 25px;
-  box-shadow:
-    -30px 28px 0 1.5px #fff,
-    -35px 18px 0 1.5px #fff;
+  box-shadow: -30px 28px 0 1.5px #fff, -35px 18px 0 1.5px #fff;
 }
 .wheels {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/wheels.svg)

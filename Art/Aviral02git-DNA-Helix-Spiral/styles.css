@@ -56,19 +56,13 @@ body {
 
 .strand-left .node {
   background: linear-gradient(135deg, #00f5ff, #0080ff);
-  box-shadow:
-    0 0 20px #00f5ff,
-    0 0 40px #0080ff,
-    inset 0 0 10px #fff;
+  box-shadow: 0 0 20px #00f5ff, 0 0 40px #0080ff, inset 0 0 10px #fff;
   animation: pulseLeft 2s ease-in-out infinite;
 }
 
 .strand-right .node {
   background: linear-gradient(135deg, #ff006e, #ff4d94);
-  box-shadow:
-    0 0 20px #ff006e,
-    0 0 40px #ff4d94,
-    inset 0 0 10px #fff;
+  box-shadow: 0 0 20px #ff006e, 0 0 40px #ff4d94, inset 0 0 10px #fff;
   animation: pulseRight 2s ease-in-out infinite;
 }
 

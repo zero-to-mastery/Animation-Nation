@@ -142,15 +142,11 @@ body {
 
 @keyframes glow {
   from {
-    text-shadow:
-      0 0 10px rgba(102, 126, 234, 0.5),
-      0 0 20px rgba(102, 126, 234, 0.3),
-      0 0 30px rgba(102, 126, 234, 0.2);
+    text-shadow: 0 0 10px rgba(102, 126, 234, 0.5),
+      0 0 20px rgba(102, 126, 234, 0.3), 0 0 30px rgba(102, 126, 234, 0.2);
   }
   to {
-    text-shadow:
-      0 0 20px rgba(245, 87, 108, 0.8),
-      0 0 30px rgba(245, 87, 108, 0.5),
-      0 0 40px rgba(245, 87, 108, 0.3);
+    text-shadow: 0 0 20px rgba(245, 87, 108, 0.8),
+      0 0 30px rgba(245, 87, 108, 0.5), 0 0 40px rgba(245, 87, 108, 0.3);
   }
 }

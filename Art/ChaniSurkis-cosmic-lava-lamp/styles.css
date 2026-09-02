@@ -34,9 +34,7 @@ body {
   background: radial-gradient(circle, #ff006e, #8338ec);
   top: 20%;
   left: 10%;
-  animation:
-    float1 15s infinite,
-    pulse1 8s infinite;
+  animation: float1 15s infinite, pulse1 8s infinite;
 }
 
 .blob-2 {
@@ -45,9 +43,7 @@ body {
   background: radial-gradient(circle, #3a86ff, #06ffa5);
   top: 60%;
   left: 70%;
-  animation:
-    float2 18s infinite,
-    pulse2 6s infinite;
+  animation: float2 18s infinite, pulse2 6s infinite;
 }
 
 .blob-3 {
@@ -56,9 +52,7 @@ body {
   background: radial-gradient(circle, #fb5607, #ffbe0b);
   top: 40%;
   left: 50%;
-  animation:
-    float3 20s infinite,
-    pulse3 10s infinite;
+  animation: float3 20s infinite, pulse3 10s infinite;
 }
 
 .blob-4 {
@@ -67,9 +61,7 @@ body {
   background: radial-gradient(circle, #ff006e, #3a86ff);
   top: 70%;
   left: 20%;
-  animation:
-    float4 12s infinite,
-    pulse4 7s infinite;
+  animation: float4 12s infinite, pulse4 7s infinite;
 }
 
 .blob-5 {
@@ -78,9 +70,7 @@ body {
   background: radial-gradient(circle, #8338ec, #06ffa5);
   top: 10%;
   left: 60%;
-  animation:
-    float5 16s infinite,
-    pulse5 9s infinite;
+  animation: float5 16s infinite, pulse5 9s infinite;
 }
 
 @keyframes gradientShift {

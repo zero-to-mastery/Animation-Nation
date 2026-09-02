@@ -20,12 +20,9 @@ body {
   background-color: #2b2b36;
   border-radius: 50%;
   border: 8px solid #444455;
-  box-shadow:
-    0 0 30px rgba(0, 0, 0, 0.6),
-    inset 0 0 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6), inset 0 0 20px rgba(0, 0, 0, 0.4);
 
-  background-image:
-    radial-gradient(circle, #2b2b36 88%, transparent 90%),
+  background-image: radial-gradient(circle, #2b2b36 88%, transparent 90%),
     repeating-conic-gradient(from -1deg, #888 0 2deg, transparent 2deg 30deg);
 }
 

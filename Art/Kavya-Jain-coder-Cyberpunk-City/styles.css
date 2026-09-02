@@ -31,8 +31,7 @@ body {
   left: 10%;
   right: 10%;
   height: 80%;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       transparent 0%,
       transparent 10%,
@@ -214,14 +213,8 @@ body {
   font-weight: bold;
   font-family: 'Arial Black', sans-serif;
   color: #ff00ff;
-  text-shadow:
-    0 0 10px #ff00ff,
-    0 0 20px #ff00ff,
-    0 0 30px #ff00ff,
-    0 0 40px #ff00ff,
-    0 0 70px #ff00ff,
-    0 0 80px #ff00ff,
-    0 0 100px #ff00ff;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
+    0 0 40px #ff00ff, 0 0 70px #ff00ff, 0 0 80px #ff00ff, 0 0 100px #ff00ff;
   animation: neonFlicker 2s ease-in-out infinite;
 }
 
@@ -234,14 +227,8 @@ body {
   54%,
   56%,
   100% {
-    text-shadow:
-      0 0 10px #ff00ff,
-      0 0 20px #ff00ff,
-      0 0 30px #ff00ff,
-      0 0 40px #ff00ff,
-      0 0 70px #ff00ff,
-      0 0 80px #ff00ff,
-      0 0 100px #ff00ff;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
+      0 0 40px #ff00ff, 0 0 70px #ff00ff, 0 0 80px #ff00ff, 0 0 100px #ff00ff;
   }
   20%,
   24%,

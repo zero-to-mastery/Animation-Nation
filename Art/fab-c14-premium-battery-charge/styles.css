@@ -41,9 +41,7 @@ body {
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.07);
   border: 4.5px solid #c5fdee;
-  box-shadow:
-    0 6px 36px #38f9d733,
-    0 0 2px 2px #23243dcc inset;
+  box-shadow: 0 6px 36px #38f9d733, 0 0 2px 2px #23243dcc inset;
   overflow: hidden;
   z-index: 2;
   backdrop-filter: blur(2.5px);
@@ -57,9 +55,7 @@ body {
   width: 0%;
   background: linear-gradient(90deg, #43e97b 5%, #38f9d7 60%, #ff6ec4 100%);
   border-radius: 15px 30px 30px 15px / 15px 28px 28px 15px;
-  box-shadow:
-    0 0 30px 10px #43e97baa,
-    0 0 80px 40px #38f9d744;
+  box-shadow: 0 0 30px 10px #43e97baa, 0 0 80px 40px #38f9d744;
   animation: charge 3.2s cubic-bezier(0.6, 0, 0.4, 1) infinite;
   z-index: 1;
 }
@@ -126,9 +122,7 @@ body {
   background: linear-gradient(180deg, #fffde4 30%, #ffd200 90%);
   clip-path: polygon(0 0, 100% 0, 60% 48%, 100% 48%, 0 100%, 38% 60%, 0 60%);
   border-radius: 2.5px;
-  box-shadow:
-    0 0 18px #ffd200bb,
-    0 0 8px #fffde4cc;
+  box-shadow: 0 0 18px #ffd200bb, 0 0 8px #fffde4cc;
 }
 
 @keyframes boltFlash {

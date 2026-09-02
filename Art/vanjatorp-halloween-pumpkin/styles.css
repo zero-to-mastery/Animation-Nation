@@ -30,9 +30,7 @@ body {
   margin: 50px auto;
   border-radius: 50% / 60%;
   background: linear-gradient(to right, #ff7518, #d2691e);
-  box-shadow:
-    inset 0 0 30px #8b4513,
-    0 0 20px rgba(255, 117, 24, 0.3),
+  box-shadow: inset 0 0 30px #8b4513, 0 0 20px rgba(255, 117, 24, 0.3),
     0 0 40px rgba(255, 117, 24, 0.2);
   animation: pulse 6s infinite ease-in-out;
 }
@@ -165,9 +163,7 @@ body {
   font-family: 'Nosifer', cursive, sans-serif;
   font-size: clamp(2rem, 5vw, 4rem);
   color: #ff7518;
-  text-shadow:
-    0 0 5px rgba(255, 117, 24, 0.6),
-    0 0 15px rgba(255, 117, 24, 0.4),
+  text-shadow: 0 0 5px rgba(255, 117, 24, 0.6), 0 0 15px rgba(255, 117, 24, 0.4),
     0 0 30px rgba(255, 117, 24, 0.2);
   opacity: 0;
   animation: halloweenReveal 10s infinite ease-in-out;
@@ -326,16 +322,13 @@ body {
   45% {
     opacity: 1;
     transform: translateX(-50%) scale(1.1);
-    text-shadow:
-      0 0 10px rgba(255, 117, 24, 0.8),
-      0 0 20px rgba(255, 117, 24, 0.6),
-      0 0 40px rgba(255, 117, 24, 0.4);
+    text-shadow: 0 0 10px rgba(255, 117, 24, 0.8),
+      0 0 20px rgba(255, 117, 24, 0.6), 0 0 40px rgba(255, 117, 24, 0.4);
   }
   55% {
     opacity: 1;
     transform: translateX(-50%) scale(1);
-    text-shadow:
-      0 0 15px rgba(255, 117, 24, 0.6),
+    text-shadow: 0 0 15px rgba(255, 117, 24, 0.6),
       0 0 30px rgba(255, 117, 24, 0.4);
   }
   65% {

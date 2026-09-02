@@ -71,9 +71,7 @@ body {
   background: radial-gradient(circle, #ffffff, #00f3ff);
   border-radius: 50%;
   animation: corePulse 2s ease-in-out infinite;
-  box-shadow:
-    0 0 30px #00f3ff,
-    0 0 60px #00f3ff,
+  box-shadow: 0 0 30px #00f3ff, 0 0 60px #00f3ff,
     0 0 90px rgba(0, 243, 255, 0.5);
 }
 
@@ -102,16 +100,12 @@ body {
   0%,
   100% {
     transform: translate(-50%, -50%) scale(1);
-    box-shadow:
-      0 0 30px #00f3ff,
-      0 0 60px #00f3ff,
+    box-shadow: 0 0 30px #00f3ff, 0 0 60px #00f3ff,
       0 0 90px rgba(0, 243, 255, 0.5);
   }
   50% {
     transform: translate(-50%, -50%) scale(1.4);
-    box-shadow:
-      0 0 40px #00f3ff,
-      0 0 80px #00f3ff,
+    box-shadow: 0 0 40px #00f3ff, 0 0 80px #00f3ff,
       0 0 120px rgba(0, 243, 255, 0.7);
   }
 }

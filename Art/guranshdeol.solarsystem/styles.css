@@ -25,22 +25,16 @@ body {
   background: radial-gradient(circle, #ffd700, #ff8c00);
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  box-shadow:
-    0 0 50px #ffd700,
-    0 0 100px #ff8c00;
+  box-shadow: 0 0 50px #ffd700, 0 0 100px #ff8c00;
   animation: glow 2s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
   from {
-    box-shadow:
-      0 0 50px #ffd700,
-      0 0 100px #ff8c00;
+    box-shadow: 0 0 50px #ffd700, 0 0 100px #ff8c00;
   }
   to {
-    box-shadow:
-      0 0 70px #ffd700,
-      0 0 120px #ff8c00;
+    box-shadow: 0 0 70px #ffd700, 0 0 120px #ff8c00;
   }
 }
 

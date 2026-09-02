@@ -11,13 +11,7 @@ body {
   place-items: center;
   background: #070b12;
   color: #eaf9ff;
-  font-family:
-    ui-sans-serif,
-    system-ui,
-    Segoe UI,
-    Roboto,
-    Inter,
-    sans-serif;
+  font-family: ui-sans-serif, system-ui, Segoe UI, Roboto, Inter, sans-serif;
 }
 
 .frame {
@@ -27,9 +21,7 @@ body {
   border-radius: 28px;
   overflow: hidden;
   isolation: isolate;
-  box-shadow:
-    0 30px 90px #000a,
-    inset 0 1px 0 #ffffff12;
+  box-shadow: 0 30px 90px #000a, inset 0 1px 0 #ffffff12;
 }
 
 .scene {
@@ -70,12 +62,9 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background:
-    radial-gradient(circle at 35% 35%, #fff, #0000 45%),
+  background: radial-gradient(circle at 35% 35%, #fff, #0000 45%),
     radial-gradient(circle at 50% 60%, #4dffe6 0, #1ee3ff 80%);
-  box-shadow:
-    0 0 16px 6px #4dffe678,
-    0 0 2px 1px #ffffff66 inset;
+  box-shadow: 0 0 16px 6px #4dffe678, 0 0 2px 1px #ffffff66 inset;
 
   transform: rotate(45deg);
   mix-blend-mode: screen;

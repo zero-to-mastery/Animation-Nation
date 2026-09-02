@@ -13,8 +13,7 @@ body {
 .screen {
   position: fixed;
   inset: 0;
-  background:
-    radial-gradient(
+  background: radial-gradient(
       1200px 700px at 50% 20%,
       rgba(0, 255, 102, 0.12),
       transparent 60%
@@ -45,8 +44,7 @@ body {
   content: '';
   position: absolute;
   inset: -10%;
-  background:
-    radial-gradient(
+  background: radial-gradient(
       circle at 50% 45%,
       rgba(255, 255, 255, 0.07),
       transparent 55%
@@ -134,8 +132,7 @@ body {
 
 .head {
   color: rgba(235, 255, 245, 0.95);
-  text-shadow:
-    0 0 10px rgba(255, 255, 255, 0.55),
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.55),
     0 0 24px rgba(0, 255, 102, 0.45);
 }
 

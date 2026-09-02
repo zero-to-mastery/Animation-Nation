@@ -35,8 +35,7 @@ body {
   border-radius: 50%;
   position: absolute;
   transform: translateX(-50%);
-  box-shadow:
-    0 3px 8px rgba(0, 0, 0, 0.3),
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2),
     inset 2px 2px 4px rgba(255, 255, 255, 0.4);
 }

@@ -16,13 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(180deg, #16316b 0%, #180726 100%);
-  font-family:
-    system-ui,
-    Segoe UI,
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif;
+  font-family: system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
 .scene {
@@ -46,8 +40,7 @@ body {
     rgba(255, 255, 255, 0.03),
     transparent 40%
   );
-  box-shadow:
-    0 10px 30px rgba(2, 6, 23, 0.6),
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.6),
     inset 0 6px 18px rgba(255, 255, 255, 0.02);
   animation: outerPulse var(--duration) ease-in-out infinite;
 }
@@ -57,8 +50,7 @@ body {
   height: 60%;
   border-radius: 50%;
   background: linear-gradient(135deg, #d19628 0%, #640db4 100%);
-  box-shadow:
-    0 12px 30px rgba(2, 6, 23, 0.45),
+  box-shadow: 0 12px 30px rgba(2, 6, 23, 0.45),
     inset 0 -6px 18px rgba(255, 255, 255, 0.06);
   transform-origin: center;
   animation: innerPulse var(--duration) ease-in-out infinite reverse;

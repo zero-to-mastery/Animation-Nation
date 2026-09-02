@@ -28,9 +28,7 @@ body {
   height: 150px;
   background: radial-gradient(circle, #000 0%, #111 70%, #222 100%);
   border-radius: 50%;
-  box-shadow:
-    0 0 50px 20px rgba(0, 0, 0, 0.8),
-    inset 0 0 30px rgba(0, 0, 0, 1);
+  box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.8), inset 0 0 30px rgba(0, 0, 0, 1);
   z-index: 10;
 }
 

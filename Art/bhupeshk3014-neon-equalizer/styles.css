@@ -14,13 +14,7 @@ body {
   height: 100%;
   margin: 0;
   background: radial-gradient(900px 600px at 50% 40%, #0e1630, var(--bg));
-  font-family:
-    ui-sans-serif,
-    system-ui,
-    -apple-system,
-    Segoe UI,
-    Roboto,
-    Arial;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
 }
 
 .stage {
@@ -44,9 +38,7 @@ body {
   padding: 28px 22px;
   border-radius: 16px;
   background: linear-gradient(180deg, #0a1024aa, #060a18cc 60%, #050914aa);
-  box-shadow:
-    0 10px 40px #0008,
-    inset 0 0 40px #0e163066;
+  box-shadow: 0 10px 40px #0008, inset 0 0 40px #0e163066;
   transform: perspective(700px) rotateX(12deg);
   animation: sway 5.5s ease-in-out infinite alternate;
 }
@@ -56,18 +48,14 @@ body {
   border-radius: 8px;
   transform-origin: 50% 100%;
   animation: bounce 1.35s ease-in-out infinite;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180deg,
       #ffffff 0 10%,
       #ffffffcc 10% 16%,
       transparent 16% 100%
     ),
     linear-gradient(180deg, var(--c1), var(--c2));
-  box-shadow:
-    0 0 10px var(--c1),
-    0 0 24px var(--c2),
-    0 0 48px var(--c2);
+  box-shadow: 0 0 10px var(--c1), 0 0 24px var(--c2), 0 0 48px var(--c2);
 }
 
 .b1 {

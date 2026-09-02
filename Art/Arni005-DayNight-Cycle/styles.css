@@ -163,12 +163,8 @@ body {
   right: 80px;
   width: 2px;
   height: 2px;
-  box-shadow:
-    50px 30px white,
-    120px 50px white,
-    180px 20px white,
-    220px 60px white,
-    80px 80px white;
+  box-shadow: 50px 30px white, 120px 50px white, 180px 20px white,
+    220px 60px white, 80px 80px white;
 }
 
 .stars::after {
@@ -176,12 +172,8 @@ body {
   right: 40px;
   width: 1px;
   height: 1px;
-  box-shadow:
-    30px 20px white,
-    90px 40px white,
-    150px 30px white,
-    200px 70px white,
-    60px 60px white;
+  box-shadow: 30px 20px white, 90px 40px white, 150px 30px white,
+    200px 70px white, 60px 60px white;
 }
 
 @keyframes stars-twinkle {

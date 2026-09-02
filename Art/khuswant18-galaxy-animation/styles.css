@@ -38,10 +38,7 @@ body {
   height: 100px;
   background: radial-gradient(circle, #ffd700 0%, #ff6b35 50%, #6a0572 100%);
   border-radius: 50%;
-  box-shadow:
-    0 0 80px #ffd700,
-    0 0 120px #ff6b35,
-    0 0 160px #6a0572;
+  box-shadow: 0 0 80px #ffd700, 0 0 120px #ff6b35, 0 0 160px #6a0572;
   animation: corePulse 4s ease-in-out infinite;
 }
 
@@ -49,17 +46,11 @@ body {
   0%,
   100% {
     transform: translate(-50%, -50%) scale(1);
-    box-shadow:
-      0 0 80px #ffd700,
-      0 0 120px #ff6b35,
-      0 0 160px #6a0572;
+    box-shadow: 0 0 80px #ffd700, 0 0 120px #ff6b35, 0 0 160px #6a0572;
   }
   50% {
     transform: translate(-50%, -50%) scale(1.1);
-    box-shadow:
-      0 0 100px #ffd700,
-      0 0 150px #ff6b35,
-      0 0 200px #6a0572;
+    box-shadow: 0 0 100px #ffd700, 0 0 150px #ff6b35, 0 0 200px #6a0572;
   }
 }
 

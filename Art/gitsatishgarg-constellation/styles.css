@@ -23,9 +23,7 @@ body {
   min-height: 6px;
   border-radius: 50%;
   background: #ffffff;
-  box-shadow:
-    0 0 1vw 0.5vw #00eaff,
-    0 0 2vw 1vw rgba(0, 234, 255, 0.3);
+  box-shadow: 0 0 1vw 0.5vw #00eaff, 0 0 2vw 1vw rgba(0, 234, 255, 0.3);
   animation: twinkle 2.5s infinite ease-in-out alternate;
 }
 

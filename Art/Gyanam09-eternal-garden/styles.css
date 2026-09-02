@@ -40,9 +40,7 @@ body {
   position: absolute;
   width: 220px;
   height: 220px;
-  animation:
-    spin 25s linear infinite,
-    hue 16s linear infinite;
+  animation: spin 25s linear infinite, hue 16s linear infinite;
 }
 .flower1 {
   top: 10%;
@@ -162,8 +160,7 @@ body {
     #ff00aa 60%,
     transparent 80%
   );
-  box-shadow:
-    0 0 20px 10px rgba(255, 100, 200, 0.6),
+  box-shadow: 0 0 20px 10px rgba(255, 100, 200, 0.6),
     0 0 60px 40px rgba(255, 0, 150, 0.15);
   animation: pulseCore 3s ease-in-out infinite;
 }

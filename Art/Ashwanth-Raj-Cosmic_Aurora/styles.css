@@ -33,8 +33,7 @@ body {
 }
 
 .s1 {
-  background-image:
-    radial-gradient(1px 1px at 10% 15%, #fff 100%, transparent),
+  background-image: radial-gradient(1px 1px at 10% 15%, #fff 100%, transparent),
     radial-gradient(1px 1px at 25% 40%, #fff 100%, transparent),
     radial-gradient(1.5px 1.5px at 40% 10%, #cde 100%, transparent),
     radial-gradient(1px 1px at 55% 60%, #fff 100%, transparent),
@@ -53,8 +52,7 @@ body {
 }
 
 .s2 {
-  background-image:
-    radial-gradient(1px 1px at 18% 22%, #fff 100%, transparent),
+  background-image: radial-gradient(1px 1px at 18% 22%, #fff 100%, transparent),
     radial-gradient(1px 1px at 32% 68%, #ffe 100%, transparent),
     radial-gradient(1.5px 1.5px at 47% 48%, #fff 100%, transparent),
     radial-gradient(1px 1px at 63% 12%, #fff 100%, transparent),
@@ -70,8 +68,7 @@ body {
 }
 
 .s3 {
-  background-image:
-    radial-gradient(2px 2px at 8% 72%, #ffe 100%, transparent),
+  background-image: radial-gradient(2px 2px at 8% 72%, #ffe 100%, transparent),
     radial-gradient(1px 1px at 28% 18%, #fff 100%, transparent),
     radial-gradient(1px 1px at 52% 55%, #fff 100%, transparent),
     radial-gradient(2px 2px at 65% 38%, #fff 100%, transparent),
@@ -299,10 +296,8 @@ body {
     #a0522d 60%,
     #6b3515 100%
   );
-  box-shadow:
-    inset -15px -15px 30px rgba(0, 0, 0, 0.5),
-    0 0 30px rgba(200, 120, 50, 0.4),
-    0 0 60px rgba(200, 120, 50, 0.15);
+  box-shadow: inset -15px -15px 30px rgba(0, 0, 0, 0.5),
+    0 0 30px rgba(200, 120, 50, 0.4), 0 0 60px rgba(200, 120, 50, 0.15);
   animation: floatPlanet1 12s ease-in-out infinite;
 }
 
@@ -317,8 +312,7 @@ body {
   border: 12px solid transparent;
   border-top-color: rgba(200, 160, 80, 0.7);
   border-bottom-color: rgba(200, 160, 80, 0.4);
-  box-shadow:
-    0 0 0 4px rgba(180, 140, 60, 0.3),
+  box-shadow: 0 0 0 4px rgba(180, 140, 60, 0.3),
     0 0 0 8px rgba(160, 120, 40, 0.15);
 }
 
@@ -363,10 +357,8 @@ body {
     #1a6fa8 55%,
     #0a3d6b 100%
   );
-  box-shadow:
-    inset -10px -10px 20px rgba(0, 0, 0, 0.4),
-    0 0 25px rgba(80, 180, 240, 0.5),
-    0 0 50px rgba(80, 180, 240, 0.2);
+  box-shadow: inset -10px -10px 20px rgba(0, 0, 0, 0.4),
+    0 0 25px rgba(80, 180, 240, 0.5), 0 0 50px rgba(80, 180, 240, 0.2);
   animation: floatPlanet2 9s ease-in-out infinite;
   animation-delay: -3s;
 }
@@ -404,10 +396,8 @@ body {
     #5c2980 70%,
     #2e0f40 100%
   );
-  box-shadow:
-    inset -8px -8px 15px rgba(0, 0, 0, 0.5),
-    0 0 20px rgba(180, 80, 255, 0.5),
-    0 0 40px rgba(180, 80, 255, 0.2);
+  box-shadow: inset -8px -8px 15px rgba(0, 0, 0, 0.5),
+    0 0 20px rgba(180, 80, 255, 0.5), 0 0 40px rgba(180, 80, 255, 0.2);
   animation: floatPlanet3 14s ease-in-out infinite;
   animation-delay: -7s;
 }
@@ -449,10 +439,8 @@ body {
     #b0a898 65%,
     #8a8070 100%
   );
-  box-shadow:
-    inset -12px -12px 25px rgba(0, 0, 0, 0.35),
-    0 0 40px rgba(255, 245, 220, 0.3),
-    0 0 80px rgba(255, 245, 220, 0.1);
+  box-shadow: inset -12px -12px 25px rgba(0, 0, 0, 0.35),
+    0 0 40px rgba(255, 245, 220, 0.3), 0 0 80px rgba(255, 245, 220, 0.1);
   animation: moonPulse 10s ease-in-out infinite;
 }
 
