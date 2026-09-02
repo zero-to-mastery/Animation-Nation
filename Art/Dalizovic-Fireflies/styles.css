@@ -17,7 +17,9 @@ body {
   background: yellow;
   border-radius: 50%;
   box-shadow: 0 0 8px yellow;
-  animation: fly 10s linear infinite, blink 2s ease-in-out infinite;
+  animation:
+    fly 10s linear infinite,
+    blink 2s ease-in-out infinite;
 }
 
 @keyframes fly {

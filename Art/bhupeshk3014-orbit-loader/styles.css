@@ -40,7 +40,9 @@ body {
   height: 18px;
   border-radius: 50%;
   background: radial-gradient(circle at 35% 35%, #fff, #ffd166 60%, #cc6b00);
-  box-shadow: 0 0 25px 8px #ffd166aa, 0 0 60px 18px #ffd16633 inset;
+  box-shadow:
+    0 0 25px 8px #ffd166aa,
+    0 0 60px 18px #ffd16633 inset;
   animation: throb 2.5s ease-in-out infinite;
 }
 

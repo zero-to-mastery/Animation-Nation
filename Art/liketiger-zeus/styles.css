@@ -32,7 +32,8 @@ body {
     rgba(255, 255, 255, 0.03),
     rgba(255, 255, 255, 0.02)
   );
-  box-shadow: inset 0 0 18px rgba(255, 255, 255, 0.06),
+  box-shadow:
+    inset 0 0 18px rgba(255, 255, 255, 0.06),
     0 12px 28px rgba(0, 0, 0, 0.35);
   overflow: hidden;
   transform: translateY(-12px);
@@ -155,7 +156,13 @@ body {
   text-align: center;
   letter-spacing: 0.24em;
   color: #d8e4ffb0;
-  font: 500 12px/1 system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans KR',
-    Arial, sans-serif;
+  font:
+    500 12px/1 system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    'Noto Sans KR',
+    Arial,
+    sans-serif;
   text-transform: uppercase;
 }

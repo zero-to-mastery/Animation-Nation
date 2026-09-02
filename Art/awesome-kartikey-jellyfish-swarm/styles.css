@@ -66,11 +66,8 @@ body {
 .light-rays {
   top: -50%;
   height: 150%;
-  background: linear-gradient(
-      180deg,
-      rgba(100, 150, 200, 0.03) 0%,
-      transparent 50%
-    ),
+  background:
+    linear-gradient(180deg, rgba(100, 150, 200, 0.03) 0%, transparent 50%),
     repeating-linear-gradient(
       90deg,
       transparent 0px,
@@ -250,19 +247,25 @@ body {
   -webkit-backdrop-filter: blur(12px) saturate(180%);
   border: 2px solid rgba(150, 200, 255, 0.24);
   animation: bioluminescePulse 3s ease-in-out infinite alternate;
-  box-shadow: 0 0 22px rgba(0, 255, 255, 0.35),
-    0 0 42px rgba(171, 92, 255, 0.28), inset 0 0 20px rgba(0, 255, 255, 0.2);
+  box-shadow:
+    0 0 22px rgba(0, 255, 255, 0.35),
+    0 0 42px rgba(171, 92, 255, 0.28),
+    inset 0 0 20px rgba(0, 255, 255, 0.2);
   will-change: transform, box-shadow, opacity, filter;
   transform: rotateX(180deg);
 }
 @keyframes bioluminescePulse {
   from {
-    box-shadow: 0 0 22px rgba(0, 255, 255, 0.35),
-      0 0 42px rgba(171, 92, 255, 0.28), inset 0 0 18px rgba(171, 92, 255, 0.28);
+    box-shadow:
+      0 0 22px rgba(0, 255, 255, 0.35),
+      0 0 42px rgba(171, 92, 255, 0.28),
+      inset 0 0 18px rgba(171, 92, 255, 0.28);
   }
   to {
-    box-shadow: 0 0 50px rgba(0, 255, 255, 0.6),
-      0 0 110px rgba(171, 92, 255, 0.55), inset 0 0 30px rgba(0, 255, 255, 0.45);
+    box-shadow:
+      0 0 50px rgba(0, 255, 255, 0.6),
+      0 0 110px rgba(171, 92, 255, 0.55),
+      inset 0 0 30px rgba(0, 255, 255, 0.45);
   }
 }
 .bell::before,
@@ -345,7 +348,8 @@ body {
   border-radius: 50%;
   transform-origin: top center;
   filter: blur(0.4px);
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.55),
+  box-shadow:
+    0 0 10px rgba(0, 255, 255, 0.55),
     0 0 22px rgba(171, 92, 255, 0.45);
   animation: tentacleWave 3.2s cubic-bezier(0.5, 0, 0.5, 1) infinite alternate;
   will-change: transform, opacity, filter;

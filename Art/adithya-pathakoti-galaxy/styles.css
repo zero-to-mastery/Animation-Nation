@@ -23,7 +23,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0 0 20px yellow, 0 0 40px yellow;
+  box-shadow:
+    0 0 20px yellow,
+    0 0 40px yellow;
 }
 
 .orbit {
@@ -61,7 +63,9 @@ body {
   top: -7.5px;
   left: 50%;
   transform: translateX(-50%);
-  box-shadow: 0 0 10px cyan, 0 0 20px cyan;
+  box-shadow:
+    0 0 10px cyan,
+    0 0 20px cyan;
 }
 
 @keyframes rotate {

@@ -92,37 +92,61 @@ body {
   0% {
     transform: rotate(0deg) translateX(100px) rotate(0deg) scale(0.9);
     background: #ff0055;
-    box-shadow: 0 0 15px #ff0055, 0 0 30px #ff0055, inset 0 0 5px #fff;
+    box-shadow:
+      0 0 15px #ff0055,
+      0 0 30px #ff0055,
+      inset 0 0 5px #fff;
   }
   14% {
     background: #ff5500;
-    box-shadow: 0 0 15px #ff5500, 0 0 30px #ff5500, inset 0 0 5px #fff;
+    box-shadow:
+      0 0 15px #ff5500,
+      0 0 30px #ff5500,
+      inset 0 0 5px #fff;
   }
   28% {
     background: #ffcc00;
-    box-shadow: 0 0 15px #ffcc00, 0 0 30px #ffcc00, inset 0 0 5px #fff;
+    box-shadow:
+      0 0 15px #ffcc00,
+      0 0 30px #ffcc00,
+      inset 0 0 5px #fff;
     transform: rotate(100deg) translateX(100px) rotate(-100deg) scale(0.7); /* רחוק יותר - קטן */
   }
   42% {
     background: #33ff00;
-    box-shadow: 0 0 15px #33ff00, 0 0 30px #33ff00, inset 0 0 5px #fff;
+    box-shadow:
+      0 0 15px #33ff00,
+      0 0 30px #33ff00,
+      inset 0 0 5px #fff;
   }
   56% {
     background: #00ffcc;
-    box-shadow: 0 0 15px #00ffcc, 0 0 30px #00ffcc, inset 0 0 5px #fff;
+    box-shadow:
+      0 0 15px #00ffcc,
+      0 0 30px #00ffcc,
+      inset 0 0 5px #fff;
   }
   70% {
     background: #0066ff;
-    box-shadow: 0 0 15px #0066ff, 0 0 30px #0066ff, inset 0 0 5px #fff;
+    box-shadow:
+      0 0 15px #0066ff,
+      0 0 30px #0066ff,
+      inset 0 0 5px #fff;
     transform: rotate(250deg) translateX(100px) rotate(-250deg) scale(1.3); /* קרוב יותר - גדול וזוהר */
   }
   84% {
     background: #9900ff;
-    box-shadow: 0 0 15px #9900ff, 0 0 30px #9900ff, inset 0 0 5px #fff;
+    box-shadow:
+      0 0 15px #9900ff,
+      0 0 30px #9900ff,
+      inset 0 0 5px #fff;
   }
   100% {
     transform: rotate(360deg) translateX(100px) rotate(-360deg) scale(0.9);
     background: #ff0055;
-    box-shadow: 0 0 15px #ff0055, 0 0 30px #ff0055, inset 0 0 5px #fff;
+    box-shadow:
+      0 0 15px #ff0055,
+      0 0 30px #ff0055,
+      inset 0 0 5px #fff;
   }
 }

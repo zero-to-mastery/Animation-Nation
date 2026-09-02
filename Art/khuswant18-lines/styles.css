@@ -26,7 +26,9 @@ body {
   width: 40px;
   background: linear-gradient(180deg, #00f5ff 0%, #00a8ff 100%);
   border-radius: 20px 20px 0 0;
-  box-shadow: 0 0 20px rgba(0, 245, 255, 0.5), 0 0 40px rgba(0, 168, 255, 0.3);
+  box-shadow:
+    0 0 20px rgba(0, 245, 255, 0.5),
+    0 0 40px rgba(0, 168, 255, 0.3);
   position: relative;
 }
 
@@ -138,7 +140,9 @@ body {
 
 .line:nth-child(even) {
   background: linear-gradient(180deg, #ff006e 0%, #ff4d8f 100%);
-  box-shadow: 0 0 20px rgba(255, 0, 110, 0.5), 0 0 40px rgba(255, 77, 143, 0.3);
+  box-shadow:
+    0 0 20px rgba(255, 0, 110, 0.5),
+    0 0 40px rgba(255, 77, 143, 0.3);
 }
 
 .line:nth-child(even)::before {
@@ -148,7 +152,9 @@ body {
 
 .line:nth-child(3n) {
   background: linear-gradient(180deg, #7209b7 0%, #9d4edd 100%);
-  box-shadow: 0 0 20px rgba(114, 9, 183, 0.5), 0 0 40px rgba(157, 78, 221, 0.3);
+  box-shadow:
+    0 0 20px rgba(114, 9, 183, 0.5),
+    0 0 40px rgba(157, 78, 221, 0.3);
 }
 
 .line:nth-child(3n)::before {

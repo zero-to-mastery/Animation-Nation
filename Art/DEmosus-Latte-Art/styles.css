@@ -45,7 +45,9 @@ body {
   left: 0;
   top: 0;
   overflow: hidden;
-  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4), 0 8px 16px rgba(0, 0, 0, 0.3);
+  box-shadow:
+    inset 0 0 20px rgba(0, 0, 0, 0.4),
+    0 8px 16px rgba(0, 0, 0, 0.3);
   border: 5px solid #fff3e0;
   z-index: 2;
 }
@@ -62,7 +64,8 @@ body {
   top: 50%;
   transform: translateY(-50%);
   background: transparent;
-  box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.15),
+  box-shadow:
+    inset -4px -4px 8px rgba(0, 0, 0, 0.15),
     4px 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -193,7 +196,9 @@ body {
   background: rgba(30, 41, 59, 0.7);
   padding: 15px 25px;
   border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .joke code {

@@ -42,7 +42,7 @@ The script is able to:
   - `hacktoberfest-accepted`: alongside `Awaiting Maintainer Validation` only if PR are occuring in October.
 
   Labels are removed automatically upon PR corrections.  
-   _(except 'hacktoberfest-accepted' is assigned)_
+  _(except 'hacktoberfest-accepted' is assigned)_
 
 ### 🔹 Pre-review structure
 

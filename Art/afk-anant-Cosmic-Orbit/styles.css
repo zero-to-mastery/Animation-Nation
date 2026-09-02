@@ -28,7 +28,9 @@ body {
   height: 80px;
   background: radial-gradient(circle, #ffd700, #ff8c00);
   border-radius: 50%;
-  box-shadow: 0 0 60px #ff8c00, 0 0 100px #ffd700;
+  box-shadow:
+    0 0 60px #ff8c00,
+    0 0 100px #ffd700;
   animation: sunPulse 4s ease-in-out infinite;
 }
 
@@ -100,9 +102,14 @@ body {
 @keyframes sunPulse {
   0%,
   100% {
-    box-shadow: 0 0 60px #ff8c00, 0 0 100px #ffd700;
+    box-shadow:
+      0 0 60px #ff8c00,
+      0 0 100px #ffd700;
   }
   50% {
-    box-shadow: 0 0 80px #ff8c00, 0 0 130px #ffd700, 0 0 160px #ff6347;
+    box-shadow:
+      0 0 80px #ff8c00,
+      0 0 130px #ffd700,
+      0 0 160px #ff6347;
   }
 }

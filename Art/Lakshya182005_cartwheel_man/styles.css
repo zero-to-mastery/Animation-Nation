@@ -26,7 +26,9 @@ body {
   position: relative;
   width: 120px;
   height: 120px;
-  animation: cartwheel 2s linear infinite, move 8s linear infinite;
+  animation:
+    cartwheel 2s linear infinite,
+    move 8s linear infinite;
 }
 
 .head {

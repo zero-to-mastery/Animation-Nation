@@ -9,7 +9,8 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       1200px 600px at 20% -10%,
       rgba(255, 255, 255, 0.06),
       transparent 60%
@@ -21,8 +22,18 @@ body {
     ),
     var(--bg);
   color: #e5e7eb;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
-    'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Ubuntu,
+    Cantarell,
+    'Helvetica Neue',
+    Arial,
+    'Noto Sans',
+    'Apple Color Emoji',
+    'Segoe UI Emoji';
 }
 
 .solar {
@@ -49,7 +60,8 @@ body {
     #ffb300 60%,
     #ff8a00 100%
   );
-  box-shadow: 0 0 40px 15px rgba(255, 179, 0, 0.25),
+  box-shadow:
+    0 0 40px 15px rgba(255, 179, 0, 0.25),
     0 0 120px 30px rgba(255, 179, 0, 0.18);
 }
 
@@ -80,7 +92,8 @@ body {
   background: var(--color);
   border-radius: 50%;
   transform: translateX(var(--radius)) translate(-50%, -50%);
-  box-shadow: inset 6px -6px 10px rgba(255, 255, 255, 0.08),
+  box-shadow:
+    inset 6px -6px 10px rgba(255, 255, 255, 0.08),
     inset -6px 8px 14px rgba(0, 0, 0, 0.35);
 }
 
@@ -89,7 +102,8 @@ body {
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       120% 120% at 25% 30%,
       rgba(255, 255, 255, 0.18),
       transparent 35%
@@ -142,11 +156,8 @@ body {
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  background: radial-gradient(
-      closest-side,
-      rgba(255, 255, 255, 0.15),
-      transparent 60%
-    ),
+  background:
+    radial-gradient(closest-side, rgba(255, 255, 255, 0.15), transparent 60%),
     conic-gradient(
       #2c7a3f 0 20%,
       transparent 0 30%,
@@ -193,11 +204,8 @@ body {
   height: calc(var(--size) * 0.7);
   transform: translate(-50%, -50%) rotate(18deg);
   border-radius: 50%;
-  background: radial-gradient(
-      closest-side,
-      rgba(0, 0, 0, 0.18),
-      transparent 70%
-    ),
+  background:
+    radial-gradient(closest-side, rgba(0, 0, 0, 0.18), transparent 70%),
     linear-gradient(90deg, #b79f72 0%, #e2d2a6 40%, #b79f72 80%);
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15) inset;
   opacity: 0.85;
@@ -241,7 +249,8 @@ body {
   pointer-events: none;
   position: absolute;
   inset: -40px;
-  background-image: radial-gradient(
+  background-image:
+    radial-gradient(
       1px 1px at 10% 20%,
       rgba(255, 255, 255, 0.9),
       transparent 60%

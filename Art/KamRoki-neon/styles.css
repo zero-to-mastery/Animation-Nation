@@ -7,7 +7,8 @@
   --mag: #ff2bd6;
   --lime: #a6ff00;
 
-  --glow: 0 0 10px rgba(0, 246, 255, 0.65), 0 0 22px rgba(0, 246, 255, 0.45),
+  --glow:
+    0 0 10px rgba(0, 246, 255, 0.65), 0 0 22px rgba(0, 246, 255, 0.45),
     0 0 44px rgba(0, 246, 255, 0.25);
 }
 
@@ -49,7 +50,8 @@ body {
 .grid {
   position: absolute;
   inset: -20%;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       to top,
       rgba(255, 255, 255, 0.08),
       rgba(255, 255, 255, 0) 55%
@@ -76,10 +78,16 @@ body {
 
 @keyframes gridMove {
   0% {
-    background-position: 0 0, 0 0, 0 0;
+    background-position:
+      0 0,
+      0 0,
+      0 0;
   }
   100% {
-    background-position: 0 0, 0 140px, 0 140px;
+    background-position:
+      0 0,
+      0 140px,
+      0 140px;
   }
 }
 
@@ -87,12 +95,17 @@ body {
 .aura {
   position: absolute;
   inset: -40%;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       circle at 50% 45%,
       rgba(0, 246, 255, 0.14),
       transparent 55%
     ),
-    radial-gradient(circle at 42% 50%, rgba(255, 43, 214, 0.1), transparent 55%),
+    radial-gradient(
+      circle at 42% 50%,
+      rgba(255, 43, 214, 0.1),
+      transparent 55%
+    ),
     radial-gradient(circle at 60% 55%, rgba(166, 255, 0, 0.08), transparent 60%);
   filter: blur(18px);
   opacity: 0.9;
@@ -125,7 +138,9 @@ body {
   height: 54px;
   border-radius: 50%;
   filter: blur(0.1px);
-  animation: corePulse 1.9s ease-in-out infinite, flicker 5.5s steps(1) infinite;
+  animation:
+    corePulse 1.9s ease-in-out infinite,
+    flicker 5.5s steps(1) infinite;
 }
 
 .core--cyan {
@@ -135,7 +150,9 @@ body {
     rgba(0, 246, 255, 1) 35%,
     rgba(0, 246, 255, 0) 70%
   );
-  box-shadow: 0 0 14px rgba(0, 246, 255, 0.9), 0 0 40px rgba(0, 246, 255, 0.35);
+  box-shadow:
+    0 0 14px rgba(0, 246, 255, 0.9),
+    0 0 40px rgba(0, 246, 255, 0.35);
   transform: translateX(-2px);
 }
 
@@ -146,7 +163,8 @@ body {
     rgba(255, 43, 214, 1) 35%,
     rgba(255, 43, 214, 0) 70%
   );
-  box-shadow: 0 0 14px rgba(255, 43, 214, 0.85),
+  box-shadow:
+    0 0 14px rgba(255, 43, 214, 0.85),
     0 0 40px rgba(255, 43, 214, 0.32);
   transform: translateX(2px);
   mix-blend-mode: screen;
@@ -163,7 +181,9 @@ body {
     rgba(166, 255, 0, 1) 35%,
     rgba(166, 255, 0, 0) 70%
   );
-  box-shadow: 0 0 12px rgba(166, 255, 0, 0.7), 0 0 34px rgba(166, 255, 0, 0.26);
+  box-shadow:
+    0 0 12px rgba(166, 255, 0, 0.7),
+    0 0 34px rgba(166, 255, 0, 0.26);
   mix-blend-mode: screen;
   opacity: 0.55;
   animation-delay: 0.16s;
@@ -274,7 +294,8 @@ body {
   position: absolute;
   width: 240px;
   height: 240px;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       closest-side at 50% 50%,
       rgba(0, 246, 255, 0),
       rgba(0, 246, 255, 0) 62%,
@@ -306,7 +327,8 @@ body {
 .sparkles {
   position: absolute;
   inset: 0;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       circle at 22% 28%,
       rgba(255, 255, 255, 0.9) 0 1px,
       transparent 2px

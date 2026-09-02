@@ -157,7 +157,9 @@ body {
   top: 18%;
   left: 50%;
   opacity: 0;
-  box-shadow: 0 0 20px #fff, 0 0 40px #ffff00;
+  box-shadow:
+    0 0 20px #fff,
+    0 0 40px #ffff00;
   animation: lightningFlash 8s infinite;
   transform: rotate(15deg);
 }

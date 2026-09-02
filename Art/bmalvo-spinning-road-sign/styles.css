@@ -30,7 +30,9 @@ body {
   text-align: center;
   background-color: #e7b732;
   border: 1px solid black;
-  box-shadow: 2px 2px 0px RGB(231, 183, 50), -2px -2px 0px RGB(231, 183, 50);
+  box-shadow:
+    2px 2px 0px RGB(231, 183, 50),
+    -2px -2px 0px RGB(231, 183, 50);
 }
 
 h6 {

@@ -47,7 +47,8 @@ body {
   background: linear-gradient(to bottom, #e0e0e0 0%, #a8a8a8 100%);
   margin: 0 auto;
   border-radius: 4px 4px 0 0;
-  box-shadow: inset 2px 0 4px rgba(255, 255, 255, 0.5),
+  box-shadow:
+    inset 2px 0 4px rgba(255, 255, 255, 0.5),
     inset -2px 0 4px rgba(0, 0, 0, 0.3);
 }
 

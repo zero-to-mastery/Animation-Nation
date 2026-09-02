@@ -34,7 +34,9 @@ body {
   height: 100px;
   border-color: #00f3ff;
   animation-delay: 0s;
-  box-shadow: 0 0 20px #00f3ff, inset 0 0 20px #00f3ff;
+  box-shadow:
+    0 0 20px #00f3ff,
+    inset 0 0 20px #00f3ff;
 }
 
 .ring-2 {
@@ -42,7 +44,9 @@ body {
   height: 150px;
   border-color: #ff00ff;
   animation-delay: 1s;
-  box-shadow: 0 0 20px #ff00ff, inset 0 0 20px #ff00ff;
+  box-shadow:
+    0 0 20px #ff00ff,
+    inset 0 0 20px #ff00ff;
 }
 
 .ring-3 {
@@ -50,7 +54,9 @@ body {
   height: 200px;
   border-color: #00ff88;
   animation-delay: 2s;
-  box-shadow: 0 0 20px #00ff88, inset 0 0 20px #00ff88;
+  box-shadow:
+    0 0 20px #00ff88,
+    inset 0 0 20px #00ff88;
 }
 
 .core {
@@ -62,7 +68,9 @@ body {
   height: 40px;
   background: radial-gradient(circle, #fff, #00f3ff);
   border-radius: 50%;
-  box-shadow: 0 0 40px #fff, 0 0 60px #00f3ff;
+  box-shadow:
+    0 0 40px #fff,
+    0 0 60px #00f3ff;
   animation: coreGlow 2s ease-in-out infinite alternate;
 }
 
@@ -80,9 +88,14 @@ body {
 
 @keyframes coreGlow {
   0% {
-    box-shadow: 0 0 40px #fff, 0 0 60px #00f3ff;
+    box-shadow:
+      0 0 40px #fff,
+      0 0 60px #00f3ff;
   }
   100% {
-    box-shadow: 0 0 60px #fff, 0 0 90px #00f3ff, 0 0 120px #ff00ff;
+    box-shadow:
+      0 0 60px #fff,
+      0 0 90px #00f3ff,
+      0 0 120px #ff00ff;
   }
 }

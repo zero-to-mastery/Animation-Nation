@@ -48,7 +48,9 @@ body {
 
 .glitch-text::after {
   left: -2px;
-  text-shadow: -2px 0 #00fff9, 2px 2px #ff00de;
+  text-shadow:
+    -2px 0 #00fff9,
+    2px 2px #ff00de;
   clip: rect(85px, 9999px, 140px, 0);
   animation: glitchAfter 2s infinite linear alternate-reverse;
 }

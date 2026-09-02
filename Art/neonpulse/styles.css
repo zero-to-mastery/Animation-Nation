@@ -14,8 +14,13 @@ body {
   border-radius: 50%;
   background: linear-gradient(45deg, #ff00ff, #00ffff, #ff0000);
   background-size: 600% 600%;
-  box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff, 0 0 60px #ff0000;
-  animation: pulse 2s ease-in-out infinite, colorShift 6s linear infinite;
+  box-shadow:
+    0 0 20px #ff00ff,
+    0 0 40px #00ffff,
+    0 0 60px #ff0000;
+  animation:
+    pulse 2s ease-in-out infinite,
+    colorShift 6s linear infinite;
 }
 
 @keyframes pulse {

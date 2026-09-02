@@ -26,8 +26,13 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: radial-gradient(2px 2px at 20px 30px, #fff, transparent),
-    radial-gradient(2px 2px at 40px 70px, rgba(255, 255, 255, 0.8), transparent),
+  background:
+    radial-gradient(2px 2px at 20px 30px, #fff, transparent),
+    radial-gradient(
+      2px 2px at 40px 70px,
+      rgba(255, 255, 255, 0.8),
+      transparent
+    ),
     radial-gradient(1px 1px at 90px 40px, #fff, transparent),
     radial-gradient(
       1px 1px at 130px 80px,

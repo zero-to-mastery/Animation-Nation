@@ -40,7 +40,9 @@ body {
   background: white;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0 0 25px white, 0 0 50px var(--c2);
+  box-shadow:
+    0 0 25px white,
+    0 0 50px var(--c2);
 }
 
 /* Orbits */
@@ -89,19 +91,25 @@ body {
 .glow1 {
   --r: var(--r1);
   background: var(--c1);
-  box-shadow: 0 0 20px var(--c1), 0 0 40px var(--c1);
+  box-shadow:
+    0 0 20px var(--c1),
+    0 0 40px var(--c1);
   animation: orbit 6s linear infinite;
 }
 .glow2 {
   --r: var(--r2);
   background: var(--c2);
-  box-shadow: 0 0 20px var(--c2), 0 0 40px var(--c2);
+  box-shadow:
+    0 0 20px var(--c2),
+    0 0 40px var(--c2);
   animation: orbit 10s linear infinite reverse;
 }
 .glow3 {
   --r: var(--r3);
   background: var(--c3);
-  box-shadow: 0 0 20px var(--c3), 0 0 40px var(--c3);
+  box-shadow:
+    0 0 20px var(--c3),
+    0 0 40px var(--c3);
   animation: orbit 14s linear infinite;
 }
 
@@ -120,13 +128,19 @@ body {
 }
 
 .stage:hover .glow1 {
-  box-shadow: 0 0 30px var(--c1), 0 0 60px var(--c1);
+  box-shadow:
+    0 0 30px var(--c1),
+    0 0 60px var(--c1);
 }
 .stage:hover .glow2 {
-  box-shadow: 0 0 30px var(--c2), 0 0 60px var(--c2);
+  box-shadow:
+    0 0 30px var(--c2),
+    0 0 60px var(--c2);
 }
 .stage:hover .glow3 {
-  box-shadow: 0 0 30px var(--c3), 0 0 60px var(--c3);
+  box-shadow:
+    0 0 30px var(--c3),
+    0 0 60px var(--c3);
 }
 
 /* Animations */
