@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+  background:
+    radial-gradient(circle at center, #17131f 0%, #08070b 45%, #020204 100%);
+}
+
+.scene {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  perspective: 900px;
+}
+
+.portal {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  transform-style: preserve-3d;
+  animation: portalFloat 5s ease-in-out infinite;
+  transition: transform 0.5s ease;
+}
+
+.portal:hover {
+  transform: scale(1.12) rotateX(8deg);
+}
+
+.core {
+  position: absolute;
+  inset: 72px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle,
+      #000 0%,
+      #020106 45%,
+      #171020 72%,
+      transparent 73%);
+  box-shadow:
+    0 0 25px #000,
+    0 0 55px #271d3d,
+    0 0 90px #171024;
+  z-index: 5;
+  animation: corePulse 3s ease-in-out infinite;
+}
+
+.ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transform-style: preserve-3d;
+}
+
+.ring-1 {
+  border-top-color: #bfa7ff;
+  border-right-color: #6c4da8;
+  box-shadow:
+    0 0 12px #9b7bd1,
+    inset 0 0 12px #5c407e;
+  animation: spinOne 4s linear infinite;
+}
+
+.ring-2 {
+  inset: 18px;
+  border-left-color: #e2d5ff;
+  border-bottom-color: #7654a8;
+  box-shadow:
+    0 0 18px #7654a8,
+    inset 0 0 15px #3b2858;
+  animation: spinTwo 3s linear infinite;
+}
+
+.ring-3 {
+  inset: 38px;
+  border-top-color: #d7c6ff;
+  border-left-color: #493263;
+  box-shadow:
+    0 0 20px #604582,
+    inset 0 0 12px #241a35;
+  animation: spinThree 2.4s linear infinite;
+}
+
+.particle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin: -3.5px;
+  border-radius: 50%;
+  background: #ddd1ff;
+  box-shadow: 0 0 12px #c4aaff;
+  transform-origin: 3.5px 3.5px;
+  animation: orbit 4s linear infinite;
+}
+
+.p1 {
+  animation-delay: 0s;
+  --distance: 145px;
+}
+
+.p2 {
+  animation-delay: -0.65s;
+  --distance: 125px;
+}
+
+.p3 {
+  animation-delay: -1.3s;
+  --distance: 155px;
+}
+
+.p4 {
+  animation-delay: -1.95s;
+  --distance: 135px;
+}
+
+.p5 {
+  animation-delay: -2.6s;
+  --distance: 115px;
+}
+
+.p6 {
+  animation-delay: -3.25s;
+  --distance: 150px;
+}
+
+@keyframes spinOne {
+  from {
+    transform: rotateX(68deg) rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateX(68deg) rotateZ(360deg);
+  }
+}
+
+@keyframes spinTwo {
+  from {
+    transform: rotateY(70deg) rotateZ(360deg);
+  }
+
+  to {
+    transform: rotateY(70deg) rotateZ(0deg);
+  }
+}
+
+@keyframes spinThree {
+  from {
+    transform: rotateX(-65deg) rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateX(-65deg) rotateZ(360deg);
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform:
+      rotate(0deg)
+      translateX(var(--distance))
+      rotate(0deg);
+  }
+
+  to {
+    transform:
+      rotate(360deg)
+      translateX(var(--distance))
+      rotate(-360deg);
+  }
+}
+
+@keyframes corePulse {
+  0%,
+  100% {
+    transform: scale(0.9);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+@keyframes portalFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
