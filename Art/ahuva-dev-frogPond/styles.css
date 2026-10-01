@@ -1,0 +1,563 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dff5ff;
+}
+
+.scene {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+    overflow: hidden;
+    background:
+        linear-gradient(
+            to bottom,
+            #aee5ff 0%,
+            #dff7ff 58%,
+            #b9df9d 58%,
+            #8fc477 100%
+        );
+}
+
+/* Sun */
+
+.sun {
+    position: absolute;
+    top: 45px;
+    right: 12%;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #ffe99b;
+    box-shadow: 0 0 35px rgba(255, 225, 120, 0.55);
+    animation: sunFloat 4s ease-in-out infinite;
+}
+
+@keyframes sunFloat {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(8px);
+    }
+}
+
+/* Clouds */
+
+.cloud {
+    position: absolute;
+    width: 105px;
+    height: 30px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.85);
+    animation: cloudMove 22s linear infinite;
+}
+
+.cloud::before,
+.cloud::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: inherit;
+}
+
+.cloud::before {
+    width: 42px;
+    height: 42px;
+    left: 18px;
+    bottom: 4px;
+}
+
+.cloud::after {
+    width: 34px;
+    height: 34px;
+    right: 15px;
+    bottom: 2px;
+}
+
+.cloud-one {
+    top: 95px;
+    left: -130px;
+}
+
+.cloud-two {
+    top: 165px;
+    left: -280px;
+    transform: scale(0.7);
+    animation-delay: -10s;
+}
+
+@keyframes cloudMove {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(100vw + 400px));
+    }
+}
+
+/* Pond */
+
+.pond {
+    position: absolute;
+    left: 50%;
+    bottom: 12%;
+    width: min(620px, 80vw);
+    height: 300px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            ellipse at 50% 30%,
+            #8fd9d1 0%,
+            #5bb9b8 55%,
+            #419e9f 100%
+        );
+    border: 8px solid rgba(71, 151, 138, 0.35);
+    box-shadow:
+        0 15px 0 rgba(70, 126, 72, 0.2),
+        inset 0 8px 20px rgba(255, 255, 255, 0.18);
+    animation: pondFloat 5s ease-in-out infinite;
+}
+
+@keyframes pondFloat {
+    0%,
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+
+    50% {
+        transform: translateX(-50%) scale(1.015);
+    }
+}
+
+/* Water shine */
+
+.water-shine {
+    position: absolute;
+    height: 8px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.45);
+    animation: waterShine 3s ease-in-out infinite;
+}
+
+.shine-one {
+    top: 75px;
+    left: 18%;
+    width: 85px;
+}
+
+.shine-two {
+    top: 125px;
+    right: 16%;
+    width: 55px;
+    animation-delay: -1.5s;
+}
+
+@keyframes waterShine {
+    0%,
+    100% {
+        opacity: 0.25;
+        transform: scaleX(0.7);
+    }
+
+    50% {
+        opacity: 0.8;
+        transform: scaleX(1);
+    }
+}
+
+/* Lily pads */
+
+.lily {
+    position: absolute;
+    width: 90px;
+    height: 55px;
+    border-radius: 50%;
+    background: #69b85d;
+    box-shadow: inset -7px -5px 0 rgba(55, 133, 65, 0.25);
+    animation: lilyFloat 4s ease-in-out infinite;
+}
+
+.lily::after {
+    content: "";
+    position: absolute;
+    right: 4px;
+    top: 2px;
+    width: 45%;
+    height: 55%;
+    background: #57a952;
+    clip-path: polygon(100% 0, 100% 100%, 0 50%);
+}
+
+.lily-one {
+    left: 13%;
+    bottom: 23%;
+}
+
+.lily-two {
+    right: 10%;
+    top: 22%;
+    transform: scale(0.7);
+    animation-delay: -2s;
+}
+
+@keyframes lilyFloat {
+    0%,
+    100% {
+        transform: translateY(0) rotate(-2deg);
+    }
+
+    50% {
+        transform: translateY(-7px) rotate(2deg);
+    }
+}
+
+/* Frog */
+
+.frog {
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    width: 150px;
+    height: 125px;
+    transform: translate(-50%, -50%);
+    animation: frogJump 4.5s ease-in-out infinite;
+    z-index: 5;
+}
+
+.frog-body {
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    width: 125px;
+    height: 90px;
+    transform: translateX(-50%);
+    border-radius: 50% 50% 45% 45%;
+    background: #72c965;
+    box-shadow:
+        inset -10px -8px 0 rgba(67, 157, 73, 0.25),
+        0 6px 0 rgba(50, 130, 67, 0.2);
+}
+
+/* Eyes */
+
+.eye {
+    position: absolute;
+    top: 10px;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background: #7bd66d;
+    z-index: 2;
+}
+
+.eye-left {
+    left: 25px;
+}
+
+.eye-right {
+    right: 25px;
+}
+
+.eye span {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 18px;
+    height: 22px;
+    border-radius: 50%;
+    background: #263f2d;
+}
+
+.eye span::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* Frog smile */
+
+.mouth {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    width: 38px;
+    height: 18px;
+    transform: translateX(-50%);
+    border-bottom: 4px solid #377b46;
+    border-radius: 0 0 50% 50%;
+}
+
+/* Legs */
+
+.leg {
+    position: absolute;
+    bottom: 0;
+    width: 55px;
+    height: 30px;
+    border-radius: 50%;
+    background: #64b95b;
+}
+
+.leg-left {
+    left: 2px;
+    transform: rotate(20deg);
+}
+
+.leg-right {
+    right: 2px;
+    transform: rotate(-20deg);
+}
+
+@keyframes frogJump {
+    0%,
+    100% {
+        transform: translate(-50%, -50%);
+    }
+
+    15% {
+        transform: translate(-50%, -50%) translateY(-5px);
+    }
+
+    25% {
+        transform: translate(-50%, -50%) translateY(-55px) scale(0.92);
+    }
+
+    35% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+
+    40% {
+        transform: translate(-50%, -50%) scale(1.05);
+    }
+
+    50% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Ripples */
+
+.ripple {
+    position: absolute;
+    left: 50%;
+    bottom: 24%;
+    width: 145px;
+    height: 35px;
+    border: 4px solid rgba(255, 255, 255, 0.35);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    animation: ripple 4.5s ease-out infinite;
+}
+
+.ripple-two {
+    width: 90px;
+    height: 25px;
+    animation-delay: 0.25s;
+}
+
+@keyframes ripple {
+    0%,
+    35% {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.4);
+    }
+
+    45% {
+        opacity: 0.8;
+    }
+
+    65%,
+    100% {
+        opacity: 0;
+        transform: translateX(-50%) scale(1.25);
+    }
+}
+
+/* Bubbles */
+
+.bubble {
+    position: absolute;
+    bottom: 25%;
+    width: 12px;
+    height: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.65);
+    border-radius: 50%;
+    animation: bubbleRise 3.5s ease-in infinite;
+}
+
+.bubble-one {
+    left: 46%;
+}
+
+.bubble-two {
+    left: 53%;
+    width: 8px;
+    height: 8px;
+    animation-delay: -1.1s;
+}
+
+.bubble-three {
+    left: 57%;
+    width: 15px;
+    height: 15px;
+    animation-delay: -2.2s;
+}
+
+@keyframes bubbleRise {
+    0% {
+        opacity: 0;
+        transform: translateY(20px) scale(0.5);
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-120px) translateX(20px) scale(1.1);
+    }
+}
+
+/* Grass */
+
+.grass {
+    position: absolute;
+    bottom: 5%;
+    width: 100px;
+    height: 70px;
+}
+
+.grass::before,
+.grass::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 12px;
+    height: 65px;
+    border-radius: 100% 0;
+    background: #5f9f50;
+    transform-origin: bottom;
+}
+
+.grass::before {
+    left: 25px;
+    transform: rotate(-20deg);
+}
+
+.grass::after {
+    left: 55px;
+    transform: rotate(20deg);
+}
+
+.grass-one {
+    left: 8%;
+}
+
+.grass-two {
+    right: 8%;
+    transform: scale(0.8);
+}
+
+.grass-three {
+    left: 45%;
+    bottom: 2%;
+    transform: scale(0.55);
+}
+
+/* Flowers */
+
+.flower {
+    position: absolute;
+    bottom: 18%;
+    width: 30px;
+    height: 30px;
+    animation: flowerSway 3s ease-in-out infinite;
+}
+
+.flower-one {
+    left: 20%;
+}
+
+.flower-two {
+    right: 22%;
+    animation-delay: -1.5s;
+}
+
+.flower::before,
+.flower::after,
+.flower span::before,
+.flower span::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ffb4d0;
+}
+
+.flower::before {
+    left: 8px;
+    top: 0;
+}
+
+.flower::after {
+    left: 0;
+    top: 9px;
+}
+
+.flower span::before {
+    right: 0;
+    top: 9px;
+}
+
+.flower span::after {
+    left: 8px;
+    bottom: 0;
+}
+
+.flower span {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ffd95c;
+    z-index: 2;
+}
+
+@keyframes flowerSway {
+    0%,
+    100% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+}
