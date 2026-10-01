@@ -11,8 +11,12 @@ body {
 
 body {
   overflow: hidden;
-  background:
-    radial-gradient(circle at center, #17131f 0%, #08070b 45%, #020204 100%);
+  background: radial-gradient(
+    circle at center,
+    #17131f 0%,
+    #08070b 45%,
+    #020204 100%
+  );
 }
 
 .scene {
@@ -40,16 +44,14 @@ body {
   position: absolute;
   inset: 72px;
   border-radius: 50%;
-  background:
-    radial-gradient(circle,
-      #000 0%,
-      #020106 45%,
-      #171020 72%,
-      transparent 73%);
-  box-shadow:
-    0 0 25px #000,
-    0 0 55px #271d3d,
-    0 0 90px #171024;
+  background: radial-gradient(
+    circle,
+    #000 0%,
+    #020106 45%,
+    #171020 72%,
+    transparent 73%
+  );
+  box-shadow: 0 0 25px #000, 0 0 55px #271d3d, 0 0 90px #171024;
   z-index: 5;
   animation: corePulse 3s ease-in-out infinite;
 }
@@ -65,9 +67,7 @@ body {
 .ring-1 {
   border-top-color: #bfa7ff;
   border-right-color: #6c4da8;
-  box-shadow:
-    0 0 12px #9b7bd1,
-    inset 0 0 12px #5c407e;
+  box-shadow: 0 0 12px #9b7bd1, inset 0 0 12px #5c407e;
   animation: spinOne 4s linear infinite;
 }
 
@@ -75,9 +75,7 @@ body {
   inset: 18px;
   border-left-color: #e2d5ff;
   border-bottom-color: #7654a8;
-  box-shadow:
-    0 0 18px #7654a8,
-    inset 0 0 15px #3b2858;
+  box-shadow: 0 0 18px #7654a8, inset 0 0 15px #3b2858;
   animation: spinTwo 3s linear infinite;
 }
 
@@ -85,9 +83,7 @@ body {
   inset: 38px;
   border-top-color: #d7c6ff;
   border-left-color: #493263;
-  box-shadow:
-    0 0 20px #604582,
-    inset 0 0 12px #241a35;
+  box-shadow: 0 0 20px #604582, inset 0 0 12px #241a35;
   animation: spinThree 2.4s linear infinite;
 }
 
@@ -167,17 +163,11 @@ body {
 
 @keyframes orbit {
   from {
-    transform:
-      rotate(0deg)
-      translateX(var(--distance))
-      rotate(0deg);
+    transform: rotate(0deg) translateX(var(--distance)) rotate(0deg);
   }
 
   to {
-    transform:
-      rotate(360deg)
-      translateX(var(--distance))
-      rotate(-360deg);
+    transform: rotate(360deg) translateX(var(--distance)) rotate(-360deg);
   }
 }
 
