@@ -1,0 +1,423 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.scene {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+  overflow: hidden;
+  background: linear-gradient(
+    to bottom,
+    #8eb5d2 0%,
+    #b9d2e2 58%,
+    #d8e1d7 100%
+  );
+}
+
+/* ---------- SUN ---------- */
+
+.sun {
+  position: absolute;
+  top: 75px;
+  right: 12%;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: #f4d47b;
+  opacity: 0.65;
+  box-shadow: 0 0 35px rgba(244, 212, 123, 0.5);
+  animation: sunGlow 4s ease-in-out infinite;
+}
+
+@keyframes sunGlow {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+
+  50% {
+    opacity: 0.75;
+  }
+}
+
+/* ---------- CLOUDS ---------- */
+
+.cloud {
+  position: absolute;
+  height: 75px;
+  z-index: 3;
+}
+
+.cloud-main {
+  top: 24%;
+  left: 50%;
+  width: 280px;
+  transform: translateX(-50%);
+  animation: cloudFloat 5s ease-in-out infinite;
+}
+
+.cloud-back {
+  top: 14%;
+  left: -330px;
+  width: 230px;
+  opacity: 0.7;
+  transform: scale(0.8);
+  animation: cloudMove 24s linear infinite;
+}
+
+.cloud-front {
+  top: 39%;
+  right: -300px;
+  width: 250px;
+  opacity: 0.85;
+  transform: scale(0.9);
+  animation: cloudMoveReverse 28s linear infinite;
+}
+
+.cloud-part {
+  position: absolute;
+  background: #eef3f5;
+  box-shadow: 0 8px 15px rgba(70, 90, 105, 0.12);
+}
+
+.cloud-part.one {
+  bottom: 0;
+  left: 0;
+  width: 130px;
+  height: 50px;
+  border-radius: 60px;
+}
+
+.cloud-part.two {
+  bottom: 5px;
+  left: 65px;
+  width: 120px;
+  height: 70px;
+  border-radius: 70px;
+}
+
+.cloud-part.three {
+  bottom: 0;
+  right: 0;
+  width: 130px;
+  height: 48px;
+  border-radius: 60px;
+}
+
+.cloud-part.four {
+  bottom: 0;
+  left: 115px;
+  width: 100px;
+  height: 48px;
+  border-radius: 50px;
+}
+
+@keyframes cloudFloat {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  50% {
+    transform: translateX(-50%) translateY(12px);
+  }
+}
+
+@keyframes cloudMove {
+  from {
+    left: -330px;
+  }
+
+  to {
+    left: calc(100% + 100px);
+  }
+}
+
+@keyframes cloudMoveReverse {
+  from {
+    right: -300px;
+  }
+
+  to {
+    right: calc(100% + 100px);
+  }
+}
+
+/* ---------- RAIN ---------- */
+
+.rain {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  width: 260px;
+  height: 190px;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.rain span {
+  position: absolute;
+  top: 0;
+  width: 3px;
+  height: 25px;
+  border-radius: 5px;
+  background: rgba(85, 145, 185, 0.7);
+  transform: rotate(12deg);
+  animation: rainDrop 1.1s linear infinite;
+}
+
+.rain span:nth-child(1) {
+  left: 12px;
+  animation-delay: 0s;
+}
+
+.rain span:nth-child(2) {
+  left: 35px;
+  animation-delay: 0.2s;
+}
+
+.rain span:nth-child(3) {
+  left: 58px;
+  animation-delay: 0.5s;
+}
+
+.rain span:nth-child(4) {
+  left: 82px;
+  animation-delay: 0.1s;
+}
+
+.rain span:nth-child(5) {
+  left: 106px;
+  animation-delay: 0.7s;
+}
+
+.rain span:nth-child(6) {
+  left: 130px;
+  animation-delay: 0.3s;
+}
+
+.rain span:nth-child(7) {
+  left: 154px;
+  animation-delay: 0.6s;
+}
+
+.rain span:nth-child(8) {
+  left: 178px;
+  animation-delay: 0.15s;
+}
+
+.rain span:nth-child(9) {
+  left: 202px;
+  animation-delay: 0.45s;
+}
+
+.rain span:nth-child(10) {
+  left: 226px;
+  animation-delay: 0.8s;
+}
+
+.rain span:nth-child(11) {
+  left: 45px;
+  top: 55px;
+  animation-delay: 0.35s;
+}
+
+.rain span:nth-child(12) {
+  left: 185px;
+  top: 65px;
+  animation-delay: 0.9s;
+}
+
+@keyframes rainDrop {
+  0% {
+    transform: translateY(-20px) rotate(12deg);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(170px) rotate(12deg);
+    opacity: 0;
+  }
+}
+
+/* ---------- GROUND ---------- */
+
+.ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 105px;
+  background: #91b47e;
+  border-top: 5px solid #789c69;
+  z-index: 4;
+}
+
+.puddle {
+  position: absolute;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(105, 155, 180, 0.4);
+  animation: puddlePulse 2s ease-in-out infinite;
+}
+
+.puddle-one {
+  left: 15%;
+  bottom: 35px;
+  width: 90px;
+}
+
+.puddle-two {
+  left: 48%;
+  bottom: 22px;
+  width: 120px;
+  animation-delay: 0.6s;
+}
+
+.puddle-three {
+  right: 13%;
+  bottom: 42px;
+  width: 75px;
+  animation-delay: 1s;
+}
+
+@keyframes puddlePulse {
+  0%,
+  100% {
+    transform: scaleX(1);
+    opacity: 0.55;
+  }
+
+  50% {
+    transform: scaleX(1.12);
+    opacity: 0.8;
+  }
+}
+
+/* ---------- FLOWERS ---------- */
+
+.flower {
+  position: absolute;
+  bottom: 72px;
+  width: 65px;
+  height: 110px;
+  z-index: 5;
+  animation: flowerSway 3s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+.flower-one {
+  left: 25%;
+}
+
+.flower-two {
+  right: 25%;
+  animation-delay: 0.8s;
+}
+
+.stem {
+  position: absolute;
+  bottom: 0;
+  left: 31px;
+  width: 4px;
+  height: 70px;
+  background: #568c4c;
+  border-radius: 5px;
+}
+
+.petals {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 48px;
+  height: 48px;
+}
+
+.petals span {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: #f3a9b9;
+}
+
+.petals span:nth-child(1) {
+  top: 0;
+  left: 12px;
+}
+
+.petals span:nth-child(2) {
+  top: 12px;
+  left: 0;
+}
+
+.petals span:nth-child(3) {
+  top: 12px;
+  right: 0;
+}
+
+.petals span:nth-child(4) {
+  bottom: 0;
+  left: 12px;
+}
+
+.petals span:nth-child(5) {
+  top: 12px;
+  left: 12px;
+  background: #f6c86b;
+}
+
+.center {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #f6c86b;
+  z-index: 2;
+}
+
+@keyframes flowerSway {
+  0%,
+  100% {
+    transform: rotate(-3deg);
+  }
+
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+/* ---------- TITLE ---------- */
+
+.title {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 5px rgba(50, 70, 80, 0.3);
+}
