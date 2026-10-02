@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #05050b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: monospace;
+  perspective: 1200px;
+}
+
+.grid-floor {
+  position: absolute;
+  width: 200vw;
+  height: 200vh;
+  background-image:
+    linear-gradient(to right, rgba(0, 240, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 240, 255, 0.08) 1px, transparent 1px);
+  background-size: 50px 50px;
+  transform: rotateX(75deg) translateY(-20%);
+  animation: gridMove 8s linear infinite;
+  z-index: 1;
+}
+
+@keyframes gridMove {
+  0% {
+    transform: rotateX(75deg) translateY(0);
+  }
+  100% {
+    transform: rotateX(75deg) translateY(50px);
+  }
+}
+
+.engine-stage {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transform: rotateX(55deg) rotateZ(45deg);
+  z-index: 10;
+  animation: globalHue 18s linear infinite;
+}
+
+.holo-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 240, 255, 0.5);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.4), inset 0 0 15px rgba(0, 240, 255, 0.4);
+  transform-style: preserve-3d;
+}
+
+.holo-ring-1 {
+  width: 420px;
+  height: 420px;
+  border-style: dashed;
+  border-color: rgba(255, 0, 127, 0.6);
+  box-shadow: 0 0 20px rgba(255, 0, 127, 0.5);
+  animation: spinRingCCW 12s linear infinite;
+}
+
+.holo-ring-2 {
+  width: 330px;
+  height: 330px;
+  border-width: 3px;
+  border-color: #00f0ff;
+  animation: spinRingCW 8s linear infinite;
+}
+
+.holo-ring-3 {
+  width: 240px;
+  height: 240px;
+  border-style: dotted;
+  border-width: 4px;
+  border-color: #39ff14;
+  box-shadow: 0 0 20px #39ff14;
+  animation: spinRingCCW 15s linear infinite;
+}
+
+@keyframes spinRingCW {
+  0% {
+    transform: translateZ(0) rotate(0deg);
+  }
+  100% {
+    transform: translateZ(0) rotate(360deg);
+  }
+}
+
+@keyframes spinRingCCW {
+  0% {
+    transform: translateZ(0) rotate(360deg);
+  }
+  100% {
+    transform: translateZ(0) rotate(0deg);
+  }
+}
+
+.matrix-cube {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  transform-style: preserve-3d;
+  animation: floatCube 6s ease-in-out infinite alternate, rotateCube 14s linear infinite;
+}
+
+@keyframes floatCube {
+  0% {
+    transform: translateZ(-40px);
+  }
+  100% {
+    transform: translateZ(60px);
+  }
+}
+
+@keyframes rotateCube {
+  0% {
+    transform: translateZ(10px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  100% {
+    transform: translateZ(10px) rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+.cube-face {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border: 2px solid rgba(0, 240, 255, 0.9);
+  background: rgba(0, 240, 255, 0.05);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.3), inset 0 0 15px rgba(0, 240, 255, 0.3);
+  backdrop-filter: blur(1px);
+}
+
+.face-front {
+  transform: rotateY(0deg) translateZ(60px);
+}
+
+.face-back {
+  transform: rotateY(180deg) translateZ(60px);
+}
+
+.face-right {
+  transform: rotateY(90deg) translateZ(60px);
+}
+
+.face-left {
+  transform: rotateY(-90deg) translateZ(60px);
+}
+
+.face-top {
+  transform: rotateX(90deg) translateZ(60px);
+}
+
+.face-bottom {
+  transform: rotateX(-90deg) translateZ(60px);
+}
+
+.core-crystal {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  transform-style: preserve-3d;
+  animation: crystalPulse 3s ease-in-out infinite alternate, crystalSpin 5s linear infinite;
+}
+
+@keyframes crystalSpin {
+  0% {
+    transform: translateZ(10px) rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: translateZ(10px) rotateX(360deg) rotateY(-360deg);
+  }
+}
+
+@keyframes crystalPulse {
+  0% {
+    scale: 0.8;
+    filter: drop-shadow(0 0 10px #ff007f);
+  }
+  100% {
+    scale: 1.3;
+    filter: drop-shadow(0 0 30px #00f0ff);
+  }
+}
+
+.crystal-pyramid {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  transform-style: preserve-3d;
+}
+
+.crystal-face {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 55px solid rgba(255, 0, 127, 0.75);
+  transform-origin: 50% 100%;
+}
+
+.pyr-1 {
+  transform: rotateY(0deg) translateZ(0) rotateX(30deg);
+}
+
+.pyr-2 {
+  transform: rotateY(90deg) translateZ(0) rotateX(30deg);
+}
+
+.pyr-3 {
+  transform: rotateY(180deg) translateZ(0) rotateX(30deg);
+}
+
+.pyr-4 {
+  transform: rotateY(270deg) translateZ(0) rotateX(30deg);
+}
+
+.bottom-pyr {
+  transform: rotateX(180deg) translateZ(-55px);
+}
+
+.laser-pillar {
+  position: absolute;
+  width: 4px;
+  height: 600px;
+  background: linear-gradient(to bottom, transparent, #00f0ff, #ff007f, transparent);
+  box-shadow: 0 0 12px #00f0ff, 0 0 25px #ff007f;
+  animation: pillarBeam 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.pillar-1 {
+  transform: translate3d(140px, 140px, -150px) rotateX(-90deg);
+  animation-delay: 0s;
+}
+
+.pillar-2 {
+  transform: translate3d(-140px, 140px, -150px) rotateX(-90deg);
+  animation-delay: 1s;
+}
+
+.pillar-3 {
+  transform: translate3d(140px, -140px, -150px) rotateX(-90deg);
+  animation-delay: 2s;
+}
+
+.pillar-4 {
+  transform: translate3d(-140px, -140px, -150px) rotateX(-90deg);
+  animation-delay: 3s;
+}
+
+@keyframes pillarBeam {
+  0%,
+  100% {
+    opacity: 0.2;
+    height: 300px;
+  }
+  50% {
+    opacity: 1;
+    height: 700px;
+  }
+}
+
+.particle-field {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.particle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 0 10px #00f0ff, 0 0 20px #ff007f;
+  animation: particleRise 5s ease-in-out infinite;
+}
+
+.p1 {
+  left: 20%;
+  top: 30%;
+  animation-delay: 0s;
+}
+
+.p2 {
+  left: 80%;
+  top: 20%;
+  animation-delay: -1.2s;
+}
+
+.p3 {
+  left: 40%;
+  top: 70%;
+  animation-delay: -2.5s;
+}
+
+.p4 {
+  left: 70%;
+  top: 80%;
+  animation-delay: -3.7s;
+}
+
+@keyframes particleRise {
+  0% {
+    transform: translateZ(-100px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateZ(200px);
+    opacity: 0;
+  }
+}
+
+@keyframes globalHue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
