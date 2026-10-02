@@ -20,8 +20,11 @@ body {
   position: absolute;
   width: 200vw;
   height: 200vh;
-  background-image:
-    linear-gradient(to right, rgba(0, 240, 255, 0.08) 1px, transparent 1px),
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 240, 255, 0.08) 1px,
+      transparent 1px
+    ),
     linear-gradient(to bottom, rgba(0, 240, 255, 0.08) 1px, transparent 1px);
   background-size: 50px 50px;
   transform: rotateX(75deg) translateY(-20%);
@@ -55,7 +58,8 @@ body {
   position: absolute;
   border-radius: 50%;
   border: 2px solid rgba(0, 240, 255, 0.5);
-  box-shadow: 0 0 15px rgba(0, 240, 255, 0.4), inset 0 0 15px rgba(0, 240, 255, 0.4);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.4),
+    inset 0 0 15px rgba(0, 240, 255, 0.4);
   transform-style: preserve-3d;
 }
 
@@ -109,7 +113,8 @@ body {
   width: 120px;
   height: 120px;
   transform-style: preserve-3d;
-  animation: floatCube 6s ease-in-out infinite alternate, rotateCube 14s linear infinite;
+  animation: floatCube 6s ease-in-out infinite alternate,
+    rotateCube 14s linear infinite;
 }
 
 @keyframes floatCube {
@@ -136,7 +141,8 @@ body {
   height: 120px;
   border: 2px solid rgba(0, 240, 255, 0.9);
   background: rgba(0, 240, 255, 0.05);
-  box-shadow: 0 0 15px rgba(0, 240, 255, 0.3), inset 0 0 15px rgba(0, 240, 255, 0.3);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.3),
+    inset 0 0 15px rgba(0, 240, 255, 0.3);
   backdrop-filter: blur(1px);
 }
 
@@ -169,7 +175,8 @@ body {
   width: 60px;
   height: 60px;
   transform-style: preserve-3d;
-  animation: crystalPulse 3s ease-in-out infinite alternate, crystalSpin 5s linear infinite;
+  animation: crystalPulse 3s ease-in-out infinite alternate,
+    crystalSpin 5s linear infinite;
 }
 
 @keyframes crystalSpin {
@@ -233,7 +240,13 @@ body {
   position: absolute;
   width: 4px;
   height: 600px;
-  background: linear-gradient(to bottom, transparent, #00f0ff, #ff007f, transparent);
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #00f0ff,
+    #ff007f,
+    transparent
+  );
   box-shadow: 0 0 12px #00f0ff, 0 0 25px #ff007f;
   animation: pillarBeam 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
