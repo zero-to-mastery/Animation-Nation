@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #020208;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  perspective: 1000px;
+}
+
+.stars {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  box-shadow: 
+    150px 200px #fff, -250px -100px #fff, 300px -200px #fff,
+    -120px 180px #fff, 380px 120px #fff, -280px -250px #fff,
+    200px -150px #fff, -150px 300px #fff, 120px 220px #fff,
+    -320px 50px #fff, 280px 280px #fff, -80px -320px #fff;
+  animation: spaceGlow 8s ease-in-out infinite alternate;
+}
+
+.weaver-container {
+  position: relative;
+  width: 380px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  animation: colorCycle 15s linear infinite;
+}
+
+.torus {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  border-top-color: #00f0ff;
+  border-bottom-color: #ff007f;
+  box-shadow: 0 0 20px #00f0ff, inset 0 0 20px #ff007f;
+}
+
+.torus-1 {
+  animation: weaveRotate1 8s linear infinite;
+}
+
+.torus-2 {
+  animation: weaveRotate2 8s linear infinite;
+}
+
+.lattice {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  transform-style: preserve-3d;
+  animation: latticeSpin 12s linear infinite;
+}
+
+.node {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  margin-top: -7px;
+  margin-left: -7px;
+  border-radius: 50%;
+  background: #00f0ff;
+  box-shadow: 0 0 15px #00f0ff, 0 0 30px #00f0ff;
+  animation: nodePulse 3s ease-in-out infinite alternate;
+}
+
+.node:nth-child(1) { transform: rotate(0deg) translate(110px); animation-delay: 0s; }
+.node:nth-child(2) { transform: rotate(60deg) translate(110px); animation-delay: -0.5s; }
+.node:nth-child(3) { transform: rotate(120deg) translate(110px); animation-delay: -1s; }
+.node:nth-child(4) { transform: rotate(180deg) translate(110px); animation-delay: -1.5s; }
+.node:nth-child(5) { transform: rotate(240deg) translate(110px); animation-delay: -2s; }
+.node:nth-child(6) { transform: rotate(300deg) translate(110px); animation-delay: -2.5s; }
+
+.wave {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #7928ca;
+  box-shadow: 0 0 15px #7928ca;
+  animation: waveExpand 4s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+  opacity: 0;
+}
+
+.wave-2 { animation-delay: 1.33s; }
+.wave-3 { animation-delay: 2.66s; }
+
+.quantum-core {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffffff 10%, #00f0ff 40%, #7928ca 80%);
+  box-shadow: 
+    0 0 25px #00f0ff,
+    0 0 50px #ff007f,
+    0 0 75px #7928ca;
+  animation: coreBreathing 2.5s ease-in-out infinite alternate;
+}
+
+@keyframes weaveRotate1 {
+  0% { transform: rotateX(65deg) rotateY(25deg) rotateZ(0deg); }
+  100% { transform: rotateX(65deg) rotateY(25deg) rotateZ(360deg); }
+}
+
+@keyframes weaveRotate2 {
+  0% { transform: rotateX(-65deg) rotateY(-25deg) rotateZ(360deg); }
+  100% { transform: rotateX(-65deg) rotateY(-25deg) rotateZ(0deg); }
+}
+
+@keyframes latticeSpin {
+  0% { transform: rotateX(30deg) rotateY(0deg) rotateZ(0deg); }
+  100% { transform: rotateX(30deg) rotateY(360deg) rotateZ(360deg); }
+}
+
+@keyframes nodePulse {
+  0% { transform: rotate(var(--r, 0deg)) translate(110px) scale(0.7); background: #00f0ff; }
+  100% { transform: rotate(var(--r, 0deg)) translate(110px) scale(1.4); background: #ff007f; }
+}
+
+@keyframes waveExpand {
+  0% {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+  }
+  100% {
+    width: 340px;
+    height: 340px;
+    opacity: 0;
+  }
+}
+
+@keyframes coreBreathing {
+  0% {
+    transform: scale(0.8);
+    box-shadow: 0 0 20px #00f0ff, 0 0 40px #ff007f;
+  }
+  100% {
+    transform: scale(1.2);
+    box-shadow: 0 0 40px #00f0ff, 0 0 80px #ff007f, 0 0 100px #7928ca;
+  }
+}
+
+@keyframes colorCycle {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+@keyframes spaceGlow {
+  0% { opacity: 0.4; }
+  100% { opacity: 0.9; }
+}
