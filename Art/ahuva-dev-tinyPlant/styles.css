@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #dff4ff;
+    font-family: sans-serif;
+}
+
+.scene {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    overflow: hidden;
+    background:
+        linear-gradient(
+            to bottom,
+            #bde9ff 0%,
+            #e9f9ff 68%,
+            #ccebbf 68%,
+            #a9d99b 100%
+        );
+}
+
+/* Sun */
+
+.sun {
+    position: absolute;
+    top: 55px;
+    right: 12%;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #ffe99a;
+    box-shadow:
+        0 0 0 12px rgba(255, 233, 154, 0.2),
+        0 0 35px rgba(255, 220, 100, 0.45);
+    animation: sunFloat 4s ease-in-out infinite;
+}
+
+@keyframes sunFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(8px);
+    }
+}
+
+/* Clouds */
+
+.cloud {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.85);
+    opacity: 0.9;
+    animation: cloudMove 18s linear infinite;
+}
+
+.cloud::before,
+.cloud::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: inherit;
+}
+
+.cloud::before {
+    width: 45px;
+    height: 45px;
+    left: 18px;
+    bottom: 5px;
+}
+
+.cloud::after {
+    width: 35px;
+    height: 35px;
+    right: 15px;
+    bottom: 2px;
+}
+
+.cloud-1 {
+    top: 90px;
+    left: -120px;
+}
+
+.cloud-2 {
+    top: 170px;
+    left: -250px;
+    transform: scale(0.7);
+    animation-delay: -8s;
+}
+
+@keyframes cloudMove {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(100vw + 350px));
+    }
+}
+
+/* Plant */
+
+.plant {
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    width: 220px;
+    height: 330px;
+    transform: translateX(-50%);
+}
+
+/* Stem */
+
+.stem {
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    width: 10px;
+    height: 145px;
+    border-radius: 10px;
+    background: #67a85b;
+    transform-origin: bottom;
+    animation: stemSway 4s ease-in-out infinite;
+}
+
+@keyframes stemSway {
+    0%, 100% {
+        transform: translateX(-50%) rotate(-2deg);
+    }
+
+    50% {
+        transform: translateX(-50%) rotate(3deg);
+    }
+}
+
+/* Leaves */
+
+.leaf {
+    position: absolute;
+    bottom: 175px;
+    width: 70px;
+    height: 38px;
+    background: #78bd68;
+    border-radius: 100% 0 100% 0;
+    transform-origin: bottom right;
+    animation: leafMove 3.5s ease-in-out infinite;
+}
+
+.leaf-left {
+    left: 48px;
+    transform: rotate(-25deg);
+}
+
+.leaf-right {
+    right: 48px;
+    border-radius: 0 100% 0 100%;
+    transform-origin: bottom left;
+    animation-delay: -1.7s;
+}
+
+@keyframes leafMove {
+    0%, 100% {
+        rotate: 0deg;
+    }
+
+    50% {
+        rotate: 7deg;
+    }
+}
+
+/* Flower */
+
+.flower {
+    position: absolute;
+    left: 50%;
+    bottom: 245px;
+    width: 90px;
+    height: 90px;
+    transform: translateX(-50%) scale(0);
+    animation: flowerBloom 2s ease-out forwards 0.8s,
+               flowerFloat 4s ease-in-out infinite 2.8s;
+}
+
+@keyframes flowerBloom {
+    0% {
+        transform: translateX(-50%) scale(0);
+    }
+
+    70% {
+        transform: translateX(-50%) scale(1.12);
+    }
+
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+@keyframes flowerFloat {
+    0%, 100% {
+        rotate: -2deg;
+    }
+
+    50% {
+        rotate: 3deg;
+    }
+}
+
+.petal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 35px;
+    height: 48px;
+    border-radius: 50%;
+    background: #ff9fbd;
+    transform-origin: 50% 100%;
+}
+
+.petal-1 {
+    transform: translate(-50%, -100%) rotate(0deg);
+}
+
+.petal-2 {
+    transform: translate(-50%, -100%) rotate(90deg);
+}
+
+.petal-3 {
+    transform: translate(-50%, -100%) rotate(180deg);
+}
+
+.petal-4 {
+    transform: translate(-50%, -100%) rotate(270deg);
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffd866;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Pot */
+
+.pot {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 150px;
+    height: 120px;
+    transform: translateX(-50%);
+    animation: potBounce 4s ease-in-out infinite;
+}
+
+.pot-top {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 165px;
+    height: 35px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background: #d88962;
+    z-index: 2;
+}
+
+.pot-body {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 135px;
+    height: 105px;
+    transform: translateX(-50%);
+    background: #e69a70;
+    clip-path: polygon(5% 0, 95% 0, 82% 100%, 18% 100%);
+    border-radius: 0 0 25px 25px;
+}
+
+@keyframes potBounce {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(-4px);
+    }
+}
+
+/* Sparkles */
+
+.sparkle {
+    position: absolute;
+    font-size: 25px;
+    color: #fff5a8;
+    animation: sparkle 2s ease-in-out infinite;
+}
+
+.sparkle-1 {
+    left: 30%;
+    top: 35%;
+}
+
+.sparkle-2 {
+    right: 27%;
+    top: 45%;
+    animation-delay: -0.7s;
+}
+
+.sparkle-3 {
+    left: 38%;
+    top: 20%;
+    font-size: 18px;
+    animation-delay: -1.3s;
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        opacity: 0.25;
+        transform: scale(0.7) rotate(0deg);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.15) rotate(20deg);
+    }
+}
+
+/* Hearts */
+
+.heart {
+    position: absolute;
+    bottom: 30%;
+    color: #ff91b4;
+    font-size: 20px;
+    opacity: 0;
+    animation: heartRise 4s ease-in-out infinite;
+}
+
+.heart-1 {
+    left: 43%;
+}
+
+.heart-2 {
+    left: 55%;
+    animation-delay: -1.5s;
+}
+
+.heart-3 {
+    left: 49%;
+    animation-delay: -3s;
+}
+
+@keyframes heartRise {
+    0% {
+        opacity: 0;
+        transform: translateY(20px) scale(0.5);
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100px) scale(1);
+    }
+}
