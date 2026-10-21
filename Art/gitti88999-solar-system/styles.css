@@ -1,0 +1,332 @@
+:root {
+  color-scheme: dark;
+  --space: #050816;
+  --orbit: rgba(133, 169, 255, 0.22);
+  --sun-size: clamp(3.4rem, 7vw, 5.6rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  background: var(--space);
+  color: #f4f7ff;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.universe {
+  position: relative;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 50% 46%, rgba(32, 55, 117, 0.28), transparent 42%),
+    radial-gradient(ellipse at 50% 100%, rgba(25, 45, 96, 0.18), transparent 55%),
+    var(--space);
+}
+
+.starfield,
+.starfield::before,
+.starfield::after {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+}
+
+.starfield {
+  opacity: 0.8;
+  background-image:
+    radial-gradient(2px 2px at 8% 18%, #fff 45%, transparent 60%),
+    radial-gradient(1px 1px at 16% 72%, #9bc4ff 45%, transparent 60%),
+    radial-gradient(2px 2px at 25% 32%, #dce8ff 45%, transparent 60%),
+    radial-gradient(1px 1px at 34% 82%, #fff 45%, transparent 60%),
+    radial-gradient(2px 2px at 43% 14%, #8eb8ff 45%, transparent 60%),
+    radial-gradient(1px 1px at 54% 68%, #fff 45%, transparent 60%),
+    radial-gradient(2px 2px at 63% 27%, #dce8ff 45%, transparent 60%),
+    radial-gradient(1px 1px at 72% 78%, #a6caff 45%, transparent 60%),
+    radial-gradient(2px 2px at 81% 21%, #fff 45%, transparent 60%),
+    radial-gradient(1px 1px at 91% 56%, #b9d5ff 45%, transparent 60%);
+  background-size: 420px 360px;
+  animation: star-drift 38s linear infinite;
+}
+
+.starfield::before {
+  opacity: 0.55;
+  background-image:
+    radial-gradient(1px 1px at 12% 48%, #fff 45%, transparent 60%),
+    radial-gradient(2px 2px at 38% 56%, #b9d5ff 45%, transparent 60%),
+    radial-gradient(1px 1px at 58% 35%, #fff 45%, transparent 60%),
+    radial-gradient(2px 2px at 77% 63%, #8eb8ff 45%, transparent 60%),
+    radial-gradient(1px 1px at 94% 12%, #fff 45%, transparent 60%);
+  background-size: 300px 280px;
+  animation: star-twinkle 4s ease-in-out infinite alternate;
+}
+
+.starfield::after {
+  background: radial-gradient(ellipse at center, transparent 35%, rgba(1, 3, 12, 0.58) 100%);
+}
+
+.solar-system {
+  position: relative;
+  width: min(94vw, 1100px);
+  aspect-ratio: 1.65;
+  max-height: 78vh;
+  display: grid;
+  place-items: center;
+  transform: translateY(-1.5vh);
+}
+
+.sun {
+  position: absolute;
+  z-index: 2;
+  width: var(--sun-size);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%, #fff8c6 0 5%, #ffe985 18%, #ffb52e 55%, #f66a18 78%, #c83717 100%);
+  box-shadow:
+    0 0 18px 5px rgba(255, 181, 46, 0.55),
+    0 0 55px 18px rgba(255, 125, 31, 0.2),
+    0 0 115px 35px rgba(255, 110, 35, 0.1);
+  animation: sun-pulse 4s ease-in-out infinite;
+}
+
+.orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid var(--orbit);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: orbit-spin var(--duration) linear infinite;
+}
+
+.orbit--mercury { width: 15%; height: 15%; --duration: 5s; }
+.orbit--venus   { width: 24%; height: 24%; --duration: 8s; }
+.orbit--earth   { width: 34%; height: 34%; --duration: 11s; }
+.orbit--mars    { width: 45%; height: 45%; --duration: 15s; }
+.orbit--jupiter { width: 59%; height: 59%; --duration: 21s; }
+.orbit--saturn  { width: 73%; height: 73%; --duration: 27s; }
+.orbit--uranus  { width: 86%; height: 86%; --duration: 33s; }
+.orbit--neptune { width: 98%; height: 98%; --duration: 40s; }
+
+.planet {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.planet--mercury {
+  width: 0.55rem;
+  height: 0.55rem;
+  background: radial-gradient(circle at 30% 25%, #eee1d1, #8b827e 72%);
+  box-shadow: 0 0 9px rgba(226, 218, 210, 0.25);
+}
+
+.planet--venus {
+  width: 0.85rem;
+  height: 0.85rem;
+  background: radial-gradient(circle at 30% 25%, #fff0b5, #d78a4e 65%, #7d3b37);
+  box-shadow: 0 0 12px rgba(240, 166, 96, 0.25);
+}
+
+.planet--earth {
+  width: 1.05rem;
+  height: 1.05rem;
+  background:
+    radial-gradient(ellipse at 62% 35%, #79d88c 0 12%, transparent 13%),
+    radial-gradient(ellipse at 34% 68%, #60c879 0 17%, transparent 18%),
+    radial-gradient(circle at 35% 28%, #9fe8ff, #277be8 54%, #102d84 100%);
+  box-shadow: 0 0 13px rgba(64, 148, 255, 0.4);
+}
+
+.moon-orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid rgba(211, 224, 255, 0.28);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: orbit-spin 2.4s linear infinite;
+}
+
+.moon {
+  position: absolute;
+  top: -0.2rem;
+  left: 50%;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+  background: #e7e9ef;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.55);
+}
+
+.planet--mars {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: radial-gradient(circle at 30% 25%, #ffb18c, #d64b35 62%, #69233d);
+  box-shadow: 0 0 10px rgba(231, 89, 62, 0.2);
+}
+
+.planet--jupiter {
+  width: 2rem;
+  height: 2rem;
+  background: repeating-linear-gradient(
+    0deg,
+    #c47a4b 0 4px,
+    #f2d2a0 4px 8px,
+    #a85b3d 8px 10px,
+    #f7e2bb 10px 14px
+  );
+  box-shadow: inset -7px -2px 9px rgba(37, 19, 27, 0.38);
+}
+
+.planet--saturn {
+  width: 1.7rem;
+  height: 1.7rem;
+  background: repeating-linear-gradient(
+    0deg,
+    #f5dba0 0 4px,
+    #bc8954 4px 7px,
+    #eac58a 7px 10px
+  );
+  box-shadow: inset -6px -2px 8px rgba(43, 28, 31, 0.35);
+}
+
+.saturn-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2.8rem;
+  height: 0.9rem;
+  border: 3px solid rgba(218, 183, 131, 0.85);
+  border-left-color: rgba(255, 231, 180, 0.95);
+  border-right-color: rgba(163, 119, 79, 0.85);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotate(-18deg);
+  box-shadow: 0 0 5px rgba(235, 195, 133, 0.25);
+}
+
+.planet--uranus {
+  width: 1.25rem;
+  height: 1.25rem;
+  background: radial-gradient(circle at 30% 25%, #c1fbff, #50cbdc 56%, #287aaf);
+  box-shadow: inset -5px -2px 7px rgba(12, 45, 83, 0.3);
+}
+
+.planet--neptune {
+  width: 1.2rem;
+  height: 1.2rem;
+  background: radial-gradient(circle at 30% 25%, #7cb8ff, #2458d8 58%, #101e77);
+  box-shadow: inset -5px -2px 7px rgba(4, 12, 56, 0.4);
+}
+
+.title-card {
+  position: absolute;
+  bottom: clamp(1.5rem, 5vh, 3.5rem);
+  left: 50%;
+  width: min(90%, 28rem);
+  text-align: center;
+  transform: translateX(-50%);
+  animation: title-arrive 1.2s ease-out both;
+}
+
+.eyebrow {
+  margin: 0 0 0.6rem;
+  color: #8fbaff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 600;
+  letter-spacing: -0.045em;
+  text-shadow: 0 0 30px rgba(111, 158, 255, 0.2);
+}
+
+.subtitle {
+  margin: 0.7rem 0 0;
+  color: #a9b7d7;
+  font-size: clamp(0.8rem, 1.5vw, 0.95rem);
+}
+
+@keyframes orbit-spin {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to   { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes sun-pulse {
+  from, to {
+    box-shadow:
+      0 0 18px 5px rgba(255, 181, 46, 0.55),
+      0 0 55px 18px rgba(255, 125, 31, 0.2),
+      0 0 115px 35px rgba(255, 110, 35, 0.1);
+  }
+  50% {
+    box-shadow:
+      0 0 24px 7px rgba(255, 196, 66, 0.65),
+      0 0 68px 23px rgba(255, 125, 31, 0.25),
+      0 0 130px 42px rgba(255, 110, 35, 0.13);
+  }
+}
+
+@keyframes star-twinkle {
+  from { opacity: 0.25; }
+  to   { opacity: 0.8; }
+}
+
+@keyframes star-drift {
+  from { background-position: 0 0; }
+  to   { background-position: 420px 360px; }
+}
+
+@keyframes title-arrive {
+  from { opacity: 0; translate: 0 10px; }
+  to   { opacity: 1; translate: 0 0; }
+}
+
+@media (max-width: 600px) {
+  .solar-system {
+    width: 145vw;
+    max-height: 58vh;
+    transform: translateY(-8vh) scale(0.88);
+  }
+
+  .title-card {
+    bottom: 8vh;
+  }
+
+  .orbit--jupiter .planet { width: 1.5rem; height: 1.5rem; }
+  .planet--saturn { width: 1.35rem; height: 1.35rem; }
+  .saturn-ring { width: 2.2rem; height: 0.7rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
