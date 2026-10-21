@@ -944,6 +944,14 @@
     "projectPath": "Art/SuperCoderBlue-xmas-tree"
   },
   {
+    "author": "Tanish018",
+    "artName": "Holographic Matrix",
+    "githubLink": "https://github.com/Tanish018",
+    "pageLink": "./Art/Tanish018-Holographic-Matrix/index.html",
+    "imageLink": "./Art/Tanish018-Holographic-Matrix/icon.png",
+    "projectPath": "Art/Tanish018-Holographic-Matrix"
+  },
+  {
     "author": "Ujjansh05",
     "artName": "Moonlit Sky",
     "githubLink": "https://github.com/Ujjansh05",
@@ -1190,6 +1198,14 @@
     "pageLink": "./Art/ahuva-dev-inkPortal/index.html",
     "imageLink": "./Art/ahuva-dev-inkPortal/icon.png",
     "projectPath": "Art/ahuva-dev-inkPortal"
+  },
+  {
+    "author": "ahuva-dev",
+    "artName": "tiny Plant",
+    "githubLink": "https://github.com/ahuva-dev",
+    "pageLink": "./Art/ahuva-dev-tinyPlant/index.html",
+    "imageLink": "./Art/ahuva-dev-tinyPlant/icon.png",
+    "projectPath": "Art/ahuva-dev-tinyPlant"
   },
   {
     "author": "andreea369",
