@@ -1,0 +1,44 @@
+:root {
+  --sky-top: #f6c88f;
+  --sky-bottom: #fbe9c9;
+  --trunk: #6b4528;
+  --canopy: #4f7a3a;
+  --canopy-light: #6a9447;
+  --ground: #7a5b36;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+html, body { height: 100%; margin: 0; }
+body { display: grid; place-items: center; background: linear-gradient(var(--sky-top), var(--sky-bottom)); }
+.stage { position: relative; width: 340px; height: 300px; overflow: hidden; transform: scale(var(--s, 1)); }
+@media (max-width: 360px) { .stage { --s: .85; } }
+
+.ground { position: absolute; left: 0; right: 0; bottom: 0; height: 40px; background: var(--ground); border-radius: 50% 50% 0 0 / 14px 14px 0 0; }
+.trunk { position: absolute; left: 152px; top: 130px; width: 36px; height: 140px; background: var(--trunk); border-radius: 6px 6px 0 0; }
+.trunk::before, .trunk::after { content: ""; position: absolute; height: 10px; background: var(--trunk); border-radius: 6px; top: 20px; }
+.trunk::before { left: -26px; width: 34px; transform: rotate(-30deg); }
+.trunk::after  { right: -26px; width: 34px; transform: rotate(30deg); }
+.crown { position: absolute; border-radius: 50%; background: var(--canopy); }
+.c1 { left: 60px;  top: 40px; width: 130px; height: 120px; }
+.c2 { left: 150px; top: 40px; width: 130px; height: 120px; background: var(--canopy-light); }
+.c3 { left: 105px; top: 10px; width: 130px; height: 120px; background: var(--canopy-light); }
+
+.leaf { position: absolute; left: var(--l); top: 80px; animation: fall var(--t) var(--dl) linear infinite; opacity: 0; }
+.leaf i { display: block; width: 14px; height: 14px; background: var(--c); border-radius: 0 100% 0 100%;
+  animation: sway calc(var(--t) / 3) var(--dl) ease-in-out infinite; }
+@keyframes fall {
+  0%   { transform: translateY(0); opacity: 0; }
+  8%   { opacity: 1; }
+  88%  { opacity: 1; }
+  100% { transform: translateY(var(--d, 175px)); opacity: 0; }
+}
+@keyframes sway {
+  0%, 100% { transform: translateX(-16px) rotate(-35deg); }
+  50%      { transform: translateX(16px)  rotate(45deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .leaf, .leaf i { animation: none; opacity: 1; }
+  .leaf { top: 240px; }
+}
